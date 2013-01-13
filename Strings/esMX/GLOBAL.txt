@@ -4,6 +4,8 @@ GLOBAL_ADDFRIEND_ERROR_MALFORMED	Debes ingresar una dirección de correo electr�
 GLOBAL_ADDFRIEND_HEADER	Agregar un amigo	
 GLOBAL_ADDFRIEND_INSTRUCTION	Ingresa una BattleTag o una dirección de correo electrónico.	
 GLOBAL_ADDFRIEND_SENT_CONFIRMATION	Solicitud de amistad enviada.	
+GLOBAL_APPROXIMATE_DATETIME	~{0}	0=time string
+GLOBAL_APPROXIMATE_DATETIME_RANGE	~{0} - {1}	0=min seconds 1=max seconds string
 GLOBAL_ARENA_MEDAL_0	Llave de novicio	
 GLOBAL_ARENA_MEDAL_1	Llave de aprendiz	
 GLOBAL_ARENA_MEDAL_10	Llave natoescarcha	
@@ -74,6 +76,7 @@ GLOBAL_DATETIME_LASTONLINE_MINUTES	Última conexión: hace {0} |4(minuto,minutos
 GLOBAL_DATETIME_LASTONLINE_MONTH	Última conexión: hace más de un mes	
 GLOBAL_DATETIME_LASTONLINE_SECONDS	Última conexión: hace un minuto	
 GLOBAL_DATETIME_LASTONLINE_WEEKS	Última conexión: hace {0} |4(semana,semanas)	
+GLOBAL_DATETIME_SPINNER_SECONDS	{0} |4(seg,segs)	
 GLOBAL_DATETIME_SPLASHSCREEN_DAY	> 1 día	
 GLOBAL_DATETIME_SPLASHSCREEN_DAYS	{0} |4(día,días)	
 GLOBAL_DATETIME_SPLASHSCREEN_HOURS	{0} |4(hora,horas)	
@@ -128,6 +131,8 @@ GLOBAL_FORGE_END_JOKE_7	¡CONTEMPLEN!
 GLOBAL_FORGE_END_JOKE_8	¡Todavía no terminó! ¿O sí?	
 GLOBAL_FORGE_END_TITLE	Arena completa	
 GLOBAL_FRIEND_CHALLENGE_ACCEPT	¡Sí!	
+GLOBAL_FRIEND_CHALLENGE_BODY1	Te ha desafiado	
+GLOBAL_FRIEND_CHALLENGE_BODY2	¿Aceptas?	
 GLOBAL_FRIEND_CHALLENGE_DECLINE	No	
 GLOBAL_FRIEND_CHALLENGE_HEADER	Desafío	
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_CANCELED	{0} ha cancelado el desafío.	0=friend name
@@ -135,14 +140,13 @@ GLOBAL_FRIEND_CHALLENGE_OPPONENT_DECLINED	{0} ha rechazado tu desafío.	0=friend
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_FRIEND_REMOVED	Se ha cancelado el desafío porque {0} ya no es tu amigo.	0=friend name
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_WAITING_DECK	Estás esperando que {0} elija un mazo.	0=friend name
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_WAITING_RESPONSE	Estás esperando que {0} responda a tu desafío.	0=friend name
-GLOBAL_FRIEND_CHALLENGE_RECEIVED	{0} te ha desafiado.\n\n¿Aceptas?	0=friend name
 GLOBAL_FRIEND_CHALLENGE_TITLE	Amistoso	
 GLOBAL_FRIENDLIST_ADD_FRIEND_BUTTON	Agregar	
 GLOBAL_FRIENDLIST_CURRENT_GAMES_HEADER	PARTIDAS ACTUALES: {0}	0=number of friends you have unfinished games with
 GLOBAL_FRIENDLIST_FRIENDS_HEADER	AMIGOS: {0}/{1} en línea	0=number of online friends 1=number of offline friends
 GLOBAL_FRIENDLIST_FRIENDS_HEADER_ALL_ONLINE	AMIGOS: {0} en línea	
 GLOBAL_FRIENDLIST_FRIENDS_HEADER_NO_ONLINE	AMIGOS	
-GLOBAL_FRIENDLIST_LASTPLAYED	Desconectado desde:	
+GLOBAL_FRIENDLIST_LASTPLAYED	Último adversario:	
 GLOBAL_FRIENDLIST_MYSTATUS	EN LÍNEA	
 GLOBAL_FRIENDLIST_NEARBY_PLAYERS_HEADER	JUGADORES CERCANOS - {0}	0=number of players
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_ALERT_MESSAGE	¿Realmente deseas eliminar a {0}?	0=friend name
@@ -150,6 +154,8 @@ GLOBAL_FRIENDLIST_REMOVE_FRIEND_BUTTON	Eliminar
 GLOBAL_FRIENDLIST_REQUEST_SENT_TIME	Enviada: {0}	0=one of the GLOBAL_DATETIME_ELAPSED_ strings
 GLOBAL_FRIENDLIST_REQUESTS_HEADER	SOLICITUDES DE AMISTAD: {0}	0=number of received friend requests
 GLOBAL_GAME_MENU	Menú del juego	
+GLOBAL_GAME_QUEUE_TIME_IN_QUEUE	Tiempo en cola	
+GLOBAL_GAME_QUEUE_WAIT_TIME	Tiempo de espera	
 GLOBAL_GOLD_REWARD_ALREADY_CAPPED	Ya has obtenido {0} de oro por hoy.	
 GLOBAL_GOLD_REWARD_BAD_RATING	Tú o tu adversario no tienen la calificación necesaria para obtener oro.	
 GLOBAL_GOLD_REWARD_SHORT_GAME	La partida no cumplió con los requisitos de tiempo para obtener oro.	
@@ -192,7 +198,7 @@ GLOBAL_KEYWORD_IMMUNE_TEXT	No puede recibir daño.
 GLOBAL_KEYWORD_RECALL	Sobrecarga: X	
 GLOBAL_KEYWORD_RECALL_TEXT	Tienes X menos de maná en el próximo turno.	
 GLOBAL_KEYWORD_SECRET	Secreto	
-GLOBAL_KEYWORD_SECRET_TEXT	Está oculto hasta que se produce una acción específica.	
+GLOBAL_KEYWORD_SECRET_TEXT	Oculto hasta que tu adversario realice una acción específica.	
 GLOBAL_KEYWORD_SILENCE	Silenciar	
 GLOBAL_KEYWORD_SILENCE_TEXT	Remueve todas las habilidades de una carta.	
 GLOBAL_KEYWORD_SPELLPOWER	Daño de hechizo	
@@ -228,7 +234,7 @@ GLOBAL_LOSSES	Derrotas
 GLOBAL_MEDAL_0	Leyenda	
 GLOBAL_MEDAL_1	Tabernero	
 GLOBAL_MEDAL_10	Magi ogro	
-GLOBAL_MEDAL_11	Caza mayor	
+GLOBAL_MEDAL_11	Cazador mayor	
 GLOBAL_MEDAL_12	Comandante Grito de guerra	
 GLOBAL_MEDAL_13	Corsario aterrador	
 GLOBAL_MEDAL_14	Líder de banda	
@@ -249,7 +255,7 @@ GLOBAL_MEDAL_4	Gigante montés
 GLOBAL_MEDAL_5	Gigante de mar	
 GLOBAL_MEDAL_6	Anciano de la guerra	
 GLOBAL_MEDAL_7	Caminasol	
-GLOBAL_MEDAL_8	Señor de la guerra Lobo gélido	
+GLOBAL_MEDAL_8	Señor de guerra Lobo gélido	
 GLOBAL_MEDAL_9	Caballero de la Mano de Plata	
 GLOBAL_MEDAL_ARENA_TOOLTIP_BODY	Esta es la mejor llave que has obtenido en la Arena.	
 GLOBAL_MEDAL_REWARD_CONGRATULATIONS	¡Felicitaciones!	
@@ -258,11 +264,11 @@ GLOBAL_MEDAL_TOOLTIP_BODY	¡Gana partidas para avanzar al próximo rango!\n\nPr�
 GLOBAL_MEDAL_TOOLTIP_BODY_ARENA_GRAND_MASTER	¡Eres un campeón de la Arena!	
 GLOBAL_MEDAL_TOOLTIP_BODY_LEGEND	¡Eres una leyenda! En este rango, tu posición cambiará con cada partida.	
 GLOBAL_MEDAL_TOOLTIP_HEADER	Medalla de {0}	0=medal name
-GLOBAL_MOBILECHAT_NOTIFICATION_MULLIGAIN	Game started!	
-GLOBAL_MOBILECHAT_NOTIFICATION_TURN_COUNTDOWN	Running out of time!	
-GLOBAL_MOBILECHAT_NOTIFICATION_YOUR_TURN	Your turn!	
-GLOBAL_MOBILECHAT_RETURN_TO_GAME	Return to game	
-GLOBAL_MOBILECHAT_RETURN_TO_MENU	Return to menu	
+GLOBAL_MOBILECHAT_NOTIFICATION_MULLIGAIN	¡El juego ha comenzado!	
+GLOBAL_MOBILECHAT_NOTIFICATION_TURN_COUNTDOWN	¡Queda poco tiempo!	
+GLOBAL_MOBILECHAT_NOTIFICATION_YOUR_TURN	¡Tu turno!	
+GLOBAL_MOBILECHAT_RETURN_TO_GAME	Regresar al juego	
+GLOBAL_MOBILECHAT_RETURN_TO_MENU	Regresar al menú	
 GLOBAL_MY_NUM_WINS	{0}	0=number of games this player has won
 GLOBAL_OFFLINE	Desconectado	
 GLOBAL_OKAY	Aceptar	
@@ -324,6 +330,7 @@ GLOBAL_RARITY_EPIC	Épica
 GLOBAL_RARITY_FREE	Gratis	
 GLOBAL_RARITY_LEGENDARY	Legendaria	
 GLOBAL_RARITY_RARE	Rara	
+GLOBAL_REMAINING_DATETIME	{0} restante	0=time string
 GLOBAL_RESUME_GAME	Reanudar	
 GLOBAL_REWARD_ARCANE_DUST_HEADLINE	¡Has conseguido Polvo arcano!	
 GLOBAL_REWARD_BOOSTER_HEADLINE	¡Paquete de experto conseguido!	

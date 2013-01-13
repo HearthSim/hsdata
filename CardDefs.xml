@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<CardDefs build="4243">
+<CardDefs build="4442">
 	<Entity CardID="CRED_01" ID="1762" version="2">
 		<Tag enumID="185" name="CARDNAME" type="LocString">
 			<deDE>Jason Chayes</deDE>
@@ -1145,7 +1145,7 @@ Rigenera 2 Salute.</itIT>
 			<enUS>Put a copy of a random card in your opponent's hand into your hand.</enUS>
 			<esES>Coloca una copia de una carta aleatoria de la mano de tu oponente en tu mano.</esES>
 			<esMX>Pon una copia de una carta aleatoria de la mano de tu adversario en tu mano.</esMX>
-			<frFR>Place une copie d’une carte aléatoire de l’adversaire dans votre main.</frFR>
+			<frFR>Place une copie d’une carte aléatoire de la main de l’adversaire dans la vôtre.</frFR>
 			<itIT>Metti nella tua mano una copia di una carta casuale dalla mano dell'avversario.</itIT>
 			<koKR>상대편 손에 있는 카드 1장을 무작위로 복사하여 내 손으로 가져옵니다.</koKR>
 			<plPL>Umieść w swojej ręce kopię losowej karty z ręki przeciwnika.</plPL>
@@ -1900,21 +1900,25 @@ Dobierz kartę.</plPL>
 			<esES>&lt;b&gt;Poder de héroe&lt;/b&gt;
  +1 p. de ataque este turno. +1 p. de armadura.</esES>
 			<esMX>&lt;b&gt;Poder de héroe&lt;/b&gt;
- +1 de Ataque en este turno. +1 de Armadura.</esMX>
++1 de Ataque en este turno.
++1 de Armadura.</esMX>
 			<frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt; 
 +1 ATQ pendant ce tour. +1 Armure.</frFR>
 			<itIT>&lt;b&gt;Potere Eroe&lt;/b&gt;
 +1 Attacco per questo turno e +1 Armatura.</itIT>
 			<koKR>&lt;b&gt;영웅 능력&lt;/b&gt;
- 방어도 +1. 이번 턴에만 공격력 +1.</koKR>
+ 방어도 +1.
+이번 턴에만 공격력 +1.</koKR>
 			<plPL>&lt;b&gt;Moc specjalna&lt;/b&gt; 
  +1 do ataku w tej turze. +1 do pancerza.</plPL>
 			<ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt;
- +1 de Ataque neste turno. +1 de Armadura.</ptBR>
++1 de Ataque neste turno.
++1 de Armadura.</ptBR>
 			<ruRU>&lt;b&gt;Сила героя&lt;/b&gt;
  +1 к атаке до конца хода. +1 к броне.</ruRU>
-			<zhCN>英雄技能 
-获得1点护甲值，并在本回合中获得+1攻击力。</zhCN>
+			<zhCN>&lt;b&gt;英雄技能&lt;/b&gt;
+本回合+1攻击力。
++1护甲值。</zhCN>
 			<zhTW>&lt;b&gt;英雄能力&lt;/b&gt;
 本回合+1攻擊力。+1護甲值</zhTW>
 		</Tag>
@@ -3045,7 +3049,7 @@ Infligge 1 danno.</itIT>
 			<PlayRequirement param="" reqID="11"/>
 		</Power>
 	</Entity>
-	<Entity CardID="CS2_041e" ID="1853" version="2">
+	<Entity CardID="CS2_041e" ID="0" version="2">
 		<Tag enumID="185" name="CARDNAME" type="LocString">
 			<deDE>Macht der Ahnen</deDE>
 			<enUS>Ancestral Infusion</enUS>
@@ -3750,18 +3754,18 @@ Pesca una carta e subisce 2 danni.</itIT>
 			<zhTW>血之小鬼</zhTW>
 		</Tag>
 		<Tag enumID="184" name="CARDTEXT_INHAND" type="LocString">
-			<deDE>&lt;b&gt;Verstohlenheit&lt;/b&gt;. Eure anderen Diener haben +1 Leben.</deDE>
-			<enUS>&lt;b&gt;Stealth&lt;/b&gt;. Your other minions have +1 Health.</enUS>
-			<esES>&lt;b&gt;Sigilo&lt;/b&gt;. Tus demás esbirros tienen +1 p. de salud.</esES>
-			<esMX>&lt;b&gt;Sigilo&lt;/b&gt;. Tus otros esbirros tienen +1 de Salud.</esMX>
-			<frFR>&lt;b&gt;Camouflage&lt;/b&gt;. Vos autres serviteurs ont +1 PV.</frFR>
-			<itIT>&lt;b&gt;Furtività&lt;/b&gt;. Gli altri tuoi servitori hanno +1 Salute.</itIT>
-			<koKR>&lt;b&gt;은신&lt;/b&gt;. 내 다른 하수인들이 생명력을 +1 얻습니다.</koKR>
-			<plPL>&lt;b&gt;Ukrycie&lt;/b&gt;. Twoi pozostali stronnicy otrzymują +1 do zdrowia.</plPL>
-			<ptBR>&lt;b&gt;Furtividade&lt;/b&gt;. Seus outros lacaios têm +1 de Vida.</ptBR>
-			<ruRU>&lt;b&gt;Маскировка&lt;/b&gt;. Другие ваши существа получают +1 к здоровью.</ruRU>
-			<zhCN>&lt;b&gt;潜行&lt;/b&gt;，你的其他随从获得+1生命值。</zhCN>
-			<zhTW>&lt;b&gt;潛行&lt;/b&gt;。你的其他手下獲得+1生命值</zhTW>
+			<deDE>&lt;b&gt;Verstohlenheit&lt;/b&gt;. Verleiht am Ende Eures Zuges einem anderen zufälligen befreundeten Diener +1 Leben.</deDE>
+			<enUS>&lt;b&gt;Stealth&lt;/b&gt;. At the end of your turn, give another random friendly minion +1 Health.</enUS>
+			<esES>&lt;b&gt;Sigilo&lt;/b&gt;. Al final de tu turno, otorga +1 p. de salud a otro esbirro amistoso aleatorio.</esES>
+			<esMX>&lt;b&gt;Sigilo&lt;/b&gt;. Al final de tu turno, otorga +1 de Salud a otro esbirro aliado aleatorio.</esMX>
+			<frFR>&lt;b&gt;Camouflage&lt;/b&gt;. À la fin de votre tour, donne +1 PV à un autre serviteur allié aléatoire.</frFR>
+			<itIT>&lt;b&gt;Furtività&lt;/b&gt;. Alla fine del tuo turno, +1 Salute a un altro tuo servitore casuale.</itIT>
+			<koKR>&lt;b&gt;은신&lt;/b&gt;. 내 턴이 끝날 때, 다른 무작위 아군 하수인에게 생명력을 +1 부여합니다.</koKR>
+			<plPL>&lt;b&gt;Ukrycie&lt;/b&gt;. Na koniec swojej tury daj innemu, losowemu przyjaznemu stronnikowi +1 do zdrowia.</plPL>
+			<ptBR>&lt;b&gt;Furtivo&lt;/b&gt;. No fim do seu turno, conceda +1 de Vida a outro lacaio aliado aleatório.</ptBR>
+			<ruRU>&lt;b&gt;Маскировка&lt;/b&gt;. В конце вашего хода другое ваше случайное существо получает +1 к здоровью.</ruRU>
+			<zhCN>&lt;b&gt;潜行&lt;/b&gt;，在你的回合结束时，随机使一个其他友方随从获得+1生命值。</zhCN>
+			<zhTW>&lt;b&gt;潛行&lt;/b&gt;。你的回合結束時，賦予另一個隨機友方手下+1生命值</zhTW>
 		</Tag>
 		<Tag enumID="351" name="FLAVORTEXT" type="LocString">
 			<deDE>Wichtel geben sich damit zufrieden, sich zu verstecken und dann wahllos Leute zu beleidigen.</deDE>
@@ -3781,8 +3785,8 @@ Pesca una carta e subisce 2 danni.</itIT>
 			<enUS>Blood Pact</enUS>
 		</Tag>
 		<Tag enumID="342" name="ARTISTNAME" type="String">Bernie Kang</Tag>
+		<Tag enumID="32" name="TRIGGER_VISUAL" type="Int" value="1"/>
 		<Tag enumID="45" name="HEALTH" type="Int" value="1"/>
-		<Tag enumID="47" name="ATK" type="Int" value="1"/>
 		<Tag enumID="48" name="COST" type="Int" value="1"/>
 		<Tag enumID="183" name="CARD_SET" type="Int" value="3"/>
 		<Tag enumID="191" name="STEALTH" type="Int" value="1"/>
@@ -3796,6 +3800,8 @@ Pesca una carta e subisce 2 danni.</itIT>
 		<Tag enumID="321" name="COLLECTIBLE" type="Int" value="1"/>
 		<Power definition="87bd7870-bbcc-4953-875e-b7c76cdbc397"/>
 		<Power definition="9fdc365e-edd4-4d6d-842e-315e5c632b1b"/>
+		<Power definition="8fb4fc8f-256f-4224-926e-645f1610e345"/>
+		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False"/>
 	</Entity>
 	<Entity CardID="CS2_059o" ID="185" version="2">
 		<Tag enumID="185" name="CARDNAME" type="LocString">
@@ -3813,18 +3819,18 @@ Pesca una carta e subisce 2 danni.</itIT>
 			<zhTW>血之契印</zhTW>
 		</Tag>
 		<Tag enumID="184" name="CARDTEXT_INHAND" type="LocString">
-			<deDE>Der Blutwichtel verleiht +1 Leben.</deDE>
-			<enUS>Blood Imp is granting +1 Health.</enUS>
-			<esES>El diablillo sangriento otorga +1 p. de salud.</esES>
-			<esMX>El Diablillo de sangre otorga +1 de Salud.</esMX>
-			<frFR>Le diablotin de sang confère +1 PV.</frFR>
-			<itIT>+1 Salute dall'Imp del Sangue.</itIT>
-			<koKR>피의 임프가 생명력 +1 부여</koKR>
-			<plPL>Chochlik krwi daje +1 do zdrowia.</plPL>
-			<ptBR>O Diabrete de Sangue está concedendo +1 de Vida.</ptBR>
-			<ruRU>+1 к здоровью от &lt;i&gt;Кровавого беса&lt;/i&gt;.</ruRU>
-			<zhCN>鲜血小鬼使其获得+1生命值。</zhCN>
-			<zhTW>血之小鬼賦予了+1生命值</zhTW>
+			<deDE>Erhöhtes Leben.</deDE>
+			<enUS>Increased Health.</enUS>
+			<esES>Salud aumentada.</esES>
+			<esMX>Salud aumentada.</esMX>
+			<frFR>Vie augmentée.</frFR>
+			<itIT>Salute aumentata.</itIT>
+			<koKR>생명력 증가</koKR>
+			<plPL>Zwiększone zdrowie.</plPL>
+			<ptBR>Vida aumentada.</ptBR>
+			<ruRU>Здоровье увеличено.</ruRU>
+			<zhCN>生命值增加。</zhCN>
+			<zhTW>生命值提高。</zhTW>
 		</Tag>
 		<Tag enumID="183" name="CARD_SET" type="Int" value="3"/>
 		<Tag enumID="199" name="CLASS" type="Int" value="9"/>
@@ -5643,18 +5649,18 @@ Ottieni 2 Armatura.</itIT>
 			<zhTW>衝鋒</zhTW>
 		</Tag>
 		<Tag enumID="184" name="CARDTEXT_INHAND" type="LocString">
-			<deDE>Verleiht einem befreundeten Diener &lt;b&gt;Ansturm&lt;/b&gt;.</deDE>
-			<enUS>Give a friendly minion &lt;b&gt;Charge&lt;/b&gt;.</enUS>
-			<esES>Otorga &lt;b&gt;Cargar&lt;/b&gt; a un esbirro amistoso.</esES>
-			<esMX>Otorga &lt;b&gt;Carga&lt;/b&gt; a un esbirro aliado.</esMX>
-			<frFR>Confère &lt;b&gt;Charge&lt;/b&gt; à un serviteur allié.</frFR>
-			<itIT>Fornisce &lt;b&gt;Carica&lt;/b&gt; a un tuo servitore.</itIT>
-			<koKR>아군 하수인 하나에게 &lt;b&gt;돌진&lt;/b&gt;을 부여합니다.</koKR>
-			<plPL>Daj przyjaznemu stronnikowi &lt;b&gt;Szarżę&lt;/b&gt;.</plPL>
-			<ptBR>Conceda &lt;b&gt;Investida&lt;/b&gt; a um lacaio aliado.</ptBR>
-			<ruRU>Ваше выбранное существо получает способность &lt;b&gt;«Рывок»&lt;/b&gt;.</ruRU>
-			<zhCN>在本回合中，使一个友方随从获得&lt;b&gt;冲锋&lt;/b&gt;。</zhCN>
-			<zhTW>賦予一個友方手下&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>
+			<deDE>Verleiht einem befreundeten Diener +2 Angriff und &lt;b&gt;Ansturm&lt;/b&gt;.</deDE>
+			<enUS>Give a friendly minion +2 Attack and &lt;b&gt;Charge&lt;/b&gt;.</enUS>
+			<esES>Otorga +2 p. de ataque y &lt;b&gt;Cargar&lt;/b&gt; a un esbirro amistoso.</esES>
+			<esMX>Otorga +2 de Ataque y &lt;b&gt;Carga&lt;/b&gt; a un esbirro aliado.</esMX>
+			<frFR>Confère +2 ATQ et &lt;b&gt;Charge&lt;/b&gt; à un serviteur allié.</frFR>
+			<itIT>Fornisce &lt;b&gt;Carica&lt;/b&gt; e +2 Attacco a un tuo servitore.</itIT>
+			<koKR>아군 하수인 하나에게 공격력 +2와 &lt;b&gt;돌진&lt;/b&gt;을 부여합니다.</koKR>
+			<plPL>Daj przyjaznemu stronnikowi +2 do ataku i &lt;b&gt;Szarżę&lt;/b&gt;.</plPL>
+			<ptBR>Conceda +2 de Ataque e &lt;b&gt;Investida&lt;/b&gt; a um lacaio aliado neste turno.</ptBR>
+			<ruRU>Ваше выбранное существо получает +2 к атаке и способность &lt;b&gt;«Рывок»&lt;/b&gt;.</ruRU>
+			<zhCN>使一个友方随从获得+2攻击力和&lt;b&gt;冲锋&lt;/b&gt;。</zhCN>
+			<zhTW>賦予一個友方手下+2攻擊力及&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>
 		</Tag>
 		<Tag enumID="351" name="FLAVORTEXT" type="LocString">
 			<deDE>„He, Leute! Macht mal etwas langsamer!“ – Überraschter Diener</deDE>
@@ -5678,6 +5684,7 @@ Ottieni 2 Armatura.</itIT>
 			<enUS>Unlocked at Level 23.</enUS>
 		</Tag>
 		<Tag enumID="342" name="ARTISTNAME" type="String">Alex Horley Orlandelli</Tag>
+		<Tag enumID="48" name="COST" type="Int" value="3"/>
 		<Tag enumID="183" name="CARD_SET" type="Int" value="2"/>
 		<Tag enumID="199" name="CLASS" type="Int" value="10"/>
 		<Tag enumID="201" name="FACTION" type="Int" value="3"/>
@@ -5747,18 +5754,18 @@ Ottieni 2 Armatura.</itIT>
 			<zhTW>衝鋒</zhTW>
 		</Tag>
 		<Tag enumID="184" name="CARDTEXT_INHAND" type="LocString">
-			<deDE>Hat &lt;b&gt;Ansturm&lt;/b&gt;.</deDE>
-			<enUS>Has &lt;b&gt;Charge&lt;/b&gt;.</enUS>
-			<esES>Tiene &lt;b&gt;Cargar&lt;/b&gt;.</esES>
-			<esMX>Tiene &lt;b&gt;Carga&lt;/b&gt;.</esMX>
-			<frFR>A &lt;b&gt;Charge&lt;/b&gt;.</frFR>
-			<itIT>&lt;b&gt;Carica&lt;/b&gt;.</itIT>
-			<koKR>&lt;b&gt;돌진&lt;/b&gt;</koKR>
-			<plPL>Posiada &lt;b&gt;Szarżę&lt;/b&gt;.</plPL>
-			<ptBR>Tem &lt;b&gt;Investida&lt;/b&gt;.</ptBR>
-			<ruRU>Имеет способность &lt;b&gt;«Рывок»&lt;/b&gt;.</ruRU>
-			<zhCN>获得&lt;b&gt;冲锋&lt;/b&gt;。</zhCN>
-			<zhTW>擁有&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>
+			<deDE>+2 Angriff und &lt;b&gt;Ansturm&lt;/b&gt;.</deDE>
+			<enUS>+2 Attack and &lt;b&gt;Charge&lt;/b&gt;.</enUS>
+			<esES>+2 p. de ataque y &lt;b&gt;Cargar&lt;/b&gt;.</esES>
+			<esMX>+2 de Ataque y &lt;b&gt;Carga&lt;/b&gt;.</esMX>
+			<frFR>+2 ATQ et &lt;b&gt;Charge&lt;/b&gt;.</frFR>
+			<itIT>&lt;b&gt;Carica&lt;/b&gt; e +2 Attacco.</itIT>
+			<koKR>공격력 +2, &lt;b&gt;돌진&lt;/b&gt;</koKR>
+			<plPL>+2 do ataku oraz &lt;b&gt;Szarża&lt;/b&gt;.</plPL>
+			<ptBR>+2 de Ataque e &lt;b&gt;Investida&lt;/b&gt;.</ptBR>
+			<ruRU>+2 к атаке и способность &lt;b&gt;«Рывок»&lt;/b&gt;.</ruRU>
+			<zhCN>+2攻击力并获得&lt;b&gt;冲锋&lt;/b&gt;。</zhCN>
+			<zhTW>+2攻擊力及&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>
 		</Tag>
 		<Tag enumID="183" name="CARD_SET" type="Int" value="2"/>
 		<Tag enumID="199" name="CLASS" type="Int" value="10"/>
@@ -7994,18 +8001,18 @@ Ottieni 2 Armatura.</itIT>
 			<zhTW>嚴厲的士官</zhTW>
 		</Tag>
 		<Tag enumID="184" name="CARDTEXT_INHAND" type="LocString">
-			<deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Verleiht einem befreundeten Diener +2 Angriff in diesem Zug.</deDE>
-			<enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Give a friendly minion +2 Attack this turn.</enUS>
-			<esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Otorga +2 p. de ataque a un esbirro amistoso este turno.</esES>
-			<esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; otorga +2 de Ataque a un esbirro aliado en este turno.</esMX>
-			<frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; confère +2 ATQ à un serviteur allié pendant ce tour.</frFR>
-			<itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; fornisce +2 Attacco a un altro tuo servitore per questo turno.</itIT>
-			<koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 이번 턴에 아군 하수인 하나에게 공격력을 +2 부여합니다.</koKR>
-			<plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Daj przyjaznemu stronnikowi +2 do ataku w tej turze.</plPL>
-			<ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Conceda +2 de Ataque a um lacaio aliado neste turno.</ptBR>
-			<ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; ваше выбранное существо получает +2 к атаке до конца хода.</ruRU>
-			<zhCN>&lt;b&gt;战吼：&lt;/b&gt;本回合中，使一个友方随从获得+2攻击力。</zhCN>
-			<zhTW>&lt;b&gt;戰吼:&lt;/b&gt;本回合賦予一個友方手下+2攻擊力</zhTW>
+			<deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Verleiht einem Diener +2 Angriff in diesem Zug.</deDE>
+			<enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Give a minion +2 Attack this turn.</enUS>
+			<esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Otorga +2 p. de ataque a un esbirro este turno.</esES>
+			<esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; otorga +2 de Ataque a un esbirro en este turno.</esMX>
+			<frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; confère +2 ATQ à un serviteur pendant ce tour.</frFR>
+			<itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; +2 Attacco a un altro servitore per questo turno.</itIT>
+			<koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 이번 턴에 하수인 하나에게 공격력을 +2 부여합니다.</koKR>
+			<plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Daj stronnikowi +2 do ataku w tej turze.</plPL>
+			<ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Conceda +2 de Ataque a um lacaio neste turno.</ptBR>
+			<ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; выбранное существо получает +2 к атаке до конца хода.</ruRU>
+			<zhCN>&lt;b&gt;战吼：&lt;/b&gt;本回合中，使一个随从获得+2攻击力。</zhCN>
+			<zhTW>&lt;b&gt;戰吼:&lt;/b&gt;本回合賦予一個手下+2攻擊力</zhTW>
 		</Tag>
 		<Tag enumID="351" name="FLAVORTEXT" type="LocString">
 			<deDE>Zu der Art seiner „Ruchlosigkeit“ sollte man ihm besser keine Fragen stellen.</deDE>
@@ -8048,7 +8055,6 @@ Ottieni 2 Armatura.</itIT>
 		<Tag enumID="321" name="COLLECTIBLE" type="Int" value="1"/>
 		<Power definition="365c063e-5364-433c-acf3-700fecc72b2e">
 			<PlayRequirement param="" reqID="1"/>
-			<PlayRequirement param="" reqID="2"/>
 			<PlayRequirement param="" reqID="22"/>
 		</Power>
 	</Entity>
@@ -11317,7 +11323,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<enUS>Unlocked at Druid Level 59.</enUS>
 		</Tag>
 		<Tag enumID="342" name="ARTISTNAME" type="String">Karl Richardson</Tag>
-		<Tag enumID="45" name="HEALTH" type="Int" value="2"/>
+		<Tag enumID="45" name="HEALTH" type="Int" value="1"/>
 		<Tag enumID="47" name="ATK" type="Int" value="1"/>
 		<Tag enumID="48" name="COST" type="Int" value="2"/>
 		<Tag enumID="183" name="CARD_SET" type="Int" value="2"/>
@@ -11375,7 +11381,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 		<Tag enumID="342" name="ARTISTNAME" type="String">Glenn Rane</Tag>
 		<Tag enumID="45" name="HEALTH" type="Int" value="5"/>
 		<Tag enumID="47" name="ATK" type="Int" value="5"/>
-		<Tag enumID="48" name="COST" type="Int" value="5"/>
+		<Tag enumID="48" name="COST" type="Int" value="6"/>
 		<Tag enumID="114" name="ELITE" type="Int" value="1"/>
 		<Tag enumID="183" name="CARD_SET" type="Int" value="3"/>
 		<Tag enumID="202" name="CARDTYPE" type="Int" value="4"/>
@@ -12322,18 +12328,18 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<zhTW>黑鐵矮人</zhTW>
 		</Tag>
 		<Tag enumID="184" name="CARDTEXT_INHAND" type="LocString">
-			<deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Verleiht einem Diener +2 Angriff.</deDE>
-			<enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Give a minion +2 Attack.</enUS>
-			<esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Otorga +2 p. de ataque a un esbirro.</esES>
-			<esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; otorga +2 de Ataque a un esbirro.</esMX>
-			<frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; donne +2 ATQ à un serviteur.</frFR>
-			<itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; fornisce +2 Attacco a un altro servitore.</itIT>
-			<koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 하수인 하나에게 공격력을 +2 부여합니다.</koKR>
-			<plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Daj stronnikowi +2 do ataku.</plPL>
-			<ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Conceda +2 de Ataque a um lacaio.</ptBR>
-			<ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; выбранное существо получает +2 к атаке.</ruRU>
-			<zhCN>&lt;b&gt;战吼：&lt;/b&gt;使一个随从获得+2攻击力。</zhCN>
-			<zhTW>&lt;b&gt;戰吼:&lt;/b&gt;賦予一個友方手下+2攻擊力</zhTW>
+			<deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Verleiht einem Diener +2 Angriff in diesem Zug.</deDE>
+			<enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Give a minion +2 Attack this turn.</enUS>
+			<esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Otorga a un esbirro +2 p. de ataque este turno.</esES>
+			<esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; otorga +2 de Ataque a un esbirro en este turno.</esMX>
+			<frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; donne +2 ATQ à un serviteur pendant ce tour.</frFR>
+			<itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; +2 Attacco a un altro servitore per questo turno.</itIT>
+			<koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 이번 턴에 하수인 하나에게 공격력을 +2 부여합니다.</koKR>
+			<plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Daj stronnikowi +2 do ataku w tej turze.</plPL>
+			<ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Conceda +2 de Ataque a um lacaio neste turno.</ptBR>
+			<ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; выбранное существо получает +2 к атаке до конца хода.</ruRU>
+			<zhCN>&lt;b&gt;战吼：&lt;/b&gt;本回合中，使一个随从获得+2攻击力。</zhCN>
+			<zhTW>&lt;b&gt;戰吼:&lt;/b&gt;本回合賦予一個手下+2攻擊力</zhTW>
 		</Tag>
 		<Tag enumID="351" name="FLAVORTEXT" type="LocString">
 			<deDE>Die Wächter des Dunkeleisenerzes. Vielleicht das nervigste Erz, wenn man bedenkt, wo man es verhütten muss.</deDE>
@@ -12395,22 +12401,24 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<zhTW>淬鍛</zhTW>
 		</Tag>
 		<Tag enumID="184" name="CARDTEXT_INHAND" type="LocString">
-			<deDE>+2 Angriff.</deDE>
-			<enUS>+2 Attack.</enUS>
-			<esES>+2 p. de ataque.</esES>
-			<esMX>+2 de Ataque.</esMX>
-			<frFR>+2 ATQ.</frFR>
-			<itIT>+2 Attacco.</itIT>
-			<koKR>공격력 +2</koKR>
-			<plPL>+2 do ataku.</plPL>
-			<ptBR>+2 de Ataque</ptBR>
-			<ruRU>+2 к атаке.</ruRU>
-			<zhCN>+2攻击力。</zhCN>
-			<zhTW>+2攻擊力</zhTW>
+			<deDE>+2 Angriff in diesem Zug.</deDE>
+			<enUS>+2 Attack this turn.</enUS>
+			<esES>+2 p. de ataque este turno.</esES>
+			<esMX>+2 de Ataque en este turno.</esMX>
+			<frFR>+2 ATQ pendant ce tour.</frFR>
+			<itIT>+2 Attacco per questo turno.</itIT>
+			<koKR>이번 턴에 공격력 +2</koKR>
+			<plPL>+2 do ataku w tej turze.</plPL>
+			<ptBR>+2 de Ataque neste turno.</ptBR>
+			<ruRU>+2 к атаке до конца хода.</ruRU>
+			<zhCN>本回合获得+2攻击力。</zhCN>
+			<zhTW>本回合+2攻擊力</zhTW>
 		</Tag>
 		<Tag enumID="183" name="CARD_SET" type="Int" value="3"/>
 		<Tag enumID="202" name="CARDTYPE" type="Int" value="6"/>
+		<Tag enumID="338" name="TAG_ONE_TURN_EFFECT" type="Int" value="1"/>
 		<Power definition="95990bd4-b96e-4aa2-92c0-fb76c1300033"/>
+		<Power definition="b4f1eb9f-09bb-45a3-bbe6-8dabad819307"/>
 	</Entity>
 	<Entity CardID="EX1_048" ID="754" version="2">
 		<MasterPower>e796d04c-0b64-4ef5-be1c-fd0bc0e193e5</MasterPower>
@@ -12652,7 +12660,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<zhTW>在本回合中，每當你施展法術，就獲得+2攻擊力</zhTW>
 		</Tag>
 		<Tag enumID="351" name="FLAVORTEXT" type="LocString">
-			<deDE>Sie versucht vom Mana weg zu kommen, aber sie nimmt immer noch ein wenig, wenn sie einen stressigen Tag hat.</deDE>
+			<deDE>Sie versucht vom Mana wegzukommen, aber sie nimmt immer noch ein wenig, wenn sie einen stressigen Tag hat.</deDE>
 			<enUS>She’s trying to kick the habit, but still takes some mana whenever she has a stressful day.</enUS>
 			<esES>Está intentando dejarlo, pero sigue tomando maná cuando tiene un día duro.</esES>
 			<esMX>Está tratando de dejar el hábito. Pero todavía toma un poco de maná de vez en cuando, si tiene un día difícil.</esMX>
@@ -13489,18 +13497,18 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<zhTW>戰歌指揮官</zhTW>
 		</Tag>
 		<Tag enumID="184" name="CARDTEXT_INHAND" type="LocString">
-			<deDE>Eure anderen Diener haben &lt;b&gt;Ansturm&lt;/b&gt;.</deDE>
-			<enUS>Your other minions have &lt;b&gt;Charge&lt;/b&gt;.</enUS>
-			<esES>Tus demás esbirros tienen &lt;b&gt;Cargar&lt;/b&gt;.</esES>
-			<esMX>Tus otros esbirros tienen &lt;b&gt;Carga&lt;/b&gt;.</esMX>
-			<frFR>Vos autres serviteurs ont &lt;b&gt;Charge&lt;/b&gt;.</frFR>
-			<itIT>Gli altri tuoi servitori hanno &lt;b&gt;Carica&lt;/b&gt;.</itIT>
-			<koKR>나의 다른 하수인들이 &lt;b&gt;돌진&lt;/b&gt;을 얻습니다.</koKR>
-			<plPL>Twoi pozostali stronnicy otrzymują &lt;b&gt;Szarżę&lt;/b&gt;.</plPL>
-			<ptBR>Seus demais lacaios ganham &lt;b&gt;Investida&lt;/b&gt;.</ptBR>
-			<ruRU>Другие ваши существа получают способность &lt;b&gt;«Рывок»&lt;/b&gt;.</ruRU>
-			<zhCN>你的其他随从获得&lt;b&gt;冲锋&lt;/b&gt;。</zhCN>
-			<zhTW>你的其他手下擁有&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>
+			<deDE>Jedes Mal, wenn Ihr einen Diener mit max. 3 Angriff herbeiruft, erhält dieser &lt;b&gt;Ansturm&lt;/b&gt;.</deDE>
+			<enUS>Whenever you summon a minion with 3 or less Attack, give it &lt;b&gt;Charge&lt;/b&gt;.</enUS>
+			<esES>Cada vez que invocas a un esbirro con 3 p. de ataque o menos, este recibe &lt;b&gt;Cargar&lt;/b&gt;.</esES>
+			<esMX>Cada vez que invocas a un esbirro con 3 de Ataque o menos, le otorga &lt;b&gt;Carga&lt;/b&gt;.</esMX>
+			<frFR>Chaque fois que vous invoquez un serviteur avec 3 ATQ ou moins, lui confère &lt;b&gt;Charge&lt;/b&gt;.</frFR>
+			<itIT>Quando evochi un servitore con Attacco pari a 3 o inferiore, gli fornisce &lt;b&gt;Carica&lt;/b&gt;.</itIT>
+			<koKR>공격력이 3 이하인 하수인을 소환할 때마다 그 하수인에게 &lt;b&gt;돌진&lt;/b&gt;을 부여합니다.</koKR>
+			<plPL>Twoi stronnicy z atakiem 3 lub mniejszym otrzymują &lt;b&gt;Szarżę&lt;/b&gt;.</plPL>
+			<ptBR>Toda vez que evocar um lacaio com 3 ou menos de Ataque, conceda &lt;b&gt;Investida&lt;/b&gt; a ele.</ptBR>
+			<ruRU>Каждый раз, когда вы призываете существо с атакой 3 или меньше, оно получает способность &lt;b&gt;«Рывок»&lt;/b&gt;.</ruRU>
+			<zhCN>每当你召唤一个攻击力小于或等于3的随从，使该随从获得&lt;b&gt;冲锋&lt;/b&gt;。</zhCN>
+			<zhTW>每當你召喚攻擊力在3點以下的手下，賦予該手下&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>
 		</Tag>
 		<Tag enumID="351" name="FLAVORTEXT" type="LocString">
 			<deDE>Im Kriegshymnenklan geht es oft hoch her. Man sollte es sich gut überlegen, dort Anführer zu werden.</deDE>
@@ -13508,7 +13516,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<esES>El clan Grito de Guerra es muy estresante. Siempre están corriendo en busca de banderas.</esES>
 			<esMX>El clan Grito de guerra es &lt;i&gt;drama, drama, drama&lt;/i&gt;. La verdad, no vale la pena llegar a comandante.</esMX>
 			<frFR>Le clan Chanteguerre se la &lt;i&gt;joue&lt;/i&gt; trop. Ça ne vaut pas vraiment le coup de devenir officier.</frFR>
-			<itIT>Grommash, Garrosh... con comandanti così, non sarei tanto felice di diventare un capitano Cantaguerra.</itIT>
+			<itIT>Grommash, Garrosh... con comandanti così, non sarei tanto felice di diventare un Capitano Cantaguerra.</itIT>
 			<koKR>그롬 헬스크림이 족장이었던 부족의 사령관입니다. 말이 더 필요한가요?</koKR>
 			<plPL>Są dumni z nazwy swojego klanu - choć zdaniem elfów tą pieśnią jest „Nic się nie stało, orki, nic się nie stało...”</plPL>
 			<ptBR>O Clã Brado Guerreiro tem &lt;i&gt;tanto drama&lt;/i&gt; que nem vale a pena subir de patente.</ptBR>
@@ -13523,6 +13531,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<enUS>Unlocked at Level 36.</enUS>
 		</Tag>
 		<Tag enumID="342" name="ARTISTNAME" type="String">Wei Wang</Tag>
+		<Tag enumID="32" name="TRIGGER_VISUAL" type="Int" value="1"/>
 		<Tag enumID="45" name="HEALTH" type="Int" value="3"/>
 		<Tag enumID="47" name="ATK" type="Int" value="2"/>
 		<Tag enumID="48" name="COST" type="Int" value="3"/>
@@ -13534,11 +13543,9 @@ Infligge 2 danni all'eroe nemico.</itIT>
 		<Tag enumID="251" name="AttackVisualType" type="Int" value="6"/>
 		<Tag enumID="268" name="DevState" type="Int" value="2"/>
 		<Tag enumID="321" name="COLLECTIBLE" type="Int" value="1"/>
-		<Tag enumID="355" name="GrantCharge" type="Int" value="1"/>
-		<Tag enumID="362" name="AURA" type="Int" value="1"/>
 		<ReferencedTag enumID="197" name="CHARGE" type="Int" value="1"/>
-		<Power definition="b241283b-6883-4897-b7a3-9a4a33b848f5"/>
-		<Power definition="33a1e034-5156-4d78-9a4c-c61f9c70c8fe"/>
+		<Power definition="8c9fbc93-a02a-4e43-9794-1cdd2c13e1f5"/>
+		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False"/>
 	</Entity>
 	<Entity CardID="EX1_084e" ID="706" version="2">
 		<Tag enumID="185" name="CARDNAME" type="LocString">
@@ -13825,7 +13832,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Otorga +1/+1 y &lt;b&gt;Provocar&lt;/b&gt; a los esbirros adyacentes.</esES>
 			<esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; otorga +1/+1 y &lt;b&gt;Provocación&lt;/b&gt; a los esbirros adyacentes.</esMX>
 			<frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; donne aux serviteurs adjacents +1/+1 et &lt;b&gt;Provocation&lt;/b&gt;.</frFR>
-			<itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; fornisce +1/+1 e &lt;b&gt;Provocazione&lt;/b&gt; ai servitori adiacenti.</itIT>
+			<itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; +1/+1 e &lt;b&gt;Provocazione&lt;/b&gt; ai servitori adiacenti.</itIT>
 			<koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 양옆의 하수인들에게 +1/+1과 &lt;b&gt;도발&lt;/b&gt;을 부여합니다.</koKR>
 			<plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Daj sąsiednim stronnikom +1/+1 oraz &lt;b&gt;Prowokację&lt;/b&gt;.</plPL>
 			<ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Conceda +1/+1 e &lt;b&gt;Provocar&lt;/b&gt; aos lacaios adjacentes.</ptBR>
@@ -13849,7 +13856,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 		</Tag>
 		<Tag enumID="342" name="ARTISTNAME" type="String">Alex Horley Orlandelli</Tag>
 		<Tag enumID="45" name="HEALTH" type="Int" value="3"/>
-		<Tag enumID="47" name="ATK" type="Int" value="3"/>
+		<Tag enumID="47" name="ATK" type="Int" value="2"/>
 		<Tag enumID="48" name="COST" type="Int" value="4"/>
 		<Tag enumID="183" name="CARD_SET" type="Int" value="3"/>
 		<Tag enumID="201" name="FACTION" type="Int" value="2"/>
@@ -18348,7 +18355,7 @@ Magiczna siła, boję się...”
 			<zhTW>抽到這張牌以後，記得花點時間來發出邪惡的笑聲。</zhTW>
 		</Tag>
 		<Tag enumID="342" name="ARTISTNAME" type="String">Luca Zontini</Tag>
-		<Tag enumID="48" name="COST" type="Int" value="8"/>
+		<Tag enumID="48" name="COST" type="Int" value="10"/>
 		<Tag enumID="183" name="CARD_SET" type="Int" value="3"/>
 		<Tag enumID="199" name="CLASS" type="Int" value="4"/>
 		<Tag enumID="201" name="FACTION" type="Int" value="3"/>
@@ -22194,14 +22201,14 @@ Magiczna siła, boję się...”
 			<deDE>Verursacht $4 Schaden. Verursacht stattdessen $6 Schaden, wenn Euer Held max. 12 Leben hat.</deDE>
 			<enUS>Deal $4 damage.  If your hero has 12 or less Health, deal $6 damage instead.</enUS>
 			<esES>Inflige $4 p. de daño. Si tu héroe tiene 12 p. de salud o menos, inflige $6 p. de daño.</esES>
-			<esMX>Inflige $4 de daño. Si tu héroe tiene 12 de Salud o menos, entonces inflige $6 de daño.</esMX>
+			<esMX>Inflige $4 de daño. Si tienes 12 de Salud o menos, inflige $6 de daño.</esMX>
 			<frFR>Inflige $4 |4(point,points) de dégâts. Si votre héros à 12 PV ou moins, inflige $6 |4(point,points) de dégâts à la place.</frFR>
 			<itIT>Infligge $4 danni. Se il tuo eroe ha Salute pari a 12 o inferiore, infligge $6 danni.</itIT>
 			<koKR>피해를 $4 줍니다. 내 영웅의 생명력이 12 이하라면 피해를 $6 줍니다.</koKR>
 			<plPL>Zadaj $4 pkt. obrażeń. Jeśli twój bohater ma 12 lub mniej zdrowia, zadaj zamiast tego $6 pkt. obrażeń.</plPL>
-			<ptBR>Cause $4 de dano. Se o seu herói tiver 12 de Vida ou menos, cause $6 de dano em vez de $4.</ptBR>
+			<ptBR>Cause $4 de dano. Se você tiver 12 pontos de vida ou menos, cause $6 de dano em vez de $4.</ptBR>
 			<ruRU>Наносит $4 ед. урона. Если у вашего героя 12 или меньше ед. здоровья, вместо этого наносит $6 ед. урона.</ruRU>
-			<zhCN>造成$4点伤害；如果你的英雄的生命值小于或等于12点，则改为造成$6点伤害。</zhCN>
+			<zhCN>造成$4点伤害；如果你的生命值小于或等于12点，则改为造成$6点伤害。</zhCN>
 			<zhTW>造成$4點傷害。若你英雄生命值在12點以下，則造成$6點傷害</zhTW>
 		</Tag>
 		<Tag enumID="351" name="FLAVORTEXT" type="LocString">
@@ -23513,7 +23520,7 @@ Magiczna siła, boję się...”
 			<zhTW>你每次打這張牌時，記得把牌的名稱大喊出來。</zhTW>
 		</Tag>
 		<Tag enumID="342" name="ARTISTNAME" type="String">Velvet Engine</Tag>
-		<Tag enumID="48" name="COST" type="Int" value="4"/>
+		<Tag enumID="48" name="COST" type="Int" value="2"/>
 		<Tag enumID="183" name="CARD_SET" type="Int" value="3"/>
 		<Tag enumID="199" name="CLASS" type="Int" value="3"/>
 		<Tag enumID="202" name="CARDTYPE" type="Int" value="5"/>
@@ -27274,14 +27281,14 @@ Magiczna siła, boję się...”
 			<deDE>Das Leben dieses Dieners wurde auf 1 gesetzt.</deDE>
 			<enUS>This minion's Health has been changed to 1.</enUS>
 			<esES>La salud de este esbirro ha cambiado a 1 p.</esES>
-			<esMX>La Salud de este esbirro ha cambiado a 1.</esMX>
+			<esMX>Salud cambiada a 1.</esMX>
 			<frFR>Les points de vie de ce serviteur sont passés à 1.</frFR>
 			<itIT>Salute pari a 1.</itIT>
 			<koKR>생명력 1로 바뀜</koKR>
 			<plPL>Zdrowie tego stronnika zostało zmienione na 1.</plPL>
-			<ptBR>A Vida deste lacaio foi mudada para 1.</ptBR>
-			<ruRU>Здоровье этого существа равно 1.</ruRU>
-			<zhCN>该随从的生命值变为1。</zhCN>
+			<ptBR>Vida mudada para 1.</ptBR>
+			<ruRU>Здоровье стало равно 1.</ruRU>
+			<zhCN>生命值变为1。</zhCN>
 			<zhTW>這個手下的生命值被改為1點</zhTW>
 		</Tag>
 		<Tag enumID="183" name="CARD_SET" type="Int" value="3"/>
