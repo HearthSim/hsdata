@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<CardDefs build="3140">
+<CardDefs build="3388">
 	<Entity CardID="CS1_042" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
 			<enUS>Goldshire Footman</enUS>
@@ -65,6 +65,9 @@
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="342" name="ArtistName" type="String">Luca Zontini</Tag>
+		<Tag enumID="351" name="FlavorText" type="LocString">
+			<enUS>If the Holy Light forsakes you, good luck casting this spell.  Also, you're probably a jerk.</enUS>
+		</Tag>
 		<Power definition="add8d26e-2838-4f10-97f4-d2a9312b79b5"/>
 		<Texture>R3_063_D</Texture>
 	</Entity>
@@ -113,41 +116,47 @@
 		<Power definition="ec7fd18a-a60d-419c-9e5a-145ab1b75b11"/>
 	</Entity>
 	<Entity CardID="CS1_129" version="2">
-		<MasterPower>2be710d0-2e53-402b-9f0e-3350b623395c</MasterPower>
+		<MasterPower>126f032e-e9db-43ff-968f-f1eabcdead0b</MasterPower>
 		<Tag enumID="185" name="CardName" type="LocString">
-			<enUS>Prayer of Fortitude</enUS>
+			<enUS>Inner Fire</enUS>
 		</Tag>
-		<Tag enumID="183" name="CardSet" type="CardSet" value="2"/>
+		<Tag enumID="183" name="CardSet" type="CardSet" value="3"/>
 		<Tag enumID="202" name="CardType" type="CardType" value="5"/>
 		<Tag enumID="201" name="Faction" type="Faction" value="3"/>
 		<Tag enumID="199" name="Class" type="Class" value="6"/>
 		<Tag enumID="203" name="Rarity" type="Rarity" value="1"/>
-		<Tag enumID="48" name="Cost" type="Int" value="1"/>
+		<Tag enumID="48" name="Cost" type="Int" value="3"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="1"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>Give your minions +1/+1. &lt;i&gt;(+1 Attack/+1 Health)&lt;/i&gt;</enUS>
+			<enUS>Change a minion's Attack to be equal to its Health.</enUS>
 		</Tag>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
-		<Tag enumID="342" name="ArtistName" type="String">Ben Wootten</Tag>
 		<Tag enumID="351" name="FlavorText" type="LocString">
 			<enUS>Good idea: Buffing your minions.  Bad idea: Starting a conversation in the Barrens.</enUS>
 		</Tag>
-		<Power definition="2be710d0-2e53-402b-9f0e-3350b623395c"/>
-		<Texture>W11_047_D</Texture>
+		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
+		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
+		<Tag enumID="342" name="ArtistName" type="String">Steve Prescott</Tag>
+		<Power definition="126f032e-e9db-43ff-968f-f1eabcdead0b">
+			<PlayRequirement param="" reqID="11"/>
+			<PlayRequirement param="" reqID="1"/>
+		</Power>
+		<Texture>W9_A132_D</Texture>
 	</Entity>
 	<Entity CardID="CS1_129e" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
-			<enUS>Fortitude</enUS>
+			<enUS>Inner Fire</enUS>
 		</Tag>
-		<Tag enumID="183" name="CardSet" type="CardSet" value="2"/>
+		<Tag enumID="183" name="CardSet" type="CardSet" value="3"/>
 		<Tag enumID="202" name="CardType" type="CardType" value="6"/>
 		<Tag enumID="199" name="Class" type="Class" value="6"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>This minion has +1/+1.</enUS>
+			<enUS>This minion's Attack is equal to its Health.</enUS>
 		</Tag>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="1"/>
-		<Power definition="d1d71a06-c73e-4cff-95cf-8b204720fbf5"/>
+		<Power definition="ac6151ef-62e8-4888-81a0-c31d617d9807"/>
+		<Texture>W9_A132_D</Texture>
 	</Entity>
 	<Entity CardID="CS1_130" version="2">
 		<MasterPower>e62d02c5-d4df-47f0-a3e3-5a569f6026f8</MasterPower>
@@ -205,10 +214,10 @@
 		<Tag enumID="201" name="Faction" type="Faction" value="3"/>
 		<Tag enumID="199" name="Class" type="Class" value="6"/>
 		<Tag enumID="203" name="Rarity" type="Rarity" value="1"/>
-		<Tag enumID="48" name="Cost" type="Int" value="6"/>
+		<Tag enumID="48" name="Cost" type="Int" value="1"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="1"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>Take a random card from your opponent's hand.</enUS>
+			<enUS>Put a copy of a random card in your opponent's hand into your hand.</enUS>
 		</Tag>
 		<Tag enumID="268" name="DevState" type="DevState" value="2"/>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
@@ -273,13 +282,15 @@
 		<Tag enumID="48" name="Cost" type="Int" value="1"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="1"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>Give your hero +3 Attack this turn.</enUS>
+			<enUS>Give your hero +2 Attack this turn and 2 Armor.</enUS>
 		</Tag>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="342" name="ArtistName" type="String">Dany Orizio</Tag>
 		<Tag enumID="351" name="FlavorText" type="LocString">
 			<enUS>If you want to distract a Druid in Cat Form, shine a Gnomish Laser at the ground and move it around.</enUS>
 		</Tag>
+		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
+		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Power definition="a871043b-5755-4b92-85e1-a831512f8099"/>
 		<Texture>W2_259_D</Texture>
 	</Entity>
@@ -291,13 +302,13 @@
 		<Tag enumID="202" name="CardType" type="CardType" value="6"/>
 		<Tag enumID="199" name="Class" type="Class" value="2"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>+3 Attack this turn.</enUS>
+			<enUS>+2 Attack this turn.</enUS>
 		</Tag>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
+		<Tag enumID="338" name="OneTurnEffect" type="Bool" value="1"/>
 		<Power definition="1d03caa1-9ad6-4440-a40d-f57ac80abffa"/>
-		<Power definition="62c156d1-2916-41ea-9848-db3780820c66"/>
-		<TriggeredPowerHistoryInfo effectIndex="-1" showInHistory="False"/>
+		<Power definition="49df09e7-0097-4467-b8f1-2e77041356e6"/>
 	</Entity>
 	<Entity CardID="CS2_007" version="2">
 		<MasterPower>1978a68f-848d-4fe2-91f4-56039c3676ad</MasterPower>
@@ -513,7 +524,7 @@
 		<Tag enumID="48" name="Cost" type="Int" value="2"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="1"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>Hero Power 
+			<enUS>&lt;b&gt;Hero Power&lt;/b&gt;
  +1 Attack this turn.  +1 Armor.</enUS>
 		</Tag>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
@@ -557,7 +568,7 @@
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="351" name="FlavorText" type="LocString">
-			<enUS>Apprentice Mages are wonderful at turning orcs to sheep, but the real master, well the real master turns sheep to ice cream.</enUS>
+			<enUS>There was going to be a pun in this flavor text, but it just came out baa-d.</enUS>
 		</Tag>
 		<Tag enumID="342" name="ArtistName" type="String">Vance Kovacs</Tag>
 		<Power definition="651d1d7d-5022-44cf-b062-e475fe399ed3">
@@ -609,7 +620,7 @@
 	<Entity CardID="CS2_024" version="2">
 		<MasterPower>ea3beb34-7358-422b-8194-5f1999561bab</MasterPower>
 		<Tag enumID="185" name="CardName" type="LocString">
-			<enUS>Frost Bolt</enUS>
+			<enUS>Frostbolt</enUS>
 		</Tag>
 		<Tag enumID="183" name="CardSet" type="CardSet" value="2"/>
 		<Tag enumID="202" name="CardType" type="CardType" value="5"/>
@@ -678,7 +689,7 @@
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="351" name="FlavorText" type="LocString">
-			<enUS>Nothing is more demoralizing than grabbing 15 of these in Forge Mode.  But, you run the risk of getting slapped.</enUS>
+			<enUS>Hey man, that's cold.  Literally and metaphorically.</enUS>
 		</Tag>
 		<Tag enumID="342" name="ArtistName" type="String">Josh Tallman</Tag>
 		<Tag enumID="208" name="Freeze" type="Bool" value="1"/>
@@ -816,7 +827,7 @@
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="351" name="FlavorText" type="LocString">
-			<enUS>Early wizards were shocked to find that this spell works just as well underwater.</enUS>
+			<enUS>When the ground is on fire, you should &lt;i&gt;not&lt;/i&gt; stop, drop, and roll.</enUS>
 		</Tag>
 		<Tag enumID="342" name="ArtistName" type="String">Romain De Santi</Tag>
 		<Power definition="47f7e316-007e-491f-be88-e61d217d777c"/>
@@ -943,7 +954,7 @@
 		<Tag enumID="202" name="CardType" type="CardType" value="6"/>
 		<Tag enumID="199" name="Class" type="Class" value="8"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>When this minion is destroyed, return it to the battlefield.</enUS>
+			<enUS>Deathrattle: Return this minion to the battlefield.</enUS>
 		</Tag>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="1"/>
@@ -1108,7 +1119,7 @@
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="342" name="ArtistName" type="String">Luca Zontini</Tag>
 		<Power definition="f14b222a-94a7-4690-8a63-2d93b0050007"/>
-		<Texture>W17_a120_D</Texture>
+		<Texture>W17_a120_D 1</Texture>
 	</Entity>
 	<Entity CardID="CS2_046e" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -1213,26 +1224,41 @@ Summon a random Totem.</enUS>
 		<Texture>W8_A194_D</Texture>
 	</Entity>
 	<Entity CardID="CS2_053" version="2">
+		<MasterPower>8e067525-a507-46cd-ba14-f51f55d96303</MasterPower>
 		<Tag enumID="185" name="CardName" type="LocString">
-			<enUS>Mana Spring Totem</enUS>
+			<enUS>Far Sight</enUS>
 		</Tag>
 		<Tag enumID="183" name="CardSet" type="CardSet" value="3"/>
-		<Tag enumID="202" name="CardType" type="CardType" value="4"/>
+		<Tag enumID="202" name="CardType" type="CardType" value="5"/>
 		<Tag enumID="201" name="Faction" type="Faction" value="3"/>
 		<Tag enumID="199" name="Class" type="Class" value="8"/>
 		<Tag enumID="203" name="Rarity" type="Rarity" value="4"/>
-		<Tag enumID="45" name="Health" type="Int" value="1"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="3"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>Your cards cost (1) less.</enUS>
+			<enUS>Draw a card. That card costs (3) less.</enUS>
 		</Tag>
-		<Tag enumID="200" name="Race" type="Race" value="21"/>
-		<Tag enumID="48" name="Cost" type="Int" value="4"/>
-		<Tag enumID="47" name="Atk" type="Int" value="0"/>
+		<Tag enumID="48" name="Cost" type="Int" value="3"/>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
-		<Tag enumID="342" name="ArtistName" type="String">Jim Nelson</Tag>
-		<Power definition="2f672d0c-65e9-44e8-8006-71f94911b425"/>
-		<Texture>W14_a039_D</Texture>
+		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
+		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
+		<Power definition="8e067525-a507-46cd-ba14-f51f55d96303"/>
+		<Texture>W13_275_D</Texture>
+	</Entity>
+	<Entity CardID="CS2_053e" version="2">
+		<Tag enumID="185" name="CardName" type="LocString">
+			<enUS>Far Sight</enUS>
+		</Tag>
+		<Tag enumID="183" name="CardSet" type="CardSet" value="3"/>
+		<Tag enumID="202" name="CardType" type="CardType" value="6"/>
+		<Tag enumID="199" name="Class" type="Class" value="8"/>
+		<Tag enumID="184" name="CardTextInHand" type="LocString">
+			<enUS>One of your cards costs (3) less.</enUS>
+		</Tag>
+		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
+		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
+		<Tag enumID="342" name="ArtistName" type="String">Lars Grant-West</Tag>
+		<Power definition="e6a83073-6fbd-4922-a0a3-8da51ec5f809"/>
+		<Texture>W13_275_D</Texture>
 	</Entity>
 	<Entity CardID="CS2_056" version="2">
 		<MasterPower>78d0b174-c5ca-4a4b-b9d4-b7edfe8bf029</MasterPower>
@@ -1340,6 +1366,11 @@ Summon a random Totem.</enUS>
 		<Tag enumID="268" name="DevState" type="DevState" value="2"/>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="342" name="ArtistName" type="String">Don Hazeltine</Tag>
+		<Tag enumID="351" name="FlavorText" type="LocString">
+			<enUS>&quot;I've just sucked one year of your life away.&quot;</enUS>
+		</Tag>
+		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
+		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Power definition="56647e8e-df83-4230-b6f9-1755433490f3">
 			<PlayRequirement param="" reqID="11"/>
 		</Power>
@@ -1419,8 +1450,8 @@ Summon a random Totem.</enUS>
 		<Tag enumID="200" name="Race" type="Race" value="15"/>
 		<Tag enumID="203" name="Rarity" type="Rarity" value="1"/>
 		<Tag enumID="48" name="Cost" type="Int" value="6"/>
-		<Tag enumID="47" name="Atk" type="Int" value="5"/>
-		<Tag enumID="45" name="Health" type="Int" value="5"/>
+		<Tag enumID="47" name="Atk" type="Int" value="6"/>
+		<Tag enumID="45" name="Health" type="Int" value="6"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="3"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
 			<enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Deal 1 damage to ALL other characters.</enUS>
@@ -1502,6 +1533,9 @@ Summon a random Totem.</enUS>
 		<Tag enumID="268" name="DevState" type="DevState" value="2"/>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="342" name="ArtistName" type="String">Alex Horley Orlandelli</Tag>
+		<Tag enumID="351" name="FlavorText" type="LocString">
+			<enUS>&quot;I'm cold blooded, check it and see!&quot;</enUS>
+		</Tag>
 		<Tag enumID="220" name="Combo" type="Bool" value="1"/>
 		<Power definition="0d0e66ed-59ef-4471-b113-4630e520dc2b">
 			<PlayRequirement param="" reqID="11"/>
@@ -1745,6 +1779,9 @@ Summon a random Totem.</enUS>
 		<Tag enumID="342" name="ArtistName" type="String">Jimmy Lo</Tag>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
+		<Tag enumID="351" name="FlavorText" type="LocString">
+			<enUS>Never play 'Hide and Go Seek' with a  Hunter.</enUS>
+		</Tag>
 		<Power definition="a791d666-f98d-43c4-812a-5da475c31d01">
 			<PlayRequirement param="" reqID="11"/>
 			<PlayRequirement param="" reqID="1"/>
@@ -1972,7 +2009,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="187" name="Durability" type="Int" value="2"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="6"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>When your hero attacks, restore 2 Health to it.</enUS>
+			<enUS>Whenever your hero attacks, restore 2 Health to it.</enUS>
 		</Tag>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
@@ -2725,7 +2762,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="203" name="Rarity" type="Rarity" value="1"/>
 		<Tag enumID="48" name="Cost" type="Int" value="6"/>
 		<Tag enumID="47" name="Atk" type="Int" value="6"/>
-		<Tag enumID="45" name="Health" type="Int" value="4"/>
+		<Tag enumID="45" name="Health" type="Int" value="5"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="6"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
 			<enUS>&lt;b&gt;Taunt&lt;/b&gt;</enUS>
@@ -2983,7 +3020,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="201" name="Faction" type="Faction" value="2"/>
 		<Tag enumID="203" name="Rarity" type="Rarity" value="1"/>
 		<Tag enumID="48" name="Cost" type="Int" value="1"/>
-		<Tag enumID="47" name="Atk" type="Int" value="1"/>
+		<Tag enumID="47" name="Atk" type="Int" value="2"/>
 		<Tag enumID="45" name="Health" type="Int" value="1"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="6"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
@@ -3123,7 +3160,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="202" name="CardType" type="CardType" value="4"/>
 		<Tag enumID="48" name="Cost" type="Int" value="7"/>
 		<Tag enumID="47" name="Atk" type="Int" value="9"/>
-		<Tag enumID="45" name="Health" type="Int" value="4"/>
+		<Tag enumID="45" name="Health" type="Int" value="5"/>
 		<Tag enumID="200" name="Race" type="Race" value="20"/>
 		<Tag enumID="342" name="ArtistName" type="String">E.M. Gist</Tag>
 		<Tag enumID="351" name="FlavorText" type="LocString">
@@ -3190,28 +3227,43 @@ Summon a random Totem.</enUS>
 	</Entity>
 	<Entity CardID="CS2_221" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
-			<enUS>Dark Summoner</enUS>
+			<enUS>Spiteful Smith</enUS>
 		</Tag>
 		<Tag enumID="183" name="CardSet" type="CardSet" value="3"/>
 		<Tag enumID="202" name="CardType" type="CardType" value="4"/>
 		<Tag enumID="201" name="Faction" type="Faction" value="1"/>
 		<Tag enumID="203" name="Rarity" type="Rarity" value="1"/>
 		<Tag enumID="48" name="Cost" type="Int" value="5"/>
-		<Tag enumID="47" name="Atk" type="Int" value="5"/>
-		<Tag enumID="45" name="Health" type="Int" value="3"/>
+		<Tag enumID="47" name="Atk" type="Int" value="4"/>
+		<Tag enumID="45" name="Health" type="Int" value="6"/>
 		<Tag enumID="252" name="CardTextInPlay" type="LocString">
 			<enUS>Summoning</enUS>
 		</Tag>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="1"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>The first minion you play each turn costs (3) less.</enUS>
+			<enUS>&lt;b&gt;Enrage:&lt;/b&gt; Your weapon has +2 Attack.</enUS>
 		</Tag>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
-		<Tag enumID="342" name="ArtistName" type="String">Brian 'Chippy' Dugan</Tag>
-		<Power definition="79f76614-9626-4da4-8c93-83738008bf24"/>
-		<Texture>W5_025_D</Texture>
+		<Tag enumID="342" name="ArtistName" type="String">Justin Sweet</Tag>
+		<Tag enumID="212" name="Enrage" type="Bool" value="1"/>
+		<Power definition="259960d1-a94e-4ba4-9160-88163a7fb224"/>
+		<Texture>W2_319_D</Texture>
+	</Entity>
+	<Entity CardID="CS2_221e" version="2">
+		<Tag enumID="185" name="CardName" type="LocString">
+			<enUS>Sharp!</enUS>
+		</Tag>
+		<Tag enumID="183" name="CardSet" type="CardSet" value="3"/>
+		<Tag enumID="202" name="CardType" type="CardType" value="6"/>
+		<Tag enumID="184" name="CardTextInHand" type="LocString">
+			<enUS>+2 Attack from Spiteful Smith.</enUS>
+		</Tag>
+		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
+		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
+		<Power definition="66c07817-0c85-4110-8a02-2c724f3d7811"/>
+		<Texture>W2_319_D</Texture>
 	</Entity>
 	<Entity CardID="CS2_222" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -3221,7 +3273,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="202" name="CardType" type="CardType" value="4"/>
 		<Tag enumID="201" name="Faction" type="Faction" value="2"/>
 		<Tag enumID="203" name="Rarity" type="Rarity" value="1"/>
-		<Tag enumID="48" name="Cost" type="Int" value="6"/>
+		<Tag enumID="48" name="Cost" type="Int" value="7"/>
 		<Tag enumID="47" name="Atk" type="Int" value="6"/>
 		<Tag enumID="45" name="Health" type="Int" value="6"/>
 		<Tag enumID="252" name="CardTextInPlay" type="LocString">
@@ -3353,7 +3405,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="342" name="ArtistName" type="String">Dave Allsop</Tag>
 		<Tag enumID="351" name="FlavorText" type="LocString">
-			<enUS>It's not always clear what they are protecting.</enUS>
+			<enUS>I &lt;i&gt;dare&lt;/i&gt; you to attack Darnassus.</enUS>
 		</Tag>
 		<Tag enumID="190" name="Taunt" type="Bool" value="1"/>
 		<Power definition="e3a7db15-2cfa-4991-8271-52f193e85b62"/>
@@ -3372,7 +3424,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="199" name="Class" type="Class" value="7"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="1"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>Destroy your weapon and deal its damage to all enemy minions.</enUS>
+			<enUS>Destroy your weapon and deal its damage to all enemies.</enUS>
 		</Tag>
 		<Tag enumID="268" name="DevState" type="DevState" value="2"/>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
@@ -3433,7 +3485,9 @@ Summon a random Totem.</enUS>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="342" name="ArtistName" type="String">Terese Nielsen</Tag>
 		<Tag enumID="32" name="TriggerVisual" type="Bool" value="1"/>
+		<Tag enumID="361" name="HealTarget" type="Bool" value="1"/>
 		<Power definition="1b46e959-51a7-480b-bcc6-9eec60016744"/>
+		<Power definition="e750e253-608a-42a7-8478-4d728cef5eb6"/>
 		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False"/>
 		<Texture>W4_268_D</Texture>
 	</Entity>
@@ -3454,6 +3508,9 @@ Summon a random Totem.</enUS>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="342" name="ArtistName" type="String">Jim Pavelec</Tag>
+		<Tag enumID="351" name="FlavorText" type="LocString">
+			<enUS>Double the trouble. Double the fun!</enUS>
+		</Tag>
 		<Power definition="80eea4e6-5792-4f2a-9dff-6bf8cb17804f">
 			<PlayRequirement param="" reqID="11"/>
 			<PlayRequirement param="" reqID="1"/>
@@ -3487,7 +3544,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="45" name="Health" type="Int" value="2"/>
 		<Tag enumID="199" name="Class" type="Class" value="3"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>Whenever you play a Beast, draw a card.</enUS>
+			<enUS>Whenever you summon a Beast, draw a card.</enUS>
 		</Tag>
 		<Tag enumID="252" name="CardTextInPlay" type="LocString">
 			<enUS>Soaring</enUS>
@@ -3710,6 +3767,9 @@ Summon a random Totem.</enUS>
 		<Tag enumID="325" name="TargetingArrowText" type="LocString">
 			<enUS>Give a Beast +2/+2 and Taunt.</enUS>
 		</Tag>
+		<Tag enumID="351" name="FlavorText" type="LocString">
+			<enUS>&quot;Who let the dogs out?&quot; he asks.  It's rhetorical.</enUS>
+		</Tag>
 		<Tag enumID="218" name="Battlecry" type="Bool" value="1"/>
 		<ReferencedTag enumID="190" name="Taunt" type="Bool" value="1"/>
 		<Power definition="fa93d019-f433-479a-8eca-8960b8a558f1">
@@ -3794,7 +3854,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="342" name="ArtistName" type="String">Lars Grant-West</Tag>
 		<Tag enumID="351" name="FlavorText" type="LocString">
-			<enUS>Tundra Rhinos are often mistaken with other types of Rhinos. Or am I mistaken?</enUS>
+			<enUS>Tundra rhinos are often mistaken for kodos. Or am I mistaken?</enUS>
 		</Tag>
 		<ReferencedTag enumID="197" name="Charge" type="Bool" value="1"/>
 		<Power definition="ae2ac717-394f-4b7e-a5ff-c9653bda830a"/>
@@ -3906,6 +3966,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="342" name="ArtistName" type="String">Peter C. Lee</Tag>
+		<ReferencedTag enumID="240" name="Cant Be Damaged" type="Bool" value="1"/>
 		<Power definition="d96807ae-a9fb-42f9-9c53-36e0f4da9446"/>
 		<Texture>W8_081_D</Texture>
 	</Entity>
@@ -3943,6 +4004,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="3"/>
 		<Tag enumID="183" name="CardSet" type="CardSet" value="3"/>
 		<Tag enumID="48" name="Cost" type="Int" value="1"/>
+		<Tag enumID="200" name="Race" type="Race" value="24"/>
 		<Texture>ONY_STK_013_D</Texture>
 	</Entity>
 	<Entity CardID="DS1h_292" version="2">
@@ -4039,8 +4101,8 @@ Summon a random Totem.</enUS>
 		<Tag enumID="203" name="Rarity" type="Rarity" value="3"/>
 		<Tag enumID="202" name="CardType" type="CardType" value="4"/>
 		<Tag enumID="48" name="Cost" type="Int" value="1"/>
-		<Tag enumID="47" name="Atk" type="Int" value="1"/>
-		<Tag enumID="45" name="Health" type="Int" value="2"/>
+		<Tag enumID="47" name="Atk" type="Int" value="2"/>
+		<Tag enumID="45" name="Health" type="Int" value="1"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
 			<enUS>At the end of your turn, give another random friendly minion +1 Health.</enUS>
 		</Tag>
@@ -4560,12 +4622,11 @@ Summon a random Totem.</enUS>
 	</Entity>
 	<Entity CardID="EX1_028" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
-			<enUS>Jadefire Satyr</enUS>
+			<enUS>Stranglethorn Tiger</enUS>
 		</Tag>
 		<Tag enumID="183" name="CardSet" type="CardSet" value="3"/>
 		<Tag enumID="202" name="CardType" type="CardType" value="4"/>
 		<Tag enumID="201" name="Faction" type="Faction" value="2"/>
-		<Tag enumID="203" name="Rarity" type="Rarity" value="1"/>
 		<Tag enumID="48" name="Cost" type="Int" value="5"/>
 		<Tag enumID="47" name="Atk" type="Int" value="5"/>
 		<Tag enumID="45" name="Health" type="Int" value="5"/>
@@ -4575,11 +4636,12 @@ Summon a random Totem.</enUS>
 		</Tag>
 		<Tag enumID="268" name="DevState" type="DevState" value="2"/>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
-		<Tag enumID="200" name="Race" type="Race" value="15"/>
+		<Tag enumID="200" name="Race" type="Race" value="20"/>
+		<Tag enumID="203" name="Rarity" type="Rarity" value="1"/>
 		<Tag enumID="342" name="ArtistName" type="String">Alex Horley Orlandelli </Tag>
 		<Tag enumID="191" name="Stealth" type="Bool" value="1"/>
 		<Power definition="78668f7d-b44e-43bd-8faf-3a55df3dd8fe"/>
-		<Texture>W17_a139_D</Texture>
+		<Texture>W13_309_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_029" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -4590,7 +4652,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="201" name="Faction" type="Faction" value="3"/>
 		<Tag enumID="203" name="Rarity" type="Rarity" value="1"/>
 		<Tag enumID="48" name="Cost" type="Int" value="1"/>
-		<Tag enumID="47" name="Atk" type="Int" value="1"/>
+		<Tag enumID="47" name="Atk" type="Int" value="2"/>
 		<Tag enumID="45" name="Health" type="Int" value="1"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="6"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
@@ -4900,7 +4962,7 @@ Summon a random Totem.</enUS>
 			<enUS>Addicted</enUS>
 		</Tag>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>Whenever you cast a spell, gain +3 Attack this turn.</enUS>
+			<enUS>Whenever you cast a spell, gain +2 Attack this turn.</enUS>
 		</Tag>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
@@ -5050,7 +5112,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="185" name="CardName" type="LocString">
 			<enUS>Old Murk-Eye</enUS>
 		</Tag>
-		<Tag enumID="183" name="CardSet" type="CardSet" value="3"/>
+		<Tag enumID="183" name="CardSet" type="CardSet" value="4"/>
 		<Tag enumID="202" name="CardType" type="CardType" value="4"/>
 		<Tag enumID="201" name="Faction" type="Faction" value="3"/>
 		<Tag enumID="200" name="Race" type="Race" value="14"/>
@@ -5155,14 +5217,14 @@ Summon a random Totem.</enUS>
 		<Tag enumID="201" name="Faction" type="Faction" value="2"/>
 		<Tag enumID="203" name="Rarity" type="Rarity" value="3"/>
 		<Tag enumID="48" name="Cost" type="Int" value="1"/>
-		<Tag enumID="47" name="Atk" type="Int" value="2"/>
-		<Tag enumID="45" name="Health" type="Int" value="1"/>
+		<Tag enumID="47" name="Atk" type="Int" value="1"/>
+		<Tag enumID="45" name="Health" type="Int" value="2"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="6"/>
 		<Tag enumID="252" name="CardTextInPlay" type="LocString">
 			<enUS>Firey</enUS>
 		</Tag>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>Whenever a &lt;b&gt;Secret&lt;/b&gt; is revealed, gain +1/+1.</enUS>
+			<enUS>Whenever a &lt;b&gt;Secret&lt;/b&gt; is played, gain +1/+1.</enUS>
 		</Tag>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
@@ -5300,7 +5362,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="45" name="Health" type="Int" value="3"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="6"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Swap this with a random enemy minion.</enUS>
+			<enUS>&lt;b&gt;Battlecry:&lt;/b&gt; If your opponent has 4 or more minions, take control of one at random.</enUS>
 		</Tag>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="342" name="ArtistName" type="String">Leo Che</Tag>
@@ -5506,9 +5568,9 @@ Summon a random Totem.</enUS>
 		<Tag enumID="202" name="CardType" type="CardType" value="4"/>
 		<Tag enumID="201" name="Faction" type="Faction" value="3"/>
 		<Tag enumID="203" name="Rarity" type="Rarity" value="5"/>
-		<Tag enumID="48" name="Cost" type="Int" value="1"/>
+		<Tag enumID="48" name="Cost" type="Int" value="2"/>
 		<Tag enumID="47" name="Atk" type="Int" value="1"/>
-		<Tag enumID="45" name="Health" type="Int" value="3"/>
+		<Tag enumID="45" name="Health" type="Int" value="4"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="6"/>
 		<Tag enumID="252" name="CardTextInPlay" type="LocString">
 			<enUS>Meditate</enUS>
@@ -5738,7 +5800,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="183" name="CardSet" type="CardSet" value="3"/>
 		<Tag enumID="203" name="Rarity" type="Rarity" value="1"/>
 		<Tag enumID="202" name="CardType" type="CardType" value="5"/>
-		<Tag enumID="48" name="Cost" type="Int" value="3"/>
+		<Tag enumID="48" name="Cost" type="Int" value="2"/>
 		<Tag enumID="201" name="Faction" type="Faction" value="3"/>
 		<Tag enumID="199" name="Class" type="Class" value="7"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="6"/>
@@ -5767,7 +5829,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="201" name="Faction" type="Faction" value="3"/>
 		<Tag enumID="199" name="Class" type="Class" value="7"/>
 		<Tag enumID="203" name="Rarity" type="Rarity" value="1"/>
-		<Tag enumID="48" name="Cost" type="Int" value="0"/>
+		<Tag enumID="48" name="Cost" type="Int" value="1"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="1"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
 			<enUS>Give a friendly minion &lt;b&gt;Stealth&lt;/b&gt;.</enUS>
@@ -5797,7 +5859,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="48" name="Cost" type="Int" value="3"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="1"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>Deal $1-$2 damage to all enemy minions.</enUS>
+			<enUS>Deal $1 damage to all enemies. Draw a card.</enUS>
 		</Tag>
 		<Tag enumID="268" name="DevState" type="DevState" value="2"/>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
@@ -5805,6 +5867,8 @@ Summon a random Totem.</enUS>
 		<Tag enumID="351" name="FlavorText" type="LocString">
 			<enUS>I wouldn't say I LOVE knives, but I'm definitely a fan.</enUS>
 		</Tag>
+		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
+		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Power definition="2e8eabed-03ab-42b4-a2a2-b520297d0a2b"/>
 		<Texture>W12_a057_D</Texture>
 	</Entity>
@@ -6032,6 +6096,8 @@ Summon a random Totem.</enUS>
 		</Tag>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="342" name="ArtistName" type="String">Graven Tung</Tag>
+		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
+		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Power definition="100aa67d-a320-4afb-856e-701b45a4cd48">
 			<PlayRequirement param="" reqID="11"/>
 			<PlayRequirement param="" reqID="1"/>
@@ -6378,7 +6444,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="201" name="Faction" type="Faction" value="3"/>
 		<Tag enumID="199" name="Class" type="Class" value="2"/>
 		<Tag enumID="203" name="Rarity" type="Rarity" value="1"/>
-		<Tag enumID="48" name="Cost" type="Int" value="2"/>
+		<Tag enumID="48" name="Cost" type="Int" value="1"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="1"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
 			<enUS>Destroy a minion. Your opponent draws 2 cards.</enUS>
@@ -6517,7 +6583,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="45" name="Health" type="Int" value="4"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="6"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>&lt;b&gt;Choose One -&lt;/b&gt; &lt;b&gt;Charge&lt;/b&gt;; or +3 Health and &lt;b&gt;Taunt&lt;/b&gt;.</enUS>
+			<enUS>&lt;b&gt;Choose One -&lt;/b&gt; &lt;b&gt;Charge&lt;/b&gt;; or +2 Health and &lt;b&gt;Taunt&lt;/b&gt;.</enUS>
 		</Tag>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
@@ -6561,7 +6627,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="203" name="Rarity" type="Rarity" value="1"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="1"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>+3 Health and &lt;b&gt;Taunt&lt;/b&gt;.</enUS>
+			<enUS>+2 Health and &lt;b&gt;Taunt&lt;/b&gt;.</enUS>
 		</Tag>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
@@ -6597,7 +6663,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="202" name="CardType" type="CardType" value="4"/>
 		<Tag enumID="48" name="Cost" type="Int" value="5"/>
 		<Tag enumID="47" name="Atk" type="Int" value="4"/>
-		<Tag enumID="45" name="Health" type="Int" value="7"/>
+		<Tag enumID="45" name="Health" type="Int" value="6"/>
 		<Tag enumID="199" name="Class" type="Class" value="2"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
 			<enUS>&lt;b&gt;Taunt&lt;/b&gt;</enUS>
@@ -6880,7 +6946,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="342" name="ArtistName" type="String">Dan Scott</Tag>
 		<Tag enumID="351" name="FlavorText" type="LocString">
-			<enUS>Its like a ocean of liquid magma in your mouth!</enUS>
+			<enUS>It's like an ocean of liquid magma in your mouth!</enUS>
 		</Tag>
 		<Tag enumID="215" name="Recall" type="Int" value="2"/>
 		<Power definition="5c98dcbc-fd61-4aea-8221-e3ff4acb48b7">
@@ -6930,6 +6996,8 @@ Summon a random Totem.</enUS>
 		</Tag>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="342" name="ArtistName" type="String">Trent Kaniuga</Tag>
+		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
+		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Power definition="d54b1cd0-7ad9-4e37-bae2-203ab1646efe"/>
 		<Texture>W5_128_D</Texture>
 	</Entity>
@@ -6960,7 +7028,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="48" name="Cost" type="Int" value="1"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="1"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>Deal $1 damage to a minion and &lt;b&gt;Silence&lt;/b&gt; it.</enUS>
+			<enUS>&lt;b&gt;Silence&lt;/b&gt; a minion, then deal $1 damage to it.</enUS>
 		</Tag>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
@@ -7224,6 +7292,9 @@ Summon a random Totem.</enUS>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="114" name="Elite" type="Bool" value="0"/>
 		<Tag enumID="342" name="ArtistName" type="String">Michael Komarck</Tag>
+		<Tag enumID="351" name="FlavorText" type="LocString">
+			<enUS>The ethereals are wrapped in cloth to give form to their non-corporeal bodies. Also because it's nice and soft.</enUS>
+		</Tag>
 		<Tag enumID="32" name="TriggerVisual" type="Bool" value="1"/>
 		<Power definition="aef86fc1-42c7-435b-ae4c-d4155ef1b91b"/>
 		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False"/>
@@ -7421,7 +7492,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="48" name="Cost" type="Int" value="3"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="1"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>&lt;b&gt;Secret:&lt;/b&gt; When an opponent casts a spell, &lt;b&gt;Counter&lt;/b&gt; it.</enUS>
+			<enUS>&lt;b&gt;Secret:&lt;/b&gt; When your opponent casts a spell, &lt;b&gt;Counter&lt;/b&gt; it.</enUS>
 		</Tag>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
@@ -7452,7 +7523,7 @@ Summon a random Totem.</enUS>
 		</Tag>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="351" name="FlavorText" type="LocString">
-			<enUS>Sure, you're well armored... but now you're quite cold.  And who has time for a cozy fire in the thick of battle?</enUS>
+			<enUS>This is Rank 1.  Rank 2 is Chocolate Milk Barrier.</enUS>
 		</Tag>
 		<Tag enumID="342" name="ArtistName" type="String">Alex Garner</Tag>
 		<Tag enumID="219" name="Secret" type="Bool" value="1"/>
@@ -7472,7 +7543,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="48" name="Cost" type="Int" value="3"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="1"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>&lt;b&gt;Secret:&lt;/b&gt; When an enemy minion attacks, summon a copy of it.</enUS>
+			<enUS>&lt;b&gt;Secret:&lt;/b&gt; When your opponent plays a minion, summon a copy of it.</enUS>
 		</Tag>
 		<Tag enumID="268" name="DevState" type="DevState" value="2"/>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
@@ -7506,7 +7577,10 @@ Summon a random Totem.</enUS>
 			<enUS>Ice is nice, and will suffice!</enUS>
 		</Tag>
 		<Tag enumID="342" name="ArtistName" type="String">Carl Frank</Tag>
+		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
+		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="219" name="Secret" type="Bool" value="1"/>
+		<ReferencedTag enumID="240" name="Cant Be Damaged" type="Bool" value="1"/>
 		<Power definition="77a88259-84de-4edd-be28-3b65d405aeb1"/>
 		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False"/>
 		<Texture>WoW_TAL_011_D</Texture>
@@ -7579,6 +7653,9 @@ Summon a random Totem.</enUS>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="342" name="ArtistName" type="String">John 'JP' Polidora</Tag>
+		<Tag enumID="351" name="FlavorText" type="LocString">
+			<enUS>Yes, he'll fight for you.  BUT HE'S NOT GOING TO LIKE IT.</enUS>
+		</Tag>
 		<Tag enumID="190" name="Taunt" type="Bool" value="1"/>
 		<Tag enumID="218" name="Battlecry" type="Bool" value="1"/>
 		<Power definition="ba1ac398-e970-4d1a-b95b-738a99ef41bf"/>
@@ -7588,7 +7665,7 @@ Summon a random Totem.</enUS>
 	<Entity CardID="EX1_302" version="2">
 		<MasterPower>61265a89-a7da-4a13-8b73-302e204116a1</MasterPower>
 		<Tag enumID="185" name="CardName" type="LocString">
-			<enUS>Death Coil</enUS>
+			<enUS>Mortal Coil</enUS>
 		</Tag>
 		<Tag enumID="183" name="CardSet" type="CardSet" value="2"/>
 		<Tag enumID="202" name="CardType" type="CardType" value="5"/>
@@ -7779,6 +7856,9 @@ Summon a random Totem.</enUS>
 		<Tag enumID="268" name="DevState" type="DevState" value="2"/>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="342" name="ArtistName" type="String">Lucas Graciano</Tag>
+		<Tag enumID="351" name="FlavorText" type="LocString">
+			<enUS>Summoning a doomguard is risky. &lt;i&gt;Someone&lt;/i&gt; is going to die.</enUS>
+		</Tag>
 		<Tag enumID="197" name="Charge" type="Bool" value="1"/>
 		<Tag enumID="218" name="Battlecry" type="Bool" value="1"/>
 		<Power definition="d617eef0-1812-47fa-841a-5da0fff9a0df"/>
@@ -7804,6 +7884,9 @@ Summon a random Totem.</enUS>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="342" name="ArtistName" type="String">Dave Allsop</Tag>
+		<Tag enumID="351" name="FlavorText" type="LocString">
+			<enUS>The Twisting Nether is a formless place of magic and illusion and destroyed minions.</enUS>
+		</Tag>
 		<Power definition="0dcb5c19-b908-4dcc-ad25-c2c643bd4a91"/>
 		<Texture>W11_077_D</Texture>
 	</Entity>
@@ -7829,6 +7912,9 @@ Summon a random Totem.</enUS>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="342" name="ArtistName" type="String">Glenn Rane</Tag>
+		<Tag enumID="351" name="FlavorText" type="LocString">
+			<enUS>Mannoroth, Magtheridon, and Brutallus may be dead, but it turns out there are a LOT of pit lords.</enUS>
+		</Tag>
 		<Tag enumID="218" name="Battlecry" type="Bool" value="1"/>
 		<Power definition="8d8fc00f-9e85-4b91-83cf-88a024aaed4c"/>
 		<Texture>R3_043_D</Texture>
@@ -7842,7 +7928,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="201" name="Faction" type="Faction" value="3"/>
 		<Tag enumID="199" name="Class" type="Class" value="9"/>
 		<Tag enumID="203" name="Rarity" type="Rarity" value="1"/>
-		<Tag enumID="48" name="Cost" type="Int" value="3"/>
+		<Tag enumID="48" name="Cost" type="Int" value="4"/>
 		<Tag enumID="45" name="Health" type="Int" value="4"/>
 		<Tag enumID="252" name="CardTextInPlay" type="LocString">
 			<enUS>Summoning</enUS>
@@ -7857,6 +7943,8 @@ Summon a random Totem.</enUS>
 			<enUS>NOT LESS THAN 1!  Don't get any ideas!</enUS>
 		</Tag>
 		<Tag enumID="47" name="Atk" type="Int" value="0"/>
+		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
+		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Power definition="d4d9df42-0b48-48de-90e5-f3d4b0ac27cb"/>
 		<Texture>W13_287_D</Texture>
 	</Entity>
@@ -7961,14 +8049,14 @@ Summon a random Totem.</enUS>
 		<Tag enumID="45" name="Health" type="Int" value="2"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="1"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>&lt;b&gt;Stealth&lt;/b&gt;. &lt;b&gt;Battlecry:&lt;/b&gt; Deal 2 damage to your hero.</enUS>
+			<enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Deal 2 damage to your hero.</enUS>
 		</Tag>
 		<Tag enumID="268" name="DevState" type="DevState" value="2"/>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="342" name="ArtistName" type="String">Alex Horley Orlandelli</Tag>
-		<Tag enumID="191" name="Stealth" type="Bool" value="1"/>
+		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
+		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="218" name="Battlecry" type="Bool" value="1"/>
-		<Power definition="44b58301-2a96-4888-9b20-d2ca8a610465"/>
 		<Power definition="6502b148-d921-4718-aead-4256d4e1c6c2"/>
 		<Texture>W7_009_D</Texture>
 	</Entity>
@@ -8023,6 +8111,9 @@ Summon a random Totem.</enUS>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="342" name="ArtistName" type="String">Alex Horley Orlandelli</Tag>
+		<Tag enumID="351" name="FlavorText" type="LocString">
+			<enUS>&quot;TRIFLING GNOME! YOUR ARROGANCE WILL BE YOUR UNDOING!!!!&quot;</enUS>
+		</Tag>
 		<Tag enumID="218" name="Battlecry" type="Bool" value="1"/>
 		<Power definition="143d9297-dcf4-4d68-ba3b-364ec8727640"/>
 		<Texture>W6_010_D</Texture>
@@ -8090,7 +8181,7 @@ Summon a random Totem.</enUS>
 	<Entity CardID="EX1_334" version="2">
 		<MasterPower>d2bacef2-8095-466f-9507-655c664f17b1</MasterPower>
 		<Tag enumID="185" name="CardName" type="LocString">
-			<enUS>Dark Command</enUS>
+			<enUS>Shadow Madness</enUS>
 		</Tag>
 		<Tag enumID="183" name="CardSet" type="CardSet" value="3"/>
 		<Tag enumID="202" name="CardType" type="CardType" value="5"/>
@@ -8106,6 +8197,9 @@ Summon a random Totem.</enUS>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="342" name="ArtistName" type="String">Mark Gibbons</Tag>
+		<Tag enumID="351" name="FlavorText" type="LocString">
+			<enUS>You can rationalize it all you want, it's still a mean thing to do.</enUS>
+		</Tag>
 		<Power definition="d2bacef2-8095-466f-9507-655c664f17b1">
 			<PlayRequirement param="" reqID="11"/>
 			<PlayRequirement param="" reqID="1"/>
@@ -8132,29 +8226,27 @@ Summon a random Totem.</enUS>
 		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False"/>
 	</Entity>
 	<Entity CardID="EX1_335" version="2">
-		<MasterPower>46caeb83-593b-4cc5-810e-62adda2c520e</MasterPower>
 		<Tag enumID="185" name="CardName" type="LocString">
-			<enUS>Mental Collapse</enUS>
+			<enUS>Lightspawn</enUS>
 		</Tag>
 		<Tag enumID="183" name="CardSet" type="CardSet" value="3"/>
-		<Tag enumID="202" name="CardType" type="CardType" value="5"/>
+		<Tag enumID="202" name="CardType" type="CardType" value="4"/>
 		<Tag enumID="201" name="Faction" type="Faction" value="3"/>
 		<Tag enumID="199" name="Class" type="Class" value="6"/>
 		<Tag enumID="203" name="Rarity" type="Rarity" value="1"/>
-		<Tag enumID="48" name="Cost" type="Int" value="2"/>
+		<Tag enumID="48" name="Cost" type="Int" value="4"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="1"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>Deal 1 damage to the enemy hero for each card in his hand.</enUS>
+			<enUS>This minion's Attack is equal to its Health.</enUS>
 		</Tag>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
-		<Tag enumID="342" name="ArtistName" type="String">Lucio Parrillo</Tag>
-		<Tag enumID="351" name="FlavorText" type="LocString">
-			<enUS>&quot;I DON'T KNOW WHAT WE'RE YELLING ABOUT!!!&quot;</enUS>
-		</Tag>
-		<Power definition="46caeb83-593b-4cc5-810e-62adda2c520e"/>
-		<Texture>W6_088_D</Texture>
+		<Tag enumID="47" name="Atk" type="Int" value="0"/>
+		<Tag enumID="45" name="Health" type="Int" value="4"/>
+		<Tag enumID="342" name="ArtistName" type="String">Daarken</Tag>
+		<Power definition="01c64369-fa74-4773-9e1f-f188831711e8"/>
+		<Texture>W9_a157_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_339" version="2">
 		<MasterPower>fc872394-056c-4192-a448-2e2b675340e1</MasterPower>
@@ -8175,6 +8267,9 @@ Summon a random Totem.</enUS>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="342" name="ArtistName" type="String">Alex Garner</Tag>
+		<Tag enumID="351" name="FlavorText" type="LocString">
+			<enUS>&quot;What do you get when you cast Thoughtsteal on an Orc?  Nothing!&quot; - Tauren joke</enUS>
+		</Tag>
 		<Power definition="fc872394-056c-4192-a448-2e2b675340e1"/>
 		<Texture>W7_145_D</Texture>
 	</Entity>
@@ -8529,7 +8624,7 @@ Summon a random Totem.</enUS>
 			<enUS>Sword of Justice</enUS>
 		</Tag>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>Whenever you play a minion, give it +1/+1 and this loses 1 Durability.</enUS>
+			<enUS>Whenever you summon a minion, give it +1/+1 and this loses 1 Durability.</enUS>
 		</Tag>
 		<Tag enumID="183" name="CardSet" type="CardSet" value="3"/>
 		<Tag enumID="203" name="Rarity" type="Rarity" value="4"/>
@@ -8657,9 +8752,9 @@ Summon a random Totem.</enUS>
 		</Tag>
 		<Tag enumID="218" name="Battlecry" type="Bool" value="1"/>
 		<Power definition="05db42af-669a-426c-a0ee-44b871475357">
-			<PlayRequirement param="" reqID="11"/>
 			<PlayRequirement param="" reqID="3"/>
 			<PlayRequirement param="" reqID="1"/>
+			<PlayRequirement param="" reqID="22"/>
 		</Power>
 		<Texture>W4_062_D</Texture>
 	</Entity>
@@ -8813,6 +8908,8 @@ Summon a random Totem.</enUS>
 		<Tag enumID="351" name="FlavorText" type="LocString">
 			<enUS>&quot;You won't like me when I'm angry.&quot;</enUS>
 		</Tag>
+		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
+		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Power definition="b325b69e-6855-4de3-a96b-592d349880d6">
 			<PlayRequirement param="" reqID="1"/>
 		</Power>
@@ -8976,8 +9073,8 @@ Summon a random Totem.</enUS>
 		<Tag enumID="199" name="Class" type="Class" value="10"/>
 		<Tag enumID="203" name="Rarity" type="Rarity" value="3"/>
 		<Tag enumID="48" name="Cost" type="Int" value="2"/>
-		<Tag enumID="47" name="Atk" type="Int" value="2"/>
-		<Tag enumID="45" name="Health" type="Int" value="3"/>
+		<Tag enumID="47" name="Atk" type="Int" value="1"/>
+		<Tag enumID="45" name="Health" type="Int" value="4"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="1"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
 			<enUS>Whenever a friendly minion takes damage, gain 1 Armor.</enUS>
@@ -9007,16 +9104,14 @@ Summon a random Totem.</enUS>
 		<Tag enumID="45" name="Health" type="Int" value="4"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="1"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>&lt;b&gt;Taunt&lt;/b&gt;. &lt;b&gt;Enrage:&lt;/b&gt; +1 Attack.</enUS>
+			<enUS>&lt;b&gt;Taunt&lt;/b&gt;</enUS>
 		</Tag>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="342" name="ArtistName" type="String">Carl Critchlow</Tag>
 		<Tag enumID="190" name="Taunt" type="Bool" value="1"/>
-		<Tag enumID="212" name="Enrage" type="Bool" value="1"/>
 		<Power definition="805b7122-5303-457e-b20f-b9c6594a252b"/>
-		<Power definition="15988a01-5ba2-4b8e-9431-2fc478777df6"/>
 		<Texture>W5_186_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_407" version="2">
@@ -9119,9 +9214,9 @@ Summon a random Totem.</enUS>
 		<Texture>w14_a142_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_410" version="2">
-		<MasterPower>b8d03317-3b29-4a3d-99e8-d9d6760f0b4e</MasterPower>
+		<MasterPower>12f75fac-42bf-485b-a10c-9d766d8ab85f</MasterPower>
 		<Tag enumID="185" name="CardName" type="LocString">
-			<enUS>Death Wish</enUS>
+			<enUS>Shield Slam</enUS>
 		</Tag>
 		<Tag enumID="183" name="CardSet" type="CardSet" value="3"/>
 		<Tag enumID="202" name="CardType" type="CardType" value="5"/>
@@ -9129,35 +9224,22 @@ Summon a random Totem.</enUS>
 		<Tag enumID="199" name="Class" type="Class" value="10"/>
 		<Tag enumID="203" name="Rarity" type="Rarity" value="4"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="1"/>
-		<Tag enumID="48" name="Cost" type="Int" value="2"/>
+		<Tag enumID="48" name="Cost" type="Int" value="1"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>Your hero loses all Armor and gets +1 Attack this turn for each Armor lost.</enUS>
+			<enUS>Deal 1 damage to a minion for each Armor you have.</enUS>
 		</Tag>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
-		<Tag enumID="342" name="ArtistName" type="String">Jim Murray</Tag>
 		<Tag enumID="351" name="FlavorText" type="LocString">
 			<enUS>&quot;What is a better weapon? The sharp one your enemies expect, or the blunt one they ignore?&quot; - The Art of Warrior, Chapter 9</enUS>
 		</Tag>
-		<Power definition="b8d03317-3b29-4a3d-99e8-d9d6760f0b4e"/>
-		<Texture>W3_053_D</Texture>
-	</Entity>
-	<Entity CardID="EX1_410e" version="2">
-		<Tag enumID="185" name="CardName" type="LocString">
-			<enUS>Death Wish</enUS>
-		</Tag>
-		<Tag enumID="183" name="CardSet" type="CardSet" value="3"/>
-		<Tag enumID="202" name="CardType" type="CardType" value="6"/>
-		<Tag enumID="199" name="Class" type="Class" value="10"/>
-		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>Your hero has increased Attack this turn.</enUS>
-		</Tag>
-		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
-		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
-		<Power definition="748a1710-d461-46e7-a355-8f2aad6d0ba1"/>
-		<Power definition="97350316-9c2d-42fd-9fa9-2e1c88555840"/>
-		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False"/>
+		<Tag enumID="342" name="ArtistName" type="String">Raymond Swanland</Tag>
+		<Power definition="12f75fac-42bf-485b-a10c-9d766d8ab85f">
+			<PlayRequirement param="" reqID="11"/>
+			<PlayRequirement param="" reqID="1"/>
+		</Power>
+		<Texture>W13_242_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_411" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -9321,7 +9403,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="45" name="Health" type="Int" value="3"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="1"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>ALL other Murlocs have +1/+1.</enUS>
+			<enUS>ALL other Murlocs have +2/+1.</enUS>
 		</Tag>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
@@ -9337,11 +9419,11 @@ Summon a random Totem.</enUS>
 		<Tag enumID="183" name="CardSet" type="CardSet" value="3"/>
 		<Tag enumID="202" name="CardType" type="CardType" value="6"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>Murloc Warleader is granting +1/+1.</enUS>
+			<enUS>Murloc Warleader is granting +2/+1.</enUS>
 		</Tag>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="1"/>
-		<Power definition="f0c97563-89a7-4c97-a38a-74a106c0a550"/>
+		<Power definition="4b71cbd3-a512-4803-b65d-537a3f6f277b"/>
 	</Entity>
 	<Entity CardID="EX1_508" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -9394,7 +9476,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="45" name="Health" type="Int" value="2"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="1"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>Whenever a Murloc is played, gain +1 Attack.</enUS>
+			<enUS>Whenever a Murloc is summoned, gain +1 Attack.</enUS>
 		</Tag>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
@@ -9477,6 +9559,9 @@ Summon a random Totem.</enUS>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="342" name="ArtistName" type="String">Jim Nelson</Tag>
+		<Tag enumID="351" name="FlavorText" type="LocString">
+			<enUS>Hyenas prefer the bones of kodos or windserpents, but they'll eat pretty much anything.  Even brussel sprouts.</enUS>
+		</Tag>
 		<Tag enumID="32" name="TriggerVisual" type="Bool" value="1"/>
 		<Power definition="9b194dde-3a32-48b8-b649-f91e503714d5"/>
 		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False"/>
@@ -9523,43 +9608,50 @@ Summon a random Totem.</enUS>
 	</Entity>
 	<Entity CardID="EX1_534" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
-			<enUS>Darkspear Hunter</enUS>
+			<enUS>Savannah Highmane</enUS>
 		</Tag>
 		<Tag enumID="183" name="CardSet" type="CardSet" value="3"/>
 		<Tag enumID="202" name="CardType" type="CardType" value="4"/>
 		<Tag enumID="199" name="Class" type="Class" value="3"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>Whenever you play a Beast, the Beast gains +1/+1.</enUS>
+			<enUS>&lt;b&gt;Deathrattle:&lt;/b&gt; Summon two 2/2 Hyenas.</enUS>
 		</Tag>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
-		<Tag enumID="203" name="Rarity" type="Rarity" value="1"/>
-		<Tag enumID="48" name="Cost" type="Int" value="2"/>
-		<Tag enumID="47" name="Atk" type="Int" value="2"/>
-		<Tag enumID="45" name="Health" type="Int" value="2"/>
+		<Tag enumID="203" name="Rarity" type="Rarity" value="3"/>
+		<Tag enumID="48" name="Cost" type="Int" value="6"/>
+		<Tag enumID="47" name="Atk" type="Int" value="6"/>
+		<Tag enumID="45" name="Health" type="Int" value="5"/>
 		<Tag enumID="252" name="CardTextInPlay" type="LocString">
 			<enUS>Master</enUS>
 		</Tag>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
-		<Tag enumID="342" name="ArtistName" type="String">Alex Horley Orlandelli</Tag>
-		<Tag enumID="32" name="TriggerVisual" type="Bool" value="1"/>
-		<Power definition="d900100b-43d4-4338-a7a1-c5b39e5e5c0e"/>
+		<Tag enumID="200" name="Race" type="Race" value="20"/>
+		<Tag enumID="342" name="ArtistName" type="String">Milivoj Ceran</Tag>
+		<Tag enumID="351" name="FlavorText" type="LocString">
+			<enUS>In the jungle, the mighty jungle, the lion gets slowly consumed by hyenas.</enUS>
+		</Tag>
+		<Tag enumID="217" name="Deathrattle" type="Bool" value="1"/>
+		<Power definition="31aa1d47-bba0-4ba4-8450-2f6d1c8dae7a"/>
 		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False"/>
-		<Texture>WOW_HHU_002_D</Texture>
+		<Texture>W20_a157_D</Texture>
 	</Entity>
-	<Entity CardID="EX1_534e" version="2">
+	<Entity CardID="EX1_534t" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
-			<enUS>Beast Training</enUS>
+			<enUS>Hyena</enUS>
 		</Tag>
 		<Tag enumID="183" name="CardSet" type="CardSet" value="3"/>
-		<Tag enumID="202" name="CardType" type="CardType" value="6"/>
+		<Tag enumID="202" name="CardType" type="CardType" value="4"/>
 		<Tag enumID="199" name="Class" type="Class" value="3"/>
-		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>This Beast has +1/+1.</enUS>
-		</Tag>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="1"/>
-		<Power definition="ac978b65-58c3-4020-b4d0-4c2e4619fd73"/>
+		<Tag enumID="203" name="Rarity" type="Rarity" value="3"/>
+		<Tag enumID="48" name="Cost" type="Int" value="2"/>
+		<Tag enumID="47" name="Atk" type="Int" value="2"/>
+		<Tag enumID="45" name="Health" type="Int" value="2"/>
+		<Tag enumID="200" name="Race" type="Race" value="20"/>
+		<Tag enumID="342" name="ArtistName" type="String">Andrew Robinson</Tag>
+		<Texture>W11_222_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_536" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -9612,12 +9704,15 @@ Summon a random Totem.</enUS>
 		<Tag enumID="199" name="Class" type="Class" value="3"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="3"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>Deal $6 damage to a minion and $1 damage to adjacent ones.</enUS>
+			<enUS>Deal $5 damage to a minion and $2 damage to adjacent ones.</enUS>
 		</Tag>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="342" name="ArtistName" type="String">Tom Baxa</Tag>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
+		<Tag enumID="351" name="FlavorText" type="LocString">
+			<enUS>Pull the pin, count to 5, then shoot.  Then duck.</enUS>
+		</Tag>
 		<Power definition="73a53fd2-aa5a-4385-8f7f-a745ca933617">
 			<PlayRequirement param="" reqID="11"/>
 			<PlayRequirement param="" reqID="1"/>
@@ -9679,6 +9774,9 @@ Summon a random Totem.</enUS>
 		</Tag>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="342" name="ArtistName" type="String">Gabe from Penny Arcade</Tag>
+		<Tag enumID="351" name="FlavorText" type="LocString">
+			<enUS>&quot;Kill!&quot;, he commanded.</enUS>
+		</Tag>
 		<Power definition="44c376c8-bf0a-4c0b-afec-666d95f7059f">
 			<PlayRequirement param="" reqID="11"/>
 		</Power>
@@ -9748,7 +9846,11 @@ Summon a random Totem.</enUS>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
-		<Tag enumID="342" name="ArtistName" type="String">Alex Horley Orlandelli </Tag>
+		<Tag enumID="342" name="ArtistName" type="String">Alex Horley Orlandelli</Tag>
+		<Tag enumID="351" name="FlavorText" type="LocString">
+			<enUS>The seething wrath is just beneath the surface.  Beneath that is wild abandon, followed by slight annoyance.</enUS>
+		</Tag>
+		<ReferencedTag enumID="240" name="Cant Be Damaged" type="Bool" value="1"/>
 		<Power definition="ec001c18-5106-4cd3-a9c3-fb35a1153440">
 			<PlayRequirement param="" reqID="11"/>
 			<PlayRequirement param="20" reqID="10"/>
@@ -9843,7 +9945,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="202" name="CardType" type="CardType" value="4"/>
 		<Tag enumID="48" name="Cost" type="Int" value="2"/>
 		<Tag enumID="47" name="Atk" type="Int" value="0"/>
-		<Tag enumID="45" name="Health" type="Int" value="5"/>
+		<Tag enumID="45" name="Health" type="Int" value="4"/>
 		<Tag enumID="201" name="Faction" type="Faction" value="3"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="6"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
@@ -9988,6 +10090,7 @@ Summon a random Totem.</enUS>
 		<Texture>R8_A002_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_562" version="2">
+		<MasterPower>cde7eb0e-6173-490f-8901-5799cd878305</MasterPower>
 		<Tag enumID="185" name="CardName" type="LocString">
 			<enUS>Onyxia</enUS>
 		</Tag>
@@ -10005,14 +10108,11 @@ Summon a random Totem.</enUS>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>Whenever you draw a card, deal 2 damage to ALL characters.</enUS>
+			<enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Summon 1/1 Whelps until your side of the battlefield is full.</enUS>
 		</Tag>
 		<Tag enumID="342" name="ArtistName" type="String">Dany Orizio</Tag>
-		<Tag enumID="32" name="TriggerVisual" type="Bool" value="1"/>
-		<Power definition="2d2a313d-b517-4e30-9a53-625d56702887"/>
-		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True" type="LocString">
-			<enUS>Onyxia dealt 2 damage to ALL characters.</enUS>
-		</TriggeredPowerHistoryInfo>
+		<Tag enumID="218" name="Battlecry" type="Bool" value="1"/>
+		<Power definition="cde7eb0e-6173-490f-8901-5799cd878305"/>
 		<Texture>ONY_STK_017_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_563" version="2">
@@ -10148,12 +10248,12 @@ Summon a random Totem.</enUS>
 		<Tag enumID="183" name="CardSet" type="CardSet" value="3"/>
 		<Tag enumID="203" name="Rarity" type="Rarity" value="3"/>
 		<Tag enumID="202" name="CardType" type="CardType" value="5"/>
-		<Tag enumID="48" name="Cost" type="Int" value="4"/>
+		<Tag enumID="48" name="Cost" type="Int" value="3"/>
 		<Tag enumID="201" name="Faction" type="Faction" value="3"/>
 		<Tag enumID="199" name="Class" type="Class" value="2"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="2"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>Give your hero +6 Attack this turn.</enUS>
+			<enUS>Give your hero +4 Attack this turn and 4 Armor.</enUS>
 		</Tag>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
@@ -10174,7 +10274,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="183" name="CardSet" type="CardSet" value="3"/>
 		<Tag enumID="202" name="CardType" type="CardType" value="6"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>+6 Attack this turn.</enUS>
+			<enUS>+4 Attack this turn.</enUS>
 		</Tag>
 		<Tag enumID="338" name="OneTurnEffect" type="Bool" value="1"/>
 		<Power definition="67f2d20f-2694-4e46-bf90-a488c5b2ab3a"/>
@@ -10188,7 +10288,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="183" name="CardSet" type="CardSet" value="3"/>
 		<Tag enumID="203" name="Rarity" type="Rarity" value="4"/>
 		<Tag enumID="202" name="CardType" type="CardType" value="5"/>
-		<Tag enumID="48" name="Cost" type="Int" value="5"/>
+		<Tag enumID="48" name="Cost" type="Int" value="6"/>
 		<Tag enumID="201" name="Faction" type="Faction" value="3"/>
 		<Tag enumID="199" name="Class" type="Class" value="2"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="1"/>
@@ -10426,6 +10526,8 @@ Summon a random Totem.</enUS>
 		<Tag enumID="268" name="DevState" type="DevState" value="2"/>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="342" name="ArtistName" type="String">Scott Altmann</Tag>
+		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
+		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Power definition="891e592b-29b8-43e7-bb92-a6d72780117c">
 			<PlayRequirement param="" reqID="11"/>
 			<PlayRequirement param="" reqID="1"/>
@@ -10630,6 +10732,9 @@ Summon a random Totem.</enUS>
 		</Tag>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="342" name="ArtistName" type="String">Doug Alexander</Tag>
+		<Tag enumID="351" name="FlavorText" type="LocString">
+			<enUS>The Auchenai know the end is coming, but they're not sure when.</enUS>
+		</Tag>
 		<Power definition="bffdccbc-c186-43e5-93e1-ab25b092dbc2"/>
 		<Texture>W13_004_D</Texture>
 	</Entity>
@@ -10665,14 +10770,14 @@ Summon a random Totem.</enUS>
 		<Tag enumID="201" name="Faction" type="Faction" value="3"/>
 		<Tag enumID="199" name="Class" type="Class" value="4"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>&lt;b&gt;Secret:&lt;/b&gt; When your opponent plays a minion, destroy it.</enUS>
+			<enUS>&lt;b&gt;Secret:&lt;/b&gt; When a minion attacks your hero, destroy it.</enUS>
 		</Tag>
 		<Tag enumID="268" name="DevState" type="DevState" value="2"/>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="351" name="FlavorText" type="LocString">
-			<enUS>Was the Cataclysm a result of Deathwing losing a game when his opponent played this card?  We may never know.</enUS>
+			<enUS>Rumor has it that Deathwing brought about the Cataclysm after losing a game to this card.  We may never know the truth.</enUS>
 		</Tag>
 		<Tag enumID="342" name="ArtistName" type="String">Raymond Swanland</Tag>
 		<Tag enumID="219" name="Secret" type="Bool" value="1"/>
@@ -10688,8 +10793,8 @@ Summon a random Totem.</enUS>
 		<Tag enumID="203" name="Rarity" type="Rarity" value="1"/>
 		<Tag enumID="202" name="CardType" type="CardType" value="4"/>
 		<Tag enumID="48" name="Cost" type="Int" value="4"/>
-		<Tag enumID="45" name="Health" type="Int" value="4"/>
-		<Tag enumID="47" name="Atk" type="Int" value="3"/>
+		<Tag enumID="45" name="Health" type="Int" value="3"/>
+		<Tag enumID="47" name="Atk" type="Int" value="4"/>
 		<Tag enumID="201" name="Faction" type="Faction" value="3"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
 			<enUS>Whenever one of your other minions dies, draw a card.</enUS>
@@ -10718,12 +10823,14 @@ Summon a random Totem.</enUS>
 		<Tag enumID="48" name="Cost" type="Int" value="2"/>
 		<Tag enumID="201" name="Faction" type="Faction" value="3"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>Deal $2 damage to a minion.  If the target is a Demon, give it +2/+2 instead.</enUS>
+			<enUS>Deal $2 damage to a minion.   If it’s a friendly Demon, give it +2/+2 instead.</enUS>
 		</Tag>
 		<Tag enumID="199" name="Class" type="Class" value="9"/>
 		<Tag enumID="268" name="DevState" type="DevState" value="2"/>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="342" name="ArtistName" type="String">Ben Wootten</Tag>
+		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
+		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Power definition="1da2233d-656d-4fb4-b78b-3b1c8d538eaa">
 			<PlayRequirement param="" reqID="11"/>
 			<PlayRequirement param="" reqID="1"/>
@@ -10755,7 +10862,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="203" name="Rarity" type="Rarity" value="3"/>
 		<Tag enumID="202" name="CardType" type="CardType" value="4"/>
 		<Tag enumID="48" name="Cost" type="Int" value="3"/>
-		<Tag enumID="45" name="Health" type="Int" value="6"/>
+		<Tag enumID="45" name="Health" type="Int" value="5"/>
 		<Tag enumID="47" name="Atk" type="Int" value="1"/>
 		<Tag enumID="201" name="Faction" type="Faction" value="3"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
@@ -10855,7 +10962,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="342" name="ArtistName" type="String">Simon Bisley</Tag>
 		<Tag enumID="351" name="FlavorText" type="LocString">
-			<enUS>He used to work as a accountant before he tried his hand at Berserkering.</enUS>
+			<enUS>He used to work as an accountant before he tried his hand at Berserkering.</enUS>
 		</Tag>
 		<Tag enumID="32" name="TriggerVisual" type="Bool" value="1"/>
 		<Power definition="8794895b-e6c1-4564-bcd1-d2e17d129b77"/>
@@ -10979,6 +11086,9 @@ Summon a random Totem.</enUS>
 		<Tag enumID="342" name="ArtistName" type="String">Lorenzo Minaca</Tag>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
+		<Tag enumID="351" name="FlavorText" type="LocString">
+			<enUS>A great sniper hits the spot.  Just like a delicious flank of boar. Mmmmm.</enUS>
+		</Tag>
 		<Tag enumID="219" name="Secret" type="Bool" value="1"/>
 		<Power definition="239ab289-8f1b-4996-b7a2-8ad645c31bc5"/>
 		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False"/>
@@ -10995,12 +11105,15 @@ Summon a random Totem.</enUS>
 		<Tag enumID="201" name="Faction" type="Faction" value="3"/>
 		<Tag enumID="199" name="Class" type="Class" value="3"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>&lt;b&gt;Secret:&lt;/b&gt; When a minion damages your hero, deal 2 damage to all enemies.</enUS>
+			<enUS>&lt;b&gt;Secret:&lt;/b&gt; When your hero is attacked, deal 2 damage to all enemies.</enUS>
 		</Tag>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="342" name="ArtistName" type="String">Brandon Kitkouski</Tag>
+		<Tag enumID="351" name="FlavorText" type="LocString">
+			<enUS>It traps your food AND cooks it for you!</enUS>
+		</Tag>
 		<Tag enumID="219" name="Secret" type="Bool" value="1"/>
 		<Power definition="5e094f7d-4df8-46aa-840f-b18df5bf4046"/>
 		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False"/>
@@ -11017,16 +11130,19 @@ Summon a random Totem.</enUS>
 		<Tag enumID="201" name="Faction" type="Faction" value="3"/>
 		<Tag enumID="199" name="Class" type="Class" value="3"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>&lt;b&gt;Secret:&lt;/b&gt; When an enemy attacks, &lt;b&gt;Freeze&lt;/b&gt; it this turn and next turn.</enUS>
+			<enUS>&lt;b&gt;Secret:&lt;/b&gt; When an enemy minion attacks, return it to its owner's hand and it costs (2) more.</enUS>
 		</Tag>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="342" name="ArtistName" type="String">Matt Gaser</Tag>
+		<Tag enumID="351" name="FlavorText" type="LocString">
+			<enUS>&quot;Dang, that's cold.&quot; - appropriate response to Freezing Trap, or a mean joke.</enUS>
+		</Tag>
 		<Tag enumID="219" name="Secret" type="Bool" value="1"/>
 		<ReferencedTag enumID="208" name="Freeze" type="Bool" value="1"/>
 		<Power definition="bfdc5007-d6e4-49b3-a6df-17f895b26a7e"/>
-		<TriggeredPowerHistoryInfo effectIndex="-1" showInHistory="False"/>
+		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False"/>
 		<Texture>W12_a048(EA)_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_611e" version="2">
@@ -11052,7 +11168,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="202" name="CardType" type="CardType" value="4"/>
 		<Tag enumID="48" name="Cost" type="Int" value="3"/>
 		<Tag enumID="45" name="Health" type="Int" value="3"/>
-		<Tag enumID="47" name="Atk" type="Int" value="3"/>
+		<Tag enumID="47" name="Atk" type="Int" value="4"/>
 		<Tag enumID="201" name="Faction" type="Faction" value="3"/>
 		<Tag enumID="199" name="Class" type="Class" value="4"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="2"/>
@@ -11131,20 +11247,19 @@ Summon a random Totem.</enUS>
 		<Power definition="e9cdbdd2-0f6c-4d4b-8db7-8aea60f75898"/>
 	</Entity>
 	<Entity CardID="EX1_614" version="2">
-		<MasterPower>9cad4a7c-cc4e-43f7-9b41-431c0b701c58</MasterPower>
 		<Tag enumID="185" name="CardName" type="LocString">
 			<enUS>Illidan Stormrage</enUS>
 		</Tag>
 		<Tag enumID="183" name="CardSet" type="CardSet" value="3"/>
 		<Tag enumID="203" name="Rarity" type="Rarity" value="5"/>
 		<Tag enumID="202" name="CardType" type="CardType" value="4"/>
-		<Tag enumID="48" name="Cost" type="Int" value="7"/>
-		<Tag enumID="45" name="Health" type="Int" value="7"/>
+		<Tag enumID="48" name="Cost" type="Int" value="6"/>
+		<Tag enumID="45" name="Health" type="Int" value="6"/>
 		<Tag enumID="47" name="Atk" type="Int" value="7"/>
 		<Tag enumID="201" name="Faction" type="Faction" value="3"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="6"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Both players discard 3 cards and draw 3 cards.</enUS>
+			<enUS>Whenever you play a card, summon a 2/1 Flame of Azzinoth.</enUS>
 		</Tag>
 		<Tag enumID="114" name="Elite" type="Bool" value="1"/>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
@@ -11152,9 +11267,21 @@ Summon a random Totem.</enUS>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="342" name="ArtistName" type="String">Alex Horley Orlandelli</Tag>
 		<Tag enumID="200" name="Race" type="Race" value="15"/>
-		<Tag enumID="218" name="Battlecry" type="Bool" value="1"/>
-		<Power definition="9cad4a7c-cc4e-43f7-9b41-431c0b701c58"/>
+		<Tag enumID="32" name="TriggerVisual" type="Bool" value="1"/>
+		<Power definition="631d1333-48cb-47c8-a817-a2f6078f047e"/>
+		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False"/>
 		<Texture>W19_a026_D2</Texture>
+	</Entity>
+	<Entity CardID="EX1_614t" version="2">
+		<Tag enumID="185" name="CardName" type="LocString">
+			<enUS>Flame of Azzinoth</enUS>
+		</Tag>
+		<Tag enumID="183" name="CardSet" type="CardSet" value="3"/>
+		<Tag enumID="202" name="CardType" type="CardType" value="4"/>
+		<Tag enumID="48" name="Cost" type="Int" value="1"/>
+		<Tag enumID="47" name="Atk" type="Int" value="2"/>
+		<Tag enumID="45" name="Health" type="Int" value="1"/>
+		<Texture>R4_050_Da</Texture>
 	</Entity>
 	<Entity CardID="EX1_616" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -11164,8 +11291,8 @@ Summon a random Totem.</enUS>
 		<Tag enumID="203" name="Rarity" type="Rarity" value="3"/>
 		<Tag enumID="202" name="CardType" type="CardType" value="4"/>
 		<Tag enumID="48" name="Cost" type="Int" value="2"/>
-		<Tag enumID="45" name="Health" type="Int" value="2"/>
-		<Tag enumID="47" name="Atk" type="Int" value="2"/>
+		<Tag enumID="45" name="Health" type="Int" value="3"/>
+		<Tag enumID="47" name="Atk" type="Int" value="1"/>
 		<Tag enumID="201" name="Faction" type="Faction" value="3"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="7"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
@@ -11182,7 +11309,7 @@ Summon a random Totem.</enUS>
 			<enUS>Deadly Shot</enUS>
 		</Tag>
 		<Tag enumID="183" name="CardSet" type="CardSet" value="3"/>
-		<Tag enumID="203" name="Rarity" type="Rarity" value="3"/>
+		<Tag enumID="203" name="Rarity" type="Rarity" value="1"/>
 		<Tag enumID="202" name="CardType" type="CardType" value="5"/>
 		<Tag enumID="48" name="Cost" type="Int" value="3"/>
 		<Tag enumID="201" name="Faction" type="Faction" value="3"/>
@@ -11315,24 +11442,49 @@ Summon a random Totem.</enUS>
 		<Tag enumID="199" name="Class" type="Class" value="6"/>
 	</Entity>
 	<Entity CardID="EX1_623" version="2">
-		<MasterPower>780cf09f-ad8e-4756-a801-aff0b773adb8</MasterPower>
+		<MasterPower>24ff2fd3-224e-439c-830c-742e5cb7be88</MasterPower>
 		<Tag enumID="185" name="CardName" type="LocString">
-			<enUS>Penance</enUS>
+			<enUS>Temple Enforcer</enUS>
 		</Tag>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="183" name="CardSet" type="CardSet" value="3"/>
 		<Tag enumID="203" name="Rarity" type="Rarity" value="1"/>
-		<Tag enumID="202" name="CardType" type="CardType" value="5"/>
-		<Tag enumID="48" name="Cost" type="Int" value="3"/>
+		<Tag enumID="202" name="CardType" type="CardType" value="4"/>
+		<Tag enumID="48" name="Cost" type="Int" value="6"/>
 		<Tag enumID="199" name="Class" type="Class" value="6"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>Deal $3 damage. Restore 3 Health to your hero.</enUS>
+			<enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Give a friendly minion +3 Health.</enUS>
 		</Tag>
-		<Tag enumID="342" name="ArtistName" type="String">Zoltan Boros</Tag>
-		<Power definition="780cf09f-ad8e-4756-a801-aff0b773adb8">
-			<PlayRequirement param="" reqID="11"/>
+		<Tag enumID="47" name="Atk" type="Int" value="5"/>
+		<Tag enumID="45" name="Health" type="Int" value="6"/>
+		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
+		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
+		<Tag enumID="325" name="TargetingArrowText" type="LocString">
+			<enUS>Give +3 Health.</enUS>
+		</Tag>
+		<Tag enumID="342" name="ArtistName" type="String">Daren Bader</Tag>
+		<Tag enumID="218" name="Battlecry" type="Bool" value="1"/>
+		<Power definition="24ff2fd3-224e-439c-830c-742e5cb7be88">
+			<PlayRequirement param="" reqID="22"/>
+			<PlayRequirement param="" reqID="2"/>
+			<PlayRequirement param="" reqID="1"/>
 		</Power>
-		<Texture>W18_a029_D</Texture>
+		<Texture>W3_265_D</Texture>
+	</Entity>
+	<Entity CardID="EX1_623e" version="2">
+		<Tag enumID="185" name="CardName" type="LocString">
+			<enUS>Infusion</enUS>
+		</Tag>
+		<Tag enumID="183" name="CardSet" type="CardSet" value="3"/>
+		<Tag enumID="202" name="CardType" type="CardType" value="6"/>
+		<Tag enumID="199" name="Class" type="Class" value="6"/>
+		<Tag enumID="184" name="CardTextInHand" type="LocString">
+			<enUS>+3 Health.</enUS>
+		</Tag>
+		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
+		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
+		<Power definition="9a763ebb-9fdd-4dd8-bd2d-da1c47582a8e"/>
+		<Texture>W3_265_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_624" version="2">
 		<MasterPower>79be47bc-2e0a-4680-8a0f-137ccf3f5550</MasterPower>
@@ -11576,6 +11728,18 @@ Summon a random Totem.</enUS>
 		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False"/>
 		<Texture>W16_a032_D</Texture>
 	</Entity>
+	<Entity CardID="FP1_001" version="2">
+		<Tag enumID="185" name="CardName" type="LocString">
+			<enUS>Festering Pestilence</enUS>
+		</Tag>
+		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
+		<Tag enumID="183" name="CardSet" type="CardSet" value="12"/>
+		<Tag enumID="203" name="Rarity" type="Rarity" value="4"/>
+		<Tag enumID="202" name="CardType" type="CardType" value="4"/>
+		<Tag enumID="184" name="CardTextInHand" type="LocString">
+			<enUS>Debug text</enUS>
+		</Tag>
+	</Entity>
 	<Entity CardID="GAME_001" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
 			<enUS>Luck of the Coin</enUS>
@@ -11676,6 +11840,21 @@ Summon a random Totem.</enUS>
 		<Power definition="3e09d8a8-4a0d-439c-8601-00b272017d7b"/>
 		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False"/>
 		<Texture>coin_D</Texture>
+	</Entity>
+	<Entity CardID="GAME_006" version="2">
+		<Tag enumID="185" name="CardName" type="LocString">
+			<enUS>NOOOOOOOOOOOO</enUS>
+		</Tag>
+		<Tag enumID="183" name="CardSet" type="CardSet" value="2"/>
+		<Tag enumID="202" name="CardType" type="CardType" value="5"/>
+		<Tag enumID="48" name="Cost" type="Int" value="2"/>
+		<Tag enumID="184" name="CardTextInHand" type="LocString">
+			<enUS>Somehow, the card you USED to have has been deleted.  Here, have this one instead!</enUS>
+		</Tag>
+		<Tag enumID="351" name="FlavorText" type="LocString">
+			<enUS>Even your flavor text has been deleted. Dang.</enUS>
+		</Tag>
+		<Texture>W3_184_D</Texture>
 	</Entity>
 	<Entity CardID="HERO_01" version="2">
 		<MasterPower>5652cff6-0c7b-4f82-855d-7042d8f775fb</MasterPower>
@@ -11882,7 +12061,7 @@ Summon a random Totem.</enUS>
 			<enUS>Repairin'</enUS>
 		</Tag>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>At the end of your turn, restore 3 Health to all friendly characters.</enUS>
+			<enUS>At the end of your turn, restore 3 Health to all characters.</enUS>
 		</Tag>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
@@ -11945,7 +12124,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="48" name="Cost" type="Int" value="1"/>
 		<Tag enumID="47" name="Atk" type="Int" value="0"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>At the start of your turn, transform another random enemy minion into a 1/1 Chicken.</enUS>
+			<enUS>At the start of your turn, transform a random minion into a 1/1 Chicken.</enUS>
 		</Tag>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
@@ -11985,7 +12164,7 @@ Summon a random Totem.</enUS>
 	<Entity CardID="NEW1_003" version="2">
 		<MasterPower>26f06b76-b9a6-4a72-92c3-94c12cc5e395</MasterPower>
 		<Tag enumID="185" name="CardName" type="LocString">
-			<enUS>Grimoire of Sacrifice</enUS>
+			<enUS>Sacrificial Pact</enUS>
 		</Tag>
 		<Tag enumID="183" name="CardSet" type="CardSet" value="2"/>
 		<Tag enumID="203" name="Rarity" type="Rarity" value="1"/>
@@ -11999,9 +12178,6 @@ Summon a random Totem.</enUS>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="342" name="ArtistName" type="String">Jim Nelson</Tag>
-		<Tag enumID="351" name="FlavorText" type="LocString">
-			<enUS>This is not really a book you want to leave on your coffee table.</enUS>
-		</Tag>
 		<Power definition="26f06b76-b9a6-4a72-92c3-94c12cc5e395">
 			<PlayRequirement param="" reqID="11"/>
 			<PlayRequirement param="15" reqID="10"/>
@@ -12095,7 +12271,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="342" name="ArtistName" type="String">Richard Wright</Tag>
 		<Tag enumID="351" name="FlavorText" type="LocString">
-			<enUS>The name is metaphorical, of course.  You wouldn't want a literal Starfall, though some druids brag they are capable of that.</enUS>
+			<enUS>Is the sky falling? Yes.  Yes it is.</enUS>
 		</Tag>
 		<Texture>W14_a122_D</Texture>
 	</Entity>
@@ -12150,7 +12326,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="342" name="ArtistName" type="String">Patrik Hjelm</Tag>
 		<Tag enumID="351" name="FlavorText" type="LocString">
-			<enUS>The Ancients of Lore are responsible for training Dryads, Druids of the Claw, and Druids of the Puddle.</enUS>
+			<enUS>Go ahead, carve your initials in him.</enUS>
 		</Tag>
 		<Texture>Fan_Art_Entries_1287955529201_D</Texture>
 	</Entity>
@@ -12271,7 +12447,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="203" name="Rarity" type="Rarity" value="1"/>
 		<Tag enumID="202" name="CardType" type="CardType" value="4"/>
 		<Tag enumID="48" name="Cost" type="Int" value="1"/>
-		<Tag enumID="47" name="Atk" type="Int" value="0"/>
+		<Tag enumID="47" name="Atk" type="Int" value="1"/>
 		<Tag enumID="45" name="Health" type="Int" value="3"/>
 		<Tag enumID="199" name="Class" type="Class" value="4"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
@@ -12343,7 +12519,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="185" name="CardName" type="LocString">
 			<enUS>Captain's Parrot</enUS>
 		</Tag>
-		<Tag enumID="183" name="CardSet" type="CardSet" value="3"/>
+		<Tag enumID="183" name="CardSet" type="CardSet" value="4"/>
 		<Tag enumID="203" name="Rarity" type="Rarity" value="4"/>
 		<Tag enumID="202" name="CardType" type="CardType" value="4"/>
 		<Tag enumID="48" name="Cost" type="Int" value="2"/>
@@ -12363,33 +12539,6 @@ Summon a random Totem.</enUS>
 		<Tag enumID="218" name="Battlecry" type="Bool" value="1"/>
 		<Power definition="ff7a9db7-89dc-4667-92f5-017e023ac0c7"/>
 		<Texture>W6_036_D</Texture>
-	</Entity>
-	<Entity CardID="NEW1_016e" version="2">
-		<Tag enumID="185" name="CardName" type="LocString">
-			<enUS>Squawk!</enUS>
-		</Tag>
-		<Tag enumID="183" name="CardSet" type="CardSet" value="3"/>
-		<Tag enumID="203" name="Rarity" type="Rarity" value="4"/>
-		<Tag enumID="202" name="CardType" type="CardType" value="6"/>
-		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>+1/+1.</enUS>
-		</Tag>
-		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
-		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
-		<Power definition="4efe8252-9b1a-468e-ba5a-9c1433a63c35"/>
-	</Entity>
-	<Entity CardID="NEW1_016o" version="2">
-		<Tag enumID="185" name="CardName" type="LocString">
-			<enUS>Has a Cracker</enUS>
-		</Tag>
-		<Tag enumID="183" name="CardSet" type="CardSet" value="3"/>
-		<Tag enumID="202" name="CardType" type="CardType" value="6"/>
-		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>This minion has +2/+2 while a Pirate is in the battlefield.</enUS>
-		</Tag>
-		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
-		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="1"/>
-		<Power definition="7fbf0e6b-9c2b-46b5-8940-ce332bb9a9be"/>
 	</Entity>
 	<Entity CardID="NEW1_017" version="2">
 		<MasterPower>c5b2cfe4-3a01-423a-82be-cf633d4b215c</MasterPower>
@@ -12471,10 +12620,10 @@ Summon a random Totem.</enUS>
 		<Tag enumID="203" name="Rarity" type="Rarity" value="3"/>
 		<Tag enumID="202" name="CardType" type="CardType" value="4"/>
 		<Tag enumID="48" name="Cost" type="Int" value="2"/>
-		<Tag enumID="47" name="Atk" type="Int" value="2"/>
-		<Tag enumID="45" name="Health" type="Int" value="3"/>
+		<Tag enumID="47" name="Atk" type="Int" value="3"/>
+		<Tag enumID="45" name="Health" type="Int" value="2"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>Whenever you play a minion, deal 1 damage to a random enemy.</enUS>
+			<enUS>After you summon a minion, deal 1 damage to a random enemy.</enUS>
 		</Tag>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
@@ -12501,7 +12650,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="47" name="Atk" type="Int" value="3"/>
 		<Tag enumID="45" name="Health" type="Int" value="2"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>Whenever you cast a spell, deal 1 damage to a random enemy.</enUS>
+			<enUS>After you cast a spell, deal 1 damage to ALL minions.</enUS>
 		</Tag>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
@@ -12811,7 +12960,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="199" name="Class" type="Class" value="3"/>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
-		<Tag enumID="342" name="ArtistName" type="String">Samwise Didier</Tag>
+		<Tag enumID="342" name="ArtistName" type="String">Wei Wang</Tag>
 		<Tag enumID="351" name="FlavorText" type="LocString">
 			<enUS>You could summon Misha, Leokk, or Huffer!  Huffer is more trouble than he's worth.</enUS>
 		</Tag>
@@ -12821,7 +12970,7 @@ Summon a random Totem.</enUS>
 		<EntourageCard cardID="NEW1_032"/>
 		<EntourageCard cardID="NEW1_033"/>
 		<EntourageCard cardID="NEW1_034"/>
-		<Texture>W2_462a_D</Texture>
+		<Texture>W21_A114_D</Texture>
 	</Entity>
 	<Entity CardID="NEW1_032" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -12862,7 +13011,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Power definition="779cbc2a-9f38-409f-8e42-dfeeaf113089"/>
-		<Texture>W10_A250_D</Texture>
+		<Texture>W4_138_D</Texture>
 	</Entity>
 	<Entity CardID="NEW1_033o" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -12905,7 +13054,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="183" name="CardSet" type="CardSet" value="3"/>
 		<Tag enumID="203" name="Rarity" type="Rarity" value="3"/>
 		<Tag enumID="202" name="CardType" type="CardType" value="5"/>
-		<Tag enumID="48" name="Cost" type="Int" value="2"/>
+		<Tag enumID="48" name="Cost" type="Int" value="1"/>
 		<Tag enumID="199" name="Class" type="Class" value="10"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
 			<enUS>Your minions can't be reduced below 1 Health this turn.</enUS>
@@ -12927,8 +13076,8 @@ Summon a random Totem.</enUS>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
 			<enUS>Can't be reduced below 1 Health this turn.</enUS>
 		</Tag>
-		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
-		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="1"/>
+		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
+		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="338" name="OneTurnEffect" type="Bool" value="1"/>
 		<Power definition="5e5624ca-dd90-4ebb-b303-79f58abdb5ac"/>
 		<Power definition="d2ac4fd6-9a8b-4476-9131-921ec0adb2af"/>
@@ -12958,7 +13107,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="203" name="Rarity" type="Rarity" value="3"/>
 		<Tag enumID="202" name="CardType" type="CardType" value="4"/>
 		<Tag enumID="48" name="Cost" type="Int" value="2"/>
-		<Tag enumID="47" name="Atk" type="Int" value="2"/>
+		<Tag enumID="47" name="Atk" type="Int" value="1"/>
 		<Tag enumID="45" name="Health" type="Int" value="3"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
 			<enUS>At the end of your turn, give another random friendly minion +1 Attack.</enUS>
@@ -13111,6 +13260,21 @@ Summon a random Totem.</enUS>
 			<enUS>Battlecry: Someone remembers to publish this card.</enUS>
 		</Tag>
 	</Entity>
+	<Entity CardID="PRO_001" version="2">
+		<Tag enumID="185" name="CardName" type="LocString">
+			<enUS>DEBUG</enUS>
+		</Tag>
+		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
+		<Tag enumID="183" name="CardSet" type="CardSet" value="11"/>
+		<Tag enumID="203" name="Rarity" type="Rarity" value="5"/>
+		<Tag enumID="202" name="CardType" type="CardType" value="4"/>
+		<Tag enumID="48" name="Cost" type="Int" value="5"/>
+		<Tag enumID="47" name="Atk" type="Int" value="5"/>
+		<Tag enumID="45" name="Health" type="Int" value="5"/>
+		<Tag enumID="184" name="CardTextInHand" type="LocString">
+			<enUS>Debug text</enUS>
+		</Tag>
+	</Entity>
 	<Entity CardID="skele11" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
 			<enUS>Skeleton</enUS>
@@ -13197,7 +13361,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="2"/>
 		<Tag enumID="199" name="Class" type="Class" value="4"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>&lt;b&gt;Secret:&lt;/b&gt; When a minion is hit by an enemy spell, summon a 1/1 and hit it instead.</enUS>
+			<enUS>&lt;b&gt;Secret:&lt;/b&gt; When an enemy casts a spell on a minion, summon a 1/3 as the new target.</enUS>
 		</Tag>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
@@ -13218,7 +13382,7 @@ Summon a random Totem.</enUS>
 		<Tag enumID="183" name="CardSet" type="CardSet" value="3"/>
 		<Tag enumID="203" name="Rarity" type="Rarity" value="4"/>
 		<Tag enumID="202" name="CardType" type="CardType" value="4"/>
-		<Tag enumID="45" name="Health" type="Int" value="1"/>
+		<Tag enumID="45" name="Health" type="Int" value="3"/>
 		<Tag enumID="47" name="Atk" type="Int" value="1"/>
 		<Tag enumID="199" name="Class" type="Class" value="4"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="2"/>

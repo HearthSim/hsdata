@@ -1,7 +1,7 @@
 TAG	TEXT	COMMENT
 GAMEPLAY_COIN_TOSS_LOST	You get an extra card	
 GAMEPLAY_COIN_TOSS_WON	You go first	
-GAMEPLAY_FATIGUE_TEXT	You take {0} damage.	
+GAMEPLAY_FATIGUE_TEXT	Out of cards! Take {0} damage.	
 GAMEPLAY_FATIGUE_HISTORY_TEXT	Trying to draw from an empty deck deals increasing damage to your hero.	
 GAMEPLAY_END_TURN	END TURN	
 GAMEPLAY_ENEMY_TURN	ENEMY TURN	
@@ -65,7 +65,9 @@ GAMEPLAY_TOOLTIP_MANA_DESCRIPTION	When your turn starts, you'll gain a new cryst
 GAMEPLAY_TOOLTIP_MANA_HEADLINE	Mana Crystals	
 GAMEPLAY_TOOLTIP_MANA_RECALL_DESCRIPTION	You played a card with Overload last turn.	
 GAMEPLAY_TOOLTIP_MANA_RECALL_HEADLINE	Locked Mana Crystals	
-GAMEPLAY_TOOLTIP_ENEMYHAND_DESC	Your enemy's cards. He draws one each turn.	
+GAMEPLAY_TOOLTIP_ENEMYHAND_DESC_TUT	Your enemy's hand of cards. Players draw one each turn.	
+GAMEPLAY_TOOLTIP_ENEMYHAND_DESC	Your enemy's hand contains {0} cards.	0= number of cards in hand.
+GAMEPLAY_TOOLTIP_ENEMYHAND_DESC_SINGLE	Your enemy's hand contains {0} card.	0= number of cards in hand.
 GAMEPLAY_TOOLTIP_ENEMYHAND_HEADLINE	Enemy Hand	
 GAMEPLAY_EMOTE_LABEL_GREETINGS	Greetings	
 GAMEPLAY_EMOTE_LABEL_WELL_PLAYED	Well Played	
@@ -76,8 +78,6 @@ GAMEPLAY_EMOTE_LABEL_SORRY	Sorry
 GAMEPLAY_REWARD_HERO_HEADLINE	{0} Unlocked	
 GAMEPLAY_REWARD_HERO_DETAILS	{0}/{1} Heroes Unlocked
 GAMEPLAY_REWARD_HERO_SOURCE	Unlocked by defeating a {0} in Practice Mode	0=class
-GAMEPLAY_REWARD_CARD_HEADLINE	Reward!	
-GAMEPLAY_REWARD_CARD_COUNT_MULTIPLIER	x
 GAMEPLAY_REWARD_CORE_CARD_DETAILS	{0}/{1} {2} Cards Unlocked	0=# cards unlocked, 1=# cards possible to unlock, 2=class
 GAMEPLAY_REWARD_BOOSTER_DETAILS	{0}/{1} Wins	0=# wins, 1=# total wins to earn reward
 GAMEPLAY_REWARD_CARD_DETAILS_TUTORIAL01	Oh yeah!
@@ -86,11 +86,10 @@ GAMEPLAY_REWARD_CARD_DETAILS_TUTORIAL03	You are on a roll!
 GAMEPLAY_REWARD_CARD_DETAILS_TUTORIAL04	That was incredible.
 GAMEPLAY_REWARD_CARD_DETAILS_TUTORIAL05	Magnificent!
 GAMEPLAY_REWARD_CARD_DETAILS_TUTORIAL06	Hot hot hot!
-GAMEPLAY_REWARD_CORE_CARD_SOURCE	Unlocked by playing a game as {0}	0=class
+GAMEPLAY_REWARD_CARD_LEVEL_UP	Unlocked by hitting level {0} as a {1}	0=# level, 1=class
 GAMEPLAY_REWARD_BOOSTER_HEADLINE	Expert Pack earned!	
 GAMEPLAY_REWARD_BOOSTER_SOURCE_TOURNEY	Awarded for winning {0} games	0=number of games won
 GAMEPLAY_REWARD_BOOSTER_SOURCE_FORGE	Awarded for winning {0} Forge games
-GAMEPLAY_REWARD_ARCANE_DUST_HEADLINE	Arcane Dust earned!	
 GAMEPLAY_WIN_REWARD_PROGRESS	Wins {0}/{1}
 GAMEPLAY_END_OF_GAME_VICTORY	Victory!	
 GAMEPLAY_END_OF_GAME_DEFEAT	Defeat!	
@@ -99,3 +98,5 @@ GAMEPLAY_SECRET_DESC	This is hidden until a secret action occurs... Watch out!
 GAMEPLAY_BANNER_STARTING_HAND	Starting Hand	
 GAMEPLAY_BANNER_SUBTITLE	Keep or Replace Cards	
 GAMEPLAY_BANNER_WAITING	Opponent Still Choosing...	
+GAMEPLAY_AI_OPPONENT_NAME	AI	
+GAMEPLAY_UNKNOWN_OPPONENT_NAME	UNKNOWN	
