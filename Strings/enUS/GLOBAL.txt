@@ -38,14 +38,15 @@ GLOBAL_KEYWORD_FREEZE_TEXT	Frozen characters lose their next attack.
 GLOBAL_KEYWORD_FROZEN	Frozen	
 GLOBAL_KEYWORD_FROZEN_TEXT	Misses its next attack.	
 GLOBAL_KEYWORD_IMMUNE	Immune	
-GLOBAL_KEYWORD_IMMUNE_TEXT	Cannot be damaged	
+GLOBAL_KEYWORD_IMMUNE_TEXT	Can't be damaged.	
+GLOBAL_KEYWORD_IMMUNE_REF_TEXT	Immune characters can't be damaged.	
 GLOBAL_KEYWORD_SECRET	Secret	
 GLOBAL_KEYWORD_SECRET_TEXT	Hidden until a specific action occurs.	
 GLOBAL_KEYWORD_SPELLPOWER	Spell Power	
 GLOBAL_KEYWORD_SPELLPOWER_TEXT	Your spell cards deal {0} extra damage.	0=amount of spell power
 GLOBAL_KEYWORD_STEALTH	Stealth	
-GLOBAL_KEYWORD_STEALTH_TEXT	Can't be attacked or targeted until it attacks.	
-GLOBAL_KEYWORD_STEALTH_REF_TEXT	Can't be attacked or targeted until it attacks.	
+GLOBAL_KEYWORD_STEALTH_TEXT	Can't be attacked or targeted until it deals damage.	
+GLOBAL_KEYWORD_STEALTH_REF_TEXT	Can't be attacked or targeted until it deals damage.	
 GLOBAL_KEYWORD_TAUNT	Taunt	
 GLOBAL_KEYWORD_TAUNT_TEXT	Enemies must attack this minion.	
 GLOBAL_KEYWORD_TAUNT_REF_TEXT	Enemies must attack minions that have Taunt.	
@@ -110,17 +111,18 @@ GLOBAL_CONCEDE	Concede
 GLOBAL_RESUME_GAME	Resume	
 GLOBAL_GAME_MENU	Game Menu	
 GLOBAL_FRIEND_CHALLENGE_TITLE	Friendly	
-GLOBAL_FRIEND_CHALLENGE_ALERT_HEADER	A New Challenge!	
-GLOBAL_FRIEND_CHALLENGE_ALERT_MESSAGE	You've been challenged by {0}.\n\nDo you accept?	0=friend name
-GLOBAL_FRIEND_CHALLENGE_ALERT_YES	Yes!	
-GLOBAL_FRIEND_CHALLENGE_ALERT_NO	No.	
-GLOBAL_FRIEND_CHALLENGE_REJECT_HEADER	Challenge	
-GLOBAL_FRIEND_CHALLENGE_REJECT_DECLINE	{0} declined your challenge.	0=friend name
-GLOBAL_FRIEND_CHALLENGE_REJECT_ERROR	Error trying to challenge {0}.	0=friend name
-GLOBAL_ERROR_GAME_DENIED_HEADER	Error
-GLOBAL_ERROR_GAME_DENIED_BODY	The Battle.net game service is currently unavailable to start your game. Please wait a few minutes and try again.
-GLOBAL_ERROR_FIND_GAME_FAILED_HEADER	Error
-GLOBAL_ERROR_FIND_GAME_FAILED_BODY	The Battle.net game service is currently unavailable to start your game. Please wait a few minutes and try again.
+GLOBAL_FRIEND_CHALLENGE_HEADER	Challenge	
+GLOBAL_FRIEND_CHALLENGE_RECEIVED	You've been challenged by {0}.\n\nDo you accept?	0=friend name
+GLOBAL_FRIEND_CHALLENGE_ACCEPT	Yes!	
+GLOBAL_FRIEND_CHALLENGE_DECLINE	No	
+GLOBAL_FRIEND_CHALLENGE_OPPONENT_WAITING_RESPONSE	You are waiting for {0} to respond to your challenge.	0=friend name
+GLOBAL_FRIEND_CHALLENGE_OPPONENT_WAITING_DECK	You are waiting for {0} to select a deck.	0=friend name
+GLOBAL_FRIEND_CHALLENGE_OPPONENT_DECLINED	{0} declined your challenge.	0=friend name
+GLOBAL_FRIEND_CHALLENGE_OPPONENT_FRIEND_REMOVED	Challenge canceled because {0} is no longer your friend.	0=friend name
+GLOBAL_FRIEND_CHALLENGE_OPPONENT_CANCELED	{0} canceled the challenge.	0=friend name
+GLOBAL_ERROR_GENERIC_HEADER	Error
+GLOBAL_ERROR_GAME_DENIED	There was an error starting your game. Please wait a few minutes and try again.
+GLOBAL_ERROR_GAME_OPPONENT_TIMEOUT	The game failed to start because your opponent failed to connect. Please try again.
 GLOBAL_ERROR_STREAMING_TITLE	STREAMING ERROR	
 GLOBAL_ERROR_STREAMING_ASSET_TIMEOUT	Timed out while waiting for streaming system. Was loading asset {0}.	0=asset name
 GLOBAL_ERROR_ASSET_TITLE	ASSET ERROR	
@@ -137,8 +139,10 @@ GLOBAL_ERROR_NETWORK_LOGIN_FAILURE	The game was unable to log you in through Bat
 GLOBAL_ERROR_NETWORK_UTIL_TIMEOUT	Your game timed out as it was requesting data from the Hearthstone utility service. Please relaunch Hearthstone to reconnect.	
 GLOBAL_ERROR_NETWORK_DISCONNECT	You were disconnected from the Battle.net service. Please relaunch Hearthstone to reconnect.	
 GLOBAL_ERROR_NETWORK_SPAM	You were disconnected from the Battle.net service for sending too many requests too quickly. Please relaunch Hearthstone to reconnect.	
+GLOBAL_ERROR_NETWORK_DUPLICATE_LOGIN	This Battle.net account just logged into Hearthstone from another device.\n\nThis client was disconnected because only one connection is supported at a time.	
+GLOBAL_ERROR_NETWORK_LOST_GAME_CONNECTION	Your game has been disconnected from the Battle.net game service. You can try to reconnect again by starting another game.	
 GLOBAL_MEDAL_REWARD_CONGRATULATIONS	Congratulations!	
-GLOBAL_MEDAL_REWARD_DESCRIPTION	Medal earned this week	
+GLOBAL_MEDAL_REWARD_DESCRIPTION	Medal earned last week	
 GLOBAL_MEDAL_TOOLTIP_HEADER	{0} Medal	0=medal name
 GLOBAL_MEDAL_TOOLTIP_BODY	Win tournament games to advance to the next medal!\n\nNext Medal:\n{0}	0=medal name
 GLOBAL_DATETIME_ELAPSED_LESS_THAN_MINUTE	Less than a minute ago	
@@ -159,11 +163,13 @@ GLOBAL_FRIENDLIST_REMOVE_FRIEND_ALERT_MESSAGE	Are you sure you want to remove {0
 GLOBAL_ADDFRIEND_HEADER	Add a Friend	
 GLOBAL_ADDFRIEND_INSTRUCTION	Enter a BattleTag or email address.	
 GLOBAL_ADDFRIEND_SENT_CONFIRMATION	Friend request sent.	
-GLOBAL_PROGRAMNAME_PEGASUS	Pegasus	
+GLOBAL_ADDFRIEND_ERROR_ALREADY_FRIEND	That person is already your friend.	
+GLOBAL_ADDFRIEND_ERROR_MALFORMED	You must enter an email address or Battle Tag.	
+GLOBAL_PROGRAMNAME_HEARTHSTONE	Hearthstone	
 GLOBAL_PROGRAMNAME_WOW	World of Warcraft	
 GLOBAL_PROGRAMNAME_DIABLO3	Diablo 3	
 GLOBAL_PROGRAMNAME_STARCRAFT2	StarCraft 2	
-GLOBAL_PROGRAMNAME_BNET	Battle.net	
+GLOBAL_PROGRAMNAME_PHOENIX	Battle.net	
 GLOBAL_OFFLINE	Offline	
 GLOBAL_DEFAULT_ALERT_HEADER	Alert	
 GLOBAL_FORGE_END_INSTRUCT	Your Forge cards have been added to your Collection, including: 	
@@ -198,9 +204,29 @@ GLOBAL_MEDAL_TWO_STAR	Two Star
 GLOBAL_MEDAL_THREE_STAR	Three Star
 GLOBAL_MEDAL_STARRED_FORMAT	{0} {1}	0=star leve1, 1=medal type
 GLOBAL_MEDAL_NO_NAME	N/A
-GLOBAL_ERROR_LOST_GAME_CONNECTION	Your game has been disconnected from the Battle.net game service. You can try to reconnect again by starting another game.	
 GLOBAL_FEATURE_DISABLED_TITLE	Disabled	
 GLOBAL_FEATURE_DISABLED_MESSAGE_FORGE	Sorry, the Forge has been disabled.	
 GLOBAL_FEATURE_DISABLED_MESSAGE_PRACTICE	Sorry, Practice mode has been disabled.	
 GLOBAL_FEATURE_DISABLED_MESSAGE_PLAY	Sorry, Play mode has been disabled.	
 GLOBAL_FEATURE_DISABLED_MESSAGE_COLLECTION	Sorry, the Collection has been disabled.	
+GLOBAL_CHAT_NO_FRIENDS_ONLINE	You don't have any friends online right now.	
+GLOBAL_CHAT_NO_RECENT_CONVERSATIONS	Use the friends menu to start a conversation with a friend.	
+GLOBAL_CHAT_RECEIVER_ONLINE	{0} is online.	0=player name
+GLOBAL_CHAT_RECEIVER_OFFLINE	{0} is offline.	0=player name
+GLOBAL_CHAT_CHALLENGE	Challenge	
+GLOBAL_OPTIONS_SOUND_LABEL	Sound
+GLOBAL_OPTIONS_SOUND_MASTER_VOLUME_LABEL	Master Volume
+GLOBAL_OPTIONS_SOUND_MUSIC_VOLUME_LABEL	Music Volume
+GLOBAL_OPTIONS_GRAPHICS_LABEL	Graphics
+GLOBAL_OPTIONS_GRAPHICS_RESOLUTION_LABEL	Resolution
+GLOBAL_OPTIONS_GRAPHICS_FULLSCREEN_LABEL	Fullscreen
+GLOBAL_OPTIONS_GRAPHICS_QUALITY_LOW	Low
+GLOBAL_OPTIONS_GRAPHICS_QUALITY_MEDIUM	Medium
+GLOBAL_OPTIONS_GRAPHICS_QUALITY_HIGH	High
+GLOBAL_OPTIONS_GRAPHICS_QUALITY_LABEL	Quality
+GLOBAL_REWARD_CARD_HEADLINE	Reward!	
+GLOBAL_REWARD_CARD_COUNT_MULTIPLIER	x	
+GLOBAL_REWARD_ARCANE_DUST_HEADLINE	Arcane Dust earned!	
+GLOBAL_REWARD_GOLD_HEADLINE	Gold earned!
+GLOBAL_PRACTICE_MAX_LEVEL_REACHED	Max Practice Level	
+GLOBAL_SCREENSHOT_COMPLETE	Screenshot saved to desktop	

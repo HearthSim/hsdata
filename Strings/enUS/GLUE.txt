@@ -17,16 +17,21 @@ GLUE_COLLECTION_HOME_PAGE	Overview
 GLUE_COLLECTION_PAGE_NUM	Page {0}	
 GLUE_COLLECTION_LOCK_NO_MORE_INSTANCES	None Left
 GLUE_COLLECTION_LOCK_MAX_DECK_COPIES	Deck Limit: {0}
-GLUE_COLLECTION_PURCHASE_BUTTON	Buy More	
 GLUE_COLLECTION_RECENT_CARDS	Recently Acquired Cards	
 GLUE_COLLECTION_MY_DECKS	My Decks	
 GLUE_COLLECTION_MY_PACKS	My Packs	
-GLUE_COLLECTION_DECK_SAVE_ANYWAY	Save it\nanyway	
-GLUE_COLLECTION_DECK_FINISH_FOR_ME	Finish it\nfor me	
+GLUE_COLLECTION_DECK_SAVE_ANYWAY	No	
+GLUE_COLLECTION_DECK_FINISH_FOR_ME	Yes	
 GLUE_COLLECTION_DECK_INVALID_POPUP_HEADER	Invalid Deck	
-GLUE_COLLECTION_DECK_INVALID_POPUP_MESSAGE	You need to add {0} more card(s) to make this deck valid.
+GLUE_COLLECTION_DECK_INVALID_POPUP_MESSAGE	You are {0} card(s) short of a full deck. Do you want to finish it automatically?
 GLUE_COLLECTION_TUTORIAL01	Craft a deck of your own!
 GLUE_COLLECTION_TUTORIAL02	Turn pages to browse.
+GLUE_COLLECTION_TUTORIAL03	Disenchant extra cards!
+GLUE_COLLECTION_TUTORIAL04	Find a card to craft.
+GLUE_COLLECTION_TUTORIAL05	Turn this card into Arcane Dust.
+GLUE_COLLECTION_TUTORIAL06	Use your Dust to create this card.
+GLUE_COLLECTION_TUTORIAL07	Right-click a card to craft or disenchant it.
+GLUE_COLLECTION_TUTORIAL07_TOUCH	Tap a card to craft or disenchant it.
 GLUE_COLLECTION_ARTIST	Artist
 GLUE_COLLECTION_DELETE_CONFIRM_HEADER	Delete	
 GLUE_COLLECTION_DELETE_CONFIRM_DESC	This will delete your deck. Are you sure?	
@@ -43,10 +48,15 @@ GLUE_CRAFTING_CREATE	Create
 GLUE_CRAFTING_DISENCHANT	Disenchant	
 GLUE_CRAFTING_UNDO	Undo	
 GLUE_CRAFTING_ARCANEDUST	Arcane Dust	
-GLUE_CRAFTING_ARCANEDUST_DESCRIPTION	Gain Arcane Dust by disenchanting cards. You can use dust to craft cards you do not own!
+GLUE_CRAFTING_ARCANEDUST_DESCRIPTION	Gain Arcane Dust by disenchanting Expert cards. You can use dust to craft cards you want!	
+GLUE_CRAFTING_SOULBOUND	Soulbound	
+GLUE_CRAFTING_SOULBOUND_DESC	This card cannot be disenchanted or crafted.	
+GLUE_CRAFTING_SOULBOUND_BASIC_DESC	Basic cards cannot be disenchanted or crafted.	
+GLUE_CRAFTING_SOULBOUND_REWARD_DESC	Quest Rewards cannot be disenchanted or crafted.	
 GLUE_DECK_TRAY_COUNT	{0}/{1}	
 GLUE_DECK_TRAY_CARD_COUNT_LABEL	Cards	
 GLUE_DECK_TRAY_DECK_COUNT_LABEL	Decks	
+GLUE_STORE_INFO_BUTTON_TEXT	i	
 GLUE_STORE_OPEN_BUTTON_TEXT	Shop
 GLUE_STORE_CLOSED_BUTTON_TEXT	Store Closed
 GLUE_STORE_AUTH_WAITING	Waiting for Authorization
@@ -61,19 +71,18 @@ GLUE_STORE_FAIL_DATABASE	Internal Database error.
 GLUE_STORE_FAIL_LICENSE	Duplicate license detected.
 GLUE_STORE_FAIL_PRODUCT_NA	That product is not available right now. Please select a different product and try again.
 GLUE_STORE_FAIL_QUANTITY	You've selected an invalid quantity for that item. Please select a different quantity and try again.
-GLUE_STORE_FAIL_NOT_ENOUGH_PACKS	You don't have enough unopened Packs to enter The Forge.
 GLUE_STORE_FAIL_ERROR_CODE	There was a problem processing your payment. Error code: '{0}'
 GLUE_STORE_FAIL_NO_ACTIVE_BPAY	Internal error: no transaction info in Database.
+GLUE_STORE_FAIL_NOT_ENOUGH_GOLD	You don't have enough gold to buy that right now.
+GLUE_STORE_FAIL_PASSWORD_TIMEOUT	Your password challenge has timed out. Please start your transaction again.
 GLUE_STORE_FAIL_GENERAL	There was a problem processing your payment.
-GLUE_STORE_FAIL_IN_FORGE	You currently have an active Forge session. Once that is complete, you can provide the entrance fee again for another round.
+GLUE_STORE_GOLD_BUTTON_TOOLTIP_HEADLINE	Buy with gold
+GLUE_STORE_MONEY_BUTTON_TOOLTIP_HEADLINE	Buy
 GLUE_STORE_DISABLED	The Store is currently unavailable. Please check back later.
-GLUE_STORE_DISABLED_NO_PRODUCTS	Nothing is available for purchase.
-GLUE_STORE_DISABLED_IN_PROGRESS	You've got a transaction in progress.
 GLUE_STORE_ERROR_POPUP_TITLE	Store Error
 GLUE_STORE_HEADLINE	Store
-GLUE_STORE_PACK_PRICE_BREAKDOWN	{0}/pack
 GLUE_STORE_PRODUCT_DETAILS_HEADLINE_EXPERT_PACK	Contents per pack:
-GLUE_STORE_PRODUCT_DETAILS_EXPERT_PACK	5 cards of which:\n  1 will be Rare or better\n  4 of which have a chance to upgrade
+GLUE_STORE_PRODUCT_DETAILS_EXPERT_PACK	•  5 Expert Hearthstone Cards\n•  At least 1 card will be Rare or better
 GLUE_STORE_PRODUCT_NAME_FORGE_TICKET	Forge Admission
 GLUE_STORE_BUY_TEXT	BUY
 GLUE_STORE_SINGLE_PACK	1 Pack
@@ -82,10 +91,10 @@ GLUE_STORE_SINGLE_EXPERT_PACK	1 Expert Pack
 GLUE_STORE_MULTI_EXPERT_PACK	{0} Expert Packs
 GLUE_STORE_BONUS_PACKS	{0} Bonus	0=number of packs
 GLUE_STORE_PRODUCT_PRICE	({0})	0=price
+GLUE_STORE_PRODUCT_PRICE_NA	N/A
 GLUE_STORE_SUMMARY_HEADLINE	Summary
 GLUE_STORE_SUMMARY_ITEMS_ORDERED_HEADLINE	Items Ordered
 GLUE_STORE_SUMMARY_PRICE_HEADLINE	Price
-GLUE_STORE_SUMMARY_PRICE_W_PACK_CURRENCY	{0} Packs	0=booster quantity
 GLUE_STORE_SUMMARY_ITEM_ORDERED	{0} x {1}	0=item quantity, 1=item name (one of GLUE_STORE_PRODUCT_NAME_*)
 GLUE_STORE_SUMMARY_TAX_DISCLAIMER	Plus applicable sales tax.
 GLUE_STORE_SUMMARY_CHARGE_DETAILS	Will be charged to your: {0}
@@ -109,15 +118,15 @@ GLUE_STORE_FORGOT_PASSWORD_MESSAGE_2	Pressing "{0}" will take you to Battle.net 
 GLUE_STORE_DISCLAIMER_HEADLINE	Attention
 GLUE_STORE_DISCLAIMER_WARNING	You are about to spend real money!
 GLUE_STORE_DISCLAIMER_DETAILS_1	All acquired cards will be deleted from your account at the end of the closed beta.
-GLUE_STORE_DISCLAIMER_DETAILS_2	After the account wipe, you will receive at least one new pack for every pack purchased during the Beta.
+GLUE_STORE_DISCLAIMER_DETAILS_2	After the account wipe, you will receive at least one new pack for every pack purchased during the beta.
 GLUE_STORE_DISCLAIMER_DETAILS_3	If you purchase one or more packs you will receive a gift for helping us test our store!
+GLUE_FORGE_STORE_DISCLAIMER_DETAILS_1	All acquired Forge prizes will be deleted from your account at the end of the closed beta.
+GLUE_FORGE_STORE_DISCLAIMER_DETAILS_2	After the account wipe, you will receive at least one Forge Admission for every Forge Admission purchased during the beta.
+GLUE_FORGE_STORE_DISCLAIMER_DETAILS_3	If you purchase one or more Forge Admissions you will receive a gift for helping us test our store!
 GLUE_FORGE_STORE_HEADLINE	Welcome to The Forge! 
 GLUE_FORGE_STORE_DETAILS1	Forge a deck from random cards and battle other players to win prizes.
-GLUE_FORGE_STORE_DETAILS2	The cards you choose are yours to keep!
+GLUE_FORGE_STORE_DETAILS2	You will receive an awesome prize at the end!
 GLUE_FORGE_STORE_ADMISSION	Admission	
-GLUE_FORGE_STORE_BOOSTERS_BUTTON_TOOLTIP_HEADLINE	Buy with Packs
-GLUE_FORGE_STORE_BOOSTERS_BUTTON_TOOLTIP_DESC	You don't have enough Packs to do this.
-GLUE_FORGE_STORE_BOOSTERS_BUTTON_TEXT	{0}x	0=number of boosters to buy Forge
 GLUE_FORGE_PRIZES	Starting with your 5th victory, you'll earn an Expert Pack with every win.\nAt 10, 15, and 20 wins, you earn even more Packs!	
 GLUE_FORGE_EXTRA_PRIZE_LABEL	{0} wins	0 = number of wins required to earn this prize
 GLUE_FORGE_RETIRE_WARNING_HEADER	Wait!	
@@ -130,13 +139,13 @@ GLUE_TOOLTIP_BUTTON_PRACTICE_HEADLINE	Practice
 GLUE_TOOLTIP_BUTTON_PRACTICE_DESC	Hone your skills against AI opponents.	
 GLUE_TOOLTIP_BUTTON_FORGE_HEADLINE	The Forge	
 GLUE_TOOLTIP_BUTTON_FORGE_DESC	Forge a deck quickly from random cards.	
-GLUE_TOOLTIP_BUTTON_FORGE_NOT_UNLOCKED	Locked until you earn every hero and {0} Expert cards.
+GLUE_TOOLTIP_BUTTON_FORGE_NOT_UNLOCKED	Locked until you complete 10 quests.
 GLUE_TOOLTIP_BUTTON_PACKOPEN_HEADLINE	Open Packs	
 GLUE_TOOLTIP_BUTTON_PACKOPEN_DESC	Open your Packs to add cards to your collection!	
 GLUE_TOOLTIP_BUTTON_COLLECTION_HEADLINE	My Collection	
 GLUE_TOOLTIP_BUTTON_COLLECTION_DESC	Look at your cards or build a deck.
 GLUE_TOOLTIP_BUTTON_QUESTLOG_HEADLINE	Quest Log
-GLUE_TOOLTIP_BUTTON_QUESTLOG_DESC	View your gameplay progress and complete quests that give you stuff	
+GLUE_TOOLTIP_BUTTON_QUESTLOG_DESC	View your current progress.	
 GLUE_TOOLTIP_BUTTON_DISABLED_DESC	This has been temporarily disabled.	
 GLUE_TOURNAMENT	Play	
 GLUE_TOURNAMENT_UNRANKED_MODE	Unranked Mode	
@@ -183,9 +192,9 @@ GLUE_CLASS_DESCRIPTION_PRIEST	Use holy light to heal your friends or shadow magi
 GLUE_CLASS_DESCRIPTION_WARLOCK	Sacrifice anything and everything in your quest for demonic power.	
 GLUE_CLASS_DESCRIPTION_ROGUE	Set up deadly combination attacks or use stealthy minions and weapons to go in for the kill.	
 GLUE_SHOW_CUSTOM_DECKS	Custom Decks	
-GLUE_SHOW_PRECON_DECKS	Standard Decks	
+GLUE_SHOW_PRECON_DECKS	Basic Decks	
 GLUE_MATCHMAKER_FINDING_OPPONENT	Finding Opponent	
-GLUE_MATCHMAKER_PERFECT_OPPONENT	Reasonable Opponent	
+GLUE_MATCHMAKER_PERFECT_OPPONENT	Worthy Opponent	
 GLUE_SPINNER_1	Easy Pickings	
 GLUE_SPINNER_2	Your Worst Nightmare	
 GLUE_SPINNER_3	World class paste eater	
@@ -223,40 +232,41 @@ GLUE_SPINNER_34	Brand New Player
 GLUE_SPINNER_35	Dastardly Death Knight	
 GLUE_SPINNER_36	Mediocre Monk	
 GLUE_SPINNER_37	A Little Puppy	
-GLUE_TIP_DEFAULT_0	You can purchase additional Packs of Expert Cards from the store.	
-GLUE_TIP_DEFAULT_1	You can use cards that return a minion to your hand to use a card’s Battlecry more than once.	
+GLUE_TIP_DEFAULT_0	You can purchase additional Packs of Expert cards from the store.	
+GLUE_TIP_DEFAULT_1	Click on your hero while editing a deck to change your deck's name.	
 GLUE_TIP_DEFAULT_2	Right-click on your hero to emote.	
 GLUE_TIP_DEFAULT_3	If you need help building a deck, look at the "Suggested Cards".
 GLUE_TIP_DEFAULT_4	You can tell what rarity a card is by the colored gem in the center.	
 GLUE_TIP_DEFAULT_5	Rarity colors, in order: White is Common, Blue is Rare, Purple is Epic and Orange is Legendary.	
 GLUE_TIP_DEFAULT_6	Each pack of Expert cards has at least one rare or better card, but it could have more!
 GLUE_TIP_DEFAULT_7	The medals are Apprentice, Journeyman, Copper, Silver, Gold, Platinum, Diamond and Master.	
-GLUE_TIP_DEFAULT_8	Your Medal will be reset to Apprentice each week.	
-GLUE_TIP_DEFAULT_9	There are achievements that award awesome stuff.   It's worth checking out.	
-GLUE_TIP_DEFAULT_10	The Forge is a great way to get new cards and spend an hour or two dueling!	
-GLUE_TIP_DEFAULT_11	If you play "Unranked" you will not earn expert Packs, but you will not hurt your ranking.	
-GLUE_TIP_DEFAULT_12_NOT_CURRENTLY_USED	You can still play against your friends while they are offline!	
+GLUE_TIP_DEFAULT_8	If you play Ranked games, you will get a medal that shows off your skill.	
+GLUE_TIP_DEFAULT_9	Complete quests to earn Gold.  Gold can be used to buy packs or enter The Forge.	
+GLUE_TIP_DEFAULT_10	The Forge lets you build a deck from random cards. You can also win prizes!	
+GLUE_TIP_DEFAULT_11	Basic cards are earned by leveling up. They cannot be disenchanted or crafted.	
+GLUE_TIP_DEFAULT_12	Golden cards can be disenchanted for a lot of dust.	
+GLUE_TIP_DEFAULT_13	You can use the Search Banner in your collection to find all cards with 'Taunt'.	
+GLUE_TIP_DEFAULT_14	Basic cards are earned by leveling up a class. Expert cards come from Expert Packs.	
+GLUE_TIP_DEFAULT_zz_UNUSED	You can still play against your friends while they are offline!	
 GLUE_TIP_PRACTICE_0	You can unlock heroes by defeating them in Practice Mode.	
 GLUE_TIP_PRACTICE_1	Practice Mode is just preparation for Play Mode!	
 GLUE_TIP_PRACTICE_2	Play mode will match you against someone of similar skill!	
 GLUE_TIP_PRACTICE_3	You can build a custom deck with your cards by visiting your Collection.	
-GLUE_TIP_PRACTICE_4	Each class has 5 different Basic cards you can unlock as you play with them.	
-GLUE_TIP_PRACTICE_5	You can earn Packs of Expert Cards each week in Play Mode!	
+GLUE_TIP_PRACTICE_4	Each class has 5 different Basic cards you can unlock as you level up.	
+GLUE_TIP_PRACTICE_5	Complete quests in "Play" mode to earn Gold!	
 GLUE_TIP_PRACTICE_6	Attack the hero? Or the enemy minions?  Answering correctly can often turn the tide of battle.	
 GLUE_TIP_PLAY_0	You are being matched against a player of your skill.	
 GLUE_TIP_PLAY_1	As you win and lose games it will track your skill and match you against a fair opponent.	
-GLUE_TIP_PLAY_2	Each class has 5 different Basic cards you can unlock as you play with them.	
-GLUE_TIP_PLAY_3	You can earn an Expert Pack every 3 wins.	
+GLUE_TIP_PLAY_2	Each class has 5 different Basic cards you can unlock as you level up.	
+GLUE_TIP_PLAY_3	Complete quests to earn Gold.  Gold can be used to buy packs or enter The Forge.	
 GLUE_TIP_PLAY_4	The medals are Apprentice, Journeyman, Copper, Silver, Gold, Platinum, Diamond and Master.	
-GLUE_TIP_PLAY_5	Your medal will be reset to Apprentice each week.	
-GLUE_TIP_PLAY_6	Decks can contain two copies of each card, but only one copy of a Legendary card.	
-GLUE_TIP_PLAY_7	The Forge is a great way of earning cards while playing in a mini competition.	
-GLUE_TIP_PLAY_8	You don’t have to play all of your Forge games at once.	
-GLUE_TIP_PLAY_9	If you play "Unranked" you will not earn Expert Packs, but you will not hurt your ranking.	
+GLUE_TIP_PLAY_5	Decks can contain two copies of each card, but only one copy of a Legendary card.	
+GLUE_TIP_PLAY_6	The Forge is a great way of earning rewards while playing in a mini competition.	
+GLUE_TIP_PLAY_7	You don’t have to play all of your Forge games at once.	
+GLUE_TIP_PLAY_8	If you play Ranked games, you will get a medal that shows off your skill.	
 GLUE_TIP_FORGE_0	Your Forged Deck will expire after you lose 3 games.	
-GLUE_TIP_FORGE_1	If you win 5 or more games in The Forge, you win additional Packs of cards.	
-GLUE_TIP_FORGE_2	You can build your collection of Expert cards by repeatedly playing in The Forge.	
-GLUE_TIP_FORGE_3	You don’t have to play all of your Forge games at once.	
+GLUE_TIP_FORGE_1	Your Forge prize gets better with each game you win!	
+GLUE_TIP_FORGE_2	You don’t have to play all of your Forge games at once.	
 GLUE_TIP_QUEST_LOG_0	Unlock Other Heroes in Practice Mode – Defeat an AI to unlock it!
 GLUE_TIP_QUEST_LOG_1	You can earn additional basic cards for a class by playing games as that class.
 GLUE_TIP_QUEST_LOG_2	Try heading over to play mode, you can earn expert card packs by playing!
@@ -290,7 +300,7 @@ GLUE_LOADING_BAR_TASK_3	Filling Up Loading Bar
 GLUE_LOADING_BAR_TASK_4	Sweeping Up Minion Dust	
 GLUE_LOADING_BAR_TASK_5	Installing New Timer Fuse	
 GLUE_LOADING_BAR_TASK_6	Gathering Spectators	
-GLUE_LOADING_BAR_TASK_7	Coralling Murlocs	
+GLUE_LOADING_BAR_TASK_7	Corralling Murlocs	
 GLUE_LOADING_BAR_TASK_8	Oiling Up End Turn Button	
 GLUE_LOADING_BAR_TASK_9	Wiping Off Table	
 GLUE_LOADING_BAR_TASK_10	Mentally Preparing	
@@ -304,7 +314,7 @@ GLUE_LOADING_BAR_TASK_17	Straightening Decks
 GLUE_LOADING_BAR_TASK_18	Bribing Guards	
 GLUE_STARTING_GAME	Starting Game	
 GLUE_HERO_LOCKED_NAME	Locked	
-GLUE_HERO_LOCKED_DESC	Will unlock after defeated.	
+GLUE_HERO_LOCKED_DESC	Defeat this hero to unlock!	
 GLUE_QUEST_LOG_HEADLINE	Quest Log	
 GLUE_QUEST_LOG_WINS_HEADLINE	Play Mode Wins	
 GLUE_QUEST_LOG_BEST_FORGE_RECORD_HEADLINE	Best Forge Record
@@ -313,8 +323,8 @@ GLUE_QUEST_LOG_BEST_FORGE_RECORD_SINGLE	1 Win
 GLUE_QUEST_LOG_BEST_FORGE_RECORD	{0} Wins
 GLUE_QUEST_LOG_FORGE_RECORD	{0}/{1}	0=wins,1=losses
 GLUE_QUEST_LOG_FORGE_RECORD_NA	None
-GLUE_QUEST_LOG_MEDAL_HEADLINE	Current Medal	
-GLUE_QUEST_LOG_CARD_SET_ALL	All Cards	
-GLUE_QUEST_LOG_CARD_SET	{0} Cards	
-GLUE_QUEST_LOG_CARD_COUNT	{0}/{1} Cards	
+GLUE_QUEST_LOG_TOTAL_LEVELS	<color=#c4b47c>Total Level:</color> {0}	
 GLUE_QUEST_LOG_CLASS_LOCKED	Locked	
+GLUE_QUEST_NOTIFICATION_HEADER	Today's Quests	
+GLUE_QUEST_NOTIFICATION_HEADER_NEW_ONLY	New Quest!	
+GLUE_QUEST_NOTIFICATION_CAPTION	Most Quests can only be completed in Play mode or The Forge.	
