@@ -1,76 +1,111 @@
-TAG	TEXT	COMMENT
-GAMEPLAY_COIN_TOSS_LOST	You get an extra card	
-GAMEPLAY_COIN_TOSS_WON	You go first	
-GAMEPLAY_FATIGUE_TEXT	You take {0} damage.	
-GAMEPLAY_END_TURN	END TURN	
-GAMEPLAY_ENEMY_TURN	ENEMY TURN	
-GAMEPLAY_ERROR_PLAY_REJECTED	Too late! Your turn is over.	
+﻿TAG	TEXT	COMMENT
+GAMEPLAY_AI_OPPONENT_NAME	AI	
+GAMEPLAY_BANNER_STARTING_HAND	起始手牌	
+GAMEPLAY_BANNER_SUBTITLE	保留或替换卡牌	
+GAMEPLAY_BANNER_WAITING	对手还在选择...	
+GAMEPLAY_COIN_TOSS_LOST	你获得了额外的一张起始手牌	
+GAMEPLAY_COIN_TOSS_WON	你获得了先手	
+GAMEPLAY_EMOTE_LABEL_GREETINGS	欢迎	
+GAMEPLAY_EMOTE_LABEL_OOPS	失误	
+GAMEPLAY_EMOTE_LABEL_SORRY	抱歉	
+GAMEPLAY_EMOTE_LABEL_THANKS	感谢	
+GAMEPLAY_EMOTE_LABEL_THREATEN	威胁	
+GAMEPLAY_EMOTE_LABEL_WELL_PLAYED	称赞	
+GAMEPLAY_EMOTE_SQUELCH	无视	
+GAMEPLAY_EMOTE_UNSQUELCH	显示	
+GAMEPLAY_END_OF_GAME_DEFEAT	失败！	
+GAMEPLAY_END_OF_GAME_VICTORY	胜利！	
+GAMEPLAY_END_TURN	结束回合	
+GAMEPLAY_ENEMY_TURN	对手回合	
+GAMEPLAY_ERROR_PLAY_REJECTED	太晚了！你的回合已经结束了。	
+GAMEPLAY_FATIGUE_HISTORY_TEXT	每当你试图从一个空的牌库中抽牌的时候，你的英雄就会承受越来越高的伤害。	
+GAMEPLAY_FATIGUE_TEXT	没有牌了！你受到了{0}点伤害。	
 GAMEPLAY_MANA_COUNTER	{0}/{1}	0=unused mana 1=current total mana
-GAMEPLAY_PlayErrors_REQ_ATTACK_GREATER_THAN_0	A character with no Attack Value cannot attack	
-GAMEPLAY_PlayErrors_REQ_ATTACKER_CAN_ATTACK	That character can't attack	
-GAMEPLAY_PlayErrors_REQ_ATTACKER_NOT_FROZEN	Frozen characters can't attack	
-GAMEPLAY_PlayErrors_REQ_CAN_BE_ATTACKED	Character cannot be attacked	
-GAMEPLAY_PlayErrors_REQ_CAN_BE_TARGETED_BY_HERO_POWERS	Cannot be targeted with Hero Powers	
-GAMEPLAY_PlayErrors_REQ_CAN_BE_TARGETED_BY_OPPONENTS	Character cannot be targeted	
-GAMEPLAY_PlayErrors_REQ_CAN_BE_TARGETED_BY_SPELLS	Cannot be targeted with Spells	
-GAMEPLAY_PlayErrors_REQ_CHARGE_TARGET	Select a character with Charge	
-GAMEPLAY_PlayErrors_REQ_DAMAGED_TARGET	Select a damaged character	
-GAMEPLAY_PlayErrors_REQ_ENCHANTED_TARGET	Select an Enchanted character	
-GAMEPLAY_PlayErrors_REQ_ENEMY_TARGET	Select an enemy	
-GAMEPLAY_PlayErrors_REQ_ENOUGH_MANA	Not enough Mana	
-GAMEPLAY_PlayErrors_REQ_FRIENDLY_TARGET	Select a friendly character	
-GAMEPLAY_PlayErrors_REQ_FROZEN_TARGET	Select a Frozen character	
-GAMEPLAY_PlayErrors_REQ_HERO_OR_MINION_TARGET	You must target a character	
-GAMEPLAY_PlayErrors_REQ_HERO_TARGET	You must target a Hero	
-GAMEPLAY_PlayErrors_REQ_MINIMUM_ENEMY_MINIONS	The enemy must have at least {0} minions	
-GAMEPLAY_PlayErrors_REQ_MINION_CAP	You cannot have any more minions	
-GAMEPLAY_PlayErrors_REQ_MINION_TARGET	Select a minion	
-GAMEPLAY_PlayErrors_REQ_NONSELF_TARGET	Minion cannot target itself	
-GAMEPLAY_PlayErrors_REQ_NONSTEALTH_ENEMY_TARGET	Stealthed characters can't be targeted or attacked	
-GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_ACTIVATE	That character already attacked	
-GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_HERO_POWER	Hero Powers can only be used once a turn	
-GAMEPLAY_PlayErrors_REQ_NOT_MINION_JUST_PLAYED	Minions cannot attack the turn they are played	
-GAMEPLAY_PlayErrors_REQ_NUM_MINION_SLOTS	You cannot have any more minions	
-GAMEPLAY_PlayErrors_REQ_SECRET_CAP	You can only have {0} Secrets	
-GAMEPLAY_PlayErrors_REQ_SUBCARD_IS_PLAYABLE	Neither of these options are valid	
-GAMEPLAY_PlayErrors_REQ_TARGET_ATTACKED_THIS_TURN	You must target a character who already attacked	
-GAMEPLAY_PlayErrors_REQ_TARGET_FOR_COMBO	You cannot play that without a target	
-GAMEPLAY_PlayErrors_REQ_TARGET_FOR_NO_COMBO	You cannot play that without a target	
-GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE	You cannot play that without a target	
-GAMEPLAY_PlayErrors_REQ_TARGET_MAGNET	There is a minion that you must target	
-GAMEPLAY_PlayErrors_REQ_TARGET_MAX_ATTACK	Select a character with an Attack of {0} or less	
-GAMEPLAY_PlayErrors_REQ_TARGET_MIN_ATTACK	Select a character with an Attack of {0} or more	
-GAMEPLAY_PlayErrors_REQ_TARGET_TAUNTER	You must attack a minion with Taunt	
-GAMEPLAY_PlayErrors_REQ_TARGET_TO_PLAY	You cannot play that without a target	
-GAMEPLAY_PlayErrors_REQ_TARGET_WITH_RACE	Select a {0}	
-GAMEPLAY_PlayErrors_REQ_UNIQUE_SECRET	You already have that Secret	
-GAMEPLAY_PlayErrors_REQ_MINION_CAP_IF_TARGET_AVAILABLE	You cannot have any more minions	
-GAMEPLAY_PlayErrors_REQ_WEAPON_EQUIPPED	You have to have a weapon	
-GAMEPLAY_PlayErrors_REQ_ENEMY_TARGET_NOT_IMMUNE	That character is immune	
-GAMEPLAY_PlayErrors_REQ_ENTIRE_ENTOURAGE_NOT_IN_PLAY	You already have one of each totem	
-GAMEPLAY_PlayErrors_REQ_MINIMUM_TOTAL_MINIONS	There must be at least {0} minions on the battlefield	
-GAMEPLAY_TOOLTIP_DECK_DESCRIPTION	You have {0} cards in your deck.	
-GAMEPLAY_TOOLTIP_DECK_HEADLINE	Deck	
-GAMEPLAY_TOOLTIP_FATIGUE_DECK_DESCRIPTION	You are out of cards! You'll take damage every time you try and draw cards from now on.	
-GAMEPLAY_TOOLTIP_FATIGUE_DECK_HEADLINE	Fatigued	
-GAMEPLAY_TOOLTIP_ENEMYDECK_DESC	Your opponent has {0} cards in his deck.	
-GAMEPLAY_TOOLTIP_ENEMYDECK_HEADLINE	Enemy Deck	
-GAMEPLAY_TOOLTIP_FATIGUE_ENEMYDECK_DESCRIPTION	Your opponent is out of cards! He will take damage every time he tries to draw cards from now on.	
-GAMEPLAY_TOOLTIP_FATIGUE_ENEMYDECK_HEADLINE	Fatigued	
-GAMEPLAY_TOOLTIP_MANA_DESCRIPTION	When your turn starts, you'll gain a new crystal and fill empty ones.	
-GAMEPLAY_TOOLTIP_MANA_HEADLINE	Mana Crystals	
-GAMEPLAY_TOOLTIP_MANA_RECALL_DESCRIPTION	Some of your crystals may not be available because you played a card with Recall.	
-GAMEPLAY_TOOLTIP_MANA_RECALL_HEADLINE	Locked Mana Crystals	
-GAMEPLAY_TOOLTIP_ENEMYHAND_DESC	Your enemy's cards. He draws one each turn.	
-GAMEPLAY_TOOLTIP_ENEMYHAND_HEADLINE	Enemy Hand	
-GAMEPLAY_EMOTE_LABEL_GREETINGS	Greetings	
-GAMEPLAY_EMOTE_LABEL_WELL_PLAYED	Well Played	
-GAMEPLAY_EMOTE_LABEL_THANKS	Thanks	
-GAMEPLAY_EMOTE_LABEL_OOPS	Oops	
-GAMEPLAY_EMOTE_LABEL_THREATEN	Threaten	
-GAMEPLAY_EMOTE_LABEL_SORRY	Sorry	
-GAMEPLAY_REWARD_HERO_UNLOCKED	{0} Unlocked	
-GAMEPLAY_REWARD_CARD_EARNED	Card Earned!	
-GAMEPLAY_REWARD_BOOSTER_EARNED	Booster earned!	
-GAMEPLAY_END_OF_GAME_VICTORY	Victory!	
-GAMEPLAY_END_OF_GAME_DEFEAT	Defeat!	
+GAMEPLAY_NOTIFICATION_MAX_HAND_SIZE	你最多能够保留{0}张手牌	
+GAMEPLAY_NOTIFICATION_MAX_MANA	你最多能够拥有{0}个法力水晶	
+GAMEPLAY_PlayErrors_REQ_ATTACK_GREATER_THAN_0	没有攻击力的角色无法进行攻击。	
+GAMEPLAY_PlayErrors_REQ_ATTACKER_CAN_ATTACK	该角色无法进行攻击	
+GAMEPLAY_PlayErrors_REQ_ATTACKER_NOT_FROZEN	被冻结的角色无法进行攻击	
+GAMEPLAY_PlayErrors_REQ_CAN_BE_ATTACKED	该角色无法被攻击	
+GAMEPLAY_PlayErrors_REQ_CAN_BE_TARGETED_BY_HERO_POWERS	无法成为英雄技能的目标	
+GAMEPLAY_PlayErrors_REQ_CAN_BE_TARGETED_BY_OPPONENTS	该角色无法成为目标	
+GAMEPLAY_PlayErrors_REQ_CAN_BE_TARGETED_BY_SPELLS	无法成为法术的目标	
+GAMEPLAY_PlayErrors_REQ_CHARGE_TARGET	选择一个具有冲锋的角色	
+GAMEPLAY_PlayErrors_REQ_DAMAGED_TARGET	选择一个受过伤害的角色	
+GAMEPLAY_PlayErrors_REQ_ENCHANTED_TARGET	选择一个受到强化的角色	
+GAMEPLAY_PlayErrors_REQ_ENEMY_TARGET	选择一个敌方角色	
+GAMEPLAY_PlayErrors_REQ_ENEMY_TARGET_NOT_IMMUNE	该角色具有免疫效果	
+GAMEPLAY_PlayErrors_REQ_ENOUGH_MANA	法力值不足	
+GAMEPLAY_PlayErrors_REQ_ENTIRE_ENTOURAGE_NOT_IN_PLAY	你已经拥有了每一种图腾	
+GAMEPLAY_PlayErrors_REQ_FRIENDLY_TARGET	选择一个友方角色	
+GAMEPLAY_PlayErrors_REQ_FROZEN_TARGET	选择一个被冻结的角色	
+GAMEPLAY_PlayErrors_REQ_HERO_OR_MINION_TARGET	你必须指定一个角色为目标	
+GAMEPLAY_PlayErrors_REQ_HERO_TARGET	你必须指定一个英雄为目标	
+GAMEPLAY_PlayErrors_REQ_MINIMUM_ENEMY_MINIONS	对手必须至少拥有{0}个随从	
+GAMEPLAY_PlayErrors_REQ_MINIMUM_TOTAL_MINIONS	战场上必须至少有{0}个随从	
+GAMEPLAY_PlayErrors_REQ_MINION_CAP	你无法拥有更多的随从	
+GAMEPLAY_PlayErrors_REQ_MINION_CAP_IF_TARGET_AVAILABLE	你无法拥有更多的随从	
+GAMEPLAY_PlayErrors_REQ_MINION_TARGET	选择一个随从	
+GAMEPLAY_PlayErrors_REQ_MUST_TARGET_TAUNTER	你必须选择一个具有嘲讽的随从	
+GAMEPLAY_PlayErrors_REQ_NONSELF_TARGET	随从无法以其自身为目标	
+GAMEPLAY_PlayErrors_REQ_NONSTEALTH_ENEMY_TARGET	具有潜行的角色无法成为目标，无法被攻击	
+GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_ACTIVATE	该角色已经进行过攻击了	
+GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_HERO_POWER	在每个回合中，英雄技能只能够使用一次	
+GAMEPLAY_PlayErrors_REQ_NOT_MINION_JUST_PLAYED	在随从牌被使用的当前回合，该随从无法进行攻击	
+GAMEPLAY_PlayErrors_REQ_NUM_MINION_SLOTS	你无法拥有更多的随从	
+GAMEPLAY_PlayErrors_REQ_SECRET_CAP	你只能够拥有{0}个奥秘	
+GAMEPLAY_PlayErrors_REQ_SUBCARD_IS_PLAYABLE	无效的选择	
+GAMEPLAY_PlayErrors_REQ_TARGET_ATTACKED_THIS_TURN	你必须指定一个已经进行过攻击的角色作为目标	
+GAMEPLAY_PlayErrors_REQ_TARGET_FOR_COMBO	没有目标，无法使用	
+GAMEPLAY_PlayErrors_REQ_TARGET_FOR_NO_COMBO	没有目标，无法使用	
+GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE	没有目标，无法使用	
+GAMEPLAY_PlayErrors_REQ_TARGET_MAGNET	你必须指定一个随从为目标	
+GAMEPLAY_PlayErrors_REQ_TARGET_MAX_ATTACK	选择目标攻击力小于或等于{0}的角色	
+GAMEPLAY_PlayErrors_REQ_TARGET_MIN_ATTACK	选择目标攻击力大于或等于{0}的角色	
+GAMEPLAY_PlayErrors_REQ_TARGET_TAUNTER	你必须攻击一个具有嘲讽的随从	
+GAMEPLAY_PlayErrors_REQ_TARGET_TO_PLAY	没有目标，无法使用	
+GAMEPLAY_PlayErrors_REQ_TARGET_WITH_RACE	那个随从属于无效的种族	
+GAMEPLAY_PlayErrors_REQ_UNIQUE_SECRET	你已经拥有该奥秘了	
+GAMEPLAY_PlayErrors_REQ_WEAPON_EQUIPPED	你必须拥有一把武器	
+GAMEPLAY_REWARD_BOOSTER_DETAILS	{0}/{1} 胜利	0=# wins, 1=# total wins to earn reward
+GAMEPLAY_REWARD_BOOSTER_SOURCE_FORGE	赢得{0}场竞技场比赛，获得奖励	
+GAMEPLAY_REWARD_CARD_DETAILS_TUTORIAL01	哦，是的！	
+GAMEPLAY_REWARD_CARD_DETAILS_TUTORIAL02	真是让人印象深刻。	
+GAMEPLAY_REWARD_CARD_DETAILS_TUTORIAL03	你发挥得真好！	
+GAMEPLAY_REWARD_CARD_DETAILS_TUTORIAL04	太不可思议了。	
+GAMEPLAY_REWARD_CARD_DETAILS_TUTORIAL05	太棒啦！	
+GAMEPLAY_REWARD_CARD_DETAILS_TUTORIAL06	真是太厉害了！	
+GAMEPLAY_REWARD_CARD_LEVEL_UP	使用{1}达到{0}级解锁	0=# level, 1=class
+GAMEPLAY_REWARD_CORE_CARD_DETAILS	{0}/{1}张{2}卡牌已解锁	0=# cards unlocked, 1=# cards possible to unlock, 2=class
+GAMEPLAY_REWARD_GOLD_SOURCE_TOURNEY	在对战模式中赢得{0}场比赛，获得奖励	
+GAMEPLAY_REWARD_GOLDEN_HERO_HEADLINE	金色{0}已解锁	
+GAMEPLAY_REWARD_HERO_DETAILS	{0}/{1}个英雄已解锁	
+GAMEPLAY_REWARD_HERO_HEADLINE	{0}个英雄已解锁	
+GAMEPLAY_REWARD_HERO_SOURCE	在练习模式中击败{0}即可解锁	0=class
+GAMEPLAY_SECRET_DESC	小心了！这张卡牌的效果在某个特殊情况下便会触发...	
+GAMEPLAY_SECRET_NAME	奥秘	
+GAMEPLAY_TOOLTIP_DECK_DESCRIPTION	你的牌库中有{0}张卡牌。	
+GAMEPLAY_TOOLTIP_DECK_HEADLINE	牌库	
+GAMEPLAY_TOOLTIP_ENEMYDECK_DESC	你的对手的牌库中有{0}张卡牌。	
+GAMEPLAY_TOOLTIP_ENEMYDECK_HEADLINE	对手牌库	
+GAMEPLAY_TOOLTIP_ENEMYHAND_DESC	你的对手有{0}张手牌。	0= number of cards in hand.
+GAMEPLAY_TOOLTIP_ENEMYHAND_DESC_SINGLE	你的对手有{0}张手牌。	0= number of cards in hand.
+GAMEPLAY_TOOLTIP_ENEMYHAND_DESC_TUT	你的对手的手牌。在每个回合开始时，所有玩家抽一张牌。	
+GAMEPLAY_TOOLTIP_ENEMYHAND_HEADLINE	对手手牌	
+GAMEPLAY_TOOLTIP_FATIGUE_DECK_DESCRIPTION	你已经没有牌了！从现在起，每当你试图抽牌时，你都会受到伤害。	
+GAMEPLAY_TOOLTIP_FATIGUE_DECK_HEADLINE	疲劳作战	
+GAMEPLAY_TOOLTIP_FATIGUE_ENEMYDECK_DESCRIPTION	你的对手已经没有牌了！从现在起，每当他试图抽牌时，他都会受到伤害。	
+GAMEPLAY_TOOLTIP_FATIGUE_ENEMYDECK_HEADLINE	疲劳作战	
+GAMEPLAY_TOOLTIP_MANA_DESCRIPTION	在你的回合开始时，你会获得一个新的水晶，并注满空的水晶。	
+GAMEPLAY_TOOLTIP_MANA_HEADLINE	法力水晶	
+GAMEPLAY_TOOLTIP_MANA_RECALL_DESCRIPTION	在上个回合，你使用了一张具有过载的牌。	
+GAMEPLAY_TOOLTIP_MANA_RECALL_HEADLINE	法力水晶被锁	
+GAMEPLAY_TUTORIAL01_HERO	霍格	
+GAMEPLAY_TUTORIAL02_HERO	米尔豪斯·法力风暴	
+GAMEPLAY_TUTORIAL03_HERO	穆克拉	
+GAMEPLAY_TUTORIAL04_HERO	赫米特·奈辛瓦里	
+GAMEPLAY_TUTORIAL05_HERO	伊利丹·怒风	
+GAMEPLAY_TUTORIAL06_HERO	游学者周卓	
+GAMEPLAY_UNKNOWN_OPPONENT_NAME	未知	
+GAMEPLAY_WIN_REWARD_PROGRESS	胜利 {0}/{1}	
+GAMEPLAY_YOUR_TURN	你的回合	

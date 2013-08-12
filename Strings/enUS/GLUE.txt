@@ -27,14 +27,21 @@ GLUE_COLLECTION_DECK_INVALID_POPUP_MESSAGE	You are {0} card(s) short of a full d
 GLUE_COLLECTION_TUTORIAL01	Craft a deck of your own!
 GLUE_COLLECTION_TUTORIAL02	Turn pages to browse.
 GLUE_COLLECTION_TUTORIAL03	Disenchant extra cards!
-GLUE_COLLECTION_TUTORIAL04	Find a card to craft.
+GLUE_COLLECTION_TUTORIAL04	Change your filter to "ALL" to see cards you can craft.	"ALL" is the same as GLUE_COLLECTION_ALL.
 GLUE_COLLECTION_TUTORIAL05	Turn this card into Arcane Dust.
 GLUE_COLLECTION_TUTORIAL06	Use your Dust to create this card.
-GLUE_COLLECTION_TUTORIAL07	Right-click a card to craft or disenchant it.
-GLUE_COLLECTION_TUTORIAL07_TOUCH	Tap a card to craft or disenchant it.
+GLUE_COLLECTION_TUTORIAL07	Right-click a card with a Rarity Gem to craft or disenchant it.
+GLUE_COLLECTION_TUTORIAL07_TOUCH	Tap a card with a Rarity Gem to craft or disenchant it.
 GLUE_COLLECTION_ARTIST	Artist
 GLUE_COLLECTION_DELETE_CONFIRM_HEADER	Delete	
 GLUE_COLLECTION_DELETE_CONFIRM_DESC	This will delete your deck. Are you sure?	
+GLUE_COLLECTION_ALL_SETS	All Sets	
+GLUE_COLLECTION_ALL_CARDS	All Cards	
+GLUE_COLLECTION_MINE	My Cards	
+GLUE_COLLECTION_GOLDEN_CARDS	Golden Cards	
+GLUE_COLLECTION_SET_TEMPLATE	{0} Set	0=set name
+GLUE_COLLECTION_CUSTOM_DECKNAME_TEMPLATE	Custom{0}{1}	0=class name, 1=incrementer
+GLUE_COLLECTION_CARD_NEW	NEW!	
 GLUE_MASS_DISENCHANT_HEADLINE	Mass Disenchant
 GLUE_MASS_DISENCHANT_DETAILS_HEADLINE	Disenchant your extra cards to create Arcane Dust.
 GLUE_MASS_DISENCHANT_DETAILS	You can't have more than 2 copies of a card in your deck (or more than 1 of each legendary), so you might as well disenchant the extras and turn them into Arcane Dust!
@@ -57,7 +64,7 @@ GLUE_DECK_TRAY_COUNT	{0}/{1}
 GLUE_DECK_TRAY_CARD_COUNT_LABEL	Cards	
 GLUE_DECK_TRAY_DECK_COUNT_LABEL	Decks	
 GLUE_STORE_INFO_BUTTON_TEXT	i	
-GLUE_STORE_OPEN_BUTTON_TEXT	Shop
+GLUE_STORE_OPEN_BUTTON_TEXT	Store
 GLUE_STORE_CLOSED_BUTTON_TEXT	Store Closed
 GLUE_STORE_AUTH_WAITING	Waiting for Authorization
 GLUE_STORE_AUTH_SUCCESS_HEADLINE	Purchase Complete!
@@ -65,13 +72,10 @@ GLUE_STORE_AUTH_FAIL_HEADLINE	Purchase Failed
 GLUE_STORE_FAIL_NO_BATTLEPAY	Your transaction couldn't be completed. Sorry about that! Please wait a few moments and try again.
 GLUE_STORE_FAIL_BNET_ID	Invalid Battle.net ID.
 GLUE_STORE_FAIL_IN_PROGRESS	You have another transaction that is still in progress. Please wait for that to complete and try again.
-GLUE_STORE_FAIL_CC_EXPIRY	Your credit card information has expired. Please log in to www.battle.net and update your payment method information in the Payment Options section.
-GLUE_STORE_FAIL_PROVIDER_DENIED	There was a problem processing your payment. Please use a different payment method, or contact your payment method provider.
 GLUE_STORE_FAIL_DATABASE	Internal Database error.
 GLUE_STORE_FAIL_LICENSE	Duplicate license detected.
 GLUE_STORE_FAIL_PRODUCT_NA	That product is not available right now. Please select a different product and try again.
 GLUE_STORE_FAIL_QUANTITY	You've selected an invalid quantity for that item. Please select a different quantity and try again.
-GLUE_STORE_FAIL_ERROR_CODE	There was a problem processing your payment. Error code: '{0}'
 GLUE_STORE_FAIL_NO_ACTIVE_BPAY	Internal error: no transaction info in Database.
 GLUE_STORE_FAIL_NOT_ENOUGH_GOLD	You don't have enough gold to buy that right now.
 GLUE_STORE_FAIL_PASSWORD_TIMEOUT	Your password challenge has timed out. Please start your transaction again.
@@ -83,7 +87,7 @@ GLUE_STORE_ERROR_POPUP_TITLE	Store Error
 GLUE_STORE_HEADLINE	Store
 GLUE_STORE_PRODUCT_DETAILS_HEADLINE_EXPERT_PACK	Contents per pack:
 GLUE_STORE_PRODUCT_DETAILS_EXPERT_PACK	•  5 Expert Hearthstone Cards\n•  At least 1 card will be Rare or better
-GLUE_STORE_PRODUCT_NAME_FORGE_TICKET	Forge Admission
+GLUE_STORE_PRODUCT_NAME_FORGE_TICKET	Arena Admission
 GLUE_STORE_BUY_TEXT	BUY
 GLUE_STORE_SINGLE_PACK	1 Pack
 GLUE_STORE_MULTI_PACK	{0} Packs
@@ -96,50 +100,62 @@ GLUE_STORE_SUMMARY_HEADLINE	Summary
 GLUE_STORE_SUMMARY_ITEMS_ORDERED_HEADLINE	Items Ordered
 GLUE_STORE_SUMMARY_PRICE_HEADLINE	Price
 GLUE_STORE_SUMMARY_ITEM_ORDERED	{0} x {1}	0=item quantity, 1=item name (one of GLUE_STORE_PRODUCT_NAME_*)
-GLUE_STORE_SUMMARY_TAX_DISCLAIMER	Plus applicable sales tax.
+GLUE_STORE_SUMMARY_TAX_DISCLAIMER	Taxes may be included.
 GLUE_STORE_SUMMARY_CHARGE_DETAILS	Will be charged to your: {0}
 GLUE_STORE_BNET_BALANCE	Battle.net Balance
+GLUE_STORE_QUANTITY_HEADLINE	Change Quantity
+GLUE_STORE_QUANTITY_MESSAGE	How many packs would you like to purchase with gold? Quantity cannot exceed {0}.
 GLUE_STORE_PASSWORD_HEADLINE	Attention
 GLUE_STORE_PASSWORD_MESSAGE	Please enter your password:
 GLUE_STORE_PASSWORD_RETRY_MESSAGE	Your password is incorrect. Please re-enter your password:
-GLUE_STORE_PASSWORD_HIDE_CHAR	*	this should be exactly one character
-GLUE_STORE_SUBMIT_BUTTON_TEXT	Submit
-GLUE_STORE_SEND_TO_BAM_HEADLINE	Attention
-GLUE_STORE_SEND_TO_BAM_MESSAGE_1	You haven't set up a payment method yet. Please set one up on the Battle.net website and try again.
-GLUE_STORE_SEND_TO_BAM_MESSAGE_2	Pressing "{0}" will take you to the Battle.net website.
+GLUE_STORE_SUBMIT_PWD_BUTTON_TEXT	Purchase
+GLUE_STORE_NO_PAYMENT_HEADLINE	Attention
+GLUE_STORE_NO_PAYMENT_DETAILS	You haven't set up a payment method yet. Please set one up on the Battle.net website and try again.
+GLUE_STORE_NO_PAYMENT_URL_DETAILS	Pressing "{0}" will take you to the Battle.net website.
+GLUE_STORE_PAYMENT_INFO_HEADLINE	Payment Information
+GLUE_STORE_PAYMENT_INFO_DETAILS	Funds will first be deducted from your Battle.net Balance. If insufficient balance exists then your primary payment method on your Battle.net account will be charged.
+GLUE_STORE_PAYMENT_INFO_URL_DETAILS	If you'd like more details, pressing "{0}" will take you to the Battle.net payment information website.
+GLUE_STORE_FORGOT_PWD_HEADLINE	Forgotten password?
+GLUE_STORE_FORGOT_PWD_DETAILS	Your password has been incorrectly entered too many times. Did you forget it?
+GLUE_STORE_FORGOT_PWD_URL_DETAILS	Pressing "{0}" will take you to Battle.net where you can reset it.
+GLUE_STORE_GENERIC_BP_FAIL_HEADLINE	Purchase Failed
+GLUE_STORE_GENERIC_BP_FAIL_DETAILS	There was a problem processing your payment. Please use a different payment method, or contact your payment method provider.
+GLUE_STORE_GENERIC_BP_FAIL_URL_DETAILS	Pressing "{0}" will take you to Battle.net where you can update your payment method information.
+GLUE_STORE_CC_EXPIRY_DETAILS	Your credit card information has expired.
+GLUE_STORE_FAIL_DETAILS_ERROR_CODE	(Error code: '{0}')
 GLUE_STORE_DONE_WITH_BAM_HEADLINE	Try Again
 GLUE_STORE_DONE_WITH_BAM_MESSAGE	When you have returned from Battle.net, please try your purchase again.
-GLUE_STORE_PAYMENT_FLOW_HEADLINE	Payment Information
-GLUE_STORE_PAYMENT_FLOW_EXPLANATION_1	Funds will first be deducted from your Battle.net Balance. If insufficient balance exists then your primary payment method on your Battle.net account will be charged.
-GLUE_STORE_PAYMENT_FLOW_EXPLANATION_2	If you'd like more details, pressing "{0}" will take you to the Battle.net payment information website.
-GLUE_STORE_FORGOT_PASSWORD_HEADLINE	Forgotten password?
-GLUE_STORE_FORGOT_PASSWORD_MESSAGE_1	Your password has been incorrectly entered too many times. Did you forget it?
-GLUE_STORE_FORGOT_PASSWORD_MESSAGE_2	Pressing "{0}" will take you to Battle.net where you can reset it.
 GLUE_STORE_DISCLAIMER_HEADLINE	Attention
 GLUE_STORE_DISCLAIMER_WARNING	You are about to spend real money!
-GLUE_STORE_DISCLAIMER_DETAILS_1	All acquired cards will be deleted from your account at the end of the closed beta.
-GLUE_STORE_DISCLAIMER_DETAILS_2	After the account wipe, you will receive at least one new pack for every pack purchased during the beta.
-GLUE_STORE_DISCLAIMER_DETAILS_3	If you purchase one or more packs you will receive a gift for helping us test our store!
-GLUE_FORGE_STORE_DISCLAIMER_DETAILS_1	All acquired Forge prizes will be deleted from your account at the end of the closed beta.
-GLUE_FORGE_STORE_DISCLAIMER_DETAILS_2	After the account wipe, you will receive at least one Forge Admission for every Forge Admission purchased during the beta.
-GLUE_FORGE_STORE_DISCLAIMER_DETAILS_3	If you purchase one or more Forge Admissions you will receive a gift for helping us test our store!
-GLUE_FORGE_STORE_HEADLINE	Welcome to The Forge! 
-GLUE_FORGE_STORE_DETAILS1	Forge a deck from random cards and battle other players to win prizes.
-GLUE_FORGE_STORE_DETAILS2	You will receive an awesome prize at the end!
+GLUE_STORE_DISCLAIMER_DETAILS_1	All acquired packs, cards, gold, and arcane dust will be deleted from your account during a planned closed beta account wipe.
+GLUE_STORE_DISCLAIMER_DETAILS_2	Following the wipe, players who made a purchase from the store will receive a gold credit equivalent to the value of their previous card pack and/or Arena Admission purchases. 
+GLUE_STORE_DISCLAIMER_DETAILS_3	In addition, if you make any purchases with real money during the beta you will receive a gift for helping us test our store!
+GLUE_STORE_GOLD_QTY_CHANGE_HEADER	Packs For Gold
+GLUE_STORE_GOLD_QTY_CHANGE_DESC	You've got a lot of gold! If you want to buy multiple packs, you can double click on the '1 pack for 100 gold' option to change the number of packs you want to buy.
+GLUE_STORE_GOLD_QTY_CHANGE_DESC_TOUCH	You've got a lot of gold! If you want to buy multiple packs, you can double tap on the '1 pack for 100 gold' option to change the number of packs you want to buy.
+GLUE_FORGE_STORE_DISCLAIMER_DETAILS_1	All acquired packs, cards, gold, and arcane dust will be deleted from your account during a planned closed beta account wipe.
+GLUE_FORGE_STORE_DISCLAIMER_DETAILS_2	Following the wipe, players who made a purchase from the store will receive a gold credit equivalent to the value of their previous card pack and/or Arena Admission purchases.
+GLUE_FORGE_STORE_DISCLAIMER_DETAILS_3	If you purchase one or more Arena Admissions with real money you will receive a gift for helping us test our store!
+GLUE_FORGE_STORE_HEADLINE	Welcome to The Arena! 
+GLUE_FORGE_STORE_DETAILS1	Forge a deck from random cards, then see how long you can last in the Arena.
+GLUE_FORGE_STORE_DETAILS2	The longer you last, the better your prize will be!
 GLUE_FORGE_STORE_ADMISSION	Admission	
-GLUE_FORGE_PRIZES	Starting with your 5th victory, you'll earn an Expert Pack with every win.\nAt 10, 15, and 20 wins, you earn even more Packs!	
 GLUE_FORGE_EXTRA_PRIZE_LABEL	{0} wins	0 = number of wins required to earn this prize
 GLUE_FORGE_RETIRE_WARNING_HEADER	Wait!	
-GLUE_FORGE_RETIRE_WARNING_DESC	This will prematurely end your run in The Forge! The cards in your deck will still be added to your collection.	
+GLUE_FORGE_RETIRE_WARNING_DESC	This will prematurely end your run in The Arena! You'll still earn prizes based on the key you earned.	
 GLUE_FORGE_MANATIP_HEADER	Mana Curve	
 GLUE_FORGE_MANATIP_DESC	These are the cards in your deck, sorted by Mana Cost.	
+GLUE_ARENA_1ST_TIME_HEADER	The Arena	
+GLUE_ARENA_1ST_TIME_DESC	The Arena usually requires an entrance fee, but since it's your first time here, it's on the house!  Enjoy!	"on the house" is a phrase that means "free" in English.
+GLUE_ARENA_DECK_TOOLTIP_HEADER	Arena Deck	
+GLUE_ARENA_DECK_TOOLTIP	This is your Arena Deck.  These cards are not part of your collection.	
 GLUE_TOOLTIP_BUTTON_TOURNAMENT_HEADLINE	Play	
-GLUE_TOOLTIP_BUTTON_TOURNAMENT_DESC	Play against an opponent of equal skill to earn medals and Packs.	
+GLUE_TOOLTIP_BUTTON_TOURNAMENT_DESC	Play against an opponent of equal skill.	
 GLUE_TOOLTIP_BUTTON_PRACTICE_HEADLINE	Practice	
 GLUE_TOOLTIP_BUTTON_PRACTICE_DESC	Hone your skills against AI opponents.	
-GLUE_TOOLTIP_BUTTON_FORGE_HEADLINE	The Forge	
+GLUE_TOOLTIP_BUTTON_FORGE_HEADLINE	The Arena	
 GLUE_TOOLTIP_BUTTON_FORGE_DESC	Forge a deck quickly from random cards.	
-GLUE_TOOLTIP_BUTTON_FORGE_NOT_UNLOCKED	Locked until you complete 10 quests.
+GLUE_TOOLTIP_BUTTON_FORGE_NOT_UNLOCKED	Locked until you unlock every hero.
 GLUE_TOOLTIP_BUTTON_PACKOPEN_HEADLINE	Open Packs	
 GLUE_TOOLTIP_BUTTON_PACKOPEN_DESC	Open your Packs to add cards to your collection!	
 GLUE_TOOLTIP_BUTTON_COLLECTION_HEADLINE	My Collection	
@@ -147,15 +163,19 @@ GLUE_TOOLTIP_BUTTON_COLLECTION_DESC	Look at your cards or build a deck.
 GLUE_TOOLTIP_BUTTON_QUESTLOG_HEADLINE	Quest Log
 GLUE_TOOLTIP_BUTTON_QUESTLOG_DESC	View your current progress.	
 GLUE_TOOLTIP_BUTTON_DISABLED_DESC	This has been temporarily disabled.	
+GLUE_TOOLTIP_GOLD_HEADER	Gold	
+GLUE_TOOLTIP_GOLD_DESCRIPTION	Spend gold to buy Packs or Enter the Arena.	
 GLUE_TOURNAMENT	Play	
 GLUE_TOURNAMENT_UNRANKED_MODE	Unranked Mode	
+GLUE_TOURNAMENT_UNRANKED_DESC	You have a seperate skill rating for Unranked mode, and you won't earn medals.
 GLUE_PRACTICE	Practice	
 GLUE_PRACTICE_BASIC_SET_PROGRESS	{0}/{1} Basic Cards Earned	0=number of owned cards,1=total number of basic cards
 GLUE_PRACTICE_BASIC_SET_COMPLETE	Basic {0} Set Complete	0=class
-GLUE_FORGE	The Forge	
+GLUE_FORGE	The Arena	
 GLUE_START_TOUCH	Touch To Start	
 GLUE_START_CLICK	Click To Start	
 GLUE_START_PRESS	Press Start	
+GLUE_OPEN_PACKS	Open Packs	
 GLUE_MY_COLLECTION	My Collection	
 GLUE_PACK_OPENING_HEADER	Open Packs	
 GLUE_PACK_OPENING_ALL_CLASSES	All Classes	
@@ -241,11 +261,11 @@ GLUE_TIP_DEFAULT_5	Rarity colors, in order: White is Common, Blue is Rare, Purpl
 GLUE_TIP_DEFAULT_6	Each pack of Expert cards has at least one rare or better card, but it could have more!
 GLUE_TIP_DEFAULT_7	The medals are Apprentice, Journeyman, Copper, Silver, Gold, Platinum, Diamond and Master.	
 GLUE_TIP_DEFAULT_8	If you play Ranked games, you will get a medal that shows off your skill.	
-GLUE_TIP_DEFAULT_9	Complete quests to earn Gold.  Gold can be used to buy packs or enter The Forge.	
-GLUE_TIP_DEFAULT_10	The Forge lets you build a deck from random cards. You can also win prizes!	
+GLUE_TIP_DEFAULT_9	Complete quests to earn Gold.  Gold can be used to buy packs or enter The Arena.	
+GLUE_TIP_DEFAULT_10	The Arena lets you build a deck from random cards. You can also win prizes!	
 GLUE_TIP_DEFAULT_11	Basic cards are earned by leveling up. They cannot be disenchanted or crafted.	
 GLUE_TIP_DEFAULT_12	Golden cards can be disenchanted for a lot of dust.	
-GLUE_TIP_DEFAULT_13	You can use the Search Banner in your collection to find all cards with 'Taunt'.	
+GLUE_TIP_DEFAULT_13	You can use the Search field in your collection to find all cards with 'Taunt'.	
 GLUE_TIP_DEFAULT_14	Basic cards are earned by leveling up a class. Expert cards come from Expert Packs.	
 GLUE_TIP_DEFAULT_zz_UNUSED	You can still play against your friends while they are offline!	
 GLUE_TIP_PRACTICE_0	You can unlock heroes by defeating them in Practice Mode.	
@@ -258,22 +278,22 @@ GLUE_TIP_PRACTICE_6	Attack the hero? Or the enemy minions?  Answering correctly 
 GLUE_TIP_PLAY_0	You are being matched against a player of your skill.	
 GLUE_TIP_PLAY_1	As you win and lose games it will track your skill and match you against a fair opponent.	
 GLUE_TIP_PLAY_2	Each class has 5 different Basic cards you can unlock as you level up.	
-GLUE_TIP_PLAY_3	Complete quests to earn Gold.  Gold can be used to buy packs or enter The Forge.	
+GLUE_TIP_PLAY_3	Complete quests to earn Gold.  Gold can be used to buy packs or enter The Arena.	
 GLUE_TIP_PLAY_4	The medals are Apprentice, Journeyman, Copper, Silver, Gold, Platinum, Diamond and Master.	
 GLUE_TIP_PLAY_5	Decks can contain two copies of each card, but only one copy of a Legendary card.	
-GLUE_TIP_PLAY_6	The Forge is a great way of earning rewards while playing in a mini competition.	
-GLUE_TIP_PLAY_7	You don’t have to play all of your Forge games at once.	
+GLUE_TIP_PLAY_6	The Arena is a great way of earning rewards while playing in a mini competition.	
+GLUE_TIP_PLAY_7	You don’t have to play all of your Arena games at once.	
 GLUE_TIP_PLAY_8	If you play Ranked games, you will get a medal that shows off your skill.	
-GLUE_TIP_FORGE_0	Your Forged Deck will expire after you lose 3 games.	
-GLUE_TIP_FORGE_1	Your Forge prize gets better with each game you win!	
-GLUE_TIP_FORGE_2	You don’t have to play all of your Forge games at once.	
+GLUE_TIP_FORGE_0	Your Arena Deck will expire after you lose 3 games.	
+GLUE_TIP_FORGE_1	Your Arena prize gets better with each game you win!	
+GLUE_TIP_FORGE_2	You don’t have to play all of your Arena games at once.	
 GLUE_TIP_QUEST_LOG_0	Unlock Other Heroes in Practice Mode – Defeat an AI to unlock it!
 GLUE_TIP_QUEST_LOG_1	You can earn additional basic cards for a class by playing games as that class.
 GLUE_TIP_QUEST_LOG_2	Try heading over to play mode, you can earn expert card packs by playing!
 GLUE_TIP_QUEST_LOG_3	There are still Expert AIs that you can test your skill against!
 GLUE_TIP_QUEST_LOG_4	There are still more packs to earn in play mode!
 GLUE_TIP_QUEST_LOG_5	Check out the quests for stuff you can complete.
-GLUE_TIP_QUEST_LOG_6	Give The Forge a try, craft a deck on the fly and then do battle with it!
+GLUE_TIP_QUEST_LOG_6	Give The Arena a try, craft a deck on the fly and then do battle with it!
 GLUE_TIP_QUEST_LOG_RANDOM_0	Random Quote 1
 GLUE_TIP_QUEST_LOG_RANDOM_1	Random Quote 2
 GLUE_TIP_QUEST_LOG_RANDOM_2	Random Quote 3
@@ -291,9 +311,8 @@ GLUE_DRAFT_PLAY_BUTTON	PLAY
 GLUE_DRAFT_RETIRE_BUTTON	RETIRE	
 GLUE_DRAFT_HERO_INSTRUCTIONS	Choose your Hero	
 GLUE_DRAFT_INSTRUCTIONS	Choose a Card	
-GLUE_DRAFT_MATCH_PROG	Forge Progress	
-GLUE_DRAFT_NO_DECK_LABEL	No Draft Deck	
-GLUE_DRAFT_CHOOSE_HERO_LABEL	Choosing Hero	
+GLUE_DRAFT_MATCH_PROG	Arena Progress	
+GLUE_ARENA_DECK	Arena Deck	
 GLUE_LOADING_BAR_TASK_1	Shuffling Cards	
 GLUE_LOADING_BAR_TASK_2	Polishing Mana Crystals	
 GLUE_LOADING_BAR_TASK_3	Filling Up Loading Bar	
@@ -317,14 +336,15 @@ GLUE_HERO_LOCKED_NAME	Locked
 GLUE_HERO_LOCKED_DESC	Defeat this hero to unlock!	
 GLUE_QUEST_LOG_HEADLINE	Quest Log	
 GLUE_QUEST_LOG_WINS_HEADLINE	Play Mode Wins	
-GLUE_QUEST_LOG_BEST_FORGE_RECORD_HEADLINE	Best Forge Record
-GLUE_QUEST_LOG_FORGE_RECORD_HEADLINE	Forge Record	
-GLUE_QUEST_LOG_BEST_FORGE_RECORD_SINGLE	1 Win
-GLUE_QUEST_LOG_BEST_FORGE_RECORD	{0} Wins
-GLUE_QUEST_LOG_FORGE_RECORD	{0}/{1}	0=wins,1=losses
-GLUE_QUEST_LOG_FORGE_RECORD_NA	None
+GLUE_QUEST_LOG_BEST_FORGE_RECORD_HEADLINE	Best Arena Medal	
 GLUE_QUEST_LOG_TOTAL_LEVELS	<color=#c4b47c>Total Level:</color> {0}	
 GLUE_QUEST_LOG_CLASS_LOCKED	Locked	
+GLUE_QUEST_LOG_NO_QUESTS	You have no quests.  You should unlock new heroes in Practice Mode!	
+GLUE_QUEST_LOG_NO_QUESTS_DAILIES_UNLOCKED	You have no quests.  Check back tomorrow!	
 GLUE_QUEST_NOTIFICATION_HEADER	Today's Quests	
 GLUE_QUEST_NOTIFICATION_HEADER_NEW_ONLY	New Quest!	
-GLUE_QUEST_NOTIFICATION_CAPTION	Most Quests can only be completed in Play mode or The Forge.	
+GLUE_QUEST_NOTIFICATION_CAPTION	Most Quests can only be completed in Play mode or The Arena.	
+GLUE_DRAFT_WINS_LABEL	Wins	
+GLUE_DRAFT_LOSSES_LABEL	Losses:	
+GLUE_SPLASH_QUEUE_TITLE	All tables full!	
+GLUE_SPLASH_QUEUE_TEXT	There should be an empty seat in about:	

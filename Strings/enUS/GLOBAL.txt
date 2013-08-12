@@ -126,13 +126,13 @@ GLOBAL_ERROR_GAME_OPPONENT_TIMEOUT	The game failed to start because your opponen
 GLOBAL_ERROR_STREAMING_TITLE	STREAMING ERROR	
 GLOBAL_ERROR_STREAMING_ASSET_TIMEOUT	Timed out while waiting for streaming system. Was loading asset {0}.	0=asset name
 GLOBAL_ERROR_ASSET_TITLE	ASSET ERROR	
-GLOBAL_ERROR_ASSET_NO_WORKING_DIRECTORY	Failed to find a working directory.	
 GLOBAL_ERROR_ASSET_NO_FILE_PATH	Failed to find a file path for asset {0}.	0=asset name
 GLOBAL_ERROR_ASSET_LOADING_TIMEOUT	Timed out while waiting for asset {0} to load.	0=asset name
 GLOBAL_ERROR_ASSET_DOWNLOAD_FAILED	Failed to download asset {0}.	0=asset name
 GLOBAL_ERROR_ASSET_INCORRECT_DATA	Asset {0} contained incorrect data.	0=asset name
 GLOBAL_ERROR_ASSET_CREATE_PERSISTENT_DATA_PATH	Failed to create a folder for saving data at {0}.	0=folder path
 GLOBAL_ERROR_ASSET_LOAD_FAILED	Failed to load asset {0}.	0=asset name
+GLOBAL_ERROR_CURRENCY_INVALID	Client attempted to use an invalid currency to make a purchase.
 GLOBAL_ERROR_NETWORK_TITLE	NETWORK ERROR	
 GLOBAL_ERROR_NETWORK_GENERIC	There was an internal network error.	
 GLOBAL_ERROR_NETWORK_LOGIN_FAILURE	The game was unable to log you in through Battle.net. Please wait a few minutes and try again.	
@@ -140,17 +140,26 @@ GLOBAL_ERROR_NETWORK_UTIL_TIMEOUT	Your game timed out as it was requesting data 
 GLOBAL_ERROR_NETWORK_DISCONNECT	You were disconnected from the Battle.net service. Please relaunch Hearthstone to reconnect.	
 GLOBAL_ERROR_NETWORK_SPAM	You were disconnected from the Battle.net service for sending too many requests too quickly. Please relaunch Hearthstone to reconnect.	
 GLOBAL_ERROR_NETWORK_DUPLICATE_LOGIN	This Battle.net account just logged into Hearthstone from another device.\n\nThis client was disconnected because only one connection is supported at a time.	
-GLOBAL_ERROR_NETWORK_LOST_GAME_CONNECTION	Your game has been disconnected from the Battle.net game service. You can try to reconnect again by starting another game.	
+GLOBAL_ERROR_NETWORK_LOST_GAME_CONNECTION	Your game has been disconnected from the Battle.net game service. You can try to reconnect again by starting another game.
+GLOBAL_ERROR_NETWORK_INCORRECT_REGION	Your Battle.net account is not eligible to participate in this region's Hearthstone beta test. Once the Hearthstone beta is available in your home region, please try again!	
+GLOBAL_ERROR_NETWORK_ACCOUNT_SUSPENDED	Your account has been suspended.	
 GLOBAL_MEDAL_REWARD_CONGRATULATIONS	Congratulations!	
 GLOBAL_MEDAL_REWARD_DESCRIPTION	Medal earned last week	
 GLOBAL_MEDAL_TOOLTIP_HEADER	{0} Medal	0=medal name
-GLOBAL_MEDAL_TOOLTIP_BODY	Win tournament games to advance to the next medal!\n\nNext Medal:\n{0}	0=medal name
-GLOBAL_DATETIME_ELAPSED_LESS_THAN_MINUTE	Less than a minute ago	
-GLOBAL_DATETIME_ELAPSED_MINUTES	{0:n0} minutes ago	
-GLOBAL_DATETIME_ELAPSED_HOURS	{0:n0} hours ago	
-GLOBAL_DATETIME_ELAPSED_YESTERDAY	Yesterday	
-GLOBAL_DATETIME_ELAPSED_DAYS	{0:n0} days ago	
-GLOBAL_DATETIME_ELAPSED_WEEKS	{0:n0} weeks ago	
+GLOBAL_MEDAL_TOOLTIP_BODY	Win games to advance to the next medal!\n\nNext Medal:\n{0}	0=medal name
+GLOBAL_MEDAL_TOOLTIP_BODY_ARENA_GRAND_MASTER	You are a champion of The Arena!
+GLOBAL_DATETIME_FRIENDREQUEST_SECONDS	Less than a minute ago	
+GLOBAL_DATETIME_FRIENDREQUEST_MINUTES	{0:n0} minutes ago	
+GLOBAL_DATETIME_FRIENDREQUEST_HOURS	{0:n0} hours ago	
+GLOBAL_DATETIME_FRIENDREQUEST_DAY	Yesterday	
+GLOBAL_DATETIME_FRIENDREQUEST_DAYS	{0:n0} days ago	
+GLOBAL_DATETIME_FRIENDREQUEST_WEEKS	{0:n0} weeks ago	
+GLOBAL_DATETIME_SPLASHSCREEN_SECONDS	< 1 min	
+GLOBAL_DATETIME_SPLASHSCREEN_MINUTES	{0:n0} mins	
+GLOBAL_DATETIME_SPLASHSCREEN_HOURS	{0:n0} hours	
+GLOBAL_DATETIME_SPLASHSCREEN_DAY	> 1 day	
+GLOBAL_DATETIME_SPLASHSCREEN_DAYS	{0:n0} days	
+GLOBAL_DATETIME_SPLASHSCREEN_WEEKS	{0:n0} weeks	
 GLOBAL_FRIENDLIST_REQUEST_SENT_TIME	Sent: {0}	0=one of the GLOBAL_DATETIME_ELAPSED_ strings
 GLOBAL_FRIENDLIST_REQUESTS_HEADER	FRIEND REQUESTS - {0:n0}	0=number of received friend requests
 GLOBAL_FRIENDLIST_CURRENT_GAMES_HEADER	CURRENT GAMES - {0:n0}	0=number of friends you have unfinished games with
@@ -160,6 +169,7 @@ GLOBAL_FRIENDLIST_FRIENDS_HEADER_ALL_ONLINE	FRIENDS - {0:n0} Online
 GLOBAL_FRIENDLIST_ADD_FRIEND_BUTTON	Add	
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_BUTTON	Remove	
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_ALERT_MESSAGE	Are you sure you want to remove {0}?	0=friend name
+GLOBAL_FRIENDLIST_MYSTATUS	ONLINE	
 GLOBAL_ADDFRIEND_HEADER	Add a Friend	
 GLOBAL_ADDFRIEND_INSTRUCTION	Enter a BattleTag or email address.	
 GLOBAL_ADDFRIEND_SENT_CONFIRMATION	Friend request sent.	
@@ -172,14 +182,7 @@ GLOBAL_PROGRAMNAME_STARCRAFT2	StarCraft 2
 GLOBAL_PROGRAMNAME_PHOENIX	Battle.net	
 GLOBAL_OFFLINE	Offline	
 GLOBAL_DEFAULT_ALERT_HEADER	Alert	
-GLOBAL_FORGE_END_INSTRUCT	Your Forge cards have been added to your Collection, including: 	
-GLOBAL_FORGE_LIST_L	Legendary	
-GLOBAL_FORGE_LIST_Ls	Legendaries	
-GLOBAL_FORGE_LIST_E	Epic	
-GLOBAL_FORGE_LIST_Es	Epics	
-GLOBAL_FORGE_LIST_R	Rare	
-GLOBAL_FORGE_LIST_Rs	Rares	
-GLOBAL_FORGE_END_TITLE	Forge Complete	
+GLOBAL_FORGE_END_TITLE	Arena Complete	
 GLOBAL_FORGE_END_DONE	Done	
 GLOBAL_FORGE_END_JOKE_0	That was spicy!	
 GLOBAL_FORGE_END_JOKE_1	There are no words!	
@@ -191,6 +194,7 @@ GLOBAL_FORGE_END_JOKE_6	That one turn was amazing!
 GLOBAL_FORGE_END_JOKE_7	BEHOLD!	
 GLOBAL_FORGE_END_JOKE_8	It's not over yet! Oh wait, yeah it is.	
 GLOBAL_MEDAL_NOVICE	Novice
+GLOBAL_MEDAL_APPRENTICE	Apprentice	for Arena only
 GLOBAL_MEDAL_JOURNEYMAN	Journeyman
 GLOBAL_MEDAL_COPPER	Copper
 GLOBAL_MEDAL_SILVER	Silver
@@ -205,15 +209,19 @@ GLOBAL_MEDAL_THREE_STAR	Three Star
 GLOBAL_MEDAL_STARRED_FORMAT	{0} {1}	0=star leve1, 1=medal type
 GLOBAL_MEDAL_NO_NAME	N/A
 GLOBAL_FEATURE_DISABLED_TITLE	Disabled	
-GLOBAL_FEATURE_DISABLED_MESSAGE_FORGE	Sorry, the Forge has been disabled.	
-GLOBAL_FEATURE_DISABLED_MESSAGE_PRACTICE	Sorry, Practice mode has been disabled.	
-GLOBAL_FEATURE_DISABLED_MESSAGE_PLAY	Sorry, Play mode has been disabled.	
-GLOBAL_FEATURE_DISABLED_MESSAGE_COLLECTION	Sorry, the Collection has been disabled.	
+GLOBAL_FEATURE_DISABLED_MESSAGE_FORGE	Sorry, the Arena is currently disabled.	
+GLOBAL_FEATURE_DISABLED_MESSAGE_PRACTICE	Sorry, Practice mode is currently disabled.	
+GLOBAL_FEATURE_DISABLED_MESSAGE_PLAY	Sorry, Play mode is currently disabled.	
+GLOBAL_FEATURE_DISABLED_MESSAGE_COLLECTION	Sorry, the Collection is currently disabled.	
 GLOBAL_CHAT_NO_FRIENDS_ONLINE	You don't have any friends online right now.	
 GLOBAL_CHAT_NO_RECENT_CONVERSATIONS	Use the friends menu to start a conversation with a friend.	
 GLOBAL_CHAT_RECEIVER_ONLINE	{0} is online.	0=player name
 GLOBAL_CHAT_RECEIVER_OFFLINE	{0} is offline.	0=player name
 GLOBAL_CHAT_CHALLENGE	Challenge	
+GLOBAL_CHAT_BUBBLE_RECEIVER_NAME	To: {0}	0=player name
+GLOBAL_SOCIAL_TOAST_FRIEND_ONLINE	<color=#{0}>{1}</color> has come online.	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_FRIEND_OFFLINE	<color=#{0}>{1}</color> has gone offline.	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_FRIEND_REQUEST	<color=#{0}>{1}</color> has sent you a friend invite.	0=name color,1=player name
 GLOBAL_OPTIONS_SOUND_LABEL	Sound
 GLOBAL_OPTIONS_SOUND_MASTER_VOLUME_LABEL	Master Volume
 GLOBAL_OPTIONS_SOUND_MUSIC_VOLUME_LABEL	Music Volume
@@ -224,9 +232,24 @@ GLOBAL_OPTIONS_GRAPHICS_QUALITY_LOW	Low
 GLOBAL_OPTIONS_GRAPHICS_QUALITY_MEDIUM	Medium
 GLOBAL_OPTIONS_GRAPHICS_QUALITY_HIGH	High
 GLOBAL_OPTIONS_GRAPHICS_QUALITY_LABEL	Quality
+GLOBAL_REWARD_BOOSTER_HEADLINE	Expert Pack earned!	
 GLOBAL_REWARD_CARD_HEADLINE	Reward!	
 GLOBAL_REWARD_CARD_COUNT_MULTIPLIER	x	
 GLOBAL_REWARD_ARCANE_DUST_HEADLINE	Arcane Dust earned!	
 GLOBAL_REWARD_GOLD_HEADLINE	Gold earned!
+GLOBAL_REWARD_FORGE_UNLOCKED_HEADLINE	Arena Unlocked!
+GLOBAL_REWARD_FORGE_UNLOCKED_SOURCE	Awarded for entering the Arena	
+GLOBAL_BETA_REIMBURSEMENT_HEADLINE	Account Wipe Credit
+GLOBAL_BETA_REIMBURSEMENT_DETAILS	This gold is a credit for your past purchases. Thank you!
 GLOBAL_PRACTICE_MAX_LEVEL_REACHED	Max Practice Level	
 GLOBAL_SCREENSHOT_COMPLETE	Screenshot saved to desktop	
+GLOBAL_QUEST_PROGRESS_COUNT	{0}/{1}	0=progress,1=max progress
+GLOBAL_HERO_LEVEL_NEXT_REWARD_TITLE	Next reward at level {0}	0=level
+GLOBAL_HERO_LEVEL_REWARD_GOLDEN_CARD	{0} {1}	0=flair 1=card name
+GLOBAL_HERO_LEVEL_REWARD_BOOSTER	{0} booster pack	0=booster type
+GLOBAL_HERO_LEVEL_REWARD_ARCANE_DUST	{0} arcane dust	0=amount
+GLOBAL_HERO_LEVEL_REWARD_GOLD	{0} gold	0=amount
+GLOBAL_COLLECTION_GOLDEN	Golden	
+GLOBAL_SPLASH_CLOSED_SIGN_TITLE	Closed	
+GLOBAL_ERROR_INACTIVITY_KICK	It's been a while since your last Hearthstone action and your connection was shut down. Relaunch the game when you're ready!	
+GLOBAL_ERROR_UNKNOWN_ERROR	Oops! Playful sprites have disrupted Hearthstone as it was linking up to the Battle.net service. Please wait a few minutes for them to disperse and try re-launching the game.	

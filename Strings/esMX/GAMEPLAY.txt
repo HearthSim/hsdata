@@ -1,76 +1,111 @@
-TAG	TEXT	COMMENT
-GAMEPLAY_COIN_TOSS_LOST	You get an extra card	
-GAMEPLAY_COIN_TOSS_WON	You go first	
-GAMEPLAY_FATIGUE_TEXT	You take {0} damage.	
-GAMEPLAY_END_TURN	END TURN	
-GAMEPLAY_ENEMY_TURN	ENEMY TURN	
-GAMEPLAY_ERROR_PLAY_REJECTED	Too late! Your turn is over.	
+﻿TAG	TEXT	COMMENT
+GAMEPLAY_AI_OPPONENT_NAME	IA	
+GAMEPLAY_BANNER_STARTING_HAND	Mano inicial	
+GAMEPLAY_BANNER_SUBTITLE	Conserva o reemplaza tus cartas	
+GAMEPLAY_BANNER_WAITING	Tu adversario está eligiendo...	
+GAMEPLAY_COIN_TOSS_LOST	Obtienes una carta adicional	
+GAMEPLAY_COIN_TOSS_WON	Empiezas tú	
+GAMEPLAY_EMOTE_LABEL_GREETINGS	Hola	
+GAMEPLAY_EMOTE_LABEL_OOPS	Ups	
+GAMEPLAY_EMOTE_LABEL_SORRY	Disculpa	
+GAMEPLAY_EMOTE_LABEL_THANKS	Gracias	
+GAMEPLAY_EMOTE_LABEL_THREATEN	Amenaza	
+GAMEPLAY_EMOTE_LABEL_WELL_PLAYED	Buena jugada	
+GAMEPLAY_EMOTE_SQUELCH	Suprimir	
+GAMEPLAY_EMOTE_UNSQUELCH	Activar	
+GAMEPLAY_END_OF_GAME_DEFEAT	¡Has perdido!	
+GAMEPLAY_END_OF_GAME_VICTORY	¡Has ganado!	
+GAMEPLAY_END_TURN	FIN DE TURNO	
+GAMEPLAY_ENEMY_TURN	TURNO ENEMIGO	
+GAMEPLAY_ERROR_PLAY_REJECTED	¡Demasiado tarde! Tu turno ya terminó.	
+GAMEPLAY_FATIGUE_HISTORY_TEXT	Si intentas robar una carta de un mazo vacío, le provocarás más daño a tu héroe.	
+GAMEPLAY_FATIGUE_TEXT	¡Te has quedado sin cartas! Recibes {0} de daño.	
 GAMEPLAY_MANA_COUNTER	{0}/{1}	0=unused mana 1=current total mana
-GAMEPLAY_PlayErrors_REQ_ATTACK_GREATER_THAN_0	A character with no Attack Value cannot attack	
-GAMEPLAY_PlayErrors_REQ_ATTACKER_CAN_ATTACK	That character can't attack	
-GAMEPLAY_PlayErrors_REQ_ATTACKER_NOT_FROZEN	Frozen characters can't attack	
-GAMEPLAY_PlayErrors_REQ_CAN_BE_ATTACKED	Character cannot be attacked	
-GAMEPLAY_PlayErrors_REQ_CAN_BE_TARGETED_BY_HERO_POWERS	Cannot be targeted with Hero Powers	
-GAMEPLAY_PlayErrors_REQ_CAN_BE_TARGETED_BY_OPPONENTS	Character cannot be targeted	
-GAMEPLAY_PlayErrors_REQ_CAN_BE_TARGETED_BY_SPELLS	Cannot be targeted with Spells	
-GAMEPLAY_PlayErrors_REQ_CHARGE_TARGET	Select a character with Charge	
-GAMEPLAY_PlayErrors_REQ_DAMAGED_TARGET	Select a damaged character	
-GAMEPLAY_PlayErrors_REQ_ENCHANTED_TARGET	Select an Enchanted character	
-GAMEPLAY_PlayErrors_REQ_ENEMY_TARGET	Select an enemy	
-GAMEPLAY_PlayErrors_REQ_ENOUGH_MANA	Not enough Mana	
-GAMEPLAY_PlayErrors_REQ_FRIENDLY_TARGET	Select a friendly character	
-GAMEPLAY_PlayErrors_REQ_FROZEN_TARGET	Select a Frozen character	
-GAMEPLAY_PlayErrors_REQ_HERO_OR_MINION_TARGET	You must target a character	
-GAMEPLAY_PlayErrors_REQ_HERO_TARGET	You must target a Hero	
-GAMEPLAY_PlayErrors_REQ_MINIMUM_ENEMY_MINIONS	The enemy must have at least {0} minions	
-GAMEPLAY_PlayErrors_REQ_MINION_CAP	You cannot have any more minions	
-GAMEPLAY_PlayErrors_REQ_MINION_TARGET	Select a minion	
-GAMEPLAY_PlayErrors_REQ_NONSELF_TARGET	Minion cannot target itself	
-GAMEPLAY_PlayErrors_REQ_NONSTEALTH_ENEMY_TARGET	Stealthed characters can't be targeted or attacked	
-GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_ACTIVATE	That character already attacked	
-GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_HERO_POWER	Hero Powers can only be used once a turn	
-GAMEPLAY_PlayErrors_REQ_NOT_MINION_JUST_PLAYED	Minions cannot attack the turn they are played	
-GAMEPLAY_PlayErrors_REQ_NUM_MINION_SLOTS	You cannot have any more minions	
-GAMEPLAY_PlayErrors_REQ_SECRET_CAP	You can only have {0} Secrets	
-GAMEPLAY_PlayErrors_REQ_SUBCARD_IS_PLAYABLE	Neither of these options are valid	
-GAMEPLAY_PlayErrors_REQ_TARGET_ATTACKED_THIS_TURN	You must target a character who already attacked	
-GAMEPLAY_PlayErrors_REQ_TARGET_FOR_COMBO	You cannot play that without a target	
-GAMEPLAY_PlayErrors_REQ_TARGET_FOR_NO_COMBO	You cannot play that without a target	
-GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE	You cannot play that without a target	
-GAMEPLAY_PlayErrors_REQ_TARGET_MAGNET	There is a minion that you must target	
-GAMEPLAY_PlayErrors_REQ_TARGET_MAX_ATTACK	Select a character with an Attack of {0} or less	
-GAMEPLAY_PlayErrors_REQ_TARGET_MIN_ATTACK	Select a character with an Attack of {0} or more	
-GAMEPLAY_PlayErrors_REQ_TARGET_TAUNTER	You must attack a minion with Taunt	
-GAMEPLAY_PlayErrors_REQ_TARGET_TO_PLAY	You cannot play that without a target	
-GAMEPLAY_PlayErrors_REQ_TARGET_WITH_RACE	Select a {0}	
-GAMEPLAY_PlayErrors_REQ_UNIQUE_SECRET	You already have that Secret	
-GAMEPLAY_PlayErrors_REQ_MINION_CAP_IF_TARGET_AVAILABLE	You cannot have any more minions	
-GAMEPLAY_PlayErrors_REQ_WEAPON_EQUIPPED	You have to have a weapon	
-GAMEPLAY_PlayErrors_REQ_ENEMY_TARGET_NOT_IMMUNE	That character is immune	
-GAMEPLAY_PlayErrors_REQ_ENTIRE_ENTOURAGE_NOT_IN_PLAY	You already have one of each totem	
-GAMEPLAY_PlayErrors_REQ_MINIMUM_TOTAL_MINIONS	There must be at least {0} minions on the battlefield	
-GAMEPLAY_TOOLTIP_DECK_DESCRIPTION	You have {0} cards in your deck.	
-GAMEPLAY_TOOLTIP_DECK_HEADLINE	Deck	
-GAMEPLAY_TOOLTIP_FATIGUE_DECK_DESCRIPTION	You are out of cards! You'll take damage every time you try and draw cards from now on.	
-GAMEPLAY_TOOLTIP_FATIGUE_DECK_HEADLINE	Fatigued	
-GAMEPLAY_TOOLTIP_ENEMYDECK_DESC	Your opponent has {0} cards in his deck.	
-GAMEPLAY_TOOLTIP_ENEMYDECK_HEADLINE	Enemy Deck	
-GAMEPLAY_TOOLTIP_FATIGUE_ENEMYDECK_DESCRIPTION	Your opponent is out of cards! He will take damage every time he tries to draw cards from now on.	
-GAMEPLAY_TOOLTIP_FATIGUE_ENEMYDECK_HEADLINE	Fatigued	
-GAMEPLAY_TOOLTIP_MANA_DESCRIPTION	When your turn starts, you'll gain a new crystal and fill empty ones.	
-GAMEPLAY_TOOLTIP_MANA_HEADLINE	Mana Crystals	
-GAMEPLAY_TOOLTIP_MANA_RECALL_DESCRIPTION	Some of your crystals may not be available because you played a card with Recall.	
-GAMEPLAY_TOOLTIP_MANA_RECALL_HEADLINE	Locked Mana Crystals	
-GAMEPLAY_TOOLTIP_ENEMYHAND_DESC	Your enemy's cards. He draws one each turn.	
-GAMEPLAY_TOOLTIP_ENEMYHAND_HEADLINE	Enemy Hand	
-GAMEPLAY_EMOTE_LABEL_GREETINGS	Greetings	
-GAMEPLAY_EMOTE_LABEL_WELL_PLAYED	Well Played	
-GAMEPLAY_EMOTE_LABEL_THANKS	Thanks	
-GAMEPLAY_EMOTE_LABEL_OOPS	Oops	
-GAMEPLAY_EMOTE_LABEL_THREATEN	Threaten	
-GAMEPLAY_EMOTE_LABEL_SORRY	Sorry	
-GAMEPLAY_REWARD_HERO_UNLOCKED	{0} Unlocked	
-GAMEPLAY_REWARD_CARD_EARNED	Card Earned!	
-GAMEPLAY_REWARD_BOOSTER_EARNED	Booster earned!	
-GAMEPLAY_END_OF_GAME_VICTORY	Victory!	
-GAMEPLAY_END_OF_GAME_DEFEAT	Defeat!	
+GAMEPLAY_NOTIFICATION_MAX_HAND_SIZE	Solo puedes tener {0} cartas en tu mano	
+GAMEPLAY_NOTIFICATION_MAX_MANA	Solo puedes tener {0} cristales de maná	
+GAMEPLAY_PlayErrors_REQ_ATTACK_GREATER_THAN_0	Un personaje sin valor de ataque no puede atacar	
+GAMEPLAY_PlayErrors_REQ_ATTACKER_CAN_ATTACK	Ese personaje no puede atacar	
+GAMEPLAY_PlayErrors_REQ_ATTACKER_NOT_FROZEN	Los personajes congelados no pueden atacar	
+GAMEPLAY_PlayErrors_REQ_CAN_BE_ATTACKED	El personaje no puede ser atacado	
+GAMEPLAY_PlayErrors_REQ_CAN_BE_TARGETED_BY_HERO_POWERS	No puede ser objetivo de Poderes de héroe	
+GAMEPLAY_PlayErrors_REQ_CAN_BE_TARGETED_BY_OPPONENTS	El personaje no puede ser objetivo	
+GAMEPLAY_PlayErrors_REQ_CAN_BE_TARGETED_BY_SPELLS	No puede ser objetivo de Hechizos	
+GAMEPLAY_PlayErrors_REQ_CHARGE_TARGET	Selecciona un personaje con Carga	
+GAMEPLAY_PlayErrors_REQ_DAMAGED_TARGET	Selecciona un personaje dañado	
+GAMEPLAY_PlayErrors_REQ_ENCHANTED_TARGET	Selecciona un personaje Encantado	
+GAMEPLAY_PlayErrors_REQ_ENEMY_TARGET	Selecciona un enemigo	
+GAMEPLAY_PlayErrors_REQ_ENEMY_TARGET_NOT_IMMUNE	Ese personaje es inmune	
+GAMEPLAY_PlayErrors_REQ_ENOUGH_MANA	No tienes suficiente maná	
+GAMEPLAY_PlayErrors_REQ_ENTIRE_ENTOURAGE_NOT_IN_PLAY	Ya tienes un tótem de cada clase	
+GAMEPLAY_PlayErrors_REQ_FRIENDLY_TARGET	Selecciona un personaje aliado	
+GAMEPLAY_PlayErrors_REQ_FROZEN_TARGET	Selecciona un personaje Congelado	
+GAMEPLAY_PlayErrors_REQ_HERO_OR_MINION_TARGET	Debes hacer objetivo en un esbirro	
+GAMEPLAY_PlayErrors_REQ_HERO_TARGET	Debes hacer objetivo en un héroe	
+GAMEPLAY_PlayErrors_REQ_MINIMUM_ENEMY_MINIONS	El enemigo debe tener al menos {0} esbirros	
+GAMEPLAY_PlayErrors_REQ_MINIMUM_TOTAL_MINIONS	Debe haber al menos {0} esbirros en el campo de batalla	
+GAMEPLAY_PlayErrors_REQ_MINION_CAP	No puedes tener más esbirros	
+GAMEPLAY_PlayErrors_REQ_MINION_CAP_IF_TARGET_AVAILABLE	No puedes tener más esbirros	
+GAMEPLAY_PlayErrors_REQ_MINION_TARGET	Selecciona un esbirro	
+GAMEPLAY_PlayErrors_REQ_MUST_TARGET_TAUNTER	Debes hacer objetivo en un esbirro con Provocación	
+GAMEPLAY_PlayErrors_REQ_NONSELF_TARGET	El esbirro no puede hacer objetivo sobre sí mismo	
+GAMEPLAY_PlayErrors_REQ_NONSTEALTH_ENEMY_TARGET	No se puede hacer objetivo o atacar a personajes en Sigilo	
+GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_ACTIVATE	Ese personaje ya atacó	
+GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_HERO_POWER	Los Poderes de héroe solo pueden usarse una vez por turno	
+GAMEPLAY_PlayErrors_REQ_NOT_MINION_JUST_PLAYED	Los esbirros no pueden atacar durante el turno en que se juegan	
+GAMEPLAY_PlayErrors_REQ_NUM_MINION_SLOTS	No puedes tener más esbirros	
+GAMEPLAY_PlayErrors_REQ_SECRET_CAP	Solo puedes tener {0} Secretos	
+GAMEPLAY_PlayErrors_REQ_SUBCARD_IS_PLAYABLE	Ninguna de estas opciones es válida	
+GAMEPLAY_PlayErrors_REQ_TARGET_ATTACKED_THIS_TURN	Debes hacer objetivo en un personaje que ya haya atacado	
+GAMEPLAY_PlayErrors_REQ_TARGET_FOR_COMBO	No puedes hacer esa jugada sin un objetivo	
+GAMEPLAY_PlayErrors_REQ_TARGET_FOR_NO_COMBO	No puedes hacer esa jugada sin un objetivo	
+GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE	No puedes hacer esa jugada sin un objetivo	
+GAMEPLAY_PlayErrors_REQ_TARGET_MAGNET	Hay un esbirro al que debes hacer objetivo	
+GAMEPLAY_PlayErrors_REQ_TARGET_MAX_ATTACK	Selecciona un personaje con {0} de Ataque o menos	
+GAMEPLAY_PlayErrors_REQ_TARGET_MIN_ATTACK	Selecciona un personaje con {0} de Ataque o más	
+GAMEPLAY_PlayErrors_REQ_TARGET_TAUNTER	Debes atacar a un esbirro con Provocación	
+GAMEPLAY_PlayErrors_REQ_TARGET_TO_PLAY	No puedes hacer esa jugada sin un objetivo	
+GAMEPLAY_PlayErrors_REQ_TARGET_WITH_RACE	Esa no es la raza correcta	
+GAMEPLAY_PlayErrors_REQ_UNIQUE_SECRET	Ya tienes ese Secreto	
+GAMEPLAY_PlayErrors_REQ_WEAPON_EQUIPPED	Debes tener un arma	
+GAMEPLAY_REWARD_BOOSTER_DETAILS	{0}/{1} victorias	0=# wins, 1=# total wins to earn reward
+GAMEPLAY_REWARD_BOOSTER_SOURCE_FORGE	Obtenido después de ganar {0} partidas en la Arena	
+GAMEPLAY_REWARD_CARD_DETAILS_TUTORIAL01	¡Increíble!	
+GAMEPLAY_REWARD_CARD_DETAILS_TUTORIAL02	Es impresionante.	
+GAMEPLAY_REWARD_CARD_DETAILS_TUTORIAL03	¡Estás de suerte!	
+GAMEPLAY_REWARD_CARD_DETAILS_TUTORIAL04	¡Alucinante!	
+GAMEPLAY_REWARD_CARD_DETAILS_TUTORIAL05	¡Magnífico!	
+GAMEPLAY_REWARD_CARD_DETAILS_TUTORIAL06	¡Im-pre-sio-nan-te!	
+GAMEPLAY_REWARD_CARD_LEVEL_UP	Desbloqueada al alcanzar el nivel {0} de {1}	0=# level, 1=class
+GAMEPLAY_REWARD_CORE_CARD_DETAILS	Cartas de {2} desbloqueadas: {0}/{1}	0=# cards unlocked, 1=# cards possible to unlock, 2=class
+GAMEPLAY_REWARD_GOLD_SOURCE_TOURNEY	Obtenida después de ganar {0} partidas en el modo Jugar	
+GAMEPLAY_REWARD_GOLDEN_HERO_HEADLINE	Desbloqueaste un héroe dorado: {0}	
+GAMEPLAY_REWARD_HERO_DETAILS	Héroes desbloqueados: {0}/{1}	
+GAMEPLAY_REWARD_HERO_HEADLINE	{0} desbloqueado	
+GAMEPLAY_REWARD_HERO_SOURCE	Desbloqueado por derrotar al {0} en el modo Práctica	0=class
+GAMEPLAY_SECRET_DESC	Permanece oculto hasta que se produce una acción específica... ¡Ten cuidado!	
+GAMEPLAY_SECRET_NAME	Secreto	
+GAMEPLAY_TOOLTIP_DECK_DESCRIPTION	Tienes {0} cartas en tu mazo.	
+GAMEPLAY_TOOLTIP_DECK_HEADLINE	Mazo	
+GAMEPLAY_TOOLTIP_ENEMYDECK_DESC	Hay {0} cartas en el mazo de tu adversario.	
+GAMEPLAY_TOOLTIP_ENEMYDECK_HEADLINE	Mazo enemigo	
+GAMEPLAY_TOOLTIP_ENEMYHAND_DESC	Tu adversario tiene {0} cartas en la mano.	0= number of cards in hand.
+GAMEPLAY_TOOLTIP_ENEMYHAND_DESC_SINGLE	Tu adversario tiene {0} carta en la mano.	0= number of cards in hand.
+GAMEPLAY_TOOLTIP_ENEMYHAND_DESC_TUT	Mano de cartas de tu adversario. Cada jugador roba una carta por turno.	
+GAMEPLAY_TOOLTIP_ENEMYHAND_HEADLINE	Mano enemiga	
+GAMEPLAY_TOOLTIP_FATIGUE_DECK_DESCRIPTION	¡No tienes más cartas! De aquí en adelante, cada vez que intentes robar cartas, recibirás daño.	
+GAMEPLAY_TOOLTIP_FATIGUE_DECK_HEADLINE	Fatigado	
+GAMEPLAY_TOOLTIP_FATIGUE_ENEMYDECK_DESCRIPTION	¡Tu adversario no tiene más cartas! De aquí en adelante, cada vez que intente robar cartas, recibirá daño.	
+GAMEPLAY_TOOLTIP_FATIGUE_ENEMYDECK_HEADLINE	Fatigado	
+GAMEPLAY_TOOLTIP_MANA_DESCRIPTION	Cuando empiece tu turno, recibirás un nuevo cristal y cargarás los que están vacíos.	
+GAMEPLAY_TOOLTIP_MANA_HEADLINE	Cristales de maná	
+GAMEPLAY_TOOLTIP_MANA_RECALL_DESCRIPTION	El turno anterior jugaste una carta con Sobrecarga.	
+GAMEPLAY_TOOLTIP_MANA_RECALL_HEADLINE	Cristales de maná bloqueados	
+GAMEPLAY_TUTORIAL01_HERO	Hogger	
+GAMEPLAY_TUTORIAL02_HERO	Molino Tormenta de maná	
+GAMEPLAY_TUTORIAL03_HERO	Rey Mukla	
+GAMEPLAY_TUTORIAL04_HERO	Hemet Nesingwary	
+GAMEPLAY_TUTORIAL05_HERO	Illidan Tempestira	
+GAMEPLAY_TUTORIAL06_HERO	Eremita Cho	
+GAMEPLAY_UNKNOWN_OPPONENT_NAME	DESCONOCIDO	
+GAMEPLAY_WIN_REWARD_PROGRESS	Victorias: {0}/{1}	
+GAMEPLAY_YOUR_TURN	Tu turno	
