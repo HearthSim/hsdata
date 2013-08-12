@@ -1,76 +1,111 @@
-TAG	TEXT	COMMENT
-GAMEPLAY_COIN_TOSS_LOST	You get an extra card	
-GAMEPLAY_COIN_TOSS_WON	You go first	
-GAMEPLAY_FATIGUE_TEXT	You take {0} damage.	
-GAMEPLAY_END_TURN	END TURN	
-GAMEPLAY_ENEMY_TURN	ENEMY TURN	
-GAMEPLAY_ERROR_PLAY_REJECTED	Too late! Your turn is over.	
+﻿TAG	TEXT	COMMENT
+GAMEPLAY_AI_OPPONENT_NAME	AI	
+GAMEPLAY_BANNER_STARTING_HAND	시작 카드	
+GAMEPLAY_BANNER_SUBTITLE	교체할 카드 선택	
+GAMEPLAY_BANNER_WAITING	상대방이 아직 선택 중...	
+GAMEPLAY_COIN_TOSS_LOST	추가 카드 획득	
+GAMEPLAY_COIN_TOSS_WON	선제 공격	
+GAMEPLAY_EMOTE_LABEL_GREETINGS	인사	
+GAMEPLAY_EMOTE_LABEL_OOPS	아차!	
+GAMEPLAY_EMOTE_LABEL_SORRY	사과	
+GAMEPLAY_EMOTE_LABEL_THANKS	감사	
+GAMEPLAY_EMOTE_LABEL_THREATEN	위협	
+GAMEPLAY_EMOTE_LABEL_WELL_PLAYED	칭찬	
+GAMEPLAY_EMOTE_SQUELCH	차단	
+GAMEPLAY_EMOTE_UNSQUELCH	차단 풀기	
+GAMEPLAY_END_OF_GAME_DEFEAT	패배!	
+GAMEPLAY_END_OF_GAME_VICTORY	승리!	
+GAMEPLAY_END_TURN	턴 종료	
+GAMEPLAY_ENEMY_TURN	상대 턴	
+GAMEPLAY_ERROR_PLAY_REJECTED	너무 늦었습니다! 턴이 종료됩니다.	
+GAMEPLAY_FATIGUE_HISTORY_TEXT	덱에 카드가 떨어지면, 카드를 뽑아야 할 때마다 점차 큰 피해를 입습니다.	
+GAMEPLAY_FATIGUE_TEXT	카드가 없습니다! {0}의 피해를 입습니다.	
 GAMEPLAY_MANA_COUNTER	{0}/{1}	0=unused mana 1=current total mana
-GAMEPLAY_PlayErrors_REQ_ATTACK_GREATER_THAN_0	A character with no Attack Value cannot attack	
-GAMEPLAY_PlayErrors_REQ_ATTACKER_CAN_ATTACK	That character can't attack	
-GAMEPLAY_PlayErrors_REQ_ATTACKER_NOT_FROZEN	Frozen characters can't attack	
-GAMEPLAY_PlayErrors_REQ_CAN_BE_ATTACKED	Character cannot be attacked	
-GAMEPLAY_PlayErrors_REQ_CAN_BE_TARGETED_BY_HERO_POWERS	Cannot be targeted with Hero Powers	
-GAMEPLAY_PlayErrors_REQ_CAN_BE_TARGETED_BY_OPPONENTS	Character cannot be targeted	
-GAMEPLAY_PlayErrors_REQ_CAN_BE_TARGETED_BY_SPELLS	Cannot be targeted with Spells	
-GAMEPLAY_PlayErrors_REQ_CHARGE_TARGET	Select a character with Charge	
-GAMEPLAY_PlayErrors_REQ_DAMAGED_TARGET	Select a damaged character	
-GAMEPLAY_PlayErrors_REQ_ENCHANTED_TARGET	Select an Enchanted character	
-GAMEPLAY_PlayErrors_REQ_ENEMY_TARGET	Select an enemy	
-GAMEPLAY_PlayErrors_REQ_ENOUGH_MANA	Not enough Mana	
-GAMEPLAY_PlayErrors_REQ_FRIENDLY_TARGET	Select a friendly character	
-GAMEPLAY_PlayErrors_REQ_FROZEN_TARGET	Select a Frozen character	
-GAMEPLAY_PlayErrors_REQ_HERO_OR_MINION_TARGET	You must target a character	
-GAMEPLAY_PlayErrors_REQ_HERO_TARGET	You must target a Hero	
-GAMEPLAY_PlayErrors_REQ_MINIMUM_ENEMY_MINIONS	The enemy must have at least {0} minions	
-GAMEPLAY_PlayErrors_REQ_MINION_CAP	You cannot have any more minions	
-GAMEPLAY_PlayErrors_REQ_MINION_TARGET	Select a minion	
-GAMEPLAY_PlayErrors_REQ_NONSELF_TARGET	Minion cannot target itself	
-GAMEPLAY_PlayErrors_REQ_NONSTEALTH_ENEMY_TARGET	Stealthed characters can't be targeted or attacked	
-GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_ACTIVATE	That character already attacked	
-GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_HERO_POWER	Hero Powers can only be used once a turn	
-GAMEPLAY_PlayErrors_REQ_NOT_MINION_JUST_PLAYED	Minions cannot attack the turn they are played	
-GAMEPLAY_PlayErrors_REQ_NUM_MINION_SLOTS	You cannot have any more minions	
-GAMEPLAY_PlayErrors_REQ_SECRET_CAP	You can only have {0} Secrets	
-GAMEPLAY_PlayErrors_REQ_SUBCARD_IS_PLAYABLE	Neither of these options are valid	
-GAMEPLAY_PlayErrors_REQ_TARGET_ATTACKED_THIS_TURN	You must target a character who already attacked	
-GAMEPLAY_PlayErrors_REQ_TARGET_FOR_COMBO	You cannot play that without a target	
-GAMEPLAY_PlayErrors_REQ_TARGET_FOR_NO_COMBO	You cannot play that without a target	
-GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE	You cannot play that without a target	
-GAMEPLAY_PlayErrors_REQ_TARGET_MAGNET	There is a minion that you must target	
-GAMEPLAY_PlayErrors_REQ_TARGET_MAX_ATTACK	Select a character with an Attack of {0} or less	
-GAMEPLAY_PlayErrors_REQ_TARGET_MIN_ATTACK	Select a character with an Attack of {0} or more	
-GAMEPLAY_PlayErrors_REQ_TARGET_TAUNTER	You must attack a minion with Taunt	
-GAMEPLAY_PlayErrors_REQ_TARGET_TO_PLAY	You cannot play that without a target	
-GAMEPLAY_PlayErrors_REQ_TARGET_WITH_RACE	Select a {0}	
-GAMEPLAY_PlayErrors_REQ_UNIQUE_SECRET	You already have that Secret	
-GAMEPLAY_PlayErrors_REQ_MINION_CAP_IF_TARGET_AVAILABLE	You cannot have any more minions	
-GAMEPLAY_PlayErrors_REQ_WEAPON_EQUIPPED	You have to have a weapon	
-GAMEPLAY_PlayErrors_REQ_ENEMY_TARGET_NOT_IMMUNE	That character is immune	
-GAMEPLAY_PlayErrors_REQ_ENTIRE_ENTOURAGE_NOT_IN_PLAY	You already have one of each totem	
-GAMEPLAY_PlayErrors_REQ_MINIMUM_TOTAL_MINIONS	There must be at least {0} minions on the battlefield	
-GAMEPLAY_TOOLTIP_DECK_DESCRIPTION	You have {0} cards in your deck.	
-GAMEPLAY_TOOLTIP_DECK_HEADLINE	Deck	
-GAMEPLAY_TOOLTIP_FATIGUE_DECK_DESCRIPTION	You are out of cards! You'll take damage every time you try and draw cards from now on.	
-GAMEPLAY_TOOLTIP_FATIGUE_DECK_HEADLINE	Fatigued	
-GAMEPLAY_TOOLTIP_ENEMYDECK_DESC	Your opponent has {0} cards in his deck.	
-GAMEPLAY_TOOLTIP_ENEMYDECK_HEADLINE	Enemy Deck	
-GAMEPLAY_TOOLTIP_FATIGUE_ENEMYDECK_DESCRIPTION	Your opponent is out of cards! He will take damage every time he tries to draw cards from now on.	
-GAMEPLAY_TOOLTIP_FATIGUE_ENEMYDECK_HEADLINE	Fatigued	
-GAMEPLAY_TOOLTIP_MANA_DESCRIPTION	When your turn starts, you'll gain a new crystal and fill empty ones.	
-GAMEPLAY_TOOLTIP_MANA_HEADLINE	Mana Crystals	
-GAMEPLAY_TOOLTIP_MANA_RECALL_DESCRIPTION	Some of your crystals may not be available because you played a card with Recall.	
-GAMEPLAY_TOOLTIP_MANA_RECALL_HEADLINE	Locked Mana Crystals	
-GAMEPLAY_TOOLTIP_ENEMYHAND_DESC	Your enemy's cards. He draws one each turn.	
-GAMEPLAY_TOOLTIP_ENEMYHAND_HEADLINE	Enemy Hand	
-GAMEPLAY_EMOTE_LABEL_GREETINGS	Greetings	
-GAMEPLAY_EMOTE_LABEL_WELL_PLAYED	Well Played	
-GAMEPLAY_EMOTE_LABEL_THANKS	Thanks	
-GAMEPLAY_EMOTE_LABEL_OOPS	Oops	
-GAMEPLAY_EMOTE_LABEL_THREATEN	Threaten	
-GAMEPLAY_EMOTE_LABEL_SORRY	Sorry	
-GAMEPLAY_REWARD_HERO_UNLOCKED	{0} Unlocked	
-GAMEPLAY_REWARD_CARD_EARNED	Card Earned!	
-GAMEPLAY_REWARD_BOOSTER_EARNED	Booster earned!	
-GAMEPLAY_END_OF_GAME_VICTORY	Victory!	
-GAMEPLAY_END_OF_GAME_DEFEAT	Defeat!	
+GAMEPLAY_NOTIFICATION_MAX_HAND_SIZE	손에는 최대 {0}장의 카드를 보유할 수 있습니다.	
+GAMEPLAY_NOTIFICATION_MAX_MANA	최대 {0}개의 마나 수정을 보유할 수 있습니다.	
+GAMEPLAY_PlayErrors_REQ_ATTACK_GREATER_THAN_0	공격력이 0인 캐릭터는 공격할 수 없습니다.	
+GAMEPLAY_PlayErrors_REQ_ATTACKER_CAN_ATTACK	그 캐릭터는 공격할 수 없습니다.	
+GAMEPLAY_PlayErrors_REQ_ATTACKER_NOT_FROZEN	얼어붙은 캐릭터는 공격할 수 없습니다.	
+GAMEPLAY_PlayErrors_REQ_CAN_BE_ATTACKED	공격할 수 있는 캐릭터가 아닙니다.	
+GAMEPLAY_PlayErrors_REQ_CAN_BE_TARGETED_BY_HERO_POWERS	영웅 능력의 대상이 될 수 없습니다.	
+GAMEPLAY_PlayErrors_REQ_CAN_BE_TARGETED_BY_OPPONENTS	그 캐릭터는 대상으로 삼을 수 없습니다.	
+GAMEPLAY_PlayErrors_REQ_CAN_BE_TARGETED_BY_SPELLS	주문의 대상이 될 수 없습니다.	
+GAMEPLAY_PlayErrors_REQ_CHARGE_TARGET	돌진 능력이 있는 캐릭터를 선택해야 합니다.	
+GAMEPLAY_PlayErrors_REQ_DAMAGED_TARGET	피해를 입은 캐릭터를 선택해야 합니다.	
+GAMEPLAY_PlayErrors_REQ_ENCHANTED_TARGET	강화된 캐릭터를 선택해야 합니다.	
+GAMEPLAY_PlayErrors_REQ_ENEMY_TARGET	적을 선택해야 합니다.	
+GAMEPLAY_PlayErrors_REQ_ENEMY_TARGET_NOT_IMMUNE	그 캐릭터는 피해 면역입니다.	
+GAMEPLAY_PlayErrors_REQ_ENOUGH_MANA	마나가 부족합니다.	
+GAMEPLAY_PlayErrors_REQ_ENTIRE_ENTOURAGE_NOT_IN_PLAY	이미 종류별로 토템을 사용 중입니다.	
+GAMEPLAY_PlayErrors_REQ_FRIENDLY_TARGET	아군 캐릭터를 선택해야 합니다.	
+GAMEPLAY_PlayErrors_REQ_FROZEN_TARGET	얼어붙은 캐릭터를 선택해야 합니다.	
+GAMEPLAY_PlayErrors_REQ_HERO_OR_MINION_TARGET	캐릭터를 선택해야 합니다.	
+GAMEPLAY_PlayErrors_REQ_HERO_TARGET	영웅을 선택해야 합니다.	
+GAMEPLAY_PlayErrors_REQ_MINIMUM_ENEMY_MINIONS	적에게 최소한 {0}명의 하수인이 있어야 합니다.	
+GAMEPLAY_PlayErrors_REQ_MINIMUM_TOTAL_MINIONS	전장에 최소한 {0}명의 하수인이 있어야 합니다.	
+GAMEPLAY_PlayErrors_REQ_MINION_CAP	하수인을 더 불러낼 수 없습니다.	
+GAMEPLAY_PlayErrors_REQ_MINION_CAP_IF_TARGET_AVAILABLE	하수인을 더 불러낼 수 없습니다.	
+GAMEPLAY_PlayErrors_REQ_MINION_TARGET	하수인을 선택해야 합니다.	
+GAMEPLAY_PlayErrors_REQ_MUST_TARGET_TAUNTER	도발 능력이 있는 하수인을 선택해야 합니다.	
+GAMEPLAY_PlayErrors_REQ_NONSELF_TARGET	자기 자신을 선택할 수 없습니다.	
+GAMEPLAY_PlayErrors_REQ_NONSTEALTH_ENEMY_TARGET	은신한 캐릭터는 대상으로 삼거나 공격할 수 없습니다.	
+GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_ACTIVATE	그 캐릭터는 이미 공격을 마쳤습니다.	
+GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_HERO_POWER	영웅 능력은 한 턴에 한 번 사용할 수 있습니다.	
+GAMEPLAY_PlayErrors_REQ_NOT_MINION_JUST_PLAYED	이번 턴에 낸 하수인은 곧바로 공격할 수 없습니다.	
+GAMEPLAY_PlayErrors_REQ_NUM_MINION_SLOTS	하수인을 더 불러낼 수 없습니다.	
+GAMEPLAY_PlayErrors_REQ_SECRET_CAP	비밀은 오직 {0}장만 가질 수 있습니다.	
+GAMEPLAY_PlayErrors_REQ_SUBCARD_IS_PLAYABLE	둘 다 불가능합니다.	
+GAMEPLAY_PlayErrors_REQ_TARGET_ATTACKED_THIS_TURN	이미 공격한 캐릭터를 선택해야 합니다.	
+GAMEPLAY_PlayErrors_REQ_TARGET_FOR_COMBO	대상이 없으면 그 카드를 낼 수 없습니다.	
+GAMEPLAY_PlayErrors_REQ_TARGET_FOR_NO_COMBO	대상이 없으면 그 카드를 낼 수 없습니다.	
+GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE	대상이 없으면 그 카드를 낼 수 없습니다.	
+GAMEPLAY_PlayErrors_REQ_TARGET_MAGNET	대상으로 삼아야 하는 하수인이 존재합니다.	
+GAMEPLAY_PlayErrors_REQ_TARGET_MAX_ATTACK	공격력이 {0} 이하인 캐릭터를 선택해야 합니다.	
+GAMEPLAY_PlayErrors_REQ_TARGET_MIN_ATTACK	공격력이 {0} 이상인 캐릭터를 선택해야 합니다.	
+GAMEPLAY_PlayErrors_REQ_TARGET_TAUNTER	도발 능력이 있는 하수인을 먼저 공격해야 합니다.	
+GAMEPLAY_PlayErrors_REQ_TARGET_TO_PLAY	대상이 없으면 그 카드를 낼 수 없습니다.	
+GAMEPLAY_PlayErrors_REQ_TARGET_WITH_RACE	적절한 종족이 아닙니다.	
+GAMEPLAY_PlayErrors_REQ_UNIQUE_SECRET	이미 그 비밀을 가지고 있습니다.	
+GAMEPLAY_PlayErrors_REQ_WEAPON_EQUIPPED	무기가 필요합니다.	
+GAMEPLAY_REWARD_BOOSTER_DETAILS	{0}/{1} 승	0=# wins, 1=# total wins to earn reward
+GAMEPLAY_REWARD_BOOSTER_SOURCE_FORGE	투기장 {0}승 보상	
+GAMEPLAY_REWARD_CARD_DETAILS_TUTORIAL01	오, 예!	
+GAMEPLAY_REWARD_CARD_DETAILS_TUTORIAL02	상당히 놀랍군요.	
+GAMEPLAY_REWARD_CARD_DETAILS_TUTORIAL03	거침없군요!	
+GAMEPLAY_REWARD_CARD_DETAILS_TUTORIAL04	참으로 엄청납니다.	
+GAMEPLAY_REWARD_CARD_DETAILS_TUTORIAL05	엄청나네요!	
+GAMEPLAY_REWARD_CARD_DETAILS_TUTORIAL06	화끈하군요!	
+GAMEPLAY_REWARD_CARD_LEVEL_UP	{1} 영웅으로 {0} 레벨을 달성하여 잠금이 해제됨	0=# level, 1=class
+GAMEPLAY_REWARD_CORE_CARD_DETAILS	{0}/{1}장의 {2} 카드 잠금 해제	0=# cards unlocked, 1=# cards possible to unlock, 2=class
+GAMEPLAY_REWARD_GOLD_SOURCE_TOURNEY	대전 모드에서 {0}승을 달성한 보상	
+GAMEPLAY_REWARD_GOLDEN_HERO_HEADLINE	{0} 황금 카드 잠금 해제	
+GAMEPLAY_REWARD_HERO_DETAILS	영웅 {1}명 중 {0}명 잠금 해제	
+GAMEPLAY_REWARD_HERO_HEADLINE	{0} 잠금 해제	
+GAMEPLAY_REWARD_HERO_SOURCE	연습 모드에서 {0} 영웅을 상대로 승리하여 잠금 해제	0=class
+GAMEPLAY_SECRET_DESC	특정 조건이 발동되면 이 비밀이 드러납니다... 조심하세요!	
+GAMEPLAY_SECRET_NAME	비밀	
+GAMEPLAY_TOOLTIP_DECK_DESCRIPTION	당신의 덱에는 {0}장의 카드가 있습니다.	
+GAMEPLAY_TOOLTIP_DECK_HEADLINE	덱	
+GAMEPLAY_TOOLTIP_ENEMYDECK_DESC	상대의 덱에는 {0}장의 카드가 있습니다.	
+GAMEPLAY_TOOLTIP_ENEMYDECK_HEADLINE	상대방 덱	
+GAMEPLAY_TOOLTIP_ENEMYHAND_DESC	상대는 {0}장의 카드를 손에 가지고 있습니다.	0= number of cards in hand.
+GAMEPLAY_TOOLTIP_ENEMYHAND_DESC_SINGLE	상대는 {0}장의 카드를 손에 가지고 있습니다.	0= number of cards in hand.
+GAMEPLAY_TOOLTIP_ENEMYHAND_DESC_TUT	상대가 낼 수 있는 카드입니다. 턴마다 한 장씩 뽑습니다.	
+GAMEPLAY_TOOLTIP_ENEMYHAND_HEADLINE	상대방의 카드	
+GAMEPLAY_TOOLTIP_FATIGUE_DECK_DESCRIPTION	카드가 없습니다! 카드를 뽑아야 할 때마다 피해를 입습니다.	
+GAMEPLAY_TOOLTIP_FATIGUE_DECK_HEADLINE	탈진	
+GAMEPLAY_TOOLTIP_FATIGUE_ENEMYDECK_DESCRIPTION	상대방이 카드가 없습니다! 상대방은 카드를 뽑아야 할 때마다 피해를 입습니다.	
+GAMEPLAY_TOOLTIP_FATIGUE_ENEMYDECK_HEADLINE	탈진	
+GAMEPLAY_TOOLTIP_MANA_DESCRIPTION	당신의 턴이 시작되면 빈 마나 수정이 채워지고, 새 수정 한 개가 추가됩니다.	
+GAMEPLAY_TOOLTIP_MANA_HEADLINE	마나 수정	
+GAMEPLAY_TOOLTIP_MANA_RECALL_DESCRIPTION	지난 턴에 과부하 능력을 가진 카드를 사용했습니다.	
+GAMEPLAY_TOOLTIP_MANA_RECALL_HEADLINE	잠긴 마나 수정	
+GAMEPLAY_TUTORIAL01_HERO	들창코	
+GAMEPLAY_TUTORIAL02_HERO	밀하우스 마나스톰	
+GAMEPLAY_TUTORIAL03_HERO	밀림의 왕 무클라	
+GAMEPLAY_TUTORIAL04_HERO	헤멧 네싱워리	
+GAMEPLAY_TUTORIAL05_HERO	일리단 스톰레이지	
+GAMEPLAY_TUTORIAL06_HERO	전승지기 초	
+GAMEPLAY_UNKNOWN_OPPONENT_NAME	알 수 없음	
+GAMEPLAY_WIN_REWARD_PROGRESS	승 {0}/{1}	
+GAMEPLAY_YOUR_TURN	당신의 턴	
