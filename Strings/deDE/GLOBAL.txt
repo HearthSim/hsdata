@@ -40,6 +40,7 @@ GLOBAL_CLASS_ROGUE	Schurke
 GLOBAL_CLASS_SHAMAN	Schamane	
 GLOBAL_CLASS_WARLOCK	Hexenmeister	
 GLOBAL_CLASS_WARRIOR	Krieger	
+GLOBAL_CLICK_TO_CONTINUE	Klicken, um fortzufahren	
 GLOBAL_COLLECTION_GOLDEN	Golden	
 GLOBAL_CONCEDE	Aufgeben	
 GLOBAL_CONFIRM	Bestätigen	
@@ -64,7 +65,6 @@ GLOBAL_ERROR_ASSET_INCORRECT_DATA	Asset {0} beinhaltet fehlerhafte Daten.	0=asse
 GLOBAL_ERROR_ASSET_LOAD_FAILED	Asset {0} konnte nicht geladen werden.	0=asset name
 GLOBAL_ERROR_ASSET_LOADING_TIMEOUT	Es ist eine Zeitüberschreitung während des Ladens von Asset {0} aufgetreten.	0=asset name
 GLOBAL_ERROR_ASSET_NO_FILE_PATH	Dateipfad für Asset {0} konnte nicht gefunden werden.	0=asset name
-GLOBAL_ERROR_ASSET_NO_WORKING_DIRECTORY	Es konnte kein gültiges Verzeichnis gefunden werden.	
 GLOBAL_ERROR_ASSET_TITLE	ASSET-FEHLER	
 GLOBAL_ERROR_CURRENCY_INVALID	Der Client hat versucht, eine ungültige Währung für eine Transaktion zu verwenden.	
 GLOBAL_ERROR_GAME_DENIED	Beim Starten des Spiels ist ein Fehler aufgetreten. Bitte warten Sie ein paar Minuten und versuchen Sie es dann erneut.	
@@ -83,7 +83,7 @@ GLOBAL_ERROR_NETWORK_TITLE	NETZWERKFEHLER
 GLOBAL_ERROR_NETWORK_UTIL_TIMEOUT	Ihre Verbindung zum Spiel wurde getrennt, während es versucht hat, Daten vom Hearthstone-Hilfsdienst abzufragen. Bitte starten Sie Hearthstone neu, um die Verbindung wiederherzustellen.	
 GLOBAL_ERROR_STREAMING_ASSET_TIMEOUT	Es ist eine Zeitüberschreitung beim Warten auf das Streaming-System aufgetreten (Asset {0}).	0=asset name
 GLOBAL_ERROR_STREAMING_TITLE	STREAMINGFEHLER	
-GLOBAL_ERROR_UNKNOWN_ERROR	Ups! Da haben sich unsere Wartungsgnome wieder mal ein Nickerchen gegönnt, während Hearthstone versucht hat, sich mit dem Battle.net-Dienst zu verbinden. Bitte warten Sie ein paar Minuten, bis sie aufwachen und versuchen Sie, das Spiel erneut zu starten.	
+GLOBAL_ERROR_UNKNOWN_ERROR	Ups! Neckische Waldgeister haben Hearthstone durcheinandergebracht, während es versucht hat, sich mit dem Battle.net-Dienst zu verbinden. Bitte warten Sie ein paar Minuten und versuchen Sie dann, das Spiel erneut zu starten.	
 GLOBAL_EXIT	Verlassen	
 GLOBAL_FEATURE_DISABLED_MESSAGE_COLLECTION	Leider ist die Sammlung derzeit nicht verfügbar.	
 GLOBAL_FEATURE_DISABLED_MESSAGE_FORGE	Leider ist die Arena derzeit nicht verfügbar.	
@@ -106,7 +106,7 @@ GLOBAL_FRIEND_CHALLENGE_DECLINE	Nein
 GLOBAL_FRIEND_CHALLENGE_HEADER	Herausforderung	
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_CANCELED	{0} hat die Herausforderung abgebrochen.	0=friend name
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_DECLINED	{0} hat Eure Herausforderung abgelehnt.	0=friend name
-GLOBAL_FRIEND_CHALLENGE_OPPONENT_FRIEND_REMOVED	Herausforderung wurde abgebrochen da {0} nicht länger Euer Freund ist.	0=friend name
+GLOBAL_FRIEND_CHALLENGE_OPPONENT_FRIEND_REMOVED	Die Herausforderung wurde abgebrochen, da {0} nicht mehr Euer Freund ist.	0=friend name
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_WAITING_DECK	Es wird darauf gewartet, dass {0} ein Deck auswählt.	0=friend name
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_WAITING_RESPONSE	Es wird darauf gewartet, dass {0} die Herausforderung annimmt. 	0=friend name
 GLOBAL_FRIEND_CHALLENGE_RECEIVED	Ihr wurdet von {0} herausgefordert.\n\nHerausforderung annehmen?	0=friend name
@@ -123,6 +123,8 @@ GLOBAL_FRIENDLIST_REQUEST_SENT_TIME	Gesendet: {0}	0=one of the GLOBAL_DATETIME_E
 GLOBAL_FRIENDLIST_REQUESTS_HEADER	FREUNDSCHAFTSANFRAGEN – {0:n0}	0=number of received friend requests
 GLOBAL_GAME_MENU	Spielmenü	
 GLOBAL_HEALTH	Leben	
+GLOBAL_HEALTHY_GAMING_TOAST	Die aktuelle Spielzeit beträgt {0} Stunde(n). Das ist zu lang.	0=hours
+GLOBAL_HEALTHY_GAMING_TOAST_OVER_THRESHOLD	Die aktuelle Spielzeit beträgt {0} Stunde(n). Das ist viel zu lang!	0=hours
 GLOBAL_HERO_LEVEL_NEXT_REWARD_TITLE	Belohnung für Stufe {0}	0=level
 GLOBAL_HERO_LEVEL_REWARD_ARCANE_DUST	{0} Arkanstaub	0=amount
 GLOBAL_HERO_LEVEL_REWARD_BOOSTER	{0}-Erweiterungspackung	0=booster type
@@ -176,17 +178,17 @@ GLOBAL_MEDAL_JOURNEYMAN	Geselle
 GLOBAL_MEDAL_MASTER	Meister	
 GLOBAL_MEDAL_NO_NAME	n. v.	
 GLOBAL_MEDAL_NOVICE	Einsteiger	
-GLOBAL_MEDAL_ONE_STAR	1 Stern	
+GLOBAL_MEDAL_ONE_STAR	★	
 GLOBAL_MEDAL_PLATINUM	Platin	
 GLOBAL_MEDAL_REWARD_CONGRATULATIONS	Herzlichen Glückwunsch!	
 GLOBAL_MEDAL_REWARD_DESCRIPTION	Letzte Woche erhaltene Medaille	
 GLOBAL_MEDAL_SILVER	Silber	
-GLOBAL_MEDAL_STARRED_FORMAT	{1} ({0})	0=star leve1, 1=medal type
-GLOBAL_MEDAL_THREE_STAR	3 Sterne	
+GLOBAL_MEDAL_STARRED_FORMAT	{1} {0}	0=star leve1, 1=medal type
+GLOBAL_MEDAL_THREE_STAR	★★★	
 GLOBAL_MEDAL_TOOLTIP_BODY	Gewinnt Spiele, um die nächste Medaille zu erhalten!\n\nNächste Medaille:\n{0}	0=medal name
 GLOBAL_MEDAL_TOOLTIP_BODY_ARENA_GRAND_MASTER	Ihr seid ein Champion der Arena!	
 GLOBAL_MEDAL_TOOLTIP_HEADER	Medaille: {0}	0=medal name
-GLOBAL_MEDAL_TWO_STAR	2 Sterne	
+GLOBAL_MEDAL_TWO_STAR	★★	
 GLOBAL_MY_NUM_WINS	{0}	0=number of games this player has won
 GLOBAL_OFFLINE	Offline	
 GLOBAL_OKAY	OK	
@@ -238,7 +240,7 @@ GLOBAL_RARITY_EPIC	Episch
 GLOBAL_RARITY_FREE	Gratis	
 GLOBAL_RARITY_LEGENDARY	Legendär	
 GLOBAL_RARITY_RARE	Selten	
-GLOBAL_RESUME_GAME	Weiterspielen	
+GLOBAL_RESUME_GAME	Fortfahren	
 GLOBAL_REWARD_ARCANE_DUST_HEADLINE	Arkanstaub erhalten!	
 GLOBAL_REWARD_BOOSTER_HEADLINE	Profipackung erhalten!	
 GLOBAL_REWARD_CARD_COUNT_MULTIPLIER	x	

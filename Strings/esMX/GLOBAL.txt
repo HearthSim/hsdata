@@ -40,6 +40,7 @@ GLOBAL_CLASS_ROGUE	Pícaro
 GLOBAL_CLASS_SHAMAN	Chamán	
 GLOBAL_CLASS_WARLOCK	Brujo	
 GLOBAL_CLASS_WARRIOR	Guerrero	
+GLOBAL_CLICK_TO_CONTINUE	Haz clic para continuar	
 GLOBAL_COLLECTION_GOLDEN	Dorada	
 GLOBAL_CONCEDE	Rendirse	
 GLOBAL_CONFIRM	Confirmar	
@@ -64,7 +65,6 @@ GLOBAL_ERROR_ASSET_INCORRECT_DATA	El activo {0} contenía datos incorrectos.	0=a
 GLOBAL_ERROR_ASSET_LOAD_FAILED	No se pudo cargar el activo {0}.	0=asset name
 GLOBAL_ERROR_ASSET_LOADING_TIMEOUT	Se superó el tiempo límite mientras se esperaba la carga del activo {0}.	0=asset name
 GLOBAL_ERROR_ASSET_NO_FILE_PATH	No se pudo encontrar una ruta de archivo para el activo {0}.	0=asset name
-GLOBAL_ERROR_ASSET_NO_WORKING_DIRECTORY	No se pudo encontrar un directorio de trabajo.	
 GLOBAL_ERROR_ASSET_TITLE	ERROR DE ACTIVO	
 GLOBAL_ERROR_CURRENCY_INVALID	El cliente ha intentado utilizar una moneda no válida para realizar una compra.	
 GLOBAL_ERROR_GAME_DENIED	Se produjo un error al iniciar tu partida. Espera unos minutos y vuelve a intentarlo.	
@@ -110,7 +110,7 @@ GLOBAL_FRIEND_CHALLENGE_OPPONENT_FRIEND_REMOVED	Se ha cancelado el desafío porq
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_WAITING_DECK	Estás esperando que {0} elija un mazo.	0=friend name
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_WAITING_RESPONSE	Estás esperando que {0} responda a tu desafío.	0=friend name
 GLOBAL_FRIEND_CHALLENGE_RECEIVED	{0} te ha desafiado.\n\n¿Aceptas?	0=friend name
-GLOBAL_FRIEND_CHALLENGE_TITLE	p	
+GLOBAL_FRIEND_CHALLENGE_TITLE	Amistoso	
 GLOBAL_FRIENDLIST_ADD_FRIEND_BUTTON	Agregar	
 GLOBAL_FRIENDLIST_CURRENT_GAMES_HEADER	PARTIDAS ACTUALES: {0:n0}	0=number of friends you have unfinished games with
 GLOBAL_FRIENDLIST_FRIENDS_HEADER	AMIGOS: {0:n0}/{1:n0} en línea	0=number of online friends 1=number of offline friends
@@ -123,6 +123,8 @@ GLOBAL_FRIENDLIST_REQUEST_SENT_TIME	Enviada: {0}	0=one of the GLOBAL_DATETIME_EL
 GLOBAL_FRIENDLIST_REQUESTS_HEADER	SOLICITUDES DE AMISTAD: {0:n0}	0=number of received friend requests
 GLOBAL_GAME_MENU	Menú de partida	
 GLOBAL_HEALTH	Salud	
+GLOBAL_HEALTHY_GAMING_TOAST	Estás jugando hace {0} hora(s). ¿No te parece mucho?	0=hours
+GLOBAL_HEALTHY_GAMING_TOAST_OVER_THRESHOLD	Estás jugando hace {0} hora(s). ¡Es demasiado tiempo!	0=hours
 GLOBAL_HERO_LEVEL_NEXT_REWARD_TITLE	Nivel de próxima recompensa: {0}	0=level
 GLOBAL_HERO_LEVEL_REWARD_ARCANE_DUST	Polvo arcano: {0}	0=amount
 GLOBAL_HERO_LEVEL_REWARD_BOOSTER	Paquete: {0}	0=booster type
@@ -176,17 +178,17 @@ GLOBAL_MEDAL_JOURNEYMAN	Jornalero
 GLOBAL_MEDAL_MASTER	Maestro	
 GLOBAL_MEDAL_NO_NAME	N/D	
 GLOBAL_MEDAL_NOVICE	Novicio	
-GLOBAL_MEDAL_ONE_STAR	Una estrella	
+GLOBAL_MEDAL_ONE_STAR	I	
 GLOBAL_MEDAL_PLATINUM	Platino	
 GLOBAL_MEDAL_REWARD_CONGRATULATIONS	¡Felicitaciones!	
 GLOBAL_MEDAL_REWARD_DESCRIPTION	Medalla obtenida la semana pasada	
 GLOBAL_MEDAL_SILVER	Plata	
-GLOBAL_MEDAL_STARRED_FORMAT	{0} {1}	0=star leve1, 1=medal type
-GLOBAL_MEDAL_THREE_STAR	Tres estrellas	
+GLOBAL_MEDAL_STARRED_FORMAT	{1} {0}	0=star leve1, 1=medal type
+GLOBAL_MEDAL_THREE_STAR	III	
 GLOBAL_MEDAL_TOOLTIP_BODY	¡Gana partidas para avanzar hacia la próxima medalla!\n\nPróxima medalla:\n{0}	0=medal name
 GLOBAL_MEDAL_TOOLTIP_BODY_ARENA_GRAND_MASTER	¡Eres un campeón de la Arena!	
 GLOBAL_MEDAL_TOOLTIP_HEADER	Medalla de {0}	0=medal name
-GLOBAL_MEDAL_TWO_STAR	Dos estrellas	
+GLOBAL_MEDAL_TWO_STAR	II	
 GLOBAL_MY_NUM_WINS	{0}	0=number of games this player has won
 GLOBAL_OFFLINE	Desconectado	
 GLOBAL_OKAY	Aceptar	

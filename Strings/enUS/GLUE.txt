@@ -24,6 +24,7 @@ GLUE_COLLECTION_DECK_SAVE_ANYWAY	No
 GLUE_COLLECTION_DECK_FINISH_FOR_ME	Yes	
 GLUE_COLLECTION_DECK_INVALID_POPUP_HEADER	Invalid Deck	
 GLUE_COLLECTION_DECK_INVALID_POPUP_MESSAGE	You are {0} card(s) short of a full deck. Do you want to finish it automatically?
+GLUE_COLLECTION_NEW_DECK	New Deck	
 GLUE_COLLECTION_TUTORIAL01	Craft a deck of your own!
 GLUE_COLLECTION_TUTORIAL02	Turn pages to browse.
 GLUE_COLLECTION_TUTORIAL03	Disenchant extra cards!
@@ -40,7 +41,7 @@ GLUE_COLLECTION_ALL_CARDS	All Cards
 GLUE_COLLECTION_MINE	My Cards	
 GLUE_COLLECTION_GOLDEN_CARDS	Golden Cards	
 GLUE_COLLECTION_SET_TEMPLATE	{0} Set	0=set name
-GLUE_COLLECTION_CUSTOM_DECKNAME_TEMPLATE	Custom{0}{1}	0=class name, 1=incrementer
+GLUE_COLLECTION_CUSTOM_DECKNAME_TEMPLATE	Custom {0}{1}	0=class name, 1=incrementer
 GLUE_COLLECTION_CARD_NEW	NEW!	
 GLUE_MASS_DISENCHANT_HEADLINE	Mass Disenchant
 GLUE_MASS_DISENCHANT_DETAILS_HEADLINE	Disenchant your extra cards to create Arcane Dust.
@@ -78,7 +79,8 @@ GLUE_STORE_FAIL_PRODUCT_NA	That product is not available right now. Please selec
 GLUE_STORE_FAIL_QUANTITY	You've selected an invalid quantity for that item. Please select a different quantity and try again.
 GLUE_STORE_FAIL_NO_ACTIVE_BPAY	Internal error: no transaction info in Database.
 GLUE_STORE_FAIL_NOT_ENOUGH_GOLD	You don't have enough gold to buy that right now.
-GLUE_STORE_FAIL_PASSWORD_TIMEOUT	Your password challenge has timed out. Please start your transaction again.
+GLUE_STORE_FAIL_CHALLENGE_TIMEOUT	Your purchase challenge has timed out. Please start your transaction again.
+GLUE_STORE_FAIL_PURCHASE_BAN	Your account has been blocked from using the store. If you believe this is a mistake, please contact Customer Support.
 GLUE_STORE_FAIL_GENERAL	There was a problem processing your payment.
 GLUE_STORE_GOLD_BUTTON_TOOLTIP_HEADLINE	Buy with gold
 GLUE_STORE_MONEY_BUTTON_TOOLTIP_HEADLINE	Buy
@@ -105,15 +107,16 @@ GLUE_STORE_SUMMARY_CHARGE_DETAILS	Will be charged to your: {0}
 GLUE_STORE_BNET_BALANCE	Battle.net Balance
 GLUE_STORE_QUANTITY_HEADLINE	Change Quantity
 GLUE_STORE_QUANTITY_MESSAGE	How many packs would you like to purchase with gold? Quantity cannot exceed {0}.
-GLUE_STORE_PASSWORD_HEADLINE	Attention
-GLUE_STORE_PASSWORD_MESSAGE	Please enter your password:
-GLUE_STORE_PASSWORD_RETRY_MESSAGE	Your password is incorrect. Please re-enter your password:
-GLUE_STORE_SUBMIT_PWD_BUTTON_TEXT	Purchase
+GLUE_STORE_CHALLENGE_HEADLINE	Attention
+GLUE_STORE_CHALLENGE_CVV_MESSAGE	Please enter your CVV:\n\nFor help locating your CVV, click the "{0}" button.
+GLUE_STORE_CHALLENGE_PWD_MESSAGE	Please enter your password:
+GLUE_STORE_CHALLENGE_PWD_RETRY_MESSAGE	Your password is incorrect. Please re-enter your password:
+GLUE_STORE_SUBMIT_CHALLENGE_BUTTON_TEXT	Purchase
 GLUE_STORE_NO_PAYMENT_HEADLINE	Attention
 GLUE_STORE_NO_PAYMENT_DETAILS	You haven't set up a payment method yet. Please set one up on the Battle.net website and try again.
 GLUE_STORE_NO_PAYMENT_URL_DETAILS	Pressing "{0}" will take you to the Battle.net website.
 GLUE_STORE_PAYMENT_INFO_HEADLINE	Payment Information
-GLUE_STORE_PAYMENT_INFO_DETAILS	Funds will first be deducted from your Battle.net Balance. If insufficient balance exists then your primary payment method on your Battle.net account will be charged.
+GLUE_STORE_PAYMENT_INFO_DETAILS	Funds will first be deducted from your Battle.net Balance. If insufficient balance exists then your primary payment method on your Battle.net account will be charged.\n\nIMPORTANT: Please note that any payment incident or chargeback occurring for this transaction may result in the temporary suspension of the Hearthstone account until complete solving of the incident or repayment of the chargeback.
 GLUE_STORE_PAYMENT_INFO_URL_DETAILS	If you'd like more details, pressing "{0}" will take you to the Battle.net payment information website.
 GLUE_STORE_FORGOT_PWD_HEADLINE	Forgotten password?
 GLUE_STORE_FORGOT_PWD_DETAILS	Your password has been incorrectly entered too many times. Did you forget it?
@@ -337,10 +340,12 @@ GLUE_HERO_LOCKED_DESC	Defeat this hero to unlock!
 GLUE_QUEST_LOG_HEADLINE	Quest Log	
 GLUE_QUEST_LOG_WINS_HEADLINE	Play Mode Wins	
 GLUE_QUEST_LOG_BEST_FORGE_RECORD_HEADLINE	Best Arena Medal	
+GLUE_QUEST_LOG_TOTAL_WINS_HEADLINE	Total Wins	
 GLUE_QUEST_LOG_TOTAL_LEVELS	<color=#c4b47c>Total Level:</color> {0}	
 GLUE_QUEST_LOG_CLASS_LOCKED	Locked	
 GLUE_QUEST_LOG_NO_QUESTS	You have no quests.  You should unlock new heroes in Practice Mode!	
 GLUE_QUEST_LOG_NO_QUESTS_DAILIES_UNLOCKED	You have no quests.  Check back tomorrow!	
+GLUE_QUEST_LOG_HERO_LEVELS	Hero Levels
 GLUE_QUEST_NOTIFICATION_HEADER	Today's Quests	
 GLUE_QUEST_NOTIFICATION_HEADER_NEW_ONLY	New Quest!	
 GLUE_QUEST_NOTIFICATION_CAPTION	Most Quests can only be completed in Play mode or The Arena.	

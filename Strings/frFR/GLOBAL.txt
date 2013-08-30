@@ -40,6 +40,7 @@ GLOBAL_CLASS_ROGUE	Voleur
 GLOBAL_CLASS_SHAMAN	Chaman	
 GLOBAL_CLASS_WARLOCK	Démoniste	
 GLOBAL_CLASS_WARRIOR	Guerrier	
+GLOBAL_CLICK_TO_CONTINUE	Cliquer pour continuer	
 GLOBAL_COLLECTION_GOLDEN	(carte dorée)	
 GLOBAL_CONCEDE	Capituler	
 GLOBAL_CONFIRM	OK	
@@ -64,10 +65,9 @@ GLOBAL_ERROR_ASSET_INCORRECT_DATA	La ressource {0} contenait des données incorr
 GLOBAL_ERROR_ASSET_LOAD_FAILED	Échec du chargement de la ressource {0}.	0=asset name
 GLOBAL_ERROR_ASSET_LOADING_TIMEOUT	Expiration du délai pendant le chargement de la ressource {0}	0=asset name
 GLOBAL_ERROR_ASSET_NO_FILE_PATH	Impossible de trouver un chemin d’accès pour la ressource {0}.	0=asset name
-GLOBAL_ERROR_ASSET_NO_WORKING_DIRECTORY	Impossible de trouver un répertoire en état de marche.	
 GLOBAL_ERROR_ASSET_TITLE	ERREUR DE RESSOURCE	
 GLOBAL_ERROR_CURRENCY_INVALID	Le client a essayé d’utiliser une monnaie non valide pour faire un achat.	
-GLOBAL_ERROR_GAME_DENIED	Une erreur s’est produite lors du lancement du jeu. Veuillez patienter quelques minutes avant de réessayer.	
+GLOBAL_ERROR_GAME_DENIED	Une erreur s’est produite lors du lancement de la partie. Veuillez patienter quelques minutes avant de réessayer.	
 GLOBAL_ERROR_GAME_OPPONENT_TIMEOUT	Le match n’a pas pu être lancé car votre adversaire n’a pas réussi à se connecter. Veuillez réessayer.	
 GLOBAL_ERROR_GENERIC_HEADER	Erreur	
 GLOBAL_ERROR_INACTIVITY_KICK	Vous avez été déconnecté de Hearthstone car vous êtes inactif depuis un moment. Relancez le jeu quand vous serez prêt !	
@@ -113,16 +113,18 @@ GLOBAL_FRIEND_CHALLENGE_RECEIVED	Vous avez été défié par {0}.\n\nRelevez-vou
 GLOBAL_FRIEND_CHALLENGE_TITLE	Amical	
 GLOBAL_FRIENDLIST_ADD_FRIEND_BUTTON	Ajouter	
 GLOBAL_FRIENDLIST_CURRENT_GAMES_HEADER	PARTIES EN COURS - {0:n0}	0=number of friends you have unfinished games with
-GLOBAL_FRIENDLIST_FRIENDS_HEADER	CONTACTS - {0:n0}/{1:n0} connectés	0=number of online friends 1=number of offline friends
+GLOBAL_FRIENDLIST_FRIENDS_HEADER	CONTACTS - {0:n0}/{1:n0} connecté(s)	0=number of online friends 1=number of offline friends
 GLOBAL_FRIENDLIST_FRIENDS_HEADER_ALL_ONLINE	CONTACTS - {0:n0} connecté(s)	
 GLOBAL_FRIENDLIST_FRIENDS_HEADER_NO_ONLINE	CONTACTS	
-GLOBAL_FRIENDLIST_MYSTATUS	CONNECTÉ	
+GLOBAL_FRIENDLIST_MYSTATUS	CONNECTÉ(E)	
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_ALERT_MESSAGE	Voulez-vous vraiment supprimer {0} de vos contacts ?	0=friend name
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_BUTTON	Supprimer	
 GLOBAL_FRIENDLIST_REQUEST_SENT_TIME	Envoyée : {0}	0=one of the GLOBAL_DATETIME_ELAPSED_ strings
 GLOBAL_FRIENDLIST_REQUESTS_HEADER	DEMANDES DE CONTACT - {0:n0}	0=number of received friend requests
 GLOBAL_GAME_MENU	Menu de jeu	
 GLOBAL_HEALTH	Vie	
+GLOBAL_HEALTHY_GAMING_TOAST	Vous avez joué pendant {0} heure(s). C'est trop.	0=hours
+GLOBAL_HEALTHY_GAMING_TOAST_OVER_THRESHOLD	Vous avez joué pendant {0} heure(s). C'est beaucoup trop.	0=hours
 GLOBAL_HERO_LEVEL_NEXT_REWARD_TITLE	Prochaine récompense (niv. {0})	0=level
 GLOBAL_HERO_LEVEL_REWARD_ARCANE_DUST	Poussière arcanique : {0}	0=amount
 GLOBAL_HERO_LEVEL_REWARD_BOOSTER	Paquet {0}	0=booster type
@@ -176,23 +178,23 @@ GLOBAL_MEDAL_JOURNEYMAN	Compagnon
 GLOBAL_MEDAL_MASTER	Maître	
 GLOBAL_MEDAL_NO_NAME	 - 	
 GLOBAL_MEDAL_NOVICE	Novice	
-GLOBAL_MEDAL_ONE_STAR	Une étoile	
+GLOBAL_MEDAL_ONE_STAR	☆	
 GLOBAL_MEDAL_PLATINUM	Platine	
 GLOBAL_MEDAL_REWARD_CONGRATULATIONS	Félicitations !	
 GLOBAL_MEDAL_REWARD_DESCRIPTION	Médaille obtenue la semaine passée	
 GLOBAL_MEDAL_SILVER	Argent	
 GLOBAL_MEDAL_STARRED_FORMAT	{1} {0}	0=star leve1, 1=medal type
-GLOBAL_MEDAL_THREE_STAR	Trois étoiles	
+GLOBAL_MEDAL_THREE_STAR	☆☆☆	
 GLOBAL_MEDAL_TOOLTIP_BODY	Gagnez des parties pour progresser jusqu’à la médaille suivante !\n\nMédaille suivante :\n{0}	0=medal name
 GLOBAL_MEDAL_TOOLTIP_BODY_ARENA_GRAND_MASTER	Vous êtes un champion de l’Arène !	
 GLOBAL_MEDAL_TOOLTIP_HEADER	Médaille : {0}	0=medal name
-GLOBAL_MEDAL_TWO_STAR	Deux étoiles	
+GLOBAL_MEDAL_TWO_STAR	☆☆	
 GLOBAL_MY_NUM_WINS	{0}	0=number of games this player has won
-GLOBAL_OFFLINE	Déconnecté	
+GLOBAL_OFFLINE	Déconnecté(e)	
 GLOBAL_OKAY	OK	
 GLOBAL_OPTIONS	Options	
 GLOBAL_OPTIONS_GRAPHICS_FULLSCREEN_LABEL	Plein écran	
-GLOBAL_OPTIONS_GRAPHICS_LABEL	Illustration	
+GLOBAL_OPTIONS_GRAPHICS_LABEL	Graphismes	
 GLOBAL_OPTIONS_GRAPHICS_QUALITY_HIGH	Élevée	
 GLOBAL_OPTIONS_GRAPHICS_QUALITY_LABEL	Qualité	
 GLOBAL_OPTIONS_GRAPHICS_QUALITY_LOW	Faible	

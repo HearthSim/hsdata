@@ -11,8 +11,8 @@ GAMEPLAY_EMOTE_LABEL_SORRY	Désolé
 GAMEPLAY_EMOTE_LABEL_THANKS	Merci	
 GAMEPLAY_EMOTE_LABEL_THREATEN	Menace	
 GAMEPLAY_EMOTE_LABEL_WELL_PLAYED	Bien joué	
-GAMEPLAY_EMOTE_SQUELCH	Emotes coupées	
-GAMEPLAY_EMOTE_UNSQUELCH	Emotes activées	
+GAMEPLAY_EMOTE_SQUELCH	Couper les emotes	
+GAMEPLAY_EMOTE_UNSQUELCH	Activer les emotes	
 GAMEPLAY_END_OF_GAME_DEFEAT	Défaite !	
 GAMEPLAY_END_OF_GAME_VICTORY	Victoire !	
 GAMEPLAY_END_TURN	Fin du tour	
@@ -20,9 +20,11 @@ GAMEPLAY_ENEMY_TURN	Tour adverse
 GAMEPLAY_ERROR_PLAY_REJECTED	Trop tard ! Votre tour est terminé.	
 GAMEPLAY_FATIGUE_HISTORY_TEXT	Essayer de piocher une carte d’un deck vide inflige des dégâts augmentés à votre héros.	
 GAMEPLAY_FATIGUE_TEXT	Vous n’avez plus de cartes ! Vous subissez {0} point(s) de dégâts.	
+GAMEPLAY_FATIGUE_TITLE	Fatigue	
 GAMEPLAY_MANA_COUNTER	{0}/{1}	0=unused mana 1=current total mana
-GAMEPLAY_NOTIFICATION_MAX_HAND_SIZE	Vous n’avez que {0} carte(s) dans votre main	
-GAMEPLAY_NOTIFICATION_MAX_MANA	Vous n’avez que {0} cristaux de mana	
+GAMEPLAY_MULLIGAN_REPLACE	REMPLACÉE	
+GAMEPLAY_NOTIFICATION_MAX_HAND_SIZE	Vous ne pouvez avoir que {0} cartes dans votre main	
+GAMEPLAY_NOTIFICATION_MAX_MANA	Vous ne pouvez avoir que {0} cristaux de mana	
 GAMEPLAY_PlayErrors_REQ_ATTACK_GREATER_THAN_0	Un personnage sans valeur d’attaque ne peut pas attaquer	
 GAMEPLAY_PlayErrors_REQ_ATTACKER_CAN_ATTACK	Ce personnage ne peut pas attaquer	
 GAMEPLAY_PlayErrors_REQ_ATTACKER_NOT_FROZEN	Les personnages gelés ne peuvent pas attaquer	
@@ -52,8 +54,8 @@ GAMEPLAY_PlayErrors_REQ_NONSTEALTH_ENEMY_TARGET	Les personnages camouflés ne pe
 GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_ACTIVATE	Ce personnage a déjà attaqué	
 GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_HERO_POWER	Les pouvoirs héroïques ne peuvent être utilisés qu’une fois par tour	
 GAMEPLAY_PlayErrors_REQ_NOT_MINION_JUST_PLAYED	Les serviteurs ne peuvent pas attaquer au tour où ils sont joués	
-GAMEPLAY_PlayErrors_REQ_NUM_MINION_SLOTS	Vous ne pouvez pas avoir davantage de serviteurs	
-GAMEPLAY_PlayErrors_REQ_SECRET_CAP	Vous pouvez avoir uniquement {0} secret(s)	
+GAMEPLAY_PlayErrors_REQ_NUM_MINION_SLOTS	Vous avez trop de serviteurs pour jouer cette carte	
+GAMEPLAY_PlayErrors_REQ_SECRET_CAP	Vous pouvez avoir uniquement {0} secrets	
 GAMEPLAY_PlayErrors_REQ_SUBCARD_IS_PLAYABLE	Aucune de ces options n’est valide	
 GAMEPLAY_PlayErrors_REQ_TARGET_ATTACKED_THIS_TURN	Vous devez viser un personnage qui a déjà attaqué	
 GAMEPLAY_PlayErrors_REQ_TARGET_FOR_COMBO	Vous ne pouvez pas faire ça sans cible	
@@ -67,6 +69,7 @@ GAMEPLAY_PlayErrors_REQ_TARGET_TO_PLAY	Vous ne pouvez pas faire ça sans cible
 GAMEPLAY_PlayErrors_REQ_TARGET_WITH_RACE	Ce n’est pas la bonne race	
 GAMEPLAY_PlayErrors_REQ_UNIQUE_SECRET	Vous possédez déjà ce secret	
 GAMEPLAY_PlayErrors_REQ_WEAPON_EQUIPPED	Vous devez posséder une arme	
+GAMEPLAY_PRE_TUTORIAL_WANTED	Commencer	
 GAMEPLAY_REWARD_BOOSTER_DETAILS	{0} victoires / {1}	0=# wins, 1=# total wins to earn reward
 GAMEPLAY_REWARD_BOOSTER_SOURCE_FORGE	Récompense pour avoir gagné {0} match(s) d’Arène	
 GAMEPLAY_REWARD_CARD_DETAILS_TUTORIAL01	Oh ouais !	
@@ -78,10 +81,11 @@ GAMEPLAY_REWARD_CARD_DETAILS_TUTORIAL06	Chaud bouillant !
 GAMEPLAY_REWARD_CARD_LEVEL_UP	Obtenue en atteignant le niveau {0} avec votre {1}	0=# level, 1=class
 GAMEPLAY_REWARD_CORE_CARD_DETAILS	{0}/{1} carte(s) {2} débloquée(s)	0=# cards unlocked, 1=# cards possible to unlock, 2=class
 GAMEPLAY_REWARD_GOLD_SOURCE_TOURNEY	Récompense pour {0} victoire(s) en mode Partie	
-GAMEPLAY_REWARD_GOLDEN_HERO_HEADLINE	{0} débloqué (carte dorée)	
+GAMEPLAY_REWARD_GOLDEN_HERO_HEADLINE	Carte dorée {0} débloquée	
 GAMEPLAY_REWARD_HERO_DETAILS	{0}/{1} héros débloqués	
 GAMEPLAY_REWARD_HERO_HEADLINE	{0} débloqué	
 GAMEPLAY_REWARD_HERO_SOURCE	Héros débloqué après avoir vaincu un {0} en mode Entraînement	0=class
+GAMEPLAY_SECRET_BANNER_TITLE	Secret !	
 GAMEPLAY_SECRET_DESC	Inconnu jusqu’à ce qu’une action précise ait lieu... Méfiez-vous !	
 GAMEPLAY_SECRET_NAME	Secret	
 GAMEPLAY_TOOLTIP_DECK_DESCRIPTION	Vous avez {0} carte(s) dans votre deck.	
@@ -92,14 +96,26 @@ GAMEPLAY_TOOLTIP_ENEMYHAND_DESC	Votre adversaire a {0} carte(s) dans sa main.	0=
 GAMEPLAY_TOOLTIP_ENEMYHAND_DESC_SINGLE	Votre adversaire a {0} carte(s) dans sa main.	0= number of cards in hand.
 GAMEPLAY_TOOLTIP_ENEMYHAND_DESC_TUT	La main de votre adversaire. Les joueurs piochent une carte à chaque tour.	
 GAMEPLAY_TOOLTIP_ENEMYHAND_HEADLINE	Main adverse	
-GAMEPLAY_TOOLTIP_FATIGUE_DECK_DESCRIPTION	Vous n’avez plus de cartes ! Désormais, vous subirez des dégâts chaque fois que vous tirerez une carte.	
+GAMEPLAY_TOOLTIP_FATIGUE_DECK_DESCRIPTION	Vous n’avez plus de cartes ! Désormais, vous subirez des dégâts chaque fois que vous essaierez d’en piocher.	
 GAMEPLAY_TOOLTIP_FATIGUE_DECK_HEADLINE	Fatigué	
-GAMEPLAY_TOOLTIP_FATIGUE_ENEMYDECK_DESCRIPTION	Votre adversaire n’a plus de cartes ! Désormais, il subira des dégâts chaque fois qu’il tirera une carte.	
+GAMEPLAY_TOOLTIP_FATIGUE_ENEMYDECK_DESCRIPTION	Votre adversaire n’a plus de cartes ! Désormais, il subira des dégâts chaque fois qu’il essaiera d’en piocher.	
 GAMEPLAY_TOOLTIP_FATIGUE_ENEMYDECK_HEADLINE	Fatigué	
 GAMEPLAY_TOOLTIP_MANA_DESCRIPTION	Quand votre tour commence, vous obtenez un nouveau cristal et ceux qui sont vides se remplissent.	
 GAMEPLAY_TOOLTIP_MANA_HEADLINE	Cristaux de mana	
 GAMEPLAY_TOOLTIP_MANA_RECALL_DESCRIPTION	Vous avez joué une carte avec Surcharge au tour précédent.	
 GAMEPLAY_TOOLTIP_MANA_RECALL_HEADLINE	Cristaux de mana verrouillés	
+GAMEPLAY_TUTORIAL_ATTACK	Attaque	
+GAMEPLAY_TUTORIAL_ATTACKER	Attaquant	
+GAMEPLAY_TUTORIAL_COST	Coût	
+GAMEPLAY_TUTORIAL_DEFENDER	Défenseur	
+GAMEPLAY_TUTORIAL_HEALTH	Vie	
+GAMEPLAY_TUTORIAL_HERO_POWER	Pouvoir héroïque	
+GAMEPLAY_TUTORIAL_MINION	Serviteur	
+GAMEPLAY_TUTORIAL_TAUNT	Provocation	
+GAMEPLAY_TUTORIAL_TAUNT_DESCRIPTION	Les ennemis doivent attaquer ce serviteur.	
+GAMEPLAY_TUTORIAL_USED	Utilisé	
+GAMEPLAY_TUTORIAL_YOUR_MANA	Votre mana	
+GAMEPLAY_TUTORIAL_YOUR_TURN	À vous de jouer !	
 GAMEPLAY_TUTORIAL01_HERO	Lardeur	
 GAMEPLAY_TUTORIAL02_HERO	Millhouse Tempête-de-Mana	
 GAMEPLAY_TUTORIAL03_HERO	Roi Mukla	
