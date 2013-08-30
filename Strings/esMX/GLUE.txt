@@ -1,10 +1,10 @@
-﻿TAG	TEXT	COMMENT
+TAG	TEXT	COMMENT
 GLUE_AI_EXPERT_TEMPLATE	{0} - Experto	
 GLUE_AI_OPPONENT_CUSTOM	Personalizado	
 GLUE_AI_OPPONENT_EXPERT	Experto	
 GLUE_AI_OPPONENT_NORMAL	Normal	
 GLUE_ALERT_POPUP_HEADER	Mensaje del día	
-GLUE_ARENA_1ST_TIME_DESC	Normalmente hay que pagar una entrada para ingresar a la Arena, pero como es tu primera vez, ¡la casa invita! ¡Disfruta de tu estadía!	"on the house" is a phrase that means "free" in English.
+GLUE_ARENA_1ST_TIME_DESC	Normalmente hay que pagar para ingresar a la Arena, pero como es tu primera vez, ¡la casa invita! ¡Disfruta!	"on the house" is a phrase that means "free" in English.
 GLUE_ARENA_1ST_TIME_HEADER	Arena	
 GLUE_ARENA_DECK	Mazo - Arena	
 GLUE_ARENA_DECK_TOOLTIP	Este es tu mazo de la Arena. Estas cartas no forman parte de tu colección.	
@@ -28,8 +28,8 @@ GLUE_COLLECTION_ALL_SETS	Todos los kits
 GLUE_COLLECTION_ARTIST	Artista	
 GLUE_COLLECTION_CARD_COUNT	x{0}	
 GLUE_COLLECTION_CARD_COUNT_LARGE	x9+	
-GLUE_COLLECTION_CARD_NEW	¡NUEVO!	
-GLUE_COLLECTION_CUSTOM_DECKNAME_TEMPLATE	Personalizado{0}{1}	0=class name, 1=incrementer
+GLUE_COLLECTION_CARD_NEW	¡NUEVA!	
+GLUE_COLLECTION_CUSTOM_DECKNAME_TEMPLATE	Personalizado {0}{1}	0=class name, 1=incrementer
 GLUE_COLLECTION_DECK_FINISH_FOR_ME	Sí	
 GLUE_COLLECTION_DECK_HELP_BUTTON	Sugerir una carta	
 GLUE_COLLECTION_DECK_INFO_HERO_POWER_TOOLTIP	Poder de héroe	
@@ -50,6 +50,7 @@ GLUE_COLLECTION_MINE	Mis cartas
 GLUE_COLLECTION_MY_DECKS	Mis mazos	
 GLUE_COLLECTION_MY_PACKS	Mis paquetes	
 GLUE_COLLECTION_NEW_CARD_CALLOUT	{0}	0=number of new cards for this class
+GLUE_COLLECTION_NEW_DECK	Mazo nuevo	
 GLUE_COLLECTION_NO_MATCHES	No se encontraron coincidencias	
 GLUE_COLLECTION_PAGE_NUM	Página {0}	
 GLUE_COLLECTION_PLUS	+	
@@ -141,9 +142,11 @@ GLUE_PRACTICE_BASIC_SET_PROGRESS	Cartas básicas obtenidas: {0}/{1}	0=number of 
 GLUE_QUEST_LOG_BEST_FORGE_RECORD_HEADLINE	Mejor medalla de Arena	
 GLUE_QUEST_LOG_CLASS_LOCKED	Bloqueado	
 GLUE_QUEST_LOG_HEADLINE	Diario de misiones	
+GLUE_QUEST_LOG_HERO_LEVELS	Nivel de héroe
 GLUE_QUEST_LOG_NO_QUESTS	No tienes misiones. ¡Deberías desbloquear héroes nuevos en el modo Práctica!	
 GLUE_QUEST_LOG_NO_QUESTS_DAILIES_UNLOCKED	No tienes misiones. ¡Regresa mañana!	
 GLUE_QUEST_LOG_TOTAL_LEVELS	<color=#c4b47c>Nivel total:</color> {0}	
+GLUE_QUEST_LOG_TOTAL_WINS_HEADLINE	Victorias totales	
 GLUE_QUEST_LOG_WINS_HEADLINE	Victorias en modo Jugar	
 GLUE_QUEST_NOTIFICATION_CAPTION	La mayoría de las misiones pueden completarse solo en el modo Jugar o en la Arena.	
 GLUE_QUEST_NOTIFICATION_HEADER	Misiones de hoy	
@@ -211,6 +214,10 @@ GLUE_STORE_BNET_BALANCE	Saldo de Battle.net
 GLUE_STORE_BONUS_PACKS	Bonificación: {0}	0=number of packs
 GLUE_STORE_BUY_TEXT	COMPRAR	
 GLUE_STORE_CC_EXPIRY_DETAILS	La información de tu tarjeta de crédito ya no está vigente.	
+GLUE_STORE_CHALLENGE_CVV_MESSAGE	Ingresa el código de seguridad de tu tarjeta:\n\nSi necesitas ayuda para ubicarlo, haz clic en el botón "{0}".	
+GLUE_STORE_CHALLENGE_HEADLINE	Atención	
+GLUE_STORE_CHALLENGE_PWD_MESSAGE	Ingresa tu contraseña:	
+GLUE_STORE_CHALLENGE_PWD_RETRY_MESSAGE	La contraseña es incorrecta. Vuelve a ingresarla:	
 GLUE_STORE_CLOSED_BUTTON_TEXT	Tienda cerrada	
 GLUE_STORE_DISABLED	La tienda no está disponible en este momento. Inténtalo más tarde.	
 GLUE_STORE_DISCLAIMER_DETAILS_1	Todos los paquetes, las cartas, el oro y el polvo arcano que hayas obtenido se borrarán de tu cuenta durante la limpieza de cuentas de la beta restringida.	
@@ -222,6 +229,7 @@ GLUE_STORE_DONE_WITH_BAM_HEADLINE	Inténtalo nuevamente
 GLUE_STORE_DONE_WITH_BAM_MESSAGE	Cuando hayas regresado de Battle.net, intenta realizar tu compra nuevamente.	
 GLUE_STORE_ERROR_POPUP_TITLE	Error de tienda	
 GLUE_STORE_FAIL_BNET_ID	ID de Battle.net no válida.	
+GLUE_STORE_FAIL_CHALLENGE_TIMEOUT	La prueba de seguridad superó el tiempo límite. Inicia tu transacción nuevamente.	
 GLUE_STORE_FAIL_DATABASE	Error interno de base de datos.	
 GLUE_STORE_FAIL_DETAILS_ERROR_CODE	(Código de error: '{0}')	
 GLUE_STORE_FAIL_GENERAL	Se produjo un problema al procesar tu pago.	
@@ -230,8 +238,8 @@ GLUE_STORE_FAIL_LICENSE	Se ha detectado una licencia duplicada.
 GLUE_STORE_FAIL_NO_ACTIVE_BPAY	Error interno: no hay información de transacción en la base de datos.	
 GLUE_STORE_FAIL_NO_BATTLEPAY	Tu transacción no pudo completarse. Espera un momento y vuelve a intentarlo.	
 GLUE_STORE_FAIL_NOT_ENOUGH_GOLD	No tienes suficiente oro para hacer esa compra ahora.	
-GLUE_STORE_FAIL_PASSWORD_TIMEOUT	La prueba de seguridad superó el tiempo límite. Inicia tu transacción nuevamente.	
 GLUE_STORE_FAIL_PRODUCT_NA	Ese producto no está disponible en este momento. Selecciona otro y vuelve a intentarlo.	
+GLUE_STORE_FAIL_PURCHASE_BAN	Tu cuenta tiene bloqueado el acceso a la tienda. Si crees que esto es un error, comunícate con Servicio al cliente.	
 GLUE_STORE_FAIL_QUANTITY	Has elegido una cantidad no válida para ese objeto. Selecciona otra cantidad y vuelve a intentarlo.	
 GLUE_STORE_FORGOT_PWD_DETAILS	Has ingresado una contraseña incorrecta demasiadas veces. ¿La has olvidado?	
 GLUE_STORE_FORGOT_PWD_HEADLINE	¿Has olvidado tu contraseña?	
@@ -252,10 +260,7 @@ GLUE_STORE_NO_PAYMENT_DETAILS	Todavía no has definido un método de pago. Defí
 GLUE_STORE_NO_PAYMENT_HEADLINE	Atención	
 GLUE_STORE_NO_PAYMENT_URL_DETAILS	Pulsa "{0}" para ingresar en el sitio web de Battle.net.	
 GLUE_STORE_OPEN_BUTTON_TEXT	Tienda	
-GLUE_STORE_PASSWORD_HEADLINE	Atención	
-GLUE_STORE_PASSWORD_MESSAGE	Ingresa tu contraseña:	
-GLUE_STORE_PASSWORD_RETRY_MESSAGE	La contraseña es incorrecta. Vuelve a ingresarla:	
-GLUE_STORE_PAYMENT_INFO_DETAILS	Los fondos se descontarán de tu saldo de Battle.net. Si el saldo no es suficiente, se utilizará el método de pago principal que has especificado en tu cuenta de Battle.net.	
+GLUE_STORE_PAYMENT_INFO_DETAILS	Los fondos se descontarán de tu saldo de Battle.net. Si el saldo no es suficiente, se utilizará el método de pago principal que has especificado en tu cuenta de Battle.net.\n\nIMPORTANTE: Ten en cuenta que si se produce un reintegro del cobro o algún otro problema con los pagos, es posible que se suspenda temporalmente la cuenta de Hearthstone hasta que se solucionen los problemas o se vuelva a pagar el monto que se había reintegrado.	
 GLUE_STORE_PAYMENT_INFO_HEADLINE	Información de pago	
 GLUE_STORE_PAYMENT_INFO_URL_DETAILS	Si quieres ver más información, pulsa "{0}" para ingresar en el sitio web de información de pago de Battle.net.	
 GLUE_STORE_PRODUCT_DETAILS_EXPERT_PACK	•  5 cartas de experto de Hearthstone\n• Al menos 1 carta será rara o superior	
@@ -267,7 +272,7 @@ GLUE_STORE_QUANTITY_HEADLINE	Cambiar cantidad
 GLUE_STORE_QUANTITY_MESSAGE	¿Cuántos paquetes quieres comprar con oro? La cantidad no puede ser mayor a {0}.	
 GLUE_STORE_SINGLE_EXPERT_PACK	1 paquete de experto	
 GLUE_STORE_SINGLE_PACK	1 paquete	
-GLUE_STORE_SUBMIT_PWD_BUTTON_TEXT	Comprar	
+GLUE_STORE_SUBMIT_CHALLENGE_BUTTON_TEXT	Comprar	
 GLUE_STORE_SUMMARY_CHARGE_DETAILS	Forma de pago: {0}	
 GLUE_STORE_SUMMARY_HEADLINE	Resumen	
 GLUE_STORE_SUMMARY_ITEM_ORDERED	{0} x {1}	0=item quantity, 1=item name (one of GLUE_STORE_PRODUCT_NAME_*)
@@ -341,7 +346,7 @@ GLUE_TOOLTIP_BUTTON_PRACTICE_DESC	Perfecciona tus habilidades contra adversarios
 GLUE_TOOLTIP_BUTTON_PRACTICE_HEADLINE	Práctica	
 GLUE_TOOLTIP_BUTTON_QUESTLOG_DESC	Consulta tu progreso actual.	
 GLUE_TOOLTIP_BUTTON_QUESTLOG_HEADLINE	Diario de misiones	
-GLUE_TOOLTIP_BUTTON_TOURNAMENT_DESC	Juega contra un adversario de habilidades similares para obtener medallas y paquetes.	
+GLUE_TOOLTIP_BUTTON_TOURNAMENT_DESC	Juega contra un adversario del mismo nivel.	
 GLUE_TOOLTIP_BUTTON_TOURNAMENT_HEADLINE	Jugar	
 GLUE_TOOLTIP_GOLD_DESCRIPTION	Usa oro para comprar paquetes o para entrar en la Arena.	
 GLUE_TOOLTIP_GOLD_HEADER	Oro	

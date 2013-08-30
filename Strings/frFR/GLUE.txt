@@ -1,4 +1,4 @@
-﻿TAG	TEXT	COMMENT
+TAG	TEXT	COMMENT
 GLUE_AI_EXPERT_TEMPLATE	{0} - Expert	
 GLUE_AI_OPPONENT_CUSTOM	Personnalisé	
 GLUE_AI_OPPONENT_EXPERT	Expert	
@@ -50,6 +50,7 @@ GLUE_COLLECTION_MINE	Mes cartes
 GLUE_COLLECTION_MY_DECKS	Mes decks	
 GLUE_COLLECTION_MY_PACKS	Mes paquets	
 GLUE_COLLECTION_NEW_CARD_CALLOUT	{0}	0=number of new cards for this class
+GLUE_COLLECTION_NEW_DECK	Nouveau deck	
 GLUE_COLLECTION_NO_MATCHES	Pas de correspondance	
 GLUE_COLLECTION_PAGE_NUM	Page {0}	
 GLUE_COLLECTION_PLUS	+	
@@ -116,7 +117,7 @@ GLUE_LOADING_BAR_TASK_18	Corruption des gardes
 GLUE_LOADING_BAR_TASK_2	Polissage des cristaux	
 GLUE_LOADING_BAR_TASK_3	Chargement de la barre	
 GLUE_LOADING_BAR_TASK_4	Balayage de la poussière	
-GLUE_LOADING_BAR_TASK_5	Installation d’un fusible	
+GLUE_LOADING_BAR_TASK_5	Installation d’une mèche	
 GLUE_LOADING_BAR_TASK_6	Embauche des spectateurs	
 GLUE_LOADING_BAR_TASK_7	Parcage des murlocs	
 GLUE_LOADING_BAR_TASK_8	Huilage du bouton Fin du tour	
@@ -138,12 +139,14 @@ GLUE_PACK_OPENING_HEADER	Ouvrir des paquets
 GLUE_PRACTICE	Entraînement	
 GLUE_PRACTICE_BASIC_SET_COMPLETE	Jeu de base {0} complet	0=class
 GLUE_PRACTICE_BASIC_SET_PROGRESS	{0}/{1} cartes de base obtenues	0=number of owned cards,1=total number of basic cards
-GLUE_QUEST_LOG_BEST_FORGE_RECORD_HEADLINE	Résultat d’Arène	
+GLUE_QUEST_LOG_BEST_FORGE_RECORD_HEADLINE	Meilleure médaille d’Arène	
 GLUE_QUEST_LOG_CLASS_LOCKED	Verrouillé	
 GLUE_QUEST_LOG_HEADLINE	Journal	
+GLUE_QUEST_LOG_HERO_LEVELS	Héros
 GLUE_QUEST_LOG_NO_QUESTS	Vous n’avez pas de quête. Essayez de débloquer de nouveaux héros en mode Entraînement !	
 GLUE_QUEST_LOG_NO_QUESTS_DAILIES_UNLOCKED	Vous n’avez pas de quête. Revenez voir demain !	
 GLUE_QUEST_LOG_TOTAL_LEVELS	<color=#c4b47c>Niveau total :</color> {0}	
+GLUE_QUEST_LOG_TOTAL_WINS_HEADLINE	Total de victoires	
 GLUE_QUEST_LOG_WINS_HEADLINE	Victoires en mode Partie	
 GLUE_QUEST_NOTIFICATION_CAPTION	La plupart des quêtes ne peuvent être accomplies qu’en mode Partie ou dans l’Arène.	
 GLUE_QUEST_NOTIFICATION_HEADER	Quêtes actuelles	
@@ -211,6 +214,10 @@ GLUE_STORE_BNET_BALANCE	Porte-monnaie Battle.net
 GLUE_STORE_BONUS_PACKS	{0} paquet(s) bonus	0=number of packs
 GLUE_STORE_BUY_TEXT	Acheter	
 GLUE_STORE_CC_EXPIRY_DETAILS	Les informations de votre carte de crédit ne sont plus à jour.	
+GLUE_STORE_CHALLENGE_CVV_MESSAGE	Veuillez saisir votre code de sécurité :\n\nPour savoir où trouver ce code, cliquez sur le bouton « {0} ».	
+GLUE_STORE_CHALLENGE_HEADLINE	Attention !	
+GLUE_STORE_CHALLENGE_PWD_MESSAGE	Veuillez saisir votre mot de passe :	
+GLUE_STORE_CHALLENGE_PWD_RETRY_MESSAGE	Le mot de passe est incorrect. Veuillez le saisir à nouveau :	
 GLUE_STORE_CLOSED_BUTTON_TEXT	Fermé	
 GLUE_STORE_DISABLED	La boutique n’est pas disponible actuellement. Revenez plus tard.	
 GLUE_STORE_DISCLAIMER_DETAILS_1	Toutes les récompenses obtenues (paquets, cartes, or et poussière arcanique) seront effacées de votre compte à la fin de la bêta fermée.	
@@ -222,6 +229,7 @@ GLUE_STORE_DONE_WITH_BAM_HEADLINE	Réessayer
 GLUE_STORE_DONE_WITH_BAM_MESSAGE	Une fois que vous aurez quitté Battle.net, veuillez réessayer d'effectuer votre achat.	
 GLUE_STORE_ERROR_POPUP_TITLE	Erreur de la boutique	
 GLUE_STORE_FAIL_BNET_ID	Identifiant Battle.net invalide.	
+GLUE_STORE_FAIL_CHALLENGE_TIMEOUT	Le délai pour valider votre achat a expiré. Veuillez recommencer la transaction.	
 GLUE_STORE_FAIL_DATABASE	Erreur de la base de données interne.	
 GLUE_STORE_FAIL_DETAILS_ERROR_CODE	(Code erreur : « {0} ») 	
 GLUE_STORE_FAIL_GENERAL	Un problème est survenu lors de votre paiement.	
@@ -230,8 +238,8 @@ GLUE_STORE_FAIL_LICENSE	Copie de licence détectée.
 GLUE_STORE_FAIL_NO_ACTIVE_BPAY	Erreur interne : aucune information de transaction dans la base de données.	
 GLUE_STORE_FAIL_NO_BATTLEPAY	Votre transaction n’a pas pu être effectuée. Désolé ! Veuillez patienter quelques instants avant de réessayer.	
 GLUE_STORE_FAIL_NOT_ENOUGH_GOLD	Vous n’avez pas assez d’or pour acheter ceci pour le moment.	
-GLUE_STORE_FAIL_PASSWORD_TIMEOUT	Le délai pour entrer votre mot de passe a expiré. Veuillez recommencer la transaction.	
 GLUE_STORE_FAIL_PRODUCT_NA	Ce produit est indisponible pour le moment. Veuillez sélectionner un autre produit, puis réessayez.	
+GLUE_STORE_FAIL_PURCHASE_BAN	L’utilisation de la boutique a été bloquée pour votre compte. Si vous pensez qu’il s’agit d’une erreur, merci de contacter l’assistance clientèle.	
 GLUE_STORE_FAIL_QUANTITY	Vous avez sélectionné une quantité invalide pour cet objet. Veuillez modifier la quantité avant de réessayer.	
 GLUE_STORE_FORGOT_PWD_DETAILS	Vous avez saisi plusieurs fois un mot de passe incorrect. Avez-vous oublié votre mot de passe ?	
 GLUE_STORE_FORGOT_PWD_HEADLINE	Mot de passe oublié ?	
@@ -252,10 +260,7 @@ GLUE_STORE_NO_PAYMENT_DETAILS	Vous n’avez pas encore défini de méthode de pa
 GLUE_STORE_NO_PAYMENT_HEADLINE	Attention !	
 GLUE_STORE_NO_PAYMENT_URL_DETAILS	Appuyez sur « {0} » pour vous rendre sur le site Battle.net.	
 GLUE_STORE_OPEN_BUTTON_TEXT	Boutique	
-GLUE_STORE_PASSWORD_HEADLINE	Attention !	
-GLUE_STORE_PASSWORD_MESSAGE	Veuillez saisir votre mot de passe :	
-GLUE_STORE_PASSWORD_RETRY_MESSAGE	Le mot de passe est incorrect. Veuillez le saisir à nouveau :	
-GLUE_STORE_PAYMENT_INFO_DETAILS	La somme sera d’abord déduite de votre porte-monnaie Battle.net. Si le solde est insuffisant, la méthode de paiement principale de votre compte Battle.net sera utilisée.	
+GLUE_STORE_PAYMENT_INFO_DETAILS	La somme sera d’abord déduite de votre porte-monnaie Battle.net. Si le solde est insuffisant, le moyen de paiement principal de votre compte Battle.net sera utilisé.\n\nIMPORTANT : tout remboursement ou incident de paiement concernant cette transaction peut entraîner la suspension temporaire de ce compte Hearthstone le temps de résoudre l’incident ou d’effectuer le remboursement.	
 GLUE_STORE_PAYMENT_INFO_HEADLINE	Informations de paiement	
 GLUE_STORE_PAYMENT_INFO_URL_DETAILS	Pour obtenir davantage d’informations, appuyez sur {0} pour être redirigé vers la page des informations de paiement de Battle.net.	
 GLUE_STORE_PRODUCT_DETAILS_EXPERT_PACK	•  5 cartes Hearthstone Expert\n•  Au moins 1 carte rare ou supérieure	
@@ -267,7 +272,7 @@ GLUE_STORE_QUANTITY_HEADLINE	Changer la quantité
 GLUE_STORE_QUANTITY_MESSAGE	Combien de paquets voulez-vous acheter avec votre or ? Maximum autorisé : {0}.	
 GLUE_STORE_SINGLE_EXPERT_PACK	1 paquet Expert	
 GLUE_STORE_SINGLE_PACK	1 paquet	
-GLUE_STORE_SUBMIT_PWD_BUTTON_TEXT	Acheter	
+GLUE_STORE_SUBMIT_CHALLENGE_BUTTON_TEXT	Acheter	
 GLUE_STORE_SUMMARY_CHARGE_DETAILS	Sera facturé sur votre {0}	
 GLUE_STORE_SUMMARY_HEADLINE	Commande	
 GLUE_STORE_SUMMARY_ITEM_ORDERED	{0} x {1}	0=item quantity, 1=item name (one of GLUE_STORE_PRODUCT_NAME_*)
@@ -275,7 +280,7 @@ GLUE_STORE_SUMMARY_ITEMS_ORDERED_HEADLINE	Produits sélectionnés
 GLUE_STORE_SUMMARY_PRICE_HEADLINE	Prix	
 GLUE_STORE_SUMMARY_TAX_DISCLAIMER	Plus la TVA en vigueur.	
 GLUE_TIP_DEFAULT_0	Vous pouvez acheter des paquets supplémentaires de cartes Expert à la boutique.	
-GLUE_TIP_DEFAULT_1	Cliquez sur votre héros pendant la modification d’un deck pour changer de nom de deck.	
+GLUE_TIP_DEFAULT_1	Cliquez sur le héros lors de la modification d’un deck pour changer le nom de deck.	
 GLUE_TIP_DEFAULT_10	L’Arène vous permet de construire un deck à partir de cartes aléatoires. Vous pouvez également gagner des récompenses !	
 GLUE_TIP_DEFAULT_11	Les cartes de base s’obtiennent en gagnant des niveaux. Elles ne peuvent pas être désenchantées ou créées.	
 GLUE_TIP_DEFAULT_12	Les cartes dorées désenchantées rapportent beaucoup de poussière arcanique.	
@@ -341,7 +346,7 @@ GLUE_TOOLTIP_BUTTON_PRACTICE_DESC	Développez vos compétences contre des advers
 GLUE_TOOLTIP_BUTTON_PRACTICE_HEADLINE	Entraînement	
 GLUE_TOOLTIP_BUTTON_QUESTLOG_DESC	Consultez votre progression.	
 GLUE_TOOLTIP_BUTTON_QUESTLOG_HEADLINE	Journal	
-GLUE_TOOLTIP_BUTTON_TOURNAMENT_DESC	Jouez contre un adversaire de votre niveau pour obtenir des médailles et des paquets.	
+GLUE_TOOLTIP_BUTTON_TOURNAMENT_DESC	Jouez contre un adversaire de votre niveau.	
 GLUE_TOOLTIP_BUTTON_TOURNAMENT_HEADLINE	Partie	
 GLUE_TOOLTIP_GOLD_DESCRIPTION	Dépensez de l’or pour acheter des paquets ou entrer dans l’Arène.	
 GLUE_TOOLTIP_GOLD_HEADER	Or	

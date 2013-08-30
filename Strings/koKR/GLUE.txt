@@ -50,6 +50,7 @@ GLUE_COLLECTION_MINE	내 카드
 GLUE_COLLECTION_MY_DECKS	나의 덱	
 GLUE_COLLECTION_MY_PACKS	나의 팩	
 GLUE_COLLECTION_NEW_CARD_CALLOUT	{0}	0=number of new cards for this class
+GLUE_COLLECTION_NEW_DECK	새로운 덱	
 GLUE_COLLECTION_NO_MATCHES	검색 결과 없음	
 GLUE_COLLECTION_PAGE_NUM	{0} 페이지	
 GLUE_COLLECTION_PLUS	+	
@@ -144,6 +145,7 @@ GLUE_QUEST_LOG_HEADLINE	퀘스트 기록
 GLUE_QUEST_LOG_NO_QUESTS	퀘스트가 없습니다. 연습 모드에서 새로운 영웅들을 잠금 해제하세요!	
 GLUE_QUEST_LOG_NO_QUESTS_DAILIES_UNLOCKED	퀘스트가 없습니다. 내일 다시 확인해보세요!	
 GLUE_QUEST_LOG_TOTAL_LEVELS	<color=#c4b47c>레벨 총합:</color> {0}	
+GLUE_QUEST_LOG_TOTAL_WINS_HEADLINE	총 승수	
 GLUE_QUEST_LOG_WINS_HEADLINE	대전 승수	
 GLUE_QUEST_NOTIFICATION_CAPTION	퀘스트는 대부분 대전 모드나 투기장에서 완료할 수 있습니다.	
 GLUE_QUEST_NOTIFICATION_HEADER	오늘의 퀘스트	
@@ -211,6 +213,10 @@ GLUE_STORE_BNET_BALANCE	배틀코인
 GLUE_STORE_BONUS_PACKS	보너스 {0}개	0=number of packs
 GLUE_STORE_BUY_TEXT	구매	
 GLUE_STORE_CC_EXPIRY_DETAILS	당신의 신용 카드 정보가 만료되었습니다.	
+GLUE_STORE_CHALLENGE_CVV_MESSAGE	CVC 코드를 입력하세요:\n\n만약 CVC 코드를 확인하는 데 도움이 필요하시면 "{0}" 단추를 누르세요.	
+GLUE_STORE_CHALLENGE_HEADLINE	경고	
+GLUE_STORE_CHALLENGE_PWD_MESSAGE	비밀번호를 입력해 주십시오:	
+GLUE_STORE_CHALLENGE_PWD_RETRY_MESSAGE	비밀번호가 맞지 않습니다. 비밀번호를 다시 입력해주세요.	
 GLUE_STORE_CLOSED_BUTTON_TEXT	상점 닫힘	
 GLUE_STORE_DISABLED	지금은 상점을 이용할 수 없습니다. 나중에 다시 시도하세요.	
 GLUE_STORE_DISCLAIMER_DETAILS_1	모든 팩, 카드, 골드, 그리고 신비한 가루는 비공개 베타가 종료되면 삭제되고 계정은 초기화됩니다.	
@@ -222,6 +228,7 @@ GLUE_STORE_DONE_WITH_BAM_HEADLINE	재시도
 GLUE_STORE_DONE_WITH_BAM_MESSAGE	Battle.net에서 설정을 완료했다면, 구매를 다시 시도하세요.	
 GLUE_STORE_ERROR_POPUP_TITLE	상점 오류	
 GLUE_STORE_FAIL_BNET_ID	잘못된 Battle.net ID입니다.	
+GLUE_STORE_FAIL_CHALLENGE_TIMEOUT	구매 확인 시간이 초과되었습니다. 거래를 다시 시작해주세요.	
 GLUE_STORE_FAIL_DATABASE	내부 데이터베이스 오류가 발생했습니다.	
 GLUE_STORE_FAIL_DETAILS_ERROR_CODE	(오류 코드: '{0}')	
 GLUE_STORE_FAIL_GENERAL	결제 도중 오류가 발생했습니다.	
@@ -230,8 +237,8 @@ GLUE_STORE_FAIL_LICENSE	복제된 라이센스가 감지되었습니다.
 GLUE_STORE_FAIL_NO_ACTIVE_BPAY	내부 오류: 데이터베이스에서 해당 구매 정보를 찾을 수 없습니다.	
 GLUE_STORE_FAIL_NO_BATTLEPAY	구매를 완료할 수 없습니다. 죄송합니다! 잠시 후에 다시 시도해 주세요.	
 GLUE_STORE_FAIL_NOT_ENOUGH_GOLD	골드가 부족하여 구입할 수 없습니다.	
-GLUE_STORE_FAIL_PASSWORD_TIMEOUT	비밀번호 확인 시간이 초과되었습니다. 거래를 다시 시작해주세요.	
 GLUE_STORE_FAIL_PRODUCT_NA	해당 상품은 현재 구매할 수 없습니다. 다른 상품을 선택하고 다시 시도해 주세요.	
+GLUE_STORE_FAIL_PURCHASE_BAN	당신의 계정은 상점을 사용할 수 없습니다. 의도치 않은 사항이라면 고객 센터에 문의해주세요.	
 GLUE_STORE_FAIL_QUANTITY	잘못된 수량을 입력했습니다. 다른 수량을 입력하신 후 다시 시도해 주세요.	
 GLUE_STORE_FORGOT_PWD_DETAILS	잘못된 비밀번호를 계속해서 입력했습니다. 비밀번호를 잊으셨나요?	
 GLUE_STORE_FORGOT_PWD_HEADLINE	비밀번호를 잊으셨나요?	
@@ -252,10 +259,7 @@ GLUE_STORE_NO_PAYMENT_DETAILS	아직 기본 결제 수단을 지정하지 않았
 GLUE_STORE_NO_PAYMENT_HEADLINE	경고	
 GLUE_STORE_NO_PAYMENT_URL_DETAILS	"{0}" 단추를 누르면 Battle.net 웹사이트로 이동합니다.	
 GLUE_STORE_OPEN_BUTTON_TEXT	상점	
-GLUE_STORE_PASSWORD_HEADLINE	경고	
-GLUE_STORE_PASSWORD_MESSAGE	비밀번호를 입력해 주십시오:	
-GLUE_STORE_PASSWORD_RETRY_MESSAGE	비밀번호가 맞지 않습니다. 비밀번호를 다시 입력해주세요.	
-GLUE_STORE_PAYMENT_INFO_DETAILS	비용은 우선 배틀코인에서 차감됩니다. 배틀코인이 부족하면 Battle.net 계정에 설정되어 있는 기본 결제 수단으로 청구됩니다.	
+GLUE_STORE_PAYMENT_INFO_DETAILS	비용은 우선 배틀코인에서 차감됩니다. 배틀코인이 부족하면 Battle.net 계정에 설정되어 있는 기본 결제 수단으로 청구됩니다.\n\n중요: 결제 도중 오류가 발생하거나 결제 불가 상태가 되면 잠시 동안 하스스톤 계정이 잠깁니다. 이 경우, 오류가 해결되거나 결제가 완료되면 잠금이 해제됩니다.	
 GLUE_STORE_PAYMENT_INFO_HEADLINE	결제 정보	
 GLUE_STORE_PAYMENT_INFO_URL_DETAILS	자세한 설명이 필요하다면 {0} 단추를 누르세요. Battle.net 결제 정보 웹사이트로 이동합니다.	
 GLUE_STORE_PRODUCT_DETAILS_EXPERT_PACK	•  5장의 고급 하스스톤 카드\n•  최소 1장은 희귀 혹은 더 높은 등급의 카드	
@@ -267,7 +271,7 @@ GLUE_STORE_QUANTITY_HEADLINE	수량 변경
 GLUE_STORE_QUANTITY_MESSAGE	골드로 팩을 얼마나 구매하시겠습니까? 최대 {0} 개의 팩을 골드로 구매할 수 있습니다.	
 GLUE_STORE_SINGLE_EXPERT_PACK	고급 팩 1개	
 GLUE_STORE_SINGLE_PACK	팩 1개	
-GLUE_STORE_SUBMIT_PWD_BUTTON_TEXT	구매	
+GLUE_STORE_SUBMIT_CHALLENGE_BUTTON_TEXT	구매	
 GLUE_STORE_SUMMARY_CHARGE_DETAILS	다음 결제 수단으로 청구됩니다: {0}	
 GLUE_STORE_SUMMARY_HEADLINE	요약	
 GLUE_STORE_SUMMARY_ITEM_ORDERED	{1} x {0}	0=item quantity, 1=item name (one of GLUE_STORE_PRODUCT_NAME_*)
@@ -341,7 +345,7 @@ GLUE_TOOLTIP_BUTTON_PRACTICE_DESC	AI를 상대로 실력을 연마하세요.
 GLUE_TOOLTIP_BUTTON_PRACTICE_HEADLINE	연습	
 GLUE_TOOLTIP_BUTTON_QUESTLOG_DESC	당신의 플레이 기록을 살펴보세요.	
 GLUE_TOOLTIP_BUTTON_QUESTLOG_HEADLINE	퀘스트 기록	
-GLUE_TOOLTIP_BUTTON_TOURNAMENT_DESC	실력이 비슷한 상대와 겨루어 메달과 팩을 획득하세요. 	
+GLUE_TOOLTIP_BUTTON_TOURNAMENT_DESC	실력이 비슷한 상대와 겨루세요. 	
 GLUE_TOOLTIP_BUTTON_TOURNAMENT_HEADLINE	대전	
 GLUE_TOOLTIP_GOLD_DESCRIPTION	골드를 사용하여 팩을 구매하거나 투기장에 입장할 수 있습니다.	
 GLUE_TOOLTIP_GOLD_HEADER	골드	

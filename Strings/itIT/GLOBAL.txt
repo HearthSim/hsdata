@@ -40,6 +40,7 @@ GLOBAL_CLASS_ROGUE	Ladro
 GLOBAL_CLASS_SHAMAN	Sciamano	
 GLOBAL_CLASS_WARLOCK	Stregone	
 GLOBAL_CLASS_WARRIOR	Guerriero	
+GLOBAL_CLICK_TO_CONTINUE	Clicca per continuare	
 GLOBAL_COLLECTION_GOLDEN	Dorata	
 GLOBAL_CONCEDE	Resa	
 GLOBAL_CONFIRM	Conferma	
@@ -64,7 +65,6 @@ GLOBAL_ERROR_ASSET_INCORRECT_DATA	L'elemento {0} contiene dati errati.	0=asset n
 GLOBAL_ERROR_ASSET_LOAD_FAILED	Impossibile caricare l'elemento {0}.	0=asset name
 GLOBAL_ERROR_ASSET_LOADING_TIMEOUT	Tempo scaduto in attesa del caricamento dell'elemento {0}.	0=asset name
 GLOBAL_ERROR_ASSET_NO_FILE_PATH	Impossibile trovare il percorso per l'elemento {0}.	0=asset name
-GLOBAL_ERROR_ASSET_NO_WORKING_DIRECTORY	Impossibile trovare una cartella funzionante.	
 GLOBAL_ERROR_ASSET_TITLE	ERRORE ELEMENTO	
 GLOBAL_ERROR_CURRENCY_INVALID	È stato richiesto l'utilizzo di una valuta non valida per l'acquisto.	
 GLOBAL_ERROR_GAME_DENIED	Errore durante l'avvio del gioco! Attendi qualche minuto e riprova.	
@@ -88,7 +88,7 @@ GLOBAL_EXIT	Esci
 GLOBAL_FEATURE_DISABLED_MESSAGE_COLLECTION	Spiacenti, la Collezione è attualmente disattivata.	
 GLOBAL_FEATURE_DISABLED_MESSAGE_FORGE	Spiacenti, l'Arena è attualmente disattivata.	
 GLOBAL_FEATURE_DISABLED_MESSAGE_PLAY	Spiacenti, la modalità Gioco è attualmente disattivata.	
-GLOBAL_FEATURE_DISABLED_MESSAGE_PRACTICE	Spiacenti, la modalità Pratica è attualmente disattivata.	
+GLOBAL_FEATURE_DISABLED_MESSAGE_PRACTICE	Spiacenti, la modalità Allenamento è attualmente disattivata.	
 GLOBAL_FEATURE_DISABLED_TITLE	Disattivato	
 GLOBAL_FORGE_END_DONE	Fine	
 GLOBAL_FORGE_END_JOKE_0	Davvero sbalorditivo!	
@@ -123,13 +123,15 @@ GLOBAL_FRIENDLIST_REQUEST_SENT_TIME	Inviata: {0}	0=one of the GLOBAL_DATETIME_EL
 GLOBAL_FRIENDLIST_REQUESTS_HEADER	RICHIESTE D'AMICIZIA - {0:n0}	0=number of received friend requests
 GLOBAL_GAME_MENU	Menu di gioco	
 GLOBAL_HEALTH	Salute	
-GLOBAL_HERO_LEVEL_NEXT_REWARD_TITLE	Prossima ricompensa al livello {0}	0=level
+GLOBAL_HEALTHY_GAMING_TOAST	Stai giocando da {0} ore. Non esagerare!	0=hours
+GLOBAL_HEALTHY_GAMING_TOAST_OVER_THRESHOLD	Stai giocando da {0} ore. È davvero troppo tempo!	0=hours
+GLOBAL_HERO_LEVEL_NEXT_REWARD_TITLE	Ricompensa al livello {0}	0=level
 GLOBAL_HERO_LEVEL_REWARD_ARCANE_DUST	{0} Polvere Arcana	0=amount
 GLOBAL_HERO_LEVEL_REWARD_BOOSTER	{0} busta Avanzata	0=booster type
 GLOBAL_HERO_LEVEL_REWARD_GOLD	{0} oro	0=amount
-GLOBAL_HERO_LEVEL_REWARD_GOLDEN_CARD	{0} {1}	0=flair 1=card name
+GLOBAL_HERO_LEVEL_REWARD_GOLDEN_CARD	{1} {0}	0=flair 1=card name
 GLOBAL_KEYWORD_BATTLECRY	Grido di Battaglia	
-GLOBAL_KEYWORD_BATTLECRY_TEXT	Esegue un effetto quando la carta viene giocata dalla mano.	
+GLOBAL_KEYWORD_BATTLECRY_TEXT	Attiva l'effetto quando la carta viene giocata dalla mano.	
 GLOBAL_KEYWORD_CHARGE	Carica	
 GLOBAL_KEYWORD_CHARGE_TEXT	Può attaccare immediatamente.	
 GLOBAL_KEYWORD_COMBO	Combo	
@@ -137,7 +139,7 @@ GLOBAL_KEYWORD_COMBO_TEXT	Un bonus che si ottiene quando è già stata giocata u
 GLOBAL_KEYWORD_COUNTER	Contrasto	
 GLOBAL_KEYWORD_COUNTER_TEXT	Una carta che viene Contrastata non ha effetto.	
 GLOBAL_KEYWORD_DEATHRATTLE	Rantolo di Morte	
-GLOBAL_KEYWORD_DEATHRATTLE_TEXT	Esegue un effetto quando muore.	
+GLOBAL_KEYWORD_DEATHRATTLE_TEXT	Attiva l'effetto quando muore.	
 GLOBAL_KEYWORD_DIVINE_SHIELD	Scudo Divino	
 GLOBAL_KEYWORD_DIVINE_SHIELD_REF_TEXT	La prima volta che un servitore protetto subisce danni, vengono ignorati.	
 GLOBAL_KEYWORD_DIVINE_SHIELD_TEXT	La prima volta che questo servitore subisce danni, vengono ignorati.	
@@ -151,7 +153,7 @@ GLOBAL_KEYWORD_IMMUNE	Immune
 GLOBAL_KEYWORD_IMMUNE_REF_TEXT	I personaggi Immuni non possono essere danneggiati.	
 GLOBAL_KEYWORD_IMMUNE_TEXT	Non può essere danneggiato.	
 GLOBAL_KEYWORD_RECALL	Sovraccarico: X	
-GLOBAL_KEYWORD_RECALL_TEXT	Nel turno successivo, avrai X mana in meno.	
+GLOBAL_KEYWORD_RECALL_TEXT	Nel turno successivo, avrai X Mana in meno.	
 GLOBAL_KEYWORD_SECRET	Segreto	
 GLOBAL_KEYWORD_SECRET_TEXT	Nascosto finché non si verifica un'azione specifica.	
 GLOBAL_KEYWORD_SILENCE	Silenzio	
@@ -176,17 +178,17 @@ GLOBAL_MEDAL_JOURNEYMAN	Praticante
 GLOBAL_MEDAL_MASTER	Maestro	
 GLOBAL_MEDAL_NO_NAME	N/D	
 GLOBAL_MEDAL_NOVICE	Novizio	
-GLOBAL_MEDAL_ONE_STAR	Stella	
+GLOBAL_MEDAL_ONE_STAR	★	
 GLOBAL_MEDAL_PLATINUM	Platino	
 GLOBAL_MEDAL_REWARD_CONGRATULATIONS	Congratulazioni!	
 GLOBAL_MEDAL_REWARD_DESCRIPTION	Medaglie ottenute la settimana scorsa	
 GLOBAL_MEDAL_SILVER	Argento	
-GLOBAL_MEDAL_STARRED_FORMAT	{0} {1}	0=star leve1, 1=medal type
-GLOBAL_MEDAL_THREE_STAR	Tripla Stella	
+GLOBAL_MEDAL_STARRED_FORMAT	{0} - {1}	0=star leve1, 1=medal type
+GLOBAL_MEDAL_THREE_STAR	★★★	
 GLOBAL_MEDAL_TOOLTIP_BODY	Vinci delle partite per avanzare verso la prossima medaglia!\n\nProssima medaglia:\n{0}	0=medal name
 GLOBAL_MEDAL_TOOLTIP_BODY_ARENA_GRAND_MASTER	Sei un campione dell'Arena!	
 GLOBAL_MEDAL_TOOLTIP_HEADER	Medaglia {0}	0=medal name
-GLOBAL_MEDAL_TWO_STAR	Doppia Stella	
+GLOBAL_MEDAL_TWO_STAR	★★	
 GLOBAL_MY_NUM_WINS	{0}	0=number of games this player has won
 GLOBAL_OFFLINE	Disconnesso	
 GLOBAL_OKAY	OK	
@@ -202,7 +204,7 @@ GLOBAL_OPTIONS_SOUND_LABEL	Audio
 GLOBAL_OPTIONS_SOUND_MASTER_VOLUME_LABEL	Volume principale	
 GLOBAL_OPTIONS_SOUND_MUSIC_VOLUME_LABEL	Volume musica	
 GLOBAL_PLAY	Gioca	
-GLOBAL_PRACTICE_MAX_LEVEL_REACHED	Massimo livello di pratica	
+GLOBAL_PRACTICE_MAX_LEVEL_REACHED	Massimo livello contro AI	
 GLOBAL_PROGRAMNAME_DIABLO3	Diablo 3	
 GLOBAL_PROGRAMNAME_HEARTHSTONE	Hearthstone	
 GLOBAL_PROGRAMNAME_PHOENIX	Battle.net	

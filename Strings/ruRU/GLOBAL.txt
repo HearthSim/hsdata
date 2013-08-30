@@ -9,7 +9,7 @@ GLOBAL_BACK	Назад
 GLOBAL_BETA_REIMBURSEMENT_DETAILS	Это золото выдано в качестве компенсации за предыдущие покупки. Спасибо!	
 GLOBAL_BETA_REIMBURSEMENT_HEADLINE	Компенсация	
 GLOBAL_BUTTON_NO	Нет	
-GLOBAL_BUTTON_OK	OK	
+GLOBAL_BUTTON_OK	ОК	
 GLOBAL_BUTTON_YES	Да	
 GLOBAL_CANCEL	Отмена	
 GLOBAL_CARD_SET_CORE	Базовый набор	
@@ -40,9 +40,10 @@ GLOBAL_CLASS_ROGUE	Разбойник
 GLOBAL_CLASS_SHAMAN	Шаман	
 GLOBAL_CLASS_WARLOCK	Чернокнижник	
 GLOBAL_CLASS_WARRIOR	Воин	
-GLOBAL_COLLECTION_GOLDEN	Золотая карта	
+GLOBAL_CLICK_TO_CONTINUE	Нажмите, чтобы продолжить.	
+GLOBAL_COLLECTION_GOLDEN	Золотая карта:	
 GLOBAL_CONCEDE	Сдаться	
-GLOBAL_CONFIRM	Подтвердить	
+GLOBAL_CONFIRM	ОК	
 GLOBAL_COST	Стоимость	
 GLOBAL_DATETIME_FRIENDREQUEST_DAY	Вчера	
 GLOBAL_DATETIME_FRIENDREQUEST_DAYS	{0:n0} дн. назад	
@@ -56,7 +57,7 @@ GLOBAL_DATETIME_SPLASHSCREEN_HOURS	{0:n0} ч.
 GLOBAL_DATETIME_SPLASHSCREEN_MINUTES	{0:n0} мин.	
 GLOBAL_DATETIME_SPLASHSCREEN_SECONDS	< 1 мин.	
 GLOBAL_DATETIME_SPLASHSCREEN_WEEKS	{0:n0} нед.	
-GLOBAL_DEFAULT_ALERT_HEADER	Оповещение	
+GLOBAL_DEFAULT_ALERT_HEADER	Внимание!	
 GLOBAL_DONE	Готово	
 GLOBAL_ERROR_ASSET_CREATE_PERSISTENT_DATA_PATH	Не удалось создать папку для сохранения данных: {0}.	0=folder path
 GLOBAL_ERROR_ASSET_DOWNLOAD_FAILED	Не удалось загрузить ресурс {0}.	0=asset name
@@ -64,7 +65,6 @@ GLOBAL_ERROR_ASSET_INCORRECT_DATA	Ресурс {0} содержит неверн
 GLOBAL_ERROR_ASSET_LOAD_FAILED	Ошибка загрузки данных {0}.	0=asset name
 GLOBAL_ERROR_ASSET_LOADING_TIMEOUT	Превышено время ожидания при загрузке ресурса  {0}	0=asset name
 GLOBAL_ERROR_ASSET_NO_FILE_PATH	Неверный путь к файлу ресурса {0}.	0=asset name
-GLOBAL_ERROR_ASSET_NO_WORKING_DIRECTORY	Рабочий каталог не найден.	
 GLOBAL_ERROR_ASSET_TITLE	ОШИБКА РЕСУРСА	
 GLOBAL_ERROR_CURRENCY_INVALID	Клиент игры использует неверную валюту для совершения покупки.	
 GLOBAL_ERROR_GAME_DENIED	Во время запуска игры произошла ошибка. Пожалуйста, повторите попытку через несколько минут.	
@@ -73,7 +73,7 @@ GLOBAL_ERROR_GENERIC_HEADER	Ошибка
 GLOBAL_ERROR_INACTIVITY_KICK	Вы давно не совершали никаких действий в игре, поэтому ваше соединение с сервером было разорвано. Пожалуйста, перезапустите игру!	
 GLOBAL_ERROR_NETWORK_ACCOUNT_SUSPENDED	Действие вашей учетной записи приостановлено.	
 GLOBAL_ERROR_NETWORK_DISCONNECT	Потеряно соединение со службой Battle.net. Пожалуйста, перезапустите Hearthstone.	
-GLOBAL_ERROR_NETWORK_DUPLICATE_LOGIN	Ваша учетная запись была использована для входа в Heartstone с другого устройства. \n\nКлиент игры был отключен от сети, так как поддерживается только одно подключение единовременно. 
+GLOBAL_ERROR_NETWORK_DUPLICATE_LOGIN	Ваша учетная запись была использована для входа в Hearthstone с другого устройства. \n\nКлиент игры был отключен от сети, так как поддерживается только одно подключение единовременно. 
 	
 GLOBAL_ERROR_NETWORK_GENERIC	Внутренняя ошибка сети.	
 GLOBAL_ERROR_NETWORK_INCORRECT_REGION	Эта учетная запись Battle.net в настоящий момент не может принимать участие в бета-тестировании Hearthstone. Как только бета-тестирование откроется в вашем регионе, пожалуйста, попробуйте еще раз.	
@@ -124,11 +124,13 @@ GLOBAL_FRIENDLIST_REQUEST_SENT_TIME	Получен: {0}	0=one of the GLOBAL_DATE
 GLOBAL_FRIENDLIST_REQUESTS_HEADER	Запросы на добавление в друзья - {0:n0}	0=number of received friend requests
 GLOBAL_GAME_MENU	Меню	
 GLOBAL_HEALTH	Здоровье	
-GLOBAL_HERO_LEVEL_NEXT_REWARD_TITLE	Следующая награда на {0}-м уровне	0=level
+GLOBAL_HEALTHY_GAMING_TOAST	Вы провели слишком много времени за игрой - {0} ч.	0=hours
+GLOBAL_HEALTHY_GAMING_TOAST_OVER_THRESHOLD	Вы играете уже {0} ч. Это очень, очень долго!	0=hours
+GLOBAL_HERO_LEVEL_NEXT_REWARD_TITLE	Награда за {0}-й уровень	0=level
 GLOBAL_HERO_LEVEL_REWARD_ARCANE_DUST	Чародейная пыль: {0}	0=amount
 GLOBAL_HERO_LEVEL_REWARD_BOOSTER	Комплектов карт: {0}	0=booster type
 GLOBAL_HERO_LEVEL_REWARD_GOLD	Золото: {0}	0=amount
-GLOBAL_HERO_LEVEL_REWARD_GOLDEN_CARD	{0} {1}	0=flair 1=card name
+GLOBAL_HERO_LEVEL_REWARD_GOLDEN_CARD	{0} «{1}»	0=flair 1=card name
 GLOBAL_KEYWORD_BATTLECRY	Боевой клич	
 GLOBAL_KEYWORD_BATTLECRY_TEXT	Дополнительный эффект при разыгрывании карты из руки.	
 GLOBAL_KEYWORD_CHARGE	Рывок	
@@ -140,7 +142,7 @@ GLOBAL_KEYWORD_COUNTER_TEXT	Отмененная карта не произво�
 GLOBAL_KEYWORD_DEATHRATTLE	Предсмертный хрип	
 GLOBAL_KEYWORD_DEATHRATTLE_TEXT	Срабатывает, когда существо умирает.	
 GLOBAL_KEYWORD_DIVINE_SHIELD	Божественный щит	
-GLOBAL_KEYWORD_DIVINE_SHIELD_REF_TEXT	Когда защищенное щитом существо первый раз получает повреждения, урон не засчитывается.	
+GLOBAL_KEYWORD_DIVINE_SHIELD_REF_TEXT	Когда защищенное щитом существо первый раз получает урон, он не засчитывается.	
 GLOBAL_KEYWORD_DIVINE_SHIELD_TEXT	Когда существо первый раз получает урон, он не засчитывается.	
 GLOBAL_KEYWORD_ENRAGED	Исступление	
 GLOBAL_KEYWORD_ENRAGED_TEXT	Пока у этого существа неполное здоровье, оно обладает новой способностью.	
@@ -190,7 +192,7 @@ GLOBAL_MEDAL_TOOLTIP_HEADER	{0}	0=medal name
 GLOBAL_MEDAL_TWO_STAR	две звезды	
 GLOBAL_MY_NUM_WINS	{0}	0=number of games this player has won
 GLOBAL_OFFLINE	Не в сети	
-GLOBAL_OKAY	OK	
+GLOBAL_OKAY	ОК	
 GLOBAL_OPTIONS	Настройки	
 GLOBAL_OPTIONS_GRAPHICS_FULLSCREEN_LABEL	Полный экран	
 GLOBAL_OPTIONS_GRAPHICS_LABEL	Графика	
@@ -240,7 +242,7 @@ GLOBAL_RARITY_FREE	Бесплатная
 GLOBAL_RARITY_LEGENDARY	Легендарная	
 GLOBAL_RARITY_RARE	Редкая	
 GLOBAL_RESUME_GAME	Вернуться	
-GLOBAL_REWARD_ARCANE_DUST_HEADLINE	Ваша чародейная пыль!	
+GLOBAL_REWARD_ARCANE_DUST_HEADLINE	Чародейная пыль!	
 GLOBAL_REWARD_BOOSTER_HEADLINE	Комплект эксперта!	
 GLOBAL_REWARD_CARD_COUNT_MULTIPLIER	x	
 GLOBAL_REWARD_CARD_HEADLINE	Награда!	
@@ -252,6 +254,6 @@ GLOBAL_SET_CORE	Базовый набор
 GLOBAL_SET_EXPERT1	Набор эксперта	
 GLOBAL_SOCIAL_TOAST_FRIEND_OFFLINE	<color=#{0}>{1}</color> выходит из сети.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_ONLINE	<color=#{0}>{1}</color> входит в сеть.	0=name color,1=player name
-GLOBAL_SOCIAL_TOAST_FRIEND_REQUEST	<color=#{0}>{1}</color> приглашает вас добавить его в список друзей.	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_FRIEND_REQUEST	Игрок <color=#{0}>{1}</color> приглашает вас добавить его в список друзей.	0=name color,1=player name
 GLOBAL_SPLASH_CLOSED_SIGN_TITLE	Закрыто	
 GLOBAL_WINS	Победы	
