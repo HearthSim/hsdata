@@ -9,6 +9,10 @@ GLUE_ARENA_1ST_TIME_HEADER	竞技模式
 GLUE_ARENA_DECK	竞技模式套牌	
 GLUE_ARENA_DECK_TOOLTIP	这是你的竞技模式套牌。这些卡牌并不存在于你的收藏之中。	
 GLUE_ARENA_DECK_TOOLTIP_HEADER	竞技模式套牌	
+GLUE_CANNOT_FIND_BATTLENET_CLIENT	《炉石传说》无法找到战网客户端来启动游戏，请浏览www.battlenet.com.cn来重新安装。	
+GLUE_CANNOT_RUN_BATTLENET_CLIENT	《炉石传说》无法启动战网客户端，请浏览www.battlenet.com.cn来重新安装。	
+GLUE_CARD_NERF_BODY	\n以下卡牌发生了变化：\n{0}	0=card names
+GLUE_CARD_NERF_HEADER	最新改动！	
 GLUE_CHOOSE	选择	
 GLUE_CHOOSE_OPPONENT	选择对手	
 GLUE_CHOOSE_YOUR_DECK	选择套牌	
@@ -29,6 +33,12 @@ GLUE_COLLECTION_ARTIST	画家
 GLUE_COLLECTION_CARD_COUNT	x{0}	
 GLUE_COLLECTION_CARD_COUNT_LARGE	x9+	
 GLUE_COLLECTION_CARD_NEW	新！	
+GLUE_COLLECTION_CRAFTING_DISENCHANT_BUTTON_TEXT	分解额外的卡牌	
+GLUE_COLLECTION_CRAFTING_EXPLANATION	选择一张卡牌开始制作。\n\n你可以消耗奥术之尘来制作卡牌，或者分解卡牌来获得奥术之尘。\n\n奥术之尘消耗数量取决于卡牌的稀有度。	
+GLUE_COLLECTION_CRAFTING_FILTERS	过滤器	
+GLUE_COLLECTION_CRAFTING_MODE	制作模式	
+GLUE_COLLECTION_CRAFTING_SHOW_ONLY_GOLDEN	只显示金色卡牌	
+GLUE_COLLECTION_CRAFTING_SHOW_SOULBOUND_CARDS	包含灵魂绑定卡牌	
 GLUE_COLLECTION_CUSTOM_DECKNAME_TEMPLATE	自定义 {0}{1}	0=class name, 1=incrementer
 GLUE_COLLECTION_DECK_FINISH_FOR_ME	确定	
 GLUE_COLLECTION_DECK_HELP_BUTTON	推荐卡牌	
@@ -55,6 +65,7 @@ GLUE_COLLECTION_NO_MATCHES	没有查询结果
 GLUE_COLLECTION_PAGE_NUM	第{0}页	
 GLUE_COLLECTION_PLUS	+	
 GLUE_COLLECTION_RECENT_CARDS	最近获得的卡牌	
+GLUE_COLLECTION_RECENTLY_NERFED	<color=#971c1cff>这张卡牌被改动过了，它在分解后所产生的奥术之尘数量也经过了调整。</color>	
 GLUE_COLLECTION_SEARCH	<i>查找</i>	
 GLUE_COLLECTION_SET_TEMPLATE	{0}卡牌	0=set name
 GLUE_COLLECTION_SHOW_ALL_CARDS	显示所有	
@@ -72,10 +83,12 @@ GLUE_CRAFTING_CREATE	制造
 GLUE_CRAFTING_DISENCHANT	分解	
 GLUE_CRAFTING_DISENCHANT_CONFIRM_DESC	你确定吗？以下套牌将无法运作：	
 GLUE_CRAFTING_DISENCHANT_CONFIRM_HEADER	分解	
+GLUE_CRAFTING_DISENCHANT_CONFIRM2_DESC	你确定要这么做吗？将该卡牌分解之后，你的套牌中的卡牌数量将会不足。	
 GLUE_CRAFTING_SOULBOUND	灵魂绑定	
 GLUE_CRAFTING_SOULBOUND_BASIC_DESC	基本级卡牌无法被分解或者制造。	
 GLUE_CRAFTING_SOULBOUND_DESC	这张卡牌无法被分解或者制造。	
 GLUE_CRAFTING_SOULBOUND_REWARD_DESC	任务奖励无法被分解或者制造。	
+GLUE_CRAFTING_TITLE	卡牌制作	
 GLUE_CRAFTING_UNDO	撤销	
 GLUE_CREATE_DECK	新建套牌	
 GLUE_DECK_TRAY_CARD_COUNT_LABEL	卡牌	
@@ -92,22 +105,19 @@ GLUE_FORGE	竞技模式
 GLUE_FORGE_EXTRA_PRIZE_LABEL	{0}场胜利	0 = number of wins required to earn this prize
 GLUE_FORGE_MANATIP_DESC	这些是你的套牌中的卡牌，按照法力值消耗排序。	
 GLUE_FORGE_MANATIP_HEADER	法力值曲线	
-GLUE_FORGE_RETIRE_WARNING_DESC	这项操作将提前结束你的竞技模式比赛！你仍然能够根据你所赢得的钥匙数量获得奖励。	
+GLUE_FORGE_RETIRE_WARNING_DESC	这项操作将提前结束你的竞技模式比赛！你仍然能够根据你所赢得的钥匙等级获得奖励。	
 GLUE_FORGE_RETIRE_WARNING_HEADER	等等！	
-GLUE_FORGE_STORE_ADMISSION	打造许可	
+GLUE_FORGE_STORE_ADMISSION	入场费	
 GLUE_FORGE_STORE_DETAILS1	使用随机卡牌打造套牌，然后看你能在竞技模式中坚持多久。	
 GLUE_FORGE_STORE_DETAILS2	你坚持得越久，就能获得越多奖励！	
-GLUE_FORGE_STORE_DISCLAIMER_DETAILS_1	在测试结束时将会进行测试账号清理，在你的账号中，所有在游戏中获得的扩展包、卡牌、金币以及奥术之尘都将被删除。	
-GLUE_FORGE_STORE_DISCLAIMER_DETAILS_2	在账号清理之后，在牌店中进行过购买的玩家能够获得价值等同于其购买的扩展包和/或竞技模式许可证的金币。	
-GLUE_FORGE_STORE_DISCLAIMER_DETAILS_3	如果你花费真实现金购买过竞技模式许可证，为了感谢你帮助我们测试牌店功能，我们将会赠送给你一份精美的礼物！	
+GLUE_FORGE_STORE_DISCLAIMER_DETAILS	如果你花费真实现金支付竞技模式入场费，为了感谢你帮助我们测试牌店功能，我们将会赠送给你一份精美的礼物！	
 GLUE_FORGE_STORE_HEADLINE	欢迎来到竞技模式！	
 GLUE_HERO_LOCKED_DESC	击败并解锁这个英雄！	
 GLUE_HERO_LOCKED_NAME	未解锁	
-GLUE_LOADING	正在载入{0}	0=animated dots to keep the user's eyes busy
 GLUE_LOADING_BAR_TASK_1	正在洗牌	
 GLUE_LOADING_BAR_TASK_10	正在整理情绪	
 GLUE_LOADING_BAR_TASK_11	正在和英雄讨论战术	
-GLUE_LOADING_BAR_TASK_12	正在偷看女服务员	
+GLUE_LOADING_BAR_TASK_12	正在给旅店老板使眼色	
 GLUE_LOADING_BAR_TASK_13	正在刮胡子	
 GLUE_LOADING_BAR_TASK_14	正在活动指关节	
 GLUE_LOADING_BAR_TASK_15	正在点饮料	
@@ -132,16 +142,19 @@ GLUE_MASS_DISENCHANT_TOTAL_AMOUNT	{0:#,###0}	0=total amount with commas and no d
 GLUE_MATCHMAKER_FINDING_OPPONENT	搜寻对手	
 GLUE_MATCHMAKER_PERFECT_OPPONENT	旗鼓相当的对手	
 GLUE_MY_COLLECTION	我的收藏	
-GLUE_OPEN_PACKS	打开扩展包	
+GLUE_NINJA	忍者	
+GLUE_OPEN_PACKS	打开\n扩展包	
 GLUE_PACK_OPENING_ALL_CLASSES	所有职业	
 GLUE_PACK_OPENING_BOOSTER_COUNT	{0}	0=number of owned boosters
 GLUE_PACK_OPENING_HEADER	打开扩展包	
+GLUE_PACK_OPENING_TOOLTIP	카드팩을 개봉함으로써, 귀하는 카드팩의 청약철회가 불가하다는 사실을 인지하고 이에 동의합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_PRACTICE	练习模式	
 GLUE_PRACTICE_BASIC_SET_COMPLETE	已获得所有{0}基本级卡牌	0=class
 GLUE_PRACTICE_BASIC_SET_PROGRESS	获得{0}/{1}基本级卡牌	0=number of owned cards,1=total number of basic cards
 GLUE_QUEST_LOG_BEST_FORGE_RECORD_HEADLINE	最佳竞技模式奖章	
 GLUE_QUEST_LOG_CLASS_LOCKED	未解锁	
 GLUE_QUEST_LOG_HEADLINE	任务记录	
+GLUE_QUEST_LOG_HERO_LEVELS	英雄等级	
 GLUE_QUEST_LOG_NO_QUESTS	你没有任务。你可以在练习模式中解锁新的英雄！	
 GLUE_QUEST_LOG_NO_QUESTS_DAILIES_UNLOCKED	你没有任务。明天再回来看看！	
 GLUE_QUEST_LOG_TOTAL_LEVELS	<color=#c4b47c>总体等级：</color> {0}	
@@ -213,20 +226,21 @@ GLUE_STORE_BNET_BALANCE	战网点数
 GLUE_STORE_BONUS_PACKS	{0}包扩展包奖励	0=number of packs
 GLUE_STORE_BUY_TEXT	购买	
 GLUE_STORE_CC_EXPIRY_DETAILS	你的信用卡信息已过期。	
-GLUE_STORE_CHALLENGE_CVV_MESSAGE	请输入信用卡后三位识别码：	
+GLUE_STORE_CHALLENGE_CVV_MESSAGE	请输入信用卡后三位识别码：\n\n点击“{0}”按钮来帮助获取你的识别码。	
 GLUE_STORE_CHALLENGE_HEADLINE	注意	
-GLUE_STORE_CHALLENGE_PWD_MESSAGE	请输入您的密码：	
+GLUE_STORE_CHALLENGE_PWD_MESSAGE	请输入密码：	
 GLUE_STORE_CHALLENGE_PWD_RETRY_MESSAGE	你输入的密码错误。请重新输入密码：	
 GLUE_STORE_CLOSED_BUTTON_TEXT	牌店关闭	
 GLUE_STORE_DISABLED	牌店尚未开张，请稍后再试。	
-GLUE_STORE_DISCLAIMER_DETAILS_1	在测试结束时将会进行测试账号清理，在你的账号中，所有在游戏中获得的扩展包、卡牌、金币以及奥术之尘都将被删除。	
-GLUE_STORE_DISCLAIMER_DETAILS_2	在账号清理之后，在牌店中进行过购买的玩家能够获得价值等同于其购买的扩展包和/或竞技模式许可证的金币。	
-GLUE_STORE_DISCLAIMER_DETAILS_3	另外，如果你在测试阶段花费真实现金进行过购买，为了感谢你帮助我们测试牌店功能，我们将会赠送给你一份精美的礼物！	
+GLUE_STORE_DISCLAIMER_DETAILS	如果你在测试阶段使用真实货币消费，为了感谢你帮助我们测试牌店功能，你可以获得一份礼品！	
 GLUE_STORE_DISCLAIMER_HEADLINE	注意	
 GLUE_STORE_DISCLAIMER_WARNING	你将要花费真实现金进行购买！	
 GLUE_STORE_DONE_WITH_BAM_HEADLINE	再次尝试	
 GLUE_STORE_DONE_WITH_BAM_MESSAGE	在战网成功操作回到游戏后，请再次尝试购买。	
 GLUE_STORE_ERROR_POPUP_TITLE	牌店出错	
+GLUE_STORE_EULA_AND_TOS_DETAILS	你可以在战网上浏览最终用户许可协议和服务条款。	
+GLUE_STORE_EULA_AND_TOS_HEADLINE	服务条款	
+GLUE_STORE_EULA_AND_TOS_URL_DETAILS	点击“{0}”可在战网上浏览最终用户许可协议和服务条款。	
 GLUE_STORE_FAIL_BNET_ID	无效的战网ID	
 GLUE_STORE_FAIL_CHALLENGE_TIMEOUT	支付输入已超时。请重新开始交易。	
 GLUE_STORE_FAIL_DATABASE	内部数据错误。	
@@ -238,8 +252,9 @@ GLUE_STORE_FAIL_NO_ACTIVE_BPAY	内部错误：数据库中无交易信息。
 GLUE_STORE_FAIL_NO_BATTLEPAY	您的交易无法完成。很抱歉！请耐心等待一段时间并再次进行尝试。	
 GLUE_STORE_FAIL_NOT_ENOUGH_GOLD	现在你还没有足够的金币来购买。	
 GLUE_STORE_FAIL_PRODUCT_NA	该产品现在暂不可用。请选择另一个商品并再次进行尝试。	
-GLUE_STORE_FAIL_PURCHASE_BAN	Your account has been blocked from using the store. If you believe this is a mistake, please contact Customer Support.	
+GLUE_STORE_FAIL_PURCHASE_BAN	你的账号已被限制使用牌店。如果你认为这是个错误的操作，请联系客服。	
 GLUE_STORE_FAIL_QUANTITY	您选择了错误的数量。请改变数量并再次进行尝试。	
+GLUE_STORE_FAIL_SPENDING_LIMIT	此项支付超出了你的支付限额。你仍然可以使用金币购买！	
 GLUE_STORE_FORGOT_PWD_DETAILS	你已经多次输错密码。你是否已经忘记密码？	
 GLUE_STORE_FORGOT_PWD_HEADLINE	忘记密码？	
 GLUE_STORE_FORGOT_PWD_URL_DETAILS	点击“{0}”浏览战网页面重置密码。	
@@ -252,6 +267,7 @@ GLUE_STORE_GOLD_QTY_CHANGE_DESC_TOUCH	你已经有了许多金币！如果你想
 GLUE_STORE_GOLD_QTY_CHANGE_HEADER	购买扩展包	
 GLUE_STORE_HEADLINE	牌店	
 GLUE_STORE_INFO_BUTTON_TEXT	i	
+GLUE_STORE_KOREAN_PRODUCT_DETAILS_EXPERT_PACK	이용기간 : 서비스 종료 시까지. 본 상품은 구매 후 7일 이내에 청약철회가 가능합니다. 다만, 1개의 카드팩이라도 개봉한 경우에는 청약철회가 불가능합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_MONEY_BUTTON_TOOLTIP_HEADLINE	购买	
 GLUE_STORE_MULTI_EXPERT_PACK	{0}包专家级扩展包	
 GLUE_STORE_MULTI_PACK	{0}包扩展包	
@@ -262,9 +278,9 @@ GLUE_STORE_OPEN_BUTTON_TEXT	牌店
 GLUE_STORE_PAYMENT_INFO_DETAILS	在支付时，你的战网点数将会被优先扣除。如果战网点数不足，则会通过你的战网主要支付手段进行支付。\n\n请注意：在本次交易中，任何付款或者退款都会造成该《炉石传说》账号暂时冻结，直到付款完成，或者退款款项被重新支付。	
 GLUE_STORE_PAYMENT_INFO_HEADLINE	支付信息	
 GLUE_STORE_PAYMENT_INFO_URL_DETAILS	如果您想要了解更多细节，请点击“{0}”浏览战网支付信息页面。	
-GLUE_STORE_PRODUCT_DETAILS_EXPERT_PACK	• 5张专家级《炉石传说》卡牌：\n• 至少1张稀有品质或更高品质	
+GLUE_STORE_PRODUCT_DETAILS_EXPERT_PACK	• 5张专家级《炉石传说》卡牌\n• 其中至少有1张稀有或更高品质的卡牌	
 GLUE_STORE_PRODUCT_DETAILS_HEADLINE_EXPERT_PACK	扩展包内含：	
-GLUE_STORE_PRODUCT_NAME_FORGE_TICKET	竞技模式许可证	
+GLUE_STORE_PRODUCT_NAME_FORGE_TICKET	竞技模式入场费	
 GLUE_STORE_PRODUCT_PRICE	({0})	0=price
 GLUE_STORE_PRODUCT_PRICE_NA	无	
 GLUE_STORE_QUANTITY_HEADLINE	改变数量	
@@ -276,8 +292,12 @@ GLUE_STORE_SUMMARY_CHARGE_DETAILS	将从您的：{0}中扣款
 GLUE_STORE_SUMMARY_HEADLINE	小结	
 GLUE_STORE_SUMMARY_ITEM_ORDERED	{0} x {1}	0=item quantity, 1=item name (one of GLUE_STORE_PRODUCT_NAME_*)
 GLUE_STORE_SUMMARY_ITEMS_ORDERED_HEADLINE	已订购的货物	
+GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_CONFIRM	본 거래와 관련된 조건과 약관을 확인하며 이에 동의합니다.	only displayed for Korean customers, should always be in Korean
+GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_EXPERT_PACK	이용기간 : 서비스 종료 시까지. 본 상품은 구매 후 7일 이내에 청약철회가 가능합니다. 다만, 1개의 카드팩이라도 개봉한 경우에는 청약철회가 불가능합니다.	only displayed for Korean customers, should always be in Korean
+GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_FORGE_TICKET	투기장 입장료는 구매 후 환불되지 않으며, 구매 즉시 투기장에 입장합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_SUMMARY_PRICE_HEADLINE	价格	
-GLUE_STORE_SUMMARY_TAX_DISCLAIMER	包含消费税。	
+GLUE_STORE_SUMMARY_TAX_DISCLAIMER	费用包含任何适用税费。	
+GLUE_STORE_SUMMARY_TAX_DISCLAIMER_USD	费用包含任何适用税费。	
 GLUE_TIP_DEFAULT_0	你可以从牌店中购买额外的专家级扩展包。	
 GLUE_TIP_DEFAULT_1	在编辑套牌的界面中点击英雄头像即可改变套牌的名称。	
 GLUE_TIP_DEFAULT_10	在竞技模式中，你将使用随机卡牌来打造套牌。你还有机会赢得丰厚奖励！	
@@ -285,6 +305,8 @@ GLUE_TIP_DEFAULT_11	随着等级提升，你能够获得基本级卡牌。它们
 GLUE_TIP_DEFAULT_12	金色卡牌能够分解出大量奥术之尘。	
 GLUE_TIP_DEFAULT_13	你可以使用收藏界面中的搜索功能来查找到所有带有”嘲讽“的随从牌。	
 GLUE_TIP_DEFAULT_14	基本级卡牌能够在某个职业升级时获得。专家级卡牌来自于专家级扩展包。	
+GLUE_TIP_DEFAULT_15	与真实玩家进行对战使你可以获取额外的经验值。	
+GLUE_TIP_DEFAULT_16	你可以右键点击你的对手来屏蔽对方的表情。	
 GLUE_TIP_DEFAULT_2	右键点击你的英雄，和对手打个招呼吧。	
 GLUE_TIP_DEFAULT_3	如果在构筑套牌的过程中需要帮助，请选择“推荐卡牌”。	
 GLUE_TIP_DEFAULT_4	在卡牌中央的宝石颜色显示出某张卡牌的稀有度。	
@@ -313,6 +335,7 @@ GLUE_TIP_PRACTICE_3	浏览你的卡牌收藏，组建你自己的套牌。
 GLUE_TIP_PRACTICE_4	每个职业都有5张不同的基本级卡牌，你能够在升级时解锁这些基本级卡牌。	
 GLUE_TIP_PRACTICE_5	在对战模式中完成任务，赢得金币！	
 GLUE_TIP_PRACTICE_6	直取对手英雄？还是消除敌方随从的威胁？正确的决断将左右胜利的天平。	
+GLUE_TIP_PRACTICE_7	在10级以后，与真实玩家对战能够使你获得更多的经验值。	
 GLUE_TIP_QUEST_LOG_0	在练习模式中解锁其他英雄——击败电脑操控的英雄并解锁他们！	
 GLUE_TIP_QUEST_LOG_1	使用某个职业进行对战，你就能够赢得这个职业额外的基本级卡牌。	
 GLUE_TIP_QUEST_LOG_2	进行对战模式的比赛能够为你赢取专家级卡牌扩展包！	

@@ -23,12 +23,12 @@ GAMEPLAY_FATIGUE_TEXT	¡Se han acabado las cartas! Recibe {0} p. de daño.
 GAMEPLAY_FATIGUE_TITLE	Fatiga	
 GAMEPLAY_MANA_COUNTER	{0}/{1}	0=unused mana 1=current total mana
 GAMEPLAY_MULLIGAN_REPLACE	SUSTITUIDA	
-GAMEPLAY_NOTIFICATION_MAX_HAND_SIZE	Solo puedes tener {0} cartas en tu mano	
-GAMEPLAY_NOTIFICATION_MAX_MANA	Solo puedes tener {0} cristales de maná	
+GAMEPLAY_NOTIFICATION_MAX_HAND_SIZE	Solo puedes tener {0} |4(carta,cartas) en tu mano	
+GAMEPLAY_NOTIFICATION_MAX_MANA	Solo puedes tener {0} |4(cristal,cristales) de maná	
 GAMEPLAY_PlayErrors_REQ_ATTACK_GREATER_THAN_0	Un personaje sin valor de ataque no puede atacar	
 GAMEPLAY_PlayErrors_REQ_ATTACKER_CAN_ATTACK	Ese personaje no puede atacar	
 GAMEPLAY_PlayErrors_REQ_ATTACKER_NOT_FROZEN	Los personajes congelados no pueden atacar	
-GAMEPLAY_PlayErrors_REQ_CAN_BE_ATTACKED	Ese personaje no se puede atacar	
+GAMEPLAY_PlayErrors_REQ_CAN_BE_ATTACKED	No se puede atacar a ese personaje	
 GAMEPLAY_PlayErrors_REQ_CAN_BE_TARGETED_BY_HERO_POWERS	No puede ser objetivo de poderes de héroe	
 GAMEPLAY_PlayErrors_REQ_CAN_BE_TARGETED_BY_OPPONENTS	Ese personaje no puede ser el objetivo	
 GAMEPLAY_PlayErrors_REQ_CAN_BE_TARGETED_BY_SPELLS	No puede ser objetivo de hechizos	
@@ -43,8 +43,8 @@ GAMEPLAY_PlayErrors_REQ_FRIENDLY_TARGET	Elige a un personaje amistoso
 GAMEPLAY_PlayErrors_REQ_FROZEN_TARGET	Elige a un personaje congelado	
 GAMEPLAY_PlayErrors_REQ_HERO_OR_MINION_TARGET	El objetivo debe ser un personaje	
 GAMEPLAY_PlayErrors_REQ_HERO_TARGET	El objetivo debe ser un héroe	
-GAMEPLAY_PlayErrors_REQ_MINIMUM_ENEMY_MINIONS	El enemigo debe tener al menos {0} esbirros	
-GAMEPLAY_PlayErrors_REQ_MINIMUM_TOTAL_MINIONS	Debe haber al menos {0} esbirros en el campo de batalla	
+GAMEPLAY_PlayErrors_REQ_MINIMUM_ENEMY_MINIONS	El enemigo debe tener al menos {0} |4(esbirro,esbirros)	
+GAMEPLAY_PlayErrors_REQ_MINIMUM_TOTAL_MINIONS	Debe haber al menos {0} |4(esbirro,esbirros) en el campo de batalla	
 GAMEPLAY_PlayErrors_REQ_MINION_CAP	No puedes tener más esbirros	
 GAMEPLAY_PlayErrors_REQ_MINION_CAP_IF_TARGET_AVAILABLE	No puedes tener más esbirros	
 GAMEPLAY_PlayErrors_REQ_MINION_TARGET	Elige a un esbirro	
@@ -55,7 +55,7 @@ GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_ACTIVATE	Ese personaje ya ha atacado
 GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_HERO_POWER	Los poderes de héroe solo se pueden usar una vez por turno	
 GAMEPLAY_PlayErrors_REQ_NOT_MINION_JUST_PLAYED	Los esbirros no pueden atacar en el turno en el que entran	
 GAMEPLAY_PlayErrors_REQ_NUM_MINION_SLOTS	¡Tienes demasiados esbirros para jugar esa carta!	
-GAMEPLAY_PlayErrors_REQ_SECRET_CAP	Solo puedes tener {0} secretos	
+GAMEPLAY_PlayErrors_REQ_SECRET_CAP	Solo puedes tener {0} |4(secreto,secretos)	
 GAMEPLAY_PlayErrors_REQ_SUBCARD_IS_PLAYABLE	Ninguna opción es válida	
 GAMEPLAY_PlayErrors_REQ_TARGET_ATTACKED_THIS_TURN	El objetivo debe ser un personaje que ya haya atacado	
 GAMEPLAY_PlayErrors_REQ_TARGET_FOR_COMBO	Eso no se puede jugar sin objetivo	
@@ -67,33 +67,19 @@ GAMEPLAY_PlayErrors_REQ_TARGET_MIN_ATTACK	Elige a un personaje con {0} p. de ata
 GAMEPLAY_PlayErrors_REQ_TARGET_TAUNTER	Debes atacar a un esbirro con Provocar	
 GAMEPLAY_PlayErrors_REQ_TARGET_TO_PLAY	Eso no se puede jugar sin objetivo	
 GAMEPLAY_PlayErrors_REQ_TARGET_WITH_RACE	No es la raza correcta	
+GAMEPLAY_PlayErrors_REQ_UNDAMAGED_TARGET	El objetivo debe ser un personaje que no haya recibido daño.	
 GAMEPLAY_PlayErrors_REQ_UNIQUE_SECRET	Ya tienes ese secreto	
 GAMEPLAY_PlayErrors_REQ_WEAPON_EQUIPPED	Debes tener un arma	
 GAMEPLAY_PRE_TUTORIAL_WANTED	Se busca	
-GAMEPLAY_REWARD_BOOSTER_DETAILS	{0}/{1} victorias	0=# wins, 1=# total wins to earn reward
-GAMEPLAY_REWARD_BOOSTER_SOURCE_FORGE	Recompensa por ganar {0} partidas en la Arena	
-GAMEPLAY_REWARD_CARD_DETAILS_TUTORIAL01	¡Toma ya!	
-GAMEPLAY_REWARD_CARD_DETAILS_TUTORIAL02	Ha sido impresionante.	
-GAMEPLAY_REWARD_CARD_DETAILS_TUTORIAL03	¡Estás en racha!	
-GAMEPLAY_REWARD_CARD_DETAILS_TUTORIAL04	Ha sido increíble.	
-GAMEPLAY_REWARD_CARD_DETAILS_TUTORIAL05	¡Magnífico!	
-GAMEPLAY_REWARD_CARD_DETAILS_TUTORIAL06	¡Alucinante!	
-GAMEPLAY_REWARD_CARD_LEVEL_UP	Se desbloquea al alcanzar el nivel {0} con el {1}	0=# level, 1=class
-GAMEPLAY_REWARD_CORE_CARD_DETAILS	{0}/{1} cartas de {2} desbloqueadas	0=# cards unlocked, 1=# cards possible to unlock, 2=class
-GAMEPLAY_REWARD_GOLD_SOURCE_TOURNEY	Recompensa por ganar {0} partidas en el modo Jugar	
-GAMEPLAY_REWARD_GOLDEN_HERO_HEADLINE	{0} dorado desbloqueado	
-GAMEPLAY_REWARD_HERO_DETAILS	{0}/{1} héroes desbloqueados	
-GAMEPLAY_REWARD_HERO_HEADLINE	Has desbloqueado al {0}	
-GAMEPLAY_REWARD_HERO_SOURCE	Se desbloquea al derrotar al {0} en el modo Práctica	0=class
 GAMEPLAY_SECRET_BANNER_TITLE	¡Secreto!	
 GAMEPLAY_SECRET_DESC	Esto está oculto hasta que suceda una acción secreta... ¡Mantente alerta!	
 GAMEPLAY_SECRET_NAME	Secreto	
-GAMEPLAY_TOOLTIP_DECK_DESCRIPTION	Tienes {0} cartas en el mazo.	
+GAMEPLAY_TOOLTIP_DECK_DESCRIPTION	Tienes {0} |4(carta,cartas) en el mazo.	
 GAMEPLAY_TOOLTIP_DECK_HEADLINE	Mazo	
-GAMEPLAY_TOOLTIP_ENEMYDECK_DESC	El mazo de tu oponente contiene {0} cartas.	
+GAMEPLAY_TOOLTIP_ENEMYDECK_DESC	El mazo de tu oponente contiene {0} |4(carta,cartas).	
 GAMEPLAY_TOOLTIP_ENEMYDECK_HEADLINE	Mazo del enemigo	
-GAMEPLAY_TOOLTIP_ENEMYHAND_DESC	La mano de tu enemigo contiene {0} cartas.	0= number of cards in hand.
-GAMEPLAY_TOOLTIP_ENEMYHAND_DESC_SINGLE	La mano de tu enemigo contiene {0} carta.	0= number of cards in hand.
+GAMEPLAY_TOOLTIP_ENEMYHAND_DESC	La mano de tu enemigo contiene {0} |4(carta,cartas).	0= number of cards in hand.
+GAMEPLAY_TOOLTIP_ENEMYHAND_DESC_SINGLE	La mano de tu enemigo contiene {0} |4(carta,carta).	0= number of cards in hand.
 GAMEPLAY_TOOLTIP_ENEMYHAND_DESC_TUT	La mano de tu enemigo. Los jugadores roban una carta cada turno.	
 GAMEPLAY_TOOLTIP_ENEMYHAND_HEADLINE	Mano del enemigo	
 GAMEPLAY_TOOLTIP_FATIGUE_DECK_DESCRIPTION	¡Te has quedado sin cartas! A partir de ahora recibirás daño cada vez que intentes robar cartas.	

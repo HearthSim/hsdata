@@ -23,8 +23,8 @@ GAMEPLAY_FATIGUE_TEXT	Keine Karten mehr! Erleidet {0} Schaden.
 GAMEPLAY_FATIGUE_TITLE	Erschöpfung	
 GAMEPLAY_MANA_COUNTER	{0}/{1}	0=unused mana 1=current total mana
 GAMEPLAY_MULLIGAN_REPLACE	ERSETZT	
-GAMEPLAY_NOTIFICATION_MAX_HAND_SIZE	Ihr könnt nur {0} Karten auf Eurer Hand haben.	
-GAMEPLAY_NOTIFICATION_MAX_MANA	Ihr könnt nur {0} Manakristalle besitzen.	
+GAMEPLAY_NOTIFICATION_MAX_HAND_SIZE	Ihr könnt nur {0} |4(Karte,Karten) auf Eurer Hand haben.	
+GAMEPLAY_NOTIFICATION_MAX_MANA	Ihr könnt nur {0} |4(Manakristall,Manakristalle) besitzen.	
 GAMEPLAY_PlayErrors_REQ_ATTACK_GREATER_THAN_0	Ein Charakter ohne Angriffswert kann nicht angreifen.	
 GAMEPLAY_PlayErrors_REQ_ATTACKER_CAN_ATTACK	Dieser Charakter kann nicht angreifen.	
 GAMEPLAY_PlayErrors_REQ_ATTACKER_NOT_FROZEN	Eingefrorene Charaktere können nicht angreifen.	
@@ -55,7 +55,7 @@ GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_ACTIVATE	Dieser Charakter hat bereits ange
 GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_HERO_POWER	Heldenfähigkeiten können nur einmal pro Runde eingesetzt werden.	
 GAMEPLAY_PlayErrors_REQ_NOT_MINION_JUST_PLAYED	Diener können nicht in dem Zug angreifen, in dem sie ausgespielt wurden.	
 GAMEPLAY_PlayErrors_REQ_NUM_MINION_SLOTS	Ihr habt zu viele Diener, um diese Karte auszuspielen.	
-GAMEPLAY_PlayErrors_REQ_SECRET_CAP	Ihr könnt nur über {0} Geheimnisse verfügen.	
+GAMEPLAY_PlayErrors_REQ_SECRET_CAP	Ihr könnt nur über {0} |4(Geheimnis,Geheimnisse) verfügen.	
 GAMEPLAY_PlayErrors_REQ_SUBCARD_IS_PLAYABLE	Keine dieser Optionen ist gültig.	
 GAMEPLAY_PlayErrors_REQ_TARGET_ATTACKED_THIS_TURN	Ihr müsst einen Charakter als Ziel wählen, der bereits angegriffen hat.	
 GAMEPLAY_PlayErrors_REQ_TARGET_FOR_COMBO	Ihr könnt das nicht tun, ohne ein Ziel zu wählen.	
@@ -67,33 +67,19 @@ GAMEPLAY_PlayErrors_REQ_TARGET_MIN_ATTACK	Wählt einen Charakter mit mind. {0} A
 GAMEPLAY_PlayErrors_REQ_TARGET_TAUNTER	Ihr müsst einen Diener mit Spott angreifen.	
 GAMEPLAY_PlayErrors_REQ_TARGET_TO_PLAY	Ihr könnt das nicht tun, ohne ein Ziel zu wählen.	
 GAMEPLAY_PlayErrors_REQ_TARGET_WITH_RACE	Das ist nicht der korrekte Dienertyp.	
+GAMEPLAY_PlayErrors_REQ_UNDAMAGED_TARGET	Ihr müsst einen unverletzten Charakter als Ziel wählen.	
 GAMEPLAY_PlayErrors_REQ_UNIQUE_SECRET	Ihr verfügt bereits über dieses Geheimnis.	
 GAMEPLAY_PlayErrors_REQ_WEAPON_EQUIPPED	Ihr müsst über eine Waffe verfügen.	
 GAMEPLAY_PRE_TUTORIAL_WANTED	Gesucht	
-GAMEPLAY_REWARD_BOOSTER_DETAILS	{0}/{1} Siege	0=# wins, 1=# total wins to earn reward
-GAMEPLAY_REWARD_BOOSTER_SOURCE_FORGE	Belohnung für das Gewinnen von {0} Spielen in der Arena	
-GAMEPLAY_REWARD_CARD_DETAILS_TUTORIAL01	Oh ja!	
-GAMEPLAY_REWARD_CARD_DETAILS_TUTORIAL02	Das ist ziemlich beeindruckend.	
-GAMEPLAY_REWARD_CARD_DETAILS_TUTORIAL03	Ihr seid nicht zu stoppen!	
-GAMEPLAY_REWARD_CARD_DETAILS_TUTORIAL04	Das war unglaublich.	
-GAMEPLAY_REWARD_CARD_DETAILS_TUTORIAL05	Beachtlich!	
-GAMEPLAY_REWARD_CARD_DETAILS_TUTORIAL06	Brandheiß!	
-GAMEPLAY_REWARD_CARD_LEVEL_UP	Freigeschaltet durch das Erreichen von Stufe {0} als {1}.	0=# level, 1=class
-GAMEPLAY_REWARD_CORE_CARD_DETAILS	{2}: {0}/{1} Karten freigeschaltet	0=# cards unlocked, 1=# cards possible to unlock, 2=class
-GAMEPLAY_REWARD_GOLD_SOURCE_TOURNEY	Belohnung für das Gewinnen von {0} Spielen im Modus „Spielen“	
-GAMEPLAY_REWARD_GOLDEN_HERO_HEADLINE	{0} (Golden) freigeschaltet	
-GAMEPLAY_REWARD_HERO_DETAILS	{0}/{1} Helden freigeschaltet	
-GAMEPLAY_REWARD_HERO_HEADLINE	{0} freigeschaltet	
-GAMEPLAY_REWARD_HERO_SOURCE	Freigeschaltet durch das Besiegen der folgenden Klasse im Modus „Üben“: {0}	0=class
 GAMEPLAY_SECRET_BANNER_TITLE	Geheimnis!	
 GAMEPLAY_SECRET_DESC	Bleibt verborgen, bis eine geheime Aktion ausgeführt wurde ... Seid vorsichtig!	
 GAMEPLAY_SECRET_NAME	Geheimnis	
-GAMEPLAY_TOOLTIP_DECK_DESCRIPTION	Ihr habt {0} Karte(n) in Eurem Deck.	
+GAMEPLAY_TOOLTIP_DECK_DESCRIPTION	Ihr habt {0} |4(Karte,Karten) in Eurem Deck.	
 GAMEPLAY_TOOLTIP_DECK_HEADLINE	Deck	
-GAMEPLAY_TOOLTIP_ENEMYDECK_DESC	Euer Gegner hat {0} Karte(n) in seinem Deck.	
+GAMEPLAY_TOOLTIP_ENEMYDECK_DESC	Euer Gegner hat {0} |4(Karte,Karten) in seinem Deck.	
 GAMEPLAY_TOOLTIP_ENEMYDECK_HEADLINE	Gegnerisches Deck	
-GAMEPLAY_TOOLTIP_ENEMYHAND_DESC	Euer Gegner hat {0} Karten auf der Hand.	0= number of cards in hand.
-GAMEPLAY_TOOLTIP_ENEMYHAND_DESC_SINGLE	Euer Gegner hat {0} Karte auf der Hand.	0= number of cards in hand.
+GAMEPLAY_TOOLTIP_ENEMYHAND_DESC	Euer Gegner hat {0} |4(Karte,Karten) auf der Hand.	0= number of cards in hand.
+GAMEPLAY_TOOLTIP_ENEMYHAND_DESC_SINGLE	Euer Gegner hat {0} |4(Karte,Karten) auf der Hand.	0= number of cards in hand.
 GAMEPLAY_TOOLTIP_ENEMYHAND_DESC_TUT	Die Hand Eures Gegners. Spieler ziehen jede Runde eine weitere Karte.	
 GAMEPLAY_TOOLTIP_ENEMYHAND_HEADLINE	Gegnerische Hand	
 GAMEPLAY_TOOLTIP_FATIGUE_DECK_DESCRIPTION	Ihr habt keine Karten mehr! Von nun an werdet Ihr jedes Mal Schaden erleiden, wenn Ihr versucht, eine Karte zu ziehen.	

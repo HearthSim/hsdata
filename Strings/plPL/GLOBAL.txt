@@ -14,6 +14,7 @@ GLOBAL_BUTTON_YES	Tak
 GLOBAL_CANCEL	Anuluj	
 GLOBAL_CARD_SET_CORE	Podstawowe	
 GLOBAL_CARD_SET_EXPERT1	Eksperckie	
+GLOBAL_CARD_SET_PROMO	Promocyjne	
 GLOBAL_CARD_SET_REWARD	Nagrody	
 GLOBAL_CARDTYPE_ENCHANTMENT	Urok	
 GLOBAL_CARDTYPE_HERO	Bohater	
@@ -26,7 +27,7 @@ GLOBAL_CARDTYPE_WEAPON	Broń
 GLOBAL_CHAT_BUBBLE_RECEIVER_NAME	Do: {0}	0=player name
 GLOBAL_CHAT_CHALLENGE	Wyzwanie	
 GLOBAL_CHAT_NO_FRIENDS_ONLINE	W sieci nie ma obecnie żadnych znajomych.	
-GLOBAL_CHAT_NO_RECENT_CONVERSATIONS	Użyj menu znajomych, aby rozpocząć rozmowę.	
+GLOBAL_CHAT_NO_RECENT_CONVERSATIONS	Otwórz menu znajomych, aby rozpocząć rozmowę.	
 GLOBAL_CHAT_RECEIVER_OFFLINE	{0} jest poza siecią.	0=player name
 GLOBAL_CHAT_RECEIVER_ONLINE	{0} jest w sieci.	0=player name
 GLOBAL_CLASS_DEATHKNIGHT	Rycerz Śmierci	
@@ -36,53 +37,62 @@ GLOBAL_CLASS_MAGE	Mag
 GLOBAL_CLASS_NEUTRAL	Neutralne	
 GLOBAL_CLASS_PALADIN	Paladyn	
 GLOBAL_CLASS_PRIEST	Kapłan	
-GLOBAL_CLASS_ROGUE	Łotrzyk	
+GLOBAL_CLASS_ROGUE	Łotr	
 GLOBAL_CLASS_SHAMAN	Szaman	
 GLOBAL_CLASS_WARLOCK	Czarnoksiężnik	
 GLOBAL_CLASS_WARRIOR	Wojownik	
 GLOBAL_CLICK_TO_CONTINUE	Kliknij, aby kontynuować	
-GLOBAL_COLLECTION_GOLDEN	Złota	
-GLOBAL_CONCEDE	Poddaj	
+GLOBAL_COLLECTION_GOLDEN	złota	
+GLOBAL_CONCEDE	Poddaj się	
 GLOBAL_CONFIRM	Akceptuj	
 GLOBAL_COST	Koszt	
-GLOBAL_DATETIME_FRIENDREQUEST_DAY	Wczoraj	
-GLOBAL_DATETIME_FRIENDREQUEST_DAYS	{0:n0} dni temu	
-GLOBAL_DATETIME_FRIENDREQUEST_HOURS	{0:n0} godz. temu	
-GLOBAL_DATETIME_FRIENDREQUEST_MINUTES	{0:n0} min. temu	
-GLOBAL_DATETIME_FRIENDREQUEST_SECONDS	Mniej niż minutę temu	
-GLOBAL_DATETIME_FRIENDREQUEST_WEEKS	{0:n0} tyg. temu	
+GLOBAL_CURRENT_TIME	{0:HH:mm}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
+GLOBAL_DATETIME_FRIENDREQUEST_DAY	wczoraj	
+GLOBAL_DATETIME_FRIENDREQUEST_DAYS	{0} |4(dzień,dni,dni) temu	
+GLOBAL_DATETIME_FRIENDREQUEST_HOURS	{0} |4(godzinę,godziny,godzin) temu	
+GLOBAL_DATETIME_FRIENDREQUEST_MINUTES	{0} |4(minutę,minuty,minut) temu	
+GLOBAL_DATETIME_FRIENDREQUEST_MONTH	ponad miesiąc temu	
+GLOBAL_DATETIME_FRIENDREQUEST_SECONDS	mniej niż minutę temu	
+GLOBAL_DATETIME_FRIENDREQUEST_WEEKS	{0} |4(tydzień,tygodnie,tygodni) temu	
+GLOBAL_DATETIME_LASTONLINE_DAY	ostatnio w sieci wczoraj	
+GLOBAL_DATETIME_LASTONLINE_DAYS	ostatnio w sieci {0} |4(dzień,dni,dni) temu	
+GLOBAL_DATETIME_LASTONLINE_HOURS	ostatnio w sieci {0} |4(godzinę,godziny,godzin) temu	
+GLOBAL_DATETIME_LASTONLINE_MINUTES	ostatnio w sieci {0} |4(minutę,minuty,minut) temu	
+GLOBAL_DATETIME_LASTONLINE_MONTH	ostatnio w sieci ponad miesiąc temu	
+GLOBAL_DATETIME_LASTONLINE_SECONDS	ostatnio w sieci mniej niż minutę temu	
+GLOBAL_DATETIME_LASTONLINE_WEEKS	ostatnio w sieci {0} |4(tydzień,tygodnie,tygodni) temu	
 GLOBAL_DATETIME_SPLASHSCREEN_DAY	> 1 dzień	
-GLOBAL_DATETIME_SPLASHSCREEN_DAYS	{0:n0} dni	
-GLOBAL_DATETIME_SPLASHSCREEN_HOURS	{0:n0} godz.	
-GLOBAL_DATETIME_SPLASHSCREEN_MINUTES	{0:n0} min.	
+GLOBAL_DATETIME_SPLASHSCREEN_DAYS	{0} |4(dzień,dni,dni)	
+GLOBAL_DATETIME_SPLASHSCREEN_HOURS	{0} |4(godzinę,godziny,godzin)	
+GLOBAL_DATETIME_SPLASHSCREEN_MINUTES	{0} |4(minuta,minuty,minut)	
+GLOBAL_DATETIME_SPLASHSCREEN_MONTH	> 1 miesiąc	
 GLOBAL_DATETIME_SPLASHSCREEN_SECONDS	< 1 min.	
-GLOBAL_DATETIME_SPLASHSCREEN_WEEKS	{0:n0} tyg.	
+GLOBAL_DATETIME_SPLASHSCREEN_WEEKS	{0} |4(tydzień,tygodnie,tygodni)	
 GLOBAL_DEFAULT_ALERT_HEADER	Powiadomienie	
 GLOBAL_DONE	Gotowe	
 GLOBAL_ERROR_ASSET_CREATE_PERSISTENT_DATA_PATH	Nie udało się stworzyć folderu do zapisu danych w {0}.	0=folder path
 GLOBAL_ERROR_ASSET_DOWNLOAD_FAILED	Nie udało się pobrać składnika {0}.	0=asset name
 GLOBAL_ERROR_ASSET_INCORRECT_DATA	Składnik {0} zawiera nieprawidłowe dane.	0=asset name
 GLOBAL_ERROR_ASSET_LOAD_FAILED	Nie udało się wczytać składnika {0}.	0=asset name
-GLOBAL_ERROR_ASSET_LOADING_TIMEOUT	Upłynął czas oczekiwania na wczytanie składnika {0}.	0=asset name
 GLOBAL_ERROR_ASSET_NO_FILE_PATH	Nie udało się znaleźć ścieżki dla składnika {0}.	0=asset name
-GLOBAL_ERROR_ASSET_TITLE	BŁĄD SKŁADNIKA	
 GLOBAL_ERROR_CURRENCY_INVALID	Klient próbował dokonać zakupu niewłaściwą walutą.	
 GLOBAL_ERROR_GAME_DENIED	Wystąpił błąd przy uruchamianiu gry. Poczekaj parę minut i spróbuj ponownie.	
 GLOBAL_ERROR_GAME_OPPONENT_TIMEOUT	Nie udało się uruchomić gry, ponieważ przeciwnik nie zdołał nawiązać połączenia. Spróbuj ponownie.	
 GLOBAL_ERROR_GENERIC_HEADER	Błąd	
 GLOBAL_ERROR_INACTIVITY_KICK	Minęło trochę czasu od twojego ostatniego ruchu w Hearthstone i twoje połączenie zostało przerwane. Jeśli chcesz, uruchom ponownie grę!	
+GLOBAL_ERROR_NETWORK_ACCOUNT_BANNED	Twoje konto zostało zbanowane.	
 GLOBAL_ERROR_NETWORK_ACCOUNT_SUSPENDED	Twoje konto zostało zawieszone.	
+GLOBAL_ERROR_NETWORK_PARENTAL_CONTROLS	Access to this account is currently restricted by parental controls.	
 GLOBAL_ERROR_NETWORK_DISCONNECT	Nastąpiło rozłączenie z usługą Battle.net. Uruchom ponownie Hearthstone, aby spróbować nawiązać połączenie jeszcze raz.	
 GLOBAL_ERROR_NETWORK_DUPLICATE_LOGIN	Nastąpiło zalogowanie do Hearthstone z tego konta Battle.net na innym urządzeniu.\n\nObecny klient został odłączony, ponieważ jednocześnie obsługiwane jest tylko jedno połączenie.	
 GLOBAL_ERROR_NETWORK_GENERIC	Wystąpił wewnętrzny błąd połączenia.	
 GLOBAL_ERROR_NETWORK_INCORRECT_REGION	Twoje konto Battle.net nie może uczestniczyć w beta testach Hearthstone w tym regionie. Spróbuj ponownie, kiedy beta Hearthstone będzie dostępna w twoim regionie!	
 GLOBAL_ERROR_NETWORK_LOGIN_FAILURE	Gra nie zdołała zalogować cię za pośrednictwem Battle.netu. Poczekaj kilka minut i spróbuj ponownie.	
 GLOBAL_ERROR_NETWORK_LOST_GAME_CONNECTION	Nastąpiło odłączenie twojej gry od usługi Battle.net. Możesz spróbować połączyć się ponownie rozpoczynając nową grę.	
-GLOBAL_ERROR_NETWORK_SPAM	Nastąpiło rozłączenie z usługą Battle.net z powodu zbyt szybkiego wysyłania duży liczby żądań. Uruchom ponownie Hearthstone, aby spróbować nawiązać połączenie jeszcze raz.	
+GLOBAL_ERROR_NETWORK_SPAM	Nastąpiło rozłączenie z usługą Battle.net z powodu zbyt szybkiego wysyłania dużej liczby żądań. Uruchom ponownie Hearthstone, aby spróbować nawiązać połączenie jeszcze raz.	
 GLOBAL_ERROR_NETWORK_TITLE	BŁĄD POŁĄCZENIA	
 GLOBAL_ERROR_NETWORK_UTIL_TIMEOUT	Upłynął czas żądania danych z usługi Hearthstone. Uruchom ponownie Hearthstone, aby jeszcze raz nawiązać połączenie.	
 GLOBAL_ERROR_STREAMING_ASSET_TIMEOUT	Upłynął czas oczekiwania na system strumieniowania. Wczytywano składnik {0}.	0=asset name
-GLOBAL_ERROR_STREAMING_TITLE	BŁĄD STRUMIENIOWANIA	
 GLOBAL_ERROR_UNKNOWN_ERROR	Oho! Jakieś swawolne skrzaty nie pozwoliły na połączenie Hearthstone z usługą Battle.net. Poczekaj parę minut aż się ulotnią i spróbuj uruchomić grę ponownie.	
 GLOBAL_EXIT	Wyjście	
 GLOBAL_FEATURE_DISABLED_MESSAGE_COLLECTION	Kolekcja jest obecnie wyłączona.	
@@ -112,26 +122,31 @@ GLOBAL_FRIEND_CHALLENGE_OPPONENT_WAITING_RESPONSE	Czekasz aż {0} odpowie na two
 GLOBAL_FRIEND_CHALLENGE_RECEIVED	{0} rzuca ci wyzwanie!\n\nPrzyjmujesz?	0=friend name
 GLOBAL_FRIEND_CHALLENGE_TITLE	Gra towarzyska	
 GLOBAL_FRIENDLIST_ADD_FRIEND_BUTTON	Dodaj	
-GLOBAL_FRIENDLIST_CURRENT_GAMES_HEADER	OBECNE GRY - {0:n0}	0=number of friends you have unfinished games with
-GLOBAL_FRIENDLIST_FRIENDS_HEADER	ZNAJOMI - {0:n0}/{1:n0} dostępnych	0=number of online friends 1=number of offline friends
-GLOBAL_FRIENDLIST_FRIENDS_HEADER_ALL_ONLINE	ZNAJOMI - dostępni: {0:n0}	
-GLOBAL_FRIENDLIST_FRIENDS_HEADER_NO_ONLINE	ZNAJOMI	
+GLOBAL_FRIENDLIST_CURRENT_GAMES_HEADER	AKTUALNE GRY - {0}	0=number of friends you have unfinished games with
+GLOBAL_FRIENDLIST_FRIENDS_HEADER	Dostępni znajomi: {0}/{1}	0=number of online friends 1=number of offline friends
+GLOBAL_FRIENDLIST_FRIENDS_HEADER_ALL_ONLINE	Dostępni znajomi: {0}	
+GLOBAL_FRIENDLIST_FRIENDS_HEADER_NO_ONLINE	Znajomi	
 GLOBAL_FRIENDLIST_MYSTATUS	W SIECI	
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_ALERT_MESSAGE	Czy na pewno chcesz usunąć gracza {0}?	0=friend name
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_BUTTON	Usuń	
 GLOBAL_FRIENDLIST_REQUEST_SENT_TIME	Wysłano: {0}	0=one of the GLOBAL_DATETIME_ELAPSED_ strings
-GLOBAL_FRIENDLIST_REQUESTS_HEADER	PROŚBY O DODANIE: {0:n0}	0=number of received friend requests
+GLOBAL_FRIENDLIST_REQUESTS_HEADER	PROŚBY O DODANIE - {0}	0=number of received friend requests
 GLOBAL_GAME_MENU	Menu gry	
 GLOBAL_HEALTH	Zdrowie	
-GLOBAL_HEALTHY_GAMING_TOAST	Grasz już {0} godz. To zbyt długo.	0=hours
-GLOBAL_HEALTHY_GAMING_TOAST_OVER_THRESHOLD	Grasz już {0} godz. To zdecydowanie zbyt długo.	0=hours
-GLOBAL_HERO_LEVEL_NEXT_REWARD_TITLE	Następna nagroda na poziomie {0}	0=level
+GLOBAL_HEALTHY_GAMING_CHINA_LESS_THAN_THREE_HOURS	您累计在线时间已满{0}小时。	
+GLOBAL_HEALTHY_GAMING_CHINA_MORE_THAN_FIVE_HOURS	您已进入不健康游戏时间，为了您的健康，请您立即下线休息。如不下线，您的身体将受到损害，您的收益已降为零，直到您的累计下线时间满5小时后，才能恢复正常。	
+GLOBAL_HEALTHY_GAMING_CHINA_THREE_HOURS	您累计在线时间已满{0}小时，请您下线休息，做适当身体活动。	
+GLOBAL_HEALTHY_GAMING_CHINA_THREE_TO_FIVE_HOURS	您已经进入疲劳游戏时间，您的游戏收益将降为正常值的0%，为了您的健康，请尽快下线休息，做适当身体活动，合理安排学习生活。	
+GLOBAL_HEALTHY_GAMING_KOREA_STARTUP_MESSAGE	본 게임물은 만 12세 이용가 게임으로서 해당 연령 미만의 청소년이 이용하기에 부적절합니다. 반드시 보호자의 지도 감독이 필요합니다.	
+GLOBAL_HEALTHY_GAMING_TOAST	게임을 플레이한지 {0}시간 지났습니다. 과도한 게임이용은 정상적인 일상생활에 지장을 줄 수 있습니다	
+GLOBAL_HEALTHY_GAMING_TOAST_OVER_THRESHOLD	Grasz już {0} |4(godzinę,godziny,godzin}. To zdecydowanie zbyt długo.	0=hours
+GLOBAL_HERO_LEVEL_NEXT_REWARD_TITLE	Nagroda na poziomie {0}:	0=level
 GLOBAL_HERO_LEVEL_REWARD_ARCANE_DUST	Tajemny pył: {0}	0=amount
-GLOBAL_HERO_LEVEL_REWARD_BOOSTER	Pakiet dodatkowy: {0}	0=booster type
+GLOBAL_HERO_LEVEL_REWARD_BOOSTER	{0} karty dodatkowe	0=booster type
 GLOBAL_HERO_LEVEL_REWARD_GOLD	Złoto: {0}	0=amount
-GLOBAL_HERO_LEVEL_REWARD_GOLDEN_CARD	{0} {1}	0=flair 1=card name
+GLOBAL_HERO_LEVEL_REWARD_GOLDEN_CARD	{1} ({0})	0=flair 1=card name
 GLOBAL_KEYWORD_BATTLECRY	Okrzyk bojowy	
-GLOBAL_KEYWORD_BATTLECRY_TEXT	Robi coś, jeśli zagrasz ją z ręki.	
+GLOBAL_KEYWORD_BATTLECRY_TEXT	Efekt wywoływany po zagraniu karty.	
 GLOBAL_KEYWORD_CHARGE	Szarża	
 GLOBAL_KEYWORD_CHARGE_TEXT	Może natychmiast zaatakować.	
 GLOBAL_KEYWORD_COMBO	Kombinacja	
@@ -152,22 +167,23 @@ GLOBAL_KEYWORD_FROZEN_TEXT	Traci swój następny atak.
 GLOBAL_KEYWORD_IMMUNE	Niewrażliwość	
 GLOBAL_KEYWORD_IMMUNE_REF_TEXT	Niewrażliwym postaciom nie można zadać obrażeń.	
 GLOBAL_KEYWORD_IMMUNE_TEXT	Nie otrzymuje obrażeń.	
-GLOBAL_KEYWORD_RECALL	Przeładowanie: X	
+GLOBAL_KEYWORD_RECALL	Przeciążenie: X	
 GLOBAL_KEYWORD_RECALL_TEXT	W następnej turze masz X mniej many.	
 GLOBAL_KEYWORD_SECRET	Sekret	
 GLOBAL_KEYWORD_SECRET_TEXT	Sekret pozostaje ukryty, aż zostanie spełniony określony warunek.	
 GLOBAL_KEYWORD_SILENCE	Wyciszenie	
 GLOBAL_KEYWORD_SILENCE_TEXT	Usuwa wszelkie teksty i efekty z karty.	
-GLOBAL_KEYWORD_SPELLPOWER	Moc zaklęć	
-GLOBAL_KEYWORD_SPELLPOWER_TEXT	Twoje karty zaklęć zadają {0} pkt. dodatkowych obrażeń.	0=amount of spell power
+GLOBAL_KEYWORD_SPELLPOWER	Siła zaklęć	
+GLOBAL_KEYWORD_SPELLPOWER_TEXT	Twoje karty zaklęć zadają {0} pkt. dodatkowych obrażeń.	0=amount of spell damage
 GLOBAL_KEYWORD_STEALTH	Ukrycie	
-GLOBAL_KEYWORD_STEALTH_REF_TEXT	Karta nie może być atakowana ani wybrana na cel, dopóki sama nie zada obrażeń.	
-GLOBAL_KEYWORD_STEALTH_TEXT	Karta nie może być atakowana ani wybrana na cel, dopóki sama nie zada obrażeń.	
+GLOBAL_KEYWORD_STEALTH_REF_TEXT	Stronnik ten nie może być atakowany ani wybrany na cel, dopóki sam nie zada obrażeń.	
+GLOBAL_KEYWORD_STEALTH_TEXT	Stronnik ten nie może być atakowany ani wybrany na cel, dopóki sam nie zada obrażeń.	
 GLOBAL_KEYWORD_TAUNT	Prowokacja	
 GLOBAL_KEYWORD_TAUNT_REF_TEXT	Wrogowie muszą zaatakować stronników z Prowokacją.	
 GLOBAL_KEYWORD_TAUNT_TEXT	Wrogowie muszą zaatakować tego stronnika.	
 GLOBAL_KEYWORD_WINDFURY	Furia wichru	
 GLOBAL_KEYWORD_WINDFURY_TEXT	Może atakować dwa razy w turze.	
+GLOBAL_LOGOUT	Wyloguj	
 GLOBAL_LOSSES	Przegrane	
 GLOBAL_MEDAL_APPRENTICE	Uczeń	for Arena only
 GLOBAL_MEDAL_COPPER	Miedź	
@@ -183,23 +199,29 @@ GLOBAL_MEDAL_PLATINUM	Platyna
 GLOBAL_MEDAL_REWARD_CONGRATULATIONS	Gratulacje!	
 GLOBAL_MEDAL_REWARD_DESCRIPTION	Medale zdobyte w zeszłym tygodniu	
 GLOBAL_MEDAL_SILVER	Srebro	
-GLOBAL_MEDAL_STARRED_FORMAT	{1}, {0} 	0=star leve1, 1=medal type
+GLOBAL_MEDAL_STARRED_FORMAT	{1} {0}	0=star leve1, 1=medal type
 GLOBAL_MEDAL_THREE_STAR	★★★	
 GLOBAL_MEDAL_TOOLTIP_BODY	Wygrywaj pojedynki, aby zdobyć następny medal!\n\nNastępny medal:\n{0}	0=medal name
 GLOBAL_MEDAL_TOOLTIP_BODY_ARENA_GRAND_MASTER	Jesteś mistrzem Areny!	
-GLOBAL_MEDAL_TOOLTIP_HEADER	Medal: {0}	0=medal name
+GLOBAL_MEDAL_TOOLTIP_HEADER	{0}	0=medal name
 GLOBAL_MEDAL_TWO_STAR	★★	
 GLOBAL_MY_NUM_WINS	{0}	0=number of games this player has won
 GLOBAL_OFFLINE	Niedostępny	
 GLOBAL_OKAY	OK	
 GLOBAL_OPTIONS	Opcje	
-GLOBAL_OPTIONS_GRAPHICS_FULLSCREEN_LABEL	Pełen ekran	
+GLOBAL_OPTIONS_CARDBACK_LABEL	Wybierz rewers karty	
+GLOBAL_OPTIONS_CINEMATIC	Wprowadzenie	
+GLOBAL_OPTIONS_CREDITS	Autorzy	
+GLOBAL_OPTIONS_GRAPHICS_FULLSCREEN_LABEL	Pełny ekran	
 GLOBAL_OPTIONS_GRAPHICS_LABEL	Grafika	
 GLOBAL_OPTIONS_GRAPHICS_QUALITY_HIGH	Wysoka	
 GLOBAL_OPTIONS_GRAPHICS_QUALITY_LABEL	Jakość	
 GLOBAL_OPTIONS_GRAPHICS_QUALITY_LOW	Niska	
 GLOBAL_OPTIONS_GRAPHICS_QUALITY_MEDIUM	Średnia	
 GLOBAL_OPTIONS_GRAPHICS_RESOLUTION_LABEL	Rozdzielczość	
+GLOBAL_OPTIONS_MISCELLANEOUS_LABEL	Różne	
+GLOBAL_OPTIONS_PUBLIC_CHAT_ENABLED	Czat ze wszystkimi	
+GLOBAL_OPTIONS_SOUND_IN_BACKGROUND	Dźwięki w tle	
 GLOBAL_OPTIONS_SOUND_LABEL	Dźwięk	
 GLOBAL_OPTIONS_SOUND_MASTER_VOLUME_LABEL	Ogólna głośność	
 GLOBAL_OPTIONS_SOUND_MUSIC_VOLUME_LABEL	Głośność muzyki	
@@ -244,15 +266,36 @@ GLOBAL_RESUME_GAME	Wznów
 GLOBAL_REWARD_ARCANE_DUST_HEADLINE	Otrzymujesz tajemny pył!	
 GLOBAL_REWARD_BOOSTER_HEADLINE	Otrzymujesz pakiet ekspercki!	
 GLOBAL_REWARD_CARD_COUNT_MULTIPLIER	x	
+GLOBAL_REWARD_CARD_DETAILS_TUTORIAL01	O tak!	
+GLOBAL_REWARD_CARD_DETAILS_TUTORIAL02	To robi wrażenie!	
+GLOBAL_REWARD_CARD_DETAILS_TUTORIAL03	Dobrze ci idzie!	
+GLOBAL_REWARD_CARD_DETAILS_TUTORIAL04	To było niesamowite.	
+GLOBAL_REWARD_CARD_DETAILS_TUTORIAL05	Fenomenalnie!	
+GLOBAL_REWARD_CARD_DETAILS_TUTORIAL06	Dajesz czadu!	
 GLOBAL_REWARD_CARD_HEADLINE	Nagroda!	
+GLOBAL_REWARD_CARD_LEVEL_UP	Odblokowane po awansowaniu na poziom {0} jako {1}	0=# level, 1=class
+GLOBAL_REWARD_CORE_CARD_DETAILS	Odblokowane karty ({2}): {0}/{1} 	0=# cards unlocked, 1=# cards possible to unlock, 2=class
 GLOBAL_REWARD_FORGE_UNLOCKED_HEADLINE	Arena odblokowana!	
 GLOBAL_REWARD_FORGE_UNLOCKED_SOURCE	Przyznawane za wejście na Arenę	
 GLOBAL_REWARD_GOLD_HEADLINE	Otrzymujesz złoto!	
+GLOBAL_REWARD_GOLD_SOURCE_TOURNEY	Przyznawane za wygranie {0} |4(potyczki,potyczek,potyczek) w trybie pojedynku	
+GLOBAL_REWARD_GOLDEN_HERO_HEADLINE	Odblokowano złoty portret: {0}	
+GLOBAL_REWARD_HERO_DETAILS	Odblokowani bohaterowie: {0}/{1} 	
+GLOBAL_REWARD_HERO_HEADLINE	Odblokowano: {0}	
+GLOBAL_REWARD_HERO_SOURCE	Odblokowano za pokonanie postaci: {0}	0=class
 GLOBAL_SCREENSHOT_COMPLETE	Obrazek zapisano na pulpicie	
 GLOBAL_SET_CORE	Zestaw podstawowy	
 GLOBAL_SET_EXPERT1	Zestaw mistrzowski	
-GLOBAL_SOCIAL_TOAST_FRIEND_OFFLINE	<color=#{0}>{1}</color> wychodzi z sieci.	0=name color,1=player name
-GLOBAL_SOCIAL_TOAST_FRIEND_ONLINE	<color=#{0}>{1}</color> jest w sieci.	0=name color,1=player name
+GLOBAL_SHUTDOWN_TOAST	<color=#{0}>Battle.net zostanie zamknięty za {1} |4(minutę,minuty,minut)</color>	0=color, 1=minutes
+GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_COMPLETE	<color=#{0}>{1}</color> kończy właśnie serię pojedynków na Arenie. ({2}-{3})	0=name color,1=player name,2=Arena Wins,3=Arena Losses
+GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START	<color=#{0}>{1}</color> zaczyna nową serię na Arenie.	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_FRIEND_GOLDEN_LEGENDARY	<color=#{0}>{1}</color> zdobywa <color=#{3}>Złotą kartę: {2}</color>!	0=name color,1=player name,2=card name,3=Golden Color
+GLOBAL_SOCIAL_TOAST_FRIEND_LEGENDARY	<color=#{0}>{1}</color> zdobywa kartę: <color=#{3}>{2}</color>!	0=name color,1=player name,2=card name
+GLOBAL_SOCIAL_TOAST_FRIEND_OFFLINE	<color=#{0}>{1}</color> wychodzi z gry.	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_FRIEND_ONLINE	<color=#{0}>{1}</color> wchodzi do gry.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_REQUEST	<color=#{0}>{1}</color> wysyła ci zaproszenie do znajomych.	0=name color,1=player name
 GLOBAL_SPLASH_CLOSED_SIGN_TITLE	Zamknięte	
+GLOBAL_TOOLTIP_MENU_DESC	Tu możesz między innymi sprawdzić opcje i listę autorów oraz wyjść z gry.	
+GLOBAL_TOOLTIP_MENU_HEADER	Menu gry	
 GLOBAL_WINS	Zwycięstwa	
+GLOBAL_HEALTHY_GAMING_CHINA_CAIS_ACTIVE	CAIS Active	

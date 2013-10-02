@@ -9,6 +9,10 @@ GLUE_ARENA_1ST_TIME_HEADER	투기장
 GLUE_ARENA_DECK	투기장 덱	
 GLUE_ARENA_DECK_TOOLTIP	당신의 투기장 덱입니다. 이 카드들은 당신이 소유한 카드가 아닙니다.	
 GLUE_ARENA_DECK_TOOLTIP_HEADER	투기장 덱	
+GLUE_CANNOT_FIND_BATTLENET_CLIENT	하스스톤이 Battle.net 클라이언트를 찾을 수 없습니다. www.battle.net에 접속하셔서 클라이언트를 재설치해주세요.	
+GLUE_CANNOT_RUN_BATTLENET_CLIENT	Battle.net 클라이언트가 손상되었습니다. www.battle.net에 접속하셔서 클라이언트를 재설치해주세요.	
+GLUE_CARD_NERF_BODY	\n다음 카드가 변경되었습니다:\n{0}	0=card names
+GLUE_CARD_NERF_HEADER	변경 사항!	
 GLUE_CHOOSE	선택	
 GLUE_CHOOSE_OPPONENT	상대 선택	
 GLUE_CHOOSE_YOUR_DECK	덱 선택	
@@ -29,14 +33,20 @@ GLUE_COLLECTION_ARTIST	아티스트
 GLUE_COLLECTION_CARD_COUNT	x{0}	
 GLUE_COLLECTION_CARD_COUNT_LARGE	x9+	
 GLUE_COLLECTION_CARD_NEW	신규!	
-GLUE_COLLECTION_CUSTOM_DECKNAME_TEMPLATE	사용자 정의 {0} {1}	0=class name, 1=incrementer
+GLUE_COLLECTION_CRAFTING_DISENCHANT_BUTTON_TEXT	여분의 카드에서 마력 추출	
+GLUE_COLLECTION_CRAFTING_EXPLANATION	제작할 카드를\n클릭하여 선택하세요.\n\n신비한 가루를 사용하여 카드를 만들거나, 카드에서 마력을 추출하여 가루를 획득하세요.\n\n카드의 제작 비용은 카드의 등급에 따라 다릅니다.	
+GLUE_COLLECTION_CRAFTING_FILTERS	필터	
+GLUE_COLLECTION_CRAFTING_MODE	제작하기	
+GLUE_COLLECTION_CRAFTING_SHOW_ONLY_GOLDEN	황금 카드만 표시	
+GLUE_COLLECTION_CRAFTING_SHOW_SOULBOUND_CARDS	귀속 카드 포함	
+GLUE_COLLECTION_CUSTOM_DECKNAME_TEMPLATE	나만의 {0} 덱 {1}	0=class name, 1=incrementer
 GLUE_COLLECTION_DECK_FINISH_FOR_ME	예	
 GLUE_COLLECTION_DECK_HELP_BUTTON	카드 추천	
 GLUE_COLLECTION_DECK_INFO_HERO_POWER_TOOLTIP	영웅 능력	
 GLUE_COLLECTION_DECK_INFO_MANA_TOOLTIP	카드/소비 마나	
 GLUE_COLLECTION_DECK_INFO_TITLE	{0} 정보	
 GLUE_COLLECTION_DECK_INVALID_POPUP_HEADER	잘못된 덱	
-GLUE_COLLECTION_DECK_INVALID_POPUP_MESSAGE	덱을 완성하려면 {0}장의 카드가 더 필요합니다. 덱을 자동으로 완성하겠습니까?	
+GLUE_COLLECTION_DECK_INVALID_POPUP_MESSAGE	덱을 완성하려면 {0}|4(장,장)의 카드가 더 필요합니다. 덱을 자동으로 완성하겠습니까?	
 GLUE_COLLECTION_DECK_SAVE_ANYWAY	아니요	
 GLUE_COLLECTION_DELETE_CONFIRM_DESC	정말로 덱을 삭제하시겠습니까?	
 GLUE_COLLECTION_DELETE_CONFIRM_HEADER	삭제	
@@ -55,6 +65,7 @@ GLUE_COLLECTION_NO_MATCHES	검색 결과 없음
 GLUE_COLLECTION_PAGE_NUM	{0} 페이지	
 GLUE_COLLECTION_PLUS	+	
 GLUE_COLLECTION_RECENT_CARDS	최근에 획득한 카드	
+GLUE_COLLECTION_RECENTLY_NERFED	이 카드는 최근에 변경되어서 마력 추출로 획득할 수 있는 재료가 조절되었습니다.	
 GLUE_COLLECTION_SEARCH	<i>검색</i>	
 GLUE_COLLECTION_SET_TEMPLATE	{0} 세트	0=set name
 GLUE_COLLECTION_SHOW_ALL_CARDS	모든 카드 보기	
@@ -72,10 +83,12 @@ GLUE_CRAFTING_CREATE	제작
 GLUE_CRAFTING_DISENCHANT	마력 추출	
 GLUE_CRAFTING_DISENCHANT_CONFIRM_DESC	계속하시겠습니까? 다음 덱을 사용할 수 없게 됩니다.	
 GLUE_CRAFTING_DISENCHANT_CONFIRM_HEADER	마력 추출	
+GLUE_CRAFTING_DISENCHANT_CONFIRM2_DESC	정말입니까? 이 카드에서 마력을 추출하면 덱에 넣을 수 있는 최대량보다 카드가 적어집니다.	
 GLUE_CRAFTING_SOULBOUND	귀속	
 GLUE_CRAFTING_SOULBOUND_BASIC_DESC	기본 카드는 마력을 추출하거나 제작할 수 없습니다.	
 GLUE_CRAFTING_SOULBOUND_DESC	이 카드는 마력을 추출하거나 제작할 수 없습니다.	
 GLUE_CRAFTING_SOULBOUND_REWARD_DESC	퀘스트 보상은 마력을 추출하거나 제작할 수 없습니다.	
+GLUE_CRAFTING_TITLE	카드 제작	
 GLUE_CRAFTING_UNDO	취소	
 GLUE_CREATE_DECK	덱 생성	
 GLUE_DECK_TRAY_CARD_COUNT_LABEL	카드	
@@ -89,7 +102,7 @@ GLUE_DRAFT_PLAY_BUTTON	시작
 GLUE_DRAFT_RETIRE_BUTTON	포기	
 GLUE_DRAFT_WINS_LABEL	승리	
 GLUE_FORGE	투기장	
-GLUE_FORGE_EXTRA_PRIZE_LABEL	{0}승	0 = number of wins required to earn this prize
+GLUE_FORGE_EXTRA_PRIZE_LABEL	{0}|4(승,승)	0 = number of wins required to earn this prize
 GLUE_FORGE_MANATIP_DESC	당신의 덱에 있는 카드들을 필요 마나 순으로 나열한 것입니다.	
 GLUE_FORGE_MANATIP_HEADER	마나 분포	
 GLUE_FORGE_RETIRE_WARNING_DESC	투기장을 완료하지 않고 종료합니다! 하지만 획득한 열쇠에 따라 보상은 여전히 얻을 수 있습니다.	
@@ -97,20 +110,17 @@ GLUE_FORGE_RETIRE_WARNING_HEADER	잠깐!
 GLUE_FORGE_STORE_ADMISSION	입장권	
 GLUE_FORGE_STORE_DETAILS1	무작위 카드로 덱을 구성하세요. 그 덱으로 투기장에서 최대한 살아남으세요.	
 GLUE_FORGE_STORE_DETAILS2	오래 살아남을수록 더 좋은 보상을 얻게 됩니다!	
-GLUE_FORGE_STORE_DISCLAIMER_DETAILS_1	모든 팩, 카드, 골드, 그리고 신비한 가루는 비공개 베타가 종료되면 계정에서 삭제됩니다.	
-GLUE_FORGE_STORE_DISCLAIMER_DETAILS_2	계정이 초기화된 후, 상점에서 카드 팩이나 투기장 입장권을 구매한 플레이어들은 해당 금액에 상응하는 만큼의 골드가  지급됩니다.	
-GLUE_FORGE_STORE_DISCLAIMER_DETAILS_3	투기장 입장권을 하나 이상 현금으로 구매하면 상점 테스트를 도와주신 보답으로 선물을 드립니다!	
+GLUE_FORGE_STORE_DISCLAIMER_DETAILS	투기장 입장권을 하나 이상 현금으로 구매하면 상점 테스트를 도와주신 보답으로 선물을 드립니다!	
 GLUE_FORGE_STORE_HEADLINE	투기장에 오신 것을 환영합니다!	
 GLUE_HERO_LOCKED_DESC	이 영웅을 이기면 잠금이 해제됩니다!	
 GLUE_HERO_LOCKED_NAME	잠김	
-GLUE_LOADING	로딩 중{0}	0=animated dots to keep the user's eyes busy
 GLUE_LOADING_BAR_TASK_1	카드 섞는 중	
 GLUE_LOADING_BAR_TASK_10	마음의 준비를 하는 중	
 GLUE_LOADING_BAR_TASK_11	영웅 배치하는 중	
 GLUE_LOADING_BAR_TASK_12	여관주인 째려보는 중	
 GLUE_LOADING_BAR_TASK_13	면도 중	
 GLUE_LOADING_BAR_TASK_14	나사 조이는 중	
-GLUE_LOADING_BAR_TASK_15	음료 서빙 중	
+GLUE_LOADING_BAR_TASK_15	음료 돌리는 중	
 GLUE_LOADING_BAR_TASK_16	게임판 고르는 중	
 GLUE_LOADING_BAR_TASK_17	덱 정리 중	
 GLUE_LOADING_BAR_TASK_18	경비 매수 중	
@@ -129,19 +139,22 @@ GLUE_MASS_DISENCHANT_HEADLINE	대규모 마력 추출
 GLUE_MASS_DISENCHANT_PREMIUM_TITLE	황금 {0}	0=rarity
 GLUE_MASS_DISENCHANT_SUB_HEADLINE_TEXT	파괴할 카드:	
 GLUE_MASS_DISENCHANT_TOTAL_AMOUNT	{0:#,###0}	0=total amount with commas and no decimals
-GLUE_MATCHMAKER_FINDING_OPPONENT	상대 찾는 중	
+GLUE_MATCHMAKER_FINDING_OPPONENT	상대를 찾는 중	
 GLUE_MATCHMAKER_PERFECT_OPPONENT	적절한 상대	
 GLUE_MY_COLLECTION	내 카드	
+GLUE_NINJA	닌자	
 GLUE_OPEN_PACKS	팩 개봉	
 GLUE_PACK_OPENING_ALL_CLASSES	모든 직업	
 GLUE_PACK_OPENING_BOOSTER_COUNT	{0}	0=number of owned boosters
 GLUE_PACK_OPENING_HEADER	팩 개봉	
+GLUE_PACK_OPENING_TOOLTIP	카드팩을 개봉함으로써, 귀하는 카드팩의 청약철회가 불가하다는 사실을 인지하고 이에 동의합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_PRACTICE	연습	
 GLUE_PRACTICE_BASIC_SET_COMPLETE	기본 {0} 세트 완성	0=class
 GLUE_PRACTICE_BASIC_SET_PROGRESS	기본 카드 {0}/{1}장 획득	0=number of owned cards,1=total number of basic cards
 GLUE_QUEST_LOG_BEST_FORGE_RECORD_HEADLINE	투기장 최고 훈장	
 GLUE_QUEST_LOG_CLASS_LOCKED	잠김	
 GLUE_QUEST_LOG_HEADLINE	퀘스트 기록	
+GLUE_QUEST_LOG_HERO_LEVELS	영웅 레벨	
 GLUE_QUEST_LOG_NO_QUESTS	퀘스트가 없습니다. 연습 모드에서 새로운 영웅들을 잠금 해제하세요!	
 GLUE_QUEST_LOG_NO_QUESTS_DAILIES_UNLOCKED	퀘스트가 없습니다. 내일 다시 확인해보세요!	
 GLUE_QUEST_LOG_TOTAL_LEVELS	<color=#c4b47c>레벨 총합:</color> {0}	
@@ -151,17 +164,17 @@ GLUE_QUEST_NOTIFICATION_CAPTION	퀘스트는 대부분 대전 모드나 투기�
 GLUE_QUEST_NOTIFICATION_HEADER	오늘의 퀘스트	
 GLUE_QUEST_NOTIFICATION_HEADER_NEW_ONLY	새로운 퀘스트!	
 GLUE_RDM_1_COST	초반에 사용 가능한 카드가 있나 확인합시다. 	
-GLUE_RDM_2_COST	2의 마나가 필요한 카드는 어떨까요.	
-GLUE_RDM_3_COST	3의 마나가 필요한 카드는 어떨까요.	
-GLUE_RDM_4_COST	4의 마나가 필요한 카드는 어떨까요.	
-GLUE_RDM_5_COST	5의 마나가 필요한 카드는 어떨까요.	
-GLUE_RDM_6_COST	6의 마나가 필요한 카드는 어떨까요.	
+GLUE_RDM_2_COST	2의 마나가 필요한 카드는 어떨까요?	
+GLUE_RDM_3_COST	3의 마나가 필요한 카드는 어떨까요?	
+GLUE_RDM_4_COST	4의 마나가 필요한 카드는 어떨까요?	
+GLUE_RDM_5_COST	5의 마나가 필요한 카드는 어떨까요?	
+GLUE_RDM_6_COST	6의 마나가 필요한 카드는 어떨까요?	
 GLUE_RDM_7_COST	마나를 대량으로 사용하여 상대방을 끝장낼 수 있는 카드는 어떨까요.	
 GLUE_RDM_CLASS_SPECIFIC	우선 직업 전용 카드를 추가합시다.	
 GLUE_RDM_MORE_MINIONS	하수인을 더 넣어야겠군요.	
 GLUE_RDM_MORE_SPELLS	주문을 더 넣어야겠군요.	
 GLUE_RDM_NO_SPECIFICS	덱이 완성되어 가는군요! 마지막으로 이런 카드들을 추가하는 건 어떨까요?	
-GLUE_SHOW_CUSTOM_DECKS	사용자 지정 덱	
+GLUE_SHOW_CUSTOM_DECKS	나만의 덱	
 GLUE_SHOW_PRECON_DECKS	기본 덱	
 GLUE_SPINNER_1	만만한 상대	
 GLUE_SPINNER_10	흑심 품은 흑마법사	
@@ -219,14 +232,15 @@ GLUE_STORE_CHALLENGE_PWD_MESSAGE	비밀번호를 입력해 주십시오:
 GLUE_STORE_CHALLENGE_PWD_RETRY_MESSAGE	비밀번호가 맞지 않습니다. 비밀번호를 다시 입력해주세요.	
 GLUE_STORE_CLOSED_BUTTON_TEXT	상점 닫힘	
 GLUE_STORE_DISABLED	지금은 상점을 이용할 수 없습니다. 나중에 다시 시도하세요.	
-GLUE_STORE_DISCLAIMER_DETAILS_1	모든 팩, 카드, 골드, 그리고 신비한 가루는 비공개 베타가 종료되면 삭제되고 계정은 초기화됩니다.	
-GLUE_STORE_DISCLAIMER_DETAILS_2	계정이 초기화된 후, 상점에서 카드 팩이나 투기장 입장권을 구매한 플레이어들은 해당 금액에 상응하는 만큼의 골드가  지급됩니다.	
-GLUE_STORE_DISCLAIMER_DETAILS_3	또한, 베타 테스트 기간 동안 현금으로 상품을 구매하면 상점 테스트를 도와주신 보답으로 선물을 드립니다!	
+GLUE_STORE_DISCLAIMER_DETAILS	베타 테스트 기간 동안 현금으로 상품을 구매하면 상점 테스트를 도와주신 보답으로 선물을 드립니다!	
 GLUE_STORE_DISCLAIMER_HEADLINE	경고	
-GLUE_STORE_DISCLAIMER_WARNING	실제 화폐를 사용합니다!	
+GLUE_STORE_DISCLAIMER_WARNING	실제 화폐를 사용하여 구매합니다!	
 GLUE_STORE_DONE_WITH_BAM_HEADLINE	재시도	
 GLUE_STORE_DONE_WITH_BAM_MESSAGE	Battle.net에서 설정을 완료했다면, 구매를 다시 시도하세요.	
 GLUE_STORE_ERROR_POPUP_TITLE	상점 오류	
+GLUE_STORE_EULA_AND_TOS_DETAILS	최종 사용자 사용권 계약과 이용 약관은 Battle.net에서 다시 볼 수 있습니다.	
+GLUE_STORE_EULA_AND_TOS_HEADLINE	이용 약관	
+GLUE_STORE_EULA_AND_TOS_URL_DETAILS	"{0}" 단추를 누르면 Battle.net에서 최종 사용자 사용권 계약과 이용 약관을 다시 볼 수 있습니다.	
 GLUE_STORE_FAIL_BNET_ID	잘못된 Battle.net ID입니다.	
 GLUE_STORE_FAIL_CHALLENGE_TIMEOUT	구매 확인 시간이 초과되었습니다. 거래를 다시 시작해주세요.	
 GLUE_STORE_FAIL_DATABASE	내부 데이터베이스 오류가 발생했습니다.	
@@ -240,6 +254,7 @@ GLUE_STORE_FAIL_NOT_ENOUGH_GOLD	골드가 부족하여 구입할 수 없습니�
 GLUE_STORE_FAIL_PRODUCT_NA	해당 상품은 현재 구매할 수 없습니다. 다른 상품을 선택하고 다시 시도해 주세요.	
 GLUE_STORE_FAIL_PURCHASE_BAN	당신의 계정은 상점을 사용할 수 없습니다. 의도치 않은 사항이라면 고객 센터에 문의해주세요.	
 GLUE_STORE_FAIL_QUANTITY	잘못된 수량을 입력했습니다. 다른 수량을 입력하신 후 다시 시도해 주세요.	
+GLUE_STORE_FAIL_SPENDING_LIMIT	사용 한도를 초과하여 구매를 완료할 수 없습니다. 골드로 구매해보세요!	
 GLUE_STORE_FORGOT_PWD_DETAILS	잘못된 비밀번호를 계속해서 입력했습니다. 비밀번호를 잊으셨나요?	
 GLUE_STORE_FORGOT_PWD_HEADLINE	비밀번호를 잊으셨나요?	
 GLUE_STORE_FORGOT_PWD_URL_DETAILS	"{0}" 단추를 누르면 Battle.net으로 이동하여 비밀번호를 초기화할 수 있습니다.	
@@ -252,6 +267,7 @@ GLUE_STORE_GOLD_QTY_CHANGE_DESC_TOUCH	골드가 많으시군요! 팩을 여러�
 GLUE_STORE_GOLD_QTY_CHANGE_HEADER	골드로 팩 구매	
 GLUE_STORE_HEADLINE	상점	
 GLUE_STORE_INFO_BUTTON_TEXT	i	
+GLUE_STORE_KOREAN_PRODUCT_DETAILS_EXPERT_PACK	이용기간 : 서비스 종료 시까지. 본 상품은 구매 후 7일 이내에 청약철회가 가능합니다. 다만, 1개의 카드팩이라도 개봉한 경우에는 청약철회가 불가능합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_MONEY_BUTTON_TOOLTIP_HEADLINE	구매	
 GLUE_STORE_MULTI_EXPERT_PACK	고급 팩 {0}개	
 GLUE_STORE_MULTI_PACK	팩 {0}개	
@@ -259,11 +275,11 @@ GLUE_STORE_NO_PAYMENT_DETAILS	아직 기본 결제 수단을 지정하지 않았
 GLUE_STORE_NO_PAYMENT_HEADLINE	경고	
 GLUE_STORE_NO_PAYMENT_URL_DETAILS	"{0}" 단추를 누르면 Battle.net 웹사이트로 이동합니다.	
 GLUE_STORE_OPEN_BUTTON_TEXT	상점	
-GLUE_STORE_PAYMENT_INFO_DETAILS	비용은 우선 배틀코인에서 차감됩니다. 배틀코인이 부족하면 Battle.net 계정에 설정되어 있는 기본 결제 수단으로 청구됩니다.\n\n중요: 결제 도중 오류가 발생하거나 결제 불가 상태가 되면 잠시 동안 하스스톤 계정이 잠깁니다. 이 경우, 오류가 해결되거나 결제가 완료되면 잠금이 해제됩니다.	
+GLUE_STORE_PAYMENT_INFO_DETAILS	결제 비용은 우선 배틀코인에서 차감됩니다. 배틀코인이 부족하면 Battle.net 계정에 설정되어 있는 기본 결제 수단으로 청구됩니다.\n\n중요: 결제 도중 오류가 발생하거나 결제 불가 상태가 되면 잠시 동안 하스스톤 계정이 잠길 수도 있습니다. 이 경우, 오류가 해결되거나 결제가 완료되면 잠금이 해제됩니다.	
 GLUE_STORE_PAYMENT_INFO_HEADLINE	결제 정보	
 GLUE_STORE_PAYMENT_INFO_URL_DETAILS	자세한 설명이 필요하다면 {0} 단추를 누르세요. Battle.net 결제 정보 웹사이트로 이동합니다.	
 GLUE_STORE_PRODUCT_DETAILS_EXPERT_PACK	•  5장의 고급 하스스톤 카드\n•  최소 1장은 희귀 혹은 더 높은 등급의 카드	
-GLUE_STORE_PRODUCT_DETAILS_HEADLINE_EXPERT_PACK	팩의 내용물	
+GLUE_STORE_PRODUCT_DETAILS_HEADLINE_EXPERT_PACK	팩의 구성품	
 GLUE_STORE_PRODUCT_NAME_FORGE_TICKET	투기장 입장권	
 GLUE_STORE_PRODUCT_PRICE	({0})	0=price
 GLUE_STORE_PRODUCT_PRICE_NA	없음	
@@ -276,8 +292,12 @@ GLUE_STORE_SUMMARY_CHARGE_DETAILS	다음 결제 수단으로 청구됩니다: {0
 GLUE_STORE_SUMMARY_HEADLINE	요약	
 GLUE_STORE_SUMMARY_ITEM_ORDERED	{1} x {0}	0=item quantity, 1=item name (one of GLUE_STORE_PRODUCT_NAME_*)
 GLUE_STORE_SUMMARY_ITEMS_ORDERED_HEADLINE	구매할 상품	
+GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_CONFIRM	본 거래와 관련된 조건과 약관을 확인하며 이에 동의합니다.	only displayed for Korean customers, should always be in Korean
+GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_EXPERT_PACK	이용기간 : 서비스 종료 시까지. 본 상품은 구매 후 7일 이내에 청약철회가 가능합니다. 다만, 1개의 카드팩이라도 개봉한 경우에는 청약철회가 불가능합니다.	only displayed for Korean customers, should always be in Korean
+GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_FORGE_TICKET	투기장 입장료는 구매 후 환불되지 않으며, 구매 즉시 투기장에 입장합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_SUMMARY_PRICE_HEADLINE	가격	
 GLUE_STORE_SUMMARY_TAX_DISCLAIMER	부가가치세 포함	
+GLUE_STORE_SUMMARY_TAX_DISCLAIMER_USD	부가가치세 포함	
 GLUE_TIP_DEFAULT_0	상점에서 고급 카드 팩을 구매할 수 있습니다.	
 GLUE_TIP_DEFAULT_1	덱을 구성하는 중에 영웅을 클릭하면 덱의 이름을 바꿀 수 있습니다.	
 GLUE_TIP_DEFAULT_10	투기장에서는 임의의 카드로 덱을 만들 수 있습니다. 보상도 얻을 수 있고요!	
@@ -285,27 +305,29 @@ GLUE_TIP_DEFAULT_11	레벨이 오르면 기본 카드를 얻을 수 있습니다
 GLUE_TIP_DEFAULT_12	황금 카드에서 마력을 추출하면 보다 많은 가루를 얻습니다.	
 GLUE_TIP_DEFAULT_13	내 카드의 검색 창으로 '도발' 능력이 있는 모든 카드를 찾을 수 있습니다.	
 GLUE_TIP_DEFAULT_14	기본 카드는 직업의 레벨이 오르면 획득할 수 있습니다. 고급 카드는 고급 팩을 개봉하면 얻을 수 있습니다.	
+GLUE_TIP_DEFAULT_15	실제 플레이어들과 게임을 하면 경험치를 더 얻을 수 있습니다.	
+GLUE_TIP_DEFAULT_16	상대 영웅을 오른쪽 클릭하면 상대의 감정 표현을 차단할 수 있습니다.	
 GLUE_TIP_DEFAULT_2	영웅을 마우스 오른쪽 클릭하여 감정 표현을 해보세요.	
 GLUE_TIP_DEFAULT_3	덱을 만드는 데 도움이 필요하면 "추천 카드"를 참고하세요.	
 GLUE_TIP_DEFAULT_4	카드 중앙에 있는 보석의 색깔로 카드의 등급을 알 수 있습니다.	
 GLUE_TIP_DEFAULT_5	카드는 색상에 따라 등급이 나뉩니다. 흰색은 일반, 파란색은 희귀, 보라색은 영웅, 그리고 주황색은 전설 카드입니다.	
 GLUE_TIP_DEFAULT_6	고급 카드 팩에는 희귀 등급 이상의 카드가 적어도 한 장은 들어 있습니다. 여러 장일 수도 있다는 말이죠!	
-GLUE_TIP_DEFAULT_7	메달은 수습생, 숙련자, 코퍼, 실버, 골드, 플래티넘, 다이아몬드, 마스터로 나뉩니다.	
-GLUE_TIP_DEFAULT_8	순위전을 하면 자신의 실력을 뽐낼 수 있는 메달을 획득합니다.	
+GLUE_TIP_DEFAULT_7	메달의 등급에는 수습생, 숙련자, 코퍼, 실버, 골드, 플래티넘, 다이아몬드, 마스터가 있습니다.	
+GLUE_TIP_DEFAULT_8	등급전을 하면 자신의 실력을 뽐낼 수 있는 메달을 획득합니다.	
 GLUE_TIP_DEFAULT_9	퀘스트를 완료하면 골드를 얻습니다. 골드는 팩을 구매하거나 투기장에 입장할 때 사용됩니다.	
 GLUE_TIP_DEFAULT_zz_UNUSED	친구들이 오프라인 상태여도 겨뤄볼 수 있습니다!	
 GLUE_TIP_FORGE_0	투기장 덱은 3번 패배하면 만료됩니다.	
 GLUE_TIP_FORGE_1	투기장에서 계속 승리하면 보상이 더 좋아집니다!	
 GLUE_TIP_FORGE_2	투기장 경기는 한 번에 다 치르지 않아도 됩니다.	
 GLUE_TIP_PLAY_0	당신의 실력에 맞는 상대와 맞붙게 됩니다.	
-GLUE_TIP_PLAY_1	당신의 승패에 따라 실력을 가늠하여 적절한 상대와 맞붙게 됩니다.	
+GLUE_TIP_PLAY_1	당신의 전적에 따라 실력을 가늠하여 적절한 상대와 맞붙게 됩니다.	
 GLUE_TIP_PLAY_2	각 직업의 레벨을 올리면 5 가지의 기본 카드를 얻을 수 있습니다.	
 GLUE_TIP_PLAY_3	퀘스트를 완료하면 골드를 얻습니다. 골드는 팩을 구매하거나 투기장에 입장할 때 사용됩니다.	
-GLUE_TIP_PLAY_4	메달은 수습생, 숙련자, 코퍼, 실버, 골드, 플래티넘, 다이아몬드, 그리고 마스터로 나뉩니다.	
+GLUE_TIP_PLAY_4	메달의 등급에는 수습생, 숙련자, 코퍼, 실버, 골드, 플래티넘, 다이아몬드, 마스터가 있습니다.	
 GLUE_TIP_PLAY_5	덱에는 똑같은 카드를 최대 두 장 넣을 수 있습니다. 하지만, 전설 카드는 한 장만 넣을 수 있습니다.	
 GLUE_TIP_PLAY_6	투기장은 보상을 얻으면서 플레이어들과 경쟁할 수 있는 좋은 방법입니다.	
 GLUE_TIP_PLAY_7	투기장 경기는 한 번에 다 치르지 않아도 됩니다.	
-GLUE_TIP_PLAY_8	순위전을 하면 자신의 실력을 뽐낼 수 있는 메달을 획득합니다.	
+GLUE_TIP_PLAY_8	등급전을 하면 자신의 실력을 뽐낼 수 있는 메달을 획득합니다.	
 GLUE_TIP_PRACTICE_0	연습 모드에서 다른 영웅들을 상대로 승리하면 그 영웅이 잠금 해제됩니다.	
 GLUE_TIP_PRACTICE_1	연습 모드는 대전 모드를 위한 준비 단계일 뿐입니다!	
 GLUE_TIP_PRACTICE_2	대전 모드에서 당신은 비슷한 실력의 상대와 맞붙게 됩니다!	
@@ -313,10 +335,11 @@ GLUE_TIP_PRACTICE_3	"내 카드"에서 자신만의 덱을 만들 수 있습니�
 GLUE_TIP_PRACTICE_4	각 직업의 레벨을 올리면 5가지의 기본 카드를 얻을 수 있습니다.	
 GLUE_TIP_PRACTICE_5	"대전" 모드에서 퀘스트를 완료하여 골드를 획득하세요.	
 GLUE_TIP_PRACTICE_6	무엇을 공격할까요. 영웅? 하수인? 정확한 판단이 승패를 좌우합니다.	
-GLUE_TIP_QUEST_LOG_0	연습 모드에서 다른 영웅들을 잠금 해제하세요. AI 영웅을 상대로 승리하면 됩니다!	
+GLUE_TIP_PRACTICE_7	10 레벨 이후에는 실제 플레이어들과 게임을 해야 경험치를 더 얻습니다.	
+GLUE_TIP_QUEST_LOG_0	연습 모드에서 다른 영웅들을 잠금 해제하세요. 인공지능 영웅을 상대로 승리하면 됩니다!	
 GLUE_TIP_QUEST_LOG_1	영웅을 선택하여 게임을 하면, 해당 직업의 기본 카드를 추가로 얻을 수 있습니다.	
 GLUE_TIP_QUEST_LOG_2	대전 모드를 시도해 보세요. 고급 카드 팩을 얻을 수 있습니다!	
-GLUE_TIP_QUEST_LOG_3	전문가 AI를 상대로 당신의 실력을 시험해 보세요!	
+GLUE_TIP_QUEST_LOG_3	전문가 인공지능을 상대로 당신의 실력을 시험해 보세요!	
 GLUE_TIP_QUEST_LOG_4	대전 모드를 통해 팩을 더 얻을 수 있습니다!	
 GLUE_TIP_QUEST_LOG_5	완료할 수 있는 퀘스트가 있는지 확인해 보세요.	
 GLUE_TIP_QUEST_LOG_6	투기장도 가 보시죠. 즉석에서 덱을 만들어 그걸로 겨루는 겁니다!	
@@ -333,15 +356,15 @@ GLUE_TIP_QUEST_LOG_RANDOM_6	무작위 구절 7
 GLUE_TIP_QUEST_LOG_RANDOM_7	무작위 구절 8	
 GLUE_TIP_QUEST_LOG_RANDOM_8	무작위 구절 9	
 GLUE_TIP_QUEST_LOG_RANDOM_9	무작위 구절 10	
-GLUE_TOOLTIP_BUTTON_COLLECTION_DESC	카드를 보거나 덱을 만들 수 있습니다.	
+GLUE_TOOLTIP_BUTTON_COLLECTION_DESC	카드를 살펴보거나 덱을 만들 수 있습니다.	
 GLUE_TOOLTIP_BUTTON_COLLECTION_HEADLINE	내 카드	
 GLUE_TOOLTIP_BUTTON_DISABLED_DESC	이 기능은 일시적으로 사용이 불가능합니다.	
-GLUE_TOOLTIP_BUTTON_FORGE_DESC	투기장에서 무작위 카드로 신속하게 덱을 만드세요.	
+GLUE_TOOLTIP_BUTTON_FORGE_DESC	투기장에서 무작위 카드로 빠르게 덱을 만드세요.	
 GLUE_TOOLTIP_BUTTON_FORGE_HEADLINE	투기장	
-GLUE_TOOLTIP_BUTTON_FORGE_NOT_UNLOCKED	모든 영웅을 활성화하면 잠금 해제	
+GLUE_TOOLTIP_BUTTON_FORGE_NOT_UNLOCKED	모든 영웅을 활성화하면 잠금 해제됩니다.	
 GLUE_TOOLTIP_BUTTON_PACKOPEN_DESC	팩을 개봉해 새로운 카드를 얻으세요!	
 GLUE_TOOLTIP_BUTTON_PACKOPEN_HEADLINE	팩 개봉	
-GLUE_TOOLTIP_BUTTON_PRACTICE_DESC	AI를 상대로 실력을 연마하세요.	
+GLUE_TOOLTIP_BUTTON_PRACTICE_DESC	인공지능을 상대로 실력을 연마하세요.	
 GLUE_TOOLTIP_BUTTON_PRACTICE_HEADLINE	연습	
 GLUE_TOOLTIP_BUTTON_QUESTLOG_DESC	당신의 플레이 기록을 살펴보세요.	
 GLUE_TOOLTIP_BUTTON_QUESTLOG_HEADLINE	퀘스트 기록	
@@ -350,5 +373,5 @@ GLUE_TOOLTIP_BUTTON_TOURNAMENT_HEADLINE	대전
 GLUE_TOOLTIP_GOLD_DESCRIPTION	골드를 사용하여 팩을 구매하거나 투기장에 입장할 수 있습니다.	
 GLUE_TOOLTIP_GOLD_HEADER	골드	
 GLUE_TOURNAMENT	대전	
-GLUE_TOURNAMENT_UNRANKED_DESC	친선전은 별개의 기준으로 상대와 맞붙게 됩니다. 또한, 메달을 획득할 수 없습니다.	
-GLUE_TOURNAMENT_UNRANKED_MODE	친선전	
+GLUE_TOURNAMENT_UNRANKED_DESC	친선전은 순위전과 다른 기준으로 상대와 맞붙게 됩니다. 또한, 메달을 획득할 수 없습니다.	
+GLUE_TOURNAMENT_UNRANKED_MODE	일반전	

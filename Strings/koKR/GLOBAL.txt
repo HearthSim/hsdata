@@ -14,6 +14,7 @@ GLOBAL_BUTTON_YES	예
 GLOBAL_CANCEL	취소	
 GLOBAL_CARD_SET_CORE	기본	
 GLOBAL_CARD_SET_EXPERT1	고급	
+GLOBAL_CARD_SET_PROMO	특전	
 GLOBAL_CARD_SET_REWARD	보상	
 GLOBAL_CARDTYPE_ENCHANTMENT	강화	
 GLOBAL_CARDTYPE_HERO	영웅	
@@ -23,10 +24,10 @@ GLOBAL_CARDTYPE_MINION	하수인
 GLOBAL_CARDTYPE_SPELL	주문	
 GLOBAL_CARDTYPE_TOKEN	주화	
 GLOBAL_CARDTYPE_WEAPON	무기	
-GLOBAL_CHAT_BUBBLE_RECEIVER_NAME	{0} 에게: 	0=player name
+GLOBAL_CHAT_BUBBLE_RECEIVER_NAME	{0}에게: 	0=player name
 GLOBAL_CHAT_CHALLENGE	도전	
 GLOBAL_CHAT_NO_FRIENDS_ONLINE	현재 접속한 친구가 없습니다.	
-GLOBAL_CHAT_NO_RECENT_CONVERSATIONS	친구 메뉴에서 친구와 함께 대화해보세요.	
+GLOBAL_CHAT_NO_RECENT_CONVERSATIONS	친구 메뉴를 이용하면 친구와 함께 대화할 수 있습니다.	
 GLOBAL_CHAT_RECEIVER_OFFLINE	{0} 님은 접속해 있지 않습니다.	0=player name
 GLOBAL_CHAT_RECEIVER_ONLINE	{0} 님이 접속했습니다.	0=player name
 GLOBAL_CLASS_DEATHKNIGHT	죽음의 기사	
@@ -45,33 +46,43 @@ GLOBAL_COLLECTION_GOLDEN	황금
 GLOBAL_CONCEDE	항복	
 GLOBAL_CONFIRM	확인	
 GLOBAL_COST	비용	
+GLOBAL_CURRENT_TIME	{0:tt h:mm}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
 GLOBAL_DATETIME_FRIENDREQUEST_DAY	어제	
-GLOBAL_DATETIME_FRIENDREQUEST_DAYS	{0:n0}일 전	
-GLOBAL_DATETIME_FRIENDREQUEST_HOURS	{0:n0}시간 전	
-GLOBAL_DATETIME_FRIENDREQUEST_MINUTES	{0:n0}분 전	
-GLOBAL_DATETIME_FRIENDREQUEST_SECONDS	1분 이내	
-GLOBAL_DATETIME_FRIENDREQUEST_WEEKS	{0:n0}주 전	
+GLOBAL_DATETIME_FRIENDREQUEST_DAYS	{0}|4(일,일) 전	
+GLOBAL_DATETIME_FRIENDREQUEST_HOURS	{0}|4(시간,시간) 전	
+GLOBAL_DATETIME_FRIENDREQUEST_MINUTES	{0}|4(분,분) 전	
+GLOBAL_DATETIME_FRIENDREQUEST_MONTH	1달 이상	
+GLOBAL_DATETIME_FRIENDREQUEST_SECONDS	1분 미만	
+GLOBAL_DATETIME_FRIENDREQUEST_WEEKS	{0}|4(주,주) 전	
+GLOBAL_DATETIME_LASTONLINE_DAY	최종 접속: 어제	
+GLOBAL_DATETIME_LASTONLINE_DAYS	최종 접속: {0}|4(일,일) 경과	
+GLOBAL_DATETIME_LASTONLINE_HOURS	최종 접속: {0}|4(시간,시간) 경과	
+GLOBAL_DATETIME_LASTONLINE_MINUTES	최종 접속: {0}|4(분,분) 경과	
+GLOBAL_DATETIME_LASTONLINE_MONTH	최종 접속: 1달 이상 경과	
+GLOBAL_DATETIME_LASTONLINE_SECONDS	최종 접속: 1분 미만 경과	
+GLOBAL_DATETIME_LASTONLINE_WEEKS	최종 접속: {0}|4(주,주) 경과	
 GLOBAL_DATETIME_SPLASHSCREEN_DAY	> 1일	
-GLOBAL_DATETIME_SPLASHSCREEN_DAYS	{0:n0}일	
-GLOBAL_DATETIME_SPLASHSCREEN_HOURS	{0:n0}시간	
-GLOBAL_DATETIME_SPLASHSCREEN_MINUTES	{0:n0}분	
+GLOBAL_DATETIME_SPLASHSCREEN_DAYS	{0}|4(일,일)	
+GLOBAL_DATETIME_SPLASHSCREEN_HOURS	{0}|4(시간,시간)	
+GLOBAL_DATETIME_SPLASHSCREEN_MINUTES	{0}|4(분,분)	
+GLOBAL_DATETIME_SPLASHSCREEN_MONTH	> 1달	
 GLOBAL_DATETIME_SPLASHSCREEN_SECONDS	< 1분	
-GLOBAL_DATETIME_SPLASHSCREEN_WEEKS	{0:n0}주	
+GLOBAL_DATETIME_SPLASHSCREEN_WEEKS	{0}|4(주,주)	
 GLOBAL_DEFAULT_ALERT_HEADER	경고	
 GLOBAL_DONE	완료	
 GLOBAL_ERROR_ASSET_CREATE_PERSISTENT_DATA_PATH	{0}에 데이터 저장 폴더를 만드는 데 실패했습니다.	0=folder path
-GLOBAL_ERROR_ASSET_DOWNLOAD_FAILED	{0} 자산을 다운로드 할 수 없습니다.	0=asset name
-GLOBAL_ERROR_ASSET_INCORRECT_DATA	{0} 자산이 잘못된 데이터를 포함하고 있습니다.	0=asset name
-GLOBAL_ERROR_ASSET_LOAD_FAILED	{0} 자산을 불러오지 못했습니다.	0=asset name
-GLOBAL_ERROR_ASSET_LOADING_TIMEOUT	{0} 자산이 연결 시간이 초과되었습니다.	0=asset name
-GLOBAL_ERROR_ASSET_NO_FILE_PATH	{0} 자산의 경로를 찾을 수 없습니다.	0=asset name
-GLOBAL_ERROR_ASSET_TITLE	자산 에러	
+GLOBAL_ERROR_ASSET_DOWNLOAD_FAILED	{0} 파일을 다운로드 할 수 없습니다.	0=asset name
+GLOBAL_ERROR_ASSET_INCORRECT_DATA	{0} 파일이 잘못된 데이터를 포함하고 있습니다.	0=asset name
+GLOBAL_ERROR_ASSET_LOAD_FAILED	{0} 파일을 불러오지 못했습니다.	0=asset name
+GLOBAL_ERROR_ASSET_NO_FILE_PATH	{0} 파일의 경로를 찾을 수 없습니다.	0=asset name
 GLOBAL_ERROR_CURRENCY_INVALID	상품 구매를 위해 클라이언트가 잘못된 화폐를 사용하려 했습니다.	
 GLOBAL_ERROR_GAME_DENIED	게임을 시작하는 도중 오류가 발생했습니다. 잠시 후에 다시 시도해주세요.	
 GLOBAL_ERROR_GAME_OPPONENT_TIMEOUT	상대방의 연결이 끊어져 게임을 시작할 수 없습니다. 다시 시도해주세요.	
 GLOBAL_ERROR_GENERIC_HEADER	오류	
-GLOBAL_ERROR_INACTIVITY_KICK	당신이 하스스톤에서 장시간 동안 자리를 비워 접속이 종료되었습니다. 게임을 즐기려면 다시 접속해주세요!	
+GLOBAL_ERROR_INACTIVITY_KICK	하스스톤에서 장시간 동안 자리를 비워 접속이 종료되었습니다. 게임을 즐기려면 다시 접속해주세요!	
+GLOBAL_ERROR_NETWORK_ACCOUNT_BANNED	당신의 계정은 일시적으로 사용이 정지되었습니다.	
 GLOBAL_ERROR_NETWORK_ACCOUNT_SUSPENDED	당신의 계정은 일시적으로 사용이 정지되었습니다.	
+GLOBAL_ERROR_NETWORK_PARENTAL_CONTROLS	이 계정은 현재 보호자 관리 또는 청소년 보호를 위해 접속이 제한되어 있습니다.	
 GLOBAL_ERROR_NETWORK_DISCONNECT	Battle.net과의 연결이 끊어졌습니다. 하스스톤에 다시 접속해주세요.	
 GLOBAL_ERROR_NETWORK_DUPLICATE_LOGIN	다른 기기에서 해당 Battle.net 계정으로 하스스톤에 접속했습니다.\n\n계정 중복 접속을 지원하지 않으므로 현재 클라이언트에서는 접속이 종료되었습니다.	
 GLOBAL_ERROR_NETWORK_GENERIC	내부 네트워크 오류가 발생했습니다.	
@@ -81,8 +92,7 @@ GLOBAL_ERROR_NETWORK_LOST_GAME_CONNECTION	Battle.net 게임 서비스와의 연�
 GLOBAL_ERROR_NETWORK_SPAM	지나치게 많은 요청을 한 번에 보내 Battle.net과의 연결이 끊어졌습니다. 하스스톤에 다시 접속해주세요.	
 GLOBAL_ERROR_NETWORK_TITLE	네트워크 오류	
 GLOBAL_ERROR_NETWORK_UTIL_TIMEOUT	하스스톤 유틸리티 서비스에서 데이터를 요청하는 도중 연결 시간이 초과되었습니다. 하스스톤에 다시 접속해주세요.	
-GLOBAL_ERROR_STREAMING_ASSET_TIMEOUT	스트리밍 시스템을 기다리는 중 연결 시간이 초과되었습니다. {0} 자산을 로딩하는 중이었습니다.	0=asset name
-GLOBAL_ERROR_STREAMING_TITLE	스트리밍 오류	
+GLOBAL_ERROR_STREAMING_ASSET_TIMEOUT	스트리밍 시스템을 기다리는 중 연결 시간이 초과되었습니다. {0} 파일을 로딩하는 중이었습니다.	0=asset name
 GLOBAL_ERROR_UNKNOWN_ERROR	이런! 하스스톤이 Battle.net에 접속하는 도중 호기심 많은 요정들이  장난을 쳤군요! 잠시 후에 게임에 다시 접속해주세요.	
 GLOBAL_EXIT	종료	
 GLOBAL_FEATURE_DISABLED_MESSAGE_COLLECTION	죄송합니다. 내 카드를 일시적으로 사용할 수 없습니다.	
@@ -110,35 +120,40 @@ GLOBAL_FRIEND_CHALLENGE_OPPONENT_FRIEND_REMOVED	{0} 님이 친구에서 제외�
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_WAITING_DECK	{0} 님이 덱을 선택하고 있습니다.	0=friend name
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_WAITING_RESPONSE	{0} 님이 도전을 받아들이기를 기다리는 중입니다.	0=friend name
 GLOBAL_FRIEND_CHALLENGE_RECEIVED	{0} 님이 당신에게 도전했습니다.\n\n수락하시겠습니까?	0=friend name
-GLOBAL_FRIEND_CHALLENGE_TITLE	친선	
+GLOBAL_FRIEND_CHALLENGE_TITLE	친구와 대결	
 GLOBAL_FRIENDLIST_ADD_FRIEND_BUTTON	추가	
-GLOBAL_FRIENDLIST_CURRENT_GAMES_HEADER	현재 게임 - {0:n0}	0=number of friends you have unfinished games with
-GLOBAL_FRIENDLIST_FRIENDS_HEADER	친구 - {0:n0}/{1:n0} 온라인	0=number of online friends 1=number of offline friends
-GLOBAL_FRIENDLIST_FRIENDS_HEADER_ALL_ONLINE	친구 - {0:n0}명 온라인	
+GLOBAL_FRIENDLIST_CURRENT_GAMES_HEADER	현재 게임 - {0}	0=number of friends you have unfinished games with
+GLOBAL_FRIENDLIST_FRIENDS_HEADER	친구 - {0}/{1} 온라인	0=number of online friends 1=number of offline friends
+GLOBAL_FRIENDLIST_FRIENDS_HEADER_ALL_ONLINE	친구 - {0}명 온라인	
 GLOBAL_FRIENDLIST_FRIENDS_HEADER_NO_ONLINE	친구들	
 GLOBAL_FRIENDLIST_MYSTATUS	온라인	
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_ALERT_MESSAGE	{0} 님을 정말로 삭제하겠습니까?	0=friend name
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_BUTTON	삭제	
 GLOBAL_FRIENDLIST_REQUEST_SENT_TIME	{0} 보냄	0=one of the GLOBAL_DATETIME_ELAPSED_ strings
-GLOBAL_FRIENDLIST_REQUESTS_HEADER	친구 추가 요청 - {0:n0}건	0=number of received friend requests
+GLOBAL_FRIENDLIST_REQUESTS_HEADER	친구 추가 요청 - {0}건	0=number of received friend requests
 GLOBAL_GAME_MENU	게임 메뉴	
 GLOBAL_HEALTH	생명력	
-GLOBAL_HEALTHY_GAMING_TOAST	게임을 플레이한 지 {0}시간이 지났습니다. 과도한 게임 이용은 정상적인 일상생활에 지장을 줄 수 있습니다.	0=hours
-GLOBAL_HEALTHY_GAMING_TOAST_OVER_THRESHOLD	게임을 플레이한 지 {0}시간이 지났습니다. 과도한 게임 이용은 정상적인 일상생활에 지장을 줄 수 있습니다.	0=hours
+GLOBAL_HEALTHY_GAMING_CHINA_LESS_THAN_THREE_HOURS	您累计在线时间已满{0}小时。	
+GLOBAL_HEALTHY_GAMING_CHINA_MORE_THAN_FIVE_HOURS	您已进入不健康游戏时间，为了您的健康，请您立即下线休息。如不下线，您的身体将受到损害，您的收益已降为零，直到您的累计下线时间满5小时后，才能恢复正常。	
+GLOBAL_HEALTHY_GAMING_CHINA_THREE_HOURS	您累计在线时间已满{0}小时，请您下线休息，做适当身体活动。	
+GLOBAL_HEALTHY_GAMING_CHINA_THREE_TO_FIVE_HOURS	您已经进入疲劳游戏时间，您的游戏收益将降为正常值的0%，为了您的健康，请尽快下线休息，做适当身体活动，合理安排学习生活。	
+GLOBAL_HEALTHY_GAMING_KOREA_STARTUP_MESSAGE	본 게임물은 만 12세 이용가 게임으로서 해당 연령 미만의 청소년이 이용하기에 부적절합니다. 반드시 보호자의 지도 감독이 필요합니다.	
+GLOBAL_HEALTHY_GAMING_TOAST	게임을 플레이한 지 {0}|4(시간,시간)이 지났습니다. 과도한 게임 이용은 정상적인 일상생활에 지장을 줄 수 있습니다.	
+GLOBAL_HEALTHY_GAMING_TOAST_OVER_THRESHOLD	게임을 플레이한 지 {0}|4(시간,시간)이 지났습니다. 과도한 게임 이용은 정상적인 일상생활에 지장을 줄 수 있습니다.	0=hours
 GLOBAL_HERO_LEVEL_NEXT_REWARD_TITLE	{0} 레벨에 얻는 보상	0=level
 GLOBAL_HERO_LEVEL_REWARD_ARCANE_DUST	신비한 가루 {0}개	0=amount
 GLOBAL_HERO_LEVEL_REWARD_BOOSTER	부스터 팩 {0} 개	0=booster type
 GLOBAL_HERO_LEVEL_REWARD_GOLD	{0} 골드	0=amount
 GLOBAL_HERO_LEVEL_REWARD_GOLDEN_CARD	{0} {1}	0=flair 1=card name
 GLOBAL_KEYWORD_BATTLECRY	전투의 함성	
-GLOBAL_KEYWORD_BATTLECRY_TEXT	자신의 손에서 낼 때 효과를 냅니다.	
+GLOBAL_KEYWORD_BATTLECRY_TEXT	카드를 손에서 낼 때 효과를 발휘합니다.	
 GLOBAL_KEYWORD_CHARGE	돌진	
 GLOBAL_KEYWORD_CHARGE_TEXT	즉시 공격할 수 있습니다.	
 GLOBAL_KEYWORD_COMBO	연계	
 GLOBAL_KEYWORD_COMBO_TEXT	이번 턴에 이미 낸 카드가 있으면 추가 효과를 냅니다.	
 GLOBAL_KEYWORD_COUNTER	차단	
 GLOBAL_KEYWORD_COUNTER_TEXT	차단당한 카드는 효과를 발휘하지 못합니다.	
-GLOBAL_KEYWORD_DEATHRATTLE	죽음의 신음	
+GLOBAL_KEYWORD_DEATHRATTLE	죽음의 메아리	
 GLOBAL_KEYWORD_DEATHRATTLE_TEXT	죽으면 효과가 발동됩니다.	
 GLOBAL_KEYWORD_DIVINE_SHIELD	천상의 보호막	
 GLOBAL_KEYWORD_DIVINE_SHIELD_REF_TEXT	보호막이 있는 하수인은 피해를 한 번 무시합니다.	
@@ -158,8 +173,8 @@ GLOBAL_KEYWORD_SECRET	비밀
 GLOBAL_KEYWORD_SECRET_TEXT	특정 조건이 갖추어질 때까지 숨겨져 있습니다.	
 GLOBAL_KEYWORD_SILENCE	침묵	
 GLOBAL_KEYWORD_SILENCE_TEXT	모든 카드의 특수 능력과 강화 효과를 제거합니다.	
-GLOBAL_KEYWORD_SPELLPOWER	주문력	
-GLOBAL_KEYWORD_SPELLPOWER_TEXT	주문 카드가 {0}의 추가 피해를 줍니다.	0=amount of spell power
+GLOBAL_KEYWORD_SPELLPOWER	주문 공격력	
+GLOBAL_KEYWORD_SPELLPOWER_TEXT	주문 카드가 {0}의 추가 피해를 줍니다.	0=amount of spell damage
 GLOBAL_KEYWORD_STEALTH	은신	
 GLOBAL_KEYWORD_STEALTH_REF_TEXT	공격하기 전에는 공격 받거나 대상이 되지 않습니다.	
 GLOBAL_KEYWORD_STEALTH_TEXT	공격하기 전에는 공격 받거나 대상이 되지 않습니다.	
@@ -168,6 +183,7 @@ GLOBAL_KEYWORD_TAUNT_REF_TEXT	적은 도발 능력이 있는 하수인을 먼저
 GLOBAL_KEYWORD_TAUNT_TEXT	적은 반드시 이 하수인을 공격해야 합니다.	
 GLOBAL_KEYWORD_WINDFURY	질풍	
 GLOBAL_KEYWORD_WINDFURY_TEXT	한 턴에 두 번 공격할 수 있습니다.	
+GLOBAL_LOGOUT	접속 종료	
 GLOBAL_LOSSES	패배	
 GLOBAL_MEDAL_APPRENTICE	수습생	for Arena only
 GLOBAL_MEDAL_COPPER	코퍼	
@@ -193,6 +209,9 @@ GLOBAL_MY_NUM_WINS	{0}	0=number of games this player has won
 GLOBAL_OFFLINE	오프라인	
 GLOBAL_OKAY	확인	
 GLOBAL_OPTIONS	설정	
+GLOBAL_OPTIONS_CARDBACK_LABEL	카드 뒷면을 선택하세요	
+GLOBAL_OPTIONS_CINEMATIC	동영상	
+GLOBAL_OPTIONS_CREDITS	제작진	
 GLOBAL_OPTIONS_GRAPHICS_FULLSCREEN_LABEL	전체 화면	
 GLOBAL_OPTIONS_GRAPHICS_LABEL	그래픽	
 GLOBAL_OPTIONS_GRAPHICS_QUALITY_HIGH	높음	
@@ -200,6 +219,9 @@ GLOBAL_OPTIONS_GRAPHICS_QUALITY_LABEL	품질
 GLOBAL_OPTIONS_GRAPHICS_QUALITY_LOW	낮음	
 GLOBAL_OPTIONS_GRAPHICS_QUALITY_MEDIUM	보통	
 GLOBAL_OPTIONS_GRAPHICS_RESOLUTION_LABEL	해상도	
+GLOBAL_OPTIONS_MISCELLANEOUS_LABEL	기타	
+GLOBAL_OPTIONS_PUBLIC_CHAT_ENABLED	친구 외 채팅	
+GLOBAL_OPTIONS_SOUND_IN_BACKGROUND	백그라운드 시 소리	
 GLOBAL_OPTIONS_SOUND_LABEL	소리	
 GLOBAL_OPTIONS_SOUND_MASTER_VOLUME_LABEL	효과음	
 GLOBAL_OPTIONS_SOUND_MUSIC_VOLUME_LABEL	배경음악	
@@ -244,15 +266,36 @@ GLOBAL_RESUME_GAME	돌아가기
 GLOBAL_REWARD_ARCANE_DUST_HEADLINE	신비한 가루 획득!	
 GLOBAL_REWARD_BOOSTER_HEADLINE	고급 팩 획득!	
 GLOBAL_REWARD_CARD_COUNT_MULTIPLIER	x	
+GLOBAL_REWARD_CARD_DETAILS_TUTORIAL01	오, 예!	
+GLOBAL_REWARD_CARD_DETAILS_TUTORIAL02	상당히 놀랍군요.	
+GLOBAL_REWARD_CARD_DETAILS_TUTORIAL03	거침없군요!	
+GLOBAL_REWARD_CARD_DETAILS_TUTORIAL04	참으로 엄청납니다.	
+GLOBAL_REWARD_CARD_DETAILS_TUTORIAL05	엄청나네요!	
+GLOBAL_REWARD_CARD_DETAILS_TUTORIAL06	화끈하군요!	
 GLOBAL_REWARD_CARD_HEADLINE	보상!	
+GLOBAL_REWARD_CARD_LEVEL_UP	{1} 영웅으로 {0} 레벨을 달성하여 잠금 해제	0=# level, 1=class
+GLOBAL_REWARD_CORE_CARD_DETAILS	{0}/{1}장의 {2} 카드 잠금 해제	0=# cards unlocked, 1=# cards possible to unlock, 2=class
 GLOBAL_REWARD_FORGE_UNLOCKED_HEADLINE	투기장 잠금 해제!	
 GLOBAL_REWARD_FORGE_UNLOCKED_SOURCE	투기장에 처음 입장한 보상	
 GLOBAL_REWARD_GOLD_HEADLINE	골드 획득!	
+GLOBAL_REWARD_GOLD_SOURCE_TOURNEY	대전 모드에서 {0}|4(승,승)을 달성한 보상	
+GLOBAL_REWARD_GOLDEN_HERO_HEADLINE	황금 {0} 잠금 해제	
+GLOBAL_REWARD_HERO_DETAILS	영웅 {1}명 중 {0}명 잠금 해제	
+GLOBAL_REWARD_HERO_HEADLINE	{0} 잠금 해제	
+GLOBAL_REWARD_HERO_SOURCE	연습 모드에서 {0} 영웅을 상대로 승리하여 잠금 해제	0=class
 GLOBAL_SCREENSHOT_COMPLETE	바탕 화면에 스크린샷이 저장되었습니다.	
 GLOBAL_SET_CORE	기본 세트	
 GLOBAL_SET_EXPERT1	고급 세트	
-GLOBAL_SOCIAL_TOAST_FRIEND_OFFLINE	<color=#{0}>{1}</color> 님은 현재 오프라인 상태입니다.	0=name color,1=player name
-GLOBAL_SOCIAL_TOAST_FRIEND_ONLINE	<color=#{0}>{1}</color> 님은 현재 온라인 상태입니다.	0=name color,1=player name
+GLOBAL_SHUTDOWN_TOAST	<color=#{0}>Battle.net이 {1}|4(분,분) 뒤에 종료됩니다</color>	0=color, 1=minutes
+GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_COMPLETE	<color=#{0}>{1}</color> 님이 투기장을 완료했습니다. ({2}-{3})	0=name color,1=player name,2=Arena Wins,3=Arena Losses
+GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START	<color=#{0}>{1}</color> 님이 투기장을 시작했습니다.	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_FRIEND_GOLDEN_LEGENDARY	<color=#{0}>{1} 님이</color> <color=#{3}>황금 {2}</color> 카드를 얻었습니다!	0=name color,1=player name,2=card name,3=Golden Color
+GLOBAL_SOCIAL_TOAST_FRIEND_LEGENDARY	<color=#{0}>{1} 님이</color> <color=#{3}>{2}</color> 카드를 얻었습니다!	0=name color,1=player name,2=card name
+GLOBAL_SOCIAL_TOAST_FRIEND_OFFLINE	<color=#{0}>{1}</color> 님이 접속을 종료했습니다.	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_FRIEND_ONLINE	<color=#{0}>{1}</color> 님이 접속했습니다.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_REQUEST	<color=#{0}>{1}</color> 님이 당신을 친구로 등록하고 싶어합니다.	0=name color,1=player name
 GLOBAL_SPLASH_CLOSED_SIGN_TITLE	사용 불가	
+GLOBAL_TOOLTIP_MENU_DESC	설정이나 게임 종료 버튼 등을 살펴보세요.	
+GLOBAL_TOOLTIP_MENU_HEADER	게임 메뉴	
 GLOBAL_WINS	승리	
+GLOBAL_HEALTHY_GAMING_CHINA_CAIS_ACTIVE	CAIS Active	

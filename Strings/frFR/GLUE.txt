@@ -1,4 +1,4 @@
-TAG	TEXT	COMMENT
+﻿TAG	TEXT	COMMENT
 GLUE_AI_EXPERT_TEMPLATE	{0} - Expert	
 GLUE_AI_OPPONENT_CUSTOM	Personnalisé	
 GLUE_AI_OPPONENT_EXPERT	Expert	
@@ -9,6 +9,10 @@ GLUE_ARENA_1ST_TIME_HEADER	Arène
 GLUE_ARENA_DECK	Deck d’Arène	
 GLUE_ARENA_DECK_TOOLTIP	C’est votre deck d’Arène. Ces cartes ne font pas partie de votre collection.	
 GLUE_ARENA_DECK_TOOLTIP_HEADER	Deck d’Arène	
+GLUE_CANNOT_FIND_BATTLENET_CLIENT	Hearthstone nécessite l’application Battle.net mais n’est pas parvenu à la trouver. Veuillez vous rendre à l’adresse www.battle.net pour la réinstaller.	
+GLUE_CANNOT_RUN_BATTLENET_CLIENT	Hearthstone nécessite l’application Battle.net mais n’est pas parvenu à la lancer. Veuillez vous rendre à l’adresse www.battle.net pour la réinstaller.	
+GLUE_CARD_NERF_BODY	\n|4(La carte suivante a été modifiée,Les cartes suivantes ont été modifiées) :\n{0}	0=card names
+GLUE_CARD_NERF_HEADER	Attention, modifications !	
 GLUE_CHOOSE	Choisir	
 GLUE_CHOOSE_OPPONENT	Choisir un adversaire	
 GLUE_CHOOSE_YOUR_DECK	Choisissez un deck	
@@ -29,6 +33,12 @@ GLUE_COLLECTION_ARTIST	Illustration 
 GLUE_COLLECTION_CARD_COUNT	x{0}	
 GLUE_COLLECTION_CARD_COUNT_LARGE	x9+	
 GLUE_COLLECTION_CARD_NEW	NOUVEAU !	
+GLUE_COLLECTION_CRAFTING_DISENCHANT_BUTTON_TEXT	Désenchanter	
+GLUE_COLLECTION_CRAFTING_EXPLANATION	Sélectionnez une carte\npour la désenchanter.\n\nUtilisez la poussière arcanique pour créer des cartes. Obtenez de la poussière en désenchantant des cartes.\n\nLe montant de poussière dépend de la rareté de la carte.	
+GLUE_COLLECTION_CRAFTING_FILTERS	Filtres	
+GLUE_COLLECTION_CRAFTING_MODE	Création	
+GLUE_COLLECTION_CRAFTING_SHOW_ONLY_GOLDEN	Cartes dorées uniquement	
+GLUE_COLLECTION_CRAFTING_SHOW_SOULBOUND_CARDS	Inclure les cartes liées	
 GLUE_COLLECTION_CUSTOM_DECKNAME_TEMPLATE	Deck {0}{1}	0=class name, 1=incrementer
 GLUE_COLLECTION_DECK_FINISH_FOR_ME	Oui	
 GLUE_COLLECTION_DECK_HELP_BUTTON	Suggérer une carte	
@@ -36,7 +46,7 @@ GLUE_COLLECTION_DECK_INFO_HERO_POWER_TOOLTIP	Pouvoir héroïque
 GLUE_COLLECTION_DECK_INFO_MANA_TOOLTIP	Cartes / coût en mana	
 GLUE_COLLECTION_DECK_INFO_TITLE	Info {0}	
 GLUE_COLLECTION_DECK_INVALID_POPUP_HEADER	Deck invalide	
-GLUE_COLLECTION_DECK_INVALID_POPUP_MESSAGE	Il vous manque {0} carte(s) pour terminer ce deck. Voulez-vous le compléter automatiquement ?	
+GLUE_COLLECTION_DECK_INVALID_POPUP_MESSAGE	Il vous manque {0} |4(carte,cartes) pour terminer ce deck. Voulez-vous le compléter automatiquement ?	
 GLUE_COLLECTION_DECK_SAVE_ANYWAY	Non	
 GLUE_COLLECTION_DELETE_CONFIRM_DESC	Ce deck va être supprimé. Voulez-vous continuer ?	
 GLUE_COLLECTION_DELETE_CONFIRM_HEADER	Supprimer	
@@ -55,6 +65,7 @@ GLUE_COLLECTION_NO_MATCHES	Pas de correspondance
 GLUE_COLLECTION_PAGE_NUM	Page {0}	
 GLUE_COLLECTION_PLUS	+	
 GLUE_COLLECTION_RECENT_CARDS	Cartes récemment acquises	
+GLUE_COLLECTION_RECENTLY_NERFED	<color=#971c1cff>Cette carte ayant été modifiée récemment, sa valeur de désenchantement a été ajustée.</color>	
 GLUE_COLLECTION_SEARCH	<i>Rechercher</i>	
 GLUE_COLLECTION_SET_TEMPLATE	{0}	0=set name
 GLUE_COLLECTION_SHOW_ALL_CARDS	Voir toutes les cartes	
@@ -72,10 +83,12 @@ GLUE_CRAFTING_CREATE	Créer
 GLUE_CRAFTING_DISENCHANT	Désenchanter	
 GLUE_CRAFTING_DISENCHANT_CONFIRM_DESC	Si vous faites ça, les decks suivants ne seront plus valides :	
 GLUE_CRAFTING_DISENCHANT_CONFIRM_HEADER	Désenchanter	
+GLUE_CRAFTING_DISENCHANT_CONFIRM2_DESC	Vous voulez vraiment faire ça ? Si vous désenchantez cette carte, vous n’aurez plus le nombre de cartes maximum possible dans un deck.	
 GLUE_CRAFTING_SOULBOUND	Liée	
 GLUE_CRAFTING_SOULBOUND_BASIC_DESC	Les cartes de base ne peuvent pas être désenchantées ou créées.	
 GLUE_CRAFTING_SOULBOUND_DESC	Cette carte ne peut pas être désenchantée ou créée.	
 GLUE_CRAFTING_SOULBOUND_REWARD_DESC	Les récompenses de quête ne peuvent pas être désenchantées ou créées.	
+GLUE_CRAFTING_TITLE	Créer des cartes	
 GLUE_CRAFTING_UNDO	Annuler	
 GLUE_CREATE_DECK	Créer un deck	
 GLUE_DECK_TRAY_CARD_COUNT_LABEL	Cartes	
@@ -89,7 +102,7 @@ GLUE_DRAFT_PLAY_BUTTON	PARTIE
 GLUE_DRAFT_RETIRE_BUTTON	CAPITULER	
 GLUE_DRAFT_WINS_LABEL	Victoires	
 GLUE_FORGE	Arène	
-GLUE_FORGE_EXTRA_PRIZE_LABEL	{0} victoire(s)	0 = number of wins required to earn this prize
+GLUE_FORGE_EXTRA_PRIZE_LABEL	{0} |4(victoire,victoires)	0 = number of wins required to earn this prize
 GLUE_FORGE_MANATIP_DESC	La répartition des cartes de votre deck par coût en mana.	
 GLUE_FORGE_MANATIP_HEADER	Courbe de mana	
 GLUE_FORGE_RETIRE_WARNING_DESC	Ceci mettra un terme anticipé à votre série dans l’Arène ! Mais vous recevrez des récompenses suivant la clé obtenue.	
@@ -97,13 +110,10 @@ GLUE_FORGE_RETIRE_WARNING_HEADER	Attention !
 GLUE_FORGE_STORE_ADMISSION	Admission	
 GLUE_FORGE_STORE_DETAILS1	Créez un deck à partir de cartes aléatoires et testez votre résistance dans l’Arène.	
 GLUE_FORGE_STORE_DETAILS2	Plus vous gagnerez de matchs, plus la récompense sera intéressante !	
-GLUE_FORGE_STORE_DISCLAIMER_DETAILS_1	Toutes les récompenses obtenues (paquets, cartes, or et poussière arcanique) seront effacées de votre compte à la fin de la bêta fermée.	
-GLUE_FORGE_STORE_DISCLAIMER_DETAILS_2	Après la remise à zéro des comptes, les joueurs ayant effectué un achat dans la boutique recevront un crédit d’or équivalent à la valeur des paquets de cartes achetés et/ou des admissions à l’Arène.	
-GLUE_FORGE_STORE_DISCLAIMER_DETAILS_3	Si vous achetez une ou plusieurs admissions à l’Arène avec de l’argent réel, vous recevrez un cadeau pour nous avoir aidés à tester la boutique !	
+GLUE_FORGE_STORE_DISCLAIMER_DETAILS	Si vous achetez une ou plusieurs admissions à l’Arène avec de l’argent réel, vous recevrez un cadeau pour nous avoir aidés à tester la boutique !	
 GLUE_FORGE_STORE_HEADLINE	Bienvenue dans l’Arène !	
 GLUE_HERO_LOCKED_DESC	Battez ce héros pour le débloquer !	
 GLUE_HERO_LOCKED_NAME	Verrouillé	
-GLUE_LOADING	En cours de chargement{0}	0=animated dots to keep the user's eyes busy
 GLUE_LOADING_BAR_TASK_1	Brassage des cartes	
 GLUE_LOADING_BAR_TASK_10	Préparation mentale	
 GLUE_LOADING_BAR_TASK_11	Placement des héros	
@@ -132,17 +142,19 @@ GLUE_MASS_DISENCHANT_TOTAL_AMOUNT	{0:#,###0}	0=total amount with commas and no d
 GLUE_MATCHMAKER_FINDING_OPPONENT	Recherche d’adversaire	
 GLUE_MATCHMAKER_PERFECT_OPPONENT	Adversaire convenable	
 GLUE_MY_COLLECTION	Ma collection	
+GLUE_NINJA	Ninja	
 GLUE_OPEN_PACKS	Ouvrir\ndes\npaquets	
 GLUE_PACK_OPENING_ALL_CLASSES	Toutes classes	
 GLUE_PACK_OPENING_BOOSTER_COUNT	{0}	0=number of owned boosters
 GLUE_PACK_OPENING_HEADER	Ouvrir des paquets	
+GLUE_PACK_OPENING_TOOLTIP	카드팩을 개봉함으로써, 귀하는 카드팩의 청약철회가 불가하다는 사실을 인지하고 이에 동의합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_PRACTICE	Entraînement	
 GLUE_PRACTICE_BASIC_SET_COMPLETE	Jeu de base {0} complet	0=class
 GLUE_PRACTICE_BASIC_SET_PROGRESS	{0}/{1} cartes de base obtenues	0=number of owned cards,1=total number of basic cards
 GLUE_QUEST_LOG_BEST_FORGE_RECORD_HEADLINE	Meilleure médaille d’Arène	
 GLUE_QUEST_LOG_CLASS_LOCKED	Verrouillé	
 GLUE_QUEST_LOG_HEADLINE	Journal	
-GLUE_QUEST_LOG_HERO_LEVELS	Héros
+GLUE_QUEST_LOG_HERO_LEVELS	Héros	
 GLUE_QUEST_LOG_NO_QUESTS	Vous n’avez pas de quête. Essayez de débloquer de nouveaux héros en mode Entraînement !	
 GLUE_QUEST_LOG_NO_QUESTS_DAILIES_UNLOCKED	Vous n’avez pas de quête. Revenez voir demain !	
 GLUE_QUEST_LOG_TOTAL_LEVELS	<color=#c4b47c>Niveau total :</color> {0}	
@@ -211,7 +223,7 @@ GLUE_STORE_AUTH_FAIL_HEADLINE	Échec de l’achat
 GLUE_STORE_AUTH_SUCCESS_HEADLINE	Achat effectué !	
 GLUE_STORE_AUTH_WAITING	En attente d’autorisation	
 GLUE_STORE_BNET_BALANCE	Porte-monnaie Battle.net	
-GLUE_STORE_BONUS_PACKS	{0} paquet(s) bonus	0=number of packs
+GLUE_STORE_BONUS_PACKS	{0} |4(paquet,paquets) bonus	0=number of packs
 GLUE_STORE_BUY_TEXT	Acheter	
 GLUE_STORE_CC_EXPIRY_DETAILS	Les informations de votre carte de crédit ne sont plus à jour.	
 GLUE_STORE_CHALLENGE_CVV_MESSAGE	Veuillez saisir votre code de sécurité :\n\nPour savoir où trouver ce code, cliquez sur le bouton « {0} ».	
@@ -220,14 +232,15 @@ GLUE_STORE_CHALLENGE_PWD_MESSAGE	Veuillez saisir votre mot de passe :
 GLUE_STORE_CHALLENGE_PWD_RETRY_MESSAGE	Le mot de passe est incorrect. Veuillez le saisir à nouveau :	
 GLUE_STORE_CLOSED_BUTTON_TEXT	Fermé	
 GLUE_STORE_DISABLED	La boutique n’est pas disponible actuellement. Revenez plus tard.	
-GLUE_STORE_DISCLAIMER_DETAILS_1	Toutes les récompenses obtenues (paquets, cartes, or et poussière arcanique) seront effacées de votre compte à la fin de la bêta fermée.	
-GLUE_STORE_DISCLAIMER_DETAILS_2	Après la remise à zéro des comptes, les joueurs ayant effectué un achat dans la boutique recevront un crédit d’or équivalent à la valeur des paquets de carte achetés et/ou des admissions à l’Arène.	
-GLUE_STORE_DISCLAIMER_DETAILS_3	De plus, si vous effectuez des achats en argent réel pendant la bêta, vous recevrez un cadeau pour nous avoir aidés à tester la boutique !	
+GLUE_STORE_DISCLAIMER_DETAILS	Si vous effectuez des achats en argent réel pendant la bêta, vous recevrez un cadeau pour nous avoir aidés à tester la boutique !	
 GLUE_STORE_DISCLAIMER_HEADLINE	Attention	
 GLUE_STORE_DISCLAIMER_WARNING	Vous êtes sur le point de dépenser de l’argent réel !	
 GLUE_STORE_DONE_WITH_BAM_HEADLINE	Réessayer	
 GLUE_STORE_DONE_WITH_BAM_MESSAGE	Une fois que vous aurez quitté Battle.net, veuillez réessayer d'effectuer votre achat.	
 GLUE_STORE_ERROR_POPUP_TITLE	Erreur de la boutique	
+GLUE_STORE_EULA_AND_TOS_DETAILS	Vous pouvez consulter notre Contrat de Licence d’Utilisateur Final et nos Conditions d’Utilisation sur le site Battle.net.	
+GLUE_STORE_EULA_AND_TOS_HEADLINE	Conditions d’Utilisation	
+GLUE_STORE_EULA_AND_TOS_URL_DETAILS	Appuyez sur « {0} » pour vous rendre sur le site Battle.net où vous pourrez consulter le Contrat de Licence d’Utilisateur Final et les Conditions d’Utilisation.	
 GLUE_STORE_FAIL_BNET_ID	Identifiant Battle.net invalide.	
 GLUE_STORE_FAIL_CHALLENGE_TIMEOUT	Le délai pour valider votre achat a expiré. Veuillez recommencer la transaction.	
 GLUE_STORE_FAIL_DATABASE	Erreur de la base de données interne.	
@@ -241,6 +254,7 @@ GLUE_STORE_FAIL_NOT_ENOUGH_GOLD	Vous n’avez pas assez d’or pour acheter ceci
 GLUE_STORE_FAIL_PRODUCT_NA	Ce produit est indisponible pour le moment. Veuillez sélectionner un autre produit, puis réessayez.	
 GLUE_STORE_FAIL_PURCHASE_BAN	L’utilisation de la boutique a été bloquée pour votre compte. Si vous pensez qu’il s’agit d’une erreur, merci de contacter l’assistance clientèle.	
 GLUE_STORE_FAIL_QUANTITY	Vous avez sélectionné une quantité invalide pour cet objet. Veuillez modifier la quantité avant de réessayer.	
+GLUE_STORE_FAIL_SPENDING_LIMIT	Cet achat vous ferait dépasser votre limite de paiement. Mais les achats en or sont toujours disponibles !	
 GLUE_STORE_FORGOT_PWD_DETAILS	Vous avez saisi plusieurs fois un mot de passe incorrect. Avez-vous oublié votre mot de passe ?	
 GLUE_STORE_FORGOT_PWD_HEADLINE	Mot de passe oublié ?	
 GLUE_STORE_FORGOT_PWD_URL_DETAILS	Appuyez sur « {0} » pour vous rendre sur le site Battle.net où vous pourrez le réinitialiser.	
@@ -253,10 +267,11 @@ GLUE_STORE_GOLD_QTY_CHANGE_DESC_TOUCH	Vous avez beaucoup d’or ! Pour acheter 
 GLUE_STORE_GOLD_QTY_CHANGE_HEADER	Des paquets contre de l’or	
 GLUE_STORE_HEADLINE	Boutique	
 GLUE_STORE_INFO_BUTTON_TEXT	i	
+GLUE_STORE_KOREAN_PRODUCT_DETAILS_EXPERT_PACK	이용기간 : 서비스 종료 시까지. 본 상품은 구매 후 7일 이내에 청약철회가 가능합니다. 다만, 1개의 카드팩이라도 개봉한 경우에는 청약철회가 불가능합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_MONEY_BUTTON_TOOLTIP_HEADLINE	Acheter	
 GLUE_STORE_MULTI_EXPERT_PACK	{0} paquets Expert	
 GLUE_STORE_MULTI_PACK	{0} paquets	
-GLUE_STORE_NO_PAYMENT_DETAILS	Vous n’avez pas encore défini de méthode de paiement. Veuillez vous rendre sur le site Internet de Battle.net pour le faire, puis réessayez.	
+GLUE_STORE_NO_PAYMENT_DETAILS	Vous n’avez pas encore défini de méthode de paiement valide. Veuillez vous rendre sur le site Internet de Battle.net pour le faire, puis réessayez.	
 GLUE_STORE_NO_PAYMENT_HEADLINE	Attention !	
 GLUE_STORE_NO_PAYMENT_URL_DETAILS	Appuyez sur « {0} » pour vous rendre sur le site Battle.net.	
 GLUE_STORE_OPEN_BUTTON_TEXT	Boutique	
@@ -277,8 +292,12 @@ GLUE_STORE_SUMMARY_CHARGE_DETAILS	Sera facturé sur votre {0}
 GLUE_STORE_SUMMARY_HEADLINE	Commande	
 GLUE_STORE_SUMMARY_ITEM_ORDERED	{0} x {1}	0=item quantity, 1=item name (one of GLUE_STORE_PRODUCT_NAME_*)
 GLUE_STORE_SUMMARY_ITEMS_ORDERED_HEADLINE	Produits sélectionnés	
+GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_CONFIRM	본 거래와 관련된 조건과 약관을 확인하며 이에 동의합니다.	only displayed for Korean customers, should always be in Korean
+GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_EXPERT_PACK	이용기간 : 서비스 종료 시까지. 본 상품은 구매 후 7일 이내에 청약철회가 가능합니다. 다만, 1개의 카드팩이라도 개봉한 경우에는 청약철회가 불가능합니다.	only displayed for Korean customers, should always be in Korean
+GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_FORGE_TICKET	투기장 입장료는 구매 후 환불되지 않으며, 구매 즉시 투기장에 입장합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_SUMMARY_PRICE_HEADLINE	Prix	
-GLUE_STORE_SUMMARY_TAX_DISCLAIMER	Plus la TVA en vigueur.	
+GLUE_STORE_SUMMARY_TAX_DISCLAIMER	TVA applicable incluse.	
+GLUE_STORE_SUMMARY_TAX_DISCLAIMER_USD	Plus les taxes applicables en vigueur.	
 GLUE_TIP_DEFAULT_0	Vous pouvez acheter des paquets supplémentaires de cartes Expert à la boutique.	
 GLUE_TIP_DEFAULT_1	Cliquez sur le héros lors de la modification d’un deck pour changer le nom de deck.	
 GLUE_TIP_DEFAULT_10	L’Arène vous permet de construire un deck à partir de cartes aléatoires. Vous pouvez également gagner des récompenses !	
@@ -286,6 +305,8 @@ GLUE_TIP_DEFAULT_11	Les cartes de base s’obtiennent en gagnant des niveaux. El
 GLUE_TIP_DEFAULT_12	Les cartes dorées désenchantées rapportent beaucoup de poussière arcanique.	
 GLUE_TIP_DEFAULT_13	Dans votre collection, vous pouvez utiliser le champ Rechercher pour trouver toutes les cartes avec Provocation.	
 GLUE_TIP_DEFAULT_14	Les cartes de base s’obtiennent en gagnant des niveaux pour une classe. Les cartes Expert proviennent des paquets Expert.	
+GLUE_TIP_DEFAULT_15	Affronter de vrais joueurs vous fait gagner davantage d’expérience.	
+GLUE_TIP_DEFAULT_16	Faites un clic droit sur votre adversaire pour ignorer ses emotes.	
 GLUE_TIP_DEFAULT_2	Faites un clic droit sur votre héros pour le faire réagir.	
 GLUE_TIP_DEFAULT_3	Si vous avez besoin d’aide pour créer un deck, vous pouvez utiliser l’option « Suggérer une carte ».	
 GLUE_TIP_DEFAULT_4	Vous pouvez déterminer la rareté d'une carte à la couleur de la gemme centrale.	
@@ -314,6 +335,7 @@ GLUE_TIP_PRACTICE_3	Vous pouvez utiliser vos cartes pour construire un deck pers
 GLUE_TIP_PRACTICE_4	Chaque classe possède 5 cartes de base différentes que vous pouvez débloquer quand vous gagnez des niveaux.	
 GLUE_TIP_PRACTICE_5	Accomplissez des quêtes en mode « Partie » pour gagner de l’or !	
 GLUE_TIP_PRACTICE_6	Attaquer le héros ? Ou les serviteurs ennemis ? Répondre correctement à cette question peut souvent changer le cours d’une bataille.	
+GLUE_TIP_PRACTICE_7	Vous obtiendrez davantage d’expérience après le niveau 10 en affrontant de vrais joueurs.	
 GLUE_TIP_QUEST_LOG_0	Débloquez d’autres héros en mode Entraînement - Gagnez contre un adversaire virtuel pour le débloquer !	
 GLUE_TIP_QUEST_LOG_1	Vous pouvez gagner des cartes de base supplémentaires pour une classe en jouant des parties avec cette dernière.	
 GLUE_TIP_QUEST_LOG_2	Essayez le mode Partie, vous pouvez gagner des paquets de cartes Expert en jouant !	
