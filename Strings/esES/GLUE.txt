@@ -133,8 +133,8 @@ GLUE_LOADING_BAR_TASK_7	Ahuyentando múrlocs
 GLUE_LOADING_BAR_TASK_8	Lubricando botón de turnos	
 GLUE_LOADING_BAR_TASK_9	Limpiando mesa	
 GLUE_MASS_DISENCHANT_BUTTON_TEXT	Desencantar	
-GLUE_MASS_DISENCHANT_DETAILS	No puedes tener más de 2 copias de una carta en tu mazo (ni más de 1 de cada legendaria), así que desencanta las que sobren y conviértelas en polvo arcano.	
-GLUE_MASS_DISENCHANT_DETAILS_HEADLINE	Desencanta tus cartas sobrantes para crear polvo arcano.	
+GLUE_MASS_DISENCHANT_DETAILS	No puedes tener más de 2 copias de una carta en tu mazo (ni más de 1 de cada legendaria), así que desencanta las que sobren y conviértelas en polvo Arcano.	
+GLUE_MASS_DISENCHANT_DETAILS_HEADLINE	Desencanta tus cartas sobrantes para crear polvo Arcano.	
 GLUE_MASS_DISENCHANT_HEADLINE	Desencantar en masa	
 GLUE_MASS_DISENCHANT_PREMIUM_TITLE	{0} dorada	0=rarity
 GLUE_MASS_DISENCHANT_SUB_HEADLINE_TEXT	Destruirás:	
@@ -224,7 +224,7 @@ GLUE_STORE_AUTH_SUCCESS_HEADLINE	¡Compra completada!
 GLUE_STORE_AUTH_WAITING	Esperando autorización	
 GLUE_STORE_BNET_BALANCE	Saldo de Battle.net	
 GLUE_STORE_BONUS_PACKS	{0} bonus	0=number of packs
-GLUE_STORE_BUY_TEXT	COMPRAR	
+GLUE_STORE_BUY_TEXT	COMPRAR	this is what you see when you initiate the purchase
 GLUE_STORE_CC_EXPIRY_DETAILS	Los datos de tu tarjeta de crédito han expirado.	
 GLUE_STORE_CHALLENGE_CVV_MESSAGE	Introduce tu código CVC:\n\nSi necesitas ayuda para encontrar tu código CVC, haz clic en el botón "{0}".	
 GLUE_STORE_CHALLENGE_HEADLINE	Aviso	
@@ -237,7 +237,6 @@ GLUE_STORE_DISCLAIMER_HEADLINE	Aviso
 GLUE_STORE_DISCLAIMER_WARNING	¡Estás a punto de gastar dinero real!	
 GLUE_STORE_DONE_WITH_BAM_HEADLINE	Inténtalo de nuevo	
 GLUE_STORE_DONE_WITH_BAM_MESSAGE	Cuando vuelvas de Battle.net vuelve a intentar realizar la compra.	
-GLUE_STORE_ERROR_POPUP_TITLE	Error de la tienda	
 GLUE_STORE_EULA_AND_TOS_DETAILS	Nuestro Contrato de Licencia y las Condiciones del Servicio están disponibles en Battle.net.	
 GLUE_STORE_EULA_AND_TOS_HEADLINE	Condiciones del Servicio	
 GLUE_STORE_EULA_AND_TOS_URL_DETAILS	Pulsa "{0}" para acceder al Contrato de Licencia y a las Condiciones del Servicio en la web de Battle.net.	
@@ -251,6 +250,7 @@ GLUE_STORE_FAIL_LICENSE	Licencia duplicada detectada.
 GLUE_STORE_FAIL_NO_ACTIVE_BPAY	Error interno: no hay información de transacciones en la base de datos.	
 GLUE_STORE_FAIL_NO_BATTLEPAY	No se ha podido completar tu transacción. ¡Lo sentimos! Espera un momento y vuelve a intentarlo.	
 GLUE_STORE_FAIL_NOT_ENOUGH_GOLD	No tienes suficiente oro para comprar eso ahora mismo.	
+GLUE_STORE_FAIL_PARENTAL_CONTROL	Las compras de esta cuenta están restringidas actualmente por el control parental.	
 GLUE_STORE_FAIL_PRODUCT_NA	Ese producto no está disponible en este momento. Elige otro producto y vuelve a intentarlo.	
 GLUE_STORE_FAIL_PURCHASE_BAN	Tu cuenta se ha bloqueado y no puede acceder a la tienda. Si crees que se trata de un error, ponte en contacto con Asistencia al cliente.	
 GLUE_STORE_FAIL_QUANTITY	La cantidad de ese objeto que has elegido no es válida. Selecciona una cantidad diferente y vuelve a intentarlo.	
@@ -295,9 +295,12 @@ GLUE_STORE_SUMMARY_ITEMS_ORDERED_HEADLINE	Objetos pedidos
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_CONFIRM	본 거래와 관련된 조건과 약관을 확인하며 이에 동의합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_EXPERT_PACK	이용기간 : 서비스 종료 시까지. 본 상품은 구매 후 7일 이내에 청약철회가 가능합니다. 다만, 1개의 카드팩이라도 개봉한 경우에는 청약철회가 불가능합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_FORGE_TICKET	투기장 입장료는 구매 후 환불되지 않으며, 구매 즉시 투기장에 입장합니다.	only displayed for Korean customers, should always be in Korean
+GLUE_STORE_SUMMARY_PAY_NOW_TEXT	Pagar	this is what you see when you confirm the purchase
 GLUE_STORE_SUMMARY_PRICE_HEADLINE	Precio	
 GLUE_STORE_SUMMARY_TAX_DISCLAIMER	IVA incluido.	
 GLUE_STORE_SUMMARY_TAX_DISCLAIMER_USD	Más impuestos aplicables.	
+GLUE_STORE_SUMMARY_TOS_AGREEMENT	Al hacer clic en "{0}", reconoces que has leído y aceptado las Condiciones de Venta. Pulsar el botón "{1}" te llevará a las Condiciones de Venta en Battle.net.	0=GLUE_STORE_SUMMARY_PAY_NOW_TEXT,1=GLUE_STORE_INFO_BUTTON_TEXT
+GLUE_STORE_TERMS_OF_SALE_BUTTON_TEXT	?	
 GLUE_TIP_DEFAULT_0	Puedes comprar más sobres de cartas expertas en la tienda.	
 GLUE_TIP_DEFAULT_1	Haz clic en tu héroe mientras editas un mazo para cambiar el nombre de tu mazo.	
 GLUE_TIP_DEFAULT_10	La Arena te permite construir un mazo con cartas aleatorias. ¡También puedes ganar premios!	

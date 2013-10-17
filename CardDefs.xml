@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<CardDefs build="3890">
+<CardDefs build="3937">
 	<Entity CardID="CRED_01" ID="0" version="2">
 		<Tag enumID="185" name="CARDNAME" type="LocString">
 			<deDE>Jason Chayes</deDE>
@@ -21561,18 +21561,18 @@ Magiczna siła, boję się...”
 			<zhTW>戰鬥狂怒</zhTW>
 		</Tag>
 		<Tag enumID="184" name="CARDTEXT_INHAND" type="LocString">
-			<deDE>Zieht eine Karte für jeden verletzten Charakter.</deDE>
-			<enUS>Draw a card for each damaged character.</enUS>
-			<esES>Roba una carta por cada personaje dañado.</esES>
-			<esMX>Roba una carta por cada personaje dañado.</esMX>
-			<frFR>Vous piochez une carte pour chaque personnage blessé.</frFR>
-			<itIT>Pesca una carta per ogni personaggio danneggiato.</itIT>
+			<deDE>Zieht eine Karte für jeden verletzten befreundeten Charakter.</deDE>
+			<enUS>Draw a card for each damaged friendly character.</enUS>
+			<esES>Roba una carta por cada personaje amistoso dañado.</esES>
+			<esMX>Roba una carta por cada personaje aliado dañado.</esMX>
+			<frFR>Vous piochez une carte pour chaque personnage allié blessé.</frFR>
+			<itIT>Pesca una carta per ogni tuo personaggio danneggiato.</itIT>
 			<koKR>피해를 입은 캐릭터의 수만큼 카드를 뽑습니다.</koKR>
-			<plPL>Dobierz kartę za każdą zranioną postać.</plPL>
-			<ptBR>Compre um card para cada personagem ferido.</ptBR>
-			<ruRU>Вы берете карту за каждого персонажа с неполным здоровьем.</ruRU>
-			<zhCN>每有一个受到伤害的角色，便抽一张牌。</zhCN>
-			<zhTW>抽牌，數量等於受傷角色的總數。</zhTW>
+			<plPL>Dobierz kartę za każdą zranioną, przyjazną postać.</plPL>
+			<ptBR>Compre um card para cada personagem aliado ferido.</ptBR>
+			<ruRU>Вы берете карту за каждого вашего персонажа с неполным здоровьем.</ruRU>
+			<zhCN>每有一个受到伤害的友方角色，便抽一张牌。</zhCN>
+			<zhTW>抽牌，數量等於友方受傷角色的總數。</zhTW>
 		</Tag>
 		<Tag enumID="351" name="FLAVORTEXT" type="LocString">
 			<deDE>„Ihr würdet mich nicht mögen, wenn ich wütend bin.“</deDE>
@@ -21589,7 +21589,7 @@ Magiczna siła, boję się...”
 			<zhTW>「你不會喜歡生氣時的我。」</zhTW>
 		</Tag>
 		<Tag enumID="342" name="ARTISTNAME" type="String">Alex Horley Orlandelli</Tag>
-		<Tag enumID="48" name="COST" type="Int" value="3"/>
+		<Tag enumID="48" name="COST" type="Int" value="2"/>
 		<Tag enumID="183" name="CARD_SET" type="Int" value="3"/>
 		<Tag enumID="199" name="CLASS" type="Int" value="10"/>
 		<Tag enumID="201" name="FACTION" type="Int" value="3"/>
@@ -27519,16 +27519,16 @@ Magiczna siła, boję się...”
 			<zhTW>神聖之火</zhTW>
 		</Tag>
 		<Tag enumID="184" name="CARDTEXT_INHAND" type="LocString">
-			<deDE>Verursacht 5 Schaden. Stellt bei Eurem Helden 5 Leben wieder her.</deDE>
+			<deDE>Verursacht $5 Schaden. Stellt bei Eurem Helden #5 Leben wieder her.</deDE>
 			<enUS>Deal 5 damage.  Restore 5 Health to your hero.</enUS>
-			<esES>Inflige 5 p. de daño. Restaura 5. de salud a tu héroe.</esES>
-			<esMX>Inflige 5 de daño. Restaura 5 de Salud a tu héroe.</esMX>
-			<frFR>Inflige 5 points de dégâts. Rend 5 PV à votre héros.</frFR>
-			<itIT>Infligge 5 danni. Rigenera 5 Salute al tuo eroe.</itIT>
-			<koKR>피해를 5 줍니다. 내 영웅이 생명력을 5 회복합니다.</koKR>
-			<plPL>Zadaj 5 pkt. obrażeń. Przywróć 5 pkt. zdrowia swojemu bohaterowi.</plPL>
-			<ptBR>Cause 5 de dano. Restaure 5 de Vida do seu herói.</ptBR>
-			<ruRU>Наносит 5 ед. урона. Восстанавливает 5 ед. здоровья вашему герою.</ruRU>
+			<esES>Inflige $5 p. de daño. Restaura #5. de salud a tu héroe.</esES>
+			<esMX>Inflige $5 de daño. Restaura #5 de Salud a tu héroe.</esMX>
+			<frFR>Inflige $5 points de dégâts. Rend #5 PV à votre héros.</frFR>
+			<itIT>Infligge $5 danni. Rigenera #5 Salute al tuo eroe.</itIT>
+			<koKR>피해를 $5 줍니다. 내 영웅이 생명력을 #5 회복합니다.</koKR>
+			<plPL>Zadaj $5 pkt. obrażeń. Przywróć #5 pkt. zdrowia swojemu bohaterowi.</plPL>
+			<ptBR>Cause $5 de dano. Restaure #5 de Vida do seu herói.</ptBR>
+			<ruRU>Наносит $5 ед. урона. Восстанавливает #5 ед. здоровья вашему герою.</ruRU>
 			<zhCN>造成5点伤害。为你的英雄恢复5点生命值。</zhCN>
 			<zhTW>造成5點傷害。使你的英雄恢復5點生命值。</zhTW>
 		</Tag>
@@ -27539,7 +27539,7 @@ Magiczna siła, boję się...”
 			<esMX>No puedes decir que los dioses no te han escuchado.</esMX>
 			<frFR>Ce sort est souvent suivi d’une sacrée fumée !</frFR>
 			<itIT>Spesso seguito dal Fumo Sacro!</itIT>
-			<koKR>흑마법사의 생명력 흡수와 뭐가 다르냐고요?... 신성 모독이다!</koKR>
+			<koKR>흑마법사의 생명력 흡수와 뭐가 다르냐고요?... 신... 신성 모독이다!</koKR>
 			<plPL>Często następuje po nim siwy dym!</plPL>
 			<ptBR>Logo depois vem a Fumaça Sagrada!</ptBR>
 			<ruRU>Священный огонь не бывает без священного дыма!</ruRU>

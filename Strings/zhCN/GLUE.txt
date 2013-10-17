@@ -33,7 +33,7 @@ GLUE_COLLECTION_ARTIST	画家
 GLUE_COLLECTION_CARD_COUNT	x{0}	
 GLUE_COLLECTION_CARD_COUNT_LARGE	x9+	
 GLUE_COLLECTION_CARD_NEW	新！	
-GLUE_COLLECTION_CRAFTING_DISENCHANT_BUTTON_TEXT	分解额外的卡牌	
+GLUE_COLLECTION_CRAFTING_DISENCHANT_BUTTON_TEXT	分解多余卡牌	
 GLUE_COLLECTION_CRAFTING_EXPLANATION	选择一张卡牌开始制作。\n\n你可以消耗奥术之尘来制作卡牌，或者分解卡牌来获得奥术之尘。\n\n奥术之尘消耗数量取决于卡牌的稀有度。	
 GLUE_COLLECTION_CRAFTING_FILTERS	过滤器	
 GLUE_COLLECTION_CRAFTING_MODE	制作模式	
@@ -224,7 +224,7 @@ GLUE_STORE_AUTH_SUCCESS_HEADLINE	购买完成！
 GLUE_STORE_AUTH_WAITING	等待授权	
 GLUE_STORE_BNET_BALANCE	战网点数	
 GLUE_STORE_BONUS_PACKS	{0}包扩展包奖励	0=number of packs
-GLUE_STORE_BUY_TEXT	购买	
+GLUE_STORE_BUY_TEXT	购买	this is what you see when you initiate the purchase
 GLUE_STORE_CC_EXPIRY_DETAILS	你的信用卡信息已过期。	
 GLUE_STORE_CHALLENGE_CVV_MESSAGE	请输入信用卡后三位识别码：\n\n点击“{0}”按钮来帮助获取你的识别码。	
 GLUE_STORE_CHALLENGE_HEADLINE	注意	
@@ -237,7 +237,6 @@ GLUE_STORE_DISCLAIMER_HEADLINE	注意
 GLUE_STORE_DISCLAIMER_WARNING	你将要花费真实现金进行购买！	
 GLUE_STORE_DONE_WITH_BAM_HEADLINE	再次尝试	
 GLUE_STORE_DONE_WITH_BAM_MESSAGE	在战网成功操作回到游戏后，请再次尝试购买。	
-GLUE_STORE_ERROR_POPUP_TITLE	牌店出错	
 GLUE_STORE_EULA_AND_TOS_DETAILS	你可以在战网上浏览最终用户许可协议和服务条款。	
 GLUE_STORE_EULA_AND_TOS_HEADLINE	服务条款	
 GLUE_STORE_EULA_AND_TOS_URL_DETAILS	点击“{0}”可在战网上浏览最终用户许可协议和服务条款。	
@@ -251,6 +250,7 @@ GLUE_STORE_FAIL_LICENSE	发现重复的许可证。
 GLUE_STORE_FAIL_NO_ACTIVE_BPAY	内部错误：数据库中无交易信息。	
 GLUE_STORE_FAIL_NO_BATTLEPAY	您的交易无法完成。很抱歉！请耐心等待一段时间并再次进行尝试。	
 GLUE_STORE_FAIL_NOT_ENOUGH_GOLD	现在你还没有足够的金币来购买。	
+GLUE_STORE_FAIL_PARENTAL_CONTROL	由于家长监护系统的限制，该账号目前无法进行购买。	
 GLUE_STORE_FAIL_PRODUCT_NA	该产品现在暂不可用。请选择另一个商品并再次进行尝试。	
 GLUE_STORE_FAIL_PURCHASE_BAN	你的账号已被限制使用牌店。如果你认为这是个错误的操作，请联系客服。	
 GLUE_STORE_FAIL_QUANTITY	您选择了错误的数量。请改变数量并再次进行尝试。	
@@ -295,9 +295,12 @@ GLUE_STORE_SUMMARY_ITEMS_ORDERED_HEADLINE	已订购的货物
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_CONFIRM	본 거래와 관련된 조건과 약관을 확인하며 이에 동의합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_EXPERT_PACK	이용기간 : 서비스 종료 시까지. 본 상품은 구매 후 7일 이내에 청약철회가 가능합니다. 다만, 1개의 카드팩이라도 개봉한 경우에는 청약철회가 불가능합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_FORGE_TICKET	투기장 입장료는 구매 후 환불되지 않으며, 구매 즉시 투기장에 입장합니다.	only displayed for Korean customers, should always be in Korean
+GLUE_STORE_SUMMARY_PAY_NOW_TEXT	立即支付	this is what you see when you confirm the purchase
 GLUE_STORE_SUMMARY_PRICE_HEADLINE	价格	
 GLUE_STORE_SUMMARY_TAX_DISCLAIMER	费用包含任何适用税费。	
 GLUE_STORE_SUMMARY_TAX_DISCLAIMER_USD	费用包含任何适用税费。	
+GLUE_STORE_SUMMARY_TOS_AGREEMENT	点击“{0}”即表示你已经阅读并接受了本销售协议。点击“{1}”可以浏览该协议。	0=GLUE_STORE_SUMMARY_PAY_NOW_TEXT,1=GLUE_STORE_INFO_BUTTON_TEXT
+GLUE_STORE_TERMS_OF_SALE_BUTTON_TEXT	？	
 GLUE_TIP_DEFAULT_0	你可以从牌店中购买额外的专家级扩展包。	
 GLUE_TIP_DEFAULT_1	在编辑套牌的界面中点击英雄头像即可改变套牌的名称。	
 GLUE_TIP_DEFAULT_10	在竞技模式中，你将使用随机卡牌来打造套牌。你还有机会赢得丰厚奖励！	

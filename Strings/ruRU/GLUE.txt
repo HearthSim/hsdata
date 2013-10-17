@@ -224,7 +224,7 @@ GLUE_STORE_AUTH_SUCCESS_HEADLINE	Спасибо за покупку!
 GLUE_STORE_AUTH_WAITING	Ожидание авторизации	
 GLUE_STORE_BNET_BALANCE	Кошелек Battle.net	
 GLUE_STORE_BONUS_PACKS	Дополнительно: {0}	0=number of packs
-GLUE_STORE_BUY_TEXT	КУПИТЬ	
+GLUE_STORE_BUY_TEXT	КУПИТЬ	this is what you see when you initiate the purchase
 GLUE_STORE_CC_EXPIRY_DETAILS	Информация о вашей кредитной карте устарела.	
 GLUE_STORE_CHALLENGE_CVV_MESSAGE	Пожалуйста, введите проверочный код карты (CVV):\n\nЕсли вы не знаете, где найти проверочный код карты, нажмите кнопку «{0}».	
 GLUE_STORE_CHALLENGE_HEADLINE	Внимание!	
@@ -237,7 +237,6 @@ GLUE_STORE_DISCLAIMER_HEADLINE	Внимание!
 GLUE_STORE_DISCLAIMER_WARNING	На покупки тратятся настоящие деньги!	
 GLUE_STORE_DONE_WITH_BAM_HEADLINE	Попробуйте еще раз	
 GLUE_STORE_DONE_WITH_BAM_MESSAGE	Когда вы добавите метод оплаты на Battle.net, пожалуйста, повторите попытку.	
-GLUE_STORE_ERROR_POPUP_TITLE	Ошибка магазина	
 GLUE_STORE_EULA_AND_TOS_DETAILS	Наше Пользовательское соглашение и ЛСКП можно найти на сайте Battle.net.	
 GLUE_STORE_EULA_AND_TOS_HEADLINE	Пользовательское соглашение	
 GLUE_STORE_EULA_AND_TOS_URL_DETAILS	Нажав на {0}, вы перейдете на страницу, содержащую Пользовательское соглашение и ЛСКП на сайте Battle.net.	
@@ -251,6 +250,7 @@ GLUE_STORE_FAIL_LICENSE	Обнаружена двойная лицензия.
 GLUE_STORE_FAIL_NO_ACTIVE_BPAY	Внутренняя ошибка: информация об оплате отсутствует в базе данных.	
 GLUE_STORE_FAIL_NO_BATTLEPAY	Транзакция не может быть завершена. Пожалуйста, повторите попытку через некоторое время.	
 GLUE_STORE_FAIL_NOT_ENOUGH_GOLD	У вас недостаточно золота для совершения этой покупки.	
+GLUE_STORE_FAIL_PARENTAL_CONTROL	Возможность совершения покупок на данной учетной записи ограничена на правах родительского контроля.	
 GLUE_STORE_FAIL_PRODUCT_NA	Этот товар сейчас недоступен. Пожалуйста, выберите что-нибудь другое.	
 GLUE_STORE_FAIL_PURCHASE_BAN	Доступ к магазину заблокирован для данной учетной записи. Если вы считаете, что произошла ошибка, обратитесь в службу поддержки.	
 GLUE_STORE_FAIL_QUANTITY	Неверное количество выбранного товара. Пожалуйста, измените количество и повторите попытку.	
@@ -295,9 +295,12 @@ GLUE_STORE_SUMMARY_ITEMS_ORDERED_HEADLINE	Заказанные товары
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_CONFIRM	본 거래와 관련된 조건과 약관을 확인하며 이에 동의합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_EXPERT_PACK	이용기간 : 서비스 종료 시까지. 본 상품은 구매 후 7일 이내에 청약철회가 가능합니다. 다만, 1개의 카드팩이라도 개봉한 경우에는 청약철회가 불가능합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_FORGE_TICKET	투기장 입장료는 구매 후 환불되지 않으며, 구매 즉시 투기장에 입장합니다.	only displayed for Korean customers, should always be in Korean
+GLUE_STORE_SUMMARY_PAY_NOW_TEXT	Оплатить	this is what you see when you confirm the purchase
 GLUE_STORE_SUMMARY_PRICE_HEADLINE	Цена	
 GLUE_STORE_SUMMARY_TAX_DISCLAIMER	Включая НДС.	
 GLUE_STORE_SUMMARY_TAX_DISCLAIMER_USD	Без учета налогов.	
+GLUE_STORE_SUMMARY_TOS_AGREEMENT	 Нажав кнопку «{0}», вы подтверждаете, что ознакомились и согласились с Условиями продажи. Вы можете перейти к Условиям продажи на сайте Battle.net, нажав кнопку «{1}».	0=GLUE_STORE_SUMMARY_PAY_NOW_TEXT,1=GLUE_STORE_INFO_BUTTON_TEXT
+GLUE_STORE_TERMS_OF_SALE_BUTTON_TEXT	?	
 GLUE_TIP_DEFAULT_0	Вы можете приобрести дополнительные комплекты эксперта в магазине.	
 GLUE_TIP_DEFAULT_1	Чтобы изменить название колоды, щелкните по вашему герою во время редактирования колоды.	
 GLUE_TIP_DEFAULT_10	На Арене вы можете собрать колоду из случайных карт, а также выиграть призы!	
