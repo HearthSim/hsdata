@@ -84,7 +84,7 @@ GLUE_CRAFTING_DISENCHANT	Desencantar
 GLUE_CRAFTING_DISENCHANT_CONFIRM_DESC	¿Estás seguro? Los siguientes mazos quedarán invalidados:	
 GLUE_CRAFTING_DISENCHANT_CONFIRM_HEADER	Desencantar	
 GLUE_CRAFTING_DISENCHANT_CONFIRM2_DESC	¿Estás seguro? Si desencantas esta carta, no tendrás suficientes cartas para usar el mazo.	
-GLUE_CRAFTING_SOULBOUND	Ligado al alma	
+GLUE_CRAFTING_SOULBOUND	Ligada al alma	
 GLUE_CRAFTING_SOULBOUND_BASIC_DESC	No se puede desencantar o crear cartas básicas.	
 GLUE_CRAFTING_SOULBOUND_DESC	No se puede desencantar o crear esta carta.	
 GLUE_CRAFTING_SOULBOUND_REWARD_DESC	No se puede desencantar o crear recompensas de misión.	
@@ -224,7 +224,7 @@ GLUE_STORE_AUTH_SUCCESS_HEADLINE	¡Compra completa!
 GLUE_STORE_AUTH_WAITING	Esperando autorización	
 GLUE_STORE_BNET_BALANCE	Saldo de Battle.net	
 GLUE_STORE_BONUS_PACKS	Bonificación: {0}	0=number of packs
-GLUE_STORE_BUY_TEXT	COMPRAR	
+GLUE_STORE_BUY_TEXT	COMPRAR	this is what you see when you initiate the purchase
 GLUE_STORE_CC_EXPIRY_DETAILS	La información de tu tarjeta de crédito ya no está vigente.	
 GLUE_STORE_CHALLENGE_CVV_MESSAGE	Ingresa el código de seguridad de tu tarjeta:\n\nSi necesitas ayuda para ubicarlo, haz clic en el botón "{0}".	
 GLUE_STORE_CHALLENGE_HEADLINE	Atención	
@@ -237,7 +237,6 @@ GLUE_STORE_DISCLAIMER_HEADLINE	Atención
 GLUE_STORE_DISCLAIMER_WARNING	¡Estás a punto de gastar dinero real!	
 GLUE_STORE_DONE_WITH_BAM_HEADLINE	Inténtalo nuevamente	
 GLUE_STORE_DONE_WITH_BAM_MESSAGE	Cuando hayas regresado de Battle.net, intenta realizar tu compra nuevamente.	
-GLUE_STORE_ERROR_POPUP_TITLE	Error de tienda	
 GLUE_STORE_EULA_AND_TOS_DETAILS	Para leer el Contrato de licencia de usuario final y las Condiciones de servicio, visita Battle.net.	
 GLUE_STORE_EULA_AND_TOS_HEADLINE	Condiciones de servicio	
 GLUE_STORE_EULA_AND_TOS_URL_DETAILS	Presiona "{0}" para leer el Contrato de licencia de usuario final y las Condiciones de servicio en el sitio web de Battle.net.	
@@ -251,6 +250,7 @@ GLUE_STORE_FAIL_LICENSE	Se ha detectado una licencia duplicada.
 GLUE_STORE_FAIL_NO_ACTIVE_BPAY	Error interno: no hay información de transacción en la base de datos.	
 GLUE_STORE_FAIL_NO_BATTLEPAY	Tu transacción no pudo completarse. Espera un momento y vuelve a intentarlo.	
 GLUE_STORE_FAIL_NOT_ENOUGH_GOLD	No tienes suficiente oro para hacer esa compra ahora.	
+GLUE_STORE_FAIL_PARENTAL_CONTROL	Actualmente las compras en esta cuenta están restringidas por controles para padres.	
 GLUE_STORE_FAIL_PRODUCT_NA	Ese producto no está disponible en este momento. Selecciona otro y vuelve a intentarlo.	
 GLUE_STORE_FAIL_PURCHASE_BAN	Tu cuenta tiene bloqueado el acceso a la tienda. Si crees que esto es un error, comunícate con Servicio al cliente.	
 GLUE_STORE_FAIL_QUANTITY	Has elegido una cantidad no válida para ese objeto. Selecciona otra cantidad y vuelve a intentarlo.	
@@ -275,7 +275,7 @@ GLUE_STORE_NO_PAYMENT_DETAILS	Todavía no has elegido un método de pago válido
 GLUE_STORE_NO_PAYMENT_HEADLINE	Atención	
 GLUE_STORE_NO_PAYMENT_URL_DETAILS	Pulsa "{0}" para ingresar en el sitio web de Battle.net.	
 GLUE_STORE_OPEN_BUTTON_TEXT	Tienda	
-GLUE_STORE_PAYMENT_INFO_DETAILS	Los fondos se descontarán de tu saldo de Battle.net. Si el saldo no es suficiente, se utilizará el método de pago principal que has especificado en tu cuenta de Battle.net.\n\nIMPORTANTE: Ten en cuenta que si se produce un reintegro del cobro o algún otro problema con los pagos, es posible que se suspenda temporalmente la cuenta de Hearthstone hasta que se solucionen los problemas o se vuelva a pagar el monto que se había reintegrado.	
+GLUE_STORE_PAYMENT_INFO_DETAILS	Los fondos se descontarán de tu saldo de Battle.net. Si el saldo no es suficiente, se utilizará el método de pago principal que has especificado en tu cuenta de Battle.net.\n\nIMPORTANTE: Ten en cuenta que si se produce un cargo revertido o algún otro problema con los pagos, es posible que se suspenda temporalmente la cuenta de Hearthstone hasta que se solucionen los problemas o se vuelva a pagar el cargo revertido.	
 GLUE_STORE_PAYMENT_INFO_HEADLINE	Información de pago	
 GLUE_STORE_PAYMENT_INFO_URL_DETAILS	Si quieres ver más información, pulsa "{0}" para ingresar en el sitio web de información de pago de Battle.net.	
 GLUE_STORE_PRODUCT_DETAILS_EXPERT_PACK	•  5 cartas de experto de Hearthstone\n• Al menos 1 carta será rara o superior	
@@ -295,9 +295,12 @@ GLUE_STORE_SUMMARY_ITEMS_ORDERED_HEADLINE	Objetos solicitados
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_CONFIRM	본 거래와 관련된 조건과 약관을 확인하며 이에 동의합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_EXPERT_PACK	이용기간 : 서비스 종료 시까지. 본 상품은 구매 후 7일 이내에 청약철회가 가능합니다. 다만, 1개의 카드팩이라도 개봉한 경우에는 청약철회가 불가능합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_FORGE_TICKET	투기장 입장료는 구매 후 환불되지 않으며, 구매 즉시 투기장에 입장합니다.	only displayed for Korean customers, should always be in Korean
+GLUE_STORE_SUMMARY_PAY_NOW_TEXT	Pagar ahora	this is what you see when you confirm the purchase
 GLUE_STORE_SUMMARY_PRICE_HEADLINE	Precio	
 GLUE_STORE_SUMMARY_TAX_DISCLAIMER	IVA incluido.	
 GLUE_STORE_SUMMARY_TAX_DISCLAIMER_USD	No incluye impuestos.	
+GLUE_STORE_SUMMARY_TOS_AGREEMENT	Si haces clic en "{0}", aceptas haber leído y comprendido los términos y condiciones de venta. Para leer nuestros términos y condiciones de venta en Battle.net, haz clic en el botón "{1}".	0=GLUE_STORE_SUMMARY_PAY_NOW_TEXT,1=GLUE_STORE_INFO_BUTTON_TEXT
+GLUE_STORE_TERMS_OF_SALE_BUTTON_TEXT	?	
 GLUE_TIP_DEFAULT_0	Puedes comprar paquetes de cartas de experto adicionales en la tienda.	
 GLUE_TIP_DEFAULT_1	Haz clic sobre tu héroe mientras modificas el nombre de tu mazo.	
 GLUE_TIP_DEFAULT_10	La Arena te permite construir un mazo con cartas aleatorias. ¡También puedes ganar premios!	
@@ -334,7 +337,7 @@ GLUE_TIP_PRACTICE_2	¡El modo Jugar hará que te enfrentes con alguien de habili
 GLUE_TIP_PRACTICE_3	Si visitas tu Colección, puedes construir un mazo personalizado con tus cartas.	
 GLUE_TIP_PRACTICE_4	Cada clase tiene 5 cartas básicas diferentes que puedes desbloquear a medida que subes de nivel.	
 GLUE_TIP_PRACTICE_5	¡Completa misiones en el modo Jugar para obtener Oro!	
-GLUE_TIP_PRACTICE_6	¿Debes atacar al héroe o a los esbirros enemigos? La respuesta es un factor decisivo para dar vuelta una batalla.	
+GLUE_TIP_PRACTICE_6	¿Debes atacar al héroe o a los esbirros enemigos? La respuesta es un factor decisivo para cambiar el curso de una batalla.	
 GLUE_TIP_PRACTICE_7	A partir del nivel 10, obtendrás más experiencia si juegas contra jugadores reales.	
 GLUE_TIP_QUEST_LOG_0	Desbloquea otros héroes en el modo Práctica. ¡Derrota a una IA para desbloquearlos!	
 GLUE_TIP_QUEST_LOG_1	Puedes conseguir cartas básicas adicionales para una clase si juegas partidas con esa clase.	

@@ -34,7 +34,7 @@ GLUE_COLLECTION_CARD_COUNT	x{0}
 GLUE_COLLECTION_CARD_COUNT_LARGE	x9+	
 GLUE_COLLECTION_CARD_NEW	新卡片！	
 GLUE_COLLECTION_CRAFTING_DISENCHANT_BUTTON_TEXT	分解多的卡片	
-GLUE_COLLECTION_CRAFTING_EXPLANATION	選擇一張卡片開始合成。\n\n花費魔塵來合成卡片，或分解卡片來獲得魔塵。\n\n魔塵數量隨卡片稀有度有所不同。	
+GLUE_COLLECTION_CRAFTING_EXPLANATION	選擇一張卡片開始合成。\n\n合成卡片需花費魔塵，而分解卡片可獲得魔塵。\n\n魔塵數量隨卡片稀有度有所不同。	
 GLUE_COLLECTION_CRAFTING_FILTERS	過濾方式	
 GLUE_COLLECTION_CRAFTING_MODE	合成模式	
 GLUE_COLLECTION_CRAFTING_SHOW_ONLY_GOLDEN	只顯示金卡	
@@ -224,7 +224,7 @@ GLUE_STORE_AUTH_SUCCESS_HEADLINE	購買完成!
 GLUE_STORE_AUTH_WAITING	等待授權中	
 GLUE_STORE_BNET_BALANCE	Battle.net帳號餘額	
 GLUE_STORE_BONUS_PACKS	{0}包額外獎勵	0=number of packs
-GLUE_STORE_BUY_TEXT	購買	
+GLUE_STORE_BUY_TEXT	購買	this is what you see when you initiate the purchase
 GLUE_STORE_CC_EXPIRY_DETAILS	你的信用卡資料已經過期。	
 GLUE_STORE_CHALLENGE_CVV_MESSAGE	請輸入你的安全碼:\n\n需要協助找到你的安全碼，請點擊{0}按鈕。	
 GLUE_STORE_CHALLENGE_HEADLINE	注意	
@@ -237,7 +237,6 @@ GLUE_STORE_DISCLAIMER_HEADLINE	注意
 GLUE_STORE_DISCLAIMER_WARNING	你即將消費真實的金錢!	
 GLUE_STORE_DONE_WITH_BAM_HEADLINE	再試一次	
 GLUE_STORE_DONE_WITH_BAM_MESSAGE	當你從Battle.net回來後，請重新嘗試購買卡牌包。	
-GLUE_STORE_ERROR_POPUP_TITLE	商店錯誤	
 GLUE_STORE_EULA_AND_TOS_DETAILS	Battle.net上能夠閱讀我們的最終用戶授權協議及服務條款。	
 GLUE_STORE_EULA_AND_TOS_HEADLINE	服務條款	
 GLUE_STORE_EULA_AND_TOS_URL_DETAILS	點擊"{0}"會開啟Battle.net的最終用戶授權協議及服務條款的網頁。	
@@ -251,10 +250,11 @@ GLUE_STORE_FAIL_LICENSE	偵測到重複序號。
 GLUE_STORE_FAIL_NO_ACTIVE_BPAY	內部錯誤: 資料庫中沒有交易資訊。	
 GLUE_STORE_FAIL_NO_BATTLEPAY	你的交易無法完成。很抱歉!請稍後再試。	
 GLUE_STORE_FAIL_NOT_ENOUGH_GOLD	你沒有足夠的金幣進行購買。	
+GLUE_STORE_FAIL_PARENTAL_CONTROL	家長監護設定已經鎖定此帳號的購買功能。	
 GLUE_STORE_FAIL_PRODUCT_NA	目前沒有該產品。請選擇另一個產品並重新嘗試。	
 GLUE_STORE_FAIL_PURCHASE_BAN	你的帳號已經被禁止使用商店。如果你相信這是系統錯誤，請透過客服支援尋求協助。	
 GLUE_STORE_FAIL_QUANTITY	你在該物品選擇了無效的數量。請選擇其他數量並重新嘗試。	
-GLUE_STORE_FAIL_SPENDING_LIMIT	本次購買將會超過你的消費限額。你仍可使用金幣進行購買!	
+GLUE_STORE_FAIL_SPENDING_LIMIT	本次購買將會超過你的消費限額。但你仍可使用金幣進行購買!	
 GLUE_STORE_FORGOT_PWD_DETAILS	你輸入太多次錯誤的密碼了。你忘記密碼了嗎?	
 GLUE_STORE_FORGOT_PWD_HEADLINE	忘記密碼?	
 GLUE_STORE_FORGOT_PWD_URL_DETAILS	點擊"{0}"會前往Battle.net讓你重置密碼。	
@@ -264,7 +264,7 @@ GLUE_STORE_GENERIC_BP_FAIL_URL_DETAILS	點擊"{0}"會前往Battle.net讓你更�
 GLUE_STORE_GOLD_BUTTON_TOOLTIP_HEADLINE	使用金幣購買	
 GLUE_STORE_GOLD_QTY_CHANGE_DESC	你有許多金幣!如果你想要一次購買許多卡牌包，雙擊「1包100金幣」的選項可以更改你想購買的卡牌包數量。	
 GLUE_STORE_GOLD_QTY_CHANGE_DESC_TOUCH	你有許多金幣!如果你想要一次購買許多卡牌包，雙擊「1包100金幣」的選項可以更改你想購買的卡牌包數量。	
-GLUE_STORE_GOLD_QTY_CHANGE_HEADER	卡牌包換金幣	
+GLUE_STORE_GOLD_QTY_CHANGE_HEADER	金幣換卡牌包	
 GLUE_STORE_HEADLINE	商店	
 GLUE_STORE_INFO_BUTTON_TEXT	i	
 GLUE_STORE_KOREAN_PRODUCT_DETAILS_EXPERT_PACK	이용기간 : 서비스 종료 시까지. 본 상품은 구매 후 7일 이내에 청약철회가 가능합니다. 다만, 1개의 카드팩이라도 개봉한 경우에는 청약철회가 불가능합니다.	only displayed for Korean customers, should always be in Korean
@@ -295,9 +295,12 @@ GLUE_STORE_SUMMARY_ITEMS_ORDERED_HEADLINE	訂購的物品
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_CONFIRM	본 거래와 관련된 조건과 약관을 확인하며 이에 동의합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_EXPERT_PACK	이용기간 : 서비스 종료 시까지. 본 상품은 구매 후 7일 이내에 청약철회가 가능합니다. 다만, 1개의 카드팩이라도 개봉한 경우에는 청약철회가 불가능합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_FORGE_TICKET	투기장 입장료는 구매 후 환불되지 않으며, 구매 즉시 투기장에 입장합니다.	only displayed for Korean customers, should always be in Korean
+GLUE_STORE_SUMMARY_PAY_NOW_TEXT	立即支付	this is what you see when you confirm the purchase
 GLUE_STORE_SUMMARY_PRICE_HEADLINE	價格	
-GLUE_STORE_SUMMARY_TAX_DISCLAIMER	包含任何可應用的增值稅。	
+GLUE_STORE_SUMMARY_TAX_DISCLAIMER	包含任何適用的增值稅。	
 GLUE_STORE_SUMMARY_TAX_DISCLAIMER_USD	可能包含稅金。	
+GLUE_STORE_SUMMARY_TOS_AGREEMENT	點選"{0}"代表你已經閱讀並且接受「銷售協議」。如欲閱讀協議全文，請點選"{1}"鍵。	0=GLUE_STORE_SUMMARY_PAY_NOW_TEXT,1=GLUE_STORE_INFO_BUTTON_TEXT
+GLUE_STORE_TERMS_OF_SALE_BUTTON_TEXT	?	
 GLUE_TIP_DEFAULT_0	你可以從商店購買額外的專家卡牌包。	
 GLUE_TIP_DEFAULT_1	在調整套牌時點擊你的英雄可以修改你套牌的名稱。	
 GLUE_TIP_DEFAULT_10	競技場能讓你使用隨機的卡片組一副套牌。你還能贏取獎勵!	

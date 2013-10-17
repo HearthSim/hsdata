@@ -224,7 +224,7 @@ GLUE_STORE_AUTH_SUCCESS_HEADLINE	Achat effectué !
 GLUE_STORE_AUTH_WAITING	En attente d’autorisation	
 GLUE_STORE_BNET_BALANCE	Porte-monnaie Battle.net	
 GLUE_STORE_BONUS_PACKS	{0} |4(paquet,paquets) bonus	0=number of packs
-GLUE_STORE_BUY_TEXT	Acheter	
+GLUE_STORE_BUY_TEXT	Acheter	this is what you see when you initiate the purchase
 GLUE_STORE_CC_EXPIRY_DETAILS	Les informations de votre carte de crédit ne sont plus à jour.	
 GLUE_STORE_CHALLENGE_CVV_MESSAGE	Veuillez saisir votre code de sécurité :\n\nPour savoir où trouver ce code, cliquez sur le bouton « {0} ».	
 GLUE_STORE_CHALLENGE_HEADLINE	Attention !	
@@ -237,7 +237,6 @@ GLUE_STORE_DISCLAIMER_HEADLINE	Attention
 GLUE_STORE_DISCLAIMER_WARNING	Vous êtes sur le point de dépenser de l’argent réel !	
 GLUE_STORE_DONE_WITH_BAM_HEADLINE	Réessayer	
 GLUE_STORE_DONE_WITH_BAM_MESSAGE	Une fois que vous aurez quitté Battle.net, veuillez réessayer d'effectuer votre achat.	
-GLUE_STORE_ERROR_POPUP_TITLE	Erreur de la boutique	
 GLUE_STORE_EULA_AND_TOS_DETAILS	Vous pouvez consulter notre Contrat de Licence d’Utilisateur Final et nos Conditions d’Utilisation sur le site Battle.net.	
 GLUE_STORE_EULA_AND_TOS_HEADLINE	Conditions d’Utilisation	
 GLUE_STORE_EULA_AND_TOS_URL_DETAILS	Appuyez sur « {0} » pour vous rendre sur le site Battle.net où vous pourrez consulter le Contrat de Licence d’Utilisateur Final et les Conditions d’Utilisation.	
@@ -251,6 +250,7 @@ GLUE_STORE_FAIL_LICENSE	Copie de licence détectée.
 GLUE_STORE_FAIL_NO_ACTIVE_BPAY	Erreur interne : aucune information de transaction dans la base de données.	
 GLUE_STORE_FAIL_NO_BATTLEPAY	Votre transaction n’a pas pu être effectuée. Désolé ! Veuillez patienter quelques instants avant de réessayer.	
 GLUE_STORE_FAIL_NOT_ENOUGH_GOLD	Vous n’avez pas assez d’or pour acheter ceci pour le moment.	
+GLUE_STORE_FAIL_PARENTAL_CONTROL	Les achats sur ce compte sont actuellement restreints par le contrôle parental.	
 GLUE_STORE_FAIL_PRODUCT_NA	Ce produit est indisponible pour le moment. Veuillez sélectionner un autre produit, puis réessayez.	
 GLUE_STORE_FAIL_PURCHASE_BAN	L’utilisation de la boutique a été bloquée pour votre compte. Si vous pensez qu’il s’agit d’une erreur, merci de contacter l’assistance clientèle.	
 GLUE_STORE_FAIL_QUANTITY	Vous avez sélectionné une quantité invalide pour cet objet. Veuillez modifier la quantité avant de réessayer.	
@@ -295,9 +295,12 @@ GLUE_STORE_SUMMARY_ITEMS_ORDERED_HEADLINE	Produits sélectionnés
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_CONFIRM	본 거래와 관련된 조건과 약관을 확인하며 이에 동의합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_EXPERT_PACK	이용기간 : 서비스 종료 시까지. 본 상품은 구매 후 7일 이내에 청약철회가 가능합니다. 다만, 1개의 카드팩이라도 개봉한 경우에는 청약철회가 불가능합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_FORGE_TICKET	투기장 입장료는 구매 후 환불되지 않으며, 구매 즉시 투기장에 입장합니다.	only displayed for Korean customers, should always be in Korean
+GLUE_STORE_SUMMARY_PAY_NOW_TEXT	Payer	this is what you see when you confirm the purchase
 GLUE_STORE_SUMMARY_PRICE_HEADLINE	Prix	
 GLUE_STORE_SUMMARY_TAX_DISCLAIMER	TVA applicable incluse.	
 GLUE_STORE_SUMMARY_TAX_DISCLAIMER_USD	Plus les taxes applicables en vigueur.	
+GLUE_STORE_SUMMARY_TOS_AGREEMENT	En cliquant sur "{0}", vous reconnaissez avoir lu et accepté les Conditions de vente. Cliquez sur le bouton "{1}" pour accéder aux Conditions de vente sur Battle.net.	0=GLUE_STORE_SUMMARY_PAY_NOW_TEXT,1=GLUE_STORE_INFO_BUTTON_TEXT
+GLUE_STORE_TERMS_OF_SALE_BUTTON_TEXT	 ?	
 GLUE_TIP_DEFAULT_0	Vous pouvez acheter des paquets supplémentaires de cartes Expert à la boutique.	
 GLUE_TIP_DEFAULT_1	Cliquez sur le héros lors de la modification d’un deck pour changer le nom de deck.	
 GLUE_TIP_DEFAULT_10	L’Arène vous permet de construire un deck à partir de cartes aléatoires. Vous pouvez également gagner des récompenses !	
