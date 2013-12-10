@@ -100,6 +100,7 @@ GLOBAL_WINS	Wins
 GLOBAL_LOSSES	Losses	
 GLOBAL_MY_NUM_WINS	{0}	0=number of games this player has won
 GLOBAL_PLAY	Play	
+GLOBAL_PLAY_RANKED	Play Ranked	
 GLOBAL_BACK	Back	
 GLOBAL_DONE	Done	
 GLOBAL_CANCEL	Cancel	
@@ -143,11 +144,16 @@ GLOBAL_ERROR_NETWORK_LOST_GAME_CONNECTION	Your game has been disconnected from t
 GLOBAL_ERROR_NETWORK_INCORRECT_REGION	Your Battle.net account is not eligible to participate in this region's Hearthstone beta test. Once the Hearthstone beta is available in your home region, please try again!	
 GLOBAL_ERROR_NETWORK_ACCOUNT_SUSPENDED	Your account has been suspended.	
 GLOBAL_ERROR_NETWORK_ACCOUNT_BANNED	Your account has been banned.	
-GLOBAL_ERROR_NETWORK_PARENTAL_CONTROLS	Access to this account is currently restricted by parental controls.	
+GLOBAL_ERROR_NETWORK_PARENTAL_CONTROLS	Access to this account is currently restricted by parental controls.
+GLOBAL_ERROR_NETWORK_PHONE_LOCK	Please call your Battle.net Phone Lock number to allow this login.\nTaiwan: 0800-303-585\nHong Kong: 396-54666
+GLOBAL_ERROR_ACCOUNT_LICENSES	We had some trouble checking what you own, so some things might be missing. Sorry about that! We’ll try again next time you log on.	
+GLOBAL_ERROR_NO_MAGE_PRECON	We just ran into a network problem as we were loading up all the cards in your collection. Please relaunch Hearthstone to access your collection and resume your duels!		
 GLOBAL_MEDAL_REWARD_CONGRATULATIONS	Congratulations!	
 GLOBAL_MEDAL_REWARD_DESCRIPTION	Medal earned last week	
 GLOBAL_MEDAL_TOOLTIP_HEADER	{0} Medal	0=medal name
-GLOBAL_MEDAL_TOOLTIP_BODY	Win games to advance to the next medal!\n\nNext Medal:\n{0}	0=medal name
+GLOBAL_MEDAL_TOOLTIP_BODY	Win games to advance to the next rank!\n\nNext Rank:\n{0}	0=medal name
+GLOBAL_MEDAL_TOOLTIP_BODY_LEGEND	You're a legend! Your position in this rank will change with each game.	
+GLOBAL_MEDAL_ARENA_TOOLTIP_BODY	This is the best key you've earned in the Arena.
 GLOBAL_MEDAL_TOOLTIP_BODY_ARENA_GRAND_MASTER	You are a champion of The Arena!
 GLOBAL_DATETIME_FRIENDREQUEST_SECONDS	less than a minute ago	
 GLOBAL_DATETIME_FRIENDREQUEST_MINUTES	{0} |4(minute,minutes) ago	
@@ -156,13 +162,13 @@ GLOBAL_DATETIME_FRIENDREQUEST_DAY	yesterday
 GLOBAL_DATETIME_FRIENDREQUEST_DAYS	{0} |4(day,days) ago	
 GLOBAL_DATETIME_FRIENDREQUEST_WEEKS	{0} |4(week,weeks) ago	
 GLOBAL_DATETIME_FRIENDREQUEST_MONTH	more than a month ago	
-GLOBAL_DATETIME_LASTONLINE_SECONDS	last online less than a minute ago	
-GLOBAL_DATETIME_LASTONLINE_MINUTES	last online {0} |4(minute,minutes) ago	
-GLOBAL_DATETIME_LASTONLINE_HOURS	last online {0} |4(hour,hours) ago	
-GLOBAL_DATETIME_LASTONLINE_DAY	last online yesterday	
-GLOBAL_DATETIME_LASTONLINE_DAYS	last online {0} |4(day,days) ago	
-GLOBAL_DATETIME_LASTONLINE_WEEKS	last online {0} |4(week,weeks) ago	
-GLOBAL_DATETIME_LASTONLINE_MONTH	last online more than a month ago	
+GLOBAL_DATETIME_LASTONLINE_SECONDS	Last online less than a minute ago	
+GLOBAL_DATETIME_LASTONLINE_MINUTES	Last online {0} |4(minute,minutes) ago	
+GLOBAL_DATETIME_LASTONLINE_HOURS	Last online {0} |4(hour,hours) ago	
+GLOBAL_DATETIME_LASTONLINE_DAY	Last online yesterday	
+GLOBAL_DATETIME_LASTONLINE_DAYS	Last online {0} |4(day,days) ago	
+GLOBAL_DATETIME_LASTONLINE_WEEKS	Last online {0} |4(week,weeks) ago	
+GLOBAL_DATETIME_LASTONLINE_MONTH	Last online more than a month ago	
 GLOBAL_DATETIME_SPLASHSCREEN_SECONDS	< 1 min	
 GLOBAL_DATETIME_SPLASHSCREEN_MINUTES	{0} |4(min,mins)	
 GLOBAL_DATETIME_SPLASHSCREEN_HOURS	{0} |4(hour,hours)	
@@ -175,16 +181,23 @@ GLOBAL_FRIENDLIST_REQUESTS_HEADER	FRIEND REQUESTS - {0}	0=number of received fri
 GLOBAL_FRIENDLIST_CURRENT_GAMES_HEADER	CURRENT GAMES - {0}	0=number of friends you have unfinished games with
 GLOBAL_FRIENDLIST_FRIENDS_HEADER	FRIENDS - {0}/{1} Online	0=number of online friends 1=number of offline friends
 GLOBAL_FRIENDLIST_FRIENDS_HEADER_NO_ONLINE	FRIENDS	
-GLOBAL_FRIENDLIST_FRIENDS_HEADER_ALL_ONLINE	FRIENDS - {0} Online	
+GLOBAL_FRIENDLIST_FRIENDS_HEADER_ALL_ONLINE	FRIENDS - {0} Online
+GLOBAL_FRIENDLIST_NEARBY_PLAYERS_HEADER	NEARBY PLAYERS - {0}	0=number of players
 GLOBAL_FRIENDLIST_ADD_FRIEND_BUTTON	Add	
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_BUTTON	Remove	
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_ALERT_MESSAGE	Are you sure you want to remove {0}?	0=friend name
 GLOBAL_FRIENDLIST_MYSTATUS	ONLINE	
+GLOBAL_FRIENDLIST_LASTPLAYED	Last Played:
 GLOBAL_ADDFRIEND_HEADER	Add a Friend	
 GLOBAL_ADDFRIEND_INSTRUCTION	Enter a BattleTag or email address.	
 GLOBAL_ADDFRIEND_SENT_CONFIRMATION	Friend request sent.	
 GLOBAL_ADDFRIEND_ERROR_ALREADY_FRIEND	That person is already your friend.	
 GLOBAL_ADDFRIEND_ERROR_MALFORMED	You must enter an email address or Battle Tag.	
+GLOBAL_MOBILECHAT_RETURN_TO_MENU	Return to menu	
+GLOBAL_MOBILECHAT_RETURN_TO_GAME	Return to game	
+GLOBAL_MOBILECHAT_NOTIFICATION_MULLIGAIN	Game started!	
+GLOBAL_MOBILECHAT_NOTIFICATION_YOUR_TURN	Your turn!	
+GLOBAL_MOBILECHAT_NOTIFICATION_TURN_COUNTDOWN	Running out of time!	
 GLOBAL_PROGRAMNAME_HEARTHSTONE	Hearthstone	
 GLOBAL_PROGRAMNAME_WOW	World of Warcraft	
 GLOBAL_PROGRAMNAME_DIABLO3	Diablo 3	
@@ -203,21 +216,47 @@ GLOBAL_FORGE_END_JOKE_5	That was jig-worthy!
 GLOBAL_FORGE_END_JOKE_6	That one turn was amazing!
 GLOBAL_FORGE_END_JOKE_7	BEHOLD!	
 GLOBAL_FORGE_END_JOKE_8	It's not over yet! Oh wait, yeah it is.	
-GLOBAL_MEDAL_NOVICE	Novice
-GLOBAL_MEDAL_APPRENTICE	Apprentice	for Arena only
-GLOBAL_MEDAL_JOURNEYMAN	Journeyman
-GLOBAL_MEDAL_COPPER	Copper
-GLOBAL_MEDAL_SILVER	Silver
-GLOBAL_MEDAL_GOLD	Gold
-GLOBAL_MEDAL_PLATINUM	Platinum
-GLOBAL_MEDAL_DIAMOND	Diamond
-GLOBAL_MEDAL_MASTER	Master
-GLOBAL_MEDAL_GRANDMASTER	GrandMaster
-GLOBAL_MEDAL_ONE_STAR	One Star
-GLOBAL_MEDAL_TWO_STAR	Two Star
-GLOBAL_MEDAL_THREE_STAR	Three Star
-GLOBAL_MEDAL_STARRED_FORMAT	{0} {1}	0=star leve1, 1=medal type
-GLOBAL_MEDAL_NO_NAME	N/A
+GLOBAL_RANK_WIN_STREAK	Win Streak - Bonus star!	
+GLOBAL_RANK_SCRUB_RANK_DESC	You can't lose stars at this rank.
+GLOBAL_MEDAL_0	Legend
+GLOBAL_MEDAL_1	Innkeeper
+GLOBAL_MEDAL_2	Black Knight
+GLOBAL_MEDAL_3	Molten Giant
+GLOBAL_MEDAL_4	Mountain Giant
+GLOBAL_MEDAL_5	Sea Giant
+GLOBAL_MEDAL_6	Ancient of War
+GLOBAL_MEDAL_7	Sunwalker
+GLOBAL_MEDAL_8	Frostwolf Warlord
+GLOBAL_MEDAL_9	Silver Hand Knight
+GLOBAL_MEDAL_10	Ogre Magi
+GLOBAL_MEDAL_11	Big Game Hunter
+GLOBAL_MEDAL_12	Warsong Commander
+GLOBAL_MEDAL_13	Dread Corsair
+GLOBAL_MEDAL_14	Raid Leader
+GLOBAL_MEDAL_15	Silvermoon Guardian
+GLOBAL_MEDAL_16	Questing Adventurer
+GLOBAL_MEDAL_17	Tauren Warrior
+GLOBAL_MEDAL_18	Sorcerer's Apprentice
+GLOBAL_MEDAL_19	Novice Engineer
+GLOBAL_MEDAL_20	Shieldbearer
+GLOBAL_MEDAL_21	Southsea Deckhand
+GLOBAL_MEDAL_22	Murloc Raider
+GLOBAL_MEDAL_23	Argent Squire
+GLOBAL_MEDAL_24	Leper Gnome
+GLOBAL_MEDAL_25	Angry Chicken
+GLOBAL_ARENA_MEDAL_0	Novice Key
+GLOBAL_ARENA_MEDAL_1	Apprentice Key
+GLOBAL_ARENA_MEDAL_2	Journeyman Key
+GLOBAL_ARENA_MEDAL_3	Copper Key
+GLOBAL_ARENA_MEDAL_4	Silver Key
+GLOBAL_ARENA_MEDAL_5	Gold Key
+GLOBAL_ARENA_MEDAL_6	Platinum Key
+GLOBAL_ARENA_MEDAL_7	Diamond Key
+GLOBAL_ARENA_MEDAL_8	Champion Key
+GLOBAL_ARENA_MEDAL_9	Ruby Key
+GLOBAL_ARENA_MEDAL_10	Frostborn Key
+GLOBAL_ARENA_MEDAL_11	Molten Key
+GLOBAL_ARENA_MEDAL_12	Lightforge Key
 GLOBAL_FEATURE_DISABLED_TITLE	Disabled	
 GLOBAL_FEATURE_DISABLED_MESSAGE_FORGE	Sorry, the Arena is currently disabled.	
 GLOBAL_FEATURE_DISABLED_MESSAGE_PRACTICE	Sorry, Practice mode is currently disabled.	
@@ -232,10 +271,23 @@ GLOBAL_CHAT_BUBBLE_RECEIVER_NAME	To: {0}	0=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_ONLINE	<color=#{0}>{1}</color> has come online.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_OFFLINE	<color=#{0}>{1}</color> has gone offline.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_REQUEST	<color=#{0}>{1}</color> has sent you a friend invite.	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_RECENT_OPPONENT_FRIEND_REQUEST	A recent opponent would like to be your friend!
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_COMPLETE	<color=#{0}>{1}</color> just finished an Arena run. ({2}-{3})	0=name color,1=player name,2=Arena Wins,3=Arena Losses
+GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_COMPLETE_BAD	<color=#{0}>{1}</color> just finished an Arena run.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START	<color=#{0}>{1}</color> started a new Arena run.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_GOLDEN_LEGENDARY	<color=#{0}>{1}</color> opened a <color=#{3}>Golden {2}</color>!	0=name color,1=player name,2=card name,3=Golden Color
 GLOBAL_SOCIAL_TOAST_FRIEND_LEGENDARY	<color=#{0}>{1}</color> opened <color=#{3}>{2}</color>!	0=name color,1=player name,2=card name
+GLOBAL_SOCIAL_TOAST_FRIEND_RANK_LEGEND	<color=#{0}>{1}</color> has attained the Rank of LEGEND!	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_FRIEND_ILLIDAN_COMPLETE	<color=#{0}>{1}</color> defeated Illidan Stormrage!	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_FRIEND_MAGE_LEVEL	<color=#{0}>{1}</color> became a Level {2} Mage.	0=name color,1=player name,2=level
+GLOBAL_SOCIAL_TOAST_FRIEND_PALADIN_LEVEL	<color=#{0}>{1}</color> became a Level {2} Paladin.	0=name color,1=player name,2=level
+GLOBAL_SOCIAL_TOAST_FRIEND_DRUID_LEVEL	<color=#{0}>{1}</color> became a Level {2} Druid.	0=name color,1=player name,2=level
+GLOBAL_SOCIAL_TOAST_FRIEND_ROGUE_LEVEL	<color=#{0}>{1}</color> became a Level {2} Rogue.	0=name color,1=player name,2=level
+GLOBAL_SOCIAL_TOAST_FRIEND_HUNTER_LEVEL	<color=#{0}>{1}</color> became a Level {2} Hunter.	0=name color,1=player name,2=level
+GLOBAL_SOCIAL_TOAST_FRIEND_SHAMAN_LEVEL	<color=#{0}>{1}</color> became a Level {2} Shaman.	0=name color,1=player name,2=level
+GLOBAL_SOCIAL_TOAST_FRIEND_WARRIOR_LEVEL	<color=#{0}>{1}</color> became a Level {2} Warrior.	0=name color,1=player name,2=level
+GLOBAL_SOCIAL_TOAST_FRIEND_WARLOCK_LEVEL	<color=#{0}>{1}</color> became a Level {2} Warlock.	0=name color,1=player name,2=level
+GLOBAL_SOCIAL_TOAST_FRIEND_PRIEST_LEVEL	<color=#{0}>{1}</color> became a Level {2} Priest.	0=name color,1=player name,2=level
 GLOBAL_HEALTHY_GAMING_TOAST	게임을 플레이한지 {0}시간 지났습니다. 과도한 게임이용은 정상적인 일상생활에 지장을 줄 수 있습니다	
 GLOBAL_HEALTHY_GAMING_TOAST_OVER_THRESHOLD	You have been playing for {0} |4(hour,hours). This is way, way too long	0=hours
 GLOBAL_SHUTDOWN_TOAST	<color=#{0}>Battle.net will be shutting down in {1} |4(minute,minutes)</color>	0=color, 1=minutes
@@ -255,6 +307,7 @@ GLOBAL_OPTIONS_CREDITS	Credits
 GLOBAL_OPTIONS_CINEMATIC	Cinematic	
 GLOBAL_OPTIONS_PUBLIC_CHAT_ENABLED	Unfriendly Chat	
 GLOBAL_OPTIONS_CARDBACK_LABEL	Choose Your Card Back	
+GLOBAL_OPTIONS_NEARBY_PLAYERS	Enable Challenging Nearby Players - Friend List	
 GLOBAL_REWARD_BOOSTER_HEADLINE	Expert Pack earned!	
 GLOBAL_REWARD_CARD_HEADLINE	Reward!	
 GLOBAL_REWARD_CARD_COUNT_MULTIPLIER	x	
@@ -285,6 +338,9 @@ GLOBAL_HERO_LEVEL_REWARD_GOLDEN_CARD	{0} {1}	0=flair 1=card name
 GLOBAL_HERO_LEVEL_REWARD_BOOSTER	{0} booster pack	0=booster type
 GLOBAL_HERO_LEVEL_REWARD_ARCANE_DUST	{0} arcane dust	0=amount
 GLOBAL_HERO_LEVEL_REWARD_GOLD	{0} gold	0=amount
+GLOBAL_GOLD_REWARD_ALREADY_CAPPED	You have already earned {0} gold today.
+GLOBAL_GOLD_REWARD_BAD_RATING	You or your opponent do not meet the rating requirements to earn gold.
+GLOBAL_GOLD_REWARD_SHORT_GAME	Your game did not meet the time requirement to earn gold.
 GLOBAL_COLLECTION_GOLDEN	Golden	
 GLOBAL_SPLASH_CLOSED_SIGN_TITLE	Closed	
 GLOBAL_ERROR_INACTIVITY_KICK	It's been a while since your last Hearthstone action and your connection was shut down. Relaunch the game when you're ready!	
@@ -292,6 +348,8 @@ GLOBAL_ERROR_UNKNOWN_ERROR	Oops! Playful sprites have disrupted Hearthstone as i
 GLOBAL_CLICK_TO_CONTINUE	Click to continue	
 GLOBAL_TOOLTIP_MENU_HEADER	Game Menu	
 GLOBAL_TOOLTIP_MENU_DESC	Take a look at the Options, Quit the Game, and more.	
+GLOBAL_TOOLTIP_FRIEND_BUTTON_HEADER	Friends	
+GLOBAL_TOOLTIP_FRIEND_BUTTON_DESC	Chat with and challenge your friends.	
 GLOBAL_HEALTHY_GAMING_CHINA_LESS_THAN_THREE_HOURS	您累计在线时间已满{0}小时。	
 GLOBAL_HEALTHY_GAMING_CHINA_THREE_HOURS	您累计在线时间已满{0}小时，请您下线休息，做适当身体活动。	
 GLOBAL_HEALTHY_GAMING_CHINA_THREE_TO_FIVE_HOURS	您已经进入疲劳游戏时间，您的游戏收益将降为正常值的0%，为了您的健康，请尽快下线休息，做适当身体活动，合理安排学习生活。	
@@ -299,3 +357,21 @@ GLOBAL_HEALTHY_GAMING_CHINA_MORE_THAN_FIVE_HOURS	您已进入不健康游戏时�
 GLOBAL_CURRENT_TIME	{0:h:mm tt}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx	
 GLOBAL_HEALTHY_GAMING_KOREA_STARTUP_MESSAGE	본 게임물은 12세이용가 게임으로서 해당 연령 미만의 어린이나 청소년이 이용하기에 부적절합니다. 반드시 보호자의 지도 감독이 필요한 게임입니다.	
 GLOBAL_HEALTHY_GAMING_CHINA_CAIS_ACTIVE	CAIS Active	
+GLOBAL_LANGUAGE_CHANGE_CONFIRM_TITLE	Change Language?	
+GLOBAL_LANGUAGE_CHANGE_CONFIRM_MESSAGE	This will exit the game, and you will need to relaunch.  Continue?	
+GLOBAL_LANGUAGE_ENUS	English (United States)	
+GLOBAL_LANGUAGE_ENGB	English (Great Britain)	
+GLOBAL_LANGUAGE_FRFR	French	
+GLOBAL_LANGUAGE_DEDE	German	
+GLOBAL_LANGUAGE_KOKR	Korean	
+GLOBAL_LANGUAGE_ESES	Spanish (Spain)	
+GLOBAL_LANGUAGE_ESMX	Spanish (Mexico)	
+GLOBAL_LANGUAGE_RURU	Russian	
+GLOBAL_LANGUAGE_ZHTW	Chinese (Taiwan)	
+GLOBAL_LANGUAGE_ZHCN	Chinese (China)	
+GLOBAL_LANGUAGE_ITIT	Italian	
+GLOBAL_LANGUAGE_PTBR	Portuguese (Brazil)	
+GLOBAL_LANGUAGE_PLPL	Polish	
+GLOBAL_LANGUAGE_PTPT	Portuguese (Portugal)	
+GLOBAL_LANGUAGE_DROPDOWN	Language	
+GLOBAL_LANGUAGE_DOWNLOAD_VOICE_PACK	Downloaded Voice Pack	

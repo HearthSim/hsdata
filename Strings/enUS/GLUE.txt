@@ -33,7 +33,7 @@ GLUE_COLLECTION_TUTORIAL05	Turn this card into Arcane Dust.
 GLUE_COLLECTION_TUTORIAL06	Use your Dust to create this card.
 GLUE_COLLECTION_TUTORIAL07	Right-click a card with a Rarity Gem to craft or disenchant it.
 GLUE_COLLECTION_TUTORIAL07_TOUCH	Tap a card with a Rarity Gem to craft or disenchant it.
-GLUE_COLLECTION_ARTIST	Artist
+GLUE_COLLECTION_ARTIST	Artist: {0}	0=artist name
 GLUE_COLLECTION_RECENTLY_NERFED	<color=#971c1cff>This card was recently modified, so its Disenchant value has been adjusted.</color>
 GLUE_COLLECTION_DELETE_CONFIRM_HEADER	Delete	
 GLUE_COLLECTION_DELETE_CONFIRM_DESC	This will delete your deck. Are you sure?	
@@ -75,8 +75,8 @@ GLUE_DECK_TRAY_CARD_COUNT_LABEL	Cards
 GLUE_DECK_TRAY_DECK_COUNT_LABEL	Decks	
 GLUE_STORE_INFO_BUTTON_TEXT	i	
 GLUE_STORE_TERMS_OF_SALE_BUTTON_TEXT	?
-GLUE_STORE_OPEN_BUTTON_TEXT	Store
-GLUE_STORE_CLOSED_BUTTON_TEXT	Store Closed
+GLUE_STORE_OPEN_BUTTON_TEXT	Shop
+GLUE_STORE_CLOSED_BUTTON_TEXT	Shop\nClosed
 GLUE_STORE_AUTH_WAITING	Waiting for Authorization
 GLUE_STORE_AUTH_SUCCESS_HEADLINE	Purchase Complete!
 GLUE_STORE_AUTH_FAIL_HEADLINE	Purchase Failed
@@ -90,14 +90,15 @@ GLUE_STORE_FAIL_QUANTITY	You've selected an invalid quantity for that item. Plea
 GLUE_STORE_FAIL_NO_ACTIVE_BPAY	Internal error: no transaction info in Database.
 GLUE_STORE_FAIL_NOT_ENOUGH_GOLD	You don't have enough gold to buy that right now.
 GLUE_STORE_FAIL_CHALLENGE_TIMEOUT	Your purchase challenge has timed out. Please start your transaction again.
-GLUE_STORE_FAIL_PURCHASE_BAN	Your account has been blocked from using the store. If you believe this is a mistake, please contact Customer Support.
+GLUE_STORE_FAIL_PURCHASE_BAN	Your account has been blocked from using the Shop. If you believe this is a mistake, please contact Customer Support.
 GLUE_STORE_FAIL_SPENDING_LIMIT	This purchase would have put you over your spending limit. Gold purchases are still available!
+GLUE_STORE_FAIL_PARENTAL_CONTROL	Purchases on this account are currently restricted by parental controls.
+GLUE_STORE_FAIL_THROTTLED	We are unable to process your transaction at this time. Please try your purchase again a little later.
 GLUE_STORE_FAIL_GENERAL	There was a problem processing your payment.
 GLUE_STORE_GOLD_BUTTON_TOOLTIP_HEADLINE	Buy with gold
 GLUE_STORE_MONEY_BUTTON_TOOLTIP_HEADLINE	Buy
-GLUE_STORE_DISABLED	The Store is currently unavailable. Please check back later.
-GLUE_STORE_ERROR_POPUP_TITLE	Store Error
-GLUE_STORE_HEADLINE	Store
+GLUE_STORE_DISABLED	The Shop is currently unavailable. Please check back later.
+GLUE_STORE_HEADLINE	Shop
 GLUE_STORE_PRODUCT_DETAILS_HEADLINE_EXPERT_PACK	Contents per pack:
 GLUE_STORE_PRODUCT_DETAILS_EXPERT_PACK	•  5 Expert Hearthstone Cards\n•  At least 1 card will be Rare or better
 GLUE_STORE_KOREAN_PRODUCT_DETAILS_EXPERT_PACK	이용기간 : 서비스 종료 시까지. 본 상품은 구매 후 7일 이내에 청약철회가 가능합니다. 다만, 1개의 카드팩이라도 개봉한 경우에는 청약철회가 불가능합니다.	only displayed for Korean customers, should always be in Korean
@@ -120,8 +121,10 @@ GLUE_STORE_SUMMARY_CHARGE_DETAILS	Will be charged to your: {0}
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_EXPERT_PACK	이용기간 : 서비스 종료 시까지. 본 상품은 구매 후 7일 이내에 청약철회가 가능합니다. 다만, 1개의 카드팩이라도 개봉한 경우에는 청약철회가 불가능합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_FORGE_TICKET	투기장 입장료는 구매 후 환불되지 않으며, 구매 즉시 투기장에 입장합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_CONFIRM	본 거래와 관련된 조건과 약관을 확인하며 이에 동의합니다.	only displayed for Korean customers, should always be in Korean
-GLUE_STORE_SUMMARY_TOS_AGREEMENT	By pressing "{0}", you acknowledge that you have read and accepted the Terms of Sale. Pressing the "{1}" button will take you to the Terms of Sale on Battle.net.	0=GLUE_STORE_SUMMARY_PAY_NOW_TEXT,1=GLUE_STORE_TERMS_OF_SALE_BUTTON_TEXT
+GLUE_STORE_SUMMARY_TOS_AGREEMENT	By pressing "{0}", you acknowledge that you have read and accepted the Terms of Sale. You can change your default payment method or read the Terms of Sale by pressing the "{1}" button.	0=GLUE_STORE_SUMMARY_PAY_NOW_TEXT,1=GLUE_STORE_TERMS_OF_SALE_BUTTON_TEXT
 GLUE_STORE_SUMMARY_PAY_NOW_TEXT	Pay Now	this is what you see when you confirm the purchase
+GLUE_STORE_READ_TOS_BUTTON_TEXT	Read Terms of Service
+GLUE_STORE_CHANGE_PAYMENT_BUTTON_TEXT	Adjust Default Payment Method
 GLUE_STORE_BNET_BALANCE	Battle.net Balance
 GLUE_STORE_QUANTITY_HEADLINE	Change Quantity
 GLUE_STORE_QUANTITY_MESSAGE	How many packs would you like to purchase with gold? Quantity cannot exceed {0}.
@@ -140,7 +143,7 @@ GLUE_STORE_EULA_AND_TOS_HEADLINE	Terms of Service
 GLUE_STORE_EULA_AND_TOS_DETAILS	Our EULA and Terms of Service may be viewed on Battle.net.
 GLUE_STORE_EULA_AND_TOS_URL_DETAILS	Pressing "{0}" will take you to EULA and Terms of Service on the Battle.net website.
 GLUE_STORE_FORGOT_PWD_HEADLINE	Forgotten password?
-GLUE_STORE_FORGOT_PWD_DETAILS	Your password has been incorrectly entered too many times. Did you forget it?
+GLUE_STORE_FORGOT_PWD_DETAILS	Your password has been incorrectly entered too many times or you canceled the password challenge. Did you forget your password?
 GLUE_STORE_FORGOT_PWD_URL_DETAILS	Pressing "{0}" will take you to Battle.net where you can reset it.
 GLUE_STORE_GENERIC_BP_FAIL_HEADLINE	Purchase Failed
 GLUE_STORE_GENERIC_BP_FAIL_DETAILS	There was a problem processing your payment. Please use a different payment method, or contact your payment method provider.
@@ -151,11 +154,11 @@ GLUE_STORE_DONE_WITH_BAM_HEADLINE	Try Again
 GLUE_STORE_DONE_WITH_BAM_MESSAGE	When you have returned from Battle.net, please try your purchase again.
 GLUE_STORE_DISCLAIMER_HEADLINE	Attention
 GLUE_STORE_DISCLAIMER_WARNING	You are about to spend real money!
-GLUE_STORE_DISCLAIMER_DETAILS	If you make any purchases with real money during the beta you will receive a gift for helping us test our store!
+GLUE_STORE_DISCLAIMER_DETAILS	If you purchase any card packs or entry to the Arena during the Hearthstone beta, you will receive a Golden Gelbin Mekkatorque card as a gift for helping us test our store. Note that you will only receive this card once with your first purchase. 
 GLUE_STORE_GOLD_QTY_CHANGE_HEADER	Packs For Gold
 GLUE_STORE_GOLD_QTY_CHANGE_DESC	You've got a lot of gold! If you want to buy multiple packs, you can double click on the '1 pack for 100 gold' option to change the number of packs you want to buy.
 GLUE_STORE_GOLD_QTY_CHANGE_DESC_TOUCH	You've got a lot of gold! If you want to buy multiple packs, you can double tap on the '1 pack for 100 gold' option to change the number of packs you want to buy.
-GLUE_FORGE_STORE_DISCLAIMER_DETAILS	If you purchase one or more Arena Admissions with real money you will receive a gift for helping us test our store!
+GLUE_FORGE_STORE_DISCLAIMER_DETAILS	If you purchase any card packs or entry to the Arena during the Hearthstone beta, you will receive a Golden Gelbin Mekkatorque card as a gift for helping us test our store. Note that you will only receive this card once with your first purchase. 
 GLUE_FORGE_STORE_HEADLINE	Welcome to The Arena! 
 GLUE_FORGE_STORE_DETAILS1	Forge a deck from random cards, then see how long you can last in the Arena.
 GLUE_FORGE_STORE_DETAILS2	The longer you last, the better your prize will be!
@@ -169,6 +172,11 @@ GLUE_ARENA_1ST_TIME_HEADER	The Arena
 GLUE_ARENA_1ST_TIME_DESC	The Arena usually requires an entrance fee, but since it's your first time here, it's on the house!  Enjoy!	"on the house" is a phrase that means "free" in English.
 GLUE_ARENA_DECK_TOOLTIP_HEADER	Arena Deck	
 GLUE_ARENA_DECK_TOOLTIP	This is your Arena Deck.  These cards are not part of your collection.	
+GLUE_BLIZZCON2013_ARENA	Welcome to the Arena! If you win enough games, you'll win a prize!
+GLUE_BLIZZCON2013_ARENA_NO_PRIZE	Thanks for playing! You did well! See you back soon!
+GLUE_BLIZZCON2013_ARENA_5_WINS	You are now an Arena Veteran! Keep going and see how long you can survive!
+GLUE_BLIZZCON2013_ARENA_PRIZE	Congratulations! You've earned a prize! Show a BlizzCon attendant this screen!
+GLUE_BLIZZCON2013_ARENA_GRAND_PRIZE	WOOOOO! We have a new Arena Champion! Show a BlizzCon attendant this screen to receive your GRAND PRIZE!
 GLUE_TOOLTIP_BUTTON_TOURNAMENT_HEADLINE	Play	
 GLUE_TOOLTIP_BUTTON_TOURNAMENT_DESC	Play against an opponent of equal skill.	
 GLUE_TOOLTIP_BUTTON_PRACTICE_HEADLINE	Practice	
@@ -183,14 +191,19 @@ GLUE_TOOLTIP_BUTTON_COLLECTION_DESC	Look at your cards or build a deck.
 GLUE_TOOLTIP_BUTTON_QUESTLOG_HEADLINE	Quest Log
 GLUE_TOOLTIP_BUTTON_QUESTLOG_DESC	View your current progress.	
 GLUE_TOOLTIP_BUTTON_DISABLED_DESC	This has been temporarily disabled.	
+GLUE_TOOLTIP_BUTTON_STORE_HEADLINE	Shop	
+GLUE_TOOLTIP_BUTTON_STORE_DESC	Buy Packs with gold or money.
 GLUE_TOOLTIP_GOLD_HEADER	Gold	
 GLUE_TOOLTIP_GOLD_DESCRIPTION	Spend gold to buy Packs or Enter the Arena.	
+GLUE_TOOLTIP_RANKED_BUTTON	See how you stack up against other players!	
+GLUE_TOOLTIP_CASUAL_BUTTON	Find an opponent of equal skill, and play for fun!	
 GLUE_TOURNAMENT	Play	
 GLUE_TOURNAMENT_UNRANKED_MODE	Unranked Mode	
 GLUE_TOURNAMENT_UNRANKED_DESC	You have a separate skill rating for Unranked mode, and you won't earn medals.
+GLUE_TOURNAMENT_CASUAL	Casual	
+GLUE_TOURNAMENT_RANKED	Ranked
 GLUE_PRACTICE	Practice	
-GLUE_PRACTICE_BASIC_SET_PROGRESS	{0}/{1} Basic Cards Earned	0=number of owned cards,1=total number of basic cards
-GLUE_PRACTICE_BASIC_SET_COMPLETE	Basic {0} Set Complete	0=class
+GLUE_BASIC_SET_PROGRESS	{0}/{1} Basic Cards	0=number of owned cards,1=total number of basic cards
 GLUE_FORGE	The Arena	
 GLUE_START_TOUCH	Touch To Start	
 GLUE_START_CLICK	Click To Start	
@@ -272,14 +285,14 @@ GLUE_SPINNER_34	Brand New Player
 GLUE_SPINNER_35	Dastardly Death Knight	
 GLUE_SPINNER_36	Mediocre Monk	
 GLUE_SPINNER_37	A Little Puppy	
-GLUE_TIP_DEFAULT_0	You can purchase additional Packs of Expert cards from the store.	
+GLUE_TIP_DEFAULT_0	You can purchase additional Packs of Expert cards from the Shop.	
 GLUE_TIP_DEFAULT_1	Click on your hero while editing a deck to change your deck's name.	
 GLUE_TIP_DEFAULT_2	Right-click on your hero to emote.	
-GLUE_TIP_DEFAULT_3	If you need help building a deck, look at the "Suggested Cards".
+GLUE_TIP_DEFAULT_3	If you need help building a deck, look at the "Suggested Cards."
 GLUE_TIP_DEFAULT_4	You can tell what rarity a card is by the colored gem in the center.	
 GLUE_TIP_DEFAULT_5	Rarity colors, in order: White is Common, Blue is Rare, Purple is Epic and Orange is Legendary.	
 GLUE_TIP_DEFAULT_6	Each pack of Expert cards has at least one rare or better card, but it could have more!
-GLUE_TIP_DEFAULT_7	The medals are Apprentice, Journeyman, Copper, Silver, Gold, Platinum, Diamond and Master.	
+GLUE_TIP_DEFAULT_7	If you run out of quests, you can come back tomorrow for a new one.	
 GLUE_TIP_DEFAULT_8	If you play Ranked games, you will get a medal that shows off your skill.	
 GLUE_TIP_DEFAULT_9	Complete quests to earn Gold.  Gold can be used to buy packs or enter The Arena.	
 GLUE_TIP_DEFAULT_10	The Arena lets you build a deck from random cards. You can also win prizes!	
@@ -359,7 +372,7 @@ GLUE_HERO_LOCKED_NAME	Locked
 GLUE_HERO_LOCKED_DESC	Defeat this hero to unlock!	
 GLUE_QUEST_LOG_HEADLINE	Quest Log	
 GLUE_QUEST_LOG_WINS_HEADLINE	Play Mode Wins	
-GLUE_QUEST_LOG_BEST_FORGE_RECORD_HEADLINE	Best Arena Medal	
+GLUE_QUEST_LOG_BEST_FORGE_RECORD_HEADLINE	Best Arena Key	
 GLUE_QUEST_LOG_TOTAL_WINS_HEADLINE	Total Wins	
 GLUE_QUEST_LOG_TOTAL_LEVELS	<color=#c4b47c>Total Level:</color> {0}	
 GLUE_QUEST_LOG_CLASS_LOCKED	Locked	
@@ -378,3 +391,7 @@ GLUE_CARD_NERF_HEADER	Changes!
 GLUE_CARD_NERF_BODY	\nThe following card(s) have been changed:\n{0}	0=card names
 GLUE_CANNOT_FIND_BATTLENET_CLIENT	Hearthstone requires the Battle.net desktop client, but cannot find it.  Please visit www.battle.net to re-install.
 GLUE_CANNOT_RUN_BATTLENET_CLIENT	Hearthstone requires the Battle.net desktop client, but cannot run it.  Please visit www.battle.net to re-install.
+GLUE_COLLECTION_DECK_DELETE	Delete	
+GLUE_COLLECTION_DECK_RENAME	Rename	
+GLUE_SPLASH_SCREEN_LOGIN	Log in
+GLUE_SPLASH_SCREEN_BREAKING_NEWS	Breaking News

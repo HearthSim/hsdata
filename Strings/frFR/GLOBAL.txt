@@ -4,6 +4,19 @@ GLOBAL_ADDFRIEND_ERROR_MALFORMED	Vous devez ajouter un BattleTag ou une adresse 
 GLOBAL_ADDFRIEND_HEADER	Ajouter un contact	
 GLOBAL_ADDFRIEND_INSTRUCTION	Ajoutez un BattleTag ou une adresse e-mail.	
 GLOBAL_ADDFRIEND_SENT_CONFIRMATION	Demande d’ami envoyée.	
+GLOBAL_ARENA_MEDAL_0	Clé de novice	
+GLOBAL_ARENA_MEDAL_1	Clé d’apprenti	
+GLOBAL_ARENA_MEDAL_10	Clé de Givre-Né	
+GLOBAL_ARENA_MEDAL_11	Clé du Magma	
+GLOBAL_ARENA_MEDAL_12	Clé de Sancteforge	
+GLOBAL_ARENA_MEDAL_2	Clé de compagnon	
+GLOBAL_ARENA_MEDAL_3	Clé de cuivre	
+GLOBAL_ARENA_MEDAL_4	Clé d’argent	
+GLOBAL_ARENA_MEDAL_5	Clé d’or	
+GLOBAL_ARENA_MEDAL_6	Clé de platine	
+GLOBAL_ARENA_MEDAL_7	Clé de diamant	
+GLOBAL_ARENA_MEDAL_8	Clé de champion	
+GLOBAL_ARENA_MEDAL_9	Clé de rubis	
 GLOBAL_ATTACK	Attaque	
 GLOBAL_BACK	Retour	
 GLOBAL_BETA_REIMBURSEMENT_DETAILS	Voici de l’or en compensation des achats que vous avez effectués. Merci !	
@@ -41,7 +54,7 @@ GLOBAL_CLASS_ROGUE	Voleur
 GLOBAL_CLASS_SHAMAN	Chaman	
 GLOBAL_CLASS_WARLOCK	Démoniste	
 GLOBAL_CLASS_WARRIOR	Guerrier	
-GLOBAL_CLICK_TO_CONTINUE	Cliquer pour continuer	
+GLOBAL_CLICK_TO_CONTINUE	Cliquez pour continuer	
 GLOBAL_COLLECTION_GOLDEN	(carte dorée)	
 GLOBAL_CONCEDE	Capituler	
 GLOBAL_CONFIRM	OK	
@@ -70,6 +83,7 @@ GLOBAL_DATETIME_SPLASHSCREEN_SECONDS	Moins de 1 min
 GLOBAL_DATETIME_SPLASHSCREEN_WEEKS	{0} |4(semaine,semaines)	
 GLOBAL_DEFAULT_ALERT_HEADER	Alerte	
 GLOBAL_DONE	Terminé	
+GLOBAL_ERROR_ACCOUNT_LICENSES	Nous ne sommes pas parvenus à répertorier ce dont vous disposez, donc il pourrait manquer certaines choses. Veuillez nous en excuser. Nous ferons une nouvelle tentative lors de votre prochaine connexion.	
 GLOBAL_ERROR_ASSET_CREATE_PERSISTENT_DATA_PATH	Échec lors de la création d’un dossier de sauvegarde des données à l’emplacement {0}.	0=folder path
 GLOBAL_ERROR_ASSET_DOWNLOAD_FAILED	Échec du téléchargement de la ressource {0}.	0=asset name
 GLOBAL_ERROR_ASSET_INCORRECT_DATA	La ressource {0} contenait des données incorrectes.	0=asset name
@@ -82,16 +96,18 @@ GLOBAL_ERROR_GENERIC_HEADER	Erreur
 GLOBAL_ERROR_INACTIVITY_KICK	Vous avez été déconnecté de Hearthstone car vous êtes inactif depuis un moment. Relancez le jeu quand vous serez prêt !	
 GLOBAL_ERROR_NETWORK_ACCOUNT_BANNED	Votre compte a été banni.	
 GLOBAL_ERROR_NETWORK_ACCOUNT_SUSPENDED	Votre compte a été suspendu.	
-GLOBAL_ERROR_NETWORK_PARENTAL_CONTROLS	Access to this account is currently restricted by parental controls.	
 GLOBAL_ERROR_NETWORK_DISCONNECT	Vous avez été déconnecté du service Battle.net. Veuillez relancer Hearthstone pour vous reconnecter.	
 GLOBAL_ERROR_NETWORK_DUPLICATE_LOGIN	Ce compte Battle.net vient de se connecter à Hearthstone depuis un autre appareil.\n\nCe client a été déconnecté car vous ne pouvez vous connecter au jeu que sur un seul appareil à la fois.	
 GLOBAL_ERROR_NETWORK_GENERIC	Il y a eu une erreur de réseau interne.	
 GLOBAL_ERROR_NETWORK_INCORRECT_REGION	Ce compte Battle.net ne peut pas participer à la Bêta de Hearthstone dans cette région. Veuillez réessayer quand la Bêta sera disponible dans votre région !	
 GLOBAL_ERROR_NETWORK_LOGIN_FAILURE	La partie n’a pas pu vous connecter à Battle.net. Veuillez patienter quelques minutes avant de recommencer.	
 GLOBAL_ERROR_NETWORK_LOST_GAME_CONNECTION	Votre partie a été déconnectée du service de jeu Battle.net. Vous pouvez tenter de vous reconnecter en démarrant une nouvelle partie.	
+GLOBAL_ERROR_NETWORK_PARENTAL_CONTROLS	L’accès à ce compte est actuellement restreint par le contrôle parental.	
+GLOBAL_ERROR_NETWORK_PHONE_LOCK	Veuillez appeler votre numéro de verrouillage Battle.net pour autoriser cette connexion.	
 GLOBAL_ERROR_NETWORK_SPAM	Vous avez été déconnecté du service Battle.net après avoir envoyé trop de requêtes en un laps de temps réduit. Veuillez relancer Hearthstone pour vous reconnecter.	
 GLOBAL_ERROR_NETWORK_TITLE	ERREUR RÉSEAU	
 GLOBAL_ERROR_NETWORK_UTIL_TIMEOUT	Délai d’attente de votre partie écoulé lors de la requête de données auprès du service utilitaire de Hearthstone. Veuillez relancer Hearthstone pour vous reconnecter.	
+GLOBAL_ERROR_NO_MAGE_PRECON	Nous avons eu un problème de réseau pendant le chargement des cartes de votre collection. Veuillez relancer Hearthstone pour accéder à votre collection et reprendre les duels !	
 GLOBAL_ERROR_STREAMING_ASSET_TIMEOUT	Expiration du délai d'attente du système de flux pendant le chargement de la ressource {0}	0=asset name
 GLOBAL_ERROR_UNKNOWN_ERROR	Oups ! Des lutins malicieux ont interrompu Hearthstone alors que le jeu tentait de se connecter à Battle.net. Veuillez attendre quelques minutes qu’ils se dispersent avant de relancer le jeu.	
 GLOBAL_EXIT	Quitter	
@@ -126,13 +142,19 @@ GLOBAL_FRIENDLIST_CURRENT_GAMES_HEADER	PARTIES EN COURS - {0}	0=number of friend
 GLOBAL_FRIENDLIST_FRIENDS_HEADER	CONTACTS - {0}/{1} connecté(s)	0=number of online friends 1=number of offline friends
 GLOBAL_FRIENDLIST_FRIENDS_HEADER_ALL_ONLINE	CONTACTS - {0} |4(connecté,connectés)	
 GLOBAL_FRIENDLIST_FRIENDS_HEADER_NO_ONLINE	CONTACTS	
+GLOBAL_FRIENDLIST_LASTPLAYED	Dernier adversaire :	
 GLOBAL_FRIENDLIST_MYSTATUS	CONNECTÉ(E)	
+GLOBAL_FRIENDLIST_NEARBY_PLAYERS_HEADER	JOUEURS PROCHES : {0}	0=number of players
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_ALERT_MESSAGE	Voulez-vous vraiment supprimer {0} de vos contacts ?	0=friend name
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_BUTTON	Supprimer	
 GLOBAL_FRIENDLIST_REQUEST_SENT_TIME	Envoyée : {0}	0=one of the GLOBAL_DATETIME_ELAPSED_ strings
 GLOBAL_FRIENDLIST_REQUESTS_HEADER	DEMANDES DE CONTACT - {0}	0=number of received friend requests
 GLOBAL_GAME_MENU	Menu de jeu	
+GLOBAL_GOLD_REWARD_ALREADY_CAPPED	Vous avez déjà gagné {0} pièces d’or aujourd’hui.	
+GLOBAL_GOLD_REWARD_BAD_RATING	Votre adversaire ou vous-même ne remplissez pas les critères de classement pour pouvoir gagner de l’or.	
+GLOBAL_GOLD_REWARD_SHORT_GAME	Votre partie n’a pas duré assez longtemps pour vous permettre de gagner de l’or.	
 GLOBAL_HEALTH	Vie	
+GLOBAL_HEALTHY_GAMING_CHINA_CAIS_ACTIVE	Pénalités actives (anti-excès)	
 GLOBAL_HEALTHY_GAMING_CHINA_LESS_THAN_THREE_HOURS	您累计在线时间已满{0}小时。	
 GLOBAL_HEALTHY_GAMING_CHINA_MORE_THAN_FIVE_HOURS	您已进入不健康游戏时间，为了您的健康，请您立即下线休息。如不下线，您的身体将受到损害，您的收益已降为零，直到您的累计下线时间满5小时后，才能恢复正常。	
 GLOBAL_HEALTHY_GAMING_CHINA_THREE_HOURS	您累计在线时间已满{0}小时，请您下线休息，做适当身体活动。	
@@ -174,7 +196,7 @@ GLOBAL_KEYWORD_SECRET_TEXT	Inconnu jusqu’à ce qu’une action spécifique soi
 GLOBAL_KEYWORD_SILENCE	Silence	
 GLOBAL_KEYWORD_SILENCE_TEXT	Supprime le texte et les enchantements de la carte.	
 GLOBAL_KEYWORD_SPELLPOWER	Dégâts des sorts	
-GLOBAL_KEYWORD_SPELLPOWER_TEXT	Vos cartes de sort infligent {0} point(s) de dégâts supplémentaires.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLPOWER_TEXT	Vos cartes de sort infligent {0} |4(point,points) de dégâts supplémentaires.	0=amount of spell damage
 GLOBAL_KEYWORD_STEALTH	Camouflage	
 GLOBAL_KEYWORD_STEALTH_REF_TEXT	Ne peut pas être attaqué ou visé jusqu’à ce qu’il inflige des dégâts.	
 GLOBAL_KEYWORD_STEALTH_TEXT	Ne peut pas être attaqué ou visé jusqu’à ce qu’il inflige des dégâts.	
@@ -183,35 +205,71 @@ GLOBAL_KEYWORD_TAUNT_REF_TEXT	Les adversaires doivent attaquer les serviteurs ay
 GLOBAL_KEYWORD_TAUNT_TEXT	Les adversaires doivent attaquer ce serviteur.	
 GLOBAL_KEYWORD_WINDFURY	Furie des vents	
 GLOBAL_KEYWORD_WINDFURY_TEXT	Peut attaquer deux fois par tour.	
+GLOBAL_LANGUAGE_CHANGE_CONFIRM_MESSAGE	Vous devrez quitter le jeu et le relancer. Voulez-vous continuer ?	
+GLOBAL_LANGUAGE_CHANGE_CONFIRM_TITLE	Changer la langue ?	
+GLOBAL_LANGUAGE_DEDE	Allemand	
+GLOBAL_LANGUAGE_DOWNLOAD_VOICE_PACK	Pack de langue téléchargé	
+GLOBAL_LANGUAGE_DROPDOWN	Langue	
+GLOBAL_LANGUAGE_ENGB	Anglais (Royaume Uni)	
+GLOBAL_LANGUAGE_ENUS	Anglais (États-Unis)	
+GLOBAL_LANGUAGE_ESES	Espagnol (Espagne)	
+GLOBAL_LANGUAGE_ESMX	Espagnol (Mexique)	
+GLOBAL_LANGUAGE_FRFR	Français	
+GLOBAL_LANGUAGE_ITIT	Italien	
+GLOBAL_LANGUAGE_KOKR	Coréen	
+GLOBAL_LANGUAGE_PLPL	Polonais	
+GLOBAL_LANGUAGE_PTBR	Portugais (Brésil)	
+GLOBAL_LANGUAGE_PTPT	Portugais (Portugal)	
+GLOBAL_LANGUAGE_RURU	Russe	
+GLOBAL_LANGUAGE_ZHCN	Chinois (Chine)	
+GLOBAL_LANGUAGE_ZHTW	Chinois (Taïwan)	
 GLOBAL_LOGOUT	Se déconnecter	
 GLOBAL_LOSSES	Pertes	
-GLOBAL_MEDAL_APPRENTICE	Apprenti	for Arena only
-GLOBAL_MEDAL_COPPER	Cuivre	
-GLOBAL_MEDAL_DIAMOND	Diamant	
-GLOBAL_MEDAL_GOLD	Or	
-GLOBAL_MEDAL_GRANDMASTER	Grand maître	
-GLOBAL_MEDAL_JOURNEYMAN	Compagnon	
-GLOBAL_MEDAL_MASTER	Maître	
-GLOBAL_MEDAL_NO_NAME	 - 	
-GLOBAL_MEDAL_NOVICE	Novice	
-GLOBAL_MEDAL_ONE_STAR	★	
-GLOBAL_MEDAL_PLATINUM	Platine	
+GLOBAL_MEDAL_0	Légende	
+GLOBAL_MEDAL_1	Aubergiste	
+GLOBAL_MEDAL_10	Ogre-magi	
+GLOBAL_MEDAL_11	Chasseur de gros gibier	
+GLOBAL_MEDAL_12	Officier chanteguerre	
+GLOBAL_MEDAL_13	Corsaire de l’effroi	
+GLOBAL_MEDAL_14	Chef de raid	
+GLOBAL_MEDAL_15	Garde de Lune-d’argent	
+GLOBAL_MEDAL_16	Aventurier en pleine quête	
+GLOBAL_MEDAL_17	Guerrier tauren	
+GLOBAL_MEDAL_18	Apprentie du sorcier	
+GLOBAL_MEDAL_19	Ingénieur novice	
+GLOBAL_MEDAL_2	Chevalier noir	
+GLOBAL_MEDAL_20	Porte-bouclier	
+GLOBAL_MEDAL_21	Matelot des mers du Sud	
+GLOBAL_MEDAL_22	Écumeur murloc	
+GLOBAL_MEDAL_23	Écuyère d’Argent	
+GLOBAL_MEDAL_24	Gnome lépreux	
+GLOBAL_MEDAL_25	Poulet furieux	
+GLOBAL_MEDAL_3	Géant de lave	
+GLOBAL_MEDAL_4	Géant des montagnes	
+GLOBAL_MEDAL_5	Géant des mers	
+GLOBAL_MEDAL_6	Ancien de la guerre	
+GLOBAL_MEDAL_7	Marche-soleil	
+GLOBAL_MEDAL_8	Chef de guerre loup-de-givre	
+GLOBAL_MEDAL_9	Champion de la Main d’argent	
+GLOBAL_MEDAL_ARENA_TOOLTIP_BODY	C’est la meilleure clé d’Arène que vous ayez obtenu.	
 GLOBAL_MEDAL_REWARD_CONGRATULATIONS	Félicitations !	
 GLOBAL_MEDAL_REWARD_DESCRIPTION	Médaille obtenue la semaine passée	
-GLOBAL_MEDAL_SILVER	Argent	
-GLOBAL_MEDAL_STARRED_FORMAT	{1} {0}	0=star leve1, 1=medal type
-GLOBAL_MEDAL_THREE_STAR	★★★	
-GLOBAL_MEDAL_TOOLTIP_BODY	Gagnez des parties pour progresser jusqu’à la médaille suivante !\n\nMédaille suivante :\n{0}	0=medal name
+GLOBAL_MEDAL_TOOLTIP_BODY	Gagnez des parties pour progresser jusqu’au rang suivant !\n\nProchain rang :\n{0}	0=medal name
 GLOBAL_MEDAL_TOOLTIP_BODY_ARENA_GRAND_MASTER	Vous êtes un champion de l’Arène !	
+GLOBAL_MEDAL_TOOLTIP_BODY_LEGEND	Vous êtes une légende ! Votre position dans ce rang changera à chaque partie.	
 GLOBAL_MEDAL_TOOLTIP_HEADER	Médaille : {0}	0=medal name
-GLOBAL_MEDAL_TWO_STAR	★★	
+GLOBAL_MOBILECHAT_NOTIFICATION_MULLIGAIN	Game started!	
+GLOBAL_MOBILECHAT_NOTIFICATION_TURN_COUNTDOWN	Running out of time!	
+GLOBAL_MOBILECHAT_NOTIFICATION_YOUR_TURN	Your turn!	
+GLOBAL_MOBILECHAT_RETURN_TO_GAME	Return to game	
+GLOBAL_MOBILECHAT_RETURN_TO_MENU	Return to menu	
 GLOBAL_MY_NUM_WINS	{0}	0=number of games this player has won
 GLOBAL_OFFLINE	Déconnecté(e)	
 GLOBAL_OKAY	OK	
 GLOBAL_OPTIONS	Options	
 GLOBAL_OPTIONS_CARDBACK_LABEL	Choisissez le dos de vos cartes	
 GLOBAL_OPTIONS_CINEMATIC	Cinématique	
-GLOBAL_OPTIONS_CREDITS	Crédits	
+GLOBAL_OPTIONS_CREDITS	Générique	
 GLOBAL_OPTIONS_GRAPHICS_FULLSCREEN_LABEL	Plein écran	
 GLOBAL_OPTIONS_GRAPHICS_LABEL	Graphismes	
 GLOBAL_OPTIONS_GRAPHICS_QUALITY_HIGH	Élevée	
@@ -220,12 +278,14 @@ GLOBAL_OPTIONS_GRAPHICS_QUALITY_LOW	Faible
 GLOBAL_OPTIONS_GRAPHICS_QUALITY_MEDIUM	Moyenne	
 GLOBAL_OPTIONS_GRAPHICS_RESOLUTION_LABEL	Résolution	
 GLOBAL_OPTIONS_MISCELLANEOUS_LABEL	Divers	
+GLOBAL_OPTIONS_NEARBY_PLAYERS	Activer le mode Défier les joueurs proches - Liste de contacts	
 GLOBAL_OPTIONS_PUBLIC_CHAT_ENABLED	Discussion publique	
 GLOBAL_OPTIONS_SOUND_IN_BACKGROUND	Sons en arrière-plan	
 GLOBAL_OPTIONS_SOUND_LABEL	Son	
 GLOBAL_OPTIONS_SOUND_MASTER_VOLUME_LABEL	Volume principal	
 GLOBAL_OPTIONS_SOUND_MUSIC_VOLUME_LABEL	Volume de la musique	
 GLOBAL_PLAY	Jouer	
+GLOBAL_PLAY_RANKED	Partie classée	
 GLOBAL_PRACTICE_MAX_LEVEL_REACHED	Niveau max. de l’Entraînement	
 GLOBAL_PROGRAMNAME_DIABLO3	Diablo III	
 GLOBAL_PROGRAMNAME_HEARTHSTONE	Hearthstone	
@@ -257,6 +317,8 @@ GLOBAL_RACE_TOTEM	Totem
 GLOBAL_RACE_TROLL	Troll	
 GLOBAL_RACE_UNDEAD	Mort-vivant	
 GLOBAL_RACE_WORGEN	Worgen	
+GLOBAL_RANK_SCRUB_RANK_DESC	À ce rang, vous ne pouvez pas perdre d’étoiles.	
+GLOBAL_RANK_WIN_STREAK	Série de victoires - Étoile bonus !	
 GLOBAL_RARITY_COMMON	Commune	
 GLOBAL_RARITY_EPIC	Épique	
 GLOBAL_RARITY_FREE	Gratuit	
@@ -279,7 +341,7 @@ GLOBAL_REWARD_FORGE_UNLOCKED_HEADLINE	Arène débloquée !
 GLOBAL_REWARD_FORGE_UNLOCKED_SOURCE	Récompense pour être entré dans l’Arène	
 GLOBAL_REWARD_GOLD_HEADLINE	Or obtenu !	
 GLOBAL_REWARD_GOLD_SOURCE_TOURNEY	Récompense pour {0} |4(victoire,victoires) en mode Partie	
-GLOBAL_REWARD_GOLDEN_HERO_HEADLINE	Carte dorée {0} débloquée	
+GLOBAL_REWARD_GOLDEN_HERO_HEADLINE	Portrait doré débloqué : {0}	
 GLOBAL_REWARD_HERO_DETAILS	{0}/{1} héros débloqués	
 GLOBAL_REWARD_HERO_HEADLINE	{0} débloqué	
 GLOBAL_REWARD_HERO_SOURCE	Débloqué en gagnant contre un {0}	0=class
@@ -288,14 +350,28 @@ GLOBAL_SET_CORE	Jeu de base
 GLOBAL_SET_EXPERT1	Jeu Expert	
 GLOBAL_SHUTDOWN_TOAST	<color=#{0}>Battle.net sera déconnecté dans {1} |4(minute,minutes)</color>	0=color, 1=minutes
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_COMPLETE	<color=#{0}>{1}</color> vient de terminer une série de matchs dans l’Arène. ({2} - {3})	0=name color,1=player name,2=Arena Wins,3=Arena Losses
+GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_COMPLETE_BAD	<color=#{0}>{1}</color> vient de terminer une série dans l’Arène.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START	<color=#{0}>{1}</color> vient de commencer une série de matchs dans l’Arène.	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_FRIEND_DRUID_LEVEL	<color=#{0}>{1}</color> est maintenant Druide niveau {2}.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_GOLDEN_LEGENDARY	<color=#{0}>{1}</color> vient d’obtenir la carte dorée <color=#{3}>{2}</color> !	0=name color,1=player name,2=card name,3=Golden Color
+GLOBAL_SOCIAL_TOAST_FRIEND_HUNTER_LEVEL	<color=#{0}>{1}</color> est maintenant Chasseur niveau {2}.	0=name color,1=player name,2=level
+GLOBAL_SOCIAL_TOAST_FRIEND_ILLIDAN_COMPLETE	<color=#{0}>{1}</color> a vaincu Illidan Hurlorage !	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_LEGENDARY	<color=#{0}>{1}</color>vient d’obtenir la carte <color=#{3}>{2}</color> !	0=name color,1=player name,2=card name
+GLOBAL_SOCIAL_TOAST_FRIEND_MAGE_LEVEL	<color=#{0}>{1}</color> est maintenant Mage niveau {2}.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_OFFLINE	<color=#{0}>{1}</color> s’est déconnecté(e).	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_ONLINE	<color=#{0}>{1}</color> vient de se connecter.	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_FRIEND_PALADIN_LEVEL	<color=#{0}>{1}</color> est maintenant Paladin niveau {2}.	0=name color,1=player name,2=level
+GLOBAL_SOCIAL_TOAST_FRIEND_PRIEST_LEVEL	<color=#{0}>{1}</color> est maintenant Prêtre niveau {2}.	0=name color,1=player name,2=level
+GLOBAL_SOCIAL_TOAST_FRIEND_RANK_LEGEND	<color=#{0}>{1}</color> a obtenu le rang de LÉGENDE !	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_REQUEST	<color=#{0}>{1}</color> vous a envoyé une demande de contact.	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_FRIEND_ROGUE_LEVEL	<color=#{0}>{1}</color> est maintenant Voleur niveau {2}.	0=name color,1=player name,2=level
+GLOBAL_SOCIAL_TOAST_FRIEND_SHAMAN_LEVEL	<color=#{0}>{1}</color> est maintenant Chaman niveau {2}.	0=name color,1=player name,2=level
+GLOBAL_SOCIAL_TOAST_FRIEND_WARLOCK_LEVEL	<color=#{0}>{1}</color> est maintenant Démoniste niveau {2}.	0=name color,1=player name,2=level
+GLOBAL_SOCIAL_TOAST_FRIEND_WARRIOR_LEVEL	<color=#{0}>{1}</color> est maintenant Guerrier niveau {2}.	0=name color,1=player name,2=level
+GLOBAL_SOCIAL_TOAST_RECENT_OPPONENT_FRIEND_REQUEST	Un adversaire récent voudrait devenir votre ami !	
 GLOBAL_SPLASH_CLOSED_SIGN_TITLE	Fermé	
+GLOBAL_TOOLTIP_FRIEND_BUTTON_DESC	Discutez avec vos contacts et défiez-les.	
+GLOBAL_TOOLTIP_FRIEND_BUTTON_HEADER	Contacts	
 GLOBAL_TOOLTIP_MENU_DESC	Ici, vous pouvez régler les options, capituler, quitter le jeu...	
 GLOBAL_TOOLTIP_MENU_HEADER	Menu de jeu	
 GLOBAL_WINS	Victoires	
-GLOBAL_HEALTHY_GAMING_CHINA_CAIS_ACTIVE	CAIS Active	

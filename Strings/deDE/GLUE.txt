@@ -9,9 +9,15 @@ GLUE_ARENA_1ST_TIME_HEADER	Die Arena
 GLUE_ARENA_DECK	Arenadeck	
 GLUE_ARENA_DECK_TOOLTIP	Das ist Euer Arenadeck. Diese Karten sind nicht Teil Eurer Sammlung.	
 GLUE_ARENA_DECK_TOOLTIP_HEADER	Arenadeck	
+GLUE_BASIC_SET_PROGRESS	{0}/{1} Basiskarten	0=number of owned cards,1=total number of basic cards
+GLUE_BLIZZCON2013_ARENA	Willkommen in der Arena! Wenn Ihr genügend Spiele gewinnt, erhaltet Ihr eine Belohnung!	
+GLUE_BLIZZCON2013_ARENA_5_WINS	Ihr seid jetzt ein Veteran der Arena! Macht nur weiter so und überlebt so lange wie möglich!	
+GLUE_BLIZZCON2013_ARENA_GRAND_PRIZE	HURRA! Wir haben einen neuen Arena-Champion! Zeigt einem BlizzCon-Helfer diesen Bildschirm, um Euren GROSSEN PREIS zu erhalten!	
+GLUE_BLIZZCON2013_ARENA_NO_PRIZE	Danke fürs Spielen! Ihr habt Euch tapfer geschlagen. Bis bald!	
+GLUE_BLIZZCON2013_ARENA_PRIZE	Herzlichen Glückwunsch, Ihr habt eine Belohnung gewonnen! Zeigt einem BlizzCon-Helfer diesen Bildschirm!	
 GLUE_CANNOT_FIND_BATTLENET_CLIENT	Hearthstone benötigt die Battle.net-Software, kann sie aber nicht finden. Bitte besuchen Sie www.battle.net, um sie erneut zu installieren.	
 GLUE_CANNOT_RUN_BATTLENET_CLIENT	Hearthstone benötigt die Battle.net-Software, kann sie aber nicht ausführen. Bitte besuchen Sie www.battle.net, um sie erneut zu installieren.	
-GLUE_CARD_NERF_BODY	\nDie |4(folgende Karte,folgenden Karten) wurden geändert:\n{0}	0=card names
+GLUE_CARD_NERF_BODY	\nDie folgenden Karten wurden abgeändert:\n{0}	0=card names
 GLUE_CARD_NERF_HEADER	Änderungen!	
 GLUE_CHOOSE	Wählen	
 GLUE_CHOOSE_OPPONENT	Gegner auswählen	
@@ -29,7 +35,7 @@ GLUE_CLASS_DESCRIPTION_WARRIOR	Zerschmettert Eure Feinde mit mächtigen Waffen u
 GLUE_COLLECTION_ALL	ALLE	
 GLUE_COLLECTION_ALL_CARDS	Alle Karten	
 GLUE_COLLECTION_ALL_SETS	Alle Sets	
-GLUE_COLLECTION_ARTIST	Künstler	
+GLUE_COLLECTION_ARTIST	Künstler: {0}	0=artist name
 GLUE_COLLECTION_CARD_COUNT	x{0}	
 GLUE_COLLECTION_CARD_COUNT_LARGE	x9+	
 GLUE_COLLECTION_CARD_NEW	NEU!	
@@ -40,6 +46,7 @@ GLUE_COLLECTION_CRAFTING_MODE	Herstellmodus
 GLUE_COLLECTION_CRAFTING_SHOW_ONLY_GOLDEN	Nur goldene Karten anzeigen	
 GLUE_COLLECTION_CRAFTING_SHOW_SOULBOUND_CARDS	Seelengebundene Karten anzeigen	
 GLUE_COLLECTION_CUSTOM_DECKNAME_TEMPLATE	Mein {0}{1}	0=class name, 1=incrementer
+GLUE_COLLECTION_DECK_DELETE	Löschen	
 GLUE_COLLECTION_DECK_FINISH_FOR_ME	Ja	
 GLUE_COLLECTION_DECK_HELP_BUTTON	Karte vorschlagen	
 GLUE_COLLECTION_DECK_INFO_HERO_POWER_TOOLTIP	Heldenfähigkeit	
@@ -47,6 +54,7 @@ GLUE_COLLECTION_DECK_INFO_MANA_TOOLTIP	Karten/Manakosten
 GLUE_COLLECTION_DECK_INFO_TITLE	{0} Info	
 GLUE_COLLECTION_DECK_INVALID_POPUP_HEADER	Unzulässiges Deck	
 GLUE_COLLECTION_DECK_INVALID_POPUP_MESSAGE	Ihr müsst dem Deck noch {0} weitere |4(Karte,Karten) hinzufügen. Wollt Ihr es automatisch vervollständigen?	
+GLUE_COLLECTION_DECK_RENAME	Umbenennen	
 GLUE_COLLECTION_DECK_SAVE_ANYWAY	Nein	
 GLUE_COLLECTION_DELETE_CONFIRM_DESC	Dadurch wird Euer Deck gelöscht. Seid Ihr Euch sicher?	
 GLUE_COLLECTION_DELETE_CONFIRM_HEADER	Löschen	
@@ -110,7 +118,7 @@ GLUE_FORGE_RETIRE_WARNING_HEADER	Wartet!
 GLUE_FORGE_STORE_ADMISSION	Zugang	
 GLUE_FORGE_STORE_DETAILS1	Stellt Euch ein Deck aus zufälligen Karten zusammen und findet heraus, wie lange Ihr in der Arena bestehen könnt.	
 GLUE_FORGE_STORE_DETAILS2	Je länger Ihr durchhaltet, desto besser werden Eure Belohnungen!	
-GLUE_FORGE_STORE_DISCLAIMER_DETAILS	Wenn Sie einmal oder auch mehrmals den Zugang zur Arena mit echtem Geld käuflich erwerben, erhalten Sie ein Geschenk für Ihre Mithilfe beim Test unseres Shops!	
+GLUE_FORGE_STORE_DISCLAIMER_DETAILS	Wenn Sie während des Hearthstone-Betatests eine Kartenpackung oder einen Zugang zur Arena mit echtem Geld käuflich erwerben, erhalten Sie als Geschenk für Ihre Mithilfe beim Test unseres Shops eine goldene Version von Gelbin Mekkadrill! Bitte beachten: Diese Karte erhalten Sie nur einmal bei Ihrem ersten Kauf.	
 GLUE_FORGE_STORE_HEADLINE	Willkommen in der Arena! 	
 GLUE_HERO_LOCKED_DESC	Besiegt diesen Helden, um ihn freizuschalten!	
 GLUE_HERO_LOCKED_NAME	Gesperrt	
@@ -149,9 +157,7 @@ GLUE_PACK_OPENING_BOOSTER_COUNT	{0}	0=number of owned boosters
 GLUE_PACK_OPENING_HEADER	Packungen öffnen	
 GLUE_PACK_OPENING_TOOLTIP	카드팩을 개봉함으로써, 귀하는 카드팩의 청약철회가 불가하다는 사실을 인지하고 이에 동의합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_PRACTICE	Üben	
-GLUE_PRACTICE_BASIC_SET_COMPLETE	{0}: Basisset komplett	0=class
-GLUE_PRACTICE_BASIC_SET_PROGRESS	{0}/{1} Basiskarten erhalten	0=number of owned cards,1=total number of basic cards
-GLUE_QUEST_LOG_BEST_FORGE_RECORD_HEADLINE	Beste Arenamedaille	
+GLUE_QUEST_LOG_BEST_FORGE_RECORD_HEADLINE	Bester Arenaschlüssel	
 GLUE_QUEST_LOG_CLASS_LOCKED	Gesperrt	
 GLUE_QUEST_LOG_HEADLINE	Questlog	
 GLUE_QUEST_LOG_HERO_LEVELS	Heldenstufen	
@@ -215,6 +221,8 @@ GLUE_SPINNER_8	Kartenzinker
 GLUE_SPINNER_9	Muffliger Magier	
 GLUE_SPLASH_QUEUE_TEXT	Wartezeit, bis ein Platz frei wird:	
 GLUE_SPLASH_QUEUE_TITLE	Alle Tische sind voll!	
+GLUE_SPLASH_SCREEN_BREAKING_NEWS	Eilmeldung	
+GLUE_SPLASH_SCREEN_LOGIN	Einloggen	
 GLUE_START_CLICK	Zum Starten klicken	
 GLUE_START_PRESS	Start drücken	
 GLUE_START_TOUCH	Zum Starten berühren	
@@ -230,9 +238,10 @@ GLUE_STORE_CHALLENGE_CVV_MESSAGE	Bitte geben Sie Ihre Kartenprüfnummer ein:\n\n
 GLUE_STORE_CHALLENGE_HEADLINE	Achtung	
 GLUE_STORE_CHALLENGE_PWD_MESSAGE	Bitte geben Sie Ihr Passwort ein:	
 GLUE_STORE_CHALLENGE_PWD_RETRY_MESSAGE	Ihr Passwort ist inkorrekt. Bitte geben Sie Ihr Passwort erneut ein:	
-GLUE_STORE_CLOSED_BUTTON_TEXT	Shop  geschlossen 	
+GLUE_STORE_CHANGE_PAYMENT_BUTTON_TEXT	Standardzahlungsmethode ändern	
+GLUE_STORE_CLOSED_BUTTON_TEXT	Shop\ngeschlossen	
 GLUE_STORE_DISABLED	Der Shop ist derzeit nicht verfügbar. Bitte später noch einmal versuchen.	
-GLUE_STORE_DISCLAIMER_DETAILS	Wenn Sie während des Betatests Käufe mit echtem Geld tätigen, erhalten Sie ein Geschenk für Ihre Mithilfe beim Test unseres Shops!	
+GLUE_STORE_DISCLAIMER_DETAILS	Wenn Sie während des Hearthstone-Betatests eine Kartenpackung oder einen Zugang zur Arena mit echtem Geld käuflich erwerben, erhalten Sie als Geschenk für Ihre Mithilfe beim Test unseres Shops eine goldene Version von Gelbin Mekkadrill! Bitte beachten: Diese Karte erhalten Sie nur einmal bei Ihrem ersten Kauf.	
 GLUE_STORE_DISCLAIMER_HEADLINE	Achtung	
 GLUE_STORE_DISCLAIMER_WARNING	Sie sind im Begriff, echtes Geld auszugeben!	
 GLUE_STORE_DONE_WITH_BAM_HEADLINE	Erneut versuchen	
@@ -255,7 +264,8 @@ GLUE_STORE_FAIL_PRODUCT_NA	Dieses Produkt ist derzeit nicht erhältlich. Bitte w
 GLUE_STORE_FAIL_PURCHASE_BAN	Die Nutzung des Shops ist auf Ihrem Account gesperrt. Falls es sich dabei Ihrer Meinung nach um einen Fehler handelt, kontaktieren Sie bitte den Kundendienst.	
 GLUE_STORE_FAIL_QUANTITY	Sie haben eine ungültige Menge für dieses Produkt ausgewählt. Bitte wählen Sie eine andere Menge aus und versuchen Sie es erneut.	
 GLUE_STORE_FAIL_SPENDING_LIMIT	Dieser Kauf hätte Ihr Ausgabelimit überschritten. Käufe mit Gold stehen weiterhin zur Verfügung!	
-GLUE_STORE_FORGOT_PWD_DETAILS	Ihr Passwort wurde bereits zu oft falsch eingegeben. Haben Sie es vergessen?	
+GLUE_STORE_FAIL_THROTTLED	Ihre Transaktion kann momentan nicht bearbeitet werden. Bitte versuchen Sie es etwas später erneut.	
+GLUE_STORE_FORGOT_PWD_DETAILS	Ihr Passwort wurde zu oft falsch eingegeben oder Sie haben die Passwortabfrage abgebrochen. Haben Sie Ihr Passwort vergessen?	
 GLUE_STORE_FORGOT_PWD_HEADLINE	Passwort vergessen?	
 GLUE_STORE_FORGOT_PWD_URL_DETAILS	Durch Drücken von „{0}“ werden Sie zu Battle.net weitergeleitet, wo Sie Ihr Passwort zurücksetzen können.	
 GLUE_STORE_GENERIC_BP_FAIL_DETAILS	Bei der Bearbeitung Ihrer Zahlung ist ein Problem aufgetreten. Bitte wählen Sie eine andere Zahlungsmethode oder kontaktieren Sie den betreffenden Zahlungsdienstleister.	
@@ -263,7 +273,7 @@ GLUE_STORE_GENERIC_BP_FAIL_HEADLINE	Kauf fehlgeschlagen
 GLUE_STORE_GENERIC_BP_FAIL_URL_DETAILS	Durch das Drücken von „{0}“ gelangen Sie zu Battle.net, wo Sie Ihre Zahlungsmethode aktualisieren können.	
 GLUE_STORE_GOLD_BUTTON_TOOLTIP_HEADLINE	Mit Gold kaufen	
 GLUE_STORE_GOLD_QTY_CHANGE_DESC	Sie haben viel Gold! Wenn Sie mehrere Packungen auf einmal kaufen möchten, klicken Sie einfach doppelt auf die Option „1 Packung für 100 Gold“, um die Anzahl der Packungen zu verändern.	
-GLUE_STORE_GOLD_QTY_CHANGE_DESC_TOUCH	Sie haben viel Gold! Wenn Sie mehrere Packungen auf einmal kaufen möchten, klicken Sie einfach doppelt auf die Option „1 Packung für 100 Gold“, um die Anzahl der Packungen zu verändern.	
+GLUE_STORE_GOLD_QTY_CHANGE_DESC_TOUCH	Sie haben viel Gold! Wenn Sie mehrere Packungen auf einmal kaufen möchten, tippen Sie einfach zweimal auf die Option „1 Packung für 100 Gold“, um die Anzahl der Packungen zu verändern.	
 GLUE_STORE_GOLD_QTY_CHANGE_HEADER	Packungen für Gold	
 GLUE_STORE_HEADLINE	Shop	
 GLUE_STORE_INFO_BUTTON_TEXT	i	
@@ -285,6 +295,7 @@ GLUE_STORE_PRODUCT_PRICE	({0})	0=price
 GLUE_STORE_PRODUCT_PRICE_NA	n. v.	
 GLUE_STORE_QUANTITY_HEADLINE	Anzahl ändern	
 GLUE_STORE_QUANTITY_MESSAGE	Wie viele Packungen möchten Sie mit Gold kaufen? Maximale Anzahl: {0}	
+GLUE_STORE_READ_TOS_BUTTON_TEXT	Nutzungsbestimmungen lesen	
 GLUE_STORE_SINGLE_EXPERT_PACK	1 Profipackung	
 GLUE_STORE_SINGLE_PACK	1 Packung	
 GLUE_STORE_SUBMIT_CHALLENGE_BUTTON_TEXT	Kaufen	
@@ -295,11 +306,11 @@ GLUE_STORE_SUMMARY_ITEMS_ORDERED_HEADLINE	Angeforderte Artikel
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_CONFIRM	본 거래와 관련된 조건과 약관을 확인하며 이에 동의합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_EXPERT_PACK	이용기간 : 서비스 종료 시까지. 본 상품은 구매 후 7일 이내에 청약철회가 가능합니다. 다만, 1개의 카드팩이라도 개봉한 경우에는 청약철회가 불가능합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_FORGE_TICKET	투기장 입장료는 구매 후 환불되지 않으며, 구매 즉시 투기장에 입장합니다.	only displayed for Korean customers, should always be in Korean
-GLUE_STORE_SUMMARY_PAY_NOW_TEXT	Bezahlen	this is what you see when you confirm the purchase
+GLUE_STORE_SUMMARY_PAY_NOW_TEXT	Jetzt bezahlen	this is what you see when you confirm the purchase
 GLUE_STORE_SUMMARY_PRICE_HEADLINE	Preis	
 GLUE_STORE_SUMMARY_TAX_DISCLAIMER	inkl. USt, soweit anwendbar	
 GLUE_STORE_SUMMARY_TAX_DISCLAIMER_USD	zzgl. Steuern, soweit anwendbar	
-GLUE_STORE_SUMMARY_TOS_AGREEMENT	Indem Sie auf „{0}“ klicken, bestätigen Sie, dass Sie die Verkaufsbedingungen gelesen und angenommen haben. Klicken Sie auf „{1}“, um sich die Verkaufsbedingungen auf Battle.net anzeigen zu lassen.	0=GLUE_STORE_SUMMARY_PAY_NOW_TEXT,1=GLUE_STORE_INFO_BUTTON_TEXT
+GLUE_STORE_SUMMARY_TOS_AGREEMENT	Indem Sie auf „{0}“ klicken, bestätigen Sie, dass Sie die Verkaufsbedingungen gelesen und angenommen haben. Klicken Sie auf „{1}“, um Ihre Standardzahlungmethode zu ändern oder sich die Verkaufsbedingungen anzeigen zu lassen.	0=GLUE_STORE_SUMMARY_PAY_NOW_TEXT,1=GLUE_STORE_TERMS_OF_SALE_BUTTON_TEXT
 GLUE_STORE_TERMS_OF_SALE_BUTTON_TEXT	?	
 GLUE_TIP_DEFAULT_0	Ihr könnt weitere Packungen mit Profikarten im Shop erwerben.	
 GLUE_TIP_DEFAULT_1	Klickt auf Euren Helden, während Ihr Euer Deck bearbeitet, um den Namen des Decks zu ändern.	
@@ -311,11 +322,11 @@ GLUE_TIP_DEFAULT_14	Basiskarten können durch Stufenaufstiege mit einer Klasse e
 GLUE_TIP_DEFAULT_15	Beim Spielen gegen andere Spieler erhaltet Ihr zusätzliche Erfahrung.	
 GLUE_TIP_DEFAULT_16	Ihr könnt per Rechtsklick auf Euren Gegner seine Emotes ausblenden lassen.	
 GLUE_TIP_DEFAULT_2	Klickt mit der rechten Maustaste auf Euren Helden, um ein Emote zu senden.	
-GLUE_TIP_DEFAULT_3	Wenn Ihr beim Bauen eines Decks Hilfe braucht, könnt Ihr Euch „Karten vorschlagen“ lassen.	
+GLUE_TIP_DEFAULT_3	Wenn Ihr beim Zusammenstellen eines Decks Hilfe braucht, könnt Ihr Euch „Karten vorschlagen“ lassen.	
 GLUE_TIP_DEFAULT_4	Die Farbe des Edelsteins in der Mitte einer Karte verrät ihre Seltenheit.	
 GLUE_TIP_DEFAULT_5	Seltenheitsfarbskala: Weiß ist Gewöhnlich, Blau ist Selten, Violett ist Episch und Orange ist Legendär.	
 GLUE_TIP_DEFAULT_6	Jede Profipackung enthält mindestens eine Karte, die selten oder besser ist, aber es könnten auch mehr darin enthalten sein!	
-GLUE_TIP_DEFAULT_7	Die Medaillenränge sind Lehrling, Geselle, Kupfer, Silber, Gold, Platin, Diamant und Meister.	
+GLUE_TIP_DEFAULT_7	Falls Ihr keine Quests mehr habt, schaut einfach morgen wieder vorbei und erhaltet eine neue.	
 GLUE_TIP_DEFAULT_8	Wenn Ihr gewertete Spiele absolviert, könnt Ihr Medaillen erwerben, die Eure Fähigkeiten widerspiegeln.	
 GLUE_TIP_DEFAULT_9	Schließt Quests ab, um Gold zu verdienen. Gold kann zum Kauf von Packungen oder für den Zugang zur Arena verwendet werden.	
 GLUE_TIP_DEFAULT_zz_UNUSED	Ihr könnt mit Euren Freunden sogar spielen, wenn sie offline sind!	
@@ -334,12 +345,12 @@ GLUE_TIP_PLAY_8	Wenn Ihr gewertete Spiele absolviert, könnt Ihr Medaillen erwer
 GLUE_TIP_PRACTICE_0	Ihr könnt Helden freischalten, indem Ihr sie im Modus „Üben“ besiegt.	
 GLUE_TIP_PRACTICE_1	Der Modus „Üben“ ist lediglich eine Vorbereitung für den Modus „Spielen“!	
 GLUE_TIP_PRACTICE_2	Im Modus „Spielen“ tretet Ihr gegen ebenbürtige Gegner an!	
-GLUE_TIP_PRACTICE_3	Ihr könnt Euch mit Euren Karten selbst ein Deck zusammenstellen, indem Ihr Eure Sammlung einseht. 	
+GLUE_TIP_PRACTICE_3	Ihr könnt Euch mit Euren Karten selbst ein Deck zusammenstellen, indem Ihr Eure Sammlung einseht.	
 GLUE_TIP_PRACTICE_4	Jede Klasse verfügt über 5 verschiedene Basiskarten, die Ihr mit Stufenaufstiegen freischalten könnt.	
 GLUE_TIP_PRACTICE_5	Schließt im Modus „Spielen“ Quests ab, um Gold zu verdienen!	
 GLUE_TIP_PRACTICE_6	Den Helden angreifen? Oder die feindlichen Diener? Die richtige Antwort auf diese Fragen kann des Kampfes Glück wenden.	
 GLUE_TIP_PRACTICE_7	Ab Stufe 10 erhaltet Ihr mehr Erfahrung, wenn Ihr gegen andere Spieler antretet.	
-GLUE_TIP_QUEST_LOG_0	Schaltet andere Helden im Modus „Üben“ frei – Besiegt die KI, um sie freizuschalten!	
+GLUE_TIP_QUEST_LOG_0	Schaltet andere Helden im Modus „Üben“ frei – besiegt die KI, um sie freizuschalten!	
 GLUE_TIP_QUEST_LOG_1	Ihr könnt weitere Basiskarten für eine Klasse freischalten, wenn Ihr mit dieser Klasse Spiele absolviert.	
 GLUE_TIP_QUEST_LOG_2	Versucht Euch am Modus „Spielen“ und verdient Euch spielend Profipackungen.	
 GLUE_TIP_QUEST_LOG_3	Es gibt auch KI-Gegner der Profistufe, mit denen Ihr Euch messen könnt.	
@@ -361,7 +372,7 @@ GLUE_TIP_QUEST_LOG_RANDOM_8	Random Quote 9
 GLUE_TIP_QUEST_LOG_RANDOM_9	Random Quote 10	
 GLUE_TOOLTIP_BUTTON_COLLECTION_DESC	Schaut Euch Eure Karten an oder stellt Euch ein Deck zusammen.	
 GLUE_TOOLTIP_BUTTON_COLLECTION_HEADLINE	Meine Sammlung	
-GLUE_TOOLTIP_BUTTON_DISABLED_DESC	Vorübergehend inaktiv. 	
+GLUE_TOOLTIP_BUTTON_DISABLED_DESC	Vorübergehend inaktiv.	
 GLUE_TOOLTIP_BUTTON_FORGE_DESC	Schmiedet Euch schnell ein Deck aus zufälligen Karten.	
 GLUE_TOOLTIP_BUTTON_FORGE_HEADLINE	Die Arena	
 GLUE_TOOLTIP_BUTTON_FORGE_NOT_UNLOCKED	Bleibt verschlossen, bis Ihr alle Helden freigeschaltet habt.	
@@ -371,10 +382,16 @@ GLUE_TOOLTIP_BUTTON_PRACTICE_DESC	Verbessert Eure Fähigkeiten gegen KI-Gegner.
 GLUE_TOOLTIP_BUTTON_PRACTICE_HEADLINE	Üben	
 GLUE_TOOLTIP_BUTTON_QUESTLOG_DESC	Schaut Euch Euren aktuellen Fortschritt an.	
 GLUE_TOOLTIP_BUTTON_QUESTLOG_HEADLINE	Questlog	
+GLUE_TOOLTIP_BUTTON_STORE_DESC	Kauft Euch mit Gold oder Geld Kartenpackungen.	
+GLUE_TOOLTIP_BUTTON_STORE_HEADLINE	Shop	
 GLUE_TOOLTIP_BUTTON_TOURNAMENT_DESC	Spielt gegen einen ebenbürtigen Gegner.	
 GLUE_TOOLTIP_BUTTON_TOURNAMENT_HEADLINE	Spielen	
+GLUE_TOOLTIP_CASUAL_BUTTON	Findet einen ebenbürtigen Gegner und spielt zum Spaß!	
 GLUE_TOOLTIP_GOLD_DESCRIPTION	Gold kann zum Kaufen von Packungen oder für den Zugang zur Arena verwendet werden.	
 GLUE_TOOLTIP_GOLD_HEADER	Gold	
+GLUE_TOOLTIP_RANKED_BUTTON	Messt Euch mit anderen Spielern!	
 GLUE_TOURNAMENT	Spielen	
+GLUE_TOURNAMENT_CASUAL	Ungewertet	
+GLUE_TOURNAMENT_RANKED	Gewertet	
 GLUE_TOURNAMENT_UNRANKED_DESC	Im ungewerteten Modus verfügt Ihr über eine separate Einstufung, und Ihr könnt keine Medaillen gewinnen.	
 GLUE_TOURNAMENT_UNRANKED_MODE	Ungewertet	
