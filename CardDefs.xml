@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<CardDefs build="4482">
+<CardDefs build="4944">
 	<Entity CardID="CRED_01" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
 			<enUS>Jason Chayes</enUS>
@@ -940,6 +940,7 @@
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="2"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="3"/>
 		<Power definition="ec7fd18a-a60d-419c-9e5a-145ab1b75b11"/>
+		<Texture>W3_141_D</Texture>
 	</Entity>
 	<Entity CardID="CS1_129" version="2">
 		<MasterPower>126f032e-e9db-43ff-968f-f1eabcdead0b</MasterPower>
@@ -990,7 +991,7 @@
 			<plPL>Dobry pomysł: dopakowanie stronników. Zły pomysł: stronienie od dopakowania.</plPL>
 			<ptBR>Boa ideia: dar bônus aos seus lacaios. Má ideia: puxar conversa nos Sertões.</ptBR>
 			<ruRU>Сделать своих существ сильнее – хорошая идея. Начинать разговор в Степях – плохая идея.</ruRU>
-			<zhCN>增强你的士兵才是上策，去贫瘠之地谈判只是无奈之举。</zhCN>
+			<zhCN>“但是，真正的胜利，孩子——是鼓舞你的子民心中的斗志。”——泰瑞纳斯·米奈希尔</zhCN>
 			<zhTW>好主意:強化你的手下。壞主意:在貧瘠之地進行聊天。</zhTW>
 		</Tag>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
@@ -1254,7 +1255,7 @@ Roba una carta.</esES>
 			<esMX>Otorga +2 de Salud a un esbirro. Roba una carta.</esMX>
 			<frFR>Confère +2 PV à un serviteur.
 Vous piochez une carte.</frFR>
-			<itIT>+2 Salute a un servitore. Pesca una carta</itIT>
+			<itIT>+2 Salute a un servitore. Pesca una carta.</itIT>
 			<koKR>하수인 하나에게 생명력을 +2 부여합니다.
 카드를 1장 뽑습니다.</koKR>
 			<plPL>Daj stronnikowi +2 do zdrowia.
@@ -1331,6 +1332,7 @@ Dobierz kartę.</plPL>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="1"/>
 		<Power definition="63ad19bd-9009-406a-a3dd-e5bff62e705f"/>
+		<Texture>W13_066_D</Texture>
 	</Entity>
 	<Entity CardID="CS2_005" version="2">
 		<MasterPower>a871043b-5755-4b92-85e1-a831512f8099</MasterPower>
@@ -1394,6 +1396,7 @@ Dobierz kartę.</plPL>
 			<enUS>Unlocked at Level 1.</enUS>
 		</Tag>
 		<Power definition="a871043b-5755-4b92-85e1-a831512f8099"/>
+		<Texture>W2_259_D</Texture>
 	</Entity>
 	<Entity CardID="CS2_005o" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -1432,6 +1435,7 @@ Dobierz kartę.</plPL>
 		<Tag enumID="338" name="OneTurnEffect" type="Bool" value="1"/>
 		<Power definition="1d03caa1-9ad6-4440-a40d-f57ac80abffa"/>
 		<Power definition="49df09e7-0097-4467-b8f1-2e77041356e6"/>
+		<Texture>W2_259_D</Texture>
 	</Entity>
 	<Entity CardID="CS2_007" version="2">
 		<MasterPower>1978a68f-848d-4fe2-91f4-56039c3676ad</MasterPower>
@@ -1525,7 +1529,7 @@ Dobierz kartę.</plPL>
 			<esES>Inflige $1 p. de daño.</esES>
 			<esMX>Inflige $1 de daño.</esMX>
 			<frFR>Inflige $1 |4(point,points) de dégâts.</frFR>
-			<itIT>Infligge $1 danno.</itIT>
+			<itIT>Infligge $1 |4(danno,danni).</itIT>
 			<koKR>피해를 $1 줍니다.</koKR>
 			<plPL>Zadaj $1 pkt. obrażeń.</plPL>
 			<ptBR>Cause $1 de dano.</ptBR>
@@ -1627,6 +1631,7 @@ Dobierz kartę.</plPL>
 			<PlayRequirement param="" reqID="11"/>
 			<PlayRequirement param="" reqID="1"/>
 		</Power>
+		<Texture>WOW_ACT_073_BlizzRT_D</Texture>
 	</Entity>
 	<Entity CardID="CS2_009e" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -1727,6 +1732,7 @@ Dobierz kartę.</plPL>
 			<enUS>Unlocked at Level 43.</enUS>
 		</Tag>
 		<Power definition="70d268ce-756c-49cf-9437-fb0dbceb0ac4"/>
+		<Texture>W14_a010_D</Texture>
 	</Entity>
 	<Entity CardID="CS2_011o" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -1797,7 +1803,7 @@ Dobierz kartę.</plPL>
 			<esES>Inflige $4 p. de daño a un enemigo y $1 p. de daño a todos los demás enemigos.</esES>
 			<esMX>Inflige $4 de daño a un enemigo y $1 de daño a todos los otros enemigos.</esMX>
 			<frFR>Inflige $4 |4(point,points) de dégâts à un adversaire et $1 |4(point,points) de dégâts à tous les autres adversaires.</frFR>
-			<itIT>Infligge $4 danni a un nemico e $1 danno a tutti gli altri nemici.</itIT>
+			<itIT>Infligge $4 danni a un nemico e $1 |4(danno,danni) a tutti gli altri nemici.</itIT>
 			<koKR>선택한 적 하나에게 피해를 $4 주고 다른 모든 적에게 피해를 $1 줍니다.</koKR>
 			<plPL>Zadaj $4 pkt. obrażeń wrogowi i $1 pkt. obrażeń wszystkim pozostałym wrogom.</plPL>
 			<ptBR>Cause $4 de dano a um inimigo e $1 de dano a todos os outros inimigos.</ptBR>
@@ -1818,7 +1824,7 @@ Dobierz kartę.</plPL>
 			<itIT>Se un orso si alza in piedi e allarga le zampe significa che vuole spazzarti via... o abbracciarti. In ogni caso è meglio scappare!</itIT>
 			<koKR>곰이 팔을 뒤로 젖히면 당신을 확 휘둘러치거나! ...꼭 안아주려는 겁니다.</koKR>
 			<plPL>Ulubiony cios zamachowców!</plPL>
-			<ptBR>Quando um urso se afasta e estende os braços ele está pronro para dar uma patada! ... ou um abraço.</ptBR>
+			<ptBR>Quando um urso se afasta e estende os braços ele está pronto para dar uma patada! ... ou um abraço.</ptBR>
 			<ruRU>Если вы видите медведя, который ревет и широко разводит лапы, не пугайтесь! Возможно, он не размахивается, чтобы ударить вас, а просто хочет сказать: «Привет!»</ruRU>
 			<zhCN>当一只熊向后仰身张开它的前臂时，他就要横扫！...或者拥抱你了。</zhCN>
 			<zhTW>當熊站起來張開雙臂的時候，小心，他即將要伸爪揮擊了!...不過當然，也有可能只是想要抱抱你而已。</zhTW>
@@ -1962,7 +1968,8 @@ Dobierz kartę.</plPL>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="1"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
 			<enUS>&lt;b&gt;Hero Power&lt;/b&gt;
- +1 Attack this turn.  +1 Armor.</enUS>
++1 Attack this turn.
++1 Armor.</enUS>
 			<deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt;
 +1 Angriff in diesem Zug.
 +1 Rüstung.</deDE>
@@ -1999,6 +2006,7 @@ Dobierz kartę.</plPL>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Power definition="5fe4dcd6-fdf6-4b95-88c5-a11437db155b"/>
+		<Texture>W2_203_D</Texture>
 	</Entity>
 	<Entity CardID="CS2_017o" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -2105,6 +2113,7 @@ Dobierz kartę.</plPL>
 			<PlayRequirement param="" reqID="11"/>
 			<PlayRequirement param="" reqID="1"/>
 		</Power>
+		<Texture>WoW_LEAD_015_D</Texture>
 	</Entity>
 	<Entity CardID="CS2_022e" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -2302,7 +2311,7 @@ Dobierz kartę.</plPL>
 			<esES>Inflige $1 p. de daño a todos los esbirros enemigos.</esES>
 			<esMX>Inflige $1 de daño a todos los esbirros enemigos.</esMX>
 			<frFR>Inflige $1 |4(point,points) de dégâts à tous les serviteurs adverses.</frFR>
-			<itIT>Infligge $1 danno a tutti i servitori nemici.</itIT>
+			<itIT>Infligge $1 |4(danno,danni) a tutti i servitori nemici.</itIT>
 			<koKR>모든 적 하수인에게 피해를 $1 줍니다.</koKR>
 			<plPL>Zadaj $1 pkt. obrażeń wszystkim wrogim stronnikom.</plPL>
 			<ptBR>Cause $1 de dano a todos os lacaios inimigos.</ptBR>
@@ -2523,7 +2532,7 @@ Dobierz kartę.</plPL>
 			<plPL>Zamieć, jak co roku, zaskoczyła gierowców.</plPL>
 			<ptBR>Este feitiço pode ser bastente Divertido.</ptBR>
 			<ruRU>Осторожно. Говорят, это эпическое заклинание отвлекает детей от школы.</ruRU>
-			<zhCN>这张牌象征了很多强大而美好的东西。尤其是它的名字。</zhCN>
+			<zhCN>这不只是一张卡牌，更是一张招牌。</zhCN>
 			<zhTW>降下的暴雪有很強的娛樂作用。</zhTW>
 		</Tag>
 		<Tag enumID="342" name="ArtistName" type="String">Chris Seaman</Tag>
@@ -2628,7 +2637,7 @@ Dobierz kartę.</plPL>
 			<frFR>&lt;b&gt;Gèle&lt;/b&gt; un personnage. S’il est déjà &lt;b&gt;gelé&lt;/b&gt;, inflige $4 |4(point,points) de dégâts à la place.</frFR>
 			<itIT>&lt;b&gt;Congela&lt;/b&gt; un personaggio. Se è già &lt;b&gt;Congelato&lt;/b&gt;, infligge $4 danni.</itIT>
 			<koKR>캐릭터 하나를 &lt;b&gt;빙결&lt;/b&gt; 상태로 만듭니다. 이미 &lt;b&gt;빙결&lt;/b&gt; 상태라면 피해를 $4 줍니다.</koKR>
-			<plPL>&lt;b&gt;Zamroź&lt;/b&gt; postać. Jeśli była już &lt;b&gt;Zamrożona&lt;/b&gt;, zadaj zamiast tego $4 pkt. obrażeń.</plPL>
+			<plPL>&lt;b&gt;Zamroź&lt;/b&gt; postać. Jeśli jest już &lt;b&gt;Zamrożona&lt;/b&gt;, zadaj zamiast tego $4 pkt. obrażeń.</plPL>
 			<ptBR>&lt;b&gt;Congele&lt;/b&gt; um personagem. Se ele já estiver &lt;b&gt;Congelado&lt;/b&gt;, cause $4 de dano.</ptBR>
 			<ruRU>&lt;b&gt;Замораживает&lt;/b&gt; выбранного персонажа. Если персонаж уже &lt;b&gt;заморожен&lt;/b&gt;, наносит ему $4 ед. урона.</ruRU>
 			<zhCN>使一个角色&lt;b&gt;冻结&lt;/b&gt;，如果它已经被&lt;b&gt;冻结&lt;/b&gt;，则改为对其造成$4点伤害。</zhCN>
@@ -2896,7 +2905,7 @@ Infligge 1 danno.</itIT>
 			<esES>Inflige $1 p. de daño a un personaje enemigo y lo &lt;b&gt;congela&lt;/b&gt;.</esES>
 			<esMX>Inflige $1 de daño a un personaje enemigo y lo &lt;b&gt;Congela&lt;/b&gt;.</esMX>
 			<frFR>Inflige $1 |4(point,points) de dégâts à un personnage adverse, et le &lt;b&gt;gèle&lt;/b&gt;.</frFR>
-			<itIT>Infligge $1 danno a un personaggio nemico e lo &lt;b&gt;Congela&lt;/b&gt;.</itIT>
+			<itIT>Infligge $1 |4(danno,danni) a un personaggio nemico e lo &lt;b&gt;Congela&lt;/b&gt;.</itIT>
 			<koKR>적 캐릭터 하나에게 피해를 $1 주고 &lt;b&gt;빙결&lt;/b&gt; 상태로 만듭니다.</koKR>
 			<plPL>Zadaj $1 pkt. obrażeń wrogiej postaci i ją &lt;b&gt;Zamroź&lt;/b&gt;.</plPL>
 			<ptBR>Cause $1 de dano a um personagem inimigo e &lt;b&gt;Congele&lt;/b&gt;-o.</ptBR>
@@ -3167,6 +3176,7 @@ Infligge 1 danno.</itIT>
 			<PlayRequirement param="" reqID="11"/>
 			<PlayRequirement param="" reqID="1"/>
 		</Power>
+		<Texture>WOW_TRINK_015_D</Texture>
 	</Entity>
 	<Entity CardID="CS2_041e" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -3350,6 +3360,7 @@ Infligge 1 danno.</itIT>
 			<PlayRequirement param="" reqID="11"/>
 			<PlayRequirement param="" reqID="2"/>
 		</Power>
+		<Texture>W19_a255_D</Texture>
 	</Entity>
 	<Entity CardID="CS2_045e" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -3451,6 +3462,7 @@ Infligge 1 danno.</itIT>
 			<enUS>Unlocked at Level 40.</enUS>
 		</Tag>
 		<Power definition="f14b222a-94a7-4690-8a63-2d93b0050007"/>
+		<Texture>W17_a120_D 1</Texture>
 	</Entity>
 	<Entity CardID="CS2_046e" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -3722,6 +3734,7 @@ Evoca un totem casuale.</itIT>
 		</Tag>
 		<Tag enumID="342" name="ArtistName" type="String">Lars Grant-West</Tag>
 		<Power definition="8e067525-a507-46cd-ba14-f51f55d96303"/>
+		<Texture>W13_275_D</Texture>
 	</Entity>
 	<Entity CardID="CS2_053e" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -3867,7 +3880,7 @@ Pesca una carta e subisce 2 danni.</itIT>
 			<plPL>To pocisk. Stworzony z cienia. Nic więcej wiedzieć nie trzeba.</plPL>
 			<ptBR>É uma Seta. É feita de Sombras. O que mais você precisa saber?</ptBR>
 			<ruRU>Стрела. Тьмы. Больше вам ничего знать не нужно.</ruRU>
-			<zhCN>这是支箭矢，由暗影交织而成。你还想知道什么？</zhCN>
+			<zhCN>黑暗中的威胁 —— 明枪易躲，暗箭难防。</zhCN>
 			<zhTW>這是箭。這是暗影組成的。你還想知道什麼啊?</zhTW>
 		</Tag>
 		<Tag enumID="365" name="HowToGetThisGoldCard" type="LocString">
@@ -3914,9 +3927,9 @@ Pesca una carta e subisce 2 danni.</itIT>
 			<itIT>&lt;b&gt;Furtività&lt;/b&gt;. Alla fine del tuo turno, +1 Salute a un altro tuo servitore casuale.</itIT>
 			<koKR>&lt;b&gt;은신&lt;/b&gt;. 내 턴이 끝날 때, 다른 무작위 아군 하수인에게 생명력을 +1 부여합니다.</koKR>
 			<plPL>&lt;b&gt;Ukrycie&lt;/b&gt;. Na koniec swojej tury daj innemu, losowemu przyjaznemu stronnikowi +1 do zdrowia.</plPL>
-			<ptBR>&lt;b&gt;Furtivo&lt;/b&gt;. No fim do seu turno, conceda +1 de Vida a outro lacaio aliado aleatório.</ptBR>
+			<ptBR>&lt;b&gt;Furtividade&lt;/b&gt;. No fim do seu turno, conceda +1 de Vida a outro lacaio aliado aleatório.</ptBR>
 			<ruRU>&lt;b&gt;Маскировка&lt;/b&gt;. В конце вашего хода другое ваше случайное существо получает +1 к здоровью.</ruRU>
-			<zhCN>&lt;b&gt;潜行&lt;/b&gt;，在你的回合结束时，随机使一个其他友方随从获得+1生命值。</zhCN>
+			<zhCN>&lt;b&gt;潜行&lt;/b&gt;，在你的回合结束时，使另一个随机友方随从获得+1生命值。</zhCN>
 			<zhTW>&lt;b&gt;潛行&lt;/b&gt;。你的回合結束時，賦予另一個隨機友方手下+1生命值</zhTW>
 		</Tag>
 		<Tag enumID="200" name="Race" type="Race" value="15"/>
@@ -3949,6 +3962,7 @@ Pesca una carta e subisce 2 danni.</itIT>
 		<Power definition="9fdc365e-edd4-4d6d-842e-315e5c632b1b"/>
 		<Power definition="8fb4fc8f-256f-4224-926e-645f1610e345"/>
 		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False"/>
+		<Texture>W5_015_D</Texture>
 	</Entity>
 	<Entity CardID="CS2_059o" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -3980,7 +3994,7 @@ Pesca una carta e subisce 2 danni.</itIT>
 			<ptBR>Vida aumentada.</ptBR>
 			<ruRU>Здоровье увеличено.</ruRU>
 			<zhCN>生命值增加。</zhCN>
-			<zhTW>生命值提高。</zhTW>
+			<zhTW>生命值提高</zhTW>
 		</Tag>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
@@ -4026,7 +4040,7 @@ Pesca una carta e subisce 2 danni.</itIT>
 		</Tag>
 		<Tag enumID="268" name="DevState" type="DevState" value="2"/>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
-		<Tag enumID="342" name="ArtistName" type="String">Don Hazeltine</Tag>
+		<Tag enumID="342" name="ArtistName" type="String">Alex Horley Orlandelli</Tag>
 		<Tag enumID="351" name="FlavorText" type="LocString">
 			<enUS>&quot;I've just sucked one year of your life away.&quot;</enUS>
 			<deDE>„Ich habe Euch gerade ein Jahr Eures Lebens ausgesaugt.“</deDE>
@@ -4274,7 +4288,7 @@ Pesca una carta e subisce 2 danni.</itIT>
 			<itIT>&quot;INFERNOOOOOOOOOO!&quot; - Jaraxxus, Signore Eredar della Legione Infuocata</itIT>
 			<koKR>&quot;지옥풀을 받아라!&quot; - 불타는 군단의 에레다르 군주, 자락서스</koKR>
 			<plPL>„INFERNOOOOO!” - cytat z Jaraxxusa, Lorda Płonącego Legionu</plPL>
-			<ptBR>&quot;INFERNOOOOOOOOOO!&quot; - Jaraxxus, lorde Eredar da Legião Ardente!</ptBR>
+			<ptBR>&quot;INFERNOOOOOOOOOO!&quot; - Jaraxxus, lorde Eredar da Legião Ardente</ptBR>
 			<ruRU>«ПЕКЛО!» – Джараксус, эредарский повелитель Пылающего Легиона.</ruRU>
 			<zhCN>“地狱火！”——加拉克苏斯，燃烧军团的艾瑞达之王</zhCN>
 			<zhTW>「煉獄火!!」-賈拉克瑟斯，燃燒軍團的埃雷達爾領主</zhTW>
@@ -4330,7 +4344,7 @@ Pesca una carta e subisce 2 danni.</itIT>
 		</Tag>
 		<Tag enumID="268" name="DevState" type="DevState" value="2"/>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
-		<Tag enumID="342" name="ArtistName" type="String">Robb Shoberg</Tag>
+		<Tag enumID="342" name="ArtistName" type="String">Alex Horley Orlandelli</Tag>
 		<Tag enumID="365" name="HowToGetThisGoldCard" type="LocString">
 			<enUS>Unlocked at Level 36.</enUS>
 		</Tag>
@@ -4400,7 +4414,7 @@ Pesca una carta e subisce 2 danni.</itIT>
 			<deDE>Es ist immer wieder verblüffend, wie oft Euer Gegner sich umdreht, wenn Ihr „Schau, da drüben!“ ruft.</deDE>
 			<esES>Los amigos de verdad te apuñalan de frente.</esES>
 			<esMX>Es sorprendente lo bien que funciona gritar &quot;¡MIRA ESO!&quot; cuando quieres distraer a tu adversario.</esMX>
-			<frFR>Crier « Derrière toi ! » permet souvent de faire se retourner votre adversaire.</frFR>
+			<frFR>Attention, derrière toi, c’est affreux !</frFR>
 			<itIT>È interessante vedere quanto spesso gridando &quot;Guarda là!&quot; induca anche i nemici a girarsi.</itIT>
 			<koKR>사실 이 기술은 &quot;저게 뭐지?!&quot; 라는 말을 듣고 등을 보인 적에게 사용하는 기술입니다.</koKR>
 			<plPL>To zabawne, jak często tekst „Patrz, trzygłowa małpa” sprawia, że przeciwnik się odwraca.</plPL>
@@ -4520,6 +4534,7 @@ Pesca una carta e subisce 2 danni.</itIT>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="1"/>
 		<Power definition="69a2535f-a8d2-4a99-92dd-c7875a8ee655"/>
+		<Texture>W13_270_D</Texture>
 	</Entity>
 	<Entity CardID="CS2_073e2" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -4556,6 +4571,7 @@ Pesca una carta e subisce 2 danni.</itIT>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="1"/>
 		<Power definition="2c24bd8a-cc90-43c9-aa85-5d380a00d37a"/>
+		<Texture>W13_270_D</Texture>
 	</Entity>
 	<Entity CardID="CS2_074" version="2">
 		<MasterPower>f51fe4b0-1f7b-45dc-834e-3b4beeaf3109</MasterPower>
@@ -4831,7 +4847,7 @@ Pesca una carta e subisce 2 danni.</itIT>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
-		<Tag enumID="342" name="ArtistName" type="String">Tom Fleming</Tag>
+		<Tag enumID="342" name="ArtistName" type="String">James Zhang</Tag>
 		<Tag enumID="364" name="HowToGetThisCard" type="LocString">
 			<enUS>Unlocked at Level 10.</enUS>
 		</Tag>
@@ -5022,6 +5038,7 @@ Equipaggia un Pugnale 1/2.</itIT>
 		<Tag enumID="338" name="OneTurnEffect" type="Bool" value="1"/>
 		<Power definition="3a1a0169-19f7-4065-8d35-58b5f1c35207"/>
 		<Power definition="beed9198-8ffc-4736-b0ec-696d67d92afb"/>
+		<Texture>W10_A163_D</Texture>
 	</Entity>
 	<Entity CardID="CS2_084" version="2">
 		<MasterPower>a791d666-f98d-43c4-812a-5da475c31d01</MasterPower>
@@ -5125,6 +5142,7 @@ Equipaggia un Pugnale 1/2.</itIT>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="2"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="2"/>
 		<Power definition="c5bcb972-3b4d-4050-81b9-fff433db99fe"/>
+		<Texture>W2_221_D</Texture>
 	</Entity>
 	<Entity CardID="CS2_087" version="2">
 		<MasterPower>da3b501a-3f94-42a3-bfa3-ab34d2ab2b7b</MasterPower>
@@ -5179,7 +5197,7 @@ Equipaggia un Pugnale 1/2.</itIT>
 			<plPL>Inspiracja dla słynnego przeboju: „Daj mi tę moc, tę jedną moc!”</plPL>
 			<ptBR>&quot;Tipo, vai ser uma BÊNÇÃO você PODER sumir da minha frente.&quot; - Sá Poboi, com um bônus aplicado recentemente.</ptBR>
 			<ruRU>«Благословляю тебя бежать в страхе!» – сказал Тодд Макл.</ruRU>
-			<zhCN>“沐浴于力量之中，我无人可挡。”——刚升职的托德·玛寇</zhCN>
+			<zhCN>没有善，没有恶，也没有圣光。只有——力量！</zhCN>
 			<zhTW>「我現在有讓你閃一邊的&lt;b&gt;力量&lt;/b&gt;了。」-剛被祝福加持的蛤蟆邁克如是說。</zhTW>
 		</Tag>
 		<Tag enumID="365" name="HowToGetThisGoldCard" type="LocString">
@@ -5231,6 +5249,7 @@ Equipaggia un Pugnale 1/2.</itIT>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="1"/>
 		<Power definition="d0416f74-3497-42cf-ab5a-7b99bdbbefc5"/>
+		<Texture>W16_a053_D</Texture>
 	</Entity>
 	<Entity CardID="CS2_088" version="2">
 		<MasterPower>8783150c-66a2-4f10-ba7d-02e4bfd85763</MasterPower>
@@ -5460,7 +5479,7 @@ Equipaggia un Pugnale 1/2.</itIT>
 			<koKR>여태까지 암살당한 왕이 몇 명인데, 정말 그들의 축복을 받고 싶으세요?</koKR>
 			<plPL>Biorąc pod uwagę liczbę królów, którzy zostali skrytobójczo zabici, czy na pewno pragniesz ich daru?</plPL>
 			<ptBR>Levando em consideração o grande número de reis assassinados ultimamente, tem certeza que você quer esse bônus?</ptBR>
-			<ruRU>Учитывая количество убитых королей, вы точно уверены, что вам нужно их благословение?</ruRU>
+			<ruRU>Учитывая количество убитых королей, вы точно уверены, что вам нужно их участие?</ruRU>
 			<zhCN>你知道世界上有多少所谓的“王者”被暗杀了吗？你确定还想要王者祝福吗？</zhCN>
 			<zhTW>歷史上被暗殺的國王這麼多，你確定你還要他們的祝福?</zhTW>
 		</Tag>
@@ -5511,6 +5530,7 @@ Equipaggia un Pugnale 1/2.</itIT>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="1"/>
 		<Power definition="4e94cdde-a823-4816-ae57-b56a93a0c6bf"/>
+		<Texture>W9_A075_D</Texture>
 	</Entity>
 	<Entity CardID="CS2_093" version="2">
 		<MasterPower>3c4d4f5f-4038-4afd-b3d4-028dfeb4dbbd</MasterPower>
@@ -5628,7 +5648,7 @@ Equipaggia un Pugnale 1/2.</itIT>
 			<itIT>Un buon Paladino ha molti attrezzi a sua disposizione: Martello dell'Ira, Pinze della Vendetta, Incudine della Giustizia...</itIT>
 			<koKR>훌륭한 성기사는 다양한 도구를 소지하고 다닙니다. 천벌의 망치, 복수의 집게, 정의의 쇠톱 등등...</koKR>
 			<plPL>Dobry paladyn ma wiele narzędzi. Młot Gniewu. Szczypce Zemsty. Piła Sprawiedliwości i tym podobne.</plPL>
-			<ptBR>Um bom paladino têm muitas ferramentas. Martelo da Ira, Alicate da Vingança, Serrote da Justiça, etc.</ptBR>
+			<ptBR>Um bom paladino tem muitas ferramentas. Martelo da Ira, Alicate da Vingança, Serrote da Justiça, etc.</ptBR>
 			<ruRU>У хорошего паладина должно быть много инструментов: Молот Гнева, Плоскогубцы Возмездия, Пила Справедливости...</ruRU>
 			<zhCN>一个称职的圣骑士身上会携带很多工具。愤怒之锤、复仇之钳、正义之锯，等等。</zhCN>
 			<zhTW>好的聖騎士會準備很多工具，像是憤怒之錘、復仇之鉗、正義之鋸等等。</zhTW>
@@ -5793,7 +5813,7 @@ Evoca una Recluta Mano d'Argento 1/1.</itIT>
 			<enUS>Armor Up!</enUS>
 			<deDE>Aufrüsten!</deDE>
 			<esES>Blindaje</esES>
-			<esMX>¡Más Armadura!</esMX>
+			<esMX>¡Más armadura!</esMX>
 			<frFR>Gain d’armure !</frFR>
 			<itIT>Potenziamento Armatura</itIT>
 			<koKR>방어도 증가!</koKR>
@@ -5870,7 +5890,7 @@ Ottieni 2 Armatura.</itIT>
 			<itIT>Fornisce &lt;b&gt;Carica&lt;/b&gt; e +2 Attacco a un tuo servitore.</itIT>
 			<koKR>아군 하수인 하나에게 공격력 +2와 &lt;b&gt;돌진&lt;/b&gt;을 부여합니다.</koKR>
 			<plPL>Daj przyjaznemu stronnikowi +2 do ataku i &lt;b&gt;Szarżę&lt;/b&gt;.</plPL>
-			<ptBR>Conceda +2 de Ataque e &lt;b&gt;Investida&lt;/b&gt; a um lacaio aliado neste turno.</ptBR>
+			<ptBR>Conceda +2 de Ataque e &lt;b&gt;Investida&lt;/b&gt; a um lacaio aliado.</ptBR>
 			<ruRU>Ваше выбранное существо получает +2 к атаке и способность &lt;b&gt;«Рывок»&lt;/b&gt;.</ruRU>
 			<zhCN>使一个友方随从获得+2攻击力和&lt;b&gt;冲锋&lt;/b&gt;。</zhCN>
 			<zhTW>賦予一個友方手下+2攻擊力及&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>
@@ -5892,7 +5912,7 @@ Ottieni 2 Armatura.</itIT>
 			<deDE>„He, Leute! Macht mal etwas langsamer!“ – Überraschter Diener</deDE>
 			<esES>La táctica favorita de los guerreros en las mazmorras.</esES>
 			<esMX>&quot;¡Ey, vamos! ¡Cálmense un poco!&quot; —especie de esbirro no acostumbrado a la guerra</esMX>
-			<frFR>« Soyez pas vache, attendez-moi ! » - De toute évidence, pas un serviteur de guerrier</frFR>
+			<frFR>« Soyez pas vache, attendez-moi ! »</frFR>
 			<itIT>&quot;Ragazzi! Ragazzi! Rallentate!&quot; - Un servitore non Guerriero</itIT>
 			<koKR>다음 턴까지 안전하리라는 상대의 믿음을 박살냅니다.</koKR>
 			<plPL>Szarżować każdy może, jeden lepiej, inny trochę gorzej.</plPL>
@@ -5949,6 +5969,7 @@ Ottieni 2 Armatura.</itIT>
 		<Power definition="94c3ac64-5c36-4b06-98ce-a13236fdd049"/>
 		<Power definition="70fd9a6e-d8c6-4781-971a-38e72f632c90"/>
 		<Power definition="7306bd8e-10d2-45a6-8070-aab9ef7e1c99"/>
+		<Texture>WOW_ACT_055_D</Texture>
 	</Entity>
 	<Entity CardID="CS2_103e2" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -5985,6 +6006,7 @@ Ottieni 2 Armatura.</itIT>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Power definition="33a66fc0-71c2-4271-b1c8-01db99167a69"/>
+		<Texture>WOW_ACT_055_D</Texture>
 	</Entity>
 	<Entity CardID="CS2_104" version="2">
 		<MasterPower>80e88a5d-1729-42a1-8b7f-d51cf95d3b5e</MasterPower>
@@ -6146,6 +6168,7 @@ Ottieni 2 Armatura.</itIT>
 			<zhTW>如果你真的是英雄，應該「每一擊」都是英勇打擊才對。</zhTW>
 		</Tag>
 		<Power definition="9578e000-8664-436c-b932-b22650d2bf9d"/>
+		<Texture>W11_045_D</Texture>
 	</Entity>
 	<Entity CardID="CS2_105e" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -6182,6 +6205,7 @@ Ottieni 2 Armatura.</itIT>
 		<Tag enumID="338" name="OneTurnEffect" type="Bool" value="1"/>
 		<Power definition="ebd0e2db-9128-486b-b6a2-fa62a229e20b"/>
 		<Power definition="832f5deb-00f4-4e10-9a87-298402bb79f3"/>
+		<Texture>W11_045_D</Texture>
 	</Entity>
 	<Entity CardID="CS2_106" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -6555,7 +6579,7 @@ Ottieni 2 Armatura.</itIT>
 		<Tag enumID="47" name="Atk" type="Int" value="2"/>
 		<Tag enumID="45" name="Health" type="Int" value="7"/>
 		<Tag enumID="200" name="Race" type="Race" value="20"/>
-		<Tag enumID="342" name="ArtistName" type="String">Daren Bader</Tag>
+		<Tag enumID="342" name="ArtistName" type="String">Ittoku Seta</Tag>
 		<Tag enumID="365" name="HowToGetThisGoldCard" type="LocString">
 			<enUS>Unlocked at Druid Level 51.</enUS>
 		</Tag>
@@ -6779,6 +6803,7 @@ Ottieni 2 Armatura.</itIT>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Power definition="ff43a337-8acf-4bf6-a593-dd670e01f2cf"/>
 		<Power definition="ab600413-07b4-4bff-aec8-1b74b191763d"/>
+		<Texture>WOW_BLZ_003_D</Texture>
 	</Entity>
 	<Entity CardID="CS2_124" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -6852,7 +6877,7 @@ Ottieni 2 Armatura.</itIT>
 			<koKR>무쇠가죽 불곰</koKR>
 			<plPL>Grizli żelaznoskóry</plPL>
 			<ptBR>Veloférreo Cinzento</ptBR>
-			<ruRU>Гриззли-сталемех</ruRU>
+			<ruRU>Гризли-сталемех</ruRU>
 			<zhCN>铁鬃灰熊</zhCN>
 			<zhTW>鐵鬃灰熊</zhTW>
 		</Tag>
@@ -6943,7 +6968,7 @@ Ottieni 2 Armatura.</itIT>
 		<Tag enumID="268" name="DevState" type="DevState" value="2"/>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="200" name="Race" type="Race" value="20"/>
-		<Tag enumID="342" name="ArtistName" type="String">Ittoku Seta</Tag>
+		<Tag enumID="342" name="ArtistName" type="String">Daren Bader</Tag>
 		<Tag enumID="351" name="FlavorText" type="LocString">
 			<enUS>He likes to act like he's in charge, but the silverback matriarch actually runs things.</enUS>
 			<deDE>Er tut so, als hätte er etwas zu sagen, aber eigentlich hat die Silberrückenmatriarchin die sprichwörtlichen Hosen an.</deDE>
@@ -7196,7 +7221,7 @@ Ottieni 2 Armatura.</itIT>
 			<esES>Tiene &lt;b&gt;Cargar&lt;/b&gt; mientras tengas un arma equipada.</esES>
 			<esMX>Tiene &lt;b&gt;Carga&lt;/b&gt; mientras tengas un arma equipada.</esMX>
 			<frFR>A &lt;b&gt;Charge&lt;/b&gt; tant que vous êtes équipé d’une arme.</frFR>
-			<itIT>Il Pirata Tagliagole ha &lt;b&gt;Carica&lt;/b&gt; fintanto che hai un'arma equipaggiata.</itIT>
+			<itIT>Ha &lt;b&gt;Carica&lt;/b&gt; fintanto che hai un'arma equipaggiata.</itIT>
 			<koKR>내 영웅이 무기를 장착하고 있으면 &lt;b&gt;돌진&lt;/b&gt;을 얻습니다.</koKR>
 			<plPL>Posiada &lt;b&gt;Szarżę&lt;/b&gt;, kiedy masz broń na wyposażeniu.</plPL>
 			<ptBR>Tem &lt;b&gt;Investida&lt;/b&gt; enquanto você tiver uma arma equipada.</ptBR>
@@ -8099,6 +8124,7 @@ Ottieni 2 Armatura.</itIT>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="1"/>
 		<Power definition="86972691-f1a1-4b34-8686-18a340360f26"/>
+		<Texture>blademaster_D</Texture>
 	</Entity>
 	<Entity CardID="CS2_182" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -8363,9 +8389,9 @@ Ottieni 2 Armatura.</itIT>
 		</Tag>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="1"/>
-		<Power definition="e144bfc2-e52f-403b-9171-4c7e895127e7"/>
-		<Power definition="cd3664ec-11d4-41c4-9527-2eb5e756401e"/>
-		<TriggeredPowerHistoryInfo effectIndex="-1" showInHistory="False"/>
+		<Tag enumID="338" name="OneTurnEffect" type="Bool" value="1"/>
+		<Power definition="23c9fd14-8ce4-4236-bb7d-727af40c2a00"/>
+		<Power definition="01dd6513-1ece-4a63-901b-2127be08737d"/>
 		<Texture>W2_326_D</Texture>
 	</Entity>
 	<Entity CardID="CS2_189" version="2">
@@ -8701,7 +8727,7 @@ Ottieni 2 Armatura.</itIT>
 			<esES>&lt;b&gt;Silencia&lt;/b&gt; a un esbirro.</esES>
 			<esMX>&lt;b&gt;Silencia&lt;/b&gt; a un esbirro.</esMX>
 			<frFR>Réduit au &lt;b&gt;Silence&lt;/b&gt; un serviteur.</frFR>
-			<itIT>Causa &lt;b&gt;Silenzio&lt;/b&gt; a un servitore.</itIT>
+			<itIT>&lt;b&gt;Silenzia&lt;/b&gt; un servitore.</itIT>
 			<koKR>하수인 하나 &lt;b&gt;침묵&lt;/b&gt;시키기</koKR>
 			<plPL>Wycisz stronnika.</plPL>
 			<ptBR>&lt;b&gt;Silencie&lt;/b&gt; um lacaio.</ptBR>
@@ -8891,6 +8917,7 @@ Ottieni 2 Armatura.</itIT>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Power definition="66c07817-0c85-4110-8a02-2c724f3d7811"/>
+		<Texture>W2_319_D</Texture>
 	</Entity>
 	<Entity CardID="CS2_222" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -8991,6 +9018,7 @@ Ottieni 2 Armatura.</itIT>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Power definition="7725eeb1-e64e-4268-be4e-4769c51d7c28"/>
+		<Texture>W13_007_D</Texture>
 	</Entity>
 	<Entity CardID="CS2_226" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -9091,6 +9119,7 @@ Ottieni 2 Armatura.</itIT>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="1"/>
 		<Power definition="4f170e6a-b1c5-40a4-a079-7bbf5a5e2408"/>
+		<Texture>W11_084(EA)_D</Texture>
 	</Entity>
 	<Entity CardID="CS2_226o" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -9450,7 +9479,7 @@ Ottieni 2 Armatura.</itIT>
 			<frFR>Vous piochez une carte chaque fois qu’un serviteur est soigné.</frFR>
 			<itIT>Quando un servitore danneggiato viene curato, pesca una carta.</itIT>
 			<koKR>하수인이 하나 치유될 때마다 카드를 1장 뽑습니다.</koKR>
-			<plPL>Za każdym razem, gdy stronnik zostanie uleczony, dobierz kartę.</plPL>
+			<plPL>Za każdym razem gdy stronnik zostanie uleczony, dobierz kartę.</plPL>
 			<ptBR>Sempre que um lacaio for curado, compre um card.</ptBR>
 			<ruRU>Когда любое существо восстанавливает здоровье, вы берете карту.</ruRU>
 			<zhCN>每当一个随从获得治疗时，抽一张牌。</zhCN>
@@ -9586,6 +9615,7 @@ Ottieni 2 Armatura.</itIT>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="1"/>
 		<Power definition="a0145a49-c8c4-449e-ae1f-7b973c84cd3b"/>
+		<Texture>W6_073_D</Texture>
 	</Entity>
 	<Entity CardID="CS2_237" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -9940,6 +9970,7 @@ Ottieni 2 Armatura.</itIT>
 			<PlayRequirement param="" reqID="11"/>
 			<PlayRequirement param="" reqID="1"/>
 		</Power>
+		<Texture>W16_a062_D</Texture>
 	</Entity>
 	<Entity CardID="DREAM_05e" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -9967,16 +9998,18 @@ Ottieni 2 Armatura.</itIT>
 			<itIT>+5/+5, però verrà presto distrutto.</itIT>
 			<koKR>+5/+5, 하지만 곧 죽음</koKR>
 			<plPL>Ten stronnik ma +5/+5, ale wkrótce zostanie zniszczony.</plPL>
-			<ptBR>Este lacaio tem com +5/+5, mas será destruído em breve.</ptBR>
+			<ptBR>Este lacaio tem +5/+5, mas será destruído em breve.</ptBR>
 			<ruRU>Это существо получило +5/+5, но скоро будет уничтожено.</ruRU>
 			<zhCN>该随从获得+5/+5，但它马上会被消灭。</zhCN>
 			<zhTW>這個手下擁有+5/+5，但很快就會被摧毀</zhTW>
 		</Tag>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="2"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="2"/>
+		<Tag enumID="32" name="TriggerVisual" type="Bool" value="1"/>
 		<Power definition="67714524-7343-414f-8398-c6520ade3c4b"/>
 		<Power definition="bb91025b-d3d4-4c58-8e33-2fdccb70e42e"/>
-		<TriggeredPowerHistoryInfo effectIndex="-1" showInHistory="False"/>
+		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False"/>
+		<Texture>W16_a062_D</Texture>
 	</Entity>
 	<Entity CardID="DS1_055" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -10163,6 +10196,7 @@ Ottieni 2 Armatura.</itIT>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="1"/>
 		<Power definition="f41604d6-701b-42cf-a3b2-1ef04aa1990e"/>
+		<Texture>W13_196_D</Texture>
 	</Entity>
 	<Entity CardID="DS1_175" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -10194,7 +10228,7 @@ Ottieni 2 Armatura.</itIT>
 			<esES>Tus demás bestias tienen +1 p. de ataque.</esES>
 			<esMX>Tus otras Bestias tienen +1 de Ataque.</esMX>
 			<frFR>Vos autres Bêtes ont +1 ATQ.</frFR>
-			<itIT>Le tue altre Bestie hanno +1 Attacco.</itIT>
+			<itIT>Le altre tue Bestie hanno +1 Attacco.</itIT>
 			<koKR>나의 다른 야수들이 공격력을 +1 얻습니다.</koKR>
 			<plPL>Twoje pozostałe Bestie mają +1 do ataku.</plPL>
 			<ptBR>Suas outras Feras têm +1 de Ataque.</ptBR>
@@ -10266,6 +10300,7 @@ Ottieni 2 Armatura.</itIT>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Power definition="c63d38ba-e97e-44d1-b120-c4d1adc97648"/>
+		<Texture>W4_165_D</Texture>
 	</Entity>
 	<Entity CardID="DS1_178" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -10332,6 +10367,7 @@ Ottieni 2 Armatura.</itIT>
 		</Tag>
 		<ReferencedTag enumID="197" name="Charge" type="Bool" value="1"/>
 		<Power definition="ae2ac717-394f-4b7e-a5ff-c9653bda830a"/>
+		<Texture>W12_A229_D</Texture>
 	</Entity>
 	<Entity CardID="DS1_178e" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -10753,7 +10789,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<ruRU>&lt;b&gt;Сила героя&lt;/b&gt;
  Наносит 2 ед. урона герою противника.</ruRU>
 			<zhCN>&lt;b&gt;英雄技能&lt;/b&gt;
- 对敌方英雄造成2点伤害。</zhCN>
+对敌方英雄造成2点伤害。</zhCN>
 			<zhTW>&lt;b&gt;英雄能力&lt;/b&gt;
 對敵方英雄造成2點傷害</zhTW>
 		</Tag>
@@ -10852,6 +10888,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="1"/>
 		<Power definition="d49b18b7-7b2c-421d-bde3-b653a98a4573"/>
+		<Texture>W4_285_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_002" version="2">
 		<MasterPower>9c704757-1b1a-423e-86a3-ec023aa78b81</MasterPower>
@@ -10988,19 +11025,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 		</Tag>
 		<Tag enumID="32" name="TriggerVisual" type="Bool" value="1"/>
 		<Power definition="b16bb043-9af3-481d-895f-cd92b3de513f"/>
-		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True" type="LocString">
-			<deDE>Die Junge Priesterin verzaubert einen zufälligen befreundeten Diener mit +2 Leben.</deDE>
-			<esES>La sacerdotisa joven encanta a un esbirro amistoso aleatorio con +2 p. de salud.</esES>
-			<esMX>La Sacerdotisa joven encanta a un esbirro aliado aleatorio con +2 de Salud.</esMX>
-			<frFR>La jeune prêtresse enchante un serviteur allié aléatoire avec +2 PV.</frFR>
-			<itIT>La Giovane Sacerdotessa ha fornito +2 Salute a un tuo servitore casuale.</itIT>
-			<koKR>젊은 여사제가 무작위 아군 하수인 하나에게 생명력을 +2 부여</koKR>
-			<plPL>Nowicjuszka wzmacnia losowego przyjaznego stronnika, dając mu +2 do zdrowia.</plPL>
-			<ptBR>Sacerdotisa Jovem encanta um lacaio aliado aleatório com +2 de Vida.</ptBR>
-			<ruRU>Другое ваше существо получает +2 к здоровью от &lt;i&gt;Молодой жрицы&lt;/i&gt;.</ruRU>
-			<zhCN>年轻的女祭司使一个随机友方随从获得+1生命值。</zhCN>
-			<zhTW>年輕的女牧師會替隨機一個友方手下+2生命值。</zhTW>
-		</TriggeredPowerHistoryInfo>
+		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True"/>
 		<Texture>W7_133_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_004e" version="2">
@@ -11045,8 +11070,8 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<enUS>Big Game Hunter</enUS>
 			<deDE>Großwildjäger</deDE>
 			<esES>Cazador de fieras</esES>
-			<esMX>Caza mayor</esMX>
-			<frFR>La chasse au gros gibier</frFR>
+			<esMX>Cazador mayor</esMX>
+			<frFR>Chasseur de gros gibier</frFR>
 			<itIT>Esperto di Caccia</itIT>
 			<koKR>나 이런 사냥꾼이야</koKR>
 			<plPL>Łowca grubego zwierza</plPL>
@@ -11170,19 +11195,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 		</Tag>
 		<Tag enumID="32" name="TriggerVisual" type="Bool" value="1"/>
 		<Power definition="e1c57125-ea5f-43f1-8d9a-cbdf5c894e38"/>
-		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True" type="LocString">
-			<deDE>Der Alarm-o-Bot hat einen Diener auf der Hand seines Besitzers alarmiert und ihn auf das Schlachtfeld geholt!</deDE>
-			<esES>¡La Roboalarma ha alertado a un esbirro de la mano de su dueño y lo ha sacado al campo de batalla!</esES>
-			<esMX>¡El Roboalarma alertó a un esbirro de la mano de su propietario y lo trajo al campo de batalla!</esMX>
-			<frFR>Le robot d’alarme a alerté un serviteur dans la main de son propriétaire et l’a placé sur le champ de bataille !</frFR>
-			<itIT>L'Allarm-Bot ha allertato un servitore nella mano di chi lo controlla e lo ha richiamato sul campo di battaglia!</itIT>
-			<koKR>노움 자동경보기가 주인의 손에 있는 하수인을 놀라게 해 전장으로 내보냄!</koKR>
-			<plPL>Alarmobot przyzwał stronnika z ręki właściciela na pole bitwy!</plPL>
-			<ptBR>Alarmobô alertou um lacaio na mão do dono e o colocou no campo de batalha!</ptBR>
-			<ruRU>Тревого-бот обнаружил существо в руке владельца и вывел его на поле боя!</ruRU>
-			<zhCN>报警机器人警告了其拥有者手牌中的一个随从，并使其加入战场。</zhCN>
-			<zhTW>警報機器人驚動了他主人手中的手下，並將它移到戰場!</zhTW>
-		</TriggeredPowerHistoryInfo>
+		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True"/>
 		<Texture>R7_a091_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_007" version="2">
@@ -11598,7 +11611,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="200" name="Race" type="Race" value="20"/>
-		<Tag enumID="342" name="ArtistName" type="String">Imaginary FS</Tag>
+		<Tag enumID="342" name="ArtistName" type="String">Sunny Gho</Tag>
 		<Tag enumID="351" name="FlavorText" type="LocString">
 			<enUS>King Mukla wanders Jaguero Isle, searching for love.</enUS>
 			<deDE>König Mukla durchstreift die Insel Jaguero auf der Suche nach Liebe.</deDE>
@@ -11609,7 +11622,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<koKR>밀림의 왕 무클라는 오늘도 자구에로 섬을 떠돕니다. 진정한 사랑을 찾기 위해...</koKR>
 			<plPL>Ulubiona potrawa Króla Mukli to oczywiście banany. I bułka!</plPL>
 			<ptBR>O Rei Mukla vaga pela Ilha Jaguara em busca do amor.</ptBR>
-			<ruRU>Однажды король Мукла блуждал по острову Жагуаро в поисках любви.</ruRU>
+			<ruRU>Король Мукла бродит по острову Жагуаро в поисках любви.</ruRU>
 			<zhCN>穆克拉在哈圭罗岛上徘徊，寻找他的真爱。</zhCN>
 			<zhTW>穆克拉在哈圭羅島上遊盪，尋找他的真愛。</zhTW>
 		</Tag>
@@ -11621,7 +11634,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 		<MasterPower>3f3ed805-a9b8-4b68-b438-a11cf3628033</MasterPower>
 		<Tag enumID="185" name="CardName" type="LocString">
 			<enUS>Bananas</enUS>
-			<deDE>Bananen</deDE>
+			<deDE>Banane</deDE>
 			<esES>Plátanos</esES>
 			<esMX>Bananas</esMX>
 			<frFR>Banane</frFR>
@@ -11661,7 +11674,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 	<Entity CardID="EX1_014te" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
 			<enUS>Bananas</enUS>
-			<deDE>Bananen</deDE>
+			<deDE>Banane</deDE>
 			<esES>Plátanos</esES>
 			<esMX>Bananas</esMX>
 			<frFR>Banane</frFR>
@@ -11692,6 +11705,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="1"/>
 		<Power definition="09cefe08-ad17-40b1-b3d5-f1b47a03516e"/>
+		<Texture>bananas2_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_015" version="2">
 		<MasterPower>4295b5dc-4faa-43ab-b755-00d8c5f1b91f</MasterPower>
@@ -11785,8 +11799,8 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<deDE>&lt;b&gt;Todesröcheln:&lt;/b&gt; Übernehmt die Kontrolle über einen zufälligen feindlichen Diener.</deDE>
 			<esES>&lt;b&gt;Último aliento:&lt;/b&gt; Toma el control de un esbirro enemigo aleatorio.</esES>
 			<esMX>&lt;b&gt;Estertor:&lt;/b&gt; toma el control de un esbirro enemigo aleatorio.</esMX>
-			<frFR>&lt;b&gt;Râle d’agonie :&lt;/b&gt; prend le contrôle d’un serviteur adverse.</frFR>
-			<itIT>&lt;b&gt;Rantolo di Morte:&lt;/b&gt; prendi il controllo di un servitore nemico.</itIT>
+			<frFR>&lt;b&gt;Râle d’agonie :&lt;/b&gt; prend le contrôle d’un serviteur adverse aléatoire.</frFR>
+			<itIT>&lt;b&gt;Rantolo di Morte:&lt;/b&gt; prendi il controllo di un servitore nemico casuale.</itIT>
 			<koKR>&lt;b&gt;죽음의 메아리:&lt;/b&gt; 무작위 적 하수인 하나를 우리편으로 만듭니다.</koKR>
 			<plPL>&lt;b&gt;Agonia:&lt;/b&gt; Przejmij kontrolę nad losowym stronnikiem przeciwnika.</plPL>
 			<ptBR>&lt;b&gt;Último Suspiro:&lt;/b&gt; Assuma o controle de um lacaio inimigo aleatório.</ptBR>
@@ -11808,7 +11822,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<plPL>Sylwana została zamieniona w królową upiorów przez Arthasa. Mocno ją tym wkurzył.</plPL>
 			<ptBR>Sylvana foi transformada na Rainha Banshee por Arthas. Ele devia tê-la matado, porque isso só deixou ela irritada.</ptBR>
 			<ruRU>Артас превратил Сильвану в королеву банши. Какое оскорбление! Право, лучше бы он ее убил...</ruRU>
-			<zhCN>阿尔萨斯把希尔瓦娜斯变成了女妖之王，他或许应该索性杀了她的，因为她真的对此很生气。</zhCN>
+			<zhCN>没有人比女王更渴望真正地死去。</zhCN>
 			<zhTW>希瓦娜斯是被阿薩斯轉化為女妖之王的，但他當初應該殺死她就算了，因為那麼做只是惹毛她而已。</zhTW>
 		</Tag>
 		<Tag enumID="217" name="Deathrattle" type="Bool" value="1"/>
@@ -12395,19 +12409,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 		</Tag>
 		<Tag enumID="217" name="Deathrattle" type="Bool" value="1"/>
 		<Power definition="35c3329b-ffac-4188-86d3-18e0f0636816"/>
-		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True" type="LocString">
-			<deDE>Der Lepragnom hat 2 Schaden verursacht.</deDE>
-			<esES>El gnomo paria ha infligido 2 p. de daño.</esES>
-			<esMX>El Gnomo paria inflige 2 de daño.</esMX>
-			<frFR>Le gnome lépreux a infligé 2 points de dégâts.</frFR>
-			<itIT>Lo Gnomo Contaminato ha inflitto 2 danni all'eroe nemico.</itIT>
-			<koKR>오염된 노움이 피해 2 줌</koKR>
-			<plPL>Trędowaty gnom zadał 2 pkt. obrażeń.</plPL>
-			<ptBR>Gnomo Leproso causou 2 de dano.</ptBR>
-			<ruRU>Лепрогном нанес 2 ед. урона.</ruRU>
-			<zhCN>麻疯侏儒造成了2点伤害。</zhCN>
-			<zhTW>麻瘋地精造成2點傷害。</zhTW>
-		</TriggeredPowerHistoryInfo>
+		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True"/>
 		<Texture>leper_gnome_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_032" version="2">
@@ -12668,7 +12670,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
-		<Tag enumID="342" name="ArtistName" type="String">Karl Kopinski</Tag>
+		<Tag enumID="342" name="ArtistName" type="String">Attila Adorjany</Tag>
 		<Tag enumID="351" name="FlavorText" type="LocString">
 			<enUS>&quot;Does anyone have some extra Boar Pelts?&quot;</enUS>
 			<deDE>„Hat jemand zufällig noch ein paar überzählige Bärenpelze?“</deDE>
@@ -12722,6 +12724,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="1"/>
 		<Power definition="c65d1e11-32d7-4120-a3e3-11a9b9732fe5"/>
+		<Texture>wow_misc_028_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_045" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -12857,6 +12860,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<PlayRequirement param="" reqID="22"/>
 			<PlayRequirement param="" reqID="1"/>
 		</Power>
+		<Texture>WoW_ALYN_010a_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_046e" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -12941,7 +12945,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<esES>&lt;b&gt;Silencia&lt;/b&gt; a un esbirro.</esES>
 			<esMX>&lt;b&gt;Silencia&lt;/b&gt; a un esbirro.</esMX>
 			<frFR>Réduit au &lt;b&gt;Silence&lt;/b&gt; un serviteur.</frFR>
-			<itIT>Causa &lt;b&gt;Silenzio&lt;/b&gt; a un servitore.</itIT>
+			<itIT>&lt;b&gt;Silenzia&lt;/b&gt; un servitore.</itIT>
 			<koKR>하수인 하나 &lt;b&gt;침묵&lt;/b&gt;시키기</koKR>
 			<plPL>Wycisz stronnika.</plPL>
 			<ptBR>&lt;b&gt;Silencie&lt;/b&gt; um lacaio.</ptBR>
@@ -13421,7 +13425,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<koKR>&quot;새 물약이 마음에 들 겁니다.&quot;라는군요. 당신이 가진 팔다리의 개수가 마음에 안 든다면 뭐... 맞는 말이겠네요.</koKR>
 			<plPL>Początkowo eksperymentował na murlokach, ale jakoś bez efektów.</plPL>
 			<ptBR>Ele diz: &quot;Você vai &lt;i&gt;adorar&lt;/i&gt; minha nova receita!&quot; ...principalmente se não estiver satisfeito com seu número atual de membros.</ptBR>
-			<ruRU>Вам &lt;i&gt;понравится&lt;/i&gt; его новый рецепт... особенно, если вы недовольны количеством ваших конечностей.</ruRU>
+			<ruRU>«Тебе &lt;i&gt;понравится&lt;/i&gt; мой новый рецепт!» — приговаривает он. Да уж... особенно, если вы недовольны количеством ваших конечностей.</ruRU>
 			<zhCN>“你一定会喜欢我的新配方的！”他总是这么说...特别是当你对你现在的触手数量不满意的时候。</zhCN>
 			<zhTW>他說:你會&lt;b&gt;愛死&lt;/b&gt;我的新菜式...特別是如果你對目前肢體的數量感到不滿意。</zhTW>
 		</Tag>
@@ -13643,7 +13647,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<deDE>Argentumkommandant</deDE>
 			<esES>Comandante Argenta</esES>
 			<esMX>Comandante argenta</esMX>
-			<frFR>Commandant d’argent</frFR>
+			<frFR>Commandant d’Argent</frFR>
 			<itIT>Ufficiale d'Argento</itIT>
 			<koKR>은빛십자군 부대장</koKR>
 			<plPL>Dowódca Argentu</plPL>
@@ -13681,7 +13685,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<deDE>Die Argentumdämmerung stellt sich tapfer der Geißel entgegen – und Leuten, die sich an der Supermarktkasse vordrängeln wollen.</deDE>
 			<esES>El Alba Argenta protege al mundo de la Plaga y de la gente que se salta las colas.</esES>
 			<esMX>El Alba Argenta está siempre alerta a la Plaga... y a la gente que se mete en la cola del banco.</esMX>
-			<frFR>Quiconque possédera ce marteau, s’il s’en trouve digne recevra le bouclier divin.</frFR>
+			<frFR>Quiconque possédera ce marteau, s’il s’en trouve digne, recevra le bouclier divin.</frFR>
 			<itIT>L'ordine dell'Alba d'Argento è sempre in guardia contro il Flagello... e contro le persone che saltano la fila in caffetteria.</itIT>
 			<koKR>은빛십자군 부대장은 스컬지의 동태를 주시합니다. 버스 정류장에서 새치기하는 사람도 주시합니다.</koKR>
 			<plPL>Należał do Argentu zanim to było modne.</plPL>
@@ -13856,6 +13860,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="1"/>
 		<Power definition="b96fa853-9d6f-4678-a117-a3d0cd286853"/>
+		<Texture>W8_140_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_082" version="2">
 		<MasterPower>30c62987-96d3-478b-8b0f-1b1ad383d922</MasterPower>
@@ -13938,22 +13943,22 @@ Infligge 2 danni all'eroe nemico.</itIT>
 		<Tag enumID="201" name="Faction" type="Faction" value="2"/>
 		<Tag enumID="203" name="Rarity" type="Rarity" value="5"/>
 		<Tag enumID="48" name="Cost" type="Int" value="3"/>
-		<Tag enumID="47" name="Atk" type="Int" value="2"/>
-		<Tag enumID="45" name="Health" type="Int" value="2"/>
+		<Tag enumID="47" name="Atk" type="Int" value="3"/>
+		<Tag enumID="45" name="Health" type="Int" value="3"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="6"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Transform a minion into a 5/5 Devilsaur or a 1/1 Squirrel at random.</enUS>
-			<deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Verwandelt einen Diener per Zufall in einen Teufelssaurier (5/5) oder ein Eichhörnchen (1/1).</deDE>
-			<esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Transforma un esbirro en un demosaurio 5/5 o en una ardilla 1/1, al azar.</esES>
-			<esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; convierte un esbirro al azar en Demosaurio 5/5 o ardilla 1/1.</esMX>
-			<frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; transforme un serviteur soit en diablosaure 5/5, soit en écureuil 1/1 .</frFR>
-			<itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; trasforma un altro servitore in un Gigantosauro 5/5 o in uno Scoiattolo 1/1.</itIT>
-			<koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 하수인 하나를 5/5 데빌사우루스 또는 1/1 다람쥐로 변신시킵니다.</koKR>
-			<plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Losowo przekształć stronnika w diabłozaura 5/5 lub wiewiórkę 1/1.</plPL>
-			<ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Transforme um lacaio em um Demossauro 5/5 ou em um Esquilo 1/1 aleatoriamente.</ptBR>
-			<ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; превращает существо в дьявозавра 5/5 или белку 1/1.</ruRU>
-			<zhCN>&lt;b&gt;战吼：&lt;/b&gt;使一个随从随机变形成为一个5/5的恐龙或一个1/1的松鼠。</zhCN>
-			<zhTW>&lt;b&gt;戰吼:&lt;/b&gt;將一個手下隨機變形為一隻5/5魔暴龍或一隻1/1松鼠</zhTW>
+			<enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Transform another random minion into a 5/5 Devilsaur or a 1/1 Squirrel.</enUS>
+			<deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Verwandelt einen anderen zufälligen Diener in einen Teufelssaurier (5/5) oder ein Eichhörnchen (1/1).</deDE>
+			<esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Transforma a otro esbirro aleatorio en un demosaurio 5/5 o en una ardilla 1/1.</esES>
+			<esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; Transforma a otro esbirro aleatorio en un Demosaurio 5/5 o en una Ardilla 1/1.</esMX>
+			<frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; transforme un autre serviteur aléatoire soit en diablosaure 5/5, soit en écureuil 1/1 .</frFR>
+			<itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; trasforma un altro servitore casuale in un Gigantosauro 5/5 o in uno Scoiattolo 1/1.</itIT>
+			<koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 다른 무작위 하수인 하나를 5/5 데빌사우루스 또는 1/1 다람쥐로 변신시킵니다.</koKR>
+			<plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Przekształć innego losowego stronnika w diabłozaura 5/5 lub wiewiórkę 1/1.</plPL>
+			<ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Transforme outro lacaio aleatório em um Demossauro 5/5 ou em um Esquilo 1/1.</ptBR>
+			<ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; превращает другое случайное существо в дьявозавра 5/5 или белку 1/1.</ruRU>
+			<zhCN>&lt;b&gt;战吼：&lt;/b&gt;使另一个随机随从变形成为一个5/5的恐龙或一个1/1的松鼠。</zhCN>
+			<zhTW>&lt;b&gt;戰吼:&lt;/b&gt;將另一個隨機手下變形為一隻5/5魔暴龍或1/1松鼠</zhTW>
 		</Tag>
 		<Tag enumID="114" name="Elite" type="Bool" value="1"/>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
@@ -13989,11 +13994,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<zhTW>技工大師歐沃斯巴克差點就因為「鐵爐堡巨松鼠奔竄事件」而失去技工執照。</zhTW>
 		</Tag>
 		<Tag enumID="218" name="Battlecry" type="Bool" value="1"/>
-		<Power definition="b93e771a-10ce-47cb-92f4-8089be5d2832">
-			<PlayRequirement param="" reqID="22"/>
-			<PlayRequirement param="" reqID="1"/>
-			<PlayRequirement param="" reqID="9"/>
-		</Power>
+		<Power definition="b93e771a-10ce-47cb-92f4-8089be5d2832"/>
 		<Texture>WOW_ALYH_015_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_084" version="2">
@@ -14028,7 +14029,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<frFR>Chaque fois que vous invoquez un serviteur avec 3 ATQ ou moins, lui confère &lt;b&gt;Charge&lt;/b&gt;.</frFR>
 			<itIT>Quando evochi un servitore con Attacco pari a 3 o inferiore, gli fornisce &lt;b&gt;Carica&lt;/b&gt;.</itIT>
 			<koKR>공격력이 3 이하인 하수인을 소환할 때마다 그 하수인에게 &lt;b&gt;돌진&lt;/b&gt;을 부여합니다.</koKR>
-			<plPL>Twoi stronnicy z atakiem 3 lub mniejszym otrzymują &lt;b&gt;Szarżę&lt;/b&gt;.</plPL>
+			<plPL>Za każdym razem gdy przyzywasz stronnika z atakiem 3 lub mniejszym, otrzymuje on &lt;b&gt;Szarżę&lt;/b&gt;.</plPL>
 			<ptBR>Toda vez que evocar um lacaio com 3 ou menos de Ataque, conceda &lt;b&gt;Investida&lt;/b&gt; a ele.</ptBR>
 			<ruRU>Каждый раз, когда вы призываете существо с атакой 3 или меньше, оно получает способность &lt;b&gt;«Рывок»&lt;/b&gt;.</ruRU>
 			<zhCN>每当你召唤一个攻击力小于或等于3的随从，使该随从获得&lt;b&gt;冲锋&lt;/b&gt;。</zhCN>
@@ -14100,6 +14101,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Power definition="a3a776ef-4cd5-41d2-89f7-06c159151961"/>
+		<Texture>W11_101_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_085" version="2">
 		<MasterPower>56dde99d-509b-4c47-afa4-4669b08c3864</MasterPower>
@@ -14199,7 +14201,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<zhTW>&lt;b&gt;衝鋒&lt;/b&gt;。&lt;b&gt;戰吼:&lt;/b&gt;給你的對手一顆法力水晶</zhTW>
 		</Tag>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
-		<Tag enumID="342" name="ArtistName" type="String">Velvet Engine</Tag>
+		<Tag enumID="342" name="ArtistName" type="String">Sedhayu Ardian</Tag>
 		<Tag enumID="351" name="FlavorText" type="LocString">
 			<enUS>Having Arcane golems at home really classes up the place, and as a bonus they are great conversation pieces.</enUS>
 			<deDE>Arkangolems sind unglaublich beliebte Einrichtungsgegenstände für die Blutelfenschickeria.</deDE>
@@ -14367,7 +14369,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Otorga +1/+1 y &lt;b&gt;Provocar&lt;/b&gt; a los esbirros adyacentes.</esES>
 			<esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; otorga +1/+1 y &lt;b&gt;Provocación&lt;/b&gt; a los esbirros adyacentes.</esMX>
 			<frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; donne aux serviteurs adjacents +1/+1 et &lt;b&gt;Provocation&lt;/b&gt;.</frFR>
-			<itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; +1/+1 e &lt;b&gt;Provocazione&lt;/b&gt; ai servitori adiacenti.</itIT>
+			<itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; fornisce +1/+1 e &lt;b&gt;Provocazione&lt;/b&gt; ai servitori adiacenti.</itIT>
 			<koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 양옆의 하수인들에게 +1/+1과 &lt;b&gt;도발&lt;/b&gt;을 부여합니다.</koKR>
 			<plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Daj sąsiednim stronnikom +1/+1 oraz &lt;b&gt;Prowokację&lt;/b&gt;.</plPL>
 			<ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Conceda +1/+1 e &lt;b&gt;Provocar&lt;/b&gt; aos lacaios adjacentes.</ptBR>
@@ -14432,6 +14434,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="1"/>
 		<Power definition="cb44a4df-6bc8-4957-8b7f-936d4b647b36"/>
+		<Texture>W5_008_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_095" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -14587,7 +14590,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<koKR>&lt;b&gt;도발&lt;/b&gt;. &lt;b&gt;죽음의 메아리:&lt;/b&gt;
 &lt;b&gt;모든&lt;/b&gt; 캐릭터에게 피해를 2 줍니다.</koKR>
 			<plPL>&lt;b&gt;Prowokacja&lt;/b&gt;. &lt;b&gt;Agonia:&lt;/b&gt; Zadaj $2 pkt. obrażeń WSZYSTKIM postaciom.</plPL>
-			<ptBR>&lt;b&gt;Provocar&lt;/b&gt;. &lt;b&gt;Último Suspiro&lt;/b&gt; Cause 2 de dano a TODOS os personagens.</ptBR>
+			<ptBR>&lt;b&gt;Provocar&lt;/b&gt;. &lt;b&gt;Último Suspiro:&lt;/b&gt; Cause 2 de dano a TODOS os personagens.</ptBR>
 			<ruRU>&lt;b&gt;Провокация&lt;/b&gt;. &lt;b&gt;Предсмертный хрип:&lt;/b&gt; наносит 2 ед. урона ВСЕМ персонажам.</ruRU>
 			<zhCN>&lt;b&gt;嘲讽&lt;/b&gt;，&lt;b&gt;亡语：&lt;/b&gt;对所有角色造成2点伤害。</zhCN>
 			<zhTW>&lt;b&gt;嘲諷&lt;/b&gt;。&lt;b&gt;死亡之聲:&lt;/b&gt;對全部角色造成2點傷害</zhTW>
@@ -14669,7 +14672,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<itIT>Il Ramingo della Sapienza Cho conserva e condivide storie da tutta Pandaria, ma le sue preferite sono quelle di Papà Castoro.</itIT>
 			<koKR>전승지기 초는 판다리아의 이야기들을 수집하고 기록합니다. 최근에는 판다리아의 야한 연애 소설을 모으는 중이라는군요.</koKR>
 			<plPL>Wiedziciel Czo zbiera historie i podania z krainy Pandarii, ale najbardziej lubi opowieść o pierścieniu i górze.</plPL>
-			<ptBR>O Andarilho das Lendas Cho registra e compartilha contos da terra de Pandária, mas a que ele mais gosta é aquela onde descobrem quem matou Odete Roitman.</ptBR>
+			<ptBR>O Andarilho das Lendas Cho registra e compartilha contos da terra de Pandária, mas o que ele mais gosta é aquele onde descobrem quem matou Odete Roitman.</ptBR>
 			<ruRU>Хранитель истории Чо знает множество преданий Пандарии, но самая любимая его история – про то, как злая курица стала такой злой.</ruRU>
 			<zhCN>游学者周卓整理并分享有关潘达利亚大陆的轶事，但他最喜欢的故事，是乔伊和菲比一起外出旅行发生的事情。</zhCN>
 			<zhTW>博學行者阿洲記錄並分享潘達利亞大陸的故事，但是他最喜歡的故事其實是龍捲風系列的肥皂劇。</zhTW>
@@ -14868,7 +14871,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<esES>Cuesta (1) cristal menos por cada carta adicional que tengas en tu mano.</esES>
 			<esMX>Cuesta (1) menos por cada una de las otras cartas que hay en tu mano.</esMX>
 			<frFR>Coûte (1) cristal de moins pour chaque autre carte dans votre main.</frFR>
-			<itIT>Costa (1) Mana in meno per ogni carta che hai in mano.</itIT>
+			<itIT>Costa (1) Mana in meno per ogni altra carta che hai in mano.</itIT>
 			<koKR>내 손에 있는 다른 카드 1장당 비용이 (1)씩 감소합니다.</koKR>
 			<plPL>Kosztuje (1) mniej za każdą pozostałą kartę w twojej ręce.</plPL>
 			<ptBR>Custa (1) a menos para cada um dos outros cards na sua mão.</ptBR>
@@ -15104,11 +15107,36 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<zhCN>至少他还有愤怒的小鸡。</zhCN>
 			<zhTW>至少他有憤怒的炸雞可以吃。</zhTW>
 		</Tag>
+		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
+		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="197" name="Charge" type="Bool" value="1"/>
 		<Tag enumID="218" name="Battlecry" type="Bool" value="1"/>
 		<Power definition="94076bfa-0f46-4a3a-9857-c30d59ceb6b7"/>
 		<Power definition="cc6d0fec-0405-498f-925c-cda518cd0e83"/>
 		<Texture>wow_penny_003_D</Texture>
+	</Entity>
+	<Entity CardID="EX1_116t" version="2">
+		<Tag enumID="185" name="CardName" type="LocString">
+			<enUS>Whelp</enUS>
+			<deDE>Welpling</deDE>
+			<esES>Cría</esES>
+			<esMX>Cría</esMX>
+			<frFR>Dragonnet</frFR>
+			<itIT>Draghetto</itIT>
+			<koKR>새끼용</koKR>
+			<plPL>Pisklę</plPL>
+			<ptBR>Dragonete</ptBR>
+			<ruRU>Дракончик</ruRU>
+			<zhCN>雏龙</zhCN>
+			<zhTW>幼龍</zhTW>
+		</Tag>
+		<Tag enumID="183" name="CardSet" type="CardSet" value="3"/>
+		<Tag enumID="202" name="CardType" type="CardType" value="4"/>
+		<Tag enumID="48" name="Cost" type="Int" value="1"/>
+		<Tag enumID="47" name="Atk" type="Int" value="1"/>
+		<Tag enumID="45" name="Health" type="Int" value="1"/>
+		<Tag enumID="200" name="Race" type="Race" value="24"/>
+		<Texture>ONY_STK_013_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_124" version="2">
 		<MasterPower>de987317-e746-4476-a3a5-7ad0770b3c9f</MasterPower>
@@ -15197,18 +15225,18 @@ Infligge 2 danni all'eroe nemico.</itIT>
 		<Tag enumID="199" name="Class" type="Class" value="7"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="6"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>An enemy minion deals its damage to the minions next to it.</enUS>
-			<deDE>Ein feindlicher Diener fügt benachbarten Dienern seinen Schaden zu.</deDE>
-			<esES>Un esbirro enemigo inflige su daño a los esbirros adyacentes.</esES>
-			<esMX>Un esbirro enemigo inflige su daño a los esbirros adyacentes.</esMX>
-			<frFR>Un serviteur adverse inflige ses dégâts aux serviteurs à côté de lui.</frFR>
-			<itIT>Un servitore nemico infligge danni pari al suo attacco ai servitori nemici adiacenti.</itIT>
-			<koKR>적 하수인이 자신의 공격력만큼 양옆의 하수인들에게 피해를 줍니다.</koKR>
-			<plPL>Wrogi stronnik zadaje obrażenia innym stronnikom obok siebie.</plPL>
-			<ptBR>Um lacaio inimigo causa dano aos lacaios ao lado dele.</ptBR>
+			<enUS>Force an enemy minion to deal its damage to the minions next to it.</enUS>
+			<deDE>Zwingt einen feindlichen Diener, seinen Schaden benachbarten Dienern zuzufügen.</deDE>
+			<esES>Obliga a un esbirro enemigo a infligir su daño a los esbirros adyacentes.</esES>
+			<esMX>Obliga a un esbirro enemigo a infligir su daño a los esbirros adyacentes.</esMX>
+			<frFR>Force un serviteur adverse à infliger ses dégâts aux serviteurs à côté de lui.</frFR>
+			<itIT>Costringe un servitore nemico a infliggere danni pari al suo attacco ai servitori adiacenti.</itIT>
+			<koKR>적 하수인이 자신의 공격력만큼 양옆의 하수인들을 공격하게 만듭니다.</koKR>
+			<plPL>Zmuś wrogiego stronnika do zadania obrażeń stronnikom obok siebie.</plPL>
+			<ptBR>Force um lacaio inimigo a causar dano aos lacaios perto dele.</ptBR>
 			<ruRU>Выбранное существо противника наносит урон, равный своей атаке, существам, находящимся по обе стороны от него.</ruRU>
 			<zhCN>使一个敌方随从对其相邻的随从造成等同于其攻击力的伤害。</zhCN>
-			<zhTW>一個敵方手下對兩側的手下造成等同其攻擊力的傷害</zhTW>
+			<zhTW>強迫一個敵方手下對兩側的手下造成等同其攻擊力的傷害</zhTW>
 		</Tag>
 		<Tag enumID="268" name="DevState" type="DevState" value="2"/>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
@@ -15332,6 +15360,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Power definition="56c9324d-372a-4686-ac4c-bcf8f27b8508"/>
 		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False"/>
+		<Texture>W6_128_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_129" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -15361,7 +15390,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<esES>Inflige $1 p. de daño a todos los esbirros enemigos. Roba una carta.</esES>
 			<esMX>Inflige $1 de daño a todos los esbirros enemigos. Roba una carta.</esMX>
 			<frFR>Inflige $1 |4(point,points) de dégâts à tous les serviteurs adverses. Vous piochez une carte.</frFR>
-			<itIT>Infligge $1 danno a tutti i servitori nemici. Pesca una carta.</itIT>
+			<itIT>Infligge $1 |4(danno,danni) a tutti i servitori nemici. Pesca una carta.</itIT>
 			<koKR>모든 적 하수인에게 피해를 $1 줍니다. 카드를 1장 뽑습니다.</koKR>
 			<plPL>Zadaj $1 pkt. obrażeń wszystkim wrogim stronnikom. Dobierz kartę.</plPL>
 			<ptBR>Cause $1 de dano a todos os lacaios inimigos. Compre um card.</ptBR>
@@ -15522,7 +15551,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 		</Tag>
 		<Tag enumID="268" name="DevState" type="DevState" value="2"/>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
-		<Tag enumID="342" name="ArtistName" type="String">Efrem Palacios</Tag>
+		<Tag enumID="342" name="ArtistName" type="String">Dany Orizio</Tag>
 		<Tag enumID="351" name="FlavorText" type="LocString">
 			<enUS>He stole the deed to town years ago, so technically the town &lt;i&gt;is&lt;/i&gt; his. He just calls people Scrub to be mean.</enUS>
 			<deDE>Ein echter Rädelsführer hat &lt;i&gt;immer&lt;/i&gt; ein paar Schergen dabei.</deDE>
@@ -15620,6 +15649,8 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<zhCN>有时正义的表现形式就是这么简单：紧握的拳头打在瘫软的脸上。</zhCN>
 			<zhTW>正義有時候就是用拳頭跟對方的臉頰進行接觸。</zhTW>
 		</Tag>
+		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
+		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="219" name="Secret" type="Bool" value="1"/>
 		<Power definition="4f514d32-4a18-49f8-930b-57c30d99f684"/>
 		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False"/>
@@ -15869,7 +15900,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<esES>Inflige $2 p. de daño al héroe enemigo. &lt;b&gt;Combo:&lt;/b&gt; Devuelve esta carta a tu mano el siguiente turno.</esES>
 			<esMX>Inflige $2 de daño al héroe enemigo. &lt;b&gt;Combo:&lt;/b&gt; devuelve esta carta a tu mano en el próximo turno.</esMX>
 			<frFR>Inflige $2 |4(point,points) de dégâts au héros adverse. &lt;b&gt;Combo :&lt;/b&gt; renvoie cette carte dans votre main au tour suivant.</frFR>
-			<itIT>Infligge $2 danni all'eroe nemico. &lt;b&gt;Combo:&lt;/b&gt; torna nella tua mano nel tuo turno successivo.</itIT>
+			<itIT>Infligge $2 danni all'eroe nemico. &lt;b&gt;Combo:&lt;/b&gt; torna nella tua mano alla fine del turno.</itIT>
 			<koKR>적 영웅에게 피해를 $2 줍니다.
 &lt;b&gt;연계:&lt;/b&gt; 다음 턴에 이 카드를 다시 내 손으로 가져옵니다.</koKR>
 			<plPL>Zadaj $2 pkt. obrażeń wrogiemu bohaterowi. &lt;b&gt;Kombinacja:&lt;/b&gt; W następnej turze cofnij tę kartę na rękę.</plPL>
@@ -15988,7 +16019,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<deDE>Der nächste Zauber, den Ihr in diesem Zug wirkt, kostet (3) weniger.</deDE>
 			<esES>El siguiente hechizo que lances este turno costará (3) cristales menos.</esES>
 			<esMX>El próximo hechizo que juegues en este turno cuesta (3) menos.</esMX>
-			<frFR>Le prochain sort que vous lancez coûte (3) cristaux de moins.</frFR>
+			<frFR>Le prochain sort que vous lancez pendant ce tour coûte (3) cristaux de moins.</frFR>
 			<itIT>La prossima Magia che lanci in questo turno costa (3) Mana in meno.</itIT>
 			<koKR>이번 턴에 내가 시전하는 다음 주문의 비용이 (3) 감소합니다.</koKR>
 			<plPL>Następne zaklęcie, jakie rzucisz w tej turze, kosztuje (3) mniej.</plPL>
@@ -16056,6 +16087,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 		<Power definition="470b5e7b-1198-4f6f-a4e2-b7360a90a979"/>
 		<Power definition="4464aef3-b928-4836-bfc9-a6d54410e47d"/>
 		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False"/>
+		<Texture>W4_052_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_154" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -16085,7 +16117,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<esES>&lt;b&gt;Elige una:&lt;/b&gt; Inflige $3 p. de daño a un esbirro, o bien inflige $1 p. de daño y roba una carta.</esES>
 			<esMX>&lt;b&gt;Elige una opción:&lt;/b&gt; inflige $3 de daño a un esbirro o inflige $1 de daño y roba una carta.</esMX>
 			<frFR>&lt;b&gt;Choix des armes :&lt;/b&gt; inflige $3 |4(point, points) de dégâts à un serviteur ; ou inflige $1 |4(point,points) de dégâts à un serviteur et vous piochez une carte.</frFR>
-			<itIT>&lt;b&gt;Scegli:&lt;/b&gt; infligge $3 danni a un servitore o infligge $1 danno e pesca una carta.</itIT>
+			<itIT>&lt;b&gt;Scegli:&lt;/b&gt; infligge $3 danni a un servitore o infligge $1 |4(danno,danni) e pesca una carta.</itIT>
 			<koKR>&lt;b&gt;선택&lt;/b&gt; - 하수인 하나에게 피해를 $3 줍니다. 또는 피해를 $1 주고 카드를 1장 뽑습니다.</koKR>
 			<plPL>&lt;b&gt;Wybierz jedno:&lt;/b&gt; Zadaj $3 pkt. obrażeń stronnikowi; lub zadaj $1 pkt. obrażeń stronnikowi i dobierz kartę.</plPL>
 			<ptBR>&lt;b&gt;Escolha Um&lt;/b&gt; - Cause $3 de dano a um lacaio; ou cause $1 de dano e compre um card.</ptBR>
@@ -16109,6 +16141,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<zhCN>棘齿城酒馆里的人们纷纷表示，这张牌太强了，应该是传说级别的。</zhCN>
 			<zhTW>棘齒城旅店裡的人都公認這張牌太強了，應該要是傳說級才對。</zhTW>
 		</Tag>
+		<Texture>W17_a102_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_154a" version="2">
 		<MasterPower>68f1b82c-7a25-4b09-af67-4f54eb066960</MasterPower>
@@ -16180,7 +16213,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<esES>Inflige $1 p. de daño a un esbirro. Roba una carta.</esES>
 			<esMX>Inflige $1 de daño a un esbirro. Roba una carta.</esMX>
 			<frFR>Inflige $1 |4(point,points) de dégâts à un serviteur. Vous piochez une carte.</frFR>
-			<itIT>Infligge $1 danni a un servitore. Pesca una carta.</itIT>
+			<itIT>Infligge $1 |4(danno,danni) a un servitore. Pesca una carta.</itIT>
 			<koKR>하수인 하나에게 피해를 $1 줍니다. 카드를 1장 뽑습니다.</koKR>
 			<plPL>Zadaj $1 pkt. obrażeń stronnikowi. Dobierz kartę.</plPL>
 			<ptBR>Cause $1 de dano a um lacaio. Compre um card.</ptBR>
@@ -16251,6 +16284,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<zhTW>德魯伊們說這叫「自然印記」。其他人則說他們「該洗澡了」。</zhTW>
 		</Tag>
 		<ReferencedTag enumID="190" name="Taunt" type="Bool" value="1"/>
+		<Texture>W6_024_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_155a" version="2">
 		<MasterPower>0671c592-ad07-41e3-a91b-484778498e07</MasterPower>
@@ -16373,6 +16407,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<PlayRequirement param="" reqID="11"/>
 			<PlayRequirement param="" reqID="1"/>
 		</Power>
+		<Texture>W6_024_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_155be" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -16468,6 +16503,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 		</Tag>
 		<ReferencedTag enumID="217" name="Deathrattle" type="Bool" value="1"/>
 		<Power definition="b8e935bc-b9e9-4c58-bc13-12182a721972"/>
+		<Texture>W20_a025_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_158e" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -16587,6 +16623,7 @@ donne à vos serviteurs +1/+1 ou invoque une panthère 3/2.</frFR>
 			<zhCN>在灰谷的树林中，猎豹的毛皮漆黑油亮，数量众多。那为什么这地方要叫灰谷，而不是黑谷呢？</zhCN>
 			<zhTW>永遠別跟獵豹對視。還是「要與獵豹正面對視」?反正是這兩種的其中一種就對了。</zhTW>
 		</Tag>
+		<Texture>W17_a030_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_160a" version="2">
 		<MasterPower>d689b0f7-5eb5-4828-98f4-472fd79dec00</MasterPower>
@@ -16650,17 +16687,17 @@ donne à vos serviteurs +1/+1 ou invoque une panthère 3/2.</frFR>
 		<Tag enumID="199" name="Class" type="Class" value="2"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="1"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>Give all of your minions +1/+1.</enUS>
-			<deDE>Verleiht all Euren Dienern +1/+1.</deDE>
-			<esES>Otorga +1/+1 a todos tus esbirros.</esES>
-			<esMX>Otorga +1/+1 a todos tus esbirros.</esMX>
-			<frFR>Donne à tous vos serviteurs +1/+1.</frFR>
+			<enUS>Give your minions +1/+1.</enUS>
+			<deDE>Verleiht Euren Dienern +1/+1.</deDE>
+			<esES>Otorga +1/+1 a tus esbirros.</esES>
+			<esMX>Otorga +1/+1 a tus esbirros.</esMX>
+			<frFR>Donne à vos serviteurs +1/+1.</frFR>
 			<itIT>+1/+1 a tutti i tuoi servitori.</itIT>
-			<koKR>내 모든 하수인에게 +1/+1을 부여합니다.</koKR>
-			<plPL>Daj wszystkim swoim stronnikom +1/+1.</plPL>
-			<ptBR>Conceda +1/+1 a todos os seus lacaios.</ptBR>
+			<koKR>내 하수인들에게 +1/+1을 부여합니다.</koKR>
+			<plPL>Daj swoim stronnikom +1/+1.</plPL>
+			<ptBR>Conceda +1/+1 aos seus lacaios.</ptBR>
 			<ruRU>Ваши существа получают +1/+1.</ruRU>
-			<zhCN>使你所有的随从都获得+1/+1。</zhCN>
+			<zhCN>使你所有的随从获得+1/+1。</zhCN>
 			<zhTW>賦予你全部的手下+1/+1</zhTW>
 		</Tag>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
@@ -16687,18 +16724,18 @@ donne à vos serviteurs +1/+1 ou invoque une panthère 3/2.</frFR>
 		<Tag enumID="202" name="CardType" type="CardType" value="6"/>
 		<Tag enumID="199" name="Class" type="Class" value="2"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>This minion has +1/+1.</enUS>
-			<deDE>Dieser Diener hat +1/+1.</deDE>
-			<esES>Este esbirro tiene +1/+1.</esES>
-			<esMX>Este esbirro tiene +1/+1.</esMX>
-			<frFR>Ce serviteur a +1/+1.</frFR>
+			<enUS>+1/+1</enUS>
+			<deDE>+1/+1.</deDE>
+			<esES>+1/+1</esES>
+			<esMX>+1/+1</esMX>
+			<frFR>+1/+1</frFR>
 			<itIT>+1/+1.</itIT>
 			<koKR>+1/+1</koKR>
-			<plPL>Ten stronnik ma +1/+1.</plPL>
-			<ptBR>Este lacaio tem +1/+1.</ptBR>
-			<ruRU>Это существо получило +1/+1.</ruRU>
-			<zhCN>该随从获得+1/+1。</zhCN>
-			<zhTW>這個手下獲得+1/+1</zhTW>
+			<plPL>+1/+1</plPL>
+			<ptBR>+1/+1</ptBR>
+			<ruRU>+1/+1.</ruRU>
+			<zhCN>+1/+1</zhCN>
+			<zhTW>+1/+1</zhTW>
 		</Tag>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="1"/>
@@ -16779,7 +16816,7 @@ donne à vos serviteurs +1/+1 ou invoque une panthère 3/2.</frFR>
 			<deDE>Kompostierung mal anders.</deDE>
 			<esES>Habló el tauren y dijo mú.</esES>
 			<esMX>Golpe a golpe, esbirro a esbirro.</esMX>
-			<frFR>Encore un qui mord la poussière.</frFR>
+			<frFR>Sur le moment, ça m’a semblé une bonne idée...</frFR>
 			<itIT>Un altro nemico morde la polvere...</itIT>
 			<koKR>&lt;i&gt;자연으로 돌아가거라.&lt;/i&gt;</koKR>
 			<plPL>I kolejny do piachu.</plPL>
@@ -16896,6 +16933,7 @@ donne à vos serviteurs +1/+1 ou invoque une panthère 3/2.</frFR>
 		<Tag enumID="362" name="Aura" type="Bool" value="1"/>
 		<Power definition="42e56f47-08b9-439f-a1d9-7b96f4cacf1c"/>
 		<Power definition="6ad4a15c-045d-4e3c-9dd7-648939d717d1"/>
+		<Texture>WOW_TAL_008_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_162o" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -16985,6 +17023,7 @@ donne à vos serviteurs +1/+1 ou invoque une panthère 3/2.</frFR>
 			<zhCN>德鲁伊能够从很多地方获得精神上的滋养：自然的伟力；鸟儿的鸣唱；蛋糕的美味。</zhCN>
 			<zhTW>德魯伊能透過許多東西攝取養分:自然之力、鳴禽之聲、巧克力蛋糕。</zhTW>
 		</Tag>
+		<Texture>W11_127(EA)_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_164a" version="2">
 		<MasterPower>b7d09f14-695d-499e-819e-24c3d330e1db</MasterPower>
@@ -17104,7 +17143,7 @@ donne à vos serviteurs +1/+1 ou invoque une panthère 3/2.</frFR>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
-		<Tag enumID="342" name="ArtistName" type="String">James Brady</Tag>
+		<Tag enumID="342" name="ArtistName" type="String">Luca Zontini</Tag>
 		<Tag enumID="351" name="FlavorText" type="LocString">
 			<enUS>Cat or Bear?  Cat or Bear?!  I just cannot CHOOSE!</enUS>
 			<deDE>Katze? Bär? Katze? Bär? Katze? Bär? Oh Mann, ich kann mich einfach nicht entscheiden!</deDE>
@@ -17476,7 +17515,7 @@ donne à vos serviteurs +1/+1 ou invoque une panthère 3/2.</frFR>
 			<deDE>Einige Druiden haben noch immer Alpträume von Fremden, die ihnen „Gib mir Anregen!!!“ zurufen.</deDE>
 			<esES>Algunos druidas todavía se acuerdan de cuando completos desconocidos les gritaban &quot;¡Lánzame Estimular!&quot;.</esES>
 			<esMX>Algunos druidas aún tienen recuerdos de extraños gritándoles &quot;¡Estimúlame, estimúlame!&quot;.</esMX>
-			<frFR>Certains druides font encore des cauchemars à propos d’inconnus leur criant « Innervation ».</frFR>
+			<frFR>Certains druides font encore des cauchemars à propos d’inconnus leur criant « Innervation sur moi ! ».</frFR>
 			<itIT>Alcuni Druidi hanno ancora gli incubi di gente sconosciuta che grida loro &quot;Innervami!&quot;.</itIT>
 			<koKR>드루이드라면 누구나 한 번쯤 &quot;자극 주세요!!&quot; 소리를 들어보셨을 겁니다.</koKR>
 			<plPL>Niektórzy druidzi wciąż pamiętają nieznajomych, którzy krzyczeli „Orzeźwij mnie!”</plPL>
@@ -17646,18 +17685,28 @@ donne à vos serviteurs +1/+1 ou invoque une panthère 3/2.</frFR>
 		<Tag enumID="45" name="Health" type="Int" value="5"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="1"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>&lt;b&gt;Choose One&lt;/b&gt; - &lt;b&gt;Taunt&lt;/b&gt; and +5 Health; or +5 Attack.</enUS>
-			<deDE>&lt;b&gt;Wählt aus:&lt;/b&gt; &lt;b&gt;Spott&lt;/b&gt; und +5 Leben; oder +5 Angriff.</deDE>
-			<esES>&lt;b&gt;Elige una:&lt;/b&gt; +5 p. de salud y &lt;b&gt;Provocar&lt;/b&gt;, o bien +5 p. de ataque.</esES>
-			<esMX>&lt;b&gt;Elige una opción:&lt;/b&gt; &lt;b&gt;Provocación&lt;/b&gt; y +5 de Salud o +5 de Ataque.</esMX>
-			<frFR>&lt;b&gt;Choix des armes :&lt;/b&gt; +5 PV et &lt;b&gt;Provocation&lt;/b&gt; ou +5 ATQ.</frFR>
+			<enUS>&lt;b&gt;Choose One&lt;/b&gt; -
++5 Attack; or +5 Health and &lt;b&gt;Taunt&lt;/b&gt;.</enUS>
+			<deDE>&lt;b&gt;Wählt aus:&lt;/b&gt; +5 Angriff; oder +5 Leben und &lt;b&gt;Spott&lt;/b&gt;.</deDE>
+			<esES>&lt;b&gt;Elige una:&lt;/b&gt; +5 p. de ataque, o bien +5 p. de salud y &lt;b&gt;Provocar&lt;/b&gt;.</esES>
+			<esMX>&lt;b&gt;Elige una opción:&lt;/b&gt; 
++5 de Ataque o +5 de Salud y &lt;b&gt;Provocación&lt;/b&gt;.</esMX>
+			<frFR>&lt;b&gt;Choix des armes :&lt;/b&gt; -
++5 ATQ ou +5 PV et &lt;b&gt;Provocation&lt;/b&gt;.</frFR>
 			<itIT>&lt;b&gt;Scegli:&lt;/b&gt; l'Antico della Guerra ottiene +5 Salute e &lt;b&gt;Provocazione&lt;/b&gt; o +5 Attacco.</itIT>
-			<koKR>&lt;b&gt;선택&lt;/b&gt; - &lt;b&gt;도발&lt;/b&gt; 능력과 생명력 +5를 얻습니다. 또는 공격력을 +5 얻습니다.</koKR>
-			<plPL>&lt;b&gt;Wybierz jedno:&lt;/b&gt; &lt;b&gt;Prowokacja&lt;/b&gt; oraz +5 do zdrowia; lub +5 do ataku.</plPL>
-			<ptBR>&lt;b&gt;Escolha Um&lt;/b&gt; - &lt;b&gt;Provocar&lt;/b&gt; e +5 de Vida; ou +5 de Ataque.</ptBR>
-			<ruRU>&lt;b&gt;Выберите эффект:&lt;/b&gt;+5 к здоровью и способность &lt;b&gt;«Провокация»&lt;/b&gt;; или +5 к атаке.</ruRU>
-			<zhCN>&lt;b&gt;抉择&lt;/b&gt;：+5生命值并具有&lt;b&gt;嘲讽&lt;/b&gt;；或者+5攻击力。</zhCN>
-			<zhTW>&lt;b&gt;二選一:&lt;/b&gt;+5生命值及&lt;b&gt;嘲諷&lt;/b&gt;，或+5攻擊力</zhTW>
+			<koKR>&lt;b&gt;선택&lt;/b&gt; -
+공격력 +5 또는 생명력 +5와 &lt;b&gt;도발&lt;/b&gt; 능력을 얻습니다.</koKR>
+			<plPL>&lt;b&gt;Wybierz jedno:&lt;/b&gt; 
++4 do ataku; lub +5 do zdrowia oraz &lt;b&gt;Prowokacja&lt;/b&gt;.</plPL>
+			<ptBR>&lt;b&gt;Escolha Um&lt;/b&gt; -
++5 de Ataque; ou +5 de Vida e &lt;b&gt;Provocar&lt;/b&gt;.</ptBR>
+			<ruRU>&lt;b&gt;Выберите эффект:&lt;/b&gt;
++5 к атаке; 
+ или +5 к здоровью и способность &lt;b&gt;«Провокация»&lt;/b&gt;.</ruRU>
+			<zhCN>&lt;b&gt;抉择&lt;/b&gt; -
++5攻击力；或者+5生命值并具有&lt;b&gt;嘲讽&lt;/b&gt;。</zhCN>
+			<zhTW>&lt;b&gt;二選一:&lt;/b&gt;
++5攻擊力，或+5生命值及&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>
 		</Tag>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
@@ -17755,6 +17804,7 @@ donne à vos serviteurs +1/+1 ou invoque une panthère 3/2.</frFR>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="1"/>
 		<Power definition="715afc1d-036e-4fa8-b039-28280136c2ec"/>
+		<Texture>W10_A143_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_178b" version="2">
 		<MasterPower>01388628-946d-465b-871a-222d03526a69</MasterPower>
@@ -17831,6 +17881,7 @@ donne à vos serviteurs +1/+1 ou invoque une panthère 3/2.</frFR>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="1"/>
 		<Power definition="48a42a74-5748-4f8c-88b7-47495f34e88e"/>
+		<Texture>w2_166_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_238" version="2">
 		<MasterPower>1092910a-734d-44e9-a8a6-bd53a37b4899</MasterPower>
@@ -17943,7 +17994,7 @@ Magiczna siła, boję się...”
 - fragment „Mojej Lawy” z szamańskiej listy przebojów</plPL>
 			<ptBR>É como um oceano de magma líquido na sua boca!</ptBR>
 			<ruRU>Словно вы хлебнули раскаленной магмы!</ruRU>
-			<zhCN>这滋味就像岩浆在你嘴里翻江倒海！</zhCN>
+			<zhCN>就像火焰领主吐了一口口水，呃，火。</zhCN>
 			<zhTW>這就像是把一整片岩漿海倒進你嘴裡一樣!</zhTW>
 		</Tag>
 		<Tag enumID="215" name="Recall" type="Int" value="2"/>
@@ -18112,6 +18163,7 @@ Magiczna siła, boję się...”
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="1"/>
 		<Power definition="d71b560b-c46e-4599-ad9c-1257f6e991f2"/>
+		<Texture>W5_128_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_245" version="2">
 		<MasterPower>5b15512a-0fc5-464c-a57c-47d7899fd4f6</MasterPower>
@@ -18142,11 +18194,11 @@ Magiczna siła, boję się...”
 			<esES>&lt;b&gt;Silencia&lt;/b&gt; a un esbirro y luego le inflige $1 p. de daño.</esES>
 			<esMX>&lt;b&gt;Silencia&lt;/b&gt; a un esbirro y luego le inflige $1 de daño.</esMX>
 			<frFR>Réduit un serviteur au &lt;b&gt;Silence&lt;/b&gt;, puis lui inflige $1 |4(point,points) de dégâts. </frFR>
-			<itIT>Infligge $1 danno a un servitore e lo &lt;b&gt;Silenzia&lt;/b&gt;.</itIT>
+			<itIT>&lt;b&gt;Silenzia&lt;/b&gt; un servitore e gli infligge $1 |4(danno,danni).</itIT>
 			<koKR>하수인 하나를 &lt;b&gt;침묵&lt;/b&gt;시키고, 피해를 $1 줍니다.</koKR>
 			<plPL>&lt;b&gt;Wycisz&lt;/b&gt; stronnika, a następnie zadaj mu $1 pkt. obrażeń.</plPL>
 			<ptBR>&lt;b&gt;Silencie&lt;/b&gt; um lacaio, então cause $1 de dano a ele.</ptBR>
-			<ruRU>Накладывает на выбранное существо эффект &lt;b&gt;немоты&lt;/b&gt; и наносит ему $1 ед. урона. </ruRU>
+			<ruRU>Накладывает на выбранное существо эффект &lt;b&gt;немоты&lt;/b&gt; и затем наносит ему $1 ед. урона. </ruRU>
 			<zhCN>&lt;b&gt;沉默&lt;/b&gt;一个随从，然后对其造成$1点伤害。</zhCN>
 			<zhTW>&lt;b&gt;沉默&lt;/b&gt;一個手下，然後對它造成$1點傷害</zhTW>
 		</Tag>
@@ -18241,6 +18293,7 @@ Magiczna siła, boję się...”
 			<PlayRequirement param="" reqID="11"/>
 			<PlayRequirement param="" reqID="1"/>
 		</Power>
+		<Texture>W5_120_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_246e" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -18645,6 +18698,7 @@ Magiczna siła, boję się...”
 		<ReferencedTag enumID="215" name="Recall" type="Number" value="1"/>
 		<Power definition="e134bcf9-5480-432e-a702-47b3e3e3ef6f"/>
 		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False"/>
+		<Texture>W14_a250_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_258e" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -18838,6 +18892,7 @@ Magiczna siła, boję się...”
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="1"/>
 		<Power definition="76bcdf8d-f44d-45fd-970b-25f5e65bbf3f"/>
+		<Texture>W20_a154_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_275" version="2">
 		<MasterPower>b13d477d-17c7-42d5-884a-a8518077e042</MasterPower>
@@ -18868,7 +18923,7 @@ Magiczna siła, boję się...”
 			<esES>&lt;b&gt;Congela&lt;/b&gt; a un esbirro y a los esbirros adyacentes al mismo y les inflige $1 p. de daño.</esES>
 			<esMX>&lt;b&gt;Congela&lt;/b&gt; a un esbirro y a los esbirros adyacentes a él y les inflige $1 de daño.</esMX>
 			<frFR>&lt;b&gt;Gèle&lt;/b&gt; et inflige $1 |4(point,points) de dégâts à un serviteur et ceux à côté de lui.</frFR>
-			<itIT>Infligge $1 danno a un servitore e a quelli adiacenti e li &lt;b&gt;Congela&lt;/b&gt;.</itIT>
+			<itIT>Infligge $1 |4(danno,danni) a un servitore e a quelli adiacenti e li &lt;b&gt;Congela&lt;/b&gt;.</itIT>
 			<koKR>선택한 하수인과 그 양옆의 하수인들을 &lt;b&gt;빙결&lt;/b&gt; 상태로 만들고 피해를 $1 줍니다.</koKR>
 			<plPL>&lt;b&gt;Zamroź&lt;/b&gt; stronnika oraz stronników obok niego i zadaj im $1 pkt. obrażeń.</plPL>
 			<ptBR>&lt;b&gt;Congele&lt;/b&gt; um lacaio e os lacaios vizinhos, causando-lhes $1 de dano.</ptBR>
@@ -18894,7 +18949,7 @@ Magiczna siła, boję się...”
 			<zhCN>冰锥术在大约90年前开始流行起来，而在那之前，肯瑞托的法师们习惯用的是冰块术。</zhCN>
 			<zhTW>祈倫托的法師本來都愛用&lt;b&gt;冰塊術&lt;/b&gt;，直到90多年前甜筒開始流行。</zhTW>
 		</Tag>
-		<Tag enumID="342" name="ArtistName" type="String">Concept Art House</Tag>
+		<Tag enumID="342" name="ArtistName" type="String">Leo Che</Tag>
 		<Tag enumID="208" name="Freeze" type="Bool" value="1"/>
 		<Power definition="b13d477d-17c7-42d5-884a-a8518077e042">
 			<PlayRequirement param="" reqID="11"/>
@@ -18934,7 +18989,7 @@ Magiczna siła, boję się...”
 			<koKR>적 캐릭터들에게 $3의 피해를 무작위로 나누어 입힙니다.</koKR>
 			<plPL>Zadaj $3 pkt. obrażeń, losowo rozdzielone pomiędzy wrogimi postaciami.</plPL>
 			<ptBR>Cause $3 de dano dividido aleatoriamente entre os personagens inimigos.</ptBR>
-			<ruRU>Наносит $3 ед. урона, случайно распределенного среди персонажей противника.</ruRU>
+			<ruRU>Наносит $3 ед. урона, случайно распределенного между персонажами противника.</ruRU>
 			<zhCN>造成$3点伤害，随机分配给敌方角色。</zhCN>
 			<zhTW>造成$3點傷害，隨機分給敵方角色</zhTW>
 		</Tag>
@@ -18996,7 +19051,7 @@ Magiczna siła, boję się...”
 			<esES>Inflige $1 p. de daño. Roba una carta.</esES>
 			<esMX>Inflige $1 de daño. Roba una carta.</esMX>
 			<frFR>Inflige $1 |4(point,points) de dégâts. Vous piochez une carte.</frFR>
-			<itIT>Infligge $1 danno. Pesca una carta.</itIT>
+			<itIT>Infligge $1 |4(danno,danni). Pesca una carta.</itIT>
 			<koKR>피해를 $1 줍니다. 카드를 1장 뽑습니다.</koKR>
 			<plPL>Zadaj $1 pkt. obrażeń. Dobierz kartę.</plPL>
 			<ptBR>Cause $1 de dano. Compre um card.</ptBR>
@@ -19023,9 +19078,9 @@ Magiczna siła, boję się...”
 			<itIT>I Ladri uccidono con stile-ttate.</itIT>
 			<koKR>알라깔라&lt;b&gt;독칼&lt;/b&gt;라미&lt;b&gt;독칼&lt;/b&gt;라미띠!</koKR>
 			<plPL>Zadaje więcej obrażeń wraz z okrzykiem bojowym „Kosi, kosi łapci!”</plPL>
-			<ptBR>Impacto Arcano é bem útil para causar dano extra de Fadiga.</ptBR>
+			<ptBR>Um bom ladino tem sempre um no estoque.</ptBR>
 			<ruRU>Лучше не применяйте это заклинание в состоянии усталости!</ruRU>
-			<zhCN>潜行者们都是用毒的大师。</zhCN>
+			<zhCN>毒如鹤顶，刃若清刚；图穷匕现，君命难长。</zhCN>
 			<zhTW>忘記塗抹毒藥的毒襲該叫什麼?</zhTW>
 		</Tag>
 		<Power definition="3e703ffb-3cda-4a44-9611-e23b9a7aa9e0">
@@ -19140,7 +19195,7 @@ Magiczna siła, boję się...”
 			<esES>Congela a un personaje.</esES>
 			<esMX>Congela a un personaje.</esMX>
 			<frFR>Gèle un personnage.</frFR>
-			<itIT>Causa &lt;b&gt;Congelamento&lt;/b&gt;.</itIT>
+			<itIT>&lt;b&gt;Congela&lt;/b&gt; un personaggio.</itIT>
 			<koKR>캐릭터 하나 빙결 상태로 만들기</koKR>
 			<plPL>Zamroź postać.</plPL>
 			<ptBR>Congele um personagem.</ptBR>
@@ -19346,6 +19401,8 @@ Magiczna siła, boję się...”
 			<zhTW>這是第1級。第2級是巧克力牛奶護體。</zhTW>
 		</Tag>
 		<Tag enumID="342" name="ArtistName" type="String">Alex Garner</Tag>
+		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
+		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="219" name="Secret" type="Bool" value="1"/>
 		<Power definition="647f2ee8-eeb9-450f-b36d-f4602933c46a"/>
 		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False"/>
@@ -19469,6 +19526,7 @@ Magiczna siła, boję się...”
 		<ReferencedTag enumID="240" name="Cant Be Damaged" type="Bool" value="1"/>
 		<Power definition="77a88259-84de-4edd-be28-3b65d405aeb1"/>
 		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False"/>
+		<Texture>WoW_TAL_011_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_295o" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -19569,21 +19627,9 @@ Magiczna siła, boję się...”
 			<zhTW>拉格納羅斯是被黑鐵矮人召喚出來的，但他們後來反倒被炎魔奴役。只能說，召喚拉格納羅斯通常不會達到你期望的結果。</zhTW>
 		</Tag>
 		<Tag enumID="32" name="TriggerVisual" type="Bool" value="1"/>
-		<Power definition="47bdf685-e18e-4f5b-a6f0-a1c0dc124a9f"/>
 		<Power definition="c43bc5ec-c7d0-4e2d-8637-5c68a33bb5d2"/>
-		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True" type="LocString">
-			<deDE>Ragnaros hat 8 zufälligen Schaden verursacht.</deDE>
-			<esES>Ragnaros ha infligido 8 p. de daño aleatorio.</esES>
-			<esMX>Ragnaros infligió 8 de daño aleatorio.</esMX>
-			<frFR>Ragnaros a infligé 8 points de dégâts aléatoires.</frFR>
-			<itIT>Ragnaros ha inflitto 8 danni a un nemico casuale.</itIT>
-			<koKR>라그나로스가 무작위 적에게 피해 8 줌</koKR>
-			<plPL>Ragnaros zadał losowo 8 pkt. obrażeń.</plPL>
-			<ptBR>Ragnaros causou 8 de dano aleatório.</ptBR>
-			<ruRU>Рагнарос нанес 8 ед. урона случайному персонажу противника.</ruRU>
-			<zhCN>拉格纳罗斯随机造成8点伤害。</zhCN>
-			<zhTW>拉格納羅斯造成了8點的隨機傷害。</zhTW>
-		</TriggeredPowerHistoryInfo>
+		<Power definition="36c872c7-3b2b-4a77-a4de-48ed62887235"/>
+		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True"/>
 		<Tag enumID="227" type="Bool" value="1"/>
 		<Texture>w2_059_D</Texture>
 	</Entity>
@@ -19681,7 +19727,7 @@ Magiczna siła, boję się...”
 			<esES>Inflige $1 p. de daño a un esbirro. Si eso lo mata, roba una carta.</esES>
 			<esMX>Inflige $1 de daño a un esbirro. Si es suficiente para matarlo, roba una carta.</esMX>
 			<frFR>Inflige $1 |4(point,points) de dégâts à un serviteur. Vous piochez une carte si ce serviteur est tué.</frFR>
-			<itIT>Infligge $1 danno a un servitore. Se il bersaglio muore, pesca una carta.</itIT>
+			<itIT>Infligge $1 |4(danno,danni) a un servitore. Se il bersaglio muore, pesca una carta.</itIT>
 			<koKR>하수인 하나에게 피해를 $1 줍니다. 이때 그 하수인이 죽으면 카드를 1장 뽑습니다.</koKR>
 			<plPL>Zadaj $1 pkt. obrażeń stronnikowi. Jeśli go zabijesz, dobierz kartę.</plPL>
 			<ptBR>Cause $1 de dano a um lacaio. Se ele morrer, compre um card.</ptBR>
@@ -19823,7 +19869,7 @@ Magiczna siła, boję się...”
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="200" name="Race" type="Race" value="15"/>
-		<Tag enumID="342" name="ArtistName" type="String">Alex Horley Orlandelli</Tag>
+		<Tag enumID="342" name="ArtistName" type="String">Alexander Alexandrov</Tag>
 		<Tag enumID="351" name="FlavorText" type="LocString">
 			<enUS>If you put this into your deck, you WILL lose the trust of your other minions.</enUS>
 			<deDE>Wenn er auftaucht, herrscht um ihn herum gähnende Leere.</deDE>
@@ -19840,6 +19886,7 @@ Magiczna siła, boję się...”
 		</Tag>
 		<Tag enumID="218" name="Battlecry" type="Bool" value="1"/>
 		<Power definition="5c1e2577-5995-40a0-9b89-533372e84877"/>
+		<Texture>w21_a125</Texture>
 	</Entity>
 	<Entity CardID="EX1_304e" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -20004,6 +20051,8 @@ Magiczna siła, boję się...”
 		<Tag enumID="365" name="HowToGetThisGoldCard" type="LocString">
 			<enUS>Unlocked at Level 28.</enUS>
 		</Tag>
+		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
+		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Power definition="59ec1a94-36e2-45e2-a7d6-4958f435ac69">
 			<PlayRequirement param="" reqID="11"/>
 		</Power>
@@ -20412,9 +20461,10 @@ Magiczna siła, boję się...”
 		</Tag>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="2"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="2"/>
+		<Tag enumID="32" name="TriggerVisual" type="Bool" value="1"/>
 		<Power definition="cdc12f38-a48d-4561-819f-de231b4c350a"/>
 		<Power definition="61cbc9fb-cdaf-45ce-9f0f-61d74aedfc8c"/>
-		<TriggeredPowerHistoryInfo effectIndex="-1" showInHistory="False"/>
+		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False"/>
 		<Texture>W7_129_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_317" version="2">
@@ -20921,6 +20971,7 @@ Magiczna siła, boję się...”
 		<Power definition="ee6d8251-dc1d-45d3-af82-3928d229dcd2"/>
 		<Power definition="77b55ec5-7e11-4c32-8e26-a84e0e373f99"/>
 		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False"/>
+		<Texture>W5_080_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_335" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -21083,7 +21134,7 @@ Magiczna siła, boję się...”
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
-		<Tag enumID="342" name="ArtistName" type="String">Darrell Riche</Tag>
+		<Tag enumID="342" name="ArtistName" type="String">Blizzard Entertainment</Tag>
 		<Tag enumID="351" name="FlavorText" type="LocString">
 			<enUS>It isn't clear if people ignore the Lightwell, or if it is just invisible.</enUS>
 			<deDE>Noch ist es unter Experten nicht geklärt, ob Leute den Lichtbrunnen einfach ignorieren oder ob er unsichtbar ist.</deDE>
@@ -21100,19 +21151,7 @@ Magiczna siła, boję się...”
 		</Tag>
 		<Tag enumID="32" name="TriggerVisual" type="Bool" value="1"/>
 		<Power definition="a7a18f6d-1143-4aa0-907e-8b1b404217d5"/>
-		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True" type="LocString">
-			<deDE>3 Leben bei einem zufälligen befreundeten Charakter wiederhergestellt.</deDE>
-			<esES>El Pozo de Luz ha restaurado 3 p. de salud a un personaje amistoso aleatorio.</esES>
-			<esMX>Se ha restaurado 3 de Salud a un personaje aliado.</esMX>
-			<frFR>3 points de vie rendus à un personnage allié aléatoire.</frFR>
-			<itIT>Il Pozzo di Luce ha rigenerato 3 Salute a un tuo personaggio.</itIT>
-			<koKR>무작위 아군 캐릭터 하나의 생명력을 3 회복시킴</koKR>
-			<plPL>Przywrócono 3 pkt. zdrowia losowej przyjaznej postaci.</plPL>
-			<ptBR>Restaurou 3 de Vida de um personagem aliado aleatório.</ptBR>
-			<ruRU>Ваш случайный персонаж восстановил 3 ед. здоровья.</ruRU>
-			<zhCN>随机为一个友方角色恢复3点生命值。</zhCN>
-			<zhTW>使一個隨機友方角色恢復3點生命值。</zhTW>
-		</TriggeredPowerHistoryInfo>
+		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True"/>
 		<Texture>W2_268_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_345" version="2">
@@ -21451,6 +21490,7 @@ Magiczna siła, boję się...”
 			<PlayRequirement param="" reqID="11"/>
 			<PlayRequirement param="" reqID="1"/>
 		</Power>
+		<Texture>W12_a074_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_355e" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -21552,6 +21592,7 @@ Magiczna siła, boję się...”
 			<PlayRequirement param="" reqID="11"/>
 			<PlayRequirement param="" reqID="1"/>
 		</Power>
+		<Texture>w3_032_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_360e" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -21598,7 +21639,7 @@ Magiczna siła, boję się...”
 			<deDE>Argentumbeschützer</deDE>
 			<esES>Protector Argenta</esES>
 			<esMX>Protector argenta</esMX>
-			<frFR>Protecteur de l’Aube</frFR>
+			<frFR>Protecteur d’Argent</frFR>
 			<itIT>Protettore d'Argento</itIT>
 			<koKR>여명회 파수병</koKR>
 			<plPL>Protektor Argentu</plPL>
@@ -21653,7 +21694,7 @@ Magiczna siła, boję się...”
 			<deDE>„Ich sage nicht, dass Ihr Feuerbällen ausweichen könnt. Ich sage Euch, dass Ihr es mit diesem Schild nicht mehr müsst.“</deDE>
 			<esES>&quot;No digo que puedas esquivar bolas de fuego. Digo que, con este escudo, no te hará falta&quot;.</esES>
 			<esMX>&quot;No digo que puedes esquivar bolas de fuego. Digo que con este escudo no te hará falta&quot;.</esMX>
-			<frFR>« Je ne dis pas que tu peux éviter les boules de feu. Non. ce que je veux dire, c’est qu’avec ce bouclier, tu ne les sentiras plus. »</frFR>
+			<frFR>« Je ne dis pas que tu peux éviter les boules de feu. Non. Ce que je veux dire, c’est qu’avec ce bouclier, tu ne les sentiras plus. »</frFR>
 			<itIT>&quot;Potrai anche schivare le palle di fuoco, ma con questo scudo non ne avrai bisogno.&quot;</itIT>
 			<koKR>&quot;화염구를 피할 수 있다고 말하는 게 아닙니다. 이 보호막이 있으면 피할 필요가 없다는 거지요.&quot;</koKR>
 			<plPL>„Nie znaczy to, że możesz teraz uchylać się przed kulami ognia. Dzięki tej tarczy nie będziesz musiał”.</plPL>
@@ -21765,8 +21806,10 @@ Magiczna siła, boję się...”
 		</Tag>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="1"/>
+		<Tag enumID="32" name="TriggerVisual" type="Bool" value="1"/>
 		<Power definition="7e4c92e1-838f-409f-beaa-4c26a3e2fc59"/>
 		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False"/>
+		<Texture>W6_019_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_363e2" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -21802,8 +21845,10 @@ Magiczna siła, boję się...”
 		</Tag>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="2"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="2"/>
+		<Tag enumID="32" name="TriggerVisual" type="Bool" value="1"/>
 		<Power definition="6e9ec9be-2100-413b-aa27-032d08f22df3"/>
 		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False"/>
+		<Texture>W6_019_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_365" version="2">
 		<MasterPower>5387f21c-5014-485e-a39f-3d05c5e1d592</MasterPower>
@@ -21826,7 +21871,7 @@ Magiczna siła, boję się...”
 			<deDE>Zieht eine Karte und verursacht Schaden, der ihren Kosten entspricht.</deDE>
 			<esES>Roba una carta e inflige un daño equivalente a su coste.</esES>
 			<esMX>Roba una carta e inflige daño equivalente a su costo.</esMX>
-			<frFR>Vous piochez une carte qui inflige des dégâts d’un montant égal à son coût.</frFR>
+			<frFR>Vous piochez une carte et infligez des dégâts d’un montant égal à son coût.</frFR>
 			<itIT>Pesca una carta e infligge danni pari al suo costo.</itIT>
 			<koKR>카드를 1장 뽑고 그 카드의 비용만큼 피해를 줍니다.</koKR>
 			<plPL>Dobierz kartę i zadaj obrażenia równe jej kosztowi.</plPL>
@@ -21961,6 +22006,7 @@ Magiczna siła, boję się...”
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="1"/>
 		<Power definition="d6310bdb-606c-41d6-9062-9ad78b26b5a7"/>
+		<Texture>W11_181(EA)_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_371" version="2">
 		<MasterPower>cfb61b8f-4148-4c61-b5a2-89bba5f04bbd</MasterPower>
@@ -22089,6 +22135,7 @@ Magiczna siła, boję się...”
 		<Power definition="863ac1d9-0deb-46c8-b6bb-82ced27b7bf9"/>
 		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False"/>
 		<TriggeredPowerHistoryInfo effectIndex="1" showInHistory="False"/>
+		<Texture>W12_a129_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_379e" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -22209,16 +22256,39 @@ Magiczna siła, boję się...”
 	<Entity CardID="EX1_382e" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
 			<enUS>Stand Down!</enUS>
+			<deDE>Waffen niederlegen!</deDE>
+			<esES>¡Baja las armas!</esES>
+			<esMX>¡Descansen!</esMX>
+			<frFR>Du calme !</frFR>
+			<itIT>Pacificazione</itIT>
+			<koKR>물러서!</koKR>
+			<plPL>Ustąp pola!</plPL>
+			<ptBR>Baixem as armas!</ptBR>
+			<ruRU>Отступись!</ruRU>
+			<zhCN>老实点！</zhCN>
+			<zhTW>退下!</zhTW>
 		</Tag>
 		<Tag enumID="183" name="CardSet" type="CardSet" value="3"/>
 		<Tag enumID="202" name="CardType" type="CardType" value="6"/>
 		<Tag enumID="199" name="Class" type="Class" value="5"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
 			<enUS>Attack changed to 1.</enUS>
+			<deDE>Angriff auf 1 gesetzt.</deDE>
+			<esES>Ataque cambiado a 1 p.</esES>
+			<esMX>Cambia el Ataque a 1.</esMX>
+			<frFR>L’Attaque est passée à 1.</frFR>
+			<itIT>Attacco pari a 1.</itIT>
+			<koKR>공격력 1로 바뀜</koKR>
+			<plPL>Atak zmieniony na 1.</plPL>
+			<ptBR>Ataque alterado para 1.</ptBR>
+			<ruRU>Атака стала равна 1.</ruRU>
+			<zhCN>攻击力变为1点。</zhCN>
+			<zhTW>攻擊力改為1點</zhTW>
 		</Tag>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Power definition="1b01d285-c8be-4c45-9d67-e7a27c692ef4"/>
+		<Texture>W4_062_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_383" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -22801,7 +22871,7 @@ Magiczna siła, boję się...”
 			<deDE>Wer den Schaden hat, braucht für den ... Schaden nicht zu sorgen.</deDE>
 			<esES>¡No hay dolor!</esES>
 			<esMX>El que no pena, no gana.</esMX>
-			<frFR>On n’a rien sans rien.</frFR>
+			<frFR>Les meilleures défenses, c’est l’attaque.</frFR>
 			<itIT>Ciò che non ti uccide ti fortifica.</itIT>
 			<koKR>아픈 만큼 성숙하는 법입니다.</koKR>
 			<plPL>Tak naprawdę to lubi, gdy go boli.</plPL>
@@ -22813,6 +22883,7 @@ Magiczna siła, boję się...”
 		<Tag enumID="32" name="TriggerVisual" type="Bool" value="1"/>
 		<Power definition="a3af8c2b-c744-4ebf-86b4-4130748f7dcb"/>
 		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False"/>
+		<Texture>W13_002_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_399e" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -22879,7 +22950,7 @@ Magiczna siła, boję się...”
 			<esES>Inflige $1 p. de daño a todos los esbirros.</esES>
 			<esMX>Inflige $1 de daño a TODOS los esbirros.</esMX>
 			<frFR>Inflige $1 |4(point,points) de dégâts à TOUS les serviteurs.</frFR>
-			<itIT>Infligge $1 danno a TUTTI i servitori.</itIT>
+			<itIT>Infligge $1 |4(danno,danni) a TUTTI i servitori.</itIT>
 			<koKR>&lt;b&gt;모든&lt;/b&gt; 하수인에게 피해를 $1 줍니다.</koKR>
 			<plPL>Zadaj $1 pkt. obrażeń WSZYSTKIM stronnikom.</plPL>
 			<ptBR>Cause $1 de dano a TODOS os lacaios.</ptBR>
@@ -22909,6 +22980,8 @@ Magiczna siła, boję się...”
 		<Tag enumID="365" name="HowToGetThisGoldCard" type="LocString">
 			<enUS>Unlocked at Level 32.</enUS>
 		</Tag>
+		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
+		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Power definition="79654337-4a80-4672-94ca-ebd26dbcd9e6"/>
 		<Texture>W6_076_D</Texture>
 	</Entity>
@@ -23118,7 +23191,7 @@ Magiczna siła, boję się...”
 		<Tag enumID="203" name="Rarity" type="Rarity" value="3"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="1"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>Deal $4 damage.  If your hero has 12 or less Health, deal $6 damage instead.</enUS>
+			<enUS>Deal $4 damage.  If you have 12 or less Health, deal $6 instead.</enUS>
 			<deDE>Verursacht $4 Schaden. Verursacht stattdessen $6 Schaden, wenn Euer Held max. 12 Leben hat.</deDE>
 			<esES>Inflige $4 p. de daño. Si tienes 12 p. de salud o menos, infliges $6 p. de daño.</esES>
 			<esMX>Inflige $4 de daño. Si tienes 12 de Salud o menos, inflige $6 de daño.</esMX>
@@ -23184,11 +23257,11 @@ Magiczna siła, boję się...”
 			<esES>Si tienes un arma, le otorga +1/+1. Si no, equipa un arma 1/3.</esES>
 			<esMX>Si tienes un arma, le otorga +1/+1. Si no, equipa un arma 1/3.</esMX>
 			<frFR>Si vous avez une arme, lui donne +1/+1. Sinon, vous équipe d’une arme 1/3.</frFR>
-			<itIT>Se possiedi un'arma, gli fornisce +1/+1. Altrimenti, equipaggia un'arma 1/3.</itIT>
+			<itIT>Se possiedi un'arma, le fornisce +1/+1. Altrimenti, equipaggia un'arma 1/3.</itIT>
 			<koKR>내가 무기를 장착하고 있으면 +1/+1을 부여합니다. 무기가 없다면 1/3 무기를 장착합니다.</koKR>
 			<plPL>Jeśli masz broń, daj jej +1/+1. W innym przypadku otrzymujesz broń 1/3.</plPL>
 			<ptBR>Se você tiver uma arma, conceda-lhe +1/+1. Se não tiver, equipe uma arma 1/3.</ptBR>
-			<ruRU>Если у вас есть оружие, оно получает +1/+1. В ином случае вы экипируетесь оружием 1/3.</ruRU>
+			<ruRU>Если у вас есть оружие, оно получает +1/+1. В ином случае вы берете в руки оружие 1/3.</ruRU>
 			<zhCN>如果你有一把武器，使它获得+1/+1。否则，装备一把1/3的武器。</zhCN>
 			<zhTW>如果你有武器，賦予它+1/+1。若無，則裝備一把1/3的武器</zhTW>
 		</Tag>
@@ -23211,6 +23284,7 @@ Magiczna siła, boję się...”
 			<zhTW>這至少值50點的DKP。</zhTW>
 		</Tag>
 		<Power definition="7d8746db-98bb-499c-be00-f37be77cd424"/>
+		<Texture>W4_183_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_409e" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -23389,11 +23463,11 @@ Magiczna siła, boję się...”
 			<zhCN>格罗玛什·地狱咆哮的著名战斧。然而它却在玛克扎尔王子的手中。这是怎么回事！</zhCN>
 			<zhTW>葛羅瑪許·地獄吼知名的斧頭。不知道為什麼，最後是到了莫克札王子的手上。真是詭異!</zhTW>
 		</Tag>
-		<Tag enumID="32" name="TriggerVisual" type="Bool" value="1"/>
 		<Power definition="2f53f80c-0a44-458c-8972-dde234388d71"/>
 		<Power definition="2f429391-432d-4a28-bbb6-d629403fee94"/>
 		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False"/>
 		<TriggeredPowerHistoryInfo effectIndex="1" showInHistory="False"/>
+		<Texture>W8_111_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_411e" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -23432,6 +23506,7 @@ Magiczna siła, boję się...”
 		<Power definition="11b51841-1974-475d-b6df-70a47e2b3a3b"/>
 		<Power definition="5ccc4fe4-f6ef-4664-b4f1-75fa29db100e"/>
 		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False"/>
+		<Texture>W8_111_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_411e2" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -23440,7 +23515,7 @@ Magiczna siła, boję się...”
 			<esES>Hay que afilarla</esES>
 			<esMX>Desafilada</esMX>
 			<frFR>Affûtage nécessaire</frFR>
-			<itIT>Richiede Affilatura</itIT>
+			<itIT>Lama Usurata</itIT>
 			<koKR>무뎌진 날</koKR>
 			<plPL>Wymaga ostrzenia</plPL>
 			<ptBR>Precisa ser afiado</ptBR>
@@ -23468,6 +23543,7 @@ Magiczna siła, boję się...”
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Power definition="d359c1b6-ce2c-48ea-9695-d467d5dccb00"/>
+		<Texture>W8_111_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_412" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -23509,7 +23585,7 @@ Magiczna siła, boję się...”
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
-		<Tag enumID="342" name="ArtistName" type="String">Dany Orizio</Tag>
+		<Tag enumID="342" name="ArtistName" type="String">Alex Horley Orlandelli</Tag>
 		<Tag enumID="351" name="FlavorText" type="LocString">
 			<enUS>If he's raging now, just wait until he gets nerfed.</enUS>
 			<deDE>Wenn er jetzt schon tobt, dann wartet erst mal, bis wir den Nerfhammer auspacken!</deDE>
@@ -23581,7 +23657,7 @@ Magiczna siła, boję się...”
 			<plPL>Grommasz wypił splugawioną krew Mannorota, skazując orków na zieloną skórę i czerwone oczy. To chyba nie była najlepsza decyzja.</plPL>
 			<ptBR>Grommash bebeu do sangue maculado de Mannoroth, amaldiçoando todos os orcs com pele verde e olhos vermelhos! Acho que não foi uma boa decisão.</ptBR>
 			<ruRU>Громмаш выпил оскверненную кровь Маннорота и обрек орков на зеленую кожу и красные глаза. Возможно, это было не лучшим из его решений.</ruRU>
-			<zhCN>格罗玛什饮下玛诺洛斯之血，让因此受到诅咒的兽人们皮肤变绿、双眼变红！真是不明智的选择。</zhCN>
+			<zhCN>灰谷南方，来自地狱的咆哮还在回响。</zhCN>
 			<zhTW>葛羅瑪許帶頭喝了瑪諾洛斯的腐化之血，害獸人皮膚變綠，眼睛變紅!顯然不是個明智的決定。</zhTW>
 		</Tag>
 		<Tag enumID="197" name="Charge" type="Bool" value="1"/>
@@ -23738,6 +23814,7 @@ Magiczna siła, boję się...”
 		</Tag>
 		<Tag enumID="362" name="Aura" type="Bool" value="1"/>
 		<Power definition="58695e7b-cec4-4333-9dc5-26bebcef653f"/>
+		<Texture>W18_a149_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_507e" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -23875,6 +23952,7 @@ Magiczna siła, boję się...”
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Power definition="69972a5d-2ba5-4c5e-98d6-3c904b6bc1ea"/>
+		<Texture>W16_a185_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_509" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -23971,6 +24049,7 @@ Magiczna siła, boję się...”
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="1"/>
 		<Power definition="1355dea6-7725-4a7d-a7dd-4ff073ec504b"/>
+		<Texture>W17_a104_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_522" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -24136,6 +24215,7 @@ Magiczna siła, boję się...”
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="1"/>
 		<Power definition="e4221196-0d91-4df3-8a70-ddfe3521bc30"/>
+		<Texture>W11_071_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_533" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -24187,7 +24267,7 @@ Magiczna siła, boję się...”
 			<plPL>Czasami wystarczy przykleić sztuczne wąsy i wskazać kogoś innego.</plPL>
 			<ptBR>Às vezes é tão fácil que basta um bigode falso e o dedo em riste na direção de alguém.</ptBR>
 			<ruRU>Иногда это так же просто, как позвонить в чью-то дверь и выбежать из подъезда.</ruRU>
-			<zhCN>有时候，这就和贴上假胡子，然后指着别人一样简单。</zhCN>
+			<zhCN>再狡猾的狐狸……也会被猎人误导。</zhCN>
 			<zhTW>有時候簡單到只要戴上假鬍子然後指著另一個人就行了。</zhTW>
 		</Tag>
 		<Tag enumID="219" name="Secret" type="Bool" value="1"/>
@@ -24317,7 +24397,7 @@ Magiczna siła, boję się...”
 			<frFR>Chaque fois qu’un &lt;b&gt;Secret&lt;/b&gt; est révélé, gagne +1 Durabilité.</frFR>
 			<itIT>Ottiene +1 Integrità quando viene rivelato un &lt;b&gt;Segreto&lt;/b&gt;.</itIT>
 			<koKR>&lt;b&gt;비밀&lt;/b&gt;이 밝혀질 때마다 내구도를 +1 얻습니다.</koKR>
-			<plPL>Za każdym razem, gdy ujawniony zostaje &lt;b&gt;Sekret&lt;/b&gt;, zyskuje 1 pkt. wytrzymałości.</plPL>
+			<plPL>Za każdym razem gdy ujawniony zostaje &lt;b&gt;Sekret&lt;/b&gt;, zyskuje 1 pkt. wytrzymałości.</plPL>
 			<ptBR>Sempre que um &lt;b&gt;Segredo&lt;/b&gt; for revelado, receba +1 de Durabilidade.</ptBR>
 			<ruRU>Каждый раз, когда открывается &lt;b&gt;Секрет&lt;/b&gt;, это оружие получает +1 к прочности.</ruRU>
 			<zhCN>每当有一张&lt;b&gt;奥秘&lt;/b&gt;牌被揭示时，便获得+1耐久度。</zhCN>
@@ -24344,6 +24424,7 @@ Magiczna siła, boję się...”
 		<ReferencedTag enumID="219" name="Secret" type="Bool" value="1"/>
 		<Power definition="c2837368-05ea-48d2-be0c-6af00c84911d"/>
 		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False"/>
+		<Texture>W2_032_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_536e" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -24481,7 +24562,7 @@ Magiczna siła, boję się...”
 		</Tag>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
-		<Tag enumID="342" name="ArtistName" type="String">Velvet Engine</Tag>
+		<Tag enumID="342" name="ArtistName" type="String">Linggar Bramanty</Tag>
 		<Tag enumID="351" name="FlavorText" type="LocString">
 			<enUS>You must read the name of this card out loud each time you play it.</enUS>
 			<deDE>Ihr müsst den Namen dieser Karte jedes Mal laut aussprechen, wenn Ihr sie ausspielt.</deDE>
@@ -24501,6 +24582,7 @@ Magiczna siła, boję się...”
 		<Power definition="b560ff40-9ed7-4ff7-8a7a-120d802afb3c">
 			<PlayRequirement param="0" reqID="23"/>
 		</Power>
+		<Texture>W20_a161_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_538t" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -24573,7 +24655,7 @@ Magiczna siła, boję się...”
 			<esES>Inflige $3 p. de daño. Si tienes una bestia en juego, inflige $5 p. de daño.</esES>
 			<esMX>Inflige $3 de daño. Si tienes una Bestia, en cambio, inflige $5 de daño.</esMX>
 			<frFR>Inflige $3 |4(point,points) de dégâts. Si vous avez une bête, inflige $5 |4(point,points) de dégâts à la place.</frFR>
-			<itIT>Infligge $3 danni. Se possiedi una Bestia, infligge $5 danni.</itIT>
+			<itIT>Infligge $3 danni. Se controlli una Bestia, infligge $5 danni.</itIT>
 			<koKR>피해를 $3 줍니다. 전장에 내 야수가 있다면 피해를 $5 줍니다.</koKR>
 			<plPL>Zadaj $3 pkt. obrażeń. Jeśli masz Bestię, zamiast tego zadaj $5 pkt. obrażeń.</plPL>
 			<ptBR>Cause $3 de dano. Se você tiver uma Fera, cause $5 de dano em vez de $3.</ptBR>
@@ -24761,7 +24843,7 @@ Magiczna siła, boję się...”
 			<ptBR>Conceda +2 de Ataque e &lt;b&gt;Imunidade&lt;/b&gt; a uma Fera neste turno.</ptBR>
 			<ruRU>Выбранный зверь получает +2 к атаке и &lt;b&gt;неуязвимость&lt;/b&gt; до конца хода.</ruRU>
 			<zhCN>在本回合中，使一只野兽获得+2攻击力并具有&lt;b&gt;免疫&lt;/b&gt;。</zhCN>
-			<zhTW>賦予一隻野獸+2攻擊力，及本回合&lt;b&gt;免疫&lt;/b&gt;</zhTW>
+			<zhTW>本回合賦予一隻野獸+2攻擊力及&lt;b&gt;免疫&lt;/b&gt;</zhTW>
 		</Tag>
 		<Tag enumID="321" name="Collectible" type="Bool" value="1"/>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
@@ -24786,6 +24868,7 @@ Magiczna siła, boję się...”
 			<PlayRequirement param="" reqID="11"/>
 			<PlayRequirement param="20" reqID="10"/>
 		</Power>
+		<Texture>W16_a038_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_549o" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -24995,18 +25078,18 @@ Magiczna siła, boję się...”
 		<Tag enumID="201" name="Faction" type="Faction" value="3"/>
 		<Tag enumID="251" name="AttackVisualType" type="AttackVisualType" value="6"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>At the end of your turn, you have a 50% chance to draw a card.</enUS>
-			<deDE>Am Ende Eures Zuges besteht eine Chance von 50 %, dass Ihr eine Karte zieht.</deDE>
-			<esES>Al final de tu turno tienes un 50% de probabilidad de robar una carta.</esES>
-			<esMX>Al final de tu turno, tienes un 50% de probabilidad de robar una carta.</esMX>
-			<frFR>À la fin de votre tour, vous avez 50% de chances de piocher une carte.</frFR>
-			<itIT>Alla fine del tuo turno, hai una probabilità del 50% di pescare una carta.</itIT>
-			<koKR>내 턴이 끝날 때, 50%의 확률로 카드를 1장 뽑습니다.</koKR>
-			<plPL>Na końcu swojej tury masz 50% szans na dobranie karty.</plPL>
-			<ptBR>No final do seu turno, você tem 50% de chance de comprar um card.</ptBR>
-			<ruRU>В конце вашего хода вы с вероятностью 50% берете карту.</ruRU>
-			<zhCN>在你的回合结束时，你有50%的几率抽一张牌。</zhCN>
-			<zhTW>在你的回合結束時，你有50%的機率抽一張牌</zhTW>
+			<enUS>At the start of your turn, you have a 50% chance to draw an extra card.</enUS>
+			<deDE>Zu Beginn Eures Zuges besteht eine Chance von 50%, dass Ihr eine zusätzliche Karte zieht.</deDE>
+			<esES>Al principio de tu turno tienes un 50% de probabilidad de robar una carta más.</esES>
+			<esMX>Al comienzo de tu turno, tienes un 50 % de probabilidad de robar una carta adicional.</esMX>
+			<frFR>Au début de votre tour, vous avez 50% de chances de piocher une carte supplémentaire.</frFR>
+			<itIT>All'inizio del tuo turno, hai una probabilità del 50% di pescare una carta aggiuntiva.</itIT>
+			<koKR>내 턴이 시작될 때, 50%의 확률로 추가 카드를 1장 뽑습니다.</koKR>
+			<plPL>Na początku swojej tury masz 50% szans na dobranie dodatkowej karty.</plPL>
+			<ptBR>No início do seu turno, você tem 50% de chance de comprar um card extra.</ptBR>
+			<ruRU>В начале вашего хода вы с вероятностью 50% берете дополнительную карту.</ruRU>
+			<zhCN>在你的回合开始时，你有50%的几率额外抽一张牌。</zhCN>
+			<zhTW>在你的回合開始時，你有50%的機率多抽一張牌</zhTW>
 		</Tag>
 		<Tag enumID="252" name="CardTextInPlay" type="LocString">
 			<enUS>Fishing</enUS>
@@ -25649,6 +25732,7 @@ Magiczna siła, boję się...”
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Power definition="76787fd2-405b-4e4c-bc0c-c553e49c1546"/>
+		<Texture>W14_a137_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_567" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -25864,7 +25948,9 @@ Magiczna siła, boję się...”
 			<zhTW>「我想先在那些樹下打個盹。等等...啊啊啊啊!!!」-不幸的地精布林克非茲</zhTW>
 		</Tag>
 		<ReferencedTag enumID="197" name="Charge" type="Bool" value="1"/>
-		<Power definition="d693477e-0b88-45d1-bad5-5384baaeb1f7"/>
+		<Power definition="d693477e-0b88-45d1-bad5-5384baaeb1f7">
+			<PlayRequirement param="1" reqID="12"/>
+		</Power>
 		<Texture>W3_098_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_572" version="2">
@@ -25992,7 +26078,7 @@ Magiczna siła, boję się...”
 			<plPL>Tak, to półbóg. Nie, nie musi nosić koszuli.</plPL>
 			<ptBR>Sim ele é um semideus. Não, ele não precisa usar uma camisa.</ptBR>
 			<ruRU>Да, он действительно полубог. Нет, он не носит рубашки.</ruRU>
-			<zhCN>没错，他是个半神。不，他没必要穿衬衫。</zhCN>
+			<zhCN>“当它们还是种子的时候，我便认识它们了……”</zhCN>
 			<zhTW>是的，他是個半神。不，他不需要穿上衣。</zhTW>
 		</Tag>
 		<ReferencedTag enumID="190" name="Taunt" type="Bool" value="1"/>
@@ -26036,6 +26122,7 @@ Magiczna siła, boję się...”
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Power definition="f52f098d-dd17-41af-b8d7-694ba480e7ba"/>
+		<Texture>W13_280_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_573ae" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -26073,6 +26160,7 @@ Magiczna siła, boję się...”
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="1"/>
 		<Power definition="9aa94cb4-11bd-4f7c-904f-5e5c062d41d1"/>
+		<Texture>W17_a013_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_573b" version="2">
 		<MasterPower>e66f1bb3-dec4-40cd-a851-cdc6fcb761e6</MasterPower>
@@ -26226,7 +26314,7 @@ Magiczna siła, boję się...”
 			<koKR>괴수</koKR>
 			<plPL>Bestia</plPL>
 			<ptBR>A Fera</ptBR>
-			<ruRU>Зверь</ruRU>
+			<ruRU>Чудовище</ruRU>
 			<zhCN>比斯巨兽</zhCN>
 			<zhTW>比斯巨獸</zhTW>
 		</Tag>
@@ -26363,7 +26451,7 @@ Magiczna siła, boję się...”
 			<deDE>Lasst einen feindlichen Diener auf die Hand Eures Gegners zurückkehren.</deDE>
 			<esES>Devuelve a un esbirro enemigo a la mano de tu oponente.</esES>
 			<esMX>Devuelve un esbirro enemigo a la mano de tu adversario.</esMX>
-			<frFR>Renvoie un serviteur adverse dans la main de son propriétaire.</frFR>
+			<frFR>Renvoie un serviteur adverse dans la main de votre adversaire.</frFR>
 			<itIT>Fa tornare un servitore nemico nella mano del tuo avversario.</itIT>
 			<koKR>적 하수인 하나를 상대편의 손으로 돌려보냅니다.</koKR>
 			<plPL>Cofasz wrogiego stronnika na rękę przeciwnika.</plPL>
@@ -26548,7 +26636,7 @@ Magiczna siła, boję się...”
 			<esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Otorga &lt;b&gt;+1 p. de daño con hechizos&lt;/b&gt; a los esbirros adyacentes.</esES>
 			<esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; otorga &lt;b&gt;Daño de hechizo +1&lt;/b&gt; a los esbirros adyacentes.</esMX>
 			<frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; donne aux serviteurs adjacents &lt;b&gt;+1 aux dégâts des sorts&lt;/b&gt;.</frFR>
-			<itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; &lt;b&gt;+1 Danni Magici&lt;/b&gt; ai servitori adiacenti.</itIT>
+			<itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; fornisce &lt;b&gt;+1 Danni Magici&lt;/b&gt; ai servitori adiacenti.</itIT>
 			<koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 양옆의 하수인들에게 &lt;b&gt;주문 공격력 +1&lt;/b&gt;을 부여합니다.</koKR>
 			<plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Daj sąsiednim stronnikom &lt;b&gt;Siłę zaklęć +1&lt;/b&gt;.</plPL>
 			<ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Conceda &lt;b&gt;+1 de Dano Mágico&lt;/b&gt; aos lacaios adjacentes.</ptBR>
@@ -26578,6 +26666,7 @@ Magiczna siła, boję się...”
 		<Tag enumID="218" name="Battlecry" type="Bool" value="1"/>
 		<ReferencedTag enumID="192" name="Spellpower" type="Bool" value="1"/>
 		<Power definition="fb15ffb3-a414-4622-8c18-21783d04e778"/>
+		<Texture>W2_297_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_584e" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -26602,7 +26691,7 @@ Magiczna siła, boję się...”
 			<esES>&lt;b&gt;+1 p. de daño con hechizos&lt;/b&gt;.</esES>
 			<esMX>&lt;b&gt;Daño de hechizo +1&lt;/b&gt;.</esMX>
 			<frFR>&lt;b&gt;Dégâts des sorts : +1&lt;/b&gt;</frFR>
-			<itIT>&lt;b&gt;+1 Danni Magici&lt;/b&gt;</itIT>
+			<itIT>&lt;b&gt;+1 Danni Magici&lt;/b&gt;.</itIT>
 			<koKR>&lt;b&gt;주문 공격력 +1&lt;/b&gt;</koKR>
 			<plPL>&lt;b&gt;Obrażenia zaklęć +1&lt;/b&gt;</plPL>
 			<ptBR>&lt;b&gt;+1 de Dano Mágico&lt;/b&gt;.</ptBR>
@@ -26620,7 +26709,7 @@ Magiczna siła, boję się...”
 			<esES>Gigante de mar</esES>
 			<esMX>Gigante de mar</esMX>
 			<frFR>Géant des mers</frFR>
-			<itIT>Gigante del Mare</itIT>
+			<itIT>Gigante di Mare</itIT>
 			<koKR>바다거인</koKR>
 			<plPL>Morski olbrzym</plPL>
 			<ptBR>Gigante do Mar</ptBR>
@@ -26824,6 +26913,7 @@ Magiczna siła, boję się...”
 		<Tag enumID="218" name="Battlecry" type="Bool" value="1"/>
 		<ReferencedTag enumID="194" name="Divine Shield" type="Bool" value="1"/>
 		<Power definition="b83882c2-46ab-4376-b5f1-b9118273d371"/>
+		<Texture>W2_105_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_590e" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -27026,7 +27116,7 @@ Magiczna siła, boję się...”
 			<esES>Cuentan por ahí que Alamuerte provocó el Cataclismo tras perder una partida por culpa de esta carta. Nunca lo sabremos.</esES>
 			<esMX>Se rumorea que Alamuerte ocasionó el Cataclismo después de perder una partida por esta carta. Quizá nunca sepamos la verdad.</esMX>
 			<frFR>Il paraît qu’Aile de mort aurait perdu une partie en jouant cette carte, ce qui aurait provoqué un cataclysme... Mais toutes les preuves sont parties en fumée.</frFR>
-			<itIT>Si dice che Il Cataclisma venne originato da Alamorte quando perse contro un avversario che giocò questa carta.</itIT>
+			<itIT>Si dice che il Cataclisma venne originato da Alamorte quando perse contro un avversario che giocò questa carta.</itIT>
 			<koKR>데스윙이 이 카드 때문에 열 받아 대격변을 일으켰다는 말이 있습니다. 믿거나 말거나.</koKR>
 			<plPL>Czy Śmiercioskrzydły spowodował Kataklizm, bo kiedyś przegrał przez tę kartę? Możemy nigdy się tego nie dowiedzieć.</plPL>
 			<ptBR>Ouvi dizer que Asa da Morte causou o Cataclismo depois de perder um jogo para esse card. Nunca saberemos ao certo.</ptBR>
@@ -27202,6 +27292,7 @@ Magiczna siła, boję się...”
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="1"/>
 		<Power definition="a3d42752-91b8-47aa-87f5-f51ac8e0c216"/>
+		<Texture>W14_a046_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_597" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -27366,6 +27457,7 @@ Magiczna siła, boję się...”
 			<PlayRequirement param="" reqID="1"/>
 			<PlayRequirement param="" reqID="9"/>
 		</Power>
+		<Texture>W6_196_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_603e" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -27413,7 +27505,7 @@ Magiczna siła, boję się...”
 			<frFR>Berserker écumant</frFR>
 			<itIT>Berserker Rabbioso</itIT>
 			<koKR>거품 무는 광전사</koKR>
-			<plPL>Fanatyczny berserker</plPL>
+			<plPL>Rozjuszony berserker</plPL>
 			<ptBR>Berserker Espumante</ptBR>
 			<ruRU>Разъяренный берсерк</ruRU>
 			<zhCN>暴乱狂战士</zhCN>
@@ -27465,6 +27557,7 @@ Magiczna siła, boję się...”
 		<Tag enumID="32" name="TriggerVisual" type="Bool" value="1"/>
 		<Power definition="8794895b-e6c1-4564-bcd1-d2e17d129b77"/>
 		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False"/>
+		<Texture>W6_222_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_604o" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -27594,7 +27687,7 @@ Magiczna siła, boję się...”
 			<esES>Inflige $1 p. de daño a un esbirro y le otorga +2 p. de ataque.</esES>
 			<esMX>Inflige $1 de daño a un esbirro y le otorga +2 de Ataque.</esMX>
 			<frFR>Inflige $1 |4(point,points) de dégâts à un serviteur et lui confère +2 ATQ.</frFR>
-			<itIT>Infligge $1 danno a un servitore ma gli fornisce +2 Attacco.</itIT>
+			<itIT>Infligge $1 |4(danno,danni) a un servitore ma gli fornisce +2 Attacco.</itIT>
 			<koKR>하수인 하나에게 피해를 $1 주고 공격력을 +2 증가시킵니다.</koKR>
 			<plPL>Zadaj $1 pkt. obrażeń stronnikowi i daj mu +2 do ataku.</plPL>
 			<ptBR>Cause $1 de dano a um lacaio e conceda-lhe +2 de Ataque.</ptBR>
@@ -27659,6 +27752,7 @@ Magiczna siła, boję się...”
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="1"/>
 		<Power definition="8f8a557e-4dcd-46e2-bd99-b2f99e4a8841"/>
+		<Texture>W17_A197_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_608" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -27987,7 +28081,7 @@ Magiczna siła, boję się...”
 			<zhCN>肯瑞托的法师们居住在飘浮之城达拉然。怎样让达拉然飘起来？只要用魔法把氢气球变成透明的就行了。</zhCN>
 			<zhTW>祈倫托住在飄浮的城市達拉然裡。如何調製飄浮達拉然?兩球冰淇淋，一球達拉然。</zhTW>
 		</Tag>
-		<Tag enumID="342" name="ArtistName" type="String">Concept Art House</Tag>
+		<Tag enumID="342" name="ArtistName" type="String">Popo Wei</Tag>
 		<Tag enumID="218" name="Battlecry" type="Bool" value="1"/>
 		<ReferencedTag enumID="219" name="Secret" type="Bool" value="1"/>
 		<Power definition="87fac18f-63f8-4d0f-b005-adf249191811"/>
@@ -28032,6 +28126,7 @@ Magiczna siła, boję się...”
 		<Power definition="f1dbf231-9e02-48aa-bb50-bc1274430477"/>
 		<Power definition="839c446f-e882-4ddb-b398-52bf54d1a841"/>
 		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False"/>
+		<Texture>W16_a110_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_613" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -28129,6 +28224,7 @@ Magiczna siła, boję się...”
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="1"/>
 		<Power definition="e9cdbdd2-0f6c-4d4b-8db7-8aea60f75898"/>
+		<Texture>R7_a065_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_614" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -28161,7 +28257,7 @@ Magiczna siła, boję się...”
 			<frFR>Quand vous jouez une carte, invoque une Flamme d’Azzinoth 2/1.</frFR>
 			<itIT>Quando giochi una carta, evoca una Fiamma di Azzinoth 2/1.</itIT>
 			<koKR>내가 카드를 낼 때마다 2/1 아지노스의 불꽃을 하나 소환합니다.</koKR>
-			<plPL>Za każdym razem, gdy zagrywasz kartę, przyzywasz Płomień Azzinotha 2/1.</plPL>
+			<plPL>Za każdym razem gdy zagrywasz kartę, przyzywasz Płomień Azzinotha 2/1.</plPL>
 			<ptBR>Sempre que você jogar um card, evoque uma Labareda de Azzinoth 2/1.</ptBR>
 			<ruRU>Каждый раз, когда вы разыгрываете карту, на поле боя призывается пламя Аззинота 2/1.</ruRU>
 			<zhCN>每当你使用一张牌时，召唤一个2/1的埃辛诺斯之焰。</zhCN>
@@ -28389,6 +28485,7 @@ Magiczna siła, boję się...”
 			<zhTW>我們全部都是獨一無二的雪花...儘管只有一滴血。</zhTW>
 		</Tag>
 		<Power definition="6b165805-a3a1-4fa3-a040-f11b1ab1c131"/>
+		<Texture>W14_a024_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_619e" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -28409,7 +28506,7 @@ Magiczna siła, boję się...”
 		<Tag enumID="202" name="CardType" type="CardType" value="6"/>
 		<Tag enumID="199" name="Class" type="Class" value="5"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>This minion's Health has been changed to 1.</enUS>
+			<enUS>Health changed to 1.</enUS>
 			<deDE>Leben auf 1 gesetzt.</deDE>
 			<esES>Salud cambiada a 1 p.</esES>
 			<esMX>Salud cambiada a 1.</esMX>
@@ -28453,7 +28550,7 @@ Magiczna siła, boję się...”
 			<deDE>Kostet (1) weniger für jeden Schadenspunkt, den Euer Held erlitten hat.</deDE>
 			<esES>Cuesta (1) cristal menos por cada punto de daño que haya recibido tu héroe.</esES>
 			<esMX>Cuesta (1) menos por cada punto de daño que haya recibido tu héroe.</esMX>
-			<frFR>Coûte (1) de moins pour chaque point de dégâts subi par votre héros.</frFR>
+			<frFR>Coûte (1) cristal de moins pour chaque point de dégâts subi par votre héros.</frFR>
 			<itIT>Costa (1) Mana in meno per ogni danno subito dal tuo eroe.</itIT>
 			<koKR>내 영웅이 입은 피해 1당 비용이 1씩 감소합니다.</koKR>
 			<plPL>Kosztuje (1) mniej za każdy punkt obrażeń otrzymany przez twojego bohatera.</plPL>
@@ -28593,7 +28690,7 @@ Magiczna siła, boję się...”
 			<plPL>Jeśli spudłujesz, na celu zostanie blizna w kształcie błyskawicy.</plPL>
 			<ptBR>&quot;Aonde ele foi?&quot; &quot;Deixa ele pra lá! Me ajuda com esse murloc!&quot;</ptBR>
 			<ruRU>Если вы промахнетесь, оно оставит на лбу вашей цели шрам в виде молнии.</ruRU>
-			<zhCN>如果你的法术没有命中，那么你的目标身上会留下一道闪电箭形状的伤疤。</zhCN>
+			<zhCN>如果你的法术没有命中，那么你的目标身上会留下一道闪电形状的伤疤。</zhCN>
 			<zhTW>如果你施放失敗，只會在目標身上留下一個閃電形狀的疤痕。</zhTW>
 		</Tag>
 		<Power definition="af8152e7-6136-43c5-bf1d-7fdeb5e92066">
@@ -28716,6 +28813,7 @@ Magiczna siła, boję się...”
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Power definition="9a763ebb-9fdd-4dd8-bd2d-da1c47582a8e"/>
+		<Texture>W3_265_D</Texture>
 	</Entity>
 	<Entity CardID="EX1_624" version="2">
 		<MasterPower>79be47bc-2e0a-4680-8a0f-137ccf3f5550</MasterPower>
@@ -28753,7 +28851,7 @@ Magiczna siła, boję się...”
 			<zhCN>造成$5点伤害。为你的英雄恢复#5点生命值。</zhCN>
 			<zhTW>造成$5點傷害。使你的英雄恢復#5點生命值</zhTW>
 		</Tag>
-		<Tag enumID="342" name="ArtistName" type="String">Karl Richardson</Tag>
+		<Tag enumID="342" name="ArtistName" type="String">Miguel Coimbra</Tag>
 		<Tag enumID="351" name="FlavorText" type="LocString">
 			<enUS>Often followed by Holy Smokes!</enUS>
 			<deDE>Wird oft von Heiligem Rauch gefolgt.</deDE>
@@ -29303,6 +29401,7 @@ Evoca un Infernale 6/6.</itIT>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Power definition="24adab3a-3c6f-4491-9a31-b0366c36bf17"/>
+		<Texture>W16_a239_D</Texture>
 	</Entity>
 	<Entity CardID="GAME_002" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -29376,6 +29475,7 @@ Evoca un Infernale 6/6.</itIT>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Power definition="921f9dba-a203-402f-95e2-c60a6cc1120e"/>
 		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False"/>
+		<Texture>W16_a239_D</Texture>
 	</Entity>
 	<Entity CardID="GAME_003e" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -29449,6 +29549,7 @@ Evoca un Infernale 6/6.</itIT>
 		<Power definition="754e9084-d614-43c7-92a6-1fd4bf32accc"/>
 		<Power definition="53b60f51-f1b9-439c-b0d1-5bd62888d8fe"/>
 		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False"/>
+		<Texture>W16_a239_D</Texture>
 	</Entity>
 	<Entity CardID="GAME_005" version="2">
 		<MasterPower>355b524d-2e9b-4a97-81c3-7ae0ac4cdf0f</MasterPower>
@@ -29485,6 +29586,7 @@ Evoca un Infernale 6/6.</itIT>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Power definition="355b524d-2e9b-4a97-81c3-7ae0ac4cdf0f"/>
+		<Texture>coin_D</Texture>
 	</Entity>
 	<Entity CardID="GAME_005e" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -29755,7 +29857,7 @@ Evoca un Infernale 6/6.</itIT>
 			<frFR>Jaina Portvaillant</frFR>
 			<itIT>Jaina Marefiero</itIT>
 			<koKR>제이나 프라우드무어</koKR>
-			<plPL>Jaina Proudmoore</plPL>
+			<plPL>Jaina Dumnar</plPL>
 			<ptBR>Jaina Proudmore</ptBR>
 			<ruRU>Джайна Праудмур</ruRU>
 			<zhCN>吉安娜·普罗德摩尔</zhCN>
@@ -29773,6 +29875,7 @@ Evoca un Infernale 6/6.</itIT>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Power definition="73d98ee0-f6f6-4970-bf3e-453bd6d25735"/>
+		<Texture>Hero_portrait.png</Texture>
 	</Entity>
 	<Entity CardID="HERO_09" version="2">
 		<MasterPower>7e3d6eaa-4d6e-4b5a-8c60-b69c801d8faf</MasterPower>
@@ -29933,7 +30036,7 @@ Evoca un Infernale 6/6.</itIT>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="32" name="TriggerVisual" type="Bool" value="1"/>
 		<Power definition="8e845e27-d651-4bb6-915c-f7bcb18432a2"/>
-		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False"/>
+		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True"/>
 		<Texture>w2_250_D</Texture>
 	</Entity>
 	<Entity CardID="Mekka3" version="2">
@@ -30001,18 +30104,18 @@ Evoca un Infernale 6/6.</itIT>
 		<Tag enumID="183" name="CardSet" type="CardSet" value="11"/>
 		<Tag enumID="202" name="CardType" type="CardType" value="6"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>+1/+1.</enUS>
-			<deDE>+1/+1.</deDE>
-			<esES>+1/+1.</esES>
-			<esMX>+1/+1.</esMX>
-			<frFR>+1/+1.</frFR>
-			<itIT>+1/+1.</itIT>
-			<koKR>+1/+1</koKR>
-			<plPL>+1/+1</plPL>
-			<ptBR>+1/+1.</ptBR>
-			<ruRU>+1/+1.</ruRU>
-			<zhCN>+1/+1。</zhCN>
-			<zhTW>+1/+1</zhTW>
+			<enUS>Increased Stats.</enUS>
+			<deDE>Erhöhte Werte.</deDE>
+			<esES>Estadísticas aumentadas.</esES>
+			<esMX>Estadísticas aumentadas.</esMX>
+			<frFR>Caractéristiques augmentées.</frFR>
+			<itIT>Statistiche aumentate.</itIT>
+			<koKR>능력치 상승</koKR>
+			<plPL>Zwiększone statystyki.</plPL>
+			<ptBR>Atributos aumentados</ptBR>
+			<ruRU>Характеристики увеличены.</ruRU>
+			<zhCN>属性值提高。</zhCN>
+			<zhTW>屬性提高</zhTW>
 		</Tag>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="1"/>
@@ -30051,7 +30154,7 @@ Evoca un Infernale 6/6.</itIT>
 			<esES>Al comienzo de tu turno, transforma a un esbirro aleatorio en un pollo 1/1.</esES>
 			<esMX>Al comienzo de tu turno, transforma a un esbirro aleatorio en un Pollo 1/1.</esMX>
 			<frFR>Au début de votre tour, transforme un serviteur aléatoire en poulet 1/1.</frFR>
-			<itIT>All'inizio del tuo turno, il Pollizzatore trasforma un servitore casuale in una Gallina 1/1.</itIT>
+			<itIT>All'inizio del tuo turno, trasforma un servitore casuale in una Gallina 1/1.</itIT>
 			<koKR>내 턴이 시작될 때, 무작위 하수인 하나를 1/1 닭으로 변신시킵니다.</koKR>
 			<plPL>Na początku swojej tury przemień losowego stronnika w kurczaka 1/1.</plPL>
 			<ptBR>No início do seu turno, transforme um lacaio aleatório em uma Galinha 1/1.</ptBR>
@@ -30101,6 +30204,7 @@ Evoca un Infernale 6/6.</itIT>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="293" name="Morph" type="Bool" value="1"/>
 		<Power definition="7e0d0886-68b8-4cf7-9a7d-48470352452f"/>
+		<Texture>W14_a202_D</Texture>
 	</Entity>
 	<Entity CardID="Mekka4t" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -30458,6 +30562,7 @@ Evoca un Infernale 6/6.</itIT>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Power definition="4cec1d62-00e3-41f3-9d43-2cbc6550656d"/>
+		<Texture>W14_a122_D</Texture>
 	</Entity>
 	<Entity CardID="NEW1_007b" version="2">
 		<MasterPower>90885d05-d9e7-4275-a327-80239b5cae8b</MasterPower>
@@ -30498,6 +30603,7 @@ Evoca un Infernale 6/6.</itIT>
 			<PlayRequirement param="" reqID="11"/>
 			<PlayRequirement param="" reqID="1"/>
 		</Power>
+		<Texture>W14_a122_D</Texture>
 	</Entity>
 	<Entity CardID="NEW1_008" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -30719,7 +30825,7 @@ Evoca un Infernale 6/6.</itIT>
 			<deDE>Er ist der schwächste der vier Elementarlords. Und die anderen drei lassen ihn dies stetig wissen.</deDE>
 			<esES>Es el más débil de los cuatro señores elementales, y los otros tres no dejan de recordárselo.</esES>
 			<esMX>Es el más débil de los cuatro señores elementales. Y los otros tres se encargan de que nunca lo olvide.</esMX>
-			<frFR>C’est le plus faible des quatre seigneurs élémentaires. Et les trois autres ne se gênent pas pour le lui rappeler.</frFR>
+			<frFR>Quel est le comble pour Al’Akir ? Se prendre régulièrement un vent des trois autres seigneurs élémentaires.</frFR>
 			<itIT>È il più debole dei quattro Signori Elementali, e gli altri tre fanno in modo che non se lo dimentichi mai.</itIT>
 			<koKR>정령 군주 넷 중에 가장 약합니다. 그리고 나머지 셋이 그 사실을 확실하게 각인시키죠.</koKR>
 			<plPL>To najsłabszy z czterech Władców Żywiołów. A pozostali trzej często mu o tym przypominają.</plPL>
@@ -30745,7 +30851,7 @@ Evoca un Infernale 6/6.</itIT>
 			<esES>Élite Kor'kron</esES>
 			<esMX>Élite kor'kron</esMX>
 			<frFR>Soldat d’élite kor’kron</frFR>
-			<itIT>Elite Kor'kron</itIT>
+			<itIT>Élite Kor'kron</itIT>
 			<koKR>코르크론 정예병</koKR>
 			<plPL>Elita Kor'kronu</plPL>
 			<ptBR>Elite Kor'kron</ptBR>
@@ -30784,7 +30890,7 @@ Evoca un Infernale 6/6.</itIT>
 			<esES>Los Kor'kron son la fuerza de élite de Garrosh Grito Infernal. Digamos que es mejor no cruzarse con estos tipos llevando un tabardo azul.</esES>
 			<esMX>Los Kor'kron son las fuerzas de élite de Garrosh Grito Infernal. O sea, unos tipos a los que no es conveniente cruzarte si tienes puesto un tabardo azul.</esMX>
 			<frFR>Les Kor’krons sont les troupes d’élite de Garrosh Hurlenfer. Mieux vaut ne pas porter de tabard bleu quand on les croise.</frFR>
-			<itIT>I Kor'kron sono le forze d'elite di Garrosh Malogrido. Diciamo solamente che non ti piacerebbe incontrarli se indossi un'insegna blu.</itIT>
+			<itIT>I Kor'kron sono le forze d'élite di Garrosh Malogrido. Diciamo solamente che non ti piacerebbe incontrarli se indossi un'insegna blu.</itIT>
 			<koKR>코르크론은 가로쉬 헬스크림의 정예 부대입니다. 파란색 휘장을 차고 있을 땐, 이들과 마주치지 않길 기도하십시오.</koKR>
 			<plPL>Kor'kron to doborowa jednostka Garrosza Piekłorycza. Powiedzmy, że nie chcesz znaleźć się z nimi w jednym pomieszczeniu.</plPL>
 			<ptBR>Os Kor'kron são a força de elite de Garrosh Grito Infernal. Você não vai querer encontrar um desses caras se estiver usando um tabardo azul.</ptBR>
@@ -31142,6 +31248,7 @@ Evoca un Infernale 6/6.</itIT>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="1"/>
 		<Power definition="1c5b8ff7-5b77-407f-a240-2a6e8b5d7430"/>
+		<Texture>W16_a043_D</Texture>
 	</Entity>
 	<Entity CardID="NEW1_018" version="2">
 		<MasterPower>17b5a25a-f518-4948-910b-7d90db5db4da</MasterPower>
@@ -31174,7 +31281,7 @@ Evoca un Infernale 6/6.</itIT>
 			<itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; ottiene un incremento all'Attacco pari all'Attacco della tua arma.</itIT>
 			<koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 내 무기의 공격력만큼 공격력을 얻습니다.</koKR>
 			<plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Otrzymuje premię do ataku równą wartości ataku twojej broni.</plPL>
-			<ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Ela Recebe Ataque equivalente ao Ataque da sua arma.</ptBR>
+			<ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Ela recebe Ataque equivalente ao Ataque da sua arma.</ptBR>
 			<ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; получает бонус к атаке, равный атаке вашего оружия.</ruRU>
 			<zhCN>&lt;b&gt;战吼：&lt;/b&gt;获得等同于你的武器攻击力的攻击力。</zhCN>
 			<zhTW>&lt;b&gt;戰吼:&lt;/b&gt;獲得與你武器相當的攻擊力</zhTW>
@@ -31200,6 +31307,7 @@ Evoca un Infernale 6/6.</itIT>
 		</Tag>
 		<Tag enumID="218" name="Battlecry" type="Bool" value="1"/>
 		<Power definition="17b5a25a-f518-4948-910b-7d90db5db4da"/>
+		<Texture>W5_155_D</Texture>
 	</Entity>
 	<Entity CardID="NEW1_018e" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -31264,8 +31372,8 @@ Evoca un Infernale 6/6.</itIT>
 			<esES>Cuando invocas a un esbirro, inflige 1 p. de daño a un enemigo aleatorio.</esES>
 			<esMX>Después de invocar un esbirro, inflige 1 de daño a un enemigo aleatorio.</esMX>
 			<frFR>Inflige 1 point de dégâts à un adversaire aléatoire après que vous avez invoqué un serviteur.</frFR>
-			<itIT>Ogni volta che evochi un servitore, il Lanciatore di Coltelli infligge 1 danno a un nemico casuale.</itIT>
-			<koKR>내 하수인이 소환될 때마다 무작위 적 하나에게 피해를 1 줍니다.</koKR>
+			<itIT>Ogni volta che viene evocato un servitore sotto il tuo controllo, infligge 1 danno a un nemico casuale.</itIT>
+			<koKR>내 하수인이 소환된 후에, 무작위 적 하나에게 피해를 1 줍니다.</koKR>
 			<plPL>Zadaje 1 pkt. obrażeń losowemu wrogowi za każdym razem, gdy przyzywasz stronnika.</plPL>
 			<ptBR>Depois de evocar um lacaio, cause 1 de dano a um inimigo aleatório.</ptBR>
 			<ruRU>Каждый раз, когда вы призываете существо, наносит 1 ед. урона случайному персонажу противника.</ruRU>
@@ -31295,19 +31403,7 @@ Evoca un Infernale 6/6.</itIT>
 		</Tag>
 		<Tag enumID="32" name="TriggerVisual" type="Bool" value="1"/>
 		<Power definition="efbe4fc8-2e30-4ebb-a902-f31152276933"/>
-		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True" type="LocString">
-			<deDE>Der Messerjongleur hat einem zufälligen Feind 1 Schaden zugefügt.</deDE>
-			<esES>El malabarista de cuchillos ha infligido 1 p. de daño a un enemigo aleatorio.</esES>
-			<esMX>El malabarista de cuchillos infligió 1 de daño a un enemigo aleatorio</esMX>
-			<frFR>Le jongleur de couteaux a infligé 1 point de dégâts à un adversaire aléatoire.</frFR>
-			<itIT>Il Lanciatore di Coltelli ha inflitto 1 danno a un nemico casuale</itIT>
-			<koKR>단검 곡예사가 무작위 적 하나에게 피해 1 줌</koKR>
-			<plPL>Nożownik zadał 1 pkt. obrażeń losowemu wrogowi.</plPL>
-			<ptBR>Malabarista de Facas causou 1 de dano a um inimigo aleatório</ptBR>
-			<ruRU>Жонглер кинжалами нанес 1 ед. урона случайному персонажу противника.</ruRU>
-			<zhCN>飞刀杂耍者随机对一个敌人造成1点伤害。</zhCN>
-			<zhTW>飛刀手對一個隨機敵人造成了1點傷害。</zhTW>
-		</TriggeredPowerHistoryInfo>
+		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True"/>
 		<Texture>w12_a081_D</Texture>
 	</Entity>
 	<Entity CardID="NEW1_020" version="2">
@@ -31334,11 +31430,11 @@ Evoca un Infernale 6/6.</itIT>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
 			<enUS>After you cast a spell, deal 1 damage to ALL minions.</enUS>
 			<deDE>Fügt ALLEN Dienern 1 Schaden zu, nachdem Ihr einen Zauber gewirkt habt.</deDE>
-			<esES>Cuando lanzas un hechizo, inflige 1 p. de daño a todos los esbirros.</esES>
+			<esES>Después de que lances un hechizo, inflige 1 p. de daño a todos los esbirros.</esES>
 			<esMX>Después de lanzar un hechizo, inflige 1 de daño a TODOS los esbirros.</esMX>
-			<frFR>Chaque fois que vous lancez un sort, inflige 1 point de dégâts à TOUS les serviteurs.</frFR>
+			<frFR>Après que vous avez lancé un sort, inflige 1 point de dégâts à TOUS les serviteurs.</frFR>
 			<itIT>Ogni volta che lanci una Magia, infligge 1 danno a TUTTI i servitori.</itIT>
-			<koKR>내가 주문을 시전할 때마다, &lt;b&gt;모든&lt;/b&gt; 하수인에게 피해를 1 줍니다.</koKR>
+			<koKR>내 주문이 시전된 후에, &lt;b&gt;모든&lt;/b&gt; 하수인에게 피해를 1 줍니다.</koKR>
 			<plPL>Kiedy rzucisz zaklęcie, zadaj 1 pkt. obrażeń WSZYSTKIM stronnikom.</plPL>
 			<ptBR>Depois de lançar um feitiço, cause 1 de dano a TODOS os lacaios.</ptBR>
 			<ruRU>Каждый раз, когда вы разыгрываете карту заклинания, наносит 1 ед. урона ВСЕМ существам.</ruRU>
@@ -31365,19 +31461,7 @@ Evoca un Infernale 6/6.</itIT>
 		</Tag>
 		<Tag enumID="32" name="TriggerVisual" type="Bool" value="1"/>
 		<Power definition="9aa2e6a5-eadf-4215-84b2-a8da1a75f6db"/>
-		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True" type="LocString">
-			<deDE>Wilder Pyromant hat 1 zufälligen Schaden verursacht.</deDE>
-			<esES>El piromántico salvaje ha infligido 1 p. de daño aleatorio.</esES>
-			<esMX>Piromántico salvaje infligió 1 de daño a un enemigo aleatorio.</esMX>
-			<frFR>Le pyromancien sauvage a infligé 1 point de dégâts aléatoire.</frFR>
-			<itIT>Il Piromante Selvaggio ha inflitto 1 danno a tutti i servitori.</itIT>
-			<koKR>광기의 화염술사가 무작위 적에게 피해 1 줌</koKR>
-			<plPL>Dziki piromanta zadał losowo 1 pkt. obrażeń.</plPL>
-			<ptBR>Piromante Selvagem causou 1 de dano aleatório.</ptBR>
-			<ruRU>Яростный пиромант нанес 1 ед. урона случайному персонажу.</ruRU>
-			<zhCN>每当你施放一个法术，狂野炎术师随机对一个敌人造成1点伤害。</zhCN>
-			<zhTW>狂野火占師造成1點隨機傷害。</zhTW>
-		</TriggeredPowerHistoryInfo>
+		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True"/>
 		<Texture>W6_011_D</Texture>
 	</Entity>
 	<Entity CardID="NEW1_021" version="2">
@@ -31436,19 +31520,7 @@ Evoca un Infernale 6/6.</itIT>
 		<Tag enumID="32" name="TriggerVisual" type="Bool" value="1"/>
 		<Power definition="dfe6cdc8-d829-4b55-8265-516985561961"/>
 		<Power definition="0efe54a7-e587-4b09-aa2d-163458ab6275"/>
-		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True" type="LocString">
-			<deDE>Der Weltuntergangsverkünder hat alle Diener vernichtet.</deDE>
-			<esES>El orador del Sino ha destruido a todos los esbirros.</esES>
-			<esMX>El orador del sino ha destruido a todos los esbirros</esMX>
-			<frFR>L’auspice funeste a détruit tous les serviteurs.</frFR>
-			<itIT>Il Vate della Rovina ha distrutto tutti i servitori.</itIT>
-			<koKR>파멸의 예언자가 모든 하수인을 처치</koKR>
-			<plPL>Prorok zagłady zniszczył wszystkich stronników.</plPL>
-			<ptBR>Agoureiro destruiu todos os lacaios</ptBR>
-			<ruRU>Вестник рока уничтожил всех существ.</ruRU>
-			<zhCN>末日预言者消灭了所有随从。</zhCN>
-			<zhTW>末日預言者摧毀了全部的手下</zhTW>
-		</TriggeredPowerHistoryInfo>
+		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True"/>
 		<Texture>W2_209_D</Texture>
 	</Entity>
 	<Entity CardID="NEW1_022" version="2">
@@ -31661,6 +31733,7 @@ Evoca un Infernale 6/6.</itIT>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Power definition="db658efa-6c95-4e02-90a7-c824c0b2283a"/>
+		<Texture>W8_131_D</Texture>
 	</Entity>
 	<Entity CardID="NEW1_025" version="2">
 		<MasterPower>f7e16bf5-f6bd-4520-b35f-130e5baa1a55</MasterPower>
@@ -31893,6 +31966,7 @@ Evoca un Infernale 6/6.</itIT>
 		</Tag>
 		<Tag enumID="362" name="Aura" type="Bool" value="1"/>
 		<Power definition="9d08f47b-bb86-4d84-9598-0ace84279ebb"/>
+		<Texture>WOW_ALYN_001_D</Texture>
 	</Entity>
 	<Entity CardID="NEW1_027e" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -31935,8 +32009,8 @@ Evoca un Infernale 6/6.</itIT>
 		<Tag enumID="185" name="CardName" type="LocString">
 			<enUS>Millhouse Manastorm</enUS>
 			<deDE>Millhaus Manasturm</deDE>
-			<esES>Molino Tormenta de maná</esES>
-			<esMX>Molino Tormenta de maná</esMX>
+			<esES>Molino Tormenta de Maná</esES>
+			<esMX>Molino Tormenta de Maná</esMX>
 			<frFR>Millhouse Tempête-de-Mana</frFR>
 			<itIT>Millhouse Manalampo</itIT>
 			<koKR>밀하우스 마나스톰</koKR>
@@ -31987,6 +32061,7 @@ Evoca un Infernale 6/6.</itIT>
 		</Tag>
 		<Tag enumID="218" name="Battlecry" type="Bool" value="1"/>
 		<Power definition="11945b39-167f-4d55-a023-eb9330d4047c"/>
+		<Texture>W5_215a_D</Texture>
 	</Entity>
 	<Entity CardID="NEW1_029t" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -32236,6 +32311,7 @@ Evoca un Infernale 6/6.</itIT>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Power definition="779cbc2a-9f38-409f-8e42-dfeeaf113089"/>
+		<Texture>W4_138_D</Texture>
 	</Entity>
 	<Entity CardID="NEW1_033o" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -32271,7 +32347,7 @@ Evoca un Infernale 6/6.</itIT>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="199" name="Class" type="Class" value="3"/>
-		<Power definition="bc8692d8-9e69-4e58-b392-62bc3d451771"/>
+		<Power definition="4fed5d21-8b5c-4d02-b66d-10b55847ea66"/>
 		<Texture>W4_138_D</Texture>
 	</Entity>
 	<Entity CardID="NEW1_034" version="2">
@@ -32369,6 +32445,7 @@ Evoca un Infernale 6/6.</itIT>
 			<zhTW>「吼!吼!再大聲一點!」-對菜鳥戰士的建言</zhTW>
 		</Tag>
 		<Power definition="cad1a08c-b40a-4d97-913a-284adb9862ac"/>
+		<Texture>W2_414_D</Texture>
 	</Entity>
 	<Entity CardID="NEW1_036e" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -32407,6 +32484,7 @@ Evoca un Infernale 6/6.</itIT>
 		<Tag enumID="338" name="OneTurnEffect" type="Bool" value="1"/>
 		<Power definition="5e5624ca-dd90-4ebb-b303-79f58abdb5ac"/>
 		<Power definition="d2ac4fd6-9a8b-4476-9131-921ec0adb2af"/>
+		<Texture>W2_414_D</Texture>
 	</Entity>
 	<Entity CardID="NEW1_036e2" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -32480,7 +32558,7 @@ Evoca un Infernale 6/6.</itIT>
 			<plPL>Na koniec swojej tury daj innemu, losowemu przyjaznemu stronnikowi +1 do ataku.</plPL>
 			<ptBR>No fim do seu turno, conceda +1 de Ataque a outro lacaio aliado aleatório.</ptBR>
 			<ruRU>В конце вашего хода другое ваше случайное существо получает +1 к атаке.</ruRU>
-			<zhCN>在你的回合结束时，随机使另一个友方随从获得+1攻击力。</zhCN>
+			<zhCN>在你的回合结束时，使另一个随机友方随从获得+1攻击力。</zhCN>
 			<zhTW>你的回合結束時，賦予另一個隨機友方手下+1攻擊力</zhTW>
 		</Tag>
 		<Tag enumID="252" name="CardTextInPlay" type="LocString">
@@ -32507,6 +32585,7 @@ Evoca un Infernale 6/6.</itIT>
 		<Tag enumID="32" name="TriggerVisual" type="Bool" value="1"/>
 		<Power definition="68b24601-9c45-479a-a0f9-06cde1c9ad61"/>
 		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False"/>
+		<Texture>W6_047_D</Texture>
 	</Entity>
 	<Entity CardID="NEW1_037e" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -32748,7 +32827,7 @@ Evoca un Infernale 6/6.</itIT>
 			<deDE>Panischer Kodo</deDE>
 			<esES>Kodo en estampida</esES>
 			<esMX>Kodo en estampida</esMX>
-			<frFR>Ruée de kodo</frFR>
+			<frFR>Kodo déchaîné</frFR>
 			<itIT>Kodo Impetuoso</itIT>
 			<koKR>날뛰는 코도</koKR>
 			<plPL>Pędzący kodo</plPL>
@@ -33150,6 +33229,7 @@ Evoca un Infernale 6/6.</itIT>
 		<Tag enumID="32" name="TriggerVisual" type="Bool" value="1"/>
 		<Power definition="60a316fe-913a-4934-bce4-5268da7d5ea4"/>
 		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False"/>
+		<Texture>DKPR_A027(final)_D</Texture>
 	</Entity>
 	<Entity CardID="tt_004o" version="2">
 		<MasterPower>d67eeb4e-6b91-4063-a8a4-6210c90ad445</MasterPower>
@@ -33443,7 +33523,7 @@ Evoca un Infernale 6/6.</itIT>
 			<frFR>Jaina Portvaillant</frFR>
 			<itIT>Jaina Marefiero</itIT>
 			<koKR>제이나 프라우드무어</koKR>
-			<plPL>Jaina Proudmoore</plPL>
+			<plPL>Jaina Dumnar</plPL>
 			<ptBR>Jaina Proudmore</ptBR>
 			<ruRU>Джайна Праудмур</ruRU>
 			<zhCN>吉安娜·普罗德摩尔</zhCN>
@@ -33460,8 +33540,8 @@ Evoca un Infernale 6/6.</itIT>
 		<Tag enumID="185" name="CardName" type="LocString">
 			<enUS>Millhouse Manastorm</enUS>
 			<deDE>Millhaus Manasturm</deDE>
-			<esES>Molino Tormenta de maná</esES>
-			<esMX>Molino Tormenta de maná</esMX>
+			<esES>Molino Tormenta de Maná</esES>
+			<esMX>Molino Tormenta de Maná</esMX>
 			<frFR>Millhouse Tempête-de-Mana</frFR>
 			<itIT>Millhouse Manalampo</itIT>
 			<koKR>밀하우스 마나스톰</koKR>
@@ -33479,6 +33559,7 @@ Evoca un Infernale 6/6.</itIT>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Power definition="b36ec6e5-d5fa-4c1f-82fe-240f5b26d415"/>
+		<Power definition="c022ba2c-410f-4e08-9951-e9f49279bdda"/>
 		<Texture>W5_215_D</Texture>
 	</Entity>
 	<Entity CardID="TU4c_001" version="2">
@@ -33680,7 +33761,7 @@ Evoca un Infernale 6/6.</itIT>
 		<MasterPower>7f180298-6289-4d27-ab70-4ea6697717f2</MasterPower>
 		<Tag enumID="185" name="CardName" type="LocString">
 			<enUS>Bananas</enUS>
-			<deDE>Bananen</deDE>
+			<deDE>Banane</deDE>
 			<esES>Plátanos</esES>
 			<esMX>Bananas</esMX>
 			<frFR>Banane</frFR>
@@ -33724,7 +33805,7 @@ Evoca un Infernale 6/6.</itIT>
 	<Entity CardID="TU4c_006e" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
 			<enUS>Bananas</enUS>
-			<deDE>Bananen</deDE>
+			<deDE>Banane</deDE>
 			<esES>Plátanos</esES>
 			<esMX>Bananas</esMX>
 			<frFR>Banane</frFR>
@@ -33747,7 +33828,7 @@ Evoca un Infernale 6/6.</itIT>
 			<itIT>+1/+1.</itIT>
 			<koKR>+1/+1 &lt;i&gt;(공격력 +1/생명력 +1)&lt;/i&gt;</koKR>
 			<plPL>Ten stronnik ma +1/+1. &lt;i&gt;(+1 do ataku/+1 do zdrowia)&lt;/i&gt;</plPL>
-			<ptBR>Este lacaio tem com +1/+1. &lt;i&gt;(+1 de Ataque/+1 de Vida)&lt;/i&gt;</ptBR>
+			<ptBR>Este lacaio tem +1/+1. &lt;i&gt;(+1 de Ataque/+1 de Vida)&lt;/i&gt;</ptBR>
 			<ruRU>Это существо получило +1/+1. &lt;i&gt;(+1 к атаке/+1 к здоровью)&lt;/i&gt;</ruRU>
 			<zhCN>该随从获得+1/+1。&lt;i&gt;（+1攻击力/+1生命值）&lt;/i&gt;</zhCN>
 			<zhTW>這個手下獲得+1/+1。&lt;i&gt;(+1攻擊力/+1生命值)&lt;/i&gt;</zhTW>
@@ -33755,6 +33836,7 @@ Evoca un Infernale 6/6.</itIT>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="1"/>
 		<Power definition="cad2734e-522c-4331-a1eb-109d3d08af6c"/>
+		<Texture>bananas2_D</Texture>
 	</Entity>
 	<Entity CardID="TU4c_007" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -33858,7 +33940,7 @@ Evoca un Infernale 6/6.</itIT>
 			<esES>El rey Mukla tiene +8 p. de ataque este turno.</esES>
 			<esMX>El Rey Mukla tiene +8 de Ataque en este turno.</esMX>
 			<frFR>Le roi Mukla a +8 en Attaque pendant ce tour.</frFR>
-			<itIT>Re Mukla ha +8 Attacco per questo turno.</itIT>
+			<itIT>+8 Attacco per questo turno.</itIT>
 			<koKR>이번 턴에 공격력 +8</koKR>
 			<plPL>Król Mukla ma +8 do ataku w tej turze.</plPL>
 			<ptBR>O Rei Mukla tem +8 de Ataque neste turno.</ptBR>
@@ -34182,7 +34264,7 @@ Evoca due servitori 2/1.</itIT>
 			<esES>Dispara 5 misiles a enemigos aleatorios. Cada uno inflige $1 p. de daño.</esES>
 			<esMX>Dispara 5 misiles a enemigos aleatorios que infligen $1 de daño a cada uno.</esMX>
 			<frFR>Lance 5 missiles infligeant chacun $1 |4(point,points) de dégâts à des adversaires aléatoires.</frFR>
-			<itIT>Lancia 5 missili infliggendo $1 danno ciascuno a nemici casuali.</itIT>
+			<itIT>Lancia 5 missili infliggendo $1 |4(danno,danni) ciascuno a nemici casuali.</itIT>
 			<koKR>피해를 $1씩 주는 화살 5개를 무작위 적들에게 발사합니다.</koKR>
 			<plPL>Wystrzel 5 pocisków w losowych wrogów, zadając każdemu $1 pkt. obrażeń.</plPL>
 			<ptBR>Dispare 5 mísseis em inimigos aleatórios, causando $1 de dano em cada.</ptBR>
@@ -34406,6 +34488,7 @@ Evoca due servitori 2/1.</itIT>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="1"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="1"/>
 		<Power definition="64006f79-46d8-47e7-989b-e87b9b1d5b01"/>
+		<Texture>W3_085_D</Texture>
 	</Entity>
 	<Entity CardID="TU4f_005" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -34603,6 +34686,7 @@ Evoca due servitori 2/1.</itIT>
 		<Power definition="0d22aa00-43ee-48a0-9f4c-4a7353fcd7bb">
 			<PlayRequirement param="" reqID="11"/>
 		</Power>
+		<Texture>W6_174_D</Texture>
 	</Entity>
 	<Entity CardID="XXX_004" version="2">
 		<MasterPower>204ba703-abcc-40ab-8cb2-b6f2c83424ce</MasterPower>
@@ -34619,6 +34703,7 @@ Evoca due servitori 2/1.</itIT>
 		<Power definition="204ba703-abcc-40ab-8cb2-b6f2c83424ce">
 			<PlayRequirement param="" reqID="11"/>
 		</Power>
+		<Texture>W6_174_D</Texture>
 	</Entity>
 	<Entity CardID="XXX_005" version="2">
 		<MasterPower>ddac5dae-7344-4a52-ad10-dce4913c1fa7</MasterPower>
@@ -34635,6 +34720,7 @@ Evoca due servitori 2/1.</itIT>
 		<Power definition="ddac5dae-7344-4a52-ad10-dce4913c1fa7">
 			<PlayRequirement param="" reqID="11"/>
 		</Power>
+		<Texture>W6_174_D</Texture>
 	</Entity>
 	<Entity CardID="XXX_006" version="2">
 		<MasterPower>3f23cfa7-f4ac-4df1-9801-df90e253a10e</MasterPower>
@@ -34652,6 +34738,7 @@ Evoca due servitori 2/1.</itIT>
 			<PlayRequirement param="" reqID="11"/>
 			<PlayRequirement param="" reqID="17"/>
 		</Power>
+		<Texture>W6_174_D</Texture>
 	</Entity>
 	<Entity CardID="XXX_007" version="2">
 		<MasterPower>5e2a3068-d677-40ee-af4b-791268d4c00b</MasterPower>
@@ -34670,6 +34757,7 @@ Evoca due servitori 2/1.</itIT>
 		<Power definition="5e2a3068-d677-40ee-af4b-791268d4c00b">
 			<PlayRequirement param="" reqID="11"/>
 		</Power>
+		<Texture>W6_174_D</Texture>
 	</Entity>
 	<Entity CardID="XXX_008" version="2">
 		<MasterPower>4ea2e34f-de89-480c-b9d9-78f0dd6bb8c5</MasterPower>
@@ -34687,6 +34775,7 @@ Evoca due servitori 2/1.</itIT>
 		<Power definition="4ea2e34f-de89-480c-b9d9-78f0dd6bb8c5">
 			<PlayRequirement param="" reqID="11"/>
 		</Power>
+		<Texture>W6_174_D</Texture>
 	</Entity>
 	<Entity CardID="XXX_009" version="2">
 		<MasterPower>1c554ff2-9e54-48e8-832b-9de638895314</MasterPower>
@@ -34704,6 +34793,7 @@ Evoca due servitori 2/1.</itIT>
 			<PlayRequirement param="" reqID="11"/>
 			<PlayRequirement param="" reqID="1"/>
 		</Power>
+		<Texture>W6_174_D</Texture>
 	</Entity>
 	<Entity CardID="XXX_009e" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -34715,6 +34805,7 @@ Evoca due servitori 2/1.</itIT>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
 			<enUS>This enchantment does nothing.</enUS>
 		</Tag>
+		<Texture>W6_174_D</Texture>
 	</Entity>
 	<Entity CardID="XXX_010" version="2">
 		<MasterPower>9db28764-1f95-4ba4-ad5d-fa8d7e08397d</MasterPower>
@@ -34734,22 +34825,24 @@ Evoca due servitori 2/1.</itIT>
 			<PlayRequirement param="" reqID="11"/>
 			<PlayRequirement param="" reqID="1"/>
 		</Power>
+		<Texture>W6_174_D</Texture>
 	</Entity>
 	<Entity CardID="XXX_011" version="2">
 		<MasterPower>1457516b-4676-4b10-8de9-27e004c22eb9</MasterPower>
 		<Tag enumID="185" name="CardName" type="LocString">
-			<enUS>Exhaust</enUS>
+			<enUS>Summon a random Secret</enUS>
 		</Tag>
 		<Tag enumID="183" name="CardSet" type="CardSet" value="8"/>
 		<Tag enumID="203" name="Rarity" type="Rarity" value="1"/>
 		<Tag enumID="202" name="CardType" type="CardType" value="5"/>
 		<Tag enumID="48" name="Cost" type="Int" value="0"/>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
-			<enUS>Exhaust a character.</enUS>
+			<enUS>Summon a secret from your deck.</enUS>
 		</Tag>
-		<Power definition="1457516b-4676-4b10-8de9-27e004c22eb9">
-			<PlayRequirement param="" reqID="11"/>
-		</Power>
+		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
+		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
+		<Power definition="1457516b-4676-4b10-8de9-27e004c22eb9"/>
+		<Texture>W6_174_D</Texture>
 	</Entity>
 	<Entity CardID="XXX_012" version="2">
 		<MasterPower>6793b439-cbb9-462f-8572-bb9694c51fa5</MasterPower>
@@ -34767,6 +34860,7 @@ Evoca due servitori 2/1.</itIT>
 			<PlayRequirement param="" reqID="11"/>
 			<PlayRequirement param="" reqID="1"/>
 		</Power>
+		<Texture>W6_174_D</Texture>
 	</Entity>
 	<Entity CardID="XXX_013" version="2">
 		<MasterPower>33da35c9-bd09-4dcb-b30c-da2d3908f351</MasterPower>
@@ -34784,6 +34878,7 @@ Evoca due servitori 2/1.</itIT>
 			<PlayRequirement param="" reqID="11"/>
 			<PlayRequirement param="" reqID="17"/>
 		</Power>
+		<Texture>W6_174_D</Texture>
 	</Entity>
 	<Entity CardID="XXX_014" version="2">
 		<MasterPower>9bda2d13-d3b4-46f1-88af-fd37c588b886</MasterPower>
@@ -34801,6 +34896,7 @@ Evoca due servitori 2/1.</itIT>
 			<PlayRequirement param="" reqID="11"/>
 			<PlayRequirement param="" reqID="17"/>
 		</Power>
+		<Texture>W6_174_D</Texture>
 	</Entity>
 	<Entity CardID="XXX_015" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -34813,6 +34909,7 @@ Evoca due servitori 2/1.</itIT>
 		<Tag enumID="184" name="CardTextInHand" type="LocString">
 			<enUS>Crash the game.</enUS>
 		</Tag>
+		<Texture>W6_174_D</Texture>
 	</Entity>
 	<Entity CardID="XXX_016" version="2">
 		<MasterPower>58f83c75-f130-4c61-b7a7-d5c1b3dec4c2</MasterPower>
@@ -34826,6 +34923,7 @@ Evoca due servitori 2/1.</itIT>
 			<enUS>Summon five 1/1 snakes.</enUS>
 		</Tag>
 		<Power definition="58f83c75-f130-4c61-b7a7-d5c1b3dec4c2"/>
+		<Texture>W6_174_D</Texture>
 	</Entity>
 	<Entity CardID="XXX_017" version="2">
 		<MasterPower>c6d2b166-fbf0-49b4-9e57-9e81c297f4ec</MasterPower>
@@ -34840,6 +34938,7 @@ Evoca due servitori 2/1.</itIT>
 			<enUS>Draw 3 cards.</enUS>
 		</Tag>
 		<Power definition="c6d2b166-fbf0-49b4-9e57-9e81c297f4ec"/>
+		<Texture>W6_174_D</Texture>
 	</Entity>
 	<Entity CardID="XXX_018" version="2">
 		<MasterPower>41d487e8-7e00-4690-81fa-7425185a707d</MasterPower>
@@ -34854,6 +34953,7 @@ Evoca due servitori 2/1.</itIT>
 			<enUS>Destroy all minions.</enUS>
 		</Tag>
 		<Power definition="41d487e8-7e00-4690-81fa-7425185a707d"/>
+		<Texture>W6_174_D</Texture>
 	</Entity>
 	<Entity CardID="XXX_019" version="2">
 		<MasterPower>e1050677-1f0b-446c-80fb-011a6fb869d0</MasterPower>
@@ -34867,6 +34967,7 @@ Evoca due servitori 2/1.</itIT>
 			<enUS>You can take as long as you want on your turn.</enUS>
 		</Tag>
 		<Power definition="e1050677-1f0b-446c-80fb-011a6fb869d0"/>
+		<Texture>W6_174_D</Texture>
 	</Entity>
 	<Entity CardID="XXX_020" version="2">
 		<MasterPower>d49abda2-5d11-43e6-948e-545d8a112e4e</MasterPower>
@@ -34886,6 +34987,7 @@ Evoca due servitori 2/1.</itIT>
 		<Power definition="d49abda2-5d11-43e6-948e-545d8a112e4e">
 			<PlayRequirement param="" reqID="11"/>
 		</Power>
+		<Texture>W6_174_D</Texture>
 	</Entity>
 	<Entity CardID="XXX_021" version="2">
 		<MasterPower>29565a2e-992b-4605-8e55-4e58c5a098f2</MasterPower>
@@ -34904,6 +35006,7 @@ Evoca due servitori 2/1.</itIT>
 		<Power definition="29565a2e-992b-4605-8e55-4e58c5a098f2">
 			<PlayRequirement param="" reqID="11"/>
 		</Power>
+		<Texture>W6_174_D</Texture>
 	</Entity>
 	<Entity CardID="XXX_022" version="2">
 		<MasterPower>7e125b50-e193-4a93-be3e-8a9d67afe10c</MasterPower>
@@ -34920,6 +35023,7 @@ Evoca due servitori 2/1.</itIT>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Power definition="7e125b50-e193-4a93-be3e-8a9d67afe10c"/>
+		<Texture>W6_174_D</Texture>
 	</Entity>
 	<Entity CardID="XXX_022e" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -34933,6 +35037,7 @@ Evoca due servitori 2/1.</itIT>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Power definition="a4ad4619-b596-49bf-824c-2e0a6c0dff9e"/>
+		<Texture>W6_174_D</Texture>
 	</Entity>
 	<Entity CardID="XXX_023" version="2">
 		<MasterPower>0e449e12-b087-4853-a652-fe70fb453a84</MasterPower>
@@ -34949,6 +35054,7 @@ Evoca due servitori 2/1.</itIT>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Power definition="0e449e12-b087-4853-a652-fe70fb453a84"/>
+		<Texture>W6_174_D</Texture>
 	</Entity>
 	<Entity CardID="XXX_024" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -34968,6 +35074,7 @@ Evoca due servitori 2/1.</itIT>
 		<Tag enumID="32" name="TriggerVisual" type="Bool" value="1"/>
 		<Power definition="5b6aeb47-256c-4bb6-b897-5e0383b3aa08"/>
 		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True"/>
+		<Texture>W6_174_D</Texture>
 	</Entity>
 	<Entity CardID="XXX_025" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
@@ -34982,6 +35089,7 @@ Evoca due servitori 2/1.</itIT>
 		</Tag>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
+		<Texture>W6_174_D</Texture>
 	</Entity>
 	<Entity CardID="XXX_026" version="2">
 		<MasterPower>db250e15-8ad7-40cb-afe5-95b2d2371cd5</MasterPower>
@@ -34998,6 +35106,7 @@ Evoca due servitori 2/1.</itIT>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Power definition="db250e15-8ad7-40cb-afe5-95b2d2371cd5"/>
+		<Texture>W6_174_D</Texture>
 	</Entity>
 	<Entity CardID="XXX_027" version="2">
 		<MasterPower>a1b5d1f4-c7f3-4142-9230-165d16ceb097</MasterPower>
@@ -35012,6 +35121,7 @@ Evoca due servitori 2/1.</itIT>
 			<enUS>Crash the Server.  DON'T BE A FOOL.</enUS>
 		</Tag>
 		<Power definition="a1b5d1f4-c7f3-4142-9230-165d16ceb097"/>
+		<Texture>W6_174_D</Texture>
 	</Entity>
 	<Entity CardID="XXX_028" version="2">
 		<MasterPower>f0051203-b961-4a85-8a5a-922d03a16d80</MasterPower>
@@ -35057,6 +35167,7 @@ Evoca due servitori 2/1.</itIT>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Power definition="cb41e334-67e7-4032-9dd5-e202382cd0df"/>
+		<Texture>W6_174_D</Texture>
 	</Entity>
 	<Entity CardID="XXX_039" version="2">
 		<MasterPower>ce655e9f-848e-4dcd-a051-1c0eab9863bd</MasterPower>
@@ -35176,5 +35287,6 @@ Evoca due servitori 2/1.</itIT>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
 		<Power definition="6f39259a-9c90-4540-a257-db8588fa0472"/>
+		<Texture>W6_174_D</Texture>
 	</Entity>
 </CardDefs>

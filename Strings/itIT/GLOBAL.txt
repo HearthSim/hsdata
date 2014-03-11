@@ -23,6 +23,7 @@ GLOBAL_ATTACK	Attacco
 GLOBAL_BACK	Indietro	
 GLOBAL_BETA_REIMBURSEMENT_DETAILS	Questo è l'oro accreditato per gli acquisti passati. Grazie mille!	
 GLOBAL_BETA_REIMBURSEMENT_HEADLINE	Credito del reset dell'account	
+GLOBAL_BUTTON_NEXT	Prosegui	
 GLOBAL_BUTTON_NO	No	
 GLOBAL_BUTTON_OK	OK	
 GLOBAL_BUTTON_YES	Sì	
@@ -41,10 +42,10 @@ GLOBAL_CARDTYPE_TOKEN	Pedina
 GLOBAL_CARDTYPE_WEAPON	Arma	
 GLOBAL_CHAT_BUBBLE_RECEIVER_NAME	A: {0}	0=player name
 GLOBAL_CHAT_CHALLENGE	Sfida	
-GLOBAL_CHAT_NO_FRIENDS_ONLINE	Nessuno dei tuoi amici è attualmente connesso.	
+GLOBAL_CHAT_NO_FRIENDS_ONLINE	Nessuno dei tuoi amici è attualmente online.	
 GLOBAL_CHAT_NO_RECENT_CONVERSATIONS	Usa il menu degli amici per avviare una conversazione con un amico.	
-GLOBAL_CHAT_RECEIVER_OFFLINE	{0} non è connesso.	0=player name
-GLOBAL_CHAT_RECEIVER_ONLINE	{0} è connesso.	0=player name
+GLOBAL_CHAT_RECEIVER_OFFLINE	{0} è offline.	0=player name
+GLOBAL_CHAT_RECEIVER_ONLINE	{0} è online.	0=player name
 GLOBAL_CLASS_DEATHKNIGHT	Cavaliere della Morte	
 GLOBAL_CLASS_DRUID	Druido	
 GLOBAL_CLASS_HUNTER	Cacciatore	
@@ -57,6 +58,7 @@ GLOBAL_CLASS_SHAMAN	Sciamano
 GLOBAL_CLASS_WARLOCK	Stregone	
 GLOBAL_CLASS_WARRIOR	Guerriero	
 GLOBAL_CLICK_TO_CONTINUE	Clicca per continuare	
+GLOBAL_CLICK_TO_CONTINUE_TOUCH	Tocca per continuare	
 GLOBAL_COLLECTION_GOLDEN	(Dorata)	
 GLOBAL_CONCEDE	Resa	
 GLOBAL_CONFIRM	Conferma	
@@ -76,7 +78,13 @@ GLOBAL_DATETIME_LASTONLINE_MINUTES	Ultima connessione: {0} |4(minuto,minuti) fa
 GLOBAL_DATETIME_LASTONLINE_MONTH	Ultima connessione: più di un mese fa	
 GLOBAL_DATETIME_LASTONLINE_SECONDS	Ultima connessione: meno di un minuto fa	
 GLOBAL_DATETIME_LASTONLINE_WEEKS	Ultima connessione: {0} |4(settimana,settimane) fa	
+GLOBAL_DATETIME_SPINNER_DAY	> 1 giorno	
+GLOBAL_DATETIME_SPINNER_DAYS	{0} |4(giorno,giorni)	
+GLOBAL_DATETIME_SPINNER_HOURS	{0} |4(ora,ore)	
+GLOBAL_DATETIME_SPINNER_MINUTES	{0} |4(minuto,minuti)	
+GLOBAL_DATETIME_SPINNER_MONTH	Più di un mese	
 GLOBAL_DATETIME_SPINNER_SECONDS	{0} |4(secondo,secondi)	
+GLOBAL_DATETIME_SPINNER_WEEKS	{0} |4(settimana,settimane)	
 GLOBAL_DATETIME_SPLASHSCREEN_DAY	> 1 giorno	
 GLOBAL_DATETIME_SPLASHSCREEN_DAYS	{0} |4(giorno,giorni)	
 GLOBAL_DATETIME_SPLASHSCREEN_HOURS	{0} |4(ora,ore)	
@@ -96,20 +104,26 @@ GLOBAL_ERROR_CURRENCY_INVALID	È stato richiesto l'utilizzo di una valuta non va
 GLOBAL_ERROR_GAME_DENIED	Errore durante l'avvio del gioco! Attendi qualche minuto e riprova.	
 GLOBAL_ERROR_GAME_OPPONENT_TIMEOUT	La partita non si è avviata poiché l'avversario non si è connesso. Riprova.	
 GLOBAL_ERROR_GENERIC_HEADER	Errore	
-GLOBAL_ERROR_INACTIVITY_KICK	È passato molto dalla tua ultima azione su Hearthstone e sei stato disconnesso dal server. Rilancia il gioco quando sei pronto!	
+GLOBAL_ERROR_INACTIVITY_KICK	È passato molto tempo dalla tua ultima azione su Hearthstone e sei stato disconnesso dal server. Rilancia il gioco quando sei pronto!	
 GLOBAL_ERROR_NETWORK_ACCOUNT_BANNED	Il tuo account è stato sospeso permanentemente.	
 GLOBAL_ERROR_NETWORK_ACCOUNT_SUSPENDED	Il tuo account è stato sospeso.	
+GLOBAL_ERROR_NETWORK_CONNECTION_TIMEOUT	Richiesta di connessione scaduta. Controlla la connessione a Internet.	
 GLOBAL_ERROR_NETWORK_DISCONNECT	Sei stato disconnesso dal servizio di gioco Battle.net. Riavvia Hearthstone per riconnetterti.	
+GLOBAL_ERROR_NETWORK_DISCONNECT_GENERIC	Sei stato disconnesso.	
 GLOBAL_ERROR_NETWORK_DUPLICATE_LOGIN	Questo account Battle.net si è appena connesso a Hearthstone da un'altra periferica.\n\nQuesto client è stato disconnesso poiché può essere attiva una sola connessione alla volta.	
 GLOBAL_ERROR_NETWORK_GENERIC	Si è verificato un errore di rete interno.	
 GLOBAL_ERROR_NETWORK_INCORRECT_REGION	Il tuo account Battle.net non soddisfa i requisiti per partecipare al beta test di Hearthstone di questa regione. Riprova quando la beta di Hearthstone sarà disponibile nella tua regione!	
 GLOBAL_ERROR_NETWORK_LOGIN_FAILURE	Impossibile connettersi a Battle.net. Attendi un paio di minuti e riprova.	
 GLOBAL_ERROR_NETWORK_LOST_GAME_CONNECTION	Sei stato disconnesso dal servizio di gioco Battle.net. Puoi provare a riconnetterti avviando una nuova partita.	
+GLOBAL_ERROR_NETWORK_NO_CONNECTION	Impossibile connettersi. Controlla la connessione a Internet.	
 GLOBAL_ERROR_NETWORK_PARENTAL_CONTROLS	L'accesso a questo account è attualmente limitato dal controllo parentale.	
 GLOBAL_ERROR_NETWORK_PHONE_LOCK	Chiama il numero Phone Lock di Battle.net per effettuare l'accesso.\nTaiwan: 0800-303-585\nHong Kong: 396-54666	
 GLOBAL_ERROR_NETWORK_SPAM	Sei stato disconnesso dal servizio di gioco Battle.net per aver inviato troppe richieste in breve tempo. Riavvia Hearthstone per riconnetterti.	
 GLOBAL_ERROR_NETWORK_TITLE	ERRORE DI RETE	
-GLOBAL_ERROR_NETWORK_UTIL_TIMEOUT	Tempo d'attesa scaduto durante la richiesta di dati dal servizio di Hearthstone. Riavvia Hearthstone per riconnetterti.	
+GLOBAL_ERROR_NETWORK_UNAVAILABLE_OFFLINE	Hearthstone non è al momento disponibile. Attendi qualche minuto e riprova.	
+GLOBAL_ERROR_NETWORK_UNAVAILABLE_UNKNOWN	Ooops! Dei folletti dispettosi sono intervenuti mentre Hearthstone si collegava ai nostri server. Aspetta che se che se ne vadano e riprova fra qualche minuto.	
+GLOBAL_ERROR_NETWORK_UNAVAILABLE_UPGRADE	Hearthstone è stato aggiornato! Scarica la versione più recente.	
+GLOBAL_ERROR_NETWORK_UTIL_TIMEOUT	Richiesta di connessione scaduta durante la ricezione di dati dal servizio di Hearthstone. Riavvia Hearthstone per riconnetterti.	
 GLOBAL_ERROR_NO_MAGE_PRECON	Ci deve essere stato un problema di connessione mentre caricavamo le carte della tua collezione. Riavvia Hearthstone per recuperare le carte perdute e ricominciare a giocare!	
 GLOBAL_ERROR_STREAMING_ASSET_TIMEOUT	Tempo scaduto in attesa del sistema di streaming. Elemento in caricamento: {0}.	0=asset name
 GLOBAL_ERROR_UNKNOWN_ERROR	Ooops! Dei folletti dispettosi sono intervenuti mentre Hearthstone si collegava al servizio Battle.net. Rimani qualche minuto in attesa che se ne vadano e prova a rilanciare il gioco.	
@@ -135,19 +149,24 @@ GLOBAL_FRIEND_CHALLENGE_BODY1	Hai ricevuto una sfida da:
 GLOBAL_FRIEND_CHALLENGE_BODY2	Vuoi accettarla?	
 GLOBAL_FRIEND_CHALLENGE_DECLINE	No	
 GLOBAL_FRIEND_CHALLENGE_HEADER	Sfida!	
+GLOBAL_FRIEND_CHALLENGE_NEARBY_PLAYER_NOTE	Puoi disattivare le sfide dei giocatori vicini dalle opzioni del menu di gioco.	
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_CANCELED	{0} ha annullato la sfida.	0=friend name
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_DECLINED	{0} ha rifiutato la sfida.	0=friend name
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_FRIEND_REMOVED	Sfida annullata poiché {0} non è più tuo amico.	0=friend name
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_WAITING_DECK	Sei in attesa che {0} selezioni un mazzo.	0=friend name
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_WAITING_RESPONSE	Sei in attesa che {0} risponda alla tua sfida.	0=friend name
-GLOBAL_FRIEND_CHALLENGE_TITLE	Amichevole	
+GLOBAL_FRIEND_CHALLENGE_TITLE	Sfida	
 GLOBAL_FRIENDLIST_ADD_FRIEND_BUTTON	Aggiungi	
+GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_AVAILABLE	Sfida {0} a una partita a Hearthstone.	0=player name
+GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_HEADER	Sfida	
+GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_UNAVAILABLE	Non puoi sfidare {0} in questo momento. Ritorna al menu principale.	0=player name
+GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_THEYRE_UNAVAILABLE	Non puoi sfidare {0} in questo momento. Aspetta che ritorni al menu principale.	0=player name
 GLOBAL_FRIENDLIST_CURRENT_GAMES_HEADER	PARTITE IN CORSO - {0}	0=number of friends you have unfinished games with
-GLOBAL_FRIENDLIST_FRIENDS_HEADER	AMICI - {0}/{1} connessi	0=number of online friends 1=number of offline friends
-GLOBAL_FRIENDLIST_FRIENDS_HEADER_ALL_ONLINE	AMICI - {0} connessi	
+GLOBAL_FRIENDLIST_FRIENDS_HEADER	AMICI - {0}/{1} online	0=number of online friends 1=number of offline friends
+GLOBAL_FRIENDLIST_FRIENDS_HEADER_ALL_ONLINE	AMICI - {0} online	
 GLOBAL_FRIENDLIST_FRIENDS_HEADER_NO_ONLINE	AMICI	
 GLOBAL_FRIENDLIST_LASTPLAYED	Ultima partita:	
-GLOBAL_FRIENDLIST_MYSTATUS	CONNESSO	
+GLOBAL_FRIENDLIST_MYSTATUS	ONLINE	
 GLOBAL_FRIENDLIST_NEARBY_PLAYERS_HEADER	GIOCATORI VICINI - {0}	0=number of players
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_ALERT_MESSAGE	Vuoi davvero rimuovere {0}?	0=friend name
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_BUTTON	Rimuovi	
@@ -158,6 +177,7 @@ GLOBAL_GAME_QUEUE_TIME_IN_QUEUE	Tempo in coda
 GLOBAL_GAME_QUEUE_WAIT_TIME	Attesa	
 GLOBAL_GOLD_REWARD_ALREADY_CAPPED	Hai già guadagnato {0} oro oggi.	
 GLOBAL_GOLD_REWARD_BAD_RATING	Tu o il tuo avversario non avete raggiunto il livello minimo richiesto per guadagnare oro.	
+GLOBAL_GOLD_REWARD_OVER_CAIS	Non puoi ottenere altro oro a causa del CAIS.	
 GLOBAL_GOLD_REWARD_SHORT_GAME	La tua partita non è durata abbastanza per farti guadagnare oro.	
 GLOBAL_HEALTH	Salute	
 GLOBAL_HEALTHY_GAMING_CHINA_CAIS_ACTIVE	CAIS attivo	
@@ -165,7 +185,7 @@ GLOBAL_HEALTHY_GAMING_CHINA_LESS_THAN_THREE_HOURS	您累计在线时间已满{0}
 GLOBAL_HEALTHY_GAMING_CHINA_MORE_THAN_FIVE_HOURS	您已进入不健康游戏时间，为了您的健康，请您立即下线休息。如不下线，您的身体将受到损害，您的收益已降为零，直到您的累计下线时间满5小时后，才能恢复正常。	
 GLOBAL_HEALTHY_GAMING_CHINA_THREE_HOURS	您累计在线时间已满{0}小时，请您下线休息，做适当身体活动。	
 GLOBAL_HEALTHY_GAMING_CHINA_THREE_TO_FIVE_HOURS	您已经进入疲劳游戏时间，您的游戏收益将降为正常值的0%，为了您的健康，请尽快下线休息，做适当身体活动，合理安排学习生活。	
-GLOBAL_HEALTHY_GAMING_KOREA_STARTUP_MESSAGE	본 게임물은 12세이용가 게임으로서 해당 연령 미만의 어린이나 청소년이 이용하기에 부적절합니다. 반드시 보호자의 지도 감독이 필요한 게임입니다.	
+GLOBAL_HEALTHY_GAMING_KOREA_STARTUP_MESSAGE	본 게임물은 만 12세 이용가 게임으로서 해당 연령 미만의 청소년이 이용하기에 부적절합니다. 반드시 보호자의 지도 감독이 필요합니다.	
 GLOBAL_HEALTHY_GAMING_TOAST	게임을 플레이한지 {0}시간 지났습니다. 과도한 게임이용은 정상적인 일상생활에 지장을 줄 수 있습니다	
 GLOBAL_HEALTHY_GAMING_TOAST_OVER_THRESHOLD	Stai giocando da {0} |4(ora,ore). È davvero un sacco di tempo!	0=hours
 GLOBAL_HERO_LEVEL_NEXT_REWARD_TITLE	Ricompensa al livello {0}	0=level
@@ -173,6 +193,7 @@ GLOBAL_HERO_LEVEL_REWARD_ARCANE_DUST	{0} Polvere Arcana	0=amount
 GLOBAL_HERO_LEVEL_REWARD_BOOSTER	{0} |4(busta Avanzata,buste Avanzate)	0=booster type
 GLOBAL_HERO_LEVEL_REWARD_GOLD	{0} oro	0=amount
 GLOBAL_HERO_LEVEL_REWARD_GOLDEN_CARD	{1} {0}	0=flair 1=card name
+GLOBAL_HERO_WINS	Vittorie: {0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_KEYWORD_BATTLECRY	Grido di Battaglia	
 GLOBAL_KEYWORD_BATTLECRY_TEXT	Attiva l'effetto quando la carta viene giocata dalla mano.	
 GLOBAL_KEYWORD_CHARGE	Carica	
@@ -211,7 +232,7 @@ GLOBAL_KEYWORD_TAUNT_REF_TEXT	I nemici devono attaccare i servitori con Provocaz
 GLOBAL_KEYWORD_TAUNT_TEXT	I nemici devono attaccare questo servitore.	
 GLOBAL_KEYWORD_WINDFURY	Furia del Vento	
 GLOBAL_KEYWORD_WINDFURY_TEXT	Permette di attaccare due volte ogni turno.	
-GLOBAL_LANGUAGE_CHANGE_CONFIRM_MESSAGE	Per applicare la modifica, è necessario uscire dal gioco e riavviarlo. Vuoi continuare?	
+GLOBAL_LANGUAGE_CHANGE_CONFIRM_MESSAGE	Tutti i progressi non salvati andranno persi. Vuoi continuare?	
 GLOBAL_LANGUAGE_CHANGE_CONFIRM_TITLE	Cambio della lingua	
 GLOBAL_LANGUAGE_DEDE	Tedesco	
 GLOBAL_LANGUAGE_DOWNLOAD_VOICE_PACK	Lingue audio scaricate	
@@ -219,17 +240,32 @@ GLOBAL_LANGUAGE_DROPDOWN	Lingua
 GLOBAL_LANGUAGE_ENGB	Inglese (Regno Unito)	
 GLOBAL_LANGUAGE_ENUS	Inglese (Stati Uniti)	
 GLOBAL_LANGUAGE_ESES	Spagnolo (Spagna)	
-GLOBAL_LANGUAGE_ESMX	Spagnolo (Messico)	
+GLOBAL_LANGUAGE_ESMX	Spagnolo (America Latina)	
 GLOBAL_LANGUAGE_FRFR	Francese	
 GLOBAL_LANGUAGE_ITIT	Italiano	
 GLOBAL_LANGUAGE_KOKR	Coreano	
+GLOBAL_LANGUAGE_NATIVE_DEDE	Deutsch	The name of the language IN THAT LANGUAGE.
+GLOBAL_LANGUAGE_NATIVE_ENUS	English	The name of the language IN THAT LANGUAGE.
+GLOBAL_LANGUAGE_NATIVE_ESES	Español (España)	The name of the language IN THAT LANGUAGE.
+GLOBAL_LANGUAGE_NATIVE_ESMX	Español (Latinoamérica)	The name of the language IN THAT LANGUAGE.
+GLOBAL_LANGUAGE_NATIVE_FRFR	Français	The name of the language IN THAT LANGUAGE.
+GLOBAL_LANGUAGE_NATIVE_ITIT	Italiano	The name of the language IN THAT LANGUAGE.
+GLOBAL_LANGUAGE_NATIVE_KOKR	한국어	The name of the language IN THAT LANGUAGE.
+GLOBAL_LANGUAGE_NATIVE_PLPL	Polski	The name of the language IN THAT LANGUAGE.
+GLOBAL_LANGUAGE_NATIVE_PTBR	Português (Brasil)	The name of the language IN THAT LANGUAGE.
+GLOBAL_LANGUAGE_NATIVE_RURU	Русский	The name of the language IN THAT LANGUAGE.
+GLOBAL_LANGUAGE_NATIVE_ZHCN	中文（简体）	The name of the language IN THAT LANGUAGE.
+GLOBAL_LANGUAGE_NATIVE_ZHTW	繁體中文(台灣)	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_PLPL	Polacco	
 GLOBAL_LANGUAGE_PTBR	Portoghese (Brasile)	
 GLOBAL_LANGUAGE_PTPT	Portoghese (Portogallo)	
 GLOBAL_LANGUAGE_RURU	Russo	
 GLOBAL_LANGUAGE_ZHCN	Cinese (Cina)	
 GLOBAL_LANGUAGE_ZHTW	Cinese (Taiwan)	
+GLOBAL_LOGIN	Connettiti	
+GLOBAL_LOGIN_CONFIRM_TITLE	Connetti?	
 GLOBAL_LOGOUT	Disconnettiti	
+GLOBAL_LOGOUT_CONFIRM_TITLE	Disconnetti?	
 GLOBAL_LOSSES	Sconfitte	
 GLOBAL_MEDAL_0	Leggenda	
 GLOBAL_MEDAL_1	Locandiere	
@@ -252,7 +288,7 @@ GLOBAL_MEDAL_24	Gnomo Contaminato
 GLOBAL_MEDAL_25	Gallina Arrabbiata	
 GLOBAL_MEDAL_3	Gigante di Magma	
 GLOBAL_MEDAL_4	Gigante di Montagna	
-GLOBAL_MEDAL_5	Gigante del Mare	
+GLOBAL_MEDAL_5	Gigante di Mare	
 GLOBAL_MEDAL_6	Antico della Guerra	
 GLOBAL_MEDAL_7	Campionessa del Sole	
 GLOBAL_MEDAL_8	Signore dei Lupi Bianchi	
@@ -264,16 +300,25 @@ GLOBAL_MEDAL_TOOLTIP_BODY	Vinci delle partite per avanzare verso il prossimo gra
 GLOBAL_MEDAL_TOOLTIP_BODY_ARENA_GRAND_MASTER	Sei un campione dell'Arena!	
 GLOBAL_MEDAL_TOOLTIP_BODY_LEGEND	Sei una Leggenda! La tua posizione in questo grado cambierà a ogni partita.	
 GLOBAL_MEDAL_TOOLTIP_HEADER	Medaglia {0}	0=medal name
+GLOBAL_MOBILE_ERROR_IPAD1_DETECTED	Spiacenti, Hearthstone richiede un iPad 2 o superiore.	
+GLOBAL_MOBILE_ERROR_LOGON_WEB_TIMEOUT	È passato molto tempo dalla tua ultima azione su Hearthstone e sei stato disconnesso dal server.	
+GLOBAL_MOBILE_ERROR_NETWORK_DISCONNECT	Sei stato disconnesso.	
+GLOBAL_MOBILE_ERROR_NETWORK_SPAM	Sei stato disconnesso per aver inviato troppe richieste in breve tempo.	
+GLOBAL_MOBILE_ERROR_NETWORK_UTIL_TIMEOUT	Richiesta di connessione scaduta durante la ricezione di dati dal servizio di Hearthstone.	
+GLOBAL_MOBILE_LOG_IN_TOOLTIP	Connettiti se possiedi un account!	
+GLOBAL_MOBILE_LOGIN_POINTER	Connettiti da qui	
+GLOBAL_MOBILE_TAP_TO_RECONNECT	Tocca per riconnetterti	
+GLOBAL_MOBILE_TAP_TO_UPDATE	Tocca per aggiornare	
 GLOBAL_MOBILECHAT_NOTIFICATION_MULLIGAIN	Partita iniziata!	
 GLOBAL_MOBILECHAT_NOTIFICATION_TURN_COUNTDOWN	Il tempo sta per scadere!	
 GLOBAL_MOBILECHAT_NOTIFICATION_YOUR_TURN	Tocca a te!	
-GLOBAL_MOBILECHAT_RETURN_TO_GAME	Torna al gioco	
+GLOBAL_MOBILECHAT_RETURN_TO_GAME	Chiudi	
 GLOBAL_MOBILECHAT_RETURN_TO_MENU	Torna al menu	
 GLOBAL_MY_NUM_WINS	{0}	0=number of games this player has won
-GLOBAL_OFFLINE	Disconnesso	
+GLOBAL_OFFLINE	Offline	
 GLOBAL_OKAY	OK	
 GLOBAL_OPTIONS	Opzioni	
-GLOBAL_OPTIONS_CARDBACK_LABEL	Scegli il retro delle carte	
+GLOBAL_OPTIONS_CARDBACK_LABEL	Scegli il dorso delle carte	
 GLOBAL_OPTIONS_CINEMATIC	Filmato	
 GLOBAL_OPTIONS_CREDITS	Riconoscimenti	
 GLOBAL_OPTIONS_GRAPHICS_FULLSCREEN_LABEL	Schermo intero	
@@ -323,17 +368,45 @@ GLOBAL_RACE_TOTEM	Totem
 GLOBAL_RACE_TROLL	Troll	
 GLOBAL_RACE_UNDEAD	Non Morto	
 GLOBAL_RACE_WORGEN	Worgen	
-GLOBAL_RANK_SCRUB_RANK_DESC	Non puoi perdere stelle a questo grado.	
-GLOBAL_RANK_WIN_STREAK	Serie di vittorie: stella aggiuntiva!	
+GLOBAL_RANK_SCRUB_RANK_DESC	Non puoi perdere Stelle a questo grado.	
+GLOBAL_RANK_WIN_STREAK	Serie di vittorie: Stella aggiuntiva!	
 GLOBAL_RARITY_COMMON	Comune	
 GLOBAL_RARITY_EPIC	Epica	
 GLOBAL_RARITY_FREE	Gratuita	
 GLOBAL_RARITY_LEGENDARY	Leggendaria	
 GLOBAL_RARITY_RARE	Rara	
+GLOBAL_RECONNECT_EXIT_BUTTON	Esci	
+GLOBAL_RECONNECT_GAME_MODE_ARENA	Arena	
+GLOBAL_RECONNECT_GAME_MODE_FRIENDLY	Sfida	
+GLOBAL_RECONNECT_GAME_MODE_PLAY	Gioco	
+GLOBAL_RECONNECT_GAME_MODE_PRACTICE	Allenamento	
+GLOBAL_RECONNECT_GAME_MODE_RANKED_PLAY	Classificata	
+GLOBAL_RECONNECT_GAME_MODE_TUTORIAL	Tutorial	
+GLOBAL_RECONNECT_GAME_MODE_UNRANKED_PLAY	Amichevole	
+GLOBAL_RECONNECT_RECONNECTED	Sei stato riconnesso alla partita. Ripresa in corso...	
+GLOBAL_RECONNECT_RECONNECTED_HEADER	Riconnesso	
+GLOBAL_RECONNECT_RECONNECTED_LOGIN	Sei stato riconnesso all'ultima partita. Ripresa in corso...	
+GLOBAL_RECONNECT_RECONNECTING	Sei stato disconnesso dalla partita. Riconnessione in corso...	
+GLOBAL_RECONNECT_RECONNECTING_HEADER	Riconnessione	
+GLOBAL_RECONNECT_RECONNECTING_LOGIN	Sei stato disconnesso dall'ultima partita. Riconnessione in corso...	
+GLOBAL_RECONNECT_RESULT_DISCONNECT	Hai perso l'ultima partita in modalità {0} per una disconnessione.	0=one of GLOBAL_RECONNECT_GAME_MODE_*
+GLOBAL_RECONNECT_RESULT_HEADER	Risultati di gioco	
+GLOBAL_RECONNECT_RESULT_LOSE	Hai perso l'ultima partita in modalità {0}.	0=one of GLOBAL_RECONNECT_GAME_MODE_*
+GLOBAL_RECONNECT_RESULT_TIE	L'ultima partita in modalità {0} è terminata con un pareggio.	0=one of GLOBAL_RECONNECT_GAME_MODE_*
+GLOBAL_RECONNECT_RESULT_WIN	Hai vinto l'ultima partita in modalità {0}.	0=one of GLOBAL_RECONNECT_GAME_MODE_*
+GLOBAL_RECONNECT_TIMEOUT	Impossibile riconnettersi alla partita.	
+GLOBAL_RECONNECT_TIMEOUT_HEADER	Errore	
+GLOBAL_REGION_AMERICAS	Americhe e Sud-est asiatico	
+GLOBAL_REGION_ASIA	Asia	
+GLOBAL_REGION_CHINA	Cina	
+GLOBAL_REGION_EUROPE	Europa	
 GLOBAL_REMAINING_DATETIME	{0} |4(rimanente,rimanenti)	0=time string
 GLOBAL_RESUME_GAME	Riprendi	
 GLOBAL_REWARD_ARCANE_DUST_HEADLINE	Polvere Arcana ottenuta!	
-GLOBAL_REWARD_BOOSTER_HEADLINE	Busta Avanzata ottenuta!	
+GLOBAL_REWARD_BOOSTER_DETAILS_OUT_OF_BAND	{0} |4(busta è stata aggiunta,buste sono state aggiunte) al tuo account da una sorgente esterna al gioco.	0=count
+GLOBAL_REWARD_BOOSTER_HEADLINE	Busta ottenuta!	
+GLOBAL_REWARD_BOOSTER_HEADLINE_OUT_OF_BAND	Hai ottenuto una busta!	
+GLOBAL_REWARD_CARD_BACK_HEADLINE	Dorso ottenuto!	
 GLOBAL_REWARD_CARD_COUNT_MULTIPLIER	x	
 GLOBAL_REWARD_CARD_DETAILS_TUTORIAL01	Oh sì!	
 GLOBAL_REWARD_CARD_DETAILS_TUTORIAL02	Davvero impressionante.	
@@ -344,15 +417,26 @@ GLOBAL_REWARD_CARD_DETAILS_TUTORIAL06	Che meraviglia!
 GLOBAL_REWARD_CARD_HEADLINE	Ricompensa!	
 GLOBAL_REWARD_CARD_LEVEL_UP	Sbloccata raggiungendo il livello {0} come {1}	0=# level, 1=class
 GLOBAL_REWARD_CORE_CARD_DETAILS	{0}/{1} carte {2} sbloccate	0=# cards unlocked, 1=# cards possible to unlock, 2=class
+GLOBAL_REWARD_FORGE_DETAILS_OUT_OF_BAND	{0} |4(ammissione all'Arena è stata aggiunta,ammissioni all'Arena sono state aggiunte) al tuo account da una sorgente esterna al gioco.	0=count
+GLOBAL_REWARD_FORGE_HEADLINE	Hai ottenuto un accesso all'Arena!	
 GLOBAL_REWARD_FORGE_UNLOCKED_HEADLINE	Arena sbloccata!	
 GLOBAL_REWARD_FORGE_UNLOCKED_SOURCE	Ricompensa per essere entrato nell'Arena	
 GLOBAL_REWARD_GOLD_HEADLINE	Oro ottenuto!	
+GLOBAL_REWARD_GOLD_SOURCE_IGR	Ricompensa per esserti connesso da una IGR	
 GLOBAL_REWARD_GOLD_SOURCE_TOURNEY	Ricompensa per aver vinto {0} |4(partita,partite) in modalità Gioco	
-GLOBAL_REWARD_GOLDEN_HERO_HEADLINE	{0} Dorata sbloccata	
+GLOBAL_REWARD_GOLDEN_HERO_HEADLINE	Eroe Dorato sbloccato	
+GLOBAL_REWARD_HEARTHSTEED_HEADLINE	Destriero di Hearthstone	
 GLOBAL_REWARD_HERO_DETAILS	{0}/{1} eroi sbloccati	
 GLOBAL_REWARD_HERO_HEADLINE	Eroe sbloccato: {0}	
 GLOBAL_REWARD_HERO_SOURCE	Ricompensa per aver sconfitto l'eroe {0}	0=class
-GLOBAL_SCREENSHOT_COMPLETE	Immagine salvata sul desktop	
+GLOBAL_SCREENSHOT_COMPLETE	Immagine salvata sul desktop.	
+GLOBAL_SEASON_END_BONUS_STAR_BOOST	Le Stelle bonus danno accesso al grado	
+GLOBAL_SEASON_END_BONUS_STAR_TITLE	Il grado ottenuto nella scorsa stagione ti dà diritto a	
+GLOBAL_SEASON_END_BONUS_STARS_LABEL	|4(Stella bonus,Stelle bonus)	
+GLOBAL_SEASON_END_NEW_CARD_BACK	Hai ottenuto un nuovo dorso delle carte	
+GLOBAL_SEASON_END_NEW_SEASON	La {0} è cominciata!	0=season name
+GLOBAL_SEASON_END_RANK_LABEL	Hai ottenuto il grado	
+GLOBAL_SEASON_END_WELCOME	Benvenuto	
 GLOBAL_SET_CORE	Set Base	
 GLOBAL_SET_EXPERT1	Set Avanzato	
 GLOBAL_SHUTDOWN_TOAST	<color=#{0}>Battle.net verrà chiuso in {1} |4(minuto,minuti)</color>	0=color, 1=minutes
@@ -365,8 +449,8 @@ GLOBAL_SOCIAL_TOAST_FRIEND_HUNTER_LEVEL	<color=#{0}>{1}</color> ha raggiunto il 
 GLOBAL_SOCIAL_TOAST_FRIEND_ILLIDAN_COMPLETE	<color=#{0}>{1}</color> ha sconfitto Illidan Grantempesta!	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_LEGENDARY	<color=#{0}>{1}</color> ha ottenuto la carta <color=#{3}>{2}</color>!	0=name color,1=player name,2=card name
 GLOBAL_SOCIAL_TOAST_FRIEND_MAGE_LEVEL	<color=#{0}>{1}</color> ha raggiunto il livello {2} con il Mago.	0=name color,1=player name,2=level
-GLOBAL_SOCIAL_TOAST_FRIEND_OFFLINE	<color=#{0}>{1}</color> si è disconnesso.	0=name color,1=player name
-GLOBAL_SOCIAL_TOAST_FRIEND_ONLINE	<color=#{0}>{1}</color> si è connesso.	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_FRIEND_OFFLINE	<color=#{0}>{1}</color> è offline.	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_FRIEND_ONLINE	<color=#{0}>{1}</color> è online.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_PALADIN_LEVEL	<color=#{0}>{1}</color> ha raggiunto il livello {2} con il Paladino.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_PRIEST_LEVEL	<color=#{0}>{1}</color> ha raggiunto il livello {2} con il Sacerdote.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_RANK_LEGEND	<color=#{0}>{1}</color> ha ottenuto il grado Leggenda!	0=name color,1=player name
@@ -381,4 +465,5 @@ GLOBAL_TOOLTIP_FRIEND_BUTTON_DESC	Sfida i tuoi amici o parla con loro.
 GLOBAL_TOOLTIP_FRIEND_BUTTON_HEADER	Amici	
 GLOBAL_TOOLTIP_MENU_DESC	Accedi alle opzioni, esci dal gioco e altro ancora.	
 GLOBAL_TOOLTIP_MENU_HEADER	Menu di gioco	
+GLOBAL_VERSION	Versione	
 GLOBAL_WINS	Vittorie	

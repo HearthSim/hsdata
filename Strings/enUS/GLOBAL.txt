@@ -2,6 +2,7 @@ TAG	TEXT	COMMENT
 GLOBAL_BUTTON_YES	Yes	
 GLOBAL_BUTTON_NO	No	
 GLOBAL_BUTTON_OK	Ok	
+GLOBAL_BUTTON_NEXT	Next
 GLOBAL_CARD_SET_CORE	Basic	
 GLOBAL_CARD_SET_EXPERT1	Expert	
 GLOBAL_CARD_SET_REWARD	Reward	
@@ -42,7 +43,7 @@ GLOBAL_KEYWORD_IMMUNE	Immune
 GLOBAL_KEYWORD_IMMUNE_TEXT	Can't be damaged.	
 GLOBAL_KEYWORD_IMMUNE_REF_TEXT	Immune characters can't be damaged.	
 GLOBAL_KEYWORD_SECRET	Secret	
-GLOBAL_KEYWORD_SECRET_TEXT	Hidden until a specific action occurs.	
+GLOBAL_KEYWORD_SECRET_TEXT	Hidden until a specific action occurs on your opponent's turn.	
 GLOBAL_KEYWORD_SPELLPOWER	Spell Damage	
 GLOBAL_KEYWORD_SPELLPOWER_TEXT	Your spell cards deal {0} extra damage.	0=amount of spell damage
 GLOBAL_KEYWORD_STEALTH	Stealth	
@@ -99,6 +100,7 @@ GLOBAL_SET_CORE	Basic Set
 GLOBAL_WINS	Wins
 GLOBAL_LOSSES	Losses	
 GLOBAL_MY_NUM_WINS	{0}	0=number of games this player has won
+GLOBAL_HERO_WINS	Wins: {0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_PLAY	Play	
 GLOBAL_PLAY_RANKED	Play Ranked	
 GLOBAL_BACK	Back	
@@ -108,14 +110,21 @@ GLOBAL_EXIT	Exit
 GLOBAL_CONFIRM	Confirm	
 GLOBAL_OKAY	OK	
 GLOBAL_QUIT	Quit	
-GLOBAL_LOGOUT	Logout	
+GLOBAL_LOGOUT	Log Out	
+GLOBAL_LOGIN	Log In	
+GLOBAL_LOGOUT_CONFIRM_TITLE	Log Out?	
+GLOBAL_LOGIN_CONFIRM_TITLE	Log In?	
+GLOBAL_MOBILE_LOG_IN_TOOLTIP	Log in if you have an account!	
+GLOBAL_MOBILE_LOGIN_POINTER	Log In Here
 GLOBAL_OPTIONS	Options	
 GLOBAL_CONCEDE	Concede	
 GLOBAL_RESUME_GAME	Resume	
 GLOBAL_GAME_MENU	Game Menu	
 GLOBAL_FRIEND_CHALLENGE_TITLE	Friendly	
 GLOBAL_FRIEND_CHALLENGE_HEADER	Challenge	
-GLOBAL_FRIEND_CHALLENGE_RECEIVED	You've been challenged by {0}.\n\nDo you accept?	0=friend name
+GLOBAL_FRIEND_CHALLENGE_BODY1	You've been challenged by:	
+GLOBAL_FRIEND_CHALLENGE_BODY2	Do you accept?	
+GLOBAL_FRIEND_CHALLENGE_NEARBY_PLAYER_NOTE	You can turn off invites from nearby players in the options menu.
 GLOBAL_FRIEND_CHALLENGE_ACCEPT	Yes!	
 GLOBAL_FRIEND_CHALLENGE_DECLINE	No	
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_WAITING_RESPONSE	You are waiting for {0} to respond to your challenge.	0=friend name
@@ -137,8 +146,15 @@ GLOBAL_ERROR_NETWORK_TITLE	NETWORK ERROR
 GLOBAL_ERROR_NETWORK_GENERIC	There was an internal network error.	
 GLOBAL_ERROR_NETWORK_LOGIN_FAILURE	The game was unable to log you in through Battle.net. Please wait a few minutes and try again.	
 GLOBAL_ERROR_NETWORK_UTIL_TIMEOUT	Your game timed out as it was requesting data from the Hearthstone utility service. Please relaunch Hearthstone to reconnect.	
+GLOBAL_MOBILE_ERROR_NETWORK_UTIL_TIMEOUT	Your connection timed out as it was requesting data from the Hearthstone servers.	
 GLOBAL_ERROR_NETWORK_DISCONNECT	You were disconnected from the Battle.net service. Please relaunch Hearthstone to reconnect.	
+GLOBAL_MOBILE_ERROR_NETWORK_DISCONNECT	You were disconnected.	
+GLOBAL_ERROR_NETWORK_DISCONNECT_GENERIC	You were disconnected.	
+GLOBAL_ERROR_NETWORK_DISCONNECT_GAME_SERVER	You were disconnected from the Hearthstone game service.	
+GLOBAL_ERROR_NETWORK_NO_CONNECTION	Unable to connect. Please check your Internet connection.	
+GLOBAL_ERROR_NETWORK_CONNECTION_TIMEOUT	Your connection timed out. Please check your Internet connection.	
 GLOBAL_ERROR_NETWORK_SPAM	You were disconnected from the Battle.net service for sending too many requests too quickly. Please relaunch Hearthstone to reconnect.	
+GLOBAL_MOBILE_ERROR_NETWORK_SPAM	You were disconnected for sending too many requests too quickly.	
 GLOBAL_ERROR_NETWORK_DUPLICATE_LOGIN	This Battle.net account just logged into Hearthstone from another device.\n\nThis client was disconnected because only one connection is supported at a time.	
 GLOBAL_ERROR_NETWORK_LOST_GAME_CONNECTION	Your game has been disconnected from the Battle.net game service. You can try to reconnect again by starting another game.
 GLOBAL_ERROR_NETWORK_INCORRECT_REGION	Your Battle.net account is not eligible to participate in this region's Hearthstone beta test. Once the Hearthstone beta is available in your home region, please try again!	
@@ -146,10 +162,21 @@ GLOBAL_ERROR_NETWORK_ACCOUNT_SUSPENDED	Your account has been suspended.
 GLOBAL_ERROR_NETWORK_ACCOUNT_BANNED	Your account has been banned.	
 GLOBAL_ERROR_NETWORK_PARENTAL_CONTROLS	Access to this account is currently restricted by parental controls.
 GLOBAL_ERROR_NETWORK_PHONE_LOCK	Please call your Battle.net Phone Lock number to allow this login.\nTaiwan: 0800-303-585\nHong Kong: 396-54666
+GLOBAL_ERROR_NETWORK_UNAVAILABLE_UPGRADE	Hearthstone has been updated!  Please download the latest version.
+GLOBAL_ERROR_NETWORK_UNAVAILABLE_OFFLINE	Hearthstone is offline. Please wait a few minutes and try again.
+GLOBAL_ERROR_NETWORK_UNAVAILABLE_UNKNOWN	Oops! Playful sprites have disrupted Hearthstone as it was connecting to our servers. Please wait a few minutes for them to disperse and try again.
 GLOBAL_ERROR_ACCOUNT_LICENSES	We had some trouble checking what you own, so some things might be missing. Sorry about that! We’ll try again next time you log on.	
 GLOBAL_ERROR_NO_MAGE_PRECON	We just ran into a network problem as we were loading up all the cards in your collection. Please relaunch Hearthstone to access your collection and resume your duels!		
+GLOBAL_MOBILE_ERROR_IPAD1_DETECTED	Sorry, Hearthstone requires iPad 2 or later.		
+GLOBAL_SEASON_END_WELCOME	Welcome
+GLOBAL_SEASON_END_NEW_SEASON	The {0} has begun!	0=season name
+GLOBAL_SEASON_END_NEW_CARD_BACK	You have earned a new card back
+GLOBAL_SEASON_END_RANK_LABEL	You have achieved the rank of
+GLOBAL_SEASON_END_BONUS_STAR_TITLE	Your rank from last season earned you
+GLOBAL_SEASON_END_BONUS_STARS_LABEL	Bonus |4(Star,Stars)
+GLOBAL_SEASON_END_BONUS_STAR_BOOST	Your bonus stars boost you to
 GLOBAL_MEDAL_REWARD_CONGRATULATIONS	Congratulations!	
-GLOBAL_MEDAL_REWARD_DESCRIPTION	Medal earned last season	
+GLOBAL_MEDAL_REWARD_DESCRIPTION	Medal earned last week	
 GLOBAL_MEDAL_TOOLTIP_HEADER	{0} Medal	0=medal name
 GLOBAL_MEDAL_TOOLTIP_BODY	Win games to advance to the next rank!\n\nNext Rank:\n{0}	0=medal name
 GLOBAL_MEDAL_TOOLTIP_BODY_LEGEND	You're a legend! Your position in this rank will change with each game.	
@@ -177,6 +204,12 @@ GLOBAL_DATETIME_SPLASHSCREEN_DAYS	{0} |4(day,days)
 GLOBAL_DATETIME_SPLASHSCREEN_WEEKS	{0} |4(week,weeks)	
 GLOBAL_DATETIME_SPLASHSCREEN_MONTH	> 1 month	
 GLOBAL_DATETIME_SPINNER_SECONDS	{0} |4(sec,secs)	
+GLOBAL_DATETIME_SPINNER_MINUTES	{0} |4(min,mins)	
+GLOBAL_DATETIME_SPINNER_HOURS	{0} |4(hour,hours)	
+GLOBAL_DATETIME_SPINNER_DAY	> 1 day	
+GLOBAL_DATETIME_SPINNER_DAYS	{0} |4(day,days)	
+GLOBAL_DATETIME_SPINNER_WEEKS	{0} |4(week,weeks)	
+GLOBAL_DATETIME_SPINNER_MONTH	> 1 month	
 GLOBAL_APPROXIMATE_DATETIME	~{0}	0=time string
 GLOBAL_APPROXIMATE_DATETIME_RANGE	~{0} - {1}	0=min seconds 1=max seconds string
 GLOBAL_REMAINING_DATETIME	{0} left	0=time string
@@ -194,20 +227,24 @@ GLOBAL_FRIENDLIST_REMOVE_FRIEND_BUTTON	Remove
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_ALERT_MESSAGE	Are you sure you want to remove {0}?	0=friend name
 GLOBAL_FRIENDLIST_MYSTATUS	ONLINE	
 GLOBAL_FRIENDLIST_LASTPLAYED	Last Played:
+GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_HEADER	Friendly Challenge
+GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_UNAVAILABLE	You can't challenge {0} right now. Return to the main menu.	0=player name
+GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_THEYRE_UNAVAILABLE	You can't challenge {0} right now. Wait for them to return to the main menu.	0=player name
+GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_AVAILABLE	Challenge {0} to a game of Hearthstone.	0=player name
 GLOBAL_ADDFRIEND_HEADER	Add a Friend	
 GLOBAL_ADDFRIEND_INSTRUCTION	Enter a BattleTag or email address.	
 GLOBAL_ADDFRIEND_SENT_CONFIRMATION	Friend request sent.	
 GLOBAL_ADDFRIEND_ERROR_ALREADY_FRIEND	That person is already your friend.	
 GLOBAL_ADDFRIEND_ERROR_MALFORMED	You must enter an email address or Battle Tag.	
 GLOBAL_MOBILECHAT_RETURN_TO_MENU	Return to menu	
-GLOBAL_MOBILECHAT_RETURN_TO_GAME	Return to game	
+GLOBAL_MOBILECHAT_RETURN_TO_GAME	Close
 GLOBAL_MOBILECHAT_NOTIFICATION_MULLIGAIN	Game started!	
 GLOBAL_MOBILECHAT_NOTIFICATION_YOUR_TURN	Your turn!	
 GLOBAL_MOBILECHAT_NOTIFICATION_TURN_COUNTDOWN	Running out of time!	
 GLOBAL_PROGRAMNAME_HEARTHSTONE	Hearthstone	
 GLOBAL_PROGRAMNAME_WOW	World of Warcraft	
-GLOBAL_PROGRAMNAME_DIABLO3	Diablo 3	
-GLOBAL_PROGRAMNAME_STARCRAFT2	StarCraft 2	
+GLOBAL_PROGRAMNAME_DIABLO3	Diablo III	
+GLOBAL_PROGRAMNAME_STARCRAFT2	StarCraft II	
 GLOBAL_PROGRAMNAME_PHOENIX	Battle.net	
 GLOBAL_OFFLINE	Offline	
 GLOBAL_DEFAULT_ALERT_HEADER	Alert	
@@ -315,13 +352,19 @@ GLOBAL_OPTIONS_PUBLIC_CHAT_ENABLED	Unfriendly Chat
 GLOBAL_OPTIONS_CARDBACK_LABEL	Choose Your Card Back	
 GLOBAL_OPTIONS_NEARBY_PLAYERS	Enable Challenging Nearby Players - Friend List	
 GLOBAL_REWARD_BOOSTER_HEADLINE	Expert Pack earned!	
+GLOBAL_REWARD_BOOSTER_HEADLINE_OUT_OF_BAND	Card Pack granted!
+GLOBAL_REWARD_BOOSTER_DETAILS_OUT_OF_BAND	{0} |4(pack was,packs were) added to your account from outside of the game.	0=count
 GLOBAL_REWARD_CARD_HEADLINE	Reward!	
 GLOBAL_REWARD_CARD_COUNT_MULTIPLIER	x	
+GLOBAL_REWARD_CARD_BACK_HEADLINE	Card back earned!
 GLOBAL_REWARD_ARCANE_DUST_HEADLINE	Arcane Dust earned!	
 GLOBAL_REWARD_GOLD_HEADLINE	Gold earned!
 GLOBAL_REWARD_FORGE_UNLOCKED_HEADLINE	Arena Unlocked!
 GLOBAL_REWARD_FORGE_UNLOCKED_SOURCE	Awarded for entering the Arena	
-GLOBAL_REWARD_GOLDEN_HERO_HEADLINE	Golden {0} Unlocked	
+GLOBAL_REWARD_FORGE_HEADLINE	Arena Entry Granted
+GLOBAL_REWARD_FORGE_DETAILS_OUT_OF_BAND	{0} arena |4(admission was,admissions were) added to your account from outside of the game.	0=count
+GLOBAL_REWARD_HEARTHSTEED_HEADLINE	Hearthsteed Mount
+GLOBAL_REWARD_GOLDEN_HERO_HEADLINE	Golden Hero Unlocked	
 GLOBAL_REWARD_HERO_HEADLINE	{0} Unlocked	
 GLOBAL_REWARD_HERO_DETAILS	{0}/{1} Heroes Unlocked
 GLOBAL_REWARD_HERO_SOURCE	Unlocked by defeating a {0}	0=class
@@ -333,6 +376,7 @@ GLOBAL_REWARD_CARD_DETAILS_TUTORIAL04	That was incredible.
 GLOBAL_REWARD_CARD_DETAILS_TUTORIAL05	Magnificent!
 GLOBAL_REWARD_CARD_DETAILS_TUTORIAL06	Hot hot hot!
 GLOBAL_REWARD_CARD_LEVEL_UP	Unlocked by hitting level {0} as a {1}	0=# level, 1=class
+GLOBAL_REWARD_GOLD_SOURCE_IGR	Awarded for logging in from an IGR
 GLOBAL_REWARD_GOLD_SOURCE_TOURNEY	Awarded for winning {0} |4(game,games) in Play mode
 GLOBAL_BETA_REIMBURSEMENT_HEADLINE	Account Wipe Credit
 GLOBAL_BETA_REIMBURSEMENT_DETAILS	This gold is a credit for your past purchases. Thank you!
@@ -347,11 +391,14 @@ GLOBAL_HERO_LEVEL_REWARD_GOLD	{0} gold	0=amount
 GLOBAL_GOLD_REWARD_ALREADY_CAPPED	You have already earned {0} gold today.
 GLOBAL_GOLD_REWARD_BAD_RATING	You or your opponent do not meet the rating requirements to earn gold.
 GLOBAL_GOLD_REWARD_SHORT_GAME	Your game did not meet the time requirement to earn gold.
+GLOBAL_GOLD_REWARD_OVER_CAIS	You cannot gain any more gold due to CAIS.
 GLOBAL_COLLECTION_GOLDEN	Golden	
 GLOBAL_SPLASH_CLOSED_SIGN_TITLE	Closed	
 GLOBAL_ERROR_INACTIVITY_KICK	It's been a while since your last Hearthstone action and your connection was shut down. Relaunch the game when you're ready!	
+GLOBAL_MOBILE_ERROR_LOGON_WEB_TIMEOUT	It's been a while since your last Hearthstone action and your connection was shut down.	
 GLOBAL_ERROR_UNKNOWN_ERROR	Oops! Playful sprites have disrupted Hearthstone as it was linking up to the Battle.net service. Please wait a few minutes for them to disperse and try re-launching the game.	
 GLOBAL_CLICK_TO_CONTINUE	Click to continue	
+GLOBAL_CLICK_TO_CONTINUE_TOUCH	Tap to continue	
 GLOBAL_TOOLTIP_MENU_HEADER	Game Menu	
 GLOBAL_TOOLTIP_MENU_DESC	Take a look at the Options, Quit the Game, and more.	
 GLOBAL_TOOLTIP_FRIEND_BUTTON_HEADER	Friends	
@@ -361,17 +408,17 @@ GLOBAL_HEALTHY_GAMING_CHINA_THREE_HOURS	您累计在线时间已满{0}小时，�
 GLOBAL_HEALTHY_GAMING_CHINA_THREE_TO_FIVE_HOURS	您已经进入疲劳游戏时间，您的游戏收益将降为正常值的0%，为了您的健康，请尽快下线休息，做适当身体活动，合理安排学习生活。	
 GLOBAL_HEALTHY_GAMING_CHINA_MORE_THAN_FIVE_HOURS	您已进入不健康游戏时间，为了您的健康，请您立即下线休息。如不下线，您的身体将受到损害，您的收益已降为零，直到您的累计下线时间满5小时后，才能恢复正常。	
 GLOBAL_CURRENT_TIME	{0:h:mm tt}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx	
-GLOBAL_HEALTHY_GAMING_KOREA_STARTUP_MESSAGE	본 게임물은 12세이용가 게임으로서 해당 연령 미만의 어린이나 청소년이 이용하기에 부적절합니다. 반드시 보호자의 지도 감독이 필요한 게임입니다.	
+GLOBAL_HEALTHY_GAMING_KOREA_STARTUP_MESSAGE	본 게임물은 만 12세 이용가 게임으로서 해당 연령 미만의 청소년이 이용하기에 부적절합니다. 반드시 보호자의 지도 감독이 필요합니다.	
 GLOBAL_HEALTHY_GAMING_CHINA_CAIS_ACTIVE	CAIS Active	
 GLOBAL_LANGUAGE_CHANGE_CONFIRM_TITLE	Change Language?	
-GLOBAL_LANGUAGE_CHANGE_CONFIRM_MESSAGE	This will exit the game, and you will need to relaunch.  Continue?	
+GLOBAL_LANGUAGE_CHANGE_CONFIRM_MESSAGE	You will lose any unsaved progress. Continue?	
 GLOBAL_LANGUAGE_ENUS	English (United States)	
 GLOBAL_LANGUAGE_ENGB	English (Great Britain)	
 GLOBAL_LANGUAGE_FRFR	French	
 GLOBAL_LANGUAGE_DEDE	German	
 GLOBAL_LANGUAGE_KOKR	Korean	
 GLOBAL_LANGUAGE_ESES	Spanish (Spain)	
-GLOBAL_LANGUAGE_ESMX	Spanish (Mexico)	
+GLOBAL_LANGUAGE_ESMX	Spanish (Latin America)	
 GLOBAL_LANGUAGE_RURU	Russian	
 GLOBAL_LANGUAGE_ZHTW	Chinese (Taiwan)	
 GLOBAL_LANGUAGE_ZHCN	Chinese (China)	
@@ -379,5 +426,45 @@ GLOBAL_LANGUAGE_ITIT	Italian
 GLOBAL_LANGUAGE_PTBR	Portuguese (Brazil)	
 GLOBAL_LANGUAGE_PLPL	Polish	
 GLOBAL_LANGUAGE_PTPT	Portuguese (Portugal)	
+GLOBAL_LANGUAGE_NATIVE_DEDE	Deutsch	The name of the language IN THAT LANGUAGE.
+GLOBAL_LANGUAGE_NATIVE_ENUS	English	The name of the language IN THAT LANGUAGE.
+GLOBAL_LANGUAGE_NATIVE_ESES	Español (España)	The name of the language IN THAT LANGUAGE.
+GLOBAL_LANGUAGE_NATIVE_ESMX	Español (Latinoamérica)	The name of the language IN THAT LANGUAGE.
+GLOBAL_LANGUAGE_NATIVE_FRFR	Français	The name of the language IN THAT LANGUAGE.
+GLOBAL_LANGUAGE_NATIVE_ITIT	Italiano	The name of the language IN THAT LANGUAGE.
+GLOBAL_LANGUAGE_NATIVE_KOKR	한국어	The name of the language IN THAT LANGUAGE.
+GLOBAL_LANGUAGE_NATIVE_PLPL	Polski	The name of the language IN THAT LANGUAGE.
+GLOBAL_LANGUAGE_NATIVE_PTBR	Português (Brasil)	The name of the language IN THAT LANGUAGE.
+GLOBAL_LANGUAGE_NATIVE_RURU	Русский	The name of the language IN THAT LANGUAGE.
+GLOBAL_LANGUAGE_NATIVE_ZHCN	中文（简体）	The name of the language IN THAT LANGUAGE.
+GLOBAL_LANGUAGE_NATIVE_ZHTW	繁體中文(台灣)	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_DROPDOWN	Language	
 GLOBAL_LANGUAGE_DOWNLOAD_VOICE_PACK	Downloaded Voice Pack	
+GLOBAL_REGION_AMERICAS	Americas & Southeast Asia
+GLOBAL_REGION_EUROPE	Europe
+GLOBAL_REGION_ASIA	Asia
+GLOBAL_REGION_CHINA	China
+GLOBAL_RECONNECT_RECONNECTING_HEADER	Reconnecting	
+GLOBAL_RECONNECT_RECONNECTING_LOGIN	You were disconnected from your last game. Reconnecting...	
+GLOBAL_RECONNECT_RECONNECTING	You were disconnected from your game. Reconnecting...	
+GLOBAL_RECONNECT_TIMEOUT_HEADER	Error	
+GLOBAL_RECONNECT_TIMEOUT	Unable to reconnect to your game.	
+GLOBAL_RECONNECT_RECONNECTED_HEADER	Reconnected	
+GLOBAL_RECONNECT_RECONNECTED_LOGIN	You were reconnected to your last game. Resuming...	
+GLOBAL_RECONNECT_RECONNECTED	You were reconnected to your game. Resuming...	
+GLOBAL_RECONNECT_EXIT_BUTTON	Exit Game
+GLOBAL_RECONNECT_RESULT_HEADER	Game Result	
+GLOBAL_RECONNECT_RESULT_WIN	You won your last {0} game.	0=one of GLOBAL_RECONNECT_GAME_MODE_*
+GLOBAL_RECONNECT_RESULT_LOSE	You lost your last {0} game.	0=one of GLOBAL_RECONNECT_GAME_MODE_*
+GLOBAL_RECONNECT_RESULT_DISCONNECT	You lost your last {0} game due to a disconnect.	0=one of GLOBAL_RECONNECT_GAME_MODE_*
+GLOBAL_RECONNECT_RESULT_TIE	Your last {0} game was a tie.	0=one of GLOBAL_RECONNECT_GAME_MODE_*
+GLOBAL_RECONNECT_GAME_MODE_PRACTICE	Practice	
+GLOBAL_RECONNECT_GAME_MODE_FRIENDLY	Friendly	
+GLOBAL_RECONNECT_GAME_MODE_TUTORIAL	Tutorial	
+GLOBAL_RECONNECT_GAME_MODE_ARENA	Arena	
+GLOBAL_RECONNECT_GAME_MODE_UNRANKED_PLAY	Unranked Play	
+GLOBAL_RECONNECT_GAME_MODE_RANKED_PLAY	Ranked Play	
+GLOBAL_RECONNECT_GAME_MODE_PLAY	Play	
+GLOBAL_VERSION	Version	
+GLOBAL_MOBILE_TAP_TO_RECONNECT	Tap anywhere to reconnect	
+GLOBAL_MOBILE_TAP_TO_UPDATE	Tap anywhere to update	

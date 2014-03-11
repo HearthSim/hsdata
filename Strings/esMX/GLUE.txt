@@ -54,7 +54,7 @@ GLUE_COLLECTION_DECK_INFO_MANA_TOOLTIP	Cartas/Costo de maná
 GLUE_COLLECTION_DECK_INFO_TITLE	{0} Información	
 GLUE_COLLECTION_DECK_INVALID_POPUP_HEADER	Mazo no válido	
 GLUE_COLLECTION_DECK_INVALID_POPUP_MESSAGE	Necesitas {0} |4(carta,cartas) más para completar tu mazo. ¿Quieres completarlo automáticamente?	
-GLUE_COLLECTION_DECK_RENAME	Cambiar nombre	
+GLUE_COLLECTION_DECK_RENAME	Renombrar	
 GLUE_COLLECTION_DECK_SAVE_ANYWAY	No	
 GLUE_COLLECTION_DELETE_CONFIRM_DESC	Tu mazo se borrará. ¿Estás seguro?	
 GLUE_COLLECTION_DELETE_CONFIRM_HEADER	Borrar	
@@ -65,6 +65,7 @@ GLUE_COLLECTION_INCLUDE_PREMIUMS	Incluir doradas
 GLUE_COLLECTION_LOCK_MAX_DECK_COPIES	Límite por mazo: {0}	
 GLUE_COLLECTION_LOCK_NO_MORE_INSTANCES	No quedan más	
 GLUE_COLLECTION_MINE	Mis cartas	
+GLUE_COLLECTION_MULTIPLIER	x	Used as a multiplication symbol.
 GLUE_COLLECTION_MY_DECKS	Mis mazos	
 GLUE_COLLECTION_MY_PACKS	Mis paquetes	
 GLUE_COLLECTION_NEW_CARD_CALLOUT	{0}	0=number of new cards for this class
@@ -118,8 +119,9 @@ GLUE_FORGE_RETIRE_WARNING_HEADER	¡Espera!
 GLUE_FORGE_STORE_ADMISSION	Admisión	
 GLUE_FORGE_STORE_DETAILS1	Crea un mazo con cartas aleatorias y luego descubre cuánto puedes durar en la Arena.	
 GLUE_FORGE_STORE_DETAILS2	¡Cuanto más tiempo dures, mejores serán los premios!	
-GLUE_FORGE_STORE_DISCLAIMER_DETAILS	Si compras paquetes de cartas o entradas a la Arena durante la beta de Hearthstone, recibirás una carta dorada de Gelbin Mekkatorque como regalo por habernos ayudado a probar nuestra tienda. Ten en cuenta que solo recibirás esta carta una vez con la primera compra. 	
 GLUE_FORGE_STORE_HEADLINE	¡Bienvenido a la Arena! 	
+GLUE_GOLD_CAP_BODY	 Solo podrás obtener más oro cuando tengas una cantidad menor a {0}.	
+GLUE_GOLD_CAP_HEADER	¡{0} de oro alcanzado!	
 GLUE_HERO_LOCKED_DESC	¡Derrota a este héroe para desbloquearlo!	
 GLUE_HERO_LOCKED_NAME	Bloqueado	
 GLUE_LOADING_BAR_TASK_1	Mezclando cartas	
@@ -149,6 +151,19 @@ GLUE_MASS_DISENCHANT_SUB_HEADLINE_TEXT	Destruirás:
 GLUE_MASS_DISENCHANT_TOTAL_AMOUNT	{0:#,###0}	0=total amount with commas and no decimals
 GLUE_MATCHMAKER_FINDING_OPPONENT	Buscando adversario	
 GLUE_MATCHMAKER_PERFECT_OPPONENT	Adversario digno	
+GLUE_MOBILE_EXISTING_ACCOUNT_CONVERSATION	¡Bienvenido a la taberna, camarada!	
+GLUE_MOBILE_EXISTING_ACCOUNT_NEW	Soy nuevo	
+GLUE_MOBILE_EXISTING_ACCOUNT_POPUP	¿Es la primera vez que juegas o ya tienes una cuenta?	
+GLUE_MOBILE_EXISTING_ACCOUNT_RETURNING	¡Iniciar sesión!	
+GLUE_MOBILE_REGION_SELECT_FRIENDS	AMIGOS	
+GLUE_MOBILE_REGION_SELECT_PROGRESS	PROGRESO	
+GLUE_MOBILE_REGION_SELECT_PURCHASES	COMPRAS	
+GLUE_MOBILE_REGION_SELECT_WARNING	<size=100>¡No puedes llevarte todo!</size>\nSi cambias de región, no podrás llevarte el progreso que has hecho (esto incluye tus personajes, cartas y clasificación). Esta acción también afectará:	
+GLUE_MOBILE_REGION_SELECT_WARNING_HEADER	Selección de región	
+GLUE_MOBILE_SPLASH_SCREEN_BREAKING_NEWS	Últimas noticias	
+GLUE_MOBILE_SPLASH_SCREEN_LOGIN	Iniciar sesión	
+GLUE_MOBILE_STORE_PAYMENT_INFO_DETAILS	Las compras dentro de la aplicación se realizan con tu ID de Apple.	
+GLUE_MOBILE_STORE_PAYMENT_INFO_URL_DETAILS	Toca el botón "{0}" para ver más información acerca de la compra de objetos en Hearthstone.	
 GLUE_MY_COLLECTION	Mi colección	
 GLUE_NINJA	Ninja	
 GLUE_OPEN_PACKS	Abrir paquetes	
@@ -221,13 +236,6 @@ GLUE_SPINNER_8	Un mitómano
 GLUE_SPINNER_9	Un mago mocoso	
 GLUE_SPLASH_QUEUE_TEXT	Tiempo estimado de espera:	
 GLUE_SPLASH_QUEUE_TITLE	¡Todas las mesas están llenas!	
-GLUE_SPLASH_SCREEN_BREAKING_NEWS	Último momento	
-GLUE_SPLASH_SCREEN_LOGIN	Iniciar sesión	
-GLUE_SPLASH_SCREEN_REGION_SELECT_FRIENDS	AMIGOS	
-GLUE_SPLASH_SCREEN_REGION_SELECT_PROGRESS	PROGRESO	
-GLUE_SPLASH_SCREEN_REGION_SELECT_PURCHASES	COMPRAS	
-GLUE_SPLASH_SCREEN_REGION_SELECT_WARNING	<size=50>¡No puedes llevarte todo!</size>\nSi cambias de región, no podrás llevarte el progreso que has hecho (esto incluye tus personajes, cartas y clasificación). Esta acción también afectará:	
-GLUE_SPLASH_SCREEN_REGION_SELECT_WARNING_HEADER	Selección de región	
 GLUE_START_CLICK	Haz clic para comenzar	
 GLUE_START_PRESS	Presiona Inicio	
 GLUE_START_TOUCH	Toca para comenzar	
@@ -241,14 +249,11 @@ GLUE_STORE_BUY_TEXT	COMPRAR	this is what you see when you initiate the purchase
 GLUE_STORE_CC_EXPIRY_DETAILS	La información de tu tarjeta de crédito ya no está vigente.	
 GLUE_STORE_CHALLENGE_CVV_MESSAGE	Ingresa el código de seguridad de tu tarjeta:\n\nSi necesitas ayuda para ubicarlo, haz clic en el botón "{0}".	
 GLUE_STORE_CHALLENGE_HEADLINE	Atención	
-GLUE_STORE_CHALLENGE_PWD_MESSAGE	Ingresa tu contraseña:	
-GLUE_STORE_CHALLENGE_PWD_RETRY_MESSAGE	La contraseña es incorrecta. Vuelve a ingresarla:	
+GLUE_STORE_CHALLENGE_PWD_MESSAGE	Ingresa tu contraseña de Battle.net:	
+GLUE_STORE_CHALLENGE_PWD_RETRY_MESSAGE	La contraseña de Battle.net es incorrecta. Vuelve a ingresarla:	
 GLUE_STORE_CHANGE_PAYMENT_BUTTON_TEXT	Ajustar medio de pago predeterminado	
 GLUE_STORE_CLOSED_BUTTON_TEXT	Tienda\ncerrada	
 GLUE_STORE_DISABLED	La tienda no está disponible en este momento. Inténtalo más tarde.	
-GLUE_STORE_DISCLAIMER_DETAILS	Si compras paquetes de cartas o entradas a la Arena durante la beta de Hearthstone, recibirás una carta dorada de Gelbin Mekkatorque como regalo por habernos ayudado a probar nuestra tienda. Ten en cuenta que solo recibirás esta carta una vez con la primera compra. 	
-GLUE_STORE_DISCLAIMER_HEADLINE	Atención	
-GLUE_STORE_DISCLAIMER_WARNING	¡Estás a punto de gastar dinero real!	
 GLUE_STORE_DONE_WITH_BAM_HEADLINE	Inténtalo nuevamente	
 GLUE_STORE_DONE_WITH_BAM_MESSAGE	Cuando hayas regresado de Battle.net, intenta realizar tu compra nuevamente.	
 GLUE_STORE_EULA_AND_TOS_DETAILS	Para leer el Contrato de licencia de usuario final y las Condiciones de servicio, visita Battle.net.	
@@ -264,11 +269,12 @@ GLUE_STORE_FAIL_LICENSE	Se ha detectado una licencia duplicada.
 GLUE_STORE_FAIL_NO_ACTIVE_BPAY	Error interno: no hay información de transacción en la base de datos.	
 GLUE_STORE_FAIL_NO_BATTLEPAY	Tu transacción no pudo completarse. Espera un momento y vuelve a intentarlo.	
 GLUE_STORE_FAIL_NOT_ENOUGH_GOLD	No tienes suficiente oro para hacer esa compra ahora.	
-GLUE_STORE_FAIL_PARENTAL_CONTROL	Actualmente las compras en esta cuenta están restringidas por controles para padres.	
+GLUE_STORE_FAIL_PARENTAL_CONTROL	Actualmente las compras en esta cuenta están restringidas por controles parentales.	
 GLUE_STORE_FAIL_PRODUCT_NA	Ese producto no está disponible en este momento. Selecciona otro y vuelve a intentarlo.	
 GLUE_STORE_FAIL_PURCHASE_BAN	Tu cuenta tiene bloqueado el acceso a la tienda. Si crees que es un error, comunícate con Servicio al cliente.	
 GLUE_STORE_FAIL_QUANTITY	Has elegido una cantidad no válida para ese objeto. Selecciona otra cantidad y vuelve a intentarlo.	
 GLUE_STORE_FAIL_SPENDING_LIMIT	Con esta compra superarías tu límite de gasto. Si quieres, puedes seguir comprando con oro.	
+GLUE_STORE_FAIL_THIRD_PARTY_BAD_RECEIPT	No pudimos procesar tu compra móvil.	
 GLUE_STORE_FAIL_THROTTLED	No podemos procesar tu transacción en este momento. Intenta realizar la compra en un rato.	
 GLUE_STORE_FORGOT_PWD_DETAILS	Ingresaste mal la contraseña demasiadas veces o cancelaste el desafío. ¿Has olvidado tu contraseña?	
 GLUE_STORE_FORGOT_PWD_HEADLINE	¿Has olvidado tu contraseña?	
@@ -296,6 +302,7 @@ GLUE_STORE_PAYMENT_INFO_URL_DETAILS	Si quieres ver más información, pulsa "{0}
 GLUE_STORE_PRODUCT_DETAILS_EXPERT_PACK	•  5 cartas de experto de Hearthstone\n• Al menos 1 carta será rara o superior	
 GLUE_STORE_PRODUCT_DETAILS_HEADLINE_EXPERT_PACK	Contenido por paquete:	
 GLUE_STORE_PRODUCT_NAME_FORGE_TICKET	Admisión a la Arena	
+GLUE_STORE_PRODUCT_NAME_MOBILE_UNKNOWN	Compra desde un teléfono celular	
 GLUE_STORE_PRODUCT_PRICE	({0})	0=price
 GLUE_STORE_PRODUCT_PRICE_NA	N/D	
 GLUE_STORE_QUANTITY_HEADLINE	Cambiar cantidad	
@@ -319,20 +326,26 @@ GLUE_STORE_SUMMARY_TOS_AGREEMENT	Si presionas "{0}", aceptas haber leído y comp
 GLUE_STORE_TERMS_OF_SALE_BUTTON_TEXT	?	
 GLUE_TIP_DEFAULT_0	Puedes comprar paquetes de cartas de experto adicionales en la tienda.	
 GLUE_TIP_DEFAULT_1	Cuando editas un mazo, puedes hacer clic sobre tu héroe para cambiar el nombre del mazo.	
+GLUE_TIP_DEFAULT_1_TOUCH	Cuando editas un mazo, puedes tocar a tu héroe para cambiar el nombre del mazo.	
 GLUE_TIP_DEFAULT_10	La Arena te permite construir un mazo con cartas aleatorias. ¡También puedes ganar premios!	
 GLUE_TIP_DEFAULT_11	Las cartas básicas se consiguen cuando subes de nivel. No puedes desencantarlas ni crearlas.	
 GLUE_TIP_DEFAULT_12	Puedes desencantar las cartas doradas para conseguir mucho polvo.	
 GLUE_TIP_DEFAULT_13	Puedes usar el campo de búsqueda de tu colección para buscar todas las cartas con Provocación.	
 GLUE_TIP_DEFAULT_14	Las cartas básicas se consiguen cuando subes de nivel a una nueva clase. Las cartas de experto se consiguen en los paquetes de experto.	
 GLUE_TIP_DEFAULT_15	Si juegas contra jugadores reales, obtendrás más experiencia.	
-GLUE_TIP_DEFAULT_16	Puedes hacer clic derecho sobre tu oponente para "suprimir" sus emociones.	
+GLUE_TIP_DEFAULT_16	Puedes hacer clic derecho sobre el héroe de tu adversario para "suprimir" sus emociones.	
+GLUE_TIP_DEFAULT_16_TOUCH	Puedes tocar el héroe de tu adversario para "suprimir" sus emociones.	
+GLUE_TIP_DEFAULT_17	Si ganas 500 partidas en el modo clasificado con una clase, obtendrás el Héroe dorado de esa clase.	
+GLUE_TIP_DEFAULT_18	Puedes agregar amigos a tu lista de amigos con el botón que está en la esquina inferior izquierda.	
+GLUE_TIP_DEFAULT_19	Hay 25 rangos diferentes que puedes obtener en el modo clasificado, y después: el rango de "Leyenda".	
 GLUE_TIP_DEFAULT_2	Haz clic derecho sobre tu héroe para que exprese emociones.	
+GLUE_TIP_DEFAULT_2_TOUCH	Toca a tu héroe para que exprese emociones.	
 GLUE_TIP_DEFAULT_3	Si necesitas ayuda para construir un mazo, consulta las "Cartas sugeridas".	
 GLUE_TIP_DEFAULT_4	Para identificar el nivel de rareza de una carta, observa la gema de color que tiene en el centro.	
 GLUE_TIP_DEFAULT_5	Colores de rareza en orden: blanco es común, azul es rara, púrpura es épica, naranja es legendaria.	
 GLUE_TIP_DEFAULT_6	Cada paquete de cartas de experto tiene al menos una carta rara o superior. ¡Pero es posible que haya más!	
 GLUE_TIP_DEFAULT_7	Si te quedas sin misiones, puedes volver mañana para recibir una nueva.	
-GLUE_TIP_DEFAULT_8	Si juegas partidas clasificadas, obtendrás una medalla que dará testimonio de tus habilidades.	
+GLUE_TIP_DEFAULT_8	Si alcanzas el rango 20 en una temporada, obtendrás el dorso de carta especial de la temporada.	
 GLUE_TIP_DEFAULT_9	Completa misiones para obtener Oro, que luego podrás usar para comprar paquetes o entrar a la Arena.	
 GLUE_TIP_DEFAULT_zz_UNUSED	¡Puedes jugar contra tus amigos incluso si no están conectados!	
 GLUE_TIP_FORGE_0	Tu mazo de la Arena caducará cuando pierdas 3 partidas.	
@@ -342,11 +355,11 @@ GLUE_TIP_PLAY_0	Te enfrentarás a un jugador de tu nivel.
 GLUE_TIP_PLAY_1	A medida que ganes o pierdas partidas, te enfrentarás a adversarios con habilidades similares a las tuyas.	
 GLUE_TIP_PLAY_2	Cada clase tiene 5 cartas básicas diferentes que puedes desbloquear a medida que subes de nivel.	
 GLUE_TIP_PLAY_3	Completa misiones para obtener Oro, que luego podrás usar para comprar paquetes o entrar a la Arena.	
-GLUE_TIP_PLAY_4	Los niveles de medalla son: Aprendiz, Jornalero, Cobre, Plata, Oro, Platino, Diamante y Maestro.	
+GLUE_TIP_PLAY_4	Hay 25 rangos diferentes que puedes obtener en el modo clasificado, y después: el rango de "Leyenda".	
 GLUE_TIP_PLAY_5	Los mazos pueden tener dos copias de cada carta, pero solo una carta Legendaria.	
 GLUE_TIP_PLAY_6	La Arena es una buena forma de conseguir recompensas y jugar una minicompetición a la vez.	
 GLUE_TIP_PLAY_7	No tienes que jugar todas tus partidas de Arena de una sola vez.	
-GLUE_TIP_PLAY_8	Si juegas partidas clasificadas, obtendrás una medalla que dará testimonio de tus habilidades.	
+GLUE_TIP_PLAY_8	Si alcanzas el rango 20 en una temporada, obtendrás el dorso de carta especial de la temporada.	
 GLUE_TIP_PRACTICE_0	Para desbloquear héroes, debes derrotarlos en el modo Práctica.	
 GLUE_TIP_PRACTICE_1	¡El modo Práctica es solo una preparación para el modo Jugar!	
 GLUE_TIP_PRACTICE_2	¡El modo Jugar hará que te enfrentes con alguien de habilidades similares!	
@@ -394,9 +407,11 @@ GLUE_TOOLTIP_BUTTON_TOURNAMENT_HEADLINE	Jugar
 GLUE_TOOLTIP_CASUAL_BUTTON	Encuentra un adversario del mismo nivel ¡y diviértete!	
 GLUE_TOOLTIP_GOLD_DESCRIPTION	Usa oro para comprar paquetes o para entrar en la Arena.	
 GLUE_TOOLTIP_GOLD_HEADER	Oro	
+GLUE_TOOLTIP_GOLDEN_WINS_DESC	¡Gana 500 partidas clasificadas con este héroe para obtener la versión dorada!	
+GLUE_TOOLTIP_GOLDEN_WINS_HEADER	Victorias en partidas clasificadas	
 GLUE_TOOLTIP_RANKED_BUTTON	Compárate y compite contra otros jugadores.	
 GLUE_TOURNAMENT	Jugar	
 GLUE_TOURNAMENT_CASUAL	Casual	
 GLUE_TOURNAMENT_RANKED	Clasificado	
-GLUE_TOURNAMENT_UNRANKED_DESC	En el modo sin clasificar tu calificación de habilidad es independiente y no puedes obtener medallas.	
+GLUE_TOURNAMENT_UNRANKED_DESC	En el modo sin clasificar tu clasificación de habilidad es independiente y no puedes obtener medallas.	
 GLUE_TOURNAMENT_UNRANKED_MODE	Modo sin clasificar	
