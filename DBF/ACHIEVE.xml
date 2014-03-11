@@ -1,0 +1,4676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dbf>
+	<Column name="ID" type="Long" comment="primary key" />
+	<Column name="NOTE_DESC" type="String" comment="designer description of achievement" />
+	<Column name="ACH_TYPE" type="String" comment="a comment field to show the type of quest for designers" />
+	<Column name="ACTIVE" type="Bool" comment="1 = can always be completed, 0 = can only be completed if it's active for THAT player" />
+	<Column name="LINK_TO" type="String" comment="unlock this ACHIEVE when completed" />
+	<Column name="TRIGGERED" type="String" comment="trigger known to server, gets converted for text to an enum on the server" />
+	<Column name="ACH_QUOTA" type="Int" comment="how many times must whatever causes this to advance be done before it's completed?" />
+	<Column name="GAME_MODE" type="String" comment="game mode like 'play' or 'ai' known on server and converted to an enum there" />
+	<Column name="RACE" type="Int" comment="CARD.RACE required for the trigger condition" />
+	<Column name="MY_HERO_CLASS_ID" type="Int" comment="CARD.CLASS_ID of the hero I need to use for trigger condition" />
+	<Column name="ENEMY_HERO_CLASS_ID" type="Int" comment="CARD.CLASS_ID of hte hero I need to play AGAINST for trigger condition" />
+	<Column name="REWARD" type="String" comment="reward ID (known to server) that we give for completing this achieve" />
+	<Column name="REWARD_DATA1" type="Long" comment="reward parameter (used by server for the reward ID for this achieve" />
+	<Column name="REWARD_DATA2" type="Long" comment="reward parameter (used by server for the reward ID for this achieve" />
+	<Column name="PARENT_ACH" type="String" comment="name of the parents of this achieve" />
+	<Column name="TIER" type="Int" comment="Daily Quest tier (or 0 for non-dailies)" />
+	<Column name="WEIGHT" type="Int" comment="weight used by Daily Quest System to help determine which one to pick" />
+	<Column name="UNLOCKS" type="String" comment="game system that is unlocked by this" />
+	<Column name="CARD_SET" type="Int" comment="CARD.CARD_SET_ID required for the trigger condition" />
+	<Column name="DAILY_ORDER" type="Int" comment="order in which daily quests must be started. non-zero values must be given in that order." />
+	<Column name="MY_HERO_ALT_CLASS_ID" type="Int" comment="CARD.CLASS_ID of the alternate hero option I can use for trigger condition" />
+	<Column name="MY_HERO_ASSET_ID" type="Int" comment="CARD.ID of the hero I need to use for trigger condition" />
+	<Column name="ENABLED" type="Bool" comment="is awarding this achievement and making progress on it currently enabled?" />
+	<Column name="STAR_LEVEL" type="Int" comment="RATING.STAR_LEVEL required for trigger condition" />
+	<Column name="EVENT" type="String" comment="event required for trigger condition. events are managed server-side since they are case-by-case specific" />
+	<Column name="NAME" type="LocString" comment="client-only name of achievement" />
+	<Column name="DESCRIPTION" type="LocString" comment="client-only description of achievement" />
+	<Record>
+		<Field column="ID">1</Field>
+		<Field column="NOTE_DESC">unlock druid</Field>
+		<Field column="ACH_TYPE">hero</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">2</Field>
+		<Field column="REWARD">hero</Field>
+		<Field column="REWARD_DATA1">261</Field>
+		<Field column="REWARD_DATA2">2</Field>
+		<Field column="PARENT_ACH">unlock all heroes</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">2</Field>
+		<Field column="NOTE_DESC">unlock hunter</Field>
+		<Field column="ACH_TYPE">hero</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">3</Field>
+		<Field column="REWARD">hero</Field>
+		<Field column="REWARD_DATA1">256</Field>
+		<Field column="REWARD_DATA2">3</Field>
+		<Field column="PARENT_ACH">unlock all heroes</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">3</Field>
+		<Field column="NOTE_DESC">unlock mage</Field>
+		<Field column="ACH_TYPE">hero</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">none</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">4</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">hero</Field>
+		<Field column="REWARD_DATA1">252</Field>
+		<Field column="REWARD_DATA2">4</Field>
+		<Field column="PARENT_ACH">unlock all heroes</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">4</Field>
+		<Field column="NOTE_DESC">unlock paladin</Field>
+		<Field column="ACH_TYPE">hero</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">5</Field>
+		<Field column="REWARD">hero</Field>
+		<Field column="REWARD_DATA1">262</Field>
+		<Field column="REWARD_DATA2">5</Field>
+		<Field column="PARENT_ACH">unlock all heroes</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">5</Field>
+		<Field column="NOTE_DESC">unlock priest</Field>
+		<Field column="ACH_TYPE">hero</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">6</Field>
+		<Field column="REWARD">hero</Field>
+		<Field column="REWARD_DATA1">258</Field>
+		<Field column="REWARD_DATA2">6</Field>
+		<Field column="PARENT_ACH">unlock all heroes</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">6</Field>
+		<Field column="NOTE_DESC">unlock rogue</Field>
+		<Field column="ACH_TYPE">hero</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">7</Field>
+		<Field column="REWARD">hero</Field>
+		<Field column="REWARD_DATA1">257</Field>
+		<Field column="REWARD_DATA2">7</Field>
+		<Field column="PARENT_ACH">unlock all heroes</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">7</Field>
+		<Field column="NOTE_DESC">unlock shaman</Field>
+		<Field column="ACH_TYPE">hero</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">8</Field>
+		<Field column="REWARD">hero</Field>
+		<Field column="REWARD_DATA1">263</Field>
+		<Field column="REWARD_DATA2">8</Field>
+		<Field column="PARENT_ACH">unlock all heroes</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">8</Field>
+		<Field column="NOTE_DESC">unlock warlock</Field>
+		<Field column="ACH_TYPE">hero</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">9</Field>
+		<Field column="REWARD">hero</Field>
+		<Field column="REWARD_DATA1">253</Field>
+		<Field column="REWARD_DATA2">9</Field>
+		<Field column="PARENT_ACH">unlock all heroes</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">9</Field>
+		<Field column="NOTE_DESC">unlock warrior</Field>
+		<Field column="ACH_TYPE">hero</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">10</Field>
+		<Field column="REWARD">hero</Field>
+		<Field column="REWARD_DATA1">259</Field>
+		<Field column="REWARD_DATA2">10</Field>
+		<Field column="PARENT_ACH">unlock all heroes</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">10</Field>
+		<Field column="NOTE_DESC">reveal First Blood</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">First Blood</Field>
+		<Field column="TRIGGERED">none</Field>
+		<Field column="ACH_QUOTA">3</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">0</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">11</Field>
+		<Field column="NOTE_DESC">First Blood</Field>
+		<Field column="ACH_TYPE">starter</Field>
+		<Field column="ACTIVE">False</Field>
+		<Field column="LINK_TO">the duelist</Field>
+		<Field column="TRIGGERED">finish</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">matchmaker</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">pack</Field>
+		<Field column="REWARD_DATA1">1</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>First Blood</enUS>
+			<deDE>Feldversuch</deDE>
+			<esES>La primera, en la frente</esES>
+			<esMX>Debut sanguinario</esMX>
+			<frFR>Premier sang</frFR>
+			<itIT>Primo sangue</itIT>
+			<koKR>첫 번째 대전</koKR>
+			<plPL>Pierwsza krew</plPL>
+			<ptBR>Primeiro golpe</ptBR>
+			<ruRU>Первая кровь</ruRU>
+			<zhCN>第一滴血</zhCN>
+			<zhTW>第一滴血</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Complete a game in Play mode.</enUS>
+			<deDE>Schließt ein Spiel im Modus „Spielen“ ab.</deDE>
+			<esES>Completa una partida en el modo Jugar.</esES>
+			<esMX>Completa una partida en el modo Jugar.</esMX>
+			<frFR>Terminer un match en mode Partie.</frFR>
+			<itIT>Completa una partita in modalità Gioco.</itIT>
+			<koKR>대전 모드에서 첫 게임 완료</koKR>
+			<plPL>Rozegraj pojedynek.</plPL>
+			<ptBR>Completar uma partida no modo Jogo.</ptBR>
+			<ruRU>Завершите матч в режиме игры.</ruRU>
+			<zhCN>在对战模式中完成一场比赛。</zhCN>
+			<zhTW>完成一場對戰模式中的賽局。</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">12</Field>
+		<Field column="NOTE_DESC">the duelist</Field>
+		<Field column="ACH_TYPE">starter</Field>
+		<Field column="ACTIVE">False</Field>
+		<Field column="LINK_TO">Level Up</Field>
+		<Field column="TRIGGERED">finish</Field>
+		<Field column="ACH_QUOTA">3</Field>
+		<Field column="GAME_MODE">matchmaker</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">gold</Field>
+		<Field column="REWARD_DATA1">100</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">daily quests</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>The Duelist</enUS>
+			<deDE>Der Duellant</deDE>
+			<esES>El duelista</esES>
+			<esMX>El duelista</esMX>
+			<frFR>Le duelliste</frFR>
+			<itIT>Duellista</itIT>
+			<koKR>카드 결투사</koKR>
+			<plPL>Miłośnik partii</plPL>
+			<ptBR>Duelista</ptBR>
+			<ruRU>Дуэлянт</ruRU>
+			<zhCN>气势如虹</zhCN>
+			<zhTW>決鬥者</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Play 3 games in Play mode.</enUS>
+			<deDE>Spielt 3 Spiele im Modus „Spielen“.</deDE>
+			<esES>Juega 3 partidas en el modo Jugar.</esES>
+			<esMX>Juega 3 partidas en el modo Jugar.</esMX>
+			<frFR>Jouer 3 matchs en mode Partie.</frFR>
+			<itIT>Affronta 3 partite in modalità Gioco.</itIT>
+			<koKR>대전 모드에서 게임 세 번 완료</koKR>
+			<plPL>Wygraj 3 partie w trybie pojedynku.</plPL>
+			<ptBR>Jogar 3 partidas no modo Jogo.</ptBR>
+			<ruRU>Сыграйте 3 матча в режиме игры.</ruRU>
+			<zhCN>在对战模式中完成3场比赛。</zhCN>
+			<zhTW>在對戰模式中進行3場賽局。</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">13</Field>
+		<Field column="NOTE_DESC">level 5 druid</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">Level Up</Field>
+		<Field column="TRIGGERED">level</Field>
+		<Field column="ACH_QUOTA">4</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">2</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">0</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">14</Field>
+		<Field column="NOTE_DESC">level 5 hunter</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">Level Up</Field>
+		<Field column="TRIGGERED">level</Field>
+		<Field column="ACH_QUOTA">4</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">3</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">0</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">15</Field>
+		<Field column="NOTE_DESC">level 5 mage</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">Level Up</Field>
+		<Field column="TRIGGERED">level</Field>
+		<Field column="ACH_QUOTA">4</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">4</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">0</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">16</Field>
+		<Field column="NOTE_DESC">level 5 paladin</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">Level Up</Field>
+		<Field column="TRIGGERED">level</Field>
+		<Field column="ACH_QUOTA">4</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">5</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">0</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">17</Field>
+		<Field column="NOTE_DESC">level 5 priest</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">Level Up</Field>
+		<Field column="TRIGGERED">level</Field>
+		<Field column="ACH_QUOTA">4</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">6</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">0</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">18</Field>
+		<Field column="NOTE_DESC">level 5 rogue</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">Level Up</Field>
+		<Field column="TRIGGERED">level</Field>
+		<Field column="ACH_QUOTA">4</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">7</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">0</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">19</Field>
+		<Field column="NOTE_DESC">level 5 shaman</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">Level Up</Field>
+		<Field column="TRIGGERED">level</Field>
+		<Field column="ACH_QUOTA">4</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">8</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">0</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">20</Field>
+		<Field column="NOTE_DESC">level 5 warlock</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">Level Up</Field>
+		<Field column="TRIGGERED">level</Field>
+		<Field column="ACH_QUOTA">4</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">9</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">0</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">21</Field>
+		<Field column="NOTE_DESC">level 5 warrior</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">Level Up</Field>
+		<Field column="TRIGGERED">level</Field>
+		<Field column="ACH_QUOTA">4</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">10</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">0</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">22</Field>
+		<Field column="NOTE_DESC">level 10 druid</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">level</Field>
+		<Field column="ACH_QUOTA">9</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">2</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">0</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">Level Up</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">23</Field>
+		<Field column="NOTE_DESC">level 10 hunter</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">level</Field>
+		<Field column="ACH_QUOTA">9</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">3</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">0</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">Level Up</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">24</Field>
+		<Field column="NOTE_DESC">level 10 mage</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">level</Field>
+		<Field column="ACH_QUOTA">9</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">4</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">0</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">Level Up</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">25</Field>
+		<Field column="NOTE_DESC">level 10 paladin</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">level</Field>
+		<Field column="ACH_QUOTA">9</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">5</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">0</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">Level Up</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">26</Field>
+		<Field column="NOTE_DESC">level 10 priest</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">level</Field>
+		<Field column="ACH_QUOTA">9</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">6</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">0</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">Level Up</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">27</Field>
+		<Field column="NOTE_DESC">level 10 rogue</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">level</Field>
+		<Field column="ACH_QUOTA">9</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">7</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">0</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">Level Up</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">28</Field>
+		<Field column="NOTE_DESC">level 10 shaman</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">level</Field>
+		<Field column="ACH_QUOTA">9</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">8</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">0</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">Level Up</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">29</Field>
+		<Field column="NOTE_DESC">level 10 warlock</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">level</Field>
+		<Field column="ACH_QUOTA">9</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">9</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">0</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">Level Up</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">30</Field>
+		<Field column="NOTE_DESC">level 10 warrior</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">level</Field>
+		<Field column="ACH_QUOTA">9</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">10</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">0</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">Level Up</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">31</Field>
+		<Field column="NOTE_DESC">Level Up</Field>
+		<Field column="ACH_TYPE">starter</Field>
+		<Field column="ACTIVE">False</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">none</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">pack</Field>
+		<Field column="REWARD_DATA1">1</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Level Up</enUS>
+			<deDE>Ding!</deDE>
+			<esES>Subir nivel</esES>
+			<esMX>¡Qué niveeeel!</esMX>
+			<frFR>Gain de niveau</frFR>
+			<itIT>Livello 10</itIT>
+			<koKR>레벨 업!</koKR>
+			<plPL>Awans!</plPL>
+			<ptBR>Passar de nível</ptBR>
+			<ruRU>Новый уровень</ruRU>
+			<zhCN>步步高升</zhCN>
+			<zhTW>升級</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Get any class to level 10.</enUS>
+			<deDE>Bringt eine Klasse bis auf Stufe 10.</deDE>
+			<esES>Alcanza el nivel 10 con cualquier clase.</esES>
+			<esMX>Lleva cualquier clase al nivel 10.</esMX>
+			<frFR>Atteindre le niveau 10 avec une classe.</frFR>
+			<itIT>Porta una qualsiasi classe a livello 10.</itIT>
+			<koKR>아무 직업이나 10레벨 달성</koKR>
+			<plPL>Awansuj dowolną klasę do poziomu 10.</plPL>
+			<ptBR>Ir até o nível 10 com qualquer classe.</ptBR>
+			<ruRU>Достигните 10-го уровня любым классом.</ruRU>
+			<zhCN>将任意职业提升至10级。</zhCN>
+			<zhTW>將任一職業升級到10級。</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">32</Field>
+		<Field column="NOTE_DESC">victory druid or hunter</Field>
+		<Field column="ACH_TYPE">daily</Field>
+		<Field column="ACTIVE">False</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">2</Field>
+		<Field column="GAME_MODE">matchmaker</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">2</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">gold</Field>
+		<Field column="REWARD_DATA1">40</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">1</Field>
+		<Field column="WEIGHT">10</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">3</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Druid or Hunter Victory</enUS>
+			<deDE>Sieg des Druiden oder Jägers</deDE>
+			<esES>Victoria del druida o del cazador</esES>
+			<esMX>Victoria como Druida o Cazador</esMX>
+			<frFR>Victoire du druide ou du chasseur</frFR>
+			<itIT>Vittoria: Druido o Cacciatore</itIT>
+			<koKR>드루이드 또는 사냥꾼으로 승리</koKR>
+			<plPL>Zwycięstwo druida lub łowcy</plPL>
+			<ptBR>Vitória do Druida ou Caçador</ptBR>
+			<ruRU>Победа друида или охотника</ruRU>
+			<zhCN>德鲁伊/猎人：胜利</zhCN>
+			<zhTW>德魯伊或是獵人勝利</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Win 2 games with Druid or Hunter.</enUS>
+			<deDE>Gewinnt 2 Spiele als Druide oder Jäger.</deDE>
+			<esES>Gana 2 partidas con el druida o con el cazador.</esES>
+			<esMX>Gana 2 partidas como Druida o Cazador.</esMX>
+			<frFR>Gagner 2 matchs avec un druide ou un chasseur.</frFR>
+			<itIT>Vinci 2 partite con Druido o Cacciatore.</itIT>
+			<koKR>드루이드 또는 사냥꾼으로 2승</koKR>
+			<plPL>Wygraj 2 partie druidem lub łowcą.</plPL>
+			<ptBR>Vencer 2 jogos com Druida ou Caçador.</ptBR>
+			<ruRU>2 победы друидом или охотником.</ruRU>
+			<zhCN>使用德鲁伊或猎人赢得2场比赛。</zhCN>
+			<zhTW>用德魯伊或是獵人贏得2場對戰。</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">33</Field>
+		<Field column="NOTE_DESC">victory druid or rogue</Field>
+		<Field column="ACH_TYPE">daily</Field>
+		<Field column="ACTIVE">False</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">2</Field>
+		<Field column="GAME_MODE">matchmaker</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">2</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">gold</Field>
+		<Field column="REWARD_DATA1">40</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">1</Field>
+		<Field column="WEIGHT">10</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">7</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Druid or Rogue Victory</enUS>
+			<deDE>Sieg des Druiden oder Schurken</deDE>
+			<esES>Victoria del druida o del pícaro</esES>
+			<esMX>Victoria como Druida o Pícaro</esMX>
+			<frFR>Victoire du druide ou du voleur</frFR>
+			<itIT>Vittoria: Druido o Ladro</itIT>
+			<koKR>드루이드 또는 도적으로 승리</koKR>
+			<plPL>Zwycięstwo druida lub łotra</plPL>
+			<ptBR>Vitória do Druida ou Ladino</ptBR>
+			<ruRU>Победа друида или разбойника</ruRU>
+			<zhCN>德鲁伊/潜行者：胜利</zhCN>
+			<zhTW>德魯伊或是盜賊勝利</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Win 2 games with Druid or Rogue.</enUS>
+			<deDE>Gewinnt 2 Spiele als Druide oder Schurke.</deDE>
+			<esES>Gana 2 partidas con el druida o con el pícaro.</esES>
+			<esMX>Gana 2 partidas como Druida o Pícaro.</esMX>
+			<frFR>Gagner 2 matchs avec un druide ou un voleur.</frFR>
+			<itIT>Vinci 2 partite con Druido o Ladro.</itIT>
+			<koKR>드루이드 또는 도적으로 2승</koKR>
+			<plPL>Wygraj 2 partie druidem lub łotrem.</plPL>
+			<ptBR>Vencer 2 jogos com Druida ou Ladino.</ptBR>
+			<ruRU>2 победы друидом или разбойником.</ruRU>
+			<zhCN>使用德鲁伊或潜行者赢得2场比赛。</zhCN>
+			<zhTW>用德魯伊或是盜賊贏得2場對戰。</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">34</Field>
+		<Field column="NOTE_DESC">victory hunter or mage</Field>
+		<Field column="ACH_TYPE">daily</Field>
+		<Field column="ACTIVE">False</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">2</Field>
+		<Field column="GAME_MODE">matchmaker</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">3</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">gold</Field>
+		<Field column="REWARD_DATA1">40</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">1</Field>
+		<Field column="WEIGHT">10</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">4</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Hunter or Mage Victory</enUS>
+			<deDE>Sieg des Jägers oder Magiers</deDE>
+			<esES>Victoria del cazador o del mago</esES>
+			<esMX>Victoria como Cazador o Mago</esMX>
+			<frFR>Victoire du chasseur ou du mage</frFR>
+			<itIT>Vittoria: Cacciatore o Mago</itIT>
+			<koKR>사냥꾼 또는 마법사로 승리</koKR>
+			<plPL>Zwycięstwo łowcy lub maga</plPL>
+			<ptBR>Vitória do Caçador ou Mago</ptBR>
+			<ruRU>Победа охотника или мага</ruRU>
+			<zhCN>猎人/法师：胜利</zhCN>
+			<zhTW>獵人或是法師勝利</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Win 2 games with Hunter or Mage.</enUS>
+			<deDE>Gewinnt 2 Spiele als Jäger oder Magier.</deDE>
+			<esES>Gana 2 partidas con el cazador o con el mago.</esES>
+			<esMX>Gana 2 partidas como Cazador o Mago.</esMX>
+			<frFR>Gagner 2 matchs avec un chasseur ou un mage.</frFR>
+			<itIT>Vinci 2 partite con Cacciatore o Mago.</itIT>
+			<koKR>사냥꾼 또는 마법사로 2승</koKR>
+			<plPL>Wygraj 2 partie łowcą lub magiem.</plPL>
+			<ptBR>Vencer 2 jogos com Caçador ou Mago.</ptBR>
+			<ruRU>2 победы охотником или магом.</ruRU>
+			<zhCN>使用猎人或法师赢得2场比赛。</zhCN>
+			<zhTW>用獵人或是法師贏得2場對戰。</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">35</Field>
+		<Field column="NOTE_DESC">victory mage or shaman</Field>
+		<Field column="ACH_TYPE">daily</Field>
+		<Field column="ACTIVE">False</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">2</Field>
+		<Field column="GAME_MODE">matchmaker</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">4</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">gold</Field>
+		<Field column="REWARD_DATA1">40</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">1</Field>
+		<Field column="WEIGHT">10</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">8</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Mage or Shaman Victory</enUS>
+			<deDE>Sieg des Magiers oder Schamanen</deDE>
+			<esES>Victoria del mago o del chamán</esES>
+			<esMX>Victoria como Mago o Chamán</esMX>
+			<frFR>Victoire du mage ou du chaman</frFR>
+			<itIT>Vittoria: Mago o Sciamano</itIT>
+			<koKR>마법사 또는 주술사로 승리</koKR>
+			<plPL>Zwycięstwo maga lub szamana</plPL>
+			<ptBR>Vitória do Mago ou Xamã</ptBR>
+			<ruRU>Победа мага или шамана</ruRU>
+			<zhCN>法师/萨满祭司：胜利</zhCN>
+			<zhTW>法師或是薩滿勝利</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Win 2 games with Mage or Shaman.</enUS>
+			<deDE>Gewinnt 2 Spiele als Magier oder Schamane.</deDE>
+			<esES>Gana 2 partidas con el mago o con el chamán.</esES>
+			<esMX>Gana 2 partidas como Mago o Chamán.</esMX>
+			<frFR>Gagner 2 matchs avec un mage ou un chaman.</frFR>
+			<itIT>Vinci 2 partite con Mago o Sciamano.</itIT>
+			<koKR>마법사 또는 주술사로 2승</koKR>
+			<plPL>Wygraj 2 partie magiem lub szamanem.</plPL>
+			<ptBR>Vencer 2 jogos com Mago ou Xamã.</ptBR>
+			<ruRU>2 победы магом или шаманом.</ruRU>
+			<zhCN>使用法师或萨满祭司赢得2场比赛。</zhCN>
+			<zhTW>用法師或是薩滿贏得2場對戰。</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">36</Field>
+		<Field column="NOTE_DESC">victory paladin or priest</Field>
+		<Field column="ACH_TYPE">daily</Field>
+		<Field column="ACTIVE">False</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">2</Field>
+		<Field column="GAME_MODE">matchmaker</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">5</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">gold</Field>
+		<Field column="REWARD_DATA1">40</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">1</Field>
+		<Field column="WEIGHT">10</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">6</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Paladin or Priest Victory</enUS>
+			<deDE>Sieg des Paladins oder Priesters</deDE>
+			<esES>Victoria del paladín o del sacerdote</esES>
+			<esMX>Victoria como Paladín o Sacerdote</esMX>
+			<frFR>Victoire du paladin ou du prêtre</frFR>
+			<itIT>Vittoria: Paladino o Sacerdote</itIT>
+			<koKR>성기사 또는 사제로 승리</koKR>
+			<plPL>Zwycięstwo paladyna lub kapłana</plPL>
+			<ptBR>Vitória do Paladino ou Sacerdote</ptBR>
+			<ruRU>Победа паладина или жреца</ruRU>
+			<zhCN>圣骑士/牧师：胜利</zhCN>
+			<zhTW>聖騎士或是牧師勝利</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Win 2 games with Paladin or Priest.</enUS>
+			<deDE>Gewinnt 2 Spiele als Paladin oder Priester.</deDE>
+			<esES>Gana 2 partidas con el paladín o con el sacerdote.</esES>
+			<esMX>Gana 2 partidas como Paladín o Sacerdote.</esMX>
+			<frFR>Gagner 2 matchs avec un paladin ou un prêtre.</frFR>
+			<itIT>Vinci 2 partite con Paladino o Sacerdote.</itIT>
+			<koKR>성기사 또는 사제로 2승</koKR>
+			<plPL>Wygraj 2 partie paladynem lub kapłanem.</plPL>
+			<ptBR>Vencer 2 jogos com Paladino ou Sacerdote.</ptBR>
+			<ruRU>2 победы паладином или жрецом.</ruRU>
+			<zhCN>使用圣骑士或牧师赢得2场比赛。</zhCN>
+			<zhTW>用聖騎士或是牧師贏得2場對戰。</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">37</Field>
+		<Field column="NOTE_DESC">victory paladin or warrior</Field>
+		<Field column="ACH_TYPE">daily</Field>
+		<Field column="ACTIVE">False</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">2</Field>
+		<Field column="GAME_MODE">matchmaker</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">5</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">gold</Field>
+		<Field column="REWARD_DATA1">40</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">1</Field>
+		<Field column="WEIGHT">10</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">10</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Paladin or Warrior Victory</enUS>
+			<deDE>Sieg des Paladins oder Kriegers</deDE>
+			<esES>Victoria del paladín o del guerrero</esES>
+			<esMX>Victoria como Paladín o Guerrero</esMX>
+			<frFR>Victoire du paladin ou du guerrier</frFR>
+			<itIT>Vittoria: Paladino o Guerriero</itIT>
+			<koKR>성기사 또는 전사로 승리</koKR>
+			<plPL>Zwycięstwo paladyna lub wojownika</plPL>
+			<ptBR>Vitória do Paladino ou Guerreiro</ptBR>
+			<ruRU>Победа паладина или воина</ruRU>
+			<zhCN>圣骑士/战士：胜利</zhCN>
+			<zhTW>聖騎士或是戰士勝利</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Win 2 games with Paladin or Warrior.</enUS>
+			<deDE>Gewinnt 2 Spiele als Paladin oder Krieger.</deDE>
+			<esES>Gana 2 partidas con el paladín o con el guerrero.</esES>
+			<esMX>Gana 2 partidas como Paladín o Guerrero.</esMX>
+			<frFR>Gagner 2 matchs avec un paladin ou un guerrier.</frFR>
+			<itIT>Vinci 2 partite con Paladino o Guerriero.</itIT>
+			<koKR>성기사 또는 전사로 2승</koKR>
+			<plPL>Wygraj 2 partie paladynem lub wojownikiem.</plPL>
+			<ptBR>Vencer 2 jogos com Paladino ou Guerreiro.</ptBR>
+			<ruRU>2 победы паладином или воином.</ruRU>
+			<zhCN>使用圣骑士或战士赢得2场比赛。</zhCN>
+			<zhTW>用聖騎士或是戰士贏得2場對戰。</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">38</Field>
+		<Field column="NOTE_DESC">victory priest or warlock</Field>
+		<Field column="ACH_TYPE">daily</Field>
+		<Field column="ACTIVE">False</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">2</Field>
+		<Field column="GAME_MODE">matchmaker</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">6</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">gold</Field>
+		<Field column="REWARD_DATA1">40</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">1</Field>
+		<Field column="WEIGHT">10</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">9</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Priest or Warlock Victory</enUS>
+			<deDE>Sieg des Priesters oder Hexenmeisters</deDE>
+			<esES>Victoria del sacerdote o del brujo</esES>
+			<esMX>Victoria como Sacerdote o Brujo</esMX>
+			<frFR>Victoire du prêtre ou du démoniste</frFR>
+			<itIT>Vittoria: Sacerdote o Stregone</itIT>
+			<koKR>사제 또는 흑마법사로 승리</koKR>
+			<plPL>Zwycięstwo kapłana lub czarnoksiężnika</plPL>
+			<ptBR>Vitória do Sacerdote ou Bruxo</ptBR>
+			<ruRU>Победа жреца или чернокнижника</ruRU>
+			<zhCN>牧师/术士：胜利</zhCN>
+			<zhTW>牧師或是術士勝利</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Win 2 games with Priest or Warlock.</enUS>
+			<deDE>Gewinnt 2 Spiele als Priester oder Hexenmeister.</deDE>
+			<esES>Gana 2 partidas con el sacerdote o con el brujo.</esES>
+			<esMX>Gana 2 partidas como Sacerdote o Brujo.</esMX>
+			<frFR>Gagner 2 matchs avec un prêtre ou un démoniste.</frFR>
+			<itIT>Vinci 2 partite con Sacerdote o Stregone.</itIT>
+			<koKR>사제 또는 흑마법사로 2승</koKR>
+			<plPL>Wygraj 2 partie kapłanem lub czarnoksiężnikiem.</plPL>
+			<ptBR>Vencer 2 jogos com Sacerdote ou Bruxo.</ptBR>
+			<ruRU>2 победы жрецом или чернокнижником.</ruRU>
+			<zhCN>使用牧师或术士赢得2场比赛。</zhCN>
+			<zhTW>用牧師或是術士贏得2場對戰。</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">39</Field>
+		<Field column="NOTE_DESC">victory rogue or warrior</Field>
+		<Field column="ACH_TYPE">daily</Field>
+		<Field column="ACTIVE">False</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">2</Field>
+		<Field column="GAME_MODE">matchmaker</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">7</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">gold</Field>
+		<Field column="REWARD_DATA1">40</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">1</Field>
+		<Field column="WEIGHT">10</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">10</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Rogue or Warrior Victory</enUS>
+			<deDE>Sieg des Schurken oder Kriegers</deDE>
+			<esES>Victoria del pícaro o del guerrero</esES>
+			<esMX>Victoria como Pícaro o Guerrero</esMX>
+			<frFR>Victoire du voleur ou du guerrier</frFR>
+			<itIT>Vittoria: Ladro o Guerriero</itIT>
+			<koKR>도적 또는 전사로 승리</koKR>
+			<plPL>Zwycięstwo łotra lub wojownika</plPL>
+			<ptBR>Vitória do Ladino ou Guerreiro</ptBR>
+			<ruRU>Победа разбойника или воина</ruRU>
+			<zhCN>潜行者/战士：胜利</zhCN>
+			<zhTW>盜賊或是戰士勝利</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Win 2 games with Rogue or Warrior.</enUS>
+			<deDE>Gewinnt 2 Spiele als Schurke oder Krieger.</deDE>
+			<esES>Gana 2 partidas con el pícaro o con el guerrero.</esES>
+			<esMX>Gana 2 partidas como Pícaro o Guerrero.</esMX>
+			<frFR>Gagner 2 matchs avec un voleur ou un guerrier.</frFR>
+			<itIT>Vinci 2 partite con Ladro o Guerriero.</itIT>
+			<koKR>도적 또는 전사로 2승</koKR>
+			<plPL>Wygraj 2 partie łotrem lub wojownikiem.</plPL>
+			<ptBR>Vencer 2 jogos com Ladino ou Guerreiro.</ptBR>
+			<ruRU>2 победы разбойником или воином.</ruRU>
+			<zhCN>使用潜行者或战士赢得2场比赛。</zhCN>
+			<zhTW>用盜賊或是戰士贏得2場對戰。</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">40</Field>
+		<Field column="NOTE_DESC">victory shaman or warlock</Field>
+		<Field column="ACH_TYPE">daily</Field>
+		<Field column="ACTIVE">False</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">2</Field>
+		<Field column="GAME_MODE">matchmaker</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">8</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">gold</Field>
+		<Field column="REWARD_DATA1">40</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">1</Field>
+		<Field column="WEIGHT">10</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">9</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Shaman or Warlock Victory</enUS>
+			<deDE>Sieg des Schamanen oder Hexenmeisters</deDE>
+			<esES>Victoria del chamán o del brujo</esES>
+			<esMX>Victoria como Chamán o Brujo</esMX>
+			<frFR>Victoire du chaman ou du démoniste</frFR>
+			<itIT>Vittoria: Sciamano o Stregone</itIT>
+			<koKR>주술사 또는 흑마법사로 승리</koKR>
+			<plPL>Zwycięstwo szamana lub czarnoksiężnika</plPL>
+			<ptBR>Vitória do Xamã ou Bruxo</ptBR>
+			<ruRU>Победа шамана или чернокнижника</ruRU>
+			<zhCN>萨满祭司/术士：胜利</zhCN>
+			<zhTW>薩滿或是術士勝利</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Win 2 games with Shaman or Warlock.</enUS>
+			<deDE>Gewinnt 2 Spiele als Schamane oder Hexenmeister.</deDE>
+			<esES>Gana 2 partidas con el chamán o con el brujo.</esES>
+			<esMX>Gana 2 partidas como Chamán o Brujo.</esMX>
+			<frFR>Gagner 2 matchs avec un chaman ou un démoniste.</frFR>
+			<itIT>Vinci 2 partite con Sciamano o Stregone.</itIT>
+			<koKR>주술사 또는 흑마법사로 2승</koKR>
+			<plPL>Wygraj 2 partie szamanem lub czarnoksiężnikiem.</plPL>
+			<ptBR>Vencer 2 jogos com Xamã ou Bruxo.</ptBR>
+			<ruRU>2 победы шаманом или чернокнижником.</ruRU>
+			<zhCN>使用萨满祭司或术士赢得2场比赛。</zhCN>
+			<zhTW>用薩滿或是術士贏得2場對戰。</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">41</Field>
+		<Field column="NOTE_DESC">dominance druid or hunter</Field>
+		<Field column="ACH_TYPE">daily</Field>
+		<Field column="ACTIVE">False</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">5</Field>
+		<Field column="GAME_MODE">matchmaker</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">2</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">gold</Field>
+		<Field column="REWARD_DATA1">60</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">2</Field>
+		<Field column="WEIGHT">5</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">3</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Druid or Hunter Dominance</enUS>
+			<deDE>Dominanz des Druiden oder Jägers</deDE>
+			<esES>Dominancia del druida o del cazador</esES>
+			<esMX>Dominio de Druida o Cazador</esMX>
+			<frFR>Domination du druide ou du chasseur</frFR>
+			<itIT>Dominazione: Druido o Cacciatore</itIT>
+			<koKR>드루이드 또는 사냥꾼의 달인</koKR>
+			<plPL>Dominacja druida lub łowcy</plPL>
+			<ptBR>Domínio do Druida ou Caçador</ptBR>
+			<ruRU>Триумф друида или охотника</ruRU>
+			<zhCN>德鲁伊/猎人：统御</zhCN>
+			<zhTW>德魯伊或獵人高手</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Win 5 games with Druid or Hunter.</enUS>
+			<deDE>Gewinnt 5 Spiele als Druide oder Jäger.</deDE>
+			<esES>Gana 5 partidas con el druida o con el cazador.</esES>
+			<esMX>Gana 5 partidas como Druida o Cazador.</esMX>
+			<frFR>Gagner 5 matchs avec un druide ou un chasseur.</frFR>
+			<itIT>Vinci 5 partite con Druido o Cacciatore.</itIT>
+			<koKR>드루이드 또는 사냥꾼으로 5승</koKR>
+			<plPL>Wygraj 5 partii druidem lub łowcą.</plPL>
+			<ptBR>Vencer 5 jogos com Druida ou Caçador.</ptBR>
+			<ruRU>5 побед друидом или охотником.</ruRU>
+			<zhCN>使用德鲁伊或猎人赢得5场比赛。</zhCN>
+			<zhTW>用德魯伊或是獵人贏得5場對戰。</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">42</Field>
+		<Field column="NOTE_DESC">dominance druid or rogue</Field>
+		<Field column="ACH_TYPE">daily</Field>
+		<Field column="ACTIVE">False</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">5</Field>
+		<Field column="GAME_MODE">matchmaker</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">2</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">gold</Field>
+		<Field column="REWARD_DATA1">60</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">2</Field>
+		<Field column="WEIGHT">5</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">7</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Druid or Rogue Dominance</enUS>
+			<deDE>Dominanz des Druiden oder Schurken</deDE>
+			<esES>Dominancia del druida o del pícaro</esES>
+			<esMX>Dominio de Druida o Pícaro</esMX>
+			<frFR>Domination du druide ou du voleur</frFR>
+			<itIT>Dominazione: Druido o Ladro</itIT>
+			<koKR>드루이드 또는 도적의 달인</koKR>
+			<plPL>Dominacja druida lub łotra</plPL>
+			<ptBR>Domínio do Druida ou Ladino</ptBR>
+			<ruRU>Триумф друида или разбойника</ruRU>
+			<zhCN>德鲁伊/潜行者：统御</zhCN>
+			<zhTW>德魯伊或盜賊高手</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Win 5 games with Druid or Rogue.</enUS>
+			<deDE>Gewinnt 5 Spiele als Druide oder Schurke.</deDE>
+			<esES>Gana 5 partidas con el druida o con el pícaro.</esES>
+			<esMX>Gana 5 partidas como Druida o Pícaro.</esMX>
+			<frFR>Gagner 5 matchs avec un druide ou un voleur.</frFR>
+			<itIT>Vinci 5 partite con Druido o Ladro.</itIT>
+			<koKR>드루이드 또는 도적으로 5승</koKR>
+			<plPL>Wygraj 5 partii druidem lub łotrem.</plPL>
+			<ptBR>Vencer 5 jogos com Druida ou Ladino.</ptBR>
+			<ruRU>5 побед друидом или разбойником.</ruRU>
+			<zhCN>使用德鲁伊或潜行者赢得5场比赛。</zhCN>
+			<zhTW>用德魯伊或是盜賊贏得5場對戰。</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">43</Field>
+		<Field column="NOTE_DESC">dominance hunter or mage</Field>
+		<Field column="ACH_TYPE">daily</Field>
+		<Field column="ACTIVE">False</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">5</Field>
+		<Field column="GAME_MODE">matchmaker</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">3</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">gold</Field>
+		<Field column="REWARD_DATA1">60</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">2</Field>
+		<Field column="WEIGHT">5</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">4</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Hunter or Mage Dominance</enUS>
+			<deDE>Dominanz des Jägers oder Magiers</deDE>
+			<esES>Dominancia del cazador o del mago</esES>
+			<esMX>Dominio de Cazador o Mago</esMX>
+			<frFR>Domination du chasseur ou du mage</frFR>
+			<itIT>Dominazione: Cacciatore o Mago</itIT>
+			<koKR>사냥꾼 또는 마법사의 달인</koKR>
+			<plPL>Dominacja łowcy lub maga</plPL>
+			<ptBR>Domínio do Caçador ou Mago</ptBR>
+			<ruRU>Триумф охотника или мага</ruRU>
+			<zhCN>猎人/法师：统御</zhCN>
+			<zhTW>獵人或法師高手</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Win 5 games with Hunter or Mage.</enUS>
+			<deDE>Gewinnt 5 Spiele als Jäger oder Magier.</deDE>
+			<esES>Gana 5 partidas con el cazador o con el mago.</esES>
+			<esMX>Gana 5 partidas como Cazador o Mago.</esMX>
+			<frFR>Gagner 5 matchs avec un chasseur ou un mage.</frFR>
+			<itIT>Vinci 5 partite con Cacciatore o Mago.</itIT>
+			<koKR>사냥꾼 또는 마법사로 5승</koKR>
+			<plPL>Wygraj 5 partii łowcą lub magiem.</plPL>
+			<ptBR>Vencer 5 jogos com Caçador ou Mago.</ptBR>
+			<ruRU>5 побед охотником или магом.</ruRU>
+			<zhCN>使用猎人或法师赢得5场比赛。</zhCN>
+			<zhTW>用獵人或是法師贏得5場對戰。</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">44</Field>
+		<Field column="NOTE_DESC">dominance mage or shaman</Field>
+		<Field column="ACH_TYPE">daily</Field>
+		<Field column="ACTIVE">False</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">5</Field>
+		<Field column="GAME_MODE">matchmaker</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">4</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">gold</Field>
+		<Field column="REWARD_DATA1">60</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">2</Field>
+		<Field column="WEIGHT">5</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">8</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Mage or Shaman Dominance</enUS>
+			<deDE>Dominanz des Magiers oder Schamanen</deDE>
+			<esES>Dominancia del mago o del chamán</esES>
+			<esMX>Dominio de Mago o Chamán</esMX>
+			<frFR>Domination du mage ou du chaman</frFR>
+			<itIT>Dominazione: Mago o Sciamano</itIT>
+			<koKR>마법사 또는 주술사의 달인</koKR>
+			<plPL>Dominacja maga lub szamana</plPL>
+			<ptBR>Domínio do Mago ou Xamã</ptBR>
+			<ruRU>Триумф мага или шамана</ruRU>
+			<zhCN>法师/萨满祭司：统御</zhCN>
+			<zhTW>法師或薩滿高手</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Win 5 games with Mage or Shaman.</enUS>
+			<deDE>Gewinnt 5 Spiele als Magier oder Schamane.</deDE>
+			<esES>Gana 5 partidas con el mago o con el chamán.</esES>
+			<esMX>Gana 5 partidas como Mago o Chamán.</esMX>
+			<frFR>Gagner 5 matchs avec un mage ou un chaman.</frFR>
+			<itIT>Vinci 5 partite con Mago o Sciamano.</itIT>
+			<koKR>마법사 또는 주술사로 5승</koKR>
+			<plPL>Wygraj 5 partii magiem lub szamanem.</plPL>
+			<ptBR>Vencer 5 jogos com Mago ou Xamã.</ptBR>
+			<ruRU>5 побед магом или шаманом.</ruRU>
+			<zhCN>使用法师或萨满祭司赢得5场比赛。</zhCN>
+			<zhTW>用法師或是薩滿贏得5場對戰。</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">45</Field>
+		<Field column="NOTE_DESC">dominance paladin or priest</Field>
+		<Field column="ACH_TYPE">daily</Field>
+		<Field column="ACTIVE">False</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">5</Field>
+		<Field column="GAME_MODE">matchmaker</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">5</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">gold</Field>
+		<Field column="REWARD_DATA1">60</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">2</Field>
+		<Field column="WEIGHT">5</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">6</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Paladin or Priest Dominance</enUS>
+			<deDE>Dominanz des Paladins oder Priesters</deDE>
+			<esES>Dominancia del paladín o del sacerdote</esES>
+			<esMX>Dominio de Paladín o Sacerdote</esMX>
+			<frFR>Domination du paladin ou du prêtre</frFR>
+			<itIT>Dominazione: Paladino o Sacerdote</itIT>
+			<koKR>성기사 또는 사제의 달인</koKR>
+			<plPL>Dominacja paladyna lub kapłana</plPL>
+			<ptBR>Domínio do Paladino ou Sacerdote</ptBR>
+			<ruRU>Триумф паладина или жреца</ruRU>
+			<zhCN>圣骑士/牧师：统御</zhCN>
+			<zhTW>聖騎士或牧師高手</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Win 5 games with Paladin or Priest.</enUS>
+			<deDE>Gewinnt 5 Spiele als Paladin oder Priester.</deDE>
+			<esES>Gana 5 partidas con el paladín o con el sacerdote.</esES>
+			<esMX>Gana 5 partidas como Paladín o Sacerdote.</esMX>
+			<frFR>Gagner 5 matchs avec un paladin ou un prêtre.</frFR>
+			<itIT>Vinci 5 partite con Paladino o Sacerdote.</itIT>
+			<koKR>성기사 또는 사제로 5승</koKR>
+			<plPL>Wygraj 5 partii paladynem lub kapłanem.</plPL>
+			<ptBR>Vencer 5 jogos com Paladino ou Sacerdote.</ptBR>
+			<ruRU>5 побед паладином или жрецом.</ruRU>
+			<zhCN>使用圣骑士或牧师赢得5场比赛。</zhCN>
+			<zhTW>用聖騎士或是牧師贏得5場對戰。</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">46</Field>
+		<Field column="NOTE_DESC">dominance paladin or warrior</Field>
+		<Field column="ACH_TYPE">daily</Field>
+		<Field column="ACTIVE">False</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">5</Field>
+		<Field column="GAME_MODE">matchmaker</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">5</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">gold</Field>
+		<Field column="REWARD_DATA1">60</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">2</Field>
+		<Field column="WEIGHT">5</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">10</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Paladin or Warrior Dominance</enUS>
+			<deDE>Dominanz des Paladins oder Kriegers</deDE>
+			<esES>Dominancia del paladín o del guerrero</esES>
+			<esMX>Dominio de Paladín o Guerrero</esMX>
+			<frFR>Domination du paladin ou du guerrier</frFR>
+			<itIT>Dominazione: Paladino o Guerriero</itIT>
+			<koKR>성기사 또는 전사의 달인</koKR>
+			<plPL>Dominacja paladyna lub wojownika</plPL>
+			<ptBR>Domínio do Paladino ou Guerreiro</ptBR>
+			<ruRU>Триумф паладина или воина</ruRU>
+			<zhCN>圣骑士/战士：统御</zhCN>
+			<zhTW>聖騎士或戰士高手</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Win 5 games with Paladin or Warrior.</enUS>
+			<deDE>Gewinnt 5 Spiele als Paladin oder Krieger.</deDE>
+			<esES>Gana 5 partidas con el paladín o con el guerrero.</esES>
+			<esMX>Gana 5 partidas como Paladín o Guerrero.</esMX>
+			<frFR>Gagner 5 matchs avec un paladin ou un guerrier.</frFR>
+			<itIT>Vinci 5 partite con Paladino o Guerriero.</itIT>
+			<koKR>성기사 또는 전사로 5승</koKR>
+			<plPL>Wygraj 5 partii paladynem lub wojownikiem.</plPL>
+			<ptBR>Vencer 5 jogos com Paladino ou Guerreiro.</ptBR>
+			<ruRU>5 побед паладином или воином.</ruRU>
+			<zhCN>使用圣骑士或战士赢得5场比赛。</zhCN>
+			<zhTW>用聖騎士或是戰士贏得5場對戰。</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">47</Field>
+		<Field column="NOTE_DESC">dominance priest or warlock</Field>
+		<Field column="ACH_TYPE">daily</Field>
+		<Field column="ACTIVE">False</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">5</Field>
+		<Field column="GAME_MODE">matchmaker</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">6</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">gold</Field>
+		<Field column="REWARD_DATA1">60</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">2</Field>
+		<Field column="WEIGHT">5</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">9</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Priest or Warlock Dominance</enUS>
+			<deDE>Dominanz des Priesters oder Hexenmeisters</deDE>
+			<esES>Dominancia del sacerdote o del brujo</esES>
+			<esMX>Dominio de Sacerdote o Brujo</esMX>
+			<frFR>Domination du prêtre ou du démoniste</frFR>
+			<itIT>Dominazione: Sacerdote o Stregone</itIT>
+			<koKR>사제 또는 흑마법사의 달인</koKR>
+			<plPL>Dominacja kapłana lub czarnoksiężnika</plPL>
+			<ptBR>Domínio do Sacerdote ou Bruxo</ptBR>
+			<ruRU>Триумф жреца или чернокнижника</ruRU>
+			<zhCN>牧师/术士：统御</zhCN>
+			<zhTW>牧師或術士高手</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Win 5 games with Priest or Warlock.</enUS>
+			<deDE>Gewinnt 5 Spiele als Priester oder Hexenmeister.</deDE>
+			<esES>Gana 5 partidas con el sacerdote o con el brujo.</esES>
+			<esMX>Gana 5 partidas como Sacerdote o Brujo.</esMX>
+			<frFR>Gagner 5 matchs avec un prêtre ou un démoniste.</frFR>
+			<itIT>Vinci 5 partite con Sacerdote o Stregone.</itIT>
+			<koKR>사제 또는 흑마법사로 5승</koKR>
+			<plPL>Wygraj 5 partii kapłanem lub czarnoksiężnikiem.</plPL>
+			<ptBR>Vencer 5 jogos com Sacerdote ou Bruxo.</ptBR>
+			<ruRU>5 побед жрецом или чернокнижником.</ruRU>
+			<zhCN>使用牧师或术士赢得5场比赛。</zhCN>
+			<zhTW>用牧師或是術士贏得5場對戰。</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">48</Field>
+		<Field column="NOTE_DESC">dominance rogue or warrior</Field>
+		<Field column="ACH_TYPE">daily</Field>
+		<Field column="ACTIVE">False</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">5</Field>
+		<Field column="GAME_MODE">matchmaker</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">7</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">gold</Field>
+		<Field column="REWARD_DATA1">60</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">2</Field>
+		<Field column="WEIGHT">5</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">10</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Rogue or Warrior Dominance</enUS>
+			<deDE>Dominanz des Schurken oder Kriegers</deDE>
+			<esES>Dominancia del pícaro o del guerrero</esES>
+			<esMX>Dominio de Pícaro o Guerrero</esMX>
+			<frFR>Domination du voleur ou du guerrier</frFR>
+			<itIT>Dominazione: Ladro o Guerriero</itIT>
+			<koKR>도적 또는 전사의 달인</koKR>
+			<plPL>Dominacja łotra lub wojownika</plPL>
+			<ptBR>Domínio do Ladino ou Guerreiro</ptBR>
+			<ruRU>Триумф разбойника или воина</ruRU>
+			<zhCN>潜行者/战士：统御</zhCN>
+			<zhTW>盜賊或戰士高手</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Win 5 games with Rogue or Warrior.</enUS>
+			<deDE>Gewinnt 5 Spiele als Schurke oder Krieger.</deDE>
+			<esES>Gana 5 partidas con el pícaro o con el guerrero.</esES>
+			<esMX>Gana 5 partidas como Pícaro o Guerrero.</esMX>
+			<frFR>Gagner 5 matchs avec un voleur ou un guerrier.</frFR>
+			<itIT>Vinci 5 partite con Ladro o Guerriero.</itIT>
+			<koKR>도적 또는 전사로 5승</koKR>
+			<plPL>Wygraj 5 partii łotrem lub wojownikiem.</plPL>
+			<ptBR>Vencer 5 jogos com Ladino ou Guerreiro.</ptBR>
+			<ruRU>5 побед разбойником или воином.</ruRU>
+			<zhCN>使用潜行者或战士赢得5场比赛。</zhCN>
+			<zhTW>用盜賊或是戰士贏得5場對戰。</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">49</Field>
+		<Field column="NOTE_DESC">dominance shaman or warlock</Field>
+		<Field column="ACH_TYPE">daily</Field>
+		<Field column="ACTIVE">False</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">5</Field>
+		<Field column="GAME_MODE">matchmaker</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">8</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">gold</Field>
+		<Field column="REWARD_DATA1">60</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">2</Field>
+		<Field column="WEIGHT">5</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">9</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Shaman or Warlock Dominance</enUS>
+			<deDE>Dominanz des Schamanen oder Hexenmeisters</deDE>
+			<esES>Dominancia del chamán o del brujo</esES>
+			<esMX>Dominio de Chamán o Brujo</esMX>
+			<frFR>Domination du chaman ou du démoniste</frFR>
+			<itIT>Dominazione: Sciamano o Stregone</itIT>
+			<koKR>주술사 또는 흑마법사의 달인</koKR>
+			<plPL>Dominacja szamana lub czarnoksiężnika</plPL>
+			<ptBR>Domínio do Xamã ou Bruxo</ptBR>
+			<ruRU>Триумф шамана или чернокнижника</ruRU>
+			<zhCN>萨满祭司/术士：统御</zhCN>
+			<zhTW>薩滿或術士高手</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Win 5 games with Shaman or Warlock.</enUS>
+			<deDE>Gewinnt 5 Spiele als Schamane oder Hexenmeister.</deDE>
+			<esES>Gana 5 partidas con el chamán o con el brujo.</esES>
+			<esMX>Gana 5 partidas como Chamán o Brujo.</esMX>
+			<frFR>Gagner 5 matchs avec un chaman ou un démoniste.</frFR>
+			<itIT>Vinci 5 partite con Sciamano o Stregone.</itIT>
+			<koKR>주술사 또는 흑마법사로 5승</koKR>
+			<plPL>Wygraj 5 partii szamanem lub czarnoksiężnikiem.</plPL>
+			<ptBR>Vencer 5 jogos com Xamã ou Bruxo.</ptBR>
+			<ruRU>5 побед шаманом или чернокнижником.</ruRU>
+			<zhCN>使用萨满祭司或术士赢得5场比赛。</zhCN>
+			<zhTW>用薩滿或是術士贏得5場對戰。</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">50</Field>
+		<Field column="NOTE_DESC">destroy them all</Field>
+		<Field column="ACH_TYPE">daily</Field>
+		<Field column="ACTIVE">False</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">destroy</Field>
+		<Field column="ACH_QUOTA">40</Field>
+		<Field column="GAME_MODE">matchmaker</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">gold</Field>
+		<Field column="REWARD_DATA1">40</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">1</Field>
+		<Field column="WEIGHT">10</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">2</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Destroy them All</enUS>
+			<deDE>Vernichtet sie alle</deDE>
+			<esES>Destrúyelos a todos</esES>
+			<esMX>Aplanadora</esMX>
+			<frFR>Détruisez-les tous !</frFR>
+			<itIT>Distruggili tutti</itIT>
+			<koKR>초토화</koKR>
+			<plPL>Totalne zniszczenie</plPL>
+			<ptBR>Acabe com eles</ptBR>
+			<ruRU>Всех уничтожить!</ruRU>
+			<zhCN>全数消灭</zhCN>
+			<zhTW>殺光他們</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Destroy 40 minions.</enUS>
+			<deDE>Vernichtet 40 Diener.</deDE>
+			<esES>Destruye a 40 esbirros.</esES>
+			<esMX>Destruye 40 esbirros.</esMX>
+			<frFR>Détruire 40 serviteurs.</frFR>
+			<itIT>Distruggi 40 servitori.</itIT>
+			<koKR>하수인 카드 40장 파괴</koKR>
+			<plPL>Zniszcz 40 stronników.</plPL>
+			<ptBR>Destruir 40 lacaios.</ptBR>
+			<ruRU>Уничтожьте 40 существ.</ruRU>
+			<zhCN>消灭40个随从。</zhCN>
+			<zhTW>摧毀40個手下。</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">51</Field>
+		<Field column="NOTE_DESC">only the mighty</Field>
+		<Field column="ACH_TYPE">daily</Field>
+		<Field column="ACTIVE">False</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">minion5</Field>
+		<Field column="ACH_QUOTA">20</Field>
+		<Field column="GAME_MODE">matchmaker</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">gold</Field>
+		<Field column="REWARD_DATA1">40</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">2</Field>
+		<Field column="WEIGHT">10</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Only the Mighty</enUS>
+			<deDE>Nur die Größe zählt</deDE>
+			<esES>Juego de poder</esES>
+			<esMX>Sin lugar para los débiles</esMX>
+			<frFR>Tout-puissant</frFR>
+			<itIT>Solo i migliori</itIT>
+			<koKR>강자만이 살아남는다</koKR>
+			<plPL>Siłacze do boju!</plPL>
+			<ptBR>Só os fortes</ptBR>
+			<ruRU>Только сильнейшие</ruRU>
+			<zhCN>恃强凌弱</zhCN>
+			<zhTW>勇者得寵</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Play 20 minions that cost 5 or more.</enUS>
+			<deDE>Spielt 20 Diener aus, die 5 oder mehr kosten.</deDE>
+			<esES>Juega 20 esbirros que cuesten 5 cristales o más.</esES>
+			<esMX>Juega 20 esbirros que cuesten 5 o más.</esMX>
+			<frFR>Jouer 20 serviteurs coûtant 5 cristaux ou plus.</frFR>
+			<itIT>Gioca 20 servitori che costino 5 o più Mana.</itIT>
+			<koKR>비용이 5 이상인 하수인 카드 20장 내기</koKR>
+			<plPL>Zagraj 20 stronników kosztujących 5 lub więcej.</plPL>
+			<ptBR>Jogar 20 lacaios que custam 5 ou mais.</ptBR>
+			<ruRU>Разыграйте 20 существ за 5 маны или больше.</ruRU>
+			<zhCN>召唤20个消耗5点或5点以上法力值的随从。</zhCN>
+			<zhTW>召喚20個消耗為5點以上的手下。</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">52</Field>
+		<Field column="NOTE_DESC">the meek shall inherit</Field>
+		<Field column="ACH_TYPE">daily</Field>
+		<Field column="ACTIVE">False</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">minion2</Field>
+		<Field column="ACH_QUOTA">30</Field>
+		<Field column="GAME_MODE">matchmaker</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">gold</Field>
+		<Field column="REWARD_DATA1">40</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">2</Field>
+		<Field column="WEIGHT">10</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>The Meek Shall Inherit</enUS>
+			<deDE>Klein aber oho</deDE>
+			<esES>Chiquito, pero matón</esES>
+			<esMX>Los mansos heredarán la tierra</esMX>
+			<frFR>Faible en apparence</frFR>
+			<itIT>Potere ai piccoli</itIT>
+			<koKR>약자의 반격</koKR>
+			<plPL>Błogosławieni niech będą słabi</plPL>
+			<ptBR>Onde os fracos têm vez</ptBR>
+			<ruRU>Блаженны кроткие</ruRU>
+			<zhCN>唯快不破</zhCN>
+			<zhTW>弱者蒙福</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Play 30 minions that cost 2 or less.</enUS>
+			<deDE>Spielt 30 Diener aus, die 2 oder weniger kosten.</deDE>
+			<esES>Juega 30 esbirros que cuesten 2 cristales o menos.</esES>
+			<esMX>Juega 30 esbirros que cuesten 2 o menos.</esMX>
+			<frFR>Jouer 30 serviteurs coûtant 2 cristaux ou moins.</frFR>
+			<itIT>Gioca 30 servitori che costino 2 o meno Mana.</itIT>
+			<koKR>비용이 2 이하인 하수인 카드 30장 내기</koKR>
+			<plPL>Zagraj 30 stronników kosztujących 2 lub mniej.</plPL>
+			<ptBR>Jogue 30 lacaios que custam 2 ou menos.</ptBR>
+			<ruRU>Разыграйте 30 существ за 2 маны или меньше.</ruRU>
+			<zhCN>召唤30个消耗2点或2点以下法力值的随从。</zhCN>
+			<zhTW>召喚30個消耗為2點以下的手下。</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">53</Field>
+		<Field column="NOTE_DESC">spell master</Field>
+		<Field column="ACH_TYPE">daily</Field>
+		<Field column="ACTIVE">False</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">spell</Field>
+		<Field column="ACH_QUOTA">40</Field>
+		<Field column="GAME_MODE">matchmaker</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">gold</Field>
+		<Field column="REWARD_DATA1">40</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">2</Field>
+		<Field column="WEIGHT">10</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Spell Master</enUS>
+			<deDE>Zaubermeister</deDE>
+			<esES>Maestro de los hechizos</esES>
+			<esMX>Maestría en hechicería</esMX>
+			<frFR>Maître des sorts</frFR>
+			<itIT>Maestro d'incantesimi</itIT>
+			<koKR>주문술사</koKR>
+			<plPL>Mistrz zaklęć</plPL>
+			<ptBR>Mestre dos feitiços</ptBR>
+			<ruRU>Мастер заклинаний</ruRU>
+			<zhCN>法术大师</zhCN>
+			<zhTW>法術大師</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Cast 40 spells.</enUS>
+			<deDE>Wirkt 40 Zauber.</deDE>
+			<esES>Lanza 40 hechizos.</esES>
+			<esMX>Lanza 40 hechizos.</esMX>
+			<frFR>Lancer 40 sorts.</frFR>
+			<itIT>Lancia 40 Magie.</itIT>
+			<koKR>주문 40회 사용</koKR>
+			<plPL>Rzuć 40 zaklęć.</plPL>
+			<ptBR>Lançar 40 feitiços.</ptBR>
+			<ruRU>Разыграйте 40 заклинаний.</ruRU>
+			<zhCN>施放40个法术。</zhCN>
+			<zhTW>施放40個法術。</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">54</Field>
+		<Field column="NOTE_DESC">beat down</Field>
+		<Field column="ACH_TYPE">daily</Field>
+		<Field column="ACTIVE">False</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">dmghero</Field>
+		<Field column="ACH_QUOTA">100</Field>
+		<Field column="GAME_MODE">matchmaker</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">gold</Field>
+		<Field column="REWARD_DATA1">40</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">1</Field>
+		<Field column="WEIGHT">10</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">1</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Beat Down</enUS>
+			<deDE>Gefällt Euch das?</deDE>
+			<esES>Pegar fuerte</esES>
+			<esMX>Paliza</esMX>
+			<frFR>Passage à tabac</frFR>
+			<itIT>Senza pietà</itIT>
+			<koKR>때려눕히기</koKR>
+			<plPL>Niezłe manto</plPL>
+			<ptBR>Surra</ptBR>
+			<ruRU>Нокдаун</ruRU>
+			<zhCN>直取敌将</zhCN>
+			<zhTW>痛毆</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Deal 100 damage to enemy heroes.</enUS>
+			<deDE>Fügt feindlichen Helden 100 Schaden zu.</deDE>
+			<esES>Inflige 100 p. de daño a héroes enemigos.</esES>
+			<esMX>Inflige 100 de daño a los héroes enemigos.</esMX>
+			<frFR>Infliger 100 points de dégâts aux héros adverses.</frFR>
+			<itIT>Infliggi 100 danni agli eroi nemici.</itIT>
+			<koKR>적 영웅들에게 총 100의 피해 입히기</koKR>
+			<plPL>Zadaj 100 pkt. obrażeń wrogim bohaterom.</plPL>
+			<ptBR>Causar 100 de dano a Heróis inimigos.</ptBR>
+			<ruRU>Нанесите 100 урона героям противников.</ruRU>
+			<zhCN>对敌方英雄造成100点伤害。</zhCN>
+			<zhTW>對敵方英雄造成100點傷害。</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">55</Field>
+		<Field column="NOTE_DESC">crafting time</Field>
+		<Field column="ACH_TYPE">hidden</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">disenchant</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">dust</Field>
+		<Field column="REWARD_DATA1">95</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Crafting Time</enUS>
+			<deDE>Abstauben</deDE>
+			<esES>A crear se ha dicho</esES>
+			<esMX>Hora de artesanías</esMX>
+			<frFR>Génération désenchantée</frFR>
+			<itIT>Passione per l'artigianato</itIT>
+			<koKR>즐거운 제작 시간</koKR>
+			<plPL>Cech rzemiosł różnych</plPL>
+			<ptBR>Temos que criar!</ptBR>
+			<ruRU>Время мастерить</ruRU>
+			<zhCN>收集精华</zhCN>
+			<zhTW>準備合成</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Disenchant a card.</enUS>
+			<deDE>Entzaubert eine Karte.</deDE>
+			<esES>Desencanta una carta.</esES>
+			<esMX>Desencanta una carta.</esMX>
+			<frFR>Désenchanter une carte.</frFR>
+			<itIT>Disincanta una carta.</itIT>
+			<koKR>카드에서 마력을 추출</koKR>
+			<plPL>Odczaruj kartę.</plPL>
+			<ptBR>Desencantar um card.</ptBR>
+			<ruRU>Распылите карту.</ruRU>
+			<zhCN>分解一张牌。</zhCN>
+			<zhTW>分解一張卡片。</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">56</Field>
+		<Field column="NOTE_DESC">enter the arena</Field>
+		<Field column="ACH_TYPE">starter</Field>
+		<Field column="ACTIVE">False</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">none</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">forge</Field>
+		<Field column="REWARD_DATA1">1</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Enter The Arena</enUS>
+			<deDE>Ab in die Arena</deDE>
+			<esES>Entra en la Arena</esES>
+			<esMX>Ingreso a la Arena</esMX>
+			<frFR>Entrer dans l'Arène</frFR>
+			<itIT>Benvenuti nell'Arena</itIT>
+			<koKR>투기장을 향하여</koKR>
+			<plPL>Wejdź na Arenę</plPL>
+			<ptBR>Entrar na arena</ptBR>
+			<ruRU>Гладиатор</ruRU>
+			<zhCN>进入竞技场</zhCN>
+			<zhTW>踏入競技場</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Enter The Arena.</enUS>
+			<deDE>Betretet die Arena.</deDE>
+			<esES>Entra en la Arena.</esES>
+			<esMX>Ingresa en la Arena.</esMX>
+			<frFR>Entrez dans l’Arène.</frFR>
+			<itIT>Entra nell'Arena.</itIT>
+			<koKR>투기장 입장</koKR>
+			<plPL>Wejdź na Arenę.</plPL>
+			<ptBR>Entrar na Arena.</ptBR>
+			<ruRU>Зайдите на Арену.</ruRU>
+			<zhCN>进入竞技场进行对战。</zhCN>
+			<zhTW>進入競技場。</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">57</Field>
+		<Field column="NOTE_DESC">open tier 2 dailies</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">daily</Field>
+		<Field column="ACH_QUOTA">10</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">0</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">daily tier2</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">58</Field>
+		<Field column="NOTE_DESC">arrr!</Field>
+		<Field column="ACH_TYPE">hidden</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">none</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">23</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">card</Field>
+		<Field column="REWARD_DATA1">530</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Arrrrrr!!!</enUS>
+			<deDE>Ahoi!!!</deDE>
+			<esES>¡¡¡Arrrrrr!!!</esES>
+			<esMX>¡Alcen las velas!</esMX>
+			<frFR>Arrrrrr !!!</frFR>
+			<itIT>Arrrrrr!!!</itIT>
+			<koKR>요호호!</koKR>
+			<plPL>Harrrr!</plPL>
+			<ptBR>Iaaarrr!!!</ptBR>
+			<ruRU>Пиастры!</ruRU>
+			<zhCN>不死海魔</zhCN>
+			<zhTW>呀啊啊!!!</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Acquire every Pirate.</enUS>
+			<deDE>Nennt jeden Piraten Euer Eigen.</deDE>
+			<esES>Consigue a todos los piratas.</esES>
+			<esMX>Adquiere todos los piratas.</esMX>
+			<frFR>Obtenir toutes les cartes de pirates.</frFR>
+			<itIT>Ottieni tutti i Pirati.</itIT>
+			<koKR>모든 해적 카드 획득</koKR>
+			<plPL>Zdobądź wszystkich piratów.</plPL>
+			<ptBR>Conseguir todos os Piratas.</ptBR>
+			<ruRU>Соберите все карты пиратов.</ruRU>
+			<zhCN>获得所有海盗牌。</zhCN>
+			<zhTW>取得每一張海盜卡。</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">59</Field>
+		<Field column="NOTE_DESC">golden arrr!</Field>
+		<Field column="ACH_TYPE">hidden</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">none</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">23</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">card</Field>
+		<Field column="REWARD_DATA1">530</Field>
+		<Field column="REWARD_DATA2">1</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Golden Arrrrrr!!!</enUS>
+			<deDE>Goldenes Ahoi!!!</deDE>
+			<esES>¡¡¡Arrrrrr dorado!!!</esES>
+			<esMX>¡Por las barbas de Poseidón!</esMX>
+			<frFR>Arrrrrr, de l’or !!!</frFR>
+			<itIT>Arrrrrr dorato!!!</itIT>
+			<koKR>반짝반짝 요호호!</koKR>
+			<plPL>Złote harrrrr!!!!</plPL>
+			<ptBR>Iaaarrr dourado!!!</ptBR>
+			<ruRU>Золотые пиастры!</ruRU>
+			<zhCN>惊涛骇浪</zhCN>
+			<zhTW>金卡呀啊!!!</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Acquire every Golden Pirate.</enUS>
+			<deDE>Nennt jeden goldenen Piraten Euer Eigen.</deDE>
+			<esES>Consigue a todos los piratas dorados.</esES>
+			<esMX>Adquiere todos los piratas dorados.</esMX>
+			<frFR>Obtenir toutes les cartes dorées de pirates.</frFR>
+			<itIT>Ottieni tutti i Pirati Dorati.</itIT>
+			<koKR>모든 황금 해적 카드 획득</koKR>
+			<plPL>Zdobądź wszystkich złotych piratów.</plPL>
+			<ptBR>Conseguir todos os Piratas Dourados.</ptBR>
+			<ruRU>Соберите все золотые карты пиратов.</ruRU>
+			<zhCN>获得所有金色海盗牌。</zhCN>
+			<zhTW>取得每一張海盜金卡。</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">60</Field>
+		<Field column="NOTE_DESC">mrgrgl!</Field>
+		<Field column="ACH_TYPE">hidden</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">race</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">14</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">card</Field>
+		<Field column="REWARD_DATA1">736</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Mrglglglgl!</enUS>
+			<deDE>Mrglglglgl!</deDE>
+			<esES>¡Mrglglglgl!</esES>
+			<esMX>¡Mrglglglgl!</esMX>
+			<frFR>Mrglglglgl !</frFR>
+			<itIT>Mrglglglgl!</itIT>
+			<koKR>아옳옳옳!</koKR>
+			<plPL>Mrglglglgl!</plPL>
+			<ptBR>Mrglglglgl!</ptBR>
+			<ruRU>Мрглглглгл!</ruRU>
+			<zhCN>鱼人成群</zhCN>
+			<zhTW>咕嚕嚕!</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Acquire every Murloc.</enUS>
+			<deDE>Nennt jeden Murloc Euer Eigen.</deDE>
+			<esES>Consigue a todos los múrlocs.</esES>
+			<esMX>Adquiere todos los múrlocs.</esMX>
+			<frFR>Obtenir toutes les cartes de murlocs.</frFR>
+			<itIT>Ottieni tutti i Murloc.</itIT>
+			<koKR>모든 멀록 카드 획득</koKR>
+			<plPL>Zdobądź wszystkie murloki.</plPL>
+			<ptBR>Conseguir todos os Murlocs.</ptBR>
+			<ruRU>Соберите все карты мурлоков.</ruRU>
+			<zhCN>获得所有鱼人牌。</zhCN>
+			<zhTW>取得每一張魚人卡。</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">61</Field>
+		<Field column="NOTE_DESC">golden mrgrgl!</Field>
+		<Field column="ACH_TYPE">hidden</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">goldrace</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">14</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">card</Field>
+		<Field column="REWARD_DATA1">736</Field>
+		<Field column="REWARD_DATA2">1</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Golden Mrglglglgl!</enUS>
+			<deDE>Goldenes Mrglglglgl!</deDE>
+			<esES>¡Mrglglglgl dorado!</esES>
+			<esMX>¡Mrglglglgl mrglglglgl!</esMX>
+			<frFR>De l’or, mrglglglgl !</frFR>
+			<itIT>Mrglglglgl dorato!</itIT>
+			<koKR>반짝반짝 아옳옳옳!</koKR>
+			<plPL>Złote mrglglglgl!</plPL>
+			<ptBR>Mrglglglgl dourado!</ptBR>
+			<ruRU>Золотой мрглглглгл!</ruRU>
+			<zhCN>金色鱼人</zhCN>
+			<zhTW>咕嚕嚕金卡!</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Acquire every Golden Murloc.</enUS>
+			<deDE>Nennt jeden goldenen Murloc Euer Eigen.</deDE>
+			<esES>Consigue a todos los múrlocs dorados.</esES>
+			<esMX>Adquiere todos los múrlocs dorados.</esMX>
+			<frFR>Obtenir toutes les cartes dorées de murlocs.</frFR>
+			<itIT>Ottieni tutti i Murloc Dorati.</itIT>
+			<koKR>모든 황금 멀록 카드 획득</koKR>
+			<plPL>Zdobądź wszystkie złote murloki.</plPL>
+			<ptBR>Conseguir todos os Murlocs Dourados.</ptBR>
+			<ruRU>Соберите все золотые карты мурлоков.</ruRU>
+			<zhCN>获得所有金色鱼人牌。</zhCN>
+			<zhTW>取得每一張魚人金卡。</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">62</Field>
+		<Field column="NOTE_DESC">chicken dinner</Field>
+		<Field column="ACH_TYPE">hidden</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">100</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">gold</Field>
+		<Field column="REWARD_DATA1">300</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Chicken Dinner</enUS>
+			<deDE>Mit Tempo 100</deDE>
+			<esES>Porque yo lo valgo</esES>
+			<esMX>Héroe de la centuria</esMX>
+			<frFR>Heureux gagnant</frFR>
+			<itIT>Successo senza limiti</itIT>
+			<koKR>오늘은 내가 한턱 내지!</koKR>
+			<plPL>Pierwsza seta!</plPL>
+			<ptBR>Honra ao mérito</ptBR>
+			<ruRU>Большая победа</ruRU>
+			<zhCN>炉石勇者</zhCN>
+			<zhTW>慶功宴</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Win 100 games in any mode.</enUS>
+			<deDE>Gewinnt 100 Spiele in einem beliebigen Modus.</deDE>
+			<esES>Gana 100 partidas en cualquier modo.</esES>
+			<esMX>Gana 100 partidas en cualquier modo.</esMX>
+			<frFR>Gagner 100 matchs au total.</frFR>
+			<itIT>Vinci 100 partite in qualsiasi modalità.</itIT>
+			<koKR>아무 모드에서 100승 달성</koKR>
+			<plPL>Wygraj 100 partii w dowolnym trybie.</plPL>
+			<ptBR>Vencer 100 jogos em qualquer modo.</ptBR>
+			<ruRU>Выиграйте 100 матчей в любом режиме.</ruRU>
+			<zhCN>在任何模式中赢得100场比赛。</zhCN>
+			<zhTW>在任何模式下贏得共100場勝利。</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">63</Field>
+		<Field column="NOTE_DESC">big winner</Field>
+		<Field column="ACH_TYPE">hidden</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">1000</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">gold</Field>
+		<Field column="REWARD_DATA1">300</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Big Winner</enUS>
+			<deDE>Strahlender Sieger</deDE>
+			<esES>A por todas</esES>
+			<esMX>Nacido para ganar</esMX>
+			<frFR>Grand gagnant</frFR>
+			<itIT>Inarrestabile</itIT>
+			<koKR>위대한 승자</koKR>
+			<plPL>Wielki zwycięzca</plPL>
+			<ptBR>Grande vencedor</ptBR>
+			<ruRU>Полное превосходство</ruRU>
+			<zhCN>炉石赢家</zhCN>
+			<zhTW>大贏家</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Win 1000 games in any mode.</enUS>
+			<deDE>Gewinnt 1000 Spiele in einem beliebigen Modus.</deDE>
+			<esES>Gana 1000 partidas en cualquier modo.</esES>
+			<esMX>Gana 1000 partidas en cualquier modo.</esMX>
+			<frFR>Gagner 1 000 matchs au total.</frFR>
+			<itIT>Vinci 1.000 partite in qualsiasi modalità.</itIT>
+			<koKR>아무 모드에서 1000승 달성</koKR>
+			<plPL>Wygraj 1000 partii w dowolnym trybie.</plPL>
+			<ptBR>Vencer 1000 jogos em qualquer modo.</ptBR>
+			<ruRU>Выиграйте 1000 матчей в любом режиме.</ruRU>
+			<zhCN>在任何模式中赢得1000场比赛。</zhCN>
+			<zhTW>在任何模式下贏得共1000場勝利。</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">64</Field>
+		<Field column="NOTE_DESC">total dominance</Field>
+		<Field column="ACH_TYPE">daily</Field>
+		<Field column="ACTIVE">False</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">7</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">gold</Field>
+		<Field column="REWARD_DATA1">100</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">2</Field>
+		<Field column="WEIGHT">5</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Total Dominance</enUS>
+			<deDE>Absolute Überlegenheit</deDE>
+			<esES>Dominancia total</esES>
+			<esMX>Dominio absoluto</esMX>
+			<frFR>Domination totale</frFR>
+			<itIT>Dominazione totale</itIT>
+			<koKR>진정한 달인</koKR>
+			<plPL>Pełna dominacja</plPL>
+			<ptBR>Domínio total</ptBR>
+			<ruRU>Отличное начало</ruRU>
+			<zhCN>常胜将军</zhCN>
+			<zhTW>盡在我手</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Win 7 games in any mode.</enUS>
+			<deDE>Gewinnt 7 Spiele in einem beliebigen Modus.</deDE>
+			<esES>Gana 7 partidas en cualquier modo.</esES>
+			<esMX>Gana 7 partidas en cualquier modo.</esMX>
+			<frFR>Gagner 7 matchs au total.</frFR>
+			<itIT>Vinci 7 partite in qualsiasi modalità.</itIT>
+			<koKR>아무 모드에서 7승 달성</koKR>
+			<plPL>Wygraj 7 partii w dowolnym trybie.</plPL>
+			<ptBR>Vencer 7 jogos em qualquer modo.</ptBR>
+			<ruRU>Выиграйте 7 матчей в любом режиме.</ruRU>
+			<zhCN>在任何模式中赢得7场比赛。</zhCN>
+			<zhTW>在任何模式下贏得共7場勝利。</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">65</Field>
+		<Field column="NOTE_DESC">get mage precon</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">tutorial</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">4</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">248</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">get basic minions</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">66</Field>
+		<Field column="NOTE_DESC">1st time in play mode</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">First Blood</Field>
+		<Field column="TRIGGERED">click</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">1</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">67</Field>
+		<Field column="NOTE_DESC">arrr! 1st copy</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">race</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">23</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">card</Field>
+		<Field column="REWARD_DATA1">530</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">arrr!</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">68</Field>
+		<Field column="NOTE_DESC">golden arrr! 1st copy</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">goldrace</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">23</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">card</Field>
+		<Field column="REWARD_DATA1">530</Field>
+		<Field column="REWARD_DATA2">1</Field>
+		<Field column="PARENT_ACH">golden arrr!</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">69</Field>
+		<Field column="NOTE_DESC">3 victories</Field>
+		<Field column="ACH_TYPE">daily</Field>
+		<Field column="ACTIVE">False</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">3</Field>
+		<Field column="GAME_MODE">matchmaker</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">gold</Field>
+		<Field column="REWARD_DATA1">40</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">1</Field>
+		<Field column="WEIGHT">30</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">3</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>3 Victories!</enUS>
+			<deDE>3 Siege!</deDE>
+			<esES>¡3 victorias!</esES>
+			<esMX>¡Triple victoria!</esMX>
+			<frFR>3 victoires !</frFR>
+			<itIT>3 vittorie!</itIT>
+			<koKR>세 번의 승리!</koKR>
+			<plPL>3 zwycięstwa!</plPL>
+			<ptBR>3 Vitórias!</ptBR>
+			<ruRU>Три победы!</ruRU>
+			<zhCN>赢得三胜</zhCN>
+			<zhTW>三場勝利!</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Win 3 games with any class.</enUS>
+			<deDE>Gewinnt 3 Spiele mit einer beliebigen Klasse.</deDE>
+			<esES>Gana 3 partidas con cualquier clase.</esES>
+			<esMX>Gana 3 partidas con cualquier clase.</esMX>
+			<frFR>Gagner 3 matchs avec une classe.</frFR>
+			<itIT>Vinci 3 partite con qualsiasi classe.</itIT>
+			<koKR>아무 직업으로 3승 달성</koKR>
+			<plPL>Wygraj 3 partie dowolną klasą.</plPL>
+			<ptBR>Vencer 3 jogos com qualquer classe.</ptBR>
+			<ruRU>Выиграйте 3 матча любым классом.</ruRU>
+			<zhCN>使用任何职业赢得3场比赛。</zhCN>
+			<zhTW>用任一職業贏得三場賽局。</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">70</Field>
+		<Field column="NOTE_DESC">unlock druid 1st blood</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">basic ai</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">2</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">0</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">reveal First Blood</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">71</Field>
+		<Field column="NOTE_DESC">unlock hunter 1st blood</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">basic ai</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">3</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">0</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">reveal First Blood</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">72</Field>
+		<Field column="NOTE_DESC">unlock mage 1st blood</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">tutorial</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">4</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">248</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">reveal First Blood</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">73</Field>
+		<Field column="NOTE_DESC">unlock paladin 1st blood</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">basic ai</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">5</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">0</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">reveal First Blood</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">74</Field>
+		<Field column="NOTE_DESC">unlock priest 1st blood</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">basic ai</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">6</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">0</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">reveal First Blood</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">75</Field>
+		<Field column="NOTE_DESC">unlock rogue 1st blood</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">basic ai</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">7</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">0</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">reveal First Blood</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">76</Field>
+		<Field column="NOTE_DESC">unlock shaman 1st blood</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">basic ai</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">8</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">0</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">reveal First Blood</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">77</Field>
+		<Field column="NOTE_DESC">unlock warlock 1st blood</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">basic ai</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">9</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">0</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">reveal First Blood</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">78</Field>
+		<Field column="NOTE_DESC">unlock warrior 1st blood</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">basic ai</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">10</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">0</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">reveal First Blood</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">79</Field>
+		<Field column="NOTE_DESC">unlock all heroes</Field>
+		<Field column="ACH_TYPE">hidden</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">none</Field>
+		<Field column="ACH_QUOTA">9</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">gold</Field>
+		<Field column="REWARD_DATA1">100</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">unlock the arena</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Ready to Go!</enUS>
+			<deDE>Auf geht's!</deDE>
+			<esES>¡Hazte con todos!</esES>
+			<esMX>¡Listos para la acción!</esMX>
+			<frFR>Paré au combat !</frFR>
+			<itIT>Pronti alla partenza!</itIT>
+			<koKR>준비 완료!</koKR>
+			<plPL>No to gramy!</plPL>
+			<ptBR>Vamos lá!</ptBR>
+			<ruRU>Готовность номер один!</ruRU>
+			<zhCN>蓄势待发</zhCN>
+			<zhTW>蓄勢待發</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Unlock every Hero.</enUS>
+			<deDE>Schaltet jeden Helden frei.</deDE>
+			<esES>Desbloquea a todos los héroes.</esES>
+			<esMX>Desbloquea a todos los héroes.</esMX>
+			<frFR>Débloquer tous les héros.</frFR>
+			<itIT>Sblocca tutti gli eroi.</itIT>
+			<koKR>모든 영웅 잠금 해제</koKR>
+			<plPL>Odblokuj każdego bohatera.</plPL>
+			<ptBR>Desbloquear todos os Heróis.</ptBR>
+			<ruRU>Откройте всех героев.</ruRU>
+			<zhCN>解锁所有英雄。</zhCN>
+			<zhTW>解鎖每一位英雄。</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">80</Field>
+		<Field column="NOTE_DESC">expert ai druid</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">expert ai</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">2</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">0</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">defeat all expert ai</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">81</Field>
+		<Field column="NOTE_DESC">expert ai hunter</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">expert ai</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">3</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">0</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">defeat all expert ai</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">82</Field>
+		<Field column="NOTE_DESC">expert ai mage</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">expert ai</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">4</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">0</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">defeat all expert ai</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">83</Field>
+		<Field column="NOTE_DESC">expert ai paladin</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">expert ai</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">5</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">0</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">defeat all expert ai</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">84</Field>
+		<Field column="NOTE_DESC">expert ai priest</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">expert ai</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">6</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">0</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">defeat all expert ai</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">85</Field>
+		<Field column="NOTE_DESC">expert ai rogue</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">expert ai</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">7</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">0</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">defeat all expert ai</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">86</Field>
+		<Field column="NOTE_DESC">expert ai shaman</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">expert ai</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">8</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">0</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">defeat all expert ai</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">87</Field>
+		<Field column="NOTE_DESC">expert ai warlock</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">expert ai</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">9</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">0</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">defeat all expert ai</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">88</Field>
+		<Field column="NOTE_DESC">expert ai warrior</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">expert ai</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">10</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">0</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">defeat all expert ai</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">89</Field>
+		<Field column="NOTE_DESC">defeat all expert ai</Field>
+		<Field column="ACH_TYPE">hidden</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">none</Field>
+		<Field column="ACH_QUOTA">9</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">gold</Field>
+		<Field column="REWARD_DATA1">100</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Crushed Them All!</enUS>
+			<deDE>Der wahre Profi</deDE>
+			<esES>Arrasando</esES>
+			<esMX>¡Masacre heroica!</esMX>
+			<frFR>La classe dominante</frFR>
+			<itIT>Sconfiggili tutti!</itIT>
+			<koKR>전부 짓밟아라!</koKR>
+			<plPL>Wszyscy zmiażdżeni!</plPL>
+			<ptBR>Acabei com todos!</ptBR>
+			<ruRU>Сокруши их всех!</ruRU>
+			<zhCN>碾碎敌人</zhCN>
+			<zhTW>殺光他們!</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Defeat every Expert AI Hero.</enUS>
+			<deDE>Besiegt jeden KI-Helden auf der Profistufe.</deDE>
+			<esES>Derrota a todos los héroes expertos de la IA.</esES>
+			<esMX>Derrota a todos los héroes de IA experta.</esMX>
+			<frFR>Vaincre tous les héros Expert.</frFR>
+			<itIT>Sconfiggi ogni eroe IA alla difficoltà Esperto.</itIT>
+			<koKR>모든 전문가 인공지능 영웅을 상대로 승리</koKR>
+			<plPL>Pokonaj każdego eksperckiego bohatera SI.</plPL>
+			<ptBR>Derrotar todos os Heróis IA Peritos.</ptBR>
+			<ruRU>Победите всех ИИ-противников на уровне сложности «Эксперт».</ruRU>
+			<zhCN>击败所有专家级电脑英雄。</zhCN>
+			<zhTW>擊敗每一位專家級的AI英雄。</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">90</Field>
+		<Field column="NOTE_DESC">complete basic set</Field>
+		<Field column="ACH_TYPE">hidden</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">cardset</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">gold</Field>
+		<Field column="REWARD_DATA1">100</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">2</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Got the Basics!</enUS>
+			<deDE>Basis gesichert!</deDE>
+			<esES>Lo básico</esES>
+			<esMX>¡Principios básicos!</esMX>
+			<frFR>Connaître les bases</frFR>
+			<itIT>Ottenere le basi!</itIT>
+			<koKR>기본에 충실하게!</koKR>
+			<plPL>Podstawy opanowane!</plPL>
+			<ptBR>Já tenho o básico!</ptBR>
+			<ruRU>Познать основы</ruRU>
+			<zhCN>打好基础</zhCN>
+			<zhTW>打好基礎!</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Collect every card in the Basic Set.</enUS>
+			<deDE>Sammelt alle Karten des Basissets.</deDE>
+			<esES>Reúne todas las cartas del conjunto básico.</esES>
+			<esMX>Consigue todas las cartas del kit básico.</esMX>
+			<frFR>Obtenir toutes les cartes du jeu de base.</frFR>
+			<itIT>Colleziona tutte le carte del Set Base.</itIT>
+			<koKR>모든 기본 카드 획득</koKR>
+			<plPL>Zbierz wszystkie karty z zestawu podstawowego.</plPL>
+			<ptBR>Conseguir todos os cards do Conjunto Básico.</ptBR>
+			<ruRU>Соберите все карты базового набора.</ruRU>
+			<zhCN>收集所有基本级卡牌。</zhCN>
+			<zhTW>收集到基本系列的每一張牌。</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">91</Field>
+		<Field column="NOTE_DESC">complete expert set</Field>
+		<Field column="ACH_TYPE">hidden</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">cardset</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">gold</Field>
+		<Field column="REWARD_DATA1">100</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">3</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>One of Everything!</enUS>
+			<deDE>Alles meins!</deDE>
+			<esES>Una de cada</esES>
+			<esMX>¡Un poco de todo!</esMX>
+			<frFR>Une de chaque</frFR>
+			<itIT>Ce le ho tutte!</itIT>
+			<koKR>모두 다 내 손안에!</koKR>
+			<plPL>Wszystko na miejscu!</plPL>
+			<ptBR>Um de cada!</ptBR>
+			<ruRU>Каждой по одной!</ruRU>
+			<zhCN>别无所求</zhCN>
+			<zhTW>應有盡有!</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Collect every card in the Expert Set.</enUS>
+			<deDE>Sammelt alle Karten des Profisets.</deDE>
+			<esES>Reúne todas las cartas del conjunto experto.</esES>
+			<esMX>Consigue todas las cartas del kit experto.</esMX>
+			<frFR>Obtenir toutes les cartes du jeu Expert.</frFR>
+			<itIT>Colleziona tutte le carte del Set Avanzato.</itIT>
+			<koKR>모든 고급 카드 획득</koKR>
+			<plPL>Zbierz wszystkie karty z zestawu eksperckiego.</plPL>
+			<ptBR>Conseguir todos os cards do Conjunto de Perito.</ptBR>
+			<ruRU>Соберите все карты набора эксперта.</ruRU>
+			<zhCN>收集所有专家级卡牌。</zhCN>
+			<zhTW>收集到專家系列的每一張牌。</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">92</Field>
+		<Field column="NOTE_DESC">unlock the arena</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">none</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">0</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">forge games</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">93</Field>
+		<Field column="NOTE_DESC">reveal enter the arena</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">enter the arena</Field>
+		<Field column="TRIGGERED">daily</Field>
+		<Field column="ACH_QUOTA">10</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">0</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">unlock the arena</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">94</Field>
+		<Field column="NOTE_DESC">1st time in arena</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">click</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">2</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">enter the arena</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">95</Field>
+		<Field column="NOTE_DESC">make a purchase</Field>
+		<Field column="ACH_TYPE">hidden</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">purchase</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">card</Field>
+		<Field column="REWARD_DATA1">858</Field>
+		<Field column="REWARD_DATA2">1</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Beta Hero!</enUS>
+			<deDE>Beta-Rocker!</deDE>
+			<esES>¡Héroe de la beta!</esES>
+			<esMX>¡Betahéroe!</esMX>
+			<frFR>Héros de la Bêta !</frFR>
+			<itIT>Eroe della beta!</itIT>
+			<koKR>베타 테스트의 영웅!</koKR>
+			<plPL>Bohater Bety!</plPL>
+			<ptBR>Herói Beta!</ptBR>
+			<ruRU>Герой бета-тестирования!</ruRU>
+			<zhCN>测试英雄</zhCN>
+			<zhTW>測試的英雄!</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Thank you for helping to test our Store!</enUS>
+			<deDE>Vielen Dank für die Hilfe beim Testen unseres Shops!</deDE>
+			<esES>¡Gracias por ayudarnos a probar la tienda!</esES>
+			<esMX>¡Gracias por ayudarnos a probar nuestra tienda!</esMX>
+			<frFR>Merci de votre aide pour tester la boutique !</frFR>
+			<itIT>Grazie per averci aiutato a testare il nostro negozio!</itIT>
+			<koKR>상점을 테스트하는 데 도움을 주셔서 감사합니다!</koKR>
+			<plPL>Dziękujemy za pomoc w testach naszego sklepu!</plPL>
+			<ptBR>Obrigado por nos ajudar a testar a Loja!</ptBR>
+			<ruRU>Спасибо за помощь в тестировании магазина!</ruRU>
+			<zhCN>感谢您帮助我们测试牌店功能！</zhCN>
+			<zhTW>感謝你協助測試我們的商店!</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">96</Field>
+		<Field column="NOTE_DESC">attend BlizzCon 2013</Field>
+		<Field column="ACH_TYPE">hidden</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">licensedetected</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">card</Field>
+		<Field column="REWARD_DATA1">1754</Field>
+		<Field column="REWARD_DATA2">1</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Ready to Rock!</enUS>
+			<deDE>BlizzCon-Rocker!</deDE>
+			<esES>¡Nos gusta el rock!</esES>
+			<esMX>¡Listo para rockear!</esMX>
+			<frFR>Légende du rock !</frFR>
+			<itIT>Pronti all'azione</itIT>
+			<koKR>로큰롤!</koKR>
+			<plPL>Czas na metal!</plPL>
+			<ptBR>Pronto para arrasar!</ptBR>
+			<ruRU>Рок на века!</ruRU>
+			<zhCN>开始摇滚</zhCN>
+			<zhTW>準備搖滾!</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Thank you for attending BlizzCon 2013!</enUS>
+			<deDE>Danke, dass Ihr bei der BlizzCon 2013 dabei wart!</deDE>
+			<esES>¡Gracias por asistir a la BlizzCon 2013!</esES>
+			<esMX>¡Gracias por ser parte de la BlizzCon 2013!</esMX>
+			<frFR>Merci d’avoir participé à la BlizzCon 2013 !</frFR>
+			<itIT>Grazie per aver partecipato alla BlizzCon 2013!</itIT>
+			<koKR>블리즈컨 2013에 참여해주셔서 감사합니다!</koKR>
+			<plPL>Dziękujemy za udział w BlizzConie 2013!</plPL>
+			<ptBR>Obrigado por participar da BlizzCon 2013!</ptBR>
+			<ruRU>Спасибо за то, что вы посетили BlizzCon 2013!</ruRU>
+			<zhCN>感谢您参加2013年的暴雪嘉年华！</zhCN>
+			<zhTW>感謝你參加BlizzCon 2013!</zhTW>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">97</Field>
+		<Field column="NOTE_DESC">get basic minions</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">none</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">cardset</Field>
+		<Field column="REWARD_DATA1">12</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">unlock mage</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">98</Field>
+		<Field column="NOTE_DESC">golden hero Malfurion Stormrage</Field>
+		<Field column="ACH_TYPE">goldhero</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">500</Field>
+		<Field column="GAME_MODE">ranked</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">goldhero</Field>
+		<Field column="REWARD_DATA1">274</Field>
+		<Field column="REWARD_DATA2">1</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">274</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Golden Malfurion Stormrage</enUS>
+			<zhTW>黃金瑪法里恩·怒風</zhTW>
+			<zhCN>金色玛法里奥·怒风</zhCN>
+			<ruRU>Золотой герой: Малфурион Ярость Бури</ruRU>
+			<ptBR>Dourado - Malfurion Tempesfúria</ptBR>
+			<plPL>Złoty Malfurion</plPL>
+			<koKR>황금 말퓨리온 스톰레이지</koKR>
+			<itIT>Malfurion Grantempesta Dorato</itIT>
+			<frFR>Portrait doré - Malfurion Hurlorage</frFR>
+			<esMX>Malfurion Tempestira dorado</esMX>
+			<esES>Malfurion Tempestira dorado</esES>
+			<deDE>Goldener Malfurion Sturmgrimm</deDE>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Win 500 Ranked games with Malfurion Stormrage.</enUS>
+			<zhTW>在排名模式用瑪法里恩·怒風贏得500場勝利。</zhTW>
+			<zhCN>使用玛法里奥·怒风在排名模式中赢得500场比赛。</zhCN>
+			<ruRU>Выиграйте 500 рейтинговых матчей Малфурионом Яростью Бури.</ruRU>
+			<ptBR>Vencer 500 partidas ranqueadas com Malfurion Tempesfúria.</ptBR>
+			<plPL>Wygraj 500 partii rankingowych grając Malfurionem.</plPL>
+			<koKR>등급전에서 말퓨리온 스톰레이지로 500승</koKR>
+			<itIT>Vinci 500 partite classificate con Malfurion Grantempesta.</itIT>
+			<frFR>Gagner 500 matchs en mode Partie classée avec Malfurion Hurlorage.</frFR>
+			<esMX>Gana 500 partidas clasificadas con Malfurion Tempestira.</esMX>
+			<esES>Gana 500 partidas con rango con Malfurion Tempestira.</esES>
+			<deDE>Gewinnt mit Malfurion Sturmgrimm 500 gewertete Spiele.</deDE>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">99</Field>
+		<Field column="NOTE_DESC">golden hero Rexxar</Field>
+		<Field column="ACH_TYPE">goldhero</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">500</Field>
+		<Field column="GAME_MODE">ranked</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">goldhero</Field>
+		<Field column="REWARD_DATA1">31</Field>
+		<Field column="REWARD_DATA2">1</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">31</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Golden Rexxar</enUS>
+			<zhTW>黃金雷克薩</zhTW>
+			<zhCN>金色雷克萨</zhCN>
+			<ruRU>Золотой герой: Рексар</ruRU>
+			<ptBR>Dourado - Rexxar</ptBR>
+			<plPL>Złoty Rexxar</plPL>
+			<koKR>황금 렉사르</koKR>
+			<itIT>Rexxar Dorato</itIT>
+			<frFR>Portrait doré - Rexxar</frFR>
+			<esMX>Rexxar dorado</esMX>
+			<esES>Rexxar dorado</esES>
+			<deDE>Goldener Rexxar</deDE>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Win 500 Ranked games with Rexxar.</enUS>
+			<zhTW>在排名模式用雷克薩贏得500場勝利。</zhTW>
+			<zhCN>使用雷克萨在排名模式中赢得500场比赛。</zhCN>
+			<ruRU>Выиграйте 500 рейтинговых матчей Рексаром.</ruRU>
+			<ptBR>Vencer 500 partidas ranqueadas com Rexxar.</ptBR>
+			<plPL>Wygraj 500 partii rankingowych grając Rexxarem.</plPL>
+			<koKR>등급전에서 렉사르로 500승</koKR>
+			<itIT>Vinci 500 partite classificate con Rexxar.</itIT>
+			<frFR>Gagner 500 matchs en mode Partie classée avec Rexxar.</frFR>
+			<esMX>Gana 500 partidas clasificadas con Rexxar.</esMX>
+			<esES>Gana 500 partidas con rango con Rexxar.</esES>
+			<deDE>Gewinnt mit Rexxar 500 gewertete Spiele.</deDE>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">100</Field>
+		<Field column="NOTE_DESC">golden hero Jaina Proudmoore</Field>
+		<Field column="ACH_TYPE">goldhero</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">500</Field>
+		<Field column="GAME_MODE">ranked</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">goldhero</Field>
+		<Field column="REWARD_DATA1">637</Field>
+		<Field column="REWARD_DATA2">1</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">637</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Golden Jaina Proudmoore</enUS>
+			<zhTW>黃金珍娜·普勞德摩爾</zhTW>
+			<zhCN>金色吉安娜·普罗德摩尔</zhCN>
+			<ruRU>Золотой герой: Джайна Праудмур</ruRU>
+			<ptBR>Dourado - Jaina Proudmore</ptBR>
+			<plPL>Złota Jaina</plPL>
+			<koKR>황금 제이나 프라우드무어</koKR>
+			<itIT>Jaina Marefiero Dorata</itIT>
+			<frFR>Portrait doré - Jaina Portvaillant</frFR>
+			<esMX>Jaina Valiente dorada</esMX>
+			<esES>Jaina Valiente dorada</esES>
+			<deDE>Goldene Jaina Prachtmeer</deDE>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Win 500 Ranked games with Jaina Proudmoore.</enUS>
+			<zhTW>在排名模式用珍娜·普勞德摩爾贏得500場勝利。</zhTW>
+			<zhCN>使用吉安娜·普罗德摩尔在排名模式中赢得500场比赛。</zhCN>
+			<ruRU>Выиграйте 500 рейтинговых матчей Джайной Праудмур.</ruRU>
+			<ptBR>Vencer 500 partidas ranqueadas com Jaina Proudmore.</ptBR>
+			<plPL>Wygraj 500 partii rankingowych grając Jainą.</plPL>
+			<koKR>등급전에서 제이나 프라우드무어로 500승</koKR>
+			<itIT>Vinci 500 partite classificate con Jaina Marefiero.</itIT>
+			<frFR>Gagner 500 matchs en mode Partie classée avec Jaina Portvaillant.</frFR>
+			<esMX>Gana 500 partidas clasificadas con Jaina Valiente.</esMX>
+			<esES>Gana 500 partidas con rango con Jaina Valiente.</esES>
+			<deDE>Gewinnt mit Jaina Prachtmeer 500 gewertete Spiele.</deDE>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">101</Field>
+		<Field column="NOTE_DESC">golden hero Uther Lightbringer</Field>
+		<Field column="ACH_TYPE">goldhero</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">500</Field>
+		<Field column="GAME_MODE">ranked</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">goldhero</Field>
+		<Field column="REWARD_DATA1">671</Field>
+		<Field column="REWARD_DATA2">1</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">671</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Golden Uther Lightbringer</enUS>
+			<zhTW>黃金『光明使者』烏瑟</zhTW>
+			<zhCN>金色乌瑟尔·光明使者</zhCN>
+			<ruRU>Золотой герой: Утер Светоносный</ruRU>
+			<ptBR>Dourado - Uther, o Arauto da Luz</ptBR>
+			<plPL>Złoty Uther</plPL>
+			<koKR>황금 빛의 수호자 우서</koKR>
+			<itIT>Uther l'Araldo della Luce Dorato</itIT>
+			<frFR>Portrait doré - Uther le Porteur de Lumière</frFR>
+			<esMX>Uther el Iluminado dorado</esMX>
+			<esES>Uther el Iluminado dorado</esES>
+			<deDE>Goldener Uther Lichtbringer</deDE>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Win 500 Ranked games with Uther Lightbringer.</enUS>
+			<zhTW>在排名模式用『光明使者』烏瑟贏得500場勝利。</zhTW>
+			<zhCN>使用乌瑟尔·光明使者在排名模式中赢得500场比赛。</zhCN>
+			<ruRU>Выиграйте 500 рейтинговых матчей  Утером Светоносным.</ruRU>
+			<ptBR>Vencer 500 partidas ranqueadas com Uther, o Arauto da Luz.</ptBR>
+			<plPL>Wygraj 500 partii rankingowych grając Utherem.</plPL>
+			<koKR>등급전에서 빛의 수호자 우서로 500승</koKR>
+			<itIT>Vinci 500 partite classificate con Uther l'Araldo della Luce.</itIT>
+			<frFR>Gagner 500 matchs en mode Partie classée avec Uther le Porteur de Lumière.</frFR>
+			<esMX>Gana 500 partidas clasificadas con Uther el Iluminado.</esMX>
+			<esES>Gana 500 partidas con rango con Uther el Iluminado.</esES>
+			<deDE>Gewinnt mit Uther Lichtbringer 500 gewertete Spiele.</deDE>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">102</Field>
+		<Field column="NOTE_DESC">golden hero Anduin Wrynn</Field>
+		<Field column="ACH_TYPE">goldhero</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">500</Field>
+		<Field column="GAME_MODE">ranked</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">goldhero</Field>
+		<Field column="REWARD_DATA1">813</Field>
+		<Field column="REWARD_DATA2">1</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">813</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Golden Anduin Wrynn</enUS>
+			<zhTW>黃金安杜因·烏瑞恩</zhTW>
+			<zhCN>金色安杜因·乌瑞恩</zhCN>
+			<ruRU>Золотой герой: Андуин Ринн</ruRU>
+			<ptBR>Dourado - Anduin Wrynn</ptBR>
+			<plPL>Złoty Anduin</plPL>
+			<koKR>황금 안두인 린</koKR>
+			<itIT>Anduin Wrynn Dorato</itIT>
+			<frFR>Portrait doré - Anduin Wrynn</frFR>
+			<esMX>Anduin Wrynn dorado</esMX>
+			<esES>Anduin Wrynn dorado</esES>
+			<deDE>Goldener Anduin Wrynn</deDE>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Win 500 Ranked games with Anduin Wrynn.</enUS>
+			<zhTW>在排名模式用安杜因·烏瑞恩贏得500場勝利。</zhTW>
+			<zhCN>使用安杜因·乌瑞恩在排名模式中赢得500场比赛。</zhCN>
+			<ruRU>Выиграйте 500 рейтинговых матчей  Андуином Ринном.</ruRU>
+			<ptBR>Vencer 500 partidas ranqueadas com Anduin Wrynn.</ptBR>
+			<plPL>Wygraj 500 partii rankingowych grając Andiunem.</plPL>
+			<koKR>등급전에서 안두인 린으로 500승</koKR>
+			<itIT>Vinci 500 partite classificate con Anduin Wrynn.</itIT>
+			<frFR>Gagner 500 matchs en mode Partie classée avec Anduin Wrynn.</frFR>
+			<esMX>Gana 500 partidas clasificadas con Anduin Wrynn.</esMX>
+			<esES>Gana 500 partidas con rango con Anduin Wrynn.</esES>
+			<deDE>Gewinnt mit Anduin Wrynn 500 gewertete Spiele.</deDE>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">103</Field>
+		<Field column="NOTE_DESC">golden hero Valeera Sanguinar</Field>
+		<Field column="ACH_TYPE">goldhero</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">500</Field>
+		<Field column="GAME_MODE">ranked</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">goldhero</Field>
+		<Field column="REWARD_DATA1">930</Field>
+		<Field column="REWARD_DATA2">1</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">930</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Golden Valeera Sanguinar</enUS>
+			<zhTW>黃金瓦麗拉·桑古納爾</zhTW>
+			<zhCN>金色瓦莉拉·萨古纳尔</zhCN>
+			<ruRU>Золотой герой: Валира Сангвинар</ruRU>
+			<ptBR>Dourado - Valira Sanguinar</ptBR>
+			<plPL>Złota Valeera</plPL>
+			<koKR>황금 발리라 생귀나르</koKR>
+			<itIT>Valeera Sanguinar Dorata</itIT>
+			<frFR>Portrait doré - Valeera Sanguinar</frFR>
+			<esMX>Valeera Sanguinar dorada</esMX>
+			<esES>Valeera Sanguinar dorada</esES>
+			<deDE>Goldene Valeera Sanguinar</deDE>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Win 500 Ranked games with Valeera Sanguinar.</enUS>
+			<zhTW>在排名模式用瓦麗拉·桑古納爾贏得500場勝利。</zhTW>
+			<zhCN>使用瓦莉拉·萨古纳尔在排名模式中赢得500场比赛。</zhCN>
+			<ruRU>Выиграйте 500 рейтинговых матчей  Валирой Сангвинар.</ruRU>
+			<ptBR>Vencer 500 partidas ranqueadas com Valira Sanguinar.</ptBR>
+			<plPL>Wygraj 500 partii rankingowych grając Valeerą.</plPL>
+			<koKR>등급전에서 발리라 생귀나르로 500승</koKR>
+			<itIT>Vinci 500 partite classificate con Valeera Sanguinar.</itIT>
+			<frFR>Gagner 500 matchs en mode Partie classée avec Valeera Sanguinar.</frFR>
+			<esMX>Gana 500 partidas clasificadas con Valeera Sanguinar.</esMX>
+			<esES>Gana 500 partidas con rango con Valeera Sanguinar.</esES>
+			<deDE>Gewinnt mit Valeera Sanguinar 500 gewertete Spiele.</deDE>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">104</Field>
+		<Field column="NOTE_DESC">golden hero Thrall</Field>
+		<Field column="ACH_TYPE">goldhero</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">500</Field>
+		<Field column="GAME_MODE">ranked</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">goldhero</Field>
+		<Field column="REWARD_DATA1">1066</Field>
+		<Field column="REWARD_DATA2">1</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">1066</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Golden Thrall</enUS>
+			<zhTW>黃金索爾</zhTW>
+			<zhCN>金色萨尔</zhCN>
+			<ruRU>Золотой герой: Тралл</ruRU>
+			<ptBR>Dourado - Thrall</ptBR>
+			<plPL>Złoty Thrall</plPL>
+			<koKR>황금 스랄</koKR>
+			<itIT>Thrall Dorato</itIT>
+			<frFR>Portrait doré - Thrall</frFR>
+			<esMX>Thrall dorado</esMX>
+			<esES>Thrall dorado</esES>
+			<deDE>Goldener Thrall</deDE>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Win 500 Ranked games with Thrall.</enUS>
+			<zhTW>在排名模式用索爾贏得500場勝利。</zhTW>
+			<zhCN>使用萨尔在排名模式中赢得500场比赛。</zhCN>
+			<ruRU>Выиграйте 500 рейтинговых матчей Траллом.</ruRU>
+			<ptBR>Vencer 500 partidas ranqueadas com Thrall.</ptBR>
+			<plPL>Wygraj 500 partii rankingowych grając Thrallem.</plPL>
+			<koKR>등급전에서 스랄로 500승</koKR>
+			<itIT>Vinci 500 partite classificate con Thrall.</itIT>
+			<frFR>Gagner 500 matchs en mode Partie classée avec Thrall.</frFR>
+			<esMX>Gana 500 partidas clasificadas con Thrall.</esMX>
+			<esES>Gana 500 partidas con rango con Thrall.</esES>
+			<deDE>Gewinnt mit Thrall 500 gewertete Spiele.</deDE>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">105</Field>
+		<Field column="NOTE_DESC">golden hero Gul''dan</Field>
+		<Field column="ACH_TYPE">goldhero</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">500</Field>
+		<Field column="GAME_MODE">ranked</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">goldhero</Field>
+		<Field column="REWARD_DATA1">893</Field>
+		<Field column="REWARD_DATA2">1</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">893</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Golden Gul'dan</enUS>
+			<zhTW>黃金古爾丹</zhTW>
+			<zhCN>金色古尔丹</zhCN>
+			<ruRU>Золотой герой: Гул'дан</ruRU>
+			<ptBR>Dourado - Gul'dan</ptBR>
+			<plPL>Zloty Gul'dan</plPL>
+			<koKR>황금 굴단</koKR>
+			<itIT>Gul'dan Dorato</itIT>
+			<frFR>Portrait doré - Gul’dan</frFR>
+			<esMX>Gul'dan dorado</esMX>
+			<esES>Gul'dan dorado</esES>
+			<deDE>Goldener Gul'dan</deDE>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Win 500 Ranked games with Gul'dan.</enUS>
+			<zhTW>在排名模式用古爾丹贏得500場勝利。</zhTW>
+			<zhCN>使用古尔丹在排名模式中赢得500场比赛。</zhCN>
+			<ruRU>Выиграйте 500 рейтинговых матчей  Гул'даном.</ruRU>
+			<ptBR>Vencer 500 partidas ranqueadas com Gul'dan.</ptBR>
+			<plPL>Wygraj 500 partii rankingowych grając Gul'danem.</plPL>
+			<koKR>등급전에서 굴단으로 500승</koKR>
+			<itIT>Vinci 500 partite classificate con Gul'dan.</itIT>
+			<frFR>Gagner 500 matchs en mode Partie classée avec Gul’dan.</frFR>
+			<esMX>Gana 500 partidas clasificadas con Gul'dan.</esMX>
+			<esES>Gana 500 partidas con rango con Gul'dan.</esES>
+			<deDE>Gewinnt mit Gul'dan 500 gewertete Spiele.</deDE>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">106</Field>
+		<Field column="NOTE_DESC">golden hero Garrosh Hellscream</Field>
+		<Field column="ACH_TYPE">goldhero</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">500</Field>
+		<Field column="GAME_MODE">ranked</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">goldhero</Field>
+		<Field column="REWARD_DATA1">7</Field>
+		<Field column="REWARD_DATA2">1</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">7</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Golden Garrosh Hellscream</enUS>
+			<zhTW>黃金卡爾洛斯·地獄吼</zhTW>
+			<zhCN>金色加尔鲁什·地狱咆哮</zhCN>
+			<ruRU>Золотой герой: Гаррош Адский Крик</ruRU>
+			<ptBR>Dourado - Garrosh Grito Infernal</ptBR>
+			<plPL>Złoty Garrosz</plPL>
+			<koKR>황금 가로쉬 헬스크림</koKR>
+			<itIT>Garrosh Malogrido Dorato</itIT>
+			<frFR>Portrait doré - Garrosh Hurlenfer</frFR>
+			<esMX>Garrosh Grito Infernal dorado</esMX>
+			<esES>Garrosh Grito Infernal dorado</esES>
+			<deDE>Goldener Garrosh Höllschrei</deDE>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Win 500 Ranked games with Garrosh Hellscream.</enUS>
+			<zhTW>在排名模式用卡爾洛斯·地獄吼贏得500場勝利。</zhTW>
+			<zhCN>使用加尔鲁什·地狱咆哮在排名模式中赢得500场比赛。</zhCN>
+			<ruRU>Выиграйте 500 рейтинговых матчей  Гаррошем Адским Криком.</ruRU>
+			<ptBR>Vencer 500 partidas ranqueadas com Garrosh Grito Infernal.</ptBR>
+			<plPL>Wygraj 500 partii rankingowych grając Garroszem.</plPL>
+			<koKR>등급전에서 가로쉬 헬스크림으로 500승</koKR>
+			<itIT>Vinci 500 partite classificate con Garrosh Malogrido.</itIT>
+			<frFR>Gagner 500 matchs en mode Partie classée avec Garrosh Hurlenfer.</frFR>
+			<esMX>Gana 500 partidas clasificadas con Garrosh Grito Infernal.</esMX>
+			<esES>Gana 500 partidas con rango con Garrosh Grito Infernal.</esES>
+			<deDE>Gewinnt mit Garrosh Höllschrei 500 gewertete Spiele.</deDE>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">107</Field>
+		<Field column="NOTE_DESC">skip tutorial get mage precon</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">skiptutorial</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">0</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">get mage precon</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">108</Field>
+		<Field column="NOTE_DESC">skip tutorial unlock mage 1st blood</Field>
+		<Field column="ACH_TYPE">internal_active</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">skiptutorial</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">0</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">unlock mage 1st blood</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">109</Field>
+		<Field column="NOTE_DESC">d3 reaper of souls digital collectors edition</Field>
+		<Field column="ACH_TYPE">hidden</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">licensedetected</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">pack</Field>
+		<Field column="REWARD_DATA1">2</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Greater Reaper of Packs</enUS>
+			<zhTW>強效奪魂之包</zhTW>
+			<zhCN>终极死神传说</zhCN>
+			<ruRU>Великий жнец карточных душ</ruRU>
+			<ptBR>Ceifador dos Pacotes maior</ptBR>
+			<plPL>Śmierć rozdaje karty</plPL>
+			<koKR>카드 팩을 마구 거두는 자</koKR>
+			<itIT>Gran mietitore di buste</itIT>
+			<frFR>Grand faucheur de paquets</frFR>
+			<esMX>Gran segador de paquetes</esMX>
+			<esES>Segador de cartas</esES>
+			<deDE>Kartenernter</deDE>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Your Diablo III Reaper of Souls Collector's Edition comes with 2 packs.</enUS>
+			<zhTW>你的《暗黑破壞神III：奪魂之鐮》典藏版附送了2包卡牌包。</zhTW>
+			<zhCN>你的《暗黑破坏神III：死神之镰典藏版》赠送2个扩展包。</zhCN>
+			<ruRU>К вашему коллекционному изданию Diablo III: Reaper of Souls прилагаются 2 комплекта карт.</ruRU>
+			<ptBR>Seu Diablo III: Reaper of Souls Collector's Edition vem com dois pacotes.</ptBR>
+			<plPL>Wraz z edycją kolekcjonerską Diablo III Reaper of Souls otrzymujesz 2 pakiety kart.</plPL>
+			<koKR>디아블로 III: 영혼을 거두는 자 소장판에 포함된 카드 팩 2개입니다!</koKR>
+			<itIT>Con la Collector's Edition di Diablo III Reaper of Souls hai ottenuto 2 buste.</itIT>
+			<frFR>Votre édition Collector de Diablo III: Reaper of Souls vous permet d’obtenir deux paquets.</frFR>
+			<esMX>Tu Edición de colección de Diablo III Reaper of Souls viene con dos paquetes.</esMX>
+			<esES>Tu edición de coleccionista de Diablo III: Reaper of Souls incluye 2 sobres.</esES>
+			<deDE>Mit der Collector's Edition von Diablo III: Reaper of Souls erhaltet Ihr zwei Kartenpackungen.</deDE>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">110</Field>
+		<Field column="NOTE_DESC">hearthsteed</Field>
+		<Field column="ACH_TYPE">hidden</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">hearthsteed license</Field>
+		<Field column="TRIGGERED">win</Field>
+		<Field column="ACH_QUOTA">3</Field>
+		<Field column="GAME_MODE">matchmaker</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">mount</Field>
+		<Field column="REWARD_DATA1">1</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME">
+			<enUS>Mount Up!</enUS>
+			<zhTW>上馬!</zhTW>
+			<zhCN>天马驾驾驾！</zhCN>
+			<ruRU>По седлам!</ruRU>
+			<ptBR>Montar!</ptBR>
+			<plPL>Na wierzchowca!</plPL>
+			<koKR>이랴!</koKR>
+			<itIT>In sella!</itIT>
+			<frFR>En selle !</frFR>
+			<esMX>¡Al galope!</esMX>
+			<esES>Al galope</esES>
+			<deDE>Aufsitzen!</deDE>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>A special reward for your third win!\nLog in to World of Warcraft to claim it!</enUS>
+			<zhTW>慶祝你的第三勝!\n登入你的《魔獸世界》收取獎勵吧!</zhTW>
+			<zhCN>获得三场胜利的特别奖励！\n登陆《魔兽世界》领取奖励！</zhCN>
+			<ruRU>Особая награда за третью победу!\nЧтобы ее получить, войдите в World of Warcraft.</ruRU>
+			<ptBR>Uma recompensa especial pela sua terceira vitória!\nConecte-se ao World of Warcraft para recebê-la!</ptBR>
+			<plPL>Specjalna nagroda za twoje trzecie zwycięstwo!\nZaloguj się do World of Warcraft, aby ją odebrać!</plPL>
+			<koKR>3승을 달성하여 특별한 보상을 얻었습니다!\n월드 오브 워크래프트에 접속하여 보상을 받으세요!</koKR>
+			<itIT>Un regalo speciale per la terza vittoria!\nConnettiti a World of Warcraft per reclamarlo!</itIT>
+			<frFR>Une récompense spéciale pour votre troisième victoire !\nConnectez-vous à World of Warcraft pour la récupérer !</frFR>
+			<esMX>¡Una recompensa especial por tu tercera victoria!\nInicia sesión en World of Warcraft para reclamarla.</esMX>
+			<esES>¡Una recompensa especial por tu tercera victoria!\nInicia sesión en World of Warcraft para obtenerla.</esES>
+			<deDE>Für Euren dritten Sieg habt Ihr eine besondere Belohnung verdient! Loggt Euch in World of Warcraft ein, um sie zu erhalten.</deDE>
+		</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">111</Field>
+		<Field column="NOTE_DESC">hearthsteed license</Field>
+		<Field column="ACH_TYPE">internal_inactive</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">licenseadded</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">none</Field>
+		<Field column="REWARD_DATA1">229</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">112</Field>
+		<Field column="NOTE_DESC">legend cardback</Field>
+		<Field column="ACH_TYPE">hidden</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">starlevel</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">cardback</Field>
+		<Field column="REWARD_DATA1">5</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">26</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NAME">
+			<enUS>You are Legend</enUS>
+			<zhTW>你是傳奇</zhTW>
+			<zhCN>你就是传说</zhCN>
+			<ruRU>Вы — легенда</ruRU>
+			<ptBR>Você é a Lenda</ptBR>
+			<plPL>Jesteś legendą</plPL>
+			<koKR>너는 전설이다</koKR>
+			<itIT>Io sono Leggenda</itIT>
+			<frFR>Vous êtes une Légende</frFR>
+			<esMX>Eres leyenda</esMX>
+			<esES>Eres leyenda</esES>
+			<deDE>Ihr seid legendär</deDE>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Welcome to the Hearthstone Elite! Show it off with your Legendary Card Back!</enUS>
+			<zhTW>歡迎加入爐石精英俱樂部!秀一下你的傳說卡片背面吧!</zhTW>
+			<zhCN>你已经成为牌手中的精英！展示一下你的传说级卡牌背面图案吧！</zhCN>
+			<ruRU>Добро пожаловать в элиту Hearthstone! И пусть эта легендарная рубашка карт станет наградой за ваши подвиги!</ruRU>
+			<ptBR>Boas-vindas à Elite do Hearthstone! Exiba seu Verso de Card Lendário!</ptBR>
+			<plPL>Witamy wśród elity graczy Hearthstone! Pokaż swoją pozycję za pomocą legendarnych rewersów kart!</plPL>
+			<koKR>하스스톤의 전설이 되신 걸 축하드립니다! 친구들에게 당신의 전설 등급 카드 뒷면을 자랑하세요!</koKR>
+			<itIT>Benvenuto nell'élite di Hearthstone! Distinguiti con questo nuovo dorso delle carte!</itIT>
+			<frFR>Bienvenue dans l’élite de Hearthstone !\nVotre dos de carte légendaire est la preuve de votre talent, alors montrez-le !</frFR>
+			<esMX>¡Bienvenido a la élite de Hearthstone! Sé la envidia de todos con tu dorso de carta legendario.</esMX>
+			<esES>¡Bienvenido al Hearthstone de élite! ¡Presume de ello con tu dorso de carta legendario!</esES>
+			<deDE>Willkommen bei der Hearthstone-Elite! Zeigt allen mit Eurem legendären Kartenrücken, was Ihr draufhabt.</deDE>
+		</Field>
+	</Record>
+	<Record>
+		<Field column="ID">113</Field>
+		<Field column="NOTE_DESC">launch cardback</Field>
+		<Field column="ACH_TYPE">hidden</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">event</Field>
+		<Field column="ACH_QUOTA">3</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">cardback</Field>
+		<Field column="REWARD_DATA1">4</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">launch</Field>
+		<Field column="NAME">
+			<enUS>Fireside Friends</enUS>
+			<zhTW>爐邊之友</zhTW>
+			<zhCN>炉边好友</zhCN>
+			<ruRU>Добрые друзья</ruRU>
+			<ptBR>Conversando em volta da lareira.</ptBR>
+			<plPL>Przyjaciele przy kominku</plPL>
+			<koKR>하스스톤 절친</koKR>
+			<itIT>Amici di focolare</itIT>
+			<frFR>Des amis qui vous veulent du bien</frFR>
+			<esMX>Amigos del alma</esMX>
+			<esES>Amigos junto al fuego</esES>
+			<deDE>Stammtischfreunde</deDE>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Hearthstone is better with friends! Enjoy the company, and your new card back!</enUS>
+			<zhTW>跟朋友一起更好玩!享受新的卡片背面，和朋友的陪伴吧!</zhTW>
+			<zhCN>和好友一起玩《炉石传说》会更有趣！享受好友的陪伴，以及全新的卡牌背面图案！</zhCN>
+			<ruRU>Играть в Hearthstone лучше с друзьями! Наслаждайтесь приятной компанией и новой рубашкой карт!</ruRU>
+			<ptBR>Hearthstone é mais divertido com os amigos! Aproveite a companhia e o novo verso de card!</ptBR>
+			<plPL>Hearthstone sprawdza się lepiej w towarzystwie znajomych! Ciesz się zatem ich kompanią i nowymi rewersami kart!</plPL>
+			<koKR>하스스톤은 친구와 즐기면 더욱 재밌답니다! 지인과 함께 게임을 즐기고 새로운 카드 뒷면을 받으세요!</koKR>
+			<itIT>Hearthstone è più divertente con gli amici! Goditi questo nuovo dorso delle carte!</itIT>
+			<frFR>Hearthstone, c’est mieux avec des amis ! Profitez de leur compagnie, ainsi que de votre nouveau dos de carte !</frFR>
+			<esMX>¡Hearthstone es mejor con amigos! Disfruta de la compañía y de tu nuevo dorso de carta.</esMX>
+			<esES>¡Hearthstone es más divertido con amigos! ¡Disfruta de la compañía y de tu nuevo dorso de carta!</esES>
+			<deDE>Hearthstone ist noch besser, wenn Ihr es mit Freunden spielt! Genießt die gute Gesellschaft und viel Spaß mit Eurem neuen Kartenrücken!</deDE>
+		</Field>
+	</Record>
+	<Record>
+		<Field column="ID">114</Field>
+		<Field column="NOTE_DESC">d3 reaper of souls digital standard edition</Field>
+		<Field column="ACH_TYPE">hidden</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">licensedetected</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">pack</Field>
+		<Field column="REWARD_DATA1">1</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NAME">
+			<enUS>Reaper of Packs</enUS>
+			<zhTW>奪魂之包</zhTW>
+			<zhCN>死神传说</zhCN>
+			<ruRU>Жнец карточных душ</ruRU>
+			<ptBR>Ceifador dos pacotes</ptBR>
+			<plPL>Śmierć rozdaje karty</plPL>
+			<koKR>카드 팩을 거두는 자</koKR>
+			<itIT>Mietitore di buste</itIT>
+			<frFR>Faucheur de paquets</frFR>
+			<esMX>Segador de paquetes</esMX>
+			<esES>Nada detiene a la suerte</esES>
+			<deDE>Karten des Todes</deDE>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Your Diablo III Reaper of Souls comes with 1 pack.</enUS>
+			<zhTW>你的《暗黑破壞神III：奪魂之鐮》附送了1包卡牌包。</zhTW>
+			<zhCN>你的《暗黑破坏神III：死神之镰》赠送1个扩展包。</zhCN>
+			<ruRU>К вашему экземпляру игры Diablo III Reaper of Souls прилагается 1 комплект карт.</ruRU>
+			<ptBR>Seu Diablo III: Reaper of Souls vem com um pacote.</ptBR>
+			<plPL>Wraz z Diablo III Reaper of Souls otrzymujesz dodatkowy pakiet kart.</plPL>
+			<koKR>디아블로 III: 영혼을 거두는 자에 포함된 카드 팩 1개입니다!</koKR>
+			<itIT>Con Diablo III Reaper of Souls hai ottenuto 1 busta.</itIT>
+			<frFR>Votre édition de Diablo III: Reaper of Souls vous permet d’obtenir un paquet.</frFR>
+			<esMX>Diablo III Reaper of Souls viene con un paquete.</esMX>
+			<esES>Tu copia de Diablo III: Reaper of Souls incluye 1 sobre.</esES>
+			<deDE>Mit Diablo III: Reaper of Souls erhaltet Ihr eine Kartenpackung.</deDE>
+		</Field>
+	</Record>
+</Dbf>

@@ -9,6 +9,7 @@ GLUE_COLLECTION_INCLUDE_PREMIUMS	Include Golden
 GLUE_COLLECTION_PLUS	+	
 GLUE_COLLECTION_ALL	ALL	
 GLUE_COLLECTION_NEW_CARD_CALLOUT	{0}	0=number of new cards for this class
+GLUE_COLLECTION_MULTIPLIER	x	used to show you how many copies of a card you own, e.g. x2
 GLUE_COLLECTION_CARD_COUNT	x{0}	
 GLUE_COLLECTION_CARD_COUNT_LARGE	x9+	
 GLUE_COLLECTION_EMPTY_PAGE	Page 0	
@@ -94,6 +95,7 @@ GLUE_STORE_FAIL_PURCHASE_BAN	Your account has been blocked from using the Shop. 
 GLUE_STORE_FAIL_SPENDING_LIMIT	This purchase would have put you over your spending limit. Gold purchases are still available!
 GLUE_STORE_FAIL_PARENTAL_CONTROL	Purchases on this account are currently restricted by parental controls.
 GLUE_STORE_FAIL_THROTTLED	We are unable to process your transaction at this time. Please try your purchase again a little later.
+GLUE_STORE_FAIL_THIRD_PARTY_BAD_RECEIPT	We were unable to process your mobile purchase.
 GLUE_STORE_FAIL_GENERAL	There was a problem processing your payment.
 GLUE_STORE_GOLD_BUTTON_TOOLTIP_HEADLINE	Buy with gold
 GLUE_STORE_MONEY_BUTTON_TOOLTIP_HEADLINE	Buy
@@ -102,6 +104,7 @@ GLUE_STORE_HEADLINE	Shop
 GLUE_STORE_PRODUCT_DETAILS_HEADLINE_EXPERT_PACK	Contents per pack:
 GLUE_STORE_PRODUCT_DETAILS_EXPERT_PACK	•  5 Expert Hearthstone Cards\n•  At least 1 card will be Rare or better
 GLUE_STORE_KOREAN_PRODUCT_DETAILS_EXPERT_PACK	이용기간 : 서비스 종료 시까지. 본 상품은 구매 후 7일 이내에 청약철회가 가능합니다. 다만, 1개의 카드팩이라도 개봉한 경우에는 청약철회가 불가능합니다.	only displayed for Korean customers, should always be in Korean
+GLUE_STORE_PRODUCT_NAME_MOBILE_UNKNOWN	Purchase via Mobile
 GLUE_STORE_PRODUCT_NAME_FORGE_TICKET	Arena Admission
 GLUE_STORE_BUY_TEXT	BUY	this is what you see when you initiate the purchase
 GLUE_STORE_SINGLE_PACK	1 Pack
@@ -130,8 +133,8 @@ GLUE_STORE_QUANTITY_HEADLINE	Change Quantity
 GLUE_STORE_QUANTITY_MESSAGE	How many packs would you like to purchase with gold? Quantity cannot exceed {0}.
 GLUE_STORE_CHALLENGE_HEADLINE	Attention
 GLUE_STORE_CHALLENGE_CVV_MESSAGE	Please enter your CVV:\n\nFor help locating your CVV, click the "{0}" button.
-GLUE_STORE_CHALLENGE_PWD_MESSAGE	Please enter your password:
-GLUE_STORE_CHALLENGE_PWD_RETRY_MESSAGE	Your password is incorrect. Please re-enter your password:
+GLUE_STORE_CHALLENGE_PWD_MESSAGE	Please enter your Battle.net password:
+GLUE_STORE_CHALLENGE_PWD_RETRY_MESSAGE	Your Battle.net password is incorrect. Please re-enter it:
 GLUE_STORE_SUBMIT_CHALLENGE_BUTTON_TEXT	Purchase
 GLUE_STORE_NO_PAYMENT_HEADLINE	Attention
 GLUE_STORE_NO_PAYMENT_DETAILS	You haven't attached a valid payment method yet. Please set one up on the Battle.net website and try again.
@@ -139,6 +142,8 @@ GLUE_STORE_NO_PAYMENT_URL_DETAILS	Pressing "{0}" will take you to the Battle.net
 GLUE_STORE_PAYMENT_INFO_HEADLINE	Payment Information
 GLUE_STORE_PAYMENT_INFO_DETAILS	Funds will first be deducted from your Battle.net Balance. If insufficient balance exists then your primary payment method on your Battle.net account will be charged.\n\nIMPORTANT: Please note that any payment incident or chargeback occurring for this transaction may result in the temporary suspension of the Hearthstone account until complete solving of the incident or repayment of the chargeback.
 GLUE_STORE_PAYMENT_INFO_URL_DETAILS	If you'd like more details, pressing "{0}" will take you to the Battle.net payment information website.
+GLUE_MOBILE_STORE_PAYMENT_INFO_DETAILS	In-app purchases are made using your Apple ID.
+GLUE_MOBILE_STORE_PAYMENT_INFO_URL_DETAILS	Tap "{0}" to learn more about buying items in Hearthstone.
 GLUE_STORE_EULA_AND_TOS_HEADLINE	Terms of Service
 GLUE_STORE_EULA_AND_TOS_DETAILS	Our EULA and Terms of Service may be viewed on Battle.net.
 GLUE_STORE_EULA_AND_TOS_URL_DETAILS	Pressing "{0}" will take you to EULA and Terms of Service on the Battle.net website.
@@ -152,13 +157,9 @@ GLUE_STORE_CC_EXPIRY_DETAILS	Your credit card information has expired.
 GLUE_STORE_FAIL_DETAILS_ERROR_CODE	(Error code: '{0}')
 GLUE_STORE_DONE_WITH_BAM_HEADLINE	Try Again
 GLUE_STORE_DONE_WITH_BAM_MESSAGE	When you have returned from Battle.net, please try your purchase again.
-GLUE_STORE_DISCLAIMER_HEADLINE	Attention
-GLUE_STORE_DISCLAIMER_WARNING	You are about to spend real money!
-GLUE_STORE_DISCLAIMER_DETAILS	If you purchase any card packs or entry to the Arena during the Hearthstone beta, you will receive a Golden Gelbin Mekkatorque card as a gift for helping us test our store. Note that you will only receive this card once with your first purchase. 
 GLUE_STORE_GOLD_QTY_CHANGE_HEADER	Packs For Gold
 GLUE_STORE_GOLD_QTY_CHANGE_DESC	You've got a lot of gold! If you want to buy multiple packs, you can double click on the '1 pack for 100 gold' option to change the number of packs you want to buy.
 GLUE_STORE_GOLD_QTY_CHANGE_DESC_TOUCH	You've got a lot of gold! If you want to buy multiple packs, you can double tap on the '1 pack for 100 gold' option to change the number of packs you want to buy.
-GLUE_FORGE_STORE_DISCLAIMER_DETAILS	If you purchase any card packs or entry to the Arena during the Hearthstone beta, you will receive a Golden Gelbin Mekkatorque card as a gift for helping us test our store. Note that you will only receive this card once with your first purchase. 
 GLUE_FORGE_STORE_HEADLINE	Welcome to The Arena! 
 GLUE_FORGE_STORE_DETAILS1	Forge a deck from random cards, then see how long you can last in the Arena.
 GLUE_FORGE_STORE_DETAILS2	The longer you last, the better your prize will be!
@@ -197,6 +198,8 @@ GLUE_TOOLTIP_GOLD_HEADER	Gold
 GLUE_TOOLTIP_GOLD_DESCRIPTION	Spend gold to buy Packs or Enter the Arena.	
 GLUE_TOOLTIP_RANKED_BUTTON	See how you stack up against other players!	
 GLUE_TOOLTIP_CASUAL_BUTTON	Find an opponent of equal skill, and play for fun!	
+GLUE_TOOLTIP_GOLDEN_WINS_HEADER	Ranked Wins
+GLUE_TOOLTIP_GOLDEN_WINS_DESC	Win 500 Ranked games with this hero to earn the Golden version!
 GLUE_TOURNAMENT	Play	
 GLUE_TOURNAMENT_UNRANKED_MODE	Unranked Mode	
 GLUE_TOURNAMENT_UNRANKED_DESC	You have a separate skill rating for Unranked mode, and you won't earn medals.
@@ -287,13 +290,15 @@ GLUE_SPINNER_36	Mediocre Monk
 GLUE_SPINNER_37	A Little Puppy	
 GLUE_TIP_DEFAULT_0	You can purchase additional Packs of Expert cards from the Shop.	
 GLUE_TIP_DEFAULT_1	Click on your hero while editing a deck to change your deck's name.	
+GLUE_TIP_DEFAULT_1_TOUCH	Tap your hero while editing a deck to change your deck's name.	
 GLUE_TIP_DEFAULT_2	Right-click on your hero to emote.	
+GLUE_TIP_DEFAULT_2_TOUCH	Tap your hero to emote.	
 GLUE_TIP_DEFAULT_3	If you need help building a deck, look at the "Suggested Cards."
 GLUE_TIP_DEFAULT_4	You can tell what rarity a card is by the colored gem in the center.	
 GLUE_TIP_DEFAULT_5	Rarity colors, in order: White is Common, Blue is Rare, Purple is Epic and Orange is Legendary.	
-GLUE_TIP_DEFAULT_6	Each pack of Expert cards has at least one rare or better card, but it could have more!
+GLUE_TIP_DEFAULT_6	Each pack of Expert cards has at least one rare or better card, but it could have more!	
 GLUE_TIP_DEFAULT_7	If you run out of quests, you can come back tomorrow for a new one.	
-GLUE_TIP_DEFAULT_8	If you play Ranked games, you will get a medal that shows off your skill.	
+GLUE_TIP_DEFAULT_8	If you achieve Rank 20 in a season, you'll earn that season's special card back.	
 GLUE_TIP_DEFAULT_9	Complete quests to earn Gold.  Gold can be used to buy packs or enter The Arena.	
 GLUE_TIP_DEFAULT_10	The Arena lets you build a deck from random cards. You can also win prizes!	
 GLUE_TIP_DEFAULT_11	Basic cards are earned by leveling up. They cannot be disenchanted or crafted.	
@@ -301,7 +306,11 @@ GLUE_TIP_DEFAULT_12	Golden cards can be disenchanted for a lot of dust.
 GLUE_TIP_DEFAULT_13	You can use the Search field in your collection to find all cards with 'Taunt'.	
 GLUE_TIP_DEFAULT_14	Basic cards are earned by leveling up a class. Expert cards come from Expert Packs.	
 GLUE_TIP_DEFAULT_15	Playing against real players grants you bonus XP.	
-GLUE_TIP_DEFAULT_16	You can right-click your opponent to "Squelch" his emotes.	
+GLUE_TIP_DEFAULT_16	You can right-click on your opponent's hero to "Squelch" his emotes.	
+GLUE_TIP_DEFAULT_16_TOUCH	You can tap your opponent's hero to "Squelch" his emotes.	
+GLUE_TIP_DEFAULT_17	If you win 500 games in Ranked mode with a class, you'll earn the Golden Hero for that class.	
+GLUE_TIP_DEFAULT_18	You can add friends to your friends list with the button on the bottom left.	
+GLUE_TIP_DEFAULT_19	There are 25 different ranks to earn in Ranked Mode, and above those: The "Legend" rank.	
 GLUE_TIP_DEFAULT_zz_UNUSED	You can still play against your friends while they are offline!	
 GLUE_TIP_PRACTICE_0	You can unlock heroes by defeating them in Practice Mode.	
 GLUE_TIP_PRACTICE_1	Practice Mode is just preparation for Play Mode!	
@@ -315,11 +324,11 @@ GLUE_TIP_PLAY_0	You are being matched against a player of your skill.
 GLUE_TIP_PLAY_1	As you win and lose games it will track your skill and match you against a fair opponent.	
 GLUE_TIP_PLAY_2	Each class has 5 different Basic cards you can unlock as you level up.	
 GLUE_TIP_PLAY_3	Complete quests to earn Gold.  Gold can be used to buy packs or enter The Arena.	
-GLUE_TIP_PLAY_4	The medals are Apprentice, Journeyman, Copper, Silver, Gold, Platinum, Diamond and Master.	
+GLUE_TIP_PLAY_4	There are 25 different ranks to earn in Ranked Mode, and above those: The "Legend" rank.	
 GLUE_TIP_PLAY_5	Decks can contain two copies of each card, but only one copy of a Legendary card.	
 GLUE_TIP_PLAY_6	The Arena is a great way of earning rewards while playing in a mini competition.	
 GLUE_TIP_PLAY_7	You don’t have to play all of your Arena games at once.	
-GLUE_TIP_PLAY_8	If you play Ranked games, you will get a medal that shows off your skill.	
+GLUE_TIP_PLAY_8	If you achieve Rank 20 in a season, you'll earn that season's special card back.	
 GLUE_TIP_FORGE_0	Your Arena Deck will expire after you lose 3 games.	
 GLUE_TIP_FORGE_1	Your Arena prize gets better with each game you win!	
 GLUE_TIP_FORGE_2	You don’t have to play all of your Arena games at once.	
@@ -389,9 +398,20 @@ GLUE_SPLASH_QUEUE_TEXT	There should be an empty seat in about:
 GLUE_NINJA	Ninja	
 GLUE_CARD_NERF_HEADER	Changes!	
 GLUE_CARD_NERF_BODY	\nThe following card(s) have been changed:\n{0}	0=card names
+GLUE_GOLD_CAP_HEADER	{0} gold Reached!
+GLUE_GOLD_CAP_BODY	 You cannot earn additional gold until you are under {0}.
 GLUE_CANNOT_FIND_BATTLENET_CLIENT	Hearthstone requires the Battle.net desktop client, but cannot find it.  Please visit www.battle.net to re-install.
 GLUE_CANNOT_RUN_BATTLENET_CLIENT	Hearthstone requires the Battle.net desktop client, but cannot run it.  Please visit www.battle.net to re-install.
 GLUE_COLLECTION_DECK_DELETE	Delete	
 GLUE_COLLECTION_DECK_RENAME	Rename	
-GLUE_SPLASH_SCREEN_LOGIN	Log in
-GLUE_SPLASH_SCREEN_BREAKING_NEWS	Breaking News
+GLUE_MOBILE_EXISTING_ACCOUNT_POPUP	Are you new to Hearthstone or do you already have an account?
+GLUE_MOBILE_EXISTING_ACCOUNT_NEW	I'm New
+GLUE_MOBILE_EXISTING_ACCOUNT_RETURNING	Sign In!
+GLUE_MOBILE_EXISTING_ACCOUNT_CONVERSATION	Welcome to the Inn, friend!
+GLUE_MOBILE_SPLASH_SCREEN_LOGIN	Log in
+GLUE_MOBILE_SPLASH_SCREEN_BREAKING_NEWS	Breaking News
+GLUE_MOBILE_REGION_SELECT_WARNING_HEADER	Region Select
+GLUE_MOBILE_REGION_SELECT_WARNING	<size=100>Not everything travels with you!</size>\nWhen you switch regions, your game progress (including your characters, cards, and rankings) doesn't go with you. It will also affect:
+GLUE_MOBILE_REGION_SELECT_PROGRESS	PROGRESS
+GLUE_MOBILE_REGION_SELECT_PURCHASES	PURCHASES
+GLUE_MOBILE_REGION_SELECT_FRIENDS	FRIENDS
