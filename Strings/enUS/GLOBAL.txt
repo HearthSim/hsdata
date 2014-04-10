@@ -155,6 +155,7 @@ GLOBAL_ERROR_NETWORK_NO_CONNECTION	Unable to connect. Please check your Internet
 GLOBAL_ERROR_NETWORK_CONNECTION_TIMEOUT	Your connection timed out. Please check your Internet connection.	
 GLOBAL_ERROR_NETWORK_SPAM	You were disconnected from the Battle.net service for sending too many requests too quickly. Please relaunch Hearthstone to reconnect.	
 GLOBAL_MOBILE_ERROR_NETWORK_SPAM	You were disconnected for sending too many requests too quickly.	
+GLOBAL_MOBILE_ERROR_BREAKING_NEWS	Breaking News:\n\n{0}	
 GLOBAL_ERROR_NETWORK_DUPLICATE_LOGIN	This Battle.net account just logged into Hearthstone from another device.\n\nThis client was disconnected because only one connection is supported at a time.	
 GLOBAL_ERROR_NETWORK_LOST_GAME_CONNECTION	Your game has been disconnected from the Battle.net game service. You can try to reconnect again by starting another game.
 GLOBAL_ERROR_NETWORK_INCORRECT_REGION	Your Battle.net account is not eligible to participate in this region's Hearthstone beta test. Once the Hearthstone beta is available in your home region, please try again!	
@@ -246,6 +247,7 @@ GLOBAL_PROGRAMNAME_WOW	World of Warcraft
 GLOBAL_PROGRAMNAME_DIABLO3	Diablo III	
 GLOBAL_PROGRAMNAME_STARCRAFT2	StarCraft II	
 GLOBAL_PROGRAMNAME_PHOENIX	Battle.net	
+GLOBAL_PROGRAMNAME_HEROES	Heroes of the Storm	
 GLOBAL_OFFLINE	Offline	
 GLOBAL_DEFAULT_ALERT_HEADER	Alert	
 GLOBAL_FORGE_END_TITLE	Arena Complete	
@@ -377,6 +379,7 @@ GLOBAL_REWARD_CARD_DETAILS_TUTORIAL05	Magnificent!
 GLOBAL_REWARD_CARD_DETAILS_TUTORIAL06	Hot hot hot!
 GLOBAL_REWARD_CARD_LEVEL_UP	Unlocked by hitting level {0} as a {1}	0=# level, 1=class
 GLOBAL_REWARD_GOLD_SOURCE_IGR	Awarded for logging in from an IGR
+GLOBAL_REWARD_GOLD_SOURCE_IGR_DATED	Awarded for logging in from an IGR on {0}	0=GLOBAL_CURRENT_DATE
 GLOBAL_REWARD_GOLD_SOURCE_TOURNEY	Awarded for winning {0} |4(game,games) in Play mode
 GLOBAL_BETA_REIMBURSEMENT_HEADLINE	Account Wipe Credit
 GLOBAL_BETA_REIMBURSEMENT_DETAILS	This gold is a credit for your past purchases. Thank you!
@@ -408,10 +411,13 @@ GLOBAL_HEALTHY_GAMING_CHINA_THREE_HOURS	您累计在线时间已满{0}小时，�
 GLOBAL_HEALTHY_GAMING_CHINA_THREE_TO_FIVE_HOURS	您已经进入疲劳游戏时间，您的游戏收益将降为正常值的0%，为了您的健康，请尽快下线休息，做适当身体活动，合理安排学习生活。	
 GLOBAL_HEALTHY_GAMING_CHINA_MORE_THAN_FIVE_HOURS	您已进入不健康游戏时间，为了您的健康，请您立即下线休息。如不下线，您的身体将受到损害，您的收益已降为零，直到您的累计下线时间满5小时后，才能恢复正常。	
 GLOBAL_CURRENT_TIME	{0:h:mm tt}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx	
+GLOBAL_CURRENT_DATE	{0:MM/dd/yy}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
 GLOBAL_HEALTHY_GAMING_KOREA_STARTUP_MESSAGE	본 게임물은 만 12세 이용가 게임으로서 해당 연령 미만의 청소년이 이용하기에 부적절합니다. 반드시 보호자의 지도 감독이 필요합니다.	
 GLOBAL_HEALTHY_GAMING_CHINA_CAIS_ACTIVE	CAIS Active	
 GLOBAL_LANGUAGE_CHANGE_CONFIRM_TITLE	Change Language?	
-GLOBAL_LANGUAGE_CHANGE_CONFIRM_MESSAGE	You will lose any unsaved progress. Continue?	
+GLOBAL_LANGUAGE_CHANGE_CONFIRM_MESSAGE	This will interrupt your current activity. Are you sure?	
+GLOBAL_LOGIN_CONFIRM_MESSAGE	You will lose your current progress. Are you sure?	
+GLOBAL_LOGOUT_CONFIRM_MESSAGE	Are you sure?	
 GLOBAL_LANGUAGE_ENUS	English (United States)	
 GLOBAL_LANGUAGE_ENGB	English (Great Britain)	
 GLOBAL_LANGUAGE_FRFR	French	
