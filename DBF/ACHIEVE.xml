@@ -25,6 +25,9 @@
 	<Column name="ENABLED" type="Bool" comment="is awarding this achievement and making progress on it currently enabled?" />
 	<Column name="STAR_LEVEL" type="Int" comment="RATING.STAR_LEVEL required for trigger condition" />
 	<Column name="EVENT" type="String" comment="event required for trigger condition. events are managed server-side since they are case-by-case specific" />
+	<Column name="NOTICE_ORIGIN" type="String" comment="when a notice is generated for this achievement, this will be the notice's origin" />
+	<Column name="NOTICE_ORIGIN_DATA" type="Long" comment="when a notice is generated for this achievement, this will be the notice's origin data" />
+	<Column name="PLATFORM" type="String" comment="platform required for trigger condition" />
 	<Column name="NAME" type="LocString" comment="client-only name of achievement" />
 	<Column name="DESCRIPTION" type="LocString" comment="client-only description of achievement" />
 	<Record>
@@ -53,6 +56,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">1</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">2</Field>
@@ -80,6 +86,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">2</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">3</Field>
@@ -107,6 +116,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">3</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">4</Field>
@@ -134,6 +146,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">4</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">5</Field>
@@ -161,6 +176,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">5</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">6</Field>
@@ -188,6 +206,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">6</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">7</Field>
@@ -215,6 +236,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">7</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">8</Field>
@@ -242,6 +266,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">8</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">9</Field>
@@ -269,6 +296,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">9</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">10</Field>
@@ -296,6 +326,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">10</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">11</Field>
@@ -321,6 +354,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">11</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>First Blood</enUS>
 			<deDE>Feldversuch</deDE>
@@ -349,8 +387,6 @@
 			<zhCN>在对战模式中完成一场比赛。</zhCN>
 			<zhTW>完成一場對戰模式中的賽局。</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">12</Field>
@@ -376,6 +412,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">12</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>The Duelist</enUS>
 			<deDE>Der Duellant</deDE>
@@ -404,8 +445,6 @@
 			<zhCN>在对战模式中完成3场比赛。</zhCN>
 			<zhTW>在對戰模式中進行3場賽局。</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">13</Field>
@@ -433,6 +472,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">13</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">14</Field>
@@ -460,6 +502,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">14</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">15</Field>
@@ -487,6 +532,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">15</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">16</Field>
@@ -514,6 +562,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">16</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">17</Field>
@@ -541,6 +592,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">17</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">18</Field>
@@ -568,6 +622,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">18</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">19</Field>
@@ -595,6 +652,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">19</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">20</Field>
@@ -622,6 +682,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">20</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">21</Field>
@@ -649,6 +712,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">21</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">22</Field>
@@ -676,6 +742,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">22</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">23</Field>
@@ -703,6 +772,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">23</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">24</Field>
@@ -730,6 +802,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">24</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">25</Field>
@@ -757,6 +832,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">25</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">26</Field>
@@ -784,6 +862,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">26</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">27</Field>
@@ -811,6 +892,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">27</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">28</Field>
@@ -838,6 +922,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">28</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">29</Field>
@@ -865,6 +952,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">29</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">30</Field>
@@ -892,6 +982,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">30</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">31</Field>
@@ -917,6 +1010,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">31</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Level Up</enUS>
 			<deDE>Ding!</deDE>
@@ -945,8 +1043,6 @@
 			<zhCN>将任意职业提升至10级。</zhCN>
 			<zhTW>將任一職業升級到10級。</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">32</Field>
@@ -972,6 +1068,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">3</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">32</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Druid or Hunter Victory</enUS>
 			<deDE>Sieg des Druiden oder Jägers</deDE>
@@ -1000,8 +1101,6 @@
 			<zhCN>使用德鲁伊或猎人赢得2场比赛。</zhCN>
 			<zhTW>用德魯伊或是獵人贏得2場對戰。</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">33</Field>
@@ -1027,6 +1126,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">7</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">33</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Druid or Rogue Victory</enUS>
 			<deDE>Sieg des Druiden oder Schurken</deDE>
@@ -1055,8 +1159,6 @@
 			<zhCN>使用德鲁伊或潜行者赢得2场比赛。</zhCN>
 			<zhTW>用德魯伊或是盜賊贏得2場對戰。</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">34</Field>
@@ -1082,6 +1184,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">4</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">34</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Hunter or Mage Victory</enUS>
 			<deDE>Sieg des Jägers oder Magiers</deDE>
@@ -1110,8 +1217,6 @@
 			<zhCN>使用猎人或法师赢得2场比赛。</zhCN>
 			<zhTW>用獵人或是法師贏得2場對戰。</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">35</Field>
@@ -1137,6 +1242,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">8</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">35</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Mage or Shaman Victory</enUS>
 			<deDE>Sieg des Magiers oder Schamanen</deDE>
@@ -1165,8 +1275,6 @@
 			<zhCN>使用法师或萨满祭司赢得2场比赛。</zhCN>
 			<zhTW>用法師或是薩滿贏得2場對戰。</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">36</Field>
@@ -1192,6 +1300,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">6</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">36</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Paladin or Priest Victory</enUS>
 			<deDE>Sieg des Paladins oder Priesters</deDE>
@@ -1220,8 +1333,6 @@
 			<zhCN>使用圣骑士或牧师赢得2场比赛。</zhCN>
 			<zhTW>用聖騎士或是牧師贏得2場對戰。</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">37</Field>
@@ -1247,6 +1358,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">10</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">37</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Paladin or Warrior Victory</enUS>
 			<deDE>Sieg des Paladins oder Kriegers</deDE>
@@ -1275,8 +1391,6 @@
 			<zhCN>使用圣骑士或战士赢得2场比赛。</zhCN>
 			<zhTW>用聖騎士或是戰士贏得2場對戰。</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">38</Field>
@@ -1302,6 +1416,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">9</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">38</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Priest or Warlock Victory</enUS>
 			<deDE>Sieg des Priesters oder Hexenmeisters</deDE>
@@ -1330,8 +1449,6 @@
 			<zhCN>使用牧师或术士赢得2场比赛。</zhCN>
 			<zhTW>用牧師或是術士贏得2場對戰。</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">39</Field>
@@ -1357,6 +1474,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">10</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">39</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Rogue or Warrior Victory</enUS>
 			<deDE>Sieg des Schurken oder Kriegers</deDE>
@@ -1385,8 +1507,6 @@
 			<zhCN>使用潜行者或战士赢得2场比赛。</zhCN>
 			<zhTW>用盜賊或是戰士贏得2場對戰。</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">40</Field>
@@ -1412,6 +1532,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">9</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">40</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Shaman or Warlock Victory</enUS>
 			<deDE>Sieg des Schamanen oder Hexenmeisters</deDE>
@@ -1440,8 +1565,6 @@
 			<zhCN>使用萨满祭司或术士赢得2场比赛。</zhCN>
 			<zhTW>用薩滿或是術士贏得2場對戰。</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">41</Field>
@@ -1467,6 +1590,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">3</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">41</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Druid or Hunter Dominance</enUS>
 			<deDE>Dominanz des Druiden oder Jägers</deDE>
@@ -1495,8 +1623,6 @@
 			<zhCN>使用德鲁伊或猎人赢得5场比赛。</zhCN>
 			<zhTW>用德魯伊或是獵人贏得5場對戰。</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">42</Field>
@@ -1522,6 +1648,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">7</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">42</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Druid or Rogue Dominance</enUS>
 			<deDE>Dominanz des Druiden oder Schurken</deDE>
@@ -1550,8 +1681,6 @@
 			<zhCN>使用德鲁伊或潜行者赢得5场比赛。</zhCN>
 			<zhTW>用德魯伊或是盜賊贏得5場對戰。</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">43</Field>
@@ -1577,6 +1706,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">4</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">43</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Hunter or Mage Dominance</enUS>
 			<deDE>Dominanz des Jägers oder Magiers</deDE>
@@ -1605,8 +1739,6 @@
 			<zhCN>使用猎人或法师赢得5场比赛。</zhCN>
 			<zhTW>用獵人或是法師贏得5場對戰。</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">44</Field>
@@ -1632,6 +1764,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">8</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">44</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Mage or Shaman Dominance</enUS>
 			<deDE>Dominanz des Magiers oder Schamanen</deDE>
@@ -1660,8 +1797,6 @@
 			<zhCN>使用法师或萨满祭司赢得5场比赛。</zhCN>
 			<zhTW>用法師或是薩滿贏得5場對戰。</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">45</Field>
@@ -1687,6 +1822,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">6</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">45</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Paladin or Priest Dominance</enUS>
 			<deDE>Dominanz des Paladins oder Priesters</deDE>
@@ -1715,8 +1855,6 @@
 			<zhCN>使用圣骑士或牧师赢得5场比赛。</zhCN>
 			<zhTW>用聖騎士或是牧師贏得5場對戰。</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">46</Field>
@@ -1742,6 +1880,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">10</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">46</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Paladin or Warrior Dominance</enUS>
 			<deDE>Dominanz des Paladins oder Kriegers</deDE>
@@ -1770,8 +1913,6 @@
 			<zhCN>使用圣骑士或战士赢得5场比赛。</zhCN>
 			<zhTW>用聖騎士或是戰士贏得5場對戰。</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">47</Field>
@@ -1797,6 +1938,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">9</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">47</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Priest or Warlock Dominance</enUS>
 			<deDE>Dominanz des Priesters oder Hexenmeisters</deDE>
@@ -1825,8 +1971,6 @@
 			<zhCN>使用牧师或术士赢得5场比赛。</zhCN>
 			<zhTW>用牧師或是術士贏得5場對戰。</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">48</Field>
@@ -1852,6 +1996,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">10</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">48</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Rogue or Warrior Dominance</enUS>
 			<deDE>Dominanz des Schurken oder Kriegers</deDE>
@@ -1880,8 +2029,6 @@
 			<zhCN>使用潜行者或战士赢得5场比赛。</zhCN>
 			<zhTW>用盜賊或是戰士贏得5場對戰。</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">49</Field>
@@ -1907,6 +2054,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">9</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">49</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Shaman or Warlock Dominance</enUS>
 			<deDE>Dominanz des Schamanen oder Hexenmeisters</deDE>
@@ -1935,8 +2087,6 @@
 			<zhCN>使用萨满祭司或术士赢得5场比赛。</zhCN>
 			<zhTW>用薩滿或是術士贏得5場對戰。</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">50</Field>
@@ -1962,6 +2112,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">50</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Destroy them All</enUS>
 			<deDE>Vernichtet sie alle</deDE>
@@ -1990,8 +2145,6 @@
 			<zhCN>消灭40个随从。</zhCN>
 			<zhTW>摧毀40個手下。</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">51</Field>
@@ -2017,6 +2170,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">51</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Only the Mighty</enUS>
 			<deDE>Nur die Größe zählt</deDE>
@@ -2045,8 +2203,6 @@
 			<zhCN>召唤20个消耗5点或5点以上法力值的随从。</zhCN>
 			<zhTW>召喚20個消耗為5點以上的手下。</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">52</Field>
@@ -2072,6 +2228,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">52</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>The Meek Shall Inherit</enUS>
 			<deDE>Klein aber oho</deDE>
@@ -2100,8 +2261,6 @@
 			<zhCN>召唤30个消耗2点或2点以下法力值的随从。</zhCN>
 			<zhTW>召喚30個消耗為2點以下的手下。</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">53</Field>
@@ -2127,6 +2286,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">53</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Spell Master</enUS>
 			<deDE>Zaubermeister</deDE>
@@ -2155,8 +2319,6 @@
 			<zhCN>施放40个法术。</zhCN>
 			<zhTW>施放40個法術。</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">54</Field>
@@ -2182,6 +2344,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">54</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Beat Down</enUS>
 			<deDE>Gefällt Euch das?</deDE>
@@ -2210,8 +2377,6 @@
 			<zhCN>对敌方英雄造成100点伤害。</zhCN>
 			<zhTW>對敵方英雄造成100點傷害。</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">55</Field>
@@ -2237,6 +2402,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">55</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Crafting Time</enUS>
 			<deDE>Abstauben</deDE>
@@ -2265,8 +2435,6 @@
 			<zhCN>分解一张牌。</zhCN>
 			<zhTW>分解一張卡片。</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">56</Field>
@@ -2292,6 +2460,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">56</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Enter The Arena</enUS>
 			<deDE>Ab in die Arena</deDE>
@@ -2320,8 +2493,6 @@
 			<zhCN>进入竞技场进行对战。</zhCN>
 			<zhTW>進入競技場。</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">57</Field>
@@ -2349,6 +2520,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">57</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">58</Field>
@@ -2374,6 +2548,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">58</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Arrrrrr!!!</enUS>
 			<deDE>Ahoi!!!</deDE>
@@ -2402,8 +2581,6 @@
 			<zhCN>获得所有海盗牌。</zhCN>
 			<zhTW>取得每一張海盜卡。</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">59</Field>
@@ -2429,6 +2606,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">59</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Golden Arrrrrr!!!</enUS>
 			<deDE>Goldenes Ahoi!!!</deDE>
@@ -2457,8 +2639,6 @@
 			<zhCN>获得所有金色海盗牌。</zhCN>
 			<zhTW>取得每一張海盜金卡。</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">60</Field>
@@ -2484,6 +2664,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">60</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Mrglglglgl!</enUS>
 			<deDE>Mrglglglgl!</deDE>
@@ -2512,8 +2697,6 @@
 			<zhCN>获得所有鱼人牌。</zhCN>
 			<zhTW>取得每一張魚人卡。</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">61</Field>
@@ -2539,6 +2722,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">61</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Golden Mrglglglgl!</enUS>
 			<deDE>Goldenes Mrglglglgl!</deDE>
@@ -2567,8 +2755,6 @@
 			<zhCN>获得所有金色鱼人牌。</zhCN>
 			<zhTW>取得每一張魚人金卡。</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">62</Field>
@@ -2594,6 +2780,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">62</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Chicken Dinner</enUS>
 			<deDE>Mit Tempo 100</deDE>
@@ -2622,8 +2813,6 @@
 			<zhCN>在任何模式中赢得100场比赛。</zhCN>
 			<zhTW>在任何模式下贏得共100場勝利。</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">63</Field>
@@ -2649,6 +2838,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">63</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Big Winner</enUS>
 			<deDE>Strahlender Sieger</deDE>
@@ -2677,8 +2871,6 @@
 			<zhCN>在任何模式中赢得1000场比赛。</zhCN>
 			<zhTW>在任何模式下贏得共1000場勝利。</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">64</Field>
@@ -2704,6 +2896,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">64</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Total Dominance</enUS>
 			<deDE>Absolute Überlegenheit</deDE>
@@ -2732,8 +2929,6 @@
 			<zhCN>在任何模式中赢得7场比赛。</zhCN>
 			<zhTW>在任何模式下贏得共7場勝利。</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">65</Field>
@@ -2761,6 +2956,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">65</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">66</Field>
@@ -2788,6 +2986,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">66</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">67</Field>
@@ -2815,6 +3016,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">67</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">68</Field>
@@ -2842,6 +3046,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">68</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">69</Field>
@@ -2867,6 +3074,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">69</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>3 Victories!</enUS>
 			<deDE>3 Siege!</deDE>
@@ -2895,8 +3107,6 @@
 			<zhCN>使用任何职业赢得3场比赛。</zhCN>
 			<zhTW>用任一職業贏得三場賽局。</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">70</Field>
@@ -2924,6 +3134,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">70</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">71</Field>
@@ -2951,6 +3164,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">71</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">72</Field>
@@ -2978,6 +3194,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">72</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">73</Field>
@@ -3005,6 +3224,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">73</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">74</Field>
@@ -3032,6 +3254,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">74</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">75</Field>
@@ -3059,6 +3284,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">75</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">76</Field>
@@ -3086,6 +3314,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">76</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">77</Field>
@@ -3113,6 +3344,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">77</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">78</Field>
@@ -3140,6 +3374,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">78</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">79</Field>
@@ -3165,6 +3402,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">79</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Ready to Go!</enUS>
 			<deDE>Auf geht's!</deDE>
@@ -3193,8 +3435,6 @@
 			<zhCN>解锁所有英雄。</zhCN>
 			<zhTW>解鎖每一位英雄。</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">80</Field>
@@ -3222,6 +3462,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">80</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">81</Field>
@@ -3249,6 +3492,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">81</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">82</Field>
@@ -3276,6 +3522,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">82</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">83</Field>
@@ -3303,6 +3552,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">83</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">84</Field>
@@ -3330,6 +3582,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">84</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">85</Field>
@@ -3357,6 +3612,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">85</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">86</Field>
@@ -3384,6 +3642,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">86</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">87</Field>
@@ -3411,6 +3672,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">87</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">88</Field>
@@ -3438,6 +3702,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">88</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">89</Field>
@@ -3463,6 +3730,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">89</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Crushed Them All!</enUS>
 			<deDE>Der wahre Profi</deDE>
@@ -3491,8 +3763,6 @@
 			<zhCN>击败所有专家级电脑英雄。</zhCN>
 			<zhTW>擊敗每一位專家級的AI英雄。</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">90</Field>
@@ -3518,6 +3788,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">90</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Got the Basics!</enUS>
 			<deDE>Basis gesichert!</deDE>
@@ -3546,8 +3821,6 @@
 			<zhCN>收集所有基本级卡牌。</zhCN>
 			<zhTW>收集到基本系列的每一張牌。</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">91</Field>
@@ -3573,6 +3846,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">91</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>One of Everything!</enUS>
 			<deDE>Alles meins!</deDE>
@@ -3601,8 +3879,6 @@
 			<zhCN>收集所有专家级卡牌。</zhCN>
 			<zhTW>收集到專家系列的每一張牌。</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">92</Field>
@@ -3630,6 +3906,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">92</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">93</Field>
@@ -3657,6 +3936,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">93</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">94</Field>
@@ -3684,6 +3966,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">94</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">95</Field>
@@ -3708,7 +3993,12 @@
 		<Field column="DAILY_ORDER">0</Field>
 		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
-		<Field column="ENABLED">True</Field>
+		<Field column="ENABLED">False</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">95</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Beta Hero!</enUS>
 			<deDE>Beta-Rocker!</deDE>
@@ -3737,8 +4027,6 @@
 			<zhCN>感谢您帮助我们测试牌店功能！</zhCN>
 			<zhTW>感謝你協助測試我們的商店!</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">96</Field>
@@ -3764,6 +4052,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">96</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Ready to Rock!</enUS>
 			<deDE>BlizzCon-Rocker!</deDE>
@@ -3792,8 +4085,6 @@
 			<zhCN>感谢您参加2013年的暴雪嘉年华！</zhCN>
 			<zhTW>感謝你參加BlizzCon 2013!</zhTW>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">97</Field>
@@ -3821,6 +4112,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">97</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">98</Field>
@@ -3846,6 +4140,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
 		<Field column="MY_HERO_ASSET_ID">274</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">98</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Golden Malfurion Stormrage</enUS>
 			<zhTW>黃金瑪法里恩·怒風</zhTW>
@@ -3874,8 +4173,6 @@
 			<esES>Gana 500 partidas con rango con Malfurion Tempestira.</esES>
 			<deDE>Gewinnt mit Malfurion Sturmgrimm 500 gewertete Spiele.</deDE>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">99</Field>
@@ -3901,6 +4198,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
 		<Field column="MY_HERO_ASSET_ID">31</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">99</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Golden Rexxar</enUS>
 			<zhTW>黃金雷克薩</zhTW>
@@ -3929,8 +4231,6 @@
 			<esES>Gana 500 partidas con rango con Rexxar.</esES>
 			<deDE>Gewinnt mit Rexxar 500 gewertete Spiele.</deDE>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">100</Field>
@@ -3956,6 +4256,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
 		<Field column="MY_HERO_ASSET_ID">637</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">100</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Golden Jaina Proudmoore</enUS>
 			<zhTW>黃金珍娜·普勞德摩爾</zhTW>
@@ -3984,8 +4289,6 @@
 			<esES>Gana 500 partidas con rango con Jaina Valiente.</esES>
 			<deDE>Gewinnt mit Jaina Prachtmeer 500 gewertete Spiele.</deDE>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">101</Field>
@@ -4011,6 +4314,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
 		<Field column="MY_HERO_ASSET_ID">671</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">101</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Golden Uther Lightbringer</enUS>
 			<zhTW>黃金『光明使者』烏瑟</zhTW>
@@ -4039,8 +4347,6 @@
 			<esES>Gana 500 partidas con rango con Uther el Iluminado.</esES>
 			<deDE>Gewinnt mit Uther Lichtbringer 500 gewertete Spiele.</deDE>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">102</Field>
@@ -4066,6 +4372,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
 		<Field column="MY_HERO_ASSET_ID">813</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">102</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Golden Anduin Wrynn</enUS>
 			<zhTW>黃金安杜因·烏瑞恩</zhTW>
@@ -4086,7 +4397,7 @@
 			<zhCN>使用安杜因·乌瑞恩在排名模式中赢得500场比赛。</zhCN>
 			<ruRU>Выиграйте 500 рейтинговых матчей  Андуином Ринном.</ruRU>
 			<ptBR>Vencer 500 partidas ranqueadas com Anduin Wrynn.</ptBR>
-			<plPL>Wygraj 500 partii rankingowych grając Andiunem.</plPL>
+			<plPL>Wygraj 500 partii rankingowych grając Anduinem.</plPL>
 			<koKR>등급전에서 안두인 린으로 500승</koKR>
 			<itIT>Vinci 500 partite classificate con Anduin Wrynn.</itIT>
 			<frFR>Gagner 500 matchs en mode Partie classée avec Anduin Wrynn.</frFR>
@@ -4094,8 +4405,6 @@
 			<esES>Gana 500 partidas con rango con Anduin Wrynn.</esES>
 			<deDE>Gewinnt mit Anduin Wrynn 500 gewertete Spiele.</deDE>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">103</Field>
@@ -4121,6 +4430,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
 		<Field column="MY_HERO_ASSET_ID">930</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">103</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Golden Valeera Sanguinar</enUS>
 			<zhTW>黃金瓦麗拉·桑古納爾</zhTW>
@@ -4149,8 +4463,6 @@
 			<esES>Gana 500 partidas con rango con Valeera Sanguinar.</esES>
 			<deDE>Gewinnt mit Valeera Sanguinar 500 gewertete Spiele.</deDE>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">104</Field>
@@ -4176,6 +4488,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
 		<Field column="MY_HERO_ASSET_ID">1066</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">104</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Golden Thrall</enUS>
 			<zhTW>黃金索爾</zhTW>
@@ -4204,8 +4521,6 @@
 			<esES>Gana 500 partidas con rango con Thrall.</esES>
 			<deDE>Gewinnt mit Thrall 500 gewertete Spiele.</deDE>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">105</Field>
@@ -4231,6 +4546,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
 		<Field column="MY_HERO_ASSET_ID">893</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">105</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Golden Gul'dan</enUS>
 			<zhTW>黃金古爾丹</zhTW>
@@ -4259,8 +4579,6 @@
 			<esES>Gana 500 partidas con rango con Gul'dan.</esES>
 			<deDE>Gewinnt mit Gul'dan 500 gewertete Spiele.</deDE>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">106</Field>
@@ -4286,13 +4604,18 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
 		<Field column="MY_HERO_ASSET_ID">7</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">106</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Golden Garrosh Hellscream</enUS>
 			<zhTW>黃金卡爾洛斯·地獄吼</zhTW>
 			<zhCN>金色加尔鲁什·地狱咆哮</zhCN>
 			<ruRU>Золотой герой: Гаррош Адский Крик</ruRU>
 			<ptBR>Dourado - Garrosh Grito Infernal</ptBR>
-			<plPL>Złoty Garrosz</plPL>
+			<plPL>Złoty Garosz</plPL>
 			<koKR>황금 가로쉬 헬스크림</koKR>
 			<itIT>Garrosh Malogrido Dorato</itIT>
 			<frFR>Portrait doré - Garrosh Hurlenfer</frFR>
@@ -4306,7 +4629,7 @@
 			<zhCN>使用加尔鲁什·地狱咆哮在排名模式中赢得500场比赛。</zhCN>
 			<ruRU>Выиграйте 500 рейтинговых матчей  Гаррошем Адским Криком.</ruRU>
 			<ptBR>Vencer 500 partidas ranqueadas com Garrosh Grito Infernal.</ptBR>
-			<plPL>Wygraj 500 partii rankingowych grając Garroszem.</plPL>
+			<plPL>Wygraj 500 partii rankingowych grając Garoszem.</plPL>
 			<koKR>등급전에서 가로쉬 헬스크림으로 500승</koKR>
 			<itIT>Vinci 500 partite classificate con Garrosh Malogrido.</itIT>
 			<frFR>Gagner 500 matchs en mode Partie classée avec Garrosh Hurlenfer.</frFR>
@@ -4314,8 +4637,6 @@
 			<esES>Gana 500 partidas con rango con Garrosh Grito Infernal.</esES>
 			<deDE>Gewinnt mit Garrosh Höllschrei 500 gewertete Spiele.</deDE>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">107</Field>
@@ -4343,6 +4664,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">107</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">108</Field>
@@ -4370,6 +4694,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">108</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">109</Field>
@@ -4395,6 +4722,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">109</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Greater Reaper of Packs</enUS>
 			<zhTW>強效奪魂之包</zhTW>
@@ -4423,8 +4755,6 @@
 			<esES>Tu edición de coleccionista de Diablo III: Reaper of Souls incluye 2 sobres.</esES>
 			<deDE>Mit der Collector's Edition von Diablo III: Reaper of Souls erhaltet Ihr zwei Kartenpackungen.</deDE>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">110</Field>
@@ -4450,6 +4780,11 @@
 		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
 		<Field column="MY_HERO_ASSET_ID">0</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">110</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Mount Up!</enUS>
 			<zhTW>上馬!</zhTW>
@@ -4467,7 +4802,7 @@
 		<Field column="DESCRIPTION">
 			<enUS>A special reward for your third win!\nLog in to World of Warcraft to claim it!</enUS>
 			<zhTW>慶祝你的第三勝!\n登入你的《魔獸世界》收取獎勵吧!</zhTW>
-			<zhCN>获得三场胜利的特别奖励！\n登陆《魔兽世界》领取奖励！</zhCN>
+			<zhCN>获得三场胜利的特别奖励！\n登录《魔兽世界》领取奖励！</zhCN>
 			<ruRU>Особая награда за третью победу!\nЧтобы ее получить, войдите в World of Warcraft.</ruRU>
 			<ptBR>Uma recompensa especial pela sua terceira vitória!\nConecte-se ao World of Warcraft para recebê-la!</ptBR>
 			<plPL>Specjalna nagroda za twoje trzecie zwycięstwo!\nZaloguj się do World of Warcraft, aby ją odebrać!</plPL>
@@ -4478,8 +4813,6 @@
 			<esES>¡Una recompensa especial por tu tercera victoria!\nInicia sesión en World of Warcraft para obtenerla.</esES>
 			<deDE>Für Euren dritten Sieg habt Ihr eine besondere Belohnung verdient! Loggt Euch in World of Warcraft ein, um sie zu erhalten.</deDE>
 		</Field>
-		<Field column="STAR_LEVEL">0</Field>
-		<Field column="EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">111</Field>
@@ -4507,6 +4840,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">111</Field>
+		<Field column="PLATFORM">any</Field>
 	</Record>
 	<Record>
 		<Field column="ID">112</Field>
@@ -4534,6 +4870,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">26</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">112</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>You are Legend</enUS>
 			<zhTW>你是傳奇</zhTW>
@@ -4589,12 +4928,15 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">launch</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">113</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Fireside Friends</enUS>
 			<zhTW>爐邊之友</zhTW>
 			<zhCN>炉边好友</zhCN>
 			<ruRU>Добрые друзья</ruRU>
-			<ptBR>Conversando em volta da lareira.</ptBR>
+			<ptBR>Conversando em volta da lareira</ptBR>
 			<plPL>Przyjaciele przy kominku</plPL>
 			<koKR>하스스톤 절친</koKR>
 			<itIT>Amici di focolare</itIT>
@@ -4644,6 +4986,9 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="STAR_LEVEL">0</Field>
 		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">114</Field>
+		<Field column="PLATFORM">any</Field>
 		<Field column="NAME">
 			<enUS>Reaper of Packs</enUS>
 			<zhTW>奪魂之包</zhTW>
@@ -4671,6 +5016,94 @@
 			<esMX>Diablo III Reaper of Souls viene con un paquete.</esMX>
 			<esES>Tu copia de Diablo III: Reaper of Souls incluye 1 sobre.</esES>
 			<deDE>Mit Diablo III: Reaper of Souls erhaltet Ihr eine Kartenpackung.</deDE>
+		</Field>
+	</Record>
+	<Record>
+		<Field column="ID">115</Field>
+		<Field column="NOTE_DESC">igr login reward</Field>
+		<Field column="ACH_TYPE">daily_repeatable</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">login_igr</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">gold</Field>
+		<Field column="REWARD_DATA1">100</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">igr</Field>
+		<Field column="NOTICE_ORIGIN_DATA">0</Field>
+		<Field column="PLATFORM">any</Field>
+	</Record>
+	<Record>
+		<Field column="ID">116</Field>
+		<Field column="NOTE_DESC">ipad play game</Field>
+		<Field column="ACH_TYPE">hidden</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">finish</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">any ipad</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">pack</Field>
+		<Field column="REWARD_DATA1">1</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">116</Field>
+		<Field column="PLATFORM">ipad</Field>
+		<Field column="NAME">
+			<enUS>iPack</enUS>
+			<zhTW>iPack</zhTW>
+			<zhCN>炉石随身带</zhCN>
+			<ruRU>iКомплект</ruRU>
+			<ptBR>iPack</ptBR>
+			<plPL>iPakiet</plPL>
+			<koKR>아이팩</koKR>
+			<itIT>iPremio</itIT>
+			<frFR>I Pad-awan</frFR>
+			<esMX>Paquete de manzanitas</esMX>
+			<esES>iPack</esES>
+			<deDE>iPackung</deDE>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Awarded for playing a game on iPad.</enUS>
+			<zhTW>在iPad上進行一場賽局的獎勵</zhTW>
+			<zhCN>使用iPad进行游戏后获得成就。</zhCN>
+			<ruRU>Награда за сыгранный матч на iPad.</ruRU>
+			<ptBR>Concedido por jogar um jogo no iPad.</ptBR>
+			<plPL>Przyznane za rozegranie partii na iPadzie.</plPL>
+			<koKR>iPad에서 게임을 한 보상</koKR>
+			<itIT>Ricompensa per aver giocato una partita su un iPad.</itIT>
+			<frFR>Récompense pour avoir joué un match sur iPad.</frFR>
+			<esMX>Obtenido por jugar una partida en iPad.</esMX>
+			<esES>Se otorga al jugar una partida en iPad.</esES>
+			<deDE>Spielt eine Partie auf dem iPad.</deDE>
 		</Field>
 	</Record>
 </Dbf>

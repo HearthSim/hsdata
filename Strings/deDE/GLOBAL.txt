@@ -4,6 +4,21 @@ GLOBAL_ADDFRIEND_ERROR_MALFORMED	Sie müssen eine E-Mail-Adresse oder ein Battle
 GLOBAL_ADDFRIEND_HEADER	Freund hinzufügen	
 GLOBAL_ADDFRIEND_INSTRUCTION	BattleTag oder E-Mail-Adresse eingeben.	
 GLOBAL_ADDFRIEND_SENT_CONFIRMATION	Freundschaftsanfrage gesendet.	
+GLOBAL_ADVENTURE_NAXX_HERO_01	Anub'Rekhan	
+GLOBAL_ADVENTURE_NAXX_HERO_02	Großwitwe Faerlina	
+GLOBAL_ADVENTURE_NAXX_HERO_03	Maexxna	
+GLOBAL_ADVENTURE_NAXX_HERO_04	Noth der Seuchenfürst	
+GLOBAL_ADVENTURE_NAXX_HERO_05	Heigan der Unreine	
+GLOBAL_ADVENTURE_NAXX_HERO_06	Loatheb	
+GLOBAL_ADVENTURE_NAXX_HERO_07	Instrukteur Razuvious	
+GLOBAL_ADVENTURE_NAXX_HERO_08	Gothik der Ernter	
+GLOBAL_ADVENTURE_NAXX_HERO_09	Die vier Reiter	
+GLOBAL_ADVENTURE_NAXX_HERO_10	Flickwerk	
+GLOBAL_ADVENTURE_NAXX_HERO_11	Grobbulus	
+GLOBAL_ADVENTURE_NAXX_HERO_12	Gluth	
+GLOBAL_ADVENTURE_NAXX_HERO_13	Thaddius	
+GLOBAL_ADVENTURE_NAXX_HERO_14	Saphiron	
+GLOBAL_ADVENTURE_NAXX_HERO_15	Kel'Thuzad	
 GLOBAL_APPROXIMATE_DATETIME	~{0}	0=time string
 GLOBAL_APPROXIMATE_DATETIME_RANGE	~{0} – {1}	0=min seconds 1=max seconds string
 GLOBAL_ARENA_MEDAL_0	Neulingsschlüssel	
@@ -63,7 +78,8 @@ GLOBAL_COLLECTION_GOLDEN	Golden
 GLOBAL_CONCEDE	Aufgeben	
 GLOBAL_CONFIRM	Bestätigen	
 GLOBAL_COST	Kosten	
-GLOBAL_CURRENT_TIME	{0:HH.mm "Uhr"}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
+GLOBAL_CURRENT_DATE	{0:dd.MM.yyyy}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
+GLOBAL_CURRENT_TIME	{0:HH:mm "Uhr"}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
 GLOBAL_DATETIME_FRIENDREQUEST_DAY	gestern	
 GLOBAL_DATETIME_FRIENDREQUEST_DAYS	vor {0} |4(Tag,Tagen)	
 GLOBAL_DATETIME_FRIENDREQUEST_HOURS	vor {0} |4(Stunde,Stunden)	
@@ -233,7 +249,7 @@ GLOBAL_KEYWORD_TAUNT_REF_TEXT	Feinde müssen Diener angreifen, die über Spott v
 GLOBAL_KEYWORD_TAUNT_TEXT	Feinde müssen diesen Diener angreifen.	
 GLOBAL_KEYWORD_WINDFURY	Windzorn	
 GLOBAL_KEYWORD_WINDFURY_TEXT	Kann 2-mal pro Zug angreifen.	
-GLOBAL_LANGUAGE_CHANGE_CONFIRM_MESSAGE	Dadurch verliert Ihr jeglichen nicht gespeicherten Fortschritt. Fortfahren?	
+GLOBAL_LANGUAGE_CHANGE_CONFIRM_MESSAGE	Dadurch wird Ihre aktuelle Aktivität unterbrochen. Sind Sie sicher?	
 GLOBAL_LANGUAGE_CHANGE_CONFIRM_TITLE	Sprache ändern?	
 GLOBAL_LANGUAGE_DEDE	Deutsch	
 GLOBAL_LANGUAGE_DOWNLOAD_VOICE_PACK	Heruntergeladenes Sprachpaket	
@@ -264,8 +280,10 @@ GLOBAL_LANGUAGE_RURU	Russisch
 GLOBAL_LANGUAGE_ZHCN	Chinesisch (China)	
 GLOBAL_LANGUAGE_ZHTW	Chinesisch (Taiwan)	
 GLOBAL_LOGIN	Einloggen	
+GLOBAL_LOGIN_CONFIRM_MESSAGE	Dadurch geht Ihr aktueller Fortschritt verloren. Sind Sie sicher?	
 GLOBAL_LOGIN_CONFIRM_TITLE	Einloggen?	
 GLOBAL_LOGOUT	Ausloggen	
+GLOBAL_LOGOUT_CONFIRM_MESSAGE	Sind Sie sicher?	
 GLOBAL_LOGOUT_CONFIRM_TITLE	Ausloggen?	
 GLOBAL_LOSSES	Niederlagen	
 GLOBAL_MEDAL_0	Legende	
@@ -301,6 +319,7 @@ GLOBAL_MEDAL_TOOLTIP_BODY	Gewinnt Spiele, um den nächsten Rang zu erreichen!\n\
 GLOBAL_MEDAL_TOOLTIP_BODY_ARENA_GRAND_MASTER	Ihr seid ein Champion der Arena!	
 GLOBAL_MEDAL_TOOLTIP_BODY_LEGEND	Ihr seid zur Legende aufgestiegen! Eure Platzierung innerhalb dieses Rangs verändert sich mit jedem Spiel.	
 GLOBAL_MEDAL_TOOLTIP_HEADER	Wertung: {0}	0=medal name
+GLOBAL_MOBILE_ERROR_BREAKING_NEWS	Eilmeldung:\n\n{0}	
 GLOBAL_MOBILE_ERROR_IPAD1_DETECTED	Tut uns leid, für Hearthstone ist iPad 2 oder eine neuere Version erforderlich.	
 GLOBAL_MOBILE_ERROR_LOGON_WEB_TIMEOUT	Ihre Verbindung zum Server wurde getrennt, da Sie längere Zeit inaktiv waren.	
 GLOBAL_MOBILE_ERROR_NETWORK_DISCONNECT	Ihre Verbindung wurde unterbrochen.	
@@ -341,6 +360,7 @@ GLOBAL_PLAY_RANKED	Gewertetes\nSpiel
 GLOBAL_PRACTICE_MAX_LEVEL_REACHED	Max. Stufe gegen KI	
 GLOBAL_PROGRAMNAME_DIABLO3	Diablo III	
 GLOBAL_PROGRAMNAME_HEARTHSTONE	Hearthstone	
+GLOBAL_PROGRAMNAME_HEROES	Heroes of the Storm	
 GLOBAL_PROGRAMNAME_PHOENIX	Battle.net	
 GLOBAL_PROGRAMNAME_STARCRAFT2	StarCraft II	
 GLOBAL_PROGRAMNAME_WOW	World of Warcraft	
@@ -423,7 +443,8 @@ GLOBAL_REWARD_FORGE_HEADLINE	Zugang zur Arena erhalten!
 GLOBAL_REWARD_FORGE_UNLOCKED_HEADLINE	Arena freigeschaltet!	
 GLOBAL_REWARD_FORGE_UNLOCKED_SOURCE	Belohnung für das Betreten der Arena	
 GLOBAL_REWARD_GOLD_HEADLINE	Gold erhalten!	
-GLOBAL_REWARD_GOLD_SOURCE_IGR	Belohnung für das Einloggen aus einem Internet Game Room	
+GLOBAL_REWARD_GOLD_SOURCE_IGR	Belohnung für das Einloggen aus einem IGR	
+GLOBAL_REWARD_GOLD_SOURCE_IGR_DATED	Belohnung für das Einloggen aus einem IGR am {0}	0=GLOBAL_CURRENT_DATE
 GLOBAL_REWARD_GOLD_SOURCE_TOURNEY	Belohnung für {0} |4(Sieg,Siege) im Modus „Spielen“	
 GLOBAL_REWARD_GOLDEN_HERO_HEADLINE	Goldener Held freigeschaltet	
 GLOBAL_REWARD_HEARTHSTEED_HEADLINE	Pegasus	
