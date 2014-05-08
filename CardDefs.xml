@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<CardDefs build="5170">
+<CardDefs build="5314">
 	<Entity CardID="CRED_01" ID="0" version="2">
 		<Tag enumID="185" name="CARDNAME" type="LocString">
 			<deDE>Jason Chayes</deDE>
@@ -541,7 +541,7 @@
 			<esES>No se le puede aplicar &lt;b&gt;Silencio, Escudo divino&lt;/b&gt; ni &lt;b&gt;Sigilo&lt;/b&gt;.</esES>
 			<esMX>No puede ser &lt;b&gt;Silenciado. Escudo divino, Sigilo.&lt;/b&gt;</esMX>
 			<frFR>Ne peut être &lt;b&gt;réduit au silence. Bouclier divin. Camouflage.&lt;/b&gt;</frFR>
-			<itIT>&lt;b&gt;Scudo Divino, Furtività&lt;/b&gt;. Non può essere &lt;b&gt;Silenziato&lt;/b&gt;.</itIT>
+			<itIT>&lt;b&gt;Scudo Divino&lt;/b&gt;. &lt;b&gt;Furtività&lt;/b&gt;. Non può essere &lt;b&gt;Silenziato&lt;/b&gt;.</itIT>
 			<koKR>&lt;b&gt;침묵, 천상의 보호막, 은신&lt;/b&gt; 효과를 받을 수 없습니다.</koKR>
 			<plPL>Nie można go &lt;b&gt;Wyciszyć. Boska tarcza, Ukrycie.&lt;/b&gt;</plPL>
 			<ptBR>Não pode ser &lt;b&gt;Silenciado. Escudo Divino, Furtividade.&lt;/b&gt;</ptBR>
@@ -1088,28 +1088,28 @@
 			<zhTW>次級治療術</zhTW>
 		</Tag>
 		<Tag enumID="184" name="CARDTEXT_INHAND" type="LocString">
-			<deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt; 
- Stellt 2 Leben wieder her.</deDE>
+			<deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt;
+Stellt 2 Leben wieder her.</deDE>
 			<enUS>&lt;b&gt;Hero Power&lt;/b&gt; 
  Restore 2 Health.</enUS>
-			<esES>&lt;b&gt;Poder de héroe&lt;/b&gt; 
- Restaura 2 p. de salud.</esES>
-			<esMX>&lt;b&gt;Poder de héroe&lt;/b&gt; 
- Restaura 2 de Salud.</esMX>
-			<frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt; 
+			<esES>&lt;b&gt;Poder de héroe&lt;/b&gt;
+Restaura 2 p. de salud.</esES>
+			<esMX>&lt;b&gt;Poder de héroe&lt;/b&gt;
+Restaura 2 de Salud.</esMX>
+			<frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt;
 Rend 2 PV.</frFR>
-			<itIT>&lt;b&gt;Potere Eroe&lt;/b&gt; 
+			<itIT>&lt;b&gt;Potere Eroe&lt;/b&gt;
 Rigenera 2 Salute.</itIT>
-			<koKR>&lt;b&gt;영웅 능력&lt;/b&gt; 
- 생명력을 2 회복시킵니다.</koKR>
-			<plPL>&lt;b&gt;Moc specjalna&lt;/b&gt; 
- Przywróć 2 pkt. zdrowia.</plPL>
-			<ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt; 
- Restaure 2 de Vida.</ptBR>
-			<ruRU>&lt;b&gt;Сила героя&lt;/b&gt; 
+			<koKR>&lt;b&gt;영웅 능력&lt;/b&gt;
+생명력을 2 회복시킵니다.</koKR>
+			<plPL>&lt;b&gt;Moc specjalna&lt;/b&gt;
+Przywróć 2 pkt. zdrowia.</plPL>
+			<ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt;
+Restaure 2 de Vida.</ptBR>
+			<ruRU>&lt;b&gt;Сила героя&lt;/b&gt;
  Восстанавливает 2 ед. здоровья.</ruRU>
-			<zhCN>&lt;b&gt;英雄技能&lt;/b&gt; 
- 恢复2点生命值。</zhCN>
+			<zhCN>&lt;b&gt;英雄技能&lt;/b&gt;
+恢复2点生命值。</zhCN>
 			<zhTW>&lt;b&gt;英雄能力&lt;/b&gt;
 恢復2點生命值</zhTW>
 		</Tag>
@@ -1146,7 +1146,7 @@ Rigenera 2 Salute.</itIT>
 			<esES>Coloca una copia de una carta aleatoria de la mano de tu oponente en tu mano.</esES>
 			<esMX>Pon una copia de una carta aleatoria de la mano de tu adversario en tu mano.</esMX>
 			<frFR>Place une copie d’une carte aléatoire de la main de l’adversaire dans la vôtre.</frFR>
-			<itIT>Metti nella tua mano una copia di una carta casuale dalla mano dell'avversario.</itIT>
+			<itIT>Mette nella tua mano una copia di una carta casuale dalla mano dell'avversario.</itIT>
 			<koKR>상대편 손에 있는 카드 1장을 무작위로 복사하여 내 손으로 가져옵니다.</koKR>
 			<plPL>Umieść w swojej ręce kopię losowej karty z ręki przeciwnika.</plPL>
 			<ptBR>Coloque uma cópia de um card aleatório da mão do seu oponente na sua mão.</ptBR>
@@ -1203,12 +1203,14 @@ Rigenera 2 Salute.</itIT>
 			<zhTW>真言術:盾</zhTW>
 		</Tag>
 		<Tag enumID="184" name="CARDTEXT_INHAND" type="LocString">
-			<deDE>Verleiht einem Diener +2 Leben. Zieht eine Karte.</deDE>
+			<deDE>Verleiht einem Diener +2 Leben.
+Zieht eine Karte.</deDE>
 			<enUS>Give a minion +2 Health.
 Draw a card.</enUS>
 			<esES>Otorga +2 p. de salud a un esbirro.
 Roba una carta.</esES>
-			<esMX>Otorga +2 de Salud a un esbirro. Roba una carta.</esMX>
+			<esMX>Otorga +2 de Salud a un esbirro.
+Roba una carta.</esMX>
 			<frFR>Confère +2 PV à un serviteur.
 Vous piochez une carte.</frFR>
 			<itIT>+2 Salute a un servitore. Pesca una carta.</itIT>
@@ -1216,12 +1218,14 @@ Vous piochez une carte.</frFR>
 카드를 1장 뽑습니다.</koKR>
 			<plPL>Daj stronnikowi +2 do zdrowia.
 Dobierz kartę.</plPL>
-			<ptBR>Conceda +2 de Vida a um lacaio. Compre um card.</ptBR>
+			<ptBR>Conceda +2 de Vida a um lacaio.
+Compre um card.</ptBR>
 			<ruRU>Выбранное существо получает +2 к здоровью.
 Вы берете карту.</ruRU>
 			<zhCN>使一个随从获得+2生命值。
 抽一张牌。</zhCN>
-			<zhTW>賦予一個手下+2生命值。抽一張牌</zhTW>
+			<zhTW>賦予一個手下+2生命值。
+抽一張牌</zhTW>
 		</Tag>
 		<Tag enumID="351" name="FLAVORTEXT" type="LocString">
 			<deDE>Klar, der zusätzliche Schutz ist toll, aber der Schild verringert die Sicht doch ziemlich.</deDE>
@@ -1238,10 +1242,32 @@ Dobierz kartę.</plPL>
 			<zhTW>有額外的防護是好事啦，不過這個盾真的會干擾視線耶。</zhTW>
 		</Tag>
 		<Tag enumID="364" name="HOW_TO_EARN" type="LocString">
+			<deDE>Wird auf Stufe 1 freigeschaltet.</deDE>
 			<enUS>Unlocked at Level 1.</enUS>
+			<esES>Se desbloquea al alcanzar el nivel 1.</esES>
+			<esMX>Se desbloquea en nivel 1.</esMX>
+			<frFR>Débloquée au niveau  1.</frFR>
+			<itIT>Sbloccata al livello 1.</itIT>
+			<koKR>1 레벨에 잠금 해제</koKR>
+			<plPL>Odblokowane na poziomie 1.</plPL>
+			<ptBR>Disponível no nível 1.</ptBR>
+			<ruRU>Доступно с 1-го уровня.</ruRU>
+			<zhCN>达到1级后解锁。</zhCN>
+			<zhTW>於1級時解鎖。</zhTW>
 		</Tag>
 		<Tag enumID="365" name="HOW_TO_EARN_GOLDEN" type="LocString">
+			<deDE>Wird auf Stufe 47 freigeschaltet.</deDE>
 			<enUS>Unlocked at Level 47.</enUS>
+			<esES>Se desbloquea al alcanzar el nivel 47.</esES>
+			<esMX>Se desbloquea en nivel 47.</esMX>
+			<frFR>Débloquée au niveau 47.</frFR>
+			<itIT>Sbloccata al livello 47.</itIT>
+			<koKR>47 레벨에 잠금 해제</koKR>
+			<plPL>Odblokowane na poziomie 47.</plPL>
+			<ptBR>Disponível no nível 47.</ptBR>
+			<ruRU>Доступно с 47-го уровня.</ruRU>
+			<zhCN>达到47级后解锁。</zhCN>
+			<zhTW>於47級時解鎖。</zhTW>
 		</Tag>
 		<Tag enumID="342" name="ARTISTNAME" type="String">Jessica Jung</Tag>
 		<Tag enumID="48" name="COST" type="Int" value="1"/>
@@ -1533,7 +1559,7 @@ Dobierz kartę.</plPL>
 			<zhTW>野性印記</zhTW>
 		</Tag>
 		<Tag enumID="184" name="CARDTEXT_INHAND" type="LocString">
-			<deDE>Verleiht einem Diener &lt;b&gt;Spott&lt;/b&gt; und +2/+2.</deDE>
+			<deDE>Verleiht einem Diener &lt;b&gt;Spott&lt;/b&gt; und +2/+2.&lt;i&gt; (+2 Angriff/+2 Leben)&lt;/i&gt;</deDE>
 			<enUS>Give a minion &lt;b&gt;Taunt&lt;/b&gt; and +2/+2.&lt;i&gt; (+2 Attack/+2 Health)&lt;/i&gt;</enUS>
 			<esES>Otorga &lt;b&gt;Provocar&lt;/b&gt; y +2/+2 a un esbirro. &lt;i&gt;(+2 p. de ataque/+2 p. de salud)&lt;/i&gt;</esES>
 			<esMX>Otorga &lt;b&gt;Provocación&lt;/b&gt; y +2/+2 a un esbirro.&lt;i&gt; (+2 de Ataque y +2 de Salud)&lt;/i&gt;</esMX>
@@ -1797,7 +1823,7 @@ Dobierz kartę.</plPL>
 			<zhTW>野性成長</zhTW>
 		</Tag>
 		<Tag enumID="184" name="CARDTEXT_INHAND" type="LocString">
-			<deDE>Ihr erhaltet einen leeren Manakristall.</deDE>
+			<deDE>Erhaltet einen leeren Manakristall.</deDE>
 			<enUS>Gain an empty Mana Crystal.</enUS>
 			<esES>Obtienes un cristal de maná vacío.</esES>
 			<esMX>Obtienes un Cristal de maná vacío.</esMX>
@@ -2717,25 +2743,25 @@ Dobierz kartę.</plPL>
 			<zhTW>火焰衝擊</zhTW>
 		</Tag>
 		<Tag enumID="184" name="CARDTEXT_INHAND" type="LocString">
-			<deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt; 
- Verursacht 1 Schaden.</deDE>
+			<deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt;
+Verursacht 1 Schaden.</deDE>
 			<enUS>&lt;b&gt;Hero Power&lt;/b&gt; 
  Deal 1 damage.</enUS>
-			<esES>&lt;b&gt;Poder de héroe&lt;/b&gt; 
- Inflige 1 p. de daño.</esES>
-			<esMX>&lt;b&gt;Poder de héroe&lt;/b&gt; 
- Inflige 1 de daño.</esMX>
-			<frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt; 
+			<esES>&lt;b&gt;Poder de héroe&lt;/b&gt;
+Inflige 1 p. de daño.</esES>
+			<esMX>&lt;b&gt;Poder de héroe&lt;/b&gt;
+Inflige 1 de daño.</esMX>
+			<frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt;
 Inflige 1 point de dégâts.</frFR>
-			<itIT>&lt;b&gt;Potere Eroe&lt;/b&gt; 
+			<itIT>&lt;b&gt;Potere Eroe&lt;/b&gt;
 Infligge 1 danno.</itIT>
-			<koKR>&lt;b&gt;영웅 능력&lt;/b&gt; 
- 피해를 1 줍니다.</koKR>
-			<plPL>&lt;b&gt;Moc specjalna&lt;/b&gt; 
- Zadaj 1 pkt. obrażeń.</plPL>
-			<ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt; 
- Cause 1 de dano.</ptBR>
-			<ruRU>&lt;b&gt;Сила героя&lt;/b&gt; 
+			<koKR>&lt;b&gt;영웅 능력&lt;/b&gt;
+피해를 1 줍니다.</koKR>
+			<plPL>&lt;b&gt;Moc specjalna&lt;/b&gt;
+Zadaj 1 pkt. obrażeń.</plPL>
+			<ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt;
+Cause 1 de dano.</ptBR>
+			<ruRU>&lt;b&gt;Сила героя&lt;/b&gt;
  Наносит 1 ед. урона.</ruRU>
 			<zhCN>&lt;b&gt;英雄技能&lt;/b&gt;
 造成1点伤害。</zhCN>
@@ -2850,18 +2876,18 @@ Infligge 1 danno.</itIT>
 			<zhTW>先祖之魂</zhTW>
 		</Tag>
 		<Tag enumID="184" name="CARDTEXT_INHAND" type="LocString">
-			<deDE>Wählt einen Diener aus. Wenn dieser Diener vernichtet wird, lasst ihn aufs Schlachtfeld zurückkehren.</deDE>
+			<deDE>Verleiht einem Diener „&lt;b&gt;Todesröcheln:&lt;/b&gt; Ruft diesen Diener erneut herbei.“</deDE>
 			<enUS>Choose a minion. When that minion is destroyed, return it to the battlefield.</enUS>
-			<esES>Elige a un esbirro. Cuando dicho esbirro es destruido, vuelve al campo de batalla.</esES>
-			<esMX>Elige un esbirro. Cuando ese esbirro sea destruido, devuélvelo al campo de batalla.</esMX>
-			<frFR>Choisissez un serviteur. Quand il est détruit, il revient sur le champ de bataille.</frFR>
-			<itIT>Scegli un servitore: quando muore, ritorna sul campo di battaglia.</itIT>
-			<koKR>하수인 하나를 선택합니다. 그 하수인이 죽으면 다시 전장으로 돌려보냅니다.</koKR>
-			<plPL>Wybierz stronnika. Kiedy zostanie zniszczony, przywróć go na pole bitwy.</plPL>
-			<ptBR>Escolha um lacaio. Quando o lacaio for destruído, devolva-o ao campo de batalha.</ptBR>
-			<ruRU>Выберите существо. Когда его уничтожат, оно вернется на поле боя.</ruRU>
-			<zhCN>选择一个随从，当该随从被消灭时，它将返回战场。</zhCN>
-			<zhTW>選擇一個手下。當該手下被摧毀時，使其返回戰場</zhTW>
+			<esES>Otorga a un esbirro: &quot;Último aliento: Vuelve a invocar a este esbirro&quot;.</esES>
+			<esMX>Otorga &quot;Estertor: reinvoca a este esbirro&quot; a un esbirro.</esMX>
+			<frFR>Confère à un serviteur &lt;b&gt;Râle d’agonie :&lt;/b&gt; réinvoque ce serviteur.</frFR>
+			<itIT>Fornisce &quot;&lt;b&gt;Rantolo di Morte:&lt;/b&gt; rievoca questo servitore&quot; a un tuo servitore.</itIT>
+			<koKR>하수인 하나에게 &quot;죽음의 메아리: 이 하수인을 다시 소환합니다.&quot; 능력을 부여합니다.</koKR>
+			<plPL>Daj stronnikowi zdolność. „Agonia: Przywróć tego stronnika na pole bitwy.”</plPL>
+			<ptBR>Conceda a um lacaio: &quot;Último Suspiro: Evoque este lacaio novamente.&quot;</ptBR>
+			<ruRU>Выбранное существо получает способность «Предсмертный хрип: после смерти это существо вернется на поле боя».</ruRU>
+			<zhCN>使一个随从获得“亡语：再次召唤该随从。”</zhCN>
+			<zhTW>賦予一個手下「死亡之聲:重新召喚這個手下」</zhTW>
 		</Tag>
 		<Tag enumID="351" name="FLAVORTEXT" type="LocString">
 			<deDE>Der Tod war lediglich ein Rückschlag!</deDE>
@@ -2907,18 +2933,18 @@ Infligge 1 danno.</itIT>
 			<zhTW>先祖之魂</zhTW>
 		</Tag>
 		<Tag enumID="184" name="CARDTEXT_INHAND" type="LocString">
-			<deDE>&lt;b&gt;Todesröcheln:&lt;/b&gt; Dieser Diener kehrt aufs Schlachtfeld zurück.</deDE>
+			<deDE>&lt;b&gt;Todesröcheln:&lt;/b&gt; Ruft diesen Diener erneut herbei.</deDE>
 			<enUS>Deathrattle: Return this minion to the battlefield.</enUS>
-			<esES>Último aliento: Devuelve a este esbirro al campo de batalla.</esES>
-			<esMX>Estertor: devuelve a este esbirro al campo de batalla.</esMX>
-			<frFR>&lt;b&gt;Râle d’agonie :&lt;/b&gt; renvoie ce serviteur sur le champ de bataille.</frFR>
-			<itIT>&lt;b&gt;Rantolo di Morte:&lt;/b&gt; questo servitore ritorna sul campo di battaglia.</itIT>
-			<koKR>죽음의 메아리: 죽으면 다시 전장으로 돌아옴</koKR>
+			<esES>Último aliento: Vuelve a invocar a este esbirro.</esES>
+			<esMX>Estertor: reinvoca a este esbirro.</esMX>
+			<frFR>&lt;b&gt;Râle d’agonie :&lt;/b&gt; réinvoque ce serviteur.</frFR>
+			<itIT>&lt;b&gt;Rantolo di Morte:&lt;/b&gt; rievoca questo servitore.</itIT>
+			<koKR>죽음의 메아리: 이 하수인을 다시 소환합니다.</koKR>
 			<plPL>Agonia: Przywróć tego stronnika na pole bitwy.</plPL>
-			<ptBR>Último Suspiro: retorne este lacaio para o campo de batalha.</ptBR>
-			<ruRU>Предсмертный хрип: после смерти это существо возродится.</ruRU>
-			<zhCN>亡语：将该随从移回战场。</zhCN>
-			<zhTW>死亡之聲:使這個手下返回戰場</zhTW>
+			<ptBR>Último Suspiro: Evoque este lacaio novamente.</ptBR>
+			<ruRU>Предсмертный хрип: после смерти это существо вернется на поле боя.</ruRU>
+			<zhCN>亡语：再次召唤该随从。</zhCN>
+			<zhTW>死亡之聲:重新召喚這個手下</zhTW>
 		</Tag>
 		<Tag enumID="183" name="CARD_SET" type="Int" value="3"/>
 		<Tag enumID="199" name="CLASS" type="Int" value="8"/>
@@ -3388,25 +3414,25 @@ Infligge 1 danno.</itIT>
 			<zhTW>召喚圖騰</zhTW>
 		</Tag>
 		<Tag enumID="184" name="CARDTEXT_INHAND" type="LocString">
-			<deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt; 
- Beschwört ein zufälliges Totem.</deDE>
+			<deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt;
+Beschwört ein zufälliges Totem.</deDE>
 			<enUS>&lt;b&gt;Hero Power&lt;/b&gt; 
  Summon a random Totem.</enUS>
-			<esES>&lt;b&gt;Poder de héroe&lt;/b&gt; 
- Invoca un tótem aleatorio.</esES>
-			<esMX>&lt;b&gt;Poder de héroe&lt;/b&gt; 
- Invoca un Tótem aleatorio.</esMX>
-			<frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt; 
+			<esES>&lt;b&gt;Poder de héroe&lt;/b&gt;
+Invoca un tótem aleatorio.</esES>
+			<esMX>&lt;b&gt;Poder de héroe&lt;/b&gt;
+Invoca un tótem aleatorio.</esMX>
+			<frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt;
 Invoque un totem aléatoire.</frFR>
-			<itIT>&lt;b&gt;Potere Eroe&lt;/b&gt; 
+			<itIT>&lt;b&gt;Potere Eroe&lt;/b&gt;
 Evoca un totem casuale.</itIT>
-			<koKR>&lt;b&gt;영웅 능력&lt;/b&gt; 
- 무작위 토템을 1개 소환합니다.</koKR>
-			<plPL>&lt;b&gt;Moc specjalna&lt;/b&gt; 
- Przyzwij losowy totem.</plPL>
-			<ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt; 
- Evoque um Totem aleatório.</ptBR>
-			<ruRU>&lt;b&gt;Сила героя&lt;/b&gt; 
+			<koKR>&lt;b&gt;영웅 능력&lt;/b&gt;
+무작위 토템을 1개 소환합니다.</koKR>
+			<plPL>&lt;b&gt;Moc specjalna&lt;/b&gt;
+Przyzwij losowy totem.</plPL>
+			<ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt;
+Evoque um Totem aleatório.</ptBR>
+			<ruRU>&lt;b&gt;Сила героя&lt;/b&gt;
  Призывает на поле боя случайный тотем.</ruRU>
 			<zhCN>&lt;b&gt;英雄技能&lt;/b&gt;
 随机召唤一个图腾。</zhCN>
@@ -3645,25 +3671,25 @@ Evoca un totem casuale.</itIT>
 			<zhTW>生命分流</zhTW>
 		</Tag>
 		<Tag enumID="184" name="CARDTEXT_INHAND" type="LocString">
-			<deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt; 
- Zieht eine Karte und erleidet 2 Schaden.</deDE>
+			<deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt;
+Zieht eine Karte und erleidet 2 Schaden.</deDE>
 			<enUS>&lt;b&gt;Hero Power&lt;/b&gt; 
  Draw a card and take 2 damage.</enUS>
-			<esES>&lt;b&gt;Poder de héroe&lt;/b&gt; 
- Roba una carta y recibe 2 p. de daño.</esES>
-			<esMX>&lt;b&gt;Poder de héroe&lt;/b&gt; 
- Roba una carta y recibe 2 de daño.</esMX>
-			<frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt; 
+			<esES>&lt;b&gt;Poder de héroe&lt;/b&gt;
+Roba una carta y recibe 2 p. de daño.</esES>
+			<esMX>&lt;b&gt;Poder de héroe&lt;/b&gt;
+Roba una carta y recibe 2 de daño.</esMX>
+			<frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt;
 Subit 2 points de dégâts. Vous piochez une carte.</frFR>
 			<itIT>&lt;b&gt;Potere Eroe&lt;/b&gt;
 Pesca una carta e subisce 2 danni.</itIT>
-			<koKR>&lt;b&gt;영웅 능력&lt;/b&gt; 
- 피해를 2 입는 대신 카드를 1장 뽑습니다.</koKR>
-			<plPL>&lt;b&gt;Moc specjalna&lt;/b&gt; 
- Dobierz kartę i otrzymaj 2 pkt. obrażeń.</plPL>
-			<ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt; 
- Compre um card e receba 2 de dano.</ptBR>
-			<ruRU>&lt;b&gt;Сила героя&lt;/b&gt; 
+			<koKR>&lt;b&gt;영웅 능력&lt;/b&gt;
+피해를 2 입는 대신 카드를 1장 뽑습니다.</koKR>
+			<plPL>&lt;b&gt;Moc specjalna&lt;/b&gt;
+Dobierz kartę i otrzymaj 2 pkt. obrażeń.</plPL>
+			<ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt;
+Compre um card e receba 2 de dano.</ptBR>
+			<ruRU>&lt;b&gt;Сила героя&lt;/b&gt;
  Вы берете карту и получаете 2 ед. урона.</ruRU>
 			<zhCN>&lt;b&gt;英雄技能&lt;/b&gt;
 抽一张牌并受到2点伤害。</zhCN>
@@ -4775,25 +4801,25 @@ Pesca una carta e subisce 2 danni.</itIT>
 			<zhTW>匕首專精</zhTW>
 		</Tag>
 		<Tag enumID="184" name="CARDTEXT_INHAND" type="LocString">
-			<deDE>&lt;b&gt;Heldenfähgkeit&lt;/b&gt; 
- Legt einen Dolch (1/2) an.</deDE>
-			<enUS>&lt;b&gt;Hero Power&lt;/b&gt; 
- Equip a 1/2 Dagger.</enUS>
-			<esES>&lt;b&gt;Poder de héroe&lt;/b&gt; 
- Equipa una daga 1/2.</esES>
-			<esMX>&lt;b&gt;Poder de héroe&lt;/b&gt; 
- Equipa una Daga 1/2.</esMX>
-			<frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt; 
+			<deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt;
+Legt einen Dolch (1/2) an.</deDE>
+			<enUS>&lt;b&gt;Hero Power&lt;/b&gt;
+Equip a 1/2 Dagger.</enUS>
+			<esES>&lt;b&gt;Poder de héroe&lt;/b&gt;
+Equipa una daga 1/2.</esES>
+			<esMX>&lt;b&gt;Poder de héroe&lt;/b&gt;
+Equipa una Daga 1/2.</esMX>
+			<frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt;
 Équipe une dague 1/2.</frFR>
 			<itIT>&lt;b&gt;Potere Eroe&lt;/b&gt;
 Equipaggia un Pugnale 1/2.</itIT>
-			<koKR>&lt;b&gt;영웅 능력&lt;/b&gt; 
- 1/2 단검을 장착합니다.</koKR>
-			<plPL>&lt;b&gt;Moc specjalna&lt;/b&gt; 
- Otrzymujesz sztylet 1/2.</plPL>
-			<ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt; 
- Equipe uma Adaga 1/2.</ptBR>
-			<ruRU>&lt;b&gt;Сила героя&lt;/b&gt; 
+			<koKR>&lt;b&gt;영웅 능력&lt;/b&gt;
+1/2 단검을 장착합니다.</koKR>
+			<plPL>&lt;b&gt;Moc specjalna&lt;/b&gt;
+Otrzymujesz sztylet 1/2.</plPL>
+			<ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt;
+Equipe uma Adaga 1/2.</ptBR>
+			<ruRU>&lt;b&gt;Сила героя&lt;/b&gt;
  Снаряжает оружием 1/2.</ruRU>
 			<zhCN>&lt;b&gt;英雄技能&lt;/b&gt;
 装备一把1/2的匕首。</zhCN>
@@ -5529,24 +5555,24 @@ Equipaggia un Pugnale 1/2.</itIT>
 			<zhTW>援軍</zhTW>
 		</Tag>
 		<Tag enumID="184" name="CARDTEXT_INHAND" type="LocString">
-			<deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt; 
- Ruft einen Rekruten der Silbernen Hand (1/1) herbei.</deDE>
+			<deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt;
+Ruft einen Rekruten der Silbernen Hand (1/1) herbei.</deDE>
 			<enUS>&lt;b&gt;Hero Power&lt;/b&gt; 
  Summon a 1/1 Silver Hand Recruit.</enUS>
-			<esES>&lt;b&gt;Poder de héroe&lt;/b&gt; 
- Invoca a un recluta Mano de Plata 1/1.</esES>
-			<esMX>&lt;b&gt;Poder de héroe&lt;/b&gt; 
- Invoca un Recluta de la Mano de Plata 1/1.</esMX>
-			<frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt; 
+			<esES>&lt;b&gt;Poder de héroe&lt;/b&gt;
+Invoca a un recluta Mano de Plata 1/1.</esES>
+			<esMX>&lt;b&gt;Poder de héroe&lt;/b&gt;
+Invoca un Recluta de la Mano de Plata 1/1.</esMX>
+			<frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt;
 Invoque une recrue de la Main d’argent 1/1.</frFR>
 			<itIT>&lt;b&gt;Potere Eroe&lt;/b&gt;
 Evoca una Recluta Mano d'Argento 1/1.</itIT>
-			<koKR>&lt;b&gt;영웅 능력&lt;/b&gt; 
- 1/1 은빛 성기사단 신병을 1명 소환합니다.</koKR>
-			<plPL>&lt;b&gt;Moc specjalna&lt;/b&gt; 
- Przyzwij rekruta Srebrnej Dłoni 1/1.</plPL>
-			<ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt; 
- Evoque um Recruta do Punho de Prata 1/1.</ptBR>
+			<koKR>&lt;b&gt;영웅 능력&lt;/b&gt;
+1/1 은빛 성기사단 신병을 1명 소환합니다.</koKR>
+			<plPL>&lt;b&gt;Moc specjalna&lt;/b&gt;
+Przyzwij rekruta Srebrnej Dłoni 1/1.</plPL>
+			<ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt;
+Evoque um Recruta do Punho de Prata 1/1.</ptBR>
 			<ruRU>&lt;b&gt;Сила героя&lt;/b&gt;
  Призывает на поле боя паладина-рекрута 1/1.</ruRU>
 			<zhCN>&lt;b&gt;英雄技能&lt;/b&gt;
@@ -5605,25 +5631,25 @@ Evoca una Recluta Mano d'Argento 1/1.</itIT>
 			<zhTW>護甲提升!</zhTW>
 		</Tag>
 		<Tag enumID="184" name="CARDTEXT_INHAND" type="LocString">
-			<deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt; 
- Erhaltet 2 Rüstung.</deDE>
+			<deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt;
+Erhaltet 2 Rüstung.</deDE>
 			<enUS>&lt;b&gt;Hero Power&lt;/b&gt; 
  Gain 2 Armor.</enUS>
-			<esES>&lt;b&gt;Poder de héroe&lt;/b&gt; 
- Obtiene 2 p. de armadura.</esES>
-			<esMX>&lt;b&gt;Poder de héroe&lt;/b&gt; 
- Obtienes 2 de Armadura.</esMX>
-			<frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt; 
+			<esES>&lt;b&gt;Poder de héroe&lt;/b&gt;
+Obtiene 2 p. de armadura.</esES>
+			<esMX>&lt;b&gt;Poder de héroe&lt;/b&gt;
+Obtiene 2 de Armadura.</esMX>
+			<frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt;
 Confère 2 points d’armure.</frFR>
 			<itIT>&lt;b&gt;Potere Eroe&lt;/b&gt;
-Ottieni 2 Armatura.</itIT>
-			<koKR>&lt;b&gt;영웅 능력&lt;/b&gt; 
- 방어도를 +2 얻습니다.</koKR>
-			<plPL>&lt;b&gt;Moc specjalna&lt;/b&gt; 
- Otrzymujesz 2 pkt. pancerza.</plPL>
-			<ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt; 
- Receba 2 de Armadura.</ptBR>
-			<ruRU>&lt;b&gt;Сила героя&lt;/b&gt; 
+Ottiene 2 Armatura.</itIT>
+			<koKR>&lt;b&gt;영웅 능력&lt;/b&gt;
+방어도를 +2 얻습니다.</koKR>
+			<plPL>&lt;b&gt;Moc specjalna&lt;/b&gt;
+Otrzymujesz 2 pkt. pancerza.</plPL>
+			<ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt;
+Receba 2 Armadura.</ptBR>
+			<ruRU>&lt;b&gt;Сила героя&lt;/b&gt;
  +2 к броне.</ruRU>
 			<zhCN>&lt;b&gt;英雄技能&lt;/b&gt;
 获得2点护甲值。</zhCN>
@@ -5863,7 +5889,7 @@ Ottieni 2 Armatura.</itIT>
 			<itIT>+3/+3.</itIT>
 			<koKR>+3/+3</koKR>
 			<plPL>+3/+3.</plPL>
-			<ptBR>+3/+3</ptBR>
+			<ptBR>+3/+3.</ptBR>
 			<ruRU>+3/+3.</ruRU>
 			<zhCN>+3/+3。</zhCN>
 			<zhTW>+3/+3</zhTW>
@@ -10374,24 +10400,24 @@ Ottieni 2 Armatura.</itIT>
 			<zhTW>穩固射擊</zhTW>
 		</Tag>
 		<Tag enumID="184" name="CARDTEXT_INHAND" type="LocString">
-			<deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt; 
- Fügt dem feindlichen Helden 2 Schaden zu.</deDE>
+			<deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt;
+Fügt dem feindlichen Helden 2 Schaden zu.</deDE>
 			<enUS>&lt;b&gt;Hero Power&lt;/b&gt; 
  Deal 2 damage to the enemy hero.</enUS>
-			<esES>&lt;b&gt;Poder de héroe&lt;/b&gt; 
- Inflige 2 p. de daño al héroe enemigo.</esES>
-			<esMX>&lt;b&gt;Poder de héroe&lt;/b&gt; 
- Inflige 2 de daño al héroe enemigo.</esMX>
-			<frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt; 
+			<esES>&lt;b&gt;Poder de héroe&lt;/b&gt;
+Inflige 2 p. de daño al héroe enemigo.</esES>
+			<esMX>&lt;b&gt;Poder de héroe&lt;/b&gt;
+Inflige 2 de daño al héroe enemigo.</esMX>
+			<frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt;
 Inflige 2 points de dégâts au héros adverse.</frFR>
 			<itIT>&lt;b&gt;Potere Eroe&lt;/b&gt;
 Infligge 2 danni all'eroe nemico.</itIT>
-			<koKR>&lt;b&gt;영웅 능력&lt;/b&gt; 
- 적 영웅에게 피해를 2 줍니다.</koKR>
-			<plPL>&lt;b&gt;Moc specjalna&lt;/b&gt; 
- Zadaj 2 pkt. obrażeń wrogiemu bohaterowi.</plPL>
-			<ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt; 
- Cause 2 de dano ao herói inimigo.</ptBR>
+			<koKR>&lt;b&gt;영웅 능력&lt;/b&gt;
+적 영웅에게 피해를 2 줍니다.</koKR>
+			<plPL>&lt;b&gt;Moc specjalna&lt;/b&gt;
+Zadaj 2 pkt. obrażeń wrogiemu bohaterowi.</plPL>
+			<ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt;
+Cause 2 de dano ao herói inimigo.</ptBR>
 			<ruRU>&lt;b&gt;Сила героя&lt;/b&gt;
  Наносит 2 ед. урона герою противника.</ruRU>
 			<zhCN>&lt;b&gt;英雄技能&lt;/b&gt;
@@ -10525,7 +10551,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Zniszcz wrogiego stronnika posiadającego &lt;b&gt;Prowokację&lt;/b&gt;.</plPL>
 			<ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Destrua um lacaio inimigo com &lt;b&gt;Provocar&lt;/b&gt;.</ptBR>
 			<ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; уничтожает существо противника со способностью &lt;b&gt;«Провокация»&lt;/b&gt;.</ruRU>
-			<zhCN>&lt;b&gt;战吼：&lt;/b&gt;消灭一个具有&lt;b&gt;嘲讽&lt;/b&gt;的随从。</zhCN>
+			<zhCN>&lt;b&gt;战吼：&lt;/b&gt;消灭一个具有&lt;b&gt;嘲讽&lt;/b&gt;的敌方随从。</zhCN>
 			<zhTW>&lt;b&gt;戰吼:&lt;/b&gt;摧毀一個有&lt;b&gt;嘲諷&lt;/b&gt;的敵方手下</zhTW>
 		</Tag>
 		<Tag enumID="351" name="FLAVORTEXT" type="LocString">
@@ -11116,7 +11142,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<itIT>&lt;b&gt;+1 Danni Magici&lt;/b&gt;. &lt;b&gt;Rantolo di Morte:&lt;/b&gt; pesca una carta.</itIT>
 			<koKR>&lt;b&gt;주문 공격력 +1&lt;/b&gt;. &lt;b&gt;죽음의 메아리:&lt;/b&gt; 카드를 1장 뽑습니다.</koKR>
 			<plPL>&lt;b&gt;Obrażenia zaklęć +1&lt;/b&gt;. &lt;b&gt;Agonia:&lt;/b&gt; Dobierz kartę.</plPL>
-			<ptBR>&lt;b&gt;+1 de Dano de Feitiço&lt;/b&gt;. &lt;b&gt;Último Suspiro:&lt;/b&gt; Compre um card.</ptBR>
+			<ptBR>&lt;b&gt;+1 de Dano Mágico&lt;/b&gt;. &lt;b&gt;Último Suspiro:&lt;/b&gt; Compre um card.</ptBR>
 			<ruRU>&lt;b&gt;Урон от заклинаний +1&lt;/b&gt;. &lt;b&gt;Предсмертный хрип:&lt;/b&gt; вы берете карту.</ruRU>
 			<zhCN>&lt;b&gt;法术伤害+1&lt;/b&gt;，&lt;b&gt;亡语：&lt;/b&gt;抽一张牌。</zhCN>
 			<zhTW>&lt;b&gt;法術傷害+1&lt;/b&gt;。&lt;b&gt;死亡之聲:&lt;/b&gt;抽一張牌</zhTW>
@@ -12419,7 +12445,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<plPL>+2 do ataku w tej turze.</plPL>
 			<ptBR>+2 de Ataque neste turno.</ptBR>
 			<ruRU>+2 к атаке до конца хода.</ruRU>
-			<zhCN>本回合获得+2攻击力。</zhCN>
+			<zhCN>在本回合中，获得+2攻击力。</zhCN>
 			<zhTW>本回合+2攻擊力</zhTW>
 		</Tag>
 		<Tag enumID="183" name="CARD_SET" type="Int" value="3"/>
@@ -12526,7 +12552,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Devuelve a tu mano a un esbirro amistoso del campo de batalla.</esES>
 			<esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; devuelve un esbirro aliado del campo de batalla a tu mano.</esMX>
 			<frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; renvoie un serviteur allié du champ de bataille et le place dans votre main.</frFR>
-			<itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; fa tornare un altro tuo servitore dal campo di battaglia alla tua mano.</itIT>
+			<itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; fa tornare un altro tuo servitore nella tua mano.</itIT>
 			<koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 전장의 아군 하수인 하나를 내 손으로 다시 가져옵니다.</koKR>
 			<plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Cofnij przyjaznego stronnika z pola bitwy na rękę.</plPL>
 			<ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Devolva um lacaio aliado do campo de batalha à sua mão.</ptBR>
@@ -12757,7 +12783,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Devuelve a tu mano a un esbirro amistoso del campo de batalla.</esES>
 			<esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; devuelve un esbirro aliado del campo de batalla a tu mano.</esMX>
 			<frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; renvoie un serviteur allié du champ de bataille et le place dans votre main.</frFR>
-			<itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; fa tornare un altro tuo servitore dal campo di battaglia alla tua mano.</itIT>
+			<itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; fa tornare un altro tuo servitore nella tua mano.</itIT>
 			<koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 전장의 아군 하수인 하나를 내 손으로 다시 가져옵니다.</koKR>
 			<plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Cofnij przyjaznego stronnika z pola bitwy na rękę.</plPL>
 			<ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Devolva um lacaio aliado do campo de batalha à sua mão.</ptBR>
@@ -13059,10 +13085,32 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<zhTW>他在魚人當中是個傳說。「姆嘎啦嘎啦嘎嘎啦!」他們這麼說。</zhTW>
 		</Tag>
 		<Tag enumID="364" name="HOW_TO_EARN" type="LocString">
+			<deDE>Wird freigeschaltet, wenn Ihr alle Murlocs des Profisets besitzt.</deDE>
 			<enUS>Unlocked when you have all the Murlocs from the Expert Set.</enUS>
+			<esES>Se desbloquea cuando consigues todos los múrlocs del conjunto experto.</esES>
+			<esMX>Se desbloquea cuando tienes a todos los múrlocs del kit experto.</esMX>
+			<frFR>Débloquée lorsque vous avez tous les murlocs du jeu Expert.</frFR>
+			<itIT>Sbloccata ottenendo tutti i Murloc del set Avanzato.</itIT>
+			<koKR>고급 세트의 모든 멀록을 수집하면 잠금 해제</koKR>
+			<plPL>Odblokowane kiedy zdobędziesz wszystkie murloki z zestawu eksperckiego.</plPL>
+			<ptBR>Disponível ao colecionar todos os Murlocs do Conjunto de Perito.</ptBR>
+			<ruRU>Доступно при наличии всех мурлоков из набора эксперта.</ruRU>
+			<zhCN>集齐所有专家级鱼人卡牌后解锁。</zhCN>
+			<zhTW>當你獲得全部專家系列的魚人卡後解鎖。</zhTW>
 		</Tag>
 		<Tag enumID="365" name="HOW_TO_EARN_GOLDEN" type="LocString">
+			<deDE>Wird freigeschaltet, wenn Ihr alle goldenen Murlocs des Basis- und des Profisets besitzt.</deDE>
 			<enUS>Unlocked when you have all the Golden Murlocs from the Expert and Basic Sets.</enUS>
+			<esES>Se desbloquea cuando consigues todos los múrlocs dorados de los conjuntos básico y experto.</esES>
+			<esMX>Se desbloquea cuando tienes a todos los múrlocs dorados de los kits experto y básico.</esMX>
+			<frFR>Débloquée lorsque vous avez tous les murlocs dorés du jeu Expert et du jeu de base.</frFR>
+			<itIT>Sbloccata ottenendo tutti i Murloc Dorati dei set Base e Avanzato.</itIT>
+			<koKR>기본 세트와 고급 세트의 모든 멀록을 수집하면 잠금 해제</koKR>
+			<plPL>Odblokowane kiedy zdobędziesz wszystkie złote murloki z zestawu eksperckiego.</plPL>
+			<ptBR>Disponível ao colecionar todos os Murlocs Dourados do Conjunto de Perito.</ptBR>
+			<ruRU>Доступно при наличии всех «золотых» мурлоков из базового набора и набора эксперта.</ruRU>
+			<zhCN>集齐所有金色专家级和基本级鱼人卡牌后解锁。</zhCN>
+			<zhTW>當你獲得全部基本及專家系列的魚人金卡後解鎖。</zhTW>
 		</Tag>
 		<Tag enumID="252" name="CardTextInPlay" type="LocString">
 			<enUS>Marglahg</enUS>
@@ -13110,7 +13158,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Zniszcz broń przeciwnika.</plPL>
 			<ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Destrua a arma do seu oponente.</ptBR>
 			<ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; уничтожает оружие противника.</ruRU>
-			<zhCN>&lt;b&gt;战吼：&lt;/b&gt;摧毁你的对手的武器。</zhCN>
+			<zhCN>&lt;b&gt;战吼：&lt;/b&gt;摧毁对手的武器。</zhCN>
 			<zhTW>&lt;b&gt;戰吼:&lt;/b&gt;摧毀你對手的武器</zhTW>
 		</Tag>
 		<Tag enumID="351" name="FLAVORTEXT" type="LocString">
@@ -13836,7 +13884,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Otorga +1/+1 y &lt;b&gt;Provocar&lt;/b&gt; a los esbirros adyacentes.</esES>
 			<esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; otorga +1/+1 y &lt;b&gt;Provocación&lt;/b&gt; a los esbirros adyacentes.</esMX>
 			<frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; donne aux serviteurs adjacents +1/+1 et &lt;b&gt;Provocation&lt;/b&gt;.</frFR>
-			<itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; fornisce +1/+1 e &lt;b&gt;Provocazione&lt;/b&gt; ai servitori adiacenti.</itIT>
+			<itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; fornisce &lt;b&gt;Provocazione&lt;/b&gt; e +1/+1 ai servitori adiacenti.</itIT>
 			<koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 양옆의 하수인들에게 +1/+1과 &lt;b&gt;도발&lt;/b&gt;을 부여합니다.</koKR>
 			<plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Daj sąsiednim stronnikom +1/+1 oraz &lt;b&gt;Prowokację&lt;/b&gt;.</plPL>
 			<ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Conceda +1/+1 e &lt;b&gt;Provocar&lt;/b&gt; aos lacaios adjacentes.</ptBR>
@@ -15507,7 +15555,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<esES>&lt;b&gt;Elige una:&lt;/b&gt; Inflige $3 p. de daño a un esbirro, o bien inflige $1 p. de daño y roba una carta.</esES>
 			<esMX>&lt;b&gt;Elige una opción:&lt;/b&gt; inflige $3 de daño a un esbirro o inflige $1 de daño y roba una carta.</esMX>
 			<frFR>&lt;b&gt;Choix des armes :&lt;/b&gt; inflige $3 |4(point, points) de dégâts à un serviteur ; ou inflige $1 |4(point,points) de dégâts à un serviteur et vous piochez une carte.</frFR>
-			<itIT>&lt;b&gt;Scegli:&lt;/b&gt; infligge $3 danni a un servitore o infligge $1 |4(danno,danni) e pesca una carta.</itIT>
+			<itIT>&lt;b&gt;Scegli:&lt;/b&gt; infligge $3 danni a un servitore &lt;b&gt;o&lt;/b&gt; infligge $1 |4(danno,danni) a un servitore e pesca una carta.</itIT>
 			<koKR>&lt;b&gt;선택&lt;/b&gt; - 하수인 하나에게 피해를 $3 줍니다. 또는 피해를 $1 주고 카드를 1장 뽑습니다.</koKR>
 			<plPL>&lt;b&gt;Wybierz jedno:&lt;/b&gt; Zadaj $3 pkt. obrażeń stronnikowi; lub zadaj $1 pkt. obrażeń stronnikowi i dobierz kartę.</plPL>
 			<ptBR>&lt;b&gt;Escolha Um&lt;/b&gt; - Cause $3 de dano a um lacaio; ou cause $1 de dano e compre um card.</ptBR>
@@ -15640,7 +15688,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<esES>&lt;b&gt;Elige una:&lt;/b&gt; Otorga +4 p. de ataque a un esbirro, o bien +4 p. de salud y &lt;b&gt;Provocar&lt;/b&gt;.</esES>
 			<esMX>&lt;b&gt;Elige una opción:&lt;/b&gt; otorga +4 de Ataque o +4 de Salud y &lt;b&gt;Provocación&lt;/b&gt; a un esbirro.</esMX>
 			<frFR>&lt;b&gt;Choix des armes :&lt;/b&gt; donne +4 ATQ à un serviteur ou +4 PV et &lt;b&gt;Provocation&lt;/b&gt;.</frFR>
-			<itIT>&lt;b&gt;Scegli:&lt;/b&gt; +4 Attacco a un servitore o +4 Salute e &lt;b&gt;Provocazione&lt;/b&gt; a un servitore.</itIT>
+			<itIT>&lt;b&gt;Scegli:&lt;/b&gt; +4 Attacco a un servitore &lt;b&gt;o&lt;/b&gt; +4 Salute e &lt;b&gt;Provocazione&lt;/b&gt; a un servitore.</itIT>
 			<koKR>&lt;b&gt;선택&lt;/b&gt; - 하수인 하나에게 공격력을 +4 부여합니다. 또는 생명력 +4와 &lt;b&gt;도발&lt;/b&gt;을 부여합니다.</koKR>
 			<plPL>&lt;b&gt;Wybierz jedno:&lt;/b&gt; Daj stronnikowi +4 do ataku; lub daj +4 do zdrowia oraz &lt;b&gt;Prowokację&lt;/b&gt;.</plPL>
 			<ptBR>&lt;b&gt;Escolha Um&lt;/b&gt; - Conceda +4 de Ataque a um lacaio; ou +4 de Vida e &lt;b&gt;Provocar&lt;/b&gt;.</ptBR>
@@ -15905,7 +15953,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<itIT>&lt;b&gt;Rantolo di Morte:&lt;/b&gt; evoca un Treant 2/2.</itIT>
 			<koKR>죽음의 메아리: 2/2 나무정령 하나 소환</koKR>
 			<plPL>Agonia: Przyzwij drzewca 2/2.</plPL>
-			<ptBR>&lt;b&gt;Último Suspiro:&lt;/b&gt; Evoque um Arvoroso 2/2.</ptBR>
+			<ptBR>Último Suspiro: Evoque um Arvoroso 2/2.</ptBR>
 			<ruRU>Предсмертный хрип: призывает на поле боя древня 2/2.</ruRU>
 			<zhCN>&lt;b&gt;亡语：&lt;/b&gt;召唤一个2/2的树人。</zhCN>
 			<zhTW>死亡之聲:召喚一個2/2的樹人</zhTW>
@@ -15962,7 +16010,7 @@ Infligge 2 danni all'eroe nemico.</itIT>
 			<esMX>&lt;b&gt;Elige una opción:&lt;/b&gt; otorga +1/+1 a tus esbirros o invoca una Pantera 3/2.</esMX>
 			<frFR>&lt;b&gt;Choix des armes :&lt;/b&gt;
 donne à vos serviteurs +1/+1 ou invoque une panthère 3/2.</frFR>
-			<itIT>&lt;b&gt;Scegli:&lt;/b&gt; +1/+1 ai tuoi servitori o evoca una Pantera 3/2.</itIT>
+			<itIT>&lt;b&gt;Scegli:&lt;/b&gt; +1/+1 ai tuoi servitori &lt;b&gt;o&lt;/b&gt; evoca una Pantera 3/2.</itIT>
 			<koKR>&lt;b&gt;선택&lt;/b&gt; - 내 하수인들에게 +1/+1을 부여합니다. 또는 3/2 표범을 1마리 소환합니다.</koKR>
 			<plPL>&lt;b&gt;Wybierz jedno:&lt;/b&gt; Daj swoim stronnikom +1/+1; lub przyzwij panterę 3/2.</plPL>
 			<ptBR>&lt;b&gt;Escolha Um&lt;/b&gt; - Conceda +1/+1 aos seus lacaios ou evoque uma Pantera 3/2.</ptBR>
@@ -16345,7 +16393,7 @@ donne à vos serviteurs +1/+1 ou invoque une panthère 3/2.</frFR>
 			<esES>&lt;b&gt;Elige una:&lt;/b&gt; Obtén 2 cristales de maná, o bien roba 3 cartas.</esES>
 			<esMX>&lt;b&gt;Elige una opción:&lt;/b&gt; obtén 2 Cristales de maná o roba 3 cartas.</esMX>
 			<frFR>&lt;b&gt;Choix des armes :&lt;/b&gt; vous gagnez 2 cristaux de mana ou vous piochez 3 cartes.</frFR>
-			<itIT>&lt;b&gt;Scegli:&lt;/b&gt; ottieni 2 Cristalli di Mana o pesca 3 carte.</itIT>
+			<itIT>&lt;b&gt;Scegli:&lt;/b&gt; fornisce 2 Cristalli di Mana &lt;b&gt;o&lt;/b&gt; pesca 3 carte.</itIT>
 			<koKR>&lt;b&gt;선택&lt;/b&gt; - 마나 수정을 2개 획득합니다. 또는 카드를 3장 뽑습니다.</koKR>
 			<plPL>&lt;b&gt;Wybierz jedno:&lt;/b&gt; Otrzymujesz 2 kryształy many; lub dobierz 3 karty.</plPL>
 			<ptBR>&lt;b&gt;Escolha Um&lt;/b&gt; - Receba 2 Cristais de Mana; ou Compre 3 cards.</ptBR>
@@ -16399,7 +16447,7 @@ donne à vos serviteurs +1/+1 ou invoque une panthère 3/2.</frFR>
 			<esES>Obtén 2 cristales de maná.</esES>
 			<esMX>Obtienes 2 Cristales de maná.</esMX>
 			<frFR>Vous gagnez 2 cristaux de mana.</frFR>
-			<itIT>Ottieni 2 Cristalli di Mana.</itIT>
+			<itIT>Fornisce 2 Cristalli di Mana.</itIT>
 			<koKR>마나 수정을 2개 획득합니다.</koKR>
 			<plPL>Otrzymujesz 2 kryształy many.</plPL>
 			<ptBR>Receba 2 Cristais de Mana.</ptBR>
@@ -16472,7 +16520,7 @@ donne à vos serviteurs +1/+1 ou invoque une panthère 3/2.</frFR>
 			<esES>&lt;b&gt;Elige una:&lt;/b&gt; &lt;b&gt;Cargar&lt;/b&gt;, o bien + 2 p. de salud y &lt;b&gt;Provocar&lt;/b&gt;.</esES>
 			<esMX>&lt;b&gt;Elige una opción:&lt;/b&gt; &lt;b&gt;Carga&lt;/b&gt; o +2 de Salud y &lt;b&gt;Provocación&lt;/b&gt;.</esMX>
 			<frFR>&lt;b&gt;Choix des armes :&lt;/b&gt; &lt;b&gt;Charge&lt;/b&gt; ou confère +2 PV et &lt;b&gt;Provocation&lt;/b&gt;.</frFR>
-			<itIT>&lt;b&gt;Scegli:&lt;/b&gt; il Druido dell'Unghia ottiene &lt;b&gt;Carica&lt;/b&gt; o +2 Salute e &lt;b&gt;Provocazione&lt;/b&gt;.</itIT>
+			<itIT>&lt;b&gt;Scegli:&lt;/b&gt; ottiene &lt;b&gt;Carica&lt;/b&gt; &lt;b&gt;o&lt;/b&gt; +2 Salute e &lt;b&gt;Provocazione&lt;/b&gt;.</itIT>
 			<koKR>&lt;b&gt;선택 - &lt;/b&gt;
 &lt;b&gt;돌진&lt;/b&gt; 또는 생명력 +2와 &lt;b&gt;도발&lt;/b&gt;</koKR>
 			<plPL>&lt;b&gt;Wybierz jedno:&lt;/b&gt; &lt;b&gt;Szarża&lt;/b&gt;; lub +2 do zdrowia oraz &lt;b&gt;Prowokacja&lt;/b&gt;.</plPL>
@@ -16684,7 +16732,7 @@ donne à vos serviteurs +1/+1 ou invoque une panthère 3/2.</frFR>
 			<esES>&lt;b&gt;Elige una:&lt;/b&gt; Inflige 2 p. de daño, o bien &lt;b&gt;Silencia&lt;/b&gt; a un esbirro.</esES>
 			<esMX>&lt;b&gt;Elige una opción:&lt;/b&gt; inflige 2 de daño o &lt;b&gt;Silencia&lt;/b&gt; a un esbirro.</esMX>
 			<frFR>&lt;b&gt;Choix des armes :&lt;/b&gt; inflige 2 points de dégâts ou réduit au &lt;b&gt;Silence&lt;/b&gt; un serviteur.</frFR>
-			<itIT>&lt;b&gt;Scegli:&lt;/b&gt; infligge 2 danni o &lt;b&gt;Silenzia&lt;/b&gt; un servitore.</itIT>
+			<itIT>&lt;b&gt;Scegli:&lt;/b&gt; infligge 2 danni &lt;b&gt;o&lt;/b&gt; &lt;b&gt;Silenzia&lt;/b&gt; un servitore.</itIT>
 			<koKR>&lt;b&gt;선택&lt;/b&gt; - 피해를 2 줍니다. 또는 하수인 하나를 &lt;b&gt;침묵&lt;/b&gt;시킵니다.</koKR>
 			<plPL>&lt;b&gt;Wybierz jedno:&lt;/b&gt; Zadaj 2 pkt. obrażeń; lub &lt;b&gt;Wycisz&lt;/b&gt; stronnika.</plPL>
 			<ptBR>&lt;b&gt;Escolha Um&lt;/b&gt; - Cause 2 de dano; ou &lt;b&gt;Silencie&lt;/b&gt; um lacaio.</ptBR>
@@ -16821,7 +16869,7 @@ donne à vos serviteurs +1/+1 ou invoque une panthère 3/2.</frFR>
 			<esES>Obtén 2 cristales de maná, solo este turno.</esES>
 			<esMX>Obtienes 2 Cristales de maná solo por este turno.</esMX>
 			<frFR>Vous gagnez 2 cristaux de mana pour ce tour uniquement.</frFR>
-			<itIT>Ottieni 2 Cristalli di Mana solo per questo turno.</itIT>
+			<itIT>Fornisce 2 Cristalli di Mana solo per questo turno.</itIT>
 			<koKR>이번 턴에만 마나 수정을 2개 획득합니다.</koKR>
 			<plPL>Otrzymujesz 2 kryształy many w tej turze.</plPL>
 			<ptBR>Receba 2 Cristais de Mana somente neste turno.</ptBR>
@@ -17006,7 +17054,7 @@ donne à vos serviteurs +1/+1 ou invoque une panthère 3/2.</frFR>
 +5 de Ataque o +5 de Salud y &lt;b&gt;Provocación&lt;/b&gt;.</esMX>
 			<frFR>&lt;b&gt;Choix des armes :&lt;/b&gt; 
 +5 ATQ ou +5 PV et &lt;b&gt;Provocation&lt;/b&gt;.</frFR>
-			<itIT>&lt;b&gt;Scegli:&lt;/b&gt; l'Antico della Guerra ottiene +5 Salute e &lt;b&gt;Provocazione&lt;/b&gt; o +5 Attacco.</itIT>
+			<itIT>&lt;b&gt;Scegli:&lt;/b&gt; ottiene +5 Salute e &lt;b&gt;Provocazione&lt;/b&gt; &lt;b&gt;o&lt;/b&gt; +5 Attacco.</itIT>
 			<koKR>&lt;b&gt;선택&lt;/b&gt; -
 공격력 +5 또는 생명력 +5와 &lt;b&gt;도발&lt;/b&gt; 능력을 얻습니다.</koKR>
 			<plPL>&lt;b&gt;Wybierz jedno:&lt;/b&gt; 
@@ -18504,7 +18552,7 @@ Magiczna siła, boję się...”
 			<itIT>&lt;b&gt;+1 Danni Magici&lt;/b&gt;. &lt;b&gt;Grido di Battaglia:&lt;/b&gt; pesca una carta.</itIT>
 			<koKR>&lt;b&gt;주문 공격력 +1&lt;/b&gt;. &lt;b&gt;전투의 함성:&lt;/b&gt; 카드를 1장 뽑습니다.</koKR>
 			<plPL>&lt;b&gt;Obrażenia zaklęć +1&lt;/b&gt;. &lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Dobierz kartę.</plPL>
-			<ptBR>&lt;b&gt;+1 de Dano de Feitiço&lt;/b&gt;. &lt;b&gt;Grito de Guerra:&lt;/b&gt; Compre um card.</ptBR>
+			<ptBR>&lt;b&gt;+1 de Dano Mágico&lt;/b&gt;. &lt;b&gt;Grito de Guerra:&lt;/b&gt; Compre um card.</ptBR>
 			<ruRU>&lt;b&gt;Урон от заклинаний +1&lt;/b&gt;. &lt;b&gt;Боевой клич:&lt;/b&gt; вы берете карту.</ruRU>
 			<zhCN>&lt;b&gt;法术伤害+1&lt;/b&gt;，&lt;b&gt;战吼：&lt;/b&gt;抽一张牌。</zhCN>
 			<zhTW>&lt;b&gt;法術傷害+1&lt;/b&gt;。&lt;b&gt;戰吼:&lt;/b&gt;抽一張牌</zhTW>
@@ -18613,13 +18661,13 @@ Magiczna siła, boję się...”
 			<zhTW>寒冰護體</zhTW>
 		</Tag>
 		<Tag enumID="184" name="CARDTEXT_INHAND" type="LocString">
-			<deDE>&lt;b&gt;Geheimnis:&lt;/b&gt; Euer Held erhält 8 Rüstung, wenn er angegriffen wird.</deDE>
+			<deDE>&lt;b&gt;Geheimnis:&lt;/b&gt; Wenn Euer Held angegriffen wird, erhält er 8 Rüstung.</deDE>
 			<enUS>&lt;b&gt;Secret:&lt;/b&gt; As soon as your hero is attacked, gain 8 Armor.</enUS>
 			<esES>&lt;b&gt;Secreto:&lt;/b&gt; Tu héroe obtiene 8 p. de armadura cuando vaya a recibir un ataque.</esES>
 			<esMX>&lt;b&gt;Secreto:&lt;/b&gt; cuando atacan a tu héroe, obtiene 8 de Armadura.</esMX>
 			<frFR>&lt;b&gt;Secret :&lt;/b&gt; dès que votre héros est attaqué, il gagne 8 points d’armure.</frFR>
 			<itIT>&lt;b&gt;Segreto:&lt;/b&gt; quando il tuo eroe viene attaccato, ottiene 8 Armatura.</itIT>
-			<koKR>&lt;b&gt;비밀:&lt;/b&gt; 내 영웅이 공격받으면 방어도를 +8 얻습니다.</koKR>
+			<koKR>&lt;b&gt;비밀:&lt;/b&gt; 내 영웅이 공격받은 직후, 방어도를 +8 얻습니다.</koKR>
 			<plPL>&lt;b&gt;Sekret:&lt;/b&gt; Kiedy tylko twój bohater zostanie zaatakowany, otrzymujesz 8 pkt. pancerza.</plPL>
 			<ptBR>&lt;b&gt;Segredo:&lt;/b&gt; Assim que o seu herói for atacado, receba 8 de Armadura.</ptBR>
 			<ruRU>&lt;b&gt;Секрет:&lt;/b&gt; когда ваш герой будет атакован, он получит +8 к броне.</ruRU>
@@ -19168,7 +19216,7 @@ Magiczna siła, boję się...”
 			<esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Descarta una carta aleatoria.</esES>
 			<esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; descarta una carta aleatoria.</esMX>
 			<frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; vous défausse d’une carte aléatoire.</frFR>
-			<itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; scarta una carta casuale dalla tua mano.</itIT>
+			<itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; scarta una carta casuale.</itIT>
 			<koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 무작위로 카드를 1장 버립니다.</koKR>
 			<plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Odrzuć losową kartę.</plPL>
 			<ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Descarte um card aleatório.</ptBR>
@@ -20338,7 +20386,7 @@ Magiczna siła, boję się...”
 			<esES>Coloca una copia de un esbirro aleatorio del mazo de tu oponente en el campo de batalla.</esES>
 			<esMX>Pon una copia de un esbirro aleatorio del mazo de tu adversario en el campo de batalla.</esMX>
 			<frFR>Place une copie d’un serviteur aléatoire du jeu de votre adversaire sur le champ de bataille.</frFR>
-			<itIT>Metti sul campo di battaglia una copia di un servitore casuale dal mazzo dell'avversario.</itIT>
+			<itIT>Mette sul campo di battaglia una copia di un servitore casuale dal mazzo dell'avversario.</itIT>
 			<koKR>상대편의 덱에서 무작위 하수인 하나를 복사하여 내 전장에 놓습니다.</koKR>
 			<plPL>Umieść kopię losowego stronnika z talii przeciwnika na polu bitwy.</plPL>
 			<ptBR>Coloque uma cópia de um lacaio aleatório do deck do oponente no campo de batalha.</ptBR>
@@ -22085,12 +22133,12 @@ Magiczna siła, boję się...”
 			<zhTW>護甲鍛造師</zhTW>
 		</Tag>
 		<Tag enumID="184" name="CARDTEXT_INHAND" type="LocString">
-			<deDE>Ihr erhaltet jedes Mal 1 Rüstung, wenn ein befreundeter Diener Schaden erleidet.</deDE>
+			<deDE>Erhaltet jedes Mal 1 Rüstung, wenn ein befreundeter Diener Schaden erleidet.</deDE>
 			<enUS>Whenever a friendly minion takes damage, gain 1 Armor.</enUS>
 			<esES>Tu héroe obtiene 1 p. de armadura cada vez que un esbirro amistoso recibe daño.</esES>
 			<esMX>Cuando un esbirro aliado recibe daño, obtienes 1 de Armadura.</esMX>
 			<frFR>Chaque fois qu’un serviteur allié subit des dégâts, vous gagnez 1 point d’armure.</frFR>
-			<itIT>Ottieni 1 Armatura quando un tuo servitore subisce danni.</itIT>
+			<itIT>Fornisce 1 Armatura quando un tuo servitore subisce danni.</itIT>
 			<koKR>아군 하수인 하나가 피해를 입을 때마다 방어도를 +1 얻습니다.</koKR>
 			<plPL>Otrzymujesz 1 pkt. pancerza za każdym razem, gdy przyjazny stronnik zostanie zraniony.</plPL>
 			<ptBR>Sempre que um lacaio aliado receber dano, receba 1 de Armadura.</ptBR>
@@ -22434,7 +22482,7 @@ Magiczna siła, boję się...”
 			<esES>Inflige 1 p. de daño a un esbirro por cada punto de armadura que tengas.</esES>
 			<esMX>Inflige 1 de daño a un esbirro por cada punto de Armadura que tienes.</esMX>
 			<frFR>Inflige 1 point de dégâts à un serviteur pour chaque point d’Armure que vous avez.</frFR>
-			<itIT>Infligge 1 danno a un servitore per ogni punto Armatura che possiedi.</itIT>
+			<itIT>Infligge 1 danno a un servitore per ogni punto Armatura del tuo eroe.</itIT>
 			<koKR>내가 가진 방어도만큼 하수인 하나에게 피해를 줍니다.</koKR>
 			<plPL>Zadaj 1 pkt. obrażeń stronnikowi za każdy posiadany punkt pancerza.</plPL>
 			<ptBR>Cause 1 de dano a um lacaio para cada ponto de Armadura que você tiver.</ptBR>
@@ -23580,7 +23628,7 @@ Magiczna siła, boję się...”
 			<zhTW>你每次打這張牌時，記得把牌的名稱大喊出來。</zhTW>
 		</Tag>
 		<Tag enumID="342" name="ARTISTNAME" type="String">Linggar Bramanty</Tag>
-		<Tag enumID="48" name="COST" type="Int" value="2"/>
+		<Tag enumID="48" name="COST" type="Int" value="3"/>
 		<Tag enumID="183" name="CARD_SET" type="Int" value="3"/>
 		<Tag enumID="199" name="CLASS" type="Int" value="3"/>
 		<Tag enumID="202" name="CARDTYPE" type="Int" value="5"/>
@@ -24183,7 +24231,7 @@ Magiczna siła, boję się...”
 			<esES>Cada vez que lanzas un hechizo, coloca un hechizo &quot;Bola de Fuego&quot; en tu mano.</esES>
 			<esMX>Cada vez que lanzas un hechizo, pon un hechizo &quot;Bola de Fuego&quot; en tu mano.</esMX>
 			<frFR>Chaque fois que vous lancez un sort, place un sort « boule de feu » dans votre main.</frFR>
-			<itIT>Ottieni una carta Palla di Fuoco quando lanci una Magia.</itIT>
+			<itIT>Fornisce una carta Palla di Fuoco quando lanci una Magia.</itIT>
 			<koKR>내가 주문을 시전할 때마다 '화염구' 카드 1장을 손으로 가져옵니다.</koKR>
 			<plPL>Za każdym razem kiedy rzucasz zaklęcie, weź do ręki zaklęcie „Kula ognia”.</plPL>
 			<ptBR>Sempre que você lançar um feitiço, coloque uma &quot;Bola de Fogo&quot; na sua mão.</ptBR>
@@ -24476,7 +24524,7 @@ Magiczna siła, boję się...”
 			<itIT>&lt;b&gt;+5 Danni Magici&lt;/b&gt;</itIT>
 			<koKR>&lt;b&gt;주문 공격력 +5&lt;/b&gt;</koKR>
 			<plPL>&lt;b&gt;Obrażenia zaklęć +5&lt;/b&gt;</plPL>
-			<ptBR>&lt;b&gt;+5 de Dano de Feitiço&lt;/b&gt;</ptBR>
+			<ptBR>&lt;b&gt;+5 de Dano Mágico&lt;/b&gt;</ptBR>
 			<ruRU>&lt;b&gt;Урон от заклинаний +5&lt;/b&gt;</ruRU>
 			<zhCN>&lt;b&gt;法术伤害+5&lt;/b&gt;</zhCN>
 			<zhTW>&lt;b&gt;法術傷害+5&lt;/b&gt;</zhTW>
@@ -24710,7 +24758,7 @@ Magiczna siła, boję się...”
 			<esES>&lt;b&gt;Viento Furioso, Sobrecarga:&lt;/b&gt; (2)</esES>
 			<esMX>&lt;b&gt;Viento furioso, Sobrecarga:&lt;/b&gt; (2)</esMX>
 			<frFR>&lt;b&gt;Furie des vents. Surcharge :&lt;/b&gt; (2)</frFR>
-			<itIT>&lt;b&gt;Furia del Vento, Sovraccarico:&lt;/b&gt; (2) Cristalli di Mana.</itIT>
+			<itIT>&lt;b&gt;Furia del Vento&lt;/b&gt;. &lt;b&gt;Sovraccarico:&lt;/b&gt; (2) Cristalli di Mana.</itIT>
 			<koKR>&lt;b&gt;질풍, 과부하:&lt;/b&gt; (2)</koKR>
 			<plPL>&lt;b&gt;Furia wichru, Przeciążenie:&lt;/b&gt; (2)</plPL>
 			<ptBR>&lt;b&gt;Fúria dos Ventos, Sobrecarga:&lt;/b&gt; (2)</ptBR>
@@ -24983,7 +25031,7 @@ Magiczna siła, boję się...”
 			<esES>&lt;b&gt;Elige una:&lt;/b&gt; Otorga +2/+2 a tus otros esbirros, o bien invoca dos antárboles 2/2 con &lt;b&gt;Provocar&lt;/b&gt;.</esES>
 			<esMX>&lt;b&gt;Elige una opción:&lt;/b&gt; otorga +2/+2 a tus otros esbirros o invoca dos Antárboles 2/2 con &lt;b&gt;Provocación&lt;/b&gt;.</esMX>
 			<frFR>&lt;b&gt;Choix des armes :&lt;/b&gt; confère +2/+2 à vos autres serviteurs ou invoque deux tréants 2/2 avec &lt;b&gt;Provocation&lt;/b&gt;.</frFR>
-			<itIT>&lt;b&gt;Scegli:&lt;/b&gt; +2/+2 a tutti gli altri tuoi servitori o evoca due Treant 2/2 con &lt;b&gt;Provocazione&lt;/b&gt;.</itIT>
+			<itIT>&lt;b&gt;Scegli:&lt;/b&gt; +2/+2 a tutti gli altri tuoi servitori &lt;b&gt;o&lt;/b&gt; evoca due Treant 2/2 con &lt;b&gt;Provocazione&lt;/b&gt;.</itIT>
 			<koKR>&lt;b&gt;선택&lt;/b&gt; - 내 다른 하수인들에게 +2/+2를 부여합니다. 또는 &lt;b&gt;도발&lt;/b&gt; 능력이 있는 2/2 나무정령을 둘 소환합니다.</koKR>
 			<plPL>&lt;b&gt;Wybierz jedno:&lt;/b&gt; Daj wszystkim swoim pozostałym stronnikom +2/+2; lub przyzwij dwa drzewce 2/2 z &lt;b&gt;Prowokacją&lt;/b&gt;.</plPL>
 			<ptBR>&lt;b&gt;Escolha Um&lt;/b&gt; - Conceda +2/+2 aos seus outros lacaios ou evoque dois Arvorosos 2/2 com &lt;b&gt;Provocar&lt;/b&gt;.</ptBR>
@@ -26497,7 +26545,7 @@ Magiczna siła, boję się...”
 			<esES>Otorga 5 p. de armadura. Roba una carta.</esES>
 			<esMX>Obtienes 5 de Armadura. Roba una carta.</esMX>
 			<frFR>Vous gagnez 5 points d’armure et vous piochez une carte.</frFR>
-			<itIT>Ottieni 5 Armatura. Pesca una carta.</itIT>
+			<itIT>Fornisce 5 Armatura. Pesca una carta.</itIT>
 			<koKR>방어도를 +5 얻습니다. 카드를 1장 뽑습니다.</koKR>
 			<plPL>Otrzymujesz 5 pkt. pancerza. Dobierz kartę.</plPL>
 			<ptBR>Receba 5 de Armadura. Compre um card.</ptBR>
@@ -27097,7 +27145,7 @@ Magiczna siła, boję się...”
 			<esES>Cada vez que juegas una carta, invoca una Llama de Azzinoth 2/1.</esES>
 			<esMX>Cada vez que juegas una carta, invoca una Llama de Azzinoth 2/1.</esMX>
 			<frFR>Quand vous jouez une carte, invoque une Flamme d’Azzinoth 2/1.</frFR>
-			<itIT>Quando giochi una carta, evoca una Fiamma di Azzinoth 2/1.</itIT>
+			<itIT>Evoca una Fiamma di Azzinoth 2/1 quando giochi una carta.</itIT>
 			<koKR>내가 카드를 낼 때마다 2/1 아지노스의 불꽃을 하나 소환합니다.</koKR>
 			<plPL>Za każdym razem gdy zagrywasz kartę, przyzywasz Płomień Azzinotha 2/1.</plPL>
 			<ptBR>Sempre que você jogar um card, evoque uma Labareda de Azzinoth 2/1.</ptBR>
@@ -27763,25 +27811,25 @@ Magiczna siła, boję się...”
 			<zhTW>心靈鑽刺</zhTW>
 		</Tag>
 		<Tag enumID="184" name="CARDTEXT_INHAND" type="LocString">
-			<deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt; 
- Verursacht 2 Schaden.</deDE>
+			<deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt;
+Verursacht 2 Schaden.</deDE>
 			<enUS>&lt;b&gt;Hero Power&lt;/b&gt; 
  Deal 2 damage.</enUS>
-			<esES>&lt;b&gt;Poder de héroe&lt;/b&gt; 
- Inflige 2 p. de daño.</esES>
-			<esMX>&lt;b&gt;Poder de héroe&lt;/b&gt; 
- Inflige de 2 daño.</esMX>
-			<frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt; 
+			<esES>&lt;b&gt;Poder de héroe&lt;/b&gt;
+Inflige 2 p. de daño.</esES>
+			<esMX>&lt;b&gt;Poder de héroe&lt;/b&gt;
+Inflige 2 de daño.</esMX>
+			<frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt;
 Inflige 2 points de dégâts.</frFR>
-			<itIT>&lt;b&gt;Potere Eroe&lt;/b&gt; 
+			<itIT>&lt;b&gt;Potere Eroe&lt;/b&gt;
 Infligge 2 danni.</itIT>
-			<koKR>&lt;b&gt;영웅 능력&lt;/b&gt; 
- 피해를 2 줍니다.</koKR>
-			<plPL>&lt;b&gt;Moc specjalna&lt;/b&gt; 
- Zadaj 2 pkt. obrażeń.</plPL>
-			<ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt; 
- Cause 2 de dano.</ptBR>
-			<ruRU>&lt;b&gt;Сила героя&lt;/b&gt; 
+			<koKR>&lt;b&gt;영웅 능력&lt;/b&gt;
+피해를 2 줍니다.</koKR>
+			<plPL>&lt;b&gt;Moc specjalna&lt;/b&gt;
+Zadaj 2 pkt. obrażeń.</plPL>
+			<ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt;
+Cause 2 de dano.</ptBR>
+			<ruRU>&lt;b&gt;Сила героя&lt;/b&gt;
  Наносит 2 ед. урона.</ruRU>
 			<zhCN>&lt;b&gt;英雄技能&lt;/b&gt;
 造成2点伤害。</zhCN>
@@ -27813,25 +27861,25 @@ Infligge 2 danni.</itIT>
 			<zhTW>心靈碎裂</zhTW>
 		</Tag>
 		<Tag enumID="184" name="CARDTEXT_INHAND" type="LocString">
-			<deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt; 
- Verursacht 3 Schaden.</deDE>
+			<deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt;
+Verursacht 3 Schaden.</deDE>
 			<enUS>&lt;b&gt;Hero Power&lt;/b&gt; 
  Deal 3 damage.</enUS>
-			<esES>&lt;b&gt;Poder de héroe&lt;/b&gt; 
- Inflige 3 p. de daño.</esES>
-			<esMX>&lt;b&gt;Poder de héroe&lt;/b&gt; 
- Inflige de 3 daño.</esMX>
-			<frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt; 
+			<esES>&lt;b&gt;Poder de héroe&lt;/b&gt;
+Inflige 3 p. de daño.</esES>
+			<esMX>&lt;b&gt;Poder de héroe&lt;/b&gt;
+Inflige 3 de daño.</esMX>
+			<frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt;
 Inflige 3 points de dégâts.</frFR>
-			<itIT>&lt;b&gt;Potere Eroe&lt;/b&gt; 
+			<itIT>&lt;b&gt;Potere Eroe&lt;/b&gt;
 Infligge 3 danni.</itIT>
-			<koKR>&lt;b&gt;영웅 능력&lt;/b&gt; 
- 피해를 3 줍니다.</koKR>
-			<plPL>&lt;b&gt;Moc specjalna&lt;/b&gt; 
- Zadaj 3 pkt. obrażeń.</plPL>
-			<ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt; 
- Cause 3 de dano.</ptBR>
-			<ruRU>&lt;b&gt;Сила героя&lt;/b&gt; 
+			<koKR>&lt;b&gt;영웅 능력&lt;/b&gt;
+피해를 3 줍니다.</koKR>
+			<plPL>&lt;b&gt;Moc specjalna&lt;/b&gt;
+Zadaj 3 pkt. obrażeń.</plPL>
+			<ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt;
+Cause 3 de dano.</ptBR>
+			<ruRU>&lt;b&gt;Сила героя&lt;/b&gt;
  Наносит 3 ед. урона.</ruRU>
 			<zhCN>&lt;b&gt;英雄技能&lt;/b&gt;
 造成3点伤害。</zhCN>
@@ -28057,25 +28105,25 @@ Infligge 3 danni.</itIT>
 			<zhTW>煉獄!</zhTW>
 		</Tag>
 		<Tag enumID="184" name="CARDTEXT_INHAND" type="LocString">
-			<deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt; 
- Beschwört eine Höllenbestie (6/6).</deDE>
+			<deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt;
+Beschwört eine Höllenbestie (6/6).</deDE>
 			<enUS>&lt;b&gt;Hero Power&lt;/b&gt; 
  Summon a 6/6 Infernal.</enUS>
-			<esES>&lt;b&gt;Poder de héroe&lt;/b&gt; 
- Invoca a un infernal 6/6.</esES>
-			<esMX>&lt;b&gt;Poder de héroe&lt;/b&gt; 
- Invoca un Infernal 6/6.</esMX>
-			<frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt; 
+			<esES>&lt;b&gt;Poder de héroe&lt;/b&gt;
+Invoca un infernal 6/6.</esES>
+			<esMX>&lt;b&gt;Poder de héroe&lt;/b&gt;
+Invoca un Infernal 6/6.</esMX>
+			<frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt;
 Invoque un infernal 6/6.</frFR>
 			<itIT>&lt;b&gt;Potere Eroe&lt;/b&gt;
 Evoca un Infernale 6/6.</itIT>
-			<koKR>&lt;b&gt;영웅 능력&lt;/b&gt; 
- 6/6 지옥불정령을 하나 소환합니다.</koKR>
-			<plPL>&lt;b&gt;Moc specjalna&lt;/b&gt; 
- Przyzwij infernala 6/6.</plPL>
-			<ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt; 
- Evoque um Infernal 6/6.</ptBR>
-			<ruRU>&lt;b&gt;Сила героя&lt;/b&gt; 
+			<koKR>&lt;b&gt;영웅 능력&lt;/b&gt;
+6/6 지옥불정령을 하나 소환합니다.</koKR>
+			<plPL>&lt;b&gt;Moc specjalna&lt;/b&gt;
+Przyzwij infernala 6/6.</plPL>
+			<ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt;
+Evoque um Infernal 6/6.</ptBR>
+			<ruRU>&lt;b&gt;Сила героя&lt;/b&gt;
  Призывает на поле боя инфернала 6/6.</ruRU>
 			<zhCN>&lt;b&gt;英雄技能&lt;/b&gt;
 召唤一个6/6的地狱火。</zhCN>
@@ -28355,7 +28403,7 @@ Evoca un Infernale 6/6.</itIT>
 			<esES>Obtienes 1 cristal de maná solo para este turno.</esES>
 			<esMX>Obtienes 1 Cristal de maná solo en este turno.</esMX>
 			<frFR>Confère 1 cristal de mana pendant ce tour uniquement.</frFR>
-			<itIT>Ottieni 1 Cristallo di Mana solo per questo turno.</itIT>
+			<itIT>Fornisce 1 Cristallo di Mana solo per questo turno.</itIT>
 			<koKR>이번 턴에만 마나 수정을 1개 획득합니다.</koKR>
 			<plPL>Otrzymujesz 1 kryształ many w tej turze.</plPL>
 			<ptBR>Receba 1 Cristal de Mana somente neste turno.</ptBR>
@@ -29223,7 +29271,7 @@ Evoca un Infernale 6/6.</itIT>
 			<esES>&lt;b&gt;Elige una:&lt;/b&gt; Inflige $5 p. de daño a un esbirro, o bien inflige $2 p. de daño a todos los esbirros enemigos.</esES>
 			<esMX>&lt;b&gt;Elige una opción:&lt;/b&gt; inflige $5 de daño a un esbirro o $2 de daño a todos los esbirros enemigos.</esMX>
 			<frFR>&lt;b&gt;Choix des armes :&lt;/b&gt; inflige $5 |4(point,points) de dégâts à un serviteur ; ou $2 |4(point,points) de dégâts à tous les serviteurs adverses.</frFR>
-			<itIT>&lt;b&gt;Scegli:&lt;/b&gt; infligge $5 danni a un servitore o $2 danni a tutti i servitori nemici.</itIT>
+			<itIT>&lt;b&gt;Scegli:&lt;/b&gt; infligge $5 danni a un servitore &lt;b&gt;o&lt;/b&gt; $2 danni a tutti i servitori nemici.</itIT>
 			<koKR>&lt;b&gt;선택 -&lt;/b&gt; 하수인 하나에게 피해를 $5 줍니다. 또는 모든 적 하수인에게 피해를 $2 줍니다.</koKR>
 			<plPL>&lt;b&gt;Wybierz jedno:&lt;/b&gt; Zadaj $5 pkt. obrażeń stronnikowi; lub zadaj $2 pkt. obrażeń wszystkim wrogim stronnikom.</plPL>
 			<ptBR>&lt;b&gt;Escolha Um&lt;/b&gt; - Cause $5 de dano a um lacaio ou $2 de dano a todos os lacaios inimigos.</ptBR>
@@ -29348,7 +29396,7 @@ Evoca un Infernale 6/6.</itIT>
 			<esES>&lt;b&gt;Elige una:&lt;/b&gt; Roba 2 cartas, o bien restaura 5 p. de salud.</esES>
 			<esMX>&lt;b&gt;Elige una opción:&lt;/b&gt; roba 2 cartas o restaura 5 de Salud.</esMX>
 			<frFR>&lt;b&gt;Choix des armes :&lt;/b&gt; rend 5 points de vie ou vous piochez 2 cartes.</frFR>
-			<itIT>&lt;b&gt;Scegli:&lt;/b&gt; pesca 2 carte o rigenera 5 Salute.</itIT>
+			<itIT>&lt;b&gt;Scegli:&lt;/b&gt; pesca 2 carte &lt;b&gt;o&lt;/b&gt; rigenera 5 Salute.</itIT>
 			<koKR>&lt;b&gt;선택 -&lt;/b&gt; 카드를 2장 뽑습니다. 또는 생명력을 5 회복시킵니다.</koKR>
 			<plPL>&lt;b&gt;Wybierz jedno:&lt;/b&gt; Dobierz 2 karty; lub przywróć 5 pkt. zdrowia.</plPL>
 			<ptBR>&lt;b&gt;Escolha Um&lt;/b&gt; - Compre 2 cards; ou Restaure 5 de Vida.</ptBR>
@@ -29513,7 +29561,7 @@ Evoca un Infernale 6/6.</itIT>
 			<esES>&lt;b&gt;Viento Furioso, Cargar, Escudo divino, Provocar&lt;/b&gt;</esES>
 			<esMX>&lt;b&gt;Viento furioso, Carga, Escudo divino, Provocación&lt;/b&gt;</esMX>
 			<frFR>&lt;b&gt;Furie des vents, Charge, Bouclier divin, Provocation&lt;/b&gt;</frFR>
-			<itIT>&lt;b&gt;Furia del Vento, Carica, Scudo Divino, Provocazione&lt;/b&gt;</itIT>
+			<itIT>&lt;b&gt;Furia del Vento&lt;/b&gt;. &lt;b&gt;Carica&lt;/b&gt;. &lt;b&gt;Scudo Divino&lt;/b&gt;. &lt;b&gt;Provocazione&lt;/b&gt;</itIT>
 			<koKR>&lt;b&gt;질풍, 돌진, 도발, 천상의 보호막&lt;/b&gt;</koKR>
 			<plPL>&lt;b&gt;Furia wichru, Szarża, Boska tarcza, Prowokacja&lt;/b&gt;</plPL>
 			<ptBR>&lt;b&gt;Fúria dos Ventos, Investida, Escudo Divino, Provocar&lt;/b&gt;</ptBR>
@@ -29832,10 +29880,32 @@ Evoca un Infernale 6/6.</itIT>
 			<zhTW>海盜和鸚鵡，就像兔妖跟蘿蔔一樣，總是形影不離。</zhTW>
 		</Tag>
 		<Tag enumID="364" name="HOW_TO_EARN" type="LocString">
+			<deDE>Wird freigeschaltet, wenn Ihr alle Piraten des Profisets besitzt.</deDE>
 			<enUS>Unlocked when you have all the Pirates from the Expert Set.</enUS>
+			<esES>Se desbloquea cuando consigues todos los piratas del conjunto experto.</esES>
+			<esMX>Se desbloquea cuando tienes a todos los piratas del kit experto.</esMX>
+			<frFR>Débloquée lorsque vous avez tous les pirates du jeu Expert.</frFR>
+			<itIT>Sbloccata ottenendo tutti i Pirati del set Avanzato.</itIT>
+			<koKR>고급 세트의 모든 해적을 수집하면 잠금 해제</koKR>
+			<plPL>Odblokowane kiedy zdobędziesz wszystkich piratów z zestawu eksperckiego.</plPL>
+			<ptBR>Disponível ao colecionar todos os Piratas do Conjunto de Perito.</ptBR>
+			<ruRU>Доступно при наличии всех пиратов из набора эксперта.</ruRU>
+			<zhCN>集齐所有专家级海盗卡牌后解锁。</zhCN>
+			<zhTW>當你獲得全部專家系列的海盜卡後解鎖。</zhTW>
 		</Tag>
 		<Tag enumID="365" name="HOW_TO_EARN_GOLDEN" type="LocString">
+			<deDE>Wird freigeschaltet, wenn Ihr alle goldenen Piraten des Basis- und des Profisets besitzt.</deDE>
 			<enUS>Unlocked when you have all the Golden Pirates from the Expert Set.</enUS>
+			<esES>Se desbloquea cuando consigues todos los piratas dorados del conjunto experto.</esES>
+			<esMX>Se desbloquea cuando tienes a todos los piratas dorados del kit experto.</esMX>
+			<frFR>Débloquée lorsque vous avez tous les pirates dorés du jeu Expert.</frFR>
+			<itIT>Sbloccata ottenendo tutti i Pirati Dorati del set Avanzato.</itIT>
+			<koKR>고급 세트의 모든 황금 해적을 수집하면 잠금 해제</koKR>
+			<plPL>Odblokowane kiedy zdobędziesz wszystkich złotych piratów z zestawu eksperckiego.</plPL>
+			<ptBR>Disponível ao colecionar todos os Piratas Dourados do Conjunto de Perito.</ptBR>
+			<ruRU>Доступно при наличии всех «золотых» пиратов из набора эксперта.</ruRU>
+			<zhCN>集齐所有金色专家级海盗卡牌后解锁。</zhCN>
+			<zhTW>當你獲得全部專家系列的海盜金卡後解鎖。</zhTW>
 		</Tag>
 		<Tag enumID="342" name="ARTISTNAME" type="String">Daren Bader</Tag>
 		<Tag enumID="45" name="HEALTH" type="Int" value="1"/>
@@ -30055,7 +30125,7 @@ Evoca un Infernale 6/6.</itIT>
 			<esES>Cuando invocas a un esbirro, inflige 1 p. de daño a un enemigo aleatorio.</esES>
 			<esMX>Después de invocar un esbirro, inflige 1 de daño a un enemigo aleatorio.</esMX>
 			<frFR>Inflige 1 point de dégâts à un adversaire aléatoire après que vous avez invoqué un serviteur.</frFR>
-			<itIT>Ogni volta che viene evocato un servitore sotto il tuo controllo, infligge 1 danno a un nemico casuale.</itIT>
+			<itIT>Quando viene evocato un servitore sotto il tuo controllo, infligge 1 danno a un nemico casuale.</itIT>
 			<koKR>내 하수인이 소환된 후에, 무작위 적 하나에게 피해를 1 줍니다.</koKR>
 			<plPL>Zadaje 1 pkt. obrażeń losowemu wrogowi za każdym razem, gdy przyzywasz stronnika.</plPL>
 			<ptBR>Depois de evocar um lacaio, cause 1 de dano a um inimigo aleatório.</ptBR>
@@ -30113,7 +30183,7 @@ Evoca un Infernale 6/6.</itIT>
 			<esES>Después de que lances un hechizo, inflige 1 p. de daño a todos los esbirros.</esES>
 			<esMX>Después de lanzar un hechizo, inflige 1 de daño a TODOS los esbirros.</esMX>
 			<frFR>Après que vous avez lancé un sort, inflige 1 point de dégâts à TOUS les serviteurs.</frFR>
-			<itIT>Ogni volta che lanci una Magia, infligge 1 danno a TUTTI i servitori.</itIT>
+			<itIT>Quando lanci una Magia, infligge 1 danno a TUTTI i servitori.</itIT>
 			<koKR>내 주문이 시전된 후에, &lt;b&gt;모든&lt;/b&gt; 하수인에게 피해를 1 줍니다.</koKR>
 			<plPL>Kiedy rzucisz zaklęcie, zadaj 1 pkt. obrażeń WSZYSTKIM stronnikom.</plPL>
 			<ptBR>Depois de lançar um feitiço, cause 1 de dano a TODOS os lacaios.</ptBR>
@@ -30679,7 +30749,7 @@ Evoca un Infernale 6/6.</itIT>
 			<esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Los hechizos enemigos cuestan (0) cristales el próximo turno.</esES>
 			<esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; los hechizos enemigos cuestan (0) en el próximo turno.</esMX>
 			<frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; les sorts adverses coûtent (0) au prochain tour.</frFR>
-			<itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; le Magie del nemico nel turno successivo hanno un costo pari a (0) Mana.</itIT>
+			<itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; nel turno successivo le Magie del nemico costano (0) Mana.</itIT>
 			<koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 다음 턴에 적이 쓰는 주문의 비용이 (0)이 됩니다.</koKR>
 			<plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; W następnej turze zaklęcia przeciwnika kosztują (0).</plPL>
 			<ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Feitiços inimigos custam (0) no próximo turno.</ptBR>
@@ -31546,7 +31616,18 @@ Evoca un Infernale 6/6.</itIT>
 			<zhTW>他正在找鼓手。目前應徵的人有:見習工程師、森金禦盾大師和『炎魔』拉格納羅斯。</zhTW>
 		</Tag>
 		<Tag enumID="365" name="HOW_TO_EARN_GOLDEN" type="LocString">
+			<deDE>Belohnung für die Teilnahme an der BlizzCon 2013.</deDE>
 			<enUS>Awarded at BlizzCon 2013.</enUS>
+			<esES>Se entregó en la BlizzCon 2013.</esES>
+			<esMX>Otorgada en la BlizzCon 2013.</esMX>
+			<frFR>Obtenue à la BlizzCon 2013.</frFR>
+			<itIT>Ricompensa della BlizzCon 2013.</itIT>
+			<koKR>블리즈컨 2013 참가 보상</koKR>
+			<plPL>Nagroda za BlizzCon 2013</plPL>
+			<ptBR>Concedido na BlizzCon 2013.</ptBR>
+			<ruRU>Награда за посещение BlizzCon 2013.</ruRU>
+			<zhCN>2013年暴雪嘉年华参与奖励。</zhCN>
+			<zhTW>參加BlizzCon 2013的獎勵</zhTW>
 		</Tag>
 		<Tag enumID="342" name="ARTISTNAME" type="String">Samwise Didier</Tag>
 		<Tag enumID="45" name="HEALTH" type="Int" value="5"/>
@@ -32568,25 +32649,25 @@ Evoca un Infernale 6/6.</itIT>
 			<zhTW>獵槍衝擊</zhTW>
 		</Tag>
 		<Tag enumID="184" name="CARDTEXT_INHAND" type="LocString">
-			<deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt; 
- Verursacht 1 Schaden.</deDE>
+			<deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt;
+Verursacht 1 Schaden.</deDE>
 			<enUS>&lt;b&gt;Hero Power&lt;/b&gt; 
  Deal 1 damage.</enUS>
-			<esES>&lt;b&gt;Poder de héroe&lt;/b&gt; 
- Inflige 1 p. de daño.</esES>
-			<esMX>&lt;b&gt;Poder de héroe&lt;/b&gt; 
- Inflige 1 de daño.</esMX>
-			<frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt; 
+			<esES>&lt;b&gt;Poder de héroe&lt;/b&gt;
+Inflige 1 p. de daño.</esES>
+			<esMX>&lt;b&gt;Poder de héroe&lt;/b&gt;
+Inflige 1 de daño.</esMX>
+			<frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt;
 Inflige 1 point de dégâts.</frFR>
 			<itIT>&lt;b&gt;Potere Eroe&lt;/b&gt;
 Infligge 1 danno.</itIT>
-			<koKR>&lt;b&gt;영웅 능력&lt;/b&gt; 
- 피해를 1 줍니다.</koKR>
-			<plPL>&lt;b&gt;Moc specjalna&lt;/b&gt; 
- Zadaj 1 pkt. obrażeń.</plPL>
-			<ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt; 
- Cause 1 de dano.</ptBR>
-			<ruRU>&lt;b&gt;Сила героя&lt;/b&gt; 
+			<koKR>&lt;b&gt;영웅 능력&lt;/b&gt;
+피해를 1 줍니다.</koKR>
+			<plPL>&lt;b&gt;Moc specjalna&lt;/b&gt;
+Zadaj 1 pkt. obrażeń.</plPL>
+			<ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt;
+Cause 1 de dano.</ptBR>
+			<ruRU>&lt;b&gt;Сила героя&lt;/b&gt;
  Наносит 1 ед. урона.</ruRU>
 			<zhCN>&lt;b&gt;英雄技能&lt;/b&gt;
 造成1点伤害。</zhCN>
@@ -32650,25 +32731,25 @@ Infligge 1 danno.</itIT>
 			<zhTW>埃辛諾斯火焰</zhTW>
 		</Tag>
 		<Tag enumID="184" name="CARDTEXT_INHAND" type="LocString">
-			<deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt; 
- Beschwört zwei Diener (2/1).</deDE>
+			<deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt;
+Beschwört zwei Diener (2/1).</deDE>
 			<enUS>&lt;b&gt;Hero Power&lt;/b&gt; 
  Summon two 2/1 minions.</enUS>
-			<esES>&lt;b&gt;Poder de héroe&lt;/b&gt; 
- Invoca a dos esbirros 2/1.</esES>
-			<esMX>&lt;b&gt;Poder de héroe&lt;/b&gt; 
- Invoca dos esbirros 2/1.</esMX>
-			<frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt; 
+			<esES>&lt;b&gt;Poder de héroe&lt;/b&gt;
+Invoca a dos esbirros 2/1.</esES>
+			<esMX>&lt;b&gt;Poder de héroe&lt;/b&gt;
+Invoca dos esbirros 2/1.</esMX>
+			<frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt;
 Invoque deux serviteurs 2/1.</frFR>
 			<itIT>&lt;b&gt;Potere Eroe&lt;/b&gt;
 Evoca due servitori 2/1.</itIT>
-			<koKR>&lt;b&gt;영웅 능력&lt;/b&gt; 
- 2/1 하수인을 둘 소환합니다.</koKR>
-			<plPL>&lt;b&gt;Moc specjalna&lt;/b&gt; 
- Przyzwij dwóch stronników 2/1.</plPL>
-			<ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt; 
- Evoque dois lacaios 2/1.</ptBR>
-			<ruRU>&lt;b&gt;Сила героя&lt;/b&gt; 
+			<koKR>&lt;b&gt;영웅 능력&lt;/b&gt;
+2/1 하수인을 둘 소환합니다.</koKR>
+			<plPL>&lt;b&gt;Moc specjalna&lt;/b&gt;
+Przyzwij dwóch stronników 2/1.</plPL>
+			<ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt;
+Evoque dois lacaios 2/1.</ptBR>
+			<ruRU>&lt;b&gt;Сила героя&lt;/b&gt;
  Призывает на поле боя двух существ 2/1.</ruRU>
 			<zhCN>&lt;b&gt;英雄技能&lt;/b&gt;召唤两个2/1的随从。</zhCN>
 			<zhTW>&lt;b&gt;英雄能力&lt;/b&gt;
