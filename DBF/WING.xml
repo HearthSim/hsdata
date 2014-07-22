@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dbf>
+	<Column name="ID" type="Int" comment="primary key" />
+	<Column name="NOTE_DESC" type="String" comment="designer note" />
+	<Column name="ADVENTURE_ID" type="Int" comment="ASSET.ADVENTURE.ID" />
+	<Column name="SORT_ORDER" type="Int" comment="sort order of this wing in its adventure" />
+	<Column name="OWNED_FLAG" type="String" comment="Owned flag to check for." />
+	<Column name="PLAYABLE_FLAG" type="String" comment="Playable flag to check for." />
+	<Column name="NAME" type="LocString" />
+	<Record>
+		<Field column="ID">1</Field>
+		<Field column="NOTE_DESC">Arachnid</Field>
+		<Field column="ADVENTURE_ID">3</Field>
+		<Field column="SORT_ORDER">1</Field>
+		<Field column="OWNED_FLAG">naxx1_owned</Field>
+		<Field column="PLAYABLE_FLAG">naxx1_playable</Field>
+		<!--<Field column="PLAYABLE_FLAG">naxx_1_playable</Field>-->
+		<Field column="NAME">
+			<enUS>Arachnid Quarter</enUS>
+			<zhTW>蜘蛛區</zhTW>
+			<zhCN>蜘蛛区</zhCN>
+			<ruRU>Паучий квартал</ruRU>
+			<ptBR>Distrito dos Aracnídeos</ptBR>
+			<plPL>Rewir Arachnidów</plPL>
+			<koKR>거미 지구</koKR>
+			<itIT>Ala degli Aracnidi</itIT>
+			<frFR>Quartier des Arachnides</frFR>
+			<esMX>Arrabal Arácnido</esMX>
+			<esES>Arrabal Arácnido</esES>
+			<deDE>Arachnidenviertel</deDE>
+		</Field>
+	</Record>
+	<Record>
+		<Field column="ID">2</Field>
+		<Field column="NOTE_DESC">Plague</Field>
+		<Field column="ADVENTURE_ID">3</Field>
+		<Field column="SORT_ORDER">2</Field>
+		<Field column="OWNED_FLAG">naxx2_owned</Field>
+		<Field column="PLAYABLE_FLAG">naxx2_playable</Field>
+		<Field column="NAME">
+			<enUS>Plague Quarter</enUS>
+			<zhTW>瘟疫區</zhTW>
+			<zhCN>瘟疫区</zhCN>
+			<ruRU>Чумной квартал</ruRU>
+			<ptBR>Distrito da Peste</ptBR>
+			<plPL>Rewir Zarazy</plPL>
+			<koKR>역병 지구</koKR>
+			<itIT>Ala della Pestilenza</itIT>
+			<frFR>Quartier de la Peste</frFR>
+			<esMX>Arrabal de la Peste</esMX>
+			<esES>Arrabal de la Peste</esES>
+			<deDE>Seuchenviertel</deDE>
+		</Field>
+	</Record>
+	<Record>
+		<Field column="ID">3</Field>
+		<Field column="NOTE_DESC">Military</Field>
+		<Field column="ADVENTURE_ID">3</Field>
+		<Field column="SORT_ORDER">3</Field>
+		<Field column="OWNED_FLAG">naxx3_owned</Field>
+		<Field column="PLAYABLE_FLAG">naxx3_playable</Field>
+		<Field column="NAME">
+			<enUS>Military Quarter</enUS>
+			<zhTW>軍事區</zhTW>
+			<zhCN>军事区</zhCN>
+			<ruRU>Военный квартал</ruRU>
+			<ptBR>Distrito Militar</ptBR>
+			<plPL>Rewir Zbrojnych</plPL>
+			<koKR>군사 지구</koKR>
+			<itIT>Ala dei Combattenti</itIT>
+			<frFR>Quartier Militaire</frFR>
+			<esMX>Arrabal Militar</esMX>
+			<esES>Arrabal Militar</esES>
+			<deDE>Militärviertel</deDE>
+		</Field>
+	</Record>
+	<Record>
+		<Field column="ID">4</Field>
+		<Field column="NOTE_DESC">Construct</Field>
+		<Field column="ADVENTURE_ID">3</Field>
+		<Field column="SORT_ORDER">4</Field>
+		<Field column="OWNED_FLAG">naxx4_owned</Field>
+		<Field column="PLAYABLE_FLAG">naxx4_playable</Field>
+		<Field column="NAME">
+			<enUS>Construct Quarter</enUS>
+			<zhTW>傀儡區</zhTW>
+			<zhCN>构造区</zhCN>
+			<ruRU>Квартал Мерзости</ruRU>
+			<ptBR>Distrito dos Constructos</ptBR>
+			<plPL>Rewir Konstruktów</plPL>
+			<koKR>피조물 지구</koKR>
+			<itIT>Ala dei Costrutti</itIT>
+			<frFR>Quartier des Assemblages</frFR>
+			<esMX>Arrabal de los Ensamblajes</esMX>
+			<esES>Arrabal de los Ensamblajes</esES>
+			<deDE>Konstruktviertel</deDE>
+		</Field>
+	</Record>
+	<Record>
+		<Field column="ID">5</Field>
+		<Field column="NOTE_DESC">Frostwyrm</Field>
+		<Field column="ADVENTURE_ID">3</Field>
+		<Field column="SORT_ORDER">5</Field>
+		<Field column="OWNED_FLAG">naxx5_owned</Field>
+		<Field column="PLAYABLE_FLAG">naxx5_playable</Field>
+		<Field column="NAME">
+			<enUS>Frostwyrm Lair</enUS>
+			<zhTW>冰霜巨龍巢穴</zhTW>
+			<zhCN>冰龙巢穴</zhCN>
+			<ruRU>Логово ледяного змея</ruRU>
+			<ptBR>Covil da Serpe Gélida</ptBR>
+			<plPL>Leże Żmija Mrozu</plPL>
+			<koKR>서리고룡 둥지</koKR>
+			<itIT>Antro del Gelo</itIT>
+			<frFR>Antre du Wyrm de givre</frFR>
+			<esMX>Guarida de la Vermis</esMX>
+			<esES>Guarida de la Vermis</esES>
+			<deDE>Spitze der Nekropole</deDE>
+		</Field>
+	</Record>
+</Dbf>

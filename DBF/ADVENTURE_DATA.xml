@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dbf>
+	<Column name="ID" type="Int" comment="primary key" />
+	<Column name="NOTE_DESC" type="String" comment="designer note" />
+	<Column name="ADVENTURE_ID" type="Int" comment="ASSET.ADVENTURE.ID" />
+	<Column name="MODE_ID" type="Int" comment="ASSET.ADVENTURE_MODE.ID" />
+	<Column name="SORT_ORDER" type="Int" comment="sort order of this adventure data in its adventure" />
+	<Column name="SUBSCENE_PREFAB" type="AssetPath" />
+	<Column name="NAME" type="LocString" comment="Full name" />
+	<Column name="SHORT_NAME" type="LocString" comment="Short name. Used on buttons and other small spaces." />
+	<Column name="DESCRIPTION" type="LocString" />
+	<Column name="REQUIREMENTS_DESCRIPTION" type="LocString" />
+	<Record>
+		<Field column="ID">1</Field>
+		<Field column="NOTE_DESC">Practice Normal</Field>
+		<Field column="ADVENTURE_ID">2</Field>
+		<Field column="MODE_ID">1</Field>
+		<Field column="SORT_ORDER">1</Field>
+		<Field column="SUBSCENE_PREFAB">Assets/Game/UIScreens/AdventurePractice</Field>
+		<Field column="NAME">
+			<enUS>Practice</enUS>
+			<zhTW>練習模式</zhTW>
+			<zhCN>练习模式</zhCN>
+			<ruRU>Тренировка</ruRU>
+			<ptBR>Treinar</ptBR>
+			<plPL>Trening</plPL>
+			<koKR>연습</koKR>
+			<itIT>Allenamento</itIT>
+			<frFR>Entraînement</frFR>
+			<esMX>Práctica</esMX>
+			<esES>Práctica</esES>
+			<deDE>Üben</deDE>
+		</Field>
+		<Field column="SHORT_NAME">
+			<enUS>Normal</enUS>
+			<zhTW>普通級</zhTW>
+			<zhCN>普通难度</zhCN>
+			<ruRU>Обычный</ruRU>
+			<ptBR>Normal</ptBR>
+			<plPL>Normalny</plPL>
+			<koKR>일반</koKR>
+			<itIT>Normale</itIT>
+			<frFR>Normal</frFR>
+			<esMX>Normal</esMX>
+			<esES>Normal</esES>
+			<deDE>Normal</deDE>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Practice your skills against the Innkeeper and battle the nine different classes.</enUS>
+			<zhTW>跟旅店老闆練習牌技，與九個不同職業作戰。</zhTW>
+			<zhCN>与旅店老板切磋牌技，和九大职业一较高下。</zhCN>
+			<ruRU>Отточите свои навыки в игре против хозяина таверны и его колод девяти различных классов.</ruRU>
+			<ptBR>Treine suas habilidades contra o Estalajadeiro e enfrente as nove classes.</ptBR>
+			<plPL>Ćwicz grę z Karczmarzem i walcz z dziewięcioma różnymi klasami.</plPL>
+			<koKR>여관주인이 다루는 9명의 영웅을 상대로 실력을 연마하세요.</koKR>
+			<itIT>Fai pratica contro il Locandiere e affronta le nove differenti classi del gioco.</itIT>
+			<frFR>Entraînez-vous contre l’aubergiste et affrontez les neuf différentes classes.</frFR>
+			<esMX>Practica tus habilidades contra el Tabernero y lánzate a la batalla contra las nueve clases.</esMX>
+			<esES>Entrena tus habilidades con el tabernero y enfréntate a nueve clases diferentes.</esES>
+			<deDE>Übt im Kampf gegen den Gastwirt und fordert die neun verschiedenen Klassen heraus.</deDE>
+		</Field>
+		<Field column="REQUIREMENTS_DESCRIPTION"></Field>
+	</Record>
+	<Record>
+		<Field column="ID">2</Field>
+		<Field column="NOTE_DESC">Practice Expert</Field>
+		<Field column="ADVENTURE_ID">2</Field>
+		<Field column="MODE_ID">2</Field>
+		<Field column="SORT_ORDER">2</Field>
+		<Field column="SUBSCENE_PREFAB">Assets/Game/UIScreens/AdventurePractice</Field>
+		<Field column="NAME">
+			<enUS>Practice (Expert)</enUS>
+			<zhTW>練習模式(專家級)</zhTW>
+			<zhCN>练习模式</zhCN>
+			<ruRU>Тренировка (эксперт)</ruRU>
+			<ptBR>Treinar (Perito)</ptBR>
+			<plPL>Trening (Ekspert)</plPL>
+			<koKR>연습 (전문가)</koKR>
+			<itIT>Allenamento (Esperto)</itIT>
+			<frFR>Entraînement (Expert)</frFR>
+			<esMX>Práctica (Experto)</esMX>
+			<esES>Práctica (experto)</esES>
+			<deDE>Üben (Profi)</deDE>
+		</Field>
+		<Field column="SHORT_NAME">
+			<enUS>Expert</enUS>
+			<zhTW>專家級</zhTW>
+			<zhCN>专家难度</zhCN>
+			<ruRU>Эксперт</ruRU>
+			<ptBR>Perito</ptBR>
+			<plPL>Ekspercki</plPL>
+			<koKR>전문가</koKR>
+			<itIT>Esperto</itIT>
+			<frFR>Expert</frFR>
+			<esMX>Experto</esMX>
+			<esES>Experto</esES>
+			<deDE>Profi</deDE>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Hone your skills against the Innkeeper and his expert level decks.</enUS>
+			<zhTW>跟旅店老闆進一步練習，與他專家級的套牌對抗。</zhTW>
+			<zhCN>与旅店老板切磋牌技，对抗他的专家级套牌。</zhCN>
+			<ruRU>Отточите свои навыки в игре против хозяина таверны и его колод, включающих карты эксперта.</ruRU>
+			<ptBR>Teste suas habilidades contra o Estalajadeiro e seus decks de perito.</ptBR>
+			<plPL>Szlifuj swoje umiejętności walcząc z Karczmarzem i jego eksperckimi taliami.</plPL>
+			<koKR>전문가 수준의 실력을 가진 여관주인과 겨뤄보세요.</koKR>
+			<itIT>Affina le tue abilità contro il Locandiere e i suoi mazzi di livello esperto.</itIT>
+			<frFR>Entraînez-vous contre l’aubergiste et ses decks de niveau Expert.</frFR>
+			<esMX>Perfecciona tus habilidades contra el Tabernero y sus mazos de nivel experto.</esMX>
+			<esES>Mejora tus habilidades con el tabernero y sus mazos expertos.</esES>
+			<deDE>Verbessert Euer Kampfgeschick im Spiel gegen den Gastwirt mit seinen Profidecks.</deDE>
+		</Field>
+		<Field column="REQUIREMENTS_DESCRIPTION">
+			<enUS>Requires unlocking every class</enUS>
+			<zhTW>需要先解鎖全部職業</zhTW>
+			<zhCN>需要解锁所有职业</zhCN>
+			<ruRU>Требуется открыть доступ ко всем классам.</ruRU>
+			<ptBR>É necessário desbloquear todas as classes</ptBR>
+			<plPL>Wymaga odblokowania każdej klasy</plPL>
+			<koKR>모든 영웅을 잠금 해제해야 합니다!</koKR>
+			<itIT>Devi aver sbloccato tutte le classi.</itIT>
+			<frFR>Chaque classe doit être débloquée</frFR>
+			<esMX>Requiere desbloquear todas las clases</esMX>
+			<esES>Requiere desbloquear todas las clases</esES>
+			<deDE>Erfordert das Freischalten aller Klassen.</deDE>
+		</Field>
+	</Record>
+	<Record>
+		<Field column="ID">3</Field>
+		<Field column="NOTE_DESC">Naxx Normal</Field>
+		<Field column="ADVENTURE_ID">3</Field>
+		<Field column="MODE_ID">1</Field>
+		<Field column="SORT_ORDER">1</Field>
+		<Field column="SUBSCENE_PREFAB">Assets/Game/UIScreens/AdventureNormalHeroic</Field>
+		<Field column="NAME">
+			<enUS>Naxxramas</enUS>
+			<zhTW>納克薩瑪斯</zhTW>
+			<zhCN>纳克萨玛斯</zhCN>
+			<ruRU>Наксрамас</ruRU>
+			<ptBR>Naxxramas</ptBR>
+			<plPL>Naxxramas</plPL>
+			<koKR>낙스라마스</koKR>
+			<itIT>Naxxramas</itIT>
+			<frFR>Naxxramas</frFR>
+			<esMX>Naxxramas</esMX>
+			<esES>Naxxramas</esES>
+			<deDE>Naxxramas</deDE>
+		</Field>
+		<Field column="SHORT_NAME">
+			<enUS>Normal</enUS>
+			<zhTW>普通難度</zhTW>
+			<zhCN>普通难度</zhCN>
+			<ruRU>Обычный</ruRU>
+			<ptBR>Normal</ptBR>
+			<plPL>Normalny</plPL>
+			<koKR>일반</koKR>
+			<itIT>Normale</itIT>
+			<frFR>Normal</frFR>
+			<esMX>Normal</esMX>
+			<esES>Normal</esES>
+			<deDE>Normal</deDE>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>The Lich Kel'Thuzad awaits within, along with 14 other deadly bosses to challenge your skills. Defeat the bosses to earn unique Naxxramas cards!</enUS>
+			<zhTW>巫妖科爾蘇加德就在裡面，與其他14個致命的首領正等著挑戰你的牌技。擊敗這些首領來獲得獨特的納克薩瑪斯卡片!</zhTW>
+			<zhCN>巫妖克尔苏加德潜伏在他的浮空城内，与其他十四位首领等待着冒险者的挑战。击败这些天灾军团的首领，赢取独特的纳克萨玛斯卡牌！</zhCN>
+			<ruRU>В подземелье вас ждет схватка с личом Кел'Тузадом и еще 14 опаснейшими боссами. Одержите над ними победу, чтобы получить уникальные карты Наксрамаса!</ruRU>
+			<ptBR>O Lich Kel'Thuzad aguarda lá dentro, junto com mais 14 chefes para desafiar suas habilidades. Derrote os chefes para ganhar cards únicos de Naxxramas!</ptBR>
+			<plPL>Wewnątrz czeka licz Kel'Thuzad, a także 14 morderczych bossów, którzy sprawdzą twoje umiejętności. Pokonaj ich, aby otrzymać wyjątkowe karty z Naxxramas!</plPL>
+			<koKR>낙스라마스에는 리치 켈투자드를 비롯한 15마리의 끔찍한 우두머리들이 당신의 도전을 기다립니다. 우두머리들을 처치하고 낙스라마스에서만 얻을 수 있는 카드들을 획득하세요!</koKR>
+			<itIT>Il Lich Kel'Thuzad e 14 altri letali boss sono pronti a mettere alla prova le tue abilità. Sconfiggili per ottenere le carte di Naxxramas!</itIT>
+			<frFR>La liche Kel’Thuzad, ainsi que 14 boss impitoyables, vous attendent à l’intérieur, prêts à mettre vos compétences à l’épreuve. Battez-les pour obtenir des cartes Naxxramas uniques !</frFR>
+			<esMX>El exánime Kel'Thuzad te espera, junto a otros 14 poderosos jefes que pondrán a prueba tus habilidades. ¡Derrota a los jefes para ganar cartas de Naxxramas exclusivas!</esMX>
+			<esES>El exánime Kel'Thuzad te espera aquí dentro, junto a otros 14 mortíferos jefes que pondrán a prueba tus habilidades. ¡Derrótalos para conseguir cartas únicas de Naxxramas!</esES>
+			<deDE>Der Lich Kel'Thuzad und 14 andere tödliche Bossgegner erwarten Euch und werden Euch auf eine harte Probe stellen. Besiegt die Bosse, um einzigartige Naxxramaskarten zu erhalten!</deDE>
+		</Field>
+		<Field column="REQUIREMENTS_DESCRIPTION">
+			<enUS>Requires unlocking every class</enUS>
+			<zhTW>需要先解鎖全部職業</zhTW>
+			<zhCN>需要解锁所有职业</zhCN>
+			<ruRU>Требуется открыть доступ ко всем классам.</ruRU>
+			<ptBR>É necessário desbloquear todas as classes</ptBR>
+			<plPL>Wymaga odblokowania każdej klasy</plPL>
+			<koKR>모든 영웅을 잠금 해제해야 합니다!</koKR>
+			<itIT>Devi aver sbloccato tutte le classi.</itIT>
+			<frFR>Chaque classe doit être débloquée</frFR>
+			<esMX>Requiere desbloquear todas las clases</esMX>
+			<esES>Requiere desbloquear todas las clases</esES>
+			<deDE>Erfordert das Freischalten aller Klassen.</deDE>
+		</Field>
+	</Record>
+	<Record>
+		<Field column="ID">4</Field>
+		<Field column="NOTE_DESC">Naxx Heroic</Field>
+		<Field column="ADVENTURE_ID">3</Field>
+		<Field column="MODE_ID">3</Field>
+		<Field column="SORT_ORDER">2</Field>
+		<Field column="SUBSCENE_PREFAB">Assets/Game/UIScreens/AdventureNormalHeroic</Field>
+		<Field column="NAME">
+			<enUS>Naxxramas (Heroic)</enUS>
+			<zhTW>納克薩瑪斯(英雄難度)</zhTW>
+			<zhCN>纳克萨玛斯（英雄模式）</zhCN>
+			<ruRU>Наксрамас (героич.)</ruRU>
+			<ptBR>Naxxramas (Heroico)</ptBR>
+			<plPL>Naxxramas (Heroiczny)</plPL>
+			<koKR>낙스라마스 (영웅 난이도)</koKR>
+			<itIT>Naxxramas (Eroica)</itIT>
+			<frFR>Naxxramas (héroïque)</frFR>
+			<esMX>Naxxramas (Heroico)</esMX>
+			<esES>Naxxramas (heroico)</esES>
+			<deDE>Naxxramas (Heroisch)</deDE>
+		</Field>
+		<Field column="SHORT_NAME">
+			<enUS>Heroic</enUS>
+			<zhTW>英雄難度</zhTW>
+			<zhCN>英雄难度</zhCN>
+			<ruRU>Героический</ruRU>
+			<ptBR>Heroico</ptBR>
+			<plPL>Heroiczny</plPL>
+			<koKR>영웅</koKR>
+			<itIT>Eroica</itIT>
+			<frFR>Héroïque</frFR>
+			<esMX>Heroico</esMX>
+			<esES>Heroico</esES>
+			<deDE>Heroisch</deDE>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Kel'Thuzad has dramatically improved his dungeon and is ready for round 2. Heroic is VERY difficult and is not for the faint of heart!</enUS>
+			<zhTW>科爾蘇加德大幅強化了他的地城，正在跟你叫陣第二回合的對決。英雄模式非常困難，不是意志薄弱的人能忍受的!</zhTW>
+			<zhCN>克尔苏加德大幅强化了他的军团实力，准备迎接冒险者的第二轮挑战。英雄模式的战斗将非常艰难，谢绝心脏病患者进入！</zhCN>
+			<ruRU>Кел'Тузад значительно усовершенствовал свое подземелье и готов взять реванш за поражение! Героический режим — КРАЙНЕ сложное испытание, которое по силам пройти только самым отважным искателям приключений!</ruRU>
+			<ptBR>Kel'Thuzad melhorou a masmorra de forma considerável e está pronto para a segunda rodada. O modo Heroico é MUITO difícil e não é para qualquer um!</ptBR>
+			<plPL>Kel'Thuzad ciężko pracował nad ulepszeniem swoich podziemi i jest gotów na drugą rundę. Tryb heroiczny jest BARDZO trudny i nie nadaje się dla osób o słabych nerwach!</plPL>
+			<koKR>자신의 요새를 더욱 강력하게 만든 켈투자드가 설욕의 기회를 노리고 있습니다. 영웅 난이도의 우두머리들은 매우 잔혹합니다. 심장이 약한 분들은 주의하세요!</koKR>
+			<itIT>Kel'Thuzad ha potenziato la sua fortezza ed è pronto per la rivincita. La versione Eroica è MOLTO difficile e non è adatta ai deboli di cuore.</itIT>
+			<frFR>Kel’Thuzad a affreusement amélioré son donjon et se tient prêt pour le 2e round. Le mode héroïque est TRÈS éprouvant pour les nerfs et déconseillé aux âmes sensibles !</frFR>
+			<esMX>Kel'Thuzad ha mejorado enormemente su calabozo y está listo para una segunda ronda. ¡El modo heroico es MUY difícil y no es para corazones débiles!</esMX>
+			<esES>Kel'Thuzad ha hecho reformas en su mazmorra y ya está listo para la segunda ronda. El modo heroico es MUY difícil. ¡No apto para cardíacos!</esES>
+			<deDE>Kel'Thuzad hat seine Zitadelle stark aufgerüstet und ist bereit für die zweite Runde. Der heroische Modus ist SEHR schwer und nichts für zarte Gemüter!</deDE>
+		</Field>
+		<Field column="REQUIREMENTS_DESCRIPTION">
+			<enUS>Unlock by completing a wing in Normal mode.</enUS>
+			<zhTW>在普通模式完成一個區域後解鎖。</zhTW>
+			<zhCN>击败普通难度下任意一区的所有首领后解锁</zhCN>
+			<ruRU>Требуется пройти крыло в обычном режиме.</ruRU>
+			<ptBR>Desbloqueia ao completar uma ala no modo Normal.</ptBR>
+			<plPL>Odblokuj przechodząc skrzydło w trybie normalnym</plPL>
+			<koKR>일반 난이도의 해당 지구를 완료하면 잠금 해제됩니다!</koKR>
+			<itIT>Devi aver sbloccato un'ala in versione Normale.</itIT>
+			<frFR>Débloquée en terminant l’aile en mode normal.</frFR>
+			<esMX>Para desbloquearlo, completa un ala en modo Normal.</esMX>
+			<esES>Se desbloquea al completar un ala en modo normal.</esES>
+			<deDE>Erfordert den Abschluss eines Flügels im normalen Modus.</deDE>
+		</Field>
+	</Record>
+	<Record>
+		<Field column="ID">5</Field>
+		<Field column="NOTE_DESC">Naxx Class Challenge</Field>
+		<Field column="ADVENTURE_ID">3</Field>
+		<Field column="MODE_ID">4</Field>
+		<Field column="SORT_ORDER">3</Field>
+		<Field column="SUBSCENE_PREFAB">Assets/Game/UIScreens/AdventureClassChallenge</Field>
+		<Field column="NAME">
+			<enUS>Naxxramas Class Challenge</enUS>
+			<zhTW>納克薩瑪斯職業挑戰</zhTW>
+			<zhCN>纳克萨玛斯职业挑战</zhCN>
+			<ruRU>Испытания Наксрамаса</ruRU>
+			<ptBR>Desafio de classe de Naxxramas</ptBR>
+			<plPL>Wyzwania klasowe Naxxramas</plPL>
+			<koKR>낙스라마스 직업별 도전 과제</koKR>
+			<itIT>Sfida di Classe</itIT>
+			<frFR>Défi de classe de Naxxramas</frFR>
+			<esMX>Desafío de clase de Naxxramas</esMX>
+			<esES>Desafío de clase de Naxxramas</esES>
+			<deDE>Naxxramas-Herausforderung</deDE>
+		</Field>
+		<Field column="SHORT_NAME">
+			<enUS>Class Challenge</enUS>
+			<zhTW>職業挑戰</zhTW>
+			<zhCN>职业挑战</zhCN>
+			<ruRU>Испытания</ruRU>
+			<ptBR>Desafio de Classe</ptBR>
+			<plPL>Wyzwania klasowe</plPL>
+			<koKR>직업별 도전 과제</koKR>
+			<itIT>Sfida di Classe</itIT>
+			<frFR>Défi de classe</frFR>
+			<esMX>Desafío de clase</esMX>
+			<esES>Desafío de clase</esES>
+			<deDE>Herausforderung</deDE>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Nine Naxxramas Bosses have a special class challenge after you defeat them in normal mode. Crush each one and earn a card!</enUS>
+			<zhTW>納克薩瑪斯中的九位首領被擊敗後會解鎖特殊的職業挑戰。完成每一個挑戰來獲得一張卡片!</zhTW>
+			<zhCN>在你击败普通难度纳克萨玛斯中的九个特殊首领后，就能够对其发起职业挑战。逐一击败他们，每个首领都会奖励你新的职业卡牌！</zhCN>
+			<ruRU>Вы можете вновь сразиться с девятью боссами Наксрамаса, перед этим победив их в обычном режиме, чтобы пройти особые классовые испытания и получить в награду новые карты.</ruRU>
+			<ptBR>Nove chefes de Naxxramas oferecem um desafio de classe especial depois de serem derrotados no modo normal. Vença cada um deles para ganhar um card!</ptBR>
+			<plPL>Dziewięcioro bossów Naxxramas ma dla ciebie specjalne wyzwanie klasowe, kiedy pokonasz ich w trybie normalnym. Zmiażdż każdego, aby otrzymać nową kartę!</plPL>
+			<koKR>9마리의 우두머리들은 일반 난이도에서 처치하면 특별한 직업별 도전 과제가 나타납니다. 직업별 도전 과제에서 우두머리를 처치하고 카드를 획득하세요!</koKR>
+			<itIT>Una volta sconfitti in versione Normale, nove dei boss di Naxxramas danno accesso a una Sfida di Classe: ogni vittoria ti fornirà una nuova carta!</itIT>
+			<frFR>Vous pouvez affronter neuf des boss de Naxxramas dans un défi de classe spécial après les avoir vaincus en mode normal. Écrasez-les tous et obtenez une carte ! </frFR>
+			<esMX>Hay nueve jefes de Naxxramas que tienen un desafío de clase especial después de que los derrotas en modo normal. ¡Aplasta a cada uno de ellos y gana una carta!</esMX>
+			<esES>Nueve jefes de Naxxramas han preparado desafíos de clase especiales para ti tras su derrota en el modo normal. ¡Aplastar a cada uno de estos jefes te recompensará con una carta!</esES>
+			<deDE>Bei neun Naxxramasbossen wird nach Eurem Sieg im normalen Modus eine Klassenherausforderung freigeschaltet. Erhaltet für jede gemeisterte Herausforderung eine Karte!</deDE>
+		</Field>
+		<Field column="REQUIREMENTS_DESCRIPTION">
+			<enUS>Unlock by completing a wing in Normal mode.</enUS>
+			<zhTW>在普通模式完成一個區域後解鎖。</zhTW>
+			<zhCN>击败普通难度下任意一区的所有首领后解锁</zhCN>
+			<ruRU>Требуется пройти крыло в обычном режиме.</ruRU>
+			<ptBR>Desbloqueia ao completar uma ala no modo Normal.</ptBR>
+			<plPL>Odblokuj przechodząc skrzydło w trybie normalnym</plPL>
+			<koKR>일반 난이도의 해당 지구를 완료하면 잠금 해제됩니다!</koKR>
+			<itIT>Devi aver sbloccato un'ala in versione Normale.</itIT>
+			<frFR>Débloquée en terminant l’aile en mode normal.</frFR>
+			<esMX>Para desbloquearlo, completa un ala en modo Normal.</esMX>
+			<esES>Se desbloquea al completar un ala en modo normal.</esES>
+			<deDE>Erfordert den Abschluss eines Flügels im normalen Modus.</deDE>
+		</Field>
+	</Record>
+</Dbf>

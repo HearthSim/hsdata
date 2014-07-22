@@ -4,6 +4,9 @@ GLOBAL_ADDFRIEND_ERROR_MALFORMED	이메일 주소나 BattleTag를 입력하세�
 GLOBAL_ADDFRIEND_HEADER	친구 추가	
 GLOBAL_ADDFRIEND_INSTRUCTION	BattleTag 또는 이메일 주소를 입력하십시오.	
 GLOBAL_ADDFRIEND_SENT_CONFIRMATION	친구 추가 요청을 발송했습니다.	
+GLOBAL_ADVENTURE_CHOOSE_BUTTON_TEXT	선택	
+GLOBAL_ADVENTURE_DESC_HEADER	모험	
+GLOBAL_ADVENTURE_TRAY_HEADER	모험 모드 선택	
 GLOBAL_APPROXIMATE_DATETIME	~{0}	0=time string
 GLOBAL_APPROXIMATE_DATETIME_RANGE	{0} ~ {1}	0=min seconds 1=max seconds string
 GLOBAL_ARENA_MEDAL_0	초보의 열쇠	
@@ -30,6 +33,8 @@ GLOBAL_BUTTON_YES	예
 GLOBAL_CANCEL	취소	
 GLOBAL_CARD_SET_CORE	기본	
 GLOBAL_CARD_SET_EXPERT1	고급	
+GLOBAL_CARD_SET_NAXX	낙스라마스	
+GLOBAL_CARD_SET_NAXX_SEARCHABLE_SHORTHAND_NAMES	낙스 낙스	This is a space-separated value indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_PROMO	특전	
 GLOBAL_CARD_SET_REWARD	보상	
 GLOBAL_CARDTYPE_ENCHANTMENT	강화	
@@ -46,6 +51,7 @@ GLOBAL_CHAT_NO_FRIENDS_ONLINE	현재 접속한 친구가 없습니다.
 GLOBAL_CHAT_NO_RECENT_CONVERSATIONS	친구 메뉴를 이용하면 친구와 함께 대화할 수 있습니다.	
 GLOBAL_CHAT_RECEIVER_OFFLINE	{0} 님은 접속해 있지 않습니다.	0=player name
 GLOBAL_CHAT_RECEIVER_ONLINE	{0} 님이 접속했습니다.	0=player name
+GLOBAL_CHOOSE_PAYMENT	결제 수단 선택	
 GLOBAL_CLASS_DEATHKNIGHT	죽음의 기사	
 GLOBAL_CLASS_DRUID	드루이드	
 GLOBAL_CLASS_HUNTER	사냥꾼	
@@ -65,6 +71,7 @@ GLOBAL_CONFIRM	확인
 GLOBAL_COST	비용	
 GLOBAL_CURRENT_DATE	{0:yyyy/MM/dd}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
 GLOBAL_CURRENT_TIME	{0:tt h:mm}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
+GLOBAL_DATETIME_AFK_DAY	1일 이상 자리비움	
 GLOBAL_DATETIME_AFK_DAYS	{0} |4(일,일) 동안 자리비움	
 GLOBAL_DATETIME_AFK_HOURS	{0} |4(시간,시간) 동안 자리비움	
 GLOBAL_DATETIME_AFK_MINUTES	{0} |4(분,분) 동안 자리비움	
@@ -124,12 +131,13 @@ GLOBAL_ERROR_NETWORK_INCORRECT_REGION	당신의 Battle.net 계정은 이 지역�
 GLOBAL_ERROR_NETWORK_LOGIN_FAILURE	Battle.net 접속에 실패했습니다. 잠시 후에 다시 시도해주세요.	
 GLOBAL_ERROR_NETWORK_LOST_GAME_CONNECTION	Battle.net 게임 서비스와의 연결이 끊어졌습니다. 새로운 게임을 시작하면 연결을 재개할 수 있습니다.	
 GLOBAL_ERROR_NETWORK_NO_CONNECTION	연결할 수 없습니다. 인터넷 연결을 확인해보세요.	
+GLOBAL_ERROR_NETWORK_NO_GAME_SERVER	이런! 게임을 시작하지 못했습니다. 다시 시도해주세요.	
 GLOBAL_ERROR_NETWORK_PARENTAL_CONTROLS	이 계정은 현재 보호자 관리 또는 청소년 보호를 위해 접속이 제한되어 있습니다.	
 GLOBAL_ERROR_NETWORK_PHONE_LOCK	Battle.net 계정 잠금 번호로 전화하여 로그인하십시오.\n대만: 0800-303-585\n홍콩: 396-54666	
 GLOBAL_ERROR_NETWORK_SPAM	지나치게 많은 요청을 한 번에 보내 Battle.net과의 연결이 끊어졌습니다. 하스스톤에 다시 접속해주세요.	
 GLOBAL_ERROR_NETWORK_TITLE	네트워크 오류	
 GLOBAL_ERROR_NETWORK_UNAVAILABLE_OFFLINE	하스스톤이 현재 오프라인 상태입니다. 잠시 후에 다시 시도해주세요.	
-GLOBAL_ERROR_NETWORK_UNAVAILABLE_UNKNOWN	이런! 하스스톤이 서버에 접속하는 도중 호기심 많은 요정들이  장난을 쳤군요! 잠시 후에 게임에 다시 접속해주세요.	
+GLOBAL_ERROR_NETWORK_UNAVAILABLE_UNKNOWN	이런! 하스스톤이 서버에 접속하는 도중 호기심 많은 요정들이 장난을 쳤군요! 잠시 후에 게임에 다시 접속해주세요.	
 GLOBAL_ERROR_NETWORK_UNAVAILABLE_UPGRADE	하스스톤이 업데이트되었습니다! 최신 버전을 다운로드하세요.	
 GLOBAL_ERROR_NETWORK_UTIL_TIMEOUT	하스스톤 유틸리티 서비스에서 데이터를 요청하는 도중 연결 시간이 초과되었습니다. 하스스톤에 다시 접속해주세요.	
 GLOBAL_ERROR_NO_MAGE_PRECON	당신의 카드를 불러오는 동안 네트워크 문제가 발생했습니다. 하스스톤에 다시 접속해주세요.	
@@ -203,6 +211,8 @@ GLOBAL_HERO_LEVEL_REWARD_BOOSTER	고급 팩 {0} 개	0=booster type
 GLOBAL_HERO_LEVEL_REWARD_GOLD	{0} 골드	0=amount
 GLOBAL_HERO_LEVEL_REWARD_GOLDEN_CARD	{0} {1}	0=flair 1=card name
 GLOBAL_HERO_WINS	승: {0}/{1}	0=number of games this class has won 1=number of wins to get golden
+GLOBAL_KEYWORD_AUTOCAST	자동 시전	
+GLOBAL_KEYWORD_AUTOCAST_TEXT	이 영웅 능력은 매 턴마다 반드시 사용해야 합니다.	
 GLOBAL_KEYWORD_BATTLECRY	전투의 함성	
 GLOBAL_KEYWORD_BATTLECRY_TEXT	카드를 손에서 낼 때 효과를 발휘합니다.	
 GLOBAL_KEYWORD_CHARGE	돌진	
@@ -389,24 +399,12 @@ GLOBAL_RARITY_FREE	무료
 GLOBAL_RARITY_LEGENDARY	전설	
 GLOBAL_RARITY_RARE	희귀	
 GLOBAL_RECONNECT_EXIT_BUTTON	게임 종료	
-GLOBAL_RECONNECT_GAME_MODE_ARENA	투기장	
-GLOBAL_RECONNECT_GAME_MODE_FRIENDLY	친선전	
-GLOBAL_RECONNECT_GAME_MODE_PLAY	대전	
-GLOBAL_RECONNECT_GAME_MODE_PRACTICE	연습	
-GLOBAL_RECONNECT_GAME_MODE_RANKED_PLAY	등급전	
-GLOBAL_RECONNECT_GAME_MODE_TUTORIAL	게임 설명	
-GLOBAL_RECONNECT_GAME_MODE_UNRANKED_PLAY	일반전	
 GLOBAL_RECONNECT_RECONNECTED	게임에 재접속하였습니다. 게임을 재개하는 중입니다.	
 GLOBAL_RECONNECT_RECONNECTED_HEADER	재접속됨	
 GLOBAL_RECONNECT_RECONNECTED_LOGIN	이전 게임에 재접속하였습니다. 게임을 재개하는 중입니다.	
 GLOBAL_RECONNECT_RECONNECTING	게임으로부터 연결이 끊어졌습니다. 재접속 중입니다...	
 GLOBAL_RECONNECT_RECONNECTING_HEADER	재접속 중	
 GLOBAL_RECONNECT_RECONNECTING_LOGIN	이전 게임으로부터 연결이 끊어졌습니다. 재접속 중입니다...	
-GLOBAL_RECONNECT_RESULT_DISCONNECT	지난 {0} 게임에서 연결이 끊겨 패배했습니다.	0=one of GLOBAL_RECONNECT_GAME_MODE_*
-GLOBAL_RECONNECT_RESULT_HEADER	게임 결과	
-GLOBAL_RECONNECT_RESULT_LOSE	지난 {0} 게임에서 패배했습니다.	0=one of GLOBAL_RECONNECT_GAME_MODE_*
-GLOBAL_RECONNECT_RESULT_TIE	지난 {0} 게임은 무승부였습니다.	0=one of GLOBAL_RECONNECT_GAME_MODE_*
-GLOBAL_RECONNECT_RESULT_WIN	지난 {0} 게임에서 승리했습니다.	0=one of GLOBAL_RECONNECT_GAME_MODE_*
 GLOBAL_RECONNECT_TIMEOUT	게임으로 재접속할 수 없습니다.	
 GLOBAL_RECONNECT_TIMEOUT_HEADER	오류	
 GLOBAL_REGION_AMERICAS	아메리카 및 동남아시아	
@@ -429,6 +427,14 @@ GLOBAL_REWARD_CARD_DETAILS_TUTORIAL05	엄청나네요!
 GLOBAL_REWARD_CARD_DETAILS_TUTORIAL06	화끈하군요!	
 GLOBAL_REWARD_CARD_HEADLINE	보상!	
 GLOBAL_REWARD_CARD_LEVEL_UP	{1} 영웅으로 {0} 레벨을 달성하여 잠금 해제	0=# level, 1=class
+GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL	{0}	0=first class
+GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL_DOUBLE	{0}, {1}	0=first class, 1=second class
+GLOBAL_REWARD_CLASS_CHALLENGE_HEADLINE	직업별 |4(도전 과제,도전 과제) 잠금 해제	
+GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_ARACHNID	영웅 난이도 거미 지구에도 도전해 보세요!	
+GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_CONSTRUCT	영웅 난이도 피조물 지구에도 도전해 보세요!	
+GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_FROSTWYRM	영웅 난이도 서리고룡 둥지에도 도전해 보세요!	
+GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_MILITARY	영웅 난이도 군사 지구에도 도전해 보세요!	
+GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_PLAGUE	영웅 난이도 역병 지구에도 도전해 보세요!	
 GLOBAL_REWARD_CORE_CARD_DETAILS	{0}/{1}장의 {2} 카드 잠금 해제	0=# cards unlocked, 1=# cards possible to unlock, 2=class
 GLOBAL_REWARD_FORGE_DETAILS_OUT_OF_BAND	게임 외부에서 투기장 입장권 {0} |4(개,개)를 획득했습니다.	0=count
 GLOBAL_REWARD_FORGE_HEADLINE	투기장 입장 가능	
@@ -474,6 +480,7 @@ GLOBAL_SOCIAL_TOAST_FRIEND_SHAMAN_LEVEL	<color=#{0}>{1}</color> 님이 주술사
 GLOBAL_SOCIAL_TOAST_FRIEND_WARLOCK_LEVEL	<color=#{0}>{1}</color> 님이 흑마법사로 {2} 레벨을 달성했습니다.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_WARRIOR_LEVEL	<color=#{0}>{1}</color> 님이 전사로 {2} 레벨을 달성했습니다.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_RECENT_OPPONENT_FRIEND_REQUEST	최근에 만난 상대가 당신과 친구가 되고 싶어합니다!	
+GLOBAL_SPLASH_CLOSED_RECONNECTING	다시 연결하는 중...	
 GLOBAL_SPLASH_CLOSED_SIGN_TITLE	사용 불가	
 GLOBAL_TOOLTIP_FRIEND_BUTTON_DESC	친구와 이야기를 나누거나 서로 대결해보세요.	
 GLOBAL_TOOLTIP_FRIEND_BUTTON_HEADER	친구	

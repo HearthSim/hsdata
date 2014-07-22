@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dbf>
+	<Column name="ID" type="Int" comment="primary key" />
+	<Column name="NOTE_DESC" type="String" comment="designer note" />
+	<Column name="PREVIOUS_BANNER_ID" type="Int" comment="BANNER.ID that the player must have seen before we can show this banner. 0 means no requirement." />
+	<Column name="PREFAB" type="AssetPath" comment="The prefab associated with this banner" />
+	<Column name="TEXT" type="LocString" />
+	<Record>
+		<Field column="ID">1</Field>
+		<Field column="NOTE_DESC">Naxx Arachnid Quarter is open</Field>
+		<Field column="PREVIOUS_BANNER_ID">0</Field>
+		<Field column="PREFAB">Assets/Game/GameObjects/NewAdvPopUp_NAX</Field>
+		<Field column="TEXT">
+			<enUS>A new Solo Adventure has appeared! Can you conquer the floating citadel of Naxxramas?!</enUS>
+			<zhTW>新的冒險篇章出現了!你能征服空中堡壘納克薩瑪斯嗎?!</zhTW>
+			<zhCN>全新的单人冒险模式已经开启！你能征服天灾浮空城纳克萨玛斯吗？！</zhCN>
+			<ruRU>Новое приключение! Сможете ли вы покорить парящую цитадель Наксрамас?</ruRU>
+			<ptBR>Uma nova aventura individual está disponível! Você é capaz de conquistar Naxxramas?</ptBR>
+			<plPL>Pojawiła się nowa przygoda! Czy jesteś w stanie podbić latającą cytadelę Naxxramas?!</plPL>
+			<koKR>새로운 모험 모드가 등장했습니다! 하늘에 떠있는 죽음의 요새, 낙스라마스를 정복해 보세요!</koKR>
+			<itIT>È disponibile una nuova avventura! Riuscirai a conquistare la cittadella volante di Naxxramas?</itIT>
+			<frFR>Une nouvelle aventure vient d’apparaître ! Pourrez-vous conquérir la citadelle de Naxxramas ?</frFR>
+			<esMX>¡Ha aparecido una nueva aventura! ¿Podrás conquistar la ciudadela flotante de Naxxramas?</esMX>
+			<esES>¡Ha aparecido una nueva aventura para un solo jugador! ¿Podrás conquistar Naxxramas?</esES>
+			<deDE>Ein neues Soloabenteuer wartet auf Euch! Seid Ihr der schwebenden Zitadelle Naxxramas gewachsen?</deDE>
+		</Field>
+	</Record>
+	<Record>
+		<Field column="ID">2</Field>
+		<Field column="NOTE_DESC">Naxx Plague Quarter is open</Field>
+		<Field column="PREVIOUS_BANNER_ID">1</Field>
+		<Field column="PREFAB">Assets/Game/GameObjects/NewAdvPopUp_NAX</Field>
+		<Field column="TEXT">
+			<enUS>The Plague Quarter is now open!</enUS>
+			<zhTW>瘟疫區開放了!</zhTW>
+			<zhCN>瘟疫区现已开放</zhCN>
+			<ruRU>Чумной квартал открыт!</ruRU>
+			<ptBR>O Distrito da Peste está aberto!</ptBR>
+			<plPL>Rewir Zarazy jest już otwarty!</plPL>
+			<koKR>역병 지구가 열렸습니다!</koKR>
+			<itIT>L'Ala della Pestilenza è ora disponibile!</itIT>
+			<frFR>Le quartier de la Peste est ouvert !</frFR>
+			<esMX>¡El Arrabal de la Peste está abierto!</esMX>
+			<esES>¡El Arrabal de la Peste ya está abierto!</esES>
+			<deDE>Das Seuchenviertel ist jetzt offen!</deDE>
+		</Field>
+	</Record>
+	<Record>
+		<Field column="ID">3</Field>
+		<Field column="NOTE_DESC">Naxx Military Quarter is open</Field>
+		<Field column="PREVIOUS_BANNER_ID">2</Field>
+		<Field column="PREFAB">Assets/Game/GameObjects/NewAdvPopUp_NAX</Field>
+		<Field column="TEXT">
+			<enUS>The Military Quarter is now open!</enUS>
+			<zhTW>軍事區開放了!</zhTW>
+			<zhCN>军事区现已开放</zhCN>
+			<ruRU>Военный квартал открыт!</ruRU>
+			<ptBR>O Distrito Militar está aberto!</ptBR>
+			<plPL>Rewir Zbrojnych jest już otwarty!</plPL>
+			<koKR>군사 지구가 열렸습니다!</koKR>
+			<itIT>L'Ala dei Combattenti è ora disponibile!</itIT>
+			<frFR>Le quartier Militaire est ouvert !</frFR>
+			<esMX>¡El Arrabal Militar está abierto!</esMX>
+			<esES>¡El Arrabal Militar ya está abierto!</esES>
+			<deDE>Das Militärviertel ist jetzt offen!</deDE>
+		</Field>
+	</Record>
+	<Record>
+		<Field column="ID">4</Field>
+		<Field column="NOTE_DESC">Naxx Construct Quarter is open</Field>
+		<Field column="PREVIOUS_BANNER_ID">3</Field>
+		<Field column="PREFAB">Assets/Game/GameObjects/NewAdvPopUp_NAX</Field>
+		<Field column="TEXT">
+			<enUS>The Construct Quarter is now open!</enUS>
+			<zhTW>傀儡區開放了!</zhTW>
+			<zhCN>构造区现已开放</zhCN>
+			<ruRU>Квартал Мерзости открыт!</ruRU>
+			<ptBR>O Distrito dos Constructos está aberto!</ptBR>
+			<plPL>Rewir Konstruktów jest już otwarty!</plPL>
+			<koKR>피조물 지구가 열렸습니다!</koKR>
+			<itIT>L'Ala dei Costrutti è ora disponibile!</itIT>
+			<frFR>Le quartier des Assemblages est ouvert !</frFR>
+			<esMX>¡El Arrabal de los Ensamblajes está abierto!</esMX>
+			<esES>¡El Arrabal de los Ensamblajes ya está abierto!</esES>
+			<deDE>Das Konstruktviertel ist jetzt offen!</deDE>
+		</Field>
+	</Record>
+	<Record>
+		<Field column="ID">5</Field>
+		<Field column="NOTE_DESC">Naxx Frostwyrm Lair is open</Field>
+		<Field column="PREVIOUS_BANNER_ID">4</Field>
+		<Field column="PREFAB">Assets/Game/GameObjects/NewAdvPopUp_NAX</Field>
+		<Field column="TEXT">
+			<enUS>Frostwyrm Lair is now open!</enUS>
+			<zhTW>冰霜巨龍巢穴開放了!</zhTW>
+			<zhCN>冰龙巢穴现已开放</zhCN>
+			<ruRU>Логово ледяного змея открыто!</ruRU>
+			<ptBR>O Covil da Serpe Gélida está aberto!</ptBR>
+			<plPL>Leże Żmija Mrozu jest już otwarte!</plPL>
+			<koKR>서리고룡 둥지가 열렸습니다!</koKR>
+			<itIT>L'Antro del Gelo è ora disponibile!</itIT>
+			<frFR>L’antre du Wyrm de givre est ouvert !</frFR>
+			<esMX>¡La Guarida de la Vermis está abierta!</esMX>
+			<esES>¡La Guarida de la Vermis ya está abierta!</esES>
+			<deDE>Die Spitze der Nekropole ist jetzt offen!</deDE>
+		</Field>
+	</Record>
+</Dbf>

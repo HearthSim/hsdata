@@ -4,6 +4,9 @@ GLOBAL_ADDFRIEND_ERROR_MALFORMED	Sie müssen eine E-Mail-Adresse oder ein Battle
 GLOBAL_ADDFRIEND_HEADER	Freund hinzufügen	
 GLOBAL_ADDFRIEND_INSTRUCTION	BattleTag oder E-Mail-Adresse eingeben.	
 GLOBAL_ADDFRIEND_SENT_CONFIRMATION	Freundschaftsanfrage gesendet.	
+GLOBAL_ADVENTURE_CHOOSE_BUTTON_TEXT	Wählen	
+GLOBAL_ADVENTURE_DESC_HEADER	Abenteuer	
+GLOBAL_ADVENTURE_TRAY_HEADER	Wählt ein Abenteuer	
 GLOBAL_APPROXIMATE_DATETIME	~{0}	0=time string
 GLOBAL_APPROXIMATE_DATETIME_RANGE	~{0} – {1}	0=min seconds 1=max seconds string
 GLOBAL_ARENA_MEDAL_0	Neulingsschlüssel	
@@ -30,6 +33,8 @@ GLOBAL_BUTTON_YES	Ja
 GLOBAL_CANCEL	Abbrechen	
 GLOBAL_CARD_SET_CORE	Basis	
 GLOBAL_CARD_SET_EXPERT1	Profi	
+GLOBAL_CARD_SET_NAXX	Naxxramas	
+GLOBAL_CARD_SET_NAXX_SEARCHABLE_SHORTHAND_NAMES	Nax Naxx	This is a space-separated value indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_PROMO	Promo	
 GLOBAL_CARD_SET_REWARD	Belohnung	
 GLOBAL_CARDTYPE_ENCHANTMENT	Verzauberung	
@@ -46,6 +51,7 @@ GLOBAL_CHAT_NO_FRIENDS_ONLINE	Keiner Ihrer Freunde ist derzeit online.
 GLOBAL_CHAT_NO_RECENT_CONVERSATIONS	Verwenden Sie das Freundemenü, um ein Gespräch mit einem Freund zu beginnen.	
 GLOBAL_CHAT_RECEIVER_OFFLINE	{0} ist offline.	0=player name
 GLOBAL_CHAT_RECEIVER_ONLINE	{0} ist online.	0=player name
+GLOBAL_CHOOSE_PAYMENT	Zahlungsmethode wählen	
 GLOBAL_CLASS_DEATHKNIGHT	Todesritter	
 GLOBAL_CLASS_DRUID	Druide	
 GLOBAL_CLASS_HUNTER	Jäger	
@@ -65,6 +71,7 @@ GLOBAL_CONFIRM	Bestätigen
 GLOBAL_COST	Kosten	
 GLOBAL_CURRENT_DATE	{0:dd.MM.yyyy}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
 GLOBAL_CURRENT_TIME	{0:HH:mm "Uhr"}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
+GLOBAL_DATETIME_AFK_DAY	Seit mehr als einem Tag AFK	
 GLOBAL_DATETIME_AFK_DAYS	Seit {0} |4(Tag,Tagen) AFK	
 GLOBAL_DATETIME_AFK_HOURS	Seit {0} |4(Stunde,Stunden) AFK	
 GLOBAL_DATETIME_AFK_MINUTES	Seit {0} |4(Minute,Minuten) AFK	
@@ -124,6 +131,7 @@ GLOBAL_ERROR_NETWORK_INCORRECT_REGION	Ihr Battle.net-Account kann derzeit nicht 
 GLOBAL_ERROR_NETWORK_LOGIN_FAILURE	Anmeldung im Battle.net nicht möglich. Bitte warten Sie ein paar Minuten und versuchen Sie es erneut.	
 GLOBAL_ERROR_NETWORK_LOST_GAME_CONNECTION	Die Verbindung zum Battle.net-Spieldienst wurde unterbrochen. Sie können versuchen, die Verbindung wiederherzustellen, indem Sie ein weiteres Spiel starten.	
 GLOBAL_ERROR_NETWORK_NO_CONNECTION	Verbindung konnte nicht hergestellt werden. Bitte überprüfen Sie Ihre Internetverbindung.	
+GLOBAL_ERROR_NETWORK_NO_GAME_SERVER	Wir konnten für Sie leider kein Spiel starten. Bitte versuchen Sie es erneut.	
 GLOBAL_ERROR_NETWORK_PARENTAL_CONTROLS	Der Zugriff auf diesen Account ist momentan durch die Elterliche Freigabe eingeschränkt.	
 GLOBAL_ERROR_NETWORK_PHONE_LOCK	Bitte rufen Sie die Nummer Ihrer Battle.net-Mobiltelefonsperre an, um das Einloggen zu erlauben.	
 GLOBAL_ERROR_NETWORK_SPAM	Die Verbindung zum Battle.net-Dienst wurde aufgrund zu vieler Anfragen in zu kurzer Zeit unterbrochen. Bitte starten Sie Hearthstone neu, um die Verbindung wiederherzustellen.	
@@ -176,7 +184,7 @@ GLOBAL_FRIENDLIST_FRIENDS_HEADER_ALL_ONLINE	FREUNDE – {0} online
 GLOBAL_FRIENDLIST_FRIENDS_HEADER_NO_ONLINE	FREUNDE	
 GLOBAL_FRIENDLIST_LASTPLAYED	Letzter Gegner:	
 GLOBAL_FRIENDLIST_MYSTATUS	ONLINE	
-GLOBAL_FRIENDLIST_NEARBY_PLAYERS_HEADER	SPIELER IN EURER NÄHE - {0}	0=number of players
+GLOBAL_FRIENDLIST_NEARBY_PLAYERS_HEADER	SPIELER IN EURER NÄHE – {0}	0=number of players
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_ALERT_MESSAGE	Seid Ihr Euch sicher, dass Ihr {0} entfernen wollt?	0=friend name
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_BUTTON	Entfernen	
 GLOBAL_FRIENDLIST_REQUEST_SENT_TIME	Gesendet: {0}	0=one of the GLOBAL_DATETIME_ELAPSED_ strings
@@ -203,6 +211,8 @@ GLOBAL_HERO_LEVEL_REWARD_BOOSTER	{0}-Erweiterungspackung	0=booster type
 GLOBAL_HERO_LEVEL_REWARD_GOLD	{0} Gold	0=amount
 GLOBAL_HERO_LEVEL_REWARD_GOLDEN_CARD	{1} ({0})	0=flair 1=card name
 GLOBAL_HERO_WINS	Siege: {0}/{1}	0=number of games this class has won 1=number of wins to get golden
+GLOBAL_KEYWORD_AUTOCAST	Automatischer Einsatz	
+GLOBAL_KEYWORD_AUTOCAST_TEXT	Diese Heldenfähigkeit muss in jedem Zug eingesetzt werden.	
 GLOBAL_KEYWORD_BATTLECRY	Kampfschrei	
 GLOBAL_KEYWORD_BATTLECRY_TEXT	Ein Effekt tritt in Kraft, wenn die Karte ausgespielt wird.	
 GLOBAL_KEYWORD_CHARGE	Ansturm	
@@ -389,24 +399,12 @@ GLOBAL_RARITY_FREE	Gratis
 GLOBAL_RARITY_LEGENDARY	Legendär	
 GLOBAL_RARITY_RARE	Selten	
 GLOBAL_RECONNECT_EXIT_BUTTON	Verlassen	
-GLOBAL_RECONNECT_GAME_MODE_ARENA	Arena	
-GLOBAL_RECONNECT_GAME_MODE_FRIENDLY	Spiel mit einem Freund	
-GLOBAL_RECONNECT_GAME_MODE_PLAY	Spielen	
-GLOBAL_RECONNECT_GAME_MODE_PRACTICE	Üben	
-GLOBAL_RECONNECT_GAME_MODE_RANKED_PLAY	Gewertet	
-GLOBAL_RECONNECT_GAME_MODE_TUTORIAL	Tutorial	
-GLOBAL_RECONNECT_GAME_MODE_UNRANKED_PLAY	Ungewertet	
 GLOBAL_RECONNECT_RECONNECTED	Die Verbindung zu Ihrem Spiel wurde wiederhergestellt. Spiel wird fortgeführt ...	
 GLOBAL_RECONNECT_RECONNECTED_HEADER	Verbindung hergestellt	
 GLOBAL_RECONNECT_RECONNECTED_LOGIN	Die Verbindung zu Ihrem letzten Spiel wurde wiederhergestellt. Spiel wird fortgeführt ...	
 GLOBAL_RECONNECT_RECONNECTING	Die Verbindung zu Ihrem Spiel wurde getrennt. Verbindung wird wiederhergestellt ...	
 GLOBAL_RECONNECT_RECONNECTING_HEADER	Stelle Verbindung her	
 GLOBAL_RECONNECT_RECONNECTING_LOGIN	Die Verbindung zu Ihrem letzten Spiel wurde getrennt. Verbindung wird wiederhergestellt ...	
-GLOBAL_RECONNECT_RESULT_DISCONNECT	Sie haben Ihr letztes Spiel im Modus „{0}“ aufgrund einer getrennten Verbindung verloren.	0=one of GLOBAL_RECONNECT_GAME_MODE_*
-GLOBAL_RECONNECT_RESULT_HEADER	Spielergebnis	
-GLOBAL_RECONNECT_RESULT_LOSE	Sie haben Ihr letztes Spiel im Modus „{0}“ verloren.	0=one of GLOBAL_RECONNECT_GAME_MODE_*
-GLOBAL_RECONNECT_RESULT_TIE	Ihr letztes Spiel im Modus „{0}“ ging unentschieden aus.	0=one of GLOBAL_RECONNECT_GAME_MODE_*
-GLOBAL_RECONNECT_RESULT_WIN	Sie haben Ihr letztes Spiel im Modus „{0}“ gewonnen.	0=one of GLOBAL_RECONNECT_GAME_MODE_*
 GLOBAL_RECONNECT_TIMEOUT	Die Verbindung zu Ihrem Spiel konnte nicht wiederhergestellt werden.	
 GLOBAL_RECONNECT_TIMEOUT_HEADER	Fehler	
 GLOBAL_REGION_AMERICAS	Amerika & Südostasien	
@@ -429,6 +427,14 @@ GLOBAL_REWARD_CARD_DETAILS_TUTORIAL05	Herrlich!
 GLOBAL_REWARD_CARD_DETAILS_TUTORIAL06	Heiß, heiß, heiß!	
 GLOBAL_REWARD_CARD_HEADLINE	Belohnung!	
 GLOBAL_REWARD_CARD_LEVEL_UP	Wird durch das Erreichen der Stufe {0} als {1} freigeschaltet	0=# level, 1=class
+GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL	{0}	0=first class
+GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL_DOUBLE	{0} und {1}	0=first class, 1=second class
+GLOBAL_REWARD_CLASS_CHALLENGE_HEADLINE	|4(Klassenherausforderung,Klassenherausforderungen) freigeschaltet	
+GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_ARACHNID	Außerdem ist jetzt das extrem schwierige heroische Arachnidenviertel verfügbar.	
+GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_CONSTRUCT	Außerdem ist jetzt das extrem schwierige heroische Konstruktviertel verfügbar.	
+GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_FROSTWYRM	Außerdem ist jetzt die extrem schwierige heroische Spitze der Nekropole verfügbar.	
+GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_MILITARY	Außerdem ist jetzt das extrem schwierige heroische Militärviertel verfügbar.	
+GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_PLAGUE	Außerdem ist jetzt das extrem schwierige heroische Seuchenviertel verfügbar.	
 GLOBAL_REWARD_CORE_CARD_DETAILS	{2}: {0}/{1} Karten freigeschaltet	0=# cards unlocked, 1=# cards possible to unlock, 2=class
 GLOBAL_REWARD_FORGE_DETAILS_OUT_OF_BAND	{0} |4(Zugang zur Arena wurde,Zugänge zur Arena wurden) Ihrem Account von außerhalb des Spiels hinzugefügt.	0=count
 GLOBAL_REWARD_FORGE_HEADLINE	Zugang zur Arena erhalten!	
@@ -447,14 +453,14 @@ GLOBAL_SCREENSHOT_COMPLETE	Screenshot wurde auf dem Desktop gespeichert.
 GLOBAL_SEASON_END_BONUS_STAR_BOOST	Eure Bonussterne katapultieren Euch auf	
 GLOBAL_SEASON_END_BONUS_STAR_TITLE	Euer Rang aus der letzten Saison verleiht Euch	
 GLOBAL_SEASON_END_BONUS_STARS_LABEL	|4(Bonusstern,Bonussterne)	
-GLOBAL_SEASON_END_NEW_CARD_BACK	Ihr habt einen neuen Kartenrücken freigeschaltet.	
+GLOBAL_SEASON_END_NEW_CARD_BACK	Ihr habt einen neuen Kartenrücken freigeschaltet!	
 GLOBAL_SEASON_END_NEW_SEASON	Die {0} hat begonnen!	0=season name
 GLOBAL_SEASON_END_RANK_LABEL	Ihr habt folgenden Rang erreicht: 	
 GLOBAL_SEASON_END_WELCOME	Willkommen	
 GLOBAL_SET_CORE	Basisset	
 GLOBAL_SET_EXPERT1	Profiset	
 GLOBAL_SHUTDOWN_TOAST	<color=#{0}>Battle.net wird in {1} |4(Minute,Minuten) heruntergefahren.</color>	0=color, 1=minutes
-GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_COMPLETE	<color=#{0}>{1}</color> hat eine Arenarunde beendet. ({2}-{3})	0=name color,1=player name,2=Arena Wins,3=Arena Losses
+GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_COMPLETE	<color=#{0}>{1}</color> hat eine Arenarunde beendet. ({2}:{3})	0=name color,1=player name,2=Arena Wins,3=Arena Losses
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_COMPLETE_BAD	<color=#{0}>{1}</color> hat eine Arenarunde beendet.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START	<color=#{0}>{1}</color> hat eine neue Arenarunde begonnen.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_DRUID_LEVEL	<color=#{0}>{1}</color> ist als Druide auf Stufe {2} aufgestiegen.	0=name color,1=player name,2=level
@@ -474,6 +480,7 @@ GLOBAL_SOCIAL_TOAST_FRIEND_SHAMAN_LEVEL	<color=#{0}>{1}</color> ist als Schamane
 GLOBAL_SOCIAL_TOAST_FRIEND_WARLOCK_LEVEL	<color=#{0}>{1}</color> ist als Hexenmeister auf Stufe {2} aufgestiegen.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_WARRIOR_LEVEL	<color=#{0}>{1}</color> ist als Krieger auf Stufe {2} aufgestiegen.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_RECENT_OPPONENT_FRIEND_REQUEST	Ein Spieler, mit dem Ihr es kürzlich aufgenommen habt, möchte Euer Freund werden!	
+GLOBAL_SPLASH_CLOSED_RECONNECTING	Verbinde erneut ...	
 GLOBAL_SPLASH_CLOSED_SIGN_TITLE	Geschlossen	
 GLOBAL_TOOLTIP_FRIEND_BUTTON_DESC	Chattet mit Euren Freunden und fordert sie heraus.	
 GLOBAL_TOOLTIP_FRIEND_BUTTON_HEADER	Freunde	

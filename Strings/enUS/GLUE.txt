@@ -1,5 +1,5 @@
 TAG	TEXT	COMMENT
-GLUE_COLLECTION_SEARCH	<i>Search</i>
+GLUE_COLLECTION_SEARCH	Search
 GLUE_COLLECTION_DECK_HELP_BUTTON	Suggest a Card
 GLUE_COLLECTION_DECK_INFO_TITLE	{0} Info
 GLUE_COLLECTION_DECK_INFO_HERO_POWER_TOOLTIP	Hero Power
@@ -25,6 +25,8 @@ GLUE_COLLECTION_DECK_SAVE_ANYWAY	No
 GLUE_COLLECTION_DECK_FINISH_FOR_ME	Yes	
 GLUE_COLLECTION_DECK_INVALID_POPUP_HEADER	Invalid Deck	
 GLUE_COLLECTION_DECK_INVALID_POPUP_MESSAGE	You are {0} |4(card,cards) short of a full deck. Do you want to finish it automatically?
+GLUE_COLLECTION_DECK_PASTE_POPUP_HEADER	Paste Deck	
+GLUE_COLLECTION_DECK_PASTE_POPUP_MESSAGE	This will erase your existing deck and replace it with the contents of the clipboard, are you sure?
 GLUE_COLLECTION_NEW_DECK	New Deck	
 GLUE_COLLECTION_TUTORIAL01	Craft a deck of your own!
 GLUE_COLLECTION_TUTORIAL02	Turn pages to browse.
@@ -70,10 +72,11 @@ GLUE_CRAFTING_SOULBOUND	Soulbound
 GLUE_CRAFTING_SOULBOUND_DESC	This card cannot be disenchanted or crafted.	
 GLUE_CRAFTING_SOULBOUND_BASIC_DESC	Basic cards cannot be disenchanted or crafted.	
 GLUE_CRAFTING_SOULBOUND_REWARD_DESC	Quest Rewards cannot be disenchanted or crafted.	
+GLUE_CRAFTING_HEROIC_NAXX	Naxxramas
 GLUE_CRAFTING_TITLE	Card Crafting	
 GLUE_DECK_TRAY_COUNT	{0}/{1}	
 GLUE_DECK_TRAY_CARD_COUNT_LABEL	Cards	
-GLUE_DECK_TRAY_DECK_COUNT_LABEL	Decks	
+GLUE_DECK_TRAY_DECK_COUNT_LABEL	Decks
 GLUE_STORE_INFO_BUTTON_TEXT	i	
 GLUE_STORE_TERMS_OF_SALE_BUTTON_TEXT	?
 GLUE_STORE_OPEN_BUTTON_TEXT	Shop
@@ -81,6 +84,9 @@ GLUE_STORE_CLOSED_BUTTON_TEXT	Shop\nClosed
 GLUE_STORE_AUTH_WAITING	Waiting for Authorization
 GLUE_STORE_AUTH_SUCCESS_HEADLINE	Purchase Complete!
 GLUE_STORE_AUTH_FAIL_HEADLINE	Purchase Failed
+GLUE_STORE_AUTH_ZERO_COST_WAITING	Opening the Necropolis for the first time
+GLUE_STORE_AUTH_ZERO_COST_SUCCESS_HEADLINE	Access Granted!
+GLUE_STORE_AUTH_ZERO_COST_FAIL_HEADLINE	Access Denied
 GLUE_STORE_FAIL_NO_BATTLEPAY	Your transaction couldn't be completed. Sorry about that! Please wait a few moments and try again.
 GLUE_STORE_FAIL_BNET_ID	Invalid Battle.net ID.
 GLUE_STORE_FAIL_IN_PROGRESS	You have another transaction that is still in progress. Please wait for that to complete and try again.
@@ -99,6 +105,9 @@ GLUE_STORE_FAIL_THIRD_PARTY_BAD_RECEIPT	We were unable to process your mobile pu
 GLUE_STORE_FAIL_GENERAL	There was a problem processing your payment.
 GLUE_STORE_GOLD_BUTTON_TOOLTIP_HEADLINE	Buy with gold
 GLUE_STORE_MONEY_BUTTON_TOOLTIP_HEADLINE	Buy
+GLUE_STORE_DUNGEON_BUTTON_TEXT	Full Adventure
+GLUE_STORE_DUNGEON_BUTTON_COST_TEXT	({0} |4(wing,wings) {1})	0=number of wings,1=cost
+GLUE_STORE_DUNGEON_BUTTON_COST_OWNED_TEXT	(Purchased)
 GLUE_STORE_DISABLED	The Shop is currently unavailable. Please check back later.
 GLUE_STORE_HEADLINE	Shop
 GLUE_STORE_PRODUCT_DETAILS_HEADLINE_EXPERT_PACK	Contents per pack:
@@ -107,11 +116,16 @@ GLUE_STORE_KOREAN_PRODUCT_DETAILS_EXPERT_PACK	이용기간 : 서비스 종료 �
 GLUE_STORE_PRODUCT_NAME_MOBILE_UNKNOWN	Purchase via Mobile
 GLUE_STORE_PRODUCT_NAME_FORGE_TICKET	Arena Admission
 GLUE_STORE_BUY_TEXT	BUY	this is what you see when you initiate the purchase
-GLUE_STORE_SINGLE_PACK	1 Pack
-GLUE_STORE_MULTI_PACK	{0} Packs
-GLUE_STORE_SINGLE_EXPERT_PACK	1 Expert Pack
-GLUE_STORE_MULTI_EXPERT_PACK	{0} Expert Packs
-GLUE_STORE_BONUS_PACKS	{0} Bonus	0=number of packs
+GLUE_STORE_QUANTITY_PACK	{0} |4(Pack,Packs)
+GLUE_STORE_PRODUCT_NAME_EXPERT_PACK	{0} Expert |4(Pack,Packs)
+GLUE_STORE_PRODUCT_NAME_NAXX_WING_1	Arachnid Quarter
+GLUE_STORE_PRODUCT_NAME_NAXX_WING_2	Plague Quarter
+GLUE_STORE_PRODUCT_NAME_NAXX_WING_3	Military Quarter
+GLUE_STORE_PRODUCT_NAME_NAXX_WING_4	Construct Quarter
+GLUE_STORE_PRODUCT_NAME_NAXX_WING_5	Frostwyrm Lair
+GLUE_STORE_PRODUCT_NAME_NAXX_WING_BUNDLE	Naxxramas Adventure ({0} |4(Wing,Wings))
+GLUE_STORE_PRODUCT_DETAILS_NAXX_PART_1	Do battle with the deadly {0} bosses in single player combat.
+GLUE_STORE_PRODUCT_DETAILS_NAXX_PART_2	Earn new Naxxramas cards for your collection, including 1 Legendary card!
 GLUE_STORE_PRODUCT_PRICE	({0})	0=price
 GLUE_STORE_PRODUCT_PRICE_NA	N/A
 GLUE_STORE_SUMMARY_HEADLINE	Summary
@@ -126,7 +140,7 @@ GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_FORGE_TICKET	투기장 입장료는 구매 �
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_CONFIRM	본 거래와 관련된 조건과 약관을 확인하며 이에 동의합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_SUMMARY_TOS_AGREEMENT	By pressing "{0}", you acknowledge that you have read and accepted the Terms of Sale. You can change your default payment method or read the Terms of Sale by pressing the "{1}" button.	0=GLUE_STORE_SUMMARY_PAY_NOW_TEXT,1=GLUE_STORE_TERMS_OF_SALE_BUTTON_TEXT
 GLUE_STORE_SUMMARY_PAY_NOW_TEXT	Pay Now	this is what you see when you confirm the purchase
-GLUE_STORE_READ_TOS_BUTTON_TEXT	Read Terms of Service
+GLUE_STORE_READ_TOS_BUTTON_TEXT	Read Terms of Sale
 GLUE_STORE_CHANGE_PAYMENT_BUTTON_TEXT	Adjust Default Payment Method
 GLUE_STORE_BNET_BALANCE	Battle.net Balance
 GLUE_STORE_QUANTITY_HEADLINE	Change Quantity
@@ -180,8 +194,8 @@ GLUE_BLIZZCON2013_ARENA_PRIZE	Congratulations! You've earned a prize! Show a Bli
 GLUE_BLIZZCON2013_ARENA_GRAND_PRIZE	WOOOOO! We have a new Arena Champion! Show a BlizzCon attendant this screen to receive your GRAND PRIZE!
 GLUE_TOOLTIP_BUTTON_TOURNAMENT_HEADLINE	Play	
 GLUE_TOOLTIP_BUTTON_TOURNAMENT_DESC	Play against an opponent of equal skill.	
-GLUE_TOOLTIP_BUTTON_PRACTICE_HEADLINE	Practice	
-GLUE_TOOLTIP_BUTTON_PRACTICE_DESC	Hone your skills against AI opponents.	
+GLUE_TOOLTIP_BUTTON_ADVENTURE_HEADLINE	Solo Adventures	
+GLUE_TOOLTIP_BUTTON_ADVENTURE_DESC	Embark on adventures or practice against the AI.	
 GLUE_TOOLTIP_BUTTON_FORGE_HEADLINE	The Arena	
 GLUE_TOOLTIP_BUTTON_FORGE_DESC	Forge a deck quickly from random cards.	
 GLUE_TOOLTIP_BUTTON_FORGE_NOT_UNLOCKED	Locked until you unlock every hero.
@@ -196,7 +210,7 @@ GLUE_TOOLTIP_BUTTON_STORE_HEADLINE	Shop
 GLUE_TOOLTIP_BUTTON_STORE_DESC	Buy Packs with gold or money.
 GLUE_MOBILE_TOOLTIP_BUTTON_STORE_DESC	Buy Packs with gold or money.
 GLUE_TOOLTIP_GOLD_HEADER	Gold	
-GLUE_TOOLTIP_GOLD_DESCRIPTION	Spend gold to buy Packs or Enter the Arena.	
+GLUE_TOOLTIP_GOLD_DESCRIPTION	Spend gold to buy Packs or enter The Arena.	
 GLUE_TOOLTIP_RANKED_BUTTON	See how you stack up against other players!	
 GLUE_TOOLTIP_CASUAL_BUTTON	Find an opponent of equal skill, and play for fun!	
 GLUE_TOOLTIP_GOLDEN_WINS_HEADER	Ranked Wins
@@ -206,6 +220,7 @@ GLUE_TOURNAMENT_UNRANKED_MODE	Unranked Mode
 GLUE_TOURNAMENT_UNRANKED_DESC	You have a separate skill rating for Unranked mode, and you won't earn medals.
 GLUE_TOURNAMENT_CASUAL	Casual	
 GLUE_TOURNAMENT_RANKED	Ranked
+GLUE_ADVENTURE	Solo Adventures	
 GLUE_PRACTICE	Practice	
 GLUE_BASIC_SET_PROGRESS	{0}/{1} Basic Cards	0=number of owned cards,1=total number of basic cards
 GLUE_FORGE	The Arena	
@@ -217,7 +232,7 @@ GLUE_MY_COLLECTION	My Collection
 GLUE_PACK_OPENING_HEADER	Open Packs	
 GLUE_PACK_OPENING_ALL_CLASSES	All Classes	
 GLUE_PACK_OPENING_BOOSTER_COUNT	{0}	0=number of owned boosters
-GLUE_PACK_OPENING_TOOLTIP	카드팩을 개봉함으로써, 귀하는 카드팩의 청약철회가 불가하다는 사실을 인지하고 이에 동의합니다.	only displayed for Korean customers, should always be in Korean
+GLUE_PACK_OPENING_TOOLTIP	카드 팩을 개봉함으로써, 귀하는 카드 팩의 청약철회가 불가하다는 사실을 인지하고 이에 동의합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_CHOOSE	Choose	
 GLUE_CREATE_DECK	Create Deck	
 GLUE_ALERT_POPUP_HEADER	Message of the Day	
@@ -235,10 +250,6 @@ GLUE_RDM_NO_SPECIFICS	Your deck is looking good!  Maybe some of these cards woul
 GLUE_CHOOSE_YOUR_HERO	Choose Your Hero	
 GLUE_CHOOSE_YOUR_DECK	Choose Your Deck	
 GLUE_CHOOSE_OPPONENT	Choose Opponent	
-GLUE_AI_OPPONENT_NORMAL	Normal	
-GLUE_AI_OPPONENT_EXPERT	Expert	
-GLUE_AI_OPPONENT_CUSTOM	Custom	
-GLUE_AI_EXPERT_TEMPLATE	{0} - Expert	
 GLUE_CLASS_DESCRIPTION_MAGE	Incinerate or freeze foes with powerful damaging spells, or use Secrets to keep them guessing.	
 GLUE_CLASS_DESCRIPTION_WARRIOR	Crush your foes with powerful weapons and let the bloodlust feed your growing strength.	
 GLUE_CLASS_DESCRIPTION_SHAMAN	Bend powerful elements to your will, but never forget that the elements will demand their price.	
@@ -307,8 +318,8 @@ GLUE_TIP_DEFAULT_12	Golden cards can be disenchanted for a lot of dust.
 GLUE_TIP_DEFAULT_13	You can use the Search field in your collection to find all cards with 'Taunt'.	
 GLUE_TIP_DEFAULT_14	Basic cards are earned by leveling up a class. Expert cards come from Expert Packs.	
 GLUE_TIP_DEFAULT_15	Playing against real players grants you bonus XP.	
-GLUE_TIP_DEFAULT_16	You can right-click on your opponent's hero to "Squelch" his emotes.	
-GLUE_TIP_DEFAULT_16_TOUCH	You can tap your opponent's hero to "Squelch" his emotes.	
+GLUE_TIP_DEFAULT_16	You can right-click on your opponent's hero to "Squelch" emotes.	
+GLUE_TIP_DEFAULT_16_TOUCH	You can tap your opponent's hero to "Squelch" emotes.	
 GLUE_TIP_DEFAULT_17	If you win 500 games in Ranked mode with a class, you'll earn the Golden Hero for that class.	
 GLUE_TIP_DEFAULT_18	You can add friends to your friends list with the button on the bottom left.	
 GLUE_TIP_DEFAULT_19	There are 25 different ranks to earn in Ranked Mode, and above those: The "Legend" rank.	
@@ -333,6 +344,10 @@ GLUE_TIP_PLAY_8	If you achieve Rank 20 in a season, you'll earn that season's sp
 GLUE_TIP_FORGE_0	Your Arena Deck will expire after you lose 3 games.	
 GLUE_TIP_FORGE_1	Your Arena prize gets better with each game you win!	
 GLUE_TIP_FORGE_2	You don’t have to play all of your Arena games at once.	
+GLUE_TIP_NAXXRAMAS_0	You'll need to build a custom deck to defeat the most difficult bosses in Naxxramas.	
+GLUE_TIP_NAXXRAMAS_1	Don't let Naxxramas bosses get you down. Build a custom deck to crush them.	
+GLUE_TIP_NAXXRAMAS_2	If you lose to a boss, you may want to tweak your deck.	
+GLUE_TIP_NAXXRAMAS_3	Be prepared! Build a deck to counter the boss you're going to challenge.	
 GLUE_TIP_QUEST_LOG_0	Unlock Other Heroes in Practice Mode – Defeat an AI to unlock it!
 GLUE_TIP_QUEST_LOG_1	You can earn additional basic cards for a class by playing games as that class.
 GLUE_TIP_QUEST_LOG_2	Try heading over to play mode, you can earn expert card packs by playing!
@@ -377,6 +392,26 @@ GLUE_LOADING_BAR_TASK_15	Serving Beverages
 GLUE_LOADING_BAR_TASK_16	Choosing Board	
 GLUE_LOADING_BAR_TASK_17	Straightening Decks	
 GLUE_LOADING_BAR_TASK_18	Bribing Guards	
+GLUE_LOADING_BAR_TASK_19	Paying the Band	
+GLUE_NAXX_LOADING_BAR_TASK_1	Practicing Evil Laugh	
+GLUE_NAXX_LOADING_BAR_TASK_2	Replacing Cobwebs	
+GLUE_NAXX_LOADING_BAR_TASK_3	Refilling Ooze	
+GLUE_NAXX_LOADING_BAR_TASK_4	Arranging Bones	
+GLUE_NAXX_LOADING_BAR_TASK_5	Rehearsing Sinister Lines	
+GLUE_NAXX_LOADING_BAR_TASK_6	Spraying Stench	
+GLUE_NAXX_LOADING_BAR_TASK_7	Oiling Chains	
+GLUE_NAXX_LOADING_BAR_TASK_8	Clearing Trash	
+GLUE_NAXX_LOADING_BAR_TASK_9	Hiding Spiders	
+GLUE_NAXX_LOADING_BAR_TASK_10	Boiling Ooze	
+GLUE_NAXX_LOADING_BAR_TASK_11	Using a Weighted Coin	
+GLUE_NAXX_LOADING_BAR_TASK_12	Dimming the Lights	
+GLUE_NAXX_LOADING_BAR_TASK_13	Blowing Out Candles	
+GLUE_NAXX_LOADING_BAR_TASK_14	Getting in the Mood	
+GLUE_NAXX_LOADING_BAR_TASK_15	Stitching Minions Together	
+GLUE_NAXX_LOADING_BAR_TASK_16	Experimenting on Minions	
+GLUE_NAXX_LOADING_BAR_TASK_17	Destroying Interlopers	
+GLUE_NAXX_LOADING_BAR_TASK_18	Petting Mr. Bigglesworth	
+GLUE_LOADING	Loading...	
 GLUE_STARTING_GAME	Starting Game	
 GLUE_HERO_LOCKED_NAME	Locked	
 GLUE_HERO_LOCKED_DESC	Defeat this hero to unlock!	
@@ -418,3 +453,59 @@ GLUE_MOBILE_REGION_SELECT_TOOLTIP_HEADER	Select Region
 GLUE_MOBILE_REGION_SELECT_TOOLTIP	Select a region to play in.
 GLUE_MOBILE_REGION_SELECT_PURCHASES	PURCHASES
 GLUE_MOBILE_REGION_SELECT_FRIENDS	FRIENDS
+GLUE_RECONNECT_RESULT_HEADER	Game Result	
+GLUE_RECONNECT_RESULT_WIN	You won your last {0} game.	0=one of GLOBAL_RECONNECT_GAME_TYPE_*
+GLUE_RECONNECT_RESULT_LOSE	You lost your last {0} game.	0=one of GLOBAL_RECONNECT_GAME_TYPE_*
+GLUE_RECONNECT_RESULT_DISCONNECT	You lost your last {0} game due to a disconnect.	0=one of GLOBAL_RECONNECT_GAME_TYPE_*
+GLUE_RECONNECT_RESULT_TIE	Your last {0} game was a tie.	0=one of GLOBAL_RECONNECT_GAME_TYPE_*
+GLUE_RECONNECT_GAME_TYPE_FRIENDLY	Friendly	
+GLUE_RECONNECT_GAME_TYPE_ARENA	Arena	
+GLUE_RECONNECT_GAME_TYPE_UNRANKED	Unranked Play	
+GLUE_RECONNECT_GAME_TYPE_RANKED	Ranked Play	
+GLUE_RECONNECT_GAME_TYPE_TUTORIAL	Tutorial	
+GLUE_RECONNECT_GAME_TYPE_PRACTICE	Practice	
+GLUE_RECONNECT_GAME_TYPE_NAXXRAMAS	Naxxramas	
+GLUE_PRACTICE_HINT	Practice Mode Here	
+GLUE_PATCHING_LABEL	Downloading {0}/{1} |4(file,files)
+GLUE_PATCHING_ERROR	We encountered an error when updating Hearthstone. Please try again.	
+GLUE_STORE_PRODUCT_DETAILS_HEADLINE_OWNED_NAXX	Naxxramas Adventure (Purchased)	
+GLUE_STORE_PRODUCT_DETAILS_OWNED_NAXX	• Defeat the bosses in Naxxramas to earn your rewards.	
+GLUE_STORE_PRODUCT_DETAILS_HEADLINE_5WINGS_NAXX	Naxxramas Adventure (Unlock all 5 wings)	
+GLUE_STORE_PRODUCT_DETAILS_5WINGS_NAXX	• Start your adventure! Unlock the all wings and earn up to 30 new cards that can only be found in Naxxramas.\n• Each wing will be released separately, one-per-week, during the Naxxramas launch event.	
+GLUE_STORE_PRODUCT_DETAILS_HEADLINE_4WINGS_NAXX	Naxxramas Adventure (Unlock 4 remaining wings)	
+GLUE_STORE_PRODUCT_DETAILS_4WINGS_NAXX	• Continue your adventure! Unlock the last four wings and earn up to 24 new cards that can only be found in Naxxramas.\n• Each wing will be released separately, one-per-week, during the Naxxramas launch event.	
+GLUE_STORE_PRODUCT_DETAILS_HEADLINE_3WINGS_NAXX	Naxxramas Adventure (Unlock 3 remaining wings)	
+GLUE_STORE_PRODUCT_DETAILS_3WINGS_NAXX	• Continue your adventure! Unlock the last three wings and earn up to 18 new cards that can only be found in Naxxramas.\n• Each wing will be released separately, one-per-week, during the Naxxramas launch event.	
+GLUE_STORE_PRODUCT_DETAILS_HEADLINE_2WINGS_NAXX	Naxxramas Adventure (Unlock 2 remaining wings)	
+GLUE_STORE_PRODUCT_DETAILS_2WINGS_NAXX	• Continue your adventure! Unlock the last two wings and earn up to 12 new cards that can only be found in Naxxramas.\n• Each wing will be released separately, one-per-week, during the Naxxramas launch event.	
+GLUE_STORE_PRODUCT_DETAILS_HEADLINE_1WINGS_NAXX	Naxxramas Adventure (Unlock the final wing)	
+GLUE_STORE_PRODUCT_DETAILS_1WINGS_NAXX	• Finish your adventure!  Unlock the last wing and earn up to 4 new cards that can only be found in Naxxramas.\n• Each wing will be released separately, one-per-week, during the Naxxramas launch event.	
+GLUE_STORE_KOREAN_PRODUCT_DETAILS_1WINGS_NAXX	본 상품은 구매 후 환불되지 않으며, 구매 즉시 해당 지구에 내용이 적용됩니다.	only displayed for Korean customers, should always be in Korean	
+GLUE_HEROIC_WARNING	Be warned that Heroic Mode is VERY punishing and is not for the faint of heart. Enter at your own risk!	
+GLUE_HEROIC_WARNING_TITLE	Warning!	
+GLUE_STORE_MODE_CARDS	Cards	
+GLUE_STORE_MODE_ADVENTURE	Adventure	
+GLUE_ADVENTURE_MODE_CLASS_CHALLENGE_CHOOSE	Choose a Challenge	
+GLUE_STORE_ADVENTURE_CARD_PREVIEW	Earn these cards and more by defeating the deadly bosses of Naxxramas!	
+GLUE_ADVENTURE_LABEL_SHOP_CLOSED	Closed	
+GLUE_ADVENTURE_LABEL_COMING_SOON	Coming soon!	
+GLUE_ADVENTURE_LABEL_COMING_SOON_NAXX_1	Opens Week 1	
+GLUE_ADVENTURE_LABEL_COMING_SOON_NAXX_2	Opens Week 2	
+GLUE_ADVENTURE_LABEL_COMING_SOON_NAXX_3	Opens Week 3	
+GLUE_ADVENTURE_LABEL_COMING_SOON_NAXX_4	Opens Week 4	
+GLUE_ADVENTURE_LABEL_COMING_SOON_NAXX_5	Opens Week 5	
+GLUE_ADVENTURE_LABEL_REQUIRES	Requires\n{0}	
+GLUE_ADVENTURE_REWARDS_PREVIEW_HEADER	• {0} Rewards •	
+GLUE_ADVENTURE_BOSS_HEADER	Boss Info
+GLUE_ADVENTURE_WING_PURCHASED	Purchased
+GLUE_STORE_ADVENTURE_LOCKED_HEROES_WARNING_TITLE	Confirm Purchase	
+GLUE_STORE_ADVENTURE_LOCKED_HEROES_WARNING_TEXT	You will not be able to play this adventure until you have unlocked all classes. \n\nAre you sure you want to continue with this purchase?	
+GLUE_STORE_DUNGEON_BUTTON_TEXT_PURCHASED	Already Purchased	
+GLUE_ADVENTURE_COMPLETE_BANNER_TEXT	{0} Cleared!	GLUE_STORE_FAIL_GOLD_GENERIC	--TEMP-- You know how you were trying to make a gold purchase? It failed.	
+GLUE_STORE_FAIL_GOLD_GENERIC	Gold purchase has failed. Please try again later.	
+GLUE_STORE_KOREAN_PRODUCT_DETAILS_ADVENTURE	본 묶음 상품은 구매 후 환불되지 않으며, 구매 즉시 현재 개방된 지구 이용이 가능합니다. 각 지구는 일정에 따라 개방됩니다.	
+GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_ADVENTURE_BUNDLE	본 묶음 상품은 구매 후 환불되지 않으며, 구매 즉시 현재 개방된 지구 이용이 가능합니다. 각 지구는 일정에 따라 개방됩니다.	
+GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_ADVENTURE_SINGLE	본 상품은 구매 후 환불되지 않으며, 구매 즉시 해당 지구에 내용이 적용됩니다	
+GLUE_STORE_CHINA_DISCLAIMER_HEADLINE	注意	
+GLUE_STORE_CHINA_DISCLAIMER_DETAILS	如果您希望获得某一张特定卡牌，请按如下步骤操作：\n1）购买并打开一定数量*的扩展包，看其中是否含有该特定卡牌；\n2）如果没有，请在“我的收藏”中使用“分解”功能分解这些您不需要的卡牌，获得奥术之尘；\n3）在“我的收藏”中选择“制作模式”，消耗奥术之尘“制作”那张特定卡牌。\n*每个扩展包至少可分解出40奥术之尘，合成1张白/蓝/紫/橙色稀有度的卡牌分别消耗40/100/400/1600奥术之尘，即至多购买1/2.5/10/40个扩展包，您就可通过上述方式获得任意特定的白/蓝/紫/橙色卡牌。	
+GLUE_STORE_DISCLAIMER_WARNING	你将要花费战网点数或游戏金币进行购买！	
