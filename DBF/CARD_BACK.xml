@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Dbf>
-	<Column name="ID" type="Long" />
+	<Column name="ID" type="Int" />
 	<Column name="NOTE_DESC" type="String" />
 	<Column name="DATA1" type="Long" />
 	<Column name="SOURCE" type="String" />
@@ -10,22 +10,22 @@
 	<Column name="PREFAB_NAME" type="AssetPath" />
 	<Record>
 		<Field column="ID">0</Field>
-		<Field column="NOTE_DESC">Default</Field>
+		<Field column="NOTE_DESC">Classic</Field>
 		<Field column="DATA1">0</Field>
 		<Field column="SOURCE">startup</Field>
 		<Field column="NAME">
-			<enUS>Default</enUS>
-			<zhTW>預設</zhTW>
-			<zhCN>默认</zhCN>
+			<enUS>Classic</enUS>
+			<zhTW>經典</zhTW>
+			<zhCN>怀旧经典</zhCN>
 			<ruRU>Стандартная</ruRU>
-			<ptBR>Padrão</ptBR>
+			<ptBR>Clássico</ptBR>
 			<plPL>Klasyczny</plPL>
 			<koKR>기본</koKR>
-			<itIT>Predefinito</itIT>
+			<itIT>Classico</itIT>
 			<frFR>Standard</frFR>
-			<esMX>Predeterminado</esMX>
-			<esES>Por defecto</esES>
-			<deDE>Standard</deDE>
+			<esMX>Clásico</esMX>
+			<esES>Clásico</esES>
+			<deDE>Klassisch</deDE>
 		</Field>
 		<Field column="ENABLED">True</Field>
 		<Field column="NAME_COMMENT"></Field>
@@ -79,22 +79,22 @@
 	</Record>
 	<Record>
 		<Field column="ID">3</Field>
-		<Field column="NOTE_DESC">Charm</Field>
+		<Field column="NOTE_DESC">Rainbow!</Field>
 		<Field column="DATA1">8</Field>
 		<Field column="SOURCE">season</Field>
 		<Field column="NAME">
-			<enUS>Charm</enUS>
-			<zhTW>魅惑</zhTW>
+			<enUS>Rainbow!</enUS>
+			<zhTW>彩虹!</zhTW>
 			<zhCN>炫丽彩虹</zhCN>
 			<ruRU>Радужная</ruRU>
-			<ptBR>Encantado</ptBR>
-			<plPL>Uroczy</plPL>
+			<ptBR>Arco-íris!</ptBR>
+			<plPL>Tęcza!</plPL>
 			<koKR>무지개</koKR>
 			<itIT>Arcobaleno</itIT>
 			<frFR>Arc-en-ciel</frFR>
-			<esMX>Talismán</esMX>
-			<esES>Encantador</esES>
-			<deDE>Bezaubernd</deDE>
+			<esMX>¡Arcoíris!</esMX>
+			<esES>¡Arcoíris!</esES>
+			<deDE>Regenbogen</deDE>
 		</Field>
 		<Field column="ENABLED">True</Field>
 		<Field column="NAME_COMMENT"></Field>
@@ -102,25 +102,25 @@
 	</Record>
 	<Record>
 		<Field column="ID">4</Field>
-		<Field column="NOTE_DESC">Launch</Field>
+		<Field column="NOTE_DESC">Fireside</Field>
 		<Field column="DATA1">113</Field>
 		<Field column="SOURCE">achieve</Field>
 		<Field column="NAME">
-			<enUS>Launch</enUS>
+			<enUS>Fireside</enUS>
 			<zhTW>爐邊聚會</zhTW>
-			<zhCN>炉边温暖</zhCN>
+			<zhCN>炉边好友</zhCN>
 			<ruRU>Дружеская</ruRU>
-			<ptBR>Fireside</ptBR>
-			<plPL>Przy kominku</plPL>
+			<ptBR>Lareira</ptBR>
+			<plPL>Kominek</plPL>
 			<koKR>와글와글 친구들</koKR>
-			<itIT>Classico</itIT>
+			<itIT>Raduno</itIT>
 			<frFR>Vitrail</frFR>
 			<esMX>Fireside</esMX>
-			<esES>Estreno</esES>
+			<esES>Junto al fuego</esES>
 			<deDE>Stammtischfreunde</deDE>
 		</Field>
 		<Field column="NAME_COMMENT"></Field>
-		<Field column="ENABLED">False</Field>
+		<Field column="ENABLED">True</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Launch/Card_Back_Launch</Field>
 	</Record>
 	<Record>
@@ -143,7 +143,76 @@
 			<deDE>Legende</deDE>
 		</Field>
 		<Field column="NAME_COMMENT"></Field>
-		<Field column="ENABLED">False</Field>
+		<Field column="ENABLED">True</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Legend/Card_Back_Legend</Field>
+	</Record>
+	<Record>
+		<Field column="ID">6</Field>
+		<Field column="NOTE_DESC">Naxxramas</Field>
+		<Field column="DATA1">9</Field>
+		<Field column="SOURCE">season</Field>
+		<Field column="NAME">
+			<enUS>Naxxramas</enUS>
+			<zhTW>納克薩瑪斯</zhTW>
+			<zhCN>纳克萨玛斯</zhCN>
+			<ruRU>Наксрамас</ruRU>
+			<ptBR>Naxxramas</ptBR>
+			<plPL>Naxxramas</plPL>
+			<koKR>낙스라마스</koKR>
+			<itIT>Naxxramas</itIT>
+			<frFR>Naxxramas</frFR>
+			<esMX>Naxxramas</esMX>
+			<esES>Naxxramas</esES>
+			<deDE>Naxxramas</deDE>
+		</Field>
+		<Field column="NAME_COMMENT"></Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Naxxramas/Card_Back_Naxxramas</Field>
+	</Record>
+	<Record>
+		<Field column="ID">7</Field>
+		<Field column="NOTE_DESC">Heroic Naxxramas</Field>
+		<Field column="DATA1">190</Field>
+		<Field column="SOURCE">achieve</Field>
+		<Field column="NAME">
+			<enUS>Heroic Naxxramas</enUS>
+			<zhTW>英雄納克薩瑪斯</zhTW>
+			<zhCN>英雄纳克萨玛斯</zhCN>
+			<ruRU>Наксрамас (героич.)</ruRU>
+			<ptBR>Naxxramas Heroico</ptBR>
+			<plPL>Heroiczny Naxxramas</plPL>
+			<koKR>영웅 난이도 낙스라마스</koKR>
+			<itIT>Naxxramas Eroica</itIT>
+			<frFR>Naxxramas héroïque</frFR>
+			<esMX>Naxxramas heroico</esMX>
+			<esES>Naxxramas heroica</esES>
+			<deDE>Naxxramas (Heroisch)</deDE>
+		</Field>
+		<Field column="NAME_COMMENT"></Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Naxxramas2/Card_Back_Naxxramas2</Field>
+	</Record>
+	<Record>
+		<Field column="ID">8</Field>
+		<Field column="NOTE_DESC">Icecrown</Field>
+		<Field column="DATA1">10</Field>
+		<Field column="SOURCE">season</Field>
+		<Field column="NAME">
+			<enUS>Icecrown</enUS>
+			<zhTW>寒冰王冠</zhTW>
+			<zhCN>冰冠冰川</zhCN>
+			<ruRU>Ледяная корона</ruRU>
+			<ptBR>Coroa de Gelo</ptBR>
+			<plPL>Lodowa Korona</plPL>
+			<koKR>얼음왕관</koKR>
+			<itIT>Corona di Ghiaccio</itIT>
+			<frFR>Couronne de glace</frFR>
+			<esMX>Corona de hielo</esMX>
+			<esES>Corona de Hielo</esES>
+			<deDE>Eiskrone</deDE>
+		</Field>
+		<Field column="NAME_COMMENT"></Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/IceCrown/Card_Back_IceCrown</Field>
 	</Record>
 </Dbf>

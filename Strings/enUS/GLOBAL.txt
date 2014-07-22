@@ -7,6 +7,8 @@ GLOBAL_CARD_SET_CORE	Basic
 GLOBAL_CARD_SET_EXPERT1	Expert	
 GLOBAL_CARD_SET_REWARD	Reward	
 GLOBAL_CARD_SET_PROMO	Promo
+GLOBAL_CARD_SET_NAXX	Naxxramas
+GLOBAL_CARD_SET_NAXX_SEARCHABLE_SHORTHAND_NAMES	Nax Naxx	This is a space-separated value indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARDTYPE_ENCHANTMENT	Enchantment	
 GLOBAL_CARDTYPE_HERO	Hero	
 GLOBAL_CARDTYPE_HEROPOWER	HeroPower	
@@ -64,6 +66,8 @@ GLOBAL_KEYWORD_SILENCE	Silence
 GLOBAL_KEYWORD_SILENCE_TEXT	Removes all card text and enchantments.	
 GLOBAL_KEYWORD_COUNTER	Counter	
 GLOBAL_KEYWORD_COUNTER_TEXT	A card that is Countered has no effect.	
+GLOBAL_KEYWORD_AUTOCAST	Auto-cast	
+GLOBAL_KEYWORD_AUTOCAST_TEXT	This Hero Power MUST be used every turn.	
 GLOBAL_ATTACK	Attack	
 GLOBAL_COST	Cost	
 GLOBAL_HEALTH	Health	
@@ -154,6 +158,7 @@ GLOBAL_ERROR_NETWORK_DISCONNECT_GAME_SERVER	You were disconnected from the Heart
 GLOBAL_ERROR_NETWORK_NO_CONNECTION	Unable to connect. Please check your Internet connection.	
 GLOBAL_ERROR_NETWORK_CONNECTION_TIMEOUT	Your connection timed out. Please check your Internet connection.	
 GLOBAL_ERROR_NETWORK_SPAM	You were disconnected from the Battle.net service for sending too many requests too quickly. Please relaunch Hearthstone to reconnect.	
+GLOBAL_ERROR_NETWORK_NO_GAME_SERVER	Oops! We were unable to start a game for you. Please try again.	
 GLOBAL_MOBILE_ERROR_NETWORK_SPAM	You were disconnected for sending too many requests too quickly.	
 GLOBAL_MOBILE_ERROR_BREAKING_NEWS	Breaking News:\n\n{0}	
 GLOBAL_ERROR_NETWORK_DUPLICATE_LOGIN	This Battle.net account just logged into Hearthstone from another device.\n\nThis client was disconnected because only one connection is supported at a time.	
@@ -200,6 +205,7 @@ GLOBAL_DATETIME_LASTONLINE_MONTH	Last online more than a month ago
 GLOBAL_DATETIME_AFK_SECONDS	Away for less than a minute	
 GLOBAL_DATETIME_AFK_MINUTES	Away for {0} |4(minute,minutes)	
 GLOBAL_DATETIME_AFK_HOURS	Away for {0} |4(hour,hours)	
+GLOBAL_DATETIME_AFK_DAY	Away for over a day	
 GLOBAL_DATETIME_AFK_DAYS	Away for {0} |4(day,days)	
 GLOBAL_DATETIME_AFK_WEEKS	Away for {0} |4(week,weeks)	
 GLOBAL_DATETIME_AFK_MONTH	Away for more than a month	
@@ -388,9 +394,17 @@ GLOBAL_REWARD_CARD_LEVEL_UP	Unlocked by hitting level {0} as a {1}	0=# level, 1=
 GLOBAL_REWARD_GOLD_SOURCE_IGR	Awarded for logging in from an IGR
 GLOBAL_REWARD_GOLD_SOURCE_IGR_DATED	Awarded for logging in from an IGR on {0}	0=GLOBAL_CURRENT_DATE
 GLOBAL_REWARD_GOLD_SOURCE_TOURNEY	Awarded for winning {0} |4(game,games) in Play mode
+GLOBAL_REWARD_CLASS_CHALLENGE_HEADLINE	Class |4(Challenge,Challenges) Unlocked
+GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL	{0}	0=first class
+GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL_DOUBLE	{0} and {1}	0=first class, 1=second class
+GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_ARACHNID	You can also attempt the insanely difficult Heroic Arachnid Quarter!	
+GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_PLAGUE	You can also attempt the insanely difficult Heroic Plague Quarter!	
+GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_MILITARY	You can also attempt the insanely difficult Heroic Military Quarter!	
+GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_CONSTRUCT	You can also attempt the insanely difficult Heroic Construct Quarter!	
+GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_FROSTWYRM	You can also attempt the insanely difficult Heroic Frostwyrm Lair!	
 GLOBAL_BETA_REIMBURSEMENT_HEADLINE	Account Wipe Credit
 GLOBAL_BETA_REIMBURSEMENT_DETAILS	This gold is a credit for your past purchases. Thank you!
-GLOBAL_PRACTICE_MAX_LEVEL_REACHED	Max Practice Level	
+GLOBAL_PRACTICE_MAX_LEVEL_REACHED	Max Practice Level	 
 GLOBAL_SCREENSHOT_COMPLETE	Screenshot saved to desktop	
 GLOBAL_QUEST_PROGRESS_COUNT	{0}/{1}	0=progress,1=max progress
 GLOBAL_HERO_LEVEL_NEXT_REWARD_TITLE	Next reward at level {0}	0=level
@@ -466,18 +480,11 @@ GLOBAL_RECONNECT_RECONNECTED_HEADER	Reconnected
 GLOBAL_RECONNECT_RECONNECTED_LOGIN	You were reconnected to your last game. Resuming...	
 GLOBAL_RECONNECT_RECONNECTED	You were reconnected to your game. Resuming...	
 GLOBAL_RECONNECT_EXIT_BUTTON	Exit Game
-GLOBAL_RECONNECT_RESULT_HEADER	Game Result	
-GLOBAL_RECONNECT_RESULT_WIN	You won your last {0} game.	0=one of GLOBAL_RECONNECT_GAME_MODE_*
-GLOBAL_RECONNECT_RESULT_LOSE	You lost your last {0} game.	0=one of GLOBAL_RECONNECT_GAME_MODE_*
-GLOBAL_RECONNECT_RESULT_DISCONNECT	You lost your last {0} game due to a disconnect.	0=one of GLOBAL_RECONNECT_GAME_MODE_*
-GLOBAL_RECONNECT_RESULT_TIE	Your last {0} game was a tie.	0=one of GLOBAL_RECONNECT_GAME_MODE_*
-GLOBAL_RECONNECT_GAME_MODE_PRACTICE	Practice	
-GLOBAL_RECONNECT_GAME_MODE_FRIENDLY	Friendly	
-GLOBAL_RECONNECT_GAME_MODE_TUTORIAL	Tutorial	
-GLOBAL_RECONNECT_GAME_MODE_ARENA	Arena	
-GLOBAL_RECONNECT_GAME_MODE_UNRANKED_PLAY	Unranked Play	
-GLOBAL_RECONNECT_GAME_MODE_RANKED_PLAY	Ranked Play	
-GLOBAL_RECONNECT_GAME_MODE_PLAY	Play	
 GLOBAL_VERSION	Version	
 GLOBAL_MOBILE_TAP_TO_RECONNECT	Tap anywhere to reconnect	
 GLOBAL_MOBILE_TAP_TO_UPDATE	Tap anywhere to update	
+GLOBAL_SPLASH_CLOSED_RECONNECTING	Reconnecting...	
+GLOBAL_ADVENTURE_TRAY_HEADER	Choose an Adventure	
+GLOBAL_ADVENTURE_DESC_HEADER	Adventure	
+GLOBAL_ADVENTURE_CHOOSE_BUTTON_TEXT	Choose	
+GLOBAL_CHOOSE_PAYMENT	Choose Payment	

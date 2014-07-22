@@ -23,9 +23,54 @@ PRESENCE_STATUS_ARENA_GAME	Doing battle in the Arena
 PRESENCE_STATUS_ARENA_REWARD	Getting Arena rewards	
 PRESENCE_STATUS_FRIENDLY_DECKPICKER	Preparing to battle a friend	
 PRESENCE_STATUS_FRIENDLY_GAME	Doing battle with a friend	
+PRESENCE_STATUS_ADVENTURE_CHOOSING_MODE	Looking for a Solo Adventure	
+PRESENCE_STATUS_ADVENTURE_SCENARIO_SELECT	{0}	{0} replaced with the adventure mode, via PRESENCE_ADVENTURE_MODE_*, e.g. Naxxramas (Heroic) -- (originally i wanted it to say "Mission Select: Naxxramas Class Challenge" but this got too long for the UI element.)
+PRESENCE_STATUS_ADVENTURE_SCENARIO_PLAYING_GAME	{0}	{0} replaced with the specific scenario string, via PRESENCE_SCENARIO_NAXX_*
 PRESENCE_TUTORIAL_HOGGER	Hogger	
 PRESENCE_TUTORIAL_MILLHOUSE	Millhouse Manastorm	
 PRESENCE_TUTORIAL_MUKLA	King Mukla	
 PRESENCE_TUTORIAL_HEMET	Hemet Nesingwary	
 PRESENCE_TUTORIAL_ILLIDAN	Illidan Stormrage	
 PRESENCE_TUTORIAL_CHO	Lorewalker Cho	
+PRESENCE_ADVENTURE_MODE_NAXX_NORMAL	Naxxramas	
+PRESENCE_ADVENTURE_MODE_NAXX_HEROIC	Naxxramas (Heroic)	
+PRESENCE_ADVENTURE_MODE_NAXX_CLASS_CHALLENGE	Naxxramas Class Challenge	
+PRESENCE_SCENARIO_NAXX_NORMAL_SCENARIO_ANUBREKHAN	Battling Anub'Rekhan	
+PRESENCE_SCENARIO_NAXX_NORMAL_SCENARIO_FAERLINA	Battling Grand Widow Faerlina	feel free to shorten long translations to 'Battling Faerlina' since the UI may squeeze text into a tiny (unreadable) font size when text is too long. this string is shown in the Friends List.
+PRESENCE_SCENARIO_NAXX_NORMAL_SCENARIO_MAEXXNA	Battling Maexxna	
+PRESENCE_SCENARIO_NAXX_NORMAL_SCENARIO_NOTH	Battling Noth the Plaguebringer	feel free to shorten long translations to 'Battling Noth' since the UI may squeeze text into a tiny (unreadable) font size when text is too long. this string is shown in the Friends List.
+PRESENCE_SCENARIO_NAXX_NORMAL_SCENARIO_HEIGAN	Battling Heigan the Unclean	feel free to shorten long translations to 'Battling Heigan' since the UI may squeeze text into a tiny (unreadable) font size when text is too long. this is string shown in the Friends List.
+PRESENCE_SCENARIO_NAXX_NORMAL_SCENARIO_LOATHEB	Battling Loatheb	
+PRESENCE_SCENARIO_NAXX_NORMAL_SCENARIO_RAZUVIOUS	Battling Instructor Razuvious	feel free to shorten long translations to 'Battling Razuvious' since the UI may squeeze text into a tiny (unreadable) font size when text is too long. this string is shown in the Friends List.
+PRESENCE_SCENARIO_NAXX_NORMAL_SCENARIO_GOTHIK	Battling Gothik the Harvester	feel free to shorten long translations to 'Battling Gothik' since the UI may squeeze text into a tiny (unreadable) font size when text is too long. this string is shown in the Friends List.
+PRESENCE_SCENARIO_NAXX_NORMAL_SCENARIO_HORSEMEN	Battling The Four Horsemen	
+PRESENCE_SCENARIO_NAXX_NORMAL_SCENARIO_PATCHWERK	Battling Patchwerk	
+PRESENCE_SCENARIO_NAXX_NORMAL_SCENARIO_GROBBULUS	Battling Grobbulus	
+PRESENCE_SCENARIO_NAXX_NORMAL_SCENARIO_THADDIUS	Battling Thaddius	
+PRESENCE_SCENARIO_NAXX_NORMAL_SCENARIO_GLUTH	Battling Gluth	
+PRESENCE_SCENARIO_NAXX_NORMAL_SCENARIO_SAPPHIRON	Battling Sapphiron	
+PRESENCE_SCENARIO_NAXX_NORMAL_SCENARIO_KELTHUZAD	Battling Kel'Thuzad	
+PRESENCE_SCENARIO_NAXX_HEROIC_SCENARIO_ANUBREKHAN	Heroic Anub'Rekhan	
+PRESENCE_SCENARIO_NAXX_HEROIC_SCENARIO_FAERLINA	Heroic Grand Widow Faerlina	feel free to shorten long translations to 'Heroic Faerlina' since the UI may squeeze text into a tiny (unreadable) font size when text is too long. this string is shown in the Friends List.
+PRESENCE_SCENARIO_NAXX_HEROIC_SCENARIO_MAEXXNA	Heroic Maexxna	
+PRESENCE_SCENARIO_NAXX_HEROIC_SCENARIO_NOTH	Heroic Noth the Plaguebringer	feel free to shorten long translations to 'Heroic Noth' since the UI may squeeze text into a tiny (unreadable) font size when text is too long. this string is shown in the Friends List.
+PRESENCE_SCENARIO_NAXX_HEROIC_SCENARIO_HEIGAN	Heroic Heigan the Unclean	feel free to shorten long translations to 'Heroic Heigan' since the UI may squeeze text into a tiny (unreadable) font size when text is too long. this string is shown in the Friends List.
+PRESENCE_SCENARIO_NAXX_HEROIC_SCENARIO_LOATHEB	Heroic Loatheb	
+PRESENCE_SCENARIO_NAXX_HEROIC_SCENARIO_RAZUVIOUS	Heroic Instructor Razuvious	feel free to shorten long translations to 'Heroic Razuvious' since the UI may squeeze text into a tiny (unreadable) font size when text is too long. this string is shown in the Friends List.
+PRESENCE_SCENARIO_NAXX_HEROIC_SCENARIO_GOTHIK	Heroic Gothik the Harvester	feel free to shorten long translations to 'Heroic Gothik' since the UI may squeeze text into a tiny (unreadable) font size when text is too long. this string is shown in the Friends List.
+PRESENCE_SCENARIO_NAXX_HEROIC_SCENARIO_HORSEMEN	Heroic The Four Horsemen	
+PRESENCE_SCENARIO_NAXX_HEROIC_SCENARIO_PATCHWERK	Heroic Patchwerk	
+PRESENCE_SCENARIO_NAXX_HEROIC_SCENARIO_GROBBULUS	Heroic Grobbulus	
+PRESENCE_SCENARIO_NAXX_HEROIC_SCENARIO_GLUTH	Heroic Gluth	
+PRESENCE_SCENARIO_NAXX_HEROIC_SCENARIO_THADDIUS	Heroic Thaddius	
+PRESENCE_SCENARIO_NAXX_HEROIC_SCENARIO_SAPPHIRON	Heroic Sapphiron	
+PRESENCE_SCENARIO_NAXX_HEROIC_SCENARIO_KELTHUZAD	Heroic Kel'Thuzad	
+PRESENCE_SCENARIO_NAXX_CLASS_CHALLENGE_HUNTER	Naxxramas Hunter Challenge	
+PRESENCE_SCENARIO_NAXX_CLASS_CHALLENGE_WARRIOR	Naxxramas Warrior Challenge	
+PRESENCE_SCENARIO_NAXX_CLASS_CHALLENGE_ROGUE	Naxxramas Rogue Challenge	
+PRESENCE_SCENARIO_NAXX_CLASS_CHALLENGE_DRUID	Naxxramas Druid Challenge	
+PRESENCE_SCENARIO_NAXX_CLASS_CHALLENGE_PRIEST	Naxxramas Priest Challenge	
+PRESENCE_SCENARIO_NAXX_CLASS_CHALLENGE_SHAMAN	Naxxramas Shaman Challenge	
+PRESENCE_SCENARIO_NAXX_CLASS_CHALLENGE_MAGE	Naxxramas Mage Challenge	
+PRESENCE_SCENARIO_NAXX_CLASS_CHALLENGE_PALADIN	Naxxramas Paladin Challenge	
+PRESENCE_SCENARIO_NAXX_CLASS_CHALLENGE_WARLOCK	Naxxramas Warlock Challenge	

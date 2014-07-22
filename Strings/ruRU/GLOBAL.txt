@@ -4,6 +4,9 @@ GLOBAL_ADDFRIEND_ERROR_MALFORMED	Введите электронный адре�
 GLOBAL_ADDFRIEND_HEADER	Добавить друга	
 GLOBAL_ADDFRIEND_INSTRUCTION	Укажите BattleTag или адрес электронной почты.	
 GLOBAL_ADDFRIEND_SENT_CONFIRMATION	Запрос на добавление в друзья отправлен.	
+GLOBAL_ADVENTURE_CHOOSE_BUTTON_TEXT	Выбрать	
+GLOBAL_ADVENTURE_DESC_HEADER	Приключения	
+GLOBAL_ADVENTURE_TRAY_HEADER	Выберите приключение	
 GLOBAL_APPROXIMATE_DATETIME	~{0}	0=time string
 GLOBAL_APPROXIMATE_DATETIME_RANGE	~{0} - {1}	0=min seconds 1=max seconds string
 GLOBAL_ARENA_MEDAL_0	Ключ новичка	
@@ -30,6 +33,8 @@ GLOBAL_BUTTON_YES	Да
 GLOBAL_CANCEL	Отмена	
 GLOBAL_CARD_SET_CORE	Базовый набор	
 GLOBAL_CARD_SET_EXPERT1	Набор эксперта	
+GLOBAL_CARD_SET_NAXX	Наксрамас	
+GLOBAL_CARD_SET_NAXX_SEARCHABLE_SHORTHAND_NAMES	Накс	This is a space-separated value indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_PROMO	Промо-карты	
 GLOBAL_CARD_SET_REWARD	Награды	
 GLOBAL_CARDTYPE_ENCHANTMENT	Чары	
@@ -46,6 +51,7 @@ GLOBAL_CHAT_NO_FRIENDS_ONLINE	В данный момент никто из ва�
 GLOBAL_CHAT_NO_RECENT_CONVERSATIONS	Откройте список друзей, чтобы начать разговор с другом.	
 GLOBAL_CHAT_RECEIVER_OFFLINE	{0} сейчас не в сети.	0=player name
 GLOBAL_CHAT_RECEIVER_ONLINE	{0} входит в сеть.	0=player name
+GLOBAL_CHOOSE_PAYMENT	Выбрать метод оплаты	
 GLOBAL_CLASS_DEATHKNIGHT	Рыцарь смерти	
 GLOBAL_CLASS_DRUID	Друид	
 GLOBAL_CLASS_HUNTER	Охотник	
@@ -65,9 +71,10 @@ GLOBAL_CONFIRM	ОК
 GLOBAL_COST	Стоимость	
 GLOBAL_CURRENT_DATE	{0:dd.MM.yyyy}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
 GLOBAL_CURRENT_TIME	{0:HH:mm} 	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
+GLOBAL_DATETIME_AFK_DAY	Отсутствует больше дня	
 GLOBAL_DATETIME_AFK_DAYS	Отсутствует {0} дн.	
 GLOBAL_DATETIME_AFK_HOURS	Отсутствует {0} ч.	
-GLOBAL_DATETIME_AFK_MINUTES	Отсутствует {0} м.	
+GLOBAL_DATETIME_AFK_MINUTES	Отсутствует {0} мин.	
 GLOBAL_DATETIME_AFK_MONTH	Отсутствует более месяца	
 GLOBAL_DATETIME_AFK_SECONDS	Отсутствует менее минуты	
 GLOBAL_DATETIME_AFK_WEEKS	Отсутствует {0} нед.	
@@ -117,13 +124,14 @@ GLOBAL_ERROR_NETWORK_ACCOUNT_SUSPENDED	Действие вашей учетно�
 GLOBAL_ERROR_NETWORK_CONNECTION_TIMEOUT	Превышено время ожидания подключения. Пожалуйста, проверьте подключение к Интернету.	
 GLOBAL_ERROR_NETWORK_DISCONNECT	Потеряно соединение со службой Battle.net. Пожалуйста, перезапустите Hearthstone.	
 GLOBAL_ERROR_NETWORK_DISCONNECT_GAME_SERVER	Связь с игровой службой Hearthstone прервана.	
-GLOBAL_ERROR_NETWORK_DISCONNECT_GENERIC	Соединение прервано.	
+GLOBAL_ERROR_NETWORK_DISCONNECT_GENERIC	Соединение было разорвано.	
 GLOBAL_ERROR_NETWORK_DUPLICATE_LOGIN	Ваша учетная запись была использована для входа в Hearthstone с другого устройства. \n\nКлиент игры был отключен от сети, так как поддерживается только одно подключение единовременно.	
 GLOBAL_ERROR_NETWORK_GENERIC	Внутренняя ошибка сети.	
 GLOBAL_ERROR_NETWORK_INCORRECT_REGION	Эта учетная запись Battle.net в настоящий момент не может принимать участие в бета-тестировании Hearthstone. Как только бета-тестирование откроется в вашем регионе, пожалуйста, попробуйте еще раз.	
 GLOBAL_ERROR_NETWORK_LOGIN_FAILURE	Невозможно зайти в игру через службу Battle.net. Пожалуйста, попробуйте подключиться позднее.	
 GLOBAL_ERROR_NETWORK_LOST_GAME_CONNECTION	Ваша игра была отключена от игровой службы Battle.net. Попробуйте восстановить соединение, начав новую игру. 	
 GLOBAL_ERROR_NETWORK_NO_CONNECTION	Не удалось подключиться. Пожалуйста, проверьте подключение к Интернету.	
+GLOBAL_ERROR_NETWORK_NO_GAME_SERVER	Ой! У нас не получилось начать для вас новую игру. Пожалуйста, попробуйте еще раз.	
 GLOBAL_ERROR_NETWORK_PARENTAL_CONTROLS	Доступ к данной учетной записи ограничен на правах родительского контроля.	
 GLOBAL_ERROR_NETWORK_PHONE_LOCK	Обратитесь по номеру телефона Battle.net Phone Lock, чтобы получить доступ к своей учетной записи.\nНа Тайване: 0800-303-585\nВ Гонконге: 396-54666	
 GLOBAL_ERROR_NETWORK_SPAM	Ввиду большого количества одновременных запросов с вашей стороны вы были отключены от службы Battle.net. Пожалуйста, перезапустите Hearthstone.	
@@ -203,6 +211,8 @@ GLOBAL_HERO_LEVEL_REWARD_BOOSTER	{0} |4(комплект,комплекта,ко
 GLOBAL_HERO_LEVEL_REWARD_GOLD	Золото: {0}	0=amount
 GLOBAL_HERO_LEVEL_REWARD_GOLDEN_CARD	{0} «{1}»	0=flair 1=card name
 GLOBAL_HERO_WINS	Побед: {0}/{1}	0=number of games this class has won 1=number of wins to get golden
+GLOBAL_KEYWORD_AUTOCAST	Автоматическое применение	
+GLOBAL_KEYWORD_AUTOCAST_TEXT	Эта сила героя БУДЕТ использоваться на каждом ходу.	
 GLOBAL_KEYWORD_BATTLECRY	Боевой клич	
 GLOBAL_KEYWORD_BATTLECRY_TEXT	Дополнительный эффект при разыгрывании карты из руки.	
 GLOBAL_KEYWORD_CHARGE	Рывок	
@@ -239,7 +249,7 @@ GLOBAL_KEYWORD_STEALTH_TEXT	Это существо нельзя атакова�
 GLOBAL_KEYWORD_TAUNT	Провокация	
 GLOBAL_KEYWORD_TAUNT_REF_TEXT	Вынуждает противников атаковать существо со способностью «Провокация».	
 GLOBAL_KEYWORD_TAUNT_TEXT	Противники вынуждены атаковать это существо.	
-GLOBAL_KEYWORD_WINDFURY	Неистовство ветра	
+GLOBAL_KEYWORD_WINDFURY	Неистовство ветра 	
 GLOBAL_KEYWORD_WINDFURY_TEXT	Может атаковать дважды за ход.	
 GLOBAL_LANGUAGE_CHANGE_CONFIRM_MESSAGE	Текущее действие будет прервано. Вы уверены, что хотите продолжить?	
 GLOBAL_LANGUAGE_CHANGE_CONFIRM_TITLE	Изменить язык?	
@@ -303,7 +313,7 @@ GLOBAL_MEDAL_5	Морской великан
 GLOBAL_MEDAL_6	Древо войны	
 GLOBAL_MEDAL_7	Служитель солнца	
 GLOBAL_MEDAL_8	Вождь Северного Волка	
-GLOBAL_MEDAL_9	Рыцарь Авангарда	
+GLOBAL_MEDAL_9	Рыцарь Длани	
 GLOBAL_MEDAL_ARENA_TOOLTIP_BODY	Это ваш лучший ключ на Арене.	
 GLOBAL_MEDAL_REWARD_CONGRATULATIONS	Поздравляем!	
 GLOBAL_MEDAL_REWARD_DESCRIPTION	Медаль за прошлую неделю	
@@ -314,7 +324,7 @@ GLOBAL_MEDAL_TOOLTIP_HEADER	{0}	0=medal name
 GLOBAL_MOBILE_ERROR_BREAKING_NEWS	Горячие новости:\n\n{0}	
 GLOBAL_MOBILE_ERROR_IPAD1_DETECTED	К сожалению, чтобы играть в Hearthstone, нужен iPad 2 или более новая модель.	
 GLOBAL_MOBILE_ERROR_LOGON_WEB_TIMEOUT	Вы давно не совершали никаких действий в Hearthstone, и ваше соединение с сервером было разорвано.	
-GLOBAL_MOBILE_ERROR_NETWORK_DISCONNECT	Соединение прервано.	
+GLOBAL_MOBILE_ERROR_NETWORK_DISCONNECT	Соединение было разорвано.	
 GLOBAL_MOBILE_ERROR_NETWORK_SPAM	Ввиду большого количества одновременных запросов с вашей стороны соединение было прервано.	
 GLOBAL_MOBILE_ERROR_NETWORK_UTIL_TIMEOUT	Превышено время ожидания подключения при запросе данных с серверов Hearthstone.	
 GLOBAL_MOBILE_LOG_IN_TOOLTIP	Войдите в игру, если у вас уже есть учетная запись.	
@@ -389,24 +399,12 @@ GLOBAL_RARITY_FREE	Бесплатная
 GLOBAL_RARITY_LEGENDARY	Легендарная	
 GLOBAL_RARITY_RARE	Редкая	
 GLOBAL_RECONNECT_EXIT_BUTTON	Выход	
-GLOBAL_RECONNECT_GAME_MODE_ARENA	Арена	
-GLOBAL_RECONNECT_GAME_MODE_FRIENDLY	С друзьями	
-GLOBAL_RECONNECT_GAME_MODE_PLAY	Игра	
-GLOBAL_RECONNECT_GAME_MODE_PRACTICE	Тренировка	
-GLOBAL_RECONNECT_GAME_MODE_RANKED_PLAY	Рейтинговый матч	
-GLOBAL_RECONNECT_GAME_MODE_TUTORIAL	Обучение	
-GLOBAL_RECONNECT_GAME_MODE_UNRANKED_PLAY	Нерейтинговый матч	
 GLOBAL_RECONNECT_RECONNECTED	Повторное подключение к игре прошло успешно. Продолжение игры...	
 GLOBAL_RECONNECT_RECONNECTED_HEADER	Переподключение	
 GLOBAL_RECONNECT_RECONNECTED_LOGIN	Повторное подключение к вашей последней игре прошло успешно. Продолжение игры...	
 GLOBAL_RECONNECT_RECONNECTING	В игре произошел разрыв соединения. Идет подключение...	
 GLOBAL_RECONNECT_RECONNECTING_HEADER	Подключение	
 GLOBAL_RECONNECT_RECONNECTING_LOGIN	В вашей последней игре произошел разрыв соединения. Идет подключение...	
-GLOBAL_RECONNECT_RESULT_DISCONNECT	Вы проиграли последнюю игру в режиме «{0}» по причине разрыва соединения.	0=one of GLOBAL_RECONNECT_GAME_MODE_*
-GLOBAL_RECONNECT_RESULT_HEADER	Результат игры	
-GLOBAL_RECONNECT_RESULT_LOSE	Вы проиграли последнюю игру в режиме «{0}».	0=one of GLOBAL_RECONNECT_GAME_MODE_*
-GLOBAL_RECONNECT_RESULT_TIE	Вы свели вничью последнюю игру в режиме «{0}».	0=one of GLOBAL_RECONNECT_GAME_MODE_*
-GLOBAL_RECONNECT_RESULT_WIN	Вы победили в последней игре в режиме «{0}».	0=one of GLOBAL_RECONNECT_GAME_MODE_*
 GLOBAL_RECONNECT_TIMEOUT	Невозможно повторно подключиться к игре.	
 GLOBAL_RECONNECT_TIMEOUT_HEADER	Ошибка	
 GLOBAL_REGION_AMERICAS	С. и Ю. Америка и Ю.-В. Азия	
@@ -429,6 +427,14 @@ GLOBAL_REWARD_CARD_DETAILS_TUTORIAL05	Восхитительно!
 GLOBAL_REWARD_CARD_DETAILS_TUTORIAL06	Отлично, отлично!	
 GLOBAL_REWARD_CARD_HEADLINE	Награда!	
 GLOBAL_REWARD_CARD_LEVEL_UP	Открыто в награду за достижение {0}-го уровня классом «{1}»	0=# level, 1=class
+GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL	{0}	0=first class
+GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL_DOUBLE	{0} и {1}	0=first class, 1=second class
+GLOBAL_REWARD_CLASS_CHALLENGE_HEADLINE	Доступно: |4( новое классовоe испытание,новые классовые испытания,новые классовые испытания)	
+GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_ARACHNID	Вы также можете попробовать пройти безумно сложную героическую версию Паучьего квартала!	
+GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_CONSTRUCT	Вы также можете попробовать пройти безумно сложную героическую версию Квартала Мерзости!	
+GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_FROSTWYRM	Вы также можете попробовать пройти безумно сложную героическую версию Логова ледяного змея!	
+GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_MILITARY	Вы также можете попробовать пройти безумно сложную героическую версию Военного квартала!	
+GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_PLAGUE	Вы также можете попробовать пройти безумно сложную героическую версию Чумного квартала!	
 GLOBAL_REWARD_CORE_CARD_DETAILS	Открыто карт класса «{2}»: {0}/{1}	0=# cards unlocked, 1=# cards possible to unlock, 2=class
 GLOBAL_REWARD_FORGE_DETAILS_OUT_OF_BAND	Добавлено доступов на арену из-за пределов игры: {0}	0=count
 GLOBAL_REWARD_FORGE_HEADLINE	Получен доступ к арене	
@@ -474,6 +480,7 @@ GLOBAL_SOCIAL_TOAST_FRIEND_SHAMAN_LEVEL	<color=#{0}>{1}</color> получает
 GLOBAL_SOCIAL_TOAST_FRIEND_WARLOCK_LEVEL	<color=#{0}>{1}</color> получает {2} уровень чернокнижником.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_WARRIOR_LEVEL	<color=#{0}>{1}</color> получает {2} уровень воином.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_RECENT_OPPONENT_FRIEND_REQUEST	Ваш недавний противник хочет стать вашим другом!	
+GLOBAL_SPLASH_CLOSED_RECONNECTING	Подключение...	
 GLOBAL_SPLASH_CLOSED_SIGN_TITLE	Закрыто	
 GLOBAL_TOOLTIP_FRIEND_BUTTON_DESC	Общайтесь с друзьями и устраивайте с ними поединки.	
 GLOBAL_TOOLTIP_FRIEND_BUTTON_HEADER	Друзья	

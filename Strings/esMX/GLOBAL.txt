@@ -4,6 +4,9 @@ GLOBAL_ADDFRIEND_ERROR_MALFORMED	Debes ingresar una dirección de correo electr�
 GLOBAL_ADDFRIEND_HEADER	Agregar un amigo	
 GLOBAL_ADDFRIEND_INSTRUCTION	Ingresa una BattleTag o una dirección de correo electrónico.	
 GLOBAL_ADDFRIEND_SENT_CONFIRMATION	Solicitud de amistad enviada.	
+GLOBAL_ADVENTURE_CHOOSE_BUTTON_TEXT	Elegir	
+GLOBAL_ADVENTURE_DESC_HEADER	Aventura	
+GLOBAL_ADVENTURE_TRAY_HEADER	Elige una Aventura	
 GLOBAL_APPROXIMATE_DATETIME	~{0}	0=time string
 GLOBAL_APPROXIMATE_DATETIME_RANGE	~{0} - {1}	0=min seconds 1=max seconds string
 GLOBAL_ARENA_MEDAL_0	Llave de novicio	
@@ -30,6 +33,8 @@ GLOBAL_BUTTON_YES	Sí
 GLOBAL_CANCEL	Cancelar	
 GLOBAL_CARD_SET_CORE	Básico	
 GLOBAL_CARD_SET_EXPERT1	Experto	
+GLOBAL_CARD_SET_NAXX	Naxxramas	
+GLOBAL_CARD_SET_NAXX_SEARCHABLE_SHORTHAND_NAMES	Nax Naxx	This is a space-separated value indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_PROMO	Promo	
 GLOBAL_CARD_SET_REWARD	Recompensa	
 GLOBAL_CARDTYPE_ENCHANTMENT	Encantamiento	
@@ -46,6 +51,7 @@ GLOBAL_CHAT_NO_FRIENDS_ONLINE	En este momento no tienes ningún amigo en línea.
 GLOBAL_CHAT_NO_RECENT_CONVERSATIONS	Usa el menú de amigos para iniciar una conversación con un amigo.	
 GLOBAL_CHAT_RECEIVER_OFFLINE	{0} está desconectado.	0=player name
 GLOBAL_CHAT_RECEIVER_ONLINE	{0} está en línea.	0=player name
+GLOBAL_CHOOSE_PAYMENT	Elegir pago	
 GLOBAL_CLASS_DEATHKNIGHT	Caballero de la Muerte	
 GLOBAL_CLASS_DRUID	Druida	
 GLOBAL_CLASS_HUNTER	Cazador	
@@ -65,6 +71,7 @@ GLOBAL_CONFIRM	Confirmar
 GLOBAL_COST	Costo	
 GLOBAL_CURRENT_DATE	{0:MM/dd/yy}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
 GLOBAL_CURRENT_TIME	{0:h:mm tt}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
+GLOBAL_DATETIME_AFK_DAY	Ausente hace más de un día	
 GLOBAL_DATETIME_AFK_DAYS	Ausente hace {0} |4(día,días)	
 GLOBAL_DATETIME_AFK_HOURS	Ausente hace {0} |4(hora,horas)	
 GLOBAL_DATETIME_AFK_MINUTES	Ausente hace {0} |4(minuto,minutos)	
@@ -124,6 +131,7 @@ GLOBAL_ERROR_NETWORK_INCORRECT_REGION	Tu cuenta de Battle.net no puede participa
 GLOBAL_ERROR_NETWORK_LOGIN_FAILURE	No se ha podido iniciar tu sesión en el juego a través de Battle.net. Espera unos minutos y vuelve a intentarlo.	
 GLOBAL_ERROR_NETWORK_LOST_GAME_CONNECTION	Tu partida se ha desconectado del servicio de juego de Battle.net. Para reconectarte, inicia otra partida.	
 GLOBAL_ERROR_NETWORK_NO_CONNECTION	No se pudo conectar. Verifica tu conexión a Internet.	
+GLOBAL_ERROR_NETWORK_NO_GAME_SERVER	¡Ups! No hemos podido iniciar tu partida. Vuelve a intentarlo.	
 GLOBAL_ERROR_NETWORK_PARENTAL_CONTROLS	Actualmente el acceso a esta cuenta está restringido por controles parentales.	
 GLOBAL_ERROR_NETWORK_PHONE_LOCK	Llama a tu número de bloqueo de Battle.net para permitir este inicio de sesión.\nTaiwán: 0800-303-585\nHong Kong: 396-54666	
 GLOBAL_ERROR_NETWORK_SPAM	Se ha desconectado tu sesión en el servicio de Battle.net porque se enviaron demasiadas solicitudes en poco tiempo. Reinicia Hearthstone para reconectarte.	
@@ -203,6 +211,8 @@ GLOBAL_HERO_LEVEL_REWARD_BOOSTER	Paquete: {0}	0=booster type
 GLOBAL_HERO_LEVEL_REWARD_GOLD	Oro: {0}	0=amount
 GLOBAL_HERO_LEVEL_REWARD_GOLDEN_CARD	{1} {0}	0=flair 1=card name
 GLOBAL_HERO_WINS	Victorias: {0}/{1}	0=number of games this class has won 1=number of wins to get golden
+GLOBAL_KEYWORD_AUTOCAST	Autolanzamiento	
+GLOBAL_KEYWORD_AUTOCAST_TEXT	Este Poder de héroe DEBE usarse todos los turnos.	
 GLOBAL_KEYWORD_BATTLECRY	Grito de batalla	
 GLOBAL_KEYWORD_BATTLECRY_TEXT	Hace algo cuando la juegas desde tu mano.	
 GLOBAL_KEYWORD_CHARGE	Carga	
@@ -389,24 +399,12 @@ GLOBAL_RARITY_FREE	Gratis
 GLOBAL_RARITY_LEGENDARY	Legendaria	
 GLOBAL_RARITY_RARE	Rara	
 GLOBAL_RECONNECT_EXIT_BUTTON	Salir	
-GLOBAL_RECONNECT_GAME_MODE_ARENA	de Arena	
-GLOBAL_RECONNECT_GAME_MODE_FRIENDLY	Amistosa	
-GLOBAL_RECONNECT_GAME_MODE_PLAY	en el modo Jugar	
-GLOBAL_RECONNECT_GAME_MODE_PRACTICE	en el modo Práctica	
-GLOBAL_RECONNECT_GAME_MODE_RANKED_PLAY	clasificada	
-GLOBAL_RECONNECT_GAME_MODE_TUTORIAL	en el Tutorial	
-GLOBAL_RECONNECT_GAME_MODE_UNRANKED_PLAY	sin clasificar	
 GLOBAL_RECONNECT_RECONNECTED	Te hemos reconectado a tu partida. Reanudando...	
 GLOBAL_RECONNECT_RECONNECTED_HEADER	Reconectado	
 GLOBAL_RECONNECT_RECONNECTED_LOGIN	Te hemos reconectado a tu última partida. Reanudando...	
 GLOBAL_RECONNECT_RECONNECTING	La partida se ha desconectado. Reconectando...	
 GLOBAL_RECONNECT_RECONNECTING_HEADER	Reconectando	
 GLOBAL_RECONNECT_RECONNECTING_LOGIN	La última partida se ha desconectado. Reconectando...	
-GLOBAL_RECONNECT_RESULT_DISCONNECT	Perdiste la última partida {0} por una desconexión.	0=one of GLOBAL_RECONNECT_GAME_MODE_*
-GLOBAL_RECONNECT_RESULT_HEADER	Resultado de la partida	
-GLOBAL_RECONNECT_RESULT_LOSE	Perdiste la última partida {0}.	0=one of GLOBAL_RECONNECT_GAME_MODE_*
-GLOBAL_RECONNECT_RESULT_TIE	La última partida {0} terminó en un empate.	0=one of GLOBAL_RECONNECT_GAME_MODE_*
-GLOBAL_RECONNECT_RESULT_WIN	Ganaste la última partida {0}.	0=one of GLOBAL_RECONNECT_GAME_MODE_*
 GLOBAL_RECONNECT_TIMEOUT	No hemos podido reconectarte a tu partida.	
 GLOBAL_RECONNECT_TIMEOUT_HEADER	Error	
 GLOBAL_REGION_AMERICAS	Américas y Sudeste Asiático	
@@ -415,11 +413,11 @@ GLOBAL_REGION_CHINA	China
 GLOBAL_REGION_EUROPE	Europa	
 GLOBAL_REMAINING_DATETIME	{0} restante	0=time string
 GLOBAL_RESUME_GAME	Reanudar	
-GLOBAL_REWARD_ARCANE_DUST_HEADLINE	¡Has conseguido Polvo arcano!	
-GLOBAL_REWARD_BOOSTER_DETAILS_OUT_OF_BAND	 |4(Se ha añadido,Se han añadido) {0} |4(paquete,paquetes) a tu cuenta desde afuera del juego.	0=count
+GLOBAL_REWARD_ARCANE_DUST_HEADLINE	¡Polvo arcano obtenido!	
+GLOBAL_REWARD_BOOSTER_DETAILS_OUT_OF_BAND	{0} |4(paquete añadido,paquetes añadidos) a tu cuenta desde fuera del juego.	0=count
 GLOBAL_REWARD_BOOSTER_HEADLINE	¡Paquete experto obtenido!	
 GLOBAL_REWARD_BOOSTER_HEADLINE_OUT_OF_BAND	¡Has recibido un paquete de cartas!	
-GLOBAL_REWARD_CARD_BACK_HEADLINE	¡Nuevo dorso para tus cartas!	
+GLOBAL_REWARD_CARD_BACK_HEADLINE	¡Nuevo dorso!	
 GLOBAL_REWARD_CARD_COUNT_MULTIPLIER	x	
 GLOBAL_REWARD_CARD_DETAILS_TUTORIAL01	¡Increíble!	
 GLOBAL_REWARD_CARD_DETAILS_TUTORIAL02	Es impresionante.	
@@ -429,6 +427,14 @@ GLOBAL_REWARD_CARD_DETAILS_TUTORIAL05	¡Magnífico!
 GLOBAL_REWARD_CARD_DETAILS_TUTORIAL06	¡Im-pre-sio-nan-te!	
 GLOBAL_REWARD_CARD_HEADLINE	¡Recompensa!	
 GLOBAL_REWARD_CARD_LEVEL_UP	Desbloqueada por alcanzar el nivel {0} de {1}	0=# level, 1=class
+GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL	{0}	0=first class
+GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL_DOUBLE	{0} y {1}	0=first class, 1=second class
+GLOBAL_REWARD_CLASS_CHALLENGE_HEADLINE	|4(Desafío,Desafíos) de clase |4(desbloqueado,desbloqueados)	
+GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_ARACHNID	Si te atreves, también puedes adentrarte en el Arrabal Arácnido en modo heroico.	
+GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_CONSTRUCT	Si te atreves, también puedes adentrarte en el Arrabal de los Ensamblajes en modo heroico.	
+GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_FROSTWYRM	Si te atreves, también puedes adentrarte en la Guarida de la Vermis en modo heroico.	
+GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_MILITARY	Si te atreves, también puedes adentrarte en el Arrabal Militar en modo heroico.	
+GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_PLAGUE	Si te atreves, también puedes adentrarte en el Arrabal de la Peste en modo heroico.	
 GLOBAL_REWARD_CORE_CARD_DETAILS	Cartas de {2} desbloqueadas: {0}/{1}	0=# cards unlocked, 1=# cards possible to unlock, 2=class
 GLOBAL_REWARD_FORGE_DETAILS_OUT_OF_BAND	 |4(Se ha añadido,Se han añadido) {0} |4(admisión a la Arena,admisiones a la Arena) a tu cuenta desde afuera del juego.	0=count
 GLOBAL_REWARD_FORGE_HEADLINE	Has recibido una admisión a la Arena	
@@ -474,6 +480,7 @@ GLOBAL_SOCIAL_TOAST_FRIEND_SHAMAN_LEVEL	<color=#{0}>{1}</color> se convirtió en
 GLOBAL_SOCIAL_TOAST_FRIEND_WARLOCK_LEVEL	<color=#{0}>{1}</color> se convirtió en un Brujo nivel {2}.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_WARRIOR_LEVEL	<color=#{0}>{1}</color> se convirtió en un Guerrero nivel {2}.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_RECENT_OPPONENT_FRIEND_REQUEST	Un adversario reciente quiere ser tu amigo.	
+GLOBAL_SPLASH_CLOSED_RECONNECTING	Reconectando...	
 GLOBAL_SPLASH_CLOSED_SIGN_TITLE	Cerrado	
 GLOBAL_TOOLTIP_FRIEND_BUTTON_DESC	Conversa y lucha con tus amigos.	
 GLOBAL_TOOLTIP_FRIEND_BUTTON_HEADER	Amigos	
