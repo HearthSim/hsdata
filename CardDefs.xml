@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<CardDefs build="6141">
+<CardDefs build="6187">
 	<Entity CardID="CRED_01" ID="0" version="2">
 		<Tag enumID="185" name="CARDNAME" type="LocString">
 			<deDE>Jason Chayes</deDE>
@@ -35997,7 +35997,9 @@ Assuma o controle de um lacaio inimigo aleatório.</ptBR>
 		<Tag enumID="183" name="CARD_SET" type="Int" value="12"/>
 		<Tag enumID="202" name="CARDTYPE" type="Int" value="3"/>
 		<Tag cardID="NAX1_04" enumID="380" name="HERO_POWER" type="Card" value="1831"/>
-		<Power definition="eba4ff15-726a-474c-8fa7-edce26efbc49"/>
+		<Power definition="eba4ff15-726a-474c-8fa7-edce26efbc49">
+			<PlayRequirement param="1" reqID="12"/>
+		</Power>
 	</Entity>
 	<Entity CardID="NAX1_03" ID="0" version="2">
 		<Tag enumID="185" name="CARDNAME" type="LocString">
@@ -36124,7 +36126,9 @@ Evoque um Nerubiano 3/1.</ptBR>
 		<Tag enumID="183" name="CARD_SET" type="Int" value="12"/>
 		<Tag enumID="202" name="CARDTYPE" type="Int" value="3"/>
 		<Tag cardID="NAX1h_04" enumID="380" name="HERO_POWER" type="Card" value="2103"/>
-		<Power definition="63b291b2-5223-4ccd-a0ae-7187a48b97f6"/>
+		<Power definition="63b291b2-5223-4ccd-a0ae-7187a48b97f6">
+			<PlayRequirement param="1" reqID="12"/>
+		</Power>
 	</Entity>
 	<Entity CardID="NAX1h_03" ID="0" version="2">
 		<Tag enumID="185" name="CARDNAME" type="LocString">
