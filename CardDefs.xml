@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<CardDefs build="6141">
+<CardDefs build="6187">
 	<Entity CardID="CRED_01" version="2">
 		<Tag enumID="185" name="CardName" type="LocString">
 			<enUS>Jason Chayes</enUS>
@@ -37521,7 +37521,9 @@ Assuma o controle de um lacaio inimigo aleatório.</ptBR>
 		<Tag enumID="45" name="Health" type="Int" value="30"/>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
-		<Power definition="eba4ff15-726a-474c-8fa7-edce26efbc49"/>
+		<Power definition="eba4ff15-726a-474c-8fa7-edce26efbc49">
+			<PlayRequirement param="1" reqID="12"/>
+		</Power>
 		<Texture>R5_a088_D</Texture>
 		<HeroPower cardID="NAX1_04"/>
 	</Entity>
@@ -37660,7 +37662,9 @@ Evoque um Nerubiano 3/1.</ptBR>
 		<Tag enumID="45" name="Health" type="Int" value="45"/>
 		<Tag enumID="330" name="EnchantmentBirthVisual" type="EnchantmentVisualType" value="0"/>
 		<Tag enumID="331" name="EnchantmentIdleVisual" type="EnchantmentVisualType" value="0"/>
-		<Power definition="63b291b2-5223-4ccd-a0ae-7187a48b97f6"/>
+		<Power definition="63b291b2-5223-4ccd-a0ae-7187a48b97f6">
+			<PlayRequirement param="1" reqID="12"/>
+		</Power>
 		<Texture>R5_a088_D</Texture>
 		<HeroPower cardID="NAX1h_04"/>
 	</Entity>
