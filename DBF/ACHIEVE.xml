@@ -479,7 +479,7 @@
 		<Field column="PARENT_ACH">none</Field>
 		<Field column="TIER">0</Field>
 		<Field column="WEIGHT">0</Field>
-		<Field column="UNLOCKS">daily quests</Field>
+		<Field column="UNLOCKS">daily</Field>
 		<Field column="CARD_SET">0</Field>
 		<Field column="LICENSE">0</Field>
 		<Field column="LICENSE_GROUP">0</Field>
@@ -2855,7 +2855,7 @@
 		<Field column="PARENT_ACH">none</Field>
 		<Field column="TIER">0</Field>
 		<Field column="WEIGHT">0</Field>
-		<Field column="UNLOCKS">daily tier2</Field>
+		<Field column="UNLOCKS">tier2</Field>
 		<Field column="CARD_SET">0</Field>
 		<Field column="LICENSE">0</Field>
 		<Field column="LICENSE_GROUP">0</Field>
@@ -3020,7 +3020,7 @@
 		<Field column="TIER">0</Field>
 		<Field column="WEIGHT">0</Field>
 		<Field column="UNLOCKS">none</Field>
-		<Field column="CARD_SET">0</Field>
+		<Field column="CARD_SET">3</Field>
 		<Field column="LICENSE">0</Field>
 		<Field column="LICENSE_GROUP">0</Field>
 		<Field column="DAILY_ORDER">0</Field>
@@ -3084,7 +3084,7 @@
 		<Field column="TIER">0</Field>
 		<Field column="WEIGHT">0</Field>
 		<Field column="UNLOCKS">none</Field>
-		<Field column="CARD_SET">0</Field>
+		<Field column="CARD_SET">3</Field>
 		<Field column="LICENSE">0</Field>
 		<Field column="LICENSE_GROUP">0</Field>
 		<Field column="DAILY_ORDER">0</Field>
@@ -3412,7 +3412,7 @@
 		<Field column="TIER">0</Field>
 		<Field column="WEIGHT">0</Field>
 		<Field column="UNLOCKS">none</Field>
-		<Field column="CARD_SET">0</Field>
+		<Field column="CARD_SET">3</Field>
 		<Field column="LICENSE">0</Field>
 		<Field column="LICENSE_GROUP">0</Field>
 		<Field column="DAILY_ORDER">0</Field>
@@ -3448,7 +3448,7 @@
 		<Field column="TIER">0</Field>
 		<Field column="WEIGHT">0</Field>
 		<Field column="UNLOCKS">none</Field>
-		<Field column="CARD_SET">0</Field>
+		<Field column="CARD_SET">3</Field>
 		<Field column="LICENSE">0</Field>
 		<Field column="LICENSE_GROUP">0</Field>
 		<Field column="DAILY_ORDER">0</Field>
@@ -4451,7 +4451,7 @@
 		<Field column="PARENT_ACH">none</Field>
 		<Field column="TIER">0</Field>
 		<Field column="WEIGHT">0</Field>
-		<Field column="UNLOCKS">forge games</Field>
+		<Field column="UNLOCKS">forge</Field>
 		<Field column="CARD_SET">0</Field>
 		<Field column="LICENSE">0</Field>
 		<Field column="LICENSE_GROUP">0</Field>
@@ -5154,7 +5154,7 @@
 	</Record>
 	<Record>
 		<Field column="ID">105</Field>
-		<Field column="NOTE_DESC">golden hero Gul''dan</Field>
+		<Field column="NOTE_DESC">golden hero Gul'dan</Field>
 		<Field column="ACH_TYPE">goldhero</Field>
 		<Field column="ACTIVE">True</Field>
 		<Field column="LINK_TO">none</Field>
@@ -5484,7 +5484,7 @@
 		<Field column="ID">111</Field>
 		<Field column="NOTE_DESC">hearthsteed license</Field>
 		<Field column="ACH_TYPE">internal_inactive</Field>
-		<Field column="ACTIVE">True</Field>
+		<Field column="ACTIVE">False</Field>
 		<Field column="LINK_TO">none</Field>
 		<Field column="TRIGGERED">licenseadded</Field>
 		<Field column="ACH_QUOTA">1</Field>
@@ -5630,7 +5630,7 @@
 			<deDE>Stammtischfreunde</deDE>
 		</Field>
 		<Field column="DESCRIPTION">
-			<enUS>Hearthstone is better with friends! Enjoy the company, and your new card back!</enUS>
+			<enUS>Hearthstone is better with friends! Enjoy the company and your new card back!</enUS>
 			<zhTW>跟朋友一起更好玩!享受新的卡片背面，和朋友的陪伴吧!</zhTW>
 			<zhCN>和好友一起玩《炉石传说》会更有趣！享受好友的陪伴，以及全新的卡牌背面图案！</zhCN>
 			<ruRU>Играть в Hearthstone лучше с друзьями! Наслаждайтесь приятной компанией и новой рубашкой карт!</ruRU>
@@ -5752,7 +5752,7 @@
 		<Field column="LINK_TO">none</Field>
 		<Field column="TRIGGERED">finish</Field>
 		<Field column="ACH_QUOTA">1</Field>
-		<Field column="GAME_MODE">any ipad</Field>
+		<Field column="GAME_MODE">any</Field>
 		<Field column="RACE">0</Field>
 		<Field column="MY_HERO_CLASS_ID">0</Field>
 		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
@@ -5812,7 +5812,7 @@
 		<Field column="ID">117</Field>
 		<Field column="NOTE_DESC">acquire naxx wing 1 license</Field>
 		<Field column="ACH_TYPE">internal_active</Field>
-		<Field column="ACTIVE">False</Field>
+		<Field column="ACTIVE">True</Field>
 		<Field column="LINK_TO">naxx wing 1 opened</Field>
 		<Field column="TRIGGERED">licensedetected</Field>
 		<Field column="ACH_QUOTA">1</Field>
@@ -5848,7 +5848,7 @@
 		<Field column="ID">118</Field>
 		<Field column="NOTE_DESC">acquire naxx wing 2 license</Field>
 		<Field column="ACH_TYPE">internal_active</Field>
-		<Field column="ACTIVE">False</Field>
+		<Field column="ACTIVE">True</Field>
 		<Field column="LINK_TO">naxx wing 2 opened</Field>
 		<Field column="TRIGGERED">licensedetected</Field>
 		<Field column="ACH_QUOTA">1</Field>
@@ -5884,7 +5884,7 @@
 		<Field column="ID">119</Field>
 		<Field column="NOTE_DESC">acquire naxx wing 3 license</Field>
 		<Field column="ACH_TYPE">internal_active</Field>
-		<Field column="ACTIVE">False</Field>
+		<Field column="ACTIVE">True</Field>
 		<Field column="LINK_TO">naxx wing 3 opened</Field>
 		<Field column="TRIGGERED">licensedetected</Field>
 		<Field column="ACH_QUOTA">1</Field>
@@ -5920,7 +5920,7 @@
 		<Field column="ID">120</Field>
 		<Field column="NOTE_DESC">acquire naxx wing 4 license</Field>
 		<Field column="ACH_TYPE">internal_active</Field>
-		<Field column="ACTIVE">False</Field>
+		<Field column="ACTIVE">True</Field>
 		<Field column="LINK_TO">naxx wing 4 opened</Field>
 		<Field column="TRIGGERED">licensedetected</Field>
 		<Field column="ACH_QUOTA">1</Field>
@@ -5956,7 +5956,7 @@
 		<Field column="ID">121</Field>
 		<Field column="NOTE_DESC">acquire naxx wing 5 license</Field>
 		<Field column="ACH_TYPE">internal_active</Field>
-		<Field column="ACTIVE">False</Field>
+		<Field column="ACTIVE">True</Field>
 		<Field column="LINK_TO">naxx wing 5 opened</Field>
 		<Field column="TRIGGERED">licensedetected</Field>
 		<Field column="ACH_QUOTA">1</Field>
@@ -9843,5 +9843,197 @@
 		<Field column="SCENARIO_ID">0</Field>
 		<Field column="ADVENTURE_WING_ID">0</Field>
 		<Field column="ADVENTURE_PROGRESS">0</Field>
+	</Record>
+	<Record>
+		<Field column="ID">205</Field>
+		<Field column="NOTE_DESC">TBA</Field>
+		<Field column="ACH_TYPE">hidden</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">licensedetected</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">cardback</Field>
+		<Field column="REWARD_DATA1">12</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="REWARD_TIMING">immediate</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="LICENSE">0</Field>
+		<Field column="LICENSE_GROUP">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">205</Field>
+		<Field column="PLATFORM">any</Field>
+		<Field column="SCENARIO_ID">0</Field>
+		<Field column="ADVENTURE_WING_ID">0</Field>
+		<Field column="ADVENTURE_PROGRESS">0</Field>
+		<Field column="NAME">
+			<enUS>TBA</enUS>
+			<deDE>TBA</deDE>
+			<esES>Próximamente</esES>
+			<esMX>Próximamente</esMX>
+			<frFR>TBA</frFR>
+			<itIT>TBA</itIT>
+			<koKR>추후 공개</koKR>
+			<plPL>TBA</plPL>
+			<ptBR>TBA</ptBR>
+			<ruRU>TBA</ruRU>
+			<zhCN>2014暴雪嘉年华</zhCN>
+			<zhTW>敬請期待</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>TBA</enUS>
+			<deDE>TBA</deDE>
+			<esES>Próximamente</esES>
+			<esMX>Próximamente</esMX>
+			<frFR>TBA</frFR>
+			<itIT>TBA</itIT>
+			<koKR>추후 공개</koKR>
+			<plPL>TBA</plPL>
+			<ptBR>TBA</ptBR>
+			<ruRU>TBA</ruRU>
+			<zhCN>TBA</zhCN>
+			<zhTW>敬請期待</zhTW>
+		</Field>
+	</Record>
+	<Record>
+		<Field column="ID">206</Field>
+		<Field column="NOTE_DESC">dalaran flame cardback</Field>
+		<Field column="ACH_TYPE">hidden</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">licensedetected</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">cardback</Field>
+		<Field column="REWARD_DATA1">13</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="REWARD_TIMING">immediate</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="LICENSE">0</Field>
+		<Field column="LICENSE_GROUP">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">206</Field>
+		<Field column="PLATFORM">any</Field>
+		<Field column="SCENARIO_ID">0</Field>
+		<Field column="ADVENTURE_WING_ID">0</Field>
+		<Field column="ADVENTURE_PROGRESS">0</Field>
+		<Field column="NAME">
+			<enUS>Congratulations!</enUS>
+			<deDE>Herzlichen Glückwunsch!</deDE>
+			<esES>¡Enhorabuena!</esES>
+			<esMX>¡Felicitaciones!</esMX>
+			<frFR>Félicitations !</frFR>
+			<itIT>Congratulazioni!</itIT>
+			<koKR>축하합니다!</koKR>
+			<plPL>Gratulacje!</plPL>
+			<ptBR>Parabéns!</ptBR>
+			<ruRU>Поздравляем!</ruRU>
+			<zhCN>恭喜你！</zhCN>
+			<zhTW>恭喜!</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>You have earned the Dalaran Flame card back!</enUS>
+			<deDE>Ihr habt den Kartenrücken „Die Flamme Dalarans“ erhalten!</deDE>
+			<esES>¡Has conseguido el dorso de carta "Fuego de Dalaran"!</esES>
+			<esMX>¡Has ganado el dorso de carta Llama de Dalaran!</esMX>
+			<frFR>Vous avez obtenu le dos de carte Flamme de Dalaran !</frFR>
+			<itIT>Hai ottenuto il dorso delle carte Fiamma di Dalaran!</itIT>
+			<koKR>달라란 불꽃 카드 뒷면을 획득했습니다!</koKR>
+			<plPL>Otrzymujesz nowy rewers – „Płomień Dalaranu”!</plPL>
+			<ptBR>Você ganhou o verso de card Chama de Dalaran!</ptBR>
+			<ruRU>Вам стала доступна рубашка для карт «Пламя Даларана»!</ruRU>
+			<zhCN>你获得了达拉然火焰卡牌背面图案！</zhCN>
+			<zhTW>你獲得了達拉然火焰卡片背面圖案!</zhTW>
+		</Field>
+	</Record>
+	<Record>
+		<Field column="ID">207</Field>
+		<Field column="NOTE_DESC">TBA</Field>
+		<Field column="ACH_TYPE">hidden</Field>
+		<Field column="ACTIVE">True</Field>
+		<Field column="LINK_TO">none</Field>
+		<Field column="TRIGGERED">licensedetected</Field>
+		<Field column="ACH_QUOTA">1</Field>
+		<Field column="GAME_MODE">any</Field>
+		<Field column="RACE">0</Field>
+		<Field column="MY_HERO_CLASS_ID">0</Field>
+		<Field column="ENEMY_HERO_CLASS_ID">0</Field>
+		<Field column="REWARD">cardback</Field>
+		<Field column="REWARD_DATA1">14</Field>
+		<Field column="REWARD_DATA2">0</Field>
+		<Field column="REWARD_TIMING">immediate</Field>
+		<Field column="PARENT_ACH">none</Field>
+		<Field column="TIER">0</Field>
+		<Field column="WEIGHT">0</Field>
+		<Field column="UNLOCKS">none</Field>
+		<Field column="CARD_SET">0</Field>
+		<Field column="LICENSE">0</Field>
+		<Field column="LICENSE_GROUP">0</Field>
+		<Field column="DAILY_ORDER">0</Field>
+		<Field column="MY_HERO_ALT_CLASS_ID">0</Field>
+		<Field column="MY_HERO_ASSET_ID">0</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="STAR_LEVEL">0</Field>
+		<Field column="EVENT">none</Field>
+		<Field column="NOTICE_ORIGIN">achieve</Field>
+		<Field column="NOTICE_ORIGIN_DATA">207</Field>
+		<Field column="PLATFORM">any</Field>
+		<Field column="SCENARIO_ID">0</Field>
+		<Field column="ADVENTURE_WING_ID">0</Field>
+		<Field column="ADVENTURE_PROGRESS">0</Field>
+		<Field column="NAME">
+			<enUS>TBA</enUS>
+			<deDE>TBA</deDE>
+			<esES>Próximamente</esES>
+			<esMX>Próximamente</esMX>
+			<frFR>TBA</frFR>
+			<itIT>TBA</itIT>
+			<koKR>추후 공개</koKR>
+			<plPL>TBA</plPL>
+			<ptBR>TBA</ptBR>
+			<ruRU>TBA</ruRU>
+			<zhCN>TBA</zhCN>
+			<zhTW>敬請期待</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>TBA</enUS>
+			<deDE>TBA</deDE>
+			<esES>Próximamente</esES>
+			<esMX>Próximamente</esMX>
+			<frFR>TBA</frFR>
+			<itIT>TBA</itIT>
+			<koKR>추후 공개</koKR>
+			<plPL>TBA</plPL>
+			<ptBR>TBA</ptBR>
+			<ruRU>TBA</ruRU>
+			<zhCN>TBA</zhCN>
+			<zhTW>敬請期待</zhTW>
+		</Field>
 	</Record>
 </Dbf>
