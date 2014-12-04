@@ -1,34 +1,15 @@
-TAG	TEXT	COMMENT
-GAMEPLAY_AI_OPPONENT_NAME	Gastwirt	
-GAMEPLAY_BANNER_STARTING_HAND	Starthand	
-GAMEPLAY_BANNER_SUBTITLE	   Karten behalten oder ersetzen   	
-GAMEPLAY_BANNER_WAITING	Gegner wählt noch aus ...	
+﻿TAG	TEXT	COMMENT
+GAMEPLAY_DISCONNECT_HEADER	Verbindung unterbrochen	
+GAMEPLAY_DISCONNECT_BODY_RESET	Spiel abgeschlossen und gespeichert! Verbindung zu den Hearthstone-Servern wird wiederhergestellt.	
+GAMEPLAY_DISCONNECT_BODY	Spiel abgeschlossen und gespeichert! Bitte starten Sie Hearthstone neu, um fortzufahren.	
+GAMEPLAY_PlayErrors_REQ_DRAG_TO_PLAY	Muss zu einem Ziel gezogen werden.	
 GAMEPLAY_COIN_TOSS_LOST	Ihr erhaltet eine weitere Karte.	
 GAMEPLAY_COIN_TOSS_WON	Ihr seid zuerst dran.	
-GAMEPLAY_DISCONNECT_BODY	Spiel abgeschlossen und gespeichert! Bitte starten Sie Hearthstone neu, um fortzufahren.	
-GAMEPLAY_DISCONNECT_BODY_RESET	Spiel abgeschlossen und gespeichert! Verbindung zu den Hearthstone-Servern wird wiederhergestellt.	
-GAMEPLAY_DISCONNECT_HEADER	Verbindung unterbrochen	
-GAMEPLAY_EMOTE_LABEL_GREETINGS	Grüße	
-GAMEPLAY_EMOTE_LABEL_OOPS	Ups	
-GAMEPLAY_EMOTE_LABEL_SORRY	Tut mir leid	
-GAMEPLAY_EMOTE_LABEL_THANKS	Danke	
-GAMEPLAY_EMOTE_LABEL_THREATEN	Drohung	
-GAMEPLAY_EMOTE_LABEL_WELL_PLAYED	Gut gespielt	
-GAMEPLAY_EMOTE_SQUELCH	Emotes aus	
-GAMEPLAY_EMOTE_UNSQUELCH	Emotes an	
-GAMEPLAY_END_OF_GAME_DEFEAT	Niederlage!	
-GAMEPLAY_END_OF_GAME_VICTORY	Sieg!	
+GAMEPLAY_FATIGUE_TEXT	Keine Karten mehr! Erleidet {0} Schaden.	
 GAMEPLAY_END_TURN	FERTIG	
 GAMEPLAY_ENEMY_TURN	 GEGNER 	
 GAMEPLAY_ERROR_PLAY_REJECTED	Zu spät! Euer Zug ist vorbei.	
-GAMEPLAY_FATIGUE_HISTORY_TEXT	Der Versuch, Karten aus einem leeren Deck zu ziehen, fügt dem Helden zunehmenden Schaden zu.	
-GAMEPLAY_FATIGUE_TEXT	Keine Karten mehr! Erleidet {0} Schaden.	
-GAMEPLAY_FATIGUE_TITLE	Erschöpfung	
-GAMEPLAY_GOLDHERO_WINS	Siege!	
 GAMEPLAY_MANA_COUNTER	{0}/{1}	0=unused mana 1=current total mana
-GAMEPLAY_MULLIGAN_REPLACE	ERSETZT	
-GAMEPLAY_NOTIFICATION_MAX_HAND_SIZE	Ihr könnt nur {0} |4(Karte,Karten) auf Eurer Hand haben.	
-GAMEPLAY_NOTIFICATION_MAX_MANA	Ihr könnt nur {0} |4(Manakristall,Manakristalle) besitzen.	
 GAMEPLAY_PlayErrors_REQ_ATTACK_GREATER_THAN_0	Ein Charakter ohne Angriffswert kann nicht angreifen.	
 GAMEPLAY_PlayErrors_REQ_ATTACKER_CAN_ATTACK	Dieser Charakter kann nicht angreifen.	
 GAMEPLAY_PlayErrors_REQ_ATTACKER_NOT_FROZEN	Eingefrorene Charaktere können nicht angreifen.	
@@ -38,78 +19,102 @@ GAMEPLAY_PlayErrors_REQ_CAN_BE_TARGETED_BY_OPPONENTS	Charakter kann nicht als Zi
 GAMEPLAY_PlayErrors_REQ_CAN_BE_TARGETED_BY_SPELLS	Kann nicht als Ziel von Zaubern gewählt werden.	
 GAMEPLAY_PlayErrors_REQ_CHARGE_TARGET	Wählt einen Charakter mit Ansturm aus.	
 GAMEPLAY_PlayErrors_REQ_DAMAGED_TARGET	Wählt einen verletzten Charakter aus.	
-GAMEPLAY_PlayErrors_REQ_DRAG_TO_PLAY	Muss zu einem Ziel gezogen werden.	
 GAMEPLAY_PlayErrors_REQ_ENCHANTED_TARGET	Wählt einen verzauberten Charakter aus.	
 GAMEPLAY_PlayErrors_REQ_ENEMY_TARGET	Wählt einen Feind aus.	
-GAMEPLAY_PlayErrors_REQ_ENEMY_TARGET_NOT_IMMUNE	Dieser Charakter ist immun.	
 GAMEPLAY_PlayErrors_REQ_ENOUGH_MANA	Nicht genug Mana.	
-GAMEPLAY_PlayErrors_REQ_ENTIRE_ENTOURAGE_NOT_IN_PLAY	Ihr verfügt bereits über ein Totem jedes Typs.	
 GAMEPLAY_PlayErrors_REQ_FRIENDLY_TARGET	Wählt einen befreundeten Charakter aus.	
 GAMEPLAY_PlayErrors_REQ_FROZEN_TARGET	Wählt einen eingefrorenen Charakter aus.	
-GAMEPLAY_PlayErrors_REQ_HERO_OR_MINION_TARGET	Ihr müsst einen Charakter als Ziel wählen.	
-GAMEPLAY_PlayErrors_REQ_HERO_TARGET	Ihr müsst einen Helden als Ziel wählen.	
 GAMEPLAY_PlayErrors_REQ_MINIMUM_ENEMY_MINIONS	Der Gegner muss über mindestens {0} Diener verfügen.	
-GAMEPLAY_PlayErrors_REQ_MINIMUM_TOTAL_MINIONS	Es müssen sich mindestens {0} Diener auf dem Schlachtfeld befinden.	
-GAMEPLAY_PlayErrors_REQ_MINION_CAP	Ihr habt die maximale Anzahl an Dienern erreicht.	
-GAMEPLAY_PlayErrors_REQ_MINION_CAP_IF_TARGET_AVAILABLE	Ihr habt die maximale Anzahl an Dienern erreicht.	
 GAMEPLAY_PlayErrors_REQ_MINION_TARGET	Wählt einen Diener aus.	
-GAMEPLAY_PlayErrors_REQ_MUST_TARGET_TAUNTER	Ihr müsst einen Diener mit Spott als Ziel wählen.	
-GAMEPLAY_PlayErrors_REQ_NONSELF_TARGET	Der Diener kann sich nicht selbst als Ziel wählen.	
-GAMEPLAY_PlayErrors_REQ_NONSTEALTH_ENEMY_TARGET	Verstohlene Charaktere können nicht als Ziel gewählt oder angegriffen werden.	
 GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_ACTIVATE	Dieser Charakter hat bereits angegriffen.	
 GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_HERO_POWER	Heldenfähigkeiten können nur einmal pro Runde eingesetzt werden.	
 GAMEPLAY_PlayErrors_REQ_NOT_MINION_JUST_PLAYED	Diener können nicht in dem Zug angreifen, in dem sie ausgespielt wurden.	
+GAMEPLAY_PlayErrors_REQ_SUBCARD_IS_PLAYABLE	Keine dieser Optionen ist gültig.	
+GAMEPLAY_PlayErrors_REQ_TARGET_MAGNET	Es gibt einen Diener, den Ihr als Ziel wählen müsst.	
+GAMEPLAY_PlayErrors_REQ_TARGET_MAX_ATTACK	Wählt einen Charakter mit max. {0} Angriff aus.	
+GAMEPLAY_PlayErrors_REQ_TARGET_MIN_ATTACK	Wählt einen Charakter mit mind. {0} Angriff aus.	
+GAMEPLAY_PlayErrors_REQ_TARGET_WITH_RACE	Das ist nicht der korrekte Dienertyp.	
+GAMEPLAY_PlayErrors_REQ_ENEMY_TARGET_NOT_IMMUNE	Dieser Charakter ist immun.	
+GAMEPLAY_PlayErrors_REQ_MINIMUM_TOTAL_MINIONS	Es müssen sich mindestens {0} Diener auf dem Schlachtfeld befinden.	
+GAMEPLAY_TOOLTIP_DECK_HEADLINE	Deck	
+GAMEPLAY_TOOLTIP_FATIGUE_DECK_HEADLINE	Erschöpft	
+GAMEPLAY_TOOLTIP_ENEMYDECK_DESC	Euer Gegner hat {0} |4(Karte,Karten) in seinem Deck.	
+GAMEPLAY_TOOLTIP_ENEMYDECK_HEADLINE	Gegnerisches Deck	
+GAMEPLAY_TOOLTIP_FATIGUE_ENEMYDECK_HEADLINE	Erschöpft	
+GAMEPLAY_PlayErrors_REQ_CAN_BE_TARGETED_BY_BATTLECRIES	Kann nicht als Ziel von Kampfschreien gewählt werden.	
+GAMEPLAY_PlayErrors_REQ_MINION_OR_ENEMY_HERO	Wählt einen Diener oder den feindlichen Helden aus.	
+GAMEPLAY_HISTORY_CREATED_BY	Hervorgerufen durch\n{0}	0=name of a card
+GAMEPLAY_PlayErrors_REQ_HERO_OR_MINION_TARGET	Ihr müsst einen Charakter als Ziel wählen.	
+GAMEPLAY_PlayErrors_REQ_HERO_TARGET	Ihr müsst einen Helden als Ziel wählen.	
+GAMEPLAY_PlayErrors_REQ_MINION_CAP	Ihr habt die maximale Anzahl an Dienern erreicht.	
+GAMEPLAY_PlayErrors_REQ_NONSELF_TARGET	Der Diener kann sich nicht selbst als Ziel wählen.	
+GAMEPLAY_PlayErrors_REQ_NONSTEALTH_ENEMY_TARGET	Verstohlene Charaktere können nicht als Ziel gewählt oder angegriffen werden.	
 GAMEPLAY_PlayErrors_REQ_NUM_MINION_SLOTS	Ihr habt zu viele Diener, um diese Karte auszuspielen.	
 GAMEPLAY_PlayErrors_REQ_SECRET_CAP	Ihr könnt nur über {0} |4(Geheimnis,Geheimnisse) verfügen.	
-GAMEPLAY_PlayErrors_REQ_SUBCARD_IS_PLAYABLE	Keine dieser Optionen ist gültig.	
 GAMEPLAY_PlayErrors_REQ_TARGET_ATTACKED_THIS_TURN	Ihr müsst einen Charakter als Ziel wählen, der bereits angegriffen hat.	
 GAMEPLAY_PlayErrors_REQ_TARGET_FOR_COMBO	Ihr könnt das nicht tun, ohne ein Ziel zu wählen.	
 GAMEPLAY_PlayErrors_REQ_TARGET_FOR_NO_COMBO	Ihr könnt das nicht tun, ohne ein Ziel zu wählen.	
 GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE	Ihr könnt das nicht tun, ohne ein Ziel zu wählen.	
-GAMEPLAY_PlayErrors_REQ_TARGET_MAGNET	Es gibt einen Diener, den Ihr als Ziel wählen müsst.	
-GAMEPLAY_PlayErrors_REQ_TARGET_MAX_ATTACK	Wählt einen Charakter mit max. {0} Angriff aus.	
-GAMEPLAY_PlayErrors_REQ_TARGET_MIN_ATTACK	Wählt einen Charakter mit mind. {0} Angriff aus.	
 GAMEPLAY_PlayErrors_REQ_TARGET_TAUNTER	Ihr müsst einen Diener mit Spott angreifen.	
 GAMEPLAY_PlayErrors_REQ_TARGET_TO_PLAY	Ihr könnt das nicht tun, ohne ein Ziel zu wählen.	
-GAMEPLAY_PlayErrors_REQ_TARGET_WITH_RACE	Das ist nicht der korrekte Dienertyp.	
-GAMEPLAY_PlayErrors_REQ_UNDAMAGED_TARGET	Ihr müsst einen unverletzten Charakter als Ziel wählen.	
 GAMEPLAY_PlayErrors_REQ_UNIQUE_SECRET	Ihr verfügt bereits über dieses Geheimnis.	
+GAMEPLAY_PlayErrors_REQ_MINION_CAP_IF_TARGET_AVAILABLE	Ihr habt die maximale Anzahl an Dienern erreicht.	
 GAMEPLAY_PlayErrors_REQ_WEAPON_EQUIPPED	Ihr müsst über eine Waffe verfügen.	
-GAMEPLAY_PRE_TUTORIAL_WANTED	Gesucht	
-GAMEPLAY_SECRET_BANNER_TITLE	Geheimnis!	
-GAMEPLAY_SECRET_DESC	Bleibt verborgen, bis eine geheime Aktion ausgeführt wurde ... Seid vorsichtig!	
-GAMEPLAY_SECRET_NAME	Geheimnis	
-GAMEPLAY_SECRET_NAME_HUNTER	Jägergeheimnis	
-GAMEPLAY_SECRET_NAME_MAGE	Magiergeheimnis	
-GAMEPLAY_SECRET_NAME_PALADIN	Paladingeheimnis	
+GAMEPLAY_PlayErrors_REQ_ENTIRE_ENTOURAGE_NOT_IN_PLAY	Ihr verfügt bereits über ein Totem jedes Typs.	
 GAMEPLAY_TOOLTIP_DECK_DESCRIPTION	Ihr habt {0} |4(Karte,Karten) in Eurem Deck.	
-GAMEPLAY_TOOLTIP_DECK_HEADLINE	Deck	
-GAMEPLAY_TOOLTIP_ENEMYDECK_DESC	Euer Gegner hat {0} |4(Karte,Karten) in seinem Deck.	
-GAMEPLAY_TOOLTIP_ENEMYDECK_HEADLINE	Gegnerisches Deck	
-GAMEPLAY_TOOLTIP_ENEMYHAND_DESC	Euer Gegner hat {0} |4(Karte,Karten) auf der Hand.	0= number of cards in hand.
-GAMEPLAY_TOOLTIP_ENEMYHAND_DESC_SINGLE	Euer Gegner hat {0} |4(Karte,Karten) auf der Hand.	0= number of cards in hand.
-GAMEPLAY_TOOLTIP_ENEMYHAND_DESC_TUT	Die Hand Eures Gegners. Spieler ziehen jede Runde eine weitere Karte.	
-GAMEPLAY_TOOLTIP_ENEMYHAND_HEADLINE	Gegnerische Hand	
 GAMEPLAY_TOOLTIP_FATIGUE_DECK_DESCRIPTION	Ihr habt keine Karten mehr! Von nun an werdet Ihr jedes Mal Schaden erleiden, wenn Ihr versucht, eine Karte zu ziehen.	
-GAMEPLAY_TOOLTIP_FATIGUE_DECK_HEADLINE	Erschöpft	
 GAMEPLAY_TOOLTIP_FATIGUE_ENEMYDECK_DESCRIPTION	Euer Gegner hat keine Karten mehr! Von nun an wird er jedes Mal Schaden erleiden, wenn er versucht, eine Karte zu ziehen.	
-GAMEPLAY_TOOLTIP_FATIGUE_ENEMYDECK_HEADLINE	Erschöpft	
 GAMEPLAY_TOOLTIP_MANA_DESCRIPTION	Wenn Euer Zug beginnt, erhaltet Ihr einen neuen Manakristall und verbrauchte Manakristalle werden wieder aufgefüllt.	
+GAMEPLAY_TOOLTIP_ENEMYHAND_HEADLINE	Gegnerische Hand	
+GAMEPLAY_EMOTE_LABEL_GREETINGS	Grüße	
+GAMEPLAY_EMOTE_LABEL_OOPS	Ups	
+GAMEPLAY_END_OF_GAME_DEFEAT	Niederlage!	
+GAMEPLAY_GOLDHERO_WINS	Siege!	
+GAMEPLAY_SECRET_NAME_PALADIN	Paladingeheimnis	
+GAMEPLAY_SECRET_NAME_MAGE	Magiergeheimnis	
+GAMEPLAY_SECRET_NAME_HUNTER	Jägergeheimnis	
+GAMEPLAY_AI_OPPONENT_NAME	Gastwirt	
+GAMEPLAY_FATIGUE_TITLE	Erschöpfung	
+GAMEPLAY_SECRET_BANNER_TITLE	Geheimnis!	
+GAMEPLAY_MULLIGAN_REPLACE	ERSETZT	
+GAMEPLAY_TUTORIAL_HEALTH	Leben	
+GAMEPLAY_TUTORIAL_ATTACK	Angriff	
+GAMEPLAY_TUTORIAL_MINION	Diener	
+GAMEPLAY_TUTORIAL_COST	Kosten	
+GAMEPLAY_TUTORIAL_DEFENDER	Verteidiger	
+GAMEPLAY_TUTORIAL_TAUNT_DESCRIPTION	Feinde müssen diesen Diener angreifen.	
+GAMEPLAY_TUTORIAL_HERO_POWER	Heldenfähigkeit	
+GAMEPLAY_SPECTATOR_DISCONNECT_BODY_RESET	Ihre Verbindung wurde unterbrochen und wird wiederhergestellt. Bitte wechseln Sie wenn nötig erneut in den Zuschauermodus.	
+GAMEPLAY_SPECTATOR_DISCONNECT_BODY	Ihre Verbindung wurde unterbrochen. Bitte starten Sie Hearthstone neu, um fortzufahren, und wechseln Sie wenn nötig erneut in den Zuschauermodus.	
+GAMEPLAY_PlayErrors_REQ_UNDAMAGED_TARGET	Ihr müsst einen unverletzten Charakter als Ziel wählen.	
+GAMEPLAY_BANNER_SUBTITLE	   Karten behalten oder ersetzen   	
+GAMEPLAY_BANNER_WAITING	Gegner wählt noch aus ...	
 GAMEPLAY_TOOLTIP_MANA_HEADLINE	Manakristalle	
 GAMEPLAY_TOOLTIP_MANA_RECALL_DESCRIPTION	Ihr habt in der letzten Runde eine Karte mit Überladung ausgespielt.	
 GAMEPLAY_TOOLTIP_MANA_RECALL_HEADLINE	Gesperrte Manakristalle	
-GAMEPLAY_TUTORIAL_ATTACK	Angriff	
-GAMEPLAY_TUTORIAL_ATTACKER	Angreifer	
-GAMEPLAY_TUTORIAL_COST	Kosten	
-GAMEPLAY_TUTORIAL_DEFENDER	Verteidiger	
-GAMEPLAY_TUTORIAL_HEALTH	Leben	
-GAMEPLAY_TUTORIAL_HERO_POWER	Heldenfähigkeit	
-GAMEPLAY_TUTORIAL_MINION	Diener	
-GAMEPLAY_TUTORIAL_TAUNT	Spott	
-GAMEPLAY_TUTORIAL_TAUNT_DESCRIPTION	Feinde müssen diesen Diener angreifen.	
-GAMEPLAY_TUTORIAL_USED	Benutzt	
-GAMEPLAY_TUTORIAL_YOUR_MANA	Euer Mana	
-GAMEPLAY_TUTORIAL_YOUR_TURN	Euer Zug	
+GAMEPLAY_TOOLTIP_ENEMYHAND_DESC	Euer Gegner hat {0} |4(Karte,Karten) auf der Hand.	0= number of cards in hand.
+GAMEPLAY_EMOTE_LABEL_WELL_PLAYED	Gut gespielt	
+GAMEPLAY_EMOTE_LABEL_THANKS	Danke	
+GAMEPLAY_EMOTE_LABEL_THREATEN	Drohung	
+GAMEPLAY_EMOTE_LABEL_SORRY	Tut mir leid	
+GAMEPLAY_END_OF_GAME_VICTORY	Sieg!	
+GAMEPLAY_TOOLTIP_ENEMYHAND_DESC_TUT	Die Hand Eures Gegners. Spieler ziehen jede Runde eine weitere Karte.	
+GAMEPLAY_TOOLTIP_ENEMYHAND_DESC_SINGLE	Euer Gegner hat {0} |4(Karte,Karten) auf der Hand.	0= number of cards in hand.
 GAMEPLAY_UNKNOWN_OPPONENT_NAME	UNBEKANNT	
-GAMEPLAY_WIN_REWARD_PROGRESS	Siege {0}/{1}	
+GAMEPLAY_EMOTE_SQUELCH	Emotes aus	
+GAMEPLAY_EMOTE_UNSQUELCH	Emotes an	
 GAMEPLAY_YOUR_TURN	Euer Zug	
+GAMEPLAY_PRE_TUTORIAL_WANTED	Gesucht	
+GAMEPLAY_TUTORIAL_YOUR_MANA	Euer Mana	
+GAMEPLAY_TUTORIAL_ATTACKER	Angreifer	
+GAMEPLAY_TUTORIAL_TAUNT	Spott	
+GAMEPLAY_TUTORIAL_USED	Benutzt	
+GAMEPLAY_TUTORIAL_YOUR_TURN	Euer Zug	
+GAMEPLAY_FATIGUE_HISTORY_TEXT	Der Versuch, Karten aus einem leeren Deck zu ziehen, fügt dem Helden zunehmenden Schaden zu.	
+GAMEPLAY_PlayErrors_REQ_MUST_TARGET_TAUNTER	Ihr müsst einen Diener mit Spott als Ziel wählen.	
+GAMEPLAY_NOTIFICATION_MAX_HAND_SIZE	Ihr könnt nur {0} |4(Karte,Karten) auf Eurer Hand haben.	
+GAMEPLAY_NOTIFICATION_MAX_MANA	Ihr könnt nur {0} |4(Manakristall,Manakristalle) besitzen.	
+GAMEPLAY_SECRET_NAME	Geheimnis	
+GAMEPLAY_SECRET_DESC	Bleibt verborgen, bis eine geheime Aktion ausgeführt wurde ... Seid vorsichtig!	
+GAMEPLAY_BANNER_STARTING_HAND	Starthand	
+GAMEPLAY_WIN_REWARD_PROGRESS	Siege {0}/{1}	

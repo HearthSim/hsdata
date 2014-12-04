@@ -1,34 +1,15 @@
-TAG	TEXT	COMMENT
-GAMEPLAY_AI_OPPONENT_NAME	Хозяин таверны	
-GAMEPLAY_BANNER_STARTING_HAND	Стартовая рука	
-GAMEPLAY_BANNER_SUBTITLE	Оставьте или замените карты	
-GAMEPLAY_BANNER_WAITING	Ваш противник думает...	
+﻿TAG	TEXT	COMMENT
+GAMEPLAY_DISCONNECT_HEADER	Соединение прервано	
+GAMEPLAY_DISCONNECT_BODY_RESET	Игра завершена и сохранена! Идет повторное подключение к серверам Hearthstone.	
+GAMEPLAY_DISCONNECT_BODY	Игра завершена и сохранена! Чтобы продолжить игру, перезапустите Hearthstone.	
+GAMEPLAY_PlayErrors_REQ_DRAG_TO_PLAY	Это необходимо перетащить к цели	
 GAMEPLAY_COIN_TOSS_LOST	Дополнительная карта!	
 GAMEPLAY_COIN_TOSS_WON	Первый ход – за вами	
-GAMEPLAY_DISCONNECT_BODY	Игра завершена и сохранена! Чтобы продолжить игру, перезапустите Hearthstone.	
-GAMEPLAY_DISCONNECT_BODY_RESET	Игра завершена и сохранена! Идет повторное подключение к серверам Hearthstone.	
-GAMEPLAY_DISCONNECT_HEADER	Соединение прервано	
-GAMEPLAY_EMOTE_LABEL_GREETINGS	Здравствуй	
-GAMEPLAY_EMOTE_LABEL_OOPS	Ой!	
-GAMEPLAY_EMOTE_LABEL_SORRY	Извини	
-GAMEPLAY_EMOTE_LABEL_THANKS	Спасибо	
-GAMEPLAY_EMOTE_LABEL_THREATEN	Угроза	
-GAMEPLAY_EMOTE_LABEL_WELL_PLAYED	Неплохо	
-GAMEPLAY_EMOTE_SQUELCH	Отключить\nсообщения	
-GAMEPLAY_EMOTE_UNSQUELCH	Включить\nсообщения	
-GAMEPLAY_END_OF_GAME_DEFEAT	Поражение!	
-GAMEPLAY_END_OF_GAME_VICTORY	Победа!	
+GAMEPLAY_FATIGUE_TEXT	В колоде больше нет карт! Герой получает {0} ед. урона.	
 GAMEPLAY_END_TURN	ЗАКОНЧИТЬ	
 GAMEPLAY_ENEMY_TURN	ЧУЖОЙ ХОД	
 GAMEPLAY_ERROR_PLAY_REJECTED	Слишком поздно! Ваш ход окончен.	
-GAMEPLAY_FATIGUE_HISTORY_TEXT	При попытке взять карту герой получает возрастающий урон.	
-GAMEPLAY_FATIGUE_TEXT	В колоде больше нет карт! Герой получает {0} ед. урона.	
-GAMEPLAY_FATIGUE_TITLE	Усталость	
-GAMEPLAY_GOLDHERO_WINS	побед!	
 GAMEPLAY_MANA_COUNTER	{0}/{1}	0=unused mana 1=current total mana
-GAMEPLAY_MULLIGAN_REPLACE	ЗАМЕНЕНА	
-GAMEPLAY_NOTIFICATION_MAX_HAND_SIZE	У вас в руке не может быть больше {0} |4(карты,карт,карт).	
-GAMEPLAY_NOTIFICATION_MAX_MANA	У вас может быть не больше {0} |4(кристалла,кристаллов,кристаллов) маны.	
 GAMEPLAY_PlayErrors_REQ_ATTACK_GREATER_THAN_0	Персонажи без силы атаки не могут атаковать.	
 GAMEPLAY_PlayErrors_REQ_ATTACKER_CAN_ATTACK	Этот персонаж не может атаковать.	
 GAMEPLAY_PlayErrors_REQ_ATTACKER_NOT_FROZEN	Замороженные персонажи не могут атаковать.	
@@ -38,78 +19,102 @@ GAMEPLAY_PlayErrors_REQ_CAN_BE_TARGETED_BY_OPPONENTS	Персонаж не мо�
 GAMEPLAY_PlayErrors_REQ_CAN_BE_TARGETED_BY_SPELLS	Не может быть целью заклинания.	
 GAMEPLAY_PlayErrors_REQ_CHARGE_TARGET	Выберите персонажа со способностью «Рывок».	
 GAMEPLAY_PlayErrors_REQ_DAMAGED_TARGET	Выберите персонажа с неполным здоровьем.	
-GAMEPLAY_PlayErrors_REQ_DRAG_TO_PLAY	Это необходимо перетащить к цели	
 GAMEPLAY_PlayErrors_REQ_ENCHANTED_TARGET	Выберите зачарованного персонажа.	
 GAMEPLAY_PlayErrors_REQ_ENEMY_TARGET	Выберите противника.	
-GAMEPLAY_PlayErrors_REQ_ENEMY_TARGET_NOT_IMMUNE	Этот персонаж обладает неуязвимостью.	
 GAMEPLAY_PlayErrors_REQ_ENOUGH_MANA	Недостаточно маны.	
-GAMEPLAY_PlayErrors_REQ_ENTIRE_ENTOURAGE_NOT_IN_PLAY	У вас уже есть тотем каждого вида.	
 GAMEPLAY_PlayErrors_REQ_FRIENDLY_TARGET	Выберите вашего персонажа.	
 GAMEPLAY_PlayErrors_REQ_FROZEN_TARGET	Выберите замороженного персонажа.	
-GAMEPLAY_PlayErrors_REQ_HERO_OR_MINION_TARGET	Вы должны выбрать целью персонажа.	
-GAMEPLAY_PlayErrors_REQ_HERO_TARGET	Вы должны выбрать целью героя.	
 GAMEPLAY_PlayErrors_REQ_MINIMUM_ENEMY_MINIONS	У вашего противника должно быть минимум {0} |4(существо,существа,существ).	
-GAMEPLAY_PlayErrors_REQ_MINIMUM_TOTAL_MINIONS	На поле боя должно быть минимум {0} |4(существо,существа,существ).	
-GAMEPLAY_PlayErrors_REQ_MINION_CAP	Вы не можете вызвать больше существ.	
-GAMEPLAY_PlayErrors_REQ_MINION_CAP_IF_TARGET_AVAILABLE	Вы не можете вызвать больше существ.	
 GAMEPLAY_PlayErrors_REQ_MINION_TARGET	Выберите существо.	
-GAMEPLAY_PlayErrors_REQ_MUST_TARGET_TAUNTER	Вы должны выбрать существо со способностью «Провокация».	
-GAMEPLAY_PlayErrors_REQ_NONSELF_TARGET	Существо не может выбрать целью самого себя.	
-GAMEPLAY_PlayErrors_REQ_NONSTEALTH_ENEMY_TARGET	Замаскированные существа не могут быть выбраны целью или атакованы.	
 GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_ACTIVATE	Этот персонаж уже атаковал.	
 GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_HERO_POWER	Сила героя может быть использована только один раз за ход.	
 GAMEPLAY_PlayErrors_REQ_NOT_MINION_JUST_PLAYED	Существа не атакуют в тот ход, на котором их разыграли.	
+GAMEPLAY_PlayErrors_REQ_SUBCARD_IS_PLAYABLE	Вы не можете выбрать ни один из этих вариантов.	
+GAMEPLAY_PlayErrors_REQ_TARGET_MAGNET	Вы должны выбрать целью имеющееся существо.	
+GAMEPLAY_PlayErrors_REQ_TARGET_MAX_ATTACK	Выберите персонажа с силой атаки {0} или меньше.	
+GAMEPLAY_PlayErrors_REQ_TARGET_MIN_ATTACK	Выберите персонажа с силой атаки {0} или больше.	
+GAMEPLAY_PlayErrors_REQ_TARGET_WITH_RACE	Неправильная раса.	
+GAMEPLAY_PlayErrors_REQ_ENEMY_TARGET_NOT_IMMUNE	Этот персонаж обладает неуязвимостью.	
+GAMEPLAY_PlayErrors_REQ_MINIMUM_TOTAL_MINIONS	На поле боя должно быть минимум {0} |4(существо,существа,существ).	
+GAMEPLAY_TOOLTIP_DECK_HEADLINE	Колода	
+GAMEPLAY_TOOLTIP_FATIGUE_DECK_HEADLINE	Усталость	
+GAMEPLAY_TOOLTIP_ENEMYDECK_DESC	В колоде вашего противника {0} |4(карта,карты,карт).	
+GAMEPLAY_TOOLTIP_ENEMYDECK_HEADLINE	Колода противника	
+GAMEPLAY_TOOLTIP_FATIGUE_ENEMYDECK_HEADLINE	Усталость	
+GAMEPLAY_PlayErrors_REQ_CAN_BE_TARGETED_BY_BATTLECRIES	Не может быть целью способности «Боевой клич».	
+GAMEPLAY_PlayErrors_REQ_MINION_OR_ENEMY_HERO	Выберите существо или героя противника	
+GAMEPLAY_HISTORY_CREATED_BY	Создатель:\n{0}	0=name of a card
+GAMEPLAY_PlayErrors_REQ_HERO_OR_MINION_TARGET	Вы должны выбрать целью персонажа.	
+GAMEPLAY_PlayErrors_REQ_HERO_TARGET	Вы должны выбрать целью героя.	
+GAMEPLAY_PlayErrors_REQ_MINION_CAP	Вы не можете вызвать больше существ.	
+GAMEPLAY_PlayErrors_REQ_NONSELF_TARGET	Существо не может выбрать целью самого себя.	
+GAMEPLAY_PlayErrors_REQ_NONSTEALTH_ENEMY_TARGET	Замаскированные существа не могут быть выбраны целью или атакованы.	
 GAMEPLAY_PlayErrors_REQ_NUM_MINION_SLOTS	Уже призвано слишком много существ.	
 GAMEPLAY_PlayErrors_REQ_SECRET_CAP	У вас может быть не больше {0} |4(секрета,секретов, секретов).	
-GAMEPLAY_PlayErrors_REQ_SUBCARD_IS_PLAYABLE	Вы не можете выбрать ни один из этих вариантов.	
 GAMEPLAY_PlayErrors_REQ_TARGET_ATTACKED_THIS_TURN	Вы должны выбрать персонажа, который уже атаковал.	
 GAMEPLAY_PlayErrors_REQ_TARGET_FOR_COMBO	Вы должны выбрать цель.	
 GAMEPLAY_PlayErrors_REQ_TARGET_FOR_NO_COMBO	Вы должны выбрать цель.	
 GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE	Вы должны выбрать цель.	
-GAMEPLAY_PlayErrors_REQ_TARGET_MAGNET	Вы должны выбрать целью имеющееся существо.	
-GAMEPLAY_PlayErrors_REQ_TARGET_MAX_ATTACK	Выберите персонажа с силой атаки {0} или меньше.	
-GAMEPLAY_PlayErrors_REQ_TARGET_MIN_ATTACK	Выберите персонажа с силой атаки {0} или больше.	
 GAMEPLAY_PlayErrors_REQ_TARGET_TAUNTER	Вы должны атаковать существо со способностью «Провокация».	
 GAMEPLAY_PlayErrors_REQ_TARGET_TO_PLAY	Вы должны выбрать цель.	
-GAMEPLAY_PlayErrors_REQ_TARGET_WITH_RACE	Неправильная раса.	
-GAMEPLAY_PlayErrors_REQ_UNDAMAGED_TARGET	Вы должны выбрать целью персонажа с полным здоровьем.	
 GAMEPLAY_PlayErrors_REQ_UNIQUE_SECRET	У вас уже есть такой секрет.	
+GAMEPLAY_PlayErrors_REQ_MINION_CAP_IF_TARGET_AVAILABLE	Вы не можете вызвать больше существ.	
 GAMEPLAY_PlayErrors_REQ_WEAPON_EQUIPPED	У вас должно быть оружие.	
-GAMEPLAY_PRE_TUTORIAL_WANTED	Разыскивается	
-GAMEPLAY_SECRET_BANNER_TITLE	Секрет!	
-GAMEPLAY_SECRET_DESC	Этот секрет откроется, когда произойдет определенное действие. Будьте начеку!	
-GAMEPLAY_SECRET_NAME	Секрет	
-GAMEPLAY_SECRET_NAME_HUNTER	Секрет охотника	
-GAMEPLAY_SECRET_NAME_MAGE	Секрет мага	
-GAMEPLAY_SECRET_NAME_PALADIN	Секрет паладина	
+GAMEPLAY_PlayErrors_REQ_ENTIRE_ENTOURAGE_NOT_IN_PLAY	У вас уже есть тотем каждого вида.	
 GAMEPLAY_TOOLTIP_DECK_DESCRIPTION	В вашей колоде {0} |4(карта,карты,карт).	
-GAMEPLAY_TOOLTIP_DECK_HEADLINE	Колода	
-GAMEPLAY_TOOLTIP_ENEMYDECK_DESC	В колоде вашего противника {0} |4(карта,карты,карт).	
-GAMEPLAY_TOOLTIP_ENEMYDECK_HEADLINE	Колода противника	
-GAMEPLAY_TOOLTIP_ENEMYHAND_DESC	В руке вашего противника {0} |4(карта,карты,карт).	0= number of cards in hand.
-GAMEPLAY_TOOLTIP_ENEMYHAND_DESC_SINGLE	В руке вашего противника {0} |4(карта,карты,карт).	0= number of cards in hand.
-GAMEPLAY_TOOLTIP_ENEMYHAND_DESC_TUT	Это рука вашего противника. Каждый игрок берет одну карту из колоды в начале своего хода.	
-GAMEPLAY_TOOLTIP_ENEMYHAND_HEADLINE	Рука противника	
 GAMEPLAY_TOOLTIP_FATIGUE_DECK_DESCRIPTION	У вас в колоде не осталось карт! Каждый раз, когда вы пытаетесь взять карту из пустой колоды, вы получаете урон.	
-GAMEPLAY_TOOLTIP_FATIGUE_DECK_HEADLINE	Усталость	
 GAMEPLAY_TOOLTIP_FATIGUE_ENEMYDECK_DESCRIPTION	В колоде вашего противника не осталось карт! Он будет получать урон каждый раз, когда будет пытаться взять карту.	
-GAMEPLAY_TOOLTIP_FATIGUE_ENEMYDECK_HEADLINE	Усталость	
 GAMEPLAY_TOOLTIP_MANA_DESCRIPTION	В начале каждого вашего хода вы получаете новый кристалл маны и восполняете уже имеющийся резерв.	
+GAMEPLAY_TOOLTIP_ENEMYHAND_HEADLINE	Рука противника	
+GAMEPLAY_EMOTE_LABEL_GREETINGS	Здравствуй	
+GAMEPLAY_EMOTE_LABEL_OOPS	Ой!	
+GAMEPLAY_END_OF_GAME_DEFEAT	Поражение!	
+GAMEPLAY_GOLDHERO_WINS	побед!	
+GAMEPLAY_SECRET_NAME_PALADIN	Секрет паладина	
+GAMEPLAY_SECRET_NAME_MAGE	Секрет мага	
+GAMEPLAY_SECRET_NAME_HUNTER	Секрет охотника	
+GAMEPLAY_AI_OPPONENT_NAME	Хозяин таверны	
+GAMEPLAY_FATIGUE_TITLE	Усталость	
+GAMEPLAY_SECRET_BANNER_TITLE	Секрет!	
+GAMEPLAY_MULLIGAN_REPLACE	ЗАМЕНЕНА	
+GAMEPLAY_TUTORIAL_HEALTH	Здоровье	
+GAMEPLAY_TUTORIAL_ATTACK	Атака	
+GAMEPLAY_TUTORIAL_MINION	Существо	
+GAMEPLAY_TUTORIAL_COST	Стоимость	
+GAMEPLAY_TUTORIAL_DEFENDER	Защитник	
+GAMEPLAY_TUTORIAL_TAUNT_DESCRIPTION	Противники вынуждены атаковать это существо.	
+GAMEPLAY_TUTORIAL_HERO_POWER	Сила героя	
+GAMEPLAY_SPECTATOR_DISCONNECT_BODY_RESET	Соединение с игрой было разорвано. Мы пытаемся восстановить соединение. После подключения вам, возможно, потребуется перезапустить режим зрителя.  	
+GAMEPLAY_SPECTATOR_DISCONNECT_BODY	Соединение с игрой было разорвано. Пожалуйста, перезапустите Hearthstone. После подключения вам, возможно, потребуется перезапустить режим зрителя.  	
+GAMEPLAY_PlayErrors_REQ_UNDAMAGED_TARGET	Вы должны выбрать целью персонажа с полным здоровьем.	
+GAMEPLAY_BANNER_SUBTITLE	Оставьте или замените карты	
+GAMEPLAY_BANNER_WAITING	Ваш противник думает...	
 GAMEPLAY_TOOLTIP_MANA_HEADLINE	Кристаллы маны	
 GAMEPLAY_TOOLTIP_MANA_RECALL_DESCRIPTION	На прошлом ходу вы разыграли карту с эффектом «Перегрузка».	
 GAMEPLAY_TOOLTIP_MANA_RECALL_HEADLINE	Заблокированные кристаллы	
-GAMEPLAY_TUTORIAL_ATTACK	Атака	
-GAMEPLAY_TUTORIAL_ATTACKER	Атакующий	
-GAMEPLAY_TUTORIAL_COST	Стоимость	
-GAMEPLAY_TUTORIAL_DEFENDER	Защитник	
-GAMEPLAY_TUTORIAL_HEALTH	Здоровье	
-GAMEPLAY_TUTORIAL_HERO_POWER	Сила героя	
-GAMEPLAY_TUTORIAL_MINION	Существо	
-GAMEPLAY_TUTORIAL_TAUNT	Провокация	
-GAMEPLAY_TUTORIAL_TAUNT_DESCRIPTION	Противники вынуждены атаковать это существо.	
-GAMEPLAY_TUTORIAL_USED	Использована	
-GAMEPLAY_TUTORIAL_YOUR_MANA	Ваша мана	
-GAMEPLAY_TUTORIAL_YOUR_TURN	Ваш ход	
+GAMEPLAY_TOOLTIP_ENEMYHAND_DESC	В руке вашего противника {0} |4(карта,карты,карт).	0= number of cards in hand.
+GAMEPLAY_EMOTE_LABEL_WELL_PLAYED	Неплохо	
+GAMEPLAY_EMOTE_LABEL_THANKS	Спасибо	
+GAMEPLAY_EMOTE_LABEL_THREATEN	Угроза	
+GAMEPLAY_EMOTE_LABEL_SORRY	Извини	
+GAMEPLAY_END_OF_GAME_VICTORY	Победа!	
+GAMEPLAY_TOOLTIP_ENEMYHAND_DESC_TUT	Это рука вашего противника. Каждый игрок берет одну карту из колоды в начале своего хода.	
+GAMEPLAY_TOOLTIP_ENEMYHAND_DESC_SINGLE	В руке вашего противника {0} |4(карта,карты,карт).	0= number of cards in hand.
 GAMEPLAY_UNKNOWN_OPPONENT_NAME	НЕИЗВЕСТНО	
-GAMEPLAY_WIN_REWARD_PROGRESS	Побед: {0}/{1}	
+GAMEPLAY_EMOTE_SQUELCH	Отключить\nсообщения	
+GAMEPLAY_EMOTE_UNSQUELCH	Включить\nсообщения	
 GAMEPLAY_YOUR_TURN	Ваш ход	
+GAMEPLAY_PRE_TUTORIAL_WANTED	Разыскивается	
+GAMEPLAY_TUTORIAL_YOUR_MANA	Ваша мана	
+GAMEPLAY_TUTORIAL_ATTACKER	Атакующий	
+GAMEPLAY_TUTORIAL_TAUNT	Провокация	
+GAMEPLAY_TUTORIAL_USED	Использована	
+GAMEPLAY_TUTORIAL_YOUR_TURN	Ваш ход	
+GAMEPLAY_FATIGUE_HISTORY_TEXT	При попытке взять карту герой получает возрастающий урон.	
+GAMEPLAY_PlayErrors_REQ_MUST_TARGET_TAUNTER	Вы должны выбрать существо со способностью «Провокация».	
+GAMEPLAY_NOTIFICATION_MAX_HAND_SIZE	У вас в руке не может быть больше {0} |4(карты,карт,карт).	
+GAMEPLAY_NOTIFICATION_MAX_MANA	У вас может быть не больше {0} |4(кристалла,кристаллов,кристаллов) маны.	
+GAMEPLAY_SECRET_NAME	Секрет	
+GAMEPLAY_SECRET_DESC	Этот секрет откроется, когда произойдет определенное действие. Будьте начеку!	
+GAMEPLAY_BANNER_STARTING_HAND	Стартовая рука	
+GAMEPLAY_WIN_REWARD_PROGRESS	Побед: {0}/{1}	

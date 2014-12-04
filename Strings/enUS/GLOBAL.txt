@@ -4,11 +4,13 @@ GLOBAL_BUTTON_NO	No
 GLOBAL_BUTTON_OK	Ok	
 GLOBAL_BUTTON_NEXT	Next
 GLOBAL_CARD_SET_CORE	Basic	
-GLOBAL_CARD_SET_EXPERT1	Expert	
+GLOBAL_CARD_SET_EXPERT1	Classic	
 GLOBAL_CARD_SET_REWARD	Reward	
 GLOBAL_CARD_SET_PROMO	Promo
 GLOBAL_CARD_SET_NAXX	Naxxramas
-GLOBAL_CARD_SET_NAXX_SEARCHABLE_SHORTHAND_NAMES	Nax Naxx	This is a space-separated value indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_NAXX_SEARCHABLE_SHORTHAND_NAMES	Nax Naxx	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_GVG	Goblins vs Gnomes
+GLOBAL_CARD_SET_GVG_SEARCHABLE_SHORTHAND_NAMES	gvg	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARDTYPE_ENCHANTMENT	Enchantment	
 GLOBAL_CARDTYPE_HERO	Hero	
 GLOBAL_CARDTYPE_HEROPOWER	HeroPower	
@@ -48,6 +50,7 @@ GLOBAL_KEYWORD_SECRET	Secret
 GLOBAL_KEYWORD_SECRET_TEXT	Hidden until a specific action occurs on your opponent's turn.	
 GLOBAL_KEYWORD_SPELLPOWER	Spell Damage	
 GLOBAL_KEYWORD_SPELLPOWER_TEXT	Your spell cards deal {0} extra damage.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLPOWER_REF_TEXT	Your spells deal extra damage.	
 GLOBAL_KEYWORD_STEALTH	Stealth	
 GLOBAL_KEYWORD_STEALTH_TEXT	Can't be attacked or targeted until it deals damage.	
 GLOBAL_KEYWORD_STEALTH_REF_TEXT	Can't be attacked or targeted until it deals damage.	
@@ -68,6 +71,8 @@ GLOBAL_KEYWORD_COUNTER	Counter
 GLOBAL_KEYWORD_COUNTER_TEXT	A card that is Countered has no effect.	
 GLOBAL_KEYWORD_AUTOCAST	Auto-cast	
 GLOBAL_KEYWORD_AUTOCAST_TEXT	This Hero Power MUST be used every turn.	
+GLOBAL_KEYWORD_SPAREPART	Spare Parts	
+GLOBAL_KEYWORD_SPAREPART_TEXT	Spare Parts are 1-cost spells with minor effects.	
 GLOBAL_ATTACK	Attack	
 GLOBAL_COST	Cost	
 GLOBAL_HEALTH	Health	
@@ -80,7 +85,7 @@ GLOBAL_RACE_ELEMENTAL	Elemental
 GLOBAL_RACE_GNOME	Gnome	
 GLOBAL_RACE_GOBLIN	Goblin	
 GLOBAL_RACE_HUMAN	Human	
-GLOBAL_RACE_MECHANICAL	Mechanical	
+GLOBAL_RACE_MECHANICAL	Mech	
 GLOBAL_RACE_MURLOC	Murloc	
 GLOBAL_RACE_NERUBIAN	Nerubian	
 GLOBAL_RACE_NIGHTELF	Night Elf	
@@ -99,7 +104,7 @@ GLOBAL_RARITY_EPIC	Epic
 GLOBAL_RARITY_LEGENDARY	Legendary	
 GLOBAL_RARITY_RARE	Rare	
 GLOBAL_RARITY_FREE	Free	
-GLOBAL_SET_EXPERT1	Expert Set
+GLOBAL_SET_EXPERT1	Classic Set
 GLOBAL_SET_CORE	Basic Set
 GLOBAL_WINS	Wins
 GLOBAL_LOSSES	Losses	
@@ -110,6 +115,7 @@ GLOBAL_PLAY_RANKED	Play Ranked
 GLOBAL_BACK	Back	
 GLOBAL_DONE	Done	
 GLOBAL_CANCEL	Cancel	
+GLOBAL_HELP	Help	
 GLOBAL_EXIT	Exit	
 GLOBAL_CONFIRM	Confirm	
 GLOBAL_OKAY	OK	
@@ -122,6 +128,7 @@ GLOBAL_MOBILE_LOG_IN_TOOLTIP	Log in if you have an account!
 GLOBAL_MOBILE_LOGIN_POINTER	Log In Here
 GLOBAL_OPTIONS	Options	
 GLOBAL_CONCEDE	Concede	
+GLOBAL_LEAVE_SPECTATOR_MODE	Leave	
 GLOBAL_RESUME_GAME	Resume	
 GLOBAL_GAME_MENU	Game Menu	
 GLOBAL_FRIEND_CHALLENGE_TITLE	Friendly	
@@ -174,6 +181,7 @@ GLOBAL_ERROR_NETWORK_UNAVAILABLE_UNKNOWN	Oops! Playful sprites have disrupted He
 GLOBAL_ERROR_ACCOUNT_LICENSES	We had some trouble checking what you own, so some things might be missing. Sorry about that! We’ll try again next time you log on.	
 GLOBAL_ERROR_NO_MAGE_PRECON	We just ran into a network problem as we were loading up all the cards in your collection. Please relaunch Hearthstone to access your collection and resume your duels!		
 GLOBAL_MOBILE_ERROR_IPAD1_DETECTED	Sorry, Hearthstone requires iPad 2 or later.		
+GLOBAL_MOBILE_ERROR_ANDROID_PHONE_DETECTED	Sorry, Hearthstone currently only runs on Android tablets 6" or larger.		
 GLOBAL_SEASON_END_WELCOME	Welcome
 GLOBAL_SEASON_END_NEW_SEASON	The {0} has begun!	0=season name
 GLOBAL_SEASON_END_NEW_CARD_BACK	You have earned a new card back
@@ -186,7 +194,7 @@ GLOBAL_MEDAL_REWARD_DESCRIPTION	Medal earned last week
 GLOBAL_MEDAL_TOOLTIP_HEADER	{0} Medal	0=medal name
 GLOBAL_MEDAL_TOOLTIP_BODY	Win games to advance to the next rank!\n\nNext Rank:\n{0}	0=medal name
 GLOBAL_MEDAL_TOOLTIP_BODY_LEGEND	You're a legend! Your position in this rank will change with each game.	
-GLOBAL_MEDAL_ARENA_TOOLTIP_BODY	This is the best key you've earned in the Arena.
+GLOBAL_MEDAL_ARENA_TOOLTIP_BODY	This is the best key you've earned in the Arena.\nWins: {0}	0=num wins
 GLOBAL_MEDAL_TOOLTIP_BODY_ARENA_GRAND_MASTER	You are a champion of The Arena!
 GLOBAL_DATETIME_FRIENDREQUEST_SECONDS	less than a minute ago	
 GLOBAL_DATETIME_FRIENDREQUEST_MINUTES	{0} |4(minute,minutes) ago	
@@ -245,6 +253,33 @@ GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_HEADER	Friendly Challenge
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_UNAVAILABLE	You can't challenge {0} right now. Return to the main menu.	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_THEYRE_UNAVAILABLE	You can't challenge {0} right now. Wait for them to return to the main menu.	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_AVAILABLE	Challenge {0} to a game of Hearthstone.	0=player name
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_AVAILABLE_HEADER	Spectate this Game
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_AVAILABLE_TEXT	Click to begin spectating this player's game.	
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_AVAILABLE_TEXT_TOUCH	Tap here to begin spectating this player's game.	
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_RECEIVED_INVITE_TEXT	{0} has invited you to spectate this game. Click here to begin spectating.	
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_KICK_HEADER	Kick
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_KICK_TEXT	{0} is spectating your game. Click here to remove this spectator.	
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_KICK_TEXT_TOUCH	{0} is spectating your game. Tap here to remove this spectator.	
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITE_HEADER	Invite to Spectate
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITE_TEXT	Invite {0} to spectate this game.	0=player name
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITED_HEADER	Invited to Spectate
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITED_TEXT	You've invited {0} to spectate this game.	0=player name
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITE_OTHER_SIDE_HEADER	Spectating Opponent
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITE_OTHER_SIDE_TEXT	Click to reveal your own cards to {0} as well.	0=player name
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITE_OTHER_SIDE_TEXT_TOUCH	Tap to reveal your cards to {0}.	0=player name
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_SPECTATING_HEADER	In Spectator Mode
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_SPECTATING_TEXT	You are currently spectating this player.	
+GLOBAL_SPECTATOR_LEAVE_PROMPT_HEADER	Leave Spectator Mode	
+GLOBAL_SPECTATOR_LEAVE_PROMPT_TEXT	Are you sure you want to stop spectating this game?	
+GLOBAL_SPECTATOR_KICK_PROMPT_HEADER	Remove Spectator
+GLOBAL_SPECTATOR_KICK_PROMPT_TEXT	Are you sure you want to remove {0} from spectating this game? If you turn off 'Allow Friends to Spectate my Games' in Options Menu, you can prevent others from spectating.	0=player name
+GLOBAL_SPECTATOR_REMOVED_PROMPT_HEADER	Removed
+GLOBAL_SPECTATOR_REMOVED_PROMPT_TEXT	You have been removed from spectating the game.
+GLOBAL_SPECTATOR_SERVER_REJECTED_HEADER	Spectator Disconnected
+GLOBAL_SPECTATOR_SERVER_REJECTED_TEXT	The game you attempted to spectate may be full or already finished, or it may have been recently closed to spectators.
+GLOBAL_SPECTATOR_COUNT_PANEL_HEADER	Spectators Watching
+GLOBAL_SPECTATOR_COUNT_PANEL_TEXT_ONE	{0} is spectating your game.	0=player name, this is shown when there's only 1 person spectating you.
+GLOBAL_SPECTATOR_MODE_INDICATOR_TEXT	Spectator Mode	text that shows up on the bottom left of screen showing that you're currently in Spectator Mode.
 GLOBAL_ADDFRIEND_HEADER	Add a Friend	
 GLOBAL_ADDFRIEND_INSTRUCTION	Enter a BattleTag or email address.	
 GLOBAL_ADDFRIEND_SENT_CONFIRMATION	Friend request sent.	
@@ -348,6 +383,10 @@ GLOBAL_SOCIAL_TOAST_FRIEND_WARLOCK_LEVEL	<color=#{0}>{1}</color> became a Level 
 GLOBAL_SOCIAL_TOAST_FRIEND_PRIEST_LEVEL	<color=#{0}>{1}</color> became a Level {2} Priest.	0=name color,1=player name,2=level
 GLOBAL_HEALTHY_GAMING_TOAST	게임을 플레이한지 {0}시간 지났습니다. 과도한 게임이용은 정상적인 일상생활에 지장을 줄 수 있습니다	
 GLOBAL_HEALTHY_GAMING_TOAST_OVER_THRESHOLD	You have been playing for {0} |4(hour,hours). This is way, way too long	0=hours
+GLOBAL_SOCIAL_TOAST_SPECTATOR_INVITE_SENT	Spectator invite sent to <color=#{0}>{1}</color>.	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_SPECTATOR_INVITE_RECEIVED	<color=#{0}>{1}</color> invites you to spectate the game!	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_SPECTATOR_ADDED	<color=#{0}>{1}</color> has begun spectating you.	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_SPECTATOR_REMOVED	<color=#{0}>{1}</color> is no longer spectating you.	0=name color,1=player name
 GLOBAL_SHUTDOWN_TOAST	<color=#{0}>Battle.net will be shutting down in {1} |4(minute,minutes)</color>	0=color, 1=minutes
 GLOBAL_OPTIONS_SOUND_LABEL	Sound
 GLOBAL_OPTIONS_SOUND_MASTER_VOLUME_LABEL	Master Volume
@@ -361,12 +400,14 @@ GLOBAL_OPTIONS_GRAPHICS_QUALITY_MEDIUM	Medium
 GLOBAL_OPTIONS_GRAPHICS_QUALITY_HIGH	High
 GLOBAL_OPTIONS_GRAPHICS_QUALITY_LABEL	Quality
 GLOBAL_OPTIONS_MISCELLANEOUS_LABEL	Miscellaneous	
+GLOBAL_OPTIONS_PREFERENCES_LABEL	Preferences	
 GLOBAL_OPTIONS_CREDITS	Credits	
 GLOBAL_OPTIONS_CINEMATIC	Cinematic	
 GLOBAL_OPTIONS_PUBLIC_CHAT_ENABLED	Unfriendly Chat	
 GLOBAL_OPTIONS_CARDBACK_LABEL	Choose Your Card Back	
-GLOBAL_OPTIONS_NEARBY_PLAYERS	Enable Challenging Nearby Players - Friend List	
-GLOBAL_REWARD_BOOSTER_HEADLINE	Expert Pack earned!	
+GLOBAL_OPTIONS_NEARBY_PLAYERS	Enable Challenging Nearby Players - Friends List
+GLOBAL_OPTIONS_SPECTATOR_OPEN_JOIN	Allow Friends to Spectate my Games
+GLOBAL_REWARD_BOOSTER_HEADLINE_GENERIC	Pack earned!	
 GLOBAL_REWARD_BOOSTER_HEADLINE_OUT_OF_BAND	Card Pack granted!
 GLOBAL_REWARD_BOOSTER_DETAILS_OUT_OF_BAND	{0} |4(pack was,packs were) added to your account from outside of the game.	0=count
 GLOBAL_REWARD_CARD_HEADLINE	Reward!	
@@ -378,6 +419,8 @@ GLOBAL_REWARD_FORGE_UNLOCKED_HEADLINE	Arena Unlocked!
 GLOBAL_REWARD_FORGE_UNLOCKED_SOURCE	Awarded for entering the Arena	
 GLOBAL_REWARD_FORGE_HEADLINE	Arena Entry Granted
 GLOBAL_REWARD_FORGE_DETAILS_OUT_OF_BAND	{0} arena |4(admission was,admissions were) added to your account from outside of the game.	0=count
+GLOBAL_REWARD_ARENA_TICKET_HEADLINE	Free Arena Run!
+GLOBAL_REWARD_ARENA_TICKET_LABEL	The Arena
 GLOBAL_REWARD_HEARTHSTEED_HEADLINE	Hearthsteed Mount
 GLOBAL_REWARD_GOLDEN_HERO_HEADLINE	Golden Hero Unlocked	
 GLOBAL_REWARD_HERO_HEADLINE	{0} Unlocked	
@@ -402,6 +445,9 @@ GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_PLAGUE	You can also attempt the insane
 GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_MILITARY	You can also attempt the insanely difficult Heroic Military Quarter!	
 GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_CONSTRUCT	You can also attempt the insanely difficult Heroic Construct Quarter!	
 GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_FROSTWYRM	You can also attempt the insanely difficult Heroic Frostwyrm Lair!	
+GLOBAL_REWARD_ARENA_TICKET_ADMIT	ADMIT	the word 'admit' in capital letters - displayed like "Admit 1" and looks like a movie/fair ticket. this is the Arena Ticket reward visual.
+GLOBAL_REWARD_ARENA_TICKET_ENTRANT	Entrant	a label that shows up in the Arena Ticket under the Player's name to say this person is allowed entrance into the Arena.
+GLOBAL_REWARD_ARENA_TICKET_AUTHORIZED_BY	Authorized By	a label that shows up in the Arena Ticket under the Player's name indicating this ticket reward was granted by some guy.
 GLOBAL_BETA_REIMBURSEMENT_HEADLINE	Account Wipe Credit
 GLOBAL_BETA_REIMBURSEMENT_DETAILS	This gold is a credit for your past purchases. Thank you!
 GLOBAL_PRACTICE_MAX_LEVEL_REACHED	Max Practice Level	 
@@ -465,6 +511,7 @@ GLOBAL_LANGUAGE_NATIVE_PTBR	Português (Brasil)	The name of the language IN THAT
 GLOBAL_LANGUAGE_NATIVE_RURU	Русский	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_ZHCN	中文（简体）	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_ZHTW	繁體中文(台灣)	The name of the language IN THAT LANGUAGE.
+GLOBAL_LANGUAGE_NATIVE_JAJP	日本語	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_DROPDOWN	Language	
 GLOBAL_LANGUAGE_DOWNLOAD_VOICE_PACK	Downloaded Voice Pack	
 GLOBAL_REGION_AMERICAS	Americas & Southeast Asia
@@ -488,3 +535,9 @@ GLOBAL_ADVENTURE_TRAY_HEADER	Choose an Adventure
 GLOBAL_ADVENTURE_DESC_HEADER	Adventure	
 GLOBAL_ADVENTURE_CHOOSE_BUTTON_TEXT	Choose	
 GLOBAL_CHOOSE_PAYMENT	Choose Payment	
+GLOBAL_PLAYER_PLAYER	Player	this is the word for generic "Player" - this will be used when there a player's name is unknown at the time.
+GLOBAL_STORE_MOBILE_NAME_DEFAULT	the Blizzard store	
+GLOBAL_STORE_MOBILE_NAME_APPLE	the Apple App Store	
+GLOBAL_STORE_MOBILE_NAME_GOOGLE	Google Play	
+GLOBAL_STORE_MOBILE_NAME_AMAZON	the Amazon Appstore	
+GLOBAL_STORE_MOBILE_NAME_SAMSUNG	the Samsung Apps Store	
