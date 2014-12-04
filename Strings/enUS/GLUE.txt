@@ -67,7 +67,7 @@ GLUE_CRAFTING_CREATE	Create
 GLUE_CRAFTING_DISENCHANT	Disenchant	
 GLUE_CRAFTING_UNDO	Undo	
 GLUE_CRAFTING_ARCANEDUST	Arcane Dust	
-GLUE_CRAFTING_ARCANEDUST_DESCRIPTION	Gain Arcane Dust by disenchanting Expert cards. You can use dust to craft cards you want!	
+GLUE_CRAFTING_ARCANEDUST_DESCRIPTION	Gain Arcane Dust by disenchanting cards. You can use dust to craft cards you want!	
 GLUE_CRAFTING_SOULBOUND	Soulbound	
 GLUE_CRAFTING_SOULBOUND_DESC	This card cannot be disenchanted or crafted.	
 GLUE_CRAFTING_SOULBOUND_BASIC_DESC	Basic cards cannot be disenchanted or crafted.	
@@ -102,6 +102,9 @@ GLUE_STORE_FAIL_SPENDING_LIMIT	This purchase would have put you over your spendi
 GLUE_STORE_FAIL_PARENTAL_CONTROL	Purchases on this account are currently restricted by parental controls.
 GLUE_STORE_FAIL_THROTTLED	We are unable to process your transaction at this time. Please try your purchase again a little later.
 GLUE_STORE_FAIL_THIRD_PARTY_BAD_RECEIPT	We were unable to process your mobile purchase.
+GLUE_STORE_FAIL_PRODUCT_ALREADY_OWNED	You already own that item.
+GLUE_STORE_FAIL_PRODUCT_UNIQUENESS_VIOLATED	We’ve detected that a duplicate purchase has been made for this item. Please contact Customer Support to help resolve this issue.
+GLUE_STORE_FAIL_PRODUCT_UNIQUENESS_VIOLATED_URL	Pressing "{0}" will take you to the Battle.net website.
 GLUE_STORE_FAIL_GENERAL	There was a problem processing your payment.
 GLUE_STORE_GOLD_BUTTON_TOOLTIP_HEADLINE	Buy with gold
 GLUE_STORE_MONEY_BUTTON_TOOLTIP_HEADLINE	Buy
@@ -110,14 +113,14 @@ GLUE_STORE_DUNGEON_BUTTON_COST_TEXT	({0} |4(wing,wings) {1})	0=number of wings,1
 GLUE_STORE_DUNGEON_BUTTON_COST_OWNED_TEXT	(Purchased)
 GLUE_STORE_DISABLED	The Shop is currently unavailable. Please check back later.
 GLUE_STORE_HEADLINE	Shop
-GLUE_STORE_PRODUCT_DETAILS_HEADLINE_EXPERT_PACK	Contents per pack:
-GLUE_STORE_PRODUCT_DETAILS_EXPERT_PACK	•  5 Expert Hearthstone Cards\n•  At least 1 card will be Rare or better
+GLUE_STORE_PRODUCT_DETAILS_HEADLINE_PACK	Contents per pack:
+GLUE_STORE_PRODUCT_DETAILS_PACK	•  5 {0} Hearthstone Cards\n•  At least 1 card will be Rare or better	0=pack type
 GLUE_STORE_KOREAN_PRODUCT_DETAILS_EXPERT_PACK	이용기간 : 서비스 종료 시까지. 본 상품은 구매 후 7일 이내에 청약철회가 가능합니다. 다만, 1개의 카드팩이라도 개봉한 경우에는 청약철회가 불가능합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_PRODUCT_NAME_MOBILE_UNKNOWN	Purchase via Mobile
 GLUE_STORE_PRODUCT_NAME_FORGE_TICKET	Arena Admission
 GLUE_STORE_BUY_TEXT	BUY	this is what you see when you initiate the purchase
 GLUE_STORE_QUANTITY_PACK	{0} |4(Pack,Packs)
-GLUE_STORE_PRODUCT_NAME_EXPERT_PACK	{0} Expert |4(Pack,Packs)
+GLUE_STORE_PRODUCT_NAME_PACK	{0} {1} |4(Pack,Packs)	0=quantity,1=pack type
 GLUE_STORE_PRODUCT_NAME_NAXX_WING_1	Arachnid Quarter
 GLUE_STORE_PRODUCT_NAME_NAXX_WING_2	Plague Quarter
 GLUE_STORE_PRODUCT_NAME_NAXX_WING_3	Military Quarter
@@ -156,7 +159,8 @@ GLUE_STORE_NO_PAYMENT_URL_DETAILS	Pressing "{0}" will take you to the Battle.net
 GLUE_STORE_PAYMENT_INFO_HEADLINE	Payment Information
 GLUE_STORE_PAYMENT_INFO_DETAILS	Funds will first be deducted from your Battle.net Balance. If insufficient balance exists then your primary payment method on your Battle.net account will be charged.\n\nIMPORTANT: Please note that any payment incident or chargeback occurring for this transaction may result in the temporary suspension of the Hearthstone account until complete solving of the incident or repayment of the chargeback.
 GLUE_STORE_PAYMENT_INFO_URL_DETAILS	If you'd like more details, pressing "{0}" will take you to the Battle.net payment information website.
-GLUE_MOBILE_STORE_PAYMENT_INFO_DETAILS	In-app purchases are made using your Apple ID.
+GLUE_MOBILE_STORE_PAYMENT_INFO_DETAILS_APPLE	In-app purchases are made using your Apple ID.	
+GLUE_MOBILE_STORE_PAYMENT_INFO_DETAILS_ANDROID	In-app purchases are made using your Google Play account.	
 GLUE_MOBILE_STORE_PAYMENT_INFO_URL_DETAILS	Tap "{0}" to learn more about buying items in Hearthstone.
 GLUE_STORE_EULA_AND_TOS_HEADLINE	Terms of Service
 GLUE_STORE_EULA_AND_TOS_DETAILS	Our EULA and Terms of Service may be viewed on Battle.net.
@@ -300,7 +304,7 @@ GLUE_SPINNER_34	Brand New Player
 GLUE_SPINNER_35	Dastardly Death Knight	
 GLUE_SPINNER_36	Mediocre Monk	
 GLUE_SPINNER_37	A Little Puppy	
-GLUE_TIP_DEFAULT_0	You can purchase additional Packs of Expert cards from the Shop.	
+GLUE_TIP_DEFAULT_0	You can purchase additional packs of cards from the Shop.	
 GLUE_TIP_DEFAULT_1	Click on your hero while editing a deck to change your deck's name.	
 GLUE_TIP_DEFAULT_1_TOUCH	Tap your hero while editing a deck to change your deck's name.	
 GLUE_TIP_DEFAULT_2	Right-click on your hero to emote.	
@@ -308,7 +312,7 @@ GLUE_TIP_DEFAULT_2_TOUCH	Tap your hero to emote.
 GLUE_TIP_DEFAULT_3	If you need help building a deck, look at the "Suggested Cards."
 GLUE_TIP_DEFAULT_4	You can tell what rarity a card is by the colored gem in the center.	
 GLUE_TIP_DEFAULT_5	Rarity colors, in order: White is Common, Blue is Rare, Purple is Epic and Orange is Legendary.	
-GLUE_TIP_DEFAULT_6	Each pack of Expert cards has at least one rare or better card, but it could have more!	
+GLUE_TIP_DEFAULT_6	Each pack of cards has at least one rare or better card, but it could have more!	
 GLUE_TIP_DEFAULT_7	If you run out of quests, you can come back tomorrow for a new one.	
 GLUE_TIP_DEFAULT_8	If you achieve Rank 20 in a season, you'll earn that season's special card back.	
 GLUE_TIP_DEFAULT_9	Complete quests to earn Gold.  Gold can be used to buy packs or enter The Arena.	
@@ -316,7 +320,7 @@ GLUE_TIP_DEFAULT_10	The Arena lets you build a deck from random cards. You can a
 GLUE_TIP_DEFAULT_11	Basic cards are earned by leveling up. They cannot be disenchanted or crafted.	
 GLUE_TIP_DEFAULT_12	Golden cards can be disenchanted for a lot of dust.	
 GLUE_TIP_DEFAULT_13	You can use the Search field in your collection to find all cards with 'Taunt'.	
-GLUE_TIP_DEFAULT_14	Basic cards are earned by leveling up a class. Expert cards come from Expert Packs.	
+GLUE_TIP_DEFAULT_14	Basic cards are earned by leveling up a class. Classic cards come from Classic Packs.	
 GLUE_TIP_DEFAULT_15	Playing against real players grants you bonus XP.	
 GLUE_TIP_DEFAULT_16	You can right-click on your opponent's hero to "Squelch" emotes.	
 GLUE_TIP_DEFAULT_16_TOUCH	You can tap your opponent's hero to "Squelch" emotes.	
@@ -350,7 +354,7 @@ GLUE_TIP_NAXXRAMAS_2	If you lose to a boss, you may want to tweak your deck.
 GLUE_TIP_NAXXRAMAS_3	Be prepared! Build a deck to counter the boss you're going to challenge.	
 GLUE_TIP_QUEST_LOG_0	Unlock Other Heroes in Practice Mode – Defeat an AI to unlock it!
 GLUE_TIP_QUEST_LOG_1	You can earn additional basic cards for a class by playing games as that class.
-GLUE_TIP_QUEST_LOG_2	Try heading over to play mode, you can earn expert card packs by playing!
+GLUE_TIP_QUEST_LOG_2	Try heading over to play mode, you can earn Classic card packs by playing!
 GLUE_TIP_QUEST_LOG_3	There are still Expert AIs that you can test your skill against!
 GLUE_TIP_QUEST_LOG_4	There are still more packs to earn in play mode!
 GLUE_TIP_QUEST_LOG_5	Check out the quests for stuff you can complete.
@@ -393,6 +397,12 @@ GLUE_LOADING_BAR_TASK_16	Choosing Board
 GLUE_LOADING_BAR_TASK_17	Straightening Decks	
 GLUE_LOADING_BAR_TASK_18	Bribing Guards	
 GLUE_LOADING_BAR_TASK_19	Paying the Band	
+GLUE_SPECTATOR_LOADING_BAR_TASK_1	Finding your Friend's Table	
+GLUE_SPECTATOR_LOADING_BAR_TASK_2	Cooking Popcorn	
+GLUE_SPECTATOR_LOADING_BAR_TASK_3	Polishing Spectacles	
+GLUE_SPECTATOR_LOADING_BAR_TASK_4	Elbowing through the Crowd	
+GLUE_SPECTATOR_LOADING_BAR_TASK_5	Finding a Good Seat	
+GLUE_SPECTATOR_LOADING_BAR_TASK_6	Pouring a Pregame Beverage	
 GLUE_NAXX_LOADING_BAR_TASK_1	Practicing Evil Laugh	
 GLUE_NAXX_LOADING_BAR_TASK_2	Replacing Cobwebs	
 GLUE_NAXX_LOADING_BAR_TASK_3	Refilling Ooze	
@@ -509,3 +519,11 @@ GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_ADVENTURE_SINGLE	본 상품은 구매 후 �
 GLUE_STORE_CHINA_DISCLAIMER_HEADLINE	注意	
 GLUE_STORE_CHINA_DISCLAIMER_DETAILS	如果您希望获得某一张特定卡牌，请按如下步骤操作：\n1）购买并打开一定数量*的扩展包，看其中是否含有该特定卡牌；\n2）如果没有，请在“我的收藏”中使用“分解”功能分解这些您不需要的卡牌，获得奥术之尘；\n3）在“我的收藏”中选择“制作模式”，消耗奥术之尘“制作”那张特定卡牌。\n*每个扩展包至少可分解出40奥术之尘，合成1张白/蓝/紫/橙色稀有度的卡牌分别消耗40/100/400/1600奥术之尘，即至多购买1/2.5/10/40个扩展包，您就可通过上述方式获得任意特定的白/蓝/紫/橙色卡牌。	
 GLUE_STORE_DISCLAIMER_WARNING	你将要花费战网点数或游戏金币进行购买！	
+GLUE_STORE_PURCHASE_LOCK_HEADER	Purchase Error	
+GLUE_STORE_PURCHASE_LOCK_DESCRIPTION	Your account has a pending purchase on {0}. Please open Hearthstone from the device where you last tried to make a purchase.\n\nIf this problem persists, please contact Blizzard Custom Support by pressing the Help button below.	0=one of GLOBAL_STORE_MOBILE_NAME_*
+GLUE_STORE_PACKBUY_SUGGESTION	Best for\nNew Players!	
+GLUE_MINSPEC_WARNING	Your device does not meet the recommended specifications. Your experience may not be optimal.\n\nSystem specifications (recommended):	--TEMP-- This message is not final.
+GLUE_MINSPEC_ERROR	Sorry! Hearthstone cannot run because your device does not meet the minimum specifications.\n\nSystem specifications (required):	--TEMP-- This message is not final.
+GLUE_MINSPEC_MESSAGE	• {0}MHz ({1}MHz)\n• {2} Cores ({3} Cores)\n• {4}MB RAM ({5}MB RAM)
+GLUE_TEXTURE_COMPRESSION_WARNING_TITLE	Texture Compression Warning	--TEMP-- This should be in Chinese
+GLUE_TEXTURE_COMPRESSION_WARNING	This build does not contain the correct texture format for this platform. Performance will not be optimal.	--TEMP-- This should be in Chinese
