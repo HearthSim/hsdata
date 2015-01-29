@@ -142,6 +142,7 @@ GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_EXPERT_PACK	이용기간 : 서비스 종료 
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_FORGE_TICKET	투기장 입장료는 구매 후 환불되지 않으며, 구매 즉시 투기장에 입장합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_CONFIRM	본 거래와 관련된 조건과 약관을 확인하며 이에 동의합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_SUMMARY_TOS_AGREEMENT	By pressing "{0}", you acknowledge that you have read and accepted the Terms of Sale. You can change your default payment method or read the Terms of Sale by pressing the "{1}" button.	0=GLUE_STORE_SUMMARY_PAY_NOW_TEXT,1=GLUE_STORE_TERMS_OF_SALE_BUTTON_TEXT
+GLUE_STORE_SUMMARY_TOS_AGREEMENT_EU	By clicking "{0}", you agree to the Terms of Sale, and to the immediate delivery of your order. You will lose the right to withdraw your order once the delivery process has started. You can change your default payment method or read the Terms of Sale by pressing the "{1}" button.	0=GLUE_STORE_SUMMARY_PAY_NOW_TEXT,1=GLUE_STORE_TERMS_OF_SALE_BUTTON_TEXT
 GLUE_STORE_SUMMARY_PAY_NOW_TEXT	Pay Now	this is what you see when you confirm the purchase
 GLUE_STORE_READ_TOS_BUTTON_TEXT	Read Terms of Sale
 GLUE_STORE_CHANGE_PAYMENT_BUTTON_TEXT	Adjust Default Payment Method
@@ -161,6 +162,7 @@ GLUE_STORE_PAYMENT_INFO_DETAILS	Funds will first be deducted from your Battle.ne
 GLUE_STORE_PAYMENT_INFO_URL_DETAILS	If you'd like more details, pressing "{0}" will take you to the Battle.net payment information website.
 GLUE_MOBILE_STORE_PAYMENT_INFO_DETAILS_APPLE	In-app purchases are made using your Apple ID.	
 GLUE_MOBILE_STORE_PAYMENT_INFO_DETAILS_ANDROID	In-app purchases are made using your Google Play account.	
+GLUE_MOBILE_STORE_AMAZON_PAYMENT_INFO_DETAILS_ANDROID	In-app purchases are made using your Amazon account.	
 GLUE_MOBILE_STORE_PAYMENT_INFO_URL_DETAILS	Tap "{0}" to learn more about buying items in Hearthstone.
 GLUE_STORE_EULA_AND_TOS_HEADLINE	Terms of Service
 GLUE_STORE_EULA_AND_TOS_DETAILS	Our EULA and Terms of Service may be viewed on Battle.net.
@@ -522,8 +524,21 @@ GLUE_STORE_DISCLAIMER_WARNING	你将要花费战网点数或游戏金币进行�
 GLUE_STORE_PURCHASE_LOCK_HEADER	Purchase Error	
 GLUE_STORE_PURCHASE_LOCK_DESCRIPTION	Your account has a pending purchase on {0}. Please open Hearthstone from the device where you last tried to make a purchase.\n\nIf this problem persists, please contact Blizzard Custom Support by pressing the Help button below.	0=one of GLOBAL_STORE_MOBILE_NAME_*
 GLUE_STORE_PACKBUY_SUGGESTION	Best for\nNew Players!	
-GLUE_MINSPEC_WARNING	Your device does not meet the recommended specifications. Your experience may not be optimal.\n\nSystem specifications (recommended):	--TEMP-- This message is not final.
-GLUE_MINSPEC_ERROR	Sorry! Hearthstone cannot run because your device does not meet the minimum specifications.\n\nSystem specifications (required):	--TEMP-- This message is not final.
-GLUE_MINSPEC_MESSAGE	• {0}MHz ({1}MHz)\n• {2} Cores ({3} Cores)\n• {4}MB RAM ({5}MB RAM)
+GLUE_MINSPEC_WARNING	This device is below the recommended specification to run Hearthstone and may run slowly.\n\nTap OK to continue or SUPPORT to find out more.	
+GLUE_MINSPEC_ERROR	Sorry! Hearthstone cannot run on this device as it does not meet the minimum specifications.\n\nTap SUPPORT to find out more.	
 GLUE_TEXTURE_COMPRESSION_WARNING_TITLE	Texture Compression Warning	--TEMP-- This should be in Chinese
 GLUE_TEXTURE_COMPRESSION_WARNING	This build does not contain the correct texture format for this platform. Performance will not be optimal.	--TEMP-- This should be in Chinese
+GLUE_LOADINGSCREEN_PROGRESS_1	Lighting the hearth	
+GLUE_LOADINGSCREEN_PROGRESS_2	Unpacking crates	
+GLUE_LOADINGSCREEN_PROGRESS_3	Rearranging furniture	
+GLUE_LOADINGSCREEN_SDCARD	Moving files to removable storage	
+GLUE_LOADINGSCREEN_DOWNLOADING	Downloading {0}/{1} MB	0=megabytes so far, 1=total download megabytes
+GLUE_LOADINGSCREEN_ERROR_DOWNLOADING_TITLE	Download Error	
+GLUE_LOADINGSCREEN_ERROR_DOWNLOADING_MESSAGE	Please uninstall and download Hearthstone from Google Play again.	
+GLUE_LOADINGSCREEN_ERROR_INSTALLING_TITLE	Installation Error	
+GLUE_LOADINGSCREEN_ERROR_FILESYSTEM_MESSAGE	There is not enough space on your device to install Hearthstone. Please remove some files to free up additional space. If you are using external storage like an SD card, please ensure you have write permissions.	
+GLUE_LOADINGSCREEN_ERROR_CONNECTION_MESSAGE	Failed to download additional files from Google Play. Please make sure you have an active internet connection and ensure you are signed into a valid Google Play account.	
+GLUE_DONT_SHOW_ME_THIS_AGAIN	Don't show me this again	
+GLUE_UNRELIABLE_GPU_WARNING_TITLE	Graphics Device Warning	
+GLUE_UNRELIABLE_GPU_WARNING	This device runs on unsupported graphics hardware. As a result, Hearthstone may have graphical issues and/or performance problems.\n\nTap SUPPORT to find out more.	
+GLUE_STORE_CHOOSE_PACK	Choose your pack	
