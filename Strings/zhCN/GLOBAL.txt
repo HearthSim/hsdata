@@ -198,13 +198,16 @@ GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITE_HEADER	邀请观看
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITE_OTHER_SIDE_HEADER	观看对手	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITE_OTHER_SIDE_TEXT	点击向{0}展示你的手牌。	0=player name
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITE_OTHER_SIDE_TEXT_TOUCH	点击向{0}展示你的手牌。	0=player name
-GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITE_TEXT	邀请{0}观看这场对战。	0=player name
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITE_TEXT	邀请{0}观看你的游戏。	0=player name
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITED_HEADER	邀请观看	
-GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITED_TEXT	你已经邀请{0}观看这场对战。	0=player name
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITED_TEXT	你已经邀请{0}观看你的游戏。	0=player name
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_KICK_HEADER	移除	
-GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_KICK_TEXT	{0}正在观看你的对战。点击此处将该观众移除。	
-GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_KICK_TEXT_TOUCH	{0}正在观看你的对战。点击此处将该观众移除。	
-GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_RECEIVED_INVITE_TEXT	{0}邀请你观看这场对战。点击此处开始观看。	
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_KICK_TEXT	{0}正在观看你的游戏。点击此处将该观众移除。	
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_KICK_TEXT_TOUCH	{0}正在观看你的游戏。点击此处将该观众移除。	
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_PREVIOUSLY_KICKED_HEADER	无法观看	
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_PREVIOUSLY_KICKED_TEXT	你曾经在观看该玩家的游戏时被移除。你无法再次观看该玩家的游戏。	
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_RECEIVED_INVITE_TEXT	{0}邀请你观看游戏。点击此处开始观看。	
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_RECEIVED_INVITE_TEXT_TOUCH	{0}邀请你观看游戏。点击此处开始观看。	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_SPECTATING_HEADER	正处于观众模式	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_SPECTATING_TEXT	你正在观看该玩家的比赛。	
 GLOBAL_GAME_MENU	游戏菜单	
@@ -518,16 +521,25 @@ GLOBAL_SOCIAL_TOAST_SPECTATOR_INVITE_RECEIVED	<color=#{0}>{1}</color> 邀请你�
 GLOBAL_SOCIAL_TOAST_SPECTATOR_INVITE_SENT	已向<color=#{0}>{1}</color>发出比赛观看邀请。	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_SPECTATOR_REMOVED	<color=#{0}>{1}</color>不再观看你的比赛。	0=name color,1=player name
 GLOBAL_SPECTATOR_COUNT_PANEL_HEADER	观看比赛	
-GLOBAL_SPECTATOR_COUNT_PANEL_TEXT_ONE	{0}正在观看你的对战。	0=player name, this is shown when there's only 1 person spectating you.
+GLOBAL_SPECTATOR_COUNT_PANEL_TEXT_ONE	{0}正在观看你的游戏。	0=player name, this is shown when there's only 1 person spectating you.
+GLOBAL_SPECTATOR_ERROR_CREATE_PARTY_TEXT	试图创建观众群组时发生错误。	
+GLOBAL_SPECTATOR_ERROR_LEAVE_FOR_SPECTATE_PLAYER_TEXT	在尝试离开上一个观众群组，准备观看{0}的游戏时发生错误。	0=player name
 GLOBAL_SPECTATOR_KICK_PROMPT_HEADER	移除观众	
-GLOBAL_SPECTATOR_KICK_PROMPT_TEXT	你确定想要将观众{0}移除出此场对战吗？如果你在选项中关闭“允许好友观看我的对战”，就能够阻止其他玩家观看你的对战。	0=player name
+GLOBAL_SPECTATOR_KICK_PROMPT_TEXT	你确定想要移除观众{0}吗？如果你在选项中关闭“允许好友观看我的游戏”，就能够阻止其他玩家观看你的游戏。	0=player name
 GLOBAL_SPECTATOR_LEAVE_PROMPT_HEADER	离开观众模式	
-GLOBAL_SPECTATOR_LEAVE_PROMPT_TEXT	你确定想要结束观看这场对战吗？	
+GLOBAL_SPECTATOR_LEAVE_PROMPT_TEXT	你确定想要退出观众模式吗？	
 GLOBAL_SPECTATOR_MODE_INDICATOR_TEXT	观众模式	text that shows up on the bottom left of screen showing that you're currently in Spectator Mode.
 GLOBAL_SPECTATOR_REMOVED_PROMPT_HEADER	已移除	
-GLOBAL_SPECTATOR_REMOVED_PROMPT_TEXT	你已被移除，无法继续观看这场对战。	
+GLOBAL_SPECTATOR_REMOVED_PROMPT_TEXT	你已被移除，无法继续观看。	
 GLOBAL_SPECTATOR_SERVER_REJECTED_HEADER	观众断开连接	
 GLOBAL_SPECTATOR_SERVER_REJECTED_TEXT	你想要观看的这场对战已经结束，或者观众席已满，或者刚被设置成不允许观看。	
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_HEADER	观众模式	
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT	等待下一场对战开始。\n\n{0}{1}。	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_STATUS_* and PRESENCE_SCENARIO_*_NORMAL_SCENARIO_* from PRESENCE.txt (e.g. "Jane Doe is Heading into Play Mode")
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_BATTLING	等待下一场对战开始。\n\n{0}正在与{1}对战。	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_SCENARIO_*_HEROIC_* from PRESENCE.txt (e.g. "Jane Doe is Battling Heroic Gothik the Harvester")
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_ENTERING	等待下一场对战开始。\n\n{0}正在进入{1}。	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_ADVENTURE_MODE_* from PRESENCE.txt (e.g. "Jane Doe is entering Naxxramas")
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_OFFLINE	等待下一场对战开始。\n\n{0}已经下线。	0=player name; same string as above, except shown when player is offline.
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_PLAYING	等待下一场对战开始。\n\n{0}正在进行{1}。	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_SCENARIO_*_CLASS_CHALLENGE_* from PRESENCE.txt (e.g. "Jane Doe is playing Naxxramas Paladin Challenge")
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TIMEOUT	你正在观看的玩家没有及时开始下一场对战。你已经退出了观看模式。	
 GLOBAL_SPLASH_CLOSED_RECONNECTING	正在重新连接	
 GLOBAL_SPLASH_CLOSED_SIGN_TITLE	关闭	
 GLOBAL_STORE_MOBILE_NAME_AMAZON	亚马逊应用商店	
