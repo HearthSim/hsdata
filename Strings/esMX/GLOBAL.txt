@@ -198,13 +198,16 @@ GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITE_HEADER	Invitar a observar
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITE_OTHER_SIDE_HEADER	Observando a un adversario	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITE_OTHER_SIDE_TEXT	Haz clic para mostrarle tus cartas a {0} también.	0=player name
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITE_OTHER_SIDE_TEXT_TOUCH	Toca para mostrarle tus cartas a {0}.	0=player name
-GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITE_TEXT	Invita a {0} a observar esta partida.	0=player name
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITE_TEXT	Invitar a {0} para que te observe.	0=player name
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITED_HEADER	Invitado a observar	
-GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITED_TEXT	Has invitado a {0} a observar esta partida.	0=player name
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITED_TEXT	Invitación enviada a {0} para que comience a observar.	0=player name
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_KICK_HEADER	Expulsar	
-GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_KICK_TEXT	{0} está observando tu partida. Haz clic aquí para expulsarlo.	
-GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_KICK_TEXT_TOUCH	{0} está observando tu partida. Toca aquí para expulsarlo.	
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_KICK_TEXT	{0} te está observando. Haz clic aquí para expulsarlo.	
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_KICK_TEXT_TOUCH	{0} te está observando. Toca aquí para expulsarlo.	
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_PREVIOUSLY_KICKED_HEADER	No puedes observar	
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_PREVIOUSLY_KICKED_TEXT	Este jugador ya te ha expulsado como observador. No puedes volver a observarlo.	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_RECEIVED_INVITE_TEXT	{0} te ha invitado a observar esta partida. Haz clic aquí para aceptar.	
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_RECEIVED_INVITE_TEXT_TOUCH	{0} te ha invitado a observar esta partida. Toca aquí para aceptar.	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_SPECTATING_HEADER	En modo Observador	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_SPECTATING_TEXT	Estás observando a este jugador.	
 GLOBAL_GAME_MENU	Menú del juego	
@@ -518,16 +521,25 @@ GLOBAL_SOCIAL_TOAST_SPECTATOR_INVITE_RECEIVED	¡<color=#{0}>{1}</color> te ha in
 GLOBAL_SOCIAL_TOAST_SPECTATOR_INVITE_SENT	Invitación de observador enviada a <color=#{0}>{1}</color>.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_SPECTATOR_REMOVED	<color=#{0}>{1}</color> ya no está observándote.	0=name color,1=player name
 GLOBAL_SPECTATOR_COUNT_PANEL_HEADER	Observadores	
-GLOBAL_SPECTATOR_COUNT_PANEL_TEXT_ONE	{0} está observando tu partida.	0=player name, this is shown when there's only 1 person spectating you.
+GLOBAL_SPECTATOR_COUNT_PANEL_TEXT_ONE	{0} te está observando.	0=player name, this is shown when there's only 1 person spectating you.
+GLOBAL_SPECTATOR_ERROR_CREATE_PARTY_TEXT	Se produjo un error al crear el grupo de observadores.	
+GLOBAL_SPECTATOR_ERROR_LEAVE_FOR_SPECTATE_PLAYER_TEXT	Se produjo un error al abandonar un grupo anterior para observar a {0}.	0=player name
 GLOBAL_SPECTATOR_KICK_PROMPT_HEADER	Expulsar observador	
-GLOBAL_SPECTATOR_KICK_PROMPT_TEXT	¿Realmente quieres expulsar al observador {0} de esta partida? Si no quieres que te observen, puedes desactivar la opción "Permitir que mis amigos observen mis partidas" del menú.	0=player name
+GLOBAL_SPECTATOR_KICK_PROMPT_TEXT	¿Realmente quieres expulsar al observador {0}? Si no quieres que te observen, puedes desactivar la opción "Permitir que mis amigos observen mis partidas" del menú.	0=player name
 GLOBAL_SPECTATOR_LEAVE_PROMPT_HEADER	Salir del modo Observador	
-GLOBAL_SPECTATOR_LEAVE_PROMPT_TEXT	¿Realmente quieres dejar de observar esta partida?	
+GLOBAL_SPECTATOR_LEAVE_PROMPT_TEXT	¿Realmente quieres dejar de observar?	
 GLOBAL_SPECTATOR_MODE_INDICATOR_TEXT	Modo Observador	text that shows up on the bottom left of screen showing that you're currently in Spectator Mode.
 GLOBAL_SPECTATOR_REMOVED_PROMPT_HEADER	Expulsado	
-GLOBAL_SPECTATOR_REMOVED_PROMPT_TEXT	Te han expulsado de la partida y ya no puedes observarla.	
+GLOBAL_SPECTATOR_REMOVED_PROMPT_TEXT	Te han expulsado y ya no puedes observar.	
 GLOBAL_SPECTATOR_SERVER_REJECTED_HEADER	Observador desconectado	
 GLOBAL_SPECTATOR_SERVER_REJECTED_TEXT	Es posible que la partida que querías observar se encuentre completa, haya terminado o ya no permita observadores.	
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_HEADER	Modo Observador	
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT	Esperando a que empiece la próxima partida.\n\n{0} está {1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_STATUS_* and PRESENCE_SCENARIO_*_NORMAL_SCENARIO_* from PRESENCE.txt (e.g. "Jane Doe is Heading into Play Mode")
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_BATTLING	Esperas a que comience la próxima partida.\n\n{0} está luchando contra {1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_SCENARIO_*_HEROIC_* from PRESENCE.txt (e.g. "Jane Doe is Battling Heroic Gothik the Harvester")
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_ENTERING	Esperas a que comience la próxima partida.\n\n{0} está entrando en {1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_ADVENTURE_MODE_* from PRESENCE.txt (e.g. "Jane Doe is entering Naxxramas")
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_OFFLINE	Esperando a que empiece la próxima partida.\n\n{0} está desconectado	0=player name; same string as above, except shown when player is offline.
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_PLAYING	Esperas a que comience la próxima partida.\n\n{0} está jugando al {1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_SCENARIO_*_CLASS_CHALLENGE_* from PRESENCE.txt (e.g. "Jane Doe is playing Naxxramas Paladin Challenge")
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TIMEOUT	El jugador que estabas observando tardó demasiado en iniciar su próxima partida. El Modo Observador se ha cancelado.	
 GLOBAL_SPLASH_CLOSED_RECONNECTING	Reconectando...	
 GLOBAL_SPLASH_CLOSED_SIGN_TITLE	Cerrado	
 GLOBAL_STORE_MOBILE_NAME_AMAZON	la tienda Apps de Amazon	

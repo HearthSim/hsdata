@@ -198,13 +198,16 @@ GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITE_HEADER	Пригласить в кач�
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITE_OTHER_SIDE_HEADER	Смотрит игру противника	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITE_OTHER_SIDE_TEXT	Щелкните, чтобы показать ваши карты игроку {0}.	0=player name
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITE_OTHER_SIDE_TEXT_TOUCH	Нажмите, чтобы показать ваши карты игроку {0}.	0=player name
-GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITE_TEXT	Пригласить игрока {0} в качестве зрителя на этот матч.	0=player name
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITE_TEXT	Пригласить игрока {0} в качестве зрителя.	0=player name
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITED_HEADER	Приглашение в качестве зрителя	
-GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITED_TEXT	Вы пригласили игрока {0} посмотреть матч в качестве зрителя.	0=player name
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITED_TEXT	Вы пригласили игрока {0} посмотреть матч.	0=player name
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_KICK_HEADER	Исключить	
-GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_KICK_TEXT	{0} присутствует на вашем матче в качестве зрителя. Щелкните здесь, чтобы удалить его из числа зрителей.	
-GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_KICK_TEXT_TOUCH	{0} присутствует на вашем матче в качестве зрителя. Нажмите здесь, чтобы удалить его из числа зрителей.	
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_KICK_TEXT	{0} наблюдает за вашим матчем. Щелкните здесь, чтобы удалить его из числа зрителей.	
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_KICK_TEXT_TOUCH	{0} наблюдает за вашим матчем. Нажмите здесь, чтобы удалить его из числа зрителей.	
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_PREVIOUSLY_KICKED_HEADER	Невозможно посмотреть матч	
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_PREVIOUSLY_KICKED_TEXT	Данный игрок ранее удалил вас из числа зрителей. Вы больше не можете смотреть его матчи.	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_RECEIVED_INVITE_TEXT	Вы получили приглашение от игрока {0} посмотреть матч в качестве зрителя. Щелкните, чтобы присоединиться к игре.	
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_RECEIVED_INVITE_TEXT_TOUCH	Вы получили приглашение от игрока {0} посмотреть ваш матч. Нажмите, чтобы присоединиться к игре.	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_SPECTATING_HEADER	Режим зрителя	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_SPECTATING_TEXT	Вы присутствуете на матче этого игрока в качестве зрителя.	
 GLOBAL_GAME_MENU	Меню	
@@ -518,7 +521,9 @@ GLOBAL_SOCIAL_TOAST_SPECTATOR_INVITE_RECEIVED	<color=#{0}>{1}</color> пригл
 GLOBAL_SOCIAL_TOAST_SPECTATOR_INVITE_SENT	Игроку <color=#{0}>{1}</color> отправлено приглашение посмотреть матч в качестве зрителя.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_SPECTATOR_REMOVED	<color=#{0}>{1}</color> больше не смотрит ваш матч.	0=name color,1=player name
 GLOBAL_SPECTATOR_COUNT_PANEL_HEADER	Зрители	
-GLOBAL_SPECTATOR_COUNT_PANEL_TEXT_ONE	Зрители: {0} 	0=player name, this is shown when there's only 1 person spectating you.
+GLOBAL_SPECTATOR_COUNT_PANEL_TEXT_ONE	Игрок {0} наблюдает за вашим матчем.	0=player name, this is shown when there's only 1 person spectating you.
+GLOBAL_SPECTATOR_ERROR_CREATE_PARTY_TEXT	Произошла ошибка при попытке создать группу зрителей.	
+GLOBAL_SPECTATOR_ERROR_LEAVE_FOR_SPECTATE_PLAYER_TEXT	Произошла ошибка при попытке выйти из группы зрителей, чтобы посмотреть матч игрока {0}.	0=player name
 GLOBAL_SPECTATOR_KICK_PROMPT_HEADER	Удалить зрителя	
 GLOBAL_SPECTATOR_KICK_PROMPT_TEXT	Вы уверены, что хотите удалить игрока {0} из числа зрителей этого матча? Если вы отключите возможность «Друзья могут наблюдать за моими матчами» в меню «Настройки», у ваших матчей не будет зрителей.	0=player name
 GLOBAL_SPECTATOR_LEAVE_PROMPT_HEADER	Выход из режима зрителя	
@@ -528,6 +533,13 @@ GLOBAL_SPECTATOR_REMOVED_PROMPT_HEADER	Зритель удален
 GLOBAL_SPECTATOR_REMOVED_PROMPT_TEXT	Вы были исключены из числа зрителей этого матча.	
 GLOBAL_SPECTATOR_SERVER_REJECTED_HEADER	Зритель вышел	
 GLOBAL_SPECTATOR_SERVER_REJECTED_TEXT	В игре, к которой вы попытались подключиться, больше нет мест для зрителей, она завершена либо закрыта для зрителей.	
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_HEADER	Режим зрителя	
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT	Вы ждете начала следующего матча игрока {0}.\n\n {1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_STATUS_* and PRESENCE_SCENARIO_*_NORMAL_SCENARIO_* from PRESENCE.txt (e.g. "Jane Doe is Heading into Play Mode")
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_BATTLING	Вы ждете начала следующего матча.\n\n {0} сражается с боссом: {1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_SCENARIO_*_HEROIC_* from PRESENCE.txt (e.g. "Jane Doe is Battling Heroic Gothik the Harvester")
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_ENTERING	Вы ждете начала следующего матча.\n\n {0} начинает приключение: {1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_ADVENTURE_MODE_* from PRESENCE.txt (e.g. "Jane Doe is entering Naxxramas")
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_OFFLINE	Вы ждете начала следующего матча.\n\n {0} не в сети.	0=player name; same string as above, except shown when player is offline.
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_PLAYING	Вы ждете начала следующего матча.\n\n {0} проходит испытание:  {1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_SCENARIO_*_CLASS_CHALLENGE_* from PRESENCE.txt (e.g. "Jane Doe is playing Naxxramas Paladin Challenge")
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TIMEOUT	Игрок, за которым вы наблюдаете в качестве зрителя, слишком долго не начинает следующий матч. Режим зрителя был отменен.	
 GLOBAL_SPLASH_CLOSED_RECONNECTING	Подключение...	
 GLOBAL_SPLASH_CLOSED_SIGN_TITLE	Закрыто	
 GLOBAL_STORE_MOBILE_NAME_AMAZON	магазине Amazon Appstore	

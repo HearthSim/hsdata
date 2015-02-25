@@ -256,30 +256,42 @@ GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_AVAILABLE	Challenge {0} to a game of Hearthst
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_AVAILABLE_HEADER	Spectate this Game
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_AVAILABLE_TEXT	Click to begin spectating this player's game.	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_AVAILABLE_TEXT_TOUCH	Tap here to begin spectating this player's game.	
-GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_RECEIVED_INVITE_TEXT	{0} has invited you to spectate this game. Click here to begin spectating.	
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_RECEIVED_INVITE_TEXT	{0} has invited you to be a spectator. Click here to begin spectating.	
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_RECEIVED_INVITE_TEXT_TOUCH	{0} has invited you to be a spectator. Tap here to begin spectating.	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_KICK_HEADER	Kick
-GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_KICK_TEXT	{0} is spectating your game. Click here to remove this spectator.	
-GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_KICK_TEXT_TOUCH	{0} is spectating your game. Tap here to remove this spectator.	
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_KICK_TEXT	{0} is spectating you. Click here to remove this spectator.	
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_KICK_TEXT_TOUCH	{0} is spectating you. Tap here to remove this spectator.	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITE_HEADER	Invite to Spectate
-GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITE_TEXT	Invite {0} to spectate this game.	0=player name
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITE_TEXT	Invite {0} to spectate you.	0=player name
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITED_HEADER	Invited to Spectate
-GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITED_TEXT	You've invited {0} to spectate this game.	0=player name
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITED_TEXT	Invite sent to {0} to begin spectating.	0=player name
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITE_OTHER_SIDE_HEADER	Spectating Opponent
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITE_OTHER_SIDE_TEXT	Click to reveal your own cards to {0} as well.	0=player name
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITE_OTHER_SIDE_TEXT_TOUCH	Tap to reveal your cards to {0}.	0=player name
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_SPECTATING_HEADER	In Spectator Mode
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_SPECTATING_TEXT	You are currently spectating this player.	
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_PREVIOUSLY_KICKED_HEADER	Cannot Spectate
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_PREVIOUSLY_KICKED_TEXT	You've been previously removed from spectating this player. You cannot attempt to spectate again.	
 GLOBAL_SPECTATOR_LEAVE_PROMPT_HEADER	Leave Spectator Mode	
-GLOBAL_SPECTATOR_LEAVE_PROMPT_TEXT	Are you sure you want to stop spectating this game?	
+GLOBAL_SPECTATOR_LEAVE_PROMPT_TEXT	Are you sure you want to stop spectating?	
 GLOBAL_SPECTATOR_KICK_PROMPT_HEADER	Remove Spectator
-GLOBAL_SPECTATOR_KICK_PROMPT_TEXT	Are you sure you want to remove {0} from spectating this game? If you turn off 'Allow Friends to Spectate my Games' in Options Menu, you can prevent others from spectating.	0=player name
+GLOBAL_SPECTATOR_KICK_PROMPT_TEXT	Are you sure you want to remove {0} from spectating? If you turn off 'Allow Friends to Spectate my Games' in Options Menu, you can prevent others from spectating.	0=player name
 GLOBAL_SPECTATOR_REMOVED_PROMPT_HEADER	Removed
-GLOBAL_SPECTATOR_REMOVED_PROMPT_TEXT	You have been removed from spectating the game.
+GLOBAL_SPECTATOR_REMOVED_PROMPT_TEXT	You have been removed from spectating.
 GLOBAL_SPECTATOR_SERVER_REJECTED_HEADER	Spectator Disconnected
 GLOBAL_SPECTATOR_SERVER_REJECTED_TEXT	The game you attempted to spectate may be full or already finished, or it may have been recently closed to spectators.
 GLOBAL_SPECTATOR_COUNT_PANEL_HEADER	Spectators Watching
-GLOBAL_SPECTATOR_COUNT_PANEL_TEXT_ONE	{0} is spectating your game.	0=player name, this is shown when there's only 1 person spectating you.
+GLOBAL_SPECTATOR_COUNT_PANEL_TEXT_ONE	{0} is spectating you.	0=player name, this is shown when there's only 1 person spectating you.
 GLOBAL_SPECTATOR_MODE_INDICATOR_TEXT	Spectator Mode	text that shows up on the bottom left of screen showing that you're currently in Spectator Mode.
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_HEADER	Spectator Mode	
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT	Waiting for next game to start.\n\n{0} is {1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_STATUS_* and PRESENCE_SCENARIO_*_NORMAL_SCENARIO_* from PRESENCE.txt (e.g. "Jane Doe is Heading into Play Mode")
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_ENTERING	Waiting for next game to start.\n\n{0} is entering {1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_ADVENTURE_MODE_* from PRESENCE.txt (e.g. "Jane Doe is entering Naxxramas")
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_BATTLING	Waiting for next game to start.\n\n{0} is Battling {1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_SCENARIO_*_HEROIC_* from PRESENCE.txt (e.g. "Jane Doe is Battling Heroic Gothik the Harvester")
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_PLAYING	Waiting for next game to start.\n\n{0} is playing {1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_SCENARIO_*_CLASS_CHALLENGE_* from PRESENCE.txt (e.g. "Jane Doe is playing Naxxramas Paladin Challenge")
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_OFFLINE	Waiting for next game to start.\n\n{0} is Offline	0=player name; same string as above, except shown when player is offline.
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TIMEOUT	The player you are spectating took too long to start the next game. Spectator Mode has been canceled.	
+GLOBAL_SPECTATOR_ERROR_CREATE_PARTY_TEXT	An error occurred attempting to create Spectator party.	
+GLOBAL_SPECTATOR_ERROR_LEAVE_FOR_SPECTATE_PLAYER_TEXT	An error occurred attempting to leave a previous party to spectate {0}.	0=player name
 GLOBAL_ADDFRIEND_HEADER	Add a Friend	
 GLOBAL_ADDFRIEND_INSTRUCTION	Enter a BattleTag or email address.	
 GLOBAL_ADDFRIEND_SENT_CONFIRMATION	Friend request sent.	
