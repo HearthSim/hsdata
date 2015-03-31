@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dbf>
+	<Column name="ID" type="Int" comment="primary key" />
+	<Column name="NOTE_DESC" type="String" comment="designer name of booster contents" />
+	<Column name="SORT_ORDER" type="Int" comment="order of this booster in a displayable list" />
+	<Column name="NAME" type="LocString" />
+	<Column name="PACK_OPENING_PREFAB" type="AssetPath" />
+	<Column name="PACK_OPENING_FX_PREFAB" type="AssetPath" />
+	<Column name="STORE_BUTTON_PREFAB" type="AssetPath" />
+	<Column name="STORE_LOW_POLY_PREFAB" type="AssetPath" />
+	<Column name="ARENA_PREFAB" type="AssetPath" />
+	<Record>
+		<Field column="ID">1</Field>
+		<Field column="NOTE_DESC">Set 1 Expert</Field>
+		<Field column="SORT_ORDER">1</Field>
+		<Field column="NAME">
+			<enUS>Classic</enUS>
+			<deDE>Klassik</deDE>
+			<esES>Clásico</esES>
+			<esMX>Clásico</esMX>
+			<frFR>Classique</frFR>
+			<itIT>Classiche</itIT>
+			<koKR>오리지널</koKR>
+			<plPL>Klasyczne</plPL>
+			<ptBR>Clássico</ptBR>
+			<ruRU>Классический набор</ruRU>
+			<zhCN>经典</zhCN>
+			<zhTW>經典</zhTW>
+		</Field>
+		<Field column="PACK_OPENING_PREFAB">Assets/Game/Actors/UnopenedPack</Field>
+		<Field column="PACK_OPENING_FX_PREFAB">Assets/Game/GameObjects/PackOpeningFX_Default</Field>
+		<Field column="STORE_BUTTON_PREFAB">Assets/Game/GameObjects/PackSelectorButton_Expert</Field>
+		<Field column="STORE_LOW_POLY_PREFAB">Assets/Game/GameObjects/PackLowPoly</Field>
+		<Field column="ARENA_PREFAB">Assets/Game/GameObjects/Pack_Reward</Field>
+	</Record>
+	<Record>
+		<Field column="ID">9</Field>
+		<Field column="NOTE_DESC">GvG Pack</Field>
+		<Field column="SORT_ORDER">2</Field>
+		<Field column="NAME">
+			<enUS>Goblins vs Gnomes</enUS>
+			<deDE>Goblins gegen Gnome</deDE>
+			<esES>Goblins vs. Gnomos</esES>
+			<esMX>Goblins versus Gnomos</esMX>
+			<frFR>Gobelins et gnomes</frFR>
+			<itIT>Goblin vs Gnomi</itIT>
+			<koKR>고블린 대 노움</koKR>
+			<plPL>Gobliny vs Gnomy</plPL>
+			<ptBR>Goblins vs Gnomos</ptBR>
+			<ruRU>Гоблины и гномы</ruRU>
+			<zhCN>地精大战侏儒</zhCN>
+			<zhTW>哥哥打地地</zhTW>
+		</Field>
+		<Field column="PACK_OPENING_PREFAB">Assets/Game/Actors/UnopenedGvGPack</Field>
+		<Field column="PACK_OPENING_FX_PREFAB">Assets/Game/GameObjects/PackOpeningFX_GvG</Field>
+		<Field column="STORE_BUTTON_PREFAB">Assets/Game/GameObjects/PackSelectorButton_GvG</Field>
+		<Field column="STORE_LOW_POLY_PREFAB">Assets/Game/GameObjects/PackLowPoly_GvG</Field>
+		<Field column="ARENA_PREFAB">Assets/Game/GameObjects/Pack_Reward_GvG</Field>
+	</Record>
+	<Record>
+		<Field column="ID">3</Field>
+		<Field column="NOTE_DESC">Draft Hero</Field>
+		<Field column="SORT_ORDER">0</Field>
+	</Record>
+	<Record>
+		<Field column="ID">5</Field>
+		<Field column="NOTE_DESC">Draft common expert slot</Field>
+		<Field column="SORT_ORDER">0</Field>
+	</Record>
+	<Record>
+		<Field column="ID">6</Field>
+		<Field column="NOTE_DESC">Draft rare expert slot</Field>
+		<Field column="SORT_ORDER">0</Field>
+	</Record>
+</Dbf>

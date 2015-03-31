@@ -31,6 +31,8 @@ GLOBAL_BUTTON_NO	否
 GLOBAL_BUTTON_OK	确定	
 GLOBAL_BUTTON_YES	是	
 GLOBAL_CANCEL	取消	
+GLOBAL_CARD_SET_BRM	黑石山的火焰	
+GLOBAL_CARD_SET_BRM_SEARCHABLE_SHORTHAND_NAMES	黑石山的火焰	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_CORE	基本	
 GLOBAL_CARD_SET_EXPERT1	经典	
 GLOBAL_CARD_SET_GVG	地精大战侏儒	
@@ -183,7 +185,6 @@ GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_THEYRE_UNAVAILABLE	你现在无法挑战{0}�
 GLOBAL_FRIENDLIST_CURRENT_GAMES_HEADER	进行中的对战 -  {0}	0=number of friends you have unfinished games with
 GLOBAL_FRIENDLIST_FRIENDS_HEADER	好友 - {0}/{1}在线	0=number of online friends 1=number of offline friends
 GLOBAL_FRIENDLIST_FRIENDS_HEADER_ALL_ONLINE	好友 - {0}在线	
-GLOBAL_FRIENDLIST_FRIENDS_HEADER_NO_ONLINE	好友	
 GLOBAL_FRIENDLIST_LASTPLAYED	上一个对手：	
 GLOBAL_FRIENDLIST_MYSTATUS	在线	
 GLOBAL_FRIENDLIST_NEARBY_PLAYERS_HEADER	附近的玩家（{0}）	0=number of players
@@ -232,7 +233,8 @@ GLOBAL_HERO_LEVEL_REWARD_ARCANE_DUST	{0}点奥术之尘	0=amount
 GLOBAL_HERO_LEVEL_REWARD_BOOSTER	{0}加速扩展包	0=booster type
 GLOBAL_HERO_LEVEL_REWARD_GOLD	{0}金币	0=amount
 GLOBAL_HERO_LEVEL_REWARD_GOLDEN_CARD	{0}{1}	0=flair 1=card name
-GLOBAL_HERO_WINS	胜利：{0}/{1}	0=number of games this class has won 1=number of wins to get golden
+GLOBAL_HERO_WINS	获胜局数：{0}/{1}	0=number of games this class has won 1=number of wins to get golden
+GLOBAL_HERO_WINS_PHONE	获胜局数\n{0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_KEYWORD_AUTOCAST	自动施放	
 GLOBAL_KEYWORD_AUTOCAST_TEXT	这个英雄技能必须在每个回合都要使用。	
 GLOBAL_KEYWORD_BATTLECRY	战吼	
@@ -348,13 +350,15 @@ GLOBAL_MEDAL_TOOLTIP_BODY	赢得对战胜利，晋升至更高排名！\n\n下�
 GLOBAL_MEDAL_TOOLTIP_BODY_ARENA_GRAND_MASTER	你成为了竞技场的勇士！	
 GLOBAL_MEDAL_TOOLTIP_BODY_LEGEND	你就是传说！每场对战都会改变你在这个等级中的排名。	
 GLOBAL_MEDAL_TOOLTIP_HEADER	{0}奖章	0=medal name
+GLOBAL_MEDAL_TOURNAMENT_TOOLTIP_BODY	本赛季排名对战模式前{0}%\n\n下一级：\n{1}	0=rank percentile 1=medal name
 GLOBAL_MOBILE_ERROR_ANDROID_PHONE_DETECTED	抱歉，《炉石传说》目前只能在6寸或更大的安卓平板电脑上运行。	
 GLOBAL_MOBILE_ERROR_BREAKING_NEWS	重大新闻：\n\n{0}	
-GLOBAL_MOBILE_ERROR_IPAD1_DETECTED	抱歉，《炉石传说》只能在iPad 2或更新的设备上运行。	
 GLOBAL_MOBILE_ERROR_LOGON_WEB_TIMEOUT	距离你的上一次操作已经过了很长时间，游戏连接中断。	
 GLOBAL_MOBILE_ERROR_NETWORK_DISCONNECT	你已经断开连接。	
 GLOBAL_MOBILE_ERROR_NETWORK_SPAM	由于你在短时间内发送请求过多，你已经断开了连接。	
 GLOBAL_MOBILE_ERROR_NETWORK_UTIL_TIMEOUT	你向《炉石传说》服务器发送的数据请求已超时。	
+GLOBAL_MOBILE_ERROR_UNSUPPORTED_IOS_PHONE_DETECTED	抱歉，《炉石传说》需要iPhone 4s或iPod Touch 5或更新的设备。	
+GLOBAL_MOBILE_ERROR_UNSUPPORTED_IOS_TABLET_DETECTED	抱歉，《炉石传说》需要iPad 2或更新的设备。	
 GLOBAL_MOBILE_LOG_IN_TOOLTIP	请登录您的账号	
 GLOBAL_MOBILE_LOGIN_POINTER	在此登录	
 GLOBAL_MOBILE_TAP_TO_RECONNECT	点击屏幕重新连接。	
@@ -364,11 +368,15 @@ GLOBAL_MOBILECHAT_NOTIFICATION_TURN_COUNTDOWN	时间耗尽
 GLOBAL_MOBILECHAT_NOTIFICATION_YOUR_TURN	你的回合	
 GLOBAL_MOBILECHAT_RETURN_TO_GAME	关闭	
 GLOBAL_MOBILECHAT_RETURN_TO_MENU	回到菜单	
+GLOBAL_MORE	更多	
 GLOBAL_MY_NUM_WINS	{0}	0=number of games this player has won
+GLOBAL_OFF	关闭	
 GLOBAL_OFFLINE	离线	
 GLOBAL_OKAY	确定	
+GLOBAL_ON	开启	
 GLOBAL_OPTIONS	选项	
 GLOBAL_OPTIONS_CARDBACK_LABEL	选择你的卡牌背面图案	
+GLOBAL_OPTIONS_CHOOSE_CARD_BACK	选择卡牌背面图案	
 GLOBAL_OPTIONS_CINEMATIC	视频欣赏	
 GLOBAL_OPTIONS_CREDITS	制作人员	
 GLOBAL_OPTIONS_GRAPHICS_FULLSCREEN_LABEL	全屏幕	
@@ -466,11 +474,6 @@ GLOBAL_REWARD_CARD_LEVEL_UP	使用{1}达到{0}级后解锁	0=# level, 1=class
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL	{0}	0=first class
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL_DOUBLE	{0}和{1}	0=first class, 1=second class
 GLOBAL_REWARD_CLASS_CHALLENGE_HEADLINE	职业挑战已解锁	
-GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_ARACHNID	你还能够尝试挑战极度困难的英雄难度蜘蛛区！	
-GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_CONSTRUCT	你还能够尝试挑战极度困难的英雄难度构造区！	
-GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_FROSTWYRM	你还能够尝试挑战极度困难的英雄难度冰龙巢穴！	
-GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_MILITARY	你还能够尝试挑战极度困难的英雄难度军事区！	
-GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_PLAGUE	你还能够尝试挑战极度困难的英雄难度瘟疫区！	
 GLOBAL_REWARD_CORE_CARD_DETAILS	{0}/{1}张{2}卡牌已解锁	0=# cards unlocked, 1=# cards possible to unlock, 2=class
 GLOBAL_REWARD_FORGE_DETAILS_OUT_OF_BAND	由于其它游戏的奖励，你获得了{0}次竞技模式入场机会。	0=count
 GLOBAL_REWARD_FORGE_HEADLINE	获得竞技模式入场费	
@@ -491,15 +494,17 @@ GLOBAL_SEASON_END_BONUS_STAR_TITLE	你的上赛季排名使你获得
 GLOBAL_SEASON_END_BONUS_STARS_LABEL	额外的星数	
 GLOBAL_SEASON_END_NEW_CARD_BACK	你获得了新的卡牌背面图案	
 GLOBAL_SEASON_END_NEW_SEASON	{0}已经开始！	0=season name
+GLOBAL_SEASON_END_PERCENTILE_LABEL	你已经成为了排名前{0}%的玩家！	0=rank percentile
 GLOBAL_SEASON_END_RANK_LABEL	你获得了排名：	
 GLOBAL_SEASON_END_WELCOME	欢迎	
 GLOBAL_SET_CORE	基本	
 GLOBAL_SET_EXPERT1	经典	
 GLOBAL_SHUTDOWN_TOAST	<color=#{0}>战网服务将于{1}分钟后关闭</color>	0=color, 1=minutes
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_COMPLETE	<color=#{0}>{1}</color>在竞技模式中的比赛结束了。({2}-{3})	0=name color,1=player name,2=Arena Wins,3=Arena Losses
-GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_COMPLETE_BAD	<color=#{0}>{1}</color>在竞技模式中的战斗结束了。	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START	<color=#{0}>{1}</color>在竞技模式中的比赛开始了。	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START_WITH_MANY_WINS	<color=#{0}>{1}</color>在竞技模式中的比赛开始了，并已经赢得{2}胜！	0=name color,1=player name,2=Arena Wins
 GLOBAL_SOCIAL_TOAST_FRIEND_DRUID_LEVEL	<color=#{0}>{1}</color>成为了一个{2}级的德鲁伊。	0=name color,1=player name,2=level
+GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK	<color=#{0}>{1}</color>的排名到达了{2}级!	0=name color,1=player name,2=medal rank
 GLOBAL_SOCIAL_TOAST_FRIEND_GOLDEN_LEGENDARY	<color=#{0}>{1}</color>打开扩展包获得了<color=#{3}>金色的{2}</color>！	0=name color,1=player name,2=card name,3=Golden Color
 GLOBAL_SOCIAL_TOAST_FRIEND_HUNTER_LEVEL	<color=#{0}>{1}</color>成为了一个{2}级的猎人。	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_ILLIDAN_COMPLETE	<color=#{0}>{1}</color>击败了伊利丹·怒风！	0=name color,1=player name
@@ -539,18 +544,29 @@ GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_BATTLING	等待下一场对战开始
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_ENTERING	等待下一场对战开始。\n\n{0}正在进入{1}。	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_ADVENTURE_MODE_* from PRESENCE.txt (e.g. "Jane Doe is entering Naxxramas")
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_OFFLINE	等待下一场对战开始。\n\n{0}已经下线。	0=player name; same string as above, except shown when player is offline.
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_PLAYING	等待下一场对战开始。\n\n{0}正在进行{1}。	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_SCENARIO_*_CLASS_CHALLENGE_* from PRESENCE.txt (e.g. "Jane Doe is playing Naxxramas Paladin Challenge")
-GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TIMEOUT	你正在观看的玩家没有及时开始下一场对战。你已经退出了观看模式。	
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TIMEOUT	你正在观看的玩家没有及时开始下一场对战。你已经退出了观众模式。	
 GLOBAL_SPLASH_CLOSED_RECONNECTING	正在重新连接	
 GLOBAL_SPLASH_CLOSED_SIGN_TITLE	关闭	
 GLOBAL_STORE_MOBILE_NAME_AMAZON	亚马逊应用商店	
 GLOBAL_STORE_MOBILE_NAME_APPLE	苹果应用商店	
 GLOBAL_STORE_MOBILE_NAME_DEFAULT	暴雪商城	
 GLOBAL_STORE_MOBILE_NAME_GOOGLE	谷歌应用商店	
-GLOBAL_STORE_MOBILE_NAME_SAMSUNG	三星应用商店	
 GLOBAL_SUPPORT	用户支持	
 GLOBAL_TOOLTIP_FRIEND_BUTTON_DESC	和你的好友聊天或发起挑战	
 GLOBAL_TOOLTIP_FRIEND_BUTTON_HEADER	好友	
 GLOBAL_TOOLTIP_MENU_DESC	查看选项中的内容，你可以从那里退出游戏，或进行更多的设置。	
 GLOBAL_TOOLTIP_MENU_HEADER	游戏菜单	
+GLOBAL_TUTORIAL_ATTACK	攻击力	
+GLOBAL_TUTORIAL_ATTACKER	攻击者	
+GLOBAL_TUTORIAL_COST	消耗	
+GLOBAL_TUTORIAL_DEFENDER	防御者	
+GLOBAL_TUTORIAL_HEALTH	生命值	
+GLOBAL_TUTORIAL_HERO_POWER	英雄技能	
+GLOBAL_TUTORIAL_MINION	随从	
+GLOBAL_TUTORIAL_TAUNT	嘲讽	
+GLOBAL_TUTORIAL_TAUNT_DESCRIPTION	敌人必须攻击这个随从	
+GLOBAL_TUTORIAL_USED	已使用	
+GLOBAL_TUTORIAL_YOUR_MANA	你的法力值	
+GLOBAL_TUTORIAL_YOUR_TURN	你的回合	
 GLOBAL_VERSION	版本	
 GLOBAL_WINS	胜利	

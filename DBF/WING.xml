@@ -4,16 +4,19 @@
 	<Column name="NOTE_DESC" type="String" comment="designer note" />
 	<Column name="ADVENTURE_ID" type="Int" comment="ASSET.ADVENTURE.ID" />
 	<Column name="SORT_ORDER" type="Int" comment="sort order of this wing in its adventure" />
-	<Column name="OWNED_FLAG" type="String" comment="Owned flag to check for." />
-	<Column name="PLAYABLE_FLAG" type="String" comment="Playable flag to check for." />
+	<Column name="REQUIRED_EVENT" type="String" comment="EVENT_TMING.EVENT that must have started before this wing can be played" />
+	<Column name="OWNERSHIP_PREREQ_WING_ID" type="Int" comment="Describes ANOTHER wing that needs to be owned before THIS wing can be bought." />
 	<Column name="NAME" type="LocString" />
+	<Column name="CLASS_CHALLENGE_REWARD_SOURCE_TEXT" type="LocString" />
+	<Column name="UNLOCK_SPELL_PREFAB" type="AssetPath" />
+	<Column name="ACCENT_PREFAB" type="AssetPath" />
 	<Record>
 		<Field column="ID">1</Field>
 		<Field column="NOTE_DESC">Arachnid</Field>
 		<Field column="ADVENTURE_ID">3</Field>
 		<Field column="SORT_ORDER">1</Field>
-		<Field column="OWNED_FLAG">naxx1_owned</Field>
-		<Field column="PLAYABLE_FLAG">naxx1_playable</Field>
+		<Field column="REQUIRED_EVENT">naxx_1</Field>
+		<Field column="OWNERSHIP_PREREQ_WING_ID">0</Field>
 		<Field column="NAME">
 			<enUS>Arachnid Quarter</enUS>
 			<zhTW>蜘蛛區</zhTW>
@@ -28,14 +31,30 @@
 			<esES>Arrabal Arácnido</esES>
 			<deDE>Arachnidenviertel</deDE>
 		</Field>
+		<Field column="CLASS_CHALLENGE_REWARD_SOURCE_TEXT">
+			<enUS>You can also attempt the insanely difficult Heroic Arachnid Quarter!</enUS>
+			<zhTW>你也可以試試看困難到會令人抓狂的英雄難度蜘蛛區!</zhTW>
+			<zhCN>你还能够尝试挑战极度困难的英雄难度蜘蛛区！</zhCN>
+			<ruRU>Вы также можете попробовать пройти безумно сложную героическую версию Паучьего квартала!</ruRU>
+			<ptBR>Você também pode tentar o ridiculamente difícil modo Heroico do Distrito dos Aracnídeos!</ptBR>
+			<plPL>Możesz także spróbować swoich sił w masakrycznie trudnym Heroicznym Rewirze Arachnidów!</plPL>
+			<koKR>영웅 난이도 거미 지구에도 도전해 보세요!</koKR>
+			<itIT>Ora puoi provare ad affrontare l'Ala degli Aracnidi in versione Eroica!</itIT>
+			<frFR>Vous pouvez aussi essayer le quartier des Arachnides en mode héroïque !</frFR>
+			<esMX>Si te atreves, también puedes adentrarte en el Arrabal Arácnido en modo heroico.</esMX>
+			<esES>También puedes probar el modo heroico del Arrabal Arácnido. ¡Es muy difícil!</esES>
+			<deDE>Außerdem ist jetzt das extrem schwierige heroische Arachnidenviertel verfügbar.</deDE>
+		</Field>
+		<Field column="UNLOCK_SPELL_PREFAB">Assets/Game/GameObjects/AdvPlateFX_NAX_Arachnid</Field>
+		<Field column="ACCENT_PREFAB">Assets/Game/GameObjects/AdvTrayHeaderIcon_Nax_Arachnid</Field>
 	</Record>
 	<Record>
 		<Field column="ID">2</Field>
 		<Field column="NOTE_DESC">Plague</Field>
 		<Field column="ADVENTURE_ID">3</Field>
 		<Field column="SORT_ORDER">2</Field>
-		<Field column="OWNED_FLAG">naxx2_owned</Field>
-		<Field column="PLAYABLE_FLAG">naxx2_playable</Field>
+		<Field column="REQUIRED_EVENT">naxx_2</Field>
+		<Field column="OWNERSHIP_PREREQ_WING_ID">1</Field>
 		<Field column="NAME">
 			<enUS>Plague Quarter</enUS>
 			<zhTW>瘟疫區</zhTW>
@@ -50,14 +69,30 @@
 			<esES>Arrabal de la Peste</esES>
 			<deDE>Seuchenviertel</deDE>
 		</Field>
+		<Field column="CLASS_CHALLENGE_REWARD_SOURCE_TEXT">
+			<enUS>You can also attempt the insanely difficult Heroic Plague Quarter!</enUS>
+			<zhTW>你也可以試試看困難到會令人抓狂的英雄難度瘟疫區!</zhTW>
+			<zhCN>你还能够尝试挑战极度困难的英雄难度瘟疫区！</zhCN>
+			<ruRU>Вы также можете попробовать пройти безумно сложную героическую версию Чумного квартала!</ruRU>
+			<ptBR>Você também pode tentar o ridiculamente difícil modo Heroico do Distrito da Peste!</ptBR>
+			<plPL>Możesz także spróbować swoich sił w masakrycznie trudnym Heroicznym Rewirze Zarazy!</plPL>
+			<koKR>영웅 난이도 역병 지구에도 도전해 보세요!</koKR>
+			<itIT>Ora puoi provare ad affrontare l'Ala della Pestilenza in versione Eroica!</itIT>
+			<frFR>Vous pouvez aussi essayer le quartier de la Peste en mode héroïque !</frFR>
+			<esMX>Si te atreves, también puedes adentrarte en el Arrabal de la peste en modo heroico.</esMX>
+			<esES>También puedes probar el modo heroico del Arrabal de la Peste. ¡Es muy difícil!</esES>
+			<deDE>Außerdem ist jetzt das extrem schwierige heroische Seuchenviertel verfügbar.</deDE>
+		</Field>
+		<Field column="UNLOCK_SPELL_PREFAB">Assets/Game/GameObjects/AdvPlateFX_NAX_Plague</Field>
+		<Field column="ACCENT_PREFAB">Assets/Game/GameObjects/AdvTrayHeaderIcon_Nax_Plague</Field>
 	</Record>
 	<Record>
 		<Field column="ID">3</Field>
 		<Field column="NOTE_DESC">Military</Field>
 		<Field column="ADVENTURE_ID">3</Field>
 		<Field column="SORT_ORDER">3</Field>
-		<Field column="OWNED_FLAG">naxx3_owned</Field>
-		<Field column="PLAYABLE_FLAG">naxx3_playable</Field>
+		<Field column="REQUIRED_EVENT">naxx_3</Field>
+		<Field column="OWNERSHIP_PREREQ_WING_ID">2</Field>
 		<Field column="NAME">
 			<enUS>Military Quarter</enUS>
 			<zhTW>軍事區</zhTW>
@@ -72,14 +107,30 @@
 			<esES>Arrabal Militar</esES>
 			<deDE>Militärviertel</deDE>
 		</Field>
+		<Field column="CLASS_CHALLENGE_REWARD_SOURCE_TEXT">
+			<enUS>You can also attempt the insanely difficult Heroic Military Quarter!</enUS>
+			<zhTW>你也可以試試看困難到會令人抓狂的英雄難度軍事區!</zhTW>
+			<zhCN>你还能够尝试挑战极度困难的英雄难度军事区！</zhCN>
+			<ruRU>Вы также можете попробовать пройти безумно сложную героическую версию Военного квартала!</ruRU>
+			<ptBR>Você também pode tentar o ridiculamente difícil modo Heroico do Distrito Militar!</ptBR>
+			<plPL>Możesz także spróbować swoich sił w masakrycznie trudnym Heroicznym Rewirze Zbrojnych!</plPL>
+			<koKR>영웅 난이도 군사 지구에도 도전해 보세요!</koKR>
+			<itIT>Ora puoi provare ad affrontare l'Ala dei Combattenti in versione Eroica!</itIT>
+			<frFR>Vous pouvez aussi essayer le quartier Militaire en mode héroïque !</frFR>
+			<esMX>Si te atreves, también puedes adentrarte en el Arrabal Militar en modo heroico.</esMX>
+			<esES>También puedes probar el modo heroico del Arrabal Militar. ¡Es muy difícil!</esES>
+			<deDE>Außerdem ist jetzt das extrem schwierige heroische Militärviertel verfügbar.</deDE>
+		</Field>
+		<Field column="UNLOCK_SPELL_PREFAB">Assets/Game/GameObjects/AdvPlateFX_NAX_Military</Field>
+		<Field column="ACCENT_PREFAB">Assets/Game/GameObjects/AdvTrayHeaderIcon_Nax_Military</Field>
 	</Record>
 	<Record>
 		<Field column="ID">4</Field>
 		<Field column="NOTE_DESC">Construct</Field>
 		<Field column="ADVENTURE_ID">3</Field>
 		<Field column="SORT_ORDER">4</Field>
-		<Field column="OWNED_FLAG">naxx4_owned</Field>
-		<Field column="PLAYABLE_FLAG">naxx4_playable</Field>
+		<Field column="REQUIRED_EVENT">naxx_4</Field>
+		<Field column="OWNERSHIP_PREREQ_WING_ID">3</Field>
 		<Field column="NAME">
 			<enUS>Construct Quarter</enUS>
 			<zhTW>傀儡區</zhTW>
@@ -94,14 +145,30 @@
 			<esES>Arrabal de los Ensamblajes</esES>
 			<deDE>Konstruktviertel</deDE>
 		</Field>
+		<Field column="CLASS_CHALLENGE_REWARD_SOURCE_TEXT">
+			<enUS>You can also attempt the insanely difficult Heroic Construct Quarter!</enUS>
+			<zhTW>你也可以試試看困難到會令人抓狂的英雄難度傀儡區!</zhTW>
+			<zhCN>你还能够尝试挑战极度困难的英雄难度构造区！</zhCN>
+			<ruRU>Вы также можете попробовать пройти безумно сложную героическую версию Квартала Мерзости!</ruRU>
+			<ptBR>Você também pode tentar o ridiculamente difícil modo Heroico do Distrito dos Constructos!</ptBR>
+			<plPL>Możesz także spróbować swoich sił w masakrycznie trudnym Heroicznym Rewirze Konstruktów!</plPL>
+			<koKR>영웅 난이도 피조물 지구에도 도전해 보세요!</koKR>
+			<itIT>Ora puoi provare ad affrontare l'Ala dei Costrutti in versione Eroica!</itIT>
+			<frFR>Vous pouvez aussi essayer le quartier des Assemblages en mode héroïque !</frFR>
+			<esMX>Si te atreves, también puedes adentrarte en el Arrabal de los Ensamblajes en modo heroico.</esMX>
+			<esES>También puedes probar el modo heroico del Arrabal de los Ensamblajes. ¡Es muy difícil!</esES>
+			<deDE>Außerdem ist jetzt das extrem schwierige heroische Konstruktviertel verfügbar.</deDE>
+		</Field>
+		<Field column="UNLOCK_SPELL_PREFAB">Assets/Game/GameObjects/AdvPlateFX_NAX_Construct</Field>
+		<Field column="ACCENT_PREFAB">Assets/Game/GameObjects/AdvTrayHeaderIcon_Nax_Construct</Field>
 	</Record>
 	<Record>
 		<Field column="ID">5</Field>
 		<Field column="NOTE_DESC">Frostwyrm</Field>
 		<Field column="ADVENTURE_ID">3</Field>
 		<Field column="SORT_ORDER">5</Field>
-		<Field column="OWNED_FLAG">naxx5_owned</Field>
-		<Field column="PLAYABLE_FLAG">naxx5_playable</Field>
+		<Field column="REQUIRED_EVENT">naxx_5</Field>
+		<Field column="OWNERSHIP_PREREQ_WING_ID">4</Field>
 		<Field column="NAME">
 			<enUS>Frostwyrm Lair</enUS>
 			<zhTW>冰霜巨龍巢穴</zhTW>
@@ -116,5 +183,206 @@
 			<esES>Guarida de la Vermis</esES>
 			<deDE>Spitze der Nekropole</deDE>
 		</Field>
+		<Field column="CLASS_CHALLENGE_REWARD_SOURCE_TEXT">
+			<enUS>You can also attempt the insanely difficult Heroic Frostwyrm Lair!</enUS>
+			<zhTW>你也可以試試看困難到會令人抓狂的冰霜巨龍巢穴!</zhTW>
+			<zhCN>你还能够尝试挑战极度困难的英雄难度冰龙巢穴！</zhCN>
+			<ruRU>Вы также можете попробовать пройти безумно сложную героическую версию Логова ледяного змея!</ruRU>
+			<ptBR>Você também pode tentar o ridiculamente difícil modo Heroico do Covil da Serpe Gélida!</ptBR>
+			<plPL>Możesz także spróbować swoich sił w masakrycznie trudnym Heroicznym Leżu Żmija Mrozu!</plPL>
+			<koKR>영웅 난이도 서리고룡 둥지에도 도전해 보세요!</koKR>
+			<itIT>Ora puoi provare ad affrontare l'Antro del Gelo in versione Eroica!</itIT>
+			<frFR>Vous pouvez aussi essayer l’antre du Wyrm de givre en mode héroïque !</frFR>
+			<esMX>Si te atreves, también puedes adentrarte en la Guarida de la Vermis en modo heroico.</esMX>
+			<esES>También puedes probar el modo heroico de la Guarida de la Vermis. ¡Es muy difícil!</esES>
+			<deDE>Außerdem ist jetzt die extrem schwierige heroische Spitze der Nekropole verfügbar.</deDE>
+		</Field>
+		<Field column="UNLOCK_SPELL_PREFAB">Assets/Game/GameObjects/AdvPlateFX_NAX_FrostWyrm</Field>
+		<Field column="ACCENT_PREFAB">Assets/Game/GameObjects/AdvTrayHeaderIcon_Nax_FrostWyrm</Field>
+	</Record>
+	<Record>
+		<Field column="ID">6</Field>
+		<Field column="NOTE_DESC">Blackrock Depths</Field>
+		<Field column="ADVENTURE_ID">4</Field>
+		<Field column="SORT_ORDER">1</Field>
+		<Field column="REQUIRED_EVENT">brm_1</Field>
+		<Field column="OWNERSHIP_PREREQ_WING_ID">0</Field>
+		<Field column="NAME">
+			<enUS>Blackrock Depths</enUS>
+			<deDE>Schwarzfelstiefen</deDE>
+			<esES>Profundidades de Roca Negra</esES>
+			<esMX>Profundidades de Roca Negra</esMX>
+			<frFR>Profondeurs de Rochenoire</frFR>
+			<itIT>Sotterranei di Roccianera</itIT>
+			<koKR>검은바위 나락</koKR>
+			<plPL>Otchłań Czarnej Góry</plPL>
+			<ptBR>Abismo Rocha Negra</ptBR>
+			<ruRU>Глубины Черной горы</ruRU>
+			<zhCN>黑石深渊</zhCN>
+			<zhTW>黑石深淵</zhTW>
+		</Field>
+		<Field column="CLASS_CHALLENGE_REWARD_SOURCE_TEXT">
+			<enUS>You can also attempt the insanely difficult Heroic Blackrock Depths!</enUS>
+			<deDE>Außerdem sind jetzt die extrem schwierigen heroischen Schwarzfelstiefen verfügbar.</deDE>
+			<esES>También puedes probar el modo heroico de las Profundidades de Roca Negra. ¡Es muy difícil!</esES>
+			<esMX>Si te atreves, también puedes adentrarte en las Profundidades de Roca Negra en modo heroico.</esMX>
+			<frFR>Vous pouvez aussi essayer les profondeurs de Rochenoire en mode héroïque !</frFR>
+			<itIT>Ora puoi provare ad affrontare i Sotterranei di Roccianera in versione Eroica!</itIT>
+			<koKR>영웅 난이도 검은바위 나락에도 도전해 보세요!</koKR>
+			<plPL>Możesz także spróbować swoich sił w masakrycznie trudnej Heroicznej Otchłani Czarnej Góry!</plPL>
+			<ptBR>Você também pode tentar o ridiculamente difícil Abismo Rocha Negra Heroico!</ptBR>
+			<ruRU>Вы также можете попробовать пройти безумно сложную героическую версию Глубин Черной горы!</ruRU>
+			<zhCN>你还能够尝试挑战极度困难的英雄难度黑石深渊！</zhCN>
+			<zhTW>你也可以試試看困難到會令人抓狂的英雄難度黑石深淵!</zhTW>
+		</Field>
+		<Field column="ACCENT_PREFAB">Assets/Game/GameObjects/AdvTrayHeaderIcon_BRM_BlackrockDepths</Field>
+	</Record>
+	<Record>
+		<Field column="ID">7</Field>
+		<Field column="NOTE_DESC">Molten Core</Field>
+		<Field column="ADVENTURE_ID">4</Field>
+		<Field column="SORT_ORDER">2</Field>
+		<Field column="REQUIRED_EVENT">brm_2</Field>
+		<Field column="OWNERSHIP_PREREQ_WING_ID">6</Field>
+		<Field column="NAME">
+			<enUS>Molten Core</enUS>
+			<deDE>Geschmolzener Kern</deDE>
+			<esES>Núcleo de magma</esES>
+			<esMX>Núcleo de magma</esMX>
+			<frFR>Cœur du Magma</frFR>
+			<itIT>Nucleo Ardente</itIT>
+			<koKR>화산 심장부</koKR>
+			<plPL>Ognista Czeluść</plPL>
+			<ptBR>Núcleo Derretido</ptBR>
+			<ruRU>Огненные Недра</ruRU>
+			<zhCN>熔火之心</zhCN>
+			<zhTW>熔火之心</zhTW>
+		</Field>
+		<Field column="CLASS_CHALLENGE_REWARD_SOURCE_TEXT">
+			<enUS>You can also attempt the insanely difficult Heroic Molten Core!</enUS>
+			<deDE>Außerdem ist jetzt der extrem schwierige heroische Geschmolzene Kern verfügbar.</deDE>
+			<esES>También puedes probar el modo heroico del Núcleo de Magma. ¡Es muy difícil!</esES>
+			<esMX>Si te atreves, también puedes adentrarte en el Núcleo de magma en modo heroico.</esMX>
+			<frFR>Vous pouvez aussi essayer le cœur du Magma en mode héroïque !</frFR>
+			<itIT>Ora puoi provare ad affrontare il Nucleo Ardente in versione Eroica!</itIT>
+			<koKR>영웅 난이도 화산 심장부에도 도전해 보세요!</koKR>
+			<plPL>Możesz także spróbować swoich sił w masakrycznie trudnej Heroicznej Ognistej Czeluści!</plPL>
+			<ptBR>Você também pode tentar o ridiculamente difícil Núcleo Derretido Heroico!</ptBR>
+			<ruRU>Вы также можете попробовать пройти безумно сложную героическую версию Огненных Недр!</ruRU>
+			<zhCN>你还能够尝试挑战极度困难的英雄难度熔火之心！</zhCN>
+			<zhTW>你也可以試試看困難到會令人抓狂的英雄難度熔火之心!</zhTW>
+		</Field>
+		<Field column="ACCENT_PREFAB">Assets/Game/GameObjects/AdvTrayHeaderIcon_BRM_MoltenCore</Field>
+	</Record>
+	<Record>
+		<Field column="ID">8</Field>
+		<Field column="NOTE_DESC">Blackrock Spire</Field>
+		<Field column="ADVENTURE_ID">4</Field>
+		<Field column="SORT_ORDER">3</Field>
+		<Field column="REQUIRED_EVENT">brm_3</Field>
+		<Field column="OWNERSHIP_PREREQ_WING_ID">7</Field>
+		<Field column="NAME">
+			<enUS>Blackrock Spire</enUS>
+			<deDE>Schwarzfelsspitze</deDE>
+			<esES>Cumbre de Roca Negra</esES>
+			<esMX>Cumbre de Roca Negra</esMX>
+			<frFR>Pic Rochenoire</frFR>
+			<itIT>Bastioni di Roccianera</itIT>
+			<koKR>검은바위 첨탑</koKR>
+			<plPL>Iglica Czarnej Góry</plPL>
+			<ptBR>Pico da Rocha Negra</ptBR>
+			<ruRU>Пик Черной горы</ruRU>
+			<zhCN>黑石塔</zhCN>
+			<zhTW>黑石塔</zhTW>
+		</Field>
+		<Field column="CLASS_CHALLENGE_REWARD_SOURCE_TEXT">
+			<enUS>You can also attempt the insanely difficult Heroic Blackrock Spire!</enUS>
+			<deDE>Außerdem ist jetzt die extrem schwierige heroische Schwarzfelsspitze verfügbar.</deDE>
+			<esES>También puedes probar el modo heroico de la Cumbre de Roca Negra. ¡Es muy difícil!</esES>
+			<esMX>Si te atreves, también puedes adentrarte en la Cumbre de Roca Negra en modo heroico.</esMX>
+			<frFR>Vous pouvez aussi essayer le pic Rochenoire en mode héroïque !</frFR>
+			<itIT>Ora puoi provare ad affrontare i Bastioni di Roccianera in versione Eroica!</itIT>
+			<koKR>영웅 난이도 검은바위 첨탑에도 도전해 보세요!</koKR>
+			<plPL>Możesz także spróbować swoich sił w masakrycznie trudnej Heroicznej Iglicy Czarnej Góry!</plPL>
+			<ptBR>Você também pode tentar o ridiculamente difícil Pico da Rocha Negra Heroico!</ptBR>
+			<ruRU>Вы также можете попробовать пройти безумно сложную героическую версию Пика Черной горы!</ruRU>
+			<zhCN>你还能够尝试挑战极度困难的英雄难度黑石塔！</zhCN>
+			<zhTW>你也可以試試看困難到會令人抓狂的英雄難度黑石塔!</zhTW>
+		</Field>
+		<Field column="ACCENT_PREFAB">Assets/Game/GameObjects/AdvTrayHeaderIcon_BRM_BlackrockSpire</Field>
+	</Record>
+	<Record>
+		<Field column="ID">9</Field>
+		<Field column="NOTE_DESC">Blackwing Lair</Field>
+		<Field column="ADVENTURE_ID">4</Field>
+		<Field column="SORT_ORDER">4</Field>
+		<Field column="REQUIRED_EVENT">brm_4</Field>
+		<Field column="OWNERSHIP_PREREQ_WING_ID">8</Field>
+		<Field column="NAME">
+			<enUS>Blackwing Lair</enUS>
+			<deDE>Pechschwingenhort</deDE>
+			<esES>Guarida de Alanegra</esES>
+			<esMX>Guarida de Alanegra</esMX>
+			<frFR>Repaire de l’Aile noire</frFR>
+			<itIT>Fortezza dell'Ala Nera</itIT>
+			<koKR>검은날개 둥지</koKR>
+			<plPL>Leże Czarnoskrzydłego</plPL>
+			<ptBR>Covil Asa Negra</ptBR>
+			<ruRU>Логово Крыла Тьмы</ruRU>
+			<zhCN>黑翼之巢</zhCN>
+			<zhTW>黑翼之巢</zhTW>
+		</Field>
+		<Field column="CLASS_CHALLENGE_REWARD_SOURCE_TEXT">
+			<enUS>You can also attempt the insanely difficult Heroic Blackwing Lair!</enUS>
+			<deDE>Außerdem ist jetzt der extrem schwierige heroische Pechschwingenhort verfügbar.</deDE>
+			<esES>También puedes probar el modo heroico de la Guarida de Alanegra. ¡Es muy difícil!</esES>
+			<esMX>Si te atreves, también puedes adentrarte en la Guarida de Alanegra en modo heroico.</esMX>
+			<frFR>Vous pouvez aussi essayer le repaire de l'Aile noire en mode héroïque !</frFR>
+			<itIT>Ora puoi provare ad affrontare la Fortezza dell'Ala Nera in versione Eroica!</itIT>
+			<koKR>영웅 난이도 검은날개 둥지에도 도전해 보세요!</koKR>
+			<plPL>Możesz także spróbować swoich sił w masakrycznie trudnym Heroicznym Leżu Czarnoskrzydłego!</plPL>
+			<ptBR>Você também pode tentar o ridiculamente difícil Covil Asa Negra Heroico!</ptBR>
+			<ruRU>Вы также можете попробовать пройти безумно сложную героическую версию Логова Крыла Тьмы!</ruRU>
+			<zhCN>你还能够尝试挑战极度困难的英雄难度黑翼之巢！</zhCN>
+			<zhTW>你也可以試試看困難到會令人抓狂的英雄難度黑翼之巢!</zhTW>
+		</Field>
+		<Field column="ACCENT_PREFAB">Assets/Game/GameObjects/AdvTrayHeaderIcon_BRM_BlackwingLair</Field>
+	</Record>
+	<Record>
+		<Field column="ID">10</Field>
+		<Field column="NOTE_DESC">The Hidden Laboratory</Field>
+		<Field column="ADVENTURE_ID">4</Field>
+		<Field column="SORT_ORDER">5</Field>
+		<Field column="REQUIRED_EVENT">brm_5</Field>
+		<Field column="OWNERSHIP_PREREQ_WING_ID">9</Field>
+		<Field column="NAME">
+			<enUS>The Hidden Laboratory</enUS>
+			<deDE>Das Geheimlabor</deDE>
+			<esES>Laboratorio Secreto</esES>
+			<esMX>Laboratorio oculto</esMX>
+			<frFR>Laboratoire secret</frFR>
+			<itIT>Laboratorio Segreto</itIT>
+			<koKR>숨겨진 연구실</koKR>
+			<plPL>Ukryte Laboratorium</plPL>
+			<ptBR>O Laboratório Oculto</ptBR>
+			<ruRU>Тайная лаборатория</ruRU>
+			<zhCN>秘密实验室</zhCN>
+			<zhTW>隱藏的實驗室</zhTW>
+		</Field>
+		<Field column="CLASS_CHALLENGE_REWARD_SOURCE_TEXT">
+			<enUS>You can also attempt the insanely difficult The Heroic Hidden Laboratory!</enUS>
+			<deDE>Außerdem ist jetzt das extrem schwierige heroische Geheimlabor verfügbar.</deDE>
+			<esES>También puedes probar el modo heroico del Laboratorio Secreto. ¡Es muy difícil!</esES>
+			<esMX>Si te atreves, también puedes adentrarte en el Laboratorio oculto en modo heroico.</esMX>
+			<frFR>Vous pouvez aussi essayer le laboratoire secret en mode héroïque !</frFR>
+			<itIT>Ora puoi provare ad affrontare il Laboratorio Segreto in versione Eroica!</itIT>
+			<koKR>영웅 난이도 숨겨진 연구실에도 도전해 보세요!</koKR>
+			<plPL>Możesz także spróbować swoich sił w masakrycznie trudnym Heroicznym Ukrytym Laboratorium!</plPL>
+			<ptBR>Você também pode tentar o ridiculamente difícil Laboratório Oculto Heroico!</ptBR>
+			<ruRU>Вы также можете попробовать пройти безумно сложную героическую версию Тайной лаборатории!</ruRU>
+			<zhCN>你还能够尝试挑战极度困难的英雄难度秘密实验室！</zhCN>
+			<zhTW>你也可以試試看困難到會令人抓狂的英雄難度隱藏的實驗室!</zhTW>
+		</Field>
+		<Field column="ACCENT_PREFAB">Assets/Game/GameObjects/AdvTrayHeaderIcon_BRM_HiddenLaboratory</Field>
 	</Record>
 </Dbf>

@@ -31,6 +31,8 @@ GLOBAL_BUTTON_NO	Não
 GLOBAL_BUTTON_OK	Ok	
 GLOBAL_BUTTON_YES	Sim	
 GLOBAL_CANCEL	Cancelar	
+GLOBAL_CARD_SET_BRM	Montanha Rocha Negra	
+GLOBAL_CARD_SET_BRM_SEARCHABLE_SHORTHAND_NAMES	mrn	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_CORE	Básico	
 GLOBAL_CARD_SET_EXPERT1	Clássico	
 GLOBAL_CARD_SET_GVG	Goblins x Gnomos	
@@ -110,7 +112,7 @@ GLOBAL_DATETIME_SPLASHSCREEN_SECONDS	< 1 min
 GLOBAL_DATETIME_SPLASHSCREEN_WEEKS	{0} |4(semana,semanas)	
 GLOBAL_DEFAULT_ALERT_HEADER	Alerta	
 GLOBAL_DONE	Pronto	
-GLOBAL_ERROR_ACCOUNT_LICENSES	Tivemos problemas ao verificar o que você possui, então algumas coisas podem estar faltando. Pedimos desculpas! Tentaremos novamente da próxima vez que você conectar.	
+GLOBAL_ERROR_ACCOUNT_LICENSES	Tivemos problemas ao verificar o que você possui, então algumas coisas podem estar faltando. Pedimos desculpas! Tentaremos de novo da próxima vez que você conectar.	
 GLOBAL_ERROR_ASSET_CREATE_PERSISTENT_DATA_PATH	Não foi possível criar uma pasta para salvar dados em {0}.	0=folder path
 GLOBAL_ERROR_ASSET_DOWNLOAD_FAILED	Não foi possível baixar recurso {0}.	0=asset name
 GLOBAL_ERROR_ASSET_INCORRECT_DATA	Recurso {0} contém dados incorretos.	0=asset name
@@ -183,7 +185,6 @@ GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_THEYRE_UNAVAILABLE	Não é possível desafiar
 GLOBAL_FRIENDLIST_CURRENT_GAMES_HEADER	JOGOS ATUAIS - {0}	0=number of friends you have unfinished games with
 GLOBAL_FRIENDLIST_FRIENDS_HEADER	AMIGOS - {0}/{1} |4(conectado,conectados)	0=number of online friends 1=number of offline friends
 GLOBAL_FRIENDLIST_FRIENDS_HEADER_ALL_ONLINE	AMIGOS - {0} |4(conectado,conectados)	
-GLOBAL_FRIENDLIST_FRIENDS_HEADER_NO_ONLINE	AMIGOS	
 GLOBAL_FRIENDLIST_LASTPLAYED	Jogado pela última vez:	
 GLOBAL_FRIENDLIST_MYSTATUS	CONECTADO	
 GLOBAL_FRIENDLIST_NEARBY_PLAYERS_HEADER	JOGADORES PRÓXIMOS - {0}	0=number of players
@@ -204,8 +205,8 @@ GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_INVITED_TEXT	Convite enviado para {0} começa
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_KICK_HEADER	Expulsar	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_KICK_TEXT	{0} está observando você. Clique aqui para remover esse espectador.	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_KICK_TEXT_TOUCH	{0} está observando você. Toque aqui para remover esse espectador.	
-GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_PREVIOUSLY_KICKED_HEADER	Impossível observar	
-GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_PREVIOUSLY_KICKED_TEXT	Você foi anteriormente removido como observador deste jogador. Não é possível tentar observá-lo novamente.	
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_PREVIOUSLY_KICKED_HEADER	Não é possível observar	
+GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_PREVIOUSLY_KICKED_TEXT	Você já foi impedido de observar este jogador. Não é possível tentar observá-lo novamente.	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_RECEIVED_INVITE_TEXT	{0} convidou você para ser espectador. Clique aqui para começar a assistir.	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_RECEIVED_INVITE_TEXT_TOUCH	{0} convidou você para ser espectador. Toque aqui para começar a assistir.	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_SPECTATING_HEADER	No modo Espectador	
@@ -233,6 +234,7 @@ GLOBAL_HERO_LEVEL_REWARD_BOOSTER	{0} pacotes	0=booster type
 GLOBAL_HERO_LEVEL_REWARD_GOLD	{0} de ouro	0=amount
 GLOBAL_HERO_LEVEL_REWARD_GOLDEN_CARD	{1} {0}	0=flair 1=card name
 GLOBAL_HERO_WINS	Vitórias: {0}/{1}	0=number of games this class has won 1=number of wins to get golden
+GLOBAL_HERO_WINS_PHONE	Vitórias\n{0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_KEYWORD_AUTOCAST	Lançamento automático	
 GLOBAL_KEYWORD_AUTOCAST_TEXT	Este Poder Heroico TEM que ser usado todos os turnos.	
 GLOBAL_KEYWORD_BATTLECRY	Grito de Guerra	
@@ -279,7 +281,7 @@ GLOBAL_KEYWORD_WINDFURY_TEXT	Pode atacar duas vezes por turno.
 GLOBAL_LANGUAGE_CHANGE_CONFIRM_MESSAGE	Isto interromperá sua atividade atual. Tem certeza?	
 GLOBAL_LANGUAGE_CHANGE_CONFIRM_TITLE	Mudar idioma?	
 GLOBAL_LANGUAGE_DEDE	Alemão	
-GLOBAL_LANGUAGE_DOWNLOAD_VOICE_PACK	Baixar pacote de vozes	
+GLOBAL_LANGUAGE_DOWNLOAD_VOICE_PACK	(DEV) Pacote de vozes baixado	
 GLOBAL_LANGUAGE_DROPDOWN	Idioma	
 GLOBAL_LANGUAGE_ENGB	Inglês (Grã-Bretanha)	
 GLOBAL_LANGUAGE_ENUS	Inglês (Estados Unidos)	
@@ -348,13 +350,15 @@ GLOBAL_MEDAL_TOOLTIP_BODY	Vença partidas de torneio para avançar para o próxi
 GLOBAL_MEDAL_TOOLTIP_BODY_ARENA_GRAND_MASTER	Você está entre os campeões da Arena!	
 GLOBAL_MEDAL_TOOLTIP_BODY_LEGEND	Você é uma lenda! Sua posição neste ranque mudará com cada partida.	
 GLOBAL_MEDAL_TOOLTIP_HEADER	Medalha: {0}	0=medal name
+GLOBAL_MEDAL_TOURNAMENT_TOOLTIP_BODY	Primeiros {0}% no modo jogo ranqueado desta temporada\n\nPróximo ranque:\n{1}	0=rank percentile 1=medal name
 GLOBAL_MOBILE_ERROR_ANDROID_PHONE_DETECTED	No momento, o Hearthstone só roda em tablets Android de 6" ou maior.	
 GLOBAL_MOBILE_ERROR_BREAKING_NEWS	Últimas notícias:\n\n{0}	
-GLOBAL_MOBILE_ERROR_IPAD1_DETECTED	Desculpe, o Hearthstone requer iPad 2 ou mais recente.	
 GLOBAL_MOBILE_ERROR_LOGON_WEB_TIMEOUT	Faz algum tempo que você executou uma ação em Hearthstone e sua conexão foi fechada.	
 GLOBAL_MOBILE_ERROR_NETWORK_DISCONNECT	Você foi desconectado.	
 GLOBAL_MOBILE_ERROR_NETWORK_SPAM	Você foi desconectado por enviar solicitações demais muito depressa.	
 GLOBAL_MOBILE_ERROR_NETWORK_UTIL_TIMEOUT	Sua conexão expirou enquanto requisitava dados dos servidores de Hearthstone.	
+GLOBAL_MOBILE_ERROR_UNSUPPORTED_IOS_PHONE_DETECTED	Desculpe, Hearthstone requer iPhone 4S ou iPod Touch 5 ou mais recente.	
+GLOBAL_MOBILE_ERROR_UNSUPPORTED_IOS_TABLET_DETECTED	Desculpe, Hearthstone requer iPad 2 ou mais recente.	
 GLOBAL_MOBILE_LOG_IN_TOOLTIP	Conecte-se se tiver uma conta!	
 GLOBAL_MOBILE_LOGIN_POINTER	Conecte-se aqui	
 GLOBAL_MOBILE_TAP_TO_RECONNECT	Toque em qualquer lugar para reconectar	
@@ -364,11 +368,15 @@ GLOBAL_MOBILECHAT_NOTIFICATION_TURN_COUNTDOWN	O tempo está acabando!
 GLOBAL_MOBILECHAT_NOTIFICATION_YOUR_TURN	Seu turno!	
 GLOBAL_MOBILECHAT_RETURN_TO_GAME	Fechar	
 GLOBAL_MOBILECHAT_RETURN_TO_MENU	Retornar ao menu	
+GLOBAL_MORE	Mais	
 GLOBAL_MY_NUM_WINS	{0}	0=number of games this player has won
+GLOBAL_OFF	Desligado	
 GLOBAL_OFFLINE	Desconectado	
 GLOBAL_OKAY	OK	
+GLOBAL_ON	Ligado	
 GLOBAL_OPTIONS	Opções	
 GLOBAL_OPTIONS_CARDBACK_LABEL	Escolha o verso do seu card	
+GLOBAL_OPTIONS_CHOOSE_CARD_BACK	Escolha o verso do card	
 GLOBAL_OPTIONS_CINEMATIC	Vídeo	
 GLOBAL_OPTIONS_CREDITS	Créditos	
 GLOBAL_OPTIONS_GRAPHICS_FULLSCREEN_LABEL	Tela cheia	
@@ -466,11 +474,6 @@ GLOBAL_REWARD_CARD_LEVEL_UP	Desbloqueado ao chegar no nível {0} como {1}	0=# le
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL	{0}	0=first class
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL_DOUBLE	{0} e {1}	0=first class, 1=second class
 GLOBAL_REWARD_CLASS_CHALLENGE_HEADLINE	|4(Desafio,Desafios) de classe |4(desbloqueado,desbloqueados)	
-GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_ARACHNID	Você também pode tentar o ridiculamente difícil modo Heroico do Distrito dos Aracnídeos!	
-GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_CONSTRUCT	Você também pode tentar o ridiculamente difícil modo Heroico do Distrito dos Constructos!	
-GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_FROSTWYRM	Você também pode tentar o ridiculamente difícil modo Heroico do Covil da Serpe Gélida!	
-GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_MILITARY	Você também pode tentar o ridiculamente difícil modo Heroico do Distrito Militar!	
-GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_PLAGUE	Você também pode tentar o ridiculamente difícil modo Heroico do Distrito da Peste!	
 GLOBAL_REWARD_CORE_CARD_DETAILS	{0}/{1} cards de {2} desbloqueados	0=# cards unlocked, 1=# cards possible to unlock, 2=class
 GLOBAL_REWARD_FORGE_DETAILS_OUT_OF_BAND	{0} |4(ingresso de arena foi adicionado,ingressos de arena foram adicionados) à sua conta de fora do jogo.	0=count
 GLOBAL_REWARD_FORGE_HEADLINE	Ingresso de arena concedido	
@@ -491,15 +494,17 @@ GLOBAL_SEASON_END_BONUS_STAR_TITLE	Sua posição na última temporada concedeu a
 GLOBAL_SEASON_END_BONUS_STARS_LABEL	|4(Estrela,Estrelas) Bônus	
 GLOBAL_SEASON_END_NEW_CARD_BACK	Você ganhou um novo verso de card	
 GLOBAL_SEASON_END_NEW_SEASON	A {0} começou!	0=season name
+GLOBAL_SEASON_END_PERCENTILE_LABEL	Isso põe você entre os primeiros {0}% do nosso ranque de jogadores!	0=rank percentile
 GLOBAL_SEASON_END_RANK_LABEL	Você conseguiu o ranque de	
 GLOBAL_SEASON_END_WELCOME	Bem-vindo	
 GLOBAL_SET_CORE	Conjunto básico	
 GLOBAL_SET_EXPERT1	Conjunto Clássico	
 GLOBAL_SHUTDOWN_TOAST	<color=#{0}>O Battle.net será desconectado em {1} |4(minuto,minutos)</color>	0=color, 1=minutes
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_COMPLETE	<color=#{0}>{1}</color> acabou de encerrar uma aventura na Arena. ({2}-{3})	0=name color,1=player name,2=Arena Wins,3=Arena Losses
-GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_COMPLETE_BAD	<color=#{0}>{1}</color> acabou de encerrar uma aventura na Arena.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START	<color=#{0}>{1}</color> iniciou uma nova aventura na arena.	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START_WITH_MANY_WINS	<color=#{0}>{1}</color> iniciou uma partida na Arena com {2} vitórias!	0=name color,1=player name,2=Arena Wins
 GLOBAL_SOCIAL_TOAST_FRIEND_DRUID_LEVEL	<color=#{0}>{1}</color> tornou-se um Druida nível {2}.	0=name color,1=player name,2=level
+GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK	<color=#{0}>{1}</color> alcançou o ranque {2}!	0=name color,1=player name,2=medal rank
 GLOBAL_SOCIAL_TOAST_FRIEND_GOLDEN_LEGENDARY	<color=#{0}>{1}</color> abriu um <color=#{3}>{2} Dourado</color>!	0=name color,1=player name,2=card name,3=Golden Color
 GLOBAL_SOCIAL_TOAST_FRIEND_HUNTER_LEVEL	<color=#{0}>{1}</color> tornou-se um Caçador nível {2}.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_ILLIDAN_COMPLETE	<color=#{0}>{1}</color> derrotou Illidan Tempesfúria!	0=name color,1=player name
@@ -539,18 +544,29 @@ GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_BATTLING	Esperando o próximo jogo.\
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_ENTERING	Esperando o próximo jogo.\n\n{0} está entrando em {1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_ADVENTURE_MODE_* from PRESENCE.txt (e.g. "Jane Doe is entering Naxxramas")
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_OFFLINE	Esperando o próximo jogo.\n\n{0} está Desconectado.	0=player name; same string as above, except shown when player is offline.
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_PLAYING	Esperando o próximo jogo.\n\n{0} está jogando {1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_SCENARIO_*_CLASS_CHALLENGE_* from PRESENCE.txt (e.g. "Jane Doe is playing Naxxramas Paladin Challenge")
-GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TIMEOUT	O jogador que você está observando demorou muito para começar o próximo jogo. O Modo Espectador foi cancelado.	
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TIMEOUT	O jogador que você está observando demorou muito para começar o jogo seguinte. O Modo Espectador foi cancelado.	
 GLOBAL_SPLASH_CLOSED_RECONNECTING	Reconectando...	
 GLOBAL_SPLASH_CLOSED_SIGN_TITLE	Fechado	
 GLOBAL_STORE_MOBILE_NAME_AMAZON	na Amazon Appstore	
 GLOBAL_STORE_MOBILE_NAME_APPLE	na Apple App Store	
 GLOBAL_STORE_MOBILE_NAME_DEFAULT	na loja da Blizzard	
 GLOBAL_STORE_MOBILE_NAME_GOOGLE	no Google Play	
-GLOBAL_STORE_MOBILE_NAME_SAMSUNG	na Samsung Apps Store	
 GLOBAL_SUPPORT	Suporte	
 GLOBAL_TOOLTIP_FRIEND_BUTTON_DESC	Converse com seus amigos e desafie-os.	
 GLOBAL_TOOLTIP_FRIEND_BUTTON_HEADER	Amigos	
 GLOBAL_TOOLTIP_MENU_DESC	Dê uma olhada nas Opções, Saia do jogo e mais.	
 GLOBAL_TOOLTIP_MENU_HEADER	Menu do Jogo	
+GLOBAL_TUTORIAL_ATTACK	Ataque	
+GLOBAL_TUTORIAL_ATTACKER	Atacante	
+GLOBAL_TUTORIAL_COST	Custo	
+GLOBAL_TUTORIAL_DEFENDER	Defensor	
+GLOBAL_TUTORIAL_HEALTH	Vida	
+GLOBAL_TUTORIAL_HERO_POWER	Poder Heroico	
+GLOBAL_TUTORIAL_MINION	Lacaio	
+GLOBAL_TUTORIAL_TAUNT	Provocar	
+GLOBAL_TUTORIAL_TAUNT_DESCRIPTION	Os inimigos precisam atacar este lacaio	
+GLOBAL_TUTORIAL_USED	Usado	
+GLOBAL_TUTORIAL_YOUR_MANA	Seu mana	
+GLOBAL_TUTORIAL_YOUR_TURN	Seu turno	
 GLOBAL_VERSION	Versão	
 GLOBAL_WINS	Vitórias	
