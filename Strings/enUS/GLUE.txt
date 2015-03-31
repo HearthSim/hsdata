@@ -1,6 +1,6 @@
 TAG	TEXT	COMMENT
 GLUE_COLLECTION_SEARCH	Search
-GLUE_COLLECTION_DECK_HELP_BUTTON	Suggest a Card
+GLUE_COLLECTION_DECK_HELP_BUTTON	Deck Helper
 GLUE_COLLECTION_DECK_INFO_TITLE	{0} Info
 GLUE_COLLECTION_DECK_INFO_HERO_POWER_TOOLTIP	Hero Power
 GLUE_COLLECTION_DECK_INFO_MANA_TOOLTIP	Cards/Mana Cost
@@ -34,8 +34,6 @@ GLUE_COLLECTION_TUTORIAL03	Disenchant extra cards!
 GLUE_COLLECTION_TUTORIAL04	Change your filter to "ALL" to see cards you can craft.	"ALL" is the same as GLUE_COLLECTION_ALL.
 GLUE_COLLECTION_TUTORIAL05	Turn this card into Arcane Dust.
 GLUE_COLLECTION_TUTORIAL06	Use your Dust to create this card.
-GLUE_COLLECTION_TUTORIAL07	Right-click a card with a Rarity Gem to craft or disenchant it.
-GLUE_COLLECTION_TUTORIAL07_TOUCH	Tap a card with a Rarity Gem to craft or disenchant it.
 GLUE_COLLECTION_ARTIST	Artist: {0}	0=artist name
 GLUE_COLLECTION_RECENTLY_NERFED	<color=#971c1cff>This card was recently modified, so its Disenchant value has been adjusted.</color>
 GLUE_COLLECTION_DELETE_CONFIRM_HEADER	Delete	
@@ -48,11 +46,13 @@ GLUE_COLLECTION_SET_TEMPLATE	{0} Set	0=set name
 GLUE_COLLECTION_CUSTOM_DECKNAME_TEMPLATE	Custom {0}{1}	0=class name, 1=incrementer
 GLUE_COLLECTION_CARD_NEW	NEW!	
 GLUE_COLLECTION_CRAFTING_MODE	Crafting Mode	
+GLUE_COLLECTION_CRAFTING_MODE_SHORT	Crafting	
 GLUE_COLLECTION_CRAFTING_DISENCHANT_BUTTON_TEXT	Disenchant Extra Cards	
 GLUE_COLLECTION_CRAFTING_FILTERS	Filters	
 GLUE_COLLECTION_CRAFTING_SHOW_ONLY_GOLDEN	Show Only Golden Cards	
 GLUE_COLLECTION_CRAFTING_SHOW_SOULBOUND_CARDS	Include Soulbound Cards	
 GLUE_COLLECTION_CRAFTING_EXPLANATION	Select a card to start crafting.\n\nSpend Arcane Dust to create cards and acquire dust by disenchanting cards.\n\nCosts vary with card rarity.
+GLUE_COLLECTION_ADD_TO_DECK	Add to Deck
 GLUE_MASS_DISENCHANT_HEADLINE	Mass Disenchant
 GLUE_MASS_DISENCHANT_DETAILS_HEADLINE	Disenchant your extra cards to create Arcane Dust.
 GLUE_MASS_DISENCHANT_DETAILS	You can't have more than 2 copies of a card in your deck (or more than 1 of each legendary), so you might as well disenchant the extras and turn them into Arcane Dust!
@@ -60,6 +60,7 @@ GLUE_MASS_DISENCHANT_SUB_HEADLINE_TEXT	You will destroy:
 GLUE_MASS_DISENCHANT_BUTTON_TEXT	Disenchant
 GLUE_MASS_DISENCHANT_TOTAL_AMOUNT	{0:#,###0}	0=total amount with commas and no decimals
 GLUE_MASS_DISENCHANT_PREMIUM_TITLE	Golden {0}	0=rarity
+GLUE_MASS_DISENCHANT_NUM_GOLDEN_CARDS	({0} Golden)	0=number of golden cards
 GLUE_CRAFTING_DISENCHANT_CONFIRM_HEADER	Disenchant
 GLUE_CRAFTING_DISENCHANT_CONFIRM_DESC	Are you sure? The following decks will be invalidated:
 GLUE_CRAFTING_DISENCHANT_CONFIRM2_DESC	Are you sure? Disenchanting this card will leave you with less than the amount you could use in a deck.
@@ -72,7 +73,8 @@ GLUE_CRAFTING_SOULBOUND	Soulbound
 GLUE_CRAFTING_SOULBOUND_DESC	This card cannot be disenchanted or crafted.	
 GLUE_CRAFTING_SOULBOUND_BASIC_DESC	Basic cards cannot be disenchanted or crafted.	
 GLUE_CRAFTING_SOULBOUND_REWARD_DESC	Quest Rewards cannot be disenchanted or crafted.	
-GLUE_CRAFTING_HEROIC_NAXX	Naxxramas
+GLUE_CRAFTING_GOLDEN_NAXX	Naxxramas
+GLUE_CRAFTING_GOLDEN_BRM	Blackrock Mountain
 GLUE_CRAFTING_TITLE	Card Crafting	
 GLUE_DECK_TRAY_COUNT	{0}/{1}	
 GLUE_DECK_TRAY_CARD_COUNT_LABEL	Cards	
@@ -93,6 +95,7 @@ GLUE_STORE_FAIL_IN_PROGRESS	You have another transaction that is still in progre
 GLUE_STORE_FAIL_DATABASE	Internal Database error.
 GLUE_STORE_FAIL_LICENSE	Duplicate license detected.
 GLUE_STORE_FAIL_PRODUCT_NA	That product is not available right now. Please select a different product and try again.
+GLUE_STORE_PRODUCT_EVENT_HAS_ENDED	Pre-orders for this product are no longer available.
 GLUE_STORE_FAIL_QUANTITY	You've selected an invalid quantity for that item. Please select a different quantity and try again.
 GLUE_STORE_FAIL_NO_ACTIVE_BPAY	Internal error: no transaction info in Database.
 GLUE_STORE_FAIL_NOT_ENOUGH_GOLD	You don't have enough gold to buy that right now.
@@ -122,15 +125,13 @@ GLUE_STORE_PRODUCT_NAME_FORGE_TICKET	Arena Admission
 GLUE_STORE_BUY_TEXT	BUY	this is what you see when you initiate the purchase
 GLUE_STORE_QUANTITY_PACK	{0} |4(Pack,Packs)
 GLUE_STORE_PRODUCT_NAME_PACK	{0} {1} |4(Pack,Packs)	0=quantity,1=pack type
-GLUE_STORE_PRODUCT_NAME_NAXX_WING_1	Arachnid Quarter
-GLUE_STORE_PRODUCT_NAME_NAXX_WING_2	Plague Quarter
-GLUE_STORE_PRODUCT_NAME_NAXX_WING_3	Military Quarter
-GLUE_STORE_PRODUCT_NAME_NAXX_WING_4	Construct Quarter
-GLUE_STORE_PRODUCT_NAME_NAXX_WING_5	Frostwyrm Lair
 GLUE_STORE_PRODUCT_NAME_NAXX_WING_BUNDLE	Naxxramas Adventure ({0} |4(Wing,Wings))
-GLUE_STORE_PRODUCT_NAME_BRM_PRESALE_BUNDLE	Blackrock Mountain Pre-order
-GLUE_STORE_PRODUCT_DETAILS_NAXX_PART_1	Do battle with the deadly {0} bosses in single player combat.
+GLUE_STORE_PRODUCT_DETAILS_NAXX_PART_1	Do battle with the deadly {0} bosses in single player combat.	0=wing name
 GLUE_STORE_PRODUCT_DETAILS_NAXX_PART_2	Earn new Naxxramas cards for your collection, including 1 Legendary card!
+GLUE_STORE_PRODUCT_DETAILS_BRM_PART_1	Do battle with the deadly {0} bosses in single player combat.	0=wing name
+GLUE_STORE_PRODUCT_DETAILS_BRM_PART_2	Earn new Blackrock Mountain cards for your collection, including 1 Legendary card!
+GLUE_STORE_PRODUCT_NAME_BRM_WING_BUNDLE	Blackrock Mountain Adventure ({0} |4(Wing,Wings))
+GLUE_STORE_PRODUCT_NAME_BRM_PRESALE_BUNDLE	Blackrock Mountain Pre-order
 GLUE_STORE_PRODUCT_PRICE	({0})	0=price
 GLUE_STORE_PRODUCT_PRICE_NA	N/A
 GLUE_STORE_SUMMARY_HEADLINE	Summary
@@ -231,6 +232,7 @@ GLUE_TOURNAMENT_RANKED	Ranked
 GLUE_ADVENTURE	Solo Adventures	
 GLUE_PRACTICE	Practice	
 GLUE_BASIC_SET_PROGRESS	{0}/{1} Basic Cards	0=number of owned cards,1=total number of basic cards
+GLUE_BASIC_SET_PROGRESS_PHONE	{0}/{1}	0=number of owned cards,1=total number of basic cards
 GLUE_FORGE	The Arena	
 GLUE_START_TOUCH	Touch To Start	
 GLUE_START_CLICK	Click To Start	
@@ -317,7 +319,7 @@ GLUE_TIP_DEFAULT_3	If you need help building a deck, look at the "Suggested Card
 GLUE_TIP_DEFAULT_4	You can tell what rarity a card is by the colored gem in the center.	
 GLUE_TIP_DEFAULT_5	Rarity colors, in order: White is Common, Blue is Rare, Purple is Epic and Orange is Legendary.	
 GLUE_TIP_DEFAULT_6	Each pack of cards has at least one rare or better card, but it could have more!	
-GLUE_TIP_DEFAULT_7	If you run out of quests, you can come back tomorrow for a new one.	
+GLUE_TIP_DEFAULT_7	If you run out of quests, come back tomorrow for a new one!	
 GLUE_TIP_DEFAULT_8	If you achieve Rank 20 in a season, you'll earn that season's special card back.	
 GLUE_TIP_DEFAULT_9	Complete quests to earn Gold.  Gold can be used to buy packs or enter The Arena.	
 GLUE_TIP_DEFAULT_10	The Arena lets you build a deck from random cards. You can also win prizes!	
@@ -331,6 +333,7 @@ GLUE_TIP_DEFAULT_16_TOUCH	You can tap your opponent's hero to "Squelch" emotes.
 GLUE_TIP_DEFAULT_17	If you win 500 games in Ranked mode with a class, you'll earn the Golden Hero for that class.	
 GLUE_TIP_DEFAULT_18	You can add friends to your friends list with the button on the bottom left.	
 GLUE_TIP_DEFAULT_19	There are 25 different ranks to earn in Ranked Mode, and above those: The "Legend" rank.	
+GLUE_TIP_DEFAULT_20	Watch a friend play by hitting the "Eye" button in your friends list while they're in a match!	
 GLUE_TIP_DEFAULT_zz_UNUSED	You can still play against your friends while they are offline!	
 GLUE_TIP_PRACTICE_0	You can unlock heroes by defeating them in Practice Mode.	
 GLUE_TIP_PRACTICE_1	Practice Mode is just preparation for Play Mode!	
@@ -352,10 +355,10 @@ GLUE_TIP_PLAY_8	If you achieve Rank 20 in a season, you'll earn that season's sp
 GLUE_TIP_FORGE_0	Your Arena Deck will expire after you lose 3 games.	
 GLUE_TIP_FORGE_1	Your Arena prize gets better with each game you win!	
 GLUE_TIP_FORGE_2	You don’t have to play all of your Arena games at once.	
-GLUE_TIP_NAXXRAMAS_0	You'll need to build a custom deck to defeat the most difficult bosses in Naxxramas.	
-GLUE_TIP_NAXXRAMAS_1	Don't let Naxxramas bosses get you down. Build a custom deck to crush them.	
-GLUE_TIP_NAXXRAMAS_2	If you lose to a boss, you may want to tweak your deck.	
-GLUE_TIP_NAXXRAMAS_3	Be prepared! Build a deck to counter the boss you're going to challenge.	
+GLUE_TIP_ADVENTURE_0	You'll need to build a custom deck to defeat the most difficult bosses.	
+GLUE_TIP_ADVENTURE_1	Don't let tough bosses get you down. Build a custom deck to crush them.	
+GLUE_TIP_ADVENTURE_2	If you lose to a boss, you may want to modify your deck.	
+GLUE_TIP_ADVENTURE_3	Be prepared! Build a deck to counter the boss you're going to challenge.	
 GLUE_TIP_QUEST_LOG_0	Unlock Other Heroes in Practice Mode – Defeat an AI to unlock it!
 GLUE_TIP_QUEST_LOG_1	You can earn additional basic cards for a class by playing games as that class.
 GLUE_TIP_QUEST_LOG_2	Try heading over to play mode, you can earn Classic card packs by playing!
@@ -425,10 +428,29 @@ GLUE_NAXX_LOADING_BAR_TASK_15	Stitching Minions Together
 GLUE_NAXX_LOADING_BAR_TASK_16	Experimenting on Minions	
 GLUE_NAXX_LOADING_BAR_TASK_17	Destroying Interlopers	
 GLUE_NAXX_LOADING_BAR_TASK_18	Petting Mr. Bigglesworth	
+GLUE_BRM_LOADING_BAR_TASK_1	Enslaving Dwarves		
+GLUE_BRM_LOADING_BAR_TASK_2	Practicing Playing Dead		
+GLUE_BRM_LOADING_BAR_TASK_3	Corrupting Good Guys		
+GLUE_BRM_LOADING_BAR_TASK_4	Tormenting Vaelastrasz		
+GLUE_BRM_LOADING_BAR_TASK_5	Manipulating Mortals		
+GLUE_BRM_LOADING_BAR_TASK_6	Planning World Domination		
+GLUE_BRM_LOADING_BAR_TASK_7	Doing Despicable Things		
+GLUE_BRM_LOADING_BAR_TASK_8	Bickering Incessantly		
+GLUE_BRM_LOADING_BAR_TASK_9	Insulting Each Other		
+GLUE_BRM_LOADING_BAR_TASK_10	Plotting Against Ragnaros		
+GLUE_BRM_LOADING_BAR_TASK_11	Undermining Nefarian		
+GLUE_BRM_LOADING_BAR_TASK_12	Growing Black Dragonflight		
+GLUE_BRM_LOADING_BAR_TASK_13	Setting Stuff on Fire		
+GLUE_BRM_LOADING_BAR_TASK_14	Kidnapping Nice Dragons		
+GLUE_BRM_LOADING_BAR_TASK_15	Marking Territory		
+GLUE_BRM_LOADING_BAR_TASK_16	Heating Lava		
+GLUE_BRM_LOADING_BAR_TASK_17	Interrupting Brewfest		
+GLUE_BRM_LOADING_BAR_TASK_18	Inviting Legendary Guests		
 GLUE_LOADING	Loading...	
 GLUE_STARTING_GAME	Starting Game	
 GLUE_HERO_LOCKED_NAME	Locked	
 GLUE_HERO_LOCKED_DESC	Defeat this hero to unlock!	
+GLUE_QUEST_LOG_PHONE_BUTTON	Quests	
 GLUE_QUEST_LOG_HEADLINE	Quest Log	
 GLUE_QUEST_LOG_WINS_HEADLINE	Play Mode Wins	
 GLUE_QUEST_LOG_BEST_FORGE_RECORD_HEADLINE	Best Arena Key	
@@ -447,7 +469,7 @@ GLUE_SPLASH_QUEUE_TITLE	All tables full!
 GLUE_SPLASH_QUEUE_TEXT	There should be an empty seat in about:	
 GLUE_NINJA	Ninja	
 GLUE_CARD_NERF_HEADER	Changes!	
-GLUE_CARD_NERF_BODY	\nThe following card(s) have been changed:\n{0}	0=card names
+GLUE_CARD_NERF_BODY	\nThe following |4(card has,cards have) been changed:\n{0}	0=card names
 GLUE_GOLD_CAP_HEADER	{0} gold Reached!
 GLUE_GOLD_CAP_BODY	 You cannot earn additional gold until you are under {0}.
 GLUE_CANNOT_FIND_BATTLENET_CLIENT	Hearthstone requires the Battle.net desktop client, but cannot find it.  Please visit www.battle.net to re-install.
@@ -479,33 +501,15 @@ GLUE_RECONNECT_GAME_TYPE_RANKED	Ranked Play
 GLUE_RECONNECT_GAME_TYPE_TUTORIAL	Tutorial	
 GLUE_RECONNECT_GAME_TYPE_PRACTICE	Practice	
 GLUE_RECONNECT_GAME_TYPE_NAXXRAMAS	Naxxramas	
-GLUE_RECONNECT_GAME_TYPE_BRM	Blackrock	
+GLUE_RECONNECT_GAME_TYPE_BRM	Blackrock Mountain	
 GLUE_PRACTICE_HINT	Practice Mode Here	
 GLUE_PATCHING_LABEL	Downloading {0}/{1} |4(file,files)
 GLUE_PATCHING_ERROR	We encountered an error when updating Hearthstone. Please try again.	
-GLUE_STORE_PRODUCT_DETAILS_HEADLINE_OWNED_NAXX	Naxxramas Adventure (Purchased)	
-GLUE_STORE_PRODUCT_DETAILS_OWNED_NAXX	• Defeat the bosses in Naxxramas to earn your rewards.	
-GLUE_STORE_PRODUCT_DETAILS_HEADLINE_5WINGS_NAXX	Naxxramas Adventure (Unlock all 5 wings)	
-GLUE_STORE_PRODUCT_DETAILS_5WINGS_NAXX	• Start your adventure! Unlock all the wings and earn up to 30 new cards that can only be found in Naxxramas.	
-GLUE_STORE_PRODUCT_DETAILS_HEADLINE_4WINGS_NAXX	Naxxramas Adventure (Unlock 4 remaining wings)	
-GLUE_STORE_PRODUCT_DETAILS_4WINGS_NAXX	• Continue your adventure! Unlock the last four wings and earn up to 24 new cards that can only be found in Naxxramas.
-GLUE_STORE_PRODUCT_DETAILS_HEADLINE_3WINGS_NAXX	Naxxramas Adventure (Unlock 3 remaining wings)	
-GLUE_STORE_PRODUCT_DETAILS_3WINGS_NAXX	• Continue your adventure! Unlock the last three wings and earn up to 18 new cards that can only be found in Naxxramas.
-GLUE_STORE_PRODUCT_DETAILS_HEADLINE_2WINGS_NAXX	Naxxramas Adventure (Unlock 2 remaining wings)	
-GLUE_STORE_PRODUCT_DETAILS_2WINGS_NAXX	• Continue your adventure! Unlock the last two wings and earn up to 12 new cards that can only be found in Naxxramas.	
-GLUE_STORE_PRODUCT_DETAILS_HEADLINE_1WINGS_NAXX	Naxxramas Adventure (Unlock the final wing)	
-GLUE_STORE_PRODUCT_DETAILS_1WINGS_NAXX	• Finish your adventure!  Unlock the last wing and earn up to 4 new cards that can only be found in Naxxramas.	
-GLUE_STORE_KOREAN_PRODUCT_DETAILS_1WINGS_NAXX	본 상품은 구매 후 환불되지 않으며, 구매 즉시 해당 지구에 내용이 적용됩니다.	only displayed for Korean customers, should always be in Korean	
-GLUE_STORE_PRODUCT_DETAILS_HEADLINE_PREORDER_BRM	Blackrock Mountain Adventure (Pre-order)	
-GLUE_STORE_PRODUCT_DETAILS_PREORDER_BRM	• Face off against 17 bosses\n• Earn 31 Blackrock Mountain cards\n• Get an exclusive pre-order cardback\n• The adventure begins in April!	
-GLUE_STORE_PRODUCT_DETAILS_HEADLINE_OWNED_BRM	Blackrock Mountain Adventure (Purchased)	
-GLUE_STORE_PRODUCT_DETAILS_OWNED_BRM	• Defeat the bosses in Blackrock Mountain to earn your rewards.
 GLUE_HEROIC_WARNING	Be warned that Heroic Mode is VERY punishing and is not for the faint of heart. Enter at your own risk!	
 GLUE_HEROIC_WARNING_TITLE	Warning!	
 GLUE_STORE_MODE_CARDS	Cards	
 GLUE_STORE_MODE_ADVENTURE	Adventure	
 GLUE_ADVENTURE_MODE_CLASS_CHALLENGE_CHOOSE	Choose a Challenge	
-GLUE_STORE_ADVENTURE_CARD_PREVIEW	Earn these cards and more by defeating the deadly bosses of Naxxramas!	
 GLUE_ADVENTURE_LABEL_SHOP_CLOSED	Closed	
 GLUE_ADVENTURE_LABEL_COMING_SOON	Coming soon!	
 GLUE_ADVENTURE_LABEL_COMING_SOON_NAXX_1	Opens Week 1	
@@ -513,6 +517,11 @@ GLUE_ADVENTURE_LABEL_COMING_SOON_NAXX_2	Opens Week 2
 GLUE_ADVENTURE_LABEL_COMING_SOON_NAXX_3	Opens Week 3	
 GLUE_ADVENTURE_LABEL_COMING_SOON_NAXX_4	Opens Week 4	
 GLUE_ADVENTURE_LABEL_COMING_SOON_NAXX_5	Opens Week 5	
+GLUE_ADVENTURE_LABEL_COMING_SOON_BRM_1	Opens Week 1	
+GLUE_ADVENTURE_LABEL_COMING_SOON_BRM_2	Opens Week 2	
+GLUE_ADVENTURE_LABEL_COMING_SOON_BRM_3	Opens Week 3	
+GLUE_ADVENTURE_LABEL_COMING_SOON_BRM_4	Opens Week 4	
+GLUE_ADVENTURE_LABEL_COMING_SOON_BRM_5	Opens Week 5	
 GLUE_ADVENTURE_LABEL_REQUIRES	Requires\n{0}	
 GLUE_ADVENTURE_REWARDS_PREVIEW_HEADER	• {0} Rewards •	
 GLUE_ADVENTURE_BOSS_HEADER	Boss Info
@@ -520,7 +529,6 @@ GLUE_ADVENTURE_WING_PURCHASED	Purchased
 GLUE_STORE_ADVENTURE_LOCKED_HEROES_WARNING_TITLE	Confirm Purchase	
 GLUE_STORE_ADVENTURE_LOCKED_HEROES_WARNING_TEXT	You will not be able to play this adventure until you have unlocked all classes. \n\nAre you sure you want to continue with this purchase?	
 GLUE_STORE_DUNGEON_BUTTON_TEXT_PURCHASED	Already Purchased	
-GLUE_ADVENTURE_COMPLETE_BANNER_TEXT	{0} Cleared!	GLUE_STORE_FAIL_GOLD_GENERIC	--TEMP-- You know how you were trying to make a gold purchase? It failed.	
 GLUE_STORE_FAIL_GOLD_GENERIC	Gold purchase has failed. Please try again later.	
 GLUE_STORE_KOREAN_PRODUCT_DETAILS_ADVENTURE	본 묶음 상품은 구매 후 환불되지 않으며, 구매 즉시 모든 지구 이용이 가능합니다.  	
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_ADVENTURE_BUNDLE	본 묶음 상품은 구매 후 환불되지 않으며, 구매 즉시 모든 지구 이용이 가능합니다.  	
@@ -554,7 +562,10 @@ GLUE_STORE_PREORDER	PRE-ORDER!
 GLUE_STORE_PREORDER_EXCLUSIVE	PRE-ORDER EXCLUSIVE!	
 GLUE_STORE_BRM_PREORDER_DATE	Opens during April!	
 GLUE_STORE_DUNGEON_BUTTON_PREORDER_TEXT	Pre-order Adventure	
+GLUE_ARENA_VIEW_DECK	View Deck	
+GLUE_PICK_A_CARD	Pick a Card	
 GLUE_STORE_ADVENTURE_BUTTON_NAXXRAMAS	Naxxramas	
 GLUE_STORE_ADVENTURE_BUTTON_BRM	Blackrock	
+GLUE_PICK_A_REGION	Pick a Region	
 GLUE_STORE_ADVENTURE_BUTTON_UNAVAILABLE_HEADLINE	Unavailable!	
 GLUE_STORE_ADVENTURE_BUTTON_UNAVAILABLE_DESCRIPTION	This product is currently unavailable for purchase.	

@@ -8,7 +8,7 @@ GLOBAL_ADVENTURE_CHOOSE_BUTTON_TEXT	Выбрать
 GLOBAL_ADVENTURE_DESC_HEADER	Приключения	
 GLOBAL_ADVENTURE_TRAY_HEADER	Выберите приключение	
 GLOBAL_APPROXIMATE_DATETIME	~{0}	0=time string
-GLOBAL_APPROXIMATE_DATETIME_RANGE	~{0} - {1}	0=min seconds 1=max seconds string
+GLOBAL_APPROXIMATE_DATETIME_RANGE	~{0} – {1}	0=min seconds 1=max seconds string
 GLOBAL_ARENA_MEDAL_0	Ключ новичка	
 GLOBAL_ARENA_MEDAL_1	Ключ ученика	
 GLOBAL_ARENA_MEDAL_10	Ледяной ключ	
@@ -31,6 +31,8 @@ GLOBAL_BUTTON_NO	Нет
 GLOBAL_BUTTON_OK	ОК	
 GLOBAL_BUTTON_YES	Да	
 GLOBAL_CANCEL	Отмена	
+GLOBAL_CARD_SET_BRM	Черная гора	
+GLOBAL_CARD_SET_BRM_SEARCHABLE_SHORTHAND_NAMES	ЧГ	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_CORE	Базовый набор	
 GLOBAL_CARD_SET_EXPERT1	Классический набор	
 GLOBAL_CARD_SET_GVG	Гоблины и гномы	
@@ -110,7 +112,7 @@ GLOBAL_DATETIME_SPLASHSCREEN_SECONDS	< 1 мин.
 GLOBAL_DATETIME_SPLASHSCREEN_WEEKS	{0} нед.	
 GLOBAL_DEFAULT_ALERT_HEADER	Внимание!	
 GLOBAL_DONE	Готово	
-GLOBAL_ERROR_ACCOUNT_LICENSES	Примите наши извинения. Мы не смогли определить список ваших приобретений, поэтому чего-то может не хватать. При вашем следующем заходе в игру мы постараемся все исправить.	
+GLOBAL_ERROR_ACCOUNT_LICENSES	Примите наши извинения. Мы не смогли определить список ваших приобретений, поэтому чего-то может не хватать. При вашем следующем входе в игру мы постараемся все исправить.	
 GLOBAL_ERROR_ASSET_CREATE_PERSISTENT_DATA_PATH	Не удалось создать папку для сохранения данных: {0}.	0=folder path
 GLOBAL_ERROR_ASSET_DOWNLOAD_FAILED	Не удалось загрузить ресурс {0}.	0=asset name
 GLOBAL_ERROR_ASSET_INCORRECT_DATA	Ресурс {0} содержит неверные данные.	0=asset name
@@ -173,7 +175,7 @@ GLOBAL_FRIEND_CHALLENGE_OPPONENT_DECLINED	{0} отклоняет ваш вызо
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_FRIEND_REMOVED	Вызов отменен, поскольку {0} больше не находится в вашем списке друзей.	0=friend name
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_WAITING_DECK	Вы ждете, пока {0} выбирает колоду.	0=friend name
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_WAITING_RESPONSE	Вы ждете, пока {0} ответит на ваш вызов.	0=friend name
-GLOBAL_FRIEND_CHALLENGE_TITLE	С друзьями	
+GLOBAL_FRIEND_CHALLENGE_TITLE	Вызов	
 GLOBAL_FRIENDLIST_ADD_FRIEND_BUTTON	Добавить	
 GLOBAL_FRIENDLIST_BUSYSTATUS	Занят	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_AVAILABLE	Игрок {0} свободен. Бросьте ему вызов!	0=player name
@@ -183,7 +185,6 @@ GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_THEYRE_UNAVAILABLE	Игрок {0} сейча�
 GLOBAL_FRIENDLIST_CURRENT_GAMES_HEADER	ТЕКУЩИЕ ИГРЫ – {0}	0=number of friends you have unfinished games with
 GLOBAL_FRIENDLIST_FRIENDS_HEADER	ДРУЗЬЯ – {0}/{1} в сети	0=number of online friends 1=number of offline friends
 GLOBAL_FRIENDLIST_FRIENDS_HEADER_ALL_ONLINE	ДРУЗЬЯ – {0} в сети	
-GLOBAL_FRIENDLIST_FRIENDS_HEADER_NO_ONLINE	ДРУЗЬЯ	
 GLOBAL_FRIENDLIST_LASTPLAYED	Последний противник:	
 GLOBAL_FRIENDLIST_MYSTATUS	В СЕТИ	
 GLOBAL_FRIENDLIST_NEARBY_PLAYERS_HEADER	ИГРОКИ РЯДОМ С ВАМИ – {0}	0=number of players
@@ -233,6 +234,7 @@ GLOBAL_HERO_LEVEL_REWARD_BOOSTER	{0} |4(комплект,комплекта,ко
 GLOBAL_HERO_LEVEL_REWARD_GOLD	Золото: {0}	0=amount
 GLOBAL_HERO_LEVEL_REWARD_GOLDEN_CARD	{0} «{1}»	0=flair 1=card name
 GLOBAL_HERO_WINS	Побед: {0}/{1}	0=number of games this class has won 1=number of wins to get golden
+GLOBAL_HERO_WINS_PHONE	Побед:\n{0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_KEYWORD_AUTOCAST	Автоматическое применение	
 GLOBAL_KEYWORD_AUTOCAST_TEXT	Эта сила героя БУДЕТ использоваться на каждом ходу.	
 GLOBAL_KEYWORD_BATTLECRY	Боевой клич	
@@ -307,12 +309,12 @@ GLOBAL_LANGUAGE_PTPT	Португальский (Португалия)
 GLOBAL_LANGUAGE_RURU	Русский	
 GLOBAL_LANGUAGE_ZHCN	Китайский (Китай)	
 GLOBAL_LANGUAGE_ZHTW	Китайский (Тайвань)	
-GLOBAL_LEAVE_SPECTATOR_MODE	Выйти	
+GLOBAL_LEAVE_SPECTATOR_MODE	Покинуть	
 GLOBAL_LOGIN	Войти	
 GLOBAL_LOGIN_CONFIRM_MESSAGE	Текущий прогресс будет потерян. Вы уверены, что хотите продолжить?	
 GLOBAL_LOGIN_CONFIRM_TITLE	Войти в игру?	
 GLOBAL_LOGOUT	Выйти	
-GLOBAL_LOGOUT_CONFIRM_MESSAGE	Вы уверены, что хотите продолжить?	
+GLOBAL_LOGOUT_CONFIRM_MESSAGE	Вы уверены, что хотите выйти?	
 GLOBAL_LOGOUT_CONFIRM_TITLE	Выйти из игры?	
 GLOBAL_LOSSES	Поражения	
 GLOBAL_MEDAL_0	Легенда	
@@ -348,13 +350,15 @@ GLOBAL_MEDAL_TOOLTIP_BODY	Каждый выигранный матч прибл�
 GLOBAL_MEDAL_TOOLTIP_BODY_ARENA_GRAND_MASTER	Вы – чемпион Арены!	
 GLOBAL_MEDAL_TOOLTIP_BODY_LEGEND	Вы – легенда! С каждой игрой ваша позиция в рейтинге этого ранга будет меняться.	
 GLOBAL_MEDAL_TOOLTIP_HEADER	{0}	0=medal name
+GLOBAL_MEDAL_TOURNAMENT_TOOLTIP_BODY	Вы занимаете верхние {0}% рейтинга в этом сезоне\n\nСледующий рейтинг:\n{1}	0=rank percentile 1=medal name
 GLOBAL_MOBILE_ERROR_ANDROID_PHONE_DETECTED	К сожалению, на данный момент Hearthstone поддерживается только планшетами под управлением Android с размером экрана от 6".	
-GLOBAL_MOBILE_ERROR_BREAKING_NEWS	Горячие новости:\n\n{0}	
-GLOBAL_MOBILE_ERROR_IPAD1_DETECTED	К сожалению, чтобы играть в Hearthstone, нужен iPad 2 или более новая модель.	
+GLOBAL_MOBILE_ERROR_BREAKING_NEWS	Срочные новости:\n\n{0}	
 GLOBAL_MOBILE_ERROR_LOGON_WEB_TIMEOUT	Вы давно не совершали никаких действий в Hearthstone, и ваше соединение с сервером было разорвано.	
 GLOBAL_MOBILE_ERROR_NETWORK_DISCONNECT	Соединение было разорвано.	
 GLOBAL_MOBILE_ERROR_NETWORK_SPAM	Ввиду большого количества одновременных запросов с вашей стороны соединение было прервано.	
 GLOBAL_MOBILE_ERROR_NETWORK_UTIL_TIMEOUT	Превышено время ожидания подключения при запросе данных с серверов Hearthstone.	
+GLOBAL_MOBILE_ERROR_UNSUPPORTED_IOS_PHONE_DETECTED	К сожалению, для игры в Hearthstone требуется iPhone 4s, iPod Touch 5 или мобильный продукт компании Apple более поздней версии.	
+GLOBAL_MOBILE_ERROR_UNSUPPORTED_IOS_TABLET_DETECTED	К сожалению, для игры в Hearthstone требуется iPad 2 или более новая версия.	
 GLOBAL_MOBILE_LOG_IN_TOOLTIP	Войдите в игру, если у вас уже есть учетная запись.	
 GLOBAL_MOBILE_LOGIN_POINTER	Вход здесь	
 GLOBAL_MOBILE_TAP_TO_RECONNECT	Нажмите, чтобы подключиться повторно.	
@@ -364,11 +368,15 @@ GLOBAL_MOBILECHAT_NOTIFICATION_TURN_COUNTDOWN	Время заканчивает�
 GLOBAL_MOBILECHAT_NOTIFICATION_YOUR_TURN	Ваш ход!	
 GLOBAL_MOBILECHAT_RETURN_TO_GAME	Закрыть	
 GLOBAL_MOBILECHAT_RETURN_TO_MENU	Вернуться в меню	
+GLOBAL_MORE	Дополнительно	
 GLOBAL_MY_NUM_WINS	{0}	0=number of games this player has won
+GLOBAL_OFF	Откл.	
 GLOBAL_OFFLINE	Не в сети	
 GLOBAL_OKAY	ОК	
+GLOBAL_ON	Вкл.	
 GLOBAL_OPTIONS	Настройки	
 GLOBAL_OPTIONS_CARDBACK_LABEL	Доступные рубашки карт	
+GLOBAL_OPTIONS_CHOOSE_CARD_BACK	Выберите рубашку для карт	
 GLOBAL_OPTIONS_CINEMATIC	Ролик	
 GLOBAL_OPTIONS_CREDITS	Создатели	
 GLOBAL_OPTIONS_GRAPHICS_FULLSCREEN_LABEL	Полный экран	
@@ -453,7 +461,7 @@ GLOBAL_REWARD_ARENA_TICKET_LABEL	Арена
 GLOBAL_REWARD_BOOSTER_DETAILS_OUT_OF_BAND	Добавлено комплектов карт из-за пределов игры: {0}	0=count
 GLOBAL_REWARD_BOOSTER_HEADLINE_GENERIC	Награда: комплект карт!	
 GLOBAL_REWARD_BOOSTER_HEADLINE_OUT_OF_BAND	Получен комплект карт!	
-GLOBAL_REWARD_CARD_BACK_HEADLINE	Новая рубашка для карт!	
+GLOBAL_REWARD_CARD_BACK_HEADLINE	Новая рубашка!	
 GLOBAL_REWARD_CARD_COUNT_MULTIPLIER	x	
 GLOBAL_REWARD_CARD_DETAILS_TUTORIAL01	О да!	
 GLOBAL_REWARD_CARD_DETAILS_TUTORIAL02	Это впечатляет.	
@@ -466,11 +474,6 @@ GLOBAL_REWARD_CARD_LEVEL_UP	Открыто в награду за достиже
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL	{0}	0=first class
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL_DOUBLE	{0} и {1}	0=first class, 1=second class
 GLOBAL_REWARD_CLASS_CHALLENGE_HEADLINE	Доступно: |4( новое классовоe испытание,новые классовые испытания,новые классовые испытания)	
-GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_ARACHNID	Вы также можете попробовать пройти безумно сложную героическую версию Паучьего квартала!	
-GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_CONSTRUCT	Вы также можете попробовать пройти безумно сложную героическую версию Квартала Мерзости!	
-GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_FROSTWYRM	Вы также можете попробовать пройти безумно сложную героическую версию Логова ледяного змея!	
-GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_MILITARY	Вы также можете попробовать пройти безумно сложную героическую версию Военного квартала!	
-GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_PLAGUE	Вы также можете попробовать пройти безумно сложную героическую версию Чумного квартала!	
 GLOBAL_REWARD_CORE_CARD_DETAILS	Открыто карт класса «{2}»: {0}/{1}	0=# cards unlocked, 1=# cards possible to unlock, 2=class
 GLOBAL_REWARD_FORGE_DETAILS_OUT_OF_BAND	Добавлено доступов на арену из-за пределов игры: {0}	0=count
 GLOBAL_REWARD_FORGE_HEADLINE	Получен доступ к арене	
@@ -491,15 +494,17 @@ GLOBAL_SEASON_END_BONUS_STAR_TITLE	Награда за ранг предыдущ
 GLOBAL_SEASON_END_BONUS_STARS_LABEL	|4(дополнительная звезда,дополнительные звезды,дополнительных звезд)	
 GLOBAL_SEASON_END_NEW_CARD_BACK	Вы получили новую рубашку для карт.	
 GLOBAL_SEASON_END_NEW_SEASON	{0} начался!	0=season name
+GLOBAL_SEASON_END_PERCENTILE_LABEL	Вы попали в {0}% лучших рейтинговых игроков!	0=rank percentile
 GLOBAL_SEASON_END_RANK_LABEL	Достигнутый вами ранг:	
 GLOBAL_SEASON_END_WELCOME	Добро пожаловать!	
 GLOBAL_SET_CORE	Базовый набор	
 GLOBAL_SET_EXPERT1	Классический набор	
 GLOBAL_SHUTDOWN_TOAST	<color=#{0}>Служба Battle.net будет отключена через {1} мин.</color>	0=color, 1=minutes
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_COMPLETE	<color=#{0}>{1}</color> заканчивает выступление на Арене со счетом ({2}-{3}).	0=name color,1=player name,2=Arena Wins,3=Arena Losses
-GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_COMPLETE_BAD	<color=#{0}>{1}</color> заканчивает выступление на Арене.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START	<color=#{0}>{1}</color> начинает выступление на Арене.	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START_WITH_MANY_WINS	<color=#{0}>{1}</color> начинает сражение на арене, имея за плечами уже {2} |4(победу,победы,побед)!	0=name color,1=player name,2=Arena Wins
 GLOBAL_SOCIAL_TOAST_FRIEND_DRUID_LEVEL	<color=#{0}>{1}</color> получает {2} уровень друидом.	0=name color,1=player name,2=level
+GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK	Игрок <color=#{0}>{1}</color> достиг нового ранга: {2}!	0=name color,1=player name,2=medal rank
 GLOBAL_SOCIAL_TOAST_FRIEND_GOLDEN_LEGENDARY	<color=#{0}>{1}</color> получает <color=#{3}>золотую карту «{2}»</color>!	0=name color,1=player name,2=card name,3=Golden Color
 GLOBAL_SOCIAL_TOAST_FRIEND_HUNTER_LEVEL	<color=#{0}>{1}</color> получает {2} уровень охотником.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_ILLIDAN_COMPLETE	<color=#{0}>{1}</color> одерживает победу над Иллиданом!	0=name color,1=player name
@@ -518,19 +523,19 @@ GLOBAL_SOCIAL_TOAST_FRIEND_WARRIOR_LEVEL	<color=#{0}>{1}</color> получае�
 GLOBAL_SOCIAL_TOAST_RECENT_OPPONENT_FRIEND_REQUEST	Ваш недавний противник хочет стать вашим другом!	
 GLOBAL_SOCIAL_TOAST_SPECTATOR_ADDED	<color=#{0}>{1}</color> смотрит, как вы играете.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_SPECTATOR_INVITE_RECEIVED	<color=#{0}>{1}</color> приглашает вас посмотреть его матч!	0=name color,1=player name
-GLOBAL_SOCIAL_TOAST_SPECTATOR_INVITE_SENT	Игроку <color=#{0}>{1}</color> отправлено приглашение посмотреть матч в качестве зрителя.	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_SPECTATOR_INVITE_SENT	Игрок <color=#{0}>{1}</color> приглашен посмотреть матч в качестве зрителя.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_SPECTATOR_REMOVED	<color=#{0}>{1}</color> больше не смотрит ваш матч.	0=name color,1=player name
 GLOBAL_SPECTATOR_COUNT_PANEL_HEADER	Зрители	
 GLOBAL_SPECTATOR_COUNT_PANEL_TEXT_ONE	{0} наблюдает за вашим матчем.	0=player name, this is shown when there's only 1 person spectating you.
 GLOBAL_SPECTATOR_ERROR_CREATE_PARTY_TEXT	Произошла ошибка при попытке создать группу зрителей.	
 GLOBAL_SPECTATOR_ERROR_LEAVE_FOR_SPECTATE_PLAYER_TEXT	Произошла ошибка при попытке выйти из группы зрителей, чтобы посмотреть матч игрока {0}.	0=player name
 GLOBAL_SPECTATOR_KICK_PROMPT_HEADER	Удалить зрителя	
-GLOBAL_SPECTATOR_KICK_PROMPT_TEXT	Вы уверены, что хотите удалить игрока {0} из числа зрителей этого матча? Если вы отключите возможность «Друзья могут наблюдать за моими матчами» в меню «Настройки», у ваших матчей не будет зрителей.	0=player name
+GLOBAL_SPECTATOR_KICK_PROMPT_TEXT	Вы уверены, что хотите удалить игрока {0} из числа зрителей? Если вы отключите возможность «Друзья могут наблюдать за моими матчами» в меню «Настройки», у ваших матчей не будет зрителей.	0=player name
 GLOBAL_SPECTATOR_LEAVE_PROMPT_HEADER	Выход из режима зрителя	
 GLOBAL_SPECTATOR_LEAVE_PROMPT_TEXT	Вы уверены, что хотите прервать просмотр матча?	
 GLOBAL_SPECTATOR_MODE_INDICATOR_TEXT	Режим зрителя	text that shows up on the bottom left of screen showing that you're currently in Spectator Mode.
 GLOBAL_SPECTATOR_REMOVED_PROMPT_HEADER	Зритель удален	
-GLOBAL_SPECTATOR_REMOVED_PROMPT_TEXT	Вы были исключены из числа зрителей этого матча.	
+GLOBAL_SPECTATOR_REMOVED_PROMPT_TEXT	Вы были исключены из числа зрителей.	
 GLOBAL_SPECTATOR_SERVER_REJECTED_HEADER	Зритель вышел	
 GLOBAL_SPECTATOR_SERVER_REJECTED_TEXT	В игре, к которой вы попытались подключиться, больше нет мест для зрителей, она завершена либо закрыта для зрителей.	
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_HEADER	Режим зрителя	
@@ -546,11 +551,22 @@ GLOBAL_STORE_MOBILE_NAME_AMAZON	магазине Amazon Appstore
 GLOBAL_STORE_MOBILE_NAME_APPLE	магазине Apple App Store	
 GLOBAL_STORE_MOBILE_NAME_DEFAULT	магазине Blizzard	
 GLOBAL_STORE_MOBILE_NAME_GOOGLE	магазине Google Play	
-GLOBAL_STORE_MOBILE_NAME_SAMSUNG	магазине Samsung Apps	
 GLOBAL_SUPPORT	Поддержка	
 GLOBAL_TOOLTIP_FRIEND_BUTTON_DESC	Общайтесь с друзьями и устраивайте с ними поединки.	
 GLOBAL_TOOLTIP_FRIEND_BUTTON_HEADER	Друзья	
 GLOBAL_TOOLTIP_MENU_DESC	Здесь вы можете найти настройки, выход из игры и многое другое.	
 GLOBAL_TOOLTIP_MENU_HEADER	Меню	
+GLOBAL_TUTORIAL_ATTACK	Атака	
+GLOBAL_TUTORIAL_ATTACKER	Атакующий	
+GLOBAL_TUTORIAL_COST	Стоимость	
+GLOBAL_TUTORIAL_DEFENDER	Защитник	
+GLOBAL_TUTORIAL_HEALTH	Здоровье	
+GLOBAL_TUTORIAL_HERO_POWER	Сила героя	
+GLOBAL_TUTORIAL_MINION	Существо	
+GLOBAL_TUTORIAL_TAUNT	Провокация	
+GLOBAL_TUTORIAL_TAUNT_DESCRIPTION	Противники вынуждены атаковать это существо.	
+GLOBAL_TUTORIAL_USED	Использована	
+GLOBAL_TUTORIAL_YOUR_MANA	Ваша мана	
+GLOBAL_TUTORIAL_YOUR_TURN	Ваш ход	
 GLOBAL_VERSION	Версия	
 GLOBAL_WINS	Победы	

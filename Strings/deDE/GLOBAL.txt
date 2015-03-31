@@ -31,6 +31,8 @@ GLOBAL_BUTTON_NO	Nein
 GLOBAL_BUTTON_OK	OK	
 GLOBAL_BUTTON_YES	Ja	
 GLOBAL_CANCEL	Abbrechen	
+GLOBAL_CARD_SET_BRM	Der Schwarzfels	
+GLOBAL_CARD_SET_BRM_SEARCHABLE_SHORTHAND_NAMES	brm sf	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_CORE	Basis	
 GLOBAL_CARD_SET_EXPERT1	Klassik	
 GLOBAL_CARD_SET_GVG	Goblins gegen Gnome	
@@ -183,7 +185,6 @@ GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_THEYRE_UNAVAILABLE	Ihr könnt {0} im Moment n
 GLOBAL_FRIENDLIST_CURRENT_GAMES_HEADER	AKTUELLE SPIELE – {0}	0=number of friends you have unfinished games with
 GLOBAL_FRIENDLIST_FRIENDS_HEADER	FREUNDE – {0}/{1} online	0=number of online friends 1=number of offline friends
 GLOBAL_FRIENDLIST_FRIENDS_HEADER_ALL_ONLINE	FREUNDE – {0} online	
-GLOBAL_FRIENDLIST_FRIENDS_HEADER_NO_ONLINE	FREUNDE	
 GLOBAL_FRIENDLIST_LASTPLAYED	Letzter Gegner:	
 GLOBAL_FRIENDLIST_MYSTATUS	ONLINE	
 GLOBAL_FRIENDLIST_NEARBY_PLAYERS_HEADER	SPIELER IN EURER NÄHE – {0}	0=number of players
@@ -233,6 +234,7 @@ GLOBAL_HERO_LEVEL_REWARD_BOOSTER	{0}-Erweiterungspackung	0=booster type
 GLOBAL_HERO_LEVEL_REWARD_GOLD	{0} Gold	0=amount
 GLOBAL_HERO_LEVEL_REWARD_GOLDEN_CARD	{1} ({0})	0=flair 1=card name
 GLOBAL_HERO_WINS	Siege: {0}/{1}	0=number of games this class has won 1=number of wins to get golden
+GLOBAL_HERO_WINS_PHONE	Siege\n{0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_KEYWORD_AUTOCAST	Automatischer Einsatz	
 GLOBAL_KEYWORD_AUTOCAST_TEXT	Diese Heldenfähigkeit muss in jedem Zug eingesetzt werden.	
 GLOBAL_KEYWORD_BATTLECRY	Kampfschrei	
@@ -279,7 +281,7 @@ GLOBAL_KEYWORD_WINDFURY_TEXT	Kann 2-mal pro Zug angreifen.
 GLOBAL_LANGUAGE_CHANGE_CONFIRM_MESSAGE	Dadurch wird Ihre aktuelle Aktivität unterbrochen. Sind Sie sicher?	
 GLOBAL_LANGUAGE_CHANGE_CONFIRM_TITLE	Sprache ändern?	
 GLOBAL_LANGUAGE_DEDE	Deutsch	
-GLOBAL_LANGUAGE_DOWNLOAD_VOICE_PACK	Heruntergeladenes Sprachpaket	
+GLOBAL_LANGUAGE_DOWNLOAD_VOICE_PACK	(DEV) Heruntergeladenes Sprachpaket	
 GLOBAL_LANGUAGE_DROPDOWN	Sprache	
 GLOBAL_LANGUAGE_ENGB	Englisch (Großbritannien)	
 GLOBAL_LANGUAGE_ENUS	Englisch (USA)	
@@ -344,17 +346,19 @@ GLOBAL_MEDAL_9	Ritter der Silbernen Hand
 GLOBAL_MEDAL_ARENA_TOOLTIP_BODY	Dies ist der beste Schlüssel, den Ihr in der Arena erhalten habt.\nSiege: {0}	0=num wins
 GLOBAL_MEDAL_REWARD_CONGRATULATIONS	Herzlichen Glückwunsch!	
 GLOBAL_MEDAL_REWARD_DESCRIPTION	Letzte Woche erhaltene Medaille	
-GLOBAL_MEDAL_TOOLTIP_BODY	Gewinnt Spiele, um den nächsten Rang zu erreichen!\n\nNächster Rang:\n{0}	0=medal name
+GLOBAL_MEDAL_TOOLTIP_BODY	Gewinnt Spiele, um den nächsten Rang zu erreichen:\n{0}!	0=medal name
 GLOBAL_MEDAL_TOOLTIP_BODY_ARENA_GRAND_MASTER	Ihr seid ein Champion der Arena!	
 GLOBAL_MEDAL_TOOLTIP_BODY_LEGEND	Ihr seid zur Legende aufgestiegen! Eure Platzierung innerhalb dieses Rangs verändert sich mit jedem Spiel.	
 GLOBAL_MEDAL_TOOLTIP_HEADER	Wertung: {0}	0=medal name
+GLOBAL_MEDAL_TOURNAMENT_TOOLTIP_BODY	Ihr gehört diese Saison zu den besten {0} % des gewerteten Modus!\nNächster Rang:{1}	0=rank percentile 1=medal name
 GLOBAL_MOBILE_ERROR_ANDROID_PHONE_DETECTED	Es tut uns leid, Hearthstone läuft zurzeit nur auf Android-Tablets mit einer Displaygröße von mindestens 6 Zoll.	
 GLOBAL_MOBILE_ERROR_BREAKING_NEWS	Eilmeldung:\n\n{0}	
-GLOBAL_MOBILE_ERROR_IPAD1_DETECTED	Tut uns leid, für Hearthstone ist iPad 2 oder eine neuere Version erforderlich.	
 GLOBAL_MOBILE_ERROR_LOGON_WEB_TIMEOUT	Ihre Verbindung zum Server wurde getrennt, da Sie längere Zeit inaktiv waren.	
 GLOBAL_MOBILE_ERROR_NETWORK_DISCONNECT	Ihre Verbindung wurde unterbrochen.	
 GLOBAL_MOBILE_ERROR_NETWORK_SPAM	Ihre Verbindung wurde unterbrochen, weil Sie zu viele Anfragen in zu kurzer Zeit gesendet haben.	
 GLOBAL_MOBILE_ERROR_NETWORK_UTIL_TIMEOUT	Ihre Verbindung zum Spiel wurde getrennt, während es versucht hat, Daten von den Hearthstone-Servern abzufragen.	
+GLOBAL_MOBILE_ERROR_UNSUPPORTED_IOS_PHONE_DETECTED	Es tut uns leid, für Hearthstone ist ein iPhone 4s, iPod Touch 5 oder ein neueres Gerät erforderlich.	
+GLOBAL_MOBILE_ERROR_UNSUPPORTED_IOS_TABLET_DETECTED	Es tut uns leid, für Hearthstone ist ein iPad 2 oder neuer erforderlich.	
 GLOBAL_MOBILE_LOG_IN_TOOLTIP	Loggen Sie sich ein, wenn Sie einen Account haben!	
 GLOBAL_MOBILE_LOGIN_POINTER	Hier einloggen	
 GLOBAL_MOBILE_TAP_TO_RECONNECT	Tippen, um die Verbindung wiederherzustellen	
@@ -364,11 +368,15 @@ GLOBAL_MOBILECHAT_NOTIFICATION_TURN_COUNTDOWN	Die Zeit läuft ab!
 GLOBAL_MOBILECHAT_NOTIFICATION_YOUR_TURN	Euer Zug!	
 GLOBAL_MOBILECHAT_RETURN_TO_GAME	Schließen	
 GLOBAL_MOBILECHAT_RETURN_TO_MENU	Zurück zum Menü	
+GLOBAL_MORE	Mehr	
 GLOBAL_MY_NUM_WINS	{0}	0=number of games this player has won
+GLOBAL_OFF	Aus	
 GLOBAL_OFFLINE	Offline	
 GLOBAL_OKAY	OK	
+GLOBAL_ON	Ein	
 GLOBAL_OPTIONS	Optionen	
 GLOBAL_OPTIONS_CARDBACK_LABEL	Wählt Euren Kartenrücken	
+GLOBAL_OPTIONS_CHOOSE_CARD_BACK	Kartenrücken wählen	
 GLOBAL_OPTIONS_CINEMATIC	Filmsequenz	
 GLOBAL_OPTIONS_CREDITS	Das Team	
 GLOBAL_OPTIONS_GRAPHICS_FULLSCREEN_LABEL	Vollbild	
@@ -465,12 +473,7 @@ GLOBAL_REWARD_CARD_HEADLINE	Belohnung!
 GLOBAL_REWARD_CARD_LEVEL_UP	Wird durch das Erreichen der Stufe {0} als {1} freigeschaltet	0=# level, 1=class
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL	{0}	0=first class
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL_DOUBLE	{0} und {1}	0=first class, 1=second class
-GLOBAL_REWARD_CLASS_CHALLENGE_HEADLINE	|4(Klassenherausforderung,Klassenherausforderungen) freigeschaltet	
-GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_ARACHNID	Außerdem ist jetzt das extrem schwierige heroische Arachnidenviertel verfügbar.	
-GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_CONSTRUCT	Außerdem ist jetzt das extrem schwierige heroische Konstruktviertel verfügbar.	
-GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_FROSTWYRM	Außerdem ist jetzt die extrem schwierige heroische Spitze der Nekropole verfügbar.	
-GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_MILITARY	Außerdem ist jetzt das extrem schwierige heroische Militärviertel verfügbar.	
-GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_PLAGUE	Außerdem ist jetzt das extrem schwierige heroische Seuchenviertel verfügbar.	
+GLOBAL_REWARD_CLASS_CHALLENGE_HEADLINE	|4(Klassenherausforderung,Klassenherausforderungen) freigeschaltet!	
 GLOBAL_REWARD_CORE_CARD_DETAILS	{2}: {0}/{1} Karten freigeschaltet	0=# cards unlocked, 1=# cards possible to unlock, 2=class
 GLOBAL_REWARD_FORGE_DETAILS_OUT_OF_BAND	{0} |4(Zugang zur Arena wurde,Zugänge zur Arena wurden) Ihrem Account von außerhalb des Spiels hinzugefügt.	0=count
 GLOBAL_REWARD_FORGE_HEADLINE	Zugang zur Arena erhalten!	
@@ -480,10 +483,10 @@ GLOBAL_REWARD_GOLD_HEADLINE	Gold erhalten!
 GLOBAL_REWARD_GOLD_SOURCE_IGR	Belohnung für das Einloggen aus einem IGR	
 GLOBAL_REWARD_GOLD_SOURCE_IGR_DATED	Belohnung für das Einloggen aus einem IGR am {0}	0=GLOBAL_CURRENT_DATE
 GLOBAL_REWARD_GOLD_SOURCE_TOURNEY	Belohnung für {0} |4(Sieg,Siege) im Modus „Spielen“	
-GLOBAL_REWARD_GOLDEN_HERO_HEADLINE	Goldener Held freigeschaltet	
+GLOBAL_REWARD_GOLDEN_HERO_HEADLINE	Goldener Held freigeschaltet!	
 GLOBAL_REWARD_HEARTHSTEED_HEADLINE	Pegasus	
 GLOBAL_REWARD_HERO_DETAILS	{0}/{1} Helden freigeschaltet	
-GLOBAL_REWARD_HERO_HEADLINE	{0} freigeschaltet	
+GLOBAL_REWARD_HERO_HEADLINE	{0} freigeschaltet!	
 GLOBAL_REWARD_HERO_SOURCE	Wird durch einen Sieg über die folgende Klasse freigeschaltet: {0}	0=class
 GLOBAL_SCREENSHOT_COMPLETE	Screenshot wurde auf dem Desktop gespeichert.	
 GLOBAL_SEASON_END_BONUS_STAR_BOOST	Eure Bonussterne katapultieren Euch auf	
@@ -491,15 +494,17 @@ GLOBAL_SEASON_END_BONUS_STAR_TITLE	Euer Rang aus der letzten Saison verleiht Euc
 GLOBAL_SEASON_END_BONUS_STARS_LABEL	|4(Bonusstern,Bonussterne)	
 GLOBAL_SEASON_END_NEW_CARD_BACK	Ihr habt einen neuen Kartenrücken freigeschaltet!	
 GLOBAL_SEASON_END_NEW_SEASON	Die {0} hat begonnen!	0=season name
-GLOBAL_SEASON_END_RANK_LABEL	Ihr habt folgenden Rang erreicht: 	
+GLOBAL_SEASON_END_PERCENTILE_LABEL	Damit gehört Ihr zu den besten {0} % des gewerteten Modus!	0=rank percentile
+GLOBAL_SEASON_END_RANK_LABEL	Ihr habt folgenden Rang erreicht:	
 GLOBAL_SEASON_END_WELCOME	Willkommen	
 GLOBAL_SET_CORE	Basisset	
 GLOBAL_SET_EXPERT1	Klassikset	
 GLOBAL_SHUTDOWN_TOAST	<color=#{0}>Battle.net wird in {1} |4(Minute,Minuten) heruntergefahren.</color>	0=color, 1=minutes
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_COMPLETE	<color=#{0}>{1}</color> hat eine Arenarunde beendet. ({2}:{3})	0=name color,1=player name,2=Arena Wins,3=Arena Losses
-GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_COMPLETE_BAD	<color=#{0}>{1}</color> hat eine Arenarunde beendet.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START	<color=#{0}>{1}</color> hat eine neue Arenarunde begonnen.	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START_WITH_MANY_WINS	<color=#{0}>{1}</color> hat in dieser Arenarunde schon {2} Siege errungen und beginnt gerade das nächste Spiel!	0=name color,1=player name,2=Arena Wins
 GLOBAL_SOCIAL_TOAST_FRIEND_DRUID_LEVEL	<color=#{0}>{1}</color> ist als Druide auf Stufe {2} aufgestiegen.	0=name color,1=player name,2=level
+GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK	<color=#{0}>{1}</color> ist gerade auf Rang {2} aufgestiegen!	0=name color,1=player name,2=medal rank
 GLOBAL_SOCIAL_TOAST_FRIEND_GOLDEN_LEGENDARY	<color=#{0}>{1}</color> hat <color=#{3}>{2} (Golden)</color> erhalten!	0=name color,1=player name,2=card name,3=Golden Color
 GLOBAL_SOCIAL_TOAST_FRIEND_HUNTER_LEVEL	<color=#{0}>{1}</color> ist als Jäger auf Stufe {2} aufgestiegen.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_ILLIDAN_COMPLETE	<color=#{0}>{1}</color> hat Illidan Sturmgrimm besiegt!	0=name color,1=player name
@@ -546,11 +551,22 @@ GLOBAL_STORE_MOBILE_NAME_AMAZON	im Amazon Appstore
 GLOBAL_STORE_MOBILE_NAME_APPLE	im Apple App Store	
 GLOBAL_STORE_MOBILE_NAME_DEFAULT	im Blizzard-Shop	
 GLOBAL_STORE_MOBILE_NAME_GOOGLE	auf Google Play	
-GLOBAL_STORE_MOBILE_NAME_SAMSUNG	auf Samsung Apps	
 GLOBAL_SUPPORT	Support	
 GLOBAL_TOOLTIP_FRIEND_BUTTON_DESC	Chattet mit Euren Freunden und fordert sie heraus.	
 GLOBAL_TOOLTIP_FRIEND_BUTTON_HEADER	Freunde	
 GLOBAL_TOOLTIP_MENU_DESC	Hier könnt Ihr das Optionsmenü einsehen, das Spiel verlassen und mehr.	
 GLOBAL_TOOLTIP_MENU_HEADER	Spielmenü	
+GLOBAL_TUTORIAL_ATTACK	Angriff	
+GLOBAL_TUTORIAL_ATTACKER	Angreifer	
+GLOBAL_TUTORIAL_COST	Kosten	
+GLOBAL_TUTORIAL_DEFENDER	Verteidiger	
+GLOBAL_TUTORIAL_HEALTH	Leben	
+GLOBAL_TUTORIAL_HERO_POWER	Heldenfähigkeit	
+GLOBAL_TUTORIAL_MINION	Diener	
+GLOBAL_TUTORIAL_TAUNT	Spott	
+GLOBAL_TUTORIAL_TAUNT_DESCRIPTION	Feinde müssen diesen Diener angreifen.	
+GLOBAL_TUTORIAL_USED	Benutzt	
+GLOBAL_TUTORIAL_YOUR_MANA	Euer Mana	
+GLOBAL_TUTORIAL_YOUR_TURN	Euer Zug	
 GLOBAL_VERSION	Version	
 GLOBAL_WINS	Siege	

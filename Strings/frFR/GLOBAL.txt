@@ -31,6 +31,8 @@ GLOBAL_BUTTON_NO	Non
 GLOBAL_BUTTON_OK	OK	
 GLOBAL_BUTTON_YES	Oui	
 GLOBAL_CANCEL	Annuler	
+GLOBAL_CARD_SET_BRM	Mont Rochenoire	
+GLOBAL_CARD_SET_BRM_SEARCHABLE_SHORTHAND_NAMES	mr	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_CORE	Jeu de base	
 GLOBAL_CARD_SET_EXPERT1	Classique	
 GLOBAL_CARD_SET_GVG	Gobelins et gnomes	
@@ -76,7 +78,7 @@ GLOBAL_CURRENT_TIME	{0:HH:mm}	see http://msdn.microsoft.com/en-us/library/8kb3dd
 GLOBAL_DATETIME_AFK_DAY	Absent(e) depuis plus d’un jour	
 GLOBAL_DATETIME_AFK_DAYS	Absent(e) depuis {0} |4(jour,jours)	
 GLOBAL_DATETIME_AFK_HOURS	Absent(e) depuis {0} |4(heure,heures)	
-GLOBAL_DATETIME_AFK_MINUTES	Absent(e) depuis {0} |4(minute, minutes)	
+GLOBAL_DATETIME_AFK_MINUTES	Absent(e) depuis {0} |4(minute,minutes)	
 GLOBAL_DATETIME_AFK_MONTH	Absent(e) depuis plus d’un mois	
 GLOBAL_DATETIME_AFK_SECONDS	Absent(e) depuis moins d’une minute	
 GLOBAL_DATETIME_AFK_WEEKS	Absent(e) depuis {0} |4(semaine,semaines)	
@@ -143,7 +145,7 @@ GLOBAL_ERROR_NETWORK_UNAVAILABLE_UNKNOWN	Oups ! Des lutins farceurs ont interro
 GLOBAL_ERROR_NETWORK_UNAVAILABLE_UPGRADE	Hearthstone a été mis à jour ! Veuillez télécharger la dernière version.	
 GLOBAL_ERROR_NETWORK_UTIL_TIMEOUT	Délai d’attente de votre partie écoulé lors de la requête de données auprès du service utilitaire de Hearthstone. Veuillez relancer Hearthstone pour vous reconnecter.	
 GLOBAL_ERROR_NO_MAGE_PRECON	Nous avons eu un problème de réseau pendant le chargement des cartes de votre collection. Veuillez relancer Hearthstone pour accéder à votre collection et reprendre les duels !	
-GLOBAL_ERROR_STREAMING_ASSET_TIMEOUT	Expiration du délai d'attente du système de flux pendant le chargement de la ressource {0}	0=asset name
+GLOBAL_ERROR_STREAMING_ASSET_TIMEOUT	Expiration du délai d'attente du système de flux pendant le chargement de la ressource {0}.	0=asset name
 GLOBAL_ERROR_UNKNOWN_ERROR	Oups ! Des lutins malicieux ont interrompu Hearthstone alors que le jeu tentait de se connecter à Battle.net. Veuillez attendre quelques minutes qu’ils se dispersent avant de relancer le jeu.	
 GLOBAL_EXIT	Quitter	
 GLOBAL_FEATURE_DISABLED_MESSAGE_COLLECTION	La collection est malheureusement désactivée pour le moment.	
@@ -183,7 +185,6 @@ GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_THEYRE_UNAVAILABLE	Vous ne pouvez pas défier
 GLOBAL_FRIENDLIST_CURRENT_GAMES_HEADER	PARTIES EN COURS - {0}	0=number of friends you have unfinished games with
 GLOBAL_FRIENDLIST_FRIENDS_HEADER	CONTACTS - {0}/{1} connecté(s)	0=number of online friends 1=number of offline friends
 GLOBAL_FRIENDLIST_FRIENDS_HEADER_ALL_ONLINE	CONTACTS - {0} |4(connecté,connectés)	
-GLOBAL_FRIENDLIST_FRIENDS_HEADER_NO_ONLINE	CONTACTS	
 GLOBAL_FRIENDLIST_LASTPLAYED	Dernier adversaire :	
 GLOBAL_FRIENDLIST_MYSTATUS	CONNECTÉ(E)	
 GLOBAL_FRIENDLIST_NEARBY_PLAYERS_HEADER	JOUEURS PROCHES : {0}	0=number of players
@@ -233,6 +234,7 @@ GLOBAL_HERO_LEVEL_REWARD_BOOSTER	Paquet {0}	0=booster type
 GLOBAL_HERO_LEVEL_REWARD_GOLD	Or : {0}	0=amount
 GLOBAL_HERO_LEVEL_REWARD_GOLDEN_CARD	{1} {0}	0=flair 1=card name
 GLOBAL_HERO_WINS	Victoires : {0}/{1}	0=number of games this class has won 1=number of wins to get golden
+GLOBAL_HERO_WINS_PHONE	Victoires\n{0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_KEYWORD_AUTOCAST	Lancement auto.	
 GLOBAL_KEYWORD_AUTOCAST_TEXT	Ce pouvoir héroïque DOIT être utilisé à chaque tour.	
 GLOBAL_KEYWORD_BATTLECRY	Cri de guerre	
@@ -348,13 +350,15 @@ GLOBAL_MEDAL_TOOLTIP_BODY	Gagnez des parties pour progresser jusqu’au rang sui
 GLOBAL_MEDAL_TOOLTIP_BODY_ARENA_GRAND_MASTER	Vous êtes un champion de l’Arène !	
 GLOBAL_MEDAL_TOOLTIP_BODY_LEGEND	Vous êtes une légende ! Votre position dans ce rang changera à chaque partie.	
 GLOBAL_MEDAL_TOOLTIP_HEADER	Médaille : {0}	0=medal name
+GLOBAL_MEDAL_TOURNAMENT_TOOLTIP_BODY	Parmi les {0}% de meilleurs joueurs en Partie classée cette saison\n\nProchain rang :\n{1}	0=rank percentile 1=medal name
 GLOBAL_MOBILE_ERROR_ANDROID_PHONE_DETECTED	Désolés, Hearthstone ne fonctionne pour le moment que sur les tablettes Android de 6 pouces et plus.	
 GLOBAL_MOBILE_ERROR_BREAKING_NEWS	Informations :\n\n{0}	
-GLOBAL_MOBILE_ERROR_IPAD1_DETECTED	Malheureusement, Hearthstone requiert un iPad 2 ou supérieur.	
 GLOBAL_MOBILE_ERROR_LOGON_WEB_TIMEOUT	Vous avez été déconnecté de Hearthstone car vous êtes inactif depuis un moment.	
 GLOBAL_MOBILE_ERROR_NETWORK_DISCONNECT	Vous avez été déconnecté.	
 GLOBAL_MOBILE_ERROR_NETWORK_SPAM	Vous avez été déconnecté car vous avez envoyé trop de requêtes dans un délai trop court.	
 GLOBAL_MOBILE_ERROR_NETWORK_UTIL_TIMEOUT	Expiration du délai de connexion lors de la requête de données auprès des serveurs de Hearthstone.	
+GLOBAL_MOBILE_ERROR_UNSUPPORTED_IOS_PHONE_DETECTED	Malheureusement, Hearthstone requiert un iPhone 4s ou un iPod Touch 5 ou supérieur.	
+GLOBAL_MOBILE_ERROR_UNSUPPORTED_IOS_TABLET_DETECTED	Malheureusement, Hearthstone requiert un iPad 2 ou supérieur.	
 GLOBAL_MOBILE_LOG_IN_TOOLTIP	Si vous possédez un compte, connectez-vous !	
 GLOBAL_MOBILE_LOGIN_POINTER	Connectez-vous ici	
 GLOBAL_MOBILE_TAP_TO_RECONNECT	Touchez l’écran pour vous reconnecter	
@@ -364,11 +368,15 @@ GLOBAL_MOBILECHAT_NOTIFICATION_TURN_COUNTDOWN	Vous allez manquer de temps !
 GLOBAL_MOBILECHAT_NOTIFICATION_YOUR_TURN	À vous de jouer !	
 GLOBAL_MOBILECHAT_RETURN_TO_GAME	Fermer	
 GLOBAL_MOBILECHAT_RETURN_TO_MENU	Retour au menu	
+GLOBAL_MORE	Suite	
 GLOBAL_MY_NUM_WINS	{0}	0=number of games this player has won
+GLOBAL_OFF	Non	
 GLOBAL_OFFLINE	Déconnecté(e)	
 GLOBAL_OKAY	OK	
+GLOBAL_ON	Oui	
 GLOBAL_OPTIONS	Options	
 GLOBAL_OPTIONS_CARDBACK_LABEL	Choisir un dos de carte	
+GLOBAL_OPTIONS_CHOOSE_CARD_BACK	Choisir un dos de carte	
 GLOBAL_OPTIONS_CINEMATIC	Cinématique	
 GLOBAL_OPTIONS_CREDITS	Générique	
 GLOBAL_OPTIONS_GRAPHICS_FULLSCREEN_LABEL	Plein écran	
@@ -466,11 +474,6 @@ GLOBAL_REWARD_CARD_LEVEL_UP	Obtenue en atteignant le niveau {0} avec votre {1}	0
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL	{0}	0=first class
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL_DOUBLE	{0} et {1}	0=first class, 1=second class
 GLOBAL_REWARD_CLASS_CHALLENGE_HEADLINE	|4(Défi de classe débloqué,Défis de classe débloqués)	
-GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_ARACHNID	Vous pouvez aussi essayer le quartier des Arachnides en mode héroïque !	
-GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_CONSTRUCT	Vous pouvez aussi essayer le quartier des Assemblages en mode héroïque !	
-GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_FROSTWYRM	Vous pouvez aussi essayer l’antre du Wyrm de givre en mode héroïque !	
-GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_MILITARY	Vous pouvez aussi essayer le quartier Militaire en mode héroïque !	
-GLOBAL_REWARD_CLASS_CHALLENGE_SOURCE_NAXX_PLAGUE	Vous pouvez aussi essayer le quartier de la Peste en mode héroïque !	
 GLOBAL_REWARD_CORE_CARD_DETAILS	{0}/{1} |4(carte,cartes) {2} débloquées	0=# cards unlocked, 1=# cards possible to unlock, 2=class
 GLOBAL_REWARD_FORGE_DETAILS_OUT_OF_BAND	{0} |4(admission pour l’Arène a été ajoutée,admissions pour l’Arène ont été ajoutées) à votre compte en dehors du jeu.	0=count
 GLOBAL_REWARD_FORGE_HEADLINE	Admission pour l’Arène obtenue !	
@@ -491,15 +494,17 @@ GLOBAL_SEASON_END_BONUS_STAR_TITLE	Votre rang de la saison passée vous octroie
 GLOBAL_SEASON_END_BONUS_STARS_LABEL	|4(Étoile,Étoiles) bonus	
 GLOBAL_SEASON_END_NEW_CARD_BACK	Vous avez obtenu un nouveau dos de carte	
 GLOBAL_SEASON_END_NEW_SEASON	La {0} a commencé !	0=season name
+GLOBAL_SEASON_END_PERCENTILE_LABEL	Vous faites partie des {0}% de joueurs les mieux cotés en Partie classée !	0=rank percentile
 GLOBAL_SEASON_END_RANK_LABEL	Vous avez obtenu le rang	
 GLOBAL_SEASON_END_WELCOME	Bienvenue	
 GLOBAL_SET_CORE	Jeu de base	
 GLOBAL_SET_EXPERT1	Jeu classique	
 GLOBAL_SHUTDOWN_TOAST	<color=#{0}>Battle.net sera déconnecté dans {1} |4(minute,minutes)</color>	0=color, 1=minutes
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_COMPLETE	<color=#{0}>{1}</color> vient de terminer une série de matchs dans l’Arène. ({2} - {3})	0=name color,1=player name,2=Arena Wins,3=Arena Losses
-GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_COMPLETE_BAD	<color=#{0}>{1}</color> vient de terminer une série dans l’Arène.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START	<color=#{0}>{1}</color> vient de commencer une série de matchs dans l’Arène.	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START_WITH_MANY_WINS	<color=#{0}>{1}</color> vient de commencer une série en Arène avec déjà {2} victoires !	0=name color,1=player name,2=Arena Wins
 GLOBAL_SOCIAL_TOAST_FRIEND_DRUID_LEVEL	<color=#{0}>{1}</color> est maintenant Druide niveau {2}.	0=name color,1=player name,2=level
+GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK	<color=#{0}>{1}</color> vient d'atteindre le rang {2} !	0=name color,1=player name,2=medal rank
 GLOBAL_SOCIAL_TOAST_FRIEND_GOLDEN_LEGENDARY	<color=#{0}>{1}</color> vient d’obtenir la carte dorée <color=#{3}>{2}</color> !	0=name color,1=player name,2=card name,3=Golden Color
 GLOBAL_SOCIAL_TOAST_FRIEND_HUNTER_LEVEL	<color=#{0}>{1}</color> est maintenant Chasseur niveau {2}.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_ILLIDAN_COMPLETE	<color=#{0}>{1}</color> a vaincu Illidan Hurlorage !	0=name color,1=player name
@@ -546,11 +551,22 @@ GLOBAL_STORE_MOBILE_NAME_AMAZON	l’App-Shop Amazon
 GLOBAL_STORE_MOBILE_NAME_APPLE	l’App Store Apple	
 GLOBAL_STORE_MOBILE_NAME_DEFAULT	la boutique Battle.net	
 GLOBAL_STORE_MOBILE_NAME_GOOGLE	Google Play	
-GLOBAL_STORE_MOBILE_NAME_SAMSUNG	la boutique Samsung GALAXY Apps	
 GLOBAL_SUPPORT	Assistance	
 GLOBAL_TOOLTIP_FRIEND_BUTTON_DESC	Discutez avec vos contacts et défiez-les.	
 GLOBAL_TOOLTIP_FRIEND_BUTTON_HEADER	Contacts	
 GLOBAL_TOOLTIP_MENU_DESC	Ici, vous pouvez régler les options, capituler, quitter le jeu...	
 GLOBAL_TOOLTIP_MENU_HEADER	Menu de jeu	
+GLOBAL_TUTORIAL_ATTACK	Attaque	
+GLOBAL_TUTORIAL_ATTACKER	Attaquant	
+GLOBAL_TUTORIAL_COST	Coût	
+GLOBAL_TUTORIAL_DEFENDER	Défenseur	
+GLOBAL_TUTORIAL_HEALTH	Vie	
+GLOBAL_TUTORIAL_HERO_POWER	Pouvoir héroïque	
+GLOBAL_TUTORIAL_MINION	Serviteur	
+GLOBAL_TUTORIAL_TAUNT	Provocation	
+GLOBAL_TUTORIAL_TAUNT_DESCRIPTION	Les ennemis doivent attaquer ce serviteur.	
+GLOBAL_TUTORIAL_USED	Utilisé	
+GLOBAL_TUTORIAL_YOUR_MANA	Votre mana	
+GLOBAL_TUTORIAL_YOUR_TURN	Votre tour	
 GLOBAL_VERSION	Version	
 GLOBAL_WINS	Victoires	
