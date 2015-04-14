@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<CardDefs build="8311">
+<CardDefs build="8416">
 	<Entity CardID="BRM_001" ID="2274" version="2">
 		<MasterPower>d108222b-8e61-4b5c-8f39-085e495e3a0e</MasterPower>
 		<Tag enumID="185" name="CARDNAME" type="LocString">
@@ -146,7 +146,7 @@
 			<plPL>Gdy rzucisz zaklęcie, zadaj 2 pkt. obrażeń rozdzielone losowo pomiędzy wszystkimi wrogami.</plPL>
 			<ptBR>Depois de lançar um feitiço, cause 2 de dano dividido aleatoriamente entre todos os inimigos.</ptBR>
 			<ruRU>После розыгрыша карты заклинания наносит 2 ед. урона, случайно распределяемого между всеми персонажами противника.</ruRU>
-			<zhCN>每当你使用一个法术，便造成2点伤害，随机分配到所有敌人身上。</zhCN>
+			<zhCN>每当你施放一个法术，便造成2点伤害，随机分配到所有敌人身上。</zhCN>
 			<zhTW>在你施放法術之後，造成2點傷害，隨機分給敵方角色</zhTW>
 		</Tag>
 		<Tag enumID="351" name="FLAVORTEXT" type="LocString">
@@ -684,11 +684,11 @@ w Leżu Czarnoskrzydłego.</plPL>
 			<esMX>Elige un esbirro. Coloca 3 copias de él en tu mazo.</esMX>
 			<frFR>Choisissez un serviteur. En place 3 copies dans votre deck.</frFR>
 			<itIT>Seleziona un servitore e mettine 3 copie nel tuo mazzo.</itIT>
-			<koKR>하수인을 선택하고, 내 덱에 그 하수인을 3마리 섞어 넣습니다.</koKR>
+			<koKR>하수인을 선택하고, 내 덱에 그 하수인을 셋 섞어 넣습니다.</koKR>
 			<plPL>Wybierz stronnika. Wtasuj 3 kopie jego karty do twojej talii.</plPL>
 			<ptBR>Escolha um lacaio. Embaralhe 3 cópias dele no seu deck.</ptBR>
 			<ruRU>Выберите существо. Вы замешиваете в колоду 3 его копии.</ruRU>
-			<zhCN>选择一个随从。将该随从的3个复制洗入你的牌库。</zhCN>
+			<zhCN>选择一个随从。将该随从的三个复制洗入你的牌库。</zhCN>
 			<zhTW>選擇一個手下。將3張該手下的卡片洗入你的牌堆中</zhTW>
 		</Tag>
 		<Tag enumID="351" name="FLAVORTEXT" type="LocString">
@@ -2077,7 +2077,7 @@ w Leżu Czarnoskrzydłego.</plPL>
 			<plPL>Otrzymuje +1/+1 za każdym razem, gdy stanie się celem twojego zaklęcia.</plPL>
 			<ptBR>Sempre que você alvejar este lacaio com um feitiço, receba +1/+1.</ptBR>
 			<ruRU>Получает +1/+1, когда вы выбираете это существо целью заклинания.</ruRU>
-			<zhCN>每当你以该随从为目标使用一个法术时，便获得+1/+1。</zhCN>
+			<zhCN>每当你以该随从为目标施放一个法术时，便获得+1/+1。</zhCN>
 			<zhTW>每當你對此手下施放法術，獲得+1/+1</zhTW>
 		</Tag>
 		<Tag enumID="351" name="FLAVORTEXT" type="LocString">
@@ -2726,7 +2726,7 @@ Cause 8 de dano a um inimigo aleatório.</ptBR>
 			<plPL>GIŃCIE, ROBAKI!</plPL>
 			<ptBR>MORRAM, INSETOS!</ptBR>
 			<ruRU>УМРИТЕ, НАСЕКОМЫЕ!</ruRU>
-			<zhCN>死吧，你们这些卑鄙的家伙！</zhCN>
+			<zhCN>死吧，卑鄙的家伙！</zhCN>
 			<zhTW>死吧，蟲子!</zhTW>
 		</Tag>
 		<Tag enumID="184" name="CARDTEXT_INHAND" type="LocString">
@@ -2833,6 +2833,7 @@ Otchłani Czarnej Góry.</plPL>
 			<zhTW>完成黑石深淵即可合成。</zhTW>
 		</Tag>
 		<Tag enumID="342" name="ARTISTNAME" type="String">Wayne Reynolds</Tag>
+		<Tag enumID="32" name="TRIGGER_VISUAL" type="Int" value="1"/>
 		<Tag enumID="45" name="HEALTH" type="Int" value="5"/>
 		<Tag enumID="47" name="ATK" type="Int" value="5"/>
 		<Tag enumID="48" name="COST" type="Int" value="6"/>
@@ -2876,6 +2877,8 @@ Otchłani Czarnej Góry.</plPL>
 		<Tag enumID="183" name="CARD_SET" type="Int" value="14"/>
 		<Tag enumID="202" name="CARDTYPE" type="Int" value="6"/>
 		<Power definition="83c5012c-47df-4d74-8f62-eedc48821ca4"/>
+		<Power definition="0435df39-db0f-491e-90fa-ca849bd45c5a"/>
+		<TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False"/>
 	</Entity>
 	<Entity CardID="BRM_029" ID="2308" version="2">
 		<MasterPower>b73f789f-49d4-4ce7-9575-7dac07d943c5</MasterPower>
@@ -3557,7 +3560,7 @@ Coloque dois lacaios do seu deck e um do deck adversário no campo de batalha.</
 			<ruRU>&lt;b&gt;Сила героя&lt;/b&gt;
 Кладет на поле боя два существа из своей колоды и одно существо из колоды противника.</ruRU>
 			<zhCN>&lt;b&gt;英雄技能&lt;/b&gt;
-从你的牌库中将两个随从置入战场；从对手的牌库中将一个随从置入战场。</zhCN>
+从你的牌库中将两个随从置入战场；对手将一个随从置入战场。</zhCN>
 			<zhTW>&lt;b&gt;英雄能力&lt;/b&gt;
 從牌堆取出兩個手下，對手則取出一個，並放到戰場</zhTW>
 		</Tag>
@@ -9493,44 +9496,6 @@ Receba 4 de Armadura.</ptBR>
 		<Tag enumID="183" name="CARD_SET" type="Int" value="14"/>
 		<Tag enumID="202" name="CARDTYPE" type="Int" value="5"/>
 		<Power definition="102e2f97-d5e0-438b-9c17-ee104c65f346"/>
-	</Entity>
-	<Entity CardID="BRMC_01" ID="2599" version="2">
-		<Tag enumID="185" name="CARDNAME" type="LocString">
-			<deDE>Ragnaros der Feuerfürst</deDE>
-			<enUS>Ragnaros the Firelord</enUS>
-			<esES>Ragnaros, Señor del Fuego</esES>
-			<esMX>Ragnaros el Señor del Fuego</esMX>
-			<frFR>Ragnaros, seigneur du feu</frFR>
-			<itIT>Ragnaros</itIT>
-			<koKR>불의 군주 라그나로스</koKR>
-			<plPL>Ragnaros Władca Ognia</plPL>
-			<ptBR>Ragnaros, o Senhor do Fogo</ptBR>
-			<ruRU>Рагнарос</ruRU>
-			<zhCN>炎魔之王拉格纳罗斯</zhCN>
-			<zhTW>『炎魔』拉格納羅斯</zhTW>
-		</Tag>
-		<Tag enumID="45" name="HEALTH" type="Int" value="30"/>
-		<Tag enumID="183" name="CARD_SET" type="Int" value="14"/>
-		<Tag enumID="202" name="CARDTYPE" type="Int" value="3"/>
-	</Entity>
-	<Entity CardID="BRMC_02" ID="2600" version="2">
-		<Tag enumID="185" name="CARDNAME" type="LocString">
-			<deDE>Nefarian</deDE>
-			<enUS>Nefarian</enUS>
-			<esES>Nefarian</esES>
-			<esMX>Nefarian</esMX>
-			<frFR>Nefarian</frFR>
-			<itIT>Nefarian</itIT>
-			<koKR>네파리안</koKR>
-			<plPL>Nefarian</plPL>
-			<ptBR>Nefarian</ptBR>
-			<ruRU>Нефариан</ruRU>
-			<zhCN>奈法利安</zhCN>
-			<zhTW>奈法利安</zhTW>
-		</Tag>
-		<Tag enumID="45" name="HEALTH" type="Int" value="30"/>
-		<Tag enumID="183" name="CARD_SET" type="Int" value="14"/>
-		<Tag enumID="202" name="CARDTYPE" type="Int" value="3"/>
 	</Entity>
 	<Entity CardID="CRED_01" ID="1762" version="2">
 		<Tag enumID="185" name="CARDNAME" type="LocString">
@@ -15690,7 +15655,7 @@ Equipe uma Adaga 1/2.</ptBR>
 			<deDE>Prinz Malchezaar war ein Sammler seltener Waffen. Er hauchte ihnen Leben ein und ließ sie für sich tanzen.</deDE>
 			<enUS>Prince Malchezaar was a collector of rare weapons. He'd animate them and have them dance for him.</enUS>
 			<esES>El príncipe Malchezaar coleccionaba armas poco comunes. Las animaba y hacía que bailasen para él.</esES>
-			<esMX>El Príncipe Malchezaar era un coleccionista de armas exóticas. Solía darles vida y hacer que dancen para él.</esMX>
+			<esMX>El Príncipe Malchezaar era un coleccionista de armas exóticas. Solía darles vida y las obligaba a danzar para él.</esMX>
 			<frFR>Le prince Malchezaar était un grand collectionneur d’armes rares. Il les animait et les faisait danser pour son plaisir.</frFR>
 			<itIT>Il Principe Malchezaar era un grande collezionista di armi rare. Si divertiva ad animarle e a farle ballare per lui.</itIT>
 			<koKR>공작 말체자르는 희귀한 무기를 모으는 수집가였습니다. 무기를 살아 움직이게 하고는 자신 앞에서 춤추게 했죠.</koKR>
@@ -17924,7 +17889,7 @@ Receba 2 Armadura.</ptBR>
 			<esMX>Los comando Pico tormenta son expertos en demolición. Y hornean unos pastelitos deliciosos.</esMX>
 			<frFR>Les commandos foudrepiques sont des experts en démolition. Mais aussi du barbecue en toute saison.</frFR>
 			<itIT>I Commando Piccatonante sono esperti in demolizioni, ma preparano dei pasticcini veramente orrendi... evitateli!</itIT>
-			<koKR>스톰파이크 특공대는 파괴 전문가들입니다. 그렇다고 컵케잌까지 그런 방식으로 만들 필요는 없었잖아요.</koKR>
+			<koKR>스톰파이크 특공대는 파괴 전문가들입니다. 그렇다고 컵케이크까지 그런 방식으로 만들 필요는 없었잖아요.</koKR>
 			<plPL>Komandosi Gromdardy to eksperci od materiałów wybuchowych. Wypiekają także przepyszne babeczki.</plPL>
 			<ptBR>Os Comandos Lançatroz são peritos em demolição. Eles também preparam uns bolinhos deliciosos.</ptBR>
 			<ruRU>Дворфы-диверсанты специализируются на подрывных работах. И никогда не откажутся от ром-бабы.</ruRU>
@@ -24801,7 +24766,7 @@ gagne +1/+1.</frFR>
 			<ptBR>Toda vez que evocar um lacaio com 3 ou menos de Ataque, conceda &lt;b&gt;Investida&lt;/b&gt; a ele.</ptBR>
 			<ruRU>Каждый раз, когда вы призываете существо с атакой 3 или меньше, оно получает способность &lt;b&gt;«Рывок»&lt;/b&gt;.</ruRU>
 			<zhCN>每当你召唤一个攻击力小于或等于3的随从，使该随从获得&lt;b&gt;冲锋&lt;/b&gt;。</zhCN>
-			<zhTW>每當你打出攻擊力在3點以下的手下，賦予該手下&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>
+			<zhTW>每當你召喚攻擊力在3點以下的手下，賦予該手下&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>
 		</Tag>
 		<Tag enumID="351" name="FLAVORTEXT" type="LocString">
 			<deDE>Im Kriegshymnenklan geht es oft hoch her. Man sollte es sich gut überlegen, dort Anführer zu werden.</deDE>
@@ -31189,7 +31154,7 @@ de (1).</frFR>
 			<plPL>Umieść w ręce 2 losowe Demony z twojej talii.</plPL>
 			<ptBR>Coloque 2 Demônios aleatórios do seu deck na sua mão.</ptBR>
 			<ruRU>Вы кладете в руку двух случайных демонов из вашей колоды.</ruRU>
-			<zhCN>从你的牌库中随机将2张恶魔牌置入你的手牌。</zhCN>
+			<zhCN>从你的牌库中随机将两张恶魔牌置入你的手牌。</zhCN>
 			<zhTW>從你的牌堆中取出2張隨機惡魔並放到你的手牌中</zhTW>
 		</Tag>
 		<Tag enumID="351" name="FLAVORTEXT" type="LocString">
@@ -34887,7 +34852,7 @@ de (1).</frFR>
 			<esMX>A veces el secreto es ponerse un bigote falso y señalar al de al lado.</esMX>
 			<frFR>C’est surprenant qu’un simple « REGARDE PAR LÀ-BAS ! » fonctionne si bien.</frFR>
 			<itIT>A volte basta mettersi un paio di baffi finti e indicare qualcun altro.</itIT>
-			<koKR>가짜 수염을 달고 옆 사람을 가리키는 것 만으로도 잘 속아줄 때가 있죠.</koKR>
+			<koKR>가짜 수염을 달고 옆 사람을 가리키는 것만으로도 잘 속아줄 때가 있죠.</koKR>
 			<plPL>Czasami wystarczy przykleić sztuczne wąsy i wskazać kogoś innego.</plPL>
 			<ptBR>Às vezes é tão fácil que basta um bigode falso e o dedo em riste na direção de alguém.</ptBR>
 			<ruRU>Иногда это так же просто, как позвонить в чью-то дверь и выбежать из подъезда.</ruRU>
@@ -36518,7 +36483,7 @@ Surcharge :&lt;/b&gt; (2)</frFR>
 			<esES>Invoca tres antárboles 2/2 con &lt;b&gt;Cargar&lt;/b&gt; que mueren al final del turno.</esES>
 			<esMX>Invoca tres Antárboles 2/2 con &lt;b&gt;Carga&lt;/b&gt; que mueren al final del turno.</esMX>
 			<frFR>Invoque trois tréants 2/2 avec &lt;b&gt;Charge&lt;/b&gt; qui meurent à la fin du tour.</frFR>
-			<itIT>Evoca tre Treant 2/2 con &lt;b&gt;Carica&lt;/b&gt; che muoiono alla fine del tuo turno.</itIT>
+			<itIT>Evoca tre Treant 2/2 con &lt;b&gt;Carica&lt;/b&gt; che muoiono alla fine del turno.</itIT>
 			<koKR>&lt;b&gt;돌진&lt;/b&gt; 능력이 있는 2/2 나무정령을 셋 소환합니다. 이들은 내 턴이 끝날 때 모두 죽습니다.</koKR>
 			<plPL>Przyzwij trzy Drzewce 2/2 z &lt;b&gt;Szarżą&lt;/b&gt;, które zginą na koniec tury.</plPL>
 			<ptBR>Evoque três Arvorosos 2/2 com &lt;b&gt;Investida&lt;/b&gt;, que morrerão no fim do turno.</ptBR>
@@ -43287,6 +43252,7 @@ Agonia:&lt;/b&gt; Przyzwij Śluz 1/2 z &lt;b&gt;Prowokacją&lt;/b&gt;.</plPL>
 		<Tag enumID="218" name="BATTLECRY" type="Int" value="1"/>
 		<Tag enumID="321" name="COLLECTIBLE" type="Int" value="1"/>
 		<Power definition="323790bb-9083-4c9f-9c11-3a5c2c6b94d3"/>
+		<Power definition="d4d7eec4-ef9d-4bcb-a1ac-06538a7c17d4"/>
 	</Entity>
 	<Entity CardID="GVG_005" ID="1941" version="2">
 		<MasterPower>4ad1f03a-5383-45c0-8cf5-d77cc52d5f23</MasterPower>
@@ -48051,7 +48017,7 @@ Przeciążenie:&lt;/b&gt; (1)
 			<zhCN>他这么壮是因为他每天坚持健康的饮食，并且每个星期都去穴居人健身房进行锻炼。</zhCN>
 			<zhTW>魁梧是相對穴居怪來說。你的話，當然可以叫他矮冬瓜。</zhTW>
 		</Tag>
-		<Tag enumID="342" name="ARTISTNAME" type="String">Chris Rahn</Tag>
+		<Tag enumID="342" name="ARTISTNAME" type="String">Aleksi Briclot</Tag>
 		<Tag enumID="32" name="TRIGGER_VISUAL" type="Int" value="1"/>
 		<Tag enumID="45" name="HEALTH" type="Int" value="5"/>
 		<Tag enumID="47" name="ATK" type="Int" value="3"/>
@@ -61793,14 +61759,17 @@ Evoque dois lacaios 2/1.</ptBR>
 	<Entity CardID="XXX_053" ID="2371" version="2">
 		<MasterPower>aac2ae6e-541a-4d10-86a7-2fb25420cd88</MasterPower>
 		<Tag enumID="185" name="CARDNAME" type="LocString">
-			<enUS>Armor</enUS>
+			<enUS>Armor 100</enUS>
 		</Tag>
 		<Tag enumID="184" name="CARDTEXT_INHAND" type="LocString">
-			<enUS>Give your Hero +100 Armor</enUS>
+			<enUS>Give target Hero +100 Armor</enUS>
 		</Tag>
 		<Tag enumID="183" name="CARD_SET" type="Int" value="8"/>
 		<Tag enumID="202" name="CARDTYPE" type="Int" value="5"/>
-		<Power definition="aac2ae6e-541a-4d10-86a7-2fb25420cd88"/>
+		<Power definition="aac2ae6e-541a-4d10-86a7-2fb25420cd88">
+			<PlayRequirement param="" reqID="17"/>
+			<PlayRequirement param="" reqID="11"/>
+		</Power>
 	</Entity>
 	<Entity CardID="XXX_054" ID="2373" version="2">
 		<MasterPower>26c3fb5e-b6ab-4554-b406-b1b28f081cf8</MasterPower>
@@ -61861,7 +61830,7 @@ Evoque dois lacaios 2/1.</ptBR>
 	<Entity CardID="XXX_057" ID="2406" version="2">
 		<MasterPower>148ff83a-1bf1-4556-be55-1018087e5f82</MasterPower>
 		<Tag enumID="185" name="CARDNAME" type="LocString">
-			<enUS>Destroy Secrets</enUS>
+			<enUS>Destroy Target Secrets</enUS>
 		</Tag>
 		<Tag enumID="184" name="CARDTEXT_INHAND" type="LocString">
 			<enUS>Choose a hero. Destroy all &lt;b&gt;Secrets&lt;/b&gt; controlled by that hero.</enUS>
