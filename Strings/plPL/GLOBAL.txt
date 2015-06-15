@@ -34,6 +34,7 @@ GLOBAL_CANCEL	Anuluj
 GLOBAL_CARD_SET_BRM	Czarna Góra	
 GLOBAL_CARD_SET_BRM_SEARCHABLE_SHORTHAND_NAMES	cg	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_CORE	Podstawowe	
+GLOBAL_CARD_SET_DEBUG	Breja	
 GLOBAL_CARD_SET_EXPERT1	Klasyczne	
 GLOBAL_CARD_SET_GVG	Gobliny vs Gnomy	
 GLOBAL_CARD_SET_GVG_SEARCHABLE_SHORTHAND_NAMES	gvg	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
@@ -111,6 +112,10 @@ GLOBAL_DATETIME_SPLASHSCREEN_MONTH	> 1 miesiąc
 GLOBAL_DATETIME_SPLASHSCREEN_SECONDS	< 1 min.	
 GLOBAL_DATETIME_SPLASHSCREEN_WEEKS	{0} |4(tydzień,tygodnie,tygodni)	
 GLOBAL_DEFAULT_ALERT_HEADER	Powiadomienie	
+GLOBAL_DEMO_COMPLETE_BODY	Dziękujemy za grę w demo Hearthstone: Heroes of Warcraft!	
+GLOBAL_DEMO_COMPLETE_HEADER	Gratulacje!	
+GLOBAL_DEMO_DISCLAIMER	Ta wersja gry Hearthstone: Heroes of Warcraft została stworzona specjalnie do celów demonstracyjnych.	
+GLOBAL_DEMO_LEARN_MORE	Dowiedz się więcej	
 GLOBAL_DONE	Gotowe	
 GLOBAL_ERROR_ACCOUNT_LICENSES	Mieliśmy trochę kłopotów z ustaleniem, co znajduje się w twoim posiadaniu, więc paru rzeczy może brakować. Przepraszamy! Postaramy się to naprawić przy następnym logowaniu.	
 GLOBAL_ERROR_ASSET_CREATE_PERSISTENT_DATA_PATH	Nie udało się stworzyć folderu do zapisu danych w {0}.	0=folder path
@@ -175,12 +180,19 @@ GLOBAL_FRIEND_CHALLENGE_OPPONENT_DECLINED	{0} odrzuca twoje wyzwanie.	0=friend n
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_FRIEND_REMOVED	Wyzwanie zostało wycofane, ponieważ {0} nie jest już twoim znajomym.	0=friend name
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_WAITING_DECK	Czekasz aż {0} wybierze talię.	0=friend name
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_WAITING_RESPONSE	Czekasz aż {0} odpowie na twoje wyzwanie.	0=friend name
+GLOBAL_FRIEND_CHALLENGE_TAVERN_BRAWL_BODY1	Otrzymujesz wyzwanie do Bójki od gracza	
+GLOBAL_FRIEND_CHALLENGE_TAVERN_BRAWL_HEADER	Wyzwanie do Bójki	
+GLOBAL_FRIEND_CHALLENGE_TAVERN_BRAWL_OPPONENT_WAITING_READY	Czekasz aż {0} dołączy do Bójki.	0=friend name
+GLOBAL_FRIEND_CHALLENGE_TAVERN_BRAWL_RECIPIENT_NO_VALID_DECK_RECIPIENT	{0} rzuca ci wyzwanie do Bójki. Stwórz talię do tego trybu, aby przyjąć wyzwanie.	
+GLOBAL_FRIEND_CHALLENGE_TAVERN_BRAWL_RECIPIENT_NO_VALID_DECK_SENDER	Twój znajomy nie ma jeszcze talii do Bójki. Spróbuj ponownie, gdy już ją stworzy!	
+GLOBAL_FRIEND_CHALLENGE_TAVERN_BRAWL_RECIPIENT_NOT_UNLOCKED_SENDER	Twój znajomy nie odblokował jeszcze trybu Karczemnej Bójki. Spróbuj ponownie, gdy to zrobi!	
 GLOBAL_FRIEND_CHALLENGE_TITLE	Gra towarzyska	
 GLOBAL_FRIENDLIST_ADD_FRIEND_BUTTON	Dodaj	
 GLOBAL_FRIENDLIST_BUSYSTATUS	Zajęty	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_AVAILABLE	Wyzwij tego gracza na pojedynek w Hearthstone.	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_HEADER	Rzuć wyzwanie	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_UNAVAILABLE	Nie możesz teraz rozegrać pojedynku z tym graczem. Wróć do głównego menu.	0=player name
+GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_TAVERN_BRAWL_MUST_CREATE_DECK	Aby wyzwać znajomego na Bójkę, stwórz najpierw talię do tego trybu!	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_THEYRE_UNAVAILABLE	Nie możesz teraz rozegrać pojedynku z tym graczem. Poczekaj aż wróci do głównego menu.	0=player name
 GLOBAL_FRIENDLIST_CURRENT_GAMES_HEADER	AKTUALNE GRY - {0}	0=number of friends you have unfinished games with
 GLOBAL_FRIENDLIST_FRIENDS_HEADER	Dostępni znajomi: {0}/{1}	0=number of online friends 1=number of offline friends
@@ -211,6 +223,8 @@ GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_RECEIVED_INVITE_TEXT	{0} zaprasza cię do ogl
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_RECEIVED_INVITE_TEXT_TOUCH	{0} zaprasza cię do oglądania. Naciśnij tutaj, aby zostać widzem.	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_SPECTATING_HEADER	W trybie widza	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_SPECTATING_TEXT	Obecnie obserwujesz partię tego gracza.	
+GLOBAL_FRIENDLIST_TAVERN_BRAWL_CHALLENGE_BUTTON_AVAILABLE	Wyzwij gracza {0} na Karczemną Bójkę.	0=player name
+GLOBAL_FRIENDLIST_TAVERN_BRAWL_CHALLENGE_BUTTON_HEADER	Wyzwanie do Bójki	
 GLOBAL_GAME_MENU	Menu gry	
 GLOBAL_GAME_QUEUE_TIME_IN_QUEUE	Czas w kolejce	
 GLOBAL_GAME_QUEUE_WAIT_TIME	Czas oczekiwania	
@@ -235,6 +249,7 @@ GLOBAL_HERO_LEVEL_REWARD_GOLD	Złoto: {0}	0=amount
 GLOBAL_HERO_LEVEL_REWARD_GOLDEN_CARD	{1} ({0})	0=flair 1=card name
 GLOBAL_HERO_WINS	Zwycięstwa: {0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HERO_WINS_PHONE	Zwycięstwa\n{0}/{1}	0=number of games this class has won 1=number of wins to get golden
+GLOBAL_HIDE	Ukryj	
 GLOBAL_KEYWORD_AUTOCAST	Automatyczne użycie	
 GLOBAL_KEYWORD_AUTOCAST_TEXT	Ta moc specjalna MUSI być użyta co turę.	
 GLOBAL_KEYWORD_BATTLECRY	Okrzyk bojowy	
@@ -296,7 +311,6 @@ GLOBAL_LANGUAGE_NATIVE_ESES	Español (España)	The name of the language IN THAT 
 GLOBAL_LANGUAGE_NATIVE_ESMX	Español (Latinoamérica)	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_FRFR	Français	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_ITIT	Italiano	The name of the language IN THAT LANGUAGE.
-GLOBAL_LANGUAGE_NATIVE_JAJP	日本語	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_KOKR	한국어	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_PLPL	Polski	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_PTBR	Português (Brasil)	The name of the language IN THAT LANGUAGE.
@@ -460,6 +474,7 @@ GLOBAL_REWARD_ARENA_TICKET_HEADLINE	Bezpłatny wstęp!
 GLOBAL_REWARD_ARENA_TICKET_LABEL	Arena	
 GLOBAL_REWARD_BOOSTER_DETAILS_OUT_OF_BAND	{0} |4(pakiet został dodany,pakiety zostały dodane,pakietów zostało dodanych) do twojego konta spoza gry.	0=count
 GLOBAL_REWARD_BOOSTER_HEADLINE_GENERIC	Zdobywasz pakiet!	
+GLOBAL_REWARD_BOOSTER_HEADLINE_MULTIPLE	Zdobywasz {0} |4(pakiet,pakiety,pakietów)!	
 GLOBAL_REWARD_BOOSTER_HEADLINE_OUT_OF_BAND	Otrzymujesz pakiet!	
 GLOBAL_REWARD_CARD_BACK_HEADLINE	Otrzymujesz rewers!	
 GLOBAL_REWARD_CARD_COUNT_MULTIPLIER	x	
@@ -488,7 +503,7 @@ GLOBAL_REWARD_HEARTHSTEED_HEADLINE	Żagiewny Rumak
 GLOBAL_REWARD_HERO_DETAILS	Odblokowani bohaterowie: {0}/{1} 	
 GLOBAL_REWARD_HERO_HEADLINE	{0} odblokowany!	
 GLOBAL_REWARD_HERO_SOURCE	Odblokowano za pokonanie postaci.	0=class
-GLOBAL_REWARD_HEROES_CARD_MOUNT_HEADLINE	Wierzchowiec: Karta z Hearthstone	
+GLOBAL_REWARD_HEROES_CARD_MOUNT_HEADLINE	Wierzchowiec:\nKarta z Hearthstone	
 GLOBAL_SCREENSHOT_COMPLETE	Obrazek zapisano na pulpicie	
 GLOBAL_SEASON_END_BONUS_STAR_BOOST	Dzięki dodatkowym gwiazdkom awansujesz na	
 GLOBAL_SEASON_END_BONUS_STAR_TITLE	Dzięki rankingowi z poprzedniego sezonu otrzymujesz	
@@ -500,6 +515,7 @@ GLOBAL_SEASON_END_RANK_LABEL	Udało ci się osiągnąć rangę
 GLOBAL_SEASON_END_WELCOME	Witamy!	
 GLOBAL_SET_CORE	Zestaw podstawowy	
 GLOBAL_SET_EXPERT1	Zestaw klasyczny	
+GLOBAL_SHOW	Pokaż	
 GLOBAL_SHUTDOWN_TOAST	<color=#{0}>Battle.net zostanie zamknięty za {1} |4(minutę,minuty,minut)</color>	0=color, 1=minutes
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_COMPLETE	<color=#{0}>{1}</color> kończy właśnie serię pojedynków na Arenie. ({2}-{3})	0=name color,1=player name,2=Arena Wins,3=Arena Losses
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START	<color=#{0}>{1}</color> zaczyna nową serię na Arenie.	0=name color,1=player name
@@ -553,6 +569,8 @@ GLOBAL_STORE_MOBILE_NAME_APPLE	Apple App Store
 GLOBAL_STORE_MOBILE_NAME_DEFAULT	sklep Blizzarda	
 GLOBAL_STORE_MOBILE_NAME_GOOGLE	Google Play	
 GLOBAL_SUPPORT	Wsparcie	
+GLOBAL_TAVERN_BRAWL	Karczemna Bójka	
+GLOBAL_TAVERN_BRAWL_ERROR_SEASON_INCREMENTED	Przepraszamy, ale ta „Karczemna Bójka” dobiegła końca. Już niedługo odbędzie się kolejna!	
 GLOBAL_TOOLTIP_FRIEND_BUTTON_DESC	Rozmawiaj ze znajomymi i rzucaj im wyzwania.	
 GLOBAL_TOOLTIP_FRIEND_BUTTON_HEADER	Znajomi	
 GLOBAL_TOOLTIP_MENU_DESC	Tu możesz między innymi sprawdzić opcje i listę autorów oraz wyjść z gry.	

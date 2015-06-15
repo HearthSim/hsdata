@@ -6,6 +6,8 @@
 	<Column name="SOURCE" type="String" />
 	<Column name="NAME" type="LocString" />
 	<Column name="NAME_COMMENT" type="String" />
+	<Column name="DESCRIPTION" type="LocString" />
+	<Column name="SOURCE_DESCRIPTION" type="LocString" />
 	<Column name="ENABLED" type="Bool" />
 	<Column name="PREFAB_NAME" type="AssetPath" />
 	<Record>
@@ -29,6 +31,34 @@
 		</Field>
 		<Field column="ENABLED">True</Field>
 		<Field column="NAME_COMMENT"></Field>
+		<Field column="DESCRIPTION">
+			<enUS>The only card back you’ll ever need.</enUS>
+			<deDE>Der Kartenrücken schlechthin.</deDE>
+			<esES>El único dorso de carta que necesitas.</esES>
+			<esMX>El único dorso de carta que necesitarás.</esMX>
+			<frFR>Le seul dos de carte dont vous aurez toujours besoin.</frFR>
+			<itIT>Classico e inimitabile, un dorso impossibile da dimenticare.</itIT>
+			<koKR>언제 어디서나 당신 곁에 있을 카드 뒷면입니다.</koKR>
+			<plPL>Jedyny rewers, jaki będzie ci potrzebny.</plPL>
+			<ptBR>O verso de que você precisa.</ptBR>
+			<ruRU>Единственная рубашка для карт, которая вам понадобится.</ruRU>
+			<zhCN>经典款，总会给你带来最初的感觉。</zhCN>
+			<zhTW>經典設計，成就永恆。</zhTW>
+		</Field>
+		<Field column="SOURCE_DESCRIPTION">
+			<enUS>Default</enUS>
+			<deDE>Standard</deDE>
+			<esES>Predeterminado</esES>
+			<esMX>Predeterminado</esMX>
+			<frFR>Par défaut</frFR>
+			<itIT>Predefinito</itIT>
+			<koKR>기본</koKR>
+			<plPL>Domyślny</plPL>
+			<ptBR>Padrão</ptBR>
+			<ruRU>По умолчанию</ruRU>
+			<zhCN>默认</zhCN>
+			<zhTW>預設</zhTW>
+		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Default/Card_Back_Default</Field>
 	</Record>
 	<Record>
@@ -52,6 +82,34 @@
 		</Field>
 		<Field column="ENABLED">True</Field>
 		<Field column="NAME_COMMENT"></Field>
+		<Field column="DESCRIPTION">
+			<enUS>Hearthstone is a very popular game in Pandaria.  Official card game of the Shado-Pan!\n\nAcquired from Achieving Rank 20 in Ranked Play, April 2014.</enUS>
+			<deDE>Hearthstone ist in Pandaria total beliebt. Die Shado-Pan haben es sogar zu ihrem offiziellen Kartenspiel ernannt!\n\nBelohnung für alle Spieler, die im April 2014 im gewerteten Modus Rang 20 erreicht haben.</deDE>
+			<esES>¡Hearthstone es un juego muy popular en Pandaria y el juego de cartas oficial del Shadopan!\n\nOtorgado por alcanzar el rango 20 en el juego con rango en abril, 2014.</esES>
+			<esMX>En Pandaria, Hearthstone es muy popular. ¡Es el juego de cartas oficial del Shadopan!\n\nObtenido por alcanzar el rango 20 en partidas clasificadas durante abril de 2014.</esMX>
+			<frFR>Hearthstone est un jeu très populaire en Pandarie. Dos de cartes officiel des Pandashan !\n\nObtenu en atteignant le rang 20 en Partie classée, saison d’avril 2014.</frFR>
+			<itIT>Hearthstone è un gioco molto popolare a Pandaria: è il gioco di carte ufficiale degli Shandaren!\n\nOttenuto raggiungendo il grado 20 in modalità Classificata nel mese di aprile 2014.</itIT>
+			<koKR>하스스톤은 판다리아에서도 엄청난 인기를 누리고 있습니다. 음영파의 공식 카드 게임이기도 하죠!\n\n2014년 4월 등급전에서 20 등급 달성 시 획득</koKR>
+			<plPL>Hearthstone to bardzo popularna gra w Pandarii. Oficjalna karcianka Szado-Pan!\n\nRewers przyznany za osiągnięcie poziomu 20 w trybie rankingowym w kwietniu 2014.</plPL>
+			<ptBR>Hearthstone é um jogo bem popular em Pandária. É o Jogo de cards oficial dos Shado-Pan!\n\nAdquirido ao chegar no ranque 20 no Jogo Ranqueado. Abril de 2014.</ptBR>
+			<ruRU>Hearthstone — очень популярная в Пандарии игра. Это официальная карточная игра ордена Шадо-Пан!\n\nНаграда за достижение 20-го ранга в рейтинговых матчах в апреле 2014 г.</ruRU>
+			<zhCN>在潘达利亚，《炉石传说》是一款非常受欢迎的游戏，它甚至是影踪派的官方卡牌游戏！\n\n在2014年4月的排名对战赛季中达到20级获得该奖励。</zhCN>
+			<zhTW>爐石戰記在潘達利亞也很流行，它甚至成為了影潘的官方指定遊戲!\n\n在2014年4月賽季中達到階級20時取得。</zhTW>
+		</Field>
+		<Field column="SOURCE_DESCRIPTION">
+			<enUS>Season</enUS>
+			<deDE>Saison</deDE>
+			<esES>Temporada</esES>
+			<esMX>Temporada</esMX>
+			<frFR>Saison</frFR>
+			<itIT>Stagionale</itIT>
+			<koKR>시즌</koKR>
+			<plPL>Sezonowy</plPL>
+			<ptBR>Temporada</ptBR>
+			<ruRU>За сезон</ruRU>
+			<zhCN>赛季</zhCN>
+			<zhTW>賽季</zhTW>
+		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/S001_Pandaria/Card_Back_Pandaria</Field>
 	</Record>
 	<Record>
@@ -75,6 +133,34 @@
 		</Field>
 		<Field column="ENABLED">True</Field>
 		<Field column="NAME_COMMENT"></Field>
+		<Field column="DESCRIPTION">
+			<enUS>“Fel Flame Green” is always in fashion at the Black Temple.\n\nAcquired from Achieving Rank 20 in Ranked Play, May 2014.</enUS>
+			<deDE>Teufelsgrün ist im Schwarzen Tempel immer in.\n\nBelohnung für alle Spieler, die im Mai 2014 im gewerteten Modus Rang 20 erreicht haben.</deDE>
+			<esES>El "verde llama vil" siempre está de moda en el Templo Oscuro.\n\nOtorgado por alcanzar el rango 20 en el juego con rango en mayo, 2014.</esES>
+			<esMX>"Llama verde y vil" fue, es y será un clásico en el Templo Oscuro.\n\nObtenido por alcanzar el rango 20 en partidas clasificadas durante mayo de 2014.</esMX>
+			<frFR>Les gangreflammes vertes sont toujours à la mode au Temple noir.\n\nObtenu en atteignant le rang 20 en Partie classée, saison de mai 2014.</frFR>
+			<itIT>Il colore " verde vile" va sempre di moda nel Tempio Nero.\n\nOttenuto raggiungendo il grado 20 in modalità Classificata nel mese di maggio 2014.</itIT>
+			<koKR>검은 사원에서 "마의 물든 녹색"이 아주 유행하고 있습니다.\n\n2014년 5월 등급전에서 20등급 달성 시 획득</koKR>
+			<plPL>„Zieleń spaczonego płomienia” to ulubiony kolor w Czarnej Świątyni.\n\nRewers przyznany za osiągnięcie poziomu 20 w trybie rankingowym w maju 2014.</plPL>
+			<ptBR>"Verde chama vil" é sempre a cor da moda no Templo Negro.\n\nAdquirido ao chegar no ranque 20 no Jogo Ranqueado. Maio de 2014.</ptBR>
+			<ruRU>«Зеленое пламя Скверны» всегда в моде в Черном храме.\n\nНаграда за достижение 20-го ранга в рейтинговых матчах в мае 2014 г.</ruRU>
+			<zhCN>“邪能绿”总是黑暗神庙里最时尚的颜色。\n\n在2014年5月的排名对战赛季中达到20级获得该奖励。</zhCN>
+			<zhTW>惡魔綠火在黑暗神廟裡永遠不退流行。\n\n在2014年5月賽季中達到階級20時取得。</zhTW>
+		</Field>
+		<Field column="SOURCE_DESCRIPTION">
+			<enUS>Season</enUS>
+			<deDE>Saison</deDE>
+			<esES>Temporada</esES>
+			<esMX>Temporada</esMX>
+			<frFR>Saison</frFR>
+			<itIT>Stagionale</itIT>
+			<koKR>시즌</koKR>
+			<plPL>Sezonowy</plPL>
+			<ptBR>Temporada</ptBR>
+			<ruRU>За сезон</ruRU>
+			<zhCN>赛季</zhCN>
+			<zhTW>賽季</zhTW>
+		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/S002_BlackTemple/Card_Back_BlackTemple</Field>
 	</Record>
 	<Record>
@@ -98,6 +184,34 @@
 		</Field>
 		<Field column="ENABLED">True</Field>
 		<Field column="NAME_COMMENT"></Field>
+		<Field column="DESCRIPTION">
+			<enUS>Unfortunately, the rainbow generator can only produce oval rainbows.  Gnomish technology still has a ways to go.\n\nAcquired from Achieving Rank 20 in Ranked Play, June 2014.</enUS>
+			<deDE>Ja, der Regenbogengenerator kann leider nur ovale Regenbogen generieren. Gnomische Technologie ...\n\nBelohnung für alle Spieler, die im Juni 2014 im gewerteten Modus Rang 20 erreicht haben.</deDE>
+			<esES>Por desgracia, el generador de arcoíris solo puede producir arcoíris ovalados. A la tecnología gnómica aún le queda un largo camino por recorrer.\n\nOtorgado por alcanzar el rango 20 en el juego con rango en junio, 2014.</esES>
+			<esMX>Lamentablemente, el generador de arcoíris solo produce arcoíris ovales. A la tecnología gnómica aún le queda mucho camino por recorrer.\n\nObtenido por alcanzar el rango 20 en partidas clasificadas durante junio de 2014.</esMX>
+			<frFR>Malheureusement, le générateur d’arc-en-ciel arrive uniquement à créer des arcs-en-ciel ovales. La technologie gnome a encore du chemin à faire.\n\nObtenu en atteignant le rang 20 en Partie classée, saison de juin 2014.</frFR>
+			<itIT>Sfortunatamente, il generatore di arcobaleni produce solo archi ovali. La tecnologia degli Gnomi deve ancora essere ottimizzata.\n\nOttenuto raggiungendo il grado 20 in modalità Classificata nel mese di giugno 2014.</itIT>
+			<koKR>아쉽게도 무지개 생성기는 타원형 무지개만 생성할 수 있습니다. 노움 기술력이 아직 갈 길이 멀군요.\n\n2014년 6월 등급전에서 20등급 달성 시 획득</koKR>
+			<plPL>Niestety, generator tęcz może wytwarzać jedynie tęcze o owalnym kształcie. Trzeba dopracować technologię.\n\nRewers przyznany za osiągnięcie poziomu 20 w trybie rankingowym w czerwcu 2014.</plPL>
+			<ptBR>Infelizmente o gerador de arco-íris só produz arco-íris ovais. A tecnologia gnômica ainda tem muito chão pela frente.\n\nAdquirido ao chegar no ranque 20 no Jogo Ranqueado. Junho de 2014.</ptBR>
+			<ruRU>К сожалению, генератор радуг может создавать только овальные радуги. Гномским технологиям еще есть куда развиваться.\n\nНаграда за достижение 20-го ранга в рейтинговых матчах в июне 2014 г.</ruRU>
+			<zhCN>不幸的是，彩虹发生器只能产生椭圆拱形的彩虹。侏儒科技还有进步的空间。\n\n在2014年6月的排名对战赛季中达到20级获得该奖励。</zhCN>
+			<zhTW>彩紅產生器目前只能製造橢圓形的彩虹，地精的科技看來還有改善空間啊。\n\n在2014年6月賽季中達到階級20時取得。</zhTW>
+		</Field>
+		<Field column="SOURCE_DESCRIPTION">
+			<enUS>Season</enUS>
+			<deDE>Saison</deDE>
+			<esES>Temporada</esES>
+			<esMX>Temporada</esMX>
+			<frFR>Saison</frFR>
+			<itIT>Stagionale</itIT>
+			<koKR>시즌</koKR>
+			<plPL>Sezonowy</plPL>
+			<ptBR>Temporada</ptBR>
+			<ruRU>За сезон</ruRU>
+			<zhCN>赛季</zhCN>
+			<zhTW>賽季</zhTW>
+		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/S003_Charm/Card_Back_Charm</Field>
 	</Record>
 	<Record>
@@ -121,6 +235,34 @@
 		</Field>
 		<Field column="NAME_COMMENT"></Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="DESCRIPTION">
+			<enUS>A generous gift from the Innkeeper.  He loves to see his guests having a good time together.\n\nPlay three matches against players on the same local network as you. (Must have at least 3 players on that network!)</enUS>
+			<deDE>Ein nettes Geschenk vom Gastwirt. Er liebt es, wenn seine Gäste gemeinsam Spaß haben!\n\nBelohnung für 3 bestrittene Partien gegen Spieler auf dem gleichen lokalen Netzwerk (mind. 3 Spieler müssen auf dem Netzwerk sein).</deDE>
+			<esES>Un obsequio generoso del tabernero. ¡Le encanta ver que sus invitados se lo pasan bien todos juntos!\n\nJuega tres partidas contra jugadores de la misma red local que tú. (Hacen falta al menos 3 jugadores en dicha red).</esES>
+			<esMX>Un hermoso obsequio del Tabernero. Le encanta cuando sus invitados pasan un buen rato juntos.\n\nJuega tres partidas contra jugadores de la misma red local (¡debe haber al menos 3 jugadores en la misma red!).</esMX>
+			<frFR>Un cadeau généreux de l’aubergiste. Il adore que ses clients passent du bon temps ensemble.\n\nObtenu pour avoir joué 3 matchs contre des joueurs sur le même réseau que vous. (Nécessite au minimum 3 joueurs sur ce réseau !)</frFR>
+			<itIT>Un generoso dono da parte del Locandiere. Adora vedere i suoi ospiti divertirsi assieme.\n\nOttenuto giocando 3 partite con altri giocatori sulla stessa rete. Devono esserci almeno 3 giocatori sulla rete!</itIT>
+			<koKR>여관주인이 여러분께 드리는 선물입니다. 앞으로도 따스한 선술집에서 친구들과 함께 하스스톤을 즐기세요!\n\n같은 네트워크에 있는 가까운 플레이어와 게임 3번 하기 (네트워크에 최소 3명이 있어야 합니다!)</koKR>
+			<plPL>Hojny dar od Karczmarza. Widok dobrze bawiących się gości zawsze wprawia go w dobry nastrój.\n\nZagraj 3 partie przeciwko graczom w tej samej sieci lokalnej co ty. (W sieci musi być co najmniej 3 graczy!)</plPL>
+			<ptBR>Um presente generoso do Estalajadeiro. Ele adora ver os hóspedes se divertindo juntos.\n\nJogue três partidas contra jogadores na mesma rede local que você. (É preciso ter pelo menos 3 jogadores na rede!)</ptBR>
+			<ruRU>Щедрый подарок от хозяина таверны. Ему нравится, когда его гости хорошо проводят время.\n\nСыграйте три матча против игроков, находящихся в той же локальной сети, что и вы. (В сети должно быть не менее трех игроков!)</ruRU>
+			<zhCN>慷慨的旅店老板送你的礼物。他喜欢看到他的客人们在一起享受美好的时光。\n\n在你的当地网络中和其他玩家进行三场对战。（当地网络至少拥有3名玩家！）</zhCN>
+			<zhTW>旅店老闆的一份大禮!他最喜歡看到客人同樂的樣子了。\n\n和同一個網域中的玩家進行三場對戰時取得。(網域中至少要有三名玩家!)</zhTW>
+		</Field>
+		<Field column="SOURCE_DESCRIPTION">
+			<enUS>Special</enUS>
+			<deDE>Promo</deDE>
+			<esES>Especial</esES>
+			<esMX>Especial</esMX>
+			<frFR>Spécial</frFR>
+			<itIT>Speciale</itIT>
+			<koKR>특별</koKR>
+			<plPL>Specjalny</plPL>
+			<ptBR>Especial</ptBR>
+			<ruRU>Особые</ruRU>
+			<zhCN>特殊</zhCN>
+			<zhTW>特殊</zhTW>
+		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Launch/Card_Back_Launch</Field>
 	</Record>
 	<Record>
@@ -134,7 +276,7 @@
 			<zhCN>我是传说</zhCN>
 			<ruRU>Легендарная</ruRU>
 			<ptBR>Lenda</ptBR>
-			<plPL>Legendarny</plPL>
+			<plPL>Legenda</plPL>
 			<koKR>전설</koKR>
 			<itIT>Leggenda</itIT>
 			<frFR>Légende</frFR>
@@ -144,6 +286,34 @@
 		</Field>
 		<Field column="NAME_COMMENT"></Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Wow.  Hardcore.\n\nAcquired from Achieving Legend Rank in Ranked Play.</enUS>
+			<deDE>Wow. Hardcore.\n\nBelohnung für Spieler, die im gewerteten Modus den Rang „Legende“ erreicht haben.</deDE>
+			<esES>¡Hala! ¡Qué maestría!\n\nOtorgado por alcanzar el rango Leyenda en el juego con rango.</esES>
+			<esMX>Guau. Increíble.\n\nObtenido por alcanzar el rango de Leyenda en partidas clasificadas.</esMX>
+			<frFR>Ouf, c’est du lourd, ça !\n\nObtenu en atteignant le rang Légende en Partie classée.</frFR>
+			<itIT>Davvero encomiabile!\n\nOttenuto raggiungendo il grado Leggenda in modalità Classificata.</itIT>
+			<koKR>당신은 전설로 기억될 겁니다!\n\n등급전에서 전설 등급 달성 시 획득</koKR>
+			<plPL>Szacun. Pełen hardkor!\n\nRewers przyznany za osiągnięcie rangi legendy w trybie rankingowym.</plPL>
+			<ptBR>Uau. Hardcore.\n\nAdquirido ao obter o Ranque Lenda no Jogo Ranqueado.</ptBR>
+			<ruRU>Ого! Только хардкор.\n\nНаграда за достижение легендарного ранга в рейтинговых матчах.</ruRU>
+			<zhCN>哇喔，传说级玩家。\n\n在排名对战中达到传说等级获得该奖励。</zhCN>
+			<zhTW>哇，真功夫。\n\n在排名模式中達到傳說階級時取得。</zhTW>
+		</Field>
+		<Field column="SOURCE_DESCRIPTION">
+			<enUS>Legend</enUS>
+			<deDE>Legende</deDE>
+			<esES>Leyenda</esES>
+			<esMX>Leyenda</esMX>
+			<frFR>Légende</frFR>
+			<itIT>Leggenda</itIT>
+			<koKR>전설</koKR>
+			<plPL>Legendarny</plPL>
+			<ptBR>Lenda</ptBR>
+			<ruRU>Легенда</ruRU>
+			<zhCN>传说</zhCN>
+			<zhTW>傳說</zhTW>
+		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Legend/Card_Back_Legend</Field>
 	</Record>
 	<Record>
@@ -167,6 +337,34 @@
 		</Field>
 		<Field column="NAME_COMMENT"></Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="DESCRIPTION">
+			<enUS>The gooey center is Ooze slime.  Don’t lick it.\n\nAcquired from Achieving Rank 20 in Ranked Play, July 2014.</enUS>
+			<deDE>Glibberiger grüner Schleim ... Da kommen Erinnerungen hoch. Bitte nicht abschlecken.\n\nBelohnung für alle Spieler, die im Juli 2014 im gewerteten Modus Rang 20 erreicht haben.</deDE>
+			<esES>Ese núcleo pegajoso son babas y mocos. ¡Ni se te ocurra chuparlo!\n\nOtorgado por alcanzar el rango 20 en el juego con rango en julio, 2014.</esES>
+			<esMX>El centro viscoso es una babosa hecha de moco. No se te ocurra lamerlo.\n\nObtenido por alcanzar el rango 20 en partidas clasificadas durante julio de 2014.</esMX>
+			<frFR>Le truc gluant au centre, c’est de la gelée de limon. Ne pas ingérer.\n\nObtenu en atteignant le rang 20 en Partie classée, saison de juillet 2014.</frFR>
+			<itIT>La sfera al centro è bava di melma: non leccarla!\n\nOttenuto raggiungendo il grado 20 in modalità Classificata nel mese di luglio 2014.</itIT>
+			<koKR>중앙에 있는 녹색 부분은 사실 수액괴물입니다. 조심하세요.\n\n2014년 7월 등급전에서 20등급 달성 시 획득</koKR>
+			<plPL>Ten kleisty środek to śluz. Prosimy nie lizać.\n\nRewers przyznany za osiągnięcie poziomu 20 w trybie rankingowym w lipcu 2014.</plPL>
+			<ptBR>O centro é pura meleca de Gosma. Não vá lamber isso.\n\nAdquirido ao chegar no ranque 20 no Jogo Ranqueado. Julho 2014.</ptBR>
+			<ruRU>В центре всей этой вязкой жижи находится слизнюк. Не надо его облизывать.\n\nНаграда за достижение 20-го ранга в рейтинговых матчах в июле 2014 г.</ruRU>
+			<zhCN>这款卡牌背面图案的中间会分泌粘稠的液体。禁止食用。\n\n在2014年7月的排名对战赛季中达到20级获得该奖励。</zhCN>
+			<zhTW>中間黏糊糊的地方是個軟泥怪，千萬別舔它。\n\n在2014年7月賽季中達到階級20時取得。</zhTW>
+		</Field>
+		<Field column="SOURCE_DESCRIPTION">
+			<enUS>Season</enUS>
+			<deDE>Saison</deDE>
+			<esES>Temporada</esES>
+			<esMX>Temporada</esMX>
+			<frFR>Saison</frFR>
+			<itIT>Stagionale</itIT>
+			<koKR>시즌</koKR>
+			<plPL>Sezonowy</plPL>
+			<ptBR>Temporada</ptBR>
+			<ruRU>За сезон</ruRU>
+			<zhCN>赛季</zhCN>
+			<zhTW>賽季</zhTW>
+		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Naxxramas/Card_Back_Naxxramas</Field>
 	</Record>
 	<Record>
@@ -190,6 +388,34 @@
 		</Field>
 		<Field column="NAME_COMMENT"></Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="DESCRIPTION">
+			<enUS>You can tell a lot about an Abomination by his stitching.  This one just screams “insane”.  Literally.\n\nAcquired from Completing the Curse of Naxxramas in Heroic Mode.</enUS>
+			<deDE>Dieser Kartenrücken platzt wortwörtlich aus allen Nähten.\n\nBelohnung für Spieler, die den Fluch von Naxxramas im heroischen Modus abgeschlossen haben.</deDE>
+			<esES>Se puede saber mucho de una abominación por sus puntos. Este grita "demente", literalmente.\n\nOtorgado por completar la Maldición de Naxxramas en modo heroico.</esES>
+			<esMX>Las suturas dicen mucho sobre la personalidad de una abominación. Estas dicen una sola cosa: ¡demencia!\n\nObtenido por completar la Maldición de Naxxramas en modo heroico.</esMX>
+			<frFR>On peut en apprendre beaucoup sur une abomination rien qu’avec ses coutures. Et celles-ci expriment la folie, littéralement !\n\nObtenu en terminant le mode héroïque de la malédiction de Naxxramas.</frFR>
+			<itIT>Puoi comprendere molte cose su un Abominio dalle sue suture. Quelle su questo dorso parlano di follia.\n\nOttenuto completando La maledizione di Naxxramas in versione Eroica.</itIT>
+			<koKR>누더기골렘을 만든 언데드 과학자가 한 땀 한 땀 장인 정신으로 만들어 낸 카드 뒷면입니다.\n\n낙스라마스 모험을 영웅 난이도로 완료하여 획득</koKR>
+			<plPL>Szwy na plugastwach dużo o nich mówią. Na przykład ten znaczy „szaleństwo”. Dosłownie.\n\nRewers przyznany za przejście Klątwy Naxxramas w trybie heroicznym.</plPL>
+			<ptBR>Dá para saber muito sobre uma Abominação pelas costuras. Esse aqui aprecia pintura em porcelana e poesia taurena, por exemplo. Gente fina.\n\nAdquirido ao completar a Maldição de Naxxramas no Modo Heroico.</ptBR>
+			<ruRU>О поганище многое можно сказать, просто взглянув на вид стежков. Вот этот просто кричит о безумии. В буквальном смысле слова.\n\nНаграда за прохождение «Проклятия Наксрамаса» в героическом режиме. </ruRU>
+			<zhCN>你能从一只憎恶的缝合处得知关于它的很多东西。至于这只，它的身上写满了“疯狂”。真的很疯狂。\n\n击败英雄难度下的纳克萨玛斯所有首领获得该奖励。</zhCN>
+			<zhTW>只要看縫線，就能了解這個憎惡體。嗯…卡背上這隻覺得你真是強到變態。\n\n完成《不死詛咒：納克薩瑪斯》英雄模式時取得。</zhTW>
+		</Field>
+		<Field column="SOURCE_DESCRIPTION">
+			<enUS>Adventure</enUS>
+			<deDE>Abenteuer</deDE>
+			<esES>Aventura</esES>
+			<esMX>Aventura</esMX>
+			<frFR>Aventure</frFR>
+			<itIT>Avventura</itIT>
+			<koKR>모험</koKR>
+			<plPL>Przygodowy</plPL>
+			<ptBR>Aventura</ptBR>
+			<ruRU>Приключения</ruRU>
+			<zhCN>冒险模式</zhCN>
+			<zhTW>冒險篇章</zhTW>
+		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Naxxramas2/Card_Back_Naxxramas2</Field>
 	</Record>
 	<Record>
@@ -213,6 +439,34 @@
 		</Field>
 		<Field column="NAME_COMMENT"></Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="DESCRIPTION">
+			<enUS>In the frozen heart of Icecrown Citadel, a hero’s mettle will be tested.  Bring a parka.\n\nAcquired from Achieving Rank 20 in Ranked Play, August 2014.</enUS>
+			<deDE>Im gefrorenen Herzen der Eiskronenzitadelle wird jeder Held auf die Probe gestellt. Zieht Euch warm an.\n\nBelohnung für alle Spieler, die im August 2014 im gewerteten Modus Rang 20 erreicht haben.</deDE>
+			<esES>En el corazón helado de la Ciudadela de la Corona de Hielo se pone a prueba el coraje de los héroes. Llévate una rebequita.\n\nOtorgado por alcanzar el rango 20 en el juego con rango en agosto, 2014.</esES>
+			<esMX>Los héroes pondrán a prueba su temple en el corazón helado de la Ciudadela de la Corona de Hielo. No olviden sus abrigos.\n\nObtenido por alcanzar el rango 20 en partidas clasificadas durante agosto de 2014.</esMX>
+			<frFR>Dans les entrailles glacées de la citadelle de la Couronne de glace, les héros peuvent tester leur courage. N’oubliez pas votre parka.\n\nObtenu en atteignant le rang 20 en Partie classée, saison d’août 2014.</frFR>
+			<itIT>Nel gelido cuore della Cittadella della Corona di Ghiaccio, il coraggio degli eroi viene messo a dura prova. Conviene portare un maglione di lana.\n\nOttenuto raggiungendo il grado 20 in modalità Classificata nel mese di agosto 2014.</itIT>
+			<koKR>아제로스의 영웅들이 얼음왕관 성채의 얼어붙은 심장에서 자신의 용기를 시험합니다. 따뜻한 외투가 필요하겠군요.\n\n2014년 8월 등급전에서 20등급 달성 시 획득</koKR>
+			<plPL>W mroźnym sercu Lodowej Korony sprawdzona zostanie odwaga bohaterów. Weźcie ciepłe kurtki.\n\nRewers przyznany za osiągnięcie poziomu 20 w trybie rankingowym w sierpniu 2014.</plPL>
+			<ptBR>No coração gelado da Cidadela da Coroa de Gelo, a bravura do herói será testada. Leve um casaquinho.\n\nAdquirido ao chegar no ranque 20 no Jogo Ranqueado. Agosto de 2014.</ptBR>
+			<ruRU>Боевой дух героя подвергнется серьезным испытаниям в промерзших недрах Цитадели Ледяной Короны. Прихватите пуховик.\n\nНаграда за достижение 20-го ранга в рейтинговых матчах в августе 2014 г.</ruRU>
+			<zhCN>在冰冠城塞的冰冷深处，英雄们的斗志和勇气将受到最严厉的挑战。别忘记穿上军大衣。\n\n在2014年8月的排名对战赛季中达到20级获得该奖励。</zhCN>
+			<zhTW>冰冠城塞寒冷的內殿足以測出一位英雄的潛力，記得帶件大衣。\n\n在2014年8月賽季中達到階級20時取得。</zhTW>
+		</Field>
+		<Field column="SOURCE_DESCRIPTION">
+			<enUS>Season</enUS>
+			<deDE>Saison</deDE>
+			<esES>Temporada</esES>
+			<esMX>Temporada</esMX>
+			<frFR>Saison</frFR>
+			<itIT>Stagionale</itIT>
+			<koKR>시즌</koKR>
+			<plPL>Sezonowy</plPL>
+			<ptBR>Temporada</ptBR>
+			<ruRU>За сезон</ruRU>
+			<zhCN>赛季</zhCN>
+			<zhTW>賽季</zhTW>
+		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/IceCrown/Card_Back_IceCrown</Field>
 	</Record>
 	<Record>
@@ -235,7 +489,35 @@
 			<zhTW>海盜!</zhTW>
 		</Field>
 		<Field column="NAME_COMMENT"></Field>
-		<Field column="ENABLED">False</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Treasure.  Grog.  Hooks for hands.  Way better than Ninjas!\n\nAcquired from Achieving Rank 20 in Ranked Play, September 2014.</enUS>
+			<deDE>Schätze, Papageien und ‘ne Buddel voll Rum. So viel besser als Ninjas!\n\nBelohnung für alle Spieler, die im September 2014 im gewerteten Modus Rang 20 erreicht haben.</deDE>
+			<esES>Tesoros, grog, garfios... ¡Esto es mucho mejor que un ninja!\n\nOtorgado por alcanzar el rango 20 en el juego con rango en septiembre, 2014.</esES>
+			<esMX>Tesoros. Grog. Garfios en lugar de manos. ¡Mucho mejor que los ninjas!\n\nObtenido por alcanzar el rango 20 en partidas clasificadas durante septiembre de 2014.</esMX>
+			<frFR>Du rhum, des crochets, et du butin nom de nom ! C’est beaucoup mieux que les Ninjas !\n\nObtenu en atteignant le rang 20 en Partie classée, saison de septembre 2014.</frFR>
+			<itIT>Tesori, grog, uncini al posto delle mani. Molto meglio dei Ninja!\n\nOttenuto raggiungendo il grado 20 in modalità Classificata nel mese di settembre 2014.</itIT>
+			<koKR>보물. 럼주 한 병. 갈고리 손. 닌자보다 훨씬 멋있습니다!\n\n2014년 9월 등급전에서 20등급 달성 시 획득</koKR>
+			<plPL>Skarby. Grog. Haki zamiast dłoni. To znacznie lepsze niż jacyś tam Ninja!\n\nRewers przyznany za osiągnięcie poziomu 20 w trybie rankingowym we wrześniu 2014.</plPL>
+			<ptBR>Tesouros. Rum. Ganchos no lugar das mãos. Bem melhor que ninjas!\n\nAdquirido ao chegar no ranque 20 no Jogo Ranqueado. Setembro de 2014.</ptBR>
+			<ruRU>Сокровища. Грог. Крюки вместо рук. Куда лучше ниндзя!\n\nНаграда за достижение 20-го ранга в рейтинговых матчах в сентябре 2014 г.</ruRU>
+			<zhCN>无穷宝藏，吃香喝辣，铁钩眼罩。海盗可比忍者厉害多了！\n\n在2014年9月的排名对战赛季中达到20级获得该奖励。</zhCN>
+			<zhTW>寶藏、美酒、勾子手。誰還想當忍者?\n\n在2014年9月賽季中達到階級20時取得。</zhTW>
+		</Field>
+		<Field column="SOURCE_DESCRIPTION">
+			<enUS>Season</enUS>
+			<deDE>Saison</deDE>
+			<esES>Temporada</esES>
+			<esMX>Temporada</esMX>
+			<frFR>Saison</frFR>
+			<itIT>Stagionale</itIT>
+			<koKR>시즌</koKR>
+			<plPL>Sezonowy</plPL>
+			<ptBR>Temporada</ptBR>
+			<ruRU>За сезон</ruRU>
+			<zhCN>赛季</zhCN>
+			<zhTW>賽季</zhTW>
+		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Pirate/Card_Back_Pirate</Field>
 	</Record>
 	<Record>
@@ -258,7 +540,35 @@
 			<zhTW>萬鬼節</zhTW>
 		</Field>
 		<Field column="NAME_COMMENT"></Field>
-		<Field column="ENABLED">False</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="DESCRIPTION">
+			<enUS>The Hallow’s End candy bucket!  Or the Headless Horseman’s spare head!  Stick your hand in and find out.\n\nAcquired from Achieving Rank 20 in Ranked Play, October 2014.</enUS>
+			<deDE>Süßes oder Saures! Werdet Ihr einen leckeren Lutscher erwischen oder den Ersatzkopf des kopflosen Reiters?\n\nBelohnung für alle Spieler, die im Oktober 2014 im gewerteten Modus Rang 20 erreicht haben.</deDE>
+			<esES>¡El cubo de caramelos de Halloween! ¡O la cabeza de repuesto de El Jinete decapitado! Mete la mano y descúbrelo.\n\nOtorgado por alcanzar el rango 20 en el juego con rango en octubre, 2014.</esES>
+			<esMX>¡El cubo de caramelos de Halloween! ¡O la cabeza de repuesto del Jinete decapitado! Mete la mano y desvela el misterio.\n\nObtenido por alcanzar el rango 20 en partidas clasificadas durante octubre de 2014.</esMX>
+			<frFR>Le seau de bonbons de la Sanssaint ! Ou la tête de rechange du cavalier sans tête ! Mettez la main dessus pour le savoir.\n\nObtenu en atteignant le rang 20 en Partie classée, saison d’octobre 2014.</frFR>
+			<itIT>La sorpresa della Veglia delle Ombre o la testa del Cavaliere Senza Testa? Scoprilo tu!\n\nOttenuto raggiungendo il grado 20 in modalità Classificata nel mese di ottobre 2014.</itIT>
+			<koKR>할로윈 축제의 사탕 바구니! 혹은 저주받은 기사의 머리! 온갖 즐거움이 가득합니다.\n\n2014년 10월 등급전에서 20 등급 달성 시 획득</koKR>
+			<plPL>Słodkości na Zaduszniki! Albo zapasowa głowa jeźdźca bez głowy! Wsadź rękę i sprawdź!\n\nRewers przyznany za osiągnięcie poziomu 20 w trybie rankingowym w październiku 2014.</plPL>
+			<ptBR>O balde de doces de Noturnália! Ou a cabeça sobressalente do Cavaleiro sem Cabeça! Enfie a mão e descubra.\n\nAdquirido ao chegar no ranque 20 no Jogo Ranqueado. Outubro de 2014.</ptBR>
+			<ruRU>Ведро сладостей с Тыквовина! Или голова Всадника без головы! Засуньте руку и узнайте сами.\n\nНаграда за достижение 20-го ранга в рейтинговых матчах в октябре 2014 г.</ruRU>
+			<zhCN>万圣节是属于糖果的甜蜜狂欢，还是属于无头骑士的无情刀锋？答案就在你的手中。\n\n在2014年10月的排名对战赛季中达到20级获得该奖励。</zhCN>
+			<zhTW>萬鬼節糖果桶來囉，先抓一把再說!小心撈到無頭騎士的頭!\n\n在2014年10月賽季中達到階級20時取得。</zhTW>
+		</Field>
+		<Field column="SOURCE_DESCRIPTION">
+			<enUS>Season</enUS>
+			<deDE>Saison</deDE>
+			<esES>Temporada</esES>
+			<esMX>Temporada</esMX>
+			<frFR>Saison</frFR>
+			<itIT>Stagionale</itIT>
+			<koKR>시즌</koKR>
+			<plPL>Sezonowy</plPL>
+			<ptBR>Temporada</ptBR>
+			<ruRU>За сезон</ruRU>
+			<zhCN>赛季</zhCN>
+			<zhTW>賽季</zhTW>
+		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Hallows_End/Card_Back_Hallows_End</Field>
 	</Record>
 	<Record>
@@ -281,7 +591,35 @@
 			<zhTW>哥布林</zhTW>
 		</Field>
 		<Field column="NAME_COMMENT"></Field>
-		<Field column="ENABLED">False</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="DESCRIPTION">
+			<enUS>4 out of 5 goblins agree: This card back doesn’t explode!\n\nAcquired from Achieving Rank 20 in Ranked Play, November 2014.</enUS>
+			<deDE>Vier von fünf Goblins bestätigen, dass dieser Kartenrücken explosionsfest ist!\n\nBelohnung für alle Spieler, die im November 2014 im gewerteten Modus Rang 20 erreicht haben.</deDE>
+			<esES>Unos 4 de cada 5 goblins coinciden: ¡este dorso de carta no explota!\n\nOtorgado por alcanzar el rango 20 en el juego con rango en noviembre, 2014.</esES>
+			<esMX>Cuatro de cada cinco goblins lo garantizan: ¡este dorso de carta no te explotará en las manos!\n\nObtenido por alcanzar el rango 20 en partidas clasificadas durante noviembre de 2014.</esMX>
+			<frFR>4 gobelins sur 5 sont d’accord : ce dos de carte n’explose pas !\n\nObtenu en atteignant le rang 20 en Partie classée, saison de novembre 2014.</frFR>
+			<itIT>Quattro Goblin su cinque concordano: questo dorso non dovrebbe esplodere!\n\nOttenuto raggiungendo il grado 20 in modalità Classificata nel mese di novembre 2014.</itIT>
+			<koKR>이 카드 뒷면은 폭발하지 않습니다! 5명의 고블린 중 4명이 보증합니다!\n\n2014년 11월 등급전에서 20등급 달성 시 획득</koKR>
+			<plPL>4 na 5 goblinów przyznaje: ten rewers wcale nie wybucha!\n\nRewers przyznany za osiągnięcie poziomu 20 w trybie rankingowym w listopadzie 2014.</plPL>
+			<ptBR>4 em cada 5 goblins concordam: este verso de card não explode!\n\nAdquirido ao chegar no ranque 20 no Jogo Ranqueado. Novembro de 2014.</ptBR>
+			<ruRU>Четыре гоблина из пяти могут подтвердить: эта рубашка для карт не взрывается!\n\nНаграда за достижение 20-го ранга в рейтинговых матчах в ноябре 2014 г.</ruRU>
+			<zhCN>大多数的地精们都会向你作出保证：这款卡牌背面图案绝对不会让你的卡牌爆炸！\n\n在2014年11月的排名对战赛季中达到20级获得该奖励。</zhCN>
+			<zhTW>有八成的哥布林保證這個卡背不會爆炸!\n\n在2014年11月賽季中達到階級20時取得。</zhTW>
+		</Field>
+		<Field column="SOURCE_DESCRIPTION">
+			<enUS>Season</enUS>
+			<deDE>Saison</deDE>
+			<esES>Temporada</esES>
+			<esMX>Temporada</esMX>
+			<frFR>Saison</frFR>
+			<itIT>Stagionale</itIT>
+			<koKR>시즌</koKR>
+			<plPL>Sezonowy</plPL>
+			<ptBR>Temporada</ptBR>
+			<ruRU>За сезон</ruRU>
+			<zhCN>赛季</zhCN>
+			<zhTW>賽季</zhTW>
+		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Goblin/Card_Back_Goblin</Field>
 	</Record>
 	<Record>
@@ -304,7 +642,35 @@
 			<zhTW>Blizzard 2014</zhTW>
 		</Field>
 		<Field column="NAME_COMMENT"></Field>
-		<Field column="ENABLED">False</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="DESCRIPTION">
+			<enUS>The year Hearthstone was born.  What a great year!\n\nAcquired by participating in Blizzard events during 2014.</enUS>
+			<deDE>Hearthstones erstes Jahr. Und was für eines!\n\nBelohnung für Spieler, die 2014 an Blizzard-Events teilgenommen haben.</deDE>
+			<esES>El año que nació Hearthstone. ¡Vaya año!\n\nOtorgado por participar en eventos de Blizzard durante el año 2014.</esES>
+			<esMX>El año en que nació Hearthstone. ¡Qué buenas épocas!\n\nObtenido por participar en los eventos de Blizzard de 2014.</esMX>
+			<frFR>L’année de naissance de Hearthstone. Quelle merveilleuse année !\n\nObtenu en participant à des évènements Blizzard en 2014.</frFR>
+			<itIT>L'anno in cui è nato Hearthstone: una data da non scordare!\n\nOttenuto partecipando agli eventi Blizzard durante il 2014.</itIT>
+			<koKR>하스스톤이 태어난 해입니다. 정말 멋진 한 해였죠!\n\n2014년 블리자드 이벤트에 참여하여 획득</koKR>
+			<plPL>Rok narodzin gry Hearthstone. Wspaniały czas!\n\nRewers przyznany za wzięcie udziału w imprezach Blizzarda w roku 2014.</plPL>
+			<ptBR>O ano em que nasceu o Hearthstone. Um grande ano!\n\nAdquirido ao participar de eventos da Blizzard em 2014.</ptBR>
+			<ruRU>В этом году появился Hearthstone – о, что это был за год!\n\nНаграда за участие в игровых событиях Blizzard в 2014 г.</ruRU>
+			<zhCN>《炉石传说》诞生于2014年。这是伟大的一年！\n\n在2014年参加暴雪举办的活动获得该奖励。</zhCN>
+			<zhTW>這代表了《爐石戰記》誕生的那一年，多麼美好的回憶啊!\n\n在2014年參加Blizzard活動時取得。</zhTW>
+		</Field>
+		<Field column="SOURCE_DESCRIPTION">
+			<enUS>Special</enUS>
+			<deDE>Promo</deDE>
+			<esES>Especial</esES>
+			<esMX>Especial</esMX>
+			<frFR>Spécial</frFR>
+			<itIT>Speciale</itIT>
+			<koKR>특별</koKR>
+			<plPL>Specjalny</plPL>
+			<ptBR>Especial</ptBR>
+			<ruRU>Особые</ruRU>
+			<zhCN>特殊</zhCN>
+			<zhTW>特殊</zhTW>
+		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Blizzard2014/Card_Back_Blizzard2014</Field>
 	</Record>
 	<Record>
@@ -327,7 +693,35 @@
 			<zhTW>達拉然火焰</zhTW>
 		</Field>
 		<Field column="NAME_COMMENT"></Field>
-		<Field column="ENABLED">False</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Mascot of Dalaran University.  Rarely seen, because no one ever shows up to football games there.\n\nAcquired by participating in TeSPA or other college affiliate program.</enUS>
+			<deDE>Das Maskottchen der Universität von Dalaran. Nur sehr selten zu sehen, weil niemand je zu den Rugbyspielen auftaucht.\n\nBelohnung für Mitglieder von TeSPA oder einem anderen Uni-Partnerprogramm.</deDE>
+			<esES>La mascota de la universidad de Dalaran. No se ve con frecuencia porque nadie va nunca a los partidos de fútbol.\n\nOtorgado por participar en TeSPA o en otro programa de estudiantes.</esES>
+			<esMX>Mascota de la Universidad de Dalaran. Pocas veces vista, ya que a nadie le interesan demasiado los deportes en esa institución.\n\nObtenido por participar en el programa de afiliados de TeSPA u otra institución.</esMX>
+			<frFR>Mascotte de l’université de Dalaran. On la voit rarement, car personne n’assiste jamais à leurs matchs de foot.\n\nObtenu en participant au TeSPA ou autre programme affilié.</frFR>
+			<itIT>Mascotte dell'Università di Dalaran. Non si vede spesso, perché i Maghi non sono grandi amanti degli sport.\n\nOttenuto partecipando al TeSPA o ad altri programmi di affiliazione dei college.</itIT>
+			<koKR>달라란 대학교의 마스코트입니다. 매우 보기 어려운 카드 뒷면이죠. 축구 경기에 거의 아무도 오지 않거든요.\n\nTeSPA 혹은 다른 대학 단체 주최 프로그램에 참여하여 획득</koKR>
+			<plPL>Maskotka Uniwersytetu w Dalaranie. Trudno ją zobaczyć, bo prawie nikt tam nie chodzi na mecze.\n\nRewers przyznany za wzięcie udziału w TeSPA lub w innym patronackim programie studenckim.</plPL>
+			<ptBR>Mascote da Universidade de Dalaran. Raramente visto, porque ninguém vai nos jogos de lá.\n\nAdquirido ao participar do TeSPA ou outro programa de universidade afiliada.</ptBR>
+			<ruRU>Талисман Даларанского университета. Его редко можно увидеть, потому что никогда и никогда не ходит на тамошние футбольные матчи.\n\nНаграда за участие в TeSPA или другой университетской партнерской программе.</ruRU>
+			<zhCN>达拉然大学足球队的象征。它极其稀有，因为那里似乎没人热衷于足球运动。\n\n参加TeSPA或其他大学组织的活动获得该奖励。</zhCN>
+			<zhTW>這是達拉然大學的象徵，但如果你不知道的話也不意外，因為他們的學生都會隱形術!\n\n加入TeSPA或其他的大學聯盟時取得。</zhTW>
+		</Field>
+		<Field column="SOURCE_DESCRIPTION">
+			<enUS>Special</enUS>
+			<deDE>Promo</deDE>
+			<esES>Especial</esES>
+			<esMX>Especial</esMX>
+			<frFR>Spécial</frFR>
+			<itIT>Speciale</itIT>
+			<koKR>특별</koKR>
+			<plPL>Specjalny</plPL>
+			<ptBR>Especial</ptBR>
+			<ruRU>Особые</ruRU>
+			<zhCN>特殊</zhCN>
+			<zhTW>特殊</zhTW>
+		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/TeSPA/Card_Back_TeSPA</Field>
 	</Record>
 	<Record>
@@ -350,7 +744,35 @@
 			<zhTW>霸主</zhTW>
 		</Field>
 		<Field column="NAME_COMMENT"></Field>
-		<Field column="ENABLED">False</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="DESCRIPTION">
+			<enUS>When they aren’t plotting to kill everyone and take over the world, even the Iron Horde enjoy a game of Hearthstone.\n\nAcquired from Warlords of Draeneor Digital Deluxe Edition.</enUS>
+			<deDE>Wenn sie nicht gerade versucht, die Weltherrschaft an sich zu reißen, spielt sogar die Eiserne Horde gerne mal eine Partie Hearthstone.\n\nBelohnung für Spieler, die die Digital Deluxe Edition von Warlords of Draenor besitzen.</deDE>
+			<esES>Cuando no está planeando asesinar a todos y conquistar el mundo, hasta la Horda de Hierro disfruta jugando a Hearthstone.\n\nOtorgado por la edición Digital Deluxe de Warlords of Draenor.</esES>
+			<esMX>Cuando no están tramando matar a todos y dominar el mundo, hasta los miembros de la Horda de Hierro disfrutan de una buena partida de Hearthstone.\n\nObtenido por comprar la Edición digital de lujo de Warlords of Draenor.</esMX>
+			<frFR>Quand ils ne complotent pas pour détruire toute vie et s’emparer du monde, les membres de la Horde de Fer aiment bien jouer à Hearthstone.\n\nObtenu avec l’édition Deluxe de Warlords of Draenor.</frFR>
+			<itIT>Quando non tramano per uccidere tutti e conquistare il mondo, anche i membri dell'Orda di Ferro si divertono a giocare a Hearthstone.\n\nOttenuto acquistando l'Edizione digitale deluxe di Warlords of Draenor.</itIT>
+			<koKR>강철 호드는 세상의 주인이 되려는 노력 중에도 가끔 무기를 내려놓고 하스스톤을 즐깁니다.\n\n드레노어의 전쟁군주 디지털 딜럭스를 구매하여 획득</koKR>
+			<plPL>Nawet Żelazna Horda lubi czasami zrobić sobie przerwę w mordowaniu i próbach podboju świata, by zasiąść do partyjki Hearthstone.\n\nRewers otrzymany z Cyfrowej Edycji Deluxe Warlords of Draenor.</plPL>
+			<ptBR>Quando não está fazendo planos para matar todo mundo e dominar o planeta, até a Horda de Ferro gosta de uma partidinha de Hearthstone.\n\nAdquirido com a Warlords of Draenor Digital Deluxe Edition.</ptBR>
+			<ruRU>Даже Железной Орде не чужда любовь к игре Hearthstone. В свободное от массовых убийств и попыток захватить мир время.\n\nНаграда за покупку электронного издания Deluxe Warlords of Draenor.</ruRU>
+			<zhCN>虽然德拉诺的兽人酋长们要杀光艾泽拉斯的所有人，征服这个世界，但钢铁部落的士兵们都很喜欢《炉石传说》这款游戏。\n\n购买《德拉诺之王》数字典藏版获得该奖励。</zhCN>
+			<zhTW>鋼鐵部落在征服世界的空檔裡，也喜歡來場爐石。\n\n擁有德拉諾之霸數位典藏版即可取得。</zhTW>
+		</Field>
+		<Field column="SOURCE_DESCRIPTION">
+			<enUS>Special</enUS>
+			<deDE>Promo</deDE>
+			<esES>Especial</esES>
+			<esMX>Especial</esMX>
+			<frFR>Spécial</frFR>
+			<itIT>Speciale</itIT>
+			<koKR>특별</koKR>
+			<plPL>Specjalny</plPL>
+			<ptBR>Especial</ptBR>
+			<ruRU>Особые</ruRU>
+			<zhCN>特殊</zhCN>
+			<zhTW>特殊</zhTW>
+		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Warlords_of_Draenor/Card_Back_Warlords_of_Draenor</Field>
 	</Record>
 	<Record>
@@ -374,6 +796,34 @@
 		</Field>
 		<Field column="NAME_COMMENT"></Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="DESCRIPTION">
+			<enUS>This multifunctional device also works as a gnomish army knife, a shoe horn and a pass to the Deeprun Tram.  Gnomish ingenuity!\n\nAcquired from Achieving Rank 20 in Ranked Play, December 2014.</enUS>
+			<deDE>Multifunktionaler Kartenrücken, der auch als gnomisches Armeemesser, Schuhlöffel oder Tiefenbahnticket einsetzbar ist.\n\nBelohnung für alle Spieler, die im Dezember 2014 im gewerteten Modus Rang 20 erreicht haben.</deDE>
+			<esES>Este dispositivo polivalente también sirve como navaja suiza gnómica, como calzador y como entrada para el Tranvía Subterráneo. ¡Una muestra de ingenio gnómico!\n\nOtorgado por alcanzar el rango 20 en el juego con rango en diciembre, 2014.</esES>
+			<esMX>Este dispositivo multifunción también se usa como cuchillo del ejército gnomo, calzador y pase para el Tranvía Subterráneo. ¡El ingenio de los gnomos no tiene igual!\n\nObtenido por alcanzar el rango 20 en partidas clasificadas durante diciembre de 2014.</esMX>
+			<frFR>Cet engin multifonctions peut servir de couteau, de chausse-pied et de passe pour le tram des profondeurs. Toute l’ingéniosité gnome en un outil !\n\nObtenu en atteignant le rang 20 en Partie classée, saison de décembre 2014.</frFR>
+			<itIT>Questo dispositivo funziona anche come coltellino multiuso degli Gnomi, come corno acustico e come biglietto per il Tram degli Abissi!\n\nOttenuto raggiungendo il grado 20 in modalità Classificata nel mese di dicembre 2014.</itIT>
+			<koKR>이 다재다능한 장치는 노움 군용칼이나 구두주걱, 혹은 깊은굴 지하철 탑승권으로도 사용할 수 있습니다. 노움 기술력은 아제로스 제일!\n\n2014년 12월 등급전에서 20등급 달성 시 획득</koKR>
+			<plPL>To wielofunkcyjne urządzenie działa także jako scyzoryk, łyżka do butów oraz packa na muchy. Gnomia pomysłowość!\n\nRewers przyznany za osiągnięcie poziomu 20 w trybie rankingowym w grudniu 2014.</plPL>
+			<ptBR>Este dispositivo multifuncional também serve como faca do exército gnômico, ferradura e bilhete do Metrô Correfundo. Engenhosidade gnômica!\n\nAdquirido ao chegar no ranque 20 no Jogo Ranqueado. Dezembro de 2014.</ptBR>
+			<ruRU>Это многофункциональное устройство может заменить гномский армейский нож, рожок для обуви и билет на Подземный поезд. Образчик истинного мастерства гномов!\n\nНаграда за достижение 20-го ранга в рейтинговых матчах в декабре 2014 г.</ruRU>
+			<zhCN>这款卡牌背面图案凝聚着高端侏儒科技，使你的卡牌可以变成一把侏儒军刀、一个鞋拔和一个矿道地铁的通行卡。侏儒科技万岁！\n\n在2014年12月的排名对战赛季中达到20级获得该奖励。</zhCN>
+			<zhTW>見證地精的科技奇蹟!這不只是卡背，還是地精軍用小刀、鞋拔、和礦道地鐵的通行證!\n\n在2014年12月賽季中達到階級20時取得。</zhTW>
+		</Field>
+		<Field column="SOURCE_DESCRIPTION">
+			<enUS>Season</enUS>
+			<deDE>Saison</deDE>
+			<esES>Temporada</esES>
+			<esMX>Temporada</esMX>
+			<frFR>Saison</frFR>
+			<itIT>Stagionale</itIT>
+			<koKR>시즌</koKR>
+			<plPL>Sezonowy</plPL>
+			<ptBR>Temporada</ptBR>
+			<ruRU>За сезон</ruRU>
+			<zhCN>赛季</zhCN>
+			<zhTW>賽季</zhTW>
+		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Gnome/Card_Back_Gnome</Field>
 	</Record>
 	<Record>
@@ -397,6 +847,34 @@
 		</Field>
 		<Field column="NAME_COMMENT"></Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Vindicator Maraad was a paladin of great courage and strength.  Don’t let the pretty pastel tones fool you.\n\nAcquired from Achieving Rank 20 in Ranked Play, January 2015.</enUS>
+			<deDE>Verteidiger Maraad war ein äußerst kühner und starker Paladin. Lasst Euch von den schönen Pastelltönen nicht beeindrucken.\n\nBelohnung für alle Spieler, die im Januar 2015 im gewerteten Modus Rang 20 erreicht haben.</deDE>
+			<esES>El vindicador Maraad era un paladín de gran fuerza y valor. ¡No dejes que estos bonitos tonos pastel te engañen!\n\nOtorgado por alcanzar el rango 20 en el juego con rango en enero, 2015.</esES>
+			<esMX>El Vindicador Maraad fue un paladín templado por el valor y la fuerza. ¡No te dejes engañar por los adorables tonos pastel!\n\nObtenido por alcanzar el rango 20 en partidas clasificadas durante enero de 2015.</esMX>
+			<frFR>Le redresseur de torts Maraad était un paladin avec un grand courage et une grande force. Ne vous laissez pas tromper par les jolis tons pastel.\n\nObtenu en atteignant le rang 20 en Partie classée, saison de janvier 2015.</frFR>
+			<itIT>Il Vendicatore Maraad era un Paladino di grande coraggio e forza. Non farti ingannare dai graziosi colori pastello!\n\nOttenuto raggiungendo il grado 20 in modalità Classificata nel mese di gennaio 2015.</itIT>
+			<koKR>구원자 마라아드는 용맹한 성기사였습니다. 파스텔 톤의 포근한 색깔에 속지 마세요.\n\n2015년 1월 등급전에서 20등급 달성 시 획득</koKR>
+			<plPL>Mściciel Maraad był niezwykle odważnym i dzielnym paladynem. Niech nie zwiodą cię te pastelowe barwy.\n\nRewers przyznany za osiągnięcie poziomu 20 w trybie rankingowym w styczniu 2015.</plPL>
+			<ptBR>O Vindicante Maraad foi um paladino de grande coragem e força. Aqueles tons pastéis eram só para disfarçar.\n\nAdquirido ao chegar no ranque 20 no Jogo Ranqueado. Janeiro de 2015.</ptBR>
+			<ruRU>Воздаятель Мараад был паладином редкой силы и отваги. И не обращайте внимания на эти нежные пастельные тона.\n\nНаграда за достижение 20-го ранга в рейтинговых матчах в январе 2015 г.</ruRU>
+			<zhCN>守备官玛尔拉德是一个富有勇气、实力超群的圣骑士，别被他那柔和而亮丽的嗓音蒙骗了。\n\n在2015年1月的排名对战赛季中达到20级获得该奖励。</zhCN>
+			<zhTW>復仇者瑪銳德本人是位充滿勇氣與力量的聖騎士，但這不代表他不能喜歡粉藍粉紫這些顏色!\n\n在2015年1月賽季中達到階級20時取得。</zhTW>
+		</Field>
+		<Field column="SOURCE_DESCRIPTION">
+			<enUS>Season</enUS>
+			<deDE>Saison</deDE>
+			<esES>Temporada</esES>
+			<esMX>Temporada</esMX>
+			<frFR>Saison</frFR>
+			<itIT>Stagionale</itIT>
+			<koKR>시즌</koKR>
+			<plPL>Sezonowy</plPL>
+			<ptBR>Temporada</ptBR>
+			<ruRU>За сезон</ruRU>
+			<zhCN>赛季</zhCN>
+			<zhTW>賽季</zhTW>
+		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Maraad/Card_Back_Maraad</Field>
 	</Record>
 	<Record>
@@ -420,6 +898,34 @@
 		</Field>
 		<Field column="NAME_COMMENT"></Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Happy New Year!\n\nAcquired from Achieving Rank 20 in Ranked Play, February 2015.</enUS>
+			<deDE>Frohes Mondfest!\n\nBelohnung für alle Spieler, die im Februar 2015 im gewerteten Modus Rang 20 erreicht haben.</deDE>
+			<esES>¡Feliz año nuevo!\n\nOtorgado por alcanzar el rango 20 en el juego con rango en febrero, 2015.</esES>
+			<esMX>¡Feliz año nuevo!\n\nObtenido por alcanzar el rango 20 en partidas clasificadas durante febrero de 2015.</esMX>
+			<frFR>Bonne année !\n\nObtenu en atteignant le rang 20 en Partie classée, saison de février 2015.</frFR>
+			<itIT>Buon anno nuovo!\n\nOttenuto raggiungendo il grado 20 in modalità Classificata nel mese di febbraio 2015.</itIT>
+			<koKR>새해 복 많이 받으세요!\n\n2015년 2월 등급전에서 20등급 달성 시 획득</koKR>
+			<plPL>Szczęśliwego Nowego Roku!\n\nRewers przyznany za osiągnięcie poziomu 20 w trybie rankingowym w lutym 2015.</plPL>
+			<ptBR>Feliz Ano Novo!\n\nAdquirido ao chegar no ranque 20 no Jogo Ranqueado. Fevereiro de 2015.</ptBR>
+			<ruRU>С Новым годом!\n\nНаграда за достижение 20-го ранга в рейтинговых матчах в феврале 2015 г.</ruRU>
+			<zhCN>给你拜年了！\n\n在2015年2月的排名对战赛季中达到20级获得该奖励。</zhCN>
+			<zhTW>新年快樂!\n\n在2015年2月賽季中達到階級20時取得。</zhTW>
+		</Field>
+		<Field column="SOURCE_DESCRIPTION">
+			<enUS>Season</enUS>
+			<deDE>Saison</deDE>
+			<esES>Temporada</esES>
+			<esMX>Temporada</esMX>
+			<frFR>Saison</frFR>
+			<itIT>Stagionale</itIT>
+			<koKR>시즌</koKR>
+			<plPL>Sezonowy</plPL>
+			<ptBR>Temporada</ptBR>
+			<ruRU>За сезон</ruRU>
+			<zhCN>赛季</zhCN>
+			<zhTW>賽季</zhTW>
+		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Lunar/Card_Back_Lunar</Field>
 	</Record>
 	<Record>
@@ -443,6 +949,34 @@
 		</Field>
 		<Field column="NAME_COMMENT"></Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="DESCRIPTION">
+			<enUS>The Molten Core of Azeroth and not a chocolate lava cake, unfortunately.\n\nWas acquired from Pre-Purchase of Blackrock Mountain.</enUS>
+			<deDE>Der Geschmolzene Kern des Schwarzfels, nicht die Mitte eines leckeren Schokoladekuchens. Leider.\n\nBelohnung für Spieler, die den Schwarzfels im Vorverkauf erworben haben.</deDE>
+			<esES>Desafortunadamente, hablamos del Núcleo de Magma de Azeroth y no del núcleo de un volcán de chocolate.\n\nOtorgado por la compra anticipada de Montaña Roca Negra.</esES>
+			<esMX>El Núcleo de Magma de Azeroth. ¿Qué? ¿Pensaste que era un volcán de chocolate?\n\nObtenido por haber reservado Montaña Roca Negra.</esMX>
+			<frFR>Le cœur du Magma d’Azeroth et pas le cœur coulant d’un gâteau au chocolat, malheureusement.\n\nObtenu pour la précommande du Mont Rochenoire.</frFR>
+			<itIT>Questo è il Nucleo Ardente di Azeroth, non un tortino di cioccolato e lava. Purtroppo.\n\nOttenuto attraverso la prevendita del Massiccio Roccianera.</itIT>
+			<koKR>아제로스의 화산 심장부입니다. 초콜릿 용암 케이크가 아니라고요.\n\n검은바위 산 모험을 예약 구매하여 획득</koKR>
+			<plPL>Ognista Czeluść to najgorętsze miejsce w całym Azeroth. Ściąga masy turystów.\n\nRewers przyznany za przedpremierowe zamówienie Czarnej Góry.</plPL>
+			<ptBR>O Núcleo Derretido de Azeroth, não um bolo de lava de chocolate, infelizmente.\n\nAdquirido na Pré-venda da Montanha Rocha Negra.</ptBR>
+			<ruRU>Огненные Недра Азерота. А вовсе не торт с потеками шоколадной лавы. Увы.\n\nНаграда за покупку приключения «Черная гора».</ruRU>
+			<zhCN>艾泽拉斯的熔火之心里流淌着的，可不是滚烫的巧克力。\n\n预购“黑石山的火焰”冒险模式内容获得该奖励。</zhCN>
+			<zhTW>熔火之心裡面裝的可是貨真價實的岩漿，才不是什麼熔岩巧克力!\n\n預購《勇闖黑石山》時取得。</zhTW>
+		</Field>
+		<Field column="SOURCE_DESCRIPTION">
+			<enUS>Special</enUS>
+			<deDE>Promo</deDE>
+			<esES>Especial</esES>
+			<esMX>Especial</esMX>
+			<frFR>Spécial</frFR>
+			<itIT>Speciale</itIT>
+			<koKR>특별</koKR>
+			<plPL>Specjalny</plPL>
+			<ptBR>Especial</ptBR>
+			<ruRU>Особые</ruRU>
+			<zhCN>特殊</zhCN>
+			<zhTW>特殊</zhTW>
+		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/MoltenCore/Card_Back_MoltonCore</Field>
 	</Record>
 	<Record>
@@ -466,6 +1000,34 @@
 		</Field>
 		<Field column="NAME_COMMENT"></Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="DESCRIPTION">
+			<enUS>The Firelord is most often seen relaxing in his hot tub, even when he’s trying to burn down the world.\n\nAcquired from Achieving Rank 20 in Ranked Play, March 2015.</enUS>
+			<deDE>Der Feuerfürst entspannt sich meist gemütlich im Lavapool – auch bei dem Versuch, die Welt niederzubrennen.\n\nBelohnung für alle Spieler, die im März 2015 im gewerteten Modus Rang 20 erreicht haben.</deDE>
+			<esES>El Señor del Fuego suele pasar las horas relajándose en su jacuzzi, incluso cuando está intentando calcinar el mundo.\n\nOtorgado por alcanzar el rango 20 en el juego con rango en marzo, 2015.</esES>
+			<esMX>Al Señor del Fuego se lo suele ver relajándose en esta cálida bañera, incluso cuando está intentando incinerar el mundo.\n\nObtenido por alcanzar el rango 20 en partidas clasificadas durante marzo de 2015.</esMX>
+			<frFR>On voit souvent le seigneur du feu se prélasser dans son bain bouillonnant, même lorsqu’il tente d’incinérer le monde.\n\nObtenu en atteignant le rang 20 en Partie classée, saison de mars 2015.</frFR>
+			<itIT>Il Signore del Fuoco adora rilassarsi nella sua pozza di lava, anche mentre sta cercando di ridurre in cenere il mondo.\n\nOttenuto raggiungendo il grado 20 in modalità Classificata nel mese di marzo 2015.</itIT>
+			<koKR>불의 군주는 용암 온천에서 휴식을 취하는 걸 즐깁니다. 그래서 성가신 모험가들이 영웅 난이도로 도전하면 아주 사나워집니다.\n\n2015년 3월 등급전에서 20등급 달성 시 획득</koKR>
+			<plPL>W przerwach między próbami spalenia świata, Władca Ognia lubi relaksować się przy gorących źródłach.\n\nRewers przyznany za osiągnięcie poziomu 20 w trybie rankingowym w marcu 2015.</plPL>
+			<ptBR>O Senhor do Fogo fica a maior parte do tempo tentando dominar o mundo a partir de sua banheira quente.\n\nAdquirido ao chegar no ranque 20 no Jogo Ranqueado. Março de 2015.</ptBR>
+			<ruRU>Чаще всего Повелителя Огня можно увидеть расслабляющимся в горячей ванне, даже когда он занят тем, что пытается сжечь дотла весь мир.\n\nНаграда за достижение 20-го ранга в рейтинговых матчах в марте 2015 г.</ruRU>
+			<zhCN>虽然炎魔之王总是想要把整个世界都烧成灰，但他最喜欢做的事情还是躺在他那滚烫的浴缸里。\n\n在2015年3月的排名对战赛季中达到20级获得该奖励。</zhCN>
+			<zhTW>炎魔總是泡在他的熔岩澡盆裡，但即便如此，他還是可以征服世界。\n\n在2015年3月賽季中達到階級20時取得。</zhTW>
+		</Field>
+		<Field column="SOURCE_DESCRIPTION">
+			<enUS>Season</enUS>
+			<deDE>Saison</deDE>
+			<esES>Temporada</esES>
+			<esMX>Temporada</esMX>
+			<frFR>Saison</frFR>
+			<itIT>Stagionale</itIT>
+			<koKR>시즌</koKR>
+			<plPL>Sezonowy</plPL>
+			<ptBR>Temporada</ptBR>
+			<ruRU>За сезон</ruRU>
+			<zhCN>赛季</zhCN>
+			<zhTW>賽季</zhTW>
+		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Ragnaros/Card_Back_Ragnaros</Field>
 	</Record>
 	<Record>
@@ -489,6 +1051,34 @@
 		</Field>
 		<Field column="NAME_COMMENT"></Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Solid gold, baby.\n\nAcquired with a high level finish in approved eSports events.</enUS>
+			<deDE>Echtes Gold, Baby.\n\nBelohnung für Spieler, die in offiziellen eSports-Events sehr gut abgeschlossen haben.</deDE>
+			<esES>¡Oro puro!\n\nOtorgado por terminar un evento oficial de eSports en buena posición.</esES>
+			<esMX>Oro puro, viejito.\n\nObtenido por haber terminado en una buena posición durante eventos de eSports aprobados.</esMX>
+			<frFR>De l’or pur, bébé.\n\nObtenu en atteignant un rang élevé à la fin d’un évènement d’eSport approuvé.</frFR>
+			<itIT>Oro puro al 100%.\n\nOttenuto raggiungendo un'alta posizione in graduatoria in eventi eSports ufficiali.</itIT>
+			<koKR>우와우! 황금 카드 뒷면!\n\n이스포츠 행사에서 뛰어난 실력을 증명하여 획득</koKR>
+			<plPL>Co złoto, to złoto!\n\nRewers przyznany za osiągnięcie wysokiego miejsca na zatwierdzonej imprezie eSportowej.</plPL>
+			<ptBR>É ouro sólido, colega.\n\nAdquirido ao terminar em posições altas em eventos de eSporte aprovados.</ptBR>
+			<ruRU>Чистое золото, детка.\n\nНаграда за высокий результат на официально одобренном киберспортивном состязании.</ruRU>
+			<zhCN>这可是十足的纯金，宝贝儿。\n\n在官方认证的电子竞技活动中获得较高名次获得该奖励。</zhCN>
+			<zhTW>真金不怕火煉!\n\n在官方認可的電競比賽中取得一定名次時取得。</zhTW>
+		</Field>
+		<Field column="SOURCE_DESCRIPTION">
+			<enUS>Special</enUS>
+			<deDE>Promo</deDE>
+			<esES>Especial</esES>
+			<esMX>Especial</esMX>
+			<frFR>Spécial</frFR>
+			<itIT>Speciale</itIT>
+			<koKR>특별</koKR>
+			<plPL>Specjalny</plPL>
+			<ptBR>Especial</ptBR>
+			<ruRU>Особые</ruRU>
+			<zhCN>特殊</zhCN>
+			<zhTW>特殊</zhTW>
+		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/GoldenCelebration/Card_Back_GoldenCelebration</Field>
 	</Record>
 	<Record>
@@ -512,6 +1102,34 @@
 			<zhTW>奈法利安</zhTW>
 		</Field>
 		<Field column="NAME_COMMENT"></Field>
+		<Field column="DESCRIPTION">
+			<enUS>You didn’t actually believe someone named “Lord Victor Nefarious” wasn’t up to anything nefarious, did you?\n\nAcquired from Completing Blackrock Mountain in Heroic Mode.</enUS>
+			<deDE>Es ist kaum zu glauben, dass Ihr ihm tatsächlich über den Weg getraut habt. War denn der Bart nicht Hinweis genug?\n\nBelohnung für Spieler, die den Schwarzfels im heroischen Modus abgeschlossen haben.</deDE>
+			<esES>¿De verdad no se te ocurrió que alguien llamado "Lord Victor Nefarius" estaría planeando algo nefario?\n\nOtorgado por completar la Montaña Roca Negra en modo heroico.</esES>
+			<esMX>¿Qué esperabas de alguien llamado "Lord Victor Nefarius"? TODO lo que hace es nefario.\n\nObtenido por completar Montaña Roca Negra en modo heroico.</esMX>
+			<frFR>Vous ne pensiez pas vraiment que quelqu’un se faisant appeler « seigneur Victor Nefarious » pouvait être une personne bienveillante, n’est-ce pas ?\n\nObtenu en terminant le mode héroïque du Mont Rochenoire.</frFR>
+			<itIT>Davvero credevi che qualcuno chiamato "Victor Nefarius" non fosse dedito a qualcosa di nefando?\n\nOttenuto completando il Massiccio Roccianera in versione Eroica.</itIT>
+			<koKR>"군주 빅터 네파리우스"가 설마 그 악명 높은 검은용 네파리안이라고 누가 생각이나 했겠습니까?\n\n검은바위 산 모험을 영웅 난이도로 완료하여 획득</koKR>
+			<plPL>Ponoć „Lord Victor Nefarious” nazywał się poprzednio „Niefajnus”. Nic dziwnego, że obstawał za zmianą.\n\nRewers przyznany za ukończenie Czarnej Góry w trybie heroicznym.</plPL>
+			<ptBR>Você não achou que alguém chamado "Lorde Victor Nefarius" era boa coisa, né?\n\nAdquirido ao completar a Montanha Rocha Negra no Modo Heroico.</ptBR>
+			<ruRU>Разве придет в голову заподозрить лорда Виктора Нефария в чем-то нечестивом?\n\nНаграда за завершение приключения «Черная гора» в героическом режиме.</ruRU>
+			<zhCN>邪恶的黑龙总是能变成英俊帅气又善于使用魔法的男子，真叫人羡慕。\n\n击败英雄难度下的所有黑石山首领获得该奖励。</zhCN>
+			<zhTW>奈法利安就是個大騙子，你該不會真的相信他的話了吧?\n\n完成《勇闖黑石山》英雄模式時取得。</zhTW>
+		</Field>
+		<Field column="SOURCE_DESCRIPTION">
+			<enUS>Adventure</enUS>
+			<deDE>Abenteuer</deDE>
+			<esES>Aventura</esES>
+			<esMX>Aventura</esMX>
+			<frFR>Aventure</frFR>
+			<itIT>Avventura</itIT>
+			<koKR>모험</koKR>
+			<plPL>Przygodowy</plPL>
+			<ptBR>Aventura</ptBR>
+			<ruRU>Приключения</ruRU>
+			<zhCN>冒险模式</zhCN>
+			<zhTW>冒險篇章</zhTW>
+		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Nefarian/Card_Back_Nefarian</Field>
 	</Record>
 	<Record>
@@ -535,6 +1153,34 @@
 			<zhTW>杯子蛋糕</zhTW>
 		</Field>
 		<Field column="NAME_COMMENT"></Field>
+		<Field column="DESCRIPTION">
+			<enUS>“Is that a cupcake on a cake?” you ask?  Yes.  Yes it is.\n\nAcquired from Achieving Rank 20 in Ranked Play, April 2015.</enUS>
+			<deDE>Ihr wollt wissen, ob das ein Cupcake auf einem Kuchen ist? Ja. Definitiv ja.\n\nBelohnung für alle Spieler, die im April 2015 im gewerteten Modus Rang 20 erreicht haben.</deDE>
+			<esES>¿Eso es un pastelito encima de un pastel? ¡Así es!\n\nOtorgado por alcanzar el rango 20 en el juego con rango en abril, 2015.</esES>
+			<esMX>¿Te preguntas si es un pastelito sobre una torta? ¡Es cierto! Los ojos no te engañan.\n\nObtenido por alcanzar el rango 20 en partidas clasificadas durante abril de 2015.</esMX>
+			<frFR>Vous vous demandez si c’est vraiment un cupcake sur un gâteau ? Eh bien oui.\n\nObtenu en atteignant le rang 20 en Partie classée, saison d’avril 2015.</frFR>
+			<itIT>Forse ti sarai chiesto se quello sia davvero un dolcetto su una torta. Ebbene sì, lo è.\n\nOttenuto raggiungendo il grado 20 in modalità Classificata nel mese di aprile 2015.</itIT>
+			<koKR>다들 만우절 장난인줄 아셨죠? 그런데 그것이 실제로 일어났습니다.\n\n2015년 4월 등급전에서 20등급 달성 시 획득</koKR>
+			<plPL>Dostajemy pytania „Czy to babeczka w babeczce?”. Odpowiadamy - w rzeczy samej.\n\nRewers przyznany za osiągnięcie poziomu 20 w trybie rankingowym w kwietniu 2015.</plPL>
+			<ptBR>"Isso é um bolinho ou um cupcake?" Só cala a boca e come, tá legal?\n\nAdquirido ao chegar no ranque 20 no Jogo Ranqueado. Abril de 2015.</ptBR>
+			<ruRU>«Это что, пироженка?», — думаете вы. Да. Это она!\n\nНаграда за достижение 20-го ранга в рейтинговых матчах в апреле 2015 г.</ruRU>
+			<zhCN>这看上去就像一个放在蛋糕上的杯子蛋糕。你说吃了会发胖？谁还管这么多呢！\n\n在2015年4月的排名对战赛季中达到20级获得该奖励。</zhCN>
+			<zhTW>那個…杯子蛋糕是放在蛋糕上嗎?別懷疑!\n\n在2015年4月賽季中達到階級20時取得。</zhTW>
+		</Field>
+		<Field column="SOURCE_DESCRIPTION">
+			<enUS>Season</enUS>
+			<deDE>Saison</deDE>
+			<esES>Temporada</esES>
+			<esMX>Temporada</esMX>
+			<frFR>Saison</frFR>
+			<itIT>Stagionale</itIT>
+			<koKR>시즌</koKR>
+			<plPL>Sezonowy</plPL>
+			<ptBR>Temporada</ptBR>
+			<ruRU>За сезон</ruRU>
+			<zhCN>赛季</zhCN>
+			<zhTW>賽季</zhTW>
+		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Cupcake/Card_Back_Cupcake</Field>
 	</Record>
 	<Record>
@@ -543,12 +1189,13 @@
 		<Field column="DATA1">19</Field>
 		<Field column="SOURCE">season</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="NAME_COMMENT"></Field>
 		<Field column="NAME">
 			<enUS>Ninjas!</enUS>
 			<deDE>Ninjas!</deDE>
 			<esES>¡Ninjas!</esES>
 			<esMX>¡Ninjas!</esMX>
-			<frFR>Ninjas !</frFR>
+			<frFR>Ninjas</frFR>
 			<itIT>Ninja</itIT>
 			<koKR>닌자!</koKR>
 			<plPL>Ninja!</plPL>
@@ -556,6 +1203,34 @@
 			<ruRU>Ниндзя!</ruRU>
 			<zhCN>忍者无敌</zhCN>
 			<zhTW>忍者!</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Stealth.  Style.  Shurikens.  Way better than Pirates!\n\nAcquired from Achieving Rank 20 in Ranked Play, May 2015.</enUS>
+			<deDE>Stille Spione mit Stil und Shuriken. So viel besser als Piraten!\n\nBelohnung für alle Spieler, die im Mai 2015 im gewerteten Modus Rang 20 erreicht haben.</deDE>
+			<esES>Sigilo, estilo, shurikens... ¡Esto es mucho mejor que un pirata!\n\nOtorgado por alcanzar el rango 20 en el juego con rango en mayo, 2015.</esES>
+			<esMX>Sigilo. Estilo. Shurikenes. ¡Mucho mejor que los piratas!\n\nObtenido por alcanzar el rango 20 en partidas clasificadas durante mayo de 2015.</esMX>
+			<frFR>Dissimulation, style et shurikens. C’est beaucoup mieux que les Pirates !\n\nObtenu en atteignant le rang 20 en Partie classée, saison de mai 2015.</frFR>
+			<itIT>Furtività, stile, shuriken. Molto meglio dei Pirati!\n\nOttenuto raggiungendo il grado 20 in modalità Classificata nel mese di maggio 2015.</itIT>
+			<koKR>잠행의 대가. 수려한 기술. 수리검. 해적보다 훨씬 멋있습니다!\n\n2015년 5월 등급전에서 20등급 달성 시 획득</koKR>
+			<plPL>Kamuflaż. Kocie ruchy. Katany. To znacznie lepsze niż jacyś Piraci!\n\nRewers przyznany za osiągnięcie poziomu 20 w trybie rankingowym w maju 2015.</plPL>
+			<ptBR>Furtividade. Estilo. Estrelinhas. Bem melhor que piratas!\n\nAdquirido ao chegar no ranque 20 no Jogo Ranqueado. Maio de 2015.</ptBR>
+			<ruRU>Ловкость. Сила. Сюрикены. Куда лучше пиратов!\n\nНаграда за достижение 20-го ранга в рейтинговых матчах в мае 2015 г.</ruRU>
+			<zhCN>深藏不露，身手矫健，拔刀见血。忍者可比海盗厉害多了！\n\n在2015年5月的排名对战赛季中达到20级获得该奖励。</zhCN>
+			<zhTW>低調、有型、手裡劍。絕對比海盜厲害!\n\n在2015年5月賽季中達到階級20時取得。</zhTW>
+		</Field>
+		<Field column="SOURCE_DESCRIPTION">
+			<enUS>Season</enUS>
+			<deDE>Saison</deDE>
+			<esES>Temporada</esES>
+			<esMX>Temporada</esMX>
+			<frFR>Saison</frFR>
+			<itIT>Stagionale</itIT>
+			<koKR>시즌</koKR>
+			<plPL>Sezonowy</plPL>
+			<ptBR>Temporada</ptBR>
+			<ruRU>За сезон</ruRU>
+			<zhCN>赛季</zhCN>
+			<zhTW>賽季</zhTW>
 		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Ninja/Card_Back_Ninja</Field>
 	</Record>
@@ -565,6 +1240,7 @@
 		<Field column="DATA1">220</Field>
 		<Field column="SOURCE">achieve</Field>
 		<Field column="ENABLED">True</Field>
+		<Field column="NAME_COMMENT"></Field>
 		<Field column="NAME">
 			<enUS>Heroes of the Storm</enUS>
 			<deDE>Heroes of the Storm</deDE>
@@ -579,6 +1255,261 @@
 			<zhCN>风暴英雄</zhCN>
 			<zhTW>《暴雪英霸》</zhTW>
 		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>This arrived for you from the Nexus.  Might want to watch out for those whirling blade thingies.\n\nAcquired from Reaching Level 12 in the Blizzard Game Heroes of the Storm.</enUS>
+			<deDE>Soeben aus dem Nexus für Euch angekommen. Ihr solltet wahrscheinlich auf die drehenden spitzen Dinger achtgeben.\n\nBelohnung für Spieler, die im Blizzard-Spiel „Heroes of the Storm“ Spielerstufe 12 erreicht haben.</deDE>
+			<esES>Te ha llegado esto desde el Nexo, aunque deberías tener cuidado con esas cuchillitas giratorias.\n\nOtorgado por alcanzar el nivel 12 en el juego de Blizzard Heroes of the Storm.</esES>
+			<esMX>Esto te ha llegado desde el Nexo. Te recomendamos que tengas cuidado con esas espaditas giratorias.\n\nObtenido por alcanzar el nivel 12 en el juego de Blizzard Heroes of the Storm.</esMX>
+			<frFR>Ceci vient d’arriver pour vous du Nexus. Méfiez-vous de ces lames tourbillonnantes bizarres.\n\nObtenu en atteignant le niveau 12 dans le jeu Heroes of the Storm de Blizzard.</frFR>
+			<itIT>In arrivo direttamente dal Nexus. Fai attenzione a quelle lame, sono davvero taglienti.\n\nOttenuto raggiungendo il grado 12 nel gioco Blizzard Heroes of the Storm.</itIT>
+			<koKR>시공의 폭풍에서 도착한 카드 뒷면입니다. 회전하는 칼날에 손을 베이지 않게 조심하세요.\n\n블리자드에서 출시한 히어로즈 오브 더 스톰에서 12 레벨을 달성하여 획득</koKR>
+			<plPL>Ten rewers przybył prosto z Nexusa. Lepiej uważaj na te wirujące ostrza.\n\nRewers przyznany za osiągnięcie poziomu 12 w grze Heroes of the Storm firmy Blizzard.</plPL>
+			<ptBR>Chegou isso aqui para você do Nexus. Só toma cuidado com as lâminas giratórias.\n\nAdquirido ao chegar no nível 12 no jogo da Blizzard Heroes of the Storm.</ptBR>
+			<ruRU>Сувенир из Нексуса. С этими вращающимися штуками лучше быть поосторожнее.\n\nНаграда за достижение 12-го уровня в Heroes of the Storm.</ruRU>
+			<zhCN>这是来自时空枢纽的赠礼。小心那些尖锐锋利的刀片。\n\n在另一款暴雪游戏《风暴英雄》中达到12级获得该奖励。</zhCN>
+			<zhTW>這是從萬象界域送來給你的卡背，小心那些旋轉的利刃。\n\n在《暴雪英霸》中達到等級12時取得。</zhTW>
+		</Field>
+		<Field column="SOURCE_DESCRIPTION">
+			<enUS>Special</enUS>
+			<deDE>Promo</deDE>
+			<esES>Especial</esES>
+			<esMX>Especial</esMX>
+			<frFR>Spécial</frFR>
+			<itIT>Speciale</itIT>
+			<koKR>특별</koKR>
+			<plPL>Specjalny</plPL>
+			<ptBR>Especial</ptBR>
+			<ruRU>Особые</ruRU>
+			<zhCN>特殊</zhCN>
+			<zhTW>特殊</zhTW>
+		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/HotS/Card_Back_HotS</Field>
+	</Record>
+	<Record>
+		<Field column="ID">25</Field>
+		<Field column="NOTE_DESC">Alleria Windrunner</Field>
+		<Field column="DATA1">0</Field>
+		<Field column="SOURCE">fixed_reward</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME_COMMENT"></Field>
+		<Field column="NAME">
+			<enUS>Alleria</enUS>
+			<deDE>Alleria</deDE>
+			<esES>Alleria</esES>
+			<esMX>Alleria</esMX>
+			<frFR>Alleria</frFR>
+			<itIT>Alleria</itIT>
+			<koKR>알레리아</koKR>
+			<plPL>Alleria</plPL>
+			<ptBR>Alleria</ptBR>
+			<ruRU>Аллерия</ruRU>
+			<zhCN>奥蕾莉亚</zhCN>
+			<zhTW>艾蘭里亞</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>When she wants to shoot an apple on your head, you don’t have to worry.  Unless you’re an orc.\n\nAcquired from Purchasing the Hero Alleria Windrunner.</enUS>
+			<deDE>Wenn sie Euch einen Apfel vom Kopf schießen will, müsst Ihr Euch keine Sorgen machen. Es sei denn, Ihr seid ein Orc.\n\nBelohnung für Spieler, die die Heldin Alleria Windläufer erworben haben.</deDE>
+			<esES>No te preocupes si quiere que te pongas una manzana en la cabeza para usarla de diana. A menos que seas un orco.\n\nOtorgado por comprar a Alleria Brisaveloz.</esES>
+			<esMX>Si te pide que te pongas una manzana en la cabeza, hazlo con confianza. A menos que seas un orco, claro.\n\nObtenido por comprar a la heroína Alleria Brisaveloz.</esMX>
+			<frFR>Quand elle veut dégommer une pomme sur votre tête, il n’y a pas à s’inquiéter. À moins d’être un orc.\n\nObtenu en achetant l’héroïne Alleria Coursevent.</frFR>
+			<itIT>Se vuole colpire una mela sopra alla tua testa, non hai nulla da temere. A meno che tu non sia un Orco.\n\nOttenuto acquistando l'eroe Alleria Ventolesto.</itIT>
+			<koKR>이 사과를 머리 위에 놓아보세요. 두려워할 필요는 없습니다. 당신이 오크가 아니라면요.\n\n영웅 알레리아 윈드러너를 구매하여 획득</koKR>
+			<plPL>Jeśli poprosi cię o ustawienia jabłka na głowie, nie masz się czym martwić. No chyba że jesteś orkiem.\n\nRewers przyznany za zakup bohaterki Allerii Bieżywiatr.</plPL>
+			<ptBR>Ela quer atirar numa maçã na sua cabeça? Não se preocupe. Você não é um orc, é?\n\nAdquirido ao comprar a Heroína Alleria Correventos.</ptBR>
+			<ruRU>Не стоит волноваться, даже если она хочет выстрелить в яблоко, лежащее у вас на голове. Если только вы не орк.\n\nНаграда за покупку героя Аллерии Ветрокрылой.</ruRU>
+			<zhCN>要是她请你把一个苹果放在你的头上，不用担心；除非你是一个兽人。\n\n购买英雄奥蕾莉亚·风行者获得该奖励。</zhCN>
+			<zhTW>要射中你頭上的蘋果對她來說輕而易舉，除非你是獸人。\n\n購買艾蘭里亞英雄角色時取得。</zhTW>
+		</Field>
+		<Field column="SOURCE_DESCRIPTION">
+			<enUS>Hero</enUS>
+			<deDE>Held</deDE>
+			<esES>Héroe</esES>
+			<esMX>Héroe</esMX>
+			<frFR>Héros</frFR>
+			<itIT>Eroe</itIT>
+			<koKR>영웅</koKR>
+			<plPL>Bohaterski</plPL>
+			<ptBR>Herói</ptBR>
+			<ruRU>Герой</ruRU>
+			<zhCN>英雄</zhCN>
+			<zhTW>英雄</zhTW>
+		</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Alleria/Card_Back_Alleria</Field>
+	</Record>
+	<Record>
+		<Field column="ID">26</Field>
+		<Field column="NOTE_DESC">Magni Bronzebeard</Field>
+		<Field column="DATA1">0</Field>
+		<Field column="SOURCE">fixed_reward</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME_COMMENT"></Field>
+		<Field column="NAME">
+			<enUS>Magni</enUS>
+			<deDE>Magni</deDE>
+			<esES>Magni</esES>
+			<esMX>Magni</esMX>
+			<frFR>Magni</frFR>
+			<itIT>Magni</itIT>
+			<koKR>마그니</koKR>
+			<plPL>Magni</plPL>
+			<ptBR>Magni</ptBR>
+			<ruRU>Магни</ruRU>
+			<zhCN>麦格尼</zhCN>
+			<zhTW>麥格尼</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>As the eldest of the three Bronzebeard brothers, Magni always got the coolest toys.  He always shared, though!\n\nAcquired from Purchasing the Hero Magni Bronzebeard.</enUS>
+			<deDE>Magni ist ein facettenreicher und brillanter Anführer. Wer weiß, was die Zukunft alles für ihn bereithält ...\n\nBelohnung für Spieler, die den Helden Magni Bronzebart erworben haben.</deDE>
+			<esES>Como el mayor de los tres hermanos Barbabronce, Magni recibía los juguetes más chulos. ¡Pero siempre compartía!\n\nOtorgado por comprar a Magni Barbabronce.</esES>
+			<esMX>Magni es el hermano mayor de los tres Barbabronce, así que siempre recibía los mejores juguetes, ¡pero siempre los compartía!\n\nObtenido por comprar al héroe Magni Barbabronce.</esMX>
+			<frFR>En tant qu’aîné des trois frères Barbe-de-Bronze, Magni a toujours eu les jouets les plus sympa. Mais il les a toujours partagés !\n\nObtenu en achetant le héros Magni Barbe-de-Bronze.</frFR>
+			<itIT>Magni, il più anziano dei tre fratelli Barbabronzea, da piccolo aveva sempre i giocattoli più belli. Comunque li ha sempre condivisi!\n\nOttenuto acquistando l'eroe Magni Barbabronzea.</itIT>
+			<koKR>브론즈비어드 형제의 너그러운 맏형입니다. 가장 멋진 장난감도 동생들과 함께 가지고 놀았죠!\n\n영웅 마그니 브론즈비어드를 구매하여 획득</koKR>
+			<plPL>Jako najstarszy z braci Miedziobrodych Magni dostawał najlepsze zabawki. Ale zawsze się dzielił!\n\nRewers przyznany za zakup bohatera Magniego Miedziobrodego.</plPL>
+			<ptBR>O mais velho dos três irmãos Barbabronze, Magni sempre ganhava os brinquedos mais legais. Mas sempre deixava os outros brincarem também!\n\nAdquirido ao comprar o Herói Magni Barbabronze.</ptBR>
+			<ruRU>Как старшему из трех братьев, Магни Бронзобороду всегда доставались лучшие игрушки. Но он, конечно, делился!\n\nНаграда за покупку героя Магни Бронзоборода.</ruRU>
+			<zhCN>作为铜须三兄弟的老大，麦格尼总是拥有一些最炫酷的玩具。但是他很乐意与弟弟们分享！\n\n购买英雄麦格尼·铜须获得该奖励。</zhCN>
+			<zhTW>他是銅鬚兄弟的老大，所以酷玩意都被他拿走了，不過他會和兄弟們一起玩啦。\n\n購買麥格尼英雄角色時取得。</zhTW>
+		</Field>
+		<Field column="SOURCE_DESCRIPTION">
+			<enUS>Hero</enUS>
+			<deDE>Held</deDE>
+			<esES>Héroe</esES>
+			<esMX>Héroe</esMX>
+			<frFR>Héros</frFR>
+			<itIT>Eroe</itIT>
+			<koKR>영웅</koKR>
+			<plPL>Bohaterski</plPL>
+			<ptBR>Herói</ptBR>
+			<ruRU>Герой</ruRU>
+			<zhCN>英雄</zhCN>
+			<zhTW>英雄</zhTW>
+		</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Magni/Card_Back_Magni</Field>
+	</Record>
+	<Record>
+		<Field column="ID">27</Field>
+		<Field column="NOTE_DESC">Medivh</Field>
+		<Field column="DATA1">0</Field>
+		<Field column="SOURCE">fixed_reward</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME_COMMENT"></Field>
+		<Field column="NAME">
+			<enUS>Medivh</enUS>
+			<deDE>Medivh</deDE>
+			<esES>Medivh</esES>
+			<esMX>Medivh</esMX>
+			<frFR>Medivh</frFR>
+			<itIT>Medivh</itIT>
+			<koKR>메디브</koKR>
+			<plPL>Medivh</plPL>
+			<ptBR>Medivh</ptBR>
+			<ruRU>Медив</ruRU>
+			<zhCN>麦迪文</zhCN>
+			<zhTW>麥迪文</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>He certainly has a thing for crows and ravens.\n\nAcquired from Purchasing the Hero Medivh.</enUS>
+			<deDE>Er hat eine Vorliebe für Krähen und Raben. Vielleicht übertreibt er etwas.\n\nBelohnung für Spieler, die den Helden Medivh erworben haben.</deDE>
+			<esES>Siempre le han fascinado los cuervos.\n\nOtorgado por comprar a Medivh.</esES>
+			<esMX>Está claro que tiene un fetiche con los cuervos.\n\nObtenido por comprar al héroe Medivh.</esMX>
+			<frFR>Les corbeaux, c’est sa grande passion.\n\nObtenu en achetant le héros Medivh.</frFR>
+			<itIT>Di sicuro ha un vero e proprio debole per i corvi.\n\nOttenuto acquistando l'eroe Medivh.</itIT>
+			<koKR>티리스팔에서 선발된 최후의 수호자입니다. 왠지 모르게 까마귀를 아주 좋아합니다.\n\n영웅 메디브를 구매하여 획득</koKR>
+			<plPL>Zdecydowanie lubi kruki i wrony.\n\nRewers przyznany za zakup bohatera Medivha.</plPL>
+			<ptBR>Ele gosta mesmo de corvos, hein?\n\nAdquirido ao comprar o Herói Medivh.</ptBR>
+			<ruRU>У него определенно слабость к воронам.\n\nНаграда за покупку героя Медива.</ruRU>
+			<zhCN>对于乌鸦，他总是有着一种特殊的感情。\n\n购买英雄麦迪文获得该奖励。</zhCN>
+			<zhTW>他超愛烏鴉，無庸置疑。\n\n購買麥迪文英雄角色時取得。</zhTW>
+		</Field>
+		<Field column="SOURCE_DESCRIPTION">
+			<enUS>Hero</enUS>
+			<deDE>Held</deDE>
+			<esES>Héroe</esES>
+			<esMX>Héroe</esMX>
+			<frFR>Héros</frFR>
+			<itIT>Eroe</itIT>
+			<koKR>영웅</koKR>
+			<plPL>Bohaterski</plPL>
+			<ptBR>Herói</ptBR>
+			<ruRU>Герой</ruRU>
+			<zhCN>英雄</zhCN>
+			<zhTW>英雄</zhTW>
+		</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Medivh/Card_Back_Medivh</Field>
+	</Record>
+	<Record>
+		<Field column="ID">28</Field>
+		<Field column="NOTE_DESC">Darnassus</Field>
+		<Field column="DATA1">20</Field>
+		<Field column="SOURCE">season</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME_COMMENT"></Field>
+		<Field column="NAME">
+			<enUS>Darnassus</enUS>
+			<deDE>Darnassus</deDE>
+			<esES>Darnassus</esES>
+			<esMX>Darnassus</esMX>
+			<frFR>Darnassus</frFR>
+			<itIT>Darnassus</itIT>
+			<koKR>다르나서스</koKR>
+			<plPL>Darnassus</plPL>
+			<ptBR>Darnassus</ptBR>
+			<ruRU>Дарнас</ruRU>
+			<zhCN>达纳苏斯</zhCN>
+			<zhTW>達納蘇斯</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Nestled in the boughs a giant tree, Darnassus is the capital city of the night elves.  Also home of the world famous Darnassus Kimchi Pie!\n\nAcquired from Achieving Rank 20 in Ranked Play, June 2015.</enUS>
+			<deDE>Die Hauptstadt der Nachtelfen und Geburtsort des weltberühmten darnassischen Kimchikuchens!\n\nBelohnung für alle Spieler, die im Juni 2015 im gewerteten Modus Rang 20 erreicht haben.</deDE>
+			<esES>Enclavada en las ramas de un árbol gigante, Darnassus es la capital de los elfos de la noche, ¡y también es el hogar de la mundialmente famosa tarta de kimchi de Darnassus!\n\nOtorgado por alcanzar el rango 20 en el juego con rango en junio, 2015.</esES>
+			<esMX>Entre las ramas de un árbol colosal, surge Darnassus, la ciudad principal de los elfos de la noche. Una de sus especialidades más famosas es la deliciosa tarta de kimchi.\n\nObtenido por alcanzar el rango 20 en partidas clasificadas durante junio de 2015.</esMX>
+			<frFR>Nichée dans les branches d’un arbre géant, Darnassus est la capitale des elfes de la nuit, et la tourte au kimchi est la spécialité culinaire de la ville !\n\nObtenu en atteignant le rang 20 en Partie classée, saison de juin 2015.</frFR>
+			<itIT>Fondata tra le fronde di un albero gigantesco, Darnassus è la capitale degli Elfi della Notte, nonché la patria del famoso Pasticcio Dolce di Darnassus!\n\nOttenuto raggiungendo il grado 20 in modalità Classificata nel mese di giugno 2015.</itIT>
+			<koKR>거대한 나무를 중심으로 세워진 다르나서스는 나이트 엘프의 대도시입니다. 세계적으로 유명한 다르나서스 김치전의 본고장이기도 하죠!\n\n2015년 6월 등급전에서 20등급 달성 시 획득</koKR>
+			<plPL>Rozpostarty na konarach olbrzymiego drzewa Darnassus jest stolicą nocnych elfów. A także ojczyzną słynnego na cały świat Darnassańskiego Sernika!\n\nRewers przyznany za osiągnięcie poziomu 20 w trybie rankingowym w czerwcu 2015.</plPL>
+			<ptBR>Aninhada entre os galhos de uma árvore gigante, Darnassus é a capital dos elfos noturnos. Lar também da mundialmente renomada Torta de Ragu de Darnassus!\n\nAdquirido ao chegar no Ranque 20 no Jogo Ranqueado, junho de 2015.</ptBR>
+			<ruRU>Раскинувшийся на ветвях гигантского дерева Дарнас является столицей ночных эльфов. А также родиной всемирно известного дарнасского пирога с кимчи!\n\nНаграда за достижение 20-го ранга в рейтинговых матчах в июне 2015 г.</ruRU>
+			<zhCN>达纳苏斯建立在一颗巨大树木的枝干上，是暗夜精灵的首都城市，也是世界著名的达纳苏斯酸菜饼的发源地！\n\n在2015年6月的排名对战赛季中达到20级获得该奖励。</zhCN>
+			<zhTW>達納蘇斯依著大樹的枝條興建，它不但是夜精靈的主城，也是達納蘇斯酸菜餅的發源地!\n\n在2015年6月賽季中達到階級20時取得。</zhTW>
+		</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Druid/Card_Back_Druid</Field>
+	</Record>
+	<Record>
+		<Field column="ID">29</Field>
+		<Field column="NOTE_DESC">Samsung Galaxy Gifts Card Back</Field>
+		<Field column="DATA1">0</Field>
+		<Field column="SOURCE">fixed_reward</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME_COMMENT"></Field>
+		<Field column="NAME">
+			<enUS>Galaxy Gifts</enUS>
+			<deDE>GALAXY-Geschenke</deDE>
+			<esES>Regalos galácticos</esES>
+			<esMX>Galaxy Gifts</esMX>
+			<frFR>Offre Galaxy</frFR>
+			<itIT>GALAXY Gifts</itIT>
+			<koKR>갤럭시 기프트</koKR>
+			<plPL>Galaxy Gifts</plPL>
+			<ptBR>Galaxy Gifts</ptBR>
+			<ruRU>GALAXY Gifts</ruRU>
+			<zhCN>三星赠礼</zhCN>
+			<zhTW>星際贈禮</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Gifts from the Galaxy!  This card back is truly out of this world.\n\nAwarded through the Samsung Galaxy Gifts promotion!</enUS>
+			<deDE>Galaktische Geschenke! Dieser Kartenrücken ist wirklich nicht von dieser Welt.\n\nBelohnung für Spieler, die an der Samsung-Promo „GALAXY-Geschenke“ teilgenommen haben.</deDE>
+			<esES>¡Regalos galácticos! No cabe duda de que este dorso de carta no es de este mundo.\n\n¡Se otorga mediante la promoción GALAXY Gifts de Samsung!</esES>
+			<esMX>¡Obsequios de la galaxia! No hay dudas: este dorso de carta es de otra galaxia.\n\n¡Obtenido con la promoción Samsung Galaxy Gifts!</esMX>
+			<frFR>Un cadeau de la part de Galaxy. Ce dos de carte vient vraiment du fin fond de la galaxie !\n\nObtenu grâce aux offres Samsung Galaxy !</frFR>
+			<itIT>Un regalo galattico! Questo dorso è davvero di un altro mondo.\n\nRicompensa per la promozione GALAXY Gifts di Samsung!</itIT>
+			<koKR>은하계에서 도착한 선물입니다. 정말 환상적이군요!\n\n삼성 갤럭시 기프트 프로모션에 참여하여 획득!</koKR>
+			<plPL>Podarunek z innej galaktyki! Ten rewers jest rzeczywiście nie z tego świata.\n\nRewers przyznany w promocji Samsung Galaxy Gifts!</plPL>
+			<ptBR>Presentes de outra galáxia!  Este verso de card é realmente de outro mundo.\n\nAdquirido pela promoção Samsung Galaxy Gifts!</ptBR>
+			<ruRU>Ценный подарок от GALAXY! Эта рубашка для карт точно не от мира сего.\n\nНаграда за участие в акции Samsung GALAXY Gifts.</ruRU>
+			<zhCN>来自Galaxy的赠礼！这款不同寻常的卡背图案只属于非凡的你。\n\n通过三星Galaxy赠礼活动获得！</zhCN>
+			<zhTW>來自星星的禮物!這張卡背看來不像是這個世界的產物。\n\n這是Samsung Galaxy Gifts促銷活動的獎勵!</zhTW>
+		</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Samsung/Card_Back_Samsung</Field>
 	</Record>
 </Dbf>

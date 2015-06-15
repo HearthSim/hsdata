@@ -34,6 +34,7 @@ GLOBAL_CANCEL	Abbrechen
 GLOBAL_CARD_SET_BRM	Der Schwarzfels	
 GLOBAL_CARD_SET_BRM_SEARCHABLE_SHORTHAND_NAMES	brm sf	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_CORE	Basis	
+GLOBAL_CARD_SET_DEBUG	Debug	
 GLOBAL_CARD_SET_EXPERT1	Klassik	
 GLOBAL_CARD_SET_GVG	Goblins gegen Gnome	
 GLOBAL_CARD_SET_GVG_SEARCHABLE_SHORTHAND_NAMES	gvg ggg	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
@@ -111,6 +112,10 @@ GLOBAL_DATETIME_SPLASHSCREEN_MONTH	> 1 Monat
 GLOBAL_DATETIME_SPLASHSCREEN_SECONDS	< 1 Min.	
 GLOBAL_DATETIME_SPLASHSCREEN_WEEKS	{0} |4(Woche,Wochen)	
 GLOBAL_DEFAULT_ALERT_HEADER	Achtung	
+GLOBAL_DEMO_COMPLETE_BODY	Danke, dass Sie diese Demo von Hearthstone: Heroes of Warcraft gespielt haben!	
+GLOBAL_DEMO_COMPLETE_HEADER	Glückwunsch!	
+GLOBAL_DEMO_DISCLAIMER	Diese Version von Hearthstone: Heroes of Warcraft wurde spezifisch zu Demonstrationszwecken erstellt.	
+GLOBAL_DEMO_LEARN_MORE	Mehr erfahren	
 GLOBAL_DONE	Fertig	
 GLOBAL_ERROR_ACCOUNT_LICENSES	Beim Abfragen Ihres Accounts ist ein Fehler aufgetreten, wodurch manche Ihrer Besitztümer möglicherweise nicht angezeigt werden. Das tut uns leid! Bei Ihrem nächsten Einloggen werden wir es erneut versuchen.	
 GLOBAL_ERROR_ASSET_CREATE_PERSISTENT_DATA_PATH	In {0} konnte kein Ordner zum Speichern von Daten erstellt werden.	0=folder path
@@ -175,12 +180,19 @@ GLOBAL_FRIEND_CHALLENGE_OPPONENT_DECLINED	{0} hat Eure Herausforderung abgelehnt
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_FRIEND_REMOVED	Die Herausforderung wurde abgebrochen, da {0} nicht mehr Euer Freund ist.	0=friend name
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_WAITING_DECK	Es wird darauf gewartet, dass {0} ein Deck auswählt.	0=friend name
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_WAITING_RESPONSE	Es wird darauf gewartet, dass {0} die Herausforderung annimmt.	0=friend name
+GLOBAL_FRIEND_CHALLENGE_TAVERN_BRAWL_BODY1	Ihr wurdet zum Kartenchaos herausgefordert von:	
+GLOBAL_FRIEND_CHALLENGE_TAVERN_BRAWL_HEADER	Herausforderung zum Kartenchaos	
+GLOBAL_FRIEND_CHALLENGE_TAVERN_BRAWL_OPPONENT_WAITING_READY	Es wird darauf gewartet, dass {0} sich ins Kartenchaos stürzt.	0=friend name
+GLOBAL_FRIEND_CHALLENGE_TAVERN_BRAWL_RECIPIENT_NO_VALID_DECK_RECIPIENT	{0} möchte Euch zum Kartenchaos herausfordern! Erstellt ein Kartenchaos-Deck, um die Herausforderung annehmen zu können.	
+GLOBAL_FRIEND_CHALLENGE_TAVERN_BRAWL_RECIPIENT_NO_VALID_DECK_SENDER	Dieser Freund hat noch kein Kartenchaos-Deck. Fordert ihn erneut heraus, wenn er eines erstellt hat!	
+GLOBAL_FRIEND_CHALLENGE_TAVERN_BRAWL_RECIPIENT_NOT_UNLOCKED_SENDER	Dieser Freund hat den Modus „Kartenchaos“ noch nicht freigeschaltet. Fordert ihn erneut heraus, sobald er so weit ist!	
 GLOBAL_FRIEND_CHALLENGE_TITLE	Spiel mit einem Freund	
 GLOBAL_FRIENDLIST_ADD_FRIEND_BUTTON	Hinzufügen	
 GLOBAL_FRIENDLIST_BUSYSTATUS	DND	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_AVAILABLE	Fordert {0} zu einer Partie Hearthstone heraus.	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_HEADER	Herausforderung	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_UNAVAILABLE	Ihr könnt {0} im Moment nicht herausfordern. Bitte kehrt ins Hauptmenü zurück.	0=player name
+GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_TAVERN_BRAWL_MUST_CREATE_DECK	Erstellt ein Kartenchaos-Deck, um Freunde zum Kartenchaos herauszufordern!	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_THEYRE_UNAVAILABLE	Ihr könnt {0} im Moment nicht herausfordern. Wartet bitte, bis dieser Spieler sich wieder im Hauptmenü befindet.	0=player name
 GLOBAL_FRIENDLIST_CURRENT_GAMES_HEADER	AKTUELLE SPIELE – {0}	0=number of friends you have unfinished games with
 GLOBAL_FRIENDLIST_FRIENDS_HEADER	FREUNDE – {0}/{1} online	0=number of online friends 1=number of offline friends
@@ -211,6 +223,8 @@ GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_RECEIVED_INVITE_TEXT	{0} hat Euch als Zuschau
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_RECEIVED_INVITE_TEXT_TOUCH	{0} hat Euch als Zuschauer eingeladen. Tippt hier, um in den Zuschauermodus zu wechseln.	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_SPECTATING_HEADER	Im Zuschauermodus	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_SPECTATING_TEXT	Ihr schaut diesem Spieler momentan zu.	
+GLOBAL_FRIENDLIST_TAVERN_BRAWL_CHALLENGE_BUTTON_AVAILABLE	Fordert {0} zu einem Kartenchaos heraus.	0=player name
+GLOBAL_FRIENDLIST_TAVERN_BRAWL_CHALLENGE_BUTTON_HEADER	Herausforderung zum Kartenchaos	
 GLOBAL_GAME_MENU	Spielmenü	
 GLOBAL_GAME_QUEUE_TIME_IN_QUEUE	Zeit in Warteschlange	
 GLOBAL_GAME_QUEUE_WAIT_TIME	Wartezeit	
@@ -235,6 +249,7 @@ GLOBAL_HERO_LEVEL_REWARD_GOLD	{0} Gold	0=amount
 GLOBAL_HERO_LEVEL_REWARD_GOLDEN_CARD	{1} ({0})	0=flair 1=card name
 GLOBAL_HERO_WINS	Siege: {0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HERO_WINS_PHONE	Siege\n{0}/{1}	0=number of games this class has won 1=number of wins to get golden
+GLOBAL_HIDE	Ausblenden	
 GLOBAL_KEYWORD_AUTOCAST	Automatischer Einsatz	
 GLOBAL_KEYWORD_AUTOCAST_TEXT	Diese Heldenfähigkeit muss in jedem Zug eingesetzt werden.	
 GLOBAL_KEYWORD_BATTLECRY	Kampfschrei	
@@ -296,7 +311,6 @@ GLOBAL_LANGUAGE_NATIVE_ESES	Español (España)	The name of the language IN THAT 
 GLOBAL_LANGUAGE_NATIVE_ESMX	Español (Latinoamérica)	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_FRFR	Français	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_ITIT	Italiano	The name of the language IN THAT LANGUAGE.
-GLOBAL_LANGUAGE_NATIVE_JAJP	日本語	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_KOKR	한국어	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_PLPL	Polski	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_PTBR	Português (Brasil)	The name of the language IN THAT LANGUAGE.
@@ -458,8 +472,9 @@ GLOBAL_REWARD_ARENA_TICKET_AUTHORIZED_BY	Ausgestellt von	a label that shows up i
 GLOBAL_REWARD_ARENA_TICKET_ENTRANT	Teilnehmer	a label that shows up in the Arena Ticket under the Player's name to say this person is allowed entrance into the Arena.
 GLOBAL_REWARD_ARENA_TICKET_HEADLINE	Gratiszugang!	
 GLOBAL_REWARD_ARENA_TICKET_LABEL	Arena	
-GLOBAL_REWARD_BOOSTER_DETAILS_OUT_OF_BAND	{0} |4(Kartenpackung wurde,Kartenpackungen wurden) Ihrem Account von außerhalb des Spiels hinzugefügt.	0=count
+GLOBAL_REWARD_BOOSTER_DETAILS_OUT_OF_BAND	{0} |4(Kartenpackung wurde,Kartenpackungen wurden) Eurem Account von außerhalb des Spiels hinzugefügt.	0=count
 GLOBAL_REWARD_BOOSTER_HEADLINE_GENERIC	Packung erhalten!	
+GLOBAL_REWARD_BOOSTER_HEADLINE_MULTIPLE	{0} |4(Packung,Packungen) erhalten!	
 GLOBAL_REWARD_BOOSTER_HEADLINE_OUT_OF_BAND	Neue Kartenpackung!	
 GLOBAL_REWARD_CARD_BACK_HEADLINE	Neuer Kartenrücken!	
 GLOBAL_REWARD_CARD_COUNT_MULTIPLIER	x	
@@ -475,7 +490,7 @@ GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL	{0}	0=first class
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL_DOUBLE	{0} und {1}	0=first class, 1=second class
 GLOBAL_REWARD_CLASS_CHALLENGE_HEADLINE	|4(Klassenherausforderung,Klassenherausforderungen) freigeschaltet!	
 GLOBAL_REWARD_CORE_CARD_DETAILS	{2}: {0}/{1} Karten freigeschaltet	0=# cards unlocked, 1=# cards possible to unlock, 2=class
-GLOBAL_REWARD_FORGE_DETAILS_OUT_OF_BAND	{0} |4(Zugang zur Arena wurde,Zugänge zur Arena wurden) Ihrem Account von außerhalb des Spiels hinzugefügt.	0=count
+GLOBAL_REWARD_FORGE_DETAILS_OUT_OF_BAND	{0} |4(Zugang zur Arena wurde,Zugänge zur Arena wurden) Eurem Account von außerhalb des Spiels hinzugefügt.	0=count
 GLOBAL_REWARD_FORGE_HEADLINE	Zugang zur Arena erhalten!	
 GLOBAL_REWARD_FORGE_UNLOCKED_HEADLINE	Arena freigeschaltet!	
 GLOBAL_REWARD_FORGE_UNLOCKED_SOURCE	Belohnung für das Betreten der Arena	
@@ -500,6 +515,7 @@ GLOBAL_SEASON_END_RANK_LABEL	Ihr habt folgenden Rang erreicht:
 GLOBAL_SEASON_END_WELCOME	Willkommen	
 GLOBAL_SET_CORE	Basisset	
 GLOBAL_SET_EXPERT1	Klassikset	
+GLOBAL_SHOW	Anzeigen	
 GLOBAL_SHUTDOWN_TOAST	<color=#{0}>Battle.net wird in {1} |4(Minute,Minuten) heruntergefahren.</color>	0=color, 1=minutes
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_COMPLETE	<color=#{0}>{1}</color> hat eine Arenarunde beendet. ({2}:{3})	0=name color,1=player name,2=Arena Wins,3=Arena Losses
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START	<color=#{0}>{1}</color> hat eine neue Arenarunde begonnen.	0=name color,1=player name
@@ -553,6 +569,8 @@ GLOBAL_STORE_MOBILE_NAME_APPLE	im Apple App Store
 GLOBAL_STORE_MOBILE_NAME_DEFAULT	im Blizzard-Shop	
 GLOBAL_STORE_MOBILE_NAME_GOOGLE	auf Google Play	
 GLOBAL_SUPPORT	Support	
+GLOBAL_TAVERN_BRAWL	Kartenchaos	
+GLOBAL_TAVERN_BRAWL_ERROR_SEASON_INCREMENTED	Dieses Kartenchaos ist leider schon zu Ende, aber bald gibt's ein neues!	
 GLOBAL_TOOLTIP_FRIEND_BUTTON_DESC	Chattet mit Euren Freunden und fordert sie heraus.	
 GLOBAL_TOOLTIP_FRIEND_BUTTON_HEADER	Freunde	
 GLOBAL_TOOLTIP_MENU_DESC	Hier könnt Ihr das Optionsmenü einsehen, das Spiel verlassen und mehr.	
