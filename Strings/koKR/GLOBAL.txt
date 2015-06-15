@@ -34,6 +34,7 @@ GLOBAL_CANCEL	취소
 GLOBAL_CARD_SET_BRM	검은바위 산	
 GLOBAL_CARD_SET_BRM_SEARCHABLE_SHORTHAND_NAMES	검바산	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_CORE	기본	
+GLOBAL_CARD_SET_DEBUG	Slush	
 GLOBAL_CARD_SET_EXPERT1	오리지널	
 GLOBAL_CARD_SET_GVG	고블린 대 노움	
 GLOBAL_CARD_SET_GVG_SEARCHABLE_SHORTHAND_NAMES	고대놈	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
@@ -111,6 +112,10 @@ GLOBAL_DATETIME_SPLASHSCREEN_MONTH	> 1달
 GLOBAL_DATETIME_SPLASHSCREEN_SECONDS	< 1분	
 GLOBAL_DATETIME_SPLASHSCREEN_WEEKS	{0}|4(주,주)	
 GLOBAL_DEFAULT_ALERT_HEADER	경고	
+GLOBAL_DEMO_COMPLETE_BODY	하스스톤: 워크래프트의 영웅들 체험판을 즐겨주셔서 감사합니다!	
+GLOBAL_DEMO_COMPLETE_HEADER	축하합니다!	
+GLOBAL_DEMO_DISCLAIMER	현재 버전의 하스스톤: 워크래프트의 영웅들은 체험용으로 특별히 제작되었습니다.	
+GLOBAL_DEMO_LEARN_MORE	자세한 내용	
 GLOBAL_DONE	완료	
 GLOBAL_ERROR_ACCOUNT_LICENSES	사용자 정보를 불러오는 동안 오류가 발생했습니다. 정상화하려면 다시 접속해주세요.	
 GLOBAL_ERROR_ASSET_CREATE_PERSISTENT_DATA_PATH	{0}에 데이터 저장 폴더를 만드는 데 실패했습니다.	0=folder path
@@ -175,12 +180,19 @@ GLOBAL_FRIEND_CHALLENGE_OPPONENT_DECLINED	{0} 님이 당신의 도전을 거절�
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_FRIEND_REMOVED	{0} 님이 친구에서 제외되어 도전이 취소됩니다.	0=friend name
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_WAITING_DECK	{0} 님이 덱을 선택하고 있습니다.	0=friend name
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_WAITING_RESPONSE	{0} 님이 도전을 받아들이기를 기다리는 중입니다.	0=friend name
+GLOBAL_FRIEND_CHALLENGE_TAVERN_BRAWL_BODY1	선술집 난투 도전을 받았습니다:	
+GLOBAL_FRIEND_CHALLENGE_TAVERN_BRAWL_HEADER	선술집 난투 도전	
+GLOBAL_FRIEND_CHALLENGE_TAVERN_BRAWL_OPPONENT_WAITING_READY	{0} 님이 난투에 참여하기를 기다리는 중입니다.	0=friend name
+GLOBAL_FRIEND_CHALLENGE_TAVERN_BRAWL_RECIPIENT_NO_VALID_DECK_RECIPIENT	{0} 님이 선술집 난투에서 당신에게 도전했습니다! 선술집 난투 덱을 만들면 도전에 응할 수 있습니다.	
+GLOBAL_FRIEND_CHALLENGE_TAVERN_BRAWL_RECIPIENT_NO_VALID_DECK_SENDER	친구가 아직 선술집 난투 덱을 만들지 않았습니다. 다음에 다시 도전하세요!	
+GLOBAL_FRIEND_CHALLENGE_TAVERN_BRAWL_RECIPIENT_NOT_UNLOCKED_SENDER	친구가 아직 선술집 난투를 잠금 해제하지 않았습니다. 다음에 다시 도전하세요!	
 GLOBAL_FRIEND_CHALLENGE_TITLE	친선전	
 GLOBAL_FRIENDLIST_ADD_FRIEND_BUTTON	추가	
 GLOBAL_FRIENDLIST_BUSYSTATUS	다른 용무 중	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_AVAILABLE	{0} 님에게 도전합니다.	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_HEADER	도전!	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_UNAVAILABLE	지금은 {0} 님에게 도전할 수 없습니다. 메인 메뉴로 돌아가주세요.	0=player name
+GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_TAVERN_BRAWL_MUST_CREATE_DECK	선술집 난투에서 친구에게 도전하려면 우선 선술집 난투 덱을 만드세요!	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_THEYRE_UNAVAILABLE	지금은 {0} 님에게 도전할 수 없습니다. 메인 메뉴로 돌아올 때까지 기다려주세요.	0=player name
 GLOBAL_FRIENDLIST_CURRENT_GAMES_HEADER	현재 게임 - {0}	0=number of friends you have unfinished games with
 GLOBAL_FRIENDLIST_FRIENDS_HEADER	친구 - {0}/{1} 온라인	0=number of online friends 1=number of offline friends
@@ -211,6 +223,8 @@ GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_RECEIVED_INVITE_TEXT	{0} 님이 당신을 관
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_RECEIVED_INVITE_TEXT_TOUCH	{0} 님이 당신을 관전자로 초대했습니다. 관전을 시작하려면 여기를 터치하세요.	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_SPECTATING_HEADER	관전 중	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_SPECTATING_TEXT	이 플레이어의 게임을 관전하는 중입니다.	
+GLOBAL_FRIENDLIST_TAVERN_BRAWL_CHALLENGE_BUTTON_AVAILABLE	선술집 난투에서 {0} 님에게 도전합니다.	0=player name
+GLOBAL_FRIENDLIST_TAVERN_BRAWL_CHALLENGE_BUTTON_HEADER	선술집 난투 도전	
 GLOBAL_GAME_MENU	게임 메뉴	
 GLOBAL_GAME_QUEUE_TIME_IN_QUEUE	대기 시간	
 GLOBAL_GAME_QUEUE_WAIT_TIME	예상 대기 시간	
@@ -235,6 +249,7 @@ GLOBAL_HERO_LEVEL_REWARD_GOLD	{0} 골드	0=amount
 GLOBAL_HERO_LEVEL_REWARD_GOLDEN_CARD	{0} {1}	0=flair 1=card name
 GLOBAL_HERO_WINS	승: {0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HERO_WINS_PHONE	승리\n{0}/{1}	0=number of games this class has won 1=number of wins to get golden
+GLOBAL_HIDE	숨기기	
 GLOBAL_KEYWORD_AUTOCAST	자동 시전	
 GLOBAL_KEYWORD_AUTOCAST_TEXT	이 영웅 능력은 매 턴마다 반드시 사용해야 합니다.	
 GLOBAL_KEYWORD_BATTLECRY	전투의 함성	
@@ -296,7 +311,6 @@ GLOBAL_LANGUAGE_NATIVE_ESES	Español (España)	The name of the language IN THAT 
 GLOBAL_LANGUAGE_NATIVE_ESMX	Español (Latinoamérica)	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_FRFR	Français	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_ITIT	Italiano	The name of the language IN THAT LANGUAGE.
-GLOBAL_LANGUAGE_NATIVE_JAJP	日本語	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_KOKR	한국어	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_PLPL	Polski	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_PTBR	Português (Brasil)	The name of the language IN THAT LANGUAGE.
@@ -460,6 +474,7 @@ GLOBAL_REWARD_ARENA_TICKET_HEADLINE	투기장 무료 입장권!
 GLOBAL_REWARD_ARENA_TICKET_LABEL	투기장	
 GLOBAL_REWARD_BOOSTER_DETAILS_OUT_OF_BAND	게임 외부에서 카드 팩 {0} |4(개,개)를 획득했습니다.	0=count
 GLOBAL_REWARD_BOOSTER_HEADLINE_GENERIC	카드 팩 획득!	
+GLOBAL_REWARD_BOOSTER_HEADLINE_MULTIPLE	카드 팩 {0}개 획득!	
 GLOBAL_REWARD_BOOSTER_HEADLINE_OUT_OF_BAND	카드 팩 획득!	
 GLOBAL_REWARD_CARD_BACK_HEADLINE	카드 뒷면 획득!	
 GLOBAL_REWARD_CARD_COUNT_MULTIPLIER	x	
@@ -500,6 +515,7 @@ GLOBAL_SEASON_END_RANK_LABEL	다음 등급을 획득했습니다:
 GLOBAL_SEASON_END_WELCOME	환영합니다	
 GLOBAL_SET_CORE	기본 세트	
 GLOBAL_SET_EXPERT1	오리지널 세트	
+GLOBAL_SHOW	표시	
 GLOBAL_SHUTDOWN_TOAST	<color=#{0}>Battle.net이 {1}|4(분,분) 뒤에 종료됩니다</color>	0=color, 1=minutes
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_COMPLETE	<color=#{0}>{1}</color> 님이 투기장을 완료했습니다. ({2}-{3})	0=name color,1=player name,2=Arena Wins,3=Arena Losses
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START	<color=#{0}>{1}</color> 님이 투기장을 시작했습니다.	0=name color,1=player name
@@ -553,6 +569,8 @@ GLOBAL_STORE_MOBILE_NAME_APPLE	Apple App Store
 GLOBAL_STORE_MOBILE_NAME_DEFAULT	블리자드 샵	
 GLOBAL_STORE_MOBILE_NAME_GOOGLE	Google Play	
 GLOBAL_SUPPORT	고객 지원	
+GLOBAL_TAVERN_BRAWL	선술집 난투	
+GLOBAL_TAVERN_BRAWL_ERROR_SEASON_INCREMENTED	죄송합니다. 이번 선술집 난투는 종료되었습니다. 다음 난투를 기대하세요!	
 GLOBAL_TOOLTIP_FRIEND_BUTTON_DESC	친구와 이야기를 나누거나 서로 대결해보세요.	
 GLOBAL_TOOLTIP_FRIEND_BUTTON_HEADER	친구	
 GLOBAL_TOOLTIP_MENU_DESC	설정이나 게임 종료 버튼 등을 살펴보세요.	
