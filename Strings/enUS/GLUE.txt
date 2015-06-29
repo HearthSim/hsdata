@@ -121,12 +121,15 @@ GLUE_STORE_GOLD_BUTTON_TOOLTIP_HEADLINE	Buy with gold
 GLUE_STORE_MONEY_BUTTON_TOOLTIP_HEADLINE	Buy
 GLUE_STORE_DUNGEON_BUTTON_TEXT	Full Adventure
 GLUE_STORE_DUNGEON_BUTTON_COST_TEXT	({0} |4(wing,wings) {1})	0=number of wings,1=cost
+GLUE_STORE_PACK_BUTTON_COST_OWNED_TEXT	(Purchased)	
 GLUE_STORE_DUNGEON_BUTTON_COST_OWNED_TEXT	(Purchased)	
 GLUE_STORE_HERO_BUTTON_COST_OWNED_TEXT	(Purchased)	
 GLUE_STORE_DISABLED	The Shop is currently unavailable. Please check back later.
 GLUE_STORE_HEADLINE	Shop
 GLUE_STORE_PRODUCT_DETAILS_HEADLINE_PACK	Contents per pack:
+GLUE_STORE_PRODUCT_DETAILS_HEADLINE_TGT_PACK_PRESALE	The Grand Tournament (Pre-Purchase) includes:
 GLUE_STORE_PRODUCT_DETAILS_PACK	•  5 {0} Hearthstone Cards\n•  At least 1 card will be Rare or better	0=pack type
+GLUE_STORE_PRODUCT_DETAILS_TGT_PACK_PRESALE	•  50 packs and a special card back\n•  Each pack has 5 cards, with 1 rare or better\n•  The Grand Tournament packs are openable in August!	
 GLUE_STORE_KOREAN_PRODUCT_DETAILS_EXPERT_PACK	이용기간 : 서비스 종료 시까지. 본 상품은 구매 후 7일 이내에 청약철회가 가능합니다. 다만, 1개의 카드팩이라도 개봉한 경우에는 청약철회가 불가능합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_PRODUCT_NAME_MOBILE_UNKNOWN	Purchase via Mobile
 GLUE_STORE_PRODUCT_NAME_FORGE_TICKET	Arena Admission
@@ -140,6 +143,7 @@ GLUE_STORE_PRODUCT_DETAILS_BRM_PART_1	Do battle with the deadly {0} bosses in si
 GLUE_STORE_PRODUCT_DETAILS_BRM_PART_2	Earn new Blackrock Mountain cards for your collection, including 1 Legendary card!
 GLUE_STORE_PRODUCT_NAME_BRM_WING_BUNDLE	Blackrock Mountain Adventure ({0} |4(Wing,Wings))
 GLUE_STORE_PRODUCT_NAME_BRM_PRESALE_BUNDLE	Blackrock Mountain Pre-order
+GLUE_STORE_PRODUCT_NAME_TGT_PRESALE_BUNDLE	The Grand Tournament (Pre-Purchase)
 GLUE_STORE_PRODUCT_PRICE	({0})	0=price
 GLUE_STORE_PRODUCT_PRICE_NA	N/A
 GLUE_STORE_SUMMARY_HEADLINE	Summary
@@ -150,6 +154,7 @@ GLUE_STORE_SUMMARY_TAX_DISCLAIMER	Any applicable value-added tax included.
 GLUE_STORE_SUMMARY_TAX_DISCLAIMER_USD	Plus applicable taxes if any.
 GLUE_STORE_SUMMARY_CHARGE_DETAILS	Will be charged to your: {0}
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_EXPERT_PACK	이용기간 : 서비스 종료 시까지. 본 상품은 구매 후 7일 이내에 청약철회가 가능합니다. 다만, 1개의 카드팩이라도 개봉한 경우에는 청약철회가 불가능합니다.	only displayed for Korean customers, should always be in Korean
+GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_PACK_PREORDER	사전 구매 상품은 실제 상품 출시 전까지 환불이 가능합니다.	
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_FORGE_TICKET	투기장 입장료는 구매 후 환불되지 않으며, 구매 즉시 투기장에 입장합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_CONFIRM	본 거래와 관련된 조건과 약관을 확인하며 이에 동의합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_SUMMARY_TOS_AGREEMENT	By pressing "{0}", you acknowledge that you have read and accepted the Terms of Sale. You can change your default payment method or read the Terms of Sale by pressing the "{1}" button.	0=GLUE_STORE_SUMMARY_PAY_NOW_TEXT,1=GLUE_STORE_TERMS_OF_SALE_BUTTON_TEXT
@@ -377,6 +382,15 @@ GLUE_TIP_ADVENTURE_0	You'll need to build a custom deck to defeat the most diffi
 GLUE_TIP_ADVENTURE_1	Don't let tough bosses get you down. Build a custom deck to crush them.	
 GLUE_TIP_ADVENTURE_2	If you lose to a boss, you may want to modify your deck.	
 GLUE_TIP_ADVENTURE_3	Be prepared! Build a deck to counter the boss you're going to challenge.	
+GLUE_TIP_TAVERNBRAWL_0	Each week there's a crazy new way to play in Tavern Brawl!	
+GLUE_TIP_TAVERNBRAWL_1	We need a couple days to clean up the mess after a Brawl ends, so if you can't get in, check back soon!	
+GLUE_TIP_TAVERNBRAWL_2	Win a classic pack for your first Tavern Brawl win each week during the launch celebration!	
+GLUE_TIP_TAVERNBRAWL_3	Winning multiple games in Tavern Brawl doesn't award additional packs – it's just for fun!	
+GLUE_TIP_TAVERNBRAWL_4	Some weeks you'll be provided a deck, and sometimes you'll need to create one.  You never know!	
+GLUE_TIP_TAVERNBRAWL_5	Some Tavern Brawls might come back again in the future.	
+GLUE_TIP_TAVERNBRAWL_6	You can challenge a friend to a Brawl if you challenge them while you're on the Tavern Brawl screen.	
+GLUE_TIP_TAVERNBRAWL_7	You can complete your daily quests while in a Tavern Brawl!	
+GLUE_TIP_TAVERNBRAWL_8	For every three games you win in Tavern Brawl, you'll earn 10 gold, just like in "Play" mode.	
 GLUE_DRAFT_PLAY_BUTTON	PLAY	
 GLUE_DRAFT_RETIRE_BUTTON	RETIRE	
 GLUE_DRAFT_HERO_INSTRUCTIONS	Choose your Hero	
@@ -460,7 +474,7 @@ GLUE_QUEST_LOG_NO_QUESTS_DAILIES_UNLOCKED	You have no quests.  Check back tomorr
 GLUE_QUEST_LOG_HERO_LEVELS	Hero Levels
 GLUE_QUEST_NOTIFICATION_HEADER	Today's Quests	
 GLUE_QUEST_NOTIFICATION_HEADER_NEW_ONLY	New Quest!	
-GLUE_QUEST_NOTIFICATION_CAPTION	Most Quests can only be completed in Play mode or The Arena.	
+GLUE_QUEST_NOTIFICATION_CAPTION	Most Quests can only be completed in Play mode, The Arena or Tavern Brawl.	
 GLUE_QUEST_FINISHED_DAILY	You've completed all of your daily quests.	
 GLUE_DRAFT_WINS_LABEL	Wins	
 GLUE_DRAFT_LOSSES_LABEL	Losses:	
@@ -529,8 +543,11 @@ GLUE_ADVENTURE_BOSS_HEADER	Boss Info
 GLUE_ADVENTURE_WING_PURCHASED	Purchased
 GLUE_STORE_ADVENTURE_LOCKED_HEROES_WARNING_TITLE	Confirm Purchase	
 GLUE_STORE_ADVENTURE_LOCKED_HEROES_WARNING_TEXT	You will not be able to play this adventure until you have unlocked all classes. \n\nAre you sure you want to continue with this purchase?	
+GLUE_STORE_PACK_BUTTON_TEXT_PURCHASED	Already Purchased	
 GLUE_STORE_DUNGEON_BUTTON_TEXT_PURCHASED	Already Purchased	
+GLUE_STORE_HERO_BUTTON_TEXT_PURCHASED	Already Purchased	
 GLUE_STORE_FAIL_GOLD_GENERIC	Gold purchase has failed. Please try again later.	
+GLUE_STORE_KOREAN_PRODUCT_DETAILS_PACKS_PREORDER	사전 구매 상품은 실제 상품 출시 전까지 환불이 가능합니다.	
 GLUE_STORE_KOREAN_PRODUCT_DETAILS_ADVENTURE	본 묶음 상품은 구매 후 환불되지 않으며, 구매 즉시 모든 지구 이용이 가능합니다.  	
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_ADVENTURE_BUNDLE	본 묶음 상품은 구매 후 환불되지 않으며, 구매 즉시 모든 지구 이용이 가능합니다.  	
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_ADVENTURE_SINGLE	본 상품은 구매 후 환불되지 않으며, 구매 즉시 해당 지구에 내용이 적용됩니다	
@@ -569,6 +586,10 @@ GLUE_STORE_PREORDER	PRE-ORDER!
 GLUE_STORE_PREORDER_EXCLUSIVE	PRE-ORDER EXCLUSIVE!	
 GLUE_STORE_BRM_PREORDER_DATE	Opens during April!	
 GLUE_STORE_DUNGEON_BUTTON_PREORDER_TEXT	Pre-order Adventure	
+GLUE_STORE_PACKS_BUTTON_PREORDER_TEXT	Pre-purchase {0} packs	0=number of packs
+GLUE_STORE_PACKS_PREORDER_TEXT	Pre-purchase	
+GLUE_STORE_SPECIAL_OFFER	Special Offer!	
+GLUE_STORE_TGT_PREORDER_DATE	Available in August!	
 GLUE_ARENA_VIEW_DECK	View Deck	
 GLUE_PICK_A_CARD	Pick a Card	
 GLUE_STORE_ADVENTURE_BUTTON_NAXXRAMAS	Naxxramas	
@@ -594,14 +615,14 @@ GLUE_TAVERN_BRAWL_LABEL_ENDING_WEEKS	Ends in {0} weeks
 GLUE_TAVERN_BRAWL_LABEL_ENDING_OVER_1_MONTH	Ends in > 1 month	
 GLUE_TAVERN_BRAWL_REWARD_DESC	Win a pack for your first victory this week!	
 GLUE_TAVERN_BRAWL_HAS_ENDED_HEADER	End of Event	
-GLUE_TAVERN_BRAWL_HAS_ENDED_TEXT	This Tavern Brawl Event is now over. Another one coming up soon!	
+GLUE_TAVERN_BRAWL_HAS_ENDED_TEXT	This Tavern Brawl Event is now over. Another one is coming up soon!	
 GLUE_COLLECTION_MANAGER_FAVORITE_BUTTON	Make Favorite	
 GLUE_COLLECTION_MANAGER_FAVORITE_DEFAULT_TEXT	Favorite {0}	
 GLUE_COLLECTION_MANAGER_FAVORITE_CARD_BACK	Favorite	
 GLUE_TAVERN_BRAWL_RETURNS_LESS_THAN_1_HOUR	Back in\n<size=70>< 1 </size>\n\nhour	
 GLUE_TAVERN_BRAWL_RETURNS_HOURS	Back in\n<size=70>{0}</size>\n\n|4(hour,hours)	
 GLUE_TAVERN_BRAWL_RETURNS_DAYS	Back in\n<size=70>{0}</size>\n\n|4(day,days)	
-GLUE_TAVERN_BRAWL_RETURNS_WEEKS	Back in\n<size=70>{0}</size>\n\nweeks	
+GLUE_TAVERN_BRAWL_RETURNS_WEEKS	Back in\n<size=70>{0}</size>\n\n|4(week,weeks)	
 GLUE_TAVERN_BRAWL_RETURNS_OVER_1_MONTH	Back in\n<size=70>> 1</size>\n\nmonth	
 GLUE_TAVERN_BRAWL_RETURNS_UNKNOWN	Closed for\n\n\nrenovations	the extra blank lines are there because of the background image filigree on the left and right of the number in "Back in X days" of the other strings. this string shows up when there is no future Tavern Brawl and has the same background filigree.
 GLUE_COLLECTION_MANAGER_MANA_TAB_FIRST_CLICK	Click again to toggle the filter off!	

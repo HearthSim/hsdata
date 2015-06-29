@@ -3,11 +3,12 @@
 	<Column name="ID" type="Int" comment="primary key" />
 	<Column name="NOTE_DESC" type="String" comment="designer name of booster contents" />
 	<Column name="SORT_ORDER" type="Int" comment="order of this booster in a displayable list" />
+	<Column name="OPEN_PACK_EVENT" type="String" comment="when are players allowed to open packs of this type?" />
+	<Column name="BUY_WITH_GOLD_EVENT" type="String" comment="when are players allowed to buy packs of this type with gold?" />
 	<Column name="NAME" type="LocString" />
 	<Column name="PACK_OPENING_PREFAB" type="AssetPath" />
 	<Column name="PACK_OPENING_FX_PREFAB" type="AssetPath" />
-	<Column name="STORE_BUTTON_PREFAB" type="AssetPath" />
-	<Column name="STORE_LOW_POLY_PREFAB" type="AssetPath" />
+	<Column name="STORE_PREFAB" type="AssetPath" />
 	<Column name="ARENA_PREFAB" type="AssetPath" />
 	<Record>
 		<Field column="ID">1</Field>
@@ -29,9 +30,31 @@
 		</Field>
 		<Field column="PACK_OPENING_PREFAB">Assets/Game/Actors/UnopenedPack</Field>
 		<Field column="PACK_OPENING_FX_PREFAB">Assets/Game/GameObjects/PackOpeningFX_Default</Field>
-		<Field column="STORE_BUTTON_PREFAB">Assets/Game/GameObjects/PackSelectorButton_Expert</Field>
-		<Field column="STORE_LOW_POLY_PREFAB">Assets/Game/GameObjects/PackLowPoly</Field>
+		<Field column="STORE_PREFAB">Assets/Game/GameObjects/StorePackDefs/StorePackDef_Expert</Field>
 		<Field column="ARENA_PREFAB">Assets/Game/GameObjects/Pack_Reward</Field>
+		<Field column="OPEN_PACK_EVENT">none</Field>
+		<Field column="BUY_WITH_GOLD_EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">3</Field>
+		<Field column="NOTE_DESC">Draft Hero</Field>
+		<Field column="SORT_ORDER">0</Field>
+		<Field column="OPEN_PACK_EVENT">none</Field>
+		<Field column="BUY_WITH_GOLD_EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">5</Field>
+		<Field column="NOTE_DESC">Draft common expert slot</Field>
+		<Field column="SORT_ORDER">0</Field>
+		<Field column="OPEN_PACK_EVENT">none</Field>
+		<Field column="BUY_WITH_GOLD_EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">6</Field>
+		<Field column="NOTE_DESC">Draft rare expert slot</Field>
+		<Field column="SORT_ORDER">0</Field>
+		<Field column="OPEN_PACK_EVENT">none</Field>
+		<Field column="BUY_WITH_GOLD_EVENT">none</Field>
 	</Record>
 	<Record>
 		<Field column="ID">9</Field>
@@ -53,23 +76,32 @@
 		</Field>
 		<Field column="PACK_OPENING_PREFAB">Assets/Game/Actors/UnopenedGvGPack</Field>
 		<Field column="PACK_OPENING_FX_PREFAB">Assets/Game/GameObjects/PackOpeningFX_GvG</Field>
-		<Field column="STORE_BUTTON_PREFAB">Assets/Game/GameObjects/PackSelectorButton_GvG</Field>
-		<Field column="STORE_LOW_POLY_PREFAB">Assets/Game/GameObjects/PackLowPoly_GvG</Field>
+		<Field column="STORE_PREFAB">Assets/Game/GameObjects/StorePackDefs/StorePackDef_GvG</Field>
 		<Field column="ARENA_PREFAB">Assets/Game/GameObjects/Pack_Reward_GvG</Field>
+		<Field column="OPEN_PACK_EVENT">none</Field>
+		<Field column="BUY_WITH_GOLD_EVENT">none</Field>
 	</Record>
 	<Record>
-		<Field column="ID">3</Field>
-		<Field column="NOTE_DESC">Draft Hero</Field>
-		<Field column="SORT_ORDER">0</Field>
-	</Record>
-	<Record>
-		<Field column="ID">5</Field>
-		<Field column="NOTE_DESC">Draft common expert slot</Field>
-		<Field column="SORT_ORDER">0</Field>
-	</Record>
-	<Record>
-		<Field column="ID">6</Field>
-		<Field column="NOTE_DESC">Draft rare expert slot</Field>
-		<Field column="SORT_ORDER">0</Field>
+		<Field column="ID">10</Field>
+		<Field column="NOTE_DESC">Grand Tournament Pack</Field>
+		<Field column="SORT_ORDER">3</Field>
+		<Field column="NAME">
+			<enUS>The Grand Tournament</enUS>
+			<deDE>Das Große Turnier</deDE>
+			<esES>El Gran Torneo</esES>
+			<esMX>El Gran Torneo</esMX>
+			<frFR>Le Grand Tournoi</frFR>
+			<itIT>Gran Torneo</itIT>
+			<koKR>대 마상시합</koKR>
+			<plPL>Wielki Turniej</plPL>
+			<ptBR>O Grande Torneio</ptBR>
+			<ruRU>Большой турнир</ruRU>
+			<zhCN>冠军的试炼</zhCN>
+			<zhTW>銀白聯賽</zhTW>
+		</Field>
+		<Field column="PACK_OPENING_PREFAB">Assets/Game/Actors/UnopenedTGTPack</Field>
+		<Field column="STORE_PREFAB">Assets/Game/GameObjects/StorePackDefs/StorePackDef_TGT</Field>
+		<Field column="OPEN_PACK_EVENT">tgt_normal_sale</Field>
+		<Field column="BUY_WITH_GOLD_EVENT">tgt_normal_sale</Field>
 	</Record>
 </Dbf>
