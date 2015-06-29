@@ -4,6 +4,8 @@
 	<Column name="NOTE_DESC" type="String" />
 	<Column name="DATA1" type="Long" />
 	<Column name="SOURCE" type="String" />
+	<Column name="SORT_CATEGORY" type="Int" />
+	<Column name="SORT_ORDER" type="Int" />
 	<Column name="NAME" type="LocString" />
 	<Column name="NAME_COMMENT" type="String" />
 	<Column name="DESCRIPTION" type="LocString" />
@@ -60,6 +62,8 @@
 			<zhTW>預設</zhTW>
 		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Default/Card_Back_Default</Field>
+		<Field column="SORT_CATEGORY">1</Field>
+		<Field column="SORT_ORDER">1</Field>
 	</Record>
 	<Record>
 		<Field column="ID">1</Field>
@@ -111,6 +115,8 @@
 			<zhTW>賽季</zhTW>
 		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/S001_Pandaria/Card_Back_Pandaria</Field>
+		<Field column="SORT_CATEGORY">5</Field>
+		<Field column="SORT_ORDER">0</Field>
 	</Record>
 	<Record>
 		<Field column="ID">2</Field>
@@ -162,6 +168,8 @@
 			<zhTW>賽季</zhTW>
 		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/S002_BlackTemple/Card_Back_BlackTemple</Field>
+		<Field column="SORT_CATEGORY">5</Field>
+		<Field column="SORT_ORDER">0</Field>
 	</Record>
 	<Record>
 		<Field column="ID">3</Field>
@@ -213,6 +221,8 @@
 			<zhTW>賽季</zhTW>
 		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/S003_Charm/Card_Back_Charm</Field>
+		<Field column="SORT_CATEGORY">5</Field>
+		<Field column="SORT_ORDER">0</Field>
 	</Record>
 	<Record>
 		<Field column="ID">4</Field>
@@ -264,6 +274,8 @@
 			<zhTW>特殊</zhTW>
 		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Launch/Card_Back_Launch</Field>
+		<Field column="SORT_CATEGORY">2</Field>
+		<Field column="SORT_ORDER">1</Field>
 	</Record>
 	<Record>
 		<Field column="ID">5</Field>
@@ -315,6 +327,8 @@
 			<zhTW>傳說</zhTW>
 		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Legend/Card_Back_Legend</Field>
+		<Field column="SORT_CATEGORY">6</Field>
+		<Field column="SORT_ORDER">1</Field>
 	</Record>
 	<Record>
 		<Field column="ID">6</Field>
@@ -366,6 +380,8 @@
 			<zhTW>賽季</zhTW>
 		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Naxxramas/Card_Back_Naxxramas</Field>
+		<Field column="SORT_CATEGORY">5</Field>
+		<Field column="SORT_ORDER">0</Field>
 	</Record>
 	<Record>
 		<Field column="ID">7</Field>
@@ -399,7 +415,7 @@
 			<plPL>Szwy na plugastwach dużo o nich mówią. Na przykład ten znaczy „szaleństwo”. Dosłownie.\n\nRewers przyznany za przejście Klątwy Naxxramas w trybie heroicznym.</plPL>
 			<ptBR>Dá para saber muito sobre uma Abominação pelas costuras. Esse aqui aprecia pintura em porcelana e poesia taurena, por exemplo. Gente fina.\n\nAdquirido ao completar a Maldição de Naxxramas no Modo Heroico.</ptBR>
 			<ruRU>О поганище многое можно сказать, просто взглянув на вид стежков. Вот этот просто кричит о безумии. В буквальном смысле слова.\n\nНаграда за прохождение «Проклятия Наксрамаса» в героическом режиме. </ruRU>
-			<zhCN>你能从一只憎恶的缝合处得知关于它的很多东西。至于这只，它的身上写满了“疯狂”。真的很疯狂。\n\n击败英雄难度下的纳克萨玛斯所有首领获得该奖励。</zhCN>
+			<zhCN>你能从一只憎恶的缝合组件得知关于它的很多东西。至于这只，它的身上写满了“疯狂”。真的很疯狂。\n\n击败英雄难度下的纳克萨玛斯所有首领获得该奖励。</zhCN>
 			<zhTW>只要看縫線，就能了解這個憎惡體。嗯…卡背上這隻覺得你真是強到變態。\n\n完成《不死詛咒：納克薩瑪斯》英雄模式時取得。</zhTW>
 		</Field>
 		<Field column="SOURCE_DESCRIPTION">
@@ -417,6 +433,8 @@
 			<zhTW>冒險篇章</zhTW>
 		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Naxxramas2/Card_Back_Naxxramas2</Field>
+		<Field column="SORT_CATEGORY">3</Field>
+		<Field column="SORT_ORDER">1</Field>
 	</Record>
 	<Record>
 		<Field column="ID">8</Field>
@@ -468,6 +486,8 @@
 			<zhTW>賽季</zhTW>
 		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/IceCrown/Card_Back_IceCrown</Field>
+		<Field column="SORT_CATEGORY">5</Field>
+		<Field column="SORT_ORDER">0</Field>
 	</Record>
 	<Record>
 		<Field column="ID">9</Field>
@@ -519,6 +539,8 @@
 			<zhTW>賽季</zhTW>
 		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Pirate/Card_Back_Pirate</Field>
+		<Field column="SORT_CATEGORY">5</Field>
+		<Field column="SORT_ORDER">0</Field>
 	</Record>
 	<Record>
 		<Field column="ID">10</Field>
@@ -570,6 +592,8 @@
 			<zhTW>賽季</zhTW>
 		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Hallows_End/Card_Back_Hallows_End</Field>
+		<Field column="SORT_CATEGORY">5</Field>
+		<Field column="SORT_ORDER">0</Field>
 	</Record>
 	<Record>
 		<Field column="ID">11</Field>
@@ -621,6 +645,8 @@
 			<zhTW>賽季</zhTW>
 		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Goblin/Card_Back_Goblin</Field>
+		<Field column="SORT_CATEGORY">5</Field>
+		<Field column="SORT_ORDER">0</Field>
 	</Record>
 	<Record>
 		<Field column="ID">12</Field>
@@ -672,6 +698,8 @@
 			<zhTW>特殊</zhTW>
 		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Blizzard2014/Card_Back_Blizzard2014</Field>
+		<Field column="SORT_CATEGORY">11</Field>
+		<Field column="SORT_ORDER">1</Field>
 	</Record>
 	<Record>
 		<Field column="ID">13</Field>
@@ -704,7 +732,7 @@
 			<koKR>달라란 대학교의 마스코트입니다. 매우 보기 어려운 카드 뒷면이죠. 축구 경기에 거의 아무도 오지 않거든요.\n\nTeSPA 혹은 다른 대학 단체 주최 프로그램에 참여하여 획득</koKR>
 			<plPL>Maskotka Uniwersytetu w Dalaranie. Trudno ją zobaczyć, bo prawie nikt tam nie chodzi na mecze.\n\nRewers przyznany za wzięcie udziału w TeSPA lub w innym patronackim programie studenckim.</plPL>
 			<ptBR>Mascote da Universidade de Dalaran. Raramente visto, porque ninguém vai nos jogos de lá.\n\nAdquirido ao participar do TeSPA ou outro programa de universidade afiliada.</ptBR>
-			<ruRU>Талисман Даларанского университета. Его редко можно увидеть, потому что никогда и никогда не ходит на тамошние футбольные матчи.\n\nНаграда за участие в TeSPA или другой университетской партнерской программе.</ruRU>
+			<ruRU>Талисман Даларанского университета. Его редко можно увидеть, потому что никто и никогда не ходит на тамошние футбольные матчи.\n\nНаграда за участие в TeSPA или другой университетской партнерской программе.</ruRU>
 			<zhCN>达拉然大学足球队的象征。它极其稀有，因为那里似乎没人热衷于足球运动。\n\n参加TeSPA或其他大学组织的活动获得该奖励。</zhCN>
 			<zhTW>這是達拉然大學的象徵，但如果你不知道的話也不意外，因為他們的學生都會隱形術!\n\n加入TeSPA或其他的大學聯盟時取得。</zhTW>
 		</Field>
@@ -723,6 +751,8 @@
 			<zhTW>特殊</zhTW>
 		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/TeSPA/Card_Back_TeSPA</Field>
+		<Field column="SORT_CATEGORY">7</Field>
+		<Field column="SORT_ORDER">1</Field>
 	</Record>
 	<Record>
 		<Field column="ID">14</Field>
@@ -774,6 +804,8 @@
 			<zhTW>特殊</zhTW>
 		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Warlords_of_Draenor/Card_Back_Warlords_of_Draenor</Field>
+		<Field column="SORT_CATEGORY">8</Field>
+		<Field column="SORT_ORDER">2</Field>
 	</Record>
 	<Record>
 		<Field column="ID">15</Field>
@@ -825,6 +857,8 @@
 			<zhTW>賽季</zhTW>
 		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Gnome/Card_Back_Gnome</Field>
+		<Field column="SORT_CATEGORY">5</Field>
+		<Field column="SORT_ORDER">0</Field>
 	</Record>
 	<Record>
 		<Field column="ID">16</Field>
@@ -876,6 +910,8 @@
 			<zhTW>賽季</zhTW>
 		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Maraad/Card_Back_Maraad</Field>
+		<Field column="SORT_CATEGORY">5</Field>
+		<Field column="SORT_ORDER">0</Field>
 	</Record>
 	<Record>
 		<Field column="ID">17</Field>
@@ -927,6 +963,8 @@
 			<zhTW>賽季</zhTW>
 		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Lunar/Card_Back_Lunar</Field>
+		<Field column="SORT_CATEGORY">5</Field>
+		<Field column="SORT_ORDER">0</Field>
 	</Record>
 	<Record>
 		<Field column="ID">18</Field>
@@ -959,7 +997,7 @@
 			<koKR>아제로스의 화산 심장부입니다. 초콜릿 용암 케이크가 아니라고요.\n\n검은바위 산 모험을 예약 구매하여 획득</koKR>
 			<plPL>Ognista Czeluść to najgorętsze miejsce w całym Azeroth. Ściąga masy turystów.\n\nRewers przyznany za przedpremierowe zamówienie Czarnej Góry.</plPL>
 			<ptBR>O Núcleo Derretido de Azeroth, não um bolo de lava de chocolate, infelizmente.\n\nAdquirido na Pré-venda da Montanha Rocha Negra.</ptBR>
-			<ruRU>Огненные Недра Азерота. А вовсе не торт с потеками шоколадной лавы. Увы.\n\nНаграда за покупку приключения «Черная гора».</ruRU>
+			<ruRU>Огненные Недра Азерота. А вовсе не торт с потеками шоколадной лавы. Увы.\n\nНаграда за предзаказ приключения «Черная гора».</ruRU>
 			<zhCN>艾泽拉斯的熔火之心里流淌着的，可不是滚烫的巧克力。\n\n预购“黑石山的火焰”冒险模式内容获得该奖励。</zhCN>
 			<zhTW>熔火之心裡面裝的可是貨真價實的岩漿，才不是什麼熔岩巧克力!\n\n預購《勇闖黑石山》時取得。</zhTW>
 		</Field>
@@ -978,6 +1016,8 @@
 			<zhTW>特殊</zhTW>
 		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/MoltenCore/Card_Back_MoltonCore</Field>
+		<Field column="SORT_CATEGORY">10</Field>
+		<Field column="SORT_ORDER">1</Field>
 	</Record>
 	<Record>
 		<Field column="ID">19</Field>
@@ -1029,6 +1069,8 @@
 			<zhTW>賽季</zhTW>
 		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Ragnaros/Card_Back_Ragnaros</Field>
+		<Field column="SORT_CATEGORY">5</Field>
+		<Field column="SORT_ORDER">0</Field>
 	</Record>
 	<Record>
 		<Field column="ID">20</Field>
@@ -1080,6 +1122,8 @@
 			<zhTW>特殊</zhTW>
 		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/GoldenCelebration/Card_Back_GoldenCelebration</Field>
+		<Field column="SORT_CATEGORY">12</Field>
+		<Field column="SORT_ORDER">1</Field>
 	</Record>
 	<Record>
 		<Field column="ID">21</Field>
@@ -1131,6 +1175,8 @@
 			<zhTW>冒險篇章</zhTW>
 		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Nefarian/Card_Back_Nefarian</Field>
+		<Field column="SORT_CATEGORY">3</Field>
+		<Field column="SORT_ORDER">2</Field>
 	</Record>
 	<Record>
 		<Field column="ID">22</Field>
@@ -1182,6 +1228,8 @@
 			<zhTW>賽季</zhTW>
 		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Cupcake/Card_Back_Cupcake</Field>
+		<Field column="SORT_CATEGORY">5</Field>
+		<Field column="SORT_ORDER">0</Field>
 	</Record>
 	<Record>
 		<Field column="ID">23</Field>
@@ -1233,6 +1281,8 @@
 			<zhTW>賽季</zhTW>
 		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Ninja/Card_Back_Ninja</Field>
+		<Field column="SORT_CATEGORY">5</Field>
+		<Field column="SORT_ORDER">0</Field>
 	</Record>
 	<Record>
 		<Field column="ID">24</Field>
@@ -1284,6 +1334,8 @@
 			<zhTW>特殊</zhTW>
 		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/HotS/Card_Back_HotS</Field>
+		<Field column="SORT_CATEGORY">8</Field>
+		<Field column="SORT_ORDER">1</Field>
 	</Record>
 	<Record>
 		<Field column="ID">25</Field>
@@ -1335,6 +1387,8 @@
 			<zhTW>英雄</zhTW>
 		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Alleria/Card_Back_Alleria</Field>
+		<Field column="SORT_CATEGORY">4</Field>
+		<Field column="SORT_ORDER">3</Field>
 	</Record>
 	<Record>
 		<Field column="ID">26</Field>
@@ -1386,6 +1440,8 @@
 			<zhTW>英雄</zhTW>
 		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Magni/Card_Back_Magni</Field>
+		<Field column="SORT_CATEGORY">4</Field>
+		<Field column="SORT_ORDER">2</Field>
 	</Record>
 	<Record>
 		<Field column="ID">27</Field>
@@ -1437,6 +1493,8 @@
 			<zhTW>英雄</zhTW>
 		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Medivh/Card_Back_Medivh</Field>
+		<Field column="SORT_CATEGORY">4</Field>
+		<Field column="SORT_ORDER">1</Field>
 	</Record>
 	<Record>
 		<Field column="ID">28</Field>
@@ -1474,6 +1532,8 @@
 			<zhTW>達納蘇斯依著大樹的枝條興建，它不但是夜精靈的主城，也是達納蘇斯酸菜餅的發源地!\n\n在2015年6月賽季中達到階級20時取得。</zhTW>
 		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Druid/Card_Back_Druid</Field>
+		<Field column="SORT_CATEGORY">5</Field>
+		<Field column="SORT_ORDER">0</Field>
 	</Record>
 	<Record>
 		<Field column="ID">29</Field>
@@ -1511,5 +1571,85 @@
 			<zhTW>來自星星的禮物!這張卡背看來不像是這個世界的產物。\n\n這是Samsung Galaxy Gifts促銷活動的獎勵!</zhTW>
 		</Field>
 		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Samsung/Card_Back_Samsung</Field>
+		<Field column="SORT_CATEGORY">9</Field>
+		<Field column="SORT_ORDER">1</Field>
+	</Record>
+	<Record>
+		<Field column="ID">30</Field>
+		<Field column="NOTE_DESC">Darkspear</Field>
+		<Field column="DATA1">21</Field>
+		<Field column="SOURCE">season</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME_COMMENT"></Field>
+		<Field column="NAME">
+			<enUS>Darkspear</enUS>
+			<deDE>Dunkelspeere</deDE>
+			<esES>Lanza Negra</esES>
+			<esMX>Lanza Negra</esMX>
+			<frFR>Sombrelance</frFR>
+			<itIT>Lanciascura</itIT>
+			<koKR>검은창</koKR>
+			<plPL>Mroczne Włócznie</plPL>
+			<ptBR>Lançanegra</ptBR>
+			<ruRU>Черное копье</ruRU>
+			<zhCN>暗矛巨魔</zhCN>
+			<zhTW>暗矛</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>Vol'jin's tribe, the Darkspear trolls, no longer practices cannibalism. Officially.\n\nAcquired from Achieving Rank 20 in Ranked Play, July 2015.</enUS>
+			<deDE>Vol'jins Stamm, die Dunkelspeertrolle, praktizieren keinen Kannibalismus mehr. Offiziell.\n\nBelohnung für alle Spieler, die im Juli 2015 im gewerteten Modus Rang 20 erreicht haben.</deDE>
+			<esES>Los trols Lanza Negra, la tribu de Vol'jin, ya no practican el canibalismo. Al menos esa es la versión oficial.\n\nOtorgado por alcanzar el rango 20 en el juego con rango en julio, 2015.</esES>
+			<esMX>La tribu de Vol'jin, los trols Lanza Negra, ya no practica el canibalismo. Oficialmente...\n\nObtenido por alcanzar el rango 20 en partidas clasificadas durante julio de 2015.</esMX>
+			<frFR>La tribu de Vol’jin, les trolls sombrelances, ne pratique plus le cannibalisme. Officiellement.\n\nObtenu en atteignant le rang 20 en Partie classée, saison de juillet 2015.</frFR>
+			<itIT>La tribù di Vol'jin, i Troll Lanciascura, non pratica più il cannibalismo. Ufficialmente, perlomeno.\n\nOttenuto raggiungendo il grado 20 in modalità Classificata nel mese di luglio 2015.</itIT>
+			<koKR>볼진이 이끄는 검은창 부족의 트롤들은 이제 인육을 먹지 않습니다. 공식적으로요.\n\n2015년 7월 등급전에서 20등급 달성 시 획득</koKR>
+			<plPL>Trolle z Mrocznych Włóczni, plemienia Vol'jina, nie są już kanibalami. Przynajmniej oficjalnie.\n\nRewers przyznany za osiągnięcie poziomu 20 w trybie rankingowym\nw lipcu 2015.</plPL>
+			<ptBR>Os Lançanegra, a tribo de Vol'jn, não praticam mais canibalismo. Oficialmente.\n\nnAdquirido ao chegar no ranque 20 no Jogo Ranqueado. Julho de 2015.</ptBR>
+			<ruRU>Племя Вол'джина, тролли Черного Копья, больше не практикует каннибализм. По официальной версии.\n\nНаграда за достижение 20-го ранга в рейтинговых матчах в июле 2015 г.</ruRU>
+			<zhCN>沃金所领导的暗矛巨魔部族，早已摒弃了以人肉为食的陋习。这是一项由官方推动实施的粮食改良方针。\n\n在2015年7月的排名对战赛季中达到20级获得该奖励。</zhCN>
+			<zhTW>暗矛食人妖是沃金的部族，而且他們已經不吃人了。\n\n在2015年7月賽季中達到階級20時取得。</zhTW>
+		</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Troll/Card_Back_Troll</Field>
+		<Field column="SORT_CATEGORY">5</Field>
+		<Field column="SORT_ORDER">0</Field>
+	</Record>
+	<Record>
+		<Field column="ID">31</Field>
+		<Field column="NOTE_DESC">The Grand Tournament</Field>
+		<Field column="DATA1">0</Field>
+		<Field column="SOURCE">fixed_reward</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="NAME_COMMENT"></Field>
+		<Field column="NAME">
+			<enUS>The Grand Tournament</enUS>
+			<deDE>Das Große Turnier</deDE>
+			<esES>El Gran Torneo</esES>
+			<esMX>El Gran Torneo</esMX>
+			<frFR>Le Grand Tournoi</frFR>
+			<itIT>Gran Torneo</itIT>
+			<koKR>대 마상시합</koKR>
+			<plPL>Wielki Turniej</plPL>
+			<ptBR>O Grande Torneio</ptBR>
+			<ruRU>Большой турнир</ruRU>
+			<zhCN>冠军试炼</zhCN>
+			<zhTW>銀白聯賽</zhTW>
+		</Field>
+		<Field column="DESCRIPTION">
+			<enUS>After the fall of the Lich King, it was suggested that we celebrate then go home. Those of us who stayed decided to continue the Tournament with a new mission: FUN!</enUS>
+			<deDE>Nach dem Sieg über den Lichkönig wurde ordentlich gefeiert, danach machten sich die meisten auf den Weg heim. Die Verbliebenen führten das Turnier mit einem neuen Ziel weiter: Spaß haben!</deDE>
+			<esES>Tras la caída del Rey Exánime, nos aconsejaron celebrarlo y regresar a casa. Los que nos quedamos, decidimos continuar el torneo con una nueva misión: ¡DIVERTIRNOS!</esES>
+			<esMX>Tras la caída del Rey Exánime, alguien sugirió celebrar y volver rápido a casa. Los que nos quedamos decidimos continuar el Torneo con una nueva misión: ¡DIVERTIRNOS!</esMX>
+			<frFR>Après avoir vaincu le roi-liche, on s’est dit qu’on allait fêter ça puis rentrer à la maison. Certains d'entre nous sont restés, déterminés à continuer le tournoi pour une nouvelle mission : S’AMUSER !</frFR>
+			<itIT>Dopo la caduta del Re dei Lich, ci dissero di festeggiare e poi tornare a casa, ma alcuni di noi decisero di continuare il Torneo con una nuova missione: il divertimento!</itIT>
+			<koKR>리치 왕이 쓰러진 후, 대부분의 사람들은 환호하며 집으로 돌아갔습니다. 하지만 몇몇 사람들은 노스렌드에 계속 머물며 마상시합을 즐기기로 마음을 먹었습니다. 재밌잖아요!</koKR>
+			<plPL>Po upadku Króla Licza podjęto decyzję, że trzeba to uczcić, a potem wrócić do domu. Ale ci z nas, którzy zostali postanowili kontynuować Turniej,\nz jedną, podstawową zasadą: MA BYĆ ZABAWA!</plPL>
+			<ptBR>Após a queda do Lich Rei, nos disseram para celebrar e ir embora. Aqueles de nós que ficaram decidiram continuar o Torneio com uma nova missão: DIVERSÃO!</ptBR>
+			<ruRU>После того, как Король-лич был повержен, некоторые предлагали отпраздновать это событие и разойтись по домам. Но те, кто остался, решили продолжить турнир ради новой цели: РАЗВЛЕЧЕНИЯ!</ruRU>
+			<zhCN>作为白银之手的创始人和银色北伐军的最高指挥官，大领主提里奥·弗丁主持了冠军的试炼这一盛事。想要证明自己过人的实力与勇气吗，那就快来吧！</zhCN>
+			<zhTW>擊敗巫妖王，開完慶功宴之後，大家就各自回家了。但有些人決定留下來繼續舉辦銀白聯賽，而這次聯賽的目的就是：開心！</zhTW>
+		</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/TGT/Card_Back_TGT</Field>
+		<Field column="SORT_CATEGORY">10</Field>
+		<Field column="SORT_ORDER">2</Field>
 	</Record>
 </Dbf>

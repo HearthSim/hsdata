@@ -39,7 +39,7 @@ GLUE_BRM_LOADING_BAR_TASK_11	네파리안 짓밟는 중
 GLUE_BRM_LOADING_BAR_TASK_12	검은용군단 육성하는 중	
 GLUE_BRM_LOADING_BAR_TASK_13	여기저기 불을 지르는 중	
 GLUE_BRM_LOADING_BAR_TASK_14	착한 용 납치하는 중	
-GLUE_BRM_LOADING_BAR_TASK_15	영역 표시 하는 중	
+GLUE_BRM_LOADING_BAR_TASK_15	영역 표시하는 중	
 GLUE_BRM_LOADING_BAR_TASK_16	용암 데우는 중	
 GLUE_BRM_LOADING_BAR_TASK_17	가을 축제 방해하는 중	
 GLUE_BRM_LOADING_BAR_TASK_18	전설적인 손님들 초대하는 중	
@@ -289,7 +289,7 @@ GLUE_QUEST_LOG_PHONE_BUTTON	퀘스트
 GLUE_QUEST_LOG_TOTAL_LEVELS	<color=#c4b47c>레벨 총합:</color> {0}	
 GLUE_QUEST_LOG_TOTAL_WINS_HEADLINE	총 승수	
 GLUE_QUEST_LOG_WINS_HEADLINE	대전 승수	
-GLUE_QUEST_NOTIFICATION_CAPTION	퀘스트는 대부분 대전 모드나 투기장에서 완료할 수 있습니다.	
+GLUE_QUEST_NOTIFICATION_CAPTION	퀘스트는 대부분 대전 모드나 투기장, 혹은 선술집 난투에서 완료할 수 있습니다.	
 GLUE_QUEST_NOTIFICATION_HEADER	오늘의 퀘스트	
 GLUE_QUEST_NOTIFICATION_HEADER_NEW_ONLY	새로운 퀘스트!	
 GLUE_RDM_1_COST	초반에 사용 가능한 카드가 있나 확인합시다. 	
@@ -441,6 +441,7 @@ GLUE_STORE_GOLD_QTY_CHANGE_DESC_TOUCH	골드가 많으시군요! 팩을 여러 �
 GLUE_STORE_GOLD_QTY_CHANGE_HEADER	골드로 팩 구매	
 GLUE_STORE_HEADLINE	상점	
 GLUE_STORE_HERO_BUTTON_COST_OWNED_TEXT	(구매 완료)	
+GLUE_STORE_HERO_BUTTON_TEXT_PURCHASED	구매 완료	
 GLUE_STORE_HERO_PREVIEW	미리 보기	
 GLUE_STORE_HEROES_DESCRIPTION_PHONE	새로운 초상화, 시각 효과, 감정 표현, 그리고 카드 뒷면이 포함되어 있습니다!\n<color=#00000066>내가 보유한 {0} 카드와 기본 영웅 능력을 사용합니다.</color>	
 GLUE_STORE_HEROES_PURCHASED	구매 완료	
@@ -449,6 +450,7 @@ GLUE_STORE_KOREAN_DISCLAIMER_DETAILS	특정 카드를 원하신다면 아래와 
 GLUE_STORE_KOREAN_DISCLAIMER_HEADLINE	주의!	
 GLUE_STORE_KOREAN_PRODUCT_DETAILS_ADVENTURE	묶음 상품은 구매 후 환불되지 않으며, 구매 시 개방된 지구를 이용하실 수 있습니다. 단, 사전 구매의 경우 실제 상품 출시 전까지 환불이 가능합니다.	
 GLUE_STORE_KOREAN_PRODUCT_DETAILS_EXPERT_PACK	이용기간 : 서비스 종료 시까지. 본 상품은 구매 후 7일 이내에 청약철회가 가능합니다.\n다만, 1개의 카드 팩이라도 개봉한 경우에는 청약철회가 불가능합니다.	only displayed for Korean customers, should always be in Korean
+GLUE_STORE_KOREAN_PRODUCT_DETAILS_PACKS_PREORDER	사전 구매 상품은 실제 상품 출시 전까지 환불이 가능합니다.	
 GLUE_STORE_MODE_ADVENTURE	모험	
 GLUE_STORE_MODE_CARDS	카드	
 GLUE_STORE_MODE_HEROES	영웅	
@@ -457,7 +459,11 @@ GLUE_STORE_NO_PAYMENT_DETAILS	배틀코인 잔액이 부족합니다. Battle.net
 GLUE_STORE_NO_PAYMENT_HEADLINE	경고	
 GLUE_STORE_NO_PAYMENT_URL_DETAILS	"{0}" 단추를 누르면 Battle.net 웹사이트로 이동합니다.	
 GLUE_STORE_OPEN_BUTTON_TEXT	상점	
+GLUE_STORE_PACK_BUTTON_COST_OWNED_TEXT	(구매 완료)	
+GLUE_STORE_PACK_BUTTON_TEXT_PURCHASED	구매 완료	
 GLUE_STORE_PACKBUY_SUGGESTION	신규 플레이어에게\n추천!	
+GLUE_STORE_PACKS_BUTTON_PREORDER_TEXT	카드 팩 {0}개 예약 구매	0=number of packs
+GLUE_STORE_PACKS_PREORDER_TEXT	예약 구매	
 GLUE_STORE_PAYMENT_INFO_DETAILS	결제 비용은 우선 배틀코인에서 차감됩니다. 배틀코인이 부족하면 Battle.net 계정에 설정되어 있는 기본 결제 수단으로 청구됩니다.\n\n중요: 결제 도중 오류가 발생하거나 결제 불가 상태가 되면 잠시 동안 하스스톤 계정이 잠길 수도 있습니다. 이 경우, 오류가 해결되거나 결제가 완료되면 잠금이 해제됩니다.	
 GLUE_STORE_PAYMENT_INFO_HEADLINE	결제 정보	
 GLUE_STORE_PAYMENT_INFO_URL_DETAILS	자세한 설명이 필요하다면 {0} 단추를 누르세요. Battle.net 결제 정보 웹사이트로 이동합니다.	
@@ -466,9 +472,11 @@ GLUE_STORE_PREORDER_EXCLUSIVE	사전 구매 특전!
 GLUE_STORE_PRODUCT_DETAILS_BRM_PART_1	싱글 플레이어 게임에서 {0}의 무시무시한 우두머리들과 겨루세요.	0=wing name
 GLUE_STORE_PRODUCT_DETAILS_BRM_PART_2	검은바위 산 카드들을 획득하세요. 전설 카드도 1장 포함되어 있습니다!	
 GLUE_STORE_PRODUCT_DETAILS_HEADLINE_PACK	팩의 구성품	
+GLUE_STORE_PRODUCT_DETAILS_HEADLINE_TGT_PACK_PRESALE	대 마상시합 (예약 구매):	
 GLUE_STORE_PRODUCT_DETAILS_NAXX_PART_1	싱글 플레이어 게임에서 {0}의 무시무시한 우두머리들과 겨루세요.	0=wing name
 GLUE_STORE_PRODUCT_DETAILS_NAXX_PART_2	낙스라마스 카드들을 획득하세요. 전설 카드도 1장 포함되어 있습니다!	
 GLUE_STORE_PRODUCT_DETAILS_PACK	•  5장의 {0} 하스스톤 카드\n•  최소 1장은 희귀 혹은 더 높은 등급의 카드	0=pack type
+GLUE_STORE_PRODUCT_DETAILS_TGT_PACK_PRESALE	•  카드 팩 50개와 특별한 카드 뒷면\n•  각 카드 팩에는 5장의 카드가 있으며, 최소 1장은 희귀 혹은 더 높은 등급의 카드입니다.\n•  대 마상시합 카드 팩은 8월에 개봉할 수 있습니다!	
 GLUE_STORE_PRODUCT_EVENT_HAS_ENDED	이 상품은 이제 사전 구매할 수 없습니다.	
 GLUE_STORE_PRODUCT_NAME_BRM_PRESALE_BUNDLE	검은바위 산 사전 구매	
 GLUE_STORE_PRODUCT_NAME_BRM_WING_BUNDLE	검은바위 산 모험 ({0}|4(개 지구,개 지구))	
@@ -476,6 +484,7 @@ GLUE_STORE_PRODUCT_NAME_FORGE_TICKET	투기장 입장권
 GLUE_STORE_PRODUCT_NAME_MOBILE_UNKNOWN	모바일로 결제	
 GLUE_STORE_PRODUCT_NAME_NAXX_WING_BUNDLE	낙스라마스 모험 ({0}|4(개 지구,개 지구))	
 GLUE_STORE_PRODUCT_NAME_PACK	{1} 카드 팩 {0}|4(개,개)	0=quantity,1=pack type
+GLUE_STORE_PRODUCT_NAME_TGT_PRESALE_BUNDLE	대 마상시합 (예약 구매)	
 GLUE_STORE_PRODUCT_PRICE	({0})	0=price
 GLUE_STORE_PRODUCT_PRICE_NA	없음	
 GLUE_STORE_PURCHASE_LOCK_DESCRIPTION	{0}에서 이 계정을 이용한 구매가 완료되지 않았습니다. 마지막으로 구매를 시도한 기기에서 하스스톤을 실행하여 주십시오.\n\n이 문제가 계속되면 아래 단추를 눌러 블리자드 고객 지원팀에 문의하시기 바랍니다.	0=one of GLOBAL_STORE_MOBILE_NAME_*
@@ -484,6 +493,7 @@ GLUE_STORE_QUANTITY_HEADLINE	수량 변경
 GLUE_STORE_QUANTITY_MESSAGE	골드로 팩을 얼마나 구매하시겠습니까? 최대 {0} 개의 팩을 골드로 구매할 수 있습니다.	
 GLUE_STORE_QUANTITY_PACK	카드 팩 {0}|4(개,개)	
 GLUE_STORE_READ_TOS_BUTTON_TEXT	판매 약관 보기	
+GLUE_STORE_SPECIAL_OFFER	특별 혜택!	
 GLUE_STORE_SUBMIT_CHALLENGE_BUTTON_TEXT	구매	
 GLUE_STORE_SUMMARY_CHARGE_DETAILS	다음 결제 수단으로 청구됩니다: {0}	
 GLUE_STORE_SUMMARY_HEADLINE	요약	
@@ -495,6 +505,7 @@ GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_CONFIRM	본 거래와 관련된 조건과 �
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_EXPERT_PACK	이용기간 : 서비스 종료 시까지. 본 상품은 구매 후 7일 이내에 청약철회가 가능합니다.\n다만, 1개의 카드 팩이라도 개봉한 경우에는 청약철회가 불가능합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_FORGE_TICKET	투기장 입장료는 구매 후 환불되지 않으며, 구매 즉시 투기장에 입장합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_HERO	본 상품은 구매 후 환불되지 않으며, 구매 즉시 이용이 가능합니다.	
+GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_PACK_PREORDER	사전 구매 상품은 실제 상품 출시 전까지 환불이 가능합니다.	
 GLUE_STORE_SUMMARY_PAY_NOW_TEXT	즉시 결제	this is what you see when you confirm the purchase
 GLUE_STORE_SUMMARY_PRICE_HEADLINE	가격	
 GLUE_STORE_SUMMARY_TAX_DISCLAIMER	부가가치세 포함	
@@ -502,6 +513,7 @@ GLUE_STORE_SUMMARY_TAX_DISCLAIMER_USD	부가가치세 포함
 GLUE_STORE_SUMMARY_TOS_AGREEMENT	"{0}" 단추를 누르는 것은 판매 약관을 모두 읽고 동의하였음을 의미합니다. 판매 약관을 확인하거나 기본 결제 수단을 변경하시려면 "{1}" 단추를 누르십시오.	0=GLUE_STORE_SUMMARY_PAY_NOW_TEXT,1=GLUE_STORE_TERMS_OF_SALE_BUTTON_TEXT
 GLUE_STORE_SUMMARY_TOS_AGREEMENT_EU	"{0}" 단추를 누르는 것은 판매 약관과 상품의 구매에 동의하였음을 의미합니다. 구매 요청이 처리된 이후에는 청약 철회가 불가능합니다. 판매 약관을 확인하거나 기본 결제 수단을 변경하시려면 "{1}" 단추를 누르십시오.	0=GLUE_STORE_SUMMARY_PAY_NOW_TEXT,1=GLUE_STORE_TERMS_OF_SALE_BUTTON_TEXT
 GLUE_STORE_TERMS_OF_SALE_BUTTON_TEXT	?	
+GLUE_STORE_TGT_PREORDER_DATE	8월에 출시됩니다!	
 GLUE_TAVERN_BRAWL_HAS_ENDED_HEADER	선술집 난투 종료	
 GLUE_TAVERN_BRAWL_HAS_ENDED_TEXT	이번 선술집 난투가 종료되었습니다. 다음 선술집 난투가 곧 공개됩니다!	
 GLUE_TAVERN_BRAWL_LABEL_ENDING_DAYS	{0}일 후에 종료	
@@ -570,6 +582,15 @@ GLUE_TIP_PRACTICE_4	각 직업의 레벨을 올리면 5가지의 기본 카드�
 GLUE_TIP_PRACTICE_5	"대전" 모드에서 퀘스트를 완료하여 골드를 획득하세요.	
 GLUE_TIP_PRACTICE_6	무엇을 공격할까요. 영웅? 하수인? 정확한 판단이 승패를 좌우합니다.	
 GLUE_TIP_PRACTICE_7	10 레벨 이후에는 실제 플레이어들과 게임을 해야 경험치를 더 얻습니다.	
+GLUE_TIP_TAVERNBRAWL_0	매주 선술집 난투에서 독특한 규칙으로 게임을 할 수 있습니다!	
+GLUE_TIP_TAVERNBRAWL_1	선술집 난투가 끝나면 난장판이 된 선술집을 며칠 동안 정리해야 합니다. 입장할 수 없다면 조금만 기다리세요!	
+GLUE_TIP_TAVERNBRAWL_2	출시 축하 기간 동안 매주마다 선술집 난투에서 첫 승을 달성하면 오리지널 카드 팩을 획득할 수 있습니다!	
+GLUE_TIP_TAVERNBRAWL_3	선술집 난투에서 여러 번 승리해도 카드 팩을 추가로 획득할 수는 없습니다. 그냥 재밌게 놀아보자고요!	
+GLUE_TIP_TAVERNBRAWL_4	선술집 난투에서는 덱이 주어질 때도 있고, 직접 만들어야 할 때도 있습니다.	
+GLUE_TIP_TAVERNBRAWL_5	몇몇 선술집 난투는 나중에 다시 등장할지도 모릅니다.	
+GLUE_TIP_TAVERNBRAWL_6	선술집 난투 화면에서 친구에게 도전하면 난투를 신청할 수 있습니다.	
+GLUE_TIP_TAVERNBRAWL_7	선술집 난투에서도 일일 퀘스트를 완료할 수 있습니다!	
+GLUE_TIP_TAVERNBRAWL_8	선술집 난투에서 세 번 승리하면 대전 모드에서처럼 10 골드를 얻을 수 있습니다.	
 GLUE_TOOLTIP_BUTTON_ADVENTURE_DESC	멋진 모험을 떠나거나 인공지능을 상대로 실력을 연마하세요.	
 GLUE_TOOLTIP_BUTTON_ADVENTURE_HEADLINE	1인 모험	
 GLUE_TOOLTIP_BUTTON_COLLECTION_DESC	카드를 살펴보거나 덱을 만들 수 있습니다.	
