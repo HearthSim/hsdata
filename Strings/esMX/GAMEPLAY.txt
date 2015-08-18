@@ -3,6 +3,7 @@ GAMEPLAY_AI_OPPONENT_NAME	El Tabernero
 GAMEPLAY_CHOOSE_ONE	Elige una opción	will be displayed for card choices e.g. tracking
 GAMEPLAY_COIN_TOSS_LOST	Obtienes una carta adicional	
 GAMEPLAY_COIN_TOSS_WON	Empiezas tú	
+GAMEPLAY_DEFAULTCOUNTERNAME	Turnos para salir:	Please delete this string from all branches before 4.0.  Leave in MASTER.
 GAMEPLAY_DISCONNECT_BODY	¡Partida terminada y grabada! Reinicia Hearthstone para continuar. 	
 GAMEPLAY_DISCONNECT_BODY_RESET	¡Partida terminada y grabada! Te estamos reconectando con los servidores de Hearthstone. 	
 GAMEPLAY_DISCONNECT_HEADER	Desconectado 	
@@ -31,8 +32,6 @@ GAMEPLAY_MULLIGAN_STARTING_HAND	Mano inicial
 GAMEPLAY_MULLIGAN_SUBTITLE	Conserva o reemplaza tus cartas	
 GAMEPLAY_MULLIGAN_WAITING	Tu adversario está eligiendo...	
 GAMEPLAY_NEFARIAN_TITLE	Asesino de esbirros estúpidos, incompetentes y decepcionantes	
-GAMEPLAY_NOTIFICATION_MAX_HAND_SIZE	Solo puedes tener {0} |4(carta,cartas) en tu mano	
-GAMEPLAY_NOTIFICATION_MAX_MANA	Solo puedes tener {0} |4(cristal de maná,cristales de maná)	
 GAMEPLAY_PlayErrors_REQ_ATTACK_GREATER_THAN_0	Un personaje sin valor de ataque no puede atacar	
 GAMEPLAY_PlayErrors_REQ_ATTACKER_CAN_ATTACK	Ese personaje no puede atacar	
 GAMEPLAY_PlayErrors_REQ_ATTACKER_NOT_FROZEN	Los personajes congelados no pueden atacar	
@@ -47,8 +46,10 @@ GAMEPLAY_PlayErrors_REQ_DRAG_TO_PLAY	Debes arrastrar la carta hasta un objetivo
 GAMEPLAY_PlayErrors_REQ_ENCHANTED_TARGET	Selecciona un personaje Encantado	
 GAMEPLAY_PlayErrors_REQ_ENEMY_TARGET	Selecciona un enemigo	
 GAMEPLAY_PlayErrors_REQ_ENEMY_TARGET_NOT_IMMUNE	Ese personaje es inmune	
+GAMEPLAY_PlayErrors_REQ_ENEMY_WEAPON_EQUIPPED	Tu enemigo debe tener un arma	
 GAMEPLAY_PlayErrors_REQ_ENOUGH_MANA	No tienes suficiente maná	
 GAMEPLAY_PlayErrors_REQ_ENTIRE_ENTOURAGE_NOT_IN_PLAY	Ya tienes un tótem de cada clase	
+GAMEPLAY_PlayErrors_REQ_FRIENDLY_MINION_DIED_THIS_GAME	Ningún esbirro aliado ha muerto en esta partida	
 GAMEPLAY_PlayErrors_REQ_FRIENDLY_MINION_DIED_THIS_TURN	Ningún esbirro aliado ha muerto en este turno	
 GAMEPLAY_PlayErrors_REQ_FRIENDLY_TARGET	Selecciona un personaje aliado	
 GAMEPLAY_PlayErrors_REQ_FROZEN_TARGET	Selecciona un personaje Congelado	
@@ -75,11 +76,14 @@ GAMEPLAY_PlayErrors_REQ_TARGET_FOR_COMBO	No puedes hacer esa jugada sin un objet
 GAMEPLAY_PlayErrors_REQ_TARGET_FOR_NO_COMBO	No puedes hacer esa jugada sin un objetivo	
 GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE	No puedes hacer esa jugada sin un objetivo	
 GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE_AND_DRAGON_IN_HAND	No puedes hacer esa jugada sin un objetivo	
+GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE_AND_MINIMUM_FRIENDLY_MINIONS	No puedes hacer esa jugada sin un objetivo	
 GAMEPLAY_PlayErrors_REQ_TARGET_MAGNET	Hay un esbirro al que debes hacer objetivo	
 GAMEPLAY_PlayErrors_REQ_TARGET_MAX_ATTACK	Selecciona un personaje con {0} de Ataque o menos	
 GAMEPLAY_PlayErrors_REQ_TARGET_MIN_ATTACK	Selecciona un personaje con {0} de Ataque o más	
 GAMEPLAY_PlayErrors_REQ_TARGET_TAUNTER	Debes atacar a un esbirro con Provocación	
 GAMEPLAY_PlayErrors_REQ_TARGET_TO_PLAY	No puedes hacer esa jugada sin un objetivo	
+GAMEPLAY_PlayErrors_REQ_TARGET_WITH_BATTLECRY	Selecciona un personaje con Grito de batalla	
+GAMEPLAY_PlayErrors_REQ_TARGET_WITH_DEATHRATTLE	Selecciona un personaje con Estertor	
 GAMEPLAY_PlayErrors_REQ_TARGET_WITH_RACE	Esa no es la raza correcta	
 GAMEPLAY_PlayErrors_REQ_UNDAMAGED_TARGET	Debes hacer objetivo en un personaje que no haya recibido daño	
 GAMEPLAY_PlayErrors_REQ_UNIQUE_SECRET	Ya tienes ese Secreto	

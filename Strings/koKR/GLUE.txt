@@ -75,6 +75,7 @@ GLUE_COLLECTION_ALL_SETS	모든 세트
 GLUE_COLLECTION_ARTIST	아티스트: {0}	0=artist name
 GLUE_COLLECTION_CARD_COUNT	x{0}	
 GLUE_COLLECTION_CARD_COUNT_LARGE	x9+	
+GLUE_COLLECTION_CARD_CRAFTING_EVENT_NOT_ACTIVE	이런! 그 카드는 현재 제작하거나 마력을 추출할 수 없습니다. 고객 센터에 문의해주세요.	
 GLUE_COLLECTION_CARD_NEW	신규!	
 GLUE_COLLECTION_CARD_PERMISSION_ERROR	이런! 그 카드는 제작하거나 마력을 추출할 수 없습니다. 고객 센터에 문의해주세요.	
 GLUE_COLLECTION_CARD_SOULBOUND	이런! 귀속된 카드는 제작하거나 마력을 추출할 수 없습니다. 고객 센터에 문의해주세요.	
@@ -143,6 +144,8 @@ GLUE_CRAFTING_DISENCHANT	마력 추출
 GLUE_CRAFTING_DISENCHANT_CONFIRM_DESC	계속하시겠습니까? 다음 덱을 사용할 수 없게 됩니다.	
 GLUE_CRAFTING_DISENCHANT_CONFIRM_HEADER	마력 추출	
 GLUE_CRAFTING_DISENCHANT_CONFIRM2_DESC	계속하시겠습니까? 이 카드에서 마력을 추출하면 덱에 넣을 수 있는 최대량보다 카드가 적어집니다.	
+GLUE_CRAFTING_EVENT_NOT_ACTIVE_DESCRIPTION	{0} 카드는 제작하거나 마력을 추출할 수 없습니다.	
+GLUE_CRAFTING_EVENT_NOT_ACTIVE_TITLE	추후 공개	
 GLUE_CRAFTING_GOLDEN_BRM	검은바위 산	
 GLUE_CRAFTING_GOLDEN_NAXX	낙스라마스	
 GLUE_CRAFTING_SOULBOUND	귀속	
@@ -279,13 +282,20 @@ GLUE_PICK_A_REGION	지역을 선택하세요
 GLUE_PRACTICE	연습	
 GLUE_PRACTICE_HINT	연습 모드는 이곳에서	
 GLUE_QUEST_FINISHED_DAILY	일일 퀘스트를 모두 완료했습니다.	
+GLUE_QUEST_LOG_ARENA	투기장	
 GLUE_QUEST_LOG_BEST_FORGE_RECORD_HEADLINE	투기장 최고 열쇠	
+GLUE_QUEST_LOG_CHEST_TOOLTIP_BODY	시즌이 끝날 때마다 상자를 열 수 있습니다. 높은 등급일수록 더 좋은 상자를 획득합니다!	
+GLUE_QUEST_LOG_CHEST_TOOLTIP_BODY_NO_CHEST	등급전에서 20등급 혹은 그보다 높은 등급을 달성하면 해당 시즌이 종료될 때 보상이 들어있는 상자를 획득할 수 있습니다!	
+GLUE_QUEST_LOG_CHEST_TOOLTIP_HEADER	{0}등급 상자	0=Rank number of chest
 GLUE_QUEST_LOG_CLASS_LOCKED	잠김	
+GLUE_QUEST_LOG_CURRENT_CHEST	등급전 상자	
 GLUE_QUEST_LOG_HEADLINE	퀘스트 기록	
 GLUE_QUEST_LOG_HERO_LEVELS	영웅 레벨	
+GLUE_QUEST_LOG_NO_CHEST	아직 상자가 없습니다!	
 GLUE_QUEST_LOG_NO_QUESTS	퀘스트가 없습니다. 연습 모드에서 새로운 영웅들을 잠금 해제하세요!	
 GLUE_QUEST_LOG_NO_QUESTS_DAILIES_UNLOCKED	퀘스트가 없습니다. 내일 다시 확인해보세요!	
 GLUE_QUEST_LOG_PHONE_BUTTON	퀘스트	
+GLUE_QUEST_LOG_PLAY_MODE	대전	
 GLUE_QUEST_LOG_TOTAL_LEVELS	<color=#c4b47c>레벨 총합:</color> {0}	
 GLUE_QUEST_LOG_TOTAL_WINS_HEADLINE	총 승수	
 GLUE_QUEST_LOG_WINS_HEADLINE	대전 승수	
@@ -463,6 +473,7 @@ GLUE_STORE_PACK_BUTTON_COST_OWNED_TEXT	(구매 완료)
 GLUE_STORE_PACK_BUTTON_TEXT_PURCHASED	구매 완료	
 GLUE_STORE_PACKBUY_SUGGESTION	신규 플레이어에게\n추천!	
 GLUE_STORE_PACKS_BUTTON_PREORDER_TEXT	카드 팩 {0}개 예약 구매	0=number of packs
+GLUE_STORE_PACKS_LATEST_EXPANSION	최신 확장팩	
 GLUE_STORE_PACKS_PREORDER_TEXT	예약 구매	
 GLUE_STORE_PAYMENT_INFO_DETAILS	결제 비용은 우선 배틀코인에서 차감됩니다. 배틀코인이 부족하면 Battle.net 계정에 설정되어 있는 기본 결제 수단으로 청구됩니다.\n\n중요: 결제 도중 오류가 발생하거나 결제 불가 상태가 되면 잠시 동안 하스스톤 계정이 잠길 수도 있습니다. 이 경우, 오류가 해결되거나 결제가 완료되면 잠금이 해제됩니다.	
 GLUE_STORE_PAYMENT_INFO_HEADLINE	결제 정보	
@@ -546,7 +557,7 @@ GLUE_TIP_DEFAULT_14	기본 카드는 직업의 레벨이 오르면 획득할 수
 GLUE_TIP_DEFAULT_15	실제 플레이어들과 게임을 하면 경험치를 더 얻을 수 있습니다.	
 GLUE_TIP_DEFAULT_16	상대 영웅을 오른쪽 클릭하면 상대의 감정 표현을 차단할 수 있습니다.	
 GLUE_TIP_DEFAULT_16_TOUCH	상대 영웅을 터치하면 상대의 감정 표현을 차단할 수 있습니다.	
-GLUE_TIP_DEFAULT_17	등급전에서 하나의 직업으로 500승을 달성하면 해당 직업의 황금 오리지널 영웅을 획득할 수 있습니다.	
+GLUE_TIP_DEFAULT_17	등급전에서 하나의 직업으로 500승을 달성하면 황금 영웅을 획득할 수 있습니다.	
 GLUE_TIP_DEFAULT_18	화면 하단에 있는 단추로 친구 목록에 친구를 추가할 수 있습니다.	
 GLUE_TIP_DEFAULT_18_PHONE	화면 왼쪽 상단에 있는 단추로 친구 목록에 친구를 추가할 수 있습니다.	
 GLUE_TIP_DEFAULT_19	등급전에는 총 25개의 등급이 있고, 그 위로는 "전설" 등급이 있습니다.	
@@ -554,6 +565,7 @@ GLUE_TIP_DEFAULT_2	영웅을 마우스 오른쪽 클릭하여 감정 표현을 �
 GLUE_TIP_DEFAULT_2_TOUCH	영웅을 터치하여 감정 표현을 해보세요.	
 GLUE_TIP_DEFAULT_20	친구 목록에서 게임을 하고 있는 친구 옆에 표시되어 있는 "눈" 단추를 누르면 친구의 게임을 관전할 수 있습니다!	
 GLUE_TIP_DEFAULT_21	하스스톤을 스마트폰, 태블릿, 그리고 컴퓨터에서 플레이하세요. 보유 중인 모든 카드와 덱은 공유됩니다!	
+GLUE_TIP_DEFAULT_22	좋아하는 직업이 있다면 상점에서 새 영웅을 구매해 보세요.	
 GLUE_TIP_DEFAULT_3	덱을 만드는 데 도움이 필요하면 "덱 생성 도우미"를 사용해보세요.	
 GLUE_TIP_DEFAULT_4	카드 중앙에 있는 보석의 색깔로 카드의 등급을 알 수 있습니다.	
 GLUE_TIP_DEFAULT_5	카드는 색상에 따라 등급이 나뉩니다. 흰색은 일반, 파란색은 희귀, 보라색은 영웅, 그리고 주황색은 전설 카드입니다.	
@@ -561,7 +573,6 @@ GLUE_TIP_DEFAULT_6	카드 팩에는 희귀 등급 이상의 카드가 적어도 
 GLUE_TIP_DEFAULT_7	퀘스트가 없으면 내일 다시 오세요. 새로운 퀘스트가 기다리고 있을 겁니다.	
 GLUE_TIP_DEFAULT_8	등급전에서 20등급 혹은 그보다 높은 등급을 달성하면 해당 시즌에만 얻을 수 있는 카드 뒷면을 획득합니다.	
 GLUE_TIP_DEFAULT_9	퀘스트를 완료하면 골드를 얻습니다. 골드는 팩을 구매하거나 투기장에 입장할 때 사용됩니다.	
-GLUE_TIP_DEFAULT_zz_UNUSED	친구들이 오프라인 상태여도 겨뤄볼 수 있습니다!	
 GLUE_TIP_FORGE_0	투기장 덱은 3번 패배하면 만료됩니다.	
 GLUE_TIP_FORGE_1	투기장에서 계속 승리하면 보상이 더 좋아집니다!	
 GLUE_TIP_FORGE_2	투기장 경기는 한 번에 다 치르지 않아도 됩니다.	
@@ -574,7 +585,7 @@ GLUE_TIP_PLAY_5	덱에는 똑같은 카드를 최대 두 장 넣을 수 있습�
 GLUE_TIP_PLAY_6	투기장은 보상을 얻으면서 플레이어들과 경쟁할 수 있는 좋은 방법입니다.	
 GLUE_TIP_PLAY_7	투기장 경기는 한 번에 다 치르지 않아도 됩니다.	
 GLUE_TIP_PLAY_8	등급전에서 20등급 혹은 그보다 높은 등급을 달성하면 해당 시즌에만 얻을 수 있는 카드 뒷면을 획득합니다.	
-GLUE_TIP_PRACTICE_0	연습 모드에서 다른 오리지널 영웅들을 상대로 승리하면 그 영웅이 잠금 해제됩니다.	
+GLUE_TIP_PRACTICE_0	연습 모드에서 다른 영웅들을 상대로 승리하면 그 영웅이 잠금 해제됩니다.	
 GLUE_TIP_PRACTICE_1	연습 모드는 대전 모드를 위한 준비 단계일 뿐입니다!	
 GLUE_TIP_PRACTICE_2	대전 모드에서 당신은 비슷한 실력의 상대와 맞붙게 됩니다!	
 GLUE_TIP_PRACTICE_3	"내 카드"에서 자신만의 덱을 만들 수 있습니다.	

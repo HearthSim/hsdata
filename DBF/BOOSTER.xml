@@ -36,27 +36,6 @@
 		<Field column="BUY_WITH_GOLD_EVENT">none</Field>
 	</Record>
 	<Record>
-		<Field column="ID">3</Field>
-		<Field column="NOTE_DESC">Draft Hero</Field>
-		<Field column="SORT_ORDER">0</Field>
-		<Field column="OPEN_PACK_EVENT">none</Field>
-		<Field column="BUY_WITH_GOLD_EVENT">none</Field>
-	</Record>
-	<Record>
-		<Field column="ID">5</Field>
-		<Field column="NOTE_DESC">Draft common expert slot</Field>
-		<Field column="SORT_ORDER">0</Field>
-		<Field column="OPEN_PACK_EVENT">none</Field>
-		<Field column="BUY_WITH_GOLD_EVENT">none</Field>
-	</Record>
-	<Record>
-		<Field column="ID">6</Field>
-		<Field column="NOTE_DESC">Draft rare expert slot</Field>
-		<Field column="SORT_ORDER">0</Field>
-		<Field column="OPEN_PACK_EVENT">none</Field>
-		<Field column="BUY_WITH_GOLD_EVENT">none</Field>
-	</Record>
-	<Record>
 		<Field column="ID">9</Field>
 		<Field column="NOTE_DESC">GvG Pack</Field>
 		<Field column="SORT_ORDER">2</Field>
@@ -100,8 +79,31 @@
 			<zhTW>銀白聯賽</zhTW>
 		</Field>
 		<Field column="PACK_OPENING_PREFAB">Assets/Game/Actors/UnopenedTGTPack</Field>
+		<Field column="PACK_OPENING_FX_PREFAB">Assets/Game/GameObjects/PackOpeningFX_TGT</Field>
 		<Field column="STORE_PREFAB">Assets/Game/GameObjects/StorePackDefs/StorePackDef_TGT</Field>
+		<Field column="ARENA_PREFAB">Assets/Game/GameObjects/Pack_Reward_TGT</Field>
 		<Field column="OPEN_PACK_EVENT">tgt_normal_sale</Field>
 		<Field column="BUY_WITH_GOLD_EVENT">tgt_normal_sale</Field>
+	</Record>
+	<Record>
+		<Field column="ID">3</Field>
+		<Field column="NOTE_DESC">Draft Hero</Field>
+		<Field column="SORT_ORDER">0</Field>
+		<Field column="OPEN_PACK_EVENT">none</Field>
+		<Field column="BUY_WITH_GOLD_EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">5</Field>
+		<Field column="NOTE_DESC">Draft common expert slot</Field>
+		<Field column="SORT_ORDER">0</Field>
+		<Field column="OPEN_PACK_EVENT">none</Field>
+		<Field column="BUY_WITH_GOLD_EVENT">none</Field>
+	</Record>
+	<Record>
+		<Field column="ID">6</Field>
+		<Field column="NOTE_DESC">Draft rare expert slot</Field>
+		<Field column="SORT_ORDER">0</Field>
+		<Field column="OPEN_PACK_EVENT">none</Field>
+		<Field column="BUY_WITH_GOLD_EVENT">none</Field>
 	</Record>
 </Dbf>

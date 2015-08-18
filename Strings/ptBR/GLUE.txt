@@ -75,6 +75,7 @@ GLUE_COLLECTION_ALL_SETS	Conjuntos
 GLUE_COLLECTION_ARTIST	Artista: {0}	0=artist name
 GLUE_COLLECTION_CARD_COUNT	x{0}	
 GLUE_COLLECTION_CARD_COUNT_LARGE	x9+	
+GLUE_COLLECTION_CARD_CRAFTING_EVENT_NOT_ACTIVE	Opa! Este card não pode ser criado ou desencantado neste momento. Entre em contato com o Atendimento ao Cliente.	
 GLUE_COLLECTION_CARD_NEW	NOVO!	
 GLUE_COLLECTION_CARD_PERMISSION_ERROR	Opa! Você não tem permissão para criar ou desencantar este card. Entre em contato com o Atendimento ao Cliente.	
 GLUE_COLLECTION_CARD_SOULBOUND	Opa! Você não pode criar ou desencantar um card vinculado. Entre em contato com o Atendimento ao Cliente.	
@@ -143,6 +144,8 @@ GLUE_CRAFTING_DISENCHANT	Desencantar
 GLUE_CRAFTING_DISENCHANT_CONFIRM_DESC	Tem certeza? Os seguintes decks serão invalidados:	
 GLUE_CRAFTING_DISENCHANT_CONFIRM_HEADER	Desencantar	
 GLUE_CRAFTING_DISENCHANT_CONFIRM2_DESC	Tem certeza? Desencantar este card deixará você com menos cards do que você poderia usar em um deck.	
+GLUE_CRAFTING_EVENT_NOT_ACTIVE_DESCRIPTION	{0} cards ainda não podem ser criados ou desencantados.	
+GLUE_CRAFTING_EVENT_NOT_ACTIVE_TITLE	Breve	
 GLUE_CRAFTING_GOLDEN_BRM	Montanha Rocha Negra	
 GLUE_CRAFTING_GOLDEN_NAXX	Naxxramas	
 GLUE_CRAFTING_SOULBOUND	Vinculado	
@@ -279,13 +282,20 @@ GLUE_PICK_A_REGION	Escolha uma região
 GLUE_PRACTICE	Treinar	
 GLUE_PRACTICE_HINT	Modo de Treinamento aqui	
 GLUE_QUEST_FINISHED_DAILY	Você completou todas as suas missões diárias.	
+GLUE_QUEST_LOG_ARENA	Arena	
 GLUE_QUEST_LOG_BEST_FORGE_RECORD_HEADLINE	Melhor chave de Arena	
+GLUE_QUEST_LOG_CHEST_TOOLTIP_BODY	Abra o baú no final da temporada. Aprimore o baú subindo de ranque!	
+GLUE_QUEST_LOG_CHEST_TOOLTIP_BODY_NO_CHEST	Atinja o Ranque 20 e tu será recompensado com um baú de prêmios no final da temporada!	
+GLUE_QUEST_LOG_CHEST_TOOLTIP_HEADER	Ranque {0} Baú	0=Rank number of chest
 GLUE_QUEST_LOG_CLASS_LOCKED	Bloqueado	
+GLUE_QUEST_LOG_CURRENT_CHEST	Baú Ranqueado	
 GLUE_QUEST_LOG_HEADLINE	Registro de Missões	
 GLUE_QUEST_LOG_HERO_LEVELS	Níveis de Herói	
+GLUE_QUEST_LOG_NO_CHEST	Sem Baús!	
 GLUE_QUEST_LOG_NO_QUESTS	Não há missões. É possível desbloquear novos Heróis no Modo de Treinamento.	
 GLUE_QUEST_LOG_NO_QUESTS_DAILIES_UNLOCKED	Não há missões. Volte amanhã!	
 GLUE_QUEST_LOG_PHONE_BUTTON	Missões	
+GLUE_QUEST_LOG_PLAY_MODE	Modo de Jogo	
 GLUE_QUEST_LOG_TOTAL_LEVELS	<color=#c4b47c>Nível total:</color> {0}	
 GLUE_QUEST_LOG_TOTAL_WINS_HEADLINE	Vitórias	
 GLUE_QUEST_LOG_WINS_HEADLINE	Vitórias no Modo Jogo	
@@ -344,7 +354,7 @@ GLUE_SPINNER_23	Jorge Sem-pescoço
 GLUE_SPINNER_24	Viciado em Chiclete	
 GLUE_SPINNER_25	Zé Trapaça	
 GLUE_SPINNER_26	Cara lento	
-GLUE_SPINNER_27	Órfão Mofado	
+GLUE_SPINNER_27	Baratudo	
 GLUE_SPINNER_28	Repentista Mudo	
 GLUE_SPINNER_29	Viciado em Café	
 GLUE_SPINNER_3	Comedor de massinha de primeira	
@@ -462,7 +472,8 @@ GLUE_STORE_OPEN_BUTTON_TEXT	Loja
 GLUE_STORE_PACK_BUTTON_COST_OWNED_TEXT	(Comprado)	
 GLUE_STORE_PACK_BUTTON_TEXT_PURCHASED	Já comprado	
 GLUE_STORE_PACKBUY_SUGGESTION	O melhor para\nNovos Jogadores!	
-GLUE_STORE_PACKS_BUTTON_PREORDER_TEXT	{0} pacotes pré-venda	0=number of packs
+GLUE_STORE_PACKS_BUTTON_PREORDER_TEXT	Pré-venda: {0} pacotes	0=number of packs
+GLUE_STORE_PACKS_LATEST_EXPANSION	Expansão mais recente	
 GLUE_STORE_PACKS_PREORDER_TEXT	Pré-venda	
 GLUE_STORE_PAYMENT_INFO_DETAILS	O valor será debitado do seu saldo do Battle.net. Se o saldo for insuficiente, então o método de pagamento primário na sua conta Battle.net será utilizado.\n\nIMPORTANTE: Tenha em mente que qualquer incidente ou estorno de pagamento que ocorrer para esta transação pode resultar na suspensão temporária da conta do Hearthstone até a resolução do incidente ou novo pagamento do estorno.	
 GLUE_STORE_PAYMENT_INFO_HEADLINE	Informação de pagamento	
@@ -476,7 +487,7 @@ GLUE_STORE_PRODUCT_DETAILS_HEADLINE_TGT_PACK_PRESALE	O Grande Torneio (pré-vend
 GLUE_STORE_PRODUCT_DETAILS_NAXX_PART_1	Enfrente os chefes mortais do {0} em um combate individual.	0=wing name
 GLUE_STORE_PRODUCT_DETAILS_NAXX_PART_2	Ganhe cards novos de Naxxramas para a sua coleção, incluindo 1 card Lendário!	
 GLUE_STORE_PRODUCT_DETAILS_PACK	•  5 cards {0} de Hearthstone\n• Pelo menos 1 card será Raro ou superior	0=pack type
-GLUE_STORE_PRODUCT_DETAILS_TGT_PACK_PRESALE	•  50 pacotes em um verso de card especial\n•  Cada pacote tem 5 cards, com um raro ou superior\n•  Os pacotes do Grande Torneio podem ser abertos em agosto!	
+GLUE_STORE_PRODUCT_DETAILS_TGT_PACK_PRESALE	•  50 pacotes e um verso de card especial\n•  Cada pacote tem 5 cards, com um raro ou superior\n•  Os pacotes do Grande Torneio podem ser abertos em agosto!	
 GLUE_STORE_PRODUCT_EVENT_HAS_ENDED	Este produto não está mais em pré-venda.	
 GLUE_STORE_PRODUCT_NAME_BRM_PRESALE_BUNDLE	Pré-venda da Montanha Rocha Negra	
 GLUE_STORE_PRODUCT_NAME_BRM_WING_BUNDLE	Aventura da Montanha Rocha Negra ({0} |4(Ala,Alas))	
@@ -546,7 +557,7 @@ GLUE_TIP_DEFAULT_14	Cards básicos são ganhos ao passar de nível com uma class
 GLUE_TIP_DEFAULT_15	Jogar contra oponentes reais concede EXP extra.	
 GLUE_TIP_DEFAULT_16	Clique com o botão direito no herói do seu oponente para "Silenciar" expressões.	
 GLUE_TIP_DEFAULT_16_TOUCH	Você pode tocar no herói do seu oponente para "Silenciar" as expressões dele.	
-GLUE_TIP_DEFAULT_17	Ao vencer 500 jogos no modo ranqueado com uma classe, você ganha o Herói Dourado dela.	
+GLUE_TIP_DEFAULT_17	Ao vencer 500 partidas no modo Ranqueado com uma classe, tu ganha um Herói Dourado.	
 GLUE_TIP_DEFAULT_18	Você pode adicionar amigos à sua lista de amigos usando o botão na parte inferior esquerda.	
 GLUE_TIP_DEFAULT_18_PHONE	Você pode adicionar amigos à sua lista de amigos usando o botão na parte superior esquerda.	
 GLUE_TIP_DEFAULT_19	Você pode ganhar até 25 ranques no Modo Ranqueado e, acima desses, o ranque de "Lenda".	
@@ -554,6 +565,7 @@ GLUE_TIP_DEFAULT_2	Clique com o botão direito no seu herói para escolher uma e
 GLUE_TIP_DEFAULT_2_TOUCH	Toque no seu herói para escolher uma expressão.	
 GLUE_TIP_DEFAULT_20	Observe um amigo jogar apertando o botão "Olho" na sua lista de amigos quando ele estiver em uma partida!	
 GLUE_TIP_DEFAULT_21	Jogue Hearthstone no celular, tablet e no computador. Use a mesma coleção de cards nos três!	
+GLUE_TIP_DEFAULT_22	Tu pode comprar um novo herói para sua classe favorita na Loja.	
 GLUE_TIP_DEFAULT_3	Se precisar de ajuda para construir um deck, use a "Ajuda com o deck" no Gerenciador da Coleção!	
 GLUE_TIP_DEFAULT_4	Você pode distinguir a raridade de um card pela cor da gema no centro dele.	
 GLUE_TIP_DEFAULT_5	Cores de raridade, em ordem: branco é Comum, azul é Raro, roxo é Épico e laranja é Lendário.	
@@ -561,7 +573,6 @@ GLUE_TIP_DEFAULT_6	Cada pacote de cards traz pelo menos um card raro ou melhor, 
 GLUE_TIP_DEFAULT_7	Se você ficar sem missões, amanhã tem mais!	
 GLUE_TIP_DEFAULT_8	Ao chegar no 20º ranque em uma temporada, você receberá o verso de card especial daquela temporada.	
 GLUE_TIP_DEFAULT_9	Complete as missões para receber ouro. Ouro pode ser usado para comprar pacotes ou entrar na Arena.	
-GLUE_TIP_DEFAULT_zz_UNUSED	Você também pode jogar contra seus amigos que estiverem desconectados!	
 GLUE_TIP_FORGE_0	Seu Deck da Arena irá expirar depois que você perder 3 jogos.	
 GLUE_TIP_FORGE_1	O prêmio da Arena fica melhor a cada jogo que você ganha!	
 GLUE_TIP_FORGE_2	Você não precisa jogar todos os jogos da Arena de uma só vez.	
@@ -574,7 +585,7 @@ GLUE_TIP_PLAY_5	Os decks podem conter até duas cópias de cada card, mas só um
 GLUE_TIP_PLAY_6	A Arena é uma ótima maneira de ganhar recompensas jogando em uma minicompetição.	
 GLUE_TIP_PLAY_7	Você não precisa jogar todos os jogos da Arena de uma só vez.	
 GLUE_TIP_PLAY_8	Ao chegar no 20º ranque em uma temporada, você receberá o verso de card especial daquela temporada.	
-GLUE_TIP_PRACTICE_0	Você pode desbloquear heróis clássicos ao derrotá-los no Modo de Treinamento.	
+GLUE_TIP_PRACTICE_0	Tu pode desbloquear Heróis derrotando-os no Modo de Treinamento.	
 GLUE_TIP_PRACTICE_1	O Modo de Treinamento é uma preparação para o Modo Jogo!	
 GLUE_TIP_PRACTICE_2	O Modo Jogo fará o pareamento entre você e outro jogador de perícia equivalente!	
 GLUE_TIP_PRACTICE_3	Você pode montar um deck personalizado com seus cards visitando a sua Coleção.	

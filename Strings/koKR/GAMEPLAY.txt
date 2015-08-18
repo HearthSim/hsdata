@@ -3,6 +3,7 @@ GAMEPLAY_AI_OPPONENT_NAME	여관주인
 GAMEPLAY_CHOOSE_ONE	하나 선택	will be displayed for card choices e.g. tracking
 GAMEPLAY_COIN_TOSS_LOST	추가 카드 획득	
 GAMEPLAY_COIN_TOSS_WON	선공	
+GAMEPLAY_DEFAULTCOUNTERNAME	남은 턴:	Please delete this string from all branches before 4.0.  Leave in MASTER.
 GAMEPLAY_DISCONNECT_BODY	게임이 완료되고 저장되었습니다! 하스스톤을 다시 시작해주세요.	
 GAMEPLAY_DISCONNECT_BODY_RESET	게임이 완료되고 저장되었습니다! 하스스톤 서버에 다시 접속합니다.	
 GAMEPLAY_DISCONNECT_HEADER	연결 끊김	
@@ -31,8 +32,6 @@ GAMEPLAY_MULLIGAN_STARTING_HAND	시작 카드
 GAMEPLAY_MULLIGAN_SUBTITLE	교환할 카드 선택	
 GAMEPLAY_MULLIGAN_WAITING	상대방이 아직 선택 중...	
 GAMEPLAY_NEFARIAN_TITLE	멍청하고 무능하고 실망스러운 하수인들을 해치운 자	
-GAMEPLAY_NOTIFICATION_MAX_HAND_SIZE	손에는 최대 {0}|4(장,장)의 카드를 보유할 수 있습니다.	
-GAMEPLAY_NOTIFICATION_MAX_MANA	최대 {0}|4(개,개)의 마나 수정을 보유할 수 있습니다.	
 GAMEPLAY_PlayErrors_REQ_ATTACK_GREATER_THAN_0	공격력이 0인 캐릭터는 공격할 수 없습니다.	
 GAMEPLAY_PlayErrors_REQ_ATTACKER_CAN_ATTACK	그 캐릭터는 공격할 수 없습니다.	
 GAMEPLAY_PlayErrors_REQ_ATTACKER_NOT_FROZEN	얼어붙은 캐릭터는 공격할 수 없습니다.	
@@ -47,8 +46,10 @@ GAMEPLAY_PlayErrors_REQ_DRAG_TO_PLAY	끌어서 대상을 선택해야 합니다
 GAMEPLAY_PlayErrors_REQ_ENCHANTED_TARGET	강화된 캐릭터를 선택해야 합니다.	
 GAMEPLAY_PlayErrors_REQ_ENEMY_TARGET	적을 선택해야 합니다.	
 GAMEPLAY_PlayErrors_REQ_ENEMY_TARGET_NOT_IMMUNE	그 캐릭터는 피해 면역입니다.	
+GAMEPLAY_PlayErrors_REQ_ENEMY_WEAPON_EQUIPPED	상대방이 무기를 장착해야 합니다.	
 GAMEPLAY_PlayErrors_REQ_ENOUGH_MANA	마나가 부족합니다.	
 GAMEPLAY_PlayErrors_REQ_ENTIRE_ENTOURAGE_NOT_IN_PLAY	이미 종류별로 토템을 사용 중입니다.	
+GAMEPLAY_PlayErrors_REQ_FRIENDLY_MINION_DIED_THIS_GAME	이번 게임에서 죽은 아군 하수인이 없습니다.	
 GAMEPLAY_PlayErrors_REQ_FRIENDLY_MINION_DIED_THIS_TURN	이번 턴에는 아군 하수인이 하나도 죽지 않았습니다.	
 GAMEPLAY_PlayErrors_REQ_FRIENDLY_TARGET	아군 캐릭터를 선택해야 합니다.	
 GAMEPLAY_PlayErrors_REQ_FROZEN_TARGET	얼어붙은 캐릭터를 선택해야 합니다.	
@@ -75,11 +76,14 @@ GAMEPLAY_PlayErrors_REQ_TARGET_FOR_COMBO	대상이 없으면 그 카드를 낼 �
 GAMEPLAY_PlayErrors_REQ_TARGET_FOR_NO_COMBO	대상이 없으면 그 카드를 낼 수 없습니다.	
 GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE	대상이 없으면 그 카드를 낼 수 없습니다.	
 GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE_AND_DRAGON_IN_HAND	대상이 없으면 그 카드를 낼 수 없습니다.	
+GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE_AND_MINIMUM_FRIENDLY_MINIONS	대상이 없으면 그 카드를 낼 수 없습니다.	
 GAMEPLAY_PlayErrors_REQ_TARGET_MAGNET	대상으로 삼아야 하는 하수인이 존재합니다.	
 GAMEPLAY_PlayErrors_REQ_TARGET_MAX_ATTACK	공격력이 {0} 이하인 캐릭터를 선택해야 합니다.	
 GAMEPLAY_PlayErrors_REQ_TARGET_MIN_ATTACK	공격력이 {0} 이상인 캐릭터를 선택해야 합니다.	
 GAMEPLAY_PlayErrors_REQ_TARGET_TAUNTER	도발 능력이 있는 하수인을 먼저 공격해야 합니다.	
 GAMEPLAY_PlayErrors_REQ_TARGET_TO_PLAY	대상이 없으면 그 카드를 낼 수 없습니다.	
+GAMEPLAY_PlayErrors_REQ_TARGET_WITH_BATTLECRY	전투의 함성 능력이 있는 캐릭터를 선택해야 합니다.	
+GAMEPLAY_PlayErrors_REQ_TARGET_WITH_DEATHRATTLE	죽음의 메아리 능력이 있는 캐릭터를 선택해야 합니다.	
 GAMEPLAY_PlayErrors_REQ_TARGET_WITH_RACE	적절한 종족이 아닙니다.	
 GAMEPLAY_PlayErrors_REQ_UNDAMAGED_TARGET	피해를 입지 않은 캐릭터를 선택해야 합니다.	
 GAMEPLAY_PlayErrors_REQ_UNIQUE_SECRET	이미 그 비밀을 사용했습니다.	

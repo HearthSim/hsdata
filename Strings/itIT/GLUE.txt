@@ -75,6 +75,7 @@ GLUE_COLLECTION_ALL_SETS	Tutte le carte
 GLUE_COLLECTION_ARTIST	Artista: {0}	0=artist name
 GLUE_COLLECTION_CARD_COUNT	x{0}	
 GLUE_COLLECTION_CARD_COUNT_LARGE	x9+	
+GLUE_COLLECTION_CARD_CRAFTING_EVENT_NOT_ACTIVE	Ops! Questa carta non può essere creata o disincantata in questo momento. Contatta l'assistenza clienti.	
 GLUE_COLLECTION_CARD_NEW	NUOVA!	
 GLUE_COLLECTION_CARD_PERMISSION_ERROR	Ops! Non ti è permesso creare o disincantare questa carta. Contatta l'assistenza clienti.	
 GLUE_COLLECTION_CARD_SOULBOUND	Ops! Non puoi creare o disincantare una carta vincolata. Contatta l'assistenza clienti.	
@@ -110,7 +111,7 @@ GLUE_COLLECTION_HOME_PAGE	Panoramica
 GLUE_COLLECTION_INCLUDE_PREMIUMS	Includi carte Dorate	
 GLUE_COLLECTION_LOCK_MAX_DECK_COPIES	Limite mazzo: {0}	
 GLUE_COLLECTION_LOCK_NO_MORE_INSTANCES	Nessuna rimasta	
-GLUE_COLLECTION_MANAGER_CARD_BACKS_TITLE	Dorsi delle carte	
+GLUE_COLLECTION_MANAGER_CARD_BACKS_TITLE	Dorsi	
 GLUE_COLLECTION_MANAGER_FAVORITE_BUTTON	Rendi preferito	
 GLUE_COLLECTION_MANAGER_FAVORITE_CARD_BACK	Preferito	
 GLUE_COLLECTION_MANAGER_FAVORITE_DEFAULT_TEXT	{0} preferito	
@@ -143,6 +144,8 @@ GLUE_CRAFTING_DISENCHANT	Disincanta
 GLUE_CRAFTING_DISENCHANT_CONFIRM_DESC	Vuoi davvero procedere? I seguenti mazzi verranno invalidati:	
 GLUE_CRAFTING_DISENCHANT_CONFIRM_HEADER	Disincanta	
 GLUE_CRAFTING_DISENCHANT_CONFIRM2_DESC	Vuoi davvero procedere? Disincantando questa carta rimarresti con meno carte di quante ne potresti utilizzare in un mazzo.	
+GLUE_CRAFTING_EVENT_NOT_ACTIVE_DESCRIPTION	Le carte {0} non possono attualmente essere create o disincantate.	
+GLUE_CRAFTING_EVENT_NOT_ACTIVE_TITLE	Prossimamente	
 GLUE_CRAFTING_GOLDEN_BRM	Massiccio Roccianera	
 GLUE_CRAFTING_GOLDEN_NAXX	Naxxramas	
 GLUE_CRAFTING_SOULBOUND	Vincolata	
@@ -164,7 +167,7 @@ GLUE_DRAFT_PLAY_BUTTON	GIOCA
 GLUE_DRAFT_RETIRE_BUTTON	RITIRATI	
 GLUE_DRAFT_WINS_LABEL	Vittorie	
 GLUE_EDIT	Modifica	
-GLUE_EDIT_DECK	Modifica mazzo	
+GLUE_EDIT_DECK	Modifica il mazzo	
 GLUE_FORGE	Arena	
 GLUE_FORGE_EXTRA_PRIZE_LABEL	{0} |4(vittoria,vittorie)	0 = number of wins required to earn this prize
 GLUE_FORGE_MANATIP_DESC	Queste sono le carte nel tuo mazzo, ordinate per costo in Mana.	
@@ -279,13 +282,20 @@ GLUE_PICK_A_REGION	Scegli una regione
 GLUE_PRACTICE	Allenamento	
 GLUE_PRACTICE_HINT	Modalità Allenamento	
 GLUE_QUEST_FINISHED_DAILY	Hai completato tutte le tue missioni giornaliere.	
+GLUE_QUEST_LOG_ARENA	Arena	
 GLUE_QUEST_LOG_BEST_FORGE_RECORD_HEADLINE	Miglior risultato nell'Arena	
+GLUE_QUEST_LOG_CHEST_TOOLTIP_BODY	Apri il forziere alla fine della stagione. Potenzialo raggiungendo un grado maggiore!	
+GLUE_QUEST_LOG_CHEST_TOOLTIP_BODY_NO_CHEST	Raggiungendo il grado 20, alla fine della stagione otterrai un forziere contenente dei premi!	
+GLUE_QUEST_LOG_CHEST_TOOLTIP_HEADER	Forziere di grado {0}	0=Rank number of chest
 GLUE_QUEST_LOG_CLASS_LOCKED	Bloccato	
+GLUE_QUEST_LOG_CURRENT_CHEST	Forziere	
 GLUE_QUEST_LOG_HEADLINE	Registro missioni	
 GLUE_QUEST_LOG_HERO_LEVELS	Livello degli eroi	
+GLUE_QUEST_LOG_NO_CHEST	Ancora nessun forziere!	
 GLUE_QUEST_LOG_NO_QUESTS	Non hai alcuna missione.\nSblocca nuovi eroi in modalità Allenamento!	
 GLUE_QUEST_LOG_NO_QUESTS_DAILIES_UNLOCKED	Non hai alcuna missione. Riprova domani!	
 GLUE_QUEST_LOG_PHONE_BUTTON	Missioni	
+GLUE_QUEST_LOG_PLAY_MODE	Modalità Gioco	
 GLUE_QUEST_LOG_TOTAL_LEVELS	<color=#c4b47c>Livello totale:</color> {0}	
 GLUE_QUEST_LOG_TOTAL_WINS_HEADLINE	Vittorie totali	
 GLUE_QUEST_LOG_WINS_HEADLINE	Vittorie in modalità Gioco	
@@ -463,6 +473,7 @@ GLUE_STORE_PACK_BUTTON_COST_OWNED_TEXT	(Acquistato)
 GLUE_STORE_PACK_BUTTON_TEXT_PURCHASED	Già acquistato	
 GLUE_STORE_PACKBUY_SUGGESTION	Ideale per i\nnuovi giocatori!	
 GLUE_STORE_PACKS_BUTTON_PREORDER_TEXT	Preacquisto di {0} buste	0=number of packs
+GLUE_STORE_PACKS_LATEST_EXPANSION	Nuova espansione	
 GLUE_STORE_PACKS_PREORDER_TEXT	Preacquista	
 GLUE_STORE_PAYMENT_INFO_DETAILS	I fondi saranno prima detratti dal tuo saldo Battle.net. Se quelli disponibili dovessero rivelarsi insufficienti, verrà utilizzato il metodo di pagamento predefinito del tuo account Battle.net.\n\nIMPORTANTE: problemi con il pagamento o richieste di storno da parte dell'utente relativi a questa transazione potrebbero comportare la temporanea sospensione dell'account finché il problema non verrà risolto o il saldo dovuto non verrà pagato.	
 GLUE_STORE_PAYMENT_INFO_HEADLINE	Info sui pagamenti	
@@ -515,7 +526,7 @@ GLUE_STORE_SUMMARY_TOS_AGREEMENT_EU	Cliccando su "{0}" accetti le Condizioni di 
 GLUE_STORE_TERMS_OF_SALE_BUTTON_TEXT	?	
 GLUE_STORE_TGT_PREORDER_DATE	Arriva ad agosto!	
 GLUE_TAVERN_BRAWL_HAS_ENDED_HEADER	Fine dell'evento	
-GLUE_TAVERN_BRAWL_HAS_ENDED_TEXT	Questo evento Rissa è terminato. Un altro sarà disponibile molto presto!	
+GLUE_TAVERN_BRAWL_HAS_ENDED_TEXT	Questa Rissa è terminata. Un'altra sarà disponibile molto presto!	
 GLUE_TAVERN_BRAWL_LABEL_ENDING_DAYS	Termina fra {0} |4(giorno,giorni)	
 GLUE_TAVERN_BRAWL_LABEL_ENDING_HOURS	Termina fra {0} |4(ora,ore)	
 GLUE_TAVERN_BRAWL_LABEL_ENDING_MINUTES	Termina fra {0} |4(minuto,minuti)	
@@ -546,7 +557,7 @@ GLUE_TIP_DEFAULT_14	Le carte Base si ottengono salendo di livello con una classe
 GLUE_TIP_DEFAULT_15	Affrontando giocatori reali otterrai esperienza aggiuntiva.	
 GLUE_TIP_DEFAULT_16	Puoi cliccare col pulsante destro sull'eroe avversario per "silenziare" le sue emote.	
 GLUE_TIP_DEFAULT_16_TOUCH	Puoi toccare l'eroe avversario per "silenziare" le sue emote.	
-GLUE_TIP_DEFAULT_17	Se vinci 500 partite in modalità Classificata con una classe,\nsbloccherai l'immagine dorata del relativo eroe Classico.	
+GLUE_TIP_DEFAULT_17	Vincendo 500 partite in modalità Classificata con una classe,\nsbloccherai l'immagine dorata del relativo eroe.	
 GLUE_TIP_DEFAULT_18	Puoi aggiungere amici al tuo elenco amici usando il pulsante in basso a sinistra.	
 GLUE_TIP_DEFAULT_18_PHONE	Puoi aggiungere amici al tuo elenco amici usando il pulsante in alto a sinistra.	
 GLUE_TIP_DEFAULT_19	In modalità Classificata ci sono 25 gradi diversi.\nSuperati tutti, si raggiunge il grado "Leggenda".	
@@ -554,14 +565,14 @@ GLUE_TIP_DEFAULT_2	Clicca col pulsante destro sul tuo eroe per usare le emote.
 GLUE_TIP_DEFAULT_2_TOUCH	Tocca il tuo eroe per usare le emote.	
 GLUE_TIP_DEFAULT_20	Puoi osservare un amico mentre è impegnato in una partita premendo il pulsante a forma di occhio nell'elenco amici!	
 GLUE_TIP_DEFAULT_21	Gioca a Hearthstone sul telefono, sul tablet o sul computer. Usa la stessa collezione di carte su tutti e tre!	
+GLUE_TIP_DEFAULT_22	Nel negozio puoi acquistare un nuovo eroe per la tua classe preferita.	
 GLUE_TIP_DEFAULT_3	Se hai bisogno di aiuto nella creazione di un mazzo,\nusa la funzione "Suggerimenti" nella collezione personale.	
 GLUE_TIP_DEFAULT_4	La gemma colorata al centro della carta indica il suo livello di rarità.	
 GLUE_TIP_DEFAULT_5	In ordine crescente, la rarità delle carte è: bianco per Comune,\nblu per Rara, viola per Epica e arancione per Leggendaria.	
 GLUE_TIP_DEFAULT_6	Ogni busta contiene almeno una carta Rara o migliore,\nma potrebbero essercene anche altre!	
 GLUE_TIP_DEFAULT_7	Se hai completato tutte le missioni,\ntorna domani per riceverne una nuova.	
-GLUE_TIP_DEFAULT_8	Se raggiungi il grado 20 in una stagione,\notterrai un dorso delle carte speciale.	
+GLUE_TIP_DEFAULT_8	Raggiungendo il grado 20 in una stagione,\notterrai un dorso delle carte speciale.	
 GLUE_TIP_DEFAULT_9	Completa le missioni per guadagnare oro, che può essere utilizzato per acquistare buste o l'accesso all'Arena.	
-GLUE_TIP_DEFAULT_zz_UNUSED	Puoi sfidare i tuoi amici anche se non sono connessi!	
 GLUE_TIP_FORGE_0	Il tuo mazzo Arena scomparirà dopo aver perso 3 partite.	
 GLUE_TIP_FORGE_1	Le ricompense dell'Arena migliorano a ogni partita che vinci!	
 GLUE_TIP_FORGE_2	Non è necessario giocare tutte le partite dell'Arena in una volta sola.	
@@ -573,8 +584,8 @@ GLUE_TIP_PLAY_4	In modalità Classificata ci sono 25 gradi diversi. Superati tut
 GLUE_TIP_PLAY_5	I mazzi possono contenere due copie di ogni carta, ma solo una copia di una carta leggendaria.	
 GLUE_TIP_PLAY_6	L'Arena è un ottimo modo per ottenere nuove ricompense mentre affronti una piccola competizione.	
 GLUE_TIP_PLAY_7	Non è necessario giocare tutte le partite dell'Arena in una volta sola.	
-GLUE_TIP_PLAY_8	Se raggiungi il grado 20 in una stagione, otterrai un dorso delle carte speciale.	
-GLUE_TIP_PRACTICE_0	Puoi sbloccare gli eroi Classici sconfiggendoli in modalità Allenamento.	
+GLUE_TIP_PLAY_8	Raggiungendo il grado 20 in una stagione, otterrai un dorso delle carte speciale.	
+GLUE_TIP_PRACTICE_0	Puoi sbloccare gli eroi sconfiggendoli in modalità Allenamento.	
 GLUE_TIP_PRACTICE_1	La modalità Allenamento è una buona palestra prima della modalità Gioco!	
 GLUE_TIP_PRACTICE_2	Nella modalità Gioco potrai affrontare avversari\ndel tuo stesso livello di abilità!	
 GLUE_TIP_PRACTICE_3	Puoi comporre un mazzo personalizzato con le tue carte\naccedendo alla tua collezione.	
@@ -586,7 +597,7 @@ GLUE_TIP_TAVERNBRAWL_0	Ogni settimana sarà disponibile una nuova Rissa con foll
 GLUE_TIP_TAVERNBRAWL_1	Servono un paio di giorni per ripulire alla fine di una Rissa; se non è disponibile, prova prossimamente!	
 GLUE_TIP_TAVERNBRAWL_2	Durante l'evento di lancio, ogni settimana vinci una busta Classica con la prima vittoria in modalità Rissa!	
 GLUE_TIP_TAVERNBRAWL_3	Vincere più partite in modalità Rissa non fornisce premi aggiuntivi, ma è divertente!	
-GLUE_TIP_TAVERNBRAWL_4	In alcune settimane verrà fornito un mazzo, in altre dovrai crearne uno tu. È sempre una sorpresa!	
+GLUE_TIP_TAVERNBRAWL_4	In alcune settimane verrà fornito un mazzo precostruito,\nin altre dovrai crearne uno tu. È sempre una sorpresa!	
 GLUE_TIP_TAVERNBRAWL_5	Alcune Risse potrebbero ritornare in futuro.	
 GLUE_TIP_TAVERNBRAWL_6	Puoi sfidare un amico a una Rissa lanciando una sfida dalla schermata della Rissa.	
 GLUE_TIP_TAVERNBRAWL_7	Puoi completare le missioni giornaliere giocando in modalità Rissa!	

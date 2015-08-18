@@ -75,6 +75,7 @@ GLUE_COLLECTION_ALL_SETS	按来源
 GLUE_COLLECTION_ARTIST	画家: {0}	0=artist name
 GLUE_COLLECTION_CARD_COUNT	x{0}	
 GLUE_COLLECTION_CARD_COUNT_LARGE	x9+	
+GLUE_COLLECTION_CARD_CRAFTING_EVENT_NOT_ACTIVE	糟糕！现在还不能制作或者分解那张卡牌，请联系用户支持。	
 GLUE_COLLECTION_CARD_NEW	新！	
 GLUE_COLLECTION_CARD_PERMISSION_ERROR	糟糕！你不能制作或者分解那张卡牌，请联系用户支持。	
 GLUE_COLLECTION_CARD_SOULBOUND	糟糕！你不能制作或者分解那张卡牌，请联系用户支持。	
@@ -143,6 +144,8 @@ GLUE_CRAFTING_DISENCHANT	分解
 GLUE_CRAFTING_DISENCHANT_CONFIRM_DESC	你确定吗？以下套牌将无法运作：	
 GLUE_CRAFTING_DISENCHANT_CONFIRM_HEADER	分解	
 GLUE_CRAFTING_DISENCHANT_CONFIRM2_DESC	你确定要这么做吗？将该牌分解后，你将没有足够的同名卡牌加入你的套牌。	
+GLUE_CRAFTING_EVENT_NOT_ACTIVE_DESCRIPTION	现在还不能制作或者分解{0}卡牌。	
+GLUE_CRAFTING_EVENT_NOT_ACTIVE_TITLE	即将上线	
 GLUE_CRAFTING_GOLDEN_BRM	黑石山	
 GLUE_CRAFTING_GOLDEN_NAXX	纳克萨玛斯	
 GLUE_CRAFTING_SOULBOUND	灵魂绑定	
@@ -279,13 +282,20 @@ GLUE_PICK_A_REGION	选择一个地区
 GLUE_PRACTICE	练习模式	
 GLUE_PRACTICE_HINT	练习模式在这里	
 GLUE_QUEST_FINISHED_DAILY	你已经完成了所有每日任务。	
+GLUE_QUEST_LOG_ARENA	竞技模式	
 GLUE_QUEST_LOG_BEST_FORGE_RECORD_HEADLINE	最佳竞技模式钥匙	
+GLUE_QUEST_LOG_CHEST_TOOLTIP_BODY	你可以在赛季结束时打开相应的宝箱。\n在排名模式中取得更好的成绩来升级你的宝箱品质！	
+GLUE_QUEST_LOG_CHEST_TOOLTIP_BODY_NO_CHEST	如果你在一个赛季中获得20级或以上的排名，你就能够在赛季结束时获得包含奖励的宝箱！	
+GLUE_QUEST_LOG_CHEST_TOOLTIP_HEADER	{0}级宝箱	0=Rank number of chest
 GLUE_QUEST_LOG_CLASS_LOCKED	未解锁	
+GLUE_QUEST_LOG_CURRENT_CHEST	排名模式宝箱	
 GLUE_QUEST_LOG_HEADLINE	任务栏	
 GLUE_QUEST_LOG_HERO_LEVELS	英雄等级	
+GLUE_QUEST_LOG_NO_CHEST	还未获得宝箱！	
 GLUE_QUEST_LOG_NO_QUESTS	你没有任务。你可以在练习模式中解锁新的英雄！	
 GLUE_QUEST_LOG_NO_QUESTS_DAILIES_UNLOCKED	你没有任务。明天再回来看看！	
 GLUE_QUEST_LOG_PHONE_BUTTON	任务	
+GLUE_QUEST_LOG_PLAY_MODE	对战模式	
 GLUE_QUEST_LOG_TOTAL_LEVELS	<color=#c4b47c>总体等级：</color> {0}	
 GLUE_QUEST_LOG_TOTAL_WINS_HEADLINE	获胜局数	
 GLUE_QUEST_LOG_WINS_HEADLINE	对战模式胜利	
@@ -344,7 +354,7 @@ GLUE_SPINNER_23	短脖子乔治
 GLUE_SPINNER_24	嚼口香糖的恶魔	
 GLUE_SPINNER_25	作弊程序工程师	
 GLUE_SPINNER_26	慢性子牌手	
-GLUE_SPINNER_27	魔都孤儿	
+GLUE_SPINNER_27	卖蟑螂的小男孩	
 GLUE_SPINNER_28	瘟疫青年	
 GLUE_SPINNER_29	不喝咖啡会死星人	
 GLUE_SPINNER_3	顶级大胃王	
@@ -463,6 +473,7 @@ GLUE_STORE_PACK_BUTTON_COST_OWNED_TEXT	（已购买）
 GLUE_STORE_PACK_BUTTON_TEXT_PURCHASED	已经购买	
 GLUE_STORE_PACKBUY_SUGGESTION	最适合\n新玩家	
 GLUE_STORE_PACKS_BUTTON_PREORDER_TEXT	预购{0}包	0=number of packs
+GLUE_STORE_PACKS_LATEST_EXPANSION	最新内容	
 GLUE_STORE_PACKS_PREORDER_TEXT	预购	
 GLUE_STORE_PAYMENT_INFO_DETAILS	在支付时，你的战网点数将会被优先扣除。如果战网点数不足，则需要你登录战网进行充值。\n\n请注意：在本次交易中，任何付款或者退款都会造成该《炉石传说》账号暂时冻结，直到付款完成，或者退款款项被重新支付。	
 GLUE_STORE_PAYMENT_INFO_HEADLINE	支付信息	
@@ -476,7 +487,7 @@ GLUE_STORE_PRODUCT_DETAILS_HEADLINE_TGT_PACK_PRESALE	冠军的试炼（预购）
 GLUE_STORE_PRODUCT_DETAILS_NAXX_PART_1	在单人对战中与{0}的首领们进行战斗	0=wing name
 GLUE_STORE_PRODUCT_DETAILS_NAXX_PART_2	将全新纳克萨玛斯特殊卡牌加入收藏，包括1张传说卡牌！	
 GLUE_STORE_PRODUCT_DETAILS_PACK	•  5张{0} 《炉石传说》卡牌\n•  至少1张为稀有或更高品质	0=pack type
-GLUE_STORE_PRODUCT_DETAILS_TGT_PACK_PRESALE	•  50包扩展包和一款特殊卡背图案\n•  每包含有5张卡牌，其中1张为稀有或更高品质\n•  冠军的试炼扩展包将在8月隆重开启！	
+GLUE_STORE_PRODUCT_DETAILS_TGT_PACK_PRESALE	•  50包扩展包和一款特殊卡背图案\n•  每包含有5张卡牌，其中1张为稀有或更高品质\n•  冠军的试炼将在8月隆重开启！	
 GLUE_STORE_PRODUCT_EVENT_HAS_ENDED	该产品的预购已经结束。	
 GLUE_STORE_PRODUCT_NAME_BRM_PRESALE_BUNDLE	预购“黑石山的火焰”	
 GLUE_STORE_PRODUCT_NAME_BRM_WING_BUNDLE	黑石山冒险模式（{0}个区）	
@@ -546,7 +557,7 @@ GLUE_TIP_DEFAULT_14	基本卡牌能够在某个职业升级时获得。经典卡
 GLUE_TIP_DEFAULT_15	与真实玩家进行对战使你可以获取额外的经验值。	
 GLUE_TIP_DEFAULT_16	你可以右键点击对手的英雄来“无视”对方的表情。	
 GLUE_TIP_DEFAULT_16_TOUCH	您可以点击对手的英雄来“无视”对方的表情。	
-GLUE_TIP_DEFAULT_17	如果你在排名模式中用同一个职业赢得500场对战，你将获得该职业的金色经典英雄。	
+GLUE_TIP_DEFAULT_17	如果你在排名模式中用同一个职业赢得500场对战，你将获得该职业的金色英雄。	
 GLUE_TIP_DEFAULT_18	你可以通过左下方的按钮在好友列表中添加好友。	
 GLUE_TIP_DEFAULT_18_PHONE	你可以使用左上方的按钮添加好友。	
 GLUE_TIP_DEFAULT_19	在排名对战模式中有25个不同的排名等级，而在这些等级之上，还有“传说”等级。	
@@ -554,6 +565,7 @@ GLUE_TIP_DEFAULT_2	右键点击你的英雄，和对手打个招呼吧。
 GLUE_TIP_DEFAULT_2_TOUCH	点击英雄头像可以发送表情。	
 GLUE_TIP_DEFAULT_20	在好友进行对战时，你只需要点击“眼睛”按钮就能够观看他们的游戏了！	
 GLUE_TIP_DEFAULT_21	在手机、平板电脑和电脑上玩《炉石传说》，你的卡牌收藏将在这三种设备上共享。	
+GLUE_TIP_DEFAULT_22	如果你喜欢某个职业，可以去牌店购买该职业的新英雄。	
 GLUE_TIP_DEFAULT_3	如果在构筑套牌的过程中需要帮助，请使用卡牌收藏界面中的“套牌助手”！	
 GLUE_TIP_DEFAULT_4	在卡牌中央的宝石颜色显示出某张卡牌的稀有度。	
 GLUE_TIP_DEFAULT_5	稀有度所对应的颜色，由低到高依次为：白色为普通，蓝色为稀有，紫色为史诗，橙色为传说。	
@@ -561,7 +573,6 @@ GLUE_TIP_DEFAULT_6	每包扩展包至少含有1张稀有或更高品质的卡牌
 GLUE_TIP_DEFAULT_7	如果你当天的任务都完成了，就明天再来看看有什么新的任务吧！	
 GLUE_TIP_DEFAULT_8	如果你在一个赛季中获得20级或以上的排名，你就能够获得该赛季的特别卡牌背面图案。	
 GLUE_TIP_DEFAULT_9	完成任务来获得金币。金币能够用来购买扩展包或是进入竞技模式。	
-GLUE_TIP_DEFAULT_zz_UNUSED	即使你的好友不在线，你仍然可以和他们对战！	
 GLUE_TIP_FORGE_0	你在竞技模式中打造的套牌将一直为你征战，直到你输掉3场比赛。	
 GLUE_TIP_FORGE_1	在竞技模式中，你赢得的每一场比赛都将使你获得更加丰富的奖品！	
 GLUE_TIP_FORGE_2	你不必一次打完所有竞技模式的比赛。	
@@ -574,7 +585,7 @@ GLUE_TIP_PLAY_5	在一副套牌中，最多只能含有两张同名卡牌，但�
 GLUE_TIP_PLAY_6	在竞技模式中，你可以磨练组牌技巧，然后小试身手，赢取丰厚奖励！	
 GLUE_TIP_PLAY_7	你不必一次打完所有竞技模式的比赛。	
 GLUE_TIP_PLAY_8	如果你在一个赛季中获得20级或以上的排名，你就能够获得该赛季的特别卡牌背面图案。	
-GLUE_TIP_PRACTICE_0	当你在练习模式下击败其他职业，就能解锁他们的经典英雄。	
+GLUE_TIP_PRACTICE_0	当你在练习模式下击败其他职业，就能解锁他们的英雄。	
 GLUE_TIP_PRACTICE_1	练习模式只是对战模式的赛前准备！	
 GLUE_TIP_PRACTICE_2	在对战模式中，你会遇到和你实力相近的对手！	
 GLUE_TIP_PRACTICE_3	浏览你的卡牌收藏，组建你自己的套牌。	
@@ -585,7 +596,7 @@ GLUE_TIP_PRACTICE_7	在10级以后，与真实玩家对战能够使你获得更�
 GLUE_TIP_TAVERNBRAWL_0	每周乱斗模式都会开放一个全新的疯狂玩法！	
 GLUE_TIP_TAVERNBRAWL_1	我们需要花费数日来整理玩家在乱斗后留下的烂摊子。要是现在进不来，就回头再来吧！	
 GLUE_TIP_TAVERNBRAWL_2	发布庆典期间，每周赢得第一场乱斗模式可获得一包经典扩展包。	
-GLUE_TIP_TAVERNBRAWL_3	在乱斗模式下赢得数场比赛并不意味着能拿到数个卡包，开心就好！	
+GLUE_TIP_TAVERNBRAWL_3	在乱斗模式下赢得数场比赛并不意味着能拿到数包扩展包，你开心就好！	
 GLUE_TIP_TAVERNBRAWL_4	有时会提供给你现成的牌组，有时则需要你自己来组建一副。总有惊喜等着你！	
 GLUE_TIP_TAVERNBRAWL_5	乱斗模式的某些规则会在将来再次出现。	
 GLUE_TIP_TAVERNBRAWL_6	当你在乱斗模式下挑战你的朋友时，你们就可以在该模式里一较高下了。	
