@@ -3,6 +3,7 @@ GAMEPLAY_AI_OPPONENT_NAME	Gastwirt
 GAMEPLAY_CHOOSE_ONE	Wählt aus:	will be displayed for card choices e.g. tracking
 GAMEPLAY_COIN_TOSS_LOST	Ihr erhaltet eine weitere Karte.	
 GAMEPLAY_COIN_TOSS_WON	Ihr seid zuerst dran.	
+GAMEPLAY_DEFAULTCOUNTERNAME	Verbleibende Runden:	Please delete this string from all branches before 4.0.  Leave in MASTER.
 GAMEPLAY_DISCONNECT_BODY	Spiel abgeschlossen und gespeichert! Bitte starten Sie Hearthstone neu, um fortzufahren.	
 GAMEPLAY_DISCONNECT_BODY_RESET	Spiel abgeschlossen und gespeichert! Verbindung zu den Hearthstone-Servern wird wiederhergestellt.	
 GAMEPLAY_DISCONNECT_HEADER	Verbindung unterbrochen	
@@ -31,8 +32,6 @@ GAMEPLAY_MULLIGAN_STARTING_HAND	Starthand
 GAMEPLAY_MULLIGAN_SUBTITLE	   Karten behalten oder ersetzen   	
 GAMEPLAY_MULLIGAN_WAITING	Gegner wählt noch aus ...	
 GAMEPLAY_NEFARIAN_TITLE	Schlächter von dummen, inkompetenten und enttäuschenden Lakaien	
-GAMEPLAY_NOTIFICATION_MAX_HAND_SIZE	Ihr könnt nur {0} |4(Karte,Karten) auf Eurer Hand haben.	
-GAMEPLAY_NOTIFICATION_MAX_MANA	Ihr könnt nur {0} |4(Manakristall,Manakristalle) besitzen.	
 GAMEPLAY_PlayErrors_REQ_ATTACK_GREATER_THAN_0	Ein Charakter ohne Angriffswert kann nicht angreifen.	
 GAMEPLAY_PlayErrors_REQ_ATTACKER_CAN_ATTACK	Dieser Charakter kann nicht angreifen.	
 GAMEPLAY_PlayErrors_REQ_ATTACKER_NOT_FROZEN	Eingefrorene Charaktere können nicht angreifen.	
@@ -47,9 +46,11 @@ GAMEPLAY_PlayErrors_REQ_DRAG_TO_PLAY	Muss zu einem Ziel gezogen werden.
 GAMEPLAY_PlayErrors_REQ_ENCHANTED_TARGET	Wählt einen verzauberten Charakter aus.	
 GAMEPLAY_PlayErrors_REQ_ENEMY_TARGET	Wählt einen Feind aus.	
 GAMEPLAY_PlayErrors_REQ_ENEMY_TARGET_NOT_IMMUNE	Dieser Charakter ist immun.	
+GAMEPLAY_PlayErrors_REQ_ENEMY_WEAPON_EQUIPPED	Euer Gegner muss eine Waffe haben.	
 GAMEPLAY_PlayErrors_REQ_ENOUGH_MANA	Nicht genug Mana.	
 GAMEPLAY_PlayErrors_REQ_ENTIRE_ENTOURAGE_NOT_IN_PLAY	Ihr verfügt bereits über ein Totem jedes Typs.	
-GAMEPLAY_PlayErrors_REQ_FRIENDLY_MINION_DIED_THIS_TURN	In diesem Zug sind keine verbündeten Diener gestorben.	
+GAMEPLAY_PlayErrors_REQ_FRIENDLY_MINION_DIED_THIS_GAME	In diesem Spiel sind keine befreundeten Diener gestorben.	
+GAMEPLAY_PlayErrors_REQ_FRIENDLY_MINION_DIED_THIS_TURN	In diesem Zug sind keine befreundeten Diener gestorben.	
 GAMEPLAY_PlayErrors_REQ_FRIENDLY_TARGET	Wählt einen befreundeten Charakter aus.	
 GAMEPLAY_PlayErrors_REQ_FROZEN_TARGET	Wählt einen eingefrorenen Charakter aus.	
 GAMEPLAY_PlayErrors_REQ_HERO_OR_MINION_TARGET	Ihr müsst einen Charakter als Ziel wählen.	
@@ -75,11 +76,14 @@ GAMEPLAY_PlayErrors_REQ_TARGET_FOR_COMBO	Ihr könnt das nicht tun, ohne ein Ziel
 GAMEPLAY_PlayErrors_REQ_TARGET_FOR_NO_COMBO	Ihr könnt das nicht tun, ohne ein Ziel zu wählen.	
 GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE	Ihr könnt das nicht tun, ohne ein Ziel zu wählen.	
 GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE_AND_DRAGON_IN_HAND	Ihr könnt das nicht tun, ohne ein Ziel zu wählen.	
+GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE_AND_MINIMUM_FRIENDLY_MINIONS	Ihr könnt das nicht tun, ohne ein Ziel zu wählen.	
 GAMEPLAY_PlayErrors_REQ_TARGET_MAGNET	Es gibt einen Diener, den Ihr als Ziel wählen müsst.	
 GAMEPLAY_PlayErrors_REQ_TARGET_MAX_ATTACK	Wählt einen Charakter mit max. {0} Angriff aus.	
 GAMEPLAY_PlayErrors_REQ_TARGET_MIN_ATTACK	Wählt einen Charakter mit mind. {0} Angriff aus.	
 GAMEPLAY_PlayErrors_REQ_TARGET_TAUNTER	Ihr müsst einen Diener mit Spott angreifen.	
 GAMEPLAY_PlayErrors_REQ_TARGET_TO_PLAY	Ihr könnt das nicht tun, ohne ein Ziel zu wählen.	
+GAMEPLAY_PlayErrors_REQ_TARGET_WITH_BATTLECRY	Wählt einen Charakter mit Kampfschrei aus.	
+GAMEPLAY_PlayErrors_REQ_TARGET_WITH_DEATHRATTLE	Wählt einen Charakter mit Todesröcheln aus.	
 GAMEPLAY_PlayErrors_REQ_TARGET_WITH_RACE	Das ist nicht der korrekte Dienertyp.	
 GAMEPLAY_PlayErrors_REQ_UNDAMAGED_TARGET	Ihr müsst einen unverletzten Charakter als Ziel wählen.	
 GAMEPLAY_PlayErrors_REQ_UNIQUE_SECRET	Ihr verfügt bereits über dieses Geheimnis.	

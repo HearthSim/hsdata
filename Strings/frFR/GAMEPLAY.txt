@@ -3,6 +3,7 @@ GAMEPLAY_AI_OPPONENT_NAME	Aubergiste
 GAMEPLAY_CHOOSE_ONE	Choisir	will be displayed for card choices e.g. tracking
 GAMEPLAY_COIN_TOSS_LOST	Une carte supplémentaire	
 GAMEPLAY_COIN_TOSS_WON	Vous commencez	
+GAMEPLAY_DEFAULTCOUNTERNAME	Tours avant de sortir :	Please delete this string from all branches before 4.0.  Leave in MASTER.
 GAMEPLAY_DISCONNECT_BODY	Partie terminée et enregistrée ! Relancez Hearthstone pour continuer.	
 GAMEPLAY_DISCONNECT_BODY_RESET	Partie terminée et enregistrée ! Reconnexion aux serveurs Hearthstone en cours.	
 GAMEPLAY_DISCONNECT_HEADER	Déconnecté(e)	
@@ -31,8 +32,6 @@ GAMEPLAY_MULLIGAN_STARTING_HAND	Main de départ
 GAMEPLAY_MULLIGAN_SUBTITLE	Remplacement des cartes	
 GAMEPLAY_MULLIGAN_WAITING	Adversaire en train de choisir...	
 GAMEPLAY_NEFARIAN_TITLE	Tueur de serviteurs stupides, incompétents et décevants	
-GAMEPLAY_NOTIFICATION_MAX_HAND_SIZE	Vous ne pouvez avoir que {0} |4(carte,cartes) dans votre main	
-GAMEPLAY_NOTIFICATION_MAX_MANA	Vous ne pouvez avoir que {0} |4(cristal de mana,cristaux de mana)	
 GAMEPLAY_PlayErrors_REQ_ATTACK_GREATER_THAN_0	Un personnage sans valeur d’attaque ne peut pas attaquer	
 GAMEPLAY_PlayErrors_REQ_ATTACKER_CAN_ATTACK	Ce personnage ne peut pas attaquer	
 GAMEPLAY_PlayErrors_REQ_ATTACKER_NOT_FROZEN	Les personnages gelés ne peuvent pas attaquer	
@@ -47,8 +46,10 @@ GAMEPLAY_PlayErrors_REQ_DRAG_TO_PLAY	Vous devez le faire glisser vers une cible
 GAMEPLAY_PlayErrors_REQ_ENCHANTED_TARGET	Sélectionnez un personnage enchanté	
 GAMEPLAY_PlayErrors_REQ_ENEMY_TARGET	Sélectionnez un adversaire	
 GAMEPLAY_PlayErrors_REQ_ENEMY_TARGET_NOT_IMMUNE	Ce personnage est insensible	
+GAMEPLAY_PlayErrors_REQ_ENEMY_WEAPON_EQUIPPED	Votre adversaire doit avoir une arme	
 GAMEPLAY_PlayErrors_REQ_ENOUGH_MANA	Pas assez de mana	
 GAMEPLAY_PlayErrors_REQ_ENTIRE_ENTOURAGE_NOT_IN_PLAY	Vous avez déjà un totem de chaque type	
+GAMEPLAY_PlayErrors_REQ_FRIENDLY_MINION_DIED_THIS_GAME	Aucun serviteur adverse n’est mort pendant cette partie	
 GAMEPLAY_PlayErrors_REQ_FRIENDLY_MINION_DIED_THIS_TURN	Aucun serviteur allié n’est mort pendant ce tour	
 GAMEPLAY_PlayErrors_REQ_FRIENDLY_TARGET	Sélectionnez un personnage allié	
 GAMEPLAY_PlayErrors_REQ_FROZEN_TARGET	Sélectionnez un personnage gelé	
@@ -75,11 +76,14 @@ GAMEPLAY_PlayErrors_REQ_TARGET_FOR_COMBO	Vous ne pouvez pas faire ça sans cible
 GAMEPLAY_PlayErrors_REQ_TARGET_FOR_NO_COMBO	Vous ne pouvez pas faire ça sans cible	
 GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE	Vous ne pouvez pas faire ça sans cible	
 GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE_AND_DRAGON_IN_HAND	Vous ne pouvez pas faire ça sans cible	
+GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE_AND_MINIMUM_FRIENDLY_MINIONS	Vous ne pouvez pas faire ça sans cible	
 GAMEPLAY_PlayErrors_REQ_TARGET_MAGNET	Vous devez viser un serviteur	
 GAMEPLAY_PlayErrors_REQ_TARGET_MAX_ATTACK	Sélectionnez un personnage avec {0} à l’attaque maximum	
 GAMEPLAY_PlayErrors_REQ_TARGET_MIN_ATTACK	Sélectionnez un personnage avec {0} à l’attaque minimum	
 GAMEPLAY_PlayErrors_REQ_TARGET_TAUNTER	Vous devez attaquer un serviteur avec Provocation	
 GAMEPLAY_PlayErrors_REQ_TARGET_TO_PLAY	Vous ne pouvez pas faire ça sans cible	
+GAMEPLAY_PlayErrors_REQ_TARGET_WITH_BATTLECRY	Sélectionnez un personnage avec Cri de guerre	
+GAMEPLAY_PlayErrors_REQ_TARGET_WITH_DEATHRATTLE	Sélectionnez un personnage avec Râle d’agonie	
 GAMEPLAY_PlayErrors_REQ_TARGET_WITH_RACE	Ce n’est pas la bonne race	
 GAMEPLAY_PlayErrors_REQ_UNDAMAGED_TARGET	Vous devez viser un personnage indemne	
 GAMEPLAY_PlayErrors_REQ_UNIQUE_SECRET	Vous possédez déjà ce secret	

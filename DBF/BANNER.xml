@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Dbf>
 	<Column name="ID" type="Int" comment="primary key" />
+	<Column name="UNIQUE_ID" type="Int" comment="primary key" />
 	<Column name="NOTE_DESC" type="String" comment="designer note" />
 	<Column name="PREVIOUS_BANNER_ID" type="Int" comment="BANNER.ID that the player must have seen before we can show this banner. 0 means no requirement." />
 	<Column name="PREFAB" type="AssetPath" comment="The prefab associated with this banner" />
@@ -12,7 +13,7 @@
 		<Field column="PREFAB">Assets/Game/GameObjects/NewAdvPopUp_NAX</Field>
 		<Field column="TEXT">
 			<enUS>A new Solo Adventure has appeared! Can you conquer the floating citadel of Naxxramas?!</enUS>
-			<zhTW>新的冒險篇章出現了!你能征服空中堡壘納克薩瑪斯嗎?!</zhTW>
+			<zhTW>新的冒險篇章出現了！你能征服空中堡壘納克薩瑪斯嗎？！</zhTW>
 			<zhCN>全新的单人冒险模式已经开启！你能征服天灾浮空城纳克萨玛斯吗？！</zhCN>
 			<ruRU>Новое приключение! Сможете ли вы покорить парящую цитадель Наксрамас?</ruRU>
 			<ptBR>Uma nova aventura individual está disponível! Você é capaz de conquistar Naxxramas?</ptBR>
@@ -24,6 +25,7 @@
 			<esES>¡Ha aparecido una nueva aventura para un solo jugador! ¿Podrás conquistar Naxxramas?</esES>
 			<deDE>Ein neues Soloabenteuer wartet auf Euch! Seid Ihr der schwebenden Zitadelle Naxxramas gewachsen?</deDE>
 		</Field>
+		<Field column="UNIQUE_ID">1</Field>
 	</Record>
 	<Record>
 		<Field column="ID">2</Field>
@@ -32,7 +34,7 @@
 		<Field column="PREFAB">Assets/Game/GameObjects/NewAdvPopUp_NAX</Field>
 		<Field column="TEXT">
 			<enUS>The Plague Quarter is now open!</enUS>
-			<zhTW>瘟疫區開放了!</zhTW>
+			<zhTW>瘟疫區開放了！</zhTW>
 			<zhCN>瘟疫区现已开放</zhCN>
 			<ruRU>Чумной квартал открыт!</ruRU>
 			<ptBR>O Distrito da Peste está aberto!</ptBR>
@@ -44,6 +46,7 @@
 			<esES>¡El Arrabal de la Peste ya está abierto!</esES>
 			<deDE>Das Seuchenviertel ist jetzt offen!</deDE>
 		</Field>
+		<Field column="UNIQUE_ID">2</Field>
 	</Record>
 	<Record>
 		<Field column="ID">3</Field>
@@ -52,7 +55,7 @@
 		<Field column="PREFAB">Assets/Game/GameObjects/NewAdvPopUp_NAX</Field>
 		<Field column="TEXT">
 			<enUS>The Military Quarter is now open!</enUS>
-			<zhTW>軍事區開放了!</zhTW>
+			<zhTW>軍事區開放了！</zhTW>
 			<zhCN>军事区现已开放</zhCN>
 			<ruRU>Военный квартал открыт!</ruRU>
 			<ptBR>O Distrito Militar está aberto!</ptBR>
@@ -64,6 +67,7 @@
 			<esES>¡El Arrabal Militar ya está abierto!</esES>
 			<deDE>Das Militärviertel ist jetzt offen!</deDE>
 		</Field>
+		<Field column="UNIQUE_ID">3</Field>
 	</Record>
 	<Record>
 		<Field column="ID">4</Field>
@@ -72,7 +76,7 @@
 		<Field column="PREFAB">Assets/Game/GameObjects/NewAdvPopUp_NAX</Field>
 		<Field column="TEXT">
 			<enUS>The Construct Quarter is now open!</enUS>
-			<zhTW>傀儡區開放了!</zhTW>
+			<zhTW>傀儡區開放了！</zhTW>
 			<zhCN>构造区现已开放</zhCN>
 			<ruRU>Квартал Мерзости открыт!</ruRU>
 			<ptBR>O Distrito dos Constructos está aberto!</ptBR>
@@ -84,6 +88,7 @@
 			<esES>¡El Arrabal de los Ensamblajes ya está abierto!</esES>
 			<deDE>Das Konstruktviertel ist jetzt offen!</deDE>
 		</Field>
+		<Field column="UNIQUE_ID">4</Field>
 	</Record>
 	<Record>
 		<Field column="ID">5</Field>
@@ -92,7 +97,7 @@
 		<Field column="PREFAB">Assets/Game/GameObjects/NewAdvPopUp_NAX</Field>
 		<Field column="TEXT">
 			<enUS>Frostwyrm Lair is now open!</enUS>
-			<zhTW>冰霜巨龍巢穴開放了!</zhTW>
+			<zhTW>冰霜巨龍巢穴開放了！</zhTW>
 			<zhCN>冰龙巢穴现已开放</zhCN>
 			<ruRU>Логово ледяного змея открыто!</ruRU>
 			<ptBR>O Covil da Serpe Gélida está aberto!</ptBR>
@@ -104,6 +109,7 @@
 			<esES>¡La Guarida de la Vermis ya está abierta!</esES>
 			<deDE>Die Spitze der Nekropole ist jetzt offen!</deDE>
 		</Field>
+		<Field column="UNIQUE_ID">5</Field>
 	</Record>
 	<Record>
 		<Field column="ID">6</Field>
@@ -112,7 +118,7 @@
 		<Field column="PREFAB">Assets/Game/GameObjects/NewPopUp_GVG</Field>
 		<Field column="TEXT">
 			<enUS>Goblins and Gnomes have been tinkering with the Arena!! Get a sneak peek at new cards there with a free arena run!</enUS>
-			<zhTW>哥布林和地精正在競技場惡作劇!免費進一次競技場偷看他們的新卡片吧!</zhTW>
+			<zhTW>哥布林和地精正在競技場惡作劇！免費進一次競技場偷看他們的新卡片吧！</zhTW>
 			<zhCN>地精和侏儒们已经在竞技模式中打的不可开交了！抓住这次免费的竞技模式参与机会，看看他们给我们带来了哪些新卡牌！</zhCN>
 			<ruRU>«Гоблины и гномы» уже захватили Арену! Получите бесплатный пропуск и посмотрите на новые карты!</ruRU>
 			<ptBR>Os Goblins e os Gnomos deram uma guaribada na Arena!! Conheça os novos cards com uma rodada grátis na arena!</ptBR>
@@ -124,6 +130,7 @@
 			<esES>¡Los goblins y los gnomos han estado trasteando con la Arena! ¡Compite gratis en la Arena y echa un vistazo a las cartas nuevas!</esES>
 			<deDE>Goblins und Gnome treiben in der Arena Unfug! Kämpft eine Runde gratis und bekommt einen ersten Vorgeschmack auf die neuen Karten!</deDE>
 		</Field>
+		<Field column="UNIQUE_ID">6</Field>
 	</Record>
 	<Record>
 		<Field column="ID">7</Field>
@@ -132,7 +139,7 @@
 		<Field column="PREFAB">Assets/Game/GameObjects/NewPopUp_GVG</Field>
 		<Field column="TEXT">
 			<enUS>The Goblins vs Gnomes expansion has launched and is now available!</enUS>
-			<zhTW>《哥哥打地地》資料片已經上市!</zhTW>
+			<zhTW>《哥哥打地地》資料片已經上市！</zhTW>
 			<zhCN>“地精大战侏儒”的新游戏内容已经爆炸出炉！</zhCN>
 			<ruRU>Дополнение «Гоблины и гномы» теперь доступно в игре!</ruRU>
 			<ptBR>A expansão Goblins vs Gnomos foi lançada e já está disponível!</ptBR>
@@ -144,6 +151,7 @@
 			<esES>¡La expansión Goblins vs. Gnomos acaba de estrenarse y ya está disponible!</esES>
 			<deDE>Die Erweiterung „Goblins gegen Gnome“ ist jetzt verfügbar!</deDE>
 		</Field>
+		<Field column="UNIQUE_ID">7</Field>
 	</Record>
 	<Record>
 		<Field column="ID">8</Field>
@@ -162,8 +170,9 @@
 			<ptBR>Uma aventura individual está disponível! Você é capaz de conquistar as profundezas da Montanha Rocha Negra?</ptBR>
 			<ruRU>Новое приключение! Сможете ли вы завоевать Черную гору?</ruRU>
 			<zhCN>全新的冒险模式已经开放！你能征服黑石山深处的邪恶势力吗？</zhCN>
-			<zhTW>新的冒險篇章出現了!你能征服黑石山的最深處嗎?!</zhTW>
+			<zhTW>新的冒險篇章出現了！你能征服黑石山的最深處嗎？！</zhTW>
 		</Field>
+		<Field column="UNIQUE_ID">11</Field>
 	</Record>
 	<Record>
 		<Field column="ID">9</Field>
@@ -182,8 +191,9 @@
 			<ptBR>O Núcleo Derretido está aberto!</ptBR>
 			<ruRU>Огненные Недра открыты!</ruRU>
 			<zhCN>熔火之心现已开放</zhCN>
-			<zhTW>熔火之心開放了!</zhTW>
+			<zhTW>熔火之心開放了！</zhTW>
 		</Field>
+		<Field column="UNIQUE_ID">15</Field>
 	</Record>
 	<Record>
 		<Field column="ID">10</Field>
@@ -202,8 +212,9 @@
 			<ptBR>O Pico da Rocha Negra está aberto!</ptBR>
 			<ruRU>Пик Черной горы открыт!</ruRU>
 			<zhCN>黑石塔现已开放</zhCN>
-			<zhTW>黑石塔開放了!</zhTW>
+			<zhTW>黑石塔開放了！</zhTW>
 		</Field>
+		<Field column="UNIQUE_ID">19</Field>
 	</Record>
 	<Record>
 		<Field column="ID">11</Field>
@@ -222,8 +233,9 @@
 			<ptBR>O Covil Asa Negra está aberto!</ptBR>
 			<ruRU>Логово Крыла Тьмы открыто!</ruRU>
 			<zhCN>黑翼之巢现已开放</zhCN>
-			<zhTW>黑翼之巢開放了!</zhTW>
+			<zhTW>黑翼之巢開放了！</zhTW>
 		</Field>
+		<Field column="UNIQUE_ID">23</Field>
 	</Record>
 	<Record>
 		<Field column="ID">12</Field>
@@ -242,7 +254,29 @@
 			<ptBR>O Laboratório Oculto está aberto!</ptBR>
 			<ruRU>Тайная лаборатория открыта!</ruRU>
 			<zhCN>秘密实验室现已开放</zhCN>
-			<zhTW>隱藏的實驗室開放了!</zhTW>
+			<zhTW>隱藏的實驗室開放了！</zhTW>
 		</Field>
+		<Field column="UNIQUE_ID">27</Field>
+	</Record>
+	<Record>
+		<Field column="ID">13</Field>
+		<Field column="NOTE_DESC">TGT is now live</Field>
+		<Field column="PREVIOUS_BANNER_ID">0</Field>
+		<Field column="PREFAB">Assets/Game/GameObjects/NewPopUp_TGT</Field>
+		<Field column="TEXT">
+			<enUS>The Grand Tournament expansion has launched and is now available!</enUS>
+			<deDE>Das Große Turnier ist nun eröffnet! Hoch die Lanzen und los geht's!</deDE>
+			<esES>¡La expansión El Gran Torneo acaba de estrenarse y ya está disponible!</esES>
+			<esMX>¡Se ha lanzado la expansión El Gran Torneo y ya está disponible!</esMX>
+			<frFR>L’extension Le Grand Tournoi est maintenant disponible !</frFR>
+			<itIT>L'espansione Gran Torneo\nè ora disponibile!</itIT>
+			<koKR>대 마상시합 확장팩이 출시되었습니다!</koKR>
+			<plPL>Rozszerzenie Wielki Turniej zostało wydane i jest już dostępne!</plPL>
+			<ptBR>A expansão O Grande Torneio foi lançada e já está disponível!</ptBR>
+			<ruRU>Большой турнир открылся! Мы ждем вас!</ruRU>
+			<zhCN>“冠军的试炼”新游戏内容已经耀世登场！</zhCN>
+			<zhTW>《銀白聯賽》資料片已經上市！</zhTW>
+		</Field>
+		<Field column="UNIQUE_ID">30</Field>
 	</Record>
 </Dbf>

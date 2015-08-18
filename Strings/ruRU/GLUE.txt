@@ -75,6 +75,7 @@ GLUE_COLLECTION_ALL_SETS	Все наборы
 GLUE_COLLECTION_ARTIST	Художник: {0}	0=artist name
 GLUE_COLLECTION_CARD_COUNT	x{0}	
 GLUE_COLLECTION_CARD_COUNT_LARGE	x9+	
+GLUE_COLLECTION_CARD_CRAFTING_EVENT_NOT_ACTIVE	Ой! Эту карту сейчас нельзя создать или распылить. Пожалуйста, обратитесь в службу поддержки.	
 GLUE_COLLECTION_CARD_NEW	Новая!	
 GLUE_COLLECTION_CARD_PERMISSION_ERROR	Ой! Эту карту нельзя создать или распылить. Пожалуйста, обратитесь в службу поддержки.	
 GLUE_COLLECTION_CARD_SOULBOUND	Ой! Эту карту нельзя создать или распылить. Пожалуйста, обратитесь в службу поддержки.	
@@ -143,6 +144,8 @@ GLUE_CRAFTING_DISENCHANT	Распылить
 GLUE_CRAFTING_DISENCHANT_CONFIRM_DESC	Если вы распылите эту карту, следующие колоды будут недоступны:	
 GLUE_CRAFTING_DISENCHANT_CONFIRM_HEADER	Распылить	
 GLUE_CRAFTING_DISENCHANT_CONFIRM2_DESC	Если вы распылите эту карту, у вас будет меньше копий, чем доступно для использования в колоде.	
+GLUE_CRAFTING_EVENT_NOT_ACTIVE_DESCRIPTION	Карты из набора «{0}» пока что нельзя создать или распылить.	
+GLUE_CRAFTING_EVENT_NOT_ACTIVE_TITLE	Скоро	
 GLUE_CRAFTING_GOLDEN_BRM	Черная гора	
 GLUE_CRAFTING_GOLDEN_NAXX	Наксрамас	
 GLUE_CRAFTING_SOULBOUND	Нельзя распылить	
@@ -279,13 +282,20 @@ GLUE_PICK_A_REGION	Выберите регион
 GLUE_PRACTICE	Тренировка	
 GLUE_PRACTICE_HINT	Режим тренировки	
 GLUE_QUEST_FINISHED_DAILY	Вы завершили все доступные ежедневные задания.	
+GLUE_QUEST_LOG_ARENA	Арена	
 GLUE_QUEST_LOG_BEST_FORGE_RECORD_HEADLINE	Лучший ключ на Арене	
+GLUE_QUEST_LOG_CHEST_TOOLTIP_BODY	Вы сможете открыть сундук в конце сезона.\nПовышайте ранг, чтобы получить больше сокровищ!	
+GLUE_QUEST_LOG_CHEST_TOOLTIP_BODY_NO_CHEST	Достигните 20-го ранга, и вы получите сундук с сокровищами в конце сезона!	
+GLUE_QUEST_LOG_CHEST_TOOLTIP_HEADER	Сундук {0}-го ранга	0=Rank number of chest
 GLUE_QUEST_LOG_CLASS_LOCKED	Недоступен	
+GLUE_QUEST_LOG_CURRENT_CHEST	Рейтинговый сундук	
 GLUE_QUEST_LOG_HEADLINE	Журнал заданий	
 GLUE_QUEST_LOG_HERO_LEVELS	Уровни героев	
+GLUE_QUEST_LOG_NO_CHEST	У вас пока нет сундука!	
 GLUE_QUEST_LOG_NO_QUESTS	У вас нет заданий. Откройте новых героев в режиме тренировки!	
 GLUE_QUEST_LOG_NO_QUESTS_DAILIES_UNLOCKED	У вас нет заданий. Новые появятся завтра!	
 GLUE_QUEST_LOG_PHONE_BUTTON	Задания	
+GLUE_QUEST_LOG_PLAY_MODE	Режим игры	
 GLUE_QUEST_LOG_TOTAL_LEVELS	<color=#c4b47c>Суммарный уровень:</color> {0}	
 GLUE_QUEST_LOG_TOTAL_WINS_HEADLINE	Всего побед	
 GLUE_QUEST_LOG_WINS_HEADLINE	Победы в режиме игры	
@@ -344,7 +354,7 @@ GLUE_SPINNER_23	Инопланетянин
 GLUE_SPINNER_24	Конь в вакууме	
 GLUE_SPINNER_25	Обманщик Обманщиков	
 GLUE_SPINNER_26	Неторопливый игрок	
-GLUE_SPINNER_27	Вундеркинд	
+GLUE_SPINNER_27	Донатер	
 GLUE_SPINNER_28	Эльф 80-го уровня	
 GLUE_SPINNER_29	Кофеман	
 GLUE_SPINNER_3	Макаронный монстр	
@@ -463,6 +473,7 @@ GLUE_STORE_PACK_BUTTON_COST_OWNED_TEXT	(приобретено)
 GLUE_STORE_PACK_BUTTON_TEXT_PURCHASED	Уже приобретено	
 GLUE_STORE_PACKBUY_SUGGESTION	Лучший выбор\nдля новых игроков!	
 GLUE_STORE_PACKS_BUTTON_PREORDER_TEXT	Предзаказ {0} |4(комплекта,комплектов,комплектов)	0=number of packs
+GLUE_STORE_PACKS_LATEST_EXPANSION	Последнее дополнение	
 GLUE_STORE_PACKS_PREORDER_TEXT	Предзаказ	
 GLUE_STORE_PAYMENT_INFO_DETAILS	Средства будут списаны с вашего кошелька Battle.net. Если в вашем кошельке недостаточно средств, оплата будет произведена с помощью способа по умолчанию.\n\nВНИМАНИЕ! В случае любого платежного инцидента или возврата платежа ваша учетная запись Hearthstone может быть временно заблокирована до решения проблемы или возврата оплаты.	
 GLUE_STORE_PAYMENT_INFO_HEADLINE	Информация	
@@ -472,7 +483,7 @@ GLUE_STORE_PREORDER_EXCLUSIVE	ТОЛЬКО ЗА ПРЕДЗАКАЗ!
 GLUE_STORE_PRODUCT_DETAILS_BRM_PART_1	{0}: сойдитесь в смертельном бою с ужасными боссами!	0=wing name
 GLUE_STORE_PRODUCT_DETAILS_BRM_PART_2	Получите новые карты Черной горы, среди которых — 1 легендарная!	
 GLUE_STORE_PRODUCT_DETAILS_HEADLINE_PACK	Каждый комплект содержит:	
-GLUE_STORE_PRODUCT_DETAILS_HEADLINE_TGT_PACK_PRESALE	«Большой турнир» (предзаказ) включает в себя:	
+GLUE_STORE_PRODUCT_DETAILS_HEADLINE_TGT_PACK_PRESALE	Большой турнир (предзаказ) включает в себя:	
 GLUE_STORE_PRODUCT_DETAILS_NAXX_PART_1	{0}: сойдитесь в смертельном бою с его ужасными боссами!	0=wing name
 GLUE_STORE_PRODUCT_DETAILS_NAXX_PART_2	Получите новые карты Наксрамаса, среди которых — 1 легендарная!	
 GLUE_STORE_PRODUCT_DETAILS_PACK	•  5 случайных карт Hearthstone из набора «{0}»\n•  По крайней мере 1 карта будет редкой или лучше	0=pack type
@@ -554,6 +565,7 @@ GLUE_TIP_DEFAULT_2	Щелкните правой кнопкой мыши по в
 GLUE_TIP_DEFAULT_2_TOUCH	Нажмите на вашего героя, чтобы выбрать эмоцию.	
 GLUE_TIP_DEFAULT_20	Нажмите кнопку в виде глаза в списке друзей, чтобы посмотреть, как играет ваш друг! 	
 GLUE_TIP_DEFAULT_21	Играйте в Hearthstone на телефоне, планшете или компьютере. Пользуйтесь единой коллекцией карт на всех трех устройствах!	
+GLUE_TIP_DEFAULT_22	Вы можете приобрести нового героя для своего любимого класса во внутриигровом магазине.	
 GLUE_TIP_DEFAULT_3	Если вам нужна помощь в составлении колоды, обратите внимание на кнопку «Получить совет».	
 GLUE_TIP_DEFAULT_4	Редкость карты можно определить по самоцвету в центре.	
 GLUE_TIP_DEFAULT_5	Цвет и редкость карт: белый – обычная, синий – редкая, фиолетовый – эпическая, оранжевый – легендарная.	
@@ -561,7 +573,6 @@ GLUE_TIP_DEFAULT_6	В каждом комплекте есть одна редк
 GLUE_TIP_DEFAULT_7	Если у вас закончились задания, завтра вы сможете получить новое.	
 GLUE_TIP_DEFAULT_8	Достигнув в течение сезона 20-го ранга, вы получите особую рубашку карт этого сезона.	
 GLUE_TIP_DEFAULT_9	Выполняйте задания, чтобы получить золото, за которое можно приобрести комплекты карт или доступ к Арене.	
-GLUE_TIP_DEFAULT_zz_UNUSED	Вы можете играть с друзьями, даже когда их нет в сети!	
 GLUE_TIP_FORGE_0	После третьего поражения вы больше не сможете играть этой колодой на Арене.	
 GLUE_TIP_FORGE_1	С каждой победой на Арене приз становится лучше!	
 GLUE_TIP_FORGE_2	Не обязательно играть все матчи на Арене в один день.	
@@ -574,7 +585,7 @@ GLUE_TIP_PLAY_5	В каждой колоде может быть две копи
 GLUE_TIP_PLAY_6	Арена – это отличный способ выиграть призы в небольшом состязании!	
 GLUE_TIP_PLAY_7	Не обязательно играть все матчи на Арене в один день.	
 GLUE_TIP_PLAY_8	Достигнув в течение сезона 20-го ранга, вы получите особую рубашку карт этого сезона.	
-GLUE_TIP_PRACTICE_0	Вы можете открыть доступ к классическим героям, побеждая их в режиме тренировки. 	
+GLUE_TIP_PRACTICE_0	Вы можете открыть доступ к героям, побеждая их в режиме тренировки. 	
 GLUE_TIP_PRACTICE_1	Тренировка – это только подготовка к настоящей Игре!	
 GLUE_TIP_PRACTICE_2	Игра подберет вам подходящего по уровню противника.	
 GLUE_TIP_PRACTICE_3	Вы можете собирать свои колоды в меню «Моя коллекция».	

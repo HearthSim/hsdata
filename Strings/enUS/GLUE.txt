@@ -57,6 +57,7 @@ GLUE_COLLECTION_ADD_TO_DECK	Add to Deck
 GLUE_COLLECTION_GENERIC_ERROR	A system error has prevented completion of your request. Please try again and contact Customer Support if the problem persists.
 GLUE_COLLECTION_CARD_PERMISSION_ERROR	Oops! You are not allowed to craft or disenchant that card. Please contact Customer Support.
 GLUE_COLLECTION_CARD_SOULBOUND	Oops! You cannot craft or disenchant a soulbound card. Please contact Customer Support.
+GLUE_COLLECTION_CARD_CRAFTING_EVENT_NOT_ACTIVE	Oops! That card cannot be crafted or disenchanted right now. Please contact Customer Support.
 GLUE_COLLECTION_CARD_UNKNOWN_ERROR	An unexpected error id={0} has been encountered.
 GLUE_COLLECTION_ERROR_HEADER	Collection Error!
 GLUE_MASS_DISENCHANT_HEADLINE	Mass Disenchant
@@ -80,6 +81,8 @@ GLUE_CRAFTING_SOULBOUND	Soulbound
 GLUE_CRAFTING_SOULBOUND_DESC	This card cannot be disenchanted or crafted.	
 GLUE_CRAFTING_SOULBOUND_BASIC_DESC	Basic cards cannot be disenchanted or crafted.	
 GLUE_CRAFTING_SOULBOUND_REWARD_DESC	Quest Rewards cannot be disenchanted or crafted.	
+GLUE_CRAFTING_EVENT_NOT_ACTIVE_TITLE	Coming Soon
+GLUE_CRAFTING_EVENT_NOT_ACTIVE_DESCRIPTION	{0} cards cannot be crafted or disenchanted yet.
 GLUE_CRAFTING_GOLDEN_NAXX	Naxxramas
 GLUE_CRAFTING_GOLDEN_BRM	Blackrock Mountain
 GLUE_CRAFTING_TITLE	Card Crafting	
@@ -320,7 +323,7 @@ GLUE_SPINNER_23	Noneck George
 GLUE_SPINNER_24	Gum Pusher	
 GLUE_SPINNER_25	Cheater McCheaterson	
 GLUE_SPINNER_26	Really slow guy	
-GLUE_SPINNER_27	Musty Orphan	
+GLUE_SPINNER_27	Roach Boy	
 GLUE_SPINNER_28	Orange Rhymer	
 GLUE_SPINNER_29	Coffee Addict	
 GLUE_SPINNER_30	Inward Talker	
@@ -351,21 +354,21 @@ GLUE_TIP_DEFAULT_14	Basic cards are earned by leveling up a class. Classic cards
 GLUE_TIP_DEFAULT_15	Playing against real players grants you bonus XP.	
 GLUE_TIP_DEFAULT_16	You can right-click on your opponent's hero to "Squelch" emotes.	
 GLUE_TIP_DEFAULT_16_TOUCH	You can tap your opponent's hero to "Squelch" emotes.	
-GLUE_TIP_DEFAULT_17	If you win 500 games in Ranked mode with a class, you'll earn its Golden classic hero.	
+GLUE_TIP_DEFAULT_17	If you win 500 games in Ranked mode with a class, you'll earn a Golden Hero.	
 GLUE_TIP_DEFAULT_18	You can add friends to your friends list with the button on the bottom left.	
 GLUE_TIP_DEFAULT_18_PHONE	You can add friends to your friends list with the button on the top left.	
 GLUE_TIP_DEFAULT_19	There are 25 different ranks to earn in Ranked Mode, and above those: The "Legend" rank.	
 GLUE_TIP_DEFAULT_20	Watch a friend play by hitting the "Eye" button in your friends list while they're in a match!	
 GLUE_TIP_DEFAULT_21	Play Hearthstone on the phone, tablet and computer.  Use the same card collection on all three!	
-GLUE_TIP_DEFAULT_zz_UNUSED	You can still play against your friends while they are offline!	
-GLUE_TIP_PRACTICE_0	You can unlock classic heroes by defeating them in Practice Mode.	
+GLUE_TIP_DEFAULT_22	You can purchase a new hero for your favorite class in the Shop.	
+GLUE_TIP_PRACTICE_0	You can unlock heroes by defeating them in Practice Mode.	
 GLUE_TIP_PRACTICE_1	Practice Mode is just preparation for Play Mode!	
 GLUE_TIP_PRACTICE_2	Play mode will match you against someone of similar skill!	
 GLUE_TIP_PRACTICE_3	You can build a custom deck with your cards by visiting your Collection.	
 GLUE_TIP_PRACTICE_4	Each class has 5 different Basic cards you can unlock as you level up.	
 GLUE_TIP_PRACTICE_5	Complete quests in "Play" mode to earn Gold!	
 GLUE_TIP_PRACTICE_6	Attack the hero? Or the enemy minions?  Answering correctly can often turn the tide of battle.	
-GLUE_TIP_PRACTICE_7	You'll earn more XP after level 10 by playing against real players.
+GLUE_TIP_PRACTICE_7	You'll earn more XP after level 10 by playing against real players.	
 GLUE_TIP_PLAY_0	You are being matched against a player of your skill.	
 GLUE_TIP_PLAY_1	As you win and lose games it will track your skill and match you against a fair opponent.	
 GLUE_TIP_PLAY_2	Each class has 5 different Basic cards you can unlock as you level up.	
@@ -464,6 +467,8 @@ GLUE_HERO_LOCKED_NAME	Locked
 GLUE_HERO_LOCKED_DESC	Defeat this hero to unlock!	
 GLUE_QUEST_LOG_PHONE_BUTTON	Quests	
 GLUE_QUEST_LOG_HEADLINE	Quest Log	
+GLUE_QUEST_LOG_PLAY_MODE	Play Mode
+GLUE_QUEST_LOG_ARENA	Arena	
 GLUE_QUEST_LOG_WINS_HEADLINE	Play Mode Wins	
 GLUE_QUEST_LOG_BEST_FORGE_RECORD_HEADLINE	Best Arena Key	
 GLUE_QUEST_LOG_TOTAL_WINS_HEADLINE	Total Wins	
@@ -472,6 +477,11 @@ GLUE_QUEST_LOG_CLASS_LOCKED	Locked
 GLUE_QUEST_LOG_NO_QUESTS	You have no quests.  You should unlock new heroes in Practice Mode!	
 GLUE_QUEST_LOG_NO_QUESTS_DAILIES_UNLOCKED	You have no quests.  Check back tomorrow!	
 GLUE_QUEST_LOG_HERO_LEVELS	Hero Levels
+GLUE_QUEST_LOG_CURRENT_CHEST	Ranked Chest	
+GLUE_QUEST_LOG_NO_CHEST	No Chest Yet!
+GLUE_QUEST_LOG_CHEST_TOOLTIP_HEADER	Rank {0} Chest	0=Rank number of chest
+GLUE_QUEST_LOG_CHEST_TOOLTIP_BODY	Open your chest at the end of the season.  Improve your rank to upgrade your chest!	
+GLUE_QUEST_LOG_CHEST_TOOLTIP_BODY_NO_CHEST	Reach Rank 20 and you'll be rewarded with a chest containing prizes at the end of the season!	
 GLUE_QUEST_NOTIFICATION_HEADER	Today's Quests	
 GLUE_QUEST_NOTIFICATION_HEADER_NEW_ONLY	New Quest!	
 GLUE_QUEST_NOTIFICATION_CAPTION	Most Quests can only be completed in Play mode, The Arena or Tavern Brawl.	
@@ -588,6 +598,7 @@ GLUE_STORE_BRM_PREORDER_DATE	Opens during April!
 GLUE_STORE_DUNGEON_BUTTON_PREORDER_TEXT	Pre-order Adventure	
 GLUE_STORE_PACKS_BUTTON_PREORDER_TEXT	Pre-purchase {0} packs	0=number of packs
 GLUE_STORE_PACKS_PREORDER_TEXT	Pre-purchase	
+GLUE_STORE_PACKS_LATEST_EXPANSION	Latest Expansion	
 GLUE_STORE_SPECIAL_OFFER	Special Offer!	
 GLUE_STORE_TGT_PREORDER_DATE	Available in August!	
 GLUE_ARENA_VIEW_DECK	View Deck	

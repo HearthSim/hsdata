@@ -75,6 +75,7 @@ GLUE_COLLECTION_ALL_SETS	Wszystkie rodzaje
 GLUE_COLLECTION_ARTIST	Grafik: {0}	0=artist name
 GLUE_COLLECTION_CARD_COUNT	x{0}	
 GLUE_COLLECTION_CARD_COUNT_LARGE	x9+	
+GLUE_COLLECTION_CARD_CRAFTING_EVENT_NOT_ACTIVE	Oj! Nie można teraz stworzyć lub odczarować tej karty. Skontaktuj się z działem obsługi klienta.	
 GLUE_COLLECTION_CARD_NEW	NOWA!	
 GLUE_COLLECTION_CARD_PERMISSION_ERROR	Oj! Nie możesz stworzyć lub odczarować tej karty. Skontaktuj się z działem obsługi klienta.	
 GLUE_COLLECTION_CARD_SOULBOUND	Oj! Nie możesz stworzyć lub odczarować przypisanej karty. Skontaktuj się z działem obsługi klienta.	
@@ -143,6 +144,8 @@ GLUE_CRAFTING_DISENCHANT	Odczaruj
 GLUE_CRAFTING_DISENCHANT_CONFIRM_DESC	Na pewno chcesz to zrobić? Następujące talie staną się niepełne:	
 GLUE_CRAFTING_DISENCHANT_CONFIRM_HEADER	Odczaruj	
 GLUE_CRAFTING_DISENCHANT_CONFIRM2_DESC	Jeśli odczarujesz tę kartę, to w talii nie będzie można umieścić maksymalnej liczby jej egzemplarzy.	
+GLUE_CRAFTING_EVENT_NOT_ACTIVE_DESCRIPTION	Nie można jeszcze tworzyć ani odczarowywać kart z rozszerzenia {0}.	
+GLUE_CRAFTING_EVENT_NOT_ACTIVE_TITLE	Już wkrótce	
 GLUE_CRAFTING_GOLDEN_BRM	Czarna Góra	
 GLUE_CRAFTING_GOLDEN_NAXX	Naxxramas	
 GLUE_CRAFTING_SOULBOUND	Przypisana	
@@ -279,17 +282,24 @@ GLUE_PICK_A_REGION	Wybierz region
 GLUE_PRACTICE	Trening	
 GLUE_PRACTICE_HINT	Tutaj możesz potrenować	
 GLUE_QUEST_FINISHED_DAILY	Udało ci się wykonać wszystkie codzienne zadania.	
+GLUE_QUEST_LOG_ARENA	Arena	
 GLUE_QUEST_LOG_BEST_FORGE_RECORD_HEADLINE	Najlepszy klucz na Arenie	
+GLUE_QUEST_LOG_CHEST_TOOLTIP_BODY	Otwórz swoją skrzynię na koniec sezonu. Popraw swoją rangę, a otrzymasz lepszą skrzynię!	
+GLUE_QUEST_LOG_CHEST_TOOLTIP_BODY_NO_CHEST	Osiągnij rangę 20, a pod koniec sezonu otrzymasz skrzynię z nagrodami!	
+GLUE_QUEST_LOG_CHEST_TOOLTIP_HEADER	Skrzynia rangi {0}	0=Rank number of chest
 GLUE_QUEST_LOG_CLASS_LOCKED	Zablokowany	
+GLUE_QUEST_LOG_CURRENT_CHEST	Skrzynia rankingowa	
 GLUE_QUEST_LOG_HEADLINE	Dziennik zadań	
 GLUE_QUEST_LOG_HERO_LEVELS	Bohaterowie	
+GLUE_QUEST_LOG_NO_CHEST	Nie masz jeszcze skrzyni!	
 GLUE_QUEST_LOG_NO_QUESTS	Nie masz zadań. Odblokuj nowych bohaterów w trybie treningowym.	
 GLUE_QUEST_LOG_NO_QUESTS_DAILIES_UNLOCKED	Nie masz zadań. Zajrzyj ponownie jutro!	
 GLUE_QUEST_LOG_PHONE_BUTTON	Zadania	
+GLUE_QUEST_LOG_PLAY_MODE	Tryb Pojedynku	
 GLUE_QUEST_LOG_TOTAL_LEVELS	<color=#c4b47c>Łączny poziom:</color> {0}	
 GLUE_QUEST_LOG_TOTAL_WINS_HEADLINE	Zwycięstwa	
-GLUE_QUEST_LOG_WINS_HEADLINE	Wygrane w trybie pojedynku	
-GLUE_QUEST_NOTIFICATION_CAPTION	Większość zadań można wykonać jedynie w trybie pojedynku, na Arenie lub w Karczemnej Bójce.	
+GLUE_QUEST_LOG_WINS_HEADLINE	Wygrane w trybie Pojedynku	
+GLUE_QUEST_NOTIFICATION_CAPTION	Większość zadań można wykonać jedynie w trybie Pojedynku, na Arenie lub w Karczemnej Bójce.	
 GLUE_QUEST_NOTIFICATION_HEADER	Dzisiejsze zadania	
 GLUE_QUEST_NOTIFICATION_HEADER_NEW_ONLY	Nowe zadanie!	
 GLUE_RDM_1_COST	Na początku gry dobrze mieć kilka tanich kart.	
@@ -309,7 +319,7 @@ GLUE_RECONNECT_GAME_TYPE_FRIENDLY	Twoja ostatnia gra towarzyska zakończyła si�
 GLUE_RECONNECT_GAME_TYPE_NAXXRAMAS	Twoja ostatnia partia w Naxxramas zakończyła się	
 GLUE_RECONNECT_GAME_TYPE_PRACTICE	Twoja ostatnia partia treningowa zakończyła się	
 GLUE_RECONNECT_GAME_TYPE_RANKED	Twój ostatni pojedynek rankingowy zakończył się	
-GLUE_RECONNECT_GAME_TYPE_TAVERN_BRAWL	Karczemna Bójka	
+GLUE_RECONNECT_GAME_TYPE_TAVERN_BRAWL	Twoja ostatnia Karczemna Bójka zakończyła się	
 GLUE_RECONNECT_GAME_TYPE_TUTORIAL	Twój ostatni pojedynek w samouczku zakończył się	
 GLUE_RECONNECT_GAME_TYPE_UNRANKED	Twój ostatni pojedynek pozarankingowy zakończył się	
 GLUE_RECONNECT_RESULT_DISCONNECT	{0} przegraną z powodu rozłączenia.	0=one of GLOBAL_RECONNECT_GAME_TYPE_*
@@ -463,6 +473,7 @@ GLUE_STORE_PACK_BUTTON_COST_OWNED_TEXT	(Zakupiono)
 GLUE_STORE_PACK_BUTTON_TEXT_PURCHASED	Już zakupiono	
 GLUE_STORE_PACKBUY_SUGGESTION	Najlepsze\ndla nowych graczy!	
 GLUE_STORE_PACKS_BUTTON_PREORDER_TEXT	Zamów pakiety: {0}	0=number of packs
+GLUE_STORE_PACKS_LATEST_EXPANSION	Najnowsze rozszerzenie	
 GLUE_STORE_PACKS_PREORDER_TEXT	Przedsprzedaż	
 GLUE_STORE_PAYMENT_INFO_DETAILS	Fundusze zostaną najpierw odjęte z twojego salda Battle.net. Jeśli brakuje środków, obciążona zostanie podstawowa metoda płatności na koncie Battle.net.\n\nWAŻNE: Wszelkie problemy z płatnością lub obciążenie zwrotne w przypadku niniejszej transakcji mogą spowodować tymczasowe zawieszenie konta Hearthstone, aż do chwili wyjaśnienia.	
 GLUE_STORE_PAYMENT_INFO_HEADLINE	Informacje o płatności	
@@ -546,7 +557,7 @@ GLUE_TIP_DEFAULT_14	Karty podstawowe zdobędziesz awansując postać. Karty klas
 GLUE_TIP_DEFAULT_15	Możesz otrzymać dodatkowe PD grając z prawdziwymi przeciwnikami.	
 GLUE_TIP_DEFAULT_16	Możesz kliknąć prawym przyciskiem na bohaterze przeciwnika, aby „wyciszyć” jego emotki.	
 GLUE_TIP_DEFAULT_16_TOUCH	Możesz dotknąć bohatera przeciwnika, aby „wyciszyć” jego emotki.	
-GLUE_TIP_DEFAULT_17	Jeśli wygrasz jakąś klasą 500 partii w trybie rankingowym, otrzymasz złotego klasycznego bohatera.	
+GLUE_TIP_DEFAULT_17	Jeśli wygrasz jakąś klasą 500 partii w trybie rankingowym, otrzymasz złotego bohatera.	
 GLUE_TIP_DEFAULT_18	Możesz dodać znajomych do listy za pomocą przycisku w lewym dolnym rogu.	
 GLUE_TIP_DEFAULT_18_PHONE	Możesz dodać znajomych do listy za pomocą przycisku w lewym górnym rogu.	
 GLUE_TIP_DEFAULT_19	W trybie rankingowym istnieje 25 różnych rang do zdobycia. A ponad nimi ranga „Legendy”.	
@@ -554,6 +565,7 @@ GLUE_TIP_DEFAULT_2	Kliknij prawym przyciskiem obrazek bohatera, aby wybrać emot
 GLUE_TIP_DEFAULT_2_TOUCH	Dotknij swojego bohatera, aby wybrać emotkę.	
 GLUE_TIP_DEFAULT_20	Obserwuj partię znajomego naciskając przycisk „Oka” na liście znajomych, kiedy trwa jego gra!	
 GLUE_TIP_DEFAULT_21	Graj w Hearthstone na telefonie, tablecie i komputerze. Korzystaj z tej samej kolekcji kart na każdym urządzeniu!	
+GLUE_TIP_DEFAULT_22	W sklepie możesz kupić nowego bohatera dla swojej ulubionej klasy.	
 GLUE_TIP_DEFAULT_3	Jeśli potrzebujesz pomocy w tworzeniu talii, użyj opcji Pomocnika w kolekcji kart.	
 GLUE_TIP_DEFAULT_4	Możesz rozpoznać klasę rzadkości karty na podstawie umieszczonego w niej kolorowego klejnotu.	
 GLUE_TIP_DEFAULT_5	Kolejność i kolory rzadkości kart: biały - zwykłe, niebieski - rzadkie, fioletowy - epickie, pomarańczowy - legendarne.	
@@ -561,7 +573,6 @@ GLUE_TIP_DEFAULT_6	W każdym pakiecie znajduje się co najmniej jedna rzadka kar
 GLUE_TIP_DEFAULT_7	Jeśli skończą ci się zadania, wróć jutro po nowe.	
 GLUE_TIP_DEFAULT_8	Jeśli osiągniesz rangę 20 w danym sezonie, otrzymasz specjalny rewers kart dla tego sezonu.	
 GLUE_TIP_DEFAULT_9	Wykonuj zadania, aby otrzymać złoto. Można je wykorzystać do zakupu pakietów kart lub dostępu do Areny.	
-GLUE_TIP_DEFAULT_zz_UNUSED	Możesz grać ze znajomymi, nawet kiedy będą poza siecią!	
 GLUE_TIP_FORGE_0	Twoja talia na Arenę zniknie po przegraniu 3 gier.	
 GLUE_TIP_FORGE_1	Nagrody na Arenie stają się coraz lepsze z każdą zwycięską potyczką!	
 GLUE_TIP_FORGE_2	Nie musisz rozgrywać wszystkich pojedynków na Arenie za jednym razem.	
@@ -574,18 +585,18 @@ GLUE_TIP_PLAY_5	Talie mogą zawierać dwa egzemplarze tej samej karty, ale tylko
 GLUE_TIP_PLAY_6	Arena to wspaniałe miejsce na zdobycie nagród w zamian za udział w mini-turnieju.	
 GLUE_TIP_PLAY_7	Nie musisz rozgrywać wszystkich pojedynków na Arenie za jednym razem.	
 GLUE_TIP_PLAY_8	Jeśli osiągniesz rangę 20 w danym sezonie, otrzymasz specjalny rewers kart dla tego sezonu.	
-GLUE_TIP_PRACTICE_0	Klasycznych bohaterów możesz odblokować pokonując ich w trybie treningowym.	
-GLUE_TIP_PRACTICE_1	Tryb treningowy to tylko rozgrzewka przed pojedynkiem!	
-GLUE_TIP_PRACTICE_2	W trybie pojedynku dopasujemy do ciebie gracza o podobnych umiejętnościach.	
+GLUE_TIP_PRACTICE_0	Bohaterów możesz odblokować pokonując ich w trybie treningowym.	
+GLUE_TIP_PRACTICE_1	Tryb treningowy to tylko rozgrzewka przed Pojedynkiem!	
+GLUE_TIP_PRACTICE_2	W trybie Pojedynku dopasujemy do ciebie gracza o podobnych umiejętnościach.	
 GLUE_TIP_PRACTICE_3	Odwiedzając swoją kolekcję możesz złożyć własną talię.	
 GLUE_TIP_PRACTICE_4	Każda klasa posiada 5 różnych kart podstawowych, które możesz odblokować podczas awansowania.	
 GLUE_TIP_PRACTICE_5	Wykonuj zadania w trybie pojedynku, aby zdobyć złoto!	
 GLUE_TIP_PRACTICE_6	Zaatakować bohatera czy wrogiego stronnika? Prawidłowa decyzja może odwrócić losy bitwy.	
 GLUE_TIP_PRACTICE_7	Po awansie na 10 poziom otrzymasz więcej punktów doświadczenia grając z prawdziwym przeciwnikiem.	
-GLUE_TIP_TAVERNBRAWL_0	Co tydzień czeka na ciebie nowy, szalony sposób na rozgrywkę\nw trybie Karczemnej Bójki!	
+GLUE_TIP_TAVERNBRAWL_0	Co tydzień czeka na ciebie nowy, szalony sposób na rozgrywkę w trybie Karczemnej Bójki!	
 GLUE_TIP_TAVERNBRAWL_1	Trzeba kilku dni na posprzątanie bałaganu po każdej Bójce. Jeśli na razie nie masz wstępu, spróbuj ponownie później.	
 GLUE_TIP_TAVERNBRAWL_2	Podczas świętowania premiery, w każdym tygodniu możesz wygrać pakiet klasyczny za zwycięstwo w swojej pierwszej Bójce!	
-GLUE_TIP_TAVERNBRAWL_3	Kolejne zwycięstwa Karczemnych Bójkach nie dają dodatkowych pakietów – wtedy chodzi już tylko o dobrą zabawę!	
+GLUE_TIP_TAVERNBRAWL_3	Kolejne zwycięstwa w trybie Karczemnej Bójki nie dają dodatkowych pakietów – wtedy chodzi już tylko o dobrą zabawę!	
 GLUE_TIP_TAVERNBRAWL_4	Zależnie od tygodnia możesz albo otrzymać talię, albo trzeba będzie ją stworzyć. Nigdy nie wiadomo!	
 GLUE_TIP_TAVERNBRAWL_5	Niektóre Karczemne Bójki mogą odbyć się ponownie w przyszłości.	
 GLUE_TIP_TAVERNBRAWL_6	Możesz toczyć Bójki ze znajomymi, jeśli rzucisz im wyzwanie na ekranie Karczemnej Bójki.	

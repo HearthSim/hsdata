@@ -3,6 +3,7 @@ GAMEPLAY_AI_OPPONENT_NAME	Хозяин таверны
 GAMEPLAY_CHOOSE_ONE	Выберите одно	will be displayed for card choices e.g. tracking
 GAMEPLAY_COIN_TOSS_LOST	Дополнительная карта!	
 GAMEPLAY_COIN_TOSS_WON	Первый ход – за вами	
+GAMEPLAY_DEFAULTCOUNTERNAME	Количество ходов до окончания игры:	Please delete this string from all branches before 4.0.  Leave in MASTER.
 GAMEPLAY_DISCONNECT_BODY	Игра завершена и сохранена! Чтобы продолжить игру, перезапустите Hearthstone.	
 GAMEPLAY_DISCONNECT_BODY_RESET	Игра завершена и сохранена! Идет повторное подключение к серверам Hearthstone.	
 GAMEPLAY_DISCONNECT_HEADER	Соединение прервано	
@@ -31,8 +32,6 @@ GAMEPLAY_MULLIGAN_STARTING_HAND	Стартовая рука
 GAMEPLAY_MULLIGAN_SUBTITLE	Оставьте или замените карты	
 GAMEPLAY_MULLIGAN_WAITING	Ваш противник думает...	
 GAMEPLAY_NEFARIAN_TITLE	Убийца глупых, неумелых и никчемных прислужников	
-GAMEPLAY_NOTIFICATION_MAX_HAND_SIZE	У вас в руке не может быть больше {0} |4(карты,карт,карт).	
-GAMEPLAY_NOTIFICATION_MAX_MANA	У вас может быть не больше {0} |4(кристалла,кристаллов,кристаллов) маны.	
 GAMEPLAY_PlayErrors_REQ_ATTACK_GREATER_THAN_0	Персонажи без силы атаки не могут атаковать.	
 GAMEPLAY_PlayErrors_REQ_ATTACKER_CAN_ATTACK	Этот персонаж не может атаковать.	
 GAMEPLAY_PlayErrors_REQ_ATTACKER_NOT_FROZEN	Замороженные персонажи не могут атаковать.	
@@ -47,8 +46,10 @@ GAMEPLAY_PlayErrors_REQ_DRAG_TO_PLAY	Это необходимо перетащ�
 GAMEPLAY_PlayErrors_REQ_ENCHANTED_TARGET	Выберите зачарованного персонажа.	
 GAMEPLAY_PlayErrors_REQ_ENEMY_TARGET	Выберите противника.	
 GAMEPLAY_PlayErrors_REQ_ENEMY_TARGET_NOT_IMMUNE	Этот персонаж обладает неуязвимостью.	
+GAMEPLAY_PlayErrors_REQ_ENEMY_WEAPON_EQUIPPED	У противника должно быть оружие.	
 GAMEPLAY_PlayErrors_REQ_ENOUGH_MANA	Недостаточно маны.	
 GAMEPLAY_PlayErrors_REQ_ENTIRE_ENTOURAGE_NOT_IN_PLAY	У вас уже есть тотем каждого вида.	
+GAMEPLAY_PlayErrors_REQ_FRIENDLY_MINION_DIED_THIS_GAME	Ни одно ваше существо не умерло в течение этого матча.	
 GAMEPLAY_PlayErrors_REQ_FRIENDLY_MINION_DIED_THIS_TURN	Ни одно ваше существо не умерло в этот ход.	
 GAMEPLAY_PlayErrors_REQ_FRIENDLY_TARGET	Выберите вашего персонажа.	
 GAMEPLAY_PlayErrors_REQ_FROZEN_TARGET	Выберите замороженного персонажа.	
@@ -75,11 +76,14 @@ GAMEPLAY_PlayErrors_REQ_TARGET_FOR_COMBO	Вы должны выбрать цел
 GAMEPLAY_PlayErrors_REQ_TARGET_FOR_NO_COMBO	Вы должны выбрать цель.	
 GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE	Вы должны выбрать цель.	
 GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE_AND_DRAGON_IN_HAND	Вы должны выбрать цель.	
+GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE_AND_MINIMUM_FRIENDLY_MINIONS	Вы должны выбрать цель.	
 GAMEPLAY_PlayErrors_REQ_TARGET_MAGNET	Вы должны выбрать целью имеющееся существо.	
 GAMEPLAY_PlayErrors_REQ_TARGET_MAX_ATTACK	Выберите персонажа с силой атаки {0} или меньше.	
 GAMEPLAY_PlayErrors_REQ_TARGET_MIN_ATTACK	Выберите персонажа с силой атаки {0} или больше.	
 GAMEPLAY_PlayErrors_REQ_TARGET_TAUNTER	Вы должны атаковать существо со способностью «Провокация».	
 GAMEPLAY_PlayErrors_REQ_TARGET_TO_PLAY	Вы должны выбрать цель.	
+GAMEPLAY_PlayErrors_REQ_TARGET_WITH_BATTLECRY	Выберите персонажа со способностью «Боевой клич».	
+GAMEPLAY_PlayErrors_REQ_TARGET_WITH_DEATHRATTLE	Выберите персонажа со способностью «Предсмертный хрип».	
 GAMEPLAY_PlayErrors_REQ_TARGET_WITH_RACE	Неправильная раса.	
 GAMEPLAY_PlayErrors_REQ_UNDAMAGED_TARGET	Вы должны выбрать целью персонажа с полным здоровьем.	
 GAMEPLAY_PlayErrors_REQ_UNIQUE_SECRET	У вас уже есть такой секрет.	

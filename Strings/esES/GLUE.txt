@@ -75,6 +75,7 @@ GLUE_COLLECTION_ALL_SETS	Todos los conjuntos
 GLUE_COLLECTION_ARTIST	Artista: {0}	0=artist name
 GLUE_COLLECTION_CARD_COUNT	x{0}	
 GLUE_COLLECTION_CARD_COUNT_LARGE	x9+	
+GLUE_COLLECTION_CARD_CRAFTING_EVENT_NOT_ACTIVE	¡Vaya! Esa carta no se puede crear o desencantar en estos momentos. Ponte en contacto con Asistencia al cliente.	
 GLUE_COLLECTION_CARD_NEW	¡NUEVA!	
 GLUE_COLLECTION_CARD_PERMISSION_ERROR	¡Vaya! No puedes crear ni desencantar esa carta. Ponte en contacto con Asistencia al cliente.	
 GLUE_COLLECTION_CARD_SOULBOUND	¡Vaya! No puedes crear ni desencantar cartas ligadas al alma. Ponte en contacto con Asistencia al cliente.	
@@ -143,6 +144,8 @@ GLUE_CRAFTING_DISENCHANT	Desencantar
 GLUE_CRAFTING_DISENCHANT_CONFIRM_DESC	¿Seguro? Los siguientes mazos quedarán invalidados:	
 GLUE_CRAFTING_DISENCHANT_CONFIRM_HEADER	Desencantar	
 GLUE_CRAFTING_DISENCHANT_CONFIRM2_DESC	¿Seguro que quieres continuar? Desencantar esta carta te dejará con menos copias de las que puedes poner en un mazo.	
+GLUE_CRAFTING_EVENT_NOT_ACTIVE_DESCRIPTION	Las cartas de {0} no se pueden crear o desencantar todavía.	
+GLUE_CRAFTING_EVENT_NOT_ACTIVE_TITLE	Próximamente	
 GLUE_CRAFTING_GOLDEN_BRM	Montaña Roca Negra	
 GLUE_CRAFTING_GOLDEN_NAXX	Naxxramas	
 GLUE_CRAFTING_SOULBOUND	Ligada al alma	
@@ -279,13 +282,20 @@ GLUE_PICK_A_REGION	Elige una región
 GLUE_PRACTICE	Práctica	
 GLUE_PRACTICE_HINT	Modo Práctica aquí.	
 GLUE_QUEST_FINISHED_DAILY	Has completado todas tus misiones diarias.	
+GLUE_QUEST_LOG_ARENA	Arena	
 GLUE_QUEST_LOG_BEST_FORGE_RECORD_HEADLINE	Mejor llave de la Arena	
+GLUE_QUEST_LOG_CHEST_TOOLTIP_BODY	Abre el cofre al final de la temporada. ¡Sube de rango para mejorarlo!	
+GLUE_QUEST_LOG_CHEST_TOOLTIP_BODY_NO_CHEST	¡Alcanza el rango 20 y obtendrás un cofre con premios al final de la temporada!	
+GLUE_QUEST_LOG_CHEST_TOOLTIP_HEADER	Cofre de rango {0}	0=Rank number of chest
 GLUE_QUEST_LOG_CLASS_LOCKED	Bloqueado	
+GLUE_QUEST_LOG_CURRENT_CHEST	Cofre con rango	
 GLUE_QUEST_LOG_HEADLINE	Registro de misiones	
 GLUE_QUEST_LOG_HERO_LEVELS	Héroes	
+GLUE_QUEST_LOG_NO_CHEST	¡Aún no tienes cofre!	
 GLUE_QUEST_LOG_NO_QUESTS	No tienes misiones. ¡Deberías desbloquear héroes nuevos en el modo Práctica!	
 GLUE_QUEST_LOG_NO_QUESTS_DAILIES_UNLOCKED	No tienes misiones. ¡Vuelve mañana!	
 GLUE_QUEST_LOG_PHONE_BUTTON	Misiones	
+GLUE_QUEST_LOG_PLAY_MODE	Modo Jugar	
 GLUE_QUEST_LOG_TOTAL_LEVELS	<color=#c4b47c>Nivel total:</color> {0}	
 GLUE_QUEST_LOG_TOTAL_WINS_HEADLINE	Victorias totales	
 GLUE_QUEST_LOG_WINS_HEADLINE	Victorias en el modo Jugar	
@@ -344,7 +354,7 @@ GLUE_SPINNER_23	Perico el de los Palotes
 GLUE_SPINNER_24	Chupatintas	
 GLUE_SPINNER_25	Tramposín McTramposo	
 GLUE_SPINNER_26	Un tío muy lento	
-GLUE_SPINNER_27	Huérfano desolado	
+GLUE_SPINNER_27	Chico cucaracha	
 GLUE_SPINNER_28	Poeta en la ruina	
 GLUE_SPINNER_29	Adicto al café	
 GLUE_SPINNER_3	Comedor profesional	
@@ -451,7 +461,7 @@ GLUE_STORE_KOREAN_DISCLAIMER_HEADLINE	주의!
 GLUE_STORE_KOREAN_PRODUCT_DETAILS_ADVENTURE	본 묶음 상품은 구매 후 환불되지 않으며, 구매 즉시 모든 지구 이용이 가능합니다.	
 GLUE_STORE_KOREAN_PRODUCT_DETAILS_EXPERT_PACK	이용기간 : 서비스 종료 시까지. 본 상품은 구매 후 7일 이내에 청약철회가 가능합니다. 다만, 1개의 카드팩이라도 개봉한 경우에는 청약철회가 불가능합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_KOREAN_PRODUCT_DETAILS_PACKS_PREORDER	사전 구매 상품은 실제 상품 출시 전까지 환불이 가능합니다.	
-GLUE_STORE_MODE_ADVENTURE	Aventura	
+GLUE_STORE_MODE_ADVENTURE	Aventuras	
 GLUE_STORE_MODE_CARDS	Cartas	
 GLUE_STORE_MODE_HEROES	Héroes	
 GLUE_STORE_MONEY_BUTTON_TOOLTIP_HEADLINE	Comprar	
@@ -463,8 +473,9 @@ GLUE_STORE_PACK_BUTTON_COST_OWNED_TEXT	(Adquirido)
 GLUE_STORE_PACK_BUTTON_TEXT_PURCHASED	Ya adquirido	
 GLUE_STORE_PACKBUY_SUGGESTION	¡Lo mejor para\nlos jugadores nuevos!	
 GLUE_STORE_PACKS_BUTTON_PREORDER_TEXT	Precomprar {0} |4(sobre,sobres)	0=number of packs
+GLUE_STORE_PACKS_LATEST_EXPANSION	Última expansión	
 GLUE_STORE_PACKS_PREORDER_TEXT	Precomprar	
-GLUE_STORE_PAYMENT_INFO_DETAILS	Los fondos se restarán primero a tu Saldo de Battle.net. Si es insuficiente, se cargará en el método de pago principal de tu cuenta de Battle.net.\n\nAVISO: Ten en cuenta que toda incidencia de pago relacionada con esta transacción puede resultar en la suspensión temporal de la cuenta de Hearthstone hasta que se solucione la incidencia de pago.	
+GLUE_STORE_PAYMENT_INFO_DETAILS	Los fondos se restarán primero a tu Saldo de Battle.net. Si es insuficiente, se cargará todo el coste en el método de pago principal de tu cuenta de Battle.net.\n\nAVISO: Ten en cuenta que toda incidencia de pago relacionada con esta transacción puede resultar en la suspensión temporal de la cuenta de Hearthstone hasta que se solucione la incidencia de pago.	
 GLUE_STORE_PAYMENT_INFO_HEADLINE	Información de pago	
 GLUE_STORE_PAYMENT_INFO_URL_DETAILS	Si quieres obtener más información pulsa "{0}" para visitar la página web de información de pago de Battle.net.	
 GLUE_STORE_PREORDER	¡PRECOMPRA!	
@@ -476,7 +487,7 @@ GLUE_STORE_PRODUCT_DETAILS_HEADLINE_TGT_PACK_PRESALE	El Gran Torneo (precompra) 
 GLUE_STORE_PRODUCT_DETAILS_NAXX_PART_1	Enfréntate a los mortíferos jefes de {0} en combates de un jugador.	0=wing name
 GLUE_STORE_PRODUCT_DETAILS_NAXX_PART_2	Consigue nuevas cartas de Naxxramas para tu colección, ¡entre ellas 1 legendaria!	
 GLUE_STORE_PRODUCT_DETAILS_PACK	•  5 cartas de conjunto {0} de Hearthstone\n•  Al menos 1 será poco común o mejor	0=pack type
-GLUE_STORE_PRODUCT_DETAILS_TGT_PACK_PRESALE	•  50 sobres y un dorso de carta especial\n•  Cada sobre contiene 5 cartas, y al menos una de ellas es poco común o mejor\n•  ¡Los sobres del Gran Torneo podrán abrirse en agosto!	
+GLUE_STORE_PRODUCT_DETAILS_TGT_PACK_PRESALE	•  50 sobres y un dorso de carta especial\n•  Cada sobre contiene 5 cartas, y al menos una de ellas es poco común o mejor\n•  ¡Los sobres de El Gran Torneo podrán abrirse en agosto!	
 GLUE_STORE_PRODUCT_EVENT_HAS_ENDED	La compra anticipada de este producto ya no está disponible.	
 GLUE_STORE_PRODUCT_NAME_BRM_PRESALE_BUNDLE	Compra anticipada de Montaña Roca Negra	
 GLUE_STORE_PRODUCT_NAME_BRM_WING_BUNDLE	Aventura de la Montaña Roca Negra ({0} |4(ala,alas))	
@@ -546,7 +557,7 @@ GLUE_TIP_DEFAULT_14	Las cartas básicas se consiguen subiendo una clase de nivel
 GLUE_TIP_DEFAULT_15	Jugar contra jugadores reales aporta más experiencia.	
 GLUE_TIP_DEFAULT_16	Puedes hacer clic derecho en el héroe de tu oponente para silenciar sus frases.	
 GLUE_TIP_DEFAULT_16_TOUCH	Puedes tocar el héroe de tu oponente para silenciar sus frases.	
-GLUE_TIP_DEFAULT_17	Si ganas 500 partidas en el modo con rango con una clase, conseguirás su héroe dorado clásico.	
+GLUE_TIP_DEFAULT_17	Si ganas 500 partidas en el modo con rango con una clase, conseguirás un héroe dorado.	
 GLUE_TIP_DEFAULT_18	Para añadir amigos a tu lista de amigos, utiliza el botón de la esquina inferior izquierda.	
 GLUE_TIP_DEFAULT_18_PHONE	Para añadir amigos a tu lista, utiliza el botón de la esquina superior izquierda.	
 GLUE_TIP_DEFAULT_19	Hay 25 rangos distintos que se pueden alcanzar en el modo con rango. Por encima de todos ellos existe el rango "Leyenda".	
@@ -554,6 +565,7 @@ GLUE_TIP_DEFAULT_2	Haz clic derecho en tu héroe para mostrar emociones.
 GLUE_TIP_DEFAULT_2_TOUCH	Toca el retrato de tu héroe para utilizar sus frases.	
 GLUE_TIP_DEFAULT_20	¡Observa cómo juegan tus amigos dándole al botón con el "Ojo" en tu lista de amigos mientras están en una partida!	
 GLUE_TIP_DEFAULT_21	¡Juega a Hearthstone en tu móvil, tableta u ordenador y usa la misma colección de cartas en las tres!	
+GLUE_TIP_DEFAULT_22	Puedes comprar un nuevo héroe para tu clase favorita en la tienda.	
 GLUE_TIP_DEFAULT_3	Si necesitas ayuda para construir un mazo, usa el "Asistente de mazos" en el Gestor de colecciones.	
 GLUE_TIP_DEFAULT_4	El color de la gema central de una carta te indica su rareza.	
 GLUE_TIP_DEFAULT_5	Colores de rareza, en orden ascendente: blanco es común, azul es poco común, morado es épico y naranja es legendario.	
@@ -561,7 +573,6 @@ GLUE_TIP_DEFAULT_6	Cada sobre de cartas contiene al menos una carta poco común 
 GLUE_TIP_DEFAULT_7	Si te quedas sin misiones, ¡vuelve mañana para conseguir una nueva!	
 GLUE_TIP_DEFAULT_8	Si alcanzas el rango 20 en una temporada, conseguirás el dorso de carta especial de la temporada en cuestión.	
 GLUE_TIP_DEFAULT_9	Completa misiones para conseguir oro. El oro se puede usar para comprar sobres o para entrar en la Arena.	
-GLUE_TIP_DEFAULT_zz_UNUSED	¡Puedes jugar con tus amigos aunque estén desconectados!	
 GLUE_TIP_FORGE_0	Tu mazo de la Arena expirará tras perder 3 partidas.	
 GLUE_TIP_FORGE_1	¡Cuantas más partidas ganes, mejor será el premio de la Arena!	
 GLUE_TIP_FORGE_2	No hace falta que juegues todas tus partidas de la Arena de una vez.	
@@ -574,7 +585,7 @@ GLUE_TIP_PLAY_5	Los mazos pueden contener dos copias de cada carta, pero solo un
 GLUE_TIP_PLAY_6	La Arena es una buena forma de ganar recompensas mientras juegas en una minicompetición.	
 GLUE_TIP_PLAY_7	No hace falta que juegues todas tus partidas de la Arena de una vez.	
 GLUE_TIP_PLAY_8	Si alcanzas el rango 20 en una temporada, conseguirás el dorso de carta especial de la temporada en cuestión.	
-GLUE_TIP_PRACTICE_0	Los héroes clásicos se desbloquean al derrotarlos en el modo Práctica.	
+GLUE_TIP_PRACTICE_0	Los héroes se desbloquean al derrotarlos en el modo Práctica.	
 GLUE_TIP_PRACTICE_1	¡El modo Práctica no es más que una preparación para el modo Jugar!	
 GLUE_TIP_PRACTICE_2	¡El modo Jugar te asignará un oponente de habilidad similar!	
 GLUE_TIP_PRACTICE_3	Para formar un mazo personalizado con tus cartas, visita tu colección.	

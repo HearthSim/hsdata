@@ -75,6 +75,7 @@ GLUE_COLLECTION_ALL_SETS	Todos los kits
 GLUE_COLLECTION_ARTIST	Artista: {0}	0=artist name
 GLUE_COLLECTION_CARD_COUNT	x{0}	
 GLUE_COLLECTION_CARD_COUNT_LARGE	x9+	
+GLUE_COLLECTION_CARD_CRAFTING_EVENT_NOT_ACTIVE	¡Ups! Esa carta no puede crearse ni desencantarse en este momento. Comunícate con el servicio de atención al cliente.	
 GLUE_COLLECTION_CARD_NEW	¡NUEVA!	
 GLUE_COLLECTION_CARD_PERMISSION_ERROR	¡Ups! No puedes crear ni desencantar esa carta. Comunícate con el servicio de atención al cliente.	
 GLUE_COLLECTION_CARD_SOULBOUND	¡Ups! No puedes crear ni desencantar una carta ligada al alma. Comunícate con el servicio de atención al cliente.	
@@ -143,6 +144,8 @@ GLUE_CRAFTING_DISENCHANT	Desencantar
 GLUE_CRAFTING_DISENCHANT_CONFIRM_DESC	¿Estás seguro? Los siguientes mazos quedarán invalidados:	
 GLUE_CRAFTING_DISENCHANT_CONFIRM_HEADER	Desencantar	
 GLUE_CRAFTING_DISENCHANT_CONFIRM2_DESC	¿Estás seguro? Si desencantas esta carta, te quedarás con menos copias de las que puedes usar en un mazo.	
+GLUE_CRAFTING_EVENT_NOT_ACTIVE_DESCRIPTION	Las cartas {0} aún no pueden crearse ni desencantarse.	
+GLUE_CRAFTING_EVENT_NOT_ACTIVE_TITLE	Pronto	
 GLUE_CRAFTING_GOLDEN_BRM	Montaña Roca Negra	
 GLUE_CRAFTING_GOLDEN_NAXX	Naxxramas	
 GLUE_CRAFTING_SOULBOUND	Ligada al alma	
@@ -279,13 +282,20 @@ GLUE_PICK_A_REGION	Elige una región
 GLUE_PRACTICE	Práctica	
 GLUE_PRACTICE_HINT	Modo Práctica aquí	
 GLUE_QUEST_FINISHED_DAILY	Has completado todas tus misiones diarias.	
+GLUE_QUEST_LOG_ARENA	de Arena	
 GLUE_QUEST_LOG_BEST_FORGE_RECORD_HEADLINE	Mejor llave de Arena	
+GLUE_QUEST_LOG_CHEST_TOOLTIP_BODY	Abre el cofre al final de la temporada.\n¡Sube de rango para mejorar el cofre!	
+GLUE_QUEST_LOG_CHEST_TOOLTIP_BODY_NO_CHEST	Abre el cofre al final de la temporada. ¡Sube de rango para mejorar el cofre!	
+GLUE_QUEST_LOG_CHEST_TOOLTIP_HEADER	Cofre de rango {0}	0=Rank number of chest
 GLUE_QUEST_LOG_CLASS_LOCKED	Bloqueado	
+GLUE_QUEST_LOG_CURRENT_CHEST	Cofre de rango	
 GLUE_QUEST_LOG_HEADLINE	Diario de misiones	
 GLUE_QUEST_LOG_HERO_LEVELS	Nivel de héroe	
+GLUE_QUEST_LOG_NO_CHEST	Por ahora, ¡nada de cofres!	
 GLUE_QUEST_LOG_NO_QUESTS	No tienes misiones. ¡Deberías desbloquear héroes nuevos en el modo Práctica!	
 GLUE_QUEST_LOG_NO_QUESTS_DAILIES_UNLOCKED	No tienes misiones. ¡Regresa mañana!	
 GLUE_QUEST_LOG_PHONE_BUTTON	Misiones	
+GLUE_QUEST_LOG_PLAY_MODE	Modo Jugar	
 GLUE_QUEST_LOG_TOTAL_LEVELS	<color=#c4b47c>Nivel total:</color> {0}	
 GLUE_QUEST_LOG_TOTAL_WINS_HEADLINE	Victorias totales	
 GLUE_QUEST_LOG_WINS_HEADLINE	Victorias en modo Jugar	
@@ -344,7 +354,7 @@ GLUE_SPINNER_23	Helena Nito
 GLUE_SPINNER_24	Pedigüeño del barrio	
 GLUE_SPINNER_25	Armando Trampa	
 GLUE_SPINNER_26	Léntulo González	
-GLUE_SPINNER_27	Bigote de monigote	
+GLUE_SPINNER_27	Cucaracha aplastada	
 GLUE_SPINNER_28	Lombriz feliz	
 GLUE_SPINNER_29	Elvis Ko	
 GLUE_SPINNER_3	Campeón de canicas	
@@ -463,6 +473,7 @@ GLUE_STORE_PACK_BUTTON_COST_OWNED_TEXT	(Comprado)
 GLUE_STORE_PACK_BUTTON_TEXT_PURCHASED	Ya lo has comprado	
 GLUE_STORE_PACKBUY_SUGGESTION	¡Lo mejor para \njugadores nuevos!	
 GLUE_STORE_PACKS_BUTTON_PREORDER_TEXT	Reservar {0} paquetes	0=number of packs
+GLUE_STORE_PACKS_LATEST_EXPANSION	Última expansión	
 GLUE_STORE_PACKS_PREORDER_TEXT	Reservar	
 GLUE_STORE_PAYMENT_INFO_DETAILS	Los fondos se descontarán de tu saldo de Battle.net. Si el saldo no es suficiente, se utilizará el método de pago principal que has especificado en tu cuenta de Battle.net.\n\nIMPORTANTE: Ten en cuenta que si se produce un cargo revertido o algún otro problema con los pagos, es posible que se suspenda temporalmente la cuenta de Hearthstone hasta que se solucionen los problemas o se vuelva a pagar el cargo revertido.	
 GLUE_STORE_PAYMENT_INFO_HEADLINE	Información de pago	
@@ -472,7 +483,7 @@ GLUE_STORE_PREORDER_EXCLUSIVE	¡SOLO CON RESERVA!
 GLUE_STORE_PRODUCT_DETAILS_BRM_PART_1	Lucha contra los jefes temibles de {0} en combates de un solo jugador.	0=wing name
 GLUE_STORE_PRODUCT_DETAILS_BRM_PART_2	Gana cartas nuevas de Montaña Roca Negra para tu colección. ¡Incluye 1 carta Legendaria!	
 GLUE_STORE_PRODUCT_DETAILS_HEADLINE_PACK	Contenido por paquete:	
-GLUE_STORE_PRODUCT_DETAILS_HEADLINE_TGT_PACK_PRESALE	El Gran Torneo (Reserva) incluye:	
+GLUE_STORE_PRODUCT_DETAILS_HEADLINE_TGT_PACK_PRESALE	La reserva de El Gran Torneo incluye:	
 GLUE_STORE_PRODUCT_DETAILS_NAXX_PART_1	Lucha contra los jefes temibles de {0} en combates de un solo jugador.	0=wing name
 GLUE_STORE_PRODUCT_DETAILS_NAXX_PART_2	Obtén nuevas cartas de Naxxramas para tu colección. ¡Puedes ganar una carta Legendaria!	
 GLUE_STORE_PRODUCT_DETAILS_PACK	•  5 cartas de Hearthstone: {0}\n• Al menos 1 carta será rara o superior	0=pack type
@@ -546,7 +557,7 @@ GLUE_TIP_DEFAULT_14	Las cartas básicas se consiguen cuando subes de nivel a una
 GLUE_TIP_DEFAULT_15	Si juegas contra jugadores reales, obtendrás más experiencia.	
 GLUE_TIP_DEFAULT_16	Puedes hacer clic derecho sobre el héroe de tu adversario para "suprimir" sus emociones.	
 GLUE_TIP_DEFAULT_16_TOUCH	Puedes tocar el héroe de tu adversario para "suprimir" sus emociones.	
-GLUE_TIP_DEFAULT_17	Si ganas 500 partidas en el modo clasificado con una clase, obtendrás el héroe clásico dorado de esa clase.	
+GLUE_TIP_DEFAULT_17	Si ganas 500 partidas en el modo clasificado con una clase, obtendrás un héroe dorado.	
 GLUE_TIP_DEFAULT_18	Puedes agregar amigos a tu lista de amigos con el botón que está en la esquina inferior izquierda.	
 GLUE_TIP_DEFAULT_18_PHONE	Puedes agregar amigos a tu lista de amigos con el botón que está en la esquina superior izquierda.	
 GLUE_TIP_DEFAULT_19	Hay 25 rangos diferentes que puedes obtener en el modo clasificado, y después: el rango de "Leyenda".	
@@ -554,6 +565,7 @@ GLUE_TIP_DEFAULT_2	Haz clic derecho sobre tu héroe para que exprese emociones.
 GLUE_TIP_DEFAULT_2_TOUCH	Toca a tu héroe para que exprese emociones.	
 GLUE_TIP_DEFAULT_20	¡Pulsa el botón con el ojo en tu lista de amigos para observarlos durante una partida!	
 GLUE_TIP_DEFAULT_21	Juega Hearthstone en tu teléfono, tableta o computadora. ¡Usa la misma colección de cartas en todos!	
+GLUE_TIP_DEFAULT_22	Puedes comprar un héroe nuevo para tu clase favorita en la tienda.	
 GLUE_TIP_DEFAULT_3	Si necesitas ayuda para construir un mazo, consulta el "Asistente de mazos" ubicado  en Mi colección.	
 GLUE_TIP_DEFAULT_4	Para identificar el nivel de rareza de una carta, observa la gema de color que tiene en el centro.	
 GLUE_TIP_DEFAULT_5	Colores de rareza en orden: blanco es común, azul es rara, púrpura es épica, naranja es legendaria.	
@@ -561,7 +573,6 @@ GLUE_TIP_DEFAULT_6	Cada paquete de cartas tiene al menos una carta rara o superi
 GLUE_TIP_DEFAULT_7	Si te quedas sin misiones, vuelve mañana para recibir una nueva.	
 GLUE_TIP_DEFAULT_8	Si alcanzas el rango 20 en una temporada, obtendrás el dorso de carta especial de la temporada.	
 GLUE_TIP_DEFAULT_9	Completa misiones para obtener Oro, que luego podrás usar para comprar paquetes o entrar a la Arena.	
-GLUE_TIP_DEFAULT_zz_UNUSED	¡Puedes jugar contra tus amigos incluso si no están conectados!	
 GLUE_TIP_FORGE_0	Tu mazo de la Arena caducará cuando pierdas 3 partidas.	
 GLUE_TIP_FORGE_1	¡Los premios de la Arena se vuelven mejores con cada victoria que consigues!	
 GLUE_TIP_FORGE_2	No tienes que jugar todas tus partidas de Arena de una sola vez.	
@@ -574,7 +585,7 @@ GLUE_TIP_PLAY_5	Los mazos pueden tener dos copias de cada carta, pero solo una c
 GLUE_TIP_PLAY_6	La Arena es una buena forma de conseguir recompensas y jugar una minicompetición a la vez.	
 GLUE_TIP_PLAY_7	No tienes que jugar todas tus partidas de Arena de una sola vez.	
 GLUE_TIP_PLAY_8	Si alcanzas el rango 20 en una temporada, obtendrás el dorso de carta especial de la temporada.	
-GLUE_TIP_PRACTICE_0	Para desbloquear héroes clásicos, debes derrotarlos en el modo Práctica.	
+GLUE_TIP_PRACTICE_0	Para desbloquear héroes, debes derrotarlos en el modo Práctica.	
 GLUE_TIP_PRACTICE_1	¡El modo Práctica es solo una preparación para el modo Jugar!	
 GLUE_TIP_PRACTICE_2	¡El modo Jugar hará que te enfrentes con alguien de habilidades similares!	
 GLUE_TIP_PRACTICE_3	Si visitas tu Colección, puedes construir un mazo personalizado con tus cartas.	

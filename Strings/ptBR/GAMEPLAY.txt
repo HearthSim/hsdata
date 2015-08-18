@@ -3,6 +3,7 @@ GAMEPLAY_AI_OPPONENT_NAME	O Estalajadeiro
 GAMEPLAY_CHOOSE_ONE	Escolha um	will be displayed for card choices e.g. tracking
 GAMEPLAY_COIN_TOSS_LOST	Você ganha um card extra	
 GAMEPLAY_COIN_TOSS_WON	Você joga primeiro	
+GAMEPLAY_DEFAULTCOUNTERNAME	Turnos até a saída:	Please delete this string from all branches before 4.0.  Leave in MASTER.
 GAMEPLAY_DISCONNECT_BODY	Jogo completado e gravado! Reinicie o Hearthstone para continuar. 	
 GAMEPLAY_DISCONNECT_BODY_RESET	Jogo completado e gravado! Reconectando aos servidores do Hearthstone. 	
 GAMEPLAY_DISCONNECT_HEADER	Desconectado 	
@@ -31,8 +32,6 @@ GAMEPLAY_MULLIGAN_STARTING_HAND	Mão inicial
 GAMEPLAY_MULLIGAN_SUBTITLE	Manter ou substituir cards	
 GAMEPLAY_MULLIGAN_WAITING	O oponente ainda está escolhendo...	
 GAMEPLAY_NEFARIAN_TITLE	Matador de Lacaios Burros, Incompetentes e Decepcionantes	
-GAMEPLAY_NOTIFICATION_MAX_HAND_SIZE	Você só pode ter {0} |4(card,cards) na sua mão	
-GAMEPLAY_NOTIFICATION_MAX_MANA	Você só pode ter |4(Cristal de Mana,Cristais de Mana)	
 GAMEPLAY_PlayErrors_REQ_ATTACK_GREATER_THAN_0	Um personagem sem Valor de Ataque não pode atacar	
 GAMEPLAY_PlayErrors_REQ_ATTACKER_CAN_ATTACK	Este personagem não pode atacar	
 GAMEPLAY_PlayErrors_REQ_ATTACKER_NOT_FROZEN	Personagens congelados não podem atacar	
@@ -47,8 +46,10 @@ GAMEPLAY_PlayErrors_REQ_DRAG_TO_PLAY	Você precisa arrastar para um alvo
 GAMEPLAY_PlayErrors_REQ_ENCHANTED_TARGET	Escolha um personagem Encantado	
 GAMEPLAY_PlayErrors_REQ_ENEMY_TARGET	Escolha um inimigo	
 GAMEPLAY_PlayErrors_REQ_ENEMY_TARGET_NOT_IMMUNE	Este personagem é imune	
+GAMEPLAY_PlayErrors_REQ_ENEMY_WEAPON_EQUIPPED	Seu inimigo precisa ter uma arma	
 GAMEPLAY_PlayErrors_REQ_ENOUGH_MANA	Mana insuficiente	
 GAMEPLAY_PlayErrors_REQ_ENTIRE_ENTOURAGE_NOT_IN_PLAY	Você já possui um totem de cada tipo	
+GAMEPLAY_PlayErrors_REQ_FRIENDLY_MINION_DIED_THIS_GAME	Nenhum lacaio aliado morreu nesta partida	
 GAMEPLAY_PlayErrors_REQ_FRIENDLY_MINION_DIED_THIS_TURN	Nenhum lacaio aliado morreu neste turno	
 GAMEPLAY_PlayErrors_REQ_FRIENDLY_TARGET	Escolha um personagem aliado	
 GAMEPLAY_PlayErrors_REQ_FROZEN_TARGET	Escolha um personagem Congelado	
@@ -75,11 +76,14 @@ GAMEPLAY_PlayErrors_REQ_TARGET_FOR_COMBO	Você não pode jogar isso sem ter um a
 GAMEPLAY_PlayErrors_REQ_TARGET_FOR_NO_COMBO	Você não pode jogar isso sem ter um alvo	
 GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE	Você não pode jogar isso sem ter um alvo	
 GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE_AND_DRAGON_IN_HAND	Você não pode jogar isso sem ter um alvo	
+GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE_AND_MINIMUM_FRIENDLY_MINIONS	É necessário ter um alvo para jogar isso	
 GAMEPLAY_PlayErrors_REQ_TARGET_MAGNET	Há um lacaio que você precisa escolher como alvo	
 GAMEPLAY_PlayErrors_REQ_TARGET_MAX_ATTACK	Escolha um personagem com {0} de Ataque ou menos	
 GAMEPLAY_PlayErrors_REQ_TARGET_MIN_ATTACK	Escolha um personagem com {0} de Ataque ou mais	
 GAMEPLAY_PlayErrors_REQ_TARGET_TAUNTER	Você precisa atacar um lacaio com Provocar	
 GAMEPLAY_PlayErrors_REQ_TARGET_TO_PLAY	Você não pode jogar isso sem ter um alvo	
+GAMEPLAY_PlayErrors_REQ_TARGET_WITH_BATTLECRY	Selecione um personagem com Grito de Guerra	
+GAMEPLAY_PlayErrors_REQ_TARGET_WITH_DEATHRATTLE	Selecione um personagem com Último Suspiro	
 GAMEPLAY_PlayErrors_REQ_TARGET_WITH_RACE	Esta não é a raça correta	
 GAMEPLAY_PlayErrors_REQ_UNDAMAGED_TARGET	Você precisa escolher um lacaio sem ferimentos	
 GAMEPLAY_PlayErrors_REQ_UNIQUE_SECRET	Você já tem este Segredo	
