@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Dbf>
+<Dbf name="ADVENTURE_DATA">
 	<Column name="ID" type="Int" comment="primary key" />
 	<Column name="NOTE_DESC" type="String" comment="designer note" />
 	<Column name="ADVENTURE_ID" type="Int" comment="ASSET.ADVENTURE.ID" />
@@ -13,6 +13,7 @@
 	<Column name="REQUIREMENTS_DESCRIPTION" type="LocString" />
 	<Column name="WATERMARK_TEXTURE" type="AssetPath" />
 	<Column name="COMPLETE_BANNER_TEXT" type="LocString" />
+	<Column name="CHOOSER_SUB_BUTTON_DEF" type="AssetPath" />
 	<Record>
 		<Field column="ID">1</Field>
 		<Field column="NOTE_DESC">Practice Normal</Field>
@@ -20,49 +21,35 @@
 		<Field column="MODE_ID">1</Field>
 		<Field column="SORT_ORDER">1</Field>
 		<Field column="SUBSCENE_PREFAB">Assets/Game/UIScreens/AdventurePractice</Field>
-		<Field column="NAME">
+		<Field column="NAME" loc_ID="20816">
 			<enUS>Practice</enUS>
-			<zhTW>練習模式</zhTW>
-			<zhCN>练习模式</zhCN>
-			<ruRU>Тренировка</ruRU>
-			<ptBR>Treinar</ptBR>
-			<plPL>Trening</plPL>
-			<koKR>연습</koKR>
-			<itIT>Allenamento</itIT>
-			<frFR>Entraînement</frFR>
-			<esMX>Práctica</esMX>
-			<esES>Práctica</esES>
 			<deDE>Üben</deDE>
+			<esES>Práctica</esES>
+			<esMX>Práctica</esMX>
+			<frFR>Entraînement</frFR>
+			<itIT>Allenamento</itIT>
+			<koKR>연습</koKR>
+			<plPL>Trening</plPL>
+			<ptBR>Treinar</ptBR>
+			<ruRU>Тренировка</ruRU>
+			<zhCN>练习模式</zhCN>
+			<zhTW>練習模式</zhTW>
 		</Field>
-		<Field column="SHORT_NAME">
+		<Field column="SHORT_NAME" loc_ID="20817">
 			<enUS>Normal</enUS>
-			<zhTW>普通級</zhTW>
-			<zhCN>普通难度</zhCN>
-			<ruRU>Обычный</ruRU>
-			<ptBR>Normal</ptBR>
-			<plPL>Normalny</plPL>
-			<koKR>일반</koKR>
-			<itIT>Normale</itIT>
-			<frFR>Normal</frFR>
-			<esMX>Normal</esMX>
-			<esES>Normal</esES>
 			<deDE>Normal</deDE>
+			<esES>Normal</esES>
+			<esMX>Normal</esMX>
+			<frFR>Normal</frFR>
+			<itIT>Normale</itIT>
+			<koKR>일반</koKR>
+			<plPL>Normalny</plPL>
+			<ptBR>Normal</ptBR>
+			<ruRU>Обычный</ruRU>
+			<zhCN>普通难度</zhCN>
+			<zhTW>普通級</zhTW>
 		</Field>
-		<Field column="DESCRIPTION">
-			<enUS>Practice your skills against the Innkeeper and battle the nine different classes.</enUS>
-			<zhTW>跟旅店老闆練習牌技，與九個不同職業作戰。</zhTW>
-			<zhCN>与旅店老板切磋牌技，和九大职业一较高下。</zhCN>
-			<ruRU>Отточите свои навыки в игре против хозяина таверны и его колод девяти различных классов.</ruRU>
-			<ptBR>Treine suas habilidades contra o Estalajadeiro e enfrente as nove classes.</ptBR>
-			<plPL>Ćwicz grę z Karczmarzem i walcz z dziewięcioma różnymi klasami.</plPL>
-			<koKR>여관주인이 다루는 9명의 영웅을 상대로 실력을 연마하세요.</koKR>
-			<itIT>Fai pratica contro il Locandiere e affronta le nove differenti classi del gioco.</itIT>
-			<frFR>Entraînez-vous contre l’aubergiste et affrontez les neuf différentes classes.</frFR>
-			<esMX>Practica tus habilidades contra el Tabernero y lánzate a la batalla contra las nueve clases.</esMX>
-			<esES>Entrena tus habilidades con el tabernero y enfréntate a nueve clases diferentes.</esES>
-			<deDE>Übt im Kampf gegen den Gastwirt und fordert die neun verschiedenen Klassen heraus.</deDE>
-		</Field>
-		<Field column="SHORT_DESCRIPTION">
+		<Field column="DESCRIPTION" loc_ID="20818">
 			<enUS>Practice your skills against the Innkeeper and battle the nine different classes.</enUS>
 			<deDE>Übt im Kampf gegen den Gastwirt und fordert die neun verschiedenen Klassen heraus.</deDE>
 			<esES>Entrena tus habilidades con el tabernero y enfréntate a nueve clases diferentes.</esES>
@@ -76,6 +63,24 @@
 			<zhCN>与旅店老板切磋牌技，和九大职业一较高下。</zhCN>
 			<zhTW>跟旅店老闆練習牌技，與九個不同職業作戰。</zhTW>
 		</Field>
+		<Field column="SHORT_DESCRIPTION" loc_ID="20819">
+			<enUS>Practice your skills against the Innkeeper and battle the nine different classes.</enUS>
+			<deDE>Übt im Kampf gegen den Gastwirt und fordert die neun verschiedenen Klassen heraus.</deDE>
+			<esES>Entrena tus habilidades con el tabernero y enfréntate a nueve clases diferentes.</esES>
+			<esMX>Practica tus habilidades contra el Tabernero y lánzate a la batalla contra las nueve clases.</esMX>
+			<frFR>Entraînez-vous contre l’aubergiste et affrontez les neuf différentes classes.</frFR>
+			<itIT>Fai pratica contro il Locandiere e affronta le nove differenti classi del gioco.</itIT>
+			<koKR>여관주인이 다루는 9명의 영웅을 상대로 실력을 연마하세요.</koKR>
+			<plPL>Ćwicz grę z Karczmarzem i walcz z dziewięcioma różnymi klasami.</plPL>
+			<ptBR>Treine suas habilidades contra o Estalajadeiro e enfrente as nove classes.</ptBR>
+			<ruRU>Отточите свои навыки в игре против хозяина таверны и его колод девяти различных классов.</ruRU>
+			<zhCN>与旅店老板切磋牌技，和九大职业一较高下。</zhCN>
+			<zhTW>跟旅店老闆練習牌技，與九個不同職業作戰。</zhTW>
+		</Field>
+		<Field column="WATERMARK_TEXTURE"></Field>
+		<Field column="CHOOSER_SUB_BUTTON_DEF">Assets/Game/GameObjects/AdventureChooserDefs/AdventureChooserSubDef_PracticeNormal</Field>
+		<Field column="REQUIREMENTS_DESCRIPTION"></Field>
+		<Field column="COMPLETE_BANNER_TEXT"></Field>
 	</Record>
 	<Record>
 		<Field column="ID">2</Field>
@@ -84,49 +89,35 @@
 		<Field column="MODE_ID">2</Field>
 		<Field column="SORT_ORDER">2</Field>
 		<Field column="SUBSCENE_PREFAB">Assets/Game/UIScreens/AdventurePractice</Field>
-		<Field column="NAME">
+		<Field column="NAME" loc_ID="20820">
 			<enUS>Practice (Expert)</enUS>
-			<zhTW>練習模式(專家級)</zhTW>
-			<zhCN>练习模式</zhCN>
-			<ruRU>Тренировка (эксперт)</ruRU>
-			<ptBR>Treinar (Perito)</ptBR>
-			<plPL>Trening (Ekspert)</plPL>
-			<koKR>연습 (전문가)</koKR>
-			<itIT>Allenamento (Esperto)</itIT>
-			<frFR>Entraînement (Expert)</frFR>
-			<esMX>Práctica (Experto)</esMX>
-			<esES>Práctica (experto)</esES>
 			<deDE>Üben (Profi)</deDE>
+			<esES>Práctica (experto)</esES>
+			<esMX>Práctica (Experto)</esMX>
+			<frFR>Entraînement (Expert)</frFR>
+			<itIT>Allenamento (Esperto)</itIT>
+			<koKR>연습 (전문가)</koKR>
+			<plPL>Trening (Ekspert)</plPL>
+			<ptBR>Treinar (Perito)</ptBR>
+			<ruRU>Тренировка (эксперт)</ruRU>
+			<zhCN>练习模式</zhCN>
+			<zhTW>練習模式(專家級)</zhTW>
 		</Field>
-		<Field column="SHORT_NAME">
+		<Field column="SHORT_NAME" loc_ID="20821">
 			<enUS>Expert</enUS>
-			<zhTW>專家級</zhTW>
-			<zhCN>专家难度</zhCN>
-			<ruRU>Эксперт</ruRU>
-			<ptBR>Perito</ptBR>
-			<plPL>Ekspercki</plPL>
-			<koKR>전문가</koKR>
-			<itIT>Esperto</itIT>
-			<frFR>Expert</frFR>
-			<esMX>Experto</esMX>
-			<esES>Experto</esES>
 			<deDE>Profi</deDE>
+			<esES>Experto</esES>
+			<esMX>Experto</esMX>
+			<frFR>Expert</frFR>
+			<itIT>Esperto</itIT>
+			<koKR>전문가</koKR>
+			<plPL>Ekspercki</plPL>
+			<ptBR>Perito</ptBR>
+			<ruRU>Эксперт</ruRU>
+			<zhCN>专家难度</zhCN>
+			<zhTW>專家級</zhTW>
 		</Field>
-		<Field column="DESCRIPTION">
-			<enUS>Hone your skills against the Innkeeper and his expert level decks.</enUS>
-			<zhTW>跟旅店老闆進一步練習，與他專家級的套牌對抗。</zhTW>
-			<zhCN>与旅店老板切磋牌技，对抗他的专家级套牌。</zhCN>
-			<ruRU>Отточите свои навыки в игре против хозяина таверны и его колод, включающих карты эксперта.</ruRU>
-			<ptBR>Teste suas habilidades contra o Estalajadeiro e seus decks de perito.</ptBR>
-			<plPL>Szlifuj swoje umiejętności walcząc z Karczmarzem i jego eksperckimi taliami.</plPL>
-			<koKR>전문가 수준의 실력을 가진 여관주인과 겨뤄보세요.</koKR>
-			<itIT>Affina le tue abilità contro il Locandiere e i suoi mazzi di livello esperto.</itIT>
-			<frFR>Entraînez-vous contre l’aubergiste et ses decks de niveau Expert.</frFR>
-			<esMX>Perfecciona tus habilidades contra el Tabernero y sus mazos de nivel experto.</esMX>
-			<esES>Mejora tus habilidades con el tabernero y sus mazos expertos.</esES>
-			<deDE>Verbessert Euer Kampfgeschick im Spiel gegen den Gastwirt mit seinen Profidecks.</deDE>
-		</Field>
-		<Field column="SHORT_DESCRIPTION">
+		<Field column="DESCRIPTION" loc_ID="20822">
 			<enUS>Hone your skills against the Innkeeper and his expert level decks.</enUS>
 			<deDE>Verbessert Euer Kampfgeschick im Spiel gegen den Gastwirt mit seinen Profidecks.</deDE>
 			<esES>Mejora tus habilidades con el tabernero y sus mazos expertos.</esES>
@@ -140,20 +131,37 @@
 			<zhCN>与旅店老板切磋牌技，对抗他的专家级套牌。</zhCN>
 			<zhTW>跟旅店老闆進一步練習，與他專家級的套牌對抗。</zhTW>
 		</Field>
-		<Field column="REQUIREMENTS_DESCRIPTION">
+		<Field column="SHORT_DESCRIPTION" loc_ID="20823">
+			<enUS>Hone your skills against the Innkeeper and his expert level decks.</enUS>
+			<deDE>Verbessert Euer Kampfgeschick im Spiel gegen den Gastwirt mit seinen Profidecks.</deDE>
+			<esES>Mejora tus habilidades con el tabernero y sus mazos expertos.</esES>
+			<esMX>Perfecciona tus habilidades contra el Tabernero y sus mazos de nivel experto.</esMX>
+			<frFR>Entraînez-vous contre l’aubergiste et ses decks de niveau Expert.</frFR>
+			<itIT>Affina le tue abilità contro il Locandiere e i suoi mazzi di livello esperto.</itIT>
+			<koKR>전문가 수준의 실력을 가진 여관주인과 겨뤄보세요.</koKR>
+			<plPL>Szlifuj swoje umiejętności walcząc z Karczmarzem i jego eksperckimi taliami.</plPL>
+			<ptBR>Teste suas habilidades contra o Estalajadeiro e seus decks de perito.</ptBR>
+			<ruRU>Отточите свои навыки в игре против хозяина таверны и его колод, включающих карты эксперта.</ruRU>
+			<zhCN>与旅店老板切磋牌技，对抗他的专家级套牌。</zhCN>
+			<zhTW>跟旅店老闆進一步練習，與他專家級的套牌對抗。</zhTW>
+		</Field>
+		<Field column="REQUIREMENTS_DESCRIPTION" loc_ID="20824">
 			<enUS>Requires unlocking every class</enUS>
-			<zhTW>需要先解鎖全部職業</zhTW>
-			<zhCN>需要解锁所有职业</zhCN>
-			<ruRU>Требуется открыть доступ ко всем классам.</ruRU>
-			<ptBR>É necessário desbloquear todas as classes</ptBR>
-			<plPL>Wymaga odblokowania każdej klasy</plPL>
-			<koKR>모든 영웅을 잠금 해제해야 합니다!</koKR>
-			<itIT>Devi aver sbloccato tutte le classi.</itIT>
-			<frFR>Chaque classe doit être débloquée</frFR>
-			<esMX>Requiere desbloquear todas las clases</esMX>
-			<esES>Requiere desbloquear todas las clases</esES>
 			<deDE>Erfordert das Freischalten aller Klassen.</deDE>
+			<esES>Requiere desbloquear todas las clases</esES>
+			<esMX>Requiere desbloquear todas las clases</esMX>
+			<frFR>Chaque classe doit être débloquée</frFR>
+			<itIT>Devi aver sbloccato tutte le classi.</itIT>
+			<koKR>모든 영웅을 잠금 해제해야 합니다!</koKR>
+			<plPL>Wymaga odblokowania każdej klasy</plPL>
+			<ptBR>É necessário desbloquear todas as classes</ptBR>
+			<ruRU>Требуется открыть доступ ко всем классам.</ruRU>
+			<zhCN>需要解锁所有职业</zhCN>
+			<zhTW>需要先解鎖全部職業</zhTW>
 		</Field>
+		<Field column="WATERMARK_TEXTURE"></Field>
+		<Field column="CHOOSER_SUB_BUTTON_DEF">Assets/Game/GameObjects/AdventureChooserDefs/AdventureChooserSubDef_PracticeExpert</Field>
+		<Field column="COMPLETE_BANNER_TEXT"></Field>
 	</Record>
 	<Record>
 		<Field column="ID">3</Field>
@@ -163,49 +171,49 @@
 		<Field column="SORT_ORDER">1</Field>
 		<Field column="SUBSCENE_PREFAB">Assets/Game/UIScreens/AdventureMissionDisplay</Field>
 		<Field column="WATERMARK_TEXTURE">Assets/Game/Textures/Watermarks/NaxxIcon</Field>
-		<Field column="NAME">
+		<Field column="NAME" loc_ID="20825">
 			<enUS>Naxxramas</enUS>
-			<zhTW>納克薩瑪斯</zhTW>
-			<zhCN>纳克萨玛斯</zhCN>
-			<ruRU>Наксрамас</ruRU>
-			<ptBR>Naxxramas</ptBR>
-			<plPL>Naxxramas</plPL>
-			<koKR>낙스라마스</koKR>
-			<itIT>Naxxramas</itIT>
-			<frFR>Naxxramas</frFR>
-			<esMX>Naxxramas</esMX>
-			<esES>Naxxramas</esES>
 			<deDE>Naxxramas</deDE>
+			<esES>Naxxramas</esES>
+			<esMX>Naxxramas</esMX>
+			<frFR>Naxxramas</frFR>
+			<itIT>Naxxramas</itIT>
+			<koKR>낙스라마스</koKR>
+			<plPL>Naxxramas</plPL>
+			<ptBR>Naxxramas</ptBR>
+			<ruRU>Наксрамас</ruRU>
+			<zhCN>纳克萨玛斯</zhCN>
+			<zhTW>納克薩瑪斯</zhTW>
 		</Field>
-		<Field column="SHORT_NAME">
+		<Field column="SHORT_NAME" loc_ID="20826">
 			<enUS>Normal</enUS>
-			<zhTW>普通難度</zhTW>
-			<zhCN>普通难度</zhCN>
-			<ruRU>Обычный</ruRU>
-			<ptBR>Normal</ptBR>
-			<plPL>Normalny</plPL>
-			<koKR>일반</koKR>
-			<itIT>Normale</itIT>
-			<frFR>Normal</frFR>
-			<esMX>Normal</esMX>
-			<esES>Normal</esES>
 			<deDE>Normal</deDE>
+			<esES>Normal</esES>
+			<esMX>Normal</esMX>
+			<frFR>Normal</frFR>
+			<itIT>Normale</itIT>
+			<koKR>일반</koKR>
+			<plPL>Normalny</plPL>
+			<ptBR>Normal</ptBR>
+			<ruRU>Обычный</ruRU>
+			<zhCN>普通难度</zhCN>
+			<zhTW>普通難度</zhTW>
 		</Field>
-		<Field column="DESCRIPTION">
+		<Field column="DESCRIPTION" loc_ID="20827">
 			<enUS>The Lich Kel'Thuzad awaits within, along with 14 other deadly bosses to challenge your skills. Defeat the bosses to earn unique Naxxramas cards!</enUS>
-			<zhTW>巫妖科爾蘇加德就在裡面，與其他14個致命的首領正等著挑戰你的牌技。擊敗這些首領來獲得獨特的納克薩瑪斯卡片！</zhTW>
-			<zhCN>巫妖克尔苏加德潜伏在他的浮空城内，与其他十四位首领等待着冒险者的挑战。击败这些天灾军团的首领，赢取独特的纳克萨玛斯卡牌！</zhCN>
-			<ruRU>В подземелье вас ждет схватка с личом Кел'Тузадом и еще 14 опаснейшими боссами. Одержите над ними победу, чтобы получить уникальные карты Наксрамаса!</ruRU>
-			<ptBR>O Lich Kel'Thuzad aguarda lá dentro, junto com mais 14 chefes para desafiar suas habilidades. Derrote os chefes para ganhar cards únicos de Naxxramas!</ptBR>
-			<plPL>Wewnątrz czeka licz Kel'Thuzad, a także 14 morderczych bossów, którzy sprawdzą twoje umiejętności. Pokonaj ich, aby otrzymać wyjątkowe karty z Naxxramas!</plPL>
-			<koKR>낙스라마스에는 리치 켈투자드를 비롯한 15마리의 끔찍한 우두머리들이 당신의 도전을 기다립니다. 우두머리들을 처치하고 낙스라마스에서만 얻을 수 있는 카드들을 획득하세요!</koKR>
-			<itIT>Il Lich Kel'Thuzad e 14 altri letali boss sono pronti a mettere alla prova le tue abilità. Sconfiggili per ottenere le carte di Naxxramas!</itIT>
-			<frFR>La liche Kel’Thuzad, ainsi que 14 boss impitoyables, vous attendent à l’intérieur, prêts à mettre vos compétences à l’épreuve. Battez-les pour obtenir des cartes Naxxramas uniques !</frFR>
-			<esMX>El exánime Kel'Thuzad te espera, junto a otros 14 poderosos jefes que pondrán a prueba tus habilidades. ¡Derrota a los jefes para ganar cartas de Naxxramas exclusivas!</esMX>
-			<esES>El exánime Kel'Thuzad te espera aquí dentro, junto a otros 14 mortíferos jefes que pondrán a prueba tus habilidades. ¡Derrótalos para conseguir cartas únicas de Naxxramas!</esES>
 			<deDE>Der Lich Kel'Thuzad und 14 andere tödliche Bossgegner erwarten Euch und werden Euch auf eine harte Probe stellen. Besiegt die Bosse, um einzigartige Naxxramaskarten zu erhalten!</deDE>
+			<esES>El exánime Kel'Thuzad te espera aquí dentro, junto a otros 14 mortíferos jefes que pondrán a prueba tus habilidades. ¡Derrótalos para conseguir cartas únicas de Naxxramas!</esES>
+			<esMX>El exánime Kel'Thuzad te espera, junto a otros 14 poderosos jefes que pondrán a prueba tus habilidades. ¡Derrota a los jefes para ganar cartas de Naxxramas exclusivas!</esMX>
+			<frFR>La liche Kel’Thuzad, ainsi que 14 boss impitoyables, vous attendent à l’intérieur, prêts à mettre vos compétences à l’épreuve. Battez-les pour obtenir des cartes Naxxramas uniques !</frFR>
+			<itIT>Il Lich Kel'Thuzad e 14 altri letali boss sono pronti a mettere alla prova le tue abilità. Sconfiggili per ottenere le carte di Naxxramas!</itIT>
+			<koKR>낙스라마스에는 리치 켈투자드를 비롯한 15마리의 끔찍한 우두머리들이 당신의 도전을 기다립니다. 우두머리들을 처치하고 낙스라마스에서만 얻을 수 있는 카드들을 획득하세요!</koKR>
+			<plPL>Wewnątrz czeka licz Kel'Thuzad, a także 14 morderczych bossów, którzy sprawdzą twoje umiejętności. Pokonaj ich, aby otrzymać wyjątkowe karty z Naxxramas!</plPL>
+			<ptBR>O Lich Kel'Thuzad aguarda lá dentro, junto com mais 14 chefes para desafiar suas habilidades. Derrote os chefes para ganhar cards únicos de Naxxramas!</ptBR>
+			<ruRU>В подземелье вас ждет схватка с личом Кел'Тузадом и еще 14 опаснейшими боссами. Одержите над ними победу, чтобы получить уникальные карты Наксрамаса!</ruRU>
+			<zhCN>巫妖克尔苏加德潜伏在他的浮空城内，与其他十四位首领等待着冒险者的挑战。击败这些天灾军团的首领，赢取独特的纳克萨玛斯卡牌！</zhCN>
+			<zhTW>巫妖科爾蘇加德就在裡面，與其他14個致命的首領正等著挑戰你的牌技。擊敗這些首領來獲得獨特的納克薩瑪斯卡片！</zhTW>
 		</Field>
-		<Field column="SHORT_DESCRIPTION">
+		<Field column="SHORT_DESCRIPTION" loc_ID="20828">
 			<enUS>The Lich Kel'Thuzad awaits within, along with 14 other deadly bosses to challenge your skills.</enUS>
 			<deDE>Der Lich Kel'Thuzad und 14 andere tödliche Bossgegner erwarten Euch und werden Euch auf eine harte Probe stellen.</deDE>
 			<esES>El exánime Kel'Thuzad espera en el interior, junto a otros 14 jefes letales, para poner a prueba tus habilidades.</esES>
@@ -219,21 +227,21 @@
 			<zhCN>巫妖克尔苏加德潜伏其中，与另外14名强大而致命的首领等待着你的挑战。</zhCN>
 			<zhTW>巫妖科爾蘇加德和14個致命的首領在裡面等著挑戰你的牌技。</zhTW>
 		</Field>
-		<Field column="REQUIREMENTS_DESCRIPTION">
+		<Field column="REQUIREMENTS_DESCRIPTION" loc_ID="20829">
 			<enUS>Requires unlocking every class</enUS>
-			<zhTW>需要先解鎖全部職業</zhTW>
-			<zhCN>需要解锁所有职业</zhCN>
-			<ruRU>Требуется открыть доступ ко всем классам.</ruRU>
-			<ptBR>É necessário desbloquear todas as classes</ptBR>
-			<plPL>Wymaga odblokowania każdej klasy</plPL>
-			<koKR>모든 영웅을 잠금 해제해야 합니다!</koKR>
-			<itIT>Devi aver sbloccato tutte le classi.</itIT>
-			<frFR>Chaque classe doit être débloquée</frFR>
-			<esMX>Requiere desbloquear todas las clases</esMX>
-			<esES>Requiere desbloquear todas las clases</esES>
 			<deDE>Erfordert das Freischalten aller Klassen.</deDE>
+			<esES>Requiere desbloquear todas las clases</esES>
+			<esMX>Requiere desbloquear todas las clases</esMX>
+			<frFR>Chaque classe doit être débloquée</frFR>
+			<itIT>Devi aver sbloccato tutte le classi.</itIT>
+			<koKR>모든 영웅을 잠금 해제해야 합니다!</koKR>
+			<plPL>Wymaga odblokowania każdej klasy</plPL>
+			<ptBR>É necessário desbloquear todas as classes</ptBR>
+			<ruRU>Требуется открыть доступ ко всем классам.</ruRU>
+			<zhCN>需要解锁所有职业</zhCN>
+			<zhTW>需要先解鎖全部職業</zhTW>
 		</Field>
-		<Field column="COMPLETE_BANNER_TEXT">
+		<Field column="COMPLETE_BANNER_TEXT" loc_ID="20830">
 			<enUS>Naxxramas Cleared!</enUS>
 			<deDE>Naxxramas bezwungen!</deDE>
 			<esES>¡Naxxramas superado!</esES>
@@ -247,6 +255,7 @@
 			<zhCN>征服纳克萨玛斯！</zhCN>
 			<zhTW>納克薩瑪斯全破！</zhTW>
 		</Field>
+		<Field column="CHOOSER_SUB_BUTTON_DEF">Assets/Game/GameObjects/AdventureChooserDefs/AdventureChooserSubDef_NaxxramasNormal</Field>
 	</Record>
 	<Record>
 		<Field column="ID">4</Field>
@@ -256,49 +265,49 @@
 		<Field column="SORT_ORDER">2</Field>
 		<Field column="SUBSCENE_PREFAB">Assets/Game/UIScreens/AdventureMissionDisplay</Field>
 		<Field column="WATERMARK_TEXTURE">Assets/Game/Textures/Watermarks/NaxxIcon</Field>
-		<Field column="NAME">
+		<Field column="NAME" loc_ID="20831">
 			<enUS>Naxxramas (Heroic)</enUS>
-			<zhTW>納克薩瑪斯(英雄難度)</zhTW>
-			<zhCN>纳克萨玛斯（英雄难度）</zhCN>
-			<ruRU>Наксрамас (героич.)</ruRU>
-			<ptBR>Naxxramas (Heroico)</ptBR>
-			<plPL>Naxxramas (Heroiczny)</plPL>
-			<koKR>낙스라마스 (영웅 난이도)</koKR>
-			<itIT>Naxxramas (Eroica)</itIT>
-			<frFR>Naxxramas (héroïque)</frFR>
-			<esMX>Naxxramas (Heroico)</esMX>
-			<esES>Naxxramas (heroico)</esES>
 			<deDE>Naxxramas (Heroisch)</deDE>
+			<esES>Naxxramas (heroico)</esES>
+			<esMX>Naxxramas (Heroico)</esMX>
+			<frFR>Naxxramas (héroïque)</frFR>
+			<itIT>Naxxramas (Eroica)</itIT>
+			<koKR>낙스라마스 (영웅 난이도)</koKR>
+			<plPL>Naxxramas (Heroiczny)</plPL>
+			<ptBR>Naxxramas (Heroico)</ptBR>
+			<ruRU>Наксрамас (героич.)</ruRU>
+			<zhCN>纳克萨玛斯（英雄难度）</zhCN>
+			<zhTW>納克薩瑪斯(英雄難度)</zhTW>
 		</Field>
-		<Field column="SHORT_NAME">
+		<Field column="SHORT_NAME" loc_ID="20832">
 			<enUS>Heroic</enUS>
-			<zhTW>英雄難度</zhTW>
-			<zhCN>英雄难度</zhCN>
-			<ruRU>Героический</ruRU>
-			<ptBR>Heroico</ptBR>
-			<plPL>Heroiczny</plPL>
-			<koKR>영웅</koKR>
-			<itIT>Eroica</itIT>
-			<frFR>Héroïque</frFR>
-			<esMX>Heroico</esMX>
-			<esES>Heroico</esES>
 			<deDE>Heroisch</deDE>
+			<esES>Heroico</esES>
+			<esMX>Heroico</esMX>
+			<frFR>Héroïque</frFR>
+			<itIT>Eroica</itIT>
+			<koKR>영웅</koKR>
+			<plPL>Heroiczny</plPL>
+			<ptBR>Heroico</ptBR>
+			<ruRU>Героический</ruRU>
+			<zhCN>英雄难度</zhCN>
+			<zhTW>英雄難度</zhTW>
 		</Field>
-		<Field column="DESCRIPTION">
+		<Field column="DESCRIPTION" loc_ID="20833">
 			<enUS>Kel'Thuzad has dramatically improved his dungeon and is ready for round 2. Heroic is VERY difficult and is not for the faint of heart!</enUS>
-			<zhTW>科爾蘇加德大幅強化了他的地城，正在跟你叫陣第二回合的對決。英雄模式非常困難，不是意志薄弱的人能忍受的！</zhTW>
-			<zhCN>克尔苏加德大幅强化了他的军团实力，准备迎接冒险者的第二轮挑战。英雄模式的战斗将非常艰难，谢绝心脏病患者进入！</zhCN>
-			<ruRU>Кел'Тузад значительно усовершенствовал свое подземелье и готов взять реванш за поражение! Героический режим — КРАЙНЕ сложное испытание, которое по силам пройти только самым отважным искателям приключений!</ruRU>
-			<ptBR>Kel'Thuzad melhorou a masmorra de forma considerável e está pronto para a segunda rodada. O modo Heroico é MUITO difícil e não é para qualquer um!</ptBR>
-			<plPL>Kel'Thuzad ciężko pracował nad ulepszeniem swoich podziemi i jest gotów na drugą rundę. Tryb heroiczny jest BARDZO trudny i nie nadaje się dla osób o słabych nerwach!</plPL>
-			<koKR>자신의 요새를 더욱 강력하게 만든 켈투자드가 설욕의 기회를 노리고 있습니다. 영웅 난이도의 우두머리들은 매우 잔혹합니다. 심장이 약한 분들은 주의하세요!</koKR>
-			<itIT>Kel'Thuzad ha potenziato la sua fortezza ed è pronto per la rivincita. La versione Eroica è MOLTO difficile e non è adatta ai deboli di cuore.</itIT>
-			<frFR>Kel’Thuzad a affreusement amélioré son donjon et se tient prêt pour le 2e round. Le mode héroïque est TRÈS éprouvant pour les nerfs et déconseillé aux âmes sensibles !</frFR>
-			<esMX>Kel'Thuzad ha mejorado enormemente su calabozo y está listo para una segunda ronda. ¡El modo heroico es MUY difícil y no es para corazones débiles!</esMX>
-			<esES>Kel'Thuzad ha hecho reformas en su mazmorra y ya está listo para la segunda ronda. El modo heroico es MUY difícil. ¡No apto para cardíacos!</esES>
 			<deDE>Kel'Thuzad hat seine Zitadelle stark aufgerüstet und ist bereit für die zweite Runde. Der heroische Modus ist SEHR schwer und nichts für zarte Gemüter!</deDE>
+			<esES>Kel'Thuzad ha hecho reformas en su mazmorra y ya está listo para la segunda ronda. El modo heroico es MUY difícil. ¡No apto para cardíacos!</esES>
+			<esMX>Kel'Thuzad ha mejorado enormemente su calabozo y está listo para una segunda ronda. ¡El modo heroico es MUY difícil y no es para corazones débiles!</esMX>
+			<frFR>Kel’Thuzad a affreusement amélioré son donjon et se tient prêt pour le 2e round. Le mode héroïque est TRÈS éprouvant pour les nerfs et déconseillé aux âmes sensibles !</frFR>
+			<itIT>Kel'Thuzad ha potenziato la sua fortezza ed è pronto per la rivincita. La versione Eroica è MOLTO difficile e non è adatta ai deboli di cuore.</itIT>
+			<koKR>자신의 요새를 더욱 강력하게 만든 켈투자드가 설욕의 기회를 노리고 있습니다. 영웅 난이도의 우두머리들은 매우 잔혹합니다. 심장이 약한 분들은 주의하세요!</koKR>
+			<plPL>Kel'Thuzad ciężko pracował nad ulepszeniem swoich podziemi i jest gotów na drugą rundę. Tryb heroiczny jest BARDZO trudny i nie nadaje się dla osób o słabych nerwach!</plPL>
+			<ptBR>Kel'Thuzad melhorou a masmorra de forma considerável e está pronto para a segunda rodada. O modo Heroico é MUITO difícil e não é para qualquer um!</ptBR>
+			<ruRU>Кел'Тузад значительно усовершенствовал свое подземелье и готов взять реванш за поражение! Героический режим — КРАЙНЕ сложное испытание, которое по силам пройти только самым отважным искателям приключений!</ruRU>
+			<zhCN>克尔苏加德大幅强化了他的军团实力，准备迎接冒险者的第二轮挑战。英雄模式的战斗将非常艰难，谢绝心脏病患者进入！</zhCN>
+			<zhTW>科爾蘇加德大幅強化了他的地城，正在跟你叫陣第二回合的對決。英雄模式非常困難，不是意志薄弱的人能忍受的！</zhTW>
 		</Field>
-		<Field column="SHORT_DESCRIPTION">
+		<Field column="SHORT_DESCRIPTION" loc_ID="20834">
 			<enUS>Heroic is VERY difficult and is not for the faint of heart!</enUS>
 			<deDE>Der heroische Modus ist SEHR schwer und nichts für zarte Gemüter!</deDE>
 			<esES>¡La versión heroica es MUY difícil y no apta para cardíacos!</esES>
@@ -312,21 +321,21 @@
 			<zhCN>英雄难度相当困难，不适合胆小者进入！</zhCN>
 			<zhTW>英雄模式非常困難，不是意志薄弱的人能忍受的！</zhTW>
 		</Field>
-		<Field column="REQUIREMENTS_DESCRIPTION">
+		<Field column="REQUIREMENTS_DESCRIPTION" loc_ID="20835">
 			<enUS>Unlock by completing a wing in Normal mode.</enUS>
-			<zhTW>在普通模式完成一個區域後解鎖</zhTW>
-			<zhCN>击败普通难度下任意一区的所有首领后解锁</zhCN>
-			<ruRU>Требуется пройти крыло в обычном режиме.</ruRU>
-			<ptBR>Desbloqueado ao completar uma ala no modo normal.</ptBR>
-			<plPL>Odblokuj przechodząc skrzydło w trybie normalnym</plPL>
-			<koKR>일반 난이도의 해당 지구를 완료하면 잠금 해제됩니다!</koKR>
-			<itIT>Devi aver sbloccato un'ala in versione Normale.</itIT>
-			<frFR>Débloquée en terminant une aile en mode normal.</frFR>
-			<esMX>Para desbloquearlo, completa un ala en modo Normal.</esMX>
-			<esES>Se desbloquea al completar un ala en modo normal.</esES>
 			<deDE>Erfordert den Abschluss eines Flügels im normalen Modus.</deDE>
+			<esES>Se desbloquea al completar un ala en modo normal.</esES>
+			<esMX>Para desbloquearlo, completa un ala en modo Normal.</esMX>
+			<frFR>Débloquée en terminant une aile en mode normal.</frFR>
+			<itIT>Devi aver sbloccato un'ala in versione Normale.</itIT>
+			<koKR>일반 난이도의 해당 지구를 완료하면 잠금 해제됩니다!</koKR>
+			<plPL>Odblokuj przechodząc skrzydło w trybie normalnym</plPL>
+			<ptBR>Desbloqueado ao completar uma ala no modo normal.</ptBR>
+			<ruRU>Требуется пройти крыло в обычном режиме.</ruRU>
+			<zhCN>击败普通难度下任意一区的所有首领后解锁</zhCN>
+			<zhTW>在普通模式完成一個區域後解鎖</zhTW>
 		</Field>
-		<Field column="COMPLETE_BANNER_TEXT">
+		<Field column="COMPLETE_BANNER_TEXT" loc_ID="20836">
 			<enUS>Heroic Naxxramas Cleared!</enUS>
 			<deDE>Heroisches Naxxramas bezwungen!</deDE>
 			<esES>¡Naxxramas heroico superado!</esES>
@@ -340,6 +349,7 @@
 			<zhCN>征服英雄难度纳克萨玛斯！</zhCN>
 			<zhTW>英雄納克薩瑪斯全破！</zhTW>
 		</Field>
+		<Field column="CHOOSER_SUB_BUTTON_DEF">Assets/Game/GameObjects/AdventureChooserDefs/AdventureChooserSubDef_NaxxramasHeroic</Field>
 	</Record>
 	<Record>
 		<Field column="ID">5</Field>
@@ -348,51 +358,49 @@
 		<Field column="MODE_ID">4</Field>
 		<Field column="SORT_ORDER">3</Field>
 		<Field column="SUBSCENE_PREFAB">Assets/Game/UIScreens/AdventureClassChallenge</Field>
-		<Field column="NAME">
+		<Field column="NAME" loc_ID="20837">
 			<enUS>Class Challenge</enUS>
-			<zhTW>職業挑戰</zhTW>
-			<zhCN>职业挑战</zhCN>
-			<ruRU>Классовые испытания</ruRU>
-			<ptBR>Desafio de Classe</ptBR>
-			<plPL>Wyzwania klasowe</plPL>
-			<koKR>직업별 도전 과제</koKR>
-			<itIT>Sfida di Classe</itIT>
-			<frFR>Défi de classe</frFR>
-			<esMX>Desafío de clase</esMX>
-			<esES>Desafío de clase</esES>
 			<deDE>Klassenherausforderung</deDE>
-		</Field>
-		<Field column="SHORT_NAME">
-			<enUS>Class Challenge</enUS>
-			<zhTW>職業挑戰</zhTW>
-			<zhCN>职业挑战</zhCN>
-			<ruRU>Испытания</ruRU>
-			<ptBR>Desafio de Classe</ptBR>
-			<plPL>Wyzwania klasowe</plPL>
-			<koKR>직업별 도전 과제</koKR>
-			<itIT>Sfida di Classe</itIT>
-			<frFR>Défi de classe</frFR>
-			<esMX>Desafío de clase</esMX>
 			<esES>Desafío de clase</esES>
+			<esMX>Desafío de clase</esMX>
+			<frFR>Défi de classe</frFR>
+			<itIT>Sfida di Classe</itIT>
+			<koKR>직업별 도전 과제</koKR>
+			<plPL>Wyzwania klasowe</plPL>
+			<ptBR>Desafio de Classe</ptBR>
+			<ruRU>Классовые испытания</ruRU>
+			<zhCN>职业挑战</zhCN>
+			<zhTW>職業挑戰</zhTW>
+		</Field>
+		<Field column="SHORT_NAME" loc_ID="20838">
+			<enUS>Class Challenge</enUS>
 			<deDE>Herausforderung</deDE>
+			<esES>Desafío de clase</esES>
+			<esMX>Desafío de clase</esMX>
+			<frFR>Défi de classe</frFR>
+			<itIT>Sfida di Classe</itIT>
+			<koKR>직업별 도전 과제</koKR>
+			<plPL>Wyzwania klasowe</plPL>
+			<ptBR>Desafio de Classe</ptBR>
+			<ruRU>Испытания</ruRU>
+			<zhCN>职业挑战</zhCN>
+			<zhTW>職業挑戰</zhTW>
 		</Field>
-		<Field column="DESCRIPTION">
+		<Field column="DESCRIPTION" loc_ID="20839">
 			<enUS>Nine Naxxramas Bosses have a special class challenge after you defeat them in normal mode. Crush each one and earn a card!</enUS>
-			<zhTW>納克薩瑪斯中的九位首領被擊敗後會解鎖特殊的職業挑戰。完成每一個挑戰都能獲得一張卡片！</zhTW>
-			<zhTW>納克薩瑪斯中的九位首領被擊敗後會解鎖特殊的職業挑戰。完成每一個挑戰都能獲得一張卡片!</zhTW>
-			<zhTW>納克薩瑪斯中的九位首領被擊敗後會解鎖特殊的職業挑戰。完成每一個挑戰來獲得一張卡片!</zhTW>
-			<zhCN>在你击败普通难度纳克萨玛斯中的九个特殊首领后，就能够对其发起职业挑战。逐一击败他们，每个首领都会奖励你新的职业卡牌！</zhCN>
-			<ruRU>Вы можете вновь сразиться с девятью боссами Наксрамаса, перед этим победив их в обычном режиме, чтобы пройти особые классовые испытания и получить в награду новые карты.</ruRU>
-			<ptBR>Nove chefes de Naxxramas oferecem um desafio de classe especial depois de serem derrotados no modo normal. Vença cada um deles para ganhar um card!</ptBR>
-			<plPL>Dziewięcioro bossów Naxxramas ma dla ciebie specjalne wyzwanie klasowe, kiedy pokonasz ich w trybie normalnym. Zmiażdż każdego, aby otrzymać nową kartę!</plPL>
-			<koKR>낙스라마스의 우두머리 9마리를 일반 난이도에서 물리치고 나면, 특별한 직업별 도전 과제를 받을 수 있습니다. 직업별 도전 과제를 완료하고 카드를 획득하세요!</koKR>
-			<itIT>Una volta sconfitti in versione Normale, nove dei boss di Naxxramas danno accesso a una Sfida di Classe: ogni vittoria ti fornirà una nuova carta!</itIT>
-			<frFR>Vous pouvez affronter neuf des boss de Naxxramas dans un défi de classe spécial après les avoir vaincus en mode normal. Écrasez-les tous et obtenez une carte !</frFR>
-			<esMX>Hay nueve jefes de Naxxramas que tienen un desafío de clase especial después de que los derrotas en modo normal. ¡Aplasta a cada uno de ellos y gana una carta!</esMX>
-			<esES>Nueve jefes de Naxxramas han preparado desafíos de clase especiales para ti tras su derrota en el modo normal. ¡Aplastar a cada uno de estos jefes te recompensará con una carta!</esES>
 			<deDE>Bei neun Naxxramasbossen wird nach Eurem Sieg im normalen Modus eine Klassenherausforderung freigeschaltet. Erhaltet für jede gemeisterte Herausforderung eine Karte!</deDE>
+			<esES>Nueve jefes de Naxxramas han preparado desafíos de clase especiales para ti tras su derrota en el modo normal. ¡Aplastar a cada uno de estos jefes te recompensará con una carta!</esES>
+			<esMX>Hay nueve jefes de Naxxramas que tienen un desafío de clase especial después de que los derrotas en modo normal. ¡Aplasta a cada uno de ellos y gana una carta!</esMX>
+			<frFR>Vous pouvez affronter neuf des boss de Naxxramas dans un défi de classe spécial après les avoir vaincus en mode normal. Écrasez-les tous et obtenez une carte !</frFR>
+			<itIT>Una volta sconfitti in versione Normale, nove dei boss di Naxxramas danno accesso a una Sfida di Classe: ogni vittoria ti fornirà una nuova carta!</itIT>
+			<koKR>낙스라마스의 우두머리 9마리를 일반 난이도에서 물리치고 나면, 특별한 직업별 도전 과제를 받을 수 있습니다. 직업별 도전 과제를 완료하고 카드를 획득하세요!</koKR>
+			<plPL>Dziewięcioro bossów Naxxramas ma dla ciebie specjalne wyzwanie klasowe, kiedy pokonasz ich w trybie normalnym. Zmiażdż każdego, aby otrzymać nową kartę!</plPL>
+			<ptBR>Nove chefes de Naxxramas oferecem um desafio de classe especial depois de serem derrotados no modo normal. Vença cada um deles para ganhar um card!</ptBR>
+			<ruRU>Вы можете вновь сразиться с девятью боссами Наксрамаса, перед этим победив их в обычном режиме, чтобы пройти особые классовые испытания и получить в награду новые карты.</ruRU>
+			<zhCN>在你击败普通难度纳克萨玛斯中的九个特殊首领后，就能够对其发起职业挑战。逐一击败他们，每个首领都会奖励你新的职业卡牌！</zhCN>
+			<zhTW>納克薩瑪斯中的九位首領被擊敗後會解鎖特殊的職業挑戰。完成每一個挑戰都能獲得一張卡片！</zhTW>
 		</Field>
-		<Field column="SHORT_DESCRIPTION">
+		<Field column="SHORT_DESCRIPTION" loc_ID="20840">
 			<enUS>Nine Naxxramas Bosses have a special class challenge after you defeat them in normal mode.</enUS>
 			<deDE>Bei neun Naxxramasbossen könnt Ihr im normalen Modus eine Klassenherausforderung freischalten.</deDE>
 			<esES>Nueve jefes de Naxxramas tienen un desafío especial de clase después de que los derrotes en modo normal.</esES>
@@ -406,20 +414,23 @@
 			<zhCN>当你在普通难度下击败纳克萨玛斯中的九个首领之后，就能够解锁其对应的特殊职业挑战。</zhCN>
 			<zhTW>納克薩瑪斯的九位首領被擊敗後會解鎖特殊的職業挑戰。</zhTW>
 		</Field>
-		<Field column="REQUIREMENTS_DESCRIPTION">
+		<Field column="REQUIREMENTS_DESCRIPTION" loc_ID="20841">
 			<enUS>Unlock by completing a wing in Normal mode.</enUS>
-			<zhTW>在普通模式完成一個區域後解鎖</zhTW>
-			<zhCN>击败普通难度下任意一区的所有首领后解锁</zhCN>
-			<ruRU>Требуется пройти крыло в обычном режиме.</ruRU>
-			<ptBR>Desbloqueado ao completar uma ala no modo normal.</ptBR>
-			<plPL>Odblokuj przechodząc skrzydło w trybie normalnym</plPL>
-			<koKR>일반 난이도의 해당 지구를 완료하면 잠금 해제됩니다!</koKR>
-			<itIT>Devi aver sbloccato un'ala in versione Normale.</itIT>
-			<frFR>Débloquée en terminant une aile en mode normal.</frFR>
-			<esMX>Para desbloquearlo, completa un ala en modo Normal.</esMX>
-			<esES>Se desbloquea al completar un ala en modo normal.</esES>
 			<deDE>Erfordert den Abschluss eines Flügels im normalen Modus.</deDE>
+			<esES>Se desbloquea al completar un ala en modo normal.</esES>
+			<esMX>Para desbloquearlo, completa un ala en modo Normal.</esMX>
+			<frFR>Débloquée en terminant une aile en mode normal.</frFR>
+			<itIT>Devi aver sbloccato un'ala in versione Normale.</itIT>
+			<koKR>일반 난이도의 해당 지구를 완료하면 잠금 해제됩니다!</koKR>
+			<plPL>Odblokuj przechodząc skrzydło w trybie normalnym</plPL>
+			<ptBR>Desbloqueado ao completar uma ala no modo normal.</ptBR>
+			<ruRU>Требуется пройти крыло в обычном режиме.</ruRU>
+			<zhCN>击败普通难度下任意一区的所有首领后解锁</zhCN>
+			<zhTW>在普通模式完成一個區域後解鎖</zhTW>
 		</Field>
+		<Field column="WATERMARK_TEXTURE"></Field>
+		<Field column="CHOOSER_SUB_BUTTON_DEF">Assets/Game/GameObjects/AdventureChooserDefs/AdventureChooserSubDef_NaxxramasClassChallenge</Field>
+		<Field column="COMPLETE_BANNER_TEXT"></Field>
 	</Record>
 	<Record>
 		<Field column="ID">6</Field>
@@ -429,77 +440,77 @@
 		<Field column="SORT_ORDER">1</Field>
 		<Field column="SUBSCENE_PREFAB">Assets/Game/UIScreens/AdventureMissionDisplay</Field>
 		<Field column="WATERMARK_TEXTURE">Assets/Game/Textures/Watermarks/BRMIcon</Field>
-		<Field column="NAME">
+		<Field column="NAME" loc_ID="20842">
 			<enUS>Blackrock Mountain</enUS>
-			<zhTW>黑石山</zhTW>
-			<zhCN>黑石山</zhCN>
-			<ruRU>Черная гора</ruRU>
-			<ptBR>Montanha Rocha Negra</ptBR>
-			<plPL>Czarna Góra</plPL>
-			<koKR>검은바위 산</koKR>
-			<itIT>Massiccio Roccianera</itIT>
-			<frFR>Mont Rochenoire</frFR>
-			<esMX>Montaña Roca Negra</esMX>
-			<esES>Montaña Roca Negra</esES>
 			<deDE>Der Schwarzfels</deDE>
+			<esES>Montaña Roca Negra</esES>
+			<esMX>Montaña Roca Negra</esMX>
+			<frFR>Mont Rochenoire</frFR>
+			<itIT>Massiccio Roccianera</itIT>
+			<koKR>검은바위 산</koKR>
+			<plPL>Czarna Góra</plPL>
+			<ptBR>Montanha Rocha Negra</ptBR>
+			<ruRU>Черная гора</ruRU>
+			<zhCN>黑石山</zhCN>
+			<zhTW>黑石山</zhTW>
 		</Field>
-		<Field column="SHORT_NAME">
+		<Field column="SHORT_NAME" loc_ID="20843">
 			<enUS>Normal</enUS>
-			<zhTW>普通難度</zhTW>
-			<zhCN>普通难度</zhCN>
-			<ruRU>Обычный</ruRU>
-			<ptBR>Normal</ptBR>
-			<plPL>Normalny</plPL>
-			<koKR>일반</koKR>
-			<itIT>Normale</itIT>
-			<frFR>Normal</frFR>
-			<esMX>Normal</esMX>
-			<esES>Normal</esES>
 			<deDE>Normal</deDE>
+			<esES>Normal</esES>
+			<esMX>Normal</esMX>
+			<frFR>Normal</frFR>
+			<itIT>Normale</itIT>
+			<koKR>일반</koKR>
+			<plPL>Normalny</plPL>
+			<ptBR>Normal</ptBR>
+			<ruRU>Обычный</ruRU>
+			<zhCN>普通难度</zhCN>
+			<zhTW>普通難度</zhTW>
 		</Field>
-		<Field column="DESCRIPTION">
+		<Field column="DESCRIPTION" loc_ID="20844">
 			<enUS>Deep below Blackrock Mountain lies Ragnaros the Firelord, and high up in the Spire is the evil dragon Nefarian. Defeat them to rid the mountain of evil and earn over 20 new cards for your collection.</enUS>
-			<zhTW>黑石山的地底深處藏著『炎魔』拉格納羅斯，而高高的黑石塔上則住著惡龍奈法利安。擊敗他們，掃除盤據黑石山的邪惡勢力，並且將超過20張的全新卡片納入你的牌庫。</zhTW>
-			<zhCN>在黑石山的深处，炎魔之王拉格纳罗斯被黑铁矮人召唤出来；而黑石塔的顶端正是邪恶黑龙奈法利安的巢穴。击败他们，涤净黑石山的邪恶，赢取20余张全新卡牌！</zhCN>
-			<ruRU>Глубоко под Черной горой обитает Рагнарос Повелитель Огня, а высоко над Пиком парит злой дракон Нефариан. Одержите над ними победу, чтобы очистить Черную гору от зла и получить более 20 новых карт в свою коллекцию.</ruRU>
-			<ptBR>Bem nas profundezas da Montanha Rocha Negra, está Ragnaros, o Senhor do Fogo, e acima, no alto do Pico, vive Nefarian, o dragão maligno. Derrote-os para livrar a montanha do mal e ganhar mais de 20 cards novos para a sua coleção.</ptBR>
-			<plPL>Głęboko w trzewiach Czarnej Góry czeka Ragnaros Władca Ognia, zaś wysoko, na Iglicy ma siedzibę nikczemny smok Nefarian. Pokonaj ich, aby oczyścić górę ze zła i zdobądź ponad 20 nowych kart do kolekcji.</plPL>
-			<koKR>검은바위 산 아래의 화산 심장부는 불의 군주 라그나로스가 지배하는 영역이고, 산 위의 검은바위 첨탑은 사악한 용 네파리안의 본거지입니다. 그들을 물리치고 20장 이상의 새로운 카드를 획득하세요.</koKR>
-			<itIT>Nelle profondità del Massiccio Roccianera regna Ragnaros il Signore del Fuoco, mentre nei Bastioni di Roccianera governa il malvagio drago Nefarian. Sconfiggili per liberare la montagna dal male e ottenere oltre 20 nuove carte per la tua collezione.</itIT>
-			<frFR>Dans les profondeurs du mont Rochenoire réside le seigneur du feu, Ragnaros et au sommet du pic se trouve le maléfique dragon, Nefarian. Battez-les pour débarrasser la montagne de son mal et obtenir plus de 20 nouvelles cartes pour votre collection.</frFR>
-			<esMX>En las profundidades de la Montaña Roca Negra yace Ragnaros, el Señor del Fuego, y en la cima de la Cumbre habita Nefarian, el maligno dragón. Derrótalos para purgar el mal de la montaña y conseguir más de 20 cartas nuevas para tu colección.</esMX>
-			<esES>En las entrañas de la Montaña Roca Negra se encuentra Ragnaros, Señor del Fuego, mientras que en lo más alto de la Cumbre descansa el malvado dragón Nefarian. Derrótalos para eliminar todo mal de la montaña y conseguir más de 20 cartas nuevas para tu colección.</esES>
 			<deDE>Tief unter dem Schwarzfels haust der Feuerfürst Ragnaros ... hoch oben in der Spitze thront der listige Nefarian. Besiegt sie, um den Berg vom Bösen zu befreien und mehr als 20 neue Karten zu erhalten!</deDE>
+			<esES>En las entrañas de la Montaña Roca Negra se encuentra Ragnaros, Señor del Fuego, mientras que en lo más alto de la Cumbre descansa el malvado dragón Nefarian. Derrótalos para eliminar todo mal de la montaña y conseguir más de 20 cartas nuevas para tu colección.</esES>
+			<esMX>En las profundidades de la Montaña Roca Negra yace Ragnaros, el Señor del Fuego, y en la cima de la Cumbre habita Nefarian, el maligno dragón. Derrótalos para purgar el mal de la montaña y conseguir más de 20 cartas nuevas para tu colección.</esMX>
+			<frFR>Dans les profondeurs du mont Rochenoire réside le seigneur du feu, Ragnaros et au sommet du pic se trouve le maléfique dragon, Nefarian. Battez-les pour débarrasser la montagne de son mal et obtenir plus de 20 nouvelles cartes pour votre collection.</frFR>
+			<itIT>Nelle profondità del Massiccio Roccianera regna Ragnaros il Signore del Fuoco, mentre nei Bastioni di Roccianera governa il malvagio drago Nefarian. Sconfiggili per liberare la montagna dal male e ottenere oltre 20 nuove carte per la tua collezione.</itIT>
+			<koKR>검은바위 산 아래의 화산 심장부는 불의 군주 라그나로스가 지배하는 영역이고, 산 위의 검은바위 첨탑은 사악한 용 네파리안의 본거지입니다. 그들을 물리치고 20장 이상의 새로운 카드를 획득하세요.</koKR>
+			<plPL>Głęboko w trzewiach Czarnej Góry czeka Ragnaros Władca Ognia, zaś wysoko, na Iglicy ma siedzibę nikczemny smok Nefarian. Pokonaj ich, aby oczyścić górę ze zła i zdobądź ponad 20 nowych kart do kolekcji.</plPL>
+			<ptBR>Bem nas profundezas da Montanha Rocha Negra, está Ragnaros, o Senhor do Fogo, e acima, no alto do Pico, vive Nefarian, o dragão maligno. Derrote-os para livrar a montanha do mal e ganhar mais de 20 cards novos para a sua coleção.</ptBR>
+			<ruRU>Глубоко под Черной горой обитает Рагнарос Повелитель Огня, а высоко над Пиком парит злой дракон Нефариан. Одержите над ними победу, чтобы очистить Черную гору от зла и получить более 20 новых карт в свою коллекцию.</ruRU>
+			<zhCN>在黑石山的深处，炎魔之王拉格纳罗斯被黑铁矮人召唤出来；而黑石塔的顶端正是邪恶黑龙奈法利安的巢穴。击败他们，涤净黑石山的邪恶，赢取20余张全新卡牌！</zhCN>
+			<zhTW>黑石山的地底深處藏著『炎魔』拉格納羅斯，而高高的黑石塔上則住著惡龍奈法利安。擊敗他們，掃除盤據黑石山的邪惡勢力，並且將超過20張的全新卡片納入你的牌庫。</zhTW>
 		</Field>
-		<Field column="SHORT_DESCRIPTION">
+		<Field column="SHORT_DESCRIPTION" loc_ID="20845">
 			<enUS>Defeat Ragnaros the Firelord and the evil dragon Nefarian to earn over 20 new cards for your collection!</enUS>
-			<zhTW>擊敗『炎魔』拉格納羅斯和惡龍奈法利安，將超過20張的全新卡片納入你的牌庫。</zhTW>
-			<zhCN>击败炎魔之王拉格纳罗斯和邪恶黑龙奈法利安，赢取20余张全新卡牌！</zhCN>
-			<ruRU>Одержите победу над Рагнаросом Повелителем Огня и злым драконом Нефарианом, чтобы получить более 20 новых карт в свою коллекцию!</ruRU>
-			<ptBR>Derrote Ragnaros, o Senhor do Fogo, e Nefarian, o dragão maligno, para ganhar mais de 20 cards novos para a sua coleção!</ptBR>
-			<plPL>Pokonaj Ragnarosa oraz nikczemnego smoka Nefariana, aby zdobyć ponad 20 nowych kart do kolekcji!</plPL>
-			<koKR>불의 군주 라그나로스와 사악한 용 네파리안을 물리치고 20장 이상의 새로운 카드를 획득하세요!</koKR>
-			<itIT>Sconfiggi Ragnaros il Signore del Fuoco e il malvagio drago Nefarian per ottenere oltre 20 nuove carte per la tua collezione.</itIT>
-			<frFR>Battez le seigneur du feu Ragnaros et le maléfique dragon Nefarian pour obtenir plus de 20 nouvelles cartes pour votre collection !</frFR>
-			<esMX>¡Derrota a Ragnaros, el Señor del Fuego, y al maligno dragón Nefarian para conseguir más de 20 cartas nuevas para tu colección!</esMX>
-			<esES>¡Derrota a Ragnaros, Señor del Fuego, y al malvado dragón Nefarian para conseguir más de 20 cartas nuevas para tu colección!</esES>
 			<deDE>Besiegt Ragnaros den Feuerfürsten und den listigen Drachen Nefarian, um mehr als 20 neue Karten zu erhalten!</deDE>
+			<esES>¡Derrota a Ragnaros, Señor del Fuego, y al malvado dragón Nefarian para conseguir más de 20 cartas nuevas para tu colección!</esES>
+			<esMX>¡Derrota a Ragnaros, el Señor del Fuego, y al maligno dragón Nefarian para conseguir más de 20 cartas nuevas para tu colección!</esMX>
+			<frFR>Battez le seigneur du feu Ragnaros et le maléfique dragon Nefarian pour obtenir plus de 20 nouvelles cartes pour votre collection !</frFR>
+			<itIT>Sconfiggi Ragnaros il Signore del Fuoco e il malvagio drago Nefarian per ottenere oltre 20 nuove carte per la tua collezione.</itIT>
+			<koKR>불의 군주 라그나로스와 사악한 용 네파리안을 물리치고 20장 이상의 새로운 카드를 획득하세요!</koKR>
+			<plPL>Pokonaj Ragnarosa oraz nikczemnego smoka Nefariana, aby zdobyć ponad 20 nowych kart do kolekcji!</plPL>
+			<ptBR>Derrote Ragnaros, o Senhor do Fogo, e Nefarian, o dragão maligno, para ganhar mais de 20 cards novos para a sua coleção!</ptBR>
+			<ruRU>Одержите победу над Рагнаросом Повелителем Огня и злым драконом Нефарианом, чтобы получить более 20 новых карт в свою коллекцию!</ruRU>
+			<zhCN>击败炎魔之王拉格纳罗斯和邪恶黑龙奈法利安，赢取20余张全新卡牌！</zhCN>
+			<zhTW>擊敗『炎魔』拉格納羅斯和惡龍奈法利安，將超過20張的全新卡片納入你的牌庫。</zhTW>
 		</Field>
-		<Field column="REQUIREMENTS_DESCRIPTION">
+		<Field column="REQUIREMENTS_DESCRIPTION" loc_ID="20846">
 			<enUS>Requires unlocking every class</enUS>
-			<zhTW>需要先解鎖全部職業</zhTW>
-			<zhCN>需要解锁所有职业</zhCN>
-			<ruRU>Требуется открыть доступ ко всем классам.</ruRU>
-			<ptBR>É necessário desbloquear todas as classes</ptBR>
-			<plPL>Wymaga odblokowania każdej klasy</plPL>
-			<koKR>모든 영웅을 잠금 해제해야 합니다!</koKR>
-			<itIT>Devi aver sbloccato tutte le classi.</itIT>
-			<frFR>Chaque classe doit être débloquée</frFR>
-			<esMX>Requiere desbloquear todas las clases</esMX>
-			<esES>Requiere desbloquear todas las clases</esES>
 			<deDE>Erfordert das Freischalten aller Klassen.</deDE>
+			<esES>Requiere desbloquear todas las clases</esES>
+			<esMX>Requiere desbloquear todas las clases</esMX>
+			<frFR>Chaque classe doit être débloquée</frFR>
+			<itIT>Devi aver sbloccato tutte le classi.</itIT>
+			<koKR>모든 영웅을 잠금 해제해야 합니다!</koKR>
+			<plPL>Wymaga odblokowania każdej klasy</plPL>
+			<ptBR>É necessário desbloquear todas as classes</ptBR>
+			<ruRU>Требуется открыть доступ ко всем классам.</ruRU>
+			<zhCN>需要解锁所有职业</zhCN>
+			<zhTW>需要先解鎖全部職業</zhTW>
 		</Field>
-		<Field column="COMPLETE_BANNER_TEXT">
+		<Field column="COMPLETE_BANNER_TEXT" loc_ID="20847">
 			<enUS>Blackrock Mountain Cleared!</enUS>
 			<deDE>Schwarzfels bezwungen!</deDE>
 			<esES>¡Montaña Roca Negra superada!</esES>
@@ -513,6 +524,7 @@
 			<zhCN>征服黑石山！</zhCN>
 			<zhTW>黑石山全破！</zhTW>
 		</Field>
+		<Field column="CHOOSER_SUB_BUTTON_DEF">Assets/Game/GameObjects/AdventureChooserDefs/AdventureChooserSubDef_BRMNormal</Field>
 	</Record>
 	<Record>
 		<Field column="ID">7</Field>
@@ -522,77 +534,77 @@
 		<Field column="SORT_ORDER">2</Field>
 		<Field column="SUBSCENE_PREFAB">Assets/Game/UIScreens/AdventureMissionDisplay</Field>
 		<Field column="WATERMARK_TEXTURE">Assets/Game/Textures/Watermarks/BRMIcon</Field>
-		<Field column="NAME">
+		<Field column="NAME" loc_ID="20848">
 			<enUS>Blackrock Mountain (Heroic)</enUS>
-			<zhTW>黑石山(英雄難度)</zhTW>
-			<zhCN>黑石山（英雄难度）</zhCN>
-			<ruRU>Черная гора (героич.)</ruRU>
-			<ptBR>Montanha Rocha Negra (Heroica)</ptBR>
-			<plPL>Czarna Góra (Heroiczny)</plPL>
-			<koKR>검은바위 산 (영웅 난이도)</koKR>
-			<itIT>Massiccio Roccianera (Eroica)</itIT>
-			<frFR>Mont Rochenoire (Héroïque)</frFR>
-			<esMX>Montaña Roca Negra (Heroico)</esMX>
-			<esES>Montaña Roca Negra (heroico)</esES>
 			<deDE>Der Schwarzfels (Heroisch)</deDE>
+			<esES>Montaña Roca Negra (heroico)</esES>
+			<esMX>Montaña Roca Negra (Heroico)</esMX>
+			<frFR>Mont Rochenoire (Héroïque)</frFR>
+			<itIT>Massiccio Roccianera (Eroica)</itIT>
+			<koKR>검은바위 산 (영웅 난이도)</koKR>
+			<plPL>Czarna Góra (Heroiczny)</plPL>
+			<ptBR>Montanha Rocha Negra (Heroica)</ptBR>
+			<ruRU>Черная гора (героич.)</ruRU>
+			<zhCN>黑石山（英雄难度）</zhCN>
+			<zhTW>黑石山(英雄難度)</zhTW>
 		</Field>
-		<Field column="SHORT_NAME">
+		<Field column="SHORT_NAME" loc_ID="20849">
 			<enUS>Heroic</enUS>
-			<zhTW>英雄難度</zhTW>
-			<zhCN>英雄难度</zhCN>
-			<ruRU>Героический</ruRU>
-			<ptBR>Heroico</ptBR>
-			<plPL>Heroiczny</plPL>
-			<koKR>영웅</koKR>
-			<itIT>Eroica</itIT>
-			<frFR>Héroïque</frFR>
-			<esMX>Heroico</esMX>
-			<esES>Heroico</esES>
 			<deDE>Heroisch</deDE>
+			<esES>Heroico</esES>
+			<esMX>Heroico</esMX>
+			<frFR>Héroïque</frFR>
+			<itIT>Eroica</itIT>
+			<koKR>영웅</koKR>
+			<plPL>Heroiczny</plPL>
+			<ptBR>Heroico</ptBR>
+			<ruRU>Героический</ruRU>
+			<zhCN>英雄难度</zhCN>
+			<zhTW>英雄難度</zhTW>
 		</Field>
-		<Field column="DESCRIPTION">
+		<Field column="DESCRIPTION" loc_ID="20850">
 			<enUS>The denizens of Blackrock Mountain are back, but this time they're bringing their A-game. Heroic missions are VERY difficult! Not for the faint of heart.</enUS>
-			<zhTW>黑石山的妖魔鬼怪又回來了，準備使出更厲害的看家本領。英雄模式非常困難，不是意志薄弱的人能忍受的！</zhTW>
-			<zhCN>黑石山的首领们卷土重来，这一次他们将使出全身解数。英雄模式的战斗将非常艰难，谢绝心脏病患者进入！</zhCN>
-			<ruRU>Обитатели Черной горы снова с нами, и на этот раз они настроены серьезно. Героический режим — КРАЙНЕ сложное испытание, которое по силам пройти только самым отважным искателям приключений!</ruRU>
-			<ptBR>Os habitantes da Montanha Rocha Negra estão de volta, mas desta vez é para jogar em alto nível. As Missões Heroicas são MUITO difíceis! Só para os fortes!</ptBR>
-			<plPL>Mieszkańcy Czarnej Góry powracają, ale tym razem naprawdę zakasali rękawy! Misje heroiczne są BARDZO trudne i nie nadają się dla osób o słabych nerwach!</plPL>
-			<koKR>검은바위 산의 군주들이 더욱 강해진 모습으로 돌아왔습니다. 영웅 난이도의 우두머리들은 매우 잔혹합니다. 심장이 약한 분들은 주의하세요!</koKR>
-			<itIT>Gli abitanti del Massiccio Roccianera sono tornati, e questa volta fanno sul serio! La versione Eroica è MOLTO difficile e non è adatta per i deboli di cuore!</itIT>
-			<frFR>Les habitants du mont Rochenoire sont de retour, et cette fois-ci, ils sortent le grand jeu. Les missions héroïques sont TRÈS éprouvantes pour les nerfs et déconseillées aux âmes sensibles.</frFR>
-			<esMX>Los habitantes de la Montaña Roca Negra están de regreso, pero esta vez no tendrán ni un gramo de piedad. ¡Las misiones heroicas son MUY difíciles! ¡Débiles abstenerse!</esMX>
-			<esES>Los moradores de la Montaña Roca Negra han regresado, pero esta vez vienen con todo su arsenal. ¡Las misiones heroicas son MUY difíciles! No aptas para cardíacos.</esES>
 			<deDE>Die Bewohner des Schwarzfels sind wieder da, aber diesmal machen sie keine halben Sachen. Der heroische Modus ist SEHR schwer und nichts für zarte Gemüter!</deDE>
+			<esES>Los moradores de la Montaña Roca Negra han regresado, pero esta vez vienen con todo su arsenal. ¡Las misiones heroicas son MUY difíciles! No aptas para cardíacos.</esES>
+			<esMX>Los habitantes de la Montaña Roca Negra están de regreso, pero esta vez no tendrán ni un gramo de piedad. ¡Las misiones heroicas son MUY difíciles! ¡Débiles abstenerse!</esMX>
+			<frFR>Les habitants du mont Rochenoire sont de retour, et cette fois-ci, ils sortent le grand jeu. Les missions héroïques sont TRÈS éprouvantes pour les nerfs et déconseillées aux âmes sensibles.</frFR>
+			<itIT>Gli abitanti del Massiccio Roccianera sono tornati, e questa volta fanno sul serio! La versione Eroica è MOLTO difficile e non è adatta per i deboli di cuore!</itIT>
+			<koKR>검은바위 산의 군주들이 더욱 강해진 모습으로 돌아왔습니다. 영웅 난이도의 우두머리들은 매우 잔혹합니다. 심장이 약한 분들은 주의하세요!</koKR>
+			<plPL>Mieszkańcy Czarnej Góry powracają, ale tym razem naprawdę zakasali rękawy! Misje heroiczne są BARDZO trudne i nie nadają się dla osób o słabych nerwach!</plPL>
+			<ptBR>Os habitantes da Montanha Rocha Negra estão de volta, mas desta vez é para jogar em alto nível. As Missões Heroicas são MUITO difíceis! Só para os fortes!</ptBR>
+			<ruRU>Обитатели Черной горы снова с нами, и на этот раз они настроены серьезно. Героический режим — КРАЙНЕ сложное испытание, которое по силам пройти только самым отважным искателям приключений!</ruRU>
+			<zhCN>黑石山的首领们卷土重来，这一次他们将使出全身解数。英雄模式的战斗将非常艰难，谢绝心脏病患者进入！</zhCN>
+			<zhTW>黑石山的妖魔鬼怪又回來了，準備使出更厲害的看家本領。英雄模式非常困難，不是意志薄弱的人能忍受的！</zhTW>
 		</Field>
-		<Field column="SHORT_DESCRIPTION">
+		<Field column="SHORT_DESCRIPTION" loc_ID="20851">
 			<enUS>Heroic is VERY difficult and is not for the faint of heart!</enUS>
-			<zhTW>英雄模式非常困難，不是意志薄弱的人能忍受的！</zhTW>
-			<zhCN>英雄难度相当困难，不适合胆小者进入！</zhCN>
-			<ruRU>Героический режим ОЧЕНЬ сложный. Играйте на свой страх и риск.</ruRU>
-			<ptBR>O modo Heroico é MUITO difícil e não é para qualquer um!</ptBR>
-			<plPL>Tryb heroiczny jest BARDZO trudny i nie nadaje się dla osób o słabych nerwach!</plPL>
-			<koKR>영웅 난이도는 매우 어렵습니다. 마음이 약한 분께는 권하지 않습니다!</koKR>
-			<itIT>La versione Eroica è MOLTO difficile e non è adatta per i deboli di cuore!</itIT>
-			<frFR>Le mode héroïque est TRÈS éprouvant pour les nerfs et déconseillé aux âmes sensibles !</frFR>
-			<esMX>¡El modo Heroico es MUY difícil y no es para corazones débiles!</esMX>
-			<esES>¡La versión heroica es MUY difícil y no apta para cardíacos!</esES>
 			<deDE>Der heroische Modus ist SEHR schwer und nichts für zarte Gemüter!</deDE>
+			<esES>¡La versión heroica es MUY difícil y no apta para cardíacos!</esES>
+			<esMX>¡El modo Heroico es MUY difícil y no es para corazones débiles!</esMX>
+			<frFR>Le mode héroïque est TRÈS éprouvant pour les nerfs et déconseillé aux âmes sensibles !</frFR>
+			<itIT>La versione Eroica è MOLTO difficile e non è adatta per i deboli di cuore!</itIT>
+			<koKR>영웅 난이도는 매우 어렵습니다. 마음이 약한 분께는 권하지 않습니다!</koKR>
+			<plPL>Tryb heroiczny jest BARDZO trudny i nie nadaje się dla osób o słabych nerwach!</plPL>
+			<ptBR>O modo Heroico é MUITO difícil e não é para qualquer um!</ptBR>
+			<ruRU>Героический режим ОЧЕНЬ сложный. Играйте на свой страх и риск.</ruRU>
+			<zhCN>英雄难度相当困难，不适合胆小者进入！</zhCN>
+			<zhTW>英雄模式非常困難，不是意志薄弱的人能忍受的！</zhTW>
 		</Field>
-		<Field column="REQUIREMENTS_DESCRIPTION">
+		<Field column="REQUIREMENTS_DESCRIPTION" loc_ID="20852">
 			<enUS>Unlock by completing a wing in Normal mode.</enUS>
-			<zhTW>在普通模式完成一個區域後解鎖</zhTW>
-			<zhCN>击败普通难度下任意一区的所有首领后解锁。</zhCN>
-			<ruRU>Требуется пройти крыло в обычном режиме.</ruRU>
-			<ptBR>Desbloqueie completando uma ala no modo Normal.</ptBR>
-			<plPL>Odblokuj przechodząc skrzydło w trybie normalnym</plPL>
-			<koKR>일반 난이도의 해당 지구를 완료하면 잠금 해제됩니다!</koKR>
-			<itIT>Devi aver sbloccato un'ala in versione Normale.</itIT>
-			<frFR>Débloquée en terminant une aile en mode normal.</frFR>
-			<esMX>Para desbloquearlo, completa un ala en modo Normal.</esMX>
-			<esES>Se desbloquea al completar un ala en modo normal.</esES>
 			<deDE>Erfordert den Abschluss eines Flügels im normalen Modus.</deDE>
+			<esES>Se desbloquea al completar un ala en modo normal.</esES>
+			<esMX>Para desbloquearlo, completa un ala en modo Normal.</esMX>
+			<frFR>Débloquée en terminant une aile en mode normal.</frFR>
+			<itIT>Devi aver sbloccato un'ala in versione Normale.</itIT>
+			<koKR>일반 난이도의 해당 지구를 완료하면 잠금 해제됩니다!</koKR>
+			<plPL>Odblokuj przechodząc skrzydło w trybie normalnym</plPL>
+			<ptBR>Desbloqueie completando uma ala no modo Normal.</ptBR>
+			<ruRU>Требуется пройти крыло в обычном режиме.</ruRU>
+			<zhCN>击败普通难度下任意一区的所有首领后解锁。</zhCN>
+			<zhTW>在普通模式完成一個區域後解鎖</zhTW>
 		</Field>
-		<Field column="COMPLETE_BANNER_TEXT">
+		<Field column="COMPLETE_BANNER_TEXT" loc_ID="20853">
 			<enUS>Heroic Blackrock Mountain Cleared!</enUS>
 			<deDE>Heroischer Schwarzfels bezwungen!</deDE>
 			<esES>¡Montaña Roca Negra heroica superada!</esES>
@@ -606,6 +618,7 @@
 			<zhCN>征服英雄难度黑石山！</zhCN>
 			<zhTW>英雄黑石山全破！</zhTW>
 		</Field>
+		<Field column="CHOOSER_SUB_BUTTON_DEF">Assets/Game/GameObjects/AdventureChooserDefs/AdventureChooserSubDef_BRMHeroic</Field>
 	</Record>
 	<Record>
 		<Field column="ID">8</Field>
@@ -614,75 +627,78 @@
 		<Field column="MODE_ID">4</Field>
 		<Field column="SORT_ORDER">3</Field>
 		<Field column="SUBSCENE_PREFAB">Assets/Game/UIScreens/AdventureClassChallenge</Field>
-		<Field column="NAME">
+		<Field column="NAME" loc_ID="20854">
 			<enUS>Class Challenge</enUS>
-			<zhTW>職業挑戰</zhTW>
-			<zhCN>职业挑战</zhCN>
-			<ruRU>Классовые испытания</ruRU>
-			<ptBR>Desafio de Classe</ptBR>
-			<plPL>Wyzwania klasowe</plPL>
-			<koKR>직업별 도전 과제</koKR>
-			<itIT>Sfida di Classe</itIT>
-			<frFR>Défi de classe</frFR>
-			<esMX>Desafío de clase</esMX>
-			<esES>Desafío de clase</esES>
 			<deDE>Klassenherausforderung</deDE>
-		</Field>
-		<Field column="SHORT_NAME">
-			<enUS>Class Challenge</enUS>
-			<zhTW>職業挑戰</zhTW>
-			<zhCN>职业挑战</zhCN>
-			<ruRU>Испытания</ruRU>
-			<ptBR>Desafio de Classe</ptBR>
-			<plPL>Wyzwania klasowe</plPL>
-			<koKR>직업별 도전 과제</koKR>
-			<itIT>Sfida di Classe</itIT>
-			<frFR>Défi de classe</frFR>
-			<esMX>Desafío de clase</esMX>
 			<esES>Desafío de clase</esES>
+			<esMX>Desafío de clase</esMX>
+			<frFR>Défi de classe</frFR>
+			<itIT>Sfida di Classe</itIT>
+			<koKR>직업별 도전 과제</koKR>
+			<plPL>Wyzwania klasowe</plPL>
+			<ptBR>Desafio de Classe</ptBR>
+			<ruRU>Классовые испытания</ruRU>
+			<zhCN>职业挑战</zhCN>
+			<zhTW>職業挑戰</zhTW>
+		</Field>
+		<Field column="SHORT_NAME" loc_ID="20855">
+			<enUS>Class Challenge</enUS>
 			<deDE>Herausforderung</deDE>
+			<esES>Desafío de clase</esES>
+			<esMX>Desafío de clase</esMX>
+			<frFR>Défi de classe</frFR>
+			<itIT>Sfida di Classe</itIT>
+			<koKR>직업별 도전 과제</koKR>
+			<plPL>Wyzwania klasowe</plPL>
+			<ptBR>Desafio de Classe</ptBR>
+			<ruRU>Испытания</ruRU>
+			<zhCN>职业挑战</zhCN>
+			<zhTW>職業挑戰</zhTW>
 		</Field>
-		<Field column="DESCRIPTION">
+		<Field column="DESCRIPTION" loc_ID="20856">
 			<enUS>Nine Blackrock Mountain bosses have a special class challenge after you defeat them in normal mode. Crush each one and earn a card!</enUS>
-			<zhTW>黑石山中的九位首領被擊敗後會解鎖特殊的職業挑戰。完成每一個挑戰都能獲得一張卡片！</zhTW>
-			<zhCN>在你击败普通难度黑石山中的九个特殊首领后，就能够对其发起职业挑战。逐一击败他们，每个首领都会奖励你新的卡牌！</zhCN>
-			<ruRU>Вы можете вновь сразиться с девятью боссами Черной горы, перед этим победив их в обычном режиме, чтобы пройти особые классовые испытания и получить в награду новые карты.</ruRU>
-			<ptBR>Nove chefes da Montanha Rocha Negra oferecem um desafio de classe especial depois de serem derrotados no modo normal. Vença cada um deles para ganhar um card!</ptBR>
-			<plPL>Dziewięciu bossów Czarnej Góry ma dla ciebie specjalne wyzwanie klasowe, kiedy pokonasz ich w trybie normalnym. Zmiażdż każdego, aby otrzymać nową kartę!</plPL>
-			<koKR>검은바위 산의 우두머리 9마리를 일반 난이도에서 물리치고 나면, 특별한 직업별 도전 과제를 받을 수 있습니다. 직업별 도전 과제를 완료하고 카드를 획득하세요!</koKR>
-			<itIT>Una volta sconfitti in versione Normale, nove dei boss del Massiccio Roccianera danno accesso a una Sfida di Classe: ogni vittoria ti fornirà una nuova carta!</itIT>
-			<frFR>Vous pouvez affronter neuf des boss du mont Rochenoire dans un défi de classe spécial après les avoir vaincus en mode normal. Écrasez-les tous et obtenez une carte !</frFR>
-			<esMX>Hay nueve jefes de Montaña Roca Negra que tienen un desafío de clase especial después de que los derrotas en modo normal. ¡Cada uno que aplastes te dará una carta!</esMX>
-			<esES>Nueve jefes de la Montaña Roca Negra han preparado desafíos de clase especiales para ti tras su derrota en el modo normal. ¡Aplastar a cada uno de estos jefes te recompensará con una carta!</esES>
 			<deDE>Bei neun Schwarzfelsbossen wird nach Eurem Sieg im normalen Modus eine Klassenherausforderung freigeschaltet. Erhaltet für jede gemeisterte Herausforderung eine Karte!</deDE>
+			<esES>Nueve jefes de la Montaña Roca Negra han preparado desafíos de clase especiales para ti tras su derrota en el modo normal. ¡Aplastar a cada uno de estos jefes te recompensará con una carta!</esES>
+			<esMX>Hay nueve jefes de Montaña Roca Negra que tienen un desafío de clase especial después de que los derrotas en modo normal. ¡Cada uno que aplastes te dará una carta!</esMX>
+			<frFR>Vous pouvez affronter neuf des boss du mont Rochenoire dans un défi de classe spécial après les avoir vaincus en mode normal. Écrasez-les tous et obtenez une carte !</frFR>
+			<itIT>Una volta sconfitti in versione Normale, nove dei boss del Massiccio Roccianera danno accesso a una Sfida di Classe: ogni vittoria ti fornirà una nuova carta!</itIT>
+			<koKR>검은바위 산의 우두머리 9마리를 일반 난이도에서 물리치고 나면, 특별한 직업별 도전 과제를 받을 수 있습니다. 직업별 도전 과제를 완료하고 카드를 획득하세요!</koKR>
+			<plPL>Dziewięciu bossów Czarnej Góry ma dla ciebie specjalne wyzwanie klasowe, kiedy pokonasz ich w trybie normalnym. Zmiażdż każdego, aby otrzymać nową kartę!</plPL>
+			<ptBR>Nove chefes da Montanha Rocha Negra oferecem um desafio de classe especial depois de serem derrotados no modo normal. Vença cada um deles para ganhar um card!</ptBR>
+			<ruRU>Вы можете вновь сразиться с девятью боссами Черной горы, перед этим победив их в обычном режиме, чтобы пройти особые классовые испытания и получить в награду новые карты.</ruRU>
+			<zhCN>在你击败普通难度黑石山中的九个特殊首领后，就能够对其发起职业挑战。逐一击败他们，每个首领都会奖励你新的卡牌！</zhCN>
+			<zhTW>黑石山中的九位首領被擊敗後會解鎖特殊的職業挑戰。完成每一個挑戰都能獲得一張卡片！</zhTW>
 		</Field>
-		<Field column="SHORT_DESCRIPTION">
+		<Field column="SHORT_DESCRIPTION" loc_ID="20857">
 			<enUS>Nine Blackrock Mountain bosses have a special class challenge after you defeat them in normal mode.</enUS>
-			<zhTW>擊敗黑石山的九位首領後會解鎖特殊的職業挑戰。</zhTW>
-			<zhCN>当你在普通难度下击败黑石山中的九个首领之后，就能够解锁其对应的特殊职业挑战。</zhCN>
-			<ruRU>Девять боссов Черной Горы приготовили специальные классовые испытания для тех, кто одолеет их в обычном режиме.</ruRU>
-			<ptBR>Nove chefes da Montanha Rocha Negra oferecem um desafio de classe especial depois de serem derrotados no modo normal.</ptBR>
-			<plPL>Dziewięciu bossów Czarnej Góry ma dla ciebie specjalne wyzwanie klasowe, kiedy pokonasz ich w trybie normalnym.</plPL>
-			<koKR>검은바위 산의 우두머리 9마리를 일반 난이도에서 물리치고 나면, 특별한 직업별 도전 과제를 받을 수 있습니다.</koKR>
-			<itIT>Una volta sconfitti in versione Normale, nove dei boss del Massiccio Roccianera danno accesso a una Sfida di Classe.</itIT>
-			<frFR>Vous pouvez affronter neuf des boss du mont Rochenoire dans un défi de classe spécial après les avoir vaincus en mode normal.</frFR>
-			<esMX>Hay nueve jefes de Montaña Roca Negra que tienen un desafío de clase especial después de que los derrotas en modo normal.</esMX>
-			<esES>Nueve jefes de la Montaña Roca Negra han preparado desafíos de clase especiales para ti tras su derrota en el modo normal.</esES>
 			<deDE>Bei neun Schwarzfelsbossen könnt Ihr im normalen Modus eine Klassenherausforderung freischalten.</deDE>
+			<esES>Nueve jefes de la Montaña Roca Negra han preparado desafíos de clase especiales para ti tras su derrota en el modo normal.</esES>
+			<esMX>Hay nueve jefes de Montaña Roca Negra que tienen un desafío de clase especial después de que los derrotas en modo normal.</esMX>
+			<frFR>Vous pouvez affronter neuf des boss du mont Rochenoire dans un défi de classe spécial après les avoir vaincus en mode normal.</frFR>
+			<itIT>Una volta sconfitti in versione Normale, nove dei boss del Massiccio Roccianera danno accesso a una Sfida di Classe.</itIT>
+			<koKR>검은바위 산의 우두머리 9마리를 일반 난이도에서 물리치고 나면, 특별한 직업별 도전 과제를 받을 수 있습니다.</koKR>
+			<plPL>Dziewięciu bossów Czarnej Góry ma dla ciebie specjalne wyzwanie klasowe, kiedy pokonasz ich w trybie normalnym.</plPL>
+			<ptBR>Nove chefes da Montanha Rocha Negra oferecem um desafio de classe especial depois de serem derrotados no modo normal.</ptBR>
+			<ruRU>Девять боссов Черной Горы приготовили специальные классовые испытания для тех, кто одолеет их в обычном режиме.</ruRU>
+			<zhCN>当你在普通难度下击败黑石山中的九个首领之后，就能够解锁其对应的特殊职业挑战。</zhCN>
+			<zhTW>擊敗黑石山的九位首領後會解鎖特殊的職業挑戰。</zhTW>
 		</Field>
-		<Field column="REQUIREMENTS_DESCRIPTION">
+		<Field column="REQUIREMENTS_DESCRIPTION" loc_ID="20858">
 			<enUS>Unlock by completing a wing in Normal mode.</enUS>
-			<zhTW>在普通模式完成一個區域後解鎖</zhTW>
-			<zhCN>击败普通难度下任意一区的所有首领后解锁</zhCN>
-			<ruRU>Требуется пройти крыло в обычном режиме.</ruRU>
-			<ptBR>Desbloqueado ao completar uma ala no modo normal.</ptBR>
-			<plPL>Odblokuj przechodząc skrzydło w trybie normalnym</plPL>
-			<koKR>일반 난이도의 해당 지구를 완료하면 잠금 해제됩니다!</koKR>
-			<itIT>Devi aver sbloccato un'ala in versione Normale.</itIT>
-			<frFR>Débloquée en terminant une aile en mode normal.</frFR>
-			<esMX>Para desbloquearlo, completa un ala en modo Normal.</esMX>
-			<esES>Se desbloquea al completar un ala en modo normal.</esES>
 			<deDE>Erfordert den Abschluss eines Flügels im normalen Modus.</deDE>
+			<esES>Se desbloquea al completar un ala en modo normal.</esES>
+			<esMX>Para desbloquearlo, completa un ala en modo Normal.</esMX>
+			<frFR>Débloquée en terminant une aile en mode normal.</frFR>
+			<itIT>Devi aver sbloccato un'ala in versione Normale.</itIT>
+			<koKR>일반 난이도의 해당 지구를 완료하면 잠금 해제됩니다!</koKR>
+			<plPL>Odblokuj przechodząc skrzydło w trybie normalnym</plPL>
+			<ptBR>Desbloqueado ao completar uma ala no modo normal.</ptBR>
+			<ruRU>Требуется пройти крыло в обычном режиме.</ruRU>
+			<zhCN>击败普通难度下任意一区的所有首领后解锁</zhCN>
+			<zhTW>在普通模式完成一個區域後解鎖</zhTW>
 		</Field>
+		<Field column="WATERMARK_TEXTURE"></Field>
+		<Field column="CHOOSER_SUB_BUTTON_DEF">Assets/Game/GameObjects/AdventureChooserDefs/AdventureChooserSubDef_BRMClassChallenge</Field>
+		<Field column="COMPLETE_BANNER_TEXT"></Field>
 	</Record>
 </Dbf>

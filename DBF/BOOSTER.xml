@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Dbf>
+<Dbf name="BOOSTER">
 	<Column name="ID" type="Int" comment="primary key" />
 	<Column name="NOTE_DESC" type="String" comment="designer name of booster contents" />
 	<Column name="SORT_ORDER" type="Int" comment="order of this booster in a displayable list" />
@@ -14,7 +14,7 @@
 		<Field column="ID">1</Field>
 		<Field column="NOTE_DESC">Set 1 Expert</Field>
 		<Field column="SORT_ORDER">1</Field>
-		<Field column="NAME">
+		<Field column="NAME" loc_ID="20878">
 			<enUS>Classic</enUS>
 			<deDE>Klassik</deDE>
 			<esES>Clásico</esES>
@@ -39,7 +39,7 @@
 		<Field column="ID">9</Field>
 		<Field column="NOTE_DESC">GvG Pack</Field>
 		<Field column="SORT_ORDER">2</Field>
-		<Field column="NAME">
+		<Field column="NAME" loc_ID="20879">
 			<enUS>Goblins vs Gnomes</enUS>
 			<deDE>Goblins gegen Gnome</deDE>
 			<esES>Goblins vs. Gnomos</esES>
@@ -64,7 +64,7 @@
 		<Field column="ID">10</Field>
 		<Field column="NOTE_DESC">Grand Tournament Pack</Field>
 		<Field column="SORT_ORDER">3</Field>
-		<Field column="NAME">
+		<Field column="NAME" loc_ID="20880">
 			<enUS>The Grand Tournament</enUS>
 			<deDE>Das Große Turnier</deDE>
 			<esES>El Gran Torneo</esES>
@@ -91,6 +91,11 @@
 		<Field column="SORT_ORDER">0</Field>
 		<Field column="OPEN_PACK_EVENT">none</Field>
 		<Field column="BUY_WITH_GOLD_EVENT">none</Field>
+		<Field column="NAME"></Field>
+		<Field column="PACK_OPENING_PREFAB"></Field>
+		<Field column="PACK_OPENING_FX_PREFAB"></Field>
+		<Field column="STORE_PREFAB"></Field>
+		<Field column="ARENA_PREFAB"></Field>
 	</Record>
 	<Record>
 		<Field column="ID">5</Field>
@@ -98,6 +103,11 @@
 		<Field column="SORT_ORDER">0</Field>
 		<Field column="OPEN_PACK_EVENT">none</Field>
 		<Field column="BUY_WITH_GOLD_EVENT">none</Field>
+		<Field column="NAME"></Field>
+		<Field column="PACK_OPENING_PREFAB"></Field>
+		<Field column="PACK_OPENING_FX_PREFAB"></Field>
+		<Field column="STORE_PREFAB"></Field>
+		<Field column="ARENA_PREFAB"></Field>
 	</Record>
 	<Record>
 		<Field column="ID">6</Field>
@@ -105,5 +115,10 @@
 		<Field column="SORT_ORDER">0</Field>
 		<Field column="OPEN_PACK_EVENT">none</Field>
 		<Field column="BUY_WITH_GOLD_EVENT">none</Field>
+		<Field column="NAME"></Field>
+		<Field column="PACK_OPENING_PREFAB"></Field>
+		<Field column="PACK_OPENING_FX_PREFAB"></Field>
+		<Field column="STORE_PREFAB"></Field>
+		<Field column="ARENA_PREFAB"></Field>
 	</Record>
 </Dbf>

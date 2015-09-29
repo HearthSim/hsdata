@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Dbf>
+<Dbf name="ADVENTURE">
 	<Column name="ID" type="Int" comment="primary key" />
 	<Column name="NOTE_DESC" type="String" comment="designer note" />
 	<Column name="NAME" type="LocString" />
@@ -19,62 +19,99 @@
 	<Column name="STORE_PREORDER_HEADLINE" type="LocString" />
 	<Column name="STORE_PREORDER_DESC" type="LocString" />
 	<Column name="STORE_PREVIEW_REWARDS_TEXT" type="LocString" />
+	<Column name="STORE_PREFAB" type="AssetPath" />
+	<Column name="CHOOSER_BUTTON_DEF" type="AssetPath" />
 	<Record>
 		<Field column="ID">1</Field>
 		<Field column="NOTE_DESC">Tutorial</Field>
-		<Field column="NAME">
+		<Field column="NAME" loc_ID="20783">
 			<enUS>Tutorial</enUS>
-			<zhTW>新手教學</zhTW>
-			<zhCN>教学</zhCN>
-			<ruRU>Обучение</ruRU>
-			<ptBR>Tutorial</ptBR>
-			<plPL>Samouczek</plPL>
-			<koKR>튜토리얼</koKR>
-			<itIT>Tutorial</itIT>
-			<frFR>Didacticiel</frFR>
-			<esMX>Tutorial</esMX>
-			<esES>Tutorial</esES>
 			<deDE>Tutorial</deDE>
+			<esES>Tutorial</esES>
+			<esMX>Tutorial</esMX>
+			<frFR>Didacticiel</frFR>
+			<itIT>Tutorial</itIT>
+			<koKR>튜토리얼</koKR>
+			<plPL>Samouczek</plPL>
+			<ptBR>Tutorial</ptBR>
+			<ruRU>Обучение</ruRU>
+			<zhCN>教学</zhCN>
+			<zhTW>新手教學</zhTW>
 		</Field>
 		<Field column="NAME_COMMENT"></Field>
+		<Field column="STORE_PREFAB"></Field>
+		<Field column="CHOOSER_BUTTON_DEF"></Field>
+		<Field column="STORE_BUY_WINGS_5_HEADLINE"></Field>
+		<Field column="STORE_BUY_WINGS_4_HEADLINE"></Field>
+		<Field column="STORE_BUY_WINGS_3_HEADLINE"></Field>
+		<Field column="STORE_BUY_WINGS_2_HEADLINE"></Field>
+		<Field column="STORE_BUY_WINGS_1_HEADLINE"></Field>
+		<Field column="STORE_BUY_WINGS_5_DESC"></Field>
+		<Field column="STORE_BUY_WINGS_4_DESC"></Field>
+		<Field column="STORE_BUY_WINGS_3_DESC"></Field>
+		<Field column="STORE_BUY_WINGS_2_DESC"></Field>
+		<Field column="STORE_BUY_WINGS_1_DESC"></Field>
+		<Field column="STORE_OWNED_HEADLINE"></Field>
+		<Field column="STORE_OWNED_DESC"></Field>
+		<Field column="STORE_PREORDER_HEADLINE"></Field>
+		<Field column="STORE_PREORDER_DESC"></Field>
+		<Field column="STORE_PREVIEW_REWARDS_TEXT"></Field>
 	</Record>
 	<Record>
 		<Field column="ID">2</Field>
 		<Field column="NOTE_DESC">Practice</Field>
-		<Field column="NAME">
+		<Field column="NAME" loc_ID="20784">
 			<enUS>Practice</enUS>
-			<zhTW>練習模式</zhTW>
-			<zhCN>练习模式</zhCN>
-			<ruRU>Тренировка</ruRU>
-			<ptBR>Praticar</ptBR>
-			<plPL>Trening</plPL>
-			<koKR>연습</koKR>
-			<itIT>Allenamento</itIT>
-			<frFR>Entraînement</frFR>
-			<esMX>Práctica</esMX>
-			<esES>Práctica</esES>
 			<deDE>Üben</deDE>
+			<esES>Práctica</esES>
+			<esMX>Práctica</esMX>
+			<frFR>Entraînement</frFR>
+			<itIT>Allenamento</itIT>
+			<koKR>연습</koKR>
+			<plPL>Trening</plPL>
+			<ptBR>Praticar</ptBR>
+			<ruRU>Тренировка</ruRU>
+			<zhCN>练习模式</zhCN>
+			<zhTW>練習模式</zhTW>
 		</Field>
 		<Field column="NAME_COMMENT"></Field>
+		<Field column="STORE_PREFAB"></Field>
+		<Field column="CHOOSER_BUTTON_DEF">Assets/Game/GameObjects/AdventureChooserDefs/AdventureChooserDef_Practice</Field>
+		<Field column="STORE_BUY_WINGS_5_HEADLINE"></Field>
+		<Field column="STORE_BUY_WINGS_4_HEADLINE"></Field>
+		<Field column="STORE_BUY_WINGS_3_HEADLINE"></Field>
+		<Field column="STORE_BUY_WINGS_2_HEADLINE"></Field>
+		<Field column="STORE_BUY_WINGS_1_HEADLINE"></Field>
+		<Field column="STORE_BUY_WINGS_5_DESC"></Field>
+		<Field column="STORE_BUY_WINGS_4_DESC"></Field>
+		<Field column="STORE_BUY_WINGS_3_DESC"></Field>
+		<Field column="STORE_BUY_WINGS_2_DESC"></Field>
+		<Field column="STORE_BUY_WINGS_1_DESC"></Field>
+		<Field column="STORE_OWNED_HEADLINE"></Field>
+		<Field column="STORE_OWNED_DESC"></Field>
+		<Field column="STORE_PREORDER_HEADLINE"></Field>
+		<Field column="STORE_PREORDER_DESC"></Field>
+		<Field column="STORE_PREVIEW_REWARDS_TEXT"></Field>
 	</Record>
 	<Record>
 		<Field column="ID">3</Field>
 		<Field column="NOTE_DESC">Naxxramas</Field>
-		<Field column="NAME">
+		<Field column="NAME" loc_ID="20785">
 			<enUS>Naxxramas</enUS>
-			<zhTW>納克薩瑪斯</zhTW>
-			<zhCN>纳克萨玛斯</zhCN>
-			<ruRU>Наксрамас</ruRU>
-			<ptBR>Naxxramas</ptBR>
-			<plPL>Naxxramas</plPL>
-			<koKR>낙스라마스</koKR>
-			<itIT>Naxxramas</itIT>
-			<frFR>Naxxramas</frFR>
-			<esMX>Naxxramas</esMX>
-			<esES>Naxxramas</esES>
 			<deDE>Naxxramas</deDE>
+			<esES>Naxxramas</esES>
+			<esMX>Naxxramas</esMX>
+			<frFR>Naxxramas</frFR>
+			<itIT>Naxxramas</itIT>
+			<koKR>낙스라마스</koKR>
+			<plPL>Naxxramas</plPL>
+			<ptBR>Naxxramas</ptBR>
+			<ruRU>Наксрамас</ruRU>
+			<zhCN>纳克萨玛斯</zhCN>
+			<zhTW>納克薩瑪斯</zhTW>
 		</Field>
-		<Field column="STORE_BUY_WINGS_5_HEADLINE">
+		<Field column="NAME_COMMENT"></Field>
+		<Field column="STORE_BUY_WINGS_5_HEADLINE" loc_ID="20786">
 			<enUS>Naxxramas (Unlock all 5 wings)</enUS>
 			<deDE>Naxxramas (alle 5 Flügel):</deDE>
 			<esES>Naxxramas (desbloquea las 5 alas)</esES>
@@ -88,7 +125,7 @@
 			<zhCN>纳克萨玛斯（解锁全部五个区）</zhCN>
 			<zhTW>納克薩瑪斯(解鎖全部5個區域)</zhTW>
 		</Field>
-		<Field column="STORE_BUY_WINGS_4_HEADLINE">
+		<Field column="STORE_BUY_WINGS_4_HEADLINE" loc_ID="20787">
 			<enUS>Naxxramas (Unlock 4 remaining wings)</enUS>
 			<deDE>Naxxramas (4 verbleibende Flügel):</deDE>
 			<esES>Naxxramas (desbloquea las 4 alas restantes)</esES>
@@ -102,7 +139,7 @@
 			<zhCN>纳克萨玛斯（解锁后四个区）</zhCN>
 			<zhTW>納克薩瑪斯(解鎖剩餘的4個區域)</zhTW>
 		</Field>
-		<Field column="STORE_BUY_WINGS_3_HEADLINE">
+		<Field column="STORE_BUY_WINGS_3_HEADLINE" loc_ID="20788">
 			<enUS>Naxxramas (Unlock 3 remaining wings)</enUS>
 			<deDE>Naxxramas (3 verbleibende Flügel):</deDE>
 			<esES>Naxxramas (desbloquea las 3 alas restantes)</esES>
@@ -116,7 +153,7 @@
 			<zhCN>纳克萨玛斯（解锁后三个区）</zhCN>
 			<zhTW>納克薩瑪斯(解鎖剩餘的3個區域)</zhTW>
 		</Field>
-		<Field column="STORE_BUY_WINGS_2_HEADLINE">
+		<Field column="STORE_BUY_WINGS_2_HEADLINE" loc_ID="20789">
 			<enUS>Naxxramas (Unlock 2 remaining wings)</enUS>
 			<deDE>Naxxramas (2 verbleibende Flügel):</deDE>
 			<esES>Naxxramas (desbloquea las 2 alas restantes)</esES>
@@ -130,7 +167,7 @@
 			<zhCN>纳克萨玛斯（解锁后两个区）</zhCN>
 			<zhTW>納克薩瑪斯(解鎖剩餘的2個區域)</zhTW>
 		</Field>
-		<Field column="STORE_BUY_WINGS_1_HEADLINE">
+		<Field column="STORE_BUY_WINGS_1_HEADLINE" loc_ID="20790">
 			<enUS>Naxxramas (Unlock the final wing)</enUS>
 			<deDE>Naxxramas (letzter Flügel):</deDE>
 			<esES>Naxxramas (desbloquea la última ala)</esES>
@@ -144,7 +181,7 @@
 			<zhCN>纳克萨玛斯（解锁最后一个区）</zhCN>
 			<zhTW>納克薩瑪斯(解鎖最後一個區域)</zhTW>
 		</Field>
-		<Field column="STORE_BUY_WINGS_5_DESC">
+		<Field column="STORE_BUY_WINGS_5_DESC" loc_ID="20791">
 			<enUS>• Start your adventure! Unlock all the wings and earn up to 30 new cards that can only be found in Naxxramas.</enUS>
 			<deDE>• Stürzen Sie sich ins Abenteuer! Schalten Sie alle Flügel frei und erkämpfen Sie sich bis zu 30 neue Karten, die nur in Naxxramas zu finden sind.</deDE>
 			<esES>• ¡Empieza la aventura! Desbloquea todas las alas y consigue hasta 30 cartas nuevas que solo se pueden obtener en Naxxramas.</esES>
@@ -158,7 +195,7 @@
 			<zhCN>• 闯入纳克萨玛斯，开始冒险！解锁全部五个区，赢得只有在纳克萨玛斯中才能获取的至多30张全新卡牌。</zhCN>
 			<zhTW>• 開始你的冒險！解鎖全部區域並獲得最多30張只有在納克薩瑪斯能找到的新卡片。</zhTW>
 		</Field>
-		<Field column="STORE_BUY_WINGS_4_DESC">
+		<Field column="STORE_BUY_WINGS_4_DESC" loc_ID="20792">
 			<enUS>• Continue your adventure! Unlock the last four wings and earn up to 24 new cards that can only be found in Naxxramas.</enUS>
 			<deDE>• Stürzen Sie sich wieder ins Abenteuer! Schalten Sie die letzten vier Flügel frei und erkämpfen Sie sich bis zu 24 neue Karten, die nur in Naxxramas zu finden sind.</deDE>
 			<esES>• ¡Prosigue tu aventura! Desbloquea las cuatro últimas alas y consigue hasta 24 cartas nuevas que solo se pueden obtener en Naxxramas.</esES>
@@ -172,7 +209,7 @@
 			<zhCN>• 继续你的冒险之旅！解锁后四个区，赢得只有在纳克萨玛斯中才能获取的至多24张全新卡牌。</zhCN>
 			<zhTW>• 繼續你的冒險！解鎖剩餘的四區並獲得最多24張只有在納克薩瑪斯能找到的新卡片。</zhTW>
 		</Field>
-		<Field column="STORE_BUY_WINGS_3_DESC">
+		<Field column="STORE_BUY_WINGS_3_DESC" loc_ID="20793">
 			<enUS>• Continue your adventure! Unlock the last three wings and earn up to 18 new cards that can only be found in Naxxramas.</enUS>
 			<deDE>• Stürzen Sie sich wieder ins Abenteuer! Schalten Sie die letzten drei Flügel frei und erkämpfen Sie sich bis zu 18 neue Karten, die nur in Naxxramas zu finden sind.</deDE>
 			<esES>• ¡Prosigue tu aventura! Desbloquea las tres últimas alas y consigue hasta 18 cartas nuevas que solo se pueden obtener en Naxxramas.</esES>
@@ -186,7 +223,7 @@
 			<zhCN>• 继续你的冒险之旅！解锁后三个区，赢得只有在纳克萨玛斯中才能获取的至多18张全新卡牌。</zhCN>
 			<zhTW>• 繼續你的冒險！解鎖剩餘的三區並獲得最多18張只有在納克薩瑪斯能找到的新卡片。</zhTW>
 		</Field>
-		<Field column="STORE_BUY_WINGS_2_DESC">
+		<Field column="STORE_BUY_WINGS_2_DESC" loc_ID="20794">
 			<enUS>• Continue your adventure! Unlock the last two wings and earn up to 12 new cards that can only be found in Naxxramas.</enUS>
 			<deDE>• Stürzen Sie sich wieder ins Abenteuer! Schalten Sie die letzten zwei Flügel frei und erkämpfen Sie sich bis zu 12 neue Karten, die nur in Naxxramas zu finden sind.</deDE>
 			<esES>• ¡Prosigue tu aventura! Desbloquea las dos últimas alas y consigue hasta 12 cartas nuevas que solo se pueden obtener en Naxxramas.</esES>
@@ -200,7 +237,7 @@
 			<zhCN>• 继续你的冒险之旅！解锁后两个区，赢得只有在纳克萨玛斯中才能获取的至多12张全新卡牌。</zhCN>
 			<zhTW>• 繼續你的冒險！解鎖剩餘的兩區並獲得最多12張只有在納克薩瑪斯能找到的新卡片。</zhTW>
 		</Field>
-		<Field column="STORE_BUY_WINGS_1_DESC">
+		<Field column="STORE_BUY_WINGS_1_DESC" loc_ID="20795">
 			<enUS>• Finish your adventure!  Unlock the last wing and earn up to 4 new cards that can only be found in Naxxramas.</enUS>
 			<deDE>• Schließen Sie Ihr Abenteuer ab! Schalten Sie den letzten Flügel frei und erkämpfen Sie sich bis zu 4 neue Karten, die nur in Naxxramas zu finden sind.</deDE>
 			<esES>• ¡Termina tu aventura! Desbloquea la última ala y consigue hasta 4 cartas nuevas que solo se pueden obtener en Naxxramas.</esES>
@@ -214,7 +251,7 @@
 			<zhCN>• 完成你的冒险之旅！解锁最后一个区，赢得只有在纳克萨玛斯中才能获取的至多4张全新卡牌。</zhCN>
 			<zhTW>• 完成你的冒險！解鎖最後的區域並獲得最多4張只有在納克薩瑪斯能找到的新卡片。</zhTW>
 		</Field>
-		<Field column="STORE_OWNED_HEADLINE">
+		<Field column="STORE_OWNED_HEADLINE" loc_ID="20796">
 			<enUS>Naxxramas (Purchased)</enUS>
 			<deDE>Naxxramas (erworben)</deDE>
 			<esES>Naxxramas (adquirida)</esES>
@@ -228,7 +265,7 @@
 			<zhCN>纳克萨玛斯（已购买）</zhCN>
 			<zhTW>納克薩瑪斯(已購買)</zhTW>
 		</Field>
-		<Field column="STORE_OWNED_DESC">
+		<Field column="STORE_OWNED_DESC" loc_ID="20797">
 			<enUS>• Defeat the bosses in Naxxramas to earn your rewards.</enUS>
 			<deDE>• Besiegen Sie die Bosse von Naxxramas, um Belohnungen zu erhalten.</deDE>
 			<esES>• Derrota a los jefes de Naxxramas para obtener recompensas.</esES>
@@ -242,7 +279,7 @@
 			<zhCN>• 击败纳克萨玛斯中的所有首领，赢得你的奖励。</zhCN>
 			<zhTW>• 擊敗納克薩瑪斯的首領來贏取你的獎勵。</zhTW>
 		</Field>
-		<Field column="STORE_PREVIEW_REWARDS_TEXT">
+		<Field column="STORE_PREVIEW_REWARDS_TEXT" loc_ID="20798">
 			<enUS>Earn these cards and more by defeating the deadly bosses of Naxxramas!</enUS>
 			<deDE>Besiegen Sie die tödlichen Bosse von Naxxramas, um diese und weitere Karten zu erhalten!</deDE>
 			<esES>¡Consigue estas y otras cartas tras derrotar a los mortíferos jefes de Naxxramas!</esES>
@@ -256,11 +293,15 @@
 			<zhCN>击败纳克萨玛斯的首领们，赢得这些卡牌！</zhCN>
 			<zhTW>擊敗納克薩瑪斯的首領來獲得這些卡片！</zhTW>
 		</Field>
+		<Field column="STORE_PREFAB">Assets/Game/GameObjects/StoreAdventureDefs/StoreAdventureDef_Naxxramas</Field>
+		<Field column="CHOOSER_BUTTON_DEF">Assets/Game/GameObjects/AdventureChooserDefs/AdventureChooserDef_Naxxramas</Field>
+		<Field column="STORE_PREORDER_HEADLINE"></Field>
+		<Field column="STORE_PREORDER_DESC"></Field>
 	</Record>
 	<Record>
 		<Field column="ID">4</Field>
 		<Field column="NOTE_DESC">BRM</Field>
-		<Field column="NAME">
+		<Field column="NAME" loc_ID="20799">
 			<enUS>Blackrock Mountain</enUS>
 			<deDE>Der Schwarzfels</deDE>
 			<esES>Montaña Roca Negra</esES>
@@ -274,7 +315,8 @@
 			<zhCN>黑石山</zhCN>
 			<zhTW>勇闖黑石山</zhTW>
 		</Field>
-		<Field column="STORE_BUY_WINGS_5_HEADLINE">
+		<Field column="NAME_COMMENT"></Field>
+		<Field column="STORE_BUY_WINGS_5_HEADLINE" loc_ID="20800">
 			<enUS>Blackrock Mountain (Unlock all 5 wings)</enUS>
 			<deDE>Schwarzfels (alle 5 Flügel):</deDE>
 			<esES>Montaña Roca Negra (desbloquea las 5 alas)</esES>
@@ -288,7 +330,7 @@
 			<zhCN>黑石山（解锁全部五个区）</zhCN>
 			<zhTW>勇闖黑石山(解鎖全部5個區域)</zhTW>
 		</Field>
-		<Field column="STORE_BUY_WINGS_4_HEADLINE">
+		<Field column="STORE_BUY_WINGS_4_HEADLINE" loc_ID="20801">
 			<enUS>Blackrock Mountain (Unlock 4 remaining wings)</enUS>
 			<deDE>Schwarzfels (4 verbleibende Flügel):</deDE>
 			<esES>Montaña Roca Negra (desbloquea las 4 alas restantes)</esES>
@@ -302,7 +344,7 @@
 			<zhCN>黑石山（解锁后四个区）</zhCN>
 			<zhTW>勇闖黑石山(解鎖剩餘的4個區域)</zhTW>
 		</Field>
-		<Field column="STORE_BUY_WINGS_3_HEADLINE">
+		<Field column="STORE_BUY_WINGS_3_HEADLINE" loc_ID="20802">
 			<enUS>Blackrock Mountain (Unlock 3 remaining wings)</enUS>
 			<deDE>Schwarzfels (3 verbleibende Flügel):</deDE>
 			<esES>Montaña Roca Negra (desbloquea las 3 alas restantes)</esES>
@@ -316,7 +358,7 @@
 			<zhCN>黑石山（解锁后三个区）</zhCN>
 			<zhTW>勇闖黑石山(解鎖剩餘的3個區域)</zhTW>
 		</Field>
-		<Field column="STORE_BUY_WINGS_2_HEADLINE">
+		<Field column="STORE_BUY_WINGS_2_HEADLINE" loc_ID="20803">
 			<enUS>Blackrock Mountain (Unlock 2 remaining wings)</enUS>
 			<deDE>Schwarzfels (2 verbleibende Flügel):</deDE>
 			<esES>Montaña Roca Negra (desbloquea las 2 alas restantes)</esES>
@@ -330,7 +372,7 @@
 			<zhCN>黑石山（解锁后两个区）</zhCN>
 			<zhTW>勇闖黑石山(解鎖剩餘的2個區域)</zhTW>
 		</Field>
-		<Field column="STORE_BUY_WINGS_1_HEADLINE">
+		<Field column="STORE_BUY_WINGS_1_HEADLINE" loc_ID="20804">
 			<enUS>Blackrock Mountain (Unlock the final wing)</enUS>
 			<deDE>Schwarzfels (letzter Flügel):</deDE>
 			<esES>Montaña Roca Negra (desbloquea la última ala)</esES>
@@ -344,7 +386,7 @@
 			<zhCN>黑石山（解锁最后一个区）</zhCN>
 			<zhTW>勇闖黑石山(解鎖最後一個區域)</zhTW>
 		</Field>
-		<Field column="STORE_BUY_WINGS_5_DESC">
+		<Field column="STORE_BUY_WINGS_5_DESC" loc_ID="20805">
 			<enUS>• Start your adventure! Unlock all the wings and earn up to 31 new cards that can only be found in Blackrock Mountain.</enUS>
 			<deDE>• Stürzen Sie sich ins Abenteuer! Schalten Sie alle Flügel frei und erkämpfen Sie sich bis zu 31 neue Karten, die nur im Schwarzfels zu finden sind.</deDE>
 			<esES>• ¡Empieza la aventura! Desbloquea todas las alas y consigue hasta 31 cartas nuevas que solo se pueden obtener en la Montaña Roca Negra.</esES>
@@ -358,7 +400,7 @@
 			<zhCN>• 闯入黑石山，开始冒险！解锁全部五个区，赢得只有在黑石山中才能获取的至多31张全新卡牌。</zhCN>
 			<zhTW>• 開始你的冒險！解鎖全部區域並獲得最多31張只有在黑石山能找到的新卡片。</zhTW>
 		</Field>
-		<Field column="STORE_BUY_WINGS_4_DESC">
+		<Field column="STORE_BUY_WINGS_4_DESC" loc_ID="20806">
 			<enUS>• Continue your adventure! Unlock the last four wings and earn up to 25 new cards that can only be found in Blackrock Mountain.</enUS>
 			<deDE>• Stürzen Sie sich wieder ins Abenteuer! Schalten Sie die letzten vier Flügel frei und erkämpfen Sie sich bis zu 25 neue Karten, die nur im Schwarzfels zu finden sind.</deDE>
 			<esES>• ¡Prosigue tu aventura! Desbloquea las cuatro últimas alas y consigue hasta 25 cartas nuevas que solo se pueden obtener en la Montaña Roca Negra.</esES>
@@ -372,7 +414,7 @@
 			<zhCN>• 继续你的冒险之旅！解锁后四个区，赢得只有在黑石山中才能获取的至多25张全新卡牌。</zhCN>
 			<zhTW>• 繼續你的冒險！解鎖剩餘的四區並獲得最多25張只有在黑石山能找到的新卡片。</zhTW>
 		</Field>
-		<Field column="STORE_BUY_WINGS_3_DESC">
+		<Field column="STORE_BUY_WINGS_3_DESC" loc_ID="20807">
 			<enUS>• Continue your adventure! Unlock the last three wings and earn up to 19 new cards that can only be found in Blackrock Mountain.</enUS>
 			<deDE>• Stürzen Sie sich wieder ins Abenteuer! Schalten Sie die letzten drei Flügel frei und erkämpfen Sie sich bis zu 19 neue Karten, die nur im Schwarzfels zu finden sind.</deDE>
 			<esES>• ¡Prosigue tu aventura! Desbloquea las tres últimas alas y consigue hasta 19 cartas nuevas que solo se pueden obtener en la Montaña Roca Negra.</esES>
@@ -386,7 +428,7 @@
 			<zhCN>• 继续你的冒险之旅！解锁后三个区，赢得只有在黑石山中才能获取的至多19张全新卡牌。</zhCN>
 			<zhTW>• 繼續你的冒險！解鎖剩餘的三區並獲得最多19張只有在黑石山能找到的新卡片。</zhTW>
 		</Field>
-		<Field column="STORE_BUY_WINGS_2_DESC">
+		<Field column="STORE_BUY_WINGS_2_DESC" loc_ID="20808">
 			<enUS>• Continue your adventure! Unlock the last two wings and earn up to 13 new cards that can only be found in Blackrock Mountain.</enUS>
 			<deDE>• Stürzen Sie sich wieder ins Abenteuer! Schalten Sie die letzten zwei Flügel frei und erkämpfen Sie sich bis zu 13 neue Karten, die nur im Schwarzfels zu finden sind.</deDE>
 			<esES>• ¡Prosigue tu aventura! Desbloquea las dos últimas alas y consigue hasta 13 cartas nuevas que solo se pueden obtener en la Montaña Roca Negra.</esES>
@@ -400,7 +442,7 @@
 			<zhCN>• 继续你的冒险之旅！解锁后两个区，赢得只有在黑石山中才能获取的至多13张全新卡牌。</zhCN>
 			<zhTW>• 繼續你的冒險！解鎖剩餘的兩區並獲得最多13張只有在黑石山能找到的新卡片。</zhTW>
 		</Field>
-		<Field column="STORE_BUY_WINGS_1_DESC">
+		<Field column="STORE_BUY_WINGS_1_DESC" loc_ID="20809">
 			<enUS>• Finish your adventure!  Unlock the last wing and earn up to 6 new cards that can only be found in Blackrock Mountain.</enUS>
 			<deDE>• Schließen Sie Ihr Abenteuer ab! Schalten Sie den letzten Flügel frei und erkämpfen Sie sich bis zu 6 neue Karten, die nur im Schwarzfels zu finden sind.</deDE>
 			<esES>• ¡Termina tu aventura! Desbloquea la última ala y consigue hasta 6 cartas nuevas que solo se pueden obtener en la Montaña Roca Negra.</esES>
@@ -414,7 +456,7 @@
 			<zhCN>• 完成你的冒险之旅！解锁最后一个区，赢得只有在黑石山中才能获取的至多6张全新卡牌。</zhCN>
 			<zhTW>• 完成你的冒險！解鎖最後的區域並獲得最多6張只有在黑石山能找到的新卡片。</zhTW>
 		</Field>
-		<Field column="STORE_OWNED_HEADLINE">
+		<Field column="STORE_OWNED_HEADLINE" loc_ID="20810">
 			<enUS>Blackrock Mountain (Purchased)</enUS>
 			<deDE>Schwarzfels (erworben)</deDE>
 			<esES>Montaña Roca Negra (adquirida)</esES>
@@ -428,7 +470,7 @@
 			<zhCN>黑石山（已购买）</zhCN>
 			<zhTW>勇闖黑石山(已購買)</zhTW>
 		</Field>
-		<Field column="STORE_OWNED_DESC">
+		<Field column="STORE_OWNED_DESC" loc_ID="20811">
 			<enUS>• Defeat the bosses in Blackrock Mountain to earn your rewards.</enUS>
 			<deDE>• Besiegen Sie die Bosse des Schwarzfels, um Belohnungen zu erhalten.</deDE>
 			<esES>• Derrota a los jefes de la Montaña Roca Negra para obtener recompensas.</esES>
@@ -442,7 +484,7 @@
 			<zhCN>• 击败黑石山中的首领们，赢得丰厚奖励。</zhCN>
 			<zhTW>• 擊敗黑石山的首領，贏取你的獎勵。</zhTW>
 		</Field>
-		<Field column="STORE_PREORDER_HEADLINE">
+		<Field column="STORE_PREORDER_HEADLINE" loc_ID="20812">
 			<enUS>Blackrock Mountain (Pre-order)</enUS>
 			<deDE>Schwarzfels (Vorverkauf)</deDE>
 			<esES>Montaña Roca Negra (compra anticipada)</esES>
@@ -456,7 +498,7 @@
 			<zhCN>黑石山（预购）</zhCN>
 			<zhTW>勇闖黑石山(預購)</zhTW>
 		</Field>
-		<Field column="STORE_PREORDER_DESC">
+		<Field column="STORE_PREORDER_DESC" loc_ID="20813">
 			<enUS>• Face off against 17 bosses\n• Earn 31 Blackrock Mountain cards\n• Get an exclusive pre-order cardback\n• The adventure begins in April!</enUS>
 			<deDE>• Stellen Sie sich 17 Bossen\n• Verdienen Sie sich 31 Schwarzfels-Karten\n• Holen Sie sich den exklusiven Vorabkäufer-Kartenrücken\n• Das Abenteuer beginnt im April!</deDE>
 			<esES>• Enfréntate a 17 jefes.\n• Obtén 31 cartas de la Montaña Roca Negra.\n• Hazte con un dorso de carta exclusivo por realizar una compra anticipada.\n• ¡La aventura llega en abril!</esES>
@@ -470,7 +512,7 @@
 			<zhCN>• 挑战17位首领\n• 赢取31张黑石山卡牌\n• 获得独一无二的预购卡背\n• 全新冒险将在四月开始！</zhCN>
 			<zhTW>• 面對17個首領\n• 贏取31張黑石山卡片\n• 取得預購的專屬卡背\n• 冒險將在四月展開！</zhTW>
 		</Field>
-		<Field column="STORE_PREVIEW_REWARDS_TEXT">
+		<Field column="STORE_PREVIEW_REWARDS_TEXT" loc_ID="20814">
 			<enUS>Earn these cards and more by defeating the deadly bosses of Blackrock Mountain!</enUS>
 			<deDE>Besiegen Sie die tödlichen Bosse des Schwarzfels, um diese und weitere Karten zu erhalten!</deDE>
 			<esES>¡Consigue estas y otras cartas tras derrotar a los mortíferos jefes de la Montaña Roca Negra!</esES>
@@ -484,9 +526,30 @@
 			<zhCN>击败黑石山的首领们，赢得这些卡牌！</zhCN>
 			<zhTW>擊敗黑石山的首領來獲得這些卡片！</zhTW>
 		</Field>
+		<Field column="STORE_PREFAB">Assets/Game/GameObjects/StoreAdventureDefs/StoreAdventureDef_BRM</Field>
+		<Field column="CHOOSER_BUTTON_DEF">Assets/Game/GameObjects/AdventureChooserDefs/AdventureChooserDef_BRM</Field>
 	</Record>
 	<Record>
 		<Field column="ID">7</Field>
 		<Field column="NOTE_DESC">Tavern Brawl</Field>
+		<Field column="NAME_COMMENT"></Field>
+		<Field column="STORE_PREFAB"></Field>
+		<Field column="CHOOSER_BUTTON_DEF"></Field>
+		<Field column="NAME"></Field>
+		<Field column="STORE_BUY_WINGS_5_HEADLINE"></Field>
+		<Field column="STORE_BUY_WINGS_4_HEADLINE"></Field>
+		<Field column="STORE_BUY_WINGS_3_HEADLINE"></Field>
+		<Field column="STORE_BUY_WINGS_2_HEADLINE"></Field>
+		<Field column="STORE_BUY_WINGS_1_HEADLINE"></Field>
+		<Field column="STORE_BUY_WINGS_5_DESC"></Field>
+		<Field column="STORE_BUY_WINGS_4_DESC"></Field>
+		<Field column="STORE_BUY_WINGS_3_DESC"></Field>
+		<Field column="STORE_BUY_WINGS_2_DESC"></Field>
+		<Field column="STORE_BUY_WINGS_1_DESC"></Field>
+		<Field column="STORE_OWNED_HEADLINE"></Field>
+		<Field column="STORE_OWNED_DESC"></Field>
+		<Field column="STORE_PREORDER_HEADLINE"></Field>
+		<Field column="STORE_PREORDER_DESC"></Field>
+		<Field column="STORE_PREVIEW_REWARDS_TEXT"></Field>
 	</Record>
 </Dbf>

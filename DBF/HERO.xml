@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Dbf>
+<Dbf name="HERO">
 	<Column name="ID" type="Int" />
 	<Column name="CARD_ID" type="String" />
 	<Column name="STORE_BOUGHT" type="Bool" />
@@ -12,8 +12,8 @@
 		<Field column="ID">1</Field>
 		<Field column="CARD_ID">HERO_01</Field>
 		<Field column="STORE_BOUGHT">False</Field>
-		<Field column="CARD_BACK_ID" />
-		<Field column="DESCRIPTION">
+		<Field column="CARD_BACK_ID"></Field>
+		<Field column="DESCRIPTION" loc_ID="21107">
 			<enUS>This former Warchief of the Horde isn’t bitter about being deposed. Not at all.</enUS>
 			<deDE>Dieser ehemalige Kriegshäuptling der Horde mag seinen Thron eingebüßt haben, aber nicht seinen rustikalen Charme.</deDE>
 			<esES>Este antiguo Jefe de Guerra de la Horda no está resentido por haber sido destituido. Para nada.</esES>
@@ -28,13 +28,15 @@
 			<zhTW>部落的前任大酋長才不會因為被拋棄就傷心呢。絕對不會！</zhTW>
 		</Field>
 		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_01</Field>
+		<Field column="STORE_TITLE"></Field>
+		<Field column="STORE_DESCRIPTION"></Field>
 	</Record>
 	<Record>
 		<Field column="ID">10</Field>
 		<Field column="CARD_ID">HERO_01a</Field>
 		<Field column="STORE_BOUGHT">True</Field>
 		<Field column="CARD_BACK_ID">26</Field>
-		<Field column="DESCRIPTION">
+		<Field column="DESCRIPTION" loc_ID="21116">
 			<enUS>Lord of Ironforge. King of Khaz Modan. Grand Explorer. Moira’s Dad. Most Huggable Leader.</enUS>
 			<deDE>Herr von Eisenschmiede, König von Khaz Modan, berühmter Entdecker, Moiras Papa und ein bär(t)iger Anführer.</deDE>
 			<esES>Señor de Forjaz, rey de Khaz Modan, gran explorador, padre de Moira y el líder más entrañable de todos.</esES>
@@ -48,7 +50,7 @@
 			<zhCN>铁炉堡的主人。卡兹莫丹的国王。伟大的探索者。茉艾拉的父亲。最平易近人的领袖。</zhCN>
 			<zhTW>鐵爐堡國王、卡茲莫丹之王、偉大的探險家、茉艾拉的老爸、還有讓人最想要抱緊處理的國王。</zhTW>
 		</Field>
-		<Field column="STORE_DESCRIPTION">
+		<Field column="STORE_DESCRIPTION" loc_ID="21117">
 			<enUS>King Magni comes with an animated portrait, new visual effects, emotes and adds a new card back to your collection!\n\nMagni uses your existing warrior cards and the standard warrior hero power.</enUS>
 			<deDE>König Magni bietet ein animiertes Porträt, angepasste visuelle Effekte, neue Emotes und einen brandneuen Kartenrücken!\n\nMagni kämpft mit Kriegerkarten und der Standard-Heldenfähigkeit des Kriegers.</deDE>
 			<esES>El rey Magni viene con un retrato animado, nuevos efectos visuales y frases, ¡y añade un nuevo dorso de carta a tu colección!\n\nMagni utiliza tus cartas de guerrero y el poder de héroe de guerrero normal.</esES>
@@ -58,18 +60,19 @@
 			<koKR>국왕 마그니 세트에는 움직이는 초상화, 새로운 시각 효과, 감정 표현, 그리고 카드 뒷면이 포함되어 있습니다!\n\n마그니는 내가 보유한 전사 카드와 전사의 기본 영웅 능력을 사용합니다.</koKR>
 			<plPL>Król Magni dostępny jest wraz z animowanym portretem, nowymi efektami wizualnymi, emotkami oraz nowym rewersem kart.\n\nMagni wykorzystuje istniejące karty wojownika oraz jego standardową moc specjalną.</plPL>
 			<ptBR>O Rei Magni vem com um retrato animado, novos efeitos visuais, expressões e adiciona um novo verso de card à sua coleção!\n\nMagni usa seus cards de guerreiro existentes e o poder heroico de guerreiro padrão.</ptBR>
-			<ruRU>К этому герою прилагается анимированный портрет, новые графические эффекты, эмоции и новая рубашка для карт в вашей коллекции!\n\nКороль Магни может использовать ваши карты мага и стандартную силу героя.</ruRU>
+			<ruRU>К этому герою прилагается анимированный портрет, новые графические эффекты, эмоции и новая рубашка для карт в вашей коллекции!\n\nКороль Магни может использовать ваши карты воина и стандартную силу героя.</ruRU>
 			<zhCN>购买矮人国王麦格尼即可获得新的英雄头像、全新动画效果、表情以及一款新的卡牌背面图案！\n\n麦格尼将使用你现有的战士卡牌和英雄技能。</zhCN>
 			<zhTW>麥格尼國王擁有獨特的動態頭像，新的視覺效果和表情語音，並且還會增加一張全新的卡背到你的收藏中！\n\n麥格尼可以使用你擁有的戰士卡片，以及戰士的英雄能力。</zhTW>
 		</Field>
 		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_01a</Field>
+		<Field column="STORE_TITLE"></Field>
 	</Record>
 	<Record>
 		<Field column="ID">2</Field>
 		<Field column="CARD_ID">HERO_02</Field>
 		<Field column="STORE_BOUGHT">False</Field>
-		<Field column="CARD_BACK_ID" />
-		<Field column="DESCRIPTION">
+		<Field column="CARD_BACK_ID"></Field>
+		<Field column="DESCRIPTION" loc_ID="21108">
 			<enUS>Thrall quit his former job as Warchief to save the world and spend more time with his family.</enUS>
 			<deDE>Thrall hat seinen Job als Kriegshäuptling an den Nagel gehängt, um die Welt zu retten – und mehr Zeit mit seiner Familie zu verbringen.</deDE>
 			<esES>Thrall renunció a su antiguo trabajo de Jefe de Guerra para salvar el mundo y pasar más tiempo con su familia.</esES>
@@ -84,13 +87,15 @@
 			<zhTW>索爾辭掉了大酋長的工作以拯救世界，並且多陪陪家人。</zhTW>
 		</Field>
 		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_02</Field>
+		<Field column="STORE_TITLE"></Field>
+		<Field column="STORE_DESCRIPTION"></Field>
 	</Record>
 	<Record>
 		<Field column="ID">3</Field>
 		<Field column="CARD_ID">HERO_03</Field>
 		<Field column="STORE_BOUGHT">False</Field>
-		<Field column="CARD_BACK_ID" />
-		<Field column="DESCRIPTION">
+		<Field column="CARD_BACK_ID"></Field>
+		<Field column="DESCRIPTION" loc_ID="21109">
 			<enUS>Expert assassin.  Deadly gladiator.  Best knife skills in her cooking class, according to survivors.</enUS>
 			<deDE>Profikillerin und Gladiatorenchampion. Glänzte in ihrem Kochkurs durch geschickten Umgang mit Messern ... behaupten zumindest die Überlebenden.</deDE>
 			<esES>Asesina experta y gladiadora letal. Mostró una destreza insuperable con los cuchillos en clase de cocina, según comentan los supervivientes.</esES>
@@ -105,13 +110,15 @@
 			<zhTW>精英殺手，致命鬥士，而且根據生還者所言，她的刀工在料理界也堪稱一絕。</zhTW>
 		</Field>
 		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_03</Field>
+		<Field column="STORE_TITLE"></Field>
+		<Field column="STORE_DESCRIPTION"></Field>
 	</Record>
 	<Record>
 		<Field column="ID">4</Field>
 		<Field column="CARD_ID">HERO_04</Field>
 		<Field column="STORE_BOUGHT">False</Field>
-		<Field column="CARD_BACK_ID" />
-		<Field column="DESCRIPTION">
+		<Field column="CARD_BACK_ID"></Field>
+		<Field column="DESCRIPTION" loc_ID="21110">
 			<enUS>Leader of the Knights of the Silver Hand.  Best-selling author of The Light and How to Swing It.</enUS>
 			<deDE>Anführer des Ordens der Silbernen Hand und Autor des Bestsellers „Vom Licht und wie man es schwingt“.</deDE>
 			<esES>Líder de los caballeros de la Mano de Plata y autor del popular libro "La Luz y cómo alterarla".</esES>
@@ -123,16 +130,18 @@
 			<ptBR>Líder dos Cavaleiros do Punho de Prata. Autor do best-seller "A Luz e como Ativá-la".</ptBR>
 			<ruRU>Предводитель Рыцарей Серебряной Длани и автор бессмертного произведения «Раскачаем этот свет».</ruRU>
 			<zhCN>白银之手骑士团的领袖。年度畅销读物《圣光之力》的作者。</zhCN>
-			<zhTW>白銀之手騎士團的首領。讓他出名的不只是聖光，還有手上的大錘。</zhTW>
+			<zhTW>白銀之手騎士團的首領。讓他出名的不只是聖光，還有手中的大錘。</zhTW>
 		</Field>
 		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_04</Field>
+		<Field column="STORE_TITLE"></Field>
+		<Field column="STORE_DESCRIPTION"></Field>
 	</Record>
 	<Record>
 		<Field column="ID">5</Field>
 		<Field column="CARD_ID">HERO_05</Field>
 		<Field column="STORE_BOUGHT">False</Field>
-		<Field column="CARD_BACK_ID" />
-		<Field column="DESCRIPTION">
+		<Field column="CARD_BACK_ID"></Field>
+		<Field column="DESCRIPTION" loc_ID="21111">
 			<enUS>He only feels at home in the wilderness with his beasts.  Super secret:  Misha is his favorite.</enUS>
 			<deDE>Wirklich wohl fühlt er sich nur in der Wildnis mit seinen Tieren. Pssst: Misha mag er am liebsten.</deDE>
 			<esES>Solo se siente cómodo en plena naturaleza con sus bestias. Un secreto: Misha es su favorita.</esES>
@@ -147,13 +156,15 @@
 			<zhTW>他只有和動物夥伴在野外的時候，才有回家的感覺。噓，他對米莎比較偏心！</zhTW>
 		</Field>
 		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_05</Field>
+		<Field column="STORE_TITLE"></Field>
+		<Field column="STORE_DESCRIPTION"></Field>
 	</Record>
 	<Record>
 		<Field column="ID">11</Field>
 		<Field column="CARD_ID">HERO_05a</Field>
 		<Field column="STORE_BOUGHT">True</Field>
 		<Field column="CARD_BACK_ID">25</Field>
-		<Field column="DESCRIPTION">
+		<Field column="DESCRIPTION" loc_ID="21118">
 			<enUS>The high elf Ranger Captain is a peerless archer. Ask any of the orcs she used for target practice.</enUS>
 			<deDE>Diese Elfenwaldläuferin ist eine beispiellose Bogenschützin. Fragt nur mal die Orcs, die für sie als Ziele herhalten mussten.</deDE>
 			<esES>La Capitán Forestal de los elfos nobles es una arquera sin par. Pregúntaselo a cualquiera de los orcos que utilizó para practicar.</esES>
@@ -167,7 +178,7 @@
 			<zhCN>高等精灵游侠将军，独步天下的神射手。死在她箭下的兽人士兵数不胜数。</zhCN>
 			<zhTW>這位高等精靈遊俠隊長是舉世無雙的神射手，不信的話，問問被她拿來當靶的獸人就知道了。</zhTW>
 		</Field>
-		<Field column="STORE_DESCRIPTION">
+		<Field column="STORE_DESCRIPTION" loc_ID="21119">
 			<enUS>Ranger Alleria comes with an animated portrait, new visual effects, emotes and adds a new card back to your collection! \n\nAlleria uses your existing hunter cards and the standard hunter hero power.</enUS>
 			<deDE>Die Waldläuferin Alleria bietet ein animiertes Porträt, angepasste visuelle Effekte, neue Emotes und einen brandneuen Kartenrücken!\n\nAlleria kämpft mit Jägerkarten und der Standard-Heldenfähigkeit des Jägers.</deDE>
 			<esES>La forestal Alleria viene con un retrato animado, nuevos efectos visuales y frases, ¡y añade un nuevo dorso de carta a tu colección!\n\nAlleria utiliza tus cartas de cazador y el poder de héroe de cazador normal.</esES>
@@ -182,13 +193,14 @@
 			<zhTW>遊俠艾蘭里亞擁有獨特的動態頭像，新的視覺效果和表情語音，並且還會增加一張全新的卡背到你的收藏！\n\n艾蘭里亞可以使用你擁有的獵人卡片，以及獵人的英雄能力。</zhTW>
 		</Field>
 		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_05a</Field>
+		<Field column="STORE_TITLE"></Field>
 	</Record>
 	<Record>
 		<Field column="ID">6</Field>
 		<Field column="CARD_ID">HERO_06</Field>
 		<Field column="STORE_BOUGHT">False</Field>
-		<Field column="CARD_BACK_ID" />
-		<Field column="DESCRIPTION">
+		<Field column="CARD_BACK_ID"></Field>
+		<Field column="DESCRIPTION" loc_ID="21112">
 			<enUS>The lord of the night elves is a wise and noble leader.  Yes, those antlers are real.</enUS>
 			<deDE>Der Herr der Nachtelfen ist ein weiser und edelmütiger Anführer. Und ja, das Geweih ist echt.</deDE>
 			<esES>El señor de los elfos de la noche es un líder sabio y noble, y sí, esa cornamenta es de verdad.</esES>
@@ -203,13 +215,15 @@
 			<zhTW>夜精靈的首領是真正高尚又充滿智慧的領導者，而且那對鹿角也是真的。</zhTW>
 		</Field>
 		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_06</Field>
+		<Field column="STORE_TITLE"></Field>
+		<Field column="STORE_DESCRIPTION"></Field>
 	</Record>
 	<Record>
 		<Field column="ID">7</Field>
 		<Field column="CARD_ID">HERO_07</Field>
 		<Field column="STORE_BOUGHT">False</Field>
-		<Field column="CARD_BACK_ID" />
-		<Field column="DESCRIPTION">
+		<Field column="CARD_BACK_ID"></Field>
+		<Field column="DESCRIPTION" loc_ID="21113">
 			<enUS>Talented, persuasive and hard-working.  Too bad he wants to feed your soul to demons.</enUS>
 			<deDE>Talentiert, zielorientiert und sehr überzeugend. Wenn Ihr Euch mit ihm einlasst, solltet Ihr Eure Seele gut im Auge behalten.</deDE>
 			<esES>Con talento, persuasivo y trabajador. Es una pena que quiera alimentar a los demonios con tu alma.</esES>
@@ -224,13 +238,15 @@
 			<zhTW>天資聰穎、辯才無礙、又奮發向上，可惜他的目標是把你的靈魂獻給惡魔。</zhTW>
 		</Field>
 		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_07</Field>
+		<Field column="STORE_TITLE"></Field>
+		<Field column="STORE_DESCRIPTION"></Field>
 	</Record>
 	<Record>
 		<Field column="ID">8</Field>
 		<Field column="CARD_ID">HERO_08</Field>
 		<Field column="STORE_BOUGHT">False</Field>
-		<Field column="CARD_BACK_ID" />
-		<Field column="DESCRIPTION">
+		<Field column="CARD_BACK_ID"></Field>
+		<Field column="DESCRIPTION" loc_ID="21114">
 			<enUS>The Kirin Tor’s leader is a powerful sorceress.  She used to be a lot nicer before the Theramore thing.</enUS>
 			<deDE>Mächtige Magierin und Anführerin der Kirin Tor. Sie hat seit dem „Theramore-Vorfall“ leichte Aggressionsprobleme.</deDE>
 			<esES>La líder del Kirin Tor es una poderosa hechicera, aunque solía ser mucho más simpática antes de todo ese asunto de Theramore.</esES>
@@ -245,13 +261,15 @@
 			<zhTW>祈倫托首領是位強大的法師，她在塞拉摩那些事發生之前，是個相當和善的人。</zhTW>
 		</Field>
 		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_08</Field>
+		<Field column="STORE_TITLE"></Field>
+		<Field column="STORE_DESCRIPTION"></Field>
 	</Record>
 	<Record>
 		<Field column="ID">12</Field>
 		<Field column="CARD_ID">HERO_08a</Field>
 		<Field column="STORE_BOUGHT">True</Field>
 		<Field column="CARD_BACK_ID">27</Field>
-		<Field column="DESCRIPTION">
+		<Field column="DESCRIPTION" loc_ID="21120">
 			<enUS>The Guardian of Tirisfal is a force for good.  Demonic possession is a manageable condition.</enUS>
 			<deDE>Der Wächter von Tirisfal ist ein Kämpfer für das Gute! Dass er von einem gefallenen Titanen besessen ist, beeinflusst ihn kein bisschen.</deDE>
 			<esES>El guardián de Tirisfal es una fuerza del bien. La posesión demoníaca es una condición manejable.</esES>
@@ -265,7 +283,7 @@
 			<zhCN>肩上担负的是守护提瑞斯法议会的重任，心中潜伏的是毁灭艾泽拉斯的恶魔。</zhCN>
 			<zhTW>提里斯法守護者就是一股善的力量，就算有惡魔附身也不成問題。</zhTW>
 		</Field>
-		<Field column="STORE_DESCRIPTION">
+		<Field column="STORE_DESCRIPTION" loc_ID="21121">
 			<enUS>Guardian Medivh comes with an animated portrait, new visual effects, emotes and adds a new card back to your collection!\n\nMedivh uses your existing mage cards and the standard mage hero power.</enUS>
 			<deDE>Der Wächter Medivh bietet ein animiertes Porträt, angepasste visuelle Effekte, neue Emotes und einen brandneuen Kartenrücken!\n\nMedivh kämpft mit Magierkarten und der Standard-Heldenfähigkeit des Magiers.</deDE>
 			<esES>El guardián Medivh viene con un retrato animado, nuevos efectos visuales y frases, ¡y añade un nuevo dorso de carta a tu colección!\n\nMedivh utiliza tus cartas de mago y el poder de héroe de mago normal.</esES>
@@ -280,13 +298,14 @@
 			<zhTW>守護者麥迪文擁有獨特的動態頭像，新的視覺效果和表情語音，並且還會增加一張全新的卡背到你的收藏！\n\n麥迪文可以使用你擁有的法師卡片，以及法師的英雄能力。</zhTW>
 		</Field>
 		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_08a</Field>
+		<Field column="STORE_TITLE"></Field>
 	</Record>
 	<Record>
 		<Field column="ID">9</Field>
 		<Field column="CARD_ID">HERO_09</Field>
 		<Field column="STORE_BOUGHT">False</Field>
-		<Field column="CARD_BACK_ID" />
-		<Field column="DESCRIPTION">
+		<Field column="CARD_BACK_ID"></Field>
+		<Field column="DESCRIPTION" loc_ID="21115">
 			<enUS>The future King of Stormwind is a kind, gentle soul.  Except when he’s in Shadowform.</enUS>
 			<deDE>Der zukünftige König Sturmwinds ist ein guter Junge ... in Schattengestalt manchmal aber sehr unartig.</deDE>
 			<esES>El futuro Rey de Ventormenta es un alma noble y gentil. Excepto cuando está en Forma de las Sombras.</esES>
@@ -301,5 +320,7 @@
 			<zhTW>暴風城未來的國王有著善良和溫柔的靈魂，但在暗影型態的時候除外。</zhTW>
 		</Field>
 		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_09</Field>
+		<Field column="STORE_TITLE"></Field>
+		<Field column="STORE_DESCRIPTION"></Field>
 	</Record>
 </Dbf>
