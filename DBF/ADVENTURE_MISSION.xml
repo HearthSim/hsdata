@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Dbf name="ADVENTURE_MISSION">
+	<SourceFingerprint>orpuWmgpSe/XNEw55NS7dExLe1Q=</SourceFingerprint>
 	<Column name="ID" type="Int" />
 	<Column name="SCENARIO_ID" type="Int" />
 	<Column name="NOTE_DESC" type="String" />
 	<Column name="REQ_WING_ID" type="Int" />
 	<Column name="REQ_PROGRESS" type="Int" />
-	<Column name="REQ_FLAGS" type="ULong" />
 	<Column name="GRANTS_WING_ID" type="Int" />
 	<Column name="GRANTS_PROGRESS" type="Int" />
+	<Column name="REQ_FLAGS" type="ULong" />
 	<Column name="GRANTS_FLAGS" type="ULong" />
 	<Column name="BOSS_DEF_ASSET_PATH" type="AssetPath" />
 	<Column name="CLASS_CHALLENGE_PREFAB_POPUP" type="AssetPath" />
@@ -17,12 +18,12 @@
 		<Field column="NOTE_DESC">Naxx (Arachnid): Anub'Rekhan</Field>
 		<Field column="REQ_WING_ID">1</Field>
 		<Field column="REQ_PROGRESS">1</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">1</Field>
 		<Field column="GRANTS_PROGRESS">2</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">0</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossFP1_01</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">2</Field>
@@ -30,12 +31,12 @@
 		<Field column="NOTE_DESC">Naxx (Arachnid): Faerlina</Field>
 		<Field column="REQ_WING_ID">1</Field>
 		<Field column="REQ_PROGRESS">2</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">1</Field>
 		<Field column="GRANTS_PROGRESS">3</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">0</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossFP1_02</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">3</Field>
@@ -43,12 +44,12 @@
 		<Field column="NOTE_DESC">Naxx (Arachnid): Maexxna</Field>
 		<Field column="REQ_WING_ID">1</Field>
 		<Field column="REQ_PROGRESS">3</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">1</Field>
 		<Field column="GRANTS_PROGRESS">4</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">0</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossFP1_03</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">4</Field>
@@ -56,11 +57,11 @@
 		<Field column="NOTE_DESC">Naxx (Arachnid): Rogue vs Maexxna</Field>
 		<Field column="REQ_WING_ID">1</Field>
 		<Field column="REQ_PROGRESS">4</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">1</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">512</Field>
-		<Field column="BOSS_DEF_ASSET_PATH"></Field>
+		<Field column="BOSS_DEF_ASSET_PATH" />
 		<Field column="CLASS_CHALLENGE_PREFAB_POPUP">Assets/Game/GameObjects/ClassChallengeUnlockFrame_Rogue</Field>
 	</Record>
 	<Record>
@@ -69,11 +70,11 @@
 		<Field column="NOTE_DESC">Naxx (Arachnid): Druid vs Faerlina</Field>
 		<Field column="REQ_WING_ID">1</Field>
 		<Field column="REQ_PROGRESS">4</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">1</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">256</Field>
-		<Field column="BOSS_DEF_ASSET_PATH"></Field>
+		<Field column="BOSS_DEF_ASSET_PATH" />
 		<Field column="CLASS_CHALLENGE_PREFAB_POPUP">Assets/Game/GameObjects/ClassChallengeUnlockFrame_Druid</Field>
 	</Record>
 	<Record>
@@ -82,12 +83,12 @@
 		<Field column="NOTE_DESC">Naxx (Plague): Noth</Field>
 		<Field column="REQ_WING_ID">2</Field>
 		<Field column="REQ_PROGRESS">1</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">2</Field>
 		<Field column="GRANTS_PROGRESS">2</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">0</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossFP1_04</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">7</Field>
@@ -95,12 +96,12 @@
 		<Field column="NOTE_DESC">Naxx (Plague): Heigan</Field>
 		<Field column="REQ_WING_ID">2</Field>
 		<Field column="REQ_PROGRESS">2</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">2</Field>
 		<Field column="GRANTS_PROGRESS">3</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">0</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossFP1_05</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">8</Field>
@@ -108,12 +109,12 @@
 		<Field column="NOTE_DESC">Naxx (Plague): Loatheb</Field>
 		<Field column="REQ_WING_ID">2</Field>
 		<Field column="REQ_PROGRESS">3</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">2</Field>
 		<Field column="GRANTS_PROGRESS">4</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">0</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossFP1_06</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">9</Field>
@@ -121,11 +122,11 @@
 		<Field column="NOTE_DESC">Naxx (Plague): Mage vs Heigan</Field>
 		<Field column="REQ_WING_ID">2</Field>
 		<Field column="REQ_PROGRESS">4</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">2</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">256</Field>
-		<Field column="BOSS_DEF_ASSET_PATH"></Field>
+		<Field column="BOSS_DEF_ASSET_PATH" />
 		<Field column="CLASS_CHALLENGE_PREFAB_POPUP">Assets/Game/GameObjects/ClassChallengeUnlockFrame_Mage</Field>
 	</Record>
 	<Record>
@@ -134,11 +135,11 @@
 		<Field column="NOTE_DESC">Naxx (Plague): Hunter vs Loatheb</Field>
 		<Field column="REQ_WING_ID">2</Field>
 		<Field column="REQ_PROGRESS">4</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">2</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">512</Field>
-		<Field column="BOSS_DEF_ASSET_PATH"></Field>
+		<Field column="BOSS_DEF_ASSET_PATH" />
 		<Field column="CLASS_CHALLENGE_PREFAB_POPUP">Assets/Game/GameObjects/ClassChallengeUnlockFrame_Hunter</Field>
 	</Record>
 	<Record>
@@ -147,12 +148,12 @@
 		<Field column="NOTE_DESC">Naxx (Military): Razuvious</Field>
 		<Field column="REQ_WING_ID">3</Field>
 		<Field column="REQ_PROGRESS">1</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">3</Field>
 		<Field column="GRANTS_PROGRESS">2</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">0</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossFP1_07</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">12</Field>
@@ -160,12 +161,12 @@
 		<Field column="NOTE_DESC">Naxx (Military): Gothik</Field>
 		<Field column="REQ_WING_ID">3</Field>
 		<Field column="REQ_PROGRESS">2</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">3</Field>
 		<Field column="GRANTS_PROGRESS">3</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">0</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossFP1_08</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">13</Field>
@@ -173,12 +174,12 @@
 		<Field column="NOTE_DESC">Naxx (Military): Horsemen</Field>
 		<Field column="REQ_WING_ID">3</Field>
 		<Field column="REQ_PROGRESS">3</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">3</Field>
 		<Field column="GRANTS_PROGRESS">4</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">0</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossFP1_09</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">14</Field>
@@ -186,11 +187,11 @@
 		<Field column="NOTE_DESC">Naxx (Military): Shaman vs Gothik</Field>
 		<Field column="REQ_WING_ID">3</Field>
 		<Field column="REQ_PROGRESS">4</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">3</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">256</Field>
-		<Field column="BOSS_DEF_ASSET_PATH"></Field>
+		<Field column="BOSS_DEF_ASSET_PATH" />
 		<Field column="CLASS_CHALLENGE_PREFAB_POPUP">Assets/Game/GameObjects/ClassChallengeUnlockFrame_Shaman</Field>
 	</Record>
 	<Record>
@@ -199,11 +200,11 @@
 		<Field column="NOTE_DESC">Naxx (Military): Warlock vs Horsemen</Field>
 		<Field column="REQ_WING_ID">3</Field>
 		<Field column="REQ_PROGRESS">4</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">3</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">512</Field>
-		<Field column="BOSS_DEF_ASSET_PATH"></Field>
+		<Field column="BOSS_DEF_ASSET_PATH" />
 		<Field column="CLASS_CHALLENGE_PREFAB_POPUP">Assets/Game/GameObjects/ClassChallengeUnlockFrame_Warlock</Field>
 	</Record>
 	<Record>
@@ -212,12 +213,12 @@
 		<Field column="NOTE_DESC">Naxx (Construct): Patchwerk</Field>
 		<Field column="REQ_WING_ID">4</Field>
 		<Field column="REQ_PROGRESS">1</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">4</Field>
 		<Field column="GRANTS_PROGRESS">2</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">0</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossFP1_10</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">17</Field>
@@ -225,12 +226,12 @@
 		<Field column="NOTE_DESC">Naxx (Construct): Grobbulus</Field>
 		<Field column="REQ_WING_ID">4</Field>
 		<Field column="REQ_PROGRESS">2</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">4</Field>
 		<Field column="GRANTS_PROGRESS">3</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">0</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossFP1_11</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">18</Field>
@@ -238,12 +239,12 @@
 		<Field column="NOTE_DESC">Naxx (Construct): Gluth</Field>
 		<Field column="REQ_WING_ID">4</Field>
 		<Field column="REQ_PROGRESS">3</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">4</Field>
 		<Field column="GRANTS_PROGRESS">4</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">0</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossFP1_12</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">19</Field>
@@ -251,12 +252,12 @@
 		<Field column="NOTE_DESC">Naxx (Construct): Thaddius</Field>
 		<Field column="REQ_WING_ID">4</Field>
 		<Field column="REQ_PROGRESS">4</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">4</Field>
 		<Field column="GRANTS_PROGRESS">5</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">0</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossFP1_13</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">20</Field>
@@ -264,11 +265,11 @@
 		<Field column="NOTE_DESC">Naxx (Construct): Priest vs Thaddius</Field>
 		<Field column="REQ_WING_ID">4</Field>
 		<Field column="REQ_PROGRESS">5</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">4</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">512</Field>
-		<Field column="BOSS_DEF_ASSET_PATH"></Field>
+		<Field column="BOSS_DEF_ASSET_PATH" />
 		<Field column="CLASS_CHALLENGE_PREFAB_POPUP">Assets/Game/GameObjects/ClassChallengeUnlockFrame_Priest</Field>
 	</Record>
 	<Record>
@@ -277,11 +278,11 @@
 		<Field column="NOTE_DESC">Naxx (Construct): Warrior vs Grobbulus</Field>
 		<Field column="REQ_WING_ID">4</Field>
 		<Field column="REQ_PROGRESS">5</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">4</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">256</Field>
-		<Field column="BOSS_DEF_ASSET_PATH"></Field>
+		<Field column="BOSS_DEF_ASSET_PATH" />
 		<Field column="CLASS_CHALLENGE_PREFAB_POPUP">Assets/Game/GameObjects/ClassChallengeUnlockFrame_Warrior</Field>
 	</Record>
 	<Record>
@@ -290,12 +291,12 @@
 		<Field column="NOTE_DESC">Naxx (Frostwyrm): Sapphiron</Field>
 		<Field column="REQ_WING_ID">5</Field>
 		<Field column="REQ_PROGRESS">1</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">5</Field>
 		<Field column="GRANTS_PROGRESS">2</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">0</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossFP1_14</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">23</Field>
@@ -303,12 +304,12 @@
 		<Field column="NOTE_DESC">Naxx (Frostwyrm): Kel'Thuzad</Field>
 		<Field column="REQ_WING_ID">5</Field>
 		<Field column="REQ_PROGRESS">2</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">5</Field>
 		<Field column="GRANTS_PROGRESS">3</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">0</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossFP1_15</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">24</Field>
@@ -316,11 +317,11 @@
 		<Field column="NOTE_DESC">Naxx (Frostwyrm): Paladin vs Kel'Thuzad</Field>
 		<Field column="REQ_WING_ID">5</Field>
 		<Field column="REQ_PROGRESS">3</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">5</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">256</Field>
-		<Field column="BOSS_DEF_ASSET_PATH"></Field>
+		<Field column="BOSS_DEF_ASSET_PATH" />
 		<Field column="CLASS_CHALLENGE_PREFAB_POPUP">Assets/Game/GameObjects/ClassChallengeUnlockFrame_Paladin</Field>
 	</Record>
 	<Record>
@@ -329,12 +330,12 @@
 		<Field column="NOTE_DESC">Naxx (Arachnid): Heroic Anub'Rekhan</Field>
 		<Field column="REQ_WING_ID">1</Field>
 		<Field column="REQ_PROGRESS">4</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">1</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">2</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossFP1_01</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">26</Field>
@@ -342,12 +343,12 @@
 		<Field column="NOTE_DESC">Naxx (Arachnid): Heroic Faerlina</Field>
 		<Field column="REQ_WING_ID">1</Field>
 		<Field column="REQ_PROGRESS">4</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">1</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">4</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossFP1_02</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">27</Field>
@@ -355,12 +356,12 @@
 		<Field column="NOTE_DESC">Naxx (Arachnid): Heroic Maexxna</Field>
 		<Field column="REQ_WING_ID">1</Field>
 		<Field column="REQ_PROGRESS">4</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">1</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">8</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossFP1_03</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">28</Field>
@@ -368,12 +369,12 @@
 		<Field column="NOTE_DESC">Naxx (Plague): Heroic Noth</Field>
 		<Field column="REQ_WING_ID">2</Field>
 		<Field column="REQ_PROGRESS">4</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">2</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">2</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossFP1_04</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">29</Field>
@@ -381,12 +382,12 @@
 		<Field column="NOTE_DESC">Naxx (Plague): Heroic Heigan</Field>
 		<Field column="REQ_WING_ID">2</Field>
 		<Field column="REQ_PROGRESS">4</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">2</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">4</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossFP1_05</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">30</Field>
@@ -394,12 +395,12 @@
 		<Field column="NOTE_DESC">Naxx (Plague): Heroic Loatheb</Field>
 		<Field column="REQ_WING_ID">2</Field>
 		<Field column="REQ_PROGRESS">4</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">2</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">8</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossFP1_06</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">31</Field>
@@ -407,12 +408,12 @@
 		<Field column="NOTE_DESC">Naxx (Military): Heroic Razuvious</Field>
 		<Field column="REQ_WING_ID">3</Field>
 		<Field column="REQ_PROGRESS">4</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">3</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">2</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossFP1_07</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">32</Field>
@@ -420,12 +421,12 @@
 		<Field column="NOTE_DESC">Naxx (Military): Heroic Gothik</Field>
 		<Field column="REQ_WING_ID">3</Field>
 		<Field column="REQ_PROGRESS">4</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">3</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">4</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossFP1_08</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">33</Field>
@@ -433,12 +434,12 @@
 		<Field column="NOTE_DESC">Naxx (Military): Heroic Horsemen</Field>
 		<Field column="REQ_WING_ID">3</Field>
 		<Field column="REQ_PROGRESS">4</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">3</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">8</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossFP1_09</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">34</Field>
@@ -446,12 +447,12 @@
 		<Field column="NOTE_DESC">Naxx (Construct): Heroic Patchwerk</Field>
 		<Field column="REQ_WING_ID">4</Field>
 		<Field column="REQ_PROGRESS">5</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">4</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">2</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossFP1_10</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">35</Field>
@@ -459,12 +460,12 @@
 		<Field column="NOTE_DESC">Naxx (Construct): Heroic Grobbulus</Field>
 		<Field column="REQ_WING_ID">4</Field>
 		<Field column="REQ_PROGRESS">5</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">4</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">4</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossFP1_11</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">36</Field>
@@ -472,12 +473,12 @@
 		<Field column="NOTE_DESC">Naxx (Construct): Heroic Gluth</Field>
 		<Field column="REQ_WING_ID">4</Field>
 		<Field column="REQ_PROGRESS">5</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">4</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">8</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossFP1_12</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">37</Field>
@@ -485,12 +486,12 @@
 		<Field column="NOTE_DESC">Naxx (Construct): Heroic Thaddius</Field>
 		<Field column="REQ_WING_ID">4</Field>
 		<Field column="REQ_PROGRESS">5</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">4</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">16</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossFP1_13</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">38</Field>
@@ -498,12 +499,12 @@
 		<Field column="NOTE_DESC">Naxx (Frostwyrm): Heroic Sapphiron</Field>
 		<Field column="REQ_WING_ID">5</Field>
 		<Field column="REQ_PROGRESS">3</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">5</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">2</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossFP1_14</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">39</Field>
@@ -511,12 +512,12 @@
 		<Field column="NOTE_DESC">Naxx (Frostwyrm): Heroic Kel'Thuzad</Field>
 		<Field column="REQ_WING_ID">5</Field>
 		<Field column="REQ_PROGRESS">3</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">5</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">4</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossFP1_15</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">40</Field>
@@ -524,12 +525,12 @@
 		<Field column="NOTE_DESC">BRM (Blackrock Depths): Grim Guzzler</Field>
 		<Field column="REQ_WING_ID">6</Field>
 		<Field column="REQ_PROGRESS">1</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">6</Field>
 		<Field column="GRANTS_PROGRESS">2</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">0</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossBRM_01</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">41</Field>
@@ -537,12 +538,12 @@
 		<Field column="NOTE_DESC">BRM (Blackrock Depths): Dark Iron Arena</Field>
 		<Field column="REQ_WING_ID">6</Field>
 		<Field column="REQ_PROGRESS">2</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">6</Field>
 		<Field column="GRANTS_PROGRESS">3</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">0</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossBRM_02</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">42</Field>
@@ -550,12 +551,12 @@
 		<Field column="NOTE_DESC">BRM (Blackrock Depths): Thaurissan</Field>
 		<Field column="REQ_WING_ID">6</Field>
 		<Field column="REQ_PROGRESS">3</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">6</Field>
 		<Field column="GRANTS_PROGRESS">4</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">0</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossBRM_03</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">43</Field>
@@ -563,12 +564,12 @@
 		<Field column="NOTE_DESC">BRM (Blackrock Depths): Heroic Grim Guzzler</Field>
 		<Field column="REQ_WING_ID">6</Field>
 		<Field column="REQ_PROGRESS">4</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">6</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">2</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossBRM_01</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">44</Field>
@@ -576,12 +577,12 @@
 		<Field column="NOTE_DESC">BRM (Blackrock Depths): Heroic Dark Iron Arena</Field>
 		<Field column="REQ_WING_ID">6</Field>
 		<Field column="REQ_PROGRESS">4</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">6</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">4</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossBRM_02</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">45</Field>
@@ -589,12 +590,12 @@
 		<Field column="NOTE_DESC">BRM (Blackrock Depths): Heroic Thaurissan</Field>
 		<Field column="REQ_WING_ID">6</Field>
 		<Field column="REQ_PROGRESS">4</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">6</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">8</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossBRM_03</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">46</Field>
@@ -602,11 +603,11 @@
 		<Field column="NOTE_DESC">BRM (Blackrock Depths): Hunter vs The Grim Guzzler</Field>
 		<Field column="REQ_WING_ID">6</Field>
 		<Field column="REQ_PROGRESS">4</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">6</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">256</Field>
-		<Field column="BOSS_DEF_ASSET_PATH"></Field>
+		<Field column="BOSS_DEF_ASSET_PATH" />
 		<Field column="CLASS_CHALLENGE_PREFAB_POPUP">Assets/Game/GameObjects/ClassChallengeUnlockFrame_Hunter</Field>
 	</Record>
 	<Record>
@@ -615,11 +616,11 @@
 		<Field column="NOTE_DESC">BRM (Blackrock Depths): Mage vs Dark Iron Arena</Field>
 		<Field column="REQ_WING_ID">6</Field>
 		<Field column="REQ_PROGRESS">4</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">6</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">512</Field>
-		<Field column="BOSS_DEF_ASSET_PATH"></Field>
+		<Field column="BOSS_DEF_ASSET_PATH" />
 		<Field column="CLASS_CHALLENGE_PREFAB_POPUP">Assets/Game/GameObjects/ClassChallengeUnlockFrame_Mage</Field>
 	</Record>
 	<Record>
@@ -628,12 +629,12 @@
 		<Field column="NOTE_DESC">BRM (Molten Core): Garr</Field>
 		<Field column="REQ_WING_ID">7</Field>
 		<Field column="REQ_PROGRESS">1</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">7</Field>
 		<Field column="GRANTS_PROGRESS">2</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">0</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossBRM_04</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">49</Field>
@@ -641,12 +642,12 @@
 		<Field column="NOTE_DESC">BRM (Molten Core): Geddon</Field>
 		<Field column="REQ_WING_ID">7</Field>
 		<Field column="REQ_PROGRESS">2</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">7</Field>
 		<Field column="GRANTS_PROGRESS">3</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">0</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossBRM_05</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">50</Field>
@@ -654,12 +655,12 @@
 		<Field column="NOTE_DESC">BRM (Molten Core): Majordomo</Field>
 		<Field column="REQ_WING_ID">7</Field>
 		<Field column="REQ_PROGRESS">3</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">7</Field>
 		<Field column="GRANTS_PROGRESS">4</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">0</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossBRM_06</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">51</Field>
@@ -667,12 +668,12 @@
 		<Field column="NOTE_DESC">BRM (Molten Core): Heroic Garr</Field>
 		<Field column="REQ_WING_ID">7</Field>
 		<Field column="REQ_PROGRESS">4</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">7</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">2</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossBRM_04</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">52</Field>
@@ -680,12 +681,12 @@
 		<Field column="NOTE_DESC">BRM (Molten Core): Heroic Geddon</Field>
 		<Field column="REQ_WING_ID">7</Field>
 		<Field column="REQ_PROGRESS">4</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">7</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">4</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossBRM_05</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">53</Field>
@@ -693,12 +694,12 @@
 		<Field column="NOTE_DESC">BRM (Molten Core): Heroic Majordomo</Field>
 		<Field column="REQ_WING_ID">7</Field>
 		<Field column="REQ_PROGRESS">4</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">7</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">8</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossBRM_06</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">54</Field>
@@ -706,11 +707,11 @@
 		<Field column="NOTE_DESC">BRM (Molten Core): Warrior vs Garr</Field>
 		<Field column="REQ_WING_ID">7</Field>
 		<Field column="REQ_PROGRESS">4</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">7</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">256</Field>
-		<Field column="BOSS_DEF_ASSET_PATH"></Field>
+		<Field column="BOSS_DEF_ASSET_PATH" />
 		<Field column="CLASS_CHALLENGE_PREFAB_POPUP">Assets/Game/GameObjects/ClassChallengeUnlockFrame_Warrior</Field>
 	</Record>
 	<Record>
@@ -719,11 +720,11 @@
 		<Field column="NOTE_DESC">BRM (Molten Core): Shaman vs Baron Geddon</Field>
 		<Field column="REQ_WING_ID">7</Field>
 		<Field column="REQ_PROGRESS">4</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">7</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">512</Field>
-		<Field column="BOSS_DEF_ASSET_PATH"></Field>
+		<Field column="BOSS_DEF_ASSET_PATH" />
 		<Field column="CLASS_CHALLENGE_PREFAB_POPUP">Assets/Game/GameObjects/ClassChallengeUnlockFrame_Shaman</Field>
 	</Record>
 	<Record>
@@ -732,12 +733,12 @@
 		<Field column="NOTE_DESC">BRM (Blackrock Spire): Omokk</Field>
 		<Field column="REQ_WING_ID">8</Field>
 		<Field column="REQ_PROGRESS">1</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">8</Field>
 		<Field column="GRANTS_PROGRESS">2</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">0</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossBRM_07</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">57</Field>
@@ -745,12 +746,12 @@
 		<Field column="NOTE_DESC">BRM (Blackrock Spire): Drakkisath</Field>
 		<Field column="REQ_WING_ID">8</Field>
 		<Field column="REQ_PROGRESS">2</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">8</Field>
 		<Field column="GRANTS_PROGRESS">3</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">0</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossBRM_08</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">58</Field>
@@ -758,12 +759,12 @@
 		<Field column="NOTE_DESC">BRM (Blackrock Spire): Rend</Field>
 		<Field column="REQ_WING_ID">8</Field>
 		<Field column="REQ_PROGRESS">3</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">8</Field>
 		<Field column="GRANTS_PROGRESS">4</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">0</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossBRM_09</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">59</Field>
@@ -771,12 +772,12 @@
 		<Field column="NOTE_DESC">BRM (Blackrock Spire): Heroic Omokk</Field>
 		<Field column="REQ_WING_ID">8</Field>
 		<Field column="REQ_PROGRESS">4</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">8</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">2</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossBRM_07</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">60</Field>
@@ -784,12 +785,12 @@
 		<Field column="NOTE_DESC">BRM (Blackrock Spire): Heroic Drakkisath</Field>
 		<Field column="REQ_WING_ID">8</Field>
 		<Field column="REQ_PROGRESS">4</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">8</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">4</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossBRM_08</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">61</Field>
@@ -797,12 +798,12 @@
 		<Field column="NOTE_DESC">BRM (Blackrock Spire): Heroic Rend</Field>
 		<Field column="REQ_WING_ID">8</Field>
 		<Field column="REQ_PROGRESS">4</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">8</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">8</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossBRM_09</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">62</Field>
@@ -810,11 +811,11 @@
 		<Field column="NOTE_DESC">BRM (Blackrock Spire): Priest vs Drakkisath</Field>
 		<Field column="REQ_WING_ID">8</Field>
 		<Field column="REQ_PROGRESS">4</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">8</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">256</Field>
-		<Field column="BOSS_DEF_ASSET_PATH"></Field>
+		<Field column="BOSS_DEF_ASSET_PATH" />
 		<Field column="CLASS_CHALLENGE_PREFAB_POPUP">Assets/Game/GameObjects/ClassChallengeUnlockFrame_Priest</Field>
 	</Record>
 	<Record>
@@ -823,11 +824,11 @@
 		<Field column="NOTE_DESC">BRM (Blackrock Spire): Druid vs Rend Blackhand</Field>
 		<Field column="REQ_WING_ID">8</Field>
 		<Field column="REQ_PROGRESS">4</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">8</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">512</Field>
-		<Field column="BOSS_DEF_ASSET_PATH"></Field>
+		<Field column="BOSS_DEF_ASSET_PATH" />
 		<Field column="CLASS_CHALLENGE_PREFAB_POPUP">Assets/Game/GameObjects/ClassChallengeUnlockFrame_Druid</Field>
 	</Record>
 	<Record>
@@ -836,12 +837,12 @@
 		<Field column="NOTE_DESC">BRM (Blackwing Lair): Razorgore</Field>
 		<Field column="REQ_WING_ID">9</Field>
 		<Field column="REQ_PROGRESS">1</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">9</Field>
 		<Field column="GRANTS_PROGRESS">2</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">0</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossBRM_10</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">65</Field>
@@ -849,12 +850,12 @@
 		<Field column="NOTE_DESC">BRM (Blackwing Lair): Vaelastrasz</Field>
 		<Field column="REQ_WING_ID">9</Field>
 		<Field column="REQ_PROGRESS">2</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">9</Field>
 		<Field column="GRANTS_PROGRESS">3</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">0</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossBRM_11</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">66</Field>
@@ -862,12 +863,12 @@
 		<Field column="NOTE_DESC">BRM (Blackwing Lair): Chromaggus</Field>
 		<Field column="REQ_WING_ID">9</Field>
 		<Field column="REQ_PROGRESS">3</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">9</Field>
 		<Field column="GRANTS_PROGRESS">4</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">0</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossBRM_12</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">67</Field>
@@ -875,12 +876,12 @@
 		<Field column="NOTE_DESC">BRM (Blackwing Lair): Nefarian</Field>
 		<Field column="REQ_WING_ID">9</Field>
 		<Field column="REQ_PROGRESS">4</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">9</Field>
 		<Field column="GRANTS_PROGRESS">5</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">0</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossBRM_13</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">68</Field>
@@ -888,12 +889,12 @@
 		<Field column="NOTE_DESC">BRM (Blackwing Lair): Heroic Razorgore</Field>
 		<Field column="REQ_WING_ID">9</Field>
 		<Field column="REQ_PROGRESS">5</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">9</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">2</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossBRM_10</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">69</Field>
@@ -901,12 +902,12 @@
 		<Field column="NOTE_DESC">BRM (Blackwing Lair): Heroic Vaelastrasz</Field>
 		<Field column="REQ_WING_ID">9</Field>
 		<Field column="REQ_PROGRESS">5</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">9</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">4</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossBRM_11</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">70</Field>
@@ -914,12 +915,12 @@
 		<Field column="NOTE_DESC">BRM (Blackwing Lair): Heroic Chromaggus</Field>
 		<Field column="REQ_WING_ID">9</Field>
 		<Field column="REQ_PROGRESS">5</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">9</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">8</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossBRM_12</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">71</Field>
@@ -927,12 +928,12 @@
 		<Field column="NOTE_DESC">BRM (Blackwing Lair): Heroic Nefarian</Field>
 		<Field column="REQ_WING_ID">9</Field>
 		<Field column="REQ_PROGRESS">5</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">9</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">16</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossBRM_13</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">72</Field>
@@ -940,11 +941,11 @@
 		<Field column="NOTE_DESC">BRM (Blackwing Lair): Rogue vs Vaelastrasz</Field>
 		<Field column="REQ_WING_ID">9</Field>
 		<Field column="REQ_PROGRESS">5</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">9</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">512</Field>
-		<Field column="BOSS_DEF_ASSET_PATH"></Field>
+		<Field column="BOSS_DEF_ASSET_PATH" />
 		<Field column="CLASS_CHALLENGE_PREFAB_POPUP">Assets/Game/GameObjects/ClassChallengeUnlockFrame_Rogue</Field>
 	</Record>
 	<Record>
@@ -953,11 +954,11 @@
 		<Field column="NOTE_DESC">BRM (Blackwing Lair): Warlock vs Razorgore</Field>
 		<Field column="REQ_WING_ID">9</Field>
 		<Field column="REQ_PROGRESS">5</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">9</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">256</Field>
-		<Field column="BOSS_DEF_ASSET_PATH"></Field>
+		<Field column="BOSS_DEF_ASSET_PATH" />
 		<Field column="CLASS_CHALLENGE_PREFAB_POPUP">Assets/Game/GameObjects/ClassChallengeUnlockFrame_Warlock</Field>
 	</Record>
 	<Record>
@@ -966,12 +967,12 @@
 		<Field column="NOTE_DESC">BRM (Hidden Laboratory): Omnotron</Field>
 		<Field column="REQ_WING_ID">10</Field>
 		<Field column="REQ_PROGRESS">1</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">10</Field>
 		<Field column="GRANTS_PROGRESS">2</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">0</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossBRM_14</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">75</Field>
@@ -979,12 +980,12 @@
 		<Field column="NOTE_DESC">BRM (Hidden Laboratory): Maloriak</Field>
 		<Field column="REQ_WING_ID">10</Field>
 		<Field column="REQ_PROGRESS">2</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">10</Field>
 		<Field column="GRANTS_PROGRESS">3</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">0</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossBRM_15</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">76</Field>
@@ -992,12 +993,12 @@
 		<Field column="NOTE_DESC">BRM (Hidden Laboratory): Atramedes</Field>
 		<Field column="REQ_WING_ID">10</Field>
 		<Field column="REQ_PROGRESS">3</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">10</Field>
 		<Field column="GRANTS_PROGRESS">4</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">0</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossBRM_16</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">77</Field>
@@ -1005,12 +1006,12 @@
 		<Field column="NOTE_DESC">BRM (Hidden Laboratory): Zombie Nefarian</Field>
 		<Field column="REQ_WING_ID">10</Field>
 		<Field column="REQ_PROGRESS">4</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">10</Field>
 		<Field column="GRANTS_PROGRESS">5</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">0</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossBRM_17</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">78</Field>
@@ -1018,12 +1019,12 @@
 		<Field column="NOTE_DESC">BRM (Hidden Laboratory): Heroic Omnotron</Field>
 		<Field column="REQ_WING_ID">10</Field>
 		<Field column="REQ_PROGRESS">5</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">10</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">2</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossBRM_14</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">79</Field>
@@ -1031,12 +1032,12 @@
 		<Field column="NOTE_DESC">BRM (Hidden Laboratory): Heroic Maloriak</Field>
 		<Field column="REQ_WING_ID">10</Field>
 		<Field column="REQ_PROGRESS">5</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">10</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">4</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossBRM_15</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">80</Field>
@@ -1044,12 +1045,12 @@
 		<Field column="NOTE_DESC">BRM (Hidden Laboratory): Heroic Atramedes</Field>
 		<Field column="REQ_WING_ID">10</Field>
 		<Field column="REQ_PROGRESS">5</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">10</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">8</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossBRM_16</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">81</Field>
@@ -1057,12 +1058,12 @@
 		<Field column="NOTE_DESC">BRM (Hidden Laboratory): Heroic Zombie Nefarian</Field>
 		<Field column="REQ_WING_ID">10</Field>
 		<Field column="REQ_PROGRESS">5</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">10</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">16</Field>
 		<Field column="BOSS_DEF_ASSET_PATH">Assets/Game/GameObjects/AdventureBossDefs/AdventureBossBRM_17</Field>
-		<Field column="CLASS_CHALLENGE_PREFAB_POPUP"></Field>
+		<Field column="CLASS_CHALLENGE_PREFAB_POPUP" />
 	</Record>
 	<Record>
 		<Field column="ID">82</Field>
@@ -1070,11 +1071,11 @@
 		<Field column="NOTE_DESC">BRM (Hidden Laboratory): Paladin vs Omnotron</Field>
 		<Field column="REQ_WING_ID">10</Field>
 		<Field column="REQ_PROGRESS">5</Field>
-		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_WING_ID">10</Field>
 		<Field column="GRANTS_PROGRESS">0</Field>
+		<Field column="REQ_FLAGS">1</Field>
 		<Field column="GRANTS_FLAGS">256</Field>
-		<Field column="BOSS_DEF_ASSET_PATH"></Field>
+		<Field column="BOSS_DEF_ASSET_PATH" />
 		<Field column="CLASS_CHALLENGE_PREFAB_POPUP">Assets/Game/GameObjects/ClassChallengeUnlockFrame_Paladin</Field>
 	</Record>
 </Dbf>

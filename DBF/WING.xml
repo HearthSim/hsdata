@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Dbf name="WING">
-	<Column name="ID" type="Int" comment="primary key" />
-	<Column name="NOTE_DESC" type="String" comment="designer note" />
-	<Column name="ADVENTURE_ID" type="Int" comment="ASSET.ADVENTURE.ID" />
-	<Column name="SORT_ORDER" type="Int" comment="sort order of this wing in its adventure" />
-	<Column name="REQUIRED_EVENT" type="String" comment="EVENT_TMING.EVENT that must have started before this wing can be played" />
-	<Column name="OWNERSHIP_PREREQ_WING_ID" type="Int" comment="Describes ANOTHER wing that needs to be owned before THIS wing can be bought." />
+	<SourceFingerprint>8rMI1Tq5CpYgl3iD7caYgVmNFnE=</SourceFingerprint>
+	<Column name="ID" type="Int" />
+	<Column name="NOTE_DESC" type="String" />
+	<Column name="ADVENTURE_ID" type="Int" />
+	<Column name="SORT_ORDER" type="Int" />
+	<Column name="REQUIRED_EVENT" type="String" />
+	<Column name="OWNERSHIP_PREREQ_WING_ID" type="Int" />
 	<Column name="NAME" type="LocString" />
 	<Column name="CLASS_CHALLENGE_REWARD_SOURCE" type="LocString" />
 	<Column name="UNLOCK_SPELL_PREFAB" type="AssetPath" />
@@ -24,6 +25,7 @@
 			<esMX>Arrabal Arácnido</esMX>
 			<frFR>Quartier des Arachnides</frFR>
 			<itIT>Ala degli Aracnidi</itIT>
+			<jaJP>蜘蛛区画</jaJP>
 			<koKR>거미 지구</koKR>
 			<plPL>Rewir Arachnidów</plPL>
 			<ptBR>Distrito dos Aracnídeos</ptBR>
@@ -38,6 +40,7 @@
 			<esMX>Si te atreves, también puedes adentrarte en el Arrabal Arácnido en modo heroico.</esMX>
 			<frFR>Vous pouvez aussi essayer le quartier des Arachnides en mode héroïque !</frFR>
 			<itIT>Ora puoi provare ad affrontare l'Ala degli Aracnidi in versione Eroica!</itIT>
+			<jaJP>超絶難度の蜘蛛区画（ヒロイック）にも挑戦できるぞ！</jaJP>
 			<koKR>영웅 난이도 거미 지구에도 도전해 보세요!</koKR>
 			<plPL>Możesz także spróbować swoich sił w masakrycznie trudnym Heroicznym Rewirze Arachnidów!</plPL>
 			<ptBR>Você também pode tentar o ridiculamente difícil modo Heroico do Distrito dos Aracnídeos!</ptBR>
@@ -62,6 +65,7 @@
 			<esMX>Arrabal de la Peste</esMX>
 			<frFR>Quartier de la Peste</frFR>
 			<itIT>Ala della Pestilenza</itIT>
+			<jaJP>疫病区画</jaJP>
 			<koKR>역병 지구</koKR>
 			<plPL>Rewir Zarazy</plPL>
 			<ptBR>Distrito da Peste</ptBR>
@@ -76,6 +80,7 @@
 			<esMX>Si te atreves, también puedes adentrarte en el Arrabal de la peste en modo heroico.</esMX>
 			<frFR>Vous pouvez aussi essayer le quartier de la Peste en mode héroïque !</frFR>
 			<itIT>Ora puoi provare ad affrontare l'Ala della Pestilenza in versione Eroica!</itIT>
+			<jaJP>超絶難度の疫病区画（ヒロイック）にも挑戦できるぞ！</jaJP>
 			<koKR>영웅 난이도 역병 지구에도 도전해 보세요!</koKR>
 			<plPL>Możesz także spróbować swoich sił w masakrycznie trudnym Heroicznym Rewirze Zarazy!</plPL>
 			<ptBR>Você também pode tentar o ridiculamente difícil modo Heroico do Distrito da Peste!</ptBR>
@@ -100,6 +105,7 @@
 			<esMX>Arrabal Militar</esMX>
 			<frFR>Quartier Militaire</frFR>
 			<itIT>Ala dei Combattenti</itIT>
+			<jaJP>軍隊区画</jaJP>
 			<koKR>군사 지구</koKR>
 			<plPL>Rewir Zbrojnych</plPL>
 			<ptBR>Distrito Militar</ptBR>
@@ -114,6 +120,7 @@
 			<esMX>Si te atreves, también puedes adentrarte en el Arrabal Militar en modo heroico.</esMX>
 			<frFR>Vous pouvez aussi essayer le quartier Militaire en mode héroïque !</frFR>
 			<itIT>Ora puoi provare ad affrontare l'Ala dei Combattenti in versione Eroica!</itIT>
+			<jaJP>超絶難度の軍隊区画（ヒロイック）にも挑戦できるぞ！</jaJP>
 			<koKR>영웅 난이도 군사 지구에도 도전해 보세요!</koKR>
 			<plPL>Możesz także spróbować swoich sił w masakrycznie trudnym Heroicznym Rewirze Zbrojnych!</plPL>
 			<ptBR>Você também pode tentar o ridiculamente difícil modo Heroico do Distrito Militar!</ptBR>
@@ -138,6 +145,7 @@
 			<esMX>Arrabal de los Ensamblajes</esMX>
 			<frFR>Quartier des Assemblages</frFR>
 			<itIT>Ala dei Costrutti</itIT>
+			<jaJP>人造区画</jaJP>
 			<koKR>피조물 지구</koKR>
 			<plPL>Rewir Konstruktów</plPL>
 			<ptBR>Distrito dos Constructos</ptBR>
@@ -152,6 +160,7 @@
 			<esMX>Si te atreves, también puedes adentrarte en el Arrabal de los Ensamblajes en modo heroico.</esMX>
 			<frFR>Vous pouvez aussi essayer le quartier des Assemblages en mode héroïque !</frFR>
 			<itIT>Ora puoi provare ad affrontare l'Ala dei Costrutti in versione Eroica!</itIT>
+			<jaJP>超絶難度の人造区画（ヒロイック）にも挑戦できるぞ！</jaJP>
 			<koKR>영웅 난이도 피조물 지구에도 도전해 보세요!</koKR>
 			<plPL>Możesz także spróbować swoich sił w masakrycznie trudnym Heroicznym Rewirze Konstruktów!</plPL>
 			<ptBR>Você também pode tentar o ridiculamente difícil modo Heroico do Distrito dos Constructos!</ptBR>
@@ -176,6 +185,7 @@
 			<esMX>Guarida de la Vermis</esMX>
 			<frFR>Antre du Wyrm de givre</frFR>
 			<itIT>Antro del Gelo</itIT>
+			<jaJP>フロストワームの巣</jaJP>
 			<koKR>서리고룡 둥지</koKR>
 			<plPL>Leże Żmija Mrozu</plPL>
 			<ptBR>Covil da Serpe Gélida</ptBR>
@@ -190,6 +200,7 @@
 			<esMX>Si te atreves, también puedes adentrarte en la Guarida de la Vermis en modo heroico.</esMX>
 			<frFR>Vous pouvez aussi essayer l’antre du Wyrm de givre en mode héroïque !</frFR>
 			<itIT>Ora puoi provare ad affrontare l'Antro del Gelo in versione Eroica!</itIT>
+			<jaJP>超絶難度のフロストワームの巣（ヒロイック）にも挑戦できるぞ！</jaJP>
 			<koKR>영웅 난이도 서리고룡 둥지에도 도전해 보세요!</koKR>
 			<plPL>Możesz także spróbować swoich sił w masakrycznie trudnym Heroicznym Leżu Żmija Mrozu!</plPL>
 			<ptBR>Você também pode tentar o ridiculamente difícil modo Heroico do Covil da Serpe Gélida!</ptBR>
@@ -214,6 +225,7 @@
 			<esMX>Profundidades de Roca Negra</esMX>
 			<frFR>Profondeurs de Rochenoire</frFR>
 			<itIT>Sotterranei di Roccianera</itIT>
+			<jaJP>ブラックロックの地下</jaJP>
 			<koKR>검은바위 나락</koKR>
 			<plPL>Otchłań Czarnej Góry</plPL>
 			<ptBR>Abismo Rocha Negra</ptBR>
@@ -228,6 +240,7 @@
 			<esMX>Si te atreves, también puedes adentrarte en las Profundidades de Roca Negra en modo heroico.</esMX>
 			<frFR>Vous pouvez aussi essayer les profondeurs de Rochenoire en mode héroïque !</frFR>
 			<itIT>Ora puoi provare ad affrontare i Sotterranei di Roccianera in versione Eroica!</itIT>
+			<jaJP>超絶難度のブラックロックの地下（ヒロイック）にも挑戦できるぞ！</jaJP>
 			<koKR>영웅 난이도 검은바위 나락에도 도전해 보세요!</koKR>
 			<plPL>Możesz także spróbować swoich sił w masakrycznie trudnej Heroicznej Otchłani Czarnej Góry!</plPL>
 			<ptBR>Você também pode tentar o ridiculamente difícil Abismo Rocha Negra Heroico!</ptBR>
@@ -235,8 +248,8 @@
 			<zhCN>你还能够尝试挑战极度困难的英雄难度黑石深渊！</zhCN>
 			<zhTW>你也可以試試看困難到會令人抓狂的英雄難度黑石深淵！</zhTW>
 		</Field>
+		<Field column="UNLOCK_SPELL_PREFAB" />
 		<Field column="ACCENT_PREFAB">Assets/Game/GameObjects/AdvTrayHeaderIcon_BRM_BlackrockDepths</Field>
-		<Field column="UNLOCK_SPELL_PREFAB"></Field>
 	</Record>
 	<Record>
 		<Field column="ID">7</Field>
@@ -252,6 +265,7 @@
 			<esMX>Núcleo de magma</esMX>
 			<frFR>Cœur du Magma</frFR>
 			<itIT>Nucleo Ardente</itIT>
+			<jaJP>モルテン・コア</jaJP>
 			<koKR>화산 심장부</koKR>
 			<plPL>Ognista Czeluść</plPL>
 			<ptBR>Núcleo Derretido</ptBR>
@@ -266,6 +280,7 @@
 			<esMX>Si te atreves, también puedes adentrarte en el Núcleo de magma en modo heroico.</esMX>
 			<frFR>Vous pouvez aussi essayer le cœur du Magma en mode héroïque !</frFR>
 			<itIT>Ora puoi provare ad affrontare il Nucleo Ardente in versione Eroica!</itIT>
+			<jaJP>超絶難度のモルテン・コア（ヒロイック）にも挑戦できるぞ！</jaJP>
 			<koKR>영웅 난이도 화산 심장부에도 도전해 보세요!</koKR>
 			<plPL>Możesz także spróbować swoich sił w masakrycznie trudnej Heroicznej Ognistej Czeluści!</plPL>
 			<ptBR>Você também pode tentar o ridiculamente difícil Núcleo Derretido Heroico!</ptBR>
@@ -273,8 +288,8 @@
 			<zhCN>你还能够尝试挑战极度困难的英雄难度熔火之心！</zhCN>
 			<zhTW>你也可以試試看困難到會令人抓狂的英雄難度熔火之心！</zhTW>
 		</Field>
+		<Field column="UNLOCK_SPELL_PREFAB" />
 		<Field column="ACCENT_PREFAB">Assets/Game/GameObjects/AdvTrayHeaderIcon_BRM_MoltenCore</Field>
-		<Field column="UNLOCK_SPELL_PREFAB"></Field>
 	</Record>
 	<Record>
 		<Field column="ID">8</Field>
@@ -290,6 +305,7 @@
 			<esMX>Cumbre de Roca Negra</esMX>
 			<frFR>Pic Rochenoire</frFR>
 			<itIT>Bastioni di Roccianera</itIT>
+			<jaJP>ブラックロック山</jaJP>
 			<koKR>검은바위 첨탑</koKR>
 			<plPL>Iglica Czarnej Góry</plPL>
 			<ptBR>Pico da Rocha Negra</ptBR>
@@ -304,6 +320,7 @@
 			<esMX>Si te atreves, también puedes adentrarte en la Cumbre de Roca Negra en modo heroico.</esMX>
 			<frFR>Vous pouvez aussi essayer le pic Rochenoire en mode héroïque !</frFR>
 			<itIT>Ora puoi provare ad affrontare i Bastioni di Roccianera in versione Eroica!</itIT>
+			<jaJP>超絶難度のブラックロック山（ヒロイック）にも挑戦できるぞ</jaJP>
 			<koKR>영웅 난이도 검은바위 첨탑에도 도전해 보세요!</koKR>
 			<plPL>Możesz także spróbować swoich sił w masakrycznie trudnej Heroicznej Iglicy Czarnej Góry!</plPL>
 			<ptBR>Você também pode tentar o ridiculamente difícil Pico da Rocha Negra Heroico!</ptBR>
@@ -311,8 +328,8 @@
 			<zhCN>你还能够尝试挑战极度困难的英雄难度黑石塔！</zhCN>
 			<zhTW>你也可以試試看困難到會令人抓狂的英雄難度黑石塔！</zhTW>
 		</Field>
+		<Field column="UNLOCK_SPELL_PREFAB" />
 		<Field column="ACCENT_PREFAB">Assets/Game/GameObjects/AdvTrayHeaderIcon_BRM_BlackrockSpire</Field>
-		<Field column="UNLOCK_SPELL_PREFAB"></Field>
 	</Record>
 	<Record>
 		<Field column="ID">9</Field>
@@ -328,6 +345,7 @@
 			<esMX>Guarida de Alanegra</esMX>
 			<frFR>Repaire de l’Aile noire</frFR>
 			<itIT>Fortezza dell'Ala Nera</itIT>
+			<jaJP>ブラックウィングの巣</jaJP>
 			<koKR>검은날개 둥지</koKR>
 			<plPL>Leże Czarnoskrzydłego</plPL>
 			<ptBR>Covil Asa Negra</ptBR>
@@ -342,6 +360,7 @@
 			<esMX>Si te atreves, también puedes adentrarte en la Guarida de Alanegra en modo heroico.</esMX>
 			<frFR>Vous pouvez aussi essayer le repaire de l'Aile noire en mode héroïque !</frFR>
 			<itIT>Ora puoi provare ad affrontare la Fortezza dell'Ala Nera in versione Eroica!</itIT>
+			<jaJP>超絶難度のブラックウィングの巣（ヒロイック）にも挑戦できるぞ！</jaJP>
 			<koKR>영웅 난이도 검은날개 둥지에도 도전해 보세요!</koKR>
 			<plPL>Możesz także spróbować swoich sił w masakrycznie trudnym Heroicznym Leżu Czarnoskrzydłego!</plPL>
 			<ptBR>Você também pode tentar o ridiculamente difícil Covil Asa Negra Heroico!</ptBR>
@@ -349,8 +368,8 @@
 			<zhCN>你还能够尝试挑战极度困难的英雄难度黑翼之巢！</zhCN>
 			<zhTW>你也可以試試看困難到會令人抓狂的英雄難度黑翼之巢！</zhTW>
 		</Field>
+		<Field column="UNLOCK_SPELL_PREFAB" />
 		<Field column="ACCENT_PREFAB">Assets/Game/GameObjects/AdvTrayHeaderIcon_BRM_BlackwingLair</Field>
-		<Field column="UNLOCK_SPELL_PREFAB"></Field>
 	</Record>
 	<Record>
 		<Field column="ID">10</Field>
@@ -366,6 +385,7 @@
 			<esMX>Laboratorio oculto</esMX>
 			<frFR>Laboratoire secret</frFR>
 			<itIT>Laboratorio Segreto</itIT>
+			<jaJP>秘密の研究室</jaJP>
 			<koKR>숨겨진 연구실</koKR>
 			<plPL>Ukryte Laboratorium</plPL>
 			<ptBR>O Laboratório Oculto</ptBR>
@@ -380,6 +400,7 @@
 			<esMX>Si te atreves, también puedes adentrarte en el Laboratorio oculto en modo heroico.</esMX>
 			<frFR>Vous pouvez aussi essayer le laboratoire secret en mode héroïque !</frFR>
 			<itIT>Ora puoi provare ad affrontare il Laboratorio Segreto in versione Eroica!</itIT>
+			<jaJP>超絶難度の秘密の研究室（ヒロイック）にも挑戦できるぞ！</jaJP>
 			<koKR>영웅 난이도 숨겨진 연구실에도 도전해 보세요!</koKR>
 			<plPL>Możesz także spróbować swoich sił w masakrycznie trudnym Heroicznym Ukrytym Laboratorium!</plPL>
 			<ptBR>Você também pode tentar o ridiculamente difícil Laboratório Oculto Heroico!</ptBR>
@@ -387,7 +408,7 @@
 			<zhCN>你还能够尝试挑战极度困难的英雄难度秘密实验室！</zhCN>
 			<zhTW>你也可以試試看困難到會令人抓狂的英雄難度隱藏的實驗室！</zhTW>
 		</Field>
+		<Field column="UNLOCK_SPELL_PREFAB" />
 		<Field column="ACCENT_PREFAB">Assets/Game/GameObjects/AdvTrayHeaderIcon_BRM_HiddenLaboratory</Field>
-		<Field column="UNLOCK_SPELL_PREFAB"></Field>
 	</Record>
 </Dbf>

@@ -1,16 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Dbf name="BANNER">
-	<Column name="ID" type="Int" comment="primary key" />
-	<Column name="UNIQUE_ID" type="Int" comment="primary key" />
-	<Column name="NOTE_DESC" type="String" comment="designer note" />
-	<Column name="PREVIOUS_BANNER_ID" type="Int" comment="BANNER.ID that the player must have seen before we can show this banner. 0 means no requirement." />
-	<Column name="PREFAB" type="AssetPath" comment="The prefab associated with this banner" />
+	<SourceFingerprint>CVCUIdgF9hamYU0qgzXeeetr5V8=</SourceFingerprint>
+	<Column name="UNIQUE_ID" type="Int" />
+	<Column name="ID" type="Int" />
+	<Column name="NOTE_DESC" type="String" />
+	<Column name="PREVIOUS_BANNER_ID" type="Int" />
 	<Column name="TEXT" type="LocString" />
+	<Column name="PREFAB" type="AssetPath" />
 	<Record>
+		<Field column="UNIQUE_ID">1</Field>
 		<Field column="ID">1</Field>
 		<Field column="NOTE_DESC">Naxx Arachnid Quarter is open</Field>
 		<Field column="PREVIOUS_BANNER_ID">0</Field>
-		<Field column="PREFAB">Assets/Game/GameObjects/NewAdvPopUp_NAX</Field>
 		<Field column="TEXT" loc_ID="20865">
 			<enUS>A new Solo Adventure has appeared! Can you conquer the floating citadel of Naxxramas?!</enUS>
 			<deDE>Ein neues Soloabenteuer wartet auf Euch! Seid Ihr der schwebenden Zitadelle Naxxramas gewachsen?</deDE>
@@ -18,6 +19,7 @@
 			<esMX>¡Ha aparecido una nueva aventura! ¿Podrás conquistar la ciudadela flotante de Naxxramas?</esMX>
 			<frFR>Une nouvelle aventure vient d’apparaître ! Pourrez-vous conquérir la citadelle de Naxxramas ?</frFR>
 			<itIT>È disponibile una nuova avventura! Riuscirai a conquistare la cittadella volante di Naxxramas?</itIT>
+			<jaJP>新しいソロ・アドベンチャーの登場だ！浮遊死都ナクスラーマスを攻略できるかな？！</jaJP>
 			<koKR>새로운 모험 모드가 등장했습니다! 하늘에 떠있는 죽음의 요새, 낙스라마스를 정복해 보세요!</koKR>
 			<plPL>Pojawiła się nowa przygoda!\nCzy zdołasz podbić latającą cytadelę Naxxramas?</plPL>
 			<ptBR>Uma nova aventura individual está disponível! Você é capaz de conquistar Naxxramas?</ptBR>
@@ -25,13 +27,13 @@
 			<zhCN>全新的单人冒险模式已经开启！你能征服天灾浮空城纳克萨玛斯吗？！</zhCN>
 			<zhTW>新的冒險篇章出現了！你能征服空中堡壘納克薩瑪斯嗎？！</zhTW>
 		</Field>
-		<Field column="UNIQUE_ID">1</Field>
+		<Field column="PREFAB">Assets/Game/GameObjects/NewAdvPopUp_NAX</Field>
 	</Record>
 	<Record>
+		<Field column="UNIQUE_ID">2</Field>
 		<Field column="ID">2</Field>
 		<Field column="NOTE_DESC">Naxx Plague Quarter is open</Field>
 		<Field column="PREVIOUS_BANNER_ID">1</Field>
-		<Field column="PREFAB">Assets/Game/GameObjects/NewAdvPopUp_NAX</Field>
 		<Field column="TEXT" loc_ID="20866">
 			<enUS>The Plague Quarter is now open!</enUS>
 			<deDE>Das Seuchenviertel ist jetzt offen!</deDE>
@@ -39,6 +41,7 @@
 			<esMX>¡El Arrabal de la Peste está abierto!</esMX>
 			<frFR>Le quartier de la Peste est ouvert !</frFR>
 			<itIT>L'Ala della Pestilenza è ora disponibile!</itIT>
+			<jaJP>疫病区画の入口が開いたぞ！</jaJP>
 			<koKR>역병 지구가 열렸습니다!</koKR>
 			<plPL>Rewir Zarazy\njest już otwarty!</plPL>
 			<ptBR>O Distrito da Peste está aberto!</ptBR>
@@ -46,13 +49,13 @@
 			<zhCN>瘟疫区现已开放</zhCN>
 			<zhTW>瘟疫區開放了！</zhTW>
 		</Field>
-		<Field column="UNIQUE_ID">2</Field>
+		<Field column="PREFAB">Assets/Game/GameObjects/NewAdvPopUp_NAX</Field>
 	</Record>
 	<Record>
+		<Field column="UNIQUE_ID">3</Field>
 		<Field column="ID">3</Field>
 		<Field column="NOTE_DESC">Naxx Military Quarter is open</Field>
 		<Field column="PREVIOUS_BANNER_ID">2</Field>
-		<Field column="PREFAB">Assets/Game/GameObjects/NewAdvPopUp_NAX</Field>
 		<Field column="TEXT" loc_ID="20867">
 			<enUS>The Military Quarter is now open!</enUS>
 			<deDE>Das Militärviertel ist jetzt offen!</deDE>
@@ -60,6 +63,7 @@
 			<esMX>¡El Arrabal Militar está abierto!</esMX>
 			<frFR>Le quartier Militaire est ouvert !</frFR>
 			<itIT>L'Ala dei Combattenti è ora disponibile!</itIT>
+			<jaJP>軍隊区画の入口が開いたぞ！</jaJP>
 			<koKR>군사 지구가 열렸습니다!</koKR>
 			<plPL>Rewir Zbrojnych\njest już otwarty!</plPL>
 			<ptBR>O Distrito Militar está aberto!</ptBR>
@@ -67,13 +71,13 @@
 			<zhCN>军事区现已开放</zhCN>
 			<zhTW>軍事區開放了！</zhTW>
 		</Field>
-		<Field column="UNIQUE_ID">3</Field>
+		<Field column="PREFAB">Assets/Game/GameObjects/NewAdvPopUp_NAX</Field>
 	</Record>
 	<Record>
+		<Field column="UNIQUE_ID">4</Field>
 		<Field column="ID">4</Field>
 		<Field column="NOTE_DESC">Naxx Construct Quarter is open</Field>
 		<Field column="PREVIOUS_BANNER_ID">3</Field>
-		<Field column="PREFAB">Assets/Game/GameObjects/NewAdvPopUp_NAX</Field>
 		<Field column="TEXT" loc_ID="20868">
 			<enUS>The Construct Quarter is now open!</enUS>
 			<deDE>Das Konstruktviertel ist jetzt offen!</deDE>
@@ -81,6 +85,7 @@
 			<esMX>¡El Arrabal de los Ensamblajes está abierto!</esMX>
 			<frFR>Le quartier des Assemblages est ouvert !</frFR>
 			<itIT>L'Ala dei Costrutti è ora disponibile!</itIT>
+			<jaJP>人造区画の入口が開いたぞ！</jaJP>
 			<koKR>피조물 지구가 열렸습니다!</koKR>
 			<plPL>Rewir Konstruktów\njest już otwarty!</plPL>
 			<ptBR>O Distrito dos Constructos está aberto!</ptBR>
@@ -88,13 +93,13 @@
 			<zhCN>构造区现已开放</zhCN>
 			<zhTW>傀儡區開放了！</zhTW>
 		</Field>
-		<Field column="UNIQUE_ID">4</Field>
+		<Field column="PREFAB">Assets/Game/GameObjects/NewAdvPopUp_NAX</Field>
 	</Record>
 	<Record>
+		<Field column="UNIQUE_ID">5</Field>
 		<Field column="ID">5</Field>
 		<Field column="NOTE_DESC">Naxx Frostwyrm Lair is open</Field>
 		<Field column="PREVIOUS_BANNER_ID">4</Field>
-		<Field column="PREFAB">Assets/Game/GameObjects/NewAdvPopUp_NAX</Field>
 		<Field column="TEXT" loc_ID="20869">
 			<enUS>Frostwyrm Lair is now open!</enUS>
 			<deDE>Die Spitze der Nekropole ist jetzt offen!</deDE>
@@ -102,6 +107,7 @@
 			<esMX>¡La Guarida de la Vermis está abierta!</esMX>
 			<frFR>L’antre du Wyrm de givre est ouvert !</frFR>
 			<itIT>L'Antro del Gelo è ora disponibile!</itIT>
+			<jaJP>フロストワームの巣が開いたぞ！</jaJP>
 			<koKR>서리고룡 둥지가 열렸습니다!</koKR>
 			<plPL>Leże Żmija Mrozu\njest już otwarte!</plPL>
 			<ptBR>O Covil da Serpe Gélida está aberto!</ptBR>
@@ -109,13 +115,13 @@
 			<zhCN>冰龙巢穴现已开放</zhCN>
 			<zhTW>冰霜巨龍巢穴開放了！</zhTW>
 		</Field>
-		<Field column="UNIQUE_ID">5</Field>
+		<Field column="PREFAB">Assets/Game/GameObjects/NewAdvPopUp_NAX</Field>
 	</Record>
 	<Record>
+		<Field column="UNIQUE_ID">6</Field>
 		<Field column="ID">6</Field>
 		<Field column="NOTE_DESC">GvG pre-launch event is active</Field>
 		<Field column="PREVIOUS_BANNER_ID">0</Field>
-		<Field column="PREFAB">Assets/Game/GameObjects/NewPopUp_GVG</Field>
 		<Field column="TEXT" loc_ID="20870">
 			<enUS>Goblins and Gnomes have been tinkering with the Arena!! Get a sneak peek at new cards there with a free arena run!</enUS>
 			<deDE>Goblins und Gnome treiben in der Arena Unfug! Kämpft eine Runde gratis und bekommt einen ersten Vorgeschmack auf die neuen Karten!</deDE>
@@ -123,6 +129,7 @@
 			<esMX>Los goblins y los gnomos han estado jugueteando con la Arena. ¡Aprovecha para echarles un vistazo a las cartas nuevas con una ronda gratuita en la Arena!</esMX>
 			<frFR>Les gobelins et les gnomes ont bricolé l’Arène ! Découvrez leurs nouvelles cartes grâce à une admission gratuite !</frFR>
 			<itIT>I Goblin e gli Gnomi hanno armeggiato con l'Arena! Dai un'occhiata alle nuove carte disponibili, ti offriamo un accesso gratuito!</itIT>
+			<jaJP>ゴブリンとノームが闘技場を改造してるぞ！どんな新しいカードが登場するか、闘技場をのぞいて確かめてみな！1回だけ入場料はサービスだ！</jaJP>
 			<koKR>고블린과 노움들이 투기장에 몰래 들어와 장난을 치고 있습니다!! 투기장에 무료로 입장하여 새로운 카드들을 살펴보세요!</koKR>
 			<plPL>Gobliny i gnomy zmajstrowały coś na Arenie!! Zapoznaj się z nowymi kartami dzięki bezpłatnej wejściówce!</plPL>
 			<ptBR>Os Goblins e os Gnomos deram uma guaribada na Arena!! Conheça os novos cards com uma rodada grátis na arena!</ptBR>
@@ -130,13 +137,13 @@
 			<zhCN>地精和侏儒们已经在竞技模式中打的不可开交了！抓住这次免费的竞技模式参与机会，看看他们给我们带来了哪些新卡牌！</zhCN>
 			<zhTW>哥布林和地精正在競技場惡作劇！免費進一次競技場偷看他們的新卡片吧！</zhTW>
 		</Field>
-		<Field column="UNIQUE_ID">6</Field>
+		<Field column="PREFAB">Assets/Game/GameObjects/NewPopUp_GVG</Field>
 	</Record>
 	<Record>
+		<Field column="UNIQUE_ID">7</Field>
 		<Field column="ID">7</Field>
 		<Field column="NOTE_DESC">GvG is now live</Field>
 		<Field column="PREVIOUS_BANNER_ID">0</Field>
-		<Field column="PREFAB">Assets/Game/GameObjects/NewPopUp_GVG</Field>
 		<Field column="TEXT" loc_ID="20871">
 			<enUS>The Goblins vs Gnomes expansion has launched and is now available!</enUS>
 			<deDE>Die Erweiterung „Goblins gegen Gnome“ ist jetzt verfügbar!</deDE>
@@ -144,6 +151,7 @@
 			<esMX>Se ha lanzado la expansión Goblins versus Gnomos, ¡y ya está disponible!</esMX>
 			<frFR>L’extension Gobelins et Gnomes est maintenant disponible !</frFR>
 			<itIT>L'espansione Goblin vs Gnomi è ora disponibile!</itIT>
+			<jaJP>拡張パック「ゴブリンvsノーム」が公開されたぞ！</jaJP>
 			<koKR>고블린 대 노움 확장팩이 출시되었습니다!</koKR>
 			<plPL>Rozszerzenie Gobliny vs Gnomy zostało wydane i jest już dostępne!</plPL>
 			<ptBR>A expansão Goblins vs Gnomos foi lançada e já está disponível!</ptBR>
@@ -151,13 +159,37 @@
 			<zhCN>“地精大战侏儒”的新游戏内容已经爆炸出炉！</zhCN>
 			<zhTW>《哥哥打地地》資料片已經上市！</zhTW>
 		</Field>
-		<Field column="UNIQUE_ID">7</Field>
+		<Field column="PREFAB">Assets/Game/GameObjects/NewPopUp_GVG</Field>
 	</Record>
 	<Record>
+		<Field column="UNIQUE_ID">8</Field>
 		<Field column="ID">8</Field>
 		<Field column="NOTE_DESC">BRM Blackrock Depths is open</Field>
 		<Field column="PREVIOUS_BANNER_ID">0</Field>
-		<Field column="PREFAB">Assets/Game/GameObjects/NewPopUp_BRM</Field>
+		<Field column="TEXT" />
+		<Field column="PREFAB" />
+	</Record>
+	<Record>
+		<Field column="UNIQUE_ID">9</Field>
+		<Field column="ID">8</Field>
+		<Field column="NOTE_DESC">BRM Blackrock Depths is open</Field>
+		<Field column="PREVIOUS_BANNER_ID">0</Field>
+		<Field column="TEXT" />
+		<Field column="PREFAB" />
+	</Record>
+	<Record>
+		<Field column="UNIQUE_ID">10</Field>
+		<Field column="ID">8</Field>
+		<Field column="NOTE_DESC">BRM Blackrock Depths is open</Field>
+		<Field column="PREVIOUS_BANNER_ID">0</Field>
+		<Field column="TEXT" />
+		<Field column="PREFAB" />
+	</Record>
+	<Record>
+		<Field column="UNIQUE_ID">11</Field>
+		<Field column="ID">8</Field>
+		<Field column="NOTE_DESC">BRM Blackrock Depths is open</Field>
+		<Field column="PREVIOUS_BANNER_ID">0</Field>
 		<Field column="TEXT" loc_ID="20872">
 			<enUS>A new Solo Adventure has appeared! Can you conquer the depths of Blackrock Mountain?!</enUS>
 			<deDE>Der Pechschwingenhort ist jetzt offen!</deDE>
@@ -165,6 +197,7 @@
 			<esMX>¡La Guarida de Alanegra ya está abierta!</esMX>
 			<frFR>Le repaire de l’Aile noire est ouvert !</frFR>
 			<itIT>La Fortezza dell'Ala Nera\nè ora disponibile!</itIT>
+			<jaJP>ブラックウィングの巣が開いたぞ！</jaJP>
 			<koKR>검은날개 둥지가 열렸습니다!</koKR>
 			<plPL>Leże Czarnoskrzydłego\njest już otwarte!</plPL>
 			<ptBR>O Covil Asa Negra está aberto!</ptBR>
@@ -172,13 +205,37 @@
 			<zhCN>黑翼之巢现已开放</zhCN>
 			<zhTW>黑翼之巢開放了！</zhTW>
 		</Field>
-		<Field column="UNIQUE_ID">11</Field>
+		<Field column="PREFAB">Assets/Game/GameObjects/NewPopUp_BRM</Field>
 	</Record>
 	<Record>
+		<Field column="UNIQUE_ID">12</Field>
 		<Field column="ID">9</Field>
 		<Field column="NOTE_DESC">BRM Molten Core is open</Field>
 		<Field column="PREVIOUS_BANNER_ID">8</Field>
-		<Field column="PREFAB">Assets/Game/GameObjects/NewPopUp_BRM</Field>
+		<Field column="TEXT" />
+		<Field column="PREFAB" />
+	</Record>
+	<Record>
+		<Field column="UNIQUE_ID">13</Field>
+		<Field column="ID">9</Field>
+		<Field column="NOTE_DESC">BRM Molten Core is open</Field>
+		<Field column="PREVIOUS_BANNER_ID">8</Field>
+		<Field column="TEXT" />
+		<Field column="PREFAB" />
+	</Record>
+	<Record>
+		<Field column="UNIQUE_ID">14</Field>
+		<Field column="ID">9</Field>
+		<Field column="NOTE_DESC">BRM Molten Core is open</Field>
+		<Field column="PREVIOUS_BANNER_ID">8</Field>
+		<Field column="TEXT" />
+		<Field column="PREFAB" />
+	</Record>
+	<Record>
+		<Field column="UNIQUE_ID">15</Field>
+		<Field column="ID">9</Field>
+		<Field column="NOTE_DESC">BRM Molten Core is open</Field>
+		<Field column="PREVIOUS_BANNER_ID">8</Field>
 		<Field column="TEXT" loc_ID="20873">
 			<enUS>Molten Core is now open!</enUS>
 			<deDE>Der Geschmolzene Kern ist jetzt offen!</deDE>
@@ -186,6 +243,7 @@
 			<esMX>¡El Núcleo de magma ya está abierto!</esMX>
 			<frFR>Le cœur du Magma est ouvert !</frFR>
 			<itIT>Il Nucleo Ardente\nè ora disponibile!</itIT>
+			<jaJP>モルテン・コアが開いたぞ！</jaJP>
 			<koKR>화산 심장부가 열렸습니다!</koKR>
 			<plPL>Ognista Czeluść\njest już otwarta!</plPL>
 			<ptBR>O Núcleo Derretido está aberto!</ptBR>
@@ -193,13 +251,37 @@
 			<zhCN>熔火之心现已开放</zhCN>
 			<zhTW>熔火之心開放了！</zhTW>
 		</Field>
-		<Field column="UNIQUE_ID">15</Field>
+		<Field column="PREFAB">Assets/Game/GameObjects/NewPopUp_BRM</Field>
 	</Record>
 	<Record>
+		<Field column="UNIQUE_ID">16</Field>
 		<Field column="ID">10</Field>
 		<Field column="NOTE_DESC">BRM Blackrock Spire is open</Field>
 		<Field column="PREVIOUS_BANNER_ID">9</Field>
-		<Field column="PREFAB">Assets/Game/GameObjects/NewPopUp_BRM</Field>
+		<Field column="TEXT" />
+		<Field column="PREFAB" />
+	</Record>
+	<Record>
+		<Field column="UNIQUE_ID">17</Field>
+		<Field column="ID">10</Field>
+		<Field column="NOTE_DESC">BRM Blackrock Spire is open</Field>
+		<Field column="PREVIOUS_BANNER_ID">9</Field>
+		<Field column="TEXT" />
+		<Field column="PREFAB" />
+	</Record>
+	<Record>
+		<Field column="UNIQUE_ID">18</Field>
+		<Field column="ID">10</Field>
+		<Field column="NOTE_DESC">BRM Blackrock Spire is open</Field>
+		<Field column="PREVIOUS_BANNER_ID">9</Field>
+		<Field column="TEXT" />
+		<Field column="PREFAB" />
+	</Record>
+	<Record>
+		<Field column="UNIQUE_ID">19</Field>
+		<Field column="ID">10</Field>
+		<Field column="NOTE_DESC">BRM Blackrock Spire is open</Field>
+		<Field column="PREVIOUS_BANNER_ID">9</Field>
 		<Field column="TEXT" loc_ID="20874">
 			<enUS>Blackrock Spire is now open!</enUS>
 			<deDE>Die Schwarzfelsspitze ist jetzt offen!</deDE>
@@ -207,6 +289,7 @@
 			<esMX>¡La Cumbre de Roca Negra ya está abierta!</esMX>
 			<frFR>Le pic Rochenoire est ouvert !</frFR>
 			<itIT>I Bastioni di Roccianera\nsono ora disponibili!</itIT>
+			<jaJP>ブラックロック山の入口が開いたぞ！</jaJP>
 			<koKR>검은바위 첨탑이 열렸습니다!</koKR>
 			<plPL>Iglica Czarnej Góry\njest już otwarta!</plPL>
 			<ptBR>O Pico da Rocha Negra está aberto!</ptBR>
@@ -214,13 +297,37 @@
 			<zhCN>黑石塔现已开放</zhCN>
 			<zhTW>黑石塔開放了！</zhTW>
 		</Field>
-		<Field column="UNIQUE_ID">19</Field>
+		<Field column="PREFAB">Assets/Game/GameObjects/NewPopUp_BRM</Field>
 	</Record>
 	<Record>
+		<Field column="UNIQUE_ID">20</Field>
 		<Field column="ID">11</Field>
 		<Field column="NOTE_DESC">BRM Blackwing Lair is open</Field>
 		<Field column="PREVIOUS_BANNER_ID">10</Field>
-		<Field column="PREFAB">Assets/Game/GameObjects/NewPopUp_BRM</Field>
+		<Field column="TEXT" />
+		<Field column="PREFAB" />
+	</Record>
+	<Record>
+		<Field column="UNIQUE_ID">21</Field>
+		<Field column="ID">11</Field>
+		<Field column="NOTE_DESC">BRM Blackwing Lair is open</Field>
+		<Field column="PREVIOUS_BANNER_ID">10</Field>
+		<Field column="TEXT" />
+		<Field column="PREFAB" />
+	</Record>
+	<Record>
+		<Field column="UNIQUE_ID">22</Field>
+		<Field column="ID">11</Field>
+		<Field column="NOTE_DESC">BRM Blackwing Lair is open</Field>
+		<Field column="PREVIOUS_BANNER_ID">10</Field>
+		<Field column="TEXT" />
+		<Field column="PREFAB" />
+	</Record>
+	<Record>
+		<Field column="UNIQUE_ID">23</Field>
+		<Field column="ID">11</Field>
+		<Field column="NOTE_DESC">BRM Blackwing Lair is open</Field>
+		<Field column="PREVIOUS_BANNER_ID">10</Field>
 		<Field column="TEXT" loc_ID="20875">
 			<enUS>Blackwing Lair is now open!</enUS>
 			<deDE>Der Pechschwingenhort ist jetzt offen!</deDE>
@@ -228,6 +335,7 @@
 			<esMX>¡La Guarida de Alanegra ya está abierta!</esMX>
 			<frFR>Le repaire de l’Aile noire est ouvert !</frFR>
 			<itIT>La Fortezza dell'Ala Nera\nè ora disponibile!</itIT>
+			<jaJP>ブラックウィングの巣が開いたぞ！</jaJP>
 			<koKR>검은날개 둥지가 열렸습니다!</koKR>
 			<plPL>Leże Czarnoskrzydłego\njest już otwarte!</plPL>
 			<ptBR>O Covil Asa Negra está aberto!</ptBR>
@@ -235,13 +343,37 @@
 			<zhCN>黑翼之巢现已开放</zhCN>
 			<zhTW>黑翼之巢開放了！</zhTW>
 		</Field>
-		<Field column="UNIQUE_ID">23</Field>
+		<Field column="PREFAB">Assets/Game/GameObjects/NewPopUp_BRM</Field>
 	</Record>
 	<Record>
+		<Field column="UNIQUE_ID">24</Field>
 		<Field column="ID">12</Field>
 		<Field column="NOTE_DESC">BRM The Hidden Laboratory is open</Field>
 		<Field column="PREVIOUS_BANNER_ID">11</Field>
-		<Field column="PREFAB">Assets/Game/GameObjects/NewPopUp_BRM</Field>
+		<Field column="TEXT" />
+		<Field column="PREFAB" />
+	</Record>
+	<Record>
+		<Field column="UNIQUE_ID">25</Field>
+		<Field column="ID">12</Field>
+		<Field column="NOTE_DESC">BRM The Hidden Laboratory is open</Field>
+		<Field column="PREVIOUS_BANNER_ID">11</Field>
+		<Field column="TEXT" />
+		<Field column="PREFAB" />
+	</Record>
+	<Record>
+		<Field column="UNIQUE_ID">26</Field>
+		<Field column="ID">12</Field>
+		<Field column="NOTE_DESC">BRM The Hidden Laboratory is open</Field>
+		<Field column="PREVIOUS_BANNER_ID">11</Field>
+		<Field column="TEXT" />
+		<Field column="PREFAB" />
+	</Record>
+	<Record>
+		<Field column="UNIQUE_ID">27</Field>
+		<Field column="ID">12</Field>
+		<Field column="NOTE_DESC">BRM The Hidden Laboratory is open</Field>
+		<Field column="PREVIOUS_BANNER_ID">11</Field>
 		<Field column="TEXT" loc_ID="20876">
 			<enUS>The Hidden Laboratory is now open!</enUS>
 			<deDE>Das Geheimlabor ist jetzt offen!</deDE>
@@ -249,6 +381,7 @@
 			<esMX>¡El Laboratorio oculto ya está abierto!</esMX>
 			<frFR>Le laboratoire secret est ouvert !</frFR>
 			<itIT>Il Laboratorio Segreto\nè ora disponibile!</itIT>
+			<jaJP>秘密の研究室の入口が開いたぞ！</jaJP>
 			<koKR>숨겨진 연구실이 열렸습니다!</koKR>
 			<plPL>Ukryte Laboratorium\njest już otwarte!</plPL>
 			<ptBR>O Laboratório Oculto está aberto!</ptBR>
@@ -256,171 +389,13 @@
 			<zhCN>秘密实验室现已开放</zhCN>
 			<zhTW>隱藏的實驗室開放了！</zhTW>
 		</Field>
-		<Field column="UNIQUE_ID">27</Field>
+		<Field column="PREFAB">Assets/Game/GameObjects/NewPopUp_BRM</Field>
 	</Record>
 	<Record>
-		<Field column="ID">13</Field>
-		<Field column="NOTE_DESC">TGT is now live</Field>
-		<Field column="PREVIOUS_BANNER_ID">0</Field>
-		<Field column="PREFAB"></Field>
-		<Field column="TEXT">
-			<enUS>The Grand Tournament expansion has launched and is now available!</enUS>
-			<deDE>Das Große Turnier ist nun eröffnet! Hoch die Lanzen und los geht's!</deDE>
-			<esES>¡La expansión El Gran Torneo acaba de estrenarse y ya está disponible!</esES>
-			<esMX>¡Se ha lanzado la expansión El Gran Torneo y ya está disponible!</esMX>
-			<frFR>L’extension Le Grand Tournoi est maintenant disponible !</frFR>
-			<itIT>L'espansione Gran Torneo\nè ora disponibile!</itIT>
-			<koKR>대 마상시합 확장팩이 출시되었습니다!</koKR>
-			<plPL>Rozszerzenie Wielki Turniej zostało wydane i jest już dostępne!</plPL>
-			<ptBR>A expansão O Grande Torneio foi lançada e já está disponível!</ptBR>
-			<ruRU>Большой турнир открылся! Мы ждем вас!</ruRU>
-			<zhCN>“冠军的试炼”新游戏内容已经耀世登场！</zhCN>
-			<zhTW>《銀白聯賽》資料片已經上市！</zhTW>
-		</Field>
-		<Field column="UNIQUE_ID">30</Field>
-	</Record>
-	<Record>
-		<Field column="ID">8</Field>
-		<Field column="UNIQUE_ID">8</Field>
-		<Field column="NOTE_DESC">BRM Blackrock Depths is open</Field>
-		<Field column="PREVIOUS_BANNER_ID">0</Field>
-		<Field column="PREFAB"></Field>
-		<Field column="TEXT"></Field>
-	</Record>
-	<Record>
-		<Field column="ID">8</Field>
-		<Field column="UNIQUE_ID">9</Field>
-		<Field column="NOTE_DESC">BRM Blackrock Depths is open</Field>
-		<Field column="PREVIOUS_BANNER_ID">0</Field>
-		<Field column="PREFAB"></Field>
-		<Field column="TEXT"></Field>
-	</Record>
-	<Record>
-		<Field column="ID">8</Field>
-		<Field column="UNIQUE_ID">10</Field>
-		<Field column="NOTE_DESC">BRM Blackrock Depths is open</Field>
-		<Field column="PREVIOUS_BANNER_ID">0</Field>
-		<Field column="PREFAB"></Field>
-		<Field column="TEXT"></Field>
-	</Record>
-	<Record>
-		<Field column="ID">9</Field>
-		<Field column="UNIQUE_ID">12</Field>
-		<Field column="NOTE_DESC">BRM Molten Core is open</Field>
-		<Field column="PREVIOUS_BANNER_ID">8</Field>
-		<Field column="PREFAB"></Field>
-		<Field column="TEXT"></Field>
-	</Record>
-	<Record>
-		<Field column="ID">9</Field>
-		<Field column="UNIQUE_ID">13</Field>
-		<Field column="NOTE_DESC">BRM Molten Core is open</Field>
-		<Field column="PREVIOUS_BANNER_ID">8</Field>
-		<Field column="PREFAB"></Field>
-		<Field column="TEXT"></Field>
-	</Record>
-	<Record>
-		<Field column="ID">9</Field>
-		<Field column="UNIQUE_ID">14</Field>
-		<Field column="NOTE_DESC">BRM Molten Core is open</Field>
-		<Field column="PREVIOUS_BANNER_ID">8</Field>
-		<Field column="PREFAB"></Field>
-		<Field column="TEXT"></Field>
-	</Record>
-	<Record>
-		<Field column="ID">10</Field>
-		<Field column="UNIQUE_ID">16</Field>
-		<Field column="NOTE_DESC">BRM Blackrock Spire is open</Field>
-		<Field column="PREVIOUS_BANNER_ID">9</Field>
-		<Field column="PREFAB"></Field>
-		<Field column="TEXT"></Field>
-	</Record>
-	<Record>
-		<Field column="ID">10</Field>
-		<Field column="UNIQUE_ID">17</Field>
-		<Field column="NOTE_DESC">BRM Blackrock Spire is open</Field>
-		<Field column="PREVIOUS_BANNER_ID">9</Field>
-		<Field column="PREFAB"></Field>
-		<Field column="TEXT"></Field>
-	</Record>
-	<Record>
-		<Field column="ID">10</Field>
-		<Field column="UNIQUE_ID">18</Field>
-		<Field column="NOTE_DESC">BRM Blackrock Spire is open</Field>
-		<Field column="PREVIOUS_BANNER_ID">9</Field>
-		<Field column="PREFAB"></Field>
-		<Field column="TEXT"></Field>
-	</Record>
-	<Record>
-		<Field column="ID">11</Field>
-		<Field column="UNIQUE_ID">20</Field>
-		<Field column="NOTE_DESC">BRM Blackwing Lair is open</Field>
-		<Field column="PREVIOUS_BANNER_ID">10</Field>
-		<Field column="PREFAB"></Field>
-		<Field column="TEXT"></Field>
-	</Record>
-	<Record>
-		<Field column="ID">11</Field>
-		<Field column="UNIQUE_ID">21</Field>
-		<Field column="NOTE_DESC">BRM Blackwing Lair is open</Field>
-		<Field column="PREVIOUS_BANNER_ID">10</Field>
-		<Field column="PREFAB"></Field>
-		<Field column="TEXT"></Field>
-	</Record>
-	<Record>
-		<Field column="ID">11</Field>
-		<Field column="UNIQUE_ID">22</Field>
-		<Field column="NOTE_DESC">BRM Blackwing Lair is open</Field>
-		<Field column="PREVIOUS_BANNER_ID">10</Field>
-		<Field column="PREFAB"></Field>
-		<Field column="TEXT"></Field>
-	</Record>
-	<Record>
-		<Field column="ID">12</Field>
-		<Field column="UNIQUE_ID">24</Field>
-		<Field column="NOTE_DESC">BRM The Hidden Laboratory is open</Field>
-		<Field column="PREVIOUS_BANNER_ID">11</Field>
-		<Field column="PREFAB"></Field>
-		<Field column="TEXT"></Field>
-	</Record>
-	<Record>
-		<Field column="ID">12</Field>
-		<Field column="UNIQUE_ID">25</Field>
-		<Field column="NOTE_DESC">BRM The Hidden Laboratory is open</Field>
-		<Field column="PREVIOUS_BANNER_ID">11</Field>
-		<Field column="PREFAB"></Field>
-		<Field column="TEXT"></Field>
-	</Record>
-	<Record>
-		<Field column="ID">12</Field>
-		<Field column="UNIQUE_ID">26</Field>
-		<Field column="NOTE_DESC">BRM The Hidden Laboratory is open</Field>
-		<Field column="PREVIOUS_BANNER_ID">11</Field>
-		<Field column="PREFAB"></Field>
-		<Field column="TEXT"></Field>
-	</Record>
-	<Record>
-		<Field column="ID">13</Field>
-		<Field column="UNIQUE_ID">29</Field>
-		<Field column="NOTE_DESC">TGT is now live</Field>
-		<Field column="PREVIOUS_BANNER_ID">0</Field>
-		<Field column="PREFAB"></Field>
-		<Field column="TEXT"></Field>
-	</Record>
-	<Record>
-		<Field column="ID">13</Field>
-		<Field column="UNIQUE_ID">30</Field>
-		<Field column="NOTE_DESC">TGT is now live</Field>
-		<Field column="PREVIOUS_BANNER_ID">0</Field>
-		<Field column="PREFAB"></Field>
-		<Field column="TEXT"></Field>
-	</Record>
-	<Record>
-		<Field column="ID">13</Field>
 		<Field column="UNIQUE_ID">28</Field>
+		<Field column="ID">13</Field>
 		<Field column="NOTE_DESC">TGT is now live</Field>
 		<Field column="PREVIOUS_BANNER_ID">0</Field>
-		<Field column="PREFAB">Assets/Game/GameObjects/NewPopUp_TGT</Field>
 		<Field column="TEXT" loc_ID="20877">
 			<enUS>The Grand Tournament expansion has launched and is now available!</enUS>
 			<deDE>Das Große Turnier ist nun eröffnet! Hoch die Lanzen und los geht's!</deDE>
@@ -428,6 +403,7 @@
 			<esMX>¡Se ha lanzado la expansión El Gran Torneo y ya está disponible!</esMX>
 			<frFR>L’extension Le Grand Tournoi est maintenant disponible !</frFR>
 			<itIT>L'espansione Gran Torneo\nè ora disponibile!</itIT>
+			<jaJP>拡張パック「グランド・トーナメント」が公開されたぞ！</jaJP>
 			<koKR>대 마상시합 확장팩이 출시되었습니다!</koKR>
 			<plPL>Rozszerzenie Wielki Turniej zostało wydane i jest już dostępne!</plPL>
 			<ptBR>A expansão O Grande Torneio foi lançada e já está disponível!</ptBR>
@@ -435,5 +411,22 @@
 			<zhCN>“冠军的试炼”新游戏内容已经耀世登场！</zhCN>
 			<zhTW>《銀白聯賽》資料片已經上市！</zhTW>
 		</Field>
+		<Field column="PREFAB">Assets/Game/GameObjects/NewPopUp_TGT</Field>
+	</Record>
+	<Record>
+		<Field column="UNIQUE_ID">29</Field>
+		<Field column="ID">13</Field>
+		<Field column="NOTE_DESC">TGT is now live</Field>
+		<Field column="PREVIOUS_BANNER_ID">0</Field>
+		<Field column="TEXT" />
+		<Field column="PREFAB" />
+	</Record>
+	<Record>
+		<Field column="UNIQUE_ID">30</Field>
+		<Field column="ID">13</Field>
+		<Field column="NOTE_DESC">TGT is now live</Field>
+		<Field column="PREVIOUS_BANNER_ID">0</Field>
+		<Field column="TEXT" />
+		<Field column="PREFAB" />
 	</Record>
 </Dbf>

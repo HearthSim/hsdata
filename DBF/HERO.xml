@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Dbf name="HERO">
+	<SourceFingerprint>ovj5nQ/uNVWqdniPiFvT0CJA7Oo=</SourceFingerprint>
 	<Column name="ID" type="Int" />
 	<Column name="CARD_ID" type="String" />
-	<Column name="STORE_BOUGHT" type="Bool" />
 	<Column name="CARD_BACK_ID" type="Int" />
+	<Column name="STORE_BOUGHT" type="Bool" />
 	<Column name="DESCRIPTION" type="LocString" />
 	<Column name="STORE_TITLE" type="LocString" />
 	<Column name="STORE_DESCRIPTION" type="LocString" />
@@ -11,8 +12,8 @@
 	<Record>
 		<Field column="ID">1</Field>
 		<Field column="CARD_ID">HERO_01</Field>
+		<Field column="CARD_BACK_ID" />
 		<Field column="STORE_BOUGHT">False</Field>
-		<Field column="CARD_BACK_ID"></Field>
 		<Field column="DESCRIPTION" loc_ID="21107">
 			<enUS>This former Warchief of the Horde isn’t bitter about being deposed. Not at all.</enUS>
 			<deDE>Dieser ehemalige Kriegshäuptling der Horde mag seinen Thron eingebüßt haben, aber nicht seinen rustikalen Charme.</deDE>
@@ -20,6 +21,7 @@
 			<esMX>Este otrora Jefe de guerra de la Horda no guarda ningún resentimiento por su derrocamiento. Para nada.</esMX>
 			<frFR>Cet ancien chef de guerre de la Horde n’est pas aigri d’avoir été renversé. Mais alors pas du tout.</frFR>
 			<itIT>Il precedente Capoguerra dell'Orda non è per niente dispiaciuto di essere stato deposto. Proprio per niente.</itIT>
+			<jaJP>ホードの元戦長。戦長の座を下ろされたことは、特に気にしてない。ああ、これっぽっちもだ。</jaJP>
 			<koKR>호드의 대족장 자리를 빼앗겼지만 크게 앙심을 품고 있지는 않습니다. 정말로요.</koKR>
 			<plPL>Ten dawny wódz Hordy wcale nie ma żalu o pozbawienie go stanowiska. Nic a nic.</plPL>
 			<ptBR>Este antigo Chefe Guerreiro da Horda nem está rancoroso por ter perdido o posto. Imagina.</ptBR>
@@ -27,15 +29,207 @@
 			<zhCN>前部落酋长根本不在乎被罢黜。一点儿也不。</zhCN>
 			<zhTW>部落的前任大酋長才不會因為被拋棄就傷心呢。絕對不會！</zhTW>
 		</Field>
+		<Field column="STORE_TITLE" />
+		<Field column="STORE_DESCRIPTION" />
 		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_01</Field>
-		<Field column="STORE_TITLE"></Field>
-		<Field column="STORE_DESCRIPTION"></Field>
+	</Record>
+	<Record>
+		<Field column="ID">2</Field>
+		<Field column="CARD_ID">HERO_02</Field>
+		<Field column="CARD_BACK_ID" />
+		<Field column="STORE_BOUGHT">False</Field>
+		<Field column="DESCRIPTION" loc_ID="21108">
+			<enUS>Thrall quit his former job as Warchief to save the world and spend more time with his family.</enUS>
+			<deDE>Thrall hat seinen Job als Kriegshäuptling an den Nagel gehängt, um die Welt zu retten – und mehr Zeit mit seiner Familie zu verbringen.</deDE>
+			<esES>Thrall renunció a su antiguo trabajo de Jefe de Guerra para salvar el mundo y pasar más tiempo con su familia.</esES>
+			<esMX>Thrall renunció a su viejo trabajo como Jefe de guerra para salvar el mundo y pasar más tiempo con su familia.</esMX>
+			<frFR>Thrall a quitté son poste de chef de guerre pour sauver le monde et passer plus de temps avec sa famille.</frFR>
+			<itIT>Thrall ha rinunciato alla posizione di Capoguerra per salvare il mondo e passare più tempo con la sua famiglia.</itIT>
+			<jaJP>戦長として世界を救うべくモーレツに働いていたスロールは、仕事を辞めてからは家族と一緒の時間を大切にしているそうだ。</jaJP>
+			<koKR>스랄은 세계 평화를 위해 대족장이라는 책무를 내려두고 가족과 더 시간을 보내기로 마음먹었습니다.</koKR>
+			<plPL>Thrall zrezygnował ze stanowiska wodza Hordy, aby uratować świat i spędzać więcej czasu z rodziną.</plPL>
+			<ptBR>Thrall abdicou de seu posto de Chefe Guerreiro para salvar o mundo e passar mais tempo com a família.</ptBR>
+			<ruRU>Тралл ушел с должности Вождя Орды, чтобы спасти мир и проводить больше времени с семьей.</ruRU>
+			<zhCN>为了拯救世界，也为了陪伴家人，萨尔卸下了部落酋长的重担。</zhCN>
+			<zhTW>索爾辭掉了大酋長的工作以拯救世界，並且多陪陪家人。</zhTW>
+		</Field>
+		<Field column="STORE_TITLE" />
+		<Field column="STORE_DESCRIPTION" />
+		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_02</Field>
+	</Record>
+	<Record>
+		<Field column="ID">3</Field>
+		<Field column="CARD_ID">HERO_03</Field>
+		<Field column="CARD_BACK_ID" />
+		<Field column="STORE_BOUGHT">False</Field>
+		<Field column="DESCRIPTION" loc_ID="21109">
+			<enUS>Expert assassin.  Deadly gladiator.  Best knife skills in her cooking class, according to survivors.</enUS>
+			<deDE>Profikillerin und Gladiatorenchampion. Glänzte in ihrem Kochkurs durch geschickten Umgang mit Messern ... behaupten zumindest die Überlebenden.</deDE>
+			<esES>Asesina experta y gladiadora letal. Mostró una destreza insuperable con los cuchillos en clase de cocina, según comentan los supervivientes.</esES>
+			<esMX>Asesina experta. Gladiadora letal. Nadie maneja mejor el cuchillo en su clase de cocina... dicen los sobrevivientes.</esMX>
+			<frFR>Tueuse experte. Gladiatrice létale. Meilleur coup de couteau de son cours de cuisine, d’après les survivants.</frFR>
+			<itIT>Esperta assassina e micidiale gladiatrice. La migliore con i coltelli del suo corso di cucina, a detta dei sopravvissuti.</itIT>
+			<jaJP>一流の暗殺者であり、凄腕の剣闘士。そして、料理教室で一番のナイフの使い手である。（生存者の証言）</jaJP>
+			<koKR>노련한 암살자. 잔혹한 검투사. 하지만 발리라와 함께 여행한 자들은 그녀의 뛰어난 요리 솜씨에 더욱 놀란다고 합니다.</koKR>
+			<plPL>Doskonała skrytobójczyni. Bezwzględna gladiatorka. A podobno także mistrzyni szatkowania kapusty.</plPL>
+			<ptBR>Assassina perita. Gladiadora mortal. Melhores habilidades com faca na aula de culinária (de acordo com os sobreviventes).</ptBR>
+			<ruRU>Опытная убийца. Смертоносный гладиатор. А еще видели бы вы, как она работает ножами в кулинарной школе!</ruRU>
+			<zhCN>刺杀专家。致命角斗士。唯一在暴风城中享有崇高威望的血精灵。</zhCN>
+			<zhTW>精英殺手，致命鬥士，而且根據生還者所言，她的刀工在料理界也堪稱一絕。</zhTW>
+		</Field>
+		<Field column="STORE_TITLE" />
+		<Field column="STORE_DESCRIPTION" />
+		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_03</Field>
+	</Record>
+	<Record>
+		<Field column="ID">4</Field>
+		<Field column="CARD_ID">HERO_04</Field>
+		<Field column="CARD_BACK_ID" />
+		<Field column="STORE_BOUGHT">False</Field>
+		<Field column="DESCRIPTION" loc_ID="21110">
+			<enUS>Leader of the Knights of the Silver Hand.  Best-selling author of The Light and How to Swing It.</enUS>
+			<deDE>Anführer des Ordens der Silbernen Hand und Autor des Bestsellers „Vom Licht und wie man es schwingt“.</deDE>
+			<esES>Líder de los caballeros de la Mano de Plata y autor del popular libro "La Luz y cómo alterarla".</esES>
+			<esMX>Líder de los caballeros de la Mano de Plata. Autor del éxito de ventas "La Luz y cómo alterarla".</esMX>
+			<frFR>Chef des chevaliers de la Main d’argent. Auteur à succès de « La Lumière et comment l'altérer ».</frFR>
+			<itIT>Capo dei Cavalieri della Mano d'Argento. Autore del best seller "Come gestire la Luce".</itIT>
+			<jaJP>シルバーハンド騎士団のリーダー。そしてベストセラー「光よ導きたまえ・実践スイング練習法」の著者。</jaJP>
+			<koKR>은빛 성기사단의 지도자입니다. '빛과 정의에 관하여'라는 책의 저자이기도 합니다.</koKR>
+			<plPL>Dowódca Rycerzy Srebrnej Dłoni. Autor bestsellera „Światłość dla opornych”.</plPL>
+			<ptBR>Líder dos Cavaleiros do Punho de Prata. Autor do best-seller "A Luz e como Ativá-la".</ptBR>
+			<ruRU>Предводитель Рыцарей Серебряной Длани и автор бессмертного произведения «Раскачаем этот свет».</ruRU>
+			<zhCN>白银之手骑士团的领袖。年度畅销读物《圣光之力》的作者。</zhCN>
+			<zhTW>白銀之手騎士團的首領。讓他出名的不只是聖光，還有手中的大錘。</zhTW>
+		</Field>
+		<Field column="STORE_TITLE" />
+		<Field column="STORE_DESCRIPTION" />
+		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_04</Field>
+	</Record>
+	<Record>
+		<Field column="ID">5</Field>
+		<Field column="CARD_ID">HERO_05</Field>
+		<Field column="CARD_BACK_ID" />
+		<Field column="STORE_BOUGHT">False</Field>
+		<Field column="DESCRIPTION" loc_ID="21111">
+			<enUS>He only feels at home in the wilderness with his beasts.  Super secret:  Misha is his favorite.</enUS>
+			<deDE>Wirklich wohl fühlt er sich nur in der Wildnis mit seinen Tieren. Pssst: Misha mag er am liebsten.</deDE>
+			<esES>Solo se siente cómodo en plena naturaleza con sus bestias. Un secreto: Misha es su favorita.</esES>
+			<esMX>Solo se siente en casa en la naturaleza rodeado de sus bestias. No le digas a nadie, pero Misha es su favorita.</esMX>
+			<frFR>Il ne se sent chez lui que dans la nature avec ses bêtes. Super secret : c’est Misha qu’il préfère.</frFR>
+			<itIT>Si sente davvero a casa solo nelle terre selvagge, insieme alle sue bestie. Segreto: Misha è la sua preferita!</itIT>
+			<jaJP>彼の「憩いの我が家」は人里離れた荒野。そして猛獣たちが彼の友だ。（マル秘情報: 彼の一番のお気に入りはミーシャ）</jaJP>
+			<koKR>야수들과 함께 야생에 있는 걸 가장 좋아합니다. 비밀 하나 알려드릴까요? 그중 미샤를 제일로 아낀다고 하네요.</koKR>
+			<plPL>Najlepiej czuje się w dziczy, w towarzystwie swoich bestii. Zdradzę sekret: jego ulubieńcem jest Misza.</plPL>
+			<ptBR>Ele só se sente em casa na mata, com suas feras. (Segredo suuuper secreto: Misha é o favorito dele).</ptBR>
+			<ruRU>Он чувствует себя как дома только в чаще лесов в окружении своих зверей. Миша, кстати, его любимица. Только никому ни слова!</ruRU>
+			<zhCN>在浪迹天涯的岁月里，只有野兽的陪伴才能够给他家的温暖。而巨熊米莎则是他的最爱。</zhCN>
+			<zhTW>他只有和動物夥伴在野外的時候，才有回家的感覺。噓，他對米莎比較偏心！</zhTW>
+		</Field>
+		<Field column="STORE_TITLE" />
+		<Field column="STORE_DESCRIPTION" />
+		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_05</Field>
+	</Record>
+	<Record>
+		<Field column="ID">6</Field>
+		<Field column="CARD_ID">HERO_06</Field>
+		<Field column="CARD_BACK_ID" />
+		<Field column="STORE_BOUGHT">False</Field>
+		<Field column="DESCRIPTION" loc_ID="21112">
+			<enUS>The lord of the night elves is a wise and noble leader.  Yes, those antlers are real.</enUS>
+			<deDE>Der Herr der Nachtelfen ist ein weiser und edelmütiger Anführer. Und ja, das Geweih ist echt.</deDE>
+			<esES>El señor de los elfos de la noche es un líder sabio y noble, y sí, esa cornamenta es de verdad.</esES>
+			<esMX>El señor de los elfos de la noche es un líder sabio y noble. Y sí, esos cuernos son de verdad.</esMX>
+			<frFR>Le seigneur des elfes de la nuit est un chef sage et noble. Et oui, ses bois sont vrais.</frFR>
+			<itIT>Il signore degli Elfi della Notte è un saggio e nobile condottiero. E sì, quelle corna sono vere.</itIT>
+			<jaJP>ナイトエルフの長であり、賢明にして気高き指導者だ。ああ、あの枝角は本物だよ。</jaJP>
+			<koKR>나이트 엘프의 지혜롭고 고결한 지도자입니다. 네, 뿔 맞습니다. 장식이 아니라고요.</koKR>
+			<plPL>Władca nocnych elfów to mądry i szlachetny przywódca. I tak, to poroże jest prawdziwe.</plPL>
+			<ptBR>O senhor dos elfos noturnos é um líder sábio e nobre. E aquilo não são "chifres", são "galhadas".</ptBR>
+			<ruRU>Владыка ночных эльфов — мудрый и благородный правитель. И хватит уже шуточек про его рога.</ruRU>
+			<zhCN>暗夜精灵的领袖，睿智而高贵的大德鲁伊。没错，那些鹿角是真货。</zhCN>
+			<zhTW>夜精靈的首領是真正高尚又充滿智慧的領導者，而且那對鹿角也是真的。</zhTW>
+		</Field>
+		<Field column="STORE_TITLE" />
+		<Field column="STORE_DESCRIPTION" />
+		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_06</Field>
+	</Record>
+	<Record>
+		<Field column="ID">7</Field>
+		<Field column="CARD_ID">HERO_07</Field>
+		<Field column="CARD_BACK_ID" />
+		<Field column="STORE_BOUGHT">False</Field>
+		<Field column="DESCRIPTION" loc_ID="21113">
+			<enUS>Talented, persuasive and hard-working.  Too bad he wants to feed your soul to demons.</enUS>
+			<deDE>Talentiert, zielorientiert und sehr überzeugend. Wenn Ihr Euch mit ihm einlasst, solltet Ihr Eure Seele gut im Auge behalten.</deDE>
+			<esES>Con talento, persuasivo y trabajador. Es una pena que quiera alimentar a los demonios con tu alma.</esES>
+			<esMX>Talentoso, persuasivo, trabajador... Lástima que quiera alimentar a los demonios con tu alma.</esMX>
+			<frFR>Talentueux, persuasif et travailleur. Dommage qu’il veuille donner votre âme en pâture aux démons.</frFR>
+			<itIT>Talentuoso, persuasivo e diligente. Peccato che voglia dare la tua anima in pasto ai demoni.</itIT>
+			<jaJP>才能に溢れ、弁が立ち、しかも努力家。あんたの魂を悪魔に捧げようとするのはご愛嬌。</jaJP>
+			<koKR>재능이 넘치고 언변이 뛰어난데다 부지런합니다. 당신의 영혼을 악마에게 먹이려고 하는 게 문제죠.</koKR>
+			<plPL>Utalentowany, elokwentny i pracowity. Szkoda, że chce nakarmić demony twoją duszą.</plPL>
+			<ptBR>Talentoso, persuasivo e dedicado. Pena que ele quer dar sua alma de comer pros demônios.</ptBR>
+			<ruRU>Талантливый, упорный и трудолюбивый. Ни перед чем не остановится, чтобы скормить вашу душу демонам.</ruRU>
+			<zhCN>天赋异禀、能言善道、刻苦努力的术士。可惜他一心想做的事情就是把你的灵魂送给恶魔。</zhCN>
+			<zhTW>天資聰穎、辯才無礙、又奮發向上，可惜他的目標是把你的靈魂獻給惡魔。</zhTW>
+		</Field>
+		<Field column="STORE_TITLE" />
+		<Field column="STORE_DESCRIPTION" />
+		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_07</Field>
+	</Record>
+	<Record>
+		<Field column="ID">8</Field>
+		<Field column="CARD_ID">HERO_08</Field>
+		<Field column="CARD_BACK_ID" />
+		<Field column="STORE_BOUGHT">False</Field>
+		<Field column="DESCRIPTION" loc_ID="21114">
+			<enUS>The Kirin Tor’s leader is a powerful sorceress.  She used to be a lot nicer before the Theramore thing.</enUS>
+			<deDE>Mächtige Magierin und Anführerin der Kirin Tor. Sie hat seit dem „Theramore-Vorfall“ leichte Aggressionsprobleme.</deDE>
+			<esES>La líder del Kirin Tor es una poderosa hechicera, aunque solía ser mucho más simpática antes de todo ese asunto de Theramore.</esES>
+			<esMX>La líder del Kirin Tor es una hechicera poderosa. Era mucho más amable antes del incidente de Theramore.</esMX>
+			<frFR>La dirigeante du Kirin Tor est une puissante ensorceleuse. Elle était bien plus sympa avant cette histoire de Theramore.</frFR>
+			<itIT>Il capo del Kirin Tor è una potente Maga. Era indubbiamente più amichevole prima della distruzione di Theramore.</itIT>
+			<jaJP>キリン・トアの指導者で、強力な魔術師だ。人当たりもよかったんだ、あのセラモアの件が起こる前までは。</jaJP>
+			<koKR>강력한 여마법사인 제이나는 키린 토의 수장입니다. 테라모어에서 일어난 참사만 아니었어도 훨씬 상냥했을텐데 말이죠.</koKR>
+			<plPL>Przywódczyni Kirin Toru to potężna czarodziejka. Ale była znacznie cieplejsza przed wydarzeniami w Theramore.</plPL>
+			<ptBR>A líder do Kirin Tor é uma feiticeira poderosa. Ela era mais legal antes daquele lance em Theramore.</ptBR>
+			<ruRU>Предводительница Кирин-Тора, бесспорно, могучая чародейка. Но история с Терамором основательно подпортила ее характер.</ruRU>
+			<zhCN>肯瑞托的领袖，强大的法师。曾经优柔温良而善解人意的她，被骇人听闻的塞拉摩事件彻底改变了。</zhCN>
+			<zhTW>祈倫托首領是位強大的法師，她在塞拉摩那些事發生之前，是個相當和善的人。</zhTW>
+		</Field>
+		<Field column="STORE_TITLE" />
+		<Field column="STORE_DESCRIPTION" />
+		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_08</Field>
+	</Record>
+	<Record>
+		<Field column="ID">9</Field>
+		<Field column="CARD_ID">HERO_09</Field>
+		<Field column="CARD_BACK_ID" />
+		<Field column="STORE_BOUGHT">False</Field>
+		<Field column="DESCRIPTION" loc_ID="21115">
+			<enUS>The future King of Stormwind is a kind, gentle soul.  Except when he’s in Shadowform.</enUS>
+			<deDE>Der zukünftige König Sturmwinds ist ein guter Junge ... in Schattengestalt manchmal aber sehr unartig.</deDE>
+			<esES>El futuro Rey de Ventormenta es un alma noble y gentil. Excepto cuando está en Forma de las Sombras.</esES>
+			<esMX>El futuro rey de Ventormenta es un alma amable y gentil. Excepto cuando está en Forma de las sombras.</esMX>
+			<frFR>Le futur roi de Hurlevent est une âme douce et bonne. Sauf quand il est en forme d’Ombre.</frFR>
+			<itIT>Il futuro Re di Roccavento è una persona dall'animo gentile. Tranne quando è in Forma d'Ombra.</itIT>
+			<jaJP>ストームウィンドの未来の王は、優しく親切な青年だ。※ただし「影なる姿」ではない時に限る。</jaJP>
+			<koKR>훗날에 스톰윈드의 왕좌를 계승할 안두인은 너그러운 마음씨를 가지고 있습니다. 어둠의 형상을 사용하기 전까지는요.</koKR>
+			<plPL>Przyszły król Wichrogrodu to miła i serdeczna osoba. No chyba że jest w Postaci Cienia.</plPL>
+			<ptBR>O futuro rei de Ventobravo é uma alma gentil e bondosa. Menos quando está em Forma de Sombra.</ptBR>
+			<ruRU>Будущий король Штормграда добр и мил... пока не примет облик Тьмы. </ruRU>
+			<zhCN>暴风城未来的国王有一颗善良而谦和的灵魂，除了他进入暗影形态的时候。</zhCN>
+			<zhTW>暴風城未來的國王有著善良和溫柔的靈魂，但在暗影型態的時候除外。</zhTW>
+		</Field>
+		<Field column="STORE_TITLE" />
+		<Field column="STORE_DESCRIPTION" />
+		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_09</Field>
 	</Record>
 	<Record>
 		<Field column="ID">10</Field>
 		<Field column="CARD_ID">HERO_01a</Field>
-		<Field column="STORE_BOUGHT">True</Field>
 		<Field column="CARD_BACK_ID">26</Field>
+		<Field column="STORE_BOUGHT">True</Field>
 		<Field column="DESCRIPTION" loc_ID="21116">
 			<enUS>Lord of Ironforge. King of Khaz Modan. Grand Explorer. Moira’s Dad. Most Huggable Leader.</enUS>
 			<deDE>Herr von Eisenschmiede, König von Khaz Modan, berühmter Entdecker, Moiras Papa und ein bär(t)iger Anführer.</deDE>
@@ -43,6 +237,7 @@
 			<esMX>Señor de Forjaz. Rey de Khaz Modan. Explorador supremo. Padre de Moira. Líder más adorable.</esMX>
 			<frFR>Seigneur de Forgefer. Roi de Khaz’Modan. Grand explorateur. Père de Moira. Chef le plus affectueux.</frFR>
 			<itIT>Signore di Forgiardente, Re di Khaz Modan, grande esploratore, padre di Moira. L'eroe più abbracciabile di tutti!</itIT>
+			<jaJP>アイアンフォージ族の長。カズモダンの王。偉大なる探検家。モイラの父親。「抱きしめたくなる指導者」No.1（当社調べ）。</jaJP>
 			<koKR>아이언포지의 국왕. 카즈 모단의 지배자. 위대한 탐험가. 모이라의 아버지. 그리고 껴안아줄 때 가장 푹신푹신한 지도자 1위에 등극한 인물입니다.</koKR>
 			<plPL>Władca Żelaznej Kuźni. Król Khaz Modan. Wielki odkrywca. Ojciec Moiry. Najbardziej przytulaśny przywódca.</plPL>
 			<ptBR>Senhor de Altaforja. Rei de Khaz Modan. Grande explorador. Papai de Moira. Líder mais fofolento.</ptBR>
@@ -50,6 +245,7 @@
 			<zhCN>铁炉堡的主人。卡兹莫丹的国王。伟大的探索者。茉艾拉的父亲。最平易近人的领袖。</zhCN>
 			<zhTW>鐵爐堡國王、卡茲莫丹之王、偉大的探險家、茉艾拉的老爸、還有讓人最想要抱緊處理的國王。</zhTW>
 		</Field>
+		<Field column="STORE_TITLE" />
 		<Field column="STORE_DESCRIPTION" loc_ID="21117">
 			<enUS>King Magni comes with an animated portrait, new visual effects, emotes and adds a new card back to your collection!\n\nMagni uses your existing warrior cards and the standard warrior hero power.</enUS>
 			<deDE>König Magni bietet ein animiertes Porträt, angepasste visuelle Effekte, neue Emotes und einen brandneuen Kartenrücken!\n\nMagni kämpft mit Kriegerkarten und der Standard-Heldenfähigkeit des Kriegers.</deDE>
@@ -57,6 +253,7 @@
 			<esMX>El Rey Magni viene con un retrato animado, nuevos efectos visuales y emociones. ¡Además agregará un dorso de carta a tu colección!\n\nMagni usa las cartas de guerrero que ya tienes y el poder de héroe estándar de esa clase.</esMX>
 			<frFR>Le roi Magni comprend un portrait animé, de nouveaux effets visuels, des emotes et un nouveau dos de carte pour votre collection !\n\nMagni utilise les cartes guerrier déjà en votre possession et le pouvoir héroïque standard du guerrier.</frFR>
 			<itIT>Re Magni si presenta con un ritratto animato, nuovi effetti visivi ed emote, e aggiunge un nuovo dorso alla tua collezione!\n\nMagni usa il Potere Eroe e le carte in tuo possesso del Guerriero.</itIT>
+			<jaJP>マグニ王には、アニメーションする肖像画と新しい視覚効果、専用の感情表現セリフと、新しいカード裏面デザインがついてくる！\n\nマグニは既存のウォリアー用のカードと、通常のウォリアーのヒーローパワーを使用する。</jaJP>
 			<koKR>국왕 마그니 세트에는 움직이는 초상화, 새로운 시각 효과, 감정 표현, 그리고 카드 뒷면이 포함되어 있습니다!\n\n마그니는 내가 보유한 전사 카드와 전사의 기본 영웅 능력을 사용합니다.</koKR>
 			<plPL>Król Magni dostępny jest wraz z animowanym portretem, nowymi efektami wizualnymi, emotkami oraz nowym rewersem kart.\n\nMagni wykorzystuje istniejące karty wojownika oraz jego standardową moc specjalną.</plPL>
 			<ptBR>O Rei Magni vem com um retrato animado, novos efeitos visuais, expressões e adiciona um novo verso de card à sua coleção!\n\nMagni usa seus cards de guerreiro existentes e o poder heroico de guerreiro padrão.</ptBR>
@@ -65,105 +262,12 @@
 			<zhTW>麥格尼國王擁有獨特的動態頭像，新的視覺效果和表情語音，並且還會增加一張全新的卡背到你的收藏中！\n\n麥格尼可以使用你擁有的戰士卡片，以及戰士的英雄能力。</zhTW>
 		</Field>
 		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_01a</Field>
-		<Field column="STORE_TITLE"></Field>
-	</Record>
-	<Record>
-		<Field column="ID">2</Field>
-		<Field column="CARD_ID">HERO_02</Field>
-		<Field column="STORE_BOUGHT">False</Field>
-		<Field column="CARD_BACK_ID"></Field>
-		<Field column="DESCRIPTION" loc_ID="21108">
-			<enUS>Thrall quit his former job as Warchief to save the world and spend more time with his family.</enUS>
-			<deDE>Thrall hat seinen Job als Kriegshäuptling an den Nagel gehängt, um die Welt zu retten – und mehr Zeit mit seiner Familie zu verbringen.</deDE>
-			<esES>Thrall renunció a su antiguo trabajo de Jefe de Guerra para salvar el mundo y pasar más tiempo con su familia.</esES>
-			<esMX>Thrall renunció a su viejo trabajo como Jefe de guerra para salvar el mundo y pasar más tiempo con su familia.</esMX>
-			<frFR>Thrall a quitté son poste de chef de guerre pour sauver le monde et passer plus de temps avec sa famille.</frFR>
-			<itIT>Thrall ha rinunciato alla posizione di Capoguerra per salvare il mondo e passare più tempo con la sua famiglia.</itIT>
-			<koKR>스랄은 세계 평화를 위해 대족장이라는 책무를 내려두고 가족과 더 시간을 보내기로 마음먹었습니다.</koKR>
-			<plPL>Thrall zrezygnował ze stanowiska wodza Hordy, aby uratować świat i spędzać więcej czasu z rodziną.</plPL>
-			<ptBR>Thrall abdicou de seu posto de Chefe Guerreiro para salvar o mundo e passar mais tempo com a família.</ptBR>
-			<ruRU>Тралл ушел с должности Вождя Орды, чтобы спасти мир и проводить больше времени с семьей.</ruRU>
-			<zhCN>为了拯救世界，也为了陪伴家人，萨尔卸下了部落酋长的重担。</zhCN>
-			<zhTW>索爾辭掉了大酋長的工作以拯救世界，並且多陪陪家人。</zhTW>
-		</Field>
-		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_02</Field>
-		<Field column="STORE_TITLE"></Field>
-		<Field column="STORE_DESCRIPTION"></Field>
-	</Record>
-	<Record>
-		<Field column="ID">3</Field>
-		<Field column="CARD_ID">HERO_03</Field>
-		<Field column="STORE_BOUGHT">False</Field>
-		<Field column="CARD_BACK_ID"></Field>
-		<Field column="DESCRIPTION" loc_ID="21109">
-			<enUS>Expert assassin.  Deadly gladiator.  Best knife skills in her cooking class, according to survivors.</enUS>
-			<deDE>Profikillerin und Gladiatorenchampion. Glänzte in ihrem Kochkurs durch geschickten Umgang mit Messern ... behaupten zumindest die Überlebenden.</deDE>
-			<esES>Asesina experta y gladiadora letal. Mostró una destreza insuperable con los cuchillos en clase de cocina, según comentan los supervivientes.</esES>
-			<esMX>Asesina experta. Gladiadora letal. Nadie maneja mejor el cuchillo en su clase de cocina... dicen los sobrevivientes.</esMX>
-			<frFR>Tueuse experte. Gladiatrice létale. Meilleur coup de couteau de son cours de cuisine, d’après les survivants.</frFR>
-			<itIT>Esperta assassina e micidiale gladiatrice. La migliore con i coltelli del suo corso di cucina, a detta dei sopravvissuti.</itIT>
-			<koKR>노련한 암살자. 잔혹한 검투사. 하지만 발리라와 함께 여행한 자들은 그녀의 뛰어난 요리 솜씨에 더욱 놀란다고 합니다.</koKR>
-			<plPL>Doskonała skrytobójczyni. Bezwzględna gladiatorka. A podobno także mistrzyni szatkowania kapusty.</plPL>
-			<ptBR>Assassina perita. Gladiadora mortal. Melhores habilidades com faca na aula de culinária (de acordo com os sobreviventes).</ptBR>
-			<ruRU>Опытная убийца. Смертоносный гладиатор. А еще видели бы вы, как она работает ножами в кулинарной школе!</ruRU>
-			<zhCN>刺杀专家。致命角斗士。唯一在暴风城中享有崇高威望的血精灵。</zhCN>
-			<zhTW>精英殺手，致命鬥士，而且根據生還者所言，她的刀工在料理界也堪稱一絕。</zhTW>
-		</Field>
-		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_03</Field>
-		<Field column="STORE_TITLE"></Field>
-		<Field column="STORE_DESCRIPTION"></Field>
-	</Record>
-	<Record>
-		<Field column="ID">4</Field>
-		<Field column="CARD_ID">HERO_04</Field>
-		<Field column="STORE_BOUGHT">False</Field>
-		<Field column="CARD_BACK_ID"></Field>
-		<Field column="DESCRIPTION" loc_ID="21110">
-			<enUS>Leader of the Knights of the Silver Hand.  Best-selling author of The Light and How to Swing It.</enUS>
-			<deDE>Anführer des Ordens der Silbernen Hand und Autor des Bestsellers „Vom Licht und wie man es schwingt“.</deDE>
-			<esES>Líder de los caballeros de la Mano de Plata y autor del popular libro "La Luz y cómo alterarla".</esES>
-			<esMX>Líder de los caballeros de la Mano de Plata. Autor del éxito de ventas "La Luz y cómo alterarla".</esMX>
-			<frFR>Chef des chevaliers de la Main d’argent. Auteur à succès de « La Lumière et comment l'altérer ».</frFR>
-			<itIT>Capo dei Cavalieri della Mano d'Argento. Autore del best seller "Come gestire la Luce".</itIT>
-			<koKR>은빛 성기사단의 지도자입니다. '빛과 정의에 관하여'라는 책의 저자이기도 합니다.</koKR>
-			<plPL>Dowódca Rycerzy Srebrnej Dłoni. Autor bestsellera „Światłość dla opornych”.</plPL>
-			<ptBR>Líder dos Cavaleiros do Punho de Prata. Autor do best-seller "A Luz e como Ativá-la".</ptBR>
-			<ruRU>Предводитель Рыцарей Серебряной Длани и автор бессмертного произведения «Раскачаем этот свет».</ruRU>
-			<zhCN>白银之手骑士团的领袖。年度畅销读物《圣光之力》的作者。</zhCN>
-			<zhTW>白銀之手騎士團的首領。讓他出名的不只是聖光，還有手中的大錘。</zhTW>
-		</Field>
-		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_04</Field>
-		<Field column="STORE_TITLE"></Field>
-		<Field column="STORE_DESCRIPTION"></Field>
-	</Record>
-	<Record>
-		<Field column="ID">5</Field>
-		<Field column="CARD_ID">HERO_05</Field>
-		<Field column="STORE_BOUGHT">False</Field>
-		<Field column="CARD_BACK_ID"></Field>
-		<Field column="DESCRIPTION" loc_ID="21111">
-			<enUS>He only feels at home in the wilderness with his beasts.  Super secret:  Misha is his favorite.</enUS>
-			<deDE>Wirklich wohl fühlt er sich nur in der Wildnis mit seinen Tieren. Pssst: Misha mag er am liebsten.</deDE>
-			<esES>Solo se siente cómodo en plena naturaleza con sus bestias. Un secreto: Misha es su favorita.</esES>
-			<esMX>Solo se siente en casa en la naturaleza rodeado de sus bestias. No le digas a nadie, pero Misha es su favorita.</esMX>
-			<frFR>Il ne se sent chez lui que dans la nature avec ses bêtes. Super secret : c’est Misha qu’il préfère.</frFR>
-			<itIT>Si sente davvero a casa solo nelle terre selvagge, insieme alle sue bestie. Segreto: Misha è la sua preferita!</itIT>
-			<koKR>야수들과 함께 야생에 있는 걸 가장 좋아합니다. 비밀 하나 알려드릴까요? 그중 미샤를 제일로 아낀다고 하네요.</koKR>
-			<plPL>Najlepiej czuje się w dziczy, w towarzystwie swoich bestii. Zdradzę sekret: jego ulubieńcem jest Misza.</plPL>
-			<ptBR>Ele só se sente em casa na mata, com suas feras. (Segredo suuuper secreto: Misha é o favorito dele).</ptBR>
-			<ruRU>Он чувствует себя как дома только в чаще лесов в окружении своих зверей. Миша, кстати, его любимица. Только никому ни слова!</ruRU>
-			<zhCN>在浪迹天涯的岁月里，只有野兽的陪伴才能够给他家的温暖。而巨熊米莎则是他的最爱。</zhCN>
-			<zhTW>他只有和動物夥伴在野外的時候，才有回家的感覺。噓，他對米莎比較偏心！</zhTW>
-		</Field>
-		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_05</Field>
-		<Field column="STORE_TITLE"></Field>
-		<Field column="STORE_DESCRIPTION"></Field>
 	</Record>
 	<Record>
 		<Field column="ID">11</Field>
 		<Field column="CARD_ID">HERO_05a</Field>
-		<Field column="STORE_BOUGHT">True</Field>
 		<Field column="CARD_BACK_ID">25</Field>
+		<Field column="STORE_BOUGHT">True</Field>
 		<Field column="DESCRIPTION" loc_ID="21118">
 			<enUS>The high elf Ranger Captain is a peerless archer. Ask any of the orcs she used for target practice.</enUS>
 			<deDE>Diese Elfenwaldläuferin ist eine beispiellose Bogenschützin. Fragt nur mal die Orcs, die für sie als Ziele herhalten mussten.</deDE>
@@ -171,6 +275,7 @@
 			<esMX>La Capitana forestal de los elfos nobles es una arquera sin igual. Si no me crees, pregúntale a cualquiera de los orcos que ha usado para practicar.</esMX>
 			<frFR>Le capitaine des Forestiers haut-elfe est une archère hors pair. Vous n’avez qu’à demander aux orcs qui lui ont servi de cible d’entraînement.</frFR>
 			<itIT>L'Alta Elfa e Capitano dei Guardaboschi è un'eccellente arciera. Chiedi conferma agli Orchi su cui fa pratica.</itIT>
+			<jaJP>ハイエルフのレンジャー隊長は天下無双の弓の使い手だ。嘘だと思うなら、訓練用の的にされたオークたちに聞いてみな。</jaJP>
 			<koKR>하이 엘프의 순찰대장인 알레리아는 뛰어난 궁수입니다. 그녀의 표적이 된 오크들은 이를 너무나도 잘 알죠.</koKR>
 			<plPL>Kapitan Tropicieli wysokich elfów to wyśmienita łuczniczka. Zapytaj dowolnego orka, na którym ćwiczyła.</plPL>
 			<ptBR>A capitã-patrulheira élfica é uma arqueira sem igual. Pergunte a um dos orcs que ela usou de alvo no treino.</ptBR>
@@ -178,6 +283,7 @@
 			<zhCN>高等精灵游侠将军，独步天下的神射手。死在她箭下的兽人士兵数不胜数。</zhCN>
 			<zhTW>這位高等精靈遊俠隊長是舉世無雙的神射手，不信的話，問問被她拿來當靶的獸人就知道了。</zhTW>
 		</Field>
+		<Field column="STORE_TITLE" />
 		<Field column="STORE_DESCRIPTION" loc_ID="21119">
 			<enUS>Ranger Alleria comes with an animated portrait, new visual effects, emotes and adds a new card back to your collection! \n\nAlleria uses your existing hunter cards and the standard hunter hero power.</enUS>
 			<deDE>Die Waldläuferin Alleria bietet ein animiertes Porträt, angepasste visuelle Effekte, neue Emotes und einen brandneuen Kartenrücken!\n\nAlleria kämpft mit Jägerkarten und der Standard-Heldenfähigkeit des Jägers.</deDE>
@@ -185,6 +291,7 @@
 			<esMX>La Capitana forestal Alleria viene con un retrato animado, nuevos efectos visuales y emociones. ¡Además agregará un dorso de carta a tu colección!\n\nAlleria usa las cartas de cazador que ya tienes y el poder de héroe estándar de esa clase.</esMX>
 			<frFR>Le capitaine des Forestiers Alleria comprend un portrait animé, de nouveaux effets visuels, des emotes et un nouveau dos de carte pour votre collection !\n\nAlleria utilise les cartes chasseur déjà en votre possession et le pouvoir héroïque standard du chasseur.</frFR>
 			<itIT>La Guardaboschi Alleria si presenta con un ritratto animato, nuovi effetti visivi ed emote, e aggiunge un nuovo dorso alla tua collezione!\n\nAlleria usa il Potere Eroe e le carte in tuo possesso del Cacciatore.</itIT>
+			<jaJP>レンジャーのアレリアには、アニメーションする肖像画と新しい視覚効果、専用の感情表現セリフと、新しいカード裏面デザインがついてくる！\n\nアレリアは既存のハンター用のカードと、通常のハンターのヒーローパワーを使用する。</jaJP>
 			<koKR>순찰대장 알레리아 세트에는 움직이는 초상화, 새로운 시각 효과, 감정 표현, 그리고 카드 뒷면이 포함되어 있습니다!\n\n알레리아는 내가 보유한 사냥꾼 카드와 사냥꾼의 기본 영웅 능력을 사용합니다.</koKR>
 			<plPL>Tropicielka Alleria dostępna jest wraz z animowanym portretem, nowymi efektami wizualnymi, emotkami oraz nowym rewersem kart.\n\nAlleria wykorzystuje istniejące karty łowcy oraz jego standardową moc specjalną.</plPL>
 			<ptBR>A Patrulheira Alleria vem com um retrato animado, novos efeitos visuais, expressões e adiciona um novo verso de card à sua coleção!\n\nAlleria usa seus cards de caçador existentes e o poder heroico de caçador padrão.</ptBR>
@@ -193,82 +300,12 @@
 			<zhTW>遊俠艾蘭里亞擁有獨特的動態頭像，新的視覺效果和表情語音，並且還會增加一張全新的卡背到你的收藏！\n\n艾蘭里亞可以使用你擁有的獵人卡片，以及獵人的英雄能力。</zhTW>
 		</Field>
 		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_05a</Field>
-		<Field column="STORE_TITLE"></Field>
-	</Record>
-	<Record>
-		<Field column="ID">6</Field>
-		<Field column="CARD_ID">HERO_06</Field>
-		<Field column="STORE_BOUGHT">False</Field>
-		<Field column="CARD_BACK_ID"></Field>
-		<Field column="DESCRIPTION" loc_ID="21112">
-			<enUS>The lord of the night elves is a wise and noble leader.  Yes, those antlers are real.</enUS>
-			<deDE>Der Herr der Nachtelfen ist ein weiser und edelmütiger Anführer. Und ja, das Geweih ist echt.</deDE>
-			<esES>El señor de los elfos de la noche es un líder sabio y noble, y sí, esa cornamenta es de verdad.</esES>
-			<esMX>El señor de los elfos de la noche es un líder sabio y noble. Y sí, esos cuernos son de verdad.</esMX>
-			<frFR>Le seigneur des elfes de la nuit est un chef sage et noble. Et oui, ses bois sont vrais.</frFR>
-			<itIT>Il signore degli Elfi della Notte è un saggio e nobile condottiero. E sì, quelle corna sono vere.</itIT>
-			<koKR>나이트 엘프의 지혜롭고 고결한 지도자입니다. 네, 뿔 맞습니다. 장식이 아니라고요.</koKR>
-			<plPL>Władca nocnych elfów to mądry i szlachetny przywódca. I tak, to poroże jest prawdziwe.</plPL>
-			<ptBR>O senhor dos elfos noturnos é um líder sábio e nobre. E aquilo não são "chifres", são "galhadas".</ptBR>
-			<ruRU>Владыка ночных эльфов — мудрый и благородный правитель. И хватит уже шуточек про его рога.</ruRU>
-			<zhCN>暗夜精灵的领袖，睿智而高贵的大德鲁伊。没错，那些鹿角是真货。</zhCN>
-			<zhTW>夜精靈的首領是真正高尚又充滿智慧的領導者，而且那對鹿角也是真的。</zhTW>
-		</Field>
-		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_06</Field>
-		<Field column="STORE_TITLE"></Field>
-		<Field column="STORE_DESCRIPTION"></Field>
-	</Record>
-	<Record>
-		<Field column="ID">7</Field>
-		<Field column="CARD_ID">HERO_07</Field>
-		<Field column="STORE_BOUGHT">False</Field>
-		<Field column="CARD_BACK_ID"></Field>
-		<Field column="DESCRIPTION" loc_ID="21113">
-			<enUS>Talented, persuasive and hard-working.  Too bad he wants to feed your soul to demons.</enUS>
-			<deDE>Talentiert, zielorientiert und sehr überzeugend. Wenn Ihr Euch mit ihm einlasst, solltet Ihr Eure Seele gut im Auge behalten.</deDE>
-			<esES>Con talento, persuasivo y trabajador. Es una pena que quiera alimentar a los demonios con tu alma.</esES>
-			<esMX>Talentoso, persuasivo, trabajador... Lástima que quiera alimentar a los demonios con tu alma.</esMX>
-			<frFR>Talentueux, persuasif et travailleur. Dommage qu’il veuille donner votre âme en pâture aux démons.</frFR>
-			<itIT>Talentuoso, persuasivo e diligente. Peccato che voglia dare la tua anima in pasto ai demoni.</itIT>
-			<koKR>재능이 넘치고 언변이 뛰어난데다 부지런합니다. 당신의 영혼을 악마에게 먹이려고 하는 게 문제죠.</koKR>
-			<plPL>Utalentowany, elokwentny i pracowity. Szkoda, że chce nakarmić demony twoją duszą.</plPL>
-			<ptBR>Talentoso, persuasivo e dedicado. Pena que ele quer dar sua alma de comer pros demônios.</ptBR>
-			<ruRU>Талантливый, упорный и трудолюбивый. Ни перед чем не остановится, чтобы скормить вашу душу демонам.</ruRU>
-			<zhCN>天赋异禀、能言善道、刻苦努力的术士。可惜他一心想做的事情就是把你的灵魂送给恶魔。</zhCN>
-			<zhTW>天資聰穎、辯才無礙、又奮發向上，可惜他的目標是把你的靈魂獻給惡魔。</zhTW>
-		</Field>
-		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_07</Field>
-		<Field column="STORE_TITLE"></Field>
-		<Field column="STORE_DESCRIPTION"></Field>
-	</Record>
-	<Record>
-		<Field column="ID">8</Field>
-		<Field column="CARD_ID">HERO_08</Field>
-		<Field column="STORE_BOUGHT">False</Field>
-		<Field column="CARD_BACK_ID"></Field>
-		<Field column="DESCRIPTION" loc_ID="21114">
-			<enUS>The Kirin Tor’s leader is a powerful sorceress.  She used to be a lot nicer before the Theramore thing.</enUS>
-			<deDE>Mächtige Magierin und Anführerin der Kirin Tor. Sie hat seit dem „Theramore-Vorfall“ leichte Aggressionsprobleme.</deDE>
-			<esES>La líder del Kirin Tor es una poderosa hechicera, aunque solía ser mucho más simpática antes de todo ese asunto de Theramore.</esES>
-			<esMX>La líder del Kirin Tor es una hechicera poderosa. Era mucho más amable antes del incidente de Theramore.</esMX>
-			<frFR>La dirigeante du Kirin Tor est une puissante ensorceleuse. Elle était bien plus sympa avant cette histoire de Theramore.</frFR>
-			<itIT>Il capo del Kirin Tor è una potente Maga. Era indubbiamente più amichevole prima della distruzione di Theramore.</itIT>
-			<koKR>강력한 여마법사인 제이나는 키린 토의 수장입니다. 테라모어에서 일어난 참사만 아니었어도 훨씬 상냥했을텐데 말이죠.</koKR>
-			<plPL>Przywódczyni Kirin Toru to potężna czarodziejka. Ale była znacznie cieplejsza przed wydarzeniami w Theramore.</plPL>
-			<ptBR>A líder do Kirin Tor é uma feiticeira poderosa. Ela era mais legal antes daquele lance em Theramore.</ptBR>
-			<ruRU>Предводительница Кирин-Тора, бесспорно, могучая чародейка. Но история с Терамором основательно подпортила ее характер.</ruRU>
-			<zhCN>肯瑞托的领袖，强大的法师。曾经优柔温良而善解人意的她，被骇人听闻的塞拉摩事件彻底改变了。</zhCN>
-			<zhTW>祈倫托首領是位強大的法師，她在塞拉摩那些事發生之前，是個相當和善的人。</zhTW>
-		</Field>
-		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_08</Field>
-		<Field column="STORE_TITLE"></Field>
-		<Field column="STORE_DESCRIPTION"></Field>
 	</Record>
 	<Record>
 		<Field column="ID">12</Field>
 		<Field column="CARD_ID">HERO_08a</Field>
-		<Field column="STORE_BOUGHT">True</Field>
 		<Field column="CARD_BACK_ID">27</Field>
+		<Field column="STORE_BOUGHT">True</Field>
 		<Field column="DESCRIPTION" loc_ID="21120">
 			<enUS>The Guardian of Tirisfal is a force for good.  Demonic possession is a manageable condition.</enUS>
 			<deDE>Der Wächter von Tirisfal ist ein Kämpfer für das Gute! Dass er von einem gefallenen Titanen besessen ist, beeinflusst ihn kein bisschen.</deDE>
@@ -276,6 +313,7 @@
 			<esMX>El Guardián de Tirisfal es una fuerza del bien. La posesión demoníaca es un trastorno completamente controlable.</esMX>
 			<frFR>Le gardien de Tirisfal est une force agissant pour le bien. La possession démoniaque, il gère.</frFR>
 			<itIT>Il Guardiano di Tirisfal è una forza del bene. La possessione demoniaca è una condizione assolutamente gestibile.</itIT>
+			<jaJP>ティリスファルのガーディアンは正義の守護者だ。少々悪魔に支配されていましたが、実用には問題ありません。</jaJP>
 			<koKR>티리스팔의 수호자인 메디브는 선한 마음씨를 가지고 있습니다. 가끔 악마에 지배당하긴 했지만 심각한 증상은 아니었습니다.</koKR>
 			<plPL>Strażnik Tirisfal to uosobienie dobra. Jakoś sobie radzi z demonicznym opętaniem.</plPL>
 			<ptBR>O Guardião de Tirisfal é uma força do bem. A tal possessão demoníaca já está sob controle.</ptBR>
@@ -283,6 +321,7 @@
 			<zhCN>肩上担负的是守护提瑞斯法议会的重任，心中潜伏的是毁灭艾泽拉斯的恶魔。</zhCN>
 			<zhTW>提里斯法守護者就是一股善的力量，就算有惡魔附身也不成問題。</zhTW>
 		</Field>
+		<Field column="STORE_TITLE" />
 		<Field column="STORE_DESCRIPTION" loc_ID="21121">
 			<enUS>Guardian Medivh comes with an animated portrait, new visual effects, emotes and adds a new card back to your collection!\n\nMedivh uses your existing mage cards and the standard mage hero power.</enUS>
 			<deDE>Der Wächter Medivh bietet ein animiertes Porträt, angepasste visuelle Effekte, neue Emotes und einen brandneuen Kartenrücken!\n\nMedivh kämpft mit Magierkarten und der Standard-Heldenfähigkeit des Magiers.</deDE>
@@ -290,6 +329,7 @@
 			<esMX>El Guardián Medivh viene con un retrato animado, nuevos efectos visuales y emociones. ¡Además agregará un dorso de carta a tu colección!\n\nMedivh usa las cartas de mago que ya tienes y el poder de héroe estándar de esa clase.</esMX>
 			<frFR>Le gardien Medivh comprend un portrait animé, de nouveaux effets visuels, des emotes et un nouveau dos de carte pour votre collection !\n\nMedivh utilise les cartes mage déjà en votre possession et le pouvoir héroïque standard du mage.</frFR>
 			<itIT>Il Guardiano Medivh si presenta con un ritratto animato, nuovi effetti visivi ed emote, e aggiunge un nuovo dorso alla tua collezione!\n\nMedivh usa il Potere Eroe e le carte in tuo possesso del Mago.</itIT>
+			<jaJP>ガーディアンのメディヴには、アニメーションする肖像画と新しい視覚効果、専用の感情表現セリフと、新しいカード裏面デザインがついてくる！\n\nメディヴは既存のメイジ用のカードと、通常のメイジのヒーローパワーを使用する。</jaJP>
 			<koKR>수호자 메디브 세트에는 움직이는 초상화, 새로운 시각 효과, 감정 표현, 그리고 카드 뒷면이 포함되어 있습니다!\n\n메디브는 내가 보유한 마법사 카드와 마법사의 기본 영웅 능력을 사용합니다.</koKR>
 			<plPL>Strażnik Medivh dostępny jest wraz z animowanym portretem, nowymi efektami wizualnymi, emotkami oraz nowym rewersem kart.\n\nMedivh wykorzystuje istniejące karty maga oraz jego standardową moc specjalną.</plPL>
 			<ptBR>O Guardião Medivh vem com um retrato animado, novos efeitos visuais, expressões e adiciona um novo verso de card à sua coleção!\n\nMedivh usa seus cards de mago existentes e o poder heroico de mago padrão.</ptBR>
@@ -298,29 +338,5 @@
 			<zhTW>守護者麥迪文擁有獨特的動態頭像，新的視覺效果和表情語音，並且還會增加一張全新的卡背到你的收藏！\n\n麥迪文可以使用你擁有的法師卡片，以及法師的英雄能力。</zhTW>
 		</Field>
 		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_08a</Field>
-		<Field column="STORE_TITLE"></Field>
-	</Record>
-	<Record>
-		<Field column="ID">9</Field>
-		<Field column="CARD_ID">HERO_09</Field>
-		<Field column="STORE_BOUGHT">False</Field>
-		<Field column="CARD_BACK_ID"></Field>
-		<Field column="DESCRIPTION" loc_ID="21115">
-			<enUS>The future King of Stormwind is a kind, gentle soul.  Except when he’s in Shadowform.</enUS>
-			<deDE>Der zukünftige König Sturmwinds ist ein guter Junge ... in Schattengestalt manchmal aber sehr unartig.</deDE>
-			<esES>El futuro Rey de Ventormenta es un alma noble y gentil. Excepto cuando está en Forma de las Sombras.</esES>
-			<esMX>El futuro rey de Ventormenta es un alma amable y gentil. Excepto cuando está en Forma de las sombras.</esMX>
-			<frFR>Le futur roi de Hurlevent est une âme douce et bonne. Sauf quand il est en forme d’Ombre.</frFR>
-			<itIT>Il futuro Re di Roccavento è una persona dall'animo gentile. Tranne quando è in Forma d'Ombra.</itIT>
-			<koKR>훗날에 스톰윈드의 왕좌를 계승할 안두인은 너그러운 마음씨를 가지고 있습니다. 어둠의 형상을 사용하기 전까지는요.</koKR>
-			<plPL>Przyszły król Wichrogrodu to miła i serdeczna osoba. No chyba że jest w Postaci Cienia.</plPL>
-			<ptBR>O futuro rei de Ventobravo é uma alma gentil e bondosa. Menos quando está em Forma de Sombra.</ptBR>
-			<ruRU>Будущий король Штормграда добр и мил... пока не примет облик Тьмы. </ruRU>
-			<zhCN>暴风城未来的国王有一颗善良而谦和的灵魂，除了他进入暗影形态的时候。</zhCN>
-			<zhTW>暴風城未來的國王有著善良和溫柔的靈魂，但在暗影型態的時候除外。</zhTW>
-		</Field>
-		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_09</Field>
-		<Field column="STORE_TITLE"></Field>
-		<Field column="STORE_DESCRIPTION"></Field>
 	</Record>
 </Dbf>
