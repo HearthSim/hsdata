@@ -1,21 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Dbf name="WING">
-	<SourceFingerprint>8rMI1Tq5CpYgl3iD7caYgVmNFnE=</SourceFingerprint>
+	<SourceFingerprint>2hZEO3I4yXaN74/2AXjpPicow58=</SourceFingerprint>
 	<Column name="ID" type="Int" />
 	<Column name="NOTE_DESC" type="String" />
 	<Column name="ADVENTURE_ID" type="Int" />
 	<Column name="SORT_ORDER" type="Int" />
+	<Column name="RELEASE" type="String" />
 	<Column name="REQUIRED_EVENT" type="String" />
 	<Column name="OWNERSHIP_PREREQ_WING_ID" type="Int" />
 	<Column name="NAME" type="LocString" />
 	<Column name="CLASS_CHALLENGE_REWARD_SOURCE" type="LocString" />
-	<Column name="UNLOCK_SPELL_PREFAB" type="AssetPath" />
-	<Column name="ACCENT_PREFAB" type="AssetPath" />
+	<Column name="ADVENTURE_WING_DEF_PREFAB" type="AssetPath" />
+	<Column name="COMING_SOON_LABEL" type="LocString" />
+	<Column name="REQUIRES_LABEL" type="LocString" />
 	<Record>
 		<Field column="ID">1</Field>
 		<Field column="NOTE_DESC">Arachnid</Field>
 		<Field column="ADVENTURE_ID">3</Field>
 		<Field column="SORT_ORDER">1</Field>
+		<Field column="RELEASE">naxx</Field>
 		<Field column="REQUIRED_EVENT">naxx_1</Field>
 		<Field column="OWNERSHIP_PREREQ_WING_ID">0</Field>
 		<Field column="NAME" loc_ID="21172">
@@ -48,14 +51,30 @@
 			<zhCN>你还能够尝试挑战极度困难的英雄难度蜘蛛区！</zhCN>
 			<zhTW>你也可以試試看困難到會令人抓狂的英雄難度蜘蛛區！</zhTW>
 		</Field>
-		<Field column="UNLOCK_SPELL_PREFAB">Assets/Game/GameObjects/AdvPlateFX_NAX_Arachnid</Field>
-		<Field column="ACCENT_PREFAB">Assets/Game/GameObjects/AdvTrayHeaderIcon_Nax_Arachnid</Field>
+		<Field column="ADVENTURE_WING_DEF_PREFAB">Assets/Game/GameObjects/AdventureWingDefs/AdventureWingDef_NAX_Arachnid</Field>
+		<Field column="COMING_SOON_LABEL" loc_ID="21841">
+			<enUS>Opens Week 1</enUS>
+			<deDE>Ab Woche 1 offen</deDE>
+			<esES>Abre en la semana 1</esES>
+			<esMX>Se abre la semana 1</esMX>
+			<frFR>Ouvre la 1re semaine</frFR>
+			<itIT>Disponibile dalla settimana 1</itIT>
+			<jaJP>第1週に公開</jaJP>
+			<koKR>1주차에 공개됩니다</koKR>
+			<plPL>Otwarcie w tygodniu 1</plPL>
+			<ptBR>Abre na semana 1</ptBR>
+			<ruRU>Откроется на 1-й неделе</ruRU>
+			<zhCN>在第一周开放</zhCN>
+			<zhTW>第一週開放</zhTW>
+		</Field>
+		<Field column="REQUIRES_LABEL" />
 	</Record>
 	<Record>
 		<Field column="ID">2</Field>
 		<Field column="NOTE_DESC">Plague</Field>
 		<Field column="ADVENTURE_ID">3</Field>
 		<Field column="SORT_ORDER">2</Field>
+		<Field column="RELEASE">naxx</Field>
 		<Field column="REQUIRED_EVENT">naxx_2</Field>
 		<Field column="OWNERSHIP_PREREQ_WING_ID">1</Field>
 		<Field column="NAME" loc_ID="21174">
@@ -88,14 +107,44 @@
 			<zhCN>你还能够尝试挑战极度困难的英雄难度瘟疫区！</zhCN>
 			<zhTW>你也可以試試看困難到會令人抓狂的英雄難度瘟疫區！</zhTW>
 		</Field>
-		<Field column="UNLOCK_SPELL_PREFAB">Assets/Game/GameObjects/AdvPlateFX_NAX_Plague</Field>
-		<Field column="ACCENT_PREFAB">Assets/Game/GameObjects/AdvTrayHeaderIcon_Nax_Plague</Field>
+		<Field column="ADVENTURE_WING_DEF_PREFAB">Assets/Game/GameObjects/AdventureWingDefs/AdventureWingDef_NAX_Plague</Field>
+		<Field column="COMING_SOON_LABEL" loc_ID="21842">
+			<enUS>Opens Week 2</enUS>
+			<deDE>Ab Woche 2 offen</deDE>
+			<esES>Abre en la semana 2</esES>
+			<esMX>Se abre la semana 2</esMX>
+			<frFR>Ouvre la 2e semaine</frFR>
+			<itIT>Disponibile dalla settimana 2</itIT>
+			<jaJP>第2週に公開</jaJP>
+			<koKR>2주차에 공개됩니다</koKR>
+			<plPL>Otwarcie w tygodniu 2</plPL>
+			<ptBR>Abre na semana 2</ptBR>
+			<ruRU>Откроется на 2-й неделе</ruRU>
+			<zhCN>在第二周开放</zhCN>
+			<zhTW>第二週開放</zhTW>
+		</Field>
+		<Field column="REQUIRES_LABEL" loc_ID="21856">
+			<enUS>Requires\nArachnid Quarter</enUS>
+			<deDE>Erfordert\nArachnidenviertel</deDE>
+			<esES>Requiere\nArrabal Arácnido</esES>
+			<esMX>Requiere\nArrabal Arácnido</esMX>
+			<frFR>Requiert le\nquartier des Arachnides</frFR>
+			<itIT>Richiede\nl'Ala degli Aracnidi</itIT>
+			<jaJP>要・蜘蛛区画</jaJP>
+			<koKR>거미 지구\n필요</koKR>
+			<plPL>Wymaga\nRewiru Arachnidów</plPL>
+			<ptBR>Requer o\nDistrito dos Aracnídeos</ptBR>
+			<ruRU>Требуется\nПаучий квартал</ruRU>
+			<zhCN>需要完成\n蜘蛛区</zhCN>
+			<zhTW>需要通過\n蜘蛛區</zhTW>
+		</Field>
 	</Record>
 	<Record>
 		<Field column="ID">3</Field>
 		<Field column="NOTE_DESC">Military</Field>
 		<Field column="ADVENTURE_ID">3</Field>
 		<Field column="SORT_ORDER">3</Field>
+		<Field column="RELEASE">naxx</Field>
 		<Field column="REQUIRED_EVENT">naxx_3</Field>
 		<Field column="OWNERSHIP_PREREQ_WING_ID">2</Field>
 		<Field column="NAME" loc_ID="21176">
@@ -128,14 +177,44 @@
 			<zhCN>你还能够尝试挑战极度困难的英雄难度军事区！</zhCN>
 			<zhTW>你也可以試試看困難到會令人抓狂的英雄難度軍事區！</zhTW>
 		</Field>
-		<Field column="UNLOCK_SPELL_PREFAB">Assets/Game/GameObjects/AdvPlateFX_NAX_Military</Field>
-		<Field column="ACCENT_PREFAB">Assets/Game/GameObjects/AdvTrayHeaderIcon_Nax_Military</Field>
+		<Field column="ADVENTURE_WING_DEF_PREFAB">Assets/Game/GameObjects/AdventureWingDefs/AdventureWingDef_NAX_Military</Field>
+		<Field column="COMING_SOON_LABEL" loc_ID="21843">
+			<enUS>Opens Week 3</enUS>
+			<deDE>Ab Woche 3 offen</deDE>
+			<esES>Abre en la semana 3</esES>
+			<esMX>Se abre la semana 3</esMX>
+			<frFR>Ouvre la 3e semaine</frFR>
+			<itIT>Disponibile dalla settimana 3</itIT>
+			<jaJP>第3週に公開</jaJP>
+			<koKR>3주차에 공개됩니다</koKR>
+			<plPL>Otwarcie w tygodniu 3</plPL>
+			<ptBR>Abre na semana 3</ptBR>
+			<ruRU>Откроется на 3-й неделе</ruRU>
+			<zhCN>在第三周开放</zhCN>
+			<zhTW>第三週開放</zhTW>
+		</Field>
+		<Field column="REQUIRES_LABEL" loc_ID="21857">
+			<enUS>Requires\nPlague Quarter</enUS>
+			<deDE>Erfordert\nSeuchenviertel</deDE>
+			<esES>Requiere\nArrabal de la Peste</esES>
+			<esMX>Requiere\nArrabal de la Peste</esMX>
+			<frFR>Requiert le\nquartier de la Peste</frFR>
+			<itIT>Richiede\nl'Ala della Pestilenza</itIT>
+			<jaJP>要・疫病区画</jaJP>
+			<koKR>역병 지구\n필요</koKR>
+			<plPL>Wymaga\nRewiru Zarazy</plPL>
+			<ptBR>Requer o\nDistrito da Peste</ptBR>
+			<ruRU>Требуется\nЧумной квартал</ruRU>
+			<zhCN>需要完成\n瘟疫区</zhCN>
+			<zhTW>需要通過\n瘟疫區</zhTW>
+		</Field>
 	</Record>
 	<Record>
 		<Field column="ID">4</Field>
 		<Field column="NOTE_DESC">Construct</Field>
 		<Field column="ADVENTURE_ID">3</Field>
 		<Field column="SORT_ORDER">4</Field>
+		<Field column="RELEASE">naxx</Field>
 		<Field column="REQUIRED_EVENT">naxx_4</Field>
 		<Field column="OWNERSHIP_PREREQ_WING_ID">3</Field>
 		<Field column="NAME" loc_ID="21178">
@@ -168,14 +247,44 @@
 			<zhCN>你还能够尝试挑战极度困难的英雄难度构造区！</zhCN>
 			<zhTW>你也可以試試看困難到會令人抓狂的英雄難度傀儡區！</zhTW>
 		</Field>
-		<Field column="UNLOCK_SPELL_PREFAB">Assets/Game/GameObjects/AdvPlateFX_NAX_Construct</Field>
-		<Field column="ACCENT_PREFAB">Assets/Game/GameObjects/AdvTrayHeaderIcon_Nax_Construct</Field>
+		<Field column="ADVENTURE_WING_DEF_PREFAB">Assets/Game/GameObjects/AdventureWingDefs/AdventureWingDef_NAX_Construct</Field>
+		<Field column="COMING_SOON_LABEL" loc_ID="21844">
+			<enUS>Opens Week 4</enUS>
+			<deDE>Ab Woche 4 offen</deDE>
+			<esES>Abre en la semana 4</esES>
+			<esMX>Se abre la semana 4</esMX>
+			<frFR>Ouvre la 4e semaine</frFR>
+			<itIT>Disponibile dalla settimana 4</itIT>
+			<jaJP>第4週に公開</jaJP>
+			<koKR>4주차에 공개됩니다</koKR>
+			<plPL>Otwarcie w tygodniu 4</plPL>
+			<ptBR>Abre na semana 4</ptBR>
+			<ruRU>Откроется на 4-й неделе</ruRU>
+			<zhCN>在第四周开放</zhCN>
+			<zhTW>第四週開放</zhTW>
+		</Field>
+		<Field column="REQUIRES_LABEL" loc_ID="21858">
+			<enUS>Requires\nMilitary Quarter</enUS>
+			<deDE>Erfordert\nMilitärviertel</deDE>
+			<esES>Requiere\nArrabal Militar</esES>
+			<esMX>Requiere\nArrabal Militar</esMX>
+			<frFR>Requiert le\nquartier Militaire</frFR>
+			<itIT>Richiede\nl'Ala dei Combattenti</itIT>
+			<jaJP>要・軍隊区画</jaJP>
+			<koKR>군사 지구\n필요</koKR>
+			<plPL>Wymaga\nRewiru Zbrojnych</plPL>
+			<ptBR>Requer o\nDistrito Militar</ptBR>
+			<ruRU>Требуется\nВоенный квартал</ruRU>
+			<zhCN>需要完成\n军事区</zhCN>
+			<zhTW>需要通過\n軍事區</zhTW>
+		</Field>
 	</Record>
 	<Record>
 		<Field column="ID">5</Field>
 		<Field column="NOTE_DESC">Frostwyrm</Field>
 		<Field column="ADVENTURE_ID">3</Field>
 		<Field column="SORT_ORDER">5</Field>
+		<Field column="RELEASE">naxx</Field>
 		<Field column="REQUIRED_EVENT">naxx_5</Field>
 		<Field column="OWNERSHIP_PREREQ_WING_ID">4</Field>
 		<Field column="NAME" loc_ID="21180">
@@ -208,14 +317,44 @@
 			<zhCN>你还能够尝试挑战极度困难的英雄难度冰龙巢穴！</zhCN>
 			<zhTW>你也可以試試看困難到會令人抓狂的冰霜巨龍巢穴！</zhTW>
 		</Field>
-		<Field column="UNLOCK_SPELL_PREFAB">Assets/Game/GameObjects/AdvPlateFX_NAX_FrostWyrm</Field>
-		<Field column="ACCENT_PREFAB">Assets/Game/GameObjects/AdvTrayHeaderIcon_Nax_FrostWyrm</Field>
+		<Field column="ADVENTURE_WING_DEF_PREFAB">Assets/Game/GameObjects/AdventureWingDefs/AdventureWingDef_NAX_FrostWyrm</Field>
+		<Field column="COMING_SOON_LABEL" loc_ID="21845">
+			<enUS>Opens Week 5</enUS>
+			<deDE>Ab Woche 5 offen</deDE>
+			<esES>Abre en la semana 5</esES>
+			<esMX>Se abre la semana 5</esMX>
+			<frFR>Ouvre la 5e semaine</frFR>
+			<itIT>Disponibile dalla settimana 5</itIT>
+			<jaJP>第5週に公開</jaJP>
+			<koKR>5주차에 공개됩니다</koKR>
+			<plPL>Otwarcie w tygodniu 5</plPL>
+			<ptBR>Abre na semana 5</ptBR>
+			<ruRU>Откроется на 5-й неделе</ruRU>
+			<zhCN>在第五周开放</zhCN>
+			<zhTW>第五週開放</zhTW>
+		</Field>
+		<Field column="REQUIRES_LABEL" loc_ID="21859">
+			<enUS>Requires\nConstruct Quarter</enUS>
+			<deDE>Erfordert\nKonstruktviertel</deDE>
+			<esES>Requiere\nArrabal de los Ensamblajes</esES>
+			<esMX>Requiere\nArrabal de los Ensamblajes</esMX>
+			<frFR>Requiert le\quartier des Assemblages</frFR>
+			<itIT>Richiede\nl'Ala dei Costrutti</itIT>
+			<jaJP>要・人造区画</jaJP>
+			<koKR>피조물 지구\n필요</koKR>
+			<plPL>Wymaga\nRewiru Konstruktów</plPL>
+			<ptBR>Requer o\nDistrito dos Constructos</ptBR>
+			<ruRU>Требуется\nКвартал Мерзости</ruRU>
+			<zhCN>需要完成\n构造区</zhCN>
+			<zhTW>需要通過\n傀儡區</zhTW>
+		</Field>
 	</Record>
 	<Record>
 		<Field column="ID">6</Field>
 		<Field column="NOTE_DESC">Blackrock Depths</Field>
 		<Field column="ADVENTURE_ID">4</Field>
 		<Field column="SORT_ORDER">1</Field>
+		<Field column="RELEASE">brm</Field>
 		<Field column="REQUIRED_EVENT">brm_1</Field>
 		<Field column="OWNERSHIP_PREREQ_WING_ID">0</Field>
 		<Field column="NAME" loc_ID="21182">
@@ -248,14 +387,30 @@
 			<zhCN>你还能够尝试挑战极度困难的英雄难度黑石深渊！</zhCN>
 			<zhTW>你也可以試試看困難到會令人抓狂的英雄難度黑石深淵！</zhTW>
 		</Field>
-		<Field column="UNLOCK_SPELL_PREFAB" />
-		<Field column="ACCENT_PREFAB">Assets/Game/GameObjects/AdvTrayHeaderIcon_BRM_BlackrockDepths</Field>
+		<Field column="ADVENTURE_WING_DEF_PREFAB">Assets/Game/GameObjects/AdventureWingDefs/AdventureWingDef_BRM_BlackrockDepths</Field>
+		<Field column="COMING_SOON_LABEL" loc_ID="21846">
+			<enUS>Opens Week 1</enUS>
+			<deDE>Ab Woche 1 offen</deDE>
+			<esES>Abre en la semana 1</esES>
+			<esMX>Se abre la semana 1</esMX>
+			<frFR>Ouvre la 1re semaine</frFR>
+			<itIT>Disponibile dalla settimana 1</itIT>
+			<jaJP>第1週に公開</jaJP>
+			<koKR>1주차에 공개됩니다</koKR>
+			<plPL>Otwarcie w tygodniu 1</plPL>
+			<ptBR>Abre na semana 1</ptBR>
+			<ruRU>Откроется на 1-й неделе</ruRU>
+			<zhCN>在第一周开放</zhCN>
+			<zhTW>第一週開放</zhTW>
+		</Field>
+		<Field column="REQUIRES_LABEL" />
 	</Record>
 	<Record>
 		<Field column="ID">7</Field>
 		<Field column="NOTE_DESC">Molten Core</Field>
 		<Field column="ADVENTURE_ID">4</Field>
 		<Field column="SORT_ORDER">2</Field>
+		<Field column="RELEASE">brm</Field>
 		<Field column="REQUIRED_EVENT">brm_2</Field>
 		<Field column="OWNERSHIP_PREREQ_WING_ID">6</Field>
 		<Field column="NAME" loc_ID="21184">
@@ -288,14 +443,44 @@
 			<zhCN>你还能够尝试挑战极度困难的英雄难度熔火之心！</zhCN>
 			<zhTW>你也可以試試看困難到會令人抓狂的英雄難度熔火之心！</zhTW>
 		</Field>
-		<Field column="UNLOCK_SPELL_PREFAB" />
-		<Field column="ACCENT_PREFAB">Assets/Game/GameObjects/AdvTrayHeaderIcon_BRM_MoltenCore</Field>
+		<Field column="ADVENTURE_WING_DEF_PREFAB">Assets/Game/GameObjects/AdventureWingDefs/AdventureWingDef_BRM_MoltenCore</Field>
+		<Field column="COMING_SOON_LABEL" loc_ID="21847">
+			<enUS>Opens Week 2</enUS>
+			<deDE>Ab Woche 2 offen</deDE>
+			<esES>Abre en la semana 2</esES>
+			<esMX>Se abre la semana 2</esMX>
+			<frFR>Ouvre la 2e semaine</frFR>
+			<itIT>Disponibile dalla settimana 2</itIT>
+			<jaJP>第2週に公開</jaJP>
+			<koKR>2주차에 공개됩니다</koKR>
+			<plPL>Otwarcie w tygodniu 2</plPL>
+			<ptBR>Abre na semana 2</ptBR>
+			<ruRU>Откроется на 2-й неделе</ruRU>
+			<zhCN>在第二周开放</zhCN>
+			<zhTW>第二週開放</zhTW>
+		</Field>
+		<Field column="REQUIRES_LABEL" loc_ID="21860">
+			<enUS>Requires\nBlackrock Depths</enUS>
+			<deDE>Erfordert\nSchwarzfelstiefen</deDE>
+			<esES>Requiere\nProfundidades de Roca Negra</esES>
+			<esMX>Requiere\nProfundidades de Roca Negra</esMX>
+			<frFR>Requiert les\nprofondeurs de Rochenoire</frFR>
+			<itIT>Richiede i\nSotterranei di Roccianera</itIT>
+			<jaJP>要・ブラックロックの地下</jaJP>
+			<koKR>검은바위 나락\n필요</koKR>
+			<plPL>Wymaga\nOtchłani Czarnej Góry</plPL>
+			<ptBR>Requer o\nAbismo Rocha Negra</ptBR>
+			<ruRU>Требуются\nГлубины Черной горы</ruRU>
+			<zhCN>需要完成\n黑石深渊</zhCN>
+			<zhTW>需要通過\n黑石深淵</zhTW>
+		</Field>
 	</Record>
 	<Record>
 		<Field column="ID">8</Field>
 		<Field column="NOTE_DESC">Blackrock Spire</Field>
 		<Field column="ADVENTURE_ID">4</Field>
 		<Field column="SORT_ORDER">3</Field>
+		<Field column="RELEASE">brm</Field>
 		<Field column="REQUIRED_EVENT">brm_3</Field>
 		<Field column="OWNERSHIP_PREREQ_WING_ID">7</Field>
 		<Field column="NAME" loc_ID="21186">
@@ -328,14 +513,44 @@
 			<zhCN>你还能够尝试挑战极度困难的英雄难度黑石塔！</zhCN>
 			<zhTW>你也可以試試看困難到會令人抓狂的英雄難度黑石塔！</zhTW>
 		</Field>
-		<Field column="UNLOCK_SPELL_PREFAB" />
-		<Field column="ACCENT_PREFAB">Assets/Game/GameObjects/AdvTrayHeaderIcon_BRM_BlackrockSpire</Field>
+		<Field column="ADVENTURE_WING_DEF_PREFAB">Assets/Game/GameObjects/AdventureWingDefs/AdventureWingDef_BRM_BlackrockSpire</Field>
+		<Field column="COMING_SOON_LABEL" loc_ID="21848">
+			<enUS>Opens Week 3</enUS>
+			<deDE>Ab Woche 3 offen</deDE>
+			<esES>Abre en la semana 3</esES>
+			<esMX>Se abre la semana 3</esMX>
+			<frFR>Ouvre la 3e semaine</frFR>
+			<itIT>Disponibile dalla settimana 3</itIT>
+			<jaJP>第3週に公開</jaJP>
+			<koKR>3주차에 공개됩니다</koKR>
+			<plPL>Otwarcie w tygodniu 3</plPL>
+			<ptBR>Abre na semana 3</ptBR>
+			<ruRU>Откроется на 3-й неделе</ruRU>
+			<zhCN>在第三周开放</zhCN>
+			<zhTW>第三週開放</zhTW>
+		</Field>
+		<Field column="REQUIRES_LABEL" loc_ID="21861">
+			<enUS>Requires\nMolten Core</enUS>
+			<deDE>Erfordert\nGeschmolzener Kern</deDE>
+			<esES>Requiere\nNúcleo de Magma</esES>
+			<esMX>Requiere\nNúcleo de Magma</esMX>
+			<frFR>Requiert le\ncœur du Magma</frFR>
+			<itIT>Richiede il\nNucleo Ardente</itIT>
+			<jaJP>要・モルテン・コア</jaJP>
+			<koKR>화산 심장부\n필요</koKR>
+			<plPL>Wymaga\nOgnistej Czeluści</plPL>
+			<ptBR>Requer o\nNúcleo Derretido</ptBR>
+			<ruRU>Требуются\nОгненные Недра</ruRU>
+			<zhCN>需要完成\n熔火之心</zhCN>
+			<zhTW>需要通過\n熔火之心</zhTW>
+		</Field>
 	</Record>
 	<Record>
 		<Field column="ID">9</Field>
 		<Field column="NOTE_DESC">Blackwing Lair</Field>
 		<Field column="ADVENTURE_ID">4</Field>
 		<Field column="SORT_ORDER">4</Field>
+		<Field column="RELEASE">brm</Field>
 		<Field column="REQUIRED_EVENT">brm_4</Field>
 		<Field column="OWNERSHIP_PREREQ_WING_ID">8</Field>
 		<Field column="NAME" loc_ID="21188">
@@ -358,7 +573,7 @@
 			<deDE>Außerdem ist jetzt der extrem schwierige heroische Pechschwingenhort verfügbar.</deDE>
 			<esES>También puedes probar el modo heroico de la Guarida de Alanegra. ¡Es muy difícil!</esES>
 			<esMX>Si te atreves, también puedes adentrarte en la Guarida de Alanegra en modo heroico.</esMX>
-			<frFR>Vous pouvez aussi essayer le repaire de l'Aile noire en mode héroïque !</frFR>
+			<frFR>Vous pouvez aussi essayer le repaire de l’Aile noire en mode héroïque !</frFR>
 			<itIT>Ora puoi provare ad affrontare la Fortezza dell'Ala Nera in versione Eroica!</itIT>
 			<jaJP>超絶難度のブラックウィングの巣（ヒロイック）にも挑戦できるぞ！</jaJP>
 			<koKR>영웅 난이도 검은날개 둥지에도 도전해 보세요!</koKR>
@@ -368,14 +583,44 @@
 			<zhCN>你还能够尝试挑战极度困难的英雄难度黑翼之巢！</zhCN>
 			<zhTW>你也可以試試看困難到會令人抓狂的英雄難度黑翼之巢！</zhTW>
 		</Field>
-		<Field column="UNLOCK_SPELL_PREFAB" />
-		<Field column="ACCENT_PREFAB">Assets/Game/GameObjects/AdvTrayHeaderIcon_BRM_BlackwingLair</Field>
+		<Field column="ADVENTURE_WING_DEF_PREFAB">Assets/Game/GameObjects/AdventureWingDefs/AdventureWingDef_BRM_BlackwingLair</Field>
+		<Field column="COMING_SOON_LABEL" loc_ID="21849">
+			<enUS>Opens Week 4</enUS>
+			<deDE>Ab Woche 4 offen</deDE>
+			<esES>Abre en la semana 4</esES>
+			<esMX>Se abre la semana 4</esMX>
+			<frFR>Ouvre la 4e semaine</frFR>
+			<itIT>Disponibile dalla settimana 4</itIT>
+			<jaJP>第4週に公開</jaJP>
+			<koKR>4주차에 공개됩니다</koKR>
+			<plPL>Otwarcie w tygodniu 4</plPL>
+			<ptBR>Abre na semana 4</ptBR>
+			<ruRU>Откроется на 4-й неделе</ruRU>
+			<zhCN>在第四周开放</zhCN>
+			<zhTW>第四週開放</zhTW>
+		</Field>
+		<Field column="REQUIRES_LABEL" loc_ID="21862">
+			<enUS>Requires\nBlackrock Spire</enUS>
+			<deDE>Erfordert\nSchwarzfelsspitze</deDE>
+			<esES>Requiere\nCumbre de Roca Negra</esES>
+			<esMX>Requiere\nCumbre de Roca Negra</esMX>
+			<frFR>Requiert le\npic Rochenoire</frFR>
+			<itIT>Richiede i\nBastioni di Roccianera</itIT>
+			<jaJP>要・ブラックロック山</jaJP>
+			<koKR>검은바위 첨탑\n필요</koKR>
+			<plPL>Wymaga\nIglicy Czarnej Góry</plPL>
+			<ptBR>Requer o\nPico da Rocha Negra</ptBR>
+			<ruRU>Требуется\nПик Черной горы</ruRU>
+			<zhCN>需要完成\n黑石塔</zhCN>
+			<zhTW>需要通過\n黑石塔</zhTW>
+		</Field>
 	</Record>
 	<Record>
 		<Field column="ID">10</Field>
 		<Field column="NOTE_DESC">The Hidden Laboratory</Field>
 		<Field column="ADVENTURE_ID">4</Field>
 		<Field column="SORT_ORDER">5</Field>
+		<Field column="RELEASE">brm</Field>
 		<Field column="REQUIRED_EVENT">brm_5</Field>
 		<Field column="OWNERSHIP_PREREQ_WING_ID">9</Field>
 		<Field column="NAME" loc_ID="21190">
@@ -408,7 +653,302 @@
 			<zhCN>你还能够尝试挑战极度困难的英雄难度秘密实验室！</zhCN>
 			<zhTW>你也可以試試看困難到會令人抓狂的英雄難度隱藏的實驗室！</zhTW>
 		</Field>
-		<Field column="UNLOCK_SPELL_PREFAB" />
-		<Field column="ACCENT_PREFAB">Assets/Game/GameObjects/AdvTrayHeaderIcon_BRM_HiddenLaboratory</Field>
+		<Field column="ADVENTURE_WING_DEF_PREFAB">Assets/Game/GameObjects/AdventureWingDefs/AdventureWingDef_BRM_HiddenLaboratory</Field>
+		<Field column="COMING_SOON_LABEL" loc_ID="21850">
+			<enUS>Opens Week 5</enUS>
+			<deDE>Ab Woche 5 offen</deDE>
+			<esES>Abre en la semana 5</esES>
+			<esMX>Se abre la semana 5</esMX>
+			<frFR>Ouvre la 5e semaine</frFR>
+			<itIT>Disponibile dalla settimana 5</itIT>
+			<jaJP>第5週に公開</jaJP>
+			<koKR>5주차에 공개됩니다</koKR>
+			<plPL>Otwarcie w tygodniu 5</plPL>
+			<ptBR>Abre na semana 5</ptBR>
+			<ruRU>Откроется на 5-й неделе</ruRU>
+			<zhCN>在第五周开放</zhCN>
+			<zhTW>第五週開放</zhTW>
+		</Field>
+		<Field column="REQUIRES_LABEL" loc_ID="21863">
+			<enUS>Requires\nBlackwing Lair</enUS>
+			<deDE>Erfordert\nPechschwingenhort</deDE>
+			<esES>Requiere\nGuarida de Alanegra</esES>
+			<esMX>Requiere\nGuarida de Alanegra</esMX>
+			<frFR>Requiert le\nRepaire de l’Aile noire</frFR>
+			<itIT>Richiede la\nFortezza dell'Ala Nera</itIT>
+			<jaJP>要・ブラックウィングの巣</jaJP>
+			<koKR>검은날개 둥지\n필요</koKR>
+			<plPL>Wymaga\nLeża Czarnoskrzydłego</plPL>
+			<ptBR>Requer o\nCovil Asa Negra</ptBR>
+			<ruRU>Требуется\nКрыло Тьмы</ruRU>
+			<zhCN>需要完成\n黑翼之巢</zhCN>
+			<zhTW>需要通過\n黑翼之巢</zhTW>
+		</Field>
+	</Record>
+	<Record>
+		<Field column="ID">11</Field>
+		<Field column="NOTE_DESC">Temple of Orsis</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="SORT_ORDER">1</Field>
+		<Field column="RELEASE">loe</Field>
+		<Field column="REQUIRED_EVENT">loe_1</Field>
+		<Field column="OWNERSHIP_PREREQ_WING_ID">0</Field>
+		<Field column="NAME" loc_ID="21192">
+			<enUS>Temple of Orsis</enUS>
+			<deDE>Tempel von Orsis</deDE>
+			<esES>Templo de Orsis</esES>
+			<esMX>Templo de Orsis</esMX>
+			<frFR>Temple d’Orsis</frFR>
+			<itIT>Tempio di Orsis</itIT>
+			<jaJP>オルシスの寺院</jaJP>
+			<koKR>오르시스의 사원</koKR>
+			<plPL>Świątynia Oryzysa</plPL>
+			<ptBR>Templo de Orsis</ptBR>
+			<ruRU>Храм Орсиса</ruRU>
+			<zhCN>奥西斯神庙</zhCN>
+			<zhTW>奧爾希斯神殿</zhTW>
+		</Field>
+		<Field column="CLASS_CHALLENGE_REWARD_SOURCE" loc_ID="21193">
+			<enUS>Temple of Orsis Class Challenge!</enUS>
+			<deDE>Die Klassenherausforderung im Tempel von Orsis ist jetzt verfügbar!</deDE>
+			<esES>¡Desafío del Templo de Orsis!</esES>
+			<esMX>¡Desafío de clase del Templo de Orsis!</esMX>
+			<frFR>Défi de classe du temple d’Orsis !</frFR>
+			<itIT>Sfide di Classe del Tempio di Orsis!</itIT>
+			<jaJP>オルシスの寺院・クラスチャレンジ！</jaJP>
+			<koKR>오르시스의 사원 직업별 도전 과제!</koKR>
+			<plPL>Wyzwanie klasowe Świątyni Oryzysa!</plPL>
+			<ptBR>Desafio de Classe do Templo de Orsis!</ptBR>
+			<ruRU>Храм Орсиса — испытание</ruRU>
+			<zhCN>奥西斯神庙职业挑战！</zhCN>
+			<zhTW>奧爾希斯神殿職業挑戰！</zhTW>
+		</Field>
+		<Field column="ADVENTURE_WING_DEF_PREFAB">Assets/Game/GameObjects/AdventureWingDefs/AdventureWingDef_LOE_TempleOfOrsis</Field>
+		<Field column="COMING_SOON_LABEL" loc_ID="21851">
+			<enUS>Opens Week 1</enUS>
+			<deDE>Ab Woche 1 offen</deDE>
+			<esES>Abre en la semana 1</esES>
+			<esMX>Se abre la semana 1</esMX>
+			<frFR>Ouvre la 1re semaine</frFR>
+			<itIT>Disponibile dalla settimana 1</itIT>
+			<jaJP>第1週に公開</jaJP>
+			<koKR>1주차에 공개됩니다</koKR>
+			<plPL>Otwarcie w tygodniu 1</plPL>
+			<ptBR>Abre na semana 1</ptBR>
+			<ruRU>Откроется на 1-й неделе</ruRU>
+			<zhCN>在第一周开放</zhCN>
+			<zhTW>第一週開放</zhTW>
+		</Field>
+		<Field column="REQUIRES_LABEL" />
+	</Record>
+	<Record>
+		<Field column="ID">12</Field>
+		<Field column="NOTE_DESC">Uldaman</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="SORT_ORDER">2</Field>
+		<Field column="RELEASE">loe</Field>
+		<Field column="REQUIRED_EVENT">loe_2</Field>
+		<Field column="OWNERSHIP_PREREQ_WING_ID">11</Field>
+		<Field column="NAME" loc_ID="21194">
+			<enUS>Uldaman</enUS>
+			<deDE>Uldaman</deDE>
+			<esES>Uldaman</esES>
+			<esMX>Uldaman</esMX>
+			<frFR>Uldaman</frFR>
+			<itIT>Uldaman</itIT>
+			<jaJP>ウルダマン</jaJP>
+			<koKR>울다만</koKR>
+			<plPL>Uldaman</plPL>
+			<ptBR>Uldaman</ptBR>
+			<ruRU>Ульдаман</ruRU>
+			<zhCN>奥达曼</zhCN>
+			<zhTW>奧達曼</zhTW>
+		</Field>
+		<Field column="CLASS_CHALLENGE_REWARD_SOURCE" loc_ID="21195">
+			<enUS>Uldaman Class Challenge!</enUS>
+			<deDE>Die Klassenherausforderung in Uldaman ist jetzt verfügbar!</deDE>
+			<esES>¡Desafío de Uldaman!</esES>
+			<esMX>¡Desafío de clase de Uldaman!</esMX>
+			<frFR>Défi de classe d’Uldaman !</frFR>
+			<itIT>Sfide di Classe di Uldaman!</itIT>
+			<jaJP>ウルダマン・クラスチャレンジ！</jaJP>
+			<koKR>울다만 직업별 도전 과제!</koKR>
+			<plPL>Wyzwanie klasowe Uldamanu!</plPL>
+			<ptBR>Desafio de Classe de Uldaman!</ptBR>
+			<ruRU>Ульдаман — испытание</ruRU>
+			<zhCN>奥达曼职业挑战！</zhCN>
+			<zhTW>奧達曼職業挑戰！</zhTW>
+		</Field>
+		<Field column="ADVENTURE_WING_DEF_PREFAB">Assets/Game/GameObjects/AdventureWingDefs/AdventureWingDef_LOE_Uldaman</Field>
+		<Field column="COMING_SOON_LABEL" loc_ID="21852">
+			<enUS>Opens Week 2</enUS>
+			<deDE>Ab Woche 2 offen</deDE>
+			<esES>Abre en la semana 2</esES>
+			<esMX>Se abre la semana 2</esMX>
+			<frFR>Ouvre la 2e semaine</frFR>
+			<itIT>Disponibile dalla settimana 2</itIT>
+			<jaJP>第2週に公開</jaJP>
+			<koKR>2주차에 공개됩니다</koKR>
+			<plPL>Otwarcie w tygodniu 2</plPL>
+			<ptBR>Abre na semana 2</ptBR>
+			<ruRU>Откроется на 2-й неделе</ruRU>
+			<zhCN>在第二周开放</zhCN>
+			<zhTW>第二週開放</zhTW>
+		</Field>
+		<Field column="REQUIRES_LABEL" loc_ID="21864">
+			<enUS>Requires Temple of Orsis</enUS>
+			<deDE>Erfordert\nTempel von Orsis</deDE>
+			<esES>Requiere Templo de Orsis</esES>
+			<esMX>Requiere Templo de Orsis</esMX>
+			<frFR>Requiert le temple d’Orsis</frFR>
+			<itIT>Richiede il\nTempio di Orsis</itIT>
+			<jaJP>要・オルシスの寺院</jaJP>
+			<koKR>오르시스의 사원 필요</koKR>
+			<plPL>Wymaga\nŚwiątyni Oryzysa</plPL>
+			<ptBR>Requer o Templo de Orsis</ptBR>
+			<ruRU>Требуется Храм Орсиса</ruRU>
+			<zhCN>需要完成\n奥西斯神庙</zhCN>
+			<zhTW>需要通過奧爾希斯神殿</zhTW>
+		</Field>
+	</Record>
+	<Record>
+		<Field column="ID">13</Field>
+		<Field column="NOTE_DESC">The Ruined City</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="SORT_ORDER">3</Field>
+		<Field column="RELEASE">loe</Field>
+		<Field column="REQUIRED_EVENT">loe_3</Field>
+		<Field column="OWNERSHIP_PREREQ_WING_ID">12</Field>
+		<Field column="NAME" loc_ID="21196">
+			<enUS>The Ruined City</enUS>
+			<deDE>Die Verfallene Stadt</deDE>
+			<esES>La Ciudad en Ruinas</esES>
+			<esMX>Ciudad en ruinas</esMX>
+			<frFR>Ville en ruines</frFR>
+			<itIT>Città Fatiscente</itIT>
+			<jaJP>廃墟の都市</jaJP>
+			<koKR>폐허가 된 도시</koKR>
+			<plPL>Zrujnowane Miasto</plPL>
+			<ptBR>A Cidade Arruinada</ptBR>
+			<ruRU>Разрушенный город</ruRU>
+			<zhCN>废墟之城</zhCN>
+			<zhTW>古城遺跡</zhTW>
+		</Field>
+		<Field column="CLASS_CHALLENGE_REWARD_SOURCE" loc_ID="21197">
+			<enUS>The Ruined City Class Challenge!</enUS>
+			<deDE>Die Klassenherausforderung in der Verfallenen Stadt ist jetzt verfügbar!</deDE>
+			<esES>¡Desafío de la Ciudad en Ruinas!</esES>
+			<esMX>¡Desafío de clase de Ciudad en ruinas!</esMX>
+			<frFR>Défi de classe de la ville en ruines !</frFR>
+			<itIT>Sfide di Classe della Città Fatiscente!</itIT>
+			<jaJP>廃墟の都市・クラスチャレンジ！</jaJP>
+			<koKR>폐허가 된 도시 직업별 도전 과제!</koKR>
+			<plPL>Wyzwanie klasowe Zrujnowanego Miasta!</plPL>
+			<ptBR>Desafio de Classe da Cidade Arruinada!</ptBR>
+			<ruRU>Разрушенный город — испытание</ruRU>
+			<zhCN>废墟之城职业挑战！</zhCN>
+			<zhTW>古城遺跡職業挑戰！</zhTW>
+		</Field>
+		<Field column="ADVENTURE_WING_DEF_PREFAB">Assets/Game/GameObjects/AdventureWingDefs/AdventureWingDef_LOE_RuinedCity</Field>
+		<Field column="COMING_SOON_LABEL" loc_ID="21853">
+			<enUS>Opens Week 3</enUS>
+			<deDE>Ab Woche 3 offen</deDE>
+			<esES>Abre en la semana 3</esES>
+			<esMX>Se abre la semana 3</esMX>
+			<frFR>Ouvre la 3e semaine</frFR>
+			<itIT>Disponibile dalla settimana 3</itIT>
+			<jaJP>第3週に公開</jaJP>
+			<koKR>3주차에 공개됩니다</koKR>
+			<plPL>Otwarcie w tygodniu 3</plPL>
+			<ptBR>Abre na semana 3</ptBR>
+			<ruRU>Откроется на 3-й неделе</ruRU>
+			<zhCN>在第三周开放</zhCN>
+			<zhTW>第三週開放</zhTW>
+		</Field>
+		<Field column="REQUIRES_LABEL" loc_ID="21865">
+			<enUS>Requires Uldaman</enUS>
+			<deDE>Erfordert\nUldaman</deDE>
+			<esES>Requiere Uldaman</esES>
+			<esMX>Requiere Uldaman</esMX>
+			<frFR>Requiert Uldaman</frFR>
+			<itIT>Richiede\nUldaman</itIT>
+			<jaJP>要・ウルダマン</jaJP>
+			<koKR>울다만 필요</koKR>
+			<plPL>Wymaga\nUldamanu</plPL>
+			<ptBR>Requer Uldaman</ptBR>
+			<ruRU>Требуется Ульдаман</ruRU>
+			<zhCN>需要完成\n奥达曼</zhCN>
+			<zhTW>需要通過奧達曼</zhTW>
+		</Field>
+	</Record>
+	<Record>
+		<Field column="ID">14</Field>
+		<Field column="NOTE_DESC">Hall of Explorers</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="SORT_ORDER">4</Field>
+		<Field column="RELEASE">loe</Field>
+		<Field column="REQUIRED_EVENT">loe_4</Field>
+		<Field column="OWNERSHIP_PREREQ_WING_ID">13</Field>
+		<Field column="NAME" loc_ID="21198">
+			<enUS>Hall of Explorers</enUS>
+			<deDE>Halle der Forscher</deDE>
+			<esES>Sala de los Expedicionarios</esES>
+			<esMX>Sala de los Expedicionarios</esMX>
+			<frFR>Hall des Explorateurs</frFR>
+			<itIT>Salone degli Esploratori</itIT>
+			<jaJP>探検家の殿堂</jaJP>
+			<koKR>탐험가의 전당</koKR>
+			<plPL>Sala Odkrywców</plPL>
+			<ptBR>Salão dos Exploradores</ptBR>
+			<ruRU>Зал Исследователей</ruRU>
+			<zhCN>探险者大厅</zhCN>
+			<zhTW>探險者大廳</zhTW>
+		</Field>
+		<Field column="CLASS_CHALLENGE_REWARD_SOURCE" loc_ID="21199">
+			<enUS>Hall of Explorers Class Challenge!</enUS>
+			<deDE>Die Klassenherausforderung in der Halle der Forscher ist jetzt verfügbar!</deDE>
+			<esES>¡Desafío de la Sala de los Expedicionarios!</esES>
+			<esMX>¡Desafío de clase de la Sala de los Expedicionarios!</esMX>
+			<frFR>Défi de classe du hall des Explorateurs !</frFR>
+			<itIT>Sfide di Classe del Salone degli Esploratori!</itIT>
+			<jaJP>探検家の殿堂・クラスチャレンジ！</jaJP>
+			<koKR>탐험가의 전당 직업별 도전 과제!</koKR>
+			<plPL>Wyzwanie klasowe Sali Odkrywców!</plPL>
+			<ptBR>Desafio de Classe do Salão dos Exploradores</ptBR>
+			<ruRU>Зал Исследователей — испытание</ruRU>
+			<zhCN>探险者大厅职业挑战！</zhCN>
+			<zhTW>探險者大廳職業挑戰！</zhTW>
+		</Field>
+		<Field column="ADVENTURE_WING_DEF_PREFAB">Assets/Game/GameObjects/AdventureWingDefs/AdventureWingDef_LOE_HallOfExplorers</Field>
+		<Field column="COMING_SOON_LABEL" loc_ID="21854">
+			<enUS>Opens Week 4</enUS>
+			<deDE>Ab Woche 4 offen</deDE>
+			<esES>Abre en la semana 4</esES>
+			<esMX>Se abre la semana 4</esMX>
+			<frFR>Ouvre la 4e semaine</frFR>
+			<itIT>Disponibile dalla settimana 4</itIT>
+			<jaJP>第4週に公開</jaJP>
+			<koKR>4주차에 공개됩니다</koKR>
+			<plPL>Otwarcie w tygodniu 4</plPL>
+			<ptBR>Abre na semana 4</ptBR>
+			<ruRU>Откроется на 4-й неделе</ruRU>
+			<zhCN>在第四周开放</zhCN>
+			<zhTW>第四週開放</zhTW>
+		</Field>
+		<Field column="REQUIRES_LABEL" loc_ID="21866">
+			<enUS>Requires The Ruined City</enUS>
+			<deDE>Erfordert\nDie Verfallene Stadt</deDE>
+			<esES>Requiere la Ciudad en Ruinas</esES>
+			<esMX>Requiere Ciudad en ruinas</esMX>
+			<frFR>Requiert la ville en ruines</frFR>
+			<itIT>Richiede la\nCittà Fatiscente</itIT>
+			<jaJP>要・廃墟の都市</jaJP>
+			<koKR>폐허가 된 도시 필요</koKR>
+			<plPL>Wymaga\nZrujnowanego Miasta</plPL>
+			<ptBR>Requer a Cidade Arruinada</ptBR>
+			<ruRU>Требуется Разрушенный город</ruRU>
+			<zhCN>需要完成\n废墟之城</zhCN>
+			<zhTW>需要通過古城遺跡</zhTW>
+		</Field>
 	</Record>
 </Dbf>
