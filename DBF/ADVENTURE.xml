@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Dbf name="ADVENTURE">
-	<SourceFingerprint>jj/TP2CDmQmilIgwlQQEknzeonw=</SourceFingerprint>
+	<SourceFingerprint>/btMfuYUkC6DAT4hBEU3vVAG364=</SourceFingerprint>
 	<Column name="ID" type="Int" />
 	<Column name="NOTE_DESC" type="String" />
 	<Column name="NAME" type="LocString" />
+	<Column name="SORT_ORDER" type="Int" />
+	<Column name="STORE_BUY_BUTTON_LABEL" type="LocString" />
 	<Column name="STORE_BUY_WINGS_1_HEADLINE" type="LocString" />
 	<Column name="STORE_BUY_WINGS_2_HEADLINE" type="LocString" />
 	<Column name="STORE_BUY_WINGS_3_HEADLINE" type="LocString" />
@@ -19,7 +21,7 @@
 	<Column name="STORE_OWNED_DESC" type="LocString" />
 	<Column name="STORE_PREORDER_DESC" type="LocString" />
 	<Column name="STORE_PREVIEW_REWARDS_TEXT" type="LocString" />
-	<Column name="CHOOSER_BUTTON_DEF" type="AssetPath" />
+	<Column name="ADVENTURE_DEF_PREFAB" type="AssetPath" />
 	<Column name="STORE_PREFAB" type="AssetPath" />
 	<Record>
 		<Field column="ID">1</Field>
@@ -39,6 +41,8 @@
 			<zhCN>教学</zhCN>
 			<zhTW>新手教學</zhTW>
 		</Field>
+		<Field column="SORT_ORDER" />
+		<Field column="STORE_BUY_BUTTON_LABEL" />
 		<Field column="STORE_BUY_WINGS_1_HEADLINE" />
 		<Field column="STORE_BUY_WINGS_2_HEADLINE" />
 		<Field column="STORE_BUY_WINGS_3_HEADLINE" />
@@ -54,7 +58,7 @@
 		<Field column="STORE_OWNED_DESC" />
 		<Field column="STORE_PREORDER_DESC" />
 		<Field column="STORE_PREVIEW_REWARDS_TEXT" />
-		<Field column="CHOOSER_BUTTON_DEF" />
+		<Field column="ADVENTURE_DEF_PREFAB" />
 		<Field column="STORE_PREFAB" />
 	</Record>
 	<Record>
@@ -75,6 +79,8 @@
 			<zhCN>练习模式</zhCN>
 			<zhTW>練習模式</zhTW>
 		</Field>
+		<Field column="SORT_ORDER">999</Field>
+		<Field column="STORE_BUY_BUTTON_LABEL" />
 		<Field column="STORE_BUY_WINGS_1_HEADLINE" />
 		<Field column="STORE_BUY_WINGS_2_HEADLINE" />
 		<Field column="STORE_BUY_WINGS_3_HEADLINE" />
@@ -90,13 +96,29 @@
 		<Field column="STORE_OWNED_DESC" />
 		<Field column="STORE_PREORDER_DESC" />
 		<Field column="STORE_PREVIEW_REWARDS_TEXT" />
-		<Field column="CHOOSER_BUTTON_DEF">Assets/Game/GameObjects/AdventureChooserDefs/AdventureChooserDef_Practice</Field>
+		<Field column="ADVENTURE_DEF_PREFAB">Assets/Game/GameObjects/AdventureDefs/AdventureDef_Practice</Field>
 		<Field column="STORE_PREFAB" />
 	</Record>
 	<Record>
 		<Field column="ID">3</Field>
 		<Field column="NOTE_DESC">Naxxramas</Field>
 		<Field column="NAME" loc_ID="20785">
+			<enUS>Naxxramas</enUS>
+			<deDE>Naxxramas</deDE>
+			<esES>Naxxramas</esES>
+			<esMX>Naxxramas</esMX>
+			<frFR>Naxxramas</frFR>
+			<itIT>Naxxramas</itIT>
+			<jaJP>ナクスラーマス</jaJP>
+			<koKR>낙스라마스</koKR>
+			<plPL>Naxxramas</plPL>
+			<ptBR>Naxxramas</ptBR>
+			<ruRU>Наксрамас</ruRU>
+			<zhCN>纳克萨玛斯</zhCN>
+			<zhTW>納克薩瑪斯</zhTW>
+		</Field>
+		<Field column="SORT_ORDER">0</Field>
+		<Field column="STORE_BUY_BUTTON_LABEL" loc_ID="21868">
 			<enUS>Naxxramas</enUS>
 			<deDE>Naxxramas</deDE>
 			<esES>Naxxramas</esES>
@@ -289,7 +311,7 @@
 			<plPL>• Pokonaj bossów w Naxxramas, aby zdobyć nagrody.</plPL>
 			<ptBR>• Derrote os chefes de Naxxramas para receber as recompensas.</ptBR>
 			<ruRU>• Чтобы получить награду, победите боссов Наксрамаса.</ruRU>
-			<zhCN>• 击败纳克萨玛斯中的所有首领，赢得你的奖励。</zhCN>
+			<zhCN>• 击败“纳克萨玛斯”中的所有首领，赢得你的奖励。</zhCN>
 			<zhTW>• 擊敗納克薩瑪斯的首領來贏取你的獎勵。</zhTW>
 		</Field>
 		<Field column="STORE_PREORDER_DESC" />
@@ -305,10 +327,10 @@
 			<plPL>Zdobądź te oraz inne karty pokonując morderczych bossów z Naxxramas!</plPL>
 			<ptBR>Ganhe estes e outros cards ao derrotar os chefes mortais de Naxxramas!</ptBR>
 			<ruRU>Получите эти карты, победив боссов Наксрамаса!</ruRU>
-			<zhCN>击败纳克萨玛斯的首领们，赢得这些卡牌！</zhCN>
+			<zhCN>击败“纳克萨玛斯”的首领们，赢得这些卡牌！</zhCN>
 			<zhTW>擊敗納克薩瑪斯的首領來獲得這些卡片！</zhTW>
 		</Field>
-		<Field column="CHOOSER_BUTTON_DEF">Assets/Game/GameObjects/AdventureChooserDefs/AdventureChooserDef_Naxxramas</Field>
+		<Field column="ADVENTURE_DEF_PREFAB">Assets/Game/GameObjects/AdventureDefs/AdventureDef_Naxxramas</Field>
 		<Field column="STORE_PREFAB">Assets/Game/GameObjects/StoreAdventureDefs/StoreAdventureDef_Naxxramas</Field>
 	</Record>
 	<Record>
@@ -328,6 +350,22 @@
 			<ruRU>Черная гора</ruRU>
 			<zhCN>黑石山</zhCN>
 			<zhTW>勇闖黑石山</zhTW>
+		</Field>
+		<Field column="SORT_ORDER">1</Field>
+		<Field column="STORE_BUY_BUTTON_LABEL" loc_ID="21869">
+			<enUS>Blackrock</enUS>
+			<deDE>Der Schwarzfels</deDE>
+			<esES>Roca Negra</esES>
+			<esMX>Roca Negra</esMX>
+			<frFR>Rochenoire</frFR>
+			<itIT>Roccianera</itIT>
+			<jaJP>ブラックロック</jaJP>
+			<koKR>검은바위</koKR>
+			<plPL>Czarna Góra</plPL>
+			<ptBR>Rocha Negra</ptBR>
+			<ruRU>Черная гора</ruRU>
+			<zhCN>黑石山</zhCN>
+			<zhTW>黑石山</zhTW>
 		</Field>
 		<Field column="STORE_BUY_WINGS_1_HEADLINE" loc_ID="20804">
 			<enUS>Blackrock Mountain (Unlock the final wing)</enUS>
@@ -521,7 +559,7 @@
 			<plPL>• Pokonaj bossów w Czarnej Górze, aby zdobyć nagrody.</plPL>
 			<ptBR>• Derrote os chefes da Montanha Rocha Negra para receber as recompensas.</ptBR>
 			<ruRU>• Чтобы получить награду, победите боссов Черной Горы.</ruRU>
-			<zhCN>• 击败黑石山中的首领们，赢得丰厚奖励。</zhCN>
+			<zhCN>• 击败“黑石山”中的首领们，赢得丰厚奖励。</zhCN>
 			<zhTW>• 擊敗黑石山的首領，贏取你的獎勵。</zhTW>
 		</Field>
 		<Field column="STORE_PREORDER_DESC" loc_ID="20813">
@@ -551,16 +589,18 @@
 			<plPL>Zdobądź te oraz inne karty pokonując morderczych bossów z Czarnej Góry!</plPL>
 			<ptBR>Ganhe estes e outros cards ao derrotar os chefes mortais da Montanha Rocha Negra!</ptBR>
 			<ruRU>Получите эти карты, победив боссов Черной горы!</ruRU>
-			<zhCN>击败黑石山的首领们，赢得这些卡牌！</zhCN>
+			<zhCN>击败“黑石山”的首领们，赢得这些卡牌！</zhCN>
 			<zhTW>擊敗黑石山的首領來獲得這些卡片！</zhTW>
 		</Field>
-		<Field column="CHOOSER_BUTTON_DEF">Assets/Game/GameObjects/AdventureChooserDefs/AdventureChooserDef_BRM</Field>
+		<Field column="ADVENTURE_DEF_PREFAB">Assets/Game/GameObjects/AdventureDefs/AdventureDef_BRM</Field>
 		<Field column="STORE_PREFAB">Assets/Game/GameObjects/StoreAdventureDefs/StoreAdventureDef_BRM</Field>
 	</Record>
 	<Record>
 		<Field column="ID">7</Field>
 		<Field column="NOTE_DESC">Tavern Brawl</Field>
 		<Field column="NAME" />
+		<Field column="SORT_ORDER" />
+		<Field column="STORE_BUY_BUTTON_LABEL" />
 		<Field column="STORE_BUY_WINGS_1_HEADLINE" />
 		<Field column="STORE_BUY_WINGS_2_HEADLINE" />
 		<Field column="STORE_BUY_WINGS_3_HEADLINE" />
@@ -576,7 +616,213 @@
 		<Field column="STORE_OWNED_DESC" />
 		<Field column="STORE_PREORDER_DESC" />
 		<Field column="STORE_PREVIEW_REWARDS_TEXT" />
-		<Field column="CHOOSER_BUTTON_DEF" />
+		<Field column="ADVENTURE_DEF_PREFAB" />
 		<Field column="STORE_PREFAB" />
+	</Record>
+	<Record>
+		<Field column="ID">8</Field>
+		<Field column="NOTE_DESC">LoE</Field>
+		<Field column="NAME" loc_ID="20815">
+			<enUS>League of Explorers</enUS>
+			<deDE>Die Forscherliga</deDE>
+			<esES>Liga de Expedicionarios</esES>
+			<esMX>Liga de Expedicionarios</esMX>
+			<frFR>La Ligue des explorateurs</frFR>
+			<itIT>Lega degli Esploratori</itIT>
+			<jaJP>リーグ・オブ・エクスプローラー</jaJP>
+			<koKR>탐험가 연맹</koKR>
+			<plPL>Liga Odkrywców</plPL>
+			<ptBR>Liga dos Exploradores</ptBR>
+			<ruRU>Лига исследователей</ruRU>
+			<zhCN>探险者协会</zhCN>
+			<zhTW>探險者協會</zhTW>
+		</Field>
+		<Field column="SORT_ORDER">2</Field>
+		<Field column="STORE_BUY_BUTTON_LABEL" loc_ID="21870">
+			<enUS>League of Explorers</enUS>
+			<deDE>Die Forscherliga</deDE>
+			<esES>Liga de Expedicionarios</esES>
+			<esMX>Liga de Expedicionarios</esMX>
+			<frFR>Ligue des explorateurs</frFR>
+			<itIT>Lega degli Esploratori</itIT>
+			<jaJP>エクスプローラー</jaJP>
+			<koKR>탐험가 연맹</koKR>
+			<plPL>Liga Odkrywców</plPL>
+			<ptBR>Liga dos Exploradores</ptBR>
+			<ruRU>Лига исследователей</ruRU>
+			<zhCN>探险者协会</zhCN>
+			<zhTW>探險者協會</zhTW>
+		</Field>
+		<Field column="STORE_BUY_WINGS_1_HEADLINE" loc_ID="21871">
+			<enUS>League of Explorers (Unlock the final wing)</enUS>
+			<deDE>Die Forscherliga (letzter Flügel):</deDE>
+			<esES>Liga de Expedicionarios (desbloquea la última ala)</esES>
+			<esMX>Liga de Expedicionarios (Desbloquea el ala final)</esMX>
+			<frFR>Ligue des explorateurs (débloquez la dernière aile)</frFR>
+			<itIT>Lega degli Esploratori (sblocca l'ultima ala)</itIT>
+			<jaJP>リーグ・オブ・エクスプローラー（最終区画をアンロック）</jaJP>
+			<koKR>탐험가 연맹 (마지막 지구 잠금 해제)</koKR>
+			<plPL>Liga Odkrywców (odblokuj ostatnie skrzydło)</plPL>
+			<ptBR>Liga dos Exploradores (Desbloquear a ala final)</ptBR>
+			<ruRU>«Лига исследователей» (последнее крыло)</ruRU>
+			<zhCN>探险者协会（解锁最后一个区）</zhCN>
+			<zhTW>探險者協會(解鎖最後一個區域)</zhTW>
+		</Field>
+		<Field column="STORE_BUY_WINGS_2_HEADLINE" loc_ID="21872">
+			<enUS>League of Explorers (Unlock 2 remaining wings)</enUS>
+			<deDE>Die Forscherliga (2 verbleibende Flügel):</deDE>
+			<esES>Liga de Expedicionarios (desbloquea las 2 alas restantes)</esES>
+			<esMX>Liga de Expedicionarios (Desbloquea las 2 alas restantes)</esMX>
+			<frFR>Ligue des explorateurs (débloquez les 2 dernières ailes)</frFR>
+			<itIT>Lega degli Esploratori (sblocca le ultime 2 ali)</itIT>
+			<jaJP>リーグ・オブ・エクスプローラー（残り2区画をアンロック）</jaJP>
+			<koKR>탐험가 연맹 (나머지 2개 지구 잠금 해제)</koKR>
+			<plPL>Liga Odkrywców (odblokuj 2 pozostałe skrzydła)</plPL>
+			<ptBR>Liga dos Exploradores (Desbloquear 2 alas restantes)</ptBR>
+			<ruRU>«Лига исследователей» (2 оставшихся крыла)</ruRU>
+			<zhCN>探险者协会（解锁后两个区）</zhCN>
+			<zhTW>探險者協會(解鎖剩餘的2個區域)</zhTW>
+		</Field>
+		<Field column="STORE_BUY_WINGS_3_HEADLINE" loc_ID="21873">
+			<enUS>League of Explorers (Unlock 3 remaining wings)</enUS>
+			<deDE>Die Forscherliga (3 verbleibende Flügel):</deDE>
+			<esES>Liga de Expedicionarios (desbloquea las 3 alas restantes)</esES>
+			<esMX>Liga de Expedicionarios (Desbloquea las 3 alas restantes)</esMX>
+			<frFR>Ligue des explorateurs (débloquez les 3 dernières ailes)</frFR>
+			<itIT>Lega degli Esploratori (sblocca le ultime 3 ali)</itIT>
+			<jaJP>リーグ・オブ・エクスプローラー（残り3区画をアンロック）</jaJP>
+			<koKR>탐험가 연맹 (나머지 3개 지구 잠금 해제)</koKR>
+			<plPL>Liga Odkrywców (odblokuj 3 pozostałe skrzydła)</plPL>
+			<ptBR>Liga dos Exploradores (Desbloquear 3 alas restantes)</ptBR>
+			<ruRU>«Лига исследователей» (3 оставшихся крыла)</ruRU>
+			<zhCN>探险者协会（解锁后三个区）</zhCN>
+			<zhTW>探險者協會(解鎖剩餘的3個區域)</zhTW>
+		</Field>
+		<Field column="STORE_BUY_WINGS_4_HEADLINE" loc_ID="21874">
+			<enUS>League of Explorers (Unlock all 4 wings)</enUS>
+			<deDE>Die Forscherliga (alle 4 Flügel):</deDE>
+			<esES>Liga de Expedicionarios (desbloquea las 4 alas)</esES>
+			<esMX>Liga de Expedicionarios (Desbloquea las 4 alas)</esMX>
+			<frFR>Ligue des explorateurs (débloquez les 4 ailes)</frFR>
+			<itIT>Lega degli Esploratori (sblocca tutte le 4 ali)</itIT>
+			<jaJP>リーグ・オブ・エクスプローラー（全4区画をアンロック）</jaJP>
+			<koKR>탐험가 연맹 (4개 지구 모두 잠금 해제)</koKR>
+			<plPL>Liga Odkrywców (odblokuj wszystkie 4 skrzydła)</plPL>
+			<ptBR>Liga dos Exploradores (Desbloquear as 4 alas)</ptBR>
+			<ruRU>«Лига исследователей» (все 4 крыла)</ruRU>
+			<zhCN>探险者协会（解锁全部四个区）</zhCN>
+			<zhTW>探險者協會(解鎖全部4個區域)</zhTW>
+		</Field>
+		<Field column="STORE_BUY_WINGS_5_HEADLINE" />
+		<Field column="STORE_OWNED_HEADLINE" loc_ID="21875">
+			<enUS>League of Explorers (Purchased)</enUS>
+			<deDE>Die Forscherliga (erworben)</deDE>
+			<esES>Liga de Expedicionarios (adquirida)</esES>
+			<esMX>Liga de Expedicionarios (Comprada)</esMX>
+			<frFR>Ligue des explorateurs (déjà achetée)</frFR>
+			<itIT>Lega degli Esploratori (acquistata)</itIT>
+			<jaJP>リーグ・オブ・エクスプローラー（購入済）</jaJP>
+			<koKR>탐험가 연맹 (구매 완료)</koKR>
+			<plPL>Liga Odkrywców (zakupiono)</plPL>
+			<ptBR>Liga dos Exploradores (Comprado)</ptBR>
+			<ruRU>«Лига исследователей» (приобретено)</ruRU>
+			<zhCN>探险者协会（已购买）</zhCN>
+			<zhTW>探險者協會(已購買)</zhTW>
+		</Field>
+		<Field column="STORE_PREORDER_HEADLINE" />
+		<Field column="STORE_BUY_WINGS_1_DESC" loc_ID="21876">
+			<enUS>• Finish your adventure!  Unlock the last wing and earn up to 12 new cards that can only be found in the League of Explorers.</enUS>
+			<deDE>• Schließen Sie Ihr Abenteuer ab! Schalten Sie den letzten Flügel frei und erkämpfen Sie sich bis zu 12 neue Karten, die nur im Forscherliga-Abenteuer zu finden sind.</deDE>
+			<esES>• ¡Termina tu aventura! Desbloquea la última ala y consigue hasta 12 cartas nuevas que solo se pueden obtener en la Liga de Expedicionarios.</esES>
+			<esMX>• ¡Termina tu aventura! Desbloquea el ala final y obtén hasta 12 cartas nuevas que solo pueden encontrarse en la Liga de Expedicionarios.</esMX>
+			<frFR>• Terminez votre aventure ! Débloquez la dernière aile et obtenez jusqu’à 12 nouvelles cartes pouvant être gagnées uniquement dans la Ligue des explorateurs.</frFR>
+			<itIT>• Completa l'avventura! Sblocca l'ultima ala e ottieni fino a 12 nuove carte reperibili solo nella Lega degli Esploratori.</itIT>
+			<jaJP>・冒険はついにクライマックスへ！最後の区画を開放し、「リーグ・オブ・エクスプローラー」でだけ発見できる最大12枚の新カードを獲得しよう。</jaJP>
+			<koKR>• 모험을 마무리하세요! 마지막 지구를 잠금 해제하여 탐험가 연맹에서만 얻을 수 있는 12장의 새로운 카드를 획득하세요.</koKR>
+			<plPL>• Dokończ przygodę! Odblokuj ostatnie skrzydło i zdobądź nawet 12 nowych kart, które można znaleźć jedynie w Lidze Odkrywców.</plPL>
+			<ptBR>• Termine sua aventura! Desbloqueie a última ala e ganhe até 12 cards novos que só podem ser encontrados na Liga dos Exploradores.</ptBR>
+			<ruRU>• Завершите приключение! Откройте доступ к последнему крылу и получите до 12 новых карт, которые можно найти только в Лиге исследователей!</ruRU>
+			<zhCN>• 完成你的冒险之旅！解锁最后一个区，赢得只有在探险者协会中才能获取的至多12张全新卡牌。</zhCN>
+			<zhTW>• 完成你的冒險！解鎖最後的區域並獲得最多12張《探險者協會》限定的新卡牌。</zhTW>
+		</Field>
+		<Field column="STORE_BUY_WINGS_2_DESC" loc_ID="21877">
+			<enUS>• Continue your adventure! Unlock the last two wings and earn up to 23 new cards that can only be found in the League of Explorers.</enUS>
+			<deDE>• Stürzen Sie sich wieder ins Abenteuer! Schalten Sie die letzten zwei Flügel frei und erkämpfen Sie sich bis zu 23 neue Karten, die nur im Forscherliga-Abenteuer zu finden sind.</deDE>
+			<esES>• ¡Prosigue tu aventura! Desbloquea las dos últimas alas y consigue hasta 23 cartas nuevas que solo se pueden obtener en la Liga de Expedicionarios.</esES>
+			<esMX>• ¡Continúa tu aventura! Desbloquea las últimas dos alas y obtén hasta 23 cartas nuevas que solo pueden encontrarse en la Liga de Expedicionarios.</esMX>
+			<frFR>• Continuez votre aventure ! Débloquez les deux dernières ailes et obtenez jusqu’à 23 nouvelles cartes pouvant être gagnées uniquement dans la Ligue des explorateurs.</frFR>
+			<itIT>• Continua l'avventura! Sblocca le ultime due ali e ottieni fino a 23 nuove carte reperibili solo nella Lega degli Esploratori.</itIT>
+			<jaJP>・冒険は続く！残る2つの区画を開放し、「リーグ・オブ・エクスプローラー」でだけ発見できる最大23枚の新カードを獲得しよう。</jaJP>
+			<koKR>• 모험을 계속하세요! 나머지 두 지구를 잠금 해제하여 탐험가 연맹에서만 얻을 수 있는 23장의 새로운 카드를 획득하세요.</koKR>
+			<plPL>• Kontynuuj przygodę! Odblokuj dwa ostatnie skrzydła i zdobądź nawet 23 nowe karty, które można znaleźć jedynie w Lidze Odkrywców.</plPL>
+			<ptBR>• Continue sua aventura! Desbloqueie as duas últimas alas e ganhe até 23 cards novos que só podem ser encontrados na Liga dos Exploradores.</ptBR>
+			<ruRU>• Приключение продолжается! Откройте доступ к оставшимся двум крыльям и получите до 23 новых карт, которые можно найти только в Лиге исследователей!</ruRU>
+			<zhCN>• 继续你的冒险之旅！解锁后两个区，赢得只有在探险者协会中才能获取的至多23张全新卡牌。</zhCN>
+			<zhTW>• 繼續你的冒險！解鎖剩餘的兩區並獲得最多23張《探險者協會》限定的新卡牌。</zhTW>
+		</Field>
+		<Field column="STORE_BUY_WINGS_3_DESC" loc_ID="21878">
+			<enUS>• Continue your adventure! Unlock the last three wings and earn up to 33 new cards that can only be found in the League of Explorers.</enUS>
+			<deDE>• Stürzen Sie sich wieder ins Abenteuer! Schalten Sie die letzten drei Flügel frei und erkämpfen Sie sich bis zu 33 neue Karten, die nur im Forscherliga-Abenteuer zu finden sind.</deDE>
+			<esES>• ¡Prosigue tu aventura! Desbloquea las tres últimas alas y consigue hasta 33 cartas nuevas que solo se pueden obtener en la Liga de Expedicionarios.</esES>
+			<esMX>• ¡Continúa tu aventura! Desbloquea las últimas tres alas y obtén hasta 33 cartas nuevas que solo pueden encontrarse en la Liga de Expedicionarios.</esMX>
+			<frFR>• Continuez votre aventure ! Débloquez les trois dernières ailes et obtenez jusqu’à 33 nouvelles cartes pouvant être gagnées uniquement dans la Ligue des explorateurs.</frFR>
+			<itIT>• Continua l'avventura! Sblocca le ultime tre ali e ottieni fino a 33 nuove carte reperibili solo nella Lega degli Esploratori.</itIT>
+			<jaJP>・冒険は続く！残る3つの区画を開放し、「リーグ・オブ・エクスプローラー」でだけ発見できる最大33枚の新カードを獲得しよう。</jaJP>
+			<koKR>• 모험을 계속하세요! 나머지 세 지구를 잠금 해제하여 탐험가 연맹에서만 얻을 수 있는 33장의 새로운 카드를 획득하세요.</koKR>
+			<plPL>• Kontynuuj przygodę! Odblokuj trzy ostatnie skrzydła i zdobądź nawet 33 nowe karty, które można znaleźć jedynie w Lidze Odkrywców.</plPL>
+			<ptBR>• Continue sua aventura! Desbloqueie as três últimas alas e ganhe até 33 cards novos que só podem ser encontrados na Liga dos Exploradores.</ptBR>
+			<ruRU>• Приключение продолжается! Откройте доступ к оставшимся трем крыльям и получите до 33 новых карт, которые можно найти только в Лиге исследователей!</ruRU>
+			<zhCN>• 继续你的冒险之旅！解锁后三个区，赢得只有在探险者协会中才能获取的至多33张全新卡牌。</zhCN>
+			<zhTW>• 繼續你的冒險！解鎖剩餘的三區並獲得最多33張《探險者協會》限定的新卡牌。</zhTW>
+		</Field>
+		<Field column="STORE_BUY_WINGS_4_DESC" loc_ID="21879">
+			<enUS>• Start your adventure! Unlock all the wings and earn up to 45 new cards that can only be found in the League of Explorers.</enUS>
+			<deDE>• Stürzen Sie sich ins Abenteuer! Schalten Sie alle Flügel frei und erkämpfen Sie sich bis zu 45 neue Karten, die nur im Forscherliga-Abenteuer zu finden sind.</deDE>
+			<esES>• ¡Empieza la aventura! Desbloquea todas las alas y consigue hasta 45 cartas nuevas que solo se pueden obtener en la Liga de Expedicionarios.</esES>
+			<esMX>• ¡Comienza tu aventura! Desbloquea todas las alas y obtén hasta 45 cartas nuevas que solo pueden encontrarse en la Liga de Expedicionarios.</esMX>
+			<frFR>• Lancez-vous dans l’aventure ! Débloquez toutes les ailes et obtenez jusqu’à 45 nouvelles cartes pouvant être gagnées uniquement dans la Ligue des explorateurs.</frFR>
+			<itIT>• Inizia l'avventura! Sblocca tutte le ali e ottieni fino a 45 nuove carte reperibili solo nella Lega degli Esploratori.</itIT>
+			<jaJP>・冒険の始まりだ！全ての区画を開放し、「リーグ・オブ・エクスプローラー」でだけ発見できる最大45枚の新カードを獲得しよう。</jaJP>
+			<koKR>• 모험을 시작하세요! 모든 지구를 잠금 해제하여 탐험가 연맹에서만 얻을 수 있는 45장의 카드를 획득하세요.</koKR>
+			<plPL>• Rozpocznij przygodę! Odblokuj wszystkie skrzydła i zdobądź nawet 45 nowych kart, które można znaleźć jedynie w Lidze Odkrywców.</plPL>
+			<ptBR>• Comece sua aventura! Desbloqueie todas as alas e ganhe até 45 cards novos que só podem ser encontrados na Liga dos Exploradores.</ptBR>
+			<ruRU>• Отправьтесь в приключение! Откройте все крылья и получите до 45 новых карт, которые можно найти только в Лиге исследователей.</ruRU>
+			<zhCN>• 闯入古老的遗迹，开始冒险！解锁全部四个区，赢得只有在探险者协会中才能获取的至多45张全新卡牌。</zhCN>
+			<zhTW>• 開始你的冒險！解鎖全部區域並獲得最多45張《探險者協會》限定的新卡牌。</zhTW>
+		</Field>
+		<Field column="STORE_BUY_WINGS_5_DESC" />
+		<Field column="STORE_OWNED_DESC" loc_ID="21880">
+			<enUS>• Defeat the bosses in the League of Explorers to earn your rewards.</enUS>
+			<deDE>• Besiegen Sie die Forscherliga-Bosse, um Belohnungen zu erhalten.</deDE>
+			<esES>• Derrota a los jefes de la Liga de Expedicionarios para obtener recompensas.</esES>
+			<esMX>• Derrota a los jefes de la Liga de Expedicionarios para obtener tus recompensas.</esMX>
+			<frFR>• Battez les boss de la Ligue des explorateurs pour obtenir vos récompenses.</frFR>
+			<itIT>• Sconfiggi i boss della Lega degli Esploratori per ottenere ricompense.</itIT>
+			<jaJP>・「リーグ・オブ・エクスプローラー」で遭遇するボス達を倒して報酬を獲得しよう。</jaJP>
+			<koKR>• 탐험가 연맹 모험의 우두머리들을 처치하고 보상을 획득하세요.</koKR>
+			<plPL>• Pokonaj bossów w Lidze Odkrywców, aby zdobyć nagrody.</plPL>
+			<ptBR>• Derrote os chefes da Liga dos Exploradores para receber as recompensas.</ptBR>
+			<ruRU>• Чтобы получить награду, победите боссов Лиги исследователей.</ruRU>
+			<zhCN>• 击败“探险者协会”中的所有首领，赢得你的奖励。</zhCN>
+			<zhTW>• 通過探險者協會的考驗，贏取你的獎勵。</zhTW>
+		</Field>
+		<Field column="STORE_PREORDER_DESC" />
+		<Field column="STORE_PREVIEW_REWARDS_TEXT" loc_ID="21881">
+			<enUS>Join the League to earn these cards and more!</enUS>
+			<deDE>Stürzen Sie sich ins Abenteuer, um diese und weitere Karten zu erhalten!</deDE>
+			<esES>¡Únete a la Liga para conseguir estas y otras cartas!</esES>
+			<esMX>¡Únete a la Liga para obtener estas cartas y más!</esMX>
+			<frFR>Rejoignez la Ligue pour obtenir ces cartes et bien plus encore !</frFR>
+			<itIT>Unisciti alla Lega per ottenere queste e altre carte!</itIT>
+			<jaJP>同盟に参加してこんなお宝カードを手に入れよう！</jaJP>
+			<koKR>탐험가 연맹에 가입하면 이 카드들은 물론 더 많은 카드들을 얻을 수 있습니다!</koKR>
+			<plPL>Dołącz do Ligi, aby zdobyć te karty i wiele więcej!</plPL>
+			<ptBR>Junte-se à Liga dos Exploradores e ganhe estes e outros cards!</ptBR>
+			<ruRU>Вступайте в Лигу исследователей, чтобы получить эти карты и другие награды!</ruRU>
+			<zhCN>加入探险者协会，赢得这些卡牌！</zhCN>
+			<zhTW>加入探險者協會來獲得這些卡牌！</zhTW>
+		</Field>
+		<Field column="ADVENTURE_DEF_PREFAB">Assets/Game/GameObjects/AdventureDefs/AdventureDef_LOE</Field>
+		<Field column="STORE_PREFAB">Assets/Game/GameObjects/StoreAdventureDefs/StoreAdventureDef_LOE</Field>
 	</Record>
 </Dbf>

@@ -38,6 +38,9 @@ GLOBAL_CARD_SET_DEBUG	スラッシュ
 GLOBAL_CARD_SET_EXPERT1	クラシック	
 GLOBAL_CARD_SET_GVG	ゴブリンvsノーム	
 GLOBAL_CARD_SET_GVG_SEARCHABLE_SHORTHAND_NAMES	GvG	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_LOE	リーグ・オブ・エクスプローラー	
+GLOBAL_CARD_SET_LOE_SEARCHABLE_SHORTHAND_NAMES	エクスプローラー	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_LOE_SHORT	エクスプローラー	
 GLOBAL_CARD_SET_NAXX	ナクスラーマス	
 GLOBAL_CARD_SET_NAXX_SEARCHABLE_SHORTHAND_NAMES	ナクス	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_PROMO	プロモ	
@@ -77,6 +80,7 @@ GLOBAL_COLLECTION_GOLDEN	ゴールデン
 GLOBAL_CONCEDE	敗北宣言	
 GLOBAL_CONFIRM	確定	
 GLOBAL_COST	コスト	
+GLOBAL_CREATE	作成	
 GLOBAL_CURRENT_DATE	{0:yyyy年MM月dd日}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
 GLOBAL_CURRENT_TIME	{0:tt h:mm}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
 GLOBAL_DATETIME_AFK_DAY	1日以上不在	
@@ -115,9 +119,9 @@ GLOBAL_DATETIME_SPLASHSCREEN_MONTH	1ヶ月以上
 GLOBAL_DATETIME_SPLASHSCREEN_SECONDS	1分以内	
 GLOBAL_DATETIME_SPLASHSCREEN_WEEKS	{0}週間	
 GLOBAL_DEFAULT_ALERT_HEADER	注意	
-GLOBAL_DEMO_COMPLETE_BODY	「Hearthstone: Heroes of Warcraft」体験版をプレイしていただきありがとうございます！	
+GLOBAL_DEMO_COMPLETE_BODY	「Hearthstone: ハースストーン」体験版をプレイしていただきありがとうございます！	
 GLOBAL_DEMO_COMPLETE_HEADER	おめでとう！	
-GLOBAL_DEMO_DISCLAIMER	この体験版は、「Hearthstone: Heroes of Warcraft」のプレイをお試しいただくことを目的として作成されております。	
+GLOBAL_DEMO_DISCLAIMER	この体験版は、「Hearthstone: ハースストーン」のプレイをお試しいただくことを目的として作成されております。	
 GLOBAL_DEMO_LEARN_MORE	もっと詳しく	
 GLOBAL_DONE	完了	
 GLOBAL_ERROR_ACCOUNT_LICENSES	アカウントの確認中に問題が発生しました。何かが欠落している可能性があります。申し訳ありません。次回ログイン時に再試行します。	
@@ -279,8 +283,8 @@ GLOBAL_KEYWORD_IMMUNE_REF_TEXT	無敵のキャラクターはダメージを受�
 GLOBAL_KEYWORD_IMMUNE_TEXT	ダメージを受けない。	
 GLOBAL_KEYWORD_INSPIRE	激励	
 GLOBAL_KEYWORD_INSPIRE_TEXT	君がヒーローパワーを使うと、その直後に何らかの効果を発生させる。	
-GLOBAL_KEYWORD_RECALL	オーバーロード:X	
-GLOBAL_KEYWORD_RECALL_TEXT	次のターン使えるマナがX減る。	
+GLOBAL_KEYWORD_OVERLOAD	オーバーロード: X	
+GLOBAL_KEYWORD_OVERLOAD_TEXT	次のターン使えるマナがX減る。	
 GLOBAL_KEYWORD_SECRET	秘策	
 GLOBAL_KEYWORD_SECRET_TEXT	相手のターンで特定の条件が満たされると効果が発動する。	
 GLOBAL_KEYWORD_SILENCE	沈黙	
@@ -296,20 +300,14 @@ GLOBAL_KEYWORD_STEALTH_TEXT	自身が攻撃を行うまで、攻撃対象や標�
 GLOBAL_KEYWORD_TAUNT	挑発	
 GLOBAL_KEYWORD_TAUNT_REF_TEXT	敵は「挑発」を持つミニオンしか攻撃できない。	
 GLOBAL_KEYWORD_TAUNT_TEXT	敵はこのミニオンしか攻撃できない。	
+GLOBAL_KEYWORD_TREASURE	発見	
+GLOBAL_KEYWORD_TREASURE_TEXT	3枚の中から手札に加えるカードを1枚選んでくれ。	
 GLOBAL_KEYWORD_WINDFURY	疾風	
 GLOBAL_KEYWORD_WINDFURY_TEXT	毎ターン2回ずつ攻撃できる。	
 GLOBAL_LANGUAGE_CHANGE_CONFIRM_MESSAGE	現在の活動が中断されます。よろしいですか？	
 GLOBAL_LANGUAGE_CHANGE_CONFIRM_TITLE	言語を変更しますか？	
-GLOBAL_LANGUAGE_DEDE	ドイツ語	
 GLOBAL_LANGUAGE_DOWNLOAD_VOICE_PACK	（DEV）ダウンロード済みのボイスパック	
 GLOBAL_LANGUAGE_DROPDOWN	言語	
-GLOBAL_LANGUAGE_ENGB	English (Great Britain)	
-GLOBAL_LANGUAGE_ENUS	English (United States)	
-GLOBAL_LANGUAGE_ESES	Spanish (Spain)	
-GLOBAL_LANGUAGE_ESMX	Spanish (Latin America)	
-GLOBAL_LANGUAGE_FRFR	French	
-GLOBAL_LANGUAGE_ITIT	Italian	
-GLOBAL_LANGUAGE_KOKR	Korean	
 GLOBAL_LANGUAGE_NATIVE_DEDE	Deutsch	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_ENUS	English	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_ESES	Español (España)	The name of the language IN THAT LANGUAGE.
@@ -323,12 +321,6 @@ GLOBAL_LANGUAGE_NATIVE_PTBR	Português (Brasil)	The name of the language IN THAT
 GLOBAL_LANGUAGE_NATIVE_RURU	Русский	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_ZHCN	中文（简体）	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_ZHTW	繁體中文(台灣)	The name of the language IN THAT LANGUAGE.
-GLOBAL_LANGUAGE_PLPL	Polish	
-GLOBAL_LANGUAGE_PTBR	Portuguese (Brazil)	
-GLOBAL_LANGUAGE_PTPT	Portuguese (Portugal)	
-GLOBAL_LANGUAGE_RURU	Russian	
-GLOBAL_LANGUAGE_ZHCN	Chinese (China)	
-GLOBAL_LANGUAGE_ZHTW	Chinese (Taiwan)	
 GLOBAL_LEAVE_SPECTATOR_MODE	去る	
 GLOBAL_LOGIN	ログイン	
 GLOBAL_LOGIN_CONFIRM_MESSAGE	現在のゲームの進行状況は失われます。よろしいですか？	
@@ -422,6 +414,7 @@ GLOBAL_PRACTICE_MAX_LEVEL_REACHED	練習レベル上限
 GLOBAL_PROGRAMNAME_DIABLO3	Diablo III	
 GLOBAL_PROGRAMNAME_HEARTHSTONE	Hearthstone	
 GLOBAL_PROGRAMNAME_HEROES	Heroes of the Storm	
+GLOBAL_PROGRAMNAME_OVERWATCH	Overwatch	
 GLOBAL_PROGRAMNAME_PHOENIX	Battle.net	
 GLOBAL_PROGRAMNAME_STARCRAFT2	StarCraft II	
 GLOBAL_PROGRAMNAME_WOW	World of Warcraft	
@@ -503,7 +496,7 @@ GLOBAL_REWARD_CHEST_TIER4	盾持ちのトランク
 GLOBAL_REWARD_CHEST_TIER4_EARNED	盾持ちのトランクを獲得したぞ！	
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL	{0}	0=first class
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL_DOUBLE	{0}・{1}	0=first class, 1=second class
-GLOBAL_REWARD_CLASS_CHALLENGE_HEADLINE	クラス・チャレンジがアンロックされたぞ！	
+GLOBAL_REWARD_CLASS_CHALLENGE_HEADLINE	クラスチャレンジがアンロックされたぞ！	
 GLOBAL_REWARD_CORE_CARD_DETAILS	{2}カード: {0}/{1}入手済	0=# cards unlocked, 1=# cards possible to unlock, 2=class
 GLOBAL_REWARD_FORGE_DETAILS_OUT_OF_BAND	ゲーム外からあなたのアカウントに闘技場参加権が{0}回分追加されました。	0=count
 GLOBAL_REWARD_FORGE_HEADLINE	闘技場参加権を取得	

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Dbf name="SCENARIO">
-	<SourceFingerprint>UcI9Gu92Q56UqOklrAHntx2H+hU=</SourceFingerprint>
+	<SourceFingerprint>QK2TKAjo+c5FXe5YZAoIiH11nJM=</SourceFingerprint>
 	<Column name="ID" type="Int" />
 	<Column name="NOTE_DESC" type="String" />
 	<Column name="PLAYERS" type="Int" />
@@ -19,6 +19,7 @@
 	<Column name="DESCRIPTION" type="LocString" />
 	<Column name="OPPONENT_NAME" type="LocString" />
 	<Column name="COMPLETED_DESCRIPTION" type="LocString" />
+	<Column name="PLAYER1_DECK_ID" type="Int" />
 	<Record>
 		<Field column="ID">2</Field>
 		<Field column="NOTE_DESC">standard 1 vs. 1 game</Field>
@@ -38,6 +39,7 @@
 		<Field column="DESCRIPTION" />
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">3</Field>
@@ -86,6 +88,7 @@
 		<Field column="DESCRIPTION" />
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID">15</Field>
 	</Record>
 	<Record>
 		<Field column="ID">4</Field>
@@ -127,13 +130,14 @@
 			<koKR>밀하우스</koKR>
 			<plPL>Mełko</plPL>
 			<ptBR>Millhouse</ptBR>
-			<ruRU>Миллхаус </ruRU>
+			<ruRU>Миллхаус</ruRU>
 			<zhCN>米尔豪斯</zhCN>
 			<zhTW>米歐浩斯</zhTW>
 		</Field>
 		<Field column="DESCRIPTION" />
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID">17</Field>
 	</Record>
 	<Record>
 		<Field column="ID">181</Field>
@@ -182,6 +186,7 @@
 		<Field column="DESCRIPTION" />
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID">19</Field>
 	</Record>
 	<Record>
 		<Field column="ID">201</Field>
@@ -230,6 +235,7 @@
 		<Field column="DESCRIPTION" />
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID">21</Field>
 	</Record>
 	<Record>
 		<Field column="ID">248</Field>
@@ -278,6 +284,7 @@
 		<Field column="DESCRIPTION" />
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID">23</Field>
 	</Record>
 	<Record>
 		<Field column="ID">249</Field>
@@ -326,6 +333,7 @@
 		<Field column="DESCRIPTION" />
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID">25</Field>
 	</Record>
 	<Record>
 		<Field column="ID">252</Field>
@@ -374,6 +382,7 @@
 		<Field column="DESCRIPTION" />
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">253</Field>
@@ -422,6 +431,7 @@
 		<Field column="DESCRIPTION" />
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">256</Field>
@@ -470,6 +480,7 @@
 		<Field column="DESCRIPTION" />
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">257</Field>
@@ -518,6 +529,7 @@
 		<Field column="DESCRIPTION" />
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">258</Field>
@@ -566,6 +578,7 @@
 		<Field column="DESCRIPTION" />
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">259</Field>
@@ -614,6 +627,7 @@
 		<Field column="DESCRIPTION" />
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">260</Field>
@@ -662,6 +676,7 @@
 		<Field column="DESCRIPTION" />
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">261</Field>
@@ -710,6 +725,7 @@
 		<Field column="DESCRIPTION" />
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">262</Field>
@@ -758,6 +774,7 @@
 		<Field column="DESCRIPTION" />
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">263</Field>
@@ -806,6 +823,7 @@
 		<Field column="DESCRIPTION" />
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">264</Field>
@@ -854,6 +872,7 @@
 		<Field column="DESCRIPTION" />
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">265</Field>
@@ -902,6 +921,7 @@
 		<Field column="DESCRIPTION" />
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">266</Field>
@@ -950,6 +970,7 @@
 		<Field column="DESCRIPTION" />
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">267</Field>
@@ -998,6 +1019,7 @@
 		<Field column="DESCRIPTION" />
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">268</Field>
@@ -1046,6 +1068,7 @@
 		<Field column="DESCRIPTION" />
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">269</Field>
@@ -1094,6 +1117,7 @@
 		<Field column="DESCRIPTION" />
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">270</Field>
@@ -1142,6 +1166,7 @@
 		<Field column="DESCRIPTION" />
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">271</Field>
@@ -1190,6 +1215,7 @@
 		<Field column="DESCRIPTION" />
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">273</Field>
@@ -1246,12 +1272,13 @@
 			<koKR>아눕레칸은 고대 거미 왕국 아졸네룹에서 명성을 드높인 고위 거미 군주입니다.</koKR>
 			<plPL>Anub’Rekhan jest jednym z najznamienitszych władców prastarego pajęczego królestwa Azjol’Nerub.</plPL>
 			<ptBR>Anub’Rekhan é um dos mais proeminentes Senhor das Aranhas do antigo reino aracnídeo de Azjol’Nerub.</ptBR>
-			<ruRU>Ануб'Рекан — один из сильнейших пауков-повелителей древнего паучьего царства Азжол'Неруб. </ruRU>
+			<ruRU>Ануб'Рекан — один из сильнейших пауков-повелителей древнего паучьего царства Азжол'Неруб.</ruRU>
 			<zhCN>阿努布雷坎是远古蜘蛛王国艾卓-尼鲁布最强大的蛛魔领主之一。</zhCN>
 			<zhTW>阿努比瑞克漢是來自古老的蜘蛛王國：阿茲歐-奈幽中最強大的蜘蛛領主之一。</zhTW>
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">274</Field>
@@ -1314,6 +1341,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">275</Field>
@@ -1376,6 +1404,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">276</Field>
@@ -1438,6 +1467,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">277</Field>
@@ -1500,6 +1530,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">278</Field>
@@ -1562,6 +1593,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">279</Field>
@@ -1624,6 +1656,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">280</Field>
@@ -1686,6 +1719,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">281</Field>
@@ -1748,6 +1782,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">282</Field>
@@ -1810,6 +1845,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">283</Field>
@@ -1872,6 +1908,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">284</Field>
@@ -1934,6 +1971,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">285</Field>
@@ -1996,6 +2034,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">286</Field>
@@ -2058,6 +2097,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">287</Field>
@@ -2120,6 +2160,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">288</Field>
@@ -2174,7 +2215,7 @@
 			<itIT>Riuscirai a sconfiggere questo boss con un mazzo speciale del Cacciatore? Vincendo, otterrai una carta per questa classe!</itIT>
 			<jaJP>再戦だ！この特別なハンターデッキを使って、ボスを倒せるかな？\n\nヤツを倒せれば、ハンターのカードが1枚手に入るぞ！</jaJP>
 			<koKR>이 특별한 사냥꾼 덱을 사용해 이 우두머리를 처치할 수 있을까요?\n\n우두머리를 처치하면 사냥꾼 카드를 얻을 수 있습니다!</koKR>
-			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii łowcy?\n\nZrób to, a otrzymasz kartę dla łowcy!</plPL>
+			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii łowcy?\nZrób to, a otrzymasz kartę dla łowcy!</plPL>
 			<ptBR>Revanche! Você pode vencer este chefe usando este deck especial de Caçador?\n\nDerrote-o e ganhe um card de Caçador!</ptBR>
 			<ruRU>Сможете ли вы победить босса с помощью этой колоды охотника?\nПобеда принесет вам новую карту охотника!</ruRU>
 			<zhCN>战斗继续！你能使用这套特殊的猎人套牌击败这个首领吗？\n\n击败他，获得猎人职业卡牌！</zhCN>
@@ -2210,6 +2251,7 @@
 			<zhCN>战斗继续！你能使用这套特殊的猎人套牌击败这个首领吗？</zhCN>
 			<zhTW>加賽！你是否能使用這個特殊的獵人套牌擊敗這個首領呢？</zhTW>
 		</Field>
+		<Field column="PLAYER1_DECK_ID">55</Field>
 	</Record>
 	<Record>
 		<Field column="ID">292</Field>
@@ -2264,7 +2306,7 @@
 			<itIT>Riuscirai a sconfiggere questo boss con un mazzo speciale del Guerriero? Vincendo, otterrai una carta per questa classe!</itIT>
 			<jaJP>再戦だ！この特別なウォリアーデッキを使って、ボスを倒せるかな？\n\nヤツを倒せれば、ウォリアーのカードが1枚手に入るぞ！</jaJP>
 			<koKR>이 특별한 전사 덱을 사용해 이 우두머리를 처치할 수 있을까요?\n\n우두머리를 처치하면 전사 카드를 얻을 수 있습니다!</koKR>
-			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii wojownika? Zrób to, a otrzymasz kartę dla wojownika!</plPL>
+			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii wojownika?\nZrób to, a otrzymasz kartę dla wojownika!</plPL>
 			<ptBR>Revanche! Você pode vencer este chefe usando este deck especial de Guerreiro?\n\nDerrote-o e ganhe um card de Guerreiro!</ptBR>
 			<ruRU>Сможете ли вы победить босса с помощью этой колоды воина?\nПобеда принесет вам новую карту воина!</ruRU>
 			<zhCN>战斗继续！你能使用这套特殊的战士套牌击败这个首领吗？\n\n击败他，获得战士职业卡牌！</zhCN>
@@ -2300,6 +2342,7 @@
 			<zhCN>战斗继续！你能使用这套特殊的战士套牌击败这个首领吗？</zhCN>
 			<zhTW>加賽！你是否能使用這個特殊的戰士套牌擊敗這個首領呢？</zhTW>
 		</Field>
+		<Field column="PLAYER1_DECK_ID">38</Field>
 	</Record>
 	<Record>
 		<Field column="ID">293</Field>
@@ -2390,6 +2433,7 @@
 			<zhCN>战斗继续！你能使用这套特殊的潜行者套牌击败这个首领吗？</zhCN>
 			<zhTW>加賽！你是否能使用這個特殊的盜賊套牌擊敗這個首領呢？</zhTW>
 		</Field>
+		<Field column="PLAYER1_DECK_ID">40</Field>
 	</Record>
 	<Record>
 		<Field column="ID">294</Field>
@@ -2480,6 +2524,7 @@
 			<zhCN>战斗继续！你能使用这套特殊的德鲁伊套牌击败这个首领吗？</zhCN>
 			<zhTW>加賽！你是否能使用這個特殊的德魯伊套牌擊敗這個首領呢？</zhTW>
 		</Field>
+		<Field column="PLAYER1_DECK_ID">42</Field>
 	</Record>
 	<Record>
 		<Field column="ID">295</Field>
@@ -2570,6 +2615,7 @@
 			<zhCN>战斗继续！你能使用这套特殊的牧师套牌击败这个首领吗？</zhCN>
 			<zhTW>加賽！你是否能使用這個特殊的牧師套牌擊敗這個首領呢？</zhTW>
 		</Field>
+		<Field column="PLAYER1_DECK_ID">44</Field>
 	</Record>
 	<Record>
 		<Field column="ID">296</Field>
@@ -2624,7 +2670,7 @@
 			<itIT>Riuscirai a sconfiggere questo boss con un mazzo speciale dello Sciamano? Vincendo, otterrai una carta per questa classe!</itIT>
 			<jaJP>再戦だ！この特別なシャーマンデッキを使って、ボスを倒せるかな？\n\nヤツを倒せれば、シャーマンのカードが1枚手に入るぞ！</jaJP>
 			<koKR>이 특별한 주술사 덱을 사용해 이 우두머리를 처치할 수 있을까요?\n\n우두머리를 처치하면 주술사 카드를 얻을 수 있습니다!</koKR>
-			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii szamana? Zrób to, a otrzymasz kartę dla szamana!</plPL>
+			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii szamana?\nZrób to, a otrzymasz kartę dla szamana!</plPL>
 			<ptBR>Revanche! Você pode vencer este chefe usando este deck especial de Xamã?\n\nDerrote-o e ganhe um card de Xamã!</ptBR>
 			<ruRU>Сможете ли вы победить босса с помощью этой колоды шамана?\nПобеда принесет вам новую карту шамана!</ruRU>
 			<zhCN>战斗继续！你能使用这套特殊的萨满祭司套牌击败这个首领吗？\n\n击败他，获得萨满祭司职业卡牌！</zhCN>
@@ -2660,6 +2706,7 @@
 			<zhCN>战斗继续！你能使用这套特殊的萨满祭司套牌击败这个首领吗？</zhCN>
 			<zhTW>加賽！你是否能使用這個特殊的薩滿套牌擊敗這個首領呢？</zhTW>
 		</Field>
+		<Field column="PLAYER1_DECK_ID">46</Field>
 	</Record>
 	<Record>
 		<Field column="ID">297</Field>
@@ -2714,7 +2761,7 @@
 			<itIT>Riuscirai a sconfiggere questo boss con un mazzo speciale del Mago? Vincendo, otterrai una carta per questa classe!</itIT>
 			<jaJP>再戦だ！この特別なメイジデッキを使って、ボスを倒せるかな？\n\nヤツを倒せれば、メイジのカードが1枚手に入るぞ！</jaJP>
 			<koKR>이 특별한 마법사 덱을 사용해 이 우두머리를 처치할 수 있을까요?\n\n우두머리를 처치하면 마법사 카드를 얻을 수 있습니다!</koKR>
-			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii maga?\n\nZrób to, a otrzymasz kartę dla maga!</plPL>
+			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii maga?\nZrób to, a otrzymasz kartę dla maga!</plPL>
 			<ptBR>Revanche! Você pode vencer este chefe usando este deck especial de Mago?\n\nDerrote-o e ganhe um card de Mago!</ptBR>
 			<ruRU>Сможете ли вы победить босса с помощью этой колоды мага?\nПобеда принесет вам новую карту мага!</ruRU>
 			<zhCN>战斗继续！你能使用这套特殊的法师套牌击败这个首领吗？\n\n击败他，获得法师职业卡牌！</zhCN>
@@ -2750,6 +2797,7 @@
 			<zhCN>战斗继续！你能使用这套特殊的法师套牌击败这个首领吗？</zhCN>
 			<zhTW>加賽！你是否能使用這個特殊的法師套牌擊敗這個首領呢？</zhTW>
 		</Field>
+		<Field column="PLAYER1_DECK_ID">48</Field>
 	</Record>
 	<Record>
 		<Field column="ID">298</Field>
@@ -2804,7 +2852,7 @@
 			<itIT>Riuscirai a sconfiggere questo boss con un mazzo speciale del Paladino? Vincendo, otterrai una carta per questa classe!</itIT>
 			<jaJP>再戦だ！この特別なパラディンデッキを使って、ボスを倒せるかな？\n\nヤツを倒せれば、パラディンのカードが1枚手に入るぞ！</jaJP>
 			<koKR>이 특별한 성기사 덱을 사용해 이 우두머리를 처치할 수 있을까요?\n\n우두머리를 처치하면 성기사 카드를 얻을 수 있습니다!</koKR>
-			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii paladyna? Zrób to, a otrzymasz kartę dla paladyna!</plPL>
+			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii paladyna?\nZrób to, a otrzymasz kartę dla paladyna!</plPL>
 			<ptBR>Revanche! Você pode vencer este chefe usando este deck especial de Paladino?\n\nDerrote-o e ganhe um card de Paladino!</ptBR>
 			<ruRU>Сможете ли вы победить босса с помощью этой колоды паладина?\nПобеда принесет вам новую карту паладина!</ruRU>
 			<zhCN>战斗继续！你能使用这套特殊的圣骑士套牌击败这个首领吗？\n\n击败他，获得圣骑士职业卡牌！</zhCN>
@@ -2840,6 +2888,7 @@
 			<zhCN>战斗继续！你能使用这套特殊的圣骑士套牌击败这个首领吗？</zhCN>
 			<zhTW>加賽！你是否能使用這個特殊的聖騎士套牌擊敗這個首領呢？</zhTW>
 		</Field>
+		<Field column="PLAYER1_DECK_ID">50</Field>
 	</Record>
 	<Record>
 		<Field column="ID">299</Field>
@@ -2930,6 +2979,7 @@
 			<zhCN>战斗继续！你能使用这套特殊的术士套牌击败天启四骑士吗？</zhCN>
 			<zhTW>加賽！你是否能使用這個特殊的術士套牌擊敗四騎士呢？</zhTW>
 		</Field>
+		<Field column="PLAYER1_DECK_ID">52</Field>
 	</Record>
 	<Record>
 		<Field column="ID">300</Field>
@@ -2992,6 +3042,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">301</Field>
@@ -3054,6 +3105,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">302</Field>
@@ -3116,6 +3168,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">303</Field>
@@ -3178,6 +3231,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">304</Field>
@@ -3240,6 +3294,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">305</Field>
@@ -3302,6 +3357,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">306</Field>
@@ -3364,6 +3420,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">307</Field>
@@ -3426,6 +3483,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">308</Field>
@@ -3488,6 +3546,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">309</Field>
@@ -3550,6 +3609,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">310</Field>
@@ -3612,6 +3672,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">311</Field>
@@ -3674,6 +3735,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">312</Field>
@@ -3736,6 +3798,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">313</Field>
@@ -3798,6 +3861,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">314</Field>
@@ -3860,6 +3924,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">319</Field>
@@ -3922,6 +3987,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">320</Field>
@@ -3972,7 +4038,7 @@
 			<deDE>Als Ihr weiter in die Tiefe vordringt, findet Ihr Euch plötzlich in der Dunkeleisenarena wieder!</deDE>
 			<esES>Al descender por la montaña, ¡te encuentras de lleno en la Arena Hierro Negro!</esES>
 			<esMX>Mientras desciendes por la montaña, ¡descubres que estás atrapado en la Arena Hierro Negro!</esMX>
-			<frFR>En poursuivant votre descente dans la montagne, vous vous retrouvez piégé dans l’arène Sombrefer !</frFR>
+			<frFR>En poursuivant votre descente dans la montagne, vous vous retrouvez piégé dans l’arène Sombrefer !</frFR>
 			<itIT>Scendendo verso il cuore della montagna, dovrai attraversare l'Arena dei Ferroscuro e sconfiggere il Gran Giudice Tetrapietra!</itIT>
 			<jaJP>山の中を下って行った君は、いつの間にかダークアイアン闘技場に迷い込んでいた！</jaJP>
 			<koKR>검은바위 산 지하로 내려가는 도중, 검은무쇠 투기장에 발을 들이고 말았습니다!</koKR>
@@ -3984,6 +4050,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">321</Field>
@@ -4025,7 +4092,7 @@
 			<koKR>제왕 타우릿산</koKR>
 			<plPL>Imperator Thaurissan</plPL>
 			<ptBR>Imperador Thaurissan</ptBR>
-			<ruRU>Император Тауриссан </ruRU>
+			<ruRU>Император Тауриссан</ruRU>
 			<zhCN>索瑞森大帝</zhCN>
 			<zhTW>索瑞森大帝</zhTW>
 		</Field>
@@ -4046,6 +4113,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">322</Field>
@@ -4108,6 +4176,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">323</Field>
@@ -4170,6 +4239,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">324</Field>
@@ -4232,6 +4302,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">325</Field>
@@ -4294,6 +4365,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">326</Field>
@@ -4356,6 +4428,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">327</Field>
@@ -4418,6 +4491,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">328</Field>
@@ -4480,6 +4554,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">329</Field>
@@ -4542,6 +4617,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">330</Field>
@@ -4604,6 +4680,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">331</Field>
@@ -4666,6 +4743,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">332</Field>
@@ -4728,6 +4806,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">333</Field>
@@ -4790,6 +4869,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">334</Field>
@@ -4852,6 +4932,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">335</Field>
@@ -4914,6 +4995,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">336</Field>
@@ -5004,6 +5086,7 @@
 			<zhCN>战斗继续！你能使用这套特殊的牧师套牌击败这个首领吗？</zhCN>
 			<zhTW>加賽！你能用這副特殊的牧師套牌擊敗這個首領嗎？</zhTW>
 		</Field>
+		<Field column="PLAYER1_DECK_ID">93</Field>
 	</Record>
 	<Record>
 		<Field column="ID">337</Field>
@@ -5066,6 +5149,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">338</Field>
@@ -5128,6 +5212,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">339</Field>
@@ -5190,6 +5275,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">340</Field>
@@ -5252,6 +5338,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">341</Field>
@@ -5314,6 +5401,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">343</Field>
@@ -5376,6 +5464,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">344</Field>
@@ -5438,6 +5527,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">345</Field>
@@ -5500,6 +5590,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">346</Field>
@@ -5562,6 +5653,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">347</Field>
@@ -5624,6 +5716,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">348</Field>
@@ -5686,6 +5779,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">349</Field>
@@ -5748,6 +5842,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">350</Field>
@@ -5810,6 +5905,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">351</Field>
@@ -5872,6 +5968,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">352</Field>
@@ -5934,6 +6031,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">353</Field>
@@ -5988,7 +6086,7 @@
 			<itIT>Riuscirai a sconfiggere questo boss con un mazzo speciale del Paladino? Vincendo, otterrai una carta per questa classe!</itIT>
 			<jaJP>再戦だ！この特別なパラディンデッキを使って、ボスを倒せるかな？\n\nヤツを倒せれば、パラディンのカードが1枚手に入るぞ！</jaJP>
 			<koKR>이 특별한 성기사 덱을 사용해 이 우두머리를 처치할 수 있을까요?\n\n우두머리를 처치하면 성기사 카드를 얻을 수 있습니다!</koKR>
-			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii paladyna? Zrób to, a otrzymasz kartę dla paladyna!</plPL>
+			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii paladyna?\nZrób to, a otrzymasz kartę dla paladyna!</plPL>
 			<ptBR>Revanche! Você pode vencer este chefe usando este deck especial de Paladino?\n\nDerrote-o e ganhe um card de Paladino!</ptBR>
 			<ruRU>Сможете ли вы победить босса с помощью этой колоды паладина?\nПобеда принесет вам новую карту паладина!</ruRU>
 			<zhCN>战斗继续！你能使用这套特殊的圣骑士套牌击败这个首领吗？\n\n击败他，获得圣骑士职业卡牌！</zhCN>
@@ -6024,6 +6122,7 @@
 			<zhCN>战斗继续！你能使用这套特殊的圣骑士套牌击败这个首领吗？</zhCN>
 			<zhTW>加賽！你能用這副特殊的聖騎士套牌擊敗這個首領嗎？</zhTW>
 		</Field>
+		<Field column="PLAYER1_DECK_ID">124</Field>
 	</Record>
 	<Record>
 		<Field column="ID">354</Field>
@@ -6078,7 +6177,7 @@
 			<itIT>Riuscirai a sconfiggere questo boss con un mazzo speciale del Guerriero? Vincendo, otterrai una carta per questa classe!</itIT>
 			<jaJP>再戦だ！この特別なウォリアーデッキを使って、ボスを倒せるかな？\n\nヤツを倒せれば、ウォリアーのカードが1枚手に入るぞ！</jaJP>
 			<koKR>이 특별한 전사 덱을 사용해 이 우두머리를 처치할 수 있을까요?\n\n우두머리를 처치하면 전사 카드를 얻을 수 있습니다!</koKR>
-			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii wojownika? Zrób to, a otrzymasz kartę dla wojownika!</plPL>
+			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii wojownika?\nZrób to, a otrzymasz kartę dla wojownika!</plPL>
 			<ptBR>Revanche! Você pode vencer este chefe usando este deck especial de Guerreiro?\n\nDerrote-o e ganhe um card de Guerreiro!</ptBR>
 			<ruRU>Сможете ли вы победить босса с помощью этой колоды воина?\nПобеда принесет вам новую карту воина!</ruRU>
 			<zhCN>战斗继续！你能使用这套特殊的战士套牌击败这个首领吗？\n\n击败他，获得战士职业卡牌！</zhCN>
@@ -6114,6 +6213,7 @@
 			<zhCN>战斗继续！你能使用这套特殊的战士套牌击败这个首领吗？</zhCN>
 			<zhTW>加賽！你能用這副特殊的戰士套牌擊敗這個首領嗎？</zhTW>
 		</Field>
+		<Field column="PLAYER1_DECK_ID">126</Field>
 	</Record>
 	<Record>
 		<Field column="ID">355</Field>
@@ -6168,7 +6268,7 @@
 			<itIT>Riuscirai a sconfiggere questo boss con un mazzo speciale del Cacciatore? Vincendo, otterrai una carta per questa classe!</itIT>
 			<jaJP>再戦だ！この特別なハンターデッキを使って、ボスを倒せるかな？\n\nヤツを倒せれば、ハンターのカードが1枚手に入るぞ！</jaJP>
 			<koKR>이 특별한 사냥꾼 덱을 사용해 이 우두머리를 처치할 수 있을까요?\n\n우두머리를 처치하면 사냥꾼 카드를 얻을 수 있습니다!</koKR>
-			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii łowcy?\n\nZrób to, a otrzymasz kartę dla łowcy!</plPL>
+			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii łowcy?\nZrób to, a otrzymasz kartę dla łowcy!</plPL>
 			<ptBR>Revanche! Você pode vencer este chefe usando este deck especial de Caçador?\n\nDerrote-o e ganhe um card de Caçador!</ptBR>
 			<ruRU>Сможете ли вы победить босса с помощью этой колоды охотника?\nПобеда принесет вам новую карту охотника!</ruRU>
 			<zhCN>战斗继续！你能使用这套特殊的猎人套牌击败这个首领吗？\n\n击败他，获得猎人职业卡牌！</zhCN>
@@ -6204,6 +6304,7 @@
 			<zhCN>战斗继续！你能使用这套特殊的猎人套牌击败这个首领吗？</zhCN>
 			<zhTW>加賽！你能用這副特殊的獵人套牌擊敗這個首領嗎？</zhTW>
 		</Field>
+		<Field column="PLAYER1_DECK_ID">128</Field>
 	</Record>
 	<Record>
 		<Field column="ID">356</Field>
@@ -6258,7 +6359,7 @@
 			<itIT>Riuscirai a sconfiggere questo boss con un mazzo speciale dello Sciamano? Vincendo, otterrai una carta per questa classe!</itIT>
 			<jaJP>再戦だ！この特別なシャーマンデッキを使って、ボスを倒せるかな？\n\nヤツを倒せれば、シャーマンのカードが1枚手に入るぞ！</jaJP>
 			<koKR>이 특별한 주술사 덱을 사용해 이 우두머리를 처치할 수 있을까요?\n\n우두머리를 처치하면 주술사 카드를 얻을 수 있습니다!</koKR>
-			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii szamana? Zrób to, a otrzymasz kartę dla szamana!</plPL>
+			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii szamana?\nZrób to, a otrzymasz kartę dla szamana!</plPL>
 			<ptBR>Revanche! Você pode vencer este chefe usando este deck especial de Xamã?\n\nDerrote-o e ganhe um card de Xamã!</ptBR>
 			<ruRU>Сможете ли вы победить босса с помощью этой колоды шамана?\nПобеда принесет вам новую карту шамана!</ruRU>
 			<zhCN>战斗继续！你能使用这套特殊的萨满祭司套牌击败这个首领吗？\n\n击败他，获得萨满祭司职业卡牌！</zhCN>
@@ -6294,6 +6395,7 @@
 			<zhCN>战斗继续！你能使用这套特殊的萨满祭司套牌击败这个首领吗？</zhCN>
 			<zhTW>加賽！你能用這副特殊的薩滿套牌擊敗這個首領嗎？</zhTW>
 		</Field>
+		<Field column="PLAYER1_DECK_ID">103</Field>
 	</Record>
 	<Record>
 		<Field column="ID">357</Field>
@@ -6348,7 +6450,7 @@
 			<itIT>Riuscirai a sconfiggere questo boss con un mazzo speciale del Druido? Vincendo, otterrai una carta per questa classe!</itIT>
 			<jaJP>再戦だ！この特別なドルイドデッキを使って、ボスを倒せるかな？\n\nヤツを倒せれば、ドルイドのカードが1枚手に入るぞ！</jaJP>
 			<koKR>이 특별한 드루이드 덱을 사용해 이 우두머리를 처치할 수 있을까요?\n\n우두머리를 처치하면 드루이드 카드를 얻을 수 있습니다!</koKR>
-			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii druida?\n\nZrób to, a otrzymasz kartę dla druida!</plPL>
+			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii druida?\nZrób to, a otrzymasz kartę dla druida!</plPL>
 			<ptBR>Revanche! Você pode vencer este chefe usando este deck especial de Druida?\n\nDerrote-o e ganhe um card de Druida!</ptBR>
 			<ruRU>Сможете ли вы победить босса с помощью этой колоды друида?\nПобеда принесет вам новую карту друида!</ruRU>
 			<zhCN>战斗继续！你能使用这套特殊的德鲁伊套牌击败这个首领吗？\n\n击败他，获得德鲁伊职业卡牌！</zhCN>
@@ -6384,6 +6486,7 @@
 			<zhCN>战斗继续！你能使用这套特殊的德鲁伊套牌击败这个首领吗？</zhCN>
 			<zhTW>加賽！你能用這副特殊的德魯伊套牌擊敗這個首領嗎？</zhTW>
 		</Field>
+		<Field column="PLAYER1_DECK_ID">105</Field>
 	</Record>
 	<Record>
 		<Field column="ID">358</Field>
@@ -6438,7 +6541,7 @@
 			<itIT>Riuscirai a sconfiggere questo boss con un mazzo speciale del Ladro? Vincendo, otterrai una carta per questa classe!</itIT>
 			<jaJP>再戦だ！この特別なローグデッキを使って、ボスを倒せるかな？\n\nヤツを倒せれば、ローグのカードが1枚手に入るぞ！</jaJP>
 			<koKR>이 특별한 도적 덱을 사용해 이 우두머리를 처치할 수 있을까요?\n\n우두머리를 처치하면 도적 카드를 얻을 수 있습니다!</koKR>
-			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii łotra?\n\nZrób to, a otrzymasz kartę dla łotra!</plPL>
+			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii łotra?\nZrób to, a otrzymasz kartę dla łotra!</plPL>
 			<ptBR>Revanche! Você pode vencer este chefe usando este deck especial de Ladino?\n\nDerrote-o e ganhe um card de Ladino!</ptBR>
 			<ruRU>Сможете ли вы победить босса с помощью этой колоды разбойника?\nПобеда принесет вам новую карту разбойника!</ruRU>
 			<zhCN>战斗继续！你能使用这套特殊的潜行者套牌击败这个首领吗？\n\n击败他，获得潜行者职业卡牌！</zhCN>
@@ -6474,6 +6577,7 @@
 			<zhCN>战斗继续！你能使用这套特殊的潜行者套牌击败这个首领吗？</zhCN>
 			<zhTW>加賽！你能用這副特殊的盜賊套牌擊敗這個首領嗎？</zhTW>
 		</Field>
+		<Field column="PLAYER1_DECK_ID">107</Field>
 	</Record>
 	<Record>
 		<Field column="ID">359</Field>
@@ -6528,7 +6632,7 @@
 			<itIT>Riuscirai a sconfiggere questo boss con un mazzo speciale dello Stregone? Vincendo, otterrai una carta per questa classe!</itIT>
 			<jaJP>再戦だ！この特別なウォーロックデッキを使って、ボスを倒せるかな？\n\nヤツを倒せれば、ウォーロックのカードが1枚手に入るぞ！</jaJP>
 			<koKR>이 특별한 흑마법사 덱을 사용해 이 우두머리를 처치할 수 있을까요?\n\n우두머리를 처치하면 흑마법사 카드를 얻을 수 있습니다!</koKR>
-			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii czarnoksiężnika?\n\nZrób to, a otrzymasz kartę dla czarnoksiężnika!</plPL>
+			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii czarnoksiężnika?\nZrób to, a otrzymasz kartę dla czarnoksiężnika!</plPL>
 			<ptBR>Revanche! Você pode vencer este chefe usando este deck especial de Bruxo?\n\nDerrote-o e ganhe um card de Bruxo!</ptBR>
 			<ruRU>Сможете ли вы победить босса с помощью этой колоды чернокнижника?\nПобеда принесет вам новую карту чернокнижника!</ruRU>
 			<zhCN>战斗继续！你能使用这套特殊的术士套牌击败这个首领吗？\n\n击败他，获得术士职业卡牌！</zhCN>
@@ -6564,6 +6668,7 @@
 			<zhCN>战斗继续！你能使用这套特殊的术士套牌击败这个首领吗？</zhCN>
 			<zhTW>加賽！你能用這副特殊的術士套牌擊敗這個首領嗎？</zhTW>
 		</Field>
+		<Field column="PLAYER1_DECK_ID">109</Field>
 	</Record>
 	<Record>
 		<Field column="ID">360</Field>
@@ -6618,7 +6723,7 @@
 			<itIT>Riuscirai a sconfiggere questo boss con un mazzo speciale del Mago? Vincendo, otterrai una carta per questa classe!</itIT>
 			<jaJP>再戦だ！この特別なメイジデッキを使って、ボスを倒せるかな？\n\nヤツを倒せれば、メイジのカードが1枚手に入るぞ！</jaJP>
 			<koKR>이 특별한 마법사 덱을 사용해 이 우두머리를 처치할 수 있을까요?\n\n우두머리를 처치하면 마법사 카드를 얻을 수 있습니다!</koKR>
-			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii maga?\n\nZrób to, a otrzymasz kartę dla maga!</plPL>
+			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii maga?\nZrób to, a otrzymasz kartę dla maga!</plPL>
 			<ptBR>Revanche! Você pode vencer este chefe usando este deck especial de Mago?\n\nDerrote-o e ganhe um card de Mago!</ptBR>
 			<ruRU>Сможете ли вы победить босса с помощью этой колоды мага?\nПобеда принесет вам новую карту мага!</ruRU>
 			<zhCN>战斗继续！你能使用这套特殊的法师套牌击败这个首领吗？\n\n击败他，获得法师职业卡牌！</zhCN>
@@ -6654,6 +6759,7 @@
 			<zhCN>战斗继续！你能使用这套特殊的法师套牌击败这个首领吗？</zhCN>
 			<zhTW>加賽！你能用這副特殊的法師套牌擊敗這個首領嗎？</zhTW>
 		</Field>
+		<Field column="PLAYER1_DECK_ID">111</Field>
 	</Record>
 	<Record>
 		<Field column="ID">361</Field>
@@ -6716,6 +6822,7 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 	<Record>
 		<Field column="ID">362</Field>
@@ -6778,13 +6885,1120 @@
 		</Field>
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
+	</Record>
+	<Record>
+		<Field column="ID">1000</Field>
+		<Field column="NOTE_DESC">LOE_10_Giantfin</Field>
+		<Field column="PLAYERS">1</Field>
+		<Field column="PLAYER1_HERO_CARD_ID" />
+		<Field column="PLAYER2_HERO_CARD_ID">10109</Field>
+		<Field column="IS_TUTORIAL">False</Field>
+		<Field column="IS_EXPERT">True</Field>
+		<Field column="IS_COOP">False</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="WING_ID">13</Field>
+		<Field column="SORT_ORDER">8</Field>
+		<Field column="MODE_ID">1</Field>
+		<Field column="CLIENT_PLAYER2_HERO_CARD_ID">0</Field>
+		<Field column="NAME" loc_ID="5830">
+			<enUS>Giantfin the Horrible</enUS>
+			<deDE>Riesenflosse der Schreckliche</deDE>
+			<esES>Aletaza el Horrible</esES>
+			<esMX>Granaleta el Horrible</esMX>
+			<frFR>Aileron-Géant l’Horrible</frFR>
+			<itIT>Pinnagrossa l'Orribile</itIT>
+			<jaJP>凄まじきジャイアントフィン</jaJP>
+			<koKR>끔찍한 거대아가미</koKR>
+			<plPL>Wielkopłetw Straszliwy</plPL>
+			<ptBR>Barbatana, o Horrível</ptBR>
+			<ruRU>Жуткий Великий Плавник</ruRU>
+			<zhCN>恐怖的老蓟皮</zhCN>
+			<zhTW>可怕的大鰭</zhTW>
+		</Field>
+		<Field column="SHORT_NAME" loc_ID="5831">
+			<enUS>Giantfin</enUS>
+			<deDE>Riesenflosse</deDE>
+			<esES>Aletaza</esES>
+			<esMX>Granaleta</esMX>
+			<frFR>Aileron-Géant</frFR>
+			<itIT>Pinnagrossa</itIT>
+			<jaJP>ジャイアントフィン</jaJP>
+			<koKR>거대아가미</koKR>
+			<plPL>Wielkopłetw</plPL>
+			<ptBR>Barbatana</ptBR>
+			<ruRU>Великий Плавник</ruRU>
+			<zhCN>老蓟皮</zhCN>
+			<zhTW>大鰭</zhTW>
+		</Field>
+		<Field column="DESCRIPTION" loc_ID="21675">
+			<enUS>Deal with this giant murloc to reach the location of the final piece!</enUS>
+			<deDE>Beseitigt diesen riesigen Murloc, um bis zum letzten Teil vorzudringen!</deDE>
+			<esES>¡Enfréntate a este múrloc gigante para encontrar la última pieza!</esES>
+			<esMX>¡Líbrate de este múrloc gigante para llegar hasta la pieza final!</esMX>
+			<frFR>Débarrassez-vous de ce murloc géant pour continuer et trouver le dernier morceau !</frFR>
+			<itIT>Sconfiggi questo Murloc gigante per raggiungere l'ultimo pezzo!</itIT>
+			<jaJP>最後のパーツが眠る場所にたどり着くには、この巨大マーロックを攻略しないとっ！</jaJP>
+			<koKR>이 거대한 멀록을 처치하고 마지막 조각이 있는 곳으로 향하세요!</koKR>
+			<plPL>Pokonaj tego olbrzymiego murloka, aby dotrzeć do ostatniego elementu!</plPL>
+			<ptBR>Cuide desse murloc gigante para chegar à peça final!</ptBR>
+			<ruRU>Одолейте этого гигантского мурлока, чтобы добраться до последнего фрагмента!</ruRU>
+			<zhCN>只有击败这个恐怖怪异的鱼人恶霸，才有机会得到最后一块组件！</zhCN>
+			<zhTW>解決這隻巨大魚人，才能前往最終組件的所在地！</zhTW>
+		</Field>
+		<Field column="OPPONENT_NAME" />
+		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
+	</Record>
+	<Record>
+		<Field column="ID">1040</Field>
+		<Field column="NOTE_DESC">LOE_01_Sun_Raider_Phaerix</Field>
+		<Field column="PLAYERS">1</Field>
+		<Field column="PLAYER1_HERO_CARD_ID" />
+		<Field column="PLAYER2_HERO_CARD_ID">14018</Field>
+		<Field column="IS_TUTORIAL">False</Field>
+		<Field column="IS_EXPERT">True</Field>
+		<Field column="IS_COOP">False</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="WING_ID">11</Field>
+		<Field column="SORT_ORDER">2</Field>
+		<Field column="MODE_ID">1</Field>
+		<Field column="CLIENT_PLAYER2_HERO_CARD_ID">0</Field>
+		<Field column="NAME" />
+		<Field column="SHORT_NAME" loc_ID="21667">
+			<enUS>Sun Raider Phaerix</enUS>
+			<deDE>Sonnendieb Phaerix</deDE>
+			<esES>Asaltante del sol Phaerix</esES>
+			<esMX>Asaltasoles Phaerix</esMX>
+			<frFR>Écumeur du soleil Phaerix</frFR>
+			<itIT>Sciacallo del Sole Phaerix</itIT>
+			<jaJP>サンレイダー・フェリックス</jaJP>
+			<koKR>태양의 사냥꾼 패릭스</koKR>
+			<plPL>Słoneczny Grabieżca Faeriks</plPL>
+			<ptBR>Guerreiro do Sol Phaerix</ptBR>
+			<ruRU>Расхититель Фаэрикс</ruRU>
+			<zhCN>菲利克斯·掠日者</zhCN>
+			<zhTW>劫日者費里斯</zhTW>
+		</Field>
+		<Field column="DESCRIPTION" loc_ID="21668">
+			<enUS>Phaerix has the first piece of the staff. Get it!</enUS>
+			<deDE>Phaerix hat das erste Teil des Stabes. Holt es Euch!</deDE>
+			<esES>Phaerix tiene la primera pieza del bastón. ¡Hazte con ella!</esES>
+			<esMX>Phaerix tiene la primera pieza del báculo. ¡Quítasela!</esMX>
+			<frFR>Phaerix détient la première partie du bâton. Récupérez-la !</frFR>
+			<itIT>Phaerix ha il primo pezzo del Bastone. Recuperalo!</itIT>
+			<jaJP>フェリックスが杖の最初のパーツを持ってます。手に入れてくださいっ！</jaJP>
+			<koKR>패릭스가 지팡이의 첫 번째 조각을 가지고 있습니다. 서두르세요!</koKR>
+			<plPL>Faeriks ma pierwszą część kostura.\nZdobądź ją!</plPL>
+			<ptBR>Phaerix está com a primeira parte do cajado. Pegue-a!</ptBR>
+			<ruRU>Фаэрикс завладел первым фрагментом посоха. Его нужно отвоевать!</ruRU>
+			<zhCN>菲利克斯拥有法杖的第一块组件，去夺回它！</zhCN>
+			<zhTW>費里斯手上有法杖的第一個組件，把它奪過來！</zhTW>
+		</Field>
+		<Field column="OPPONENT_NAME" />
+		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
+	</Record>
+	<Record>
+		<Field column="ID">1041</Field>
+		<Field column="NOTE_DESC">LOE_02_Zinaar</Field>
+		<Field column="PLAYERS">1</Field>
+		<Field column="PLAYER1_HERO_CARD_ID" />
+		<Field column="PLAYER2_HERO_CARD_ID">14193</Field>
+		<Field column="IS_TUTORIAL">False</Field>
+		<Field column="IS_EXPERT">True</Field>
+		<Field column="IS_COOP">False</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="WING_ID">11</Field>
+		<Field column="SORT_ORDER">1</Field>
+		<Field column="MODE_ID">1</Field>
+		<Field column="CLIENT_PLAYER2_HERO_CARD_ID">0</Field>
+		<Field column="NAME" />
+		<Field column="SHORT_NAME" loc_ID="21659">
+			<enUS>Zinaar</enUS>
+			<deDE>Zinaar</deDE>
+			<esES>Zinaar</esES>
+			<esMX>Zinaar</esMX>
+			<frFR>Zinaar</frFR>
+			<itIT>Zinaar</itIT>
+			<jaJP>ジナール</jaJP>
+			<koKR>지나르</koKR>
+			<plPL>Zinaar</plPL>
+			<ptBR>Zinaar</ptBR>
+			<ruRU>Зинаар</ruRU>
+			<zhCN>辛纳尔</zhCN>
+			<zhTW>辛納爾</zhTW>
+		</Field>
+		<Field column="DESCRIPTION" loc_ID="21660">
+			<enUS>Help Reno find the first piece of the staff. WAIT, RENO! DON'T RUB THE LAMP!</enUS>
+			<deDE>Helft Reno, das erste Teil des Stabes zu finden. NEIN, RENO! NICHT AN DER LAMPE REIBEN!</deDE>
+			<esES>Ayuda a Reno a buscar la primera pieza del bastón. ¡QUIETO, RENO! ¡NO FROTES LA LÁMPARA!</esES>
+			<esMX>Ayuda a Reno a encontrar la primera pieza del báculo. ¡ESPERA, RENO! ¡NO FROTES LA LÁMPARA!</esMX>
+			<frFR>Aidez Reno à trouver la première partie du bâton. NON, RENO ! NE FROTTEZ PAS LA LAMPE !</frFR>
+			<itIT>Aiuta Reno a trovare il primo pezzo del Bastone. FERMO, RENO! NON SFREGARE LA LAMPADA!</itIT>
+			<jaJP>レノさんと一緒に、杖の最初のパーツを探してください。って、レノさんっ！そのランプをこすったらっ…！</jaJP>
+			<koKR>리노가 지팡이의 첫 번째 조각을 찾을 수 있도록 도와주세요. 잠깐, 리노! 그 램프를 문지르면 안 돼요!</koKR>
+			<plPL>Pomóż Reno znaleźć pierwszą część kostura. Reno, poczekaj! NIE POCIERAJ TEJ LAMPY!</plPL>
+			<ptBR>Ajude Reno a encontrar a primeira parte do cajado. ESPERE, RENO! NÃO ESFREGUE A LÂMPADA!</ptBR>
+			<ruRU>Помогите Рено найти первый фрагмент посоха. РЕНО, СТОЙ! НЕ ТРИ ЭТУ ЛАМПУ!</ruRU>
+			<zhCN>帮助雷诺找回法杖的第一块组件。等等，雷诺！别擦那盏灯！</zhCN>
+			<zhTW>幫助里諾拿到法杖的第一個組件。等等！里諾！別碰那個油燈！</zhTW>
+		</Field>
+		<Field column="OPPONENT_NAME" />
+		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
+	</Record>
+	<Record>
+		<Field column="ID">1060</Field>
+		<Field column="NOTE_DESC">LOE_05_Scarvash</Field>
+		<Field column="PLAYERS">1</Field>
+		<Field column="PLAYER1_HERO_CARD_ID" />
+		<Field column="PLAYER2_HERO_CARD_ID">15352</Field>
+		<Field column="IS_TUTORIAL">False</Field>
+		<Field column="IS_EXPERT">True</Field>
+		<Field column="IS_COOP">False</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="WING_ID">12</Field>
+		<Field column="SORT_ORDER">4</Field>
+		<Field column="MODE_ID">1</Field>
+		<Field column="CLIENT_PLAYER2_HERO_CARD_ID">0</Field>
+		<Field column="NAME" />
+		<Field column="SHORT_NAME" loc_ID="21657">
+			<enUS>Chieftain Scarvash</enUS>
+			<deDE>Häuptling Scarvash</deDE>
+			<esES>Cabecilla Scarvash</esES>
+			<esMX>Gran Jefe Scarvash</esMX>
+			<frFR>Chef Scarvash</frFR>
+			<itIT>Capo Tribù Scarvash</itIT>
+			<jaJP>族長・スカーヴァッシュ</jaJP>
+			<koKR>족장 스카바쉬</koKR>
+			<plPL>Wódz Skarwosz</plPL>
+			<ptBR>Chefe Scarvash</ptBR>
+			<ruRU>Вождь Скарваш</ruRU>
+			<zhCN>斯卡瓦什酋长</zhCN>
+			<zhTW>斯卡瓦酋長</zhTW>
+		</Field>
+		<Field column="DESCRIPTION" loc_ID="21658">
+			<enUS>The second piece of the staff is somewhere inside Uldaman!</enUS>
+			<deDE>Das zweite Teil des Stabes ist irgendwo in Uldaman versteckt!</deDE>
+			<esES>¡La segunda pieza del bastón está en algún lugar dentro de Uldaman!</esES>
+			<esMX>¡La segunda pieza del báculo está en algún rincón de Uldaman!</esMX>
+			<frFR>La deuxième partie du bâton se trouve quelque part dans Uldaman !</frFR>
+			<itIT>Il secondo pezzo del Bastone è nascosto da qualche parte dentro Uldaman!</itIT>
+			<jaJP>杖の二番目のパーツは、ウルダマンのどこかに眠ってますっ！</jaJP>
+			<koKR>지팡이의 두 번째 조각은 울다만 안에 있습니다!</koKR>
+			<plPL>Druga część kostura jest gdzieś w Uldamanie!</plPL>
+			<ptBR>A segunda parte do cajado está dentro de Uldaman, em algum lugar!</ptBR>
+			<ruRU>Второй фрагмент посоха спрятан где-то в глубинах Ульдамана!</ruRU>
+			<zhCN>法杖的第二块组件就在奥达曼的某个地方！</zhCN>
+			<zhTW>法杖的第二個組件就隱藏在奧達曼！</zhTW>
+		</Field>
+		<Field column="OPPONENT_NAME" />
+		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
+	</Record>
+	<Record>
+		<Field column="ID">1061</Field>
+		<Field column="NOTE_DESC">LOE_04_Temple_Escape</Field>
+		<Field column="PLAYERS">1</Field>
+		<Field column="PLAYER1_HERO_CARD_ID" />
+		<Field column="PLAYER2_HERO_CARD_ID">16230</Field>
+		<Field column="IS_TUTORIAL">False</Field>
+		<Field column="IS_EXPERT">True</Field>
+		<Field column="IS_COOP">False</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="WING_ID">11</Field>
+		<Field column="SORT_ORDER">3</Field>
+		<Field column="MODE_ID">1</Field>
+		<Field column="CLIENT_PLAYER2_HERO_CARD_ID">0</Field>
+		<Field column="NAME" />
+		<Field column="SHORT_NAME" loc_ID="21669">
+			<enUS>Temple Escape</enUS>
+			<deDE>Flucht aus dem Tempel</deDE>
+			<esES>Huida del templo</esES>
+			<esMX>Escape del templo</esMX>
+			<frFR>Fuite du temple</frFR>
+			<itIT>Fuga dal Tempio</itIT>
+			<jaJP>寺院からの脱出</jaJP>
+			<koKR>무너지는 사원</koKR>
+			<plPL>Ucieczka ze świątyni</plPL>
+			<ptBR>Fuga do Templo</ptBR>
+			<ruRU>Побег из храма</ruRU>
+			<zhCN>神庙逃亡</zhCN>
+			<zhTW>崩塌的神殿</zhTW>
+		</Field>
+		<Field column="DESCRIPTION" loc_ID="21670">
+			<enUS>THE TEMPLE IS COLLAPSING! RUN!!!</enUS>
+			<deDE>DER TEMPEL STÜRZT EIN! LAUFT!</deDE>
+			<esES>¡EL TEMPLO SE DERRUMBA! ¡¡¡HUYE!!!</esES>
+			<esMX>¡EL TEMPLO SE DERRUMBA! ¡¡¡CORRAN!!!</esMX>
+			<frFR>LE TEMPLE S’ÉCROULE ! FUYEZ !!!</frFR>
+			<itIT>IL TEMPIO STA CROLLANDO! CORRI!!!</itIT>
+			<jaJP>寺院が崩れますっ！逃げましょうっ！！</jaJP>
+			<koKR>사원이 무너지고 있습니다! 도망치세요!!!</koKR>
+			<plPL>ŚWIĄTYNIA SIĘ WALI. W NOGI!!!</plPL>
+			<ptBR>O TEMPLO ESTÁ DESABANDO. CORRA!!!</ptBR>
+			<ruRU>ХРАМ РУШИТСЯ! СПАСАЙСЯ КТО МОЖЕТ!!!</ruRU>
+			<zhCN>神庙开始崩塌了……快跑吧！</zhCN>
+			<zhTW>神殿要垮啦！快逃！</zhTW>
+		</Field>
+		<Field column="OPPONENT_NAME" />
+		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
+	</Record>
+	<Record>
+		<Field column="ID">1062</Field>
+		<Field column="NOTE_DESC">LOE07_Minecart</Field>
+		<Field column="PLAYERS">1</Field>
+		<Field column="PLAYER1_HERO_CARD_ID">16203</Field>
+		<Field column="PLAYER2_HERO_CARD_ID">16204</Field>
+		<Field column="IS_TUTORIAL">False</Field>
+		<Field column="IS_EXPERT">True</Field>
+		<Field column="IS_COOP">False</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="WING_ID">12</Field>
+		<Field column="SORT_ORDER">5</Field>
+		<Field column="MODE_ID">1</Field>
+		<Field column="CLIENT_PLAYER2_HERO_CARD_ID">0</Field>
+		<Field column="NAME" />
+		<Field column="SHORT_NAME" loc_ID="21696">
+			<enUS>Mine Cart Rush</enUS>
+			<deDE>Rasante Lorenfahrt</deDE>
+			<esES>Huida en vagoneta</esES>
+			<esMX>Fiebre minera</esMX>
+			<frFR>Course en chariot de mine</frFR>
+			<itIT>Corsa sul Carrello Minerario</itIT>
+			<jaJP>トロッコ野郎・爆走一番星</jaJP>
+			<koKR>울다만의 광산</koKR>
+			<plPL>Gonitwa w wózku</plPL>
+			<ptBR>Corrida de Vagonete</ptBR>
+			<ruRU>Гонка на вагонетке</ruRU>
+			<zhCN>云霄矿车</zhCN>
+			<zhTW>礦車歷險</zhTW>
+		</Field>
+		<Field column="DESCRIPTION" loc_ID="21697">
+			<enUS>Escape the troggs in this “super safe” mine cart!</enUS>
+			<deDE>Flüchtet in dieser Lore vor den Troggs! Keine Sorge, sie ist total stabil. Und sicher.</deDE>
+			<esES>¡Huye de los troggs en esta "segurísima" vagoneta!</esES>
+			<esMX>¡Escapa de los troggs en este carro minero “superseguro”!</esMX>
+			<frFR>Fuyez les troggs dans ce chariot de mine totalement « sans danger » !</frFR>
+			<itIT>Fuggi dai Trogg in questo carrello minerario "super sicuro"!</itIT>
+			<jaJP>この「絶対安全」トロッコでトログを振り切りましょうっ！</jaJP>
+			<koKR>트로그가 너무 많습니다! 이 "안전한" 광산 수레에 올라타세요!</koKR>
+			<plPL>Ucieknij troggom w tym „absolutnie bezpiecznym” wózku!</plPL>
+			<ptBR>Escape dos troggs neste "superseguro" vagonete da mina!</ptBR>
+			<ruRU>Эта супер-надежная вагонетка поможет вам оторваться от троггов!</ruRU>
+			<zhCN>矿车“安全”得很，用它来摆脱那些穴居人！</zhCN>
+			<zhTW>快用「保證安全」的礦車逃離穴居怪的追捕！</zhTW>
+		</Field>
+		<Field column="OPPONENT_NAME" />
+		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID">572</Field>
+	</Record>
+	<Record>
+		<Field column="ID">1084</Field>
+		<Field column="NOTE_DESC">LOE_08_Archaedas</Field>
+		<Field column="PLAYERS">1</Field>
+		<Field column="PLAYER1_HERO_CARD_ID" />
+		<Field column="PLAYER2_HERO_CARD_ID">17099</Field>
+		<Field column="IS_TUTORIAL">False</Field>
+		<Field column="IS_EXPERT">True</Field>
+		<Field column="IS_COOP">False</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="WING_ID">12</Field>
+		<Field column="SORT_ORDER">6</Field>
+		<Field column="MODE_ID">1</Field>
+		<Field column="CLIENT_PLAYER2_HERO_CARD_ID">0</Field>
+		<Field column="NAME" />
+		<Field column="SHORT_NAME" loc_ID="21698">
+			<enUS>Archaedas</enUS>
+			<deDE>Archaedas</deDE>
+			<esES>Archaedas</esES>
+			<esMX>Archaedas</esMX>
+			<frFR>Archaedas</frFR>
+			<itIT>Archaedas</itIT>
+			<jaJP>アーケイダス</jaJP>
+			<koKR>아카에다스</koKR>
+			<plPL>Archaedas</plPL>
+			<ptBR>Arkhaedas</ptBR>
+			<ruRU>Аркедас</ruRU>
+			<zhCN>阿扎达斯</zhCN>
+			<zhTW>阿札達斯</zhTW>
+		</Field>
+		<Field column="DESCRIPTION" loc_ID="21699">
+			<enUS>That stone giant has the second piece! It seems to be moving, though...</enUS>
+			<deDE>Dieser Steinriese hat das zweite Teil. Moment, bewegt er sich etwa?</deDE>
+			<esES>¡Ese gigante de piedra tiene la segunda pieza! Pero parece que se mueve...</esES>
+			<esMX>¡Ese gigante de piedra tiene la segunda pieza! Pero... parece que se mueve.</esMX>
+			<frFR>Ce géant de pierre détient le deuxième morceau ! Mais on dirait qu’il bouge...</frFR>
+			<itIT>Quel gigante di pietra ha il secondo pezzo! Purtroppo, sembra si stia muovendo...</itIT>
+			<jaJP>巨大な石像の手に、二番目のパーツがっ！…えっと、あの石像、動いてません？</jaJP>
+			<koKR>거대한 석상이 두 번째 조각을 가지고 있습니다! 그런데, 그 석상이 움직이고 있군요...</koKR>
+			<plPL>Ten kamienny olbrzym ma drugą część! Ale chyba nie chce jej oddać...</plPL>
+			<ptBR>Parece que aquele gigante de pedra tem a segunda parte! Mas acho que ele está se mexendo...</ptBR>
+			<ruRU>Второй фрагмент находится у каменного великана. Но что это? Он двигается?..</ruRU>
+			<zhCN>第二块组件在那石头巨人手里！想撂倒他可没那么容易……</zhCN>
+			<zhTW>那個石巨人擁有第二個組件！只是它似乎會動…</zhTW>
+		</Field>
+		<Field column="OPPONENT_NAME" />
+		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
+	</Record>
+	<Record>
+		<Field column="ID">1086</Field>
+		<Field column="NOTE_DESC">LOE_12_Nazjar</Field>
+		<Field column="PLAYERS">1</Field>
+		<Field column="PLAYER1_HERO_CARD_ID" />
+		<Field column="PLAYER2_HERO_CARD_ID">17192</Field>
+		<Field column="IS_TUTORIAL">False</Field>
+		<Field column="IS_EXPERT">True</Field>
+		<Field column="IS_COOP">False</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="WING_ID">13</Field>
+		<Field column="SORT_ORDER">9</Field>
+		<Field column="MODE_ID">1</Field>
+		<Field column="CLIENT_PLAYER2_HERO_CARD_ID">0</Field>
+		<Field column="NAME" />
+		<Field column="SHORT_NAME" loc_ID="21673">
+			<enUS>Lady Naz'jar</enUS>
+			<deDE>Lady Naz'jar</deDE>
+			<esES>Lady Naz'jar</esES>
+			<esMX>Lady Naz'jar</esMX>
+			<frFR>Dame Naz’jar</frFR>
+			<itIT>Dama Naz'jar</itIT>
+			<jaJP>レディ・ナズジャール</jaJP>
+			<koKR>여군주 나즈자르</koKR>
+			<plPL>Lady Naz'jar</plPL>
+			<ptBR>Lady Naz'jar</ptBR>
+			<ruRU>Леди Наз'жар</ruRU>
+			<zhCN>纳兹夏尔女士</zhCN>
+			<zhTW>納茲賈爾女士</zhTW>
+		</Field>
+		<Field column="DESCRIPTION" loc_ID="21674">
+			<enUS>Lady Naz'jar has the final piece. The staff is within our grasp!</enUS>
+			<deDE>Lady Naz'jar hat das letzte Teil. Der Stab ist zum Greifen nahe!</deDE>
+			<esES>Lady Naz'jar tiene la última pieza. ¡Estamos a un paso de completar el bastón!</esES>
+			<esMX>Lady Naz'jar tiene la pieza final. ¡Ya casi tenemos el báculo!</esMX>
+			<frFR>Dame Naz’jar détient le dernier morceau. Le bâton est à notre portée !</frFR>
+			<itIT>Dama Naz'jar ha l'ultimo pezzo. Il Bastone è a portata di mano!</itIT>
+			<jaJP>最後のパーツはレディ・ナズジャールが持ってます。あと一息で、杖に手が届きますよっ！</jaJP>
+			<koKR>여군주 나즈자르가 마지막 조각을 가지고 있습니다. 지팡이가 곧 우리 것이 될 겁니다!</koKR>
+			<plPL>Ostatnią część ma Lady Naz'jar. Kostur jest w naszym zasięgu!</plPL>
+			<ptBR>Lady Naz'jar possui a última parte. O cajado está ao nosso alcance!</ptBR>
+			<ruRU>Последний фрагмент посоха находится у леди Наз'жар. Мы так близки к цели!</ruRU>
+			<zhCN>纳兹夏尔女士拥有最后一块组件，源生法杖近在咫尺！</zhCN>
+			<zhTW>最後的組件在納茲賈爾女士手上。我們就快取得完整的法杖了！</zhTW>
+		</Field>
+		<Field column="OPPONENT_NAME" />
+		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
+	</Record>
+	<Record>
+		<Field column="ID">1143</Field>
+		<Field column="NOTE_DESC">LOE_13_Devilsaur</Field>
+		<Field column="PLAYERS">1</Field>
+		<Field column="PLAYER1_HERO_CARD_ID" />
+		<Field column="PLAYER2_HERO_CARD_ID">19116</Field>
+		<Field column="IS_TUTORIAL">False</Field>
+		<Field column="IS_EXPERT">True</Field>
+		<Field column="IS_COOP">False</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="WING_ID">14</Field>
+		<Field column="SORT_ORDER">10</Field>
+		<Field column="MODE_ID">1</Field>
+		<Field column="CLIENT_PLAYER2_HERO_CARD_ID">0</Field>
+		<Field column="NAME" />
+		<Field column="SHORT_NAME" loc_ID="21676">
+			<enUS>Skelesaurus Hex</enUS>
+			<deDE>Skelesaurus Hex</deDE>
+			<esES>Esquelesaurus rex</esES>
+			<esMX>Esquelesaurus facticius</esMX>
+			<frFR>Squeletosaurus Hex</frFR>
+			<itIT>Schelesauro</itIT>
+			<jaJP>スケルサウルス・ヘックス</jaJP>
+			<koKR>뼈다귀사우루스 헥스</koKR>
+			<plPL>Szkielezaurus Hex</plPL>
+			<ptBR>Bagatossauro Rex</ptBR>
+			<ruRU>Скелетозавр Анорекс</ruRU>
+			<zhCN>骨龙海克斯</zhCN>
+			<zhTW>骷髏妖術暴龍</zhTW>
+		</Field>
+		<Field column="DESCRIPTION" loc_ID="21677">
+			<enUS>Rafaam is using the staff to animate the museum's exhibits!</enUS>
+			<deDE>Rafaam erweckt die Ausstellungsstücke mit dem Stab zum Leben!</deDE>
+			<esES>¡Rafaam está usando el bastón para dar vida a las piezas expuestas del museo!</esES>
+			<esMX>¡Rafaam está usando el báculo para animar las piezas de exhibición del museo!</esMX>
+			<frFR>Rafaam utilise le bâton pour animer les pièces du musée !</frFR>
+			<itIT>Rafaam sta usando il Bastone per animare gli oggetti del museo!</itIT>
+			<jaJP>ラファームが杖を使って、博物館の展示品を動かしてますっ！</jaJP>
+			<koKR>라팜이 지팡이를 사용하여 박물관의 유물들을 조종하고 있습니다!</koKR>
+			<plPL>Rafaam używa kostura do ożywienia eksponatów w muzeum!</plPL>
+			<ptBR>Rafaam está usando o cajado para animar as peças do museu!</ptBR>
+			<ruRU>С помощью посоха Рафаам оживляет музейные экспонаты!</ruRU>
+			<zhCN>拉法姆利用源生法杖将博物馆里的展品复活了！</zhCN>
+			<zhTW>拉法姆用法杖讓博物館展覽品都動起來了！</zhTW>
+		</Field>
+		<Field column="OPPONENT_NAME" />
+		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
+	</Record>
+	<Record>
+		<Field column="ID">1146</Field>
+		<Field column="NOTE_DESC">LOE_15_Rafaam</Field>
+		<Field column="PLAYERS">1</Field>
+		<Field column="PLAYER1_HERO_CARD_ID" />
+		<Field column="PLAYER2_HERO_CARD_ID">19291</Field>
+		<Field column="IS_TUTORIAL">False</Field>
+		<Field column="IS_EXPERT">True</Field>
+		<Field column="IS_COOP">False</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="WING_ID">14</Field>
+		<Field column="SORT_ORDER">12</Field>
+		<Field column="MODE_ID">1</Field>
+		<Field column="CLIENT_PLAYER2_HERO_CARD_ID">0</Field>
+		<Field column="NAME" />
+		<Field column="SHORT_NAME" loc_ID="21708">
+			<enUS>Arch-Thief Rafaam</enUS>
+			<deDE>Meisterdieb Rafaam</deDE>
+			<esES>Archiladrón Rafaam</esES>
+			<esMX>Archiladrón Rafaam</esMX>
+			<frFR>Prince voleur Rafaam</frFR>
+			<itIT>Arciladro Rafaam</itIT>
+			<jaJP>大怪盗ラファーム</jaJP>
+			<koKR>대도 라팜</koKR>
+			<plPL>Arcyzłodziej Rafaam</plPL>
+			<ptBR>Arquiladrão Rafaam</ptBR>
+			<ruRU>Великий вор Рафаам</ruRU>
+			<zhCN>虚灵窃贼拉法姆</zhCN>
+			<zhTW>神鬼大盜拉法姆</zhTW>
+		</Field>
+		<Field column="DESCRIPTION" loc_ID="21709">
+			<enUS>He stole the staff and has nearly destroyed the museum. This has to end!</enUS>
+			<deDE>Er hat den Stab gestohlen und das Museum fast komplett zerstört. Ihr müsst ihn aufhalten!</deDE>
+			<esES>Ha robado el bastón y casi ha destruido el museo. ¡Esto no puede seguir así!</esES>
+			<esMX>Se ha robado el báculo y casi ha destruido el museo. ¡Esto tiene que terminar!</esMX>
+			<frFR>Il a volé le bâton et quasiment détruit le musée. Il faut en finir !</frFR>
+			<itIT>Ha rubato il Bastone e quasi distrutto il museo. Tutto questo deve finire!</itIT>
+			<jaJP>杖を盗まれて、博物館もめちゃくちゃ。何とかしないとっ！</jaJP>
+			<koKR>라팜이 지팡이를 훔쳐 박물관을 난장판으로 만들고 있습니다. 그를 반드시 막아야 합니다!</koKR>
+			<plPL>Rafaam ukradł kostur i niemal zniszczył muzeum. Czas z tym skończyć!</plPL>
+			<ptBR>Ele roubou o cajado e quase destruiu o museu. Já basta!</ptBR>
+			<ruRU>Он украл посох и разгромил почти весь музей. Кто-то должен его остановить!</ruRU>
+			<zhCN>他偷走了法杖，还想毁了博物馆。我们必须制止他！</zhCN>
+			<zhTW>他偷走了法杖，還把博物館搞得一團亂。我們一定得收拾他！</zhTW>
+		</Field>
+		<Field column="OPPONENT_NAME" />
+		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
+	</Record>
+	<Record>
+		<Field column="ID">1173</Field>
+		<Field column="NOTE_DESC">LOE_16_Rafaam2</Field>
+		<Field column="PLAYERS">1</Field>
+		<Field column="PLAYER1_HERO_CARD_ID" />
+		<Field column="PLAYER2_HERO_CARD_ID">19612</Field>
+		<Field column="IS_TUTORIAL">False</Field>
+		<Field column="IS_EXPERT">True</Field>
+		<Field column="IS_COOP">False</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="WING_ID">14</Field>
+		<Field column="SORT_ORDER">13</Field>
+		<Field column="MODE_ID">1</Field>
+		<Field column="CLIENT_PLAYER2_HERO_CARD_ID">0</Field>
+		<Field column="NAME" />
+		<Field column="SHORT_NAME" loc_ID="21718">
+			<enUS>Rafaam Unleashed</enUS>
+			<deDE>Rafaam entfesselt</deDE>
+			<esES>Rafaam desatado</esES>
+			<esMX>Rafaam desatado</esMX>
+			<frFR>Rafaam déchaîné</frFR>
+			<itIT>Rafaam Inarrestabile</itIT>
+			<jaJP>解き放たれしラファーム</jaJP>
+			<koKR>전지전능한 라팜</koKR>
+			<plPL>Wyzwolony Rafaam</plPL>
+			<ptBR>Rafaam Potencializado</ptBR>
+			<ruRU>Неукротимый Рафаам</ruRU>
+			<zhCN>拉法姆解封</zhCN>
+			<zhTW>終極拉法姆</zhTW>
+		</Field>
+		<Field column="DESCRIPTION" loc_ID="21719">
+			<enUS>He used the staff to escape! Chase him down and finish him!</enUS>
+			<deDE>Er hat den Stab benutzt, um zu entkommen! Verfolgt ihn und bringt ihn zur Strecke!</deDE>
+			<esES>¡Ha usado el bastón para huir! ¡Persíguelo y acaba con él!</esES>
+			<esMX>¡Ha utilizado el báculo para escapar! ¡Persíguelo y acábalo!</esMX>
+			<frFR>Il a utilisé le bâton pour s’enfuir ! Suivez-le et achevez-le !</frFR>
+			<itIT>Ha usato il Bastone per scappare! Inseguilo e finiscilo!</itIT>
+			<jaJP>ラファームは杖の力で逃げましたっ！さあ、追い詰めて決着をっ！</jaJP>
+			<koKR>지팡이의 힘을 다루는 라팜을 상대하세요. 탐험가 연맹이 당신과 함께합니다!</koKR>
+			<plPL>Rafaam użył kostura, żeby uciec! Schwytaj go i wykończ!</plPL>
+			<ptBR>Ele usou o cajado para escapar! Vá atrás dele e acabe com isso!</ptBR>
+			<ruRU>Он воспользовался силой посоха, чтобы сбежать! Догоните и прикончите его!</ruRU>
+			<zhCN>他用法杖逃跑了！快追上去消灭他！</zhCN>
+			<zhTW>他利用法杖來逃脫了！追上他，把他解決掉！</zhTW>
+		</Field>
+		<Field column="OPPONENT_NAME" />
+		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
+	</Record>
+	<Record>
+		<Field column="ID">1183</Field>
+		<Field column="NOTE_DESC">LOE_14_Steel_Sentinel</Field>
+		<Field column="PLAYERS">1</Field>
+		<Field column="PLAYER1_HERO_CARD_ID" />
+		<Field column="PLAYER2_HERO_CARD_ID">19793</Field>
+		<Field column="IS_TUTORIAL">False</Field>
+		<Field column="IS_EXPERT">True</Field>
+		<Field column="IS_COOP">False</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="WING_ID">14</Field>
+		<Field column="SORT_ORDER">11</Field>
+		<Field column="MODE_ID">1</Field>
+		<Field column="CLIENT_PLAYER2_HERO_CARD_ID">0</Field>
+		<Field column="NAME" />
+		<Field column="SHORT_NAME" loc_ID="21700">
+			<enUS>The Steel Sentinel</enUS>
+			<deDE>Der Stählerne Wächter</deDE>
+			<esES>El centinela férreo</esES>
+			<esMX>Centinela de acero</esMX>
+			<frFR>La sentinelle d’acier</frFR>
+			<itIT>Sentinella d'Acciaio</itIT>
+			<jaJP>スティール・センチネル</jaJP>
+			<koKR>강철의 파수꾼</koKR>
+			<plPL>Stalowy Wartownik</plPL>
+			<ptBR>A Sentinela de Aço</ptBR>
+			<ruRU>Стальной часовой</ruRU>
+			<zhCN>钢铁卫士</zhCN>
+			<zhTW>鋼鐵哨兵</zhTW>
+		</Field>
+		<Field column="DESCRIPTION" loc_ID="21701">
+			<enUS>Rafaam has thrown another obstacle in your path. Defeat the Sentinel!</enUS>
+			<deDE>Rafaam schickt uns einen weiteren Schergen entgegen. Bezwingt den Stählernen Wächter!</deDE>
+			<esES>Rafaam ha vuelto a obstaculizarnos el paso. ¡Derrota al centinela!</esES>
+			<esMX>Rafaam te ha puesto otro obstáculo en el camino. ¡Derrota al centinela!</esMX>
+			<frFR>Rafaam a placé un autre obstacle sur votre chemin. Battez la sentinelle !</frFR>
+			<itIT>Rafaam ha piazzato un altro ostacolo lungo il tuo cammino. Sconfiggi la Sentinella!</itIT>
+			<jaJP>ラファームに操られた障害物が道をふさいでますね。センチネルをやっつけてくださいっ！</jaJP>
+			<koKR>라팜이 또다른 상대를 불러냈습니다. 그의 파수꾼을 처리하세요!</koKR>
+			<plPL>Rafaam rzucił przeciw tobie kolejną przeszkodę. Pokonaj Wartownika!</plPL>
+			<ptBR>Rafaam colocou outro obstáculo no seu caminho! Derrote a Sentinela!</ptBR>
+			<ruRU>Рафаам воздвиг очередную преграду на вашем пути. Сразитесь с часовым!</ruRU>
+			<zhCN>拉法姆又给我们找来一个大麻烦，击溃钢铁卫士！</zhCN>
+			<zhTW>拉法姆又派出東西來阻礙我們了，解決鋼鐵哨兵！</zhTW>
+		</Field>
+		<Field column="OPPONENT_NAME" />
+		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
+	</Record>
+	<Record>
+		<Field column="ID">1283</Field>
+		<Field column="NOTE_DESC">LOE_09_LordSlitherspear</Field>
+		<Field column="PLAYERS">1</Field>
+		<Field column="PLAYER1_HERO_CARD_ID" />
+		<Field column="PLAYER2_HERO_CARD_ID">24383</Field>
+		<Field column="IS_TUTORIAL">False</Field>
+		<Field column="IS_EXPERT">True</Field>
+		<Field column="IS_COOP">False</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="WING_ID">13</Field>
+		<Field column="SORT_ORDER">7</Field>
+		<Field column="MODE_ID">1</Field>
+		<Field column="CLIENT_PLAYER2_HERO_CARD_ID">0</Field>
+		<Field column="NAME" />
+		<Field column="SHORT_NAME" loc_ID="21671">
+			<enUS>Lord Slitherspear</enUS>
+			<deDE>Lord Schlängelspeer</deDE>
+			<esES>Lord Reptalanza</esES>
+			<esMX>Lord Ofidiana</esMX>
+			<frFR>Seigneur Ondulance</frFR>
+			<itIT>Sire Lanciaviscida</itIT>
+			<jaJP>ロード・スリザースピア</jaJP>
+			<koKR>군주 갈퀴창날</koKR>
+			<plPL>Lord Ślizgodzid</plPL>
+			<ptBR>Lorde Serpespeto</ptBR>
+			<ruRU>Лорд Скользкое Копье</ruRU>
+			<zhCN>滑矛领主</zhCN>
+			<zhTW>滑矛領主</zhTW>
+		</Field>
+		<Field column="DESCRIPTION" loc_ID="21672">
+			<enUS>Sir Finley has been captured. Save him!</enUS>
+			<deDE>Sir Finley wurde gefangen genommen. Befreit ihn!</deDE>
+			<esES>Han secuestrado a Sir Finley. ¡Debes rescatarlo!</esES>
+			<esMX>Han capturado a Sir Aletardo. ¡Sálvalo!</esMX>
+			<frFR>Sir Finley a été capturé. Sauvez-le !</frFR>
+			<itIT>Ser Pinnus è stato catturato. Devi salvarlo!</itIT>
+			<jaJP>サー・フィンレーが捕まりました。早く助けないとっ！</jaJP>
+			<koKR>핀리 경이 사로잡혔습니다. 그를 구하세요!</koKR>
+			<plPL>Sir Płetwin został pojmany. Uratuj go!</plPL>
+			<ptBR>Dom Finlei foi capturado. Salve-o!</ptBR>
+			<ruRU>Сэра Финли захватили в плен! Спасите его!</ruRU>
+			<zhCN>芬利爵士被抓了，快去救他！</zhCN>
+			<zhTW>他們抓住了芬利爵士，把他救出來！</zhTW>
+		</Field>
+		<Field column="OPPONENT_NAME" />
+		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
+	</Record>
+	<Record>
+		<Field column="ID">1586</Field>
+		<Field column="NOTE_DESC">LOE_Challenge_Paladin</Field>
+		<Field column="PLAYERS">1</Field>
+		<Field column="PLAYER1_HERO_CARD_ID">671</Field>
+		<Field column="PLAYER2_HERO_CARD_ID">17099</Field>
+		<Field column="IS_TUTORIAL">False</Field>
+		<Field column="IS_EXPERT">True</Field>
+		<Field column="IS_COOP">False</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="WING_ID">12</Field>
+		<Field column="SORT_ORDER">4</Field>
+		<Field column="MODE_ID">4</Field>
+		<Field column="CLIENT_PLAYER2_HERO_CARD_ID">0</Field>
+		<Field column="NAME" loc_ID="21906">
+			<enUS>Paladin Challenge</enUS>
+			<deDE>Paladinherausforderung</deDE>
+			<esES>Desafío del paladín</esES>
+			<esMX>Desafío de Paladín</esMX>
+			<frFR>Défi de paladin</frFR>
+			<itIT>Sfida del Paladino</itIT>
+			<jaJP>パラディン・チャレンジ</jaJP>
+			<koKR>성기사 도전 과제</koKR>
+			<plPL>Wyzwanie paladyna</plPL>
+			<ptBR>Desafio do Paladino</ptBR>
+			<ruRU>Испытание паладина</ruRU>
+			<zhCN>圣骑士职业挑战</zhCN>
+			<zhTW>聖騎士挑戰</zhTW>
+		</Field>
+		<Field column="SHORT_NAME" loc_ID="21550">
+			<enUS>Paladin</enUS>
+			<deDE>Paladin</deDE>
+			<esES>Paladín</esES>
+			<esMX>Paladín</esMX>
+			<frFR>Paladin</frFR>
+			<itIT>Paladino</itIT>
+			<jaJP>パラディン</jaJP>
+			<koKR>성기사</koKR>
+			<plPL>Paladyn</plPL>
+			<ptBR>Paladino</ptBR>
+			<ruRU>Паладин</ruRU>
+			<zhCN>圣骑士</zhCN>
+			<zhTW>聖騎士</zhTW>
+		</Field>
+		<Field column="DESCRIPTION" loc_ID="21907">
+			<enUS>Rematch! Can you defeat the boss using this special Paladin deck?\n\nDefeat him and gain a Paladin card!</enUS>
+			<deDE>Auf ein Neues! Schafft Ihr es, den Boss mit diesem besonderen Paladindeck zu besiegen? Als Belohnung winkt eine Paladinkarte!</deDE>
+			<esES>¡Revancha! ¿Podrá este mazo de paladín con Archaedas?\n\n¡Derrótalo y obtendrás una carta de paladín!</esES>
+			<esMX>¡Revancha! ¿Puedes derrotar al jefe con este mazo especial de Paladín?\n\n¡Derrótalo y gana una carta de Paladín!</esMX>
+			<frFR>Nouveau duel ! Saurez-vous vaincre le boss en utilisant ce deck spécial de paladin ?\nTriomphez de lui, et remportez une carte de paladin !</frFR>
+			<itIT>Riuscirai a sconfiggere questo boss con un mazzo speciale del Paladino? Vincendo, otterrai una carta per questa classe!</itIT>
+			<jaJP>再戦だ！この特別なパラディンデッキを使って、ボスを倒せるかな？\n\nヤツを倒せれば、パラディンのカードが1枚手に入るぞ！</jaJP>
+			<koKR>이 특별한 성기사 덱을 사용해 이 우두머리를 처치할 수 있을까요?\n\n우두머리를 처치하면 성기사 카드를 얻을 수 있습니다!</koKR>
+			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii paladyna?\nZrób to, a otrzymasz kartę dla paladyna!</plPL>
+			<ptBR>Revanche! Você pode vencer este chefe usando este deck especial de Paladino?\n\nDerrote-o e ganhe um card de Paladino!</ptBR>
+			<ruRU>Сможете ли вы победить босса с помощью этой колоды паладина?\nПобеда принесет вам новую карту паладина!</ruRU>
+			<zhCN>战斗继续！你能使用这套特殊的圣骑士套牌击败这个首领吗？\n\n击败他，获得圣骑士职业卡牌！</zhCN>
+			<zhTW>加賽！你能用這副特殊的聖騎士套牌擊敗這個首領嗎？\n\n擊敗他就能獲得一張聖騎士卡牌！</zhTW>
+		</Field>
+		<Field column="OPPONENT_NAME" loc_ID="21908">
+			<enUS>Archaedas</enUS>
+			<deDE>Archaedas</deDE>
+			<esES>Archaedas</esES>
+			<esMX>Archaedas</esMX>
+			<frFR>Archaedas</frFR>
+			<itIT>Archaedas</itIT>
+			<jaJP>アーケイダス</jaJP>
+			<koKR>아카에다스</koKR>
+			<plPL>Archaedas</plPL>
+			<ptBR>Arkhaedas</ptBR>
+			<ruRU>Аркедас</ruRU>
+			<zhCN>阿扎达斯</zhCN>
+			<zhTW>阿札達斯</zhTW>
+		</Field>
+		<Field column="COMPLETED_DESCRIPTION" loc_ID="21909">
+			<enUS>Rematch! Can you defeat the boss using this special Paladin deck?</enUS>
+			<deDE>Auf ein Neues! Schafft Ihr es, den Boss mit diesem besonderen Paladindeck zu besiegen?</deDE>
+			<esES>¡Revancha! ¿Podrá este mazo de paladín con Archaedas?</esES>
+			<esMX>¡Revancha! ¿Puedes derrotar al jefe usando este mazo especial de Paladín?</esMX>
+			<frFR>Nouveau duel ! Saurez-vous vaincre le boss en utilisant ce deck spécial de paladin ?</frFR>
+			<itIT>Riuscirai a sconfiggere questo boss con un mazzo speciale del Paladino?</itIT>
+			<jaJP>再戦だ！この特別なパラディンデッキを使って、ボスを倒せるかな？</jaJP>
+			<koKR>이 특별한 성기사 덱을 사용해 이 우두머리를 처치할 수 있을까요?</koKR>
+			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii paladyna?</plPL>
+			<ptBR>Revanche! Você pode vencer o chefe usando este deck especial de Paladino?</ptBR>
+			<ruRU>Сможете ли вы победить босса с помощью этой колоды паладина?</ruRU>
+			<zhCN>战斗继续！你能使用这套特殊的圣骑士套牌击败这个首领吗？</zhCN>
+			<zhTW>加賽！你能用這副特殊的聖騎士套牌擊敗這個首領嗎？</zhTW>
+		</Field>
+		<Field column="PLAYER1_DECK_ID">771</Field>
+	</Record>
+	<Record>
+		<Field column="ID">1603</Field>
+		<Field column="NOTE_DESC">LOE_Challenge_Warlock</Field>
+		<Field column="PLAYERS">1</Field>
+		<Field column="PLAYER1_HERO_CARD_ID">893</Field>
+		<Field column="PLAYER2_HERO_CARD_ID">14018</Field>
+		<Field column="IS_TUTORIAL">False</Field>
+		<Field column="IS_EXPERT">True</Field>
+		<Field column="IS_COOP">False</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="WING_ID">11</Field>
+		<Field column="SORT_ORDER">2</Field>
+		<Field column="MODE_ID">4</Field>
+		<Field column="CLIENT_PLAYER2_HERO_CARD_ID">0</Field>
+		<Field column="NAME" loc_ID="21898">
+			<enUS>Warlock Challenge</enUS>
+			<deDE>Hexenmeisterherausforderung</deDE>
+			<esES>Desafío del brujo</esES>
+			<esMX>Desafío de Brujo</esMX>
+			<frFR>Défi de démoniste</frFR>
+			<itIT>Sfida dello Stregone</itIT>
+			<jaJP>ウォーロック・チャレンジ</jaJP>
+			<koKR>흑마법사 도전 과제</koKR>
+			<plPL>Wyzwanie czarnoksiężnika</plPL>
+			<ptBR>Desafio do Bruxo</ptBR>
+			<ruRU>Испытание чернокнижника</ruRU>
+			<zhCN>术士职业挑战</zhCN>
+			<zhTW>術士挑戰</zhTW>
+		</Field>
+		<Field column="SHORT_NAME" loc_ID="21551">
+			<enUS>Warlock</enUS>
+			<deDE>Hexenmeister</deDE>
+			<esES>Brujo</esES>
+			<esMX>Brujo</esMX>
+			<frFR>Démoniste</frFR>
+			<itIT>Stregone</itIT>
+			<jaJP>ウォーロック</jaJP>
+			<koKR>흑마법사</koKR>
+			<plPL>Czarnoksiężnik</plPL>
+			<ptBR>Bruxo</ptBR>
+			<ruRU>Чернокнижник</ruRU>
+			<zhCN>术士</zhCN>
+			<zhTW>術士</zhTW>
+		</Field>
+		<Field column="DESCRIPTION" loc_ID="21899">
+			<enUS>Rematch! Can you defeat the boss using this special Warlock deck?\n\nDefeat him and gain a Warlock card!</enUS>
+			<deDE>Auf ein Neues! Schafft Ihr es, den Boss mit diesem besonderen Hexenmeisterdeck zu besiegen? Als Belohnung winkt eine Hexenmeisterkarte!</deDE>
+			<esES>¡Revancha! ¿Podrá este mazo de brujo con Phaerix?\n\n¡Derrótalo y obtendrás una carta de brujo!</esES>
+			<esMX>¡Revancha! ¿Puedes derrotar al jefe con este mazo especial de Brujo?\n\n¡Derrótalo y gana una carta de Brujo!</esMX>
+			<frFR>Nouveau duel ! Saurez-vous vaincre le boss en utilisant ce deck spécial de démoniste ?\nTriomphez de lui, et remportez une carte de démoniste !</frFR>
+			<itIT>Riuscirai a sconfiggere questo boss con un mazzo speciale dello Stregone? Vincendo, otterrai una carta per questa classe!</itIT>
+			<jaJP>再戦だ！この特別なウォーロックデッキを使って、ボスを倒せるかな？\n\nヤツを倒せれば、ウォーロックのカードが1枚手に入るぞ！</jaJP>
+			<koKR>이 특별한 흑마법사 덱을 사용해 이 우두머리를 처치할 수 있을까요?\n\n우두머리를 처치하면 흑마법사 카드를 얻을 수 있습니다!</koKR>
+			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii czarnoksiężnika?\nZrób to, a otrzymasz kartę dla czarnoksiężnika!</plPL>
+			<ptBR>Revanche! Você pode vencer este chefe usando este deck especial de Bruxo?\n\nDerrote-o e ganhe um card de Bruxo!</ptBR>
+			<ruRU>Сможете ли вы победить босса с помощью этой колоды чернокнижника?\nПобеда принесет вам новую карту чернокнижника!</ruRU>
+			<zhCN>战斗继续！你能使用这套特殊的术士套牌击败这个首领吗？\n\n击败他，获得术士职业卡牌！</zhCN>
+			<zhTW>加賽！你能用這副特殊的術士套牌擊敗這個首領嗎？\n\n擊敗他就能獲得一張術士卡牌！</zhTW>
+		</Field>
+		<Field column="OPPONENT_NAME" loc_ID="21900">
+			<enUS>Sun Raider Phaerix</enUS>
+			<deDE>Sonnendieb Phaerix</deDE>
+			<esES>Asaltante del sol Phaerix</esES>
+			<esMX>Asaltasoles Phaerix</esMX>
+			<frFR>Écumeur du soleil Phaerix</frFR>
+			<itIT>Sciacallo del Sole Phaerix</itIT>
+			<jaJP>サンレイダー・フェリックス</jaJP>
+			<koKR>태양의 사냥꾼 패릭스</koKR>
+			<plPL>Słoneczny Grabieżca Faeriks</plPL>
+			<ptBR>Guerreiro do Sol Phaerix</ptBR>
+			<ruRU>Расхититель Фаэрикс</ruRU>
+			<zhCN>菲利克斯·掠日者</zhCN>
+			<zhTW>劫日者費里斯</zhTW>
+		</Field>
+		<Field column="COMPLETED_DESCRIPTION" loc_ID="21901">
+			<enUS>Rematch! Can you defeat the boss using this special Warlock deck?</enUS>
+			<deDE>Auf ein Neues! Schafft Ihr es, den Boss mit diesem besonderen Hexenmeisterdeck zu besiegen?</deDE>
+			<esES>¡Revancha! ¿Podrá este mazo de brujo con Phaerix?</esES>
+			<esMX>¡Revancha! ¿Puedes derrotar al jefe usando este mazo especial de Brujo?</esMX>
+			<frFR>Nouveau duel ! Saurez-vous vaincre le boss en utilisant ce deck spécial de démoniste ?</frFR>
+			<itIT>Riuscirai a sconfiggere questo boss con un mazzo speciale dello Stregone?</itIT>
+			<jaJP>再戦だ！この特別なウォーロックデッキを使って、ボスを倒せるかな？</jaJP>
+			<koKR>이 특별한 흑마법사 덱을 사용해 이 우두머리를 처치할 수 있을까요?</koKR>
+			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii czarnoksiężnika?</plPL>
+			<ptBR>Revanche! Você pode vencer o chefe usando este deck especial de Bruxo?</ptBR>
+			<ruRU>Сможете ли вы победить босса с помощью этой колоды чернокнижника?</ruRU>
+			<zhCN>战斗继续！你能使用这套特殊的术士套牌击败这个首领吗？</zhCN>
+			<zhTW>加賽！你能用這副特殊的術士套牌擊敗這個首領嗎？</zhTW>
+		</Field>
+		<Field column="PLAYER1_DECK_ID">772</Field>
+	</Record>
+	<Record>
+		<Field column="ID">1624</Field>
+		<Field column="NOTE_DESC">LOE_Challenge_Druid</Field>
+		<Field column="PLAYERS">1</Field>
+		<Field column="PLAYER1_HERO_CARD_ID">274</Field>
+		<Field column="PLAYER2_HERO_CARD_ID">15352</Field>
+		<Field column="IS_TUTORIAL">False</Field>
+		<Field column="IS_EXPERT">True</Field>
+		<Field column="IS_COOP">False</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="WING_ID">12</Field>
+		<Field column="SORT_ORDER">3</Field>
+		<Field column="MODE_ID">4</Field>
+		<Field column="CLIENT_PLAYER2_HERO_CARD_ID">0</Field>
+		<Field column="NAME" loc_ID="21902">
+			<enUS>Druid Challenge</enUS>
+			<deDE>Druidenherausforderung</deDE>
+			<esES>Desafío del druida</esES>
+			<esMX>Desafío de Druida</esMX>
+			<frFR>Défi de druide</frFR>
+			<itIT>Sfida del Druido</itIT>
+			<jaJP>ドルイド・チャレンジ</jaJP>
+			<koKR>드루이드 도전 과제</koKR>
+			<plPL>Wyzwanie druida</plPL>
+			<ptBR>Desafio do Druida</ptBR>
+			<ruRU>Испытание друида</ruRU>
+			<zhCN>德鲁伊职业挑战</zhCN>
+			<zhTW>德魯伊挑戰</zhTW>
+		</Field>
+		<Field column="SHORT_NAME" loc_ID="21552">
+			<enUS>Druid</enUS>
+			<deDE>Druide</deDE>
+			<esES>Druida</esES>
+			<esMX>Druida</esMX>
+			<frFR>Druide</frFR>
+			<itIT>Druido</itIT>
+			<jaJP>ドルイド</jaJP>
+			<koKR>드루이드</koKR>
+			<plPL>Druid</plPL>
+			<ptBR>Druida</ptBR>
+			<ruRU>Друид</ruRU>
+			<zhCN>德鲁伊</zhCN>
+			<zhTW>德魯伊</zhTW>
+		</Field>
+		<Field column="DESCRIPTION" loc_ID="21903">
+			<enUS>Rematch! Can you defeat the boss using this special Druid deck?\n\nDefeat him and gain a Druid card!</enUS>
+			<deDE>Auf ein Neues! Schafft Ihr es, den Boss mit diesem besonderen Druidendeck zu besiegen? Als Belohnung winkt eine Druidenkarte!</deDE>
+			<esES>¡Revancha! ¿Podrá este mazo de druida con Scarvash?\n\n¡Derrótalo y obtendrás una carta de druida!</esES>
+			<esMX>¡Revancha! ¿Puedes derrotar al jefe con este mazo especial de Druida?\n\n¡Derrótalo y gana una carta de Druida!</esMX>
+			<frFR>Nouveau duel ! Saurez-vous vaincre le boss en utilisant ce deck spécial de druide ?\nTriomphez de lui, et remportez une carte de druide !</frFR>
+			<itIT>Riuscirai a sconfiggere questo boss con un mazzo speciale del Druido? Vincendo, otterrai una carta per questa classe!</itIT>
+			<jaJP>再戦だ！この特別なドルイドデッキを使って、ボスを倒せるかな？\n\nヤツを倒せれば、ドルイドのカードが1枚手に入るぞ！</jaJP>
+			<koKR>이 특별한 드루이드 덱을 사용해 이 우두머리를 처치할 수 있을까요?\n\n우두머리를 처치하면 드루이드 카드를 얻을 수 있습니다!</koKR>
+			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii druida?\nZrób to, a otrzymasz kartę dla druida!</plPL>
+			<ptBR>Revanche! Você pode vencer este chefe usando este deck especial de Druida?\n\nDerrote-o e ganhe um card de Druida!</ptBR>
+			<ruRU>Сможете ли вы победить босса с помощью этой колоды друида?\nПобеда принесет вам новую карту друида!</ruRU>
+			<zhCN>战斗继续！你能使用这套特殊的德鲁伊套牌击败这个首领吗？\n\n击败他，获得德鲁伊职业卡牌！</zhCN>
+			<zhTW>加賽！你能用這副特殊的德魯伊套牌擊敗這個首領嗎？\n\n擊敗他就能獲得一張德魯伊卡牌！</zhTW>
+		</Field>
+		<Field column="OPPONENT_NAME" loc_ID="21904">
+			<enUS>Chieftain Scarvash</enUS>
+			<deDE>Häuptling Scarvash</deDE>
+			<esES>Cabecilla Scarvash</esES>
+			<esMX>Gran Jefe Scarvash</esMX>
+			<frFR>Chef Scarvash</frFR>
+			<itIT>Capo Tribù Scarvash</itIT>
+			<jaJP>族長・スカーヴァッシュ</jaJP>
+			<koKR>족장 스카바쉬</koKR>
+			<plPL>Wódz Skarwosz</plPL>
+			<ptBR>Chefe Scarvash</ptBR>
+			<ruRU>Вождь Скарваш</ruRU>
+			<zhCN>斯卡瓦什酋长</zhCN>
+			<zhTW>斯卡瓦酋長</zhTW>
+		</Field>
+		<Field column="COMPLETED_DESCRIPTION" loc_ID="21905">
+			<enUS>Rematch! Can you defeat the boss using this special Druid deck?</enUS>
+			<deDE>Auf ein Neues! Schafft Ihr es, den Boss mit diesem besonderen Druidendeck zu besiegen?</deDE>
+			<esES>¡Revancha! ¿Podrá este mazo de druida con Scarvash?</esES>
+			<esMX>¡Revancha! ¿Puedes derrotar al jefe usando este mazo especial de Druida?</esMX>
+			<frFR>Nouveau duel ! Saurez-vous vaincre le boss en utilisant ce deck spécial de druide ?</frFR>
+			<itIT>Riuscirai a sconfiggere questo boss con un mazzo speciale del Druido?</itIT>
+			<jaJP>再戦だ！この特別なドルイドデッキを使って、ボスを倒せるかな？</jaJP>
+			<koKR>이 특별한 드루이드 덱을 사용해 이 우두머리를 처치할 수 있을까요?</koKR>
+			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii druida?</plPL>
+			<ptBR>Revanche! Você pode vencer o chefe usando este deck especial de Druida?</ptBR>
+			<ruRU>Сможете ли вы победить босса с помощью этой колоды друида?</ruRU>
+			<zhCN>战斗继续！你能使用这套特殊的德鲁伊套牌击败这个首领吗？</zhCN>
+			<zhTW>加賽！你能用這副特殊的德魯伊套牌擊敗這個首領嗎？</zhTW>
+		</Field>
+		<Field column="PLAYER1_DECK_ID">791</Field>
+	</Record>
+	<Record>
+		<Field column="ID">1625</Field>
+		<Field column="NOTE_DESC">LOE_Challenge_Mage</Field>
+		<Field column="PLAYERS">1</Field>
+		<Field column="PLAYER1_HERO_CARD_ID">637</Field>
+		<Field column="PLAYER2_HERO_CARD_ID">19793</Field>
+		<Field column="IS_TUTORIAL">False</Field>
+		<Field column="IS_EXPERT">True</Field>
+		<Field column="IS_COOP">False</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="WING_ID">14</Field>
+		<Field column="SORT_ORDER">9</Field>
+		<Field column="MODE_ID">4</Field>
+		<Field column="CLIENT_PLAYER2_HERO_CARD_ID">0</Field>
+		<Field column="NAME" loc_ID="21922">
+			<enUS>Mage Challenge</enUS>
+			<deDE>Magierherausforderung</deDE>
+			<esES>Desafío del mago</esES>
+			<esMX>Desafío de Mago</esMX>
+			<frFR>Défi de mage</frFR>
+			<itIT>Sfida del Mago</itIT>
+			<jaJP>メイジ・チャレンジ</jaJP>
+			<koKR>마법사 도전 과제</koKR>
+			<plPL>Wyzwanie maga</plPL>
+			<ptBR>Desafio do Mago</ptBR>
+			<ruRU>Испытание мага</ruRU>
+			<zhCN>法师职业挑战</zhCN>
+			<zhTW>法師挑戰</zhTW>
+		</Field>
+		<Field column="SHORT_NAME" loc_ID="21553">
+			<enUS>Mage</enUS>
+			<deDE>Magier</deDE>
+			<esES>Mago</esES>
+			<esMX>Mago</esMX>
+			<frFR>Mage</frFR>
+			<itIT>Mago</itIT>
+			<jaJP>メイジ</jaJP>
+			<koKR>마법사</koKR>
+			<plPL>Mag</plPL>
+			<ptBR>Mago</ptBR>
+			<ruRU>Маг</ruRU>
+			<zhCN>法师</zhCN>
+			<zhTW>法師</zhTW>
+		</Field>
+		<Field column="DESCRIPTION" loc_ID="21923">
+			<enUS>Rematch! Can you defeat the boss using this special Mage deck?\n\nDefeat him and gain a Mage card!</enUS>
+			<deDE>Auf ein Neues! Schafft Ihr es, den Boss mit diesem besonderen Magierdeck zu besiegen? Als Belohnung winkt eine Magierkarte!</deDE>
+			<esES>¡Revancha! ¿Podrá este mazo de mago con el centinela férreo?\n\n¡Derrótalo y obtendrás una carta de mago!</esES>
+			<esMX>¡Revancha! ¿Puedes derrotar al jefe con este mazo especial de Mago?\n\n¡Derrótalo y gana una carta de Mago!</esMX>
+			<frFR>Nouveau duel ! Saurez-vous vaincre le boss en utilisant ce deck spécial de mage ?\nTriomphez de lui, et remportez une carte de mage !</frFR>
+			<itIT>Riuscirai a sconfiggere questo boss con un mazzo speciale del Mago? Vincendo, otterrai una carta per questa classe!</itIT>
+			<jaJP>再戦だ！この特別なメイジデッキを使って、ボスを倒せるかな？\n\nヤツを倒せれば、メイジのカードが1枚手に入るぞ！</jaJP>
+			<koKR>이 특별한 마법사 덱을 사용해 이 우두머리를 처치할 수 있을까요?\n\n우두머리를 처치하면 마법사 카드를 얻을 수 있습니다!</koKR>
+			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii maga?\nZrób to, a otrzymasz kartę dla maga!</plPL>
+			<ptBR>Revanche! Você pode vencer este chefe usando este deck especial de Mago?\n\nDerrote-o e ganhe um card de Mago!</ptBR>
+			<ruRU>Сможете ли вы победить босса с помощью этой колоды мага?\nПобеда принесет вам новую карту мага!</ruRU>
+			<zhCN>战斗继续！你能使用这套特殊的法师套牌击败这个首领吗？\n\n击败他，获得法师职业卡牌！</zhCN>
+			<zhTW>加賽！你能用這副特殊的法師套牌擊敗這個首領嗎？\n\n擊敗他就能獲得一張法師卡牌！</zhTW>
+		</Field>
+		<Field column="OPPONENT_NAME" loc_ID="21924">
+			<enUS>The Steel Sentinel</enUS>
+			<deDE>Der Stählerne Wächter</deDE>
+			<esES>El centinela férreo</esES>
+			<esMX>Centinela de acero</esMX>
+			<frFR>La sentinelle d’acier</frFR>
+			<itIT>Sentinella d'Acciaio</itIT>
+			<jaJP>スティール・センチネル</jaJP>
+			<koKR>강철의 파수꾼</koKR>
+			<plPL>Stalowy Wartownik</plPL>
+			<ptBR>A Sentinela de Aço</ptBR>
+			<ruRU>Стальной часовой</ruRU>
+			<zhCN>钢铁卫士</zhCN>
+			<zhTW>鋼鐵哨兵</zhTW>
+		</Field>
+		<Field column="COMPLETED_DESCRIPTION" loc_ID="21925">
+			<enUS>Rematch! Can you defeat the boss using this special Mage deck?</enUS>
+			<deDE>Auf ein Neues! Schafft Ihr es, den Boss mit diesem besonderen Magierdeck zu besiegen?</deDE>
+			<esES>¡Revancha! ¿Podrá este mazo de mago con el centinela férreo?</esES>
+			<esMX>¡Revancha! ¿Puedes derrotar al jefe usando este mazo especial de Mago?</esMX>
+			<frFR>Nouveau duel ! Saurez-vous vaincre le boss en utilisant ce deck spécial de mage ?</frFR>
+			<itIT>Riuscirai a sconfiggere questo boss con un mazzo speciale del Mago?</itIT>
+			<jaJP>再戦だ！この特別なメイジデッキを使って、ボスを倒せるかな？</jaJP>
+			<koKR>이 특별한 마법사 덱을 사용해 이 우두머리를 처치할 수 있을까요?</koKR>
+			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii maga?</plPL>
+			<ptBR>Revanche! Você pode vencer o chefe usando este deck especial de Mago?</ptBR>
+			<ruRU>Сможете ли вы победить босса с помощью этой колоды мага?</ruRU>
+			<zhCN>战斗继续！你能使用这套特殊的法师套牌击败这个首领吗？</zhCN>
+			<zhTW>加賽！你能用這副特殊的法師套牌擊敗這個首領嗎？</zhTW>
+		</Field>
+		<Field column="PLAYER1_DECK_ID">792</Field>
+	</Record>
+	<Record>
+		<Field column="ID">1628</Field>
+		<Field column="NOTE_DESC">LOE_Challenge_Rogue</Field>
+		<Field column="PLAYERS">1</Field>
+		<Field column="PLAYER1_HERO_CARD_ID">930</Field>
+		<Field column="PLAYER2_HERO_CARD_ID">19116</Field>
+		<Field column="IS_TUTORIAL">False</Field>
+		<Field column="IS_EXPERT">True</Field>
+		<Field column="IS_COOP">False</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="WING_ID">14</Field>
+		<Field column="SORT_ORDER">8</Field>
+		<Field column="MODE_ID">4</Field>
+		<Field column="CLIENT_PLAYER2_HERO_CARD_ID">0</Field>
+		<Field column="NAME" loc_ID="21918">
+			<enUS>Rogue Challenge</enUS>
+			<deDE>Schurkenherausforderung</deDE>
+			<esES>Desafío del pícaro</esES>
+			<esMX>Desafío de Pícaro</esMX>
+			<frFR>Défi de voleur</frFR>
+			<itIT>Sfida del Ladro</itIT>
+			<jaJP>ローグ・チャレンジ</jaJP>
+			<koKR>도적 도전 과제</koKR>
+			<plPL>Wyzwanie łotra</plPL>
+			<ptBR>Desafio do Ladino</ptBR>
+			<ruRU>Испытание разбойника</ruRU>
+			<zhCN>潜行者职业挑战</zhCN>
+			<zhTW>盜賊挑戰</zhTW>
+		</Field>
+		<Field column="SHORT_NAME" loc_ID="21554">
+			<enUS>Rogue</enUS>
+			<deDE>Schurke</deDE>
+			<esES>Pícaro</esES>
+			<esMX>Pícaro</esMX>
+			<frFR>Voleur</frFR>
+			<itIT>Ladro</itIT>
+			<jaJP>ローグ</jaJP>
+			<koKR>도적</koKR>
+			<plPL>Łotr</plPL>
+			<ptBR>Ladino</ptBR>
+			<ruRU>Разбойник</ruRU>
+			<zhCN>潜行者</zhCN>
+			<zhTW>盜賊</zhTW>
+		</Field>
+		<Field column="DESCRIPTION" loc_ID="21919">
+			<enUS>Rematch! Can you defeat the boss using this special Rogue deck?\n\nDefeat him and gain a Rogue card!</enUS>
+			<deDE>Auf ein Neues! Schafft Ihr es, den Boss mit diesem besonderen Schurkendeck zu besiegen? Als Belohnung winkt eine Schurkenkarte!</deDE>
+			<esES>¡Revancha! ¿Podrá este mazo de pícaro con el Esquelesaurus?\n\n¡Derrótalo y obtendrás una carta de pícaro!</esES>
+			<esMX>¡Revancha! ¿Puedes derrotar al jefe con este mazo especial de Pícaro?\n\n¡Derrótalo y gana una carta de Pícaro!</esMX>
+			<frFR>Nouveau duel ! Saurez-vous vaincre le boss en utilisant ce deck spécial de voleur ?\nTriomphez de lui, et remportez une carte de voleur !</frFR>
+			<itIT>Riuscirai a sconfiggere questo boss con un mazzo speciale del Ladro? Vincendo, otterrai una carta per questa classe!</itIT>
+			<jaJP>再戦だ！この特別なローグデッキを使って、ボスを倒せるかな？\n\nヤツを倒せれば、ローグのカードが1枚手に入るぞ！</jaJP>
+			<koKR>이 특별한 도적 덱을 사용해 이 우두머리를 처치할 수 있을까요?\n\n우두머리를 처치하면 도적 카드를 얻을 수 있습니다!</koKR>
+			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii łotra?\nZrób to, a otrzymasz kartę dla łotra!</plPL>
+			<ptBR>Revanche! Você pode vencer este chefe usando este deck especial de Ladino?\n\nDerrote-o e ganhe um card de Ladino!</ptBR>
+			<ruRU>Сможете ли вы победить босса с помощью этой колоды разбойника?\nПобеда принесет вам новую карту разбойника!</ruRU>
+			<zhCN>战斗继续！你能使用这套特殊的潜行者套牌击败这个首领吗？\n\n击败他，获得潜行者职业卡牌！</zhCN>
+			<zhTW>加賽！你能用這副特殊的盜賊套牌擊敗這個首領嗎？\n\n擊敗他就能獲得一張盜賊卡牌！</zhTW>
+		</Field>
+		<Field column="OPPONENT_NAME" loc_ID="21920">
+			<enUS>Skelesaurus Hex</enUS>
+			<deDE>Skelesaurus Hex</deDE>
+			<esES>Esquelesaurus rex</esES>
+			<esMX>Esquelesaurus facticius</esMX>
+			<frFR>Squeletosaurus Hex</frFR>
+			<itIT>Schelesauro</itIT>
+			<jaJP>スケルサウルス・ヘックス</jaJP>
+			<koKR>뼈다귀사우루스 헥스</koKR>
+			<plPL>Szkielezaurus Hex</plPL>
+			<ptBR>Bagatossauro Rex</ptBR>
+			<ruRU>Скелетозавр Анорекс</ruRU>
+			<zhCN>骨龙海克斯</zhCN>
+			<zhTW>骷髏妖術暴龍</zhTW>
+		</Field>
+		<Field column="COMPLETED_DESCRIPTION" loc_ID="21921">
+			<enUS>Rematch! Can you defeat the boss using this special Rogue deck?</enUS>
+			<deDE>Auf ein Neues! Schafft Ihr es, den Boss mit diesem besonderen Schurkendeck zu besiegen?</deDE>
+			<esES>¡Revancha! ¿Podrá este mazo de pícaro con el Esquelesaurus?</esES>
+			<esMX>¡Revancha! ¿Puedes derrotar al jefe usando este mazo especial de Pícaro?</esMX>
+			<frFR>Nouveau duel ! Saurez-vous vaincre le boss en utilisant ce deck spécial de voleur ?</frFR>
+			<itIT>Riuscirai a sconfiggere questo boss con un mazzo speciale del Ladro?</itIT>
+			<jaJP>再戦だ！この特別なローグデッキを使って、ボスを倒せるかな？</jaJP>
+			<koKR>이 특별한 도적 덱을 사용해 이 우두머리를 처치할 수 있을까요?</koKR>
+			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii łotra?</plPL>
+			<ptBR>Revanche! Você pode vencer o chefe usando este deck especial de Ladino?</ptBR>
+			<ruRU>Сможете ли вы победить босса с помощью этой колоды разбойника?</ruRU>
+			<zhCN>战斗继续！你能使用这套特殊的潜行者套牌击败这个首领吗？</zhCN>
+			<zhTW>加賽！你能用這副特殊的盜賊套牌擊敗這個首領嗎？</zhTW>
+		</Field>
+		<Field column="PLAYER1_DECK_ID">796</Field>
 	</Record>
 	<Record>
 		<Field column="ID">1633</Field>
 		<Field column="NOTE_DESC">TB_CoOp1PTest</Field>
 		<Field column="PLAYERS">1</Field>
-		<Field column="PLAYER1_HERO_CARD_ID">813</Field>
-		<Field column="PLAYER2_HERO_CARD_ID">671</Field>
+		<Field column="PLAYER1_HERO_CARD_ID">671</Field>
+		<Field column="PLAYER2_HERO_CARD_ID">813</Field>
 		<Field column="IS_TUTORIAL">False</Field>
 		<Field column="IS_EXPERT">True</Field>
 		<Field column="IS_COOP">False</Field>
@@ -6798,5 +8012,1315 @@
 		<Field column="DESCRIPTION" />
 		<Field column="OPPONENT_NAME" />
 		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID">456</Field>
+	</Record>
+	<Record>
+		<Field column="ID">1637</Field>
+		<Field column="NOTE_DESC">LOE_Challenge_Shaman</Field>
+		<Field column="PLAYERS">1</Field>
+		<Field column="PLAYER1_HERO_CARD_ID">1066</Field>
+		<Field column="PLAYER2_HERO_CARD_ID">10109</Field>
+		<Field column="IS_TUTORIAL">False</Field>
+		<Field column="IS_EXPERT">True</Field>
+		<Field column="IS_COOP">False</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="WING_ID">13</Field>
+		<Field column="SORT_ORDER">6</Field>
+		<Field column="MODE_ID">4</Field>
+		<Field column="CLIENT_PLAYER2_HERO_CARD_ID">0</Field>
+		<Field column="NAME" loc_ID="21910">
+			<enUS>Shaman Challenge</enUS>
+			<deDE>Schamanenherausforderung</deDE>
+			<esES>Desafío del chamán</esES>
+			<esMX>Desafío de Chamán</esMX>
+			<frFR>Défi de chaman</frFR>
+			<itIT>Sfida dello Sciamano</itIT>
+			<jaJP>シャーマン・チャレンジ</jaJP>
+			<koKR>주술사 도전 과제</koKR>
+			<plPL>Wyzwanie szamana</plPL>
+			<ptBR>Desafio do Xamã</ptBR>
+			<ruRU>Испытание шамана</ruRU>
+			<zhCN>萨满祭司职业挑战</zhCN>
+			<zhTW>薩滿挑戰</zhTW>
+		</Field>
+		<Field column="SHORT_NAME" loc_ID="21555">
+			<enUS>Shaman</enUS>
+			<deDE>Schamane</deDE>
+			<esES>Chamán</esES>
+			<esMX>Chamán</esMX>
+			<frFR>Chaman</frFR>
+			<itIT>Sciamano</itIT>
+			<jaJP>シャーマン</jaJP>
+			<koKR>주술사</koKR>
+			<plPL>Szaman</plPL>
+			<ptBR>Xamã</ptBR>
+			<ruRU>Шаман</ruRU>
+			<zhCN>萨满祭司</zhCN>
+			<zhTW>薩滿</zhTW>
+		</Field>
+		<Field column="DESCRIPTION" loc_ID="21911">
+			<enUS>Rematch! Can you defeat the boss using this special Shaman deck?\n\nDefeat him and gain a Shaman card!</enUS>
+			<deDE>Auf ein Neues! Schafft Ihr es, den Boss mit diesem besonderen Schamanendeck zu besiegen? Als Belohnung winkt eine Schamanenkarte!</deDE>
+			<esES>¡Revancha! ¿Podrá este mazo de chamán con Aletaza?\n\n¡Derrótalo y obtendrás una carta de chamán!</esES>
+			<esMX>¡Revancha! ¿Puedes derrotar al jefe con este mazo especial de Chamán?\n\n¡Derrótalo y gana una carta de Chamán!</esMX>
+			<frFR>Nouveau duel ! Saurez-vous vaincre le boss en utilisant ce deck spécial de chaman ?\nTriomphez de lui, et remportez une carte de chaman !</frFR>
+			<itIT>Riuscirai a sconfiggere questo boss con un mazzo speciale dello Sciamano? Vincendo, otterrai una carta per questa classe!</itIT>
+			<jaJP>再戦だ！この特別なシャーマンデッキを使って、ボスを倒せるかな？\n\nヤツを倒せれば、シャーマンのカードが1枚手に入るぞ！</jaJP>
+			<koKR>이 특별한 주술사 덱을 사용해 이 우두머리를 처치할 수 있을까요?\n\n우두머리를 처치하면 주술사 카드를 얻을 수 있습니다!</koKR>
+			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii szamana?\nZrób to, a otrzymasz kartę dla szamana!</plPL>
+			<ptBR>Revanche! Você pode vencer este chefe usando este deck especial de Xamã?\n\nDerrote-o e ganhe um card de Xamã!</ptBR>
+			<ruRU>Сможете ли вы победить босса с помощью этой колоды шамана?\nПобеда принесет вам новую карту шамана!</ruRU>
+			<zhCN>战斗继续！你能使用这套特殊的萨满祭司套牌击败这个首领吗？\n\n击败他，获得萨满祭司职业卡牌！</zhCN>
+			<zhTW>加賽！你能用這副特殊的薩滿套牌擊敗這個首領嗎？\n\n擊敗他就能獲得一張薩滿卡牌！</zhTW>
+		</Field>
+		<Field column="OPPONENT_NAME" loc_ID="21912">
+			<enUS>Giantfin</enUS>
+			<deDE>Riesenflosse</deDE>
+			<esES>Aletaza</esES>
+			<esMX>Granaleta</esMX>
+			<frFR>Aileron-Géant</frFR>
+			<itIT>Pinnagrossa</itIT>
+			<jaJP>ジャイアントフィン</jaJP>
+			<koKR>거대아가미</koKR>
+			<plPL>Wielkopłetw</plPL>
+			<ptBR>Barbatana</ptBR>
+			<ruRU>Великий Плавник</ruRU>
+			<zhCN>老蓟皮</zhCN>
+			<zhTW>大鰭</zhTW>
+		</Field>
+		<Field column="COMPLETED_DESCRIPTION" loc_ID="21913">
+			<enUS>Rematch! Can you defeat the boss using this special Shaman deck?</enUS>
+			<deDE>Auf ein Neues! Schafft Ihr es, den Boss mit diesem besonderen Schamanendeck zu besiegen?</deDE>
+			<esES>¡Revancha! ¿Podrá este mazo de chamán con Aletaza?</esES>
+			<esMX>¡Revancha! ¿Puedes derrotar al jefe usando este mazo especial de Chamán?</esMX>
+			<frFR>Nouveau duel ! Saurez-vous vaincre le boss en utilisant ce deck spécial de chaman ?</frFR>
+			<itIT>Riuscirai a sconfiggere questo boss con un mazzo speciale dello Sciamano?</itIT>
+			<jaJP>再戦だ！この特別なシャーマンデッキを使って、ボスを倒せるかな？</jaJP>
+			<koKR>이 특별한 주술사 덱을 사용해 이 우두머리를 처치할 수 있을까요?</koKR>
+			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii szamana?</plPL>
+			<ptBR>Revanche! Você pode vencer o chefe usando este deck especial de Xamã?</ptBR>
+			<ruRU>Сможете ли вы победить босса с помощью этой колоды шамана?</ruRU>
+			<zhCN>战斗继续！你能使用这套特殊的萨满祭司套牌击败这个首领吗？</zhCN>
+			<zhTW>加賽！你能用這副特殊的薩滿套牌擊敗這個首領嗎？</zhTW>
+		</Field>
+		<Field column="PLAYER1_DECK_ID">800</Field>
+	</Record>
+	<Record>
+		<Field column="ID">1638</Field>
+		<Field column="NOTE_DESC">LOE_Challenge_Warrior</Field>
+		<Field column="PLAYERS">1</Field>
+		<Field column="PLAYER1_HERO_CARD_ID">7</Field>
+		<Field column="PLAYER2_HERO_CARD_ID">14193</Field>
+		<Field column="IS_TUTORIAL">False</Field>
+		<Field column="IS_EXPERT">True</Field>
+		<Field column="IS_COOP">False</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="WING_ID">11</Field>
+		<Field column="SORT_ORDER">1</Field>
+		<Field column="MODE_ID">4</Field>
+		<Field column="CLIENT_PLAYER2_HERO_CARD_ID">0</Field>
+		<Field column="NAME" loc_ID="21894">
+			<enUS>Warrior Challenge</enUS>
+			<deDE>Kriegerherausforderung</deDE>
+			<esES>Desafío del guerrero</esES>
+			<esMX>Desafío de Guerrero</esMX>
+			<frFR>Défi de guerrier</frFR>
+			<itIT>Sfida del Guerriero</itIT>
+			<jaJP>ウォリアー・チャレンジ</jaJP>
+			<koKR>전사 도전 과제</koKR>
+			<plPL>Wyzwanie wojownika</plPL>
+			<ptBR>Desafio do Guerreiro</ptBR>
+			<ruRU>Испытание воина</ruRU>
+			<zhCN>战士职业挑战</zhCN>
+			<zhTW>戰士挑戰</zhTW>
+		</Field>
+		<Field column="SHORT_NAME" loc_ID="21556">
+			<enUS>Warrior</enUS>
+			<deDE>Krieger</deDE>
+			<esES>Guerrero</esES>
+			<esMX>Guerrero</esMX>
+			<frFR>Guerrier</frFR>
+			<itIT>Guerriero</itIT>
+			<jaJP>ウォリアー</jaJP>
+			<koKR>전사</koKR>
+			<plPL>Wojownik</plPL>
+			<ptBR>Guerreiro</ptBR>
+			<ruRU>Воин</ruRU>
+			<zhCN>战士</zhCN>
+			<zhTW>戰士</zhTW>
+		</Field>
+		<Field column="DESCRIPTION" loc_ID="21895">
+			<enUS>Rematch! Can you defeat the boss using this special Warrior deck?\n\nDefeat him and gain a Warrior card!</enUS>
+			<deDE>Auf ein Neues! Schafft Ihr es, den Boss mit diesem besonderen Kriegerdeck zu besiegen? Als Belohnung winkt eine Kriegerkarte!</deDE>
+			<esES>¡Revancha! ¿Podrá este mazo de guerrero con Zinaar?\n\n¡Derrótalo y obtendrás una carta de guerrero!</esES>
+			<esMX>¡Revancha! ¿Puedes derrotar al jefe con este mazo especial de Guerrero?\n\n¡Derrótalo y gana una carta de Guerrero!</esMX>
+			<frFR>Nouveau duel ! Saurez-vous vaincre le boss en utilisant ce deck spécial de guerrier ?\nTriomphez de lui, et remportez une carte de guerrier !</frFR>
+			<itIT>Riuscirai a sconfiggere questo boss con un mazzo speciale del Guerriero? Vincendo, otterrai una carta per questa classe!</itIT>
+			<jaJP>再戦だ！この特別なウォリアーデッキを使って、ボスを倒せるかな？\n\nヤツを倒せれば、ウォリアーのカードが1枚手に入るぞ！</jaJP>
+			<koKR>이 특별한 전사 덱을 사용해 이 우두머리를 처치할 수 있을까요?\n\n우두머리를 처치하면 전사 카드를 얻을 수 있습니다!</koKR>
+			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii wojownika?\nZrób to, a otrzymasz kartę dla wojownika!</plPL>
+			<ptBR>Revanche! Você pode vencer este chefe usando este deck especial de Guerreiro?\n\nDerrote-o e ganhe um card de Guerreiro!</ptBR>
+			<ruRU>Сможете ли вы победить босса с помощью этой колоды воина?\nПобеда принесет вам новую карту воина!</ruRU>
+			<zhCN>战斗继续！你能使用这套特殊的战士套牌击败这个首领吗？\n\n击败他，获得战士职业卡牌！</zhCN>
+			<zhTW>加賽！你能用這副特殊的戰士套牌擊敗這個首領嗎？\n\n擊敗他就能獲得一張戰士卡牌！</zhTW>
+		</Field>
+		<Field column="OPPONENT_NAME" loc_ID="21896">
+			<enUS>Zinaar</enUS>
+			<deDE>Zinaar</deDE>
+			<esES>Zinaar</esES>
+			<esMX>Zinaar</esMX>
+			<frFR>Zinaar</frFR>
+			<itIT>Zinaar</itIT>
+			<jaJP>ジナール</jaJP>
+			<koKR>지나르</koKR>
+			<plPL>Zinaar</plPL>
+			<ptBR>Zinaar</ptBR>
+			<ruRU>Зинаар</ruRU>
+			<zhCN>辛纳尔</zhCN>
+			<zhTW>辛納爾</zhTW>
+		</Field>
+		<Field column="COMPLETED_DESCRIPTION" loc_ID="21897">
+			<enUS>Rematch! Can you defeat the boss using this special Warrior deck?</enUS>
+			<deDE>Auf ein Neues! Schafft Ihr es, den Boss mit diesem besonderen Kriegerdeck zu besiegen?</deDE>
+			<esES>¡Revancha! ¿Podrá este mazo de guerrero con Zinaar?</esES>
+			<esMX>¡Revancha! ¿Puedes derrotar al jefe usando este mazo especial de Guerrero?</esMX>
+			<frFR>Nouveau duel ! Saurez-vous vaincre le boss en utilisant ce deck spécial de guerrier ?</frFR>
+			<itIT>Riuscirai a sconfiggere questo boss con un mazzo speciale del Guerriero?</itIT>
+			<jaJP>再戦だ！この特別なウォリアーデッキを使って、ボスを倒せるかな？</jaJP>
+			<koKR>이 특별한 전사 덱을 사용해 이 우두머리를 처치할 수 있을까요?</koKR>
+			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii wojownika?</plPL>
+			<ptBR>Revanche! Você pode vencer o chefe usando este deck especial de Guerreiro?</ptBR>
+			<ruRU>Сможете ли вы победить босса с помощью этой колоды воина?</ruRU>
+			<zhCN>战斗继续！你能使用这套特殊的战士套牌击败这个首领吗？</zhCN>
+			<zhTW>加賽！你能用這副特殊的戰士套牌擊敗這個首領嗎？</zhTW>
+		</Field>
+		<Field column="PLAYER1_DECK_ID">801</Field>
+	</Record>
+	<Record>
+		<Field column="ID">1645</Field>
+		<Field column="NOTE_DESC">LOE_Challenge_Hunter</Field>
+		<Field column="PLAYERS">1</Field>
+		<Field column="PLAYER1_HERO_CARD_ID">31</Field>
+		<Field column="PLAYER2_HERO_CARD_ID">24383</Field>
+		<Field column="IS_TUTORIAL">False</Field>
+		<Field column="IS_EXPERT">True</Field>
+		<Field column="IS_COOP">False</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="WING_ID">13</Field>
+		<Field column="SORT_ORDER">5</Field>
+		<Field column="MODE_ID">4</Field>
+		<Field column="CLIENT_PLAYER2_HERO_CARD_ID">0</Field>
+		<Field column="NAME" loc_ID="21890">
+			<enUS>Hunter Challenge</enUS>
+			<deDE>Jägerherausforderung</deDE>
+			<esES>Desafío del cazador</esES>
+			<esMX>Desafío de Cazador</esMX>
+			<frFR>Défi de chasseur</frFR>
+			<itIT>Sfida del Cacciatore</itIT>
+			<jaJP>ハンター・チャレンジ</jaJP>
+			<koKR>사냥꾼 도전 과제</koKR>
+			<plPL>Wyzwanie łowcy</plPL>
+			<ptBR>Desafio do Caçador</ptBR>
+			<ruRU>Испытание охотника</ruRU>
+			<zhCN>猎人职业挑战</zhCN>
+			<zhTW>獵人挑戰</zhTW>
+		</Field>
+		<Field column="SHORT_NAME" loc_ID="21557">
+			<enUS>Hunter</enUS>
+			<deDE>Jäger</deDE>
+			<esES>Cazador</esES>
+			<esMX>Cazador</esMX>
+			<frFR>Chasseur</frFR>
+			<itIT>Cacciatore</itIT>
+			<jaJP>ハンター</jaJP>
+			<koKR>사냥꾼</koKR>
+			<plPL>Łowca</plPL>
+			<ptBR>Caçador</ptBR>
+			<ruRU>Охотник</ruRU>
+			<zhCN>猎人</zhCN>
+			<zhTW>獵人</zhTW>
+		</Field>
+		<Field column="DESCRIPTION" loc_ID="21891">
+			<enUS>Rematch! Can you defeat the boss using this special Hunter deck?\n\nDefeat him and gain a Hunter card!</enUS>
+			<deDE>Auf ein Neues! Schafft Ihr es, den Boss mit diesem besonderen Jägerdeck zu besiegen? Als Belohnung winkt eine Jägerkarte!</deDE>
+			<esES>¡Revancha! ¿Podrá este mazo de cazador con Lord Reptalanza?\n\n¡Derrótalo y obtendrás una carta de cazador!</esES>
+			<esMX>¡Revancha! ¿Puedes derrotar al jefe con este mazo especial de Cazador?\n\n¡Derrótalo y gana una carta de Cazador!</esMX>
+			<frFR>Nouveau duel ! Saurez-vous vaincre le boss en utilisant ce deck spécial de chasseur ?\nTriomphez de lui, et remportez une carte de chasseur !</frFR>
+			<itIT>Riuscirai a sconfiggere questo boss con un mazzo speciale del Cacciatore? Vincendo, otterrai una carta per questa classe!</itIT>
+			<jaJP>再戦だ！この特別なハンターデッキを使って、ボスを倒せるかな？\n\nヤツを倒せれば、ハンターのカードが1枚手に入るぞ！</jaJP>
+			<koKR>이 특별한 사냥꾼 덱을 사용해 이 우두머리를 처치할 수 있을까요?\n\n우두머리를 처치하면 사냥꾼 카드를 얻을 수 있습니다!</koKR>
+			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii łowcy?\nZrób to, a otrzymasz kartę dla łowcy!</plPL>
+			<ptBR>Revanche! Você pode vencer este chefe usando este deck especial de Caçador?\n\nDerrote-o e ganhe um card de Caçador!</ptBR>
+			<ruRU>Сможете ли вы победить босса с помощью этой колоды охотника?\nПобеда принесет вам новую карту охотника!</ruRU>
+			<zhCN>战斗继续！你能使用这套特殊的猎人套牌击败这个首领吗？\n\n击败他，获得猎人职业卡牌！</zhCN>
+			<zhTW>加賽！你能用這副特殊的獵人套牌擊敗這個首領嗎？\n\n擊敗他就能獲得一張獵人卡牌！</zhTW>
+		</Field>
+		<Field column="OPPONENT_NAME" loc_ID="21892">
+			<enUS>Lord Slitherspear</enUS>
+			<deDE>Lord Schlängelspeer</deDE>
+			<esES>Lord Reptalanza</esES>
+			<esMX>Lord Ofidiana</esMX>
+			<frFR>Seigneur Ondulance</frFR>
+			<itIT>Sire Lanciaviscida</itIT>
+			<jaJP>ロード・スリザースピア</jaJP>
+			<koKR>군주 갈퀴창날</koKR>
+			<plPL>Lord Ślizgodzid</plPL>
+			<ptBR>Lorde Serpespeto</ptBR>
+			<ruRU>Лорд Скользкое Копье</ruRU>
+			<zhCN>滑矛领主</zhCN>
+			<zhTW>滑矛領主</zhTW>
+		</Field>
+		<Field column="COMPLETED_DESCRIPTION" loc_ID="21893">
+			<enUS>Rematch! Can you defeat the boss using this special Hunter deck?</enUS>
+			<deDE>Auf ein Neues! Schafft Ihr es, den Boss mit diesem besonderen Jägerdeck zu besiegen?</deDE>
+			<esES>¡Revancha! ¿Podrá este mazo de cazador con Lord Reptalanza?</esES>
+			<esMX>¡Revancha! ¿Puedes derrotar al jefe usando este mazo especial de Cazador?</esMX>
+			<frFR>Nouveau duel ! Saurez-vous vaincre le boss en utilisant ce deck spécial de chasseur ?</frFR>
+			<itIT>Riuscirai a sconfiggere questo boss con un mazzo speciale del Cacciatore?</itIT>
+			<jaJP>再戦だ！この特別なハンターデッキを使って、ボスを倒せるかな？</jaJP>
+			<koKR>이 특별한 사냥꾼 덱을 사용해 이 우두머리를 처치할 수 있을까요?</koKR>
+			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii łowcy?</plPL>
+			<ptBR>Revanche! Você pode vencer o chefe usando este deck especial de Caçador?</ptBR>
+			<ruRU>Сможете ли вы победить босса с помощью этой колоды охотника?</ruRU>
+			<zhCN>战斗继续！你能使用这套特殊的猎人套牌击败这个首领吗？</zhCN>
+			<zhTW>加賽！你能用這副特殊的獵人套牌擊敗這個首領嗎？</zhTW>
+		</Field>
+		<Field column="PLAYER1_DECK_ID">799</Field>
+	</Record>
+	<Record>
+		<Field column="ID">1646</Field>
+		<Field column="NOTE_DESC">LOE_Challenge_Priest</Field>
+		<Field column="PLAYERS">1</Field>
+		<Field column="PLAYER1_HERO_CARD_ID">813</Field>
+		<Field column="PLAYER2_HERO_CARD_ID">17192</Field>
+		<Field column="IS_TUTORIAL">False</Field>
+		<Field column="IS_EXPERT">True</Field>
+		<Field column="IS_COOP">False</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="WING_ID">13</Field>
+		<Field column="SORT_ORDER">7</Field>
+		<Field column="MODE_ID">4</Field>
+		<Field column="CLIENT_PLAYER2_HERO_CARD_ID">0</Field>
+		<Field column="NAME" loc_ID="21914">
+			<enUS>Priest Challenge</enUS>
+			<deDE>Priesterherausforderung</deDE>
+			<esES>Desafío del sacerdote</esES>
+			<esMX>Desafío de Sacerdote</esMX>
+			<frFR>Défi de prêtre</frFR>
+			<itIT>Sfida del Sacerdote</itIT>
+			<jaJP>プリースト・チャレンジ</jaJP>
+			<koKR>사제 도전 과제</koKR>
+			<plPL>Wyzwanie kapłana</plPL>
+			<ptBR>Desafio do Sacerdote</ptBR>
+			<ruRU>Испытание жреца</ruRU>
+			<zhCN>牧师职业挑战</zhCN>
+			<zhTW>牧師挑戰</zhTW>
+		</Field>
+		<Field column="SHORT_NAME" loc_ID="21558">
+			<enUS>Priest</enUS>
+			<deDE>Priester</deDE>
+			<esES>Sacerdote</esES>
+			<esMX>Sacerdote</esMX>
+			<frFR>Prêtre</frFR>
+			<itIT>Sacerdote</itIT>
+			<jaJP>プリースト</jaJP>
+			<koKR>사제</koKR>
+			<plPL>Kapłan</plPL>
+			<ptBR>Sacerdote</ptBR>
+			<ruRU>Жрец</ruRU>
+			<zhCN>牧师</zhCN>
+			<zhTW>牧師</zhTW>
+		</Field>
+		<Field column="DESCRIPTION" loc_ID="21915">
+			<enUS>Rematch! Can you defeat the boss using this special Priest deck?\n\nDefeat her and gain a Priest card!</enUS>
+			<deDE>Auf ein Neues! Schafft Ihr es, den Boss mit diesem besonderen Priesterdeck zu besiegen? Als Belohnung winkt eine Priesterkarte!</deDE>
+			<esES>¡Revancha! ¿Podrá este mazo de sacerdote con Lady Nazj'ar?\n\n¡Derrótala y obtendrás una carta de cazador!</esES>
+			<esMX>¡Revancha! ¿Puedes derrotar a la jefa con este mazo especial de Sacerdote?\n\n¡Derrótala y gana una carta de Sacerdote!</esMX>
+			<frFR>Nouveau duel ! Saurez-vous vaincre le boss en utilisant ce deck spécial de prêtre ?\nTriomphez d’elle, et remportez un carte de prêtre !</frFR>
+			<itIT>Riuscirai a sconfiggere questo boss con un mazzo speciale del Sacerdote? Vincendo, otterrai una carta per questa classe!</itIT>
+			<jaJP>再戦だ！この特別なプリーストデッキを使って、ボスを倒せるかな？\n\nヤツを倒せれば、プリーストのカードが1枚手に入るぞ！</jaJP>
+			<koKR>이 특별한 사제 덱을 사용해 이 우두머리를 처치할 수 있을까요?\n\n우두머리를 처치하면 사제 카드를 얻을 수 있습니다!</koKR>
+			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii kapłana?\nZrób to, a otrzymasz kartę dla kapłana!</plPL>
+			<ptBR>Revanche! Você pode vencer este chefe usando este deck especial de Sacerdote?\n\nDerrote-o e ganhe um card de Sacerdote!</ptBR>
+			<ruRU>Сможете ли вы победить босса с помощью этой колоды жреца?\n\nПобеда принесет вам новую карту жреца!</ruRU>
+			<zhCN>战斗继续！你能使用这套特殊的牧师套牌击败这个首领吗？\n\n击败她，获得牧师职业卡牌！</zhCN>
+			<zhTW>加賽！你能用這副特殊的牧師套牌擊敗這個首領嗎？\n\n擊敗她就能獲得一張牧師卡牌！</zhTW>
+		</Field>
+		<Field column="OPPONENT_NAME" loc_ID="21916">
+			<enUS>Lady Naz'jar</enUS>
+			<deDE>Lady Naz'jar</deDE>
+			<esES>Lady Naz'jar</esES>
+			<esMX>Lady Naz'jar</esMX>
+			<frFR>Dame Naz’jar</frFR>
+			<itIT>Dama Naz'jar</itIT>
+			<jaJP>レディ・ナズジャール</jaJP>
+			<koKR>여군주 나즈자르</koKR>
+			<plPL>Lady Naz'jar</plPL>
+			<ptBR>Lady Naz'jar</ptBR>
+			<ruRU>Леди Наз'жар</ruRU>
+			<zhCN>纳兹夏尔女士</zhCN>
+			<zhTW>納茲賈爾女士</zhTW>
+		</Field>
+		<Field column="COMPLETED_DESCRIPTION" loc_ID="21917">
+			<enUS>Rematch! Can you defeat the boss using this special Priest deck?</enUS>
+			<deDE>Auf ein Neues! Schafft Ihr es, den Boss mit diesem besonderen Priesterdeck zu besiegen?</deDE>
+			<esES>¡Revancha! ¿Podrá este mazo de sacerdote con Lady Nazj'ar?</esES>
+			<esMX>¡Revancha! ¿Puedes derrotar a la jefa usando este mazo especial de Sacerdote?</esMX>
+			<frFR>Nouveau duel ! Saurez-vous vaincre le boss en utilisant ce deck spécial de prêtre ?</frFR>
+			<itIT>Riuscirai a sconfiggere questo boss con un mazzo speciale del Sacerdote?</itIT>
+			<jaJP>再戦だ！この特別なプリーストデッキを使って、ボスを倒せるかな？</jaJP>
+			<koKR>이 특별한 사제 덱을 사용해 이 우두머리를 처치할 수 있을까요?</koKR>
+			<plPL>Rewanż! Czy pokonasz tego bossa za pomocą specjalnej talii kapłana?</plPL>
+			<ptBR>Revanche! Você pode vencer o chefe usando este deck especial de Sacerdote?</ptBR>
+			<ruRU>Сможете ли вы победить босса с помощью этой колоды жреца?</ruRU>
+			<zhCN>战斗继续！你能使用这套特殊的牧师套牌击败这个首领吗？</zhCN>
+			<zhTW>加賽！你能用這副特殊的牧師套牌擊敗這個首領嗎？</zhTW>
+		</Field>
+		<Field column="PLAYER1_DECK_ID">806</Field>
+	</Record>
+	<Record>
+		<Field column="ID">1650</Field>
+		<Field column="NOTE_DESC">LOE_02_Zinaar_Heroic</Field>
+		<Field column="PLAYERS">1</Field>
+		<Field column="PLAYER1_HERO_CARD_ID" />
+		<Field column="PLAYER2_HERO_CARD_ID">38466</Field>
+		<Field column="IS_TUTORIAL">False</Field>
+		<Field column="IS_EXPERT">True</Field>
+		<Field column="IS_COOP">False</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="WING_ID">11</Field>
+		<Field column="SORT_ORDER">1</Field>
+		<Field column="MODE_ID">3</Field>
+		<Field column="CLIENT_PLAYER2_HERO_CARD_ID">0</Field>
+		<Field column="NAME" loc_ID="21810">
+			<enUS>Zinaar Heroic</enUS>
+			<deDE>Zinaar (Heroisch)</deDE>
+			<esES>Zinaar heroico</esES>
+			<esMX>Zinaar heroico</esMX>
+			<frFR>Zinaar (héroïque)</frFR>
+			<itIT>Zinaar (Eroica)</itIT>
+			<jaJP>ジナール（ヒロイック）</jaJP>
+			<koKR>지나르 (영웅)</koKR>
+			<plPL>Heroiczny Zinaar</plPL>
+			<ptBR>Zinaar Heroico</ptBR>
+			<ruRU>Зинаар (героич.)</ruRU>
+			<zhCN>英雄难度辛纳尔</zhCN>
+			<zhTW>英雄難度辛納爾</zhTW>
+		</Field>
+		<Field column="SHORT_NAME" loc_ID="21811">
+			<enUS>Zinaar</enUS>
+			<deDE>Zinaar</deDE>
+			<esES>Zinaar</esES>
+			<esMX>Zinaar</esMX>
+			<frFR>Zinaar</frFR>
+			<itIT>Zinaar</itIT>
+			<jaJP>ジナール</jaJP>
+			<koKR>지나르</koKR>
+			<plPL>Zinaar</plPL>
+			<ptBR>Zinaar</ptBR>
+			<ruRU>Зинаар</ruRU>
+			<zhCN>辛纳尔</zhCN>
+			<zhTW>辛納爾</zhTW>
+		</Field>
+		<Field column="DESCRIPTION" loc_ID="21812">
+			<enUS>Heroic bosses are extremely difficult. They will require many attempts and multiple deck revisions to defeat.</enUS>
+			<deDE>Heroische Bosse sind sehr schwer. Ihr werdet viele Versuche unternehmen und Euer Deck mehrmals anpassen müssen, um sie besiegen zu können.</deDE>
+			<esES>Los jefes heroicos son muy difíciles. Para derrotarlos te harán falta muchos intentos y varias modificaciones de mazo.</esES>
+			<esMX>Los jefes en modo heroico son extremadamente difíciles. Tendrás que hacer muchos intentos y rearmar tu mazo varias veces para derrotarlos.</esMX>
+			<frFR>Les boss héroïques sont très puissants. Vous allez sans doute devoir vous y reprendre à plusieurs fois et adapter votre deck pour les vaincre.</frFR>
+			<itIT>I boss in versione Eroica sono estremamente impegnativi. Richiederanno più tentativi e numerose modifiche al mazzo.</itIT>
+			<jaJP>ヒロイックのボスはとんでもない強敵です。勝つためには、何度も何度もデッキを作り直して、立ち向かうことになると思いますよ。</jaJP>
+			<koKR>영웅 난이도의 우두머리들은 매우 어렵습니다. 끊임 없이 도전하고 덱을 수정해야 처치할 수 있습니다.</koKR>
+			<plPL>Heroiczni bossowie są wyjątkowo trudni. Aby ich pokonać, konieczne będzie wiele podejść i zmian w talii.</plPL>
+			<ptBR>Chefes Heroicos são muito difíceis. Você vai precisar tentar várias vezes e fazer muitas revisões de deck para derrotá-los.</ptBR>
+			<ruRU>Героические боссы чрезвычайно сильны. Вам может понадобиться множество попыток и тщательный подбор колоды, чтобы их победить.</ruRU>
+			<zhCN>英雄难度的首领们非常难缠。你需要不断尝试并调整套牌来击败他们。</zhCN>
+			<zhTW>英雄難度的首領非常困難。你可能會需要多次嘗試並調整套牌內容才能擊敗他們。</zhTW>
+		</Field>
+		<Field column="OPPONENT_NAME" />
+		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
+	</Record>
+	<Record>
+		<Field column="ID">1651</Field>
+		<Field column="NOTE_DESC">LOE_01_Sun_Raider_Phaerix_Heroic</Field>
+		<Field column="PLAYERS">1</Field>
+		<Field column="PLAYER1_HERO_CARD_ID" />
+		<Field column="PLAYER2_HERO_CARD_ID">38480</Field>
+		<Field column="IS_TUTORIAL">False</Field>
+		<Field column="IS_EXPERT">True</Field>
+		<Field column="IS_COOP">False</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="WING_ID">11</Field>
+		<Field column="SORT_ORDER">2</Field>
+		<Field column="MODE_ID">3</Field>
+		<Field column="CLIENT_PLAYER2_HERO_CARD_ID">0</Field>
+		<Field column="NAME" loc_ID="21813">
+			<enUS>Sun Raider Phaerix Heroic</enUS>
+			<deDE>Sonnendieb Phaerix (Heroisch)</deDE>
+			<esES>Asaltante del sol Phaerix heroico</esES>
+			<esMX>Asaltasoles Phaerix heroico</esMX>
+			<frFR>Écumeur du soleil Phaerix (héroïque)</frFR>
+			<itIT>Sciacallo del Sole Phaerix (Eroica)</itIT>
+			<jaJP>サンレイダー・フェリックス（ヒロイック）</jaJP>
+			<koKR>태양의 사냥꾼 패릭스 (영웅)</koKR>
+			<plPL>Heroiczny Słoneczny Grabieżca Faeriks</plPL>
+			<ptBR>Guerreiro do Sol Phaerix Heroico</ptBR>
+			<ruRU>Расхититель Фаэрикс (героич.)</ruRU>
+			<zhCN>英雄难度菲利克斯·掠日者</zhCN>
+			<zhTW>英雄難度劫日者費里斯</zhTW>
+		</Field>
+		<Field column="SHORT_NAME" loc_ID="21814">
+			<enUS>Sun Raider Phaerix</enUS>
+			<deDE>Sonnendieb Phaerix</deDE>
+			<esES>Asaltante del sol Phaerix</esES>
+			<esMX>Asaltasoles Phaerix</esMX>
+			<frFR>Écumeur du soleil Phaerix</frFR>
+			<itIT>Sciacallo del Sole Phaerix</itIT>
+			<jaJP>サンレイダー・フェリックス</jaJP>
+			<koKR>태양의 사냥꾼 패릭스</koKR>
+			<plPL>Słoneczny Grabieżca Faeriks</plPL>
+			<ptBR>Guerreiro do Sol Phaerix</ptBR>
+			<ruRU>Расхититель Фаэрикс</ruRU>
+			<zhCN>菲利克斯·掠日者</zhCN>
+			<zhTW>劫日者費里斯</zhTW>
+		</Field>
+		<Field column="DESCRIPTION" loc_ID="21815">
+			<enUS>Heroic bosses are extremely difficult. They will require many attempts and multiple deck revisions to defeat.</enUS>
+			<deDE>Heroische Bosse sind sehr schwer. Ihr werdet viele Versuche unternehmen und Euer Deck mehrmals anpassen müssen, um sie besiegen zu können.</deDE>
+			<esES>Los jefes heroicos son muy difíciles. Para derrotarlos te harán falta muchos intentos y varias modificaciones de mazo.</esES>
+			<esMX>Los jefes en modo heroico son extremadamente difíciles. Tendrás que hacer muchos intentos y rearmar tu mazo varias veces para derrotarlos.</esMX>
+			<frFR>Les boss héroïques sont très puissants. Vous allez sans doute devoir vous y reprendre à plusieurs fois et adapter votre deck pour les vaincre.</frFR>
+			<itIT>I boss in versione Eroica sono estremamente impegnativi. Richiederanno più tentativi e numerose modifiche al mazzo.</itIT>
+			<jaJP>ヒロイックのボスはとんでもない強敵です。勝つためには、何度も何度もデッキを作り直して、立ち向かうことになると思いますよ。</jaJP>
+			<koKR>영웅 난이도의 우두머리들은 매우 어렵습니다. 끊임 없이 도전하고 덱을 수정해야 처치할 수 있습니다.</koKR>
+			<plPL>Heroiczni bossowie są wyjątkowo trudni. Aby ich pokonać, konieczne będzie wiele podejść i zmian w talii.</plPL>
+			<ptBR>Chefes Heroicos são muito difíceis. Você vai precisar tentar várias vezes e fazer muitas revisões de deck para derrotá-los.</ptBR>
+			<ruRU>Героические боссы чрезвычайно сильны. Вам может понадобиться множество попыток и тщательный подбор колоды, чтобы их победить.</ruRU>
+			<zhCN>英雄难度的首领们非常难缠。你需要不断尝试并调整套牌来击败他们。</zhCN>
+			<zhTW>英雄難度的首領非常困難。你可能會需要多次嘗試並調整套牌內容才能擊敗他們。</zhTW>
+		</Field>
+		<Field column="OPPONENT_NAME" />
+		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
+	</Record>
+	<Record>
+		<Field column="ID">1653</Field>
+		<Field column="NOTE_DESC">LOE_04_Temple_Escape_Heroic</Field>
+		<Field column="PLAYERS">1</Field>
+		<Field column="PLAYER1_HERO_CARD_ID" />
+		<Field column="PLAYER2_HERO_CARD_ID">38511</Field>
+		<Field column="IS_TUTORIAL">False</Field>
+		<Field column="IS_EXPERT">True</Field>
+		<Field column="IS_COOP">False</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="WING_ID">11</Field>
+		<Field column="SORT_ORDER">3</Field>
+		<Field column="MODE_ID">3</Field>
+		<Field column="CLIENT_PLAYER2_HERO_CARD_ID">0</Field>
+		<Field column="NAME" loc_ID="21816">
+			<enUS>Temple Escape Heroic</enUS>
+			<deDE>Flucht aus dem Tempel (Heroisch)</deDE>
+			<esES>Huida del templo heroica</esES>
+			<esMX>Escape del templo heroico</esMX>
+			<frFR>Fuite du temple (héroïque)</frFR>
+			<itIT>Fuga dal Tempio (Eroica)</itIT>
+			<jaJP>寺院からの脱出（ヒロイック）</jaJP>
+			<koKR>무너지는 사원 (영웅)</koKR>
+			<plPL>Heroiczna ucieczka ze świątyni</plPL>
+			<ptBR>Fuga do Templo Heroica</ptBR>
+			<ruRU>Побег из храма (героич.)</ruRU>
+			<zhCN>英雄难度神庙逃亡</zhCN>
+			<zhTW>英雄難度崩塌的神殿</zhTW>
+		</Field>
+		<Field column="SHORT_NAME" loc_ID="21817">
+			<enUS>Temple Escape</enUS>
+			<deDE>Flucht aus dem Tempel</deDE>
+			<esES>Huida del templo</esES>
+			<esMX>Escape del templo</esMX>
+			<frFR>Fuite du temple</frFR>
+			<itIT>Fuga dal Tempio</itIT>
+			<jaJP>寺院からの脱出</jaJP>
+			<koKR>무너지는 사원</koKR>
+			<plPL>Ucieczka ze świątyni</plPL>
+			<ptBR>Fuga do Templo</ptBR>
+			<ruRU>Побег из храма</ruRU>
+			<zhCN>神庙逃亡</zhCN>
+			<zhTW>崩塌的神殿</zhTW>
+		</Field>
+		<Field column="DESCRIPTION" loc_ID="21818">
+			<enUS>Heroic bosses are extremely difficult. They will require many attempts and multiple deck revisions to defeat.</enUS>
+			<deDE>Heroische Bosse sind sehr schwer. Ihr werdet viele Versuche unternehmen und Euer Deck mehrmals anpassen müssen, um sie besiegen zu können.</deDE>
+			<esES>Los jefes heroicos son muy difíciles. Para derrotarlos te harán falta muchos intentos y varias modificaciones de mazo.</esES>
+			<esMX>Los jefes en modo heroico son extremadamente difíciles. Tendrás que hacer muchos intentos y rearmar tu mazo varias veces para derrotarlos.</esMX>
+			<frFR>Les boss héroïques sont très puissants. Vous allez sans doute devoir vous y reprendre à plusieurs fois et adapter votre deck pour les vaincre.</frFR>
+			<itIT>I boss in versione Eroica sono estremamente impegnativi. Richiederanno più tentativi e numerose modifiche al mazzo.</itIT>
+			<jaJP>ヒロイックのボスはとんでもない強敵です。勝つためには、何度も何度もデッキを作り直して、立ち向かうことになると思いますよ。</jaJP>
+			<koKR>영웅 난이도의 우두머리들은 매우 어렵습니다. 끊임 없이 도전하고 덱을 수정해야 처치할 수 있습니다.</koKR>
+			<plPL>Heroiczni bossowie są wyjątkowo trudni. Aby ich pokonać, konieczne będzie wiele podejść i zmian w talii.</plPL>
+			<ptBR>Chefes Heroicos são muito difíceis. Você vai precisar tentar várias vezes e fazer muitas revisões de deck para derrotá-los.</ptBR>
+			<ruRU>Героические боссы чрезвычайно сильны. Вам может понадобиться множество попыток и тщательный подбор колоды, чтобы их победить.</ruRU>
+			<zhCN>英雄难度的首领们非常难缠。你需要不断尝试并调整套牌来击败他们。</zhCN>
+			<zhTW>英雄難度的首領非常困難。你可能會需要多次嘗試並調整套牌內容才能擊敗他們。</zhTW>
+		</Field>
+		<Field column="OPPONENT_NAME" />
+		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
+	</Record>
+	<Record>
+		<Field column="ID">1654</Field>
+		<Field column="NOTE_DESC">TB_Deckbuilding1PTest</Field>
+		<Field column="PLAYERS">1</Field>
+		<Field column="PLAYER1_HERO_CARD_ID" />
+		<Field column="PLAYER2_HERO_CARD_ID">813</Field>
+		<Field column="IS_TUTORIAL">False</Field>
+		<Field column="IS_EXPERT">True</Field>
+		<Field column="IS_COOP">False</Field>
+		<Field column="ADVENTURE_ID">7</Field>
+		<Field column="WING_ID" />
+		<Field column="SORT_ORDER" />
+		<Field column="MODE_ID">0</Field>
+		<Field column="CLIENT_PLAYER2_HERO_CARD_ID">0</Field>
+		<Field column="NAME" />
+		<Field column="SHORT_NAME" />
+		<Field column="DESCRIPTION" />
+		<Field column="OPPONENT_NAME" />
+		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
+	</Record>
+	<Record>
+		<Field column="ID">1657</Field>
+		<Field column="NOTE_DESC">LOE_08_Archaedas_Heroic</Field>
+		<Field column="PLAYERS">1</Field>
+		<Field column="PLAYER1_HERO_CARD_ID" />
+		<Field column="PLAYER2_HERO_CARD_ID">38592</Field>
+		<Field column="IS_TUTORIAL">False</Field>
+		<Field column="IS_EXPERT">True</Field>
+		<Field column="IS_COOP">False</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="WING_ID">12</Field>
+		<Field column="SORT_ORDER">6</Field>
+		<Field column="MODE_ID">3</Field>
+		<Field column="CLIENT_PLAYER2_HERO_CARD_ID">0</Field>
+		<Field column="NAME" loc_ID="21820">
+			<enUS>Archaedas Heroic</enUS>
+			<deDE>Archaedas (Heroisch)</deDE>
+			<esES>Archaedas heroico</esES>
+			<esMX>Archaedas heroico</esMX>
+			<frFR>Archaedas (héroïque)</frFR>
+			<itIT>Archaedas (Eroica)</itIT>
+			<jaJP>アーケイダス（ヒロイック）</jaJP>
+			<koKR>아카에다스 (영웅)</koKR>
+			<plPL>Heroiczny Archaedas</plPL>
+			<ptBR>Arkhaedas Heroico</ptBR>
+			<ruRU>Аркедас (героич.)</ruRU>
+			<zhCN>英雄难度阿扎达斯</zhCN>
+			<zhTW>英雄難度阿札達斯</zhTW>
+		</Field>
+		<Field column="SHORT_NAME" loc_ID="21821">
+			<enUS>Archaedas</enUS>
+			<deDE>Archaedas</deDE>
+			<esES>Archaedas</esES>
+			<esMX>Archaedas</esMX>
+			<frFR>Archaedas</frFR>
+			<itIT>Archaedas</itIT>
+			<jaJP>アーケイダス</jaJP>
+			<koKR>아카에다스</koKR>
+			<plPL>Archaedas</plPL>
+			<ptBR>Arkhaedas</ptBR>
+			<ruRU>Аркедас</ruRU>
+			<zhCN>阿扎达斯</zhCN>
+			<zhTW>阿札達斯</zhTW>
+		</Field>
+		<Field column="DESCRIPTION" loc_ID="21822">
+			<enUS>Heroic bosses are extremely difficult. They will require many attempts and multiple deck revisions to defeat.</enUS>
+			<deDE>Heroische Bosse sind sehr schwer. Ihr werdet viele Versuche unternehmen und Euer Deck mehrmals anpassen müssen, um sie besiegen zu können.</deDE>
+			<esES>Los jefes heroicos son muy difíciles. Para derrotarlos te harán falta muchos intentos y varias modificaciones de mazo.</esES>
+			<esMX>Los jefes en modo heroico son extremadamente difíciles. Tendrás que hacer muchos intentos y rearmar tu mazo varias veces para derrotarlos.</esMX>
+			<frFR>Les boss héroïques sont très puissants. Vous allez sans doute devoir vous y reprendre à plusieurs fois et adapter votre deck pour les vaincre.</frFR>
+			<itIT>I boss in versione Eroica sono estremamente impegnativi. Richiederanno più tentativi e numerose modifiche al mazzo.</itIT>
+			<jaJP>ヒロイックのボスはとんでもない強敵です。勝つためには、何度も何度もデッキを作り直して、立ち向かうことになると思いますよ。</jaJP>
+			<koKR>영웅 난이도의 우두머리들은 매우 어렵습니다. 끊임 없이 도전하고 덱을 수정해야 처치할 수 있습니다.</koKR>
+			<plPL>Heroiczni bossowie są wyjątkowo trudni. Aby ich pokonać, konieczne będzie wiele podejść i zmian w talii.</plPL>
+			<ptBR>Chefes Heroicos são muito difíceis. Você vai precisar tentar várias vezes e fazer muitas revisões de deck para derrotá-los.</ptBR>
+			<ruRU>Героические боссы чрезвычайно сильны. Вам может понадобиться множество попыток и тщательный подбор колоды, чтобы их победить.</ruRU>
+			<zhCN>英雄难度的首领们非常难缠。你需要不断尝试并调整套牌来击败他们。</zhCN>
+			<zhTW>英雄難度的首領非常困難。你可能會需要多次嘗試並調整套牌內容才能擊敗他們。</zhTW>
+		</Field>
+		<Field column="OPPONENT_NAME" />
+		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
+	</Record>
+	<Record>
+		<Field column="ID">1658</Field>
+		<Field column="NOTE_DESC">TB_GiftExchange</Field>
+		<Field column="PLAYERS">2</Field>
+		<Field column="PLAYER1_HERO_CARD_ID" />
+		<Field column="PLAYER2_HERO_CARD_ID" />
+		<Field column="IS_TUTORIAL">False</Field>
+		<Field column="IS_EXPERT">True</Field>
+		<Field column="IS_COOP">False</Field>
+		<Field column="ADVENTURE_ID">7</Field>
+		<Field column="WING_ID" />
+		<Field column="SORT_ORDER" />
+		<Field column="MODE_ID">0</Field>
+		<Field column="CLIENT_PLAYER2_HERO_CARD_ID">0</Field>
+		<Field column="NAME" />
+		<Field column="SHORT_NAME" />
+		<Field column="DESCRIPTION" />
+		<Field column="OPPONENT_NAME" />
+		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
+	</Record>
+	<Record>
+		<Field column="ID">1659</Field>
+		<Field column="NOTE_DESC">LOE_09_LordSlitherspear_Heroic</Field>
+		<Field column="PLAYERS">1</Field>
+		<Field column="PLAYER1_HERO_CARD_ID" />
+		<Field column="PLAYER2_HERO_CARD_ID">38607</Field>
+		<Field column="IS_TUTORIAL">False</Field>
+		<Field column="IS_EXPERT">True</Field>
+		<Field column="IS_COOP">False</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="WING_ID">13</Field>
+		<Field column="SORT_ORDER">7</Field>
+		<Field column="MODE_ID">3</Field>
+		<Field column="CLIENT_PLAYER2_HERO_CARD_ID">0</Field>
+		<Field column="NAME" loc_ID="21826">
+			<enUS>Lord Slitherspear Heroic</enUS>
+			<deDE>Lord Schlängelspeer (Heroisch)</deDE>
+			<esES>Lord Reptalanza heroico</esES>
+			<esMX>Lord Ofidiana heroico</esMX>
+			<frFR>Seigneur Ondulance (héroïque)</frFR>
+			<itIT>Sire Lanciaviscida (Eroica)</itIT>
+			<jaJP>ロード・スリザースピア（ヒロイック）</jaJP>
+			<koKR>군주 갈퀴창날 (영웅)</koKR>
+			<plPL>Heroiczny Lord Ślizgodzid</plPL>
+			<ptBR>Lorde Serpespeto Heroico</ptBR>
+			<ruRU>Лорд Скользкое Копье (героич.)</ruRU>
+			<zhCN>英雄难度滑矛领主</zhCN>
+			<zhTW>英雄難度滑矛領主</zhTW>
+		</Field>
+		<Field column="SHORT_NAME" loc_ID="21827">
+			<enUS>Lord Slitherspear</enUS>
+			<deDE>Lord Schlängelspeer</deDE>
+			<esES>Lord Reptalanza</esES>
+			<esMX>Lord Ofidiana</esMX>
+			<frFR>Seigneur Ondulance</frFR>
+			<itIT>Sire Lanciaviscida</itIT>
+			<jaJP>ロード・スリザースピア</jaJP>
+			<koKR>군주 갈퀴창날</koKR>
+			<plPL>Lord Ślizgodzid</plPL>
+			<ptBR>Lorde Serpespeto</ptBR>
+			<ruRU>Лорд Скользкое Копье</ruRU>
+			<zhCN>滑矛领主</zhCN>
+			<zhTW>滑矛領主</zhTW>
+		</Field>
+		<Field column="DESCRIPTION" loc_ID="21828">
+			<enUS>Heroic bosses are extremely difficult. They will require many attempts and multiple deck revisions to defeat.</enUS>
+			<deDE>Heroische Bosse sind sehr schwer. Ihr werdet viele Versuche unternehmen und Euer Deck mehrmals anpassen müssen, um sie besiegen zu können.</deDE>
+			<esES>Los jefes heroicos son muy difíciles. Para derrotarlos te harán falta muchos intentos y varias modificaciones de mazo.</esES>
+			<esMX>Los jefes en modo heroico son extremadamente difíciles. Tendrás que hacer muchos intentos y rearmar tu mazo varias veces para derrotarlos.</esMX>
+			<frFR>Les boss héroïques sont très puissants. Vous allez sans doute devoir vous y reprendre à plusieurs fois et adapter votre deck pour les vaincre.</frFR>
+			<itIT>I boss in versione Eroica sono estremamente impegnativi. Richiederanno più tentativi e numerose modifiche al mazzo.</itIT>
+			<jaJP>ヒロイックのボスはとんでもない強敵です。勝つためには、何度も何度もデッキを作り直して、立ち向かうことになると思いますよ。</jaJP>
+			<koKR>영웅 난이도의 우두머리들은 매우 어렵습니다. 끊임 없이 도전하고 덱을 수정해야 처치할 수 있습니다.</koKR>
+			<plPL>Heroiczni bossowie są wyjątkowo trudni. Aby ich pokonać, konieczne będzie wiele podejść i zmian w talii.</plPL>
+			<ptBR>Chefes Heroicos são muito difíceis. Você vai precisar tentar várias vezes e fazer muitas revisões de deck para derrotá-los.</ptBR>
+			<ruRU>Героические боссы чрезвычайно сильны. Вам может понадобиться множество попыток и тщательный подбор колоды, чтобы их победить.</ruRU>
+			<zhCN>英雄难度的首领们非常难缠。你需要不断尝试并调整套牌来击败他们。</zhCN>
+			<zhTW>英雄難度的首領非常困難。你可能會需要多次嘗試並調整套牌內容才能擊敗他們。</zhTW>
+		</Field>
+		<Field column="OPPONENT_NAME" />
+		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
+	</Record>
+	<Record>
+		<Field column="ID">1660</Field>
+		<Field column="NOTE_DESC">LOE_05_SCARVASH_HEROIC</Field>
+		<Field column="PLAYERS">1</Field>
+		<Field column="PLAYER1_HERO_CARD_ID" />
+		<Field column="PLAYER2_HERO_CARD_ID">38554</Field>
+		<Field column="IS_TUTORIAL">False</Field>
+		<Field column="IS_EXPERT">True</Field>
+		<Field column="IS_COOP">False</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="WING_ID">12</Field>
+		<Field column="SORT_ORDER">4</Field>
+		<Field column="MODE_ID">3</Field>
+		<Field column="CLIENT_PLAYER2_HERO_CARD_ID">0</Field>
+		<Field column="NAME" loc_ID="21823">
+			<enUS>Chieftain Scarvash Heroic</enUS>
+			<deDE>Häuptling Scarvash (Heroisch)</deDE>
+			<esES>Cabecilla Scarvash heroico</esES>
+			<esMX>Gran Jefe Scarvash heroico</esMX>
+			<frFR>Chef Scarvash (héroïque)</frFR>
+			<itIT>Capo Tribù Scarvash (Eroica)</itIT>
+			<jaJP>族長・スカーヴァッシュ（ヒロイック）</jaJP>
+			<koKR>족장 스카바쉬 (영웅)</koKR>
+			<plPL>Heroiczny Wódz Skarwosz</plPL>
+			<ptBR>Chefe Scarvash Heroico</ptBR>
+			<ruRU>Вождь Скарваш (героич.)</ruRU>
+			<zhCN>英雄难度斯卡瓦什酋长</zhCN>
+			<zhTW>英雄難度斯卡瓦酋長</zhTW>
+		</Field>
+		<Field column="SHORT_NAME" loc_ID="21824">
+			<enUS>Chieftain Scarvash</enUS>
+			<deDE>Häuptling Scarvash</deDE>
+			<esES>Cabecilla Scarvash</esES>
+			<esMX>Gran Jefe Scarvash</esMX>
+			<frFR>Chef Scarvash</frFR>
+			<itIT>Capo Tribù Scarvash</itIT>
+			<jaJP>族長・スカーヴァッシュ</jaJP>
+			<koKR>족장 스카바쉬</koKR>
+			<plPL>Wódz Skarwosz</plPL>
+			<ptBR>Chefe Scarvash</ptBR>
+			<ruRU>Вождь Скарваш</ruRU>
+			<zhCN>斯卡瓦什酋长</zhCN>
+			<zhTW>斯卡瓦酋長</zhTW>
+		</Field>
+		<Field column="DESCRIPTION" loc_ID="21825">
+			<enUS>Heroic bosses are extremely difficult. They will require many attempts and multiple deck revisions to defeat.</enUS>
+			<deDE>Heroische Bosse sind sehr schwer. Ihr werdet viele Versuche unternehmen und Euer Deck mehrmals anpassen müssen, um sie besiegen zu können.</deDE>
+			<esES>Los jefes heroicos son muy difíciles. Para derrotarlos te harán falta muchos intentos y varias modificaciones de mazo.</esES>
+			<esMX>Los jefes en modo heroico son extremadamente difíciles. Tendrás que hacer muchos intentos y rearmar tu mazo varias veces para derrotarlos.</esMX>
+			<frFR>Les boss héroïques sont très puissants. Vous allez sans doute devoir vous y reprendre à plusieurs fois et adapter votre deck pour les vaincre.</frFR>
+			<itIT>I boss in versione Eroica sono estremamente impegnativi. Richiederanno più tentativi e numerose modifiche al mazzo.</itIT>
+			<jaJP>ヒロイックのボスはとんでもない強敵です。勝つためには、何度も何度もデッキを作り直して、立ち向かうことになると思いますよ。</jaJP>
+			<koKR>영웅 난이도의 우두머리들은 매우 어렵습니다. 끊임 없이 도전하고 덱을 수정해야 처치할 수 있습니다.</koKR>
+			<plPL>Heroiczni bossowie są wyjątkowo trudni. Aby ich pokonać, konieczne będzie wiele podejść i zmian w talii.</plPL>
+			<ptBR>Chefes Heroicos são muito difíceis. Você vai precisar tentar várias vezes e fazer muitas revisões de deck para derrotá-los.</ptBR>
+			<ruRU>Героические боссы чрезвычайно сильны. Вам может понадобиться множество попыток и тщательный подбор колоды, чтобы их победить.</ruRU>
+			<zhCN>英雄难度的首领们非常难缠。你需要不断尝试并调整套牌来击败他们。</zhCN>
+			<zhTW>英雄難度的首領非常困難。你可能會需要多次嘗試並調整套牌內容才能擊敗他們。</zhTW>
+		</Field>
+		<Field column="OPPONENT_NAME" />
+		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
+	</Record>
+	<Record>
+		<Field column="ID">1661</Field>
+		<Field column="NOTE_DESC">LOE_10_Giantfin_Heroic</Field>
+		<Field column="PLAYERS">1</Field>
+		<Field column="PLAYER1_HERO_CARD_ID" />
+		<Field column="PLAYER2_HERO_CARD_ID">38616</Field>
+		<Field column="IS_TUTORIAL">False</Field>
+		<Field column="IS_EXPERT">True</Field>
+		<Field column="IS_COOP">False</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="WING_ID">13</Field>
+		<Field column="SORT_ORDER">8</Field>
+		<Field column="MODE_ID">3</Field>
+		<Field column="CLIENT_PLAYER2_HERO_CARD_ID">0</Field>
+		<Field column="NAME" loc_ID="21829">
+			<enUS>Giantfin Heroic</enUS>
+			<deDE>Riesenflosse (Heroisch)</deDE>
+			<esES>Aletaza heroico</esES>
+			<esMX>Granaleta heroico</esMX>
+			<frFR>Aileron-Géant (héroïque)</frFR>
+			<itIT>Pinnagrossa (Eroica)</itIT>
+			<jaJP>ジャイアントフィン（ヒロイック）</jaJP>
+			<koKR>거대아가미 (영웅)</koKR>
+			<plPL>Heroiczny Wielkopłetw</plPL>
+			<ptBR>Barbatana Heroico</ptBR>
+			<ruRU>Великий Плавник (героич.)</ruRU>
+			<zhCN>英雄难度老蓟皮</zhCN>
+			<zhTW>英雄難度大鰭</zhTW>
+		</Field>
+		<Field column="SHORT_NAME" loc_ID="21830">
+			<enUS>Giantfin</enUS>
+			<deDE>Riesenflosse</deDE>
+			<esES>Aletaza</esES>
+			<esMX>Granaleta</esMX>
+			<frFR>Aileron-Géant</frFR>
+			<itIT>Pinnagrossa</itIT>
+			<jaJP>ジャイアントフィン</jaJP>
+			<koKR>거대아가미</koKR>
+			<plPL>Wielkopłetw</plPL>
+			<ptBR>Barbatana</ptBR>
+			<ruRU>Великий Плавник</ruRU>
+			<zhCN>老蓟皮</zhCN>
+			<zhTW>大鰭</zhTW>
+		</Field>
+		<Field column="DESCRIPTION" loc_ID="21831">
+			<enUS>Heroic bosses are extremely difficult. They will require many attempts and multiple deck revisions to defeat.</enUS>
+			<deDE>Heroische Bosse sind sehr schwer. Ihr werdet viele Versuche unternehmen und Euer Deck mehrmals anpassen müssen, um sie besiegen zu können.</deDE>
+			<esES>Los jefes heroicos son muy difíciles. Para derrotarlos te harán falta muchos intentos y varias modificaciones de mazo.</esES>
+			<esMX>Los jefes en modo heroico son extremadamente difíciles. Tendrás que hacer muchos intentos y rearmar tu mazo varias veces para derrotarlos.</esMX>
+			<frFR>Les boss héroïques sont très puissants. Vous allez sans doute devoir vous y reprendre à plusieurs fois et adapter votre deck pour les vaincre.</frFR>
+			<itIT>I boss in versione Eroica sono estremamente impegnativi. Richiederanno più tentativi e numerose modifiche al mazzo.</itIT>
+			<jaJP>ヒロイックのボスはとんでもない強敵です。勝つためには、何度も何度もデッキを作り直して、立ち向かうことになると思いますよ。</jaJP>
+			<koKR>영웅 난이도의 우두머리들은 매우 어렵습니다. 끊임 없이 도전하고 덱을 수정해야 처치할 수 있습니다.</koKR>
+			<plPL>Heroiczni bossowie są wyjątkowo trudni. Aby ich pokonać, konieczne będzie wiele podejść i zmian w talii.</plPL>
+			<ptBR>Chefes Heroicos são muito difíceis. Você vai precisar tentar várias vezes e fazer muitas revisões de deck para derrotá-los.</ptBR>
+			<ruRU>Героические боссы чрезвычайно сильны. Вам может понадобиться множество попыток и тщательный подбор колоды, чтобы их победить.</ruRU>
+			<zhCN>英雄难度的首领们非常难缠。你需要不断尝试并调整套牌来击败他们。</zhCN>
+			<zhTW>英雄難度的首領非常困難。你可能會需要多次嘗試並調整套牌內容才能擊敗他們。</zhTW>
+		</Field>
+		<Field column="OPPONENT_NAME" />
+		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
+	</Record>
+	<Record>
+		<Field column="ID">1666</Field>
+		<Field column="NOTE_DESC">LOEA12_Nazjar_Heroic</Field>
+		<Field column="PLAYERS">1</Field>
+		<Field column="PLAYER1_HERO_CARD_ID" />
+		<Field column="PLAYER2_HERO_CARD_ID">38619</Field>
+		<Field column="IS_TUTORIAL">False</Field>
+		<Field column="IS_EXPERT">True</Field>
+		<Field column="IS_COOP">False</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="WING_ID">13</Field>
+		<Field column="SORT_ORDER">9</Field>
+		<Field column="MODE_ID">3</Field>
+		<Field column="CLIENT_PLAYER2_HERO_CARD_ID">0</Field>
+		<Field column="NAME" loc_ID="21832">
+			<enUS>Lady Naz'jar Heroic</enUS>
+			<deDE>Lady Naz'jar (Heroisch)</deDE>
+			<esES>Lady Naz'jar heroica</esES>
+			<esMX>Lady Naz'jar heroico</esMX>
+			<frFR>Dame Naz’jar (héroïque)</frFR>
+			<itIT>Dama Naz'jar (Eroica)</itIT>
+			<jaJP>レディ・ナズジャール（ヒロイック）</jaJP>
+			<koKR>여군주 나즈자르 (영웅)</koKR>
+			<plPL>Heroiczna Lady Naz'jar</plPL>
+			<ptBR>Lady Naz'jar Heroica</ptBR>
+			<ruRU>Леди Наз'жар (героич.)</ruRU>
+			<zhCN>英雄难度纳兹夏尔女士</zhCN>
+			<zhTW>英雄難度納茲賈爾女士</zhTW>
+		</Field>
+		<Field column="SHORT_NAME" loc_ID="21833">
+			<enUS>Lady Naz'jar</enUS>
+			<deDE>Lady Naz'jar</deDE>
+			<esES>Lady Naz'jar</esES>
+			<esMX>Lady Naz'jar</esMX>
+			<frFR>Dame Naz’jar</frFR>
+			<itIT>Dama Naz'jar</itIT>
+			<jaJP>レディ・ナズジャール</jaJP>
+			<koKR>여군주 나즈자르</koKR>
+			<plPL>Lady Naz'jar</plPL>
+			<ptBR>Lady Naz'jar</ptBR>
+			<ruRU>Леди Наз'жар</ruRU>
+			<zhCN>纳兹夏尔女士</zhCN>
+			<zhTW>納茲賈爾女士</zhTW>
+		</Field>
+		<Field column="DESCRIPTION" loc_ID="21834">
+			<enUS>Heroic bosses are extremely difficult. They will require many attempts and multiple deck revisions to defeat.</enUS>
+			<deDE>Heroische Bosse sind sehr schwer. Ihr werdet viele Versuche unternehmen und Euer Deck mehrmals anpassen müssen, um sie besiegen zu können.</deDE>
+			<esES>Los jefes heroicos son muy difíciles. Para derrotarlos te harán falta muchos intentos y varias modificaciones de mazo.</esES>
+			<esMX>Los jefes en modo heroico son extremadamente difíciles. Tendrás que hacer muchos intentos y rearmar tu mazo varias veces para derrotarlos.</esMX>
+			<frFR>Les boss héroïques sont très puissants. Vous allez sans doute devoir vous y reprendre à plusieurs fois et adapter votre deck pour les vaincre.</frFR>
+			<itIT>I boss in versione Eroica sono estremamente impegnativi. Richiederanno più tentativi e numerose modifiche al mazzo.</itIT>
+			<jaJP>ヒロイックのボスはとんでもない強敵です。勝つためには、何度も何度もデッキを作り直して、立ち向かうことになると思いますよ。</jaJP>
+			<koKR>영웅 난이도의 우두머리들은 매우 어렵습니다. 끊임 없이 도전하고 덱을 수정해야 처치할 수 있습니다.</koKR>
+			<plPL>Heroiczni bossowie są wyjątkowo trudni. Aby ich pokonać, konieczne będzie wiele podejść i zmian w talii.</plPL>
+			<ptBR>Chefes Heroicos são muito difíceis. Você vai precisar tentar várias vezes e fazer muitas revisões de deck para derrotá-los.</ptBR>
+			<ruRU>Героические боссы чрезвычайно сильны. Вам может понадобиться множество попыток и тщательный подбор колоды, чтобы их победить.</ruRU>
+			<zhCN>英雄难度的首领们非常难缠。你需要不断尝试并调整套牌来击败他们。</zhCN>
+			<zhTW>英雄難度的首領非常困難。你可能會需要多次嘗試並調整套牌內容才能擊敗他們。</zhTW>
+		</Field>
+		<Field column="OPPONENT_NAME" />
+		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
+	</Record>
+	<Record>
+		<Field column="ID">1668</Field>
+		<Field column="NOTE_DESC">TB_PickYourFateBuildAround1PTest</Field>
+		<Field column="PLAYERS">1</Field>
+		<Field column="PLAYER1_HERO_CARD_ID" />
+		<Field column="PLAYER2_HERO_CARD_ID">2826</Field>
+		<Field column="IS_TUTORIAL">False</Field>
+		<Field column="IS_EXPERT">True</Field>
+		<Field column="IS_COOP">False</Field>
+		<Field column="ADVENTURE_ID">7</Field>
+		<Field column="WING_ID" />
+		<Field column="SORT_ORDER" />
+		<Field column="MODE_ID">0</Field>
+		<Field column="CLIENT_PLAYER2_HERO_CARD_ID">0</Field>
+		<Field column="NAME" />
+		<Field column="SHORT_NAME" />
+		<Field column="DESCRIPTION" />
+		<Field column="OPPONENT_NAME" />
+		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
+	</Record>
+	<Record>
+		<Field column="ID">1669</Field>
+		<Field column="NOTE_DESC">LOE07_Minecart_Heroic</Field>
+		<Field column="PLAYERS">1</Field>
+		<Field column="PLAYER1_HERO_CARD_ID">16203</Field>
+		<Field column="PLAYER2_HERO_CARD_ID">38677</Field>
+		<Field column="IS_TUTORIAL">False</Field>
+		<Field column="IS_EXPERT">True</Field>
+		<Field column="IS_COOP">False</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="WING_ID">12</Field>
+		<Field column="SORT_ORDER">5</Field>
+		<Field column="MODE_ID">3</Field>
+		<Field column="CLIENT_PLAYER2_HERO_CARD_ID">0</Field>
+		<Field column="NAME" loc_ID="21819">
+			<enUS>Mine Cart Rush Heroic</enUS>
+			<deDE>Rasante Lorenfahrt (Heroisch)</deDE>
+			<esES>Huida en vagoneta heroica</esES>
+			<esMX>Fiebre minera heroica</esMX>
+			<frFR>Course en chariot de mine (héroïque)</frFR>
+			<itIT>Corsa sul Carrello Minerario (Eroica)</itIT>
+			<jaJP>トロッコ野郎・爆走一番星（ヒロイック）</jaJP>
+			<koKR>울다만의 광산 (영웅)</koKR>
+			<plPL>Heroiczna gonitwa w wózku</plPL>
+			<ptBR>Corrida de Vagonete</ptBR>
+			<ruRU>Гонка на вагонетке (героич.)</ruRU>
+			<zhCN>英雄难度云霄矿车</zhCN>
+			<zhTW>英雄難度礦車歷險</zhTW>
+		</Field>
+		<Field column="SHORT_NAME" loc_ID="21743">
+			<enUS>Mine Cart Rush</enUS>
+			<deDE>Rasante Lorenfahrt</deDE>
+			<esES>Huida en vagoneta</esES>
+			<esMX>Fiebre minera</esMX>
+			<frFR>Course en chariot de mine</frFR>
+			<itIT>Corsa sul Carrello Minerario</itIT>
+			<jaJP>トロッコ野郎・爆走一番星</jaJP>
+			<koKR>울다만의 광산</koKR>
+			<plPL>Gonitwa w wózku</plPL>
+			<ptBR>Corrida de Vagonete</ptBR>
+			<ruRU>Гонка на вагонетке</ruRU>
+			<zhCN>云霄矿车</zhCN>
+			<zhTW>礦車歷險</zhTW>
+		</Field>
+		<Field column="DESCRIPTION" loc_ID="21744">
+			<enUS>Heroic bosses are extremely difficult. They will require many attempts and multiple deck revisions to defeat.</enUS>
+			<deDE>Heroische Bosse sind sehr schwer. Ihr werdet viele Versuche unternehmen und Euer Deck mehrmals anpassen müssen, um sie besiegen zu können.</deDE>
+			<esES>Los jefes heroicos son muy difíciles. Para derrotarlos te harán falta muchos intentos y varias modificaciones de mazo.</esES>
+			<esMX>Los jefes en modo heroico son extremadamente difíciles. Tendrás que hacer muchos intentos y rearmar tu mazo varias veces para derrotarlos.</esMX>
+			<frFR>Les boss héroïques sont très puissants. Vous allez sans doute devoir vous y reprendre à plusieurs fois et adapter votre deck pour les vaincre.</frFR>
+			<itIT>I boss in versione Eroica sono estremamente impegnativi. Richiederanno più tentativi e numerose modifiche al mazzo.</itIT>
+			<jaJP>ヒロイックのボスはとんでもない強敵です。勝つためには、何度も何度もデッキを作り直して、立ち向かうことになると思いますよ。</jaJP>
+			<koKR>영웅 난이도의 우두머리들은 매우 어렵습니다. 끊임 없이 도전하고 덱을 수정해야 처치할 수 있습니다.</koKR>
+			<plPL>Heroiczni bossowie są wyjątkowo trudni. Aby ich pokonać, konieczne będzie wiele podejść i zmian w talii.</plPL>
+			<ptBR>Chefes Heroicos são muito difíceis. Você vai precisar tentar várias vezes e fazer muitas revisões de deck para derrotá-los.</ptBR>
+			<ruRU>Героические боссы чрезвычайно сильны. Вам может понадобиться множество попыток и тщательный подбор колоды, чтобы их победить.</ruRU>
+			<zhCN>英雄难度的首领们非常难缠。你需要不断尝试并调整套牌来击败他们。</zhCN>
+			<zhTW>英雄難度的首領非常困難。你可能會需要多次嘗試並調整套牌內容才能擊敗他們。</zhTW>
+		</Field>
+		<Field column="OPPONENT_NAME" />
+		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID">572</Field>
+	</Record>
+	<Record>
+		<Field column="ID">1670</Field>
+		<Field column="NOTE_DESC">LOEA13_Skelesaurus_Heroic</Field>
+		<Field column="PLAYERS">1</Field>
+		<Field column="PLAYER1_HERO_CARD_ID" />
+		<Field column="PLAYER2_HERO_CARD_ID">38704</Field>
+		<Field column="IS_TUTORIAL">False</Field>
+		<Field column="IS_EXPERT">True</Field>
+		<Field column="IS_COOP">False</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="WING_ID">14</Field>
+		<Field column="SORT_ORDER">10</Field>
+		<Field column="MODE_ID">3</Field>
+		<Field column="CLIENT_PLAYER2_HERO_CARD_ID">0</Field>
+		<Field column="NAME" loc_ID="21754">
+			<enUS>Skelesaurus Hex Heroic</enUS>
+			<deDE>Skelesaurus Hex (Heroisch)</deDE>
+			<esES>Esquelesaurus rex heroico</esES>
+			<esMX>Esquelesaurus facticius heroico</esMX>
+			<frFR>Squeletosaurus Hex (héroïque)</frFR>
+			<itIT>Schelesauro (Eroica)</itIT>
+			<jaJP>スケルサウルス・ヘックス（ヒロイック）</jaJP>
+			<koKR>뼈다귀사우루스 헥스 (영웅)</koKR>
+			<plPL>Heroiczny Szkielezaurus Hex</plPL>
+			<ptBR>Bagatossauro Rex Heroico</ptBR>
+			<ruRU>Скелетозавр Анорекс (героич.)</ruRU>
+			<zhCN>英雄难度骨龙海克斯</zhCN>
+			<zhTW>英雄難度骷髏妖術暴龍</zhTW>
+		</Field>
+		<Field column="SHORT_NAME" loc_ID="21755">
+			<enUS>Skelesaurus Hex</enUS>
+			<deDE>Skelesaurus Hex</deDE>
+			<esES>Esquelesaurus rex</esES>
+			<esMX>Esquelesaurus facticius</esMX>
+			<frFR>Squeletosaurus Hex</frFR>
+			<itIT>Schelesauro</itIT>
+			<jaJP>スケルサウルス・ヘックス</jaJP>
+			<koKR>뼈다귀사우루스 헥스</koKR>
+			<plPL>Szkielezaurus Hex</plPL>
+			<ptBR>Bagatossauro Rex</ptBR>
+			<ruRU>Скелетозавр Анорекс</ruRU>
+			<zhCN>骨龙海克斯</zhCN>
+			<zhTW>骷髏妖術暴龍</zhTW>
+		</Field>
+		<Field column="DESCRIPTION" loc_ID="21756">
+			<enUS>Heroic bosses are extremely difficult. They will require many attempts and multiple deck revisions to defeat.</enUS>
+			<deDE>Heroische Bosse sind sehr schwer. Ihr werdet viele Versuche unternehmen und Euer Deck mehrmals anpassen müssen, um sie besiegen zu können.</deDE>
+			<esES>Los jefes heroicos son muy difíciles. Para derrotarlos te harán falta muchos intentos y varias modificaciones de mazo.</esES>
+			<esMX>Los jefes en modo heroico son extremadamente difíciles. Tendrás que hacer muchos intentos y rearmar tu mazo varias veces para derrotarlos.</esMX>
+			<frFR>Les boss héroïques sont très puissants. Vous allez sans doute devoir vous y reprendre à plusieurs fois et adapter votre deck pour les vaincre.</frFR>
+			<itIT>I boss in versione Eroica sono estremamente impegnativi. Richiederanno più tentativi e numerose modifiche al mazzo.</itIT>
+			<jaJP>ヒロイックのボスはとんでもない強敵です。勝つためには、何度も何度もデッキを作り直して、立ち向かうことになると思いますよ。</jaJP>
+			<koKR>영웅 난이도의 우두머리들은 매우 어렵습니다. 끊임 없이 도전하고 덱을 수정해야 처치할 수 있습니다.</koKR>
+			<plPL>Heroiczni bossowie są wyjątkowo trudni. Aby ich pokonać, konieczne będzie wiele podejść i zmian w talii.</plPL>
+			<ptBR>Chefes Heroicos são muito difíceis. Você vai precisar tentar várias vezes e fazer muitas revisões de deck para derrotá-los.</ptBR>
+			<ruRU>Героические боссы чрезвычайно сильны. Вам может понадобиться множество попыток и тщательный подбор колоды, чтобы их победить.</ruRU>
+			<zhCN>英雄难度的首领们非常难缠。你需要不断尝试并调整套牌来击败他们。</zhCN>
+			<zhTW>英雄難度的首領非常困難。你可能會需要多次嘗試並調整套牌內容才能擊敗他們。</zhTW>
+		</Field>
+		<Field column="OPPONENT_NAME" />
+		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
+	</Record>
+	<Record>
+		<Field column="ID">1671</Field>
+		<Field column="NOTE_DESC">LOEA14_Steel_Sentinel_Heroic</Field>
+		<Field column="PLAYERS">1</Field>
+		<Field column="PLAYER1_HERO_CARD_ID" />
+		<Field column="PLAYER2_HERO_CARD_ID">38707</Field>
+		<Field column="IS_TUTORIAL">False</Field>
+		<Field column="IS_EXPERT">True</Field>
+		<Field column="IS_COOP">False</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="WING_ID">14</Field>
+		<Field column="SORT_ORDER">11</Field>
+		<Field column="MODE_ID">3</Field>
+		<Field column="CLIENT_PLAYER2_HERO_CARD_ID">0</Field>
+		<Field column="NAME" loc_ID="21757">
+			<enUS>The Steel Sentinel Heroic</enUS>
+			<deDE>Der Stählerne Wächter (Heroisch)</deDE>
+			<esES>El centinela férreo heroico</esES>
+			<esMX>Centinela de acero heroico</esMX>
+			<frFR>La sentinelle d’acier (héroïque)</frFR>
+			<itIT>Sentinella d'Acciaio (Eroica)</itIT>
+			<jaJP>スティール・センチネル（ヒロイック）</jaJP>
+			<koKR>강철의 파수꾼 (영웅)</koKR>
+			<plPL>Heroiczny Stalowy Wartownik</plPL>
+			<ptBR>A Sentinela de Aço Heroica</ptBR>
+			<ruRU>Стальной часовой (героич.)</ruRU>
+			<zhCN>英雄难度钢铁卫士</zhCN>
+			<zhTW>英雄難度鋼鐵哨兵</zhTW>
+		</Field>
+		<Field column="SHORT_NAME" loc_ID="21758">
+			<enUS>The Steel Sentinel</enUS>
+			<deDE>Der Stählerne Wächter</deDE>
+			<esES>El centinela férreo</esES>
+			<esMX>Centinela de acero</esMX>
+			<frFR>La sentinelle d’acier</frFR>
+			<itIT>Sentinella d'Acciaio</itIT>
+			<jaJP>スティール・センチネル</jaJP>
+			<koKR>강철의 파수꾼</koKR>
+			<plPL>Stalowy Wartownik</plPL>
+			<ptBR>A Sentinela de Aço</ptBR>
+			<ruRU>Стальной часовой</ruRU>
+			<zhCN>钢铁卫士</zhCN>
+			<zhTW>鋼鐵哨兵</zhTW>
+		</Field>
+		<Field column="DESCRIPTION" loc_ID="21759">
+			<enUS>Heroic bosses are extremely difficult. They will require many attempts and multiple deck revisions to defeat.</enUS>
+			<deDE>Heroische Bosse sind sehr schwer. Ihr werdet viele Versuche unternehmen und Euer Deck mehrmals anpassen müssen, um sie besiegen zu können.</deDE>
+			<esES>Los jefes heroicos son muy difíciles. Para derrotarlos te harán falta muchos intentos y varias modificaciones de mazo.</esES>
+			<esMX>Los jefes en modo heroico son extremadamente difíciles. Tendrás que hacer muchos intentos y rearmar tu mazo varias veces para derrotarlos.</esMX>
+			<frFR>Les boss héroïques sont très puissants. Vous allez sans doute devoir vous y reprendre à plusieurs fois et adapter votre deck pour les vaincre.</frFR>
+			<itIT>I boss in versione Eroica sono estremamente impegnativi. Richiederanno più tentativi e numerose modifiche al mazzo.</itIT>
+			<jaJP>ヒロイックのボスはとんでもない強敵です。勝つためには、何度も何度もデッキを作り直して、立ち向かうことになると思いますよ。</jaJP>
+			<koKR>영웅 난이도의 우두머리들은 매우 어렵습니다. 끊임 없이 도전하고 덱을 수정해야 처치할 수 있습니다.</koKR>
+			<plPL>Heroiczni bossowie są wyjątkowo trudni. Aby ich pokonać, konieczne będzie wiele podejść i zmian w talii.</plPL>
+			<ptBR>Chefes Heroicos são muito difíceis. Você vai precisar tentar várias vezes e fazer muitas revisões de deck para derrotá-los.</ptBR>
+			<ruRU>Героические боссы чрезвычайно сильны. Вам может понадобиться множество попыток и тщательный подбор колоды, чтобы их победить.</ruRU>
+			<zhCN>英雄难度的首领们非常难缠。你需要不断尝试并调整套牌来击败他们。</zhCN>
+			<zhTW>英雄難度的首領非常困難。你可能會需要多次嘗試並調整套牌內容才能擊敗他們。</zhTW>
+		</Field>
+		<Field column="OPPONENT_NAME" />
+		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
+	</Record>
+	<Record>
+		<Field column="ID">1672</Field>
+		<Field column="NOTE_DESC">LOEA15_Rafaam_Heroic</Field>
+		<Field column="PLAYERS">1</Field>
+		<Field column="PLAYER1_HERO_CARD_ID" />
+		<Field column="PLAYER2_HERO_CARD_ID">38709</Field>
+		<Field column="IS_TUTORIAL">False</Field>
+		<Field column="IS_EXPERT">True</Field>
+		<Field column="IS_COOP">False</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="WING_ID">14</Field>
+		<Field column="SORT_ORDER">12</Field>
+		<Field column="MODE_ID">3</Field>
+		<Field column="CLIENT_PLAYER2_HERO_CARD_ID">0</Field>
+		<Field column="NAME" loc_ID="21763">
+			<enUS>Arch-Thief Rafaam Heroic</enUS>
+			<deDE>Meisterdieb Rafaam (Heroisch)</deDE>
+			<esES>Archiladrón Rafaam heroico</esES>
+			<esMX>Archiladrón Rafaam heroico</esMX>
+			<frFR>Prince voleur Rafaam (héroïque)</frFR>
+			<itIT>Arciladro Rafaam (Eroica)</itIT>
+			<jaJP>大怪盗ラファーム（ヒロイック）</jaJP>
+			<koKR>대도 라팜 (영웅)</koKR>
+			<plPL>Heroiczny Arcyzłodziej Rafaam</plPL>
+			<ptBR>Arquiladrão Rafaam Heroico</ptBR>
+			<ruRU>Великий вор Рафаам (героич.)</ruRU>
+			<zhCN>英雄难度虚灵窃贼拉法姆</zhCN>
+			<zhTW>英雄難度神鬼大盜拉法姆</zhTW>
+		</Field>
+		<Field column="SHORT_NAME" loc_ID="21764">
+			<enUS>Arch-Thief Rafaam</enUS>
+			<deDE>Meisterdieb Rafaam</deDE>
+			<esES>Archiladrón Rafaam</esES>
+			<esMX>Archiladrón Rafaam</esMX>
+			<frFR>Prince voleur Rafaam</frFR>
+			<itIT>Arciladro Rafaam</itIT>
+			<jaJP>大怪盗ラファーム</jaJP>
+			<koKR>대도 라팜</koKR>
+			<plPL>Arcyzłodziej Rafaam</plPL>
+			<ptBR>Arquiladrão Rafaam</ptBR>
+			<ruRU>Великий вор Рафаам</ruRU>
+			<zhCN>虚灵窃贼拉法姆</zhCN>
+			<zhTW>神鬼大盜拉法姆</zhTW>
+		</Field>
+		<Field column="DESCRIPTION" loc_ID="21765">
+			<enUS>Heroic bosses are extremely difficult. They will require many attempts and multiple deck revisions to defeat.</enUS>
+			<deDE>Heroische Bosse sind sehr schwer. Ihr werdet viele Versuche unternehmen und Euer Deck mehrmals anpassen müssen, um sie besiegen zu können.</deDE>
+			<esES>Los jefes heroicos son muy difíciles. Para derrotarlos te harán falta muchos intentos y varias modificaciones de mazo.</esES>
+			<esMX>Los jefes en modo heroico son extremadamente difíciles. Tendrás que hacer muchos intentos y rearmar tu mazo varias veces para derrotarlos.</esMX>
+			<frFR>Les boss héroïques sont très puissants. Vous allez sans doute devoir vous y reprendre à plusieurs fois et adapter votre deck pour les vaincre.</frFR>
+			<itIT>I boss in versione Eroica sono estremamente impegnativi. Richiederanno più tentativi e numerose modifiche al mazzo.</itIT>
+			<jaJP>ヒロイックのボスはとんでもない強敵です。勝つためには、何度も何度もデッキを作り直して、立ち向かうことになると思いますよ。</jaJP>
+			<koKR>영웅 난이도의 우두머리들은 매우 어렵습니다. 끊임 없이 도전하고 덱을 수정해야 처치할 수 있습니다.</koKR>
+			<plPL>Heroiczni bossowie są wyjątkowo trudni. Aby ich pokonać, konieczne będzie wiele podejść i zmian w talii.</plPL>
+			<ptBR>Chefes Heroicos são muito difíceis. Você vai precisar tentar várias vezes e fazer muitas revisões de deck para derrotá-los.</ptBR>
+			<ruRU>Героические боссы чрезвычайно сильны. Вам может понадобиться множество попыток и тщательный подбор колоды, чтобы их победить.</ruRU>
+			<zhCN>英雄难度的首领们非常难缠。你需要不断尝试并调整套牌来击败他们。</zhCN>
+			<zhTW>英雄難度的首領非常困難。你可能會需要多次嘗試並調整套牌內容才能擊敗他們。</zhTW>
+		</Field>
+		<Field column="OPPONENT_NAME" />
+		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
+	</Record>
+	<Record>
+		<Field column="ID">1673</Field>
+		<Field column="NOTE_DESC">LOEA16_Rafaam_Heroic</Field>
+		<Field column="PLAYERS">1</Field>
+		<Field column="PLAYER1_HERO_CARD_ID" />
+		<Field column="PLAYER2_HERO_CARD_ID">38711</Field>
+		<Field column="IS_TUTORIAL">False</Field>
+		<Field column="IS_EXPERT">True</Field>
+		<Field column="IS_COOP">False</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="WING_ID">14</Field>
+		<Field column="SORT_ORDER">13</Field>
+		<Field column="MODE_ID">3</Field>
+		<Field column="CLIENT_PLAYER2_HERO_CARD_ID">0</Field>
+		<Field column="NAME" loc_ID="21760">
+			<enUS>Rafaam Unleashed Heroic</enUS>
+			<deDE>Rafaam entfesselt (Heroisch)</deDE>
+			<esES>Rafaam desatado heroico</esES>
+			<esMX>Rafaam desatado heroico</esMX>
+			<frFR>Rafaam déchaîné (héroïque)</frFR>
+			<itIT>Rafaam Inarrestabile (Eroica)</itIT>
+			<jaJP>解き放たれしラファーム（ヒロイック）</jaJP>
+			<koKR>전지전능한 라팜 (영웅)</koKR>
+			<plPL>Heroiczny Wyzwolony Rafaam</plPL>
+			<ptBR>Rafaam Potencializado Heroico</ptBR>
+			<ruRU>Неукротимый Рафаам (героич.)</ruRU>
+			<zhCN>英雄难度拉法姆解封</zhCN>
+			<zhTW>英雄難度終極拉法姆</zhTW>
+		</Field>
+		<Field column="SHORT_NAME" loc_ID="21761">
+			<enUS>Rafaam Unleashed</enUS>
+			<deDE>Rafaam entfesselt</deDE>
+			<esES>Rafaam desatado</esES>
+			<esMX>Rafaam desatado</esMX>
+			<frFR>Rafaam déchaîné</frFR>
+			<itIT>Rafaam Inarrestabile</itIT>
+			<jaJP>解き放たれしラファーム</jaJP>
+			<koKR>전지전능한 라팜</koKR>
+			<plPL>Wyzwolony Rafaam</plPL>
+			<ptBR>Rafaam Potencializado</ptBR>
+			<ruRU>Неукротимый Рафаам</ruRU>
+			<zhCN>拉法姆解封</zhCN>
+			<zhTW>終極拉法姆</zhTW>
+		</Field>
+		<Field column="DESCRIPTION" loc_ID="21762">
+			<enUS>Heroic bosses are extremely difficult. They will require many attempts and multiple deck revisions to defeat.</enUS>
+			<deDE>Heroische Bosse sind sehr schwer. Ihr werdet viele Versuche unternehmen und Euer Deck mehrmals anpassen müssen, um sie besiegen zu können.</deDE>
+			<esES>Los jefes heroicos son muy difíciles. Para derrotarlos te harán falta muchos intentos y varias modificaciones de mazo.</esES>
+			<esMX>Los jefes en modo heroico son extremadamente difíciles. Tendrás que hacer muchos intentos y rearmar tu mazo varias veces para derrotarlos.</esMX>
+			<frFR>Les boss héroïques sont très puissants. Vous allez sans doute devoir vous y reprendre à plusieurs fois et adapter votre deck pour les vaincre.</frFR>
+			<itIT>I boss in versione Eroica sono estremamente impegnativi. Richiederanno più tentativi e numerose modifiche al mazzo.</itIT>
+			<jaJP>ヒロイックのボスはとんでもない強敵です。勝つためには、何度も何度もデッキを作り直して、立ち向かうことになると思いますよ。</jaJP>
+			<koKR>영웅 난이도의 우두머리들은 매우 어렵습니다. 끊임 없이 도전하고 덱을 수정해야 처치할 수 있습니다.</koKR>
+			<plPL>Heroiczni bossowie są wyjątkowo trudni. Aby ich pokonać, konieczne będzie wiele podejść i zmian w talii.</plPL>
+			<ptBR>Chefes Heroicos são muito difíceis. Você vai precisar tentar várias vezes e fazer muitas revisões de deck para derrotá-los.</ptBR>
+			<ruRU>Героические боссы чрезвычайно сильны. Вам может понадобиться множество попыток и тщательный подбор колоды, чтобы их победить.</ruRU>
+			<zhCN>英雄难度的首领们非常难缠。你需要不断尝试并调整套牌来击败他们。</zhCN>
+			<zhTW>英雄難度的首領非常困難。你可能會需要多次嘗試並調整套牌內容才能擊敗他們。</zhTW>
+		</Field>
+		<Field column="OPPONENT_NAME" />
+		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
+	</Record>
+	<Record>
+		<Field column="ID">1674</Field>
+		<Field column="NOTE_DESC">TB_PickYourFateBuildAround</Field>
+		<Field column="PLAYERS">2</Field>
+		<Field column="PLAYER1_HERO_CARD_ID" />
+		<Field column="PLAYER2_HERO_CARD_ID" />
+		<Field column="IS_TUTORIAL">False</Field>
+		<Field column="IS_EXPERT">True</Field>
+		<Field column="IS_COOP">False</Field>
+		<Field column="ADVENTURE_ID">7</Field>
+		<Field column="WING_ID" />
+		<Field column="SORT_ORDER" />
+		<Field column="MODE_ID">0</Field>
+		<Field column="CLIENT_PLAYER2_HERO_CARD_ID">0</Field>
+		<Field column="NAME" />
+		<Field column="SHORT_NAME" />
+		<Field column="DESCRIPTION" />
+		<Field column="OPPONENT_NAME" />
+		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
+	</Record>
+	<Record>
+		<Field column="ID">1675</Field>
+		<Field column="NOTE_DESC">TB_PickYourFateRandom1PTest</Field>
+		<Field column="PLAYERS">1</Field>
+		<Field column="PLAYER1_HERO_CARD_ID" />
+		<Field column="PLAYER2_HERO_CARD_ID">813</Field>
+		<Field column="IS_TUTORIAL">False</Field>
+		<Field column="IS_EXPERT">True</Field>
+		<Field column="IS_COOP">False</Field>
+		<Field column="ADVENTURE_ID">7</Field>
+		<Field column="WING_ID" />
+		<Field column="SORT_ORDER" />
+		<Field column="MODE_ID">0</Field>
+		<Field column="CLIENT_PLAYER2_HERO_CARD_ID">0</Field>
+		<Field column="NAME" />
+		<Field column="SHORT_NAME" />
+		<Field column="DESCRIPTION" />
+		<Field column="OPPONENT_NAME" />
+		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
+	</Record>
+	<Record>
+		<Field column="ID">1676</Field>
+		<Field column="NOTE_DESC">TB_PickYourFateRandom</Field>
+		<Field column="PLAYERS">2</Field>
+		<Field column="PLAYER1_HERO_CARD_ID" />
+		<Field column="PLAYER2_HERO_CARD_ID" />
+		<Field column="IS_TUTORIAL">False</Field>
+		<Field column="IS_EXPERT">True</Field>
+		<Field column="IS_COOP">False</Field>
+		<Field column="ADVENTURE_ID">7</Field>
+		<Field column="WING_ID" />
+		<Field column="SORT_ORDER" />
+		<Field column="MODE_ID">0</Field>
+		<Field column="CLIENT_PLAYER2_HERO_CARD_ID">0</Field>
+		<Field column="NAME" />
+		<Field column="SHORT_NAME" />
+		<Field column="DESCRIPTION" />
+		<Field column="OPPONENT_NAME" />
+		<Field column="COMPLETED_DESCRIPTION" />
+		<Field column="PLAYER1_DECK_ID" />
 	</Record>
 </Dbf>

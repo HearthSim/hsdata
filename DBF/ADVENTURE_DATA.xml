@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Dbf name="ADVENTURE_DATA">
-	<SourceFingerprint>Cc21To3Kc5LeE1IBMoEkeT7cqTM=</SourceFingerprint>
+	<SourceFingerprint>OZxVu8F/tPYHSvbFlPMbfJ7hzT0=</SourceFingerprint>
 	<Column name="ID" type="Int" />
 	<Column name="NOTE_DESC" type="String" />
 	<Column name="ADVENTURE_ID" type="Int" />
@@ -13,8 +13,7 @@
 	<Column name="REQUIREMENTS_DESCRIPTION" type="LocString" />
 	<Column name="COMPLETE_BANNER_TEXT" type="LocString" />
 	<Column name="SUBSCENE_PREFAB" type="AssetPath" />
-	<Column name="WATERMARK_TEXTURE" type="AssetPath" />
-	<Column name="CHOOSER_SUB_BUTTON_DEF" type="String" />
+	<Column name="ADVENTURE_SUB_DEF_PREFAB" type="AssetPath" />
 	<Record>
 		<Field column="ID">1</Field>
 		<Field column="NOTE_DESC">Practice Normal</Field>
@@ -84,8 +83,7 @@
 		<Field column="REQUIREMENTS_DESCRIPTION" />
 		<Field column="COMPLETE_BANNER_TEXT" />
 		<Field column="SUBSCENE_PREFAB">Assets/Game/UIScreens/AdventurePractice</Field>
-		<Field column="WATERMARK_TEXTURE" />
-		<Field column="CHOOSER_SUB_BUTTON_DEF">Assets/Game/GameObjects/AdventureChooserDefs/AdventureChooserSubDef_PracticeNormal</Field>
+		<Field column="ADVENTURE_SUB_DEF_PREFAB">Assets/Game/GameObjects/AdventureDefs/AdventureSubDef_PracticeNormal</Field>
 	</Record>
 	<Record>
 		<Field column="ID">2</Field>
@@ -170,8 +168,7 @@
 		</Field>
 		<Field column="COMPLETE_BANNER_TEXT" />
 		<Field column="SUBSCENE_PREFAB">Assets/Game/UIScreens/AdventurePractice</Field>
-		<Field column="WATERMARK_TEXTURE" />
-		<Field column="CHOOSER_SUB_BUTTON_DEF">Assets/Game/GameObjects/AdventureChooserDefs/AdventureChooserSubDef_PracticeExpert</Field>
+		<Field column="ADVENTURE_SUB_DEF_PREFAB">Assets/Game/GameObjects/AdventureDefs/AdventureSubDef_PracticeExpert</Field>
 	</Record>
 	<Record>
 		<Field column="ID">3</Field>
@@ -263,22 +260,21 @@
 			<itIT>Naxxramas conquistata!</itIT>
 			<jaJP>ナクスラーマスをクリア！</jaJP>
 			<koKR>낙스라마스 완료!</koKR>
-			<plPL>Naxxramas oczyszczony!</plPL>
+			<plPL>Naxxramas ukończony!</plPL>
 			<ptBR>Naxxramas terminada!</ptBR>
 			<ruRU>Наксрамас пройден!</ruRU>
-			<zhCN>征服纳克萨玛斯！</zhCN>
+			<zhCN>征服“纳克萨玛斯”！</zhCN>
 			<zhTW>納克薩瑪斯全破！</zhTW>
 		</Field>
 		<Field column="SUBSCENE_PREFAB">Assets/Game/UIScreens/AdventureMissionDisplay</Field>
-		<Field column="WATERMARK_TEXTURE">Assets/Game/Textures/Watermarks/NaxxIcon</Field>
-		<Field column="CHOOSER_SUB_BUTTON_DEF">Assets/Game/GameObjects/AdventureChooserDefs/AdventureChooserSubDef_NaxxramasNormal</Field>
+		<Field column="ADVENTURE_SUB_DEF_PREFAB">Assets/Game/GameObjects/AdventureDefs/AdventureSubDef_NaxxramasNormal</Field>
 	</Record>
 	<Record>
 		<Field column="ID">4</Field>
 		<Field column="NOTE_DESC">Naxx Heroic</Field>
 		<Field column="ADVENTURE_ID">3</Field>
 		<Field column="MODE_ID">3</Field>
-		<Field column="SORT_ORDER">2</Field>
+		<Field column="SORT_ORDER">3</Field>
 		<Field column="NAME" loc_ID="20831">
 			<enUS>Naxxramas (Heroic)</enUS>
 			<deDE>Naxxramas (Heroisch)</deDE>
@@ -363,29 +359,28 @@
 			<itIT>Naxxramas conquistata in Eroica!</itIT>
 			<jaJP>ナクスラーマス（ヒロイック）をクリア！</jaJP>
 			<koKR>영웅 난이도 낙스라마스 완료!</koKR>
-			<plPL>Heroiczny Naxxramas oczyszczony!</plPL>
+			<plPL>Heroiczny Naxxramas ukończony!</plPL>
 			<ptBR>Naxxramas Heroica terminada!</ptBR>
 			<ruRU>Героическая версия Наксрамаса пройдена!</ruRU>
-			<zhCN>征服英雄难度纳克萨玛斯！</zhCN>
+			<zhCN>征服英雄难度“纳克萨玛斯”！</zhCN>
 			<zhTW>英雄納克薩瑪斯全破！</zhTW>
 		</Field>
 		<Field column="SUBSCENE_PREFAB">Assets/Game/UIScreens/AdventureMissionDisplay</Field>
-		<Field column="WATERMARK_TEXTURE">Assets/Game/Textures/Watermarks/NaxxIcon</Field>
-		<Field column="CHOOSER_SUB_BUTTON_DEF">Assets/Game/GameObjects/AdventureChooserDefs/AdventureChooserSubDef_NaxxramasHeroic</Field>
+		<Field column="ADVENTURE_SUB_DEF_PREFAB">Assets/Game/GameObjects/AdventureDefs/AdventureSubDef_NaxxramasHeroic</Field>
 	</Record>
 	<Record>
 		<Field column="ID">5</Field>
 		<Field column="NOTE_DESC">Naxx Class Challenge</Field>
 		<Field column="ADVENTURE_ID">3</Field>
 		<Field column="MODE_ID">4</Field>
-		<Field column="SORT_ORDER">3</Field>
+		<Field column="SORT_ORDER">2</Field>
 		<Field column="NAME" loc_ID="20837">
 			<enUS>Class Challenge</enUS>
 			<deDE>Klassenherausforderung</deDE>
 			<esES>Desafío de clase</esES>
 			<esMX>Desafío de clase</esMX>
 			<frFR>Défi de classe</frFR>
-			<itIT>Sfida di Classe</itIT>
+			<itIT>Sfide di Classe</itIT>
 			<jaJP>クラスチャレンジ</jaJP>
 			<koKR>직업별 도전 과제</koKR>
 			<plPL>Wyzwania klasowe</plPL>
@@ -400,7 +395,7 @@
 			<esES>Desafío de clase</esES>
 			<esMX>Desafío de clase</esMX>
 			<frFR>Défi de classe</frFR>
-			<itIT>Sfida di Classe</itIT>
+			<itIT>Sfide di Classe</itIT>
 			<jaJP>クラスチャレンジ</jaJP>
 			<koKR>직업별 도전 과제</koKR>
 			<plPL>Wyzwania klasowe</plPL>
@@ -416,12 +411,12 @@
 			<esMX>Hay nueve jefes de Naxxramas que tienen un desafío de clase especial después de que los derrotas en modo normal. ¡Aplasta a cada uno de ellos y gana una carta!</esMX>
 			<frFR>Vous pouvez affronter neuf des boss de Naxxramas dans un défi de classe spécial après les avoir vaincus en mode normal. Écrasez-les tous et obtenez une carte !</frFR>
 			<itIT>Una volta sconfitti in versione Normale, nove dei boss di Naxxramas danno accesso a una Sfida di Classe: ogni vittoria ti fornirà una nuova carta!</itIT>
-			<jaJP>ノーマルモードで倒したナクスラーマスの9体のボスが、それぞれ特別なクラス・チャレンジを用意して待ち構えているぞ。全員叩きのめして特別カードを手に入れよう！</jaJP>
+			<jaJP>ノーマルモードで倒したナクスラーマスの9体のボスが、それぞれ特別なクラスチャレンジを用意して待ち構えているぞ。全員叩きのめして特別カードを手に入れよう！</jaJP>
 			<koKR>낙스라마스의 우두머리 9마리를 일반 난이도에서 물리치고 나면, 특별한 직업별 도전 과제를 받을 수 있습니다. 직업별 도전 과제를 완료하고 카드를 획득하세요!</koKR>
 			<plPL>Dziewięcioro bossów Naxxramas ma dla ciebie specjalne wyzwanie klasowe, kiedy pokonasz ich w trybie normalnym. Zmiażdż każdego, aby otrzymać nową kartę!</plPL>
 			<ptBR>Nove chefes de Naxxramas oferecem um desafio de classe especial depois de serem derrotados no modo normal. Vença cada um deles para ganhar um card!</ptBR>
 			<ruRU>Вы можете вновь сразиться с девятью боссами Наксрамаса, перед этим победив их в обычном режиме, чтобы пройти особые классовые испытания и получить в награду новые карты.</ruRU>
-			<zhCN>在你击败普通难度纳克萨玛斯中的九个特殊首领后，就能够对其发起职业挑战。逐一击败他们，每个首领都会奖励你新的职业卡牌！</zhCN>
+			<zhCN>在你击败普通难度“纳克萨玛斯”中的九个特殊首领后，就能够对其发起职业挑战。逐一击败他们，每个首领都会奖励你新的职业卡牌！</zhCN>
 			<zhTW>納克薩瑪斯中的九位首領被擊敗後會解鎖特殊的職業挑戰。完成每一個挑戰都能獲得一張卡片！</zhTW>
 		</Field>
 		<Field column="SHORT_DESCRIPTION" loc_ID="20840">
@@ -431,12 +426,12 @@
 			<esMX>Hay nueve jefes de Naxxramas que tienen un desafío de clase especial después de que los derrotas en modo normal.</esMX>
 			<frFR>Vous pouvez affronter neuf des boss de Naxxramas dans un défi de classe spécial après les avoir vaincus en mode normal.</frFR>
 			<itIT>Una volta sconfitti in versione Normale, nove dei boss di Naxxramas danno accesso a una Sfida di Classe.</itIT>
-			<jaJP>ノーマルモードで倒したナクスラーマスの9体のボスが、それぞれ特別なクラス・チャレンジを用意して待ち構えているぞ。</jaJP>
+			<jaJP>ノーマルモードで倒したナクスラーマスの9体のボスが、それぞれ特別なクラスチャレンジを用意して待ち構えているぞ。</jaJP>
 			<koKR>낙스라마스의 우두머리 9마리를 일반 난이도에서 물리치고 나면, 특별한 직업별 도전 과제를 받을 수 있습니다.</koKR>
 			<plPL>Dziewięcioro bossów Naxxramas ma dla ciebie specjalne wyzwanie klasowe, kiedy pokonasz ich w trybie normalnym.</plPL>
 			<ptBR>Nove chefes de Naxxramas oferecem um desafio de classe especial depois de serem derrotados no modo normal.</ptBR>
 			<ruRU>Девять боссов Наксрамаса приготовили специальные классовые испытания для тех, кто одолеет их в обычном режиме.</ruRU>
-			<zhCN>当你在普通难度下击败纳克萨玛斯中的九个首领之后，就能够解锁其对应的特殊职业挑战。</zhCN>
+			<zhCN>当你在普通难度下击败“纳克萨玛斯”中的九个首领之后，就能够解锁其对应的特殊职业挑战。</zhCN>
 			<zhTW>納克薩瑪斯的九位首領被擊敗後會解鎖特殊的職業挑戰。</zhTW>
 		</Field>
 		<Field column="REQUIREMENTS_DESCRIPTION" loc_ID="20841">
@@ -456,8 +451,7 @@
 		</Field>
 		<Field column="COMPLETE_BANNER_TEXT" />
 		<Field column="SUBSCENE_PREFAB">Assets/Game/UIScreens/AdventureClassChallenge</Field>
-		<Field column="WATERMARK_TEXTURE" />
-		<Field column="CHOOSER_SUB_BUTTON_DEF">Assets/Game/GameObjects/AdventureChooserDefs/AdventureChooserSubDef_NaxxramasClassChallenge</Field>
+		<Field column="ADVENTURE_SUB_DEF_PREFAB">Assets/Game/GameObjects/AdventureDefs/AdventureSubDef_NaxxramasClassChallenge</Field>
 	</Record>
 	<Record>
 		<Field column="ID">6</Field>
@@ -549,22 +543,21 @@
 			<itIT>Massiccio Roccianera conquistato!</itIT>
 			<jaJP>ブラックロック・マウンテンをクリア！</jaJP>
 			<koKR>검은바위 산 완료!</koKR>
-			<plPL>Czarna Góra oczyszczona!</plPL>
+			<plPL>Czarna Góra ukończona!</plPL>
 			<ptBR>Montanha Rocha Negra terminada!</ptBR>
 			<ruRU>Черная гора пройдена!</ruRU>
-			<zhCN>征服黑石山！</zhCN>
+			<zhCN>征服“黑石山”！</zhCN>
 			<zhTW>黑石山全破！</zhTW>
 		</Field>
 		<Field column="SUBSCENE_PREFAB">Assets/Game/UIScreens/AdventureMissionDisplay</Field>
-		<Field column="WATERMARK_TEXTURE">Assets/Game/Textures/Watermarks/BRMIcon</Field>
-		<Field column="CHOOSER_SUB_BUTTON_DEF">Assets/Game/GameObjects/AdventureChooserDefs/AdventureChooserSubDef_BRMNormal</Field>
+		<Field column="ADVENTURE_SUB_DEF_PREFAB">Assets/Game/GameObjects/AdventureDefs/AdventureSubDef_BRMNormal</Field>
 	</Record>
 	<Record>
 		<Field column="ID">7</Field>
 		<Field column="NOTE_DESC">BRM Heroic</Field>
 		<Field column="ADVENTURE_ID">4</Field>
 		<Field column="MODE_ID">3</Field>
-		<Field column="SORT_ORDER">2</Field>
+		<Field column="SORT_ORDER">3</Field>
 		<Field column="NAME" loc_ID="20848">
 			<enUS>Blackrock Mountain (Heroic)</enUS>
 			<deDE>Der Schwarzfels (Heroisch)</deDE>
@@ -607,7 +600,7 @@
 			<plPL>Mieszkańcy Czarnej Góry powracają, ale tym razem naprawdę zakasali rękawy! Misje heroiczne są BARDZO trudne i nie nadają się dla osób o słabych nerwach!</plPL>
 			<ptBR>Os habitantes da Montanha Rocha Negra estão de volta, mas desta vez é para jogar em alto nível. As Missões Heroicas são MUITO difíceis! Só para os fortes!</ptBR>
 			<ruRU>Обитатели Черной горы снова с нами, и на этот раз они настроены серьезно. Героический режим — КРАЙНЕ сложное испытание, которое по силам пройти только самым отважным искателям приключений!</ruRU>
-			<zhCN>黑石山的首领们卷土重来，这一次他们将使出全身解数。英雄模式的战斗将非常艰难，谢绝心脏病患者进入！</zhCN>
+			<zhCN>“黑石山”的首领们卷土重来，这一次他们将使出全身解数。英雄模式的战斗将非常艰难，谢绝心脏病患者进入！</zhCN>
 			<zhTW>黑石山的妖魔鬼怪又回來了，準備使出更厲害的看家本領。英雄模式非常困難，不是意志薄弱的人能忍受的！</zhTW>
 		</Field>
 		<Field column="SHORT_DESCRIPTION" loc_ID="20851">
@@ -649,29 +642,28 @@
 			<itIT>Massiccio Roccianera conquistato in Eroica!</itIT>
 			<jaJP>ブラックロック・マウンテン（ヒロイック）をクリア！</jaJP>
 			<koKR>영웅 난이도 검은바위 산 완료!</koKR>
-			<plPL>Heroiczna Czarna Góra oczyszczona!</plPL>
+			<plPL>Heroiczna Czarna Góra ukończona!</plPL>
 			<ptBR>Montanha Rocha Negra Heroica terminada!</ptBR>
 			<ruRU>Героическая версия Черной горы пройдена!</ruRU>
-			<zhCN>征服英雄难度黑石山！</zhCN>
+			<zhCN>征服英雄难度“黑石山”！</zhCN>
 			<zhTW>英雄黑石山全破！</zhTW>
 		</Field>
 		<Field column="SUBSCENE_PREFAB">Assets/Game/UIScreens/AdventureMissionDisplay</Field>
-		<Field column="WATERMARK_TEXTURE">Assets/Game/Textures/Watermarks/BRMIcon</Field>
-		<Field column="CHOOSER_SUB_BUTTON_DEF">Assets/Game/GameObjects/AdventureChooserDefs/AdventureChooserSubDef_BRMHeroic</Field>
+		<Field column="ADVENTURE_SUB_DEF_PREFAB">Assets/Game/GameObjects/AdventureDefs/AdventureSubDef_BRMHeroic</Field>
 	</Record>
 	<Record>
 		<Field column="ID">8</Field>
 		<Field column="NOTE_DESC">BRM Class Challenge</Field>
 		<Field column="ADVENTURE_ID">4</Field>
 		<Field column="MODE_ID">4</Field>
-		<Field column="SORT_ORDER">3</Field>
+		<Field column="SORT_ORDER">2</Field>
 		<Field column="NAME" loc_ID="20854">
 			<enUS>Class Challenge</enUS>
 			<deDE>Klassenherausforderung</deDE>
 			<esES>Desafío de clase</esES>
 			<esMX>Desafío de clase</esMX>
 			<frFR>Défi de classe</frFR>
-			<itIT>Sfida di Classe</itIT>
+			<itIT>Sfide di Classe</itIT>
 			<jaJP>クラスチャレンジ</jaJP>
 			<koKR>직업별 도전 과제</koKR>
 			<plPL>Wyzwania klasowe</plPL>
@@ -686,7 +678,7 @@
 			<esES>Desafío de clase</esES>
 			<esMX>Desafío de clase</esMX>
 			<frFR>Défi de classe</frFR>
-			<itIT>Sfida di Classe</itIT>
+			<itIT>Sfide di Classe</itIT>
 			<jaJP>クラスチャレンジ</jaJP>
 			<koKR>직업별 도전 과제</koKR>
 			<plPL>Wyzwania klasowe</plPL>
@@ -702,12 +694,12 @@
 			<esMX>Hay nueve jefes de Montaña Roca Negra que tienen un desafío de clase especial después de que los derrotas en modo normal. ¡Cada uno que aplastes te dará una carta!</esMX>
 			<frFR>Vous pouvez affronter neuf des boss du mont Rochenoire dans un défi de classe spécial après les avoir vaincus en mode normal. Écrasez-les tous et obtenez une carte !</frFR>
 			<itIT>Una volta sconfitti in versione Normale, nove dei boss del Massiccio Roccianera danno accesso a una Sfida di Classe: ogni vittoria ti fornirà una nuova carta!</itIT>
-			<jaJP>ノーマルモードで倒したブラックロック・マウンテンの9体のボスが、それぞれ特別なクラス・チャレンジを用意して待ち構えているぞ。全員叩きのめしてカードを手に入れよう！</jaJP>
+			<jaJP>ノーマルモードで倒したブラックロック・マウンテンの9体のボスが、それぞれ特別なクラスチャレンジを用意して待ち構えているぞ。全員叩きのめしてカードを手に入れよう！</jaJP>
 			<koKR>검은바위 산의 우두머리 9마리를 일반 난이도에서 물리치고 나면, 특별한 직업별 도전 과제를 받을 수 있습니다. 직업별 도전 과제를 완료하고 카드를 획득하세요!</koKR>
 			<plPL>Dziewięciu bossów Czarnej Góry ma dla ciebie specjalne wyzwanie klasowe, kiedy pokonasz ich w trybie normalnym. Zmiażdż każdego, aby otrzymać nową kartę!</plPL>
 			<ptBR>Nove chefes da Montanha Rocha Negra oferecem um desafio de classe especial depois de serem derrotados no modo normal. Vença cada um deles para ganhar um card!</ptBR>
 			<ruRU>Вы можете вновь сразиться с девятью боссами Черной горы, перед этим победив их в обычном режиме, чтобы пройти особые классовые испытания и получить в награду новые карты.</ruRU>
-			<zhCN>在你击败普通难度黑石山中的九个特殊首领后，就能够对其发起职业挑战。逐一击败他们，每个首领都会奖励你新的卡牌！</zhCN>
+			<zhCN>在你击败普通难度“黑石山”中的九个特殊首领后，就能够对其发起职业挑战。逐一击败他们，每个首领都会奖励你新的卡牌！</zhCN>
 			<zhTW>黑石山中的九位首領被擊敗後會解鎖特殊的職業挑戰。完成每一個挑戰都能獲得一張卡片！</zhTW>
 		</Field>
 		<Field column="SHORT_DESCRIPTION" loc_ID="20857">
@@ -717,12 +709,12 @@
 			<esMX>Hay nueve jefes de Montaña Roca Negra que tienen un desafío de clase especial después de que los derrotas en modo normal.</esMX>
 			<frFR>Vous pouvez affronter neuf des boss du mont Rochenoire dans un défi de classe spécial après les avoir vaincus en mode normal.</frFR>
 			<itIT>Una volta sconfitti in versione Normale, nove dei boss del Massiccio Roccianera danno accesso a una Sfida di Classe.</itIT>
-			<jaJP>ノーマルモードで倒したブラックロック・マウンテンの9体のボスが、それぞれ特別なクラス・チャレンジを用意して待ち構えているぞ。</jaJP>
+			<jaJP>ノーマルモードで倒したブラックロック・マウンテンの9体のボスが、それぞれ特別なクラスチャレンジを用意して待ち構えているぞ。</jaJP>
 			<koKR>검은바위 산의 우두머리 9마리를 일반 난이도에서 물리치고 나면, 특별한 직업별 도전 과제를 받을 수 있습니다.</koKR>
 			<plPL>Dziewięciu bossów Czarnej Góry ma dla ciebie specjalne wyzwanie klasowe, kiedy pokonasz ich w trybie normalnym.</plPL>
 			<ptBR>Nove chefes da Montanha Rocha Negra oferecem um desafio de classe especial depois de serem derrotados no modo normal.</ptBR>
 			<ruRU>Девять боссов Черной Горы приготовили специальные классовые испытания для тех, кто одолеет их в обычном режиме.</ruRU>
-			<zhCN>当你在普通难度下击败黑石山中的九个首领之后，就能够解锁其对应的特殊职业挑战。</zhCN>
+			<zhCN>当你在普通难度下击败“黑石山”中的九个首领之后，就能够解锁其对应的特殊职业挑战。</zhCN>
 			<zhTW>擊敗黑石山的九位首領後會解鎖特殊的職業挑戰。</zhTW>
 		</Field>
 		<Field column="REQUIREMENTS_DESCRIPTION" loc_ID="20858">
@@ -742,7 +734,289 @@
 		</Field>
 		<Field column="COMPLETE_BANNER_TEXT" />
 		<Field column="SUBSCENE_PREFAB">Assets/Game/UIScreens/AdventureClassChallenge</Field>
-		<Field column="WATERMARK_TEXTURE" />
-		<Field column="CHOOSER_SUB_BUTTON_DEF">Assets/Game/GameObjects/AdventureChooserDefs/AdventureChooserSubDef_BRMClassChallenge</Field>
+		<Field column="ADVENTURE_SUB_DEF_PREFAB">Assets/Game/GameObjects/AdventureDefs/AdventureSubDef_BRMClassChallenge</Field>
+	</Record>
+	<Record>
+		<Field column="ID">9</Field>
+		<Field column="NOTE_DESC">LOE Normal</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="MODE_ID">1</Field>
+		<Field column="SORT_ORDER">1</Field>
+		<Field column="NAME" loc_ID="20859">
+			<enUS>League of Explorers</enUS>
+			<deDE>Die Forscherliga</deDE>
+			<esES>Liga de Expedicionarios</esES>
+			<esMX>Liga de Expedicionarios</esMX>
+			<frFR>Ligue des explorateurs</frFR>
+			<itIT>Lega degli Esploratori</itIT>
+			<jaJP>リーグ・オブ・エクスプローラー</jaJP>
+			<koKR>탐험가 연맹</koKR>
+			<plPL>Liga Odkrywców</plPL>
+			<ptBR>Liga dos Exploradores</ptBR>
+			<ruRU>Лига исследователей</ruRU>
+			<zhCN>探险者协会</zhCN>
+			<zhTW>探險者協會</zhTW>
+		</Field>
+		<Field column="SHORT_NAME" loc_ID="20860">
+			<enUS>Normal</enUS>
+			<deDE>Normal</deDE>
+			<esES>Normal</esES>
+			<esMX>Normal</esMX>
+			<frFR>Normal</frFR>
+			<itIT>Normale</itIT>
+			<jaJP>ノーマル</jaJP>
+			<koKR>일반</koKR>
+			<plPL>Normalny</plPL>
+			<ptBR>Normal</ptBR>
+			<ruRU>Обычный</ruRU>
+			<zhCN>普通难度</zhCN>
+			<zhTW>普通難度</zhTW>
+		</Field>
+		<Field column="DESCRIPTION" loc_ID="20861">
+			<enUS>Scattered across ancient sites of Azeroth are the pieces of a powerful Titan artifact: the Staff of Origination. Join the League of Explorers to acquire it for the museum, and earn 45 cards unique to this adventure!</enUS>
+			<deDE>Die Bruchstücke eines mächtigen Titanenartefakts, des Stabs des Ursprungs, liegen in ganz Azeroth verstreut. Schließt Euch der Forscherliga an, beschafft den Stab für das Museum und erringt 45 exklusive Karten!</deDE>
+			<esES>Dispersas por los antiguos parajes de Azeroth se hallan las piezas de un poderoso artefacto titán: el Bastón de los Orígenes. Únete a la Liga de Expedicionarios para hacerte con él y llevarlo al museo, ¡y conseguirás 45 cartas exclusivas de esta aventura!</esES>
+			<esMX>Diseminadas por todos los rincones ancestrales de Azeroth se encuentran las piezas de un poderoso artefacto titánico: el báculo de los orígenes. ¡Únete a la Liga de Expedicionarios para recuperarlo y llevarlo al museo, y consigue las 45 cartas únicas de esta aventura!</esMX>
+			<frFR>Disséminés sur des sites antiques d’Azeroth se trouvent les morceaux d’un puissant artéfact des titans : le bâton de l’Origine. Rejoignez la Ligue des explorateurs pour le récupérer au nom du musée, et obtenez 45 cartes uniques, propres à cette aventure !</frFR>
+			<itIT>I pezzi di un potente manufatto dei Titani, noto come il Bastone della Creazione, sono dispersi per tutta Azeroth. Unisciti alla Lega degli Esploratori e recuperali per il museo, ottenendo le 45 carte uniche di questa avventura!</itIT>
+			<jaJP>アゼロス中に点在する古代の遺跡には、タイタンの強力な秘宝「起源の杖」の部品がバラバラになって眠っているそうだ。探検同盟と協力してこの秘宝を博物館に収めるとともに、この冒険でだけ手に入る45枚のカードを集めよう！</jaJP>
+			<koKR>아제로스의 고대 유적에는 강력한 티탄 유물인 시초의 지팡이의 조각들이 흩어져 있습니다. 탐험가 연맹에 가입하여 박물관에 시초의 지팡이를 전시하고 45장의 새로운 카드를 획득하세요!</koKR>
+			<plPL>Pośród różnych prastarych miejsc w całym Azeroth rozsiane są fragmenty potężnego artefaktu Tytanów: Kostura Stworzenia. Dołącz do Ligi Odkrywców, aby umieścić je w muzeum i zdobyć 45 kart dostępnych jedynie w tej przygodzie!</plPL>
+			<ptBR>Espalhadas por locais antigos de Azeroth, encontram-se peças de um poderoso artefato titânico: o Cajado Primordial. Junte-se à Liga dos Exploradores, traga-o ao museu e conquiste 45 cards exclusivos desta aventura!</ptBR>
+			<ruRU>В самых загадочных местах Азерота спрятаны фрагменты могущественного артефакта титанов: Посоха Созидания. Вступите в Лигу исследователей, чтобы добыть это сокровище для коллекции музея, и получите в награду 45 уникальных карт!</ruRU>
+			<zhCN>传说上古泰坦有一件威力强大的神器——源生法杖，散落在艾泽拉斯的古老遗迹中。快来加入探险者协会，为博物馆取回这一极具历史价值的文物吧，还能赢取45张全新卡牌哟！</zhCN>
+			<zhTW>起源法杖是強大的泰坦神器，但它的組件散落在艾澤拉斯各處的遺跡中。協助探險者協會，將這個重要文物帶回博物館！在冒險旅途中，你還能獲得45張獨特的卡牌！</zhTW>
+		</Field>
+		<Field column="SHORT_DESCRIPTION" loc_ID="20862">
+			<enUS>Help the League of Explorers acquire the Staff of Origination and earn 45 cards unique to this adventure!</enUS>
+			<deDE>Helft der Forscherliga, den Stab des Ursprungs zu beschaffen, und erlangt 45 exklusive Karten!</deDE>
+			<esES>¡Ayuda a la Liga de Expedicionarios a obtener el Bastón de los Orígenes y consigue 45 cartas exclusivas de esta aventura!</esES>
+			<esMX>¡Ayuda a la Liga de Expedicionarios a conseguir el báculo de los orígenes y consigue 45 cartas únicas de esta aventura!</esMX>
+			<frFR>Aidez la Ligue des explorateurs à récupérer le bâon de l’Origine et obtenez 45 cartes uniques, propres à cette aventure !</frFR>
+			<itIT>Aiuta la Lega degli Esploratori a recuperare il Bastone della Creazione e ottieni le 45 carte uniche di questa avventura!</itIT>
+			<jaJP>探検同盟と協力して「起源の杖」を保護するとともに、この冒険でだけ手に入る45枚のカードを集めよう！</jaJP>
+			<koKR>탐험가 연맹을 도와 시초의 지팡이를 복원하고 45장의 새로운 카드를 획득하세요!</koKR>
+			<plPL>Pomóż Lidze Odkrywców odnaleźć Kostur Stworzenia i zdobyć 45 kart dostępnych jedynie w tej przygodzie!</plPL>
+			<ptBR>Ajude a Liga dos Exploradores a obter o Cajado Primordial e conquiste 45 cards exclusivos desta aventura!</ptBR>
+			<ruRU>Помогите членам Лиги исследователей найти Посох Созидания и получите в награду 45 уникальных карт для своей коллекции!</ruRU>
+			<zhCN>帮助探险者协会取回源生法杖，并赢取45张全新卡牌！</zhCN>
+			<zhTW>協助探險者協會取得起源法杖，而且你還能在冒險中獲得45張獨特的卡牌！</zhTW>
+		</Field>
+		<Field column="REQUIREMENTS_DESCRIPTION" loc_ID="20863">
+			<enUS>Requires unlocking every class</enUS>
+			<deDE>Erfordert das Freischalten aller Klassen.</deDE>
+			<esES>Requiere desbloquear todas las clases</esES>
+			<esMX>Requiere desbloquear todas las clases</esMX>
+			<frFR>Chaque classe doit être débloquée</frFR>
+			<itIT>Devi aver sbloccato tutte le classi.</itIT>
+			<jaJP>条件: 全クラスが使用可能であること</jaJP>
+			<koKR>모든 영웅을 잠금 해제해야 합니다!</koKR>
+			<plPL>Wymaga odblokowania każdej klasy</plPL>
+			<ptBR>É necessário desbloquear todas as classes</ptBR>
+			<ruRU>Требуется открыть доступ ко всем классам.</ruRU>
+			<zhCN>需要解锁所有职业</zhCN>
+			<zhTW>需要先解鎖全部職業</zhTW>
+		</Field>
+		<Field column="COMPLETE_BANNER_TEXT" loc_ID="20864">
+			<enUS>Another Glorious Adventure Completed!</enUS>
+			<deDE>Ihr habt Euch erneut in einem glorreichen Abenteuer bewährt!</deDE>
+			<esES>¡Otra gloriosa aventura superada!</esES>
+			<esMX>¡Otra gloriosa aventura despejada!</esMX>
+			<frFR>Encore une glorieuse aventure terminée !</frFR>
+			<itIT>Un'altra gloriosa avventura completata!</itIT>
+			<jaJP>またひとつ輝かしい探検を完遂した！</jaJP>
+			<koKR>영웅 난이도 모험 완료!</koKR>
+			<plPL>Kolejna wspaniała przygoda ukończona!</plPL>
+			<ptBR>Mais uma gloriosa Aventura completa!</ptBR>
+			<ruRU>Вы завершили еще одно славное приключение!</ruRU>
+			<zhCN>完成了又一个波澜壮阔的冒险模式！</zhCN>
+			<zhTW>又全破了一個精彩的冒險！</zhTW>
+		</Field>
+		<Field column="SUBSCENE_PREFAB">Assets/Game/UIScreens/AdventureMissionDisplay</Field>
+		<Field column="ADVENTURE_SUB_DEF_PREFAB">Assets/Game/GameObjects/AdventureDefs/AdventureSubDef_LOENormal</Field>
+	</Record>
+	<Record>
+		<Field column="ID">10</Field>
+		<Field column="NOTE_DESC">LOE Heroic</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="MODE_ID">3</Field>
+		<Field column="SORT_ORDER">3</Field>
+		<Field column="NAME" loc_ID="21794">
+			<enUS>League of Explorers (Heroic)</enUS>
+			<deDE>Die Forscherliga (Heroisch)</deDE>
+			<esES>Liga de Expedicionarios (heroica)</esES>
+			<esMX>Liga de Expedicionarios (Heroico)</esMX>
+			<frFR>Ligue des explorateurs (héroïque)</frFR>
+			<itIT>Lega degli Esploratori (Eroica)</itIT>
+			<jaJP>リーグ・オブ・エクスプローラー（ヒロイック）</jaJP>
+			<koKR>탐험가 연맹 (영웅 난이도)</koKR>
+			<plPL>Liga Odkrywców (Heroiczny)</plPL>
+			<ptBR>Liga dos Exploradores (Heroica)</ptBR>
+			<ruRU>Лига исследователей (героич.)</ruRU>
+			<zhCN>探险者协会（英雄难度）</zhCN>
+			<zhTW>探險者協會(英雄難度)</zhTW>
+		</Field>
+		<Field column="SHORT_NAME" loc_ID="21795">
+			<enUS>Heroic</enUS>
+			<deDE>Heroisch</deDE>
+			<esES>Heroico</esES>
+			<esMX>Heroico</esMX>
+			<frFR>Héroïque</frFR>
+			<itIT>Eroica</itIT>
+			<jaJP>ヒロイック</jaJP>
+			<koKR>영웅</koKR>
+			<plPL>Heroiczny</plPL>
+			<ptBR>Heroico</ptBR>
+			<ruRU>Героический</ruRU>
+			<zhCN>英雄难度</zhCN>
+			<zhTW>英雄難度</zhTW>
+		</Field>
+		<Field column="DESCRIPTION" loc_ID="21796">
+			<enUS>The bosses of League of Explorers are back, but this time they're bringing their A-game. Heroic missions are VERY difficult! Not for the faint of heart.</enUS>
+			<deDE>Die Forscherliga-Bosse sind wieder da, aber diesmal machen sie keine halben Sachen. Der heroische Modus ist SEHR schwer und nichts für zarte Gemüter!</deDE>
+			<esES>Los jefes de la Liga de Expedicionarios han regresado, pero esta vez se lo van a tomar en serio. ¡Las misiones heroicas son MUY difíciles! No aptas para cardíacos.</esES>
+			<esMX>Los jefes de la Liga de Expedicionarios están de regreso, pero esta vez no tendrán piedad. Las misiones heroicas son MUY difíciles. Débiles, ¡abstenerse!</esMX>
+			<frFR>Les boss de la Ligue des explorateurs sont de retour, et cette fois-ci, ils sortent le grand jeu. Les missions héroïques sont TRÈS éprouvantes pour les nerfs et déconseillées aux âmes sensibles.</frFR>
+			<itIT>Gli avversari della Lega degli Esploratori sono tornati, e questa volta fanno sul serio! La versione Eroica è MOLTO difficile e non è adatta per i deboli di cuore!</itIT>
+			<jaJP>「リーグ・オブ・エクスプローラー」に登場したボス達が再び現れた！復讐に燃える彼らの危険さは想像を絶する。ヒロイック級は超難関だ、自信がないなら近付かないこと！</jaJP>
+			<koKR>탐험가 연맹 모험의 우두머리들이 더욱 강해진 모습으로 돌아왔습니다. 영웅 난이도의 우두머리들은 매우 잔혹합니다. 심장이 약한 분들은 주의하세요!</koKR>
+			<plPL>Bossowie z Ligi Odkrywców powracają, ale tym razem naprawdę zakasali rękawy! Misje heroiczne są BARDZO trudne i nie nadają się dla osób o słabych nerwach!</plPL>
+			<ptBR>Os chefes da Liga dos Exploradores estão de volta, mas desta vez é para jogar em alto nível. As Missões Heroicas são MUITO difíceis! Só para os fortes!</ptBR>
+			<ruRU>Боссы Лиги исследователей вернулись, и на этот раз они настроены серьезно. Героический режим — КРАЙНЕ сложное испытание, которое по силам пройти только самым отважным искателям приключений!</ruRU>
+			<zhCN>“探险者协会”的首领们卷土重来，这一次他们将使出全身解数。英雄模式的战斗将非常艰难，谢绝心脏病患者进入！</zhCN>
+			<zhTW>探險者協會中的重重挑戰再次降臨，讓你體驗更加驚險的冒險旅程。英雄模式非常困難，不是意志薄弱的人能忍受的！</zhTW>
+		</Field>
+		<Field column="SHORT_DESCRIPTION" loc_ID="21797">
+			<enUS>Heroic is VERY difficult and is not for the faint of heart!</enUS>
+			<deDE>Der heroische Modus ist SEHR schwer und nichts für zarte Gemüter!</deDE>
+			<esES>¡La versión heroica es MUY difícil y no apta para cardíacos!</esES>
+			<esMX>¡El modo Heroico es MUY difícil y no es para corazones débiles!</esMX>
+			<frFR>Le mode héroïque est TRÈS éprouvant pour les nerfs et déconseillé aux âmes sensibles !</frFR>
+			<itIT>La versione Eroica è MOLTO difficile e non è adatta per i deboli di cuore!</itIT>
+			<jaJP>ヒロイック級は超難関だ、自信がないなら近付かないこと！</jaJP>
+			<koKR>영웅 난이도는 매우 어렵습니다. 마음이 약한 분께는 권하지 않습니다!</koKR>
+			<plPL>Tryb heroiczny jest BARDZO trudny i nie nadaje się dla osób o słabych nerwach!</plPL>
+			<ptBR>O modo Heroico é MUITO difícil e não é para qualquer um!</ptBR>
+			<ruRU>Героический режим ОЧЕНЬ сложный. Играйте на свой страх и риск.</ruRU>
+			<zhCN>英雄难度相当困难，不适合胆小者进入！</zhCN>
+			<zhTW>英雄模式非常困難，不是意志薄弱的人能忍受的！</zhTW>
+		</Field>
+		<Field column="REQUIREMENTS_DESCRIPTION" loc_ID="21798">
+			<enUS>Unlock by completing a wing in Normal mode.</enUS>
+			<deDE>Erfordert den Abschluss eines Flügels im normalen Modus.</deDE>
+			<esES>Se desbloquea al completar un ala en modo normal.</esES>
+			<esMX>Para desbloquearlo, completa un ala en modo normal.</esMX>
+			<frFR>Débloquée en terminant une aile en mode normal.</frFR>
+			<itIT>Devi aver sbloccato un'ala in versione Normale.</itIT>
+			<jaJP>条件: ノーマルモードで区画をクリア</jaJP>
+			<koKR>일반 난이도의 해당 지구를 완료하면 잠금 해제됩니다!</koKR>
+			<plPL>Odblokuj przechodząc skrzydło w trybie normalnym</plPL>
+			<ptBR>Desbloqueado ao completar uma ala no modo normal.</ptBR>
+			<ruRU>Требуется пройти крыло в обычном режиме.</ruRU>
+			<zhCN>击败普通难度下任意一区的所有首领后解锁。</zhCN>
+			<zhTW>在普通模式完成一個區域後解鎖</zhTW>
+		</Field>
+		<Field column="COMPLETE_BANNER_TEXT" loc_ID="21799">
+			<enUS>Another Heroic Adventure Completed!</enUS>
+			<deDE>Ihr habt Euch erneut in einem heroischen Abenteuer bewährt!</deDE>
+			<esES>¡Otra aventura heroica superada!</esES>
+			<esMX>¡Otra aventura heroica despejada!</esMX>
+			<frFR>Encore une aventure héroïque terminée !</frFR>
+			<itIT>Un'altra eroica avventura completata!</itIT>
+			<jaJP>またひとつ輝かしい探検（ヒロイック）を完遂した！</jaJP>
+			<koKR>영웅 난이도 모험 완료!</koKR>
+			<plPL>Kolejna heroiczna przygoda ukończona!</plPL>
+			<ptBR>Mais uma Aventura Heroica completa!</ptBR>
+			<ruRU>Вы завершили еще одно героическое приключение!</ruRU>
+			<zhCN>完成了又一个英雄难度的冒险模式！</zhCN>
+			<zhTW>又全破了一個英雄難度的冒險！</zhTW>
+		</Field>
+		<Field column="SUBSCENE_PREFAB">Assets/Game/UIScreens/AdventureMissionDisplay</Field>
+		<Field column="ADVENTURE_SUB_DEF_PREFAB">Assets/Game/GameObjects/AdventureDefs/AdventureSubDef_LOEHeroic</Field>
+	</Record>
+	<Record>
+		<Field column="ID">11</Field>
+		<Field column="NOTE_DESC">LOE Class Challenge</Field>
+		<Field column="ADVENTURE_ID">8</Field>
+		<Field column="MODE_ID">4</Field>
+		<Field column="SORT_ORDER">2</Field>
+		<Field column="NAME" loc_ID="21800">
+			<enUS>Class Challenge</enUS>
+			<deDE>Klassenherausforderung</deDE>
+			<esES>Desafío de clase</esES>
+			<esMX>Desafío de clase</esMX>
+			<frFR>Défi de classe</frFR>
+			<itIT>Sfide di Classe</itIT>
+			<jaJP>クラスチャレンジ</jaJP>
+			<koKR>직업별 도전 과제</koKR>
+			<plPL>Wyzwania klasowe</plPL>
+			<ptBR>Desafio de Classe</ptBR>
+			<ruRU>Испытания</ruRU>
+			<zhCN>职业挑战</zhCN>
+			<zhTW>職業挑戰</zhTW>
+		</Field>
+		<Field column="SHORT_NAME" loc_ID="21801">
+			<enUS>Class Challenge</enUS>
+			<deDE>Herausforderung</deDE>
+			<esES>Desafío de clase</esES>
+			<esMX>Desafío de clase</esMX>
+			<frFR>Défi de classe</frFR>
+			<itIT>Sfide di Classe</itIT>
+			<jaJP>クラスチャレンジ</jaJP>
+			<koKR>직업별 도전 과제</koKR>
+			<plPL>Wyzwania klasowe</plPL>
+			<ptBR>Desafio de Classe</ptBR>
+			<ruRU>Испытания</ruRU>
+			<zhCN>职业挑战</zhCN>
+			<zhTW>職業挑戰</zhTW>
+		</Field>
+		<Field column="DESCRIPTION" loc_ID="21802">
+			<enUS>Nine League of Explorers bosses have a special class challenge after you defeat them in normal mode. Crush each one and earn a card!</enUS>
+			<deDE>Bei neun Forscherliga-Bossen wird nach Eurem Sieg im normalen Modus eine Klassenherausforderung freigeschaltet. Für jede gemeisterte Herausforderung erhaltet Ihr eine Karte!</deDE>
+			<esES>Nueve jefes de la Liga de Expedicionarios tienen un desafío de clase especial tras derrotarlos en modo normal. ¡Gana una carta por cada jefe que destruyas!</esES>
+			<esMX>Hay nueve jefes de la Liga de Expedicionarios que tienen un desafío de clase especial después de que los derrotas en modo normal. ¡Cada uno que aplastes te dará una carta!</esMX>
+			<frFR>Vous pouvez affronter neuf des boss de la Ligue des explorateurs dans un défi de classe spécial après les avoir vaincus en mode normal. Écrasez-les tous et obtenez une carte !</frFR>
+			<itIT>Una volta sconfitti in versione Normale, nove dei boss della Lega degli Esploratori danno accesso a una Sfida di Classe: ogni vittoria ti fornirà una nuova carta!</itIT>
+			<jaJP>「リーグ・オブ・エクスプローラー」の9体のボスをノーマルモードで倒すと、それぞれ特別なクラスチャレンジが出現するぞ。全員叩きのめしてカードを手に入れよう！</jaJP>
+			<koKR>탐험가 연맹 모험의 우두머리 9마리를 일반 난이도에서 물리치고 나면, 특별한 직업별 도전 과제를 받을 수 있습니다. 직업별 도전 과제를 완료하고 카드를 획득하세요!</koKR>
+			<plPL>Dziewięcioro bossów Ligi Odkrywców ma dla ciebie specjalne wyzwanie klasowe, kiedy pokonasz ich w trybie normalnym. Zmiażdż każdego, aby otrzymać nową kartę!</plPL>
+			<ptBR>Nove chefes da Liga dos Exploradores oferecem um desafio de classe especial depois de serem derrotados no modo normal. Vença cada um deles para ganhar um card!</ptBR>
+			<ruRU>Вы можете вновь сразиться с девятью боссами Лиги исследователей, перед этим победив их в обычном режиме, чтобы пройти особые классовые испытания и получить в награду новые карты.</ruRU>
+			<zhCN>在你击败普通难度“探险者协会”中的九个特殊首领后，就能够对其发起职业挑战。逐一击败他们，每个首领都会奖励你新的卡牌！</zhCN>
+			<zhTW>通過探險者協會的九個冒險旅程會解鎖特殊的職業挑戰。完成每一個挑戰都能獲得一張卡片！</zhTW>
+		</Field>
+		<Field column="SHORT_DESCRIPTION" loc_ID="21803">
+			<enUS>Nine League of Explorers bosses have a special class challenge after you defeat them in normal mode.</enUS>
+			<deDE>Bei neun Forscherliga-Bossen könnt Ihr im normalen Modus eine Klassenherausforderung freischalten.</deDE>
+			<esES>Nueve jefes de la Liga de Expedicionarios tienen un desafío de clase especial tras derrotarlos en modo normal.</esES>
+			<esMX>Hay nueve jefes de la Liga de Expedicionarios que tienen un desafío de clase especial después de que los derrotas en modo normal.</esMX>
+			<frFR>Vous pouvez affronter neuf des boss de la Ligue des explorateurs dans un défi de classe spécial après les avoir vaincus en mode normal.</frFR>
+			<itIT>Una volta sconfitti in versione Normale, nove dei boss della Lega degli Esploratori danno accesso a una Sfida di Classe.</itIT>
+			<jaJP>「リーグ・オブ・エクスプローラー」の9体のボスをノーマルモードで倒すと、それぞれ特別なクラスチャレンジが出現するぞ。</jaJP>
+			<koKR>탐험가 연맹 모험의 우두머리 9마리를 일반 난이도에서 물리치고 나면, 특별한 직업별 도전 과제를 받을 수 있습니다.</koKR>
+			<plPL>Dziewięcioro bossów Ligi Odkrywców ma dla ciebie specjalne wyzwanie klasowe, kiedy pokonasz ich w trybie normalnym.</plPL>
+			<ptBR>Nove chefes da Liga dos Exploradores oferecem um desafio de classe especial depois de serem derrotados no modo normal.</ptBR>
+			<ruRU>Девять боссов Лиги исследователей приготовили специальные классовые испытания для тех, кто одолеет их в обычном режиме.</ruRU>
+			<zhCN>当你在普通难度下击败“探险者协会”中的九个首领之后，就能够解锁其对应的特殊职业挑战。</zhCN>
+			<zhTW>通過探險者協會的九個冒險旅程會解鎖特殊的職業挑戰。</zhTW>
+		</Field>
+		<Field column="REQUIREMENTS_DESCRIPTION" loc_ID="21804">
+			<enUS>Unlock by completing a wing in Normal mode.</enUS>
+			<deDE>Erfordert den Abschluss eines Flügels im normalen Modus.</deDE>
+			<esES>Se desbloquea al completar un ala en modo normal.</esES>
+			<esMX>Para desbloquearlo, completa un ala en modo normal.</esMX>
+			<frFR>Débloquée en terminant une aile en mode normal.</frFR>
+			<itIT>Devi aver sbloccato un'ala in versione Normale.</itIT>
+			<jaJP>条件: ノーマルモードで区画をクリア</jaJP>
+			<koKR>일반 난이도의 해당 지구를 완료하면 잠금 해제됩니다!</koKR>
+			<plPL>Odblokuj przechodząc skrzydło w trybie normalnym</plPL>
+			<ptBR>Desbloqueado ao completar uma ala no modo normal.</ptBR>
+			<ruRU>Требуется пройти крыло в обычном режиме.</ruRU>
+			<zhCN>击败普通难度下任意一区的所有首领后解锁。</zhCN>
+			<zhTW>在普通模式完成一個區域後解鎖</zhTW>
+		</Field>
+		<Field column="COMPLETE_BANNER_TEXT" />
+		<Field column="SUBSCENE_PREFAB">Assets/Game/UIScreens/AdventureClassChallenge</Field>
+		<Field column="ADVENTURE_SUB_DEF_PREFAB">Assets/Game/GameObjects/AdventureDefs/AdventureSubDef_LOEClassChallenge</Field>
 	</Record>
 </Dbf>
