@@ -131,6 +131,8 @@ GLOBAL_ERROR_ASSET_INCORRECT_DATA	Składnik {0} zawiera nieprawidłowe dane.	0=a
 GLOBAL_ERROR_ASSET_LOAD_FAILED	Nie udało się wczytać składnika {0}.	0=asset name
 GLOBAL_ERROR_ASSET_NO_FILE_PATH	Nie udało się znaleźć ścieżki dla składnika {0}.	0=asset name
 GLOBAL_ERROR_CURRENCY_INVALID	Klient próbował dokonać zakupu niewłaściwą walutą.	
+GLOBAL_ERROR_FIND_GAME_SCENARIO_NO_DECK_SPECIFIED	Wystąpił błąd przy uruchamianiu gry. Nie wybrano talii.	
+GLOBAL_ERROR_FIND_GAME_SCENARIO_NOT_MULTIPLAYER	Wystąpił błąd przy uruchamianiu gry. Ten scenariusz nie jest wieloosobowy.	
 GLOBAL_ERROR_GAME_DENIED	Wystąpił błąd przy uruchamianiu gry. Spróbuj ponownie później.	
 GLOBAL_ERROR_GAME_OPPONENT_TIMEOUT	Nie udało się uruchomić gry, ponieważ przeciwnik nie zdołał nawiązać połączenia. Spróbuj ponownie.	
 GLOBAL_ERROR_GENERIC_HEADER	Błąd	
@@ -201,16 +203,16 @@ GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_HEADER	Rzuć wyzwanie
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_UNAVAILABLE	Nie możesz teraz rozegrać pojedynku z tym graczem. Wróć do głównego menu.	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_TAVERN_BRAWL_MUST_CREATE_DECK	Aby wyzwać znajomego na Bójkę, stwórz najpierw talię do tego trybu!	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_THEYRE_UNAVAILABLE	Nie możesz teraz rozegrać pojedynku z tym graczem. Poczekaj aż wróci do głównego menu.	0=player name
-GLOBAL_FRIENDLIST_CURRENT_GAMES_HEADER	AKTUALNE GRY - {0}	0=number of friends you have unfinished games with
-GLOBAL_FRIENDLIST_FRIENDS_HEADER	Dostępni znajomi: {0}/{1}	0=number of online friends 1=number of offline friends
+GLOBAL_FRIENDLIST_CURRENT_GAMES_HEADER	AKTUALNE GRY: {0}	0=number of friends you have unfinished games with
+GLOBAL_FRIENDLIST_FRIENDS_HEADER	DOSTĘPNI ZNAJOMI: {0}/{1}	0=number of online friends 1=number of offline friends
 GLOBAL_FRIENDLIST_FRIENDS_HEADER_ALL_ONLINE	DOSTĘPNI ZNAJOMI: {0}	
 GLOBAL_FRIENDLIST_LASTPLAYED	Ostatnia gra:	
 GLOBAL_FRIENDLIST_MYSTATUS	W SIECI	
-GLOBAL_FRIENDLIST_NEARBY_PLAYERS_HEADER	POBLISCY GRACZE - {0}	0=number of players
+GLOBAL_FRIENDLIST_NEARBY_PLAYERS_HEADER	POBLISCY GRACZE: {0}	0=number of players
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_ALERT_MESSAGE	Czy na pewno chcesz usunąć gracza {0}?	0=friend name
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_BUTTON	Usuń	
 GLOBAL_FRIENDLIST_REQUEST_SENT_TIME	Wysłano: {0}	0=one of the GLOBAL_DATETIME_ELAPSED_ strings
-GLOBAL_FRIENDLIST_REQUESTS_HEADER	PROŚBY O DODANIE - {0}	0=number of received friend requests
+GLOBAL_FRIENDLIST_REQUESTS_HEADER	PROŚBY O DODANIE: {0}	0=number of received friend requests
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_AVAILABLE_HEADER	Obserwuj tę partię	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_AVAILABLE_TEXT	Kliknij, aby rozpocząć obserwowanie partii tego gracza.	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_AVAILABLE_TEXT_TOUCH	Dotknij tutaj, aby rozpocząć obserwowanie partii tego gracza.	
@@ -497,7 +499,7 @@ GLOBAL_REWARD_CHEST_TIER4_EARNED	Otrzymujesz kufer Tarczownika!
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL	{0}	0=first class
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL_DOUBLE	{0} i {1}	0=first class, 1=second class
 GLOBAL_REWARD_CLASS_CHALLENGE_HEADLINE	Odblokowano |4(wyzwanie klasowe,wyzwania klasowe,wyzwań klasowych)	
-GLOBAL_REWARD_CORE_CARD_DETAILS	{2} - odblokowane karty: {0}/{1}	0=# cards unlocked, 1=# cards possible to unlock, 2=class
+GLOBAL_REWARD_CORE_CARD_DETAILS	{2} – odblokowane karty: {0}/{1}	0=# cards unlocked, 1=# cards possible to unlock, 2=class
 GLOBAL_REWARD_FORGE_DETAILS_OUT_OF_BAND	{0} |4(wejściówka na Arenę została dodana,wejścówki na Arenę zostały dodane,wejściówek na Arenę zostało dodanych) do twojego konta spoza gry.	0=count
 GLOBAL_REWARD_FORGE_HEADLINE	Otrzymujesz wejściówkę na Arenę	
 GLOBAL_REWARD_FORGE_UNLOCKED_HEADLINE	Arena odblokowana!	
@@ -582,6 +584,7 @@ GLOBAL_STORE_MOBILE_NAME_DEFAULT	sklep Blizzarda
 GLOBAL_STORE_MOBILE_NAME_GOOGLE	Google Play	
 GLOBAL_SUPPORT	Wsparcie	
 GLOBAL_TAVERN_BRAWL	Karczemna Bójka	
+GLOBAL_TAVERN_BRAWL_ERROR_NOT_ACTIVE	Przepraszamy. Ta Karczemna Bójka nie jest obecnie dostępna. Poczekaj parę minut i spróbuj ponownie.	
 GLOBAL_TAVERN_BRAWL_ERROR_SEASON_INCREMENTED	Przepraszamy, ale ta Karczemna Bójka dobiegła końca. Już niedługo odbędzie się kolejna!	
 GLOBAL_TOOLTIP_FRIEND_BUTTON_DESC	Rozmawiaj ze znajomymi i rzucaj im wyzwania.	
 GLOBAL_TOOLTIP_FRIEND_BUTTON_HEADER	Znajomi	

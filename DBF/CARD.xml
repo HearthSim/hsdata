@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Dbf name="CARD">
-	<SourceFingerprint>s59pVvgcfTHS6IKldoaf+m1EIxQ=</SourceFingerprint>
+	<SourceFingerprint>wkaXdkuA1ED/WpJ3Rm6FRDqkuA4=</SourceFingerprint>
 	<Column name="ID" type="Int" />
 	<Column name="NOTE_MINI_GUID" type="String" />
 	<Column name="IS_COLLECTIBLE" type="Bool" />
@@ -12296,6 +12296,14 @@
 		<Field column="CRAFTING_EVENT">tgt_normal_sale</Field>
 	</Record>
 	<Record>
+		<Field column="ID">2872</Field>
+		<Field column="NOTE_MINI_GUID">HRW02_1</Field>
+		<Field column="IS_COLLECTIBLE">False</Field>
+		<Field column="LONG_GUID">00000011-250e-4731-99d7-e33966c0c8b9</Field>
+		<Field column="HERO_POWER_ID" />
+		<Field column="CRAFTING_EVENT">always</Field>
+	</Record>
+	<Record>
 		<Field column="ID">2874</Field>
 		<Field column="NOTE_MINI_GUID">LOE_002</Field>
 		<Field column="IS_COLLECTIBLE">True</Field>
@@ -12454,14 +12462,6 @@
 		<Field column="LONG_GUID">00000011-ebfc-4de6-8cfb-f7a90425910b</Field>
 		<Field column="HERO_POWER_ID" />
 		<Field column="CRAFTING_EVENT">loe_1</Field>
-	</Record>
-	<Record>
-		<Field column="ID">2902</Field>
-		<Field column="NOTE_MINI_GUID">LOE_030</Field>
-		<Field column="IS_COLLECTIBLE">False</Field>
-		<Field column="LONG_GUID">00000011-a359-4430-992c-b9832651ab28</Field>
-		<Field column="HERO_POWER_ID" />
-		<Field column="CRAFTING_EVENT">always</Field>
 	</Record>
 	<Record>
 		<Field column="ID">2910</Field>
@@ -14232,22 +14232,6 @@
 		<Field column="CRAFTING_EVENT">always</Field>
 	</Record>
 	<Record>
-		<Field column="ID">38277</Field>
-		<Field column="NOTE_MINI_GUID">TB_FactionWar_BoomBot_Spell</Field>
-		<Field column="IS_COLLECTIBLE">False</Field>
-		<Field column="LONG_GUID">00000011-b526-4d72-a62f-148eeca8b260</Field>
-		<Field column="HERO_POWER_ID" />
-		<Field column="CRAFTING_EVENT">always</Field>
-	</Record>
-	<Record>
-		<Field column="ID">38278</Field>
-		<Field column="NOTE_MINI_GUID">TB_FactionWar_Boss_BoomBot</Field>
-		<Field column="IS_COLLECTIBLE">False</Field>
-		<Field column="LONG_GUID">00000011-9dd4-439e-998f-251eba70782f</Field>
-		<Field column="HERO_POWER_ID" />
-		<Field column="CRAFTING_EVENT">always</Field>
-	</Record>
-	<Record>
 		<Field column="ID">38284</Field>
 		<Field column="NOTE_MINI_GUID">TB_CoOpBossSpell_2</Field>
 		<Field column="IS_COLLECTIBLE">False</Field>
@@ -14365,14 +14349,6 @@
 		<Field column="IS_COLLECTIBLE">False</Field>
 		<Field column="LONG_GUID">00000011-260f-41d5-a499-0473a184ee64</Field>
 		<Field column="HERO_POWER_ID">38465</Field>
-		<Field column="CRAFTING_EVENT">always</Field>
-	</Record>
-	<Record>
-		<Field column="ID">38467</Field>
-		<Field column="NOTE_MINI_GUID">LOE_012e</Field>
-		<Field column="IS_COLLECTIBLE">False</Field>
-		<Field column="LONG_GUID">00000011-3073-4645-a9c3-e7caf8e9cfa9</Field>
-		<Field column="HERO_POWER_ID" />
 		<Field column="CRAFTING_EVENT">always</Field>
 	</Record>
 	<Record>
@@ -14969,7 +14945,7 @@
 	</Record>
 	<Record>
 		<Field column="ID">38701</Field>
-		<Field column="NOTE_MINI_GUID">TB_PickYourFate_7_Ench</Field>
+		<Field column="NOTE_MINI_GUID">TB_PickYourFate7Ench</Field>
 		<Field column="IS_COLLECTIBLE">False</Field>
 		<Field column="LONG_GUID">00000011-3561-4478-a234-65913fe332a9</Field>
 		<Field column="HERO_POWER_ID" />
@@ -15280,10 +15256,234 @@
 		<Field column="CRAFTING_EVENT">always</Field>
 	</Record>
 	<Record>
+		<Field column="ID">38950</Field>
+		<Field column="NOTE_MINI_GUID">TB_CoOp_Mechazod_V2</Field>
+		<Field column="IS_COLLECTIBLE">False</Field>
+		<Field column="LONG_GUID">00000011-bbed-47ed-9d42-71277d81bb65</Field>
+		<Field column="HERO_POWER_ID" />
+		<Field column="CRAFTING_EVENT">always</Field>
+	</Record>
+	<Record>
+		<Field column="ID">38952</Field>
+		<Field column="NOTE_MINI_GUID">TB_PickYourFate_12_Ench</Field>
+		<Field column="IS_COLLECTIBLE">False</Field>
+		<Field column="LONG_GUID">00000011-4bba-47db-b703-500c19800d24</Field>
+		<Field column="HERO_POWER_ID" />
+		<Field column="CRAFTING_EVENT">always</Field>
+	</Record>
+	<Record>
+		<Field column="ID">38953</Field>
+		<Field column="NOTE_MINI_GUID">TB_PickYourFate_12</Field>
+		<Field column="IS_COLLECTIBLE">False</Field>
+		<Field column="LONG_GUID">00000011-fd9d-4db3-87e0-896185104ac9</Field>
+		<Field column="HERO_POWER_ID" />
+		<Field column="CRAFTING_EVENT">always</Field>
+	</Record>
+	<Record>
+		<Field column="ID">38954</Field>
+		<Field column="NOTE_MINI_GUID">TB_PickYourFate_Confused</Field>
+		<Field column="IS_COLLECTIBLE">False</Field>
+		<Field column="LONG_GUID">00000011-3658-4829-be3b-284eb80984c3</Field>
+		<Field column="HERO_POWER_ID" />
+		<Field column="CRAFTING_EVENT">always</Field>
+	</Record>
+	<Record>
+		<Field column="ID">38962</Field>
+		<Field column="NOTE_MINI_GUID">TB_Mini_1e</Field>
+		<Field column="IS_COLLECTIBLE">False</Field>
+		<Field column="LONG_GUID">00000011-c6d8-4444-bcaa-cd20d27c6029</Field>
+		<Field column="HERO_POWER_ID" />
+		<Field column="CRAFTING_EVENT">always</Field>
+	</Record>
+	<Record>
+		<Field column="ID">38974</Field>
+		<Field column="NOTE_MINI_GUID">TB_BlingBrawl_Hero1e</Field>
+		<Field column="IS_COLLECTIBLE">False</Field>
+		<Field column="LONG_GUID">00000011-bea3-492d-9244-7d964932f890</Field>
+		<Field column="HERO_POWER_ID" />
+		<Field column="CRAFTING_EVENT">always</Field>
+	</Record>
+	<Record>
+		<Field column="ID">38975</Field>
+		<Field column="NOTE_MINI_GUID">TB_BlingBrawl_Hero1p</Field>
+		<Field column="IS_COLLECTIBLE">False</Field>
+		<Field column="LONG_GUID">00000011-e0aa-48a1-9264-e9c8b50ed3bd</Field>
+		<Field column="HERO_POWER_ID" />
+		<Field column="CRAFTING_EVENT">always</Field>
+	</Record>
+	<Record>
+		<Field column="ID">38976</Field>
+		<Field column="NOTE_MINI_GUID">TB_BlingBrawl_Hero1</Field>
+		<Field column="IS_COLLECTIBLE">False</Field>
+		<Field column="LONG_GUID">00000011-5f59-4225-b8ad-71fc87ba3315</Field>
+		<Field column="HERO_POWER_ID" />
+		<Field column="CRAFTING_EVENT">always</Field>
+	</Record>
+	<Record>
+		<Field column="ID">38977</Field>
+		<Field column="NOTE_MINI_GUID">TB_BlingBrawl_Blade1e</Field>
+		<Field column="IS_COLLECTIBLE">False</Field>
+		<Field column="LONG_GUID">00000011-5ec3-465b-90f4-65f770097e39</Field>
+		<Field column="HERO_POWER_ID" />
+		<Field column="CRAFTING_EVENT">always</Field>
+	</Record>
+	<Record>
+		<Field column="ID">38978</Field>
+		<Field column="NOTE_MINI_GUID">TB_BlingBrawl_Weapon</Field>
+		<Field column="IS_COLLECTIBLE">False</Field>
+		<Field column="LONG_GUID">00000011-ac90-4b11-a574-588b0fbb3af5</Field>
+		<Field column="HERO_POWER_ID" />
+		<Field column="CRAFTING_EVENT">always</Field>
+	</Record>
+	<Record>
+		<Field column="ID">38984</Field>
+		<Field column="NOTE_MINI_GUID">TB_BlingBrawl_Blade2e</Field>
+		<Field column="IS_COLLECTIBLE">False</Field>
+		<Field column="LONG_GUID">00000011-84ec-4097-8d7f-287d857d62ae</Field>
+		<Field column="HERO_POWER_ID" />
+		<Field column="CRAFTING_EVENT">always</Field>
+	</Record>
+	<Record>
 		<Field column="ID">38987</Field>
 		<Field column="NOTE_MINI_GUID">XXX_065</Field>
 		<Field column="IS_COLLECTIBLE">False</Field>
 		<Field column="LONG_GUID">00000011-d958-47b4-a987-5b4f87403591</Field>
+		<Field column="HERO_POWER_ID" />
+		<Field column="CRAFTING_EVENT">always</Field>
+	</Record>
+	<Record>
+		<Field column="ID">38989</Field>
+		<Field column="NOTE_MINI_GUID">TB_GiftExchange_Snowball</Field>
+		<Field column="IS_COLLECTIBLE">False</Field>
+		<Field column="LONG_GUID">00000011-9586-4488-8ba2-187532a1e54d</Field>
+		<Field column="HERO_POWER_ID" />
+		<Field column="CRAFTING_EVENT">always</Field>
+	</Record>
+	<Record>
+		<Field column="ID">38991</Field>
+		<Field column="NOTE_MINI_GUID">TP_Bling_HP2</Field>
+		<Field column="IS_COLLECTIBLE">False</Field>
+		<Field column="LONG_GUID">00000011-1539-4401-a315-5a60f453ac46</Field>
+		<Field column="HERO_POWER_ID" />
+		<Field column="CRAFTING_EVENT">always</Field>
+	</Record>
+	<Record>
+		<Field column="ID">38995</Field>
+		<Field column="NOTE_MINI_GUID">TB_Face_Ench1</Field>
+		<Field column="IS_COLLECTIBLE">False</Field>
+		<Field column="LONG_GUID">00000011-9051-499d-922d-d6da65c5e6ce</Field>
+		<Field column="HERO_POWER_ID" />
+		<Field column="CRAFTING_EVENT">always</Field>
+	</Record>
+	<Record>
+		<Field column="ID">39016</Field>
+		<Field column="NOTE_MINI_GUID">TB_PickYourFate_10_EnchMinion</Field>
+		<Field column="IS_COLLECTIBLE">False</Field>
+		<Field column="LONG_GUID">00000011-d348-4ac9-8b49-d5de99ebe46b</Field>
+		<Field column="HERO_POWER_ID" />
+		<Field column="CRAFTING_EVENT">always</Field>
+	</Record>
+	<Record>
+		<Field column="ID">39017</Field>
+		<Field column="NOTE_MINI_GUID">TB_PickYourFate_9_EnchMinion</Field>
+		<Field column="IS_COLLECTIBLE">False</Field>
+		<Field column="LONG_GUID">00000011-41cb-4b78-b395-cf9c6b47483e</Field>
+		<Field column="HERO_POWER_ID" />
+		<Field column="CRAFTING_EVENT">always</Field>
+	</Record>
+	<Record>
+		<Field column="ID">39019</Field>
+		<Field column="NOTE_MINI_GUID">TB_PickYourFate_4_EnchMinion</Field>
+		<Field column="IS_COLLECTIBLE">False</Field>
+		<Field column="LONG_GUID">00000011-54d1-4885-8e2b-567775fa5d47</Field>
+		<Field column="HERO_POWER_ID" />
+		<Field column="CRAFTING_EVENT">always</Field>
+	</Record>
+	<Record>
+		<Field column="ID">39023</Field>
+		<Field column="NOTE_MINI_GUID">TB_PickYourFate_11b</Field>
+		<Field column="IS_COLLECTIBLE">False</Field>
+		<Field column="LONG_GUID">00000011-053f-4fd3-bbb9-d23667a6be0d</Field>
+		<Field column="HERO_POWER_ID" />
+		<Field column="CRAFTING_EVENT">always</Field>
+	</Record>
+	<Record>
+		<Field column="ID">39024</Field>
+		<Field column="NOTE_MINI_GUID">TB_PickYourFate_2nd</Field>
+		<Field column="IS_COLLECTIBLE">False</Field>
+		<Field column="LONG_GUID">00000011-00db-4fec-ba19-0ad6a5c7ee8a</Field>
+		<Field column="HERO_POWER_ID" />
+		<Field column="CRAFTING_EVENT">always</Field>
+	</Record>
+	<Record>
+		<Field column="ID">39031</Field>
+		<Field column="NOTE_MINI_GUID">TB_PickYourFate_7_EnchMinion</Field>
+		<Field column="IS_COLLECTIBLE">False</Field>
+		<Field column="LONG_GUID">00000011-8279-423e-9a18-2b48cfbf33e9</Field>
+		<Field column="HERO_POWER_ID" />
+		<Field column="CRAFTING_EVENT">always</Field>
+	</Record>
+	<Record>
+		<Field column="ID">39032</Field>
+		<Field column="NOTE_MINI_GUID">TB_PickYourFate_2_EnchMinion</Field>
+		<Field column="IS_COLLECTIBLE">False</Field>
+		<Field column="LONG_GUID">00000011-c323-49b2-92b0-95f2946cd8ca</Field>
+		<Field column="HERO_POWER_ID" />
+		<Field column="CRAFTING_EVENT">always</Field>
+	</Record>
+	<Record>
+		<Field column="ID">39037</Field>
+		<Field column="NOTE_MINI_GUID">TB_PickYourFate_6_2nd</Field>
+		<Field column="IS_COLLECTIBLE">False</Field>
+		<Field column="LONG_GUID">00000011-7bed-4bd9-bf45-0685fa923363</Field>
+		<Field column="HERO_POWER_ID" />
+		<Field column="CRAFTING_EVENT">always</Field>
+	</Record>
+	<Record>
+		<Field column="ID">39038</Field>
+		<Field column="NOTE_MINI_GUID">TB_PickYourFate_7_Ench_2nd</Field>
+		<Field column="IS_COLLECTIBLE">False</Field>
+		<Field column="LONG_GUID">00000011-026f-454c-8f74-0e284b08145f</Field>
+		<Field column="HERO_POWER_ID" />
+		<Field column="CRAFTING_EVENT">always</Field>
+	</Record>
+	<Record>
+		<Field column="ID">39039</Field>
+		<Field column="NOTE_MINI_GUID">TB_PickYourFate_7_EnchMiniom2nd</Field>
+		<Field column="IS_COLLECTIBLE">False</Field>
+		<Field column="LONG_GUID">00000011-3421-48e7-84f2-06a2693558f0</Field>
+		<Field column="HERO_POWER_ID" />
+		<Field column="CRAFTING_EVENT">always</Field>
+	</Record>
+	<Record>
+		<Field column="ID">39040</Field>
+		<Field column="NOTE_MINI_GUID">TB_PickYourFate_7_2nd</Field>
+		<Field column="IS_COLLECTIBLE">False</Field>
+		<Field column="LONG_GUID">00000011-3776-48dc-a138-cc26e4977b4e</Field>
+		<Field column="HERO_POWER_ID" />
+		<Field column="CRAFTING_EVENT">always</Field>
+	</Record>
+	<Record>
+		<Field column="ID">39042</Field>
+		<Field column="NOTE_MINI_GUID">TB_PickYourFate_8_EnchRand</Field>
+		<Field column="IS_COLLECTIBLE">False</Field>
+		<Field column="LONG_GUID">00000011-5d2f-437b-a23f-ebde21b214b1</Field>
+		<Field column="HERO_POWER_ID" />
+		<Field column="CRAFTING_EVENT">always</Field>
+	</Record>
+	<Record>
+		<Field column="ID">39043</Field>
+		<Field column="NOTE_MINI_GUID">TB_PickYourFate_8rand</Field>
+		<Field column="IS_COLLECTIBLE">False</Field>
+		<Field column="LONG_GUID">00000011-2938-45b5-b4fd-15a0a02003ff</Field>
+		<Field column="HERO_POWER_ID" />
+		<Field column="CRAFTING_EVENT">always</Field>
+	</Record>
+	<Record>
+		<Field column="ID">39044</Field>
+		<Field column="NOTE_MINI_GUID">TB_PickYourFate_11rand</Field>
+		<Field column="IS_COLLECTIBLE">False</Field>
+		<Field column="LONG_GUID">00000011-d4ac-4287-a040-df9883bf93a9</Field>
 		<Field column="HERO_POWER_ID" />
 		<Field column="CRAFTING_EVENT">always</Field>
 	</Record>
