@@ -24,6 +24,7 @@ GLOBAL_ARENA_MEDAL_8	Championschlüssel
 GLOBAL_ARENA_MEDAL_9	Rubinschlüssel	
 GLOBAL_ATTACK	Angriff	
 GLOBAL_BACK	Zurück	
+GLOBAL_BASIC_DECK_NAME	Basisdeck ({0})	0=class name
 GLOBAL_BETA_REIMBURSEMENT_DETAILS	Dieses Gold stellt eine Gutschrift für getätigte Käufe dar. Vielen Dank!	
 GLOBAL_BETA_REIMBURSEMENT_HEADLINE	Gutschrift nach Accountzurücksetzung	
 GLOBAL_BUTTON_NEXT	Weiter	
@@ -131,8 +132,9 @@ GLOBAL_ERROR_ASSET_INCORRECT_DATA	Asset {0} beinhaltet fehlerhafte Daten.	0=asse
 GLOBAL_ERROR_ASSET_LOAD_FAILED	Asset {0} konnte nicht geladen werden.	0=asset name
 GLOBAL_ERROR_ASSET_NO_FILE_PATH	Dateipfad für Asset {0} konnte nicht gefunden werden.	0=asset name
 GLOBAL_ERROR_CURRENCY_INVALID	Der Client hat versucht, eine ungültige Währung für eine Transaktion zu verwenden.	
+GLOBAL_ERROR_FIND_GAME_SCENARIO_INCORRECT_NUM_PLAYERS	Beim Starten des Spiels ist ein Fehler aufgetreten: Das Szenario hat eine unerwartete Anzahl Spieler.	
+GLOBAL_ERROR_FIND_GAME_SCENARIO_MISCONFIGURED	Beim Starten des Spiels ist ein Fehler aufgetreten: Die Szenariodaten sind falsch konfiguriert.	
 GLOBAL_ERROR_FIND_GAME_SCENARIO_NO_DECK_SPECIFIED	Beim Starten des Spiels ist ein Fehler aufgetreten: Ein oder mehrere Spieler haben kein Deck angegeben.	
-GLOBAL_ERROR_FIND_GAME_SCENARIO_NOT_MULTIPLAYER	Beim Starten des Spiels ist ein Fehler aufgetreten: Dieses Szenario kann nicht im Mehrspielermodus gespielt werden.	
 GLOBAL_ERROR_GAME_DENIED	Beim Starten des Spiels ist ein Fehler aufgetreten. Bitte warten Sie ein paar Minuten und versuchen Sie es dann erneut.	
 GLOBAL_ERROR_GAME_OPPONENT_TIMEOUT	Die Partie konnte nicht gestartet werden, da die Verbindung des Gegners unterbrochen wurde. Bitte versuchen Sie es erneut.	
 GLOBAL_ERROR_GENERIC_HEADER	Fehler	
@@ -321,6 +323,7 @@ GLOBAL_LANGUAGE_NATIVE_KOKR	한국어	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_PLPL	Polski	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_PTBR	Português (Brasil)	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_RURU	Русский	The name of the language IN THAT LANGUAGE.
+GLOBAL_LANGUAGE_NATIVE_THTH	ภาษาไทย	The name of the laugnage IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_ZHCN	中文（简体）	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_ZHTW	繁體中文(台灣)	The name of the language IN THAT LANGUAGE.
 GLOBAL_LEAVE_SPECTATOR_MODE	Verlassen	
@@ -364,7 +367,7 @@ GLOBAL_MEDAL_TOOLTIP_BODY	Gewinnt Spiele, um den nächsten Rang zu erreichen:\n{
 GLOBAL_MEDAL_TOOLTIP_BODY_ARENA_GRAND_MASTER	Ihr seid ein Champion der Arena!	
 GLOBAL_MEDAL_TOOLTIP_BODY_LEGEND	Ihr seid zur Legende aufgestiegen! Eure Platzierung innerhalb dieses Rangs verändert sich mit jedem Spiel.	
 GLOBAL_MEDAL_TOOLTIP_HEADER	Wertung: {0}	0=medal name
-GLOBAL_MEDAL_TOURNAMENT_TOOLTIP_BODY	Ihr gehört diese Saison zu den besten {0} % des gewerteten Modus!\nNächster Rang:{1}	0=rank percentile 1=medal name
+GLOBAL_MEDAL_TOURNAMENT_TOOLTIP_BODY	Ihr gehört diese Saison zu den besten {0} % des gewerteten Modus!\nNächster Rang: {1}	0=rank percentile 1=medal name
 GLOBAL_MOBILE_ERROR_ANDROID_PHONE_DETECTED	Es tut uns leid, Hearthstone läuft zurzeit nur auf Android-Tablets mit einer Displaygröße von mindestens 6 Zoll.	
 GLOBAL_MOBILE_ERROR_BREAKING_NEWS	Eilmeldung:\n\n{0}	
 GLOBAL_MOBILE_ERROR_LOGON_WEB_TIMEOUT	Ihre Verbindung zum Server wurde getrennt, da Sie längere Zeit inaktiv waren.	

@@ -87,6 +87,7 @@ GLUE_COLLECTION_DECK	デッキ
 GLUE_COLLECTION_DECK_DELETE	削除	
 GLUE_COLLECTION_DECK_FINISH_FOR_ME	はい	
 GLUE_COLLECTION_DECK_HELP_BUTTON	お勧めカード	
+GLUE_COLLECTION_DECK_HELPER_REPLACE_CARD	このカードを交換	
 GLUE_COLLECTION_DECK_INFO_HERO_POWER_TOOLTIP	ヒーローパワー	
 GLUE_COLLECTION_DECK_INFO_MANA_TOOLTIP	カード/マナコスト	
 GLUE_COLLECTION_DECK_INFO_TITLE	{0}の情報	
@@ -96,8 +97,17 @@ GLUE_COLLECTION_DECK_PASTE_POPUP_HEADER	デッキをペースト
 GLUE_COLLECTION_DECK_PASTE_POPUP_MESSAGE	今あるデッキが、クリップボードのデッキの内容で上書きされるが、それでもいいのか？	
 GLUE_COLLECTION_DECK_RENAME	名前変更	
 GLUE_COLLECTION_DECK_SAVE_ANYWAY	いいえ	
+GLUE_COLLECTION_DECK_TEMPLATE_HELP_BUTTON	カードを交換	
+GLUE_COLLECTION_DECK_TEMPLATE_LOW_CARD_WARNING	おっと！	
+GLUE_COLLECTION_DECK_TEMPLATE_LOW_CARD_WARNING_CANCEL	ちょっと待った！	
+GLUE_COLLECTION_DECK_TEMPLATE_LOW_CARD_WARNING_CONFIRM	このまま進む！	
+GLUE_COLLECTION_DECK_TEMPLATE_LOW_CARD_WARNING_MESSAGE	このデッキはカードがかなり足りないぞ！クラシックレシピを使用しなくて本当にいいのか？	
+GLUE_COLLECTION_DECK_TEMPLATE_REPLACE	デッキの入れ替え	
+GLUE_COLLECTION_DECK_TEMPLATE_REPLACE_MESSAGE	今あるデッキが、テンプレートデッキの内容で上書きされるが、それでもいいのか？	
+GLUE_COLLECTION_DECK_TEMPLATE_SELECT_A_DECK	レシピを選んでくれ！	
 GLUE_COLLECTION_DELETE_CONFIRM_DESC	このデッキは削除されるぞ。本当にいいんだな？	
 GLUE_COLLECTION_DELETE_CONFIRM_HEADER	削除	
+GLUE_COLLECTION_DELETE_UNAVAILABLE_DESC	9つのクラスを全て使用可能にするまでは、デッキを削除できないぞ。	
 GLUE_COLLECTION_EMPTY_PAGE	ページ0	
 GLUE_COLLECTION_ERROR_HEADER	コレクションエラー	
 GLUE_COLLECTION_GENERIC_ERROR	システムエラーのため、要求された動作を完了できませんでした。もう一度お試しください。問題が解決しない場合は、カスタマーサポートまでお問い合わせください。	
@@ -113,6 +123,15 @@ GLUE_COLLECTION_MANAGER_FAVORITE_DEFAULT_TEXT	お気に入り{0}
 GLUE_COLLECTION_MANAGER_HELP_ME	ヒント	
 GLUE_COLLECTION_MANAGER_HERO_SKINS_TITLE	ヒーロー	
 GLUE_COLLECTION_MANAGER_MANA_TAB_FIRST_CLICK	フィルターを解除するにはもう一度クリック！	
+GLUE_COLLECTION_MANAGER_SEARCH_ARTIST	アーティスト	
+GLUE_COLLECTION_MANAGER_SEARCH_ATTACK	攻撃	
+GLUE_COLLECTION_MANAGER_SEARCH_EXTRA	余分	
+GLUE_COLLECTION_MANAGER_SEARCH_GOLDEN	ゴールデン	
+GLUE_COLLECTION_MANAGER_SEARCH_HEALTH	体力	
+GLUE_COLLECTION_MANAGER_SEARCH_MANA	マナ	
+GLUE_COLLECTION_MANAGER_SEARCH_MISSING	未所持	
+GLUE_COLLECTION_MANAGER_SEARCH_NEW	新規	
+GLUE_COLLECTION_MANAGER_SEARCH_OWNED	所持	
 GLUE_COLLECTION_MINE	所有カード	
 GLUE_COLLECTION_MULTIPLIER	x	used to show you how many copies of a card you own, e.g. x2
 GLUE_COLLECTION_MY_DECKS	マイデッキ	
@@ -127,12 +146,18 @@ GLUE_COLLECTION_RECENTLY_NERFED	<color=#971c1cff>このカードは最近修正�
 GLUE_COLLECTION_SEARCH	検索	
 GLUE_COLLECTION_SHOW_ALL_CARDS	全てのカードを表示	
 GLUE_COLLECTION_TAVERN_BRAWL_DECKNAME	喧嘩用デッキ	
-GLUE_COLLECTION_TUTORIAL01	自分だけのデッキを組もう！	
+GLUE_COLLECTION_TUTORIAL_TEMPLATE_REMINDER	いろんなテンプレートを試してみな。	
+GLUE_COLLECTION_TUTORIAL_TEMPLATE_REPLACE_1	カードが足りないな。入れ替えを手伝うぞ！	
+GLUE_COLLECTION_TUTORIAL_TEMPLATE_REPLACE_2	足りないカードは入れ替えてくれ。	
+GLUE_COLLECTION_TUTORIAL_TEMPLATE_WELCOME	デッキはレシピから作っても、自分のオリジナルデッキを作ってもいい。	
 GLUE_COLLECTION_TUTORIAL02	ページをめくってカードを見よう。	
 GLUE_COLLECTION_TUTORIAL03	余分なカードを還元しよう！	
 GLUE_COLLECTION_TUTORIAL04	フィルターを「全て」に変えると、作成できるカードが見えるぞ。	"ALL" is the same as GLUE_COLLECTION_ALL.
 GLUE_COLLECTION_TUTORIAL05	このカードを\n魔素に変える。	
 GLUE_COLLECTION_TUTORIAL06	魔素を使ってこのカードを作る。	
+GLUE_COLLECTION_TUTORIAL07	このデッキをカスタマイズできるぞ。	
+GLUE_COLLECTION_TUTORIAL08	カードを抜くにはデッキの外へドラッグするんだ。	
+GLUE_COLLECTION_TUTORIAL09	デッキを削除できるようになったぞ。	
 GLUE_CRAFTING_ARCANEDUST	魔素	
 GLUE_CRAFTING_ARCANEDUST_DESCRIPTION	カードを還元して魔素を手に入れよう。魔素を使えば欲しいカードが作れるぞ！	
 GLUE_CRAFTING_CREATE	作成	
@@ -149,9 +174,14 @@ GLUE_CRAFTING_SOULBOUND_REWARD_DESC	クエスト報酬カードは還元も作�
 GLUE_CRAFTING_TITLE	カードの作成	
 GLUE_CRAFTING_UNDO	取消	
 GLUE_CREATE_DECK	デッキを組む	
+GLUE_DECK_TEMPLATE_CHOOSE_DECK	{0}レシピ	0=name of class (e.g. Shaman)
+GLUE_DECK_TEMPLATE_CURRENT_DECK	現在のデッキ	
+GLUE_DECK_TEMPLATE_CUSTOM_DECK	カスタム\nデッキ	
+GLUE_DECK_TEMPLATE_CUSTOM_DECK_DESCRIPTION	オリジナルデッキを組もう！	
 GLUE_DECK_TRAY_CARD_COUNT_LABEL	枚	
 GLUE_DECK_TRAY_COUNT	{0}/{1}	
 GLUE_DECK_TRAY_DECK_COUNT_LABEL	組	
+GLUE_DECK_TRAY_HEROES_UNLOCKED_COUNT_LABEL	入手済	
 GLUE_DONT_SHOW_ME_THIS_AGAIN	二度と表示しない	
 GLUE_DRAFT_HERO_INSTRUCTIONS	ヒーローを選んでくれ	
 GLUE_DRAFT_INSTRUCTIONS	カードを1枚選んでくれ	
@@ -162,6 +192,7 @@ GLUE_DRAFT_RETIRE_BUTTON	リタイア
 GLUE_DRAFT_WINS_LABEL	戦績	
 GLUE_EDIT	編集	
 GLUE_EDIT_DECK	デッキの編集	
+GLUE_ERROR_DECK_RULESET_RULE_VIOLATION	選択したデッキは、このゲームモードでは使えないぞ。	
 GLUE_FORGE	闘技場	
 GLUE_FORGE_EXTRA_PRIZE_LABEL	{0}勝	0 = number of wins required to earn this prize
 GLUE_FORGE_MANATIP_DESC	このデッキのカードの一覧だ、マナコスト順に並んでるぞ。	
@@ -175,7 +206,7 @@ GLUE_FORGE_STORE_HEADLINE	ようこそ闘技場へ！
 GLUE_GOLD_CAP_BODY	  手持ちが{0}ゴールド未満になるまで、これ以上のゴールドは手に入らないぞ。	
 GLUE_GOLD_CAP_HEADER	{0}ゴールド溜まったぞ！	
 GLUE_HERO_LOCKED_DESC	このヒーローに勝てば選択可能になるぞ！	
-GLUE_HERO_LOCKED_NAME	ロックされています	
+GLUE_HERO_LOCKED_NAME	未開放	
 GLUE_HEROIC_WARNING	ヒロイック級の敵は本当に強いぞ。何度負けても挑戦する打たれ強さが必要だ。覚悟していけよ！	
 GLUE_HEROIC_WARNING_TITLE	警告！	
 GLUE_INNKEEPERS_SPECIAL_CONFIRM_POPUP_HEADER	ブラウザで開く	
@@ -291,6 +322,9 @@ GLUE_PATCHING_ERROR	Hearthstoneのアップデート中にエラーが発生し�
 GLUE_PATCHING_LABEL	{0}/{1}個のファイルをダウンロード中	
 GLUE_PICK_A_CARD	カードを選ぼう	
 GLUE_PICK_A_REGION	地域を選ぼう	
+GLUE_PICK_A_REPLACEMENT	どれと交換する？	
+GLUE_POPUP_SWITCH_FORMAT_DESC	遂にスタンダード・フォーマットがやってくる！2年以内の最新セット、ベーシック、そしてクラシックが使えるこの新しいセットに乞うご期待！	
+GLUE_POPUP_SWITCH_FORMAT_HEADER	新たなプレイ方法！	
 GLUE_PRACTICE	練習	
 GLUE_PRACTICE_HINT	練習モードは\nここだ	
 GLUE_QUEST_FINISHED_DAILY	デイリークエストは全て完了しています。	
@@ -299,7 +333,7 @@ GLUE_QUEST_LOG_BEST_FORGE_RECORD_HEADLINE	闘技場のカギの最高記録
 GLUE_QUEST_LOG_CHEST_TOOLTIP_BODY	シーズンの終了後、宝箱を開けられる。ランクを高くできれば、宝箱も豪華になるぞ！	
 GLUE_QUEST_LOG_CHEST_TOOLTIP_BODY_NO_CHEST	ランク20以上になると、シーズン終了時に賞品の入った宝箱がもらえるぞ！	
 GLUE_QUEST_LOG_CHEST_TOOLTIP_HEADER	ランク{0}の宝箱	0=Rank number of chest
-GLUE_QUEST_LOG_CLASS_LOCKED	ロックされています	
+GLUE_QUEST_LOG_CLASS_LOCKED	未開放	
 GLUE_QUEST_LOG_CURRENT_CHEST	ランク戦の宝箱	
 GLUE_QUEST_LOG_HEADLINE	クエストログ	
 GLUE_QUEST_LOG_HERO_LEVELS	ヒーローのレベル	
@@ -314,17 +348,13 @@ GLUE_QUEST_LOG_WINS_HEADLINE	プレイモード勝利数
 GLUE_QUEST_NOTIFICATION_CAPTION	ほとんどのクエストは、プレイモードか闘技場、または酒場の喧嘩でだけ達成できるぞ。	
 GLUE_QUEST_NOTIFICATION_HEADER	本日のクエスト	
 GLUE_QUEST_NOTIFICATION_HEADER_NEW_ONLY	新しいクエスト！	
-GLUE_RDM_1_COST	早いターンで使える、コストの安いカードが何枚か必要だぞ。	
-GLUE_RDM_2_COST	コストが2マナのカードがあった方がいいんじゃないか。	
-GLUE_RDM_3_COST	コストが3マナのカードがあった方がいいだろうな。	
-GLUE_RDM_4_COST	コストが4マナのカードがあった方がいいと思うぞ。	
-GLUE_RDM_5_COST	コストが5マナのカードをデッキに入れるべきだろうな。	
-GLUE_RDM_6_COST	コストが6マナのカードをデッキに入れたらどうだ。	
-GLUE_RDM_7_COST	勝利の決め手になる、コストの高いカードをデッキに入れるといいぞ。	
-GLUE_RDM_CLASS_SPECIFIC	まず、クラス専用のカードを\n何枚か追加してみようか。	
-GLUE_RDM_MORE_MINIONS	ミニオンをもう少し増やした方がいいんじゃないか。	
+GLUE_RDM_HIGH_COST	勝利の決め手になる、コストの高いカードをデッキに入れるといいぞ。	
+GLUE_RDM_LOW_COST	早いターンで使える、コストの安いカードが何枚か必要だぞ。	
+GLUE_RDM_MEDIUM_COST	盤面を優位に保つための、中くらいのコストのカードを入れるといいぞ。	
 GLUE_RDM_MORE_SPELLS	呪文をもう少し増やした方がいいと思うぞ。	
+GLUE_RDM_MORE_WEAPONS	武器をもう少し増やした方がいいと思うぞ。	
 GLUE_RDM_NO_SPECIFICS	いい感じのデッキになったな！仕上げにこういうカードを入れてみるのはどうだ？	
+GLUE_RDM_TEMPLATE_REPLACE	{0}\nの代わりに、こんなカードはどうだ！	0=card names
 GLUE_RECONNECT_GAME_TYPE_ARENA	闘技場	
 GLUE_RECONNECT_GAME_TYPE_BRM	ブラックロック・マウンテン	
 GLUE_RECONNECT_GAME_TYPE_FRIENDLY	親善試合	
@@ -392,6 +422,7 @@ GLUE_START_TOUCH	タッチしてスタート
 GLUE_STARTING_GAME	ゲーム開始…	
 GLUE_STORE_ADVENTURE_BUTTON_UNAVAILABLE_DESCRIPTION	この商品は現在購入できないぞ。	
 GLUE_STORE_ADVENTURE_BUTTON_UNAVAILABLE_HEADLINE	利用できません	
+GLUE_STORE_ADVENTURE_LEAVING_SOON	近日終了のアドベンチャー！	
 GLUE_STORE_ADVENTURE_LOCKED_HEROES_WARNING_TEXT	このアドベンチャーは、全てのクラスをアンロックしてからじゃないと遊べないぞ。\n\nそれでも今購入するのか？	
 GLUE_STORE_ADVENTURE_LOCKED_HEROES_WARNING_TITLE	購入の確認	
 GLUE_STORE_AUTH_FAIL_HEADLINE	購入失敗	
@@ -422,12 +453,14 @@ GLUE_STORE_DONE_WITH_BAM_MESSAGE	Battle.netでのお手続きの完了後、も�
 GLUE_STORE_DUNGEON_BUTTON_COST_OWNED_TEXT	（購入済）	
 GLUE_STORE_DUNGEON_BUTTON_COST_TEXT	（{0}区画: {1}）	0=number of wings,1=cost
 GLUE_STORE_DUNGEON_BUTTON_PREORDER_TEXT	アドベンチャーの先行予約	
-GLUE_STORE_DUNGEON_BUTTON_TEXT	アドベンチャー一式	
+GLUE_STORE_DUNGEON_BUTTON_TEXT	アドベンチャー全区画	
 GLUE_STORE_DUNGEON_BUTTON_TEXT_PURCHASED	購入済	
 GLUE_STORE_EULA_AND_TOS_DETAILS	エンドユーザ使用許諾契約（EULA）とサービス利用規約は、Battle.netでご確認いただけます。	
 GLUE_STORE_EULA_AND_TOS_HEADLINE	サービス利用規約	
 GLUE_STORE_EULA_AND_TOS_URL_DETAILS	「{0}」を押すと、Battle.netウェブサイトのEULAとサービス利用規約に移動します。	
+GLUE_STORE_EXPANSION_LEAVING_SOON	近日終了の拡張版！	
 GLUE_STORE_FAIL_BNET_ID	Battle.net IDが違います。	
+GLUE_STORE_FAIL_CHALLENGE_ID_FAILED_VERIFICATION	購入チャレンジコードの認証に失敗しました。	
 GLUE_STORE_FAIL_CHALLENGE_TIMEOUT	購入処理を試行中にタイムアウトになりました。もう一度最初から購入手続きを行って下さい。	
 GLUE_STORE_FAIL_DATABASE	内部データベースエラー	
 GLUE_STORE_FAIL_DETAILS_ERROR_CODE	（エラーコード: '{0}'）	
@@ -454,6 +487,8 @@ GLUE_STORE_FORGOT_PWD_HEADLINE	パスワードをお忘れですか？
 GLUE_STORE_FORGOT_PWD_URL_DETAILS	「{0}」を押すと、Battle.netウェブサイトのパスワードリセットページに移動します。	
 GLUE_STORE_GENERIC_BP_FAIL_DETAILS	お支払いの手続き中に問題が発生しました。他の支払い方法を利用するか、または支払い方法の決済業者までお問い合わせ下さい。	
 GLUE_STORE_GENERIC_BP_FAIL_HEADLINE	購入失敗	
+GLUE_STORE_GENERIC_BP_FAIL_RETRY_CONTACT_CS_IF_PERSISTS_DETAILS	購入の処理中にエラーが発生しました。しばらくしてからもう一度お試しください。このエラーが継続的に発生する場合は、カスタマーサポートまでお問い合わせください。	
+GLUE_STORE_GENERIC_BP_FAIL_RETRY_CONTACT_CS_IF_PERSISTS_URL_DETAILS	「{0}」を押すと、Battle.netアカウントウェブサイトに移動します。	
 GLUE_STORE_GENERIC_BP_FAIL_URL_DETAILS	「{0}」を押すと、Battle.netウェブサイトの、支払い方法の情報を更新できるページに移動します。	
 GLUE_STORE_GOLD_BUTTON_TOOLTIP_HEADLINE	ゴールドで買う	
 GLUE_STORE_GOLD_QTY_CHANGE_DESC	ずいぶんゴールドを持ってるな！もしパックをまとめて買いたければ、「1パック/100」のボタンをダブルクリックすれば、買うパックの数を入力できるぞ。	
@@ -471,6 +506,8 @@ GLUE_STORE_KOREAN_DISCLAIMER_HEADLINE	주의!
 GLUE_STORE_KOREAN_PRODUCT_DETAILS_ADVENTURE	본 묶음 상품은 구매 후 환불되지 않으며, 구매 즉시 현재 개방된 지구 이용이 가능합니다. 각 지구는 일정에 따라 개방됩니다.	
 GLUE_STORE_KOREAN_PRODUCT_DETAILS_EXPERT_PACK	이용기간 : 서비스 종료 시까지. 본 상품은 구매 후 7일 이내에 청약철회가 가능합니다. 다만, 1개의 카드팩이라도 개봉한 경우에는 청약철회가 불가능합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_KOREAN_PRODUCT_DETAILS_PACKS_PREORDER	사전 구매 상품은 실제 상품 출시 전까지 환불이 가능합니다.	
+GLUE_STORE_LEAVING_SOON	まもなく\n販売終了！	
+GLUE_STORE_LEAVING_SOON_LEARN_MORE	詳細	
 GLUE_STORE_MODE_ADVENTURE	アドベンチャー	
 GLUE_STORE_MODE_CARDS	カード	
 GLUE_STORE_MODE_HEROES	ヒーロー	
@@ -478,10 +515,11 @@ GLUE_STORE_MONEY_BUTTON_TOOLTIP_HEADLINE	買う
 GLUE_STORE_NO_PAYMENT_DETAILS	有効な支払い方法が設定されていません。Battle.netウェブサイトで支払い方法を設定してから、もう一度お試し下さい。	
 GLUE_STORE_NO_PAYMENT_HEADLINE	注意	
 GLUE_STORE_NO_PAYMENT_URL_DETAILS	「{0}」を押すと、Battle.netウェブサイトに移動します。	
+GLUE_STORE_OG_PREORDER_DATE	春よりサポート開始！	
 GLUE_STORE_OPEN_BUTTON_TEXT	ショップ	
 GLUE_STORE_PACK_BUTTON_COST_OWNED_TEXT	（購入済）	
 GLUE_STORE_PACK_BUTTON_TEXT_PURCHASED	購入済	
-GLUE_STORE_PACKBUY_SUGGESTION	新人プレイヤーに\n最適！	
+GLUE_STORE_PACKBUY_SUGGESTION	新人プレイヤーに最適！	
 GLUE_STORE_PACKS_BUTTON_PREORDER_TEXT	{0}パックを先行購入	0=number of packs
 GLUE_STORE_PACKS_LATEST_EXPANSION	最新拡張パック	
 GLUE_STORE_PACKS_PREORDER_TEXT	先行購入	
@@ -490,14 +528,16 @@ GLUE_STORE_PAYMENT_INFO_HEADLINE	支払い情報
 GLUE_STORE_PAYMENT_INFO_URL_DETAILS	より詳しい情報をお求めの場合、「{0}」を押すと、Battle.netウェブサイトの支払い情報ページに移動します。	
 GLUE_STORE_PREORDER	先行予約！	
 GLUE_STORE_PREORDER_EXCLUSIVE	先行予約限定！	
-GLUE_STORE_PRODUCT_DETAILS_BRM_PART_1	1人用プレイで、恐るべき{0}のボスと対決。	0=wing name
+GLUE_STORE_PRODUCT_DETAILS_BRM_PART_1	恐るべき{0}のボスと1人用プレイで対決。	0=wing name
 GLUE_STORE_PRODUCT_DETAILS_BRM_PART_2	君のコレクションにブラックロック・マウンテンの新カードを加えよう。その内1枚はレジェンドカード！	
+GLUE_STORE_PRODUCT_DETAILS_HEADLINE_OG_PACK_PRESALE	旧神のささやき（先行購入）には以下が含まれます:	
 GLUE_STORE_PRODUCT_DETAILS_HEADLINE_PACK	各パックの内容:	
 GLUE_STORE_PRODUCT_DETAILS_HEADLINE_TGT_PACK_PRESALE	グランド・トーナメント（先行購入）には次が含まれます:	
-GLUE_STORE_PRODUCT_DETAILS_LOE_PART_1	1人用プレイで、恐るべき{0}のボスと対決。	0=wing name
+GLUE_STORE_PRODUCT_DETAILS_LOE_PART_1	恐るべき{0}のボスと1人用プレイで対決。	0=wing name
 GLUE_STORE_PRODUCT_DETAILS_LOE_PART_2	君のコレクションにリーグ・オブ・エクスプローラーの新カードを加えよう。レジェンドカードもあるぞ！	
-GLUE_STORE_PRODUCT_DETAILS_NAXX_PART_1	1人用プレイで、恐るべき{0}のボスと対決。	0=wing name
+GLUE_STORE_PRODUCT_DETAILS_NAXX_PART_1	恐るべき{0}のボスと1人用プレイで対決。	0=wing name
 GLUE_STORE_PRODUCT_DETAILS_NAXX_PART_2	君のコレクションにナクスラーマスの新カードを加えよう。その内1枚はレジェンドカード！	
+GLUE_STORE_PRODUCT_DETAILS_OG_PACK_PRESALE	•  50パック＋特別なカード裏面デザイン\n•  各パックはカード5枚入り、うち最低1枚がレア以上確定\n•  旧神のささやきパックは2016年5月末には開封可能！	
 GLUE_STORE_PRODUCT_DETAILS_PACK	・Hearthstone{0}カード5枚入り\n・最低1枚はレア以上が確定	0=pack type
 GLUE_STORE_PRODUCT_DETAILS_TGT_PACK_PRESALE	•  50パック＋特別なカード裏面デザイン\n•  各パックはカード5枚入り、うち最低1枚がレア以上確定\n•  グランド・トーナメントパックは8月に開封可能に！	
 GLUE_STORE_PRODUCT_EVENT_HAS_ENDED	この商品の先行予約は現在ご利用になれません。	
@@ -507,11 +547,12 @@ GLUE_STORE_PRODUCT_NAME_FORGE_TICKET	闘技場入場料
 GLUE_STORE_PRODUCT_NAME_LOE_WING_BUNDLE	リーグ・オブ・エクスプローラー・アドベンチャー（{0}区画）	
 GLUE_STORE_PRODUCT_NAME_MOBILE_UNKNOWN	モバイル決済で購入	
 GLUE_STORE_PRODUCT_NAME_NAXX_WING_BUNDLE	ナクスラーマスアドベンチャー（{0}区画）	
+GLUE_STORE_PRODUCT_NAME_OG_PRESALE_BUNDLE	旧神のささやき（先行購入）	
 GLUE_STORE_PRODUCT_NAME_PACK	{1}パック x {0}	0=quantity,1=pack type
 GLUE_STORE_PRODUCT_NAME_TGT_PRESALE_BUNDLE	グランド・トーナメント（先行購入）	
 GLUE_STORE_PRODUCT_PRICE	({0})	0=price
 GLUE_STORE_PRODUCT_PRICE_NA	-	
-GLUE_STORE_PURCHASE_LOCK_DESCRIPTION	{0}が購入しかけの状態になっています。最後に購入を試みたデバイスでHearthstoneを起動して下さい。\n\n問題が解決しない場合は、下のヘルプボタンを押してBlizzardのカスタマーサポートへご連絡下さい。	0=one of GLOBAL_STORE_MOBILE_NAME_*
+GLUE_STORE_PURCHASE_LOCK_DESCRIPTION	{0}が購入しかけの状態になっています。最後に購入を試みたデバイスでHearthstoneを起動してください。\n\n問題が解決しない場合は、下のヘルプボタンを押してブリザードのカスタマーサポートへご連絡ください。	0=one of GLOBAL_STORE_MOBILE_NAME_*
 GLUE_STORE_PURCHASE_LOCK_HEADER	購入エラー	
 GLUE_STORE_QUANTITY_HEADLINE	個数の変更	
 GLUE_STORE_QUANTITY_MESSAGE	ゴールドを使って何パック買うんだ？\n一度に買えるのは{0}個までだ。	
@@ -548,8 +589,8 @@ GLUE_TAVERN_BRAWL_LABEL_ENDING_SECONDS	あと{0}秒で終了
 GLUE_TAVERN_BRAWL_LABEL_ENDING_WEEKS	あと{0}週間で終了	
 GLUE_TAVERN_BRAWL_RETURNS_DAYS	再開まであと\n<size=70>{0}</size>\n\n日	
 GLUE_TAVERN_BRAWL_RETURNS_HOURS	再開まであと\n<size=70>{0}</size>\n\n時間	
-GLUE_TAVERN_BRAWL_RETURNS_LESS_THAN_1_HOUR	再開まであと\n<size=70>< 1 </size>\n\n時間	
-GLUE_TAVERN_BRAWL_RETURNS_OVER_1_MONTH	再開まであと\n<size=70>> 1</size>\n\nヶ月	
+GLUE_TAVERN_BRAWL_RETURNS_LESS_THAN_1_HOUR	再開まであと\n<size=70> 1 </size>\n\n時間	
+GLUE_TAVERN_BRAWL_RETURNS_OVER_1_MONTH	再開まであと\n<size=70> 1 </size>\n\nヶ月	
 GLUE_TAVERN_BRAWL_RETURNS_UNKNOWN	ただいま\n\n\n改装中	the extra blank lines are there because of the background image filigree on the left and right of the number in "Back in X days" of the other strings. this string shows up when there is no future Tavern Brawl and has the same background filigree.
 GLUE_TAVERN_BRAWL_RETURNS_WEEKS	再開まであと\n<size=70>{0}</size>\n\n週間	
 GLUE_TAVERN_BRAWL_REWARD_DESC	今週初めて勝利するとパックが1つ手に入るぞ！	
@@ -642,12 +683,16 @@ GLUE_TOOLTIP_GOLD_DESCRIPTION	パックを買ったり、闘技場の入場料�
 GLUE_TOOLTIP_GOLD_HEADER	ゴールド	
 GLUE_TOOLTIP_GOLDEN_WINS_DESC	このクラスを使ってランク戦で500勝すれば、そのゴールデンクラシックヒーローを獲得できるぞ！	
 GLUE_TOOLTIP_GOLDEN_WINS_HEADER	ランク戦勝利数	
+GLUE_TOOLTIP_HOW_TO_UNLOCK_DECKS	好きなモードで他のヒーローを倒すと、このデッキが使用可能になるぞ。	
 GLUE_TOOLTIP_RANKED_BUTTON	他のプレイヤー達を相手に競い合い、頂点を目指せ！	
+GLUE_TOOLTIP_SWITCH_FORMAT_BUTTON_WILD	全てのカードがご使用できるワイルド・フォーマットでプレイ中。フォーマット変更はこちらをクリック。*coming soon*	
+GLUE_TOOLTIP_SWITCH_FORMAT_BUTTON_WILD_MOBILE	全てのカードがご使用できるワイルド・フォーマットでプレイ中。フォーマット変更はこちらをタップ。*coming soon*	
 GLUE_TOURNAMENT	プレイ	
 GLUE_TOURNAMENT_CASUAL	カジュアル	
 GLUE_TOURNAMENT_RANKED	ランク戦	
 GLUE_TOURNAMENT_UNRANKED_DESC	非ランクモードには専用の腕前レーティングがある。それとメダルは獲得できないぞ。	
 GLUE_TOURNAMENT_UNRANKED_MODE	非ランクモード	
+GLUE_TOURNAMENT_WILD	ワイルド	
 GLUE_UNRELIABLE_GPU_WARNING	このデバイスのグラフィックハードウェアはサポートの対象外だ。プレイ中にグラフィックやパフォーマンス上の問題が発生する可能性があるぞ。\n\n「サポート」をタップして詳しい情報を確認。	
 GLUE_UNRELIABLE_GPU_WARNING_TITLE	グラフィックデバイスに関する警告	
 GLUE_WIN_STREAK	連勝: {0}	0=number of wins

@@ -1,6 +1,8 @@
 TAG	TEXT	COMMENT
 GLUE_COLLECTION_SEARCH	Search
 GLUE_COLLECTION_DECK_HELP_BUTTON	Deck Helper
+GLUE_COLLECTION_DECK_TEMPLATE_HELP_BUTTON	Replace Cards	
+GLUE_COLLECTION_DECK_HELPER_REPLACE_CARD	Replace This Card	
 GLUE_COLLECTION_DECK_INFO_TITLE	{0} Info
 GLUE_COLLECTION_DECK_INFO_HERO_POWER_TOOLTIP	Hero Power
 GLUE_COLLECTION_DECK_INFO_MANA_TOOLTIP	Cards/Mana Cost
@@ -25,20 +27,34 @@ GLUE_COLLECTION_MY_PACKS	My Packs
 GLUE_COLLECTION_DECK_SAVE_ANYWAY	No	
 GLUE_COLLECTION_DECK_FINISH_FOR_ME	Yes	
 GLUE_COLLECTION_DECK_INVALID_POPUP_HEADER	Invalid Deck	
-GLUE_COLLECTION_DECK_INVALID_POPUP_MESSAGE	You are {0} |4(card,cards) short of a full deck. Do you want to finish it automatically?
+GLUE_COLLECTION_DECK_INVALID_POPUP_MESSAGE	You are {0} |4(card,cards) short of a full deck. Do you want to finish it automatically?	
 GLUE_COLLECTION_DECK_PASTE_POPUP_HEADER	Paste Deck	
-GLUE_COLLECTION_DECK_PASTE_POPUP_MESSAGE	This will erase your existing deck and replace it with the contents of the clipboard, are you sure?
+GLUE_COLLECTION_DECK_PASTE_POPUP_MESSAGE	This will erase your existing deck and replace it with the contents of the clipboard, are you sure?	
+GLUE_COLLECTION_DECK_TEMPLATE_REPLACE	Switch Deck	
+GLUE_COLLECTION_DECK_TEMPLATE_REPLACE_MESSAGE	This will erase your existing deck and replace it with the contents of the template deck, are you sure?	
+GLUE_COLLECTION_DECK_TEMPLATE_LOW_CARD_WARNING	Uh Oh	
+GLUE_COLLECTION_DECK_TEMPLATE_LOW_CARD_WARNING_MESSAGE	You're missing a LOT of cards for this deck.  Are you sure you don't want the Classic Recipe?	
+GLUE_COLLECTION_DECK_TEMPLATE_LOW_CARD_WARNING_CONFIRM	I'm Sure
+GLUE_COLLECTION_DECK_TEMPLATE_LOW_CARD_WARNING_CANCEL	Wait!	
+GLUE_COLLECTION_DECK_TEMPLATE_SELECT_A_DECK	Select a deck recipe to learn more!	
 GLUE_COLLECTION_NEW_DECK	New Deck	
-GLUE_COLLECTION_TUTORIAL01	Craft a deck of your own!
 GLUE_COLLECTION_TUTORIAL02	Turn pages to browse.
 GLUE_COLLECTION_TUTORIAL03	Disenchant extra cards!
 GLUE_COLLECTION_TUTORIAL04	Change your filter to "ALL" to see cards you can craft.	"ALL" is the same as GLUE_COLLECTION_ALL.
 GLUE_COLLECTION_TUTORIAL05	Turn this card into Arcane Dust.
 GLUE_COLLECTION_TUTORIAL06	Use your Dust to create this card.
+GLUE_COLLECTION_TUTORIAL07	You can customize this deck.
+GLUE_COLLECTION_TUTORIAL08	Drag a card away to remove it.
+GLUE_COLLECTION_TUTORIAL09	You can now delete decks.
+GLUE_COLLECTION_TUTORIAL_TEMPLATE_WELCOME	You can create a deck from a recipe, or make one of your own.	
+GLUE_COLLECTION_TUTORIAL_TEMPLATE_REPLACE_1	Missing Cards. We'll help you replace 'em	
+GLUE_COLLECTION_TUTORIAL_TEMPLATE_REPLACE_2	Replace missing cards.	
+GLUE_COLLECTION_TUTORIAL_TEMPLATE_REMINDER	Try more templates here.	
 GLUE_COLLECTION_ARTIST	Artist: {0}	0=artist name
 GLUE_COLLECTION_RECENTLY_NERFED	<color=#971c1cff>This card was recently modified, so its Disenchant value has been adjusted.</color>
 GLUE_COLLECTION_DELETE_CONFIRM_HEADER	Delete	
 GLUE_COLLECTION_DELETE_CONFIRM_DESC	This will delete your deck. Are you sure?	
+GLUE_COLLECTION_DELETE_UNAVAILABLE_DESC	You can't delete a deck until all 9 classes are unlocked.	
 GLUE_COLLECTION_ALL_SETS	All Sets	
 GLUE_COLLECTION_ALL_CARDS	All Cards	
 GLUE_COLLECTION_MINE	My Cards	
@@ -87,6 +103,7 @@ GLUE_CRAFTING_TITLE	Card Crafting
 GLUE_DECK_TRAY_COUNT	{0}/{1}	
 GLUE_DECK_TRAY_CARD_COUNT_LABEL	Cards	
 GLUE_DECK_TRAY_DECK_COUNT_LABEL	Decks
+GLUE_DECK_TRAY_HEROES_UNLOCKED_COUNT_LABEL	Unlocked
 GLUE_STORE_INFO_BUTTON_TEXT	i	
 GLUE_STORE_TERMS_OF_SALE_BUTTON_TEXT	?
 GLUE_STORE_OPEN_BUTTON_TEXT	Shop
@@ -118,6 +135,7 @@ GLUE_STORE_FAIL_PRODUCT_ALREADY_OWNED	You already own that item.
 GLUE_STORE_FAIL_PRODUCT_UNIQUENESS_VIOLATED	We’ve detected that a duplicate purchase has been made for this item. Please contact Customer Support to help resolve this issue.
 GLUE_STORE_FAIL_PRODUCT_UNIQUENESS_VIOLATED_URL	Pressing "{0}" will take you to the Battle.net website.
 GLUE_STORE_FAIL_GENERAL	There was a problem processing your payment.
+GLUE_STORE_FAIL_CHALLENGE_ID_FAILED_VERIFICATION	Your purchase challenge code has failed verification.
 GLUE_STORE_GOLD_BUTTON_TOOLTIP_HEADLINE	Buy with gold
 GLUE_STORE_MONEY_BUTTON_TOOLTIP_HEADLINE	Buy
 GLUE_STORE_DUNGEON_BUTTON_TEXT	Full Adventure
@@ -131,6 +149,8 @@ GLUE_STORE_PRODUCT_DETAILS_HEADLINE_PACK	Contents per pack:
 GLUE_STORE_PRODUCT_DETAILS_HEADLINE_TGT_PACK_PRESALE	The Grand Tournament (Pre-Purchase) includes:
 GLUE_STORE_PRODUCT_DETAILS_PACK	•  5 {0} Hearthstone Cards\n•  At least 1 card will be Rare or better	0=pack type
 GLUE_STORE_PRODUCT_DETAILS_TGT_PACK_PRESALE	•  50 packs and a special card back\n•  Each pack has 5 cards, with 1 rare or better\n•  The Grand Tournament packs are openable in August!	
+GLUE_STORE_PRODUCT_DETAILS_HEADLINE_OG_PACK_PRESALE	Whispers of the Old Gods (Pre-Purchase) includes:
+GLUE_STORE_PRODUCT_DETAILS_OG_PACK_PRESALE	•  50 packs and a special card back\n•  Each pack has 5 cards, with 1 rare or better\n * Packs openable before May 31, 2016
 GLUE_STORE_KOREAN_PRODUCT_DETAILS_EXPERT_PACK	이용기간 : 서비스 종료 시까지. 본 상품은 구매 후 7일 이내에 청약철회가 가능합니다. 다만, 1개의 카드팩이라도 개봉한 경우에는 청약철회가 불가능합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_PRODUCT_NAME_MOBILE_UNKNOWN	Purchase via Mobile
 GLUE_STORE_PRODUCT_NAME_FORGE_TICKET	Arena Admission
@@ -148,6 +168,7 @@ GLUE_STORE_PRODUCT_DETAILS_LOE_PART_2	Earn new League of Explorers cards for you
 GLUE_STORE_PRODUCT_NAME_LOE_WING_BUNDLE	League of Explorers Adventure ({0} |4(Wing,Wings))
 GLUE_STORE_PRODUCT_NAME_BRM_PRESALE_BUNDLE	Blackrock Mountain Pre-order
 GLUE_STORE_PRODUCT_NAME_TGT_PRESALE_BUNDLE	The Grand Tournament (Pre-Purchase)
+GLUE_STORE_PRODUCT_NAME_OG_PRESALE_BUNDLE	Whispers of the Old Gods (Pre-Purchase)
 GLUE_STORE_PRODUCT_PRICE	({0})	0=price
 GLUE_STORE_PRODUCT_PRICE_NA	N/A
 GLUE_STORE_SUMMARY_HEADLINE	Summary
@@ -193,6 +214,8 @@ GLUE_STORE_FORGOT_PWD_URL_DETAILS	Pressing "{0}" will take you to Battle.net whe
 GLUE_STORE_GENERIC_BP_FAIL_HEADLINE	Purchase Failed
 GLUE_STORE_GENERIC_BP_FAIL_DETAILS	There was a problem processing your payment. Please use a different payment method, or contact your payment method provider.
 GLUE_STORE_GENERIC_BP_FAIL_URL_DETAILS	Pressing "{0}" will take you to Battle.net where you can update your payment method information.
+GLUE_STORE_GENERIC_BP_FAIL_RETRY_CONTACT_CS_IF_PERSISTS_DETAILS	There was a problem processing your purchase. Please try again at a later time. If the problem persists, please contact Customer Support.
+GLUE_STORE_GENERIC_BP_FAIL_RETRY_CONTACT_CS_IF_PERSISTS_URL_DETAILS	Pressing "{0}" will take you to Battle.net account website.
 GLUE_STORE_CC_EXPIRY_DETAILS	Your credit card information has expired.
 GLUE_STORE_FAIL_DETAILS_ERROR_CODE	(Error code: '{0}')
 GLUE_STORE_DONE_WITH_BAM_HEADLINE	Try Again
@@ -243,13 +266,19 @@ GLUE_TOOLTIP_GOLD_HEADER	Gold
 GLUE_TOOLTIP_GOLD_DESCRIPTION	Spend gold to buy Packs or enter The Arena.	
 GLUE_TOOLTIP_RANKED_BUTTON	See how you stack up against other players!	
 GLUE_TOOLTIP_CASUAL_BUTTON	Find an opponent of equal skill, and play for fun!	
+GLUE_TOOLTIP_SWITCH_FORMAT_BUTTON_WILD	You're currently playing in Wild, where all cards can be used. Click to change formats. *coming soon*	
+GLUE_TOOLTIP_SWITCH_FORMAT_BUTTON_WILD_MOBILE	You're currently playing in Wild, where all cards can be used. Tap to change formats. *coming soon*	
+GLUE_POPUP_SWITCH_FORMAT_HEADER	A new way to play!
+GLUE_POPUP_SWITCH_FORMAT_DESC	The Standard Format is coming, where only Basic, Classic, and the newest 2 years of sets can be used. New sets will have a huge impact! Stay tuned!
 GLUE_TOOLTIP_GOLDEN_WINS_HEADER	Ranked Wins
 GLUE_TOOLTIP_GOLDEN_WINS_DESC	Win 500 Ranked games with this class to earn its Golden classic hero!
+GLUE_TOOLTIP_HOW_TO_UNLOCK_DECKS	Unlock this deck by defeating other heroes in any mode.
 GLUE_TOURNAMENT	Play	
 GLUE_TOURNAMENT_UNRANKED_MODE	Unranked Mode	
 GLUE_TOURNAMENT_UNRANKED_DESC	You have a separate skill rating for Unranked mode, and you won't earn medals.
 GLUE_TOURNAMENT_CASUAL	Casual	
 GLUE_TOURNAMENT_RANKED	Ranked
+GLUE_TOURNAMENT_WILD	Wild
 GLUE_ADVENTURE	Solo Adventures	
 GLUE_PRACTICE	Practice	
 GLUE_BASIC_SET_PROGRESS	{0}/{1} Basic Cards	0=number of owned cards,1=total number of basic cards
@@ -271,17 +300,13 @@ GLUE_CHOOSE	Choose
 GLUE_CREATE_DECK	Create Deck	
 GLUE_EDIT_DECK	Edit Deck	
 GLUE_ALERT_POPUP_HEADER	Message of the Day	
-GLUE_RDM_CLASS_SPECIFIC	Let's start by adding some Class-specific cards.	
-GLUE_RDM_1_COST	Let's make sure you have some cheap cards to play early on.	
-GLUE_RDM_2_COST	You'll want some cards that cost 2 mana.	
-GLUE_RDM_3_COST	You'll want some cards that cost 3 mana.	
-GLUE_RDM_4_COST	You'll want some cards that cost 4 mana.	
-GLUE_RDM_5_COST	You'll want some cards that cost 5 mana.	
-GLUE_RDM_6_COST	You'll want some cards that cost 6 mana.	
-GLUE_RDM_7_COST	You'll want some high-cost cards to finish off your opponent.	
+GLUE_RDM_LOW_COST	Let's make sure you have some cheap cards to play early on.	
+GLUE_RDM_MEDIUM_COST	You'll want some medium-cost cards to hold the board.	
+GLUE_RDM_HIGH_COST	You'll want some high-cost cards to finish off your opponent.	
 GLUE_RDM_MORE_SPELLS	You may want to add more Spells.	
-GLUE_RDM_MORE_MINIONS	You may want to add a few more minions.	
+GLUE_RDM_MORE_WEAPONS	You may want to add more Weapons.	
 GLUE_RDM_NO_SPECIFICS	Your deck is looking good!  Maybe some of these cards would help finish it off?	
+GLUE_RDM_TEMPLATE_REPLACE	Here are some suitable replacements for\n{0}!	0=card names
 GLUE_CHOOSE_YOUR_HERO	Choose Your Hero	
 GLUE_CHOOSE_YOUR_DECK	Choose Your Deck	
 GLUE_CHOOSE_OPPONENT	Choose Opponent	
@@ -576,8 +601,8 @@ GLUE_STORE_KOREAN_DISCLAIMER_HEADLINE	주의!
 GLUE_STORE_KOREAN_DISCLAIMER_DETAILS	특정 카드를 원하신다면 아래와 같이 ‘마력 추출’ 기능을 통해 100%의 확률로 제작할 수 있습니다.\n   1) 카드 팩을 구매하고 개봉하여 원하는 카드가 있는지 확인합니다.\n   2) 원하는 카드가 없다면 “내 카드” 메뉴에서 필요하지 않은 카드를 선택하고 “마력 추출” 기능을 사용하세요. 이 기능을 사용하면 해당 카드를 제거하고 “신비한 가루”를 획득합니다.\n   3) “내 카드” 메뉴의 “제작하기” 기능으로 “신비한 가루”를 사용하여 원하는 카드를 제작합니다.\n카드 팩 하나당 최소 40개의 “신비한 가루”를 얻을 수 있습니다. 일반/희귀/영웅/전설 카드를 제작하려면 각각 40/100/400/1600개의 “신비한 가루”가 필요합니다. 즉, 카드 팩을 1/3/10/40개 구매하면 반드시 일반/희귀/영웅/전설 카드 하나를 제작할 수 있습니다.	
 GLUE_STORE_DISCLAIMER_WARNING	你将要花费战网点数或游戏金币进行购买！	
 GLUE_STORE_PURCHASE_LOCK_HEADER	Purchase Error	
-GLUE_STORE_PURCHASE_LOCK_DESCRIPTION	Your account has a pending purchase on {0}. Please open Hearthstone from the device where you last tried to make a purchase.\n\nIf this problem persists, please contact Blizzard Custom Support by pressing the Help button below.	0=one of GLOBAL_STORE_MOBILE_NAME_*
-GLUE_STORE_PACKBUY_SUGGESTION	Best for\nNew Players!	
+GLUE_STORE_PURCHASE_LOCK_DESCRIPTION	Your account has a pending purchase on {0}. Please open Hearthstone from the device where you last tried to make a purchase.\n\nIf this problem persists, please contact Blizzard Customer Support by pressing the Help button below.	0=one of GLOBAL_STORE_MOBILE_NAME_*
+GLUE_STORE_PACKBUY_SUGGESTION	Recommended	
 GLUE_STORE_HEROES_PURCHASED	Purchased	
 GLUE_STORE_HEROES_DESCRIPTION_PHONE	Includes a new portrait, more visual effects & emotes, and a card back!\n<color=#00000066>Uses existing {0} cards and hero power.</color>	
 GLUE_MINSPEC_WARNING	This device is below the recommended specification to run Hearthstone and may run slowly.\n\nTap OK to continue or SUPPORT to find out more.	
@@ -609,8 +634,10 @@ GLUE_STORE_PACKS_PREORDER_TEXT	Pre-purchase
 GLUE_STORE_PACKS_LATEST_EXPANSION	Latest Expansion	
 GLUE_STORE_SPECIAL_OFFER	Special Offer!	
 GLUE_STORE_TGT_PREORDER_DATE	Available in August!	
+GLUE_STORE_OG_PREORDER_DATE	Available in Spring*!	
 GLUE_ARENA_VIEW_DECK	View Deck	
 GLUE_PICK_A_CARD	Pick a Card	
+GLUE_PICK_A_REPLACEMENT	Pick a Replacement	
 GLUE_PICK_A_REGION	Pick a Region	
 GLUE_STORE_ADVENTURE_BUTTON_UNAVAILABLE_HEADLINE	Unavailable!	
 GLUE_STORE_ADVENTURE_BUTTON_UNAVAILABLE_DESCRIPTION	This product is currently unavailable for purchase.	
@@ -652,4 +679,22 @@ GLUE_ADVENTURE_LOE_STAFF_DISAPPEARED	Thanks for the staff!\n- Rafaam
 GLUE_ADVENTURE_LOE_STAFF_RESERVED	Reserved for\nThe Staff of Origination	
 GLUE_ADVENTURE_LOE_WING4_LOCKED	Complete all other wings	
 GLUE_ADVENTURE_LOE_WING4_LOCKED_PURCHASE	Complete all\nother wings to purchase	
-GLUE_ADVENTURE_MORE_CARDS	more cards	// full text appears as "+6 more cards"
+GLUE_ADVENTURE_MORE_CARDS	more cards	// full text appears as "+6 more cards"	
+GLUE_ERROR_DECK_RULESET_RULE_VIOLATION	The selected deck is not valid for this game mode.	
+GLUE_DECK_TEMPLATE_CHOOSE_DECK	{0} Recipes	0=name of class (e.g. Shaman)
+GLUE_DECK_TEMPLATE_CUSTOM_DECK	Custom Deck	
+GLUE_DECK_TEMPLATE_CURRENT_DECK	Current Deck	
+GLUE_DECK_TEMPLATE_CUSTOM_DECK_DESCRIPTION	Build your own deck!	
+GLUE_COLLECTION_MANAGER_SEARCH_GOLDEN	golden
+GLUE_COLLECTION_MANAGER_SEARCH_MANA	mana
+GLUE_COLLECTION_MANAGER_SEARCH_ARTIST	artist
+GLUE_COLLECTION_MANAGER_SEARCH_ATTACK	attack
+GLUE_COLLECTION_MANAGER_SEARCH_HEALTH	health
+GLUE_COLLECTION_MANAGER_SEARCH_OWNED	owned
+GLUE_COLLECTION_MANAGER_SEARCH_MISSING	missing
+GLUE_COLLECTION_MANAGER_SEARCH_EXTRA	extra
+GLUE_COLLECTION_MANAGER_SEARCH_NEW	new
+GLUE_STORE_LEAVING_SOON	Leaving the\nshop soon!	
+GLUE_STORE_LEAVING_SOON_LEARN_MORE	Learn more	
+GLUE_STORE_ADVENTURE_LEAVING_SOON	Adventure leaving soon!	
+GLUE_STORE_EXPANSION_LEAVING_SOON	Expansion leaving soon!	
