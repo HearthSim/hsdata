@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Dbf name="BOOSTER">
-	<SourceFingerprint>FcnHXGocH9PkTzSyrdwNgc/N/ec=</SourceFingerprint>
+	<SourceFingerprint>rJtR7+SC8+YwJAcf99ei7R3GDS8=</SourceFingerprint>
 	<Column name="ID" type="Int" />
 	<Column name="NOTE_DESC" type="String" />
 	<Column name="SORT_ORDER" type="Int" />
@@ -11,6 +11,8 @@
 	<Column name="PACK_OPENING_FX_PREFAB" type="AssetPath" />
 	<Column name="STORE_PREFAB" type="AssetPath" />
 	<Column name="ARENA_PREFAB" type="AssetPath" />
+	<Column name="LEAVING_SOON" type="Bool" />
+	<Column name="LEAVING_SOON_TEXT" type="LocString" />
 	<Record>
 		<Field column="ID">1</Field>
 		<Field column="NOTE_DESC">Set 1 Expert</Field>
@@ -18,8 +20,8 @@
 		<Field column="OPEN_PACK_EVENT">none</Field>
 		<Field column="BUY_WITH_GOLD_EVENT">none</Field>
 		<Field column="NAME" loc_ID="20878">
-			<enUS>Classic</enUS>
 			<deDE>Klassik</deDE>
+			<enUS>Classic</enUS>
 			<esES>Clásico</esES>
 			<esMX>Clásico</esMX>
 			<frFR>Classique</frFR>
@@ -29,6 +31,7 @@
 			<plPL>Klasyczne</plPL>
 			<ptBR>Clássico</ptBR>
 			<ruRU>Классический набор</ruRU>
+			<thTH>คลาสสิค</thTH>
 			<zhCN>经典</zhCN>
 			<zhTW>經典</zhTW>
 		</Field>
@@ -36,6 +39,8 @@
 		<Field column="PACK_OPENING_FX_PREFAB">Assets/Game/GameObjects/PackOpeningFX_Default</Field>
 		<Field column="STORE_PREFAB">Assets/Game/GameObjects/StorePackDefs/StorePackDef_Expert</Field>
 		<Field column="ARENA_PREFAB">Assets/Game/GameObjects/Pack_Reward</Field>
+		<Field column="LEAVING_SOON">False</Field>
+		<Field column="LEAVING_SOON_TEXT" />
 	</Record>
 	<Record>
 		<Field column="ID">3</Field>
@@ -48,6 +53,8 @@
 		<Field column="PACK_OPENING_FX_PREFAB" />
 		<Field column="STORE_PREFAB" />
 		<Field column="ARENA_PREFAB" />
+		<Field column="LEAVING_SOON">False</Field>
+		<Field column="LEAVING_SOON_TEXT" />
 	</Record>
 	<Record>
 		<Field column="ID">5</Field>
@@ -60,6 +67,8 @@
 		<Field column="PACK_OPENING_FX_PREFAB" />
 		<Field column="STORE_PREFAB" />
 		<Field column="ARENA_PREFAB" />
+		<Field column="LEAVING_SOON">False</Field>
+		<Field column="LEAVING_SOON_TEXT" />
 	</Record>
 	<Record>
 		<Field column="ID">6</Field>
@@ -72,6 +81,8 @@
 		<Field column="PACK_OPENING_FX_PREFAB" />
 		<Field column="STORE_PREFAB" />
 		<Field column="ARENA_PREFAB" />
+		<Field column="LEAVING_SOON">False</Field>
+		<Field column="LEAVING_SOON_TEXT" />
 	</Record>
 	<Record>
 		<Field column="ID">9</Field>
@@ -80,8 +91,8 @@
 		<Field column="OPEN_PACK_EVENT">none</Field>
 		<Field column="BUY_WITH_GOLD_EVENT">none</Field>
 		<Field column="NAME" loc_ID="20879">
-			<enUS>Goblins vs Gnomes</enUS>
 			<deDE>Goblins gegen Gnome</deDE>
+			<enUS>Goblins vs Gnomes</enUS>
 			<esES>Goblins vs. Gnomos</esES>
 			<esMX>Goblins versus Gnomos</esMX>
 			<frFR>Gobelins et gnomes</frFR>
@@ -91,6 +102,7 @@
 			<plPL>Gobliny vs Gnomy</plPL>
 			<ptBR>Goblins vs Gnomos</ptBR>
 			<ruRU>Гоблины и гномы</ruRU>
+			<thTH>Goblins vs Gnomes</thTH>
 			<zhCN>地精大战侏儒</zhCN>
 			<zhTW>哥哥打地地</zhTW>
 		</Field>
@@ -98,6 +110,23 @@
 		<Field column="PACK_OPENING_FX_PREFAB">Assets/Game/GameObjects/PackOpeningFX_GvG</Field>
 		<Field column="STORE_PREFAB">Assets/Game/GameObjects/StorePackDefs/StorePackDef_GvG</Field>
 		<Field column="ARENA_PREFAB">Assets/Game/GameObjects/Pack_Reward_GvG</Field>
+		<Field column="LEAVING_SOON">True</Field>
+		<Field column="LEAVING_SOON_TEXT" loc_ID="22350">
+			<enUS>Goblins vs Gnomes will soon be unavailable for purchase. You can still craft and play the cards in most modes, though not in the upcoming Standard Format.</enUS>
+			<deDE>Goblins gegen Gnome ist bald nicht mehr zum Kauf verfügbar. Sie können die Karten immer noch herstellen und in den meisten Modi verwenden, außer im kommenden Standardformat.</deDE>
+			<esES>La compra de Goblins vs. Gnomos pronto dejará de estar disponible. Aunque podrás seguir creando y jugando sus cartas en la mayoría de los modos de juego, no será así en el nuevo formato estándar.</esES>
+			<esMX>Dentro de poco, ya no podrás comprar Goblins versus Gnomos en la tienda. Aún podrás crear y usar las cartas en la mayoría de los modos, pero no en el nuevo formato estándar.</esMX>
+			<frFR>Gobelins et Gnomes ne sera bientôt plus disponible à l’achat. Vous pourrez toujours créer et jouer les cartes de cette extension dans la plupart des modes, mais pas dans le mode Standard à venir.</frFR>
+			<itIT>Presto non sarà più possibile acquistare le buste di Goblin vs Gnomi. Potrai ancora creare e utilizzare le sue carte nella maggior parte delle modalità, ma non nel nuovo formato Standard.</itIT>
+			<jaJP>GvGの購入及び、カードの作成とプレイはスタンダード・フォーマットをもって終了します。</jaJP>
+			<koKR>고블린 대 노움이 곧 상점에서 사라집니다. 상점에서 사라진 후에도 해당 세트의 카드를 제작하여 대부분의 방식에서 사용할 수 있지만, 정규전에서는 사용할 수 없습니다.</koKR>
+			<plPL>Rozszerzenie Gobliny vs Gnomy wkrótce przestanie być dostępne w sprzedaży. Wciąż możliwe będzie tworzenie tych kart i gra nimi w większości trybów, choć nie w nadchodzącym formacie Standardowym.</plPL>
+			<ptBR>Goblins vs Gnomos não estará mais à venda. Você ainda pode criar e jogar os cards em quase todos os modos, mas não no Formato Padrão.</ptBR>
+			<ruRU>Наборы карт дополнения «Гоблины и гномы» скоро будут изъяты из продажи, но вы сможете создавать карты из него и играть ими, за исключением грядущего стандартного формата.</ruRU>
+			<thTH>Goblins vs Gnomes จะเลิกวางจำหน่ายในเร็วๆ นี้ คุณยังคงสามารถสร้างและใช้การ์ดในโหมดส่วนใหญ่ได้ ยกเว้นเกมในกฎมาตรฐานที่กำลังจะมาถึง</thTH>
+			<zhCN>“地精大战侏儒”即将无法购买。之后你还是可以制作该系列卡牌，且适用于绝大多数模式，但在即将启用的标准模式中无法使用。</zhCN>
+			<zhTW>《哥哥打弟弟》即將無法購買。之後你還是可以合成這些卡牌，並在大多數的模式中使用，但不包括即將啟用的標準模式。</zhTW>
+		</Field>
 	</Record>
 	<Record>
 		<Field column="ID">10</Field>
@@ -106,8 +135,8 @@
 		<Field column="OPEN_PACK_EVENT">tgt_normal_sale</Field>
 		<Field column="BUY_WITH_GOLD_EVENT">tgt_normal_sale</Field>
 		<Field column="NAME" loc_ID="20880">
-			<enUS>The Grand Tournament</enUS>
 			<deDE>Das Große Turnier</deDE>
+			<enUS>The Grand Tournament</enUS>
 			<esES>El Gran Torneo</esES>
 			<esMX>El Gran Torneo</esMX>
 			<frFR>Le Grand Tournoi</frFR>
@@ -117,6 +146,7 @@
 			<plPL>Wielki Turniej</plPL>
 			<ptBR>O Grande Torneio</ptBR>
 			<ruRU>Большой турнир</ruRU>
+			<thTH>Grand Tournament</thTH>
 			<zhCN>冠军的试炼</zhCN>
 			<zhTW>銀白聯賽</zhTW>
 		</Field>
@@ -124,5 +154,36 @@
 		<Field column="PACK_OPENING_FX_PREFAB">Assets/Game/GameObjects/PackOpeningFX_TGT</Field>
 		<Field column="STORE_PREFAB">Assets/Game/GameObjects/StorePackDefs/StorePackDef_TGT</Field>
 		<Field column="ARENA_PREFAB">Assets/Game/GameObjects/Pack_Reward_TGT</Field>
+		<Field column="LEAVING_SOON">False</Field>
+		<Field column="LEAVING_SOON_TEXT" />
+	</Record>
+	<Record>
+		<Field column="ID">11</Field>
+		<Field column="NOTE_DESC">Old Gods Pack</Field>
+		<Field column="SORT_ORDER">4</Field>
+		<Field column="OPEN_PACK_EVENT">og_normal_sale</Field>
+		<Field column="BUY_WITH_GOLD_EVENT">og_normal_sale</Field>
+		<Field column="NAME" loc_ID="22127">
+			<deDE>Das Flüstern der Alten Götter</deDE>
+			<enUS>Whispers of the Old Gods</enUS>
+			<esES>Susurros de los Dioses Antiguos</esES>
+			<esMX>Susurros de los Dioses Antiguos</esMX>
+			<frFR>Murmures des Dieux très anciens</frFR>
+			<itIT>Sussurri degli Dei Antichi</itIT>
+			<jaJP>旧神のささやき</jaJP>
+			<koKR>고대 신의 속삭임</koKR>
+			<plPL>Przedwieczni Bogowie</plPL>
+			<ptBR>Sussurros dos Deuses Antigos</ptBR>
+			<ruRU>Пробуждение древних богов</ruRU>
+			<thTH>Whispers of the Old Gods</thTH>
+			<zhCN>上古之神的低语</zhCN>
+			<zhTW>古神碎碎念</zhTW>
+		</Field>
+		<Field column="PACK_OPENING_PREFAB">Assets/Game/Actors/UnopenedOGPack</Field>
+		<Field column="PACK_OPENING_FX_PREFAB">Assets/Game/GameObjects/PackOpeningFX_OG</Field>
+		<Field column="STORE_PREFAB">Assets/Game/GameObjects/StorePackDefs/StorePackDef_OG</Field>
+		<Field column="ARENA_PREFAB">Assets/Game/GameObjects/Pack_Reward_OG</Field>
+		<Field column="LEAVING_SOON">False</Field>
+		<Field column="LEAVING_SOON_TEXT" />
 	</Record>
 </Dbf>
