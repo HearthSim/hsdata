@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Dbf name="FIXED_REWARD_MAP">
-	<SourceFingerprint>t0sY8xYn/7+OuBYmNqJQJIkR5X0=</SourceFingerprint>
+	<SourceFingerprint>1mt9Igqb1aKxWKrYXkQ00leGYDc=</SourceFingerprint>
 	<Column name="ID" type="Int" />
 	<Column name="ACTION_ID" type="Int" />
 	<Column name="REWARD_ID" type="Int" />
@@ -742,7 +742,7 @@
 			<deDE>Spektraler Ritter freigeschaltet.</deDE>
 			<esES>¡Caballero espectral desbloqueado!</esES>
 			<esMX>¡Has desbloqueado la carta Caballero espectral!</esMX>
-			<frFR>Chevalier de la mort spectral débloqué !</frFR>
+			<frFR>Chevalier spectral débloqué !</frFR>
 			<itIT>Hai sbloccato la carta Comandante Spettrale!</itIT>
 			<jaJP>亡霊騎士を入手！</jaJP>
 			<koKR>유령 기사 잠금 해제!</koKR>
@@ -11494,5 +11494,17 @@
 		<Field column="TOAST_NAME" />
 		<Field column="TOAST_DESCRIPTION" />
 		<Field column="SORT_ORDER">770</Field>
+	</Record>
+	<Record>
+		<Field column="ID">771</Field>
+		<Field column="ACTION_ID">481</Field>
+		<Field column="REWARD_ID">528</Field>
+		<Field column="REWARD_COUNT">1</Field>
+		<Field column="NOTE_DESC">Own Khadgar license =&gt; Khadgar</Field>
+		<Field column="USE_QUEST_TOAST">False</Field>
+		<Field column="REWARD_TIMING">never</Field>
+		<Field column="TOAST_NAME" />
+		<Field column="TOAST_DESCRIPTION" />
+		<Field column="SORT_ORDER">771</Field>
 	</Record>
 </Dbf>

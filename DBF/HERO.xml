@@ -1,19 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Dbf name="HERO">
-	<SourceFingerprint>ADzUUFuMqcT/y6nsMOOJzVF/ZLQ=</SourceFingerprint>
+	<SourceFingerprint>/biBa49rMOL+48a8HgBC5LkgWN0=</SourceFingerprint>
 	<Column name="ID" type="Int" />
 	<Column name="CARD_ID" type="String" />
 	<Column name="CARD_BACK_ID" type="Int" />
-	<Column name="STORE_BOUGHT" type="Bool" />
 	<Column name="DESCRIPTION" type="LocString" />
-	<Column name="STORE_TITLE" type="LocString" />
-	<Column name="STORE_DESCRIPTION" type="LocString" />
 	<Column name="HERODEF_ASSET_PATH" type="AssetPath" />
+	<Column name="STORE_DESCRIPTION" type="LocString" />
+	<Column name="STORE_DESCRIPTION_PHONE" type="LocString" />
+	<Column name="STORE_BANNER_PREFAB" type="AssetPath" />
+	<Column name="STORE_BACKGROUND_TEXTURE" type="AssetPath" />
+	<Column name="STORE_SORT_ORDER" type="Int" />
+	<Column name="PURCHASE_COMPLETE_MSG" type="LocString" />
 	<Record>
 		<Field column="ID">1</Field>
 		<Field column="CARD_ID">HERO_01</Field>
 		<Field column="CARD_BACK_ID" />
-		<Field column="STORE_BOUGHT">False</Field>
 		<Field column="DESCRIPTION" loc_ID="21107">
 			<enUS>This former Warchief of the Horde isn’t bitter about being deposed. Not at all.</enUS>
 			<deDE>Dieser ehemalige Kriegshäuptling der Horde mag seinen Thron eingebüßt haben, aber nicht seinen rustikalen Charme.</deDE>
@@ -30,15 +32,18 @@
 			<zhCN>前部落酋长根本不在乎被罢黜。一点儿也不。</zhCN>
 			<zhTW>部落的前任大酋長才不會因為被拋棄就傷心呢。絕對不會！</zhTW>
 		</Field>
-		<Field column="STORE_TITLE" />
-		<Field column="STORE_DESCRIPTION" />
 		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_01</Field>
+		<Field column="STORE_DESCRIPTION" />
+		<Field column="STORE_DESCRIPTION_PHONE" />
+		<Field column="STORE_BANNER_PREFAB" />
+		<Field column="STORE_BACKGROUND_TEXTURE" />
+		<Field column="STORE_SORT_ORDER" />
+		<Field column="PURCHASE_COMPLETE_MSG" />
 	</Record>
 	<Record>
 		<Field column="ID">2</Field>
 		<Field column="CARD_ID">HERO_02</Field>
 		<Field column="CARD_BACK_ID" />
-		<Field column="STORE_BOUGHT">False</Field>
 		<Field column="DESCRIPTION" loc_ID="21108">
 			<enUS>Thrall quit his former job as Warchief to save the world and spend more time with his family.</enUS>
 			<deDE>Thrall hat seinen Job als Kriegshäuptling an den Nagel gehängt, um die Welt zu retten – und mehr Zeit mit seiner Familie zu verbringen.</deDE>
@@ -55,15 +60,18 @@
 			<zhCN>为了拯救世界，也为了陪伴家人，萨尔卸下了部落酋长的重担。</zhCN>
 			<zhTW>索爾辭掉了大酋長的工作以拯救世界，並且多陪陪家人。</zhTW>
 		</Field>
-		<Field column="STORE_TITLE" />
-		<Field column="STORE_DESCRIPTION" />
 		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_02</Field>
+		<Field column="STORE_DESCRIPTION" />
+		<Field column="STORE_DESCRIPTION_PHONE" />
+		<Field column="STORE_BANNER_PREFAB" />
+		<Field column="STORE_BACKGROUND_TEXTURE" />
+		<Field column="STORE_SORT_ORDER" />
+		<Field column="PURCHASE_COMPLETE_MSG" />
 	</Record>
 	<Record>
 		<Field column="ID">3</Field>
 		<Field column="CARD_ID">HERO_03</Field>
 		<Field column="CARD_BACK_ID" />
-		<Field column="STORE_BOUGHT">False</Field>
 		<Field column="DESCRIPTION" loc_ID="21109">
 			<enUS>Expert assassin.  Deadly gladiator.  Best knife skills in her cooking class, according to survivors.</enUS>
 			<deDE>Profikillerin und Gladiatorenchampion. Glänzte in ihrem Kochkurs durch geschickten Umgang mit Messern ... behaupten zumindest die Überlebenden.</deDE>
@@ -80,15 +88,18 @@
 			<zhCN>刺杀专家。致命角斗士。唯一在暴风城中享有崇高威望的血精灵。</zhCN>
 			<zhTW>精英殺手，致命鬥士，而且根據生還者所言，她的刀工在料理界也堪稱一絕。</zhTW>
 		</Field>
-		<Field column="STORE_TITLE" />
-		<Field column="STORE_DESCRIPTION" />
 		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_03</Field>
+		<Field column="STORE_DESCRIPTION" />
+		<Field column="STORE_DESCRIPTION_PHONE" />
+		<Field column="STORE_BANNER_PREFAB" />
+		<Field column="STORE_BACKGROUND_TEXTURE" />
+		<Field column="STORE_SORT_ORDER" />
+		<Field column="PURCHASE_COMPLETE_MSG" />
 	</Record>
 	<Record>
 		<Field column="ID">4</Field>
 		<Field column="CARD_ID">HERO_04</Field>
 		<Field column="CARD_BACK_ID" />
-		<Field column="STORE_BOUGHT">False</Field>
 		<Field column="DESCRIPTION" loc_ID="21110">
 			<enUS>Leader of the Knights of the Silver Hand.  Best-selling author of The Light and How to Swing It.</enUS>
 			<deDE>Anführer des Ordens der Silbernen Hand und Autor des Bestsellers „Vom Licht und wie man es schwingt“.</deDE>
@@ -105,15 +116,18 @@
 			<zhCN>白银之手骑士团的领袖。年度畅销读物《圣光之力》的作者。</zhCN>
 			<zhTW>白銀之手騎士團的首領。讓他出名的不只是聖光，還有手中的大錘。</zhTW>
 		</Field>
-		<Field column="STORE_TITLE" />
-		<Field column="STORE_DESCRIPTION" />
 		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_04</Field>
+		<Field column="STORE_DESCRIPTION" />
+		<Field column="STORE_DESCRIPTION_PHONE" />
+		<Field column="STORE_BANNER_PREFAB" />
+		<Field column="STORE_BACKGROUND_TEXTURE" />
+		<Field column="STORE_SORT_ORDER" />
+		<Field column="PURCHASE_COMPLETE_MSG" />
 	</Record>
 	<Record>
 		<Field column="ID">5</Field>
 		<Field column="CARD_ID">HERO_05</Field>
 		<Field column="CARD_BACK_ID" />
-		<Field column="STORE_BOUGHT">False</Field>
 		<Field column="DESCRIPTION" loc_ID="21111">
 			<enUS>He only feels at home in the wilderness with his beasts.  Super secret:  Misha is his favorite.</enUS>
 			<deDE>Wirklich wohl fühlt er sich nur in der Wildnis mit seinen Tieren. Pssst: Misha mag er am liebsten.</deDE>
@@ -130,15 +144,18 @@
 			<zhCN>在浪迹天涯的岁月里，只有野兽的陪伴才能够给他家的温暖。而巨熊米莎则是他的最爱。</zhCN>
 			<zhTW>他只有和動物夥伴在野外的時候，才有回家的感覺。噓，他對米莎比較偏心！</zhTW>
 		</Field>
-		<Field column="STORE_TITLE" />
-		<Field column="STORE_DESCRIPTION" />
 		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_05</Field>
+		<Field column="STORE_DESCRIPTION" />
+		<Field column="STORE_DESCRIPTION_PHONE" />
+		<Field column="STORE_BANNER_PREFAB" />
+		<Field column="STORE_BACKGROUND_TEXTURE" />
+		<Field column="STORE_SORT_ORDER" />
+		<Field column="PURCHASE_COMPLETE_MSG" />
 	</Record>
 	<Record>
 		<Field column="ID">6</Field>
 		<Field column="CARD_ID">HERO_06</Field>
 		<Field column="CARD_BACK_ID" />
-		<Field column="STORE_BOUGHT">False</Field>
 		<Field column="DESCRIPTION" loc_ID="21112">
 			<enUS>The lord of the night elves is a wise and noble leader.  Yes, those antlers are real.</enUS>
 			<deDE>Der Herr der Nachtelfen ist ein weiser und edelmütiger Anführer. Und ja, das Geweih ist echt.</deDE>
@@ -155,15 +172,18 @@
 			<zhCN>暗夜精灵的领袖，睿智而高贵的大德鲁伊。没错，那些鹿角是真货。</zhCN>
 			<zhTW>夜精靈的首領是真正高尚又充滿智慧的領導者，而且那對鹿角也是真的。</zhTW>
 		</Field>
-		<Field column="STORE_TITLE" />
-		<Field column="STORE_DESCRIPTION" />
 		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_06</Field>
+		<Field column="STORE_DESCRIPTION" />
+		<Field column="STORE_DESCRIPTION_PHONE" />
+		<Field column="STORE_BANNER_PREFAB" />
+		<Field column="STORE_BACKGROUND_TEXTURE" />
+		<Field column="STORE_SORT_ORDER" />
+		<Field column="PURCHASE_COMPLETE_MSG" />
 	</Record>
 	<Record>
 		<Field column="ID">7</Field>
 		<Field column="CARD_ID">HERO_07</Field>
 		<Field column="CARD_BACK_ID" />
-		<Field column="STORE_BOUGHT">False</Field>
 		<Field column="DESCRIPTION" loc_ID="21113">
 			<enUS>Talented, persuasive and hard-working.  Too bad he wants to feed your soul to demons.</enUS>
 			<deDE>Talentiert, zielorientiert und sehr überzeugend. Wenn Ihr Euch mit ihm einlasst, solltet Ihr Eure Seele gut im Auge behalten.</deDE>
@@ -180,15 +200,18 @@
 			<zhCN>天赋异禀、能言善道、刻苦努力的术士。可惜他一心想做的事情就是把你的灵魂送给恶魔。</zhCN>
 			<zhTW>天資聰穎、辯才無礙、又奮發向上，可惜他的目標是把你的靈魂獻給惡魔。</zhTW>
 		</Field>
-		<Field column="STORE_TITLE" />
-		<Field column="STORE_DESCRIPTION" />
 		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_07</Field>
+		<Field column="STORE_DESCRIPTION" />
+		<Field column="STORE_DESCRIPTION_PHONE" />
+		<Field column="STORE_BANNER_PREFAB" />
+		<Field column="STORE_BACKGROUND_TEXTURE" />
+		<Field column="STORE_SORT_ORDER" />
+		<Field column="PURCHASE_COMPLETE_MSG" />
 	</Record>
 	<Record>
 		<Field column="ID">8</Field>
 		<Field column="CARD_ID">HERO_08</Field>
 		<Field column="CARD_BACK_ID" />
-		<Field column="STORE_BOUGHT">False</Field>
 		<Field column="DESCRIPTION" loc_ID="21114">
 			<enUS>The Kirin Tor’s leader is a powerful sorceress.  She used to be a lot nicer before the Theramore thing.</enUS>
 			<deDE>Mächtige Magierin und Anführerin der Kirin Tor. Sie hat seit dem „Theramore-Vorfall“ leichte Aggressionsprobleme.</deDE>
@@ -205,15 +228,18 @@
 			<zhCN>肯瑞托的领袖，强大的法师。曾经优柔温良而善解人意的她，被骇人听闻的塞拉摩事件彻底改变了。</zhCN>
 			<zhTW>祈倫托首領是位強大的法師，她在塞拉摩那些事發生之前，是個相當和善的人。</zhTW>
 		</Field>
-		<Field column="STORE_TITLE" />
-		<Field column="STORE_DESCRIPTION" />
 		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_08</Field>
+		<Field column="STORE_DESCRIPTION" />
+		<Field column="STORE_DESCRIPTION_PHONE" />
+		<Field column="STORE_BANNER_PREFAB" />
+		<Field column="STORE_BACKGROUND_TEXTURE" />
+		<Field column="STORE_SORT_ORDER" />
+		<Field column="PURCHASE_COMPLETE_MSG" />
 	</Record>
 	<Record>
 		<Field column="ID">9</Field>
 		<Field column="CARD_ID">HERO_09</Field>
 		<Field column="CARD_BACK_ID" />
-		<Field column="STORE_BOUGHT">False</Field>
 		<Field column="DESCRIPTION" loc_ID="21115">
 			<enUS>The future King of Stormwind is a kind, gentle soul.  Except when he’s in Shadowform.</enUS>
 			<deDE>Der zukünftige König Sturmwinds ist ein guter Junge ... in Schattengestalt manchmal aber sehr unartig.</deDE>
@@ -230,15 +256,18 @@
 			<zhCN>暴风城未来的国王有一颗善良而谦和的灵魂，除了他进入暗影形态的时候。</zhCN>
 			<zhTW>暴風城未來的國王有著善良和溫柔的靈魂，但在暗影型態的時候除外。</zhTW>
 		</Field>
-		<Field column="STORE_TITLE" />
-		<Field column="STORE_DESCRIPTION" />
 		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_09</Field>
+		<Field column="STORE_DESCRIPTION" />
+		<Field column="STORE_DESCRIPTION_PHONE" />
+		<Field column="STORE_BANNER_PREFAB" />
+		<Field column="STORE_BACKGROUND_TEXTURE" />
+		<Field column="STORE_SORT_ORDER" />
+		<Field column="PURCHASE_COMPLETE_MSG" />
 	</Record>
 	<Record>
 		<Field column="ID">10</Field>
 		<Field column="CARD_ID">HERO_01a</Field>
 		<Field column="CARD_BACK_ID">26</Field>
-		<Field column="STORE_BOUGHT">True</Field>
 		<Field column="DESCRIPTION" loc_ID="21116">
 			<enUS>Lord of Ironforge. King of Khaz Modan. Grand Explorer. Moira’s Dad. Most Huggable Leader.</enUS>
 			<deDE>Herr von Eisenschmiede, König von Khaz Modan, berühmter Entdecker, Moiras Papa und ein bär(t)iger Anführer.</deDE>
@@ -255,7 +284,7 @@
 			<zhCN>铁炉堡的主人。卡兹莫丹的国王。伟大的探索者。茉艾拉的父亲。最平易近人的领袖。</zhCN>
 			<zhTW>鐵爐堡國王、卡茲莫丹之王、偉大的探險家、茉艾拉的老爸、還有讓人最想要抱緊處理的國王。</zhTW>
 		</Field>
-		<Field column="STORE_TITLE" />
+		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_01a</Field>
 		<Field column="STORE_DESCRIPTION" loc_ID="21117">
 			<enUS>King Magni comes with an animated portrait, new visual effects, emotes and adds a new card back to your collection!\n\nMagni uses your existing warrior cards and the standard warrior hero power.</enUS>
 			<deDE>König Magni bietet ein animiertes Porträt, angepasste visuelle Effekte, neue Emotes und einen brandneuen Kartenrücken!\nMagni kämpft mit Kriegerkarten und der Standard-Heldenfähigkeit des Kriegers.</deDE>
@@ -270,15 +299,33 @@
 			<ruRU>К этому герою прилагается анимированный портрет, новые графические эффекты, эмоции и новая рубашка для карт в вашей коллекции!\n\nКороль Магни может использовать ваши карты воина и стандартную силу героя.</ruRU>
 			<thTH>ราชาแม็กนิมาพร้อมกับภาพประจำตัวขยับได้ รวมถึงวิชวลเอฟเฟกต์และการแสดงความรู้สึกแบบใหม่ และยังเพิ่มหลังการ์ดลายใหม่ให้คอลเลกชันของคุณด้วย!\n\nแม็กนิจะใช้การ์ดวอริเออร์ของคุณ รวมถึงพลังฮีโร่มาตรฐานของวอริเออร์</thTH>
 			<zhCN>购买矮人国王麦格尼即可获得新的英雄头像、全新动画效果、表情以及一款新的卡牌背面图案！\n\n麦格尼将使用你现有的战士卡牌和英雄技能。</zhCN>
-			<zhTW>麥格尼國王擁有獨特的動態頭像，新的視覺效果和表情語音，並且還會增加一張全新的卡背到你的收藏中！\n\n麥格尼可以使用你擁有的戰士卡牌，以及戰士的英雄能力。</zhTW>
+			<zhTW>麥格尼國王擁有獨特的動態頭像，新的視覺效果和表情語音，並且還會增加一張全新的卡背到你的收藏中！\n\n麥格尼可以沿用你擁有的戰士卡牌和英雄能力。</zhTW>
 		</Field>
-		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_01a</Field>
+		<Field column="STORE_DESCRIPTION_PHONE" loc_ID="22453">
+			<enUS>Includes a new portrait, more visual effects &amp; emotes, and a card back!\n&lt;color=#00000066&gt;Uses existing Warrior cards and hero power.&lt;/color&gt;</enUS>
+			<deDE>Umfasst ein neues Porträt, neue visuelle Effekte &amp; Emotes und einen Kartenrücken!\n&lt;color=#00000066&gt;Verwendet schon bestehende Kriegerkarten und die gleiche Heldenfähigkeit.&lt;/color&gt;</deDE>
+			<esES>¡Incluye un nuevo retrato, más efectos visuales y frases, y un dorso de carta!\n&lt;color=#00000066&gt;Utiliza las cartas y el poder de héroe del guerrero.&lt;/color&gt;</esES>
+			<esMX>Incluye un retrato nuevo, más efectos visuales y emociones, ¡y un dorso de carta!\n&lt;color=#00000066&gt;Usa el poder de héroe y las cartas de Guerrero existentes.&lt;/color&gt;</esMX>
+			<frFR>Comprend de nouveaux effets visuels, emotes, un portrait et un dos de carte !\n&lt;color=#00000066&gt;Utilise les cartes et le pouvoir héroïque de la classe guerrier.&lt;/color&gt;</frFR>
+			<itIT>Include un nuovo ritratto, effetti visivi ed emote, e un dorso per le carte!\n&lt;color=#00000066&gt;Usa il Potere Eroe e le carte della classe Guerriero.&lt;/color&gt;</itIT>
+			<jaJP>新しい肖像画と視覚効果、専用の感情表現セリフと、新しいカード裏面デザインがついてくる！\n&lt;color=#00000066&gt;既存のウォリアー用のカードとヒーローパワーを使用。&lt;/color&gt;</jaJP>
+			<koKR>새로운 초상화, 시각 효과, 감정 표현, 그리고 카드 뒷면이 포함되어 있습니다!\n&lt;color=#00000066&gt;내가 보유한 전사 카드와 기본 영웅 능력을 사용합니다.&lt;/color&gt;</koKR>
+			<plPL>Zawiera nowy portret, więcej efektów wizualnych i emotek oraz nowy rewers!\n&lt;color=#00000066&gt;Wykorzystuje istniejące karty oraz moc specjalną wojownika.&lt;/color&gt;</plPL>
+			<ptBR>Inclui um novo retrato, mais expressões e efeitos visuais e um verso de card!\n&lt;color=#00000066&gt;Usa cards de Guerreiro e poder heroico.&lt;/color&gt;</ptBR>
+			<ruRU>Включает в себя новый портрет, расширенные графические эффекты и эмоции, а также рубашку для карт. \n&lt;color=#00000066&gt;Использует имеющиеся карты воина, а также стандартную силу героя. &lt;/color&gt;</ruRU>
+			<thTH>มาพร้อมกับภาพประจำตัวใหม่ เพิ่มวิชวลเอฟเฟกต์และการแสดงความรู้สึก รวมถึงหลังการ์ด!\n&lt;color=#00000066&gt;ใช้การ์ดและพลังฮีโร่ของวอริเออร์ที่มีอยู่เดิม&lt;/color&gt;</thTH>
+			<zhCN>购买即可获得新的英雄头像、全新动画效果、表情以及一款新的卡牌背面图案！\n&lt;color=#00000066&gt;该英雄将使用你现有的战士卡牌和英雄技能。&lt;/color&gt;</zhCN>
+			<zhTW>包括一套新的頭像，視覺效果，表情語音和卡背！\n&lt;color=#00000066&gt;沿用既有的戰士卡牌和英雄能力。&lt;/color&gt;</zhTW>
+		</Field>
+		<Field column="STORE_BANNER_PREFAB" />
+		<Field column="STORE_BACKGROUND_TEXTURE" />
+		<Field column="STORE_SORT_ORDER">1</Field>
+		<Field column="PURCHASE_COMPLETE_MSG" />
 	</Record>
 	<Record>
 		<Field column="ID">11</Field>
 		<Field column="CARD_ID">HERO_05a</Field>
 		<Field column="CARD_BACK_ID">25</Field>
-		<Field column="STORE_BOUGHT">True</Field>
 		<Field column="DESCRIPTION" loc_ID="21118">
 			<enUS>The high elf Ranger Captain is a peerless archer. Ask any of the orcs she used for target practice.</enUS>
 			<deDE>Diese Elfenwaldläuferin ist eine beispiellose Bogenschützin. Fragt nur mal die Orcs, die für sie als Ziele herhalten mussten.</deDE>
@@ -295,7 +342,7 @@
 			<zhCN>高等精灵游侠将军，独步天下的神射手。死在她箭下的兽人士兵数不胜数。</zhCN>
 			<zhTW>這位高等精靈遊俠隊長是舉世無雙的神射手，不信的話，問問被她拿來當靶的獸人就知道了。</zhTW>
 		</Field>
-		<Field column="STORE_TITLE" />
+		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_05a</Field>
 		<Field column="STORE_DESCRIPTION" loc_ID="21119">
 			<enUS>Ranger Alleria comes with an animated portrait, new visual effects, emotes and adds a new card back to your collection! \n\nAlleria uses your existing hunter cards and the standard hunter hero power.</enUS>
 			<deDE>Die Waldläuferin Alleria bietet ein animiertes Porträt, angepasste visuelle Effekte, neue Emotes und einen brandneuen Kartenrücken!\nAlleria kämpft mit Jägerkarten und der Standard-Heldenfähigkeit des Jägers.</deDE>
@@ -310,15 +357,33 @@
 			<ruRU>К этому герою прилагается анимированный портрет, новые графические эффекты, эмоции и новая рубашка для карт в вашей коллекции!\n\nАллерия может использовать ваши карты охотника и стандартную силу героя.</ruRU>
 			<thTH>เรนเจอร์อัลลีเรียมาพร้อมกับภาพประจำตัวขยับได้ รวมถึงวิชวลเอฟเฟกต์และการแสดงความรู้สึกแบบใหม่ และยังเพิ่มหลังการ์ดลายใหม่ให้คอลเลกชันของคุณด้วย! \n\nอัลลีเรียจะใช้การ์ดฮันเตอร์ของคุณ รวมถึงพลังฮีโร่มาตรฐานของฮันเตอร์</thTH>
 			<zhCN>购买游侠奥蕾莉亚即可获得新的英雄头像、全新动画效果、表情以及一款新的卡牌背面图案！\n\n奥蕾莉亚将使用你现有的猎人卡牌和英雄技能。</zhCN>
-			<zhTW>遊俠艾蘭里亞擁有獨特的動態頭像，新的視覺效果和表情語音，並且還會增加一張全新的卡背到你的收藏！\n\n艾蘭里亞可以使用你擁有的獵人卡牌，以及獵人的英雄能力。</zhTW>
+			<zhTW>遊俠艾蘭里亞擁有獨特的動態頭像，新的視覺效果和表情語音，並且還會增加一張全新的卡背到你的收藏！\n\n艾蘭里亞可以沿用你擁有的獵人卡牌和英雄能力。</zhTW>
 		</Field>
-		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_05a</Field>
+		<Field column="STORE_DESCRIPTION_PHONE" loc_ID="22454">
+			<enUS>Includes a new portrait, more visual effects &amp; emotes, and a card back!\n&lt;color=#00000066&gt;Uses existing Hunter cards and hero power.&lt;/color&gt;</enUS>
+			<deDE>Umfasst ein neues Porträt, neue visuelle Effekte &amp; Emotes und einen Kartenrücken!\n&lt;color=#00000066&gt;Verwendet schon bestehende Jägerkarten und die gleiche Heldenfähigkeit.&lt;/color&gt;</deDE>
+			<esES>¡Incluye un nuevo retrato, más efectos visuales y frases, y un dorso de carta!\n&lt;color=#00000066&gt;Utiliza las cartas y el poder de héroe del cazador.&lt;/color&gt;</esES>
+			<esMX>Incluye un retrato nuevo, más efectos visuales y emociones, ¡y un dorso de carta!\n&lt;color=#00000066&gt;Usa el poder de héroe y las cartas de Cazador existentes.&lt;/color&gt;</esMX>
+			<frFR>Comprend de nouveaux effets visuels, emotes, un portrait et un dos de carte !\n&lt;color=#00000066&gt;Utilise les cartes et le pouvoir héroïque de la classe chasseur.&lt;/color&gt;</frFR>
+			<itIT>Include un nuovo ritratto, effetti visivi ed emote, e un dorso per le carte!\n&lt;color=#00000066&gt;Usa il Potere Eroe e le carte della classe Cacciatore.&lt;/color&gt;</itIT>
+			<jaJP>新しい肖像画と視覚効果、専用の感情表現セリフと、新しいカード裏面デザインがついてくる！\n&lt;color=#00000066&gt;既存のハンター用のカードとヒーローパワーを使用。&lt;/color&gt;</jaJP>
+			<koKR>새로운 초상화, 시각 효과, 감정 표현, 그리고 카드 뒷면이 포함되어 있습니다!\n&lt;color=#00000066&gt;내가 보유한 사냥꾼 카드와 기본 영웅 능력을 사용합니다.&lt;/color&gt;</koKR>
+			<plPL>Zawiera nowy portret, więcej efektów wizualnych i emotek, a także nowy rewers!\n&lt;color=#00000066&gt;Wykorzystuje istniejące karty oraz moc specjalną łowcy.&lt;/color&gt;</plPL>
+			<ptBR>Inclui um novo retrato, mais expressões e efeitos visuais e um verso de card!\n&lt;color=#00000066&gt;Usa cards de Caçador e poder heroico.&lt;/color&gt;</ptBR>
+			<ruRU>Включает в себя новый портрет, расширенные графические эффекты и эмоции, а также рубашку для карт. \n&lt;color=#00000066&gt;Использует имеющиеся карты  охотника, а также стандартную силу героя. &lt;/color&gt;</ruRU>
+			<thTH>มาพร้อมกับภาพประจำตัวใหม่ เพิ่มวิชวลเอฟเฟกต์และการแสดงความรู้สึก รวมถึงหลังการ์ด!\n&lt;color=#00000066&gt;ใช้การ์ดและพลังฮีโร่ของฮันเตอร์ที่มีอยู่เดิม&lt;/color&gt;</thTH>
+			<zhCN>购买即可获得新的英雄头像、全新动画效果、表情以及一款新的卡牌背面图案！\n&lt;color=#00000066&gt;该英雄将使用你现有的猎人卡牌和英雄技能。&lt;/color&gt;</zhCN>
+			<zhTW>包括一套新的頭像，視覺效果，表情語音和卡背！\n&lt;color=#00000066&gt;沿用既有的獵人卡牌和英雄能力。&lt;/color&gt;</zhTW>
+		</Field>
+		<Field column="STORE_BANNER_PREFAB" />
+		<Field column="STORE_BACKGROUND_TEXTURE" />
+		<Field column="STORE_SORT_ORDER">2</Field>
+		<Field column="PURCHASE_COMPLETE_MSG" />
 	</Record>
 	<Record>
 		<Field column="ID">12</Field>
 		<Field column="CARD_ID">HERO_08a</Field>
 		<Field column="CARD_BACK_ID">27</Field>
-		<Field column="STORE_BOUGHT">True</Field>
 		<Field column="DESCRIPTION" loc_ID="21120">
 			<enUS>The Guardian of Tirisfal is a force for good.  Demonic possession is a manageable condition.</enUS>
 			<deDE>Der Wächter von Tirisfal ist ein Kämpfer für das Gute! Dass er von einem gefallenen Titanen besessen ist, beeinflusst ihn kein bisschen.</deDE>
@@ -335,7 +400,7 @@
 			<zhCN>肩上担负的是守护提瑞斯法议会的重任，心中潜伏的是毁灭艾泽拉斯的恶魔。</zhCN>
 			<zhTW>提里斯法守護者就是一股善的力量，就算有惡魔附身也不成問題。</zhTW>
 		</Field>
-		<Field column="STORE_TITLE" />
+		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_08a</Field>
 		<Field column="STORE_DESCRIPTION" loc_ID="21121">
 			<enUS>Guardian Medivh comes with an animated portrait, new visual effects, emotes and adds a new card back to your collection!\n\nMedivh uses your existing mage cards and the standard mage hero power.</enUS>
 			<deDE>Der Wächter Medivh bietet ein animiertes Porträt, angepasste visuelle Effekte, neue Emotes und einen brandneuen Kartenrücken!\nMedivh kämpft mit Magierkarten und der Standard-Heldenfähigkeit des Magiers.</deDE>
@@ -350,33 +415,128 @@
 			<ruRU>К этому герою прилагается анимированный портрет, новые графические эффекты, эмоции и новая рубашка для карт в вашей коллекции!\n\nМедив может использовать ваши карты мага и стандартную силу героя.</ruRU>
 			<thTH>ผู้พิทักษ์เมดิฟห์มาพร้อมกับภาพประจำตัวขยับได้ รวมถึงวิชวลเอฟเฟกต์และการแสดงความรู้สึกแบบใหม่ และยังเพิ่มหลังการ์ดลายใหม่ให้คอลเลกชันของคุณด้วย!\n\nเมดิฟห์จะใช้การ์ดเมจของคุณ รวมถึงพลังฮีโร่มาตรฐานของเมจ</thTH>
 			<zhCN>购买守护者麦迪文即可获得新的英雄头像、全新动画效果、表情以及一款新的卡牌背面图案！\n\n麦迪文将使用你现有的法师卡牌和英雄技能。</zhCN>
-			<zhTW>守護者麥迪文擁有獨特的動態頭像，新的視覺效果和表情語音，並且還會增加一張全新的卡背到你的收藏！\n\n麥迪文可以使用你擁有的法師卡牌，以及法師的英雄能力。</zhTW>
+			<zhTW>守護者麥迪文擁有獨特的動態頭像，新的視覺效果和表情語音，並且還會增加一張全新的卡背到你的收藏！\n\n麥迪文可以沿用你擁有的法師卡牌和英雄能力。</zhTW>
 		</Field>
-		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_08a</Field>
+		<Field column="STORE_DESCRIPTION_PHONE" loc_ID="22455">
+			<enUS>Includes a new portrait, more visual effects &amp; emotes, and a card back!\n&lt;color=#00000066&gt;Uses existing Mage cards and hero power.&lt;/color&gt;</enUS>
+			<deDE>Umfasst ein neues Porträt, neue visuelle Effekte &amp; Emotes und einen Kartenrücken!\n&lt;color=#00000066&gt;Verwendet schon bestehende Magierkarten und die gleiche Heldenfähigkeit.&lt;/color&gt;</deDE>
+			<esES>¡Incluye un nuevo retrato, más efectos visuales y frases, y un dorso de carta!\n&lt;color=#00000066&gt;Utiliza las cartas y el poder de héroe del mago.&lt;/color&gt;</esES>
+			<esMX>Incluye un retrato nuevo, más efectos visuales y emociones, ¡y un dorso de carta!\n&lt;color=#00000066&gt;Usa el poder de héroe y las cartas de Mago existentes.&lt;/color&gt;</esMX>
+			<frFR>Comprend de nouveaux effets visuels, emotes, un portrait et un dos de carte !\n&lt;color=#00000066&gt;Utilise les cartes et le pouvoir héroïque de la classe mage.&lt;/color&gt;</frFR>
+			<itIT>Include un nuovo ritratto, effetti visivi ed emote, e un dorso per le carte!\n&lt;color=#00000066&gt;Usa il Potere Eroe e le carte della classe Mago.&lt;/color&gt;</itIT>
+			<jaJP>新しい肖像画と視覚効果、専用の感情表現セリフと、新しいカード裏面デザインがついてくる！\n&lt;color=#00000066&gt;既存のメイジ用のカードとヒーローパワーを使用。&lt;/color&gt;</jaJP>
+			<koKR>새로운 초상화, 시각 효과, 감정 표현, 그리고 카드 뒷면이 포함되어 있습니다!\n&lt;color=#00000066&gt;내가 보유한 마법사 카드와 기본 영웅 능력을 사용합니다.&lt;/color&gt;</koKR>
+			<plPL>Zawiera nowy portret, więcej efektów wizualnych i emotek, a także nowy rewers!\n&lt;color=#00000066&gt;Wykorzystuje istniejące karty oraz moc specjalną maga.&lt;/color&gt;</plPL>
+			<ptBR>Inclui um novo retrato, mais expressões e efeitos visuais e um verso de card!\n&lt;color=#00000066&gt;Usa cards de Mago e poder heroico.&lt;/color&gt;</ptBR>
+			<ruRU>Включает в себя новый портрет, расширенные графические эффекты и эмоции, а также рубашку для карт. \n&lt;color=#00000066&gt;Использует имеющиеся карты мага, а также стандартную силу героя. &lt;/color&gt;</ruRU>
+			<thTH>มาพร้อมกับภาพประจำตัวใหม่ เพิ่มวิชวลเอฟเฟกต์และการแสดงความรู้สึก รวมถึงหลังการ์ด!\n&lt;color=#00000066&gt;ใช้การ์ดและพลังฮีโร่ของเมจที่มีอยู่เดิม&lt;/color&gt;</thTH>
+			<zhCN>购买即可获得新的英雄头像、全新动画效果、表情以及一款新的卡牌背面图案！\n&lt;color=#00000066&gt;该英雄将使用你现有的法师卡牌和英雄技能。&lt;/color&gt;</zhCN>
+			<zhTW>包括一套新的頭像，視覺效果，表情語音和卡背！\n&lt;color=#00000066&gt;沿用既有的法師卡牌和英雄能力。&lt;/color&gt;</zhTW>
+		</Field>
+		<Field column="STORE_BANNER_PREFAB" />
+		<Field column="STORE_BACKGROUND_TEXTURE" />
+		<Field column="STORE_SORT_ORDER">3</Field>
+		<Field column="PURCHASE_COMPLETE_MSG" />
 	</Record>
 	<Record>
 		<Field column="ID">13</Field>
 		<Field column="CARD_ID">HERO_04a</Field>
 		<Field column="CARD_BACK_ID" />
-		<Field column="STORE_BOUGHT">False</Field>
 		<Field column="DESCRIPTION" loc_ID="21943">
 			<enUS>Obtained through an upcoming World of Warcraft promotion.</enUS>
 			<deDE>Belohnung für Spieler, die an einer zukünftigen World of Warcraft-Promo teilnehmen.</deDE>
 			<esES>Se obtiene mediante una próxima promoción con World of Warcraft.</esES>
-			<esMX>Obtenida por medio de una promoción futura en World of Warcraft.</esMX>
+			<esMX>Obtenida con una futura promoción de World of Warcraft.</esMX>
 			<frFR>Obtenue en récompense d’une promotion World of Warcraft à venir.</frFR>
-			<itIT>Ottenuto tramite una futura promozione per World of Warcraft.</itIT>
-			<jaJP>「World of Warcraft」プロモーションで入手可能！</jaJP>
-			<koKR>곧 시작하는 월드 오브 워크래프트 프로모션을 통해 획득</koKR>
-			<plPL>Portret przyznany w nadchodzącej promocji World of Warcraft.</plPL>
-			<ptBR>Adquirido por meio de uma futura promoção de World of Warcraft.</ptBR>
+			<itIT>Ottenuto attraverso una promozione di World of Warcraft.</itIT>
+			<jaJP>まもなく始まる「World of Warcraft」のプロモーションで入手可能！</jaJP>
+			<koKR>리아드린은 월드 오브 워크래프트 프로모션에 참여하여 획득할 수 있습니다.</koKR>
+			<plPL>Bohater przyznawany w promocji World of Warcraft.</plPL>
+			<ptBR>Obtida em uma promoção de World of Warcraft a ser anunciada.</ptBR>
 			<ruRU>Награда за будущую акцию в World of Warcraft.</ruRU>
-			<thTH>ได้รับผ่านโปรโมชั่นของ World of Warcraft ที่กำลังจะจัดขึ้น</thTH>
-			<zhCN>参与《魔兽世界》中即将举行的活动来获得该奖励。</zhCN>
+			<thTH>ได้รับผ่านโปรโมชันของ World of Warcraft ที่กำลังจะเกิดขึ้น</thTH>
+			<zhCN>通过《魔兽世界》即将举办的推广活动获得！</zhCN>
 			<zhTW>於即將展開的《魔獸世界》活動中獲得。</zhTW>
 		</Field>
-		<Field column="STORE_TITLE" />
-		<Field column="STORE_DESCRIPTION" />
 		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_04a</Field>
+		<Field column="STORE_DESCRIPTION" />
+		<Field column="STORE_DESCRIPTION_PHONE" />
+		<Field column="STORE_BANNER_PREFAB" />
+		<Field column="STORE_BACKGROUND_TEXTURE" />
+		<Field column="STORE_SORT_ORDER" />
+		<Field column="PURCHASE_COMPLETE_MSG" />
+	</Record>
+	<Record>
+		<Field column="ID">14</Field>
+		<Field column="CARD_ID">HERO_08b</Field>
+		<Field column="CARD_BACK_ID" />
+		<Field column="DESCRIPTION" loc_ID="22114">
+			<enUS>His statue in Stormwind reflects his heroism, not his ego. Khadgar was available as a special promotion in April 2016.</enUS>
+			<thTH>รูปปั้นของเขาในสตอร์มวินด์สื่อถึงความกล้าหาญของเขา ไม่เกี่ยวกับความหลงตัวเองเลยสักนิด รับคาดการ์ได้จากโปรโมชั่นพิเศษในเดือนเมษายน 2016 </thTH>
+			<deDE>Die Größe seiner Statue in Sturmwind spiegelt seinen Heldenmut wider, nicht sein Ego. Khadgar war im Rahmen einer besonderen Aktion im April 2016 erhältlich.</deDE>
+			<esES>Su estatua en Ventormenta refleja su heroísmo, no su ego. Khadgar estuvo disponible como promoción especial en abril de 2016.</esES>
+			<esMX>Su estatua en Ventormenta es un reflejo de su heroísmo, no de su ego. Khadgar estuvo disponible como promoción especial en abril de 2016.</esMX>
+			<frFR>Sa statue à Hurlevent reflète son héroïsme, pas son ego. Khadgar était disponible pendant une promotion spéciale d’avril 2016.</frFR>
+			<itIT>La sua statua a Roccavento ne celebra l'eroismo, non l'ego. Ottenuto attraverso una promozione speciale nell'aprile 2016.</itIT>
+			<jaJP>ストームウィンドにある彼の像は、その勇壮たる魂を見事に描いているが、うぬぼれは表現しきれていない。カドガ―は2016年4月のスペシャルプロモーションで手に入れることができます。</jaJP>
+			<koKR>스톰윈드에 세워진 카드가의 조각상에는 그의 영웅적인 기상이 잘 나타나 있습니다. 근거 없는 자부심이 아니라고요. 카드가는 2016년 4월에 진행되는 특별 프로모션에 참여하여 획득할 수 있습니다.</koKR>
+			<plPL>Jego posąg w Wichrogrodzie ukazuje heroizm, a nie ego. Khadgar został udostępniony w specjalnej promocji w kwietniu 2016.</plPL>
+			<ptBR>A estátua dele em Ventobravo reflete o seu heroísmo, não seu ego. Hadggar fez parte da promoção especial de abril de 2016.</ptBR>
+			<ruRU>Его статуя в Штормграде символизирует героизм, а не самовлюбленность. Кадгар был доступен в рамках специальной акции в апреле 2016 г.</ruRU>
+			<zhCN>卡德加的雕像矗立在暴风城中，他的英勇事迹将永远被铭记。在2016年四月的特别活动中，卡德加将作为新的法师英雄登场。</zhCN>
+			<zhTW>暴風城門口的雕像要紀念的是他的英雄氣概，而不是他超冷的派對笑話。你可以在2016年4月的促銷活動中購買卡德加。</zhTW>
+		</Field>
+		<Field column="HERODEF_ASSET_PATH">Assets/Game/GameObjects/HeroDefs/CollectionHeroDef_08b</Field>
+		<Field column="STORE_DESCRIPTION" loc_ID="22371">
+			<enUS>Khadgar comes with an animated portrait, new visual effects and emotes, uses your existing mage cards and standard mage hero power. 100% of the proceeds will help WWF protect life on our planet. Only available till April 24.</enUS>
+			<deDE>Khadgar bietet ein animiertes Porträt sowie neue visuelle Effekte und Emotes! Er kämpft mit den Karten und der Standard-Heldenfähigkeit des Magiers. 100% des Erlöses gehen an den WWF zum Schutze unseres Planeten. Nur bis zum 24. April erhältlich.</deDE>
+			<esES>Khadgar viene con un retrato animado, nuevos efectos visuales y frases, utiliza las cartas de mago existentes y el poder de héroe estándar del mago. El 100% de los beneficios se destinará a WWF para proteger la vida en nuestro planeta. Solo estará disponible hasta el 24 de abril.</esES>
+			<esMX>Khadgar incluye un retrato animado, emociones y efectos visuales nuevos; usa las cartas de mago que ya tienes y el poder de héroe estándar de los magos. El 100% de las ganancias se destinarán a WWF para ayudar a proteger la vida en nuestro planeta. Solo disponible hasta el 24 de abril.</esMX>
+			<frFR>Khadgar bénéficie de nouveaux effets visuels et emotes, et d’un portrait animé. Il utilise les cartes et le pouvoir héroïque de la classe mage. 100% des bénéfices seront reversés au WWF pour aider à la sauvegarde de la vie sauvage. Uniquement disponible jusqu’au 24 avril 2016.</frFR>
+			<itIT>Khadgar si presenta con un ritratto animato, nuovi effetti visivi ed emote, e usa il Potere Eroe e le carte in tuo possesso del Mago.\nIl 100% dei ricavi sarà devoluto al WWF per proteggere la vita sul nostro pianeta.\nDisponibile solo fino al 24 aprile 2016.</itIT>
+			<jaJP>カドガーには、アニメーションする肖像画と新しい視覚効果、専用の感情表現セリフがついてくる。既存のメイジ用のカードと、通常のメイジのヒーローパワーを使用する。売り上げの100%が、地球の野生動物を保護するWWFの活動に寄付される。4月24日までの限定販売。</jaJP>
+			<koKR>카드가 세트에는 움직이는 초상화, 새로운 시각 효과, 감정 표현이 포함되어 있습니다. 카드가는 내가 보유한 마법사 카드와 마법사의 기본 영웅 능력을 사용합니다. 수익금의 100%는 WWF에 기부되어 지구의 생명을 보호하는 데 쓰입니다. 4월 24일까지 구매할 수 있습니다.</koKR>
+			<plPL>Khadgar dostępny jest wraz z animowanym portretem, nowymi efektami wizualnymi i emotkami. Wykorzystuje istniejące karty oraz moc specjalną maga.\nCały przychód ze sprzedaży zostanie przekazany organizacji WWF na rzecz ochrony życia na naszej planecie.\nBohater dostępny tylko do 24 kwietnia 2016.</plPL>
+			<ptBR>Hadggar vem com um retrato animado, novos efeitos visuais e expressões. Ele usa os cards de mago que você já tem e o poder heroico de mago padrão. 100% da renda será revertida para a WWF, que ajuda proteger a vida em nosso planeta. Disponível apenas até o dia 24 de abril.</ptBR>
+			<ruRU>К этому герою прилагается анимированный портрет, новые графические эффекты и эмоции.  Кадгар использует имеющиеся карты мага, а также стандартную силу героя. 100% выручки от продаж будет передано фонду WWF для защиты жизни на нашей планете. Акция действует только до 24 апреля.</ruRU>
+			<thTH>คาดการ์มาพร้อมกับภาพประจำตัวขยับได้ รวมถึงวิชวลเอฟเฟกต์และการแสดงความรู้สึกแบบใหม่ โดยจะใช้การ์ดเมจของคุณ รวมถึงพลังฮีโร่มาตรฐานของเมจ รายได้ทั้งหมดจะนำไปมอบให้กับ WWF ในการปกป้องชีวิตบนโลกใบนี้ วางจำหน่ายถึงวันที่ 24 เมษายนเท่านั้น</thTH>
+			<zhCN>购买大法师卡德加即可获得新的英雄头像、全新动画效果及表情，卡德加将使用你现有的法师卡牌和英雄技能。所有收入都会捐给世界自然基金会（WWF），用以保护地球上的野生动植物。购买有效期截止为4月24日。</zhCN>
+			<zhTW>卡德加擁有獨特的動態頭像，新的視覺效果和表情語音。他可以沿用你擁有的法師卡牌和英雄能力。收入全數交由世界自然基金會協助保護地球上的生命。僅販賣至4月24日。</zhTW>
+		</Field>
+		<Field column="STORE_DESCRIPTION_PHONE" loc_ID="22456">
+			<enUS>Includes a new portrait, more visual effects &amp; emotes! Uses existing mage cards and hero power.\n&lt;color=#00000066&gt;100% of the proceeds will help WWF protect life on our planet. Only available until April 24.&lt;/color&gt;</enUS>
+			<deDE>Umfasst ein neues Porträt, angepasste visuelle Effekte &amp; neue Emotes! Verwendet Magierkarten und die gleiche Heldenfähigkeit.\n&lt;color=#00000066&gt;100 % des Erlöses gehen an den WWF zum Schutze unseres Planeten. Nur bis zum 24. April erhältlich.&lt;/color&gt;</deDE>
+			<esES>¡Incluye un nuevo retrato, más efectos visuales y frases! Utiliza las cartas y el poder de héroe del mago.\n&lt;color=#00000066&gt;El 100% de los beneficios se destinará a WWF para proteger la vida en nuestro planeta. Solo estará disponible hasta el 24 de abril.&lt;/color&gt;</esES>
+			<esMX>¡Incluye un retrato nuevo, más efectos visuales y emociones! Usa el poder de héroe y las cartas de mago existentes.\n&lt;color=#00000066&gt;El 100% de las ganancias se destinarán a WWF para ayudar a proteger la vida de nuestro planeta. Solo disponible hasta el 24 de abril.&lt;/color&gt;</esMX>
+			<frFR>Comprend de nouveaux effets visuels, emotes et un portrait ! Utilise les cartes et le pouvoir héroïque de la classe mage.\n&lt;color=#00000066&gt;100% des bénéfices seront reversés au WWF pour aider à la sauvegarde de la vie sauvage. Uniquement disponible jusqu’au 24 avril 2016.&lt;/color&gt;</frFR>
+			<itIT>Include un nuovo ritratto, effetti visivi ed emote! Usa il Potere Eroe e le carte in tuo possesso del Mago.\n&lt;color=#00000066&gt;Il 100% dei ricavi sarà devoluto al WWF per proteggere la vita sul nostro pianeta. Disponibile solo fino al 24 aprile 2016.&lt;/color&gt;</itIT>
+			<jaJP>新しい肖像画と視覚効果、専用の感情表現セリフがついてくる！既存のメイジ用のカードとヒーローパワーを使用。\n&lt;color=#00000066&gt;売り上げの100%が、地球の野生動物を保護するWWFの活動に寄付される。4月24日までの限定販売。&lt;/color&gt;</jaJP>
+			<koKR>새로운 초상화, 시각 효과, 감정 표현이 포함되어 있습니다! 내가 보유한 마법사 카드와 기본 영웅 능력을 사용합니다.\n&lt;color=#00000066&gt;수익금의 100%는 WWF에 기부되어 지구의 생명을 보호하는 데 쓰입니다. 4월 24일까지 구매할 수 있습니다.&lt;/color&gt;</koKR>
+			<plPL>Zawiera nowy portret, więcej efektów wizualnych i emotek oraz nowy rewers! Wykorzystuje istniejące karty oraz moc specjalną maga.\n&lt;color=#00000066&gt;Cały przychód ze sprzedaży zostanie przekazany organizacji WWF na rzecz ochrony życia na naszej planecie. Bohater dostępny tylko do 24 kwietnia 2016.&lt;/color&gt;</plPL>
+			<ptBR>Inclui um novo retrato, mais expressões e efeitos visuais! Usa cards de mago existentes e poder heroico.\n&lt;color=#00000066&gt;100% da renda será revertida para a WWF, que ajuda a proteger a vida em nosso planeta. Disponível apenas até o dia 24 de abril.&lt;/color&gt;</ptBR>
+			<ruRU>Включает в себя новый портрет, расширенные графические эффекты и эмоции, использует имеющиеся карты мага, а также стандартную силу героя. \n&lt;color=#00000066&gt;100% выручки от продаж будет передано фонду WWF для защиты жизни на нашей планете. Акция действует только до 24 апреля.&lt;/color&gt;</ruRU>
+			<thTH>มาพร้อมกับภาพประจำตัวใหม่ เพิ่มวิชวลเอฟเฟกต์และการแสดงความรู้สึก รวมถึงหลังการ์ด! ใช้การ์ดและพลังฮีโร่ของเมจที่มีอยู่เดิม\n&lt;color=#00000066&gt;รายได้ทั้งหมดจะนำไปมอบให้กับ WWF เพื่อช่วยเหลือชีวิตบนโลก วางจำหน่ายถึงวันที่ 24 เมษายนเท่านั้น&lt;/color&gt;</thTH>
+			<zhCN>购买即可获得新的英雄头像、全新动画效果及表情，将使用你现有的法师卡牌和英雄技能。\n&lt;color=#00000066&gt;所有收入都会捐给世界自然基金会（WWF），用以保护地球上的野生动植物。购买有效期截止为4月24日。&lt;/color&gt;</zhCN>
+			<zhTW>包括一套新的頭像，視覺效果和表情語音！沿用既有的法師卡牌和英雄能力。\n&lt;color=#00000066&gt;收入全數交由世界自然基金會協助保護地球上的生命。僅販賣至4月24日。&lt;/color&gt;</zhTW>
+		</Field>
+		<Field column="STORE_BANNER_PREFAB">Assets/Game/GameObjects/SpecialEvents/WWF_Banner</Field>
+		<Field column="STORE_BACKGROUND_TEXTURE">Assets/Game/Textures/Store/StoreMain_AdvBackgroundFelt_WWF</Field>
+		<Field column="STORE_SORT_ORDER">0</Field>
+		<Field column="PURCHASE_COMPLETE_MSG" loc_ID="22447">
+			<enUS>Thank you for helping WWF protect life on our planet. Go to wwf.org to learn more.</enUS>
+			<deDE>Danke, dass Sie dem WWF dabei helfen, das Leben auf unserem Planeten zu schützen. Besuchen Sie worldwildlife.org für mehr Informationen.</deDE>
+			<esES>Gracias por ayudar a WWF a proteger la vida en nuestro planeta. Para obtener más detalles, visita wwf.org.</esES>
+			<esMX>Gracias por ayudar a WWF a proteger la vida de nuestro planeta. Visita wwf.org para obtener más información.</esMX>
+			<frFR>Merci d’aider le WWF à protéger la vie sur notre planète. Rendez-vous sur la page wwf.org pour en apprendre davantage.</frFR>
+			<itIT>Grazie per aver aiutato il WWF a proteggere la vita sul nostro pianeta. Per saperne di più, visita il sito wwf.org.</itIT>
+			<jaJP>WWFの自然保護活動への協力に感謝するぞ。詳しくはworldwildlife.orgを見てみてくれ。</jaJP>
+			<koKR>WWF를 도와 지구의 생명을 보호해 주셔서 감사합니다. wwf.org에서 자세한 정보를 알아보세요.</koKR>
+			<plPL>Dziękujemy za wsparcie organizacji WWF i pomoc w ochronie naszej planety. Więcej informacji na stronie wwf.org.</plPL>
+			<ptBR>Obrigado por ajudar a WWF a proteger a vida em nosso planeta. Acesse wwf.org para saber mais.</ptBR>
+			<ruRU>Спасибо за то, что помогли фонду WWF спасать жизнь на нашей планете. Чтобы узнать больше о деятельности фонда, перейдите на сайт wwf.org.</ruRU>
+			<thTH>ขอบคุณที่ช่วยเหลือ WWF ปกป้องชีวิตบนโลกใบนี้ ดูข้อมูลเพิ่มเติมได้ที่ wwf.org</thTH>
+			<zhCN>感谢您帮助世界自然基金会（WWF）为保护地球上的野生动植物所作出的贡献，浏览wwf.org了解更多详情。</zhCN>
+			<zhTW>感謝你協助世界自然基金會保護地球上的生命。到wwf.org可以了解更多詳細資訊。</zhTW>
+		</Field>
 	</Record>
 </Dbf>
