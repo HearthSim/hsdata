@@ -19,6 +19,8 @@ GLUE_ARENA_DECK	Mazo - Arena
 GLUE_ARENA_DECK_TOOLTIP	Este es tu mazo de la Arena. Estas cartas no forman parte de tu colección.	
 GLUE_ARENA_DECK_TOOLTIP_HEADER	Mazo de la Arena	
 GLUE_ARENA_VIEW_DECK	Ver mazo	
+GLUE_BASIC_DECK_WARNING_BODY	Mientras que los mazos básicos están permitidos en Estándar, ¡construir un mazo nuevo puede ser más exitoso!	
+GLUE_BASIC_DECK_WARNING_HEADER	Mazo básico	
 GLUE_BASIC_SET_PROGRESS	Cartas básicas: {0}/{1}	0=number of owned cards,1=total number of basic cards
 GLUE_BASIC_SET_PROGRESS_PHONE	{0}/{1}	0=number of owned cards,1=total number of basic cards
 GLUE_BLIZZCON2013_ARENA	¡Bienvenido a la Arena! Si ganas suficientes partidas, obtendrás un premio.	
@@ -50,6 +52,7 @@ GLUE_CANNOT_FIND_BATTLENET_CLIENT	Hearthstone no puede encontrar el cliente de B
 GLUE_CANNOT_RUN_BATTLENET_CLIENT	Hearthstone no puede encontrar el cliente de Battle.net. Visita www.battle.net para reinstalarlo.	
 GLUE_CARD_NERF_BODY	\n|4(La siguiente carta ha,Las siguientes cartas han) cambiado:\n{0}	0=card names
 GLUE_CARD_NERF_HEADER	¡Cambios!	
+GLUE_CARDS_UPDATED	Estas cartas han cambiado.	
 GLUE_CHOOSE	Elegir	
 GLUE_CHOOSE_OPPONENT	Elige a tu adversario	
 GLUE_CHOOSE_YOUR_DECK	Elige tu mazo	
@@ -67,6 +70,7 @@ GLUE_COLLECTION_ADD_TO_DECK	Agregar al mazo
 GLUE_COLLECTION_ALL	TODOS	
 GLUE_COLLECTION_ALL_CARDS	Todas las cartas	
 GLUE_COLLECTION_ALL_SETS	Todos los kits	
+GLUE_COLLECTION_ALL_STANDARD_CARDS	Cartas estándar	
 GLUE_COLLECTION_ARTIST	Artista: {0}	0=artist name
 GLUE_COLLECTION_CARD_COUNT	x{0}	
 GLUE_COLLECTION_CARD_COUNT_LARGE	x9+	
@@ -75,6 +79,8 @@ GLUE_COLLECTION_CARD_NEW	¡NUEVA!
 GLUE_COLLECTION_CARD_PERMISSION_ERROR	¡Ups! No puedes crear ni desencantar esa carta. Comunícate con el servicio de atención al cliente.	
 GLUE_COLLECTION_CARD_SOULBOUND	¡Ups! No puedes crear ni desencantar una carta que no se puede crear. Comunícate con el Servicio al cliente.	
 GLUE_COLLECTION_CARD_UNKNOWN_ERROR	Se ha encontrado un error inesperado id={0}.	
+GLUE_COLLECTION_CONVERT_DECK_BODY	Si cambias este mazo a estándar, se eliminarán {0} cartas del mazo. ¿Estás seguro de que quieres continuar?	
+GLUE_COLLECTION_CONVERT_DECK_HEADER	Convertir mazo	
 GLUE_COLLECTION_CRAFTING_DISENCHANT_BUTTON_TEXT	Desencantar cartas adicionales	
 GLUE_COLLECTION_CRAFTING_EXPLANATION	Selecciona una carta para comenzar a crearla.\n\nPara crear cartas, necesitas Polvo arcano, que se consigue desencantando cartas.\n\nLos costos varían según el nivel de rareza de la carta.	
 GLUE_COLLECTION_CRAFTING_FILTERS	Filtros	
@@ -88,14 +94,17 @@ GLUE_COLLECTION_DECK_DELETE	Borrar
 GLUE_COLLECTION_DECK_FINISH_FOR_ME	Sí	
 GLUE_COLLECTION_DECK_HELP_BUTTON	Asistente de mazos	
 GLUE_COLLECTION_DECK_HELPER_REPLACE_CARD	Reemplaza esta carta	
+GLUE_COLLECTION_DECK_HELPER_REPLACE_INVALID_CARD	Reemplazar cartas salvajes	
 GLUE_COLLECTION_DECK_INFO_HERO_POWER_TOOLTIP	Poder de héroe	
 GLUE_COLLECTION_DECK_INFO_MANA_TOOLTIP	Cartas/Costo de maná	
 GLUE_COLLECTION_DECK_INFO_TITLE	{0} Información	
 GLUE_COLLECTION_DECK_INVALID_POPUP_HEADER	Mazo no válido	
-GLUE_COLLECTION_DECK_INVALID_POPUP_MESSAGE	Necesitas {0} |4(carta,cartas) más para completar tu mazo. ¿Quieres completarlo automáticamente?	
 GLUE_COLLECTION_DECK_PASTE_POPUP_HEADER	Pegar mazo	
 GLUE_COLLECTION_DECK_PASTE_POPUP_MESSAGE	Si continúas, se borrará el mazo que tienes y se reemplazará con el contenido del Portapapeles. ¿Estás seguro?	
 GLUE_COLLECTION_DECK_RENAME	Renombrar	
+GLUE_COLLECTION_DECK_RULE_FINISH_AUTOMATICALLY	¿Quieres completar el mazo automáticamente?	
+GLUE_COLLECTION_DECK_RULE_INVALID_CARDS	Tienes {0} |4(carta,cartas) |4(no válida,no válidas) para este formato.	
+GLUE_COLLECTION_DECK_RULE_MISSING_CARDS	Necesitas {0} |4(carta,cartas) para completar el mazo.	
 GLUE_COLLECTION_DECK_SAVE_ANYWAY	No	
 GLUE_COLLECTION_DECK_TEMPLATE_HELP_BUTTON	Reemplazar cartas	
 GLUE_COLLECTION_DECK_TEMPLATE_LOW_CARD_WARNING	Oh-oh	
@@ -130,8 +139,8 @@ GLUE_COLLECTION_MANAGER_SEARCH_GOLDEN	dorada
 GLUE_COLLECTION_MANAGER_SEARCH_HEALTH	salud	
 GLUE_COLLECTION_MANAGER_SEARCH_MANA	maná	
 GLUE_COLLECTION_MANAGER_SEARCH_MISSING	faltante	
-GLUE_COLLECTION_MANAGER_SEARCH_NEW	nuevo	
-GLUE_COLLECTION_MANAGER_SEARCH_OWNED	comprado	
+GLUE_COLLECTION_MANAGER_SEARCH_NEW	nueva	
+GLUE_COLLECTION_MANAGER_SEARCH_OWNED	cantidad	
 GLUE_COLLECTION_MINE	Mis cartas	
 GLUE_COLLECTION_MULTIPLIER	x	used to show you how many copies of a card you own, e.g. x2
 GLUE_COLLECTION_MY_DECKS	Mis mazos	
@@ -144,8 +153,14 @@ GLUE_COLLECTION_PLUS	+
 GLUE_COLLECTION_RECENT_CARDS	Cartas adquiridas recientemente	
 GLUE_COLLECTION_RECENTLY_NERFED	<color=#971c1cff>Esta carta se ha modificado recientemente. Por lo tanto, se ha ajustado su valor de desencantamiento.</color>	
 GLUE_COLLECTION_SEARCH	Buscar	
+GLUE_COLLECTION_SET_FILTER_WILD_SET_BODY	Con esta opción podrás ver todas las cartas que no se pueden usar en estándar. ¿Quieres continuar?	
+GLUE_COLLECTION_SET_FILTER_WILD_SET_HEADER	Cartas salvajes	
 GLUE_COLLECTION_SHOW_ALL_CARDS	Mostrar todas las cartas	
+GLUE_COLLECTION_STANDARD_SETS	Kits estándar	
 GLUE_COLLECTION_TAVERN_BRAWL_DECKNAME	Mazo de Gresca	
+GLUE_COLLECTION_TO_STANDARD	Convertir en estándar	
+GLUE_COLLECTION_TO_WILD	Convertir en salvaje	
+GLUE_COLLECTION_TUTORIAL_REPLACE_WILD_CARDS	Reemplaza las cartas salvajes con cartas estándar.	
 GLUE_COLLECTION_TUTORIAL_TEMPLATE_REMINDER	Busca más modelos aquí.	
 GLUE_COLLECTION_TUTORIAL_TEMPLATE_REPLACE_1	Te faltan cartas. Te ayudaremos a reemplazarlas.	
 GLUE_COLLECTION_TUTORIAL_TEMPLATE_REPLACE_2	Reemplazar cartas faltantes.	
@@ -158,6 +173,14 @@ GLUE_COLLECTION_TUTORIAL06	Usa tu Polvo para crear esta carta.
 GLUE_COLLECTION_TUTORIAL07	Puedes personalizar este mazo.	
 GLUE_COLLECTION_TUTORIAL08	Arrastra una carta para eliminarla.	
 GLUE_COLLECTION_TUTORIAL09	Ahora puedes borrar mazos.	
+GLUE_COLLECTION_TUTORIAL10	¡Edita o crea un mazo nuevo!	
+GLUE_COLLECTION_TUTORIAL11	Ya no te queda espacio para más mazos. Haz algo de lugar o convierte uno en estándar.	
+GLUE_COLLECTION_TUTORIAL12	Convierte este mazo en estándar aquí.	
+GLUE_COLLECTION_TUTORIAL13	En el modo estándar, los jugadores solo pueden usar las cartas más nuevas.	
+GLUE_COLLECTION_TUTORIAL14	Puedes convertir los mazos salvajes en estándar.	
+GLUE_COLLECTION_TUTORIAL15	Intenta convertir un mazo en estándar.	
+GLUE_COLLECTION_TUTORIAL16	¡Estás listo para una partida estándar!	
+GLUE_COLLECTION_WILD_SETS	Kits salvajes	
 GLUE_CRAFTING_ARCANEDUST	Polvo arcano	
 GLUE_CRAFTING_ARCANEDUST_DESCRIPTION	Desencanta cartas y consigue Polvo arcano. ¡Podrás usarlo para crear las cartas que quieras!	
 GLUE_CRAFTING_CREATE	Crear	
@@ -173,7 +196,17 @@ GLUE_CRAFTING_SOULBOUND_DESC	No se puede desencantar o crear esta carta.
 GLUE_CRAFTING_SOULBOUND_REWARD_DESC	No se puede desencantar o crear recompensas de misión.	
 GLUE_CRAFTING_TITLE	Creación de cartas	
 GLUE_CRAFTING_UNDO	Deshacer	
+GLUE_CRAFTING_WILD_CARD_DESC	Esta carta es salvaje. ¿Quieres continuar?	
+GLUE_CRAFTING_WILD_CARD_FIRST_WILD_DESC	Esta carta no puede ser jugada en estándar. ¿Quieres continuar?	
+GLUE_CRAFTING_WILD_CARD_HEADER	Cartas salvajes	
+GLUE_CRAFTING_WILD_CARD_INTRO_DESC	En el formato salvaje, ¡puedes usar todas las cartas que existen!	
+GLUE_CRAFTING_WILD_CARD_TAVERN_BRAWL_DESC	Esta carta no es válida para la Gresca de la taberna. ¿Quieres continuar?	
+GLUE_CRAFTING_WILD_CARD_TAVERN_BRAWL_HEADER	Cartas inválidas	
+GLUE_CRAFTING_WILD_CARD_WARNING_CANCEL	¡Ups! ¡Nop!	
+GLUE_CRAFTING_WILD_CARD_WARNING_CONFIRM	Sip	
 GLUE_CREATE_DECK	Crear mazo	
+GLUE_CREATE_STANDARD_DECK	Crear mazo estándar	
+GLUE_CREATE_WILD_DECK	Crear mazo salvaje	
 GLUE_DECK_TEMPLATE_CHOOSE_DECK	Fórmulas de {0}	0=name of class (e.g. Shaman)
 GLUE_DECK_TEMPLATE_CURRENT_DECK	Mazo actual	
 GLUE_DECK_TEMPLATE_CUSTOM_DECK	Mazo personalizado	
@@ -182,6 +215,8 @@ GLUE_DECK_TRAY_CARD_COUNT_LABEL	Cartas
 GLUE_DECK_TRAY_COUNT	{0}/{1}	
 GLUE_DECK_TRAY_DECK_COUNT_LABEL	Mazos	
 GLUE_DECK_TRAY_HEROES_UNLOCKED_COUNT_LABEL	Desbloqueado	
+GLUE_DISABLED_WILD_DECK_DESC	No puede usarse en el formato estándar. Cambia al formato salvaje o conviértelo en estándar.	
+GLUE_DISABLED_WILD_DECK_HEADER	Mazo salvaje	
 GLUE_DONT_SHOW_ME_THIS_AGAIN	No volver a mostrar	
 GLUE_DRAFT_HERO_INSTRUCTIONS	Elige tu héroe	
 GLUE_DRAFT_INSTRUCTIONS	Elige una carta	
@@ -209,6 +244,8 @@ GLUE_HERO_LOCKED_DESC	¡Derrota a este héroe para desbloquearlo!
 GLUE_HERO_LOCKED_NAME	Bloqueado	
 GLUE_HEROIC_WARNING	Debes saber que el modo Heroico es una prueba MUY exigente y no es para corazones débiles. ¡Entra bajo tu responsabilidad!	
 GLUE_HEROIC_WARNING_TITLE	¡Cuidado!	
+GLUE_INCOMPLETE_DECK_DESC	Tienes que terminar de crear este mazo.	
+GLUE_INCOMPLETE_DECK_HEADER	Mazo incompleto	
 GLUE_INNKEEPERS_SPECIAL_CONFIRM_POPUP_HEADER	Abrir navegador	
 GLUE_INNKEEPERS_SPECIAL_CONFIRM_POPUP_MESSAGE	Este contenido se abrirá en tu navegador. ¿Deseas continuar?	
 GLUE_INNKEEPERS_SPECIAL_LEARN_MORE	Más información	
@@ -323,8 +360,8 @@ GLUE_PATCHING_LABEL	Descargando {0}/{1} |4(archivo,archivos)
 GLUE_PICK_A_CARD	Elige una carta	
 GLUE_PICK_A_REGION	Elige una región	
 GLUE_PICK_A_REPLACEMENT	Elige un reemplazo	
-GLUE_POPUP_SWITCH_FORMAT_DESC	El formato estándar está por llegar. Aquí solo podrás usar cartas básicas, clásicas y de los kits con menos de 2 años. ¡Ahora los kits nuevos tendrán un impacto mucho mayor! ¡Mantente informado!	
-GLUE_POPUP_SWITCH_FORMAT_HEADER	¡Un nuevo modo de juego!	
+GLUE_PLAY_STANDARD	Juego estándar	
+GLUE_PLAY_WILD	Juego salvaje	
 GLUE_PRACTICE	Práctica	
 GLUE_PRACTICE_HINT	Modo Práctica aquí	
 GLUE_QUEST_FINISHED_DAILY	Has completado todas tus misiones diarias.	
@@ -371,6 +408,7 @@ GLUE_RECONNECT_RESULT_TIE	Tu última partida {0} terminó en un empate.	0=one of
 GLUE_RECONNECT_RESULT_WIN	Ganaste la última partida {0}.	0=one of GLOBAL_RECONNECT_GAME_TYPE_*
 GLUE_SHOW_CUSTOM_DECKS	Mazos personalizados	
 GLUE_SHOW_PRECON_DECKS	Mazos básicos	
+GLUE_SPECIAL_QUEST_NOTIFICATION_HEADER	¡Misión especial!	
 GLUE_SPECTATOR_LOADING_BAR_TASK_1	Buscando la mesa de tu amigo	
 GLUE_SPECTATOR_LOADING_BAR_TASK_2	Preparando las palomitas	
 GLUE_SPECTATOR_LOADING_BAR_TASK_3	Puliendo el monóculo	
@@ -525,6 +563,7 @@ GLUE_STORE_PACKS_PREORDER_TEXT	Reservar
 GLUE_STORE_PAYMENT_INFO_DETAILS	Los fondos se descontarán de tu saldo de Battle.net. Si el saldo no es suficiente, se utilizará el método de pago principal que has especificado en tu cuenta de Battle.net.\n\nIMPORTANTE: Ten en cuenta que si se produce un cargo revertido o algún otro problema con los pagos, es posible que se suspenda temporalmente la cuenta de Hearthstone hasta que se solucionen los problemas o se vuelva a pagar el cargo revertido.	
 GLUE_STORE_PAYMENT_INFO_HEADLINE	Información de pago	
 GLUE_STORE_PAYMENT_INFO_URL_DETAILS	Si quieres ver más información, pulsa "{0}" para ingresar en el sitio web de información de pago de Battle.net.	
+GLUE_STORE_PRE_PURCHASE_HAS_ENDED	Las reservas para este producto ya no están disponibles.	
 GLUE_STORE_PREORDER	¡RESÉRVALA!	
 GLUE_STORE_PREORDER_EXCLUSIVE	¡SOLO CON RESERVA!	
 GLUE_STORE_PRODUCT_DETAILS_BRM_PART_1	Lucha contra los jefes temibles de {0} en combates de un solo jugador.	0=wing name
@@ -539,7 +578,7 @@ GLUE_STORE_PRODUCT_DETAILS_NAXX_PART_2	Obtén nuevas cartas de Naxxramas para tu
 GLUE_STORE_PRODUCT_DETAILS_OG_PACK_PRESALE	•  50 paquetes y un dorso de carta especial\n• Cada paquete contiene 5 cartas e incluye al menos 1 rara o superior\n * Podrás abrir los paquetes antes del 31 de mayo de 2016	
 GLUE_STORE_PRODUCT_DETAILS_PACK	•  5 cartas de Hearthstone: {0}\n• Al menos 1 carta será rara o superior	0=pack type
 GLUE_STORE_PRODUCT_DETAILS_TGT_PACK_PRESALE	•  50 paquetes y un dorso de carta especial\n• Cada paquete contiene 5 cartas e incluye 1 rara o superior\n• ¡Podrás abrir los paquetes de El Gran Torneo en agosto!	
-GLUE_STORE_PRODUCT_EVENT_HAS_ENDED	Las reservas para este producto ya no están disponibles.	
+GLUE_STORE_PRODUCT_EVENT_HAS_ENDED	Ese producto ya no está disponible.	
 GLUE_STORE_PRODUCT_NAME_BRM_PRESALE_BUNDLE	Reserva de Montaña Roca Negra	
 GLUE_STORE_PRODUCT_NAME_BRM_WING_BUNDLE	Aventura de Montaña Roca Negra ({0} |4(ala,alas))	
 GLUE_STORE_PRODUCT_NAME_FORGE_TICKET	Admisión a la Arena	
@@ -602,6 +641,11 @@ GLUE_TAVERN_BRAWL_REWARD_DESC_FINISH	¡Gana un paquete por completar tu primera 
 GLUE_TAVERN_BRAWL_REWARD_DESC_FINISH_CARDBACK	¡Completa tu primera Gresca de la semana para ganar este dorso de carta!	
 GLUE_TEXTURE_COMPRESSION_WARNING	Esta versión no cuenta con el formato de textura correcto para esta plataforma. El desempeño no será óptimo.	--TEMP-- This should be in Chinese
 GLUE_TEXTURE_COMPRESSION_WARNING_TITLE	Advertencia sobre compresión de textura	--TEMP-- This should be in Chinese
+GLUE_THE_CLOCK_BANNER_NEW_WAY	Nuevo modo de juego:	
+GLUE_THE_CLOCK_BANNER_STANDARD	"Estándar"	
+GLUE_THE_CLOCK_BANNER_YEAR	Año del kraken	
+GLUE_THE_CLOCK_DETAILS	Las cartas permitidas en estándar cambian todos los años.	
+GLUE_THE_CLOCK_DETAILS_STANDARD	En estándar, solo pueden usarse las cartas más nuevas.	
 GLUE_TIP_ADVENTURE_0	Debes armar un mazo personalizado para derrotar a los jefes más peligrosos.	
 GLUE_TIP_ADVENTURE_1	No permitas que los jefes difíciles te desanimen. Arma un mazo personalizado para aplastarlos.	
 GLUE_TIP_ADVENTURE_2	Si pierdes contra un jefe, quizá te convenga modificar tu mazo.	
@@ -626,7 +670,18 @@ GLUE_TIP_DEFAULT_2_TOUCH	Toca a tu héroe para que exprese emociones.
 GLUE_TIP_DEFAULT_20	¡Pulsa el botón con el ojo en tu lista de amigos para observarlos durante una partida!	
 GLUE_TIP_DEFAULT_21	Juega Hearthstone en tu teléfono, tableta o computadora. ¡Usa la misma colección de cartas en todos!	
 GLUE_TIP_DEFAULT_22	Puedes comprar un héroe nuevo para tu clase favorita en la tienda.	
+GLUE_TIP_DEFAULT_23	El modo estándar usa cartas básicas, clásicas y de los dos últimos años.	
+GLUE_TIP_DEFAULT_24	Haz clic sobre tu héroe mientras editas un mazo para alternar entre los modos estándar y salvaje.	
+GLUE_TIP_DEFAULT_24_TOUCH	Toca sobre tu héroe mientras editas un mazo para alternar entre los modos estándar y salvaje.	
+GLUE_TIP_DEFAULT_25	¡Este es el año del kraken.! (Todos los años tendrán una nueva temática)	
+GLUE_TIP_DEFAULT_26	Dentro de tu colección, haz clic en el filtro de la esquina inferior izquierda para seleccionar los kits que deseas visualizar.	
+GLUE_TIP_DEFAULT_26_TOUCH	Dentro de tu colección, toca en el filtro de la esquina inferior izquierda para seleccionar los kits que deseas visualizar.	
+GLUE_TIP_DEFAULT_27	Las cartas de últimos los kits agregados pueden usarse en los modos estándar y salvaje.	
+GLUE_TIP_DEFAULT_28	Salvaje es... eso: ¡SALVAJE! ¡Se pueden usar todas las cartas!	
+GLUE_TIP_DEFAULT_29	En estándar, las estrategias se renuevan y evolucionan constantemente.	
 GLUE_TIP_DEFAULT_3	Si necesitas ayuda para construir un mazo, consulta el "Asistente de mazos" ubicado en Mi colección.	
+GLUE_TIP_DEFAULT_30	Con el tiempo agregaremos nuevas fórmulas para mazos.	
+GLUE_TIP_DEFAULT_31	En estándar, solo están disponibles los kits más nuevos, así que no necesitas aprenderte todas las cartas anteriores.	
 GLUE_TIP_DEFAULT_4	Para identificar el nivel de rareza de una carta, observa la gema de color que tiene en el centro.	
 GLUE_TIP_DEFAULT_5	Colores de rareza en orden: blanco es común, azul es rara, púrpura es épica, naranja es legendaria.	
 GLUE_TIP_DEFAULT_6	Cada paquete de cartas tiene al menos una carta rara o superior. ¡Pero es posible que haya más!	
@@ -659,7 +714,7 @@ GLUE_TIP_TAVERNBRAWL_2	¡Gana un paquete clásico por semana en la Gresca de la 
 GLUE_TIP_TAVERNBRAWL_3	Si ganas varias partidas en la Gresca de la taberna, no obtendrás paquetes adicionales... ¡Pero es muy divertido!	
 GLUE_TIP_TAVERNBRAWL_4	Algunas semanas se te dará un mazo; otras, tendrás que crear uno... ¡Nunca se sabe!	
 GLUE_TIP_TAVERNBRAWL_5	Es posible que algunas Grescas de la taberna regresen en algún momento.	
-GLUE_TIP_TAVERNBRAWL_6	Para desafiar a un amigo a una Gresca, tienes que desafiarlo desde la pantalla de Grescas de la taberna.	
+GLUE_TIP_TAVERNBRAWL_6	Puedes desafiar a un amigo a la Gresca de la semana mientras esté disponible.	
 GLUE_TIP_TAVERNBRAWL_7	¡Puedes completar tus misiones diarias mientras participas en una Gresca de la taberna!	
 GLUE_TIP_TAVERNBRAWL_8	Cada tres partidas que ganes en la Gresca de la taberna, obtendrás 10 de oro, tal como en el modo "Jugar".	
 GLUE_TOOLTIP_BUTTON_ADVENTURE_DESC	Embárcate en aventuras o practica contra la IA.	
@@ -688,14 +743,18 @@ GLUE_TOOLTIP_GOLDEN_WINS_DESC	¡Gana 500 partidas clasificadas con esta clase pa
 GLUE_TOOLTIP_GOLDEN_WINS_HEADER	Victorias en partidas clasificadas	
 GLUE_TOOLTIP_HOW_TO_UNLOCK_DECKS	Derrota a otros héroes en cualquier modo para desbloquear este mazo.	
 GLUE_TOOLTIP_RANKED_BUTTON	Compárate y compite contra otros jugadores.	
-GLUE_TOOLTIP_SWITCH_FORMAT_BUTTON_WILD	Estás jugando en el modo salvaje; aquí puedes usar todas las cartas. Haz clic para cambiar de formato. *Próximamente*	
-GLUE_TOOLTIP_SWITCH_FORMAT_BUTTON_WILD_MOBILE	Estás jugando en el modo salvaje; aquí puedes usar todas las cartas. Toca para cambiar de formato. *Próximamente*	
 GLUE_TOURNAMENT	Jugar	
 GLUE_TOURNAMENT_CASUAL	Casual	
+GLUE_TOURNAMENT_CASUAL_WILD	Partidas salvajes casuales	
+GLUE_TOURNAMENT_NO_STANDARD_DECKS	No tienes ningún mazo estándar. ¡Vamos, crea uno!	
 GLUE_TOURNAMENT_RANKED	Clasificado	
+GLUE_TOURNAMENT_RANKED_WILD	Partidas salvajes clasificadas	
+GLUE_TOURNAMENT_STANDARD_DESC	Solo pueden usarse cartas básicas, clásicas y de los últimos 2 años.	
+GLUE_TOURNAMENT_SWITCH_TO_STANDARD	Intenta cambiar a estándar	
+GLUE_TOURNAMENT_SWITCH_TO_WILD	Puedes cambiar a salvaje aquí	
 GLUE_TOURNAMENT_UNRANKED_DESC	En el modo sin clasificar tu clasificación de habilidad es independiente y no puedes obtener medallas.	
 GLUE_TOURNAMENT_UNRANKED_MODE	Modo sin clasificar	
-GLUE_TOURNAMENT_WILD	Salvaje	
+GLUE_TOURNAMENT_WILD_DESC	Se pueden usar todas las cartas.	
 GLUE_UNRELIABLE_GPU_WARNING	Este dispositivo no cuenta con un hardware de gráficos compatible, por lo que es posible que Hearthstone tenga problemas gráficos y/o de funcionamiento.\n\nToca Asistencia para obtener más información.	
 GLUE_UNRELIABLE_GPU_WARNING_TITLE	Advertencia sobre dispositivo gráfico	
 GLUE_WIN_STREAK	Racha de victorias: {0}	0=number of wins

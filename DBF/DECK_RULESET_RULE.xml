@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Dbf name="DECK_RULESET_RULE">
-	<SourceFingerprint>iEXr8xHQkTAhHxofcfRqOOJBzhQ=</SourceFingerprint>
+	<SourceFingerprint>/m34Co+uXuMf3qM/J2RLhHid9W4=</SourceFingerprint>
 	<Column name="ID" type="Int" />
 	<Column name="DECK_RULESET_ID" type="Int" />
 	<Column name="APPLIES_TO_SUBSET_ID" type="Int" />
@@ -14,4 +14,94 @@
 	<Column name="TAG_MAX_VALUE" type="Int" />
 	<Column name="STRING_VALUE" type="String" />
 	<Column name="ERROR_STRING" type="LocString" />
+	<Record>
+		<Field column="ID">328</Field>
+		<Field column="DECK_RULESET_ID">71</Field>
+		<Field column="APPLIES_TO_SUBSET_ID">5</Field>
+		<Field column="APPLIES_TO_IS_NOT">False</Field>
+		<Field column="RULE_TYPE">is_class_or_neutral_card</Field>
+		<Field column="RULE_IS_NOT">False</Field>
+		<Field column="MIN_VALUE" />
+		<Field column="MAX_VALUE" />
+		<Field column="TAG" />
+		<Field column="TAG_MIN_VALUE" />
+		<Field column="TAG_MAX_VALUE" />
+		<Field column="STRING_VALUE" />
+		<Field column="ERROR_STRING" />
+	</Record>
+	<Record>
+		<Field column="ID">329</Field>
+		<Field column="DECK_RULESET_ID">71</Field>
+		<Field column="APPLIES_TO_SUBSET_ID" />
+		<Field column="APPLIES_TO_IS_NOT">False</Field>
+		<Field column="RULE_TYPE">count_copies_of_each_card</Field>
+		<Field column="RULE_IS_NOT">False</Field>
+		<Field column="MIN_VALUE">0</Field>
+		<Field column="MAX_VALUE">2</Field>
+		<Field column="TAG" />
+		<Field column="TAG_MIN_VALUE" />
+		<Field column="TAG_MAX_VALUE" />
+		<Field column="STRING_VALUE" />
+		<Field column="ERROR_STRING" />
+	</Record>
+	<Record>
+		<Field column="ID">330</Field>
+		<Field column="DECK_RULESET_ID">71</Field>
+		<Field column="APPLIES_TO_SUBSET_ID">7</Field>
+		<Field column="APPLIES_TO_IS_NOT">False</Field>
+		<Field column="RULE_TYPE">count_copies_of_each_card</Field>
+		<Field column="RULE_IS_NOT">False</Field>
+		<Field column="MIN_VALUE">0</Field>
+		<Field column="MAX_VALUE">1</Field>
+		<Field column="TAG" />
+		<Field column="TAG_MIN_VALUE" />
+		<Field column="TAG_MAX_VALUE" />
+		<Field column="STRING_VALUE" />
+		<Field column="ERROR_STRING" />
+	</Record>
+	<Record>
+		<Field column="ID">331</Field>
+		<Field column="DECK_RULESET_ID">71</Field>
+		<Field column="APPLIES_TO_SUBSET_ID" />
+		<Field column="APPLIES_TO_IS_NOT">False</Field>
+		<Field column="RULE_TYPE">is_in_any_subset</Field>
+		<Field column="RULE_IS_NOT">False</Field>
+		<Field column="MIN_VALUE" />
+		<Field column="MAX_VALUE" />
+		<Field column="TAG" />
+		<Field column="TAG_MIN_VALUE" />
+		<Field column="TAG_MAX_VALUE" />
+		<Field column="STRING_VALUE" />
+		<Field column="ERROR_STRING" />
+	</Record>
+	<Record>
+		<Field column="ID">332</Field>
+		<Field column="DECK_RULESET_ID">71</Field>
+		<Field column="APPLIES_TO_SUBSET_ID" />
+		<Field column="APPLIES_TO_IS_NOT">False</Field>
+		<Field column="RULE_TYPE">player_owns_each_copy</Field>
+		<Field column="RULE_IS_NOT">False</Field>
+		<Field column="MIN_VALUE">1</Field>
+		<Field column="MAX_VALUE">1</Field>
+		<Field column="TAG" />
+		<Field column="TAG_MIN_VALUE" />
+		<Field column="TAG_MAX_VALUE" />
+		<Field column="STRING_VALUE" />
+		<Field column="ERROR_STRING" />
+	</Record>
+	<Record>
+		<Field column="ID">335</Field>
+		<Field column="DECK_RULESET_ID">71</Field>
+		<Field column="APPLIES_TO_SUBSET_ID" />
+		<Field column="APPLIES_TO_IS_NOT">False</Field>
+		<Field column="RULE_TYPE">deck_size</Field>
+		<Field column="RULE_IS_NOT">False</Field>
+		<Field column="MIN_VALUE">7</Field>
+		<Field column="MAX_VALUE">7</Field>
+		<Field column="TAG" />
+		<Field column="TAG_MIN_VALUE" />
+		<Field column="TAG_MAX_VALUE" />
+		<Field column="STRING_VALUE" />
+		<Field column="ERROR_STRING" />
+	</Record>
 </Dbf>

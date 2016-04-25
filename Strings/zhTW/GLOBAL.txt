@@ -44,6 +44,10 @@ GLOBAL_CARD_SET_LOE_SEARCHABLE_SHORTHAND_NAMES	探險者	This is a space-separat
 GLOBAL_CARD_SET_LOE_SHORT	探險者協會	
 GLOBAL_CARD_SET_NAXX	納克薩瑪斯	
 GLOBAL_CARD_SET_NAXX_SEARCHABLE_SHORTHAND_NAMES	納克	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_OG	古神碎碎念	
+GLOBAL_CARD_SET_OG_RESERVE	古神保留	
+GLOBAL_CARD_SET_OG_SEARCHABLE_SHORTHAND_NAMES	古神 碎碎念	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.  For Whispers of the Old Gods, 'tog' should be available in all locales; wotog and wog are additional English shorthands, which should be replaced by locale specific variants.
+GLOBAL_CARD_SET_OG_SHORT	古神碎碎念	
 GLOBAL_CARD_SET_PROMO	促銷	
 GLOBAL_CARD_SET_REWARD	獎勵	
 GLOBAL_CARD_SET_TGT	銀白聯賽	
@@ -154,6 +158,7 @@ GLOBAL_ERROR_NETWORK_NO_CONNECTION	無法連線。請檢查你的網路連線。
 GLOBAL_ERROR_NETWORK_NO_GAME_SERVER	唉呀！我們無法幫你啟動賽局。請稍後再試。	
 GLOBAL_ERROR_NETWORK_PARENTAL_CONTROLS	家長監護設定已經鎖定此帳號的登入功能。	
 GLOBAL_ERROR_NETWORK_PHONE_LOCK	你的帳號已申請通訊安全鎖。若要解鎖帳號，請使用登記的電話撥打開通專線，或透過客服支援尋求協助。\n台灣地區：0800-303-585\n香港地區：396-54666	
+GLOBAL_ERROR_NETWORK_RISK_ACCOUNT_LOCKED	我們已鎖定您的帳號！請至https://tw.battle.net/support/zh/，搜尋「7537」瞭解詳情！	
 GLOBAL_ERROR_NETWORK_SPAM	你在Battle.net服務中於短時間內發出過多請求，因而中斷連線。請重新啟動《爐石戰記》來重新進行連線。	
 GLOBAL_ERROR_NETWORK_TITLE	網路錯誤	
 GLOBAL_ERROR_NETWORK_UNAVAILABLE_OFFLINE	《爐石戰記》伺服器尚未啟動。請稍後再試。	
@@ -182,6 +187,8 @@ GLOBAL_FORGE_END_JOKE_8	還沒結束呢！噢，是已經結束了。
 GLOBAL_FORGE_END_TITLE	競技場完成	
 GLOBAL_FRIEND_CHALLENGE_ACCEPT	好的！	
 GLOBAL_FRIEND_CHALLENGE_BODY1	有好友想和你來場友誼賽：	
+GLOBAL_FRIEND_CHALLENGE_BODY1_STANDARD	有好友想和你來場標準友誼賽：	
+GLOBAL_FRIEND_CHALLENGE_BODY1_WILD	有好友想和你來場開放友誼賽：	
 GLOBAL_FRIEND_CHALLENGE_BODY2	要接受嗎？	
 GLOBAL_FRIEND_CHALLENGE_DECLINE	不要	
 GLOBAL_FRIEND_CHALLENGE_HEADER	新的挑戰！	
@@ -205,6 +212,20 @@ GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_HEADER	友誼賽
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_UNAVAILABLE	你現在無法挑戰{0}。請回到主選單。	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_TAVERN_BRAWL_MUST_CREATE_DECK	想要和好友來場旅店大亂鬥嗎，先建立一副亂鬥模式套牌吧！	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_THEYRE_UNAVAILABLE	你現在無法挑戰{0}。請等待對方回到主選單。	0=player name
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_DECK	該玩家沒有套牌。	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_STANDARD_DECK	該玩家沒有標準套牌。	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_TAVERN_BRAWL_DECK	該玩家沒有旅店大亂鬥套牌。	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NOT_SEEN_WILD	該玩家沒有開放卡牌。	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_TAVERN_BRAWL_LOCKED	該玩家還沒有解鎖旅店大亂鬥。	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_USER_IS_BUSY	該玩家目前忙碌中。	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_NO_DECK	你需要先編組一副套牌。	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_NO_STANDARD_DECK	你沒有任何標準套牌。	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_NO_TAVERN_BRAWL_DECK	你需要先為本週的大亂鬥編組一副套牌。	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_TAVERN_BRAWL_LOCKED	使用任何職業達到20級，即可解鎖旅店大亂鬥。	
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_DUEL_BUTTON	友誼賽	
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_STANDARD_DUEL_BUTTON	標準友誼賽	
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_WILD_DUEL_BUTTON	開放友誼賽	
+GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_NO_TAVERN_BRAWL	旅店大亂鬥現在尚未開放，請再等一下吧！	
 GLOBAL_FRIENDLIST_CURRENT_GAMES_HEADER	現有賽局 -  {0}場	0=number of friends you have unfinished games with
 GLOBAL_FRIENDLIST_FRIENDS_HEADER	{0}/{1}位好友在線上	0=number of online friends 1=number of offline friends
 GLOBAL_FRIENDLIST_FRIENDS_HEADER_ALL_ONLINE	{0}位好友在線上	
@@ -271,6 +292,8 @@ GLOBAL_KEYWORD_COMBO	連擊
 GLOBAL_KEYWORD_COMBO_TEXT	若你在本回合已經出過牌，有額外效果。	
 GLOBAL_KEYWORD_COUNTER	反制	
 GLOBAL_KEYWORD_COUNTER_TEXT	被反制的卡牌沒有作用。	
+GLOBAL_KEYWORD_CTHUN	古神克蘇恩	
+GLOBAL_KEYWORD_CTHUN_TEXT	無論克蘇恩位於何處，都會獲得加成效果，即使還在牌堆裡也一樣！	
 GLOBAL_KEYWORD_DEATHRATTLE	死亡之聲	
 GLOBAL_KEYWORD_DEATHRATTLE_TEXT	在死亡的同時會產生某個作用。	
 GLOBAL_KEYWORD_DIVINE_SHIELD	聖盾術	
@@ -291,6 +314,8 @@ GLOBAL_KEYWORD_OVERLOAD	超載：X
 GLOBAL_KEYWORD_OVERLOAD_TEXT	你的下一個回合會減少X點法力。	
 GLOBAL_KEYWORD_SECRET	秘密	
 GLOBAL_KEYWORD_SECRET_TEXT	隱藏，直到你對手的回合出現某個特定的動作。	
+GLOBAL_KEYWORD_SHIFTING	變換者澤魯斯	
+GLOBAL_KEYWORD_SHIFTING_TEXT	在你的回合開始時，變形成一個新的手下。	
 GLOBAL_KEYWORD_SILENCE	沉默	
 GLOBAL_KEYWORD_SILENCE_TEXT	移除現有的卡牌效果及附魔。	
 GLOBAL_KEYWORD_SPAREPART	備用零件	
@@ -363,11 +388,13 @@ GLOBAL_MEDAL_9	白銀之手騎士
 GLOBAL_MEDAL_ARENA_TOOLTIP_BODY	這是你在競技場獲得的最佳鑰匙。\n勝場：{0}	0=num wins
 GLOBAL_MEDAL_REWARD_CONGRATULATIONS	恭喜！	
 GLOBAL_MEDAL_REWARD_DESCRIPTION	上週贏得的獎章	
-GLOBAL_MEDAL_TOOLTIP_BODY	贏得賽局來晉升到下一個獎章！\n\n下一個獎章：\n{0}	0=medal name
+GLOBAL_MEDAL_TOOLTIP_BEST_RANK_STANDARD	你的最佳階級來自標準對戰。	
+GLOBAL_MEDAL_TOOLTIP_BEST_RANK_WILD	你的最佳階級來自開放對戰。	
+GLOBAL_MEDAL_TOOLTIP_BODY	贏得對戰來晉升到下一個階級！	
 GLOBAL_MEDAL_TOOLTIP_BODY_ARENA_GRAND_MASTER	你是競技場的大師！	
 GLOBAL_MEDAL_TOOLTIP_BODY_LEGEND	你是傳說級的玩家！你在這個階級的排名會隨著每場賽局結果而改變。	
 GLOBAL_MEDAL_TOOLTIP_HEADER	{0}獎章	0=medal name
-GLOBAL_MEDAL_TOURNAMENT_TOOLTIP_BODY	在本賽季的排名模式裡位於前{0}%\n\n下一個階級：\n{1}	0=rank percentile 1=medal name
+GLOBAL_MEDAL_TOURNAMENT_TOOLTIP_BODY	在本賽季的排名模式裡位於前{0}%	0=rank percentile
 GLOBAL_MOBILE_ERROR_ANDROID_PHONE_DETECTED	很抱歉，《爐石戰記》目前只能在6吋以上的Android平板電腦上執行。	
 GLOBAL_MOBILE_ERROR_BREAKING_NEWS	最新消息：\n\n{0}	
 GLOBAL_MOBILE_ERROR_LOGON_WEB_TIMEOUT	你在《爐石戰記》中已經有一陣子沒有活動，所以連線已經被終止。	
@@ -414,6 +441,8 @@ GLOBAL_OPTIONS_SOUND_MUSIC_VOLUME_LABEL	背景音樂音量
 GLOBAL_OPTIONS_SPECTATOR_OPEN_JOIN	允許好友觀賞我的賽局	
 GLOBAL_PLAY	開始	
 GLOBAL_PLAY_RANKED	玩排名模式	
+GLOBAL_PLAY_STANDARD	標準對戰	
+GLOBAL_PLAY_WILD	開放對戰	
 GLOBAL_PLAYER_PLAYER	玩家	this is the word for generic "Player" - this will be used when there a player's name is unknown at the time.
 GLOBAL_PRACTICE_MAX_LEVEL_REACHED	練習模式最高等級	
 GLOBAL_PROGRAMNAME_DIABLO3	《暗黑破壞神III》	
@@ -539,6 +568,7 @@ GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START	<color=#{0}>{1}</color>開始了新的一
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START_WITH_MANY_WINS	已經獲得{2}勝的<color=#{0}>{1}</color>開始了新的競技場賽局！	0=name color,1=player name,2=Arena Wins
 GLOBAL_SOCIAL_TOAST_FRIEND_DRUID_LEVEL	<color=#{0}>{1}</color>成為了等級{2}的德魯伊。	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK	<color=#{0}>{1}</color>達到了{2}級！	0=name color,1=player name,2=medal rank
+GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK_WILD	<color=#{0}>{1}</color>在開放對戰中達到了{2}級！	0=name color,1=player name,2=medal rank
 GLOBAL_SOCIAL_TOAST_FRIEND_GOLDEN_LEGENDARY	<color=#{0}>{1}</color>開出了一張<color=#{3}>{2}金卡</color>！	0=name color,1=player name,2=card name,3=Golden Color
 GLOBAL_SOCIAL_TOAST_FRIEND_HUNTER_LEVEL	<color=#{0}>{1}</color>成為了等級{2}的獵人。	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_ILLIDAN_COMPLETE	<color=#{0}>{1}</color>擊敗了伊利丹·怒風！	0=name color,1=player name
@@ -549,6 +579,7 @@ GLOBAL_SOCIAL_TOAST_FRIEND_ONLINE	<color=#{0}>{1}</color>已上線。	0=name col
 GLOBAL_SOCIAL_TOAST_FRIEND_PALADIN_LEVEL	<color=#{0}>{1}</color>成為了等級{2}的聖騎士。	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_PRIEST_LEVEL	<color=#{0}>{1}</color>成為了等級{2}的牧師。	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_RANK_LEGEND	<color=#{0}>{1}</color>已成為傳說級的玩家！	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_FRIEND_RANK_LEGEND_WILD	<color=#{0}>{1}</color>在開放對戰中達到了傳說級！	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_REQUEST	<color=#{0}>{1}</color>向你發出了好友邀請。	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_ROGUE_LEVEL	<color=#{0}>{1}</color>成為了等級{2}的盜賊。	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_SHAMAN_LEVEL	<color=#{0}>{1}</color>成為了等級{2}的薩滿。	0=name color,1=player name,2=level
@@ -581,6 +612,7 @@ GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_PLAYING	等待下一場賽局開始�
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TIMEOUT	你要觀戰的玩家太久沒有開始下一場賽局。觀戰模式已經取消。	
 GLOBAL_SPLASH_CLOSED_RECONNECTING	重新連線中…	
 GLOBAL_SPLASH_CLOSED_SIGN_TITLE	關閉	
+GLOBAL_STANDARD	標準	
 GLOBAL_STORE_MOBILE_NAME_AMAZON	Amazon Appstore	
 GLOBAL_STORE_MOBILE_NAME_APPLE	Apple App Store	
 GLOBAL_STORE_MOBILE_NAME_DEFAULT	Blizzard線上商城	
@@ -606,4 +638,5 @@ GLOBAL_TUTORIAL_USED	已使用
 GLOBAL_TUTORIAL_YOUR_MANA	你的法力	
 GLOBAL_TUTORIAL_YOUR_TURN	你的回合	
 GLOBAL_VERSION	版本	
+GLOBAL_WILD	開放	
 GLOBAL_WINS	勝場	

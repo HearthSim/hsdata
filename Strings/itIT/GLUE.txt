@@ -19,6 +19,8 @@ GLUE_ARENA_DECK	Mazzo Arena
 GLUE_ARENA_DECK_TOOLTIP	Questo è il tuo mazzo Arena. Queste carte non fanno parte della tua collezione.	
 GLUE_ARENA_DECK_TOOLTIP_HEADER	Mazzo Arena	
 GLUE_ARENA_VIEW_DECK	Mostra mazzo	
+GLUE_BASIC_DECK_WARNING_BODY	Benché i mazzi Base possono essere usati in formato Standard, generalmente conviene comporne uno da zero!	
+GLUE_BASIC_DECK_WARNING_HEADER	Mazzo Base	
 GLUE_BASIC_SET_PROGRESS	{0}/{1} carte Base	0=number of owned cards,1=total number of basic cards
 GLUE_BASIC_SET_PROGRESS_PHONE	{0}/{1}	0=number of owned cards,1=total number of basic cards
 GLUE_BLIZZCON2013_ARENA	Benvenuto nell'Arena! Se vincerai abbastanza partite, otterrai un premio!	
@@ -50,6 +52,7 @@ GLUE_CANNOT_FIND_BATTLENET_CLIENT	Hearthstone richiede Battle.net Desktop, ma no
 GLUE_CANNOT_RUN_BATTLENET_CLIENT	Hearthstone richiede Battle.net Desktop, ma non è stato possibile avviare questa applicazione. Visita il sito www.battle.net per reinstallarlo.	
 GLUE_CARD_NERF_BODY	\n|4(La seguente carta è stata modificata,Le seguenti carte sono state modificate):\n{0}	0=card names
 GLUE_CARD_NERF_HEADER	Modifiche!	
+GLUE_CARDS_UPDATED	Queste carte sono cambiate.	
 GLUE_CHOOSE	Scegli	
 GLUE_CHOOSE_OPPONENT	Scegli l'avversario	
 GLUE_CHOOSE_YOUR_DECK	Scegli il tuo mazzo	
@@ -67,6 +70,7 @@ GLUE_COLLECTION_ADD_TO_DECK	Aggiungi al mazzo
 GLUE_COLLECTION_ALL	TUTTE	
 GLUE_COLLECTION_ALL_CARDS	Tutte le carte	
 GLUE_COLLECTION_ALL_SETS	Tutte le carte	
+GLUE_COLLECTION_ALL_STANDARD_CARDS	Carte Standard	
 GLUE_COLLECTION_ARTIST	Artista: {0}	0=artist name
 GLUE_COLLECTION_CARD_COUNT	x{0}	
 GLUE_COLLECTION_CARD_COUNT_LARGE	x9+	
@@ -75,6 +79,8 @@ GLUE_COLLECTION_CARD_NEW	NUOVA!
 GLUE_COLLECTION_CARD_PERMISSION_ERROR	Ops! Non ti è permesso creare o disincantare questa carta. Contatta l'assistenza clienti.	
 GLUE_COLLECTION_CARD_SOULBOUND	Ops! Non puoi creare o disincantare una carta vincolata. Contatta l'assistenza clienti.	
 GLUE_COLLECTION_CARD_UNKNOWN_ERROR	Si è verificato un errore imprevisto: id={0}.	
+GLUE_COLLECTION_CONVERT_DECK_BODY	Convertendo questo mazzo a Standard verranno rimosse {0} carte. Vuoi procedere?	
+GLUE_COLLECTION_CONVERT_DECK_HEADER	Converti mazzo	
 GLUE_COLLECTION_CRAFTING_DISENCHANT_BUTTON_TEXT	Disincanta le carte in eccesso	
 GLUE_COLLECTION_CRAFTING_EXPLANATION	Seleziona una carta per avviare la modalità Creazione.\n\nUsa la Polvere Arcana ottenuta disincantando le carte per crearne di nuove.\n\nIl costo varia in funzione della rarità della carta.	
 GLUE_COLLECTION_CRAFTING_FILTERS	Filtri	
@@ -88,14 +94,17 @@ GLUE_COLLECTION_DECK_DELETE	Elimina
 GLUE_COLLECTION_DECK_FINISH_FOR_ME	Sì	
 GLUE_COLLECTION_DECK_HELP_BUTTON	Suggerimenti	
 GLUE_COLLECTION_DECK_HELPER_REPLACE_CARD	Sostituisci questa carta	
+GLUE_COLLECTION_DECK_HELPER_REPLACE_INVALID_CARD	Sostituisci carta Selvaggia	
 GLUE_COLLECTION_DECK_INFO_HERO_POWER_TOOLTIP	Potere Eroe	
 GLUE_COLLECTION_DECK_INFO_MANA_TOOLTIP	Carte/Costo in Mana	
 GLUE_COLLECTION_DECK_INFO_TITLE	Info su {0}	
 GLUE_COLLECTION_DECK_INVALID_POPUP_HEADER	Mazzo non valido	
-GLUE_COLLECTION_DECK_INVALID_POPUP_MESSAGE	Devi aggiungere ancora {0} |4(carta,carte) per ultimare il mazzo. Vuoi che venga completato automaticamente?	
 GLUE_COLLECTION_DECK_PASTE_POPUP_HEADER	Incolla mazzo	
 GLUE_COLLECTION_DECK_PASTE_POPUP_MESSAGE	In questo modo cancellerai il mazzo esistente e lo sostituirai con il contenuto degli appunti. Vuoi procedere?	
 GLUE_COLLECTION_DECK_RENAME	Rinomina	
+GLUE_COLLECTION_DECK_RULE_FINISH_AUTOMATICALLY	Vuoi che venga completato automaticamente?	
+GLUE_COLLECTION_DECK_RULE_INVALID_CARDS	Hai ancora {0} |4(carta non valida,carte non valide) per questo formato.	
+GLUE_COLLECTION_DECK_RULE_MISSING_CARDS	Devi aggiungere ancora {0} |4(carta,carte) per completare il mazzo.	
 GLUE_COLLECTION_DECK_SAVE_ANYWAY	No	
 GLUE_COLLECTION_DECK_TEMPLATE_HELP_BUTTON	Sostituisci carte	
 GLUE_COLLECTION_DECK_TEMPLATE_LOW_CARD_WARNING	Ops!	
@@ -144,8 +153,14 @@ GLUE_COLLECTION_PLUS	+
 GLUE_COLLECTION_RECENT_CARDS	Carte ottenute di recente	
 GLUE_COLLECTION_RECENTLY_NERFED	<color=#971c1cff>Questa carta è stata modificata di recente, perciò il suo valore di disincantamento è stato aggiornato.</color>	
 GLUE_COLLECTION_SEARCH	Cerca	
+GLUE_COLLECTION_SET_FILTER_WILD_SET_BODY	Questa opzione permette di mostrare le carte non utilizzabili in formato Standard. Vuoi procedere?	
+GLUE_COLLECTION_SET_FILTER_WILD_SET_HEADER	Carte Selvagge	
 GLUE_COLLECTION_SHOW_ALL_CARDS	Mostra tutte le carte	
+GLUE_COLLECTION_STANDARD_SETS	Set Standard	
 GLUE_COLLECTION_TAVERN_BRAWL_DECKNAME	Mazzo Rissa	
+GLUE_COLLECTION_TO_STANDARD	Converti a Standard	
+GLUE_COLLECTION_TO_WILD	Converti a Selvaggio	
+GLUE_COLLECTION_TUTORIAL_REPLACE_WILD_CARDS	Sostituisci le carte Selvagge con carte Standard.	
 GLUE_COLLECTION_TUTORIAL_TEMPLATE_REMINDER	Prova altri mazzi preimpostati.	
 GLUE_COLLECTION_TUTORIAL_TEMPLATE_REPLACE_1	Ti mancano alcune carte. Possiamo aiutarti a sostituirle.	
 GLUE_COLLECTION_TUTORIAL_TEMPLATE_REPLACE_2	Sostituisci le carte mancanti.	
@@ -158,6 +173,14 @@ GLUE_COLLECTION_TUTORIAL06	Usa la Polvere Arcana per creare questa carta.
 GLUE_COLLECTION_TUTORIAL07	Puoi personalizzare questo mazzo.	
 GLUE_COLLECTION_TUTORIAL08	Trascina via una carta per rimuoverla.	
 GLUE_COLLECTION_TUTORIAL09	Adesso puoi eliminare i mazzi.	
+GLUE_COLLECTION_TUTORIAL10	Modifica o componi un nuovo mazzo!	
+GLUE_COLLECTION_TUTORIAL11	Hai finito lo spazio per i mazzi. Eliminane qualcuno o convertine uno al formato Standard.	
+GLUE_COLLECTION_TUTORIAL12	Da qui puoi convertire questo mazzo al formato Standard.	
+GLUE_COLLECTION_TUTORIAL13	Nel formato Standard, i giocatori possono usare solo le carte più recenti.	
+GLUE_COLLECTION_TUTORIAL14	Puoi convertire mazzi Selvaggi in mazzi Standard.	
+GLUE_COLLECTION_TUTORIAL15	Prova a convertire un mazzo al formato Standard.	
+GLUE_COLLECTION_TUTORIAL16	Ora puoi giocare una partita in formato Standard!	
+GLUE_COLLECTION_WILD_SETS	Set Selvaggi	
 GLUE_CRAFTING_ARCANEDUST	Polvere Arcana	
 GLUE_CRAFTING_ARCANEDUST_DESCRIPTION	Ottieni Polvere Arcana disincantando le carte. Puoi usare la polvere per creare le carte che desideri!	
 GLUE_CRAFTING_CREATE	Crea	
@@ -173,7 +196,17 @@ GLUE_CRAFTING_SOULBOUND_DESC	Questa carta non può essere disincantata o creata.
 GLUE_CRAFTING_SOULBOUND_REWARD_DESC	Le ricompense non possono essere disincantate o create.	
 GLUE_CRAFTING_TITLE	Creazione carte	
 GLUE_CRAFTING_UNDO	Annulla	
+GLUE_CRAFTING_WILD_CARD_DESC	Questa è una carta Selvaggia. Vuoi procedere?	
+GLUE_CRAFTING_WILD_CARD_FIRST_WILD_DESC	Questa carta non è valida per il formato Standard. Vuoi procedere?	
+GLUE_CRAFTING_WILD_CARD_HEADER	Carte Selvagge	
+GLUE_CRAFTING_WILD_CARD_INTRO_DESC	Nel formato Selvaggio si può utilizzare qualsiasi carta mai pubblicata!	
+GLUE_CRAFTING_WILD_CARD_TAVERN_BRAWL_DESC	Questa carta non è valida per questa Rissa. Vuoi procedere?	
+GLUE_CRAFTING_WILD_CARD_TAVERN_BRAWL_HEADER	Carte non valide	
+GLUE_CRAFTING_WILD_CARD_WARNING_CANCEL	Ops! No!	
+GLUE_CRAFTING_WILD_CARD_WARNING_CONFIRM	Sì, procedi	
 GLUE_CREATE_DECK	Componi il mazzo	
+GLUE_CREATE_STANDARD_DECK	Componi un mazzo Standard	
+GLUE_CREATE_WILD_DECK	Componi un mazzo Selvaggio	
 GLUE_DECK_TEMPLATE_CHOOSE_DECK	Modelli per {0}	0=name of class (e.g. Shaman)
 GLUE_DECK_TEMPLATE_CURRENT_DECK	Mazzo attuale	
 GLUE_DECK_TEMPLATE_CUSTOM_DECK	Mazzo personalizzato	
@@ -182,6 +215,8 @@ GLUE_DECK_TRAY_CARD_COUNT_LABEL	Carte
 GLUE_DECK_TRAY_COUNT	{0}/{1}	
 GLUE_DECK_TRAY_DECK_COUNT_LABEL	Mazzi	
 GLUE_DECK_TRAY_HEROES_UNLOCKED_COUNT_LABEL	Sbloccati	
+GLUE_DISABLED_WILD_DECK_DESC	Mazzo non utilizzabile in formato Standard. Convertilo o passa al formato Selvaggio.	
+GLUE_DISABLED_WILD_DECK_HEADER	Mazzo Selvaggio	
 GLUE_DONT_SHOW_ME_THIS_AGAIN	Non mostrare più	
 GLUE_DRAFT_HERO_INSTRUCTIONS	Scegli il tuo eroe	
 GLUE_DRAFT_INSTRUCTIONS	Scegli una carta	
@@ -209,6 +244,8 @@ GLUE_HERO_LOCKED_DESC	Sconfiggi questo eroe per sbloccarlo!
 GLUE_HERO_LOCKED_NAME	Bloccato	
 GLUE_HEROIC_WARNING	La versione Eroica è MOLTO difficile e non è adatta per i deboli di cuore. Entra a tuo rischio e pericolo!	
 GLUE_HEROIC_WARNING_TITLE	Attenzione!	
+GLUE_INCOMPLETE_DECK_DESC	Devi finire di comporre questo mazzo.	
+GLUE_INCOMPLETE_DECK_HEADER	Mazzo incompleto	
 GLUE_INNKEEPERS_SPECIAL_CONFIRM_POPUP_HEADER	Apri browser	
 GLUE_INNKEEPERS_SPECIAL_CONFIRM_POPUP_MESSAGE	Questo contenuto verrà aperto nel tuo browser Internet. Vuoi continuare?	
 GLUE_INNKEEPERS_SPECIAL_LEARN_MORE	Maggiori informazioni	
@@ -323,8 +360,8 @@ GLUE_PATCHING_LABEL	Scaricamento di {0}/{1} file
 GLUE_PICK_A_CARD	Scegli una carta	
 GLUE_PICK_A_REGION	Scegli una regione	
 GLUE_PICK_A_REPLACEMENT	Scegli un'alternativa	
-GLUE_POPUP_SWITCH_FORMAT_DESC	Il formato Standard è in arrivo: potranno essere usate solo carte dei set Base, Classico e quelli rilasciati negli ultimi due anni. I nuovi set avranno un grande impatto!	
-GLUE_POPUP_SWITCH_FORMAT_HEADER	Un nuovo modo di giocare!	
+GLUE_PLAY_STANDARD	Formato Standard	
+GLUE_PLAY_WILD	Formato Selvaggio	
 GLUE_PRACTICE	Allenamento	
 GLUE_PRACTICE_HINT	Modalità Allenamento	
 GLUE_QUEST_FINISHED_DAILY	Hai completato tutte le tue missioni giornaliere.	
@@ -371,6 +408,7 @@ GLUE_RECONNECT_RESULT_TIE	L'ultima partita in modalità {0} è terminata con un 
 GLUE_RECONNECT_RESULT_WIN	Hai vinto l'ultima partita in modalità {0}.	0=one of GLOBAL_RECONNECT_GAME_TYPE_*
 GLUE_SHOW_CUSTOM_DECKS	Mazzi personalizzati	
 GLUE_SHOW_PRECON_DECKS	Mazzi base	
+GLUE_SPECIAL_QUEST_NOTIFICATION_HEADER	Missione speciale!	
 GLUE_SPECTATOR_LOADING_BAR_TASK_1	Ricerca del tavolo dell'amico	
 GLUE_SPECTATOR_LOADING_BAR_TASK_2	Preparazione dei popcorn	
 GLUE_SPECTATOR_LOADING_BAR_TASK_3	Pulitura degli occhiali	
@@ -525,6 +563,7 @@ GLUE_STORE_PACKS_PREORDER_TEXT	Preacquista
 GLUE_STORE_PAYMENT_INFO_DETAILS	I fondi saranno prima detratti dal tuo saldo Battle.net. Se quelli disponibili dovessero rivelarsi insufficienti, verrà utilizzato il metodo di pagamento predefinito del tuo account Battle.net.\n\nIMPORTANTE: problemi con il pagamento o richieste di storno da parte dell'utente relativi a questa transazione potrebbero comportare la temporanea sospensione dell'account finché il problema non verrà risolto o il saldo dovuto non verrà pagato.	
 GLUE_STORE_PAYMENT_INFO_HEADLINE	Info sui pagamenti	
 GLUE_STORE_PAYMENT_INFO_URL_DETAILS	Premi "{0}" per accedere al sito web di Battle.net e ottenere maggiori informazioni sui pagamenti.	
+GLUE_STORE_PRE_PURCHASE_HAS_ENDED	Il preacquisto di questo prodotto non è più disponibile.	
 GLUE_STORE_PREORDER	PREACQUISTO	
 GLUE_STORE_PREORDER_EXCLUSIVE	ESCLUSIVA DEL PREACQUISTO!	
 GLUE_STORE_PRODUCT_DETAILS_BRM_PART_1	Affronta i letali boss dell'ala {0} in un'avventura in solitaria.	0=wing name
@@ -539,7 +578,7 @@ GLUE_STORE_PRODUCT_DETAILS_NAXX_PART_2	Ottieni nuove carte di Naxxramas per la t
 GLUE_STORE_PRODUCT_DETAILS_OG_PACK_PRESALE	• 50 buste e un dorso speciale\n• Ogni busta contiene 5 carte, di cui almeno 1 Rara o migliore\n*Le buste potranno essere aperte entro il 31 maggio 2016	
 GLUE_STORE_PRODUCT_DETAILS_PACK	• 5 carte {0} di Hearthstone\n• Almeno 1 carta Rara o migliore	0=pack type
 GLUE_STORE_PRODUCT_DETAILS_TGT_PACK_PRESALE	• 50 buste e un dorso speciale\n• Ogni busta contiene 5 carte,\n   di cui 1 Rara o migliore\n• Le buste del Gran Torneo potranno\n   essere aperte ad agosto!	
-GLUE_STORE_PRODUCT_EVENT_HAS_ENDED	Il preacquisto di questo prodotto non è più disponibile.	
+GLUE_STORE_PRODUCT_EVENT_HAS_ENDED	Questo prodotto non è più disponibile.	
 GLUE_STORE_PRODUCT_NAME_BRM_PRESALE_BUNDLE	Preacquisto del Massiccio Roccianera	
 GLUE_STORE_PRODUCT_NAME_BRM_WING_BUNDLE	Avventura del Massiccio Roccianera ({0} |4(ala,ali))	
 GLUE_STORE_PRODUCT_NAME_FORGE_TICKET	Ammissione all'Arena	
@@ -602,6 +641,11 @@ GLUE_TAVERN_BRAWL_REWARD_DESC_FINISH	Vinci una busta per aver completato la Riss
 GLUE_TAVERN_BRAWL_REWARD_DESC_FINISH_CARDBACK	Ottieni questo dorso per aver completato la Rissa di questa settimana!	
 GLUE_TEXTURE_COMPRESSION_WARNING	Questa versione del gioco non contiene il formato corretto delle texture per questa piattaforma. Le prestazioni non saranno ottimali.	--TEMP-- This should be in Chinese
 GLUE_TEXTURE_COMPRESSION_WARNING_TITLE	Avviso compressione texture	--TEMP-- This should be in Chinese
+GLUE_THE_CLOCK_BANNER_NEW_WAY	Un nuovo modo di giocare:	
+GLUE_THE_CLOCK_BANNER_STANDARD	Standard	
+GLUE_THE_CLOCK_BANNER_YEAR	Anno del Kraken	
+GLUE_THE_CLOCK_DETAILS	Le carte che puoi usare in formato Standard cambiano ogni anno.	
+GLUE_THE_CLOCK_DETAILS_STANDARD	Nel formato Standard si possono utilizzare solo le carte più recenti.	
 GLUE_TIP_ADVENTURE_0	Per poter sconfiggere i boss più impegnativi, conviene comporre un mazzo specifico.	
 GLUE_TIP_ADVENTURE_1	Non farti scoraggiare dai boss più impegnativi. Componi un mazzo specifico per spazzarli via.	
 GLUE_TIP_ADVENTURE_2	Se continui a perdere contro un boss, prova a modificare il tuo mazzo.	
@@ -626,7 +670,18 @@ GLUE_TIP_DEFAULT_2_TOUCH	Tocca il tuo eroe per usare le emote.
 GLUE_TIP_DEFAULT_20	Puoi osservare un amico mentre è impegnato in una partita premendo il pulsante a forma di occhio nell'elenco amici!	
 GLUE_TIP_DEFAULT_21	Gioca a Hearthstone sul telefono, sul tablet o sul computer. Usa la stessa collezione di carte su tutti e tre!	
 GLUE_TIP_DEFAULT_22	Nel negozio puoi acquistare un nuovo eroe per la tua classe preferita.	
+GLUE_TIP_DEFAULT_23	Il formato Standard usa le carte Base, Classiche e quelle pubblicate negli ultimi due anni.	
+GLUE_TIP_DEFAULT_24	Clicca sul tuo eroe mentre modifichi un mazzo per passare dal formato Standard a quello Selvaggio.	
+GLUE_TIP_DEFAULT_24_TOUCH	Tocca il tuo eroe mentre modifichi un mazzo per passare dal formato Standard a quello Selvaggio.	
+GLUE_TIP_DEFAULT_25	Questo è l'anno del Kraken! Ogni anno avrà un nuovo tema.	
+GLUE_TIP_DEFAULT_26	Quando consulti la tua collezione, clicca sul filtro in basso a sinistra per scegliere quale set visualizzare.	
+GLUE_TIP_DEFAULT_26_TOUCH	Quando consulti la tua collezione, tocca il filtro in basso a sinistra per scegliere quale set visualizzare.	
+GLUE_TIP_DEFAULT_27	Ogni volta che verrà pubblicato un nuovo set, potrai usare le sue carte sia nel formato Selvaggio sia in quello Standard.	
+GLUE_TIP_DEFAULT_28	Il formato Selvaggio è davvero... Selvaggio! Possono essere utilizzate tutte le carte!	
+GLUE_TIP_DEFAULT_29	Nel formato Standard, le strategie sono in costante evoluzione.	
 GLUE_TIP_DEFAULT_3	Se hai bisogno di aiuto nella creazione di un mazzo,\nusa la funzione "Suggerimenti" nella collezione personale.	
+GLUE_TIP_DEFAULT_30	Nuovi modelli per i mazzi verranno rilasciati in futuro.	
+GLUE_TIP_DEFAULT_31	Nel formato Standard potranno essere usati solo i set più recenti, per cui non avrai bisogno di conoscere le carte più vecchie.	
 GLUE_TIP_DEFAULT_4	La gemma colorata al centro della carta indica il suo livello di rarità.	
 GLUE_TIP_DEFAULT_5	In ordine crescente, la rarità delle carte è: bianco per Comune,\nblu per Rara, viola per Epica e arancione per Leggendaria.	
 GLUE_TIP_DEFAULT_6	Ogni busta contiene almeno una carta Rara o migliore,\nma potrebbero essercene anche altre!	
@@ -659,7 +714,7 @@ GLUE_TIP_TAVERNBRAWL_2	Durante l'evento di lancio, ogni settimana vinci una bust
 GLUE_TIP_TAVERNBRAWL_3	Vincere più partite in modalità Rissa non fornisce premi aggiuntivi, ma è divertente!	
 GLUE_TIP_TAVERNBRAWL_4	In alcune settimane verrà fornito un mazzo precostruito,\nin altre dovrai crearne uno tu. È sempre una sorpresa!	
 GLUE_TIP_TAVERNBRAWL_5	Alcune Risse potrebbero ritornare in futuro.	
-GLUE_TIP_TAVERNBRAWL_6	Puoi sfidare un amico a una Rissa lanciando una sfida dalla schermata della Rissa.	
+GLUE_TIP_TAVERNBRAWL_6	Puoi sfidare un amico alla Rissa della settimana, fintanto che è disponibile.	
 GLUE_TIP_TAVERNBRAWL_7	Puoi completare le missioni giornaliere giocando in modalità Rissa!	
 GLUE_TIP_TAVERNBRAWL_8	Per ogni tre partite vinte in modalità Rissa otterrai 10 oro, proprio come in modalità Gioco.	
 GLUE_TOOLTIP_BUTTON_ADVENTURE_DESC	Affronta avventure o fai pratica contro avversari controllati dall'IA.	
@@ -688,14 +743,18 @@ GLUE_TOOLTIP_GOLDEN_WINS_DESC	Vinci 500 partite classificate con questa classe p
 GLUE_TOOLTIP_GOLDEN_WINS_HEADER	Vittorie Classificate	
 GLUE_TOOLTIP_HOW_TO_UNLOCK_DECKS	Sblocca questo mazzo sconfiggendo altri eroi in qualsiasi modalità.	
 GLUE_TOOLTIP_RANKED_BUTTON	Affronta altri giocatori per scalare la classifica!	
-GLUE_TOOLTIP_SWITCH_FORMAT_BUTTON_WILD	Attualmente stai giocando in formato Selvaggio, dove può essere usata qualsiasi carta. Clicca per cambiare formato. *In arrivo*	
-GLUE_TOOLTIP_SWITCH_FORMAT_BUTTON_WILD_MOBILE	Attualmente stai giocando in formato Selvaggio, dove può essere usata qualsiasi carta. Tocca per cambiare formato. *In arrivo*	
 GLUE_TOURNAMENT	Gioco	
 GLUE_TOURNAMENT_CASUAL	Amichevole	
+GLUE_TOURNAMENT_CASUAL_WILD	Amichevole Selvaggia	
+GLUE_TOURNAMENT_NO_STANDARD_DECKS	Non hai mazzi Standard. Vai a comporne uno!	
 GLUE_TOURNAMENT_RANKED	Classificata	
+GLUE_TOURNAMENT_RANKED_WILD	Classificata Selvaggia	
+GLUE_TOURNAMENT_STANDARD_DESC	Possono essere usate solo le carte Base, Classiche e quelle degli ultimi due anni.	
+GLUE_TOURNAMENT_SWITCH_TO_STANDARD	Prova a passare al formato Standard	
+GLUE_TOURNAMENT_SWITCH_TO_WILD	Da qui puoi passare al formato Selvaggio	
 GLUE_TOURNAMENT_UNRANKED_DESC	Nelle partite in modalità Amichevole viene utilizzato un sistema differente per cui non otterrai medaglie.	
 GLUE_TOURNAMENT_UNRANKED_MODE	Modalità Amichevole	
-GLUE_TOURNAMENT_WILD	Selvaggio	
+GLUE_TOURNAMENT_WILD_DESC	Possono essere usate tutte le carte.	
 GLUE_UNRELIABLE_GPU_WARNING	Questo dispositivo utilizza un hardware grafico non supportato, perciò Hearthstone potrebbe presentare difetti grafici e/o scarse prestazioni.\n\nTocca Assistenza per ulteriori informazioni.	
 GLUE_UNRELIABLE_GPU_WARNING_TITLE	Hardware grafico	
 GLUE_WIN_STREAK	Serie di vittorie: {0}	0=number of wins

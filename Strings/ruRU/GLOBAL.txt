@@ -44,6 +44,10 @@ GLOBAL_CARD_SET_LOE_SEARCHABLE_SHORTHAND_NAMES	ЛИ лига исследова�
 GLOBAL_CARD_SET_LOE_SHORT	Лига исследователей	
 GLOBAL_CARD_SET_NAXX	Наксрамас	
 GLOBAL_CARD_SET_NAXX_SEARCHABLE_SHORTHAND_NAMES	Накс	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_OG	Пробуждение древних богов	
+GLOBAL_CARD_SET_OG_RESERVE	Old Gods Reserve	
+GLOBAL_CARD_SET_OG_SEARCHABLE_SHORTHAND_NAMES	tog пдб дб	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.  For Whispers of the Old Gods, 'tog' should be available in all locales; wotog and wog are additional English shorthands, which should be replaced by locale specific variants.
+GLOBAL_CARD_SET_OG_SHORT	Древние боги	
 GLOBAL_CARD_SET_PROMO	Промо-карты	
 GLOBAL_CARD_SET_REWARD	Награды	
 GLOBAL_CARD_SET_TGT	Большой турнир	
@@ -154,6 +158,7 @@ GLOBAL_ERROR_NETWORK_NO_CONNECTION	Не удалось подключиться.
 GLOBAL_ERROR_NETWORK_NO_GAME_SERVER	Ой! У нас не получилось начать для вас новую игру. Пожалуйста, попробуйте еще раз.	
 GLOBAL_ERROR_NETWORK_PARENTAL_CONTROLS	Доступ к данной учетной записи ограничен на правах родительского контроля.	
 GLOBAL_ERROR_NETWORK_PHONE_LOCK	Обратитесь по номеру телефона Battle.net Phone Lock, чтобы получить доступ к своей учетной записи.\nНа Тайване: 0800-303-585\nВ Гонконге: 396-54666	
+GLOBAL_ERROR_NETWORK_RISK_ACCOUNT_LOCKED	Мы заблокировали вашу учетную запись. Перейдите по ссылке https://eu.battle.net/support/ru/ и найдите статью 7537, чтобы узнать, что произошло.	
 GLOBAL_ERROR_NETWORK_SPAM	Ввиду большого количества одновременных запросов с вашей стороны вы были отключены от службы Battle.net. Пожалуйста, перезапустите Hearthstone.	
 GLOBAL_ERROR_NETWORK_TITLE	ОШИБКА СЕТИ	
 GLOBAL_ERROR_NETWORK_UNAVAILABLE_OFFLINE	Игра Hearthstone не подключена к сети. Пожалуйста, подождите несколько минут и повторите попытку.	
@@ -182,6 +187,8 @@ GLOBAL_FORGE_END_JOKE_8	Это еще не конец! Хотя...
 GLOBAL_FORGE_END_TITLE	Сражение на Арене завершено	
 GLOBAL_FRIEND_CHALLENGE_ACCEPT	Да!	
 GLOBAL_FRIEND_CHALLENGE_BODY1	Вам бросает вызов:	
+GLOBAL_FRIEND_CHALLENGE_BODY1_STANDARD	Вам бросает вызов на матч стандартного формата игрок	
+GLOBAL_FRIEND_CHALLENGE_BODY1_WILD	Вам бросает вызов на матч вольного формата игрок	
 GLOBAL_FRIEND_CHALLENGE_BODY2	Вы принимаете вызов?	
 GLOBAL_FRIEND_CHALLENGE_DECLINE	Нет	
 GLOBAL_FRIEND_CHALLENGE_HEADER	Вызов	
@@ -205,6 +212,20 @@ GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_HEADER	Дружеская дуэль
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_UNAVAILABLE	Игрок {0} сейчас не может получить ваш вызов. Вернитесь в главное меню.	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_TAVERN_BRAWL_MUST_CREATE_DECK	Чтобы бросить вызов другу в режиме «Потасовки», сначала соберите колоду, соответствующую правилам!	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_THEYRE_UNAVAILABLE	Игрок {0} сейчас не может получить ваш вызов. Дождитесь, когда он вернется в главное меню.	0=player name
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_DECK	У этого игрока нет колод.	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_STANDARD_DECK	У этого игрока нет стандартных колод.	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_TAVERN_BRAWL_DECK	Этот игрок еще не создал колоду для «Потасовки».	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NOT_SEEN_WILD	У этого игрока нет карт вольного формата.	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_TAVERN_BRAWL_LOCKED	Этот игрок еще не получил доступ к «Потасовке».	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_USER_IS_BUSY	Этот игрок пока занят.	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_NO_DECK	Сперва нужно создать колоду.	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_NO_STANDARD_DECK	У вас пока нет стандартных колод.	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_NO_TAVERN_BRAWL_DECK	Для участия в «Потасовке» на этой неделе необходимо создать колоду.	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_TAVERN_BRAWL_LOCKED	Вы получите доступ к «Потасовке», когда достигнете 20-го уровня любым классом.	
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_DUEL_BUTTON	Дуэль	
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_STANDARD_DUEL_BUTTON	Стандартная дуэль	
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_WILD_DUEL_BUTTON	Вольная дуэль	
+GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_NO_TAVERN_BRAWL	«Потасовка» сейчас недоступна. Попробуйте позже!	
 GLOBAL_FRIENDLIST_CURRENT_GAMES_HEADER	ТЕКУЩИЕ ИГРЫ – {0}	0=number of friends you have unfinished games with
 GLOBAL_FRIENDLIST_FRIENDS_HEADER	ДРУЗЬЯ – {0}/{1} в сети	0=number of online friends 1=number of offline friends
 GLOBAL_FRIENDLIST_FRIENDS_HEADER_ALL_ONLINE	ДРУЗЬЯ – {0} в сети	
@@ -271,6 +292,8 @@ GLOBAL_KEYWORD_COMBO	Серия приемов
 GLOBAL_KEYWORD_COMBO_TEXT	Дополнительный эффект, срабатывающий, если вы уже разыграли карту на этом ходу.	
 GLOBAL_KEYWORD_COUNTER	Отмена	
 GLOBAL_KEYWORD_COUNTER_TEXT	Отмененная карта не производит никакого действия.	
+GLOBAL_KEYWORD_CTHUN	К'Тун	
+GLOBAL_KEYWORD_CTHUN_TEXT	К'Тун получает усиления вне зависимости от того, где находится. Пусть даже в колоде!	
 GLOBAL_KEYWORD_DEATHRATTLE	Предсмертный хрип	
 GLOBAL_KEYWORD_DEATHRATTLE_TEXT	Срабатывает в момент гибели.	
 GLOBAL_KEYWORD_DIVINE_SHIELD	Божественный щит	
@@ -291,6 +314,8 @@ GLOBAL_KEYWORD_OVERLOAD	Перегрузка: Х
 GLOBAL_KEYWORD_OVERLOAD_TEXT	На следующем ходу у вас будет на X ед. меньше маны.	
 GLOBAL_KEYWORD_SECRET	Секрет	
 GLOBAL_KEYWORD_SECRET_TEXT	Скрытый эффект, срабатывающий, когда во время хода противника выполняется определенное действие.	
+GLOBAL_KEYWORD_SHIFTING	Оборотень Зерус	
+GLOBAL_KEYWORD_SHIFTING_TEXT	В начале вашего хода превращается в случайное существо.	
 GLOBAL_KEYWORD_SILENCE	Немота	
 GLOBAL_KEYWORD_SILENCE_TEXT	Отменяет все чары и эффекты карты.	
 GLOBAL_KEYWORD_SPAREPART	Запасные части	
@@ -363,11 +388,13 @@ GLOBAL_MEDAL_9	Рыцарь Длани
 GLOBAL_MEDAL_ARENA_TOOLTIP_BODY	Это ваш лучший ключ на Арене.\nКоличество побед: {0}	0=num wins
 GLOBAL_MEDAL_REWARD_CONGRATULATIONS	Поздравляем!	
 GLOBAL_MEDAL_REWARD_DESCRIPTION	Медаль за прошлую неделю	
-GLOBAL_MEDAL_TOOLTIP_BODY	Каждый выигранный матч приближает вас к следующему рангу!\n\nСледующий ранг:\n{0}	0=medal name
+GLOBAL_MEDAL_TOOLTIP_BEST_RANK_STANDARD	Ваш высший ранг в стандартном формате.	
+GLOBAL_MEDAL_TOOLTIP_BEST_RANK_WILD	Ваш высший ранг в вольном формате.	
+GLOBAL_MEDAL_TOOLTIP_BODY	Каждый выигранный матч приближает вас к следующему рангу!	
 GLOBAL_MEDAL_TOOLTIP_BODY_ARENA_GRAND_MASTER	Вы – чемпион Арены!	
 GLOBAL_MEDAL_TOOLTIP_BODY_LEGEND	Вы – легенда! С каждой игрой ваша позиция в рейтинге этого ранга будет меняться.	
 GLOBAL_MEDAL_TOOLTIP_HEADER	{0}	0=medal name
-GLOBAL_MEDAL_TOURNAMENT_TOOLTIP_BODY	Вы – один из {0}% лучших игроков этого сезона\n\nСледующий ранг:\n{1}	0=rank percentile 1=medal name
+GLOBAL_MEDAL_TOURNAMENT_TOOLTIP_BODY	Вы – один из {0}% лучших игроков этого сезона	0=rank percentile
 GLOBAL_MOBILE_ERROR_ANDROID_PHONE_DETECTED	К сожалению, на данный момент Hearthstone поддерживается только планшетами под управлением Android с размером экрана от 6".	
 GLOBAL_MOBILE_ERROR_BREAKING_NEWS	Срочные новости:\n\n{0}	
 GLOBAL_MOBILE_ERROR_LOGON_WEB_TIMEOUT	Вы давно не совершали никаких действий в Hearthstone, и ваше соединение с сервером было разорвано.	
@@ -414,6 +441,8 @@ GLOBAL_OPTIONS_SOUND_MUSIC_VOLUME_LABEL	Громкость музыки
 GLOBAL_OPTIONS_SPECTATOR_OPEN_JOIN	Друзья могут наблюдать за моими матчами	
 GLOBAL_PLAY	Играть	
 GLOBAL_PLAY_RANKED	Играть	
+GLOBAL_PLAY_STANDARD	Стандартная игра	
+GLOBAL_PLAY_WILD	Вольная игра	
 GLOBAL_PLAYER_PLAYER	Игрок	this is the word for generic "Player" - this will be used when there a player's name is unknown at the time.
 GLOBAL_PRACTICE_MAX_LEVEL_REACHED	Макс. уровень тренировки	
 GLOBAL_PROGRAMNAME_DIABLO3	Diablo III	
@@ -539,6 +568,7 @@ GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START	<color=#{0}>{1}</color> начинает 
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START_WITH_MANY_WINS	<color=#{0}>{1}</color> начинает сражение на арене, имея за плечами уже {2} |4(победу,победы,побед)!	0=name color,1=player name,2=Arena Wins
 GLOBAL_SOCIAL_TOAST_FRIEND_DRUID_LEVEL	<color=#{0}>{1}</color> получает {2} уровень друидом.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK	Игрок <color=#{0}>{1}</color> достиг ранга «{2}»!	0=name color,1=player name,2=medal rank
+GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK_WILD	Игрок <color=#{0}>{1}</color> достиг ранга {2} в вольном формате!	0=name color,1=player name,2=medal rank
 GLOBAL_SOCIAL_TOAST_FRIEND_GOLDEN_LEGENDARY	<color=#{0}>{1}</color> получает <color=#{3}>золотую карту «{2}»</color>!	0=name color,1=player name,2=card name,3=Golden Color
 GLOBAL_SOCIAL_TOAST_FRIEND_HUNTER_LEVEL	<color=#{0}>{1}</color> получает {2} уровень охотником.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_ILLIDAN_COMPLETE	<color=#{0}>{1}</color> одерживает победу над Иллиданом!	0=name color,1=player name
@@ -549,6 +579,7 @@ GLOBAL_SOCIAL_TOAST_FRIEND_ONLINE	<color=#{0}>{1}</color> входит в сет
 GLOBAL_SOCIAL_TOAST_FRIEND_PALADIN_LEVEL	<color=#{0}>{1}</color> получает {2} уровень паладином.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_PRIEST_LEVEL	<color=#{0}>{1}</color> получает {2} уровень жрецом.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_RANK_LEGEND	<color=#{0}>{1}</color> становится ЛЕГЕНДОЙ!	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_FRIEND_RANK_LEGEND_WILD	<color=#{0}>{1}</color> становится ЛЕГЕНДОЙ в вольном формате!	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_REQUEST	Игрок <color=#{0}>{1}</color> приглашает вас добавить его в список друзей.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_ROGUE_LEVEL	<color=#{0}>{1}</color> получает {2} уровень разбойником.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_SHAMAN_LEVEL	<color=#{0}>{1}</color> получает {2} уровень шаманом.	0=name color,1=player name,2=level
@@ -581,6 +612,7 @@ GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_PLAYING	Вы ждете начала
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TIMEOUT	Игрок, за которым вы наблюдаете в качестве зрителя, слишком долго не начинает следующий матч. Режим зрителя отменен.	
 GLOBAL_SPLASH_CLOSED_RECONNECTING	Подключение...	
 GLOBAL_SPLASH_CLOSED_SIGN_TITLE	Закрыто	
+GLOBAL_STANDARD	Стандартный	
 GLOBAL_STORE_MOBILE_NAME_AMAZON	магазине Amazon Appstore	
 GLOBAL_STORE_MOBILE_NAME_APPLE	магазине Apple App Store	
 GLOBAL_STORE_MOBILE_NAME_DEFAULT	магазине Blizzard	
@@ -606,4 +638,5 @@ GLOBAL_TUTORIAL_USED	Использована
 GLOBAL_TUTORIAL_YOUR_MANA	Ваша мана	
 GLOBAL_TUTORIAL_YOUR_TURN	Ваш ход	
 GLOBAL_VERSION	Версия	
+GLOBAL_WILD	Вольный	
 GLOBAL_WINS	Победы	

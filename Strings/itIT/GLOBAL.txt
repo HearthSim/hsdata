@@ -44,6 +44,10 @@ GLOBAL_CARD_SET_LOE_SEARCHABLE_SHORTHAND_NAMES	loe lde	This is a space-separated
 GLOBAL_CARD_SET_LOE_SHORT	Lega degli Esploratori	
 GLOBAL_CARD_SET_NAXX	Naxxramas	
 GLOBAL_CARD_SET_NAXX_SEARCHABLE_SHORTHAND_NAMES	Nax Naxx	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_OG	Sussurri degli Dei Antichi	
+GLOBAL_CARD_SET_OG_RESERVE	Riserva degli Dei Antichi	
+GLOBAL_CARD_SET_OG_SEARCHABLE_SHORTHAND_NAMES	tog wotog wog sda sdda	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.  For Whispers of the Old Gods, 'tog' should be available in all locales; wotog and wog are additional English shorthands, which should be replaced by locale specific variants.
+GLOBAL_CARD_SET_OG_SHORT	Dei Antichi	
 GLOBAL_CARD_SET_PROMO	Promozione	
 GLOBAL_CARD_SET_REWARD	Ricompensa	
 GLOBAL_CARD_SET_TGT	Gran Torneo	
@@ -154,6 +158,7 @@ GLOBAL_ERROR_NETWORK_NO_CONNECTION	Impossibile connettersi. Controlla la conness
 GLOBAL_ERROR_NETWORK_NO_GAME_SERVER	Oops! Non è stato possibile creare la tua partita. Riprova.	
 GLOBAL_ERROR_NETWORK_PARENTAL_CONTROLS	L'accesso a questo account è attualmente limitato dal controllo parentale.	
 GLOBAL_ERROR_NETWORK_PHONE_LOCK	Chiama il numero Phone Lock di Battle.net per effettuare l'accesso.\nTaiwan: 0800-303-585\nHong Kong: 396-54666	
+GLOBAL_ERROR_NETWORK_RISK_ACCOUNT_LOCKED	Abbiamo bloccato il tuo account! Vai su https://eu.battle.net/support/it/ e cerca l’articolo 7537 per saperne di più!	
 GLOBAL_ERROR_NETWORK_SPAM	Sei stato disconnesso dal servizio di gioco Battle.net per aver inviato troppe richieste in breve tempo. Riavvia Hearthstone per riconnetterti.	
 GLOBAL_ERROR_NETWORK_TITLE	ERRORE DI RETE	
 GLOBAL_ERROR_NETWORK_UNAVAILABLE_OFFLINE	Hearthstone non è al momento disponibile. Attendi qualche minuto e riprova.	
@@ -182,6 +187,8 @@ GLOBAL_FORGE_END_JOKE_8	Non è ancora finita! No, aspetta, è davvero finita.
 GLOBAL_FORGE_END_TITLE	Arena completata	
 GLOBAL_FRIEND_CHALLENGE_ACCEPT	Sì!	
 GLOBAL_FRIEND_CHALLENGE_BODY1	Hai ricevuto una sfida da:	
+GLOBAL_FRIEND_CHALLENGE_BODY1_STANDARD	Hai ricevuto una sfida in formato Standard da:	
+GLOBAL_FRIEND_CHALLENGE_BODY1_WILD	Hai ricevuto una sfida in formato Selvaggio da:	
 GLOBAL_FRIEND_CHALLENGE_BODY2	Vuoi accettarla?	
 GLOBAL_FRIEND_CHALLENGE_DECLINE	No	
 GLOBAL_FRIEND_CHALLENGE_HEADER	Sfida!	
@@ -205,6 +212,20 @@ GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_HEADER	Sfida
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_UNAVAILABLE	Non puoi sfidare {0} in questo momento. Ritorna al menu principale.	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_TAVERN_BRAWL_MUST_CREATE_DECK	Per sfidare un amico in modalità Rissa, devi prima creare un mazzo Rissa!	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_THEYRE_UNAVAILABLE	Non puoi sfidare {0} in questo momento. Aspetta che ritorni al menu principale.	0=player name
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_DECK	Questo giocatore non ha mazzi.	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_STANDARD_DECK	Questo giocatore non ha mazzi Standard.	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_TAVERN_BRAWL_DECK	Questo giocatore non ha ancora composto un mazzo per la Rissa.	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NOT_SEEN_WILD	Questo giocatore non ha carte Selvagge.	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_TAVERN_BRAWL_LOCKED	Questo giocatore non ha ancora sbloccato la Rissa.	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_USER_IS_BUSY	Questo giocatore al momento è occupato.	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_NO_DECK	Devi prima comporre un mazzo.	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_NO_STANDARD_DECK	Non hai alcun mazzo Standard.	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_NO_TAVERN_BRAWL_DECK	Per la Rissa di questa settimana, devi prima comporre un mazzo.	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_TAVERN_BRAWL_LOCKED	Sblocca la Rissa raggiungendo il livello 20 con qualsiasi classe.	
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_DUEL_BUTTON	Sfida	
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_STANDARD_DUEL_BUTTON	Sfida Standard	
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_WILD_DUEL_BUTTON	Sfida Selvaggia	
+GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_NO_TAVERN_BRAWL	La Rissa non è al momento disponibile. Riprova più tardi!	
 GLOBAL_FRIENDLIST_CURRENT_GAMES_HEADER	PARTITE IN CORSO - {0}	0=number of friends you have unfinished games with
 GLOBAL_FRIENDLIST_FRIENDS_HEADER	AMICI - {0}/{1} online	0=number of online friends 1=number of offline friends
 GLOBAL_FRIENDLIST_FRIENDS_HEADER_ALL_ONLINE	AMICI - {0} online	
@@ -271,6 +292,8 @@ GLOBAL_KEYWORD_COMBO	Combo
 GLOBAL_KEYWORD_COMBO_TEXT	Un bonus che si ottiene quando è già stata giocata una carta nel turno.	
 GLOBAL_KEYWORD_COUNTER	Contrasto	
 GLOBAL_KEYWORD_COUNTER_TEXT	Una carta che viene Contrastata non ha effetto.	
+GLOBAL_KEYWORD_CTHUN	C'thun, Dio Antico	
+GLOBAL_KEYWORD_CTHUN_TEXT	C'thun riceve i potenziamenti dovunque sia, anche se si trova ancora nel tuo mazzo!	
 GLOBAL_KEYWORD_DEATHRATTLE	Rantolo di Morte	
 GLOBAL_KEYWORD_DEATHRATTLE_TEXT	Attiva l'effetto quando muore.	
 GLOBAL_KEYWORD_DIVINE_SHIELD	Scudo Divino	
@@ -291,6 +314,8 @@ GLOBAL_KEYWORD_OVERLOAD	Sovraccarico: (X)
 GLOBAL_KEYWORD_OVERLOAD_TEXT	Nel turno successivo, avrai X Cristalli di Mana in meno.	
 GLOBAL_KEYWORD_SECRET	Segreto	
 GLOBAL_KEYWORD_SECRET_TEXT	Nascosto finché non si verifica un'azione specifica nel turno dell'avversario.	
+GLOBAL_KEYWORD_SHIFTING	Mutaforma Zerus	
+GLOBAL_KEYWORD_SHIFTING_TEXT	Si trasforma in un nuovo servitore all'inizio del tuo turno.	
 GLOBAL_KEYWORD_SILENCE	Silenzio	
 GLOBAL_KEYWORD_SILENCE_TEXT	Disattiva le capacità elencate sulla carta e rimuove gli incantamenti.	
 GLOBAL_KEYWORD_SPAREPART	Gadget	
@@ -363,11 +388,13 @@ GLOBAL_MEDAL_9	Cavaliere Mano d'Argento
 GLOBAL_MEDAL_ARENA_TOOLTIP_BODY	Questo è il tuo miglior risultato nell'Arena.\nVittorie: {0}	0=num wins
 GLOBAL_MEDAL_REWARD_CONGRATULATIONS	Congratulazioni!	
 GLOBAL_MEDAL_REWARD_DESCRIPTION	Medaglia ottenuta la settimana scorsa	
-GLOBAL_MEDAL_TOOLTIP_BODY	Vinci delle partite per avanzare verso il prossimo grado!\n\nProssimo grado:\n{0}	0=medal name
+GLOBAL_MEDAL_TOOLTIP_BEST_RANK_STANDARD	Il tuo attuale miglior risultato in formato Standard.	
+GLOBAL_MEDAL_TOOLTIP_BEST_RANK_WILD	Il tuo attuale miglior risultato in formato Selvaggio.	
+GLOBAL_MEDAL_TOOLTIP_BODY	Vinci delle partite per avanzare verso il prossimo grado!	
 GLOBAL_MEDAL_TOOLTIP_BODY_ARENA_GRAND_MASTER	Sei un campione dell'Arena!	
 GLOBAL_MEDAL_TOOLTIP_BODY_LEGEND	Sei una Leggenda! La tua posizione in questo grado cambierà a ogni partita.	
 GLOBAL_MEDAL_TOOLTIP_HEADER	Medaglia {0}	0=medal name
-GLOBAL_MEDAL_TOURNAMENT_TOOLTIP_BODY	Nel miglior {0}% dei giocatori della modalità Classificata in questa stagione.\n\nProssimo grado:\n{1}	0=rank percentile 1=medal name
+GLOBAL_MEDAL_TOURNAMENT_TOOLTIP_BODY	Nel miglior {0}% dei giocatori della modalità Classificata in questa stagione.	0=rank percentile
 GLOBAL_MOBILE_ERROR_ANDROID_PHONE_DETECTED	Spiacenti, Hearthstone attualmente funziona solo su tablet Android con uno schermo da 6 pollici o superiore.	
 GLOBAL_MOBILE_ERROR_BREAKING_NEWS	Ultime novità:\n\n{0}	
 GLOBAL_MOBILE_ERROR_LOGON_WEB_TIMEOUT	È passato molto tempo dalla tua ultima azione su Hearthstone e sei stato disconnesso dal server.	
@@ -414,6 +441,8 @@ GLOBAL_OPTIONS_SOUND_MUSIC_VOLUME_LABEL	Volume musica
 GLOBAL_OPTIONS_SPECTATOR_OPEN_JOIN	Permetti agli amici di osservare le mie partite	
 GLOBAL_PLAY	Gioca	
 GLOBAL_PLAY_RANKED	Partita\nclassificata	
+GLOBAL_PLAY_STANDARD	Gioca in Standard	
+GLOBAL_PLAY_WILD	Gioca in Selvaggio	
 GLOBAL_PLAYER_PLAYER	Giocatore	this is the word for generic "Player" - this will be used when there a player's name is unknown at the time.
 GLOBAL_PRACTICE_MAX_LEVEL_REACHED	Massimo livello contro IA	
 GLOBAL_PROGRAMNAME_DIABLO3	Diablo III	
@@ -539,6 +568,7 @@ GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START	<color=#{0}>{1}</color> ha iniziato una c
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START_WITH_MANY_WINS	<color=#{0}>{1}</color> ha appena iniziato una partita nell'Arena. Ha già ottenuto {2} |4(vittoria,vittorie)!	0=name color,1=player name,2=Arena Wins
 GLOBAL_SOCIAL_TOAST_FRIEND_DRUID_LEVEL	<color=#{0}>{1}</color> ha raggiunto il livello {2} con il Druido.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK	<color=#{0}>{1}</color> ha appena raggiunto il grado {2}!	0=name color,1=player name,2=medal rank
+GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK_WILD	<color=#{0}>{1}</color> ha appena raggiunto il grado {2} in formato Selvaggio!	0=name color,1=player name,2=medal rank
 GLOBAL_SOCIAL_TOAST_FRIEND_GOLDEN_LEGENDARY	<color=#{0}>{1}</color> ha ottenuto la carta <color=#{3}>{2} Dorata</color>!	0=name color,1=player name,2=card name,3=Golden Color
 GLOBAL_SOCIAL_TOAST_FRIEND_HUNTER_LEVEL	<color=#{0}>{1}</color> ha raggiunto il livello {2} con il Cacciatore.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_ILLIDAN_COMPLETE	<color=#{0}>{1}</color> ha sconfitto Illidan Grantempesta!	0=name color,1=player name
@@ -549,6 +579,7 @@ GLOBAL_SOCIAL_TOAST_FRIEND_ONLINE	<color=#{0}>{1}</color> è online.	0=name colo
 GLOBAL_SOCIAL_TOAST_FRIEND_PALADIN_LEVEL	<color=#{0}>{1}</color> ha raggiunto il livello {2} con il Paladino.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_PRIEST_LEVEL	<color=#{0}>{1}</color> ha raggiunto il livello {2} con il Sacerdote.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_RANK_LEGEND	<color=#{0}>{1}</color> ha ottenuto il grado Leggenda!	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_FRIEND_RANK_LEGEND_WILD	<color=#{0}>{1}</color> ha ottenuto il grado Leggenda in formato Selvaggio!	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_REQUEST	<color=#{0}>{1}</color> ti ha inviato una richiesta d'amicizia.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_ROGUE_LEVEL	<color=#{0}>{1}</color> ha raggiunto il livello {2} con il Ladro.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_SHAMAN_LEVEL	<color=#{0}>{1}</color> ha raggiunto il livello {2} con lo Sciamano.	0=name color,1=player name,2=level
@@ -581,6 +612,7 @@ GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_PLAYING	In attesa della prossima par
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TIMEOUT	Il giocatore che stavi osservando ha impiegato troppo tempo ad avviare la partita. La modalità spettatore è stata annullata.	
 GLOBAL_SPLASH_CLOSED_RECONNECTING	Riconnessione in corso...	
 GLOBAL_SPLASH_CLOSED_SIGN_TITLE	Chiuso	
+GLOBAL_STANDARD	Standard	
 GLOBAL_STORE_MOBILE_NAME_AMAZON	sull'App-Shop Amazon	
 GLOBAL_STORE_MOBILE_NAME_APPLE	sull'App Store Apple	
 GLOBAL_STORE_MOBILE_NAME_DEFAULT	nel negozio Blizzard	
@@ -606,4 +638,5 @@ GLOBAL_TUTORIAL_USED	Usato
 GLOBAL_TUTORIAL_YOUR_MANA	Il tuo Mana	
 GLOBAL_TUTORIAL_YOUR_TURN	Tocca a te!	
 GLOBAL_VERSION	Versione	
+GLOBAL_WILD	Selvaggio	
 GLOBAL_WINS	Vittorie	

@@ -28,7 +28,7 @@ GLOBAL_BASIC_DECK_NAME	기본 {0} 덱	0=class name
 GLOBAL_BETA_REIMBURSEMENT_DETAILS	이 골드는 당신이 과거에 구매한 상품에 대한 보상입니다. 감사합니다!	
 GLOBAL_BETA_REIMBURSEMENT_HEADLINE	계정 초기화 보상	
 GLOBAL_BUTTON_NEXT	다음	
-GLOBAL_BUTTON_NO	아니오	
+GLOBAL_BUTTON_NO	아니요	
 GLOBAL_BUTTON_OK	확인	
 GLOBAL_BUTTON_YES	예	
 GLOBAL_CANCEL	취소	
@@ -44,6 +44,10 @@ GLOBAL_CARD_SET_LOE_SEARCHABLE_SHORTHAND_NAMES	탐험가	This is a space-separat
 GLOBAL_CARD_SET_LOE_SHORT	탐험가 연맹	
 GLOBAL_CARD_SET_NAXX	낙스라마스	
 GLOBAL_CARD_SET_NAXX_SEARCHABLE_SHORTHAND_NAMES	낙스 낙스	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_OG	고대 신의 속삭임	
+GLOBAL_CARD_SET_OG_RESERVE	고대 신 예비	
+GLOBAL_CARD_SET_OG_SEARCHABLE_SHORTHAND_NAMES	고대신 속삭임 고대 신	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.  For Whispers of the Old Gods, 'tog' should be available in all locales; wotog and wog are additional English shorthands, which should be replaced by locale specific variants.
+GLOBAL_CARD_SET_OG_SHORT	고대 신	
 GLOBAL_CARD_SET_PROMO	특전	
 GLOBAL_CARD_SET_REWARD	보상	
 GLOBAL_CARD_SET_TGT	대 마상시합	
@@ -154,6 +158,7 @@ GLOBAL_ERROR_NETWORK_NO_CONNECTION	연결할 수 없습니다. 인터넷 연결�
 GLOBAL_ERROR_NETWORK_NO_GAME_SERVER	이런! 게임을 시작하지 못했습니다. 다시 시도해주세요.	
 GLOBAL_ERROR_NETWORK_PARENTAL_CONTROLS	이 계정은 현재 보호자 관리 또는 청소년 보호를 위해 접속이 제한되어 있습니다.	
 GLOBAL_ERROR_NETWORK_PHONE_LOCK	Battle.net 계정 잠금 번호로 전화하여 로그인하십시오.\n대만: 0800-303-585\n홍콩: 396-54666	
+GLOBAL_ERROR_NETWORK_RISK_ACCOUNT_LOCKED	고객님의 계정이 잠겼습니다! 문제 해결법을 보시려면 https://kr.battle.net/support/ko/로 가서 7537을 검색해보세요!	
 GLOBAL_ERROR_NETWORK_SPAM	지나치게 많은 요청을 한 번에 보내 Battle.net과의 연결이 끊어졌습니다. 하스스톤에 다시 접속해주세요.	
 GLOBAL_ERROR_NETWORK_TITLE	네트워크 오류	
 GLOBAL_ERROR_NETWORK_UNAVAILABLE_OFFLINE	하스스톤이 현재 오프라인 상태입니다. 잠시 후에 다시 시도해주세요.	
@@ -182,6 +187,8 @@ GLOBAL_FORGE_END_JOKE_8	아직 끝나지 않았어요! 어, 아니군요.
 GLOBAL_FORGE_END_TITLE	투기장 완료	
 GLOBAL_FRIEND_CHALLENGE_ACCEPT	네!	
 GLOBAL_FRIEND_CHALLENGE_BODY1	도전을 받았습니다:	
+GLOBAL_FRIEND_CHALLENGE_BODY1_STANDARD	정규전 도전을 받았습니다:	
+GLOBAL_FRIEND_CHALLENGE_BODY1_WILD	야생전 도전을 받았습니다:	
 GLOBAL_FRIEND_CHALLENGE_BODY2	수락하시겠습니까?	
 GLOBAL_FRIEND_CHALLENGE_DECLINE	아니요	
 GLOBAL_FRIEND_CHALLENGE_HEADER	도전	
@@ -205,6 +212,20 @@ GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_HEADER	도전!
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_UNAVAILABLE	지금은 {0} 님에게 도전할 수 없습니다. 메인 메뉴로 돌아가주세요.	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_TAVERN_BRAWL_MUST_CREATE_DECK	선술집 난투에서 친구에게 도전하려면 우선 선술집 난투 덱을 만드세요!	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_THEYRE_UNAVAILABLE	지금은 {0} 님에게 도전할 수 없습니다. 메인 메뉴로 돌아올 때까지 기다려주세요.	0=player name
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_DECK	이 플레이어는 덱이 없습니다.	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_STANDARD_DECK	이 플레이어는 정규 덱이 없습니다.	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_TAVERN_BRAWL_DECK	이 플레이어는 선술집 난투에서 사용할 덱을 만들지 않았습니다.	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NOT_SEEN_WILD	이 플레이어는 야생 카드가 없습니다.	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_TAVERN_BRAWL_LOCKED	이 플레이어는 선술집 난투를 잠금 해제하지 않았습니다.	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_USER_IS_BUSY	이 플레이어는 현재 다른 용무 중입니다.	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_NO_DECK	먼저 덱을 만들어야 합니다.	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_NO_STANDARD_DECK	정규 덱이 없습니다.	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_NO_TAVERN_BRAWL_DECK	이번 주의 선술집 난투에서 사용할 덱을 만들어야 합니다.	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_TAVERN_BRAWL_LOCKED	아무 직업이나 20 레벨을 달성하면 선술집 난투를 잠금 해제할 수 있습니다.	
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_DUEL_BUTTON	도전	
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_STANDARD_DUEL_BUTTON	정규 친선전	
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_WILD_DUEL_BUTTON	야생 친선전	
+GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_NO_TAVERN_BRAWL	지금은 선술집 난투를 사용할 수 없습니다. 다음에 확인해 보세요!	
 GLOBAL_FRIENDLIST_CURRENT_GAMES_HEADER	현재 게임 - {0}	0=number of friends you have unfinished games with
 GLOBAL_FRIENDLIST_FRIENDS_HEADER	친구 - {0}/{1} 온라인	0=number of online friends 1=number of offline friends
 GLOBAL_FRIENDLIST_FRIENDS_HEADER_ALL_ONLINE	친구 - {0}명 온라인	
@@ -271,6 +292,8 @@ GLOBAL_KEYWORD_COMBO	연계
 GLOBAL_KEYWORD_COMBO_TEXT	이번 턴에 이미 낸 카드가 있으면 추가 효과를 냅니다.	
 GLOBAL_KEYWORD_COUNTER	차단	
 GLOBAL_KEYWORD_COUNTER_TEXT	차단당한 카드는 효과를 발휘하지 못합니다.	
+GLOBAL_KEYWORD_CTHUN	고대 신, 크툰	
+GLOBAL_KEYWORD_CTHUN_TEXT	크툰은 어디에서든 강화됩니다. 덱 속에 있어도 말이죠!	
 GLOBAL_KEYWORD_DEATHRATTLE	죽음의 메아리	
 GLOBAL_KEYWORD_DEATHRATTLE_TEXT	죽으면 효과가 발동합니다.	
 GLOBAL_KEYWORD_DIVINE_SHIELD	천상의 보호막	
@@ -291,6 +314,8 @@ GLOBAL_KEYWORD_OVERLOAD	과부하: X
 GLOBAL_KEYWORD_OVERLOAD_TEXT	다음 턴에 획득하는 마나가 X만큼 감소합니다.	
 GLOBAL_KEYWORD_SECRET	비밀	
 GLOBAL_KEYWORD_SECRET_TEXT	특정 조건이 갖추어질 때까지 숨겨져 있습니다.	
+GLOBAL_KEYWORD_SHIFTING	변신수 제루스	
+GLOBAL_KEYWORD_SHIFTING_TEXT	내 턴이 시작될 때, 무작위 하수인으로 변신합니다.	
 GLOBAL_KEYWORD_SILENCE	침묵	
 GLOBAL_KEYWORD_SILENCE_TEXT	모든 카드의 특수 능력과 강화 효과를 제거합니다.	
 GLOBAL_KEYWORD_SPAREPART	예비 부품	
@@ -363,11 +388,13 @@ GLOBAL_MEDAL_9	은빛 성기사단 기사
 GLOBAL_MEDAL_ARENA_TOOLTIP_BODY	지금까지 투기장에서 얻은 열쇠 중 가장 좋은 열쇠입니다.\n승: {0}	0=num wins
 GLOBAL_MEDAL_REWARD_CONGRATULATIONS	축하합니다!	
 GLOBAL_MEDAL_REWARD_DESCRIPTION	지난 주에 획득한 메달	
-GLOBAL_MEDAL_TOOLTIP_BODY	대전에서 승리하여 다음 등급으로 승급하세요!\n\n다음 등급:\n{0}	0=medal name
+GLOBAL_MEDAL_TOOLTIP_BEST_RANK_STANDARD	현재 가장 높은 등급: 정규	
+GLOBAL_MEDAL_TOOLTIP_BEST_RANK_WILD	현재 가장 높은 등급: 야생	
+GLOBAL_MEDAL_TOOLTIP_BODY	대전에서 승리하여 다음 등급으로 승급하세요!	
 GLOBAL_MEDAL_TOOLTIP_BODY_ARENA_GRAND_MASTER	당신은 투기장의 용사입니다!	
 GLOBAL_MEDAL_TOOLTIP_BODY_LEGEND	전설 등급입니다! 매 게임마다 등급 내에서 당신의 순위가 달라집니다.	
 GLOBAL_MEDAL_TOOLTIP_HEADER	{0} 메달	0=medal name
-GLOBAL_MEDAL_TOURNAMENT_TOOLTIP_BODY	이번 시즌에서 등급전 상위 {0}% 달성\n\n다음 등급:\n{1}	0=rank percentile 1=medal name
+GLOBAL_MEDAL_TOURNAMENT_TOOLTIP_BODY	이번 시즌에서 등급전 상위 {0}% 달성	0=rank percentile
 GLOBAL_MOBILE_ERROR_ANDROID_PHONE_DETECTED	죄송합니다. 현재 하스스톤은 화면 크기가 대각선 기준으로 15.2cm(6") 이상인 안드로이드 태블릿에서만 플레이할 수 있습니다.	
 GLOBAL_MOBILE_ERROR_BREAKING_NEWS	긴급 공지:\n\n{0}	
 GLOBAL_MOBILE_ERROR_LOGON_WEB_TIMEOUT	하스스톤에서 장시간 동안 자리를 비워 접속이 종료되었습니다.	
@@ -414,6 +441,8 @@ GLOBAL_OPTIONS_SOUND_MUSIC_VOLUME_LABEL	배경음악
 GLOBAL_OPTIONS_SPECTATOR_OPEN_JOIN	친구들에게 내 게임 관전 허용	
 GLOBAL_PLAY	시작	
 GLOBAL_PLAY_RANKED	등급전 시작	
+GLOBAL_PLAY_STANDARD	정규전 시작	
+GLOBAL_PLAY_WILD	야생전 시작	
 GLOBAL_PLAYER_PLAYER	플레이어	this is the word for generic "Player" - this will be used when there a player's name is unknown at the time.
 GLOBAL_PRACTICE_MAX_LEVEL_REACHED	최대 연습 레벨	
 GLOBAL_PROGRAMNAME_DIABLO3	디아블로 III	
@@ -528,7 +557,7 @@ GLOBAL_SEASON_END_NEW_CARDBACK_TITLE	시즌 보상 카드 뒷면!
 GLOBAL_SEASON_END_NEW_CARDBACK_TITLE_PHONE	시즌 보상\n카드 뒷면!	
 GLOBAL_SEASON_END_NEW_SEASON	{0}이 시작되었습니다!	0=season name
 GLOBAL_SEASON_END_PERCENTILE_LABEL	등급전을 하는 플레이어 중 상위 {0}%에 들었습니다!	0=rank percentile
-GLOBAL_SEASON_END_RANK_LABEL	다음 등급을 획득했습니다:	
+GLOBAL_SEASON_END_RANK_LABEL	다음 등급을 달성했습니다:	
 GLOBAL_SEASON_END_WELCOME	환영합니다	
 GLOBAL_SET_CORE	기본 세트	
 GLOBAL_SET_EXPERT1	오리지널 세트	
@@ -539,6 +568,7 @@ GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START	<color=#{0}>{1}</color> 님이 투기장�
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START_WITH_MANY_WINS	투기장에서 {2}승을 거둔 <color=#{0}>{1}</color> 님이 게임을 시작했습니다!	0=name color,1=player name,2=Arena Wins
 GLOBAL_SOCIAL_TOAST_FRIEND_DRUID_LEVEL	<color=#{0}>{1}</color> 님이 드루이드로 {2} 레벨을 달성했습니다.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK	<color=#{0}>{1}</color> 님이 {2}등급을 달성했습니다!	0=name color,1=player name,2=medal rank
+GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK_WILD	<color=#{0}>{1}</color> 님이 야생에서 {2}등급을 달성했습니다!	0=name color,1=player name,2=medal rank
 GLOBAL_SOCIAL_TOAST_FRIEND_GOLDEN_LEGENDARY	<color=#{0}>{1}</color> 님이 <color=#{3}>황금 {2}</color> 카드를 얻었습니다!	0=name color,1=player name,2=card name,3=Golden Color
 GLOBAL_SOCIAL_TOAST_FRIEND_HUNTER_LEVEL	<color=#{0}>{1}</color> 님이 사냥꾼으로 {2} 레벨을 달성했습니다.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_ILLIDAN_COMPLETE	<color=#{0}>{1}</color> 님이 일리단 스톰레이지를 물리쳤습니다!	0=name color,1=player name
@@ -548,7 +578,8 @@ GLOBAL_SOCIAL_TOAST_FRIEND_OFFLINE	<color=#{0}>{1}</color> 님이 접속을 종�
 GLOBAL_SOCIAL_TOAST_FRIEND_ONLINE	<color=#{0}>{1}</color> 님이 접속했습니다.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_PALADIN_LEVEL	<color=#{0}>{1}</color> 님이 성기사로 {2} 레벨을 달성했습니다.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_PRIEST_LEVEL	<color=#{0}>{1}</color> 님이 사제로 {2} 레벨을 달성했습니다.	0=name color,1=player name,2=level
-GLOBAL_SOCIAL_TOAST_FRIEND_RANK_LEGEND	<color=#{0}>{1}</color> 님이 전설 등급을 획득했습니다!	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_FRIEND_RANK_LEGEND	<color=#{0}>{1}</color> 님이 전설 등급을 달성했습니다!	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_FRIEND_RANK_LEGEND_WILD	<color=#{0}>{1}</color> 님이 야생에서 전설 등급을 달성했습니다!	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_REQUEST	<color=#{0}>{1}</color> 님이 당신을 친구로 등록하고 싶어합니다.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_ROGUE_LEVEL	<color=#{0}>{1}</color> 님이 도적으로 {2} 레벨을 달성했습니다.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_SHAMAN_LEVEL	<color=#{0}>{1}</color> 님이 주술사로 {2} 레벨을 달성했습니다.	0=name color,1=player name,2=level
@@ -581,6 +612,7 @@ GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_PLAYING	다음 게임을 기다리�
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TIMEOUT	플레이어가 너무 오랫동안 다음 게임을 시작하지 않아 관전 모드가 취소되었습니다.	
 GLOBAL_SPLASH_CLOSED_RECONNECTING	다시 연결하는 중...	
 GLOBAL_SPLASH_CLOSED_SIGN_TITLE	사용 불가	
+GLOBAL_STANDARD	정규	
 GLOBAL_STORE_MOBILE_NAME_AMAZON	Amazon Appstore	
 GLOBAL_STORE_MOBILE_NAME_APPLE	Apple App Store	
 GLOBAL_STORE_MOBILE_NAME_DEFAULT	블리자드 샵	
@@ -606,4 +638,5 @@ GLOBAL_TUTORIAL_USED	사용 불가
 GLOBAL_TUTORIAL_YOUR_MANA	내 마나	
 GLOBAL_TUTORIAL_YOUR_TURN	나의 턴	
 GLOBAL_VERSION	버전	
+GLOBAL_WILD	야생	
 GLOBAL_WINS	승리	

@@ -20,6 +20,10 @@ GLOBAL_CARD_SET_DEBUG	Slush
 GLOBAL_CARD_SET_LOE	The League of Explorers	
 GLOBAL_CARD_SET_LOE_SHORT	League of Explorers	
 GLOBAL_CARD_SET_LOE_SEARCHABLE_SHORTHAND_NAMES	loe	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_OG	Whispers of the Old Gods	
+GLOBAL_CARD_SET_OG_SHORT	Old Gods	
+GLOBAL_CARD_SET_OG_RESERVE	Old Gods Reserve	
+GLOBAL_CARD_SET_OG_SEARCHABLE_SHORTHAND_NAMES	tog wotog wog	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.  For Whispers of the Old Gods, 'tog' should be available in all locales; wotog and wog are additional English shorthands, which should be replaced by locale specific variants.
 GLOBAL_CARDTYPE_ENCHANTMENT	Enchantment	
 GLOBAL_CARDTYPE_HERO	Hero	
 GLOBAL_CARDTYPE_HEROPOWER	HeroPower	
@@ -87,6 +91,10 @@ GLOBAL_KEYWORD_INSPIRE	Inspire
 GLOBAL_KEYWORD_INSPIRE_TEXT	Does something after you use your Hero Power.	
 GLOBAL_KEYWORD_TREASURE	Discover	
 GLOBAL_KEYWORD_TREASURE_TEXT	Choose one of three cards to add to your hand.	
+GLOBAL_KEYWORD_CTHUN	C'Thun, Old God	
+GLOBAL_KEYWORD_CTHUN_TEXT	C'Thun receives buffs no matter where it is, even in your deck!	
+GLOBAL_KEYWORD_SHIFTING	Shifter Zerus	
+GLOBAL_KEYWORD_SHIFTING_TEXT	Transforms into a new minion at the start of your turn.	
 GLOBAL_ATTACK	Attack	
 GLOBAL_COST	Cost	
 GLOBAL_HEALTH	Health	
@@ -127,6 +135,10 @@ GLOBAL_HERO_WINS	Wins: {0}/{1}	0=number of games this class has won 1=number of 
 GLOBAL_HERO_WINS_PHONE	Wins\n{0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_PLAY	Play	
 GLOBAL_PLAY_RANKED	Play Ranked	
+GLOBAL_PLAY_STANDARD	Play Standard	
+GLOBAL_PLAY_WILD	Play Wild
+GLOBAL_STANDARD	Standard
+GLOBAL_WILD	Wild
 GLOBAL_BACK	Back	
 GLOBAL_DONE	Done	
 GLOBAL_CANCEL	Cancel	
@@ -151,6 +163,8 @@ GLOBAL_TAVERN_BRAWL	Tavern Brawl
 GLOBAL_FRIEND_CHALLENGE_TITLE	Friendly	
 GLOBAL_FRIEND_CHALLENGE_HEADER	Challenge	
 GLOBAL_FRIEND_CHALLENGE_BODY1	You've been challenged by:	
+GLOBAL_FRIEND_CHALLENGE_BODY1_WILD	You've been challenged to a Wild game by:	
+GLOBAL_FRIEND_CHALLENGE_BODY1_STANDARD	You've been challenged to a Standard game by:	
 GLOBAL_FRIEND_CHALLENGE_BODY2	Do you accept?	
 GLOBAL_FRIEND_CHALLENGE_NEARBY_PLAYER_NOTE	You can turn off invites from nearby players in the options menu.
 GLOBAL_FRIEND_CHALLENGE_ACCEPT	Yes!	
@@ -196,6 +210,7 @@ GLOBAL_ERROR_NETWORK_LOST_GAME_CONNECTION	Your game has been disconnected from t
 GLOBAL_ERROR_NETWORK_INCORRECT_REGION	Your Battle.net account is not eligible to participate in this region's Hearthstone beta test. Once the Hearthstone beta is available in your home region, please try again!	
 GLOBAL_ERROR_NETWORK_ACCOUNT_SUSPENDED	Your account has been suspended.	
 GLOBAL_ERROR_NETWORK_ACCOUNT_BANNED	Your account has been banned.	
+GLOBAL_ERROR_NETWORK_RISK_ACCOUNT_LOCKED	We've locked your account! Go to https://battle.net/support and search 7537 to find out what happened!
 GLOBAL_ERROR_NETWORK_PARENTAL_CONTROLS	Access to this account is currently restricted by parental controls.
 GLOBAL_ERROR_NETWORK_PHONE_LOCK	Please call your Battle.net Phone Lock number to allow this login.\nTaiwan: 0800-303-585\nHong Kong: 396-54666
 GLOBAL_ERROR_NETWORK_UNAVAILABLE_UPGRADE	Hearthstone has been updated!  Please download the latest version.
@@ -221,8 +236,10 @@ GLOBAL_SEASON_END_CHEST_INSTRUCTIONS_TOUCH	Tap to open.
 GLOBAL_MEDAL_REWARD_CONGRATULATIONS	Congratulations!	
 GLOBAL_MEDAL_REWARD_DESCRIPTION	Medal earned last week	
 GLOBAL_MEDAL_TOOLTIP_HEADER	{0} Medal	0=medal name
-GLOBAL_MEDAL_TOURNAMENT_TOOLTIP_BODY	Top {0}% in ranked play mode this season\n\nNext Rank:\n{1}	0=rank percentile 1=medal name
-GLOBAL_MEDAL_TOOLTIP_BODY	Win games to advance to the next rank!\n\nNext Rank:\n{0}	0=medal name
+GLOBAL_MEDAL_TOURNAMENT_TOOLTIP_BODY	Top {0}% in ranked play mode this season	0=rank percentile
+GLOBAL_MEDAL_TOOLTIP_BODY	Win games to advance to the next rank!	
+GLOBAL_MEDAL_TOOLTIP_BEST_RANK_STANDARD	Your best current rank is Standard.
+GLOBAL_MEDAL_TOOLTIP_BEST_RANK_WILD	Your best current rank is Wild.
 GLOBAL_MEDAL_TOOLTIP_BODY_LEGEND	You're a legend! Your position in this rank will change with each game.	
 GLOBAL_MEDAL_ARENA_TOOLTIP_BODY	This is the best key you've earned in the Arena.\nWins: {0}	0=num wins
 GLOBAL_MEDAL_TOOLTIP_BODY_ARENA_GRAND_MASTER	You are a champion of The Arena!
@@ -283,7 +300,21 @@ GLOBAL_FRIENDLIST_TAVERN_BRAWL_CHALLENGE_BUTTON_HEADER	Tavern Brawl Challenge
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_UNAVAILABLE	You can't challenge {0} right now. Return to the main menu.	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_THEYRE_UNAVAILABLE	You can't challenge {0} right now. Wait for them to return to the main menu.	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_AVAILABLE	Challenge {0} to a game of Hearthstone.	0=player name
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_STANDARD_DUEL_BUTTON	Standard Duel
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_WILD_DUEL_BUTTON	Wild Duel
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_DUEL_BUTTON	Duel
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_TAVERN_BRAWL_MUST_CREATE_DECK	To challenge a friend to a Brawl, create a Tavern Brawl deck first!	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_STANDARD_DECK	This player has no Standard decks.
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_USER_IS_BUSY	This player is busy at this time.
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_DECK	This player has no decks.
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_TAVERN_BRAWL_DECK	This player hasn't created a deck for the Tavern Brawl yet.
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_TAVERN_BRAWL_LOCKED	This player hasn't unlocked Tavern Brawls yet.
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NOT_SEEN_WILD	That player has no Wild cards.
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_NO_STANDARD_DECK	You don't have any Standard decks.
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_NO_DECK	You need to build a deck first.
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_NO_TAVERN_BRAWL_DECK	You need to build a deck for this week's Brawl.
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_TAVERN_BRAWL_LOCKED	Unlock Tavern Brawl by reaching level 20 with any class.
+GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_NO_TAVERN_BRAWL	Tavern Brawl is not available right now.  Check back soon!
 GLOBAL_FRIENDLIST_TAVERN_BRAWL_CHALLENGE_BUTTON_AVAILABLE	Challenge {0} to a Tavern Brawl game.	0=player name
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_AVAILABLE_HEADER	Spectate this Game
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_AVAILABLE_TEXT	Click to begin spectating this player's game.	
@@ -416,6 +447,8 @@ GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START_WITH_MANY_WINS	<color=#{0}>{1}</color> ha
 GLOBAL_SOCIAL_TOAST_FRIEND_GOLDEN_LEGENDARY	<color=#{0}>{1}</color> opened a <color=#{3}>Golden {2}</color>!	0=name color,1=player name,2=card name,3=Golden Color
 GLOBAL_SOCIAL_TOAST_FRIEND_LEGENDARY	<color=#{0}>{1}</color> opened <color=#{3}>{2}</color>!	0=name color,1=player name,2=card name
 GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK	<color=#{0}>{1}</color> just hit rank {2}!	0=name color,1=player name,2=medal rank
+GLOBAL_SOCIAL_TOAST_FRIEND_RANK_LEGEND_WILD	<color=#{0}>{1}</color> has attained the Rank of LEGEND in Wild!	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK_WILD	<color=#{0}>{1}</color> just hit rank {2} in Wild!	0=name color,1=player name,2=medal rank
 GLOBAL_SOCIAL_TOAST_FRIEND_RANK_LEGEND	<color=#{0}>{1}</color> has attained the Rank of LEGEND!	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_ILLIDAN_COMPLETE	<color=#{0}>{1}</color> defeated Illidan Stormrage!	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_MAGE_LEVEL	<color=#{0}>{1}</color> became a Level {2} Mage.	0=name color,1=player name,2=level

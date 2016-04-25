@@ -44,6 +44,10 @@ GLOBAL_CARD_SET_LOE_SEARCHABLE_SHORTHAND_NAMES	エクスプローラー	This is 
 GLOBAL_CARD_SET_LOE_SHORT	エクスプローラー	
 GLOBAL_CARD_SET_NAXX	ナクスラーマス	
 GLOBAL_CARD_SET_NAXX_SEARCHABLE_SHORTHAND_NAMES	ナクス	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_OG	旧神のささやき	
+GLOBAL_CARD_SET_OG_RESERVE	旧神（予定）	
+GLOBAL_CARD_SET_OG_SEARCHABLE_SHORTHAND_NAMES	tog wotg wog 旧神  ささやき 旧神のささやき	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.  For Whispers of the Old Gods, 'tog' should be available in all locales; wotog and wog are additional English shorthands, which should be replaced by locale specific variants.
+GLOBAL_CARD_SET_OG_SHORT	旧神	
 GLOBAL_CARD_SET_PROMO	プロモ	
 GLOBAL_CARD_SET_REWARD	報酬	
 GLOBAL_CARD_SET_TGT	グランド・トーナメント	
@@ -154,6 +158,7 @@ GLOBAL_ERROR_NETWORK_NO_CONNECTION	接続できません。インターネット
 GLOBAL_ERROR_NETWORK_NO_GAME_SERVER	おおっと！対戦が開始できませんでした。もう一度お試し下さい。	
 GLOBAL_ERROR_NETWORK_PARENTAL_CONTROLS	現在ペアレンタルコントロールにより、このアカウントへのアクセスが制限されています。	
 GLOBAL_ERROR_NETWORK_PHONE_LOCK	ログインするにはBattle.net Phone Lock番号までお電話下さい。\n台湾:0800-303-585\n香港:396-54666	
+GLOBAL_ERROR_NETWORK_RISK_ACCOUNT_LOCKED	あなたのアカウントはロックされてしまいました！サポートページ (https://us.battle.net/support/ja ）にて「７５３７」と検索して解除方法を確認しましょう！	
 GLOBAL_ERROR_NETWORK_SPAM	短時間にあまりに多くのリクエストを送ったため、Battle.netサービスから切断されました。再度接続するには、Hearthstoneを再起動して下さい。	
 GLOBAL_ERROR_NETWORK_TITLE	ネットワークエラー	
 GLOBAL_ERROR_NETWORK_UNAVAILABLE_OFFLINE	Hearthstoneはオフラインです。しばらくしてからもう一度お試し下さい。	
@@ -182,6 +187,8 @@ GLOBAL_FORGE_END_JOKE_8	あきらめたらそこで終わりだぞ！いや待�
 GLOBAL_FORGE_END_TITLE	闘技場での戦いを完了	
 GLOBAL_FRIEND_CHALLENGE_ACCEPT	受ける！	
 GLOBAL_FRIEND_CHALLENGE_BODY1	挑戦状が届いたぞ！差出人は:	
+GLOBAL_FRIEND_CHALLENGE_BODY1_STANDARD	スタンダードの挑戦状が届いたぞ！喧嘩を売ってきたのは:	
+GLOBAL_FRIEND_CHALLENGE_BODY1_WILD	ワイルドの挑戦状が届いたぞ！喧嘩を売ってきたのは:	
 GLOBAL_FRIEND_CHALLENGE_BODY2	受けて立つかい？	
 GLOBAL_FRIEND_CHALLENGE_DECLINE	断る	
 GLOBAL_FRIEND_CHALLENGE_HEADER	挑戦	
@@ -205,6 +212,20 @@ GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_HEADER	親善試合
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_UNAVAILABLE	今、{0}には挑戦できないぞ。メインメニュー画面に戻ってくれ。	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_TAVERN_BRAWL_MUST_CREATE_DECK	友達に酒場の喧嘩の挑戦をするには、まず酒場の喧嘩用デッキを作ってくれ！	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_THEYRE_UNAVAILABLE	今、{0}には挑戦できないな。相手がメインメニュー画面に戻るまで待ってくれ。	0=player name
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_DECK	このプレイヤーはデッキを持ってないぞ。	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_STANDARD_DECK	このプレイヤーはスタンダードデッキを持ってないぞ。	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_TAVERN_BRAWL_DECK	このプレイヤーはまだ酒場の喧嘩用のデッキを作ってないぞ。	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NOT_SEEN_WILD	そのプレイヤーはワイルドカードを持ってないぞ。	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_TAVERN_BRAWL_LOCKED	このプレイヤーはまだ酒場の喧嘩をアンロックしてないな。	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_USER_IS_BUSY	このプレイヤーは今忙しいみたいだな。	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_NO_DECK	まず、デッキを作らないとな。	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_NO_STANDARD_DECK	あんた、スタンダードデッキを持ってないぞ。	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_NO_TAVERN_BRAWL_DECK	まず、今週の酒場の喧嘩用にデッキを作ってくれ。	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_TAVERN_BRAWL_LOCKED	酒場の喧嘩は、好きなクラスでレベル20になるとプレイできるようになるぞ。	
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_DUEL_BUTTON	対戦	
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_STANDARD_DUEL_BUTTON	スタンダード戦	
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_WILD_DUEL_BUTTON	ワイルド戦	
+GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_NO_TAVERN_BRAWL	今、酒場の喧嘩には参加できないんだ。また今度来てくれ！	
 GLOBAL_FRIENDLIST_CURRENT_GAMES_HEADER	進行中の対戦: {0}	0=number of friends you have unfinished games with
 GLOBAL_FRIENDLIST_FRIENDS_HEADER	友達: {1}人中{0}人がオンライン	0=number of online friends 1=number of offline friends
 GLOBAL_FRIENDLIST_FRIENDS_HEADER_ALL_ONLINE	友達: {0}人がオンライン	
@@ -271,6 +292,8 @@ GLOBAL_KEYWORD_COMBO	コンボ
 GLOBAL_KEYWORD_COMBO_TEXT	同じターン中、別のカードの後でこのカードを使用するとボーナス効果を得られる。	
 GLOBAL_KEYWORD_COUNTER	相殺	
 GLOBAL_KEYWORD_COUNTER_TEXT	相殺されたカードは効果を失う。	
+GLOBAL_KEYWORD_CTHUN	旧神クトゥーン	
+GLOBAL_KEYWORD_CTHUN_TEXT	クトゥーンはどこにいても強化効果を受けることができる。たとえデッキの中でもだ！	
 GLOBAL_KEYWORD_DEATHRATTLE	断末魔	
 GLOBAL_KEYWORD_DEATHRATTLE_TEXT	死亡時に何らかの効果を発生させる。	
 GLOBAL_KEYWORD_DIVINE_SHIELD	聖なる盾	
@@ -291,6 +314,8 @@ GLOBAL_KEYWORD_OVERLOAD	オーバーロード: X
 GLOBAL_KEYWORD_OVERLOAD_TEXT	次のターン使えるマナがX減る。	
 GLOBAL_KEYWORD_SECRET	秘策	
 GLOBAL_KEYWORD_SECRET_TEXT	相手のターンで特定の条件が満たされると効果が発動する。	
+GLOBAL_KEYWORD_SHIFTING	変身者ゼラス	
+GLOBAL_KEYWORD_SHIFTING_TEXT	あんたのターンの開始時、新しいミニオンに変身するぞ。	
 GLOBAL_KEYWORD_SILENCE	沈黙	
 GLOBAL_KEYWORD_SILENCE_TEXT	カードテキストの効果と、付与された効果を全て除去する。	
 GLOBAL_KEYWORD_SPAREPART	スペアパーツ	
@@ -363,11 +388,13 @@ GLOBAL_MEDAL_9	シルバーハンド騎士
 GLOBAL_MEDAL_ARENA_TOOLTIP_BODY	これまでに闘技場で獲得できた最高のカギだ。\n勝利: {0}	0=num wins
 GLOBAL_MEDAL_REWARD_CONGRATULATIONS	おめでとう！	
 GLOBAL_MEDAL_REWARD_DESCRIPTION	先週獲得したメダル	
-GLOBAL_MEDAL_TOOLTIP_BODY	対戦に勝ち続けて、次のランクに昇格しよう！\n\n次のランク:\n{0}	0=medal name
+GLOBAL_MEDAL_TOOLTIP_BEST_RANK_STANDARD	あんたは今、スタンダードの方がランクが高いぞ。	
+GLOBAL_MEDAL_TOOLTIP_BEST_RANK_WILD	あんたは今、ワイルドの方がランクが高いぞ。	
+GLOBAL_MEDAL_TOOLTIP_BODY	対戦に勝ち続けて、次のランクに昇格しよう！	
 GLOBAL_MEDAL_TOOLTIP_BODY_ARENA_GRAND_MASTER	あんたは闘技場のチャンピオンだ！	
 GLOBAL_MEDAL_TOOLTIP_BODY_LEGEND	あんたはレジェンド・ランカーだ！このランクでの順位は、対戦の度に入れ替わるぞ。	
 GLOBAL_MEDAL_TOOLTIP_HEADER	{0}メダル	0=medal name
-GLOBAL_MEDAL_TOURNAMENT_TOOLTIP_BODY	今シーズンのランク戦において上位{0}%以内\n\n次のランク:\n{1}	0=rank percentile 1=medal name
+GLOBAL_MEDAL_TOURNAMENT_TOOLTIP_BODY	今シーズンのランク戦において上位{0}%以内	0=rank percentile
 GLOBAL_MOBILE_ERROR_ANDROID_PHONE_DETECTED	残念だが、Hearthstoneは現在6インチ以上のAndroidタブレットでのみ稼動するんだ。	
 GLOBAL_MOBILE_ERROR_BREAKING_NEWS	臨時ニュース:\n\n{0}	
 GLOBAL_MOBILE_ERROR_LOGON_WEB_TIMEOUT	しばらくHearthstoneで操作が行われなかったため、通信が切断されました。	
@@ -414,6 +441,8 @@ GLOBAL_OPTIONS_SOUND_MUSIC_VOLUME_LABEL	BGM音量
 GLOBAL_OPTIONS_SPECTATOR_OPEN_JOIN	友達に自分の試合の観戦を許可	
 GLOBAL_PLAY	プレイ	
 GLOBAL_PLAY_RANKED	ランク戦\nプレイ	
+GLOBAL_PLAY_STANDARD	スタンダードをプレイ	
+GLOBAL_PLAY_WILD	ワイルドをプレイ	
 GLOBAL_PLAYER_PLAYER	プレイヤー	this is the word for generic "Player" - this will be used when there a player's name is unknown at the time.
 GLOBAL_PRACTICE_MAX_LEVEL_REACHED	練習レベル上限	
 GLOBAL_PROGRAMNAME_DIABLO3	Diablo III	
@@ -539,6 +568,7 @@ GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START	<color=#{0}>{1}</color>が新たに闘技
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START_WITH_MANY_WINS	<color=#{0}>{1}</color>が闘技場での戦いを開始した。このプレイヤーはすでに{2}勝しているぞ！	0=name color,1=player name,2=Arena Wins
 GLOBAL_SOCIAL_TOAST_FRIEND_DRUID_LEVEL	<color=#{0}>{1}</color>がレベル{2}ドルイドになったぞ。	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK	<color=#{0}>{1}</color>がランク{2}に到達したぞ！	0=name color,1=player name,2=medal rank
+GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK_WILD	<color=#{0}>{1}</color>がワイルドでランク{2}に到達したぞ！	0=name color,1=player name,2=medal rank
 GLOBAL_SOCIAL_TOAST_FRIEND_GOLDEN_LEGENDARY	<color=#{0}>{1}</color>が<color=#{3}>ゴールデン・{2}</color>を手に入れたぞ！	0=name color,1=player name,2=card name,3=Golden Color
 GLOBAL_SOCIAL_TOAST_FRIEND_HUNTER_LEVEL	<color=#{0}>{1}</color>がレベル{2}ハンターになったぞ。	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_ILLIDAN_COMPLETE	<color=#{0}>{1}</color>がイリダン・ストームレイジを倒したぞ！	0=name color,1=player name
@@ -549,6 +579,7 @@ GLOBAL_SOCIAL_TOAST_FRIEND_ONLINE	<color=#{0}>{1}</color>がオンラインに�
 GLOBAL_SOCIAL_TOAST_FRIEND_PALADIN_LEVEL	<color=#{0}>{1}</color>がレベル{2}パラディンになったぞ。	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_PRIEST_LEVEL	<color=#{0}>{1}</color>がレベル{2}プリーストになったぞ。	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_RANK_LEGEND	<color=#{0}>{1}</color>がレジェンド・ランクに到達したぞ！	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_FRIEND_RANK_LEGEND_WILD	<color=#{0}>{1}</color>がワイルドでレジェンド・ランクに到達したぞ！	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_REQUEST	<color=#{0}>{1}</color>から友達リクエストが届いたぞ。	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_ROGUE_LEVEL	<color=#{0}>{1}</color>がレベル{2}ローグになったぞ。	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_SHAMAN_LEVEL	<color=#{0}>{1}</color>がレベル{2}シャーマンになったぞ。	0=name color,1=player name,2=level
@@ -581,6 +612,7 @@ GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_PLAYING	次の対戦まで待機中�
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TIMEOUT	あんたが観戦してたプレイヤーは、次の対戦開始まで時間をかけ過ぎだ。観戦モードはキャンセルされたぞ。	
 GLOBAL_SPLASH_CLOSED_RECONNECTING	再接続中…	
 GLOBAL_SPLASH_CLOSED_SIGN_TITLE	閉店	
+GLOBAL_STANDARD	スタンダード	
 GLOBAL_STORE_MOBILE_NAME_AMAZON	Amazon Appstore	
 GLOBAL_STORE_MOBILE_NAME_APPLE	Apple App Store	
 GLOBAL_STORE_MOBILE_NAME_DEFAULT	Blizzard store	
@@ -606,4 +638,5 @@ GLOBAL_TUTORIAL_USED	使用済
 GLOBAL_TUTORIAL_YOUR_MANA	君のマナ	
 GLOBAL_TUTORIAL_YOUR_TURN	君のターン	
 GLOBAL_VERSION	バージョン	
+GLOBAL_WILD	ワイルド	
 GLOBAL_WINS	勝利	

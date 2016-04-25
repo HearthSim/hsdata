@@ -44,6 +44,10 @@ GLOBAL_CARD_SET_LOE_SEARCHABLE_SHORTHAND_NAMES	loe	This is a space-separated lis
 GLOBAL_CARD_SET_LOE_SHORT	League of Explorers	
 GLOBAL_CARD_SET_NAXX	Naxxramas	
 GLOBAL_CARD_SET_NAXX_SEARCHABLE_SHORTHAND_NAMES	Nax Naxx	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_OG	Whispers of the Old Gods	
+GLOBAL_CARD_SET_OG_RESERVE	จองสำหรับเทพโบราณ	
+GLOBAL_CARD_SET_OG_SEARCHABLE_SHORTHAND_NAMES	tog wotog wog	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.  For Whispers of the Old Gods, 'tog' should be available in all locales; wotog and wog are additional English shorthands, which should be replaced by locale specific variants.
+GLOBAL_CARD_SET_OG_SHORT	เทพโบราณ	
 GLOBAL_CARD_SET_PROMO	โปรโมชั่น	
 GLOBAL_CARD_SET_REWARD	รางวัล	
 GLOBAL_CARD_SET_TGT	Grand Tournament	
@@ -54,7 +58,7 @@ GLOBAL_CARDTYPE_HERO	ฮีโร่
 GLOBAL_CARDTYPE_HEROPOWER	พลังฮีโร่	
 GLOBAL_CARDTYPE_ITEM	ไอเท็ม	
 GLOBAL_CARDTYPE_MINION	มินเนี่ยน	
-GLOBAL_CARDTYPE_SPELL	เวทมนตร์	
+GLOBAL_CARDTYPE_SPELL	คาถา	
 GLOBAL_CARDTYPE_TOKEN	โทเค็น	
 GLOBAL_CARDTYPE_WEAPON	อาวุธ	
 GLOBAL_CHAT_BUBBLE_RECEIVER_NAME	ถึง: {0}	0=player name
@@ -154,6 +158,7 @@ GLOBAL_ERROR_NETWORK_NO_CONNECTION	ไม่สามารถเชื่อม
 GLOBAL_ERROR_NETWORK_NO_GAME_SERVER	ขอโทษที! เราไม่สามารถเริ่มเกมให้คุณได้ ช่วยลองใหม่อีกครั้งนะ	
 GLOBAL_ERROR_NETWORK_PARENTAL_CONTROLS	การเข้าถึงบัญชีนี้ถูกจำกัดในขณะนี้ด้วยการควบคุมโดยผู้ปกครอง	
 GLOBAL_ERROR_NETWORK_PHONE_LOCK	กรุณาโทรไปที่หมายเลข Battle.net Phone Lock เพื่ออนุญาตให้เข้าสู่ระบบ\nไต้หวัน: 0800-303-585\nฮ่องกง: 396-54666	
+GLOBAL_ERROR_NETWORK_RISK_ACCOUNT_LOCKED	เราได้ล็อคบัญชีของคุณแล้ว! โปรดไปที่ https://us.battle.net/support/th/ และค้นหา 7537 เพื่อตรวจสอบสาเหตุ!	
 GLOBAL_ERROR_NETWORK_SPAM	คุณถูกตัดการเชื่อมต่อจากบริการ Battle.net เนื่องจากมีการส่งคำขอบ่อยเกินไปและเร็วเกินไป โปรดเปิด Hearthstone ใหม่อีกครั้งเพื่อเชื่อมต่อใหม่	
 GLOBAL_ERROR_NETWORK_TITLE	ข้อผิดพลาดเกี่ยวกับเครือข่าย	
 GLOBAL_ERROR_NETWORK_UNAVAILABLE_OFFLINE	Hearthstone ออฟไลน์อยู่ โปรดรอสักครู่ แล้วลองใหม่อีกครั้ง	
@@ -182,6 +187,8 @@ GLOBAL_FORGE_END_JOKE_8	ยังไม่จบแค่นี้หรอก! 
 GLOBAL_FORGE_END_TITLE	ผ่านลานประลองแล้ว	
 GLOBAL_FRIEND_CHALLENGE_ACCEPT	ใช่!	
 GLOBAL_FRIEND_CHALLENGE_BODY1	คุณถูกท้าโดย:	
+GLOBAL_FRIEND_CHALLENGE_BODY1_STANDARD	คุณได้รับคำท้าแข่งเกมมาตรฐานจาก:	
+GLOBAL_FRIEND_CHALLENGE_BODY1_WILD	คุณได้รับคำท้าแข่งเกมอิสระจาก:	
 GLOBAL_FRIEND_CHALLENGE_BODY2	ยอมรับคำท้าหรือไม่	
 GLOBAL_FRIEND_CHALLENGE_DECLINE	ไม่	
 GLOBAL_FRIEND_CHALLENGE_HEADER	ท้าแข่ง	
@@ -205,6 +212,20 @@ GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_HEADER	ท้าแข่งกระชั�
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_UNAVAILABLE	คุณไม่สามารถท้า {0} ได้ในตอนนี้ กลับไปที่เมนูหลัก	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_TAVERN_BRAWL_MUST_CREATE_DECK	ถ้าอยากจะท้าเพื่อนมาประลองฝีมือกัน ให้สร้างเด็คท้าประลองก่อน!	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_THEYRE_UNAVAILABLE	คุณไม่สามารถท้า {0} ได้ในตอนนี้ รอให้พวกเขากลับไปที่เมนูหลักก่อน	0=player name
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_DECK	ผู้เล่นคนนี้ไม่มีเด็ค	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_STANDARD_DECK	ผู้เล่นคนนี้ไม่มีเด็คมาตรฐาน	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_TAVERN_BRAWL_DECK	ผู้เล่นคนนี้ยังไม่ได้สร้างเด็คสำหรับเกมท้าประลอง	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NOT_SEEN_WILD	ผู้เล่นคนนั้นไม่มีการ์ดอิสระ	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_TAVERN_BRAWL_LOCKED	ผู้เล่นคนนี้ยังไม่ได้ปลดล็อคเกมท้าประลอง	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_USER_IS_BUSY	ผู้เล่นคนนี้ไม่ว่างอยู่ในขณะนี้	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_NO_DECK	คุณจะต้องสร้างเด็คก่อน	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_NO_STANDARD_DECK	คุณไม่มีเด็คมาตรฐาน	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_NO_TAVERN_BRAWL_DECK	คุณจะต้องสร้างเด็คสำหรับเกมท้าประลองของสัปดาห์นี้	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_TAVERN_BRAWL_LOCKED	ปลดล็อคเกมท้าประลองด้วยการเล่นคลาสใดก็ได้ให้ถึงเลเวล 20	
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_DUEL_BUTTON	ดวล	
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_STANDARD_DUEL_BUTTON	ดวลมาตรฐาน	
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_WILD_DUEL_BUTTON	ดวลอิสระ	
+GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_NO_TAVERN_BRAWL	ขณะนี้เกมท้าประลองยังไม่เปิดให้เล่น  โปรดกลับมาใหม่เร็วๆ นี้!	
 GLOBAL_FRIENDLIST_CURRENT_GAMES_HEADER	เกมปัจจุบัน - {0}	0=number of friends you have unfinished games with
 GLOBAL_FRIENDLIST_FRIENDS_HEADER	เพื่อน - ออนไลน์ {0}/{1} คน	0=number of online friends 1=number of offline friends
 GLOBAL_FRIENDLIST_FRIENDS_HEADER_ALL_ONLINE	เพื่อน - {0} ออนไลน์	
@@ -271,6 +292,8 @@ GLOBAL_KEYWORD_COMBO	คอมโบ
 GLOBAL_KEYWORD_COMBO_TEXT	ได้รับโบนัสถ้าคุณ[b]เล่นการ์ดแล้วในเทิร์นนี้	
 GLOBAL_KEYWORD_COUNTER	ลบล้าง	
 GLOBAL_KEYWORD_COUNTER_TEXT	การ์ดที่ถูกลบล้างจะไม่มีผลใดๆ	
+GLOBAL_KEYWORD_CTHUN	เทพโบราณคาธูน	
+GLOBAL_KEYWORD_CTHUN_TEXT	คาธูนได้รับผลพิเศษไม่ว่าอยู่ที่ไหน ไม่เว้นแม้แต่ในเด็คของคุณ!	
 GLOBAL_KEYWORD_DEATHRATTLE	เสียงสุดท้าย	
 GLOBAL_KEYWORD_DEATHRATTLE_TEXT	ความสามารถทำงาน[b]เมื่อมันตาย	
 GLOBAL_KEYWORD_DIVINE_SHIELD	โล่ศักดิ์สิทธิ์	
@@ -291,13 +314,15 @@ GLOBAL_KEYWORD_OVERLOAD	โอเวอร์โหลด: X
 GLOBAL_KEYWORD_OVERLOAD_TEXT	คุณมีมานาลดลง X ในเทิร์นหน้า	
 GLOBAL_KEYWORD_SECRET	กับดัก	
 GLOBAL_KEYWORD_SECRET_TEXT	ซ่อนอยู่จนกว่าจะมี[b]การกระทำบางอย่างเกิดขึ้น[b]ในเทิร์นของฝ่ายตรงข้าม	
+GLOBAL_KEYWORD_SHIFTING	ผู้แปลงโฉม เซรุส	
+GLOBAL_KEYWORD_SHIFTING_TEXT	เปลี่ยนร่างเป็นมินเนี่ยนตัวอื่นเมื่อเริ่มเทิร์นของคุณ	
 GLOBAL_KEYWORD_SILENCE	ผนึกความสามารถ	
 GLOBAL_KEYWORD_SILENCE_TEXT	ลบข้อความบนการ์ดและ[b]ผลพิเศษของการ์ดทั้งหมด	
 GLOBAL_KEYWORD_SPAREPART	ชิ้นส่วนอะไหล่	
 GLOBAL_KEYWORD_SPAREPART_TEXT	ชิ้นส่วนอะไหล่คือการ์ดเวทมนตร์[b]ค่าร่าย 1 ที่มีความสามารถ[b]เล็กน้อย	
 GLOBAL_KEYWORD_SPELLPOWER	ความเสียหายเวท	
 GLOBAL_KEYWORD_SPELLPOWER_REF_TEXT	เวทมนตร์ของคุณ[b]สร้างความเสียหายเพิ่มขึ้น	
-GLOBAL_KEYWORD_SPELLPOWER_TEXT	การ์ดเวทมนตร์ของคุณ[b]สร้างความเสียหาย[b]เพิ่มขึ้น {0} แต้ม	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLPOWER_TEXT	การ์ดเวทมนตร์ของคุณ[b]สร้างความเสียหาย[b]เพิ่มขึ้น {0}_แต้ม	0=amount of spell damage
 GLOBAL_KEYWORD_STEALTH	ซ่อนตัว	
 GLOBAL_KEYWORD_STEALTH_REF_TEXT	ไม่สามารถถูกโจมตีหรือ[b]ตกเป็นเป้าหมายได้จนกว่า[b]มันจะสร้างความเสียหาย	
 GLOBAL_KEYWORD_STEALTH_TEXT	ไม่สามารถถูกโจมตีหรือ[b]ตกเป็นเป้าหมายได้จนกว่า[b]มันจะสร้างความเสียหาย	
@@ -363,11 +388,13 @@ GLOBAL_MEDAL_9	อัศวินซิลเวอร์แฮนด์
 GLOBAL_MEDAL_ARENA_TOOLTIP_BODY	นี่คือกุญแจที่ดีที่สุดที่คุณได้รับ[b]ในลานประลอง\nชนะ: {0}	0=num wins
 GLOBAL_MEDAL_REWARD_CONGRATULATIONS	ขอแสดงความยินดี!	
 GLOBAL_MEDAL_REWARD_DESCRIPTION	เหรียญรางวัลที่ได้รับเมื่อสัปดาห์ที่แล้ว	
-GLOBAL_MEDAL_TOOLTIP_BODY	ชนะเกมเพื่อก้าวสู่ระดับถัดไป!\n\nระดับถัดไป:\n{0}	0=medal name
+GLOBAL_MEDAL_TOOLTIP_BEST_RANK_STANDARD	ระดับที่ดีที่สุดของคุณในเกมมาตรฐาน	
+GLOBAL_MEDAL_TOOLTIP_BEST_RANK_WILD	ระดับที่ดีที่สุดของคุณในเกมอิสระ	
+GLOBAL_MEDAL_TOOLTIP_BODY	ชนะเกมเพื่อก้าวสู่ระดับถัดไป!	
 GLOBAL_MEDAL_TOOLTIP_BODY_ARENA_GRAND_MASTER	คุณคือแชมเปี้ยนแห่งลานประลอง!	
 GLOBAL_MEDAL_TOOLTIP_BODY_LEGEND	คุณคือตำนาน! ตำแหน่งของคุณในระดับนี้จะเปลี่ยนไปในแต่ละเกม	
 GLOBAL_MEDAL_TOOLTIP_HEADER	เหรียญ{0}	0=medal name
-GLOBAL_MEDAL_TOURNAMENT_TOOLTIP_BODY	{0}% แรกของโหมดเกมจัดอันดับในฤดูกาลนี้\n\nระดับถัดไป:\n{1}	0=rank percentile 1=medal name
+GLOBAL_MEDAL_TOURNAMENT_TOOLTIP_BODY	อยู่ใน {0}% แรกของโหมดแข่งขันจัดอันดับในฤดูกาลนี้	0=rank percentile
 GLOBAL_MOBILE_ERROR_ANDROID_PHONE_DETECTED	ขออภัย ปัจจุบันสามารถเล่น Hearthstone ได้บนแท็บเล็ต Android ขนาด 6" หรือใหญ่กว่าเท่านั้น	
 GLOBAL_MOBILE_ERROR_BREAKING_NEWS	ข่าวด่วน:\n\n{0}	
 GLOBAL_MOBILE_ERROR_LOGON_WEB_TIMEOUT	คุณไม่มีความเคลื่อนไหวใน Hearthstone มาระยะหนึ่ง การเชื่อมต่อของคุณจึงปิดลง	
@@ -414,6 +441,8 @@ GLOBAL_OPTIONS_SOUND_MUSIC_VOLUME_LABEL	ระดับเสียงเพล�
 GLOBAL_OPTIONS_SPECTATOR_OPEN_JOIN	อนุญาตให้เพื่อนชมเกมของฉัน	
 GLOBAL_PLAY	เล่น	
 GLOBAL_PLAY_RANKED	เล่นเกมจัดอันดับ	
+GLOBAL_PLAY_STANDARD	เล่นมาตรฐาน	
+GLOBAL_PLAY_WILD	เล่นอิสระ	
 GLOBAL_PLAYER_PLAYER	ผู้เล่น	this is the word for generic "Player" - this will be used when there a player's name is unknown at the time.
 GLOBAL_PRACTICE_MAX_LEVEL_REACHED	เลเวลการฝึกฝนสูงสุด	
 GLOBAL_PROGRAMNAME_DIABLO3	Diablo III	
@@ -502,7 +531,7 @@ GLOBAL_REWARD_CHEST_TIER4_EARNED	คุณได้รับกล่องส�
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL	{0}	0=first class
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL_DOUBLE	{0} และ {1}	0=first class, 1=second class
 GLOBAL_REWARD_CLASS_CHALLENGE_HEADLINE	การทดสอบคลาสปลดล็อคแล้ว	
-GLOBAL_REWARD_CORE_CARD_DETAILS	การ์ด{2}ที่ปลดล็อค {0}/{1} ใบ	0=# cards unlocked, 1=# cards possible to unlock, 2=class
+GLOBAL_REWARD_CORE_CARD_DETAILS	การ์ด{2}ที่ปลดล็อค {0}/{1}_ใบ	0=# cards unlocked, 1=# cards possible to unlock, 2=class
 GLOBAL_REWARD_FORGE_DETAILS_OUT_OF_BAND	สิทธิ์การเข้าสนามประลอง {0} สิทธิ์ถูกเพิ่มให้กับบัญชีของคุณจากภายนอกเกม	0=count
 GLOBAL_REWARD_FORGE_HEADLINE	ได้รับสิทธิ์เข้าสู่สนามประลอง	
 GLOBAL_REWARD_FORGE_UNLOCKED_HEADLINE	ปลดล็อคลานประลองแล้ว!	
@@ -539,6 +568,7 @@ GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START	<color=#{0}>{1}</color> เข้าเ�
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START_WITH_MANY_WINS	<color=#{0}>{1}</color> เพิ่งเริ่มการต่อสู้ในลานประลองโดยชนะ {2} ตาแล้ว!	0=name color,1=player name,2=Arena Wins
 GLOBAL_SOCIAL_TOAST_FRIEND_DRUID_LEVEL	<color=#{0}>{1}</color> กลายเป็นดรูอิดเลเวล {2}	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK	<color=#{0}>{1}</color> มาถึงระดับ {2} แล้ว!	0=name color,1=player name,2=medal rank
+GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK_WILD	<color=#{0}>{1}</color> มาถึงระดับ {2} ในโหมดอิสระแล้ว!	0=name color,1=player name,2=medal rank
 GLOBAL_SOCIAL_TOAST_FRIEND_GOLDEN_LEGENDARY	<color=#{0}>{1}</color> เปิดได้<color=#{3}>{2} สีทอง</color>!	0=name color,1=player name,2=card name,3=Golden Color
 GLOBAL_SOCIAL_TOAST_FRIEND_HUNTER_LEVEL	<color=#{0}>{1}</color> กลายเป็นฮันเตอร์เลเวล {2}	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_ILLIDAN_COMPLETE	<color=#{0}>{1}</color> ชนะอิลลิดัน สตอร์มเรจ!	0=name color,1=player name
@@ -549,6 +579,7 @@ GLOBAL_SOCIAL_TOAST_FRIEND_ONLINE	<color=#{0}>{1}</color> ออนไลน์�
 GLOBAL_SOCIAL_TOAST_FRIEND_PALADIN_LEVEL	<color=#{0}>{1}</color> กลายเป็นพาลาดิน เลเวล {2}	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_PRIEST_LEVEL	<color=#{0}>{1}</color> กลายเป็นพรีสต์เลเวล {2}	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_RANK_LEGEND	<color=#{0}>{1}</color> มาถึงระดับตำนานแล้ว!	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_FRIEND_RANK_LEGEND_WILD	<color=#{0}>{1}</color> ก้าวขึ้นสู่ระดับตำนานในโหมดอิสระแล้ว!	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_REQUEST	<color=#{0}>{1}</color> ส่งคำขอเป็นเพื่อนกับคุณ	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_ROGUE_LEVEL	<color=#{0}>{1}</color> กลายเป็นโร้กเลเวล {2}	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_SHAMAN_LEVEL	<color=#{0}>{1}</color> กลายเป็นชาแมนเลเวล {2}	0=name color,1=player name,2=level
@@ -581,6 +612,7 @@ GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_PLAYING	กำลังรอให�
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TIMEOUT	ผู้เล่นที่คุณกำลังเข้าชมใช้เวลานานเกินไปในการเริ่มเกมถัดไป โหมดผู้ชมถูกยกเลิกแล้ว	
 GLOBAL_SPLASH_CLOSED_RECONNECTING	กำลังเชื่อมต่อใหม่...	
 GLOBAL_SPLASH_CLOSED_SIGN_TITLE	ปิดบริการ	
+GLOBAL_STANDARD	มาตรฐาน	
 GLOBAL_STORE_MOBILE_NAME_AMAZON	Amazon Appstore	
 GLOBAL_STORE_MOBILE_NAME_APPLE	Apple App Store	
 GLOBAL_STORE_MOBILE_NAME_DEFAULT	ร้านค้าของ Blizzard	
@@ -606,4 +638,5 @@ GLOBAL_TUTORIAL_USED	ใช้แล้ว
 GLOBAL_TUTORIAL_YOUR_MANA	มานาของคุณ	
 GLOBAL_TUTORIAL_YOUR_TURN	เทิร์นของคุณ	
 GLOBAL_VERSION	เวอร์ชั่น	
+GLOBAL_WILD	อิสระ	
 GLOBAL_WINS	ชนะ	
