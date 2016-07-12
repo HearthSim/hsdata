@@ -43,7 +43,7 @@ GLOBAL_CLASS_ROGUE	Rogue
 GLOBAL_CLASS_SHAMAN	Shaman	
 GLOBAL_CLASS_WARLOCK	Warlock	
 GLOBAL_CLASS_WARRIOR	Warrior	
-GLOBAL_BASIC_DECK_NAME	Basic {0}	0=class name
+GLOBAL_BASIC_DECK_NAME	{0}	0=class name
 GLOBAL_KEYWORD_BATTLECRY	Battlecry	
 GLOBAL_KEYWORD_BATTLECRY_TEXT	Does something when you play it from your hand.	
 GLOBAL_KEYWORD_CHARGE	Charge	
@@ -89,12 +89,14 @@ GLOBAL_KEYWORD_SPAREPART	Spare Parts
 GLOBAL_KEYWORD_SPAREPART_TEXT	Spare Parts are 1-cost spells with minor effects.	
 GLOBAL_KEYWORD_INSPIRE	Inspire	
 GLOBAL_KEYWORD_INSPIRE_TEXT	Does something after you use your Hero Power.	
-GLOBAL_KEYWORD_TREASURE	Discover	
-GLOBAL_KEYWORD_TREASURE_TEXT	Choose one of three cards to add to your hand.	
+GLOBAL_KEYWORD_DISCOVER	Discover	
+GLOBAL_KEYWORD_DISCOVER_TEXT	Choose one of three cards to add to your hand.	
 GLOBAL_KEYWORD_CTHUN	C'Thun, Old God	
 GLOBAL_KEYWORD_CTHUN_TEXT	C'Thun receives buffs no matter where it is, even in your deck!	
 GLOBAL_KEYWORD_SHIFTING	Shifter Zerus	
 GLOBAL_KEYWORD_SHIFTING_TEXT	Transforms into a new minion at the start of your turn.	
+GLOBAL_KEYWORD_MINION_TYPE_REFERENCE	Minion Type	
+GLOBAL_KEYWORD_MINION_TYPE_REFERENCE_TEXT	Beast, Demon, Dragon, Mech, Murloc, Pirate, and Totem.	
 GLOBAL_ATTACK	Attack	
 GLOBAL_COST	Cost	
 GLOBAL_HEALTH	Health	
@@ -163,12 +165,12 @@ GLOBAL_TAVERN_BRAWL	Tavern Brawl
 GLOBAL_FRIEND_CHALLENGE_TITLE	Friendly	
 GLOBAL_FRIEND_CHALLENGE_HEADER	Challenge	
 GLOBAL_FRIEND_CHALLENGE_BODY1	You've been challenged by:	
-GLOBAL_FRIEND_CHALLENGE_BODY1_WILD	You've been challenged to a Wild game by:	
+GLOBAL_FRIEND_CHALLENGE_BODY1_WILD	You've been challenged to a\nWild game by:	
 GLOBAL_FRIEND_CHALLENGE_BODY1_STANDARD	You've been challenged to a Standard game by:	
 GLOBAL_FRIEND_CHALLENGE_BODY2	Do you accept?	
 GLOBAL_FRIEND_CHALLENGE_NEARBY_PLAYER_NOTE	You can turn off invites from nearby players in the options menu.
-GLOBAL_FRIEND_CHALLENGE_ACCEPT	Yes!	
-GLOBAL_FRIEND_CHALLENGE_DECLINE	No	
+GLOBAL_FRIEND_CHALLENGE_ACCEPT	Accept	
+GLOBAL_FRIEND_CHALLENGE_DECLINE	Decline	
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_WAITING_RESPONSE	You are waiting for {0} to respond to your challenge.	0=friend name
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_WAITING_DECK	You are waiting for {0} to select a deck.	0=friend name
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_DECLINED	{0} declined your challenge.	0=friend name
@@ -315,6 +317,7 @@ GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_NO_DECK	You need to build a deck first.
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_NO_TAVERN_BRAWL_DECK	You need to build a deck for this week's Brawl.
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_TAVERN_BRAWL_LOCKED	Unlock Tavern Brawl by reaching level 20 with any class.
 GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_NO_TAVERN_BRAWL	Tavern Brawl is not available right now.  Check back soon!
+GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_TAVERN_BRAWL_NOT_CHALLENGEABLE	Friendly Challenge is not available for this Tavern Brawl.
 GLOBAL_FRIENDLIST_TAVERN_BRAWL_CHALLENGE_BUTTON_AVAILABLE	Challenge {0} to a Tavern Brawl game.	0=player name
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_AVAILABLE_HEADER	Spectate this Game
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_AVAILABLE_TEXT	Click to begin spectating this player's game.	
@@ -537,8 +540,11 @@ GLOBAL_HERO_LEVEL_REWARD_ARCANE_DUST	{0} arcane dust	0=amount
 GLOBAL_HERO_LEVEL_REWARD_GOLD	{0} gold	0=amount
 GLOBAL_GOLD_REWARD_ALREADY_CAPPED	You have already earned {0} gold today.
 GLOBAL_GOLD_REWARD_BAD_RATING	You or your opponent do not meet the rating requirements to earn gold.
-GLOBAL_GOLD_REWARD_SHORT_GAME	Your game did not meet the time requirement to earn gold.
+GLOBAL_GOLD_REWARD_SHORT_GAME_BY_TIME	Your game did not meet the time requirement to earn gold.
 GLOBAL_GOLD_REWARD_OVER_CAIS	You cannot gain any more gold due to CAIS.
+GLOBAL_FRIENDLYCHALLENGE_QUEST_REWARD_AT_LIMIT	You reached the daily limit for Friend Challenge quest rewards.
+GLOBAL_FRIENDLYCHALLENGE_REWARD_CONCEDED_YOURSELF	You left the game too early to earn rewards.
+GLOBAL_FRIENDLYCHALLENGE_REWARD_CONCEDED_YOUR_OPPONENT	Your opponent left the game too early for you to earn rewards.
 GLOBAL_COLLECTION_GOLDEN	Golden	
 GLOBAL_SPLASH_CLOSED_SIGN_TITLE	Closed	
 GLOBAL_ERROR_INACTIVITY_KICK	It's been a while since your last Hearthstone action and your connection was shut down. Relaunch the game when you're ready!	

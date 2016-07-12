@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Dbf name="ADVENTURE">
-	<SourceFingerprint>I0A8FtOiGp7lbaHzysEFh6IrvIs=</SourceFingerprint>
+	<SourceFingerprint>/Up10xdg3oVO9rk+fiZVrC1gEe4=</SourceFingerprint>
 	<Column name="ID" type="Int" />
 	<Column name="NOTE_DESC" type="String" />
 	<Column name="NAME" type="LocString" />
@@ -25,24 +25,25 @@
 	<Column name="STORE_PREFAB" type="AssetPath" />
 	<Column name="LEAVING_SOON" type="Bool" />
 	<Column name="LEAVING_SOON_TEXT" type="LocString" />
+	<Column name="GAME_MODE_ICON" type="AssetPath" />
 	<Record>
 		<Field column="ID">1</Field>
 		<Field column="NOTE_DESC">Tutorial</Field>
 		<Field column="NAME" loc_ID="20783">
-			<deDE>Tutorial</deDE>
 			<enUS>Tutorial</enUS>
+			<frFR>Didacticiel</frFR>
+			<deDE>Tutorial</deDE>
+			<koKR>튜토리얼</koKR>
 			<esES>Tutorial</esES>
 			<esMX>Tutorial</esMX>
-			<frFR>Didacticiel</frFR>
-			<itIT>Tutorial</itIT>
-			<jaJP>チュートリアル</jaJP>
-			<koKR>튜토리얼</koKR>
-			<plPL>Samouczek</plPL>
-			<ptBR>Tutorial</ptBR>
 			<ruRU>Обучение</ruRU>
-			<thTH>สอนวิธีเล่น</thTH>
-			<zhCN>教学</zhCN>
 			<zhTW>新手教學</zhTW>
+			<zhCN>教学</zhCN>
+			<itIT>Tutorial</itIT>
+			<ptBR>Tutorial</ptBR>
+			<plPL>Samouczek</plPL>
+			<jaJP>チュートリアル</jaJP>
+			<thTH>โหมดสอนเล่น</thTH>
 		</Field>
 		<Field column="SORT_ORDER" />
 		<Field column="STORE_BUY_BUTTON_LABEL" />
@@ -65,25 +66,26 @@
 		<Field column="STORE_PREFAB" />
 		<Field column="LEAVING_SOON">False</Field>
 		<Field column="LEAVING_SOON_TEXT" />
+		<Field column="GAME_MODE_ICON" />
 	</Record>
 	<Record>
 		<Field column="ID">2</Field>
 		<Field column="NOTE_DESC">Practice</Field>
 		<Field column="NAME" loc_ID="20784">
-			<deDE>Üben</deDE>
 			<enUS>Practice</enUS>
+			<frFR>Entraînement</frFR>
+			<deDE>Üben</deDE>
+			<koKR>연습</koKR>
 			<esES>Práctica</esES>
 			<esMX>Práctica</esMX>
-			<frFR>Entraînement</frFR>
-			<itIT>Allenamento</itIT>
-			<jaJP>練習</jaJP>
-			<koKR>연습</koKR>
-			<plPL>Trening</plPL>
-			<ptBR>Praticar</ptBR>
 			<ruRU>Тренировка</ruRU>
-			<thTH>ฝึกฝน</thTH>
-			<zhCN>练习模式</zhCN>
 			<zhTW>練習模式</zhTW>
+			<zhCN>练习模式</zhCN>
+			<itIT>Allenamento</itIT>
+			<ptBR>Praticar</ptBR>
+			<plPL>Trening</plPL>
+			<jaJP>練習</jaJP>
+			<thTH>ฝึกฝน</thTH>
 		</Field>
 		<Field column="SORT_ORDER">999</Field>
 		<Field column="STORE_BUY_BUTTON_LABEL" />
@@ -106,553 +108,556 @@
 		<Field column="STORE_PREFAB" />
 		<Field column="LEAVING_SOON">False</Field>
 		<Field column="LEAVING_SOON_TEXT" />
+		<Field column="GAME_MODE_ICON" />
 	</Record>
 	<Record>
 		<Field column="ID">3</Field>
 		<Field column="NOTE_DESC">Naxxramas</Field>
 		<Field column="NAME" loc_ID="20785">
-			<deDE>Naxxramas</deDE>
 			<enUS>Naxxramas</enUS>
+			<frFR>Naxxramas</frFR>
+			<deDE>Naxxramas</deDE>
+			<koKR>낙스라마스</koKR>
 			<esES>Naxxramas</esES>
 			<esMX>Naxxramas</esMX>
-			<frFR>Naxxramas</frFR>
-			<itIT>Naxxramas</itIT>
-			<jaJP>ナクスラーマス</jaJP>
-			<koKR>낙스라마스</koKR>
-			<plPL>Naxxramas</plPL>
-			<ptBR>Naxxramas</ptBR>
 			<ruRU>Наксрамас</ruRU>
-			<thTH>Naxxramas</thTH>
-			<zhCN>纳克萨玛斯</zhCN>
 			<zhTW>納克薩瑪斯</zhTW>
+			<zhCN>纳克萨玛斯</zhCN>
+			<itIT>Naxxramas</itIT>
+			<ptBR>Naxxramas</ptBR>
+			<plPL>Naxxramas</plPL>
+			<jaJP>ナクスラーマス</jaJP>
+			<thTH>Naxxramas</thTH>
 		</Field>
 		<Field column="SORT_ORDER">0</Field>
 		<Field column="STORE_BUY_BUTTON_LABEL" loc_ID="21868">
-			<deDE>Naxxramas</deDE>
 			<enUS>Naxxramas</enUS>
+			<frFR>Naxxramas</frFR>
+			<deDE>Naxxramas</deDE>
+			<koKR>낙스라마스</koKR>
 			<esES>Naxxramas</esES>
 			<esMX>Naxxramas</esMX>
-			<frFR>Naxxramas</frFR>
-			<itIT>Naxxramas</itIT>
-			<jaJP>ナクスラーマス</jaJP>
-			<koKR>낙스라마스</koKR>
-			<plPL>Naxxramas</plPL>
-			<ptBR>Naxxramas</ptBR>
 			<ruRU>Наксрамас</ruRU>
-			<thTH>Naxxramas</thTH>
-			<zhCN>纳克萨玛斯</zhCN>
 			<zhTW>納克薩瑪斯</zhTW>
+			<zhCN>纳克萨玛斯</zhCN>
+			<itIT>Naxxramas</itIT>
+			<ptBR>Naxxramas</ptBR>
+			<plPL>Naxxramas</plPL>
+			<jaJP>ナクスラーマス</jaJP>
+			<thTH>Naxxramas</thTH>
 		</Field>
 		<Field column="STORE_BUY_WINGS_1_HEADLINE" loc_ID="20790">
-			<deDE>Naxxramas (letzter Flügel):</deDE>
 			<enUS>Naxxramas (Unlock the final wing)</enUS>
+			<frFR>Naxxramas (débloquez la dernière aile)</frFR>
+			<deDE>Naxxramas (letzter Flügel):</deDE>
+			<koKR>낙스라마스 (마지막 지구 잠금 해제)</koKR>
 			<esES>Naxxramas (desbloquea la última ala)</esES>
 			<esMX>Naxxramas (Desbloquea el ala final)</esMX>
-			<frFR>Naxxramas (débloquez la dernière aile)</frFR>
-			<itIT>Naxxramas (sblocca l'ultima ala)</itIT>
-			<jaJP>ナクスラーマス（最終区画をアンロック）</jaJP>
-			<koKR>낙스라마스 (마지막 지구 잠금 해제)</koKR>
-			<plPL>Naxxramas (odblokuj ostatnie skrzydło)</plPL>
-			<ptBR>Naxxramas (Desbloquear a ala final)</ptBR>
 			<ruRU>«Наксрамас» (последнее крыло)</ruRU>
-			<thTH>Naxxramas (ปลดล็อควิงสุดท้าย)</thTH>
-			<zhCN>纳克萨玛斯（解锁最后一个区）</zhCN>
 			<zhTW>納克薩瑪斯(解鎖最後一個區域)</zhTW>
+			<zhCN>纳克萨玛斯（解锁最后一个区）</zhCN>
+			<itIT>Naxxramas (sblocca l'ultima ala)</itIT>
+			<ptBR>Naxxramas (Desbloquear a ala final)</ptBR>
+			<plPL>Naxxramas (odblokuj ostatnie skrzydło)</plPL>
+			<jaJP>ナクスラーマス（最終区画をアンロック）</jaJP>
+			<thTH>Naxxramas (ปลดล็อควิงสุดท้าย)</thTH>
 		</Field>
 		<Field column="STORE_BUY_WINGS_2_HEADLINE" loc_ID="20789">
-			<deDE>Naxxramas (2 verbleibende Flügel):</deDE>
 			<enUS>Naxxramas (Unlock 2 remaining wings)</enUS>
+			<frFR>Naxxramas (débloquez les 2 dernières ailes)</frFR>
+			<deDE>Naxxramas (2 verbleibende Flügel):</deDE>
+			<koKR>낙스라마스 (나머지 2개 지구 잠금 해제)</koKR>
 			<esES>Naxxramas (desbloquea las 2 alas restantes)</esES>
 			<esMX>Naxxramas (Desbloquea las 2 alas restantes)</esMX>
-			<frFR>Naxxramas (débloquez les 2 dernières ailes)</frFR>
-			<itIT>Naxxramas (sblocca le ultime 2 ali)</itIT>
-			<jaJP>ナクスラーマス（残り2区画をアンロック）</jaJP>
-			<koKR>낙스라마스 (나머지 2개 지구 잠금 해제)</koKR>
-			<plPL>Naxxramas (odblokuj 2 pozostałe skrzydła)</plPL>
-			<ptBR>Naxxramas (Desbloquear 2 alas restantes)</ptBR>
 			<ruRU>«Наксрамас» (2 оставшихся крыла)</ruRU>
-			<thTH>Naxxramas (ปลดล็อคอีก 2 วิงที่เหลือ)</thTH>
-			<zhCN>纳克萨玛斯（解锁后两个区）</zhCN>
 			<zhTW>納克薩瑪斯(解鎖剩餘的2個區域)</zhTW>
+			<zhCN>纳克萨玛斯（解锁后两个区）</zhCN>
+			<itIT>Naxxramas (sblocca le ultime 2 ali)</itIT>
+			<ptBR>Naxxramas (Desbloquear 2 alas restantes)</ptBR>
+			<plPL>Naxxramas (odblokuj 2 pozostałe skrzydła)</plPL>
+			<jaJP>ナクスラーマス（残り2区画をアンロック）</jaJP>
+			<thTH>Naxxramas (ปลดล็อคอีก 2 วิงที่เหลือ)</thTH>
 		</Field>
 		<Field column="STORE_BUY_WINGS_3_HEADLINE" loc_ID="20788">
-			<deDE>Naxxramas (3 verbleibende Flügel):</deDE>
 			<enUS>Naxxramas (Unlock 3 remaining wings)</enUS>
+			<frFR>Naxxramas (débloquez les 3 dernières ailes)</frFR>
+			<deDE>Naxxramas (3 verbleibende Flügel):</deDE>
+			<koKR>낙스라마스 (나머지 3개 지구 잠금 해제)</koKR>
 			<esES>Naxxramas (desbloquea las 3 alas restantes)</esES>
 			<esMX>Naxxramas (Desbloquea las 3 alas restantes)</esMX>
-			<frFR>Naxxramas (débloquez les 3 dernières ailes)</frFR>
-			<itIT>Naxxramas (sblocca le ultime 3 ali)</itIT>
-			<jaJP>ナクスラーマス（残り3区画をアンロック）</jaJP>
-			<koKR>낙스라마스 (나머지 3개 지구 잠금 해제)</koKR>
-			<plPL>Naxxramas (odblokuj 3 pozostałe skrzydła)</plPL>
-			<ptBR>Naxxramas (Desbloquear 3 alas restantes)</ptBR>
 			<ruRU>«Наксрамас» (3 оставшихся крыла)</ruRU>
-			<thTH>Naxxramas (ปลดล็อคอีก 3 วิงที่เหลือ)</thTH>
-			<zhCN>纳克萨玛斯（解锁后三个区）</zhCN>
 			<zhTW>納克薩瑪斯(解鎖剩餘的3個區域)</zhTW>
+			<zhCN>纳克萨玛斯（解锁后三个区）</zhCN>
+			<itIT>Naxxramas (sblocca le ultime 3 ali)</itIT>
+			<ptBR>Naxxramas (Desbloquear 3 alas restantes)</ptBR>
+			<plPL>Naxxramas (odblokuj 3 pozostałe skrzydła)</plPL>
+			<jaJP>ナクスラーマス（残り3区画をアンロック）</jaJP>
+			<thTH>Naxxramas (ปลดล็อคอีก 3 วิงที่เหลือ)</thTH>
 		</Field>
 		<Field column="STORE_BUY_WINGS_4_HEADLINE" loc_ID="20787">
-			<deDE>Naxxramas (4 verbleibende Flügel):</deDE>
 			<enUS>Naxxramas (Unlock 4 remaining wings)</enUS>
+			<frFR>Naxxramas (débloquez les 4 dernières ailes)</frFR>
+			<deDE>Naxxramas (4 verbleibende Flügel):</deDE>
+			<koKR>낙스라마스 (나머지 4개 지구 잠금 해제)</koKR>
 			<esES>Naxxramas (desbloquea las 4 alas restantes)</esES>
 			<esMX>Naxxramas (Desbloquea las 4 alas restantes)</esMX>
-			<frFR>Naxxramas (débloquez les 4 dernières ailes)</frFR>
-			<itIT>Naxxramas (sblocca le ultime 4 ali)</itIT>
-			<jaJP>ナクスラーマス（残り4区画をアンロック）</jaJP>
-			<koKR>낙스라마스 (나머지 4개 지구 잠금 해제)</koKR>
-			<plPL>Naxxramas (odblokuj 4 pozostałe skrzydła)</plPL>
-			<ptBR>Naxxramas (Desbloquear 4 alas restantes)</ptBR>
 			<ruRU>«Наксрамас» (4 оставшихся крыла)</ruRU>
-			<thTH>Naxxramas (ปลดล็อคอีก 4 วิงที่เหลือ)</thTH>
-			<zhCN>纳克萨玛斯（解锁后四个区）</zhCN>
 			<zhTW>納克薩瑪斯(解鎖剩餘的4個區域)</zhTW>
+			<zhCN>纳克萨玛斯（解锁后四个区）</zhCN>
+			<itIT>Naxxramas (sblocca le ultime 4 ali)</itIT>
+			<ptBR>Naxxramas (Desbloquear 4 alas restantes)</ptBR>
+			<plPL>Naxxramas (odblokuj 4 pozostałe skrzydła)</plPL>
+			<jaJP>ナクスラーマス（残り4区画をアンロック）</jaJP>
+			<thTH>Naxxramas (ปลดล็อคอีก 4 วิงที่เหลือ)</thTH>
 		</Field>
 		<Field column="STORE_BUY_WINGS_5_HEADLINE" loc_ID="20786">
-			<deDE>Naxxramas (alle 5 Flügel):</deDE>
 			<enUS>Naxxramas (Unlock all 5 wings)</enUS>
+			<frFR>Naxxramas (débloquez les 5 ailes)</frFR>
+			<deDE>Naxxramas (alle 5 Flügel):</deDE>
+			<koKR>낙스라마스 (5개 지구 모두 잠금 해제)</koKR>
 			<esES>Naxxramas (desbloquea las 5 alas)</esES>
 			<esMX>Naxxramas (Desbloquea las 5 alas)</esMX>
-			<frFR>Naxxramas (débloquez les 5 ailes)</frFR>
-			<itIT>Naxxramas (sblocca tutte le 5 ali)</itIT>
-			<jaJP>ナクスラーマス（全5区画をアンロック）</jaJP>
-			<koKR>낙스라마스 (5개 지구 모두 잠금 해제)</koKR>
-			<plPL>Naxxramas (odblokuj wszystkie 5 skrzydeł)</plPL>
-			<ptBR>Naxxramas (Desbloquear as 5 alas)</ptBR>
 			<ruRU>«Наксрамас» (все 5 крыльев)</ruRU>
-			<thTH>Naxxramas (ปลดล็อคทั้ง 5 วิง)</thTH>
-			<zhCN>纳克萨玛斯（解锁全部五个区）</zhCN>
 			<zhTW>納克薩瑪斯(解鎖全部5個區域)</zhTW>
+			<zhCN>纳克萨玛斯（解锁全部五个区）</zhCN>
+			<itIT>Naxxramas (sblocca tutte le 5 ali)</itIT>
+			<ptBR>Naxxramas (Desbloquear as 5 alas)</ptBR>
+			<plPL>Naxxramas (odblokuj wszystkie 5 skrzydeł)</plPL>
+			<jaJP>ナクスラーマス（全5区画をアンロック）</jaJP>
+			<thTH>Naxxramas (ปลดล็อคทั้ง 5 วิง)</thTH>
 		</Field>
 		<Field column="STORE_OWNED_HEADLINE" loc_ID="20796">
-			<deDE>Naxxramas (erworben)</deDE>
 			<enUS>Naxxramas (Purchased)</enUS>
+			<frFR>Naxxramas (déjà acheté)</frFR>
+			<deDE>Naxxramas (erworben)</deDE>
+			<koKR>낙스라마스 (구매 완료)</koKR>
 			<esES>Naxxramas (adquirida)</esES>
 			<esMX>Naxxramas (Comprada)</esMX>
-			<frFR>Naxxramas (déjà acheté)</frFR>
-			<itIT>Naxxramas (acquistata)</itIT>
-			<jaJP>ナクスラーマス（購入済）</jaJP>
-			<koKR>낙스라마스 (구매 완료)</koKR>
-			<plPL>Naxxramas (Już zakupiono)</plPL>
-			<ptBR>Naxxramas (Comprada)</ptBR>
 			<ruRU>«Наксрамас» (приобретено)</ruRU>
-			<thTH>Naxxramas (ซื้อแล้ว)</thTH>
-			<zhCN>纳克萨玛斯（已购买）</zhCN>
 			<zhTW>納克薩瑪斯(已購買)</zhTW>
+			<zhCN>纳克萨玛斯（已购买）</zhCN>
+			<itIT>Naxxramas (acquistata)</itIT>
+			<ptBR>Naxxramas (Comprada)</ptBR>
+			<plPL>Naxxramas (Już zakupiono)</plPL>
+			<jaJP>ナクスラーマス（購入済）</jaJP>
+			<thTH>Naxxramas (ซื้อแล้ว)</thTH>
 		</Field>
 		<Field column="STORE_PREORDER_HEADLINE" />
 		<Field column="STORE_BUY_WINGS_1_DESC" loc_ID="20795">
-			<deDE>• Schließen Sie Ihr Abenteuer ab! Schalten Sie den letzten Flügel frei und erkämpfen Sie sich bis zu 4 neue Karten, die nur in Naxxramas zu finden sind.</deDE>
 			<enUS>• Finish your adventure!  Unlock the last wing and earn up to 4 new cards that can only be found in Naxxramas.</enUS>
+			<frFR>• Terminez votre aventure ! Débloquez la dernière aile et obtenez jusqu’à 4 nouvelles cartes pouvant être gagnées uniquement dans Naxxramas.</frFR>
+			<deDE>• Schließen Sie Ihr Abenteuer ab! Schalten Sie den letzten Flügel frei und erkämpfen Sie sich bis zu 4 neue Karten, die nur in Naxxramas zu finden sind.</deDE>
+			<koKR>• 모험을 마무리하세요! 마지막 지구를 잠금 해제하여 낙스라마스에서만 얻을 수 있는 4장의 새로운 카드를 획득하세요.</koKR>
 			<esES>• ¡Termina tu aventura! Desbloquea la última ala y consigue hasta 4 cartas nuevas que solo se pueden obtener en Naxxramas.</esES>
 			<esMX>• ¡Termina tu aventura! Desbloquea el ala final y obtén hasta 4 cartas nuevas que solo pueden encontrarse en Naxxramas.</esMX>
-			<frFR>• Terminez votre aventure ! Débloquez la dernière aile et obtenez jusqu’à 4 nouvelles cartes pouvant être gagnées uniquement dans Naxxramas.</frFR>
-			<itIT>• Completa l'avventura! Sblocca l'ultima ala e ottieni fino a 4 nuove carte reperibili solo a Naxxramas.</itIT>
-			<jaJP>・冒険を完了しよう！最後の区画を開放し、ナクスラーマスでのみ手に入る最大4枚の新カードを獲得しよう。</jaJP>
-			<koKR>• 모험을 마무리하세요! 마지막 지구를 잠금 해제하여 낙스라마스에서만 얻을 수 있는 4장의 새로운 카드를 획득하세요.</koKR>
-			<plPL>• Dokończ przygodę! Odblokuj ostatnie skrzydło i zdobądź nawet 4 nowe karty, które można znaleźć jedynie w Naxxramas.</plPL>
-			<ptBR>• Termine sua aventura! Desbloqueie a última ala e ganhe até 4 cards novos que só podem ser encontrados em Naxxramas.</ptBR>
 			<ruRU>• Завершите приключение! Откройте доступ к последнему крылу и получите до 4 новых карт, которые можно найти только в Наксрамасе.</ruRU>
-			<thTH>• สู่ปลายทางของการผจญภัย! ปลดล็อควิงสุดท้าย และรับการ์ดใหม่สูงสุด 4_ใบที่หาได้จากใน Naxxramas เท่านั้น</thTH>
-			<zhCN>• 完成你的冒险之旅！解锁最后一个区，赢得只有在纳克萨玛斯中才能获取的至多4张全新卡牌。</zhCN>
 			<zhTW>• 完成你的冒險！解鎖最後的區域並獲得最多4張《納克薩瑪斯》限定的新卡牌。</zhTW>
+			<zhCN>• 完成你的冒险之旅！解锁最后一个区，赢得只有在纳克萨玛斯中才能获取的至多4张全新卡牌。</zhCN>
+			<itIT>• Completa l'avventura! Sblocca l'ultima ala e ottieni fino a 4 nuove carte reperibili solo a Naxxramas.</itIT>
+			<ptBR>• Termine sua aventura! Desbloqueie a última ala e ganhe até 4 cards novos que só podem ser encontrados em Naxxramas.</ptBR>
+			<plPL>• Dokończ przygodę! Odblokuj ostatnie skrzydło i zdobądź nawet 4 nowe karty, które można znaleźć jedynie w Naxxramas.</plPL>
+			<jaJP>・冒険を完了しよう！最後の区画を開放し、ナクスラーマスでのみ手に入る最大4枚の新カードを獲得しよう。</jaJP>
+			<thTH>• สู่ปลายทางของการผจญภัย! ปลดล็อควิงสุดท้าย และรับการ์ดใหม่สูงสุด 4_ใบที่หาได้จากใน Naxxramas เท่านั้น</thTH>
 		</Field>
 		<Field column="STORE_BUY_WINGS_2_DESC" loc_ID="20794">
-			<deDE>• Stürzen Sie sich wieder ins Abenteuer! Schalten Sie die letzten zwei Flügel frei und erkämpfen Sie sich bis zu 12 neue Karten, die nur in Naxxramas zu finden sind.</deDE>
 			<enUS>• Continue your adventure! Unlock the last two wings and earn up to 12 new cards that can only be found in Naxxramas.</enUS>
+			<frFR>• Continuez votre aventure ! Débloquez les deux dernières ailes et obtenez jusqu’à 12 nouvelles cartes pouvant être gagnées uniquement dans Naxxramas.</frFR>
+			<deDE>• Stürzen Sie sich wieder ins Abenteuer! Schalten Sie die letzten zwei Flügel frei und erkämpfen Sie sich bis zu 12 neue Karten, die nur in Naxxramas zu finden sind.</deDE>
+			<koKR>• 모험을 계속하세요! 나머지 두 지구를 잠금 해제하여 낙스라마스에서만 얻을 수 있는 12장의 새로운 카드를 획득하세요.</koKR>
 			<esES>• ¡Prosigue tu aventura! Desbloquea las dos últimas alas y consigue hasta 12 cartas nuevas que solo se pueden obtener en Naxxramas.</esES>
 			<esMX>• ¡Continúa tu aventura! Desbloquea las dos últimas alas y obtén hasta 12 cartas nuevas que solo pueden encontrarse en Naxxramas.</esMX>
-			<frFR>• Continuez votre aventure ! Débloquez les deux dernières ailes et obtenez jusqu’à 12 nouvelles cartes pouvant être gagnées uniquement dans Naxxramas.</frFR>
-			<itIT>• Continua l'avventura! Sblocca le ultime due ali e ottieni fino a 12 nuove carte reperibili solo a Naxxramas.</itIT>
-			<jaJP>・冒険を続けよう！残る2つの区画を開放し、ナクスラーマスでのみ手に入る最大12枚の新カードを獲得しよう。</jaJP>
-			<koKR>• 모험을 계속하세요! 나머지 두 지구를 잠금 해제하여 낙스라마스에서만 얻을 수 있는 12장의 새로운 카드를 획득하세요.</koKR>
-			<plPL>• Kontynuuj przygodę! Odblokuj dwa pozostałe skrzydła i zdobądź nawet 12 nowych kart, które można znaleźć jedynie w Naxxramas.</plPL>
-			<ptBR>• Continue sua aventura! Desbloqueie as duas últimas alas e ganhe até 12 cards novos que só podem ser encontrados em Naxxramas.</ptBR>
 			<ruRU>• Приключение продолжается! Откройте доступ к оставшимся двум крыльям и получите до 12 новых карт, которые можно найти только в Наксрамасе!</ruRU>
-			<thTH>• ผจญภัยต่อ! ปลดล็อคสองวิงสุดท้าย และรับการ์ดใหม่สูงสุด 12_ใบ ที่หาได้จากใน Naxxramas เท่านั้น</thTH>
-			<zhCN>• 继续你的冒险之旅！解锁后两个区，赢得只有在纳克萨玛斯中才能获取的至多12张全新卡牌。</zhCN>
 			<zhTW>• 繼續你的冒險！解鎖剩餘的兩區並獲得最多12張《納克薩瑪斯》限定的新卡牌。</zhTW>
+			<zhCN>• 继续你的冒险之旅！解锁后两个区，赢得只有在纳克萨玛斯中才能获取的至多12张全新卡牌。</zhCN>
+			<itIT>• Continua l'avventura! Sblocca le ultime due ali e ottieni fino a 12 nuove carte reperibili solo a Naxxramas.</itIT>
+			<ptBR>• Continue sua aventura! Desbloqueie as duas últimas alas e ganhe até 12 cards novos que só podem ser encontrados em Naxxramas.</ptBR>
+			<plPL>• Kontynuuj przygodę! Odblokuj dwa pozostałe skrzydła i zdobądź nawet 12 nowych kart, które można znaleźć jedynie w Naxxramas.</plPL>
+			<jaJP>・冒険を続けよう！残る2つの区画を開放し、ナクスラーマスでのみ手に入る最大12枚の新カードを獲得しよう。</jaJP>
+			<thTH>• ผจญภัยต่อ! ปลดล็อคสองวิงสุดท้าย และรับการ์ดใหม่สูงสุด 12_ใบ ที่หาได้จากใน Naxxramas เท่านั้น</thTH>
 		</Field>
 		<Field column="STORE_BUY_WINGS_3_DESC" loc_ID="20793">
-			<deDE>• Stürzen Sie sich wieder ins Abenteuer! Schalten Sie die letzten drei Flügel frei und erkämpfen Sie sich bis zu 18 neue Karten, die nur in Naxxramas zu finden sind.</deDE>
 			<enUS>• Continue your adventure! Unlock the last three wings and earn up to 18 new cards that can only be found in Naxxramas.</enUS>
+			<frFR>• Continuez votre aventure ! Débloquez les trois autres ailes et obtenez jusqu’à 18 nouvelles cartes pouvant être gagnées uniquement dans Naxxramas.</frFR>
+			<deDE>• Stürzen Sie sich wieder ins Abenteuer! Schalten Sie die letzten drei Flügel frei und erkämpfen Sie sich bis zu 18 neue Karten, die nur in Naxxramas zu finden sind.</deDE>
+			<koKR>• 모험을 계속하세요! 나머지 세 지구를 잠금 해제하여 낙스라마스에서만 얻을 수 있는 18장의 새로운 카드를 획득하세요.</koKR>
 			<esES>• ¡Prosigue tu aventura! Desbloquea las tres últimas alas y consigue hasta 18 cartas nuevas que solo se pueden obtener en Naxxramas.</esES>
 			<esMX>• ¡Continúa tu aventura! Desbloquea las tres últimas alas y obtén hasta 18 cartas nuevas que solo pueden encontrarse en Naxxramas.</esMX>
-			<frFR>• Continuez votre aventure ! Débloquez les trois autres ailes et obtenez jusqu’à 18 nouvelles cartes pouvant être gagnées uniquement dans Naxxramas.</frFR>
-			<itIT>• Continua l'avventura! Sblocca le ultime tre ali e ottieni fino a 18 nuove carte reperibili solo a Naxxramas.</itIT>
-			<jaJP>・冒険を続けよう！残る3つの区画を開放し、ナクスラーマスでのみ手に入る最大18枚の新カードを獲得しよう。</jaJP>
-			<koKR>• 모험을 계속하세요! 나머지 세 지구를 잠금 해제하여 낙스라마스에서만 얻을 수 있는 18장의 새로운 카드를 획득하세요.</koKR>
-			<plPL>• Kontynuuj przygodę! Odblokuj trzy pozostałe skrzydła i zdobądź nawet 18 nowych kart, które można znaleźć jedynie w Naxxramas.</plPL>
-			<ptBR>• Continue sua aventura! Desbloqueie as três últimas alas e ganhe até 18 cards novos que só podem ser encontrados em Naxxramas.</ptBR>
 			<ruRU>• Приключение продолжается! Откройте доступ к оставшимся трем крыльям и получите до 18 новых карт, которые можно найти только в Наксрамасе!</ruRU>
-			<thTH>• ผจญภัยต่อ! ปลดล็อคสามวิงสุดท้าย และรับการ์ดใหม่สูงสุด 18_ใบ ที่หาได้จากใน Naxxramas เท่านั้น</thTH>
-			<zhCN>• 继续你的冒险之旅！解锁后三个区，赢得只有在纳克萨玛斯中才能获取的至多18张全新卡牌。</zhCN>
 			<zhTW>• 繼續你的冒險！解鎖剩餘的三區並獲得最多18張《納克薩瑪斯》限定的新卡牌。</zhTW>
+			<zhCN>• 继续你的冒险之旅！解锁后三个区，赢得只有在纳克萨玛斯中才能获取的至多18张全新卡牌。</zhCN>
+			<itIT>• Continua l'avventura! Sblocca le ultime tre ali e ottieni fino a 18 nuove carte reperibili solo a Naxxramas.</itIT>
+			<ptBR>• Continue sua aventura! Desbloqueie as três últimas alas e ganhe até 18 cards novos que só podem ser encontrados em Naxxramas.</ptBR>
+			<plPL>• Kontynuuj przygodę! Odblokuj trzy pozostałe skrzydła i zdobądź nawet 18 nowych kart, które można znaleźć jedynie w Naxxramas.</plPL>
+			<jaJP>・冒険を続けよう！残る3つの区画を開放し、ナクスラーマスでのみ手に入る最大18枚の新カードを獲得しよう。</jaJP>
+			<thTH>• ผจญภัยต่อ! ปลดล็อคสามวิงสุดท้าย และรับการ์ดใหม่สูงสุด 18_ใบ ที่หาได้จากใน Naxxramas เท่านั้น</thTH>
 		</Field>
 		<Field column="STORE_BUY_WINGS_4_DESC" loc_ID="20792">
-			<deDE>• Stürzen Sie sich wieder ins Abenteuer! Schalten Sie die letzten vier Flügel frei und erkämpfen Sie sich bis zu 24 neue Karten, die nur in Naxxramas zu finden sind.</deDE>
 			<enUS>• Continue your adventure! Unlock the last four wings and earn up to 24 new cards that can only be found in Naxxramas.</enUS>
+			<frFR>• Continuez votre aventure ! Débloquez les quatre autres ailes et obtenez jusqu’à 24 nouvelles cartes pouvant être gagnées uniquement dans Naxxramas.</frFR>
+			<deDE>• Stürzen Sie sich wieder ins Abenteuer! Schalten Sie die letzten vier Flügel frei und erkämpfen Sie sich bis zu 24 neue Karten, die nur in Naxxramas zu finden sind.</deDE>
+			<koKR>• 모험을 계속하세요! 나머지 네 지구를 잠금 해제하여 낙스라마스에서만 얻을 수 있는 24장의 새로운 카드를 획득하세요.</koKR>
 			<esES>• ¡Prosigue tu aventura! Desbloquea las cuatro últimas alas y consigue hasta 24 cartas nuevas que solo se pueden obtener en Naxxramas.</esES>
 			<esMX>• ¡Continúa tu aventura! Desbloquea las cuatro últimas alas y obtén hasta 24 cartas nuevas que solo pueden encontrarse en Naxxramas.</esMX>
-			<frFR>• Continuez votre aventure ! Débloquez les quatre autres ailes et obtenez jusqu’à 24 nouvelles cartes pouvant être gagnées uniquement dans Naxxramas.</frFR>
-			<itIT>• Continua l'avventura! Sblocca le ultime quattro ali e ottieni fino a 24 nuove carte reperibili solo a Naxxramas.</itIT>
-			<jaJP>・冒険を続けよう！残る4つの区画を開放し、ナクスラーマスでのみ手に入る最大24枚の新カードを獲得しよう。</jaJP>
-			<koKR>• 모험을 계속하세요! 나머지 네 지구를 잠금 해제하여 낙스라마스에서만 얻을 수 있는 24장의 새로운 카드를 획득하세요.</koKR>
-			<plPL>• Kontynuuj przygodę! Odblokuj cztery pozostałe skrzydła i zdobądź nawet 24 nowe karty, które można znaleźć jedynie w Naxxramas.</plPL>
-			<ptBR>• Continue sua aventura! Desbloqueie as quatro últimas alas e ganhe até 24 cards novos que só podem ser encontrados em Naxxramas.</ptBR>
 			<ruRU>• Приключение продолжается! Откройте доступ к оставшимся четырем крыльям и получите до 24 новых карт, которые можно найти только в Наксрамасе!</ruRU>
-			<thTH>• ผจญภัยต่อ! ปลดล็อคสี่วิงสุดท้าย และรับการ์ดใหม่สูงสุด 24_ใบ ที่หาได้จากใน Naxxramas เท่านั้น</thTH>
-			<zhCN>• 继续你的冒险之旅！解锁后四个区，赢得只有在纳克萨玛斯中才能获取的至多24张全新卡牌。</zhCN>
 			<zhTW>• 繼續你的冒險！解鎖剩餘的四區並獲得最多24張《納克薩瑪斯》限定的新卡牌。</zhTW>
+			<zhCN>• 继续你的冒险之旅！解锁后四个区，赢得只有在纳克萨玛斯中才能获取的至多24张全新卡牌。</zhCN>
+			<itIT>• Continua l'avventura! Sblocca le ultime quattro ali e ottieni fino a 24 nuove carte reperibili solo a Naxxramas.</itIT>
+			<ptBR>• Continue sua aventura! Desbloqueie as quatro últimas alas e ganhe até 24 cards novos que só podem ser encontrados em Naxxramas.</ptBR>
+			<plPL>• Kontynuuj przygodę! Odblokuj cztery pozostałe skrzydła i zdobądź nawet 24 nowe karty, które można znaleźć jedynie w Naxxramas.</plPL>
+			<jaJP>・冒険を続けよう！残る4つの区画を開放し、ナクスラーマスでのみ手に入る最大24枚の新カードを獲得しよう。</jaJP>
+			<thTH>• ผจญภัยต่อ! ปลดล็อคสี่วิงสุดท้าย และรับการ์ดใหม่สูงสุด 24_ใบ ที่หาได้จากใน Naxxramas เท่านั้น</thTH>
 		</Field>
 		<Field column="STORE_BUY_WINGS_5_DESC" loc_ID="20791">
-			<deDE>• Stürzen Sie sich ins Abenteuer! Schalten Sie alle Flügel frei und erkämpfen Sie sich bis zu 30 neue Karten, die nur in Naxxramas zu finden sind.</deDE>
 			<enUS>• Start your adventure! Unlock all the wings and earn up to 30 new cards that can only be found in Naxxramas.</enUS>
+			<frFR>• Lancez-vous dans l’aventure ! Débloquez toutes les ailes et obtenez jusqu’à 30 nouvelles cartes pouvant être gagnées uniquement dans Naxxramas.</frFR>
+			<deDE>• Stürzen Sie sich ins Abenteuer! Schalten Sie alle Flügel frei und erkämpfen Sie sich bis zu 30 neue Karten, die nur in Naxxramas zu finden sind.</deDE>
+			<koKR>• 모험을 시작하세요! 모든 지구를 잠금 해제하여 낙스라마스에서만 얻을 수 있는 30장의 카드를 획득하세요.</koKR>
 			<esES>• ¡Empieza la aventura! Desbloquea todas las alas y consigue hasta 30 cartas nuevas que solo se pueden obtener en Naxxramas.</esES>
 			<esMX>• ¡Comienza tu aventura! Desbloquea todas las alas y obtén hasta 30 cartas nuevas que solo pueden encontrarse en Naxxramas.</esMX>
-			<frFR>• Lancez-vous dans l’aventure ! Débloquez toutes les ailes et obtenez jusqu’à 30 nouvelles cartes pouvant être gagnées uniquement dans Naxxramas.</frFR>
-			<itIT>• Inizia l'avventura! Sblocca tutte le ali e ottieni fino a 30 nuove carte reperibili solo a Naxxramas.</itIT>
-			<jaJP>・冒険を始めよう！全ての区画を開放してナクスラーマスでのみ手に入る最大30枚の新カードを獲得しよう。</jaJP>
-			<koKR>• 모험을 시작하세요! 모든 지구를 잠금 해제하여 낙스라마스에서만 얻을 수 있는 30장의 카드를 획득하세요.</koKR>
-			<plPL>• Rozpocznij przygodę! Odblokuj wszystkie skrzydła i zdobądź nawet 30 nowych kart, które można znaleźć jedynie w Naxxramas.</plPL>
-			<ptBR>• Comece sua aventura! Desbloqueie todas as alas e ganhe até 30 cards novos que só podem ser encontrados em Naxxramas.</ptBR>
 			<ruRU>• Отправьтесь в приключение! Откройте все крылья и получите до 30 новых карт, которые можно найти только в Наксрамасе.</ruRU>
-			<thTH>• เริ่มการผจญภัยของคุณ! ปลดล็อควิงทั้งหมด และรับการ์ดใหม่สูงสุด 30_ใบที่หาได้จากใน Naxxramas เท่านั้น</thTH>
-			<zhCN>• 闯入纳克萨玛斯，开始冒险！解锁全部五个区，赢得只有在纳克萨玛斯中才能获取的至多30张全新卡牌。</zhCN>
 			<zhTW>• 開始你的冒險！解鎖全部區域並獲得最多30張《納克薩瑪斯》限定的新卡牌。</zhTW>
+			<zhCN>• 闯入纳克萨玛斯，开始冒险！解锁全部五个区，赢得只有在纳克萨玛斯中才能获取的至多30张全新卡牌。</zhCN>
+			<itIT>• Inizia l'avventura! Sblocca tutte le ali e ottieni fino a 30 nuove carte reperibili solo a Naxxramas.</itIT>
+			<ptBR>• Comece sua aventura! Desbloqueie todas as alas e ganhe até 30 cards novos que só podem ser encontrados em Naxxramas.</ptBR>
+			<plPL>• Rozpocznij przygodę! Odblokuj wszystkie skrzydła i zdobądź nawet 30 nowych kart, które można znaleźć jedynie w Naxxramas.</plPL>
+			<jaJP>・冒険を始めよう！全ての区画を開放してナクスラーマスでのみ手に入る最大30枚の新カードを獲得しよう。</jaJP>
+			<thTH>• เริ่มการผจญภัยของคุณ! ปลดล็อควิงทั้งหมด และรับการ์ดใหม่สูงสุด 30_ใบที่หาได้จากใน Naxxramas เท่านั้น</thTH>
 		</Field>
 		<Field column="STORE_OWNED_DESC" loc_ID="20797">
-			<deDE>• Besiegen Sie die Bosse von Naxxramas, um Belohnungen zu erhalten.</deDE>
 			<enUS>• Defeat the bosses in Naxxramas to earn your rewards.</enUS>
+			<frFR>• Battez les boss de Naxxramas pour obtenir vos récompenses.</frFR>
+			<deDE>• Besiegen Sie die Bosse von Naxxramas, um Belohnungen zu erhalten.</deDE>
+			<koKR>• 낙스라마스의 우두머리들을 처치하고 보상을 획득하세요.</koKR>
 			<esES>• Derrota a los jefes de Naxxramas para obtener recompensas.</esES>
 			<esMX>• Derrota a los jefes de Naxxramas para obtener tus recompensas.</esMX>
-			<frFR>• Battez les boss de Naxxramas pour obtenir vos récompenses.</frFR>
-			<itIT>• Sconfiggi i boss di Naxxramas per ottenere ricompense.</itIT>
-			<jaJP>・ナクスラーマスのボス達を倒して報酬を獲得しよう。</jaJP>
-			<koKR>• 낙스라마스의 우두머리들을 처치하고 보상을 획득하세요.</koKR>
-			<plPL>• Pokonaj bossów w Naxxramas, aby zdobyć nagrody.</plPL>
-			<ptBR>• Derrote os chefes de Naxxramas para receber as recompensas.</ptBR>
 			<ruRU>• Чтобы получить награду, победите боссов Наксрамаса.</ruRU>
-			<thTH>• ปราบบอสต่างๆ ใน Naxxramas เพื่อรับรางวัลของคุณ</thTH>
-			<zhCN>• 击败“纳克萨玛斯”中的所有首领，赢得你的奖励。</zhCN>
 			<zhTW>• 擊敗納克薩瑪斯的首領，贏取你的獎勵。</zhTW>
+			<zhCN>• 击败“纳克萨玛斯”中的所有首领，赢得你的奖励。</zhCN>
+			<itIT>• Sconfiggi i boss di Naxxramas per ottenere ricompense.</itIT>
+			<ptBR>• Derrote os chefes de Naxxramas para receber as recompensas.</ptBR>
+			<plPL>• Pokonaj bossów w Naxxramas, aby zdobyć nagrody.</plPL>
+			<jaJP>・ナクスラーマスのボス達を倒して報酬を獲得しよう。</jaJP>
+			<thTH>• ปราบบอสต่างๆ ใน Naxxramas เพื่อรับรางวัลของคุณ</thTH>
 		</Field>
 		<Field column="STORE_PREORDER_DESC" />
 		<Field column="STORE_PREVIEW_REWARDS_TEXT" loc_ID="20798">
-			<deDE>Besiegen Sie die tödlichen Bosse von Naxxramas, um diese und weitere Karten zu erhalten!</deDE>
 			<enUS>Earn these cards and more by defeating the deadly bosses of Naxxramas!</enUS>
+			<frFR>Obtenez ces cartes et bien d’autres en battant les boss de Naxxramas !</frFR>
+			<deDE>Besiegen Sie die tödlichen Bosse von Naxxramas, um diese und weitere Karten zu erhalten!</deDE>
+			<koKR>낙스라마스의 우두머리들을 처치하면 이 카드들은 물론 더 많은 카드들을 얻을 수 있습니다!</koKR>
 			<esES>¡Consigue estas y otras cartas tras derrotar a los mortíferos jefes de Naxxramas!</esES>
 			<esMX>¡Derrota a los poderosos jefes de Naxxramas para obtener estas cartas y más!</esMX>
-			<frFR>Obtenez ces cartes et bien d’autres en battant les boss de Naxxramas !</frFR>
-			<itIT>Ottieni queste e altre carte sconfiggendo i letali boss di Naxxramas!</itIT>
-			<jaJP>ナクスラーマスのボスを倒すとこれらのカードその他を獲得できるぞ！</jaJP>
-			<koKR>낙스라마스의 우두머리들을 처치하면 이 카드들은 물론 더 많은 카드들을 얻을 수 있습니다!</koKR>
-			<plPL>Zdobądź te oraz inne karty pokonując morderczych bossów z Naxxramas!</plPL>
-			<ptBR>Ganhe estes e outros cards ao derrotar os chefes mortais de Naxxramas!</ptBR>
 			<ruRU>Получите эти карты, победив боссов Наксрамаса!</ruRU>
-			<thTH>รับการ์ดเหล่านี้และการ์ดอื่นๆ จากการปราบบอสสุดโหดใน Naxxramas!</thTH>
-			<zhCN>击败“纳克萨玛斯”的首领们，赢得这些卡牌！</zhCN>
 			<zhTW>擊敗納克薩瑪斯的首領來獲得這些卡牌！</zhTW>
+			<zhCN>击败“纳克萨玛斯”的首领们，赢得这些卡牌！</zhCN>
+			<itIT>Ottieni queste e altre carte sconfiggendo i letali boss di Naxxramas!</itIT>
+			<ptBR>Ganhe estes e outros cards ao derrotar os chefes mortais de Naxxramas!</ptBR>
+			<plPL>Zdobądź te oraz inne karty pokonując morderczych bossów z Naxxramas!</plPL>
+			<jaJP>ナクスラーマスのボスを倒すとこれらのカードその他を獲得できるぞ！</jaJP>
+			<thTH>รับการ์ดเหล่านี้และการ์ดอื่นๆ จากการปราบบอสสุดโหดใน Naxxramas!</thTH>
 		</Field>
 		<Field column="ADVENTURE_DEF_PREFAB">Assets/Game/GameObjects/AdventureDefs/AdventureDef_Naxxramas</Field>
 		<Field column="STORE_PREFAB">Assets/Game/GameObjects/StoreAdventureDefs/StoreAdventureDef_Naxxramas</Field>
 		<Field column="LEAVING_SOON">True</Field>
 		<Field column="LEAVING_SOON_TEXT" loc_ID="22349">
 			<enUS>Naxxramas will soon be unavailable for purchase. You can still craft and play the cards in most modes, though not in the upcoming Standard Format.</enUS>
+			<frFR>Naxxramas ne sera bientôt plus disponible à l’achat. Vous pourrez toujours créer et jouer les cartes de cette aventure dans la plupart des modes, mais pas dans le mode Standard à venir.</frFR>
 			<deDE>Naxxramas ist bald nicht mehr zum Kauf verfügbar. Sie können die Karten immer noch herstellen und in den meisten Modi verwenden, außer im kommenden Standardformat.</deDE>
+			<koKR>낙스라마스가 곧 상점에서 사라집니다. 상점에서 사라진 후에도 해당 세트의 카드를 제작하여 대부분의 방식에서 사용할 수 있지만, 정규전에서는 사용할 수 없습니다.</koKR>
 			<esES>La compra de Naxxramas pronto dejará de estar disponible. Aunque podrás seguir creando y jugando sus cartas en la mayoría de los modos de juego, no será así en el nuevo formato estándar.</esES>
 			<esMX>Dentro de poco, ya no podrás comprar Naxxramas en la tienda. Aún podrás crear y usar las cartas en la mayoría de los modos, pero no en el nuevo formato estándar.</esMX>
-			<frFR>Naxxramas ne sera bientôt plus disponible à l’achat. Vous pourrez toujours créer et jouer les cartes de cette aventure dans la plupart des modes, mais pas dans le mode Standard à venir.</frFR>
-			<itIT>Presto non sarà più possibile acquistare l'avventura di Naxxramas. Potrai ancora creare e utilizzare le sue carte nella maggior parte delle modalità, ma non nel nuovo formato Standard.</itIT>
-			<jaJP>ナクスラーマスの購入及び、カードの作成とプレイはスタンダード・フォーマットをもって終了します。</jaJP>
-			<koKR>낙스라마스가 곧 상점에서 사라집니다. 상점에서 사라진 후에도 해당 세트의 카드를 제작하여 대부분의 방식에서 사용할 수 있지만, 정규전에서는 사용할 수 없습니다.</koKR>
-			<plPL>Dodatek Naxxramas wkrótce przestanie być dostępny w sprzedaży. Wciąż możliwe będzie tworzenie tych kart i gra nimi w większości trybów, choć nie w nadchodzącym formacie Standardowym.</plPL>
-			<ptBR>Logo Naxxramas não estará mais à venda. Você ainda pode criar e jogar os cards em quase todos os modos, mas não no Formato Padrão.</ptBR>
 			<ruRU>Приключение «Наксрамас» скоро будет изъято из продажи, но вы сможете создавать карты из него и играть ими в любом формате, за исключением стандартного.</ruRU>
-			<thTH>Naxxramas จะเลิกวางจำหน่ายในเร็ว ๆ นี้ คุณยังคงสามารถสร้างและใช้การ์ดในโหมดส่วนใหญ่ได้ ยกเว้นเกมในกฎมาตรฐานที่กำลังจะมาถึง</thTH>
-			<zhCN>“纳克萨玛斯的诅咒”即将无法购买。之后你还是可以制作该系列卡牌，且适用于绝大多数模式，但在即将启用的标准模式中无法使用。</zhCN>
 			<zhTW>《納克薩瑪斯》即將無法購買。之後你還是可以合成這些卡牌，並在大多數的模式中使用，但不包括即將啟用的標準規則。</zhTW>
+			<zhCN>“纳克萨玛斯的诅咒”即将无法购买。之后你还是可以制作该系列卡牌，且适用于绝大多数模式，但在即将启用的标准模式中无法使用。</zhCN>
+			<itIT>Presto non sarà più possibile acquistare l'avventura di Naxxramas. Potrai ancora creare e utilizzare le sue carte nella maggior parte delle modalità, ma non nel nuovo formato Standard.</itIT>
+			<ptBR>Logo Naxxramas não estará mais à venda. Você ainda pode criar e jogar os cards em quase todos os modos, mas não no Formato Padrão.</ptBR>
+			<plPL>Dodatek Naxxramas wkrótce przestanie być dostępny w sprzedaży. Wciąż możliwe będzie tworzenie tych kart i gra nimi w większości trybów, choć nie w nadchodzącym formacie Standardowym.</plPL>
+			<jaJP>ナクスラーマスの購入及び、カードの作成とプレイはスタンダード・フォーマットをもって終了します。</jaJP>
+			<thTH>Naxxramas จะเลิกวางจำหน่ายในเร็วๆ นี้ คุณยังคงสามารถสร้างและใช้การ์ดในโหมดส่วนใหญ่ได้ ยกเว้นเกมในกฎมาตรฐานที่กำลังจะมาถึง</thTH>
 		</Field>
+		<Field column="GAME_MODE_ICON">Assets/Game/Textures/AdventureChooser/SetIcons/SetIcon_NAX</Field>
 	</Record>
 	<Record>
 		<Field column="ID">4</Field>
 		<Field column="NOTE_DESC">BRM</Field>
 		<Field column="NAME" loc_ID="20799">
-			<deDE>Der Schwarzfels</deDE>
 			<enUS>Blackrock Mountain</enUS>
+			<frFR>Mont Rochenoire</frFR>
+			<deDE>Der Schwarzfels</deDE>
+			<koKR>검은바위 산</koKR>
 			<esES>Montaña Roca Negra</esES>
 			<esMX>Montaña Roca Negra</esMX>
-			<frFR>Mont Rochenoire</frFR>
-			<itIT>Massiccio Roccianera</itIT>
-			<jaJP>ブラックロック・マウンテン</jaJP>
-			<koKR>검은바위 산</koKR>
-			<plPL>Czarna Góra</plPL>
-			<ptBR>Montanha Rocha Negra</ptBR>
 			<ruRU>Черная гора</ruRU>
-			<thTH>Blackrock Mountain</thTH>
-			<zhCN>黑石山</zhCN>
 			<zhTW>勇闖黑石山</zhTW>
+			<zhCN>黑石山</zhCN>
+			<itIT>Massiccio Roccianera</itIT>
+			<ptBR>Montanha Rocha Negra</ptBR>
+			<plPL>Czarna Góra</plPL>
+			<jaJP>ブラックロック・マウンテン</jaJP>
+			<thTH>Blackrock Mountain</thTH>
 		</Field>
 		<Field column="SORT_ORDER">1</Field>
 		<Field column="STORE_BUY_BUTTON_LABEL" loc_ID="21869">
-			<deDE>Der Schwarzfels</deDE>
 			<enUS>Blackrock</enUS>
+			<frFR>Rochenoire</frFR>
+			<deDE>Der Schwarzfels</deDE>
+			<koKR>검은바위</koKR>
 			<esES>Roca Negra</esES>
 			<esMX>Roca Negra</esMX>
-			<frFR>Rochenoire</frFR>
-			<itIT>Roccianera</itIT>
-			<jaJP>ブラックロック</jaJP>
-			<koKR>검은바위</koKR>
-			<plPL>Czarna Góra</plPL>
-			<ptBR>Rocha Negra</ptBR>
 			<ruRU>Черная гора</ruRU>
-			<thTH>Blackrock</thTH>
-			<zhCN>黑石山</zhCN>
 			<zhTW>黑石山</zhTW>
+			<zhCN>黑石山</zhCN>
+			<itIT>Roccianera</itIT>
+			<ptBR>Rocha Negra</ptBR>
+			<plPL>Czarna Góra</plPL>
+			<jaJP>ブラックロック</jaJP>
+			<thTH>แบล็คร็อค</thTH>
 		</Field>
 		<Field column="STORE_BUY_WINGS_1_HEADLINE" loc_ID="20804">
-			<deDE>Der Schwarzfels (letzter Flügel):</deDE>
 			<enUS>Blackrock Mountain (Unlock the final wing)</enUS>
+			<frFR>Mont Rochenoire (débloquez la dernière aile)</frFR>
+			<deDE>Der Schwarzfels (letzter Flügel):</deDE>
+			<koKR>검은바위 산 (마지막 지구 잠금 해제)</koKR>
 			<esES>Montaña Roca Negra (desbloquea la última ala)</esES>
 			<esMX>Montaña Roca Negra (Desbloquea el ala final)</esMX>
-			<frFR>Mont Rochenoire (débloquez la dernière aile)</frFR>
-			<itIT>Massiccio Roccianera (sblocca l'ultima ala)</itIT>
-			<jaJP>ブラックロック・マウンテン（最終区画をアンロック）</jaJP>
-			<koKR>검은바위 산 (마지막 지구 잠금 해제)</koKR>
-			<plPL>Czarna Góra (odblokuj ostatnie skrzydło)</plPL>
-			<ptBR>Montanha Rocha Negra (Desbloquear a ala final)</ptBR>
 			<ruRU>«Черная гора» (последнее крыло)</ruRU>
-			<thTH>Blackrock Mountain (ปลดล็อควิงสุดท้าย)</thTH>
-			<zhCN>黑石山（解锁最后一个区）</zhCN>
 			<zhTW>勇闖黑石山(解鎖最後一個區域)</zhTW>
+			<zhCN>黑石山（解锁最后一个区）</zhCN>
+			<itIT>Massiccio Roccianera (sblocca l'ultima ala)</itIT>
+			<ptBR>Montanha Rocha Negra (Desbloquear a ala final)</ptBR>
+			<plPL>Czarna Góra (odblokuj ostatnie skrzydło)</plPL>
+			<jaJP>ブラックロック・マウンテン（最終区画をアンロック）</jaJP>
+			<thTH>Blackrock Mountain (ปลดล็อควิงสุดท้าย)</thTH>
 		</Field>
 		<Field column="STORE_BUY_WINGS_2_HEADLINE" loc_ID="20803">
-			<deDE>Der Schwarzfels (2 verbleibende Flügel):</deDE>
 			<enUS>Blackrock Mountain (Unlock 2 remaining wings)</enUS>
+			<frFR>Mont Rochenoire (débloquez les 2 dernières ailes)</frFR>
+			<deDE>Der Schwarzfels (2 verbleibende Flügel):</deDE>
+			<koKR>검은바위 산 (나머지 2개 지구 잠금 해제)</koKR>
 			<esES>Montaña Roca Negra (desbloquea las 2 alas restantes)</esES>
 			<esMX>Montaña Roca Negra (Desbloquea las 2 alas restantes)</esMX>
-			<frFR>Mont Rochenoire (débloquez les 2 dernières ailes)</frFR>
-			<itIT>Massiccio Roccianera (sblocca le ultime 2 ali)</itIT>
-			<jaJP>ブラックロック・マウンテン（残り2区画をアンロック）</jaJP>
-			<koKR>검은바위 산 (나머지 2개 지구 잠금 해제)</koKR>
-			<plPL>Czarna Góra (odblokuj 2 pozostałe skrzydła)</plPL>
-			<ptBR>Montanha Rocha Negra (Desbloquear 2 alas restantes)</ptBR>
 			<ruRU>«Черная гора» (2 оставшихся крыла)</ruRU>
-			<thTH>Blackrock Mountain (ปลดล็อคอีก 2 วิงที่เหลือ)</thTH>
-			<zhCN>黑石山（解锁后两个区）</zhCN>
 			<zhTW>勇闖黑石山(解鎖剩餘的2個區域)</zhTW>
+			<zhCN>黑石山（解锁后两个区）</zhCN>
+			<itIT>Massiccio Roccianera (sblocca le ultime 2 ali)</itIT>
+			<ptBR>Montanha Rocha Negra (Desbloquear 2 alas restantes)</ptBR>
+			<plPL>Czarna Góra (odblokuj 2 pozostałe skrzydła)</plPL>
+			<jaJP>ブラックロック・マウンテン（残り2区画をアンロック）</jaJP>
+			<thTH>Blackrock Mountain (ปลดล็อคอีก 2 วิงที่เหลือ)</thTH>
 		</Field>
 		<Field column="STORE_BUY_WINGS_3_HEADLINE" loc_ID="20802">
-			<deDE>Der Schwarzfels (3 verbleibende Flügel):</deDE>
 			<enUS>Blackrock Mountain (Unlock 3 remaining wings)</enUS>
+			<frFR>Mont Rochenoire (débloquez les 3 dernières ailes)</frFR>
+			<deDE>Der Schwarzfels (3 verbleibende Flügel):</deDE>
+			<koKR>검은바위 산 (나머지 3개 지구 잠금 해제)</koKR>
 			<esES>Montaña Roca Negra (desbloquea las 3 alas restantes)</esES>
 			<esMX>Montaña Roca Negra (Desbloquea las 3 alas restantes)</esMX>
-			<frFR>Mont Rochenoire (débloquez les 3 dernières ailes)</frFR>
-			<itIT>Massiccio Roccianera (sblocca le ultime 3 ali)</itIT>
-			<jaJP>ブラックロック・マウンテン（残り3区画をアンロック）</jaJP>
-			<koKR>검은바위 산 (나머지 3개 지구 잠금 해제)</koKR>
-			<plPL>Czarna Góra (odblokuj 3 pozostałe skrzydła)</plPL>
-			<ptBR>Montanha Rocha Negra (Desbloquear 3 alas restantes)</ptBR>
 			<ruRU>«Черная гора» (3 оставшихся крыла)</ruRU>
-			<thTH>Blackrock Mountain (ปลดล็อคอีก 3 วิงที่เหลือ)</thTH>
-			<zhCN>黑石山（解锁后三个区）</zhCN>
 			<zhTW>勇闖黑石山(解鎖剩餘的3個區域)</zhTW>
+			<zhCN>黑石山（解锁后三个区）</zhCN>
+			<itIT>Massiccio Roccianera (sblocca le ultime 3 ali)</itIT>
+			<ptBR>Montanha Rocha Negra (Desbloquear 3 alas restantes)</ptBR>
+			<plPL>Czarna Góra (odblokuj 3 pozostałe skrzydła)</plPL>
+			<jaJP>ブラックロック・マウンテン（残り3区画をアンロック）</jaJP>
+			<thTH>Blackrock Mountain (ปลดล็อคอีก 3 วิงที่เหลือ)</thTH>
 		</Field>
 		<Field column="STORE_BUY_WINGS_4_HEADLINE" loc_ID="20801">
-			<deDE>Der Schwarzfels (4 verbleibende Flügel):</deDE>
 			<enUS>Blackrock Mountain (Unlock 4 remaining wings)</enUS>
+			<frFR>Mont Rochenoire (débloquez les 4 dernières ailes)</frFR>
+			<deDE>Der Schwarzfels (4 verbleibende Flügel):</deDE>
+			<koKR>검은바위 산 (나머지 4개 지구 잠금 해제)</koKR>
 			<esES>Montaña Roca Negra (desbloquea las 4 alas restantes)</esES>
 			<esMX>Montaña Roca Negra (Desbloquea las 4 alas restantes)</esMX>
-			<frFR>Mont Rochenoire (débloquez les 4 dernières ailes)</frFR>
-			<itIT>Massiccio Roccianera (sblocca le ultime 4 ali)</itIT>
-			<jaJP>ブラックロック・マウンテン（残り4区画をアンロック）</jaJP>
-			<koKR>검은바위 산 (나머지 4개 지구 잠금 해제)</koKR>
-			<plPL>Czarna Góra (odblokuj 4 pozostałe skrzydła)</plPL>
-			<ptBR>Montanha Rocha Negra (Desbloquear 4 alas restantes)</ptBR>
 			<ruRU>«Черная гора» (4 оставшихся крыла)</ruRU>
-			<thTH>Blackrock Mountain (ปลดล็อคอีก 4 วิงที่เหลือ)</thTH>
-			<zhCN>黑石山（解锁后四个区）</zhCN>
 			<zhTW>勇闖黑石山(解鎖剩餘的4個區域)</zhTW>
+			<zhCN>黑石山（解锁后四个区）</zhCN>
+			<itIT>Massiccio Roccianera (sblocca le ultime 4 ali)</itIT>
+			<ptBR>Montanha Rocha Negra (Desbloquear 4 alas restantes)</ptBR>
+			<plPL>Czarna Góra (odblokuj 4 pozostałe skrzydła)</plPL>
+			<jaJP>ブラックロック・マウンテン（残り4区画をアンロック）</jaJP>
+			<thTH>Blackrock Mountain (ปลดล็อคอีก 4 วิงที่เหลือ)</thTH>
 		</Field>
 		<Field column="STORE_BUY_WINGS_5_HEADLINE" loc_ID="20800">
-			<deDE>Der Schwarzfels (alle 5 Flügel):</deDE>
 			<enUS>Blackrock Mountain (Unlock all 5 wings)</enUS>
+			<frFR>Mont Rochenoire (débloquez les 5 ailes)</frFR>
+			<deDE>Der Schwarzfels (alle 5 Flügel):</deDE>
+			<koKR>검은바위 산 (5개 지구 모두 잠금 해제)</koKR>
 			<esES>Montaña Roca Negra (desbloquea las 5 alas)</esES>
 			<esMX>Montaña Roca Negra (Desbloquea las 5 alas)</esMX>
-			<frFR>Mont Rochenoire (débloquez les 5 ailes)</frFR>
-			<itIT>Massiccio Roccianera (sblocca tutte le 5 ali)</itIT>
-			<jaJP>ブラックロック・マウンテン（全5区画をアンロック）</jaJP>
-			<koKR>검은바위 산 (5개 지구 모두 잠금 해제)</koKR>
-			<plPL>Czarna Góra (odblokuj wszystkie 5 skrzydeł)</plPL>
-			<ptBR>Montanha Rocha Negra (Desbloquear as 5 alas)</ptBR>
 			<ruRU>«Черная гора» (все 5 крыльев)</ruRU>
-			<thTH>Blackrock Mountain (ปลดล็อคทั้ง 5 วิง)</thTH>
-			<zhCN>黑石山（解锁全部五个区）</zhCN>
 			<zhTW>勇闖黑石山(解鎖全部5個區域)</zhTW>
+			<zhCN>黑石山（解锁全部五个区）</zhCN>
+			<itIT>Massiccio Roccianera (sblocca tutte le 5 ali)</itIT>
+			<ptBR>Montanha Rocha Negra (Desbloquear as 5 alas)</ptBR>
+			<plPL>Czarna Góra (odblokuj wszystkie 5 skrzydeł)</plPL>
+			<jaJP>ブラックロック・マウンテン（全5区画をアンロック）</jaJP>
+			<thTH>Blackrock Mountain (ปลดล็อคทั้ง 5 วิง)</thTH>
 		</Field>
 		<Field column="STORE_OWNED_HEADLINE" loc_ID="20810">
-			<deDE>Der Schwarzfels (erworben)</deDE>
 			<enUS>Blackrock Mountain (Purchased)</enUS>
+			<frFR>Mont Rochenoire (déjà acheté)</frFR>
+			<deDE>Der Schwarzfels (erworben)</deDE>
+			<koKR>검은바위 산 (구매 완료)</koKR>
 			<esES>Montaña Roca Negra (adquirida)</esES>
 			<esMX>Montaña Roca Negra (Comprada)</esMX>
-			<frFR>Mont Rochenoire (déjà acheté)</frFR>
-			<itIT>Massiccio Roccianera (acquistata)</itIT>
-			<jaJP>ブラックロック・マウンテン（購入済）</jaJP>
-			<koKR>검은바위 산 (구매 완료)</koKR>
-			<plPL>Czarna Góra (Już zakupiono)</plPL>
-			<ptBR>Montanha Rocha Negra (Comprada)</ptBR>
 			<ruRU>«Черная гора» (приобретено)</ruRU>
-			<thTH>Blackrock Mountain (ซื้อแล้ว)</thTH>
-			<zhCN>黑石山（已购买）</zhCN>
 			<zhTW>勇闖黑石山(已購買)</zhTW>
+			<zhCN>黑石山（已购买）</zhCN>
+			<itIT>Massiccio Roccianera (acquistata)</itIT>
+			<ptBR>Montanha Rocha Negra (Comprada)</ptBR>
+			<plPL>Czarna Góra (Już zakupiono)</plPL>
+			<jaJP>ブラックロック・マウンテン（購入済）</jaJP>
+			<thTH>Blackrock Mountain (ซื้อแล้ว)</thTH>
 		</Field>
 		<Field column="STORE_PREORDER_HEADLINE" loc_ID="20812">
-			<deDE>Der Schwarzfels (Vorverkauf)</deDE>
 			<enUS>Blackrock Mountain (Pre-order)</enUS>
+			<frFR>Mont Rochenoire (précommande)</frFR>
+			<deDE>Der Schwarzfels (Vorverkauf)</deDE>
+			<koKR>검은바위 산 (사전 구매)</koKR>
 			<esES>Montaña Roca Negra (compra anticipada)</esES>
 			<esMX>Montaña Roca Negra (Reservada)</esMX>
-			<frFR>Mont Rochenoire (précommande)</frFR>
-			<itIT>Massiccio Roccianera (preacquisto)</itIT>
-			<jaJP>ブラックロック・マウンテン（先行予約）</jaJP>
-			<koKR>검은바위 산 (사전 구매)</koKR>
-			<plPL>Czarna Góra (Przedsprzedaż)</plPL>
-			<ptBR>Montanha Rocha Negra (Pré-venda)</ptBR>
 			<ruRU>«Черная гора» (предзаказ)</ruRU>
-			<thTH>Blackrock Mountain (สั่งซื้อล่วงหน้า)</thTH>
-			<zhCN>黑石山（预购）</zhCN>
 			<zhTW>勇闖黑石山(預購)</zhTW>
+			<zhCN>黑石山（预购）</zhCN>
+			<itIT>Massiccio Roccianera (preacquisto)</itIT>
+			<ptBR>Montanha Rocha Negra (Pré-venda)</ptBR>
+			<plPL>Czarna Góra (Przedsprzedaż)</plPL>
+			<jaJP>ブラックロック・マウンテン（先行予約）</jaJP>
+			<thTH>Blackrock Mountain (สั่งซื้อล่วงหน้า)</thTH>
 		</Field>
 		<Field column="STORE_BUY_WINGS_1_DESC" loc_ID="20809">
-			<deDE>• Schließen Sie Ihr Abenteuer ab! Schalten Sie den letzten Flügel frei und erkämpfen Sie sich bis zu 6 neue Karten, die nur im Schwarzfels zu finden sind.</deDE>
 			<enUS>• Finish your adventure!  Unlock the last wing and earn up to 6 new cards that can only be found in Blackrock Mountain.</enUS>
+			<frFR>• Terminez votre aventure ! Débloquez la dernière aile et obtenez jusqu’à 6 nouvelles cartes pouvant être gagnées uniquement au mont Rochenoire.</frFR>
+			<deDE>• Schließen Sie Ihr Abenteuer ab! Schalten Sie den letzten Flügel frei und erkämpfen Sie sich bis zu 6 neue Karten, die nur im Schwarzfels zu finden sind.</deDE>
+			<koKR>• 모험을 마무리하세요! 마지막 지구를 잠금 해제하여 검은바위 산에서만 얻을 수 있는 6장의 새로운 카드를 획득하세요.</koKR>
 			<esES>• ¡Termina tu aventura! Desbloquea la última ala y consigue hasta 6 cartas nuevas que solo se pueden obtener en la Montaña Roca Negra.</esES>
 			<esMX>• ¡Termina tu aventura! Desbloquea el ala final y obtén hasta 6 cartas nuevas que solo pueden encontrarse en Montaña Roca Negra.</esMX>
-			<frFR>• Terminez votre aventure ! Débloquez la dernière aile et obtenez jusqu’à 6 nouvelles cartes pouvant être gagnées uniquement au mont Rochenoire.</frFR>
-			<itIT>• Completa l'avventura! Sblocca l'ultima ala e ottieni fino a 6 nuove carte reperibili solo nel Massiccio Roccianera.</itIT>
-			<jaJP>・冒険を完了しよう！最後の区画を開放し、ブラックロック・マウンテンでのみ手に入る最大6枚の新カードを獲得しよう。</jaJP>
-			<koKR>• 모험을 마무리하세요! 마지막 지구를 잠금 해제하여 검은바위 산에서만 얻을 수 있는 6장의 새로운 카드를 획득하세요.</koKR>
-			<plPL>• Dokończ przygodę! Odblokuj ostatnie skrzydło i zdobądź nawet 6 nowych kart, które można znaleźć jedynie w Czarnej Górze.</plPL>
-			<ptBR>• Termine sua aventura! Desbloqueie a última ala e ganhe até 6 cards novos que só podem ser encontrados em Montanha Rocha Negra.</ptBR>
 			<ruRU>• Завершите приключение! Откройте доступ к последнему крылу и получите до 6 новых карт, которые можно найти только в Черной горе.</ruRU>
-			<thTH>• สู่ปลายทางของการผจญภัย! ปลดล็อควิงสุดท้าย และรับการ์ดใหม่สูงสุด 6_ใบที่หาได้จากใน Blackrock Mountain เท่านั้น</thTH>
-			<zhCN>• 完成你的冒险之旅！解锁最后一个区，赢得只有在黑石山中才能获取的至多6张全新卡牌。</zhCN>
 			<zhTW>• 完成你的冒險！解鎖最後的區域並獲得最多6張《黑石山》限定的新卡牌。</zhTW>
+			<zhCN>• 完成你的冒险之旅！解锁最后一个区，赢得只有在黑石山中才能获取的至多6张全新卡牌。</zhCN>
+			<itIT>• Completa l'avventura! Sblocca l'ultima ala e ottieni fino a 6 nuove carte reperibili solo nel Massiccio Roccianera.</itIT>
+			<ptBR>• Termine sua aventura! Desbloqueie a última ala e ganhe até 6 cards novos que só podem ser encontrados em Montanha Rocha Negra.</ptBR>
+			<plPL>• Dokończ przygodę! Odblokuj ostatnie skrzydło i zdobądź nawet 6 nowych kart, które można znaleźć jedynie w Czarnej Górze.</plPL>
+			<jaJP>・冒険を完了しよう！最後の区画を開放し、ブラックロック・マウンテンでのみ手に入る最大6枚の新カードを獲得しよう。</jaJP>
+			<thTH>• สู่ปลายทางของการผจญภัย! ปลดล็อควิงสุดท้าย และรับการ์ดใหม่สูงสุด 6_ใบที่หาได้จากใน Blackrock Mountain เท่านั้น</thTH>
 		</Field>
 		<Field column="STORE_BUY_WINGS_2_DESC" loc_ID="20808">
-			<deDE>• Stürzen Sie sich wieder ins Abenteuer! Schalten Sie die letzten zwei Flügel frei und erkämpfen Sie sich bis zu 13 neue Karten, die nur im Schwarzfels zu finden sind.</deDE>
 			<enUS>• Continue your adventure! Unlock the last two wings and earn up to 13 new cards that can only be found in Blackrock Mountain.</enUS>
+			<frFR>• Continuez votre aventure ! Débloquez les deux dernières ailes et obtenez jusqu’à 13 nouvelles cartes pouvant être gagnées uniquement au mont Rochenoire.</frFR>
+			<deDE>• Stürzen Sie sich wieder ins Abenteuer! Schalten Sie die letzten zwei Flügel frei und erkämpfen Sie sich bis zu 13 neue Karten, die nur im Schwarzfels zu finden sind.</deDE>
+			<koKR>• 모험을 계속하세요! 나머지 두 지구를 잠금 해제하여 검은바위 산에서만 얻을 수 있는 13장의 새로운 카드를 획득하세요.</koKR>
 			<esES>• ¡Prosigue tu aventura! Desbloquea las dos últimas alas y consigue hasta 13 cartas nuevas que solo se pueden obtener en la Montaña Roca Negra.</esES>
 			<esMX>• ¡Continúa tu aventura! Desbloquea las dos últimas alas y obtén hasta 13 cartas nuevas que solo pueden encontrarse en Montaña Roca Negra.</esMX>
-			<frFR>• Continuez votre aventure ! Débloquez les deux dernières ailes et obtenez jusqu’à 13 nouvelles cartes pouvant être gagnées uniquement au mont Rochenoire.</frFR>
-			<itIT>• Continua l'avventura! Sblocca le ultime due ali e ottieni fino a 13 nuove carte reperibili solo nel Massiccio Roccianera.</itIT>
-			<jaJP>・冒険を続けよう！残る2つの区画を開放し、ブラックロック・マウンテンでのみ手に入る最大13枚の新カードを獲得しよう。</jaJP>
-			<koKR>• 모험을 계속하세요! 나머지 두 지구를 잠금 해제하여 검은바위 산에서만 얻을 수 있는 13장의 새로운 카드를 획득하세요.</koKR>
-			<plPL>• Kontynuuj przygodę! Odblokuj dwa pozostałe skrzydła i zdobądź nawet 13 nowych kart, które można znaleźć jedynie w Czarnej Górze.</plPL>
-			<ptBR>• Continue sua aventura! Desbloqueie as duas últimas alas e ganhe até 13 cards novos que só podem ser encontrados em Montanha Rocha Negra.</ptBR>
 			<ruRU>• Приключение продолжается! Откройте доступ к оставшимся двум крыльям и получите до 13 новых карт, которые можно найти только в Черной горе!</ruRU>
-			<thTH>• ผจญภัยต่อ! ปลดล็อคสองวิงสุดท้าย และรับการ์ดใหม่สูงสุด 13_ใบที่หาได้จากใน  Blackrock Mountain เท่านั้น</thTH>
-			<zhCN>• 继续你的冒险之旅！解锁后两个区，赢得只有在黑石山中才能获取的至多13张全新卡牌。</zhCN>
 			<zhTW>• 繼續你的冒險！解鎖剩餘的兩區並獲得最多13張《黑石山》限定的新卡牌。</zhTW>
+			<zhCN>• 继续你的冒险之旅！解锁后两个区，赢得只有在黑石山中才能获取的至多13张全新卡牌。</zhCN>
+			<itIT>• Continua l'avventura! Sblocca le ultime due ali e ottieni fino a 13 nuove carte reperibili solo nel Massiccio Roccianera.</itIT>
+			<ptBR>• Continue sua aventura! Desbloqueie as duas últimas alas e ganhe até 13 cards novos que só podem ser encontrados em Montanha Rocha Negra.</ptBR>
+			<plPL>• Kontynuuj przygodę! Odblokuj dwa pozostałe skrzydła i zdobądź nawet 13 nowych kart, które można znaleźć jedynie w Czarnej Górze.</plPL>
+			<jaJP>・冒険を続けよう！残る2つの区画を開放し、ブラックロック・マウンテンでのみ手に入る最大13枚の新カードを獲得しよう。</jaJP>
+			<thTH>• ผจญภัยต่อ! ปลดล็อคสองวิงสุดท้าย และรับการ์ดใหม่สูงสุด 13_ใบที่หาได้จากใน Blackrock Mountain เท่านั้น</thTH>
 		</Field>
 		<Field column="STORE_BUY_WINGS_3_DESC" loc_ID="20807">
-			<deDE>• Stürzen Sie sich wieder ins Abenteuer! Schalten Sie die letzten drei Flügel frei und erkämpfen Sie sich bis zu 19 neue Karten, die nur im Schwarzfels zu finden sind.</deDE>
 			<enUS>• Continue your adventure! Unlock the last three wings and earn up to 19 new cards that can only be found in Blackrock Mountain.</enUS>
+			<frFR>• Continuez votre aventure ! Débloquez les trois dernières ailes et obtenez jusqu’à 19 nouvelles cartes pouvant être gagnées uniquement au mont Rochenoire.</frFR>
+			<deDE>• Stürzen Sie sich wieder ins Abenteuer! Schalten Sie die letzten drei Flügel frei und erkämpfen Sie sich bis zu 19 neue Karten, die nur im Schwarzfels zu finden sind.</deDE>
+			<koKR>• 모험을 계속하세요! 나머지 세 지구를 잠금 해제하여 검은바위 산에서만 얻을 수 있는 19장의 새로운 카드를 획득하세요.</koKR>
 			<esES>• ¡Prosigue tu aventura! Desbloquea las tres últimas alas y consigue hasta 19 cartas nuevas que solo se pueden obtener en la Montaña Roca Negra.</esES>
 			<esMX>• ¡Continúa tu aventura! Desbloquea las tres últimas alas y obtén hasta 19 cartas nuevas que solo pueden encontrarse en Montaña Roca Negra.</esMX>
-			<frFR>• Continuez votre aventure ! Débloquez les trois dernières ailes et obtenez jusqu’à 19 nouvelles cartes pouvant être gagnées uniquement au mont Rochenoire.</frFR>
-			<itIT>• Continua l'avventura! Sblocca le ultime tre ali e ottieni fino a 19 nuove carte reperibili solo nel Massiccio Roccianera.</itIT>
-			<jaJP>・冒険を続けよう！残る3つの区画を開放し、ブラックロック・マウンテンでのみ手に入る最大19枚の新カードを獲得しよう。</jaJP>
-			<koKR>• 모험을 계속하세요! 나머지 세 지구를 잠금 해제하여 검은바위 산에서만 얻을 수 있는 19장의 새로운 카드를 획득하세요.</koKR>
-			<plPL>• Kontynuuj przygodę! Odblokuj trzy pozostałe skrzydła i zdobądź nawet 19 nowych kart, które można znaleźć jedynie w Czarnej Górze.</plPL>
-			<ptBR>• Continue sua aventura! Desbloqueie as três últimas alas e ganhe até 19 cards novos que só podem ser encontrados em Montanha Rocha Negra.</ptBR>
 			<ruRU>• Приключение продолжается! Откройте доступ к оставшимся трем крыльям и получите до 19 новых карт, которые можно найти только в Черной горе!</ruRU>
-			<thTH>• ผจญภัยต่อ! ปลดล็อคสามวิงสุดท้าย และรับการ์ดใหม่สูงสุด 19_ใบที่หาได้จากใน  Blackrock Mountain เท่านั้น</thTH>
-			<zhCN>• 继续你的冒险之旅！解锁后三个区，赢得只有在黑石山中才能获取的至多19张全新卡牌。</zhCN>
 			<zhTW>• 繼續你的冒險！解鎖剩餘的三區並獲得最多19張《黑石山》限定的新卡牌。</zhTW>
+			<zhCN>• 继续你的冒险之旅！解锁后三个区，赢得只有在黑石山中才能获取的至多19张全新卡牌。</zhCN>
+			<itIT>• Continua l'avventura! Sblocca le ultime tre ali e ottieni fino a 19 nuove carte reperibili solo nel Massiccio Roccianera.</itIT>
+			<ptBR>• Continue sua aventura! Desbloqueie as três últimas alas e ganhe até 19 cards novos que só podem ser encontrados em Montanha Rocha Negra.</ptBR>
+			<plPL>• Kontynuuj przygodę! Odblokuj trzy pozostałe skrzydła i zdobądź nawet 19 nowych kart, które można znaleźć jedynie w Czarnej Górze.</plPL>
+			<jaJP>・冒険を続けよう！残る3つの区画を開放し、ブラックロック・マウンテンでのみ手に入る最大19枚の新カードを獲得しよう。</jaJP>
+			<thTH>• ผจญภัยต่อ! ปลดล็อคสามวิงสุดท้าย และรับการ์ดใหม่สูงสุด 19_ใบที่หาได้จากใน Blackrock Mountain เท่านั้น</thTH>
 		</Field>
 		<Field column="STORE_BUY_WINGS_4_DESC" loc_ID="20806">
-			<deDE>• Stürzen Sie sich wieder ins Abenteuer! Schalten Sie die letzten vier Flügel frei und erkämpfen Sie sich bis zu 25 neue Karten, die nur im Schwarzfels zu finden sind.</deDE>
 			<enUS>• Continue your adventure! Unlock the last four wings and earn up to 25 new cards that can only be found in Blackrock Mountain.</enUS>
+			<frFR>• Continuez votre aventure ! Débloquez les quatre dernières ailes et obtenez jusqu’à 25 nouvelles cartes pouvant être gagnées uniquement au mont Rochenoire.</frFR>
+			<deDE>• Stürzen Sie sich wieder ins Abenteuer! Schalten Sie die letzten vier Flügel frei und erkämpfen Sie sich bis zu 25 neue Karten, die nur im Schwarzfels zu finden sind.</deDE>
+			<koKR>• 모험을 계속하세요! 나머지 네 지구를 잠금 해제하여 검은바위 산에서만 얻을 수 있는 25장의 새로운 카드를 획득하세요.</koKR>
 			<esES>• ¡Prosigue tu aventura! Desbloquea las cuatro últimas alas y consigue hasta 25 cartas nuevas que solo se pueden obtener en la Montaña Roca Negra.</esES>
 			<esMX>• ¡Continúa tu aventura! Desbloquea las cuatro últimas alas y obtén hasta 25 cartas nuevas que solo pueden encontrarse en Montaña Roca Negra.</esMX>
-			<frFR>• Continuez votre aventure ! Débloquez les quatre dernières ailes et obtenez jusqu’à 25 nouvelles cartes pouvant être gagnées uniquement au mont Rochenoire.</frFR>
-			<itIT>• Continua l'avventura! Sblocca le ultime quattro ali e ottieni fino a 25 nuove carte reperibili solo nel Massiccio Roccianera.</itIT>
-			<jaJP>・冒険を続けよう！残る4つの区画を開放し、ブラックロック・マウンテンでのみ手に入る最大25枚の新カードを獲得しよう。</jaJP>
-			<koKR>• 모험을 계속하세요! 나머지 네 지구를 잠금 해제하여 검은바위 산에서만 얻을 수 있는 25장의 새로운 카드를 획득하세요.</koKR>
-			<plPL>• Kontynuuj przygodę! Odblokuj cztery pozostałe skrzydła i zdobądź nawet 25 nowych kart, które można znaleźć jedynie w Czarnej Górze.</plPL>
-			<ptBR>• Continue sua aventura! Desbloqueie as quatro últimas alas e ganhe até 25 cards novos que só podem ser encontrados em Montanha Rocha Negra.</ptBR>
 			<ruRU>• Приключение продолжается! Откройте доступ к оставшимся четырем крыльям и получите до 25 новых карт, которые можно найти только в Черной горе!</ruRU>
-			<thTH>• ผจญภัยต่อ! ปลดล็อคสี่วิงสุดท้าย และรับการ์ดใหม่สูงสุด 25_ใบที่หาได้จากใน Blackrock Mountain เท่านั้น</thTH>
-			<zhCN>• 继续你的冒险之旅！解锁后四个区，赢得只有在黑石山中才能获取的至多25张全新卡牌。</zhCN>
 			<zhTW>• 繼續你的冒險！解鎖剩餘的四區並獲得最多25張《黑石山》限定的新卡牌。</zhTW>
+			<zhCN>• 继续你的冒险之旅！解锁后四个区，赢得只有在黑石山中才能获取的至多25张全新卡牌。</zhCN>
+			<itIT>• Continua l'avventura! Sblocca le ultime quattro ali e ottieni fino a 25 nuove carte reperibili solo nel Massiccio Roccianera.</itIT>
+			<ptBR>• Continue sua aventura! Desbloqueie as quatro últimas alas e ganhe até 25 cards novos que só podem ser encontrados em Montanha Rocha Negra.</ptBR>
+			<plPL>• Kontynuuj przygodę! Odblokuj cztery pozostałe skrzydła i zdobądź nawet 25 nowych kart, które można znaleźć jedynie w Czarnej Górze.</plPL>
+			<jaJP>・冒険を続けよう！残る4つの区画を開放し、ブラックロック・マウンテンでのみ手に入る最大25枚の新カードを獲得しよう。</jaJP>
+			<thTH>• ผจญภัยต่อ! ปลดล็อคสี่วิงสุดท้าย และรับการ์ดใหม่สูงสุด 25_ใบที่หาได้จากใน Blackrock Mountain เท่านั้น</thTH>
 		</Field>
 		<Field column="STORE_BUY_WINGS_5_DESC" loc_ID="20805">
-			<deDE>• Stürzen Sie sich ins Abenteuer! Schalten Sie alle Flügel frei und erkämpfen Sie sich bis zu 31 neue Karten, die nur im Schwarzfels zu finden sind.</deDE>
 			<enUS>• Start your adventure! Unlock all the wings and earn up to 31 new cards that can only be found in Blackrock Mountain.</enUS>
+			<frFR>• Lancez-vous dans l’aventure ! Débloquez toutes les ailes et obtenez jusqu’à 31 nouvelles cartes pouvant être gagnées uniquement au mont Rochenoire.</frFR>
+			<deDE>• Stürzen Sie sich ins Abenteuer! Schalten Sie alle Flügel frei und erkämpfen Sie sich bis zu 31 neue Karten, die nur im Schwarzfels zu finden sind.</deDE>
+			<koKR>• 모험을 시작하세요! 모든 지구를 잠금 해제하여 검은바위 산에서만 얻을 수 있는 31장의 카드를 획득하세요.</koKR>
 			<esES>• ¡Empieza la aventura! Desbloquea todas las alas y consigue hasta 31 cartas nuevas que solo se pueden obtener en la Montaña Roca Negra.</esES>
 			<esMX>• ¡Comienza tu aventura! Desbloquea todas las alas y obtén hasta 31 cartas nuevas que solo pueden encontrarse en Montaña Roca Negra.</esMX>
-			<frFR>• Lancez-vous dans l’aventure ! Débloquez toutes les ailes et obtenez jusqu’à 31 nouvelles cartes pouvant être gagnées uniquement au mont Rochenoire.</frFR>
-			<itIT>• Inizia l'avventura! Sblocca tutte le ali e ottieni fino a 31 nuove carte reperibili solo nel Massiccio Roccianera.</itIT>
-			<jaJP>・冒険を始めよう！全ての区画を開放してブラックロック・マウンテンでのみ手に入る最大31枚の新カードを獲得しよう。</jaJP>
-			<koKR>• 모험을 시작하세요! 모든 지구를 잠금 해제하여 검은바위 산에서만 얻을 수 있는 31장의 카드를 획득하세요.</koKR>
-			<plPL>• Rozpocznij przygodę! Odblokuj wszystkie skrzydła i zdobądź nawet 31 nowych kart, które można znaleźć jedynie w Czarnej Górze.</plPL>
-			<ptBR>• Comece sua aventura! Desbloqueie todas as alas e ganhe até 31 cards novos que só podem ser encontrados em Montanha Rocha Negra.</ptBR>
 			<ruRU>• Отправьтесь в приключение! Откройте все крылья и получите до 31 новой карты, которые можно найти только в Черной горе.</ruRU>
-			<thTH>• เริ่มการผจญภัยของคุณ! ปลดล็อควิงทั้งหมด และรับการ์ดใหม่สูงสุด\n31_ใบที่หาได้จากใน Blackrock Mountain เท่านั้น</thTH>
-			<zhCN>• 闯入黑石山，开始冒险！解锁全部五个区，赢得只有在黑石山中才能获取的至多31张全新卡牌。</zhCN>
 			<zhTW>• 開始你的冒險！解鎖全部區域並獲得最多31張《黑石山》限定的新卡牌。</zhTW>
+			<zhCN>• 闯入黑石山，开始冒险！解锁全部五个区，赢得只有在黑石山中才能获取的至多31张全新卡牌。</zhCN>
+			<itIT>• Inizia l'avventura! Sblocca tutte le ali e ottieni fino a 31 nuove carte reperibili solo nel Massiccio Roccianera.</itIT>
+			<ptBR>• Comece sua aventura! Desbloqueie todas as alas e ganhe até 31 cards novos que só podem ser encontrados em Montanha Rocha Negra.</ptBR>
+			<plPL>• Rozpocznij przygodę! Odblokuj wszystkie skrzydła i zdobądź nawet 31 nowych kart, które można znaleźć jedynie w Czarnej Górze.</plPL>
+			<jaJP>・冒険を始めよう！全ての区画を開放してブラックロック・マウンテンでのみ手に入る最大31枚の新カードを獲得しよう。</jaJP>
+			<thTH>• เริ่มการผจญภัยของคุณ! ปลดล็อควิงทั้งหมด และรับการ์ดใหม่สูงสุด\n31_ใบที่หาได้จากใน Blackrock Mountain เท่านั้น</thTH>
 		</Field>
 		<Field column="STORE_OWNED_DESC" loc_ID="20811">
-			<deDE>• Besiegen Sie die Bosse des Schwarzfels, um Belohnungen zu erhalten.</deDE>
 			<enUS>• Defeat the bosses in Blackrock Mountain to earn your rewards.</enUS>
+			<frFR>• Battez les boss du mont Rochenoire pour obtenir vos récompenses.</frFR>
+			<deDE>• Besiegen Sie die Bosse des Schwarzfels, um Belohnungen zu erhalten.</deDE>
+			<koKR>• 검은바위 산의 우두머리들을 처치하고 보상을 획득하세요.</koKR>
 			<esES>• Derrota a los jefes de la Montaña Roca Negra para obtener recompensas.</esES>
 			<esMX>• Derrota a los jefes de Montaña Roca Negra para obtener tus recompensas.</esMX>
-			<frFR>• Battez les boss du mont Rochenoire pour obtenir vos récompenses.</frFR>
-			<itIT>• Sconfiggi i boss del Massiccio Roccianera per ottenere ricompense.</itIT>
-			<jaJP>・ブラックロック・マウンテンのボス達を倒して報酬を獲得しよう。</jaJP>
-			<koKR>• 검은바위 산의 우두머리들을 처치하고 보상을 획득하세요.</koKR>
-			<plPL>• Pokonaj bossów w Czarnej Górze, aby zdobyć nagrody.</plPL>
-			<ptBR>• Derrote os chefes da Montanha Rocha Negra para receber as recompensas.</ptBR>
 			<ruRU>• Чтобы получить награду, победите боссов Черной Горы.</ruRU>
-			<thTH>• ปราบบอสต่างๆ ใน Blackrock Mountain เพื่อรับรางวัลของคุณ</thTH>
-			<zhCN>• 击败“黑石山”中的首领们，赢得丰厚奖励。</zhCN>
 			<zhTW>• 擊敗黑石山的首領，贏取你的獎勵。</zhTW>
+			<zhCN>• 击败“黑石山”中的首领们，赢得丰厚奖励。</zhCN>
+			<itIT>• Sconfiggi i boss del Massiccio Roccianera per ottenere ricompense.</itIT>
+			<ptBR>• Derrote os chefes da Montanha Rocha Negra para receber as recompensas.</ptBR>
+			<plPL>• Pokonaj bossów w Czarnej Górze, aby zdobyć nagrody.</plPL>
+			<jaJP>・ブラックロック・マウンテンのボス達を倒して報酬を獲得しよう。</jaJP>
+			<thTH>• ปราบบอสต่างๆ ใน Blackrock Mountain เพื่อรับรางวัลของคุณ</thTH>
 		</Field>
 		<Field column="STORE_PREORDER_DESC" loc_ID="20813">
-			<deDE>• Stellen Sie sich 17 Bossen\n• Verdienen Sie sich 31 Schwarzfels-Karten\n• Holen Sie sich den exklusiven Vorabkäufer-Kartenrücken\n• Das Abenteuer beginnt im April!</deDE>
 			<enUS>• Face off against 17 bosses\n• Earn 31 Blackrock Mountain cards\n• Get an exclusive pre-order cardback\n• The adventure begins in April!</enUS>
+			<frFR>• Affrontez 17 boss\n• Gagnez les 31 cartes du mont Rochenoire\n• Obtenez un dos de carte exclusif à la précommande\n• L’aventure commence en avril !</frFR>
+			<deDE>• Stellen Sie sich 17 Bossen\n• Verdienen Sie sich 31 Schwarzfels-Karten\n• Holen Sie sich den exklusiven Vorabkäufer-Kartenrücken\n• Das Abenteuer beginnt im April!</deDE>
+			<koKR>• 17마리의 우두머리와 맞서 실력을 증명하세요.\n• 검은바위 산에서 얻을 수 있는 31장의 카드를 획득하세요.\n• 사전 구매로만 제공되는 특별한 카드 뒷면을 획득하세요.\n• 검은바위 산 모험은 오는 4월에 시작됩니다!</koKR>
 			<esES>• Enfréntate a 17 jefes.\n• Obtén 31 cartas de la Montaña Roca Negra.\n• Hazte con un dorso de carta exclusivo por realizar una compra anticipada.\n• ¡La aventura llega en abril!</esES>
 			<esMX>• Enfrenta a 17 jefes\n• Consigue 31 cartas de Montaña Roca Negra\n• Obtén un dorso de carta exclusivo con tu reserva\n• ¡La aventura comienza en abril!</esMX>
-			<frFR>• Affrontez 17 boss\n• Gagnez les 31 cartes du mont Rochenoire\n• Obtenez un dos de carte exclusif à la précommande\n• L’aventure commence en avril !</frFR>
-			<itIT>• Affronta 17 boss\n• Ottieni 31 carte del Massiccio Roccianera\n• Ricevi l'esclusivo dorso del preacquisto\n• L'avventura comincia ad aprile!</itIT>
-			<jaJP>・17体のボスとの対決\n・ブラックロック・マウンテンの新カード31枚を獲得しよう\n・先行予約すると限定のカード裏面デザインが手に入る\n・冒険の始まりは4月！</jaJP>
-			<koKR>• 17마리의 우두머리와 맞서 실력을 증명하세요.\n• 검은바위 산에서 얻을 수 있는 31장의 카드를 획득하세요.\n• 사전 구매로만 제공되는 특별한 카드 뒷면을 획득하세요.\n• 검은바위 산 모험은 오는 4월에 시작됩니다!</koKR>
-			<plPL>• Zmierz się z 17 bossami\n• Zdobądź 31 kart z Czarnej Góry\n• Otrzymaj specjalny rewers za zakup w przedsprzedaży\n• Przygoda zacznie się w kwietniu!</plPL>
-			<ptBR>• Enfrente 17 chefes\n• Ganhe 31 cards da Montanha Rocha Negra\n• Receba um verso de card exclusivo na pré-venda\n• A aventura começa em abril!</ptBR>
 			<ruRU>• Сразитесь с 17 боссами\n• Получите 31 карту Черной горы\n• Эксклюзивная рубашка для карт за предзаказ\n• Приключение начинается в апреле!</ruRU>
-			<thTH>• เผชิญหน้ากับบอสทั้ง 17_ตัว\n• รับการ์ด Blackrock Mountain  31_ใบ\n• รับหลังการ์ดสั่งซื้อล่วงหน้าสุดพิเศษ\n• การผจญภัยจะเริ่มต้นในเดือนเมษายน!</thTH>
-			<zhCN>• 挑战17位首领\n• 赢取31张黑石山卡牌\n• 获得独一无二的预购卡背\n• 全新冒险将在四月开始！</zhCN>
 			<zhTW>• 面對17個首領\n• 贏取31張黑石山卡牌\n• 取得預購的專屬卡背\n• 冒險將在四月展開！</zhTW>
+			<zhCN>• 挑战17位首领\n• 赢取31张黑石山卡牌\n• 获得独一无二的预购卡背\n• 全新冒险将在四月开始！</zhCN>
+			<itIT>• Affronta 17 boss\n• Ottieni 31 carte del Massiccio Roccianera\n• Ricevi l'esclusivo dorso del preacquisto\n• L'avventura comincia ad aprile!</itIT>
+			<ptBR>• Enfrente 17 chefes\n• Ganhe 31 cards da Montanha Rocha Negra\n• Receba um verso de card exclusivo na pré-venda\n• A aventura começa em abril!</ptBR>
+			<plPL>• Zmierz się z 17 bossami\n• Zdobądź 31 kart z Czarnej Góry\n• Otrzymaj specjalny rewers za zakup w przedsprzedaży\n• Przygoda zacznie się w kwietniu!</plPL>
+			<jaJP>・17体のボスとの対決\n・ブラックロック・マウンテンの新カード31枚を獲得しよう\n・先行予約すると限定のカード裏面デザインが手に入る\n・冒険の始まりは4月！</jaJP>
+			<thTH>• เผชิญหน้ากับบอสทั้ง 17_ตัว\n• รับการ์ด Blackrock Mountain 31_ใบ\n• รับหลังการ์ดสั่งซื้อล่วงหน้าสุดพิเศษ\n• การผจญภัยจะเริ่มต้นในเดือนเมษายน!</thTH>
 		</Field>
 		<Field column="STORE_PREVIEW_REWARDS_TEXT" loc_ID="20814">
-			<deDE>Besiegen Sie die tödlichen Bosse des Schwarzfels, um diese und weitere Karten zu erhalten!</deDE>
 			<enUS>Earn these cards and more by defeating the deadly bosses of Blackrock Mountain!</enUS>
+			<frFR>Obtenez ces cartes et bien d’autres en battant les boss du mont Rochenoire !</frFR>
+			<deDE>Besiegen Sie die tödlichen Bosse des Schwarzfels, um diese und weitere Karten zu erhalten!</deDE>
+			<koKR>검은바위 산의 우두머리들을 처치하면 이 카드들은 물론 더 많은 카드들을 얻을 수 있습니다!</koKR>
 			<esES>¡Consigue estas y otras cartas tras derrotar a los mortíferos jefes de la Montaña Roca Negra!</esES>
 			<esMX>¡Derrota a los poderosos jefes de Montaña Roca Negra para obtener estas cartas y más!</esMX>
-			<frFR>Obtenez ces cartes et bien d’autres en battant les boss du mont Rochenoire !</frFR>
-			<itIT>Ottieni queste e altre carte sconfiggendo i letali boss del Massiccio Roccianera!</itIT>
-			<jaJP>ブラックロック・マウンテンのボスを倒すとこれらのカードその他を獲得できるぞ！</jaJP>
-			<koKR>검은바위 산의 우두머리들을 처치하면 이 카드들은 물론 더 많은 카드들을 얻을 수 있습니다!</koKR>
-			<plPL>Zdobądź te oraz inne karty pokonując morderczych bossów z Czarnej Góry!</plPL>
-			<ptBR>Ganhe estes e outros cards ao derrotar os chefes mortais da Montanha Rocha Negra!</ptBR>
 			<ruRU>Получите эти карты, победив боссов Черной горы!</ruRU>
-			<thTH>รับการ์ดเหล่านี้และการ์ดอื่นๆ จากการปราบบอสสุดโหดใน Blackrock Mountain!</thTH>
-			<zhCN>击败“黑石山”的首领们，赢得这些卡牌！</zhCN>
 			<zhTW>擊敗黑石山的首領來獲得這些卡牌！</zhTW>
+			<zhCN>击败“黑石山”的首领们，赢得这些卡牌！</zhCN>
+			<itIT>Ottieni queste e altre carte sconfiggendo i letali boss del Massiccio Roccianera!</itIT>
+			<ptBR>Ganhe estes e outros cards ao derrotar os chefes mortais da Montanha Rocha Negra!</ptBR>
+			<plPL>Zdobądź te oraz inne karty pokonując morderczych bossów z Czarnej Góry!</plPL>
+			<jaJP>ブラックロック・マウンテンのボスを倒すとこれらのカードその他を獲得できるぞ！</jaJP>
+			<thTH>รับการ์ดเหล่านี้และการ์ดอื่นๆ จากการปราบบอสสุดโหดใน Blackrock Mountain!</thTH>
 		</Field>
 		<Field column="ADVENTURE_DEF_PREFAB">Assets/Game/GameObjects/AdventureDefs/AdventureDef_BRM</Field>
 		<Field column="STORE_PREFAB">Assets/Game/GameObjects/StoreAdventureDefs/StoreAdventureDef_BRM</Field>
 		<Field column="LEAVING_SOON">False</Field>
 		<Field column="LEAVING_SOON_TEXT" />
+		<Field column="GAME_MODE_ICON">Assets/Game/Textures/AdventureChooser/SetIcons/SetIcon_BRM</Field>
 	</Record>
 	<Record>
 		<Field column="ID">7</Field>
@@ -679,226 +684,228 @@
 		<Field column="STORE_PREFAB" />
 		<Field column="LEAVING_SOON">False</Field>
 		<Field column="LEAVING_SOON_TEXT" />
+		<Field column="GAME_MODE_ICON" />
 	</Record>
 	<Record>
 		<Field column="ID">8</Field>
 		<Field column="NOTE_DESC">LoE</Field>
 		<Field column="NAME" loc_ID="20815">
-			<deDE>Die Forscherliga</deDE>
 			<enUS>League of Explorers</enUS>
+			<frFR>La Ligue des explorateurs</frFR>
+			<deDE>Die Forscherliga</deDE>
+			<koKR>탐험가 연맹</koKR>
 			<esES>Liga de Expedicionarios</esES>
 			<esMX>Liga de Expedicionarios</esMX>
-			<frFR>La Ligue des explorateurs</frFR>
-			<itIT>Lega degli Esploratori</itIT>
-			<jaJP>リーグ・オブ・エクスプローラー</jaJP>
-			<koKR>탐험가 연맹</koKR>
-			<plPL>Liga Odkrywców</plPL>
-			<ptBR>Liga dos Exploradores</ptBR>
 			<ruRU>Лига исследователей</ruRU>
-			<thTH>League of Explorers</thTH>
-			<zhCN>探险者协会</zhCN>
 			<zhTW>探險者協會</zhTW>
+			<zhCN>探险者协会</zhCN>
+			<itIT>Lega degli Esploratori</itIT>
+			<ptBR>Liga dos Exploradores</ptBR>
+			<plPL>Liga Odkrywców</plPL>
+			<jaJP>リーグ・オブ・エクスプローラー</jaJP>
+			<thTH>League of Explorers</thTH>
 		</Field>
 		<Field column="SORT_ORDER">2</Field>
 		<Field column="STORE_BUY_BUTTON_LABEL" loc_ID="21870">
-			<deDE>Die Forscherliga</deDE>
 			<enUS>League of Explorers</enUS>
+			<frFR>Ligue des explorateurs</frFR>
+			<deDE>Die Forscherliga</deDE>
+			<koKR>탐험가 연맹</koKR>
 			<esES>Liga de Expedicionarios</esES>
 			<esMX>Liga de Expedicionarios</esMX>
-			<frFR>Ligue des explorateurs</frFR>
-			<itIT>Lega degli Esploratori</itIT>
-			<jaJP>エクスプローラー</jaJP>
-			<koKR>탐험가 연맹</koKR>
-			<plPL>Liga Odkrywców</plPL>
-			<ptBR>Liga dos Exploradores</ptBR>
 			<ruRU>Лига исследователей</ruRU>
-			<thTH>League of Explorers</thTH>
-			<zhCN>探险者协会</zhCN>
 			<zhTW>探險者協會</zhTW>
+			<zhCN>探险者协会</zhCN>
+			<itIT>Lega degli Esploratori</itIT>
+			<ptBR>Liga dos Exploradores</ptBR>
+			<plPL>Liga Odkrywców</plPL>
+			<jaJP>エクスプローラー</jaJP>
+			<thTH>League of Explorers</thTH>
 		</Field>
 		<Field column="STORE_BUY_WINGS_1_HEADLINE" loc_ID="21871">
-			<deDE>Die Forscherliga (letzter Flügel):</deDE>
 			<enUS>League of Explorers (Unlock the final wing)</enUS>
+			<frFR>Ligue des explorateurs (débloquez la dernière aile)</frFR>
+			<deDE>Die Forscherliga (letzter Flügel):</deDE>
+			<koKR>탐험가 연맹 (마지막 지구 잠금 해제)</koKR>
 			<esES>Liga de Expedicionarios (desbloquea la última ala)</esES>
 			<esMX>Liga de Expedicionarios (Desbloquea el ala final)</esMX>
-			<frFR>Ligue des explorateurs (débloquez la dernière aile)</frFR>
-			<itIT>Lega degli Esploratori (sblocca l'ultima ala)</itIT>
-			<jaJP>リーグ・オブ・エクスプローラー（最終区画をアンロック）</jaJP>
-			<koKR>탐험가 연맹 (마지막 지구 잠금 해제)</koKR>
-			<plPL>Liga Odkrywców (odblokuj ostatnie skrzydło)</plPL>
-			<ptBR>Liga dos Exploradores (Desbloquear a ala final)</ptBR>
 			<ruRU>«Лига исследователей» (последнее крыло)</ruRU>
-			<thTH>League of Explorers (ปลดล็อควิงสุดท้าย)</thTH>
-			<zhCN>探险者协会（解锁最后一个区）</zhCN>
 			<zhTW>探險者協會(解鎖最後一個區域)</zhTW>
+			<zhCN>探险者协会（解锁最后一个区）</zhCN>
+			<itIT>Lega degli Esploratori (sblocca l'ultima ala)</itIT>
+			<ptBR>Liga dos Exploradores (Desbloquear a ala final)</ptBR>
+			<plPL>Liga Odkrywców (odblokuj ostatnie skrzydło)</plPL>
+			<jaJP>リーグ・オブ・エクスプローラー（最終区画をアンロック）</jaJP>
+			<thTH>League of Explorers (ปลดล็อควิงสุดท้าย)</thTH>
 		</Field>
 		<Field column="STORE_BUY_WINGS_2_HEADLINE" loc_ID="21872">
-			<deDE>Die Forscherliga (2 verbleibende Flügel):</deDE>
 			<enUS>League of Explorers (Unlock 2 remaining wings)</enUS>
+			<frFR>Ligue des explorateurs (débloquez les 2 dernières ailes)</frFR>
+			<deDE>Die Forscherliga (2 verbleibende Flügel):</deDE>
+			<koKR>탐험가 연맹 (나머지 2개 지구 잠금 해제)</koKR>
 			<esES>Liga de Expedicionarios (desbloquea las 2 alas restantes)</esES>
 			<esMX>Liga de Expedicionarios (Desbloquea las 2 alas restantes)</esMX>
-			<frFR>Ligue des explorateurs (débloquez les 2 dernières ailes)</frFR>
-			<itIT>Lega degli Esploratori (sblocca le ultime 2 ali)</itIT>
-			<jaJP>リーグ・オブ・エクスプローラー（残り2区画をアンロック）</jaJP>
-			<koKR>탐험가 연맹 (나머지 2개 지구 잠금 해제)</koKR>
-			<plPL>Liga Odkrywców (odblokuj 2 pozostałe skrzydła)</plPL>
-			<ptBR>Liga dos Exploradores (Desbloquear 2 alas restantes)</ptBR>
 			<ruRU>«Лига исследователей» (2 оставшихся крыла)</ruRU>
-			<thTH>League of Explorers (ปลดล็อคอีก 2 วิงที่เหลือ)</thTH>
-			<zhCN>探险者协会（解锁后两个区）</zhCN>
 			<zhTW>探險者協會(解鎖剩餘的2個區域)</zhTW>
+			<zhCN>探险者协会（解锁后两个区）</zhCN>
+			<itIT>Lega degli Esploratori (sblocca le ultime 2 ali)</itIT>
+			<ptBR>Liga dos Exploradores (Desbloquear 2 alas restantes)</ptBR>
+			<plPL>Liga Odkrywców (odblokuj 2 pozostałe skrzydła)</plPL>
+			<jaJP>リーグ・オブ・エクスプローラー（残り2区画をアンロック）</jaJP>
+			<thTH>League of Explorers (ปลดล็อคอีก 2 วิงที่เหลือ)</thTH>
 		</Field>
 		<Field column="STORE_BUY_WINGS_3_HEADLINE" loc_ID="21873">
-			<deDE>Die Forscherliga (3 verbleibende Flügel):</deDE>
 			<enUS>League of Explorers (Unlock 3 remaining wings)</enUS>
+			<frFR>Ligue des explorateurs (débloquez les 3 dernières ailes)</frFR>
+			<deDE>Die Forscherliga (3 verbleibende Flügel):</deDE>
+			<koKR>탐험가 연맹 (나머지 3개 지구 잠금 해제)</koKR>
 			<esES>Liga de Expedicionarios (desbloquea las 3 alas restantes)</esES>
 			<esMX>Liga de Expedicionarios (Desbloquea las 3 alas restantes)</esMX>
-			<frFR>Ligue des explorateurs (débloquez les 3 dernières ailes)</frFR>
-			<itIT>Lega degli Esploratori (sblocca le ultime 3 ali)</itIT>
-			<jaJP>リーグ・オブ・エクスプローラー（残り3区画をアンロック）</jaJP>
-			<koKR>탐험가 연맹 (나머지 3개 지구 잠금 해제)</koKR>
-			<plPL>Liga Odkrywców (odblokuj 3 pozostałe skrzydła)</plPL>
-			<ptBR>Liga dos Exploradores (Desbloquear 3 alas restantes)</ptBR>
 			<ruRU>«Лига исследователей» (3 оставшихся крыла)</ruRU>
-			<thTH>League of Explorers (ปลดล็อคอีก 3 วิงที่เหลือ)</thTH>
-			<zhCN>探险者协会（解锁后三个区）</zhCN>
 			<zhTW>探險者協會(解鎖剩餘的3個區域)</zhTW>
+			<zhCN>探险者协会（解锁后三个区）</zhCN>
+			<itIT>Lega degli Esploratori (sblocca le ultime 3 ali)</itIT>
+			<ptBR>Liga dos Exploradores (Desbloquear 3 alas restantes)</ptBR>
+			<plPL>Liga Odkrywców (odblokuj 3 pozostałe skrzydła)</plPL>
+			<jaJP>リーグ・オブ・エクスプローラー（残り3区画をアンロック）</jaJP>
+			<thTH>League of Explorers (ปลดล็อคอีก 3 วิงที่เหลือ)</thTH>
 		</Field>
 		<Field column="STORE_BUY_WINGS_4_HEADLINE" loc_ID="21874">
-			<deDE>Die Forscherliga (alle 4 Flügel):</deDE>
 			<enUS>League of Explorers (Unlock all 4 wings)</enUS>
+			<frFR>Ligue des explorateurs (débloquez les 4 ailes)</frFR>
+			<deDE>Die Forscherliga (alle 4 Flügel):</deDE>
+			<koKR>탐험가 연맹 (4개 지구 모두 잠금 해제)</koKR>
 			<esES>Liga de Expedicionarios (desbloquea las 4 alas)</esES>
 			<esMX>Liga de Expedicionarios (Desbloquea las 4 alas)</esMX>
-			<frFR>Ligue des explorateurs (débloquez les 4 ailes)</frFR>
-			<itIT>Lega degli Esploratori (sblocca tutte le 4 ali)</itIT>
-			<jaJP>リーグ・オブ・エクスプローラー（全4区画をアンロック）</jaJP>
-			<koKR>탐험가 연맹 (4개 지구 모두 잠금 해제)</koKR>
-			<plPL>Liga Odkrywców (odblokuj wszystkie 4 skrzydła)</plPL>
-			<ptBR>Liga dos Exploradores (Desbloquear as 4 alas)</ptBR>
 			<ruRU>«Лига исследователей» (все 4 крыла)</ruRU>
-			<thTH>League of Explorers (ปลดล็อคทั้ง 4 วิง)</thTH>
-			<zhCN>探险者协会（解锁全部四个区）</zhCN>
 			<zhTW>探險者協會(解鎖全部4個區域)</zhTW>
+			<zhCN>探险者协会（解锁全部四个区）</zhCN>
+			<itIT>Lega degli Esploratori (sblocca tutte le 4 ali)</itIT>
+			<ptBR>Liga dos Exploradores (Desbloquear as 4 alas)</ptBR>
+			<plPL>Liga Odkrywców (odblokuj wszystkie 4 skrzydła)</plPL>
+			<jaJP>リーグ・オブ・エクスプローラー（全4区画をアンロック）</jaJP>
+			<thTH>League of Explorers (ปลดล็อคทั้ง 4 วิง)</thTH>
 		</Field>
 		<Field column="STORE_BUY_WINGS_5_HEADLINE" />
 		<Field column="STORE_OWNED_HEADLINE" loc_ID="21875">
-			<deDE>Die Forscherliga (erworben)</deDE>
 			<enUS>League of Explorers (Purchased)</enUS>
+			<frFR>Ligue des explorateurs (déjà achetée)</frFR>
+			<deDE>Die Forscherliga (erworben)</deDE>
+			<koKR>탐험가 연맹 (구매 완료)</koKR>
 			<esES>Liga de Expedicionarios (adquirida)</esES>
 			<esMX>Liga de Expedicionarios (Comprada)</esMX>
-			<frFR>Ligue des explorateurs (déjà achetée)</frFR>
-			<itIT>Lega degli Esploratori (acquistata)</itIT>
-			<jaJP>リーグ・オブ・エクスプローラー（購入済）</jaJP>
-			<koKR>탐험가 연맹 (구매 완료)</koKR>
-			<plPL>Liga Odkrywców (zakupiono)</plPL>
-			<ptBR>Liga dos Exploradores (Comprado)</ptBR>
 			<ruRU>«Лига исследователей» (приобретено)</ruRU>
-			<thTH>League of Explorers (ซื้อแล้ว)</thTH>
-			<zhCN>探险者协会（已购买）</zhCN>
 			<zhTW>探險者協會(已購買)</zhTW>
+			<zhCN>探险者协会（已购买）</zhCN>
+			<itIT>Lega degli Esploratori (acquistata)</itIT>
+			<ptBR>Liga dos Exploradores (Comprado)</ptBR>
+			<plPL>Liga Odkrywców (zakupiono)</plPL>
+			<jaJP>リーグ・オブ・エクスプローラー（購入済）</jaJP>
+			<thTH>League of Explorers (ซื้อแล้ว)</thTH>
 		</Field>
 		<Field column="STORE_PREORDER_HEADLINE" />
 		<Field column="STORE_BUY_WINGS_1_DESC" loc_ID="21876">
-			<deDE>• Schließen Sie Ihr Abenteuer ab! Schalten Sie den letzten Flügel frei und erkämpfen Sie sich bis zu 12 neue Karten, die nur im Forscherliga-Abenteuer zu finden sind.</deDE>
 			<enUS>• Finish your adventure!  Unlock the last wing and earn up to 12 new cards that can only be found in the League of Explorers.</enUS>
+			<frFR>• Terminez votre aventure ! Débloquez la dernière aile et obtenez jusqu’à 12 nouvelles cartes pouvant être gagnées uniquement dans la Ligue des explorateurs.</frFR>
+			<deDE>• Schließen Sie Ihr Abenteuer ab! Schalten Sie den letzten Flügel frei und erkämpfen Sie sich bis zu 12 neue Karten, die nur im Forscherliga-Abenteuer zu finden sind.</deDE>
+			<koKR>• 모험을 마무리하세요! 마지막 지구를 잠금 해제하여 탐험가 연맹에서만 얻을 수 있는 12장의 새로운 카드를 획득하세요.</koKR>
 			<esES>• ¡Termina tu aventura! Desbloquea la última ala y consigue hasta 12 cartas nuevas que solo se pueden obtener en la Liga de Expedicionarios.</esES>
 			<esMX>• ¡Termina tu aventura! Desbloquea el ala final y obtén hasta 12 cartas nuevas que solo pueden encontrarse en la Liga de Expedicionarios.</esMX>
-			<frFR>• Terminez votre aventure ! Débloquez la dernière aile et obtenez jusqu’à 12 nouvelles cartes pouvant être gagnées uniquement dans la Ligue des explorateurs.</frFR>
-			<itIT>• Completa l'avventura! Sblocca l'ultima ala e ottieni fino a 12 nuove carte reperibili solo nella Lega degli Esploratori.</itIT>
-			<jaJP>・冒険はついにクライマックスへ！最後の区画を開放し、「リーグ・オブ・エクスプローラー」でだけ発見できる最大12枚の新カードを獲得しよう。</jaJP>
-			<koKR>• 모험을 마무리하세요! 마지막 지구를 잠금 해제하여 탐험가 연맹에서만 얻을 수 있는 12장의 새로운 카드를 획득하세요.</koKR>
-			<plPL>• Dokończ przygodę! Odblokuj ostatnie skrzydło i zdobądź nawet 12 nowych kart, które można znaleźć jedynie w Lidze Odkrywców.</plPL>
-			<ptBR>• Termine sua aventura! Desbloqueie a última ala e ganhe até 12 cards novos que só podem ser encontrados na Liga dos Exploradores.</ptBR>
 			<ruRU>• Завершите приключение! Откройте доступ к последнему крылу и получите до 12 новых карт, которые можно найти только в Лиге исследователей!</ruRU>
-			<thTH>• สู่ปลายทางของการผจญภัย! ปลดล็อควิงสุดท้าย และรับการ์ดใหม่สูงสุด 12_ใบที่หาได้จาก League of Explorers เท่านั้น</thTH>
-			<zhCN>• 完成你的冒险之旅！解锁最后一个区，赢得只有在探险者协会中才能获取的至多12张全新卡牌。</zhCN>
 			<zhTW>• 完成你的冒險！解鎖最後的區域並獲得最多12張《探險者協會》限定的新卡牌。</zhTW>
+			<zhCN>• 完成你的冒险之旅！解锁最后一个区，赢得只有在探险者协会中才能获取的至多12张全新卡牌。</zhCN>
+			<itIT>• Completa l'avventura! Sblocca l'ultima ala e ottieni fino a 12 nuove carte reperibili solo nella Lega degli Esploratori.</itIT>
+			<ptBR>• Termine sua aventura! Desbloqueie a última ala e ganhe até 12 cards novos que só podem ser encontrados na Liga dos Exploradores.</ptBR>
+			<plPL>• Dokończ przygodę! Odblokuj ostatnie skrzydło i zdobądź nawet 12 nowych kart, które można znaleźć jedynie w Lidze Odkrywców.</plPL>
+			<jaJP>・冒険はついにクライマックスへ！最後の区画を開放し、「リーグ・オブ・エクスプローラー」でだけ発見できる最大12枚の新カードを獲得しよう。</jaJP>
+			<thTH>• สู่ปลายทางของการผจญภัย! ปลดล็อควิงสุดท้าย และรับการ์ดใหม่สูงสุด 12_ใบที่หาได้จาก League of Explorers เท่านั้น</thTH>
 		</Field>
 		<Field column="STORE_BUY_WINGS_2_DESC" loc_ID="21877">
-			<deDE>• Stürzen Sie sich wieder ins Abenteuer! Schalten Sie die letzten zwei Flügel frei und erkämpfen Sie sich bis zu 23 neue Karten, die nur im Forscherliga-Abenteuer zu finden sind.</deDE>
 			<enUS>• Continue your adventure! Unlock the last two wings and earn up to 23 new cards that can only be found in the League of Explorers.</enUS>
+			<frFR>• Continuez votre aventure ! Débloquez les deux dernières ailes et obtenez jusqu’à 23 nouvelles cartes pouvant être gagnées uniquement dans la Ligue des explorateurs.</frFR>
+			<deDE>• Stürzen Sie sich wieder ins Abenteuer! Schalten Sie die letzten zwei Flügel frei und erkämpfen Sie sich bis zu 23 neue Karten, die nur im Forscherliga-Abenteuer zu finden sind.</deDE>
+			<koKR>• 모험을 계속하세요! 나머지 두 지구를 잠금 해제하여 탐험가 연맹에서만 얻을 수 있는 23장의 새로운 카드를 획득하세요.</koKR>
 			<esES>• ¡Prosigue tu aventura! Desbloquea las dos últimas alas y consigue hasta 23 cartas nuevas que solo se pueden obtener en la Liga de Expedicionarios.</esES>
 			<esMX>• ¡Continúa tu aventura! Desbloquea las últimas dos alas y obtén hasta 23 cartas nuevas que solo pueden encontrarse en la Liga de Expedicionarios.</esMX>
-			<frFR>• Continuez votre aventure ! Débloquez les deux dernières ailes et obtenez jusqu’à 23 nouvelles cartes pouvant être gagnées uniquement dans la Ligue des explorateurs.</frFR>
-			<itIT>• Continua l'avventura! Sblocca le ultime due ali e ottieni fino a 23 nuove carte reperibili solo nella Lega degli Esploratori.</itIT>
-			<jaJP>・冒険は続く！残る2つの区画を開放し、「リーグ・オブ・エクスプローラー」でだけ発見できる最大23枚の新カードを獲得しよう。</jaJP>
-			<koKR>• 모험을 계속하세요! 나머지 두 지구를 잠금 해제하여 탐험가 연맹에서만 얻을 수 있는 23장의 새로운 카드를 획득하세요.</koKR>
-			<plPL>• Kontynuuj przygodę! Odblokuj dwa ostatnie skrzydła i zdobądź nawet 23 nowe karty, które można znaleźć jedynie w Lidze Odkrywców.</plPL>
-			<ptBR>• Continue sua aventura! Desbloqueie as duas últimas alas e ganhe até 23 cards novos que só podem ser encontrados na Liga dos Exploradores.</ptBR>
 			<ruRU>• Приключение продолжается! Откройте доступ к оставшимся двум крыльям и получите до 23 новых карт, которые можно найти только в Лиге исследователей!</ruRU>
-			<thTH>• ผจญภัยต่อ! ปลดล็อคสองวิงสุดท้าย และรับการ์ดใหม่สูงสุด 23_ใบที่หาได้จาก League of Explorers เท่านั้น</thTH>
-			<zhCN>• 继续你的冒险之旅！解锁后两个区，赢得只有在探险者协会中才能获取的至多23张全新卡牌。</zhCN>
 			<zhTW>• 繼續你的冒險！解鎖剩餘的兩區並獲得最多23張《探險者協會》限定的新卡牌。</zhTW>
+			<zhCN>• 继续你的冒险之旅！解锁后两个区，赢得只有在探险者协会中才能获取的至多23张全新卡牌。</zhCN>
+			<itIT>• Continua l'avventura! Sblocca le ultime due ali e ottieni fino a 23 nuove carte reperibili solo nella Lega degli Esploratori.</itIT>
+			<ptBR>• Continue sua aventura! Desbloqueie as duas últimas alas e ganhe até 23 cards novos que só podem ser encontrados na Liga dos Exploradores.</ptBR>
+			<plPL>• Kontynuuj przygodę! Odblokuj dwa ostatnie skrzydła i zdobądź nawet 23 nowe karty, które można znaleźć jedynie w Lidze Odkrywców.</plPL>
+			<jaJP>・冒険は続く！残る2つの区画を開放し、「リーグ・オブ・エクスプローラー」でだけ発見できる最大23枚の新カードを獲得しよう。</jaJP>
+			<thTH>• ผจญภัยต่อ! ปลดล็อคสองวิงสุดท้าย และรับการ์ดใหม่สูงสุด 23_ใบที่หาได้จาก League of Explorers เท่านั้น</thTH>
 		</Field>
 		<Field column="STORE_BUY_WINGS_3_DESC" loc_ID="21878">
-			<deDE>• Stürzen Sie sich wieder ins Abenteuer! Schalten Sie die letzten drei Flügel frei und erkämpfen Sie sich bis zu 33 neue Karten, die nur im Forscherliga-Abenteuer zu finden sind.</deDE>
 			<enUS>• Continue your adventure! Unlock the last three wings and earn up to 33 new cards that can only be found in the League of Explorers.</enUS>
+			<frFR>• Continuez votre aventure ! Débloquez les trois dernières ailes et obtenez jusqu’à 33 nouvelles cartes pouvant être gagnées uniquement dans la Ligue des explorateurs.</frFR>
+			<deDE>• Stürzen Sie sich wieder ins Abenteuer! Schalten Sie die letzten drei Flügel frei und erkämpfen Sie sich bis zu 33 neue Karten, die nur im Forscherliga-Abenteuer zu finden sind.</deDE>
+			<koKR>• 모험을 계속하세요! 나머지 세 지구를 잠금 해제하여 탐험가 연맹에서만 얻을 수 있는 33장의 새로운 카드를 획득하세요.</koKR>
 			<esES>• ¡Prosigue tu aventura! Desbloquea las tres últimas alas y consigue hasta 33 cartas nuevas que solo se pueden obtener en la Liga de Expedicionarios.</esES>
 			<esMX>• ¡Continúa tu aventura! Desbloquea las últimas tres alas y obtén hasta 33 cartas nuevas que solo pueden encontrarse en la Liga de Expedicionarios.</esMX>
-			<frFR>• Continuez votre aventure ! Débloquez les trois dernières ailes et obtenez jusqu’à 33 nouvelles cartes pouvant être gagnées uniquement dans la Ligue des explorateurs.</frFR>
-			<itIT>• Continua l'avventura! Sblocca le ultime tre ali e ottieni fino a 33 nuove carte reperibili solo nella Lega degli Esploratori.</itIT>
-			<jaJP>・冒険は続く！残る3つの区画を開放し、「リーグ・オブ・エクスプローラー」でだけ発見できる最大33枚の新カードを獲得しよう。</jaJP>
-			<koKR>• 모험을 계속하세요! 나머지 세 지구를 잠금 해제하여 탐험가 연맹에서만 얻을 수 있는 33장의 새로운 카드를 획득하세요.</koKR>
-			<plPL>• Kontynuuj przygodę! Odblokuj trzy ostatnie skrzydła i zdobądź nawet 33 nowe karty, które można znaleźć jedynie w Lidze Odkrywców.</plPL>
-			<ptBR>• Continue sua aventura! Desbloqueie as três últimas alas e ganhe até 33 cards novos que só podem ser encontrados na Liga dos Exploradores.</ptBR>
 			<ruRU>• Приключение продолжается! Откройте доступ к оставшимся трем крыльям и получите до 33 новых карт, которые можно найти только в Лиге исследователей!</ruRU>
-			<thTH>• ผจญภัยต่อ! ปลดล็อคสามวิงสุดท้าย และรับการ์ดใหม่สูงสุด 33_ใบที่หาได้จาก League of Explorers เท่านั้น</thTH>
-			<zhCN>• 继续你的冒险之旅！解锁后三个区，赢得只有在探险者协会中才能获取的至多33张全新卡牌。</zhCN>
 			<zhTW>• 繼續你的冒險！解鎖剩餘的三區並獲得最多33張《探險者協會》限定的新卡牌。</zhTW>
+			<zhCN>• 继续你的冒险之旅！解锁后三个区，赢得只有在探险者协会中才能获取的至多33张全新卡牌。</zhCN>
+			<itIT>• Continua l'avventura! Sblocca le ultime tre ali e ottieni fino a 33 nuove carte reperibili solo nella Lega degli Esploratori.</itIT>
+			<ptBR>• Continue sua aventura! Desbloqueie as três últimas alas e ganhe até 33 cards novos que só podem ser encontrados na Liga dos Exploradores.</ptBR>
+			<plPL>• Kontynuuj przygodę! Odblokuj trzy ostatnie skrzydła i zdobądź nawet 33 nowe karty, które można znaleźć jedynie w Lidze Odkrywców.</plPL>
+			<jaJP>・冒険は続く！残る3つの区画を開放し、「リーグ・オブ・エクスプローラー」でだけ発見できる最大33枚の新カードを獲得しよう。</jaJP>
+			<thTH>• ผจญภัยต่อ! ปลดล็อคสามวิงสุดท้าย และรับการ์ดใหม่สูงสุด 33_ใบที่หาได้จาก League of Explorers เท่านั้น</thTH>
 		</Field>
 		<Field column="STORE_BUY_WINGS_4_DESC" loc_ID="21879">
-			<deDE>• Stürzen Sie sich ins Abenteuer! Schalten Sie alle Flügel frei und erkämpfen Sie sich bis zu 45 neue Karten, die nur im Forscherliga-Abenteuer zu finden sind.</deDE>
 			<enUS>• Start your adventure! Unlock all the wings and earn up to 45 new cards that can only be found in the League of Explorers.</enUS>
+			<frFR>• Lancez-vous dans l’aventure ! Débloquez toutes les ailes et obtenez jusqu’à 45 nouvelles cartes pouvant être gagnées uniquement dans la Ligue des explorateurs.</frFR>
+			<deDE>• Stürzen Sie sich ins Abenteuer! Schalten Sie alle Flügel frei und erkämpfen Sie sich bis zu 45 neue Karten, die nur im Forscherliga-Abenteuer zu finden sind.</deDE>
+			<koKR>• 모험을 시작하세요! 모든 지구를 잠금 해제하여 탐험가 연맹에서만 얻을 수 있는 45장의 카드를 획득하세요.</koKR>
 			<esES>• ¡Empieza la aventura! Desbloquea todas las alas y consigue hasta 45 cartas nuevas que solo se pueden obtener en la Liga de Expedicionarios.</esES>
 			<esMX>• ¡Comienza tu aventura! Desbloquea todas las alas y obtén hasta 45 cartas nuevas que solo pueden encontrarse en la Liga de Expedicionarios.</esMX>
-			<frFR>• Lancez-vous dans l’aventure ! Débloquez toutes les ailes et obtenez jusqu’à 45 nouvelles cartes pouvant être gagnées uniquement dans la Ligue des explorateurs.</frFR>
-			<itIT>• Inizia l'avventura! Sblocca tutte le ali e ottieni fino a 45 nuove carte reperibili solo nella Lega degli Esploratori.</itIT>
-			<jaJP>・冒険の始まりだ！全ての区画を開放し、「リーグ・オブ・エクスプローラー」でだけ発見できる最大45枚の新カードを獲得しよう。</jaJP>
-			<koKR>• 모험을 시작하세요! 모든 지구를 잠금 해제하여 탐험가 연맹에서만 얻을 수 있는 45장의 카드를 획득하세요.</koKR>
-			<plPL>• Rozpocznij przygodę! Odblokuj wszystkie skrzydła i zdobądź nawet 45 nowych kart, które można znaleźć jedynie w Lidze Odkrywców.</plPL>
-			<ptBR>• Comece sua aventura! Desbloqueie todas as alas e ganhe até 45 cards novos que só podem ser encontrados na Liga dos Exploradores.</ptBR>
 			<ruRU>• Отправьтесь в приключение! Откройте все крылья и получите до 45 новых карт, которые можно найти только в Лиге исследователей.</ruRU>
-			<thTH>• เริ่มการผจญภัยของคุณ! ปลดล็อควิงทั้งหมด และรับการ์ดใหม่สูงสุด\n45_ใบที่หาได้จาก League of Explorers เท่านั้น</thTH>
-			<zhCN>• 闯入古老的遗迹，开始冒险！解锁全部四个区，赢得只有在探险者协会中才能获取的至多45张全新卡牌。</zhCN>
 			<zhTW>• 開始你的冒險！解鎖全部區域並獲得最多45張《探險者協會》限定的新卡牌。</zhTW>
+			<zhCN>• 闯入古老的遗迹，开始冒险！解锁全部四个区，赢得只有在探险者协会中才能获取的至多45张全新卡牌。</zhCN>
+			<itIT>• Inizia l'avventura! Sblocca tutte le ali e ottieni fino a 45 nuove carte reperibili solo nella Lega degli Esploratori.</itIT>
+			<ptBR>• Comece sua aventura! Desbloqueie todas as alas e ganhe até 45 cards novos que só podem ser encontrados na Liga dos Exploradores.</ptBR>
+			<plPL>• Rozpocznij przygodę! Odblokuj wszystkie skrzydła i zdobądź nawet 45 nowych kart, które można znaleźć jedynie w Lidze Odkrywców.</plPL>
+			<jaJP>・冒険の始まりだ！全ての区画を開放し、「リーグ・オブ・エクスプローラー」でだけ発見できる最大45枚の新カードを獲得しよう。</jaJP>
+			<thTH>• เริ่มการผจญภัยของคุณ! ปลดล็อควิงทั้งหมด และรับการ์ดใหม่สูงสุด\n45_ใบที่หาได้จาก League of Explorers เท่านั้น</thTH>
 		</Field>
 		<Field column="STORE_BUY_WINGS_5_DESC" />
 		<Field column="STORE_OWNED_DESC" loc_ID="21880">
-			<deDE>• Besiegen Sie die Forscherliga-Bosse, um Belohnungen zu erhalten.</deDE>
 			<enUS>• Defeat the bosses in the League of Explorers to earn your rewards.</enUS>
+			<frFR>• Battez les boss de la Ligue des explorateurs pour obtenir vos récompenses.</frFR>
+			<deDE>• Besiegen Sie die Forscherliga-Bosse, um Belohnungen zu erhalten.</deDE>
+			<koKR>• 탐험가 연맹 모험의 우두머리들을 처치하고 보상을 획득하세요.</koKR>
 			<esES>• Derrota a los jefes de la Liga de Expedicionarios para obtener recompensas.</esES>
 			<esMX>• Derrota a los jefes de la Liga de Expedicionarios para obtener tus recompensas.</esMX>
-			<frFR>• Battez les boss de la Ligue des explorateurs pour obtenir vos récompenses.</frFR>
-			<itIT>• Sconfiggi i boss della Lega degli Esploratori per ottenere ricompense.</itIT>
-			<jaJP>・「リーグ・オブ・エクスプローラー」で遭遇するボス達を倒して報酬を獲得しよう。</jaJP>
-			<koKR>• 탐험가 연맹 모험의 우두머리들을 처치하고 보상을 획득하세요.</koKR>
-			<plPL>• Pokonaj bossów w Lidze Odkrywców, aby zdobyć nagrody.</plPL>
-			<ptBR>• Derrote os chefes da Liga dos Exploradores para receber as recompensas.</ptBR>
 			<ruRU>• Чтобы получить награду, победите боссов Лиги исследователей.</ruRU>
-			<thTH>• ปราบบอสต่างๆ ใน League of Explorers เพื่อรับรางวัลของคุณ</thTH>
-			<zhCN>• 击败“探险者协会”中的所有首领，赢得你的奖励。</zhCN>
 			<zhTW>• 通過探險者協會的考驗，贏取你的獎勵。</zhTW>
+			<zhCN>• 击败“探险者协会”中的所有首领，赢得你的奖励。</zhCN>
+			<itIT>• Sconfiggi i boss della Lega degli Esploratori per ottenere ricompense.</itIT>
+			<ptBR>• Derrote os chefes da Liga dos Exploradores para receber as recompensas.</ptBR>
+			<plPL>• Pokonaj bossów w Lidze Odkrywców, aby zdobyć nagrody.</plPL>
+			<jaJP>・「リーグ・オブ・エクスプローラー」で遭遇するボス達を倒して報酬を獲得しよう。</jaJP>
+			<thTH>• ปราบบอสต่างๆ ใน League of Explorers เพื่อรับรางวัลของคุณ</thTH>
 		</Field>
 		<Field column="STORE_PREORDER_DESC" />
 		<Field column="STORE_PREVIEW_REWARDS_TEXT" loc_ID="21881">
-			<deDE>Stürzen Sie sich ins Abenteuer, um diese und weitere Karten zu erhalten!</deDE>
 			<enUS>Join the League to earn these cards and more!</enUS>
+			<frFR>Rejoignez la Ligue pour obtenir ces cartes et bien plus encore !</frFR>
+			<deDE>Stürzen Sie sich ins Abenteuer, um diese und weitere Karten zu erhalten!</deDE>
+			<koKR>탐험가 연맹에 가입하면 이 카드들은 물론 더 많은 카드들을 얻을 수 있습니다!</koKR>
 			<esES>¡Únete a la Liga para conseguir estas y otras cartas!</esES>
 			<esMX>¡Únete a la Liga para obtener estas cartas y más!</esMX>
-			<frFR>Rejoignez la Ligue pour obtenir ces cartes et bien plus encore !</frFR>
-			<itIT>Unisciti alla Lega per ottenere queste e altre carte!</itIT>
-			<jaJP>同盟に参加してこんなお宝カードを手に入れよう！</jaJP>
-			<koKR>탐험가 연맹에 가입하면 이 카드들은 물론 더 많은 카드들을 얻을 수 있습니다!</koKR>
-			<plPL>Dołącz do Ligi, aby zdobyć te karty i wiele więcej!</plPL>
-			<ptBR>Junte-se à Liga dos Exploradores e ganhe estes e outros cards!</ptBR>
 			<ruRU>Вступайте в Лигу исследователей, чтобы получить эти карты и другие награды!</ruRU>
-			<thTH>เข้าร่วมสมาพันธ์เพื่อรับการ์ดเหล่านี้และการ์ดอื่นๆ!</thTH>
-			<zhCN>加入探险者协会，赢得这些卡牌！</zhCN>
 			<zhTW>加入探險者協會來獲得這些卡牌！</zhTW>
+			<zhCN>加入探险者协会，赢得这些卡牌！</zhCN>
+			<itIT>Unisciti alla Lega per ottenere queste e altre carte!</itIT>
+			<ptBR>Junte-se à Liga dos Exploradores e ganhe estes e outros cards!</ptBR>
+			<plPL>Dołącz do Ligi, aby zdobyć te karty i wiele więcej!</plPL>
+			<jaJP>同盟に参加してこんなお宝カードを手に入れよう！</jaJP>
+			<thTH>เข้าร่วมสมาพันธ์เพื่อรับการ์ดเหล่านี้และการ์ดอื่นๆ!</thTH>
 		</Field>
 		<Field column="ADVENTURE_DEF_PREFAB">Assets/Game/GameObjects/AdventureDefs/AdventureDef_LOE</Field>
 		<Field column="STORE_PREFAB">Assets/Game/GameObjects/StoreAdventureDefs/StoreAdventureDef_LOE</Field>
 		<Field column="LEAVING_SOON">False</Field>
 		<Field column="LEAVING_SOON_TEXT" />
+		<Field column="GAME_MODE_ICON">Assets/Game/Textures/AdventureChooser/SetIcons/SetIcon_LOE</Field>
 	</Record>
 </Dbf>

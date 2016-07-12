@@ -24,7 +24,7 @@ GLOBAL_ARENA_MEDAL_8	Ключ чемпиона
 GLOBAL_ARENA_MEDAL_9	Рубиновый ключ	
 GLOBAL_ATTACK	Атака	
 GLOBAL_BACK	Назад	
-GLOBAL_BASIC_DECK_NAME	Базовая («{0}»)	0=class name
+GLOBAL_BASIC_DECK_NAME	{0}	0=class name
 GLOBAL_BETA_REIMBURSEMENT_DETAILS	Это золото выдано в качестве компенсации за предыдущие покупки. Спасибо!	
 GLOBAL_BETA_REIMBURSEMENT_HEADLINE	Компенсация	
 GLOBAL_BUTTON_NEXT	Далее	
@@ -185,12 +185,12 @@ GLOBAL_FORGE_END_JOKE_6	Невероятная игра!
 GLOBAL_FORGE_END_JOKE_7	ТРЕПЕЩИТЕ!	
 GLOBAL_FORGE_END_JOKE_8	Это еще не конец! Хотя...	
 GLOBAL_FORGE_END_TITLE	Сражение на Арене завершено	
-GLOBAL_FRIEND_CHALLENGE_ACCEPT	Да!	
+GLOBAL_FRIEND_CHALLENGE_ACCEPT	Принять	
 GLOBAL_FRIEND_CHALLENGE_BODY1	Вам бросает вызов:	
 GLOBAL_FRIEND_CHALLENGE_BODY1_STANDARD	Вам бросает вызов на матч стандартного формата игрок	
-GLOBAL_FRIEND_CHALLENGE_BODY1_WILD	Вам бросает вызов на матч вольного формата игрок	
+GLOBAL_FRIEND_CHALLENGE_BODY1_WILD	Вам бросает вызов на матч\nвольного формата игрок	
 GLOBAL_FRIEND_CHALLENGE_BODY2	Вы принимаете вызов?	
-GLOBAL_FRIEND_CHALLENGE_DECLINE	Нет	
+GLOBAL_FRIEND_CHALLENGE_DECLINE	Отклонить	
 GLOBAL_FRIEND_CHALLENGE_HEADER	Вызов	
 GLOBAL_FRIEND_CHALLENGE_NEARBY_PLAYER_NOTE	В меню настроек можно отключить приглашения от находящихся рядом игроков.	
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_CANCELED	{0} отменяет вызов.	0=friend name
@@ -226,6 +226,7 @@ GLOBAL_FRIENDLIST_CHALLENGE_MENU_DUEL_BUTTON	Дуэль
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_STANDARD_DUEL_BUTTON	Стандартная дуэль	
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_WILD_DUEL_BUTTON	Вольная дуэль	
 GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_NO_TAVERN_BRAWL	«Потасовка» сейчас недоступна. Попробуйте позже!	
+GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_TAVERN_BRAWL_NOT_CHALLENGEABLE	Дружеская дуэль недоступна для этой потасовки.	
 GLOBAL_FRIENDLIST_CURRENT_GAMES_HEADER	ТЕКУЩИЕ ИГРЫ – {0}	0=number of friends you have unfinished games with
 GLOBAL_FRIENDLIST_FRIENDS_HEADER	ДРУЗЬЯ – {0}/{1} в сети	0=number of online friends 1=number of offline friends
 GLOBAL_FRIENDLIST_FRIENDS_HEADER_ALL_ONLINE	ДРУЗЬЯ – {0} в сети	
@@ -257,13 +258,16 @@ GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_SPECTATING_HEADER	Режим зрителя
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_SPECTATING_TEXT	Вы присутствуете на матче этого игрока в качестве зрителя.	
 GLOBAL_FRIENDLIST_TAVERN_BRAWL_CHALLENGE_BUTTON_AVAILABLE	Вызвать игрока {0} на потасовку.	0=player name
 GLOBAL_FRIENDLIST_TAVERN_BRAWL_CHALLENGE_BUTTON_HEADER	Вызов на «Потасовку»	
+GLOBAL_FRIENDLYCHALLENGE_QUEST_REWARD_AT_LIMIT	Исчерпан дневной лимит для наград в заданиях "Вызов другу".	
+GLOBAL_FRIENDLYCHALLENGE_REWARD_CONCEDED_YOUR_OPPONENT	Ваш противник покинул игру слишком рано, из-за чего вы не можете получить награду.	
+GLOBAL_FRIENDLYCHALLENGE_REWARD_CONCEDED_YOURSELF	Вы покинули игру слишком рано и не можете получить награду.	
 GLOBAL_GAME_MENU	Меню	
 GLOBAL_GAME_QUEUE_TIME_IN_QUEUE	Время в очереди	
 GLOBAL_GAME_QUEUE_WAIT_TIME	Время ожидания	
 GLOBAL_GOLD_REWARD_ALREADY_CAPPED	Вы уже получили сегодня {0} золота.	
 GLOBAL_GOLD_REWARD_BAD_RATING	Ваш рейтинг или рейтинг вашего противника не соответствует требованиям для получения золота за победу.	
 GLOBAL_GOLD_REWARD_OVER_CAIS	Дальнейшее получение золота невозможно из-за системы контроля.	
-GLOBAL_GOLD_REWARD_SHORT_GAME	Ваша игра длилась недостаточно долго для получения золота за победу.	
+GLOBAL_GOLD_REWARD_SHORT_GAME_BY_TIME	Ваша игра длилась недостаточно долго для получения золота за победу.	
 GLOBAL_HEALTH	Здоровье	
 GLOBAL_HEALTHY_GAMING_CHINA_CAIS_ACTIVE	Контроль времени игры включен.	
 GLOBAL_HEALTHY_GAMING_CHINA_LESS_THAN_THREE_HOURS	您累计在线时间已满{0}小时。	
@@ -296,6 +300,8 @@ GLOBAL_KEYWORD_CTHUN	К'Тун
 GLOBAL_KEYWORD_CTHUN_TEXT	К'Тун получает усиления вне зависимости от того, где находится. Пусть даже в колоде!	
 GLOBAL_KEYWORD_DEATHRATTLE	Предсмертный хрип	
 GLOBAL_KEYWORD_DEATHRATTLE_TEXT	Срабатывает в момент гибели.	
+GLOBAL_KEYWORD_DISCOVER	Раскопка	
+GLOBAL_KEYWORD_DISCOVER_TEXT	Выберите одну из трех карт и положите себе в руку.	
 GLOBAL_KEYWORD_DIVINE_SHIELD	Божественный щит	
 GLOBAL_KEYWORD_DIVINE_SHIELD_REF_TEXT	Когда защищенное щитом существо первый раз получает урон, он не засчитывается.	
 GLOBAL_KEYWORD_DIVINE_SHIELD_TEXT	Когда существо первый раз получает урон, он не засчитывается.	
@@ -310,6 +316,8 @@ GLOBAL_KEYWORD_IMMUNE_REF_TEXT	Персонажу с неуязвимостью 
 GLOBAL_KEYWORD_IMMUNE_TEXT	Не получает урон.	
 GLOBAL_KEYWORD_INSPIRE	Воодушевление	
 GLOBAL_KEYWORD_INSPIRE_TEXT	Совершает какое-либо действие после применения вашей силы героя.	
+GLOBAL_KEYWORD_MINION_TYPE_REFERENCE	Тип существа	
+GLOBAL_KEYWORD_MINION_TYPE_REFERENCE_TEXT	Зверь, демон, дракон, механизм, мурлок, пират и тотем.	
 GLOBAL_KEYWORD_OVERLOAD	Перегрузка: Х	
 GLOBAL_KEYWORD_OVERLOAD_TEXT	На следующем ходу у вас будет на X ед. меньше маны.	
 GLOBAL_KEYWORD_SECRET	Секрет	
@@ -329,8 +337,6 @@ GLOBAL_KEYWORD_STEALTH_TEXT	Это существо нельзя атакова�
 GLOBAL_KEYWORD_TAUNT	Провокация	
 GLOBAL_KEYWORD_TAUNT_REF_TEXT	Вынуждает противников атаковать существо со способностью «Провокация».	
 GLOBAL_KEYWORD_TAUNT_TEXT	Противники вынуждены атаковать это существо.	
-GLOBAL_KEYWORD_TREASURE	Раскопка	
-GLOBAL_KEYWORD_TREASURE_TEXT	Выберите одну из трех карт и положите себе в руку.	
 GLOBAL_KEYWORD_WINDFURY	Неистовство ветра	
 GLOBAL_KEYWORD_WINDFURY_TEXT	Может атаковать дважды за ход.	
 GLOBAL_LANGUAGE_CHANGE_CONFIRM_MESSAGE	Текущее действие будет прервано. Вы уверены, что хотите продолжить?	
