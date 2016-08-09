@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Dbf name="ADVENTURE">
-	<SourceFingerprint>/Up10xdg3oVO9rk+fiZVrC1gEe4=</SourceFingerprint>
+	<SourceFingerprint>8TumCzyz/3wwYxMLkPu7FpmCRl8=</SourceFingerprint>
 	<Column name="ID" type="Int" />
 	<Column name="NOTE_DESC" type="String" />
 	<Column name="NAME" type="LocString" />
@@ -19,13 +19,19 @@
 	<Column name="STORE_BUY_WINGS_4_DESC" type="LocString" />
 	<Column name="STORE_BUY_WINGS_5_DESC" type="LocString" />
 	<Column name="STORE_OWNED_DESC" type="LocString" />
-	<Column name="STORE_PREORDER_DESC" type="LocString" />
+	<Column name="STORE_PREORDER_WINGS_1_DESC" type="LocString" />
+	<Column name="STORE_PREORDER_WINGS_2_DESC" type="LocString" />
+	<Column name="STORE_PREORDER_WINGS_3_DESC" type="LocString" />
+	<Column name="STORE_PREORDER_WINGS_4_DESC" type="LocString" />
+	<Column name="STORE_PREORDER_WINGS_5_DESC" type="LocString" />
+	<Column name="STORE_PREORDER_RADIO_TEXT" type="LocString" />
 	<Column name="STORE_PREVIEW_REWARDS_TEXT" type="LocString" />
 	<Column name="ADVENTURE_DEF_PREFAB" type="AssetPath" />
 	<Column name="STORE_PREFAB" type="AssetPath" />
 	<Column name="LEAVING_SOON" type="Bool" />
 	<Column name="LEAVING_SOON_TEXT" type="LocString" />
 	<Column name="GAME_MODE_ICON" type="AssetPath" />
+	<Column name="PRODUCT_STRING_KEY" type="String" />
 	<Record>
 		<Field column="ID">1</Field>
 		<Field column="NOTE_DESC">Tutorial</Field>
@@ -43,7 +49,7 @@
 			<ptBR>Tutorial</ptBR>
 			<plPL>Samouczek</plPL>
 			<jaJP>チュートリアル</jaJP>
-			<thTH>โหมดสอนเล่น</thTH>
+			<thTH>สอนวิธีเล่น</thTH>
 		</Field>
 		<Field column="SORT_ORDER" />
 		<Field column="STORE_BUY_BUTTON_LABEL" />
@@ -60,13 +66,19 @@
 		<Field column="STORE_BUY_WINGS_4_DESC" />
 		<Field column="STORE_BUY_WINGS_5_DESC" />
 		<Field column="STORE_OWNED_DESC" />
-		<Field column="STORE_PREORDER_DESC" />
+		<Field column="STORE_PREORDER_WINGS_1_DESC" />
+		<Field column="STORE_PREORDER_WINGS_2_DESC" />
+		<Field column="STORE_PREORDER_WINGS_3_DESC" />
+		<Field column="STORE_PREORDER_WINGS_4_DESC" />
+		<Field column="STORE_PREORDER_WINGS_5_DESC" />
+		<Field column="STORE_PREORDER_RADIO_TEXT" />
 		<Field column="STORE_PREVIEW_REWARDS_TEXT" />
 		<Field column="ADVENTURE_DEF_PREFAB" />
 		<Field column="STORE_PREFAB" />
 		<Field column="LEAVING_SOON">False</Field>
 		<Field column="LEAVING_SOON_TEXT" />
 		<Field column="GAME_MODE_ICON" />
+		<Field column="PRODUCT_STRING_KEY" />
 	</Record>
 	<Record>
 		<Field column="ID">2</Field>
@@ -102,13 +114,19 @@
 		<Field column="STORE_BUY_WINGS_4_DESC" />
 		<Field column="STORE_BUY_WINGS_5_DESC" />
 		<Field column="STORE_OWNED_DESC" />
-		<Field column="STORE_PREORDER_DESC" />
+		<Field column="STORE_PREORDER_WINGS_1_DESC" />
+		<Field column="STORE_PREORDER_WINGS_2_DESC" />
+		<Field column="STORE_PREORDER_WINGS_3_DESC" />
+		<Field column="STORE_PREORDER_WINGS_4_DESC" />
+		<Field column="STORE_PREORDER_WINGS_5_DESC" />
+		<Field column="STORE_PREORDER_RADIO_TEXT" />
 		<Field column="STORE_PREVIEW_REWARDS_TEXT" />
 		<Field column="ADVENTURE_DEF_PREFAB">Assets/Game/GameObjects/AdventureDefs/AdventureDef_Practice</Field>
 		<Field column="STORE_PREFAB" />
 		<Field column="LEAVING_SOON">False</Field>
 		<Field column="LEAVING_SOON_TEXT" />
 		<Field column="GAME_MODE_ICON" />
+		<Field column="PRODUCT_STRING_KEY" />
 	</Record>
 	<Record>
 		<Field column="ID">3</Field>
@@ -339,7 +357,12 @@
 			<jaJP>・ナクスラーマスのボス達を倒して報酬を獲得しよう。</jaJP>
 			<thTH>• ปราบบอสต่างๆ ใน Naxxramas เพื่อรับรางวัลของคุณ</thTH>
 		</Field>
-		<Field column="STORE_PREORDER_DESC" />
+		<Field column="STORE_PREORDER_WINGS_1_DESC" />
+		<Field column="STORE_PREORDER_WINGS_2_DESC" />
+		<Field column="STORE_PREORDER_WINGS_3_DESC" />
+		<Field column="STORE_PREORDER_WINGS_4_DESC" />
+		<Field column="STORE_PREORDER_WINGS_5_DESC" />
+		<Field column="STORE_PREORDER_RADIO_TEXT" />
 		<Field column="STORE_PREVIEW_REWARDS_TEXT" loc_ID="20798">
 			<enUS>Earn these cards and more by defeating the deadly bosses of Naxxramas!</enUS>
 			<frFR>Obtenez ces cartes et bien d’autres en battant les boss de Naxxramas !</frFR>
@@ -373,9 +396,10 @@
 			<ptBR>Logo Naxxramas não estará mais à venda. Você ainda pode criar e jogar os cards em quase todos os modos, mas não no Formato Padrão.</ptBR>
 			<plPL>Dodatek Naxxramas wkrótce przestanie być dostępny w sprzedaży. Wciąż możliwe będzie tworzenie tych kart i gra nimi w większości trybów, choć nie w nadchodzącym formacie Standardowym.</plPL>
 			<jaJP>ナクスラーマスの購入及び、カードの作成とプレイはスタンダード・フォーマットをもって終了します。</jaJP>
-			<thTH>Naxxramas จะเลิกวางจำหน่ายในเร็วๆ นี้ คุณยังคงสามารถสร้างและใช้การ์ดในโหมดส่วนใหญ่ได้ ยกเว้นเกมในกฎมาตรฐานที่กำลังจะมาถึง</thTH>
+			<thTH>Naxxramas จะเลิกวางจำหน่ายในเร็ว ๆ นี้ คุณยังคงสามารถสร้างและใช้การ์ดในโหมดส่วนใหญ่ได้ ยกเว้นเกมในกฎมาตรฐานที่กำลังจะมาถึง</thTH>
 		</Field>
 		<Field column="GAME_MODE_ICON">Assets/Game/Textures/AdventureChooser/SetIcons/SetIcon_NAX</Field>
+		<Field column="PRODUCT_STRING_KEY">NAXX</Field>
 	</Record>
 	<Record>
 		<Field column="ID">4</Field>
@@ -411,7 +435,7 @@
 			<ptBR>Rocha Negra</ptBR>
 			<plPL>Czarna Góra</plPL>
 			<jaJP>ブラックロック</jaJP>
-			<thTH>แบล็คร็อค</thTH>
+			<thTH>Blackrock</thTH>
 		</Field>
 		<Field column="STORE_BUY_WINGS_1_HEADLINE" loc_ID="20804">
 			<enUS>Blackrock Mountain (Unlock the final wing)</enUS>
@@ -555,7 +579,7 @@
 			<ptBR>• Continue sua aventura! Desbloqueie as duas últimas alas e ganhe até 13 cards novos que só podem ser encontrados em Montanha Rocha Negra.</ptBR>
 			<plPL>• Kontynuuj przygodę! Odblokuj dwa pozostałe skrzydła i zdobądź nawet 13 nowych kart, które można znaleźć jedynie w Czarnej Górze.</plPL>
 			<jaJP>・冒険を続けよう！残る2つの区画を開放し、ブラックロック・マウンテンでのみ手に入る最大13枚の新カードを獲得しよう。</jaJP>
-			<thTH>• ผจญภัยต่อ! ปลดล็อคสองวิงสุดท้าย และรับการ์ดใหม่สูงสุด 13_ใบที่หาได้จากใน Blackrock Mountain เท่านั้น</thTH>
+			<thTH>• ผจญภัยต่อ! ปลดล็อคสองวิงสุดท้าย และรับการ์ดใหม่สูงสุด 13_ใบที่หาได้จากใน  Blackrock Mountain เท่านั้น</thTH>
 		</Field>
 		<Field column="STORE_BUY_WINGS_3_DESC" loc_ID="20807">
 			<enUS>• Continue your adventure! Unlock the last three wings and earn up to 19 new cards that can only be found in Blackrock Mountain.</enUS>
@@ -571,7 +595,7 @@
 			<ptBR>• Continue sua aventura! Desbloqueie as três últimas alas e ganhe até 19 cards novos que só podem ser encontrados em Montanha Rocha Negra.</ptBR>
 			<plPL>• Kontynuuj przygodę! Odblokuj trzy pozostałe skrzydła i zdobądź nawet 19 nowych kart, które można znaleźć jedynie w Czarnej Górze.</plPL>
 			<jaJP>・冒険を続けよう！残る3つの区画を開放し、ブラックロック・マウンテンでのみ手に入る最大19枚の新カードを獲得しよう。</jaJP>
-			<thTH>• ผจญภัยต่อ! ปลดล็อคสามวิงสุดท้าย และรับการ์ดใหม่สูงสุด 19_ใบที่หาได้จากใน Blackrock Mountain เท่านั้น</thTH>
+			<thTH>• ผจญภัยต่อ! ปลดล็อคสามวิงสุดท้าย และรับการ์ดใหม่สูงสุด 19_ใบที่หาได้จากใน  Blackrock Mountain เท่านั้น</thTH>
 		</Field>
 		<Field column="STORE_BUY_WINGS_4_DESC" loc_ID="20806">
 			<enUS>• Continue your adventure! Unlock the last four wings and earn up to 25 new cards that can only be found in Blackrock Mountain.</enUS>
@@ -621,22 +645,27 @@
 			<jaJP>・ブラックロック・マウンテンのボス達を倒して報酬を獲得しよう。</jaJP>
 			<thTH>• ปราบบอสต่างๆ ใน Blackrock Mountain เพื่อรับรางวัลของคุณ</thTH>
 		</Field>
-		<Field column="STORE_PREORDER_DESC" loc_ID="20813">
+		<Field column="STORE_PREORDER_WINGS_1_DESC" />
+		<Field column="STORE_PREORDER_WINGS_2_DESC" />
+		<Field column="STORE_PREORDER_WINGS_3_DESC" />
+		<Field column="STORE_PREORDER_WINGS_4_DESC" />
+		<Field column="STORE_PREORDER_WINGS_5_DESC" loc_ID="23097">
 			<enUS>• Face off against 17 bosses\n• Earn 31 Blackrock Mountain cards\n• Get an exclusive pre-order cardback\n• The adventure begins in April!</enUS>
 			<frFR>• Affrontez 17 boss\n• Gagnez les 31 cartes du mont Rochenoire\n• Obtenez un dos de carte exclusif à la précommande\n• L’aventure commence en avril !</frFR>
-			<deDE>• Stellen Sie sich 17 Bossen\n• Verdienen Sie sich 31 Schwarzfels-Karten\n• Holen Sie sich den exklusiven Vorabkäufer-Kartenrücken\n• Das Abenteuer beginnt im April!</deDE>
+			<deDE>• Stellen Sie sich 17 Bossen\n• Erkämpfen Sie sich 31 Schwarzfels-Karten\n• Holen Sie sich den exklusiven Vorabkäufer-Kartenrücken\n• Das Abenteuer beginnt im April!</deDE>
 			<koKR>• 17마리의 우두머리와 맞서 실력을 증명하세요.\n• 검은바위 산에서 얻을 수 있는 31장의 카드를 획득하세요.\n• 사전 구매로만 제공되는 특별한 카드 뒷면을 획득하세요.\n• 검은바위 산 모험은 오는 4월에 시작됩니다!</koKR>
 			<esES>• Enfréntate a 17 jefes.\n• Obtén 31 cartas de la Montaña Roca Negra.\n• Hazte con un dorso de carta exclusivo por realizar una compra anticipada.\n• ¡La aventura llega en abril!</esES>
 			<esMX>• Enfrenta a 17 jefes\n• Consigue 31 cartas de Montaña Roca Negra\n• Obtén un dorso de carta exclusivo con tu reserva\n• ¡La aventura comienza en abril!</esMX>
-			<ruRU>• Сразитесь с 17 боссами\n• Получите 31 карту Черной горы\n• Эксклюзивная рубашка для карт за предзаказ\n• Приключение начинается в апреле!</ruRU>
+			<ruRU>• Сразитесь с 17 боссами.\n• Получите 31 карту Черной горы.\n• Эксклюзивная рубашка для карт за предзаказ.\n• Приключение начинается в апреле!</ruRU>
 			<zhTW>• 面對17個首領\n• 贏取31張黑石山卡牌\n• 取得預購的專屬卡背\n• 冒險將在四月展開！</zhTW>
 			<zhCN>• 挑战17位首领\n• 赢取31张黑石山卡牌\n• 获得独一无二的预购卡背\n• 全新冒险将在四月开始！</zhCN>
 			<itIT>• Affronta 17 boss\n• Ottieni 31 carte del Massiccio Roccianera\n• Ricevi l'esclusivo dorso del preacquisto\n• L'avventura comincia ad aprile!</itIT>
 			<ptBR>• Enfrente 17 chefes\n• Ganhe 31 cards da Montanha Rocha Negra\n• Receba um verso de card exclusivo na pré-venda\n• A aventura começa em abril!</ptBR>
-			<plPL>• Zmierz się z 17 bossami\n• Zdobądź 31 kart z Czarnej Góry\n• Otrzymaj specjalny rewers za zakup w przedsprzedaży\n• Przygoda zacznie się w kwietniu!</plPL>
+			<plPL>• Zmierz się z 17 bossami\n• Zdobądź 31 kart z Czarnej Góry\n• Odbierz specjalny rewers za zakup w przedsprzedaży\n• Przygoda zacznie się w kwietniu!</plPL>
 			<jaJP>・17体のボスとの対決\n・ブラックロック・マウンテンの新カード31枚を獲得しよう\n・先行予約すると限定のカード裏面デザインが手に入る\n・冒険の始まりは4月！</jaJP>
 			<thTH>• เผชิญหน้ากับบอสทั้ง 17_ตัว\n• รับการ์ด Blackrock Mountain 31_ใบ\n• รับหลังการ์ดสั่งซื้อล่วงหน้าสุดพิเศษ\n• การผจญภัยจะเริ่มต้นในเดือนเมษายน!</thTH>
 		</Field>
+		<Field column="STORE_PREORDER_RADIO_TEXT" />
 		<Field column="STORE_PREVIEW_REWARDS_TEXT" loc_ID="20814">
 			<enUS>Earn these cards and more by defeating the deadly bosses of Blackrock Mountain!</enUS>
 			<frFR>Obtenez ces cartes et bien d’autres en battant les boss du mont Rochenoire !</frFR>
@@ -658,6 +687,7 @@
 		<Field column="LEAVING_SOON">False</Field>
 		<Field column="LEAVING_SOON_TEXT" />
 		<Field column="GAME_MODE_ICON">Assets/Game/Textures/AdventureChooser/SetIcons/SetIcon_BRM</Field>
+		<Field column="PRODUCT_STRING_KEY">BRM</Field>
 	</Record>
 	<Record>
 		<Field column="ID">7</Field>
@@ -678,13 +708,19 @@
 		<Field column="STORE_BUY_WINGS_4_DESC" />
 		<Field column="STORE_BUY_WINGS_5_DESC" />
 		<Field column="STORE_OWNED_DESC" />
-		<Field column="STORE_PREORDER_DESC" />
+		<Field column="STORE_PREORDER_WINGS_1_DESC" />
+		<Field column="STORE_PREORDER_WINGS_2_DESC" />
+		<Field column="STORE_PREORDER_WINGS_3_DESC" />
+		<Field column="STORE_PREORDER_WINGS_4_DESC" />
+		<Field column="STORE_PREORDER_WINGS_5_DESC" />
+		<Field column="STORE_PREORDER_RADIO_TEXT" />
 		<Field column="STORE_PREVIEW_REWARDS_TEXT" />
 		<Field column="ADVENTURE_DEF_PREFAB" />
 		<Field column="STORE_PREFAB" />
 		<Field column="LEAVING_SOON">False</Field>
 		<Field column="LEAVING_SOON_TEXT" />
 		<Field column="GAME_MODE_ICON" />
+		<Field column="PRODUCT_STRING_KEY" />
 	</Record>
 	<Record>
 		<Field column="ID">8</Field>
@@ -885,7 +921,12 @@
 			<jaJP>・「リーグ・オブ・エクスプローラー」で遭遇するボス達を倒して報酬を獲得しよう。</jaJP>
 			<thTH>• ปราบบอสต่างๆ ใน League of Explorers เพื่อรับรางวัลของคุณ</thTH>
 		</Field>
-		<Field column="STORE_PREORDER_DESC" />
+		<Field column="STORE_PREORDER_WINGS_1_DESC" />
+		<Field column="STORE_PREORDER_WINGS_2_DESC" />
+		<Field column="STORE_PREORDER_WINGS_3_DESC" />
+		<Field column="STORE_PREORDER_WINGS_4_DESC" />
+		<Field column="STORE_PREORDER_WINGS_5_DESC" />
+		<Field column="STORE_PREORDER_RADIO_TEXT" />
 		<Field column="STORE_PREVIEW_REWARDS_TEXT" loc_ID="21881">
 			<enUS>Join the League to earn these cards and more!</enUS>
 			<frFR>Rejoignez la Ligue pour obtenir ces cartes et bien plus encore !</frFR>
@@ -907,5 +948,294 @@
 		<Field column="LEAVING_SOON">False</Field>
 		<Field column="LEAVING_SOON_TEXT" />
 		<Field column="GAME_MODE_ICON">Assets/Game/Textures/AdventureChooser/SetIcons/SetIcon_LOE</Field>
+		<Field column="PRODUCT_STRING_KEY">LOE</Field>
+	</Record>
+	<Record>
+		<Field column="ID">10</Field>
+		<Field column="NOTE_DESC">Karazhan</Field>
+		<Field column="NAME" loc_ID="22122">
+			<enUS>Karazhan</enUS>
+			<deDE>Karazhan</deDE>
+			<esES>Karazhan</esES>
+			<esMX>Karazhan</esMX>
+			<frFR>Karazhan</frFR>
+			<itIT>Karazhan</itIT>
+			<jaJP>カラザン</jaJP>
+			<koKR>카라잔</koKR>
+			<plPL>Karazhan</plPL>
+			<ptBR>Karazhan</ptBR>
+			<ruRU>Каражан</ruRU>
+			<thTH>Karazhan</thTH>
+			<zhCN>卡拉赞</zhCN>
+			<zhTW>夜夜卡拉贊</zhTW>
+		</Field>
+		<Field column="SORT_ORDER">3</Field>
+		<Field column="STORE_BUY_BUTTON_LABEL" loc_ID="22992">
+			<enUS>Karazhan</enUS>
+			<deDE>Karazhan</deDE>
+			<esES>Karazhan</esES>
+			<esMX>Karazhan</esMX>
+			<frFR>Karazhan</frFR>
+			<itIT>Karazhan</itIT>
+			<jaJP>カラザン</jaJP>
+			<koKR>카라잔</koKR>
+			<plPL>Karazhan</plPL>
+			<ptBR>Karazhan</ptBR>
+			<ruRU>Каражан</ruRU>
+			<thTH>คาราซาน</thTH>
+			<zhCN>卡拉赞</zhCN>
+			<zhTW>夜夜卡拉贊</zhTW>
+		</Field>
+		<Field column="STORE_BUY_WINGS_1_HEADLINE" loc_ID="22993">
+			<enUS>One Night in Karazhan (Unlock the final wing)</enUS>
+			<deDE>Eine Nacht in Karazhan (letzter Flügel):</deDE>
+			<esES>Una Noche en Karazhan (desbloquea la última ala)</esES>
+			<esMX>Una noche en Karazhan (Desbloquea el ala final)</esMX>
+			<frFR>Karazhan (débloquez le dernier étage)</frFR>
+			<itIT>Una notte a Karazhan (sblocca l'ultima ala)</itIT>
+			<jaJP>ワン・ナイト・イン・カラザン（最終区画をアンロック）</jaJP>
+			<koKR>한여름 밤의 카라잔 (마지막 지구 잠금 해제)</koKR>
+			<plPL>Pewnej nocy w Karazhanie (odblokuj ostatnie skrzydło)</plPL>
+			<ptBR>Uma Noite em Karazhan (Desbloquear a ala final)</ptBR>
+			<ruRU>«Вечеринка в Каражане» (последнее крыло)</ruRU>
+			<thTH>One Night in Karazhan (ปลดล็อควิงสุดท้าย)</thTH>
+			<zhCN>卡拉赞（解锁最后一个区）</zhCN>
+			<zhTW>夜夜卡拉贊(解鎖最後一個區域)</zhTW>
+		</Field>
+		<Field column="STORE_BUY_WINGS_2_HEADLINE" loc_ID="22994">
+			<enUS>One Night in Karazhan (Unlock 2 remaining wings)</enUS>
+			<deDE>Eine Nacht in Karazhan (2 verbleibende Flügel):</deDE>
+			<esES>Una Noche en Karazhan (desbloquea las 2 alas restantes)</esES>
+			<esMX>Una noche en Karazhan (Desbloquea las 2 alas restantes)</esMX>
+			<frFR>Karazhan (débloquez les 2 derniers étages)</frFR>
+			<itIT>Una notte a Karazhan (sblocca le ultime 2 ali)</itIT>
+			<jaJP>ワン・ナイト・イン・カラザン（残り2区画をアンロック）</jaJP>
+			<koKR>한여름 밤의 카라잔 (나머지 2개 지구 잠금 해제)</koKR>
+			<plPL>Pewnej nocy w Karazhanie (odblokuj 2 pozostałe skrzydła)</plPL>
+			<ptBR>Uma Noite em Karazhan (Desbloquear 2 alas restantes)</ptBR>
+			<ruRU>«Вечеринка в Каражане» (2 оставшихся крыла)</ruRU>
+			<thTH>One Night in Karazhan (ปลดล็อค 2 วิงที่เหลือ)</thTH>
+			<zhCN>卡拉赞（解锁后两个区）</zhCN>
+			<zhTW>夜夜卡拉贊(解鎖剩餘的2個區域)</zhTW>
+		</Field>
+		<Field column="STORE_BUY_WINGS_3_HEADLINE" loc_ID="22995">
+			<enUS>One Night in Karazhan (Unlock 3 remaining wings)</enUS>
+			<deDE>Eine Nacht in Karazhan (3 verbleibende Flügel):</deDE>
+			<esES>Una Noche en Karazhan (desbloquea las 3 alas restantes)</esES>
+			<esMX>Una noche en Karazhan (Desbloquea las 3 alas restantes)</esMX>
+			<frFR>Karazhan (débloquez les 3 derniers étages)</frFR>
+			<itIT>Una notte a Karazhan (sblocca le ultime 3 ali)</itIT>
+			<jaJP>ワン・ナイト・イン・カラザン（残り3区画をアンロック）</jaJP>
+			<koKR>한여름 밤의 카라잔 (나머지 3개 지구 잠금 해제)</koKR>
+			<plPL>Pewnej nocy w Karazhanie (odblokuj 3 pozostałe skrzydła)</plPL>
+			<ptBR>Uma Noite em Karazhan (Desbloquear 3 alas restantes)</ptBR>
+			<ruRU>«Вечеринка в Каражане» (3 оставшихся крыла)</ruRU>
+			<thTH>One Night in Karazhan (ปลดล็อค 3 วิงที่เหลือ)</thTH>
+			<zhCN>卡拉赞（解锁后三个区）</zhCN>
+			<zhTW>夜夜卡拉贊(解鎖剩餘的3個區域)</zhTW>
+		</Field>
+		<Field column="STORE_BUY_WINGS_4_HEADLINE" loc_ID="22996">
+			<enUS>One Night in Karazhan (Unlock all 4 wings)</enUS>
+			<deDE>Eine Nacht in Karazhan (alle 4 Flügel):</deDE>
+			<esES>Una Noche en Karazhan (desbloquea las 4 alas)</esES>
+			<esMX>Una noche en Karazhan (Desbloquea las 4 alas)</esMX>
+			<frFR>Karazhan (débloquez les 4 étages)</frFR>
+			<itIT>Una notte a Karazhan (sblocca tutte le 4 ali)</itIT>
+			<jaJP>ワン・ナイト・イン・カラザン（全4区画をアンロック）</jaJP>
+			<koKR>한여름 밤의 카라잔 (4개 지구 모두 잠금 해제)</koKR>
+			<plPL>Pewnej nocy w Karazhanie (odblokuj wszystkie 4 skrzydła)</plPL>
+			<ptBR>Uma Noite em Karazhan (Desbloquear todas as 4 alas)</ptBR>
+			<ruRU>«Вечеринка в Каражане» (все 4 крыла)</ruRU>
+			<thTH>One Night in Karazhan (ปลดล็อคทั้ง 4 วิง)</thTH>
+			<zhCN>卡拉赞（解锁全部四个区）</zhCN>
+			<zhTW>夜夜卡拉贊(解鎖全部4個區域)</zhTW>
+		</Field>
+		<Field column="STORE_BUY_WINGS_5_HEADLINE" />
+		<Field column="STORE_OWNED_HEADLINE" loc_ID="22997">
+			<enUS>One Night in Karazhan (Purchased)</enUS>
+			<deDE>Eine Nacht in Karazhan (erworben)</deDE>
+			<esES>Una Noche en Karazhan (adquirida)</esES>
+			<esMX>Una noche en Karazhan (Comprada)</esMX>
+			<frFR>Une nuit à Karazhan (déjà achetée)</frFR>
+			<itIT>Una notte a Karazhan (acquistata)</itIT>
+			<jaJP>ワン・ナイト・イン・カラザン（購入済）</jaJP>
+			<koKR>한여름 밤의 카라잔 (구매 완료)</koKR>
+			<plPL>Pewnej nocy w Karazhanie (zakupiono)</plPL>
+			<ptBR>Uma Noite em Karazhan (Comprada)</ptBR>
+			<ruRU>«Вечеринка в Каражане» (приобретено)</ruRU>
+			<thTH>One Night in Karazhan (ซื้อแล้ว)</thTH>
+			<zhCN>卡拉赞（已购买）</zhCN>
+			<zhTW>夜夜卡拉贊(已購買)</zhTW>
+		</Field>
+		<Field column="STORE_PREORDER_HEADLINE" loc_ID="23032">
+			<enUS>One Night in Karazhan (Launch Promotion)</enUS>
+			<deDE>Eine Nacht in Karazhan (Sonderangebot)</deDE>
+			<esES>Una Noche en Karazhan (promoción de lanzamiento)</esES>
+			<esMX>Una noche en Karazhan (Promoción de lanzamiento)</esMX>
+			<frFR>Une nuit à Karazhan (promotion de lancement)</frFR>
+			<itIT>Una notte a Karazhan (promozione di lancio)</itIT>
+			<jaJP>ワン・ナイト・イン・カラザン（リリース・プロモーション）</jaJP>
+			<koKR>한여름 밤의 카라잔 (출시 프로모션)</koKR>
+			<plPL>Pewnej nocy w Karazhanie (promocja premierowa)</plPL>
+			<ptBR>Uma Noite em Karazhan (Promoção de Lançamento)</ptBR>
+			<ruRU>«Вечеринка в Каражане» (особая акция)</ruRU>
+			<thTH>One Night in Karazhan (โปรโมชั่นเปิดตัว)</thTH>
+			<zhCN>卡拉赞（发布推广活动）</zhCN>
+			<zhTW>夜夜卡拉贊(上市促銷)</zhTW>
+		</Field>
+		<Field column="STORE_BUY_WINGS_1_DESC" loc_ID="22998">
+			<enUS>• Unlock the last wing to finish your adventure!\n• Face off against the 3 remaining bosses.\n• Earn up to 12 brand new cards.</enUS>
+			<deDE>• Schalten Sie den letzten Flügel frei und schließen Sie Ihr Abenteuer ab!\n• Stellen Sie sich den 3 verbleibenden Bossen\n• Erkämpfen Sie sich bis zu 12 brandneue Karten</deDE>
+			<esES>• ¡Desbloquea la última ala y termina la aventura!\n• Enfréntate a los 3 jefes que quedan.\n• Consigue hasta 12 cartas nuevas.</esES>
+			<esMX>• ¡Desbloquea el ala final para terminar tu aventura!\n• Enfrenta a los 3 jefes restantes.\n• Obtén hasta 12 nuevas cartas.</esMX>
+			<frFR>• Débloquez le dernier étage pour terminer votre aventure_!\nAffrontez les 3 boss restants.\nObtenez jusqu’à 12 nouvelles cartes.</frFR>
+			<itIT>• Sblocca l'ultima ala per completare l'avventura!\n• Affronta i 3 boss restanti\n• Ottieni fino a 12 nuove carte</itIT>
+			<jaJP>・パーティーはいよいよクライマックス！最後の区画を開放し、3体のボスと対決しよう！カラザンでだけ手に入る最大12枚の新カードがを獲得できるぞ！</jaJP>
+			<koKR>• 마지막 지구를 잠금 해제하여 모험을 마무리하세요!\n• 나머지 3마리의 우두머리와 맞서 실력을 증명하세요.\n• 12장의 새로운 카드를 획득하세요.</koKR>
+			<plPL>• Odblokuj ostatnie skrzydło, aby dokończyć swoją przygodę!\n• Zmierz się z 3 pozostałymi bossami.\n• Zdobądź nawet 12 zupełnie nowych kart.</plPL>
+			<ptBR>• Desbloqueie a última ala para terminar sua aventura!\n• Enfrente os 3 chefes restantes\n • Ganhe até 12 cards novos.</ptBR>
+			<ruRU>• Откройте доступ к последнему крылу и завершите приключение!\n• Сразитесь с 3 оставшимися боссами.\n• Получите до 12 новых карт.</ruRU>
+			<thTH>• ปลดล็อควิงสุดท้ายเพื่อไปให้ถึงปลายทางของการผจญภัย!\n• เผชิญหน้ากับบอสที่เหลืออีก 3 ตัว\n• รับการ์ดใหม่สูงสุด 12 ใบ</thTH>
+			<zhCN>• 完成你的冒险之旅！解锁最后一个区。\n• 挑战剩余的3位首领。\n• 赢得只有在卡拉赞中才能获取的至多12张全新卡牌。</zhCN>
+			<zhTW>• 解鎖最後一區以完成你的冒險！\n• 面對剩下的3個首領。\n• 獲得最多12張全新的卡牌。</zhTW>
+		</Field>
+		<Field column="STORE_BUY_WINGS_2_DESC" loc_ID="22999">
+			<enUS>• Unlock the last two wings to continue your adventure!\n• Face off against the 6 remaining bosses.\n• Earn up to 23 brand new cards.</enUS>
+			<deDE>• Schalten Sie die letzten beiden Flügel frei und setzen Sie Ihr Abenteuer fort!\n• Stellen Sie sich den 6 verbleibenden Bossen\n• Erkämpfen Sie sich bis zu 23 brandneue Karten</deDE>
+			<esES>• ¡Desbloquea las dos últimas alas y continúa la aventura!\n• Enfréntate a los 6 jefes que quedan.\n• Consigue hasta 23 cartas nuevas.</esES>
+			<esMX>• ¡Desbloquea las últimas dos alas para continuar tu aventura!\n• Enfrenta a los 6 jefes restantes.\n• Obtén hasta 23 nuevas cartas.</esMX>
+			<frFR>• Débloquez les deux derniers étages pour continuer votre aventure_!\nAffrontez les 6 boss restants.\nObtenez jusqu’à 23 nouvelles cartes.</frFR>
+			<itIT>• Sblocca le ultime due ali per completare l'avventura!\n• Affronta i 6 boss restanti\n• Ottieni fino a 23 nuove carte</itIT>
+			<jaJP>・パーティーはいよいよクライマックス！最後の2区画を開放し、6体のボスと対決しよう！カラザンでだけ手に入る最大23枚の新カードがを獲得できるぞ！</jaJP>
+			<koKR>• 나머지 두 지구를 잠금 해제하여 모험을 계속하세요!\n• 나머지 6마리의 우두머리와 맞서 실력을 증명하세요.\n• 23장의 새로운 카드를 획득하세요.</koKR>
+			<plPL>• Odblokuj dwa ostatnie skrzydła, aby kontynuować przygodę!\n• Zmierz się z 6 pozostałymi bossami.\n• Zdobądź nawet 23 zupełnie nowe karty.</plPL>
+			<ptBR>• Desbloqueie as últimas duas alas para continuar sua aventura!\n• Enfrente os 6  chefes restantes\n• Ganhe 23  novos cards.</ptBR>
+			<ruRU>• Откройте доступ к оставшимся двум крыльям и завершите приключение!\n• Сразитесь с 6 оставшимися боссами.\n• Получите до 23 новых карт.</ruRU>
+			<thTH>• ปลดล็อคสองวิงสุดท้ายเพื่อผจญภัยต่อ!\n• เผชิญหน้ากับบอสอีก 6 ตัวที่เหลือ\n• รับการ์ดใหม่สูงสุด 23 ใบ</thTH>
+			<zhCN>• 继续你的冒险之旅！解锁后两个区。\n• 挑战剩余的6位首领。\n• 赢得只有在卡拉赞中才能获取的至多23张全新卡牌。</zhCN>
+			<zhTW>• 解鎖剩餘的兩區以繼續你的冒險！\n• 面對剩下的6個首領。\n• 獲得最多23張全新的卡牌。</zhTW>
+		</Field>
+		<Field column="STORE_BUY_WINGS_3_DESC" loc_ID="23000">
+			<enUS>• Unlock the last three wings to continue your adventure!\n• Face off against the 9 remaining bosses.\n• Earn up to 33 brand new cards.</enUS>
+			<deDE>• Schalten Sie die letzten drei Flügel frei und setzen Sie Ihr Abenteuer fort!\n• Stellen Sie sich den 9 verbleibenden Bossen\n• Erkämpfen Sie sich bis zu 33 brandneue Karten</deDE>
+			<esES>• ¡Desbloquea las tres últimas alas y continúa la aventura!\n• Enfréntate a los 9 jefes que quedan.\n• Consigue hasta 33 cartas nuevas.</esES>
+			<esMX>• ¡Desbloquea las últimas tres alas para continuar tu aventura!\n• Enfrenta a los 9 jefes restantes.\n• Obtén hasta 33 nuevas cartas.</esMX>
+			<frFR>• Débloquez les trois derniers étages pour continuer votre aventure_!\nAffrontez les 9 boss restants.\nObtenez jusqu’à 33 nouvelles cartes.</frFR>
+			<itIT>• Sblocca le ultime tre ali per completare l'avventura!\n• Affronta i 9 boss restanti\n• Ottieni fino a 33 nuove carte</itIT>
+			<jaJP>・パーティーはいよいよクライマックス！最後の3区画を開放し、9体のボスと対決しよう！カラザンでだけ手に入る最大33枚の新カードがを獲得できるぞ！</jaJP>
+			<koKR>• 나머지 세 지구를 잠금 해제하여 모험을 계속하세요!\n• 나머지 9마리의 우두머리와 맞서 실력을 증명하세요.\n• 33장의 새로운 카드를 획득하세요.</koKR>
+			<plPL>• Odblokuj trzy ostatnie skrzydła, aby kontynuować przygodę!\n• Zmierz się z 9 pozostałymi bossami.\n• Zdobądź nawet 33 zupełnie nowe karty.</plPL>
+			<ptBR>• Desbloqueie as últimas três alas para continuar sua aventura!\n• Enfrente os 9 chefes restantes\n • Ganhe até 33 cards novos.</ptBR>
+			<ruRU>• Откройте доступ к оставшимся трем крыльям и завершите приключение!\n• Сразитесь с 9 оставшимися боссами.\n• Получите до 33 новых карт.</ruRU>
+			<thTH>• ปลดล็อคสามวิงสุดท้ายเพื่อผจญภัยต่อ!\n• เผชิญหน้ากับบอสอีก 9 ตัวที่เหลือ\n• รับการ์ดใหม่สูงสุด 33 ใบ</thTH>
+			<zhCN>• 继续你的冒险之旅！解锁后三个区。\n• 挑战剩余的9位首领。\n• 赢得只有在卡拉赞中才能获取的至多33张全新卡牌。</zhCN>
+			<zhTW>• 解鎖剩餘的三區以繼續你的冒險！\n• 面對剩下的9個首領。\n• 獲得最多33張全新的卡牌。</zhTW>
+		</Field>
+		<Field column="STORE_BUY_WINGS_4_DESC" loc_ID="23001">
+			<enUS>• Unlock all the wings and start your adventure!\n• Face off against 12 bosses.\n• Earn up to 45 brand new cards that can only be found in Karazhan.</enUS>
+			<deDE>• Schalten Sie alle Flügel frei und stürzen Sie sich ins Abenteuer!\n• Stellen Sie sich 12 Bossen\n• Erkämpfen Sie sich bis zu 45 neue Karten, die nur in Karazhan zu finden sind</deDE>
+			<esES>• ¡Desbloquea todas las alas y empieza la aventura!\n• Enfréntate a 12 jefes.\n• Consigue hasta 45 cartas nuevas que solo se pueden obtener en Karazhan.</esES>
+			<esMX>• ¡Desbloquea todas las alas y empieza tu aventura!\n• Enfrenta a 12 jefes.\n• Consigue hasta 45 nuevas cartas que solo pueden ser encontradas en Karazhan.</esMX>
+			<frFR>• Débloquez tous les étages et lancez-vous dans l’aventure_! Affrontez 12 boss.\nObtenez jusqu’à 45 nouvelles cartes ne pouvant être gagnées que dans Karazhan.</frFR>
+			<itIT>• Sblocca tutte le ali e inizia l'avventura!\n• Affronta 12 boss\n• Ottieni fino a 45 nuove carte reperibili solo a Karazhan</itIT>
+			<jaJP>・パーティを始めよう！全ての区画を開放し、12体のボスと対決しよう！カラザンでだけ手に入る最大45枚の新カードを獲得できるぞ！</jaJP>
+			<koKR>• 모든 지구를 잠금 해제하여 모험을 시작하세요!\n• 12마리의 우두머리와 맞서 실력을 증명하세요.\n• 45장의 새로운 카드를 획득하세요.</koKR>
+			<plPL>• Odblokuj wszystkie skrzydła i rozpocznij przygodę!\n• Zmierz się z 12 bossami.\n• Zdobądź nawet 45 zupełnie nowych kart, które można znaleźć jedynie w Karazhanie.</plPL>
+			<ptBR>• Desbloqueie todas as alas para começar sua aventura!\n• Enfrente 12 chefes\n • Ganhe até 45 cards novos que só podem ser encontrados em Karazhan.</ptBR>
+			<ruRU>• Откройте все крылья и отправляйтесь в приключение!\n• Сразитесь с 12 боссами.\n• Получите до 45 новых карт, которые можно найти только в Каражане.</ruRU>
+			<thTH>• ปลดล็อควิงทั้งหมดและเริ่มการผจญภัยของคุณ!\n• เผชิญหน้ากับบอสทั้ง 12 ตัว\n• รับการ์ดใหม่สูงสุด 45 ใบที่หาได้จากในคาราซานเท่านั้น</thTH>
+			<zhCN>• 闯入卡拉赞，开始冒险！解锁全部四个区。\n• 挑战12位首领。\n• 赢得只有在卡拉赞中才能获取的至多45张全新卡牌。</zhCN>
+			<zhTW>• 解鎖全部區域以開始你的冒險！\n• 面對12個首領。\n• 獲得最多45張《夜夜卡拉贊》限定的新卡牌。</zhTW>
+		</Field>
+		<Field column="STORE_BUY_WINGS_5_DESC" />
+		<Field column="STORE_OWNED_DESC" loc_ID="23002">
+			<enUS>• Defeat the bosses in Karazhan to earn your rewards.</enUS>
+			<deDE>• Besiegen Sie die Bosse von Karazhan, um Belohnungen zu erhalten.</deDE>
+			<esES>• Derrota a los jefes de Karazhan para obtener recompensas.</esES>
+			<esMX>• Derrota a los jefes de Karazhan para obtener tus recompensas.</esMX>
+			<frFR>• Battez les boss de Karazhan pour obtenir vos récompenses.</frFR>
+			<itIT>• Sconfiggi i boss di Karazhan per ottenere ricompense.</itIT>
+			<jaJP>・カラザンのボス達を倒して報酬を獲得しよう。</jaJP>
+			<koKR>• 카라잔의 우두머리들을 처치하고 보상을 획득하세요.</koKR>
+			<plPL>• Pokonaj bossów w Karazhanie, aby zdobyć nagrody.</plPL>
+			<ptBR>• Derrote os chefes de Karazhan para receber as recompensas.</ptBR>
+			<ruRU>• Чтобы получить награду, победите боссов Каражана.</ruRU>
+			<thTH>• ปราบบอสต่างๆ ในคาราซานเพื่อรับรางวัลของคุณ</thTH>
+			<zhCN>• 击败“卡拉赞”中的所有首领，赢得你的奖励。</zhCN>
+			<zhTW>• 擊敗卡拉贊的首領，贏取你的獎勵。</zhTW>
+		</Field>
+		<Field column="STORE_PREORDER_WINGS_1_DESC" />
+		<Field column="STORE_PREORDER_WINGS_2_DESC" />
+		<Field column="STORE_PREORDER_WINGS_3_DESC" loc_ID="23098">
+			<enUS>• Face off against the 9 remaining bosses.\n• Earn 33 brand new cards.\n• Get a special card back when you purchase the full adventure within one week of launch!</enUS>
+			<deDE>• Stellen Sie sich den 9 verbleibenden Bossen\n• Erkämpfen Sie sich 33 brandneue Karten\n• Beim Kauf des ganzen Abenteuers in der Woche nach der Veröffentlichung erhalten Sie einen exklusiven Kartenrücken dazu!</deDE>
+			<esES>• Enfréntate a los 9 jefes que quedan.\n• Consigue 33 cartas nuevas.\n• ¡Hazte con un dorso de carta especial al comprar la aventura completa antes de que transcurra una semana desde el lanzamiento!</esES>
+			<esMX>• Enfrenta a los 9 jefes restantes.\n• Obtén 33 nuevas cartas.\n• Obtén un dorso de carta especial al comprar la aventura completa durante la primera semana del lanzamiento.</esMX>
+			<frFR>• Affrontez les 9 boss restants.\n• Obtenez 33 nouvelles cartes.\n• Si vous achetez l’intégralité de l’aventure au cours de la première semaine suivant sa sortie, vous recevrez un dos de carte exclusif_!</frFR>
+			<itIT>• Affronta i 9 boss restanti\n• Ottieni 33 nuove carte\n• Ottieni un dorso speciale se acquisti l'intera avventura entro una settimana dalla pubblicazione!</itIT>
+			<jaJP>・9体のボスと対決してカラザンでだけ手に入る最大33枚の新カードがを獲得しよう！発売一週間以内に全ての区画を購入した人は特別なカードバックデザインももらるぞ！</jaJP>
+			<koKR>• 나머지 9마리의 우두머리와 맞서 실력을 증명하세요.\n• 33장의 새로운 카드를 획득하세요.\n• 모험이 출시된 후에 1주일까지 모든 지구를 구매하면 특별한 카드 뒷면을 획득할 수 있습니다!</koKR>
+			<plPL>• Zmierz się z 9 pozostałymi bossami\n• Zdobądź 33 zupełnie nowe karty\n• Odbierz specjalny rewers przy zakupie całej przygody w ciągu tygodnia od premiery!</plPL>
+			<ptBR>• Enfrente os 9 chefes restantes.\n• Ganhe 33 novos cards\n• Receba um verso de card exclusivo ao comprar a aventura completa na primeira semana de lançamento.</ptBR>
+			<ruRU>• Сразитесь с 9 оставшимися боссами.\n• Получите 33 новые карты.\n• Эксклюзивная рубашка для карт за покупку полной версии приключения в течение недели после его выхода.</ruRU>
+			<thTH>• เผชิญหน้ากับบอสอีก 9 ตัว\n• รับการ์ดใหม่ 33 ใบ\n• รับหลังการ์ดลายพิเศษเมื่อคุณซื้อการผจญภัยแบบครบทุกวิงภายในสัปดาห์แรกที่เกมเปิดตัว!</thTH>
+			<zhCN>• 挑战剩余的9位首领\n• 赢取33张全新卡牌\n• 当你在发布后的一周之内购买完整冒险模式，即可获得一张特殊卡背！</zhCN>
+			<zhTW>• 面對剩下的9個首領。\n• 獲得最多33張全新的卡牌。\n• 在上市日一週內購買完整冒險篇章可獲得一張特殊的卡背！</zhTW>
+		</Field>
+		<Field column="STORE_PREORDER_WINGS_4_DESC" loc_ID="23031">
+			<enUS>• Face off against 12 bosses.\n• Earn 45 brand new cards.\n• Get a special card back when you purchase the full adventure within one week of launch!</enUS>
+			<deDE>• Stellen Sie sich 12 Bossen\n• Erkämpfen Sie sich 45 brandneue Karten\n• Beim Kauf des ganzen Abenteuers in der Woche nach der Veröffentlichung erhalten Sie einen exklusiven Kartenrücken dazu!</deDE>
+			<esES>• Enfréntate a 12 jefes.\n• Consigue 45 cartas nuevas.\n• ¡Hazte con un dorso de carta especial al comprar la aventura completa antes de que transcurra una semana desde el lanzamiento!</esES>
+			<esMX>• Enfrenta a 12 jefes.\n• Obtén 45 nuevas cartas.\n• Obtén un dorso de carta especial al comprar la aventura completa durante la primera semana del lanzamiento.</esMX>
+			<frFR>• Affrontez 12 boss.\n• Obtenez 45 nouvelles cartes.\n• Si vous achetez l’intégralité de l’aventure au cours de la première semaine suivant sa sortie, vous recevrez un dos de carte exclusif_!</frFR>
+			<itIT>• Affronta 12 boss\n• Ottieni 45 nuove carte\n• Ottieni un dorso speciale se acquisti l'intera avventura entro una settimana dalla pubblicazione!</itIT>
+			<jaJP>・12体のボスと対決してカラザンでだけ手に入る最大45枚の新カードがを獲得しよう！発売一週間以内に全ての区画を購入した人は特別なカードバックデザインももらるぞ！</jaJP>
+			<koKR>• 12마리의 우두머리와 맞서 실력을 증명하세요.\n• 45장의 새로운 카드를 획득하세요.\n• 모험이 출시된 후에 1주일까지 모든 지구를 구매하면 특별한 카드 뒷면을 획득할 수 있습니다!</koKR>
+			<plPL>• Zmierz się z 12 bossami\n• Zdobądź 45 zupełnie nowych kart\n• Odbierz specjalny rewers przy zakupie całej przygody w ciągu tygodnia od premiery!</plPL>
+			<ptBR>• Enfrente 12 chefes.\n• Ganhe 45 novos cards\n• Receba um verso de card exclusivo ao comprar a aventura completa na primeira semana de lançamento.</ptBR>
+			<ruRU>• Сразитесь с 12 оставшимися боссами.\n• Получите 45 новых карт.\n• Эксклюзивная рубашка для карт за покупку полной версии приключения в течение недели после его выхода.</ruRU>
+			<thTH>• เผชิญหน้ากับบอสทั้ง 12 ตัว\n• รับการ์ดใหม่ 45 ใบ\n• รับหลังการ์ดลายพิเศษเมื่อคุณซื้อการผจญภัยแบบครบทุกวิงภายในสัปดาห์แรกที่เกมเปิดตัว!</thTH>
+			<zhCN>• 挑战12位首领\n• 赢取45张全新卡牌\n• 当你在发布后的一周之内购买完整冒险模式，即可获得一张特殊卡背！</zhCN>
+			<zhTW>• 面對12個首領。\n• 獲得最多45張全新的卡牌。\n• 在上市日一週內購買完整冒險篇章可獲得一張特殊的卡背！</zhTW>
+		</Field>
+		<Field column="STORE_PREORDER_WINGS_5_DESC" />
+		<Field column="STORE_PREORDER_RADIO_TEXT" loc_ID="23051">
+			<enUS>Full Adventure</enUS>
+			<deDE>Ganzes Abenteuer</deDE>
+			<esES>Aventura completa</esES>
+			<esMX>Aventura completa</esMX>
+			<frFR>Aventure complète</frFR>
+			<itIT>Avventura completa</itIT>
+			<jaJP>アドベンチャー全区画</jaJP>
+			<koKR>모험 모드 전체</koKR>
+			<plPL>Cała przygoda</plPL>
+			<ptBR>Aventura Completa</ptBR>
+			<ruRU>Все приключение</ruRU>
+			<thTH>การผจญภัยแบบครบทั้งหมด</thTH>
+			<zhCN>完整冒险模式</zhCN>
+			<zhTW>完整冒險篇章</zhTW>
+		</Field>
+		<Field column="STORE_PREVIEW_REWARDS_TEXT" loc_ID="23003">
+			<enUS>Accept Medivh's invitation to earn these cards and more!</enUS>
+			<deDE>Folgen Sie Medivhs Einladung, um diese und weitere Karten zu erhalten!</deDE>
+			<esES>¡Acepta la invitación de Medivh para conseguir estas y otras cartas!</esES>
+			<esMX>¡Acepta la invitación de Medivh para conseguir estas cartas y mucho más!</esMX>
+			<frFR>Acceptez l’invitation de Medivh pour obtenir ces cartes et bien plus encore !</frFR>
+			<itIT>Accetta l'invito di Medivh per ottenere queste e altre carte!</itIT>
+			<jaJP>メディヴの招待を受けて、こんなお宝カードを手に入れよう！</jaJP>
+			<koKR>메디브의 초대에 응하면 이 카드들은 물론 더 많은 카드들을 얻을 수 있습니다!</koKR>
+			<plPL>Przyjmij zaproszenie Medivha, aby zdobyć te i wiele więcej kart!</plPL>
+			<ptBR>Aceite o convite de Medivh para ganhar esses cards e muito mais!</ptBR>
+			<ruRU>Примите приглашение Медива, чтобы получить эти карты и другие награды!</ruRU>
+			<thTH>ตอบรับคำเชิญของเมดิฟห์เพื่อรับการ์ดเหล่านี้และอื่นๆ อีกมากมาย!</thTH>
+			<zhCN>接受麦迪文的邀请，赢得这些卡牌！</zhCN>
+			<zhTW>接受麥迪文的邀請來獲得這些卡牌！</zhTW>
+		</Field>
+		<Field column="ADVENTURE_DEF_PREFAB">Assets/Game/GameObjects/AdventureDefs/AdventureDef_Kara</Field>
+		<Field column="STORE_PREFAB">Assets/Game/GameObjects/StoreAdventureDefs/StoreAdventureDef_KAR</Field>
+		<Field column="LEAVING_SOON">False</Field>
+		<Field column="LEAVING_SOON_TEXT" />
+		<Field column="GAME_MODE_ICON">Assets/Game/Textures/AdventureChooser/SetIcons/SetIcon_KARA</Field>
+		<Field column="PRODUCT_STRING_KEY">KARA</Field>
 	</Record>
 </Dbf>

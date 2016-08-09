@@ -39,6 +39,9 @@ GLOBAL_CARD_SET_DEBUG	Жижа
 GLOBAL_CARD_SET_EXPERT1	Классический набор	
 GLOBAL_CARD_SET_GVG	Гоблины и гномы	
 GLOBAL_CARD_SET_GVG_SEARCHABLE_SHORTHAND_NAMES	ГиГ	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_KARA	Каражан	
+GLOBAL_CARD_SET_KARA_RESERVE	Запасник Каражана	
+GLOBAL_CARD_SET_KARA_SHORT	Каражан	
 GLOBAL_CARD_SET_LOE	Лига исследователей	
 GLOBAL_CARD_SET_LOE_SEARCHABLE_SHORTHAND_NAMES	ЛИ лига исследователи loe	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_LOE_SHORT	Лига исследователей	
@@ -210,7 +213,6 @@ GLOBAL_FRIENDLIST_BUSYSTATUS	Занят
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_AVAILABLE	Игрок {0} свободен. Бросьте ему вызов!	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_HEADER	Дружеская дуэль	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_UNAVAILABLE	Игрок {0} сейчас не может получить ваш вызов. Вернитесь в главное меню.	0=player name
-GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_TAVERN_BRAWL_MUST_CREATE_DECK	Чтобы бросить вызов другу в режиме «Потасовки», сначала соберите колоду, соответствующую правилам!	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_THEYRE_UNAVAILABLE	Игрок {0} сейчас не может получить ваш вызов. Дождитесь, когда он вернется в главное меню.	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_DECK	У этого игрока нет колод.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_STANDARD_DECK	У этого игрока нет стандартных колод.	
@@ -256,8 +258,6 @@ GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_RECEIVED_INVITE_TEXT	Вы получили п
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_RECEIVED_INVITE_TEXT_TOUCH	Вы получили приглашение от игрока {0} посмотреть матч. Нажмите, чтобы присоединиться к игре.	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_SPECTATING_HEADER	Режим зрителя	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_SPECTATING_TEXT	Вы присутствуете на матче этого игрока в качестве зрителя.	
-GLOBAL_FRIENDLIST_TAVERN_BRAWL_CHALLENGE_BUTTON_AVAILABLE	Вызвать игрока {0} на потасовку.	0=player name
-GLOBAL_FRIENDLIST_TAVERN_BRAWL_CHALLENGE_BUTTON_HEADER	Вызов на «Потасовку»	
 GLOBAL_FRIENDLYCHALLENGE_QUEST_REWARD_AT_LIMIT	Исчерпан дневной лимит для наград в заданиях "Вызов другу".	
 GLOBAL_FRIENDLYCHALLENGE_REWARD_CONCEDED_YOUR_OPPONENT	Ваш противник покинул игру слишком рано, из-за чего вы не можете получить награду.	
 GLOBAL_FRIENDLYCHALLENGE_REWARD_CONCEDED_YOURSELF	Вы покинули игру слишком рано и не можете получить награду.	
@@ -272,6 +272,7 @@ GLOBAL_HEALTH	Здоровье
 GLOBAL_HEALTHY_GAMING_CHINA_CAIS_ACTIVE	Контроль времени игры включен.	
 GLOBAL_HEALTHY_GAMING_CHINA_LESS_THAN_THREE_HOURS	您累计在线时间已满{0}小时。	
 GLOBAL_HEALTHY_GAMING_CHINA_MORE_THAN_FIVE_HOURS	您已进入不健康游戏时间，为了您的健康，请您立即下线休息。如不下线，您的身体将受到损害，您的收益已降为零，直到您的累计下线时间满5小时后，才能恢复正常。	
+GLOBAL_HEALTHY_GAMING_CHINA_STARTUP_MESSAGE	抵制不良游戏，拒绝盗版游戏。\n注意自我保护，谨防上当受骗。\n适度游戏益脑，沉迷游戏伤身。\n合理安排时间，享受健康生活。	
 GLOBAL_HEALTHY_GAMING_CHINA_THREE_HOURS	您累计在线时间已满{0}小时，请您下线休息，做适当身体活动。	
 GLOBAL_HEALTHY_GAMING_CHINA_THREE_TO_FIVE_HOURS	您已经进入疲劳游戏时间，您的游戏收益将降为正常值的0%，为了您的健康，请尽快下线休息，做适当身体活动，合理安排学习生活。	
 GLOBAL_HEALTHY_GAMING_KOREA_STARTUP_MESSAGE	본 게임물은 만 12세 이용가 게임으로서 해당 연령 미만의 청소년이 이용하기에 부적절합니다. 반드시 보호자의 지도 감독이 필요합니다.	
@@ -286,6 +287,8 @@ GLOBAL_HERO_LEVEL_REWARD_GOLDEN_CARD	{0} «{1}»	0=flair 1=card name
 GLOBAL_HERO_WINS	Побед: {0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HERO_WINS_PHONE	Побед:\n{0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HIDE	Скрыть	
+GLOBAL_KEYWORD_AUTOATTACK	Автоатака	
+GLOBAL_KEYWORD_AUTOATTACK_TEXT	Не может атаковать, но осуществляет действие [x]в_конце вашего хода.	
 GLOBAL_KEYWORD_AUTOCAST	Автоматическое применение	
 GLOBAL_KEYWORD_AUTOCAST_TEXT	Эта сила героя БУДЕТ использоваться на каждом ходу.	
 GLOBAL_KEYWORD_BATTLECRY	Боевой клич	
@@ -504,6 +507,7 @@ GLOBAL_REGION_ASIA	Азия
 GLOBAL_REGION_CHINA	Китай	
 GLOBAL_REGION_EUROPE	Европа	
 GLOBAL_REMAINING_DATETIME	Осталось {0}	0=time string
+GLOBAL_RESTART	Переиграть	
 GLOBAL_RESUME_GAME	Вернуться	
 GLOBAL_REWARD_ARCANE_DUST_HEADLINE	Чародейная пыль!	
 GLOBAL_REWARD_ARENA_TICKET_ADMIT	ПРОПУСК	the word 'admit' in capital letters - displayed like "Admit 1" and looks like a movie/fair ticket. this is the Arena Ticket reward visual.

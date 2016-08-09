@@ -24,6 +24,9 @@ GLOBAL_CARD_SET_OG	Whispers of the Old Gods
 GLOBAL_CARD_SET_OG_SHORT	Old Gods	
 GLOBAL_CARD_SET_OG_RESERVE	Old Gods Reserve	
 GLOBAL_CARD_SET_OG_SEARCHABLE_SHORTHAND_NAMES	tog wotog wog	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.  For Whispers of the Old Gods, 'tog' should be available in all locales; wotog and wog are additional English shorthands, which should be replaced by locale specific variants.
+GLOBAL_CARD_SET_KARA	Karazhan	
+GLOBAL_CARD_SET_KARA_SHORT	Karazhan	
+GLOBAL_CARD_SET_KARA_RESERVE	Karazhan Reserve	
 GLOBAL_CARDTYPE_ENCHANTMENT	Enchantment	
 GLOBAL_CARDTYPE_HERO	Hero	
 GLOBAL_CARDTYPE_HEROPOWER	HeroPower	
@@ -97,6 +100,8 @@ GLOBAL_KEYWORD_SHIFTING	Shifter Zerus
 GLOBAL_KEYWORD_SHIFTING_TEXT	Transforms into a new minion at the start of your turn.	
 GLOBAL_KEYWORD_MINION_TYPE_REFERENCE	Minion Type	
 GLOBAL_KEYWORD_MINION_TYPE_REFERENCE_TEXT	Beast, Demon, Dragon, Mech, Murloc, Pirate, and Totem.	
+GLOBAL_KEYWORD_AUTOATTACK	Auto-Attack	
+GLOBAL_KEYWORD_AUTOATTACK_TEXT	Can't attack, but does something at the end of your turn.	
 GLOBAL_ATTACK	Attack	
 GLOBAL_COST	Cost	
 GLOBAL_HEALTH	Health	
@@ -160,6 +165,7 @@ GLOBAL_OPTIONS	Options
 GLOBAL_CONCEDE	Concede	
 GLOBAL_LEAVE_SPECTATOR_MODE	Leave	
 GLOBAL_RESUME_GAME	Resume	
+GLOBAL_RESTART	Restart	
 GLOBAL_GAME_MENU	Game Menu	
 GLOBAL_TAVERN_BRAWL	Tavern Brawl	
 GLOBAL_FRIEND_CHALLENGE_TITLE	Friendly	
@@ -298,14 +304,12 @@ GLOBAL_FRIENDLIST_MYSTATUS	ONLINE
 GLOBAL_FRIENDLIST_BUSYSTATUS	Busy	
 GLOBAL_FRIENDLIST_LASTPLAYED	Last Played:
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_HEADER	Friendly Challenge
-GLOBAL_FRIENDLIST_TAVERN_BRAWL_CHALLENGE_BUTTON_HEADER	Tavern Brawl Challenge
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_UNAVAILABLE	You can't challenge {0} right now. Return to the main menu.	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_THEYRE_UNAVAILABLE	You can't challenge {0} right now. Wait for them to return to the main menu.	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_AVAILABLE	Challenge {0} to a game of Hearthstone.	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_STANDARD_DUEL_BUTTON	Standard Duel
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_WILD_DUEL_BUTTON	Wild Duel
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_DUEL_BUTTON	Duel
-GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_TAVERN_BRAWL_MUST_CREATE_DECK	To challenge a friend to a Brawl, create a Tavern Brawl deck first!	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_STANDARD_DECK	This player has no Standard decks.
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_USER_IS_BUSY	This player is busy at this time.
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_DECK	This player has no decks.
@@ -318,7 +322,6 @@ GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_NO_TAVERN_BRAWL_DECK	You need to build a 
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_TAVERN_BRAWL_LOCKED	Unlock Tavern Brawl by reaching level 20 with any class.
 GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_NO_TAVERN_BRAWL	Tavern Brawl is not available right now.  Check back soon!
 GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_TAVERN_BRAWL_NOT_CHALLENGEABLE	Friendly Challenge is not available for this Tavern Brawl.
-GLOBAL_FRIENDLIST_TAVERN_BRAWL_CHALLENGE_BUTTON_AVAILABLE	Challenge {0} to a Tavern Brawl game.	0=player name
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_AVAILABLE_HEADER	Spectate this Game
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_AVAILABLE_TEXT	Click to begin spectating this player's game.	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_AVAILABLE_TEXT_TOUCH	Tap here to begin spectating this player's game.	
@@ -563,6 +566,7 @@ GLOBAL_HEALTHY_GAMING_CHINA_MORE_THAN_FIVE_HOURS	您已进入不健康游戏时�
 GLOBAL_CURRENT_TIME	{0:h:mm tt}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx	
 GLOBAL_CURRENT_DATE	{0:MM/dd/yy}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
 GLOBAL_HEALTHY_GAMING_KOREA_STARTUP_MESSAGE	본 게임물은 만 12세 이용가 게임으로서 해당 연령 미만의 청소년이 이용하기에 부적절합니다. 반드시 보호자의 지도 감독이 필요합니다.	
+GLOBAL_HEALTHY_GAMING_CHINA_STARTUP_MESSAGE	抵制不良游戏，拒绝盗版游戏。\n注意自我保护，谨防上当受骗。\n适度游戏益脑，沉迷游戏伤身。\n合理安排时间，享受健康生活。	
 GLOBAL_HEALTHY_GAMING_CHINA_CAIS_ACTIVE	CAIS Active	
 GLOBAL_LANGUAGE_CHANGE_CONFIRM_TITLE	Change Language?	
 GLOBAL_LANGUAGE_CHANGE_CONFIRM_MESSAGE	This will interrupt your current activity. Are you sure?	

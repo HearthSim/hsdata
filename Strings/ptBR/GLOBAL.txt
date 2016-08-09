@@ -39,6 +39,9 @@ GLOBAL_CARD_SET_DEBUG	Neve Derretida
 GLOBAL_CARD_SET_EXPERT1	Clássico	
 GLOBAL_CARD_SET_GVG	Goblins x Gnomos	
 GLOBAL_CARD_SET_GVG_SEARCHABLE_SHORTHAND_NAMES	gvg	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_KARA	Karazhan	
+GLOBAL_CARD_SET_KARA_RESERVE	Reserva de Karazhan	
+GLOBAL_CARD_SET_KARA_SHORT	Karazhan	
 GLOBAL_CARD_SET_LOE	A Liga dos Exploradores	
 GLOBAL_CARD_SET_LOE_SEARCHABLE_SHORTHAND_NAMES	loe lde	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_LOE_SHORT	Liga dos Exploradores	
@@ -188,7 +191,7 @@ GLOBAL_FORGE_END_TITLE	Arena completa
 GLOBAL_FRIEND_CHALLENGE_ACCEPT	Aceitar	
 GLOBAL_FRIEND_CHALLENGE_BODY1	Você foi desafiado por:	
 GLOBAL_FRIEND_CHALLENGE_BODY1_STANDARD	Você foi desafiado para um jogo Padrão por:	
-GLOBAL_FRIEND_CHALLENGE_BODY1_WILD	Você foi desafiado para um\n jogo Livre por:	
+GLOBAL_FRIEND_CHALLENGE_BODY1_WILD	Você foi desafiado para um\njogo Livre por:	
 GLOBAL_FRIEND_CHALLENGE_BODY2	Você aceita?	
 GLOBAL_FRIEND_CHALLENGE_DECLINE	Rejeitar	
 GLOBAL_FRIEND_CHALLENGE_HEADER	Desafio	
@@ -210,7 +213,6 @@ GLOBAL_FRIENDLIST_BUSYSTATUS	Ocupado
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_AVAILABLE	Desafie {0} para uma partida de Hearthstone.	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_HEADER	Desafio Amistoso	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_UNAVAILABLE	Você não pode desafiar {0} agora. Retorne ao menu principal.	0=player name
-GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_TAVERN_BRAWL_MUST_CREATE_DECK	Para desafiar um amigo para uma Contenda, crie primeiro um deck de Contenda de Taverna!	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_THEYRE_UNAVAILABLE	Não é possível desafiar {0} neste momento. Espere até que volte ao menu principal.	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_DECK	Este jogador não tem nenhum deck.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_STANDARD_DECK	Este jogador não tem nenhum deck Padrão.	
@@ -256,8 +258,6 @@ GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_RECEIVED_INVITE_TEXT	{0} convidou você para 
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_RECEIVED_INVITE_TEXT_TOUCH	{0} convidou você para ser espectador. Toque aqui para começar a assistir.	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_SPECTATING_HEADER	No modo Espectador	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_SPECTATING_TEXT	Você está assistindo ao jogo deste jogador.	
-GLOBAL_FRIENDLIST_TAVERN_BRAWL_CHALLENGE_BUTTON_AVAILABLE	Desafie {0} para uma Contenda de Taverna.	0=player name
-GLOBAL_FRIENDLIST_TAVERN_BRAWL_CHALLENGE_BUTTON_HEADER	Desafio da Contenda de Taverna	
 GLOBAL_FRIENDLYCHALLENGE_QUEST_REWARD_AT_LIMIT	Você atingiu o limite diário de recompensas de missão do Desafio de Amigo.	
 GLOBAL_FRIENDLYCHALLENGE_REWARD_CONCEDED_YOUR_OPPONENT	Seu oponente saiu do jogo cedo demais e, por isso, você não obteve recompensas.	
 GLOBAL_FRIENDLYCHALLENGE_REWARD_CONCEDED_YOURSELF	Você saiu do jogo cedo demais e, por isso, não obteve recompensas.	
@@ -272,6 +272,7 @@ GLOBAL_HEALTH	Vida
 GLOBAL_HEALTHY_GAMING_CHINA_CAIS_ACTIVE	CAIS Ativo	
 GLOBAL_HEALTHY_GAMING_CHINA_LESS_THAN_THREE_HOURS	您累计在线时间已满{0}小时。	
 GLOBAL_HEALTHY_GAMING_CHINA_MORE_THAN_FIVE_HOURS	您已进入不健康游戏时间，为了您的健康，请您立即下线休息。如不下线，您的身体将受到损害，您的收益已降为零，直到您的累计下线时间满5小时后，才能恢复正常。	
+GLOBAL_HEALTHY_GAMING_CHINA_STARTUP_MESSAGE	抵制不良游戏，拒绝盗版游戏。\n注意自我保护，谨防上当受骗。\n适度游戏益脑，沉迷游戏伤身。\n合理安排时间，享受健康生活。	
 GLOBAL_HEALTHY_GAMING_CHINA_THREE_HOURS	您累计在线时间已满{0}小时，请您下线休息，做适当身体活动。	
 GLOBAL_HEALTHY_GAMING_CHINA_THREE_TO_FIVE_HOURS	您已经进入疲劳游戏时间，您的游戏收益将降为正常值的0%，为了您的健康，请尽快下线休息，做适当身体活动，合理安排学习生活。	
 GLOBAL_HEALTHY_GAMING_KOREA_STARTUP_MESSAGE	본 게임물은 만 12세 이용가 게임으로서 해당 연령 미만의 청소년이 이용하기에 부적절합니다. 반드시 보호자의 지도 감독이 필요합니다.	
@@ -286,6 +287,8 @@ GLOBAL_HERO_LEVEL_REWARD_GOLDEN_CARD	{1} {0}	0=flair 1=card name
 GLOBAL_HERO_WINS	Vitórias: {0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HERO_WINS_PHONE	Vitórias\n{0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HIDE	Ocultar	
+GLOBAL_KEYWORD_AUTOATTACK	Ataque Automático	
+GLOBAL_KEYWORD_AUTOATTACK_TEXT	Não pode atacar, mas faz algo no final do seu turno.	
 GLOBAL_KEYWORD_AUTOCAST	Lançamento automático	
 GLOBAL_KEYWORD_AUTOCAST_TEXT	Este Poder Heroico TEM que ser usado todos os turnos.	
 GLOBAL_KEYWORD_BATTLECRY	Grito de Guerra	
@@ -504,6 +507,7 @@ GLOBAL_REGION_ASIA	Ásia
 GLOBAL_REGION_CHINA	China	
 GLOBAL_REGION_EUROPE	Europa	
 GLOBAL_REMAINING_DATETIME	{0} restantes	0=time string
+GLOBAL_RESTART	Reiniciar	
 GLOBAL_RESUME_GAME	Continuar	
 GLOBAL_REWARD_ARCANE_DUST_HEADLINE	Pó Arcano recebido!	
 GLOBAL_REWARD_ARENA_TICKET_ADMIT	INGRESSO	the word 'admit' in capital letters - displayed like "Admit 1" and looks like a movie/fair ticket. this is the Arena Ticket reward visual.

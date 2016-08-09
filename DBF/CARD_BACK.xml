@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Dbf name="CARD_BACK">
-	<SourceFingerprint>XATtm+vBOghPxR7XNRV/7gBUNtc=</SourceFingerprint>
+	<SourceFingerprint>tkx1/R9gE4JirMz21bMQtG/Xgac=</SourceFingerprint>
 	<Column name="ID" type="Int" />
 	<Column name="NOTE_DESC" type="String" />
 	<Column name="DATA1" type="Long" />
@@ -8,8 +8,8 @@
 	<Column name="ENABLED" type="Bool" />
 	<Column name="SORT_CATEGORY" type="Int" />
 	<Column name="SORT_ORDER" type="Int" />
-	<Column name="NAME" type="LocString" />
 	<Column name="PREFAB_NAME" type="AssetPath" />
+	<Column name="NAME" type="LocString" />
 	<Column name="DESCRIPTION" type="LocString" />
 	<Column name="SOURCE_DESCRIPTION" type="LocString" />
 	<Record>
@@ -20,6 +20,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">1</Field>
 		<Field column="SORT_ORDER">1</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Default/Card_Back_Default</Field>
 		<Field column="NAME" loc_ID="20881">
 			<enUS>Classic</enUS>
 			<frFR>Standard</frFR>
@@ -36,7 +37,6 @@
 			<jaJP>クラシック</jaJP>
 			<thTH>คลาสสิค</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Default/Card_Back_Default</Field>
 		<Field column="DESCRIPTION" loc_ID="20882">
 			<enUS>The only card back you’ll ever need.</enUS>
 			<frFR>Le seul dos de carte dont vous aurez toujours besoin.</frFR>
@@ -78,6 +78,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">5</Field>
 		<Field column="SORT_ORDER">0</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/S001_Pandaria/Card_Back_Pandaria</Field>
 		<Field column="NAME" loc_ID="20884">
 			<enUS>Pandaria</enUS>
 			<frFR>Pandarie</frFR>
@@ -94,7 +95,6 @@
 			<jaJP>パンダリア</jaJP>
 			<thTH>แพนดาเรีย</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/S001_Pandaria/Card_Back_Pandaria</Field>
 		<Field column="DESCRIPTION" loc_ID="20885">
 			<enUS>Hearthstone is a very popular game in Pandaria.  Official card game of the Shado-Pan!\n\nAcquired from achieving Rank 20 in Ranked Play, April 2014.</enUS>
 			<frFR>Hearthstone est un jeu très populaire en Pandarie. Dos de cartes officiel des Pandashan !\n\nObtenu en atteignant le rang 20 en Partie classée, saison d’avril 2014.</frFR>
@@ -136,6 +136,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">5</Field>
 		<Field column="SORT_ORDER">0</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/S002_BlackTemple/Card_Back_BlackTemple</Field>
 		<Field column="NAME" loc_ID="20887">
 			<enUS>Black Temple</enUS>
 			<frFR>Temple noir</frFR>
@@ -152,7 +153,6 @@
 			<jaJP>黒の寺院</jaJP>
 			<thTH>วิหารมืด</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/S002_BlackTemple/Card_Back_BlackTemple</Field>
 		<Field column="DESCRIPTION" loc_ID="20888">
 			<enUS>“Fel Flame Green” is always in fashion at the Black Temple.\n\nAcquired from achieving Rank 20 in Ranked Play, May 2014.</enUS>
 			<frFR>Les gangreflammes vertes sont toujours à la mode au Temple noir.\n\nObtenu en atteignant le rang 20 en Partie classée, saison de mai 2014.</frFR>
@@ -194,6 +194,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">5</Field>
 		<Field column="SORT_ORDER">0</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/S003_Charm/Card_Back_Charm</Field>
 		<Field column="NAME" loc_ID="20890">
 			<enUS>Rainbow!</enUS>
 			<frFR>Arc-en-ciel</frFR>
@@ -210,7 +211,6 @@
 			<jaJP>レインボー！</jaJP>
 			<thTH>สายรุ้ง!</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/S003_Charm/Card_Back_Charm</Field>
 		<Field column="DESCRIPTION" loc_ID="20891">
 			<enUS>Unfortunately, the rainbow generator can only produce oval rainbows.  Gnomish technology still has a ways to go.\n\nAcquired from achieving Rank 20 in Ranked Play, June 2014.</enUS>
 			<frFR>Malheureusement, le générateur d’arc-en-ciel arrive uniquement à créer des arcs-en-ciel ovales. La technologie gnome a encore du chemin à faire.\n\nObtenu en atteignant le rang 20 en Partie classée, saison de juin 2014.</frFR>
@@ -252,6 +252,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">2</Field>
 		<Field column="SORT_ORDER">1</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Launch/Card_Back_Launch</Field>
 		<Field column="NAME" loc_ID="20893">
 			<enUS>Fireside</enUS>
 			<frFR>Hearthstone café</frFR>
@@ -266,9 +267,8 @@
 			<ptBR>Lareira</ptBR>
 			<plPL>Kominek</plPL>
 			<jaJP>炉端</jaJP>
-			<thTH>Fireside</thTH>
+			<thTH>รอบกองไฟ</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Launch/Card_Back_Launch</Field>
 		<Field column="DESCRIPTION" loc_ID="20894">
 			<enUS>A generous gift from the Innkeeper.  He loves to see his guests having a good time together.\n\nPlay three matches against players on the same local network as you. (Must have at least 3 players on that network!)</enUS>
 			<frFR>Un cadeau généreux de l’aubergiste. Il adore que ses clients passent du bon temps ensemble.\n\nObtenu pour avoir joué 3 matchs contre des joueurs sur le même réseau que vous. (Nécessite au minimum 3 joueurs sur ce réseau !)</frFR>
@@ -310,6 +310,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">6</Field>
 		<Field column="SORT_ORDER">1</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Legend/Card_Back_Legend</Field>
 		<Field column="NAME" loc_ID="20896">
 			<enUS>Legend</enUS>
 			<frFR>Légende</frFR>
@@ -326,7 +327,6 @@
 			<jaJP>レジェンド</jaJP>
 			<thTH>ตำนาน</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Legend/Card_Back_Legend</Field>
 		<Field column="DESCRIPTION" loc_ID="20897">
 			<enUS>Wow.  Hardcore.\n\nAcquired from achieving Legend Rank in Ranked Play.</enUS>
 			<frFR>Ouf, c’est du lourd, ça !\n\nObtenu en atteignant le rang Légende en Partie classée.</frFR>
@@ -368,6 +368,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">5</Field>
 		<Field column="SORT_ORDER">0</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Naxxramas/Card_Back_Naxxramas</Field>
 		<Field column="NAME" loc_ID="20899">
 			<enUS>Naxxramas</enUS>
 			<frFR>Naxxramas</frFR>
@@ -384,7 +385,6 @@
 			<jaJP>ナクスラーマス</jaJP>
 			<thTH>Naxxramas</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Naxxramas/Card_Back_Naxxramas</Field>
 		<Field column="DESCRIPTION" loc_ID="20900">
 			<enUS>The gooey center is Ooze slime.  Don’t lick it.\n\nAcquired from achieving Rank 20 in Ranked Play, July 2014.</enUS>
 			<frFR>Le truc gluant au centre, c’est de la gelée de limon. Ne pas ingérer.\n\nObtenu en atteignant le rang 20 en Partie classée, saison de juillet 2014.</frFR>
@@ -426,6 +426,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">3</Field>
 		<Field column="SORT_ORDER">1</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Naxxramas2/Card_Back_Naxxramas2</Field>
 		<Field column="NAME" loc_ID="20902">
 			<enUS>Heroic Naxxramas</enUS>
 			<frFR>Naxxramas héroïque</frFR>
@@ -442,7 +443,6 @@
 			<jaJP>ヒロイック・ナクスラーマス</jaJP>
 			<thTH>Naxxramas ระดับฮีโร่</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Naxxramas2/Card_Back_Naxxramas2</Field>
 		<Field column="DESCRIPTION" loc_ID="20903">
 			<enUS>You can tell a lot about an Abomination by his stitching.  This one just screams “insane”.  Literally.\n\nAcquired from completing the Curse of Naxxramas in Heroic mode.</enUS>
 			<frFR>On peut en apprendre beaucoup sur une abomination rien qu’avec ses coutures. Et celles-ci expriment la folie, littéralement !\n\nObtenu en terminant le mode héroïque de la malédiction de Naxxramas.</frFR>
@@ -484,6 +484,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">5</Field>
 		<Field column="SORT_ORDER">0</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/IceCrown/Card_Back_IceCrown</Field>
 		<Field column="NAME" loc_ID="20905">
 			<enUS>Icecrown</enUS>
 			<frFR>Couronne de glace</frFR>
@@ -500,7 +501,6 @@
 			<jaJP>アイスクラウン</jaJP>
 			<thTH>ไอซ์คราวน์</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/IceCrown/Card_Back_IceCrown</Field>
 		<Field column="DESCRIPTION" loc_ID="20906">
 			<enUS>In the frozen heart of Icecrown Citadel, a hero’s mettle will be tested.  Bring a parka.\n\nAcquired from achieving Rank 20 in Ranked Play, August 2014.</enUS>
 			<frFR>Dans les entrailles glacées de la citadelle de la Couronne de glace, les héros peuvent tester leur courage. N’oubliez pas votre parka.\n\nObtenu en atteignant le rang 20 en Partie classée, saison d’août 2014.</frFR>
@@ -542,6 +542,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">5</Field>
 		<Field column="SORT_ORDER">0</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Pirate/Card_Back_Pirate</Field>
 		<Field column="NAME" loc_ID="20908">
 			<enUS>Pirates!</enUS>
 			<frFR>Pirates</frFR>
@@ -558,7 +559,6 @@
 			<jaJP>海賊！</jaJP>
 			<thTH>โจรสลัด!</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Pirate/Card_Back_Pirate</Field>
 		<Field column="DESCRIPTION" loc_ID="20909">
 			<enUS>Treasure.  Grog.  Hooks for hands.  Way better than Ninjas!\n\nAcquired from achieving Rank 20 in Ranked Play, September 2014.</enUS>
 			<frFR>Du rhum, des crochets, et du butin nom de nom ! C’est beaucoup mieux que les Ninjas !\n\nObtenu en atteignant le rang 20 en Partie classée, saison de septembre 2014.</frFR>
@@ -600,6 +600,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">5</Field>
 		<Field column="SORT_ORDER">0</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Hallows_End/Card_Back_Hallows_End</Field>
 		<Field column="NAME" loc_ID="20911">
 			<enUS>Hallow's End</enUS>
 			<frFR>Sanssaint</frFR>
@@ -616,7 +617,6 @@
 			<jaJP>ハロウェンド</jaJP>
 			<thTH>ฮอลโลว์สเอนด์</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Hallows_End/Card_Back_Hallows_End</Field>
 		<Field column="DESCRIPTION" loc_ID="20912">
 			<enUS>The Hallow’s End candy bucket!  Or the Headless Horseman’s spare head!  Stick your hand in and find out.\n\nAcquired from achieving Rank 20 in Ranked Play, October 2014.</enUS>
 			<frFR>Le seau de bonbons de la Sanssaint ! Ou la tête de rechange du cavalier sans tête ! Mettez la main dessus pour le savoir.\n\nObtenu en atteignant le rang 20 en Partie classée, saison d’octobre 2014.</frFR>
@@ -658,6 +658,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">5</Field>
 		<Field column="SORT_ORDER">0</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Goblin/Card_Back_Goblin</Field>
 		<Field column="NAME" loc_ID="20914">
 			<enUS>Goblins</enUS>
 			<frFR>Gobelins</frFR>
@@ -674,7 +675,6 @@
 			<jaJP>ゴブリン</jaJP>
 			<thTH>ก็อบลิน</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Goblin/Card_Back_Goblin</Field>
 		<Field column="DESCRIPTION" loc_ID="20915">
 			<enUS>4 out of 5 goblins agree: This card back doesn’t explode!\n\nAcquired from achieving Rank 20 in Ranked Play, November 2014.</enUS>
 			<frFR>4 gobelins sur 5 sont d’accord : ce dos de carte n’explose pas !\n\nObtenu en atteignant le rang 20 en Partie classée, saison de novembre 2014.</frFR>
@@ -716,6 +716,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">11</Field>
 		<Field column="SORT_ORDER">1</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Blizzard2014/Card_Back_Blizzard2014</Field>
 		<Field column="NAME" loc_ID="20917">
 			<enUS>Blizzard 2014</enUS>
 			<frFR>Blizzard 2014</frFR>
@@ -732,7 +733,6 @@
 			<jaJP>Blizzard 2014</jaJP>
 			<thTH>Blizzard 2014</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Blizzard2014/Card_Back_Blizzard2014</Field>
 		<Field column="DESCRIPTION" loc_ID="20918">
 			<enUS>The year Hearthstone was born.  What a great year!\n\nAcquired by participating in Blizzard events during 2014.</enUS>
 			<frFR>L’année de naissance de Hearthstone. Quelle merveilleuse année !\n\nObtenu en participant à des évènements Blizzard en 2014.</frFR>
@@ -774,6 +774,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">7</Field>
 		<Field column="SORT_ORDER">1</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/TeSPA/Card_Back_TeSPA</Field>
 		<Field column="NAME" loc_ID="20920">
 			<enUS>Dalaran Flame</enUS>
 			<frFR>Flamme de Dalaran</frFR>
@@ -790,7 +791,6 @@
 			<jaJP>ダラランの炎</jaJP>
 			<thTH>เปลวเพลิงแห่งดาลารัน</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/TeSPA/Card_Back_TeSPA</Field>
 		<Field column="DESCRIPTION" loc_ID="20921">
 			<enUS>Mascot of Dalaran University.  Rarely seen, because no one ever shows up to football games there.\n\nAcquired by participating in TeSPA or other college affiliate program.</enUS>
 			<frFR>Mascotte de l’université de Dalaran. On la voit rarement, car personne n’assiste jamais à leurs matchs de foot.\n\nObtenu en participant au TeSPA ou autre programme affilié.</frFR>
@@ -832,6 +832,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">8</Field>
 		<Field column="SORT_ORDER">2</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Warlords_of_Draenor/Card_Back_Warlords_of_Draenor</Field>
 		<Field column="NAME" loc_ID="20923">
 			<enUS>Warlords</enUS>
 			<frFR>Seigneurs de guerre</frFR>
@@ -848,7 +849,6 @@
 			<jaJP>将軍</jaJP>
 			<thTH>แม่ทัพ</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Warlords_of_Draenor/Card_Back_Warlords_of_Draenor</Field>
 		<Field column="DESCRIPTION" loc_ID="20924">
 			<enUS>When they aren’t plotting to kill everyone and take over the world, even the Iron Horde enjoy a game of Hearthstone.\n\nAcquired from Warlords of Draenor Digital Deluxe Edition.</enUS>
 			<frFR>Quand ils ne complotent pas pour détruire toute vie et s’emparer du monde, les membres de la Horde de Fer aiment bien jouer à Hearthstone.\n\nObtenu avec l’édition Deluxe de Warlords of Draenor.</frFR>
@@ -890,6 +890,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">5</Field>
 		<Field column="SORT_ORDER">0</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Gnome/Card_Back_Gnome</Field>
 		<Field column="NAME" loc_ID="20926">
 			<enUS>Gnomes</enUS>
 			<frFR>Gnomes</frFR>
@@ -906,7 +907,6 @@
 			<jaJP>ノーム</jaJP>
 			<thTH>โนม</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Gnome/Card_Back_Gnome</Field>
 		<Field column="DESCRIPTION" loc_ID="20927">
 			<enUS>This multifunctional device also works as a gnomish army knife, a shoe horn and a pass to the Deeprun Tram.  Gnomish ingenuity!\n\nAcquired from achieving Rank 20 in Ranked Play, December 2014.</enUS>
 			<frFR>Cet engin multifonctions peut servir de couteau, de chausse-pied et de passe pour le tram des profondeurs. Toute l’ingéniosité gnome en un outil !\n\nObtenu en atteignant le rang 20 en Partie classée, saison de décembre 2014.</frFR>
@@ -948,6 +948,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">5</Field>
 		<Field column="SORT_ORDER">0</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Maraad/Card_Back_Maraad</Field>
 		<Field column="NAME" loc_ID="20929">
 			<enUS>Maraad</enUS>
 			<frFR>Maraad</frFR>
@@ -964,7 +965,6 @@
 			<jaJP>マラード</jaJP>
 			<thTH>มาราด</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Maraad/Card_Back_Maraad</Field>
 		<Field column="DESCRIPTION" loc_ID="20930">
 			<enUS>Vindicator Maraad was a paladin of great courage and strength.  Don’t let the pretty pastel tones fool you.\n\nAcquired from achieving Rank 20 in Ranked Play, January 2015.</enUS>
 			<frFR>Le redresseur de torts Maraad était un paladin avec un grand courage et une grande force. Ne vous laissez pas tromper par les jolis tons pastel.\n\nObtenu en atteignant le rang 20 en Partie classée, saison de janvier 2015.</frFR>
@@ -1006,6 +1006,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">5</Field>
 		<Field column="SORT_ORDER">0</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Lunar/Card_Back_Lunar</Field>
 		<Field column="NAME" loc_ID="20932">
 			<enUS>Lunar New Year</enUS>
 			<frFR>Fête lunaire</frFR>
@@ -1022,7 +1023,6 @@
 			<jaJP>旧正月</jaJP>
 			<thTH>วันตรุษจีน</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Lunar/Card_Back_Lunar</Field>
 		<Field column="DESCRIPTION" loc_ID="20933">
 			<enUS>Happy New Year!\n\nAcquired from achieving Rank 20 in Ranked Play, February 2015.</enUS>
 			<frFR>Bonne année !\n\nObtenu en atteignant le rang 20 en Partie classée, saison de février 2015.</frFR>
@@ -1064,6 +1064,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">10</Field>
 		<Field column="SORT_ORDER">1</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/MoltenCore/Card_Back_MoltonCore</Field>
 		<Field column="NAME" loc_ID="20935">
 			<enUS>Molten Core</enUS>
 			<frFR>Cœur du Magma</frFR>
@@ -1080,7 +1081,6 @@
 			<jaJP>モルテン・コア</jaJP>
 			<thTH>แกนหลอมเหลว</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/MoltenCore/Card_Back_MoltonCore</Field>
 		<Field column="DESCRIPTION" loc_ID="20936">
 			<enUS>The Molten Core of Azeroth and not a chocolate lava cake, unfortunately.\n\nWas acquired from pre-purchase of Blackrock Mountain.</enUS>
 			<frFR>Le cœur du Magma d’Azeroth et pas le cœur coulant d’un gâteau au chocolat, malheureusement.\n\nObtenu pour la précommande du Mont Rochenoire.</frFR>
@@ -1122,6 +1122,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">5</Field>
 		<Field column="SORT_ORDER">0</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Ragnaros/Card_Back_Ragnaros</Field>
 		<Field column="NAME" loc_ID="20938">
 			<enUS>Ragnaros</enUS>
 			<frFR>Ragnaros</frFR>
@@ -1138,7 +1139,6 @@
 			<jaJP>ラグナロス</jaJP>
 			<thTH>แร็กนารอส</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Ragnaros/Card_Back_Ragnaros</Field>
 		<Field column="DESCRIPTION" loc_ID="20939">
 			<enUS>The Firelord is most often seen relaxing in his hot tub, even when he’s trying to burn down the world.\n\nAcquired from achieving Rank 20 in Ranked Play, March 2015.</enUS>
 			<frFR>On voit souvent le seigneur du feu se prélasser dans son bain bouillonnant, même lorsqu’il tente d’incinérer le monde.\n\nObtenu en atteignant le rang 20 en Partie classée, saison de mars 2015.</frFR>
@@ -1180,6 +1180,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">12</Field>
 		<Field column="SORT_ORDER">1</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/GoldenCelebration/Card_Back_GoldenCelebration</Field>
 		<Field column="NAME" loc_ID="20941">
 			<enUS>Golden Celebration</enUS>
 			<frFR>Fête d’or</frFR>
@@ -1196,7 +1197,6 @@
 			<jaJP>ゴールデン・セレブレーション</jaJP>
 			<thTH>งานฉลองสีทอง</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/GoldenCelebration/Card_Back_GoldenCelebration</Field>
 		<Field column="DESCRIPTION" loc_ID="20942">
 			<enUS>Solid gold, baby.\n\nAcquired with a high level finish in approved eSports events.</enUS>
 			<frFR>De l’or pur, bébé.\n\nObtenu en atteignant un rang élevé à la fin d’un évènement d’eSport approuvé.</frFR>
@@ -1238,6 +1238,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">3</Field>
 		<Field column="SORT_ORDER">2</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Nefarian/Card_Back_Nefarian</Field>
 		<Field column="NAME" loc_ID="20944">
 			<enUS>Nefarian</enUS>
 			<frFR>Nefarian</frFR>
@@ -1254,7 +1255,6 @@
 			<jaJP>ネファリアン</jaJP>
 			<thTH>เนฟาเรี่ยน</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Nefarian/Card_Back_Nefarian</Field>
 		<Field column="DESCRIPTION" loc_ID="20945">
 			<enUS>You didn’t actually believe someone named “Lord Victor Nefarious” wasn’t up to anything nefarious, did you?\n\nAcquired from completing Blackrock Mountain in Heroic mode.</enUS>
 			<frFR>Vous ne pensiez pas vraiment que quelqu’un se faisant appeler « seigneur Victor Nefarious » pouvait être une personne bienveillante, n’est-ce pas ?\n\nObtenu en terminant le mode héroïque du Mont Rochenoire.</frFR>
@@ -1296,6 +1296,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">5</Field>
 		<Field column="SORT_ORDER">0</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Cupcake/Card_Back_Cupcake</Field>
 		<Field column="NAME" loc_ID="20947">
 			<enUS>Cupcake</enUS>
 			<frFR>Gâteau</frFR>
@@ -1312,7 +1313,6 @@
 			<jaJP>カップケーキ</jaJP>
 			<thTH>คัพเค้ก</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Cupcake/Card_Back_Cupcake</Field>
 		<Field column="DESCRIPTION" loc_ID="20948">
 			<enUS>“Is that a cupcake on a cake?” you ask?  Yes.  Yes it is.\n\nAcquired from achieving Rank 20 in Ranked Play, April 2015.</enUS>
 			<frFR>Vous vous demandez si c’est vraiment un cupcake sur un gâteau ? Eh bien oui.\n\nObtenu en atteignant le rang 20 en Partie classée, saison d’avril 2015.</frFR>
@@ -1354,6 +1354,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">5</Field>
 		<Field column="SORT_ORDER">0</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Ninja/Card_Back_Ninja</Field>
 		<Field column="NAME" loc_ID="20950">
 			<enUS>Ninjas!</enUS>
 			<frFR>Ninjas</frFR>
@@ -1370,7 +1371,6 @@
 			<jaJP>ニンジャ！</jaJP>
 			<thTH>นินจา!</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Ninja/Card_Back_Ninja</Field>
 		<Field column="DESCRIPTION" loc_ID="20951">
 			<enUS>Stealth.  Style.  Shurikens.  Way better than Pirates!\n\nAcquired from achieving Rank 20 in Ranked Play, May 2015.</enUS>
 			<frFR>Dissimulation, style et shurikens. C’est beaucoup mieux que les Pirates !\n\nObtenu en atteignant le rang 20 en Partie classée, saison de mai 2015.</frFR>
@@ -1412,6 +1412,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">8</Field>
 		<Field column="SORT_ORDER">1</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/HotS/Card_Back_HotS</Field>
 		<Field column="NAME" loc_ID="20953">
 			<enUS>Heroes of the Storm</enUS>
 			<frFR>Heroes of the Storm</frFR>
@@ -1428,7 +1429,6 @@
 			<jaJP>Heroes of the Storm</jaJP>
 			<thTH>Heroes of the Storm</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/HotS/Card_Back_HotS</Field>
 		<Field column="DESCRIPTION" loc_ID="20954">
 			<enUS>This arrived for you from the Nexus.  Might want to watch out for those whirling blade thingies.\n\nAcquired from reaching Level 12 in the Blizzard game Heroes of the Storm.</enUS>
 			<frFR>Ceci vient d’arriver pour vous du Nexus. Méfiez-vous de ces lames tourbillonnantes bizarres.\n\nObtenu en atteignant le niveau 12 dans le jeu Heroes of the Storm de Blizzard.</frFR>
@@ -1470,6 +1470,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">4</Field>
 		<Field column="SORT_ORDER">3</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Alleria/Card_Back_Alleria</Field>
 		<Field column="NAME" loc_ID="20956">
 			<enUS>Alleria</enUS>
 			<frFR>Alleria</frFR>
@@ -1486,7 +1487,6 @@
 			<jaJP>アレリア</jaJP>
 			<thTH>อัลลีเรีย</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Alleria/Card_Back_Alleria</Field>
 		<Field column="DESCRIPTION" loc_ID="20957">
 			<enUS>When she wants to shoot an apple on your head, you don’t have to worry.  Unless you’re an orc.\n\nAcquired from purchasing the Hero Alleria Windrunner.</enUS>
 			<frFR>Quand elle veut dégommer une pomme sur votre tête, il n’y a pas à s’inquiéter. À moins d’être un orc.\n\nObtenu en achetant l’héroïne Alleria Coursevent.</frFR>
@@ -1528,6 +1528,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">4</Field>
 		<Field column="SORT_ORDER">2</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Magni/Card_Back_Magni</Field>
 		<Field column="NAME" loc_ID="20959">
 			<enUS>Magni</enUS>
 			<frFR>Magni</frFR>
@@ -1544,7 +1545,6 @@
 			<jaJP>マグニ</jaJP>
 			<thTH>แม็กนิ</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Magni/Card_Back_Magni</Field>
 		<Field column="DESCRIPTION" loc_ID="20960">
 			<enUS>As the eldest of the three Bronzebeard brothers, Magni always got the coolest toys.  He always shared, though!\n\nAcquired from purchasing the Hero Magni Bronzebeard.</enUS>
 			<frFR>En tant qu’aîné des trois frères Barbe-de-Bronze, Magni a toujours eu les jouets les plus sympa. Mais il les a toujours partagés !\n\nObtenu en achetant le héros Magni Barbe-de-Bronze.</frFR>
@@ -1586,6 +1586,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">4</Field>
 		<Field column="SORT_ORDER">1</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Medivh/Card_Back_Medivh</Field>
 		<Field column="NAME" loc_ID="20962">
 			<enUS>Medivh</enUS>
 			<frFR>Medivh</frFR>
@@ -1602,7 +1603,6 @@
 			<jaJP>メディヴ</jaJP>
 			<thTH>เมดิฟห์</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Medivh/Card_Back_Medivh</Field>
 		<Field column="DESCRIPTION" loc_ID="20963">
 			<enUS>He certainly has a thing for crows and ravens.\n\nAcquired from purchasing the Hero Medivh.</enUS>
 			<frFR>Les corbeaux, c’est sa grande passion.\n\nObtenu en achetant le héros Medivh.</frFR>
@@ -1644,6 +1644,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">5</Field>
 		<Field column="SORT_ORDER">0</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Druid/Card_Back_Druid</Field>
 		<Field column="NAME" loc_ID="20965">
 			<enUS>Darnassus</enUS>
 			<frFR>Darnassus</frFR>
@@ -1660,7 +1661,6 @@
 			<jaJP>ダーナサス</jaJP>
 			<thTH>ดาร์นัสซุส</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Druid/Card_Back_Druid</Field>
 		<Field column="DESCRIPTION" loc_ID="20966">
 			<enUS>Nestled in the boughs of a giant tree, Darnassus is the capital city of the night elves.  Also home of the world famous Darnassus Kimchi Pie!\n\nAcquired from achieving Rank 20 in Ranked Play, June 2015.</enUS>
 			<frFR>Nichée dans les branches d’un arbre géant, Darnassus est la capitale des elfes de la nuit, et la tourte au kimchi est la spécialité culinaire de la ville !\n\nObtenu en atteignant le rang 20 en Partie classée, saison de juin 2015.</frFR>
@@ -1687,6 +1687,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">9</Field>
 		<Field column="SORT_ORDER">1</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Samsung/Card_Back_Samsung</Field>
 		<Field column="NAME" loc_ID="20967">
 			<enUS>Samsung Galaxy</enUS>
 			<frFR>Samsung Galaxy</frFR>
@@ -1703,7 +1704,6 @@
 			<jaJP>Samsung Galaxyギフト</jaJP>
 			<thTH>Samsung Galaxy</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Samsung/Card_Back_Samsung</Field>
 		<Field column="DESCRIPTION" loc_ID="20968">
 			<enUS>Gifts from the Galaxy!  This card back is truly out of this world.\n\nAwarded through the Samsung Galaxy promotion!</enUS>
 			<frFR>Un cadeau de la part de Galaxy. Ce dos de carte vient vraiment du fin fond de la galaxie !\n\nObtenu grâce aux offres Samsung Galaxy !</frFR>
@@ -1730,6 +1730,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">5</Field>
 		<Field column="SORT_ORDER">0</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Troll/Card_Back_Troll</Field>
 		<Field column="NAME" loc_ID="20969">
 			<enUS>Darkspear</enUS>
 			<frFR>Sombrelance</frFR>
@@ -1746,7 +1747,6 @@
 			<jaJP>ダークスピア</jaJP>
 			<thTH>ดาร์คสเปียร์</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Troll/Card_Back_Troll</Field>
 		<Field column="DESCRIPTION" loc_ID="20970">
 			<enUS>Vol'jin's tribe, the Darkspear trolls, no longer practices cannibalism. Officially.\n\nAcquired from achieving Rank 20 in Ranked Play, July 2015.</enUS>
 			<frFR>La tribu de Vol’jin, les trolls sombrelances, ne pratique plus le cannibalisme. Officiellement.\n\nObtenu en atteignant le rang 20 en Partie classée, saison de juillet 2015.</frFR>
@@ -1773,6 +1773,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">10</Field>
 		<Field column="SORT_ORDER">2</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/TGT/Card_Back_TGT</Field>
 		<Field column="NAME" loc_ID="20971">
 			<enUS>The Grand Tournament</enUS>
 			<frFR>Le Grand Tournoi</frFR>
@@ -1787,9 +1788,8 @@
 			<ptBR>O Grande Torneio</ptBR>
 			<plPL>Wielki Turniej</plPL>
 			<jaJP>グランド・トーナメント</jaJP>
-			<thTH>แกรนด์ทัวร์นาเมนท์</thTH>
+			<thTH>Grand Tournament</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/TGT/Card_Back_TGT</Field>
 		<Field column="DESCRIPTION" loc_ID="20972">
 			<enUS>After the fall of the Lich King, it was suggested that we celebrate then go home.  Those of us who stayed decided to continue the Tournament with a new mission:  FUN!\n\nWas acquired from pre-purchase of The Grand Tournament Card Packs.</enUS>
 			<frFR>Après avoir vaincu le roi-liche, on s’est dit qu’on allait fêter ça puis rentrer à la maison. Certains d’entre nous sont restés, déterminés à continuer le tournoi pour une nouvelle mission : S’AMUSER !\n\nObtenu pour la précommande de paquets de cartes du Grand Tournoi.</frFR>
@@ -1797,14 +1797,14 @@
 			<koKR>리치 왕이 쓰러진 후, 대부분의 사람들은 환호하며 집으로 돌아갔습니다. 하지만 몇몇 사람들은 노스렌드에 계속 머물며 마상시합을 즐기기로 마음을 먹었습니다. 재밌잖아요!\n\n대 마상시합 카드 팩을 예약 구매하여 획득</koKR>
 			<esES>Tras la caída del Rey Exánime, nos aconsejaron celebrarlo y regresar a casa. Los que nos quedamos, decidimos continuar el torneo con una nueva misión: ¡DIVERTIRNOS!\n\nOtorgado por la compra anticipada de sobres de cartas de El Gran Torneo.</esES>
 			<esMX>Tras la caída del Rey Exánime, alguien sugirió celebrar y volver rápido a casa. Los que nos quedamos decidimos continuar el Torneo con una nueva misión: ¡DIVERTIRNOS!\n\nObtenido por haber reservado paquetes de El Gran Torneo.</esMX>
-			<ruRU>После того, как Король-лич был повержен, некоторые предлагали отпраздновать это событие и разойтись по домам. Но те, кто остался, решили продолжить турнир ради новой цели: РАЗВЛЕЧЕНИЯ!\n\nНаграда за предзаказ комплектов карт набора «Большой турнир».</ruRU>
+			<ruRU>После того как Король-лич был повержен, некоторые предлагали отпраздновать это событие и разойтись по домам. Но те, кто остался, решили продолжить турнир ради новой цели: РАЗВЛЕЧЕНИЯ!\n\nНаграда за предзаказ комплектов карт набора «Большой турнир».</ruRU>
 			<zhTW>擊敗巫妖王，開完慶功宴之後，大家就各自回家了。但有些人決定留下來繼續舉辦銀白聯賽，而這次聯賽的目的就是：開心！\n\n預購《銀白聯賽》卡牌包時取得。</zhTW>
-			<zhCN>在推翻了巫妖王之后，众人举行了盛大的庆祝仪式，最后凯旋而归。而那些选择留下来的人则继续进行锦标赛。至于原因嘛，纯粹是因为好玩！\n\n预购“冠军的试炼”扩展包合集获得该奖励。</zhCN>
+			<zhCN>在推翻了巫妖王之后，众人举行了盛大的庆祝仪式，最后凯旋而归。而那些选择留下来的人则继续进行锦标赛。至于原因嘛，纯粹是因为好玩！\n\n预购“冠军的试炼”卡牌包合集获得该奖励。</zhCN>
 			<itIT>Dopo la caduta del Re dei Lich, molti celebrarono una volta tornati a casa. Coloro che restarono decisero di continuare il Torneo con una nuova missione: il divertimento!\n\nOttenuto attraverso il preacquisto delle buste del Gran Torneo.</itIT>
 			<ptBR>Após a queda do Lich Rei, nos disseram para celebrar e ir embora. Aqueles de nós que ficaram decidiram continuar o Torneio com uma nova missão: DIVERSÃO!\n\nAdquirido na pré-venda de pacotes de cards do Grande Torneio.</ptBR>
 			<plPL>Po upadku Króla Licza podjęto decyzję, że trzeba to uczcić, a potem wrócić do domu. Ale ci z nas, którzy zostali postanowili kontynuować Turniej,\nz jedną, podstawową zasadą: MA BYĆ ZABAWA!\n\nRewers przyznany za zakup pakietów kart z Wielkiego Turnieju w przedsprzedaży.</plPL>
 			<jaJP>リッチキングの敗北後、祝勝会を開いてから解散、という流れになった。しかしその場に残った我々は、新たなる目的のためトーナメントを続けることとしたのだ。そう、「楽しむ」ために！\n\n「グランド・トーナメント」カードパックの予約購入により獲得。</jaJP>
-			<thTH>หลังจากการพ่ายแพ้ของลิชคิง ก็มีคนเสนอว่าเราควรเฉลิมฉลองมากกว่าที่จะกลับบ้าน เหล่าผู้ที่ยังคงอยู่ต่อเลยตัดสินใจจัดทัวร์นาเมนท์ต่อ พร้อมภารกิจใหม่: เอามันส์!\n\nได้รับจากการสั่งซื้อซองการ์ด The Grand Tournament ล่วงหน้า</thTH>
+			<thTH>หลังจากการพ่ายแพ้ของลิชคิง ก็มีคนเสนอว่าเราควรเฉลิมฉลองมากกว่าที่จะกลับบ้าน เหล่าผู้ที่ยังคงอยู่ต่อเลยตัดสินใจจัดทัวร์นาเมนท์ต่อ พร้อมภารกิจใหม่: เอามันส์!\n\nได้รับจากการสั่งซื้อซองการ์ด Grand Tournament ล่วงหน้า </thTH>
 		</Field>
 		<Field column="SOURCE_DESCRIPTION" />
 	</Record>
@@ -1816,6 +1816,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">5</Field>
 		<Field column="SORT_ORDER">0</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/TGT_Season/Card_Back_TGT_Season</Field>
 		<Field column="NAME" loc_ID="20973">
 			<enUS>Tournament Grounds</enUS>
 			<frFR>Lices du Tournoi</frFR>
@@ -1832,7 +1833,6 @@
 			<jaJP>トーナメント会場</jaJP>
 			<thTH>ลานทัวร์นาเมนท์</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/TGT_Season/Card_Back_TGT_Season</Field>
 		<Field column="DESCRIPTION" loc_ID="20974">
 			<enUS>All over The Grand Tournament's grounds, you can find knights at jousting practice. Poor target dummies. So much senseless hay shed on the path to glory...\n\nAcquired from achieving Rank 20 in Ranked Play, August 2015.</enUS>
 			<frFR>Partout, les lices du Grand Tournoi accueillent des chevaliers qui perfectionnent leur art de la joute. Pauvres mannequins d’entraînement. Tant de paille gâchée, jetée à terre sur le chemin de la gloire…\n\nObtenu en atteignant le rang 20 en Partie classée, saison d’août 2015.</frFR>
@@ -1859,6 +1859,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">7</Field>
 		<Field column="SORT_ORDER">2</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Esports/Card_Back_Esports</Field>
 		<Field column="NAME" loc_ID="20975">
 			<enUS>Power Core</enUS>
 			<frFR>Noyau d’énergie</frFR>
@@ -1875,7 +1876,6 @@
 			<jaJP>パワー・コア</jaJP>
 			<thTH>พาวเวอร์คอร์</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Esports/Card_Back_Esports</Field>
 		<Field column="DESCRIPTION" loc_ID="20976">
 			<enUS>We can feel the energy in the air. And it's coming from... YOU!\n\nAcquired from attending approved eSports events.</enUS>
 			<frFR>L’air est rempli d’énergie. Et elle vient de... VOUS !\nObtenu en assistant à des évènements eSport approuvés.</frFR>
@@ -1902,6 +1902,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">5</Field>
 		<Field column="SORT_ORDER">0</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Draenei/Card_Back_Draenei</Field>
 		<Field column="NAME" loc_ID="21534">
 			<enUS>Exodar</enUS>
 			<frFR>Exodar</frFR>
@@ -1918,7 +1919,6 @@
 			<jaJP>エクソダー</jaJP>
 			<thTH>เอ็กซ์โซดาร์</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Draenei/Card_Back_Draenei</Field>
 		<Field column="DESCRIPTION" loc_ID="21535">
 			<enUS>The capital city of the draenei is actually a crash-landed dimensional ship.  Despite its wonders and Velen's best efforts, its tourism industry is sluggish due to its remote location (and the man-eating mutant plants).\n\nAcquired from achieving Rank 20 in Ranked Play, September 2015.</enUS>
 			<frFR>La capitale des draeneï est en fait un vaisseau dimensionnel qui s’est écrasé. Malgré toutes les merveilles qu’elle recèle et les efforts de Velen, l’industrie touristique locale ne va pas fort, en raison de son éloignement (et des plantes mutantes carnivores).\n\nObtenu en atteignant le rang 20 en Partie classée, saison de septembre 2015.</frFR>
@@ -1933,7 +1933,7 @@
 			<ptBR>A capital dos draeneis é, na verdade, uma nave dimensional abatida. Apesar de suas maravilhas e dos esforços de Velen, o setor turístico anda em baixa por lá, pois o local é deveras remoto (sem falar nas plantas mutantes que comem gente).\n\nAdquirido ao chegar ao Ranque 20 no Jogo Ranqueado. Setembro de 2015.</ptBR>
 			<plPL>Stolica dranei to tak naprawdę rozbity międzywymiarowy statek. Położenie na uboczu (oraz ludożercze, zmutowane rośliny) sprawia, że pomimo wysiłków Velena, branża turystyczna słabo sobie tu radzi.\n\nRewers przyznany za osiągnięcie poziomu 20 w trybie rankingowym we wrześniu 2015.</plPL>
 			<jaJP>ドラナイの中心都市は、不時着した次元航行船だ。その数々の驚異とヴェレンの努力にも関わらず、観光業は泣かず飛ばずらしい。なにぶん場所が僻地なのと、もしかしたら人食いミュータント植物のせいかもしれない。\n\n2015年9月、ランク戦プレイでランク20到達により獲得。</jaJP>
-			<thTH>เมืองหลวงของเหล่าดราไน มักเป็นจุดตกของยานข้ามมิติ ท่ามกลางความไม่เข้าใจ และความพยายามแก้ปัญหา[b]อย่างเต็มที่ของเวเลน อุตสาหกรรมการท่องเที่ยว[b]ของที่นี่ก็ยังคงประสบปัญหาเนื่องจาก\nอยู่ในที่ห่างไกล (และมีพืชกินคนกลายพันธุ์)\n\nได้รับเมื่อไปถึงระดับ 20 ในเกมจัดอันดับ กันยายน 2015</thTH>
+			<thTH>เมืองหลวงของเหล่าดราไน มักเป็นจุดตกของยานข้ามมิติ ท่ามกลางความไม่เข้าใจ และความพยายามแก้ปัญหาอย่างเต็มที่ของเวเลน อุตสาหกรรมการท่องเที่ยวของที่นี่ก็ยังคงประสบปัญหาเนื่องจากอยู่ในที่ห่างไกล (และมีพืชกินคนกลายพันธุ์)\n\nได้รับเมื่อไปถึงระดับ 20 ในเกมจัดอันดับ กันยายน 2015</thTH>
 		</Field>
 		<Field column="SOURCE_DESCRIPTION" />
 	</Record>
@@ -1945,6 +1945,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">5</Field>
 		<Field column="SORT_ORDER">0</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Highmaul/Card_Back_Highmaul</Field>
 		<Field column="NAME" loc_ID="21745">
 			<enUS>Highmaul</enUS>
 			<frFR>Cognefort</frFR>
@@ -1961,7 +1962,6 @@
 			<jaJP>ハイモール</jaJP>
 			<thTH>ไฮมอล</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Highmaul/Card_Back_Highmaul</Field>
 		<Field column="DESCRIPTION" loc_ID="21746">
 			<enUS>5 out of 10 ogres agree: this card back is SMASHING!\n\nAcquired from achieving Rank 20 in Ranked Play, October 2015.</enUS>
 			<frFR>5 ogres sur 10 sont d’accord : ce dos de carte CASSE TOUT !\n\nObtenu en atteignant le rang 20 en Partie classée, saison d’octobre 2015.</frFR>
@@ -1988,6 +1988,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">5</Field>
 		<Field column="SORT_ORDER">0</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/LOE1/Card_Back_LOE1</Field>
 		<Field column="NAME" loc_ID="21766">
 			<enUS>Explorer’s Map</enUS>
 			<frFR>Carte au trésor</frFR>
@@ -2004,7 +2005,6 @@
 			<jaJP>探検家の地図</jaJP>
 			<thTH>แผนที่นักสำรวจ</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/LOE1/Card_Back_LOE1</Field>
 		<Field column="DESCRIPTION" loc_ID="21767">
 			<enUS>A League of Explorers treasure map!  Or the Cartographer’s grocery list?  Let’s find out!\n\nAcquired from achieving Rank 20 in Ranked Play, November 2015.</enUS>
 			<frFR>Une carte au trésor de la Ligue des explorateurs ! Ou la liste de courses de la cartographe ? Un seul moyen de le savoir !\n\nObtenu en atteignant le rang 20 en Partie classée, saison de novembre 2015.</frFR>
@@ -2031,6 +2031,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">3</Field>
 		<Field column="SORT_ORDER">3</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/LOE2/Card_Back_LOE2</Field>
 		<Field column="NAME" loc_ID="21768">
 			<enUS>Staff of Origination</enUS>
 			<frFR>Bâton de l’Origine</frFR>
@@ -2047,7 +2048,6 @@
 			<jaJP>起源の杖</jaJP>
 			<thTH>ไม้เท้าต้นกำเนิด</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/LOE2/Card_Back_LOE2</Field>
 		<Field column="DESCRIPTION" loc_ID="21769">
 			<enUS>Wait, isn't this staff supposed to be in the museum?  RENO!!!\n\nAcquired from completing the League of Explorers in Heroic mode.</enUS>
 			<frFR>Une minute, ce bâton ne devrait pas être dans le musée ? RENO !!!\n\nObtenu en terminant la Ligue des explorateurs en mode héroïque.</frFR>
@@ -2074,6 +2074,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">11</Field>
 		<Field column="SORT_ORDER">2</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Blizzard2015/Card_Back_Blizzard2015</Field>
 		<Field column="NAME" loc_ID="21770">
 			<enUS>Blizzard 2015</enUS>
 			<frFR>Blizzard 2015</frFR>
@@ -2090,7 +2091,6 @@
 			<jaJP>Blizzard 2015</jaJP>
 			<thTH>Blizzard 2015</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Blizzard2015/Card_Back_Blizzard2015</Field>
 		<Field column="DESCRIPTION" loc_ID="21771">
 			<enUS>Hearthstone on phones, Tavern Brawls, Blackrock Mountain, The Grand Tournament and more! A very cool year, indeed.\n\nAcquired by participating in Blizzard events during 2015.</enUS>
 			<frFR>Hearthstone sur mobile, le Bras de fer, le mont Rochenoire, le Grand Tournoi… Quelle merveilleuse année !\n\nObtenu en participant à des évènements Blizzard en 2015.</frFR>
@@ -2105,7 +2105,7 @@
 			<ptBR>Hearthstone para celular, Contendas de Taverna, a Montanha Rocha Negra, o Grande Torneio e muito mais! Um ano bem produtivo, é ou não é?\n\nAdquirido ao participar de eventos da Blizzard em 2015.</ptBR>
 			<plPL>Czarna Góra, Wielki Turniej, Hearthstone na smartfony, Karczemne Bójki i wiele więcej... To był naprawdę dobry rok.\n\nRewers przyznany za udział w imprezach Blizzarda w roku 2015.</plPL>
 			<jaJP>スマホでHearthstone、酒場の喧嘩、ブラックロック・マウンテンにグランド・トーナメント…その他にもいろいろあった、楽しい一年だった！\n\n2015年に、ブリザードのイベントに参加したことにより獲得。</jaJP>
-			<thTH>Hearthstone บนโทรศัพท์มือถือ, โหมดท้าประลอง, Blackrock Mountain, The Grand Tournament และอื่นๆ อีกมากมาย! เป็นปีที่เยี่ยมจริงๆ\n\nได้รับจากการเข้าร่วมในกิจกรรมของ Blizzard ปี 2015</thTH>
+			<thTH>Hearthstone บนโทรศัพท์มือถือ, โหมดท้าประลอง, Blackrock Mountain, Grand Tournament และอื่นๆ อีกมากมาย! เป็นปีที่เยี่ยมจริงๆ\n\nได้รับจากการเข้าร่วมในกิจกรรมของ Blizzard ปี 2015</thTH>
 		</Field>
 		<Field column="SOURCE_DESCRIPTION" />
 	</Record>
@@ -2117,6 +2117,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">8</Field>
 		<Field column="SORT_ORDER">3</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Void/Card_Back_Void</Field>
 		<Field column="NAME" loc_ID="21772">
 			<enUS>Legacy of the Void</enUS>
 			<frFR>Legacy of the Void</frFR>
@@ -2133,7 +2134,6 @@
 			<jaJP>Legacy of the Void</jaJP>
 			<thTH>Legacy of the Void</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Void/Card_Back_Void</Field>
 		<Field column="DESCRIPTION" loc_ID="21773">
 			<enUS>Came with a note.  What on Azeroth does "En Taro Adun" mean?\n\nAcquired from Legacy of the Void Deluxe Edition.</enUS>
 			<frFR>Il y avait un petit mot avec. Quelqu’un sait ce que « En Taro Adun » veut dire ?\n\nObtenu avec l’édition Deluxe de Legacy of the Void.</frFR>
@@ -2160,6 +2160,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">5</Field>
 		<Field column="SORT_ORDER">0</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/LoveIsInTheAir/Card_Back_Love_Is_In_The_Air</Field>
 		<Field column="NAME" loc_ID="21774">
 			<enUS>Love Is in the Air</enUS>
 			<frFR>De l’amour dans l’air</frFR>
@@ -2176,7 +2177,6 @@
 			<jaJP>恋の予感</jaJP>
 			<thTH>ความรักอยู่รอบตัว</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/LoveIsInTheAir/Card_Back_Love_Is_In_The_Air</Field>
 		<Field column="DESCRIPTION" loc_ID="21775">
 			<enUS>Many believe goblins made up this holiday to sell candy.  It’s not true!  They also sell flowers and perfume!\n\nAcquired from achieving Rank 20 in Ranked Play, January 2016.</enUS>
 			<frFR>Il paraît que les gobelins ont créé cette fête pour vendre des bonbons. Ce n’est pas vrai ! Ils vendent aussi des fleurs et du parfum !\n\nObtenu en atteignant le rang 20 en Partie classée, saison de janvier 2016.</frFR>
@@ -2203,6 +2203,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">5</Field>
 		<Field column="SORT_ORDER">0</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Tauren/Card_Back_Tauren</Field>
 		<Field column="NAME" loc_ID="21946">
 			<enUS>Thunder Bluff</enUS>
 			<frFR>Pitons-du-Tonnerre</frFR>
@@ -2219,7 +2220,6 @@
 			<jaJP>サンダー・ブラフ</jaJP>
 			<thTH>ธันเดอร์บลัฟฟ์</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Tauren/Card_Back_Tauren</Field>
 		<Field column="DESCRIPTION" loc_ID="21947">
 			<enUS>Unofficial slogan:  “Great warriors come from happy Tauren tribes.  Happy Tauren come from Thunder Bluff!”\n\nAcquired from achieving Rank 20 in Ranked Play, February 2016.</enUS>
 			<frFR>Leur slogan (non officiel) : « Les plus grands guerriers proviennent de tribus taurènes heureuses, et les taurens heureux des Pitons-du-Tonnerre ! »\n\nObtenu en atteignant le rang 20 en Partie classée, saison de février 2016.</frFR>
@@ -2234,7 +2234,7 @@
 			<ptBR>Slogan não oficial: "Taurens felizes dão grandes guerreiros. Taurens felizes vêm do Penhasco do Trovão!"\n\nAdquirido ao chegar no Ranque 20 no Jogo Ranqueado. Fevereiro de 2016.</ptBR>
 			<plPL>„Wielcy wojownicy pochodzą z plemion szczęśliwych taurenów. Szczęśliwi taureni pochodzą z Gromowych Urwisk!”\n\nRewers przyznany za osiągnięcie poziomu 20 w trybie rankingowym w lutym 2016.</plPL>
 			<jaJP>非公式スローガン: 「すばらしい戦士は、幸せいっぱいのトーレンの部族から。サンダー・ブラフでのびのび育ったトーレンです！」\n\n2016年2月、ランク戦プレイでランク20到達により獲得。</jaJP>
-			<thTH>สโลแกนอย่างไม่เป็นทางการ: “นักรบผู้ยิ่งใหญ่จะมาจากเผ่าทอเรนที่มีความสุข เผ่าทอเรนที่มีความสุขจะมาจากธันเดอร์บลัฟฟ์!”\n\nได้รับเมื่อไปถึงระดับ 20 ในเกมจัดอันดับ กุมภาพันธ์ 2016</thTH>
+			<thTH>สโลแกนอย่างไม่เป็นทางการ: “นักรบผู้ยิ่งใหญ่จะมาจากเผ่าทอเรนที่มีความสุข เผ่าทอเรนที่มีความสุขจะมาจากธันเดอร์บลัฟฟ์!”\n\nได้รับเมื่อไปถึงระดับ 20 ในเกมจัดอันดับ ธันวาคม 2015</thTH>
 		</Field>
 		<Field column="SOURCE_DESCRIPTION" />
 	</Record>
@@ -2246,6 +2246,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">5</Field>
 		<Field column="SORT_ORDER">0</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Shaman/Card_Back_Shaman</Field>
 		<Field column="NAME" loc_ID="21948">
 			<enUS>Thrall</enUS>
 			<frFR>Thrall</frFR>
@@ -2262,7 +2263,6 @@
 			<jaJP>スロール</jaJP>
 			<thTH>ธรอล</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Shaman/Card_Back_Shaman</Field>
 		<Field column="DESCRIPTION" loc_ID="21949">
 			<enUS>The World Shaman is probably THE best known celebrity in Azeroth.  It’s a mystery that his signature necklace never caught on as a fashion trend.\n\nAcquired from achieving Rank 20 in Ranked Play, December 2015.</enUS>
 			<frFR>Le chaman universel est probablement la célébrité la plus connue de tout Azeroth. Alors comment ça se fait que personne n’ait encore lancé une mode pour son collier si caractéristique ?\n\nObtenu en atteignant le rang 20 en Partie classée, saison de décembre 2015.</frFR>
@@ -2277,7 +2277,7 @@
 			<ptBR>O Xamã do Mundo deve ser a maior celebridade de Azeroth. É um mistério o seu colar favorito nunca ter virado moda.\n\nAdquirido ao chegar ao Ranque 20 no Jogo Ranqueado em dezembro de 2015.</ptBR>
 			<plPL>Szaman Świata jest najpewniej NAJBARDZIEJ znanym celebrytą w Azeroth. Tajemnicą pozostaje, czemu jego naszyjnik nie stał się krzykiem mody.\n\nRewers przyznany za osiągnięcie poziomu 20 w trybie rankingowym w grudniu 2015.</plPL>
 			<jaJP>この「世界のシャーマン」こそ、おそらくアゼロス一有名なセレブリティだ。彼のあの個性的なネックレスがファッション界から無視され続けてるのは、実に不思議だな。\n\n2015年12月、ランク戦プレイでランク20到達により獲得。</jaJP>
-			<thTH>"ชาแมนของโลก" น่าจะเป็นเซเลบที่มีชื่อเสียงที่สุดในอาเซรอธตอนนี้ น่าแปลกใจที่สร้อยคอประจำตัวของเขา ยังไม่กลายเป็นเทรนด์แฟชั่นซักที\n\nได้รับเมื่อไปถึงระดับ 20 ในเกมจัดอันดับ ธันวาคม 2015</thTH>
+			<thTH>"ชาแมนของโลก" น่าจะเป็นเซเลบที่มีชื่อเสียงที่สุดในอาเซรอธตอนนี้ น่าแปลกใจที่สร้อยคอประจำตัวของเขา ยังไม่กลายเป็นเทรนด์แฟชั่นซักที\n\nได้รับเมื่อไปถึงระดับ 20 ในเกมจัดอันดับ กุมภาพันธ์ 2016</thTH>
 		</Field>
 		<Field column="SOURCE_DESCRIPTION" />
 	</Record>
@@ -2289,6 +2289,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">13</Field>
 		<Field column="SORT_ORDER">0</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/WinterVeil/Card_Back_WinterVeil</Field>
 		<Field column="NAME" loc_ID="21972">
 			<enUS>Winter Veil Wreath</enUS>
 			<frFR>Couronne du Voile d’hiver</frFR>
@@ -2305,7 +2306,6 @@
 			<jaJP>冬至祭のリース</jaJP>
 			<thTH>พวงดอกไม้วินเทอร์เวล</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/WinterVeil/Card_Back_WinterVeil</Field>
 		<Field column="DESCRIPTION" loc_ID="21973">
 			<enUS>A beautiful Winter Veil wreath around a snow globe full of THE FROSTY DESTRUCTION OF YOUR OPPONENTS!  I mean…  good cheer.\n\nAcquired from the Feast of Winter Veil Tavern Brawl, 2015.</enUS>
 			<frFR>Une magnifique couronne du Voile d’hiver entourant une boule à neige pleine de DESTRUCTION GLACÉE POUR VOS ADVERSAIRES ! Euh, je veux dire… pleine de joie.\n\nObtenu en participant au Bras de fer de la fête du Voile d’hiver de 2015.</frFR>
@@ -2332,6 +2332,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">8</Field>
 		<Field column="SORT_ORDER">4</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Overwatch/Card_Back_Overwatch</Field>
 		<Field column="NAME" loc_ID="22119">
 			<enUS>Overwatch</enUS>
 			<frFR>Overwatch</frFR>
@@ -2348,7 +2349,6 @@
 			<jaJP>Overwatch</jaJP>
 			<thTH>Overwatch</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Overwatch/Card_Back_Overwatch</Field>
 		<Field column="DESCRIPTION" loc_ID="22120">
 			<enUS>The cavalry’s here!\n\nAcquired from Overwatch Origins or Collector's Edition.</enUS>
 			<frFR>La cavalerie est arrivée !\n\nObtenu avec l’édition Origins ou l’édition Collector d’Overwatch.</frFR>
@@ -2375,6 +2375,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">10</Field>
 		<Field column="SORT_ORDER">3</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/OG2/Card_Back_OG2</Field>
 		<Field column="NAME" loc_ID="22125">
 			<enUS>Eyes of C'Thun</enUS>
 			<frFR>Regard de C’Thun</frFR>
@@ -2391,7 +2392,6 @@
 			<jaJP>クトゥーンの眼</jaJP>
 			<thTH>ดวงตาแห่งคาธูน</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/OG2/Card_Back_OG2</Field>
 		<Field column="DESCRIPTION" loc_ID="22126">
 			<enUS>For an Old God who's stuck in the lightless depths of an ancient temple, C'Thun sure has a lot of eyeballs.\n\nWas acquired from pre-purchase of the Whispers of the Old Gods Card Packs.</enUS>
 			<frFR>Pour un Dieu très ancien plongé dans les profondeurs obscures d’un temple antique, C’Thun a beaucoup de globes oculaires !\n\nObtenu pour le préachat de paquets de cartes des Murmures des Dieux très anciens.</frFR>
@@ -2401,7 +2401,7 @@
 			<esMX>Para ser un dios antiguo atrapado en las profundidades penumbrosas de un templo ancestral, C'Thun tiene demasiados ojos.\n\nObtenido por haber reservado paquetes de cartas de Susurros de los Dioses Antiguos.</esMX>
 			<ruRU>Для древнего бога, спящего в непроглядном сумраке глубин древнего храма, у К'Туна как-то слишком много глаз.\n\nНаграда за оформление предзаказа комплектов дополнения «Пробуждение древних богов».</ruRU>
 			<zhTW>對於一個長期處於無光古代遺跡的古神來說，克蘇恩的視力算是相當不錯了。\n\n預購《古神碎碎念》卡牌包時取得。</zhTW>
-			<zhCN>上古之神克苏恩常年受困于远古神庙的无尽深渊，黑暗的环境迫使它进化出更多的眼睛来提高视野。\n\n预购“上古之神的低语”扩展包合集获得该奖励。</zhCN>
+			<zhCN>上古之神克苏恩常年受困于远古神庙的无尽深渊，黑暗的环境迫使它进化出更多的眼睛来提高视野。\n\n预购“上古之神的低语”卡牌包合集获得该奖励。</zhCN>
 			<itIT>Per essere un Dio Antico che vive nelle profondità oscure di un antico tempio, C'thun ha davvero molti occhi.\n\nOttenuto attraverso il preacquisto delle buste dei Sussurri degli Dei Antichi.</itIT>
 			<ptBR>Para um Deus Antigo preso nas profundezas escuras de um templo velho, até que C'Thun tem bastante olho.\n\nAdquirido com a pré-venda dos pacotes de cards dos Sussurros dos Deuses Antigos.</ptBR>
 			<plPL>Jak na przedwiecznego boga, który tkwi w pozbawionych światła głębinach prastarej świątyni, C'Thun ma całkiem sporo gałek ocznych.\n\nRewers przyznany za zakup pakietów kart Przedwiecznych Bogów w przedsprzedaży.</plPL>
@@ -2418,6 +2418,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">5</Field>
 		<Field column="SORT_ORDER">0</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Hogger/Card_Back_Hogger</Field>
 		<Field column="NAME" loc_ID="22330">
 			<enUS>Hogger</enUS>
 			<frFR>Lardeur</frFR>
@@ -2434,7 +2435,6 @@
 			<jaJP>ホガー</jaJP>
 			<thTH>ฮ็อกเกอร์</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Hogger/Card_Back_Hogger</Field>
 		<Field column="DESCRIPTION" loc_ID="22331">
 			<enUS>The Terror of Elwynn, the King of Gnolls. They say he bathes in the tears of young heroes, hence the wet dog smell.\n\nAcquired from achieving Rank 20 in Ranked Play, March 2016.</enUS>
 			<frFR>La terreur d’Elwynn, le roi des gnolls. On raconte qu’il se baigne dans les larmes des jeunes héros, d’où son odeur de chien mouillé.\n\nObtenu en atteignant le rang 20 en Partie classée, saison de mars 2016.</frFR>
@@ -2461,6 +2461,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">5</Field>
 		<Field column="SORT_ORDER">0</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/OG1/Card_Back_OG1</Field>
 		<Field column="NAME" loc_ID="22460">
 			<enUS>Clutch of Yogg-Saron</enUS>
 			<frFR>Yogg-Saron</frFR>
@@ -2477,7 +2478,6 @@
 			<jaJP>ヨグ＝サロンの掌握</jaJP>
 			<thTH>เงื้อมมือแห่งย็อกก์-ซารอน</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/OG1/Card_Back_OG1</Field>
 		<Field column="DESCRIPTION" loc_ID="22461">
 			<enUS>There are several cults trying to summon the Old God Yogg-Saron, and the competition for cultists is causing salaries to skyrocket.\n\nAcquired from achieving Rank 20 in Ranked Play, April 2016.</enUS>
 			<frFR>De nombreux cultes cherchent à invoquer le Dieu très ancien Yogg-Saron, et cette compétition de sectateurs a fait grimper les salaires en flèche.\n\nObtenu en atteignant le rang 20 en Partie classée, saison d’avril 2016.</frFR>
@@ -2504,6 +2504,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">5</Field>
 		<Field column="SORT_ORDER">0</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Shadow Moon/Card_Back_Shadowmoon</Field>
 		<Field column="NAME" loc_ID="22478">
 			<enUS>Shadowmoon Valley</enUS>
 			<frFR>Vallée d’Ombrelune</frFR>
@@ -2520,7 +2521,6 @@
 			<jaJP>シャドームーン  バレー</jaJP>
 			<thTH>หุบเขาชาโดว์มูน</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Shadow Moon/Card_Back_Shadowmoon</Field>
 		<Field column="DESCRIPTION" loc_ID="22479">
 			<enUS>After Outland became what it is, Shadowmoon Valley has always been full of demonic energy. Gul'dan's favorite spa destination!\n\nAcquired from achieving Rank 20 in Ranked Play, May 2016.</enUS>
 			<frFR>Depuis la transformation de l’Outreterre, la vallée d’Ombrelune est chargée d’énergie démoniaque. Du coup, c’est la destination favorite de Gul’dan !\n\nObtenu en atteignant le rang 20 en Partie classée, saison de mai 2016.</frFR>
@@ -2532,7 +2532,7 @@
 			<zhTW>外域變成如今這個模樣之後，影月谷到處充滿了惡魔能量，是古爾丹最愛的spa勝地！\n\n在2016年5月賽季中達到階級20時取得。</zhTW>
 			<zhCN>自从外域变成如今这副模样后，影月谷到处都充满了恶魔能量，从此变成了古尔丹最爱的水疗圣地。\n\n在2016年5月的排名对战赛季中达到20级获得该奖励。</zhCN>
 			<itIT>Da quando le Terre Esterne sono diventate ciò che sono, la Valle di Torvaluna è satura di energie demoniache. La meta turistica preferita da Gul'dan!\n\nOttenuto raggiungendo il grado 20 in modalità Classificata nel mese di maggio 2016.</itIT>
-			<ptBR>Depois que Terralén se transformou no que é, o Vale da Lua Negra está tomado de energias demoníacas. O retiro espiritual favorito de Gul'dan!\n\nAdquirido ao chegar no ranque 20 no Jogo Ranqueado. Maio de 2016. </ptBR>
+			<ptBR>Depois que Terralém se transformou no que é, o Vale da Lua Negra está tomado de energias demoníacas. O retiro espiritual favorito de Gul'dan!\n\nAdquirido ao chegar no ranque 20 no Jogo Ranqueado. Maio de 2016. </ptBR>
 			<plPL>Od kiedy Rubież przybrała obecną postać Dolina Cienistego Księżyca jest pełna demonicznych energii. To ulubione spa Gul'dana!\n\nRewers przyznany za osiągnięcie poziomu 20 w trybie rankingowym w maju 2016.</plPL>
 			<jaJP>アウトランドの一件から・・・シャドームーンバレーは常に悪のエネルギーに満ちていた。そんなシャドームーンはグルダンの憩いの場。\n\n2016年5月よりランク戦をプレイし、ランク20到達でGET！</jaJP>
 			<thTH>หลังจากที่เอาท์แลนด์กลายเป็นอย่างทุกวันนี้ หุบเขาชาโดว์มูนก็เต็มไปด้วยพลังงานปีศาจอยู่ตลอดเวลา ที่นี่แหละสปาสุดโปรดของกุลดาน!\n\nได้รับเมื่อไปถึงระดับ 20 ในเกมจัดอันดับ พฤษภาคม 2016</thTH>
@@ -2547,6 +2547,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">5</Field>
 		<Field column="SORT_ORDER">0</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Zuldrak/Card_Back_Zuldrak</Field>
 		<Field column="NAME" loc_ID="22501">
 			<enUS>Zul'Drak</enUS>
 			<frFR>Zul’Drak</frFR>
@@ -2563,7 +2564,6 @@
 			<jaJP>ズルドラク</jaJP>
 			<thTH>ซุล'แดร็ค</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Zuldrak/Card_Back_Zuldrak</Field>
 		<Field column="DESCRIPTION" loc_ID="22502">
 			<enUS>Home of the Drakkari ice trolls, Zul'Drak consistently produces the best figure skaters of all the troll tribes.\n\nAcquired from achieving Rank 20 in Ranked Play, June 2016.</enUS>
 			<frFR>Patrie des trolls des glaces drakkari, Zul’Drak forme les meilleurs patineurs artistiques de toutes les tribus trolles !\n\nObtenu en atteignant le rang 20 en Partie classée, saison de juin 2016.</frFR>
@@ -2590,6 +2590,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">5</Field>
 		<Field column="SORT_ORDER">0</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Pandaria_02/Card_Back_Pandaria_02</Field>
 		<Field column="NAME" loc_ID="22503">
 			<enUS>Halfhill</enUS>
 			<frFR>Micolline</frFR>
@@ -2606,7 +2607,6 @@
 			<jaJP>ハーフヒル</jaJP>
 			<thTH>ฮาล์ฟฮิล</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Pandaria_02/Card_Back_Pandaria_02</Field>
 		<Field column="DESCRIPTION" loc_ID="22504">
 			<enUS>Surrounded by fertile farmland that grows delectable giant produce, Halfhill is the culinary heart of Pandaria. "Come to Halfhill! Double your weight!"\n\nAcquired from achieving Rank 20 in Ranked Play, November 2016.</enUS>
 			<frFR>Entourée de terres cultivées fertiles qui produisent de délicieux produits, Micolline est le grenier de la Pandarie. « Venez à Micolline goûter toutes nos spécialités culinaires ! »\n\nObtenu en atteignant le rang 20 en Partie classée, saison de novembre 2016.</frFR>
@@ -2621,7 +2621,50 @@
 			<ptBR>Cercada por terras férteis que produzem hortaliças gigantes deliciosas, Meia Colina é o coração culinário de Pandária. "Venha para Meia Colina! Dobre de peso!"\n\nObtido ao chegar ao Ranque 20 no Jogo Ranqueado em novembro de 2016.</ptBR>
 			<plPL>Półwzgórze to kulinarne serce Pandarii, otoczone żyznymi ziemiami uprawnymi, które zapewniają bujne i smakowite plony. „Na Półwzgórzu podwoisz swoją wagę! Zapraszamy!”\n\nRewers przyznany za osiągnięcie poziomu 20 w trybie rankingowym w listopadzie 2016.</plPL>
 			<jaJP>肥沃な農地に囲まれ、おいしい巨大野菜を生産するハーフヒルはパンダリアの台所だ。「おいでませハーフヒル！おいしくてハー、太る！」\n\n2016年11月、ランク戦プレイでランク20到達により獲得。</jaJP>
-			<thTH>ล้อมรอบด้วยพื้นที่ฟาร์มอุดมสมบูรณ์ซึ่งปลูกผลผลิตขนาดยักษ์แสนอร่อย ฮาล์ฟฮิลคือศูนย์กลางด้านอาหารของแพนดาเรีย "มาเยือนฮาล์ฟฮิลสิ! คุณจะกลับไปพร้อมน้ำหนักคูณสอง!"\n\nได้รับเมื่อเล่นถึงระดับ 20 ในเกมจัดอันดับประจำเดือนพฤศจิกายน 2016</thTH>
+			<thTH>ล้อมรอบด้วยพื้นที่ฟาร์มอุดมสมบูรณ์ซึ่งปลูกผลผลิตขนาดยักษ์แสนอร่อย ฮาล์ฟฮิลคือศูนย์กลางทางอาหารของแพนดาเรีย "มาเยือนฮาล์ฟฮิลสิ! คุณจะกลับไปพร้อมน้ำหนักคูณสอง!"\n\nได้รับเมื่อไปถึงระดับ 20 ในเกมจัดอันดับ พฤศจิกายน 2016</thTH>
+		</Field>
+		<Field column="SOURCE_DESCRIPTION" />
+	</Record>
+	<Record>
+		<Field column="ID">53</Field>
+		<Field column="NOTE_DESC">Heroic Karazhan</Field>
+		<Field column="DATA1">0</Field>
+		<Field column="SOURCE">fixed_reward</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="SORT_CATEGORY">3</Field>
+		<Field column="SORT_ORDER">3</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/KAR_Portal/Card_Back_KAR_Portal</Field>
+		<Field column="NAME" loc_ID="22910">
+			<enUS>The Blue Portal</enUS>
+			<deDE>Das blaue Portal</deDE>
+			<esES>El portal azul</esES>
+			<esMX>El Portal azul</esMX>
+			<frFR>Portail bleu</frFR>
+			<itIT>Portale Blu</itIT>
+			<jaJP>青のポータル</jaJP>
+			<koKR>푸른색 차원문</koKR>
+			<plPL>Błękitny portal</plPL>
+			<ptBR>O Portal Azul</ptBR>
+			<ruRU>Синий портал</ruRU>
+			<thTH>ประตูมิติสีน้ำเงิน</thTH>
+			<zhCN>蓝色传送门</zhCN>
+			<zhTW>藍色傳送門</zhTW>
+		</Field>
+		<Field column="DESCRIPTION" loc_ID="22911">
+			<enUS>Don’t tell Netherspite, but mischievous guests have been getting into all manner of shenanigans with his portals!\n\nAcquired from completing One Night in Karazhan in Heroic mode.</enUS>
+			<deDE>Kein Wort zu Nethergroll, aber dreiste Partygäste stellen mit seinen Portalen jede Menge Unfug an!\n\nBelohnung für Spieler, die Eine Nacht in Karazhan im heroischen Modus abgeschlossen haben.</deDE>
+			<esES>No se lo digas a Rencor Abisal, pero unos traviesos invitados han estado jugueteando con sus portales.\n\nOtorgado por completar Una Noche en Karazhan en modo heroico.</esES>
+			<esMX>No le digas nada al Rencor Abisal, ¡pero varios invitados traviesos han hecho cientos de diabluras con sus portales!\n\nObtenido por completar Una noche en Karazhan en el modo heroico.</esMX>
+			<frFR>Ne le dites pas à Dédain-du-Néant, mais des invités farceurs ont mis ses portails sens dessus dessous_!\n\nObtenu en terminant Une nuit à Karazhan en mode héroïque.</frFR>
+			<itIT>Non dirlo a Scagliafatua, ma degli ospiti poco raccomandabili si sono messi a giocare con i suoi portali!\n\nOttenuto completando Una notte a Karazhan in versione Eroica.</itIT>
+			<jaJP>ネザースパイトの大事なポータルが、ふざけた招待客たちのありとあらゆるいたずらにさらされ続けてるってことは、ヤツには内緒だぞ！\n\n「ワン・ナイト・イン・カラザン」のヒロイックモード完全クリアにより獲得。</jaJP>
+			<koKR>황천의 원령에겐 절대 말하지 마세요. 온갖 말썽쟁이 손님들이 그의 차원문으로 장난을 치곤 한답니다!\n\n한여름 밤의 카라잔 모험을 영웅 난이도로 완료하여 획득</koKR>
+			<plPL>Nie mów Otchłarionowi, ale psotni goście zaczęli wyczyniać jakieś harce przy portalach!\n\nRewers przyznany za ukończenie przygody w Karazhanie w trybie heroicznym.</plPL>
+			<ptBR>Não conte para Eteródio, mas convidados traquinas estão armando um monte de presepadas com os portais dele!\n\nAdquirido ao completar Uma Noite em Karazhan no modo Heroico.</ptBR>
+			<ruRU>Только не говорите Гневу Пустоты, но гости добрались и до его замечательных порталов!\n\nНаграда за прохождение «Вечеринки в Каражане» в героическом режиме.</ruRU>
+			<thTH>อย่าบอกเนเธอร์สไปท์นะ แต่บรรดาแขกตัวป่วนกำลังสร้างความโกลาหล[b]ทุกรูปแบบด้วยประตูมิติของเขา!\n\nได้รับจากการเล่น One Night in Karazhan ในโหมดฮีโร่</thTH>
+			<zhCN>千万别告诉虚空幽龙，那些淘气的客人们正在用他心爱的传送门玩得不亦乐乎！\n\n击败英雄难度下的“卡拉赞”所有首领获得该奖励。</zhCN>
+			<zhTW>別和尼德斯說，有些調皮的客人已經用他的傳送門玩出各種花樣，還玩上癮了。\n\n完成《夜夜卡拉贊》英雄模式時取得。</zhTW>
 		</Field>
 		<Field column="SOURCE_DESCRIPTION" />
 	</Record>
@@ -2633,6 +2676,7 @@
 		<Field column="ENABLED">True</Field>
 		<Field column="SORT_CATEGORY">5</Field>
 		<Field column="SORT_ORDER">0</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Murloc/Card_Back_Murloc</Field>
 		<Field column="NAME" loc_ID="22935">
 			<enUS>Tinyfin Beach</enUS>
 			<frFR>Plage mini-aileron</frFR>
@@ -2647,9 +2691,8 @@
 			<ptBR>Praia Micropina</ptBR>
 			<plPL>Plaża Tycipłetwa</plPL>
 			<jaJP>タイニーフィン・ビーチ</jaJP>
-			<thTH>ชายหาดครีบจิ๋ว</thTH>
+			<thTH>ชายหาดไทนี่ฟิน</thTH>
 		</Field>
-		<Field column="PREFAB_NAME">Assets/Game/CardBacks/Murloc/Card_Back_Murloc</Field>
 		<Field column="DESCRIPTION" loc_ID="22936">
 			<enUS>Be sure to pack your picnic basket, towel, and Anti-Murloc Spray.\n\nAcquired from achieving Rank 20 in Ranked Play, July 2016.</enUS>
 			<frFR>N’oubliez pas votre pique-nique, votre serviette et votre spray anti-murlocs.\n\nObtenu en atteignant le rang 20 en Partie classée, saison de juillet 2016.</frFR>
@@ -2664,7 +2707,108 @@
 			<ptBR>Lembre-se de levar a cesta de piquenique, uma toalha e spray antimurloc.\n\nAdquirido ao chegar ao Ranque 20 no Jogo Ranqueado em julho de 2016.</ptBR>
 			<plPL>Nie zapomnij zabrać piknikowego koszyka, ręcznika i spreju przeciw murlokom.\n\nRewers przyznany za osiągnięcie poziomu 20 w trybie rankingowym w lipcu 2016.</plPL>
 			<jaJP>ピクニックのバスケットと、タオルと、マーロック除けスプレーを忘れずに持って行こう。\n\n2016年7月、ランク戦プレイでランク20到達により獲得。</jaJP>
-			<thTH>อย่าลืมนำตะกร้าปิคนิค ผ้าเช็ดตัว และสเปรย์ป้องกันเมอร์ล็อคไปด้วย\n\nได้รับเมื่อเล่นถึงระดับ 20 ในเกมจัดอันดับประจำเดือนกรกฎาคม 2016</thTH>
+			<thTH>อย่าลืมเอาตะกร้าปิกนิก ผ้าขนหนู และสเปรย์กันเมอร์ล็อคติดตัวไปด้วยล่ะ\n\nได้รับเมื่อไปถึงระดับ 20 ในเกมจัดอันดับ กรกฎาคม 2016</thTH>
+		</Field>
+		<Field column="SOURCE_DESCRIPTION" />
+	</Record>
+	<Record>
+		<Field column="ID">56</Field>
+		<Field column="NOTE_DESC">Disco Ball</Field>
+		<Field column="DATA1">0</Field>
+		<Field column="SOURCE">fixed_reward</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="SORT_CATEGORY">10</Field>
+		<Field column="SORT_ORDER">1</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/KAR_DiscoBall/Card_Back_KAR_DiscoBall</Field>
+		<Field column="NAME" loc_ID="23024">
+			<enUS>Karazhan Nights</enUS>
+			<deDE>Nachts in Karazhan</deDE>
+			<esES>Noches de Karazhan</esES>
+			<esMX>Noches de Karazhan</esMX>
+			<frFR>Nuit à Karazhan</frFR>
+			<itIT>Notti di Karazhan</itIT>
+			<jaJP>カラザンの夕べ</jaJP>
+			<koKR>카라잔의 밤</koKR>
+			<plPL>Noce Karazhanu</plPL>
+			<ptBR>Noites de Karazhan</ptBR>
+			<ruRU>Вечеринки в Каражане</ruRU>
+			<thTH>ราตรีแห่งคาราซาน</thTH>
+			<zhCN>卡拉赞之夜</zhCN>
+			<zhTW>卡拉贊之夜</zhTW>
+		</Field>
+		<Field column="DESCRIPTION" loc_ID="23025">
+			<enUS>Watch your step! Dancing Tauren are notorious for accidentally crushing toes.\n\nAcquired by purchasing all wings of One Night in Karazhan within one week of launch.</enUS>
+			<deDE>Passt auf Eure Füße auf! Tauren im Tanzrausch haben die nervige Angewohnheit, anderen versehentlich die Zehen zu zerquetschen.\n\nBelohnung für Spieler, die innerhalb von einer Woche nach der Veröffentlichung von Karazhan alle Flügel erworben haben.</deDE>
+			<esES>¡Mira dónde pones los pies! Los tauren son famosos por chafar dedos sin querer cuando bailan.\n\nOtorgado por la compra de todas las alas de Una Noche en Karazhan antes de que haya transcurrido una semana desde el lanzamiento.</esES>
+			<esMX>¡Ten cuidado dónde pisas! Los bailarines tauren son muy famosos por aplastar dedos sin querer.\n\nObtenido por comprar todas las alas de Una noche en Karazhan durante la primera semana del lanzamiento.</esMX>
+			<frFR>Attention à vos pieds_! Les taurens sont réputés pour leur chorégraphies, disons, approximatives.\nObtenu pour l’achat de tous les étages d’Une nuit à Karazhan au cours de la première semaine suivant sa sortie.</frFR>
+			<itIT>Fai attenzione ai piedi: i Tauren sono famosi per pestare gli alluci altrui quando ballano!\n\nOttenuto acquistando tutte le ali di Una notte a Karazhan entro una settimana dalla pubblicazione.</itIT>
+			<jaJP>足元に注意！トーレンはダンス中にうっかり他人の足を踏み砕くことで悪名高いんだ。\n\n「ワン・ナイト・イン・カラザン」\n全ての区画を発売一週間以内に購入すると手に入るぞ。</jaJP>
+			<koKR>발을 조심하세요! 춤추는 타우렌에게 밟히면 발가락이 성하지 못할 겁니다.\n\n한여름 밤의 카라잔 출시 후 1주일까지 모든 지구를 구매하여 획득</koKR>
+			<plPL>Uważaj, gdzie idziesz! Tańczący taureni znani są z przypadkowego miażdżenia partnerów.\n\nRewers przyznany za zakup wszystkich skrzydeł przygody w Karazhanie w ciągu tygodnia od premiery.</plPL>
+			<ptBR>Cuidado onde pisa! Taurens são famosos por esmagar dedões quando estão dançando.\n\nAdquirido na compra de todas as alas de Uma Noite em Karazhan na semana do lançamento.</ptBR>
+			<ruRU>Смотрите, чтоб вам не отдавили ногу – берегитесь танцующих тауренов!\n\nНаграда за покупку всех крыльев приключения «Вечеринка в Каражане» в течение недели после его выхода.</ruRU>
+			<thTH>ระวังทุกฝีก้าว! ทอเรนที่กำลังเต้นรำนั้นมีชื่อเสียง[b]ในด้านการเหยียบเท้าจนแหลกละเอียดโดยไม่ตั้งใจ\n\nได้รับจากการซื้อวิงทั้งหมดของ One Night in Karazhan ภายในหนึ่งสัปดาห์หลังเปิดตัว</thTH>
+			<zhCN>注意脚下！那些牛头人跳起舞来经常会有意无意地踩扁别人的脚趾，可别怪我没提醒你哟。\n\n通过在发布后的一周之内购买完整冒险模式获得该奖励。</zhCN>
+			<zhTW>小心你的腳步！熱舞的牛頭人可不會管你的腳趾在哪！在上市日一週內購買《夜夜卡拉贊》的所有區域，即可取得。</zhTW>
+		</Field>
+		<Field column="SOURCE_DESCRIPTION" loc_ID="23026">
+			<enUS>Special</enUS>
+			<deDE>Promo</deDE>
+			<esES>Especial</esES>
+			<esMX>Especial</esMX>
+			<frFR>Spécial</frFR>
+			<itIT>Speciale</itIT>
+			<jaJP>スペシャル</jaJP>
+			<koKR>특별</koKR>
+			<plPL>Specjalny</plPL>
+			<ptBR>Especial</ptBR>
+			<ruRU>Особые</ruRU>
+			<thTH>พิเศษ</thTH>
+			<zhCN>特殊</zhCN>
+			<zhTW>特殊</zhTW>
+		</Field>
+	</Record>
+	<Record>
+		<Field column="ID">58</Field>
+		<Field column="NOTE_DESC">Invitation</Field>
+		<Field column="DATA1">34</Field>
+		<Field column="SOURCE">season</Field>
+		<Field column="ENABLED">True</Field>
+		<Field column="SORT_CATEGORY">5</Field>
+		<Field column="SORT_ORDER">0</Field>
+		<Field column="PREFAB_NAME">Assets/Game/CardBacks/KAR_Invitation/Card_Back_KAR_Invitation</Field>
+		<Field column="NAME" loc_ID="23052">
+			<enUS>Medivh's Invitation</enUS>
+			<deDE>Medivhs Einladung</deDE>
+			<esES>Invitación de Medivh</esES>
+			<esMX>Invitación de Medivh</esMX>
+			<frFR>Invitation de Medivh</frFR>
+			<itIT>Invito di Medivh</itIT>
+			<jaJP>メディヴの招待状</jaJP>
+			<koKR>메디브의 초대장</koKR>
+			<plPL>Zaproszenie Medivha</plPL>
+			<ptBR>Convite de Medivh</ptBR>
+			<ruRU>Приглашение от Медива</ruRU>
+			<thTH>คำเชิญของเมดิฟห์</thTH>
+			<zhCN>麦迪文的邀请函</zhCN>
+			<zhTW>麥迪文的邀請函</zhTW>
+		</Field>
+		<Field column="DESCRIPTION" loc_ID="23053">
+			<enUS>You’re Invited! Please leave your giant bear with the valet.\n\nAcquired from achieving Rank 20 in Ranked Play, August, 2016.</enUS>
+			<deDE>Willkommen zur Party! Bitte gebt Euren riesigen Bären an der Garderobe ab.\n\nBelohnung für alle Spieler, die im August 2016 im gewerteten Modus Rang 20 erreicht haben.</deDE>
+			<esES>¡Te invito a la fiesta! Por favor, deja que el ayuda de cámara te aparque el oso gigante.\n\nOtorgada por alcanzar el rango 20 en el juego con rango en agosto de 2016.</esES>
+			<esMX>¡Estás invitado a mi fiesta! Mi asistente se ocupará de tu oso gigante.\n\nObtenido por alcanzar el rango 20 en partidas clasificadas durante agosto de 2016.</esMX>
+			<frFR>Vous êtes invité_! Prière de laisser votre ours géant au vestiaire.\n\nObtenu en atteignant le rang 20 en Partie classée, saison d’août 2016.</frFR>
+			<itIT>Hai ricevuto un invito! Ti preghiamo di lasciare l'orso gigante al maggiordomo.\n\nOttenuto raggiungendo il grado 20 in modalità Classificata nel mese di agosto 2016.</itIT>
+			<jaJP>今宵、あなたをご招待！巨大グマは入り口で従者にお預けください。\n\n2016年8月、ランク戦プレイでランク20到達により獲得。</jaJP>
+			<koKR>파티에 당신을 초대합니다! 타고오신 거대한 곰은 정문에 있는 하인에게 맡기고 들어와 주세요.\n\n2016년 8월 등급전에서 20등급 달성 시 획득</koKR>
+			<plPL>Zapraszamy do środka! Niedźwiedzia zostaw u lokaja, naramienniki w_szatni i_baw się dobrze!\n\nRewers przyznany za osiągnięcie poziomu 20 w trybie rankingowym w sierpniu 2016.</plPL>
+			<ptBR>Você foi convidado! Deixe seu urso gigante no estacionamento.\n\nAdquirido ao chegar ao Ranque 20 no Jogo Ranqueado em agosto de 2016.</ptBR>
+			<ruRU>Вы — в списке гостей! За вашим ездовым медведем присмотрит лакей.\n\nНаграда за достижение 20-го ранга в рейтинговых матчах в августе 2016 г.</ruRU>
+			<thTH>คุณได้รับคำเชิญ! กรุณาฝากหมียักษ์ของคุณไว้กับพนักงาน\n\nได้รับจากการได้อันดับ 20 ในเกมจัดอันดับประจำเดือนสิงหาคม 2016</thTH>
+			<zhCN>麦迪文主持的派对可谓是艾泽拉斯的年度盛会，所以邀请函也一路水涨船高，千金难求。\n\n在2016年8月的排名对战赛季中达到20级获得该奖励。</zhCN>
+			<zhTW>麥迪文邀請你參加派對！請把你的大熊交給侍者保管。\n\n在2016年8月賽季中達到階級20時取得。</zhTW>
 		</Field>
 		<Field column="SOURCE_DESCRIPTION" />
 	</Record>

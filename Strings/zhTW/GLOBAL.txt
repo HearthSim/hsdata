@@ -39,6 +39,9 @@ GLOBAL_CARD_SET_DEBUG	Slush
 GLOBAL_CARD_SET_EXPERT1	經典	
 GLOBAL_CARD_SET_GVG	哥哥打地地	
 GLOBAL_CARD_SET_GVG_SEARCHABLE_SHORTHAND_NAMES	哥哥	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_KARA	夜夜卡拉贊	
+GLOBAL_CARD_SET_KARA_RESERVE	卡拉贊保留	
+GLOBAL_CARD_SET_KARA_SHORT	卡拉贊	
 GLOBAL_CARD_SET_LOE	探險者協會	
 GLOBAL_CARD_SET_LOE_SEARCHABLE_SHORTHAND_NAMES	探險者	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_LOE_SHORT	探險者協會	
@@ -210,7 +213,6 @@ GLOBAL_FRIENDLIST_BUSYSTATUS	忙碌
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_AVAILABLE	向{0}發出爐石戰記的挑戰。	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_HEADER	友誼賽	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_UNAVAILABLE	你現在無法挑戰{0}。請回到主選單。	0=player name
-GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_TAVERN_BRAWL_MUST_CREATE_DECK	想要和好友來場旅店大亂鬥嗎，先建立一副亂鬥模式套牌吧！	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_THEYRE_UNAVAILABLE	你現在無法挑戰{0}。請等待對方回到主選單。	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_DECK	該玩家沒有套牌。	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_STANDARD_DECK	該玩家沒有標準套牌。	
@@ -256,8 +258,6 @@ GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_RECEIVED_INVITE_TEXT	{0}邀請你觀戰。點
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_RECEIVED_INVITE_TEXT_TOUCH	{0}邀請你觀戰。輕點此處開始觀戰。	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_SPECTATING_HEADER	在觀戰模式中	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_SPECTATING_TEXT	你正在觀賞這位玩家的賽局。	
-GLOBAL_FRIENDLIST_TAVERN_BRAWL_CHALLENGE_BUTTON_AVAILABLE	在亂鬥模式中挑戰{0}。	0=player name
-GLOBAL_FRIENDLIST_TAVERN_BRAWL_CHALLENGE_BUTTON_HEADER	亂鬥友誼賽	
 GLOBAL_FRIENDLYCHALLENGE_QUEST_REWARD_AT_LIMIT	你的友誼賽任務獎勵已達到每日上限。	
 GLOBAL_FRIENDLYCHALLENGE_REWARD_CONCEDED_YOUR_OPPONENT	無法獲得獎勵，\n因為對手太早離開對戰。	
 GLOBAL_FRIENDLYCHALLENGE_REWARD_CONCEDED_YOURSELF	無法獲得獎勵，\n因為你太早離開對戰。	
@@ -272,6 +272,7 @@ GLOBAL_HEALTH	生命值
 GLOBAL_HEALTHY_GAMING_CHINA_CAIS_ACTIVE	CAIS已啟用	
 GLOBAL_HEALTHY_GAMING_CHINA_LESS_THAN_THREE_HOURS	您累计在线时间已满{0}小时。	
 GLOBAL_HEALTHY_GAMING_CHINA_MORE_THAN_FIVE_HOURS	您已进入不健康游戏时间，为了您的健康，请您立即下线休息。如不下线，您的身体将受到损害，您的收益已降为零，直到您的累计下线时间满5小时后，才能恢复正常。	
+GLOBAL_HEALTHY_GAMING_CHINA_STARTUP_MESSAGE	抵制不良游戏，拒绝盗版游戏。\n注意自我保护，谨防上当受骗。\n适度游戏益脑，沉迷游戏伤身。\n合理安排时间，享受健康生活。	
 GLOBAL_HEALTHY_GAMING_CHINA_THREE_HOURS	您累计在线时间已满{0}小时，请您下线休息，做适当身体活动。	
 GLOBAL_HEALTHY_GAMING_CHINA_THREE_TO_FIVE_HOURS	您已经进入疲劳游戏时间，您的游戏收益将降为正常值的0%，为了您的健康，请尽快下线休息，做适当身体活动，合理安排学习生活。	
 GLOBAL_HEALTHY_GAMING_KOREA_STARTUP_MESSAGE	본 게임물은 만 12세 이용가 게임으로서 해당 연령 미만의 청소년이 이용하기에 부적절합니다. 반드시 보호자의 지도 감독이 필요합니다.	
@@ -286,6 +287,8 @@ GLOBAL_HERO_LEVEL_REWARD_GOLDEN_CARD	{1}{0}	0=flair 1=card name
 GLOBAL_HERO_WINS	勝場：{0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HERO_WINS_PHONE	勝場\n{0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HIDE	隱藏	
+GLOBAL_KEYWORD_AUTOATTACK	自動攻擊	
+GLOBAL_KEYWORD_AUTOATTACK_TEXT	無法攻擊，但在回合結束時會自行動作。	
 GLOBAL_KEYWORD_AUTOCAST	自動施放	
 GLOBAL_KEYWORD_AUTOCAST_TEXT	此英雄能力每回合都必須施放。	
 GLOBAL_KEYWORD_BATTLECRY	戰吼	
@@ -504,6 +507,7 @@ GLOBAL_REGION_ASIA	亞洲
 GLOBAL_REGION_CHINA	中國	
 GLOBAL_REGION_EUROPE	歐洲	
 GLOBAL_REMAINING_DATETIME	剩下{0}	0=time string
+GLOBAL_RESTART	重新開始	
 GLOBAL_RESUME_GAME	繼續	
 GLOBAL_REWARD_ARCANE_DUST_HEADLINE	獲得魔塵！	
 GLOBAL_REWARD_ARENA_TICKET_ADMIT	參賽許可	the word 'admit' in capital letters - displayed like "Admit 1" and looks like a movie/fair ticket. this is the Arena Ticket reward visual.

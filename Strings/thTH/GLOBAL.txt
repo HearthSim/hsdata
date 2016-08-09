@@ -39,6 +39,9 @@ GLOBAL_CARD_SET_DEBUG	Slush
 GLOBAL_CARD_SET_EXPERT1	คลาสสิค	
 GLOBAL_CARD_SET_GVG	Goblins vs Gnomes	
 GLOBAL_CARD_SET_GVG_SEARCHABLE_SHORTHAND_NAMES	gvg	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_KARA	Karazhan	
+GLOBAL_CARD_SET_KARA_RESERVE	จองสำหรับ Karazhan	
+GLOBAL_CARD_SET_KARA_SHORT	Karazhan	
 GLOBAL_CARD_SET_LOE	League of Explorers	
 GLOBAL_CARD_SET_LOE_SEARCHABLE_SHORTHAND_NAMES	loe	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_LOE_SHORT	League of Explorers	
@@ -50,9 +53,9 @@ GLOBAL_CARD_SET_OG_SEARCHABLE_SHORTHAND_NAMES	tog wotog wog	This is a space-sepa
 GLOBAL_CARD_SET_OG_SHORT	เทพโบราณ	
 GLOBAL_CARD_SET_PROMO	โปรโมชั่น	
 GLOBAL_CARD_SET_REWARD	รางวัล	
-GLOBAL_CARD_SET_TGT	The Grand Tournament	
+GLOBAL_CARD_SET_TGT	Grand Tournament	
 GLOBAL_CARD_SET_TGT_SEARCHABLE_SHORTHAND_NAMES	tgt	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
-GLOBAL_CARD_SET_TGT_SHORT	The Grand Tournament	
+GLOBAL_CARD_SET_TGT_SHORT	Grand Tournament	
 GLOBAL_CARDTYPE_ENCHANTMENT	ผลพิเศษ	
 GLOBAL_CARDTYPE_HERO	ฮีโร่	
 GLOBAL_CARDTYPE_HEROPOWER	พลังฮีโร่	
@@ -188,7 +191,7 @@ GLOBAL_FORGE_END_TITLE	ผ่านลานประลองแล้ว
 GLOBAL_FRIEND_CHALLENGE_ACCEPT	ยอมรับ	
 GLOBAL_FRIEND_CHALLENGE_BODY1	คุณถูกท้าโดย:	
 GLOBAL_FRIEND_CHALLENGE_BODY1_STANDARD	คุณได้รับคำท้าแข่งเกมมาตรฐานจาก:	
-GLOBAL_FRIEND_CHALLENGE_BODY1_WILD	คุณได้รับคำท้าแข่ง\nเกมอิสระจาก	
+GLOBAL_FRIEND_CHALLENGE_BODY1_WILD	คุณได้รับคำท้าแข่ง\nเกมอิสระจาก:	
 GLOBAL_FRIEND_CHALLENGE_BODY2	ยอมรับคำท้าหรือไม่	
 GLOBAL_FRIEND_CHALLENGE_DECLINE	ปฏิเสธ	
 GLOBAL_FRIEND_CHALLENGE_HEADER	ท้าแข่ง	
@@ -210,7 +213,6 @@ GLOBAL_FRIENDLIST_BUSYSTATUS	ไม่ว่าง
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_AVAILABLE	ท้า {0} แข่งเกม Hearthstone	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_HEADER	ท้าแข่งกระชับมิตร	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_UNAVAILABLE	คุณไม่สามารถท้า {0} ได้ในตอนนี้ กลับไปที่เมนูหลัก	0=player name
-GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_TAVERN_BRAWL_MUST_CREATE_DECK	ถ้าอยากจะท้าเพื่อนมาประลองฝีมือกัน ให้สร้างเด็คท้าประลองก่อน!	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_THEYRE_UNAVAILABLE	คุณไม่สามารถท้า {0} ได้ในตอนนี้ รอให้พวกเขากลับไปที่เมนูหลักก่อน	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_DECK	ผู้เล่นคนนี้ไม่มีเด็ค	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_STANDARD_DECK	ผู้เล่นคนนี้ไม่มีเด็คมาตรฐาน	
@@ -225,7 +227,7 @@ GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_TAVERN_BRAWL_LOCKED	ปลดล็อค
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_DUEL_BUTTON	ดวล	
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_STANDARD_DUEL_BUTTON	ดวลมาตรฐาน	
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_WILD_DUEL_BUTTON	ดวลอิสระ	
-GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_NO_TAVERN_BRAWL	ขณะนี้เกมท้าประลองยังไม่เปิดให้เล่น โปรดกลับมาใหม่เร็วๆ นี้!	
+GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_NO_TAVERN_BRAWL	ขณะนี้เกมท้าประลองยังไม่เปิดให้เล่น  โปรดกลับมาใหม่เร็วๆ นี้!	
 GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_TAVERN_BRAWL_NOT_CHALLENGEABLE	ไม่มีการท้าแข่งกระชับมิตรสำหรับเกมท้าประลองนี้	
 GLOBAL_FRIENDLIST_CURRENT_GAMES_HEADER	เกมปัจจุบัน - {0}	0=number of friends you have unfinished games with
 GLOBAL_FRIENDLIST_FRIENDS_HEADER	เพื่อน - ออนไลน์ {0}/{1} คน	0=number of online friends 1=number of offline friends
@@ -256,8 +258,6 @@ GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_RECEIVED_INVITE_TEXT	{0} เชิญให�
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_RECEIVED_INVITE_TEXT_TOUCH	{0} เชิญให้คุณเข้าชมเกม แตะที่นี่เพื่อเริ่มชมเกม	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_SPECTATING_HEADER	อยู่ในโหมดผู้ชม	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_SPECTATING_TEXT	คุณกำลังชมเกมของผู้เล่นคนนี้อยู่	
-GLOBAL_FRIENDLIST_TAVERN_BRAWL_CHALLENGE_BUTTON_AVAILABLE	ท้า {0} ให้เล่นเกมท้าประลอง	0=player name
-GLOBAL_FRIENDLIST_TAVERN_BRAWL_CHALLENGE_BUTTON_HEADER	ท้าประลอง	
 GLOBAL_FRIENDLYCHALLENGE_QUEST_REWARD_AT_LIMIT	คุณถึงขีดจำกัดประจำวันสำหรับรางวัลเควสต์แข่งขันกับเพื่อนแล้ว	
 GLOBAL_FRIENDLYCHALLENGE_REWARD_CONCEDED_YOUR_OPPONENT	คู่แข่งของคุณออกจากเกมเร็วเกินกว่าที่คุณจะได้รับรางวัล	
 GLOBAL_FRIENDLYCHALLENGE_REWARD_CONCEDED_YOURSELF	คุณออกจากเกมเร็วเกินกว่าที่จะได้รับรางวัล	
@@ -272,6 +272,7 @@ GLOBAL_HEALTH	พลังชีวิต
 GLOBAL_HEALTHY_GAMING_CHINA_CAIS_ACTIVE	CAIS ทำงาน	
 GLOBAL_HEALTHY_GAMING_CHINA_LESS_THAN_THREE_HOURS	您累计在线时间已满{0}小时。	
 GLOBAL_HEALTHY_GAMING_CHINA_MORE_THAN_FIVE_HOURS	您已进入不健康游戏时间，为了您的健康，请您立即下线休息。如不下线，您的身体将受到损害，您的收益已降为零，直到您的累计下线时间满5小时后，才能恢复正常。	
+GLOBAL_HEALTHY_GAMING_CHINA_STARTUP_MESSAGE	抵制不良游戏，拒绝盗版游戏。\n注意自我保护，谨防上当受骗。\n适度游戏益脑，沉迷游戏伤身。\n合理安排时间，享受健康生活。	
 GLOBAL_HEALTHY_GAMING_CHINA_THREE_HOURS	您累计在线时间已满{0}小时，请您下线休息，做适当身体活动。	
 GLOBAL_HEALTHY_GAMING_CHINA_THREE_TO_FIVE_HOURS	您已经进入疲劳游戏时间，您的游戏收益将降为正常值的0%，为了您的健康，请尽快下线休息，做适当身体活动，合理安排学习生活。	
 GLOBAL_HEALTHY_GAMING_KOREA_STARTUP_MESSAGE	본 게임물은 만 12세 이용가 게임으로서 해당 연령 미만의 청소년이 이용하기에 부적절합니다. 반드시 보호자의 지도 감독이 필요합니다.	
@@ -286,6 +287,8 @@ GLOBAL_HERO_LEVEL_REWARD_GOLDEN_CARD	{0} {1}	0=flair 1=card name
 GLOBAL_HERO_WINS	ชนะ: {0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HERO_WINS_PHONE	ชนะ\n{0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HIDE	ซ่อน	
+GLOBAL_KEYWORD_AUTOATTACK	โจมตีอัตโนมัติ	
+GLOBAL_KEYWORD_AUTOATTACK_TEXT	โจมตีไม่ได้ แต่จะทำอะไรบางอย่างเมื่อจบเทิร์นของคุณ	
 GLOBAL_KEYWORD_AUTOCAST	ใช้อัตโนมัติ	
 GLOBAL_KEYWORD_AUTOCAST_TEXT	พลังฮีโร่นี้ต้องใช้ทุกเทิร์น	
 GLOBAL_KEYWORD_BATTLECRY	คำรามสู้ศึก	
@@ -396,7 +399,7 @@ GLOBAL_MEDAL_REWARD_CONGRATULATIONS	ขอแสดงความยินด�
 GLOBAL_MEDAL_REWARD_DESCRIPTION	เหรียญรางวัลที่ได้รับเมื่อสัปดาห์ที่แล้ว	
 GLOBAL_MEDAL_TOOLTIP_BEST_RANK_STANDARD	ระดับที่ดีที่สุดของคุณในเกมมาตรฐาน	
 GLOBAL_MEDAL_TOOLTIP_BEST_RANK_WILD	ระดับที่ดีที่สุดของคุณในเกมอิสระ	
-GLOBAL_MEDAL_TOOLTIP_BODY	ชนะเกมเพื่อ[b]ก้าวสู่ระดับถัดไป!	
+GLOBAL_MEDAL_TOOLTIP_BODY	ชนะเกมเพื่อก้าวสู่ระดับถัดไป!	
 GLOBAL_MEDAL_TOOLTIP_BODY_ARENA_GRAND_MASTER	คุณคือแชมเปี้ยนแห่งลานประลอง!	
 GLOBAL_MEDAL_TOOLTIP_BODY_LEGEND	คุณคือตำนาน! ตำแหน่งของคุณในระดับนี้จะเปลี่ยนไปในแต่ละเกม	
 GLOBAL_MEDAL_TOOLTIP_HEADER	เหรียญ{0}	0=medal name
@@ -504,6 +507,7 @@ GLOBAL_REGION_ASIA	เอเชีย
 GLOBAL_REGION_CHINA	จีน	
 GLOBAL_REGION_EUROPE	ยุโรป	
 GLOBAL_REMAINING_DATETIME	เหลือเวลาอีก {0}	0=time string
+GLOBAL_RESTART	รีสตาร์ท	
 GLOBAL_RESUME_GAME	เล่นต่อ	
 GLOBAL_REWARD_ARCANE_DUST_HEADLINE	ได้รับผงเวทมนตร์!	
 GLOBAL_REWARD_ARENA_TICKET_ADMIT	ใบผ่าน	the word 'admit' in capital letters - displayed like "Admit 1" and looks like a movie/fair ticket. this is the Arena Ticket reward visual.
@@ -537,7 +541,7 @@ GLOBAL_REWARD_CHEST_TIER4_EARNED	คุณได้รับกล่องส�
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL	{0}	0=first class
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL_DOUBLE	{0} และ {1}	0=first class, 1=second class
 GLOBAL_REWARD_CLASS_CHALLENGE_HEADLINE	การทดสอบคลาสปลดล็อคแล้ว	
-GLOBAL_REWARD_CORE_CARD_DETAILS	การ์ด{2}ที่ปลดล็อค {0}/{1} ใบ	0=# cards unlocked, 1=# cards possible to unlock, 2=class
+GLOBAL_REWARD_CORE_CARD_DETAILS	การ์ด{2}ที่ปลดล็อค {0}/{1}_ใบ	0=# cards unlocked, 1=# cards possible to unlock, 2=class
 GLOBAL_REWARD_FORGE_DETAILS_OUT_OF_BAND	สิทธิ์การเข้าสนามประลอง {0} สิทธิ์ถูกเพิ่มให้กับบัญชีของคุณจากภายนอกเกม	0=count
 GLOBAL_REWARD_FORGE_HEADLINE	ได้รับสิทธิ์เข้าสู่สนามประลอง	
 GLOBAL_REWARD_FORGE_UNLOCKED_HEADLINE	ปลดล็อคลานประลองแล้ว!	

@@ -39,6 +39,9 @@ GLOBAL_CARD_SET_DEBUG	Slush
 GLOBAL_CARD_SET_EXPERT1	오리지널	
 GLOBAL_CARD_SET_GVG	고블린 대 노움	
 GLOBAL_CARD_SET_GVG_SEARCHABLE_SHORTHAND_NAMES	고대놈	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_KARA	카라잔	
+GLOBAL_CARD_SET_KARA_RESERVE	카라잔 임시	
+GLOBAL_CARD_SET_KARA_SHORT	카라잔	
 GLOBAL_CARD_SET_LOE	탐험가 연맹	
 GLOBAL_CARD_SET_LOE_SEARCHABLE_SHORTHAND_NAMES	탐험가	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_LOE_SHORT	탐험가 연맹	
@@ -210,7 +213,6 @@ GLOBAL_FRIENDLIST_BUSYSTATUS	다른 용무 중
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_AVAILABLE	{0} 님에게 도전합니다.	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_HEADER	도전!	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_UNAVAILABLE	지금은 {0} 님에게 도전할 수 없습니다. 메인 메뉴로 돌아가주세요.	0=player name
-GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_TAVERN_BRAWL_MUST_CREATE_DECK	선술집 난투에서 친구에게 도전하려면 우선 선술집 난투 덱을 만드세요!	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_THEYRE_UNAVAILABLE	지금은 {0} 님에게 도전할 수 없습니다. 메인 메뉴로 돌아올 때까지 기다려주세요.	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_DECK	이 플레이어는 덱이 없습니다.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_STANDARD_DECK	이 플레이어는 정규 덱이 없습니다.	
@@ -256,8 +258,6 @@ GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_RECEIVED_INVITE_TEXT	{0} 님이 당신을 관
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_RECEIVED_INVITE_TEXT_TOUCH	{0} 님이 당신을 관전자로 초대했습니다. 관전을 시작하려면 여기를 터치하세요.	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_SPECTATING_HEADER	관전 중	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_SPECTATING_TEXT	이 플레이어의 게임을 관전하는 중입니다.	
-GLOBAL_FRIENDLIST_TAVERN_BRAWL_CHALLENGE_BUTTON_AVAILABLE	선술집 난투에서 {0} 님에게 도전합니다.	0=player name
-GLOBAL_FRIENDLIST_TAVERN_BRAWL_CHALLENGE_BUTTON_HEADER	선술집 난투 도전	
 GLOBAL_FRIENDLYCHALLENGE_QUEST_REWARD_AT_LIMIT	하루에 획득할 수 있는 친선전 퀘스트 보상을 모두 획득했습니다.	
 GLOBAL_FRIENDLYCHALLENGE_REWARD_CONCEDED_YOUR_OPPONENT	상대가 너무 빨리 게임에서 떠나서 보상을 얻을 수 없습니다.	
 GLOBAL_FRIENDLYCHALLENGE_REWARD_CONCEDED_YOURSELF	너무 빨리 게임에서 떠나서 보상을 얻을 수 없습니다.	
@@ -272,6 +272,7 @@ GLOBAL_HEALTH	생명력
 GLOBAL_HEALTHY_GAMING_CHINA_CAIS_ACTIVE	CAIS 활성화	
 GLOBAL_HEALTHY_GAMING_CHINA_LESS_THAN_THREE_HOURS	您累计在线时间已满{0}小时。	
 GLOBAL_HEALTHY_GAMING_CHINA_MORE_THAN_FIVE_HOURS	您已进入不健康游戏时间，为了您的健康，请您立即下线休息。如不下线，您的身体将受到损害，您的收益已降为零，直到您的累计下线时间满5小时后，才能恢复正常。	
+GLOBAL_HEALTHY_GAMING_CHINA_STARTUP_MESSAGE	抵制不良游戏，拒绝盗版游戏。\n注意自我保护，谨防上当受骗。\n适度游戏益脑，沉迷游戏伤身。\n合理安排时间，享受健康生活。	
 GLOBAL_HEALTHY_GAMING_CHINA_THREE_HOURS	您累计在线时间已满{0}小时，请您下线休息，做适当身体活动。	
 GLOBAL_HEALTHY_GAMING_CHINA_THREE_TO_FIVE_HOURS	您已经进入疲劳游戏时间，您的游戏收益将降为正常值的0%，为了您的健康，请尽快下线休息，做适当身体活动，合理安排学习生活。	
 GLOBAL_HEALTHY_GAMING_KOREA_STARTUP_MESSAGE	본 게임물은 만 12세 이용가 게임으로서 해당 연령 미만의 청소년이 이용하기에 부적절합니다. 반드시 보호자의 지도 감독이 필요합니다.	
@@ -286,6 +287,8 @@ GLOBAL_HERO_LEVEL_REWARD_GOLDEN_CARD	{0} {1}	0=flair 1=card name
 GLOBAL_HERO_WINS	승: {0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HERO_WINS_PHONE	승리\n{0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HIDE	숨기기	
+GLOBAL_KEYWORD_AUTOATTACK	자동 공격	
+GLOBAL_KEYWORD_AUTOATTACK_TEXT	적을 공격할 수 없지만 내 턴이 끝날 때 효과를 발휘합니다.	
 GLOBAL_KEYWORD_AUTOCAST	자동 시전	
 GLOBAL_KEYWORD_AUTOCAST_TEXT	이 영웅 능력은 매 턴마다 반드시 사용해야 합니다.	
 GLOBAL_KEYWORD_BATTLECRY	전투의 함성	
@@ -504,6 +507,7 @@ GLOBAL_REGION_ASIA	아시아
 GLOBAL_REGION_CHINA	중국	
 GLOBAL_REGION_EUROPE	유럽	
 GLOBAL_REMAINING_DATETIME	남은 시간: {0} 	0=time string
+GLOBAL_RESTART	재시작	
 GLOBAL_RESUME_GAME	돌아가기	
 GLOBAL_REWARD_ARCANE_DUST_HEADLINE	신비한 가루 획득!	
 GLOBAL_REWARD_ARENA_TICKET_ADMIT	입장 허가	the word 'admit' in capital letters - displayed like "Admit 1" and looks like a movie/fair ticket. this is the Arena Ticket reward visual.

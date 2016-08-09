@@ -39,6 +39,9 @@ GLOBAL_CARD_SET_DEBUG	Debug
 GLOBAL_CARD_SET_EXPERT1	Klassik	
 GLOBAL_CARD_SET_GVG	Goblins gegen Gnome	
 GLOBAL_CARD_SET_GVG_SEARCHABLE_SHORTHAND_NAMES	gvg ggg	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_KARA	Karazhan	
+GLOBAL_CARD_SET_KARA_RESERVE	Karazhan-Reserve	
+GLOBAL_CARD_SET_KARA_SHORT	Karazhan	
 GLOBAL_CARD_SET_LOE	Die Forscherliga	
 GLOBAL_CARD_SET_LOE_SEARCHABLE_SHORTHAND_NAMES	loe fl	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_LOE_SHORT	Die Forscherliga	
@@ -210,7 +213,6 @@ GLOBAL_FRIENDLIST_BUSYSTATUS	DND
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_AVAILABLE	Fordert {0} zu einer Partie Hearthstone heraus.	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_HEADER	Herausfordern	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_UNAVAILABLE	Ihr könnt {0} im Moment nicht herausfordern. Bitte kehrt ins Hauptmenü zurück.	0=player name
-GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_TAVERN_BRAWL_MUST_CREATE_DECK	Erstellt ein Kartenchaos-Deck, um Freunde zum Kartenchaos herauszufordern!	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_THEYRE_UNAVAILABLE	Ihr könnt {0} im Moment nicht herausfordern. Wartet bitte, bis dieser Spieler sich wieder im Hauptmenü befindet.	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_DECK	Dieser Spieler hat keine Decks.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_STANDARD_DECK	Dieser Spieler hat keine Standarddecks.	
@@ -256,8 +258,6 @@ GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_RECEIVED_INVITE_TEXT	{0} hat Euch als Zuschau
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_RECEIVED_INVITE_TEXT_TOUCH	{0} hat Euch als Zuschauer eingeladen. Tippt hier, um in den Zuschauermodus zu wechseln.	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_SPECTATING_HEADER	Im Zuschauermodus	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_SPECTATING_TEXT	Ihr schaut diesem Spieler momentan zu.	
-GLOBAL_FRIENDLIST_TAVERN_BRAWL_CHALLENGE_BUTTON_AVAILABLE	Fordert {0} zu einem Kartenchaos heraus.	0=player name
-GLOBAL_FRIENDLIST_TAVERN_BRAWL_CHALLENGE_BUTTON_HEADER	Zum Kartenchaos herausfordern	
 GLOBAL_FRIENDLYCHALLENGE_QUEST_REWARD_AT_LIMIT	Ihr habt das tägliche Limit für Questbelohnungen von Freundesherausforderungen erreicht.	
 GLOBAL_FRIENDLYCHALLENGE_REWARD_CONCEDED_YOUR_OPPONENT	Ihr könnt keine Belohnungen erhalten, weil Euer Gegner das Spiel zu früh verlassen hat.	
 GLOBAL_FRIENDLYCHALLENGE_REWARD_CONCEDED_YOURSELF	Ihr könnt keine Belohnungen erhalten, weil Ihr das Spiel zu früh verlassen habt.	
@@ -272,6 +272,7 @@ GLOBAL_HEALTH	Leben
 GLOBAL_HEALTHY_GAMING_CHINA_CAIS_ACTIVE	Vorsorgeprogramm gegen exzessives Spielen aktiv	
 GLOBAL_HEALTHY_GAMING_CHINA_LESS_THAN_THREE_HOURS	您累计在线时间已满{0}小时。	
 GLOBAL_HEALTHY_GAMING_CHINA_MORE_THAN_FIVE_HOURS	您已进入不健康游戏时间，为了您的健康，请您立即下线休息。如不下线，您的身体将受到损害，您的收益已降为零，直到您的累计下线时间满5小时后，才能恢复正常。	
+GLOBAL_HEALTHY_GAMING_CHINA_STARTUP_MESSAGE	抵制不良游戏，拒绝盗版游戏。\n注意自我保护，谨防上当受骗。\n适度游戏益脑，沉迷游戏伤身。\n合理安排时间，享受健康生活。	
 GLOBAL_HEALTHY_GAMING_CHINA_THREE_HOURS	您累计在线时间已满{0}小时，请您下线休息，做适当身体活动。	
 GLOBAL_HEALTHY_GAMING_CHINA_THREE_TO_FIVE_HOURS	您已经进入疲劳游戏时间，您的游戏收益将降为正常值的0%，为了您的健康，请尽快下线休息，做适当身体活动，合理安排学习生活。	
 GLOBAL_HEALTHY_GAMING_KOREA_STARTUP_MESSAGE	본 게임물은 만 12세 이용가 게임으로서 해당 연령 미만의 청소년이 이용하기에 부적절합니다. 반드시 보호자의 지도 감독이 필요합니다.	
@@ -286,6 +287,8 @@ GLOBAL_HERO_LEVEL_REWARD_GOLDEN_CARD	{1} ({0})	0=flair 1=card name
 GLOBAL_HERO_WINS	Siege: {0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HERO_WINS_PHONE	Siege\n{0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HIDE	Ausblenden	
+GLOBAL_KEYWORD_AUTOATTACK	Automatischer Angriff	
+GLOBAL_KEYWORD_AUTOATTACK_TEXT	Kann nicht angreifen. Am Ende Eures Zuges tritt ein Effekt in Kraft.	
 GLOBAL_KEYWORD_AUTOCAST	Automatischer Einsatz	
 GLOBAL_KEYWORD_AUTOCAST_TEXT	Diese Heldenfähigkeit muss in jedem Zug eingesetzt werden.	
 GLOBAL_KEYWORD_BATTLECRY	Kampfschrei	
@@ -504,6 +507,7 @@ GLOBAL_REGION_ASIA	Asien
 GLOBAL_REGION_CHINA	China	
 GLOBAL_REGION_EUROPE	Europa	
 GLOBAL_REMAINING_DATETIME	{0} verbleibend	0=time string
+GLOBAL_RESTART	Neu starten	
 GLOBAL_RESUME_GAME	Fortfahren	
 GLOBAL_REWARD_ARCANE_DUST_HEADLINE	Arkanstaub erhalten!	
 GLOBAL_REWARD_ARENA_TICKET_ADMIT	EINTRITT	the word 'admit' in capital letters - displayed like "Admit 1" and looks like a movie/fair ticket. this is the Arena Ticket reward visual.
