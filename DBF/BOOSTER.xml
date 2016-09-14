@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Dbf name="BOOSTER">
-	<SourceFingerprint>rtHIkTJM4sdYBDsAjAeCJwe4aHE=</SourceFingerprint>
+	<SourceFingerprint>b68ghBCPo3zTRJvJEJE8dihFdZQ=</SourceFingerprint>
 	<Column name="ID" type="Int" />
 	<Column name="NOTE_DESC" type="String" />
 	<Column name="SORT_ORDER" type="Int" />
@@ -183,6 +183,35 @@
 		<Field column="PACK_OPENING_FX_PREFAB">Assets/Game/GameObjects/PackOpeningFX_OG</Field>
 		<Field column="STORE_PREFAB">Assets/Game/GameObjects/StorePackDefs/StorePackDef_OG</Field>
 		<Field column="ARENA_PREFAB">Assets/Game/GameObjects/Pack_Reward_OG</Field>
+		<Field column="LEAVING_SOON">False</Field>
+		<Field column="LEAVING_SOON_TEXT" />
+	</Record>
+	<Record>
+		<Field column="ID">17</Field>
+		<Field column="NOTE_DESC">First Purchase Bundle</Field>
+		<Field column="SORT_ORDER">0</Field>
+		<Field column="OPEN_PACK_EVENT">never</Field>
+		<Field column="BUY_WITH_GOLD_EVENT">never</Field>
+		<Field column="NAME" loc_ID="55026">
+			<enUS>Welcome Bundle</enUS>
+			<deDE>Willkommens[d]paket</deDE>
+			<esES>Pack de bienvenida</esES>
+			<esMX>Paquete de bienvenida</esMX>
+			<frFR>Pack de bienvenue</frFR>
+			<itIT>Pacchetto di Benvenuto</itIT>
+			<jaJP>歓迎バンドル</jaJP>
+			<koKR>여관주인의 환영 묶음 상품</koKR>
+			<plPL>Zestaw powitalny</plPL>
+			<ptBR>Pacote de Boas-vindas</ptBR>
+			<ruRU>Стартовый пакет</ruRU>
+			<thTH>ชุดต้อนรับ</thTH>
+			<zhCN>迎新合集</zhCN>
+			<zhTW>超值禮盒</zhTW>
+		</Field>
+		<Field column="PACK_OPENING_PREFAB" />
+		<Field column="PACK_OPENING_FX_PREFAB" />
+		<Field column="STORE_PREFAB">Assets/Game/GameObjects/StorePackDefs/StorePackDef_FirstPurchase</Field>
+		<Field column="ARENA_PREFAB" />
 		<Field column="LEAVING_SOON">False</Field>
 		<Field column="LEAVING_SOON_TEXT" />
 	</Record>
