@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Dbf name="CARD">
-	<SourceFingerprint>Xrq5rqhtTFhV0tNKSnJuX1vCj90=</SourceFingerprint>
+	<SourceFingerprint>roM7pMIurfCQivV22oC+MIBxykU=</SourceFingerprint>
 	<Column name="ID" type="Int" />
 	<Column name="NOTE_MINI_GUID" type="String" />
 	<Column name="IS_COLLECTIBLE" type="Bool" />
@@ -1323,11 +1323,11 @@
 		<Field column="HERO_POWER_ID" />
 		<Field column="CRAFTING_EVENT">always</Field>
 		<Field column="SUGGESTION_WEIGHT">705</Field>
-		<Field column="CHANGED_MANA_COST">True</Field>
+		<Field column="CHANGED_MANA_COST">False</Field>
 		<Field column="CHANGED_HEALTH">False</Field>
 		<Field column="CHANGED_ATTACK">False</Field>
 		<Field column="CHANGED_CARD_TEXT_IN_HAND">False</Field>
-		<Field column="CHANGE_VERSION">67</Field>
+		<Field column="CHANGE_VERSION">74</Field>
 	</Record>
 	<Record>
 		<Field column="ID">240</Field>
@@ -1353,9 +1353,9 @@
 		<Field column="SUGGESTION_WEIGHT">642</Field>
 		<Field column="CHANGED_MANA_COST">False</Field>
 		<Field column="CHANGED_HEALTH">False</Field>
-		<Field column="CHANGED_ATTACK">True</Field>
+		<Field column="CHANGED_ATTACK">False</Field>
 		<Field column="CHANGED_CARD_TEXT_IN_HAND">False</Field>
-		<Field column="CHANGE_VERSION">70</Field>
+		<Field column="CHANGE_VERSION">76</Field>
 	</Record>
 	<Record>
 		<Field column="ID">250</Field>
@@ -2023,11 +2023,11 @@
 		<Field column="HERO_POWER_ID" />
 		<Field column="CRAFTING_EVENT">always</Field>
 		<Field column="SUGGESTION_WEIGHT">135</Field>
-		<Field column="CHANGED_MANA_COST">True</Field>
+		<Field column="CHANGED_MANA_COST">False</Field>
 		<Field column="CHANGED_HEALTH">False</Field>
 		<Field column="CHANGED_ATTACK">False</Field>
-		<Field column="CHANGED_CARD_TEXT_IN_HAND">True</Field>
-		<Field column="CHANGE_VERSION">71</Field>
+		<Field column="CHANGED_CARD_TEXT_IN_HAND">False</Field>
+		<Field column="CHANGE_VERSION">77</Field>
 	</Record>
 	<Record>
 		<Field column="ID">345</Field>
@@ -4795,11 +4795,11 @@
 		<Field column="HERO_POWER_ID" />
 		<Field column="CRAFTING_EVENT">always</Field>
 		<Field column="SUGGESTION_WEIGHT">600</Field>
-		<Field column="CHANGED_MANA_COST">True</Field>
+		<Field column="CHANGED_MANA_COST">False</Field>
 		<Field column="CHANGED_HEALTH">False</Field>
 		<Field column="CHANGED_ATTACK">False</Field>
 		<Field column="CHANGED_CARD_TEXT_IN_HAND">False</Field>
-		<Field column="CHANGE_VERSION">66</Field>
+		<Field column="CHANGE_VERSION">73</Field>
 	</Record>
 	<Record>
 		<Field column="ID">789</Field>
@@ -17874,8 +17874,8 @@
 		<Field column="CHANGED_MANA_COST">False</Field>
 		<Field column="CHANGED_HEALTH">False</Field>
 		<Field column="CHANGED_ATTACK">False</Field>
-		<Field column="CHANGED_CARD_TEXT_IN_HAND">True</Field>
-		<Field column="CHANGE_VERSION">69</Field>
+		<Field column="CHANGED_CARD_TEXT_IN_HAND">False</Field>
+		<Field column="CHANGE_VERSION">75</Field>
 	</Record>
 	<Record>
 		<Field column="ID">2514</Field>
@@ -26120,8 +26120,8 @@
 		<Field column="CHANGED_MANA_COST">False</Field>
 		<Field column="CHANGED_HEALTH">False</Field>
 		<Field column="CHANGED_ATTACK">False</Field>
-		<Field column="CHANGED_CARD_TEXT_IN_HAND">True</Field>
-		<Field column="CHANGE_VERSION">68</Field>
+		<Field column="CHANGED_CARD_TEXT_IN_HAND">False</Field>
+		<Field column="CHANGE_VERSION">78</Field>
 	</Record>
 	<Record>
 		<Field column="ID">38509</Field>
@@ -27783,11 +27783,11 @@
 		<Field column="HERO_POWER_ID" />
 		<Field column="CRAFTING_EVENT">og_normal_sale</Field>
 		<Field column="SUGGESTION_WEIGHT">650</Field>
-		<Field column="CHANGED_MANA_COST">True</Field>
+		<Field column="CHANGED_MANA_COST">False</Field>
 		<Field column="CHANGED_HEALTH">False</Field>
 		<Field column="CHANGED_ATTACK">False</Field>
 		<Field column="CHANGED_CARD_TEXT_IN_HAND">False</Field>
-		<Field column="CHANGE_VERSION">65</Field>
+		<Field column="CHANGE_VERSION">72</Field>
 	</Record>
 	<Record>
 		<Field column="ID">38734</Field>
@@ -35256,6 +35256,34 @@
 		<Field column="NOTE_MINI_GUID">KAR_A01_02e</Field>
 		<Field column="IS_COLLECTIBLE">False</Field>
 		<Field column="LONG_GUID">00000011-80e6-4dba-a872-5490eb5c769a</Field>
+		<Field column="HERO_POWER_ID" />
+		<Field column="CRAFTING_EVENT">always</Field>
+		<Field column="SUGGESTION_WEIGHT">0</Field>
+		<Field column="CHANGED_MANA_COST">False</Field>
+		<Field column="CHANGED_HEALTH">False</Field>
+		<Field column="CHANGED_ATTACK">False</Field>
+		<Field column="CHANGED_CARD_TEXT_IN_HAND">False</Field>
+		<Field column="CHANGE_VERSION">0</Field>
+	</Record>
+	<Record>
+		<Field column="ID">42186</Field>
+		<Field column="NOTE_MINI_GUID">XXX_115</Field>
+		<Field column="IS_COLLECTIBLE">False</Field>
+		<Field column="LONG_GUID">00000011-ba57-4eb5-b9eb-fbf09cac8464</Field>
+		<Field column="HERO_POWER_ID" />
+		<Field column="CRAFTING_EVENT">always</Field>
+		<Field column="SUGGESTION_WEIGHT">0</Field>
+		<Field column="CHANGED_MANA_COST">False</Field>
+		<Field column="CHANGED_HEALTH">False</Field>
+		<Field column="CHANGED_ATTACK">False</Field>
+		<Field column="CHANGED_CARD_TEXT_IN_HAND">False</Field>
+		<Field column="CHANGE_VERSION">0</Field>
+	</Record>
+	<Record>
+		<Field column="ID">42187</Field>
+		<Field column="NOTE_MINI_GUID">XXX_115e</Field>
+		<Field column="IS_COLLECTIBLE">False</Field>
+		<Field column="LONG_GUID">00000011-bd58-4efe-8887-1af6757f61db</Field>
 		<Field column="HERO_POWER_ID" />
 		<Field column="CRAFTING_EVENT">always</Field>
 		<Field column="SUGGESTION_WEIGHT">0</Field>

@@ -79,10 +79,10 @@ GLUE_COLLECTION_ALL_STANDARD_CARDS	スタンダードカード
 GLUE_COLLECTION_ARTIST	イラスト: {0}	0=artist name
 GLUE_COLLECTION_CARD_COUNT	x{0}	
 GLUE_COLLECTION_CARD_COUNT_LARGE	x9+	
-GLUE_COLLECTION_CARD_CRAFTING_EVENT_NOT_ACTIVE	おおっと！そのカードはまだ作成も還元もできないはずです。カスタマーサポートまでお問い合わせください。	
+GLUE_COLLECTION_CARD_CRAFTING_EVENT_NOT_ACTIVE	そのカードは作成も還元もできません。消費した魔素を復旧するため、一度ログアウトしてから改めてログインしてください。	
 GLUE_COLLECTION_CARD_NEW	NEW!	
-GLUE_COLLECTION_CARD_PERMISSION_ERROR	おおっと！そのカードの作成と還元はできないはずです。カスタマーサポートまでお問い合わせください。	
-GLUE_COLLECTION_CARD_SOULBOUND	おおっと！作成不能カードは作成も還元もできないはずです。カスタマーサポートまでお問い合わせください。	
+GLUE_COLLECTION_CARD_PERMISSION_ERROR	そのカードは作成も還元もできません。消費した魔素を復旧するため、一度ログアウトしてから改めてログインしてください。	
+GLUE_COLLECTION_CARD_SOULBOUND	そのカードは作成も還元もできません。消費した魔素を復旧するため、一度ログアウトしてから改めてログインしてください。	
 GLUE_COLLECTION_CARD_UNKNOWN_ERROR	予期しないエラー（ID: {0}）が発生したぞ。	
 GLUE_COLLECTION_CONVERT_DECK_BODY	このデッキをスタンダードに切り替えた場合、デッキから{0}枚のカードが撤去されるぞ。切り替えていいんだな？	
 GLUE_COLLECTION_CONVERT_DECK_HEADER	デッキの変換	
@@ -125,7 +125,7 @@ GLUE_COLLECTION_DELETE_CONFIRM_HEADER	削除
 GLUE_COLLECTION_DELETE_UNAVAILABLE_DESC	9つのクラスを全て使用可能にするまでは、デッキを削除できないぞ。	
 GLUE_COLLECTION_EMPTY_PAGE	ページ0	
 GLUE_COLLECTION_ERROR_HEADER	コレクションエラー	
-GLUE_COLLECTION_GENERIC_ERROR	システムエラーのため、要求された動作を完了できませんでした。もう一度お試しください。問題が解決しない場合は、カスタマーサポートまでお問い合わせください。	
+GLUE_COLLECTION_GENERIC_ERROR	システムエラーのため、要求された動作を完了できませんでした。後ほどもう一度お試しください。	
 GLUE_COLLECTION_GOLDEN_CARDS	ゴールデンカード	
 GLUE_COLLECTION_HOME_PAGE	概要	
 GLUE_COLLECTION_INCLUDE_PREMIUMS	ゴールデンを含む	
@@ -171,7 +171,7 @@ GLUE_COLLECTION_TUTORIAL_TEMPLATE_REMINDER	いろんなテンプレートを試�
 GLUE_COLLECTION_TUTORIAL_TEMPLATE_REPLACE_1	カードが足りないな。入れ替えを手伝うぞ！	
 GLUE_COLLECTION_TUTORIAL_TEMPLATE_REPLACE_2	足りないカードは入れ替えてくれ。	
 GLUE_COLLECTION_TUTORIAL_TEMPLATE_WELCOME	デッキはレシピから作っても、自分のオリジナルデッキを作ってもいい。	
-GLUE_COLLECTION_TUTORIAL02	ページをめくってカードを見よう。	
+GLUE_COLLECTION_TUTORIAL02	ページをめくってカードを見よう	
 GLUE_COLLECTION_TUTORIAL03	余分なカードを還元しよう！	
 GLUE_COLLECTION_TUTORIAL04	フィルターを「全て」に変えると、作成できるカードが見えるぞ。	"ALL" is the same as GLUE_COLLECTION_ALL.
 GLUE_COLLECTION_TUTORIAL05	このカードを\n魔素に変える。	
@@ -255,6 +255,31 @@ GLUE_GOLD_CAP_BODY	  手持ちが{0}ゴールド未満になるまで、これ�
 GLUE_GOLD_CAP_HEADER	{0}ゴールド溜まったぞ！	
 GLUE_HERO_LOCKED_DESC	このヒーローに勝てば選択可能になるぞ！	
 GLUE_HERO_LOCKED_NAME	未開放	
+GLUE_HEROIC_BRAWL_CONTINUE	わかった！	Heroic brawl intro dialogue continue button text
+GLUE_HEROIC_BRAWL_DECK	ヒロイック喧嘩	
+GLUE_HEROIC_BRAWL_INTRO	今週の酒場の喧嘩は\n熟練プレイヤー用だ。\nあんたの腕前とコレクションが物を言うぞ！	
+GLUE_HEROIC_BRAWL_MAX_LOSSES	3敗	
+GLUE_HEROIC_BRAWL_MAX_WINS	12勝	
+GLUE_HEROIC_BRAWL_MIN_WINS	0勝	
+GLUE_HEROIC_BRAWL_NO_WINS_REWARD_PACK_TEXT	報酬パック！	
+GLUE_HEROIC_BRAWL_PLAY_CONFIRMATION	一連の喧嘩が終わるまで、デッキの編集は\nできなくなるぞ。\n使うデッキは完成したか？	
+GLUE_HEROIC_BRAWL_PLAY_CONFIRMATION_CANCEL	いや、ちょっと待った！	
+GLUE_HEROIC_BRAWL_PLAY_CONFIRMATION_OK	確定する！	
+GLUE_HEROIC_BRAWL_PLAY_CONFIRMATION_TITLE	このデッキで確定するか？	
+GLUE_HEROIC_BRAWL_REWARDS_DESCRIPTION	勝者には報酬が出るぞ！勝てば勝つほど報酬も増えるぞ。\n最高は12勝だ。3敗するとそこで終わりだからな。	
+GLUE_HEROIC_BRAWL_REWARDS_NOTICE_DESC	ヒロイック喧嘩の報酬	
+GLUE_HEROIC_BRAWL_REWARDS_WIN_BANNER_TEXT	{0}勝！	
+GLUE_HEROIC_BRAWL_RULES_TITLE	ルール	
+GLUE_HEROIC_BRAWL_SESSION_ERROR	ヒロイック喧嘩のデータ取得中に問題が発生したぞ。	
+GLUE_HEROIC_BRAWL_SESSION_ERROR_TITLE	ヒロイック喧嘩に問題発生	
+GLUE_HEROIC_BRAWL_SESSION_LIMIT_ALERT_DESCRIPTION_FINAL	これがあんたの最後のヒロイック喧嘩だ！幸運を祈るぞ、勇敢なるヒーローよ！	
+GLUE_HEROIC_BRAWL_SESSION_LIMIT_ALERT_DESCRIPTION_NORMAL	ヒロイック喧嘩にはあと{0}回参加できるぞ。	
+GLUE_HEROIC_BRAWL_SESSION_LIMIT_ALERT_LIMIT_HIT	あんたはヒロイック喧嘩に参加できる回数を使い切ったぞ。	
+GLUE_HEROIC_BRAWL_SESSION_LIMIT_ALERT_LIMIT_RAISED	酒場のオヤジが制限回数を増やしたぞ！ヒロイック喧嘩にあと{0}回参加できるぞ。	
+GLUE_HEROIC_BRAWL_SESSION_LIMIT_ALERT_TITLE	ヒロイック喧嘩	
+GLUE_HEROIC_BRAWL_SIGNUPS_CLOSED	この酒場の喧嘩はもうすぐ終了だ。登録はできなくなってるぞ。	
+GLUE_HEROIC_BRAWL_SIGNUPS_CLOSED_TITLE	受付終了	
+GLUE_HEROIC_BRAWL_TITLE	<size=50>ヒロイック</size>\n酒場の喧嘩	
 GLUE_HEROIC_WARNING	ヒロイック級の敵は本当に強いぞ。何度負けても挑戦する打たれ強さが必要だ。覚悟していけよ！	
 GLUE_HEROIC_WARNING_TITLE	警告！	
 GLUE_INCOMPLETE_DECK_DESC	このデッキを完成させる必要があるぞ。	
@@ -312,6 +337,8 @@ GLUE_LOADINGSCREEN_PROGRESS_1	暖炉に火をつけ中
 GLUE_LOADINGSCREEN_PROGRESS_2	木箱を開き中	
 GLUE_LOADINGSCREEN_PROGRESS_3	家具を並べ替え中	
 GLUE_LOADINGSCREEN_SDCARD	ファイルを外部記憶装置に移動中	
+GLUE_LOCKED_DECK_TOOLTIP	このデッキは編集できないぞ。	
+GLUE_LOCKED_DECK_TOOLTIP_TITLE	編集不可	
 GLUE_LOE_LOADING_BAR_TASK_1	秘宝を隠し中	
 GLUE_LOE_LOADING_BAR_TASK_10	砂を細かく砕き中	
 GLUE_LOE_LOADING_BAR_TASK_11	ジャングルを植林中	
@@ -330,6 +357,7 @@ GLUE_LOE_LOADING_BAR_TASK_6	マーロックを調理中
 GLUE_LOE_LOADING_BAR_TASK_7	ピラミッドを建設中	
 GLUE_LOE_LOADING_BAR_TASK_8	ミイラの包帯を巻き直し中	
 GLUE_LOE_LOADING_BAR_TASK_9	スケルサウルスを組み立て中	
+GLUE_LOSSES	敗北	
 GLUE_MASS_DISENCHANT_BUTTON_TEXT	還元	
 GLUE_MASS_DISENCHANT_DETAILS	1つのデッキに同じカードは2枚（レジェンドは1枚）までしか組み込めない。余分なカードは魔素に還元するといいぞ！	
 GLUE_MASS_DISENCHANT_DETAILS_HEADLINE	余分なカードを還元して魔素を作ろう。	
@@ -468,6 +496,8 @@ GLUE_RECONNECT_RESULT_LOSE	前回の{0}の対戦は負けだったぞ。	0=one o
 GLUE_RECONNECT_RESULT_TIE	前回の{0}の対戦は引き分けだったぞ。	0=one of GLOBAL_RECONNECT_GAME_TYPE_*
 GLUE_RECONNECT_RESULT_WIN	前回の{0}の対戦は勝ちだったぞ。	0=one of GLOBAL_RECONNECT_GAME_TYPE_*
 GLUE_REQUIRED_CLIENT_STATIC_ASSETS_ERROR_MESSAGE	追加クライアントデータのダウンロードの際にエラーが発生しました。	This happens when an error occurred trying to download required assets from the server.
+GLUE_RETURNING_PLAYER_WELCOME_DESC	久しぶりに戻ってきたあんたのために\n特別なクエストと報酬を用意しているぞ！	Text for Returning Player welcome banner.
+GLUE_RETURNING_PLAYER_WELCOME_TITLE	お帰り！	Title for Returning Player welcome banner.
 GLUE_SHOW_CUSTOM_DECKS	カスタムデッキ	
 GLUE_SHOW_PRECON_DECKS	基本デッキ	
 GLUE_SPECIAL_QUEST_NOTIFICATION_HEADER	スペシャルクエスト！	
@@ -574,7 +604,7 @@ GLUE_STORE_FAIL_NOT_ENOUGH_GOLD	ゴールドが足りません。
 GLUE_STORE_FAIL_PARENTAL_CONTROL	現在ペアレンタルコントロールにより、このアカウントでの購入が制限されています。	
 GLUE_STORE_FAIL_PRODUCT_ALREADY_OWNED	購入済みのアイテムです。	
 GLUE_STORE_FAIL_PRODUCT_NA	その商品は品切れです。他の商品を選んでもう一度お試し下さい。	
-GLUE_STORE_FAIL_PRODUCT_UNIQUENESS_VIOLATED	このアイテムの重複購入を検知しました。問題解決のためカスタマーサポートまでご連絡下さい。	
+GLUE_STORE_FAIL_PRODUCT_UNIQUENESS_VIOLATED	このアイテムの重複購入を検知しました。問題解決のためカスタマーサポートまでご連絡ください。	
 GLUE_STORE_FAIL_PRODUCT_UNIQUENESS_VIOLATED_URL	「{0}」を押すと、Battle.netウェブサイトに移動します。	
 GLUE_STORE_FAIL_PURCHASE_BAN	あなたのアカウントはショップの利用を禁止されています。詳しくは、カスタマーサポートまでご連絡下さい。	
 GLUE_STORE_FAIL_QUANTITY	購入しようとしたアイテムの個数が無効です。アイテムの個数を変更してから、もう一度お試し下さい。	
@@ -587,7 +617,7 @@ GLUE_STORE_FORGOT_PWD_HEADLINE	パスワードをお忘れですか？
 GLUE_STORE_FORGOT_PWD_URL_DETAILS	「{0}」を押すと、Battle.netウェブサイトのパスワードリセットページに移動します。	
 GLUE_STORE_GENERIC_BP_FAIL_DETAILS	お支払いの手続き中に問題が発生しました。他の支払い方法を利用するか、または支払い方法の決済業者までお問い合わせ下さい。	
 GLUE_STORE_GENERIC_BP_FAIL_HEADLINE	購入失敗	
-GLUE_STORE_GENERIC_BP_FAIL_RETRY_CONTACT_CS_IF_PERSISTS_DETAILS	購入の処理中にエラーが発生しました。しばらくしてからもう一度お試しください。このエラーが継続的に発生する場合は、カスタマーサポートまでお問い合わせください。	
+GLUE_STORE_GENERIC_BP_FAIL_RETRY_CONTACT_CS_IF_PERSISTS_DETAILS	購入の処理中にエラーが発生しました。後ほどもう一度お試しください。	
 GLUE_STORE_GENERIC_BP_FAIL_RETRY_CONTACT_CS_IF_PERSISTS_URL_DETAILS	「{0}」を押すと、Battle.netアカウントウェブサイトに移動します。	
 GLUE_STORE_GENERIC_BP_FAIL_URL_DETAILS	「{0}」を押すと、Battle.netウェブサイトの、支払い方法の情報を更新できるページに移動します。	
 GLUE_STORE_GOLD_BUTTON_TOOLTIP_HEADLINE	ゴールドで買う	
@@ -633,7 +663,7 @@ GLUE_STORE_PREORDER	先行予約！
 GLUE_STORE_PREORDER_EXCLUSIVE	先行予約限定！	
 GLUE_STORE_PRODUCT_DETAILS_BRM_PART_1	恐るべき{0}のボスと1人用プレイで対決。	0=wing name
 GLUE_STORE_PRODUCT_DETAILS_BRM_PART_2	君のコレクションにブラックロック・マウンテンの新カードを加えよう。その内1枚はレジェンドカード！	
-GLUE_STORE_PRODUCT_DETAILS_FIRST_PURCHASE_BUNDLE	•  クラシックパック10個＋ランダムなクラスのクラシックのレジェンドミニオン1枚\n•  各パックはカード5枚入り、うち最低1枚はレア以上確定	
+GLUE_STORE_PRODUCT_DETAILS_FIRST_PURCHASE_BUNDLE	•  クラシックパック10個＋ランダムなクラスの\nクラシックのレジェンドミニオン1枚\n•  各パックはカード5枚入り、うち最低1枚はレア以上確定	
 GLUE_STORE_PRODUCT_DETAILS_HEADLINE_FIRST_PURCHASE_BUNDLE	歓迎バンドルの内容：	
 GLUE_STORE_PRODUCT_DETAILS_HEADLINE_OG_PACK_PRESALE	旧神のささやき（先行購入）には以下が含まれます:	
 GLUE_STORE_PRODUCT_DETAILS_HEADLINE_PACK	各パックの内容:	
@@ -666,7 +696,7 @@ GLUE_STORE_PRODUCT_NOT_AVAILABLE_TEXT_HAS_ENDED	この商品はもう購入で�
 GLUE_STORE_PRODUCT_NOT_AVAILABLE_TEXT_NOT_YET_STARTED	この商品はまだ購入できないぞ。	
 GLUE_STORE_PRODUCT_PRICE	({0})	0=price
 GLUE_STORE_PRODUCT_PRICE_NA	-	
-GLUE_STORE_PURCHASE_LOCK_DESCRIPTION	{0}が購入しかけの状態になっています。最後に購入を試みたデバイスでHearthstoneを起動してください。\n\n問題が解決しない場合は、下のヘルプボタンを押してブリザードのカスタマーサポートへご連絡ください。	0=one of GLOBAL_STORE_MOBILE_NAME_*
+GLUE_STORE_PURCHASE_LOCK_DESCRIPTION	{0}が購入しかけの状態になっています。最後に購入を試みたデバイスでハースストーンを起動してください。\n\n問題が解決しない場合はカスタマーサポートまでご連絡ください。	0=one of GLOBAL_STORE_MOBILE_NAME_*
 GLUE_STORE_PURCHASE_LOCK_HEADER	購入エラー	
 GLUE_STORE_QUANTITY_HEADLINE	個数の変更	
 GLUE_STORE_QUANTITY_MESSAGE	ゴールドを使って何パック買うんだ？\n一度に買えるのは{0}個までだ。	
@@ -687,6 +717,7 @@ GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_FIRST_PURCHASE_BUNDLE	이용기간: 서비�
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_FORGE_TICKET	투기장 입장료는 구매 후 환불되지 않으며, 구매 즉시 투기장에 입장합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_HERO	본 상품은 구매 후 환불되지 않으며, 구매 즉시 이용이 가능합니다.	
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_PACK_PREORDER	사전 구매 상품은 실제 상품 출시 전까지 환불이 가능합니다.	
+GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_TAVERN_BRAWL_TICKET	영웅 난이도 난투 입장료는 구매 후 환불되지 않으며, 구매 즉시 영웅 난이도 난투에 입장합니다.\n서비스 제공기간: 해당 영웅 난이도 난투 만료시까지.\n만료 시 승리한 횟수에 따라 보상이 차등 지급되므로 만료 시간을 확인하시기 바랍니다.	
 GLUE_STORE_SUMMARY_PAY_NOW_TEXT	今支払う	this is what you see when you confirm the purchase
 GLUE_STORE_SUMMARY_PRICE_HEADLINE	価格	
 GLUE_STORE_SUMMARY_TAX_DISCLAIMER	適用される付加価値税（VAT）を含みます。	
@@ -704,6 +735,9 @@ GLUE_TAVERN_BRAWL_LABEL_ENDING_MINUTES	あと{0}分で終了
 GLUE_TAVERN_BRAWL_LABEL_ENDING_OVER_1_MONTH	あと> 1ヶ月で終了	
 GLUE_TAVERN_BRAWL_LABEL_ENDING_SECONDS	あと{0}秒で終了	
 GLUE_TAVERN_BRAWL_LABEL_ENDING_WEEKS	あと{0}週間で終了	
+GLUE_TAVERN_BRAWL_RETIRE	リタイア	
+GLUE_TAVERN_BRAWL_RETIRE_CONFIRM_DESC	ヒロイック喧嘩はここで終了になるぞ！本当にいいんだな？	
+GLUE_TAVERN_BRAWL_RETIRE_CONFIRM_HEADER	リタイア	
 GLUE_TAVERN_BRAWL_RETURNS_DAYS	再開まであと\n<size=70>{0}</size>\n\n日	
 GLUE_TAVERN_BRAWL_RETURNS_HOURS	再開まであと\n<size=70>{0}</size>\n\n時間	
 GLUE_TAVERN_BRAWL_RETURNS_LESS_THAN_1_HOUR	再開まであと\n<size=70> 1 </size>\n\n時間	
@@ -766,6 +800,7 @@ GLUE_TIP_DEFAULT_9	クエストを達成するとゴールドを獲得できる�
 GLUE_TIP_FORGE_0	闘技場デッキは、3回負けたらおさらばだ。	
 GLUE_TIP_FORGE_1	闘技場の報酬は、勝つ度に豪華になるぞ！	
 GLUE_TIP_FORGE_2	闘技場への挑戦を始めたら、3回負けるまでは何度でも出入りできる。\n毎日少しずつプレイしてもいいんだ。	
+GLUE_TIP_HEROICBRAWL_0	今回の喧嘩は、実力が伯仲した相手とマッチメークすることが\n特に重要なんだ。いつもより待ち時間が長くなるかもしれないが\n大目に見てくれ！	
 GLUE_TIP_PLAY_0	対戦相手は同じくらいの腕前のプレイヤーから選ばれるぞ。	
 GLUE_TIP_PLAY_1	勝ったり負けたりするごとに腕前を判定し、常に同等の強さの相手と対戦が組まれるようになってるんだ。	
 GLUE_TIP_PLAY_2	各クラスには5種類の基本カードがあり、\nクラスのレベルを上げることで手に入るぞ。	
@@ -832,6 +867,10 @@ GLUE_TOURNAMENT_UNRANKED_MODE	非ランクモード
 GLUE_TOURNAMENT_WILD_DESC	全てのカードが使えるぞ。	
 GLUE_UNRELIABLE_GPU_WARNING	このデバイスのグラフィックハードウェアはサポートの対象外だ。プレイ中にグラフィックやパフォーマンス上の問題が発生する可能性があるぞ。\n\n「サポート」をタップして詳しい情報を確認。	
 GLUE_UNRELIABLE_GPU_WARNING_TITLE	グラフィックデバイスに関する警告	
+GLUE_VIEW_DECK	デッキを見る	
+GLUE_WEB_PURCHASE_BUTTON	わかった！	
+GLUE_WEB_PURCHASE_DESC	ウェブで購入を行ったぞ！\n詳細はメールを確認してくれ。	
+GLUE_WEB_PURCHASE_TITLE	ウェブ購入	
 GLUE_WELCOME_BUNDLE_RANDOM_CARD_SCROLL_DESC	歓迎バンドルには{0}が入ってたぞ！	
 GLUE_WELCOME_BUNDLE_RANDOM_CARD_SCROLL_TITLE	歓迎バンドルのレジェンドカード！	
 GLUE_WIN_STREAK	連勝: {0}	0=number of wins

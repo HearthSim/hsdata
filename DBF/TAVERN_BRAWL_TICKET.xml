@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Dbf name="TAVERN_BRAWL_TICKET">
+	<SourceFingerprint>V7tE2yJndjW9c1HXjEyj7ivfnGM=</SourceFingerprint>
+	<Column name="ID" type="Int" />
+	<Column name="NOTE_DESC" type="String" />
+	<Column name="CAN_BE_OWNED" type="Bool" />
+	<Column name="CAN_BE_PURCHASED" type="Bool" />
+	<Column name="STORE_NAME" type="LocString" />
+	<Record>
+		<Field column="ID">0</Field>
+		<Field column="NOTE_DESC">No ticket required</Field>
+		<Field column="CAN_BE_OWNED">False</Field>
+		<Field column="CAN_BE_PURCHASED">False</Field>
+		<Field column="STORE_NAME" />
+	</Record>
+	<Record>
+		<Field column="ID">1</Field>
+		<Field column="NOTE_DESC">Heroic Brawl Ticket</Field>
+		<Field column="CAN_BE_OWNED">True</Field>
+		<Field column="CAN_BE_PURCHASED">True</Field>
+		<Field column="STORE_NAME" loc_ID="78780">
+			<enUS>Heroic Brawl Ticket</enUS>
+			<deDE>Zugang zum heroischen Kartenchaos</deDE>
+			<esES>Acceso a la pelea heroica</esES>
+			<esMX>Entrada para gresca heroica</esMX>
+			<frFR>Billet pour Bras de fer héroïque</frFR>
+			<itIT>Biglietto Rissa Eroica</itIT>
+			<jaJP>ヒロイック喧嘩チケット</jaJP>
+			<koKR>영웅 난이도 난투 입장권</koKR>
+			<plPL>Wstęp na Heroiczną Bójkę</plPL>
+			<ptBR>Ingresso de Contenda Heroica</ptBR>
+			<ruRU>Билет на героическую потасовку</ruRU>
+			<thTH>ตั๋วเกมท้าประลองระดับฮีโร่</thTH>
+			<zhCN>英雄乱斗入场券</zhCN>
+			<zhTW>英雄大亂鬥門票</zhTW>
+		</Field>
+	</Record>
+</Dbf>

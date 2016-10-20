@@ -87,6 +87,7 @@ GLOBAL_CLICK_TO_CONTINUE_TOUCH	Нажмите, чтобы продолжить.
 GLOBAL_COLLECTION_GOLDEN	Золотая карта:	
 GLOBAL_CONCEDE	Сдаться	
 GLOBAL_CONFIRM	ОК	
+GLOBAL_CONTINUE	Продолжить	
 GLOBAL_COST	Стоимость	
 GLOBAL_CREATE	Создать	
 GLOBAL_CURRENT_DATE	{0:dd.MM.yyyy}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
@@ -272,9 +273,11 @@ GLOBAL_HEALTH	Здоровье
 GLOBAL_HEALTHY_GAMING_CHINA_CAIS_ACTIVE	Контроль времени игры включен.	
 GLOBAL_HEALTHY_GAMING_CHINA_LESS_THAN_THREE_HOURS	您累计在线时间已满{0}小时。	
 GLOBAL_HEALTHY_GAMING_CHINA_MORE_THAN_FIVE_HOURS	您已进入不健康游戏时间，为了您的健康，请您立即下线休息。如不下线，您的身体将受到损害，您的收益已降为零，直到您的累计下线时间满5小时后，才能恢复正常。	
+GLOBAL_HEALTHY_GAMING_CHINA_MORE_THAN_FIVE_HOURS_PHONE	您已进入不健康游戏时间，为了您的健康，请您立即下线休息。如不下线，您的身体将受到损害，\n您的收益已降为零，直到您的累计下线时间满5小时后，才能恢复正常。	
 GLOBAL_HEALTHY_GAMING_CHINA_STARTUP_MESSAGE	抵制不良游戏，拒绝盗版游戏。\n注意自我保护，谨防上当受骗。\n适度游戏益脑，沉迷游戏伤身。\n合理安排时间，享受健康生活。	
 GLOBAL_HEALTHY_GAMING_CHINA_THREE_HOURS	您累计在线时间已满{0}小时，请您下线休息，做适当身体活动。	
 GLOBAL_HEALTHY_GAMING_CHINA_THREE_TO_FIVE_HOURS	您已经进入疲劳游戏时间，您的游戏收益将降为正常值的0%，为了您的健康，请尽快下线休息，做适当身体活动，合理安排学习生活。	
+GLOBAL_HEALTHY_GAMING_CHINA_THREE_TO_FIVE_HOURS_PHONE	您已经进入疲劳游戏时间，您的游戏收益将降为正常值的0%，为了您的健康，\n请尽快下线休息，做适当身体活动，合理安排学习生活。	
 GLOBAL_HEALTHY_GAMING_KOREA_STARTUP_MESSAGE	본 게임물은 만 12세 이용가 게임으로서 해당 연령 미만의 청소년이 이용하기에 부적절합니다. 반드시 보호자의 지도 감독이 필요합니다.	
 GLOBAL_HEALTHY_GAMING_TOAST	게임을 플레이한지 {0}시간 지났습니다. 과도한 게임이용은 정상적인 일상생활에 지장을 줄 수 있습니다	
 GLOBAL_HEALTHY_GAMING_TOAST_OVER_THRESHOLD	Вы играете уже {0} |4(час,часа,часов). Это очень, очень долго!	0=hours
@@ -286,6 +289,7 @@ GLOBAL_HERO_LEVEL_REWARD_GOLD	Золото: {0}	0=amount
 GLOBAL_HERO_LEVEL_REWARD_GOLDEN_CARD	{0} «{1}»	0=flair 1=card name
 GLOBAL_HERO_WINS	Побед: {0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HERO_WINS_PHONE	Побед:\n{0}/{1}	0=number of games this class has won 1=number of wins to get golden
+GLOBAL_HEROIC_BRAWL	Героическая потасовка	
 GLOBAL_HIDE	Скрыть	
 GLOBAL_KEYWORD_AUTOATTACK	Автоатака	
 GLOBAL_KEYWORD_AUTOATTACK_TEXT	Не может атаковать, но осуществляет действие [x]в_конце вашего хода.	
@@ -509,6 +513,7 @@ GLOBAL_REGION_EUROPE	Европа
 GLOBAL_REMAINING_DATETIME	Осталось {0}	0=time string
 GLOBAL_RESTART	Переиграть	
 GLOBAL_RESUME_GAME	Вернуться	
+GLOBAL_RETURNING_PLAYER_GENERATED_DECK	Колода хозяина таверны	
 GLOBAL_REWARD_ARCANE_DUST_HEADLINE	Чародейная пыль!	
 GLOBAL_REWARD_ARENA_TICKET_ADMIT	ПРОПУСК	the word 'admit' in capital letters - displayed like "Admit 1" and looks like a movie/fair ticket. this is the Arena Ticket reward visual.
 GLOBAL_REWARD_ARENA_TICKET_AUTHORIZED_BY	Выдан	a label that shows up in the Arena Ticket under the Player's name indicating this ticket reward was granted by some guy.
@@ -580,6 +585,9 @@ GLOBAL_SOCIAL_TOAST_FRIEND_DRUID_LEVEL	<color=#{0}>{1}</color> получает 
 GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK	Игрок <color=#{0}>{1}</color> достиг ранга «{2}»!	0=name color,1=player name,2=medal rank
 GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK_WILD	Игрок <color=#{0}>{1}</color> достиг ранга {2} в вольном формате!	0=name color,1=player name,2=medal rank
 GLOBAL_SOCIAL_TOAST_FRIEND_GOLDEN_LEGENDARY	<color=#{0}>{1}</color> получает <color=#{3}>золотую карту «{2}»</color>!	0=name color,1=player name,2=card name,3=Golden Color
+GLOBAL_SOCIAL_TOAST_FRIEND_HEROIC_BRAWL_COMPLETE	<color=#{0}>{1}</color> завершает героическую потасовку. (В: {2}; П: {3})	0=name color,1=player name,2=Heroic brawl Wins,3=Heroic brawl Losses
+GLOBAL_SOCIAL_TOAST_FRIEND_HEROIC_BRAWL_START	<color=#{0}>{1}</color> начинает новую героическую потасовку.	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_FRIEND_HEROIC_BRAWL_START_WITH_MANY_WINS	<color=#{0}>{1}</color> начинает сражение в героической потасовке, имея за плечами уже {2} |4(победу,победы,побед)!	0=name color,1=player name,2=Heroic brawl Wins
 GLOBAL_SOCIAL_TOAST_FRIEND_HUNTER_LEVEL	<color=#{0}>{1}</color> получает {2} уровень охотником.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_ILLIDAN_COMPLETE	<color=#{0}>{1}</color> одерживает победу над Иллиданом!	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_LEGENDARY	<color=#{0}>{1}</color> получает <color=#{3}> карту «{2}»</color>!	0=name color,1=player name,2=card name

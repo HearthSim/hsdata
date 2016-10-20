@@ -79,10 +79,10 @@ GLUE_COLLECTION_ALL_STANDARD_CARDS	Carte Standard
 GLUE_COLLECTION_ARTIST	Artista: {0}	0=artist name
 GLUE_COLLECTION_CARD_COUNT	x{0}	
 GLUE_COLLECTION_CARD_COUNT_LARGE	x9+	
-GLUE_COLLECTION_CARD_CRAFTING_EVENT_NOT_ACTIVE	Ops! Questa carta non può essere creata o disincantata in questo momento. Contatta l'assistenza clienti.	
+GLUE_COLLECTION_CARD_CRAFTING_EVENT_NOT_ACTIVE	Questa carta non può essere creata o disincantata. Disconnettiti e riconnettiti per recuperare la Polvere Arcana spesa.	
 GLUE_COLLECTION_CARD_NEW	NUOVA!	
-GLUE_COLLECTION_CARD_PERMISSION_ERROR	Ops! Non ti è permesso creare o disincantare questa carta. Contatta l'assistenza clienti.	
-GLUE_COLLECTION_CARD_SOULBOUND	Ops! Non puoi creare o disincantare una carta vincolata. Contatta l'assistenza clienti.	
+GLUE_COLLECTION_CARD_PERMISSION_ERROR	Questa carta non può essere creata o disincantata. Disconnettiti e riconnettiti per recuperare la Polvere Arcana spesa.	
+GLUE_COLLECTION_CARD_SOULBOUND	Questa carta non può essere creata o disincantata. Disconnettiti e riconnettiti per recuperare la Polvere Arcana spesa.	
 GLUE_COLLECTION_CARD_UNKNOWN_ERROR	Si è verificato un errore imprevisto: id={0}.	
 GLUE_COLLECTION_CONVERT_DECK_BODY	Convertendo questo mazzo a Standard verranno rimosse {0} carte. Vuoi procedere?	
 GLUE_COLLECTION_CONVERT_DECK_HEADER	Converti mazzo	
@@ -125,7 +125,7 @@ GLUE_COLLECTION_DELETE_CONFIRM_HEADER	Elimina
 GLUE_COLLECTION_DELETE_UNAVAILABLE_DESC	Non puoi eliminare un mazzo fin quando non avrai sbloccato tutte le 9 classi.	
 GLUE_COLLECTION_EMPTY_PAGE	Pagina 0	
 GLUE_COLLECTION_ERROR_HEADER	Errore nella collezione!	
-GLUE_COLLECTION_GENERIC_ERROR	Un errore di sistema ha impedito l'esecuzione della richiesta. Riprova più tardi e contatta l'assistenza clienti se il problema dovesse persistere.	
+GLUE_COLLECTION_GENERIC_ERROR	Un errore di sistema ha impedito l'elaborazione della richiesta. Riprova più tardi.	
 GLUE_COLLECTION_GOLDEN_CARDS	Carte Dorate	
 GLUE_COLLECTION_HOME_PAGE	Panoramica	
 GLUE_COLLECTION_INCLUDE_PREMIUMS	Includi carte Dorate	
@@ -255,6 +255,31 @@ GLUE_GOLD_CAP_BODY	Non puoi ottenere altro oro fin quando non ne avrai meno di {
 GLUE_GOLD_CAP_HEADER	{0} oro raggiunto!	
 GLUE_HERO_LOCKED_DESC	Sconfiggi questo eroe per sbloccarlo!	
 GLUE_HERO_LOCKED_NAME	Bloccato	
+GLUE_HEROIC_BRAWL_CONTINUE	Ho capito!	Heroic brawl intro dialogue continue button text
+GLUE_HEROIC_BRAWL_DECK	Rissa Eroica	
+GLUE_HEROIC_BRAWL_INTRO	La Rissa di questa settimana è per i giocatori più esperti. Le tue carte e capacità verranno messe a dura prova!	
+GLUE_HEROIC_BRAWL_MAX_LOSSES	3 sconfitte	
+GLUE_HEROIC_BRAWL_MAX_WINS	12 vittorie	
+GLUE_HEROIC_BRAWL_MIN_WINS	0 vittorie	
+GLUE_HEROIC_BRAWL_NO_WINS_REWARD_PACK_TEXT	Busta ricompensa!	
+GLUE_HEROIC_BRAWL_PLAY_CONFIRMATION	Non potrai più modificare il tuo mazzo per questa sessione.\nVuoi davvero procedere?	
+GLUE_HEROIC_BRAWL_PLAY_CONFIRMATION_CANCEL	No, aspetta!	
+GLUE_HEROIC_BRAWL_PLAY_CONFIRMATION_OK	Sì, confermo!	
+GLUE_HEROIC_BRAWL_PLAY_CONFIRMATION_TITLE	Confermi il mazzo?	
+GLUE_HEROIC_BRAWL_REWARDS_DESCRIPTION	Al vincitore le spoglie! Più vincerai, migliori saranno le ricompense.\n12 vittorie per la gloria, 3 sconfitte e finirà la sessione.	
+GLUE_HEROIC_BRAWL_REWARDS_NOTICE_DESC	Ricompensa per l'ultima Rissa Eroica	
+GLUE_HEROIC_BRAWL_REWARDS_WIN_BANNER_TEXT	{0} |4(vittoria,vittorie)!	
+GLUE_HEROIC_BRAWL_RULES_TITLE	Regole	
+GLUE_HEROIC_BRAWL_SESSION_ERROR	Si è verificato un problema durante il recupero dei dati della Rissa Eroica.	
+GLUE_HEROIC_BRAWL_SESSION_ERROR_TITLE	Problema con la Rissa Eroica	
+GLUE_HEROIC_BRAWL_SESSION_LIMIT_ALERT_DESCRIPTION_FINAL	Questa è la tua ultima Rissa Eroica! Buona fortuna, eroe!	
+GLUE_HEROIC_BRAWL_SESSION_LIMIT_ALERT_DESCRIPTION_NORMAL	Puoi partecipare ancora a {0} |4(Rissa Eroica,Risse Eroiche).	
+GLUE_HEROIC_BRAWL_SESSION_LIMIT_ALERT_LIMIT_HIT	Hai giocato il numero massimo di Risse Eroiche.	
+GLUE_HEROIC_BRAWL_SESSION_LIMIT_ALERT_LIMIT_RAISED	Il Locandiere ha aumentato il limite di competizioni! Puoi partecipare ancora a {0} |4(Rissa Eroica,Risse Eroiche).	
+GLUE_HEROIC_BRAWL_SESSION_LIMIT_ALERT_TITLE	Rissa Eroica	
+GLUE_HEROIC_BRAWL_SIGNUPS_CLOSED	Questa Rissa Eroica terminerà presto. Le iscrizioni sono state disabilitate.	
+GLUE_HEROIC_BRAWL_SIGNUPS_CLOSED_TITLE	Chiuso	
+GLUE_HEROIC_BRAWL_TITLE	Rissa\n<size=50>Eroica</size>	
 GLUE_HEROIC_WARNING	La versione Eroica è MOLTO difficile e non è adatta per i deboli di cuore. Entra a tuo rischio e pericolo!	
 GLUE_HEROIC_WARNING_TITLE	Attenzione!	
 GLUE_INCOMPLETE_DECK_DESC	Devi finire di comporre questo mazzo.	
@@ -312,6 +337,8 @@ GLUE_LOADINGSCREEN_PROGRESS_1	Accensione del focolare
 GLUE_LOADINGSCREEN_PROGRESS_2	Apertura delle casse	
 GLUE_LOADINGSCREEN_PROGRESS_3	Pulizia del locale	
 GLUE_LOADINGSCREEN_SDCARD	Spostamento file sulla memoria rimovibile	
+GLUE_LOCKED_DECK_TOOLTIP	Questo mazzo non può essere modificato.	
+GLUE_LOCKED_DECK_TOOLTIP_TITLE	Bloccato	
 GLUE_LOE_LOADING_BAR_TASK_1	Occultamento manufatti	
 GLUE_LOE_LOADING_BAR_TASK_10	Setacciamento della sabbia	
 GLUE_LOE_LOADING_BAR_TASK_11	Preparazione della giungla	
@@ -330,6 +357,7 @@ GLUE_LOE_LOADING_BAR_TASK_6	Cottura dei Murloc
 GLUE_LOE_LOADING_BAR_TASK_7	Costruzione delle piramidi	
 GLUE_LOE_LOADING_BAR_TASK_8	Ribendatura delle mummie	
 GLUE_LOE_LOADING_BAR_TASK_9	Assemblaggio dello Schelesauro	
+GLUE_LOSSES	Sconfitte	
 GLUE_MASS_DISENCHANT_BUTTON_TEXT	Disincanta	
 GLUE_MASS_DISENCHANT_DETAILS	Non puoi avere più di due copie della stessa carta nel tuo mazzo (o più di una se la carta è Leggendaria), per cui puoi disincantare quelle aggiuntive e trasformarle in Polvere Arcana!	
 GLUE_MASS_DISENCHANT_DETAILS_HEADLINE	Disincanta le carte in eccesso per creare della Polvere Arcana.	
@@ -468,6 +496,8 @@ GLUE_RECONNECT_RESULT_LOSE	Hai perso l'ultima partita in modalità {0}.	0=one of
 GLUE_RECONNECT_RESULT_TIE	L'ultima partita in modalità {0} è terminata con un pareggio.	0=one of GLOBAL_RECONNECT_GAME_TYPE_*
 GLUE_RECONNECT_RESULT_WIN	Hai vinto l'ultima partita in modalità {0}.	0=one of GLOBAL_RECONNECT_GAME_TYPE_*
 GLUE_REQUIRED_CLIENT_STATIC_ASSETS_ERROR_MESSAGE	Si è verificato un errore durante lo scaricamento di dati aggiuntivi per il client.	This happens when an error occurred trying to download required assets from the server.
+GLUE_RETURNING_PLAYER_WELCOME_DESC	Abbiamo preparato delle missioni e delle ricompense apposta per il tuo ritorno!	Text for Returning Player welcome banner.
+GLUE_RETURNING_PLAYER_WELCOME_TITLE	Bentornato!	Title for Returning Player welcome banner.
 GLUE_SHOW_CUSTOM_DECKS	Mazzi personalizzati	
 GLUE_SHOW_PRECON_DECKS	Mazzi base	
 GLUE_SPECIAL_QUEST_NOTIFICATION_HEADER	Missione speciale!	
@@ -587,7 +617,7 @@ GLUE_STORE_FORGOT_PWD_HEADLINE	Password dimenticata?
 GLUE_STORE_FORGOT_PWD_URL_DETAILS	Premi "{0}" per accedere al sito web di Battle.net, dove potrai resettarla.	
 GLUE_STORE_GENERIC_BP_FAIL_DETAILS	Si è verificato un problema durante l'elaborazione del pagamento. Utilizza un altro sistema di pagamento o contatta il fornitore del metodo di pagamento selezionato.	
 GLUE_STORE_GENERIC_BP_FAIL_HEADLINE	Acquisto non riuscito	
-GLUE_STORE_GENERIC_BP_FAIL_RETRY_CONTACT_CS_IF_PERSISTS_DETAILS	Si è verificato un problema durante l'elaborazione dell'acquisto. Riprova più tardi. Se il problema persiste, contatta l'assistenza clienti.	
+GLUE_STORE_GENERIC_BP_FAIL_RETRY_CONTACT_CS_IF_PERSISTS_DETAILS	Si è verificato un problema durante l'elaborazione dell'acquisto. Riprova più tardi.	
 GLUE_STORE_GENERIC_BP_FAIL_RETRY_CONTACT_CS_IF_PERSISTS_URL_DETAILS	Premi "{0}" per accedere al sito web dell'account Battle.net.	
 GLUE_STORE_GENERIC_BP_FAIL_URL_DETAILS	Premi "{0}" per accedere al sito web di Battle.net, dove potrai aggiornare il metodo di pagamento.	
 GLUE_STORE_GOLD_BUTTON_TOOLTIP_HEADLINE	Acquista con l'oro	
@@ -666,7 +696,7 @@ GLUE_STORE_PRODUCT_NOT_AVAILABLE_TEXT_HAS_ENDED	Questo prodotto non è più disp
 GLUE_STORE_PRODUCT_NOT_AVAILABLE_TEXT_NOT_YET_STARTED	Questo prodotto non è ancora disponibile.	
 GLUE_STORE_PRODUCT_PRICE	({0})	0=price
 GLUE_STORE_PRODUCT_PRICE_NA	N/D	
-GLUE_STORE_PURCHASE_LOCK_DESCRIPTION	Il tuo account ha un acquisto in sospeso {0}. Apri Hearthstone dal dispositivo dal quale hai provato a effettuare l'acquisto.\n\nSe questo problema persiste, contatta l'assistenza clienti Blizzard premendo il pulsante Aiuto qui sotto.	0=one of GLOBAL_STORE_MOBILE_NAME_*
+GLUE_STORE_PURCHASE_LOCK_DESCRIPTION	Il tuo account ha un acquisto in sospeso {0}. Apri Hearthstone dal dispositivo dal quale hai provato a effettuare l'acquisto.\n\nSe il problema persiste, contatta l'assistenza clienti.	0=one of GLOBAL_STORE_MOBILE_NAME_*
 GLUE_STORE_PURCHASE_LOCK_HEADER	Errore d'acquisto	
 GLUE_STORE_QUANTITY_HEADLINE	Cambia quantità	
 GLUE_STORE_QUANTITY_MESSAGE	Quante buste vorresti comprare con l'oro? Il numero massimo è {0}.	
@@ -687,6 +717,7 @@ GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_FIRST_PURCHASE_BUNDLE	이용기간: 서비�
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_FORGE_TICKET	투기장 입장료는 구매 후 환불되지 않으며, 구매 즉시 투기장에 입장합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_HERO	본 상품은 구매 후 환불되지 않으며, 구매 즉시 이용이 가능합니다.	
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_PACK_PREORDER	사전 구매 상품은 실제 상품 출시 전까지 환불이 가능합니다.	
+GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_TAVERN_BRAWL_TICKET	영웅 난이도 난투 입장료는 구매 후 환불되지 않으며, 구매 즉시 영웅 난이도 난투에 입장합니다.\n서비스 제공기간: 해당 영웅 난이도 난투 만료시까지.\n만료 시 승리한 횟수에 따라 보상이 차등 지급되므로 만료 시간을 확인하시기 바랍니다.	
 GLUE_STORE_SUMMARY_PAY_NOW_TEXT	Paga ora	this is what you see when you confirm the purchase
 GLUE_STORE_SUMMARY_PRICE_HEADLINE	Prezzo	
 GLUE_STORE_SUMMARY_TAX_DISCLAIMER	Tutte le tasse applicabili incluse.	
@@ -704,6 +735,9 @@ GLUE_TAVERN_BRAWL_LABEL_ENDING_MINUTES	Termina fra {0} |4(minuto,minuti)
 GLUE_TAVERN_BRAWL_LABEL_ENDING_OVER_1_MONTH	Termina fra > 1 mese	
 GLUE_TAVERN_BRAWL_LABEL_ENDING_SECONDS	Termina fra {0} |4(secondo,secondi)	
 GLUE_TAVERN_BRAWL_LABEL_ENDING_WEEKS	Termina fra {0} settimane	
+GLUE_TAVERN_BRAWL_RETIRE	Ritirati	
+GLUE_TAVERN_BRAWL_RETIRE_CONFIRM_DESC	Così facendo terminerai la tua sessione della Rissa Eroica! Vuoi davvero procedere?	
+GLUE_TAVERN_BRAWL_RETIRE_CONFIRM_HEADER	Ritirati	
 GLUE_TAVERN_BRAWL_RETURNS_DAYS	Ritorna fra\n<size=70>{0}</size>\n\n|4(giorno,giorni)	
 GLUE_TAVERN_BRAWL_RETURNS_HOURS	Ritorna fra\n<size=70>{0}</size>\n\n|4(ora,ore)	
 GLUE_TAVERN_BRAWL_RETURNS_LESS_THAN_1_HOUR	Ritorna fra\n<size=70>< 1</size>\n\nora	
@@ -766,6 +800,7 @@ GLUE_TIP_DEFAULT_9	Completa le missioni per guadagnare oro, che può essere util
 GLUE_TIP_FORGE_0	Il tuo mazzo Arena scomparirà dopo aver perso 3 partite.	
 GLUE_TIP_FORGE_1	Le ricompense dell'Arena migliorano a ogni partita che vinci!	
 GLUE_TIP_FORGE_2	Non è necessario giocare tutte le partite dell'Arena in una volta sola.	
+GLUE_TIP_HEROICBRAWL_0	Trovare il giusto sfidante è molto importante in questa Rissa.\nI tempi d'attesa potrebbero essere più lunghi del solito.	
 GLUE_TIP_PLAY_0	Affronterai un avversario del tuo stesso livello di abilità.	
 GLUE_TIP_PLAY_1	I tuoi risultati vengono registrati per stabilire il tuo livello di gioco e offrirti avversari del giusto livello di abilità.	
 GLUE_TIP_PLAY_2	Ogni classe ha 5 differenti carte Base che puoi sbloccare semplicemente salendo di livello.	
@@ -832,6 +867,10 @@ GLUE_TOURNAMENT_UNRANKED_MODE	Modalità Amichevole
 GLUE_TOURNAMENT_WILD_DESC	Possono essere usate tutte le carte.	
 GLUE_UNRELIABLE_GPU_WARNING	Questo dispositivo utilizza un hardware grafico non supportato, perciò Hearthstone potrebbe presentare difetti grafici e/o scarse prestazioni.\n\nTocca Assistenza per ulteriori informazioni.	
 GLUE_UNRELIABLE_GPU_WARNING_TITLE	Hardware grafico	
+GLUE_VIEW_DECK	Mostra mazzo	
+GLUE_WEB_PURCHASE_BUTTON	Capito!	
+GLUE_WEB_PURCHASE_DESC	Hai fatto un acquisto sul web!\nControlla la tua e-mail per ulteriori dettagli.	
+GLUE_WEB_PURCHASE_TITLE	Acquisto sul web	
 GLUE_WELCOME_BUNDLE_RANDOM_CARD_SCROLL_DESC	Il tuo Pacchetto di Benvenuto conteneva {0}!	
 GLUE_WELCOME_BUNDLE_RANDOM_CARD_SCROLL_TITLE	Carta Leggendaria del Pacchetto di Benvenuto!	
 GLUE_WIN_STREAK	Serie di vittorie: {0}	0=number of wins
