@@ -27,6 +27,10 @@ GLOBAL_CARD_SET_OG_SEARCHABLE_SHORTHAND_NAMES	tog wotog wog	This is a space-sepa
 GLOBAL_CARD_SET_KARA	Karazhan	
 GLOBAL_CARD_SET_KARA_SHORT	Karazhan	
 GLOBAL_CARD_SET_KARA_RESERVE	Karazhan Reserve	
+GLOBAL_CARD_SET_GANGS	Mean Streets of Gadgetzan	
+GLOBAL_CARD_SET_GANGS_SHORT	Gadgetzan	
+GLOBAL_CARD_SET_GANGS_RESERVE	Gangs Reserve	
+GLOBAL_CARD_SET_GANGS_SEARCHABLE_SHORTHAND_NAMES	msg msog	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARDTYPE_ENCHANTMENT	Enchantment	
 GLOBAL_CARDTYPE_HERO	Hero	
 GLOBAL_CARDTYPE_HEROPOWER	HeroPower	
@@ -81,7 +85,8 @@ GLOBAL_KEYWORD_DEATHRATTLE_TEXT	Does something when it dies.
 GLOBAL_KEYWORD_COMBO	Combo	
 GLOBAL_KEYWORD_COMBO_TEXT	A bonus if you already played a card this turn.	
 GLOBAL_KEYWORD_OVERLOAD	Overload: X	
-GLOBAL_KEYWORD_OVERLOAD_TEXT	You have X less mana next turn.	
+GLOBAL_KEYWORD_OVERLOAD_TEXT	You have X less mana next turn.
+GLOBAL_KEYWORD_OVERLOAD_REF_TEXT	Cards with Overload limit your mana next turn.
 GLOBAL_KEYWORD_SILENCE	Silence	
 GLOBAL_KEYWORD_SILENCE_TEXT	Removes all card text and enchantments.	
 GLOBAL_KEYWORD_COUNTER	Counter	
@@ -102,6 +107,15 @@ GLOBAL_KEYWORD_MINION_TYPE_REFERENCE	Minion Type
 GLOBAL_KEYWORD_MINION_TYPE_REFERENCE_TEXT	Beast, Demon, Dragon, Mech, Murloc, Pirate, and Totem.	
 GLOBAL_KEYWORD_AUTOATTACK	Auto-Attack	
 GLOBAL_KEYWORD_AUTOATTACK_TEXT	Can't attack, but does something at the end of your turn.	
+GLOBAL_KEYWORD_JADE_GOLEM	Jade Golem	
+GLOBAL_KEYWORD_JADE_GOLEM_TEXT	Each Jade Golem is +1/+1 bigger than the last.	
+GLOBAL_KEYWORD_JADE_GOLEM_COLLECTION_TEXT	Your first Jade Golem is 1/1. Each future one has +1/+1.	
+GLOBAL_KEYWORD_GRIMY_GOONS	Grimy Goons	
+GLOBAL_KEYWORD_GRIMY_GOONS_COLLECTION_TEXT	You can put this in Hunter, Paladin or Warrior decks.	
+GLOBAL_KEYWORD_JADE_LOTUS	Jade Lotus	
+GLOBAL_KEYWORD_JADE_LOTUS_COLLECTION_TEXT	You can put this in Druid, Rogue or Shaman decks.	
+GLOBAL_KEYWORD_KABAL	Kabal	
+GLOBAL_KEYWORD_KABAL_COLLECTION_TEXT	You can put this in Priest, Mage or Warlock decks.	
 GLOBAL_ATTACK	Attack	
 GLOBAL_COST	Cost	
 GLOBAL_HEALTH	Health	
@@ -496,7 +510,9 @@ GLOBAL_OPTIONS_CHOOSE_CARD_BACK	Choose Card Back
 GLOBAL_REWARD_BOOSTER_HEADLINE_GENERIC	Pack earned!	
 GLOBAL_REWARD_BOOSTER_HEADLINE_MULTIPLE	{0} |4(Pack,Packs) earned!	
 GLOBAL_REWARD_BOOSTER_HEADLINE_OUT_OF_BAND	Card Pack granted!
+GLOBAL_REWARD_BOOSTER_HEADLINE_OUT_OF_BAND_MULTI	Card Packs granted!
 GLOBAL_REWARD_BOOSTER_DETAILS_OUT_OF_BAND	{0} |4(pack was,packs were) added to your account from outside of the game.	0=count
+GLOBAL_REWARD_BOOSTER_DETAILS_PRESALE_OUT_OF_BAND	Your web purchase of {0} |4(pack,packs) will be available soon!	0=count
 GLOBAL_REWARD_CARD_HEADLINE	Reward!	
 GLOBAL_REWARD_CARD_COUNT_MULTIPLIER	x	
 GLOBAL_REWARD_CARD_BACK_HEADLINE	Card back earned!
@@ -658,3 +674,4 @@ GLOBAL_SOCIAL_TOAST_FRIEND_HEROIC_BRAWL_START_WITH_MANY_WINS	<color=#{0}>{1}</co
 GLOBAL_SOCIAL_TOAST_FRIEND_HEROIC_BRAWL_COMPLETE	<color=#{0}>{1}</color> just finished a heroic brawl. ({2}-{3})	0=name color,1=player name,2=Heroic brawl Wins,3=Heroic brawl Losses
 GLOBAL_SOCIAL_TOAST_FRIEND_HEROIC_BRAWL_START	<color=#{0}>{1}</color> started a new heroic brawl.	0=name color,1=player name
 GLOBAL_HEROIC_BRAWL	Heroic Brawl
+GLOBAL_LOGO_COPYRIGHT	炉石传说 - 魔兽英雄传 ©2016 暴雪娱乐股份有限公司版权所有 由上海网之易网络科技发展有限公司运营

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Dbf name="BOOSTER">
-	<SourceFingerprint>FzW6oyO6QsjA/5Wvk0kjptixjuk=</SourceFingerprint>
+	<SourceFingerprint>tz1A/CvKNTQ6kPnBF/5SMO7kRhk=</SourceFingerprint>
 	<Column name="ID" type="Int" />
 	<Column name="NOTE_DESC" type="String" />
 	<Column name="SORT_ORDER" type="Int" />
@@ -212,6 +212,35 @@
 		<Field column="PACK_OPENING_FX_PREFAB" />
 		<Field column="STORE_PREFAB">Assets/Game/GameObjects/StorePackDefs/StorePackDef_FirstPurchase</Field>
 		<Field column="ARENA_PREFAB" />
+		<Field column="LEAVING_SOON">False</Field>
+		<Field column="LEAVING_SOON_TEXT" />
+	</Record>
+	<Record>
+		<Field column="ID">19</Field>
+		<Field column="NOTE_DESC">Mean Streets of Gadgetzan Pack</Field>
+		<Field column="SORT_ORDER">5</Field>
+		<Field column="OPEN_PACK_EVENT">msg_normal_sale</Field>
+		<Field column="BUY_WITH_GOLD_EVENT">msg_normal_sale</Field>
+		<Field column="NAME" loc_ID="78752">
+			<enUS>Mean Streets of Gadgetzan</enUS>
+			<deDE>Die Straßen von Gadgetzan</deDE>
+			<esES>Mafias de Gadgetzan</esES>
+			<esMX>Los Callejones de Gadgetzan</esMX>
+			<frFR>Main basse sur Gadgetzan</frFR>
+			<itIT>Bassifondi di Meccania</itIT>
+			<jaJP>仁義なきガジェッツァン</jaJP>
+			<koKR>비열한 거리의 가젯잔</koKR>
+			<plPL>Ciemne zaułki Gadżetonu</plPL>
+			<ptBR>Gangues de Geringontzan</ptBR>
+			<ruRU>Злачный город Прибамбасск</ruRU>
+			<thTH>Mean Streets of Gadgetzan</thTH>
+			<zhCN>龙争虎斗加基森</zhCN>
+			<zhTW>加基森風雲</zhTW>
+		</Field>
+		<Field column="PACK_OPENING_PREFAB">Assets/Game/Actors/UnOpenedMSGPack</Field>
+		<Field column="PACK_OPENING_FX_PREFAB">Assets/Game/GameObjects/PackOpeningFX_MSG</Field>
+		<Field column="STORE_PREFAB">Assets/Game/GameObjects/StorePackDefs/StorePackDef_MSG</Field>
+		<Field column="ARENA_PREFAB">Assets/Game/GameObjects/Pack_Reward_MSG</Field>
 		<Field column="LEAVING_SOON">False</Field>
 		<Field column="LEAVING_SOON_TEXT" />
 	</Record>
