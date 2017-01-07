@@ -240,11 +240,11 @@ GLUE_STORE_NO_PAYMENT_HEADLINE	Attention
 GLUE_STORE_NO_PAYMENT_DETAILS	You haven't attached a valid payment method yet. Please set one up on the Battle.net website and try again.
 GLUE_STORE_NO_PAYMENT_URL_DETAILS	Pressing "{0}" will take you to the Battle.net website.
 GLUE_STORE_PAYMENT_INFO_HEADLINE	Payment Information
-GLUE_STORE_PAYMENT_INFO_DETAILS	Funds will first be deducted from your Battle.net Balance. If insufficient balance exists then your primary payment method on your Battle.net account will be charged.\n\nIMPORTANT: Please note that any payment incident or chargeback occurring for this transaction may result in the temporary suspension of the Hearthstone account until complete solving of the incident or repayment of the chargeback.
+GLUE_STORE_PAYMENT_INFO_DETAILS	Funds will first be deducted from your Battle.net Balance. If insufficient balance exists then your primary payment method on your Battle.net account will be charged. A Battle.net account is required to make in-app purchases with real money.\n\nIMPORTANT: Please note that any payment incident or chargeback occurring for this transaction may result in the temporary suspension of the Hearthstone account until complete solving of the incident or repayment of the chargeback.
 GLUE_STORE_PAYMENT_INFO_URL_DETAILS	If you'd like more details, pressing "{0}" will take you to the Battle.net payment information website.
-GLUE_MOBILE_STORE_PAYMENT_INFO_DETAILS_APPLE	In-app purchases are made using your Apple ID.	
-GLUE_MOBILE_STORE_PAYMENT_INFO_DETAILS_ANDROID	In-app purchases are made using your Google Play account.	
-GLUE_MOBILE_STORE_AMAZON_PAYMENT_INFO_DETAILS_ANDROID	In-app purchases are made using your Amazon account.	
+GLUE_MOBILE_STORE_PAYMENT_INFO_DETAILS_APPLE	In-app purchases are made using your Apple ID. A Battle.net account is required to make in-app purchases with real money. 	
+GLUE_MOBILE_STORE_PAYMENT_INFO_DETAILS_ANDROID	In-app purchases are made using your Google Play account. A Battle.net account is required to make in-app purchases with real money.	
+GLUE_MOBILE_STORE_AMAZON_PAYMENT_INFO_DETAILS_ANDROID	In-app purchases are made using your Amazon account. A Battle.net account is required to make in-app purchases with real money.	
 GLUE_MOBILE_STORE_PAYMENT_INFO_URL_DETAILS	Tap "{0}" to learn more about buying items in Hearthstone.
 GLUE_STORE_EULA_AND_TOS_HEADLINE	Terms of Service
 GLUE_STORE_EULA_AND_TOS_DETAILS	Our EULA and Terms of Service may be viewed on Battle.net.
@@ -698,16 +698,41 @@ GLUE_MINSPEC_WARNING	This device is below the recommended specification to run H
 GLUE_MINSPEC_ERROR	Sorry! Hearthstone cannot run on this device as it does not meet the minimum specifications.\n\nTap SUPPORT to find out more.	
 GLUE_TEXTURE_COMPRESSION_WARNING_TITLE	Texture Compression Warning	--TEMP-- This should be in Chinese
 GLUE_TEXTURE_COMPRESSION_WARNING	This build does not contain the correct texture format for this platform. Performance will not be optimal.	--TEMP-- This should be in Chinese
-GLUE_LOADINGSCREEN_PROGRESS_1	Lighting the hearth	
-GLUE_LOADINGSCREEN_PROGRESS_2	Unpacking crates	
-GLUE_LOADINGSCREEN_PROGRESS_3	Rearranging furniture	
+GLUE_LOADINGSCREEN_PROGRESS_0	Checking version	
+GLUE_LOADINGSCREEN_PROGRESS_1	We can download in the background	
+GLUE_LOADINGSCREEN_PROGRESS_2	You can switch apps while we work!	
+GLUE_LOADINGSCREEN_PROGRESS_3	Lighting the hearth	
+GLUE_LOADINGSCREEN_PROGRESS_4	Unpacking crates	
+GLUE_LOADINGSCREEN_PROGRESS_5	Rearranging furniture	
+GLUE_LOADINGSCREEN_PROGRESS_6	This may take a while	
+GLUE_LOADINGSCREEN_PROGRESS_TEXT	{0} remaining {1}	0=remaining data size 1=downloading speed
+GLUE_LOADINGSCREEN_PROGRESS_IMPEDED	Connection is slow!	
 GLUE_LOADINGSCREEN_SDCARD	Moving files to removable storage	
-GLUE_LOADINGSCREEN_DOWNLOADING	Downloading {0}/{1} MB	0=megabytes so far, 1=total download megabytes
+GLUE_LOADINGSCREEN_DOWNLOADING	Downloading {0}/{1} MB	0=megabytes so far, 1=total download megabytes	
 GLUE_LOADINGSCREEN_ERROR_DOWNLOADING_TITLE	Download Error	
-GLUE_LOADINGSCREEN_ERROR_DOWNLOADING_MESSAGE	Please uninstall and download Hearthstone from Google Play again.	
+GLUE_LOADINGSCREEN_ERROR_DOWNLOADING_MESSAGE	Please uninstall Hearthstone and download it again.	
 GLUE_LOADINGSCREEN_ERROR_INSTALLING_TITLE	Installation Error	
-GLUE_LOADINGSCREEN_ERROR_FILESYSTEM_MESSAGE	There is not enough space on your device to install Hearthstone. Please remove some files to free up additional space. If you are using external storage like an SD card, please ensure you have write permissions.	
-GLUE_LOADINGSCREEN_ERROR_CONNECTION_MESSAGE	Failed to download additional files from Google Play. Please make sure you have an active internet connection and ensure you are signed into a valid Google Play account.	
+GLUE_LOADINGSCREEN_ERROR_FILESYSTEM_MESSAGE	There is not enough space on your device to install Hearthstone. If you are using an SD card, please ensure you have write permissions.	
+GLUE_LOADINGSCREEN_ERROR_CONNECTION_MESSAGE	Failed to download additional files. Please make sure you have an active network connection.	
+GLUE_LOADINGSCREEN_ERROR_CLIENT_CONFIG_MESSAGE	Missing config file. Please uninstall and reinstall Hearthstone.	
+GLUE_LOADINGSCREEN_ERROR_COPY_ASSETS_MESSAGE	Failed to rearrange furniture. Please free up additional space on your device.	
+GLUE_LOADINGSCREEN_UPDATE_HEADER	Hearthstone Download	
+GLUE_LOADINGSCREEN_UPDATE_WIFI_RECONNECTED	Connected to Wi-FI again! Download resumed.	
+GLUE_LOADINGSCREEN_ERROR_DISK_SPACE	There is not enough space on your device to install Hearthstone. Please free up additional space.	
+GLUE_LOADINGSCREEN_ERROR_VERSION	Failed to get version information. Please check your network connection.	
+GLUE_LOADINGSCREEN_ERROR_UPDATE	Failed to get update. Please check your network connection.	
+GLUE_LOADINGSCREEN_ERROR_GENERIC	Something is broken! Please uninstall and reinstall Hearthstone.	
+GLUE_LOADINGSCREEN_WARNING_CELLULAR	Need to download {0} of data. Are you sure about using your data plan?	0=data size	
+GLUE_LOADINGSCREEN_UPDATE_WIFI_WARNING	No Wi-Fi connection. Do you wish to download over cellular?	
+GLUE_LOADINGSCREEN_ERROR_NEEDS_DATA	When your Wi-Fi connection is ready, let’s try to get that data again.	
+GLUE_LOADINGSCREEN_BUTTON_CELLULAR	Use Cellular	
+GLUE_LOADINGSCREEN_BUTTON_WAIT	Wait for Wi-Fi	
+GLUE_LOADINGSCREEN_BUTTON_RETRY	Retry	
+GLUE_LOADINGSCREEN_BUTTON_CANCEL	Hold on
+GLUE_LOADINGSCREEN_BUTTON_YES	Yes, do it!	
+GLUE_LOADINGSCREEN_ERROR_APK_INSTALL	Failed to install. Please uninstall and reinstall Hearthstone.	
+GLUE_LOADINGSCREEN_APK_UPDATE_FROM_APP_STORE	Almost done! Let's go to the store for one final download.	
+GLUE_LOADINGSCREEN_OPEN_APP_STORE	Open App store	
 GLUE_DONT_SHOW_ME_THIS_AGAIN	Don't show me this again	
 GLUE_UNRELIABLE_GPU_WARNING_TITLE	Graphics Device Warning	
 GLUE_UNRELIABLE_GPU_WARNING	This device runs on unsupported graphics hardware. As a result, Hearthstone may have graphical issues and/or performance problems.\n\nTap SUPPORT to find out more.	
@@ -889,6 +914,7 @@ GLUE_KABAL_CLASS_NAMES	Mage, Priest, Warlock
 GLUE_WEB_PURCHASE_TITLE	Web Purchase
 GLUE_WEB_PURCHASE_DESC	You made a web purchase!\nCheck your email for details.
 GLUE_WEB_PURCHASE_BUTTON	Understood!
+GLUE_STORE_HEALUP_BOOSTER_DESC	Requires Account
 GLUE_FAKE_QUEST_FIRST_NAME	Welcome to Gadgetzan!
 GLUE_FAKE_QUEST_FIRST_REWARD	0 gold
 GLUE_FAKE_QUEST_FIRST_DESCRIPTION	Welcome to the wrong side of town....
@@ -930,3 +956,17 @@ VO_BOSS_KAZAKUS_Male_Troll_Intro_QL_Kabal3_01	Good.  Eh heh heh heh.  Yes....
 VO_BOSS_KAZAKUS_Male_Troll_Intro_QL_Kabal3_03	My potions will grant you untold power....
 VO_BOSS_KAZAKUS_Male_Troll_Intro_QL_Kabal4_01	AHAHAH HAHAHA HAHA.  At last! A powerful disciple!
 VO_BOSS_KAZAKUS_Male_Troll_Intro_QL_Kabal4_02	Together we will rule Gadgetzan. HAHAH AHAHAHA!
+
+GLUE_TEMPORARY_ACCOUNT_SIGN_UP	Sign Up
+GLUE_TEMPORARY_ACCOUNT_FRIENDS_LIST_HEADER	Play with friends
+GLUE_TEMPORARY_ACCOUNT_FRIENDS_LIST_BODY	Hearthstone is more fun with friends!\n(Account required)
+GLUE_TEMPORARY_ACCOUNT_GAME_MENU_BODY	• Keep your collection\n• Save your game progress\n• Unlock a free card pack\n• Chat/play with friends\n• Customize player name\n• Play on other platforms
+GLUE_TEMPORARY_ACCOUNT_DIALOG_HEADER_01	Account Required
+GLUE_TEMPORARY_ACCOUNT_DIALOG_HEADER_02	Create an Account?
+GLUE_TEMPORARY_ACCOUNT_DIALOG_HEADER_03	Time for an Account?
+GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_01	Creating an account helps safeguard your progress! You also get a free pack of cards!
+GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_02	Create an account to enable purchases! An account helps safeguard your collection.
+GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_03	Create an account to help safeguard your collection and get this free pack!
+GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_04	Nice work! Safeguard your progress by creating an account!
+GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_05	Congratulations! Safeguard your progress by creating an account!
+GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_06	Well done! Safeguard your progress by creating an account!
