@@ -1,4 +1,5 @@
 TAG	TEXT	COMMENT
+GLOBAL_ACCOUNT	Cuenta	
 GLOBAL_ADDFRIEND_ERROR_ALREADY_FRIEND	Ya está en tu lista de amigos.	
 GLOBAL_ADDFRIEND_ERROR_MALFORMED	Tienes que introducir una dirección de correo electrónico o BattleTag.	
 GLOBAL_ADDFRIEND_HEADER	Añadir amigo	
@@ -154,20 +155,20 @@ GLOBAL_ERROR_INACTIVITY_KICK	Se ha cancelado la conexión porque llevas demasiad
 GLOBAL_ERROR_NETWORK_ACCOUNT_BANNED	Se ha suspendido permanentemente tu cuenta.	
 GLOBAL_ERROR_NETWORK_ACCOUNT_SUSPENDED	Tu cuenta ha sido suspendida.	
 GLOBAL_ERROR_NETWORK_CONNECTION_TIMEOUT	Tu conexión ha expirado. Comprueba tu conexión a Internet.	
-GLOBAL_ERROR_NETWORK_DISCONNECT	Se te ha desconectado del servicio de Battle.net. Vuelve a iniciar Hearthstone para volver a conectarte.	
+GLOBAL_ERROR_NETWORK_DISCONNECT	Se te ha desconectado de los servicios de Blizzard. Vuelve a iniciar Hearthstone para volver a conectarte.	
 GLOBAL_ERROR_NETWORK_DISCONNECT_GAME_SERVER	Se ha interrumpido la conexión con el servicio de juego de Hearthstone.	
 GLOBAL_ERROR_NETWORK_DISCONNECT_GENERIC	Se te ha desconectado.	
-GLOBAL_ERROR_NETWORK_DUPLICATE_LOGIN	Esta cuenta de Battle.net acaba de iniciar sesión en Hearthstone desde otro dispositivo.\n\nEste cliente se ha desconectado porque una misma cuenta solo puede tener iniciada una sesión.	
+GLOBAL_ERROR_NETWORK_DUPLICATE_LOGIN	Esta cuenta de Blizzard acaba de iniciar sesión en Hearthstone desde otro dispositivo.\n\nEste cliente se ha desconectado porque una misma cuenta solo puede tener iniciada una sesión.	
 GLOBAL_ERROR_NETWORK_GENERIC	Se ha producido un error de red interno.	
-GLOBAL_ERROR_NETWORK_INCORRECT_REGION	Esta cuenta de Battle.net no puede optar a participar en la prueba beta de Hearthstone de esta región. ¡Vuelve a intentarlo cuando la beta de Hearthstone esté disponible en tu región!	
-GLOBAL_ERROR_NETWORK_LOGIN_FAILURE	El juego no ha podido iniciar tu sesión en Battle.net. Espera unos minutos y vuelve a intentarlo.	
-GLOBAL_ERROR_NETWORK_LOST_GAME_CONNECTION	Tu partida se ha desconectado del servicio de juego de Battle.net. Puedes intentar volver a conectarte iniciando otra partida.	
+GLOBAL_ERROR_NETWORK_INCORRECT_REGION	Esta cuenta de Blizzard no puede optar a participar en la prueba beta de Hearthstone en esta región. ¡Vuelve a intentarlo cuando la beta de Hearthstone esté disponible en tu región!	
+GLOBAL_ERROR_NETWORK_LOGIN_FAILURE	El juego no ha podido iniciar tu sesión en los servicios de Blizzard. Espera unos minutos y vuelve a intentarlo.	
+GLOBAL_ERROR_NETWORK_LOST_GAME_CONNECTION	Tu partida se ha desconectado del servicio de juego de Blizzard. Puedes intentar volver a conectarte iniciando otra partida.	
 GLOBAL_ERROR_NETWORK_NO_CONNECTION	No se ha podido establecer la conexión. Comprueba tu conexión a Internet.	
 GLOBAL_ERROR_NETWORK_NO_GAME_SERVER	¡Vaya! No hemos podido iniciar una partida. Vuelve a intentarlo.	
 GLOBAL_ERROR_NETWORK_PARENTAL_CONTROLS	El acceso a esta cuenta está restringido actualmente por el control parental.	
-GLOBAL_ERROR_NETWORK_PHONE_LOCK	Llama al número de teléfono de bloqueo de Battle.net para poder iniciar sesión.\nTaiwán: 0800-303-585\nHong Kong: 396-54666	
+GLOBAL_ERROR_NETWORK_PHONE_LOCK	Llama al número de teléfono de Blizzard Phone Lock para poder iniciar sesión.\nTaiwán: 0800-303-585\nHong Kong: 396-54666	
 GLOBAL_ERROR_NETWORK_RISK_ACCOUNT_LOCKED	¡Hemos bloqueado tu cuenta! Por favor visita https://eu.battle.net/support/es/ y busca 7537 para obtener más información.	
-GLOBAL_ERROR_NETWORK_SPAM	Se te ha desconectado del servicio de Battle.net por enviar demasiadas solicitudes demasiado rápido. Vuelve a iniciar Hearthstone para volver a conectarte.	
+GLOBAL_ERROR_NETWORK_SPAM	Se te ha desconectado del servicio de Blizzard por enviar demasiadas solicitudes demasiado rápido. Vuelve a iniciar Hearthstone para volver a conectarte.	
 GLOBAL_ERROR_NETWORK_TITLE	ERROR DE RED	
 GLOBAL_ERROR_NETWORK_UNAVAILABLE_OFFLINE	Hearthstone no tiene conexión. Espera unos minutos y vuelve a intentarlo.	
 GLOBAL_ERROR_NETWORK_UNAVAILABLE_UNKNOWN	¡Vaya! Unos duendes traviesos le han puesto la zancadilla a Hearthstone cuando estaba intentando conectarse a nuestros servidores. Espera unos minutos a que se vayan y vuelve a intentarlo.	
@@ -175,7 +176,7 @@ GLOBAL_ERROR_NETWORK_UNAVAILABLE_UPGRADE	¡Hay una actualización de Hearthstone
 GLOBAL_ERROR_NETWORK_UTIL_TIMEOUT	Se ha agotado el tiempo de espera de tu partida mientras se solicitaban los datos de los servicios básicos de Hearthstone. Reinicia Hearthstone para volver a conectarte.	
 GLOBAL_ERROR_NO_MAGE_PRECON	Se ha producido un error de red al cargar las cartas de tu colección. Vuelve a iniciar Hearthstone para acceder a tu colección y seguir jugando.	
 GLOBAL_ERROR_STREAMING_ASSET_TIMEOUT	Se ha agotado el tiempo de espera del sistema de transmisión. Se estaba cargando el elemento {0}.	0=asset name
-GLOBAL_ERROR_UNKNOWN_ERROR	¡Vaya! Unos duendes traviesos han interrumpido Hearthstone cuando estaba conectándose al servicio de Battle.net. Espera unos minutos a que se vayan y prueba a ejecutar el juego de nuevo.	
+GLOBAL_ERROR_UNKNOWN_ERROR	¡Vaya! Unos duendes traviesos han interrumpido Hearthstone cuando estaba conectándose al servicio de Blizzard. Espera unos minutos a que se vayan y prueba a ejecutar el juego de nuevo.	
 GLOBAL_EXIT	Salir	
 GLOBAL_FEATURE_DISABLED_MESSAGE_COLLECTION	Lo sentimos, la Colección no está activa en este momento.	
 GLOBAL_FEATURE_DISABLED_MESSAGE_FORGE	Lo sentimos, la Arena no está activa en este momento.	
@@ -301,6 +302,8 @@ GLOBAL_KEYWORD_AUTOCAST	Lanzamiento automático
 GLOBAL_KEYWORD_AUTOCAST_TEXT	Este poder de héroe DEBE usarse en cada turno.	
 GLOBAL_KEYWORD_BATTLECRY	Grito de batalla	
 GLOBAL_KEYWORD_BATTLECRY_TEXT	Esta carta hace algo al jugarla desde tu mano.	
+GLOBAL_KEYWORD_BOSS	Jefe	
+GLOBAL_KEYWORD_BOSS_TEXT	Los jugadores colaboran para vencer al jefe.	
 GLOBAL_KEYWORD_CHARGE	Cargar	
 GLOBAL_KEYWORD_CHARGE_TEXT	Puede atacar inmediatamente.	
 GLOBAL_KEYWORD_COMBO	Combo	
@@ -341,6 +344,8 @@ GLOBAL_KEYWORD_MINION_TYPE_REFERENCE_TEXT	Bestia, demonio, dragón, robot, múrl
 GLOBAL_KEYWORD_OVERLOAD	Sobrecarga: X	
 GLOBAL_KEYWORD_OVERLOAD_REF_TEXT	Las cartas con Sobrecarga limitarán tu maná el próximo turno.	
 GLOBAL_KEYWORD_OVERLOAD_TEXT	Tienes X cristales menos de maná en el siguiente turno.	
+GLOBAL_KEYWORD_POISONOUS	Veneno	
+GLOBAL_KEYWORD_POISONOUS_TEXT	Destruye a cualquier esbirro al que inflige daño.	
 GLOBAL_KEYWORD_SECRET	Secreto	
 GLOBAL_KEYWORD_SECRET_TEXT	Oculto hasta que se realiza una acción concreta en el turno de tu oponente.	
 GLOBAL_KEYWORD_SHIFTING	Transfigurador Zerus	
@@ -477,7 +482,7 @@ GLOBAL_PROGRAMNAME_DIABLO3	Diablo III
 GLOBAL_PROGRAMNAME_HEARTHSTONE	Hearthstone	
 GLOBAL_PROGRAMNAME_HEROES	Heroes of the Storm	
 GLOBAL_PROGRAMNAME_OVERWATCH	Overwatch	
-GLOBAL_PROGRAMNAME_PHOENIX	Battle.net	
+GLOBAL_PROGRAMNAME_PHOENIX	Aplicación de Blizzard	
 GLOBAL_PROGRAMNAME_STARCRAFT2	StarCraft II	
 GLOBAL_PROGRAMNAME_WOW	World of Warcraft	
 GLOBAL_QUEST_PROGRESS_COUNT	{0}/{1}	0=progress,1=max progress
@@ -594,7 +599,7 @@ GLOBAL_SEASON_END_WELCOME	Bienvenido
 GLOBAL_SET_CORE	Conjunto básico	
 GLOBAL_SET_EXPERT1	Conjunto clásico	
 GLOBAL_SHOW	Mostrar	
-GLOBAL_SHUTDOWN_TOAST	<color=#{0}>Battle.net se cerrará en {1} min</color>	0=color, 1=minutes
+GLOBAL_SHUTDOWN_TOAST	<color=#{0}>Los servicios de Blizzard se cerrarán en {1} min</color>	0=color, 1=minutes
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_COMPLETE	<color=#{0}>{1}</color> acaba de terminar de competir en la Arena. ({2}-{3})	0=name color,1=player name,2=Arena Wins,3=Arena Losses
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START	<color=#{0}>{1}</color> ha empezado a competir en la Arena.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START_WITH_MANY_WINS	¡<color=#{0}>{1}</color> acaba de iniciar una partida de Arena y ya lleva {2} victorias!	0=name color,1=player name,2=Arena Wins
@@ -653,6 +658,7 @@ GLOBAL_STORE_MOBILE_NAME_APPLE	el App Store de Apple
 GLOBAL_STORE_MOBILE_NAME_DEFAULT	la Tienda Blizzard	
 GLOBAL_STORE_MOBILE_NAME_GOOGLE	Google Play	
 GLOBAL_SUPPORT	Asistencia	
+GLOBAL_SWITCH_ACCOUNT	Cambiar de cuenta	
 GLOBAL_TAVERN_BRAWL	Pelea de taberna	
 GLOBAL_TAVERN_BRAWL_ERROR_NOT_ACTIVE	Lo sentimos; esta pelea de taberna no está activa en estos momentos. Espera unos minutos y vuelve a intentarlo.	
 GLOBAL_TAVERN_BRAWL_ERROR_SEASON_INCREMENTED	Lo sentimos, este evento de pelea de taberna ha acabado. ¡Pero pronto habrá uno nuevo!	

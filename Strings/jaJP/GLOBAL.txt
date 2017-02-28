@@ -1,4 +1,5 @@
 TAG	TEXT	COMMENT
+GLOBAL_ACCOUNT	アカウント	
 GLOBAL_ADDFRIEND_ERROR_ALREADY_FRIEND	そいつはもうあんたの友達だぞ。	
 GLOBAL_ADDFRIEND_ERROR_MALFORMED	相手のEメールアドレスか、Battle Tagが必要だぞ。	
 GLOBAL_ADDFRIEND_HEADER	友達を追加	
@@ -154,20 +155,20 @@ GLOBAL_ERROR_INACTIVITY_KICK	あんたが最後にハースストーンの操作
 GLOBAL_ERROR_NETWORK_ACCOUNT_BANNED	あなたのアカウントは停止されました。	
 GLOBAL_ERROR_NETWORK_ACCOUNT_SUSPENDED	あなたのアカウントは凍結されました。	
 GLOBAL_ERROR_NETWORK_CONNECTION_TIMEOUT	通信がタイムアウトになりました。インターネット接続をご確認下さい。	
-GLOBAL_ERROR_NETWORK_DISCONNECT	Battle.netサービスから切断されました。再度接続するには、ハースストーンを再起動して下さい。	
+GLOBAL_ERROR_NETWORK_DISCONNECT	Blizzardサービスから切断されました。再度接続するには、ハースストーンを再起動してください。	
 GLOBAL_ERROR_NETWORK_DISCONNECT_GAME_SERVER	ハースストーンゲームサービスから切断されました。	
 GLOBAL_ERROR_NETWORK_DISCONNECT_GENERIC	通信が切断されました。	
-GLOBAL_ERROR_NETWORK_DUPLICATE_LOGIN	他のデバイスから、このBattle.netアカウントでハースストーンにログインしました。\n\n複数のデバイスから同じアカウントを使用してログインすることはできないため、こちらのクライアントは通信切断されました。	
+GLOBAL_ERROR_NETWORK_DUPLICATE_LOGIN	他のデバイスから、このBlizzardアカウントでハースストーンにログインしました。\n\n複数のデバイスから同じアカウントで同時にログインすることはできないため、こちらのクライアントは通信切断されました。	
 GLOBAL_ERROR_NETWORK_GENERIC	内部ネットワークエラーが発生しました。	
-GLOBAL_ERROR_NETWORK_INCORRECT_REGION	お客様のBattle.netアカウントでは、この地域でのハースストーンベータテストに参加することができません。お客様の地域でハースストーンベータテストが利用可能になってから、是非もう一度お試し下さい！	
-GLOBAL_ERROR_NETWORK_LOGIN_FAILURE	Battle.netを通じてゲームにログインすることができませんでした。しばらくしてからもう一度お試し下さい。	
-GLOBAL_ERROR_NETWORK_LOST_GAME_CONNECTION	ゲームがBattle.netゲームサービスから通信切断されました。再接続するには、もう一度ゲームを起動して下さい。	
+GLOBAL_ERROR_NETWORK_INCORRECT_REGION	お客様のBlizzardアカウントでは、この地域でのハースストーンベータテストに参加することができません。お客様の地域でハースストーンベータテストが利用可能になってから、是非もう一度お試しください！	
+GLOBAL_ERROR_NETWORK_LOGIN_FAILURE	Blizzardサービスを通じてゲームにログインすることができませんでした。しばらくしてからもう一度お試しください。	
+GLOBAL_ERROR_NETWORK_LOST_GAME_CONNECTION	ゲームがBlizzardゲームサービスから通信切断されました。再接続するには、もう一度ゲームを起動してください。	
 GLOBAL_ERROR_NETWORK_NO_CONNECTION	接続できません。インターネット接続をご確認下さい。	
 GLOBAL_ERROR_NETWORK_NO_GAME_SERVER	おおっと！対戦が開始できませんでした。もう一度お試し下さい。	
 GLOBAL_ERROR_NETWORK_PARENTAL_CONTROLS	現在ペアレンタルコントロールにより、このアカウントへのアクセスが制限されています。	
-GLOBAL_ERROR_NETWORK_PHONE_LOCK	ログインするにはBattle.net Phone Lock番号までお電話下さい。\n台湾:0800-303-585\n香港:396-54666	
+GLOBAL_ERROR_NETWORK_PHONE_LOCK	ログインするにはBlizzard Phone Lock番号までお電話ください。\n台湾: 0800-303-585\n香港: 396-54666	
 GLOBAL_ERROR_NETWORK_RISK_ACCOUNT_LOCKED	あなたのアカウントはロックされてしまいました！サポートページ (https://us.battle.net/support/ja ）にて「７５３７」と検索して解除方法を確認しましょう！	
-GLOBAL_ERROR_NETWORK_SPAM	短時間にあまりに多くのリクエストを送ったため、Battle.netサービスから切断されました。再度接続するには、ハースストーンを再起動して下さい。	
+GLOBAL_ERROR_NETWORK_SPAM	短時間にあまりに多くのリクエストを送ったため、Blizzardサービスから切断されました。再度接続するには、ハースストーンを再起動してください。	
 GLOBAL_ERROR_NETWORK_TITLE	ネットワークエラー	
 GLOBAL_ERROR_NETWORK_UNAVAILABLE_OFFLINE	ハースストーンはオフラインです。しばらくしてからもう一度お試し下さい。	
 GLOBAL_ERROR_NETWORK_UNAVAILABLE_UNKNOWN	おおっと！ハースストーンがサーバーへ接続中に、いたずらな妖精に邪魔されました。しばらくしてからもう一度お試し下さい。	
@@ -175,7 +176,7 @@ GLOBAL_ERROR_NETWORK_UNAVAILABLE_UPGRADE	ハースストーンがアップデー
 GLOBAL_ERROR_NETWORK_UTIL_TIMEOUT	ハースストーンユーティリティサービスへのデータリクエストがタイムアウトになりました。再度接続するには、ハースストーンを再起動して下さい。	
 GLOBAL_ERROR_NO_MAGE_PRECON	コレクションのカードデータのロード中にネットワークの問題が発生しました。コレクションにアクセスして対戦を再開するには、ハースストーンを再起動して下さい。	
 GLOBAL_ERROR_STREAMING_ASSET_TIMEOUT	システムのストリーミング待機中にタイムアウトになりました。アセット{0}のロード中でした。	0=asset name
-GLOBAL_ERROR_UNKNOWN_ERROR	おおっと！ハースストーンがBattle.netサービスへ接続中、いたずらな妖精に邪魔されました。しばらくしてからもう一度お試し下さい。	
+GLOBAL_ERROR_UNKNOWN_ERROR	おおっと！ハースストーンがBlizzardサービスへ接続中、いたずらな妖精に邪魔されたぞ。しばらくしてからもう一度試してみてくれ。	
 GLOBAL_EXIT	終了	
 GLOBAL_FEATURE_DISABLED_MESSAGE_COLLECTION	すまんな、コレクションは今利用できないみたいだ。	
 GLOBAL_FEATURE_DISABLED_MESSAGE_FORGE	すまんな、闘技場には今入れないみたいだ。	
@@ -301,6 +302,8 @@ GLOBAL_KEYWORD_AUTOCAST	自動使用
 GLOBAL_KEYWORD_AUTOCAST_TEXT	このヒーローパワーは、毎ターン必ず使わなければならない。	
 GLOBAL_KEYWORD_BATTLECRY	雄叫び	
 GLOBAL_KEYWORD_BATTLECRY_TEXT	手札から使用した時に何らかの効果を発生させる。	
+GLOBAL_KEYWORD_BOSS	ボス	
+GLOBAL_KEYWORD_BOSS_TEXT	プレイヤー達はボスを倒すために力を合わせて戦ってるぞ。	
 GLOBAL_KEYWORD_CHARGE	突撃	
 GLOBAL_KEYWORD_CHARGE_TEXT	召喚後、すぐに攻撃できる。	
 GLOBAL_KEYWORD_COMBO	コンボ	
@@ -341,6 +344,8 @@ GLOBAL_KEYWORD_MINION_TYPE_REFERENCE_TEXT	獣、悪魔、ドラゴン、メカ�
 GLOBAL_KEYWORD_OVERLOAD	オーバーロード: X	
 GLOBAL_KEYWORD_OVERLOAD_REF_TEXT	オーバーロードを持つカードを使うと、次のターンに使えるマナが制限されるぞ。	
 GLOBAL_KEYWORD_OVERLOAD_TEXT	次のターン使えるマナがX減る。	
+GLOBAL_KEYWORD_POISONOUS	猛毒	
+GLOBAL_KEYWORD_POISONOUS_TEXT	このカードからダメージを受けたミニオンを破壊する。	
 GLOBAL_KEYWORD_SECRET	秘策	
 GLOBAL_KEYWORD_SECRET_TEXT	相手のターンで特定の条件が満たされると効果が発動する。	
 GLOBAL_KEYWORD_SHIFTING	変身者ゼラス	
@@ -477,7 +482,7 @@ GLOBAL_PROGRAMNAME_DIABLO3	Diablo III
 GLOBAL_PROGRAMNAME_HEARTHSTONE	Hearthstone	
 GLOBAL_PROGRAMNAME_HEROES	Heroes of the Storm	
 GLOBAL_PROGRAMNAME_OVERWATCH	Overwatch	
-GLOBAL_PROGRAMNAME_PHOENIX	Battle.net	
+GLOBAL_PROGRAMNAME_PHOENIX	Blizzardアプリ	
 GLOBAL_PROGRAMNAME_STARCRAFT2	StarCraft II	
 GLOBAL_PROGRAMNAME_WOW	World of Warcraft	
 GLOBAL_QUEST_PROGRESS_COUNT	{0}/{1}	0=progress,1=max progress
@@ -526,7 +531,7 @@ GLOBAL_REGION_ASIA	アジア
 GLOBAL_REGION_CHINA	中国	
 GLOBAL_REGION_EUROPE	ヨーロッパ	
 GLOBAL_REMAINING_DATETIME	残り{0}	0=time string
-GLOBAL_RESTART	再起動	
+GLOBAL_RESTART	やり直す	
 GLOBAL_RESUME_GAME	ゲーム再開	
 GLOBAL_RETURNING_PLAYER_GENERATED_DECK	酒場のオヤジのデッキ	
 GLOBAL_REWARD_ARCANE_DUST_HEADLINE	魔素を獲得！	
@@ -537,7 +542,7 @@ GLOBAL_REWARD_ARENA_TICKET_HEADLINE	無料で闘技場に挑戦！
 GLOBAL_REWARD_ARENA_TICKET_LABEL	闘技場	
 GLOBAL_REWARD_BOOSTER_DETAILS_OUT_OF_BAND	ゲーム外からあなたのアカウントに{0}パックが追加されました。	0=count
 GLOBAL_REWARD_BOOSTER_DETAILS_PRESALE_OUT_OF_BAND	ウェブで購入したパック{0}個はもうすぐ到着するぞ！	0=count
-GLOBAL_REWARD_BOOSTER_HEADLINE_GENERIC	パックを獲得！	
+GLOBAL_REWARD_BOOSTER_HEADLINE_GENERIC	パック獲得	
 GLOBAL_REWARD_BOOSTER_HEADLINE_MULTIPLE	{0}パック獲得！	
 GLOBAL_REWARD_BOOSTER_HEADLINE_OUT_OF_BAND	カードパックを入手！	
 GLOBAL_REWARD_BOOSTER_HEADLINE_OUT_OF_BAND_MULTI	カードパックを入手！	
@@ -594,7 +599,7 @@ GLOBAL_SEASON_END_WELCOME	ようこそ
 GLOBAL_SET_CORE	基本セット	
 GLOBAL_SET_EXPERT1	クラシックセット	
 GLOBAL_SHOW	表示	
-GLOBAL_SHUTDOWN_TOAST	<color=#{0}>Battle.netはあと{1}分でシャットダウンします</color>	0=color, 1=minutes
+GLOBAL_SHUTDOWN_TOAST	<color=#{0}>Blizzardサービスはあと{1}分でシャットダウンします</color>	0=color, 1=minutes
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_COMPLETE	<color=#{0}>{1}</color>が闘技場での戦いを{2}勝{3}敗で終えたぞ。	0=name color,1=player name,2=Arena Wins,3=Arena Losses
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START	<color=#{0}>{1}</color>が新たに闘技場での戦いを開始したぞ。	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START_WITH_MANY_WINS	<color=#{0}>{1}</color>が闘技場での戦いを開始した。このプレイヤーはすでに{2}勝しているぞ！	0=name color,1=player name,2=Arena Wins
@@ -653,6 +658,7 @@ GLOBAL_STORE_MOBILE_NAME_APPLE	Apple App Store
 GLOBAL_STORE_MOBILE_NAME_DEFAULT	Blizzard store	
 GLOBAL_STORE_MOBILE_NAME_GOOGLE	Google Play	
 GLOBAL_SUPPORT	サポート	
+GLOBAL_SWITCH_ACCOUNT	アカウント切替	
 GLOBAL_TAVERN_BRAWL	酒場の喧嘩	
 GLOBAL_TAVERN_BRAWL_ERROR_NOT_ACTIVE	この酒場の喧嘩は現在有効ではありません。しばらくしてからもう一度お試し下さい。	
 GLOBAL_TAVERN_BRAWL_ERROR_SEASON_INCREMENTED	悪いな、この酒場の喧嘩イベントは終わっちまったよ。またすぐ次のが始まるからな！	

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Dbf name="ADVENTURE">
-	<SourceFingerprint>LOFAevNRMQDnbUGU9folGVg41e0=</SourceFingerprint>
+	<SourceFingerprint>BUZiGOU4aYTaHfNLdpebipWah0g=</SourceFingerprint>
 	<Column name="ID" type="Int" />
 	<Column name="NOTE_DESC" type="String" />
 	<Column name="NAME" type="LocString" />
@@ -32,6 +32,7 @@
 	<Column name="LEAVING_SOON_TEXT" type="LocString" />
 	<Column name="GAME_MODE_ICON" type="AssetPath" />
 	<Column name="PRODUCT_STRING_KEY" type="String" />
+	<Column name="STANDARD_EVENT" type="String" />
 	<Record>
 		<Field column="ID">1</Field>
 		<Field column="NOTE_DESC">Tutorial</Field>
@@ -79,6 +80,7 @@
 		<Field column="LEAVING_SOON_TEXT" />
 		<Field column="GAME_MODE_ICON" />
 		<Field column="PRODUCT_STRING_KEY" />
+		<Field column="STANDARD_EVENT">always</Field>
 	</Record>
 	<Record>
 		<Field column="ID">2</Field>
@@ -127,6 +129,7 @@
 		<Field column="LEAVING_SOON_TEXT" />
 		<Field column="GAME_MODE_ICON" />
 		<Field column="PRODUCT_STRING_KEY" />
+		<Field column="STANDARD_EVENT">always</Field>
 	</Record>
 	<Record>
 		<Field column="ID">3</Field>
@@ -256,7 +259,7 @@
 			<zhCN>纳克萨玛斯（已购买）</zhCN>
 			<itIT>Naxxramas (acquistata)</itIT>
 			<ptBR>Naxxramas (Comprada)</ptBR>
-			<plPL>Naxxramas (Już zakupiono)</plPL>
+			<plPL>Naxxramas (zakupiono)</plPL>
 			<jaJP>ナクスラーマス（購入済）</jaJP>
 			<thTH>Naxxramas (ซื้อแล้ว)</thTH>
 		</Field>
@@ -400,6 +403,7 @@
 		</Field>
 		<Field column="GAME_MODE_ICON">Assets/Game/Textures/AdventureChooser/SetIcons/SetIcon_NAX</Field>
 		<Field column="PRODUCT_STRING_KEY">NAXX</Field>
+		<Field column="STANDARD_EVENT">pre_set_rotation_2016</Field>
 	</Record>
 	<Record>
 		<Field column="ID">4</Field>
@@ -529,7 +533,7 @@
 			<zhCN>黑石山（已购买）</zhCN>
 			<itIT>Massiccio Roccianera (acquistata)</itIT>
 			<ptBR>Montanha Rocha Negra (Comprada)</ptBR>
-			<plPL>Czarna Góra (Już zakupiono)</plPL>
+			<plPL>Czarna Góra (zakupiono)</plPL>
 			<jaJP>ブラックロック・マウンテン（購入済）</jaJP>
 			<thTH>Blackrock Mountain (ซื้อแล้ว)</thTH>
 		</Field>
@@ -684,10 +688,26 @@
 		</Field>
 		<Field column="ADVENTURE_DEF_PREFAB">Assets/Game/GameObjects/AdventureDefs/AdventureDef_BRM</Field>
 		<Field column="STORE_PREFAB">Assets/Game/GameObjects/StoreAdventureDefs/StoreAdventureDef_BRM</Field>
-		<Field column="LEAVING_SOON">False</Field>
-		<Field column="LEAVING_SOON_TEXT" />
+		<Field column="LEAVING_SOON">True</Field>
+		<Field column="LEAVING_SOON_TEXT" loc_ID="79859">
+			<enUS>Blackrock Mountain will soon be unavailable for purchase. You can still craft and play the cards in most modes, though not in the Standard Format after the next set releases.</enUS>
+			<deDE>Der Schwarzfels ist bald nicht mehr zum Kauf verfügbar. Nach der Veröffentlichung des nächsten Sets können Sie die Karten immer noch herstellen und in den meisten Modi verwenden, aber nicht im Standardformat.</deDE>
+			<esES>La compra de la Montaña Roca Negra pronto dejará de estar disponible. Aunque podrás seguir creando y jugando sus cartas en la mayoría de los modos de juego, no será así en el formato estándar tras la publicación del nuevo conjunto.</esES>
+			<esMX>Dentro de poco, ya no podrás comprar Montaña Roca Negra en la tienda. Aún podrás crear y usar las cartas en la mayoría de los modos, pero no en el formato estándar después de que salga el próximo kit.</esMX>
+			<frFR>Le Mont Rochenoire ne sera bientôt plus disponible à l’achat. Vous pourrez toujours créer et jouer les cartes de cette extension dans la plupart des modes, mais pas dans le mode Standard après la sortie du prochain ensemble de cartes.</frFR>
+			<itIT>Presto non sarà più possibile acquistare l'avventura Massiccio Roccianera. Potrai ancora creare e utilizzare le sue carte nella maggior parte delle modalità, ma non nel nuovo formato Standard dopo la pubblicazione del prossimo set.</itIT>
+			<jaJP>「ブラックロック・マウンテン」はもうすぐ購入できなくなるぞ。ほとんどのモードでカードを使ったり、作成することはできるが、次のセットがリリースされた後、スタンダードフォーマットでは使えなくなるからな。</jaJP>
+			<koKR>검은바위 산이 곧 상점에서 사라집니다. 상점에서 사라진 후에도 해당 세트의 카드를 제작하여 대부분의 방식에서 사용할 수 있지만, 다음 세트가 출시된 후에 정규전에서는 사용할 수 없습니다.</koKR>
+			<plPL>Przygoda Czarna Góra wkrótce przestanie być dostępna w sprzedaży. Wciąż możliwe będzie tworzenie tych kart i gra nimi w większości trybów, choć nie w formacie Standardowym po wydaniu następnego zestawu.</plPL>
+			<ptBR>Em breve, a Montanha Rocha Negra não estará mais à venda. Você ainda pode criar e jogar os cards em quase todos os modos, menos no Formato Padrão depois que sair o próximo conjunto.</ptBR>
+			<ruRU>Приключение «Черная гора» скоро будет изъято из продажи, но вы сможете создавать карты из него и играть ими в любом формате, за исключением стандартного, после выхода нового набора.</ruRU>
+			<thTH>Blackrock Mountain จะเลิกวางจำหน่ายในเร็วๆ นี้ คุณยังคงสามารถสร้างและใช้การ์ดในโหมดส่วนใหญ่ได้ ยกเว้นเกมในกฎมาตรฐานเมื่อมีการปล่อยการ์ดชุดถัดไป</thTH>
+			<zhCN>“黑石山的火焰”即将无法购买。之后你还是可以制作该系列卡牌，且适用于绝大多数模式，但在新系列发布后的标准模式中将无法使用。</zhCN>
+			<zhTW>《勇闖黑石山》即將無法購買。之後你還是可以合成這些卡牌，並在大多數的模式中使用，但不包括新系列推出之後的標準規則。</zhTW>
+		</Field>
 		<Field column="GAME_MODE_ICON">Assets/Game/Textures/AdventureChooser/SetIcons/SetIcon_BRM</Field>
 		<Field column="PRODUCT_STRING_KEY">BRM</Field>
+		<Field column="STANDARD_EVENT">pre_set_rotation_2017</Field>
 	</Record>
 	<Record>
 		<Field column="ID">7</Field>
@@ -721,6 +741,7 @@
 		<Field column="LEAVING_SOON_TEXT" />
 		<Field column="GAME_MODE_ICON" />
 		<Field column="PRODUCT_STRING_KEY" />
+		<Field column="STANDARD_EVENT">always</Field>
 	</Record>
 	<Record>
 		<Field column="ID">8</Field>
@@ -945,10 +966,26 @@
 		</Field>
 		<Field column="ADVENTURE_DEF_PREFAB">Assets/Game/GameObjects/AdventureDefs/AdventureDef_LOE</Field>
 		<Field column="STORE_PREFAB">Assets/Game/GameObjects/StoreAdventureDefs/StoreAdventureDef_LOE</Field>
-		<Field column="LEAVING_SOON">False</Field>
-		<Field column="LEAVING_SOON_TEXT" />
+		<Field column="LEAVING_SOON">True</Field>
+		<Field column="LEAVING_SOON_TEXT" loc_ID="79860">
+			<enUS>League of Explorers will soon be unavailable for purchase. You can still craft and play the cards in most modes, though not in the Standard Format after the next set releases.</enUS>
+			<deDE>Die Forscherliga ist bald nicht mehr zum Kauf verfügbar. Nach der Veröffentlichung des nächsten Sets können Sie die Karten immer noch herstellen und in den meisten Modi verwenden, aber nicht im Standardformat.</deDE>
+			<esES>La compra de la Liga de Expedicionarios pronto dejará de estar disponible. Aunque podrás seguir creando y jugando sus cartas en la mayoría de los modos de juego, no será así en el formato estándar tras la publicación del nuevo conjunto.</esES>
+			<esMX>Dentro de poco, ya no podrás comprar La Liga de Expedicionarios en la tienda. Aún podrás crear y usar las cartas en la mayoría de los modos, pero no en el formato estándar después de que salga el próximo kit.</esMX>
+			<frFR>La Ligue des explorateurs ne sera bientôt plus disponible à l’achat. Vous pourrez toujours créer et jouer les cartes de cette extension dans la plupart des modes, mais pas dans le mode Standard après la sortie du prochain ensemble de cartes.</frFR>
+			<itIT>Presto non sarà più possibile acquistare l'avventura Lega degli Esploratori. Potrai ancora creare e utilizzare le sue carte nella maggior parte delle modalità, ma non nel nuovo formato Standard dopo la pubblicazione del prossimo set.</itIT>
+			<jaJP>「リーグ・オブ・エクスプローラー」はもうすぐ購入できなくなるぞ。ほとんどのモードでカードを使ったり、作成することはできるが、次のセットがリリースされた後、スタンダードフォーマットでは使えなくなるからな。</jaJP>
+			<koKR>탐험가 연맹이 곧 상점에서 사라집니다. 상점에서 사라진 후에도 해당 세트의 카드를 제작하여 대부분의 방식에서 사용할 수 있지만, 다음 세트가 출시된 후에 정규전에서는 사용할 수 없습니다.</koKR>
+			<plPL>Przygoda Liga Odkrywców wkrótce przestanie być dostępna w sprzedaży. Wciąż możliwe będzie tworzenie tych kart i gra nimi w większości trybów, choć nie w formacie Standardowym po wydaniu następnego zestawu.</plPL>
+			<ptBR>Em breve, a Liga dos Exploradores não estará mais à venda. Você ainda pode criar e jogar os cards em quase todos os modos, menos no Formato Padrão depois que sair o próximo conjunto.</ptBR>
+			<ruRU>Приключение «Лига исследователей» скоро будет изъято из продажи, но вы сможете создавать карты из него и играть ими в любом формате, за исключением стандартного, после выхода нового набора.</ruRU>
+			<thTH>League of Explorers จะเลิกวางจำหน่ายในเร็วๆ นี้ คุณยังคงสามารถสร้างและใช้การ์ดในโหมดส่วนใหญ่ได้ ยกเว้นเกมในกฎมาตรฐานเมื่อมีการปล่อยการ์ดชุดถัดไป</thTH>
+			<zhCN>“探险者协会”即将无法购买。之后你还是可以制作该系列卡牌，且适用于绝大多数模式，但在新系列发布后的标准模式中将无法使用。</zhCN>
+			<zhTW>《探險者協會》即將無法購買。之後你還是可以合成這些卡牌，並在大多數的模式中使用，但不包括新系列推出之後的標準規則。</zhTW>
+		</Field>
 		<Field column="GAME_MODE_ICON">Assets/Game/Textures/AdventureChooser/SetIcons/SetIcon_LOE</Field>
 		<Field column="PRODUCT_STRING_KEY">LOE</Field>
+		<Field column="STANDARD_EVENT">pre_set_rotation_2017</Field>
 	</Record>
 	<Record>
 		<Field column="ID">10</Field>
@@ -1090,7 +1127,7 @@
 			<esMX>• ¡Desbloquea el ala final para terminar tu aventura!\n• Enfrenta a los 3 jefes restantes.\n• Obtén hasta 12 nuevas cartas.</esMX>
 			<frFR>• Débloquez le dernier étage pour terminer votre aventure_!\nAffrontez les 3 boss restants.\nObtenez jusqu’à 12 nouvelles cartes.</frFR>
 			<itIT>• Sblocca l'ultima ala per completare l'avventura!\n• Affronta i 3 boss restanti\n• Ottieni fino a 12 nuove carte</itIT>
-			<jaJP>・パーティーはいよいよクライマックス！最後の区画を開放し、3体のボスと対決しよう！カラザンでだけ手に入る最大12枚の新カードがを獲得できるぞ！</jaJP>
+			<jaJP>・パーティはいよいよクライマックス！最後の区画を開放し、3体のボスと対決しよう！カラザンでだけ手に入る最大12枚の新カードを獲得できるぞ！</jaJP>
 			<koKR>• 마지막 지구를 잠금 해제하여 모험을 마무리하세요!\n• 나머지 3마리의 우두머리와 맞서 실력을 증명하세요.\n• 12장의 새로운 카드를 획득하세요.</koKR>
 			<plPL>• Odblokuj ostatnie skrzydło, aby dokończyć swoją przygodę!\n• Zmierz się z 3 pozostałymi bossami.\n• Zdobądź nawet 12 zupełnie nowych kart.</plPL>
 			<ptBR>• Desbloqueie a última ala para terminar sua aventura!\n• Enfrente os 3 chefes restantes\n • Ganhe até 12 cards novos.</ptBR>
@@ -1106,7 +1143,7 @@
 			<esMX>• ¡Desbloquea las últimas dos alas para continuar tu aventura!\n• Enfrenta a los 6 jefes restantes.\n• Obtén hasta 23 nuevas cartas.</esMX>
 			<frFR>• Débloquez les deux derniers étages pour continuer votre aventure_!\nAffrontez les 6 boss restants.\nObtenez jusqu’à 23 nouvelles cartes.</frFR>
 			<itIT>• Sblocca le ultime due ali per completare l'avventura!\n• Affronta i 6 boss restanti\n• Ottieni fino a 23 nuove carte</itIT>
-			<jaJP>・パーティーはいよいよクライマックス！最後の2区画を開放し、6体のボスと対決しよう！カラザンでだけ手に入る最大23枚の新カードがを獲得できるぞ！</jaJP>
+			<jaJP>・パーティはいよいよクライマックス！最後の2区画を開放し、6体のボスと対決しよう！カラザンでだけ手に入る最大23枚の新カードを獲得できるぞ！</jaJP>
 			<koKR>• 나머지 두 지구를 잠금 해제하여 모험을 계속하세요!\n• 나머지 6마리의 우두머리와 맞서 실력을 증명하세요.\n• 23장의 새로운 카드를 획득하세요.</koKR>
 			<plPL>• Odblokuj dwa ostatnie skrzydła, aby kontynuować przygodę!\n• Zmierz się z 6 pozostałymi bossami.\n• Zdobądź nawet 23 zupełnie nowe karty.</plPL>
 			<ptBR>• Desbloqueie as últimas duas alas para continuar sua aventura!\n• Enfrente os 6  chefes restantes\n• Ganhe 23  novos cards.</ptBR>
@@ -1122,7 +1159,7 @@
 			<esMX>• ¡Desbloquea las últimas tres alas para continuar tu aventura!\n• Enfrenta a los 9 jefes restantes.\n• Obtén hasta 33 nuevas cartas.</esMX>
 			<frFR>• Débloquez les trois derniers étages pour continuer votre aventure_!\nAffrontez les 9 boss restants.\nObtenez jusqu’à 33 nouvelles cartes.</frFR>
 			<itIT>• Sblocca le ultime tre ali per completare l'avventura!\n• Affronta i 9 boss restanti\n• Ottieni fino a 33 nuove carte</itIT>
-			<jaJP>・パーティーはいよいよクライマックス！最後の3区画を開放し、9体のボスと対決しよう！カラザンでだけ手に入る最大33枚の新カードがを獲得できるぞ！</jaJP>
+			<jaJP>・パーティはいよいよクライマックス！最後の3区画を開放し、9体のボスと対決しよう！カラザンでだけ手に入る最大33枚の新カードを獲得できるぞ！</jaJP>
 			<koKR>• 나머지 세 지구를 잠금 해제하여 모험을 계속하세요!\n• 나머지 9마리의 우두머리와 맞서 실력을 증명하세요.\n• 33장의 새로운 카드를 획득하세요.</koKR>
 			<plPL>• Odblokuj trzy ostatnie skrzydła, aby kontynuować przygodę!\n• Zmierz się z 9 pozostałymi bossami.\n• Zdobądź nawet 33 zupełnie nowe karty.</plPL>
 			<ptBR>• Desbloqueie as últimas três alas para continuar sua aventura!\n• Enfrente os 9 chefes restantes\n • Ganhe até 33 cards novos.</ptBR>
@@ -1237,6 +1274,7 @@
 		<Field column="LEAVING_SOON_TEXT" />
 		<Field column="GAME_MODE_ICON">Assets/Game/Textures/AdventureChooser/SetIcons/SetIcon_KARA</Field>
 		<Field column="PRODUCT_STRING_KEY">KARA</Field>
+		<Field column="STANDARD_EVENT">pre_set_rotation_2018</Field>
 	</Record>
 	<Record>
 		<Field column="ID">245</Field>
@@ -1285,5 +1323,6 @@
 		<Field column="LEAVING_SOON_TEXT" />
 		<Field column="GAME_MODE_ICON" />
 		<Field column="PRODUCT_STRING_KEY" />
+		<Field column="STANDARD_EVENT">always</Field>
 	</Record>
 </Dbf>

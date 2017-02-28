@@ -115,7 +115,11 @@ GLOBAL_KEYWORD_GRIMY_GOONS_COLLECTION_TEXT	You can put this in Hunter, Paladin o
 GLOBAL_KEYWORD_JADE_LOTUS	Jade Lotus	
 GLOBAL_KEYWORD_JADE_LOTUS_COLLECTION_TEXT	You can put this in Druid, Rogue or Shaman decks.	
 GLOBAL_KEYWORD_KABAL	Kabal	
-GLOBAL_KEYWORD_KABAL_COLLECTION_TEXT	You can put this in Priest, Mage or Warlock decks.	
+GLOBAL_KEYWORD_KABAL_COLLECTION_TEXT	You can put this in Priest, Mage or Warlock decks.
+GLOBAL_KEYWORD_POISONOUS	Poisonous
+GLOBAL_KEYWORD_POISONOUS_TEXT	Destroy any minion damaged by this.		
+GLOBAL_KEYWORD_BOSS	Boss
+GLOBAL_KEYWORD_BOSS_TEXT	The players are fighting together to overcome the Boss.		
 GLOBAL_ATTACK	Attack	
 GLOBAL_COST	Cost	
 GLOBAL_HEALTH	Health	
@@ -175,6 +179,8 @@ GLOBAL_LOGOUT_CONFIRM_TITLE	Log Out?
 GLOBAL_LOGIN_CONFIRM_TITLE	Log In?	
 GLOBAL_MOBILE_LOG_IN_TOOLTIP	Log in if you have an account!	
 GLOBAL_MOBILE_LOGIN_POINTER	Log In Here
+GLOBAL_ACCOUNT	Account
+GLOBAL_SWITCH_ACCOUNT	Switch Account
 GLOBAL_OPTIONS	Options	
 GLOBAL_CONCEDE	Concede	
 GLOBAL_LEAVE_SPECTATOR_MODE	Leave	
@@ -214,27 +220,27 @@ GLOBAL_ERROR_ASSET_LOAD_FAILED	Failed to load asset {0}.	0=asset name
 GLOBAL_ERROR_CURRENCY_INVALID	Client attempted to use an invalid currency to make a purchase.
 GLOBAL_ERROR_NETWORK_TITLE	NETWORK ERROR	
 GLOBAL_ERROR_NETWORK_GENERIC	There was an internal network error.	
-GLOBAL_ERROR_NETWORK_LOGIN_FAILURE	The game was unable to log you in through Battle.net. Please wait a few minutes and try again.	
+GLOBAL_ERROR_NETWORK_LOGIN_FAILURE	The game was unable to log you in through the Blizzard services. Please wait a few minutes and try again.	
 GLOBAL_ERROR_NETWORK_UTIL_TIMEOUT	Your game timed out as it was requesting data from the Hearthstone utility service. Please relaunch Hearthstone to reconnect.	
 GLOBAL_MOBILE_ERROR_NETWORK_UTIL_TIMEOUT	Your connection timed out as it was requesting data from the Hearthstone servers.	
-GLOBAL_ERROR_NETWORK_DISCONNECT	You were disconnected from the Battle.net service. Please relaunch Hearthstone to reconnect.	
+GLOBAL_ERROR_NETWORK_DISCONNECT	You were disconnected from the Blizzard services. Please relaunch Hearthstone to reconnect.	
 GLOBAL_MOBILE_ERROR_NETWORK_DISCONNECT	You were disconnected.	
 GLOBAL_ERROR_NETWORK_DISCONNECT_GENERIC	You were disconnected.	
 GLOBAL_ERROR_NETWORK_DISCONNECT_GAME_SERVER	You were disconnected from the Hearthstone game service.	
 GLOBAL_ERROR_NETWORK_NO_CONNECTION	Unable to connect. Please check your Internet connection.	
 GLOBAL_ERROR_NETWORK_CONNECTION_TIMEOUT	Your connection timed out. Please check your Internet connection.	
-GLOBAL_ERROR_NETWORK_SPAM	You were disconnected from the Battle.net service for sending too many requests too quickly. Please relaunch Hearthstone to reconnect.	
+GLOBAL_ERROR_NETWORK_SPAM	You were disconnected from the Blizzard service for sending too many requests too quickly. Please relaunch Hearthstone to reconnect.	
 GLOBAL_ERROR_NETWORK_NO_GAME_SERVER	Oops! We were unable to start a game for you. Please try again.	
 GLOBAL_MOBILE_ERROR_NETWORK_SPAM	You were disconnected for sending too many requests too quickly.	
 GLOBAL_MOBILE_ERROR_BREAKING_NEWS	Breaking News:\n\n{0}	
-GLOBAL_ERROR_NETWORK_DUPLICATE_LOGIN	This Battle.net account just logged into Hearthstone from another device.\n\nThis client was disconnected because only one connection is supported at a time.	
-GLOBAL_ERROR_NETWORK_LOST_GAME_CONNECTION	Your game has been disconnected from the Battle.net game service. You can try to reconnect again by starting another game.
-GLOBAL_ERROR_NETWORK_INCORRECT_REGION	Your Battle.net account is not eligible to participate in this region's Hearthstone beta test. Once the Hearthstone beta is available in your home region, please try again!	
+GLOBAL_ERROR_NETWORK_DUPLICATE_LOGIN	This Blizzard account just logged into Hearthstone from another device.\n\nThis client was disconnected because only one connection is supported at a time.	
+GLOBAL_ERROR_NETWORK_LOST_GAME_CONNECTION	Your game has been disconnected from the Blizzard game service. You can try to reconnect again by starting another game.
+GLOBAL_ERROR_NETWORK_INCORRECT_REGION	Your Blizzard account is not eligible to participate in this region's Hearthstone beta test. Once the Hearthstone beta is available in your home region, please try again!	
 GLOBAL_ERROR_NETWORK_ACCOUNT_SUSPENDED	Your account has been suspended.	
 GLOBAL_ERROR_NETWORK_ACCOUNT_BANNED	Your account has been banned.	
 GLOBAL_ERROR_NETWORK_RISK_ACCOUNT_LOCKED	We've locked your account! Go to https://battle.net/support and search 7537 to find out what happened!
 GLOBAL_ERROR_NETWORK_PARENTAL_CONTROLS	Access to this account is currently restricted by parental controls.
-GLOBAL_ERROR_NETWORK_PHONE_LOCK	Please call your Battle.net Phone Lock number to allow this login.\nTaiwan: 0800-303-585\nHong Kong: 396-54666
+GLOBAL_ERROR_NETWORK_PHONE_LOCK	Please call your Blizzard Phone Lock number to allow this login.\nTaiwan: 0800-303-585\nHong Kong: 396-54666
 GLOBAL_ERROR_NETWORK_UNAVAILABLE_UPGRADE	Hearthstone has been updated!  Please download the latest version.
 GLOBAL_ERROR_NETWORK_UNAVAILABLE_OFFLINE	Hearthstone is offline. Please wait a few minutes and try again.
 GLOBAL_ERROR_NETWORK_UNAVAILABLE_UNKNOWN	Oops! Playful sprites have disrupted Hearthstone as it was connecting to our servers. Please wait a few minutes for them to disperse and try again.
@@ -389,7 +395,7 @@ GLOBAL_PROGRAMNAME_HEARTHSTONE	Hearthstone
 GLOBAL_PROGRAMNAME_WOW	World of Warcraft	
 GLOBAL_PROGRAMNAME_DIABLO3	Diablo III	
 GLOBAL_PROGRAMNAME_STARCRAFT2	StarCraft II	
-GLOBAL_PROGRAMNAME_PHOENIX	Battle.net	
+GLOBAL_PROGRAMNAME_PHOENIX	Blizzard app	
 GLOBAL_PROGRAMNAME_HEROES	Heroes of the Storm	
 GLOBAL_PROGRAMNAME_OVERWATCH	Overwatch	
 GLOBAL_OFFLINE	Offline	
@@ -486,7 +492,7 @@ GLOBAL_SOCIAL_TOAST_SPECTATOR_INVITE_SENT	Spectator invite sent to <color=#{0}>{
 GLOBAL_SOCIAL_TOAST_SPECTATOR_INVITE_RECEIVED	<color=#{0}>{1}</color> invites you to spectate the game!	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_SPECTATOR_ADDED	<color=#{0}>{1}</color> has begun spectating you.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_SPECTATOR_REMOVED	<color=#{0}>{1}</color> is no longer spectating you.	0=name color,1=player name
-GLOBAL_SHUTDOWN_TOAST	<color=#{0}>Battle.net will be shutting down in {1} |4(minute,minutes)</color>	0=color, 1=minutes
+GLOBAL_SHUTDOWN_TOAST	<color=#{0}>The Blizzard services will be shutting down in {1} |4(minute,minutes)</color>	0=color, 1=minutes
 GLOBAL_OPTIONS_SOUND_LABEL	Sound
 GLOBAL_OPTIONS_SOUND_MASTER_VOLUME_LABEL	Master Volume
 GLOBAL_OPTIONS_SOUND_MUSIC_VOLUME_LABEL	Music Volume
@@ -568,7 +574,7 @@ GLOBAL_COLLECTION_GOLDEN	Golden
 GLOBAL_SPLASH_CLOSED_SIGN_TITLE	Closed	
 GLOBAL_ERROR_INACTIVITY_KICK	It's been a while since your last Hearthstone action and your connection was shut down. Relaunch the game when you're ready!	
 GLOBAL_MOBILE_ERROR_LOGON_WEB_TIMEOUT	It's been a while since your last Hearthstone action and your connection was shut down.	
-GLOBAL_ERROR_UNKNOWN_ERROR	Oops! Playful sprites have disrupted Hearthstone as it was linking up to the Battle.net service. Please wait a few minutes for them to disperse and try re-launching the game.	
+GLOBAL_ERROR_UNKNOWN_ERROR	Oops! Playful sprites have disrupted Hearthstone as it was linking up to the Blizzard service. Please wait a few minutes for them to disperse and try re-launching the game.	
 GLOBAL_CLICK_TO_CONTINUE	Click to continue	
 GLOBAL_CLICK_TO_CONTINUE_TOUCH	Tap to continue	
 GLOBAL_TOOLTIP_MENU_HEADER	Game Menu	
