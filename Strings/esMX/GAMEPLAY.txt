@@ -3,6 +3,9 @@ GAMEPLAY_ADVENTURE_BOSS_HEROIC	HEROICO	Shows under heroic boss names in adventur
 GAMEPLAY_ADVENTURE_BOSS_NORMAL	NORMAL	Shows under normal boss names in adventures
 GAMEPLAY_AI_OPPONENT_NAME	El Tabernero	
 GAMEPLAY_CHOOSE_ONE	Elige una opción	will be displayed for card choices e.g. tracking
+GAMEPLAY_CHOOSE_ONE_ADAPT_ALL_MINIONS	Elige uno para todos tus esbirros:	
+GAMEPLAY_CHOOSE_ONE_ADAPT_ALL_MURLOCS	Elige uno para todos tus múrlocs:	
+GAMEPLAY_CHOOSE_ONE_ADAPT_ALL_RECRUITS	Elige uno para todos tus reclutas:	
 GAMEPLAY_CHOOSE_ONE_HERO_POWER	Elige una opción	will be displayed for choosing a Hero Power e.g. Sir Finley Mrrgglton
 GAMEPLAY_COIN_TOSS_LOST	Obtienes una carta adicional	
 GAMEPLAY_COIN_TOSS_WON	Empiezas tú	
@@ -38,6 +41,7 @@ GAMEPLAY_MULLIGAN_REPLACE	REEMPLAZADA
 GAMEPLAY_MULLIGAN_STARTING_HAND	Mano inicial	
 GAMEPLAY_MULLIGAN_SUBTITLE	Conserva o reemplaza tus cartas	
 GAMEPLAY_MULLIGAN_WAITING	Tu adversario está eligiendo...	
+GAMEPLAY_NEXT_TURN	OTRO TURNO	
 GAMEPLAY_PlayErrors_REQ_ATTACK_GREATER_THAN_0	Un personaje sin valor de ataque no puede atacar	
 GAMEPLAY_PlayErrors_REQ_ATTACKER_CAN_ATTACK	Ese personaje no puede atacar	
 GAMEPLAY_PlayErrors_REQ_ATTACKER_NOT_FROZEN	Los personajes congelados no pueden atacar	
@@ -63,6 +67,8 @@ GAMEPLAY_PlayErrors_REQ_FROZEN_TARGET	Selecciona un personaje Congelado
 GAMEPLAY_PlayErrors_REQ_HERO_OR_MINION_TARGET	Debes hacer objetivo en un esbirro	
 GAMEPLAY_PlayErrors_REQ_HERO_TARGET	Debes hacer objetivo en un héroe	
 GAMEPLAY_PlayErrors_REQ_LEGENDARY_TARGET	Debes hacer objetivo en un esbirro legendario	
+GAMEPLAY_PlayErrors_REQ_MAX_QUESTS	Solo puedes tener {0} |4(Misión, Misiones)	
+GAMEPLAY_PlayErrors_REQ_MAX_SECRETS	Solo puedes tener {0} |4(Secreto,Secretos)	
 GAMEPLAY_PlayErrors_REQ_MINIMUM_ENEMY_MINIONS	El enemigo debe tener al menos {0} |4(esbirro,esbirros)	
 GAMEPLAY_PlayErrors_REQ_MINIMUM_TOTAL_MINIONS	Debe haber al menos {0} |4(esbirro,esbirros) en el campo de batalla	
 GAMEPLAY_PlayErrors_REQ_MINION_CAP	No puedes tener más esbirros	
@@ -75,15 +81,16 @@ GAMEPLAY_PlayErrors_REQ_NONSELF_TARGET	El esbirro no puede hacer objetivo sobre 
 GAMEPLAY_PlayErrors_REQ_NONSTEALTH_ENEMY_TARGET	No se puede hacer objetivo o atacar a personajes en Sigilo	
 GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_ACTIVATE	Ese personaje ya atacó	
 GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_HERO_POWER	Los Poderes de héroe solo pueden usarse una vez por turno	
-GAMEPLAY_PlayErrors_REQ_NOT_MINION_JUST_PLAYED	Los esbirros no pueden atacar durante el turno en que se juegan	
+GAMEPLAY_PlayErrors_REQ_NOT_MINION_JUST_PLAYED	Los esbirros no pueden atacar \ndurante el turno en que se juegan	
 GAMEPLAY_PlayErrors_REQ_NUM_MINION_SLOTS	Tienes demasiados esbirros para jugar esa carta	
-GAMEPLAY_PlayErrors_REQ_SECRET_CAP	Solo puedes tener {0} |4(Secreto,Secretos)	
+GAMEPLAY_PlayErrors_REQ_SECRET_ZONE_CAP	Solo puedes tener {0} Secretos y Misiones	
 GAMEPLAY_PlayErrors_REQ_STEALTHED_TARGET	Selecciona un personaje en Sigilo	
 GAMEPLAY_PlayErrors_REQ_SUBCARD_IS_PLAYABLE	Ninguna de estas opciones es válida	
 GAMEPLAY_PlayErrors_REQ_TARGET_ATTACKED_THIS_TURN	Debes hacer objetivo en un personaje que ya haya atacado	
 GAMEPLAY_PlayErrors_REQ_TARGET_EXACT_COST	Selecciona un esbirro que cueste {0}	
 GAMEPLAY_PlayErrors_REQ_TARGET_FOR_COMBO	No puedes hacer esa jugada sin un objetivo	
 GAMEPLAY_PlayErrors_REQ_TARGET_FOR_NO_COMBO	No puedes hacer esa jugada sin un objetivo	
+GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABE_AND_ELEMENTAL_PLAYED_LAST_TURN	No puedes hacer esa jugada sin un objetivo	
 GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE	No puedes hacer esa jugada sin un objetivo	
 GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE_AND_DRAGON_IN_HAND	No puedes hacer esa jugada sin un objetivo	
 GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE_AND_MINIMUM_FRIENDLY_MINIONS	No puedes hacer esa jugada sin un objetivo	
@@ -121,6 +128,10 @@ GAMEPLAY_TOOLTIP_FATIGUE_DECK_DESCRIPTION	¡No tienes más cartas! De aquí en a
 GAMEPLAY_TOOLTIP_FATIGUE_DECK_HEADLINE	Fatigado	
 GAMEPLAY_TOOLTIP_FATIGUE_ENEMYDECK_DESCRIPTION	¡Tu adversario no tiene más cartas! De aquí en adelante, cada vez que intente robar cartas, recibirá daño.	
 GAMEPLAY_TOOLTIP_FATIGUE_ENEMYDECK_HEADLINE	Fatigado	
+GAMEPLAY_TOOLTIP_HAND_DESCRIPTION	Tienes {0} |4(carta,cartas) en tu mano.	
+GAMEPLAY_TOOLTIP_HAND_FULL_DESCRIPTION	¡Tienes {0} |4(carta,cartas) en tu mano! Tu mano está llena.	
+GAMEPLAY_TOOLTIP_HAND_FULL_HEADLINE	Mano llena	
+GAMEPLAY_TOOLTIP_HAND_HEADLINE	Mano	
 GAMEPLAY_TOOLTIP_MANA_DESCRIPTION	Cuando empiece tu turno, recibirás un nuevo cristal y cargarás los que están vacíos.	
 GAMEPLAY_TOOLTIP_MANA_HEADLINE	Cristales de maná	
 GAMEPLAY_TOOLTIP_MANA_OVERLOAD_DESCRIPTION	El turno anterior jugaste una carta con Sobrecarga.	

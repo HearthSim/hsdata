@@ -44,7 +44,8 @@ GLOBAL_CARD_SET_GANGS_SEARCHABLE_SHORTHAND_NAMES	龙争虎斗加基森	This is a
 GLOBAL_CARD_SET_GANGS_SHORT	加基森	
 GLOBAL_CARD_SET_GVG	地精大战侏儒	
 GLOBAL_CARD_SET_GVG_SEARCHABLE_SHORTHAND_NAMES	地精大战侏儒	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
-GLOBAL_CARD_SET_KARA	卡拉赞	
+GLOBAL_CARD_SET_HOF	荣誉室	
+GLOBAL_CARD_SET_KARA	卡拉赞之夜	
 GLOBAL_CARD_SET_KARA_RESERVE	卡拉赞保留	
 GLOBAL_CARD_SET_KARA_SHORT	卡拉赞	
 GLOBAL_CARD_SET_LOE	探险者协会	
@@ -57,10 +58,11 @@ GLOBAL_CARD_SET_OG_RESERVE	上古之神保留
 GLOBAL_CARD_SET_OG_SEARCHABLE_SHORTHAND_NAMES	上古之神 低语	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.  For Whispers of the Old Gods, 'tog' should be available in all locales; wotog and wog are additional English shorthands, which should be replaced by locale specific variants.
 GLOBAL_CARD_SET_OG_SHORT	上古之神	
 GLOBAL_CARD_SET_PROMO	纪念	
-GLOBAL_CARD_SET_REWARD	奖励	
 GLOBAL_CARD_SET_TGT	冠军的试炼	
 GLOBAL_CARD_SET_TGT_SEARCHABLE_SHORTHAND_NAMES	冠军的试炼	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_TGT_SHORT	冠军的试炼	
+GLOBAL_CARD_SET_UNGORO	勇闯安戈洛	
+GLOBAL_CARD_SET_UNGORO_SHORT	安戈洛	
 GLOBAL_CARDTYPE_ENCHANTMENT	强化	
 GLOBAL_CARDTYPE_HERO	英雄	
 GLOBAL_CARDTYPE_HEROPOWER	英雄技能	
@@ -137,7 +139,10 @@ GLOBAL_DEMO_COMPLETE_BODY	感谢你尝试《炉石传说：魔兽英雄传》的
 GLOBAL_DEMO_COMPLETE_HEADER	祝贺你！	
 GLOBAL_DEMO_DISCLAIMER	该版本的《炉石传说：魔兽英雄传》仅用于部分游戏内容展示。	
 GLOBAL_DEMO_LEARN_MORE	了解更多	
+GLOBAL_DISABLE	禁用	
 GLOBAL_DONE	完成	
+GLOBAL_ENABLE	启用	
+GLOBAL_ENTER	确认	
 GLOBAL_ERROR_ACCOUNT_LICENSES	在读取你的账号内容时出现了一些错误，有些内容可能无法正确显示。对此我们深表歉意！在你下次登录游戏的时候，我们会再次尝试读取这些内容。	
 GLOBAL_ERROR_ASSET_CREATE_PERSISTENT_DATA_PATH	无法在{0}创建数据储存文件夹。	0=folder path
 GLOBAL_ERROR_ASSET_DOWNLOAD_FAILED	下载数组{0}失败。	0=asset name
@@ -183,6 +188,10 @@ GLOBAL_FEATURE_DISABLED_MESSAGE_FORGE	抱歉。竞技模式已被暂时禁用。
 GLOBAL_FEATURE_DISABLED_MESSAGE_PLAY	抱歉，对战模式已被暂时禁用。	
 GLOBAL_FEATURE_DISABLED_MESSAGE_PRACTICE	抱歉，练习模式已被暂时禁用。	
 GLOBAL_FEATURE_DISABLED_TITLE	禁用	
+GLOBAL_FINISH	完成	
+GLOBAL_FIRESIDE_BRAWL	炉边乱斗	
+GLOBAL_FIRESIDE_GATHERING	炉边聚会	
+GLOBAL_FIRESIDE_GATHERING_DEFAULT_TAVERN_NAME	炉边聚会	
 GLOBAL_FORGE_END_DONE	完成	
 GLOBAL_FORGE_END_JOKE_0	这可真带劲儿！	
 GLOBAL_FORGE_END_JOKE_1	我无话可说！	
@@ -200,6 +209,7 @@ GLOBAL_FRIEND_CHALLENGE_BODY1_STANDARD	在一场标准游戏中，向你发起�
 GLOBAL_FRIEND_CHALLENGE_BODY1_WILD	在一场狂野游戏中，向你发起挑战的是：	
 GLOBAL_FRIEND_CHALLENGE_BODY2	是否接受挑战？	
 GLOBAL_FRIEND_CHALLENGE_DECLINE	拒绝	
+GLOBAL_FRIEND_CHALLENGE_FIRESIDE_BRAWL_BODY1	有人邀请你进行炉边乱斗：	
 GLOBAL_FRIEND_CHALLENGE_HEADER	发起挑战	
 GLOBAL_FRIEND_CHALLENGE_NEARBY_PLAYER_NOTE	你可以在选项菜单中屏蔽来自周围玩家的邀请。	
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_CANCELED	{0}取消了挑战。	0=friend name
@@ -296,6 +306,9 @@ GLOBAL_HERO_WINS	获胜局数：{0}/{1}	0=number of games this class has won 1=n
 GLOBAL_HERO_WINS_PHONE	获胜\n{0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HEROIC_BRAWL	英雄乱斗模式	
 GLOBAL_HIDE	隐藏	
+GLOBAL_JOIN	加入	
+GLOBAL_KEYWORD_ADAPT	进化	
+GLOBAL_KEYWORD_ADAPT_TEXT	在三个增益中选择其一。	
 GLOBAL_KEYWORD_AUTOATTACK	自动攻击	
 GLOBAL_KEYWORD_AUTOATTACK_TEXT	无法攻击，但会在你的回合结束时进行某些动作。	
 GLOBAL_KEYWORD_AUTOCAST	自动施放	
@@ -346,10 +359,13 @@ GLOBAL_KEYWORD_OVERLOAD_REF_TEXT	具有过载效果的卡牌会在下一个回�
 GLOBAL_KEYWORD_OVERLOAD_TEXT	下个回合你的法力值减少X点。	
 GLOBAL_KEYWORD_POISONOUS	剧毒	
 GLOBAL_KEYWORD_POISONOUS_TEXT	消灭任何受到该随从伤害的随从。	
+GLOBAL_KEYWORD_QUEST	任务	
+GLOBAL_KEYWORD_QUEST_TEXT	任务起始于你的手牌，终止于获得奖励。	
 GLOBAL_KEYWORD_SECRET	奥秘	
 GLOBAL_KEYWORD_SECRET_TEXT	在对手的回合发生某些特殊情况时展示并产生效果。	
-GLOBAL_KEYWORD_SHIFTING	百变泽鲁斯	
-GLOBAL_KEYWORD_SHIFTING_TEXT	在你的回合开始时，这张牌会变成一张新的随从牌。	
+GLOBAL_KEYWORD_SHIFTING_MINION_TEXT	在你的回合开始时，这张牌会变成一张新的随从牌。	
+GLOBAL_KEYWORD_SHIFTING_TEXT	在你的回合开始时，这张牌会变成一张新的卡牌。	
+GLOBAL_KEYWORD_SHIFTING_WEAPON_TEXT	在你的回合开始时，这张牌会变成一张新的武器牌。	
 GLOBAL_KEYWORD_SILENCE	沉默	
 GLOBAL_KEYWORD_SILENCE_TEXT	移除所有卡牌描述和强化。	
 GLOBAL_KEYWORD_SPAREPART	备用零件	
@@ -383,7 +399,9 @@ GLOBAL_LANGUAGE_NATIVE_RURU	Русский	The name of the language IN THAT LANG
 GLOBAL_LANGUAGE_NATIVE_THTH	ภาษาไทย	The name of the laugnage IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_ZHCN	中文（简体）	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_ZHTW	繁體中文(台灣)	The name of the language IN THAT LANGUAGE.
+GLOBAL_LEAVE	离开	
 GLOBAL_LEAVE_SPECTATOR_MODE	离开	
+GLOBAL_LOCATIONS	了解更多	
 GLOBAL_LOGIN	登录	
 GLOBAL_LOGIN_CONFIRM_MESSAGE	你将丢失当前游戏进度。你确定吗？	
 GLOBAL_LOGIN_CONFIRM_TITLE	是否登录？	
@@ -526,6 +544,7 @@ GLOBAL_RECONNECT_RECONNECTING_HEADER	正在重新连接
 GLOBAL_RECONNECT_RECONNECTING_LOGIN	你的上一局对战由于断线而中断。正在重新连接……	
 GLOBAL_RECONNECT_TIMEOUT	无法重新连接到游戏。	
 GLOBAL_RECONNECT_TIMEOUT_HEADER	发生错误	
+GLOBAL_REFRESH	刷新	
 GLOBAL_REGION_AMERICAS	美洲和东南亚	
 GLOBAL_REGION_ASIA	亚洲	
 GLOBAL_REGION_CHINA	中国	
@@ -533,6 +552,7 @@ GLOBAL_REGION_EUROPE	欧洲
 GLOBAL_REMAINING_DATETIME	剩余时间{0}	0=time string
 GLOBAL_RESTART	重新开始	
 GLOBAL_RESUME_GAME	继续	
+GLOBAL_RETRY	重试	
 GLOBAL_RETURNING_PLAYER_GENERATED_DECK	旅店老板的套牌	
 GLOBAL_REWARD_ARCANE_DUST_HEADLINE	获得奥术之尘！	
 GLOBAL_REWARD_ARENA_TICKET_ADMIT	参赛券	the word 'admit' in capital letters - displayed like "Admit 1" and looks like a movie/fair ticket. this is the Arena Ticket reward visual.
@@ -583,6 +603,7 @@ GLOBAL_REWARD_HERO_DETAILS	{0}/{1}位英雄已解锁
 GLOBAL_REWARD_HERO_HEADLINE	{0}已解锁	
 GLOBAL_REWARD_HERO_SOURCE	击败{0}后解锁	0=class
 GLOBAL_REWARD_HEROES_CARD_MOUNT_HEADLINE	炉石飞毯	
+GLOBAL_SCAN	查找	
 GLOBAL_SCREENSHOT_COMPLETE	截图已被保存到桌面	
 GLOBAL_SEASON_END_BONUS_STAR_BOOST	额外的星数奖励将你提升至	
 GLOBAL_SEASON_END_BONUS_STAR_TITLE	你的上赛季排名使你获得	
@@ -598,8 +619,12 @@ GLOBAL_SEASON_END_RANK_LABEL	你获得了排名：
 GLOBAL_SEASON_END_WELCOME	欢迎	
 GLOBAL_SET_CORE	基本	
 GLOBAL_SET_EXPERT1	经典	
+GLOBAL_SET_ROTATION_ROLLOVER_BODY_DESKTOP	炉石新年到！\n重新启动游戏，一起来庆祝吧。	
+GLOBAL_SET_ROTATION_ROLLOVER_BODY_MOBILE	炉石新年到！\n重新启动游戏，一起来庆祝吧。	
+GLOBAL_SET_ROTATION_ROLLOVER_HEADER	新年快乐！	
 GLOBAL_SHOW	显示	
 GLOBAL_SHUTDOWN_TOAST	<color=#{0}>暴雪游戏服务将于{1}分钟后关闭</color>	0=color, 1=minutes
+GLOBAL_SKIP	跳过	
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_COMPLETE	<color=#{0}>{1}</color>在竞技模式中的比赛结束了。({2}-{3})	0=name color,1=player name,2=Arena Wins,3=Arena Losses
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START	<color=#{0}>{1}</color>在竞技模式中的比赛开始了。	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START_WITH_MANY_WINS	<color=#{0}>{1}</color>在竞技模式中的比赛开始了，并已经赢得{2}胜！	0=name color,1=player name,2=Arena Wins
@@ -678,6 +703,7 @@ GLOBAL_TUTORIAL_TAUNT_DESCRIPTION	敌人必须攻击这个随从
 GLOBAL_TUTORIAL_USED	已使用	
 GLOBAL_TUTORIAL_YOUR_MANA	你的法力值	
 GLOBAL_TUTORIAL_YOUR_TURN	你的回合	
+GLOBAL_UPDATE	更新	
 GLOBAL_VERSION	版本	
 GLOBAL_WILD	狂野模式	
 GLOBAL_WINS	胜利	

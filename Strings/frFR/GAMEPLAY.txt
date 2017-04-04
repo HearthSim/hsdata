@@ -3,6 +3,9 @@ GAMEPLAY_ADVENTURE_BOSS_HEROIC	HÉROÏQUE	Shows under heroic boss names in adven
 GAMEPLAY_ADVENTURE_BOSS_NORMAL	NORMAL	Shows under normal boss names in adventures
 GAMEPLAY_AI_OPPONENT_NAME	Aubergiste	
 GAMEPLAY_CHOOSE_ONE	Choisir	will be displayed for card choices e.g. tracking
+GAMEPLAY_CHOOSE_ONE_ADAPT_ALL_MINIONS	Choix pour tous vos serviteurs	
+GAMEPLAY_CHOOSE_ONE_ADAPT_ALL_MURLOCS	Choix pour tous vos murlocs	
+GAMEPLAY_CHOOSE_ONE_ADAPT_ALL_RECRUITS	Choix pour toutes vos recrues	
 GAMEPLAY_CHOOSE_ONE_HERO_POWER	Choisir	will be displayed for choosing a Hero Power e.g. Sir Finley Mrrgglton
 GAMEPLAY_COIN_TOSS_LOST	Une carte supplémentaire	
 GAMEPLAY_COIN_TOSS_WON	Vous commencez	
@@ -38,6 +41,7 @@ GAMEPLAY_MULLIGAN_REPLACE	REMPLACÉE
 GAMEPLAY_MULLIGAN_STARTING_HAND	Main de départ	
 GAMEPLAY_MULLIGAN_SUBTITLE	Remplacement des cartes	
 GAMEPLAY_MULLIGAN_WAITING	Adversaire en train de choisir...	
+GAMEPLAY_NEXT_TURN	Tour bonus	
 GAMEPLAY_PlayErrors_REQ_ATTACK_GREATER_THAN_0	Un personnage sans valeur d’attaque ne peut pas attaquer	
 GAMEPLAY_PlayErrors_REQ_ATTACKER_CAN_ATTACK	Ce personnage ne peut pas attaquer	
 GAMEPLAY_PlayErrors_REQ_ATTACKER_NOT_FROZEN	Les personnages gelés ne peuvent pas attaquer	
@@ -63,6 +67,8 @@ GAMEPLAY_PlayErrors_REQ_FROZEN_TARGET	Sélectionnez un personnage gelé
 GAMEPLAY_PlayErrors_REQ_HERO_OR_MINION_TARGET	Vous devez viser un personnage	
 GAMEPLAY_PlayErrors_REQ_HERO_TARGET	Vous devez viser un héros	
 GAMEPLAY_PlayErrors_REQ_LEGENDARY_TARGET	Vous devez viser un serviteur légendaire	
+GAMEPLAY_PlayErrors_REQ_MAX_QUESTS	Vous ne pouvez avoir que {0}_|4(quête,quêtes)	
+GAMEPLAY_PlayErrors_REQ_MAX_SECRETS	Vous pouvez avoir uniquement {0} |4(secret,secrets)	
 GAMEPLAY_PlayErrors_REQ_MINIMUM_ENEMY_MINIONS	L’adversaire doit avoir au moins {0} |4(serviteur,serviteurs)	
 GAMEPLAY_PlayErrors_REQ_MINIMUM_TOTAL_MINIONS	Il doit y avoir au moins {0} |4(serviteur,serviteurs) sur le champ de bataille	
 GAMEPLAY_PlayErrors_REQ_MINION_CAP	Vous ne pouvez pas avoir davantage de serviteurs	
@@ -77,13 +83,14 @@ GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_ACTIVATE	Ce personnage a déjà attaqué
 GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_HERO_POWER	Les pouvoirs héroïques ne peuvent être utilisés qu’une fois par tour	
 GAMEPLAY_PlayErrors_REQ_NOT_MINION_JUST_PLAYED	Les serviteurs ne peuvent pas attaquer au tour où ils sont joués	
 GAMEPLAY_PlayErrors_REQ_NUM_MINION_SLOTS	Vous avez trop de serviteurs pour jouer cette carte	
-GAMEPLAY_PlayErrors_REQ_SECRET_CAP	Vous pouvez avoir uniquement {0} |4(secret,secrets)	
+GAMEPLAY_PlayErrors_REQ_SECRET_ZONE_CAP	Vous ne pouvez pas avoir plus de {0}_secrets et quêtes	
 GAMEPLAY_PlayErrors_REQ_STEALTHED_TARGET	Sélectionnez un personnage camouflé	
 GAMEPLAY_PlayErrors_REQ_SUBCARD_IS_PLAYABLE	Aucune de ces options n’est valide	
 GAMEPLAY_PlayErrors_REQ_TARGET_ATTACKED_THIS_TURN	Vous devez viser un personnage qui a déjà attaqué	
 GAMEPLAY_PlayErrors_REQ_TARGET_EXACT_COST	Sélectionnez un serviteur coûtant {0} |4(cristal,cristaux)	
 GAMEPLAY_PlayErrors_REQ_TARGET_FOR_COMBO	Vous ne pouvez pas faire ça sans cible	
 GAMEPLAY_PlayErrors_REQ_TARGET_FOR_NO_COMBO	Vous ne pouvez pas faire ça sans cible	
+GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABE_AND_ELEMENTAL_PLAYED_LAST_TURN	Vous ne pouvez pas faire ça sans cible	
 GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE	Vous ne pouvez pas faire ça sans cible	
 GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE_AND_DRAGON_IN_HAND	Vous ne pouvez pas faire ça sans cible	
 GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE_AND_MINIMUM_FRIENDLY_MINIONS	Vous ne pouvez pas faire ça sans cible	
@@ -121,6 +128,10 @@ GAMEPLAY_TOOLTIP_FATIGUE_DECK_DESCRIPTION	Vous n’avez plus de cartes ! Désor
 GAMEPLAY_TOOLTIP_FATIGUE_DECK_HEADLINE	Fatigué	
 GAMEPLAY_TOOLTIP_FATIGUE_ENEMYDECK_DESCRIPTION	Votre adversaire n’a plus de cartes ! Désormais, il subira des dégâts chaque fois qu’il essaiera d’en piocher.	
 GAMEPLAY_TOOLTIP_FATIGUE_ENEMYDECK_HEADLINE	Fatigué	
+GAMEPLAY_TOOLTIP_HAND_DESCRIPTION	Vous avez {0}_|4(carte,cartes) dans votre main.	
+GAMEPLAY_TOOLTIP_HAND_FULL_DESCRIPTION	Vous avez {0}_|4(carte,cartes) dans votre main_! Vous ne pouvez pas en piocher de nouvelle.	
+GAMEPLAY_TOOLTIP_HAND_FULL_HEADLINE	Main pleine	
+GAMEPLAY_TOOLTIP_HAND_HEADLINE	Main	
 GAMEPLAY_TOOLTIP_MANA_DESCRIPTION	Quand votre tour commence, vous obtenez un nouveau cristal et ceux qui sont vides se remplissent.	
 GAMEPLAY_TOOLTIP_MANA_HEADLINE	Cristaux de mana	
 GAMEPLAY_TOOLTIP_MANA_OVERLOAD_DESCRIPTION	Vous avez joué une carte avec Surcharge au tour précédent.	

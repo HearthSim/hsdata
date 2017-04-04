@@ -5,7 +5,7 @@ GLOBAL_BUTTON_OK	Ok
 GLOBAL_BUTTON_NEXT	Next
 GLOBAL_CARD_SET_CORE	Basic	
 GLOBAL_CARD_SET_EXPERT1	Classic	
-GLOBAL_CARD_SET_REWARD	Reward	
+GLOBAL_CARD_SET_HOF	Hall of Fame	
 GLOBAL_CARD_SET_PROMO	Promo	
 GLOBAL_CARD_SET_NAXX	Naxxramas	
 GLOBAL_CARD_SET_NAXX_SEARCHABLE_SHORTHAND_NAMES	Nax Naxx	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
@@ -24,13 +24,15 @@ GLOBAL_CARD_SET_OG	Whispers of the Old Gods
 GLOBAL_CARD_SET_OG_SHORT	Old Gods	
 GLOBAL_CARD_SET_OG_RESERVE	Old Gods Reserve	
 GLOBAL_CARD_SET_OG_SEARCHABLE_SHORTHAND_NAMES	tog wotog wog	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.  For Whispers of the Old Gods, 'tog' should be available in all locales; wotog and wog are additional English shorthands, which should be replaced by locale specific variants.
-GLOBAL_CARD_SET_KARA	Karazhan	
+GLOBAL_CARD_SET_KARA	One Night in Karazhan	
 GLOBAL_CARD_SET_KARA_SHORT	Karazhan	
 GLOBAL_CARD_SET_KARA_RESERVE	Karazhan Reserve	
 GLOBAL_CARD_SET_GANGS	Mean Streets of Gadgetzan	
 GLOBAL_CARD_SET_GANGS_SHORT	Gadgetzan	
 GLOBAL_CARD_SET_GANGS_RESERVE	Gangs Reserve	
 GLOBAL_CARD_SET_GANGS_SEARCHABLE_SHORTHAND_NAMES	msg msog	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_UNGORO	Journey to Un'Goro	
+GLOBAL_CARD_SET_UNGORO_SHORT	Un'Goro	
 GLOBAL_CARDTYPE_ENCHANTMENT	Enchantment	
 GLOBAL_CARDTYPE_HERO	Hero	
 GLOBAL_CARDTYPE_HEROPOWER	HeroPower	
@@ -101,8 +103,6 @@ GLOBAL_KEYWORD_DISCOVER	Discover
 GLOBAL_KEYWORD_DISCOVER_TEXT	Choose one of three cards to add to your hand.	
 GLOBAL_KEYWORD_CTHUN	C'Thun, Old God	
 GLOBAL_KEYWORD_CTHUN_TEXT	C'Thun receives buffs no matter where it is, even in your deck!	
-GLOBAL_KEYWORD_SHIFTING	Shifter Zerus	
-GLOBAL_KEYWORD_SHIFTING_TEXT	Transforms into a new minion at the start of your turn.	
 GLOBAL_KEYWORD_MINION_TYPE_REFERENCE	Minion Type	
 GLOBAL_KEYWORD_MINION_TYPE_REFERENCE_TEXT	Beast, Demon, Dragon, Mech, Murloc, Pirate, and Totem.	
 GLOBAL_KEYWORD_AUTOATTACK	Auto-Attack	
@@ -115,11 +115,18 @@ GLOBAL_KEYWORD_GRIMY_GOONS_COLLECTION_TEXT	You can put this in Hunter, Paladin o
 GLOBAL_KEYWORD_JADE_LOTUS	Jade Lotus	
 GLOBAL_KEYWORD_JADE_LOTUS_COLLECTION_TEXT	You can put this in Druid, Rogue or Shaman decks.	
 GLOBAL_KEYWORD_KABAL	Kabal	
-GLOBAL_KEYWORD_KABAL_COLLECTION_TEXT	You can put this in Priest, Mage or Warlock decks.
-GLOBAL_KEYWORD_POISONOUS	Poisonous
+GLOBAL_KEYWORD_KABAL_COLLECTION_TEXT	You can put this in Priest, Mage or Warlock decks.	
+GLOBAL_KEYWORD_QUEST	Quest
+GLOBAL_KEYWORD_QUEST_TEXT	Starts in your hand. Complete for a reward.
+GLOBAL_KEYWORD_POISONOUS	Poisonous	
 GLOBAL_KEYWORD_POISONOUS_TEXT	Destroy any minion damaged by this.		
 GLOBAL_KEYWORD_BOSS	Boss
 GLOBAL_KEYWORD_BOSS_TEXT	The players are fighting together to overcome the Boss.		
+GLOBAL_KEYWORD_ADAPT	Adapt	
+GLOBAL_KEYWORD_ADAPT_TEXT	Choose one of 3 bonuses.
+GLOBAL_KEYWORD_SHIFTING_MINION_TEXT	Transforms into a new minion at the start of your turn.	
+GLOBAL_KEYWORD_SHIFTING_WEAPON_TEXT	Transforms into a new weapon at the start of your turn.	
+GLOBAL_KEYWORD_SHIFTING_TEXT	Transforms into a new card at the start of your turn.	
 GLOBAL_ATTACK	Attack	
 GLOBAL_COST	Cost	
 GLOBAL_HEALTH	Health	
@@ -170,7 +177,7 @@ GLOBAL_CANCEL	Cancel
 GLOBAL_HELP	Help	
 GLOBAL_EXIT	Exit	
 GLOBAL_CONFIRM	Confirm	
-GLOBAL_OKAY	OK	
+GLOBAL_OKAY	OK
 GLOBAL_MORE	More	
 GLOBAL_QUIT	Quit	
 GLOBAL_LOGOUT	Log Out	
@@ -188,6 +195,9 @@ GLOBAL_RESUME_GAME	Resume
 GLOBAL_RESTART	Restart	
 GLOBAL_GAME_MENU	Game Menu	
 GLOBAL_TAVERN_BRAWL	Tavern Brawl	
+GLOBAL_FIRESIDE_BRAWL	Fireside Brawl
+GLOBAL_FIRESIDE_GATHERING	Fireside Gathering	
+GLOBAL_FIRESIDE_GATHERING_DEFAULT_TAVERN_NAME	Fireside Gathering	
 GLOBAL_FRIEND_CHALLENGE_TITLE	Friendly	
 GLOBAL_FRIEND_CHALLENGE_HEADER	Challenge	
 GLOBAL_FRIEND_CHALLENGE_BODY1	You've been challenged by:	
@@ -204,6 +214,7 @@ GLOBAL_FRIEND_CHALLENGE_OPPONENT_FRIEND_REMOVED	Challenge canceled because {0} i
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_CANCELED	{0} canceled the challenge.	0=friend name
 GLOBAL_FRIEND_CHALLENGE_TAVERN_BRAWL_HEADER	Tavern Brawl Challenge	
 GLOBAL_FRIEND_CHALLENGE_TAVERN_BRAWL_BODY1	You've been challenged to a Tavern Brawl by:	
+GLOBAL_FRIEND_CHALLENGE_FIRESIDE_BRAWL_BODY1	You've been challenged to a Fireside Brawl by:	
 GLOBAL_FRIEND_CHALLENGE_TAVERN_BRAWL_RECIPIENT_NO_VALID_DECK_RECIPIENT	{0} would like to Brawl with you! Create a Tavern Brawl deck to accept Brawl challenges.	
 GLOBAL_FRIEND_CHALLENGE_TAVERN_BRAWL_RECIPIENT_NO_VALID_DECK_SENDER	Your friend doesn't have a Tavern Brawl deck yet. Try again when they do!	
 GLOBAL_FRIEND_CHALLENGE_TAVERN_BRAWL_RECIPIENT_NOT_UNLOCKED_SENDER	Your friend hasn't unlocked Tavern Brawl yet. Try again when they do!	
@@ -681,3 +692,18 @@ GLOBAL_SOCIAL_TOAST_FRIEND_HEROIC_BRAWL_COMPLETE	<color=#{0}>{1}</color> just fi
 GLOBAL_SOCIAL_TOAST_FRIEND_HEROIC_BRAWL_START	<color=#{0}>{1}</color> started a new heroic brawl.	0=name color,1=player name
 GLOBAL_HEROIC_BRAWL	Heroic Brawl
 GLOBAL_LOGO_COPYRIGHT	炉石传说 - 魔兽英雄传 ©2016 暴雪娱乐股份有限公司版权所有 由上海网之易网络科技发展有限公司运营
+GLOBAL_SET_ROTATION_ROLLOVER_HEADER	Happy New Year!	
+GLOBAL_SET_ROTATION_ROLLOVER_BODY_DESKTOP	It's a New Year in Hearthstone!\nRestart to join the celebration.	
+GLOBAL_SET_ROTATION_ROLLOVER_BODY_MOBILE	It's a New Year in Hearthstone!\nRestarting to join the celebration.	
+GLOBAL_JOIN	Join
+GLOBAL_LEAVE	Leave
+GLOBAL_RETRY	Retry
+GLOBAL_SKIP	Skip
+GLOBAL_SCAN	Scan
+GLOBAL_LOCATIONS	Learn More
+GLOBAL_REFRESH	Refresh
+GLOBAL_ENTER	Enter
+GLOBAL_FINISH	Finish
+GLOBAL_UPDATE	Update
+GLOBAL_ENABLE	Enable
+GLOBAL_DISABLE	Disable

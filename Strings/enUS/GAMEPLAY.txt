@@ -7,6 +7,7 @@ GAMEPLAY_FATIGUE_HISTORY_TEXT	Trying to draw from an empty deck deals increasing
 GAMEPLAY_END_TURN	END TURN	
 GAMEPLAY_ENEMY_TURN	ENEMY TURN	
 GAMEPLAY_YOUR_TURN	Your Turn	
+GAMEPLAY_NEXT_TURN	EXTRA TURN
 GAMEPLAY_ERROR_PLAY_REJECTED	Too late! Your turn is over.	
 GAMEPLAY_MOBILE_BATTLECRY_CANCELED	Battlecry canceled.
 GAMEPLAY_MOBILE_TARGETING_CANCELED	Targeting canceled.
@@ -37,9 +38,11 @@ GAMEPLAY_PlayErrors_REQ_NONSELF_TARGET	Minion cannot target itself
 GAMEPLAY_PlayErrors_REQ_NONSTEALTH_ENEMY_TARGET	Stealthed characters can't be targeted or attacked	
 GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_ACTIVATE	That character already attacked	
 GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_HERO_POWER	Hero Powers can only be used once a turn	
-GAMEPLAY_PlayErrors_REQ_NOT_MINION_JUST_PLAYED	Minions cannot attack the turn they are played	
+GAMEPLAY_PlayErrors_REQ_NOT_MINION_JUST_PLAYED	Minions cannot attack the turn \nthey are played	
 GAMEPLAY_PlayErrors_REQ_NUM_MINION_SLOTS	You have too many minions to play that	
-GAMEPLAY_PlayErrors_REQ_SECRET_CAP	You can only have {0} |4(Secret,Secrets)	
+GAMEPLAY_PlayErrors_REQ_MAX_SECRETS	You can only have {0} |4(Secret,Secrets)	
+GAMEPLAY_PlayErrors_REQ_MAX_QUESTS	You can only have {0} |4(Quest, Quests)	
+GAMEPLAY_PlayErrors_REQ_SECRET_ZONE_CAP	You can only have {0} Secrets and Quests
 GAMEPLAY_PlayErrors_REQ_STEALTHED_TARGET	Select a Stealthed character
 GAMEPLAY_PlayErrors_REQ_SUBCARD_IS_PLAYABLE	Neither of these options are valid	
 GAMEPLAY_PlayErrors_REQ_TARGET_ATTACKED_THIS_TURN	You must target a character who already attacked	
@@ -73,8 +76,13 @@ GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE_AND_MINIMUM_FRIENDLY_MINIONS	You can
 GAMEPLAY_PlayErrors_REQ_TARGET_WITH_BATTLECRY	Select a character with Battlecry
 GAMEPLAY_PlayErrors_REQ_TARGET_WITH_DEATHRATTLE	Select a character with Deathrattle
 GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE_AND_MINIMUM_FRIENDLY_SECRETS	You cannot play that without a target
+GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABE_AND_ELEMENTAL_PLAYED_LAST_TURN	You cannot play that without a target
 GAMEPLAY_TOOLTIP_DECK_DESCRIPTION	You have {0} |4(card,cards) in your deck.	
 GAMEPLAY_TOOLTIP_DECK_HEADLINE	Deck	
+GAMEPLAY_TOOLTIP_HAND_HEADLINE	Hand	
+GAMEPLAY_TOOLTIP_HAND_DESCRIPTION	You have {0} |4(card,cards) in your hand.	
+GAMEPLAY_TOOLTIP_HAND_FULL_HEADLINE	Hand Full	
+GAMEPLAY_TOOLTIP_HAND_FULL_DESCRIPTION	You have {0} |4(card,cards) in your hand! Your hand is full.
 GAMEPLAY_TOOLTIP_FATIGUE_DECK_DESCRIPTION	You are out of cards! You'll take damage every time you try to draw cards from now on.	
 GAMEPLAY_TOOLTIP_FATIGUE_DECK_HEADLINE	Fatigued	
 GAMEPLAY_TOOLTIP_ENEMYDECK_DESC	There |4(is {0} card,are {0} cards) in your opponent's deck.	
@@ -114,6 +122,9 @@ GAMEPLAY_MULLIGAN_WAITING	Opponent Still Choosing...
 GAMEPLAY_MULLIGAN_REPLACE	REPLACED	
 GAMEPLAY_CHOOSE_ONE	Choose One	will be displayed for card choices e.g. tracking
 GAMEPLAY_CHOOSE_ONE_HERO_POWER	Choose One	will be displayed for choosing a Hero Power e.g. Sir Finley Mrrgglton
+GAMEPLAY_CHOOSE_ONE_ADAPT_ALL_MINIONS	Choose one for all your minions:
+GAMEPLAY_CHOOSE_ONE_ADAPT_ALL_RECRUITS	Choose one for all your Recruits:
+GAMEPLAY_CHOOSE_ONE_ADAPT_ALL_MURLOCS	Choose one for all your Murlocs:
 GAMEPLAY_AI_OPPONENT_NAME	The Innkeeper	
 GAMEPLAY_GOLDHERO_WINS	Wins! 
 GAMEPLAY_DISCONNECT_HEADER	Disconnected 

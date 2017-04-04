@@ -3,6 +3,9 @@ GAMEPLAY_ADVENTURE_BOSS_HEROIC	영웅	Shows under heroic boss names in adventure
 GAMEPLAY_ADVENTURE_BOSS_NORMAL	일반	Shows under normal boss names in adventures
 GAMEPLAY_AI_OPPONENT_NAME	여관주인	
 GAMEPLAY_CHOOSE_ONE	하나 선택	will be displayed for card choices e.g. tracking
+GAMEPLAY_CHOOSE_ONE_ADAPT_ALL_MINIONS	내 하수인들에게 부여할 효과 선택:	
+GAMEPLAY_CHOOSE_ONE_ADAPT_ALL_MURLOCS	내 멀록들에게 부여할 효과 선택:	
+GAMEPLAY_CHOOSE_ONE_ADAPT_ALL_RECRUITS	내 신병들에게 부여할 효과 선택:	
 GAMEPLAY_CHOOSE_ONE_HERO_POWER	하나 선택	will be displayed for choosing a Hero Power e.g. Sir Finley Mrrgglton
 GAMEPLAY_COIN_TOSS_LOST	추가 카드 획득	
 GAMEPLAY_COIN_TOSS_WON	선공	
@@ -38,6 +41,7 @@ GAMEPLAY_MULLIGAN_REPLACE	교체
 GAMEPLAY_MULLIGAN_STARTING_HAND	시작 카드	
 GAMEPLAY_MULLIGAN_SUBTITLE	교환할 카드 선택	
 GAMEPLAY_MULLIGAN_WAITING	상대방이 아직 선택 중...	
+GAMEPLAY_NEXT_TURN	추가 턴	
 GAMEPLAY_PlayErrors_REQ_ATTACK_GREATER_THAN_0	공격력이 0인 캐릭터는 공격할 수 없습니다.	
 GAMEPLAY_PlayErrors_REQ_ATTACKER_CAN_ATTACK	그 캐릭터는 공격할 수 없습니다.	
 GAMEPLAY_PlayErrors_REQ_ATTACKER_NOT_FROZEN	얼어붙은 캐릭터는 공격할 수 없습니다.	
@@ -63,6 +67,8 @@ GAMEPLAY_PlayErrors_REQ_FROZEN_TARGET	얼어붙은 캐릭터를 선택해야 합
 GAMEPLAY_PlayErrors_REQ_HERO_OR_MINION_TARGET	캐릭터를 선택해야 합니다.	
 GAMEPLAY_PlayErrors_REQ_HERO_TARGET	영웅을 선택해야 합니다.	
 GAMEPLAY_PlayErrors_REQ_LEGENDARY_TARGET	전설 하수인을 선택해야 합니다.	
+GAMEPLAY_PlayErrors_REQ_MAX_QUESTS	퀘스트는 {0}|4(장,장)만 가질 수 있습니다.	
+GAMEPLAY_PlayErrors_REQ_MAX_SECRETS	비밀은 {0}|4(장,장)만 가질 수 있습니다.	
 GAMEPLAY_PlayErrors_REQ_MINIMUM_ENEMY_MINIONS	적에게 최소한 {0}|4(명,명)의 하수인이 있어야 합니다.	
 GAMEPLAY_PlayErrors_REQ_MINIMUM_TOTAL_MINIONS	전장에 최소한 {0}|4(명,명)의 하수인이 있어야 합니다.	
 GAMEPLAY_PlayErrors_REQ_MINION_CAP	하수인을 더 불러낼 수 없습니다.	
@@ -77,13 +83,14 @@ GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_ACTIVATE	그 캐릭터는 이미 공격을
 GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_HERO_POWER	영웅 능력은 한 턴에 한 번 사용할 수 있습니다.	
 GAMEPLAY_PlayErrors_REQ_NOT_MINION_JUST_PLAYED	이번 턴에 낸 하수인은 곧바로 공격할 수 없습니다.	
 GAMEPLAY_PlayErrors_REQ_NUM_MINION_SLOTS	하수인이 너무 많아 더 불러낼 수 없습니다.	
-GAMEPLAY_PlayErrors_REQ_SECRET_CAP	비밀은 오직 {0}|4(장,장)만 가질 수 있습니다.	
+GAMEPLAY_PlayErrors_REQ_SECRET_ZONE_CAP	비밀과 퀘스트는 {0}장만 가질 수 있습니다.	
 GAMEPLAY_PlayErrors_REQ_STEALTHED_TARGET	은신한 캐릭터를 선택해야 합니다.	
 GAMEPLAY_PlayErrors_REQ_SUBCARD_IS_PLAYABLE	둘 다 불가능합니다.	
 GAMEPLAY_PlayErrors_REQ_TARGET_ATTACKED_THIS_TURN	이미 공격한 캐릭터를 선택해야 합니다.	
 GAMEPLAY_PlayErrors_REQ_TARGET_EXACT_COST	비용이 {0}인 하수인을 선택해야 합니다.	
 GAMEPLAY_PlayErrors_REQ_TARGET_FOR_COMBO	대상이 없으면 그 카드를 낼 수 없습니다.	
 GAMEPLAY_PlayErrors_REQ_TARGET_FOR_NO_COMBO	대상이 없으면 그 카드를 낼 수 없습니다.	
+GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABE_AND_ELEMENTAL_PLAYED_LAST_TURN	대상이 없으면 그 카드를 낼 수 없습니다.	
 GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE	대상이 없으면 그 카드를 낼 수 없습니다.	
 GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE_AND_DRAGON_IN_HAND	대상이 없으면 그 카드를 낼 수 없습니다.	
 GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE_AND_MINIMUM_FRIENDLY_MINIONS	대상이 없으면 그 카드를 낼 수 없습니다.	
@@ -109,18 +116,22 @@ GAMEPLAY_SECRET_NAME_MAGE	마법사 비밀
 GAMEPLAY_SECRET_NAME_PALADIN	성기사 비밀	
 GAMEPLAY_SPECTATOR_DISCONNECT_BODY	연결이 끊겼습니다. 하스스톤에 다시 접속해주세요. 관전 모드를 다시 실행해야 할 수도 있습니다.	
 GAMEPLAY_SPECTATOR_DISCONNECT_BODY_RESET	연결이 끊겨 재접속 중입니다. 관전 모드를 다시 실행해야 할 수도 있습니다.	
-GAMEPLAY_TOOLTIP_DECK_DESCRIPTION	나의 덱에는 {0}|4(장,장)의 카드가 있습니다.	
+GAMEPLAY_TOOLTIP_DECK_DESCRIPTION	내 덱에 카드가 {0}|4(장,장) 있습니다.	
 GAMEPLAY_TOOLTIP_DECK_HEADLINE	덱	
 GAMEPLAY_TOOLTIP_ENEMYDECK_DESC	상대의 |4(덱에는 {0}장,덱에는 {0}장)의 카드가 있습니다.	
 GAMEPLAY_TOOLTIP_ENEMYDECK_HEADLINE	상대방 덱	
-GAMEPLAY_TOOLTIP_ENEMYHAND_DESC	상대는 {0}|4(장,장)의 카드를 손에 들고 있습니다.	0= number of cards in hand.
-GAMEPLAY_TOOLTIP_ENEMYHAND_DESC_SINGLE	상대는 {0}|4(장,장)의 카드를 손에 들고 있습니다.	0= number of cards in hand.
+GAMEPLAY_TOOLTIP_ENEMYHAND_DESC	상대 손에 카드가 {0}|4(장,장) 있습니다.	0= number of cards in hand.
+GAMEPLAY_TOOLTIP_ENEMYHAND_DESC_SINGLE	상대 손에 카드가 {0}|4(장,장) 있습니다.	0= number of cards in hand.
 GAMEPLAY_TOOLTIP_ENEMYHAND_DESC_TUT	상대가 낼 수 있는 카드입니다. 턴마다 한 장씩 뽑습니다.	
 GAMEPLAY_TOOLTIP_ENEMYHAND_HEADLINE	상대방의 카드	
 GAMEPLAY_TOOLTIP_FATIGUE_DECK_DESCRIPTION	카드가 없습니다! 카드를 뽑아야 할 때마다 피해를 입습니다.	
 GAMEPLAY_TOOLTIP_FATIGUE_DECK_HEADLINE	탈진	
 GAMEPLAY_TOOLTIP_FATIGUE_ENEMYDECK_DESCRIPTION	상대방이 카드가 없습니다! 상대방은 카드를 뽑아야 할 때마다 피해를 입습니다.	
 GAMEPLAY_TOOLTIP_FATIGUE_ENEMYDECK_HEADLINE	탈진	
+GAMEPLAY_TOOLTIP_HAND_DESCRIPTION	내 손에 카드가 {0}|4(장,장) 있습니다.	
+GAMEPLAY_TOOLTIP_HAND_FULL_DESCRIPTION	내 손에 카드가 {0}|4(장,장) 있습니다! 카드를 더 가질 수 없습니다.	
+GAMEPLAY_TOOLTIP_HAND_FULL_HEADLINE	가득 참	
+GAMEPLAY_TOOLTIP_HAND_HEADLINE	손	
 GAMEPLAY_TOOLTIP_MANA_DESCRIPTION	나의 턴이 시작되면 빈 마나 수정이 채워지고, 새 수정 한 개가 추가됩니다.	
 GAMEPLAY_TOOLTIP_MANA_HEADLINE	마나 수정	
 GAMEPLAY_TOOLTIP_MANA_OVERLOAD_DESCRIPTION	지난 턴에 과부하 능력을 가진 카드를 사용했습니다.	

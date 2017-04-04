@@ -3,6 +3,9 @@ GAMEPLAY_ADVENTURE_BOSS_HEROIC	HEROICO	Shows under heroic boss names in adventur
 GAMEPLAY_ADVENTURE_BOSS_NORMAL	NORMAL	Shows under normal boss names in adventures
 GAMEPLAY_AI_OPPONENT_NAME	O Estalajadeiro	
 GAMEPLAY_CHOOSE_ONE	Escolha um	will be displayed for card choices e.g. tracking
+GAMEPLAY_CHOOSE_ONE_ADAPT_ALL_MINIONS	Escolha um para todos os seus lacaios:	
+GAMEPLAY_CHOOSE_ONE_ADAPT_ALL_MURLOCS	Escolha um para todos os seus Murlocs:	
+GAMEPLAY_CHOOSE_ONE_ADAPT_ALL_RECRUITS	Escolha um para todos os seus Recrutas:	
 GAMEPLAY_CHOOSE_ONE_HERO_POWER	Escolha um	will be displayed for choosing a Hero Power e.g. Sir Finley Mrrgglton
 GAMEPLAY_COIN_TOSS_LOST	Você ganha um card extra	
 GAMEPLAY_COIN_TOSS_WON	Você joga primeiro	
@@ -38,6 +41,7 @@ GAMEPLAY_MULLIGAN_REPLACE	SUBSTITUÍDO
 GAMEPLAY_MULLIGAN_STARTING_HAND	Mão inicial	
 GAMEPLAY_MULLIGAN_SUBTITLE	Manter ou substituir cards	
 GAMEPLAY_MULLIGAN_WAITING	O oponente ainda está escolhendo...	
+GAMEPLAY_NEXT_TURN	TURNO EXTRA	
 GAMEPLAY_PlayErrors_REQ_ATTACK_GREATER_THAN_0	Um personagem sem Valor de Ataque não pode atacar	
 GAMEPLAY_PlayErrors_REQ_ATTACKER_CAN_ATTACK	Este personagem não pode atacar	
 GAMEPLAY_PlayErrors_REQ_ATTACKER_NOT_FROZEN	Personagens congelados não podem atacar	
@@ -63,6 +67,8 @@ GAMEPLAY_PlayErrors_REQ_FROZEN_TARGET	Escolha um personagem Congelado
 GAMEPLAY_PlayErrors_REQ_HERO_OR_MINION_TARGET	Você precisa escolher um personagem	
 GAMEPLAY_PlayErrors_REQ_HERO_TARGET	Você precisa escolher um Herói	
 GAMEPLAY_PlayErrors_REQ_LEGENDARY_TARGET	Você precisa selecionar um lacaio Lendário	
+GAMEPLAY_PlayErrors_REQ_MAX_QUESTS	Você só pode ter {0} |4(Missão,Missões)	
+GAMEPLAY_PlayErrors_REQ_MAX_SECRETS	Você só pode ter {0} |4(Segredo,Segredos)	
 GAMEPLAY_PlayErrors_REQ_MINIMUM_ENEMY_MINIONS	O inimigo precisa ter pelo menos {0} |4(lacaio,lacaios)	
 GAMEPLAY_PlayErrors_REQ_MINIMUM_TOTAL_MINIONS	É preciso que haja pelo menos {0} |4(lacaio,lacaios) no campo de batalha	
 GAMEPLAY_PlayErrors_REQ_MINION_CAP	Você não pode ter mais lacaios	
@@ -75,15 +81,16 @@ GAMEPLAY_PlayErrors_REQ_NONSELF_TARGET	O lacaio não pode mirar em si mesmo
 GAMEPLAY_PlayErrors_REQ_NONSTEALTH_ENEMY_TARGET	Personagens Furtivos não podem ser alvejados nem atacados	
 GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_ACTIVATE	Este personagem já atacou	
 GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_HERO_POWER	Poderes Heroicos só podem ser usados uma vez por turno	
-GAMEPLAY_PlayErrors_REQ_NOT_MINION_JUST_PLAYED	Os lacaios não podem atacar no turno em que são jogados	
+GAMEPLAY_PlayErrors_REQ_NOT_MINION_JUST_PLAYED	Os lacaios não podem atacar no turno \nem que são jogados	
 GAMEPLAY_PlayErrors_REQ_NUM_MINION_SLOTS	Você tem lacaios demais para jogar isso	
-GAMEPLAY_PlayErrors_REQ_SECRET_CAP	Você só pode ter {0} |4(Segredo,Segredos)	
+GAMEPLAY_PlayErrors_REQ_SECRET_ZONE_CAP	Você só pode ter {0} Segredos e Missões	
 GAMEPLAY_PlayErrors_REQ_STEALTHED_TARGET	Selecione um personagem Furtivo	
 GAMEPLAY_PlayErrors_REQ_SUBCARD_IS_PLAYABLE	Nenhuma dessas opções é válida	
 GAMEPLAY_PlayErrors_REQ_TARGET_ATTACKED_THIS_TURN	Você precisa escolher um personagem que já tenha atacado	
 GAMEPLAY_PlayErrors_REQ_TARGET_EXACT_COST	Selecione um lacaio de custo {0}	
 GAMEPLAY_PlayErrors_REQ_TARGET_FOR_COMBO	Você não pode jogar isso sem ter um alvo	
 GAMEPLAY_PlayErrors_REQ_TARGET_FOR_NO_COMBO	Você não pode jogar isso sem ter um alvo	
+GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABE_AND_ELEMENTAL_PLAYED_LAST_TURN	É necessário ter um alvo para jogar isso	
 GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE	Você não pode jogar isso sem ter um alvo	
 GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE_AND_DRAGON_IN_HAND	Você não pode jogar isso sem ter um alvo	
 GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE_AND_MINIMUM_FRIENDLY_MINIONS	É necessário ter um alvo para jogar isso	
@@ -121,6 +128,10 @@ GAMEPLAY_TOOLTIP_FATIGUE_DECK_DESCRIPTION	Você está sem cards! De agora em dia
 GAMEPLAY_TOOLTIP_FATIGUE_DECK_HEADLINE	Fatigado	
 GAMEPLAY_TOOLTIP_FATIGUE_ENEMYDECK_DESCRIPTION	Seu oponente está sem cards! De agora em diante, ele receberá dano toda vez que tentar comprar cards.	
 GAMEPLAY_TOOLTIP_FATIGUE_ENEMYDECK_HEADLINE	Fatigado	
+GAMEPLAY_TOOLTIP_HAND_DESCRIPTION	Você tem {0} |4(card,cards) na sua mão.	
+GAMEPLAY_TOOLTIP_HAND_FULL_DESCRIPTION	Você tem {0} |4(card,cards) na mão! Sua mão está cheia.	
+GAMEPLAY_TOOLTIP_HAND_FULL_HEADLINE	Mão Cheia	
+GAMEPLAY_TOOLTIP_HAND_HEADLINE	Mão	
 GAMEPLAY_TOOLTIP_MANA_DESCRIPTION	Quando o seu turno começar, você receberá um novo cristal e encherá os vazios.	
 GAMEPLAY_TOOLTIP_MANA_HEADLINE	Cristais de Mana	
 GAMEPLAY_TOOLTIP_MANA_OVERLOAD_DESCRIPTION	Você jogou um card com Sobrecarga no último turno.	

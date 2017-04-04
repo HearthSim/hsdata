@@ -3,6 +3,9 @@ GAMEPLAY_ADVENTURE_BOSS_HEROIC	ГЕРОИЧЕСКИЙ	Shows under heroic boss na
 GAMEPLAY_ADVENTURE_BOSS_NORMAL	ОБЫЧНЫЙ	Shows under normal boss names in adventures
 GAMEPLAY_AI_OPPONENT_NAME	Хозяин таверны	
 GAMEPLAY_CHOOSE_ONE	Выберите одно	will be displayed for card choices e.g. tracking
+GAMEPLAY_CHOOSE_ONE_ADAPT_ALL_MINIONS	Выберите эффект для всех своих существ:	
+GAMEPLAY_CHOOSE_ONE_ADAPT_ALL_MURLOCS	Выберите эффект для всех своих мурлоков:	
+GAMEPLAY_CHOOSE_ONE_ADAPT_ALL_RECRUITS	Выберите эффект для всех своих рекрутов:	
 GAMEPLAY_CHOOSE_ONE_HERO_POWER	Выберите одно	will be displayed for choosing a Hero Power e.g. Sir Finley Mrrgglton
 GAMEPLAY_COIN_TOSS_LOST	Дополнительная карта!	
 GAMEPLAY_COIN_TOSS_WON	Первый ход – за вами	
@@ -38,6 +41,7 @@ GAMEPLAY_MULLIGAN_REPLACE	ЗАМЕНЕНА
 GAMEPLAY_MULLIGAN_STARTING_HAND	Стартовая рука	
 GAMEPLAY_MULLIGAN_SUBTITLE	Оставьте или замените карты	
 GAMEPLAY_MULLIGAN_WAITING	Ваш противник думает...	
+GAMEPLAY_NEXT_TURN	ДОП. ХОД	
 GAMEPLAY_PlayErrors_REQ_ATTACK_GREATER_THAN_0	Персонажи без силы атаки не могут атаковать.	
 GAMEPLAY_PlayErrors_REQ_ATTACKER_CAN_ATTACK	Этот персонаж не может атаковать.	
 GAMEPLAY_PlayErrors_REQ_ATTACKER_NOT_FROZEN	Замороженные персонажи не могут атаковать.	
@@ -63,6 +67,8 @@ GAMEPLAY_PlayErrors_REQ_FROZEN_TARGET	Выберите замороженног�
 GAMEPLAY_PlayErrors_REQ_HERO_OR_MINION_TARGET	Вы должны выбрать целью персонажа.	
 GAMEPLAY_PlayErrors_REQ_HERO_TARGET	Вы должны выбрать целью героя.	
 GAMEPLAY_PlayErrors_REQ_LEGENDARY_TARGET	Вы должны выбрать целью легендарное существо.	
+GAMEPLAY_PlayErrors_REQ_MAX_QUESTS	У вас не может быть больше {0} |4(задачи,задач,задач).	
+GAMEPLAY_PlayErrors_REQ_MAX_SECRETS	У вас может быть не больше {0} |4(секрета,секретов,секретов).	
 GAMEPLAY_PlayErrors_REQ_MINIMUM_ENEMY_MINIONS	У вашего противника должно быть минимум {0} |4(существо,существа,существ).	
 GAMEPLAY_PlayErrors_REQ_MINIMUM_TOTAL_MINIONS	В игре должно быть минимум {0} |4(существо,существа,существ).	
 GAMEPLAY_PlayErrors_REQ_MINION_CAP	Вы не можете вызвать больше существ.	
@@ -77,13 +83,14 @@ GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_ACTIVATE	Этот персонаж уже 
 GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_HERO_POWER	Сила героя может быть использована только один раз за ход.	
 GAMEPLAY_PlayErrors_REQ_NOT_MINION_JUST_PLAYED	Существа не атакуют в тот ход, на котором их разыграли.	
 GAMEPLAY_PlayErrors_REQ_NUM_MINION_SLOTS	Уже призвано слишком много существ.	
-GAMEPLAY_PlayErrors_REQ_SECRET_CAP	У вас может быть не больше {0} |4(секрета,секретов,секретов).	
+GAMEPLAY_PlayErrors_REQ_SECRET_ZONE_CAP	У вас не может быть больше {0} |4(секрета и задачи,секретов и задач,секретов и задач).	
 GAMEPLAY_PlayErrors_REQ_STEALTHED_TARGET	Выберите персонажа с «Маскировкой».	
 GAMEPLAY_PlayErrors_REQ_SUBCARD_IS_PLAYABLE	Вы не можете выбрать ни один из этих вариантов.	
 GAMEPLAY_PlayErrors_REQ_TARGET_ATTACKED_THIS_TURN	Вы должны выбрать целью персонажа, который уже атаковал.	
 GAMEPLAY_PlayErrors_REQ_TARGET_EXACT_COST	Выберите существо за {0}	
 GAMEPLAY_PlayErrors_REQ_TARGET_FOR_COMBO	Вы должны выбрать цель.	
 GAMEPLAY_PlayErrors_REQ_TARGET_FOR_NO_COMBO	Вы должны выбрать цель.	
+GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABE_AND_ELEMENTAL_PLAYED_LAST_TURN	Вы должны выбрать цель.	
 GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE	Вы должны выбрать цель.	
 GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE_AND_DRAGON_IN_HAND	Вы должны выбрать цель.	
 GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE_AND_MINIMUM_FRIENDLY_MINIONS	Вы должны выбрать цель.	
@@ -96,7 +103,7 @@ GAMEPLAY_PlayErrors_REQ_TARGET_TAUNTER_MINION	Вы должны атаковат
 GAMEPLAY_PlayErrors_REQ_TARGET_TO_PLAY	Вы должны выбрать цель.	
 GAMEPLAY_PlayErrors_REQ_TARGET_WITH_BATTLECRY	Выберите персонажа со способностью «Боевой клич».	
 GAMEPLAY_PlayErrors_REQ_TARGET_WITH_DEATHRATTLE	Выберите персонажа со способностью «Предсмертный хрип».	
-GAMEPLAY_PlayErrors_REQ_TARGET_WITH_RACE	Неправильная раса.	
+GAMEPLAY_PlayErrors_REQ_TARGET_WITH_RACE	Неправильный тип существа.	
 GAMEPLAY_PlayErrors_REQ_UNDAMAGED_TARGET	Вы должны выбрать целью персонажа с полным здоровьем.	
 GAMEPLAY_PlayErrors_REQ_UNIQUE_SECRET	У вас уже есть такой секрет.	
 GAMEPLAY_PlayErrors_REQ_WEAPON_EQUIPPED	У вас должно быть оружие.	
@@ -121,6 +128,10 @@ GAMEPLAY_TOOLTIP_FATIGUE_DECK_DESCRIPTION	У вас в колоде не ост�
 GAMEPLAY_TOOLTIP_FATIGUE_DECK_HEADLINE	Усталость	
 GAMEPLAY_TOOLTIP_FATIGUE_ENEMYDECK_DESCRIPTION	В колоде вашего противника не осталось карт! Он будет получать урон каждый раз, когда будет пытаться взять карту.	
 GAMEPLAY_TOOLTIP_FATIGUE_ENEMYDECK_HEADLINE	Усталость	
+GAMEPLAY_TOOLTIP_HAND_DESCRIPTION	У вас в руке {0} |4(карта,карты,карт).	
+GAMEPLAY_TOOLTIP_HAND_FULL_DESCRIPTION	У вас в руке {0} |4(карта,карты,карт)! Вы больше не можете взять карту.	
+GAMEPLAY_TOOLTIP_HAND_FULL_HEADLINE	Полная рука	
+GAMEPLAY_TOOLTIP_HAND_HEADLINE	Рука	
 GAMEPLAY_TOOLTIP_MANA_DESCRIPTION	В начале каждого вашего хода вы получаете новый кристалл маны и восполняете уже имеющийся резерв.	
 GAMEPLAY_TOOLTIP_MANA_HEADLINE	Кристаллы маны	
 GAMEPLAY_TOOLTIP_MANA_OVERLOAD_DESCRIPTION	На прошлом ходу вы разыграли карту с эффектом «Перегрузка».	

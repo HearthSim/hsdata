@@ -3,6 +3,9 @@ GAMEPLAY_ADVENTURE_BOSS_HEROIC	(EROICA)	Shows under heroic boss names in adventu
 GAMEPLAY_ADVENTURE_BOSS_NORMAL	(NORMALE)	Shows under normal boss names in adventures
 GAMEPLAY_AI_OPPONENT_NAME	Locandiere	
 GAMEPLAY_CHOOSE_ONE	Scegline una	will be displayed for card choices e.g. tracking
+GAMEPLAY_CHOOSE_ONE_ADAPT_ALL_MINIONS	Scegli l'Adattamento per i tuoi servitori:	
+GAMEPLAY_CHOOSE_ONE_ADAPT_ALL_MURLOCS	Scegli l'Adattamento per i tuoi Murloc:	
+GAMEPLAY_CHOOSE_ONE_ADAPT_ALL_RECRUITS	Scegli l'Adattamento per le tue Reclute:	
 GAMEPLAY_CHOOSE_ONE_HERO_POWER	Scegline uno	will be displayed for choosing a Hero Power e.g. Sir Finley Mrrgglton
 GAMEPLAY_COIN_TOSS_LOST	Ottieni una carta aggiuntiva	
 GAMEPLAY_COIN_TOSS_WON	Inizi per primo	
@@ -38,6 +41,7 @@ GAMEPLAY_MULLIGAN_REPLACE	SOSTITUISCI
 GAMEPLAY_MULLIGAN_STARTING_HAND	Mano iniziale	
 GAMEPLAY_MULLIGAN_SUBTITLE	Scegli se sostituire le carte	
 GAMEPLAY_MULLIGAN_WAITING	L'avversario sta ancora scegliendo...	
+GAMEPLAY_NEXT_TURN	TURNO EXTRA	
 GAMEPLAY_PlayErrors_REQ_ATTACK_GREATER_THAN_0	Un personaggio senza valore di Attacco non può attaccare	
 GAMEPLAY_PlayErrors_REQ_ATTACKER_CAN_ATTACK	Questo personaggio non può attaccare	
 GAMEPLAY_PlayErrors_REQ_ATTACKER_NOT_FROZEN	I personaggi Congelati non possono attaccare	
@@ -63,6 +67,8 @@ GAMEPLAY_PlayErrors_REQ_FROZEN_TARGET	Seleziona un servitore Congelato
 GAMEPLAY_PlayErrors_REQ_HERO_OR_MINION_TARGET	Il bersaglio deve essere un personaggio	
 GAMEPLAY_PlayErrors_REQ_HERO_TARGET	Il bersaglio deve essere un eroe	
 GAMEPLAY_PlayErrors_REQ_LEGENDARY_TARGET	Il bersaglio deve essere un servitore leggendario	
+GAMEPLAY_PlayErrors_REQ_MAX_QUESTS	Puoi avere solo {0} |4(Missione,Missioni)	
+GAMEPLAY_PlayErrors_REQ_MAX_SECRETS	Puoi avere solo {0} |4(Segreto,Segreti)	
 GAMEPLAY_PlayErrors_REQ_MINIMUM_ENEMY_MINIONS	L'avversario deve controllare almeno {0} |4(servitore,servitori)	
 GAMEPLAY_PlayErrors_REQ_MINIMUM_TOTAL_MINIONS	Richiede almeno {0} |4(servitore,servitori) sul campo di battaglia	
 GAMEPLAY_PlayErrors_REQ_MINION_CAP	Non puoi controllare altri servitori	
@@ -77,13 +83,14 @@ GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_ACTIVATE	Questo personaggio ha già attacc
 GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_HERO_POWER	I Poteri Eroe possono essere usati una sola volta per turno	
 GAMEPLAY_PlayErrors_REQ_NOT_MINION_JUST_PLAYED	I servitori non possono attaccare nel turno in cui vengono giocati	
 GAMEPLAY_PlayErrors_REQ_NUM_MINION_SLOTS	Controlli troppi servitori per poterlo fare	
-GAMEPLAY_PlayErrors_REQ_SECRET_CAP	Puoi avere al massimo {0} |4(Segreto,Segreti)	
+GAMEPLAY_PlayErrors_REQ_SECRET_ZONE_CAP	Puoi avere solo {0} tra Segreti e Missioni	
 GAMEPLAY_PlayErrors_REQ_STEALTHED_TARGET	Seleziona un servitore con Furtività	
 GAMEPLAY_PlayErrors_REQ_SUBCARD_IS_PLAYABLE	Nessuna di queste opzioni è valida	
 GAMEPLAY_PlayErrors_REQ_TARGET_ATTACKED_THIS_TURN	Il bersaglio deve essere un personaggio che ha già attaccato	
 GAMEPLAY_PlayErrors_REQ_TARGET_EXACT_COST	Seleziona un servitore da {0} Mana	
 GAMEPLAY_PlayErrors_REQ_TARGET_FOR_COMBO	Non puoi farlo senza un bersaglio	
 GAMEPLAY_PlayErrors_REQ_TARGET_FOR_NO_COMBO	Non puoi farlo senza un bersaglio	
+GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABE_AND_ELEMENTAL_PLAYED_LAST_TURN	Non puoi farlo senza un bersaglio	
 GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE	Non puoi farlo senza un bersaglio	
 GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE_AND_DRAGON_IN_HAND	Non puoi farlo senza un bersaglio	
 GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE_AND_MINIMUM_FRIENDLY_MINIONS	Non puoi farlo senza un bersaglio	
@@ -121,6 +128,10 @@ GAMEPLAY_TOOLTIP_FATIGUE_DECK_DESCRIPTION	Hai finito le carte! Quando proverai a
 GAMEPLAY_TOOLTIP_FATIGUE_DECK_HEADLINE	Affaticato	
 GAMEPLAY_TOOLTIP_FATIGUE_ENEMYDECK_DESCRIPTION	Il tuo avversario ha finito le carte! Quando proverà a pescarne altre subirà danni.	
 GAMEPLAY_TOOLTIP_FATIGUE_ENEMYDECK_HEADLINE	Affaticato	
+GAMEPLAY_TOOLTIP_HAND_DESCRIPTION	Hai {0} |4(carta,carte) nella tua mano.	
+GAMEPLAY_TOOLTIP_HAND_FULL_DESCRIPTION	La tua mano è piena, hai già {0} |4(carta,carte)!	
+GAMEPLAY_TOOLTIP_HAND_FULL_HEADLINE	Mano piena	
+GAMEPLAY_TOOLTIP_HAND_HEADLINE	Mano	
 GAMEPLAY_TOOLTIP_MANA_DESCRIPTION	All'inizio del tuo turno, i Cristalli di Mana vuoti si ricaricheranno e ne otterrai uno aggiuntivo.	
 GAMEPLAY_TOOLTIP_MANA_HEADLINE	Cristalli di Mana	
 GAMEPLAY_TOOLTIP_MANA_OVERLOAD_DESCRIPTION	Nel turno precedente hai giocato una carta con Sovraccarico.	

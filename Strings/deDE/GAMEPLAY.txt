@@ -3,6 +3,9 @@ GAMEPLAY_ADVENTURE_BOSS_HEROIC	HEROISCH	Shows under heroic boss names in adventu
 GAMEPLAY_ADVENTURE_BOSS_NORMAL	NORMAL	Shows under normal boss names in adventures
 GAMEPLAY_AI_OPPONENT_NAME	Gastwirt	
 GAMEPLAY_CHOOSE_ONE	Wählt aus:	will be displayed for card choices e.g. tracking
+GAMEPLAY_CHOOSE_ONE_ADAPT_ALL_MINIONS	Wählt einen Bonus für all Eure Diener:	
+GAMEPLAY_CHOOSE_ONE_ADAPT_ALL_MURLOCS	Wählt einen Bonus für all Eure Murlocs:	
+GAMEPLAY_CHOOSE_ONE_ADAPT_ALL_RECRUITS	Wählt einen Bonus für all Eure Rekruten:	
 GAMEPLAY_CHOOSE_ONE_HERO_POWER	Wählt aus:	will be displayed for choosing a Hero Power e.g. Sir Finley Mrrgglton
 GAMEPLAY_COIN_TOSS_LOST	Ihr erhaltet eine weitere Karte.	
 GAMEPLAY_COIN_TOSS_WON	Ihr seid zuerst dran.	
@@ -38,6 +41,7 @@ GAMEPLAY_MULLIGAN_REPLACE	ERSETZT
 GAMEPLAY_MULLIGAN_STARTING_HAND	Starthand	
 GAMEPLAY_MULLIGAN_SUBTITLE	   Karten behalten oder ersetzen   	
 GAMEPLAY_MULLIGAN_WAITING	Gegner wählt noch aus ...	
+GAMEPLAY_NEXT_TURN	ZUSATZZUG	
 GAMEPLAY_PlayErrors_REQ_ATTACK_GREATER_THAN_0	Ein Charakter ohne Angriffswert kann nicht angreifen.	
 GAMEPLAY_PlayErrors_REQ_ATTACKER_CAN_ATTACK	Dieser Charakter kann nicht angreifen.	
 GAMEPLAY_PlayErrors_REQ_ATTACKER_NOT_FROZEN	Eingefrorene Charaktere können nicht angreifen.	
@@ -63,6 +67,8 @@ GAMEPLAY_PlayErrors_REQ_FROZEN_TARGET	Wählt einen eingefrorenen Charakter aus.
 GAMEPLAY_PlayErrors_REQ_HERO_OR_MINION_TARGET	Ihr müsst einen Charakter als Ziel wählen.	
 GAMEPLAY_PlayErrors_REQ_HERO_TARGET	Ihr müsst einen Helden als Ziel wählen.	
 GAMEPLAY_PlayErrors_REQ_LEGENDARY_TARGET	Ihr müsst einen legendären Diener als Ziel wählen.	
+GAMEPLAY_PlayErrors_REQ_MAX_QUESTS	Ihr könnt nur {0} |4(Quest,Quests) haben.	
+GAMEPLAY_PlayErrors_REQ_MAX_SECRETS	Ihr könnt nur {0} |4(Geheimnis,Geheimnisse) haben.	
 GAMEPLAY_PlayErrors_REQ_MINIMUM_ENEMY_MINIONS	Der Gegner muss über mindestens {0} Diener verfügen.	
 GAMEPLAY_PlayErrors_REQ_MINIMUM_TOTAL_MINIONS	Es müssen sich mindestens {0} Diener auf dem Schlachtfeld befinden.	
 GAMEPLAY_PlayErrors_REQ_MINION_CAP	Ihr habt die maximale Anzahl an Dienern erreicht.	
@@ -75,15 +81,16 @@ GAMEPLAY_PlayErrors_REQ_NONSELF_TARGET	Der Diener kann sich nicht selbst als Zie
 GAMEPLAY_PlayErrors_REQ_NONSTEALTH_ENEMY_TARGET	Verstohlene Charaktere können nicht als Ziel gewählt oder angegriffen werden.	
 GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_ACTIVATE	Dieser Charakter hat bereits angegriffen.	
 GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_HERO_POWER	Heldenfähigkeiten können nur einmal pro Runde eingesetzt werden.	
-GAMEPLAY_PlayErrors_REQ_NOT_MINION_JUST_PLAYED	Diener können nicht in dem Zug angreifen, in dem sie ausgespielt wurden.	
+GAMEPLAY_PlayErrors_REQ_NOT_MINION_JUST_PLAYED	Diener können nicht in dem Zug angreifen,\nin dem sie ausgespielt wurden.	
 GAMEPLAY_PlayErrors_REQ_NUM_MINION_SLOTS	Ihr habt zu viele Diener, um diese Karte auszuspielen.	
-GAMEPLAY_PlayErrors_REQ_SECRET_CAP	Ihr könnt nur über {0} |4(Geheimnis,Geheimnisse) verfügen.	
+GAMEPLAY_PlayErrors_REQ_SECRET_ZONE_CAP	Ihr könnt nur {0} Geheimnisse und Quests haben.	
 GAMEPLAY_PlayErrors_REQ_STEALTHED_TARGET	Wählt einen verstohlenen Charakter aus.	
 GAMEPLAY_PlayErrors_REQ_SUBCARD_IS_PLAYABLE	Keine dieser Optionen ist gültig.	
 GAMEPLAY_PlayErrors_REQ_TARGET_ATTACKED_THIS_TURN	Ihr müsst einen Charakter als Ziel wählen, der bereits angegriffen hat.	
 GAMEPLAY_PlayErrors_REQ_TARGET_EXACT_COST	Wählt einen Diener aus, der ({0}) kostet.	
 GAMEPLAY_PlayErrors_REQ_TARGET_FOR_COMBO	Ihr könnt das nicht tun, ohne ein Ziel zu wählen.	
 GAMEPLAY_PlayErrors_REQ_TARGET_FOR_NO_COMBO	Ihr könnt das nicht tun, ohne ein Ziel zu wählen.	
+GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABE_AND_ELEMENTAL_PLAYED_LAST_TURN	Ihr könnt das nicht tun, ohne ein Ziel zu wählen.	
 GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE	Ihr könnt das nicht tun, ohne ein Ziel zu wählen.	
 GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE_AND_DRAGON_IN_HAND	Ihr könnt das nicht tun, ohne ein Ziel zu wählen.	
 GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE_AND_MINIMUM_FRIENDLY_MINIONS	Ihr könnt das nicht tun, ohne ein Ziel zu wählen.	
@@ -121,6 +128,10 @@ GAMEPLAY_TOOLTIP_FATIGUE_DECK_DESCRIPTION	Ihr habt keine Karten mehr! Von nun an
 GAMEPLAY_TOOLTIP_FATIGUE_DECK_HEADLINE	Erschöpft	
 GAMEPLAY_TOOLTIP_FATIGUE_ENEMYDECK_DESCRIPTION	Euer Gegner hat keine Karten mehr! Von nun an wird er jedes Mal Schaden erleiden, wenn er versucht, eine Karte zu ziehen.	
 GAMEPLAY_TOOLTIP_FATIGUE_ENEMYDECK_HEADLINE	Erschöpft	
+GAMEPLAY_TOOLTIP_HAND_DESCRIPTION	Ihr habt {0} |4(Karte,Karten) auf der Hand.	
+GAMEPLAY_TOOLTIP_HAND_FULL_DESCRIPTION	Ihr habt {0} |4(Karte,Karten) auf der Hand! Eure Hand ist voll.	
+GAMEPLAY_TOOLTIP_HAND_FULL_HEADLINE	Volle Hand	
+GAMEPLAY_TOOLTIP_HAND_HEADLINE	Hand	
 GAMEPLAY_TOOLTIP_MANA_DESCRIPTION	Wenn Euer Zug beginnt, erhaltet Ihr einen neuen Manakristall und verbrauchte Manakristalle werden wieder aufgefüllt.	
 GAMEPLAY_TOOLTIP_MANA_HEADLINE	Manakristalle	
 GAMEPLAY_TOOLTIP_MANA_OVERLOAD_DESCRIPTION	Ihr habt in der letzten Runde eine Karte mit Überladung ausgespielt.	
