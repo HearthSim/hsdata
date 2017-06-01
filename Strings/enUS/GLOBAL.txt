@@ -1,4 +1,4 @@
-TAG	TEXT	COMMENT
+﻿TAG	TEXT	COMMENT
 GLOBAL_BUTTON_YES	Yes	
 GLOBAL_BUTTON_NO	No	
 GLOBAL_BUTTON_OK	Ok	
@@ -165,6 +165,8 @@ GLOBAL_LOSSES	Losses
 GLOBAL_MY_NUM_WINS	{0}	0=number of games this player has won
 GLOBAL_HERO_WINS	Wins: {0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HERO_WINS_PHONE	Wins\n{0}/{1}	0=number of games this class has won 1=number of wins to get golden
+GLOBAL_HERO_WINS_PAST_MAX	Wins: {0}	0=number of games this class has won
+GLOBAL_HERO_WINS_PAST_MAX_PHONE	Wins\n{0}	0=number of games this class has won
 GLOBAL_PLAY	Play	
 GLOBAL_PLAY_RANKED	Play Ranked	
 GLOBAL_PLAY_STANDARD	Play Standard	
@@ -198,6 +200,7 @@ GLOBAL_TAVERN_BRAWL	Tavern Brawl
 GLOBAL_FIRESIDE_BRAWL	Fireside Brawl
 GLOBAL_FIRESIDE_GATHERING	Fireside Gathering	
 GLOBAL_FIRESIDE_GATHERING_DEFAULT_TAVERN_NAME	Fireside Gathering	
+GLOBAL_FIRESIDE_GATHERING_FIRST_TIME_TAVERN_NAME	{0}'s Tavern	0=innkeeper battle tag
 GLOBAL_FRIEND_CHALLENGE_TITLE	Friendly	
 GLOBAL_FRIEND_CHALLENGE_HEADER	Challenge	
 GLOBAL_FRIEND_CHALLENGE_BODY1	You've been challenged by:	
@@ -249,10 +252,11 @@ GLOBAL_ERROR_NETWORK_LOST_GAME_CONNECTION	Your game has been disconnected from t
 GLOBAL_ERROR_NETWORK_INCORRECT_REGION	Your Blizzard account is not eligible to participate in this region's Hearthstone beta test. Once the Hearthstone beta is available in your home region, please try again!	
 GLOBAL_ERROR_NETWORK_ACCOUNT_SUSPENDED	Your account has been suspended.	
 GLOBAL_ERROR_NETWORK_ACCOUNT_BANNED	Your account has been banned.	
+GLOBAL_ERROR_NETWORK_ADMIN_KICKED	You have been removed from the Blizzard service. Please relaunch Hearthstone to reconnect.
 GLOBAL_ERROR_NETWORK_RISK_ACCOUNT_LOCKED	We've locked your account! Go to https://battle.net/support and search 7537 to find out what happened!
 GLOBAL_ERROR_NETWORK_PARENTAL_CONTROLS	Access to this account is currently restricted by parental controls.
 GLOBAL_ERROR_NETWORK_PHONE_LOCK	Please call your Blizzard Phone Lock number to allow this login.\nTaiwan: 0800-303-585\nHong Kong: 396-54666
-GLOBAL_ERROR_NETWORK_UNAVAILABLE_UPGRADE	Hearthstone has been updated!  Please download the latest version.
+GLOBAL_ERROR_NETWORK_UNAVAILABLE_UPGRADE	You played a newer version of Hearthstone on another device. To play Hearthstone on this device, install the update when it becomes available.
 GLOBAL_ERROR_NETWORK_UNAVAILABLE_OFFLINE	Hearthstone is offline. Please wait a few minutes and try again.
 GLOBAL_ERROR_NETWORK_UNAVAILABLE_UNKNOWN	Oops! Playful sprites have disrupted Hearthstone as it was connecting to our servers. Please wait a few minutes for them to disperse and try again.
 GLOBAL_ERROR_ACCOUNT_LICENSES	We had some trouble checking what you own, so some things might be missing. Sorry about that! We'll try again next time you log on.	
@@ -405,8 +409,9 @@ GLOBAL_MOBILECHAT_NOTIFICATION_TURN_COUNTDOWN	Running out of time!
 GLOBAL_PROGRAMNAME_HEARTHSTONE	Hearthstone	
 GLOBAL_PROGRAMNAME_WOW	World of Warcraft	
 GLOBAL_PROGRAMNAME_DIABLO3	Diablo III	
+GLOBAL_PROGRAMNAME_STARCRAFT	StarCraft	
 GLOBAL_PROGRAMNAME_STARCRAFT2	StarCraft II	
-GLOBAL_PROGRAMNAME_PHOENIX	Blizzard app	
+GLOBAL_PROGRAMNAME_PHOENIX	Online
 GLOBAL_PROGRAMNAME_HEROES	Heroes of the Storm	
 GLOBAL_PROGRAMNAME_OVERWATCH	Overwatch	
 GLOBAL_OFFLINE	Offline	

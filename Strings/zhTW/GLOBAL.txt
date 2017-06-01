@@ -159,6 +159,7 @@ GLOBAL_ERROR_GENERIC_HEADER	錯誤
 GLOBAL_ERROR_INACTIVITY_KICK	你在《爐石戰記》中已經有一陣子沒有活動，所以連線已經被終止。等你準備好再次出戰時，就重新啟動遊戲吧！	
 GLOBAL_ERROR_NETWORK_ACCOUNT_BANNED	你的帳號已經被封鎖了。	
 GLOBAL_ERROR_NETWORK_ACCOUNT_SUSPENDED	你的帳號已經被暫時停權。	
+GLOBAL_ERROR_NETWORK_ADMIN_KICKED	你已經被移出暴雪網路服務了。請重新啟動《爐石戰記》以重新連線。	
 GLOBAL_ERROR_NETWORK_CONNECTION_TIMEOUT	你的連線逾時。請檢查你的網路連線。	
 GLOBAL_ERROR_NETWORK_DISCONNECT	你和暴雪網路服務的連線已中斷。請重新啟動《爐石戰記》以重新連線。	
 GLOBAL_ERROR_NETWORK_DISCONNECT_GAME_SERVER	你在《爐石戰記》遊戲服務的連線已經中斷。	
@@ -177,7 +178,7 @@ GLOBAL_ERROR_NETWORK_SPAM	你在暴雪網路服務中於短時間內發出過多
 GLOBAL_ERROR_NETWORK_TITLE	網路錯誤	
 GLOBAL_ERROR_NETWORK_UNAVAILABLE_OFFLINE	《爐石戰記》伺服器尚未啟動。請稍後再試。	
 GLOBAL_ERROR_NETWORK_UNAVAILABLE_UNKNOWN	唉呀！愛搗蛋的小精靈在《爐石戰記》連線到伺服器時進行了干擾！請過幾分鐘，等他們散去之後再重新嘗試。	
-GLOBAL_ERROR_NETWORK_UNAVAILABLE_UPGRADE	《爐石戰記》有更新檔！請下載最新的版本。	
+GLOBAL_ERROR_NETWORK_UNAVAILABLE_UPGRADE	你曾經在其他裝置上玩過新版本的《爐石戰記》，若要在此裝置上玩《爐石戰記》，請先安裝更新的版本。	
 GLOBAL_ERROR_NETWORK_UTIL_TIMEOUT	你的遊戲在請求《爐石戰記》的工具服務資料時超時。請重新啟動爐《爐石戰記》來重新連線。	
 GLOBAL_ERROR_NO_MAGE_PRECON	讀取牌庫資料時發生連線錯誤。請重新啟動《爐石戰記》，然後繼續賽局！	
 GLOBAL_ERROR_STREAMING_ASSET_TIMEOUT	等候串流系統讀取物件{0}逾時。	0=asset name
@@ -192,6 +193,7 @@ GLOBAL_FINISH	結束
 GLOBAL_FIRESIDE_BRAWL	爐邊大亂鬥	
 GLOBAL_FIRESIDE_GATHERING	爐邊聚會	
 GLOBAL_FIRESIDE_GATHERING_DEFAULT_TAVERN_NAME	爐邊聚會	
+GLOBAL_FIRESIDE_GATHERING_FIRST_TIME_TAVERN_NAME	{0}的旅店	0=innkeeper battle tag
 GLOBAL_FORGE_END_DONE	完成	
 GLOBAL_FORGE_END_JOKE_0	這可真麻辣！	
 GLOBAL_FORGE_END_JOKE_1	這沒什麼話好說！	
@@ -303,6 +305,8 @@ GLOBAL_HERO_LEVEL_REWARD_BOOSTER	{0}包卡牌包	0=booster type
 GLOBAL_HERO_LEVEL_REWARD_GOLD	{0}枚金幣	0=amount
 GLOBAL_HERO_LEVEL_REWARD_GOLDEN_CARD	{1}{0}	0=flair 1=card name
 GLOBAL_HERO_WINS	勝場：{0}/{1}	0=number of games this class has won 1=number of wins to get golden
+GLOBAL_HERO_WINS_PAST_MAX	勝場：{0}	0=number of games this class has won
+GLOBAL_HERO_WINS_PAST_MAX_PHONE	勝場\n{0}	0=number of games this class has won
 GLOBAL_HERO_WINS_PHONE	勝場\n{0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HEROIC_BRAWL	英雄大亂鬥	
 GLOBAL_HIDE	隱藏	
@@ -500,7 +504,8 @@ GLOBAL_PROGRAMNAME_DIABLO3	《暗黑破壞神III》
 GLOBAL_PROGRAMNAME_HEARTHSTONE	《爐石戰記》	
 GLOBAL_PROGRAMNAME_HEROES	《暴雪英霸》	
 GLOBAL_PROGRAMNAME_OVERWATCH	鬥陣特攻	
-GLOBAL_PROGRAMNAME_PHOENIX	暴雪應用程式	
+GLOBAL_PROGRAMNAME_PHOENIX	線上	
+GLOBAL_PROGRAMNAME_STARCRAFT	《星海爭霸》	
 GLOBAL_PROGRAMNAME_STARCRAFT2	《星海爭霸II》	
 GLOBAL_PROGRAMNAME_WOW	魔獸世界	
 GLOBAL_QUEST_PROGRESS_COUNT	{0}/{1}	0=progress,1=max progress
@@ -560,7 +565,7 @@ GLOBAL_REWARD_ARENA_TICKET_AUTHORIZED_BY	授權者	a label that shows up in the 
 GLOBAL_REWARD_ARENA_TICKET_ENTRANT	參賽者	a label that shows up in the Arena Ticket under the Player's name to say this person is allowed entrance into the Arena.
 GLOBAL_REWARD_ARENA_TICKET_HEADLINE	一輪免費的競技場賽事！	
 GLOBAL_REWARD_ARENA_TICKET_LABEL	競技場	
-GLOBAL_REWARD_BOOSTER_DETAILS_OUT_OF_BAND	你的帳號從其他來源獲得了{0}包卡牌包。	0=count
+GLOBAL_REWARD_BOOSTER_DETAILS_OUT_OF_BAND	你從其他來源獲得了{0}包卡牌包。	0=count
 GLOBAL_REWARD_BOOSTER_DETAILS_PRESALE_OUT_OF_BAND	你從網頁購買的{0}包卡牌很快就可以開啟了！	0=count
 GLOBAL_REWARD_BOOSTER_HEADLINE_GENERIC	獲得卡牌包！	
 GLOBAL_REWARD_BOOSTER_HEADLINE_MULTIPLE	獲得{0}包\n卡牌包！	

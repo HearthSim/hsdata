@@ -159,6 +159,7 @@ GLOBAL_ERROR_GENERIC_HEADER	エラー
 GLOBAL_ERROR_INACTIVITY_KICK	あんたが最後にハースストーンの操作をしてからずいぶん経ったんで、通信が切断されたぞ。用事が済んだらゲームを再起動してくれ！	
 GLOBAL_ERROR_NETWORK_ACCOUNT_BANNED	あなたのアカウントは停止されました。	
 GLOBAL_ERROR_NETWORK_ACCOUNT_SUSPENDED	あなたのアカウントは凍結されました。	
+GLOBAL_ERROR_NETWORK_ADMIN_KICKED	Blizzardサービスから削除されたぞ。再度接続するには、ハースストーンを再起動してくれ。	
 GLOBAL_ERROR_NETWORK_CONNECTION_TIMEOUT	通信がタイムアウトになりました。インターネット接続をご確認下さい。	
 GLOBAL_ERROR_NETWORK_DISCONNECT	Blizzardサービスから切断されました。再度接続するには、ハースストーンを再起動してください。	
 GLOBAL_ERROR_NETWORK_DISCONNECT_GAME_SERVER	ハースストーンゲームサービスから切断されました。	
@@ -177,7 +178,7 @@ GLOBAL_ERROR_NETWORK_SPAM	短時間にあまりに多くのリクエストを送
 GLOBAL_ERROR_NETWORK_TITLE	ネットワークエラー	
 GLOBAL_ERROR_NETWORK_UNAVAILABLE_OFFLINE	ハースストーンはオフラインです。しばらくしてからもう一度お試し下さい。	
 GLOBAL_ERROR_NETWORK_UNAVAILABLE_UNKNOWN	おおっと！ハースストーンがサーバーへ接続中に、いたずらな妖精に邪魔されました。しばらくしてからもう一度お試し下さい。	
-GLOBAL_ERROR_NETWORK_UNAVAILABLE_UPGRADE	ハースストーンがアップデートされました！最新バージョンをダウンロードして下さい。	
+GLOBAL_ERROR_NETWORK_UNAVAILABLE_UPGRADE	別のデバイスでは、ハースストーンが新しいバージョンになってるぞ。このデバイスでハースストーンを遊ぶには、アップデートが可能になってからインストールする必要があるんだ。	
 GLOBAL_ERROR_NETWORK_UTIL_TIMEOUT	ハースストーンユーティリティサービスへのデータリクエストがタイムアウトになりました。再度接続するには、ハースストーンを再起動して下さい。	
 GLOBAL_ERROR_NO_MAGE_PRECON	コレクションのカードデータのロード中にネットワークの問題が発生しました。コレクションにアクセスして対戦を再開するには、ハースストーンを再起動して下さい。	
 GLOBAL_ERROR_STREAMING_ASSET_TIMEOUT	システムのストリーミング待機中にタイムアウトになりました。アセット{0}のロード中でした。	0=asset name
@@ -192,6 +193,7 @@ GLOBAL_FINISH	終了
 GLOBAL_FIRESIDE_BRAWL	炉端の喧嘩	
 GLOBAL_FIRESIDE_GATHERING	炉端の集い	
 GLOBAL_FIRESIDE_GATHERING_DEFAULT_TAVERN_NAME	炉端の集い	
+GLOBAL_FIRESIDE_GATHERING_FIRST_TIME_TAVERN_NAME	{0}の酒場	0=innkeeper battle tag
 GLOBAL_FORGE_END_DONE	完了	
 GLOBAL_FORGE_END_JOKE_0	一味違うな！	
 GLOBAL_FORGE_END_JOKE_1	言葉も出ないな！	
@@ -303,6 +305,8 @@ GLOBAL_HERO_LEVEL_REWARD_BOOSTER	{0}ブースターパック	0=booster type
 GLOBAL_HERO_LEVEL_REWARD_GOLD	{0}ゴールド	0=amount
 GLOBAL_HERO_LEVEL_REWARD_GOLDEN_CARD	{0}・{1}	0=flair 1=card name
 GLOBAL_HERO_WINS	勝利数: {0}/{1}	0=number of games this class has won 1=number of wins to get golden
+GLOBAL_HERO_WINS_PAST_MAX	勝利数: {0}	0=number of games this class has won
+GLOBAL_HERO_WINS_PAST_MAX_PHONE	勝利数\n{0}	0=number of games this class has won
 GLOBAL_HERO_WINS_PHONE	勝利数\n{0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HEROIC_BRAWL	ヒロイック喧嘩	
 GLOBAL_HIDE	非表示	
@@ -500,7 +504,8 @@ GLOBAL_PROGRAMNAME_DIABLO3	Diablo III
 GLOBAL_PROGRAMNAME_HEARTHSTONE	Hearthstone	
 GLOBAL_PROGRAMNAME_HEROES	Heroes of the Storm	
 GLOBAL_PROGRAMNAME_OVERWATCH	Overwatch	
-GLOBAL_PROGRAMNAME_PHOENIX	Blizzardアプリ	
+GLOBAL_PROGRAMNAME_PHOENIX	オンライン	
+GLOBAL_PROGRAMNAME_STARCRAFT	StarCraft	
 GLOBAL_PROGRAMNAME_STARCRAFT2	StarCraft II	
 GLOBAL_PROGRAMNAME_WOW	World of Warcraft	
 GLOBAL_QUEST_PROGRESS_COUNT	{0}/{1}	0=progress,1=max progress

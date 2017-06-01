@@ -159,6 +159,7 @@ GLOBAL_ERROR_GENERIC_HEADER	Fehler
 GLOBAL_ERROR_INACTIVITY_KICK	Ihre Verbindung zum Server wurde getrennt, da Sie längere Zeit inaktiv waren. Starten Sie das Spiel erneut, wenn Sie wieder spielen möchten.	
 GLOBAL_ERROR_NETWORK_ACCOUNT_BANNED	Ihr Account wurde gebannt.	
 GLOBAL_ERROR_NETWORK_ACCOUNT_SUSPENDED	Ihr Account wurde suspendiert.	
+GLOBAL_ERROR_NETWORK_ADMIN_KICKED	Sie wurden von den Blizzard-Diensten getrennt. Bitte starten Sie Hearthstone neu, um die Verbindung wiederherzustellen.	
 GLOBAL_ERROR_NETWORK_CONNECTION_TIMEOUT	Ihre Verbindung zum Spiel wurde getrennt. Bitte überprüfen Sie Ihre Internetverbindung.	
 GLOBAL_ERROR_NETWORK_DISCONNECT	Die Verbindung zu den Blizzard-Diensten wurde unterbrochen. Bitte starten Sie Hearthstone neu, um die Verbindung wiederherzustellen.	
 GLOBAL_ERROR_NETWORK_DISCONNECT_GAME_SERVER	Ihre Verbindung zum Hearthstone-Spieldienst wurde getrennt.	
@@ -177,7 +178,7 @@ GLOBAL_ERROR_NETWORK_SPAM	Die Verbindung zum Blizzard-Dienst wurde aufgrund zu v
 GLOBAL_ERROR_NETWORK_TITLE	NETZWERKFEHLER	
 GLOBAL_ERROR_NETWORK_UNAVAILABLE_OFFLINE	Hearthstone ist gerade offline. Bitte warten Sie ein paar Minuten und versuchen Sie es dann erneut.	
 GLOBAL_ERROR_NETWORK_UNAVAILABLE_UNKNOWN	Ups! Neckische Waldgeister haben Hearthstone durcheinandergebracht, während es versucht hat, sich mit unseren Servern zu verbinden. Bitte warten Sie ein paar Minuten und versuchen Sie es dann erneut.	
-GLOBAL_ERROR_NETWORK_UNAVAILABLE_UPGRADE	Hearthstone wurde aktualisiert! Bitte laden Sie die neueste Version herunter.	
+GLOBAL_ERROR_NETWORK_UNAVAILABLE_UPGRADE	Sie haben auf einem anderen Gerät eine neuere Version von Hearthstone gespielt. Bitte installieren Sie das Update sobald wie möglich auch auf diesem Gerät, um spielen zu können.	
 GLOBAL_ERROR_NETWORK_UTIL_TIMEOUT	Ihre Verbindung zum Spiel wurde getrennt, während es versucht hat, Daten vom Hearthstone-Hilfsdienst abzufragen. Bitte starten Sie Hearthstone neu, um die Verbindung wiederherzustellen.	
 GLOBAL_ERROR_NO_MAGE_PRECON	Beim Laden Ihrer Kartensammlung ist ein Netzwerkfehler aufgetreten. Bitte starten Sie Hearthstone neu, um auf Ihre Sammlung zuzugreifen und weiterzuspielen.	
 GLOBAL_ERROR_STREAMING_ASSET_TIMEOUT	Es ist eine Zeitüberschreitung beim Warten auf das Streaming-System aufgetreten (Asset {0}).	0=asset name
@@ -192,6 +193,7 @@ GLOBAL_FINISH	Beenden
 GLOBAL_FIRESIDE_BRAWL	Fireside-Chaos	
 GLOBAL_FIRESIDE_GATHERING	Fireside Gathering	
 GLOBAL_FIRESIDE_GATHERING_DEFAULT_TAVERN_NAME	Fireside Gathering	
+GLOBAL_FIRESIDE_GATHERING_FIRST_TIME_TAVERN_NAME	Gasthaus von {0}	0=innkeeper battle tag
 GLOBAL_FORGE_END_DONE	Fertig	
 GLOBAL_FORGE_END_JOKE_0	Da war ordentlich Feuer drin!	
 GLOBAL_FORGE_END_JOKE_1	Mir fehlen die Worte!	
@@ -303,6 +305,8 @@ GLOBAL_HERO_LEVEL_REWARD_BOOSTER	{0}-Erweiterungspackung	0=booster type
 GLOBAL_HERO_LEVEL_REWARD_GOLD	{0} Gold	0=amount
 GLOBAL_HERO_LEVEL_REWARD_GOLDEN_CARD	{1} ({0})	0=flair 1=card name
 GLOBAL_HERO_WINS	Siege: {0}/{1}	0=number of games this class has won 1=number of wins to get golden
+GLOBAL_HERO_WINS_PAST_MAX	Siege: {0}	0=number of games this class has won
+GLOBAL_HERO_WINS_PAST_MAX_PHONE	Siege\n{0}	0=number of games this class has won
 GLOBAL_HERO_WINS_PHONE	Siege\n{0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HEROIC_BRAWL	Heroisches Kartenchaos	
 GLOBAL_HIDE	Ausblenden	
@@ -500,7 +504,8 @@ GLOBAL_PROGRAMNAME_DIABLO3	Diablo III
 GLOBAL_PROGRAMNAME_HEARTHSTONE	Hearthstone	
 GLOBAL_PROGRAMNAME_HEROES	Heroes of the Storm	
 GLOBAL_PROGRAMNAME_OVERWATCH	Overwatch	
-GLOBAL_PROGRAMNAME_PHOENIX	Blizzard App	
+GLOBAL_PROGRAMNAME_PHOENIX	Online	
+GLOBAL_PROGRAMNAME_STARCRAFT	StarCraft	
 GLOBAL_PROGRAMNAME_STARCRAFT2	StarCraft II	
 GLOBAL_PROGRAMNAME_WOW	World of Warcraft	
 GLOBAL_QUEST_PROGRESS_COUNT	{0}/{1}	0=progress,1=max progress

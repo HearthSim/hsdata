@@ -1,4 +1,4 @@
-TAG	TEXT	COMMENT
+﻿TAG	TEXT	COMMENT
 GLUE_COLLECTION_SEARCH	Search
 GLUE_COLLECTION_DECK_HELP_BUTTON	Deck Helper
 GLUE_COLLECTION_DECK_TEMPLATE_HELP_BUTTON	Replace Cards	
@@ -32,8 +32,6 @@ GLUE_COLLECTION_DECK_RULE_MISSING_CARDS	You are {0} |4(card,cards) short of a fu
 GLUE_COLLECTION_DECK_RULE_TOO_MANY_CARDS	You have {0} |4(card,cards) too many in the deck.
 GLUE_COLLECTION_DECK_RULE_INVALID_CARDS	You have {0} |4(card,cards) that |4(is,are) invalid for this format.	
 GLUE_COLLECTION_DECK_RULE_FINISH_AUTOMATICALLY	Do you want to finish the deck automatically?	
-GLUE_COLLECTION_DECK_PASTE_POPUP_HEADER	Paste Deck	
-GLUE_COLLECTION_DECK_PASTE_POPUP_MESSAGE	This will erase your existing deck and replace it with the contents of the clipboard, are you sure?	
 GLUE_COLLECTION_DECK_TEMPLATE_REPLACE	Switch Deck	
 GLUE_COLLECTION_DECK_TEMPLATE_REPLACE_MESSAGE	This will erase your existing deck and replace it with the contents of the template deck, are you sure?	
 GLUE_COLLECTION_DECK_TEMPLATE_LOW_CARD_WARNING	Uh Oh	
@@ -99,6 +97,30 @@ GLUE_COLLECTION_TO_WILD	Convert to Wild
 GLUE_COLLECTION_ERROR_HEADER	Collection Error!
 GLUE_COLLECTION_SET_FILTER_WILD_SET_HEADER	Wild Cards
 GLUE_COLLECTION_SET_FILTER_WILD_SET_BODY	This will show cards that are not usable in Standard. Are you sure?
+GLUE_COLLECTION_DECK_HERO_NOT_UNLOCKED	You have a deck in your clipboard, but that Hero is locked.
+GLUE_COLLECTION_DECK_WILD_NOT_UNLOCKED	You have a Wild deck in your clipboard, but you have not unlocked Wild Mode.
+GLUE_COLLECTION_DECK_PASTE_POPUP_HEADER	Paste Deck	
+GLUE_COLLECTION_DECK_OVERWRITE_BODY	Would you like to replace your current deck with the deck in your clipboard?
+GLUE_COLLECTION_DECK_OVERWRITE_HEADER	Replace Deck
+GLUE_COLLECTION_DECK_VALID_PASTE_HEADER	Create Deck
+GLUE_COLLECTION_DECK_VALID_PASTE_BODY	Would you like to create a new deck with the deck in your clipboard?
+GLUE_COLLECTION_DECK_COPIED_TOAST	Your deck has been copied!
+GLUE_COLLECTION_DECK_COPY	Copy
+GLUE_COLLECTION_DECK_PASTE	Paste
+GLUE_COLLECTION_DECK_COPY_COMMENT_HEADER_DECK_ARENA	Arena Deck
+GLUE_COLLECTION_DECK_COPY_COMMENT_HEADER_CLASS	Class: {0}
+GLUE_COLLECTION_DECK_COPY_COMMENT_HEADER_FORMAT	Format: {0}
+GLUE_COLLECTION_DECK_PASTE_COMMENT_INSTRUCTIONS	To use this deck, copy it to your clipboard and create a new deck in Hearthstone
+GLUE_COLLECTION_DECK_PASTE_COMMENT_ARENA_WARNING	This deck was copied from the Arena. It may not be valid for other play modes.
+GLUE_COLLECTION_DECK_FORMAT_WILD	Wild
+GLUE_COLLECTION_DECK_FORMAT_STANDARD	Standard
+GLUE_COLLECTION_DECK_COPY_TOOLTIP_HEADLINE	Copy Deck	
+GLUE_COLLECTION_DECK_PASTE_TOOLTIP_HEADLINE	Paste Deck	
+GLUE_COLLECTION_DECK_PASTE_TOOLTIP_CLASS_NO_MATCH	Your copied deck belongs to a different class.
+GLUE_COLLECTION_DECK_PASTE_TOOLTIP_WILD_LOCKED	You must own a wild card before you can create this deck.
+GLUE_COLLECTION_DECK_PASTE_TOOLTIP_INVALID	Your copied deck is not valid for this play mode.
+GLUE_COLLECTION_DECK_COPY_TOOLTIP_INCOMPLETE	You can only copy a full deck.
+GLUE_COLLECTION_DECK_COPY_TOOLTIP_FORMAT	Your deck has some cards that are invalid for this format.
 GLUE_MASS_DISENCHANT_HEADLINE	Mass Disenchant
 GLUE_MASS_DISENCHANT_HEADLINE_PHONE	Mass\nDisenchant
 GLUE_MASS_DISENCHANT_DETAILS_HEADLINE	Disenchant your extra cards to create Arcane Dust.
@@ -617,7 +639,7 @@ GLUE_QUEST_NOTIFICATION_HEADER	Today's Quests
 GLUE_QUEST_NOTIFICATION_HEADER_NEW_ONLY	New Quest!	
 GLUE_SPECIAL_QUEST_NOTIFICATION_HEADER	Special Quest!
 GLUE_QUEST_NOTIFICATION_CAPTION	Most Quests can only be completed in Play mode, The Arena or Tavern Brawl.	
-GLUE_QUEST_NOTIFICATION_CAPTION_FRIEND_WEEK	You can complete quests while challenging a friend this week.
+GLUE_QUEST_NOTIFICATION_CAPTION_FRIEND_WEEK	You can complete quests while challenging a friend now!	Set this string to blank to make it not show up, even when Friend Week is active.
 GLUE_QUEST_FINISHED_DAILY	You've completed all of your daily quests.	
 GLUE_DRAFT_WINS_LABEL	Wins	
 GLUE_DRAFT_LOSSES_LABEL	Losses:	
@@ -738,9 +760,10 @@ GLUE_LOADINGSCREEN_BUTTON_YES	Yes, do it!
 GLUE_LOADINGSCREEN_ERROR_APK_INSTALL	Failed to install. Please uninstall and reinstall Hearthstone.	
 GLUE_LOADINGSCREEN_ERROR_GET_EXTERNAL_FILES	Failed to access the external storage. Please allow access to the external storage. If it’s already allowed please restart your device.	
 GLUE_LOADINGSCREEN_APK_UPDATE_FROM_APP_STORE	Almost done! Let's go to the store for one final download.	
-GLUE_LOADINGSCREEN_OPEN_APP_STORE	Open App store	
+GLUE_LOADINGSCREEN_APK_UPDATE_FROM_WEBSITE	Almost done! Let's go to the Hearthstone website for one final download.	
+GLUE_LOADINGSCREEN_OPEN_APP_STORE	Open	
 GLUE_DONT_SHOW_ME_THIS_AGAIN	Don't show me this again	
-GLUE_UNRELIABLE_GPU_WARNING_TITLE	Graphics Device Warning	
+GLUE_UNRELIABLE_GPU_WARNING_TITLE	Graphics Device
 GLUE_UNRELIABLE_GPU_WARNING	This device runs on unsupported graphics hardware. As a result, Hearthstone may have graphical issues and/or performance problems.\n\nTap SUPPORT to find out more.	
 GLUE_STORE_CHOOSE_PACK	Choose your pack	
 GLUE_STORE_CHOOSE_ADVENTURE	Choose your adventure	
@@ -827,7 +850,9 @@ GLUE_COLLECTION_MANAGER_SEARCH_OWNED	owned
 GLUE_COLLECTION_MANAGER_SEARCH_MISSING	missing
 GLUE_COLLECTION_MANAGER_SEARCH_EXTRA	extra
 GLUE_COLLECTION_MANAGER_SEARCH_NEW	new
-GLUE_STORE_LEAVING_SOON	Leaving the\nshop soon!	
+GLUE_COLLECTION_MANAGER_SEARCH_RARITY	rarity
+GLUE_COLLECTION_MANAGER_SEARCH_TYPE	type
+GLUE_STORE_LEAVING_SOON	Leaving the\nshop soon!
 GLUE_STORE_LEAVING_SOON_LEARN_MORE	Learn more	
 GLUE_STORE_ADVENTURE_LEAVING_SOON	Adventure leaving soon!	
 GLUE_STORE_EXPANSION_LEAVING_SOON	Expansion leaving soon!	
@@ -836,6 +861,8 @@ GLUE_THE_CLOCK_BANNER_YEAR	Year of the Mammoth
 GLUE_THE_CLOCK_BANNER_NEW_WAY	New way to play:	
 GLUE_THE_CLOCK_BANNER_STANDARD	"Standard"	
 GLUE_THE_CLOCK_DETAILS_STANDARD	In Standard, only the newest cards can be used.	
+GLUE_SET_ROTATION_CURRENT_YEAR	Year of the Kraken	
+GLUE_SET_ROTATION_NEXT_YEAR	Year of the Mammoth	
 GLUE_CARDS_UPDATED	These cards have changed.	
 GLUE_SINGLE_CARD_UPDATED	This card has changed.	
 GLUE_WOODEN_BANNER_TITLE_FRIEND_WEEK	Friendly Feud!
@@ -914,7 +941,7 @@ GLUE_RETURNING_PLAYER_WELCOME_DESC	We've got some quests and rewards to get you 
 GLUE_HEROIC_BRAWL_SESSION_LIMIT_ALERT_TITLE	Heroic Brawl
 GLUE_HEROIC_BRAWL_SESSION_LIMIT_ALERT_DESCRIPTION_NORMAL	You can participate in {0} more Heroic |4(Brawl,Brawls).
 GLUE_HEROIC_BRAWL_SESSION_LIMIT_ALERT_DESCRIPTION_FINAL	This is your last heroic brawl! Good luck to you, Brave Hero!
-GLUE_HEROIC_BRAWL_SESSION_LIMIT_ALERT_LIMIT_RAISED	The innkeeper has raised the run limit! You can participate in {0} more Heroic brawls.
+GLUE_HEROIC_BRAWL_SESSION_LIMIT_ALERT_LIMIT_RAISED	The Innkeeper has raised the run limit! You can participate in {0} more Heroic brawls.
 GLUE_HEROIC_BRAWL_SESSION_LIMIT_ALERT_LIMIT_HIT	You have played the maximum number of Heroic Brawls.
 GLUE_HEROIC_BRAWL_NO_WINS_REWARD_PACK_TEXT	Reward Pack!
 GLUE_HEROIC_BRAWL_REWARDS_NOTICE_DESC	Rewards from your last Heroic Brawl
@@ -967,6 +994,12 @@ VO_BOSS_KAZAKUS_Male_Troll_Intro_QL_Kabal3_01	Good.  Eh heh heh heh.  Yes....
 VO_BOSS_KAZAKUS_Male_Troll_Intro_QL_Kabal3_03	My potions will grant you untold power....
 VO_BOSS_KAZAKUS_Male_Troll_Intro_QL_Kabal4_01	AHAHAH HAHAHA HAHA.  At last! A powerful disciple!
 VO_BOSS_KAZAKUS_Male_Troll_Intro_QL_Kabal4_02	Together we will rule Gadgetzan. HAHAH AHAHAHA!
+
+VO_BRM_027h_CELEBRATE_24	REJOICE!
+VO_FIRE_FESTIVAL_RAGNAROS_FESTIVAL	IT'S THE FESTIVAL OF ME!
+VO_BRM_027h_PARTY_22	PARTY LIKE IT'S MIDSUMMER!
+VO_BRM_027h_HAPPY_EVENT_41	LIGHT THE FIRES OF CELEBRATION!
+VO_BRM_027h_FIRE_FESTIVAL_44	IT'S THE FESTIVAL OF ME!
 
 GLUE_TEMPORARY_ACCOUNT_SIGN_UP	Sign Up
 GLUE_TEMPORARY_ACCOUNT_FRIENDS_LIST_HEADER	Play with friends
@@ -1038,7 +1071,7 @@ GLUE_FIRESIDE_GATHERING_INNKEEPER_TURN_ON_GPS_BODY	Share your location in the ne
 GLUE_FIRESIDE_GATHERING_INNKEEPER_TURN_ON_WIFI_BODY	Turn on Wi-Fi in the next window to help others discover and join your Fireside Gathering!
 GLUE_FIRESIDE_GATHERING_INNKEEPER_CONNECT_TO_WIFI_SSID_CONFIRM_TITLE	Use this connection for your Fireside Gathering?
 GLUE_FIRESIDE_GATHERING_INKEEPER_CONNECT_TO_WIFI_BODY	Connect to the Wi-Fi network you would like to use for this Fireside Gathering. Or skip this step if there's no Wi-Fi available.
-GLUE_FIRESIDE_GATHERING_INNKEEPER_SETUP_BODY	Hello innkeeper of {0}! Are you ready to host your Fireside Gathering?
+GLUE_FIRESIDE_GATHERING_INNKEEPER_SETUP_BODY	Hello Innkeeper of {0}! Are you ready to host your Fireside Gathering?
 GLUE_BRAWL_PATRON	Brawl Patron
 GLUE_FIRESIDE_GATHERING_ADD_MORE_ACCESS_POINTS	Add More
 GLUE_FIRESIDE_GATHERING_WIFI_SUCCESS	Got multiple wireless access points? Include them and improve your Wi-Fi coverage by clicking "Add more".
@@ -1058,6 +1091,7 @@ GLUE_PUSH_NOTIFICATION_CONTEXT_HEADER	Push Notifications
 GLUE_PUSH_NOTIFICATION_CONTEXT_BODY	Want us to notify you when we release something awesome?
 GLUE_PUSH_NOTIFICATION_CONTEXT_CONFIRM	Definitely!
 GLUE_PUSH_NOTIFICATION_CONTEXT_CANCEL	Nah
+GLUE_PUSH_NOTIFICATION_EXTENDED_CONTEXT_BODY	It looks like you have notifications for Hearthstone disabled.  Go to your device settings and allow notifications for the app!
 GLUE_FIRESIDE_GATHERING_INNKEEPER_TOOLTIP	Set up here when you're ready!
 GLUE_FIRESIDE_GATHERING_SEARCH_FAILURE_TITLE	No Fireside Gatherings here
 GLUE_FIRESIDE_GATHERING_SEARCH_FAILURE_BODY	Click "Learn More" to look for Fireside Gatherings near you, or to start one of your own!
@@ -1065,3 +1099,24 @@ GLUE_FIRESIDE_GATHERING_SEARCH_FAILURE_BODY_PHONE	Tap "Learn More" to look for F
 GLUE_FIRESIDE_BRAWL_FLAG	Fireside
 GLUE_FIRESIDE_GATHERING_NETWORK_CONFIRM_TITLE	We will setup this Fireside Gathering with your current Wi-Fi connection
 GLUE_FIRESIDE_GATHERING_NETWORK_CONFIRM_BODY	Please make sure you are connected to the right Wi-Fi network before proceeding
+GLUE_COLLECTION_NO_RESULTS_IN_SELECTED_COST	No results in selected cost
+GLUE_COLLECTION_NO_RESULTS_IN_SELECTED_COST_HINT	Results found with different cost
+GLUE_COLLECTION_NO_RESULTS_IN_CURRENT_SET	No results in current set
+GLUE_COLLECTION_NO_RESULTS_IN_CURRENT_SET_HINT	Results found in other sets
+GLUE_COLLECTION_NO_RESULTS_BUT_CRAFTABLE	You don't have this card
+GLUE_COLLECTION_NO_RESULTS_BUT_CRAFTABLE_HINT	Check it out in crafting?
+GLUE_COLLECTION_NO_RESULTS_IN_STANDARD	Results found in Wild sets
+GLUE_COLLECTION_NO_RESULTS	No Results
+GLUE_RETURNINGPLAYERPOPUP_TITLE	Are you sure?
+GLUE_RETURNINGPLAYERPOPUP_MESSAGE	If you skip the Innkeeper challenge you won't be able to come back and finish the quest to earn 3 free packs!
+GLUE_RETURNINGPLAYER_QUESTDESCRIPTION	Defeat all three challengers to earn your reward!
+GLUE_RETURNINGPLAYER_QUESTTITLE	Return of the Hero
+GLUE_RETURNINGPLAYER_RETIRE_BUTTON_TEXT	Retire
+GLUE_DRAFT_REMOVE_GOLDENS_DIALOG_TITLE	Turn Off Goldens
+GLUE_DRAFT_REMOVE_GOLDENS_DIALOG_BODY	Turn off Golden cards for this Arena Run?
+GLUE_DEVICE_PERFORMANCE_WARNING_TITLE	Device Performance
+GLUE_DEVICE_PERFORMANCE_WARNING	This device does not meet the minimum specifications to run the game.  As a result, Hearthstone may have graphical issues and/or performance problems.\n\nTap SUPPORT to find out more.
+GLUE_2X_GOLD_EVENT_BANNER_HEADLINE	Gold Bonus!
+GLUE_FIRE_FESTIVAL_BANNER_TITLE	Welcome to the Fire Festival!
+GLUE_FIRE_FESTIVAL_DOUBLE_GOLD_BAG_TEXT	x2
+GLUE_FIRESIDE_GATHERING_SCAN_NO_GPS_OR_WIFI	This feature is only available to devices with GPS or Wi-Fi capability.
