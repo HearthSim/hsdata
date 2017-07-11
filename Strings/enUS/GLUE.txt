@@ -121,6 +121,7 @@ GLUE_COLLECTION_DECK_PASTE_TOOLTIP_WILD_LOCKED	You must own a wild card before y
 GLUE_COLLECTION_DECK_PASTE_TOOLTIP_INVALID	Your copied deck is not valid for this play mode.
 GLUE_COLLECTION_DECK_COPY_TOOLTIP_INCOMPLETE	You can only copy a full deck.
 GLUE_COLLECTION_DECK_COPY_TOOLTIP_FORMAT	Your deck has some cards that are invalid for this format.
+GLUE_COLLECTION_DECK_PASTE_INVALID_CLASS_BODY	The deck you are trying to paste belongs to a different class.
 GLUE_MASS_DISENCHANT_HEADLINE	Mass Disenchant
 GLUE_MASS_DISENCHANT_HEADLINE_PHONE	Mass\nDisenchant
 GLUE_MASS_DISENCHANT_DETAILS_HEADLINE	Disenchant your extra cards to create Arcane Dust.
@@ -211,6 +212,9 @@ GLUE_STORE_PRODUCT_DETAILS_HEADLINE_GORO_PACK_PRESALE	Journey to Un'Goro (Pre-Pu
 GLUE_STORE_PRODUCT_DETAILS_GORO_PACK_PRESALE	•  50 packs and a special card back\n•  Each pack has 5 cards, with at least 1 rare or better\n * Packs openable before April 30, 2017
 GLUE_STORE_PRODUCT_DETAILS_FIRST_PURCHASE_BUNDLE	•  10 Classic packs and 1 random Classic class-specific legendary minion\n•  Each pack has 5 cards, with at least 1 Rare or better
 GLUE_STORE_PRODUCT_DETAILS_FIRST_PURCHASE_BUNDLE_DUST	•  10 Dust which also includes: 10 Classic packs and 1 random Classic class-specific legendary minion\n•  Each pack has 5 cards, with at least 1 Rare or better\n•  Dust can be used to craft cards in the Collection Manager
+GLUE_STORE_PRODUCT_DETAILS_HEADLINE_ICC_PACK_PRESALE	Knights of the Frozen Throne (Pre-Purchase) includes:
+GLUE_STORE_PRODUCT_DETAILS_ICC_PACK_PRESALE	•  50 packs and a special card back\n•  Each pack has 5 cards, with at least 1 rare or better\n * Packs openable before August 31, 2017
+GLUE_STORE_PRODUCT_DETAILS_ICC_CN_DUST_PRESALE	•  50 Dust and a special card back which also includes 50 gift packs\n•  Each pack has 5 cards, with at least 1 rare or better\n * Packs openable before August 31, 2017\n•  Dust can be used to craft cards in your Collection Manager
 GLUE_STORE_PRODUCT_DETAILS_HEADLINE_FIRST_PURCHASE_BUNDLE	Welcome Bundle includes:
 GLUE_STORE_PRODUCT_NAME_FIRST_PURCHASE_BUNDLE	Welcome Bundle
 GLUE_STORE_KOREAN_PRODUCT_DETAILS_EXPERT_PACK	이용기간 : 서비스 종료 시까지. 본 상품은 구매 후 7일 이내에 청약철회가 가능합니다. 다만, 1개의 카드팩이라도 개봉한 경우에는 청약철회가 불가능합니다.	only displayed for Korean customers, should always be in Korean
@@ -240,6 +244,7 @@ GLUE_STORE_PRODUCT_NAME_TGT_PRESALE_BUNDLE	The Grand Tournament (Pre-Purchase)
 GLUE_STORE_PRODUCT_NAME_OG_PRESALE_BUNDLE	Whispers of the Old Gods (Pre-Purchase)
 GLUE_STORE_PRODUCT_NAME_KARA_PRESALE_BUNDLE	One Night in Karazhan Launch Promotion
 GLUE_STORE_PRODUCT_NAME_GORO_PRESALE_BUNDLE	Journey to Un'Goro (Pre-Purchase)
+GLUE_STORE_PRODUCT_NAME_ICC_PRESALE_BUNDLE	Knights of the Frozen Throne (Pre-Purchase)
 GLUE_STORE_PRODUCT_PRICE	({0})	0=price
 GLUE_STORE_PRODUCT_PRICE_NA	N/A
 GLUE_STORE_SUMMARY_HEADLINE	Summary
@@ -479,6 +484,8 @@ GLUE_TIP_DEFAULT_28	Wild is exactly that, WILD! Any cards can be used!
 GLUE_TIP_DEFAULT_29	In Standard, new strategies are constantly evolving.	
 GLUE_TIP_DEFAULT_30	New deck recipes will be released over time.	
 GLUE_TIP_DEFAULT_31	In Standard, the newest sets are in play so you don't have to learn all the old cards.	
+GLUE_TIP_DEFAULT_32	You can complete quests while playing against friends.	
+GLUE_TIP_DEFAULT_33	Complete quests with your friends by challenging them!	
 GLUE_TIP_PRACTICE_0	You can unlock heroes by defeating them in Practice Mode.	
 GLUE_TIP_PRACTICE_1	Practice Mode is just preparation for Play Mode!	
 GLUE_TIP_PRACTICE_2	Play mode will match you against someone of similar skill!	
@@ -644,8 +651,8 @@ GLUE_QUEST_LOG_CHEST_TOOLTIP_BODY_NO_CHEST	Reach Rank 20 and you'll be rewarded 
 GLUE_QUEST_NOTIFICATION_HEADER	Today's Quests	
 GLUE_QUEST_NOTIFICATION_HEADER_NEW_ONLY	New Quest!	
 GLUE_SPECIAL_QUEST_NOTIFICATION_HEADER	Special Quest!
-GLUE_QUEST_NOTIFICATION_CAPTION	Most Quests can only be completed in Play mode, The Arena or Tavern Brawl.	
-GLUE_QUEST_NOTIFICATION_CAPTION_FRIEND_WEEK	You can complete quests while challenging a friend now!	Set this string to blank to make it not show up, even when Friend Week is active.
+GLUE_QUEST_NOTIFICATION_CAPTION	Most quests can only be completed against another player.	
+GLUE_QUEST_NOTIFICATION_CAPTION_FRIEND_WEEK		Set this string to blank to make it not show up, even when Friend Week is active.
 GLUE_QUEST_FINISHED_DAILY	You've completed all of your daily quests.	
 GLUE_DRAFT_WINS_LABEL	Wins	
 GLUE_DRAFT_LOSSES_LABEL	Losses:	
@@ -780,6 +787,7 @@ GLUE_STORE_PREORDER_EXCLUSIVE	PRE-ORDER EXCLUSIVE!
 GLUE_STORE_BRM_PREORDER_DATE	Opens during April!	
 GLUE_STORE_DUNGEON_BUTTON_PREORDER_TEXT	Pre-order Adventure	
 GLUE_STORE_PACKS_BUTTON_PREORDER_TEXT	Pre-purchase {0} packs	0=number of packs
+GLUE_STORE_DUST_BUTTON_PREORDER_TEXT	{0} Dust and special card back	0=number of dust
 GLUE_STORE_PACKS_PREORDER_TEXT	Pre-purchase	
 GLUE_STORE_PACKS_LATEST_EXPANSION	Latest Expansion	
 GLUE_STORE_SPECIAL_OFFER	Special Offer!	
@@ -788,6 +796,8 @@ GLUE_STORE_TGT_PREORDER_DATE	Available in August!
 GLUE_STORE_OG_PREORDER_DATE	Available in Spring*!
 GLUE_STORE_GORO_PREORDER_DATE	Available in mid April*!	
 GLUE_STORE_MSG_PREORDER_DATE	Available in early December!	
+GLUE_STORE_ICC_PREORDER_DATE	Available in mid August*!	
+GLUE_STORE_ICC_PREORDER_DUST_DATE	Packs available in\nmid August*!	
 GLUE_ARENA_VIEW_DECK	View Deck	
 GLUE_PICK_A_CARD	Pick a Card	
 GLUE_PICK_A_REPLACEMENT	Pick a Replacement	
@@ -1045,6 +1055,7 @@ GLUE_FSG_FOUND	Fireside Gathering found!
 GLUE_FIRESIDE_GATHERING_SEARCHING	Searching...
 GLUE_FSG_NOT_FOUND	Not found
 GLUE_FSG_NOT_FOUND_BODY	Oops, looks like there's no Fireside Gathering at this location. Would you like to find one near you?
+GLUE_FIRESIDE_GATHERING_TITLE	Fireside Gatherings	
 GLUE_FIRESIDE_GATHERING_BETA_TITLE	Fireside Gatherings <color=#c01c1cff><size=23>BETA</size></color>	Here we can use size and color tags and when necessary, add the BETA label while we are doing slow rollout of the feature.
 GLUE_FIRESIDE_GATHERING_TURN_ON_GPS_TITLE	Turn on Location Services
 GLUE_FIRESIDE_GATHERING_TURN_ON_GPS_BODY	Activating location services will help you find Fireside Gatherings. Activate in the next window.
@@ -1126,7 +1137,27 @@ GLUE_2X_GOLD_EVENT_BANNER_HEADLINE	Gold Bonus!
 GLUE_FIRE_FESTIVAL_BANNER_TITLE	Welcome to the Fire Festival!
 GLUE_FIRE_FESTIVAL_DOUBLE_GOLD_BAG_TEXT	x2
 GLUE_FIRESIDE_GATHERING_SCAN_NO_GPS_OR_WIFI	This feature is only available to devices with GPS or Wi-Fi capability.
-
+GLUE_OUTSTANDING_DRAFT_TICKET_DIALOG_HEADER	Welcome to The Arena!
+GLUE_OUTSTANDING_DRAFT_TICKET_DIALOG_DESC	You have an extra Arena ticket! Don't worry about the usual entrance fee this time.
+GLUE_COLLECTION_MANAGER_ON_ADD_FULL_DECK_ERROR_TEXT	Your deck is full. Remove a card first!
 GLUE_CHINA_STORE_BOOSTER_GIFT	Gift:\n{0} Packs
 GLUE_CHINA_STORE_WELCOME_BUNDLE_GIFT_1	Gift:\n\n10 Packs
 GLUE_CHINA_STORE_WELCOME_BUNDLE_GIFT_2	1 Legendary Card
+VO_Ahune_Male_Elemental_Arena_01	ARENA MATCHES ARE A MAINSTAY OF THE FROST FESTIVAL. HAPPY DRAFTING, FOOL!
+VO_Ahune_Male_Elemental_Arena_02	CELEBRATE MY FROST FESTIVAL BY PLAYING ARENA! ENJOY, FOOL!
+VO_Ahune_Male_Elemental_FireFestival_01	THE FIRE FESTIVAL IS OVER. IT IS AHUNE'S TURN.
+VO_Ahune_Male_Elemental_FireFestival_02	MY FROST FESTIVAL IS WAY BETTER THAN RAGNAROS' LAME FIRE FESTIVAL.
+VO_Ahune_Male_Elemental_FireFestival_03	PERHAPS YOU WOULD LIKE TO TRY MY FROST BRAWL? IT IS MUCH COOOLER THAN RAGNAROS'S BRAWL!
+VO_Ahune_Male_Elemental_FireFestival_04	ARE YOU ENJOYING FROST FESTIVAL? BE SURE TO TELL RAGNAROS HOW COOL IT IS.
+VO_Ahune_Male_Elemental_FireFestival_06	ENJOY YOURSELF, FOOL.
+VO_Ahune_Male_Elemental_FireFestival_07	ARE YOU HAVING FUN? HAVE MORE FUN!
+VO_Ahune_Male_Elemental_FireFestival_09	THE WORLD IS GROWING COLDER...
+VO_Ahune_Male_Elemental_FireFestival_10	A CHILL WIND BLOWS THROUGH AZEROTH.
+VO_Ahune_Male_Elemental_FireQuests_01	PERFORM THIS TASK. AND ENJOY YOURSELF!
+VO_Ahune_Male_Elemental_FireQuests_03	PERHAPS YOU WOULD BE INTERESTED IN THIS....
+VO_Ahune_Male_Elemental_FireQuests_04	DID RAGNAROS GIVE YOU FROZEN THRONE PACKS? HUH. I DIDN'T THINK SO.
+VO_Ahune_Male_Elemental_FireQuests_05	HERE! A GIFT FROM MY BENEFACTOR.
+VO_Ahune_Male_Elemental_FireQuests_09	PACKS ARE THE BEST QUEST REWARD.
+VO_Ahune_Male_Elemental_FireQuests_11	A CHALLENGE WORTHY OF MY FROST FESTIVAL!
+GLUE_FROST_FESTIVAL_FREE_ARENA_WIN_HEADLINE	HAVE A WIN ON ME
+GLUE_FROST_FESTIVAL_FREE_ARENA_WIN_DESC	Ahune is granting a free win for new runs started during the Frost Festival! Would Ragnaros do that? Nope.
