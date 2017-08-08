@@ -45,6 +45,8 @@ GLOBAL_CARD_SET_GANGS_SHORT	Meccania
 GLOBAL_CARD_SET_GVG	Goblin vs Gnomi	
 GLOBAL_CARD_SET_GVG_SEARCHABLE_SHORTHAND_NAMES	gvg	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_HOF	Vecchie Glorie	
+GLOBAL_CARD_SET_ICECROWN	Cavalieri del Trono di Ghiaccio	
+GLOBAL_CARD_SET_ICECROWN_SHORT	Trono di Ghiaccio	
 GLOBAL_CARD_SET_KARA	Una notte a Karazhan	
 GLOBAL_CARD_SET_KARA_RESERVE	Riserva di Karazhan	
 GLOBAL_CARD_SET_KARA_SHORT	Karazhan	
@@ -115,6 +117,7 @@ GLOBAL_DATETIME_FRIENDREQUEST_MINUTES	{0} |4(minuto,minuti) fa
 GLOBAL_DATETIME_FRIENDREQUEST_MONTH	più di un mese fa	
 GLOBAL_DATETIME_FRIENDREQUEST_SECONDS	meno di un minuto fa	
 GLOBAL_DATETIME_FRIENDREQUEST_WEEKS	{0} |4(settimana,settimane) fa	
+GLOBAL_DATETIME_GREATER_THAN_X_MINUTES	> {0} |4(minuto,minuti)	
 GLOBAL_DATETIME_LASTONLINE_DAY	Ultima connessione: ieri	
 GLOBAL_DATETIME_LASTONLINE_DAYS	Ultima connessione: {0} |4(giorno,giorni) fa	
 GLOBAL_DATETIME_LASTONLINE_HOURS	Ultima connessione: {0} |4(ora,ore) fa	
@@ -180,7 +183,7 @@ GLOBAL_ERROR_NETWORK_SPAM	Sei stato disconnesso dal servizio di gioco Blizzard p
 GLOBAL_ERROR_NETWORK_TITLE	ERRORE DI RETE	
 GLOBAL_ERROR_NETWORK_UNAVAILABLE_OFFLINE	Hearthstone non è al momento disponibile. Attendi qualche minuto e riprova.	
 GLOBAL_ERROR_NETWORK_UNAVAILABLE_UNKNOWN	Ooops! Dei folletti dispettosi sono intervenuti mentre Hearthstone si collegava ai nostri server. Aspetta che se che se ne vadano e riprova fra qualche minuto.	
-GLOBAL_ERROR_NETWORK_UNAVAILABLE_UPGRADE	Hai giocato a una versione più recente di Hearthstone su un altro dispositivo. Per giocare a Hearthstone su questo dispositivo, installa l'aggiornamento quando sarà disponibile.	
+GLOBAL_ERROR_NETWORK_UNAVAILABLE_UPGRADE	Hearthstone è stato aggiornato! Scarica la versione più recente.	
 GLOBAL_ERROR_NETWORK_UTIL_TIMEOUT	Richiesta di connessione scaduta durante la ricezione di dati dal servizio di Hearthstone. Riavvia Hearthstone per riconnetterti.	
 GLOBAL_ERROR_NO_MAGE_PRECON	Ci deve essere stato un problema di connessione mentre caricavamo le carte della tua collezione. Riavvia Hearthstone per recuperare le carte perdute e ricominciare a giocare!	
 GLOBAL_ERROR_STREAMING_ASSET_TIMEOUT	Tempo scaduto in attesa del sistema di streaming. Elemento in caricamento: {0}.	0=asset name
@@ -196,6 +199,8 @@ GLOBAL_FIRESIDE_BRAWL	Rissa Fireside
 GLOBAL_FIRESIDE_GATHERING	Fireside Gathering	
 GLOBAL_FIRESIDE_GATHERING_DEFAULT_TAVERN_NAME	Fireside Gathering	
 GLOBAL_FIRESIDE_GATHERING_FIRST_TIME_TAVERN_NAME	Locanda di {0}	0=innkeeper battle tag
+GLOBAL_FIRESIDE_GATHERING_PATRON_LIST_FOOTER_TEXT_LARGE_SCALE	Giocatori totali: 99+	This is shown on the Friends List button whenever player is checked into a large scale Fireside Gathering (one that doesn't show the full patron list). the design decision was to show 99+ regardless of how many people are actually checked in.
+GLOBAL_FIRESIDE_GATHERING_SOCIAL_BUTTON_LARGE_SCALE_LABEL	<size=32>99<size=26>+</size></size>	This is shown on the Friends List button whenever player is checked into a large scale Fireside Gathering (one that doesn't show the full patron list). the design decision was to show 99+ regardless of how many people are actually checked in. NOTE: the size tag was used in enUS to shrink the + sign, to make sure 99+ fit into the small button.
 GLOBAL_FORGE_END_DONE	Fine	
 GLOBAL_FORGE_END_JOKE_0	Davvero sbalorditivo!	
 GLOBAL_FORGE_END_JOKE_1	Non ho parole!	
@@ -359,6 +364,8 @@ GLOBAL_KEYWORD_JADE_LOTUS	Loto di Giada
 GLOBAL_KEYWORD_JADE_LOTUS_COLLECTION_TEXT	Puoi usarla nei mazzi Druido, Ladro o Sciamano.	
 GLOBAL_KEYWORD_KABAL	Kabala	
 GLOBAL_KEYWORD_KABAL_COLLECTION_TEXT	Puoi usarla nei mazzi Sacerdote, Mago o Stregone.	
+GLOBAL_KEYWORD_LIFESTEAL	Furto Vitale	
+GLOBAL_KEYWORD_LIFESTEAL_TEXT	Rigenera Salute al tuo eroe pari ai danni inflitti.	
 GLOBAL_KEYWORD_MINION_TYPE_REFERENCE	Tipo di servitore	
 GLOBAL_KEYWORD_MINION_TYPE_REFERENCE_TEXT	Bestia, Demone, Drago, Robot, Murloc, Pirata e Totem.	
 GLOBAL_KEYWORD_OVERLOAD	Sovraccarico: (X)	
@@ -673,6 +680,7 @@ GLOBAL_SPECTATOR_KICK_PROMPT_TEXT	Vuoi davvero impedire a {0} di osservarti? Dis
 GLOBAL_SPECTATOR_LEAVE_PROMPT_HEADER	Modalità spettatore	
 GLOBAL_SPECTATOR_LEAVE_PROMPT_TEXT	Vuoi davvero smettere di osservare?	
 GLOBAL_SPECTATOR_MODE_INDICATOR_TEXT	Modalità spettatore	text that shows up on the bottom left of screen showing that you're currently in Spectator Mode.
+GLOBAL_SPECTATOR_REMOVED_PROMPT_APPEAR_OFFLINE_TEXT	Impostarsi come invisibile disattiva la modalità spettatore.	
 GLOBAL_SPECTATOR_REMOVED_PROMPT_HEADER	Rimosso	
 GLOBAL_SPECTATOR_REMOVED_PROMPT_TEXT	Sei stato rimosso dalla partita che stavi osservando.	
 GLOBAL_SPECTATOR_SERVER_REJECTED_HEADER	Disconnessione	

@@ -45,6 +45,8 @@ GLOBAL_CARD_SET_GANGS_SHORT	Geringontzan
 GLOBAL_CARD_SET_GVG	Goblins x Gnomos	
 GLOBAL_CARD_SET_GVG_SEARCHABLE_SHORTHAND_NAMES	gvg	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_HOF	Salão da Fama	
+GLOBAL_CARD_SET_ICECROWN	Cavaleiros do Trono de Gelo	
+GLOBAL_CARD_SET_ICECROWN_SHORT	Trono de Gelo	
 GLOBAL_CARD_SET_KARA	Uma Noite em Karazhan	
 GLOBAL_CARD_SET_KARA_RESERVE	Reserva de Karazhan	
 GLOBAL_CARD_SET_KARA_SHORT	Karazhan	
@@ -115,6 +117,7 @@ GLOBAL_DATETIME_FRIENDREQUEST_MINUTES	Há {0} |4(minuto,minutos)
 GLOBAL_DATETIME_FRIENDREQUEST_MONTH	há mais de um mês	
 GLOBAL_DATETIME_FRIENDREQUEST_SECONDS	menos de um minuto atrás	
 GLOBAL_DATETIME_FRIENDREQUEST_WEEKS	Há {0} |4(semana,semanas)	
+GLOBAL_DATETIME_GREATER_THAN_X_MINUTES	> {0} |4(minuto,minutos)	
 GLOBAL_DATETIME_LASTONLINE_DAY	Última conexão foi ontem	
 GLOBAL_DATETIME_LASTONLINE_DAYS	Última conexão há {0} |4(dia,dias)	
 GLOBAL_DATETIME_LASTONLINE_HOURS	Última conexão há {0} |4(hora,horas)	
@@ -180,7 +183,7 @@ GLOBAL_ERROR_NETWORK_SPAM	Você foi desconectado dos serviços da Blizzard por e
 GLOBAL_ERROR_NETWORK_TITLE	ERRO DE REDE	
 GLOBAL_ERROR_NETWORK_UNAVAILABLE_OFFLINE	Hearthstone está desconectado. Espere alguns minutos e tente novamente.	
 GLOBAL_ERROR_NETWORK_UNAVAILABLE_UNKNOWN	Opa! Duendes engraçadinhos deram um nó no Hearthstone durante a conexão com os nossos servidores. Já, já eles caem fora. Tente novamente em alguns minutos.	
-GLOBAL_ERROR_NETWORK_UNAVAILABLE_UPGRADE	Você jogou uma versão mais atualizada de Hearthstone em outro dispositivo. Para jogar Hearthstone neste, instale a atualização quando estiver disponível.	
+GLOBAL_ERROR_NETWORK_UNAVAILABLE_UPGRADE	Hearthstone foi atualizado! Baixe a mais nova versão.	
 GLOBAL_ERROR_NETWORK_UTIL_TIMEOUT	O jogo expirou enquanto requisitava dados do serviço de utilidade do Hearthstone. Reinicie o Hearthstone para reconectar.	
 GLOBAL_ERROR_NO_MAGE_PRECON	Encontramos um problema de rede ao carregar todos os cards da sua coleção. Reinicie o Hearthstone para acessar sua coleção e continuar seus duelos.	
 GLOBAL_ERROR_STREAMING_ASSET_TIMEOUT	Expirou enquanto esperava pelo sistema de streaming. Estava carregando o recurso {0}.	0=asset name
@@ -196,6 +199,8 @@ GLOBAL_FIRESIDE_BRAWL	Contenda Fireside
 GLOBAL_FIRESIDE_GATHERING	Encontro Fireside	
 GLOBAL_FIRESIDE_GATHERING_DEFAULT_TAVERN_NAME	Encontro Fireside	
 GLOBAL_FIRESIDE_GATHERING_FIRST_TIME_TAVERN_NAME	Taverna de {0}	0=innkeeper battle tag
+GLOBAL_FIRESIDE_GATHERING_PATRON_LIST_FOOTER_TEXT_LARGE_SCALE	Total de jogadores: 99+	This is shown on the Friends List button whenever player is checked into a large scale Fireside Gathering (one that doesn't show the full patron list). the design decision was to show 99+ regardless of how many people are actually checked in.
+GLOBAL_FIRESIDE_GATHERING_SOCIAL_BUTTON_LARGE_SCALE_LABEL	<size=32>99<size=26>+</size></size>	This is shown on the Friends List button whenever player is checked into a large scale Fireside Gathering (one that doesn't show the full patron list). the design decision was to show 99+ regardless of how many people are actually checked in. NOTE: the size tag was used in enUS to shrink the + sign, to make sure 99+ fit into the small button.
 GLOBAL_FORGE_END_DONE	Pronto	
 GLOBAL_FORGE_END_JOKE_0	Isso foi picante!	
 GLOBAL_FORGE_END_JOKE_1	Estou sem palavras!	
@@ -337,7 +342,7 @@ GLOBAL_KEYWORD_DEATHRATTLE_TEXT	Faz alguma coisa quando morre.
 GLOBAL_KEYWORD_DISCOVER	Descubra	
 GLOBAL_KEYWORD_DISCOVER_TEXT	Escolha um entre três cards para acrescentar à sua mão	
 GLOBAL_KEYWORD_DIVINE_SHIELD	Escudo Divino	
-GLOBAL_KEYWORD_DIVINE_SHIELD_REF_TEXT	Na primeira vez em que um lacaio protegido pelo escudo receber dano, ignore o dano.	
+GLOBAL_KEYWORD_DIVINE_SHIELD_REF_TEXT	Um lacaio protegido ignora dano recebido pela primeira vez.	
 GLOBAL_KEYWORD_DIVINE_SHIELD_TEXT	Na primeira vez em que este lacaio receber dano, ignore o dano.	
 GLOBAL_KEYWORD_ENRAGED	Enfurecer	
 GLOBAL_KEYWORD_ENRAGED_TEXT	Enquanto ferido, este lacaio ganha um novo poder.	
@@ -359,6 +364,8 @@ GLOBAL_KEYWORD_JADE_LOTUS	Lótus de Jade
 GLOBAL_KEYWORD_JADE_LOTUS_COLLECTION_TEXT	Você pode usar em decks de Druida, Ladino ou Xamã.	
 GLOBAL_KEYWORD_KABAL	Kabal	
 GLOBAL_KEYWORD_KABAL_COLLECTION_TEXT	Você pode usar em decks de Sacerdote, Mago ou Bruxo.	
+GLOBAL_KEYWORD_LIFESTEAL	Roubar Vida	
+GLOBAL_KEYWORD_LIFESTEAL_TEXT	O dano causado também cura seu herói.	
 GLOBAL_KEYWORD_MINION_TYPE_REFERENCE	Tipo de Lacaio	
 GLOBAL_KEYWORD_MINION_TYPE_REFERENCE_TEXT	Fera, Demônio, Dragão, Mecanoide, Murloc, Pirata e Totem.	
 GLOBAL_KEYWORD_OVERLOAD	Sobrecarga: X	
@@ -673,6 +680,7 @@ GLOBAL_SPECTATOR_KICK_PROMPT_TEXT	Tem certeza de que deseja remover {0} do modo 
 GLOBAL_SPECTATOR_LEAVE_PROMPT_HEADER	Sair do modo Espectador	
 GLOBAL_SPECTATOR_LEAVE_PROMPT_TEXT	Tem certeza de que deseja parar de assistir?	
 GLOBAL_SPECTATOR_MODE_INDICATOR_TEXT	Modo Espectador	text that shows up on the bottom left of screen showing that you're currently in Spectator Mode.
+GLOBAL_SPECTATOR_REMOVED_PROMPT_APPEAR_OFFLINE_TEXT	Aparecer offline remove você do Modo Espectador.	
 GLOBAL_SPECTATOR_REMOVED_PROMPT_HEADER	Removido	
 GLOBAL_SPECTATOR_REMOVED_PROMPT_TEXT	Você foi removido do modo espectador.	
 GLOBAL_SPECTATOR_SERVER_REJECTED_HEADER	Espectador desconectado	

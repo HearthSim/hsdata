@@ -1,6 +1,4 @@
 TAG	TEXT	COMMENT
-GAMEPLAY_ADVENTURE_BOSS_HEROIC	영웅	Shows under heroic boss names in adventures
-GAMEPLAY_ADVENTURE_BOSS_NORMAL	일반	Shows under normal boss names in adventures
 GAMEPLAY_AI_OPPONENT_NAME	여관주인	
 GAMEPLAY_CHOOSE_ONE	하나 선택	will be displayed for card choices e.g. tracking
 GAMEPLAY_CHOOSE_ONE_ADAPT_ALL_MINIONS	내 하수인들에게 부여할 효과 선택:	
@@ -13,6 +11,7 @@ GAMEPLAY_COPY_DEATHRATTLE	{0}의 죽음의 메아리 능력 복사
 GAMEPLAY_DISCONNECT_BODY	게임이 완료되고 저장되었습니다! 하스스톤을 다시 시작해주세요.	
 GAMEPLAY_DISCONNECT_BODY_RESET	게임이 완료되고 저장되었습니다! 하스스톤 서버에 다시 접속합니다.	
 GAMEPLAY_DISCONNECT_HEADER	연결 끊김	
+GAMEPLAY_EMOTE_LABEL_DISABLED_EMOTES	...	
 GAMEPLAY_EMOTE_LABEL_FIREWORKS	감탄	
 GAMEPLAY_EMOTE_LABEL_GREETINGS	인사	
 GAMEPLAY_EMOTE_LABEL_OOPS	이런!	
@@ -24,13 +23,14 @@ GAMEPLAY_EMOTE_LABEL_WOW	감탄
 GAMEPLAY_EMOTE_SQUELCH	차단	
 GAMEPLAY_EMOTE_UNSQUELCH	차단 풀기	
 GAMEPLAY_END_OF_GAME_DEFEAT	패배!	
+GAMEPLAY_END_OF_GAME_DEFEAT_MAYBE	패배?	
 GAMEPLAY_END_OF_GAME_VICTORY	승리!	
 GAMEPLAY_END_OF_GAME_VICTORY_MAYBE	승리?	
 GAMEPLAY_END_TURN	턴 종료	
 GAMEPLAY_ENEMY_TURN	상대 턴	
 GAMEPLAY_ERROR_PLAY_REJECTED	제한 시간 종료!	
-GAMEPLAY_FATIGUE_HISTORY_TEXT	덱에 카드가 떨어지면, 카드를 뽑아야 할 때마다 점차 큰 피해를 입습니다.	
-GAMEPLAY_FATIGUE_TEXT	카드가 없습니다! {0}의 피해를 입습니다.	
+GAMEPLAY_FATIGUE_HISTORY_TEXT	덱에 카드가 떨어지면, 카드를 뽑아야 할 때마다 점차 큰 피해를 받습니다.	
+GAMEPLAY_FATIGUE_TEXT	카드가 없습니다! {0}의 피해를 받습니다.	
 GAMEPLAY_FATIGUE_TITLE	탈진	
 GAMEPLAY_GOLDHERO_WINS	승!	
 GAMEPLAY_HISTORY_CREATED_BY	{0} 카드로\n생성됨	0=name of a card
@@ -52,7 +52,7 @@ GAMEPLAY_PlayErrors_REQ_CAN_BE_TARGETED_BY_HERO_POWERS	영웅 능력의 대상�
 GAMEPLAY_PlayErrors_REQ_CAN_BE_TARGETED_BY_OPPONENTS	그 캐릭터는 대상으로 삼을 수 없습니다.	
 GAMEPLAY_PlayErrors_REQ_CAN_BE_TARGETED_BY_SPELLS	주문의 대상이 될 수 없습니다.	
 GAMEPLAY_PlayErrors_REQ_CHARGE_TARGET	돌진 능력이 있는 캐릭터를 선택해야 합니다.	
-GAMEPLAY_PlayErrors_REQ_DAMAGED_TARGET	피해를 입은 캐릭터를 선택해야 합니다.	
+GAMEPLAY_PlayErrors_REQ_DAMAGED_TARGET	피해를 받은 캐릭터를 선택해야 합니다.	
 GAMEPLAY_PlayErrors_REQ_DRAG_TO_PLAY	끌어서 대상을 선택해야 합니다	
 GAMEPLAY_PlayErrors_REQ_ENCHANTED_TARGET	강화된 캐릭터를 선택해야 합니다.	
 GAMEPLAY_PlayErrors_REQ_ENEMY_TARGET	적을 선택해야 합니다.	
@@ -65,6 +65,7 @@ GAMEPLAY_PlayErrors_REQ_FRIENDLY_MINION_DIED_THIS_GAME	이번 게임에서 죽�
 GAMEPLAY_PlayErrors_REQ_FRIENDLY_MINION_DIED_THIS_TURN	이번 턴에는 아군 하수인이 하나도 죽지 않았습니다.	
 GAMEPLAY_PlayErrors_REQ_FRIENDLY_TARGET	아군 캐릭터를 선택해야 합니다.	
 GAMEPLAY_PlayErrors_REQ_FROZEN_TARGET	얼어붙은 캐릭터를 선택해야 합니다.	
+GAMEPLAY_PlayErrors_REQ_HAND_NOT_FULL	손에 빈 공간이 없습니다.	
 GAMEPLAY_PlayErrors_REQ_HERO_OR_MINION_TARGET	캐릭터를 선택해야 합니다.	
 GAMEPLAY_PlayErrors_REQ_HERO_TARGET	영웅을 선택해야 합니다.	
 GAMEPLAY_PlayErrors_REQ_LEGENDARY_TARGET	전설 하수인을 선택해야 합니다.	
@@ -77,9 +78,11 @@ GAMEPLAY_PlayErrors_REQ_MINION_CAP_IF_TARGET_AVAILABLE	하수인을 더 불러�
 GAMEPLAY_PlayErrors_REQ_MINION_OR_ENEMY_HERO	하수인이나 적 영웅을 선택해야 합니다.	
 GAMEPLAY_PlayErrors_REQ_MINION_SLOT_OR_MANA_CRYSTAL_SLOT	하수인을 더 불러내거나 마나 수정을 더 얻을 수 없습니다.	
 GAMEPLAY_PlayErrors_REQ_MINION_TARGET	하수인을 선택해야 합니다.	
+GAMEPLAY_PlayErrors_REQ_MUST_PLAY_OTHER_CARD_FIRST	우선 카드를 내야 합니다.	
 GAMEPLAY_PlayErrors_REQ_MUST_TARGET_TAUNTER	도발 능력이 있는 하수인을 선택해야 합니다.	
 GAMEPLAY_PlayErrors_REQ_NONSELF_TARGET	자기 자신을 선택할 수 없습니다.	
 GAMEPLAY_PlayErrors_REQ_NONSTEALTH_ENEMY_TARGET	은신한 캐릭터는 대상으로 삼거나 공격할 수 없습니다.	
+GAMEPLAY_PlayErrors_REQ_NOT_DISABLED_HERO_POWER	영웅 능력을 사용할 수 없습니다.	
 GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_ACTIVATE	그 캐릭터는 이미 공격을 마쳤습니다.	
 GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_HERO_POWER	영웅 능력은 한 턴에 한 번 사용할 수 있습니다.	
 GAMEPLAY_PlayErrors_REQ_NOT_MINION_JUST_PLAYED	이번 턴에 낸 하수인은 곧바로 공격할 수 없습니다.	
@@ -99,13 +102,15 @@ GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE_AND_MINIMUM_FRIENDLY_SECRETS	대상�
 GAMEPLAY_PlayErrors_REQ_TARGET_MAGNET	대상으로 삼아야 하는 하수인이 존재합니다.	
 GAMEPLAY_PlayErrors_REQ_TARGET_MAX_ATTACK	공격력이 {0} 이하인 캐릭터를 선택해야 합니다.	
 GAMEPLAY_PlayErrors_REQ_TARGET_MIN_ATTACK	공격력이 {0} 이상인 캐릭터를 선택해야 합니다.	
+GAMEPLAY_PlayErrors_REQ_TARGET_NOT_DAMAGEABLE_ONLY_BY_WEAPONS	그 캐릭터는 무기로만 피해를 줄 수 있습니다.	
+GAMEPLAY_PlayErrors_REQ_TARGET_NOT_VAMPIRE	이미 흡혈귀인 하수인입니다.	
 GAMEPLAY_PlayErrors_REQ_TARGET_TAUNTER_CHARACTER	도발 능력이 있는 캐릭터가 가로막고 있습니다.	
 GAMEPLAY_PlayErrors_REQ_TARGET_TAUNTER_MINION	도발 능력이 있는 하수인이 가로막고 있습니다.	
 GAMEPLAY_PlayErrors_REQ_TARGET_TO_PLAY	대상이 없으면 그 카드를 낼 수 없습니다.	
 GAMEPLAY_PlayErrors_REQ_TARGET_WITH_BATTLECRY	전투의 함성 능력이 있는 캐릭터를 선택해야 합니다.	
 GAMEPLAY_PlayErrors_REQ_TARGET_WITH_DEATHRATTLE	죽음의 메아리 능력이 있는 캐릭터를 선택해야 합니다.	
 GAMEPLAY_PlayErrors_REQ_TARGET_WITH_RACE	적절한 종족이 아닙니다.	
-GAMEPLAY_PlayErrors_REQ_UNDAMAGED_TARGET	피해를 입지 않은 캐릭터를 선택해야 합니다.	
+GAMEPLAY_PlayErrors_REQ_UNDAMAGED_TARGET	피해를 받지 않은 캐릭터를 선택해야 합니다.	
 GAMEPLAY_PlayErrors_REQ_UNIQUE_SECRET	이미 그 비밀을 사용했습니다.	
 GAMEPLAY_PlayErrors_REQ_WEAPON_EQUIPPED	무기가 필요합니다.	
 GAMEPLAY_SCORE_SCREEN_TITLE_CONGRATS	축하합니다!	
@@ -125,9 +130,9 @@ GAMEPLAY_TOOLTIP_ENEMYHAND_DESC	상대 손에 카드가 {0}|4(장,장) 있습니
 GAMEPLAY_TOOLTIP_ENEMYHAND_DESC_SINGLE	상대 손에 카드가 {0}|4(장,장) 있습니다.	0= number of cards in hand.
 GAMEPLAY_TOOLTIP_ENEMYHAND_DESC_TUT	상대가 낼 수 있는 카드입니다. 턴마다 한 장씩 뽑습니다.	
 GAMEPLAY_TOOLTIP_ENEMYHAND_HEADLINE	상대방의 카드	
-GAMEPLAY_TOOLTIP_FATIGUE_DECK_DESCRIPTION	카드가 없습니다! 카드를 뽑아야 할 때마다 피해를 입습니다.	
+GAMEPLAY_TOOLTIP_FATIGUE_DECK_DESCRIPTION	카드가 없습니다! 카드를 뽑아야 할 때마다 피해를 받습니다.	
 GAMEPLAY_TOOLTIP_FATIGUE_DECK_HEADLINE	탈진	
-GAMEPLAY_TOOLTIP_FATIGUE_ENEMYDECK_DESCRIPTION	상대방이 카드가 없습니다! 상대방은 카드를 뽑아야 할 때마다 피해를 입습니다.	
+GAMEPLAY_TOOLTIP_FATIGUE_ENEMYDECK_DESCRIPTION	상대방이 카드가 없습니다! 상대방은 카드를 뽑아야 할 때마다 피해를 받습니다.	
 GAMEPLAY_TOOLTIP_FATIGUE_ENEMYDECK_HEADLINE	탈진	
 GAMEPLAY_TOOLTIP_HAND_DESCRIPTION	내 손에 카드가 {0}|4(장,장) 있습니다.	
 GAMEPLAY_TOOLTIP_HAND_FULL_DESCRIPTION	내 손에 카드가 {0}|4(장,장) 있습니다! 카드를 더 가질 수 없습니다.	

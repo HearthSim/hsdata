@@ -1,6 +1,4 @@
 TAG	TEXT	COMMENT
-GAMEPLAY_ADVENTURE_BOSS_HEROIC	HEROICO	Shows under heroic boss names in adventures
-GAMEPLAY_ADVENTURE_BOSS_NORMAL	NORMAL	Shows under normal boss names in adventures
 GAMEPLAY_AI_OPPONENT_NAME	El Tabernero	
 GAMEPLAY_CHOOSE_ONE	Elige una opción	will be displayed for card choices e.g. tracking
 GAMEPLAY_CHOOSE_ONE_ADAPT_ALL_MINIONS	Elige uno para todos tus esbirros:	
@@ -13,6 +11,7 @@ GAMEPLAY_COPY_DEATHRATTLE	Estertor copiado de {0}.
 GAMEPLAY_DISCONNECT_BODY	¡Partida terminada y grabada! Reinicia Hearthstone para continuar. 	
 GAMEPLAY_DISCONNECT_BODY_RESET	¡Partida terminada y grabada! Te estamos reconectando con los servidores de Hearthstone. 	
 GAMEPLAY_DISCONNECT_HEADER	Desconectado 	
+GAMEPLAY_EMOTE_LABEL_DISABLED_EMOTES	...	
 GAMEPLAY_EMOTE_LABEL_FIREWORKS	Guau	
 GAMEPLAY_EMOTE_LABEL_GREETINGS	Hola	
 GAMEPLAY_EMOTE_LABEL_OOPS	Ups	
@@ -24,6 +23,7 @@ GAMEPLAY_EMOTE_LABEL_WOW	Guau
 GAMEPLAY_EMOTE_SQUELCH	Suprimir	
 GAMEPLAY_EMOTE_UNSQUELCH	Activar	
 GAMEPLAY_END_OF_GAME_DEFEAT	¡Has perdido!	
+GAMEPLAY_END_OF_GAME_DEFEAT_MAYBE	¿Derrota?	
 GAMEPLAY_END_OF_GAME_VICTORY	¡Has ganado!	
 GAMEPLAY_END_OF_GAME_VICTORY_MAYBE	¿Habrás ganado?	
 GAMEPLAY_END_TURN	LISTO	
@@ -65,6 +65,7 @@ GAMEPLAY_PlayErrors_REQ_FRIENDLY_MINION_DIED_THIS_GAME	Ningún esbirro aliado ha
 GAMEPLAY_PlayErrors_REQ_FRIENDLY_MINION_DIED_THIS_TURN	Ningún esbirro aliado ha muerto en este turno	
 GAMEPLAY_PlayErrors_REQ_FRIENDLY_TARGET	Selecciona un personaje aliado	
 GAMEPLAY_PlayErrors_REQ_FROZEN_TARGET	Selecciona un personaje Congelado	
+GAMEPLAY_PlayErrors_REQ_HAND_NOT_FULL	Tu mano está llena	
 GAMEPLAY_PlayErrors_REQ_HERO_OR_MINION_TARGET	Debes hacer objetivo en un esbirro	
 GAMEPLAY_PlayErrors_REQ_HERO_TARGET	Debes hacer objetivo en un héroe	
 GAMEPLAY_PlayErrors_REQ_LEGENDARY_TARGET	Debes hacer objetivo en un esbirro legendario	
@@ -77,9 +78,11 @@ GAMEPLAY_PlayErrors_REQ_MINION_CAP_IF_TARGET_AVAILABLE	No puedes tener más esbi
 GAMEPLAY_PlayErrors_REQ_MINION_OR_ENEMY_HERO	Selecciona un esbirro o al héroe enemigo	
 GAMEPLAY_PlayErrors_REQ_MINION_SLOT_OR_MANA_CRYSTAL_SLOT	Ya no puedes tener más esbirros\nni más Cristales de maná	
 GAMEPLAY_PlayErrors_REQ_MINION_TARGET	Selecciona un esbirro	
+GAMEPLAY_PlayErrors_REQ_MUST_PLAY_OTHER_CARD_FIRST	Debes jugar una carta primero	
 GAMEPLAY_PlayErrors_REQ_MUST_TARGET_TAUNTER	Debes hacer objetivo en un esbirro con Provocación	
 GAMEPLAY_PlayErrors_REQ_NONSELF_TARGET	El esbirro no puede hacer objetivo sobre sí mismo	
 GAMEPLAY_PlayErrors_REQ_NONSTEALTH_ENEMY_TARGET	No se puede hacer objetivo o atacar a personajes en Sigilo	
+GAMEPLAY_PlayErrors_REQ_NOT_DISABLED_HERO_POWER	Tu Poder de héroe está deshabilitado	
 GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_ACTIVATE	Ese personaje ya atacó	
 GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_HERO_POWER	Los Poderes de héroe solo pueden usarse una vez por turno	
 GAMEPLAY_PlayErrors_REQ_NOT_MINION_JUST_PLAYED	Los esbirros no pueden atacar \ndurante el turno en que se juegan	
@@ -99,6 +102,8 @@ GAMEPLAY_PlayErrors_REQ_TARGET_IF_AVAILABLE_AND_MINIMUM_FRIENDLY_SECRETS	No pued
 GAMEPLAY_PlayErrors_REQ_TARGET_MAGNET	Hay un esbirro al que debes hacer objetivo	
 GAMEPLAY_PlayErrors_REQ_TARGET_MAX_ATTACK	Selecciona un personaje con {0} de Ataque o menos	
 GAMEPLAY_PlayErrors_REQ_TARGET_MIN_ATTACK	Selecciona un personaje con {0} de Ataque o más	
+GAMEPLAY_PlayErrors_REQ_TARGET_NOT_DAMAGEABLE_ONLY_BY_WEAPONS	Solo las armas pueden dañar a ese personaje	
+GAMEPLAY_PlayErrors_REQ_TARGET_NOT_VAMPIRE	Ese esbirro ya es un vampiro	
 GAMEPLAY_PlayErrors_REQ_TARGET_TAUNTER_CHARACTER	Hay un personaje con Provocación en el camino	
 GAMEPLAY_PlayErrors_REQ_TARGET_TAUNTER_MINION	Hay un esbirro con Provocación en el camino	
 GAMEPLAY_PlayErrors_REQ_TARGET_TO_PLAY	No puedes hacer esa jugada sin un objetivo	

@@ -45,6 +45,8 @@ GLOBAL_CARD_SET_GANGS_SHORT	加基森
 GLOBAL_CARD_SET_GVG	地精大战侏儒	
 GLOBAL_CARD_SET_GVG_SEARCHABLE_SHORTHAND_NAMES	地精大战侏儒	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_HOF	荣誉室	
+GLOBAL_CARD_SET_ICECROWN	冰封王座的骑士	
+GLOBAL_CARD_SET_ICECROWN_SHORT	冰封王座	
 GLOBAL_CARD_SET_KARA	卡拉赞之夜	
 GLOBAL_CARD_SET_KARA_RESERVE	卡拉赞保留	
 GLOBAL_CARD_SET_KARA_SHORT	卡拉赞	
@@ -115,6 +117,7 @@ GLOBAL_DATETIME_FRIENDREQUEST_MINUTES	{0}分钟以前
 GLOBAL_DATETIME_FRIENDREQUEST_MONTH	一个多月以前	
 GLOBAL_DATETIME_FRIENDREQUEST_SECONDS	小于一分钟以前	
 GLOBAL_DATETIME_FRIENDREQUEST_WEEKS	{0}星期以前	
+GLOBAL_DATETIME_GREATER_THAN_X_MINUTES	> {0}分钟	
 GLOBAL_DATETIME_LASTONLINE_DAY	上次在线：昨天	
 GLOBAL_DATETIME_LASTONLINE_DAYS	上次在线：{0}天以前	
 GLOBAL_DATETIME_LASTONLINE_HOURS	上次在线：{0}小时以前	
@@ -180,7 +183,7 @@ GLOBAL_ERROR_NETWORK_SPAM	由于你在短时间内发送请求过多，你与暴
 GLOBAL_ERROR_NETWORK_TITLE	网络错误	
 GLOBAL_ERROR_NETWORK_UNAVAILABLE_OFFLINE	《炉石传说》现在处于离线状态。请等待几分钟后再次尝试。	
 GLOBAL_ERROR_NETWORK_UNAVAILABLE_UNKNOWN	哎哟！调皮的小精灵干扰了《炉石传说》与服务器的连接。请稍等片刻，在它们消散之后再次尝试。	
-GLOBAL_ERROR_NETWORK_UNAVAILABLE_UPGRADE	你在其他设备上运行过《炉石传说》的更新版本。如需在此设备上运行《炉石传说》，请更新到最新版本。	
+GLOBAL_ERROR_NETWORK_UNAVAILABLE_UPGRADE	《炉石传说》已更新，请下载最新版本。	
 GLOBAL_ERROR_NETWORK_UTIL_TIMEOUT	你的游戏向《炉石传说》设备服务发送的请求已超时。请重新启动《炉石传说》，尝试重新连接。	
 GLOBAL_ERROR_NO_MAGE_PRECON	在读取你的卡牌收藏时遇到了一些网络问题。请重新运行《炉石传说》来查看你的收藏，并继续对战！	
 GLOBAL_ERROR_STREAMING_ASSET_TIMEOUT	等待流媒体系统超时，正在载入数组{0}。	0=asset name
@@ -196,6 +199,8 @@ GLOBAL_FIRESIDE_BRAWL	炉边乱斗
 GLOBAL_FIRESIDE_GATHERING	炉边聚会	
 GLOBAL_FIRESIDE_GATHERING_DEFAULT_TAVERN_NAME	炉边聚会	
 GLOBAL_FIRESIDE_GATHERING_FIRST_TIME_TAVERN_NAME	{0}的酒馆	0=innkeeper battle tag
+GLOBAL_FIRESIDE_GATHERING_PATRON_LIST_FOOTER_TEXT_LARGE_SCALE	玩家数量：99+	This is shown on the Friends List button whenever player is checked into a large scale Fireside Gathering (one that doesn't show the full patron list). the design decision was to show 99+ regardless of how many people are actually checked in.
+GLOBAL_FIRESIDE_GATHERING_SOCIAL_BUTTON_LARGE_SCALE_LABEL	<size=32>99<size=26>+</size></size>	This is shown on the Friends List button whenever player is checked into a large scale Fireside Gathering (one that doesn't show the full patron list). the design decision was to show 99+ regardless of how many people are actually checked in. NOTE: the size tag was used in enUS to shrink the + sign, to make sure 99+ fit into the small button.
 GLOBAL_FORGE_END_DONE	完成	
 GLOBAL_FORGE_END_JOKE_0	这可真带劲儿！	
 GLOBAL_FORGE_END_JOKE_1	我无话可说！	
@@ -308,8 +313,8 @@ GLOBAL_HERO_LEVEL_REWARD_BOOSTER	{0}加速卡牌包	0=booster type
 GLOBAL_HERO_LEVEL_REWARD_GOLD	{0}金币	0=amount
 GLOBAL_HERO_LEVEL_REWARD_GOLDEN_CARD	{0}{1}	0=flair 1=card name
 GLOBAL_HERO_WINS	获胜局数：{0}/{1}	0=number of games this class has won 1=number of wins to get golden
-GLOBAL_HERO_WINS_PAST_MAX	获胜次数：{0}	0=number of games this class has won
-GLOBAL_HERO_WINS_PAST_MAX_PHONE	获胜次数：\n{0}	0=number of games this class has won
+GLOBAL_HERO_WINS_PAST_MAX	获胜局数：{0}	0=number of games this class has won
+GLOBAL_HERO_WINS_PAST_MAX_PHONE	获胜局数：\n{0}	0=number of games this class has won
 GLOBAL_HERO_WINS_PHONE	获胜\n{0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HEROIC_BRAWL	英雄乱斗模式	
 GLOBAL_HIDE	隐藏	
@@ -359,6 +364,8 @@ GLOBAL_KEYWORD_JADE_LOTUS	玉莲帮
 GLOBAL_KEYWORD_JADE_LOTUS_COLLECTION_TEXT	该卡牌可应用于德鲁伊、潜行者或萨满祭司套牌。	
 GLOBAL_KEYWORD_KABAL	暗金教	
 GLOBAL_KEYWORD_KABAL_COLLECTION_TEXT	该卡牌可应用于牧师、法师或术士套牌。	
+GLOBAL_KEYWORD_LIFESTEAL	吸血	
+GLOBAL_KEYWORD_LIFESTEAL_TEXT	造成伤害的同时，为你的英雄恢复等量的生命值。	
 GLOBAL_KEYWORD_MINION_TYPE_REFERENCE	随从类型	
 GLOBAL_KEYWORD_MINION_TYPE_REFERENCE_TEXT	野兽、恶魔、龙、机械、鱼人、海盗和图腾。	
 GLOBAL_KEYWORD_OVERLOAD	过载：X	
@@ -575,7 +582,7 @@ GLOBAL_REWARD_BOOSTER_HEADLINE_GENERIC	获得卡牌包！
 GLOBAL_REWARD_BOOSTER_HEADLINE_MULTIPLE	获得{0}包\n卡牌包！ 	
 GLOBAL_REWARD_BOOSTER_HEADLINE_OUT_OF_BAND	获得卡牌包！	
 GLOBAL_REWARD_BOOSTER_HEADLINE_OUT_OF_BAND_MULTI	获得卡牌包！	
-GLOBAL_REWARD_CARD_BACK_HEADLINE	获得卡牌背面图案！	
+GLOBAL_REWARD_CARD_BACK_HEADLINE	获得卡牌背面\n图案！	
 GLOBAL_REWARD_CARD_COUNT_MULTIPLIER	x	
 GLOBAL_REWARD_CARD_DETAILS_TUTORIAL01	干得好！	
 GLOBAL_REWARD_CARD_DETAILS_TUTORIAL02	挺厉害的嘛。	
@@ -673,6 +680,7 @@ GLOBAL_SPECTATOR_KICK_PROMPT_TEXT	你确定想要移除观众{0}吗？如果你�
 GLOBAL_SPECTATOR_LEAVE_PROMPT_HEADER	离开观众模式	
 GLOBAL_SPECTATOR_LEAVE_PROMPT_TEXT	你确定想要退出观众模式吗？	
 GLOBAL_SPECTATOR_MODE_INDICATOR_TEXT	观众模式	text that shows up on the bottom left of screen showing that you're currently in Spectator Mode.
+GLOBAL_SPECTATOR_REMOVED_PROMPT_APPEAR_OFFLINE_TEXT	你处在隐身状态下，已被移除出观众模式。	
 GLOBAL_SPECTATOR_REMOVED_PROMPT_HEADER	已移除	
 GLOBAL_SPECTATOR_REMOVED_PROMPT_TEXT	你已被移除，无法继续观看。	
 GLOBAL_SPECTATOR_SERVER_REJECTED_HEADER	观众断开连接	
