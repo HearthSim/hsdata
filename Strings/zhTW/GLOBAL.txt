@@ -1,5 +1,6 @@
 TAG	TEXT	COMMENT
 GLOBAL_ACCOUNT	帳號	
+GLOBAL_ADDFRIEND_BUTTON	新增好友	
 GLOBAL_ADDFRIEND_ERROR_ALREADY_FRIEND	此人已經是你的好友。	
 GLOBAL_ADDFRIEND_ERROR_MALFORMED	你必須輸入一個電子郵件信箱或Battle Tag。	
 GLOBAL_ADDFRIEND_HEADER	新增好友	
@@ -23,11 +24,13 @@ GLOBAL_ARENA_MEDAL_6	白金鑰匙
 GLOBAL_ARENA_MEDAL_7	鑽石鑰匙	
 GLOBAL_ARENA_MEDAL_8	勇士鑰匙	
 GLOBAL_ARENA_MEDAL_9	紅寶石鑰匙	
+GLOBAL_ARENA_SEASON_ERROR_NOT_ACTIVE	抱歉。你所指定的競技場模式目前無法使用。請稍候幾分鐘再重新嘗試。	
 GLOBAL_ATTACK	攻擊力	
 GLOBAL_BACK	返回	
 GLOBAL_BASIC_DECK_NAME	{0}	0=class name
 GLOBAL_BETA_REIMBURSEMENT_DETAILS	這些金幣是從你過去的消費總金額返還的。謝謝你！	
 GLOBAL_BETA_REIMBURSEMENT_HEADLINE	帳號清空返還	
+GLOBAL_BUTTON_AWESOME	太棒了！	
 GLOBAL_BUTTON_NEXT	繼續	
 GLOBAL_BUTTON_NO	不要	
 GLOBAL_BUTTON_OK	確定	
@@ -197,9 +200,12 @@ GLOBAL_FEATURE_DISABLED_TITLE	已關閉
 GLOBAL_FINISH	結束	
 GLOBAL_FIRESIDE_BRAWL	爐邊大亂鬥	
 GLOBAL_FIRESIDE_GATHERING	爐邊聚會	
+GLOBAL_FIRESIDE_GATHERING_CHOOSE_HEADER	選擇聚會活動	
 GLOBAL_FIRESIDE_GATHERING_DEFAULT_TAVERN_NAME	爐邊聚會	
 GLOBAL_FIRESIDE_GATHERING_FIRST_TIME_TAVERN_NAME	{0}的旅店	0=innkeeper battle tag
-GLOBAL_FIRESIDE_GATHERING_PATRON_LIST_FOOTER_TEXT_LARGE_SCALE	目前玩家數：99+	This is shown on the Friends List button whenever player is checked into a large scale Fireside Gathering (one that doesn't show the full patron list). the design decision was to show 99+ regardless of how many people are actually checked in.
+GLOBAL_FIRESIDE_GATHERING_PATRON_LIST_FOOTER_TEXT_LARGE_SCALE	這場爐邊聚會玩家總數：{0}+	This is shown on the Friends List button whenever player is checked into a large scale Fireside Gathering (one that doesn't show the full patron list). the design decision was to show 99+ regardless of how many people are actually checked in.
+GLOBAL_FIRESIDE_GATHERING_PATRON_LIST_FOOTER_TEXT_SOFT_LIMIT	這場爐邊聚會玩家總數：{0}	0=The number of patrons up to 99.
+GLOBAL_FIRESIDE_GATHERING_REUNPACK	更新設定	
 GLOBAL_FIRESIDE_GATHERING_SOCIAL_BUTTON_LARGE_SCALE_LABEL	<size=32>99<size=26>+</size></size>	This is shown on the Friends List button whenever player is checked into a large scale Fireside Gathering (one that doesn't show the full patron list). the design decision was to show 99+ regardless of how many people are actually checked in. NOTE: the size tag was used in enUS to shrink the + sign, to make sure 99+ fit into the small button.
 GLOBAL_FORGE_END_DONE	完成	
 GLOBAL_FORGE_END_JOKE_0	這可真麻辣！	
@@ -260,11 +266,13 @@ GLOBAL_FRIENDLIST_FRIENDS_HEADER	{0}/{1}位好友在線上	0=number of online fr
 GLOBAL_FRIENDLIST_FRIENDS_HEADER_ALL_ONLINE	{0}位好友在線上	
 GLOBAL_FRIENDLIST_LASTPLAYED	上一個對手：	
 GLOBAL_FRIENDLIST_MYSTATUS	線上	
+GLOBAL_FRIENDLIST_NEARBY_PLAYERS_DISABLED_HEADER	附近的玩家(已關閉)	
 GLOBAL_FRIENDLIST_NEARBY_PLAYERS_HEADER	附近的玩家 - {0}	0=number of players
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_ALERT_MESSAGE	你確定要移除{0}嗎？	0=friend name
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_BUTTON	移除	
 GLOBAL_FRIENDLIST_REQUEST_SENT_TIME	於{0}送出	0=one of the GLOBAL_DATETIME_ELAPSED_ strings
 GLOBAL_FRIENDLIST_REQUESTS_HEADER	好友邀請-{0}則	0=number of received friend requests
+GLOBAL_FRIENDLIST_SPECTATE_MENU_DESCRIPTION	{0}正在進行一場賽局	0=player name
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_AVAILABLE_HEADER	觀賞此賽局	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_AVAILABLE_TEXT	點選來開始觀賞此玩家的賽局。	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_AVAILABLE_TEXT_TOUCH	輕點以開始觀賞此玩家的賽局。	
@@ -510,6 +518,7 @@ GLOBAL_PLAY_STANDARD	標準\n對 戰
 GLOBAL_PLAY_WILD	開放\n對 戰	
 GLOBAL_PLAYER_PLAYER	玩家	this is the word for generic "Player" - this will be used when there a player's name is unknown at the time.
 GLOBAL_PRACTICE_MAX_LEVEL_REACHED	練習模式最高等級	
+GLOBAL_PROGRAMNAME_DESTINY2	《天命2》	
 GLOBAL_PROGRAMNAME_DIABLO3	《暗黑破壞神III》	
 GLOBAL_PROGRAMNAME_HEARTHSTONE	《爐石戰記》	
 GLOBAL_PROGRAMNAME_HEROES	《暴雪英霸》	
@@ -621,6 +630,7 @@ GLOBAL_REWARD_HERO_SOURCE	擊敗{0}後解鎖	0=class
 GLOBAL_REWARD_HEROES_CARD_MOUNT_HEADLINE	爐石飛卡坐騎	
 GLOBAL_SCAN	掃描	
 GLOBAL_SCREENSHOT_COMPLETE	螢幕截圖已存到桌面上	
+GLOBAL_SCREENSHOT_COMPLETE_SPECIFIC_DIRECTORY	螢幕截圖已存到{0}	0=The directory that the file was saved to
 GLOBAL_SEASON_END_BONUS_STAR_BOOST	你的獎勵星星使你獲得	
 GLOBAL_SEASON_END_BONUS_STAR_TITLE	上一賽季的階級使你獲得	
 GLOBAL_SEASON_END_BONUS_STARS_LABEL	額外的星星	
@@ -671,6 +681,7 @@ GLOBAL_SOCIAL_TOAST_SPECTATOR_ADDED	<color=#{0}>{1}</color>開始觀賞你的賽
 GLOBAL_SOCIAL_TOAST_SPECTATOR_INVITE_RECEIVED	<color=#{0}>{1}</color>邀請你去觀賞賽局！	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_SPECTATOR_INVITE_SENT	觀戰邀請已發給<color=#{0}>{1}</color>。	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_SPECTATOR_REMOVED	<color=#{0}>{1}</color>已經停止觀戰。	0=name color,1=player name
+GLOBAL_SPECTATE	觀戰	
 GLOBAL_SPECTATOR_COUNT_PANEL_HEADER	觀戰清單	
 GLOBAL_SPECTATOR_COUNT_PANEL_TEXT_ONE	{0}正在觀戰。	0=player name, this is shown when there's only 1 person spectating you.
 GLOBAL_SPECTATOR_ERROR_CREATE_PARTY_TEXT	創建觀戰隊伍時發生錯誤。	

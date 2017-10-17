@@ -1,5 +1,6 @@
 TAG	TEXT	COMMENT
 GLOBAL_ACCOUNT	บัญชี	
+GLOBAL_ADDFRIEND_BUTTON	เพิ่มเป็นเพื่อน	
 GLOBAL_ADDFRIEND_ERROR_ALREADY_FRIEND	บุคคลนั้นเป็นเพื่อนของคุณอยู่แล้ว	
 GLOBAL_ADDFRIEND_ERROR_MALFORMED	คุณต้องป้อนอีเมลแอดเดรสหรือ Battle Tag	
 GLOBAL_ADDFRIEND_HEADER	เพิ่มเพื่อน	
@@ -23,11 +24,13 @@ GLOBAL_ARENA_MEDAL_6	กุญแจแพลทินัม
 GLOBAL_ARENA_MEDAL_7	กุญแจเพชร	
 GLOBAL_ARENA_MEDAL_8	กุญแจแชมเปี้ยน	
 GLOBAL_ARENA_MEDAL_9	กุญแจทับทิม	
+GLOBAL_ARENA_SEASON_ERROR_NOT_ACTIVE	ขออภัย ไม่มีโหมดลานประลองที่ต้องการเล่นอีกต่อไป โปรดรอสักครู่แล้วลองอีกครั้ง	
 GLOBAL_ATTACK	พลังโจมตี	
 GLOBAL_BACK	ย้อนกลับ	
 GLOBAL_BASIC_DECK_NAME	{0}	0=class name
 GLOBAL_BETA_REIMBURSEMENT_DETAILS	โกลด์นี้คือเครดิตสำหรับการซื้อที่ผ่านมาของคุณ ขอบคุณ!	
 GLOBAL_BETA_REIMBURSEMENT_HEADLINE	เครดิตการล้างบัญชี	
+GLOBAL_BUTTON_AWESOME	สุดยอด!	
 GLOBAL_BUTTON_NEXT	ถัดไป	
 GLOBAL_BUTTON_NO	ไม่	
 GLOBAL_BUTTON_OK	ตกลง	
@@ -60,9 +63,9 @@ GLOBAL_CARD_SET_OG_RESERVE	จองสำหรับเทพโบราณ
 GLOBAL_CARD_SET_OG_SEARCHABLE_SHORTHAND_NAMES	tog wotog wog	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.  For Whispers of the Old Gods, 'tog' should be available in all locales; wotog and wog are additional English shorthands, which should be replaced by locale specific variants.
 GLOBAL_CARD_SET_OG_SHORT	เทพโบราณ	
 GLOBAL_CARD_SET_PROMO	โปรโมชั่น	
-GLOBAL_CARD_SET_TGT	Grand Tournament	
+GLOBAL_CARD_SET_TGT	The Grand Tournament	
 GLOBAL_CARD_SET_TGT_SEARCHABLE_SHORTHAND_NAMES	tgt	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
-GLOBAL_CARD_SET_TGT_SHORT	Grand Tournament	
+GLOBAL_CARD_SET_TGT_SHORT	The Grand Tournament	
 GLOBAL_CARD_SET_UNGORO	Journey to Un'Goro	
 GLOBAL_CARD_SET_UNGORO_SHORT	Un'Goro	
 GLOBAL_CARDTYPE_ENCHANTMENT	ผลพิเศษ	
@@ -189,7 +192,7 @@ GLOBAL_ERROR_NO_MAGE_PRECON	เราพบปัญหาเครือข่�
 GLOBAL_ERROR_STREAMING_ASSET_TIMEOUT	หมดเวลาขณะที่รอระบบสตรีมมิ่ง กำลังโหลดแอสเซ็ท {0}	0=asset name
 GLOBAL_ERROR_UNKNOWN_ERROR	ขอโทษที! ภูติขี้เล่นเข้ามาก่อกวน Hearthstone ขณะพยายามเชื่อมโยงกับบริการ Blizzard โปรดรอสักครู่เพื่อให้พวกมันหนีไปก่อน แล้วลองเปิดเกมใหม่อีกครั้ง	
 GLOBAL_EXIT	ออก	
-GLOBAL_FEATURE_DISABLED_MESSAGE_COLLECTION	ขออภัย ขณะนี้ไม่สามารถเข้าสู่คอลเล็กชันได้	
+GLOBAL_FEATURE_DISABLED_MESSAGE_COLLECTION	ขออภัย ขณะนี้ไม่สามารถเข้าสู่คอลเลกชันได้	
 GLOBAL_FEATURE_DISABLED_MESSAGE_FORGE	ขออภัย ขณะนี้ไม่สามารถเข้าสู่ลานประลองได้	
 GLOBAL_FEATURE_DISABLED_MESSAGE_PLAY	ขออภัย ขณะนี้ไม่สามารถเข้าสู่โหมดแข่งขันได้	
 GLOBAL_FEATURE_DISABLED_MESSAGE_PRACTICE	ขออภัย ขณะนี้ไม่สามารถเข้าสู่โหมดฝึกฝนได้	
@@ -197,9 +200,12 @@ GLOBAL_FEATURE_DISABLED_TITLE	ปิดใช้งาน
 GLOBAL_FINISH	เสร็จสิ้น	
 GLOBAL_FIRESIDE_BRAWL	เกมท้าประลอง Fireside	
 GLOBAL_FIRESIDE_GATHERING	Fireside Gathering	
+GLOBAL_FIRESIDE_GATHERING_CHOOSE_HEADER	เลือกตัวเลือก	
 GLOBAL_FIRESIDE_GATHERING_DEFAULT_TAVERN_NAME	Fireside Gathering	
 GLOBAL_FIRESIDE_GATHERING_FIRST_TIME_TAVERN_NAME	โรงเตี๊ยมของ {0}	0=innkeeper battle tag
-GLOBAL_FIRESIDE_GATHERING_PATRON_LIST_FOOTER_TEXT_LARGE_SCALE	ผู้เล่นทั้งหมด: 99+	This is shown on the Friends List button whenever player is checked into a large scale Fireside Gathering (one that doesn't show the full patron list). the design decision was to show 99+ regardless of how many people are actually checked in.
+GLOBAL_FIRESIDE_GATHERING_PATRON_LIST_FOOTER_TEXT_LARGE_SCALE	ผู้เล่น {0}+ คนที่ Fireside นี้	This is shown on the Friends List button whenever player is checked into a large scale Fireside Gathering (one that doesn't show the full patron list). the design decision was to show 99+ regardless of how many people are actually checked in.
+GLOBAL_FIRESIDE_GATHERING_PATRON_LIST_FOOTER_TEXT_SOFT_LIMIT	ผู้เล่น {0} คนที่ Fireside นี้	0=The number of patrons up to 99.
+GLOBAL_FIRESIDE_GATHERING_REUNPACK	อัพเดตการตั้งค่า	
 GLOBAL_FIRESIDE_GATHERING_SOCIAL_BUTTON_LARGE_SCALE_LABEL	<size=32>99<size=26>+</size></size>	This is shown on the Friends List button whenever player is checked into a large scale Fireside Gathering (one that doesn't show the full patron list). the design decision was to show 99+ regardless of how many people are actually checked in. NOTE: the size tag was used in enUS to shrink the + sign, to make sure 99+ fit into the small button.
 GLOBAL_FORGE_END_DONE	เสร็จสิ้น	
 GLOBAL_FORGE_END_JOKE_0	จี๊ดจริงๆ!	
@@ -260,11 +266,13 @@ GLOBAL_FRIENDLIST_FRIENDS_HEADER	เพื่อน - ออนไลน์ {0}/
 GLOBAL_FRIENDLIST_FRIENDS_HEADER_ALL_ONLINE	เพื่อน - {0} ออนไลน์	
 GLOBAL_FRIENDLIST_LASTPLAYED	เล่นครั้งล่าสุด:	
 GLOBAL_FRIENDLIST_MYSTATUS	ออนไลน์	
+GLOBAL_FRIENDLIST_NEARBY_PLAYERS_DISABLED_HEADER	ผู้เล่นใกล้เคียง (ปิดใช้งาน)	
 GLOBAL_FRIENDLIST_NEARBY_PLAYERS_HEADER	ผู้เล่นที่อยู่ใกล้ - {0}	0=number of players
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_ALERT_MESSAGE	คุณแน่ใจหรือไม่ว่าต้องการลบ {0}	0=friend name
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_BUTTON	ลบออก	
 GLOBAL_FRIENDLIST_REQUEST_SENT_TIME	ส่ง: {0}	0=one of the GLOBAL_DATETIME_ELAPSED_ strings
 GLOBAL_FRIENDLIST_REQUESTS_HEADER	คำขอเป็นเพื่อน - {0}	0=number of received friend requests
+GLOBAL_FRIENDLIST_SPECTATE_MENU_DESCRIPTION	{0} เล่นเกมอยู่	0=player name
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_AVAILABLE_HEADER	ชมเกมนี้	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_AVAILABLE_TEXT	คลิกเพื่อเริ่มชมเกมของผู้เล่นคนนี้	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_AVAILABLE_TEXT_TOUCH	แตะที่นี่เพื่อเริ่มชมเกมของผู้เล่นคนนี้	
@@ -510,6 +518,7 @@ GLOBAL_PLAY_STANDARD	เล่นมาตรฐาน
 GLOBAL_PLAY_WILD	เล่นอิสระ	
 GLOBAL_PLAYER_PLAYER	ผู้เล่น	this is the word for generic "Player" - this will be used when there a player's name is unknown at the time.
 GLOBAL_PRACTICE_MAX_LEVEL_REACHED	เลเวลการฝึกฝนสูงสุด	
+GLOBAL_PROGRAMNAME_DESTINY2	Destiny 2	
 GLOBAL_PROGRAMNAME_DIABLO3	Diablo III	
 GLOBAL_PROGRAMNAME_HEARTHSTONE	Hearthstone	
 GLOBAL_PROGRAMNAME_HEROES	Heroes of the Storm	
@@ -621,6 +630,7 @@ GLOBAL_REWARD_HERO_SOURCE	ปลดล็อคด้วยการเอาช
 GLOBAL_REWARD_HEROES_CARD_MOUNT_HEADLINE	พาหนะการ์ด Hearthstone	
 GLOBAL_SCAN	สแกน	
 GLOBAL_SCREENSHOT_COMPLETE	บันทึกภาพหน้าจอไปยังเดสก์ท็อปแล้ว	
+GLOBAL_SCREENSHOT_COMPLETE_SPECIFIC_DIRECTORY	บันทึกภาพหน้าจอไปยัง{0}แล้ว	0=The directory that the file was saved to
 GLOBAL_SEASON_END_BONUS_STAR_BOOST	ดาวโบนัสของคุณเพิ่มระดับให้คุณเป็น	
 GLOBAL_SEASON_END_BONUS_STAR_TITLE	ระดับของคุณจากฤดูกาลที่ผ่านมาทำให้คุณได้รับดาวโบนัส	
 GLOBAL_SEASON_END_BONUS_STARS_LABEL	ดวง	
@@ -671,6 +681,7 @@ GLOBAL_SOCIAL_TOAST_SPECTATOR_ADDED	<color=#{0}>{1}</color> เริ่มช�
 GLOBAL_SOCIAL_TOAST_SPECTATOR_INVITE_RECEIVED	<color=#{0}>{1}</color> เชิญให้คุณชมเกม!	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_SPECTATOR_INVITE_SENT	ส่งคำเชิญให้ชมไปที่ <color=#{0}>{1}</color> แล้ว	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_SPECTATOR_REMOVED	<color=#{0}>{1}</color> ไม่ได้ชมเกมของคุณอีกต่อไป	0=name color,1=player name
+GLOBAL_SPECTATE	ชมเกม	
 GLOBAL_SPECTATOR_COUNT_PANEL_HEADER	ผู้ชมกำลังดู	
 GLOBAL_SPECTATOR_COUNT_PANEL_TEXT_ONE	{0} กำลังดูเกมของคุณอยู่	0=player name, this is shown when there's only 1 person spectating you.
 GLOBAL_SPECTATOR_ERROR_CREATE_PARTY_TEXT	เกิดข้อผิดพลาดในการสร้างปาร์ตี้ผู้ชม	

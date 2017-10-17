@@ -1,5 +1,6 @@
 TAG	TEXT	COMMENT
 GLOBAL_ACCOUNT	Account	
+GLOBAL_ADDFRIEND_BUTTON	Aggiungi come amico	
 GLOBAL_ADDFRIEND_ERROR_ALREADY_FRIEND	Questa persona è già nel tuo elenco amici.	
 GLOBAL_ADDFRIEND_ERROR_MALFORMED	Devi digitare un indirizzo e-mail o un BattleTag.	
 GLOBAL_ADDFRIEND_HEADER	Aggiungi un amico	
@@ -23,11 +24,13 @@ GLOBAL_ARENA_MEDAL_6	Chiave di Platino
 GLOBAL_ARENA_MEDAL_7	Chiave di Diamante	
 GLOBAL_ARENA_MEDAL_8	Chiave da Campione	
 GLOBAL_ARENA_MEDAL_9	Chiave di Rubino	
+GLOBAL_ARENA_SEASON_ERROR_NOT_ACTIVE	Spiacenti, la modalità Arena richiesta non è più disponibile. Attendi qualche minuto e riprova.	
 GLOBAL_ATTACK	Attacco	
 GLOBAL_BACK	Indietro	
 GLOBAL_BASIC_DECK_NAME	{0}	0=class name
 GLOBAL_BETA_REIMBURSEMENT_DETAILS	Questo è l'oro accreditato per gli acquisti passati. Grazie mille!	
 GLOBAL_BETA_REIMBURSEMENT_HEADLINE	Credito del reset dell'account	
+GLOBAL_BUTTON_AWESOME	Ottimo!	
 GLOBAL_BUTTON_NEXT	Avanti	
 GLOBAL_BUTTON_NO	No	
 GLOBAL_BUTTON_OK	OK	
@@ -197,9 +200,12 @@ GLOBAL_FEATURE_DISABLED_TITLE	Disattivato
 GLOBAL_FINISH	Fine	
 GLOBAL_FIRESIDE_BRAWL	Rissa Fireside	
 GLOBAL_FIRESIDE_GATHERING	Fireside Gathering	
+GLOBAL_FIRESIDE_GATHERING_CHOOSE_HEADER	Scegli un'opzione	
 GLOBAL_FIRESIDE_GATHERING_DEFAULT_TAVERN_NAME	Fireside Gathering	
 GLOBAL_FIRESIDE_GATHERING_FIRST_TIME_TAVERN_NAME	Locanda di {0}	0=innkeeper battle tag
-GLOBAL_FIRESIDE_GATHERING_PATRON_LIST_FOOTER_TEXT_LARGE_SCALE	Giocatori totali: 99+	This is shown on the Friends List button whenever player is checked into a large scale Fireside Gathering (one that doesn't show the full patron list). the design decision was to show 99+ regardless of how many people are actually checked in.
+GLOBAL_FIRESIDE_GATHERING_PATRON_LIST_FOOTER_TEXT_LARGE_SCALE	Più di {0} giocatori a questo Gathering.	This is shown on the Friends List button whenever player is checked into a large scale Fireside Gathering (one that doesn't show the full patron list). the design decision was to show 99+ regardless of how many people are actually checked in.
+GLOBAL_FIRESIDE_GATHERING_PATRON_LIST_FOOTER_TEXT_SOFT_LIMIT	{0} giocatori a questo Gathering.	0=The number of patrons up to 99.
+GLOBAL_FIRESIDE_GATHERING_REUNPACK	Modifica configurazione	
 GLOBAL_FIRESIDE_GATHERING_SOCIAL_BUTTON_LARGE_SCALE_LABEL	<size=32>99<size=26>+</size></size>	This is shown on the Friends List button whenever player is checked into a large scale Fireside Gathering (one that doesn't show the full patron list). the design decision was to show 99+ regardless of how many people are actually checked in. NOTE: the size tag was used in enUS to shrink the + sign, to make sure 99+ fit into the small button.
 GLOBAL_FORGE_END_DONE	Fine	
 GLOBAL_FORGE_END_JOKE_0	Davvero sbalorditivo!	
@@ -260,11 +266,13 @@ GLOBAL_FRIENDLIST_FRIENDS_HEADER	AMICI - {0}/{1} online	0=number of online frien
 GLOBAL_FRIENDLIST_FRIENDS_HEADER_ALL_ONLINE	AMICI - {0} online	
 GLOBAL_FRIENDLIST_LASTPLAYED	Ultima partita:	
 GLOBAL_FRIENDLIST_MYSTATUS	ONLINE	
+GLOBAL_FRIENDLIST_NEARBY_PLAYERS_DISABLED_HEADER	GIOCATORI VICINI (Disattivato)	
 GLOBAL_FRIENDLIST_NEARBY_PLAYERS_HEADER	GIOCATORI VICINI - {0}	0=number of players
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_ALERT_MESSAGE	Vuoi davvero rimuovere {0}?	0=friend name
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_BUTTON	Rimuovi	
 GLOBAL_FRIENDLIST_REQUEST_SENT_TIME	Inviata: {0}	0=one of the GLOBAL_DATETIME_ELAPSED_ strings
 GLOBAL_FRIENDLIST_REQUESTS_HEADER	RICHIESTE D'AMICIZIA - {0}	0=number of received friend requests
+GLOBAL_FRIENDLIST_SPECTATE_MENU_DESCRIPTION	{0} sta giocando una partita.	0=player name
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_AVAILABLE_HEADER	Osserva questa partita	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_AVAILABLE_TEXT	Clicca qui per iniziare a osservare la partita di questo giocatore.	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_AVAILABLE_TEXT_TOUCH	Tocca qui per iniziare a osservare la partita di questo giocatore.	
@@ -510,6 +518,7 @@ GLOBAL_PLAY_STANDARD	Gioca in Standard
 GLOBAL_PLAY_WILD	Gioca in Selvaggio	
 GLOBAL_PLAYER_PLAYER	Giocatore	this is the word for generic "Player" - this will be used when there a player's name is unknown at the time.
 GLOBAL_PRACTICE_MAX_LEVEL_REACHED	Massimo livello contro IA	
+GLOBAL_PROGRAMNAME_DESTINY2	Destiny 2	
 GLOBAL_PROGRAMNAME_DIABLO3	Diablo III	
 GLOBAL_PROGRAMNAME_HEARTHSTONE	Hearthstone	
 GLOBAL_PROGRAMNAME_HEROES	Heroes of the Storm	
@@ -621,6 +630,7 @@ GLOBAL_REWARD_HERO_SOURCE	Ricompensa per aver sconfitto l'eroe {0}	0=class
 GLOBAL_REWARD_HEROES_CARD_MOUNT_HEADLINE	Cavalcatura Carta di Hearthstone	
 GLOBAL_SCAN	Ricerca	
 GLOBAL_SCREENSHOT_COMPLETE	Immagine salvata sul desktop.	
+GLOBAL_SCREENSHOT_COMPLETE_SPECIFIC_DIRECTORY	Immagine salvata in {0}	0=The directory that the file was saved to
 GLOBAL_SEASON_END_BONUS_STAR_BOOST	Le Stelle bonus danno accesso al grado	
 GLOBAL_SEASON_END_BONUS_STAR_TITLE	Il tuo grado nella scorsa stagione dà diritto a	
 GLOBAL_SEASON_END_BONUS_STARS_LABEL	|4(Stella bonus,Stelle bonus)	
@@ -671,6 +681,7 @@ GLOBAL_SOCIAL_TOAST_SPECTATOR_ADDED	<color=#{0}>{1}</color> sta osservando la tu
 GLOBAL_SOCIAL_TOAST_SPECTATOR_INVITE_RECEIVED	<color=#{0}>{1}</color> ti ha invitato a osservare la sua partita!	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_SPECTATOR_INVITE_SENT	Invito a osservare inviato a <color=#{0}>{1}</color>.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_SPECTATOR_REMOVED	<color=#{0}>{1}</color> non sta più osservando la tua partita.	0=name color,1=player name
+GLOBAL_SPECTATE	Osserva	
 GLOBAL_SPECTATOR_COUNT_PANEL_HEADER	Osservatori presenti	
 GLOBAL_SPECTATOR_COUNT_PANEL_TEXT_ONE	{0} ti sta osservando.	0=player name, this is shown when there's only 1 person spectating you.
 GLOBAL_SPECTATOR_ERROR_CREATE_PARTY_TEXT	Errore durante la creazione del gruppo di osservazione.	

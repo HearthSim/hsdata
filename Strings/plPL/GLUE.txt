@@ -28,6 +28,21 @@ GLUE_ARENA_1ST_TIME_HEADER	Arena
 GLUE_ARENA_DECK	Talia na Arenę	
 GLUE_ARENA_DECK_TOOLTIP	To twoja talia na Arenę. Te karty nie należą do twojej kolekcji.	
 GLUE_ARENA_DECK_TOOLTIP_HEADER	Talia na Arenę	
+GLUE_ARENA_LABEL_SEASON_ENDING_DAYS	Koniec wydarzenia za {0} |4(dzień,dni,dni)	
+GLUE_ARENA_LABEL_SEASON_ENDING_HOURS	Koniec wydarzenia za {0} |4(godzinę,godziny,godzin)	
+GLUE_ARENA_LABEL_SEASON_ENDING_MINUTES	Koniec wydarzenia za {0} |4(minutę,minuty,minut)	
+GLUE_ARENA_LABEL_SEASON_ENDING_OVER_1_MONTH	Koniec wydarzenia za > 1 miesiąc	
+GLUE_ARENA_LABEL_SEASON_ENDING_SECONDS	Koniec wydarzenia za {0} |4(sekundę,sekundy,sekund)	
+GLUE_ARENA_LABEL_SEASON_ENDING_WEEKS	Koniec wydarzenia za {0} |4(tydzień,tygodnie,tygodni)	
+GLUE_ARENA_POPUP_COMING_SOON_HEADER_DAYS	Otwarcie za {0} |4(dzień,dni,dni)	
+GLUE_ARENA_POPUP_COMING_SOON_HEADER_HOURS	Otwarcie za {0} |4(godzinę,godziny,godzin)	
+GLUE_ARENA_POPUP_COMING_SOON_HEADER_MONTHS	Otwarcie za {0} |4(miesiąc,miesiące,miesięcy)	
+GLUE_ARENA_POPUP_COMING_SOON_HEADER_WEEKS	Otwarcie za {0} |4(tydzień,tygodnie,tygodni)	
+GLUE_ARENA_POPUP_ENDING_SOON_HEADER_DAYS	Koniec za {0} |4(dzień,dni,dni)	
+GLUE_ARENA_POPUP_ENDING_SOON_HEADER_HOURS	Koniec za {0} |4(godzinę,godziny,godzin)	
+GLUE_ARENA_POPUP_ENDING_SOON_HEADER_MONTHS	Koniec za {0} |4(miesiąc,miesiące,miesięcy)	
+GLUE_ARENA_POPUP_ENDING_SOON_HEADER_WEEKS	Koniec za {0} |4(tydzień,tygodnie,tygodni)	
+GLUE_ARENA_SIGNUPS_CLOSED	Ta Arena niedługo się zakończy. Zapisy zostały wyłączone.	
 GLUE_ARENA_VIEW_DECK	Obejrzyj talię	
 GLUE_BASIC_DECK_WARNING_BODY	Choć w formacie standardowym dozwolone są talie podstawowe, to złożenie nowej talii może przynieść lepsze wyniki!	
 GLUE_BASIC_DECK_WARNING_HEADER	Talia podstawowa	
@@ -263,7 +278,7 @@ GLUE_CREATE_STANDARD_DECK	Stwórz talię standardową
 GLUE_CREATE_WILD_DECK	Stwórz talię dziką	
 GLUE_DECK_TEMPLATE_CHOOSE_DECK	Szablony: {0}	0=name of class (e.g. Shaman)
 GLUE_DECK_TEMPLATE_CURRENT_DECK	Aktualna talia	
-GLUE_DECK_TEMPLATE_CUSTOM_DECK	Niestandardowa talia	
+GLUE_DECK_TEMPLATE_CUSTOM_DECK	Własna talia	
 GLUE_DECK_TEMPLATE_CUSTOM_DECK_DESCRIPTION	Złóż własną talię!	
 GLUE_DECK_TRAY_CARD_COUNT_LABEL	kart	
 GLUE_DECK_TRAY_COUNT	{0}/{1}	
@@ -275,6 +290,8 @@ GLUE_DISABLED_WILD_DECK_DESC	Nie można używać\nw Standardzie. Przełącz na D
 GLUE_DISABLED_WILD_DECK_HEADER	Dzika talia	
 GLUE_DONT_SHOW_ME_THIS_AGAIN	Nie pokazuj tego ponownie	
 GLUE_DRAFT_HERO_INSTRUCTIONS	Wybierz bohatera	
+GLUE_DRAFT_HERO_POWER_INSTRUCTIONS_DETAIL	Otrzymasz jej moc specjalną i będziesz dobierać karty z obu klas.	
+GLUE_DRAFT_HERO_POWER_INSTRUCTIONS_TITLE	Wybierz dodatkową klasę	
 GLUE_DRAFT_INSTRUCTIONS	Wybierz kartę	
 GLUE_DRAFT_LOSSES_LABEL	Porażki:	
 GLUE_DRAFT_MATCH_PROG	Postępy na Arenie	
@@ -296,40 +313,50 @@ GLUE_FIRESIDE_GATHERING_ADD_MORE_ACCESS_POINTS	Dodaj więcej
 GLUE_FIRESIDE_GATHERING_BETA_TITLE	<color=#c01c1cff><size=23>BETA</size></color> Fireside Gatherings	Here we can use size and color tags and when necessary, add the BETA label while we are doing slow rollout of the feature.
 GLUE_FIRESIDE_GATHERING_BRAWL	Bójka przy kominku	
 GLUE_FIRESIDE_GATHERING_BRAWL_UNAVAILABLE	Bójka przy kominku niedostępna.	
-GLUE_FIRESIDE_GATHERING_CONNECT_TO_WIFI_BODY	Połącz się z siecią Wi-Fi powiązaną z tą imprezą Fireside Gathering. Pomiń ten krok, jeśli nie ma dostępnej sieci Wi-Fi.	
+GLUE_FIRESIDE_GATHERING_BRAWLS_BUTTON	Bójki przy kominku	
+GLUE_FIRESIDE_GATHERING_CHOOSE_OPPONENT	Wybierz przeciwnika	
+GLUE_FIRESIDE_GATHERING_CONNECT_TO_WIFI_BODY	Połącz się z siecią Wi-Fi powiązaną z tym spotkaniem Fireside Gathering. Pomiń ten krok, jeśli nie ma dostępnej sieci Wi-Fi.	
 GLUE_FIRESIDE_GATHERING_CONNECT_TO_WIFI_NO_WIFI_BUTTON	Brak Wi-Fi	
 GLUE_FIRESIDE_GATHERING_CONNECT_TO_WIFI_SSID_CONFIRM_BODY	To nie ta? Nim przejdziesz dalej, połącz swoje urządzenie z inną siecią.	
 GLUE_FIRESIDE_GATHERING_CONNECT_TO_WIFI_SSID_CONFIRM_TITLE	Twoje obecne połączenie:	
 GLUE_FIRESIDE_GATHERING_CONNECT_TO_WIFI_TITLE	Połącz się z Wi-Fi	
 GLUE_FIRESIDE_GATHERING_CONNECT_TO_WIFI_USE_WIFI_BUTTON	Dalej	
-GLUE_FIRESIDE_GATHERING_FIND_EVENT_BODY	Weź udział w pobliskiej imprezie, dołącz do innych graczy i zagraj z nimi w Hearthstone. Hearthstone sprawdzi twoją lokalizację i dostępne sieci Wi-Fi, aby znaleźć imprezy Fireside Gathering w okolicy i cię na nie wpisać.	
-GLUE_FIRESIDE_GATHERING_INKEEPER_CONNECT_TO_WIFI_BODY	Połącz się z siecią Wi-Fi, której chcesz używać podczas tej imprezy Fireside Gathering. Lub pomiń ten krok, jeśli nie ma dostępnej sieci Wi-Fi.	
+GLUE_FIRESIDE_GATHERING_DESCRIPTION_TEXT	Witaj!\nCzas poznać nowych znajomych i zagrać!	
+GLUE_FIRESIDE_GATHERING_DUELS_BUTTON	Przyjacielskie\npojedynki	
+GLUE_FIRESIDE_GATHERING_FIND_EVENT_BODY	Weź udział w pobliskim spotkaniu, dołącz do innych graczy i zagraj z nimi w Hearthstone. Hearthstone sprawdzi twoją lokalizację i dostępne sieci Wi-Fi, aby znaleźć spotkaniu Fireside Gathering w okolicy i cię na nie wpisać.	
+GLUE_FIRESIDE_GATHERING_FOOTER_EMPTY_FIRST_LINE	Nikt nie podjął wyzwania.	
+GLUE_FIRESIDE_GATHERING_FOOTER_EMPTY_SECOND_LINE	Pojawią się tutaj jedynie goście z gotową talią, którzy jeszcze nie są w grze. Zajrzyj ponownie później!	
+GLUE_FIRESIDE_GATHERING_FOOTER_PARTIAL_FIRST_LINE	Kogoś brakuje?	
+GLUE_FIRESIDE_GATHERING_FOOTER_PARTIAL_SECOND_LINE	Na tej liście widnieją gracze z gotową talią, którzy nie mają jeszcze przeciwnika. Zajrzyj ponownie później!	
+GLUE_FIRESIDE_GATHERING_INKEEPER_CONNECT_TO_WIFI_BODY	Połącz się z siecią Wi-Fi, której chcesz używać podczas tego spotkania Fireside Gathering. Lub pomiń ten krok, jeśli nie ma dostępnej sieci Wi-Fi.	
 GLUE_FIRESIDE_GATHERING_INKEEPER_SETUP	Rozpakowywanie skrzyń...	
 GLUE_FIRESIDE_GATHERING_INKEEPER_SETUP_FAILED_BODY	Upewnij się, że masz włączone usługi lokalizacji lub posiadasz połączenie z siecią Wi-Fi. Następnie spróbuj ponownie z listy znajomych.	
 GLUE_FIRESIDE_GATHERING_INKEEPER_SETUP_FAILED_TITLE	Przygotowania nieudane	
-GLUE_FIRESIDE_GATHERING_INKEEPER_SIGN_SUCCESS_NOTE	Twoja karczma jest otwarta!	
+GLUE_FIRESIDE_GATHERING_INKEEPER_SIGN_SUCCESS_NOTE	Twoja Karczma jest otwarta!	
 GLUE_FIRESIDE_GATHERING_INNKEEPER_CLICK_TO_SETUP	Kliknij tutaj, aby rozpocząć przygotowania!	
 GLUE_FIRESIDE_GATHERING_INNKEEPER_CLICK_TO_SETUP_PHONE	Dotknij tutaj, aby rozpocząć przygotowania!	
 GLUE_FIRESIDE_GATHERING_INNKEEPER_CLICK_TO_SETUP_TITLE	Nadchodzące spotkanie	
-GLUE_FIRESIDE_GATHERING_INNKEEPER_CONNECT_TO_WIFI_SSID_CONFIRM_TITLE	Użyć tego połączenia dla twojej imprezy Fireside Gathering?	
-GLUE_FIRESIDE_GATHERING_INNKEEPER_SETUP_BODY	Witaj, karczmarzu! {0} to piękne miejsce! Czy chcesz zorganizować swoją imprezę Fireside Gathering?	
+GLUE_FIRESIDE_GATHERING_INNKEEPER_CONNECT_TO_WIFI_SSID_CONFIRM_TITLE	Użyć tego połączenia dla twojego spotkania Fireside Gathering?	
+GLUE_FIRESIDE_GATHERING_INNKEEPER_LOBBY_ARRIVE	Witam na naszej imprezie Fireside Gathering!	
+GLUE_FIRESIDE_GATHERING_INNKEEPER_SETUP_BODY	Witaj, Karczmarzu! {0} to piękne miejsce! Czy chcesz zorganizować swoje spotkanie Fireside Gathering?	
 GLUE_FIRESIDE_GATHERING_INNKEEPER_TOOLTIP	Zacznij przygotowania tutaj!	
-GLUE_FIRESIDE_GATHERING_INNKEEPER_TURN_ON_GPS_BODY	Udostępnij swoje położenie w następnym oknie, aby pomóc innym odkryć twoją imprezę i wziąć udział w Fireside Gathering!	
-GLUE_FIRESIDE_GATHERING_INNKEEPER_TURN_ON_WIFI_BODY	Włącz Wi-Fi w następnym oknie, aby pomóc innym odkryć twoją imprezę i wziąć udział w Fireside Gathering!	
+GLUE_FIRESIDE_GATHERING_INNKEEPER_TURN_ON_GPS_BODY	Udostępnij swoje położenie w następnym oknie, aby pomóc innym odkryć twoje spotkanie i wziąć udział w Fireside Gathering!	
+GLUE_FIRESIDE_GATHERING_INNKEEPER_TURN_ON_WIFI_BODY	Włącz Wi-Fi w następnym oknie, aby pomóc innym odkryć twoje spotkanie i wziąć udział w Fireside Gathering!	
 GLUE_FIRESIDE_GATHERING_NETWORK_CONFIRM_BODY	Zanim przejdziesz dalej, upewnij się, że masz połączenie z właściwą siecią Wi-Fi	
 GLUE_FIRESIDE_GATHERING_NETWORK_CONFIRM_TITLE	Przygotujemy Fireside Gathering korzystając z aktualnego połączenia Wi-Fi	
-GLUE_FIRESIDE_GATHERING_NO_WIFI_SUCCESS	Gratulacje! Twoja karczma jest gotowa. Zawsze możesz zaktualizować ustawienia w liście znajomych, aby dodać też dostęp Wi-Fi!	
+GLUE_FIRESIDE_GATHERING_NO_WIFI_SUCCESS	Gratulacje! Twoja Karczma jest gotowa. Zawsze możesz zaktualizować ustawienia w liście znajomych, aby dodać też dostęp Wi-Fi!	
+GLUE_FIRESIDE_GATHERING_OFFICIAL_FIRESIDE_DESCRIPTION	To oficjalna bójka przy kominku w rotacji.	
 GLUE_FIRESIDE_GATHERING_PLAY_FSG_BRAWL	Specjalna Bójka dostępna tylko podczas Fireside Gathering	
 GLUE_FIRESIDE_GATHERING_PLAY_REGULAR_BRAWL	Weź udział w regularnych Bójkach	
 GLUE_FIRESIDE_GATHERING_SCAN_NO_GPS_OR_WIFI	Ta opcja jest dostępna tylko na urządzeniach posiadających GPS lub Wi-Fi.	
-GLUE_FIRESIDE_GATHERING_SEARCH_FAILURE_BODY	Kliknij „Więcej”, aby poszukać Fireside Gathering w pobliżu lub samemu zorganizować taką imprezę!	
-GLUE_FIRESIDE_GATHERING_SEARCH_FAILURE_BODY_PHONE	Dotknij „Więcej”, aby poszukać Fireside Gathering w pobliżu lub samemu zorganizować taką imprezę!	
-GLUE_FIRESIDE_GATHERING_SEARCH_FAILURE_TITLE	Brak imprezy Fireside Gathering w tym miejscu	
+GLUE_FIRESIDE_GATHERING_SEARCH_FAILURE_BODY	Kliknij „Więcej”, aby poszukać Fireside Gathering w pobliżu lub samemu zorganizować takie spotkanie!	
+GLUE_FIRESIDE_GATHERING_SEARCH_FAILURE_BODY_PHONE	Dotknij „Więcej”, aby poszukać Fireside Gathering w pobliżu lub samemu zorganizować takie spotkanie!	
+GLUE_FIRESIDE_GATHERING_SEARCH_FAILURE_TITLE	Brak spotkań Fireside Gathering w tym miejscu	
 GLUE_FIRESIDE_GATHERING_SEARCHING	Wyszukiwanie...	
-GLUE_FIRESIDE_GATHERING_TITLE	Imprezy Fireside Gathering	
-GLUE_FIRESIDE_GATHERING_TURN_ON_GPS_BODY	Włączenie usług lokalizacji pomoże w znalezieniu imprezy Fireside Gathering. Możesz to zrobić w następnym oknie.	
+GLUE_FIRESIDE_GATHERING_TITLE	Spotkania Fireside Gathering	
+GLUE_FIRESIDE_GATHERING_TURN_ON_GPS_BODY	Włączenie usług lokalizacji pomoże w znalezieniu spotkań Fireside Gathering. Możesz to zrobić w następnym oknie.	
 GLUE_FIRESIDE_GATHERING_TURN_ON_GPS_TITLE	Włącz usługi lokalizacji	
-GLUE_FIRESIDE_GATHERING_TURN_ON_WIFI_BODY	Włączenie Wi-Fi pomoże w znalezieniu imprezy Fireside Gathering. Możesz to zrobić w następnym oknie.	
+GLUE_FIRESIDE_GATHERING_TURN_ON_WIFI_BODY	Włączenie Wi-Fi pomoże w znalezieniu spotkań Fireside Gathering. Możesz to zrobić w następnym oknie.	
 GLUE_FIRESIDE_GATHERING_TURN_ON_WIFI_TITLE	Włącz Wi-Fi	
 GLUE_FIRESIDE_GATHERING_UPDATING_LOCATION	Aktualizowanie mojej lokalizacji	
 GLUE_FIRESIDE_GATHERING_UPDATING_LOCATION_FAILED	Nie można zlokalizować	
@@ -350,16 +377,20 @@ GLUE_FORGE_STORE_ADMISSION	Wstęp
 GLUE_FORGE_STORE_DETAILS1	Przygotuj talię z losowych kart i sprawdź, jak długo przetrwasz na Arenie.	
 GLUE_FORGE_STORE_DETAILS2	Im dłużej wytrzymasz, tym lepsza będzie nagroda!	
 GLUE_FORGE_STORE_HEADLINE	Witamy na Arenie! 	
+GLUE_FRIEND_LIST_ADD_FRIENDS	Dodaj znajomego	
+GLUE_FRIEND_LIST_FIND_FSG	Znajdź spotkanie Fireside Gathering	
+GLUE_FRIEND_LIST_REFER_FRIENDS	Zrekrutuj przyjaciela	
+GLUE_FRIEND_LIST_REMOVE_FRIENDS	Usuń znajomego	
 GLUE_FROST_FESTIVAL_FREE_ARENA_WIN_DESC	Ahun dodaje darmową wygraną do każdej serii rozpoczętej na Arenie w trakcie Festiwalu Mrozu. Czy Ragnaros by tak zrobił? Szczerze wątpię.	
 GLUE_FROST_FESTIVAL_FREE_ARENA_WIN_HEADLINE	MASZ WYGRANĄ ZA FRIKO	
 GLUE_FROSTMOURNE_REWARD_BODY	Pokonaj Króla Lisza każdą klasą, aby zdobyć Księcia Arthasa! Pozostały:	
 GLUE_FROSTMOURNE_REWARD_HEADER	Nowy paladyn	
 GLUE_FROSTMOURNE_WING_INCOMPLETE_REWARD_BODY	Pokonaj Króla Lisza każdą klasą, aby zdobyć Księcia Arthasa!	
-GLUE_FSG_BRAWL_PLAY_SUBTITLE	Przejdź do listy znajomych i rzuć wyzwanie komuś z imprezy Fireside Gathering!	
+GLUE_FSG_BRAWL_PLAY_SUBTITLE	Przejdź do listy znajomych i rzuć wyzwanie komuś ze spotkania Fireside Gathering!	
 GLUE_FSG_BRAWL_PLAY_TITLE	Zaczynamy bójkę?	
 GLUE_FSG_FOUND	Znaleziono Fireside Gathering!	
-GLUE_FSG_HAPPENING_HERE_TEXT	Trwa tu impreza Fireside Gathering!\nChcesz dołączyć?	
-GLUE_FSG_NEARBY_TOOLTIP	Właśnie trwa impreza Fireside Gathering!	
+GLUE_FSG_HAPPENING_HERE_TEXT	Trwa tu spotkanie Fireside Gathering!\nChcesz dołączyć?	
+GLUE_FSG_NEARBY_TOOLTIP	Właśnie trwa spotkanie Fireside Gathering!	
 GLUE_FSG_NOT_FOUND	Nie znaleziono	
 GLUE_FSG_NOT_FOUND_BODY	Oj! Wygląda na to, że nie ma tutaj imprezy Fireside Gathering. Chcesz poszukać innej w pobliżu?	
 GLUE_FSG_NOT_NOW	Nie teraz	
@@ -407,7 +438,7 @@ GLUE_HEROIC_BRAWL_SESSION_LIMIT_ALERT_DESCRIPTION_NORMAL	Pozostałe heroiczne b�
 GLUE_HEROIC_BRAWL_SESSION_LIMIT_ALERT_LIMIT_HIT	Rozegrano maksymalną liczbę heroicznych bójek.	
 GLUE_HEROIC_BRAWL_SESSION_LIMIT_ALERT_LIMIT_RAISED	Karczmarz podniósł limit heroicznych bójek. Masz jeszcze {0}.	
 GLUE_HEROIC_BRAWL_SESSION_LIMIT_ALERT_TITLE	Heroiczna Bójka	
-GLUE_HEROIC_BRAWL_SIGNUPS_CLOSED	Ta Bójka niedługa się zakończy. Zapisy zostały wyłączone.	
+GLUE_HEROIC_BRAWL_SIGNUPS_CLOSED	Ta Bójka niedługo się zakończy. Zapisy zostały wyłączone.	
 GLUE_HEROIC_BRAWL_SIGNUPS_CLOSED_TITLE	Zamknięte	
 GLUE_HEROIC_BRAWL_TITLE	<size=50>Heroiczna</size>\nKarczemna bójka	
 GLUE_HEROIC_WARNING	Ostrzegamy, że tryb heroiczny jest BARDZO wymagający i nie nadaje się dla osób o słabych nerwach. Wchodzisz na własne ryzyko!	
@@ -666,7 +697,7 @@ GLUE_RAF_PROGRESS_FRAME_RECRUIT_COUNT	+{0}
 GLUE_RAF_PROGRESS_FRAME_REWARDS_TITLE	Nagrody	
 GLUE_RAF_RECRUIT_BAR_TOOLTIP_DESC	Nagrody przynawane są, kiedy rekruci osiągną w sumie 20 poziom swoimi wszystkimi postaciami.	
 GLUE_RAF_RECRUIT_BAR_TOOLTIP_HEADLINE	Poziom gracza	
-GLUE_RAF_RECRUIT_BUTTON	Zrekrutuj przyjaciół	
+GLUE_RAF_RECRUIT_BUTTON	Zrekrutuj przyjaciela	
 GLUE_RAF_TOOLTIP_DESC	Zaproś przyjaciół do gry w Hearthstone!	
 GLUE_RAF_TOOLTIP_HEADLINE	Zrekrutuj przyjaciela	
 GLUE_RAF_TOOLTIP_LOCKED_DESC	Rekrutacja znajomego będzie dostępna po ukończeniu zadań wprowadzających.	
@@ -1123,59 +1154,5 @@ GLUE_WELCOME_BUNDLE_RANDOM_CARD_SCROLL_TITLE	Karta legendarna z_zestawu powitaln
 GLUE_WIN_STREAK	Seria zwycięstw: {0}	0=number of wins
 GLUE_WINS	Zwycięstwa	header for number of wins
 GLUE_WOODEN_BANNER_TITLE_FRIEND_WEEK	Przyjacielski pojedynek!	
-VO_Ahune_Male_Elemental_Arena_01	POTYCZKI NA ARENIE TO GWÓŹDŹ PROGRAMU FESTIWALU MROZU. POMYŚLNEJ SELEKCJI, DURNIU!	
-VO_Ahune_Male_Elemental_Arena_02	UCZCIJ FESTIWAL MROZU GRAJĄC NA ARENIE! MASZ SIĘ BAWIĆ DURNIU, PAMIĘTASZ?!	
-VO_Ahune_Male_Elemental_FireFestival_01	KONIEC FESTIWALU OGNIA! PRZYSZŁA KOLEJ NA AHUNA!	
-VO_Ahune_Male_Elemental_FireFestival_02	FESTIWAL MROZU JEST DUŻO FAJNIEJSZY NIŻ TEN BIEDNY FESTIWAL OGNIA RAGNAROSA!	
-VO_Ahune_Male_Elemental_FireFestival_03	PEWNIE CHCESZ SPRÓBOWAĆ SIŁ W MROŹNEJ BÓJCE, CO? JUŻ WIDZĘ, JAK RAGNAROS PŁONIE Z ZAZDROŚCI!	
-VO_Ahune_Male_Elemental_FireFestival_04	PODOBA CI SIĘ FESTIWAL MROZU? NIE ZAPOMNIJ WSPOMNIEĆ O TYM RAGNAROSOWI.	
-VO_Ahune_Male_Elemental_FireFestival_06	NO BAW SIĘ, NA CO CZEKASZ, DURNIU?!	
-VO_Ahune_Male_Elemental_FireFestival_07	DOBRZE SIĘ BAWISZ?! BAW SIĘ LEPIEJ, ALE JUŻ!	
-VO_Ahune_Male_Elemental_FireFestival_09	IDZIE PRZYMROZEK.	
-VO_Ahune_Male_Elemental_FireFestival_10	MORDERCZY CHŁÓD PRZETACZA SIĘ PRZEZ AZEROTH.	
-VO_Ahune_Male_Elemental_FireQuests_01	WYKONAJ TO ZADANIE. I BAW SIĘ DOBRZE!	
-VO_Ahune_Male_Elemental_FireQuests_03	A MOŻE ZAINTERESUJE CIĘ COŚ TAKIEGO!	
-VO_Ahune_Male_Elemental_FireQuests_04	A CZY RAGNAROS DAŁ CI TAKIE ŚWIETNE PAKIETY, HĘ? NO WŁAŚNIE!	
-VO_Ahune_Male_Elemental_FireQuests_05	PROSZĘ, OTO PREZENT OD MOJEGO SPONSORA.	
-VO_Ahune_Male_Elemental_FireQuests_09	NIE MA LEPSZYCH NAGRÓD ZA ZADANIA NIŻ PAKIETY KART!	
-VO_Ahune_Male_Elemental_FireQuests_11	WYZWANIE GODNE FESTIWALU MROZU!	
-VO_BOSS_AYA_Female_Pandaren_INTRO_QL_LOTUS1_01	Hehe, marnujesz swój potencjał!	
-VO_BOSS_AYA_Female_Pandaren_INTRO_QL_LOTUS1_02	Zostań członkiem Nefrytowego Lotosu.	
-VO_BOSS_AYA_Female_Pandaren_INTRO_QL_LOTUS1_03	Znajdziesz u nas wszystko co najlepsze!	
-VO_BOSS_AYA_Female_Pandaren_INTRO_QL_LOTUS1_04	Miecze, noże, wielkie armie golemów...	
-VO_BOSS_AYA_Female_Pandaren_INTRO_QL_LOTUS2_01	Hahaha, rety!	
-VO_BOSS_AYA_Female_Pandaren_INTRO_QL_LOTUS2_02	Widzieliście ich miny?! Bezcenne!	
-VO_BOSS_AYA_Female_Pandaren_INTRO_QL_LOTUS3_01	To była totalna rozwałka!	
-VO_BOSS_AYA_Female_Pandaren_INTRO_QL_LOTUS3_02	Prawie nie potrzebuję mojej nefrytowej armii!	
-VO_BOSS_AYA_Female_Pandaren_INTRO_QL_LOTUS4_01	Niemal dorównujesz mi niesamowitością!	
-VO_BOSS_AYA_Female_Pandaren_INTRO_QL_LOTUS4_02	Absolutnie musisz zostać członkiem Nefrytowego Lotosu!	
-VO_BOSS_CHO_Male_Ogre_INTRO_QL_GOONS1_01	TY SIĘ NUDZI.	
-VO_BOSS_CHO_Male_Ogre_INTRO_QL_GOONS1_02	DOŁĄCZ ALBO CIĘ ZMIAŻDŻYMY.	
 VO_BOSS_CHO_Male_Ogre_INTRO_QL_GOONS2_01	TRZA ICH POGONIĆ Z NASZEGO TERENU!	
-VO_BOSS_CHO_Male_Ogre_INTRO_QL_GOONS3_01	SZMUGLUJEMY TUTAJ BROŃ. HEHE.	
-VO_BOSS_CHO_Male_Ogre_INTRO_QL_GOONS4_01	FU JEST POD WRAŻENIEM.	
-VO_BOSS_CHO_Male_Ogre_INTRO_QL_GOONS4_02	WYKONASZ DLA NAS NOWĄ ROBOTĘ.	
-VO_BOSS_HAN_Male_Ogre_INTRO_QL_GOONS1_1	Hej, dzieciaku, witaj w Gadżetonie!	
-VO_BOSS_HAN_Male_Ogre_INTRO_QL_GOONS1_2	Jesteśmy Sze'Fu, bossowie Posępnych Zbirów.	
-VO_BOSS_HAN_Male_Ogre_INTRO_QL_GOONS1_3	Hej, masz chwilkę? Mamy dla ciebie robótkę.	
-VO_BOSS_HAN_Male_Ogre_INTRO_QL_GOONS1_4	Ta robota przyniosłaby nam... wzajemne korzyści.	
-VO_BOSS_HAN_Male_Ogre_INTRO_QL_GOONS2_1	Dobra robota, dzieciaku.	
-VO_BOSS_HAN_Male_Ogre_INTRO_QL_GOONS2_2	Może teraz zapamiętają, kto rządzi w Gadżetonie.	
-VO_BOSS_HAN_Male_Ogre_INTRO_QL_GOONS3_1	Nieeeeźle.	
-VO_BOSS_HAN_Male_Ogre_INTRO_QL_GOONS3_2	Hej, możesz nam pomóc z tymi, eee... dobrami?	
-VO_BOSS_HAN_Male_Ogre_INTRO_QL_GOONS4_1	Zgadzam się.	
-VO_BOSS_HAN_Male_Ogre_INTRO_QL_GOONS4_2	Wiesz, znajdzie się dla ciebie miejsce wśród Zbirów...	
-VO_BOSS_KAZAKUS_Male_Troll_Intro_QL_Kabal1_01	Ten bezczelny szczeniak nie ma pojęcia o potędze.	
-VO_BOSS_KAZAKUS_Male_Troll_Intro_QL_Kabal1_02	Odkryj swoje powołanie! Dołącz do Konfraterni!	
-VO_BOSS_KAZAKUS_Male_Troll_Intro_QL_Kabal1_03	Droga do wielkiej potęgi stoi otworem... dziecko. Hehehe... HEHEHEHAHAHAHA! Ekhem.	
-VO_BOSS_KAZAKUS_Male_Troll_Intro_QL_Kabal2_01	Sporo umiesz.	
-VO_BOSS_KAZAKUS_Male_Troll_Intro_QL_Kabal2_02	Teraz wykorzystaj więcej mojej many! Poznaj potęgę Konfraterni!	
-VO_BOSS_KAZAKUS_Male_Troll_Intro_QL_Kabal3_01	Tak. He he he... Dobrze...	
-VO_BOSS_KAZAKUS_Male_Troll_Intro_QL_Kabal3_03	Moje mikstury dadzą ci niewypowiedzianą potęgę!	
-VO_BOSS_KAZAKUS_Male_Troll_Intro_QL_Kabal4_01	Hahahaha! W końcu! Potężny uczeń!	
-VO_BOSS_KAZAKUS_Male_Troll_Intro_QL_Kabal4_02	Wspólnie zawładniemy Gadżetonem! HAHAHA HAHAHAHA!	
-VO_BRM_027h_CELEBRATE_24	RADUJMY SIĘ!	
-VO_BRM_027h_FIRE_FESTIVAL_44	OTO NASTAŁO ŚWIĘTO OGNIA!	
-VO_BRM_027h_HAPPY_EVENT_41	ROZPALMY OGNIE I ŚWIĘTUJMY!	
-VO_BRM_027h_PARTY_22	ZABAWMY SIĘ JAK W GORĄCE LATO!	
 VO_FIRE_FESTIVAL_RAGNAROS_FESTIVAL	OTO NASTAŁO ŚWIĘTO OGNIA!	

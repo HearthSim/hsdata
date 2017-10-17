@@ -3,6 +3,7 @@ GLOBAL_BUTTON_YES	Yes
 GLOBAL_BUTTON_NO	No	
 GLOBAL_BUTTON_OK	Ok	
 GLOBAL_BUTTON_NEXT	Next
+GLOBAL_BUTTON_AWESOME	Awesome!
 GLOBAL_CARD_SET_CORE	Basic	
 GLOBAL_CARD_SET_EXPERT1	Classic	
 GLOBAL_CARD_SET_HOF	Hall of Fame	
@@ -206,7 +207,10 @@ GLOBAL_FIRESIDE_GATHERING	Fireside Gathering
 GLOBAL_FIRESIDE_GATHERING_DEFAULT_TAVERN_NAME	Fireside Gathering	
 GLOBAL_FIRESIDE_GATHERING_FIRST_TIME_TAVERN_NAME	{0}'s Tavern	0=innkeeper battle tag
 GLOBAL_FIRESIDE_GATHERING_SOCIAL_BUTTON_LARGE_SCALE_LABEL	<size=32>99<size=26>+</size></size>	This is shown on the Friends List button whenever player is checked into a large scale Fireside Gathering (one that doesn't show the full patron list). the design decision was to show 99+ regardless of how many people are actually checked in. NOTE: the size tag was used in enUS to shrink the + sign, to make sure 99+ fit into the small button.
-GLOBAL_FIRESIDE_GATHERING_PATRON_LIST_FOOTER_TEXT_LARGE_SCALE	Total Players: 99+	This is shown on the Friends List button whenever player is checked into a large scale Fireside Gathering (one that doesn't show the full patron list). the design decision was to show 99+ regardless of how many people are actually checked in.
+GLOBAL_FIRESIDE_GATHERING_PATRON_LIST_FOOTER_TEXT_LARGE_SCALE	{0}+ total players at this fireside.	This is shown on the Friends List button whenever player is checked into a large scale Fireside Gathering (one that doesn't show the full patron list). the design decision was to show 99+ regardless of how many people are actually checked in.
+GLOBAL_FIRESIDE_GATHERING_PATRON_LIST_FOOTER_TEXT_SOFT_LIMIT	{0} total players at this fireside.	0=The number of patrons up to 99.
+GLOBAL_FIRESIDE_GATHERING_CHOOSE_HEADER	Choose an Option
+GLOBAL_FIRESIDE_GATHERING_REUNPACK	Update Setup
 GLOBAL_FRIEND_CHALLENGE_TITLE	Friendly	
 GLOBAL_FRIEND_CHALLENGE_HEADER	Challenge	
 GLOBAL_FRIEND_CHALLENGE_BODY1	You've been challenged by:	
@@ -339,6 +343,7 @@ GLOBAL_FRIENDLIST_CURRENT_GAMES_HEADER	CURRENT GAMES - {0}	0=number of friends y
 GLOBAL_FRIENDLIST_FRIENDS_HEADER	FRIENDS - {0}/{1} Online	0=number of online friends 1=number of offline friends
 GLOBAL_FRIENDLIST_FRIENDS_HEADER_ALL_ONLINE	FRIENDS - {0} Online
 GLOBAL_FRIENDLIST_NEARBY_PLAYERS_HEADER	NEARBY PLAYERS - {0}	0=number of players
+GLOBAL_FRIENDLIST_NEARBY_PLAYERS_DISABLED_HEADER	NEARBY PLAYERS (Disabled)
 GLOBAL_FRIENDLIST_ADD_FRIEND_BUTTON	Add	
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_BUTTON	Remove	
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_ALERT_MESSAGE	Are you sure you want to remove {0}?	0=friend name
@@ -365,6 +370,7 @@ GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_NO_TAVERN_BRAWL_DECK	You need to build a 
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_TAVERN_BRAWL_LOCKED	Unlock Tavern Brawl by reaching level 20 with any class.
 GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_NO_TAVERN_BRAWL	Tavern Brawl is not available right now.  Check back soon!
 GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_TAVERN_BRAWL_NOT_CHALLENGEABLE	Friendly Challenge is not available for this Tavern Brawl.
+GLOBAL_FRIENDLIST_SPECTATE_MENU_DESCRIPTION	{0} is playing a game.	0=player name
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_AVAILABLE_HEADER	Spectate this Game
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_AVAILABLE_TEXT	Click to begin spectating this player's game.	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_AVAILABLE_TEXT_TOUCH	Tap here to begin spectating this player's game.	
@@ -384,6 +390,7 @@ GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_SPECTATING_HEADER	In Spectator Mode
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_SPECTATING_TEXT	You are currently spectating this player.	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_PREVIOUSLY_KICKED_HEADER	Cannot Spectate
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_PREVIOUSLY_KICKED_TEXT	You've been previously removed from spectating this player. You cannot attempt to spectate again.	
+GLOBAL_SPECTATE	Spectate
 GLOBAL_SPECTATOR_LEAVE_PROMPT_HEADER	Leave Spectator Mode	
 GLOBAL_SPECTATOR_LEAVE_PROMPT_TEXT	Are you sure you want to stop spectating?	
 GLOBAL_SPECTATOR_KICK_PROMPT_HEADER	Remove Spectator
@@ -406,6 +413,7 @@ GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TIMEOUT	The player you are spectating too
 GLOBAL_SPECTATOR_ERROR_CREATE_PARTY_TEXT	An error occurred attempting to create Spectator party.	
 GLOBAL_SPECTATOR_ERROR_LEAVE_FOR_SPECTATE_PLAYER_TEXT	An error occurred attempting to leave a previous party to spectate {0}.	0=player name
 GLOBAL_ADDFRIEND_HEADER	Add a Friend	
+GLOBAL_ADDFRIEND_BUTTON	Add as friend	
 GLOBAL_ADDFRIEND_INSTRUCTION	Enter a BattleTag or email address.	
 GLOBAL_ADDFRIEND_SENT_CONFIRMATION	Friend request sent.	
 GLOBAL_ADDFRIEND_ERROR_ALREADY_FRIEND	That person is already your friend.	
@@ -423,6 +431,7 @@ GLOBAL_PROGRAMNAME_STARCRAFT2	StarCraft II
 GLOBAL_PROGRAMNAME_PHOENIX	Online
 GLOBAL_PROGRAMNAME_HEROES	Heroes of the Storm	
 GLOBAL_PROGRAMNAME_OVERWATCH	Overwatch	
+GLOBAL_PROGRAMNAME_DESTINY2	Destiny 2
 GLOBAL_OFFLINE	Offline	
 GLOBAL_DEFAULT_ALERT_HEADER	Alert	
 GLOBAL_FORGE_END_TITLE	Arena Complete	
@@ -585,6 +594,7 @@ GLOBAL_BETA_REIMBURSEMENT_HEADLINE	Account Wipe Credit
 GLOBAL_BETA_REIMBURSEMENT_DETAILS	This gold is a credit for your past purchases. Thank you!
 GLOBAL_PRACTICE_MAX_LEVEL_REACHED	Max Practice Level	 
 GLOBAL_SCREENSHOT_COMPLETE	Screenshot saved to desktop	
+GLOBAL_SCREENSHOT_COMPLETE_SPECIFIC_DIRECTORY	Screenshot saved to {0}	0=The directory that the file was saved to
 GLOBAL_QUEST_PROGRESS_COUNT	{0}/{1}	0=progress,1=max progress
 GLOBAL_HERO_LEVEL_NEXT_REWARD_TITLE	Next reward at level {0}	0=level
 GLOBAL_HERO_LEVEL_REWARD_GOLDEN_CARD	{0} {1}	0=flair 1=card name
@@ -724,3 +734,4 @@ GLOBAL_FINISH	Finish
 GLOBAL_UPDATE	Update
 GLOBAL_ENABLE	Enable
 GLOBAL_DISABLE	Disable
+GLOBAL_ARENA_SEASON_ERROR_NOT_ACTIVE	Sorry. The requested Arena mode is no longer available. Please wait a few minutes and try again.	

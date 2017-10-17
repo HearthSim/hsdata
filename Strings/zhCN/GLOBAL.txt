@@ -1,5 +1,6 @@
 TAG	TEXT	COMMENT
 GLOBAL_ACCOUNT	账号	
+GLOBAL_ADDFRIEND_BUTTON	加为好友	
 GLOBAL_ADDFRIEND_ERROR_ALREADY_FRIEND	该玩家已经是你的好友了。	
 GLOBAL_ADDFRIEND_ERROR_MALFORMED	你必须输入一个邮件地址或者暴雪游戏昵称。	
 GLOBAL_ADDFRIEND_HEADER	添加好友	
@@ -23,11 +24,13 @@ GLOBAL_ARENA_MEDAL_6	白金钥匙
 GLOBAL_ARENA_MEDAL_7	钻石钥匙	
 GLOBAL_ARENA_MEDAL_8	勇士钥匙	
 GLOBAL_ARENA_MEDAL_9	红玉钥匙	
+GLOBAL_ARENA_SEASON_ERROR_NOT_ACTIVE	抱歉，你所指定的竞技模式当前无法使用。请等待几分钟之后再进行尝试。	
 GLOBAL_ATTACK	攻击力	
 GLOBAL_BACK	返回	
 GLOBAL_BASIC_DECK_NAME	{0}	0=class name
 GLOBAL_BETA_REIMBURSEMENT_DETAILS	这些金币是对你过去消费的补偿。非常感谢！	
 GLOBAL_BETA_REIMBURSEMENT_HEADLINE	账号清理补偿	
+GLOBAL_BUTTON_AWESOME	太棒了！	
 GLOBAL_BUTTON_NEXT	继续	
 GLOBAL_BUTTON_NO	否	
 GLOBAL_BUTTON_OK	确定	
@@ -197,9 +200,12 @@ GLOBAL_FEATURE_DISABLED_TITLE	禁用
 GLOBAL_FINISH	完成	
 GLOBAL_FIRESIDE_BRAWL	炉边乱斗	
 GLOBAL_FIRESIDE_GATHERING	炉边聚会	
+GLOBAL_FIRESIDE_GATHERING_CHOOSE_HEADER	选择一个选项	
 GLOBAL_FIRESIDE_GATHERING_DEFAULT_TAVERN_NAME	炉边聚会	
 GLOBAL_FIRESIDE_GATHERING_FIRST_TIME_TAVERN_NAME	{0}的酒馆	0=innkeeper battle tag
-GLOBAL_FIRESIDE_GATHERING_PATRON_LIST_FOOTER_TEXT_LARGE_SCALE	玩家数量：99+	This is shown on the Friends List button whenever player is checked into a large scale Fireside Gathering (one that doesn't show the full patron list). the design decision was to show 99+ regardless of how many people are actually checked in.
+GLOBAL_FIRESIDE_GATHERING_PATRON_LIST_FOOTER_TEXT_LARGE_SCALE	参加本次炉边聚会的玩家总数：{0}+	This is shown on the Friends List button whenever player is checked into a large scale Fireside Gathering (one that doesn't show the full patron list). the design decision was to show 99+ regardless of how many people are actually checked in.
+GLOBAL_FIRESIDE_GATHERING_PATRON_LIST_FOOTER_TEXT_SOFT_LIMIT	参加本次炉边聚会的玩家总数：{0}	0=The number of patrons up to 99.
+GLOBAL_FIRESIDE_GATHERING_REUNPACK	更新设置	
 GLOBAL_FIRESIDE_GATHERING_SOCIAL_BUTTON_LARGE_SCALE_LABEL	<size=32>99<size=26>+</size></size>	This is shown on the Friends List button whenever player is checked into a large scale Fireside Gathering (one that doesn't show the full patron list). the design decision was to show 99+ regardless of how many people are actually checked in. NOTE: the size tag was used in enUS to shrink the + sign, to make sure 99+ fit into the small button.
 GLOBAL_FORGE_END_DONE	完成	
 GLOBAL_FORGE_END_JOKE_0	这可真带劲儿！	
@@ -260,11 +266,13 @@ GLOBAL_FRIENDLIST_FRIENDS_HEADER	好友 - {0}/{1}在线	0=number of online frien
 GLOBAL_FRIENDLIST_FRIENDS_HEADER_ALL_ONLINE	好友 - {0}在线	
 GLOBAL_FRIENDLIST_LASTPLAYED	上一个对手：	
 GLOBAL_FRIENDLIST_MYSTATUS	在线	
+GLOBAL_FRIENDLIST_NEARBY_PLAYERS_DISABLED_HEADER	附近的玩家（已禁用）	
 GLOBAL_FRIENDLIST_NEARBY_PLAYERS_HEADER	附近的玩家（{0}）	0=number of players
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_ALERT_MESSAGE	你确实想要移除{0}吗？	0=friend name
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_BUTTON	移除	
 GLOBAL_FRIENDLIST_REQUEST_SENT_TIME	发送于：{0}	0=one of the GLOBAL_DATETIME_ELAPSED_ strings
 GLOBAL_FRIENDLIST_REQUESTS_HEADER	好友邀请（{0}）	0=number of received friend requests
+GLOBAL_FRIENDLIST_SPECTATE_MENU_DESCRIPTION	{0}正在进行一场对战。	0=player name
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_AVAILABLE_HEADER	观看这场对战	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_AVAILABLE_TEXT	点击开始观看该玩家的对战。	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_AVAILABLE_TEXT_TOUCH	点击此处开始观看该玩家的对战。	
@@ -372,7 +380,7 @@ GLOBAL_KEYWORD_OVERLOAD	过载：X
 GLOBAL_KEYWORD_OVERLOAD_REF_TEXT	具有过载效果的卡牌会在下一个回合限制你的法力值。	
 GLOBAL_KEYWORD_OVERLOAD_TEXT	下个回合你的法力值减少X点。	
 GLOBAL_KEYWORD_POISONOUS	剧毒	
-GLOBAL_KEYWORD_POISONOUS_TEXT	消灭任何受到该随从伤害的随从。	
+GLOBAL_KEYWORD_POISONOUS_TEXT	消灭任何受到其伤害的随从。	
 GLOBAL_KEYWORD_QUEST	任务	
 GLOBAL_KEYWORD_QUEST_TEXT	任务起始于你的手牌，终止于获得奖励。	
 GLOBAL_KEYWORD_SECRET	奥秘	
@@ -510,6 +518,7 @@ GLOBAL_PLAY_STANDARD	标准\n对战
 GLOBAL_PLAY_WILD	狂野\n对战	
 GLOBAL_PLAYER_PLAYER	玩家	this is the word for generic "Player" - this will be used when there a player's name is unknown at the time.
 GLOBAL_PRACTICE_MAX_LEVEL_REACHED	最高练习等级	
+GLOBAL_PROGRAMNAME_DESTINY2	命运2	
 GLOBAL_PROGRAMNAME_DIABLO3	暗黑破坏神III	
 GLOBAL_PROGRAMNAME_HEARTHSTONE	炉石传说	
 GLOBAL_PROGRAMNAME_HEROES	《风暴英雄》	
@@ -573,7 +582,7 @@ GLOBAL_REWARD_ARCANE_DUST_HEADLINE	获得奥术之尘！
 GLOBAL_REWARD_ARENA_TICKET_ADMIT	参赛券	the word 'admit' in capital letters - displayed like "Admit 1" and looks like a movie/fair ticket. this is the Arena Ticket reward visual.
 GLOBAL_REWARD_ARENA_TICKET_AUTHORIZED_BY	授予人	a label that shows up in the Arena Ticket under the Player's name indicating this ticket reward was granted by some guy.
 GLOBAL_REWARD_ARENA_TICKET_ENTRANT	参赛者	a label that shows up in the Arena Ticket under the Player's name to say this person is allowed entrance into the Arena.
-GLOBAL_REWARD_ARENA_TICKET_HEADLINE	免费参加竞技模式！	
+GLOBAL_REWARD_ARENA_TICKET_HEADLINE	免费参加竞技\n模式！	
 GLOBAL_REWARD_ARENA_TICKET_LABEL	竞技模式	
 GLOBAL_REWARD_ARENA_TICKET_TITLE	竞技模式	
 GLOBAL_REWARD_BOOSTER_DETAILS_OUT_OF_BAND	由于推广活动的奖励，你获得了{0}包\n卡牌包。	0=count
@@ -621,6 +630,7 @@ GLOBAL_REWARD_HERO_SOURCE	击败{0}后解锁	0=class
 GLOBAL_REWARD_HEROES_CARD_MOUNT_HEADLINE	炉石飞毯	
 GLOBAL_SCAN	查找	
 GLOBAL_SCREENSHOT_COMPLETE	截图已被保存到桌面	
+GLOBAL_SCREENSHOT_COMPLETE_SPECIFIC_DIRECTORY	屏幕截图已保存至{0}	0=The directory that the file was saved to
 GLOBAL_SEASON_END_BONUS_STAR_BOOST	额外的星数奖励将你提升至	
 GLOBAL_SEASON_END_BONUS_STAR_TITLE	你的上赛季排名使你获得	
 GLOBAL_SEASON_END_BONUS_STARS_LABEL	额外的星数	
@@ -671,6 +681,7 @@ GLOBAL_SOCIAL_TOAST_SPECTATOR_ADDED	<color=#{0}>{1}</color>现在开始观看你
 GLOBAL_SOCIAL_TOAST_SPECTATOR_INVITE_RECEIVED	<color=#{0}>{1}</color> 邀请你观看这场对战！	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_SPECTATOR_INVITE_SENT	已向<color=#{0}>{1}</color>发出比赛观看邀请。	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_SPECTATOR_REMOVED	<color=#{0}>{1}</color>不再观看你的比赛。	0=name color,1=player name
+GLOBAL_SPECTATE	观看	
 GLOBAL_SPECTATOR_COUNT_PANEL_HEADER	观看比赛	
 GLOBAL_SPECTATOR_COUNT_PANEL_TEXT_ONE	{0}正在观看你的游戏。	0=player name, this is shown when there's only 1 person spectating you.
 GLOBAL_SPECTATOR_ERROR_CREATE_PARTY_TEXT	试图创建观众群组时发生错误。	
