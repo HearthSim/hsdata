@@ -10,6 +10,6 @@ https://hearthstonejson.com
 
 ---
 
-Version: 9.4.0.22115
+Version: 10.0.0.22611
 
 https://hearthsim.info
