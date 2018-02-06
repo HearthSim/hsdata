@@ -30,6 +30,7 @@ GLOBAL_BACK	戻る
 GLOBAL_BASIC_DECK_NAME	{0}	0=class name
 GLOBAL_BETA_REIMBURSEMENT_DETAILS	このゴールドは過去の購入の払い戻し分だ。ありがとう！	
 GLOBAL_BETA_REIMBURSEMENT_HEADLINE	アカウントワイプの払い戻し	
+GLOBAL_BRAWLISEUM	ゴロシアム	
 GLOBAL_BUTTON_AWESOME	すごい！	
 GLOBAL_BUTTON_NEXT	次へ	
 GLOBAL_BUTTON_NO	いいえ	
@@ -330,6 +331,7 @@ GLOBAL_HERO_WINS_PAST_MAX_PHONE	勝利数\n{0}	0=number of games this class has 
 GLOBAL_HERO_WINS_PHONE	勝利数\n{0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HEROIC_BRAWL	ヒロイック喧嘩	
 GLOBAL_HIDE	非表示	
+GLOBAL_IN_PROGRESS_REWARD_CHEST_INSTRUCTIONS	あと{0}試合勝利すると、シーズン宝箱が手に入るぞ！\n（開けられるのは来月だ）	
 GLOBAL_JOIN	参加	
 GLOBAL_KEYWORD_ADAPT	適応	
 GLOBAL_KEYWORD_ADAPT_TEXT	3つのボーナスから1つ選んでくれ。	
@@ -396,6 +398,7 @@ GLOBAL_KEYWORD_RECRUIT_TEXT	自分のデッキからミニオンを1体召喚す
 GLOBAL_KEYWORD_SECRET	秘策	
 GLOBAL_KEYWORD_SECRET_TEXT	相手のターンで特定の条件が満たされると効果が発動する。	
 GLOBAL_KEYWORD_SHIFTING_MINION_TEXT	あんたのターンの開始時、新しいミニオンに変身するぞ。	
+GLOBAL_KEYWORD_SHIFTING_SPELL_TEXT	自分のターンの開始時に新しい呪文に変身する。	
 GLOBAL_KEYWORD_SHIFTING_TEXT	あんたのターンの開始時、新しいカードに変身するぞ。	
 GLOBAL_KEYWORD_SHIFTING_WEAPON_TEXT	あんたのターンの開始時、新しい武器に変形するぞ。	
 GLOBAL_KEYWORD_SILENCE	沈黙	
@@ -584,6 +587,10 @@ GLOBAL_REGION_ASIA	アジア
 GLOBAL_REGION_CHINA	中国	
 GLOBAL_REGION_EUROPE	ヨーロッパ	
 GLOBAL_REMAINING_DATETIME	残り{0}	0=time string
+GLOBAL_REMINDER_CARDBACK_SEASON_END_ALERT	カード裏面デザインを取り逃がさないようにな！	Big red alert text to remind players about the new change
+GLOBAL_REMINDER_CARDBACK_SEASON_END_DIALOG	今月からは、シーズンのカード裏面デザインを手に入れる\nためには、ランク戦で5回勝利する必要があるぞ。	Explains the new way to get the season card back
+GLOBAL_REMINDER_CHEST_QUESTION_MARK	？	Label for unearned chest, assuming "?" universally means unknown, it doesn't need to be localized
+GLOBAL_REMINDER_CHEST_SEASON_END_DIALOG	5試合勝利して、シーズン宝箱を手に入れよう。	
 GLOBAL_RESTART	やり直す	
 GLOBAL_RESUME_GAME	ゲーム再開	
 GLOBAL_RETRY	再試行	
@@ -620,6 +627,8 @@ GLOBAL_REWARD_CHEST_TIER3	守護者の宝箱
 GLOBAL_REWARD_CHEST_TIER3_EARNED	守護者の宝箱を獲得したぞ！	
 GLOBAL_REWARD_CHEST_TIER4	盾持ちのトランク	
 GLOBAL_REWARD_CHEST_TIER4_EARNED	盾持ちのトランクを獲得したぞ！	
+GLOBAL_REWARD_CHEST_TIER5	アングリーチキンの荷箱	
+GLOBAL_REWARD_CHEST_TIER5_EARNED	アングリーチキンの荷箱を獲得したぞ！	
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL	{0}	0=first class
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL_DOUBLE	{0}・{1}	0=first class, 1=second class
 GLOBAL_REWARD_CLASS_CHALLENGE_HEADLINE	クラスチャレンジがアンロックされたぞ！	
@@ -638,9 +647,11 @@ GLOBAL_REWARD_HERO_DETAILS	使用可能なヒーロー: {0}/{1}
 GLOBAL_REWARD_HERO_HEADLINE	{0}が使用可能に！	
 GLOBAL_REWARD_HERO_SOURCE	{0}を倒すと入手	0=class
 GLOBAL_REWARD_HEROES_CARD_MOUNT_HEADLINE	ハースストーンカード型マウント	
+GLOBAL_REWARD_PROGRESS	{0}/{1}勝	0=current wins,1=required wins
 GLOBAL_SCAN	検索	
 GLOBAL_SCREENSHOT_COMPLETE	スクリーンショットをデスクトップに保存したぞ	
 GLOBAL_SCREENSHOT_COMPLETE_SPECIFIC_DIRECTORY	スクリーンショットを{0}に保存したぞ	0=The directory that the file was saved to
+GLOBAL_SEASON_CHEST_BANNER	シーズン宝箱	Default label for the banner in the end game screen that is placed above the in progress chest
 GLOBAL_SEASON_END_BONUS_STAR_BOOST	ボーナススターでランクアップ！	
 GLOBAL_SEASON_END_BONUS_STAR_TITLE	前シーズンのランクによるボーナス	
 GLOBAL_SEASON_END_BONUS_STARS_LABEL	ボーナススター	
@@ -664,6 +675,9 @@ GLOBAL_SKIP	スキップ
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_COMPLETE	<color=#{0}>{1}</color>が闘技場での戦いを{2}勝{3}敗で終えたぞ。	0=name color,1=player name,2=Arena Wins,3=Arena Losses
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START	<color=#{0}>{1}</color>が新たに闘技場での戦いを開始したぞ。	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START_WITH_MANY_WINS	<color=#{0}>{1}</color>が闘技場での戦いを開始した。このプレイヤーはすでに{2}勝しているぞ！	0=name color,1=player name,2=Arena Wins
+GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_COMPLETE	<color=#{0}>{1}</color>がゴロシアムでの戦いを終了したぞ。（{2} - {3}）	0=name color,1=player name,2=Brawl Wins,3=Brawl Losses
+GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_START	<color=#{0}>{1}</color>が新たにゴロシアムでの戦いを開始したぞ。	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_START_WITH_MANY_WINS	<color=#{0}>{1}</color>がゴロシアムでの戦いを開始して、既に{2}勝しているぞ！	0=name color,1=player name,2=Brawl Wins
 GLOBAL_SOCIAL_TOAST_FRIEND_DRUID_LEVEL	<color=#{0}>{1}</color>がレベル{2}ドルイドになったぞ。	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK	<color=#{0}>{1}</color>がランク{2}に到達したぞ！	0=name color,1=player name,2=medal rank
 GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK_WILD	<color=#{0}>{1}</color>がワイルドでランク{2}に到達したぞ！	0=name color,1=player name,2=medal rank

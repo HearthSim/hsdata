@@ -30,6 +30,7 @@ GLOBAL_BACK	뒤로
 GLOBAL_BASIC_DECK_NAME	{0} 덱	0=class name
 GLOBAL_BETA_REIMBURSEMENT_DETAILS	이 골드는 당신이 과거에 구매한 상품에 대한 보상입니다. 감사합니다!	
 GLOBAL_BETA_REIMBURSEMENT_HEADLINE	계정 초기화 보상	
+GLOBAL_BRAWLISEUM	난투장	
 GLOBAL_BUTTON_AWESOME	끝내주네요!	
 GLOBAL_BUTTON_NEXT	다음	
 GLOBAL_BUTTON_NO	아니요	
@@ -153,7 +154,7 @@ GLOBAL_DEMO_LEARN_MORE	자세한 내용
 GLOBAL_DISABLE	사용 안 함	
 GLOBAL_DONE	완료	
 GLOBAL_ENABLE	사용함	
-GLOBAL_END_GAME	게임 종료	
+GLOBAL_END_GAME	대전 종료	
 GLOBAL_ENTER	입장	
 GLOBAL_ERROR_ACCOUNT_LICENSES	사용자 정보를 불러오는 동안 오류가 발생했습니다. 정상화하려면 다시 접속해주세요.	
 GLOBAL_ERROR_ASSET_CREATE_PERSISTENT_DATA_PATH	{0}에 데이터 저장 폴더를 만드는 데 실패했습니다.	0=folder path
@@ -330,6 +331,7 @@ GLOBAL_HERO_WINS_PAST_MAX_PHONE	승리\n{0}	0=number of games this class has won
 GLOBAL_HERO_WINS_PHONE	승리\n{0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HEROIC_BRAWL	영웅 난이도 난투	
 GLOBAL_HIDE	숨기기	
+GLOBAL_IN_PROGRESS_REWARD_CHEST_INSTRUCTIONS	{0}승을 더 달성하면 시즌 상자를 획득합니다!\n(상자는 다음 달에 열 수 있습니다.)	
 GLOBAL_JOIN	참가	
 GLOBAL_KEYWORD_ADAPT	적응	
 GLOBAL_KEYWORD_ADAPT_TEXT	세 효과 중 하나를 선택합니다.	
@@ -396,6 +398,7 @@ GLOBAL_KEYWORD_RECRUIT_TEXT	내 덱에서 하수인을 하나 소환합니다.
 GLOBAL_KEYWORD_SECRET	비밀	
 GLOBAL_KEYWORD_SECRET_TEXT	특정 조건이 갖추어질 때까지 숨겨져 있습니다.	
 GLOBAL_KEYWORD_SHIFTING_MINION_TEXT	내 턴이 시작될 때, 무작위 하수인으로 변신합니다.	
+GLOBAL_KEYWORD_SHIFTING_SPELL_TEXT	내 턴이 시작될 때, 무작위 주문으로 변신합니다.	
 GLOBAL_KEYWORD_SHIFTING_TEXT	내 턴이 시작될 때, 무작위 카드로 변신합니다.	
 GLOBAL_KEYWORD_SHIFTING_WEAPON_TEXT	내 턴이 시작될 때, 무작위 무기로 변신합니다.	
 GLOBAL_KEYWORD_SILENCE	침묵	
@@ -584,6 +587,10 @@ GLOBAL_REGION_ASIA	아시아
 GLOBAL_REGION_CHINA	중국	
 GLOBAL_REGION_EUROPE	유럽	
 GLOBAL_REMAINING_DATETIME	남은 시간: {0} 	0=time string
+GLOBAL_REMINDER_CARDBACK_SEASON_END_ALERT	카드 뒷면을 꼭 획득하세요!	Big red alert text to remind players about the new change
+GLOBAL_REMINDER_CARDBACK_SEASON_END_DIALOG	이번 달부터 시즌 카드 뒷면을 획득하려면 등급전에서 5승을 달성해야 합니다.	Explains the new way to get the season card back
+GLOBAL_REMINDER_CHEST_QUESTION_MARK	?	Label for unearned chest, assuming "?" universally means unknown, it doesn't need to be localized
+GLOBAL_REMINDER_CHEST_SEASON_END_DIALOG	5승을 달성하면 시즌 상자를 획득할 수 있습니다.	
 GLOBAL_RESTART	재시작	
 GLOBAL_RESUME_GAME	돌아가기	
 GLOBAL_RETRY	재시도	
@@ -616,10 +623,12 @@ GLOBAL_REWARD_CHEST_TIER1	바다 거인의 보물
 GLOBAL_REWARD_CHEST_TIER1_EARNED	바다 거인의 보물을 획득했습니다.	
 GLOBAL_REWARD_CHEST_TIER2	오우거 마법사의 귀중품	
 GLOBAL_REWARD_CHEST_TIER2_EARNED	오우거 마법사의 귀중품을 획득했습니다.	
-GLOBAL_REWARD_CHEST_TIER3	수호병의 상자	
-GLOBAL_REWARD_CHEST_TIER3_EARNED	수호병의 상자를 획득했습니다.	
+GLOBAL_REWARD_CHEST_TIER3	수호병의 궤짝	
+GLOBAL_REWARD_CHEST_TIER3_EARNED	수호병의 궤짝을 획득했습니다.	
 GLOBAL_REWARD_CHEST_TIER4	방패병의 사물함	
 GLOBAL_REWARD_CHEST_TIER4_EARNED	방패병의 사물함을 획득했습니다.	
+GLOBAL_REWARD_CHEST_TIER5	화난 닭의 상자	
+GLOBAL_REWARD_CHEST_TIER5_EARNED	화난 닭의 상자를 획득했습니다.	
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL	{0}	0=first class
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL_DOUBLE	{0}, {1}	0=first class, 1=second class
 GLOBAL_REWARD_CLASS_CHALLENGE_HEADLINE	직업별 |4(도전 과제,도전 과제) 잠금 해제	
@@ -638,9 +647,11 @@ GLOBAL_REWARD_HERO_DETAILS	영웅 {1}명 중 {0}명 잠금 해제
 GLOBAL_REWARD_HERO_HEADLINE	{0} 잠금 해제	
 GLOBAL_REWARD_HERO_SOURCE	{0} 영웅을 상대로 승리하여 잠금 해제	0=class
 GLOBAL_REWARD_HEROES_CARD_MOUNT_HEADLINE	하스스톤 카드 탈것	
+GLOBAL_REWARD_PROGRESS	{0}/{1}승	0=current wins,1=required wins
 GLOBAL_SCAN	찾기	
 GLOBAL_SCREENSHOT_COMPLETE	바탕 화면에 스크린샷이 저장되었습니다.	
 GLOBAL_SCREENSHOT_COMPLETE_SPECIFIC_DIRECTORY	다음 경로에 스크린샷이 저장되었습니다. {0}	0=The directory that the file was saved to
+GLOBAL_SEASON_CHEST_BANNER	시즌 상자	Default label for the banner in the end game screen that is placed above the in progress chest
 GLOBAL_SEASON_END_BONUS_STAR_BOOST	추가 별로 다음 등급을 달성했습니다.	
 GLOBAL_SEASON_END_BONUS_STAR_TITLE	이전 시즌에 달성한 등급으로 다음 보상을 획득하였습니다.	
 GLOBAL_SEASON_END_BONUS_STARS_LABEL	추가 |4(별,별)	
@@ -664,6 +675,9 @@ GLOBAL_SKIP	건너뛰기
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_COMPLETE	<color=#{0}>{1}</color> 님이 투기장을 완료했습니다. ({2}-{3})	0=name color,1=player name,2=Arena Wins,3=Arena Losses
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START	<color=#{0}>{1}</color> 님이 투기장을 시작했습니다.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START_WITH_MANY_WINS	투기장에서 {2}승을 거둔 <color=#{0}>{1}</color> 님이 게임을 시작했습니다!	0=name color,1=player name,2=Arena Wins
+GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_COMPLETE	<color=#{0}>{1}</color> 님이 난투장을 완료했습니다. ({2}-{3})	0=name color,1=player name,2=Brawl Wins,3=Brawl Losses
+GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_START	<color=#{0}>{1}</color> 님이 난투장을 시작했습니다.	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_START_WITH_MANY_WINS	난투장에서 {2}승을 거둔 <color=#{0}>{1}</color> 님이 게임을 시작했습니다!	0=name color,1=player name,2=Brawl Wins
 GLOBAL_SOCIAL_TOAST_FRIEND_DRUID_LEVEL	<color=#{0}>{1}</color> 님이 드루이드로 {2} 레벨을 달성했습니다.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK	<color=#{0}>{1}</color> 님이 {2}등급을 달성했습니다!	0=name color,1=player name,2=medal rank
 GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK_WILD	<color=#{0}>{1}</color> 님이 야생에서 {2}등급을 달성했습니다!	0=name color,1=player name,2=medal rank

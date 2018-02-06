@@ -30,6 +30,7 @@ GLOBAL_BACK	Indietro
 GLOBAL_BASIC_DECK_NAME	{0}	0=class name
 GLOBAL_BETA_REIMBURSEMENT_DETAILS	Questo è l'oro accreditato per gli acquisti passati. Grazie mille!	
 GLOBAL_BETA_REIMBURSEMENT_HEADLINE	Credito del reset dell'account	
+GLOBAL_BRAWLISEUM	Rissodromo	
 GLOBAL_BUTTON_AWESOME	Ottimo!	
 GLOBAL_BUTTON_NEXT	Avanti	
 GLOBAL_BUTTON_NO	No	
@@ -330,6 +331,7 @@ GLOBAL_HERO_WINS_PAST_MAX_PHONE	Vittorie\n{0}	0=number of games this class has w
 GLOBAL_HERO_WINS_PHONE	Vittorie\n{0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HEROIC_BRAWL	Rissa Eroica	
 GLOBAL_HIDE	Nascondi	
+GLOBAL_IN_PROGRESS_REWARD_CHEST_INSTRUCTIONS	Vinci ancora {0} |4(partita,partite) per ottenere il forziere stagionale!\n(Verrà sbloccato il prossimo mese)	
 GLOBAL_JOIN	Partecipa	
 GLOBAL_KEYWORD_ADAPT	Adattamento	
 GLOBAL_KEYWORD_ADAPT_TEXT	Scegli uno dei tre potenziamenti.	
@@ -396,6 +398,7 @@ GLOBAL_KEYWORD_RECRUIT_TEXT	Evoca un servitore dal tuo mazzo.
 GLOBAL_KEYWORD_SECRET	Segreto	
 GLOBAL_KEYWORD_SECRET_TEXT	Nascosto finché non si verifica un'azione specifica nel turno dell'avversario.	
 GLOBAL_KEYWORD_SHIFTING_MINION_TEXT	Si trasforma in un nuovo servitore all'inizio del tuo turno.	
+GLOBAL_KEYWORD_SHIFTING_SPELL_TEXT	Si trasforma in una nuova Magia all'inizio del tuo turno.	
 GLOBAL_KEYWORD_SHIFTING_TEXT	Si trasforma in una nuova carta all'inizio del tuo turno.	
 GLOBAL_KEYWORD_SHIFTING_WEAPON_TEXT	Si trasforma in una nuova Arma all'inizio del tuo turno.	
 GLOBAL_KEYWORD_SILENCE	Silenzio	
@@ -584,6 +587,10 @@ GLOBAL_REGION_ASIA	Asia
 GLOBAL_REGION_CHINA	Cina	
 GLOBAL_REGION_EUROPE	Europa	
 GLOBAL_REMAINING_DATETIME	{0} |4(rimanente,rimanenti)	0=time string
+GLOBAL_REMINDER_CARDBACK_SEASON_END_ALERT	Non perderti il nuovo dorso delle carte!	Big red alert text to remind players about the new change
+GLOBAL_REMINDER_CARDBACK_SEASON_END_DIALOG	Da questo mese, dovrai vincere 5 partite in modalità Classificata per ottenere il dorso stagionale.	Explains the new way to get the season card back
+GLOBAL_REMINDER_CHEST_QUESTION_MARK	?	Label for unearned chest, assuming "?" universally means unknown, it doesn't need to be localized
+GLOBAL_REMINDER_CHEST_SEASON_END_DIALOG	Vinci 5 partite per ottenere\nil forziere stagionale.	
 GLOBAL_RESTART	Ricomincia	
 GLOBAL_RESUME_GAME	Riprendi	
 GLOBAL_RETRY	Riprova	
@@ -620,6 +627,8 @@ GLOBAL_REWARD_CHEST_TIER3	Baule della Guardia
 GLOBAL_REWARD_CHEST_TIER3_EARNED	Hai ottenuto il Baule della Guardia!	
 GLOBAL_REWARD_CHEST_TIER4	Cassa del Portascudi	
 GLOBAL_REWARD_CHEST_TIER4_EARNED	Hai ottenuto la Cassa del Portascudi!	
+GLOBAL_REWARD_CHEST_TIER5	Forziere Gallina Arrabbiata	
+GLOBAL_REWARD_CHEST_TIER5_EARNED	Hai ottenuto il forziere Gallina Arrabbiata!	
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL	{0}	0=first class
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL_DOUBLE	{0} e {1}	0=first class, 1=second class
 GLOBAL_REWARD_CLASS_CHALLENGE_HEADLINE	|4(Sfida di Classe sbloccata,Sfide di Classe sbloccate)	
@@ -638,9 +647,11 @@ GLOBAL_REWARD_HERO_DETAILS	{0}/{1} eroi sbloccati
 GLOBAL_REWARD_HERO_HEADLINE	Eroe sbloccato: {0}	
 GLOBAL_REWARD_HERO_SOURCE	Ricompensa per aver sconfitto l'eroe {0}	0=class
 GLOBAL_REWARD_HEROES_CARD_MOUNT_HEADLINE	Cavalcatura Carta di Hearthstone	
+GLOBAL_REWARD_PROGRESS	{0}/{1} vittorie	0=current wins,1=required wins
 GLOBAL_SCAN	Ricerca	
 GLOBAL_SCREENSHOT_COMPLETE	Immagine salvata sul desktop.	
 GLOBAL_SCREENSHOT_COMPLETE_SPECIFIC_DIRECTORY	Immagine salvata in {0}	0=The directory that the file was saved to
+GLOBAL_SEASON_CHEST_BANNER	Forziere stagionale	Default label for the banner in the end game screen that is placed above the in progress chest
 GLOBAL_SEASON_END_BONUS_STAR_BOOST	Le Stelle bonus danno accesso al grado	
 GLOBAL_SEASON_END_BONUS_STAR_TITLE	Il tuo grado nella scorsa stagione dà diritto a	
 GLOBAL_SEASON_END_BONUS_STARS_LABEL	|4(Stella bonus,Stelle bonus)	
@@ -664,6 +675,9 @@ GLOBAL_SKIP	Salta
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_COMPLETE	<color=#{0}>{1}</color> ha appena finito una competizione nell'Arena. ({2}-{3})	0=name color,1=player name,2=Arena Wins,3=Arena Losses
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START	<color=#{0}>{1}</color> ha iniziato una competizione nell'Arena.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START_WITH_MANY_WINS	<color=#{0}>{1}</color> ha appena iniziato una partita nell'Arena. Ha già ottenuto {2} |4(vittoria,vittorie)!	0=name color,1=player name,2=Arena Wins
+GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_COMPLETE	<color=#{0}>{1}</color> ha appena finito una sessione al Rissodromo. ({2}-{3})	0=name color,1=player name,2=Brawl Wins,3=Brawl Losses
+GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_START	<color=#{0}>{1}</color> ha iniziato una sessione al Rissodromo.	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_START_WITH_MANY_WINS	<color=#{0}>{1}</color> ha appena iniziato una sessione al Rissodromo. Ha già ottenuto {2} |4(vittoria,vittorie)!	0=name color,1=player name,2=Brawl Wins
 GLOBAL_SOCIAL_TOAST_FRIEND_DRUID_LEVEL	<color=#{0}>{1}</color> ha raggiunto il livello {2} con il Druido.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK	<color=#{0}>{1}</color> ha appena raggiunto il grado {2}!	0=name color,1=player name,2=medal rank
 GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK_WILD	<color=#{0}>{1}</color> ha appena raggiunto il grado {2} in formato Selvaggio!	0=name color,1=player name,2=medal rank

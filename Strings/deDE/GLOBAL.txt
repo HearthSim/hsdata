@@ -30,6 +30,7 @@ GLOBAL_BACK	Zurück
 GLOBAL_BASIC_DECK_NAME	{0}	0=class name
 GLOBAL_BETA_REIMBURSEMENT_DETAILS	Dieses Gold stellt eine Gutschrift für getätigte Käufe dar. Vielen Dank!	
 GLOBAL_BETA_REIMBURSEMENT_HEADLINE	Gutschrift nach Accountzurücksetzung	
+GLOBAL_BRAWLISEUM	Kartenkolosseum	
 GLOBAL_BUTTON_AWESOME	Fantastisch!	
 GLOBAL_BUTTON_NEXT	Weiter	
 GLOBAL_BUTTON_NO	Nein	
@@ -330,6 +331,7 @@ GLOBAL_HERO_WINS_PAST_MAX_PHONE	Siege\n{0}	0=number of games this class has won
 GLOBAL_HERO_WINS_PHONE	Siege\n{0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HEROIC_BRAWL	Heroisches Kartenchaos	
 GLOBAL_HIDE	Ausblenden	
+GLOBAL_IN_PROGRESS_REWARD_CHEST_INSTRUCTIONS	Gewinnt {0} |4(weiteres Spiel,weitere Spiele), um Eure Saisontruhe zu erhalten!\n(Kann nächsten Monat geöffnet werden.)	
 GLOBAL_JOIN	Beitreten	
 GLOBAL_KEYWORD_ADAPT	Mutieren	
 GLOBAL_KEYWORD_ADAPT_TEXT	Wählt einen von drei Boni.	
@@ -394,8 +396,9 @@ GLOBAL_KEYWORD_QUEST_TEXT	Startet auf Eurer Hand. Gewährt eine Belohnung, wenn 
 GLOBAL_KEYWORD_RECRUIT	Rekrutieren	
 GLOBAL_KEYWORD_RECRUIT_TEXT	Ruft einen Diener aus Eurem Deck herbei.	
 GLOBAL_KEYWORD_SECRET	Geheimnis	
-GLOBAL_KEYWORD_SECRET_TEXT	Bleibt verdeckt, bis während des gegnerischen Zuges eine spezifische Aktion eintritt.	
+GLOBAL_KEYWORD_SECRET_TEXT	Bleibt verdeckt, bis im\ngegnerischen Zug eine\nspezifische Aktion eintritt.	
 GLOBAL_KEYWORD_SHIFTING_MINION_TEXT	Verwandelt sich zu Beginn Eures Zuges in einen neuen Diener.	
+GLOBAL_KEYWORD_SHIFTING_SPELL_TEXT	Verwandelt sich zu Beginn Eures Zuges in einen neuen Zauber.	
 GLOBAL_KEYWORD_SHIFTING_TEXT	Verwandelt sich zu Beginn Eures Zuges in eine neue Karte.	
 GLOBAL_KEYWORD_SHIFTING_WEAPON_TEXT	Verwandelt sich zu Beginn Eures Zuges in eine neue Waffe.	
 GLOBAL_KEYWORD_SILENCE	Zum Schweigen bringen	
@@ -584,6 +587,10 @@ GLOBAL_REGION_ASIA	Asien
 GLOBAL_REGION_CHINA	China	
 GLOBAL_REGION_EUROPE	Europa	
 GLOBAL_REMAINING_DATETIME	{0} verbleibend	0=time string
+GLOBAL_REMINDER_CARDBACK_SEASON_END_ALERT	Sichert Euch den aktuellen Kartenrücken!	Big red alert text to remind players about the new change
+GLOBAL_REMINDER_CARDBACK_SEASON_END_DIALOG	Ab diesem Monat braucht Ihr 5 Siege in gewerteten Spielen für den Kartenrücken der aktuellen Saison.	Explains the new way to get the season card back
+GLOBAL_REMINDER_CHEST_QUESTION_MARK	?	Label for unearned chest, assuming "?" universally means unknown, it doesn't need to be localized
+GLOBAL_REMINDER_CHEST_SEASON_END_DIALOG	Gewinnt 5 Spiele, um Eure Saisontruhe zu erhalten.	
 GLOBAL_RESTART	Neu starten	
 GLOBAL_RESUME_GAME	Fortfahren	
 GLOBAL_RETRY	Neuer Versuch	
@@ -620,6 +627,8 @@ GLOBAL_REWARD_CHEST_TIER3	Schatztruhe des Wächters
 GLOBAL_REWARD_CHEST_TIER3_EARNED	Ihr habt die Schatztruhe des Wächters erhalten!	
 GLOBAL_REWARD_CHEST_TIER4	Schließkiste des Schildträgers	
 GLOBAL_REWARD_CHEST_TIER4_EARNED	Ihr habt die Schließkiste des Schildträgers erhalten!	
+GLOBAL_REWARD_CHEST_TIER5	Kiste des wütenden Huhns	
+GLOBAL_REWARD_CHEST_TIER5_EARNED	Ihr habt die Kiste des wütenden Huhns erhalten!	
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL	{0}	0=first class
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL_DOUBLE	{0} und {1}	0=first class, 1=second class
 GLOBAL_REWARD_CLASS_CHALLENGE_HEADLINE	|4(Klassenherausforderung,Klassenherausforderungen) freigeschaltet!	
@@ -638,9 +647,11 @@ GLOBAL_REWARD_HERO_DETAILS	{0}/{1} Helden freigeschaltet
 GLOBAL_REWARD_HERO_HEADLINE	{0} freigeschaltet!	
 GLOBAL_REWARD_HERO_SOURCE	Wird durch einen Sieg über die folgende Klasse freigeschaltet: {0}	0=class
 GLOBAL_REWARD_HEROES_CARD_MOUNT_HEADLINE	Reittier: Hearthstone-Karte	
+GLOBAL_REWARD_PROGRESS	{0}/{1} Siege	0=current wins,1=required wins
 GLOBAL_SCAN	Suchen	
 GLOBAL_SCREENSHOT_COMPLETE	Screenshot wurde auf dem Desktop gespeichert.	
 GLOBAL_SCREENSHOT_COMPLETE_SPECIFIC_DIRECTORY	Screenshot wurde gespeichert unter {0}	0=The directory that the file was saved to
+GLOBAL_SEASON_CHEST_BANNER	Saisontruhe	Default label for the banner in the end game screen that is placed above the in progress chest
 GLOBAL_SEASON_END_BONUS_STAR_BOOST	Eure Bonussterne katapultieren Euch auf	
 GLOBAL_SEASON_END_BONUS_STAR_TITLE	Euer Rang aus der letzten Saison verleiht Euch	
 GLOBAL_SEASON_END_BONUS_STARS_LABEL	|4(Bonusstern,Bonussterne)	
@@ -664,6 +675,9 @@ GLOBAL_SKIP	Überspringen
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_COMPLETE	<color=#{0}>{1}</color> hat eine Arenarunde beendet. ({2}:{3})	0=name color,1=player name,2=Arena Wins,3=Arena Losses
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START	<color=#{0}>{1}</color> hat eine neue Arenarunde begonnen.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START_WITH_MANY_WINS	<color=#{0}>{1}</color> hat in der Arena schon {2} Siege errungen und beginnt das nächste Spiel!	0=name color,1=player name,2=Arena Wins
+GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_COMPLETE	<color=#{0}>{1}</color> hat eine Runde im Kartenkolosseum beendet. ({2}:{3})	0=name color,1=player name,2=Brawl Wins,3=Brawl Losses
+GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_START	<color=#{0}>{1}</color> hat eine neue Runde im Kartenkolosseum begonnen.	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_START_WITH_MANY_WINS	<color=#{0}>{1}</color> hat im Kartenkolosseum schon {2} Siege errungen und beginnt das nächste Spiel!	0=name color,1=player name,2=Brawl Wins
 GLOBAL_SOCIAL_TOAST_FRIEND_DRUID_LEVEL	<color=#{0}>{1}</color> ist als Druide auf Stufe {2} aufgestiegen.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK	<color=#{0}>{1}</color> ist gerade auf Rang {2} aufgestiegen!	0=name color,1=player name,2=medal rank
 GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK_WILD	<color=#{0}>{1}</color> ist im wilden Format gerade auf Rang {2} aufgestiegen!	0=name color,1=player name,2=medal rank

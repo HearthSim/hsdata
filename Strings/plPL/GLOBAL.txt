@@ -30,6 +30,7 @@ GLOBAL_BACK	Wróć
 GLOBAL_BASIC_DECK_NAME	{0}	0=class name
 GLOBAL_BETA_REIMBURSEMENT_DETAILS	Złoto jest rekompensatą za dokonane zakupy. Dziękujemy!	
 GLOBAL_BETA_REIMBURSEMENT_HEADLINE	Rekompensata za wyczyszczenie konta	
+GLOBAL_BRAWLISEUM	Arenowa bójka	
 GLOBAL_BUTTON_AWESOME	Rewelka!	
 GLOBAL_BUTTON_NEXT	Dalej	
 GLOBAL_BUTTON_NO	Nie	
@@ -330,6 +331,7 @@ GLOBAL_HERO_WINS_PAST_MAX_PHONE	Zwycięstwa\n{0}	0=number of games this class ha
 GLOBAL_HERO_WINS_PHONE	Zwycięstwa\n{0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HEROIC_BRAWL	Heroiczna Bójka	
 GLOBAL_HIDE	Ukryj	
+GLOBAL_IN_PROGRESS_REWARD_CHEST_INSTRUCTIONS	Wygraj jeszcze {0} |4(partię,partie,partii), aby otrzymać sezonową skrzynię!\n(Zostanie odblokowane w następnym miesiącu)	
 GLOBAL_JOIN	Dołącz	
 GLOBAL_KEYWORD_ADAPT	Adaptuj	
 GLOBAL_KEYWORD_ADAPT_TEXT	Wybierz jedną z trzech premii.	
@@ -396,6 +398,7 @@ GLOBAL_KEYWORD_RECRUIT_TEXT	Przyzwij stronnika z twojej talii.
 GLOBAL_KEYWORD_SECRET	Sekret	
 GLOBAL_KEYWORD_SECRET_TEXT	Zdolność pozostaje ukryta, aż do chwili spełnienia określonego warunku w turze przeciwnika.	
 GLOBAL_KEYWORD_SHIFTING_MINION_TEXT	Na początku twojej tury przemienia się w nowego stronnika.	
+GLOBAL_KEYWORD_SHIFTING_SPELL_TEXT	Na początku twojej tury przemienia się w nowe zaklęcie.	
 GLOBAL_KEYWORD_SHIFTING_TEXT	Na początku twojej tury przemienia się w nową kartę.	
 GLOBAL_KEYWORD_SHIFTING_WEAPON_TEXT	Na początku twojej tury przemienia się w nową broń.	
 GLOBAL_KEYWORD_SILENCE	Wyciszenie	
@@ -584,6 +587,10 @@ GLOBAL_REGION_ASIA	Azja
 GLOBAL_REGION_CHINA	Chiny	
 GLOBAL_REGION_EUROPE	Europa	
 GLOBAL_REMAINING_DATETIME	Pozostało: {0}	0=time string
+GLOBAL_REMINDER_CARDBACK_SEASON_END_ALERT	Nie przegap rewersu karty!	Big red alert text to remind players about the new change
+GLOBAL_REMINDER_CARDBACK_SEASON_END_DIALOG	Od teraz musisz wygrać 5 partii w trybie rankingowym, aby otrzymać sezonowy rewers.	Explains the new way to get the season card back
+GLOBAL_REMINDER_CHEST_QUESTION_MARK	?	Label for unearned chest, assuming "?" universally means unknown, it doesn't need to be localized
+GLOBAL_REMINDER_CHEST_SEASON_END_DIALOG	Wygraj 5 partii, aby otrzymać sezonową skrzynię.	
 GLOBAL_RESTART	Zrestartuj	
 GLOBAL_RESUME_GAME	Wznów	
 GLOBAL_RETRY	Ponów	
@@ -620,6 +627,8 @@ GLOBAL_REWARD_CHEST_TIER3	Skrzynia Strażnika
 GLOBAL_REWARD_CHEST_TIER3_EARNED	Otrzymujesz skrzynię Strażnika!	
 GLOBAL_REWARD_CHEST_TIER4	Kufer Tarczownika	
 GLOBAL_REWARD_CHEST_TIER4_EARNED	Otrzymujesz kufer Tarczownika!	
+GLOBAL_REWARD_CHEST_TIER5	Skrzynia Wściekłego kurczaka	
+GLOBAL_REWARD_CHEST_TIER5_EARNED	Otrzymujesz skrzynię Wściekłego kurczaka!	
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL	{0}	0=first class
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL_DOUBLE	{0} i {1}	0=first class, 1=second class
 GLOBAL_REWARD_CLASS_CHALLENGE_HEADLINE	Odblokowano |4(wyzwanie klasowe,wyzwania klasowe,wyzwań klasowych)	
@@ -638,9 +647,11 @@ GLOBAL_REWARD_HERO_DETAILS	Odblokowani bohaterowie: {0}/{1}
 GLOBAL_REWARD_HERO_HEADLINE	{0} odblokowany!	
 GLOBAL_REWARD_HERO_SOURCE	Odblokowano za pokonanie postaci.	0=class
 GLOBAL_REWARD_HEROES_CARD_MOUNT_HEADLINE	Wierzchowiec:\nKarta z Hearthstone	
+GLOBAL_REWARD_PROGRESS	Zwycięstwa: {0}/{1}	0=current wins,1=required wins
 GLOBAL_SCAN	Skanuj	
 GLOBAL_SCREENSHOT_COMPLETE	Obrazek zapisano na pulpicie	
 GLOBAL_SCREENSHOT_COMPLETE_SPECIFIC_DIRECTORY	Obrazek zapisano w {0}	0=The directory that the file was saved to
+GLOBAL_SEASON_CHEST_BANNER	Sezonowa skrzynia	Default label for the banner in the end game screen that is placed above the in progress chest
 GLOBAL_SEASON_END_BONUS_STAR_BOOST	Dzięki dodatkowym gwiazdkom awansujesz na	
 GLOBAL_SEASON_END_BONUS_STAR_TITLE	Dzięki rankingowi z poprzedniego sezonu otrzymujesz	
 GLOBAL_SEASON_END_BONUS_STARS_LABEL	|4 (Dodatkowa gwiazdka,Dodatkowe gwiazdki,Dodatkowych gwiazdek)	
@@ -664,8 +675,11 @@ GLOBAL_SKIP	Pomiń
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_COMPLETE	<color=#{0}>{1}</color> kończy właśnie serię pojedynków na Arenie. ({2}-{3})	0=name color,1=player name,2=Arena Wins,3=Arena Losses
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START	<color=#{0}>{1}</color> zaczyna nową serię na Arenie.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START_WITH_MANY_WINS	<color=#{0}>{1}</color> zaczyna nową partię na Arenie. Dotychczasowe wygrane: {2}!	0=name color,1=player name,2=Arena Wins
+GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_COMPLETE	<color=#{0}>{1}</color> właśnie kończy Arenową bójkę. ({2}-{3})	0=name color,1=player name,2=Brawl Wins,3=Brawl Losses
+GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_START	<color=#{0}>{1}</color> zaczyna nową Arenową bójkę.	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_START_WITH_MANY_WINS	<color=#{0}>{1}</color> zaczyna nową partię w Arenowej bójce. Dotychczasowe wygrane: {2}!	0=name color,1=player name,2=Brawl Wins
 GLOBAL_SOCIAL_TOAST_FRIEND_DRUID_LEVEL	<color=#{0}>{1}</color> awansuje druidem na poziom {2}.	0=name color,1=player name,2=level
-GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK	<color=#{0}>{1}</color> osiąga rangę {2} w Dziczy!	0=name color,1=player name,2=medal rank
+GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK	<color=#{0}>{1}</color> osiąga rangę {2}!	0=name color,1=player name,2=medal rank
 GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK_WILD	<color=#{0}>{1}</color> osiąga rangę {2} w Dziczy!	0=name color,1=player name,2=medal rank
 GLOBAL_SOCIAL_TOAST_FRIEND_GOLDEN_LEGENDARY	<color=#{0}>{1}</color> zdobywa <color=#{3}>Złotą kartę: {2}</color>!	0=name color,1=player name,2=card name,3=Golden Color
 GLOBAL_SOCIAL_TOAST_FRIEND_HEROIC_BRAWL_COMPLETE	<color=#{0}>{1}</color> właśnie kończy heroiczną bójkę. ({2}-{3})	0=name color,1=player name,2=Heroic brawl Wins,3=Heroic brawl Losses

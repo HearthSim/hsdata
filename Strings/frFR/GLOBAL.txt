@@ -30,6 +30,7 @@ GLOBAL_BACK	Retour
 GLOBAL_BASIC_DECK_NAME	{0}	0=class name
 GLOBAL_BETA_REIMBURSEMENT_DETAILS	Voici de l’or en compensation des achats que vous avez effectués. Merci !	
 GLOBAL_BETA_REIMBURSEMENT_HEADLINE	Crédit de remise à zéro du compte	
+GLOBAL_BRAWLISEUM	Colisée	
 GLOBAL_BUTTON_AWESOME	Génial !	
 GLOBAL_BUTTON_NEXT	Suivant	
 GLOBAL_BUTTON_NO	Non	
@@ -330,6 +331,7 @@ GLOBAL_HERO_WINS_PAST_MAX_PHONE	Victoires\n{0}	0=number of games this class has 
 GLOBAL_HERO_WINS_PHONE	Victoires\n{0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HEROIC_BRAWL	Bras de fer héroïque	
 GLOBAL_HIDE	Masquer	
+GLOBAL_IN_PROGRESS_REWARD_CHEST_INSTRUCTIONS	Gagnez encore {0}_|4(match,matchs) pour obtenir votre coffre de saison_!\n(Il sera débloqué le mois prochain.)	
 GLOBAL_JOIN	Rejoindre	
 GLOBAL_KEYWORD_ADAPT	Adaptation	
 GLOBAL_KEYWORD_ADAPT_TEXT	Choisissez un des 3 bonus.	
@@ -396,6 +398,7 @@ GLOBAL_KEYWORD_RECRUIT_TEXT	Invoque un serviteur de votre deck.
 GLOBAL_KEYWORD_SECRET	Secret	
 GLOBAL_KEYWORD_SECRET_TEXT	Inconnu jusqu’à ce qu’une action spécifique se produise pendant le tour de votre adversaire.	
 GLOBAL_KEYWORD_SHIFTING_MINION_TEXT	Se transforme en un nouveau serviteur au début de votre tour.	
+GLOBAL_KEYWORD_SHIFTING_SPELL_TEXT	Se transforme en un nouveau sort au début de votre tour.	
 GLOBAL_KEYWORD_SHIFTING_TEXT	Se transforme en une nouvelle carte au début de votre tour.	
 GLOBAL_KEYWORD_SHIFTING_WEAPON_TEXT	Se transforme en une nouvelle arme au début de votre tour.	
 GLOBAL_KEYWORD_SILENCE	Silence	
@@ -584,6 +587,10 @@ GLOBAL_REGION_ASIA	Asie
 GLOBAL_REGION_CHINA	Chine	
 GLOBAL_REGION_EUROPE	Europe	
 GLOBAL_REMAINING_DATETIME	{0} |4(restant,restants)	0=time string
+GLOBAL_REMINDER_CARDBACK_SEASON_END_ALERT	Ne manquez pas votre dos de carte !	Big red alert text to remind players about the new change
+GLOBAL_REMINDER_CARDBACK_SEASON_END_DIALOG	À partir de ce mois-ci, vous devez remporter 5 matchs en Partie classée pour obtenir le dos de carte de la saison.	Explains the new way to get the season card back
+GLOBAL_REMINDER_CHEST_QUESTION_MARK	?	Label for unearned chest, assuming "?" universally means unknown, it doesn't need to be localized
+GLOBAL_REMINDER_CHEST_SEASON_END_DIALOG	Gagnez 5 matchs pour obtenir votre coffre de saison.	
 GLOBAL_RESTART	Recommencer	
 GLOBAL_RESUME_GAME	Reprendre	
 GLOBAL_RETRY	Réessayer	
@@ -620,6 +627,8 @@ GLOBAL_REWARD_CHEST_TIER3	Coffre de gardien
 GLOBAL_REWARD_CHEST_TIER3_EARNED	Vous avez obtenu le coffre de gardien.	
 GLOBAL_REWARD_CHEST_TIER4	Cantine de porte-bouclier	
 GLOBAL_REWARD_CHEST_TIER4_EARNED	Vous avez obtenu la cantine de porte-bouclier.	
+GLOBAL_REWARD_CHEST_TIER5	Caisse de poulet furieux	
+GLOBAL_REWARD_CHEST_TIER5_EARNED	Vous avez obtenu la caisse de poulet furieux !	
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL	{0}	0=first class
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL_DOUBLE	{0} et {1}	0=first class, 1=second class
 GLOBAL_REWARD_CLASS_CHALLENGE_HEADLINE	|4(Défi de classe débloqué,Défis de classe débloqués)	
@@ -638,9 +647,11 @@ GLOBAL_REWARD_HERO_DETAILS	{0}/{1} héros débloqués
 GLOBAL_REWARD_HERO_HEADLINE	{0} débloqué	
 GLOBAL_REWARD_HERO_SOURCE	Débloqué en gagnant contre un {0}	0=class
 GLOBAL_REWARD_HEROES_CARD_MOUNT_HEADLINE	Carte Hearthstone	
+GLOBAL_REWARD_PROGRESS	Victoires : {0}/{1}	0=current wins,1=required wins
 GLOBAL_SCAN	Chercher	
 GLOBAL_SCREENSHOT_COMPLETE	Capture d’écran enregistrée sur le bureau	
 GLOBAL_SCREENSHOT_COMPLETE_SPECIFIC_DIRECTORY	Capture d’écran enregistrée dans le répertoire {0}	0=The directory that the file was saved to
+GLOBAL_SEASON_CHEST_BANNER	Coffre de saison	Default label for the banner in the end game screen that is placed above the in progress chest
 GLOBAL_SEASON_END_BONUS_STAR_BOOST	Vos étoiles bonus vous permettent de passer	
 GLOBAL_SEASON_END_BONUS_STAR_TITLE	Votre rang de la saison passée vous octroie	
 GLOBAL_SEASON_END_BONUS_STARS_LABEL	|4(Étoile,Étoiles) bonus	
@@ -664,6 +675,9 @@ GLOBAL_SKIP	Passer
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_COMPLETE	<color=#{0}>{1}</color> vient de terminer une série de matchs dans l’Arène. ({2} - {3})	0=name color,1=player name,2=Arena Wins,3=Arena Losses
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START	<color=#{0}>{1}</color> vient de commencer une série de matchs dans l’Arène.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START_WITH_MANY_WINS	<color=#{0}>{1}</color> vient de commencer une série en Arène avec déjà {2} victoires !	0=name color,1=player name,2=Arena Wins
+GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_COMPLETE	<color=#{0}>{1}</color> vient de terminer une série de matchs du Colisée. ({2} - {3})	0=name color,1=player name,2=Brawl Wins,3=Brawl Losses
+GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_START	<color=#{0}>{1}</color> vient de commencer une série de matchs du Colisée.	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_START_WITH_MANY_WINS	<color=#{0}>{1}</color> vient de commencer une série de matchs du Colisée avec déjà {2}_victoires_!	0=name color,1=player name,2=Brawl Wins
 GLOBAL_SOCIAL_TOAST_FRIEND_DRUID_LEVEL	<color=#{0}>{1}</color> est maintenant Druide niveau {2}.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK	<color=#{0}>{1}</color> vient d’atteindre le rang {2} !	0=name color,1=player name,2=medal rank
 GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK_WILD	<color=#{0}>{1}</color> vient d’atteindre le rang {2} en mode Libre !	0=name color,1=player name,2=medal rank

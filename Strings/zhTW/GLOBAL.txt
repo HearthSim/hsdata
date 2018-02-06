@@ -30,6 +30,7 @@ GLOBAL_BACK	返回
 GLOBAL_BASIC_DECK_NAME	{0}	0=class name
 GLOBAL_BETA_REIMBURSEMENT_DETAILS	這些金幣是從你過去的消費總金額返還的。謝謝你！	
 GLOBAL_BETA_REIMBURSEMENT_HEADLINE	帳號清空返還	
+GLOBAL_BRAWLISEUM	亂鬥場	
 GLOBAL_BUTTON_AWESOME	太棒了！	
 GLOBAL_BUTTON_NEXT	繼續	
 GLOBAL_BUTTON_NO	不要	
@@ -330,6 +331,7 @@ GLOBAL_HERO_WINS_PAST_MAX_PHONE	勝場\n{0}	0=number of games this class has won
 GLOBAL_HERO_WINS_PHONE	勝場\n{0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HEROIC_BRAWL	英雄大亂鬥	
 GLOBAL_HIDE	隱藏	
+GLOBAL_IN_PROGRESS_REWARD_CHEST_INSTRUCTIONS	再贏{0}場對戰就能獲得你的賽季寶箱！\n(在下個月解鎖)	
 GLOBAL_JOIN	加入	
 GLOBAL_KEYWORD_ADAPT	演化	
 GLOBAL_KEYWORD_ADAPT_TEXT	從三種加成效果中選一個。	
@@ -396,6 +398,7 @@ GLOBAL_KEYWORD_RECRUIT_TEXT	從你的牌堆召喚一個手下。
 GLOBAL_KEYWORD_SECRET	秘密	
 GLOBAL_KEYWORD_SECRET_TEXT	隱藏，直到你對手的回合出現某個特定的動作。	
 GLOBAL_KEYWORD_SHIFTING_MINION_TEXT	在你的回合開始時，變成一個新的手下。	
+GLOBAL_KEYWORD_SHIFTING_SPELL_TEXT	在你的回合開始時，變成一個新的法術。	
 GLOBAL_KEYWORD_SHIFTING_TEXT	在你的回合開始時，變成一張新的卡牌。	
 GLOBAL_KEYWORD_SHIFTING_WEAPON_TEXT	在你的回合開始時，變成一個新的武器。	
 GLOBAL_KEYWORD_SILENCE	沉默	
@@ -584,6 +587,10 @@ GLOBAL_REGION_ASIA	亞洲
 GLOBAL_REGION_CHINA	中國	
 GLOBAL_REGION_EUROPE	歐洲	
 GLOBAL_REMAINING_DATETIME	剩下{0}	0=time string
+GLOBAL_REMINDER_CARDBACK_SEASON_END_ALERT	不要錯過你的卡背！	Big red alert text to remind players about the new change
+GLOBAL_REMINDER_CARDBACK_SEASON_END_DIALOG	從這個月起，你必須在排名模式贏得5場勝利才能獲得賽季卡背。	Explains the new way to get the season card back
+GLOBAL_REMINDER_CHEST_QUESTION_MARK	？	Label for unearned chest, assuming "?" universally means unknown, it doesn't need to be localized
+GLOBAL_REMINDER_CHEST_SEASON_END_DIALOG	贏得5場對戰以獲得你的賽季寶箱。	
 GLOBAL_RESTART	重新開始	
 GLOBAL_RESUME_GAME	繼續	
 GLOBAL_RETRY	重試	
@@ -620,6 +627,8 @@ GLOBAL_REWARD_CHEST_TIER3	守護者的寶箱
 GLOBAL_REWARD_CHEST_TIER3_EARNED	你贏得了守護者的寶箱！	
 GLOBAL_REWARD_CHEST_TIER4	執盾兵的置物箱	
 GLOBAL_REWARD_CHEST_TIER4_EARNED	你贏得了執盾兵的置物箱！	
+GLOBAL_REWARD_CHEST_TIER5	憤怒雞的箱子	
+GLOBAL_REWARD_CHEST_TIER5_EARNED	你獲得了憤怒雞的箱子！	
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL	{0}	0=first class
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL_DOUBLE	{0}及{1}	0=first class, 1=second class
 GLOBAL_REWARD_CLASS_CHALLENGE_HEADLINE	已解鎖職業挑戰	
@@ -638,9 +647,11 @@ GLOBAL_REWARD_HERO_DETAILS	{0}/{1}英雄已解鎖
 GLOBAL_REWARD_HERO_HEADLINE	{0}已解鎖	
 GLOBAL_REWARD_HERO_SOURCE	擊敗{0}後解鎖	0=class
 GLOBAL_REWARD_HEROES_CARD_MOUNT_HEADLINE	爐石飛卡坐騎	
+GLOBAL_REWARD_PROGRESS	{0}/{1} 場勝利	0=current wins,1=required wins
 GLOBAL_SCAN	掃描	
 GLOBAL_SCREENSHOT_COMPLETE	螢幕截圖已存到桌面上	
 GLOBAL_SCREENSHOT_COMPLETE_SPECIFIC_DIRECTORY	螢幕截圖已存到{0}	0=The directory that the file was saved to
+GLOBAL_SEASON_CHEST_BANNER	賽季寶箱	Default label for the banner in the end game screen that is placed above the in progress chest
 GLOBAL_SEASON_END_BONUS_STAR_BOOST	你的獎勵星星使你獲得	
 GLOBAL_SEASON_END_BONUS_STAR_TITLE	上一賽季的階級使你獲得	
 GLOBAL_SEASON_END_BONUS_STARS_LABEL	額外的星星	
@@ -663,7 +674,10 @@ GLOBAL_SHUTDOWN_TOAST	<color=#{0}>暴雪網路服務將在{1}分鐘後關閉</co
 GLOBAL_SKIP	跳過	
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_COMPLETE	<color=#{0}>{1}</color>剛剛結束了一輪競技場賽事。({2}-{3})	0=name color,1=player name,2=Arena Wins,3=Arena Losses
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START	<color=#{0}>{1}</color>開始了新的一輪競技場賽事。	0=name color,1=player name
-GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START_WITH_MANY_WINS	已經獲得{2}勝的<color=#{0}>{1}</color>開始了新的競技場賽局！	0=name color,1=player name,2=Arena Wins
+GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START_WITH_MANY_WINS	已經獲得{2}勝的<color=#{0}>{1}</color>開始了新的競技場賽事！	0=name color,1=player name,2=Arena Wins
+GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_COMPLETE	<color=#{0}>{1}</color>剛剛結束了一輪亂鬥場賽事。({2}-{3})	0=name color,1=player name,2=Brawl Wins,3=Brawl Losses
+GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_START	<color=#{0}>{1}</color>開始了一輪新的亂鬥場賽事。	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_START_WITH_MANY_WINS	已經獲得{2}勝的<color=#{0}>{1}</color>開始了新的亂鬥場賽事！	0=name color,1=player name,2=Brawl Wins
 GLOBAL_SOCIAL_TOAST_FRIEND_DRUID_LEVEL	<color=#{0}>{1}</color>成為了等級{2}的德魯伊。	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK	<color=#{0}>{1}</color>達到了{2}級！	0=name color,1=player name,2=medal rank
 GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK_WILD	<color=#{0}>{1}</color>在開放對戰中達到了{2}級！	0=name color,1=player name,2=medal rank
@@ -727,7 +741,7 @@ GLOBAL_TAVERN_BRAWL_ERROR_NOT_ACTIVE	抱歉，這個旅店大亂鬥尚未開啟�
 GLOBAL_TAVERN_BRAWL_ERROR_SEASON_INCREMENTED	抱歉，旅店大亂鬥結束了，但是下次大亂鬥很快就會開始！	
 GLOBAL_TOOLTIP_FRIEND_BUTTON_DESC	挑戰好友或進行聊天	
 GLOBAL_TOOLTIP_FRIEND_BUTTON_HEADER	好友	
-GLOBAL_TOOLTIP_MENU_DESC	看一看各種設定選項，退出遊戲，及其他。	
+GLOBAL_TOOLTIP_MENU_DESC	瀏覽設定選項，退出遊戲及其他功能。	
 GLOBAL_TOOLTIP_MENU_HEADER	遊戲選單	
 GLOBAL_TUTORIAL_ATTACK	攻擊力	
 GLOBAL_TUTORIAL_ATTACKER	攻擊者	
