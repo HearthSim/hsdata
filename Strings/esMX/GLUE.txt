@@ -98,6 +98,7 @@ GLUE_CARD_NERF_BODY	\n|4(La siguiente carta ha,Las siguientes cartas han) cambia
 GLUE_CARD_NERF_HEADER	¡Cambios!	
 GLUE_CARDS_UPDATED	Estas cartas han cambiado.	
 GLUE_CHINA_STORE_BOOSTER_GIFT	赠礼：\n{0}包卡牌包	
+GLUE_CHINA_STORE_BOOSTER_GIFT_PREORDER_BONUS	赠礼：\n{0}包卡牌包\n外加20包奖励卡牌包	
 GLUE_CHINA_STORE_MAMMOTH_BUNDLE_GIFT_1	赠礼：	
 GLUE_CHINA_STORE_MAMMOTH_BUNDLE_GIFT_2	30包卡牌包	
 GLUE_CHINA_STORE_WELCOME_BUNDLE_GIFT_1	赠礼：\n\n10包卡牌包	
@@ -653,7 +654,7 @@ GLUE_MOBILE_SPLASH_SCREEN_LOGIN	Iniciar sesión
 GLUE_MOBILE_STORE_AMAZON_PAYMENT_INFO_DETAILS_ANDROID	Las compras dentro de la aplicación se realizan desde tu cuenta de Amazon. Necesitas una cuenta de Blizzard para realizar compras dentro de la aplicación con dinero real.	
 GLUE_MOBILE_STORE_PAYMENT_INFO_DETAILS_ANDROID	Las compras dentro de la aplicación se realizan con tu cuenta de Google Play. Necesitas una cuenta de Blizzard para realizar compras dentro de la aplicación con dinero real.	
 GLUE_MOBILE_STORE_PAYMENT_INFO_DETAILS_APPLE	Las compras dentro de la aplicación se realizan con tu ID de Apple. Necesitas una cuenta de Blizzard para realizar compras dentro de la aplicación con dinero real. 	
-GLUE_MOBILE_STORE_PAYMENT_INFO_URL_DETAILS	Toca el botón "{0}" para ver más información acerca de la compra de objetos en Hearthstone.	
+GLUE_MOBILE_STORE_PAYMENT_INFO_URL_DETAILS	Toca el botón "{0}" para ver más información sobre sobre la probabilidad de obtención de cartas según su rareza y los detalles de la compra.	
 GLUE_MOBILE_TOOLTIP_BUTTON_STORE_DESC	Compra paquetes con oro o dinero.	
 GLUE_MY_COLLECTION	Mi colección	
 GLUE_MY_COLLECTION_PHONE	Mi colección	
@@ -913,6 +914,8 @@ GLUE_STORE_GENERIC_BP_FAIL_HEADLINE	Error en la compra
 GLUE_STORE_GENERIC_BP_FAIL_RETRY_CONTACT_CS_IF_PERSISTS_DETAILS	Se produjo un problema al procesar tu compra. Vuelve a intentarlo más tarde.	
 GLUE_STORE_GENERIC_BP_FAIL_RETRY_CONTACT_CS_IF_PERSISTS_URL_DETAILS	Pulsa "{0}" para ingresar en el sitio web de la cuenta de Blizzard.	
 GLUE_STORE_GENERIC_BP_FAIL_URL_DETAILS	Si pulsas "{0}", el sistema te llevará al sitio web de Blizzard, donde podrás actualizar la información de tu método de pago.	
+GLUE_STORE_GIL_PREORDER_DATE	¡Disponible en abril*!	
+GLUE_STORE_GIL_PREORDER_DUST_DATE	¡Paquetes disponibles a\nmediados de abril*!	
 GLUE_STORE_GOLD_BUTTON_TOOLTIP_HEADLINE	Comprar con oro	
 GLUE_STORE_GOLD_QTY_CHANGE_DESC	¡Tienes mucho oro! Si quieres comprar varios paquetes, puedes hacer doble clic en la opción "1 paquete por 100 de oro" para cambiar la cantidad de paquetes que deseas comprar.	
 GLUE_STORE_GOLD_QTY_CHANGE_DESC_TOUCH	¡Tienes mucho oro! Si quieres comprar varios paquetes, pulsa dos veces la opción "1 paquete por 100 de oro" para cambiar la cantidad de paquetes que deseas comprar.	
@@ -955,12 +958,13 @@ GLUE_STORE_PACK_BUTTON_TEXT_PURCHASED	Ya lo has comprado
 GLUE_STORE_PACKBUY_BEST_VALUE	Superoferta	
 GLUE_STORE_PACKBUY_LIMITED_TIME	Tiempo limitado	
 GLUE_STORE_PACKBUY_SUGGESTION	Recomendado	
-GLUE_STORE_PACKS_BUTTON_PREORDER_TEXT	Reservar {0} paquetes	0=number of packs
+GLUE_STORE_PACKS_BUTTON_PREORDER_TEXT	Precompra {0} paquetes	0=number of packs
 GLUE_STORE_PACKS_LATEST_EXPANSION	Expansión actual	
 GLUE_STORE_PACKS_PREORDER_TEXT	Reservar	
+GLUE_STORE_PACKS_WITH_BONUS_BUTTON_PREORDER_TEXT	¡Obtén {0} paquetes adicionales!	
 GLUE_STORE_PAYMENT_INFO_DETAILS	Los fondos se descontarán de tu saldo de Blizzard. Si el saldo no es suficiente, se utilizará el método de pago principal que has especificado en tu cuenta de Blizzard. Necesitas una cuenta de Blizzard para realizar compras dentro de la aplicación con dinero real.\n\nIMPORTANTE: Ten en cuenta que si se produce un cargo revertido o algún otro problema con los pagos, es posible que se suspenda temporalmente la cuenta de Hearthstone hasta que se solucionen los problemas o vuelva a pagarse el cargo revertido.	
-GLUE_STORE_PAYMENT_INFO_HEADLINE	Información de pago	
-GLUE_STORE_PAYMENT_INFO_URL_DETAILS	Si quieres ver más información, pulsa "{0}" para ingresar en el sitio web de información de pago de Blizzard.	
+GLUE_STORE_PAYMENT_INFO_HEADLINE	Información de producto	
+GLUE_STORE_PAYMENT_INFO_URL_DETAILS	Presiona "{0}" para ver más información sobre la probabilidad de obtención de cartas según su rareza y los detalles de la compra.	
 GLUE_STORE_PRE_PURCHASE_HAS_ENDED	Las reservas para este producto ya no están disponibles.	
 GLUE_STORE_PREORDER	¡RESÉRVALA!	
 GLUE_STORE_PREORDER_EXCLUSIVE	¡SOLO CON RESERVA!	
@@ -969,13 +973,16 @@ GLUE_STORE_PRODUCT_DETAILS_BRM_PART_2	Gana cartas nuevas de Montaña Roca Negra 
 GLUE_STORE_PRODUCT_DETAILS_DUST	•  购买奥术之尘赠送系列卡牌包\n•  每包卡牌包内含5张{0}《炉石传说》卡牌，其中至少1张为稀有或更高品质\n•  奥术之尘可用于在“我的收藏”中制作卡牌	0=pack type
 GLUE_STORE_PRODUCT_DETAILS_FIRST_PURCHASE_BUNDLE	•  10 paquetes clásicos y 1 esbirro legendario clásico aleatorio de una de las clases\n• Cada paquete contiene 5 cartas e incluye al menos 1 rara o superior	
 GLUE_STORE_PRODUCT_DETAILS_FIRST_PURCHASE_BUNDLE_DUST	•  购买10点奥术之尘赠送10包经典卡牌包和1张随机职业的经典传说卡牌\n•  每包卡牌包内含5张卡牌，其中至少1张为稀有或更高品质\n•  奥术之尘可用于在“我的收藏”中制作卡牌	
+GLUE_STORE_PRODUCT_DETAILS_GIL_CN_DUST_PRESALE	•  购买50点奥术之尘和1张特殊的卡牌背面图案赠送50包系列卡牌包和20包奖励卡牌包\n•  每包卡牌包内含5张卡牌，其中至少1张为稀有或更高品质\n *卡牌包可以在2018年4月30日前打开\n•  奥术之尘可用于在“我的收藏”中制作卡牌	
+GLUE_STORE_PRODUCT_DETAILS_GIL_PACK_PRESALE	• 50 paquetes y un dorso de carta especial\n• 20 paquetes adicionales\n• Cada paquete contiene 5 cartas e incluye al menos una rara o superior\n * Los paquetes pueden abrirse antes del 30 de abril de 2018	
 GLUE_STORE_PRODUCT_DETAILS_GORO_PACK_PRESALE	• 50 paquetes y un dorso de carta especial\n• Cada paquete contiene 5 cartas e incluye al menos 1 carta rara o superior\n * Podrás abrir los paquetes antes del 30 de abril de 2017	
 GLUE_STORE_PRODUCT_DETAILS_HEADLINE_DUST	奥术之尘：	
-GLUE_STORE_PRODUCT_DETAILS_HEADLINE_FIRST_PURCHASE_BUNDLE	El paquete de bienvenida incluye:	
+GLUE_STORE_PRODUCT_DETAILS_HEADLINE_FIRST_PURCHASE_BUNDLE	El combo de bienvenida incluye:	
+GLUE_STORE_PRODUCT_DETAILS_HEADLINE_GIL_PACK_PRESALE	El Bosque Embrujado (Precompra) incluye:	
 GLUE_STORE_PRODUCT_DETAILS_HEADLINE_GORO_PACK_PRESALE	Viaje a Un'Goro (preventa) incluye:	
 GLUE_STORE_PRODUCT_DETAILS_HEADLINE_ICC_PACK_PRESALE	Caballeros del Trono Helado (preventa) incluye:	
 GLUE_STORE_PRODUCT_DETAILS_HEADLINE_LOOT_PACK_PRESALE	Kóbolds & Catacumbas (Precompra) incluye:	
-GLUE_STORE_PRODUCT_DETAILS_HEADLINE_MAMMOTH_BUNDLE	El Paquete del mamut incluye:	
+GLUE_STORE_PRODUCT_DETAILS_HEADLINE_MAMMOTH_BUNDLE	El combo del mamut incluye:	
 GLUE_STORE_PRODUCT_DETAILS_HEADLINE_OG_PACK_PRESALE	Susurros de los Dioses Antiguos (Preventa) incluye:	
 GLUE_STORE_PRODUCT_DETAILS_HEADLINE_PACK	Contenido por paquete:	
 GLUE_STORE_PRODUCT_DETAILS_HEADLINE_TGT_PACK_PRESALE	La reserva de El Gran Torneo incluye:	
@@ -998,15 +1005,16 @@ GLUE_STORE_PRODUCT_EVENT_HAS_ENDED	Ese producto ya no está disponible.
 GLUE_STORE_PRODUCT_NAME_BRM_PRESALE_BUNDLE	Reserva de Montaña Roca Negra	
 GLUE_STORE_PRODUCT_NAME_BRM_WING_BUNDLE	Aventura de Montaña Roca Negra ({0} |4(ala,alas))	
 GLUE_STORE_PRODUCT_NAME_DUST	{0}个奥术之尘和赠送的{1}包{2}卡牌包	0=quantity of dust,1=quantity of packs,2=pack type
-GLUE_STORE_PRODUCT_NAME_FIRST_PURCHASE_BUNDLE	Paquete de bienvenida	
+GLUE_STORE_PRODUCT_NAME_FIRST_PURCHASE_BUNDLE	Combo de bienvenida	
 GLUE_STORE_PRODUCT_NAME_FORGE_TICKET	Admisión a la Arena	
+GLUE_STORE_PRODUCT_NAME_GIL_PRESALE_BUNDLE	El Bosque Embrujado (Precompra)	
 GLUE_STORE_PRODUCT_NAME_GORO_PRESALE_BUNDLE	Viaje a Un'Goro (preventa)	
 GLUE_STORE_PRODUCT_NAME_ICC_PRESALE_BUNDLE	Caballeros del Trono Helado (preventa)	
 GLUE_STORE_PRODUCT_NAME_KARA_PRESALE_BUNDLE	Promoción de lanzamiento de Una noche en Karazhan	
 GLUE_STORE_PRODUCT_NAME_KARA_WING_BUNDLE	Aventura de Una noche en Karazhan ({0} |4(ala,alas))	
 GLUE_STORE_PRODUCT_NAME_LOE_WING_BUNDLE	Aventura de Liga de Expedicionarios ({0} |4(ala,alas))	
 GLUE_STORE_PRODUCT_NAME_LOOT_PRESALE_BUNDLE	Kóbolds & Catacumbas (Precompra)	
-GLUE_STORE_PRODUCT_NAME_MAMMOTH_BUNDLE	Paquete del mamut	
+GLUE_STORE_PRODUCT_NAME_MAMMOTH_BUNDLE	Combo del mamut	
 GLUE_STORE_PRODUCT_NAME_MOBILE_UNKNOWN	Compra desde un teléfono celular	
 GLUE_STORE_PRODUCT_NAME_NAXX_WING_BUNDLE	Aventura de Naxxramas ({0} |4(ala,alas))	
 GLUE_STORE_PRODUCT_NAME_OG_PRESALE_BUNDLE	Susurros de los Dioses Antiguos (Preventa)	
@@ -1228,8 +1236,8 @@ GLUE_VIEW_DECK	Ver mazo
 GLUE_WEB_PURCHASE_BUTTON	¡Entendido!	
 GLUE_WEB_PURCHASE_DESC	¡Has hecho una compra en la web!\nRevisa tu correo para ver más detalles.	
 GLUE_WEB_PURCHASE_TITLE	Compra en la web	
-GLUE_WELCOME_BUNDLE_RANDOM_CARD_SCROLL_DESC	¡Tu paquete de bienvenida contenía {0}!	
-GLUE_WELCOME_BUNDLE_RANDOM_CARD_SCROLL_TITLE	¡Carta legendaria del paquete de bienvenida!	
+GLUE_WELCOME_BUNDLE_RANDOM_CARD_SCROLL_DESC	¡Tu combo de bienvenida contenía {0}!	
+GLUE_WELCOME_BUNDLE_RANDOM_CARD_SCROLL_TITLE	¡Carta legendaria del combo de bienvenida!	
 GLUE_WIN_STREAK	Racha de victorias: {0}	0=number of wins
 GLUE_WINS	Victorias	header for number of wins
 GLUE_WOODEN_BANNER_TITLE_FRIEND_WEEK	¡Disputa amistosa!	
