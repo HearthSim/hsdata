@@ -46,6 +46,9 @@ GLOBAL_CARD_SET_GANGS	Bassifondi di Meccania
 GLOBAL_CARD_SET_GANGS_RESERVE	Riserva delle bande	
 GLOBAL_CARD_SET_GANGS_SEARCHABLE_SHORTHAND_NAMES	msg msog bdm ibdm bm	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_GANGS_SHORT	Meccania	
+GLOBAL_CARD_SET_GILNEAS	Boscotetro	
+GLOBAL_CARD_SET_GILNEAS_SEARCHABLE_SHORTHAND_NAMES	bt	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_GILNEAS_SHORT	Boscotetro	
 GLOBAL_CARD_SET_GVG	Goblin vs Gnomi	
 GLOBAL_CARD_SET_GVG_SEARCHABLE_SHORTHAND_NAMES	gvg	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_HOF	Vecchie Glorie	
@@ -117,6 +120,8 @@ GLOBAL_DATETIME_AFK_MINUTES	Assente da {0} |4(minuto,minuti)
 GLOBAL_DATETIME_AFK_MONTH	Assente da più di un mese	
 GLOBAL_DATETIME_AFK_SECONDS	Assente da meno di un minuto	
 GLOBAL_DATETIME_AFK_WEEKS	Assente da {0} |4(settimana,settimane)	
+GLOBAL_DATETIME_COMING_SOON	Prossimamente	
+GLOBAL_DATETIME_COMING_SOON_WEEKS	Disponibile fra\n{0} |4(settimana,settimane)	
 GLOBAL_DATETIME_FRIENDREQUEST_DAY	ieri	
 GLOBAL_DATETIME_FRIENDREQUEST_DAYS	{0} |4(giorno,giorni) fa	
 GLOBAL_DATETIME_FRIENDREQUEST_HOURS	{0} |4(ora,ore) fa	
@@ -146,6 +151,15 @@ GLOBAL_DATETIME_SPLASHSCREEN_MINUTES	{0} |4(minuto,minuti)
 GLOBAL_DATETIME_SPLASHSCREEN_MONTH	Più di un mese	
 GLOBAL_DATETIME_SPLASHSCREEN_SECONDS	< 1 min	
 GLOBAL_DATETIME_SPLASHSCREEN_WEEKS	{0} |4(settimana,settimane)	
+GLOBAL_DATETIME_UNLOCKS_SOON_WEEKS	Sbloccato fra {0} |4(settimana,settimane)	
+GLOBAL_DECK_SHARE_ACCEPT_REQUEST	Condividi	
+GLOBAL_DECK_SHARE_DECLINE_REQUEST	No, grazie!	
+GLOBAL_DECK_SHARE_ERROR	Errore durante la condivisione dei mazzi.	
+GLOBAL_DECK_SHARE_HEADER	Richiesta mazzi	
+GLOBAL_DECK_SHARE_REQUEST_CANCELED	{0} ha annullato la sua richiesta di condivisione dei mazzi.	0=friend name
+GLOBAL_DECK_SHARE_REQUEST_DECLINED	{0} ha rifiutato la tua richiesta di condivisione dei mazzi.	0=friend name
+GLOBAL_DECK_SHARE_REQUEST_WAITING_RESPONSE	In attesa che {0} risponda alla tua richiesta di condivisione dei mazzi.	
+GLOBAL_DECK_SHARE_REQUESTED	{0} vorrebbe avere in prestito uno dei tuoi mazzi.	0=friend name
 GLOBAL_DEFAULT_ALERT_HEADER	Avviso	
 GLOBAL_DEMO_COMPLETE_BODY	Grazie per aver giocato a questa demo di Hearthstone: Heroes of Warcraft!	
 GLOBAL_DEMO_COMPLETE_HEADER	Congratulazioni!	
@@ -336,7 +350,7 @@ GLOBAL_JOIN	Partecipa
 GLOBAL_KEYWORD_ADAPT	Adattamento	
 GLOBAL_KEYWORD_ADAPT_TEXT	Scegli uno dei tre potenziamenti.	
 GLOBAL_KEYWORD_AUTOATTACK	Azione Automatica	
-GLOBAL_KEYWORD_AUTOATTACK_TEXT	Non può attaccare, ma compie un'azione alla fine del tuo turno.	
+GLOBAL_KEYWORD_AUTOATTACK_TEXT	Non può attaccare, ma attiva l'effetto alla fine del tuo turno.	
 GLOBAL_KEYWORD_AUTOCAST	Lancio automatico	
 GLOBAL_KEYWORD_AUTOCAST_TEXT	Questo Potere Eroe DEVE essere usato ogni turno.	
 GLOBAL_KEYWORD_BATTLECRY	Grido di Battaglia	
@@ -358,6 +372,8 @@ GLOBAL_KEYWORD_DISCOVER_TEXT	Scegli una delle tre carte e mettila nella tua mano
 GLOBAL_KEYWORD_DIVINE_SHIELD	Scudo Divino	
 GLOBAL_KEYWORD_DIVINE_SHIELD_REF_TEXT	La prima volta che un servitore protetto subisce danni, vengono ignorati.	
 GLOBAL_KEYWORD_DIVINE_SHIELD_TEXT	La prima volta che questo servitore subisce danni, vengono ignorati.	
+GLOBAL_KEYWORD_ECHO	Eco	
+GLOBAL_KEYWORD_ECHO_TEXT	Può essere giocata più volte nello stesso turno.	
 GLOBAL_KEYWORD_ENRAGED	Rabbia	
 GLOBAL_KEYWORD_ENRAGED_TEXT	Mentre è danneggiato, il servitore ottiene un nuovo potere.	
 GLOBAL_KEYWORD_FREEZE	Congelamento	
@@ -395,6 +411,8 @@ GLOBAL_KEYWORD_QUEST	Missione
 GLOBAL_KEYWORD_QUEST_TEXT	Inizia nella tua mano. Completala per ottenere una ricompensa.	
 GLOBAL_KEYWORD_RECRUIT	Reclutamento	
 GLOBAL_KEYWORD_RECRUIT_TEXT	Evoca un servitore dal tuo mazzo.	
+GLOBAL_KEYWORD_RUSH	Assalto	
+GLOBAL_KEYWORD_RUSH_TEXT	Può attaccare immediatamente i servitori.	
 GLOBAL_KEYWORD_SECRET	Segreto	
 GLOBAL_KEYWORD_SECRET_TEXT	Nascosto finché non si verifica un'azione specifica nel turno dell'avversario.	
 GLOBAL_KEYWORD_SHIFTING_MINION_TEXT	Si trasforma in un nuovo servitore all'inizio del tuo turno.	
@@ -408,9 +426,11 @@ GLOBAL_KEYWORD_SPAREPART_TEXT	Le carte Gadget sono Magie da 1 Mana con effetti m
 GLOBAL_KEYWORD_SPELLPOWER	Danni Magici	
 GLOBAL_KEYWORD_SPELLPOWER_REF_TEXT	Aumenta i danni inflitti dalle Magie.	
 GLOBAL_KEYWORD_SPELLPOWER_TEXT	Aumenta di {0} i danni inflitti dalle tue carte Magia.	0=amount of spell damage
+GLOBAL_KEYWORD_START_OF_GAME	Inizio Partita	
+GLOBAL_KEYWORD_START_OF_GAME_TEXT	Attiva l'effetto prima del primo turno.	
 GLOBAL_KEYWORD_STEALTH	Furtività	
-GLOBAL_KEYWORD_STEALTH_REF_TEXT	Non può essere attaccato o scelto come bersaglio finché non infligge danni.	
-GLOBAL_KEYWORD_STEALTH_TEXT	Non può essere attaccato o scelto come bersaglio finché non infligge danni.	
+GLOBAL_KEYWORD_STEALTH_REF_TEXT	Non può essere attaccato o scelto come bersaglio finché non attacca.	
+GLOBAL_KEYWORD_STEALTH_TEXT	Non può essere attaccato o scelto come bersaglio finché non attacca.	
 GLOBAL_KEYWORD_TAUNT	Provocazione	
 GLOBAL_KEYWORD_TAUNT_REF_TEXT	I nemici devono attaccare i servitori con Provocazione.	
 GLOBAL_KEYWORD_TAUNT_TEXT	I nemici devono attaccare questo servitore.	
@@ -544,11 +564,13 @@ GLOBAL_PROGRAMNAME_STARCRAFT2	StarCraft II
 GLOBAL_PROGRAMNAME_WOW	World of Warcraft	
 GLOBAL_QUEST_PROGRESS_COUNT	{0}/{1}	0=progress,1=max progress
 GLOBAL_QUIT	Esci	
+GLOBAL_RACE_ALL	Tutti	
 GLOBAL_RACE_BLOODELF	Elfo del Sangue	
 GLOBAL_RACE_DEMON	Demone	
 GLOBAL_RACE_DRAENEI	Draenei	
 GLOBAL_RACE_DRAGON	Drago	
 GLOBAL_RACE_DWARF	Nano	
+GLOBAL_RACE_EGG	Uovo	
 GLOBAL_RACE_ELEMENTAL	Elementale	
 GLOBAL_RACE_GNOME	Gnomo	
 GLOBAL_RACE_GOBLIN	Goblin	
@@ -604,6 +626,7 @@ GLOBAL_REWARD_ARENA_TICKET_ENTRANT	Beneficiario	a label that shows up in the Are
 GLOBAL_REWARD_ARENA_TICKET_HEADLINE	Arena gratuita!	
 GLOBAL_REWARD_ARENA_TICKET_LABEL	Arena	
 GLOBAL_REWARD_ARENA_TICKET_TITLE	Arena	
+GLOBAL_REWARD_BONUS_CHALLENGE_HEADLINE	Sfida Finale sbloccata	
 GLOBAL_REWARD_BOOSTER_DETAILS_OUT_OF_BAND	{0} |4(busta è stata aggiunta,buste sono state aggiunte) al tuo account da una sorgente esterna al gioco.	0=count
 GLOBAL_REWARD_BOOSTER_DETAILS_PRESALE_OUT_OF_BAND	Il tuo acquisto sul web di {0} |4(busta,buste) sarà presto disponibile!	0=count
 GLOBAL_REWARD_BOOSTER_HEADLINE_GENERIC	Busta ottenuta!	

@@ -46,6 +46,9 @@ GLOBAL_CARD_SET_GANGS	黑街英雄之加基森風雲
 GLOBAL_CARD_SET_GANGS_RESERVE	幫派保留	
 GLOBAL_CARD_SET_GANGS_SEARCHABLE_SHORTHAND_NAMES	黑街 加基森 風雲	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_GANGS_SHORT	加基森風雲	
+GLOBAL_CARD_SET_GILNEAS	黑巫森林	
+GLOBAL_CARD_SET_GILNEAS_SEARCHABLE_SHORTHAND_NAMES	黑巫 森林	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_GILNEAS_SHORT	黑巫森林	
 GLOBAL_CARD_SET_GVG	哥哥打地地	
 GLOBAL_CARD_SET_GVG_SEARCHABLE_SHORTHAND_NAMES	哥哥	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_HOF	榮譽殿堂	
@@ -117,6 +120,8 @@ GLOBAL_DATETIME_AFK_MINUTES	離開{0}分鐘
 GLOBAL_DATETIME_AFK_MONTH	離開超過一個月	
 GLOBAL_DATETIME_AFK_SECONDS	離開不到一分鐘	
 GLOBAL_DATETIME_AFK_WEEKS	離開{0}個星期	
+GLOBAL_DATETIME_COMING_SOON	敬請期待	
+GLOBAL_DATETIME_COMING_SOON_WEEKS	{0}週後開放	
 GLOBAL_DATETIME_FRIENDREQUEST_DAY	昨天	
 GLOBAL_DATETIME_FRIENDREQUEST_DAYS	{0}天前	
 GLOBAL_DATETIME_FRIENDREQUEST_HOURS	{0}小時前	
@@ -146,6 +151,15 @@ GLOBAL_DATETIME_SPLASHSCREEN_MINUTES	{0}分鐘
 GLOBAL_DATETIME_SPLASHSCREEN_MONTH	>1個月	
 GLOBAL_DATETIME_SPLASHSCREEN_SECONDS	<1分鐘	
 GLOBAL_DATETIME_SPLASHSCREEN_WEEKS	{0}週	
+GLOBAL_DATETIME_UNLOCKS_SOON_WEEKS	{0}週後解鎖	
+GLOBAL_DECK_SHARE_ACCEPT_REQUEST	分享	
+GLOBAL_DECK_SHARE_DECLINE_REQUEST	拒絕	
+GLOBAL_DECK_SHARE_ERROR	分享套牌時發生錯誤。	
+GLOBAL_DECK_SHARE_HEADER	分享套牌？	
+GLOBAL_DECK_SHARE_REQUEST_CANCELED	{0}取消了請你分享套牌的要求。	0=friend name
+GLOBAL_DECK_SHARE_REQUEST_DECLINED	{0}拒絕了與你分享套牌的要求。	0=friend name
+GLOBAL_DECK_SHARE_REQUEST_WAITING_RESPONSE	等待{0}回應你分享套牌的要求。	
+GLOBAL_DECK_SHARE_REQUESTED	{0}想要借用你的一組套牌。	0=friend name
 GLOBAL_DEFAULT_ALERT_HEADER	警告	
 GLOBAL_DEMO_COMPLETE_BODY	感謝您試玩《爐石戰記：魔獸英雄傳》！	
 GLOBAL_DEMO_COMPLETE_HEADER	恭喜！	
@@ -358,6 +372,8 @@ GLOBAL_KEYWORD_DISCOVER_TEXT	從三張卡牌中選一張放入你的手牌。
 GLOBAL_KEYWORD_DIVINE_SHIELD	聖盾術	
 GLOBAL_KEYWORD_DIVINE_SHIELD_REF_TEXT	被聖盾術保護的手下會無視受到的第一次攻擊。	
 GLOBAL_KEYWORD_DIVINE_SHIELD_TEXT	這名手下會無視受到的第一次攻擊。	
+GLOBAL_KEYWORD_ECHO	回音	
+GLOBAL_KEYWORD_ECHO_TEXT	可在一回合當中重複打出。	
 GLOBAL_KEYWORD_ENRAGED	狂怒	
 GLOBAL_KEYWORD_ENRAGED_TEXT	受傷狀態時，這名手下會觸發新的能力。	
 GLOBAL_KEYWORD_FREEZE	凍結	
@@ -388,13 +404,15 @@ GLOBAL_KEYWORD_OVERLOAD	超載：X
 GLOBAL_KEYWORD_OVERLOAD_REF_TEXT	有超載的牌會限制你下一回合的法力水晶數量。	
 GLOBAL_KEYWORD_OVERLOAD_TEXT	你的下一個回合會減少X點法力。	
 GLOBAL_KEYWORD_PASSIVE	被動	
-GLOBAL_KEYWORD_PASSIVE_TEXT	當前這輪地城挑戰的永久效果	
+GLOBAL_KEYWORD_PASSIVE_TEXT	當前這輪挑戰的永久效果。	
 GLOBAL_KEYWORD_POISONOUS	致命劇毒	
 GLOBAL_KEYWORD_POISONOUS_TEXT	摧毀被此手下傷害到的任何手下	
 GLOBAL_KEYWORD_QUEST	任務	
 GLOBAL_KEYWORD_QUEST_TEXT	起手選牌時會在你的手中。完成後可獲得獎勵。	
 GLOBAL_KEYWORD_RECRUIT	號召	
 GLOBAL_KEYWORD_RECRUIT_TEXT	從你的牌堆召喚一個手下。	
+GLOBAL_KEYWORD_RUSH	衝刺	
+GLOBAL_KEYWORD_RUSH_TEXT	進場的回合馬上就能攻擊手下。	
 GLOBAL_KEYWORD_SECRET	秘密	
 GLOBAL_KEYWORD_SECRET_TEXT	隱藏，直到你對手的回合出現某個特定的動作。	
 GLOBAL_KEYWORD_SHIFTING_MINION_TEXT	在你的回合開始時，變成一個新的手下。	
@@ -408,9 +426,11 @@ GLOBAL_KEYWORD_SPAREPART_TEXT	備用零件是消耗為1點的弱效法術。
 GLOBAL_KEYWORD_SPELLPOWER	法術傷害	
 GLOBAL_KEYWORD_SPELLPOWER_REF_TEXT	你的法術會造成額外傷害。	
 GLOBAL_KEYWORD_SPELLPOWER_TEXT	你的法術卡牌造成{0}點額外傷害。	0=amount of spell damage
+GLOBAL_KEYWORD_START_OF_GAME	對戰開始	
+GLOBAL_KEYWORD_START_OF_GAME_TEXT	對戰一開始就產生作用。	
 GLOBAL_KEYWORD_STEALTH	潛行	
-GLOBAL_KEYWORD_STEALTH_REF_TEXT	無法被攻擊或指定，直到造成傷害為止。	
-GLOBAL_KEYWORD_STEALTH_TEXT	無法被攻擊或指定，直到它造成傷害為止。	
+GLOBAL_KEYWORD_STEALTH_REF_TEXT	無法被攻擊或指定，直到它開始攻擊為止。	
+GLOBAL_KEYWORD_STEALTH_TEXT	無法被攻擊或指定，直到它開始攻擊為止。	
 GLOBAL_KEYWORD_TAUNT	嘲諷	
 GLOBAL_KEYWORD_TAUNT_REF_TEXT	敵人必須攻擊有嘲諷的手下。	
 GLOBAL_KEYWORD_TAUNT_TEXT	敵人必須攻擊這名手下。	
@@ -544,11 +564,13 @@ GLOBAL_PROGRAMNAME_STARCRAFT2	《星海爭霸II》
 GLOBAL_PROGRAMNAME_WOW	魔獸世界	
 GLOBAL_QUEST_PROGRESS_COUNT	{0}/{1}	0=progress,1=max progress
 GLOBAL_QUIT	退出	
+GLOBAL_RACE_ALL	全部	
 GLOBAL_RACE_BLOODELF	血精靈	
 GLOBAL_RACE_DEMON	惡魔	
 GLOBAL_RACE_DRAENEI	德萊尼	
 GLOBAL_RACE_DRAGON	龍類	
 GLOBAL_RACE_DWARF	矮人	
+GLOBAL_RACE_EGG	蛋	
 GLOBAL_RACE_ELEMENTAL	元素	
 GLOBAL_RACE_GNOME	地精	
 GLOBAL_RACE_GOBLIN	哥布林	
@@ -604,6 +626,7 @@ GLOBAL_REWARD_ARENA_TICKET_ENTRANT	參賽者	a label that shows up in the Arena 
 GLOBAL_REWARD_ARENA_TICKET_HEADLINE	一輪免費的競技場賽事！	
 GLOBAL_REWARD_ARENA_TICKET_LABEL	競技場	
 GLOBAL_REWARD_ARENA_TICKET_TITLE	競技場	
+GLOBAL_REWARD_BONUS_CHALLENGE_HEADLINE	解鎖最終挑戰	
 GLOBAL_REWARD_BOOSTER_DETAILS_OUT_OF_BAND	你從其他來源獲得了{0}包卡牌包。	0=count
 GLOBAL_REWARD_BOOSTER_DETAILS_PRESALE_OUT_OF_BAND	你從網頁購買的{0}包卡牌很快就可以開啟了！	0=count
 GLOBAL_REWARD_BOOSTER_HEADLINE_GENERIC	獲得卡牌包！	

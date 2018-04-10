@@ -1,4 +1,4 @@
-TAG	TEXT	COMMENT
+﻿TAG	TEXT	COMMENT
 GLUE_COLLECTION_SEARCH	Search
 GLUE_COLLECTION_DECK_HELP_BUTTON	Deck Helper
 GLUE_COLLECTION_DECK_TEMPLATE_HELP_BUTTON	Replace Cards	
@@ -21,6 +21,8 @@ GLUE_COLLECTION_HOME_PAGE	Overview
 GLUE_COLLECTION_PAGE_NUM	Page {0}	
 GLUE_COLLECTION_LOCK_NO_MORE_INSTANCES	None Left
 GLUE_COLLECTION_LOCK_MAX_DECK_COPIES	Deck Limit: {0}
+GLUE_COLLECTION_LOCK_CARD_NOT_PLAYABLE	Not Yet Released
+GLUE_COLLECTION_LOCK_CARD_BANNED	Banned
 GLUE_COLLECTION_RECENT_CARDS	Recently Acquired Cards	
 GLUE_COLLECTION_MY_DECKS	My Decks	
 GLUE_COLLECTION_DECK	Deck	
@@ -121,6 +123,7 @@ GLUE_COLLECTION_DECK_PASTE_TOOLTIP_WILD_LOCKED	You must own a wild card before y
 GLUE_COLLECTION_DECK_PASTE_TOOLTIP_INVALID	Your copied deck is not valid for this play mode.
 GLUE_COLLECTION_DECK_COPY_TOOLTIP_INCOMPLETE	You can only copy a full deck.
 GLUE_COLLECTION_DECK_COPY_TOOLTIP_FORMAT	Your deck has some cards that are invalid for this format.
+GLUE_COLLECTION_DECK_COPY_TOOLTIP_UNPLAYABLE	Your deck has some cards that are not playable.
 GLUE_COLLECTION_DECK_PASTE_INVALID_CLASS_BODY	The deck you are trying to paste belongs to a different class.
 GLUE_MASS_DISENCHANT_HEADLINE	Mass Disenchant
 GLUE_MASS_DISENCHANT_HEADLINE_PHONE	Mass\nDisenchant
@@ -151,7 +154,7 @@ GLUE_CRAFTING_WILD_CARD_TAVERN_BRAWL_DESC	This card is not valid for this Tavern
 GLUE_CRAFTING_WILD_CARD_WARNING_CONFIRM	I'm Sure	
 GLUE_CRAFTING_WILD_CARD_WARNING_CANCEL	Oops! Nope!	
 GLUE_CRAFTING_WILD_CARD_INTRO_DESC	In the Wild format, you can use any card ever released!	
-GLUE_CRAFTING_EVENT_NOT_ACTIVE_TITLE	Coming Soon
+GLUE_CRAFTING_EVENT_NOT_ACTIVE_TITLE	Not Yet Released
 GLUE_CRAFTING_EVENT_NOT_ACTIVE_DESCRIPTION	{0} cards cannot be crafted or disenchanted yet.
 GLUE_CRAFTING_TITLE	Card Crafting	
 GLUE_DECK_TRAY_COUNT	{0}/{1}	
@@ -403,6 +406,11 @@ GLUE_START_CLICK	Click To Start
 GLUE_START_PRESS	Press Start	
 GLUE_OPEN_PACKS	Open Packs	
 GLUE_OPEN_PACKS_PHONE	Open Packs	
+GLUE_DECK_SHARE_BUTTON_BORROW_DECKS	Borrow Decks	
+GLUE_DECK_SHARE_BUTTON_SHOW_MY_DECKS	Show My Decks	
+GLUE_DECK_SHARE_BUTTON_SHOW_OPPONENT_DECKS	Show Opponent's Decks
+GLUE_DECK_SHARE_TOOLTIP_HEADER	Sharing Decks	
+GLUE_DECK_SHARE_TOOLTIP_BODY_REQUEST	Request to borrow one of {0}'s decks.	0=friend's name
 GLUE_MY_COLLECTION	My Collection	
 GLUE_MY_COLLECTION_PHONE	My Collection	
 GLUE_PACK_OPENING_HEADER	Open Packs	
@@ -506,7 +514,7 @@ GLUE_TIP_DEFAULT_22	You can purchase a new hero for your favorite class in the S
 GLUE_TIP_DEFAULT_23	Standard uses Basic, Classic and the most recent two years of cards.	
 GLUE_TIP_DEFAULT_24	Click on your hero while editing a deck to swap between Standard and Wild.	
 GLUE_TIP_DEFAULT_24_TOUCH	Tap on your hero while editing a deck to swap between Standard and Wild.	
-GLUE_TIP_DEFAULT_25	This is the year of the Mammoth! (Each year will have a new theme)	
+GLUE_TIP_DEFAULT_25	This is the year of the Raven! (Each year will have a new theme)	
 GLUE_TIP_DEFAULT_26	When viewing your collection, click on the bottom left filter button to choose which sets are shown.	
 GLUE_TIP_DEFAULT_26_TOUCH	When viewing your collection, tap on the bottom left filter button to choose which sets are shown.	
 GLUE_TIP_DEFAULT_27	Whenever a new set is released you can use its cards in both Wild and Standard.	
@@ -562,6 +570,17 @@ GLUE_TIP_ADVENTURE_LOOT_7	The nine classes all have different loot options to ta
 GLUE_TIP_ADVENTURE_LOOT_8	Defeat the whole dungeon with all nine classes to unlock a unique card back!	
 GLUE_TIP_ADVENTURE_LOOT_9	The Amulet of Domination adds minions to your deck. Use it wisely!	
 GLUE_TIP_ADVENTURE_LOOT_10	When all else fails... there's always the Rod of Roasting.	
+GLUE_TIP_ADVENTURE_GIL_0	Encounters get more difficult as you delve deeper into the Witchwood.	
+GLUE_TIP_ADVENTURE_GIL_1	Each monster hunter has his or her own personal nemesis.	
+GLUE_TIP_ADVENTURE_GIL_2	You'll never know what monster is around the corner. Build a mighty deck!	
+GLUE_TIP_ADVENTURE_GIL_3	Certain monsters drop unique treasures when you defeat them.	
+GLUE_TIP_ADVENTURE_GIL_4	You'll never assemble the legendary sword of Quel'delar. Not here, at least.	
+GLUE_TIP_ADVENTURE_GIL_5	"Passive" treasures are always in effect and impact your whole run.	
+GLUE_TIP_ADVENTURE_GIL_6	Tailor your deck around the treasures you find to maximize their impact!	
+GLUE_TIP_ADVENTURE_GIL_7	The four monster hunters each have their own approaches to the Witchwood.	
+GLUE_TIP_ADVENTURE_GIL_8	Where is Hagatha? All four monster hunters must work together to find her!	
+GLUE_TIP_ADVENTURE_GIL_9	There are more than 40 different monster encounters in the Witchwood.	
+GLUE_TIP_ADVENTURE_GIL_10	When all else fails... there's always the Ricochet Shot.	
 GLUE_DRAFT_PLAY_BUTTON	PLAY	
 GLUE_DRAFT_RETIRE_BUTTON	RETIRE	
 GLUE_DRAFT_HERO_INSTRUCTIONS	Choose your Hero	
@@ -704,6 +723,24 @@ GLUE_LOOT_LOADING_BAR_TASK_15	Pyroblasting Randomly
 GLUE_LOOT_LOADING_BAR_TASK_16	Looting Chests
 GLUE_LOOT_LOADING_BAR_TASK_17	Blaming the Rogue
 GLUE_LOOT_LOADING_BAR_TASK_18	Upgrading Gear
+GLUE_GIL_LOADING_BAR_TASK_1	Lighting lanterns
+GLUE_GIL_LOADING_BAR_TASK_2	Slashing pumpkins
+GLUE_GIL_LOADING_BAR_TASK_3	Making spooky noises
+GLUE_GIL_LOADING_BAR_TASK_4	Haunting houses
+GLUE_GIL_LOADING_BAR_TASK_5	Rattling chains
+GLUE_GIL_LOADING_BAR_TASK_6	Heating cauldrons
+GLUE_GIL_LOADING_BAR_TASK_7	Poltergeistering
+GLUE_GIL_LOADING_BAR_TASK_8	Howling at the moon
+GLUE_GIL_LOADING_BAR_TASK_9	Creeping up on you
+GLUE_GIL_LOADING_BAR_TASK_10	Casting hexes
+GLUE_GIL_LOADING_BAR_TASK_11	Sharpening claws
+GLUE_GIL_LOADING_BAR_TASK_12	Sliming everything
+GLUE_GIL_LOADING_BAR_TASK_13	Ensorceling
+GLUE_GIL_LOADING_BAR_TASK_14	Weaving curses
+GLUE_GIL_LOADING_BAR_TASK_15	Finding familiars
+GLUE_GIL_LOADING_BAR_TASK_16	Cackling evilly
+GLUE_GIL_LOADING_BAR_TASK_17	Bumping in the night
+GLUE_GIL_LOADING_BAR_TASK_18	Creaking floorboards
 GLUE_LOADING	Loading...	
 GLUE_STARTING_GAME	Starting Game	
 GLUE_HERO_LOCKED_NAME	Locked	
@@ -828,11 +865,13 @@ GLUE_LOADINGSCREEN_PROGRESS_4	Unpacking crates
 GLUE_LOADINGSCREEN_PROGRESS_5	Rearranging furniture	
 GLUE_LOADINGSCREEN_PROGRESS_6	This may take a while	
 GLUE_LOADINGSCREEN_PROGRESS_UNITY_1	Please wait for download	
-GLUE_LOADINGSCREEN_PROGRESS_UNITY_2	Downloading critical game data	
-GLUE_LOADINGSCREEN_PROGRESS_UNITY_3	Update required to continue play	
-GLUE_LOADINGSCREEN_PROGRESS_UNITY_4	Switching apps pauses downloading	
-GLUE_LOADINGSCREEN_PROGRESS_UNITY_5	Download in progress 	
-GLUE_LOADINGSCREEN_PROGRESS_UNITY_6	This may take a while	
+GLUE_LOADINGSCREEN_PROGRESS_UNITY_2	Downloading game data	
+GLUE_LOADINGSCREEN_PROGRESS_UNITY_3	Unpacking crates	
+GLUE_LOADINGSCREEN_PROGRESS_UNITY_4	Switching apps pauses update	
+GLUE_LOADINGSCREEN_PROGRESS_UNITY_5	Keep us company, the work goes faster! 	
+GLUE_LOADINGSCREEN_PROGRESS_UNITY_6	Update required to continue play	
+GLUE_LOADINGSCREEN_PROGRESS_UNITY_7	Download in progress	
+GLUE_LOADINGSCREEN_PROGRESS_UNITY_8	This may take a while	
 GLUE_LOADINGSCREEN_PROGRESS_TEXT	{0} remaining {1}	0=remaining data size 1=downloading speed
 GLUE_LOADINGSCREEN_PROGRESS_IMPEDED	Connection is slow!	
 GLUE_LOADINGSCREEN_SDCARD	Moving files to removable storage	
@@ -934,6 +973,9 @@ GLUE_TAVERN_BRAWL_RETURNS_OVER_1_MONTH	Back in\n<size=70>> 1</size>\nmonth
 GLUE_TAVERN_BRAWL_RETURNS_UNKNOWN	Closed for\n\n\nrenovations	the extra blank lines are there because of the background image filigree on the left and right of the number in "Back in X days" of the other strings. this string shows up when there is no future Tavern Brawl and has the same background filigree.
 GLUE_TAVERN_BRAWL_RETURNS_UNKNOWN_SINGLE_LINE	Closed for renovations
 GLUE_COLLECTION_MANAGER_MANA_TAB_FIRST_CLICK	Click again to toggle the filter off!	
+GLUE_COLLECTION_MANAGER_MANA_FILTER_PROMPT_HEADER	Mana Filter	
+GLUE_COLLECTION_MANAGER_MANA_FILTER_PROMPT_BODY_EVEN_CARDS	Filter your collection to show even-cost cards only?	
+GLUE_COLLECTION_MANAGER_MANA_FILTER_PROMPT_BODY_ODD_CARDS	Filter your collection to show odd-cost cards only?	
 GLUE_COLLECTION_MANAGER_HELP_ME	Help Me	
 GLUE_ADVENTURE_LOE_STAFF_NAME	The Staff of Origination	
 GLUE_ADVENTURE_LOE_STAFF_DISAPPEARED	Thanks for the staff!\n- Rafaam	
@@ -963,17 +1005,25 @@ GLUE_COLLECTION_MANAGER_SEARCH_NEW	new
 GLUE_COLLECTION_MANAGER_SEARCH_RARITY	rarity
 GLUE_COLLECTION_MANAGER_SEARCH_TYPE	type
 GLUE_COLLECTION_MANAGER_SEARCH_HAS	has
+GLUE_COLLECTION_MANAGER_SEARCH_EVEN_ATTACK	even	Search term to filter cards in CollectionManager to cards with even attack value. Example attack:even
+GLUE_COLLECTION_MANAGER_SEARCH_ODD_ATTACK	odd	Search term to filter cards in CollectionManager to cards with odd attack value. Example attack:odd
+GLUE_COLLECTION_MANAGER_SEARCH_EVEN_HEALTH	even	Search term to filter cards in CollectionManager to cards with even health value. Example health:even
+GLUE_COLLECTION_MANAGER_SEARCH_ODD_HEALTH	odd	Search term to filter cards in CollectionManager to cards with odd health value. Example health:odd
+GLUE_COLLECTION_MANAGER_SEARCH_EVEN_MANA	even	Search term to filter cards in CollectionManager to cards with even mana cost. Example: mana:even
+GLUE_COLLECTION_MANAGER_SEARCH_ODD_MANA	odd	Search term to filter cards in CollectionManager to cards with odd mana cost. Example: mana:odd
+GLUE_COLLECTION_MANAGER_SEARCH_EVEN_CARDS	even	Search term to filter cards in CollectionManager to cards that player owns an even number of. Example: owned:even
+GLUE_COLLECTION_MANAGER_SEARCH_ODD_CARDS	odd	Search term to filter cards in CollectionManager to cards that player owns an odd number of. Example: owned:odd
 GLUE_STORE_LEAVING_SOON	Leaving the\nshop soon!
 GLUE_STORE_LEAVING_SOON_LEARN_MORE	Learn more	
 GLUE_STORE_ADVENTURE_LEAVING_SOON	Adventure leaving soon!	
 GLUE_STORE_EXPANSION_LEAVING_SOON	Expansion leaving soon!	
 GLUE_THE_CLOCK_DETAILS	The cards you can use in Standard change each year.	
-GLUE_THE_CLOCK_BANNER_YEAR	Year of the Mammoth	
+GLUE_THE_CLOCK_BANNER_YEAR	Year of the Raven	
 GLUE_THE_CLOCK_BANNER_NEW_WAY	New way to play:	
 GLUE_THE_CLOCK_BANNER_STANDARD	"Standard"	
 GLUE_THE_CLOCK_DETAILS_STANDARD	In Standard, only the newest cards can be used.	
-GLUE_SET_ROTATION_CURRENT_YEAR	Year of the Kraken	
-GLUE_SET_ROTATION_NEXT_YEAR	Year of the Mammoth	
+GLUE_SET_ROTATION_CURRENT_YEAR	Year of the Mammoth	
+GLUE_SET_ROTATION_NEXT_YEAR	Year of the Raven	
 GLUE_CARDS_UPDATED	These cards have changed.	
 GLUE_SINGLE_CARD_UPDATED	This card has changed.	
 GLUE_WOODEN_BANNER_TITLE_FRIEND_WEEK	Friendly Feud!
@@ -1230,15 +1280,24 @@ GLUE_FRIEND_LIST_REFER_FRIENDS	Recruit Friends
 GLUE_FRIEND_LIST_FIND_FSG	Find a Gathering
 GLUE_STORE_CURRENCY_CHANGED_HEADER	Currency Update
 GLUE_STORE_CURRENCY_CHANGED_DESC	We’ve changed the Blizzard shop currency being used in your country. Additional tax adjustments may apply.
-GLUE_ADVENTURE_DUNGEON_CRAWL_BOSS_WINS_AS_CLASS	Bosses Defeated as {0}	0=Class name
+GLUE_ADVENTURE_DUNGEON_CRAWL_BOSS_WINS_AS_CLASS	Bosses Defeated as {0}	0 = Class name
 GLUE_ADVENTURE_DUNGEON_CRAWL_BOSS_WINS	Bosses Defeated
+GLUE_ADVENTURE_DUNGEON_CRAWL_MONSTERS_DEFEATED_AS_CLASS	Monsters Defeated as {0}	0 = Class name
+GLUE_ADVENTURE_DUNGEON_CRAWL_MONSTERS_DEFEATED	Monsters Defeated
 GLUE_ADVENTURE_DUNGEON_CRAWL_RUN_WINS	Runs Completed
 GLUE_ADVENTURE_DUNGEON_CRAWL_CHOOSE_LOOT	Choose Your Loot!
 GLUE_ADVENTURE_DUNGEON_CRAWL_CHOOSE_TREASURE	Choose a Treasure!
 GLUE_ADVENTURE_DUNGEON_CRAWL_CHALLENGE_COUNT	Challenge {0}/{1}
 GLUE_ADVENTURE_DUNGEON_CRAWL_INTRO_BANNER_HEADER	Adventurers Wanted!
+GLUE_ADVENTURE_DUNGEON_CRAWL_INTRO_BANNER_GIL_HEADER	Monster Hunters Needed!
 GLUE_ADVENTURE_DUNGEON_CRAWL_INTRO_BANNER_BUTTON	I'm in!
+GLUE_ADVENTURE_DUNGEON_CRAWL_FINAL_CHALLENGE_BANNER_BUTTON	Let's go!
 GLUE_ADVENTURE_DUNGEON_CRAWL_DEFEATED_COUNT	{0}/{1} Defeated!
+GLUE_ADVENTURE_DUNGEON_CRAWL_HERO_INFO	Hero Info
+GLUE_ADVENTURE_DUNGEON_CRAWL_BOSS_HERO_POWER_TOOLTIP	Hover to see Boss Hero Power
+GLUE_ADVENTURE_DUNGEON_CRAWL_BOSS_HERO_POWER_TOOLTIP_PHONE	Tap and hold to see Boss Hero Power
+GLUE_ADVENTURE_BONUS_CHALLENGE_LABEL	Final Challenge
+GLUE_ADVENTURE_NEW_MODE_UNLOCKED_POPUP_TEXT	New mode unlocked
 GLUE_BUTTON_TAKE	Take
 GLUE_BRAWLISEUM_FREE_TICKET_BODY	Brawliseum usually requires an entrance fee, but since it's your first time, it's on the house! Enjoy!
 GLUE_BRAWLISEUM_TITLE	Brawliseum

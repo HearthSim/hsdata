@@ -1,15 +1,23 @@
 TAG	TEXT	COMMENT
 GLUE_2X_GOLD_EVENT_BANNER_HEADLINE	Bonus d’or_!	
 GLUE_ADVENTURE	Aventures	
+GLUE_ADVENTURE_BONUS_CHALLENGE_LABEL	Défi ultime	
 GLUE_ADVENTURE_BOSS_HEADER	Boss	
+GLUE_ADVENTURE_DUNGEON_CRAWL_BOSS_HERO_POWER_TOOLTIP	Passez la souris dessus pour voir le pouvoir héroïque du boss	
+GLUE_ADVENTURE_DUNGEON_CRAWL_BOSS_HERO_POWER_TOOLTIP_PHONE	Touchez et maintenez appuyé pour voir le pouvoir héroïque du boss	
 GLUE_ADVENTURE_DUNGEON_CRAWL_BOSS_WINS	Boss vaincus	
-GLUE_ADVENTURE_DUNGEON_CRAWL_BOSS_WINS_AS_CLASS	Boss vaincus en tant que {0}	0=Class name
+GLUE_ADVENTURE_DUNGEON_CRAWL_BOSS_WINS_AS_CLASS	Boss vaincus en tant que {0}	0 = Class name
 GLUE_ADVENTURE_DUNGEON_CRAWL_CHALLENGE_COUNT	Défi {0}/{1}	
 GLUE_ADVENTURE_DUNGEON_CRAWL_CHOOSE_LOOT	Choisissez votre butin	
 GLUE_ADVENTURE_DUNGEON_CRAWL_CHOOSE_TREASURE	Choisissez un trésor	
 GLUE_ADVENTURE_DUNGEON_CRAWL_DEFEATED_COUNT	{0}/{1} vaincus	
+GLUE_ADVENTURE_DUNGEON_CRAWL_FINAL_CHALLENGE_BANNER_BUTTON	Allons-y !	
+GLUE_ADVENTURE_DUNGEON_CRAWL_HERO_INFO	Infos de héros	
 GLUE_ADVENTURE_DUNGEON_CRAWL_INTRO_BANNER_BUTTON	Entrer	
+GLUE_ADVENTURE_DUNGEON_CRAWL_INTRO_BANNER_GIL_HEADER	On recherche des chasseurs de monstres	
 GLUE_ADVENTURE_DUNGEON_CRAWL_INTRO_BANNER_HEADER	On recherche\ndes aventuriers	
+GLUE_ADVENTURE_DUNGEON_CRAWL_MONSTERS_DEFEATED	Monstres tués	
+GLUE_ADVENTURE_DUNGEON_CRAWL_MONSTERS_DEFEATED_AS_CLASS	Monstres tués en tant que {0}	0 = Class name
 GLUE_ADVENTURE_DUNGEON_CRAWL_RUN_WINS	Virées terminées	
 GLUE_ADVENTURE_ICC_FROZEN_THRONE_WING_LOCKED	Terminez les étages supérieurs	
 GLUE_ADVENTURE_ICC_LOWER_CITADEL_DIFFICULTY_WARNING	Attention_: les serviteurs du roi-liche peuvent se révéler plus difficiles à vaincre que vos adversaires précédents_!	
@@ -28,6 +36,7 @@ GLUE_ADVENTURE_LOE_WING4_LOCKED	Terminer toutes\nles autres ailes
 GLUE_ADVENTURE_LOE_WING4_LOCKED_PURCHASE	Terminer toutes\nles autres ailes pour pouvoir l’acheter	
 GLUE_ADVENTURE_MODE_CLASS_CHALLENGE_CHOOSE	Choisissez un défi	
 GLUE_ADVENTURE_MORE_CARDS	cartes de plus	// full text appears as "+6 more cards"
+GLUE_ADVENTURE_NEW_MODE_UNLOCKED_POPUP_TEXT	Nouveau mode débloqué	
 GLUE_ADVENTURE_READY_TO_OPEN	Prêt à être ouvert_!	
 GLUE_ADVENTURE_REWARDS_PREVIEW_HEADER	• Récompenses : {0} •	
 GLUE_ADVENTURE_WING_PURCHASED	Acheté	
@@ -151,6 +160,7 @@ GLUE_COLLECTION_DECK_COPY_COMMENT_HEADER_FORMAT	Mode_: {0}
 GLUE_COLLECTION_DECK_COPY_TOOLTIP_FORMAT	Votre deck contient des cartes non valides pour ce mode.	
 GLUE_COLLECTION_DECK_COPY_TOOLTIP_HEADLINE	Copier un deck	
 GLUE_COLLECTION_DECK_COPY_TOOLTIP_INCOMPLETE	Vous pouvez copier un deck terminé uniquement.	
+GLUE_COLLECTION_DECK_COPY_TOOLTIP_UNPLAYABLE	Votre deck contient des cartes qui ne peuvent pas être utilisées.	
 GLUE_COLLECTION_DECK_DELETE	Supprimer	
 GLUE_COLLECTION_DECK_FINISH_FOR_ME	Oui	
 GLUE_COLLECTION_DECK_FORMAT_STANDARD	Standard	
@@ -201,6 +211,8 @@ GLUE_COLLECTION_GENERIC_ERROR	Une erreur système a empêché l’exécution de 
 GLUE_COLLECTION_GOLDEN_CARDS	Cartes dorées	
 GLUE_COLLECTION_HOME_PAGE	Vue d’ensemble	
 GLUE_COLLECTION_INCLUDE_PREMIUMS	Dorées comprises	
+GLUE_COLLECTION_LOCK_CARD_BANNED	Exclue	
+GLUE_COLLECTION_LOCK_CARD_NOT_PLAYABLE	Pas encore disponible	
 GLUE_COLLECTION_LOCK_MAX_DECK_COPIES	Limite par deck : {0}	
 GLUE_COLLECTION_LOCK_NO_MORE_INSTANCES	Plus disponible	
 GLUE_COLLECTION_MANAGER_CARD_BACKS_TITLE	Dos de carte	
@@ -209,10 +221,17 @@ GLUE_COLLECTION_MANAGER_FAVORITE_CARD_BACK	Favori
 GLUE_COLLECTION_MANAGER_FAVORITE_DEFAULT_TEXT	{0} favori	
 GLUE_COLLECTION_MANAGER_HELP_ME	Aidez-moi	
 GLUE_COLLECTION_MANAGER_HERO_SKINS_TITLE	Héros	
+GLUE_COLLECTION_MANAGER_MANA_FILTER_PROMPT_BODY_EVEN_CARDS	Filtrer votre collection pour afficher uniquement les cartes de coût pair_?	
+GLUE_COLLECTION_MANAGER_MANA_FILTER_PROMPT_BODY_ODD_CARDS	Filtrer votre collection pour afficher uniquement les cartes de coût impair_?	
+GLUE_COLLECTION_MANAGER_MANA_FILTER_PROMPT_HEADER	Filtre par cristaux	
 GLUE_COLLECTION_MANAGER_MANA_TAB_FIRST_CLICK	Cliquez à nouveau pour désactiver le filtre !	
 GLUE_COLLECTION_MANAGER_ON_ADD_FULL_DECK_ERROR_TEXT	Votre deck est plein. Retirez d’abord une carte_!	
 GLUE_COLLECTION_MANAGER_SEARCH_ARTIST	artiste	
 GLUE_COLLECTION_MANAGER_SEARCH_ATTACK	attaque	
+GLUE_COLLECTION_MANAGER_SEARCH_EVEN_ATTACK	paire	Search term to filter cards in CollectionManager to cards with even attack value. Example attack:even
+GLUE_COLLECTION_MANAGER_SEARCH_EVEN_CARDS	paires	Search term to filter cards in CollectionManager to cards that player owns an even number of. Example: owned:even
+GLUE_COLLECTION_MANAGER_SEARCH_EVEN_HEALTH	pair	Search term to filter cards in CollectionManager to cards with even health value. Example health:even
+GLUE_COLLECTION_MANAGER_SEARCH_EVEN_MANA	pairs	Search term to filter cards in CollectionManager to cards with even mana cost. Example: mana:even
 GLUE_COLLECTION_MANAGER_SEARCH_EXTRA	multiples	
 GLUE_COLLECTION_MANAGER_SEARCH_GOLDEN	dorées	
 GLUE_COLLECTION_MANAGER_SEARCH_HAS	a	
@@ -220,6 +239,10 @@ GLUE_COLLECTION_MANAGER_SEARCH_HEALTH	vie
 GLUE_COLLECTION_MANAGER_SEARCH_MANA	mana	
 GLUE_COLLECTION_MANAGER_SEARCH_MISSING	manquantes	
 GLUE_COLLECTION_MANAGER_SEARCH_NEW	nouvelles	
+GLUE_COLLECTION_MANAGER_SEARCH_ODD_ATTACK	impaire	Search term to filter cards in CollectionManager to cards with odd attack value. Example attack:odd
+GLUE_COLLECTION_MANAGER_SEARCH_ODD_CARDS	impaires	Search term to filter cards in CollectionManager to cards that player owns an odd number of. Example: owned:odd
+GLUE_COLLECTION_MANAGER_SEARCH_ODD_HEALTH	impair	Search term to filter cards in CollectionManager to cards with odd health value. Example health:odd
+GLUE_COLLECTION_MANAGER_SEARCH_ODD_MANA	impairs	Search term to filter cards in CollectionManager to cards with odd mana cost. Example: mana:odd
 GLUE_COLLECTION_MANAGER_SEARCH_OWNED	possédées	
 GLUE_COLLECTION_MANAGER_SEARCH_RARITY	rareté	
 GLUE_COLLECTION_MANAGER_SEARCH_TYPE	type	
@@ -280,7 +303,7 @@ GLUE_CRAFTING_DISENCHANT_CONFIRM_DESC	Si vous faites ça, les decks suivants ne 
 GLUE_CRAFTING_DISENCHANT_CONFIRM_HEADER	Désenchanter	
 GLUE_CRAFTING_DISENCHANT_CONFIRM2_DESC	Vous voulez vraiment faire ça ? Si vous désenchantez cette carte, vous n’aurez plus le nombre de cartes maximum possible dans un deck.	
 GLUE_CRAFTING_EVENT_NOT_ACTIVE_DESCRIPTION	{0} : ces cartes ne peuvent pas encore être créées ou désenchantées.	
-GLUE_CRAFTING_EVENT_NOT_ACTIVE_TITLE	Prochainement	
+GLUE_CRAFTING_EVENT_NOT_ACTIVE_TITLE	Pas encore disponible	
 GLUE_CRAFTING_SOULBOUND	Impossible à créer	
 GLUE_CRAFTING_SOULBOUND_BASIC_DESC	Les cartes de base ne peuvent pas être désenchantées ou créées.	
 GLUE_CRAFTING_SOULBOUND_DESC	Cette carte ne peut pas être désenchantée ou créée.	
@@ -298,6 +321,11 @@ GLUE_CRAFTING_WILD_CARD_WARNING_CONFIRM	Oui
 GLUE_CREATE_DECK	Créer un deck	
 GLUE_CREATE_STANDARD_DECK	Créer un deck standard	
 GLUE_CREATE_WILD_DECK	Créer un deck libre	
+GLUE_DECK_SHARE_BUTTON_BORROW_DECKS	Emprunter des decks	
+GLUE_DECK_SHARE_BUTTON_SHOW_MY_DECKS	Afficher mes decks	
+GLUE_DECK_SHARE_BUTTON_SHOW_OPPONENT_DECKS	Voir les decks de l’adversaire	
+GLUE_DECK_SHARE_TOOLTIP_BODY_REQUEST	Demande pour emprunter un des decks de {0}.	0=friend's name
+GLUE_DECK_SHARE_TOOLTIP_HEADER	Partage de decks	
 GLUE_DECK_TEMPLATE_CHOOSE_DECK	Modèles {0}	0=name of class (e.g. Shaman)
 GLUE_DECK_TEMPLATE_CURRENT_DECK	Deck actuel	
 GLUE_DECK_TEMPLATE_CUSTOM_DECK	Personnalisé	
@@ -432,6 +460,24 @@ GLUE_GHOST_CARD_MISSING_TITLE	Carte manquante
 GLUE_GHOST_CARD_NOT_VALID_DESCRIPTION	Les cartes libres ne peuvent pas être utilisées dans les decks standard.\nCliquez pour trouver une carte de remplacement.	
 GLUE_GHOST_CARD_NOT_VALID_DESCRIPTION_TOUCH	Les cartes libres ne peuvent pas être utilisées dans les decks standard.\nTouchez pour trouver une carte de remplacement.	
 GLUE_GHOST_CARD_NOT_VALID_TITLE	Carte libre	
+GLUE_GIL_LOADING_BAR_TASK_1	Allumage des lanternes	
+GLUE_GIL_LOADING_BAR_TASK_10	Lancement des maléfices	
+GLUE_GIL_LOADING_BAR_TASK_11	Aiguisage des griffes	
+GLUE_GIL_LOADING_BAR_TASK_12	Étalement de la gelée	
+GLUE_GIL_LOADING_BAR_TASK_13	Ensorcellement	
+GLUE_GIL_LOADING_BAR_TASK_14	Concoction des sorts	
+GLUE_GIL_LOADING_BAR_TASK_15	Découverte des familiers	
+GLUE_GIL_LOADING_BAR_TASK_16	Caquetage maléfique	
+GLUE_GIL_LOADING_BAR_TASK_17	Bruits nocturnes	
+GLUE_GIL_LOADING_BAR_TASK_18	Craquements du plancher	
+GLUE_GIL_LOADING_BAR_TASK_2	Découpage des citrouilles	
+GLUE_GIL_LOADING_BAR_TASK_3	Bruits effrayants	
+GLUE_GIL_LOADING_BAR_TASK_4	Visite de maison hantée	
+GLUE_GIL_LOADING_BAR_TASK_5	Cliquetis de chaînes	
+GLUE_GIL_LOADING_BAR_TASK_6	Chauffage des chaudrons	
+GLUE_GIL_LOADING_BAR_TASK_7	Apparition de revenants	
+GLUE_GIL_LOADING_BAR_TASK_8	Hurlement à la lune	
+GLUE_GIL_LOADING_BAR_TASK_9	Arrivée en catimini	
 GLUE_GOLD_CAP_BODY	Votre montant d’or doit être inférieur à {0} pour pouvoir en gagner davantage.	
 GLUE_GOLD_CAP_HEADER	Montant d’or : {0} !	
 GLUE_GOONS_CLASS_NAMES	Chasseur, paladin, guerrier	
@@ -574,11 +620,13 @@ GLUE_LOADINGSCREEN_PROGRESS_6	Cela pourrait prendre quelques instants.
 GLUE_LOADINGSCREEN_PROGRESS_IMPEDED	La connexion est lente.	
 GLUE_LOADINGSCREEN_PROGRESS_TEXT	Encore {0} à {1}	0=remaining data size 1=downloading speed
 GLUE_LOADINGSCREEN_PROGRESS_UNITY_1	Veuillez patienter	
-GLUE_LOADINGSCREEN_PROGRESS_UNITY_2	Téléchargement crucial en cours	
-GLUE_LOADINGSCREEN_PROGRESS_UNITY_3	Mise à jour nécessaire pour jouer	
-GLUE_LOADINGSCREEN_PROGRESS_UNITY_4	Quitter suspend le téléchargement	
-GLUE_LOADINGSCREEN_PROGRESS_UNITY_5	Téléchargement en cours…	
-GLUE_LOADINGSCREEN_PROGRESS_UNITY_6	Peut nécessiter quelques instants	
+GLUE_LOADINGSCREEN_PROGRESS_UNITY_2	Téléchargement de données en cours	
+GLUE_LOADINGSCREEN_PROGRESS_UNITY_3	Ouverture des caisses	
+GLUE_LOADINGSCREEN_PROGRESS_UNITY_4	Quitter suspend la mise à jour	
+GLUE_LOADINGSCREEN_PROGRESS_UNITY_5	Tenez-nous compagnie, en attendant	
+GLUE_LOADINGSCREEN_PROGRESS_UNITY_6	Mise à jour nécessaire pour jouer	
+GLUE_LOADINGSCREEN_PROGRESS_UNITY_7	Téléchargement en cours	
+GLUE_LOADINGSCREEN_PROGRESS_UNITY_8	Peut nécessiter quelques instants	
 GLUE_LOADINGSCREEN_SDCARD	Copie des fichiers sur le dispositif de stockage externe	
 GLUE_LOADINGSCREEN_SDCARD_DIALOG	Voulez-vous conserver les données de Hearthstone sur votre carte SD_? Cette configuration pourrait ralentir l’exécution du jeu.	
 GLUE_LOADINGSCREEN_UPDATE_HEADER	Téléchargement de Hearthstone	
@@ -708,7 +756,7 @@ GLUE_QUEST_LOG_ARENA	Arène
 GLUE_QUEST_LOG_BEST_FORGE_RECORD_HEADLINE	Meilleure clé d’Arène	
 GLUE_QUEST_LOG_CHEST_TOOLTIP_BODY	Ouvrez votre coffre à la fin de la saison. Obtenez un meilleur rang pour améliorer votre coffre !	
 GLUE_QUEST_LOG_CHEST_TOOLTIP_BODY_NO_CHEST	Atteignez le rang 20 pour obtenir un coffre plein de récompenses à la fin de la saison !	
-GLUE_QUEST_LOG_CHEST_TOOLTIP_BODY_NO_CHEST_REVAMP	Gagnez encore {0}_|4(match,matchs) pour obtenir votre coffre de saison_!	
+GLUE_QUEST_LOG_CHEST_TOOLTIP_BODY_NO_CHEST_REVAMP	Gagnez encore {0} |4(match,matchs) pour obtenir votre coffre de saison !	
 GLUE_QUEST_LOG_CHEST_TOOLTIP_HEADER	Coffre de rang {0}	0=Rank number of chest
 GLUE_QUEST_LOG_CLASS_LOCKED	Verrouillé	
 GLUE_QUEST_LOG_CURRENT_CHEST	Niveau de coffre	
@@ -784,8 +832,8 @@ GLUE_RETURNINGPLAYER_RETIRE_BUTTON_TEXT	Abandon
 GLUE_RETURNINGPLAYERPOPUP_MESSAGE	Si vous passez le défi de l’aubergiste, vous ne pourrez plus revenir terminer la quête vous octroyant 3 paquets gratuits_!	
 GLUE_RETURNINGPLAYERPOPUP_TITLE	Voulez-vous continuer ?	
 GLUE_ROTATED_SETS_DIALOG	Les ensembles suivants sont désormais Libres !	
-GLUE_SET_ROTATION_CURRENT_YEAR	Année du Kraken	
-GLUE_SET_ROTATION_NEXT_YEAR	Année du Mammouth	
+GLUE_SET_ROTATION_CURRENT_YEAR	Année du Mammouth	
+GLUE_SET_ROTATION_NEXT_YEAR	Année du Corbeau	
 GLUE_SHOW_CUSTOM_DECKS	Decks personnalisés	
 GLUE_SHOW_PRECON_DECKS	Decks de base	
 GLUE_SINGLE_CARD_UPDATED	Cette carte a changé.	
@@ -1100,13 +1148,24 @@ GLUE_TEXTURE_COMPRESSION_WARNING	Cette version ne contient pas le format de text
 GLUE_TEXTURE_COMPRESSION_WARNING_TITLE	Avertissement sur la compression des textures	--TEMP-- This should be in Chinese
 GLUE_THE_CLOCK_BANNER_NEW_WAY	Nouveau mode de jeu : 	
 GLUE_THE_CLOCK_BANNER_STANDARD	« Standard »	
-GLUE_THE_CLOCK_BANNER_YEAR	Année du Mammouth	
+GLUE_THE_CLOCK_BANNER_YEAR	Année du Corbeau	
 GLUE_THE_CLOCK_DETAILS	Les cartes pouvant être utilisées en mode Standard changent chaque année.	
 GLUE_THE_CLOCK_DETAILS_STANDARD	En mode Standard, seules les cartes les plus récentes peuvent être utilisées.	
 GLUE_TIP_ADVENTURE_0	Vous devez créer un deck personnalisé pour vaincre les boss les plus puissants.	
 GLUE_TIP_ADVENTURE_1	Ne laissez pas les boss puissants vous abattre. Construisez un deck personnalisé pour les écraser.	
 GLUE_TIP_ADVENTURE_2	Si vous perdez contre un boss, vous devriez peut-être modifier votre deck.	
 GLUE_TIP_ADVENTURE_3	Préparez-vous bien ! Construisez un deck capable de contrer le boss que vous allez affronter.	
+GLUE_TIP_ADVENTURE_GIL_0	Les rencontres deviennent plus difficiles à mesure que vous vous enfoncez dans le bois Maudit.	
+GLUE_TIP_ADVENTURE_GIL_1	Chaque chasseur de monstres a son propre ennemi juré.	
+GLUE_TIP_ADVENTURE_GIL_10	Quand tout le reste a échoué… il y a toujours le tir à ricochets.	
+GLUE_TIP_ADVENTURE_GIL_2	Impossible de savoir quel monstre vous attend ensuite. Alors construisez un deck puissant_!	
+GLUE_TIP_ADVENTURE_GIL_3	Certains monstres, une fois vaincus, abandonnent des trésors uniques.	
+GLUE_TIP_ADVENTURE_GIL_4	Vous ne parviendrez jamais à forger la légendaire épée Quel’Delar. Pas ici, en tout cas.	
+GLUE_TIP_ADVENTURE_GIL_5	Les trésors «_passifs_» font toujours effet et affectent toute votre virée en donjon.	
+GLUE_TIP_ADVENTURE_GIL_6	Adaptez votre deck aux trésors que vous trouvez pour en tirer le maximum_!	
+GLUE_TIP_ADVENTURE_GIL_7	Les quatre chasseurs de monstres ont chacun leur approche du bois Maudit.	
+GLUE_TIP_ADVENTURE_GIL_8	Où est Hagatha_? Les quatre chasseurs de monstres doivent collaborer pour la trouver_!	
+GLUE_TIP_ADVENTURE_GIL_9	Le Bois Maudit propose plus de 40 affrontements de monstres différents.	
 GLUE_TIP_ADVENTURE_LOOT_0	Les rencontres deviennent plus difficiles à mesure que vous vous enfoncez dans le donjon.	
 GLUE_TIP_ADVENTURE_LOOT_1	À la fin du donjon vous attendent cinq boss emblématiques.	
 GLUE_TIP_ADVENTURE_LOOT_10	Quand tout le reste a échoué… il y a toujours la baguette à griller.	
@@ -1141,7 +1200,7 @@ GLUE_TIP_DEFAULT_22	Vous pouvez acheter un nouveau héros pour votre classe pré
 GLUE_TIP_DEFAULT_23	En mode Standard, on peut utiliser les cartes de base, classiques ainsi que celles des deux dernières années.	
 GLUE_TIP_DEFAULT_24	Cliquez sur le héros lors de la modification d’un deck pour changer de mode.	
 GLUE_TIP_DEFAULT_24_TOUCH	Touchez le héros lors de la modification d’un deck pour changer de mode.	
-GLUE_TIP_DEFAULT_25	C’est l’année du Mammouth_! (Chaque année aura un thème différent.)	
+GLUE_TIP_DEFAULT_25	C’est l’année du Corbeau_! (Chaque année aura un thème différent.)	
 GLUE_TIP_DEFAULT_26	Dans votre collection, cliquez sur le bouton en bas à gauche pour choisir quel ensemble de cartes afficher.	
 GLUE_TIP_DEFAULT_26_TOUCH	Dans votre collection, touchez le bouton en bas à gauche pour choisir quel ensemble de cartes afficher.	
 GLUE_TIP_DEFAULT_27	Chaque fois qu’un nouvel ensemble est disponible, vous pouvez utiliser ses cartes en modes Libre et Standard.	
