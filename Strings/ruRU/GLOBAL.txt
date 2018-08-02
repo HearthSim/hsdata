@@ -28,6 +28,7 @@ GLOBAL_ARENA_SEASON_ERROR_NOT_ACTIVE	Данный режим Арены боле
 GLOBAL_ASSET_DOWNLOAD	Загрузка данных	
 GLOBAL_ASSET_DOWNLOAD_AWAITING_OTHER_DOWNLOAD	Ожидание	
 GLOBAL_ASSET_DOWNLOAD_AWAITING_WIFI	Требуется Wi-Fi	
+GLOBAL_ASSET_DOWNLOAD_BYTE_SYMBOL	Б	
 GLOBAL_ASSET_DOWNLOAD_CELLULAR_DATA_BODY	Загружать данные по мобильной связи.	
 GLOBAL_ASSET_DOWNLOAD_CELLULAR_DATA_HEADER	Мобильная связь	
 GLOBAL_ASSET_DOWNLOAD_CELLULAR_POPUP_BODY	Подключение по Wi-Fi недоступно. Загрузить оставшиеся данные по мобильной связи?	
@@ -43,7 +44,10 @@ GLOBAL_ASSET_DOWNLOAD_ERROR_AGENT_IMPEDED	Медленное подключен�
 GLOBAL_ASSET_DOWNLOAD_ERROR_CELLULAR_DISABLED	Загрузка данных по мобильной связи отключена	
 GLOBAL_ASSET_DOWNLOAD_ERROR_DOWNLOAD_DISABLED	Загрузка отключена	
 GLOBAL_ASSET_DOWNLOAD_ERROR_OUT_OF_STORAGE	Недостаточно места	
+GLOBAL_ASSET_DOWNLOAD_GIGABYTE_SYMBOL	ГБ	
 GLOBAL_ASSET_DOWNLOAD_INTENTION_PAUSED	{0} (пауза)	
+GLOBAL_ASSET_DOWNLOAD_KILOBYTE_SYMBOL	КБ	
+GLOBAL_ASSET_DOWNLOAD_MEGABYTE_SYMBOL	МБ	
 GLOBAL_ASSET_DOWNLOAD_PAUSED	Приостановлено	
 GLOBAL_ASSET_DOWNLOAD_SETTINGS	Настройки	
 GLOBAL_ASSET_DOWNLOAD_STATUS	Осталось {0} (скорость: {1}/сек.)	
@@ -63,6 +67,9 @@ GLOBAL_BUTTON_NO	Нет
 GLOBAL_BUTTON_OK	ОК	
 GLOBAL_BUTTON_YES	Да	
 GLOBAL_CANCEL	Отмена	
+GLOBAL_CARD_SET_BOOMSDAY	Проект Бумного дня	
+GLOBAL_CARD_SET_BOOMSDAY_SEARCHABLE_SHORTHAND_NAMES	bd tbp bdp tbdp bp бд пбд	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_BOOMSDAY_SHORT	Бумный день	
 GLOBAL_CARD_SET_BRM	Черная гора	
 GLOBAL_CARD_SET_BRM_SEARCHABLE_SHORTHAND_NAMES	ЧГ	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_CORE	Базовый набор	
@@ -426,6 +433,8 @@ GLOBAL_KEYWORD_LIFESTEAL	Похищение жизни
 GLOBAL_KEYWORD_LIFESTEAL_TEXT	При нанесении урона также восстанавливает здоровье вашему герою.	
 GLOBAL_KEYWORD_MINION_TYPE_REFERENCE	Тип существа	
 GLOBAL_KEYWORD_MINION_TYPE_REFERENCE_TEXT	Зверь, демон, дракон, механизм, мурлок, пират и тотем.	
+GLOBAL_KEYWORD_MODULAR	Магнетизм	
+GLOBAL_KEYWORD_MODULAR_TEXT	Разыграйте это существо слева от механизма, чтобы объединить их.	
 GLOBAL_KEYWORD_OFFHAND	Левая рука	
 GLOBAL_KEYWORD_OFFHAND_TEXT	Невозможно уничтожить или зачаровать.	
 GLOBAL_KEYWORD_OVERLOAD	Перегрузка: Х	
@@ -781,7 +790,8 @@ GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_HEADER	Режим зрителя
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT	Вы ждете начала следующего матча игрока {0} ({1}).	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_STATUS_* and PRESENCE_SCENARIO_*_NORMAL_SCENARIO_* from PRESENCE.txt (e.g. "Jane Doe is Heading into Play Mode")
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_BATTLING	Вы ждете начала следующего матча.\n\n{0} сражается с боссом: {1}.	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_SCENARIO_*_HEROIC_* from PRESENCE.txt (e.g. "Jane Doe is Battling Heroic Gothik the Harvester")
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_ENTERING	Вы ждете начала следующего матча.\n\n{0} начинает приключение: {1}.	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_ADVENTURE_MODE_* from PRESENCE.txt (e.g. "Jane Doe is entering Naxxramas")
-GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_OFFLINE	Вы ждете начала следующего матча.\n\n{0} не в сети.	0=player name; same string as above, except shown when player is offline.
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_OFFLINE	Вы ждете начала следующего матча.\n\n{0} не в сети.	0=player name; shown when player is offline.
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_ONLINE	В ожидании следующего матча.\n\n{0} в сети.	0=player name; shown when there is no current activity string available.
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_PLAYING	Вы ждете начала следующего матча.\n\n{0} проходит {1}.	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_SCENARIO_*_CLASS_CHALLENGE_* from PRESENCE.txt (e.g. "Jane Doe is playing Naxxramas Paladin Challenge")
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TIMEOUT	Игрок, за которым вы наблюдаете в качестве зрителя, слишком долго не начинает следующий матч. Режим зрителя отменен.	
 GLOBAL_SPLASH_CLOSED_RECONNECTING	Подключение...	

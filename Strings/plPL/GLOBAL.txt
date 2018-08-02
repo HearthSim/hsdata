@@ -28,6 +28,7 @@ GLOBAL_ARENA_SEASON_ERROR_NOT_ACTIVE	A niech to! Wybrany tryb Areny nie jest ju�
 GLOBAL_ASSET_DOWNLOAD	Pobieranie	
 GLOBAL_ASSET_DOWNLOAD_AWAITING_OTHER_DOWNLOAD	Oczekiwanie	
 GLOBAL_ASSET_DOWNLOAD_AWAITING_WIFI	Konieczne WiFi	
+GLOBAL_ASSET_DOWNLOAD_BYTE_SYMBOL	B	
 GLOBAL_ASSET_DOWNLOAD_CELLULAR_DATA_BODY	Pobierz przy użyciu komórkowego transferu danych.	
 GLOBAL_ASSET_DOWNLOAD_CELLULAR_DATA_HEADER	Komórkowy transfer danych	
 GLOBAL_ASSET_DOWNLOAD_CELLULAR_POPUP_BODY	Wi-Fi jest niedostępne. Czy chcesz pobrać pozostałe dane przy użyciu komórkowego transferu danych?	
@@ -43,7 +44,10 @@ GLOBAL_ASSET_DOWNLOAD_ERROR_AGENT_IMPEDED	Powolne połączenie
 GLOBAL_ASSET_DOWNLOAD_ERROR_CELLULAR_DISABLED	Wyłączono komórkowy transfer danych	
 GLOBAL_ASSET_DOWNLOAD_ERROR_DOWNLOAD_DISABLED	Wyłączono pobieranie	
 GLOBAL_ASSET_DOWNLOAD_ERROR_OUT_OF_STORAGE	Brak wolnego miejsca	
+GLOBAL_ASSET_DOWNLOAD_GIGABYTE_SYMBOL	GB	
 GLOBAL_ASSET_DOWNLOAD_INTENTION_PAUSED	{0} (zatrzymano)	
+GLOBAL_ASSET_DOWNLOAD_KILOBYTE_SYMBOL	KB	
+GLOBAL_ASSET_DOWNLOAD_MEGABYTE_SYMBOL	MB	
 GLOBAL_ASSET_DOWNLOAD_PAUSED	Zatrzymano	
 GLOBAL_ASSET_DOWNLOAD_SETTINGS	Ustawienia	
 GLOBAL_ASSET_DOWNLOAD_STATUS	Pozostało {0} @ {1}/sek.	
@@ -63,6 +67,9 @@ GLOBAL_BUTTON_NO	Nie
 GLOBAL_BUTTON_OK	Ok	
 GLOBAL_BUTTON_YES	Tak	
 GLOBAL_CANCEL	Anuluj	
+GLOBAL_CARD_SET_BOOMSDAY	Projekt Hukatomba	
+GLOBAL_CARD_SET_BOOMSDAY_SEARCHABLE_SHORTHAND_NAMES	bd tbp bdp tbdp bp ph	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_BOOMSDAY_SHORT	Hukatomba	
 GLOBAL_CARD_SET_BRM	Czarna Góra	
 GLOBAL_CARD_SET_BRM_SEARCHABLE_SHORTHAND_NAMES	cg	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_CORE	Podstawowe	
@@ -426,6 +433,8 @@ GLOBAL_KEYWORD_LIFESTEAL	Kradzież życia
 GLOBAL_KEYWORD_LIFESTEAL_TEXT	Zadane obrażenia leczą twojego bohatera.	
 GLOBAL_KEYWORD_MINION_TYPE_REFERENCE	Rodzaj stronnika	
 GLOBAL_KEYWORD_MINION_TYPE_REFERENCE_TEXT	Bestia, Demon, Smok, Mech, Murlok, Pirat oraz Totem.	
+GLOBAL_KEYWORD_MODULAR	Magnetyzm	
+GLOBAL_KEYWORD_MODULAR_TEXT	Zagraj na lewo od Mecha, aby połączyć obie karty!	
 GLOBAL_KEYWORD_OFFHAND	Przedmiot podręczny	
 GLOBAL_KEYWORD_OFFHAND_TEXT	Niezniszczalny. Nie można go zaczarować.	
 GLOBAL_KEYWORD_OVERLOAD	Przeciążenie: X	
@@ -516,7 +525,7 @@ GLOBAL_MEDAL_22	Murlok grabieżca
 GLOBAL_MEDAL_23	Giermek Argentu	
 GLOBAL_MEDAL_24	Trędowaty gnom	
 GLOBAL_MEDAL_25	Wściekły kurczak	
-GLOBAL_MEDAL_3	Ognisty olbrzym	
+GLOBAL_MEDAL_3	Gorejący olbrzym	
 GLOBAL_MEDAL_4	Górski olbrzym	
 GLOBAL_MEDAL_5	Morski olbrzym	
 GLOBAL_MEDAL_6	Pradrzewiec wojny	
@@ -781,7 +790,8 @@ GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_HEADER	Tryb widza
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT	Oczekiwanie na rozpoczęcie następnej partii.\n\n{0}: {1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_STATUS_* and PRESENCE_SCENARIO_*_NORMAL_SCENARIO_* from PRESENCE.txt (e.g. "Jane Doe is Heading into Play Mode")
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_BATTLING	Oczekiwanie na rozpoczęcie następnej partii.\n\n{0} walczy z: {1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_SCENARIO_*_HEROIC_* from PRESENCE.txt (e.g. "Jane Doe is Battling Heroic Gothik the Harvester")
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_ENTERING	Oczekiwanie na rozpoczęcie następnej partii.\n\n{0} rozpoczyna: {1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_ADVENTURE_MODE_* from PRESENCE.txt (e.g. "Jane Doe is entering Naxxramas")
-GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_OFFLINE	Oczekiwanie na rozpoczęcie następnej partii.\n\n{0}: gracz niedostępny	0=player name; same string as above, except shown when player is offline.
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_OFFLINE	Oczekiwanie na rozpoczęcie następnej partii.\n\n{0}: gracz niedostępny	0=player name; shown when player is offline.
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_ONLINE	Oczekiwanie na rozpoczęcie następnej partii.\n\n{0} jest w sieci.	0=player name; shown when there is no current activity string available.
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_PLAYING	Oczekiwanie na rozpoczęcie następnej partii.\n\n{0} rozgrywa: {1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_SCENARIO_*_CLASS_CHALLENGE_* from PRESENCE.txt (e.g. "Jane Doe is playing Naxxramas Paladin Challenge")
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TIMEOUT	Obserwowany gracz zbyt długo rozpoczynał partię. Tryb widza został anulowany.	
 GLOBAL_SPLASH_CLOSED_RECONNECTING	Ponowne łączenie...	

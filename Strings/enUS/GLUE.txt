@@ -239,6 +239,7 @@ GLUE_STORE_QUANTITY_PACK	{0} |4(Pack,Packs)
 GLUE_STORE_QUANTITY_DUST	{0} |4(Dust,Dust)
 GLUE_STORE_QUANTITY_PACK_BUNDLE	{0} |4(Pack,Packs) and more
 GLUE_STORE_QUANTITY_DUST_BUNDLE	{0} |4(Dust,Dust) and more
+GLUE_STORE_QUANTITY_PACK_PLUS_BONUS	{0}+{1}	0=base_quantity,1=bonus_quantity
 GLUE_STORE_MODE_NAME_DUST	Dust
 GLUE_STORE_PRODUCT_NAME_PACK	{0} {1} |4(Pack,Packs)	0=quantity,1=pack type
 GLUE_STORE_PRODUCT_NAME_DUST	{0} |4(Dust,Dust) with {1} {2} Gift |4(Pack,Packs)	0=quantity of dust,1=quantity of packs,2=pack type
@@ -583,6 +584,16 @@ GLUE_TIP_ADVENTURE_GIL_7	The four monster hunters each have their own approaches
 GLUE_TIP_ADVENTURE_GIL_8	Where is Hagatha? All four monster hunters must work together to find her!	
 GLUE_TIP_ADVENTURE_GIL_9	There are more than 40 different monster encounters in the Witchwood.	
 GLUE_TIP_ADVENTURE_GIL_10	When all else fails... there's always the Ricochet Shot.	
+GLUE_TIP_ADVENTURE_BOT_0	Puzzles reset quickly. Don't be afraid\nto play around and experiment!
+GLUE_TIP_ADVENTURE_BOT_1	Not every card is used in every solution.
+GLUE_TIP_ADVENTURE_BOT_2	Don't give up. Look for unusual card interactions.
+GLUE_TIP_ADVENTURE_BOT_3	Sometimes the order in which you play cards\ndramatically alters the outcome. 
+GLUE_TIP_ADVENTURE_BOT_4	Don't be afraid to do bad things to your own minions.\nDr. Boom would approve.
+GLUE_TIP_ADVENTURE_BOT_5	Some cards are exclusive to the Boomsday Project puzzles.
+GLUE_TIP_ADVENTURE_BOT_6	"Mirror" puzzles look for an exact match\ntop to bottom - including health!
+GLUE_TIP_ADVENTURE_BOT_7	You can do it. Dr. Boom believes in you!\n(But if you fail you will be liquidated.)
+GLUE_TIP_ADVENTURE_BOT_8	Complete each wing to unlock\nthe challenging Dr. Boom puzzles!
+GLUE_TIP_ADVENTURE_BOT_9	Warning: Boom Bots may explode. Actually, most of the stuff here does.
 GLUE_DRAFT_PLAY_BUTTON	PLAY	
 GLUE_DRAFT_RETIRE_BUTTON	RETIRE	
 GLUE_DRAFT_HERO_INSTRUCTIONS	Choose your Hero	
@@ -743,6 +754,26 @@ GLUE_GIL_LOADING_BAR_TASK_15	Finding familiars
 GLUE_GIL_LOADING_BAR_TASK_16	Cackling evilly
 GLUE_GIL_LOADING_BAR_TASK_17	Bumping in the night
 GLUE_GIL_LOADING_BAR_TASK_18	Creaking floorboards
+GLUE_BOT_LOADING_BAR_TASK_1	Setting Timers
+GLUE_BOT_LOADING_BAR_TASK_2	Magnetizing Minions
+GLUE_BOT_LOADING_BAR_TASK_3	Colliding Particles
+GLUE_BOT_LOADING_BAR_TASK_4	Burning Bunsens
+GLUE_BOT_LOADING_BAR_TASK_5	Winding Up Mechs
+GLUE_BOT_LOADING_BAR_TASK_6	Fudging the Data
+GLUE_BOT_LOADING_BAR_TASK_7	Sciencing
+GLUE_BOT_LOADING_BAR_TASK_8	Finding Dark Matter
+GLUE_BOT_LOADING_BAR_TASK_9	Hypothesizing
+GLUE_BOT_LOADING_BAR_TASK_10	Stringing Theories
+GLUE_BOT_LOADING_BAR_TASK_11	Soothing Boom-bots
+GLUE_BOT_LOADING_BAR_TASK_12	Counting Down
+GLUE_BOT_LOADING_BAR_TASK_13	Funding Research
+GLUE_BOT_LOADING_BAR_TASK_14	Chaining Reactions
+GLUE_BOT_LOADING_BAR_TASK_15	Glooping Floop
+GLUE_BOT_LOADING_BAR_TASK_16	Destabilizing Elements
+GLUE_BOT_LOADING_BAR_TASK_17	Crunching Numbers
+GLUE_BOT_LOADING_BAR_TASK_18	Theorizing Chaos
+GLUE_BOT_LOADING_BAR_TASK_19	Doodling Schematics
+GLUE_BOT_LOADING_BAR_TASK_20	Pushing Big Red Button
 GLUE_LOADING	Loading...	
 GLUE_STARTING_GAME	Starting Game	
 GLUE_HERO_LOCKED_NAME	Locked	
@@ -991,6 +1022,10 @@ GLUE_ADVENTURE_KAR_WING_INVITATION	Join Medivh for a night of magical extravagan
 GLUE_ADVENTURE_KAR_WING_PARLOR_LOCKED	Finish The Prologue!	
 GLUE_ADVENTURE_MORE_CARDS	more cards	// full text appears as "+6 more cards"	
 GLUE_ADVENTURE_READY_TO_OPEN	Ready to Open!	
+GLUE_ADVENTURE_BOT_WING_LETHAL	Lethal
+GLUE_ADVENTURE_BOT_WING_MIRROR	Mirror
+GLUE_ADVENTURE_BOT_WING_BOARD_CLEAR	Board Clear
+GLUE_ADVENTURE_BOT_WING_SURVIVAL	Survival
 GLUE_ERROR_DECK_RULESET_RULE_VIOLATION	The selected deck is not valid for this game mode.	
 GLUE_DECK_TEMPLATE_CHOOSE_DECK	{0} Recipes	0=name of class (e.g. Shaman)
 GLUE_DECK_TEMPLATE_CUSTOM_DECK	Custom Deck	
@@ -1016,6 +1051,11 @@ GLUE_COLLECTION_MANAGER_SEARCH_EVEN_MANA	even	Search term to filter cards in Col
 GLUE_COLLECTION_MANAGER_SEARCH_ODD_MANA	odd	Search term to filter cards in CollectionManager to cards with odd mana cost. Example: mana:odd
 GLUE_COLLECTION_MANAGER_SEARCH_EVEN_CARDS	even	Search term to filter cards in CollectionManager to cards that player owns an even number of. Example: owned:even
 GLUE_COLLECTION_MANAGER_SEARCH_ODD_CARDS	odd	Search term to filter cards in CollectionManager to cards that player owns an odd number of. Example: owned:odd
+GLUE_COLLECTION_MANAGER_WHIZBANG_DEFAULT_DECK_NAME	Whizbang is Wonderful
+GLUE_COLLECTION_MANAGER_WHIZBANG_WARNING_HEADER	Whizbang?
+GLUE_COLLECTION_MANAGER_WHIZBANG_WARNING_BODY	Adding Whizbang to your deck will remove all other cards. Continue?
+GLUE_COLLECTION_MANAGER_WHIZBANG_POPUP_HEADER	Enjoy the deck?
+GLUE_COLLECTION_MANAGER_WHIZBANG_POPUP_BODY	Create a new {0} deck in your collection and use deck recipe "{1}"!	0 = deck class, 1 = deck name
 GLUE_STORE_LEAVING_SOON	Leaving the\nshop soon!
 GLUE_STORE_LEAVING_SOON_LEARN_MORE	Learn more	
 GLUE_STORE_ADVENTURE_LEAVING_SOON	Adventure leaving soon!	
@@ -1066,7 +1106,9 @@ GLUE_GHOST_CARD_MISSING_DESCRIPTION_TOUCH	You don't have this card.\nTap to find
 GLUE_REQUIRED_CLIENT_STATIC_ASSETS_ERROR_MESSAGE	There was an error downloading additional client data.	This happens when an error occurred trying to download required assets from the server.
 GLUE_KARA_PROLOGUE_LOADING	Waiting for a delivery raven...
 GLUE_WELCOME_BUNDLE_RANDOM_CARD_SCROLL_TITLE	Welcome Bundle Legendary Card!
-GLUE_WELCOME_BUNDLE_RANDOM_CARD_SCROLL_DESC	Your welcome bundle contained {0}!
+GLUE_WELCOME_BUNDLE_RANDOM_CARD_SCROLL_DESC	Your welcome bundle contained \n{0}!
+GLUE_GENERIC_RANDOM_CARD_SCROLL_TITLE	It's a Legendary Card!	This is meant to replace the above welcome bundle strings until we have the tech to show custom strings per reward.
+GLUE_GENERIC_RANDOM_CARD_SCROLL_DESC	Your bundle contained {0}!	This is meant to replace the above welcome bundle strings until we have the tech to show custom strings per reward.
 GLUE_INKEEPER_RANDOM_CARD_DECK_RECIPE_ROGUE	Lookit that! A Rogue Legendary! It's in the Classic recipe. Try building the deck!
 GLUE_INKEEPER_RANDOM_CARD_DECK_RECIPE_WARRIOR	Ah! A Warrior Legendary! It's in the Classic recipe. Try building the deck!
 GLUE_INKEEPER_RANDOM_CARD_DECK_RECIPE_PALADIN	Ah! A Paladin Legendary! It's in the Classic recipe. Try building the deck!
@@ -1236,6 +1278,7 @@ GLUE_FIRESIDE_GATHERING_SEARCH_FAILURE_BODY_PHONE	Tap "Learn More" to look for F
 GLUE_FIRESIDE_BRAWL_FLAG	Fireside
 GLUE_FIRESIDE_GATHERING_NETWORK_CONFIRM_TITLE	We will setup this Fireside Gathering with your current Wi-Fi connection
 GLUE_FIRESIDE_GATHERING_NETWORK_CONFIRM_BODY	Please make sure you are connected to the right Wi-Fi network before proceeding
+GLUE_FIRESIDE_GATHERING_RETURN_TO_SCENE_HERE	Return to Fireside from here
 GLUE_COLLECTION_NO_RESULTS_IN_SELECTED_COST	No results in selected cost
 GLUE_COLLECTION_NO_RESULTS_IN_SELECTED_COST_HINT	Results found with different cost
 GLUE_COLLECTION_NO_RESULTS_IN_CURRENT_SET	No results in current set
@@ -1262,7 +1305,10 @@ GLUE_OUTSTANDING_DRAFT_TICKET_DIALOG_HEADER	Welcome to The Arena!
 GLUE_OUTSTANDING_DRAFT_TICKET_DIALOG_DESC	You have an extra Arena ticket! Don't worry about the usual entrance fee this time.
 GLUE_COLLECTION_MANAGER_ON_ADD_FULL_DECK_ERROR_TEXT	Your deck is full. Remove a card first!
 GLUE_CHINA_STORE_BOOSTER_GIFT	Gift:\n{0} Packs
+GLUE_CHINA_STORE_BOOSTER_GIFT_PLUS_BONUS	Gift:\n{0}+{1} Packs
 GLUE_CHINA_STORE_BOOSTER_GIFT_PREORDER_BONUS	Gift:\n{0} Packs\n+20 Bonus Packs
+GLUE_CHINA_STORE_DUST_PLUS_BONUS	{0}+{1}	0=base_quantity,1=bonus_quantity
+GLUE_CHINA_STORE_DUST_PLUS_BONUS_DETAILED	Get {0} bonus dust and {1} bonus gift |4(pack,packs) for a limited time!	0 = num bonus dust, 1 = num bonus packs
 GLUE_CHINA_STORE_WELCOME_BUNDLE_GIFT_1	Gift:\n\n10 Packs
 GLUE_CHINA_STORE_WELCOME_BUNDLE_GIFT_2	1 Legendary Card
 GLUE_CHINA_STORE_MAMMOTH_BUNDLE_GIFT_1	Gift:
@@ -1301,6 +1347,12 @@ GLUE_ADVENTURE_DUNGEON_CRAWL_BOSS_HERO_POWER_TOOLTIP	Hover to see Boss Hero Powe
 GLUE_ADVENTURE_DUNGEON_CRAWL_BOSS_HERO_POWER_TOOLTIP_PHONE	Tap and hold to see Boss Hero Power
 GLUE_ADVENTURE_BONUS_CHALLENGE_LABEL	Final Challenge
 GLUE_ADVENTURE_NEW_MODE_UNLOCKED_POPUP_TEXT	New mode unlocked
+GLUE_ADVENTURE_BOT_INTRO_BANNER_TEXT	Welcome to Boom Labs!
+GLUE_ADVENTURE_BOT_BOOM_TOOLTIP_HEADER	Locked
+GLUE_ADVENTURE_BOT_BOOM_MIRROR_TOOLTIP	Beat the <b>Mirror</b> wing\nto unlock.
+GLUE_ADVENTURE_BOT_BOOM_LETHAL_TOOLTIP	Beat the <b>Lethal</b> wing\nto unlock.
+GLUE_ADVENTURE_BOT_BOOM_BOARD_CLEAR_TOOLTIP	Beat the <b>Board Clear</b> wing\nto unlock.
+GLUE_ADVENTURE_BOT_BOOM_SURVIVAL_TOOLTIP	Beat the <b>Survival</b> wing\nto unlock.
 GLUE_BUTTON_TAKE	Take
 GLUE_BRAWLISEUM_FREE_TICKET_BODY	Brawliseum usually requires an entrance fee, but since it's your first time, it's on the house! Enjoy!
 GLUE_BRAWLISEUM_TITLE	Brawliseum
@@ -1312,3 +1364,4 @@ GLUE_BRAWLISEUM_SESSION_ERROR	There was a problem getting Tavern Brawl data.
 GLUE_BRAWLISEUM_RETIRE_CONFIRM_DESC	This will end your Tavern Brawl run! Are you sure?
 GLUE_STORE_PACKBUY_LIMITED_TIME	Limited Time
 GLUE_STORE_LIMITED_TIME_OFFER	Limited Time Offer!
+GLUE_STORE_BONUS_PACKS	Get {0} bonus |4(pack,packs) for a limited time!	0 = number of bonus packs

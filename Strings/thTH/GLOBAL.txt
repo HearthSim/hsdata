@@ -28,6 +28,7 @@ GLOBAL_ARENA_SEASON_ERROR_NOT_ACTIVE	ขออภัย ไม่มีโหม
 GLOBAL_ASSET_DOWNLOAD	ดาวน์โหลดข้อมูลเกม	
 GLOBAL_ASSET_DOWNLOAD_AWAITING_OTHER_DOWNLOAD	กำลังรอ	
 GLOBAL_ASSET_DOWNLOAD_AWAITING_WIFI	ต้องการ WiFi	
+GLOBAL_ASSET_DOWNLOAD_BYTE_SYMBOL	B	
 GLOBAL_ASSET_DOWNLOAD_CELLULAR_DATA_BODY	ดาวน์โหลดด้วยข้อมูลมือถือ	
 GLOBAL_ASSET_DOWNLOAD_CELLULAR_DATA_HEADER	ข้อมูลมือถือ	
 GLOBAL_ASSET_DOWNLOAD_CELLULAR_POPUP_BODY	ไม่สามารถใช้ Wi-Fi ได้ ต้องการดาวน์โหลดข้อมูลที่เหลือโดยใช้ข้อมูลมือถือหรือไม่	
@@ -43,7 +44,10 @@ GLOBAL_ASSET_DOWNLOAD_ERROR_AGENT_IMPEDED	การเชื่อมต่อ�
 GLOBAL_ASSET_DOWNLOAD_ERROR_CELLULAR_DISABLED	ข้อมูลมือถือถูกปิดอยู่	
 GLOBAL_ASSET_DOWNLOAD_ERROR_DOWNLOAD_DISABLED	การดาวน์โหลดถูกปิดอยู่	
 GLOBAL_ASSET_DOWNLOAD_ERROR_OUT_OF_STORAGE	พื้นที่เก็บข้อมูลเต็มแล้ว	
+GLOBAL_ASSET_DOWNLOAD_GIGABYTE_SYMBOL	GB	
 GLOBAL_ASSET_DOWNLOAD_INTENTION_PAUSED	(หยุดชั่วคราว)	
+GLOBAL_ASSET_DOWNLOAD_KILOBYTE_SYMBOL	KB	
+GLOBAL_ASSET_DOWNLOAD_MEGABYTE_SYMBOL	MB	
 GLOBAL_ASSET_DOWNLOAD_PAUSED	หยุดชั่วคราว	
 GLOBAL_ASSET_DOWNLOAD_SETTINGS	การตั้งค่า	
 GLOBAL_ASSET_DOWNLOAD_STATUS	เหลืออีก {0} @ {1}/วิ	
@@ -63,6 +67,9 @@ GLOBAL_BUTTON_NO	ไม่
 GLOBAL_BUTTON_OK	ตกลง	
 GLOBAL_BUTTON_YES	ใช่	
 GLOBAL_CANCEL	ยกเลิก	
+GLOBAL_CARD_SET_BOOMSDAY	The Boomsday Project	
+GLOBAL_CARD_SET_BOOMSDAY_SEARCHABLE_SHORTHAND_NAMES	bd tbp bdp tbdp bp	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_BOOMSDAY_SHORT	Boomsday	
 GLOBAL_CARD_SET_BRM	Blackrock Mountain	
 GLOBAL_CARD_SET_BRM_SEARCHABLE_SHORTHAND_NAMES	brm	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_CORE	พื้นฐาน	
@@ -384,7 +391,7 @@ GLOBAL_KEYWORD_BATTLECRY_TEXT	ใช้ความสามารถเมื�
 GLOBAL_KEYWORD_BOSS	บอส	
 GLOBAL_KEYWORD_BOSS_TEXT	ผู้เล่นร่วมมือกันต่อสู้\nเพื่อเอาชนะบอส	
 GLOBAL_KEYWORD_CHARGE	บุกทะลวง	
-GLOBAL_KEYWORD_CHARGE_TEXT	สามารถโจมตีได้ทันที	
+GLOBAL_KEYWORD_CHARGE_TEXT	โจมตีได้ทันที	
 GLOBAL_KEYWORD_COMBO	คอมโบ	
 GLOBAL_KEYWORD_COMBO_TEXT	ได้รับโบนัสถ้าคุณ[b]เล่นการ์ดแล้วในเทิร์นนี้	
 GLOBAL_KEYWORD_COUNTER	ลบล้าง	
@@ -426,6 +433,8 @@ GLOBAL_KEYWORD_LIFESTEAL	สูบชีวิต
 GLOBAL_KEYWORD_LIFESTEAL_TEXT	ฟื้นพลังชีวิตให้ฮีโร่[b]ของคุณเท่ากับ[b]ความเสียหายที่ทำได้	
 GLOBAL_KEYWORD_MINION_TYPE_REFERENCE	ประเภทมินเนี่ยน	
 GLOBAL_KEYWORD_MINION_TYPE_REFERENCE_TEXT	สัตว์ ปีศาจ มังกร เครื่องจักร เมอร์ล็อค โจรสลัด และโทเท็ม	
+GLOBAL_KEYWORD_MODULAR	แม่เหล็ก	
+GLOBAL_KEYWORD_MODULAR_TEXT	เล่นมินเนี่ยนตัวนี้[b]ทางซ้ายของเครื่องจักร[b]เพื่อรวมร่างพวกมัน!	
 GLOBAL_KEYWORD_OFFHAND	อาวุธรอง	
 GLOBAL_KEYWORD_OFFHAND_TEXT	ไม่ถูกทำลาย รับผลพิเศษไม่ได้	
 GLOBAL_KEYWORD_OVERLOAD	โอเวอร์โหลด: X	
@@ -781,7 +790,8 @@ GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_HEADER	โหมดผู้ชม
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT	กำลังรอให้เกมถัดไปเริ่มต้น\n\n{0} {1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_STATUS_* and PRESENCE_SCENARIO_*_NORMAL_SCENARIO_* from PRESENCE.txt (e.g. "Jane Doe is Heading into Play Mode")
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_BATTLING	กำลังรอให้เกมถัดไปเริ่มต้น\n\n{0} กำลังต่อสู้กับ {1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_SCENARIO_*_HEROIC_* from PRESENCE.txt (e.g. "Jane Doe is Battling Heroic Gothik the Harvester")
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_ENTERING	กำลังรอให้เกมถัดไปเริ่มต้น\n\n{0} กำลังเข้าสู่ {1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_ADVENTURE_MODE_* from PRESENCE.txt (e.g. "Jane Doe is entering Naxxramas")
-GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_OFFLINE	กำลังรอให้เกมถัดไปเริ่มต้น\n\n{0} ออฟไลน์อยู่	0=player name; same string as above, except shown when player is offline.
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_OFFLINE	กำลังรอให้เกมถัดไปเริ่มต้น\n\n{0} ออฟไลน์อยู่	0=player name; shown when player is offline.
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_ONLINE	กำลังรอเริ่มเกมใหม่\n\n{0} ออนไลน์	0=player name; shown when there is no current activity string available.
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_PLAYING	กำลังรอให้เกมถัดไปเริ่มต้น\n\n{0} กำลังเล่น {1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_SCENARIO_*_CLASS_CHALLENGE_* from PRESENCE.txt (e.g. "Jane Doe is playing Naxxramas Paladin Challenge")
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TIMEOUT	ผู้เล่นที่คุณกำลังเข้าชมใช้เวลานานเกินไปในการเริ่มเกมถัดไป โหมดผู้ชมถูกยกเลิกแล้ว	
 GLOBAL_SPLASH_CLOSED_RECONNECTING	กำลังเชื่อมต่อใหม่...	

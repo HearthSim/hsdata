@@ -28,6 +28,7 @@ GLOBAL_ARENA_SEASON_ERROR_NOT_ACTIVE	抱歉。你所指定的競技場模式目�
 GLOBAL_ASSET_DOWNLOAD	下載資料	
 GLOBAL_ASSET_DOWNLOAD_AWAITING_OTHER_DOWNLOAD	等待中	
 GLOBAL_ASSET_DOWNLOAD_AWAITING_WIFI	需要WiFi	
+GLOBAL_ASSET_DOWNLOAD_BYTE_SYMBOL	B	
 GLOBAL_ASSET_DOWNLOAD_CELLULAR_DATA_BODY	使用行動網路下載資料	
 GLOBAL_ASSET_DOWNLOAD_CELLULAR_DATA_HEADER	行動數據	
 GLOBAL_ASSET_DOWNLOAD_CELLULAR_POPUP_BODY	沒有Wi-Fi網路。你要用行動數據來下載剩餘的資料嗎？	
@@ -43,7 +44,10 @@ GLOBAL_ASSET_DOWNLOAD_ERROR_AGENT_IMPEDED	連線速度遲緩
 GLOBAL_ASSET_DOWNLOAD_ERROR_CELLULAR_DISABLED	行動數據已停用	
 GLOBAL_ASSET_DOWNLOAD_ERROR_DOWNLOAD_DISABLED	停止下載	
 GLOBAL_ASSET_DOWNLOAD_ERROR_OUT_OF_STORAGE	儲存空間不足	
+GLOBAL_ASSET_DOWNLOAD_GIGABYTE_SYMBOL	GB	
 GLOBAL_ASSET_DOWNLOAD_INTENTION_PAUSED	{0} (已暫停)	
+GLOBAL_ASSET_DOWNLOAD_KILOBYTE_SYMBOL	KB	
+GLOBAL_ASSET_DOWNLOAD_MEGABYTE_SYMBOL	MB	
 GLOBAL_ASSET_DOWNLOAD_PAUSED	已暫停	
 GLOBAL_ASSET_DOWNLOAD_SETTINGS	設定	
 GLOBAL_ASSET_DOWNLOAD_STATUS	剩餘 {0} @ {1}/秒	
@@ -57,12 +61,15 @@ GLOBAL_BASIC_DECK_NAME	{0}	0=class name
 GLOBAL_BETA_REIMBURSEMENT_DETAILS	這些金幣是從你過去的消費總金額返還的。謝謝你！	
 GLOBAL_BETA_REIMBURSEMENT_HEADLINE	帳號清空返還	
 GLOBAL_BRAWLISEUM	亂鬥場	
-GLOBAL_BUTTON_AWESOME	太棒了！	
+GLOBAL_BUTTON_AWESOME	太棒了!!	
 GLOBAL_BUTTON_NEXT	繼續	
 GLOBAL_BUTTON_NO	不要	
 GLOBAL_BUTTON_OK	確定	
 GLOBAL_BUTTON_YES	確定	
 GLOBAL_CANCEL	取消	
+GLOBAL_CARD_SET_BOOMSDAY	爆爆計畫	
+GLOBAL_CARD_SET_BOOMSDAY_SEARCHABLE_SHORTHAND_NAMES	爆爆 爆爆計畫 爆爆末日	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_BOOMSDAY_SHORT	爆爆計畫	
 GLOBAL_CARD_SET_BRM	勇闖黑石山	
 GLOBAL_CARD_SET_BRM_SEARCHABLE_SHORTHAND_NAMES	黑石山	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_CORE	基本	
@@ -426,6 +433,8 @@ GLOBAL_KEYWORD_LIFESTEAL	生命竊取
 GLOBAL_KEYWORD_LIFESTEAL_TEXT	造成的傷害會治療你的英雄。	
 GLOBAL_KEYWORD_MINION_TYPE_REFERENCE	手下類別	
 GLOBAL_KEYWORD_MINION_TYPE_REFERENCE_TEXT	野獸、惡魔、龍類、機械、魚人、海盜與圖騰。	
+GLOBAL_KEYWORD_MODULAR	合體	
+GLOBAL_KEYWORD_MODULAR_TEXT	將它打在機械的左方可使兩者合體！	
 GLOBAL_KEYWORD_OFFHAND	副手	
 GLOBAL_KEYWORD_OFFHAND_TEXT	永不毀損。無法附魔。	
 GLOBAL_KEYWORD_OVERLOAD	超載：X	
@@ -457,11 +466,11 @@ GLOBAL_KEYWORD_SPELLPOWER_TEXT	你的法術卡牌造成{0}點額外傷害。	0=a
 GLOBAL_KEYWORD_START_OF_GAME	對戰開始	
 GLOBAL_KEYWORD_START_OF_GAME_TEXT	對戰一開始就產生作用。	
 GLOBAL_KEYWORD_STEALTH	潛行	
-GLOBAL_KEYWORD_STEALTH_REF_TEXT	無法被攻擊或指定，直到它開始攻擊為止。	
-GLOBAL_KEYWORD_STEALTH_TEXT	無法被攻擊或指定，直到它開始攻擊為止。	
+GLOBAL_KEYWORD_STEALTH_REF_TEXT	無法被攻擊或指定，直到它進行攻擊。	
+GLOBAL_KEYWORD_STEALTH_TEXT	無法被攻擊或指定，直到它進行攻擊。	
 GLOBAL_KEYWORD_TAUNT	嘲諷	
 GLOBAL_KEYWORD_TAUNT_REF_TEXT	敵人必須攻擊有嘲諷的手下。	
-GLOBAL_KEYWORD_TAUNT_TEXT	敵人必須攻擊這名手下。	
+GLOBAL_KEYWORD_TAUNT_TEXT	敵人必須先攻擊這個手下。	
 GLOBAL_KEYWORD_WILD	開放卡牌	
 GLOBAL_KEYWORD_WILD_TEXT	開放卡牌屬於爐石戰記過去的卡牌系列，無法在標準規則下使用。	
 GLOBAL_KEYWORD_WINDFURY	風怒	
@@ -781,7 +790,8 @@ GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_HEADER	觀戰模式
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT	等待下一場賽局開始。\n\n{0}{1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_STATUS_* and PRESENCE_SCENARIO_*_NORMAL_SCENARIO_* from PRESENCE.txt (e.g. "Jane Doe is Heading into Play Mode")
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_BATTLING	等待下一場賽局開始。\n\n{0}正在與{1}戰鬥	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_SCENARIO_*_HEROIC_* from PRESENCE.txt (e.g. "Jane Doe is Battling Heroic Gothik the Harvester")
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_ENTERING	等待下一場賽局開始。\n\n{0}正在前往{1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_ADVENTURE_MODE_* from PRESENCE.txt (e.g. "Jane Doe is entering Naxxramas")
-GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_OFFLINE	等待下一場賽局開始。\n\n{0}已經下線	0=player name; same string as above, except shown when player is offline.
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_OFFLINE	等待下一場賽局開始。\n\n{0}已經下線	0=player name; shown when player is offline.
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_ONLINE	等待下一場賽局開始。\n\n{0}已上線	0=player name; shown when there is no current activity string available.
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_PLAYING	等待下一場賽局開始。\n\n{0}正在進行{1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_SCENARIO_*_CLASS_CHALLENGE_* from PRESENCE.txt (e.g. "Jane Doe is playing Naxxramas Paladin Challenge")
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TIMEOUT	你要觀戰的玩家太久沒有開始下一場賽局。觀戰模式已經取消。	
 GLOBAL_SPLASH_CLOSED_RECONNECTING	重新連線中…	

@@ -28,6 +28,7 @@ GLOBAL_ARENA_SEASON_ERROR_NOT_ACTIVE	抱歉，你所指定的竞技模式当前�
 GLOBAL_ASSET_DOWNLOAD	下载资料	
 GLOBAL_ASSET_DOWNLOAD_AWAITING_OTHER_DOWNLOAD	等待中	
 GLOBAL_ASSET_DOWNLOAD_AWAITING_WIFI	需要WiFi	
+GLOBAL_ASSET_DOWNLOAD_BYTE_SYMBOL	B	
 GLOBAL_ASSET_DOWNLOAD_CELLULAR_DATA_BODY	用蜂窝数据下载。	
 GLOBAL_ASSET_DOWNLOAD_CELLULAR_DATA_HEADER	蜂窝数据	
 GLOBAL_ASSET_DOWNLOAD_CELLULAR_POPUP_BODY	未检测到Wi-Fi网络。是否通过蜂窝数据来下载剩余资料？	
@@ -43,7 +44,10 @@ GLOBAL_ASSET_DOWNLOAD_ERROR_AGENT_IMPEDED	连接速度缓慢
 GLOBAL_ASSET_DOWNLOAD_ERROR_CELLULAR_DISABLED	蜂窝数据已关闭	
 GLOBAL_ASSET_DOWNLOAD_ERROR_DOWNLOAD_DISABLED	下载已关闭	
 GLOBAL_ASSET_DOWNLOAD_ERROR_OUT_OF_STORAGE	存储空间不足	
+GLOBAL_ASSET_DOWNLOAD_GIGABYTE_SYMBOL	GB	
 GLOBAL_ASSET_DOWNLOAD_INTENTION_PAUSED	{0} (已暂停)	
+GLOBAL_ASSET_DOWNLOAD_KILOBYTE_SYMBOL	KB	
+GLOBAL_ASSET_DOWNLOAD_MEGABYTE_SYMBOL	MB	
 GLOBAL_ASSET_DOWNLOAD_PAUSED	已暂停	
 GLOBAL_ASSET_DOWNLOAD_SETTINGS	设置	
 GLOBAL_ASSET_DOWNLOAD_STATUS	还剩 {0} @ {1}/秒	
@@ -63,6 +67,9 @@ GLOBAL_BUTTON_NO	否
 GLOBAL_BUTTON_OK	确定	
 GLOBAL_BUTTON_YES	是	
 GLOBAL_CANCEL	取消	
+GLOBAL_CARD_SET_BOOMSDAY	砰砰计划	
+GLOBAL_CARD_SET_BOOMSDAY_SEARCHABLE_SHORTHAND_NAMES	砰砰	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_BOOMSDAY_SHORT	砰砰计划	
 GLOBAL_CARD_SET_BRM	黑石山的火焰	
 GLOBAL_CARD_SET_BRM_SEARCHABLE_SHORTHAND_NAMES	黑石山的火焰	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_CORE	基本	
@@ -426,6 +433,8 @@ GLOBAL_KEYWORD_LIFESTEAL	吸血
 GLOBAL_KEYWORD_LIFESTEAL_TEXT	造成伤害的同时，为你的英雄恢复等量的生命值。	
 GLOBAL_KEYWORD_MINION_TYPE_REFERENCE	随从类型	
 GLOBAL_KEYWORD_MINION_TYPE_REFERENCE_TEXT	野兽、恶魔、龙、机械、鱼人、海盗和图腾。	
+GLOBAL_KEYWORD_MODULAR	磁力	
+GLOBAL_KEYWORD_MODULAR_TEXT	将具有磁力的牌置于机械牌的左侧可使其合体！	
 GLOBAL_KEYWORD_OFFHAND	副手	
 GLOBAL_KEYWORD_OFFHAND_TEXT	无法破坏。无法被强化。	
 GLOBAL_KEYWORD_OVERLOAD	过载：X	
@@ -781,7 +790,8 @@ GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_HEADER	观众模式
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT	等待下一场对战开始。\n\n{0}{1}。	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_STATUS_* and PRESENCE_SCENARIO_*_NORMAL_SCENARIO_* from PRESENCE.txt (e.g. "Jane Doe is Heading into Play Mode")
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_BATTLING	等待下一场对战开始。\n\n{0}正在与{1}对战。	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_SCENARIO_*_HEROIC_* from PRESENCE.txt (e.g. "Jane Doe is Battling Heroic Gothik the Harvester")
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_ENTERING	等待下一场对战开始。\n\n{0}正在进入{1}。	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_ADVENTURE_MODE_* from PRESENCE.txt (e.g. "Jane Doe is entering Naxxramas")
-GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_OFFLINE	等待下一场对战开始。\n\n{0}已经下线。	0=player name; same string as above, except shown when player is offline.
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_OFFLINE	等待下一场对战开始。\n\n{0}已经下线。	0=player name; shown when player is offline.
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_ONLINE	等待下一场对战开始。\n\n{0}已上线	0=player name; shown when there is no current activity string available.
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_PLAYING	等待下一场对战开始。\n\n{0}正在进行{1}。	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_SCENARIO_*_CLASS_CHALLENGE_* from PRESENCE.txt (e.g. "Jane Doe is playing Naxxramas Paladin Challenge")
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TIMEOUT	你正在观看的玩家没有及时开始下一场对战。你已经退出了观众模式。	
 GLOBAL_SPLASH_CLOSED_RECONNECTING	正在重新连接	
