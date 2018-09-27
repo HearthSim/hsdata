@@ -51,6 +51,7 @@ GLOBAL_ASSET_DOWNLOAD_MEGABYTE_SYMBOL	MB
 GLOBAL_ASSET_DOWNLOAD_PAUSED	Pausiert	
 GLOBAL_ASSET_DOWNLOAD_SETTINGS	Einstellungen	
 GLOBAL_ASSET_DOWNLOAD_STATUS	noch {0} bei {1}/Sek.	
+GLOBAL_ASSET_DOWNLOAD_STATUS_DECIMAL_FORMAT	{0},{1} {2}	
 GLOBAL_ASSET_DOWNLOAD_STATUS_SHORT	{0} bei {1}/Sek.	
 GLOBAL_ASSET_INTENTION_DONE	Fertig	
 GLOBAL_ASSET_INTENTION_DOWNLOADING_HIGH_RES_PORTRAITS	Karten in HD	
@@ -146,6 +147,7 @@ GLOBAL_COST	Kosten
 GLOBAL_CREATE	Herstellen	
 GLOBAL_CURRENT_DATE	{0:dd.MM.yyyy}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
 GLOBAL_CURRENT_TIME	{0:HH:mm "Uhr"}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
+GLOBAL_CURRENT_TIME_AND_DATE_DEV	{0} ({1}, {2})	
 GLOBAL_DATETIME_AFK_DAY	Seit mehr als einem Tag AFK	
 GLOBAL_DATETIME_AFK_DAYS	Seit {0} |4(Tag,Tagen) AFK	
 GLOBAL_DATETIME_AFK_HOURS	Seit {0} |4(Stunde,Stunden) AFK	
@@ -203,6 +205,7 @@ GLOBAL_DONE	Fertig
 GLOBAL_ENABLE	Aktivieren	
 GLOBAL_END_GAME	Spiel beenden	
 GLOBAL_ENTER	Eintreten	
+GLOBAL_ERROR	Fehler	
 GLOBAL_ERROR_ACCOUNT_LICENSES	Beim Abfragen Ihres Accounts ist ein Fehler aufgetreten, wodurch manche Ihrer Besitztümer möglicherweise nicht angezeigt werden. Das tut uns leid! Bei Ihrem nächsten Einloggen werden wir es erneut versuchen.	
 GLOBAL_ERROR_ASSET_CREATE_PERSISTENT_DATA_PATH	In {0} konnte kein Ordner zum Speichern von Daten erstellt werden.	0=folder path
 GLOBAL_ERROR_ASSET_DOWNLOAD_FAILED	Asset {0} konnte nicht heruntergeladen werden.	0=asset name
@@ -278,7 +281,7 @@ GLOBAL_FRIEND_CHALLENGE_BODY2	Nehmt Ihr an?
 GLOBAL_FRIEND_CHALLENGE_DECLINE	Ablehnen	
 GLOBAL_FRIEND_CHALLENGE_FIRESIDE_BRAWL_BODY1	Ihr wurdet zum Fireside-Chaos herausgefordert von:	
 GLOBAL_FRIEND_CHALLENGE_HEADER	Herausforderung	
-GLOBAL_FRIEND_CHALLENGE_NEARBY_PLAYER_NOTE	Sie können Einladungen von Spielern in der Nähe durch eine Einstellung im Optionsmenü blockieren.	
+GLOBAL_FRIEND_CHALLENGE_NEARBY_PLAYER_NOTE	Sie können Einladungen von Spielern in der Nähe in der Freundesliste blockieren.	
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_CANCELED	{0} hat die Herausforderung abgebrochen.	0=friend name
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_DECLINED	{0} hat Eure Herausforderung abgelehnt.	0=friend name
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_FRIEND_REMOVED	Die Herausforderung wurde abgebrochen, da {0} nicht mehr Euer Freund ist.	0=friend name
@@ -390,6 +393,8 @@ GLOBAL_KEYWORD_BATTLECRY	Kampfschrei
 GLOBAL_KEYWORD_BATTLECRY_TEXT	Ein Effekt tritt in Kraft, wenn die Karte ausgespielt wird.	
 GLOBAL_KEYWORD_BOSS	Boss	
 GLOBAL_KEYWORD_BOSS_TEXT	Die Spieler kämpfen zusammen gegen den Boss.	
+GLOBAL_KEYWORD_CASTS_WHEN_DRAWN	Beim Ziehen gewirkt	
+GLOBAL_KEYWORD_CASTS_WHEN_DRAWN_TEXT	Wird beim Ziehen sofort gewirkt. Zieht danach eine weitere Karte.	
 GLOBAL_KEYWORD_CHARGE	Ansturm	
 GLOBAL_KEYWORD_CHARGE_TEXT	Sofort angriffsbereit.	
 GLOBAL_KEYWORD_COMBO	Combo	
@@ -409,6 +414,8 @@ GLOBAL_KEYWORD_ECHO	Echo
 GLOBAL_KEYWORD_ECHO_TEXT	Diese Karte kann in dem Zug, in dem Ihr sie ausspielt, mehrmals ausgespielt werden.	
 GLOBAL_KEYWORD_ENRAGED	Wutanfall	
 GLOBAL_KEYWORD_ENRAGED_TEXT	Wenn er verletzt ist, hat dieser Diener eine zusätzliche Fähigkeit.	
+GLOBAL_KEYWORD_FLOOPY	Flubbidinius Flurp	
+GLOBAL_KEYWORD_FLOOPY_TEXT	Verwandelt sich, wenn Ihr einen Diener ausspielt.	
 GLOBAL_KEYWORD_FREEZE	Einfrieren	
 GLOBAL_KEYWORD_FREEZE_TEXT	Eingefrorene Charaktere verpassen ihren nächsten Angriff.	
 GLOBAL_KEYWORD_FROZEN	Eingefroren	
@@ -426,7 +433,7 @@ GLOBAL_KEYWORD_JADE_GOLEM	Jadegolem
 GLOBAL_KEYWORD_JADE_GOLEM_COLLECTION_TEXT	Euer erster Jadegolem hat die Werte 1/1. Jeder weitere hat +1/+1.	
 GLOBAL_KEYWORD_JADE_GOLEM_TEXT	Jeder Jadegolem ist um +1/+1 größer als der vorherige.	
 GLOBAL_KEYWORD_JADE_LOTUS	Jadelotus	
-GLOBAL_KEYWORD_JADE_LOTUS_COLLECTION_TEXT	Kann in Druiden-, Schurken- und Schamanen[d]decks verwendet werden.	
+GLOBAL_KEYWORD_JADE_LOTUS_COLLECTION_TEXT	Kann in Schamanen-, Druiden- und Schurken[d]decks verwendet werden.	
 GLOBAL_KEYWORD_KABAL	Kabale	
 GLOBAL_KEYWORD_KABAL_COLLECTION_TEXT	Kann in Priester-, Magier- und Hexenmeister[d]decks verwendet werden.	
 GLOBAL_KEYWORD_LIFESTEAL	Lebensentzug	
@@ -434,7 +441,7 @@ GLOBAL_KEYWORD_LIFESTEAL_TEXT	Verursachter Schaden heilt Euren Helden.
 GLOBAL_KEYWORD_MINION_TYPE_REFERENCE	Dienertyp	
 GLOBAL_KEYWORD_MINION_TYPE_REFERENCE_TEXT	Wildtier, Dämon, Drache, Mech, Murloc, Pirat oder Totem.	
 GLOBAL_KEYWORD_MODULAR	Magnetisch	
-GLOBAL_KEYWORD_MODULAR_TEXT	Spielt diesen Diener zur Linken eines Mechs aus, damit beide miteinander verschmelzen!	
+GLOBAL_KEYWORD_MODULAR_TEXT	Spielt diesen Diener zur Linken eines Mechs aus, damit sie verschmelzen!	
 GLOBAL_KEYWORD_OFFHAND	Nebenhand	
 GLOBAL_KEYWORD_OFFHAND_TEXT	Unzerstörbar. Kann nicht verzaubert werden.	
 GLOBAL_KEYWORD_OVERLOAD	Überladung: X	
@@ -458,10 +465,10 @@ GLOBAL_KEYWORD_SHIFTING_TEXT	Verwandelt sich zu Beginn Eures Zuges in eine neue 
 GLOBAL_KEYWORD_SHIFTING_WEAPON_TEXT	Verwandelt sich zu Beginn Eures Zuges in eine neue Waffe.	
 GLOBAL_KEYWORD_SILENCE	Zum Schweigen bringen	
 GLOBAL_KEYWORD_SILENCE_TEXT	Entfernt alle Kartentexte und Verzauberungen.	
-GLOBAL_KEYWORD_SPAREPART	Ersatzteile	
-GLOBAL_KEYWORD_SPAREPART_TEXT	Ersatzteile sind Zauber für 1 Mana, die nur schwache Effekte haben.	
+GLOBAL_KEYWORD_SPAREPART	Ersatzteil	
+GLOBAL_KEYWORD_SPAREPART_TEXT	Zauber für 1 Mana mit schwachem Effekt.	
 GLOBAL_KEYWORD_SPELLPOWER	Zauberschaden	
-GLOBAL_KEYWORD_SPELLPOWER_REF_TEXT	Eure Zauber verursachen zusätzlichen Schaden.	
+GLOBAL_KEYWORD_SPELLPOWER_REF_TEXT	Eure Zauber verursachen mehr Schaden.	
 GLOBAL_KEYWORD_SPELLPOWER_TEXT	Eure Zauber verursachen {0} Schaden mehr.	0=amount of spell damage
 GLOBAL_KEYWORD_START_OF_GAME	Spielbeginn	
 GLOBAL_KEYWORD_START_OF_GAME_TEXT	Vor dem ersten Zug tritt ein Effekt in Kraft.	
@@ -579,10 +586,13 @@ GLOBAL_OPTIONS_GRAPHICS_QUALITY_MEDIUM	Mittel
 GLOBAL_OPTIONS_GRAPHICS_RESOLUTION_LABEL	Auflösung	
 GLOBAL_OPTIONS_MISCELLANEOUS_LABEL	Verschiedenes	
 GLOBAL_OPTIONS_NEARBY_PLAYERS	Herausfordern von Spielern in der Nähe (Freundesliste)	
+GLOBAL_OPTIONS_OTHER_LABEL	Sonstiges	
 GLOBAL_OPTIONS_PREFERENCES_LABEL	Präferenzen	
+GLOBAL_OPTIONS_PRIVACY_POLICY	Datenschutzrichtlinien	
 GLOBAL_OPTIONS_PUBLIC_CHAT_ENABLED	Öffentlicher Chat	
 GLOBAL_OPTIONS_RESTORE_PURCHASES	Käufe finden	
 GLOBAL_OPTIONS_RESTORE_PURCHASES_POPUP_TEXT	Ihr könnt einen Kauf nicht finden? Stellt sicher, dass Ihr mit dem richtigen Account eingeloggt seid.	
+GLOBAL_OPTIONS_SKIP_TO_RANK_25	Jetzt auf Rang 25	
 GLOBAL_OPTIONS_SOUND_IN_BACKGROUND	Sound im Hintergrund	
 GLOBAL_OPTIONS_SOUND_LABEL	Sound	
 GLOBAL_OPTIONS_SOUND_MASTER_VOLUME_LABEL	Gesamtlautstärke	
@@ -594,6 +604,7 @@ GLOBAL_PLAY_STANDARD	Standard-\nspiel
 GLOBAL_PLAY_WILD	Wildes Spiel	
 GLOBAL_PLAYER_PLAYER	Spieler	this is the word for generic "Player" - this will be used when there a player's name is unknown at the time.
 GLOBAL_PRACTICE_MAX_LEVEL_REACHED	Max. Stufe gegen KI	
+GLOBAL_PROGRAMNAME_BLACKOPS4	Black Ops 4	
 GLOBAL_PROGRAMNAME_DESTINY2	Destiny 2	
 GLOBAL_PROGRAMNAME_DIABLO3	Diablo III	
 GLOBAL_PROGRAMNAME_HEARTHSTONE	Hearthstone	
@@ -630,6 +641,7 @@ GLOBAL_RACE_TOTEM	Totem
 GLOBAL_RACE_TROLL	Troll	
 GLOBAL_RACE_UNDEAD	Untot	
 GLOBAL_RACE_WORGEN	Worgen	
+GLOBAL_RANK_PROMOTION_DESC	Ihr seid auf Rang 25 aufgestiegen!	
 GLOBAL_RANK_SCRUB_RANK_DESC	Auf diesem Rang könnt Ihr keine Sterne verlieren.	
 GLOBAL_RANK_WIN_STREAK	Siegessträhne – Bonusstern!	
 GLOBAL_RARITY_COMMON	Gewöhnlich	
@@ -695,6 +707,8 @@ GLOBAL_REWARD_CHEST_TIER4	Schließkiste des Schildträgers
 GLOBAL_REWARD_CHEST_TIER4_EARNED	Ihr habt die Schließkiste des Schildträgers erhalten!	
 GLOBAL_REWARD_CHEST_TIER5	Kiste des wütenden Huhns	
 GLOBAL_REWARD_CHEST_TIER5_EARNED	Ihr habt die Kiste des wütenden Huhns erhalten!	
+GLOBAL_REWARD_CHEST_TIER6	Gastpaket	
+GLOBAL_REWARD_CHEST_TIER6_EARNED	Ihr habt ein Gastpaket erhalten!	
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL	{0}	0=first class
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL_DOUBLE	{0} und {1}	0=first class, 1=second class
 GLOBAL_REWARD_CLASS_CHALLENGE_HEADLINE	|4(Klassenherausforderung,Klassenherausforderungen) freigeschaltet!	

@@ -140,6 +140,8 @@ GLOBAL_KEYWORD_BOSS	Boss
 GLOBAL_KEYWORD_BOSS_TEXT	The players are fighting together to overcome the Boss.
 GLOBAL_KEYWORD_ADAPT	Adapt
 GLOBAL_KEYWORD_ADAPT_TEXT	Choose one of 3 bonuses.
+GLOBAL_KEYWORD_FLOOPY	Flobbidinous Floop
+GLOBAL_KEYWORD_FLOOPY_TEXT	Transforms when you play a minion.
 GLOBAL_KEYWORD_SHIFTING_MINION_TEXT	Transforms into a new minion at the start of your turn.
 GLOBAL_KEYWORD_SHIFTING_WEAPON_TEXT	Transforms into a new weapon at the start of your turn.
 GLOBAL_KEYWORD_SHIFTING_SPELL_TEXT	Transforms into a new spell at the start of your turn.
@@ -156,6 +158,8 @@ GLOBAL_KEYWORD_PASSIVE	Passive
 GLOBAL_KEYWORD_PASSIVE_TEXT	A permanent effect for the current run.
 GLOBAL_KEYWORD_START_OF_GAME	Start of Game
 GLOBAL_KEYWORD_START_OF_GAME_TEXT	Does something before the first turn.
+GLOBAL_KEYWORD_CASTS_WHEN_DRAWN	Casts When Drawn
+GLOBAL_KEYWORD_CASTS_WHEN_DRAWN_TEXT	Casts itself when drawn, then draw another card.
 GLOBAL_ATTACK	Attack	
 GLOBAL_COST	Cost	
 GLOBAL_HEALTH	Health	
@@ -233,6 +237,7 @@ GLOBAL_ASSET_DOWNLOAD_MEGABYTE_SYMBOL	MB
 GLOBAL_ASSET_DOWNLOAD_GIGABYTE_SYMBOL	GB
 GLOBAL_ASSET_DOWNLOAD_STATUS	{0} remaining @ {1}/s
 GLOBAL_ASSET_DOWNLOAD_STATUS_SHORT	{0} @ {1}/s
+GLOBAL_ASSET_DOWNLOAD_STATUS_DECIMAL_FORMAT	{0}.{1} {2}
 GLOBAL_ASSET_DOWNLOAD_SETTINGS	Settings
 GLOBAL_ASSET_DOWNLOAD_ENABLED	Enabled
 GLOBAL_ASSET_DOWNLOAD_DISABLED	Disabled
@@ -278,7 +283,7 @@ GLOBAL_FRIEND_CHALLENGE_BODY1	You've been challenged by:
 GLOBAL_FRIEND_CHALLENGE_BODY1_WILD	You've been challenged to a\nWild game by:
 GLOBAL_FRIEND_CHALLENGE_BODY1_STANDARD	You've been challenged to a Standard game by:
 GLOBAL_FRIEND_CHALLENGE_BODY2	Do you accept?
-GLOBAL_FRIEND_CHALLENGE_NEARBY_PLAYER_NOTE	You can turn off invites from nearby players in the options menu.
+GLOBAL_FRIEND_CHALLENGE_NEARBY_PLAYER_NOTE	You can turn off invites from nearby players in the Friends list.
 GLOBAL_FRIEND_CHALLENGE_ACCEPT	Accept
 GLOBAL_FRIEND_CHALLENGE_DECLINE	Decline
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_WAITING_RESPONSE	You are waiting for {0} to respond to your challenge.	0=friend name
@@ -297,10 +302,11 @@ GLOBAL_DECK_SHARE_REQUEST_WAITING_RESPONSE	Waiting for {0} to respond to your de
 GLOBAL_DECK_SHARE_REQUEST_DECLINED	{0} declined your request to share decks.	0=friend name
 GLOBAL_DECK_SHARE_REQUEST_CANCELED	{0} canceled their request to share decks.	0=friend name
 GLOBAL_DECK_SHARE_REQUESTED	{0} wants to borrow one of your decks.	0=friend name
-GLOBAL_DECK_SHARE_ERROR	An error occurred while trying to share decks.
-GLOBAL_DECK_SHARE_ACCEPT_REQUEST	Share
-GLOBAL_DECK_SHARE_DECLINE_REQUEST	No Way!
-GLOBAL_DECK_SHARE_HEADER	Share Decks?
+GLOBAL_DECK_SHARE_ERROR	An error occurred while trying to share decks.	
+GLOBAL_DECK_SHARE_ACCEPT_REQUEST	Share	
+GLOBAL_DECK_SHARE_DECLINE_REQUEST	No Way!	
+GLOBAL_DECK_SHARE_HEADER	Share Decks?	
+GLOBAL_ERROR	Error
 GLOBAL_ERROR_GENERIC_HEADER	Error
 GLOBAL_ERROR_GAME_DENIED	There was an error starting your game. Please wait a few minutes and try again.
 GLOBAL_ERROR_GAME_OPPONENT_TIMEOUT	The game failed to start because your opponent failed to connect. Please try again.
@@ -505,6 +511,7 @@ GLOBAL_PROGRAMNAME_PHOENIX	Online
 GLOBAL_PROGRAMNAME_HEROES	Heroes of the Storm
 GLOBAL_PROGRAMNAME_OVERWATCH	Overwatch
 GLOBAL_PROGRAMNAME_DESTINY2	Destiny 2
+GLOBAL_PROGRAMNAME_BLACKOPS4	Black Ops 4
 GLOBAL_OFFLINE	Offline
 GLOBAL_DEFAULT_ALERT_HEADER	Alert
 GLOBAL_FORGE_END_TITLE	Arena Complete
@@ -520,6 +527,7 @@ GLOBAL_FORGE_END_JOKE_7	BEHOLD!
 GLOBAL_FORGE_END_JOKE_8	It's not over yet! Oh wait, yeah it is.
 GLOBAL_RANK_WIN_STREAK	Win Streak - Bonus star!
 GLOBAL_RANK_SCRUB_RANK_DESC	You can't lose stars at this rank.
+GLOBAL_RANK_PROMOTION_DESC	You've been promoted to Rank 25!
 GLOBAL_MEDAL_0	Legend
 GLOBAL_MEDAL_1	Innkeeper
 GLOBAL_MEDAL_2	Black Knight
@@ -624,6 +632,9 @@ GLOBAL_OPTIONS_NEARBY_PLAYERS	Enable Challenging Nearby Players - Friends List
 GLOBAL_OPTIONS_SPECTATOR_OPEN_JOIN	Allow Friends to Spectate my Games
 GLOBAL_OPTIONS_CHOOSE_CARD_BACK	Choose Card Back
 GLOBAL_OPTIONS_RESTORE_PURCHASES_POPUP_TEXT	Can't find something you've purchased? Make sure you are logged into the correct account.
+GLOBAL_OPTIONS_OTHER_LABEL	Other
+GLOBAL_OPTIONS_PRIVACY_POLICY	Privacy Policy
+GLOBAL_OPTIONS_SKIP_TO_RANK_25	Skip to Rank 25
 GLOBAL_REWARD_BOOSTER_HEADLINE_GENERIC	Pack earned!
 GLOBAL_REWARD_BOOSTER_HEADLINE_MULTIPLE	{0} |4(pack,packs) earned!
 GLOBAL_REWARD_BOOSTER_HEADLINE_OUT_OF_BAND	Card Pack granted!
@@ -703,15 +714,16 @@ GLOBAL_HEALTHY_GAMING_CHINA_MORE_THAN_FIVE_HOURS	您已进入不健康游戏时�
 GLOBAL_HEALTHY_GAMING_CHINA_MORE_THAN_FIVE_HOURS_PHONE	您已进入不健康游戏时间，为了您的健康，请您立即下线休息。如不下线，您的身体将受到损害，\n您的收益已降为零，直到您的累计下线时间满5小时后，才能恢复正常。
 GLOBAL_CURRENT_TIME	{0:h:mm tt}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
 GLOBAL_CURRENT_DATE	{0:MM/dd/yy}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
-GLOBAL_HEALTHY_GAMING_KOREA_STARTUP_MESSAGE	본 게임물은 만 12세 이용가 게임으로서 해당 연령 미만의 청소년이 이용하기에 부적절합니다. 반드시 보호자의 지도 감독이 필요합니다.
-GLOBAL_HEALTHY_GAMING_CHINA_STARTUP_MESSAGE	抵制不良游戏，拒绝盗版游戏。\n注意自我保护，谨防上当受骗。\n适度游戏益脑，沉迷游戏伤身。\n合理安排时间，享受健康生活。
-GLOBAL_HEALTHY_GAMING_CHINA_CAIS_ACTIVE	CAIS Active
-GLOBAL_LANGUAGE_CHANGE_CONFIRM_TITLE	Change Language?
-GLOBAL_LANGUAGE_CHANGE_CONFIRM_MESSAGE	This will interrupt your current activity. Are you sure?
+GLOBAL_CURRENT_TIME_AND_DATE_DEV	{0} ({1} - {2})
+GLOBAL_HEALTHY_GAMING_KOREA_STARTUP_MESSAGE	본 게임물은 만 12세 이용가 게임으로서 해당 연령 미만의 청소년이 이용하기에 부적절합니다. 반드시 보호자의 지도 감독이 필요합니다.	
+GLOBAL_HEALTHY_GAMING_CHINA_STARTUP_MESSAGE	抵制不良游戏，拒绝盗版游戏。\n注意自我保护，谨防上当受骗。\n适度游戏益脑，沉迷游戏伤身。\n合理安排时间，享受健康生活。	
+GLOBAL_HEALTHY_GAMING_CHINA_CAIS_ACTIVE	CAIS Active	
+GLOBAL_LANGUAGE_CHANGE_CONFIRM_TITLE	Change Language?	
+GLOBAL_LANGUAGE_CHANGE_CONFIRM_MESSAGE	This will interrupt your current activity. Are you sure?	
+GLOBAL_LOGIN_CONFIRM_MESSAGE	You will lose your current progress. Are you sure?	
 GLOBAL_LANGUAGE_CHANGE_OUT_OF_SPACE_TITLE	Not enough space!
 GLOBAL_LANGUAGE_CHANGE_OUT_OF_SPACE_MESSAGE	You need {0} of free space on your device to continue.
-GLOBAL_LOGIN_CONFIRM_MESSAGE	You will lose your current progress. Are you sure?
-GLOBAL_LOGOUT_CONFIRM_MESSAGE	Are you sure?
+GLOBAL_LOGOUT_CONFIRM_MESSAGE	Are you sure?	
 GLOBAL_LANGUAGE_NATIVE_DEDE	Deutsch	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_ENUS	English	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_ESES	Español (España)	The name of the language IN THAT LANGUAGE.
@@ -782,11 +794,13 @@ GLOBAL_TAVERN_BRAWL_ERROR_SEASON_INCREMENTED	Sorry. This Tavern Brawl Event is o
 GLOBAL_TAVERN_BRAWL_ERROR_NOT_ACTIVE	Sorry. This Tavern Brawl is not currently active. Please wait a few minutes and try again.
 GLOBAL_REWARD_CHEST_INSTRUCTIONS	Open your chest at the end of the season.\nImprove your rank to upgrade your chest!
 GLOBAL_IN_PROGRESS_REWARD_CHEST_INSTRUCTIONS	Win {0} more |4(game,games) to earn your season chest!\n(It will unlock next month)
+GLOBAL_REWARD_CHEST_TIER6	Patron's Parcel
 GLOBAL_REWARD_CHEST_TIER5	Angry Chicken's Crate
 GLOBAL_REWARD_CHEST_TIER4	Shieldbearer's Footlocker
 GLOBAL_REWARD_CHEST_TIER3	Guardian's Chest
 GLOBAL_REWARD_CHEST_TIER2	Ogre Magi's Stash
 GLOBAL_REWARD_CHEST_TIER1	Sea Giant's Treasure
+GLOBAL_REWARD_CHEST_TIER6_EARNED	You have earned the Patron's Parcel!
 GLOBAL_REWARD_CHEST_TIER5_EARNED	You have earned the Angry Chicken's Crate!
 GLOBAL_REWARD_CHEST_TIER4_EARNED	You have earned the Shieldbearer's Footlocker!
 GLOBAL_REWARD_CHEST_TIER3_EARNED	You have earned the Guardian's Chest!

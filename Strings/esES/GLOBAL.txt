@@ -51,6 +51,7 @@ GLOBAL_ASSET_DOWNLOAD_MEGABYTE_SYMBOL	MB
 GLOBAL_ASSET_DOWNLOAD_PAUSED	En pausa	
 GLOBAL_ASSET_DOWNLOAD_SETTINGS	Ajustes	
 GLOBAL_ASSET_DOWNLOAD_STATUS	Restante: {0} a {1}/s	
+GLOBAL_ASSET_DOWNLOAD_STATUS_DECIMAL_FORMAT	{0},{1} {2}	
 GLOBAL_ASSET_DOWNLOAD_STATUS_SHORT	{0} a {1}/s	
 GLOBAL_ASSET_INTENTION_DONE	Listo	
 GLOBAL_ASSET_INTENTION_DOWNLOADING_HIGH_RES_PORTRAITS	Alta resolución	
@@ -146,6 +147,7 @@ GLOBAL_COST	Coste
 GLOBAL_CREATE	Crear	
 GLOBAL_CURRENT_DATE	{0:dd/MM/yy}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
 GLOBAL_CURRENT_TIME	{0:HH:mm}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
+GLOBAL_CURRENT_TIME_AND_DATE_DEV	{0} ({1} - {2})	
 GLOBAL_DATETIME_AFK_DAY	Ausente desde hace más de un día	
 GLOBAL_DATETIME_AFK_DAYS	Ausente desde hace {0} |4(día,días)	
 GLOBAL_DATETIME_AFK_HOURS	Ausente desde hace {0} h	
@@ -203,6 +205,7 @@ GLOBAL_DONE	Listo
 GLOBAL_ENABLE	Habilitar	
 GLOBAL_END_GAME	Finalizar partida	
 GLOBAL_ENTER	Entrar	
+GLOBAL_ERROR	Error	
 GLOBAL_ERROR_ACCOUNT_LICENSES	Ha habido problemas al comprobar tus pertenencias, así que es posible que falte algo. ¡Lo sentimos! Probaremos de nuevo la próxima vez que inicies sesión.	
 GLOBAL_ERROR_ASSET_CREATE_PERSISTENT_DATA_PATH	No se ha podido crear una carpeta para guardar datos en {0}.	0=folder path
 GLOBAL_ERROR_ASSET_DOWNLOAD_FAILED	No se ha podido descargar el elemento {0}.	0=asset name
@@ -278,7 +281,7 @@ GLOBAL_FRIEND_CHALLENGE_BODY2	¿Aceptas?
 GLOBAL_FRIEND_CHALLENGE_DECLINE	Rechazar	
 GLOBAL_FRIEND_CHALLENGE_FIRESIDE_BRAWL_BODY1	Alguien te ha desafiado a una pelea Fireside:	
 GLOBAL_FRIEND_CHALLENGE_HEADER	Desafío	
-GLOBAL_FRIEND_CHALLENGE_NEARBY_PLAYER_NOTE	Puedes desactivar las invitaciones de jugadores cercanos en el menú de opciones.	
+GLOBAL_FRIEND_CHALLENGE_NEARBY_PLAYER_NOTE	Puedes desactivar las invitaciones de jugadores cercanos en la lista de amigos.	
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_CANCELED	{0} ha cancelado el desafío.	0=friend name
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_DECLINED	{0} ha rechazado tu desafío.	0=friend name
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_FRIEND_REMOVED	Desafío cancelado porque {0} ya no es tu amigo.	0=friend name
@@ -390,6 +393,8 @@ GLOBAL_KEYWORD_BATTLECRY	Grito de batalla
 GLOBAL_KEYWORD_BATTLECRY_TEXT	Esta carta hace algo al jugarla desde tu mano.	
 GLOBAL_KEYWORD_BOSS	Jefe	
 GLOBAL_KEYWORD_BOSS_TEXT	Los jugadores colaboran para vencer al jefe.	
+GLOBAL_KEYWORD_CASTS_WHEN_DRAWN	Este hechizo se lanza al robarlo	
+GLOBAL_KEYWORD_CASTS_WHEN_DRAWN_TEXT	Este hechizo se lanza al robarlo y luego roba otra carta.	
 GLOBAL_KEYWORD_CHARGE	Cargar	
 GLOBAL_KEYWORD_CHARGE_TEXT	Puede atacar inmediatamente.	
 GLOBAL_KEYWORD_COMBO	Combo	
@@ -409,6 +414,8 @@ GLOBAL_KEYWORD_ECHO	Eco
 GLOBAL_KEYWORD_ECHO_TEXT	Esta carta se puede volver a usar en el turno en el que la juegas.	
 GLOBAL_KEYWORD_ENRAGED	Enfurecer	
 GLOBAL_KEYWORD_ENRAGED_TEXT	Mientras esté dañado, este esbirro tiene un poder nuevo.	
+GLOBAL_KEYWORD_FLOOPY	Flema Salívez	
+GLOBAL_KEYWORD_FLOOPY_TEXT	Se transforma cuando juegas un esbirro.	
 GLOBAL_KEYWORD_FREEZE	Congelación	
 GLOBAL_KEYWORD_FREEZE_TEXT	Los personajes congelados no pueden atacar durante un turno.	
 GLOBAL_KEYWORD_FROZEN	Congelado	
@@ -579,10 +586,13 @@ GLOBAL_OPTIONS_GRAPHICS_QUALITY_MEDIUM	Media
 GLOBAL_OPTIONS_GRAPHICS_RESOLUTION_LABEL	Resolución	
 GLOBAL_OPTIONS_MISCELLANEOUS_LABEL	Miscelánea	
 GLOBAL_OPTIONS_NEARBY_PLAYERS	Permitir desafiar a jugadores cercanos - Lista de amigos	
+GLOBAL_OPTIONS_OTHER_LABEL	Otras	
 GLOBAL_OPTIONS_PREFERENCES_LABEL	Preferencias	
+GLOBAL_OPTIONS_PRIVACY_POLICY	Política de privacidad	
 GLOBAL_OPTIONS_PUBLIC_CHAT_ENABLED	Chat hostil	
 GLOBAL_OPTIONS_RESTORE_PURCHASES	Restaurar compras	
 GLOBAL_OPTIONS_RESTORE_PURCHASES_POPUP_TEXT	¿No encuentras algo que has comprado? Asegúrate de que estás en la cuenta correcta.	
+GLOBAL_OPTIONS_SKIP_TO_RANK_25	Saltar al rango 25	
 GLOBAL_OPTIONS_SOUND_IN_BACKGROUND	Sonido en segundo plano	
 GLOBAL_OPTIONS_SOUND_LABEL	Sonido	
 GLOBAL_OPTIONS_SOUND_MASTER_VOLUME_LABEL	Volumen general	
@@ -594,6 +604,7 @@ GLOBAL_PLAY_STANDARD	Jugar en estándar
 GLOBAL_PLAY_WILD	Jugar en salvaje	
 GLOBAL_PLAYER_PLAYER	Jugador	this is the word for generic "Player" - this will be used when there a player's name is unknown at the time.
 GLOBAL_PRACTICE_MAX_LEVEL_REACHED	Nivel máximo en modo Práctica	
+GLOBAL_PROGRAMNAME_BLACKOPS4	Black Ops 4	
 GLOBAL_PROGRAMNAME_DESTINY2	Destiny 2	
 GLOBAL_PROGRAMNAME_DIABLO3	Diablo III	
 GLOBAL_PROGRAMNAME_HEARTHSTONE	Hearthstone	
@@ -630,6 +641,7 @@ GLOBAL_RACE_TOTEM	Tótem
 GLOBAL_RACE_TROLL	Trol	
 GLOBAL_RACE_UNDEAD	No-muerto	
 GLOBAL_RACE_WORGEN	Huargen	
+GLOBAL_RANK_PROMOTION_DESC	¡Se te ha ascendido al rango 25!	
 GLOBAL_RANK_SCRUB_RANK_DESC	En este rango no se pierden estrellas.	
 GLOBAL_RANK_WIN_STREAK	Racha de victorias: ¡toma una estrella!	
 GLOBAL_RARITY_COMMON	Común	
@@ -695,6 +707,8 @@ GLOBAL_REWARD_CHEST_TIER4	Baúl del portaescudos
 GLOBAL_REWARD_CHEST_TIER4_EARNED	¡Has ganado el baúl del portaescudos!	
 GLOBAL_REWARD_CHEST_TIER5	Caja del pollo furioso	
 GLOBAL_REWARD_CHEST_TIER5_EARNED	¡Has ganado la caja del pollo furioso!	
+GLOBAL_REWARD_CHEST_TIER6	Envío del contendiente	
+GLOBAL_REWARD_CHEST_TIER6_EARNED	¡Te has ganado el Envío del contendiente!	
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL	{0}	0=first class
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL_DOUBLE	{0} y {1}	0=first class, 1=second class
 GLOBAL_REWARD_CLASS_CHALLENGE_HEADLINE	|4(Desafío de clase desbloqueado,Desafíos de clase desbloqueados)	

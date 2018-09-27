@@ -1,4 +1,4 @@
-﻿TAG	TEXT	COMMENT
+TAG	TEXT	COMMENT
 GLUE_COLLECTION_SEARCH	Search
 GLUE_COLLECTION_DECK_HELP_BUTTON	Deck Helper
 GLUE_COLLECTION_DECK_TEMPLATE_HELP_BUTTON	Replace Cards	
@@ -213,8 +213,8 @@ GLUE_STORE_PRODUCT_DETAILS_HEADLINE_OG_PACK_PRESALE	Whispers of the Old Gods (Pr
 GLUE_STORE_PRODUCT_DETAILS_OG_PACK_PRESALE	•  50 packs and a special card back\n•  Each pack has 5 cards, with at least 1 rare or better\n * Packs openable before May 31, 2016
 GLUE_STORE_PRODUCT_DETAILS_HEADLINE_GORO_PACK_PRESALE	Journey to Un'Goro (Pre-Purchase) includes:
 GLUE_STORE_PRODUCT_DETAILS_GORO_PACK_PRESALE	•  50 packs and a special card back\n•  Each pack has 5 cards, with at least 1 rare or better\n * Packs openable before April 30, 2017
-GLUE_STORE_PRODUCT_DETAILS_FIRST_PURCHASE_BUNDLE	•  10 Classic packs and 1 random Classic class-specific legendary minion\n•  Each pack has 5 cards, with at least 1 Rare or better
-GLUE_STORE_PRODUCT_DETAILS_FIRST_PURCHASE_BUNDLE_DUST	•  10 Dust which also includes: 10 Classic packs and 1 random Classic class-specific legendary minion\n•  Each pack has 5 cards, with at least 1 Rare or better\n•  Dust can be used to craft cards in the Collection Manager
+GLUE_STORE_PRODUCT_DETAILS_FIRST_PURCHASE_BUNDLE	•  10 Classic packs and 1 random Classic Dragon Legendary minion\n•  Each pack has 5 cards, with at least 1 Rare or better
+GLUE_STORE_PRODUCT_DETAILS_FIRST_PURCHASE_BUNDLE_DUST	•  10 Dust which also includes: 10 Classic packs and 1 random Classic Dragon Legendary minion\n•  Each pack has 5 cards, with at least 1 Rare or better\n•  Dust can be used to craft cards in the Collection Manager
 GLUE_STORE_PRODUCT_DETAILS_MAMMOTH_BUNDLE	•  10 Journey to Un'Goro packs\n•  10 Knights of the Frozen Throne packs\n•  10 Kobolds & Catacombs packs\n•  Each pack has 5 cards, with at least 1 Rare or better
 GLUE_STORE_PRODUCT_DETAILS_MAMMOTH_BUNDLE_DUST	30 Dust which also includes:\n•  10 Journey to Un'Goro packs\n•  10 Knights of the Frozen Throne packs\n•  10 Kobolds & Catacombs packs\n•  Each pack has 5 cards, with at least 1 Rare or better
 GLUE_STORE_PRODUCT_DETAILS_HEADLINE_ICC_PACK_PRESALE	Knights of the Frozen Throne (Pre-Purchase) includes:
@@ -359,7 +359,7 @@ GLUE_TOOLTIP_BUTTON_ADVENTURE_HEADLINE	Solo Adventures
 GLUE_TOOLTIP_BUTTON_ADVENTURE_DESC	Embark on adventures or practice against the AI.	
 GLUE_TOOLTIP_BUTTON_FORGE_HEADLINE	The Arena	
 GLUE_TOOLTIP_BUTTON_FORGE_DESC	Forge a deck quickly from random cards.	
-GLUE_TOOLTIP_BUTTON_FORGE_NOT_UNLOCKED	Locked until you unlock every class.
+GLUE_TOOLTIP_BUTTON_FORGE_NOT_UNLOCKED	Locked until you reach level 10 with every class.
 GLUE_TOOLTIP_BUTTON_TAVERN_BRAWL_HEADLINE	Tavern Brawl	
 GLUE_TOOLTIP_BUTTON_TAVERN_BRAWL_DESC	Play a new challenge on a weekly basis.	
 GLUE_TOOLTIP_BUTTON_TAVERN_BRAWL_NOT_UNLOCKED	Locked until you reach level 20 in a class.	
@@ -510,7 +510,7 @@ GLUE_TIP_DEFAULT_16_TOUCH	You can tap your opponent's hero to "Squelch" emotes.
 GLUE_TIP_DEFAULT_17	If you win 500 games in Ranked mode with a class, you'll earn a Golden Hero.	
 GLUE_TIP_DEFAULT_18	You can add friends to your friends list with the button on the bottom left.	
 GLUE_TIP_DEFAULT_18_PHONE	You can add friends to your friends list with the button on the top left.	
-GLUE_TIP_DEFAULT_19	There are 25 different ranks to earn in Ranked Mode, and above those: The "Legend" rank.	
+GLUE_TIP_DEFAULT_19	There are 50 different ranks to earn in Ranked Mode, and above those: The "Legend" rank.	
 GLUE_TIP_DEFAULT_20	Watch a friend play by hitting the "Eye" button in your friends list while they're in a match!	
 GLUE_TIP_DEFAULT_21	Play Hearthstone on the phone, tablet and computer.  Use the same card collection on all three!	
 GLUE_TIP_DEFAULT_22	You can purchase a new hero for your favorite class in the Shop.	
@@ -539,7 +539,7 @@ GLUE_TIP_PLAY_0	You are being matched against a player of your skill.
 GLUE_TIP_PLAY_1	As you win and lose games it will track your skill and match you against a fair opponent.	
 GLUE_TIP_PLAY_2	Each class has 5 different Basic cards you can unlock as you level up.	
 GLUE_TIP_PLAY_3	Complete quests to earn Gold.  Gold can be used to buy packs or enter The Arena.	
-GLUE_TIP_PLAY_4	There are 25 different ranks to earn in Ranked Mode, and above those: The "Legend" rank.	
+GLUE_TIP_PLAY_4	There are 50 different ranks to earn in Ranked Mode, and above those: The "Legend" rank.	
 GLUE_TIP_PLAY_5	Decks can contain two copies of each card, but only one copy of a Legendary card.	
 GLUE_TIP_PLAY_6	The Arena is a great way of earning rewards while playing in a mini competition.	
 GLUE_TIP_PLAY_7	You don’t have to play all of your Arena games at once.	
@@ -897,6 +897,8 @@ GLUE_LOADINGSCREEN_PROGRESS_3	Lighting the hearth
 GLUE_LOADINGSCREEN_PROGRESS_4	Unpacking crates	
 GLUE_LOADINGSCREEN_PROGRESS_5	Rearranging furniture	
 GLUE_LOADINGSCREEN_PROGRESS_6	This may take a while	
+GLUE_LOADINGSCREEN_CHECKING_UNITY_1	Checking version	
+GLUE_LOADINGSCREEN_CHECKING_UNITY_2	Looking for updates	
 GLUE_LOADINGSCREEN_PROGRESS_UNITY_1	Please wait for download	
 GLUE_LOADINGSCREEN_PROGRESS_UNITY_2	Downloading game data	
 GLUE_LOADINGSCREEN_PROGRESS_UNITY_3	Unpacking crates	
@@ -1119,6 +1121,7 @@ GLUE_INKEEPER_RANDOM_CARD_DECK_RECIPE_MAGE	Oh! A Mage Legendary! It's in the Cla
 GLUE_INKEEPER_RANDOM_CARD_DECK_RECIPE_PRIEST	Oh! A Priest Legendary! It's in the Classic recipe. Try building the deck!
 GLUE_INKEEPER_RANDOM_CARD_DECK_RECIPE_WARLOCK	Oh! A Warlock Legendary! It's in the Classic recipe. Try building the deck!
 GLUE_STORE_RANDOM_CLASS_LEGENDARY	Random Class Legendary
+GLUE_STORE_RANDOM_DRAGON_LEGENDARY	Random Classic Dragon Legendary
 GLUE_HEROIC_BRAWL_INTRO	This week's brawl is for\nour most experienced players.\nYour skill and collection will matter!
 GLUE_HEROIC_BRAWL_REWARDS_DESCRIPTION	To the winner goes the spoils!  More wins means more rewards.\n12 wins for maximum glory. 3 losses end your run.
 GLUE_HEROIC_BRAWL_MIN_WINS	0 wins
@@ -1292,6 +1295,10 @@ GLUE_RETURNINGPLAYERPOPUP_MESSAGE	If you skip the Innkeeper challenge you won't 
 GLUE_RETURNINGPLAYER_QUESTDESCRIPTION	Defeat all three challengers to earn your reward!
 GLUE_RETURNINGPLAYER_QUESTTITLE	Return of the Hero
 GLUE_RETURNINGPLAYER_RETIRE_BUTTON_TEXT	Retire
+GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_TITLE	Are you sure?
+GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_DESCRIPTION	If you skip to Rank 25, not only will you face tougher opponents,\nyou'll miss out on the rewards along the way!
+GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_CONFIRM	Miss out!
+GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_CANCEL	Cancel
 GLUE_DRAFT_REMOVE_GOLDENS_DIALOG_TITLE	Turn Off Goldens
 GLUE_DRAFT_REMOVE_GOLDENS_DIALOG_BODY	Turn off Golden cards for this Arena Run?
 GLUE_DEVICE_PERFORMANCE_WARNING_TITLE	Device Performance
@@ -1365,3 +1372,7 @@ GLUE_BRAWLISEUM_RETIRE_CONFIRM_DESC	This will end your Tavern Brawl run! Are you
 GLUE_STORE_PACKBUY_LIMITED_TIME	Limited Time
 GLUE_STORE_LIMITED_TIME_OFFER	Limited Time Offer!
 GLUE_STORE_BONUS_PACKS	Get {0} bonus |4(pack,packs) for a limited time!	0 = number of bonus packs
+GLUE_NEW_PLAYER_AVAILABLE_AT_RANK_25	Available at Rank 25.
+GLUE_NEW_PLAYER_PROMOTION_CHEST_HEADER	Rank {0}!
+GLUE_NEW_PLAYER_PROMOTION_CHEST_DESC	Congratulations! You are now\nofficially a veteran.\n\nTougher opponents await!
+GLUE_NEW_PLAYER_PROMOTION_CHEST_DESC_HUB	Rewards for reaching Rank 25

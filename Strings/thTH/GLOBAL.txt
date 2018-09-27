@@ -51,6 +51,7 @@ GLOBAL_ASSET_DOWNLOAD_MEGABYTE_SYMBOL	MB
 GLOBAL_ASSET_DOWNLOAD_PAUSED	หยุดชั่วคราว	
 GLOBAL_ASSET_DOWNLOAD_SETTINGS	การตั้งค่า	
 GLOBAL_ASSET_DOWNLOAD_STATUS	เหลืออีก {0} @ {1}/วิ	
+GLOBAL_ASSET_DOWNLOAD_STATUS_DECIMAL_FORMAT	{0}.{1} {2}	
 GLOBAL_ASSET_DOWNLOAD_STATUS_SHORT	{0} @ {1}/วิ	
 GLOBAL_ASSET_INTENTION_DONE	เสร็จสิ้น	
 GLOBAL_ASSET_INTENTION_DOWNLOADING_HIGH_RES_PORTRAITS	ภาพการ์ดความละเอียดสูง	
@@ -146,6 +147,7 @@ GLOBAL_COST	ค่าร่าย
 GLOBAL_CREATE	สร้าง	
 GLOBAL_CURRENT_DATE	{0:MM/dd/yy}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
 GLOBAL_CURRENT_TIME	{0:h:mm}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
+GLOBAL_CURRENT_TIME_AND_DATE_DEV	{0} ({1} - {2})	
 GLOBAL_DATETIME_AFK_DAY	ไม่อยู่หน้าจอนานกว่าหนึ่งวัน	
 GLOBAL_DATETIME_AFK_DAYS	ไม่อยู่หน้าจอนาน {0} วัน	
 GLOBAL_DATETIME_AFK_HOURS	ไม่อยู่หน้าจอนาน {0} ชั่วโมง	
@@ -203,6 +205,7 @@ GLOBAL_DONE	เสร็จสิ้น
 GLOBAL_ENABLE	เปิด	
 GLOBAL_END_GAME	จบเกม	
 GLOBAL_ENTER	เข้าเล่น	
+GLOBAL_ERROR	ข้อผิดพลาด	
 GLOBAL_ERROR_ACCOUNT_LICENSES	เราพบปัญหาในการตรวจสอบสิ่งที่คุณเป็นเจ้าของ อาจมีอะไรบางอย่างหายไป ขออภัยด้วย! เราจะลองอีกครั้งในครั้งถัดไปที่คุณล็อกอิน	
 GLOBAL_ERROR_ASSET_CREATE_PERSISTENT_DATA_PATH	ไม่สามารถสร้างโฟลเดอร์เพื่อบันทึกข้อมูลที่ {0} ได้	0=folder path
 GLOBAL_ERROR_ASSET_DOWNLOAD_FAILED	ไม่สามารถดาวน์โหลดแอสเซ็ท {0}	0=asset name
@@ -278,7 +281,7 @@ GLOBAL_FRIEND_CHALLENGE_BODY2	ยอมรับคำท้าหรือไ�
 GLOBAL_FRIEND_CHALLENGE_DECLINE	ปฏิเสธ	
 GLOBAL_FRIEND_CHALLENGE_FIRESIDE_BRAWL_BODY1	คุณได้รับคำท้าให้เล่นเกมท้าประลอง Fireside โดย:	
 GLOBAL_FRIEND_CHALLENGE_HEADER	ท้าแข่ง	
-GLOBAL_FRIEND_CHALLENGE_NEARBY_PLAYER_NOTE	คุณสามารถปิดการเชิญจากผู้เล่นที่อยู่ใกล้ๆ ได้ในเมนูตัวเลือก	
+GLOBAL_FRIEND_CHALLENGE_NEARBY_PLAYER_NOTE	คุณสามารถปิดการเชิญจากผู้เล่นที่อยู่ใกล้ๆ ได้ในรายชื่อเพื่อน	
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_CANCELED	{0} ยกเลิกคำท้า	0=friend name
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_DECLINED	{0} ปฏิเสธคำท้าของคุณ	0=friend name
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_FRIEND_REMOVED	คำท้าถูกยกเลิกเนื่องจาก {0} ไม่ได้เป็นเพื่อนของคุณอีกต่อไป	0=friend name
@@ -390,6 +393,8 @@ GLOBAL_KEYWORD_BATTLECRY	คำรามสู้ศึก
 GLOBAL_KEYWORD_BATTLECRY_TEXT	ใช้ความสามารถเมื่อคุณ[b]เล่นการ์ดใบนี้จากมือ	
 GLOBAL_KEYWORD_BOSS	บอส	
 GLOBAL_KEYWORD_BOSS_TEXT	ผู้เล่นร่วมมือกันต่อสู้\nเพื่อเอาชนะบอส	
+GLOBAL_KEYWORD_CASTS_WHEN_DRAWN	ร่ายเมื่อจั่วได้	
+GLOBAL_KEYWORD_CASTS_WHEN_DRAWN_TEXT	ร่ายการ์ดนี้เมื่อจั่วได้ จากนั้นจั่วการ์ดอีกใบ	
 GLOBAL_KEYWORD_CHARGE	บุกทะลวง	
 GLOBAL_KEYWORD_CHARGE_TEXT	โจมตีได้ทันที	
 GLOBAL_KEYWORD_COMBO	คอมโบ	
@@ -409,6 +414,8 @@ GLOBAL_KEYWORD_ECHO	เสียงสะท้อน
 GLOBAL_KEYWORD_ECHO_TEXT	ใช้ซ้ำได้ในเทิร์น[b]ที่คุณเล่นการ์ดนี้	
 GLOBAL_KEYWORD_ENRAGED	บ้าคลั่ง	
 GLOBAL_KEYWORD_ENRAGED_TEXT	มินเนี่ยนตัวนี้จะมีพลังใหม่[b]เมื่อได้รับความเสียหาย	
+GLOBAL_KEYWORD_FLOOPY	ฟลอบบิดินัส ฟลู๊ป	
+GLOBAL_KEYWORD_FLOOPY_TEXT	เปลี่ยนร่างเมื่อคุณเล่นมินเนี่ยน	
 GLOBAL_KEYWORD_FREEZE	แช่แข็ง	
 GLOBAL_KEYWORD_FREEZE_TEXT	ตัวละครที่ถูกแช่แข็งจะสูญเสีย[b]การโจมตีครั้งถัดไป	
 GLOBAL_KEYWORD_FROZEN	ถูกแช่แข็ง	
@@ -579,10 +586,13 @@ GLOBAL_OPTIONS_GRAPHICS_QUALITY_MEDIUM	ปานกลาง
 GLOBAL_OPTIONS_GRAPHICS_RESOLUTION_LABEL	ความละเอียด	
 GLOBAL_OPTIONS_MISCELLANEOUS_LABEL	เบ็ดเตล็ด	
 GLOBAL_OPTIONS_NEARBY_PLAYERS	เปิดการท้าแข่งกับผู้เล่นที่อยู่ใกล้ - รายชื่อเพื่อน	
+GLOBAL_OPTIONS_OTHER_LABEL	อื่นๆ	
 GLOBAL_OPTIONS_PREFERENCES_LABEL	การตั้งค่าส่วนตัว	
+GLOBAL_OPTIONS_PRIVACY_POLICY	นโยบายความเป็นส่วนตัว	
 GLOBAL_OPTIONS_PUBLIC_CHAT_ENABLED	การแชทที่ไม่สุภาพ	
 GLOBAL_OPTIONS_RESTORE_PURCHASES	กู้คืนการซื้อ	
 GLOBAL_OPTIONS_RESTORE_PURCHASES_POPUP_TEXT	หาสิ่งที่คุณซื้อไม่เจองั้นเหรอ ลองดูให้แน่ใจว่าคุณเข้าสู่ระบบถูกบัญชีแล้ว	
+GLOBAL_OPTIONS_SKIP_TO_RANK_25	ข้ามไประดับ 25	
 GLOBAL_OPTIONS_SOUND_IN_BACKGROUND	เล่นเสียงขณะย่อหน้าต่าง	
 GLOBAL_OPTIONS_SOUND_LABEL	เสียง	
 GLOBAL_OPTIONS_SOUND_MASTER_VOLUME_LABEL	ระดับเสียงหลัก	
@@ -594,6 +604,7 @@ GLOBAL_PLAY_STANDARD	เล่นมาตรฐาน
 GLOBAL_PLAY_WILD	เล่นอิสระ	
 GLOBAL_PLAYER_PLAYER	ผู้เล่น	this is the word for generic "Player" - this will be used when there a player's name is unknown at the time.
 GLOBAL_PRACTICE_MAX_LEVEL_REACHED	เลเวลการฝึกฝนสูงสุด	
+GLOBAL_PROGRAMNAME_BLACKOPS4	Black Ops 4	
 GLOBAL_PROGRAMNAME_DESTINY2	Destiny 2	
 GLOBAL_PROGRAMNAME_DIABLO3	Diablo III	
 GLOBAL_PROGRAMNAME_HEARTHSTONE	Hearthstone	
@@ -630,6 +641,7 @@ GLOBAL_RACE_TOTEM	โทเท็ม
 GLOBAL_RACE_TROLL	โทรลล์	
 GLOBAL_RACE_UNDEAD	อันเดด	
 GLOBAL_RACE_WORGEN	วอร์เก้น	
+GLOBAL_RANK_PROMOTION_DESC	คุณได้รับการเลื่อนขั้นเป็นระดับ 25 แล้ว!	
 GLOBAL_RANK_SCRUB_RANK_DESC	คุณจะไม่เสียดาวในระดับนี้	
 GLOBAL_RANK_WIN_STREAK	ชนะต่อเนื่อง - ได้รับดาวโบนัส!	
 GLOBAL_RARITY_COMMON	ทั่วไป	
@@ -695,6 +707,8 @@ GLOBAL_REWARD_CHEST_TIER4	กล่องสมบัติของพลโล
 GLOBAL_REWARD_CHEST_TIER4_EARNED	คุณได้รับกล่องสมบัติของพลโล่!	
 GLOBAL_REWARD_CHEST_TIER5	กล่องไก่พิโรธ	
 GLOBAL_REWARD_CHEST_TIER5_EARNED	คุณได้รับกล่องไก่พิโรธ!	
+GLOBAL_REWARD_CHEST_TIER6	พัสดุของลูกค้า	
+GLOBAL_REWARD_CHEST_TIER6_EARNED	ได้รับพัสดุของลูกค้า!	
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL	{0}	0=first class
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL_DOUBLE	{0} และ {1}	0=first class, 1=second class
 GLOBAL_REWARD_CLASS_CHALLENGE_HEADLINE	การทดสอบคลาสปลดล็อคแล้ว	

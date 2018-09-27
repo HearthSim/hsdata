@@ -51,6 +51,7 @@ GLOBAL_ASSET_DOWNLOAD_MEGABYTE_SYMBOL	МБ
 GLOBAL_ASSET_DOWNLOAD_PAUSED	Приостановлено	
 GLOBAL_ASSET_DOWNLOAD_SETTINGS	Настройки	
 GLOBAL_ASSET_DOWNLOAD_STATUS	Осталось {0} (скорость: {1}/сек.)	
+GLOBAL_ASSET_DOWNLOAD_STATUS_DECIMAL_FORMAT	{0},{1} {2}	
 GLOBAL_ASSET_DOWNLOAD_STATUS_SHORT	{0} (скорость: {1}/сек.)	
 GLOBAL_ASSET_INTENTION_DONE	Готово	
 GLOBAL_ASSET_INTENTION_DOWNLOADING_HIGH_RES_PORTRAITS	Карты в HD	
@@ -146,6 +147,7 @@ GLOBAL_COST	Стоимость
 GLOBAL_CREATE	Создать	
 GLOBAL_CURRENT_DATE	{0:dd.MM.yyyy}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
 GLOBAL_CURRENT_TIME	{0:HH:mm}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
+GLOBAL_CURRENT_TIME_AND_DATE_DEV	{0} ({1} - {2})	
 GLOBAL_DATETIME_AFK_DAY	Отсутствует больше дня	
 GLOBAL_DATETIME_AFK_DAYS	Отсутствует {0} дн.	
 GLOBAL_DATETIME_AFK_HOURS	Отсутствует {0} ч.	
@@ -203,6 +205,7 @@ GLOBAL_DONE	Готово
 GLOBAL_ENABLE	Включить	
 GLOBAL_END_GAME	Конец игры	
 GLOBAL_ENTER	Войти	
+GLOBAL_ERROR	Ошибка	
 GLOBAL_ERROR_ACCOUNT_LICENSES	Примите наши извинения. Мы не смогли определить список ваших приобретений, поэтому чего-то может не хватать. При вашем следующем входе в игру мы постараемся все исправить.	
 GLOBAL_ERROR_ASSET_CREATE_PERSISTENT_DATA_PATH	Не удалось создать папку для сохранения данных: {0}.	0=folder path
 GLOBAL_ERROR_ASSET_DOWNLOAD_FAILED	Не удалось загрузить ресурс {0}.	0=asset name
@@ -278,7 +281,7 @@ GLOBAL_FRIEND_CHALLENGE_BODY2	Вы принимаете вызов?
 GLOBAL_FRIEND_CHALLENGE_DECLINE	Отклонить	
 GLOBAL_FRIEND_CHALLENGE_FIRESIDE_BRAWL_BODY1	Вы получили вызов на Fireside-потасовку от	
 GLOBAL_FRIEND_CHALLENGE_HEADER	Вызов	
-GLOBAL_FRIEND_CHALLENGE_NEARBY_PLAYER_NOTE	В меню настроек можно отключить приглашения от находящихся рядом игроков.	
+GLOBAL_FRIEND_CHALLENGE_NEARBY_PLAYER_NOTE	В списке друзей можно отключить приглашения от находящихся рядом игроков.	
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_CANCELED	{0} отменяет вызов.	0=friend name
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_DECLINED	{0} отклоняет ваш вызов.	0=friend name
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_FRIEND_REMOVED	Вызов отменен, поскольку {0} больше не находится в вашем списке друзей.	0=friend name
@@ -390,6 +393,8 @@ GLOBAL_KEYWORD_BATTLECRY	Боевой клич
 GLOBAL_KEYWORD_BATTLECRY_TEXT	Дополнительный эффект при разыгрывании карты из руки.	
 GLOBAL_KEYWORD_BOSS	Босс	
 GLOBAL_KEYWORD_BOSS_TEXT	Игроки сражаются вместе, чтобы одержать победу над боссом.	
+GLOBAL_KEYWORD_CASTS_WHEN_DRAWN	При взятии	
+GLOBAL_KEYWORD_CASTS_WHEN_DRAWN_TEXT	Вы разыгрываете эту карту, когда берете ее из колоды, а затем берете еще одну карту.	
 GLOBAL_KEYWORD_CHARGE	Рывок	
 GLOBAL_KEYWORD_CHARGE_TEXT	Может атаковать сразу после выхода на поле боя.	
 GLOBAL_KEYWORD_COMBO	Серия приемов	
@@ -409,6 +414,8 @@ GLOBAL_KEYWORD_ECHO	Эхо
 GLOBAL_KEYWORD_ECHO_TEXT	Можно разыгрывать несколько раз за один ход.	
 GLOBAL_KEYWORD_ENRAGED	Исступление	
 GLOBAL_KEYWORD_ENRAGED_TEXT	Пока у этого существа неполное здоровье, оно обладает новой способностью.	
+GLOBAL_KEYWORD_FLOOPY	Ухлюпистый Хлюп	
+GLOBAL_KEYWORD_FLOOPY_TEXT	Превращается, когда вы разыгрываете существо.	
 GLOBAL_KEYWORD_FREEZE	Заморозка	
 GLOBAL_KEYWORD_FREEZE_TEXT	Замороженные персонажи не могут атаковать в следующий ход.	
 GLOBAL_KEYWORD_FROZEN	Под действием заморозки	
@@ -579,10 +586,13 @@ GLOBAL_OPTIONS_GRAPHICS_QUALITY_MEDIUM	Среднее
 GLOBAL_OPTIONS_GRAPHICS_RESOLUTION_LABEL	Разрешение	
 GLOBAL_OPTIONS_MISCELLANEOUS_LABEL	Разное	
 GLOBAL_OPTIONS_NEARBY_PLAYERS	Возможность бросать вызов игрокам рядом с вами – список друзей	
+GLOBAL_OPTIONS_OTHER_LABEL	Другое	
 GLOBAL_OPTIONS_PREFERENCES_LABEL	Параметры	
+GLOBAL_OPTIONS_PRIVACY_POLICY	О конфиденциальности	
 GLOBAL_OPTIONS_PUBLIC_CHAT_ENABLED	Общий чат	
 GLOBAL_OPTIONS_RESTORE_PURCHASES	Восстановить покупки	
 GLOBAL_OPTIONS_RESTORE_PURCHASES_POPUP_TEXT	Не находите своих покупок? Убедитесь, что ввели данные верной учетной записи.	
+GLOBAL_OPTIONS_SKIP_TO_RANK_25	К 25-му рангу	
 GLOBAL_OPTIONS_SOUND_IN_BACKGROUND	Фоновый режим	
 GLOBAL_OPTIONS_SOUND_LABEL	Звук	
 GLOBAL_OPTIONS_SOUND_MASTER_VOLUME_LABEL	Общая громкость	
@@ -594,6 +604,7 @@ GLOBAL_PLAY_STANDARD	Стандартная игра
 GLOBAL_PLAY_WILD	Вольная игра	
 GLOBAL_PLAYER_PLAYER	Игрок	this is the word for generic "Player" - this will be used when there a player's name is unknown at the time.
 GLOBAL_PRACTICE_MAX_LEVEL_REACHED	Макс. уровень тренировки	
+GLOBAL_PROGRAMNAME_BLACKOPS4	Black Ops 4	
 GLOBAL_PROGRAMNAME_DESTINY2	Destiny 2	
 GLOBAL_PROGRAMNAME_DIABLO3	Diablo III	
 GLOBAL_PROGRAMNAME_HEARTHSTONE	Hearthstone	
@@ -630,6 +641,7 @@ GLOBAL_RACE_TOTEM	Тотем
 GLOBAL_RACE_TROLL	Тролль	
 GLOBAL_RACE_UNDEAD	Нежить	
 GLOBAL_RACE_WORGEN	Ворген	
+GLOBAL_RANK_PROMOTION_DESC	Вы получили 25-й ранг!	
 GLOBAL_RANK_SCRUB_RANK_DESC	На этом ранге вы не теряете звезды.	
 GLOBAL_RANK_WIN_STREAK	Дополнительная звезда за победную серию!	
 GLOBAL_RARITY_COMMON	Обычная	
@@ -695,6 +707,8 @@ GLOBAL_REWARD_CHEST_TIER4	Сундучок щитоносца
 GLOBAL_REWARD_CHEST_TIER4_EARNED	Вы получили сундучок щитоносца!	
 GLOBAL_REWARD_CHEST_TIER5	Ящик злой курицы	
 GLOBAL_REWARD_CHEST_TIER5_EARNED	Вы получили ящик злой курицы!	
+GLOBAL_REWARD_CHEST_TIER6	Посылка завсегдатая	
+GLOBAL_REWARD_CHEST_TIER6_EARNED	Вы получили посылку завсегдатая!	
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL	{0}	0=first class
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL_DOUBLE	{0} и {1}	0=first class, 1=second class
 GLOBAL_REWARD_CLASS_CHALLENGE_HEADLINE	Доступно: |4(новое классовоe испытание,новые классовые испытания,новые классовые испытания)	
