@@ -19,6 +19,8 @@ GLUE_ADVENTURE_DUNGEON_CRAWL_BOSS_WINS	Jefes derrotados
 GLUE_ADVENTURE_DUNGEON_CRAWL_BOSS_WINS_AS_CLASS	Jefes derrotados como {0}	0 = Class name
 GLUE_ADVENTURE_DUNGEON_CRAWL_CHALLENGE_COUNT	Desafío {0}/{1}	
 GLUE_ADVENTURE_DUNGEON_CRAWL_CHOOSE_LOOT	¡Elige tu botín!	
+GLUE_ADVENTURE_DUNGEON_CRAWL_CHOOSE_SHRINE	Elige un santuario inicial	
+GLUE_ADVENTURE_DUNGEON_CRAWL_CHOOSE_TEAMMATE	¡Elige un compañero!	
 GLUE_ADVENTURE_DUNGEON_CRAWL_CHOOSE_TREASURE	¡Elige un tesoro!	
 GLUE_ADVENTURE_DUNGEON_CRAWL_DEFEATED_COUNT	¡{0}/{1} |4(derrotado,derrotados)!	
 GLUE_ADVENTURE_DUNGEON_CRAWL_FINAL_CHALLENGE_BANNER_BUTTON	¡Vamos!	
@@ -26,9 +28,15 @@ GLUE_ADVENTURE_DUNGEON_CRAWL_HERO_INFO	Información de héroe
 GLUE_ADVENTURE_DUNGEON_CRAWL_INTRO_BANNER_BUTTON	¡Vamos!	
 GLUE_ADVENTURE_DUNGEON_CRAWL_INTRO_BANNER_GIL_HEADER	¡Se buscan cazadores de monstruos!	
 GLUE_ADVENTURE_DUNGEON_CRAWL_INTRO_BANNER_HEADER	¡Se buscan aventureros!	
+GLUE_ADVENTURE_DUNGEON_CRAWL_INTRO_BANNER_TRL_HEADER	¡Se buscan campeones!	
 GLUE_ADVENTURE_DUNGEON_CRAWL_MONSTERS_DEFEATED	Monstruos derrotados	
 GLUE_ADVENTURE_DUNGEON_CRAWL_MONSTERS_DEFEATED_AS_CLASS	Monstruos derrotados como {0}	0 = Class name
+GLUE_ADVENTURE_DUNGEON_CRAWL_RUMBLE_RUN_WINS	Rondas_completadas	
 GLUE_ADVENTURE_DUNGEON_CRAWL_RUN_WINS	Calabozos completados	
+GLUE_ADVENTURE_DUNGEON_CRAWL_SHRINE_TUTORIAL_BODY	Los santuarios empiezan en el tablero.\n\nSon muy poderosos, y en lugar de morir, quedan dormidos.	
+GLUE_ADVENTURE_DUNGEON_CRAWL_SHRINE_TUTORIAL_HEADER	Santuarios	
+GLUE_ADVENTURE_DUNGEON_CRAWL_TEAMS_DEFEATED	Equipos vencidos	
+GLUE_ADVENTURE_DUNGEON_CRAWL_UPGRADE_SHRINE	¡Mejora tu santuario!	
 GLUE_ADVENTURE_ICC_FROZEN_THRONE_WING_LOCKED	¡Completa la Parte superior!	
 GLUE_ADVENTURE_ICC_LOWER_CITADEL_DIFFICULTY_WARNING	Advertencia: ¡Es posible que los esbirros del Rey Exánime sean más difíciles que los enemigos anteriores!	
 GLUE_ADVENTURE_ICC_LOWER_CITADEL_WING_LOCKED	¡Completa El prólogo!	
@@ -1065,7 +1073,7 @@ GLUE_STORE_PACKBUY_SUGGESTION	Recomendado
 GLUE_STORE_PACKS_BUTTON_PREORDER_TEXT	Precompra {0} paquetes	0=number of packs
 GLUE_STORE_PACKS_LATEST_EXPANSION	Expansión actual	
 GLUE_STORE_PACKS_PREORDER_TEXT	Precomprar	
-GLUE_STORE_PAYMENT_INFO_DETAILS	Los fondos se descontarán de tu saldo de Blizzard. Si el saldo no es suficiente, se utilizará el método de pago principal que has especificado en tu cuenta de Blizzard. Necesitas una cuenta de Blizzard para realizar compras dentro de la aplicación con dinero real.\n\nIMPORTANTE: Ten en cuenta que si se produce un cargo revertido o algún otro problema con los pagos, es posible que se suspenda temporalmente la cuenta de Hearthstone hasta que se solucionen los problemas o vuelva a pagarse el cargo revertido.	
+GLUE_STORE_PAYMENT_INFO_DETAILS	Necesitas una cuenta de Blizzard para realizar compras dentro de la aplicación con dinero real.\n\nIMPORTANTE: Ten en cuenta que si se produce un cargo revertido o algún otro problema con los pagos, es posible que se suspenda temporalmente la cuenta de Hearthstone hasta que se solucionen los problemas o vuelva a pagarse el cargo revertido.	
 GLUE_STORE_PAYMENT_INFO_HEADLINE	Información de producto	
 GLUE_STORE_PAYMENT_INFO_URL_DETAILS	Presiona "{0}" para ver más información sobre la probabilidad de obtención de cartas según su rareza y los detalles de la compra.	
 GLUE_STORE_PRE_PURCHASE_HAS_ENDED	Las reservas para este producto ya no están disponibles.	
@@ -1248,6 +1256,16 @@ GLUE_TIP_ADVENTURE_LOOT_6	Crea tu mazo en función de los tesoros que encuentras
 GLUE_TIP_ADVENTURE_LOOT_7	Las nueve clases tienen diferentes opciones de botín para hacer frente al calabozo.	
 GLUE_TIP_ADVENTURE_LOOT_8	¡Derrota al calabozo entero con las nueve clases para desbloquear un dorso de carta único!	
 GLUE_TIP_ADVENTURE_LOOT_9	El Amuleto de dominación agrega esbirros a tu mazo. ¡Úsalo con inteligencia!	
+GLUE_TIP_ADVENTURE_TRL_0	Los campeones que enfrentes\nserán cada vez más difíciles.	
+GLUE_TIP_ADVENTURE_TRL_1	¡Aprende fortalezas\ny debilidades de otros campeones!	
+GLUE_TIP_ADVENTURE_TRL_2	No descuides tu santuario.\nSi lo pierdes, tu poder disminuirá.	
+GLUE_TIP_ADVENTURE_TRL_3	Algunos compañeros comienzan en tu mano\nal principio de la partida.	
+GLUE_TIP_ADVENTURE_TRL_4	Juega a la defensiva cuando tu santuario esté dormido. Espera el momento oportuno.	
+GLUE_TIP_ADVENTURE_TRL_5	Tu enemigo es débil sin su santuario.\n¡Derríbalo cuanto antes!	
+GLUE_TIP_ADVENTURE_TRL_6	Cada equipo tiene tres santuarios únicos\ny seis compañeros únicos.	
+GLUE_TIP_ADVENTURE_TRL_7	¡Crea un mazo versátil!\nDepender de una sola estrategia nunca es buena idea.	
+GLUE_TIP_ADVENTURE_TRL_8	Elige compañeros que complementen\ntu santuario… ¡o anulen sus debilidades!	
+GLUE_TIP_ADVENTURE_TRL_9	Si te derrotan,\ntendrás que empezar desde el principio.	
 GLUE_TIP_DEFAULT_0	Puedes comprar paquetes de cartas adicionales en la tienda.	
 GLUE_TIP_DEFAULT_1	Cuando editas un mazo, puedes hacer clic sobre tu héroe para cambiar el nombre del mazo.	
 GLUE_TIP_DEFAULT_1_TOUCH	Cuando editas un mazo, puedes tocar a tu héroe para cambiar el nombre del mazo.	
@@ -1360,6 +1378,24 @@ GLUE_TOURNAMENT_SWITCH_TO_WILD	Puedes cambiar a salvaje aquí
 GLUE_TOURNAMENT_UNRANKED_DESC	En el modo sin clasificar tu clasificación de habilidad es independiente y no puedes obtener medallas.	
 GLUE_TOURNAMENT_UNRANKED_MODE	Modo sin clasificar	
 GLUE_TOURNAMENT_WILD_DESC	Se pueden usar todas las cartas.	
+GLUE_TRL_LOADING_BAR_TASK_1	Haciendo la ola	
+GLUE_TRL_LOADING_BAR_TASK_10	Encendiendo pirotecnia	
+GLUE_TRL_LOADING_BAR_TASK_11	Cepillando colmillos	
+GLUE_TRL_LOADING_BAR_TASK_12	Aplicando pintura de guerra	
+GLUE_TRL_LOADING_BAR_TASK_13	Revendiendo boletos	
+GLUE_TRL_LOADING_BAR_TASK_14	Comiendo nachos	
+GLUE_TRL_LOADING_BAR_TASK_15	Pisoteando pies	
+GLUE_TRL_LOADING_BAR_TASK_16	Entusiasmándose	
+GLUE_TRL_LOADING_BAR_TASK_17	Alentando con todo	
+GLUE_TRL_LOADING_BAR_TASK_18	Acusando	
+GLUE_TRL_LOADING_BAR_TASK_2	Afilando armas	
+GLUE_TRL_LOADING_BAR_TASK_3	Tocando los tambores	
+GLUE_TRL_LOADING_BAR_TASK_4	Burlándose del rival	
+GLUE_TRL_LOADING_BAR_TASK_5	Enseñando sus músculos	
+GLUE_TRL_LOADING_BAR_TASK_6	Firmando autógrafos	
+GLUE_TRL_LOADING_BAR_TASK_7	Arrojando sillas	
+GLUE_TRL_LOADING_BAR_TASK_8	Celebrando con el público	
+GLUE_TRL_LOADING_BAR_TASK_9	Destrozando el lugar	
 GLUE_UNRELIABLE_GPU_WARNING	Este dispositivo no cuenta con un hardware de gráficos compatible, por lo que es posible que Hearthstone tenga problemas gráficos y/o de funcionamiento.\n\nToca Asistencia para obtener más información.	
 GLUE_UNRELIABLE_GPU_WARNING_TITLE	Dispositivo gráfico	
 GLUE_VIEW_DECK	Ver mazo	
