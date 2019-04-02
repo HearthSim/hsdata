@@ -48,6 +48,8 @@ GLOBAL_ASSET_DOWNLOAD_ERROR_DOWNLOAD_DISABLED	การดาวน์โหล�
 GLOBAL_ASSET_DOWNLOAD_ERROR_OUT_OF_STORAGE	พื้นที่เก็บข้อมูลเต็มแล้ว	
 GLOBAL_ASSET_DOWNLOAD_GIGABYTE_SYMBOL	GB	
 GLOBAL_ASSET_DOWNLOAD_INTENTION_PAUSED	(หยุดชั่วคราว)	
+GLOBAL_ASSET_DOWNLOAD_IOS_REQ_POPUP_BODY	ข้อมูลพร้อมดาวน์โหลด ต้องการดาวน์โหลด {0} ที่เหลือหรือไม่	
+GLOBAL_ASSET_DOWNLOAD_IOS_REQ_POPUP_HEADER	ข้อมูลเพิ่มเติม	
 GLOBAL_ASSET_DOWNLOAD_KILOBYTE_SYMBOL	KB	
 GLOBAL_ASSET_DOWNLOAD_MEGABYTE_SYMBOL	MB	
 GLOBAL_ASSET_DOWNLOAD_PAUSED	หยุดชั่วคราว	
@@ -83,6 +85,9 @@ GLOBAL_CARD_SET_BOOMSDAY_SHORT	Boomsday
 GLOBAL_CARD_SET_BRM	Blackrock Mountain	
 GLOBAL_CARD_SET_BRM_SEARCHABLE_SHORTHAND_NAMES	brm	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_CORE	พื้นฐาน	
+GLOBAL_CARD_SET_DALARAN	Rise of Shadows	
+GLOBAL_CARD_SET_DALARAN_SEARCHABLE_SHORTHAND_NAMES	ros	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_DALARAN_SHORT	Rise of Shadows	
 GLOBAL_CARD_SET_DEBUG	Slush	
 GLOBAL_CARD_SET_EXPERT1	คลาสสิค	
 GLOBAL_CARD_SET_GANGS	Mean Streets of Gadgetzan	
@@ -220,10 +225,10 @@ GLOBAL_ENTER	เข้าเล่น
 GLOBAL_ERROR	ข้อผิดพลาด	
 GLOBAL_ERROR_ACCOUNT_LICENSES	เราพบปัญหาในการตรวจสอบสิ่งที่คุณเป็นเจ้าของ อาจมีอะไรบางอย่างหายไป ขออภัยด้วย! เราจะลองอีกครั้งในครั้งถัดไปที่คุณล็อกอิน	
 GLOBAL_ERROR_ASSET_CREATE_PERSISTENT_DATA_PATH	ไม่สามารถสร้างโฟลเดอร์เพื่อบันทึกข้อมูลที่ {0} ได้	0=folder path
-GLOBAL_ERROR_ASSET_DOWNLOAD_FAILED	ไม่สามารถดาวน์โหลดแอสเซ็ท {0}	0=asset name
-GLOBAL_ERROR_ASSET_INCORRECT_DATA	แอสเซ็ท {0} มีข้อมูลที่ไม่ถูกต้อง	0=asset name
-GLOBAL_ERROR_ASSET_LOAD_FAILED	ไม่สามารถดาวน์โหลดแอสเซ็ท {0}	0=asset name
-GLOBAL_ERROR_ASSET_NO_FILE_PATH	ไม่พบเส้นทางไฟล์สำหรับแอสเซ็ท {0}	0=asset name
+GLOBAL_ERROR_ASSET_DOWNLOAD_FAILED	ไม่สามารถดาวน์โหลดข้อมูลเกม {0}	0=asset name
+GLOBAL_ERROR_ASSET_INCORRECT_DATA	มีข้อมูลเกม {0} ที่ไม่ถูกต้อง	0=asset name
+GLOBAL_ERROR_ASSET_LOAD_FAILED	ไม่สามารถดาวน์โหลดข้อมูลเกม {0}	0=asset name
+GLOBAL_ERROR_ASSET_NO_FILE_PATH	ไม่พบเส้นทางไฟล์สำหรับข้อมูลเกม {0}	0=asset name
 GLOBAL_ERROR_CURRENCY_INVALID	ลูกค้าพยายามใช้สกุลเงินที่ไม่ถูกต้องในการซื้อสินค้า	
 GLOBAL_ERROR_FIND_GAME_SCENARIO_INCORRECT_NUM_PLAYERS	เกิดข้อผิดพลาดในการเริ่มเกม สถานการณ์มีจำนวนผู้เล่นไม่ตรงกับที่คาดไว้	
 GLOBAL_ERROR_FIND_GAME_SCENARIO_MISCONFIGURED	เกิดข้อผิดพลาดในการเริ่มเกม ข้อมูลสถานการณ์ได้รับการกำหนดค่าอย่างไม่ถูกต้อง	
@@ -256,7 +261,7 @@ GLOBAL_ERROR_NETWORK_UNAVAILABLE_UNKNOWN	ขอโทษที! ภูติข�
 GLOBAL_ERROR_NETWORK_UNAVAILABLE_UPGRADE	Hearthstone อัพเดตแล้ว! โปรดดาวน์โหลดเวอร์ชันล่าสุด	
 GLOBAL_ERROR_NETWORK_UTIL_TIMEOUT	การเชื่อมต่อของคุณหมดเวลาเนื่องจากมีการร้องขอข้อมูลจากบริการยูทิลิตี้ของ Hearthstone โปรดเปิด Hearthstone ใหม่อีกครั้งเพื่อเชื่อมต่อใหม่	
 GLOBAL_ERROR_NO_MAGE_PRECON	เราพบปัญหาเครือข่ายขณะกำลังโหลดการ์ดทั้งหมดในคอลเลกชันของคุณ โปรดเปิด Hearthstone ใหม่อีกครั้งเพื่อเข้าไปดูคอลเลกชันของคุณแล้วเล่นเกมต่อ!	
-GLOBAL_ERROR_STREAMING_ASSET_TIMEOUT	หมดเวลาขณะที่รอระบบสตรีมมิ่ง กำลังโหลดแอสเซ็ท {0}	0=asset name
+GLOBAL_ERROR_STREAMING_ASSET_TIMEOUT	หมดเวลาขณะที่รอระบบสตรีมมิ่ง กำลังโหลดข้อมูลเกม {0}	0=asset name
 GLOBAL_ERROR_UNKNOWN_ERROR	ขอโทษที! ภูติขี้เล่นเข้ามาก่อกวน Hearthstone ขณะพยายามเชื่อมโยงกับบริการ Blizzard โปรดรอสักครู่เพื่อให้พวกมันหนีไปก่อน แล้วลองเปิดเกมใหม่อีกครั้ง	
 GLOBAL_EXIT	ออก	
 GLOBAL_FEATURE_DISABLED_MESSAGE_COLLECTION	ขออภัย ขณะนี้ไม่สามารถเข้าสู่คอลเลกชันได้	
@@ -426,7 +431,9 @@ GLOBAL_KEYWORD_ECHO	เสียงสะท้อน
 GLOBAL_KEYWORD_ECHO_TEXT	ใช้ซ้ำได้ในเทิร์น[b]ที่คุณเล่นการ์ดนี้	
 GLOBAL_KEYWORD_ENRAGED	บ้าคลั่ง	
 GLOBAL_KEYWORD_ENRAGED_TEXT	มินเนี่ยนตัวนี้จะมีพลังใหม่[b]เมื่อได้รับความเสียหาย	
-GLOBAL_KEYWORD_FLOOPY	ฟลอบบิดินัส ฟลู๊ป	
+GLOBAL_KEYWORD_EVILZUG	ลูกสมุน	
+GLOBAL_KEYWORD_EVILZUG_TEXT	ลูกสมุนคือมินเนี่ยน[b]ค่าร่าย 1 ที่มีคำรามสู้ศึก	
+GLOBAL_KEYWORD_FLOOPY	ฟลอบบิดินัส ฟลู้ป	
 GLOBAL_KEYWORD_FLOOPY_TEXT	เปลี่ยนร่างเมื่อคุณเล่นมินเนี่ยน	
 GLOBAL_KEYWORD_FREEZE	แช่แข็ง	
 GLOBAL_KEYWORD_FREEZE_TEXT	ตัวละครที่ถูกแช่แข็งจะสูญเสีย[b]การโจมตีครั้งถัดไป	
@@ -450,6 +457,8 @@ GLOBAL_KEYWORD_KABAL	คาบาล
 GLOBAL_KEYWORD_KABAL_COLLECTION_TEXT	ใช้การ์ดนี้ได้ในเด็คพรีสต์ เมจ หรือวอร์ล็อค	
 GLOBAL_KEYWORD_LIFESTEAL	สูบชีวิต	
 GLOBAL_KEYWORD_LIFESTEAL_TEXT	ฟื้นพลังชีวิตให้ฮีโร่[b]ของคุณเท่ากับ[b]ความเสียหายที่ทำได้	
+GLOBAL_KEYWORD_MEGAWINDFURY	มหาวายุพิโรธ	
+GLOBAL_KEYWORD_MEGAWINDFURY_TEXT	โจมตีได้เทิร์นละสี่ครั้ง	
 GLOBAL_KEYWORD_MINION_TYPE_REFERENCE	ประเภทมินเนี่ยน	
 GLOBAL_KEYWORD_MINION_TYPE_REFERENCE_TEXT	สัตว์ ปีศาจ มังกร เครื่องจักร เมอร์ล็อค โจรสลัด และโทเท็ม	
 GLOBAL_KEYWORD_MODULAR	แม่เหล็ก	
@@ -482,7 +491,7 @@ GLOBAL_KEYWORD_SHRINE_TEXT	คืนชีพใน 3 เทิร์นหล�
 GLOBAL_KEYWORD_SILENCE	ผนึกความสามารถ	
 GLOBAL_KEYWORD_SILENCE_TEXT	ลบข้อความบนการ์ดและ[b]ผลพิเศษของการ์ดทั้งหมด	
 GLOBAL_KEYWORD_SPAREPART	ชิ้นส่วนอะไหล่	
-GLOBAL_KEYWORD_SPAREPART_TEXT	ชิ้นส่วนอะไหล่คือการ์ดเวทมนตร์[b]ค่าร่าย 1 ที่มีความสามารถ[b]เล็กน้อย	
+GLOBAL_KEYWORD_SPAREPART_TEXT	ชิ้นส่วนอะไหล่คือเวทมนตร์[b]ค่าร่าย 1 ที่ส่งผลเล็กน้อย	
 GLOBAL_KEYWORD_SPELLPOWER	ความเสียหายเวท	
 GLOBAL_KEYWORD_SPELLPOWER_REF_TEXT	เวทมนตร์ของคุณ[b]สร้างความเสียหายเพิ่มขึ้น	
 GLOBAL_KEYWORD_SPELLPOWER_TEXT	การ์ดเวทมนตร์ของคุณ[b]สร้างความเสียหาย[b]เพิ่มขึ้น {0}_แต้ม	0=amount of spell damage
@@ -493,7 +502,9 @@ GLOBAL_KEYWORD_STEALTH_REF_TEXT	ไม่ถูกโจมตีหรือ[b]
 GLOBAL_KEYWORD_STEALTH_TEXT	ไม่ถูกโจมตีหรือ[b]ตกเป็นเป้าหมายจนกว่า[b]มันจะโจมตี	
 GLOBAL_KEYWORD_TAUNT	ยั่วยุ	
 GLOBAL_KEYWORD_TAUNT_REF_TEXT	ศัตรูต้องโจมตีมินเนี่ยนที่มียั่วยุ	
-GLOBAL_KEYWORD_TAUNT_TEXT	ศัตรูต้องโจมตีมินเนี่ยนตัวนี้	
+GLOBAL_KEYWORD_TAUNT_TEXT	ศัตรูต้องโจมตีมินเนี่ยนตัวนี้ก่อน	
+GLOBAL_KEYWORD_TWINSPELL	ทวิอาคม	
+GLOBAL_KEYWORD_TWINSPELL_TEXT	สามารถร่ายได้สองครั้ง	
 GLOBAL_KEYWORD_WILD	อิสระ	
 GLOBAL_KEYWORD_WILD_TEXT	การ์ดอิสระคือการ์ด Hearthstone ในอดีตซึ่งใช้เล่นในรูปแบบมาตรฐานไม่ได้	
 GLOBAL_KEYWORD_WINDFURY	วายุพิโรธ	
@@ -505,6 +516,7 @@ GLOBAL_LANGUAGE_CHANGE_OUT_OF_SPACE_TITLE	พื้นที่ว่างไ�
 GLOBAL_LANGUAGE_DOWNLOAD_VOICE_PACK	(DEV) ดาวน์โหลดแพ็คเสียง	
 GLOBAL_LANGUAGE_DROPDOWN	ภาษา	
 GLOBAL_LANGUAGE_NATIVE_DEDE	Deutsch	The name of the language IN THAT LANGUAGE.
+GLOBAL_LANGUAGE_NATIVE_ENGB	English (UK)	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_ENUS	English	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_ESES	Español (España)	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_ESMX	Español (Latinoamérica)	The name of the language IN THAT LANGUAGE.
@@ -635,7 +647,7 @@ GLOBAL_QUIT	ออกจากเกม
 GLOBAL_RACE_ALL	ทุกอย่าง	
 GLOBAL_RACE_BLOODELF	บลัดเอลฟ์	
 GLOBAL_RACE_DEMON	ปีศาจ	
-GLOBAL_RACE_DRAENEI	ดราไน	
+GLOBAL_RACE_DRAENEI	ไฟ	
 GLOBAL_RACE_DRAGON	มังกร	
 GLOBAL_RACE_DWARF	คนแคระ	
 GLOBAL_RACE_EGG	ไข่	
@@ -694,6 +706,7 @@ GLOBAL_REWARD_ARENA_TICKET_AUTHORIZED_BY	อนุญาตโดย	a label tha
 GLOBAL_REWARD_ARENA_TICKET_ENTRANT	ผู้เข้าประลอง	a label that shows up in the Arena Ticket under the Player's name to say this person is allowed entrance into the Arena.
 GLOBAL_REWARD_ARENA_TICKET_HEADLINE	เข้าร่วมลานประลองฟรี!	
 GLOBAL_REWARD_ARENA_TICKET_LABEL	ลานประลอง	
+GLOBAL_REWARD_ARENA_TICKET_STORE_COUNT_1	1	
 GLOBAL_REWARD_ARENA_TICKET_TITLE	ลานประลอง	
 GLOBAL_REWARD_BONUS_CHALLENGE_HEADLINE	ปลดล็อคบททดสอบสุดท้ายแล้ว	
 GLOBAL_REWARD_BOOSTER_DETAILS_OUT_OF_BAND	ซองการ์ด {0} ซองถูกเพิ่มให้กับบัญชีของคุณจากภายนอกเกม	0=count
@@ -849,7 +862,7 @@ GLOBAL_TUTORIAL_HEALTH	พลังชีวิต
 GLOBAL_TUTORIAL_HERO_POWER	พลังฮีโร่	
 GLOBAL_TUTORIAL_MINION	มินเนี่ยน	
 GLOBAL_TUTORIAL_TAUNT	ยั่วยุ	
-GLOBAL_TUTORIAL_TAUNT_DESCRIPTION	ศัตรูต้องโจมตีมินเนี่ยนตัวนี้	
+GLOBAL_TUTORIAL_TAUNT_DESCRIPTION	ศัตรูต้องโจมตีมินเนี่ยนตัวนี้ก่อน	
 GLOBAL_TUTORIAL_USED	ใช้แล้ว	
 GLOBAL_TUTORIAL_YOUR_MANA	มานาของคุณ	
 GLOBAL_TUTORIAL_YOUR_TURN	เทิร์นของคุณ	
