@@ -1038,13 +1038,17 @@ GLUE_LOADINGSCREEN_UPDATE_WIFI_RECONNECTED	Connected to Wi-FI again! Download re
 GLUE_LOADINGSCREEN_ERROR_DISK_SPACE	There is not enough space on your device to install Hearthstone. Please free up additional space.	
 GLUE_LOADINGSCREEN_ERROR_VERSION	Failed to get version information. Please check your network connection.	
 GLUE_LOADINGSCREEN_ERROR_UPDATE	Failed to get update. Please check your network connection.	
+GLUE_LOADINGSCREEN_ERROR_UPDATE_CONFLICT	Failed to get update. Please restart Hearthstone.	
 GLUE_LOADINGSCREEN_ERROR_GENERIC	Hearthstone stopped working. Please uninstall and reinstall Hearthstone.	
 GLUE_LOADINGSCREEN_WARNING_CELLULAR	Need to download {0} of data. Are you sure about using your data plan?	0=data size	
+GLUE_LOADINGSCREEN_RESUME	Download is paused.	Resume?	
 GLUE_LOADINGSCREEN_UPDATE_WIFI_WARNING	No Wi-Fi connection. Do you wish to download over cellular?	
 GLUE_LOADINGSCREEN_ERROR_NEEDS_DATA	When your Wi-Fi connection is ready, let’s try to get that data again.	
+GLUE_LOADINGSCREEN_ERROR_CHECK_SETTINGS	No internet connection available. Please check your network settings.	
 GLUE_LOADINGSCREEN_BUTTON_CELLULAR	Use Cellular	
 GLUE_LOADINGSCREEN_BUTTON_WAIT	Wait for Wi-Fi	
 GLUE_LOADINGSCREEN_BUTTON_RETRY	Retry	
+GLUE_LOADINGSCREEN_BUTTON_SETTINGS	Settings	
 GLUE_LOADINGSCREEN_BUTTON_CANCEL	Hold on
 GLUE_LOADINGSCREEN_BUTTON_YES	Yes, do it!	
 GLUE_LOADINGSCREEN_ERROR_APK_INSTALL	Failed to install. Please uninstall and reinstall Hearthstone.	
@@ -1085,6 +1089,8 @@ GLUE_STORE_TRL_PREORDER_DATE	Available in mid December*!
 GLUE_STORE_TRL_PREORDER_DUST_DATE	Packs available in\nmid December*!
 GLUE_STORE_DAL_PREORDER_DATE	Available in mid April*!	
 GLUE_STORE_DAL_PREORDER_DUST_DATE	Packs available in\nmid April*!
+GLUE_STORE_ULD_PREORDER_DATE	Available in August*!	
+GLUE_STORE_ULD_PREORDER_DUST_DATE	Packs available in\nAugust*!
 GLUE_ARENA_VIEW_DECK	View Deck	
 GLUE_PICK_A_CARD	Pick a Card	
 GLUE_PICK_A_REPLACEMENT	Pick a Replacement	
@@ -1114,6 +1120,12 @@ GLUE_TAVERN_BRAWL_REWARD_DESC_FINISH	Win a pack for completing your first Brawl 
 GLUE_TAVERN_BRAWL_REWARD_DESC_FINISH_MULTIPLE_PACKS	Win {0} |4(pack,packs) for completing your first Brawl this week!	
 GLUE_TAVERN_BRAWL_REWARD_DESC_CARDBACK	Win this card back for your first victory this week!	
 GLUE_TAVERN_BRAWL_REWARD_DESC_FINISH_CARDBACK	Win this card back for completing your first Brawl this week!	
+GLUE_TAVERN_BRAWL_REWARD_DESC_QUOTA	Win a pack for completing {1} |4(victory,victories) this week!	the zeroth parameter {0} is always # of rewards/packs while {1} is how many wins.
+GLUE_TAVERN_BRAWL_REWARD_DESC_QUOTA_MULTIPLE_PACKS	Win {0} |4(pack,packs) for completing {1} |4(victory,victories) this week!	{0} is always # of rewards/packs while {1} is how many wins.
+GLUE_TAVERN_BRAWL_REWARD_DESC_FINISH_QUOTA	Win a pack for completing {1} |4(Brawl,Brawls) this week!	{0} is always # of rewards/packs while {1} is how many game finishes.
+GLUE_TAVERN_BRAWL_REWARD_DESC_FINISH_QUOTA_MULTIPLE_PACKS	Win {0} |4(pack,packs) for completing {1} |4(Brawl,Brawls) this week!	{0} is always # of rewards/packs while {1} is how many game finishes.
+GLUE_TAVERN_BRAWL_REWARD_DESC_CARDBACK_QUOTA	Win this card back for {1} |4(victory,victories) this week!		{0} is always # of rewards while {1} is how many wins.
+GLUE_TAVERN_BRAWL_REWARD_DESC_FINISH_QUOTA_CARDBACK	Win this card back for completing {1} |4(Brawl,Brawls) this week!	{0} is always # of rewards while {1} is how many game finishes.
 GLUE_TAVERN_BRAWL_HAS_ENDED_HEADER	End of Event	
 GLUE_TAVERN_BRAWL_HAS_ENDED_TEXT	This Tavern Brawl Event is now over. Another one is coming up soon!	
 GLUE_COLLECTION_MANAGER_FAVORITE_BUTTON	Make Favorite	
@@ -1189,8 +1201,8 @@ GLUE_SET_ROTATION_CURRENT_YEAR	Year of the Raven
 GLUE_SET_ROTATION_NEXT_YEAR	Year of the Dragon	
 GLUE_CARDS_UPDATED	These cards have changed.	
 GLUE_SINGLE_CARD_UPDATED	This card has changed.	
-GLUE_CARDS_ADDED	{0} new cards have been added to the "Classic" set.\nYou can now craft them, or find them inside Classic packs.	
-GLUE_SINGLE_CARD_ADDED	1 new card has been added to the "Classic" set.\nYou can now craft it, or find it inside Classic packs.	
+GLUE_CARDS_ADDED	{0} new cards added to Classic!	
+GLUE_SINGLE_CARD_ADDED	1 new card added to Classic!	
 GLUE_WOODEN_BANNER_TITLE_FRIEND_WEEK	Friendly Feud!
 GLUE_RAF_TOOLTIP_HEADLINE	Recruit A Friend
 GLUE_RAF_TOOLTIP_DESC	Invite friends to play Hearthstone with you!
@@ -1387,9 +1399,13 @@ GLUE_PLAYERS_NEARBY	Players Nearby
 GLUE_NEARBY_PLAYERS_DISABLE	Disable to hide yourself from nearby players. (You won't be able to see them either!)
 GLUE_ROTATED_SETS_DIALOG	The following sets are now Wild!
 GLUE_HALL_Of_FAME_SIGN	Hall of Fame
-GLUE_HALL_Of_FAME_BODY	Some Classic cards are now Wild and can't be played in Standard.
+GLUE_HALL_Of_FAME_BODY	Some cards are now Wild and can't be played in Standard.
 GLUE_HALL_OF_FAME_CARD_LIST	These cards have been moved to Wild.
 GLUE_HALL_OF_FAME_DUST_COMPENSATION	Because you own some of these cards,\n here's a special gift to celebrate!
+GLUE_CARD_REPLACEMENT_CARDS_ADDED	These cards have been added to the Basic set.
+GLUE_CARD_REPLACEMENT_CARDS_REMOVED	These cards have been removed from the Basic set.
+GLUE_CARD_REPLACEMENT_DUST_HEADER	Free dust!
+GLUE_CARD_REPLACEMENT_DUST_FOOTER	Because you own some of these cards,\n here's a special gift to celebrate!
 GLUE_PUSH_NOTIFICATION_CONTEXT_HEADER	Push Notifications
 GLUE_PUSH_NOTIFICATION_CONTEXT_BODY	Want us to notify you when we release something awesome?
 GLUE_PUSH_NOTIFICATION_CONTEXT_CONFIRM	Definitely!
@@ -1551,7 +1567,7 @@ GLUE_ADVENTURE_REWARD_ADVENTURE_TITLE	Adventure Reward!
 GLUE_ADVENTURE_CHAPTERUNLOCKED_POPUP_TITLE	Chapter Unlocked!
 GLUE_ADVENTURE_LOCKED	Locked
 GLUE_ADVENTURE_UNLOCK	Unlock
-GLUE_ADVENTURE_STORYMODE_DUNGEONCRAWL_HEROICMODE_LOCKED	Requires completion of this\nChapter in Story Mode
+GLUE_ADVENTURE_STORYMODE_DUNGEONCRAWL_HEROICMODE_LOCKED	Requires completion of this\nChapter in Normal Mode
 GLUE_ADVENTURE_STORE_WHATSINSIDE_REWARDS_TITLE	Instant Rewards
 GLUE_ADVENTURE_STORE_ADVENTUREBOOK_DAL_WHATSINSIDEBUTTON	What's Inside?
 GLUE_ADVENTURE_STORE_ADVENTUREBOOK_DAL_WHATSINSIDE_CHAPTERSBANNER_TIMELOCK_TRUE	Play all Chapters as soon as they are released@
