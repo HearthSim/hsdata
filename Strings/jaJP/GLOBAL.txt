@@ -71,6 +71,7 @@ GLOBAL_ASSET_INTENTION_UNINITIALIZED	スタートアップ中
 GLOBAL_ATTACK	攻撃	
 GLOBAL_BACK	戻る	
 GLOBAL_BASIC_DECK_NAME	{0}	0=class name
+GLOBAL_BATTLEGROUNDS	バトルグラウンド	
 GLOBAL_BETA_REIMBURSEMENT_DETAILS	このゴールドは過去の購入の払い戻し分だ。ありがとう！	
 GLOBAL_BETA_REIMBURSEMENT_HEADLINE	アカウントワイプの払い戻し	
 GLOBAL_BRAWLISEUM	ゴロシアム	
@@ -92,6 +93,9 @@ GLOBAL_CARD_SET_DALARAN	爆誕！悪党同盟
 GLOBAL_CARD_SET_DALARAN_SEARCHABLE_SHORTHAND_NAMES	ros 爆誕 悪党 同盟	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_DALARAN_SHORT	爆誕！悪党同盟	
 GLOBAL_CARD_SET_DEBUG	スラッシュ	
+GLOBAL_CARD_SET_DRG	激闘！ドラゴン大決戦	
+GLOBAL_CARD_SET_DRG_SEARCHABLE_SHORTHAND_NAMES	激闘 大決戦 dod dd	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_DRG_SHORT	ドラゴン大決戦	
 GLOBAL_CARD_SET_EXPERT1	クラシック	
 GLOBAL_CARD_SET_GANGS	仁義なきガジェッツァン	
 GLOBAL_CARD_SET_GANGS_RESERVE	ギャング（予定）	
@@ -274,6 +278,7 @@ GLOBAL_ERROR_NO_MAGE_PRECON	コレクションのカードデータのロード�
 GLOBAL_ERROR_STREAMING_ASSET_TIMEOUT	システムのストリーミング待機中にタイムアウトになりました。アセット{0}のロード中でした。	0=asset name
 GLOBAL_ERROR_UNKNOWN_ERROR	おおっと！ハースストーンがBlizzardサービスへ接続中、いたずらな妖精に邪魔されたぞ。しばらくしてからもう一度試してみてくれ。	
 GLOBAL_EXIT	終了	
+GLOBAL_FEATURE_DISABLED_MESSAGE_BATTLEGROUNDS	すまんな、バトルグラウンドモードは今使えないみたいだ。	
 GLOBAL_FEATURE_DISABLED_MESSAGE_COLLECTION	すまんな、コレクションは今利用できないみたいだ。	
 GLOBAL_FEATURE_DISABLED_MESSAGE_FORGE	すまんな、闘技場には今入れないみたいだ。	
 GLOBAL_FEATURE_DISABLED_MESSAGE_PLAY	すまんな、プレイモードは今使えないみたいだ。	
@@ -301,6 +306,7 @@ GLOBAL_FORGE_END_JOKE_7	お見事！
 GLOBAL_FORGE_END_JOKE_8	あきらめたらそこで終わりだぞ！いや待て、もう終わりか。	
 GLOBAL_FORGE_END_TITLE	闘技場での戦いを完了	
 GLOBAL_FRIEND_CHALLENGE_ACCEPT	受ける！	
+GLOBAL_FRIEND_CHALLENGE_BODY_BACON	挑戦状「バトルグラウンドにて\n勝負されたし」――	
 GLOBAL_FRIEND_CHALLENGE_BODY1	挑戦状が届いたぞ！差出人は:	
 GLOBAL_FRIEND_CHALLENGE_BODY1_STANDARD	スタンダードの挑戦状が届いたぞ！喧嘩を売ってきたのは:	
 GLOBAL_FRIEND_CHALLENGE_BODY1_WILD	ワイルドの挑戦状が届いたぞ！\n喧嘩を売ってきたのは:	
@@ -324,10 +330,12 @@ GLOBAL_FRIEND_CHALLENGE_TITLE	親善試合
 GLOBAL_FRIENDLIST_ADD_FRIEND_BUTTON	追加	
 GLOBAL_FRIENDLIST_BUSYSTATUS	取込中	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_AVAILABLE	{0}にハースストーンの対戦を申し込むぞ。	0=player name
+GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_EARLY_ACCESS	現在このモードは早期アクセス版だ。	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_HEADER	親善試合	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_APPEARING_OFFLINE	オフライン表示になっているため、{0} と対戦することができません。	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_UNAVAILABLE	今、{0}には挑戦できないぞ。メインメニュー画面に戻ってくれ。	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_THEYRE_UNAVAILABLE	今、{0}には挑戦できないな。相手がメインメニュー画面に戻るまで待ってくれ。	0=player name
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_BATTLEGROUNDS_EARLY_ACCESS	このプレイヤーはバトルグラウンドの早期アクセス権を持ってないな。	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_DECK	このプレイヤーはデッキを持ってないぞ。	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_STANDARD_DECK	このプレイヤーはスタンダードデッキを持ってないぞ。	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_TAVERN_BRAWL_DECK	このプレイヤーはまだ酒場の喧嘩用のデッキを作ってないぞ。	
@@ -769,7 +777,7 @@ GLOBAL_REWARD_FORGE_UNLOCKED_SOURCE	闘技場への参加で入手
 GLOBAL_REWARD_GOLD_HEADLINE	ゴールドを獲得！	
 GLOBAL_REWARD_GOLD_SOURCE_IGR	インターネットカフェからのログインで入手	
 GLOBAL_REWARD_GOLD_SOURCE_IGR_DATED	{0}にインターネットカフェからログインして入手	0=GLOBAL_CURRENT_DATE
-GLOBAL_REWARD_GOLD_SOURCE_TOURNEY	酒場の喧嘩かプレイモードで{0}勝して入手	
+GLOBAL_REWARD_GOLD_SOURCE_TOURNEY	酒場の喧嘩、バトルグラウンド、またはプレイモードで{0}勝して入手	
 GLOBAL_REWARD_GOLDEN_HERO_HEADLINE	ゴールデンヒーロー使用可能	
 GLOBAL_REWARD_HEARTHSTEED_HEADLINE	Hearthsteed Mount	
 GLOBAL_REWARD_HERO_DETAILS	使用可能なヒーロー: {0}/{1}	
@@ -801,6 +809,7 @@ GLOBAL_SET_ROTATION_ROLLOVER_HEADER	新年おめでとう！
 GLOBAL_SHOW	表示	
 GLOBAL_SHUTDOWN_TOAST	<color=#{0}>Blizzardサービスはあと{1}分でシャットダウンします</color>	0=color, 1=minutes
 GLOBAL_SKIP	スキップ	
+GLOBAL_SKIP_TUTORIAL	チュートリアルを抜ける	
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_COMPLETE	<color=#{0}>{1}</color>が闘技場での戦いを{2}勝{3}敗で終えたぞ。	0=name color,1=player name,2=Arena Wins,3=Arena Losses
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START	<color=#{0}>{1}</color>が新たに闘技場での戦いを開始したぞ。	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START_WITH_MANY_WINS	<color=#{0}>{1}</color>が闘技場での戦いを開始した。このプレイヤーはすでに{2}勝しているぞ！	0=name color,1=player name,2=Arena Wins

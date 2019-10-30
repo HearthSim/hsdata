@@ -71,6 +71,7 @@ GLOBAL_ASSET_INTENTION_UNINITIALIZED	開始
 GLOBAL_ATTACK	攻擊力	
 GLOBAL_BACK	返回	
 GLOBAL_BASIC_DECK_NAME	{0}	0=class name
+GLOBAL_BATTLEGROUNDS	英雄戰場	
 GLOBAL_BETA_REIMBURSEMENT_DETAILS	這些金幣是從你過去的消費總金額返還的。謝謝你！	
 GLOBAL_BETA_REIMBURSEMENT_HEADLINE	帳號清空返還	
 GLOBAL_BRAWLISEUM	亂鬥場	
@@ -92,6 +93,9 @@ GLOBAL_CARD_SET_DALARAN	反派大進擊
 GLOBAL_CARD_SET_DALARAN_SEARCHABLE_SHORTHAND_NAMES	反派 大進擊 ros	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_DALARAN_SHORT	反派大進擊	
 GLOBAL_CARD_SET_DEBUG	Slush	
+GLOBAL_CARD_SET_DRG	降臨！遠古巨龍	
+GLOBAL_CARD_SET_DRG_SEARCHABLE_SHORTHAND_NAMES	dod dd 降臨 巨龍 遠古巨龍	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_DRG_SHORT	遠古巨龍	
 GLOBAL_CARD_SET_EXPERT1	經典	
 GLOBAL_CARD_SET_GANGS	黑街英雄之加基森風雲	
 GLOBAL_CARD_SET_GANGS_RESERVE	幫派保留	
@@ -274,6 +278,7 @@ GLOBAL_ERROR_NO_MAGE_PRECON	讀取牌庫資料時發生連線錯誤。請重新�
 GLOBAL_ERROR_STREAMING_ASSET_TIMEOUT	等候串流系統讀取物件{0}逾時。	0=asset name
 GLOBAL_ERROR_UNKNOWN_ERROR	唉呀！愛搗蛋的小精靈在《爐石戰記》連線到暴雪網路服務時進行了干擾！請過幾分鐘，等他們散去之後再嘗試重新啟動遊戲。	
 GLOBAL_EXIT	離開	
+GLOBAL_FEATURE_DISABLED_MESSAGE_BATTLEGROUNDS	很抱歉，英雄戰場已暫時關閉。	
 GLOBAL_FEATURE_DISABLED_MESSAGE_COLLECTION	很抱歉，牌庫功能已暫時關閉。	
 GLOBAL_FEATURE_DISABLED_MESSAGE_FORGE	很抱歉，競技場已暫時關閉。	
 GLOBAL_FEATURE_DISABLED_MESSAGE_PLAY	很抱歉，對戰模式已暫時關閉。	
@@ -301,6 +306,7 @@ GLOBAL_FORGE_END_JOKE_7	看啊！
 GLOBAL_FORGE_END_JOKE_8	還沒結束呢！噢，是已經結束了。	
 GLOBAL_FORGE_END_TITLE	競技場完成	
 GLOBAL_FRIEND_CHALLENGE_ACCEPT	接受	
+GLOBAL_FRIEND_CHALLENGE_BODY_BACON	你已被邀請加入英雄戰場。邀請者為：	
 GLOBAL_FRIEND_CHALLENGE_BODY1	有好友想和你來場友誼賽：	
 GLOBAL_FRIEND_CHALLENGE_BODY1_STANDARD	有好友想和你來場\n標準友誼賽：	
 GLOBAL_FRIEND_CHALLENGE_BODY1_WILD	有好友想和你來場\n開放友誼賽：	
@@ -324,10 +330,12 @@ GLOBAL_FRIEND_CHALLENGE_TITLE	好友對戰
 GLOBAL_FRIENDLIST_ADD_FRIEND_BUTTON	新增	
 GLOBAL_FRIENDLIST_BUSYSTATUS	忙碌	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_AVAILABLE	向{0}發出爐石戰記的挑戰。	0=player name
+GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_EARLY_ACCESS	此模式目前還在早鳥體驗階段。	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_HEADER	友誼賽	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_APPEARING_OFFLINE	你現在無法挑戰{0}。你已設定為隱身狀態。	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_UNAVAILABLE	你現在無法挑戰{0}。請回到主選單。	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_THEYRE_UNAVAILABLE	你現在無法挑戰{0}。請等待對方回到主選單。	0=player name
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_BATTLEGROUNDS_EARLY_ACCESS	這名玩家沒有英雄戰場早鳥體驗的資格。	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_DECK	該玩家沒有套牌。	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_STANDARD_DECK	該玩家沒有標準套牌。	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_TAVERN_BRAWL_DECK	該玩家沒有旅店大亂鬥套牌。	
@@ -769,7 +777,7 @@ GLOBAL_REWARD_FORGE_UNLOCKED_SOURCE	進入競技場的獎勵
 GLOBAL_REWARD_GOLD_HEADLINE	獲得金幣！	
 GLOBAL_REWARD_GOLD_SOURCE_IGR	從網咖中登入的獎勵	
 GLOBAL_REWARD_GOLD_SOURCE_IGR_DATED	於{0}從網咖中登入的獎勵	0=GLOBAL_CURRENT_DATE
-GLOBAL_REWARD_GOLD_SOURCE_TOURNEY	在旅店大亂鬥或對戰模式中贏得{0}勝的獎勵	
+GLOBAL_REWARD_GOLD_SOURCE_TOURNEY	在旅店大亂鬥、英雄戰場或對戰模式贏得{0}場對戰的獎勵	
 GLOBAL_REWARD_GOLDEN_HERO_HEADLINE	黃金版英雄已解鎖	
 GLOBAL_REWARD_HEARTHSTEED_HEADLINE	爐石戰馬	
 GLOBAL_REWARD_HERO_DETAILS	{0}/{1}英雄已解鎖	
@@ -801,6 +809,7 @@ GLOBAL_SET_ROTATION_ROLLOVER_HEADER	新年快樂！
 GLOBAL_SHOW	顯示	
 GLOBAL_SHUTDOWN_TOAST	<color=#{0}>暴雪網路服務將在{1}分鐘後關閉</color>	0=color, 1=minutes
 GLOBAL_SKIP	跳過	
+GLOBAL_SKIP_TUTORIAL	離開新手教學	
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_COMPLETE	<color=#{0}>{1}</color>剛剛結束了一輪競技場賽事。({2}-{3})	0=name color,1=player name,2=Arena Wins,3=Arena Losses
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START	<color=#{0}>{1}</color>開始了新的一輪競技場賽事。	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START_WITH_MANY_WINS	已經獲得{2}勝的<color=#{0}>{1}</color>開始了新的競技場賽事！	0=name color,1=player name,2=Arena Wins

@@ -71,6 +71,7 @@ GLOBAL_ASSET_INTENTION_UNINITIALIZED	Avvio
 GLOBAL_ATTACK	Attacco	
 GLOBAL_BACK	Indietro	
 GLOBAL_BASIC_DECK_NAME	{0}	0=class name
+GLOBAL_BATTLEGROUNDS	Battaglia	
 GLOBAL_BETA_REIMBURSEMENT_DETAILS	Questo è l'oro accreditato per gli acquisti passati. Grazie mille!	
 GLOBAL_BETA_REIMBURSEMENT_HEADLINE	Credito del reset dell'account	
 GLOBAL_BRAWLISEUM	Rissodromo	
@@ -92,6 +93,9 @@ GLOBAL_CARD_SET_DALARAN	L'ascesa delle ombre
 GLOBAL_CARD_SET_DALARAN_SEARCHABLE_SHORTHAND_NAMES	ado	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_DALARAN_SHORT	L'ascesa delle ombre	
 GLOBAL_CARD_SET_DEBUG	Fanghiglia	
+GLOBAL_CARD_SET_DRG	La Discesa dei Draghi	
+GLOBAL_CARD_SET_DRG_SEARCHABLE_SHORTHAND_NAMES	lddd dd	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_DRG_SHORT	Draghi	
 GLOBAL_CARD_SET_EXPERT1	Classiche	
 GLOBAL_CARD_SET_GANGS	Bassifondi di Meccania	
 GLOBAL_CARD_SET_GANGS_RESERVE	Riserva delle bande	
@@ -274,6 +278,7 @@ GLOBAL_ERROR_NO_MAGE_PRECON	Ci deve essere stato un problema di connessione ment
 GLOBAL_ERROR_STREAMING_ASSET_TIMEOUT	Tempo scaduto in attesa del sistema di streaming. Elemento in caricamento: {0}.	0=asset name
 GLOBAL_ERROR_UNKNOWN_ERROR	Ooops! Dei folletti dispettosi sono intervenuti mentre Hearthstone si collegava al servizio di gioco Blizzard. Rimani qualche minuto in attesa che se ne vadano e prova a rilanciare il gioco.	
 GLOBAL_EXIT	Esci	
+GLOBAL_FEATURE_DISABLED_MESSAGE_BATTLEGROUNDS	Spiacenti, la Battaglia al momento è disabilitata.	
 GLOBAL_FEATURE_DISABLED_MESSAGE_COLLECTION	Spiacenti, la collezione non è al momento disponibile.	
 GLOBAL_FEATURE_DISABLED_MESSAGE_FORGE	Spiacenti, l'Arena non è al momento disponibile.	
 GLOBAL_FEATURE_DISABLED_MESSAGE_PLAY	Spiacenti, la modalità Gioco non è al momento disponibile.	
@@ -301,6 +306,7 @@ GLOBAL_FORGE_END_JOKE_7	Ammirevole!
 GLOBAL_FORGE_END_JOKE_8	Non è ancora finita! No, aspetta, è davvero finita.	
 GLOBAL_FORGE_END_TITLE	Arena completata	
 GLOBAL_FRIEND_CHALLENGE_ACCEPT	Accetta	
+GLOBAL_FRIEND_CHALLENGE_BODY_BACON	Sei stato invitato a unirti\na una Battaglia da:	
 GLOBAL_FRIEND_CHALLENGE_BODY1	Hai ricevuto una sfida da:	
 GLOBAL_FRIEND_CHALLENGE_BODY1_STANDARD	Hai ricevuto una sfida in formato Standard da:	
 GLOBAL_FRIEND_CHALLENGE_BODY1_WILD	Hai ricevuto una sfida\nin formato Selvaggio da:	
@@ -324,10 +330,12 @@ GLOBAL_FRIEND_CHALLENGE_TITLE	Sfida
 GLOBAL_FRIENDLIST_ADD_FRIEND_BUTTON	Aggiungi	
 GLOBAL_FRIENDLIST_BUSYSTATUS	Occupato	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_AVAILABLE	Sfida {0} a una partita a Hearthstone.	0=player name
+GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_EARLY_ACCESS	Al momento questa modalità è in accesso anticipato.	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_HEADER	Sfida	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_APPEARING_OFFLINE	Non puoi sfidare {0} in questo momento. Sei impostato come invisibile.	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_UNAVAILABLE	Non puoi sfidare {0} in questo momento. Ritorna al menu principale.	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_THEYRE_UNAVAILABLE	Non puoi sfidare {0} in questo momento. Aspetta che ritorni al menu principale.	0=player name
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_BATTLEGROUNDS_EARLY_ACCESS	Questo giocatore non dispone dell'accesso anticipato alla Battaglia.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_DECK	Questo giocatore non ha mazzi.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_STANDARD_DECK	Questo giocatore non ha mazzi Standard.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_TAVERN_BRAWL_DECK	Questo giocatore non ha ancora composto un mazzo per la Rissa.	
@@ -769,7 +777,7 @@ GLOBAL_REWARD_FORGE_UNLOCKED_SOURCE	Ricompensa per essere entrato nell'Arena
 GLOBAL_REWARD_GOLD_HEADLINE	Oro ottenuto!	
 GLOBAL_REWARD_GOLD_SOURCE_IGR	Ricompensa per esserti connesso da una IGR	
 GLOBAL_REWARD_GOLD_SOURCE_IGR_DATED	Ricompensa per esserti connesso da una IGR il {0}	0=GLOBAL_CURRENT_DATE
-GLOBAL_REWARD_GOLD_SOURCE_TOURNEY	Ricompensa per aver vinto {0} |4(partita,partite) in modalità Rissa o Gioco	
+GLOBAL_REWARD_GOLD_SOURCE_TOURNEY	Ricompensa per aver vinto {0} |4(partita,partite) in modalità Rissa, Battaglia o Gioco	
 GLOBAL_REWARD_GOLDEN_HERO_HEADLINE	Eroe Dorato sbloccato	
 GLOBAL_REWARD_HEARTHSTEED_HEADLINE	Destriero di Hearthstone	
 GLOBAL_REWARD_HERO_DETAILS	{0}/{1} eroi sbloccati	
@@ -801,6 +809,7 @@ GLOBAL_SET_ROTATION_ROLLOVER_HEADER	Felice anno nuovo!
 GLOBAL_SHOW	Mostra	
 GLOBAL_SHUTDOWN_TOAST	<color=#{0}>Il servizio di gioco Blizzard verrà chiuso in {1} |4(minuto,minuti)</color>	0=color, 1=minutes
 GLOBAL_SKIP	Salta	
+GLOBAL_SKIP_TUTORIAL	Abbandona Tutorial	
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_COMPLETE	<color=#{0}>{1}</color> ha appena finito una competizione nell'Arena. ({2}-{3})	0=name color,1=player name,2=Arena Wins,3=Arena Losses
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START	<color=#{0}>{1}</color> ha iniziato una competizione nell'Arena.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START_WITH_MANY_WINS	<color=#{0}>{1}</color> ha appena iniziato una partita nell'Arena. Ha già ottenuto {2} |4(vittoria,vittorie)!	0=name color,1=player name,2=Arena Wins
