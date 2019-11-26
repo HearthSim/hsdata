@@ -186,6 +186,8 @@ GLUE_DECK_TRAY_COUNT	{0}/{1}
 GLUE_DECK_TRAY_CARD_COUNT_LABEL	Cards	
 GLUE_DECK_TRAY_DECK_COUNT_LABEL	Decks
 GLUE_DECK_TRAY_HEROES_UNLOCKED_COUNT_LABEL	Unlocked
+GLUE_DECK_TRAY_GALAKROND_PROMPT_TITLE	Add Galakrond to your Deck?
+GLUE_DECK_TRAY_GALAKROND_PROMPT_DESC	You're adding an Invoke card to your deck. It requires Galakrond to work fully. Would you like us to add Galakrond to your deck?
 GLUE_STORE_INFO_BUTTON_TEXT	i	
 GLUE_STORE_TERMS_OF_SALE_BUTTON_TEXT	?
 GLUE_STORE_OPEN_BUTTON_TEXT	Shop
@@ -207,6 +209,8 @@ GLUE_STORE_PRODUCT_EVENT_HAS_ENDED	That product is no longer available.
 GLUE_STORE_FAIL_QUANTITY	You've selected an invalid quantity for that item. Please select a different quantity and try again.
 GLUE_STORE_FAIL_NO_ACTIVE_BPAY	Internal error: no transaction info in Database.
 GLUE_STORE_FAIL_NOT_ENOUGH_GOLD	You don't have enough gold to buy that right now.
+GLUE_STORE_FAIL_NOT_ENOUGH_RUNESTONES	You don't have enough Runestones to buy that right now.
+GLUE_STORE_FAIL_NOT_ENOUGH_ARCANE_ORBS	You don't have enough Arcane Orbs to buy that right now.
 GLUE_STORE_FAIL_CHALLENGE_TIMEOUT	Your purchase challenge has timed out. Please start your transaction again.
 GLUE_STORE_FAIL_PURCHASE_BAN	Your account has been blocked from using the Shop. If you believe this is a mistake, please contact Customer Support.
 GLUE_STORE_FAIL_SPENDING_LIMIT	This purchase would have put you over your spending limit. Gold purchases are still available!
@@ -221,6 +225,7 @@ GLUE_STORE_FAIL_GENERAL	There was a problem processing your payment.
 GLUE_STORE_FAIL_CHALLENGE_ID_FAILED_VERIFICATION	Your purchase challenge code has failed verification.
 GLUE_STORE_GOLD_BUTTON_TOOLTIP_HEADLINE	Buy with gold
 GLUE_STORE_MONEY_BUTTON_TOOLTIP_HEADLINE	Buy
+GLUE_STORE_VC_BUTTON_TOOLTIP_HEADLINE	Buy
 GLUE_STORE_DUNGEON_BUTTON_TEXT	Full Adventure
 GLUE_STORE_DUNGEON_BUTTON_COST_TEXT	({0} |4(wing,wings) {1})	0=number of wings,1=cost
 GLUE_STORE_PACK_BUTTON_COST_OWNED_TEXT	(Purchased)	
@@ -345,6 +350,20 @@ GLUE_STORE_GOLD_QTY_CHANGE_HEADER	Packs For Gold
 GLUE_STORE_GOLD_QTY_CHANGE_DESC	You've got a lot of gold! If you want to buy multiple packs, you can double click on the '1 pack for 100 gold' option to change the number of packs you want to buy.
 GLUE_STORE_GOLD_QTY_CHANGE_DESC_TOUCH	You've got a lot of gold! If you want to buy multiple packs, you can double tap on the '1 pack for 100 gold' option to change the number of packs you want to buy.
 GLUE_STORE_HERO_PREVIEW	Preview	
+GLUE_SHOP_DESCRIPTION_HEADER	{0} Includes:
+GLUE_SHOP_BOOSTER_SKU_BUTTON	{0} |4(Pack,Packs)
+GLUE_SHOP_RUNESTONE_SKU_BUTTON	{0} |4(Runestone,Runestones)
+GLUE_SHOP_PRICE_RUNESTONES	{0} |4(Runestone,Runestones)
+GLUE_SHOP_PRICE_ARCANE_ORBS	{0} |4(Arcane Orb,Arcane Orbs)
+GLUE_SHOP_RUNESTONES_DETAILS_HEADER	Runestones can be exchanged for:
+GLUE_SHOP_GET_MORE_RUNESTONES	You do not have enough Runestones for this purchase. Get more?
+GLUE_SHOP_GET_MORE_RUNESTONES_HEADER	Not enough Runestones!
+GLUE_SHOP_NOT_ENOUGH_RUNESTONES	Not enough Runestones
+GLUE_SHOP_CONVERT_TO_ARCANE_ORBS_HEADER	Convert Runestones to Arcane Orbs
+GLUE_SHOP_WILD_CARDS_DISCLAIMER	•  Wild only – these cards cannot be used in Standard.
+GLUE_CHECKOUT_ERROR_INSUFFICIENT_FUNDS	You do not have enough funds to complete this purchase.
+GLUE_CHECKOUT_ERROR_PRODUCT_UNAVAILABLE	This product is not currently available.
+GLUE_CHECKOUT_ERROR_GENERIC_FAILURE	Oops! Something went wrong. Please try again later.
 GLUE_FORGE_STORE_HEADLINE	Welcome to The Arena! 
 GLUE_FORGE_STORE_DETAILS1	Forge a deck from random cards, then see how long you can last in the Arena.
 GLUE_FORGE_STORE_DETAILS2	The longer you last, the better your prize will be!
@@ -401,6 +420,10 @@ GLUE_TOOLTIP_BUTTON_GAME_MODES_DESC	Try out different ways to play.
 GLUE_TOOLTIP_BUTTON_BACON_HEADLINE	Battlegrounds	
 GLUE_TOOLTIP_BUTTON_BACON_DESC_EARLY_ACCESS	Battlegrounds is currently in Early Access.\nYou can gain access by purchasing any of the Descent of Dragons pre-purchases in the shop.
 GLUE_MOBILE_TOOLTIP_BUTTON_STORE_DESC	Buy Packs with gold or money.
+GLUE_TOOLTIP_VIRTUAL_CURRENCY_DESCRIPTION	Spend Runestones to buy Arcane Orbs, heroes, adventures, or Arena tickets.
+GLUE_TOOLTIP_VIRTUAL_CURRENCY_HEADER	Runestones	
+GLUE_TOOLTIP_BOOSTER_CURRENCY_DESCRIPTION	Spend Arcane Orbs to buy Packs.
+GLUE_TOOLTIP_BOOSTER_CURRENCY_HEADER	Arcane Orbs	
 GLUE_TOOLTIP_GOLD_HEADER	Gold	
 GLUE_TOOLTIP_GOLD_DESCRIPTION	Spend gold to buy Packs or enter The Arena.	
 GLUE_TOOLTIP_RANKED_BUTTON	See how you stack up against other players!	
@@ -978,6 +1001,8 @@ GLUE_CARD_NERF_HEADER	Changes!
 GLUE_CARD_NERF_BODY	\nThe following |4(card has,cards have) been changed:\n{0}	0=card names
 GLUE_GOLD_CAP_HEADER	{0} gold Reached!
 GLUE_GOLD_CAP_BODY	 You cannot earn additional gold until you are under {0}.
+GLUE_ARCANE_ORBS_CAP_HEADER	Too many Arcane Orbs!
+GLUE_ARCANE_ORBS_CAP_BODY	You cannot acquire additional Arcane Orbs above {0}.
 GLUE_CANNOT_FIND_BATTLENET_CLIENT	Hearthstone requires the Blizzard desktop app, but cannot find it.  Please visit www.battle.net to re-install.
 GLUE_CANNOT_RUN_BATTLENET_CLIENT	Hearthstone requires the Blizzard desktop app, but cannot run it.  Please visit www.battle.net to re-install.
 GLUE_COLLECTION_DECK_DELETE	Delete	
@@ -1035,7 +1060,7 @@ GLUE_PATCHING_ERROR	We encountered an error when updating Hearthstone. Please tr
 GLUE_HEROIC_WARNING	Be warned that Heroic Mode is VERY punishing and is not for the faint of heart. Enter at your own risk!	
 GLUE_HEROIC_WARNING_TITLE	Warning!	
 GLUE_STORE_MODE_CARDS	Cards	
-GLUE_STORE_MODE_ADVENTURE	Adventure	
+GLUE_STORE_MODE_ADVENTURE	ADVENTURE	
 GLUE_STORE_MODE_HEROES	Heroes	
 GLUE_ADVENTURE_MODE_CLASS_CHALLENGE_CHOOSE	Choose a Challenge	
 GLUE_ADVENTURE_LABEL_SHOP_CLOSED	Closed	
@@ -1735,7 +1760,7 @@ GLUE_TIP_ADVENTURE_ULD_6	Encounters will grow more difficult as you move through
 GLUE_TIP_ADVENTURE_ULD_7	Each chapter’s nemesis is a Plague Lord,\na huge enemy with persistent health.
 GLUE_TIP_ADVENTURE_ULD_8	Each chapter features a unique “Plot Twist,” caused by the Plague Lords.
 GLUE_TIP_ADVENTURE_ULD_9	Build a flexible deck – different encounters require different strategies.
-GLUE_TIP_ADVENTURE_ULD_10	Once unlocked, any hero can be used in any chapter. 
+GLUE_TIP_ADVENTURE_ULD_10	Once unlocked, any hero can be used in any chapter.
 GLUE_TIP_ADVENTURE_ULD_11	Once defeated, you’ll have to start your run all over again.
 GLUE_TIP_ADVENTURE_ULD_12	“Passive” treasures are always in effect and impact your whole run.
 GLUE_TIP_ADVENTURE_ULD_13	Tailor your deck around the treasures you find for maximum impact!
@@ -1748,7 +1773,7 @@ GLUE_TIP_ADVENTURE_ULD_19	The Plague Lords are big. Very big.\nChip away their h
 GLUE_TIP_ADVENTURE_ULD_20	Our heroes MUST stop Rafaam’s plan.\nAs soon as they figure out what it is.
 GLUE_TIP_ADVENTURE_ULD_21	Our heroes will face off against ancient guardians,\ndesert creatures… and agents of E.V.I.L.
 GLUE_TIP_ADVENTURE_ULD_22	Within the Halls of Origination is the power to create\nor destroy entire worlds!
-GLUE_TIP_ADVENTURE_ULD_23	Rafaam has rewarded Tekahn by granting him\ncontrol of the Plague of Flame.
+GLUE_TIP_ADVENTURE_ULD_23	Rafaam has rewarded Tekahn by granting him control of the Plague of Flame.
 GLUE_BACON_FOOTER	Welcome to the Battlegrounds!\nEight combatants enter, only one will take the crown.
 GLUE_BACON_FIRST_PLACE_LABEL	1st Place
 GLUE_BACON_TOP_4_LABEL	Top 4
@@ -1772,3 +1797,35 @@ GLUE_BACON_INFO_POPUP_COMBAT_TIPS	<color=#C900FF>• Left to Right:</color> Your
 GLUE_BACON_STATS_PAGE	Come back here to check out your full stats after Beta!
 GLUE_BACON_LOW_MEMORY_HEADER	Warning
 GLUE_BACON_LOW_MEMORY_BODY	Battlegrounds plays best on devices with at least 2GB of memory. Your device may not meet the minimum requirements to play. As we progress out of Beta, we will be working to improve the performance on your device.
+GLUE_SIDEQUEST_PROGRESS_BANNER	Progress: {0}/{1}	0=Current Progress, 1=Completion Requirement
+GLUE_SHOP_SECTION_HEADER_TIERB	Limited\nTime!
+GLUE_SHOP_SECTION_HEADER_TIERC	Card\nPacks
+GLUE_SHOP_SECTION_HEADER_TIERD	Adventures
+GLUE_SHOP_VC_CONVERSION_GET_MORE	Get More
+GLUE_SHOP_VC_CONVERSION_AUTO_CONVERT	Auto convert missing Orbs
+GLUE_BACON_STATS_LABEL_TRIPLES	Triples Created
+GLUE_BACON_STATS_LABEL_FIRST_PLACE	First	Place Finishes
+GLUE_BACON_STATS_LABEL_MINIONS_DESTROYED	Minions Destroyed
+GLUE_BACON_STATS_LABEL_UPGRADES	Tavern Upgrades
+GLUE_BACON_STATS_LABEL_PLAYERS_ELIMINATED	Players Eliminated
+GLUE_BACON_STATS_LABEL_DAMAGE_ONE_TURN	Damage in one turn
+GLUE_BACON_STATS_LABEL_DAMAGE_ONE_MINION	Damage by {0}
+GLUE_BACON_STATS_LABEL_BIGGEST_MINION	Biggest Minion
+GLUE_BACON_STATS_LABEL_TIME_PLAYED	Time Played
+GLUE_BACON_STATS_LABEL_WIN_STREAK	Longest Win Streak
+GLUE_BACON_STATS_LABEL_TOP_5_HEROES_WINS	Top 5 Heroes by Wins
+GLUE_BACON_STATS_LABEL_TOP_5_HEROES_GAMES	Top 5 Heroes by Games Played
+GLUE_BACON_STATS_LABEL_MOST_PURCHASED_MINIONS	Most Purchased Minions
+GLUE_BACON_STATS_LABEL_LAST_5_ROSTERS	Last 5 Rosters
+GLUE_BACON_STATS_LABEL_GAMES_PLAYED	Games
+GLUE_BACON_STATS_LABEL_GAME_PLAYED	Game
+GLUE_BACON_STATS_LABEL_WIN	Win
+GLUE_BACON_STATS_LABEL_WINS	Wins
+GLUE_BACON_STATS_VALUE_BIGGEST_MINION	{0}/{1}	Attack followed by Health
+GLUE_BACON_STATS_VALUE_MINUTES_PLAYED	{0} |4(min,mins)
+GLUE_BACON_STATS_VALUE_HOURS_PLAYED	{0} |4(hr,hrs)
+GLUE_SHOP_RIBBON_LATEST_ADVENTURE	Latest Adventure
+GLUE_SHOP_RIBBON_PREPURCHASE_BUNDLE	Pre-Purchase Bundle
+GLUE_SHOP_RIBBON_GREATEST_NEWPLAYERS	Great for New Players
+GLUE_SHOP_LANDING_ADVENTURE_BANNER	ADVENTURE
+GLUE_SHOP_PRICE_FREE	Free!
