@@ -223,6 +223,7 @@ GLUE_STORE_FAIL_PRODUCT_UNIQUENESS_VIOLATED	We’ve detected a duplicate purchas
 GLUE_STORE_FAIL_PRODUCT_UNIQUENESS_VIOLATED_URL	Pressing "{0}" will take you to the Blizzard website.
 GLUE_STORE_FAIL_GENERAL	There was a problem processing your payment.
 GLUE_STORE_FAIL_CHALLENGE_ID_FAILED_VERIFICATION	Your purchase challenge code has failed verification.
+GLUE_STORE_FAIL_CURRENCY_BALANCE	We were unable to update your balance. Please check again later.
 GLUE_STORE_GOLD_BUTTON_TOOLTIP_HEADLINE	Buy with gold
 GLUE_STORE_MONEY_BUTTON_TOOLTIP_HEADLINE	Buy
 GLUE_STORE_VC_BUTTON_TOOLTIP_HEADLINE	Buy
@@ -264,6 +265,7 @@ GLUE_STORE_KOREAN_PRODUCT_DETAILS_EXPERT_PACK	이용기간 : 서비스 종료 �
 GLUE_STORE_KOREAN_PRODUCT_DETAILS_FIRST_PURCHASE_BUNDLE	이용기간: 서비스 종료 시까지. 본 상품은 구매 후 즉시 임의 직업의 오리지널 전설 카드가 귀하의 카드에 추가되므로 구매 후 환불이 불가능합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_PRODUCT_NAME_MOBILE_UNKNOWN	Purchase via Mobile
 GLUE_STORE_PRODUCT_NAME_FORGE_TICKET	Arena Admission
+GLUE_STORE_PRODUCT_NAME_BATTLEGROUNDS_BONUS	Battlegrounds Perks
 GLUE_STORE_BUY_TEXT	BUY	this is what you see when you initiate the purchase
 GLUE_STORE_QUANTITY_PACK	{0} |4(Pack,Packs)
 GLUE_STORE_QUANTITY_DUST	{0} |4(Dust,Dust)
@@ -450,6 +452,8 @@ GLUE_TOURNAMENT_SWITCH_TO_STANDARD	Try switching to Standard
 GLUE_TOURNAMENT_SWITCH_TO_WILD	You can switch to Wild here
 GLUE_TOURNAMENT_STANDARD_DESC	Only Basic, Classic, and the last 2 years of cards can be used.
 GLUE_TOURNAMENT_WILD_DESC	All cards can be used.
+GLUE_TOURNAMENT_STAR_MULT_HEAD	{0}x Star Bonus
+GLUE_TOURNAMENT_STAR_MULT_BODY	You earn {0} |4(star,stars) for each win.\n(Doubled when on a Win Streak!)
 GLUE_BASIC_DECK_WARNING_HEADER	Basic Deck	
 GLUE_BASIC_DECK_WARNING_BODY	While Basic decks are allowed in Standard, building a new deck might be more successful!
 GLUE_PLAY_WILD	Play Wild
@@ -731,8 +735,8 @@ GLUE_TIP_BACON_10	Win streaks are shown on the scoreboard with an “On Fire” 
 GLUE_TIP_BACON_11	Only buffs that happen in the Tavern are permanent.\n Combat buffs go away after fighting.
 GLUE_TIP_BACON_12	If your opponents purchase many copies of one minion, you will see less of it.
 GLUE_TIP_BACON_13	If a minion is sold, it returns to the pool, so you will see it again more often. 
-GLUE_TIP_BACON_14	If you spend all your gold increasing your Tavern Tier, your army will fall behind, and you may lose.
-GLUE_TIP_BACON_15	If you never increase your Tavern Tier, your army will fall behind, and you may lose.
+GLUE_TIP_BACON_14	If you spend all your gold increasing your Tavern Tier, your warband will fall behind, and you may lose.
+GLUE_TIP_BACON_15	If you never increase your Tavern Tier, your warband will fall behind, and you may lose.
 GLUE_TIP_BACON_16	Murlocs are stronger in the early game, while Mechs are stronger in the late game.
 GLUE_TIP_BACON_17	If you have 1 gold left over, refresh the Tavern – \nif you see a minion you like, freeze it for the next turn.
 GLUE_TIP_BACON_18	With 8 players, being in the Top 4 is a win! \nFirst place gets you the Crown!
@@ -1192,6 +1196,7 @@ GLUE_STORE_ULD_PREORDER_DATE	Available in August*!
 GLUE_STORE_ULD_PREORDER_DUST_DATE	Packs available in\nAugust*!
 GLUE_STORE_DRG_PREORDER_DATE	Available in December*!	
 GLUE_STORE_DRG_PREORDER_DUST_DATE	Packs available in\nDecember*!
+GLUE_STORE_PREORDER_APRIL	Available in\nApril*!
 GLUE_ARENA_VIEW_DECK	View Deck	
 GLUE_PICK_A_CARD	Pick a Card	
 GLUE_PICK_A_REPLACEMENT	Pick a Replacement	
@@ -1353,6 +1358,9 @@ GLUE_INKEEPER_RANDOM_CARD_DECK_RECIPE_HUNTER	Oh! A Hunter Legendary! It's in the
 GLUE_INKEEPER_RANDOM_CARD_DECK_RECIPE_MAGE	Oh! A Mage Legendary! It's in the Classic recipe. Try building the deck!
 GLUE_INKEEPER_RANDOM_CARD_DECK_RECIPE_PRIEST	Oh! A Priest Legendary! It's in the Classic recipe. Try building the deck!
 GLUE_INKEEPER_RANDOM_CARD_DECK_RECIPE_WARLOCK	Oh! A Warlock Legendary! It's in the Classic recipe. Try building the deck!
+GLUE_STORE_RANDOM_COMMON	Random Common
+GLUE_STORE_RANDOM_RARE	Random Rare
+GLUE_STORE_RANDOM_EPIC	Random Epic
 GLUE_STORE_RANDOM_LEGENDARY	Random Legendary
 GLUE_STORE_RANDOM_CLASS_LEGENDARY	Random Class Legendary
 GLUE_STORE_RANDOM_DRAGON_LEGENDARY	Random Classic Dragon Legendary
@@ -1616,6 +1624,7 @@ GLUE_BRAWLISEUM_REWARDS_WIN_BANNER_TEXT	{0} |4(Win,Wins)!
 GLUE_BRAWLISEUM_SESSION_ERROR_TITLE	Tavern Brawl Problem
 GLUE_BRAWLISEUM_SESSION_ERROR	There was a problem getting Tavern Brawl data.
 GLUE_BRAWLISEUM_RETIRE_CONFIRM_DESC	This will end your Tavern Brawl run! Are you sure?
+GLUE_STORE_PACKBUY_ROTATING_SOON	Rotating Soon
 GLUE_STORE_PACKBUY_LIMITED_TIME	Limited Time
 GLUE_STORE_LIMITED_TIME_OFFER	Limited Time Offer!
 GLUE_STORE_BONUS_PACKS	Get {0} bonus |4(pack,packs) for a limited time!	0 = number of bonus packs
@@ -1847,12 +1856,17 @@ GLUE_BACON_TOP_4_LABEL	Top 4
 GLUE_BACON_RATING_LABEL	Rating
 GLUE_BACON_BONUS_RULE_1	Obtain <color=#DC5AFF>Descent of Dragons</color> packs to unlock bonuses.
 GLUE_BACON_BONUS_RULE_2	Bonuses last until the following expansion launches.
+GLUE_BACON_BONUS_PREPURCHASE_RULE_1	Pre-purchase of <color=#DC5AFF>Ashes of Outlands</color> unlocks Perks in Battlegrounds.
+GLUE_BACON_BONUS_PREPURCHASE_RULE_2	Perks last until the expansion following the Ashes of Outlands.
 GLUE_BACON_BONUS_1	Unlock Bonus Stats
 GLUE_BACON_BONUS_2	Choose from 3 Heroes each game
 GLUE_BACON_BONUS_3	Unlock Visual Emotes
 GLUE_BACON_BONUS_TAG	Available after Beta
 GLUE_BACON_BONUS_FULL_STATS	Full Stats
 GLUE_BACON_BONUS	Bonus
+GLUE_BACON_PERKS	Perks
+GLUE_BACON_PERKS_ON_TICKET	PERKS
+GLUE_BACON_TITLE_ON_TICKET	Battlegrounds
 GLUE_BACON_INFO_POPUP_TITLE	Battlegrounds Rules
 GLUE_BACON_INFO_POPUP_SUMMARY	Play against 7 other players. Last player alive wins. 
 GLUE_BACON_INFO_POPUP_RECRUIT	RECRUIT PHASE
@@ -1875,7 +1889,7 @@ GLUE_BACON_STATS_LABEL_FIRST_PLACE	First	Place Finishes
 GLUE_BACON_STATS_LABEL_MINIONS_DESTROYED	Minions Destroyed
 GLUE_BACON_STATS_LABEL_UPGRADES	Tavern Upgrades
 GLUE_BACON_STATS_LABEL_PLAYERS_ELIMINATED	Players Eliminated
-GLUE_BACON_STATS_LABEL_DAMAGE_ONE_TURN	Damage in one turn
+GLUE_BACON_STATS_LABEL_DAMAGE_ONE_TURN	Most Minion Damage
 GLUE_BACON_STATS_LABEL_DAMAGE_ONE_MINION	Damage by {0}
 GLUE_BACON_STATS_LABEL_BIGGEST_MINION	Biggest Minion
 GLUE_BACON_STATS_LABEL_TIME_PLAYED	Time Played
@@ -1899,3 +1913,12 @@ GLUE_SHOP_PRICE_FREE	Free!
 GLUE_ADVENTURE_NUM_BOSSES_DEFEATED	{0}/{1}	
 GLUE_ADVENTURE_NUM_CARDS_COLLECTED	{0}/{1}	
 GLUE_ADVENTURE_NUM_CHAPTERS_OWNED	{0} |4(Chapter,Chapters) Owned	
+GLUE_RANKED_SEASON_ROLL_FLOW_TITLE	The new Ranked system is here!
+GLUE_RANKED_TIER_NAME_BRONZE	Bronze
+GLUE_RANKED_TIER_NAME_SILVER	Silver
+GLUE_RANKED_TIER_NAME_GOLD	Gold
+GLUE_RANKED_TIER_NAME_PLATINUM	Platinum
+GLUE_RANKED_TIER_NAME_DIAMOND	Diamond
+GLUE_RANKED_TIER_NAME_LEGEND	Legend
+GLUE_RANKED_BONUS_STARS	Bonus Stars
+GLUE_RANKED_BONUS_STARS_DESCRIPTION	Gain Bonus stars for winning a game
