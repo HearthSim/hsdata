@@ -95,12 +95,16 @@ GLOBAL_CARD_SET_BOOMSDAY_SHORT	Hukatomba
 GLOBAL_CARD_SET_BRM	Czarna Góra	
 GLOBAL_CARD_SET_BRM_SEARCHABLE_SHORTHAND_NAMES	cg	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_BT	Popioły Rubieży	
+GLOBAL_CARD_SET_BT_SEARCHABLE_SHORTHAND_NAMES	pr popioły	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_BT_SHORT	Rubież	
 GLOBAL_CARD_SET_CORE	Podstawowe	
 GLOBAL_CARD_SET_DALARAN	Wyjście z cienia	
 GLOBAL_CARD_SET_DALARAN_SEARCHABLE_SHORTHAND_NAMES	ros wzc	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_DALARAN_SHORT	Wyjście z cienia	
 GLOBAL_CARD_SET_DEBUG	Breja	
+GLOBAL_CARD_SET_DHI	Początkujący łowca demonów	
+GLOBAL_CARD_SET_DHI_SEARCHABLE_SHORTHAND_NAMES	dhi, płd	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_DHI_SHORT	Początkujący	
 GLOBAL_CARD_SET_DRG	Wejście smoków	
 GLOBAL_CARD_SET_DRG_SEARCHABLE_SHORTHAND_NAMES	ws	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_DRG_SHORT	Smoki	
@@ -166,6 +170,7 @@ GLOBAL_CHAT_SENDER_APPEAR_OFFLINE	Nie możesz wysyłać wiadomości na czacie, k
 GLOBAL_CHAT_SENDER_OFFLINE	Twój obecny status to niedostępny.	
 GLOBAL_CHOOSE_PAYMENT	Sposób płatności	
 GLOBAL_CLASS_DEATHKNIGHT	Rycerz śmierci	
+GLOBAL_CLASS_DEMONHUNTER	Łowca demonów	
 GLOBAL_CLASS_DRUID	Druid	
 GLOBAL_CLASS_HUNTER	Łowca	
 GLOBAL_CLASS_MAGE	Mag	
@@ -330,6 +335,7 @@ GLOBAL_FRIEND_CHALLENGE_OPPONENT_DECLINED	{0} odrzuca twoje wyzwanie.	0=friend n
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_FRIEND_REMOVED	Wyzwanie zostało wycofane, ponieważ {0} nie jest już twoim znajomym.	0=friend name
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_WAITING_DECK	Czekasz aż {0} wybierze talię.	0=friend name
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_WAITING_RESPONSE	Czekasz aż {0} odpowie na twoje wyzwanie.	0=friend name
+GLOBAL_FRIEND_CHALLENGE_QUEUE_CANCELED	Wyzwanie zostało anulowane.	
 GLOBAL_FRIEND_CHALLENGE_TAVERN_BRAWL_BODY1	Otrzymujesz wyzwanie do Bójki od gracza	
 GLOBAL_FRIEND_CHALLENGE_TAVERN_BRAWL_HEADER	Wyzwanie do Bójki	
 GLOBAL_FRIEND_CHALLENGE_TAVERN_BRAWL_OPPONENT_WAITING_READY	Czekasz aż {0} dołączy do Bójki.	0=friend name
@@ -456,6 +462,8 @@ GLOBAL_KEYWORD_DISCOVER_TEXT	Wybierz jedną z trzech kart i dodaj ją do twojej 
 GLOBAL_KEYWORD_DIVINE_SHIELD	Boska tarcza	
 GLOBAL_KEYWORD_DIVINE_SHIELD_REF_TEXT	Stronnik z Boską tarczą ignoruje pierwsze otrzymane obrażenia.	
 GLOBAL_KEYWORD_DIVINE_SHIELD_TEXT	Zignoruj pierwsze obrażenia otrzymane przez tego stronnika.	
+GLOBAL_KEYWORD_DORMANT	W stanie uśpienia	
+GLOBAL_KEYWORD_DORMANT_TEXT	Stronnik nietykalny dla obu graczy.	
 GLOBAL_KEYWORD_ECHO	Echo	
 GLOBAL_KEYWORD_ECHO_TEXT	W turze, w której zagrasz tę kartę, możesz zagrać ją ponownie. Koszt kopii nie może być niższy niż (1).	
 GLOBAL_KEYWORD_EMPOWER	Inwokuj	
@@ -512,6 +520,8 @@ GLOBAL_KEYWORD_MODULAR	Magnetyzm
 GLOBAL_KEYWORD_MODULAR_TEXT	Zagraj na lewo od Mecha, aby połączyć obie karty!	
 GLOBAL_KEYWORD_OFFHAND	Przedmiot podręczny	
 GLOBAL_KEYWORD_OFFHAND_TEXT	Niezniszczalny. Nie można go zaczarować.	
+GLOBAL_KEYWORD_OUTCAST	Wyrzutek	
+GLOBAL_KEYWORD_OUTCAST_TEXT	Premia po zagraniu z lewego lub prawego skraju ręki.	
 GLOBAL_KEYWORD_OVERKILL	Rzeź	
 GLOBAL_KEYWORD_OVERKILL_TEXT	Zadaj w twojej turze nadmiarowe obrażenia, aby uzyskać korzyść.	
 GLOBAL_KEYWORD_OVERLOAD	Przeciążenie: X	
@@ -676,6 +686,7 @@ GLOBAL_OPTIONS_PRIVACY_POLICY	Zarządzaj prywatnością
 GLOBAL_OPTIONS_PUBLIC_CHAT_ENABLED	Czat ze wszystkimi	
 GLOBAL_OPTIONS_RESTORE_PURCHASES	Odtwórz zakup	
 GLOBAL_OPTIONS_RESTORE_PURCHASES_POPUP_TEXT	Nie możesz znaleźć zakupionej pozycji? Sprawdź, czy udało ci się zalogować do właściwego konta.	
+GLOBAL_OPTIONS_SKIP_NPR	Pomiń szkolenie	
 GLOBAL_OPTIONS_SKIP_TO_RANK_25	Przejdź do rangi 25	
 GLOBAL_OPTIONS_SOUND_IN_BACKGROUND	Dźwięki w tle	
 GLOBAL_OPTIONS_SOUND_LABEL	Dźwięk	
@@ -780,8 +791,7 @@ GLOBAL_REGION_CHINA	Chiny
 GLOBAL_REGION_EUROPE	Europa	
 GLOBAL_RELAUNCH_APPLICATION_AFTER_INSTALLAPK	Trwa próba zainstalowania nowego klienta. Uruchom ponownie Hearthstone, jeśli klient nie został zainstalowany.	
 GLOBAL_REMAINING_DATETIME	Pozostało: {0}	0=time string
-GLOBAL_REMINDER_CARDBACK_SEASON_END_ALERT	Nie przegap rewersu karty!	Big red alert text to remind players about the new change
-GLOBAL_REMINDER_CARDBACK_SEASON_END_DIALOG	Wygraj 5 partii, aby otrzymać sezonowy rewers.	
+GLOBAL_REMINDER_CARDBACK_SEASON_END_DIALOG	Wygraj {0} |4(partię,partie,partii), aby otrzymać sezonowy rewers.	
 GLOBAL_REMINDER_CHEST_QUESTION_MARK	?	Label for unearned chest, assuming "?" universally means unknown, it doesn't need to be localized
 GLOBAL_REMINDER_CHEST_SEASON_END_DIALOG	Wygraj 5 partii, aby otrzymać sezonową skrzynię.	
 GLOBAL_RESTART	Zrestartuj	
@@ -862,8 +872,8 @@ GLOBAL_SEASON_END_NEW_CARDBACK_TITLE_PHONE	Nowy sezonowy\nrewers!
 GLOBAL_SEASON_END_NEW_SEASON	{0} się rozpoczyna!	0=season name
 GLOBAL_SEASON_END_PERCENTILE_LABEL	Jesteś wśród {0}% naszych najlepszych graczy rankingowych!	0=rank percentile
 GLOBAL_SEASON_END_RANK_LABEL	Udało ci się osiągnąć rangę	
-GLOBAL_SEASON_END_STAR_MULTIPLIER_LABEL	Dodatkowe gwiazdki	
-GLOBAL_SEASON_END_STAR_MULTIPLIER_TITLE	Dzięki wynikom z poprzedniego sezonu otrzymujesz	
+GLOBAL_SEASON_END_STAR_MULTIPLIER_LABEL	Dodatkowa gwiazdka	
+GLOBAL_SEASON_END_STAR_MULTIPLIER_TITLE	Dzięki wynikom z poprzedniego sezonu w trybie rankingowym otrzymujesz	
 GLOBAL_SEASON_END_WELCOME	Witamy!	
 GLOBAL_SET_CORE	Zestaw podstawowy	
 GLOBAL_SET_EXPERT1	Zestaw klasyczny	
@@ -895,6 +905,8 @@ GLOBAL_SOCIAL_TOAST_FRIEND_OFFLINE	<color=#{0}>{1}</color> wychodzi z gry.	0=nam
 GLOBAL_SOCIAL_TOAST_FRIEND_ONLINE	<color=#{0}>{1}</color> wchodzi do gry.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_PALADIN_LEVEL	<color=#{0}>{1}</color> awansuje paladynem na poziom {2}.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_PRIEST_LEVEL	<color=#{0}>{1}</color> awansuje kapłanem na poziom {2}.	0=name color,1=player name,2=level
+GLOBAL_SOCIAL_TOAST_FRIEND_RANK_EARNED	<color=#{0}>{1}</color> osiąga rangę {2}!	0=name color,1=player name,2=medal name
+GLOBAL_SOCIAL_TOAST_FRIEND_RANK_EARNED_WILD	<color=#{0}>{1}</color> osiąga rangę {2} w Dziczy!	0=name color,1=player name,2=medal name
 GLOBAL_SOCIAL_TOAST_FRIEND_RANK_LEGEND	<color=#{0}>{1}</color> uzyskuje rangę LEGENDY!	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_RANK_LEGEND_WILD	<color=#{0}>{1}</color> uzyskuje rangę LEGENDY w Dziczy!	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_REQUEST	<color=#{0}>{1}</color> wysyła ci zaproszenie do znajomych.	0=name color,1=player name

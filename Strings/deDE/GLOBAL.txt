@@ -95,12 +95,16 @@ GLOBAL_CARD_SET_BOOMSDAY_SHORT	Dr. Bumm
 GLOBAL_CARD_SET_BRM	Der Schwarzfels	
 GLOBAL_CARD_SET_BRM_SEARCHABLE_SHORTHAND_NAMES	brm sf	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_BT	Ruinen der Scherbenwelt	
+GLOBAL_CARD_SET_BT_SEARCHABLE_SHORTHAND_NAMES	aoo ao ashes rds rs ruinen	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_BT_SHORT	Scherbenwelt	
 GLOBAL_CARD_SET_CORE	Basis	
 GLOBAL_CARD_SET_DALARAN	Verschwörung der Schatten	
 GLOBAL_CARD_SET_DALARAN_SEARCHABLE_SHORTHAND_NAMES	ros vds	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_DALARAN_SHORT	Schatten	
 GLOBAL_CARD_SET_DEBUG	Debug	
+GLOBAL_CARD_SET_DHI	Initiand der Dämonenjäger	
+GLOBAL_CARD_SET_DHI_SEARCHABLE_SHORTHAND_NAMES	dji	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_DHI_SHORT	Initiand	
 GLOBAL_CARD_SET_DRG	Erbe der Drachen	
 GLOBAL_CARD_SET_DRG_SEARCHABLE_SHORTHAND_NAMES	edd ed dod dd	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_DRG_SHORT	Drachen	
@@ -166,6 +170,7 @@ GLOBAL_CHAT_SENDER_APPEAR_OFFLINE	Sie können keine Chatnachrichten senden, wäh
 GLOBAL_CHAT_SENDER_OFFLINE	Sie sind im Moment offline.	
 GLOBAL_CHOOSE_PAYMENT	Zahlungsmethode wählen	
 GLOBAL_CLASS_DEATHKNIGHT	Todesritter	
+GLOBAL_CLASS_DEMONHUNTER	Dämonenjäger	
 GLOBAL_CLASS_DRUID	Druide	
 GLOBAL_CLASS_HUNTER	Jäger	
 GLOBAL_CLASS_MAGE	Magier	
@@ -330,6 +335,7 @@ GLOBAL_FRIEND_CHALLENGE_OPPONENT_DECLINED	{0} hat Eure Herausforderung abgelehnt
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_FRIEND_REMOVED	Die Herausforderung wurde abgebrochen, da {0} nicht mehr Euer Freund ist.	0=friend name
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_WAITING_DECK	Es wird darauf gewartet, dass {0} ein Deck auswählt.	0=friend name
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_WAITING_RESPONSE	Es wird darauf gewartet, dass {0} die Herausforderung annimmt.	0=friend name
+GLOBAL_FRIEND_CHALLENGE_QUEUE_CANCELED	Die Herausforderung wurde abgebrochen.	
 GLOBAL_FRIEND_CHALLENGE_TAVERN_BRAWL_BODY1	Ihr wurdet zum Kartenchaos herausgefordert von:	
 GLOBAL_FRIEND_CHALLENGE_TAVERN_BRAWL_HEADER	Herausforderung zum Kartenchaos	
 GLOBAL_FRIEND_CHALLENGE_TAVERN_BRAWL_OPPONENT_WAITING_READY	Es wird darauf gewartet, dass {0} sich ins Kartenchaos stürzt.	0=friend name
@@ -456,6 +462,8 @@ GLOBAL_KEYWORD_DISCOVER_TEXT	Wählt eine von drei Karten und erhaltet sie auf di
 GLOBAL_KEYWORD_DIVINE_SHIELD	Gottesschild	
 GLOBAL_KEYWORD_DIVINE_SHIELD_REF_TEXT	Der erste Schaden, den ein Diener mit Gottes[d]schild erleidet, wird ignoriert.	
 GLOBAL_KEYWORD_DIVINE_SHIELD_TEXT	Ignoriert den ersten erlittenen Schaden.	
+GLOBAL_KEYWORD_DORMANT	Inaktiv	
+GLOBAL_KEYWORD_DORMANT_TEXT	Für beide Spieler unberührbar.	
 GLOBAL_KEYWORD_ECHO	Echo	
 GLOBAL_KEYWORD_ECHO_TEXT	Diese Karte kann in dem Zug, in dem Ihr sie ausspielt, mehrmals ausgespielt werden. Kopien können nicht weniger als (1) kosten.	
 GLOBAL_KEYWORD_EMPOWER	Ermächtigen	
@@ -512,6 +520,8 @@ GLOBAL_KEYWORD_MODULAR	Magnetisch
 GLOBAL_KEYWORD_MODULAR_TEXT	Spielt diesen Diener zur Linken eines Mechs aus, damit sie verschmelzen!	
 GLOBAL_KEYWORD_OFFHAND	Nebenhand	
 GLOBAL_KEYWORD_OFFHAND_TEXT	Unzerstörbar. Kann nicht verzaubert werden.	
+GLOBAL_KEYWORD_OUTCAST	Außenseiter	
+GLOBAL_KEYWORD_OUTCAST_TEXT	Ein Bonus, wenn sich die Karte beim Ausspielen ganz links oder rechts auf der Hand befindet.	
 GLOBAL_KEYWORD_OVERKILL	Überwältigen	
 GLOBAL_KEYWORD_OVERKILL_TEXT	Ein Bonus, wenn dieser Charakter in Eurem Zug überschüssigen Schaden verursacht.	
 GLOBAL_KEYWORD_OVERLOAD	Überladung: X	
@@ -676,6 +686,7 @@ GLOBAL_OPTIONS_PRIVACY_POLICY	Datenschutz
 GLOBAL_OPTIONS_PUBLIC_CHAT_ENABLED	Öffentlicher Chat	
 GLOBAL_OPTIONS_RESTORE_PURCHASES	Käufe finden	
 GLOBAL_OPTIONS_RESTORE_PURCHASES_POPUP_TEXT	Ihr könnt einen Kauf nicht finden? Stellt sicher, dass Ihr mit dem richtigen Account eingeloggt seid.	
+GLOBAL_OPTIONS_SKIP_NPR	Lehrlingsphase überspringen	
 GLOBAL_OPTIONS_SKIP_TO_RANK_25	Jetzt auf Rang 25	
 GLOBAL_OPTIONS_SOUND_IN_BACKGROUND	Sound im Hintergrund	
 GLOBAL_OPTIONS_SOUND_LABEL	Sound	
@@ -780,8 +791,7 @@ GLOBAL_REGION_CHINA	China
 GLOBAL_REGION_EUROPE	Europa	
 GLOBAL_RELAUNCH_APPLICATION_AFTER_INSTALLAPK	Es wird versucht, einen neuen Client zu installieren. Bitte starten Sie Hearthstone neu, wenn der Client nicht installiert wurde.	
 GLOBAL_REMAINING_DATETIME	{0} verbleibend	0=time string
-GLOBAL_REMINDER_CARDBACK_SEASON_END_ALERT	Sichert Euch den aktuellen Kartenrücken!	Big red alert text to remind players about the new change
-GLOBAL_REMINDER_CARDBACK_SEASON_END_DIALOG	Gewinnt 5 Spiele, um den Kartenrücken der aktuellen Saison zu erhalten.	
+GLOBAL_REMINDER_CARDBACK_SEASON_END_DIALOG	Gewinnt {0} |4(Spiel,Spiele), um den Kartenrücken der aktuellen Saison zu erhalten.	
 GLOBAL_REMINDER_CHEST_QUESTION_MARK	?	Label for unearned chest, assuming "?" universally means unknown, it doesn't need to be localized
 GLOBAL_REMINDER_CHEST_SEASON_END_DIALOG	Gewinnt 5 Spiele, um Eure Saisontruhe zu erhalten.	
 GLOBAL_RESTART	Neu starten	
@@ -851,7 +861,7 @@ GLOBAL_SCREENSHOT_COMPLETE	Screenshot wurde auf dem Desktop gespeichert.
 GLOBAL_SCREENSHOT_COMPLETE_SPECIFIC_DIRECTORY	Screenshot wurde gespeichert unter {0}	0=The directory that the file was saved to
 GLOBAL_SEASON_CHEST_BANNER	Saisontruhe	Default label for the banner in the end game screen that is placed above the in progress chest
 GLOBAL_SEASON_END_BEST_EVER_ABOVE_MAX	Ihr startet dank Eurer vergangenen Leistungen immer auf Rang {0} oder höher.	0=rank
-GLOBAL_SEASON_END_BONUS_STAR_BOOST	Eure Bonussterne katapultieren Euch auf	
+GLOBAL_SEASON_END_BONUS_STAR_BOOST	Euer Sternenbonus katapultieren Euch auf	
 GLOBAL_SEASON_END_BONUS_STAR_TITLE	Euer Rang aus der letzten Saison verleiht Euch	
 GLOBAL_SEASON_END_BONUS_STARS_LABEL	|4(Bonusstern,Bonussterne)	
 GLOBAL_SEASON_END_CHEST_INSTRUCTIONS	Zum Öffnen klicken	
@@ -862,8 +872,8 @@ GLOBAL_SEASON_END_NEW_CARDBACK_TITLE_PHONE	Neuer Saison-\nKartenrücken!
 GLOBAL_SEASON_END_NEW_SEASON	Die {0} hat begonnen!	0=season name
 GLOBAL_SEASON_END_PERCENTILE_LABEL	Damit gehört Ihr zu den besten {0} % des gewerteten Modus!	0=rank percentile
 GLOBAL_SEASON_END_RANK_LABEL	Ihr habt folgenden Rang erreicht:	
-GLOBAL_SEASON_END_STAR_MULTIPLIER_LABEL	Bonussterne	
-GLOBAL_SEASON_END_STAR_MULTIPLIER_TITLE	Eure Leistung in der letzten Saison verleiht Euch	
+GLOBAL_SEASON_END_STAR_MULTIPLIER_LABEL	Sternenbonus	
+GLOBAL_SEASON_END_STAR_MULTIPLIER_TITLE	Eure gewertete Leistung in der letzten Saison verleiht Euch	
 GLOBAL_SEASON_END_WELCOME	Willkommen	
 GLOBAL_SET_CORE	Basisset	
 GLOBAL_SET_EXPERT1	Klassikset	
@@ -895,6 +905,8 @@ GLOBAL_SOCIAL_TOAST_FRIEND_OFFLINE	<color=#{0}>{1}</color> ist jetzt offline.	0=
 GLOBAL_SOCIAL_TOAST_FRIEND_ONLINE	<color=#{0}>{1}</color> ist jetzt online.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_PALADIN_LEVEL	<color=#{0}>{1}</color> ist als Paladin auf Stufe {2} aufgestiegen.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_PRIEST_LEVEL	<color=#{0}>{1}</color> ist als Priester auf Stufe {2} aufgestiegen.	0=name color,1=player name,2=level
+GLOBAL_SOCIAL_TOAST_FRIEND_RANK_EARNED	<color=#{0}>{1}</color> hat {2} erreicht!	0=name color,1=player name,2=medal name
+GLOBAL_SOCIAL_TOAST_FRIEND_RANK_EARNED_WILD	<color=#{0}>{1}</color> hat {2} im wilden Format erreicht!	0=name color,1=player name,2=medal name
 GLOBAL_SOCIAL_TOAST_FRIEND_RANK_LEGEND	<color=#{0}>{1}</color> ist zum Rang „Legende“ aufgestiegen!	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_RANK_LEGEND_WILD	<color=#{0}>{1}</color> ist im wilden Format zum Rang „Legende“ aufgestiegen!	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_REQUEST	<color=#{0}>{1}</color> hat Euch eine Freundschaftsanfrage geschickt.	0=name color,1=player name

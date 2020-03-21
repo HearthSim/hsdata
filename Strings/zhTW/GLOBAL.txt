@@ -95,12 +95,16 @@ GLOBAL_CARD_SET_BOOMSDAY_SHORT	爆爆計畫
 GLOBAL_CARD_SET_BRM	勇闖黑石山	
 GLOBAL_CARD_SET_BRM_SEARCHABLE_SHORTHAND_NAMES	黑石山	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_BT	外域之燼	
+GLOBAL_CARD_SET_BT_SEARCHABLE_SHORTHAND_NAMES	外域 外域之燼	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_BT_SHORT	外域	
 GLOBAL_CARD_SET_CORE	基本	
 GLOBAL_CARD_SET_DALARAN	反派大進擊	
 GLOBAL_CARD_SET_DALARAN_SEARCHABLE_SHORTHAND_NAMES	反派 大進擊 ros	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_DALARAN_SHORT	反派大進擊	
 GLOBAL_CARD_SET_DEBUG	Slush	
+GLOBAL_CARD_SET_DHI	惡魔獵人起始套牌	
+GLOBAL_CARD_SET_DHI_SEARCHABLE_SHORTHAND_NAMES	dh起始	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_DHI_SHORT	起始	
 GLOBAL_CARD_SET_DRG	降臨！遠古巨龍	
 GLOBAL_CARD_SET_DRG_SEARCHABLE_SHORTHAND_NAMES	dod dd 降臨 巨龍 遠古巨龍	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_DRG_SHORT	遠古巨龍	
@@ -166,6 +170,7 @@ GLOBAL_CHAT_SENDER_APPEAR_OFFLINE	隱身狀態時可能無法發送聊天訊息�
 GLOBAL_CHAT_SENDER_OFFLINE	你目前狀態為離線。	
 GLOBAL_CHOOSE_PAYMENT	選擇付款方式	
 GLOBAL_CLASS_DEATHKNIGHT	死亡騎士	
+GLOBAL_CLASS_DEMONHUNTER	惡魔獵人	
 GLOBAL_CLASS_DRUID	德魯伊	
 GLOBAL_CLASS_HUNTER	獵人	
 GLOBAL_CLASS_MAGE	法師	
@@ -330,6 +335,7 @@ GLOBAL_FRIEND_CHALLENGE_OPPONENT_DECLINED	{0}拒絕了你的挑戰。	0=friend n
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_FRIEND_REMOVED	挑戰已取消，因為{0}不再是你的好友。	0=friend name
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_WAITING_DECK	你正在等待{0}選擇一副套牌。	0=friend name
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_WAITING_RESPONSE	你正在等待{0}回應你的挑戰。	0=friend name
+GLOBAL_FRIEND_CHALLENGE_QUEUE_CANCELED	挑戰已取消。	
 GLOBAL_FRIEND_CHALLENGE_TAVERN_BRAWL_BODY1	有好友想和你來場亂鬥友誼賽：	
 GLOBAL_FRIEND_CHALLENGE_TAVERN_BRAWL_HEADER	亂鬥友誼賽	
 GLOBAL_FRIEND_CHALLENGE_TAVERN_BRAWL_OPPONENT_WAITING_READY	你正在等待{0}加入亂鬥。	0=friend name
@@ -456,6 +462,8 @@ GLOBAL_KEYWORD_DISCOVER_TEXT	從三張卡牌中選一張放入你的手牌。
 GLOBAL_KEYWORD_DIVINE_SHIELD	聖盾術	
 GLOBAL_KEYWORD_DIVINE_SHIELD_REF_TEXT	被聖盾術保護的手下會無視受到的第一次攻擊。	
 GLOBAL_KEYWORD_DIVINE_SHIELD_TEXT	這名手下會無視受到的第一次攻擊。	
+GLOBAL_KEYWORD_DORMANT	休眠	
+GLOBAL_KEYWORD_DORMANT_TEXT	雙方都無法與其互動	
 GLOBAL_KEYWORD_ECHO	回音	
 GLOBAL_KEYWORD_ECHO_TEXT	可在一回合當中重複打出，但是後續的重複卡牌消耗不得低於(1)。	
 GLOBAL_KEYWORD_EMPOWER	祈求	
@@ -512,6 +520,8 @@ GLOBAL_KEYWORD_MODULAR	合體
 GLOBAL_KEYWORD_MODULAR_TEXT	將它打在機械的左方可使兩者合體！	
 GLOBAL_KEYWORD_OFFHAND	副手	
 GLOBAL_KEYWORD_OFFHAND_TEXT	永不毀損。無法附魔。	
+GLOBAL_KEYWORD_OUTCAST	流放	
+GLOBAL_KEYWORD_OUTCAST_TEXT	若其為手中最左邊或最右邊的牌，打出時獲得額外效果。	
 GLOBAL_KEYWORD_OVERKILL	滅殺	
 GLOBAL_KEYWORD_OVERKILL_TEXT	在你的回合造成溢傷可觸發額外的效果	
 GLOBAL_KEYWORD_OVERLOAD	超載：X	
@@ -676,6 +686,7 @@ GLOBAL_OPTIONS_PRIVACY_POLICY	遊戲隱私設定
 GLOBAL_OPTIONS_PUBLIC_CHAT_ENABLED	公共頻道	
 GLOBAL_OPTIONS_RESTORE_PURCHASES	回復購買項目	
 GLOBAL_OPTIONS_RESTORE_PURCHASES_POPUP_TEXT	找不到你已經買過的東西？請確認你登入的是正確的帳號。	
+GLOBAL_OPTIONS_SKIP_NPR	跳過學徒資格訓練	
 GLOBAL_OPTIONS_SKIP_TO_RANK_25	階級直接跳到25	
 GLOBAL_OPTIONS_SOUND_IN_BACKGROUND	背景播放	
 GLOBAL_OPTIONS_SOUND_LABEL	音效	
@@ -780,8 +791,7 @@ GLOBAL_REGION_CHINA	中國
 GLOBAL_REGION_EUROPE	歐洲	
 GLOBAL_RELAUNCH_APPLICATION_AFTER_INSTALLAPK	嘗試安裝新的程式。若程式沒有正確安裝，請重新啟動《爐石戰記》。	
 GLOBAL_REMAINING_DATETIME	剩下{0}	0=time string
-GLOBAL_REMINDER_CARDBACK_SEASON_END_ALERT	不要錯過你的卡背！	Big red alert text to remind players about the new change
-GLOBAL_REMINDER_CARDBACK_SEASON_END_DIALOG	贏得5場對戰以獲得你的賽季卡背。	
+GLOBAL_REMINDER_CARDBACK_SEASON_END_DIALOG	贏得{0}場對戰以獲得你的賽季卡背。	
 GLOBAL_REMINDER_CHEST_QUESTION_MARK	？	Label for unearned chest, assuming "?" universally means unknown, it doesn't need to be localized
 GLOBAL_REMINDER_CHEST_SEASON_END_DIALOG	贏得5場對戰以獲得你的賽季寶箱。	
 GLOBAL_RESTART	重新開始	
@@ -851,7 +861,7 @@ GLOBAL_SCREENSHOT_COMPLETE	螢幕截圖已存到桌面上
 GLOBAL_SCREENSHOT_COMPLETE_SPECIFIC_DIRECTORY	螢幕截圖已存到{0}	0=The directory that the file was saved to
 GLOBAL_SEASON_CHEST_BANNER	賽季寶箱	Default label for the banner in the end game screen that is placed above the in progress chest
 GLOBAL_SEASON_END_BEST_EVER_ABOVE_MAX	根據過去的表現，你的起始階級將不會低於{0}。	0=rank
-GLOBAL_SEASON_END_BONUS_STAR_BOOST	你的獎勵星星使你獲得	
+GLOBAL_SEASON_END_BONUS_STAR_BOOST	你的星星獎勵使你達到	
 GLOBAL_SEASON_END_BONUS_STAR_TITLE	上一賽季的階級使你獲得	
 GLOBAL_SEASON_END_BONUS_STARS_LABEL	額外的星星	
 GLOBAL_SEASON_END_CHEST_INSTRUCTIONS	點擊以打開。	
@@ -862,8 +872,8 @@ GLOBAL_SEASON_END_NEW_CARDBACK_TITLE_PHONE	新的賽季\n卡背！
 GLOBAL_SEASON_END_NEW_SEASON	{0}開始了！	0=season name
 GLOBAL_SEASON_END_PERCENTILE_LABEL	這使你在排名模式裡進入前{0}%！	0=rank percentile
 GLOBAL_SEASON_END_RANK_LABEL	你達到的階級為	
-GLOBAL_SEASON_END_STAR_MULTIPLIER_LABEL	額外的星星	
-GLOBAL_SEASON_END_STAR_MULTIPLIER_TITLE	你上個賽季的表現贏得了	
+GLOBAL_SEASON_END_STAR_MULTIPLIER_LABEL	星星獎勵	
+GLOBAL_SEASON_END_STAR_MULTIPLIER_TITLE	你上個賽季的排名模式表現贏得了	
 GLOBAL_SEASON_END_WELCOME	歡迎	
 GLOBAL_SET_CORE	基本牌	
 GLOBAL_SET_EXPERT1	經典牌	
@@ -895,6 +905,8 @@ GLOBAL_SOCIAL_TOAST_FRIEND_OFFLINE	<color=#{0}>{1}</color>已下線。	0=name co
 GLOBAL_SOCIAL_TOAST_FRIEND_ONLINE	<color=#{0}>{1}</color>已上線。	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_PALADIN_LEVEL	<color=#{0}>{1}</color>成為了等級{2}的聖騎士。	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_PRIEST_LEVEL	<color=#{0}>{1}</color>成為了等級{2}的牧師。	0=name color,1=player name,2=level
+GLOBAL_SOCIAL_TOAST_FRIEND_RANK_EARNED	<color=#{0}>{1}</color>達到了{2}！	0=name color,1=player name,2=medal name
+GLOBAL_SOCIAL_TOAST_FRIEND_RANK_EARNED_WILD	<color=#{0}>{1}</color>在開放對戰中達到了{2}！	0=name color,1=player name,2=medal name
 GLOBAL_SOCIAL_TOAST_FRIEND_RANK_LEGEND	<color=#{0}>{1}</color>已成為傳說級的玩家！	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_RANK_LEGEND_WILD	<color=#{0}>{1}</color>在開放對戰中達到了傳說級！	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_REQUEST	<color=#{0}>{1}</color>向你發出了好友邀請。	0=name color,1=player name
