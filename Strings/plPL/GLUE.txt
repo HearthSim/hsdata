@@ -374,7 +374,7 @@ GLUE_CLASS_UNLOCKED_CARDS_DEMONHUNTER	Karty łowcy demonów dostępne w twojej k
 GLUE_CLASS_UNLOCKED_CARDS_MORE	+27 innych kart	
 GLUE_CLASS_UNLOCKED_CLASS	Odblokowano nową klasę!	
 GLUE_CLASS_UNLOCKED_DECK	Otrzymano nową talię!	
-GLUE_CLASS_UPCOMING_DESC	łowca Demonów nie jest jeszcze dostępny	
+GLUE_CLASS_UPCOMING_DESC	Łowca demonów nie jest jeszcze dostępny	
 GLUE_CLASS_UPCOMING_HEADER	Jeszcze niedostępne	
 GLUE_CLOUD_STORAGE_CONTEXT_BODY_01	Zaraz pojawi się prośba o dostęp do twojego konta Dysku Google.\n\nJeśli pozwolisz na dostęp, będziemy zapisywać twoje postępy w grze na Dysku Google, tak aby można je było odzyskać w wypadku utraty urządzenia.	
 GLUE_CLOUD_STORAGE_CONTEXT_BODY_02	Zaraz pojawi się prośba o dostęp do twojego konta Dysku Google.\n\nHearthstone sprawdzi, czy są na nim zapisane postępy w grze.	
@@ -402,6 +402,7 @@ GLUE_COLLECTION_CRAFTING_MODE	Tryb rzemiosła
 GLUE_COLLECTION_CRAFTING_MODE_SHORT	Tworzenie kart	
 GLUE_COLLECTION_CRAFTING_SHOW_ONLY_GOLDEN	Złote karty	
 GLUE_COLLECTION_CRAFTING_SHOW_SOULBOUND_CARDS	Niewytwarzalne karty	
+GLUE_COLLECTION_CUSTOM_DECKNAME_SHORT	{0} – {1}	0=class name, 1=incrementer
 GLUE_COLLECTION_CUSTOM_DECKNAME_TEMPLATE	{0}{1}	0=class name, 1=incrementer
 GLUE_COLLECTION_DECK	Talia	
 GLUE_COLLECTION_DECK_COMPELTE_BUTTON	Uzupełnij talię	
@@ -426,6 +427,8 @@ GLUE_COLLECTION_DECK_HELP_BUTTON	Pomocnik
 GLUE_COLLECTION_DECK_HELPER_REPLACE_CARD	Wymień tę kartę	
 GLUE_COLLECTION_DECK_HELPER_REPLACE_INVALID_CARD	Zastąp dziką kartę	
 GLUE_COLLECTION_DECK_HELPER_REPLACE_INVALID_CARD_NPR	Wymaga rangi 25	
+GLUE_COLLECTION_DECK_HELPER_REPLACE_INVALID_CARD_NPR_NEW	Wymaga ukończenia szkolenia	
+GLUE_COLLECTION_DECK_HELPER_REPLACE_UNPLAYABLE_CARD	Jeszcze niegrywalna	
 GLUE_COLLECTION_DECK_HERO_NOT_UNLOCKED	Masz talię w schowku, ale ten bohater jest zablokowany.	
 GLUE_COLLECTION_DECK_INCOMPLETE_LABEL	Kliknij, aby dokończyć	
 GLUE_COLLECTION_DECK_INCOMPLETE_LABEL_TOUCH	Dotknij, aby dokończyć	
@@ -453,10 +456,12 @@ GLUE_COLLECTION_DECK_RENAME	Nazwij
 GLUE_COLLECTION_DECK_RULE_FINISH_AUTOMATICALLY	Czy chcesz uzupełnić talię automatycznie?	
 GLUE_COLLECTION_DECK_RULE_INVALID_CARDS	Masz {0} |4(kartę,karty,kart), |4(która,które,które) nie |4(pasuje,pasują,pasują) do tego formatu.	
 GLUE_COLLECTION_DECK_RULE_INVALID_CARDS_NPR	Masz {0} |4(kartę,karty,kart), |4(która,które,które) |4(wymaga,wymagają,wymagają) rangi 25.	
+GLUE_COLLECTION_DECK_RULE_INVALID_CARDS_NPR_NEW	Masz {0} |4(kartę,karty,kart), |4(która,które,które) |4(wymaga,wymagają,wymagają) ukończenia szkolenia.	
 GLUE_COLLECTION_DECK_RULE_INVALID_CLASS_CARD	W twojej talii są karty ({0}) z innej klasy.	
 GLUE_COLLECTION_DECK_RULE_MISSING_CARDS	Do pełnej talii brakuje ci {0} |4(karty,kart,kart).	
 GLUE_COLLECTION_DECK_RULE_NOT_ENOUGH_CARDS	Potrzebujesz jeszcze {0} |4(kartę,karty,kart), żeby stworzyć talię dla tej klasy. Możesz stworzyć nowe karty albo przygotować talię dla innej klasy.	
 GLUE_COLLECTION_DECK_RULE_TOO_MANY_CARDS	Masz w talii o {0} |4(kartę,karty,kart) za dużo.	
+GLUE_COLLECTION_DECK_RULE_UNPLAYABLE_CARDS	Masz {0} |4(kartę,karty,kart), |4(która,które,które) nie |4(jest,są,są) jeszcze grywalne.	
 GLUE_COLLECTION_DECK_SAVE_ANYWAY	Nie	
 GLUE_COLLECTION_DECK_TEMPLATE_HELP_BUTTON	Wymień karty	
 GLUE_COLLECTION_DECK_TEMPLATE_LOW_CARD_WARNING	Ups!	
@@ -1098,8 +1103,6 @@ GLUE_NEW_HERO	Nowy bohater!
 GLUE_NEW_PLAYER_AVAILABLE_AT_LEAGUE_PROMO	Dostępne\npo ukończeniu\nszkolenia	
 GLUE_NEW_PLAYER_AVAILABLE_AT_RANK_25	Dostępne po osiągnięciu rangi 25.	
 GLUE_NEW_PLAYER_PROMOTION_CHEST_DESC	Gratulacje! Teraz już\noficjalnie jesteś weteranem.\n\nOdtąd będziesz mierzyć się z twardszymi przeciwnikami.	
-GLUE_NEW_PLAYER_PROMOTION_CHEST_DESC_HUB	Nagrody za osiągnięcie rangi 25	
-GLUE_NEW_PLAYER_PROMOTION_CHEST_HEADER	Ranga {0}!	
 GLUE_NEW_PLAYER_SET_ROTATION_POPUP_BODY	Nadeszły nowe karty! Niektóre z twoich starszych kart wymagają teraz rangi 25.	
 GLUE_NEW_PLAYER_SET_ROTATION_POPUP_BODY_NEW	Nadeszły nowe karty! Niektóre z twoich starszych kart wymagają teraz ukończenia szkolenia.	
 GLUE_NEW_PLAYER_SET_ROTATION_POPUP_HEADER	Witaj ponownie!	
@@ -1191,6 +1194,7 @@ GLUE_RANKED_BONUS_STARS_FINE_PRINT	(Wraz ze wzrostem rangi otrzymujesz mniej dod
 GLUE_RANKED_REWARD_IN_GAME_FOOTER	Otwórz swoją skrzynię na koniec sezonu.	
 GLUE_RANKED_REWARD_IN_GAME_TITLE	Nagroda!	
 GLUE_RANKED_REWARD_LIST_CARDBACK_PROGRESS	Wygraj jeszcze {0} |4(partię,partie,partii)	
+GLUE_RANKED_REWARD_LIST_EARNED_CHEST_LABEL	Twoja skrzynia	
 GLUE_RANKED_REWARD_LIST_FLOOR_DESCRIPTION_BRONZE1	1 rzadka karta	
 GLUE_RANKED_REWARD_LIST_FLOOR_DESCRIPTION_DIAMOND1	7 rzadkich kart, 4 pakiety	
 GLUE_RANKED_REWARD_LIST_FLOOR_DESCRIPTION_DIAMOND2	7 rzadkich kart, 4 pakiety, 1 epicka karta	
@@ -1880,7 +1884,7 @@ GLUE_TIP_PLAY_2	Każda klasa ma 5 różnych kart podstawowych, które możesz od
 GLUE_TIP_PLAY_3	Wykonuj zadania, aby otrzymać złoto. Można je wykorzystać do zakupu pakietów kart lub dostępu do Areny.	
 GLUE_TIP_PLAY_4	Najwyższa ranga w trybie rankingowym to ranga „Legendy”!	
 GLUE_TIP_PLAY_5	Talie mogą zawierać dwa egzemplarze tej samej karty, ale tylko po jednej sztuce kart legendarnych.	
-GLUE_TIP_PLAY_6	Arena to wspaniałe miejsce na zdobycie nagród w za udział w mini-turnieju.	
+GLUE_TIP_PLAY_6	Arena to wspaniałe miejsce na zdobycie nagród w zamian za udział w mini-turnieju.	
 GLUE_TIP_PLAY_7	Nie musisz rozgrywać wszystkich pojedynków na Arenie za jednym razem.	
 GLUE_TIP_PLAY_8	Jeśli wygrasz 5 partii w trybie rankingowym w danym sezonie, otrzymasz specjalny rewers kart dla tego sezonu.	
 GLUE_TIP_PLAY_8_RANKED_2.0	Jeśli osiągniesz rangę 20 w danym sezonie, otrzymasz specjalny rewers kart dla tego sezonu.	

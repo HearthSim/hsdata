@@ -402,6 +402,7 @@ GLUE_COLLECTION_CRAFTING_MODE	Создание карт
 GLUE_COLLECTION_CRAFTING_MODE_SHORT	Создать	
 GLUE_COLLECTION_CRAFTING_SHOW_ONLY_GOLDEN	Только золотые карты	
 GLUE_COLLECTION_CRAFTING_SHOW_SOULBOUND_CARDS	Включить карты, которые нельзя создать	
+GLUE_COLLECTION_CUSTOM_DECKNAME_SHORT	{0}-{1}	0=class name, 1=incrementer
 GLUE_COLLECTION_CUSTOM_DECKNAME_TEMPLATE	{0}{1}	0=class name, 1=incrementer
 GLUE_COLLECTION_DECK	Колода	
 GLUE_COLLECTION_DECK_COMPELTE_BUTTON	Завершить колоду	
@@ -426,6 +427,8 @@ GLUE_COLLECTION_DECK_HELP_BUTTON	Получить совет
 GLUE_COLLECTION_DECK_HELPER_REPLACE_CARD	Заменить эту карту	
 GLUE_COLLECTION_DECK_HELPER_REPLACE_INVALID_CARD	Заменить карту вольного формата	
 GLUE_COLLECTION_DECK_HELPER_REPLACE_INVALID_CARD_NPR	Требуется 25-й ранг	
+GLUE_COLLECTION_DECK_HELPER_REPLACE_INVALID_CARD_NPR_NEW	Нужно завершить ученичество	
+GLUE_COLLECTION_DECK_HELPER_REPLACE_UNPLAYABLE_CARD	Карта еще не доступна	
 GLUE_COLLECTION_DECK_HERO_NOT_UNLOCKED	Герой, колода которого находится в буфере обмена, еще не открыт.	
 GLUE_COLLECTION_DECK_INCOMPLETE_LABEL	Завершить	
 GLUE_COLLECTION_DECK_INCOMPLETE_LABEL_TOUCH	Нажмите для завершения	
@@ -453,10 +456,12 @@ GLUE_COLLECTION_DECK_RENAME	Название
 GLUE_COLLECTION_DECK_RULE_FINISH_AUTOMATICALLY	Завершить колоду автоматически?	
 GLUE_COLLECTION_DECK_RULE_INVALID_CARDS	{0} |4(ваша карта не подходит,ваши карты не подходят,ваших карт не подходят) для этого формата.	
 GLUE_COLLECTION_DECK_RULE_INVALID_CARDS_NPR	У вас есть {0} |4(карты,карт,карт), для использования |4(которой,которых,которых) требуется 25-й ранг.	
+GLUE_COLLECTION_DECK_RULE_INVALID_CARDS_NPR_NEW	У вас есть {0} |4(карта,карты,карт), для использования |4(которой,которых,которых) требуется завершить ученичество.	
 GLUE_COLLECTION_DECK_RULE_INVALID_CLASS_CARD	В вашей колоде {0} |4(карта,карты,карт) другого класса.	
 GLUE_COLLECTION_DECK_RULE_MISSING_CARDS	До полной колоды не хватает {0} |4(карты,карты,карт).	
 GLUE_COLLECTION_DECK_RULE_NOT_ENOUGH_CARDS	Вам требуется еще {0} |4(карта,карты,карт) для завершения колоды этого класса. Создайте дополнительные карты или соберите колоду другого класса.	
 GLUE_COLLECTION_DECK_RULE_TOO_MANY_CARDS	В вашей колоде на {0} |4(карту,карты,карт) больше, чем нужно.	
+GLUE_COLLECTION_DECK_RULE_UNPLAYABLE_CARDS	У вас есть {0} |4(карта,карты,карт), |4(которую,которые,которых) невозможно разыграть.	
 GLUE_COLLECTION_DECK_SAVE_ANYWAY	Нет	
 GLUE_COLLECTION_DECK_TEMPLATE_HELP_BUTTON	Заменить карты	
 GLUE_COLLECTION_DECK_TEMPLATE_LOW_CARD_WARNING	Ой-ой!	
@@ -1098,8 +1103,6 @@ GLUE_NEW_HERO	Новый герой!
 GLUE_NEW_PLAYER_AVAILABLE_AT_LEAGUE_PROMO	Доступно\nпосле курса новичка	
 GLUE_NEW_PLAYER_AVAILABLE_AT_RANK_25	С 25-го ранга	
 GLUE_NEW_PLAYER_PROMOTION_CHEST_DESC	Поздравляем!\nТеперь вы – завсегдатай таверны!\nВас ждут более сильные противники!	
-GLUE_NEW_PLAYER_PROMOTION_CHEST_DESC_HUB	Награды за достижение 25-го ранга	
-GLUE_NEW_PLAYER_PROMOTION_CHEST_HEADER	{0}-й ранг!	
 GLUE_NEW_PLAYER_SET_ROTATION_POPUP_BODY	В игру добавлены новые карты! Для использования некоторых старых карт может понадобиться 25-й ранг.	
 GLUE_NEW_PLAYER_SET_ROTATION_POPUP_BODY_NEW	В игру добавлены новые карты! Для использования некоторых старых карт может понадобиться пройти курс новичка.	
 GLUE_NEW_PLAYER_SET_ROTATION_POPUP_HEADER	С возвращением!	
@@ -1191,6 +1194,7 @@ GLUE_RANKED_BONUS_STARS_FINE_PRINT	(чем выше ранг, тем меньш�
 GLUE_RANKED_REWARD_IN_GAME_FOOTER	Откройте сундук в конце сезона.	
 GLUE_RANKED_REWARD_IN_GAME_TITLE	Награда!	
 GLUE_RANKED_REWARD_LIST_CARDBACK_PROGRESS	Выиграйте еще {0} |4(матч,матча,матчей).	
+GLUE_RANKED_REWARD_LIST_EARNED_CHEST_LABEL	Ваш сундук	
 GLUE_RANKED_REWARD_LIST_FLOOR_DESCRIPTION_BRONZE1	1 редкая карта	
 GLUE_RANKED_REWARD_LIST_FLOOR_DESCRIPTION_DIAMOND1	7 редких карт, 4 комплекта	
 GLUE_RANKED_REWARD_LIST_FLOOR_DESCRIPTION_DIAMOND2	7 редких карт, 4 комплекта, 1 эпическая карта	
@@ -1944,7 +1948,7 @@ GLUE_TOURNAMENT_RANKED	Рейтинг
 GLUE_TOURNAMENT_RANKED_WILD	Вольная – рейтинг	
 GLUE_TOURNAMENT_STANDARD_DESC	Можно использовать только базовый и классический набор, а также карты, вышедшие в течение 2 последних лет.	
 GLUE_TOURNAMENT_STAR_MULT_BODY	Вы получаете {0} |4(звезду,звезды,звезд) за каждую победу (чем выше ранг, тем меньше бонус к звездам).	
-GLUE_TOURNAMENT_STAR_MULT_HEAD	Бонус к звездам: {0}x	
+GLUE_TOURNAMENT_STAR_MULT_HEAD	Бонус к звездам: x{0}	
 GLUE_TOURNAMENT_SWITCH_TO_STANDARD	Попробуйте перейти в стандартный режим!	
 GLUE_TOURNAMENT_SWITCH_TO_WILD	Здесь можно сменить формат колоды на вольный.	
 GLUE_TOURNAMENT_UNRANKED_DESC	Для нерейтинговых игр существует отдельная система подбора противников. За победу в этих играх вы не получите медали.	

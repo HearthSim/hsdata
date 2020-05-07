@@ -402,6 +402,7 @@ GLUE_COLLECTION_CRAFTING_MODE	Création
 GLUE_COLLECTION_CRAFTING_MODE_SHORT	Création	
 GLUE_COLLECTION_CRAFTING_SHOW_ONLY_GOLDEN	Cartes dorées uniquement	
 GLUE_COLLECTION_CRAFTING_SHOW_SOULBOUND_CARDS	Inclure les cartes impossibles à créer	
+GLUE_COLLECTION_CUSTOM_DECKNAME_SHORT	{0}{1}	0=class name, 1=incrementer
 GLUE_COLLECTION_CUSTOM_DECKNAME_TEMPLATE	Deck {0}{1}	0=class name, 1=incrementer
 GLUE_COLLECTION_DECK	Votre deck	
 GLUE_COLLECTION_DECK_COMPELTE_BUTTON	Compléter mon deck	
@@ -426,6 +427,8 @@ GLUE_COLLECTION_DECK_HELP_BUTTON	Suggérer une carte
 GLUE_COLLECTION_DECK_HELPER_REPLACE_CARD	Remplacer cette carte	
 GLUE_COLLECTION_DECK_HELPER_REPLACE_INVALID_CARD	Remplacer la carte libre	
 GLUE_COLLECTION_DECK_HELPER_REPLACE_INVALID_CARD_NPR	Requiert le rang 25	
+GLUE_COLLECTION_DECK_HELPER_REPLACE_INVALID_CARD_NPR_NEW	L’apprentissage doit être fini	
+GLUE_COLLECTION_DECK_HELPER_REPLACE_UNPLAYABLE_CARD	Pas encore jouable	
 GLUE_COLLECTION_DECK_HERO_NOT_UNLOCKED	Vous avez un deck dans le presse-papier mais ce héros est verrouillé.	
 GLUE_COLLECTION_DECK_INCOMPLETE_LABEL	Cliquez pour compléter	
 GLUE_COLLECTION_DECK_INCOMPLETE_LABEL_TOUCH	Touchez pour compléter	
@@ -453,10 +456,12 @@ GLUE_COLLECTION_DECK_RENAME	Renommer
 GLUE_COLLECTION_DECK_RULE_FINISH_AUTOMATICALLY	Voulez-vous le compléter automatiquement_?	
 GLUE_COLLECTION_DECK_RULE_INVALID_CARDS	Vous avez {0} |4(carte invalide,cartes invalides) pour ce mode.	
 GLUE_COLLECTION_DECK_RULE_INVALID_CARDS_NPR	Vous avez {0} |4(carte,cartes) qui |4(nécessite,nécessitent) le rang 25.	
+GLUE_COLLECTION_DECK_RULE_INVALID_CARDS_NPR_NEW	Vous avez {0} |4(carte qui nécessite,cartes qui nécessitent) d’avoir fini l’apprentissage.	
 GLUE_COLLECTION_DECK_RULE_INVALID_CLASS_CARD	Votre deck contient {0}_|4(carte,cartes) d’une autre classe.	
 GLUE_COLLECTION_DECK_RULE_MISSING_CARDS	Il vous manque {0} |4(carte,cartes) pour terminer ce deck.	
 GLUE_COLLECTION_DECK_RULE_NOT_ENOUGH_CARDS	Il vous manque {0}_|4(carte,cartes) pour compléter un deck avec cette classe. Essayez de créer des cartes ou un deck d’une autre classe.	
 GLUE_COLLECTION_DECK_RULE_TOO_MANY_CARDS	Vous avez {0} |4(carte,cartes) en trop dans ce deck.	
+GLUE_COLLECTION_DECK_RULE_UNPLAYABLE_CARDS	Vous avez {0} |4(carte qui n’est pas encore jouable,cartes qui ne sont pas encore jouables).	
 GLUE_COLLECTION_DECK_SAVE_ANYWAY	Non	
 GLUE_COLLECTION_DECK_TEMPLATE_HELP_BUTTON	Remplacer des cartes	
 GLUE_COLLECTION_DECK_TEMPLATE_LOW_CARD_WARNING	Oh oooh…	
@@ -1098,8 +1103,6 @@ GLUE_NEW_HERO	Nouveau héros !
 GLUE_NEW_PLAYER_AVAILABLE_AT_LEAGUE_PROMO	Disponible\naprès\nl’apprentissage	
 GLUE_NEW_PLAYER_AVAILABLE_AT_RANK_25	Disponible au rang 25	
 GLUE_NEW_PLAYER_PROMOTION_CHEST_DESC	Félicitations ! Vous êtes\nofficiellement un vétéran.\n\nDes adversaires plus difficiles vous attendent, désormais !	
-GLUE_NEW_PLAYER_PROMOTION_CHEST_DESC_HUB	Récompenses pour avoir atteint le rang 25	
-GLUE_NEW_PLAYER_PROMOTION_CHEST_HEADER	Rang {0} !	
 GLUE_NEW_PLAYER_SET_ROTATION_POPUP_BODY	De nouvelles cartes sont disponibles ! Vous devez être au rang 25 minimum pour jouer certaines de vos cartes plus anciennes.	
 GLUE_NEW_PLAYER_SET_ROTATION_POPUP_BODY_NEW	De nouvelles cartes sont disponibles ! Vous devez avoir complété l’apprentissage pour jouer certaines de vos cartes plus anciennes.	
 GLUE_NEW_PLAYER_SET_ROTATION_POPUP_HEADER	Heureux de vous revoir !	
@@ -1191,6 +1194,7 @@ GLUE_RANKED_BONUS_STARS_FINE_PRINT	(Le bonus d’étoiles diminue à mesure que 
 GLUE_RANKED_REWARD_IN_GAME_FOOTER	Ouvrez votre coffre à la fin de la saison.	
 GLUE_RANKED_REWARD_IN_GAME_TITLE	Récompense !	
 GLUE_RANKED_REWARD_LIST_CARDBACK_PROGRESS	Gagnez encore {0} |4(match,matchs)	
+GLUE_RANKED_REWARD_LIST_EARNED_CHEST_LABEL	Votre coffre	
 GLUE_RANKED_REWARD_LIST_FLOOR_DESCRIPTION_BRONZE1	1 carte rare	
 GLUE_RANKED_REWARD_LIST_FLOOR_DESCRIPTION_DIAMOND1	7 cartes rares, 4 paquets de cartes	
 GLUE_RANKED_REWARD_LIST_FLOOR_DESCRIPTION_DIAMOND2	7 cartes rares, 4 paquets de cartes, 1 carte épique	
@@ -1843,7 +1847,7 @@ GLUE_TIP_DEFAULT_16_TOUCH	Touchez le héros adverse pour ignorer ses emotes.
 GLUE_TIP_DEFAULT_17	Si vous gagnez 500 matchs en Partie classée ou en Arène avec une classe, vous obtenez un héros doré.	
 GLUE_TIP_DEFAULT_18	Vous pouvez ajouter des contacts à votre liste en utilisant le bouton situé en bas à gauche.	
 GLUE_TIP_DEFAULT_18_PHONE	Vous pouvez ajouter des contacts à votre liste en utilisant le bouton situé en haut à gauche.	
-GLUE_TIP_DEFAULT_19	Le rang le plus haut en Partie classée est celui de légende !	
+GLUE_TIP_DEFAULT_19	Le rang le plus haut en Partie classée est celui de Légende !	
 GLUE_TIP_DEFAULT_2	Faites un clic droit sur votre héros pour le faire réagir.	
 GLUE_TIP_DEFAULT_2_TOUCH	Touchez votre héros pour le faire réagir.	
 GLUE_TIP_DEFAULT_20	Regardez un ami jouer en cliquant sur le bouton en forme d’œil à côté de son nom, dans votre liste de contacts.	
@@ -1878,7 +1882,7 @@ GLUE_TIP_PLAY_0	Vous allez être associé à un joueur de votre niveau.
 GLUE_TIP_PLAY_1	Selon vos victoires et vos défaites, le système évaluera votre niveau et vous fera affronter un adversaire de votre catégorie.	
 GLUE_TIP_PLAY_2	Chaque classe possède 5 cartes de base différentes que vous pouvez débloquer quand vous gagnez des niveaux.	
 GLUE_TIP_PLAY_3	Accomplissez des quêtes pour gagner de l’or. L’or peut être utilisé pour acheter des paquets de cartes ou entrer dans l’Arène.	
-GLUE_TIP_PLAY_4	Le rang le plus haut en Partie classée est celui de légende !	
+GLUE_TIP_PLAY_4	Le rang le plus haut en Partie classée est celui de Légende !	
 GLUE_TIP_PLAY_5	Les decks peuvent contenir deux exemplaires de chaque carte, mais un seul d’une carte légendaire.	
 GLUE_TIP_PLAY_6	L’Arène est un excellent moyen de gagner des récompenses tout en participant à une mini compétition.	
 GLUE_TIP_PLAY_7	Vous n’avez pas besoin de jouer tous vos matchs d’Arène d’un coup.	
