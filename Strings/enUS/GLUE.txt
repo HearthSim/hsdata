@@ -1069,10 +1069,11 @@ GLUE_OFFLINE_FEATURE_DISABLED_BODY	This feature is unavailable while offline.
 GLUE_OFFLINE_SAVE_DECK_HEADER	Saved
 GLUE_OFFLINE_SAVE_DECK_BODY	Your deck has been saved on this device until you reconnect to the Internet.
 GLUE_OFFLINE_DECK_ERROR_BODY	There was an error creating your deck while offline. Please reconnect and try again.
+GLUE_OFFLINE_DECK_DELETED_REMOTELY_ERROR_BODY	The deck you were editing no longer exists.
 GLUE_PRACTICE_HINT	Practice Mode Here	
 GLUE_PATCHING_LABEL	Downloading {0}/{1} |4(file,files)
 GLUE_PATCHING_ERROR	We encountered an error when updating Hearthstone. Please try again.	
-GLUE_HEROIC_WARNING	Be warned that Heroic Mode is VERY punishing and is not for the faint of heart. Enter at your own risk!	
+GLUE_HEROIC_WARNING	Be warned that this mode is VERY punishing and is not for the faint of heart. Enter at your own risk!	
 GLUE_HEROIC_WARNING_TITLE	Warning!	
 GLUE_STORE_MODE_CARDS	Cards	
 GLUE_STORE_MODE_ADVENTURE	ADVENTURE	
@@ -1275,6 +1276,7 @@ GLUE_ADVENTURE_BOT_WING_MIRROR	Mirror
 GLUE_ADVENTURE_BOT_WING_BOARD_CLEAR	Board Clear
 GLUE_ADVENTURE_BOT_WING_SURVIVAL	Survival
 GLUE_ERROR_DECK_RULESET_RULE_VIOLATION	The selected deck is not valid for this game mode.	
+GLUE_ERROR_DECK_VALIDATION_WRONG_FORMAT	You cannot use a Wild deck for this mode.	
 GLUE_DECK_TEMPLATE_CHOOSE_DECK	{0} Recipes	0=name of class (e.g. Shaman)
 GLUE_DECK_TEMPLATE_CUSTOM_DECK	Custom Deck	
 GLUE_DECK_TEMPLATE_CURRENT_DECK	Current Deck	
@@ -1662,6 +1664,7 @@ GLUE_ADVENTURE_DUNGEON_CRAWL_ANOMALY_MODE_PANEL_DESCRIPTION	Gain a random effect
 GLUE_ADVENTURE_STORYMODE_TITLE	Dalaran
 GLUE_ADVENTURE_STORYMODE_TITLE_ULD	Uldum
 GLUE_ADVENTURE_STORYMODE_TITLE_DRG	Galakrond's Awakening
+GLUE_ADVENTURE_STORYMODE_TITLE_BTA	Trial by Felfire
 GLUE_ADVENTURE_STORYMODE_UNLOCK_PREVIOUSCHAPTER	Requires unlock of\nprevious chapter
 GLUE_ADVENTURE_STORE_CHOOSESTORE_DAL_TITLE	Unlock
 GLUE_ADVENTURE_STORE_CHOOSESTORE_UNLOCK_FULLBOOK	Unlock\nFull Adventure
@@ -1678,7 +1681,7 @@ GLUE_ADVENTURE_STORE_WHATSINSIDE_ANOMALY	Instantly unlock Anomaly mode to gain a
 GLUE_STORE_PRODUCT_DETAILS_DALA_PART_1	Do battle with the deadly {0} bosses in single player combat.	0=wing name
 GLUE_STORE_PRODUCT_DETAILS_DALA_PART_2	Unlock a new Chapter with unique challenges and new heroes to play as!
 GLUE_ADVENTURE_REWARD_PAGE_TITLE	Reward
-GLUE_ADVENTURE_REWARD_PAGE_TITLE_HEROIC	Heroic Reward
+GLUE_ADVENTURE_REWARD_PAGE_TITLE_HEROIC	Challenges Reward
 GLUE_ADVENTURE_REWARD_PAGE_TITLE_PROGRESS	Adventure Progress
 GLUE_ADVENTURE_REWARD_PAGE_STATISTIC_BOSSES	Bosses Defeated
 GLUE_ADVENTURE_REWARD_PAGE_STATISTIC_CARDS	Cards Collected
@@ -1686,7 +1689,8 @@ GLUE_ADVENTURE_REWARD_PAGE_GOLDENPACK	Golden Pack
 GLUE_ADVENTURE_CARDBACKPAGE_DAL_EVILCARD_NAME_NORMAL	Prize of Shadows
 GLUE_ADVENTURE_CARDBACKPAGE_DAL_EVILCARD_NAME_HEROIC	Got Away with It!
 GLUE_ADVENTURE_REWARD_DESCRIPTION_NORMAL	Complete all Chapters to earn these rewards!
-GLUE_ADVENTURE_REWARD_DESCRIPTION_HEROIC	Complete this campaign in Heroic Mode to earn this Card Back!
+GLUE_ADVENTURE_REWARD_DESCRIPTION_NORMAL_SINGULAR	Complete all Chapters to earn this reward!
+GLUE_ADVENTURE_REWARD_DESCRIPTION_HEROIC	Complete this campaign in Challenges Mode to earn this reward!
 GLUE_ADVENTURE_REWARD_DESCRIPTION_STATS	Additional rewards available in Heroic!
 GLUE_ADVENTURE_REWARD_PAGE_CHAPTER_REWARD_PACKS	Earn 3 packs for reaching the 5th boss in this Chapter!
 GLUE_ADVENTURE_REWARD_PAGE_CHAPTER_REWARD_CHAPTER5_PACKS	Earn 3 packs by defeating the boss in this Chapter!
@@ -1788,6 +1792,53 @@ GLUE_ADVENTURE_CARDBACKPAGE_DRG_EVILCARD_NAME_GOOD	Book of Explorers
 GLUE_ADVENTURE_CARDBACKPAGE_DRG_EVILCARD_NAME_EVIL	Book of E.V.I.L.
 GLUE_ADVENTURE_CHEST_POPUP_DRG	Defeat the bosses in a chapter to earn rewards!
 GLUE_ADVENTURE_PURCHASE_REWARD_POPUP_DRG	Earn cards instantly for unlocking this chapter!
+
+GLUE_ADVENTURE_CARDBACKPAGE_BTA_NAME	Rusted Legion
+GLUE_ADVENTURE_GOLDENCARD_BTA	Golden Card
+
+GLUE_TIP_ADVENTURE_BTA_1	Aranna has always lived in the shadow\nof her sister, Elise Starseeker.
+GLUE_TIP_ADVENTURE_BTA_2	Dr. Boom abandoned the Mecha-Jaraxxus experiment\nbut never bothered to shut him down.
+GLUE_TIP_ADVENTURE_BTA_3	Mecha-Jaraxxus has upgraded abs. How are your abs?\nIt may be time to pause and reflect.
+GLUE_TIP_ADVENTURE_BTA_4	The Rusted Legion is remaking Outland\nin its own twisted, half-mechanized image.
+GLUE_TIP_ADVENTURE_BTA_5	Play with provided decks in Story mode.\nBuild your own decks to defeat Challenge mode!
+GLUE_TIP_ADVENTURE_BTA_6	Test your deckbuilding prowess against\nOutland’s greatest villains in Challenge mode!
+GLUE_TIP_ADVENTURE_BTA_7	After the Third War, Illidan brought his\nfollowers – the Illidari – to Outland.
+GLUE_TIP_ADVENTURE_BTA_8	The Black Temple was once a sacred draenei cathedral.\nIllidan uses it as a training ground for Demon Hunters.
+GLUE_TIP_ADVENTURE_BTA_9	In Story mode, be sure to take advantage of your special Hero Powers.
+GLUE_TIP_ADVENTURE_BTA_10	Demon Hunters sacrifice their eyes to gain spectral sight\nwith which to track their demonic foes.
+GLUE_TIP_ADVENTURE_BTA_11	Aranna must gather together outcasts from all over\nOutland if they are to have any hope to survive.
+GLUE_TIP_ADVENTURE_BTA_12	Terrifying “Prime” minions have been absorbed into\nthe Rusted Legion as half-mechanical monstrosities.
+GLUE_TIP_ADVENTURE_BTA_13	To survive these wastes, Aranna and her outcasts\nmust learn the ways of the Demon Hunter!
+GLUE_TIP_ADVENTURE_BTA_14	Before becoming a Demon Hunter, Aranna was a\nscrappy survivor using hunter abilities and rogue traps.
+GLUE_TIP_ADVENTURE_BTA_15	Illidan’s own people have branded him “The Betrayer.”\nThat kind of thing sticks with a person, you know?
+GLUE_TIP_ADVENTURE_BTA_16	Illidan is the brother of Malfurion Stormrage,\nbut forged his own path during the War of the Ancients.
+GLUE_TIP_ADVENTURE_BTA_17	Outland was known as “Draenor,” homeworld of the orcs...\nBefore Gul’dan shattered the planet. Not cool, Gul’dan.
+GLUE_TIP_ADVENTURE_BTA_18	Felstorms rage across the ruined world of Outland.\nSurvivors cobble together gear and live amongst the wastes.
+GLUE_TIP_ADVENTURE_BTA_19	Aranna’s outcasts gain special powers when played\nfrom the left or rightmost part of your hand.
+GLUE_TIP_ADVENTURE_BTA_20	Mecha-Jaraxxus has absolute control over all the minions\nin the Rusted Legion. They’re built that way.
+GLUE_TIP_ADVENTURE_BTA_21	Draenei who remained in Outland, such as Baduu,\nare often corrupted into “the Broken” by fel energies.
+GLUE_TIP_ADVENTURE_BTA_22	That noise behind you is probably a fel reaver.
+
+GLUE_BTA_LOADING_BAR_TASK_1	Hunting Demons
+GLUE_BTA_LOADING_BAR_TASK_2	Burning Crusades
+GLUE_BTA_LOADING_BAR_TASK_3	Ignoring Setbacks
+GLUE_BTA_LOADING_BAR_TASK_4	Fighting Felboars
+GLUE_BTA_LOADING_BAR_TASK_5	Powering Primes
+GLUE_BTA_LOADING_BAR_TASK_6	Hacking Jaraxxus
+GLUE_BTA_LOADING_BAR_TASK_7	Whittling Warglaives
+GLUE_BTA_LOADING_BAR_TASK_8	Metamorphosizing
+GLUE_BTA_LOADING_BAR_TASK_9	Darkening Portals
+GLUE_BTA_LOADING_BAR_TASK_10	Preparing
+GLUE_BTA_LOADING_BAR_TASK_11	Getting Tattooed
+GLUE_BTA_LOADING_BAR_TASK_12	Hoofin’ it
+GLUE_BTA_LOADING_BAR_TASK_13	Imprisoning Demons
+GLUE_BTA_LOADING_BAR_TASK_14	Focusing Eyebeams
+GLUE_BTA_LOADING_BAR_TASK_15	Getting Rusty
+GLUE_BTA_LOADING_BAR_TASK_16	Blackening Temples
+GLUE_BTA_LOADING_BAR_TASK_17	Fleeing Fel Reavers
+GLUE_BTA_LOADING_BAR_TASK_18	Brooding
+GLUE_BTA_LOADING_BAR_TASK_19	Forming Felstorms
+GLUE_BTA_LOADING_BAR_TASK_20	Attaching Augments
 
 GLUE_ULD_LOADING_BAR_TASK_1	Digging Holes
 GLUE_ULD_LOADING_BAR_TASK_2	Excavating Ruins
@@ -1923,6 +1974,7 @@ GLUE_BACON_STATS_VALUE_HOURS_PLAYED	{0} |4(hr,hrs)
 GLUE_BACON_PERKS_ERROR_HEADER	Battlegrounds Bonuses
 GLUE_BACON_PERKS_ERROR_BODY	There are currently no Battlegrounds Bonuses. Please check back later.
 GLUE_BACON_PERKS_EXPIRING_BODY	Your Battlegrounds Bonuses are expiring soon. You can gain access to the next season of Battlegrounds Perks by purchasing the new Tavern Pass once <color="#FF0156">Ashes of Outland</color> is released.
+GLUE_BACON_NOTIFICATION_POPUP_HEADER	Battlegrounds Update
 GLUE_SHOP_RIBBON_LATEST_ADVENTURE	Latest Adventure
 GLUE_SHOP_RIBBON_PREPURCHASE_BUNDLE	Pre-Purchase Bundle
 GLUE_SHOP_RIBBON_GREATEST_NEWPLAYERS	Great for New Players
@@ -1988,6 +2040,7 @@ GLUE_RANKED_REWARD_LIST_FLOOR_DESCRIPTION_PLATINUM2	7 Rare Cards, 3 Packs
 GLUE_RANKED_REWARD_LIST_FLOOR_DESCRIPTION_DIAMOND1	7 Rare Cards, 4 Packs
 GLUE_RANKED_REWARD_LIST_FLOOR_DESCRIPTION_DIAMOND2	7 Rare Cards, 4 Packs, 1 Epic Card
 GLUE_RANKED_REWARD_LIST_FLOOR_DESCRIPTION_LEGEND1	7 Rare Cards, 5 Packs, 1 Epic Card
+GLUE_ADVENTURE_REQUIRES_PREVIOUS_CHAPTER_COMPLETION	Requires completion of previous chapters.
 GLUE_DEMON_HUNTER_LOCKED_HEADER	Hero Locked
 GLUE_DEMON_HUNTER_LOCKED_PROLOGUE	Play "Ashes of Outland - Demon Hunter Prologue" in Solo Adventures to unlock this hero. 
 GLUE_RANKED_REWARD_QUEST_LOG_CARDBACK_PROGRESS	Win {0} more |4(game,games)
