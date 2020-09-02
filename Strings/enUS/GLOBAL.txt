@@ -309,6 +309,7 @@ GLOBAL_PLAY	Play
 GLOBAL_PLAY_RANKED	Play Ranked
 GLOBAL_PLAY_STANDARD	Play Standard
 GLOBAL_PLAY_WILD	Play Wild
+GLOBAL_PLAY_WAITING	Waiting
 GLOBAL_STANDARD	Standard
 GLOBAL_WILD	Wild
 GLOBAL_BACK	Back
@@ -372,6 +373,7 @@ GLOBAL_ASSET_INTENTION_DOWNLOADING_SPELL_SOUNDS	Spell sound
 GLOBAL_ASSET_INTENTION_DOWNLOADING_EXPANSION_MUSIC	Additional sound (2/3)
 GLOBAL_ASSET_INTENTION_DOWNLOADING_OTHER_MINION_SOUNDS	Additional sound (3/3)
 GLOBAL_ASSET_INTENTION_DOWNLOADING_MISSION_SOUNDS	Solo adventure sounds
+GLOBAL_ASSET_INTENTION_DOWNLOADING_HERO_MUSIC	Hero music
 GLOBAL_ASSET_INTENTION_DONE	Done
 GLOBAL_RELAUNCH_APPLICATION_AFTER_INSTALLAPK	Attempting to install new client. Please restart Hearthstone if the client was not installed.
 GLOBAL_CONCEDE	Concede
@@ -394,7 +396,7 @@ GLOBAL_FIRESIDE_GATHERING_REUNPACK	Update Setup
 GLOBAL_FRIEND_CHALLENGE_TITLE	Friendly
 GLOBAL_FRIEND_CHALLENGE_HEADER	Challenge
 GLOBAL_FRIEND_CHALLENGE_BODY1	You've been challenged by:
-GLOBAL_FRIEND_CHALLENGE_BODY_BACON	You've been invited to join a\nBattlegrounds game by:
+GLOBAL_FRIEND_CHALLENGE_BODY_BACON	You've been invited to join a\nBattlegrounds party by:
 GLOBAL_FRIEND_CHALLENGE_BODY1_WILD	You've been challenged to a\nWild game by:
 GLOBAL_FRIEND_CHALLENGE_BODY1_STANDARD	You've been challenged to a Standard game by:
 GLOBAL_FRIEND_CHALLENGE_BODY2	Do you accept?
@@ -559,6 +561,7 @@ GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_THEYRE_UNAVAILABLE	You can't challenge {0} ri
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_AVAILABLE	Challenge {0} to a game of Hearthstone.	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_APPEARING_OFFLINE	You can't challenge {0} right now. You are set to appear offline.	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_EARLY_ACCESS	This mode is currently in Early Access.
+GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_BATTLEGROUNDS_PARTY_MEMBER	You can't send a challenge while in a Battlegrounds party.
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_STANDARD_DUEL_BUTTON	Standard Duel
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_WILD_DUEL_BUTTON	Wild Duel
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_DUEL_BUTTON	Duel
@@ -595,6 +598,10 @@ GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_SPECTATING_HEADER	In Spectator Mode
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_SPECTATING_TEXT	You are currently spectating this player.
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_PREVIOUSLY_KICKED_HEADER	Cannot Spectate
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_PREVIOUSLY_KICKED_TEXT	You've been previously removed from spectating this player. You cannot attempt to spectate again.
+GLOBAL_FRIENDLIST_BATTLEGROUNDS_TOOLTIP_INVITE_HEADER	Invite
+GLOBAL_FRIENDLIST_BATTLEGROUNDS_TOOLTIP_INVITE_BODY	Invite {0} to play Battlegrounds with you.	0=player name
+GLOBAL_FRIENDLIST_BATTLEGROUNDS_TOOLTIP_KICK_HEADER	Kick
+GLOBAL_FRIENDLIST_BATTLEGROUNDS_TOOLTIP_KICK_BODY	Remove {0} from your Battlegrounds party.	0=player name
 GLOBAL_SPECTATE	Spectate
 GLOBAL_SPECTATOR_LEAVE_PROMPT_HEADER	Leave Spectator Mode
 GLOBAL_SPECTATOR_LEAVE_PROMPT_TEXT	Are you sure you want to stop spectating?
@@ -858,6 +865,8 @@ GLOBAL_HEALTHY_GAMING_CHINA_MORE_THAN_FIVE_HOURS_PHONE	您已进入不健康游�
 GLOBAL_CURRENT_TIME	{0:h:mm tt}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
 GLOBAL_CURRENT_DATE	{0:MM/dd/yy}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
 GLOBAL_CURRENT_TIME_AND_DATE_DEV	{0} ({1} - {2})
+GLOBAL_CURRENT_TIME_AM	AM
+GLOBAL_CURRENT_TIME_PM	PM
 GLOBAL_HEALTHY_GAMING_KOREA_STARTUP_MESSAGE	본 게임물은 만 12세 이용가 게임으로서 해당 연령 미만의 청소년이 이용하기에 부적절합니다. 반드시 보호자의 지도 감독이 필요합니다.	
 GLOBAL_HEALTHY_GAMING_CHINA_STARTUP_MESSAGE	抵制不良游戏，拒绝盗版游戏。\n注意自我保护，谨防上当受骗。\n适度游戏益脑，沉迷游戏伤身。\n合理安排时间，享受健康生活。	
 GLOBAL_HEALTHY_GAMING_CHINA_STARTUP_SUBTEXT	ISBN：978-7-900262-36-3 版署批号：新出审字[2013]1510号 沪网文[2017]9633-727号 文网进字[2013]029号 著作权：暴雪娱乐有限公司 出版单位：金报电子音像出版中心	
@@ -993,3 +1002,5 @@ GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_START	<color=#{0}>{1}</color> started a ne
 GLOBAL_BUTTON_CLOSE	Close
 GLOBAL_NOT_AVAILABLE	Not Available
 GLOBAL_COMMA_SEPARATOR	, 
+GLOBAL_PLAYER_MIGRATION_RESTART_HEADER	Account needs to be updated
+GLOBAL_PLAYER_MIGRATION_RESTART_BODY	Your account needs to be updated.\nPlease restart the game.
