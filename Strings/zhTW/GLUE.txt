@@ -278,7 +278,7 @@ GLUE_BACON_RANKED_GAME	排名對戰
 GLUE_BACON_RATING_LABEL	積分	
 GLUE_BACON_STATS_LABEL_BIGGEST_MINION	最大的手下	
 GLUE_BACON_STATS_LABEL_DAMAGE_ONE_MINION	{0}的傷害	
-GLUE_BACON_STATS_LABEL_DAMAGE_ONE_TURN	手下最高傷害	
+GLUE_BACON_STATS_LABEL_DAMAGE_ONE_TURN	手下\n最高傷害	
 GLUE_BACON_STATS_LABEL_FIRST_PLACE	第一名	Place Finishes
 GLUE_BACON_STATS_LABEL_GAME_PLAYED	賽局	
 GLUE_BACON_STATS_LABEL_GAMES_PLAYED	場遊戲	
@@ -474,6 +474,8 @@ GLUE_COLLECTION_CRAFTING_SHOW_SOULBOUND_CARDS	包括無法合成的卡牌
 GLUE_COLLECTION_CUSTOM_DECKNAME_SHORT	{0}{1}	0=class name, 1=incrementer
 GLUE_COLLECTION_CUSTOM_DECKNAME_TEMPLATE	自訂{0}{1}	0=class name, 1=incrementer
 GLUE_COLLECTION_DECK	套牌	
+GLUE_COLLECTION_DECK_CLIPBOARD_ACCESS_BODY	為了方便玩家編組套牌，《爐石戰記》偶而會使用<b>你裝置上的剪貼簿</b>，以讀取從外部資源複製而來的套牌。這也能讓你更容易複製套牌，以及和其他人分享你的套牌！	
+GLUE_COLLECTION_DECK_CLIPBOARD_ACCESS_HEADER	剪貼簿	
 GLUE_COLLECTION_DECK_COMPELTE_BUTTON	補完我的套牌	
 GLUE_COLLECTION_DECK_COMPLETE_POPUP_CANCEL	取消	
 GLUE_COLLECTION_DECK_COMPLETE_POPUP_CONFIRM	確定	
@@ -552,6 +554,7 @@ GLUE_COLLECTION_DECK_WILD_POPUP_TEXT	這是一副開放套牌。你要將它自�
 GLUE_COLLECTION_DELETE_CONFIRM_DESC	這將刪除你這副套牌。確定嗎？	
 GLUE_COLLECTION_DELETE_CONFIRM_HEADER	刪除	
 GLUE_COLLECTION_DELETE_UNAVAILABLE_DESC	在解開全部職業之前，你無法刪除套牌。	
+GLUE_COLLECTION_DUEL_DECKNAME	決鬥擂台套牌	
 GLUE_COLLECTION_EMPTY_PAGE	第0頁	
 GLUE_COLLECTION_ERROR_HEADER	牌庫錯誤！	
 GLUE_COLLECTION_FEATURED_CARDS	焦點卡牌	
@@ -756,6 +759,7 @@ GLUE_EDIT	編輯
 GLUE_EDIT_DECK	編輯套牌	
 GLUE_ERROR_DECK_RULESET_RULE_VIOLATION	選取的套牌不適用於此遊戲模式。	
 GLUE_ERROR_DECK_VALIDATION_WRONG_FORMAT	你不能在此模式使用開放套牌。	
+GLUE_ERROR_PLAY_GAME_PARTY_NOT_ALLOWED	你的隊伍中有一位玩家的積分過高，無法參與隊伍進行排名對戰。	
 GLUE_FAKE_QUEST_FIRST_DESCRIPTION	但你走錯邊了…	
 GLUE_FAKE_QUEST_FIRST_NAME	歡迎來到加基森！	
 GLUE_FAKE_QUEST_FIRST_REWARD	0枚金幣	
@@ -866,12 +870,14 @@ GLUE_FSG_STARTING_MINUTES	{0}分鐘後開始
 GLUE_FSG_STARTING_OVER_1_MONTH	再一個多月才會開始	
 GLUE_FSG_STARTING_SECONDS	{0}秒後開始	
 GLUE_FSG_STARTING_WEEKS	{0}週後開始	
+GLUE_GAME_MODE_NEW_MODE_UNLOCKED_POPUP_HEADER	解鎖新模式：	
 GLUE_GAME_MODES	其他模式	
 GLUE_GAME_MODES_POPUP_BACON_DESC	和7名玩家對戰	
 GLUE_GAME_MODES_POPUP_BETA	BETA測試	
 GLUE_GAME_MODES_POPUP_EARLY_ACCESS	早鳥體驗	
 GLUE_GAME_MODES_POPUP_FORGE_DESC	隨機選牌組一副30張卡牌的套牌	
 GLUE_GAME_MODES_POPUP_HEADER	選擇模式	
+GLUE_GAME_MODES_POPUP_PVPDR_DESC	撿寶、選牌，為榮耀而戰！	
 GLUE_GENERIC_RANDOM_CARD_SCROLL_DESC	你的組合包內容包括{0}！	This is meant to replace the above welcome bundle strings until we have the tech to show custom strings per reward.
 GLUE_GENERIC_RANDOM_CARD_SCROLL_TITLE	傳說卡牌!!	This is meant to replace the above welcome bundle strings until we have the tech to show custom strings per reward.
 GLUE_GHOST_CARD_MISSING_DESCRIPTION	你沒有這張牌。\n點擊以找出替代的卡牌。	
@@ -1211,6 +1217,50 @@ GLUE_PUSH_NOTIFICATION_CONTEXT_CANCEL	不要
 GLUE_PUSH_NOTIFICATION_CONTEXT_CONFIRM	當然要！	
 GLUE_PUSH_NOTIFICATION_CONTEXT_HEADER	推播通知	
 GLUE_PUSH_NOTIFICATION_EXTENDED_CONTEXT_BODY	你似乎把爐石戰記的提示訊息關閉了。請前往裝置設定，開啟這個應用程式的提示訊息！	
+GLUE_PVPDR	決鬥擂台	
+GLUE_PVPDR_BEST_WINS_AS_CLASS	使用{0}的最佳表現	0 = Class name
+GLUE_PVPDR_BUILD_DECK	編組套牌	
+GLUE_PVPDR_DECK_ERROR_DESC	讀取你的套牌時發生錯誤，請稍後再試。	
+GLUE_PVPDR_DECK_ERROR_TITLE	套牌錯誤	
+GLUE_PVPDR_DECK_TRAY_HEADER	決鬥擂台套牌	
+GLUE_PVPDR_EARLY_ACCESS_SHOP_ERROR_BODY	目前沒有決鬥擂台早鳥體驗產品。請稍後再試。	
+GLUE_PVPDR_END_OF_RUN_HEADER	挑戰結束	
+GLUE_PVPDR_END_OF_RUN_TIER_0_WIN	你已經盡力了。\n再回去挑戰一次吧！\n<color=#e3ab0c>普通模式積分：{0}</color>	
+GLUE_PVPDR_END_OF_RUN_TIER_1_WIN	你的表現不錯。\n要不要再玩一次？\n<color=#e3ab0c>普通模式積分：{0}</color>	
+GLUE_PVPDR_END_OF_RUN_TIER_2_WIN	剛剛的表現真是精采。要再玩一次嗎？\n<color=#e3ab0c>普通模式積分：{0}</color>	
+GLUE_PVPDR_END_OF_RUN_TIER_MAX_WIN	太厲害了！你贏得了最高的勝場次數。恭喜！\n<color=#e3ab0c>普通模式積分：{0}</color>	
+GLUE_PVPDR_ENTRY_POPUP_BUTTON_LOCKED	敬請期待！	
+GLUE_PVPDR_ENTRY_POPUP_DESCRIPTION_HEROIC	爭奪最高獎勵	
+GLUE_PVPDR_ENTRY_POPUP_DESCRIPTION_NORMAL	測試你的本領	
+GLUE_PVPDR_ENTRY_POPUP_LABEL_HEROIC	英雄決鬥擂台	
+GLUE_PVPDR_ENTRY_POPUP_LABEL_NORMAL	休閒決鬥擂台	
+GLUE_PVPDR_EXPANSION_SUBTITLE	巫師鬥法	
+GLUE_PVPDR_FOOTER	選擇一位英雄，打造你的套牌，並且在戰鬥之餘強化它！	
+GLUE_PVPDR_HIGH_WATERMARK_LABEL	最佳表現勝場數	
+GLUE_PVPDR_LABEL_RATING_RESET_DAYS	積分重置時間：{0}天後	
+GLUE_PVPDR_LABEL_RATING_RESET_HOURS	積分重置時間：{0}小時後	
+GLUE_PVPDR_LABEL_RATING_RESET_MINUTES	積分重置時間：{0}分鐘後	
+GLUE_PVPDR_LABEL_RATING_RESET_OVER_1_MONTH	積分重置時間：>1個月	
+GLUE_PVPDR_LABEL_RATING_RESET_SECONDS	積分重置時間：{0}秒後	
+GLUE_PVPDR_LABEL_RATING_RESET_WEEKS	積分重置時間：{0}週後	
+GLUE_PVPDR_LABEL_SEASON_ENDING_DAYS	賽季結束時間：{0}天後	
+GLUE_PVPDR_LABEL_SEASON_ENDING_HOURS	賽季結束時間：{0}小時後	
+GLUE_PVPDR_LABEL_SEASON_ENDING_MINUTES	賽季結束時間：{0}分鐘後	
+GLUE_PVPDR_LABEL_SEASON_ENDING_OVER_1_MONTH	賽季結束時間：>1個月	
+GLUE_PVPDR_LABEL_SEASON_ENDING_SECONDS	賽季結束時間：{0}秒後	
+GLUE_PVPDR_LABEL_SEASON_ENDING_WEEKS	賽季結束時間：{0}週後	
+GLUE_PVPDR_LABEL_VAULT_LIVES	剩餘場數	
+GLUE_PVPDR_LABEL_VAULT_WINS	場勝利	
+GLUE_PVPDR_LOCK_IN	確認套牌	
+GLUE_PVPDR_LOCK_IN_DESC	編組好你的決鬥擂台套牌了嗎？確認之後將無法變更。	
+GLUE_PVPDR_RATING_LABEL	積分	
+GLUE_PVPDR_RATING_LABEL_HEROIC	積分(英雄模式)	
+GLUE_PVPDR_RATING_LABEL_NORMAL	積分(普通模式)	
+GLUE_PVPDR_SESSION_END_ERROR	結束決鬥擂台賽程時發生錯誤。請再試一次。	
+GLUE_PVPDR_SESSION_START_FAILED_BODY	無法創建決鬥擂台賽程。請稍後再試。	
+GLUE_PVPDR_SIGNUPS_CLOSED	本賽季即將結束。現在不開放入場。	
+GLUE_PVPDR_UNLOCKS_LABEL	解鎖	
+GLUE_PVPDR_UNLOCKS_TEXT	{0} / {1}	
 GLUE_QUEST_FINISHED_DAILY	你完成了全部的每日任務。	
 GLUE_QUEST_LOG_ARENA	競技場	
 GLUE_QUEST_LOG_BEST_FORGE_RECORD_HEADLINE	最佳競技場鑰匙	
@@ -1567,7 +1617,7 @@ GLUE_STORE_ICC_PREORDER_DUST_DATE	卡牌包可以在八月中旬打开！
 GLUE_STORE_INFO_BUTTON_TEXT	i	
 GLUE_STORE_KOREAN_DISCLAIMER_DETAILS	특정 카드를 원하신다면 아래와 같이 ‘마력 추출’ 기능을 통해 100%의 확률로 제작할 수 있습니다.\n   1) 카드 팩을 구매하고 개봉하여 원하는 카드가 있는지 확인합니다.\n   2) 원하는 카드가 없다면 “내 카드” 메뉴에서 필요하지 않은 카드를 선택하고 “마력 추출” 기능을 사용하세요. 이 기능을 사용하면 해당 카드를 제거하고 “신비한 가루”를 획득합니다.\n   3) “내 카드” 메뉴의 “제작하기” 기능으로 “신비한 가루”를 사용하여 원하는 카드를 제작합니다.\n카드 팩 하나당 최소 40개의 “신비한 가루”를 얻을 수 있습니다. 일반/희귀/영웅/전설 카드를 제작하려면 각각 40/100/400/1600개의 “신비한 가루”가 필요합니다. 즉, 카드 팩을 1/3/10/40개 구매하면 반드시 일반/희귀/영웅/전설 카드 하나를 제작할 수 있습니다.	
 GLUE_STORE_KOREAN_DISCLAIMER_HEADLINE	주의！	
-GLUE_STORE_KOREAN_PRODUCT_DETAILS_ADVENTURE	본 묶음 상품은 구매 후 환불되지 않으며, 구매 즉시 모든 지구 이용이 가능합니다.  	
+GLUE_STORE_KOREAN_PRODUCT_DETAILS_ADVENTURE	본 묶음 상품은 구매 후 환불되지 않으며, 구매 즉시 모든 지구 이용이 가능합니다.	
 GLUE_STORE_KOREAN_PRODUCT_DETAILS_EXPERT_PACK	이용기간 : 서비스 종료 시까지. 본 상품은 구매 후 7일 이내에 청약철회가 가능합니다. 다만, 1개의 카드팩이라도 개봉한 경우에는 청약철회가 불가능합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_KOREAN_PRODUCT_DETAILS_FIRST_PURCHASE_BUNDLE	이용기간: 서비스 종료 시까지. 본 상품은 구매 후 즉시 임의 직업의 오리지널 전설 카드가 귀하의 카드에 추가되므로 구매 후 환불이 불가능합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_KOREAN_PRODUCT_DETAILS_PACKS_PREORDER	사전 구매 상품은 실제 상품 출시 전까지 환불이 가능합니다.	
@@ -1690,7 +1740,7 @@ GLUE_STORE_SUMMARY_CHARGE_DETAILS	將會從你的{0}扣款
 GLUE_STORE_SUMMARY_HEADLINE	總結	
 GLUE_STORE_SUMMARY_ITEM_ORDERED	{0} x {1}	0=item quantity, 1=item name (one of GLUE_STORE_PRODUCT_NAME_*)
 GLUE_STORE_SUMMARY_ITEMS_ORDERED_HEADLINE	訂購的物品	
-GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_ADVENTURE_BUNDLE	본 묶음 상품은 구매 후 환불되지 않으며, 구매 즉시 모든 지구 이용이 가능합니다.  	
+GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_ADVENTURE_BUNDLE	본 묶음 상품은 구매 후 환불되지 않으며, 구매 즉시 모든 지구 이용이 가능합니다.	
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_ADVENTURE_SINGLE	본 상품은 구매 후 환불되지 않으며, 구매 즉시 해당 지구에 내용이 적용됩니다	
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_BATTLEGROUNDS_PERKS	이용기간: 다음 확장팩 출시일 전까지. 본 상품은 구매 즉시 효과가 적용되므로 구매 후 환불이 불가능합니다.	
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_CONFIRM	본 거래와 관련된 조건과 약관을 확인하며 이에 동의합니다.	only displayed for Korean customers, should always be in Korean
@@ -1981,6 +2031,30 @@ GLUE_TIP_DEFAULT_7	如果你任務全都做完了，明天回來看看就會有�
 GLUE_TIP_DEFAULT_8	只要在當月賽季的排名模式中贏得5場勝利，就能獲得該賽季的特殊卡背。	
 GLUE_TIP_DEFAULT_8_RANKED_2.0	只要在當月賽季中晉升到階級20，就能獲得該賽季的特殊卡背。	
 GLUE_TIP_DEFAULT_9	完成任務來賺取金幣。金幣可以用來購買卡牌包或進入競技場。	
+GLUE_TIP_DUELS_0	你可以不間斷地打出低消耗的手下。	
+GLUE_TIP_DUELS_1	高消耗的強力手下能夠翻轉後期的戰局。	
+GLUE_TIP_DUELS_10	敵方無法和被動寶藏互動。	
+GLUE_TIP_DUELS_11	手下的基礎攻擊力和生命值，與其法力消耗息息相關。	
+GLUE_TIP_DUELS_12	傳說手下是某些特定策略的核心，你可以嘗試用他們為基礎來編組起始套牌。	
+GLUE_TIP_DUELS_13	合併利用提高法術傷害與降低法力消耗的卡牌，以達到最大的效果。	
+GLUE_TIP_DUELS_14	坐穩啦！《爐石戰記》決鬥擂台會有你所見過最強力的套牌！	
+GLUE_TIP_DUELS_15	在決鬥擂台中，套牌中同樣卡牌的數量將不再有所限制！	
+GLUE_TIP_DUELS_16	雙職業卡牌可由多種職業使用。	
+GLUE_TIP_DUELS_17	每一輪決鬥擂台將在你拿到12勝，或是3敗後結束。	
+GLUE_TIP_DUELS_18	要是你的牌堆沒有牌了，就會開始受到疲倦傷害。	
+GLUE_TIP_DUELS_19	某些卡牌出現的頻率會高於其他牌。	
+GLUE_TIP_DUELS_2	覺得快攻戰術很難纏嗎？放幾張能夠傷害多個手下的低消耗法術。	
+GLUE_TIP_DUELS_20	提前做好計畫。前幾場的生命值和卡牌數量都比較少，戰鬥可能很快就會結束。	
+GLUE_TIP_DUELS_21	每一輪可供使用的英雄都不一樣。全部都試試看吧！	
+GLUE_TIP_DUELS_22	某些套牌範本具有出人意料的效果！	
+GLUE_TIP_DUELS_23	決鬥擂台開～始啦！	
+GLUE_TIP_DUELS_3	決鬥擂台所提供的卡牌會根據你的套牌內容而定。	
+GLUE_TIP_DUELS_4	頻繁使用英雄能力，發揮它最大的效果。	
+GLUE_TIP_DUELS_5	英雄的最高生命值會隨著賽事的進展而提高。	
+GLUE_TIP_DUELS_6	利用你的職業專屬寶藏來構思可行的策略。	
+GLUE_TIP_DUELS_7	中立的手下可放入任何套牌。	
+GLUE_TIP_DUELS_8	你能在決鬥擂台玩到最新資料片的卡牌，也能玩到威力強大的過去卡牌。	
+GLUE_TIP_DUELS_9	你套牌中的卡牌越多，能看到特定某張卡牌的機率就越低。	
 GLUE_TIP_FORGE_0	你的競技場套牌將會在輸3場後失效。	
 GLUE_TIP_FORGE_1	每多贏得一場比賽，你的競技場獎勵就會越棒！	
 GLUE_TIP_FORGE_2	你不需要把競技場的賽局一口氣全部打完。	
@@ -2022,6 +2096,7 @@ GLUE_TOOLTIP_BUTTON_BACON_HEADLINE	英雄戰場
 GLUE_TOOLTIP_BUTTON_COLLECTION_DESC	觀看你的卡牌，或組一副套牌。	
 GLUE_TOOLTIP_BUTTON_COLLECTION_HEADLINE	我的牌庫	
 GLUE_TOOLTIP_BUTTON_DISABLED_DESC	此功能暫時被關閉。	
+GLUE_TOOLTIP_BUTTON_DUELS_HEADLINE	決鬥擂台	
 GLUE_TOOLTIP_BUTTON_FORGE_HEADLINE	競技場	
 GLUE_TOOLTIP_BUTTON_FORGE_NOT_UNLOCKED	在全部職業達到10級後解鎖。	
 GLUE_TOOLTIP_BUTTON_GAME_MODES_DESC	試試不一樣的遊戲玩法。	

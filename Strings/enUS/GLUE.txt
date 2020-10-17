@@ -108,6 +108,7 @@ GLUE_COLLECTION_CUSTOM_DECKNAME_TEMPLATE	Custom {0}{1}	0=class name, 1=increment
 GLUE_COLLECTION_CUSTOM_DECKNAME_SHORT	{0}{1}	0=class name, 1=incrementer
 GLUE_COLLECTION_TAVERN_BRAWL_DECKNAME	Brawl Deck	
 GLUE_COLLECTION_FSG_BRAWL_DECKNAME	Fireside Deck	
+GLUE_COLLECTION_DUEL_DECKNAME	Duel Deck
 GLUE_COLLECTION_CARD_NEW	NEW!	
 GLUE_COLLECTION_CRAFTING_MODE	Crafting Mode	
 GLUE_COLLECTION_CRAFTING_MODE_SHORT	Crafting	
@@ -130,6 +131,8 @@ GLUE_COLLECTION_TO_WILD	Convert to Wild
 GLUE_COLLECTION_ERROR_HEADER	Collection Error!
 GLUE_COLLECTION_SET_FILTER_WILD_SET_HEADER	Wild Cards
 GLUE_COLLECTION_SET_FILTER_WILD_SET_BODY	This will show cards that are not usable in Standard. Are you sure?
+GLUE_COLLECTION_DECK_CLIPBOARD_ACCESS_HEADER	Clipboard
+GLUE_COLLECTION_DECK_CLIPBOARD_ACCESS_BODY	For a better deck building experience, Hearthstone will occasionally access <b>your device clipboard</b> for copied decks from external sources. This will also allow you to copy and share your deck with others!
 GLUE_COLLECTION_DECK_HERO_NOT_UNLOCKED	You have a deck in your clipboard, but that Hero is locked.
 GLUE_COLLECTION_DECK_WILD_NOT_UNLOCKED	You have a Wild deck in your clipboard, but you have not unlocked Wild Mode.
 GLUE_COLLECTION_DECK_PASTE_POPUP_HEADER	Paste Deck	
@@ -1210,6 +1213,9 @@ GLUE_STORE_ULD_PREORDER_DUST_DATE	Packs available in\nAugust*!
 GLUE_STORE_DRG_PREORDER_DATE	Available in December*!	
 GLUE_STORE_DRG_PREORDER_DUST_DATE	Packs available in\nDecember*!
 GLUE_STORE_PREORDER_APRIL	Available in\nApril*!
+GLUE_STORE_PREORDER_DUST_APRIL	Packs available in\nApril*!
+GLUE_STORE_PREORDER_NOVEMBER	Available in\nNovember*!
+GLUE_STORE_PREORDER_DUST_NOVEMBER	Packs available in\nNovember*!
 GLUE_ARENA_VIEW_DECK	View Deck	
 GLUE_PICK_A_CARD	Pick a Card	
 GLUE_PICK_A_REPLACEMENT	Pick a Replacement	
@@ -1573,7 +1579,7 @@ GLUE_FIRE_FESTIVAL_DOUBLE_GOLD_BAG_TEXT	x2
 GLUE_FIRESIDE_GATHERING_SCAN_NO_GPS_OR_WIFI	This feature is only available to devices with GPS or Wi-Fi capability.
 GLUE_FIRESIDE_GATHERING_APPEAR_ONLINE_PROMPT	You cannot join a Fireside Gathering while appearing offline.\nWould you like to go online?
 GLUE_OUTSTANDING_DRAFT_TICKET_DIALOG_HEADER	Welcome to The Arena!
-GLUE_OUTSTANDING_DRAFT_TICKET_DIALOG_DESC	You have an extra Arena ticket! Don't worry about the usual entrance fee this time.
+GLUE_OUTSTANDING_DRAFT_TICKET_DIALOG_DESC	You have |4(an extra,extra) Arena |4(ticket,tickets)! Don't worry about the usual entrance fee this time.
 GLUE_COLLECTION_MANAGER_ON_ADD_FULL_DECK_ERROR_TEXT	Your deck is full. Remove a card first!
 GLUE_CHINA_STORE_BOOSTER_GIFT	Gift:\n{0} Packs
 GLUE_CHINA_STORE_BOOSTER_GIFT_PLUS_BONUS	Gift:\n{0}+{1} Packs
@@ -2128,3 +2134,75 @@ GLUE_TIP_ADVENTURE_BOH_10	Get to know your heroes a little better \nby reliving 
 GLUE_TIP_ADVENTURE_BOH_11	Malfurion is SERIOUSLY looking forward\n to setting the record straight.
 GLUE_CLASS_UPCOMING_HEADER	Not Yet Available
 GLUE_CLASS_UPCOMING_DESC	This class is not yet available.
+GLUE_GAME_MODE_NEW_MODE_UNLOCKED_POPUP_HEADER	New mode unlocked:
+GLUE_GAME_MODES_POPUP_PVPDR_DESC	[PH] Loot, draft, and fight for glory!
+GLUE_PVPDR	Duels
+GLUE_PVPDR_FOOTER	Choose a hero, forge your deck, then power it up between battles!
+GLUE_PVPDR_RATING_LABEL	Rating
+GLUE_PVPDR_RATING_LABEL_NORMAL	Rating (Normal)
+GLUE_PVPDR_RATING_LABEL_HEROIC	Rating (Heroic)
+GLUE_PVPDR_HIGH_WATERMARK_LABEL	Best Run Wins
+GLUE_PVPDR_UNLOCKS_LABEL	Unlocks
+GLUE_PVPDR_UNLOCKS_TEXT	{0} / {1}
+GLUE_PVPDR_LABEL_SEASON_ENDING_SECONDS	Season ends in {0} |4(second,seconds)
+GLUE_PVPDR_LABEL_SEASON_ENDING_MINUTES	Season ends in {0} |4(minute,minutes)
+GLUE_PVPDR_LABEL_SEASON_ENDING_HOURS	Season ends in {0} |4(hour,hours)
+GLUE_PVPDR_LABEL_SEASON_ENDING_DAYS	Season ends in {0} |4(day,days)
+GLUE_PVPDR_LABEL_SEASON_ENDING_WEEKS	Season ends in {0} |4(week,weeks)
+GLUE_PVPDR_LABEL_SEASON_ENDING_OVER_1_MONTH	Season ends in > 1 month
+GLUE_PVPDR_EXPANSION_SUBTITLE	Wizard Duels
+GLUE_PVPDR_BUILD_DECK	Build Deck
+GLUE_PVPDR_LOCK_IN	Confirm Deck
+GLUE_PVPDR_LOCK_IN_DESC	Have you finished building your Duels Deck? You won't be able to make any changes after you confirm.
+GLUE_PVPDR_SIGNUPS_CLOSED	[PH] This season will end soon. Signup has been disabled.
+GLUE_PVPDR_DECK_ERROR_TITLE	Deck Error
+GLUE_PVPDR_DECK_ERROR_DESC	There was an error loading your deck.  Please try again later.
+GLUE_PVPDR_DECK_TRAY_HEADER	Duels Deck
+GLUE_TOOLTIP_BUTTON_DUELS_HEADLINE	Duels
+GLUE_PVPDR_SESSION_END_ERROR	There was an error ending your Duels session. Please try again.
+GLUE_PVPDR_ENTRY_POPUP_LABEL_NORMAL	Casual Duel
+GLUE_PVPDR_ENTRY_POPUP_LABEL_HEROIC	Heroic Duel
+GLUE_PVPDR_ENTRY_POPUP_DESCRIPTION_NORMAL	Test your skills
+GLUE_PVPDR_ENTRY_POPUP_DESCRIPTION_HEROIC	Battle for rewards
+GLUE_PVPDR_ENTRY_POPUP_BUTTON_LOCKED	Coming Soon!
+GLUE_PVPDR_END_OF_RUN_HEADER	End Of Run
+GLUE_PVPDR_END_OF_RUN_TIER_0_WIN	You did your best.\nNow get back out there and try again!\n<color=#e3ab0c>Normal Mode Rating {0}</color>
+GLUE_PVPDR_END_OF_RUN_TIER_1_WIN	You made some great plays out there.\nDo you want to play again?\n<color=#e3ab0c>Normal Mode Rating {0}</color>
+GLUE_PVPDR_END_OF_RUN_TIER_2_WIN	That was a fantastic run.  Want to play again?\n<color=#e3ab0c>Normal Mode Rating {0}</color>
+GLUE_PVPDR_END_OF_RUN_TIER_MAX_WIN	Spectacular! You have achieved the maximum number\nof wins. Congratulations!\n<color=#e3ab0c>Normal Mode Rating {0}</color>
+GLUE_PVPDR_EARLY_ACCESS_SHOP_ERROR_BODY	There are currently no Duels Early Access products. Please check back later.
+GLUE_TIP_DUELS_0	Low-cost minions can be played more consistently.
+GLUE_TIP_DUELS_1	High-cost, powerful minions can turn the tide in later matches.
+GLUE_TIP_DUELS_2	Having trouble against aggressive strategies? Add low-cost Spells that damage multiple minions.
+GLUE_TIP_DUELS_3	The cards offered between rounds change depending on the contents of your deck.
+GLUE_TIP_DUELS_4	Use your Hero Power frequently to maximize its effect.
+GLUE_TIP_DUELS_5	Your hero’s maximum Health increases over the course of a run.
+GLUE_TIP_DUELS_6	Your class’s signature treasures hint towards possible strategies.
+GLUE_TIP_DUELS_7	Neutral minions can be placed in any deck.
+GLUE_TIP_DUELS_8	In Duels you can play with the latest expansion and powerful cards from the past.
+GLUE_TIP_DUELS_9	The more cards in your deck, the less frequently you’ll see a given card.
+GLUE_TIP_DUELS_10	Your opponent cannot interact with passive treasures.
+GLUE_TIP_DUELS_11	A minion’s base Attack and Health are carefully balanced against its Mana Cost.
+GLUE_TIP_DUELS_12	Legendary minions are powerful guideposts for certain strategies. Try building your starting deck around them.
+GLUE_TIP_DUELS_13	Try combining Spell Damage with Mana reduction for a devastating effect.
+GLUE_TIP_DUELS_14	Buckle up. Hearthstone Duels features some of the most powerful decks you’ve ever seen.
+GLUE_TIP_DUELS_15	In Duels, you can have any number of copies of a card in your deck.
+GLUE_TIP_DUELS_16	Dual-class cards can be used by multiple classes.
+GLUE_TIP_DUELS_17	Each run lasts until you have twelve wins or three losses.
+GLUE_TIP_DUELS_18	If your deck runs out of cards, you will take damage from Fatigue.
+GLUE_TIP_DUELS_19	Some cards appear more frequently than others.
+GLUE_TIP_DUELS_20	With small decks and low Health, early matches can go quickly. Plan accordingly.
+GLUE_TIP_DUELS_21	Different heroes are offered each run. Try them all!
+GLUE_TIP_DUELS_22	Certain deck recipes will reveal incredible surprises!
+GLUE_TIP_DUELS_23	It's time for D-D-D-D-DUELS!
+GLUE_PVPDR_BEST_WINS_AS_CLASS	Best Run as {0}	0 = Class name
+GLUE_ERROR_PLAY_GAME_PARTY_NOT_ALLOWED	A player in your party is too highly rated to play ranked games in a group.
+GLUE_PVPDR_LABEL_RATING_RESET_SECONDS	Rating resets in {0} |4(second,seconds)
+GLUE_PVPDR_LABEL_RATING_RESET_MINUTES	Rating resets in {0} |4(minute,minutes)
+GLUE_PVPDR_LABEL_RATING_RESET_HOURS	Rating resets in {0} |4(hour,hours)
+GLUE_PVPDR_LABEL_RATING_RESET_DAYS	Rating resets in {0} |4(day,days)
+GLUE_PVPDR_LABEL_RATING_RESET_WEEKS	Rating resets in {0} |4(week,weeks)
+GLUE_PVPDR_LABEL_RATING_RESET_OVER_1_MONTH	Rating resets in > 1 month
+GLUE_PVPDR_SESSION_START_FAILED_BODY	Failed to create Duels session. Please try again later.
+GLUE_PVPDR_LABEL_VAULT_WINS	Wins
+GLUE_PVPDR_LABEL_VAULT_LIVES	Lives

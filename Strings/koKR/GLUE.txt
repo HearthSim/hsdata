@@ -474,6 +474,8 @@ GLUE_COLLECTION_CRAFTING_SHOW_SOULBOUND_CARDS	제작 불가 카드 포함
 GLUE_COLLECTION_CUSTOM_DECKNAME_SHORT	{0}{1}	0=class name, 1=incrementer
 GLUE_COLLECTION_CUSTOM_DECKNAME_TEMPLATE	나만의 {0} 덱 {1}	0=class name, 1=incrementer
 GLUE_COLLECTION_DECK	덱	
+GLUE_COLLECTION_DECK_CLIPBOARD_ACCESS_BODY	덱을 더욱 쉽게 만들 수 있도록 하스스톤은 외부에서 복사한 덱을 저장하기 위해 당신의 <b>기기 클립보드</b>를 종종 사용할 것입니다. 이를 사용하여 당신의 덱 또한 복사하여 다른 사람들에게 공유할 수 있습니다!	
+GLUE_COLLECTION_DECK_CLIPBOARD_ACCESS_HEADER	클립보드	
 GLUE_COLLECTION_DECK_COMPELTE_BUTTON	내 덱 완성하기	
 GLUE_COLLECTION_DECK_COMPLETE_POPUP_CANCEL	아니요	
 GLUE_COLLECTION_DECK_COMPLETE_POPUP_CONFIRM	예	
@@ -552,6 +554,7 @@ GLUE_COLLECTION_DECK_WILD_POPUP_TEXT	이 덱은 야생 덱입니다. 자동으�
 GLUE_COLLECTION_DELETE_CONFIRM_DESC	정말로 덱을 삭제하시겠습니까?	
 GLUE_COLLECTION_DELETE_CONFIRM_HEADER	삭제	
 GLUE_COLLECTION_DELETE_UNAVAILABLE_DESC	직업을 모두 획득하기 전에는 덱을 삭제할 수 없습니다.	
+GLUE_COLLECTION_DUEL_DECKNAME	결투 덱	
 GLUE_COLLECTION_EMPTY_PAGE	0 페이지	
 GLUE_COLLECTION_ERROR_HEADER	수집품 오류!	
 GLUE_COLLECTION_FEATURED_CARDS	주목할 카드	
@@ -756,6 +759,7 @@ GLUE_EDIT	편집
 GLUE_EDIT_DECK	덱 편집	
 GLUE_ERROR_DECK_RULESET_RULE_VIOLATION	이 규칙에서는 선택한 덱을 사용할 수 없습니다.	
 GLUE_ERROR_DECK_VALIDATION_WRONG_FORMAT	이 모드에서는 야생 덱을 사용할 수 없습니다.	
+GLUE_ERROR_PLAY_GAME_PARTY_NOT_ALLOWED	파티에 있는 플레이어의 평점이 너무 높아서 그룹으로 등급전에 참여할 수 없습니다.	
 GLUE_FAKE_QUEST_FIRST_DESCRIPTION	가젯잔의 뒷골목에 온 걸 환영한다...	
 GLUE_FAKE_QUEST_FIRST_NAME	가젯잔에 온 걸 환영해!	
 GLUE_FAKE_QUEST_FIRST_REWARD	0골드	
@@ -866,12 +870,14 @@ GLUE_FSG_STARTING_MINUTES	{0}분 후에 시작
 GLUE_FSG_STARTING_OVER_1_MONTH	1달 후에 시작	
 GLUE_FSG_STARTING_SECONDS	{0}초 후에 시작	
 GLUE_FSG_STARTING_WEEKS	{0}주 후에 시작	
+GLUE_GAME_MODE_NEW_MODE_UNLOCKED_POPUP_HEADER	새로운 모드 잠금 해제:	
 GLUE_GAME_MODES	모드	
 GLUE_GAME_MODES_POPUP_BACON_DESC	7명의 플레이어를 상대합니다.	
 GLUE_GAME_MODES_POPUP_BETA	베타	
 GLUE_GAME_MODES_POPUP_EARLY_ACCESS	사전 체험	
 GLUE_GAME_MODES_POPUP_FORGE_DESC	제시되는 카드들로 30장 덱을 구성하세요.	
 GLUE_GAME_MODES_POPUP_HEADER	모드 선택	
+GLUE_GAME_MODES_POPUP_PVPDR_DESC	[PH] Loot, draft, and fight for glory!	
 GLUE_GENERIC_RANDOM_CARD_SCROLL_DESC	묶음 상품에서 {0} 카드를 획득했습니다!	This is meant to replace the above welcome bundle strings until we have the tech to show custom strings per reward.
 GLUE_GENERIC_RANDOM_CARD_SCROLL_TITLE	전설 카드입니다!	This is meant to replace the above welcome bundle strings until we have the tech to show custom strings per reward.
 GLUE_GHOST_CARD_MISSING_DESCRIPTION	보유하지 않은 카드입니다. 클릭하여 카드를 교체하세요.	
@@ -1211,6 +1217,50 @@ GLUE_PUSH_NOTIFICATION_CONTEXT_CANCEL	아니오
 GLUE_PUSH_NOTIFICATION_CONTEXT_CONFIRM	네!	
 GLUE_PUSH_NOTIFICATION_CONTEXT_HEADER	푸시 알림	
 GLUE_PUSH_NOTIFICATION_EXTENDED_CONTEXT_BODY	하스스톤에서 알림을 보낼 수 없습니다. 장치 설정에서 알림을 켜 주세요!	
+GLUE_PVPDR	결투	
+GLUE_PVPDR_BEST_WINS_AS_CLASS	{0}|1(으로,로) 최다승	0 = Class name
+GLUE_PVPDR_BUILD_DECK	덱 생성	
+GLUE_PVPDR_DECK_ERROR_DESC	덱을 불러오는 중에 오류가 발생했습니다. 나중에 다시 시도해 주세요.	
+GLUE_PVPDR_DECK_ERROR_TITLE	덱 오류	
+GLUE_PVPDR_DECK_TRAY_HEADER	결투 덱	
+GLUE_PVPDR_EARLY_ACCESS_SHOP_ERROR_BODY	현재 활성화된 결투 사전 체험 제품이 없습니다. 나중에 다시 확인해 주세요.	
+GLUE_PVPDR_END_OF_RUN_HEADER	결투 종료	
+GLUE_PVPDR_END_OF_RUN_TIER_0_WIN	괜찮습니다!\n다시 시도해 보시죠!\n<color=#e3ab0c>일반 난이도 평점 {0}</color>	
+GLUE_PVPDR_END_OF_RUN_TIER_1_WIN	잘하셨습니다!\n다시 시도하고 싶으세요?\n<color=#e3ab0c>일반 난이도 평점 {0}</color>	
+GLUE_PVPDR_END_OF_RUN_TIER_2_WIN	훌륭하군요!\n다시 해보고 싶으신가요?\n<color=#e3ab0c>일반 난이도 평점 {0}</color>	
+GLUE_PVPDR_END_OF_RUN_TIER_MAX_WIN	대단하군요 최고 승수를\n달성했습니다! 축하드립니다!\n<color=#e3ab0c>일반 난이도 평점 {0}</color>	
+GLUE_PVPDR_ENTRY_POPUP_BUTTON_LOCKED	추후 공개!	
+GLUE_PVPDR_ENTRY_POPUP_DESCRIPTION_HEROIC	보상을 두고 싸우세요	
+GLUE_PVPDR_ENTRY_POPUP_DESCRIPTION_NORMAL	자신의 실력을 증명하세요	
+GLUE_PVPDR_ENTRY_POPUP_LABEL_HEROIC	영웅 난이도 결투	
+GLUE_PVPDR_ENTRY_POPUP_LABEL_NORMAL	친선 결투	
+GLUE_PVPDR_EXPANSION_SUBTITLE	마법사 결투	
+GLUE_PVPDR_FOOTER	영웅을 선택하고, 덱을 만들고, 전투를 거듭하며 더욱 강해지세요!	
+GLUE_PVPDR_HIGH_WATERMARK_LABEL	최고 승수 달성	
+GLUE_PVPDR_LABEL_RATING_RESET_DAYS	평점 초기화까지 {0}일	
+GLUE_PVPDR_LABEL_RATING_RESET_HOURS	평점 초기화까지 {0}시간	
+GLUE_PVPDR_LABEL_RATING_RESET_MINUTES	평점 초기화까지 {0}분	
+GLUE_PVPDR_LABEL_RATING_RESET_OVER_1_MONTH	평점 초기화까지 > 1달	
+GLUE_PVPDR_LABEL_RATING_RESET_SECONDS	평점 초기화까지 {0}초	
+GLUE_PVPDR_LABEL_RATING_RESET_WEEKS	평점 초기화까지 {0}주	
+GLUE_PVPDR_LABEL_SEASON_ENDING_DAYS	시즌 종료까지 {0}일	
+GLUE_PVPDR_LABEL_SEASON_ENDING_HOURS	시즌 종료까지 {0}시간	
+GLUE_PVPDR_LABEL_SEASON_ENDING_MINUTES	시즌 종료까지 {0}분	
+GLUE_PVPDR_LABEL_SEASON_ENDING_OVER_1_MONTH	시즌 종료까지 > 1달	
+GLUE_PVPDR_LABEL_SEASON_ENDING_SECONDS	시즌 종료까지 {0}초	
+GLUE_PVPDR_LABEL_SEASON_ENDING_WEEKS	시즌 종료까지 {0}주	
+GLUE_PVPDR_LABEL_VAULT_LIVES	목숨	
+GLUE_PVPDR_LABEL_VAULT_WINS	승리	
+GLUE_PVPDR_LOCK_IN	덱 확인	
+GLUE_PVPDR_LOCK_IN_DESC	결투 덱 생성을 완료하시겠습니까? 완료 후에는 덱을 변경할 수 없습니다.	
+GLUE_PVPDR_RATING_LABEL	평점	
+GLUE_PVPDR_RATING_LABEL_HEROIC	평점 (영웅 난이도)	
+GLUE_PVPDR_RATING_LABEL_NORMAL	평점 (일반)	
+GLUE_PVPDR_SESSION_END_ERROR	결투를 종료하는 중에 오류가 발생했습니다. 다시 시도해 주세요.	
+GLUE_PVPDR_SESSION_START_FAILED_BODY	결투를 생성하는 중에 오류가 발생했습니다. 나중에 다시 시도해 주세요.	
+GLUE_PVPDR_SIGNUPS_CLOSED	[PH] This season will end soon. Signup has been disabled.	
+GLUE_PVPDR_UNLOCKS_LABEL	잠금 해제	
+GLUE_PVPDR_UNLOCKS_TEXT	{0} / {1}	
 GLUE_QUEST_FINISHED_DAILY	일일 퀘스트를 모두 완료했습니다.	
 GLUE_QUEST_LOG_ARENA	투기장	
 GLUE_QUEST_LOG_BEST_FORGE_RECORD_HEADLINE	투기장 최고 열쇠	
@@ -1981,6 +2031,30 @@ GLUE_TIP_DEFAULT_7	퀘스트가 없으면 내일 다시 오세요. 새로운 퀘
 GLUE_TIP_DEFAULT_8	등급전에서 5승을 달성하면 해당 시즌에만 얻을 수 있는 카드 뒷면을 획득합니다.	
 GLUE_TIP_DEFAULT_8_RANKED_2.0	등급전에서 20등급 혹은 그보다 높은 등급을 달성하면 해당 시즌에만 얻을 수 있는 카드 뒷면을 획득합니다.	
 GLUE_TIP_DEFAULT_9	퀘스트를 완료하면 골드를 얻습니다. 골드는 팩을 구매하거나 투기장에 입장할 때 사용됩니다.	
+GLUE_TIP_DUELS_0	비용이 낮은 하수인들은 더 안정적으로 낼 수 있습니다.	
+GLUE_TIP_DUELS_1	비용이 높은 하수인들은 후반에 전세를 뒤바꿀 수 있습니다.	
+GLUE_TIP_DUELS_10	지속 효과 보물은 상대편이 상호작용할 수 없습니다.	
+GLUE_TIP_DUELS_11	하수인의 공격력과 생명력은 마나 비용과 균형을 이룹니다.	
+GLUE_TIP_DUELS_12	전설 하수인들은 특정 전략을 가능케 해주는 강력한 요소입니다. 이 하수인들을 중심으로 덱을 만들어 보세요.	
+GLUE_TIP_DUELS_13	주문 공격력과 마나 감소 효과를 연계하여 강력한 효과를 노려보세요.	
+GLUE_TIP_DUELS_14	단단히 준비하세요. 하스스톤 결투에서는 정말 강력한 덱들이 등장할 수 있습니다.	
+GLUE_TIP_DUELS_15	결투에서는 덱에 같은 카드를 여러 장 넣을 수 있습니다.	
+GLUE_TIP_DUELS_16	이중 직업 카드는 여러 직업이 사용할 수 있습니다.	
+GLUE_TIP_DUELS_17	결투는 12승 또는 3패를 달성할 때까지 계속됩니다.	
+GLUE_TIP_DUELS_18	덱의 카드가 모두 떨어지면, 탈진으로 피해를 받게 됩니다.	
+GLUE_TIP_DUELS_19	어떤 카드는 다른 카드보다 더 자주 나타납니다.	
+GLUE_TIP_DUELS_2	초반을 버티기가 힘들다면 마나 비용이 낮고 여러 하수인에게 피해를 주는 주문을 추가해 보세요.	
+GLUE_TIP_DUELS_20	생명력이 낮고 덱에 카드가 적은 초반 경기들은 결판이 빨리 날 수 있습니다.	
+GLUE_TIP_DUELS_21	결투마다 다른 영웅들이 제시됩니다. 다양하게 사용해 보세요!	
+GLUE_TIP_DUELS_22	덱을 만들 때 특정 조건을 달성하면 깜짝 놀랄만한 효과를 누릴 수 있습니다!	
+GLUE_TIP_DUELS_23	대충 아시겠죠? 지금부터 서로 결투하세요!	
+GLUE_TIP_DUELS_3	경기 사이에 제시되는 카드들은 덱의 내용물에 따라 달라집니다.	
+GLUE_TIP_DUELS_4	영웅 능력을 자주 사용하여 효과를 극대화하세요.	
+GLUE_TIP_DUELS_5	영웅의 최대 생명력은 결투가 지속될수록 증가합니다.	
+GLUE_TIP_DUELS_6	직업의 고유 보물들을 바탕으로 전략을 세우세요.	
+GLUE_TIP_DUELS_7	중립 하수인은 어떤 덱에도 포함될 수 있습니다.	
+GLUE_TIP_DUELS_8	결투에서는 최신 확장팩과 과거의 카드들을 모두 사용할 수 있습니다.	
+GLUE_TIP_DUELS_9	덱에 카드가 많을수록 특정 카드를 뽑을 확률이 낮아집니다.	
 GLUE_TIP_FORGE_0	투기장 덱은 3번 패배하면 만료됩니다.	
 GLUE_TIP_FORGE_1	투기장에서 계속 승리하면 보상이 더 좋아집니다!	
 GLUE_TIP_FORGE_2	투기장 경기는 한 번에 다 치르지 않아도 됩니다.	
@@ -2022,6 +2096,7 @@ GLUE_TOOLTIP_BUTTON_BACON_HEADLINE	전장
 GLUE_TOOLTIP_BUTTON_COLLECTION_DESC	카드를 살펴보거나 덱을 만들 수 있습니다.	
 GLUE_TOOLTIP_BUTTON_COLLECTION_HEADLINE	수집품	
 GLUE_TOOLTIP_BUTTON_DISABLED_DESC	이 기능은 일시적으로 사용이 불가능합니다.	
+GLUE_TOOLTIP_BUTTON_DUELS_HEADLINE	결투	
 GLUE_TOOLTIP_BUTTON_FORGE_HEADLINE	투기장	
 GLUE_TOOLTIP_BUTTON_FORGE_NOT_UNLOCKED	모든 직업으로 10 레벨을 달성하면 잠금 해제됩니다.	
 GLUE_TOOLTIP_BUTTON_GAME_MODES_DESC	다양한 방법으로 플레이해보세요.	

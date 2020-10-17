@@ -474,6 +474,8 @@ GLUE_COLLECTION_CRAFTING_SHOW_SOULBOUND_CARDS	Inclure les cartes impossibles à 
 GLUE_COLLECTION_CUSTOM_DECKNAME_SHORT	{0}{1}	0=class name, 1=incrementer
 GLUE_COLLECTION_CUSTOM_DECKNAME_TEMPLATE	Deck {0}{1}	0=class name, 1=incrementer
 GLUE_COLLECTION_DECK	Votre deck	
+GLUE_COLLECTION_DECK_CLIPBOARD_ACCESS_BODY	Afin d’améliorer la création de decks, Hearthstone accèdera de temps à autre aux decks copiés de sources externes dans le <b>presse-papier de votre appareil</b>. Cela vous permettra aussi de copier et partager votre deck avec d’autres joueurs !	
+GLUE_COLLECTION_DECK_CLIPBOARD_ACCESS_HEADER	Presse-papier	
 GLUE_COLLECTION_DECK_COMPELTE_BUTTON	Compléter mon deck	
 GLUE_COLLECTION_DECK_COMPLETE_POPUP_CANCEL	Non	
 GLUE_COLLECTION_DECK_COMPLETE_POPUP_CONFIRM	Oui	
@@ -552,6 +554,7 @@ GLUE_COLLECTION_DECK_WILD_POPUP_TEXT	C’est un deck libre. Voulez-vous le conve
 GLUE_COLLECTION_DELETE_CONFIRM_DESC	Ce deck va être supprimé. Voulez-vous continuer ?	
 GLUE_COLLECTION_DELETE_CONFIRM_HEADER	Supprimer	
 GLUE_COLLECTION_DELETE_UNAVAILABLE_DESC	Vous ne pouvez pas effacer de deck tant que toutes les classes ne sont pas débloquées.	
+GLUE_COLLECTION_DUEL_DECKNAME	Deck de duel	
 GLUE_COLLECTION_EMPTY_PAGE	Page 0	
 GLUE_COLLECTION_ERROR_HEADER	Erreur de collection !	
 GLUE_COLLECTION_FEATURED_CARDS	Cartes à la une	
@@ -756,6 +759,7 @@ GLUE_EDIT	Modifier
 GLUE_EDIT_DECK	Modifier le deck	
 GLUE_ERROR_DECK_RULESET_RULE_VIOLATION	Le deck sélectionné n’est pas valide pour ce mode de jeu.	
 GLUE_ERROR_DECK_VALIDATION_WRONG_FORMAT	Impossible d’utiliser un deck libre dans ce mode.	
+GLUE_ERROR_PLAY_GAME_PARTY_NOT_ALLOWED	Un joueur de votre équipe a un classement trop élevé pour jouer à des parties classées en groupe.	
 GLUE_FAKE_QUEST_FIRST_DESCRIPTION	Bienvenue dans les bas quartiers…	
 GLUE_FAKE_QUEST_FIRST_NAME	Bienvenue à Gadgetzan_!	
 GLUE_FAKE_QUEST_FIRST_REWARD	0 pièce d’or	
@@ -866,12 +870,14 @@ GLUE_FSG_STARTING_MINUTES	Commence dans {0} |4(minute,minutes)
 GLUE_FSG_STARTING_OVER_1_MONTH	Commence dans plus de 1 mois	
 GLUE_FSG_STARTING_SECONDS	Commence dans {0} |4(seconde,secondes)	
 GLUE_FSG_STARTING_WEEKS	Commence dans {0} |4(semaine,semaines)	
+GLUE_GAME_MODE_NEW_MODE_UNLOCKED_POPUP_HEADER	Nouveau mode débloqué :	
 GLUE_GAME_MODES	Modes	
 GLUE_GAME_MODES_POPUP_BACON_DESC	Affrontez 7 adversaires.	
 GLUE_GAME_MODES_POPUP_BETA	BÊTA	
 GLUE_GAME_MODES_POPUP_EARLY_ACCESS	Accès anticipé	
 GLUE_GAME_MODES_POPUP_FORGE_DESC	Créez un deck de 30 cartes.	
 GLUE_GAME_MODES_POPUP_HEADER	Choisir un mode	
+GLUE_GAME_MODES_POPUP_PVPDR_DESC	Pillez, créez et combattez pour la gloire !	
 GLUE_GENERIC_RANDOM_CARD_SCROLL_DESC	Votre pack contient {0} !	This is meant to replace the above welcome bundle strings until we have the tech to show custom strings per reward.
 GLUE_GENERIC_RANDOM_CARD_SCROLL_TITLE	C’est une carte légendaire !	This is meant to replace the above welcome bundle strings until we have the tech to show custom strings per reward.
 GLUE_GHOST_CARD_MISSING_DESCRIPTION	Vous ne possédez pas cette carte.\nCliquez pour en trouver une de remplacement.	
@@ -1188,7 +1194,7 @@ GLUE_OFFLINE_SAVE_DECK_BODY	Votre deck a été sauvegardé sur cet appareil jusq
 GLUE_OFFLINE_SAVE_DECK_HEADER	Sauvegardé	
 GLUE_OPEN_PACKS	Ouvrir\ndes\npaquets	
 GLUE_OPEN_PACKS_PHONE	Paquets	
-GLUE_OUTSTANDING_DRAFT_TICKET_DIALOG_DESC	Vous avez obtenu une admission supplémentaire pour l’Arène. Pas besoin de payer les frais cette fois-ci_!	
+GLUE_OUTSTANDING_DRAFT_TICKET_DIALOG_DESC	Vous avez obtenu |4(une admission supplémentaire,des admissions supplémentaires) pour l’Arène. Pas besoin de payer les frais cette fois-ci !	
 GLUE_OUTSTANDING_DRAFT_TICKET_DIALOG_HEADER	Bienvenue dans l’Arène !	
 GLUE_PACK_OPENING_ALL_CLASSES	Toutes classes	
 GLUE_PACK_OPENING_BOOSTER_COUNT	{0}	0=number of owned boosters
@@ -1211,6 +1217,50 @@ GLUE_PUSH_NOTIFICATION_CONTEXT_CANCEL	Non
 GLUE_PUSH_NOTIFICATION_CONTEXT_CONFIRM	Oui !	
 GLUE_PUSH_NOTIFICATION_CONTEXT_HEADER	Notifications	
 GLUE_PUSH_NOTIFICATION_EXTENDED_CONTEXT_BODY	Il semblerait que vous ayez désactivé les notifications pour Hearthstone. Rendez-vous dans les réglages de votre appareil et autorisez les notifications pour l’application.	
+GLUE_PVPDR	Duels	
+GLUE_PVPDR_BEST_WINS_AS_CLASS	Meilleure série avec {0}	0 = Class name
+GLUE_PVPDR_BUILD_DECK	Création de deck	
+GLUE_PVPDR_DECK_ERROR_DESC	Une erreur s’est produite lors du chargement du deck. Veuillez réessayer plus tard.	
+GLUE_PVPDR_DECK_ERROR_TITLE	Erreur de deck	
+GLUE_PVPDR_DECK_TRAY_HEADER	Deck de duels	
+GLUE_PVPDR_EARLY_ACCESS_SHOP_ERROR_BODY	Il n’y a actuellement aucun produit en accès anticipé pour le mode Duels. Revenez plus tard.	
+GLUE_PVPDR_END_OF_RUN_HEADER	Fin de la virée	
+GLUE_PVPDR_END_OF_RUN_TIER_0_WIN	Vous avez fait de votre mieux.\nRetournez-y et retentez votre chance !\n<color=#e3ab0c>Cote en mode normal : {0}</color>	
+GLUE_PVPDR_END_OF_RUN_TIER_1_WIN	Vous avez réalisé de belles choses.\nVoulez-vous rejouer ?\n<color=#e3ab0c>Cote en mode normal : {0}</color>	
+GLUE_PVPDR_END_OF_RUN_TIER_2_WIN	Quelle formidable virée ! Voulez-vous rejouer ?\n<color=#e3ab0c>Cote en mode normal : {0}</color>	
+GLUE_PVPDR_END_OF_RUN_TIER_MAX_WIN	Incroyable ! Vous avez obtenu le nombre maximal\nde victoires. Félicitations !\n<color=#e3ab0c>Cote en mode normal : {0}</color>	
+GLUE_PVPDR_ENTRY_POPUP_BUTTON_LOCKED	Prochainement !	
+GLUE_PVPDR_ENTRY_POPUP_DESCRIPTION_HEROIC	Combattez pour des récompenses	
+GLUE_PVPDR_ENTRY_POPUP_DESCRIPTION_NORMAL	Testez vos compétences	
+GLUE_PVPDR_ENTRY_POPUP_LABEL_HEROIC	Duel héroïque	
+GLUE_PVPDR_ENTRY_POPUP_LABEL_NORMAL	Duel non classé	
+GLUE_PVPDR_EXPANSION_SUBTITLE	Duels de sorciers	
+GLUE_PVPDR_FOOTER	Choisissez un héros, créez un deck, puis améliorez-le entre chaque combat !	
+GLUE_PVPDR_HIGH_WATERMARK_LABEL	Meilleure série	
+GLUE_PVPDR_LABEL_RATING_RESET_DAYS	La cote est réinitialisée dans {0} |4(jour,jours)	
+GLUE_PVPDR_LABEL_RATING_RESET_HOURS	La cote est réinitialisée dans {0} |4(heure,heures)	
+GLUE_PVPDR_LABEL_RATING_RESET_MINUTES	La cote est réinitialisée dans {0} |4(minute,minutes)	
+GLUE_PVPDR_LABEL_RATING_RESET_OVER_1_MONTH	La cote est réinitialisée dans plus de 1 mois	
+GLUE_PVPDR_LABEL_RATING_RESET_SECONDS	La cote est réinitialisée dans {0} |4(seconde,secondes)	
+GLUE_PVPDR_LABEL_RATING_RESET_WEEKS	La cote est réinitialisée dans {0} |4(semaine,semaines)	
+GLUE_PVPDR_LABEL_SEASON_ENDING_DAYS	La saison se termine dans {0} |4(jour,jours)	
+GLUE_PVPDR_LABEL_SEASON_ENDING_HOURS	La saison se termine dans {0} |4(heure,heures)	
+GLUE_PVPDR_LABEL_SEASON_ENDING_MINUTES	La saison se termine dans {0} |4(minute,minutes)	
+GLUE_PVPDR_LABEL_SEASON_ENDING_OVER_1_MONTH	La saison se termine dans plus de 1 mois	
+GLUE_PVPDR_LABEL_SEASON_ENDING_SECONDS	La saison se termine dans {0} |4(seconde,secondes)	
+GLUE_PVPDR_LABEL_SEASON_ENDING_WEEKS	La saison se termine dans {0} |4(semaine,semaines)	
+GLUE_PVPDR_LABEL_VAULT_LIVES	Vies	
+GLUE_PVPDR_LABEL_VAULT_WINS	Victoires	
+GLUE_PVPDR_LOCK_IN	Confirmer le deck	
+GLUE_PVPDR_LOCK_IN_DESC	Avez-vous fini de créer votre deck de duels ? Une fois confirmé, vous ne pourrez plus le modifier.	
+GLUE_PVPDR_RATING_LABEL	Cote	
+GLUE_PVPDR_RATING_LABEL_HEROIC	Cote (héroïque)	
+GLUE_PVPDR_RATING_LABEL_NORMAL	Cote (normal)	
+GLUE_PVPDR_SESSION_END_ERROR	Une erreur s’est produite en terminant votre session de duels. Veuillez réessayer.	
+GLUE_PVPDR_SESSION_START_FAILED_BODY	Échec de la création d’une session de duels. Veuillez réessayer plus tard.	
+GLUE_PVPDR_SIGNUPS_CLOSED	Cette saison sera bientôt terminée. Les inscriptions sont clôturées.	
+GLUE_PVPDR_UNLOCKS_LABEL	Récompenses	
+GLUE_PVPDR_UNLOCKS_TEXT	{0} / {1}	
 GLUE_QUEST_FINISHED_DAILY	Vous avez terminé toutes vos quêtes.	
 GLUE_QUEST_LOG_ARENA	Arène	
 GLUE_QUEST_LOG_BEST_FORGE_RECORD_HEADLINE	Meilleure clé d’Arène	
@@ -1981,6 +2031,30 @@ GLUE_TIP_DEFAULT_7	Si vous n’avez plus de quêtes, revenez demain pour en obte
 GLUE_TIP_DEFAULT_8	Si lors d’une saison, vous gagnez 5_matchs en Partie classée, vous obtiendrez le dos de carte spécifique à cette saison.	
 GLUE_TIP_DEFAULT_8_RANKED_2.0	Si lors d’une saison, vous atteignez le rang 20, vous obtiendrez le dos de carte spécifique à cette saison.	
 GLUE_TIP_DEFAULT_9	Accomplissez des quêtes pour gagner de l’or. L’or peut être utilisé pour acheter des paquets de cartes ou entrer dans l’Arène.	
+GLUE_TIP_DUELS_0	Les serviteurs coûtant peu de mana peuvent être joués plus régulièrement.	
+GLUE_TIP_DUELS_1	Les serviteurs puissants et coûtant cher peuvent retourner la situation dans les derniers matchs.	
+GLUE_TIP_DUELS_10	Votre adversaire ne peut pas interagir avec les trésors passifs.	
+GLUE_TIP_DUELS_11	L’Attaque et la Vie de base d’un serviteur sont soigneusement équilibrées avec son coût en mana.	
+GLUE_TIP_DUELS_12	Les serviteurs légendaires peuvent être les piliers de certaines stratégies. Essayez de créer votre deck de départ autour d’eux.	
+GLUE_TIP_DUELS_13	Essayez de combiner les dégâts des sorts avec la réduction des coûts en mana pour un effet destructeur.	
+GLUE_TIP_DUELS_14	Attachez-vous bien, le mode Duels de Hearthstone comporte certains des decks les plus puissants jamais vus.	
+GLUE_TIP_DUELS_15	Dans le mode Duels, vous pouvez voir autant de copies d’une même carte que vous le souhaitez dans votre deck.	
+GLUE_TIP_DUELS_16	Les cartes à deux classes peuvent être utilisées par plusieurs classes.	
+GLUE_TIP_DUELS_17	Une virée se termine lorsque vous avez gagné douze fois ou perdu trois fois.	
+GLUE_TIP_DUELS_18	Si vous n’avez plus de cartes dans votre deck, vous subirez des dégâts de fatigue.	
+GLUE_TIP_DUELS_19	Certaines cartes apparaissent plus souvent que d’autres.	
+GLUE_TIP_DUELS_2	Vous avez du mal à contrer les stratégies agressives ? Ajoutez des sorts à bas prix qui infligent des dégâts à plusieurs serviteurs.	
+GLUE_TIP_DUELS_20	Avec leurs petits decks et le peu de vie des héros, les premiers matchs peuvent vite se terminer. Adaptez votre stratégie en conséquence.	
+GLUE_TIP_DUELS_21	Des héros différents sont proposés à chaque virée. Essayez-les tous !	
+GLUE_TIP_DUELS_22	Certains modèles de decks vous réserveront d’incroyables surprises !	
+GLUE_TIP_DUELS_23	C’est l’heure des D-D-D-D-DUELS !	
+GLUE_TIP_DUELS_3	Les cartes proposées entre chaque match varient selon le contenu de votre deck.	
+GLUE_TIP_DUELS_4	Utilisez souvent votre pouvoir héroïque pour optimiser son effet.	
+GLUE_TIP_DUELS_5	Le maximum de points de vie de votre héros augmente au fil de votre virée.	
+GLUE_TIP_DUELS_6	Les trésors spéciaux de votre classe vous indiquent les stratégies possibles.	
+GLUE_TIP_DUELS_7	Les serviteurs neutres peuvent être placés dans n’importe quel deck.	
+GLUE_TIP_DUELS_8	En mode Duels, vous pouvez jouer avec la dernière extension et de puissantes cartes du passé.	
+GLUE_TIP_DUELS_9	Plus vous avez de cartes dans votre deck, moins vous avez de chance de voir une carte particulière.	
 GLUE_TIP_FORGE_0	Votre deck d’Arène disparaîtra après que vous aurez perdu 3 parties.	
 GLUE_TIP_FORGE_1	Votre récompense d’Arène s’améliore à chaque partie gagnée !	
 GLUE_TIP_FORGE_2	Vous n’avez pas besoin de jouer tous vos matchs d’Arène d’un coup.	
@@ -2022,6 +2096,7 @@ GLUE_TOOLTIP_BUTTON_BACON_HEADLINE	Champs de bataille
 GLUE_TOOLTIP_BUTTON_COLLECTION_DESC	Consultez vos cartes ou construisez un deck.	
 GLUE_TOOLTIP_BUTTON_COLLECTION_HEADLINE	Ma collection	
 GLUE_TOOLTIP_BUTTON_DISABLED_DESC	Cette fonctionnalité a été temporairement désactivée.	
+GLUE_TOOLTIP_BUTTON_DUELS_HEADLINE	Duels	
 GLUE_TOOLTIP_BUTTON_FORGE_HEADLINE	Arène	
 GLUE_TOOLTIP_BUTTON_FORGE_NOT_UNLOCKED	Non disponible tant que vous n’êtes pas niveau 10 avec toutes les classes.	
 GLUE_TOOLTIP_BUTTON_GAME_MODES_DESC	Essayez de nouvelles façons de jouer.	
