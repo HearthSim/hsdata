@@ -107,8 +107,8 @@ GLOBAL_CARD_SET_DEBUG	Débogage
 GLOBAL_CARD_SET_DHI	Initié chasseur de démons	
 GLOBAL_CARD_SET_DHI_SEARCHABLE_SHORTHAND_NAMES	cddi cdi chasseur démon démons initié	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_DHI_SHORT	Initié	
-GLOBAL_CARD_SET_DMF	Folle journée à Sombrelune	
-GLOBAL_CARD_SET_DMF_SEARCHABLE_SHORTHAND_NAMES	folie fds sombrelune darkmoon foire	 This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_DMF	Foire de Sombrelune	
+GLOBAL_CARD_SET_DMF_SEARCHABLE_SHORTHAND_NAMES	fds	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_DMF_SHORT	Sombrelune	
 GLOBAL_CARD_SET_DRG	L’Envol des Dragons	
 GLOBAL_CARD_SET_DRG_SEARCHABLE_SHORTHAND_NAMES	dod dd dragons envol descent edd ed dragon	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
@@ -280,6 +280,8 @@ GLOBAL_ERROR_GAME_OPPONENT_TIMEOUT	Le match n’a pas pu être lancé car votre 
 GLOBAL_ERROR_GENERIC_HEADER	Erreur	
 GLOBAL_ERROR_INACTIVITY_KICK	Vous avez été déconnecté de Hearthstone car vous êtes inactif depuis un moment. Relancez le jeu quand vous serez prêt !	
 GLOBAL_ERROR_NETWORK_ACCOUNT_BANNED	Votre compte a été banni.	
+GLOBAL_ERROR_NETWORK_ACCOUNT_CURFEW_REACHED	[Anti-addiction] Conformément aux lois et réglementations applicables, les joueurs mineurs ne peuvent pas se connecter au jeu de 22 h à 8 h du matin le jour suivant.	
+GLOBAL_ERROR_NETWORK_ACCOUNT_PLAYTIME_EXCEEDED	[Anti-addiction] Conformément aux lois et réglementations applicables, le temps de connexion quotidienne pour les joueurs mineurs ne doit pas excéder 1 h 30. Votre temps de connexion a atteint la limite quotidienne. Veuillez organiser votre temps de jeu de manière raisonnable.	
 GLOBAL_ERROR_NETWORK_ACCOUNT_SUSPENDED	Votre compte a été suspendu.	
 GLOBAL_ERROR_NETWORK_ADMIN_KICKED	Vous avez été déconnecté des services Blizzard. Veuillez relancer Hearthstone pour vous reconnecter.	
 GLOBAL_ERROR_NETWORK_ADVENTURE_RECONNECT_TIMEOUT	Votre partie a été sauvegardée. Relancez Hearthstone pour reprendre là où vous en étiez.	
@@ -472,6 +474,10 @@ GLOBAL_KEYWORD_CHARGE	Charge
 GLOBAL_KEYWORD_CHARGE_TEXT	Peut attaquer immédiatement.	
 GLOBAL_KEYWORD_COMBO	Combo	
 GLOBAL_KEYWORD_COMBO_TEXT	Un bonus si vous avez déjà joué une carte pendant ce tour.	
+GLOBAL_KEYWORD_CORRUPT	Corruption	
+GLOBAL_KEYWORD_CORRUPT_TEXT	S’améliore dans la main une fois que vous avez joué une carte au coût supérieur.	
+GLOBAL_KEYWORD_CORRUPTEDCARD	Corrompu	
+GLOBAL_KEYWORD_CORRUPTEDCARD_TEXT	Améliorée par une carte au coût supérieur.	
 GLOBAL_KEYWORD_COUNTER	Contre	
 GLOBAL_KEYWORD_COUNTER_TEXT	Une carte contrée n’a aucun effet.	
 GLOBAL_KEYWORD_CTHUN	C’Thun, Dieu très ancien	
@@ -656,11 +662,12 @@ GLOBAL_MEDAL_9	Champion de la Main d’argent
 GLOBAL_MEDAL_ARENA_TOOLTIP_BODY	C’est la meilleure clé d’Arène que vous ayez obtenue.\nVictoires : {0}	0=num wins
 GLOBAL_MEDAL_REWARD_CONGRATULATIONS	Félicitations !	
 GLOBAL_MEDAL_REWARD_DESCRIPTION	Médaille obtenue la semaine passée	
-GLOBAL_MEDAL_TOOLTIP_BEST_RANK_STANDARD	Votre meilleur rang actuel est Standard.	
-GLOBAL_MEDAL_TOOLTIP_BEST_RANK_WILD	Votre meilleur rang actuel est Libre.	
-GLOBAL_MEDAL_TOOLTIP_BODY	Gagnez des parties pour progresser jusqu’au rang suivant !	
+GLOBAL_MEDAL_TOOLTIP_BEST_RANK_STANDARD	Rang Standard : {0}	
+GLOBAL_MEDAL_TOOLTIP_BEST_RANK_WILD	Rang Libre : {0}	
 GLOBAL_MEDAL_TOOLTIP_BODY_ARENA_GRAND_MASTER	Vous êtes un champion de l’Arène !	
 GLOBAL_MEDAL_TOOLTIP_BODY_LEGEND	Vous êtes une légende ! Votre position dans ce rang changera à chaque partie.	
+GLOBAL_MEDAL_TOOLTIP_BODY_STANDARD	Gagnez des parties en mode Standard pour progresser jusqu’au rang suivant !	
+GLOBAL_MEDAL_TOOLTIP_BODY_WILD	Gagnez des parties en mode Libre pour progresser jusqu’au rang suivant !	
 GLOBAL_MEDAL_TOOLTIP_HEADER	Médaille : {0}	0=medal name
 GLOBAL_MEDAL_TOURNAMENT_TOOLTIP_BODY	Parmi les {0} meilleurs % en Partie classée cette saison.	0=rank percentile
 GLOBAL_MOBILE_ERROR_ANDROID_PHONE_DETECTED	Désolés, Hearthstone ne fonctionne pour le moment que sur les tablettes Android de 6 pouces et plus.	
@@ -727,6 +734,7 @@ GLOBAL_PLAYER_MIGRATION_RESTART_HEADER	Votre compte doit être mis à jour.
 GLOBAL_PLAYER_PLAYER	Joueur	this is the word for generic "Player" - this will be used when there a player's name is unknown at the time.
 GLOBAL_PRACTICE_MAX_LEVEL_REACHED	Niveau max. de l’Entraînement	
 GLOBAL_PROGRAMNAME_BLACKOPS4	Black Ops 4	
+GLOBAL_PROGRAMNAME_BLACKOPSCOLDWAR	Black Ops Cold War	
 GLOBAL_PROGRAMNAME_DESTINY2	Destiny 2	
 GLOBAL_PROGRAMNAME_DIABLO3	Diablo III	
 GLOBAL_PROGRAMNAME_HEARTHSTONE	Hearthstone	
@@ -739,6 +747,36 @@ GLOBAL_PROGRAMNAME_STARCRAFT	StarCraft
 GLOBAL_PROGRAMNAME_STARCRAFT2	StarCraft II	
 GLOBAL_PROGRAMNAME_WARCRAFT3	Warcraft III: Reforged	
 GLOBAL_PROGRAMNAME_WOW	World of Warcraft	
+GLOBAL_PROGRESSION_ACHIEVEMENT_COMPLETION	Obtenus : {0}	
+GLOBAL_PROGRESSION_ACHIEVEMENT_COMPLETION_DATE	{0:yyyy/MM/dd}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
+GLOBAL_PROGRESSION_ACHIEVEMENT_SUBCATEGORY_NAME	{0} - {1}	
+GLOBAL_PROGRESSION_DAILY_QUESTS_POPUP_TITLE	Vos quêtes	
+GLOBAL_PROGRESSION_POINTS	{0} points de haut fait	
+GLOBAL_PROGRESSION_PROFILE_ARENA_STAT_TOOLTIP	Plus grand nombre de victoires obtenues cette saison dans l’Arène.	
+GLOBAL_PROGRESSION_PROFILE_ARENA_STAT_TOOLTIP_TITLE	Score d’Arène	
+GLOBAL_PROGRESSION_PROFILE_ARENA_WINS	{0}_|4(victoire,victoires)	
+GLOBAL_PROGRESSION_PROFILE_BATTLEGROUNDS_STAT_TOOLTIP	Gagnez des parties sur les champs de bataille pour augmenter votre cote.	
+GLOBAL_PROGRESSION_PROFILE_BATTLEGROUNDS_STAT_TOOLTIP_TITLE	Cote de champs de bataille	
+GLOBAL_PROGRESSION_PROFILE_GAME_MODES	Modes de jeu	
+GLOBAL_PROGRESSION_PROFILE_PLAY_MODE	Mode Partie	
+GLOBAL_PROGRESSION_PROFILE_PVPDR_CASUAL_STAT_TITLE	Duels non classés	
+GLOBAL_PROGRESSION_PROFILE_PVPDR_CASUAL_STAT_TOOLTIP	Gagnez des duels non classés pour augmenter votre cote.	
+GLOBAL_PROGRESSION_PROFILE_PVPDR_CASUAL_STAT_TOOLTIP_TITLE	Cote de duels non classés	
+GLOBAL_PROGRESSION_PROFILE_PVPDR_HEROIC_STAT_TITLE	Duels héroïques	
+GLOBAL_PROGRESSION_PROFILE_PVPDR_HEROIC_STAT_TOOLTIP	Gagnez des duels héroïques pour augmenter votre cote.	
+GLOBAL_PROGRESSION_PROFILE_PVPDR_HEROIC_STAT_TOOLTIP_TITLE	Cote de duels héroïques non classés	
+GLOBAL_PROGRESSION_PROGRESS_MESSAGE	{0} / {1}	
+GLOBAL_PROGRESSION_QUEST_TIME_UNTIL_NEXT	Nouvelle quête dans {0}	
+GLOBAL_PROGRESSION_RANKED_REWARDS_TOOLTIP	Gagnez des récompenses chaque saison en fonction de votre meilleur rang en mode Libre ou Standard.	
+GLOBAL_PROGRESSION_RANKED_REWARDS_TOOLTIP_TITLE	Récompenses de Partie classée	
+GLOBAL_PROGRESSION_REWARD_SUMMARY	{0}\n{1}	
+GLOBAL_PROGRESSION_REWARD_TRACK_XP	EXP en récompense : {0}	
+GLOBAL_PROGRESSION_TIER_MESSAGE	{0}/{1}	
+GLOBAL_PROGRESSION_TOOLTIP_GOLDEN_WINS_DESC	Gagnez 500 matchs en Partie classée ou en Arène avec la classe {0} pour obtenir son portrait doré classique !	{0}=class name
+GLOBAL_PROGRESSION_TOOLTIP_HERO_LEVEL_NEXT_REWARD	Prochaine carte {0} au niveau {1}	{0}=premium {1}=level
+GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DESC	Gagnez 1 000 matchs en Partie classée ou en Arène avec la classe {0} pour gagner {1} !	{0}=class name {1}=hero card name
+GLOBAL_PROGRESSION_TOOLTIP_TOTAL_CLASS_WINS	Total de victoires de la classe {0}	{0}=class name
+GLOBAL_PROGRESSION_WEEKLY_QUESTS_POPUP_TITLE	Vos quêtes hebdomadaires	
 GLOBAL_QUEST_PROGRESS_COUNT	{0}/{1}	0=progress,1=max progress
 GLOBAL_QUIT	Quitter	
 GLOBAL_RACE_ALL	Tout	
@@ -782,7 +820,7 @@ GLOBAL_RACE_PIRATE	Pirate
 GLOBAL_RACE_PIRATE_BATTLEGROUNDS	Pirates	
 GLOBAL_RACE_SCOURGE	Fléau	
 GLOBAL_RACE_SCOURGE_BATTLEGROUNDS	Fléau	
-GLOBAL_RACE_TAUREN	Tauren	
+GLOBAL_RACE_TAUREN	Sectateur	
 GLOBAL_RACE_TAUREN_BATTLEGROUNDS	Taurens	
 GLOBAL_RACE_TOTEM	Totem	
 GLOBAL_RACE_TOTEM_BATTLEGROUNDS	Totems	
@@ -834,7 +872,7 @@ GLOBAL_REWARD_ARENA_TICKET_ENTRANT	Concurrent	a label that shows up in the Arena
 GLOBAL_REWARD_ARENA_TICKET_HEADLINE	Admission gratuite !	
 GLOBAL_REWARD_ARENA_TICKET_LABEL	Arène	
 GLOBAL_REWARD_ARENA_TICKET_STORE_COUNT_1	1	
-GLOBAL_REWARD_ARENA_TICKET_TITLE	Arène	
+GLOBAL_REWARD_ARENA_TICKET_TITLE	Taverne	
 GLOBAL_REWARD_BONUS_CHALLENGE_HEADLINE	Défi ultime débloqué	
 GLOBAL_REWARD_BOOSTER_DETAILS_OUT_OF_BAND	{0} |4(paquet a été ajouté,paquets ont été ajoutés) à votre compte en dehors du jeu.	0=count
 GLOBAL_REWARD_BOOSTER_DETAILS_PRESALE_OUT_OF_BAND	Votre achat sur Internet de {0}_|4(paquet,paquets) sera bientôt disponible_!	0=count

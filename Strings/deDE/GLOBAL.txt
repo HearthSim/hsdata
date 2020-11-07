@@ -107,9 +107,9 @@ GLOBAL_CARD_SET_DEBUG	Debug
 GLOBAL_CARD_SET_DHI	Initiand der Dämonenjäger	
 GLOBAL_CARD_SET_DHI_SEARCHABLE_SHORTHAND_NAMES	dji	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_DHI_SHORT	Initiand	
-GLOBAL_CARD_SET_DMF	Der Dunkelmond-Wahnsinn	
-GLOBAL_CARD_SET_DMF_SEARCHABLE_SHORTHAND_NAMES	madness dmf wahnsinn dmw	 This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
-GLOBAL_CARD_SET_DMF_SHORT	Dunkelmond-Wahnsinn	
+GLOBAL_CARD_SET_DMF	Dunkelmond-Wahnsinn	
+GLOBAL_CARD_SET_DMF_SEARCHABLE_SHORTHAND_NAMES	dmf dmw	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_DMF_SHORT	Dunkelmond	
 GLOBAL_CARD_SET_DRG	Erbe der Drachen	
 GLOBAL_CARD_SET_DRG_SEARCHABLE_SHORTHAND_NAMES	edd ed dod dd	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_DRG_SHORT	Drachen	
@@ -192,7 +192,7 @@ GLOBAL_CLASS_WARRIOR	Krieger
 GLOBAL_CLICK_TO_CONTINUE	Klicken, um fortzufahren	
 GLOBAL_CLICK_TO_CONTINUE_TOUCH	Tippen, um fortzufahren	
 GLOBAL_COLLECTION_GOLDEN	Golden	
-GLOBAL_COMMA_SEPARATOR	, 	
+GLOBAL_COMMA_SEPARATOR	,	
 GLOBAL_CONCEDE	Aufgeben	
 GLOBAL_CONFIRM	Bestätigen	
 GLOBAL_CONTINUE	Weiter	
@@ -280,6 +280,8 @@ GLOBAL_ERROR_GAME_OPPONENT_TIMEOUT	Die Partie konnte nicht gestartet werden, da 
 GLOBAL_ERROR_GENERIC_HEADER	Fehler	
 GLOBAL_ERROR_INACTIVITY_KICK	Ihre Verbindung zum Server wurde getrennt, da Sie längere Zeit inaktiv waren. Starten Sie das Spiel erneut, wenn Sie wieder spielen möchten.	
 GLOBAL_ERROR_NETWORK_ACCOUNT_BANNED	Ihr Account wurde gebannt.	
+GLOBAL_ERROR_NETWORK_ACCOUNT_CURFEW_REACHED	[Suchtprävention] Aufgrund geltender nationaler Gesetze und Bestimmungen können sich minderjährige Spieler zwischen 22:00 Uhr und 8:00 Uhr des Folgetages nicht in das Spiel einloggen.	
+GLOBAL_ERROR_NETWORK_ACCOUNT_PLAYTIME_EXCEEDED	[Suchtprävention] Aufgrund geltender nationaler Gesetze und Bestimmungen ist die tägliche Spielzeit für minderjährige Spieler auf 1,5 Stunden beschränkt. Dieses Limit wurde heute erreicht. Bitte planen Sie Ihre Spielzeit entsprechend.	
 GLOBAL_ERROR_NETWORK_ACCOUNT_SUSPENDED	Ihr Account wurde suspendiert.	
 GLOBAL_ERROR_NETWORK_ADMIN_KICKED	Sie wurden von den Blizzard-Diensten getrennt. Bitte starten Sie Hearthstone neu, um die Verbindung wiederherzustellen.	
 GLOBAL_ERROR_NETWORK_ADVENTURE_RECONNECT_TIMEOUT	Spiel wurde gespeichert. Starten Sie Hearthstone neu, um an derselben Stelle weiterzuspielen.	
@@ -472,6 +474,10 @@ GLOBAL_KEYWORD_CHARGE	Ansturm
 GLOBAL_KEYWORD_CHARGE_TEXT	Sofort angriffsbereit.	
 GLOBAL_KEYWORD_COMBO	Combo	
 GLOBAL_KEYWORD_COMBO_TEXT	Ein Bonus, wenn in diesem Zug bereits eine Karte ausgespielt wurde.	
+GLOBAL_KEYWORD_CORRUPT	Verderben	
+GLOBAL_KEYWORD_CORRUPT_TEXT	Wird auf der Hand aufgewertet, wenn Ihr eine Karte ausspielt, die mehr kostet.	
+GLOBAL_KEYWORD_CORRUPTEDCARD	Verderbt	
+GLOBAL_KEYWORD_CORRUPTEDCARD_TEXT	Wurde durch das Ausspielen einer Karte mit höheren Kosten aufgewertet.	
 GLOBAL_KEYWORD_COUNTER	Konter	
 GLOBAL_KEYWORD_COUNTER_TEXT	Eine Karte, die gekontert wird, hat keinen Effekt.	
 GLOBAL_KEYWORD_CTHUN	C’Thun, Alter Gott	
@@ -656,11 +662,12 @@ GLOBAL_MEDAL_9	Ritter der Silbernen Hand
 GLOBAL_MEDAL_ARENA_TOOLTIP_BODY	Dies ist der beste Schlüssel, den Ihr in der Arena erhalten habt.\nSiege: {0}	0=num wins
 GLOBAL_MEDAL_REWARD_CONGRATULATIONS	Herzlichen Glückwunsch!	
 GLOBAL_MEDAL_REWARD_DESCRIPTION	Letzte Woche erhaltene Medaille	
-GLOBAL_MEDAL_TOOLTIP_BEST_RANK_STANDARD	Euer Standardrang ist zurzeit Euer bester Rang.	
-GLOBAL_MEDAL_TOOLTIP_BEST_RANK_WILD	Euer wilder Rang ist zurzeit Euer bester Rang.	
-GLOBAL_MEDAL_TOOLTIP_BODY	Gewinnt Spiele, um den nächsten Rang zu erreichen!	
+GLOBAL_MEDAL_TOOLTIP_BEST_RANK_STANDARD	Rang im Standardformat: {0}	
+GLOBAL_MEDAL_TOOLTIP_BEST_RANK_WILD	Rang im wilden Format: {0}	
 GLOBAL_MEDAL_TOOLTIP_BODY_ARENA_GRAND_MASTER	Ihr seid ein Champion der Arena!	
 GLOBAL_MEDAL_TOOLTIP_BODY_LEGEND	Ihr seid zur Legende aufgestiegen! Eure Platzierung innerhalb dieses Rangs verändert sich mit jedem Spiel.	
+GLOBAL_MEDAL_TOOLTIP_BODY_STANDARD	Gewinnt Standardspiele, um den nächsten Rang zu erreichen!	
+GLOBAL_MEDAL_TOOLTIP_BODY_WILD	Gewinnt wilde Spiele, um den nächsten Rang zu erreichen!	
 GLOBAL_MEDAL_TOOLTIP_HEADER	Wertung: {0}	0=medal name
 GLOBAL_MEDAL_TOURNAMENT_TOOLTIP_BODY	Ihr gehört diese Saison zu den besten {0} % des gewerteten Modus!	0=rank percentile
 GLOBAL_MOBILE_ERROR_ANDROID_PHONE_DETECTED	Es tut uns leid, Hearthstone läuft zurzeit nur auf Android-Tablets mit einer Displaygröße von mindestens 6 Zoll.	
@@ -727,6 +734,7 @@ GLOBAL_PLAYER_MIGRATION_RESTART_HEADER	Accountaktualisierung erforderlich.
 GLOBAL_PLAYER_PLAYER	Spieler	this is the word for generic "Player" - this will be used when there a player's name is unknown at the time.
 GLOBAL_PRACTICE_MAX_LEVEL_REACHED	Max. Stufe gegen KI	
 GLOBAL_PROGRAMNAME_BLACKOPS4	Black Ops 4	
+GLOBAL_PROGRAMNAME_BLACKOPSCOLDWAR	Black Ops Cold War	
 GLOBAL_PROGRAMNAME_DESTINY2	Destiny 2	
 GLOBAL_PROGRAMNAME_DIABLO3	Diablo III	
 GLOBAL_PROGRAMNAME_HEARTHSTONE	Hearthstone	
@@ -739,6 +747,36 @@ GLOBAL_PROGRAMNAME_STARCRAFT	StarCraft
 GLOBAL_PROGRAMNAME_STARCRAFT2	StarCraft II	
 GLOBAL_PROGRAMNAME_WARCRAFT3	Warcraft III: Reforged	
 GLOBAL_PROGRAMNAME_WOW	World of Warcraft	
+GLOBAL_PROGRESSION_ACHIEVEMENT_COMPLETION	{0} abgeschlossen	
+GLOBAL_PROGRESSION_ACHIEVEMENT_COMPLETION_DATE	{0:dd.MM.yyyy}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
+GLOBAL_PROGRESSION_ACHIEVEMENT_SUBCATEGORY_NAME	{0} – {1}	
+GLOBAL_PROGRESSION_DAILY_QUESTS_POPUP_TITLE	Eure Quests	
+GLOBAL_PROGRESSION_POINTS	{0} Erfolgspunkte	
+GLOBAL_PROGRESSION_PROFILE_ARENA_STAT_TOOLTIP	Die meisten Siege in der Arena diese Saison	
+GLOBAL_PROGRESSION_PROFILE_ARENA_STAT_TOOLTIP_TITLE	Arenarekord	
+GLOBAL_PROGRESSION_PROFILE_ARENA_WINS	{0} |4(Sieg,Siege)	
+GLOBAL_PROGRESSION_PROFILE_BATTLEGROUNDS_STAT_TOOLTIP	Gewinnt Spiele im Schlachtfeldmodus, um Eure Wertung zu erhöhen.	
+GLOBAL_PROGRESSION_PROFILE_BATTLEGROUNDS_STAT_TOOLTIP_TITLE	Schlachtfeldwertung	
+GLOBAL_PROGRESSION_PROFILE_GAME_MODES	Spielmodi	
+GLOBAL_PROGRESSION_PROFILE_PLAY_MODE	Modus „Spielen“	
+GLOBAL_PROGRESSION_PROFILE_PVPDR_CASUAL_STAT_TITLE	Normale Duelle	
+GLOBAL_PROGRESSION_PROFILE_PVPDR_CASUAL_STAT_TOOLTIP	Spielt normale Duelle, um Eure Wertung zu erhöhen.	
+GLOBAL_PROGRESSION_PROFILE_PVPDR_CASUAL_STAT_TOOLTIP_TITLE	Wertung für normale Duelle	
+GLOBAL_PROGRESSION_PROFILE_PVPDR_HEROIC_STAT_TITLE	Heroische Duelle	
+GLOBAL_PROGRESSION_PROFILE_PVPDR_HEROIC_STAT_TOOLTIP	Spielt heroische Duelle, um Eure Wertung zu erhöhen.	
+GLOBAL_PROGRESSION_PROFILE_PVPDR_HEROIC_STAT_TOOLTIP_TITLE	Wertung für heroische Duelle	
+GLOBAL_PROGRESSION_PROGRESS_MESSAGE	{0} / {1}	
+GLOBAL_PROGRESSION_QUEST_TIME_UNTIL_NEXT	Neue Quest in {0}	
+GLOBAL_PROGRESSION_RANKED_REWARDS_TOOLTIP	Verdient in jeder Saison Belohnungen für Euren besten Rang im wilden Format oder im Standardformat.	
+GLOBAL_PROGRESSION_RANKED_REWARDS_TOOLTIP_TITLE	Gewertete Belohnungen	
+GLOBAL_PROGRESSION_REWARD_SUMMARY	{0}\n{1}	
+GLOBAL_PROGRESSION_REWARD_TRACK_XP	{0} Belohnungserfahrung	
+GLOBAL_PROGRESSION_TIER_MESSAGE	{0}/{1}	
+GLOBAL_PROGRESSION_TOOLTIP_GOLDEN_WINS_DESC	Gewinnt als {0} 500 Spiele im gewerteten Modus oder in der Arena, um den entsprechenden goldenen Basishelden freizuschalten!	{0}=class name
+GLOBAL_PROGRESSION_TOOLTIP_HERO_LEVEL_NEXT_REWARD	Nächste {0}-Karte auf Stufe {1}	{0}=premium {1}=level
+GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DESC	Gewinnt als {0} 1.000 Spiele im gewerteten Modus oder in der Arena, um {1} freizuschalten!	{0}=class name {1}=hero card name
+GLOBAL_PROGRESSION_TOOLTIP_TOTAL_CLASS_WINS	{0} Siege insgesamt	{0}=class name
+GLOBAL_PROGRESSION_WEEKLY_QUESTS_POPUP_TITLE	Eure wöchentlichen Quests	
 GLOBAL_QUEST_PROGRESS_COUNT	{0}/{1}	0=progress,1=max progress
 GLOBAL_QUIT	Beenden	
 GLOBAL_RACE_ALL	Alle	
@@ -782,7 +820,7 @@ GLOBAL_RACE_PIRATE	Pirat
 GLOBAL_RACE_PIRATE_BATTLEGROUNDS	Piraten	
 GLOBAL_RACE_SCOURGE	Geißel	
 GLOBAL_RACE_SCOURGE_BATTLEGROUNDS	Geißel	
-GLOBAL_RACE_TAUREN	Tauren	
+GLOBAL_RACE_TAUREN	Kultist	
 GLOBAL_RACE_TAUREN_BATTLEGROUNDS	Tauren	
 GLOBAL_RACE_TOTEM	Totem	
 GLOBAL_RACE_TOTEM_BATTLEGROUNDS	Totems	
@@ -834,7 +872,7 @@ GLOBAL_REWARD_ARENA_TICKET_ENTRANT	Teilnehmer	a label that shows up in the Arena
 GLOBAL_REWARD_ARENA_TICKET_HEADLINE	Gratiszugang!	
 GLOBAL_REWARD_ARENA_TICKET_LABEL	Arena	
 GLOBAL_REWARD_ARENA_TICKET_STORE_COUNT_1	1	
-GLOBAL_REWARD_ARENA_TICKET_TITLE	Arena	
+GLOBAL_REWARD_ARENA_TICKET_TITLE	Gasthaus	
 GLOBAL_REWARD_BONUS_CHALLENGE_HEADLINE	Letzter Kampf freigeschaltet	
 GLOBAL_REWARD_BOOSTER_DETAILS_OUT_OF_BAND	{0} |4(Kartenpackung wurde,Kartenpackungen wurden) Eurem Account von außerhalb des Spiels hinzugefügt.	0=count
 GLOBAL_REWARD_BOOSTER_DETAILS_PRESALE_OUT_OF_BAND	Euer Online-Kauf von {0} |4(Packung,Packungen) wird bald verfügbar sein!	0=count

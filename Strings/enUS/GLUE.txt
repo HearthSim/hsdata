@@ -107,8 +107,8 @@ GLUE_COLLECTION_GOLDEN_CARDS	Golden Cards
 GLUE_COLLECTION_CUSTOM_DECKNAME_TEMPLATE	Custom {0}{1}	0=class name, 1=incrementer
 GLUE_COLLECTION_CUSTOM_DECKNAME_SHORT	{0}{1}	0=class name, 1=incrementer
 GLUE_COLLECTION_TAVERN_BRAWL_DECKNAME	Brawl Deck	
-GLUE_COLLECTION_FSG_BRAWL_DECKNAME	Fireside Deck	
-GLUE_COLLECTION_DUEL_DECKNAME	Duel Deck
+GLUE_COLLECTION_FSG_BRAWL_DECKNAME	Fireside Deck
+GLUE_COLLECTION_DUEL_DECKNAME	Duel Deck	
 GLUE_COLLECTION_CARD_NEW	NEW!	
 GLUE_COLLECTION_CRAFTING_MODE	Crafting Mode	
 GLUE_COLLECTION_CRAFTING_MODE_SHORT	Crafting	
@@ -375,6 +375,8 @@ GLUE_SHOP_GET_MORE_RUNESTONES_HEADER	Not enough Runestones!
 GLUE_SHOP_NOT_ENOUGH_RUNESTONES	Not enough Runestones
 GLUE_SHOP_CONVERT_TO_ARCANE_ORBS_HEADER	Convert Runestones to Arcane Orbs
 GLUE_SHOP_WILD_CARDS_DISCLAIMER	•  Wild only – these cards cannot be used in Standard.
+GLUE_SHOP_CLOSED_ALERT_HEADER	Shop Closed
+GLUE_SHOP_CLOSED_ALERT_TEXT	The shop is temporarily closed, please check back later!
 GLUE_CHECKOUT_ERROR_INSUFFICIENT_FUNDS	You do not have enough funds to complete this purchase.
 GLUE_CHECKOUT_ERROR_PRODUCT_UNAVAILABLE	This product is not currently available.
 GLUE_CHECKOUT_ERROR_GENERIC_FAILURE	Oops! Something went wrong. Please try again later.
@@ -429,12 +431,14 @@ GLUE_TOOLTIP_BUTTON_QUESTLOG_DESC	View your current progress.
 GLUE_TOOLTIP_BUTTON_DISABLED_DESC	This has been temporarily disabled.	
 GLUE_TOOLTIP_BUTTON_STORE_HEADLINE	Shop	
 GLUE_TOOLTIP_BUTTON_STORE_DESC	Buy Packs with gold or money.
+GLUE_TOOLTIP_BUTTON_JOURNAL_HEADLINE	Journal
+GLUE_TOOLTIP_BUTTON_JOURNAL_DESC	Quests, Achievements, Rewards, and more!
 GLUE_TOOLTIP_BUTTON_GAME_MODES_HEADLINE	Game Modes	
 GLUE_TOOLTIP_BUTTON_GAME_MODES_DESC	Try out different ways to play.	
 GLUE_TOOLTIP_BUTTON_BACON_HEADLINE	Battlegrounds	
 GLUE_TOOLTIP_BUTTON_BACON_DESC_EARLY_ACCESS	Battlegrounds is currently in Early Access.\nYou can gain access by purchasing any of the Descent of Dragons pre-purchases in the shop.
 GLUE_MOBILE_TOOLTIP_BUTTON_STORE_DESC	Buy Packs with gold or money.
-GLUE_TOOLTIP_VIRTUAL_CURRENCY_DESCRIPTION	Spend Runestones to buy Arcane Orbs, heroes, adventures, or Arena tickets.
+GLUE_TOOLTIP_VIRTUAL_CURRENCY_DESCRIPTION	Spend Runestones to buy Arcane Orbs, heroes, adventures, or Tavern tickets.
 GLUE_TOOLTIP_VIRTUAL_CURRENCY_HEADER	Runestones	
 GLUE_TOOLTIP_BOOSTER_CURRENCY_DESCRIPTION	Spend Arcane Orbs to buy Packs.
 GLUE_TOOLTIP_BOOSTER_CURRENCY_HEADER	Arcane Orbs	
@@ -984,6 +988,7 @@ GLUE_INCOMPLETE_DECK_DESC	You need to finish building this deck.
 GLUE_DISABLED_WILD_DECK_HEADER	Wild deck
 GLUE_DISABLED_WILD_DECK_DESC	Not usable in Standard. Swap to the Wild Format, or convert it to Standard.
 GLUE_QUEST_LOG_PHONE_BUTTON	Quests	
+GLUE_JOURNAL_PHONE_BUTTON	Journal	
 GLUE_QUEST_LOG_HEADLINE	Quest Log	
 GLUE_QUEST_LOG_PLAY_MODE	Play Mode
 GLUE_QUEST_LOG_ARENA	Arena	
@@ -1233,6 +1238,7 @@ GLUE_WIN_STREAK	Win Streak: {0}	0=number of wins
 GLUE_EDIT	Edit	
 GLUE_COLLECTION_MANAGER_HERO_SKINS_TITLE	Heroes	
 GLUE_COLLECTION_MANAGER_CARD_BACKS_TITLE	Card Backs	
+GLUE_COLLECTION_MANAGER_COINS_TITLE	Coins	
 GLUE_TAVERN_BRAWL_LABEL_ENDING_SECONDS	Ends in {0} |4(second,seconds)	
 GLUE_TAVERN_BRAWL_LABEL_ENDING_MINUTES	Ends in {0} |4(minute,minutes)	
 GLUE_TAVERN_BRAWL_LABEL_ENDING_HOURS	Ends in {0} |4(hour,hours)	
@@ -1256,6 +1262,8 @@ GLUE_TAVERN_BRAWL_HAS_ENDED_TEXT	This Tavern Brawl Event is now over. Another on
 GLUE_COLLECTION_MANAGER_FAVORITE_BUTTON	Make Favorite	
 GLUE_COLLECTION_MANAGER_FAVORITE_DEFAULT_TEXT	Favorite {0}	
 GLUE_COLLECTION_MANAGER_FAVORITE_CARD_BACK	Favorite	
+GLUE_COLLECTION_MANAGER_COIN_TITLE	Coins		
+GLUE_COLLECTION_MANAGER_FAVORITE_COIN	Favorite	
 GLUE_TAVERN_BRAWL_RETURNS_LESS_THAN_1_HOUR	Back in\n<size=70>< 1 </size>\nhour	
 GLUE_TAVERN_BRAWL_RETURNS_HOURS	Back in\n<size=70>{0}</size>\n|4(hour,hours)	
 GLUE_TAVERN_BRAWL_RETURNS_DAYS	Back in\n<size=70>{0}</size>\n|4(day,days)	
@@ -1579,7 +1587,7 @@ GLUE_FIRE_FESTIVAL_DOUBLE_GOLD_BAG_TEXT	x2
 GLUE_FIRESIDE_GATHERING_SCAN_NO_GPS_OR_WIFI	This feature is only available to devices with GPS or Wi-Fi capability.
 GLUE_FIRESIDE_GATHERING_APPEAR_ONLINE_PROMPT	You cannot join a Fireside Gathering while appearing offline.\nWould you like to go online?
 GLUE_OUTSTANDING_DRAFT_TICKET_DIALOG_HEADER	Welcome to The Arena!
-GLUE_OUTSTANDING_DRAFT_TICKET_DIALOG_DESC	You have |4(an extra,extra) Arena |4(ticket,tickets)! Don't worry about the usual entrance fee this time.
+GLUE_OUTSTANDING_DRAFT_TICKET_DIALOG_DESC	You have |4(an extra,extra) Tavern |4(ticket,tickets)! Don't worry about the usual entrance fee this time.
 GLUE_COLLECTION_MANAGER_ON_ADD_FULL_DECK_ERROR_TEXT	Your deck is full. Remove a card first!
 GLUE_CHINA_STORE_BOOSTER_GIFT	Gift:\n{0} Packs
 GLUE_CHINA_STORE_BOOSTER_GIFT_PLUS_BONUS	Gift:\n{0}+{1} Packs
@@ -2007,6 +2015,7 @@ GLUE_BACON_PERKS_ERROR_HEADER	Battlegrounds Bonuses
 GLUE_BACON_PERKS_ERROR_BODY	There are currently no Battlegrounds Bonuses. Please check back later.
 GLUE_BACON_PERKS_EXPIRING_BODY	Your Battlegrounds Bonuses are expiring soon. You can gain access to the next season of Battlegrounds Perks by purchasing the new Tavern Pass once <color="#FF0156">Ashes of Outland</color> is released.
 GLUE_BACON_NOTIFICATION_POPUP_HEADER	Battlegrounds Update
+GLUE_DUELS_NOTIFICATION_POPUP_HEADER	Duels Update
 GLUE_SHOP_RIBBON_LATEST_ADVENTURE	Latest Adventure
 GLUE_SHOP_RIBBON_PREPURCHASE_BUNDLE	Pre-Purchase Bundle
 GLUE_SHOP_RIBBON_GREATEST_NEWPLAYERS	Great for New Players
@@ -2139,9 +2148,9 @@ GLUE_GAME_MODES_POPUP_PVPDR_DESC	[PH] Loot, draft, and fight for glory!
 GLUE_PVPDR	Duels
 GLUE_PVPDR_FOOTER	Choose a hero, forge your deck, then power it up between battles!
 GLUE_PVPDR_RATING_LABEL	Rating
-GLUE_PVPDR_RATING_LABEL_NORMAL	Rating (Normal)
+GLUE_PVPDR_RATING_LABEL_NORMAL	Rating (Casual)
 GLUE_PVPDR_RATING_LABEL_HEROIC	Rating (Heroic)
-GLUE_PVPDR_HIGH_WATERMARK_LABEL	Best Run Wins
+GLUE_PVPDR_HIGH_WATERMARK_LABEL	Best Run (Wins)
 GLUE_PVPDR_UNLOCKS_LABEL	Unlocks
 GLUE_PVPDR_UNLOCKS_TEXT	{0} / {1}
 GLUE_PVPDR_LABEL_SEASON_ENDING_SECONDS	Season ends in {0} |4(second,seconds)
@@ -2165,11 +2174,14 @@ GLUE_PVPDR_ENTRY_POPUP_LABEL_HEROIC	Heroic Duel
 GLUE_PVPDR_ENTRY_POPUP_DESCRIPTION_NORMAL	Test your skills
 GLUE_PVPDR_ENTRY_POPUP_DESCRIPTION_HEROIC	Battle for rewards
 GLUE_PVPDR_ENTRY_POPUP_BUTTON_LOCKED	Coming Soon!
+GLUE_PVPDR_HEROIC_POPUP_HEADER	You are entering Heroic Mode
+GLUE_PVPDR_HEROIC_POPUP_DESCRIPTION_HASTICKETS	You have a Tavern Ticket! No need to worry about the entry fee this time.
+GLUE_PVPDR_HEROIC_POPUP_DESCRIPTION_NOTICKETS	More wins means better rewards!\nUse a Tavern Ticket to get in.
 GLUE_PVPDR_END_OF_RUN_HEADER	End Of Run
-GLUE_PVPDR_END_OF_RUN_TIER_0_WIN	You did your best.\nNow get back out there and try again!\n<color=#e3ab0c>Normal Mode Rating {0}</color>
-GLUE_PVPDR_END_OF_RUN_TIER_1_WIN	You made some great plays out there.\nDo you want to play again?\n<color=#e3ab0c>Normal Mode Rating {0}</color>
-GLUE_PVPDR_END_OF_RUN_TIER_2_WIN	That was a fantastic run.  Want to play again?\n<color=#e3ab0c>Normal Mode Rating {0}</color>
-GLUE_PVPDR_END_OF_RUN_TIER_MAX_WIN	Spectacular! You have achieved the maximum number\nof wins. Congratulations!\n<color=#e3ab0c>Normal Mode Rating {0}</color>
+GLUE_PVPDR_END_OF_RUN_TIER_0_WIN	You did your best.\nNow get back out there and try again!\n<color=#e3ab0c>Casual Mode Rating {0}</color>
+GLUE_PVPDR_END_OF_RUN_TIER_1_WIN	You made some great plays out there.\nDo you want to play again?\n<color=#e3ab0c>Casual Mode Rating {0}</color>
+GLUE_PVPDR_END_OF_RUN_TIER_2_WIN	That was a fantastic run.  Want to play again?\n<color=#e3ab0c>Casual Mode Rating {0}</color>
+GLUE_PVPDR_END_OF_RUN_TIER_MAX_WIN	Spectacular! You have achieved the maximum number\nof wins. Congratulations!\n<color=#e3ab0c>Casual Mode Rating {0}</color>
 GLUE_PVPDR_EARLY_ACCESS_SHOP_ERROR_BODY	There are currently no Duels Early Access products. Please check back later.
 GLUE_TIP_DUELS_0	Low-cost minions can be played more consistently.
 GLUE_TIP_DUELS_1	High-cost, powerful minions can turn the tide in later matches.
@@ -2206,3 +2218,52 @@ GLUE_PVPDR_LABEL_RATING_RESET_OVER_1_MONTH	Rating resets in > 1 month
 GLUE_PVPDR_SESSION_START_FAILED_BODY	Failed to create Duels session. Please try again later.
 GLUE_PVPDR_LABEL_VAULT_WINS	Wins
 GLUE_PVPDR_LABEL_VAULT_LIVES	Lives
+GLUE_DUELS_NEW_UNLOCKS_HEADER	New Unlocks!
+GLUE_DUELS_NEW_UNLOCKS_BODY	Congratulations! Your card collection progress has unlocked {0} new items in Duels!
+GLUE_DUELS_NEW_UNLOCKS_BUTTON	Great
+GLUE_DUELS_GENERIC_ERROR	We encountered an error that blocked this action, please try again later.\nIf the problem persists, please restart Hearthstone.
+
+
+GLUE_PROGRESSION_REWARD_TRACK_INFO_HEADER	About the Rewards Track
+GLUE_PROGRESSION_REWARD_TRACK_BUY_BUTTON	Get Tavern Pass
+GLUE_PROGRESSION_REWARD_TRACK_UNLOCK_BUY_BUTTON	Unlock with Tavern Pass
+GLUE_PROGRESSION_REWARD_TRACK_RESET	Resets Next Expansion
+GLUE_PROGRESSION_REWARD_TRACK_PASS	Tavern Pass
+GLUE_PROGRESSION_REWARD_TRACK_PAGE_NUMBER	Page {0} of {1}
+GLUE_PROGRESSION_REWARD_BONUS_GOLD	Bonus!
+GLUE_PROGRESSION_REWARD_TRACK_CLAIM_TOOLTIP	Claim your first reward!
+GLUE_PROGRESSION_REWARD_TRACK_POPUP_INCOMPLETE_LEVEL	Requires Level {0}
+GLUE_PROGRESSION_REWARD_TRACK_POPUP_COMPLETE_LEVEL	Level {0}
+GLUE_PROGRESSION_REWARD_TRACK_POPUP_PREMIUM_LOCKED	Unlock premium rewards with Tavern Pass!
+GLUE_PROGRESSION_REWARD_TRACK_POPUP_BONUS_LEVEL	Beyond Level {0}
+GLUE_PROGRESSION_REWARD_TRACK_POPUP_BONUS_TITLE	Bonus Rewards
+GLUE_PROGRESSION_REWARD_TRACK_REWARD_SCROLL_TITLE	Level {0} Reward!
+GLUE_PROGRESSION_REWARD_INFO_POPUP_BODY	Earn Reward XP to level up on the Rewards Track for exclusive rewards!
+GLUE_PROGRESSION_REWARD_INFO_POPUP_SUBTITLE	Ways to Earn XP
+GLUE_PROGRESSION_REWARD_INFO_POPUP_OPTION_1	QUESTS
+GLUE_PROGRESSION_REWARD_INFO_POPUP_OPTION_2	GAMEPLAY
+GLUE_PROGRESSION_REWARD_INFO_POPUP_OPTION_3	ACHIEVEMENTS
+GLUE_PROGRESSION_REWARD_TRACK_POPUP_SKIN_CHOICE_TITLE	Choose a Hero Skin
+GLUE_PROGRESSION_REWARD_TRACK_POPUP_SKIN_CHOICE_CTA	Claim
+GLUE_PROGRESSION_REWARD_TRACK_POPUP_SKIN_CHOICE_CLAIMED	Claimed
+GLUE_PROGRESSION_REWARD_TRACK_XP_TOOLTIP_BOOST_TITLE	XP Bonuses
+GLUE_PROGRESSION_REWARD_TRACK_XP_TOOLTIP_BOOST_BODY	+{0}% XP Boost
+GLUE_PROGRESSION_PROFILE_CLASS_TITLE	Class Progress
+GLUE_PROGRESSION_PROFILE_TITLE	Profile
+GLUE_PROGRESSION_QUESTS_TITLE	Quests
+GLUE_PROGRESSION_ACHIEVEMENTS_TITLE	Achievements
+GLUE_PROGRESSION_ACHIEVEMENTS_COMPLETED	Completed!
+GLUE_PROGRESSION_REWARDS_TITLE	Rewards Track
+GLUE_PROGRESSION_BONUS_ERROR_HEADER	Tavern Pass
+GLUE_PROGRESSION_BONUS_ERROR_BODY	There are currently no Tavern Passes. Please check back later.
+GLUE_PROGRESSION_ACHIEVEMENT_INSPECT_TITLETEXT	Complete to earn
+GLUE_PROGRESSION_REWARD_TRACK_XP_PROGRESS	{0}/{1}
+GLUE_PROGRESSION_ACHIEVEMENT_TOAST	<color=#FFFFFF>Achieved</color> <color=#FFD451>{0}</color>
+GLUE_PROGRESSION_QUEST_DAILY	Daily
+GLUE_PROGRESSION_QUEST_WEEKLY	Weekly
+GLUE_FUN_CONFIRM_MESSAGE	Sweet!
+GLUE_STORE_PRODUCT_NAME_PROGRESSION_BONUS	Tavern Pass
+GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_PROGRESSION_BONUS	이용기간: 다음 확장팩 출시일 전까지. 본 상품은 구매 즉시 효과가 적용되므로 구매 후 환불이 불가능합니다.
+GLUE_STORE_TAVERN_PASS_HEADLINE_TEXT	Tavern Pass includes unlockable* rewards such as:
+GLUE_STORE_TAVERN_PASS_FLAVOR_TEXT	Unlock all items up to your current Rewards Track level!
+GLUE_STORE_TAVERN_PASS_FLAVOR_TEXT_CHINA_DISCLAIMER	Earn all items up to your current Rewards Track level! Due to game time protection for minors, underage users might be unable to obtain all quest rewards.

@@ -108,8 +108,8 @@ GLOBAL_CARD_SET_DHI	Иллидари-посвященный
 GLOBAL_CARD_SET_DHI_SEARCHABLE_SHORTHAND_NAMES	од онд дх	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_DHI_SHORT	Посвященный	
 GLOBAL_CARD_SET_DMF	Ярмарка безумия	
-GLOBAL_CARD_SET_DMF_SEARCHABLE_SHORTHAND_NAMES	яб dmf ярмарка новолуния	 This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
-GLOBAL_CARD_SET_DMF_SHORT	Ярмарка Новолуния	
+GLOBAL_CARD_SET_DMF_SEARCHABLE_SHORTHAND_NAMES	яб dmf ярмарка новолуния	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_DMF_SHORT	Ярмарка	
 GLOBAL_CARD_SET_DRG	Натиск драконов	
 GLOBAL_CARD_SET_DRG_SEARCHABLE_SHORTHAND_NAMES	dod dd нд	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_DRG_SHORT	Драконы	
@@ -192,7 +192,7 @@ GLOBAL_CLASS_WARRIOR	Воин
 GLOBAL_CLICK_TO_CONTINUE	Щелкните, чтобы продолжить.	
 GLOBAL_CLICK_TO_CONTINUE_TOUCH	Нажмите, чтобы продолжить.	
 GLOBAL_COLLECTION_GOLDEN	Золотая карта	
-GLOBAL_COMMA_SEPARATOR	, 	
+GLOBAL_COMMA_SEPARATOR	,	
 GLOBAL_CONCEDE	Сдаться	
 GLOBAL_CONFIRM	ОК	
 GLOBAL_CONTINUE	Продолжить	
@@ -280,6 +280,8 @@ GLOBAL_ERROR_GAME_OPPONENT_TIMEOUT	Игра не может быть начат�
 GLOBAL_ERROR_GENERIC_HEADER	Ошибка	
 GLOBAL_ERROR_INACTIVITY_KICK	Вы давно не совершали никаких действий в игре, поэтому ваше соединение с сервером было разорвано. Пожалуйста, перезапустите игру!	
 GLOBAL_ERROR_NETWORK_ACCOUNT_BANNED	Ваша учетная запись заблокирована.	
+GLOBAL_ERROR_NETWORK_ACCOUNT_CURFEW_REACHED	[Борьба с зависимостями] Согласно действующему местному законодательству и нормам, несовершеннолетние игроки не могут заходить в игру с 22:00 до 8:00 следующего дня.	
+GLOBAL_ERROR_NETWORK_ACCOUNT_PLAYTIME_EXCEEDED	[Борьба с зависимостями] Согласно действующему местному законодательству и нормам, общее ежедневное время игры несовершеннолетних игроков не может превышать 1,5 часа. Вы исчерпали лимит отведенного суточного времени. Играйте ответственно.	
 GLOBAL_ERROR_NETWORK_ACCOUNT_SUSPENDED	Действие вашей учетной записи приостановлено.	
 GLOBAL_ERROR_NETWORK_ADMIN_KICKED	Соединение со службой Blizzard было потеряно. Пожалуйста, перезапустите Hearthstone.	
 GLOBAL_ERROR_NETWORK_ADVENTURE_RECONNECT_TIMEOUT	Ваша игра сохранена. Снова войдя в Hearthstone, вы сможете продолжить ее.	
@@ -469,9 +471,13 @@ GLOBAL_KEYWORD_BOSS_TEXT	Игроки сражаются вместе, чтоб�
 GLOBAL_KEYWORD_CASTS_WHEN_DRAWN	При взятии	
 GLOBAL_KEYWORD_CASTS_WHEN_DRAWN_TEXT	Разыгрывается при взятии из колоды. Затем вы берете еще одну карту.	
 GLOBAL_KEYWORD_CHARGE	Рывок	
-GLOBAL_KEYWORD_CHARGE_TEXT	Может атаковать сразу после разыгрывания.	
+GLOBAL_KEYWORD_CHARGE_TEXT	Может атаковать сразу же.	
 GLOBAL_KEYWORD_COMBO	Серия приемов	
 GLOBAL_KEYWORD_COMBO_TEXT	Бонус, срабатывающий, если вы уже разыграли карту на этом ходу.	
+GLOBAL_KEYWORD_CORRUPT	Порча	
+GLOBAL_KEYWORD_CORRUPT_TEXT	Улучшается в руке после того, как вы разыграете карту с большей стоимостью.	
+GLOBAL_KEYWORD_CORRUPTEDCARD	Под порчей	
+GLOBAL_KEYWORD_CORRUPTEDCARD_TEXT	Карта улучшилась, когда вы разыграли карту с большей стоимостью.	
 GLOBAL_KEYWORD_COUNTER	Отмена	
 GLOBAL_KEYWORD_COUNTER_TEXT	Отмененная карта не производит никакого действия.	
 GLOBAL_KEYWORD_CTHUN	К'Тун	
@@ -656,11 +662,12 @@ GLOBAL_MEDAL_9	Рыцарь Длани
 GLOBAL_MEDAL_ARENA_TOOLTIP_BODY	Это ваш лучший ключ на Арене.\nКоличество побед: {0}	0=num wins
 GLOBAL_MEDAL_REWARD_CONGRATULATIONS	Поздравляем!	
 GLOBAL_MEDAL_REWARD_DESCRIPTION	Медаль за прошлую неделю	
-GLOBAL_MEDAL_TOOLTIP_BEST_RANK_STANDARD	Ваш высший ранг в стандартном формате.	
-GLOBAL_MEDAL_TOOLTIP_BEST_RANK_WILD	Ваш высший ранг в вольном формате.	
-GLOBAL_MEDAL_TOOLTIP_BODY	Каждый выигранный матч приближает вас к следующему рангу!	
+GLOBAL_MEDAL_TOOLTIP_BEST_RANK_STANDARD	Ваш ранг в стандартном формате: {0}	
+GLOBAL_MEDAL_TOOLTIP_BEST_RANK_WILD	Ранг в вольном формате: {0}	
 GLOBAL_MEDAL_TOOLTIP_BODY_ARENA_GRAND_MASTER	Вы – чемпион Арены!	
 GLOBAL_MEDAL_TOOLTIP_BODY_LEGEND	Вы – легенда! С каждой игрой ваша позиция в рейтинге этого ранга будет меняться.	
+GLOBAL_MEDAL_TOOLTIP_BODY_STANDARD	Побеждайте в стандартном формате, чтобы перейти на следующий ранг!	
+GLOBAL_MEDAL_TOOLTIP_BODY_WILD	Побеждайте в вольном формате, чтобы перейти на следующий ранг!	
 GLOBAL_MEDAL_TOOLTIP_HEADER	{0}	0=medal name
 GLOBAL_MEDAL_TOURNAMENT_TOOLTIP_BODY	Вы – один из {0}% лучших игроков этого сезона	0=rank percentile
 GLOBAL_MOBILE_ERROR_ANDROID_PHONE_DETECTED	К сожалению, на данный момент Hearthstone поддерживается только планшетами под управлением Android с размером экрана от 6".	
@@ -727,6 +734,7 @@ GLOBAL_PLAYER_MIGRATION_RESTART_HEADER	Обновите учетную запи�
 GLOBAL_PLAYER_PLAYER	Игрок	this is the word for generic "Player" - this will be used when there a player's name is unknown at the time.
 GLOBAL_PRACTICE_MAX_LEVEL_REACHED	Макс. уровень тренировки	
 GLOBAL_PROGRAMNAME_BLACKOPS4	Black Ops 4	
+GLOBAL_PROGRAMNAME_BLACKOPSCOLDWAR	Black Ops Cold War	
 GLOBAL_PROGRAMNAME_DESTINY2	Destiny 2	
 GLOBAL_PROGRAMNAME_DIABLO3	Diablo III	
 GLOBAL_PROGRAMNAME_HEARTHSTONE	Hearthstone	
@@ -739,6 +747,36 @@ GLOBAL_PROGRAMNAME_STARCRAFT	StarCraft
 GLOBAL_PROGRAMNAME_STARCRAFT2	StarCraft II	
 GLOBAL_PROGRAMNAME_WARCRAFT3	Warcraft III: Reforged	
 GLOBAL_PROGRAMNAME_WOW	World of Warcraft	
+GLOBAL_PROGRESSION_ACHIEVEMENT_COMPLETION	Получено: {0}	
+GLOBAL_PROGRESSION_ACHIEVEMENT_COMPLETION_DATE	{0:dd/MM/yyyy}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
+GLOBAL_PROGRESSION_ACHIEVEMENT_SUBCATEGORY_NAME	{0} — {1}	
+GLOBAL_PROGRESSION_DAILY_QUESTS_POPUP_TITLE	Задания	
+GLOBAL_PROGRESSION_POINTS	Очки достижений: {0}	
+GLOBAL_PROGRESSION_PROFILE_ARENA_STAT_TOOLTIP	Наибольшее число побед на Арене в этом сезоне.	
+GLOBAL_PROGRESSION_PROFILE_ARENA_STAT_TOOLTIP_TITLE	Рекорд на Арене	
+GLOBAL_PROGRESSION_PROFILE_ARENA_WINS	{0} |4(победа,победы,побед)	
+GLOBAL_PROGRESSION_PROFILE_BATTLEGROUNDS_STAT_TOOLTIP	Побеждайте на полях сражений, чтобы повысить рейтинг.	
+GLOBAL_PROGRESSION_PROFILE_BATTLEGROUNDS_STAT_TOOLTIP_TITLE	Рейтинг на «Полях сражений»	
+GLOBAL_PROGRESSION_PROFILE_GAME_MODES	Режимы	
+GLOBAL_PROGRESSION_PROFILE_PLAY_MODE	Режим игры	
+GLOBAL_PROGRESSION_PROFILE_PVPDR_CASUAL_STAT_TITLE	Обычные дуэли	
+GLOBAL_PROGRESSION_PROFILE_PVPDR_CASUAL_STAT_TOOLTIP	Участвуйте в обычных дуэлях, чтобы повысить рейтинг.	
+GLOBAL_PROGRESSION_PROFILE_PVPDR_CASUAL_STAT_TOOLTIP_TITLE	Рейтинг в обычных дуэлях	
+GLOBAL_PROGRESSION_PROFILE_PVPDR_HEROIC_STAT_TITLE	Героические дуэли	
+GLOBAL_PROGRESSION_PROFILE_PVPDR_HEROIC_STAT_TOOLTIP	Участвуйте в героических дуэлях, чтобы повысить рейтинг.	
+GLOBAL_PROGRESSION_PROFILE_PVPDR_HEROIC_STAT_TOOLTIP_TITLE	Рейтинг в героических дуэлях	
+GLOBAL_PROGRESSION_PROGRESS_MESSAGE	{0} / {1}	
+GLOBAL_PROGRESSION_QUEST_TIME_UNTIL_NEXT	Новое задание через {0}	
+GLOBAL_PROGRESSION_RANKED_REWARDS_TOOLTIP	Получайте награды в каждом сезоне за лучший ранг в вольном или стандартном формате.	
+GLOBAL_PROGRESSION_RANKED_REWARDS_TOOLTIP_TITLE	Награды за ранг	
+GLOBAL_PROGRESSION_REWARD_SUMMARY	{0}\n{1}	
+GLOBAL_PROGRESSION_REWARD_TRACK_XP	{0} ед. опыта	
+GLOBAL_PROGRESSION_TIER_MESSAGE	{0}/{1}	
+GLOBAL_PROGRESSION_TOOLTIP_GOLDEN_WINS_DESC	Одержите 500 побед в рейтинговых матчах или на Арене, выбрав класс "{0}", чтобы получить золотого классического героя этого класса!	{0}=class name
+GLOBAL_PROGRESSION_TOOLTIP_HERO_LEVEL_NEXT_REWARD	Награда за {1}-й уровень: {0} карта	{0}=premium {1}=level
+GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DESC	Одержите 1000 побед в рейтинговых матчах или на Арене, выбрав класс "{0}", чтобы получить награду: {1}!	{0}=class name {1}=hero card name
+GLOBAL_PROGRESSION_TOOLTIP_TOTAL_CLASS_WINS	Всего побед ({0})	{0}=class name
+GLOBAL_PROGRESSION_WEEKLY_QUESTS_POPUP_TITLE	Еженедельные задания	
 GLOBAL_QUEST_PROGRESS_COUNT	{0}/{1}	0=progress,1=max progress
 GLOBAL_QUIT	Выход	
 GLOBAL_RACE_ALL	Все	
@@ -782,7 +820,7 @@ GLOBAL_RACE_PIRATE	Пират
 GLOBAL_RACE_PIRATE_BATTLEGROUNDS	Пираты	
 GLOBAL_RACE_SCOURGE	Плеть	
 GLOBAL_RACE_SCOURGE_BATTLEGROUNDS	Плеть	
-GLOBAL_RACE_TAUREN	Таурен	
+GLOBAL_RACE_TAUREN	Сектант	
 GLOBAL_RACE_TAUREN_BATTLEGROUNDS	Таурены	
 GLOBAL_RACE_TOTEM	Тотем	
 GLOBAL_RACE_TOTEM_BATTLEGROUNDS	Тотемы	
@@ -834,7 +872,7 @@ GLOBAL_REWARD_ARENA_TICKET_ENTRANT	Участник	a label that shows up in the
 GLOBAL_REWARD_ARENA_TICKET_HEADLINE	Пропуск на Арену!	
 GLOBAL_REWARD_ARENA_TICKET_LABEL	Арена	
 GLOBAL_REWARD_ARENA_TICKET_STORE_COUNT_1	1	
-GLOBAL_REWARD_ARENA_TICKET_TITLE	Арена	
+GLOBAL_REWARD_ARENA_TICKET_TITLE	Таверна	
 GLOBAL_REWARD_BONUS_CHALLENGE_HEADLINE	Открыто последнее испытание	
 GLOBAL_REWARD_BOOSTER_DETAILS_OUT_OF_BAND	Вы получили {0} |4(комплект,комплекта,комплектов) карт.	0=count
 GLOBAL_REWARD_BOOSTER_DETAILS_PRESALE_OUT_OF_BAND	Вы сможете воспользоваться вашей электронной покупкой в виде {0} |4(комплекта,комплектов,комплектов) через некоторое время!	0=count
