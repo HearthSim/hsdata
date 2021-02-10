@@ -558,7 +558,7 @@ GLUE_COLLECTION_DECK_WILD_POPUP_TEXT	Это вольная колода. Кон�
 GLUE_COLLECTION_DELETE_CONFIRM_DESC	Вы уверены, что хотите удалить эту колоду?	
 GLUE_COLLECTION_DELETE_CONFIRM_HEADER	Удалить	
 GLUE_COLLECTION_DELETE_UNAVAILABLE_DESC	Вы не можете удалить колоду, пока не откроете все классы.	
-GLUE_COLLECTION_DUEL_DECKNAME	Колода для дуэли	
+GLUE_COLLECTION_DUEL_DECKNAME	Колода для дуэлей	
 GLUE_COLLECTION_EMPTY_PAGE	Страница 0	
 GLUE_COLLECTION_ERROR_HEADER	Ошибка в коллекции!	
 GLUE_COLLECTION_FEATURED_CARDS	Измененные карты	
@@ -1240,6 +1240,8 @@ GLUE_PROGRESSION_ACHIEVEMENT_TOAST	<color=#FFFFFF>Получено достиж�
 GLUE_PROGRESSION_ACHIEVEMENTS_COMPLETED	Выполнено!	
 GLUE_PROGRESSION_ACHIEVEMENTS_STEPCOMPLETED	Этап завершен!	
 GLUE_PROGRESSION_ACHIEVEMENTS_TITLE	Достижения	
+GLUE_PROGRESSION_ACHIEVEMENTS_TOOLTIP_DESCRIPTION	Получайте достижения, чтобы заработать больше очков.	
+GLUE_PROGRESSION_ACHIEVEMENTS_TOOLTIP_TITLE	Очки достижений	
 GLUE_PROGRESSION_BONUS_ERROR_BODY	Сейчас пропуски завсегдатая недоступны. Попробуйте позже.	
 GLUE_PROGRESSION_BONUS_ERROR_HEADER	Пропуск завсегдатая	
 GLUE_PROGRESSION_PROFILE_CLASS_TITLE	Прогресс класса	
@@ -1253,6 +1255,8 @@ GLUE_PROGRESSION_REWARD_INFO_POPUP_OPTION_1	ЗАДАНИЯ
 GLUE_PROGRESSION_REWARD_INFO_POPUP_OPTION_2	ИГРА	
 GLUE_PROGRESSION_REWARD_INFO_POPUP_OPTION_3	ДОСТИЖЕНИЯ	
 GLUE_PROGRESSION_REWARD_INFO_POPUP_SUBTITLE	Как получить опыт?	
+GLUE_PROGRESSION_REWARD_TRACK_BAR_TOOLTIP_DESCRIPTION	Играйте в Hearthstone, продвигайтесь по ленте наград и получайте призы!	
+GLUE_PROGRESSION_REWARD_TRACK_BAR_TOOLTIP_TITLE	Опыт наград	
 GLUE_PROGRESSION_REWARD_TRACK_BUY_BUTTON	Получить пропуск завсегдатая	
 GLUE_PROGRESSION_REWARD_TRACK_CLAIM_TOOLTIP	Получите свою первую награду!	
 GLUE_PROGRESSION_REWARD_TRACK_INFO_HEADER	Описание ленты наград	
@@ -1289,11 +1293,11 @@ GLUE_PVPDR_DECK_ERROR_DESC	При загрузке колоды произошл
 GLUE_PVPDR_DECK_ERROR_TITLE	Ошибка колоды	
 GLUE_PVPDR_DECK_TRAY_HEADER	Колода для дуэлей	
 GLUE_PVPDR_EARLY_ACCESS_SHOP_ERROR_BODY	В настоящее время товары раннего доступа для дуэлей недоступны. Пожалуйста, загляните попозже.	
-GLUE_PVPDR_END_OF_RUN_HEADER	Конец похода	
-GLUE_PVPDR_END_OF_RUN_TIER_0_WIN	Отличная попытка.\nА теперь попробуйте еще раз!\n<color=#e3ab0c>Рейтинг в обычном режиме: {0}</color>	
-GLUE_PVPDR_END_OF_RUN_TIER_1_WIN	Вы хорошо сыграли.\nХотите попробовать еще раз?\n<color=#e3ab0c>Рейтинг в обычном режиме: {0}</color>	
-GLUE_PVPDR_END_OF_RUN_TIER_2_WIN	Потрясающий результат!\nХотите сыграть снова?\n<color=#e3ab0c>Рейтинг в обычном режиме: {0}</color>	
-GLUE_PVPDR_END_OF_RUN_TIER_MAX_WIN	Сногсшибательно! Вы достигли максимального числа\nпобед. Поздравляем!\n<color=#e3ab0c>Рейтинг в обычном режиме: {0}</color>	
+GLUE_PVPDR_END_OF_RUN_HEADER	{0} |4(победа,победы,побед)	
+GLUE_PVPDR_END_OF_RUN_TIER_0_WIN	Отличная попытка.\nА теперь попробуйте еще раз!	
+GLUE_PVPDR_END_OF_RUN_TIER_1_WIN	Вы хорошо сыграли.\nХотите попробовать еще раз?	
+GLUE_PVPDR_END_OF_RUN_TIER_2_WIN	Потрясающий результат!\nХотите сыграть снова?	
+GLUE_PVPDR_END_OF_RUN_TIER_MAX_WIN	Сногсшибательно! Вы достигли максимального числа\nпобед. Поздравляем!	
 GLUE_PVPDR_ENTRY_POPUP_BUTTON_LOCKED	Попробуйте позже	
 GLUE_PVPDR_ENTRY_POPUP_DESCRIPTION_HEROIC	Сражайтесь за награды	
 GLUE_PVPDR_ENTRY_POPUP_DESCRIPTION_NORMAL	Испытайте свое мастерство	
@@ -1321,6 +1325,7 @@ GLUE_PVPDR_LABEL_VAULT_LIVES	Жизни
 GLUE_PVPDR_LABEL_VAULT_WINS	Побед	
 GLUE_PVPDR_LOCK_IN	Подтверждение колоды	
 GLUE_PVPDR_LOCK_IN_DESC	Вы уже составили колоду для дуэлей? Ее нельзя будет изменить после подтверждения.	
+GLUE_PVPDR_RATING_CHANGE	<color=#e3ab0c>Рейтинг в обычном режиме: {0}</color>	
 GLUE_PVPDR_RATING_LABEL	Рейтинг	
 GLUE_PVPDR_RATING_LABEL_HEROIC	Рейтинг (гер.)	
 GLUE_PVPDR_RATING_LABEL_NORMAL	Рейтинг (обычный)	
@@ -1726,8 +1731,10 @@ GLUE_STORE_PRE_PURCHASE_HAS_ENDED	Предзаказ данного продук
 GLUE_STORE_PREORDER	ПРЕДЗАКАЗ!	
 GLUE_STORE_PREORDER_APRIL	Выйдет\nв апреле!*	
 GLUE_STORE_PREORDER_DUST_APRIL	Комплекты будут доступны\nв апреле!*	
+GLUE_STORE_PREORDER_DUST_MARCH	Комплекты будут доступны\nв марте!*	
 GLUE_STORE_PREORDER_DUST_NOVEMBER	Комплекты будут доступны\nв ноябре!*	
 GLUE_STORE_PREORDER_EXCLUSIVE	ТОЛЬКО ЗА ПРЕДЗАКАЗ!	
+GLUE_STORE_PREORDER_MARCH	Доступно в\nмарте*!	
 GLUE_STORE_PREORDER_NOVEMBER	Доступно\nв ноябре*!	
 GLUE_STORE_PRODUCT_DETAILS_BRM_PART_1	{0}: сойдитесь в смертельном бою с ужасными боссами!	0=wing name
 GLUE_STORE_PRODUCT_DETAILS_BRM_PART_2	Получите новые карты Черной горы, среди которых – 1 легендарная!	
