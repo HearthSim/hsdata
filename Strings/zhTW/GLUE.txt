@@ -307,8 +307,6 @@ GLUE_BACON_TOP_4_LABEL	前四名
 GLUE_BACON_VICTORY_BONUS_MESSAGE	解鎖特殊獎勵，調整你的策略。	
 GLUE_BASIC_DECK_WARNING_BODY	雖然基本套牌也能在標準規則下使用，但編組一副新的套牌會更有勝算！	
 GLUE_BASIC_DECK_WARNING_HEADER	基本套牌	
-GLUE_BASIC_SET_PROGRESS	{0}/{1}基本牌	0=number of owned cards,1=total number of basic cards
-GLUE_BASIC_SET_PROGRESS_PHONE	{0}/{1}	0=number of owned cards,1=total number of basic cards
 GLUE_BLIZZCON2013_ARENA	歡迎來到競技場！贏得越多場賽局，就會有越好的獎勵！	
 GLUE_BLIZZCON2013_ARENA_5_WINS	你現在是競技場老手了！繼續加油，看看你能存活多久！	
 GLUE_BLIZZCON2013_ARENA_GRAND_PRIZE	哇！出現了一位新的競技場勇士！ 請BlizzCon工作人員看你的螢幕，即可獲得獎勵！	
@@ -408,10 +406,6 @@ GLUE_CANNOT_FIND_BATTLENET_CLIENT	《爐石戰記》需要經由暴雪桌面應�
 GLUE_CANNOT_RUN_BATTLENET_CLIENT	《爐石戰記》需要經由暴雪桌面應用程式啟動，但無法啟動它。要重新安裝，請前往tw.battle.net。	
 GLUE_CARD_NERF_BODY	\n下列的卡片有改動：\n{0}	0=card names
 GLUE_CARD_NERF_HEADER	改動！	
-GLUE_CARD_REPLACEMENT_CARDS_ADDED	基本系列新增了以下這些卡牌	
-GLUE_CARD_REPLACEMENT_CARDS_REMOVED	基本系列移除了以下這些卡牌	
-GLUE_CARD_REPLACEMENT_DUST_FOOTER	因為你擁有這些牌，\n所以我們要給你特別的禮物！	
-GLUE_CARD_REPLACEMENT_DUST_HEADER	贈送魔塵！	
 GLUE_CARDS_ADDED	{0}張新卡牌已新增到「經典」系列！	
 GLUE_CARDS_UPDATED	這些卡牌有所更動！	
 GLUE_CHECKOUT_ERROR_GENERIC_FAILURE	糟糕！有東西出錯了！請稍後再試。	
@@ -454,7 +448,6 @@ GLUE_CLOUD_STORAGE_CONTEXT_BODY_02	你將被請求使用你的Google Drive帳號
 GLUE_CLOUD_STORAGE_CONTEXT_HEADER	您好！	
 GLUE_COLLECTION_ADD_TO_DECK	加入套牌	
 GLUE_COLLECTION_ALL	全部	
-GLUE_COLLECTION_ALL_CARDS	全部卡牌	
 GLUE_COLLECTION_ALL_SETS	全部系列	
 GLUE_COLLECTION_ALL_STANDARD_CARDS	標準卡牌	
 GLUE_COLLECTION_ARTIST	畫家：{0}	0=artist name
@@ -468,13 +461,17 @@ GLUE_COLLECTION_CARD_UNKNOWN_ERROR	發生未預期的錯誤。錯誤代碼：{0}
 GLUE_COLLECTION_CARD_VALUE_CHANGED_ERROR	發生錯誤，請再試一次。	
 GLUE_COLLECTION_CONVERT_DECK_BODY	切換成標準套牌會移除{0}張卡牌。你確定要繼續嗎？	
 GLUE_COLLECTION_CONVERT_DECK_HEADER	轉換套牌	
+GLUE_COLLECTION_CRAFTING_DIAMOND	鑽石卡	
 GLUE_COLLECTION_CRAFTING_DISENCHANT_BUTTON_TEXT	分解多的卡牌	
 GLUE_COLLECTION_CRAFTING_EXPLANATION	選擇一張卡牌開始合成。\n\n合成卡牌需花費魔塵，而分解卡牌可獲得魔塵。\n\n魔塵數量隨卡牌稀有度有所不同。	
 GLUE_COLLECTION_CRAFTING_FILTERS	篩選方式	
+GLUE_COLLECTION_CRAFTING_GOLDEN	金卡	
 GLUE_COLLECTION_CRAFTING_MODE	合成模式	
 GLUE_COLLECTION_CRAFTING_MODE_SHORT	合成	
+GLUE_COLLECTION_CRAFTING_SHOW_ONLY	僅顯示	
 GLUE_COLLECTION_CRAFTING_SHOW_ONLY_GOLDEN	只顯示金卡	
 GLUE_COLLECTION_CRAFTING_SHOW_SOULBOUND_CARDS	包括無法合成的卡牌	
+GLUE_COLLECTION_CRAFTING_UNCRAFTABLE	無法合成的卡牌	
 GLUE_COLLECTION_CUSTOM_DECKNAME_SHORT	{0}{1}	0=class name, 1=incrementer
 GLUE_COLLECTION_CUSTOM_DECKNAME_TEMPLATE	自訂{0}{1}	0=class name, 1=incrementer
 GLUE_COLLECTION_DECK	套牌	
@@ -495,6 +492,7 @@ GLUE_COLLECTION_DECK_COPY_TOOLTIP_INCOMPLETE	你只能複製完整的套牌。
 GLUE_COLLECTION_DECK_COPY_TOOLTIP_UNPLAYABLE	你的套牌包含了無法使用的卡牌。	
 GLUE_COLLECTION_DECK_DELETE	刪除	
 GLUE_COLLECTION_DECK_FINISH_FOR_ME	好的	
+GLUE_COLLECTION_DECK_FORMAT_CLASSIC	經典	
 GLUE_COLLECTION_DECK_FORMAT_STANDARD	標準	
 GLUE_COLLECTION_DECK_FORMAT_WILD	開放	
 GLUE_COLLECTION_DECK_GENERIC_INVALID_MESSAGE	你的套牌中有不適用於此規則的卡牌。	
@@ -535,6 +533,8 @@ GLUE_COLLECTION_DECK_RULE_INVALID_CARDS_NPR_NEW	有{0}張卡牌需要完成學�
 GLUE_COLLECTION_DECK_RULE_INVALID_CLASS_CARD	你的套牌中有{0}張其他職業的卡牌。	
 GLUE_COLLECTION_DECK_RULE_MISSING_CARDS	你的套牌還缺{0}張牌。	
 GLUE_COLLECTION_DECK_RULE_NOT_ENOUGH_CARDS	你還需要{0}張卡牌才能組完這個職業的套牌。試著合成一些卡牌，或是編組其他職業的套牌。	
+GLUE_COLLECTION_DECK_RULE_NOT_IN_CARDSET	你有{0}張卡牌來自錯誤的系列。	
+GLUE_COLLECTION_DECK_RULE_NOT_IN_FORMAT	你有{0}張不符合此規則的卡牌。	
 GLUE_COLLECTION_DECK_RULE_TOO_MANY_CARDS	你的套牌多了{0}張牌。	
 GLUE_COLLECTION_DECK_RULE_UNPLAYABLE_CARDS	有{0}張卡牌還不能使用。	
 GLUE_COLLECTION_DECK_SAVE_ANYWAY	不要	
@@ -569,6 +569,8 @@ GLUE_COLLECTION_HOME_PAGE	概要
 GLUE_COLLECTION_INCLUDE_PREMIUMS	包括金卡	
 GLUE_COLLECTION_LOCK_CARD_BANNED	禁用	
 GLUE_COLLECTION_LOCK_CARD_INVALID_CLASS	其他職業的卡牌	
+GLUE_COLLECTION_LOCK_CARD_NOT_IN_CARDSET	錯誤系列	
+GLUE_COLLECTION_LOCK_CARD_NOT_IN_FORMAT	錯誤規則	
 GLUE_COLLECTION_LOCK_CARD_NOT_PLAYABLE	尚未開放	
 GLUE_COLLECTION_LOCK_MAX_DECK_COPIES	套牌上限：{0}	
 GLUE_COLLECTION_LOCK_NO_MORE_INSTANCES	沒有剩餘	
@@ -588,6 +590,7 @@ GLUE_COLLECTION_MANAGER_MANA_TAB_FIRST_CLICK	再點擊一次，即可取消篩�
 GLUE_COLLECTION_MANAGER_ON_ADD_FULL_DECK_ERROR_TEXT	你的套牌滿了，請先拿掉一張牌！	
 GLUE_COLLECTION_MANAGER_SEARCH_ARTIST	畫家	
 GLUE_COLLECTION_MANAGER_SEARCH_ATTACK	攻擊力	
+GLUE_COLLECTION_MANAGER_SEARCH_DIAMOND	鑽石	
 GLUE_COLLECTION_MANAGER_SEARCH_EVEN_ATTACK	偶數	Search term to filter cards in CollectionManager to cards with even attack value. Example attack:even
 GLUE_COLLECTION_MANAGER_SEARCH_EVEN_CARDS	偶數	Search term to filter cards in CollectionManager to cards that player owns an even number of. Example: owned:even
 GLUE_COLLECTION_MANAGER_SEARCH_EVEN_HEALTH	偶數	Search term to filter cards in CollectionManager to cards with even health value. Example health:even
@@ -661,10 +664,21 @@ GLUE_COLLECTION_TUTORIAL14	你可以把開放套牌轉換成標準套牌。
 GLUE_COLLECTION_TUTORIAL15	試著把套牌轉換為標準套牌。	
 GLUE_COLLECTION_TUTORIAL16	你準備好進行標準對戰了！	
 GLUE_COLLECTION_TUTORIAL17	開放卡牌隱藏起來了。	
+GLUE_COLLECTION_VANILLA_CARDS	經典卡牌	
+GLUE_COLLECTION_WILD_CARDS	開放卡牌	
 GLUE_COLLECTION_WILD_SETS	開放系列	
 GLUE_COMING_SOON	敬請期待！	
+GLUE_CORE_SET_POPUP_BODY	• 25張免費傳說卡牌\n• 有31張新卡牌可以編組套牌	
+GLUE_CORE_SET_POPUP_FOOTER	(基本與經典卡牌現在屬於開放規則)	
+GLUE_CORE_SET_POPUP_HEADER	235張免費卡牌！	
+GLUE_CORE_SET_POPUP_SUBHEADER	核心系列開放了！	
+GLUE_CORE_SET_PROGRESS	{0}/{1}核心牌	0=number of owned cards,1=total number of core cards
+GLUE_CORE_SET_PROGRESS_PHONE	{0}/{1}	0=number of owned cards,1=total number of core cards
 GLUE_CRAFTING_ARCANEDUST	魔塵	
 GLUE_CRAFTING_ARCANEDUST_DESCRIPTION	分解卡牌可獲得魔塵。你可以使用魔塵合成你想要的卡牌！	
+GLUE_CRAFTING_CLASSIC_CARD_DESC	這是經典規則卡牌，你確定嗎？	
+GLUE_CRAFTING_CLASSIC_CARD_FIRST_DESC	合成這張經典規則卡牌時，同時會產生這張牌的開放規則卡牌，但兩張牌都無法用於標準規則。你確定嗎？	
+GLUE_CRAFTING_CLASSIC_CARD_HEADER	經典規則卡牌	
 GLUE_CRAFTING_CREATE	合成	
 GLUE_CRAFTING_DISENCHANT	分解	
 GLUE_CRAFTING_DISENCHANT_CONFIRM_DESC	你確定嗎？下列的套牌將會無法使用：	
@@ -672,8 +686,12 @@ GLUE_CRAFTING_DISENCHANT_CONFIRM_HEADER	分解
 GLUE_CRAFTING_DISENCHANT_CONFIRM2_DESC	你確定嗎？分解這張卡牌會使其在套牌裡能放置的數量減少。	
 GLUE_CRAFTING_EVENT_NOT_ACTIVE_DESCRIPTION	{0}卡牌還不能合成或分解。	
 GLUE_CRAFTING_EVENT_NOT_ACTIVE_TITLE	尚未開放	
+GLUE_CRAFTING_INVALID_CARD_TAVERN_BRAWL_DESC	這張牌無法在這次的旅店大亂鬥中使用。你確定嗎？	
+GLUE_CRAFTING_INVALID_CARD_TAVERN_BRAWL_HEADER	不合規則的卡牌	
+GLUE_CRAFTING_NONSTANDARD_CARD_WARNING_CANCEL	喔，不要！	
+GLUE_CRAFTING_NONSTANDARD_CARD_WARNING_CONFIRM	我確定	
 GLUE_CRAFTING_SOULBOUND	無法合成	
-GLUE_CRAFTING_SOULBOUND_BASIC_DESC	無法合成或分解基本牌。	
+GLUE_CRAFTING_SOULBOUND_CORE_DESC	無法合成或分解核心牌。	
 GLUE_CRAFTING_SOULBOUND_DESC	這張卡片無法被分解或合成。	
 GLUE_CRAFTING_SOULBOUND_FEATURED_DESC	特殊活動期間限定！	
 GLUE_CRAFTING_SOULBOUND_OFFLINE_DESC	無法在離線狀態分解或合成卡牌。	
@@ -681,13 +699,10 @@ GLUE_CRAFTING_SOULBOUND_REWARD_DESC	任務獎勵無法被分解或合成。
 GLUE_CRAFTING_TITLE	合成卡牌	
 GLUE_CRAFTING_UNDO	復原	
 GLUE_CRAFTING_WILD_CARD_DESC	這是開放卡牌，你確定嗎？	
-GLUE_CRAFTING_WILD_CARD_FIRST_WILD_DESC	這張卡牌無法在標準規則下使用。你確定嗎？	
+GLUE_CRAFTING_WILD_CARD_FIRST_DESC	這張卡牌無法在標準規則下使用。你確定嗎？	
 GLUE_CRAFTING_WILD_CARD_HEADER	開放卡牌	
 GLUE_CRAFTING_WILD_CARD_INTRO_DESC	在開放規則下，你可以使用之前推出的任何卡牌！	
-GLUE_CRAFTING_WILD_CARD_TAVERN_BRAWL_DESC	這張牌無法在這次的旅店大亂鬥中使用。你確定嗎？	
-GLUE_CRAFTING_WILD_CARD_TAVERN_BRAWL_HEADER	不合規則的卡牌	
-GLUE_CRAFTING_WILD_CARD_WARNING_CANCEL	喔，不要！	
-GLUE_CRAFTING_WILD_CARD_WARNING_CONFIRM	我確定	
+GLUE_CREATE_CLASSIC_DECK	組成經典套牌	
 GLUE_CREATE_DECK	組成套牌	
 GLUE_CREATE_STANDARD_DECK	組成標準套牌	
 GLUE_CREATE_WILD_DECK	組成開放套牌	
@@ -730,8 +745,9 @@ GLUE_DEMON_HUNTER_LOCKED_HEADER	英雄未解鎖
 GLUE_DEMON_HUNTER_LOCKED_PROLOGUE	在單人模式遊玩「外域之燼 - 惡魔獵人序章」以解鎖此英雄。	
 GLUE_DEVICE_PERFORMANCE_WARNING	此裝置未達執行此遊戲的最低規格要求。因此，《爐石戰記》有可能會發生顯示上的問題和/或效能上的問題。\n\n輕點「支援」來進一步了解。	
 GLUE_DEVICE_PERFORMANCE_WARNING_TITLE	裝置效能	
-GLUE_DISABLED_WILD_DECK_DESC	無法在標準規則下使用。請選擇開放模式或依標準規則重組套牌。	
-GLUE_DISABLED_WILD_DECK_HEADER	開放套牌	
+GLUE_DISABLED_DECK_DESC	無法在{0}規則使用。	0=current format
+GLUE_DISABLED_DECK_HEADER	{0}套牌	0=deck format
+GLUE_DISABLED_DECK_IN_CURRENT_MODE_DESC	無法在此模式使用。	
 GLUE_DONT_SHOW_ME_THIS_AGAIN	不要再顯示	
 GLUE_DRAFT_HERO_INSTRUCTIONS	選擇英雄	
 GLUE_DRAFT_HERO_POWER_INSTRUCTIONS_DETAIL	選擇你想要的英雄能力，在選牌時兩種職業牌都會出現。	
@@ -924,12 +940,6 @@ GLUE_GIL_LOADING_BAR_TASK_9	偷偷接近你背後
 GLUE_GOLD_CAP_BODY	你的金幣必須少於{0}才能獲取更多金幣。	
 GLUE_GOLD_CAP_HEADER	已獲得{0}個金幣！	
 GLUE_GOONS_CLASS_NAMES	獵人、聖騎士、戰士	
-GLUE_HALL_Of_FAME_BODY	部分卡牌已經轉成開放，無法在標準規則使用	
-GLUE_HALL_OF_FAME_CARD_LIST	這些卡牌已經變成開放規則的卡牌。	
-GLUE_HALL_OF_FAME_CARD_REPLACEMENT_BODY	某些基本卡牌已經移動到開放模式，並以新的基本卡牌替換他們。	
-GLUE_HALL_OF_FAME_CARD_REPLACEMENT_LIST	這些基本卡牌已經移動到開放模式並被替換。	
-GLUE_HALL_OF_FAME_DUST_COMPENSATION	因為你擁有這些牌，\n所以我們要給你特別的禮物！	
-GLUE_HALL_Of_FAME_SIGN	榮譽殿堂	
 GLUE_HERO_HEROSELECT_NEW	新解鎖！	
 GLUE_HERO_LOCKED_DESC	擊敗這位英雄來解鎖！	
 GLUE_HERO_LOCKED_NAME	鎖定	
@@ -1197,7 +1207,6 @@ GLUE_NEARBY_PLAYERS_ENABLE	開啟此功能就能看到附近的玩家，而他�
 GLUE_NEGATIVE_CURRENCY	<color=#ff3232ff>{0}</color>	
 GLUE_NEW_HERO	新英雄！	
 GLUE_NEW_PLAYER_AVAILABLE_AT_LEAGUE_PROMO	取得\n學徒資格\n即可使用	
-GLUE_NEW_PLAYER_AVAILABLE_AT_RANK_25	階級25時解鎖	
 GLUE_NEW_PLAYER_PROMOTION_CHEST_DESC	恭喜！你現在正式晉升老手了。會有更強的對手在等著你！	
 GLUE_NEW_PLAYER_SET_ROTATION_POPUP_BODY	新的卡牌來了！但是有些舊的卡牌得等你達到階級25才能使用。	
 GLUE_NEW_PLAYER_SET_ROTATION_POPUP_BODY_NEW	新的卡牌來了！但是有些舊的卡牌現在需要取得學徒資格才能使用。	
@@ -1224,6 +1233,8 @@ GLUE_PATCHING_LABEL	正在下載{0}/{1}個檔案
 GLUE_PICK_A_CARD	選一張牌	
 GLUE_PICK_A_REGION	選擇地區	
 GLUE_PICK_A_REPLACEMENT	選擇替代的卡牌	
+GLUE_PLAY_CASUAL	休閒模式	
+GLUE_PLAY_CLASSIC	經典模式	
 GLUE_PLAY_STANDARD	標準對戰	
 GLUE_PLAY_WILD	開放對戰	
 GLUE_PLAYERS_NEARBY	附近的玩家	
@@ -1231,6 +1242,9 @@ GLUE_PRACTICE	練習模式
 GLUE_PRACTICE_HINT	練習模式在此	
 GLUE_PRIVACY_POLICY_BUTTON	隐私协议	
 GLUE_PRIVACY_POLICY_EULA_CONFIRM	同意并进入	
+GLUE_PRIVACY_POLICY_EULA_CONFIRMATION_ACCEPT	同意并进入	
+GLUE_PRIVACY_POLICY_EULA_CONFIRMATION_REJECT	再想想	
+GLUE_PRIVACY_POLICY_EULA_CONFIRMATION_TEXT	抱歉，您在同意《隐私协议》及《最终用户许可协议》后，方可继续开启本游戏。	
 GLUE_PRIVACY_POLICY_EULA_REJECT	不同意	
 GLUE_PRIVACY_POLICY_EULA_TEXT	欢迎来到《炉石传说》\n\n为了给您提供更优质的《炉石传说》游戏服务，《炉石传说》将会使用您的部分信息，请在使用前仔细阅读并同意《炉石传说》相关《隐私协议》及《最终用户许可协议》。若选择不同意，您将无法开启我们的游戏。\n\n请您特别关注以下条款：\n\n争端解决和适用法律。\nA. 争端对各方而言都是昂贵而耗时的。为缩短解决时间并降低解决成本，对于任何针对本协议的争端、争议或索赔（统称 “争端” ），您和运营方同意尽量通过协商方式解决。\nB. 有约束力的仲裁。如果各方无法通过协商解决争端（但下文明确列出的例外争端除外），您和运营方同意通过仲裁处理。各方同意提交中国国际经济贸易仲裁委员会（简称 “CIETAC” ）由三名仲裁员根据CIETAC有效的仲裁规则以及适用法律在中国北京进行仲裁。仲裁裁决是终局的，对各方均有约束力。您的仲裁费用及您应分担的仲裁赔偿应由您个人自行承担。\nC. 限制。您和运营方同意任何仲裁仅限应用于运营方同您个人之间的争端。您认可并同意（a）任何仲裁均不牵涉其他人；（b）没有任何权利或授权进行共同仲裁或使用共同仲裁的程序；并且（c）没有任何权利或授权允许代表公众或者其他人的假设的代理人提起争端。 \nD. 协商与仲裁的例外。您和运营方同意下列争端将不受上述协商及约束仲裁条款约束：（a）任何试图执行或者保护运营方或暴雪知识产权或与知识产权的有效性相关的争端；（b）任何有关偷窃、盗版或未经运营方或暴雪授权使用的争端，或由这些情况引起的争端；及（c）要求解除法院颁发的禁止令。您和运营方同意将此类争端交由运营方所在地有管辖权的人民法院裁决。\nE. 适用法律。除非明确另作说明，本协议应适用中华人民共和国法律，且不适用法律选择原则。《联合国国际货物销售合同公约》被明确排除适用于本协议。	
 GLUE_PRIVACY_POLICY_EULA_TITLE	请阅读以下内容	
@@ -1266,7 +1280,11 @@ GLUE_PROGRESSION_REWARD_TRACK_POPUP_BONUS_DESCRIPTION	從等級{1}到等級{2}�
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_BONUS_LEVEL	超過{0}級	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_BONUS_TITLE	額外獎勵	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_COMPLETE_LEVEL	等級{0}	
+GLUE_PROGRESSION_REWARD_TRACK_POPUP_FORGOT_REWARDS_BODY	上個資料片獎勵軌跡中的{0}項獎勵已經加進你的收藏中了。	
+GLUE_PROGRESSION_REWARD_TRACK_POPUP_FORGOT_REWARDS_TITLE	你忘記帶走獎勵了！	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_INCOMPLETE_LEVEL	需要等級{0}	
+GLUE_PROGRESSION_REWARD_TRACK_POPUP_NEW_TRACK_BODY	在重置的獎勵軌跡上取得讓人興奮的全新獎勵吧！	
+GLUE_PROGRESSION_REWARD_TRACK_POPUP_NEW_TRACK_TITLE	新獎勵軌跡：貧瘠之地	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_PREMIUM_LOCKED	以旅店貴賓證解鎖更棒的獎勵！	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_SKIN_CHOICE_CLAIMED	已取得	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_SKIN_CHOICE_CONFIRMATION_HEADER	確認選擇	
@@ -1422,6 +1440,7 @@ GLUE_RANKED_REWARD_QUEST_LOG_LABEL_CLASSICPACKS	經典卡牌包
 GLUE_RANKED_REWARD_QUEST_LOG_LABEL_RANK_REQUIRED	達到{0}	// {0} is Rank Name, "you must reach {Bronze 5} to earn this reward"
 GLUE_RANKED_REWARD_QUEST_LOG_LABEL_RANK_REWARD	階級{0}獎勵	// {0} is Rank number 
 GLUE_RANKED_SEASON_ROLL_FLOW_TITLE	全新的排名系統已推出！	
+GLUE_RANKED_SYSTEM_TITLE	排名系統	
 GLUE_RANKED_TIER_NAME_BRONZE	青銅	
 GLUE_RANKED_TIER_NAME_DIAMOND	鑽石	
 GLUE_RANKED_TIER_NAME_GOLD	黃金	
@@ -1478,7 +1497,7 @@ GLUE_RETURNINGPLAYERPOPUP_MESSAGE	如果你略過了旅店老闆的挑戰，就�
 GLUE_RETURNINGPLAYERPOPUP_TITLE	你確定嗎？	
 GLUE_ROTATED_SETS_DIALOG	這些系列現在屬於開放卡牌！	
 GLUE_SET_ROTATION_CURRENT_YEAR	巨龍年	
-GLUE_SET_ROTATION_NEXT_YEAR	鳳凰年	
+GLUE_SET_ROTATION_NEXT_YEAR	獅鷲年	
 GLUE_SHOP_BOOSTER_SKU_BUTTON	{0}包	
 GLUE_SHOP_CLOSED_ALERT_HEADER	商店關閉	
 GLUE_SHOP_CLOSED_ALERT_TEXT	商店暫時關閉，請稍後再試！	
@@ -1840,7 +1859,7 @@ GLUE_STORE_SUMMARY_TAX_DISCLAIMER	包含任何適用的增值稅。
 GLUE_STORE_SUMMARY_TAX_DISCLAIMER_USD	可能包含稅金。	
 GLUE_STORE_SUMMARY_TOS_AGREEMENT	點選"{0}"代表你已經閱讀並且接受「銷售協議」。點選"{1}"可閱讀協議全文，或是更改你的預設付款方式。	0=GLUE_STORE_SUMMARY_PAY_NOW_TEXT,1=GLUE_STORE_TERMS_OF_SALE_BUTTON_TEXT
 GLUE_STORE_SUMMARY_TOS_AGREEMENT_EU	點選"{0}"代表你已經閱讀並且接受「銷售協議」，並同意立即收到你訂購的物品。在寄送過程開始後，你便失去撤銷訂購的權利。點選"{1}"可閱讀協議全文，或是更改你的預設付款方式。	0=GLUE_STORE_SUMMARY_PAY_NOW_TEXT,1=GLUE_STORE_TERMS_OF_SALE_BUTTON_TEXT
-GLUE_STORE_TAVERN_PASS_FLAVOR_TEXT	解鎖你目前獎勵軌跡等級的所有物品！	
+GLUE_STORE_TAVERN_PASS_FLAVOR_TEXT	解鎖你目前獎勵軌跡等級前的所有物品！	
 GLUE_STORE_TAVERN_PASS_FLAVOR_TEXT_CHINA_DISCLAIMER	贏取目前獎勵軌跡等級的所有物品！由於未成年人遊戲時間保護機制的緣故，未成年使用者可能無法獲得全部的任務獎勵。	
 GLUE_STORE_TAVERN_PASS_HEADLINE_TEXT	旅店貴賓證包含可解鎖*的獎勵，像是：	
 GLUE_STORE_TERMS_OF_SALE_BUTTON_TEXT	？	
@@ -1899,7 +1918,7 @@ GLUE_TEXTURE_COMPRESSION_WARNING	此版本沒有這個平台的正確材質格�
 GLUE_TEXTURE_COMPRESSION_WARNING_TITLE	材質壓縮警告	--TEMP-- This should be in Chinese
 GLUE_THE_CLOCK_BANNER_NEW_WAY	新的玩法：	
 GLUE_THE_CLOCK_BANNER_STANDARD	「標準」	
-GLUE_THE_CLOCK_BANNER_YEAR	鳳凰年	
+GLUE_THE_CLOCK_BANNER_YEAR	獅鷲年	
 GLUE_THE_CLOCK_DETAILS	標準規則可以使用的卡牌會逐年變更。	
 GLUE_THE_CLOCK_DETAILS_STANDARD	標準規則下只能使用近期的卡牌。	
 GLUE_TIP_ADVENTURE_0	你得組一副特殊的套牌來擊敗那幾個最難打的首領。	
@@ -1917,6 +1936,17 @@ GLUE_TIP_ADVENTURE_BOH_6	英雄能力就和英雄一樣經常改變！
 GLUE_TIP_ADVENTURE_BOH_7	做好充分的準備！要經歷英雄的一生，可能需要許多回合。	
 GLUE_TIP_ADVENTURE_BOH_8	開始任務之前先檢視套牌，思考對抗敵人的戰術。	
 GLUE_TIP_ADVENTURE_BOH_9	英雄必須克服艱難的挑戰，才能留下歷史定位。	
+GLUE_TIP_ADVENTURE_BOM_1	準備和《爐石戰記》的新英雄一起冒險！	
+GLUE_TIP_ADVENTURE_BOM_10	對聯盟英雄來說，貧瘠之地特別危險。對部落英雄來說，只是普通危險。	
+GLUE_TIP_ADVENTURE_BOM_11	想成為部落的英雄，就得闖過十字路口。	
+GLUE_TIP_ADVENTURE_BOM_2	英雄的冒險旅程將使用預設的套牌和英雄能力！	
+GLUE_TIP_ADVENTURE_BOM_3	在某些戰鬥中，你可以選擇一同戰鬥的夥伴。	
+GLUE_TIP_ADVENTURE_BOM_4	每集傭兵之書都會讓故事推進。	
+GLUE_TIP_ADVENTURE_BOM_5	做好充分的準備！傭兵的生涯可能會有許多轉折。	
+GLUE_TIP_ADVENTURE_BOM_6	開始任務之前先檢視套牌，思考對抗敵人的戰術。	
+GLUE_TIP_ADVENTURE_BOM_7	有人目擊到加基森黑謀會的領袖，卡札克斯，出現在貧瘠之地。	
+GLUE_TIP_ADVENTURE_BOM_8	在流星之夜，閃亮的聖光碎片墜落到了艾澤拉斯。	
+GLUE_TIP_ADVENTURE_BOM_9	和大酋長索爾一樣，洛卡菈屬於霜狼氏族，來自奧特蘭克山谷。	
 GLUE_TIP_ADVENTURE_BOT_0	難題重置的速度很快。不要害怕，儘管多多嘗試不同的解法！	
 GLUE_TIP_ADVENTURE_BOT_1	不是每種狀況都需要用上每一張牌！	
 GLUE_TIP_ADVENTURE_BOT_2	不要放棄。找找看不尋常的卡牌互動效果。	
@@ -2064,11 +2094,11 @@ GLUE_TIP_BACON_12	如果對手購買了很多同樣的手下，你看到該名�
 GLUE_TIP_BACON_13	出售的手下會回到備選牌庫中，你就會更常看到這名手下。	
 GLUE_TIP_BACON_14	如果你花光所有金幣來提升旅店等級，你場上的陣容可能會跟不上，並因此而落敗。	
 GLUE_TIP_BACON_15	如果不提升旅店等級，場上的陣容可能會跟不上，並因此而落敗。	
-GLUE_TIP_BACON_16	魚人在遊戲前期比較強，機械在遊戲後期比較強。	
+GLUE_TIP_BACON_16	某些手下類型在遊戲前期比較強，其他的在遊戲後期比較強。	
 GLUE_TIP_BACON_17	只剩下1枚金幣的話，可以重置旅店。如果看見想要的手下，可以凍結它留到下一回合。	
 GLUE_TIP_BACON_18	只要在八名玩家中拿到前四名，就算勝利！但只有第一名才能稱王！	
 GLUE_TIP_BACON_19	所有玩家會從共用的備選牌庫中雇用手下。	
-GLUE_TIP_BACON_2	變換者澤魯斯可以變形成任一個旅店等級的手下！	
+GLUE_TIP_BACON_2	每場遊戲都會有不同的手下類型參戰，魚人不一定會出場！	
 GLUE_TIP_BACON_20	當你消滅對手時，他們的手下會回到備選牌庫中。	
 GLUE_TIP_BACON_3	勝利時，你的英雄和手下會造成等同其旅店等級的傷害。	
 GLUE_TIP_BACON_4	旅店升級的花費每回合會降低1枚金幣。	
@@ -2081,14 +2111,14 @@ GLUE_TIP_DEFAULT_0	你可以從商店購買更多的卡牌包。
 GLUE_TIP_DEFAULT_1	在調整套牌時點擊你的英雄可以修改你套牌的名稱。	
 GLUE_TIP_DEFAULT_1_TOUCH	在編輯套牌時輕點你的英雄能替套牌改名。	
 GLUE_TIP_DEFAULT_10	競技場能讓你使用隨機的卡牌組一副套牌。你還能贏取獎勵！	
-GLUE_TIP_DEFAULT_11	基本牌能透過升級取得。它們無法被分解或合成。	
+GLUE_TIP_DEFAULT_11	核心牌能透過升級取得。它們無法被分解或合成。	
 GLUE_TIP_DEFAULT_12	金卡可以分解出許多魔塵。	
 GLUE_TIP_DEFAULT_13	你可以使用牌庫中的搜尋欄位來尋找全部有「嘲諷」的卡牌。	
-GLUE_TIP_DEFAULT_14	基本牌能在升級職業時獲得。經典牌則是從經典卡牌包獲得。	
-GLUE_TIP_DEFAULT_15	與真實玩家對戰可獲得額外的經驗值。	
+GLUE_TIP_DEFAULT_14	核心牌能在升級職業時獲得。每個職業達到等級10時就能全部解鎖！	
+GLUE_TIP_DEFAULT_15	與真實玩家對戰可獲得額外的獎勵經驗值。	
 GLUE_TIP_DEFAULT_16	你可以在對手的圖像上點擊滑鼠右鍵來「消音」表情語音。	
 GLUE_TIP_DEFAULT_16_TOUCH	你可以輕點對手的英雄來「消音」表情語音。	
-GLUE_TIP_DEFAULT_17	只要在排名模式或競技場中用一個職業贏得500場勝利，就能獲得黃金版英雄。	
+GLUE_TIP_DEFAULT_17	只要在排名模式、競技場或決鬥擂台中用一個職業贏得500場勝利，就能獲得黃金版英雄。	
 GLUE_TIP_DEFAULT_18	可用左下方的按鈕將朋友加入你的好友名單。	
 GLUE_TIP_DEFAULT_18_PHONE	可用左上方的按鈕將朋友加入你的好友名單。	
 GLUE_TIP_DEFAULT_19	排名模式的最高階級是「傳說」！	
@@ -2096,28 +2126,31 @@ GLUE_TIP_DEFAULT_2	右鍵點擊你的英雄來使用表情。
 GLUE_TIP_DEFAULT_2_TOUCH	輕點你的英雄來使用表情。	
 GLUE_TIP_DEFAULT_20	當好友在對戰時，按下好友名單上的「眼睛」按鈕便能進行觀戰！	
 GLUE_TIP_DEFAULT_21	你可以在手機、平板、和電腦上玩爐石戰記，而且牌庫是共通的！	
-GLUE_TIP_DEFAULT_22	你可以在商店為你喜歡的職業購買新的英雄。	
-GLUE_TIP_DEFAULT_23	標準套牌只能使用基本、經典以及近兩年所推出的卡牌。	
+GLUE_TIP_DEFAULT_22	逛逛商店，看看有沒有新英雄或卡背的特殊優惠！	
+GLUE_TIP_DEFAULT_23	標準套牌只能使用核心牌和近兩年所推出的卡牌。	
 GLUE_TIP_DEFAULT_24	在編輯套牌時點擊你的英雄，就能在標準和開放套牌之間切換。	
 GLUE_TIP_DEFAULT_24_TOUCH	在編輯套牌時輕點你的英雄，就能在標準和開放套牌之間切換。	
-GLUE_TIP_DEFAULT_25	今年是鳳凰年！每年都會有新的主題！	
+GLUE_TIP_DEFAULT_25	今年是獅鷲年！每年都會有新的主題！	
 GLUE_TIP_DEFAULT_26	檢視我的牌庫時，點擊左下方的篩選按鈕可以選擇你要顯示的卡牌系列。	
 GLUE_TIP_DEFAULT_26_TOUCH	檢視我的牌庫時，點擊左下方的篩選按鈕可以選擇你要顯示的卡牌系列。	
 GLUE_TIP_DEFAULT_27	當推出新卡牌系列時，這些卡牌都可以在標準和開放規則下使用。	
 GLUE_TIP_DEFAULT_28	開放規則就如其名，開放使用所有卡牌！	
 GLUE_TIP_DEFAULT_29	在標準規則下，策略會不斷推陳出新。	
-GLUE_TIP_DEFAULT_3	若你在編組套牌時需要幫助，在我的牌庫中點擊「套牌小幫手」！	
-GLUE_TIP_DEFAULT_30	我們會不斷推出新的套牌範本。	
+GLUE_TIP_DEFAULT_3	若你在編組套牌時需要幫助，就在我的牌庫中使用「補完我的套牌」按鈕！	
+GLUE_TIP_DEFAULT_30	我們會隨新資料片上市，不斷推出新的套牌範本。	
 GLUE_TIP_DEFAULT_31	標準規則只能使用新的卡牌系列，所以你不需要熟悉所有舊卡牌。	
 GLUE_TIP_DEFAULT_32	挑戰好友的同時也可以完成任務。	
 GLUE_TIP_DEFAULT_33	挑戰好友，和他們一起完成任務！	
+GLUE_TIP_DEFAULT_34	英雄戰場讓你與旅店裡的七位其他玩家對抗	
+GLUE_TIP_DEFAULT_35	你可以隨著決鬥擂台的進度編組套牌。每場戰鬥結束後，就能加更多牌到你的套牌中！	
+GLUE_TIP_DEFAULT_36	解鎖旅店貴賓證，讓你獲得更多獎勵經驗值。	
+GLUE_TIP_DEFAULT_37	只要在排名模式、競技場或決鬥擂台中用一個職業贏得1000場勝利，就能獲得傳奇英雄。	
 GLUE_TIP_DEFAULT_4	你可以透過卡牌中央的寶石顏色來得知該卡牌的稀有程度。	
 GLUE_TIP_DEFAULT_5	卡牌稀有度的顏色排列順序是：白色為普通，藍色為精良，紫色為史詩，橘色為傳說。	
 GLUE_TIP_DEFAULT_6	每一包卡牌包必定有一張精良以上的卡牌，但有可能會不只一張！	
 GLUE_TIP_DEFAULT_7	如果你任務全都做完了，明天回來看看就會有新任務了！	
 GLUE_TIP_DEFAULT_8	只要在當月賽季的排名模式中贏得5場勝利，就能獲得該賽季的特殊卡背。	
-GLUE_TIP_DEFAULT_8_RANKED_2.0	只要在當月賽季中晉升到階級20，就能獲得該賽季的特殊卡背。	
-GLUE_TIP_DEFAULT_9	完成任務來賺取金幣。金幣可以用來購買卡牌包或進入競技場。	
+GLUE_TIP_DEFAULT_9	完成任務來賺取獎勵經驗值。經驗值可以推進你的獎勵軌跡進度。	
 GLUE_TIP_DUELS_0	你可以不間斷地打出低消耗的手下。	
 GLUE_TIP_DUELS_1	高消耗的強力手下能夠翻轉後期的戰局。	
 GLUE_TIP_DUELS_10	敵方無法和被動寶藏互動。	
@@ -2147,22 +2180,21 @@ GLUE_TIP_FORGE_2	你不需要把競技場的賽局一口氣全部打完。
 GLUE_TIP_HEROICBRAWL_0	找到最合適的對手在這回的亂鬥特別重要。\n等候時間可能會比平常久一點。	
 GLUE_TIP_PLAY_0	你會被分配到技術跟你相近的對手。	
 GLUE_TIP_PLAY_1	在你勝利或被擊敗時，會記錄你的技術並在未來將你分配給實力相近的對手。	
-GLUE_TIP_PLAY_2	每一個職業都有5張不同的基本卡牌，在該職業升級時會逐步解鎖。	
-GLUE_TIP_PLAY_3	完成任務來賺取金幣。金幣可以用來購買卡牌包或進入競技場。	
+GLUE_TIP_PLAY_2	每一個職業都有16張不同的核心卡牌，在該職業升級時會逐步解鎖。	
+GLUE_TIP_PLAY_3	完成任務來賺取獎勵經驗值。經驗值可以推進你的獎勵軌跡進度。	
 GLUE_TIP_PLAY_4	排名模式的最高階級是「傳說」！	
 GLUE_TIP_PLAY_5	套牌中可以放置兩張一樣的卡牌，但是傳說級的卡牌只能放置一張。	
 GLUE_TIP_PLAY_6	競技場是個進行小小挑戰的同時還能賺取獎勵的好地方。	
 GLUE_TIP_PLAY_7	你不需要把競技場的賽局一口氣全部打完。	
 GLUE_TIP_PLAY_8	只要在當月賽季的排名模式中贏得5場勝利，就能獲得該賽季的特殊卡背。	
-GLUE_TIP_PLAY_8_RANKED_2.0	只要在當月賽季中晉升到階級20，就能獲得該賽季的特殊卡背。	
 GLUE_TIP_PRACTICE_0	在練習模式中擊敗英雄就能解鎖他們。	
 GLUE_TIP_PRACTICE_1	練習模式只是對戰模式的準備！	
 GLUE_TIP_PRACTICE_2	對戰模式將會分配你與技術相近的人對戰！	
 GLUE_TIP_PRACTICE_3	你可以進入牌庫中建構屬於你自己的套牌。	
-GLUE_TIP_PRACTICE_4	每一個職業都有5張不同的基本卡牌，在該職業升級時會逐步解鎖。	
-GLUE_TIP_PRACTICE_5	在對戰模式中完成任務來賺取金幣！	
+GLUE_TIP_PRACTICE_4	每一個職業都有16張不同的核心卡牌，在該職業升級時會逐步解鎖。	
+GLUE_TIP_PRACTICE_5	在對戰模式中完成任務來賺取獎勵經驗值！	
 GLUE_TIP_PRACTICE_6	攻擊英雄？還是敵方手下？正確的決定通常能改變戰鬥的局勢。	
-GLUE_TIP_PRACTICE_7	在10級之後與真實玩家對戰可獲得額外的經驗值。	
+GLUE_TIP_PRACTICE_7	在10級之後與真實玩家對戰可獲得額外的英雄經驗值。	
 GLUE_TIP_TAVERNBRAWL_0	旅店大亂鬥每個禮拜都有瘋狂的新玩法！	
 GLUE_TIP_TAVERNBRAWL_1	每次的大亂鬥結束之後，我們都需要一個鐘頭的時間清理場地，所以不能讓你進來。請再等一下吧！	
 GLUE_TIP_TAVERNBRAWL_2		This tip was removed. Translators: please leave this blank. Blank tips are skipped over. For devs: when adding new tips later, feel free to use this slot (and update this comment).
@@ -2200,7 +2232,6 @@ GLUE_TOOLTIP_BUTTON_TAVERN_BRAWL_HEADLINE	旅店大亂鬥
 GLUE_TOOLTIP_BUTTON_TAVERN_BRAWL_NOT_UNLOCKED	在一個職業達到20級後解鎖。	
 GLUE_TOOLTIP_BUTTON_TOURNAMENT_DESC	對抗技術相近的人。	
 GLUE_TOOLTIP_BUTTON_TOURNAMENT_HEADLINE	對戰模式	
-GLUE_TOOLTIP_CASUAL_BUTTON	尋找技術相當的對手，盡情地對戰！	
 GLUE_TOOLTIP_DOWNLOAD_DESCRIPTION	《爐石戰記》會在你進行遊戲時下載資料！	
 GLUE_TOOLTIP_DOWNLOAD_HEADER	正在下載	
 GLUE_TOOLTIP_GOLD_DESCRIPTION	使用金幣來購買卡牌包或進入競技場。	
@@ -2214,11 +2245,19 @@ GLUE_TOOLTIP_VIRTUAL_CURRENCY_HEADER	符文石
 GLUE_TOURNAMENT	對戰模式	
 GLUE_TOURNAMENT_CASUAL	休閒模式	
 GLUE_TOURNAMENT_CASUAL_WILD	開放休閒模式	
+GLUE_TOURNAMENT_CLASSIC_DESC	只能使用最初的240張牌。	
+GLUE_TOURNAMENT_DESCRIPTION_CASUAL	可以使用全部卡牌，和其他休閒玩家對戰。	
+GLUE_TOURNAMENT_DESCRIPTION_CLASSIC	只能使用經典規則卡牌。	
+GLUE_TOURNAMENT_DESCRIPTION_STANDARD	只能使用核心卡牌，和近兩年推出的卡牌。	
+GLUE_TOURNAMENT_DESCRIPTION_WILD	經典規則卡牌以外的所有卡牌皆可使用。	
+GLUE_TOURNAMENT_MISSING_DECKS_CLASSIC	你沒有經典套牌，去組一副吧！	
 GLUE_TOURNAMENT_RANKED	排名模式	
+GLUE_TOURNAMENT_RANKED_CLASSIC	經典排名對戰	
 GLUE_TOURNAMENT_RANKED_WILD	開放排名模式	
-GLUE_TOURNAMENT_STANDARD_DESC	只能使用基本、經典和近兩年推出的卡牌。	
+GLUE_TOURNAMENT_STANDARD_DESC	只能使用核心卡牌，和近一年推出的卡牌。	
 GLUE_TOURNAMENT_STAR_MULT_BODY	你每場勝利可獲得{0}個星星，隨著你階級上升，星星獎勵會逐漸減少。	
 GLUE_TOURNAMENT_STAR_MULT_HEAD	x{0}星星獎勵	
+GLUE_TOURNAMENT_SWITCH_MODE	你可以在這裡切換模式	
 GLUE_TOURNAMENT_SWITCH_TO_STANDARD	試著切換到標準規則吧	
 GLUE_TOURNAMENT_SWITCH_TO_WILD	你可以在這裡切換成開放規則	
 GLUE_TOURNAMENT_UNRANKED_DESC	在非排名模式中你的技術等級將有另一套計算方式，而且無法贏得獎章。	

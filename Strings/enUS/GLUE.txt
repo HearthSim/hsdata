@@ -28,6 +28,8 @@ GLUE_COLLECTION_LOCK_MAX_DECK_COPIES	Deck Limit: {0}
 GLUE_COLLECTION_LOCK_CARD_NOT_PLAYABLE	Not Yet Released
 GLUE_COLLECTION_LOCK_CARD_BANNED	Banned
 GLUE_COLLECTION_LOCK_CARD_INVALID_CLASS	Card Belongs to Another Class
+GLUE_COLLECTION_LOCK_CARD_NOT_IN_FORMAT	Wrong Format
+GLUE_COLLECTION_LOCK_CARD_NOT_IN_CARDSET	Wrong Set
 GLUE_COLLECTION_RECENT_CARDS	Recently Acquired Cards	
 GLUE_COLLECTION_MY_DECKS	My Decks	
 GLUE_COLLECTION_DECK	Deck	
@@ -45,6 +47,8 @@ GLUE_COLLECTION_DECK_RULE_INVALID_CARDS_NPR	You have {0} |4(card,cards) that |4(
 GLUE_COLLECTION_DECK_RULE_INVALID_CARDS_NPR_NEW	You have {0} |4(card,cards) that |4(requires,require) completion of Apprenticeship.
 GLUE_COLLECTION_DECK_RULE_FINISH_AUTOMATICALLY	Do you want to finish the deck automatically?	
 GLUE_COLLECTION_DECK_RULE_NOT_ENOUGH_CARDS	You need {0} more |4(card,cards) to complete a deck with this class. Try crafting some cards or building a deck with a different class.
+GLUE_COLLECTION_DECK_RULE_NOT_IN_FORMAT	You have {0} |4(card,cards) that |4(is,are) invalid for this format.
+GLUE_COLLECTION_DECK_RULE_NOT_IN_CARDSET	You have {0} |4(card,cards) that |4(is,are) from an invalid set.
 GLUE_COLLECTION_DECK_COMPLETE_POPUP_HEADER	Complete My Deck	
 GLUE_COLLECTION_DECK_COMPLETE_POPUP_CONFIRM	Yes	
 GLUE_COLLECTION_DECK_COMPLETE_POPUP_CANCEL	No	
@@ -101,7 +105,8 @@ GLUE_COLLECTION_STANDARD_SETS	Standard Sets
 GLUE_COLLECTION_WILD_SETS	Wild Sets
 GLUE_COLLECTION_FEATURED_CARDS	Featured Cards
 GLUE_COLLECTION_NEW_CARDS	New Cards
-GLUE_COLLECTION_ALL_CARDS	All Cards	
+GLUE_COLLECTION_WILD_CARDS	Wild Cards
+GLUE_COLLECTION_VANILLA_CARDS	Classic Cards	
 GLUE_COLLECTION_ALL_STANDARD_CARDS	Standard Cards	
 GLUE_COLLECTION_MINE	My Cards	
 GLUE_COLLECTION_GOLDEN_CARDS	Golden Cards	
@@ -151,6 +156,7 @@ GLUE_COLLECTION_DECK_PASTE_COMMENT_INSTRUCTIONS	To use this deck, copy it to you
 GLUE_COLLECTION_DECK_PASTE_COMMENT_ARENA_WARNING	This deck was copied from the Arena. It may not be valid for other play modes.
 GLUE_COLLECTION_DECK_FORMAT_WILD	Wild
 GLUE_COLLECTION_DECK_FORMAT_STANDARD	Standard
+GLUE_COLLECTION_DECK_FORMAT_CLASSIC	Classic
 GLUE_COLLECTION_DECK_COPY_TOOLTIP_HEADLINE	Copy Deck	
 GLUE_COLLECTION_DECK_PASTE_TOOLTIP_HEADLINE	Paste Deck	
 GLUE_COLLECTION_DECK_PASTE_TOOLTIP_CLASS_NO_MATCH	Your copied deck belongs to a different class.
@@ -179,17 +185,20 @@ GLUE_CRAFTING_ARCANEDUST	Arcane Dust
 GLUE_CRAFTING_ARCANEDUST_DESCRIPTION	Gain Arcane Dust by disenchanting cards. You can use dust to craft cards you want!	
 GLUE_CRAFTING_SOULBOUND	Uncraftable	
 GLUE_CRAFTING_SOULBOUND_DESC	This card cannot be disenchanted or crafted.	
-GLUE_CRAFTING_SOULBOUND_BASIC_DESC	Basic cards cannot be disenchanted or crafted.	
+GLUE_CRAFTING_SOULBOUND_CORE_DESC	Core Set cards cannot be disenchanted or crafted.	
 GLUE_CRAFTING_SOULBOUND_REWARD_DESC	Quest Rewards cannot be disenchanted or crafted.	
 GLUE_CRAFTING_SOULBOUND_FEATURED_DESC	Available for the duration of a special event!	
 GLUE_CRAFTING_SOULBOUND_OFFLINE_DESC	You cannot disenchant or craft cards while offline.
 GLUE_CRAFTING_WILD_CARD_HEADER	Wild Cards	
-GLUE_CRAFTING_WILD_CARD_FIRST_WILD_DESC	This card is not playable in the Standard format. Are you sure?	
-GLUE_CRAFTING_WILD_CARD_DESC	This is a Wild card. Are you sure?	
-GLUE_CRAFTING_WILD_CARD_TAVERN_BRAWL_HEADER	Invalid Cards	
-GLUE_CRAFTING_WILD_CARD_TAVERN_BRAWL_DESC	This card is not valid for this Tavern Brawl. Are you sure?	
-GLUE_CRAFTING_WILD_CARD_WARNING_CONFIRM	I'm Sure	
-GLUE_CRAFTING_WILD_CARD_WARNING_CANCEL	Oops! Nope!	
+GLUE_CRAFTING_WILD_CARD_FIRST_DESC	This card is not playable in the Standard format. Are you sure?	
+GLUE_CRAFTING_WILD_CARD_DESC	This is a Wild card. Are you sure?
+GLUE_CRAFTING_CLASSIC_CARD_HEADER	Classic Format Cards	
+GLUE_CRAFTING_CLASSIC_CARD_FIRST_DESC	Crafting this Classic Format card will also create its Wild counterpart, but neither is playable in the Standard format. Are you sure?		
+GLUE_CRAFTING_CLASSIC_CARD_DESC	This is a Classic Format card. Are you sure?	
+GLUE_CRAFTING_INVALID_CARD_TAVERN_BRAWL_HEADER	Invalid Cards	
+GLUE_CRAFTING_INVALID_CARD_TAVERN_BRAWL_DESC	This card is not valid for this Tavern Brawl. Are you sure?	
+GLUE_CRAFTING_NONSTANDARD_CARD_WARNING_CONFIRM	I'm Sure	
+GLUE_CRAFTING_NONSTANDARD_CARD_WARNING_CANCEL	Oops! Nope!	
 GLUE_CRAFTING_WILD_CARD_INTRO_DESC	In the Wild format, you can use any card ever released!	
 GLUE_CRAFTING_EVENT_NOT_ACTIVE_TITLE	Not Yet Released
 GLUE_CRAFTING_EVENT_NOT_ACTIVE_DESCRIPTION	{0} cards cannot be crafted or disenchanted yet.
@@ -448,7 +457,6 @@ GLUE_TOOLTIP_BOOSTER_CURRENCY_HEADER	Arcane Orbs
 GLUE_TOOLTIP_GOLD_HEADER	Gold	
 GLUE_TOOLTIP_GOLD_DESCRIPTION	Spend gold to buy Packs or enter The Arena.	
 GLUE_TOOLTIP_RANKED_BUTTON	See how you stack up against other players!	
-GLUE_TOOLTIP_CASUAL_BUTTON	Find an opponent of equal skill, and play for fun!	
 GLUE_TOOLTIP_GOLDEN_WINS_HEADER	Total Wins
 GLUE_TOOLTIP_GOLDEN_WINS_DESC	Win 500 games in Ranked or Arena with this class to earn its Golden classic hero!
 GLUE_TOOLTIP_ALTERNATE_WINS_DESC	Win {0} games in Ranked or Arena with this class to earn its Honored hero!
@@ -463,14 +471,16 @@ GLUE_GAME_MODES_POPUP_EARLY_ACCESS	Early Access
 GLUE_TOURNAMENT	Play	
 GLUE_TOURNAMENT_UNRANKED_MODE	Unranked Mode	
 GLUE_TOURNAMENT_UNRANKED_DESC	You have a separate skill rating for Unranked mode, and you won't earn medals.
-GLUE_TOURNAMENT_CASUAL	Casual	
+GLUE_TOURNAMENT_CASUAL	Casual
 GLUE_TOURNAMENT_RANKED	Ranked
 GLUE_TOURNAMENT_CASUAL_WILD	Wild Casual
 GLUE_TOURNAMENT_RANKED_WILD	Wild Ranked
+GLUE_TOURNAMENT_SWITCH_MODE	You can switch Modes here
 GLUE_TOURNAMENT_SWITCH_TO_STANDARD	Try switching to Standard
 GLUE_TOURNAMENT_SWITCH_TO_WILD	You can switch to Wild here
-GLUE_TOURNAMENT_STANDARD_DESC	Only Basic, Classic, and the last 2 years of cards can be used.
+GLUE_TOURNAMENT_STANDARD_DESC	Only Core and the last year of cards can be used.
 GLUE_TOURNAMENT_WILD_DESC	All cards can be used.
+GLUE_TOURNAMENT_CLASSIC_DESC	Only the original 240 cards can be used.
 GLUE_TOURNAMENT_STAR_MULT_HEAD	x{0} Star Bonus
 GLUE_TOURNAMENT_STAR_MULT_BODY	You earn {0} |4(star,stars) for each win. Star bonus decreases as you rank up.
 GLUE_BASIC_DECK_WARNING_HEADER	Basic Deck	
@@ -479,8 +489,8 @@ GLUE_PLAY_WILD	Play Wild
 GLUE_PLAY_STANDARD	Play Standard
 GLUE_ADVENTURE	Solo Adventures	
 GLUE_PRACTICE	Practice	
-GLUE_BASIC_SET_PROGRESS	{0}/{1} Basic Cards	0=number of owned cards,1=total number of basic cards
-GLUE_BASIC_SET_PROGRESS_PHONE	{0}/{1}	0=number of owned cards,1=total number of basic cards
+GLUE_CORE_SET_PROGRESS	{0}/{1} Core Cards	0=number of owned cards,1=total number of core cards
+GLUE_CORE_SET_PROGRESS_PHONE	{0}/{1}	0=number of owned cards,1=total number of core cards
 GLUE_FORGE	The Arena	
 GLUE_GAME_MODES	Modes	
 GLUE_BACON	Battlegrounds	
@@ -505,6 +515,7 @@ GLUE_CHOOSE	Choose
 GLUE_CREATE_DECK	Create Deck	
 GLUE_CREATE_STANDARD_DECK	Create Standard Deck	
 GLUE_CREATE_WILD_DECK	Create Wild Deck	
+GLUE_CREATE_CLASSIC_DECK	Create Classic Deck	
 GLUE_EDIT_DECK	Edit Deck	
 GLUE_ALERT_POPUP_HEADER	Message of the Day	
 GLUE_RDM_LOW_COST	Let's make sure you have some cheap cards to play early on.	
@@ -606,60 +617,62 @@ GLUE_TIP_DEFAULT_1	Click on your hero while editing a deck to change your deck's
 GLUE_TIP_DEFAULT_1_TOUCH	Tap your hero while editing a deck to change your deck's name.	
 GLUE_TIP_DEFAULT_2	Right-click on your hero to emote.	
 GLUE_TIP_DEFAULT_2_TOUCH	Tap your hero to emote.	
-GLUE_TIP_DEFAULT_3	If you need help building a deck, use the "Deck Helper" in the Collection Manager!
+GLUE_TIP_DEFAULT_3	If you need help building a deck, use the "Complete My Deck" button in the Collection Manager!	
 GLUE_TIP_DEFAULT_4	You can tell what rarity a card is by the colored gem in the center.	
 GLUE_TIP_DEFAULT_5	Rarity colors, in order: White is Common, Blue is Rare, Purple is Epic and Orange is Legendary.	
 GLUE_TIP_DEFAULT_6	Each pack of cards has at least one rare or better card, but it could have more!	
 GLUE_TIP_DEFAULT_7	If you run out of quests, come back tomorrow for a new one!	
 GLUE_TIP_DEFAULT_8	If you win 5 Ranked games in a season, you'll earn that season's special card back.	
-GLUE_TIP_DEFAULT_8_RANKED_2.0	If you achieve Rank 20 in a season, you'll earn that season's special card back.	
-GLUE_TIP_DEFAULT_9	Complete quests to earn Gold.  Gold can be used to buy packs or enter The Arena.	
+GLUE_TIP_DEFAULT_9	Complete quests to earn Reward XP.  XP gives you progress on your Rewards Track.	
 GLUE_TIP_DEFAULT_10	The Arena lets you build a deck from random cards. You can also win prizes!	
-GLUE_TIP_DEFAULT_11	Basic cards are earned by leveling up. They cannot be disenchanted or crafted.	
+GLUE_TIP_DEFAULT_11	Core cards are earned by leveling up. They cannot be disenchanted or crafted.	
 GLUE_TIP_DEFAULT_12	Golden cards can be disenchanted for a lot of dust.	
 GLUE_TIP_DEFAULT_13	You can use the Search field in your collection to find all cards with 'Taunt'.	
-GLUE_TIP_DEFAULT_14	Basic cards are earned by leveling up a class. Classic cards come from Classic Packs.	
-GLUE_TIP_DEFAULT_15	Playing against real players grants you bonus XP.	
+GLUE_TIP_DEFAULT_14	Core cards are earned by leveling up a class. Reach level 10 with each class to unlock them all! 
+GLUE_TIP_DEFAULT_15	Playing against real players grants you bonus Reward XP.	
 GLUE_TIP_DEFAULT_16	You can right-click on your opponent's hero to "Squelch" emotes.	
 GLUE_TIP_DEFAULT_16_TOUCH	You can tap your opponent's hero to "Squelch" emotes.	
-GLUE_TIP_DEFAULT_17	If you win 500 games in Ranked or Arena mode with a class, you'll earn a Golden Hero.	
+GLUE_TIP_DEFAULT_17	If you win 500 games in Ranked, Arena, or Duels mode with a class, you'll earn a Golden Hero.	
 GLUE_TIP_DEFAULT_18	You can add friends to your friends list with the button on the bottom left.	
 GLUE_TIP_DEFAULT_18_PHONE	You can add friends to your friends list with the button on the top left.	
 GLUE_TIP_DEFAULT_19	The highest rank in Ranked Mode is the “Legend” rank!	
 GLUE_TIP_DEFAULT_20	Watch a friend play by hitting the "Eye" button in your friends list while they're in a match!	
 GLUE_TIP_DEFAULT_21	Play Hearthstone on the phone, tablet and computer.  Use the same card collection on all three!	
-GLUE_TIP_DEFAULT_22	You can purchase a new hero for your favorite class in the Shop.	
-GLUE_TIP_DEFAULT_23	Standard uses Basic, Classic and the most recent two years of cards.	
+GLUE_TIP_DEFAULT_22	Check out the Shop for special offers like new heroes and card backs!	
+GLUE_TIP_DEFAULT_23	Standard uses Core and the most recent two years of cards.	
 GLUE_TIP_DEFAULT_24	Click on your hero while editing a deck to swap between Standard and Wild.	
 GLUE_TIP_DEFAULT_24_TOUCH	Tap on your hero while editing a deck to swap between Standard and Wild.	
-GLUE_TIP_DEFAULT_25	This is the year of the Phoenix! (Each year will have a new theme)	
+GLUE_TIP_DEFAULT_25	This is the year of the Gryphon! (Each year will have a new theme)	
 GLUE_TIP_DEFAULT_26	When viewing your collection, click on the bottom left filter button to choose which sets are shown.	
 GLUE_TIP_DEFAULT_26_TOUCH	When viewing your collection, tap on the bottom left filter button to choose which sets are shown.	
 GLUE_TIP_DEFAULT_27	Whenever a new set is released you can use its cards in both Wild and Standard.	
 GLUE_TIP_DEFAULT_28	Wild is exactly that, WILD! Any cards can be used!	
 GLUE_TIP_DEFAULT_29	In Standard, new strategies are constantly evolving.	
-GLUE_TIP_DEFAULT_30	New deck recipes will be released over time.	
+GLUE_TIP_DEFAULT_30	With every new expansion, new deck recipes will be released.	
 GLUE_TIP_DEFAULT_31	In Standard, the newest sets are in play so you don't have to learn all the old cards.	
 GLUE_TIP_DEFAULT_32	You can complete quests while playing against friends.	
 GLUE_TIP_DEFAULT_33	Complete quests with your friends by challenging them!	
+GLUE_TIP_DEFAULT_34	Battlegrounds lets you play against seven other players in the Tavern.	
+GLUE_TIP_DEFAULT_35	Duels lets you build a deck as you go. After each fight, you get to add more to your deck!	
+GLUE_TIP_DEFAULT_36	Unlocking the Tavern Pass allows you to get even more Reward XP.	
+GLUE_TIP_DEFAULT_37	If you win 1000 games in Ranked, Arena, or Duels mode with a class, you'll get a Prestige Hero!
 GLUE_TIP_PRACTICE_0	You can unlock heroes by defeating them in Practice Mode.	
 GLUE_TIP_PRACTICE_1	Practice Mode is just preparation for Play Mode!	
 GLUE_TIP_PRACTICE_2	Play mode will match you against someone of similar skill!	
 GLUE_TIP_PRACTICE_3	You can build a custom deck with your cards by visiting your Collection.	
-GLUE_TIP_PRACTICE_4	Each class has 5 different Basic cards you can unlock as you level up.	
-GLUE_TIP_PRACTICE_5	Complete quests in "Play" mode to earn Gold!	
+GLUE_TIP_PRACTICE_4	Each class has 16 different Core cards you can unlock as you level up.	
+GLUE_TIP_PRACTICE_5	Complete quests in "Play" mode to earn Reward XP!	
 GLUE_TIP_PRACTICE_6	Attack the hero? Or the enemy minions?  Answering correctly can often turn the tide of battle.	
-GLUE_TIP_PRACTICE_7	You'll earn more XP after level 10 by playing against real players.	
+GLUE_TIP_PRACTICE_7	You'll earn more Hero XP after level 10 by playing against real players.	
 GLUE_TIP_PLAY_0	You are being matched against a player of your skill.	
 GLUE_TIP_PLAY_1	As you win and lose games it will track your skill and match you against a fair opponent.	
-GLUE_TIP_PLAY_2	Each class has 5 different Basic cards you can unlock as you level up.	
-GLUE_TIP_PLAY_3	Complete quests to earn Gold.  Gold can be used to buy packs or enter The Arena.	
+GLUE_TIP_PLAY_2	Each class has 16 different Core cards you can unlock as you level up.	
+GLUE_TIP_PLAY_3	Complete quests to earn Reward XP. XP gives you progress on your Rewards Track.	
 GLUE_TIP_PLAY_4	The highest rank in Ranked Mode is the “Legend” rank!	
 GLUE_TIP_PLAY_5	Decks can contain two copies of each card, but only one copy of a Legendary card.	
 GLUE_TIP_PLAY_6	The Arena is a great way of earning rewards while playing in a mini competition.	
 GLUE_TIP_PLAY_7	You don’t have to play all of your Arena games at once.	
 GLUE_TIP_PLAY_8	If you win 5 Ranked games in a season, you'll earn that season's special card back.	
-GLUE_TIP_PLAY_8_RANKED_2.0	If you achieve Rank 20 in a season, you'll earn that season's special card back.	
 GLUE_TIP_FORGE_0	Your Arena Deck will expire after you lose 3 games.	
 GLUE_TIP_FORGE_1	Your Arena prize gets better with each game you win!	
 GLUE_TIP_FORGE_2	You don’t have to play all of your Arena games at once.	
@@ -742,7 +755,7 @@ GLUE_TIP_ADVENTURE_DAL_20	The League of E.V.I.L. has gathered\ntogether miscrean
 GLUE_TIP_ADVENTURE_DAL_21	Adventurers and townspeople in Dalaran will try to thwart your schemes!
 GLUE_TIP_BACON_0	When you get a triple, you also discover a minion of your Tavern Tier +1.
 GLUE_TIP_BACON_1	Minions will attack from left to right with random targets,\nunless an enemy minion has taunt.
-GLUE_TIP_BACON_2	Shifter Zerus can transform into a minion of any Tavern Tier!
+GLUE_TIP_BACON_2	Every game includes a different set of minion types. Sometimes Murlocs are in, sometimes they're out!
 GLUE_TIP_BACON_3	When you win, your hero and minions deal damage equal to their Tavern Tier.
 GLUE_TIP_BACON_4	The cost to upgrade your Tavern decreases by 1 each turn.
 GLUE_TIP_BACON_5	There are only seven copies of the Tier 6 minions.\n When bought, they are gone for everyone!
@@ -756,7 +769,7 @@ GLUE_TIP_BACON_12	If your opponents purchase many copies of one minion, you will
 GLUE_TIP_BACON_13	If a minion is sold, it returns to the pool, so you will see it again more often. 
 GLUE_TIP_BACON_14	If you spend all your gold increasing your Tavern Tier, your warband will fall behind, and you may lose.
 GLUE_TIP_BACON_15	If you never increase your Tavern Tier, your warband will fall behind, and you may lose.
-GLUE_TIP_BACON_16	Murlocs are stronger in the early game, while Mechs are stronger in the late game.
+GLUE_TIP_BACON_16	Some minion types are stronger in the early game, while others are stronger in the late game.
 GLUE_TIP_BACON_17	If you have 1 gold left over, refresh the Tavern – \nif you see a minion you like, freeze it for the next turn.
 GLUE_TIP_BACON_18	With 8 players, being in the Top 4 is a win! \nFirst place gets you the Crown!
 GLUE_TIP_BACON_19	All players recruit minions from the same shared pool.
@@ -988,8 +1001,9 @@ GLUE_HERO_LOCKED_NAME	Locked
 GLUE_HERO_LOCKED_DESC	Defeat this hero to unlock!	
 GLUE_INCOMPLETE_DECK_HEADER	Incomplete deck	
 GLUE_INCOMPLETE_DECK_DESC	You need to finish building this deck.	
-GLUE_DISABLED_WILD_DECK_HEADER	Wild deck
-GLUE_DISABLED_WILD_DECK_DESC	Not usable in Standard. Swap to the Wild Format, or convert it to Standard.
+GLUE_DISABLED_DECK_HEADER	{0} deck	0=deck format
+GLUE_DISABLED_DECK_DESC	Not usable in {0} format.	0=current format
+GLUE_DISABLED_DECK_IN_CURRENT_MODE_DESC	Not usable in this mode.
 GLUE_QUEST_LOG_PHONE_BUTTON	Quests	
 GLUE_JOURNAL_PHONE_BUTTON	Journal	
 GLUE_QUEST_LOG_HEADLINE	Quest Log	
@@ -1302,6 +1316,7 @@ GLUE_DECK_TEMPLATE_CHOOSE_DECK	{0} Recipes	0=name of class (e.g. Shaman)
 GLUE_DECK_TEMPLATE_CUSTOM_DECK	Custom Deck	
 GLUE_DECK_TEMPLATE_CURRENT_DECK	Current Deck	
 GLUE_DECK_TEMPLATE_CUSTOM_DECK_DESCRIPTION	Build your own deck!	
+GLUE_COLLECTION_MANAGER_SEARCH_DIAMOND	diamond
 GLUE_COLLECTION_MANAGER_SEARCH_GOLDEN	golden
 GLUE_COLLECTION_MANAGER_SEARCH_MANA	mana
 GLUE_COLLECTION_MANAGER_SEARCH_ARTIST	artist
@@ -1332,12 +1347,12 @@ GLUE_STORE_LEAVING_SOON_LEARN_MORE	Learn more
 GLUE_STORE_ADVENTURE_LEAVING_SOON	Adventure leaving soon!	
 GLUE_STORE_EXPANSION_LEAVING_SOON	Expansion leaving soon!	
 GLUE_THE_CLOCK_DETAILS	The cards you can use in Standard change each year.	
-GLUE_THE_CLOCK_BANNER_YEAR	Year of the Phoenix	
+GLUE_THE_CLOCK_BANNER_YEAR	Year of the Gryphon	
 GLUE_THE_CLOCK_BANNER_NEW_WAY	New way to play:	
 GLUE_THE_CLOCK_BANNER_STANDARD	"Standard"	
 GLUE_THE_CLOCK_DETAILS_STANDARD	In Standard, only the newest cards can be used.	
 GLUE_SET_ROTATION_CURRENT_YEAR	Year of the Dragon	
-GLUE_SET_ROTATION_NEXT_YEAR	Year of the Phoenix	
+GLUE_SET_ROTATION_NEXT_YEAR	Year of the Gryphon	
 GLUE_CARDS_UPDATED	These cards have changed.	
 GLUE_SINGLE_CARD_UPDATED	This card has changed.	
 GLUE_CARDS_ADDED	{0} new cards added to Classic!	
@@ -1541,16 +1556,6 @@ GLUE_NEARBY_PLAYERS_ENABLE	Enable to see nearby players and let them see you!
 GLUE_PLAYERS_NEARBY	Players Nearby
 GLUE_NEARBY_PLAYERS_DISABLE	Disable to hide yourself from nearby players. (You won't be able to see them either!)
 GLUE_ROTATED_SETS_DIALOG	The following sets are now Wild!
-GLUE_HALL_Of_FAME_SIGN	Hall of Fame
-GLUE_HALL_Of_FAME_BODY	Some cards are now Wild and can't be played in Standard.
-GLUE_HALL_OF_FAME_CARD_LIST	These cards have been moved to Wild.
-GLUE_HALL_OF_FAME_DUST_COMPENSATION	Because you own some of these cards,\n here's a special gift to celebrate!
-GLUE_HALL_OF_FAME_CARD_REPLACEMENT_BODY	Some Basic cards have moved to Wild and have been replaced with new Basic cards.
-GLUE_HALL_OF_FAME_CARD_REPLACEMENT_LIST	These Basic cards are now Wild and have been replaced.
-GLUE_CARD_REPLACEMENT_CARDS_ADDED	These new cards have been added to the Basic set.
-GLUE_CARD_REPLACEMENT_CARDS_REMOVED	These cards have been removed from the Basic set.
-GLUE_CARD_REPLACEMENT_DUST_HEADER	Free dust!
-GLUE_CARD_REPLACEMENT_DUST_FOOTER	Because you own some of these cards,\n here's a special gift to celebrate!
 GLUE_PUSH_NOTIFICATION_CONTEXT_HEADER	Push Notifications
 GLUE_PUSH_NOTIFICATION_CONTEXT_BODY	Want us to notify you when we release something awesome?
 GLUE_PUSH_NOTIFICATION_CONTEXT_CONFIRM	Definitely!
@@ -1668,7 +1673,6 @@ GLUE_STORE_PACKBUY_ROTATING_SOON	Rotating Soon
 GLUE_STORE_PACKBUY_LIMITED_TIME	Limited Time
 GLUE_STORE_LIMITED_TIME_OFFER	Limited Time Offer!
 GLUE_STORE_BONUS_PACKS	Get {0} bonus |4(pack,packs) for a limited time!	0 = number of bonus packs
-GLUE_NEW_PLAYER_AVAILABLE_AT_RANK_25	Available at Rank 25
 GLUE_NEW_PLAYER_AVAILABLE_AT_LEAGUE_PROMO	Available\nafter\nApprenticeship
 GLUE_NEW_PLAYER_PROMOTION_CHEST_DESC	Congratulations! You are now\nofficially a veteran.\n\nTougher opponents await!
 GLUE_NEW_PLAYER_SET_ROTATION_POPUP_HEADER	Welcome back!
@@ -2034,6 +2038,7 @@ GLUE_ADVENTURE_NUM_BOSSES_DEFEATED	{0}/{1}
 GLUE_ADVENTURE_NUM_CARDS_COLLECTED	{0}/{1}	
 GLUE_ADVENTURE_NUM_CHAPTERS_OWNED	{0} |4(Chapter,Chapters) Owned	
 GLUE_RANKED_SEASON_ROLL_FLOW_TITLE	The new Ranked system is here!
+GLUE_RANKED_SYSTEM_TITLE	Ranking System
 GLUE_RANKED_TIER_NAME_BRONZE	Bronze
 GLUE_RANKED_TIER_NAME_SILVER	Silver
 GLUE_RANKED_TIER_NAME_GOLD	Gold
@@ -2150,6 +2155,17 @@ GLUE_TIP_ADVENTURE_BOH_8	View decks before starting the mission \nto develop a s
 GLUE_TIP_ADVENTURE_BOH_9	Heroes must overcome tremendous odds \nto secure their place in history.
 GLUE_TIP_ADVENTURE_BOH_10	Get to know your heroes a little better \nby reliving their greatest battles.
 GLUE_TIP_ADVENTURE_BOH_11	Malfurion is SERIOUSLY looking forward\n to setting the record straight.
+GLUE_TIP_ADVENTURE_BOM_1	Prepare to adventure alongside new heroes of Hearthstone!
+GLUE_TIP_ADVENTURE_BOM_2	This hero's journey has provided decks and hero powers!
+GLUE_TIP_ADVENTURE_BOM_3	In some battles, you choose which companion will fight by your side.
+GLUE_TIP_ADVENTURE_BOM_4	Each volume of Book of Mercenaries continues the story.
+GLUE_TIP_ADVENTURE_BOM_5	Be ready for anything! A mercenary's life is full of twists.
+GLUE_TIP_ADVENTURE_BOM_6	View decks before starting the mission \nto develop a strategy against the enemy.
+GLUE_TIP_ADVENTURE_BOM_7	Kazakus, leader of the Gadgetzan Kabal, has been sighted in the Barrens.
+GLUE_TIP_ADVENTURE_BOM_8	On the Night of Falling Stars, shards of glowing Light fell across Azeroth.
+GLUE_TIP_ADVENTURE_BOM_9	Like Warchief Thrall, Rokara is part of the Frostwolf clan and hails from Alterac Valley.
+GLUE_TIP_ADVENTURE_BOM_10	For Alliance heroes, the Barrens are especially dangerous. For Horde heroes, just regular dangerous.
+GLUE_TIP_ADVENTURE_BOM_11	For a hero of the Horde, all roads lead to the Crossroads.
 GLUE_CLASS_UPCOMING_HEADER	Not Yet Available
 GLUE_CLASS_UPCOMING_DESC	This class is not yet available.
 GLUE_GAME_MODE_NEW_MODE_UNLOCKED_POPUP_HEADER	New mode unlocked:
@@ -2258,6 +2274,10 @@ GLUE_PROGRESSION_REWARD_TRACK_POPUP_SKIN_CHOICE_CTA	Claim
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_SKIN_CHOICE_CLAIMED	Claimed
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_SKIN_CHOICE_CONFIRMATION_HEADER	Confirm your choice
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_SKIN_CHOICE_CONFIRMATION_TEXT	Choose {0} skin {1}?
+GLUE_PROGRESSION_REWARD_TRACK_POPUP_FORGOT_REWARDS_TITLE	You Forgot |4(A Reward,Some Rewards)!
+GLUE_PROGRESSION_REWARD_TRACK_POPUP_FORGOT_REWARDS_BODY	{0} |4(reward,rewards) from last expansion's Reward Track |4(has, have) been added to your Collection.
+GLUE_PROGRESSION_REWARD_TRACK_POPUP_NEW_TRACK_TITLE	New Rewards Track: The Barrens 
+GLUE_PROGRESSION_REWARD_TRACK_POPUP_NEW_TRACK_BODY	Earn exciting new rewards on the refreshed Rewards Track!
 GLUE_PROGRESSION_REWARD_TRACK_XP_TOOLTIP_BOOST_TITLE	XP Bonuses
 GLUE_PROGRESSION_REWARD_TRACK_XP_TOOLTIP_BOOST_BODY	+{0}% XP Boost
 GLUE_PROGRESSION_PROFILE_CLASS_TITLE	Class Progress
@@ -2276,7 +2296,7 @@ GLUE_PROGRESSION_REWARD_TRACK_XP_PROGRESS	{0}/{1}
 GLUE_PROGRESSION_ACHIEVEMENT_TOAST	<color=#FFFFFF>Achieved</color> <color=#FFD451>{0}</color>
 GLUE_PROGRESSION_QUEST_DAILY	Daily
 GLUE_PROGRESSION_QUEST_WEEKLY	Weekly
-GLUE_FUN_CONFIRM_MESSAGE	Sweet!
+GLUE_FUN_CONFIRM_MESSAGE	Awesome!
 GLUE_STORE_PRODUCT_NAME_PROGRESSION_BONUS	Tavern Pass
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_PROGRESSION_BONUS	이용기간: 다음 확장팩 출시일 전까지. 본 상품은 구매 즉시 효과가 적용되므로 구매 후 환불이 불가능합니다.
 GLUE_STORE_TAVERN_PASS_HEADLINE_TEXT	Tavern Pass includes unlockable* rewards such as:
@@ -2288,6 +2308,26 @@ GLUE_PRIVACY_POLICY_EULA_CONFIRM	同意并进入
 GLUE_PRIVACY_POLICY_EULA_TITLE	请阅读以下内容
 GLUE_PRIVACY_POLICY_BUTTON	隐私协议
 GLUE_PRIVACY_POLICY_TITLE	Privacy Policy
+GLUE_PRIVACY_POLICY_EULA_CONFIRMATION_TEXT	抱歉，您在同意《隐私协议》及《最终用户许可协议》后，方可继续开启本游戏。
+GLUE_PRIVACY_POLICY_EULA_CONFIRMATION_ACCEPT	同意并进入
+GLUE_PRIVACY_POLICY_EULA_CONFIRMATION_REJECT	再想想
 GLUE_EULA_BUTTON	最终用户许可协议
 GLUE_EULA_TITLE	EULA
 GLUE_COMING_SOON	Coming Soon!
+GLUE_PLAY_CLASSIC	Play Classic
+GLUE_TOURNAMENT_RANKED_CLASSIC	Classic Ranked
+GLUE_PLAY_CASUAL	Play Casual
+GLUE_COLLECTION_CRAFTING_DIAMOND	Diamond Cards
+GLUE_COLLECTION_CRAFTING_SHOW_ONLY	Show Only
+GLUE_COLLECTION_CRAFTING_GOLDEN	Golden Cards
+GLUE_COLLECTION_CRAFTING_UNCRAFTABLE	Uncraftable Cards
+GLUE_CORE_SET_POPUP_HEADER	235 FREE Cards!
+GLUE_CORE_SET_POPUP_SUBHEADER	Core set now available!
+GLUE_CORE_SET_POPUP_BODY	• 25 FREE Legendary cards\n• 31 new cards for deck-building
+GLUE_CORE_SET_POPUP_FOOTER	(Basic & Classic cards are now Wild)
+GLUE_TOURNAMENT_DESCRIPTION_CLASSIC	Only Classic format cards can be used.
+GLUE_TOURNAMENT_DESCRIPTION_STANDARD	Only Core and the last 2 years of cards can be used.
+GLUE_TOURNAMENT_DESCRIPTION_WILD	All cards except Classic format cards can be used.
+GLUE_TOURNAMENT_DESCRIPTION_CASUAL	All cards are available, play against other Casual players.
+GLUE_TOURNAMENT_MISSING_DECKS_CLASSIC	You have no Classic decks. Go create one!
+

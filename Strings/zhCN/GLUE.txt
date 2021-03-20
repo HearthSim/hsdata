@@ -307,8 +307,6 @@ GLUE_BACON_TOP_4_LABEL	四强次数
 GLUE_BACON_VICTORY_BONUS_MESSAGE	解锁战棋礼遇，精炼你的策略。	
 GLUE_BASIC_DECK_WARNING_BODY	虽然基本套牌也能在标准模式下使用，但组建一副新的标准套牌会更有胜算！	
 GLUE_BASIC_DECK_WARNING_HEADER	基本套牌	
-GLUE_BASIC_SET_PROGRESS	{0}/{1}张基本卡牌	0=number of owned cards,1=total number of basic cards
-GLUE_BASIC_SET_PROGRESS_PHONE	{0}/{1}	0=number of owned cards,1=total number of basic cards
 GLUE_BLIZZCON2013_ARENA	欢迎来到竞技场！你赢得的比赛越多，你的奖励就越丰厚！	
 GLUE_BLIZZCON2013_ARENA_5_WINS	现在你已经是一个竞技场老手了！继续参加比赛吧，看看你能赢多少场！	
 GLUE_BLIZZCON2013_ARENA_GRAND_PRIZE	喔吼！新的竞技场冠军诞生了！把这个画面展示给暴雪嘉年华工作人员，你就能获得一份大奖！	
@@ -408,10 +406,6 @@ GLUE_CANNOT_FIND_BATTLENET_CLIENT	《炉石传说》无法找到暴雪战网桌�
 GLUE_CANNOT_RUN_BATTLENET_CLIENT	《炉石传说》无法启动暴雪战网桌面应用，请浏览www.blizzardgame.cn来重新安装。	
 GLUE_CARD_NERF_BODY	\n以下卡牌发生了变化：\n{0}	0=card names
 GLUE_CARD_NERF_HEADER	最新改动！	
-GLUE_CARD_REPLACEMENT_CARDS_ADDED	这些新卡牌已被添加至基本卡牌系列。	
-GLUE_CARD_REPLACEMENT_CARDS_REMOVED	这些卡牌已被移除出基本卡牌系列。	
-GLUE_CARD_REPLACEMENT_DUST_FOOTER	因为你拥有这些卡牌，所以我们为你准备了特别的礼物！	
-GLUE_CARD_REPLACEMENT_DUST_HEADER	免费奥术之尘！	
 GLUE_CARDS_ADDED	{0}张新卡牌加入了经典系列！	
 GLUE_CARDS_UPDATED	以下卡牌有所变动	
 GLUE_CHECKOUT_ERROR_GENERIC_FAILURE	哦，出错了！请稍后再试。	
@@ -454,7 +448,6 @@ GLUE_CLOUD_STORAGE_CONTEXT_BODY_02	您将被要求授予访问 Google云端硬�
 GLUE_CLOUD_STORAGE_CONTEXT_HEADER	您好！	
 GLUE_COLLECTION_ADD_TO_DECK	加入套牌	
 GLUE_COLLECTION_ALL	所有	
-GLUE_COLLECTION_ALL_CARDS	狂野卡牌	
 GLUE_COLLECTION_ALL_SETS	按来源	
 GLUE_COLLECTION_ALL_STANDARD_CARDS	标准卡牌	
 GLUE_COLLECTION_ARTIST	画家: {0}	0=artist name
@@ -468,13 +461,17 @@ GLUE_COLLECTION_CARD_UNKNOWN_ERROR	发生未知错误（错误代码：{0}）。
 GLUE_COLLECTION_CARD_VALUE_CHANGED_ERROR	出错了，请重新尝试。	
 GLUE_COLLECTION_CONVERT_DECK_BODY	切换成标准套牌会移除{0}张卡牌，你确定要继续吗？	
 GLUE_COLLECTION_CONVERT_DECK_HEADER	转换套牌	
+GLUE_COLLECTION_CRAFTING_DIAMOND	钻石卡牌	
 GLUE_COLLECTION_CRAFTING_DISENCHANT_BUTTON_TEXT	分解多余卡牌	
 GLUE_COLLECTION_CRAFTING_EXPLANATION	选择一张卡牌进行制作或者分解。\n\n制作卡牌会消耗奥术之尘，分解卡牌会获得奥术之尘。\n\n奥术之尘消耗数量取决于卡牌的稀有度。	
 GLUE_COLLECTION_CRAFTING_FILTERS	过滤器	
+GLUE_COLLECTION_CRAFTING_GOLDEN	金色卡牌	
 GLUE_COLLECTION_CRAFTING_MODE	制作模式	
 GLUE_COLLECTION_CRAFTING_MODE_SHORT	卡牌制作	
+GLUE_COLLECTION_CRAFTING_SHOW_ONLY	只显示	
 GLUE_COLLECTION_CRAFTING_SHOW_ONLY_GOLDEN	只显示金色卡牌	
 GLUE_COLLECTION_CRAFTING_SHOW_SOULBOUND_CARDS	包含无法制作的卡牌	
+GLUE_COLLECTION_CRAFTING_UNCRAFTABLE	无法制作的卡牌	
 GLUE_COLLECTION_CUSTOM_DECKNAME_SHORT	{0}{1}	0=class name, 1=incrementer
 GLUE_COLLECTION_CUSTOM_DECKNAME_TEMPLATE	自定义 {0}{1}	0=class name, 1=incrementer
 GLUE_COLLECTION_DECK	套牌	
@@ -495,6 +492,7 @@ GLUE_COLLECTION_DECK_COPY_TOOLTIP_INCOMPLETE	你只能复制完整的套牌。
 GLUE_COLLECTION_DECK_COPY_TOOLTIP_UNPLAYABLE	你的套牌包含了某些无法使用的卡牌。	
 GLUE_COLLECTION_DECK_DELETE	删除	
 GLUE_COLLECTION_DECK_FINISH_FOR_ME	确定	
+GLUE_COLLECTION_DECK_FORMAT_CLASSIC	经典模式	
 GLUE_COLLECTION_DECK_FORMAT_STANDARD	标准模式	
 GLUE_COLLECTION_DECK_FORMAT_WILD	狂野模式	
 GLUE_COLLECTION_DECK_GENERIC_INVALID_MESSAGE	你套牌中的某些卡牌不适用于此模式。	
@@ -535,6 +533,8 @@ GLUE_COLLECTION_DECK_RULE_INVALID_CARDS_NPR_NEW	你有{0}张卡牌需要完成�
 GLUE_COLLECTION_DECK_RULE_INVALID_CLASS_CARD	你的套牌中含有{0}张另一职业的卡牌。	
 GLUE_COLLECTION_DECK_RULE_MISSING_CARDS	你还缺{0}张牌组成一副完整的套牌。	
 GLUE_COLLECTION_DECK_RULE_NOT_ENOUGH_CARDS	你还需要{0}张这个职业的卡牌来完成这副套牌。请尝试制作一些卡牌，或者组建其他职业的套牌。	
+GLUE_COLLECTION_DECK_RULE_NOT_IN_CARDSET	你有{0}张来自无效系列的卡牌。	
+GLUE_COLLECTION_DECK_RULE_NOT_IN_FORMAT	你有{0}张不符合该规则的卡牌。	
 GLUE_COLLECTION_DECK_RULE_TOO_MANY_CARDS	你的套牌多了{0}张卡牌。	
 GLUE_COLLECTION_DECK_RULE_UNPLAYABLE_CARDS	你有{0}张卡牌目前无法使用。	
 GLUE_COLLECTION_DECK_SAVE_ANYWAY	取消	
@@ -569,6 +569,8 @@ GLUE_COLLECTION_HOME_PAGE	总览
 GLUE_COLLECTION_INCLUDE_PREMIUMS	包括金色牌	
 GLUE_COLLECTION_LOCK_CARD_BANNED	禁用	
 GLUE_COLLECTION_LOCK_CARD_INVALID_CLASS	另一职业的卡牌	
+GLUE_COLLECTION_LOCK_CARD_NOT_IN_CARDSET	系列错误	
+GLUE_COLLECTION_LOCK_CARD_NOT_IN_FORMAT	模式错误	
 GLUE_COLLECTION_LOCK_CARD_NOT_PLAYABLE	尚未发布	
 GLUE_COLLECTION_LOCK_MAX_DECK_COPIES	套牌限制：{0}	
 GLUE_COLLECTION_LOCK_NO_MORE_INSTANCES	已用完	
@@ -588,6 +590,7 @@ GLUE_COLLECTION_MANAGER_MANA_TAB_FIRST_CLICK	再次点击来关闭过滤器！
 GLUE_COLLECTION_MANAGER_ON_ADD_FULL_DECK_ERROR_TEXT	你的套牌已满，请先拿掉一张牌！	
 GLUE_COLLECTION_MANAGER_SEARCH_ARTIST	画家	
 GLUE_COLLECTION_MANAGER_SEARCH_ATTACK	攻击力	
+GLUE_COLLECTION_MANAGER_SEARCH_DIAMOND	钻石	
 GLUE_COLLECTION_MANAGER_SEARCH_EVEN_ATTACK	偶数	Search term to filter cards in CollectionManager to cards with even attack value. Example attack:even
 GLUE_COLLECTION_MANAGER_SEARCH_EVEN_CARDS	偶数	Search term to filter cards in CollectionManager to cards that player owns an even number of. Example: owned:even
 GLUE_COLLECTION_MANAGER_SEARCH_EVEN_HEALTH	偶数	Search term to filter cards in CollectionManager to cards with even health value. Example health:even
@@ -661,10 +664,21 @@ GLUE_COLLECTION_TUTORIAL14	你可以将狂野套牌转换成标准套牌。
 GLUE_COLLECTION_TUTORIAL15	试着将套牌转换成标准套牌。	
 GLUE_COLLECTION_TUTORIAL16	你已经准备好进行标准游戏了！	
 GLUE_COLLECTION_TUTORIAL17	狂野卡牌隐藏起来了。	
+GLUE_COLLECTION_VANILLA_CARDS	经典卡牌	
+GLUE_COLLECTION_WILD_CARDS	狂野卡牌	
 GLUE_COLLECTION_WILD_SETS	狂野系列	
 GLUE_COMING_SOON	敬请期待！	
+GLUE_CORE_SET_POPUP_BODY	• 25张免费传说卡牌\n• 可供构筑套牌的31张全新卡牌	
+GLUE_CORE_SET_POPUP_FOOTER	（基本和经典卡牌现在进入了狂野模式）	
+GLUE_CORE_SET_POPUP_HEADER	235张免费卡牌！	
+GLUE_CORE_SET_POPUP_SUBHEADER	核心系列现已登场！	
+GLUE_CORE_SET_PROGRESS	{0}/{1}张核心卡牌	0=number of owned cards,1=total number of core cards
+GLUE_CORE_SET_PROGRESS_PHONE	{0}/{1}	0=number of owned cards,1=total number of core cards
 GLUE_CRAFTING_ARCANEDUST	奥术之尘	
 GLUE_CRAFTING_ARCANEDUST_DESCRIPTION	分解卡牌能够获得奥术之尘。使用奥术之尘，你能够制作你想要的卡牌！	
+GLUE_CRAFTING_CLASSIC_CARD_DESC	这是一张经典模式卡牌，你确定吗？	
+GLUE_CRAFTING_CLASSIC_CARD_FIRST_DESC	制作这张经典卡牌的同时也会生成其在狂野模式中的副本，但均无法用于标准模式对战。你确定吗？	
+GLUE_CRAFTING_CLASSIC_CARD_HEADER	经典模式卡牌	
 GLUE_CRAFTING_CREATE	制作	
 GLUE_CRAFTING_DISENCHANT	分解	
 GLUE_CRAFTING_DISENCHANT_CONFIRM_DESC	你确定吗？以下套牌将无法运作：	
@@ -672,8 +686,12 @@ GLUE_CRAFTING_DISENCHANT_CONFIRM_HEADER	分解
 GLUE_CRAFTING_DISENCHANT_CONFIRM2_DESC	你确定要这么做吗？将该牌分解后，你将没有足够的同名卡牌加入你的套牌。	
 GLUE_CRAFTING_EVENT_NOT_ACTIVE_DESCRIPTION	现在还不能制作或者分解{0}卡牌。	
 GLUE_CRAFTING_EVENT_NOT_ACTIVE_TITLE	尚未发布	
+GLUE_CRAFTING_INVALID_CARD_TAVERN_BRAWL_DESC	这张卡牌无法应用于本次的乱斗模式，你确定吗？	
+GLUE_CRAFTING_INVALID_CARD_TAVERN_BRAWL_HEADER	无效卡牌	
+GLUE_CRAFTING_NONSTANDARD_CARD_WARNING_CANCEL	噢不！	
+GLUE_CRAFTING_NONSTANDARD_CARD_WARNING_CONFIRM	我确定	
 GLUE_CRAFTING_SOULBOUND	无法制作	
-GLUE_CRAFTING_SOULBOUND_BASIC_DESC	基本卡牌无法被分解或者制作。	
+GLUE_CRAFTING_SOULBOUND_CORE_DESC	核心系列卡牌无法被分解或者制作。	
 GLUE_CRAFTING_SOULBOUND_DESC	这张卡牌无法被分解或者制作。	
 GLUE_CRAFTING_SOULBOUND_FEATURED_DESC	仅在特殊活动期间可用！	
 GLUE_CRAFTING_SOULBOUND_OFFLINE_DESC	你不能在离线时分解或制作卡牌。	
@@ -681,13 +699,10 @@ GLUE_CRAFTING_SOULBOUND_REWARD_DESC	任务奖励无法被分解或者制作。
 GLUE_CRAFTING_TITLE	卡牌制作	
 GLUE_CRAFTING_UNDO	撤销	
 GLUE_CRAFTING_WILD_CARD_DESC	这是一张狂野卡牌，你确定吗？	
-GLUE_CRAFTING_WILD_CARD_FIRST_WILD_DESC	这张卡牌无法在标准模式中使用。你确定吗？	
+GLUE_CRAFTING_WILD_CARD_FIRST_DESC	这张卡牌无法在标准模式中使用。你确定吗？	
 GLUE_CRAFTING_WILD_CARD_HEADER	狂野卡牌	
 GLUE_CRAFTING_WILD_CARD_INTRO_DESC	在狂野模式中，你可以使用之前发布的任意卡牌！	
-GLUE_CRAFTING_WILD_CARD_TAVERN_BRAWL_DESC	这张卡牌无法应用于本次的乱斗模式，你确定吗？	
-GLUE_CRAFTING_WILD_CARD_TAVERN_BRAWL_HEADER	无效卡牌	
-GLUE_CRAFTING_WILD_CARD_WARNING_CANCEL	噢不！	
-GLUE_CRAFTING_WILD_CARD_WARNING_CONFIRM	我确定	
+GLUE_CREATE_CLASSIC_DECK	组建经典套牌	
 GLUE_CREATE_DECK	新建套牌	
 GLUE_CREATE_STANDARD_DECK	组建标准套牌	
 GLUE_CREATE_WILD_DECK	组建狂野套牌	
@@ -730,8 +745,9 @@ GLUE_DEMON_HUNTER_LOCKED_HEADER	英雄已锁定
 GLUE_DEMON_HUNTER_LOCKED_PROLOGUE	在冒险模式中进行“外域的灰烬——恶魔猎手序章”以解锁此英雄。	
 GLUE_DEVICE_PERFORMANCE_WARNING	此设备不符合《炉石传说》运行所需要的最低配置要求。游戏运行时可能会遇到显示问题和性能问题。\n\n点击“用户支持”查找更多信息。	
 GLUE_DEVICE_PERFORMANCE_WARNING_TITLE	设备性能	
-GLUE_DISABLED_WILD_DECK_DESC	无法在标准模式中使用。请选择狂野模式，或依照标准模式重新组建套牌。	
-GLUE_DISABLED_WILD_DECK_HEADER	狂野套牌	
+GLUE_DISABLED_DECK_DESC	无法用于{0}模式。	0=current format
+GLUE_DISABLED_DECK_HEADER	{0}套牌	0=deck format
+GLUE_DISABLED_DECK_IN_CURRENT_MODE_DESC	无法用于此模式。	
 GLUE_DONT_SHOW_ME_THIS_AGAIN	不再显示	
 GLUE_DRAFT_HERO_INSTRUCTIONS	选择你的英雄	
 GLUE_DRAFT_HERO_POWER_INSTRUCTIONS_DETAIL	你会获得这个职业的英雄技能，并用两个职业的职业牌组建套牌。	
@@ -886,7 +902,7 @@ GLUE_FSG_STARTING_MINUTES	{0}分钟后开始
 GLUE_FSG_STARTING_OVER_1_MONTH	1个月后开始	
 GLUE_FSG_STARTING_SECONDS	{0}秒后开始	
 GLUE_FSG_STARTING_WEEKS	{0} 周后开始	
-GLUE_FUN_CONFIRM_MESSAGE	太棒了！	
+GLUE_FUN_CONFIRM_MESSAGE	真棒！	
 GLUE_GAME_MODE_NEW_MODE_UNLOCKED_POPUP_HEADER	新模式已解锁：	
 GLUE_GAME_MODES	其他模式	
 GLUE_GAME_MODES_POPUP_BACON_DESC	与7名对手一争高下。	
@@ -924,12 +940,6 @@ GLUE_GIL_LOADING_BAR_TASK_9	正在从背后偷偷靠近
 GLUE_GOLD_CAP_BODY	你的金币必须少于{0}才能获得更多的\n金币。	
 GLUE_GOLD_CAP_HEADER	已达到{0}金币上限！	
 GLUE_GOONS_CLASS_NAMES	猎人、圣骑士、战士	
-GLUE_HALL_Of_FAME_BODY	部分卡牌现已转入狂野模式，无法在标准模式中使用了。	
-GLUE_HALL_OF_FAME_CARD_LIST	这些卡牌已被移至狂野模式。	
-GLUE_HALL_OF_FAME_CARD_REPLACEMENT_BODY	一些基本卡牌已被移入了狂野模式，并被新的基本卡牌所替换。	
-GLUE_HALL_OF_FAME_CARD_REPLACEMENT_LIST	这些基本卡牌已被替换，现已移入狂野模式。	
-GLUE_HALL_OF_FAME_DUST_COMPENSATION	因为你拥有这些卡牌，所以我们为你准备了特别的礼物！	
-GLUE_HALL_Of_FAME_SIGN	荣誉室	
 GLUE_HERO_HEROSELECT_NEW	新！	
 GLUE_HERO_LOCKED_DESC	击败并解锁这个英雄！	
 GLUE_HERO_LOCKED_NAME	未解锁	
@@ -1197,7 +1207,6 @@ GLUE_NEARBY_PLAYERS_ENABLE	启用后可看见附近的玩家，同时让他们\n
 GLUE_NEGATIVE_CURRENCY	<color=#ff3232ff>{0}</color>	
 GLUE_NEW_HERO	新的英雄！	
 GLUE_NEW_PLAYER_AVAILABLE_AT_LEAGUE_PROMO	学徒阶段后可用。	
-GLUE_NEW_PLAYER_AVAILABLE_AT_RANK_25	25级时解锁。	
 GLUE_NEW_PLAYER_PROMOTION_CHEST_DESC	恭喜！你现在正式晋升为老手了，后面会有旗鼓相当的对手等着你！	
 GLUE_NEW_PLAYER_SET_ROTATION_POPUP_BODY	新的卡牌来了！但有些旧的卡牌需要你达到25级才能使用。	
 GLUE_NEW_PLAYER_SET_ROTATION_POPUP_BODY_NEW	新的卡牌来了！但有些旧的卡牌需要你完成学徒阶段才能使用。	
@@ -1224,6 +1233,8 @@ GLUE_PATCHING_LABEL	正在下载{0}/{1}个文件
 GLUE_PICK_A_CARD	挑选一张卡牌	
 GLUE_PICK_A_REGION	选择一个地区	
 GLUE_PICK_A_REPLACEMENT	选择替代卡牌	
+GLUE_PLAY_CASUAL	休闲模式	
+GLUE_PLAY_CLASSIC	经典模式	
 GLUE_PLAY_STANDARD	标准对战	
 GLUE_PLAY_WILD	狂野对战	
 GLUE_PLAYERS_NEARBY	附近的玩家	
@@ -1231,6 +1242,9 @@ GLUE_PRACTICE	练习模式
 GLUE_PRACTICE_HINT	练习模式\n在这里	
 GLUE_PRIVACY_POLICY_BUTTON	隐私协议	
 GLUE_PRIVACY_POLICY_EULA_CONFIRM	同意并进入	
+GLUE_PRIVACY_POLICY_EULA_CONFIRMATION_ACCEPT	同意并进入	
+GLUE_PRIVACY_POLICY_EULA_CONFIRMATION_REJECT	再想想	
+GLUE_PRIVACY_POLICY_EULA_CONFIRMATION_TEXT	抱歉，您在同意《隐私协议》及《最终用户许可协议》后，方可继续开启本游戏。	
 GLUE_PRIVACY_POLICY_EULA_REJECT	不同意	
 GLUE_PRIVACY_POLICY_EULA_TEXT	欢迎来到《炉石传说》\n\n为了给您提供更优质的《炉石传说》游戏服务，《炉石传说》将会使用您的部分信息，请在使用前仔细阅读并同意《炉石传说》相关《隐私协议》及《最终用户许可协议》。若选择不同意，您将无法开启我们的游戏。\n\n请您特别关注以下条款：\n\n争端解决和适用法律。\nA. 争端对各方而言都是昂贵而耗时的。为缩短解决时间并降低解决成本，对于任何针对本协议的争端、争议或索赔（统称 “争端” ），您和运营方同意尽量通过协商方式解决。\nB. 有约束力的仲裁。如果各方无法通过协商解决争端（但下文明确列出的例外争端除外），您和运营方同意通过仲裁处理。各方同意提交中国国际经济贸易仲裁委员会（简称 “CIETAC” ）由三名仲裁员根据CIETAC有效的仲裁规则以及适用法律在中国北京进行仲裁。仲裁裁决是终局的，对各方均有约束力。您的仲裁费用及您应分担的仲裁赔偿应由您个人自行承担。\nC. 限制。您和运营方同意任何仲裁仅限应用于运营方同您个人之间的争端。您认可并同意（a）任何仲裁均不牵涉其他人；（b）没有任何权利或授权进行共同仲裁或使用共同仲裁的程序；并且（c）没有任何权利或授权允许代表公众或者其他人的假设的代理人提起争端。 \nD. 协商与仲裁的例外。您和运营方同意下列争端将不受上述协商及约束仲裁条款约束：（a）任何试图执行或者保护运营方或暴雪知识产权或与知识产权的有效性相关的争端；（b）任何有关偷窃、盗版或未经运营方或暴雪授权使用的争端，或由这些情况引起的争端；及（c）要求解除法院颁发的禁止令。您和运营方同意将此类争端交由运营方所在地有管辖权的人民法院裁决。\nE. 适用法律。除非明确另作说明，本协议应适用中华人民共和国法律，且不适用法律选择原则。《联合国国际货物销售合同公约》被明确排除适用于本协议。	
 GLUE_PRIVACY_POLICY_EULA_TITLE	请阅读以下内容	
@@ -1266,7 +1280,11 @@ GLUE_PROGRESSION_REWARD_TRACK_POPUP_BONUS_DESCRIPTION	从{1}到{2}级之间，�
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_BONUS_LEVEL	超过{0}级	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_BONUS_TITLE	额外奖励	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_COMPLETE_LEVEL	等级 {0}	
+GLUE_PROGRESSION_REWARD_TRACK_POPUP_FORGOT_REWARDS_BODY	上一扩展包奖励路线中的{0}项奖励已加入你的收藏。	
+GLUE_PROGRESSION_REWARD_TRACK_POPUP_FORGOT_REWARDS_TITLE	还有未领取的奖励！	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_INCOMPLETE_LEVEL	需要达到 {0} 级	
+GLUE_PROGRESSION_REWARD_TRACK_POPUP_NEW_TRACK_BODY	奖励路线现已更新，来赢取新的奖励吧！	
+GLUE_PROGRESSION_REWARD_TRACK_POPUP_NEW_TRACK_TITLE	新的奖励路线：贫瘠之地	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_PREMIUM_LOCKED	获取炉石通行证，解锁精彩奖励！	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_SKIN_CHOICE_CLAIMED	已领取	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_SKIN_CHOICE_CONFIRMATION_HEADER	确认你的选择	
@@ -1422,6 +1440,7 @@ GLUE_RANKED_REWARD_QUEST_LOG_LABEL_CLASSICPACKS	经典卡牌包
 GLUE_RANKED_REWARD_QUEST_LOG_LABEL_RANK_REQUIRED	达到{0}	// {0} is Rank Name, "you must reach {Bronze 5} to earn this reward"
 GLUE_RANKED_REWARD_QUEST_LOG_LABEL_RANK_REWARD	等级{0}奖励	// {0} is Rank number 
 GLUE_RANKED_SEASON_ROLL_FLOW_TITLE	新的等级系统来了！	
+GLUE_RANKED_SYSTEM_TITLE	排名系统	
 GLUE_RANKED_TIER_NAME_BRONZE	青铜	
 GLUE_RANKED_TIER_NAME_DIAMOND	钻石	
 GLUE_RANKED_TIER_NAME_GOLD	黄金	
@@ -1478,7 +1497,7 @@ GLUE_RETURNINGPLAYERPOPUP_MESSAGE	要跳过旅店老板的挑战吗？如果现�
 GLUE_RETURNINGPLAYERPOPUP_TITLE	确定退出？	
 GLUE_ROTATED_SETS_DIALOG	以下卡牌系列现已规入狂野模式！	
 GLUE_SET_ROTATION_CURRENT_YEAR	巨龙年	
-GLUE_SET_ROTATION_NEXT_YEAR	凤凰年	
+GLUE_SET_ROTATION_NEXT_YEAR	狮鹫年	
 GLUE_SHOP_BOOSTER_SKU_BUTTON	{0}包	
 GLUE_SHOP_CLOSED_ALERT_HEADER	牌店关闭	
 GLUE_SHOP_CLOSED_ALERT_TEXT	牌店暂时关闭，请稍后再来查看。	
@@ -1899,7 +1918,7 @@ GLUE_TEXTURE_COMPRESSION_WARNING	此版本的纹理格式与该平台不匹配�
 GLUE_TEXTURE_COMPRESSION_WARNING_TITLE	纹理压缩警告	--TEMP-- This should be in Chinese
 GLUE_THE_CLOCK_BANNER_NEW_WAY	全新玩法	
 GLUE_THE_CLOCK_BANNER_STANDARD	“标准”	
-GLUE_THE_CLOCK_BANNER_YEAR	凤凰年	
+GLUE_THE_CLOCK_BANNER_YEAR	狮鹫年	
 GLUE_THE_CLOCK_DETAILS	可以在标准模式中使用的卡牌每年都会变动。	
 GLUE_THE_CLOCK_DETAILS_STANDARD	在标准模式中只能使用最新的卡牌。	
 GLUE_TIP_ADVENTURE_0	你必须构筑特别的套牌击败这些难缠的首领们。	
@@ -1917,6 +1936,17 @@ GLUE_TIP_ADVENTURE_BOH_6	每当英雄发生转变，英雄技能也会随之变�
 GLUE_TIP_ADVENTURE_BOH_7	准备应对各种局面！英雄的一生中总会有许多转折。	
 GLUE_TIP_ADVENTURE_BOH_8	在战斗打响之前，记得浏览套牌，制订针对敌人的战术。	
 GLUE_TIP_ADVENTURE_BOH_9	英雄们必须经历重重磨难，才能在史书中留下浓墨重彩。	
+GLUE_TIP_ADVENTURE_BOM_1	做好准备，和炉石传说中的新英雄共赴旅途！	
+GLUE_TIP_ADVENTURE_BOM_10	对于联盟的英雄而言，贫瘠之地非常危险。但对于部落英雄来说，这里只是一般危险。	
+GLUE_TIP_ADVENTURE_BOM_11	部落的英雄，一生中总会遇到十字路口。	
+GLUE_TIP_ADVENTURE_BOM_2	在英雄的旅途中，套牌和英雄技能都是预设的！	
+GLUE_TIP_ADVENTURE_BOM_3	在某些战斗中，你可以挑选身边的战友。	
+GLUE_TIP_ADVENTURE_BOM_4	每一章佣兵之书都会续写一段故事。	
+GLUE_TIP_ADVENTURE_BOM_5	准备应对各种局面！佣兵的一生中总会有许多故事。	
+GLUE_TIP_ADVENTURE_BOM_6	在战斗打响之前，记得浏览套牌，制订针对敌人的战术。	
+GLUE_TIP_ADVENTURE_BOM_7	有人曾在贫瘠之地见到了加基森暗金教的头目：卡扎库斯。	
+GLUE_TIP_ADVENTURE_BOM_8	在那个星陨之夜，闪耀着光芒的碎片坠落在艾泽拉斯的大地上。	
+GLUE_TIP_ADVENTURE_BOM_9	洛卡拉和大酋长萨尔一样，都是霜狼氏族的一员，来自奥特兰克山谷。	
 GLUE_TIP_ADVENTURE_BOT_0	谜题重置起来很方便。不用害怕，尽管放手去尝试吧！	
 GLUE_TIP_ADVENTURE_BOT_1	并不是每一个谜题都要用到所有卡牌。	
 GLUE_TIP_ADVENTURE_BOT_2	别放弃，尝试用不同寻常的卡牌组合来结题。	
@@ -2064,11 +2094,11 @@ GLUE_TIP_BACON_12	对手购买的相同随从越多，你在酒馆遇到的该�
 GLUE_TIP_BACON_13	如果某个随从被卖回了随从池，你在酒馆中再次遇到它的次数就会增加。	
 GLUE_TIP_BACON_14	如果你把全部铸币投入在升级酒馆上，你的战队强度就会落后，可能导致最终战败。	
 GLUE_TIP_BACON_15	如果你从不升级酒馆等级，你的战队强度就会落后，可能导致最终战败。	
-GLUE_TIP_BACON_16	鱼人前期攻势凶悍，机械则以后期见长。	
+GLUE_TIP_BACON_16	有些随从类型前期攻势凶悍，而有些则以后期见长。	
 GLUE_TIP_BACON_17	如果你还剩下1枚铸币，可以试试刷新酒馆——\n发现喜欢的随从就可以将其冻结，下回合再购买。	
 GLUE_TIP_BACON_18	8名玩家中的前4名为胜者！\n第一名还可以赢得王冠！	
 GLUE_TIP_BACON_19	所有玩家都会从同一个公共的随从池招揽随从。	
-GLUE_TIP_BACON_2	百变泽鲁斯可以变形成为任意等级的随从！	
+GLUE_TIP_BACON_2	每局对战都会包含不同系列的随从类型。有些局中会有鱼人，有些局中就没有。	
 GLUE_TIP_BACON_20	当你淘汰了一名对手时，该对手的随从会回到随从池。	
 GLUE_TIP_BACON_3	当你获胜时，你对敌方英雄造成的伤害取决于酒馆和随从的等级。	
 GLUE_TIP_BACON_4	升级酒馆所需的费用每回合会减少1枚。	
@@ -2081,14 +2111,14 @@ GLUE_TIP_DEFAULT_0	你可以从牌店中购买额外的卡牌包。
 GLUE_TIP_DEFAULT_1	在编辑套牌的界面中点击英雄头像即可改变套牌的名称。	
 GLUE_TIP_DEFAULT_1_TOUCH	在编辑套牌的界面中点击英雄头像即可改变套牌的名称。	
 GLUE_TIP_DEFAULT_10	在竞技模式中，你将使用随机卡牌来打造套牌。你还有机会赢得丰厚奖励！	
-GLUE_TIP_DEFAULT_11	随着等级提升，你能够获得基本卡牌。它们无法被分解或是制作。	
+GLUE_TIP_DEFAULT_11	随着等级提升，你能够获得核心卡牌。它们无法被分解或是制作。	
 GLUE_TIP_DEFAULT_12	金色卡牌能够分解出大量奥术之尘。	
 GLUE_TIP_DEFAULT_13	你可以使用收藏界面中的搜索功能来查找到所有带有“嘲讽”的随从牌。	
-GLUE_TIP_DEFAULT_14	基本卡牌能够在某个职业升级时获得。经典卡牌来自于经典卡牌包。	
-GLUE_TIP_DEFAULT_15	与真实玩家进行对战使你可以获取额外的经验值。	
+GLUE_TIP_DEFAULT_14	核心卡牌能够在某个职业升级时获得。所有职业均达到10级即可解锁全部核心卡牌！	
+GLUE_TIP_DEFAULT_15	与真实玩家进行对战使你可以获取额外的奖励经验值。	
 GLUE_TIP_DEFAULT_16	你可以右键点击对手的英雄来“无视”对方的表情。	
 GLUE_TIP_DEFAULT_16_TOUCH	您可以点击对手的英雄来“无视”对方的表情。	
-GLUE_TIP_DEFAULT_17	如果你在排名或竞技模式中用同一个职业赢得500场对战，你将获得该职业的金色英雄。	
+GLUE_TIP_DEFAULT_17	如果你在排名模式，竞技模式或对决模式中用同一个职业赢得500场对战，你将获得该职业的金色英雄。	
 GLUE_TIP_DEFAULT_18	你可以通过左下方的按钮在好友列表中添加好友。	
 GLUE_TIP_DEFAULT_18_PHONE	你可以使用左上方的按钮添加好友。	
 GLUE_TIP_DEFAULT_19	排名对战模式中最高的等级就是“传说”等级！	
@@ -2096,28 +2126,31 @@ GLUE_TIP_DEFAULT_2	右键点击你的英雄，和对手打个招呼吧。
 GLUE_TIP_DEFAULT_2_TOUCH	点击英雄头像可以发送表情。	
 GLUE_TIP_DEFAULT_20	在好友进行对战时，你只需要点击“眼睛”按钮就能够观看他们的游戏了！	
 GLUE_TIP_DEFAULT_21	在手机、平板电脑和电脑上玩《炉石传说》，你的卡牌收藏将在这三种设备上共享。	
-GLUE_TIP_DEFAULT_22	如果你喜欢某个职业，可以去牌店购买该职业的新英雄。	
-GLUE_TIP_DEFAULT_23	标准模式只能使用基本、经典以及近两年内发布的卡牌。	
+GLUE_TIP_DEFAULT_22	有时商店里会上架特殊商品，比如英雄和卡背图案！	
+GLUE_TIP_DEFAULT_23	标准模式只能使用核心卡牌以及近两年内发布的卡牌。	
 GLUE_TIP_DEFAULT_24	在编辑套牌的界面中点击英雄头像，即可在标准和狂野模式之间进行切换。	
 GLUE_TIP_DEFAULT_24_TOUCH	在编辑套牌的界面中点击英雄头像，即可在标准和狂野模式之间进行切换。	
-GLUE_TIP_DEFAULT_25	今年是凤凰年！（每年都会有一个新主题）	
+GLUE_TIP_DEFAULT_25	今年是狮鹫年！（每年都会有一个新主题）	
 GLUE_TIP_DEFAULT_26	查看“我的收藏”时，点击左下方的过滤按钮可以选择你想要显示的卡牌系列。	
 GLUE_TIP_DEFAULT_26_TOUCH	查看“我的收藏”时，点击左下方的过滤按钮可以选择你想要显示的卡牌系列。	
 GLUE_TIP_DEFAULT_27	每当推出全新卡牌系列时，这些卡牌都可以在标准和狂野模式下使用。	
 GLUE_TIP_DEFAULT_28	狂野模式恰如其名，该模式可使用所有卡牌！	
 GLUE_TIP_DEFAULT_29	在标准模式下，新的游戏策略会层出不穷。	
-GLUE_TIP_DEFAULT_3	如果在构筑套牌的过程中需要帮助，请使用卡牌收藏界面中的“套牌助手”！	
-GLUE_TIP_DEFAULT_30	我们会不断推出新的套牌模板。	
+GLUE_TIP_DEFAULT_3	如果在构筑套牌的过程中需要帮助，请点击卡牌收藏界面中的“完成我的套牌”按钮！	
+GLUE_TIP_DEFAULT_30	每次新扩展包上线，我们都会推出新的套牌模板。	
 GLUE_TIP_DEFAULT_31	标准模式只能使用最新的卡牌，所以你不需要熟悉所有的旧卡牌。	
 GLUE_TIP_DEFAULT_32	和好友对战的同时还可以完成任务。	
 GLUE_TIP_DEFAULT_33	通过挑战你的好友来完成任务！	
+GLUE_TIP_DEFAULT_34	在酒馆战棋中，你可以和其他七名玩家在酒馆里一决高下。	
+GLUE_TIP_DEFAULT_35	在对决模式中，你需要构筑你的套牌。在每场对战后，你都能在套牌中加入更多卡牌！	
+GLUE_TIP_DEFAULT_36	解锁炉石通行证，你就能获得更多奖励经验值。	
+GLUE_TIP_DEFAULT_37	如果你在排名模式，竞技模式或对决模式中用同一个职业赢得1000场对战，你将获得该职业的英雄头像。	
 GLUE_TIP_DEFAULT_4	在卡牌中央的宝石颜色显示出某张卡牌的稀有度。	
 GLUE_TIP_DEFAULT_5	稀有度所对应的颜色，由低到高依次为：白色为普通，蓝色为稀有，紫色为史诗，橙色为传说。	
 GLUE_TIP_DEFAULT_6	每包卡牌包至少含有1张稀有或更高品质的卡牌，也可能会有更多惊喜！	
 GLUE_TIP_DEFAULT_7	如果你当天的任务都完成了，就明天再来看看有什么新的任务吧！	
 GLUE_TIP_DEFAULT_8	如果你在一个赛季中赢得5场排名对战，你就能够获得该赛季的特别卡牌背面图案。	
-GLUE_TIP_DEFAULT_8_RANKED_2.0	如果你在一个赛季中获得20级或以上的排名，你就能够获得该赛季的特别卡牌背面图案。	
-GLUE_TIP_DEFAULT_9	完成任务来获得金币。金币能够用来购买卡牌包或是进入竞技模式。	
+GLUE_TIP_DEFAULT_9	完成任务来获得奖励经验值，进而推进你在奖励路线上的进度。	
 GLUE_TIP_DUELS_0	低费随从可尽早占据场面掌握主动。	
 GLUE_TIP_DUELS_1	高费随从可在游戏中后期力挽狂澜。	
 GLUE_TIP_DUELS_10	你的对手无法控制被动宝藏。	
@@ -2147,22 +2180,21 @@ GLUE_TIP_FORGE_2	你不必一次打完所有竞技模式的比赛。
 GLUE_TIP_HEROICBRAWL_0	对于本次乱斗而言，匹配到一个旗鼓相当的对手是很重要的。\n等待时间可能会比平时稍微长一些。	
 GLUE_TIP_PLAY_0	正在为你搜索实力相当的对手。	
 GLUE_TIP_PLAY_1	根据你的胜率，你会找到一个和你实力相当的对手。	
-GLUE_TIP_PLAY_2	每个职业都有5种不同的基本卡牌，你能够在升级的时候解锁这些卡牌。	
-GLUE_TIP_PLAY_3	完成任务来赢取金币。金币可以用来购买卡牌包或是进入竞技模式。	
+GLUE_TIP_PLAY_2	每个职业都有16张不同的核心卡牌，你能够在升级时解锁这些基本卡牌。	
+GLUE_TIP_PLAY_3	完成任务来获得奖励经验值，进而推进你在奖励路线上的进度。	
 GLUE_TIP_PLAY_4	排名对战模式中最高的等级就是“传说”等级！	
 GLUE_TIP_PLAY_5	在一副套牌中，最多只能含有两张同名卡牌，但是传说级卡牌只能有一张。	
 GLUE_TIP_PLAY_6	在竞技模式中，你可以磨练组牌技巧，然后小试身手，赢取丰厚奖励！	
 GLUE_TIP_PLAY_7	你不必一次打完所有竞技模式的比赛。	
 GLUE_TIP_PLAY_8	如果你在一个赛季中赢得5场排名对战，你就能够获得该赛季的特别卡牌背面图案。	
-GLUE_TIP_PLAY_8_RANKED_2.0	如果你在一个赛季中获得20级或以上的排名，你就能够获得该赛季的特别卡牌背面图案。	
 GLUE_TIP_PRACTICE_0	当你在练习模式下击败其他职业，就能解锁他们的英雄。	
 GLUE_TIP_PRACTICE_1	练习模式只是对战模式的赛前准备！	
 GLUE_TIP_PRACTICE_2	在对战模式中，你会遇到和你实力相近的对手！	
 GLUE_TIP_PRACTICE_3	浏览你的卡牌收藏，组建你自己的套牌。	
-GLUE_TIP_PRACTICE_4	每个职业都有5张不同的基本卡牌，你能够在升级时解锁这些基本卡牌。	
-GLUE_TIP_PRACTICE_5	在对战模式中完成任务，赢得金币！	
+GLUE_TIP_PRACTICE_4	每个职业都有16张不同的核心卡牌，你能够在升级时解锁这些基本卡牌。	
+GLUE_TIP_PRACTICE_5	在对战模式中完成任务，赢得奖励经验值！	
 GLUE_TIP_PRACTICE_6	直取对手英雄？还是消除敌方随从的威胁？正确的决断将左右胜利的天平。	
-GLUE_TIP_PRACTICE_7	在10级以后，与真实玩家对战能够使你获得更多的经验值。	
+GLUE_TIP_PRACTICE_7	在10级以后，与真实玩家对战能够使你获得更多的职业经验值。	
 GLUE_TIP_TAVERNBRAWL_0	每周乱斗模式都会开放一个全新的疯狂玩法！	
 GLUE_TIP_TAVERNBRAWL_1	现在我们只需要一个小时来整理玩家在乱斗后留下的烂摊子。要是现在进不来，就回头再来吧！	
 GLUE_TIP_TAVERNBRAWL_2		This tip was removed. Translators: please leave this blank. Blank tips are skipped over. For devs: when adding new tips later, feel free to use this slot (and update this comment).
@@ -2200,7 +2232,6 @@ GLUE_TOOLTIP_BUTTON_TAVERN_BRAWL_HEADLINE	乱斗模式
 GLUE_TOOLTIP_BUTTON_TAVERN_BRAWL_NOT_UNLOCKED	在某个职业达到20级后解锁	
 GLUE_TOOLTIP_BUTTON_TOURNAMENT_DESC	寻找实力相当的对手展开对战。	
 GLUE_TOOLTIP_BUTTON_TOURNAMENT_HEADLINE	对战模式	
-GLUE_TOOLTIP_CASUAL_BUTTON	搜索与你实力相当的对手，享受对战乐趣！	
 GLUE_TOOLTIP_DOWNLOAD_DESCRIPTION	在你进行游戏的同时，《炉石传说》也正在下载中！	
 GLUE_TOOLTIP_DOWNLOAD_HEADER	正在下载	
 GLUE_TOOLTIP_GOLD_DESCRIPTION	消费金币购买卡牌包或是进入竞技模式。	
@@ -2214,11 +2245,19 @@ GLUE_TOOLTIP_VIRTUAL_CURRENCY_HEADER	符文石
 GLUE_TOURNAMENT	对战模式	
 GLUE_TOURNAMENT_CASUAL	休闲模式	
 GLUE_TOURNAMENT_CASUAL_WILD	狂野休闲模式	
+GLUE_TOURNAMENT_CLASSIC_DESC	只能使用最初的240张卡牌。	
+GLUE_TOURNAMENT_DESCRIPTION_CASUAL	所有卡牌均可使用，与其他休闲玩家对战。	
+GLUE_TOURNAMENT_DESCRIPTION_CLASSIC	只能使用经典模式卡牌。	
+GLUE_TOURNAMENT_DESCRIPTION_STANDARD	只能使用核心系列和近两年内发布的卡牌。	
+GLUE_TOURNAMENT_DESCRIPTION_WILD	除经典模式卡牌外，所有卡牌均可使用。	
+GLUE_TOURNAMENT_MISSING_DECKS_CLASSIC	你没有经典套牌，快去组建一副吧！	
 GLUE_TOURNAMENT_RANKED	排名模式	
+GLUE_TOURNAMENT_RANKED_CLASSIC	经典排名模式	
 GLUE_TOURNAMENT_RANKED_WILD	狂野排名模式	
-GLUE_TOURNAMENT_STANDARD_DESC	只能使用基本、经典以及近两年内发布的卡牌。	
+GLUE_TOURNAMENT_STANDARD_DESC	只能使用核心系列和去年发布的卡牌。	
 GLUE_TOURNAMENT_STAR_MULT_BODY	每场胜利之后，你都能获得{0}个星星。额外的星数会随着你的等级提升而减少。	
 GLUE_TOURNAMENT_STAR_MULT_HEAD	x{0}额外的星数	
+GLUE_TOURNAMENT_SWITCH_MODE	你可以在这里切换模式	
 GLUE_TOURNAMENT_SWITCH_TO_STANDARD	试着切换到标准模式吧	
 GLUE_TOURNAMENT_SWITCH_TO_WILD	你可以在这里切换成狂野模式	
 GLUE_TOURNAMENT_UNRANKED_DESC	你在休闲模式中也会有一个独立的、显示你技巧的等级，但是你无法获得奖章。	

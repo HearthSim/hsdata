@@ -307,8 +307,6 @@ GLUE_BACON_TOP_4_LABEL	Top 4
 GLUE_BACON_VICTORY_BONUS_MESSAGE	Verfeinert Eure Strategie, indem Ihr Boni freischaltet.	
 GLUE_BASIC_DECK_WARNING_BODY	Basisdecks sind im Standardformat zwar erlaubt, aber vielleicht habt Ihr mehr Erfolg, wenn Ihr ein neues Deck zusammenstellt!	
 GLUE_BASIC_DECK_WARNING_HEADER	Basisdeck	
-GLUE_BASIC_SET_PROGRESS	{0}/{1} Basiskarten	0=number of owned cards,1=total number of basic cards
-GLUE_BASIC_SET_PROGRESS_PHONE	{0}/{1}	0=number of owned cards,1=total number of basic cards
 GLUE_BLIZZCON2013_ARENA	Willkommen in der Arena! Wenn Ihr genügend Spiele gewinnt, erhaltet Ihr eine Belohnung!	
 GLUE_BLIZZCON2013_ARENA_5_WINS	Ihr seid jetzt ein Veteran der Arena! Macht nur weiter so und überlebt so lange wie möglich!	
 GLUE_BLIZZCON2013_ARENA_GRAND_PRIZE	HURRA! Wir haben einen neuen Arena-Champion! Zeigt einem BlizzCon-Helfer diesen Bildschirm, um Euren GROSSEN PREIS zu erhalten!	
@@ -408,10 +406,6 @@ GLUE_CANNOT_FIND_BATTLENET_CLIENT	Hearthstone benötigt die Blizzard Desktop App
 GLUE_CANNOT_RUN_BATTLENET_CLIENT	Hearthstone benötigt die Blizzard Desktop App, kann sie aber nicht ausführen. Bitte besuchen Sie www.battle.net, um sie erneut zu installieren.	
 GLUE_CARD_NERF_BODY	\n|4(Die folgende Karte wurde,Die folgenden Karten wurden) verändert:\n{0}	0=card names
 GLUE_CARD_NERF_HEADER	Änderungen!	
-GLUE_CARD_REPLACEMENT_CARDS_ADDED	Diese neuen Karten wurden zum Basisset hinzugefügt:	
-GLUE_CARD_REPLACEMENT_CARDS_REMOVED	Diese Karten wurden aus dem Basisset entfernt:	
-GLUE_CARD_REPLACEMENT_DUST_FOOTER	Einige dieser Karten besitzt Ihr,\ndeswegen möchten wir Euch ein\nbesonderes Geschenk überreichen!	
-GLUE_CARD_REPLACEMENT_DUST_HEADER	Gratisstaub!	
 GLUE_CARDS_ADDED	{0} neue Karten wurden zum Klassikset hinzugefügt!	
 GLUE_CARDS_UPDATED	Diese Karten haben sich verändert:	
 GLUE_CHECKOUT_ERROR_GENERIC_FAILURE	Huch! Etwas ist schief gelaufen. Bitte versuchen Sie es später erneut.	
@@ -454,7 +448,6 @@ GLUE_CLOUD_STORAGE_CONTEXT_BODY_02	Sie werden gleich gefragt, ob Sie den Zugriff
 GLUE_CLOUD_STORAGE_CONTEXT_HEADER	Grüße!	
 GLUE_COLLECTION_ADD_TO_DECK	Zum Deck hinzufügen	
 GLUE_COLLECTION_ALL	ALLE	
-GLUE_COLLECTION_ALL_CARDS	Alle Karten	
 GLUE_COLLECTION_ALL_SETS	Alle Sets	
 GLUE_COLLECTION_ALL_STANDARD_CARDS	Standardkarten	
 GLUE_COLLECTION_ARTIST	Künstler: {0}	0=artist name
@@ -468,13 +461,17 @@ GLUE_COLLECTION_CARD_UNKNOWN_ERROR	Ein unerwarteter Fehler ist aufgetreten. (ID:
 GLUE_COLLECTION_CARD_VALUE_CHANGED_ERROR	Etwas ist schiefgelaufen. Bitte versucht es erneut.	
 GLUE_COLLECTION_CONVERT_DECK_BODY	{0} |4(Karte wird,Karten werden) aus diesem Deck entfernt, wenn Ihr es auf Standard umstellt. Wollt Ihr fortfahren?	
 GLUE_COLLECTION_CONVERT_DECK_HEADER	Decktyp umstellen	
+GLUE_COLLECTION_CRAFTING_DIAMOND	Diamantkarten	
 GLUE_COLLECTION_CRAFTING_DISENCHANT_BUTTON_TEXT	Überzählige Karten entzaubern	
 GLUE_COLLECTION_CRAFTING_EXPLANATION	Wählt eine Karte aus,\num mit der Herstellung\nzu beginnen.\n\nNutzt Arkanstaub, um Karten herzustellen. Entzaubert Karten, um Arkanstaub zu erhalten.\n\nDie Kosten sind abhängig von der Seltenheitsstufe der Karte.	
 GLUE_COLLECTION_CRAFTING_FILTERS	Filter	
+GLUE_COLLECTION_CRAFTING_GOLDEN	Goldene Karten	
 GLUE_COLLECTION_CRAFTING_MODE	Herstellmodus	
 GLUE_COLLECTION_CRAFTING_MODE_SHORT	Herstellen	
+GLUE_COLLECTION_CRAFTING_SHOW_ONLY	Nur anzeigen:	
 GLUE_COLLECTION_CRAFTING_SHOW_ONLY_GOLDEN	Nur goldene Karten anzeigen	
 GLUE_COLLECTION_CRAFTING_SHOW_SOULBOUND_CARDS	Nicht herstellbare Karten anzeigen	
+GLUE_COLLECTION_CRAFTING_UNCRAFTABLE	Nicht herstellbare Karten	
 GLUE_COLLECTION_CUSTOM_DECKNAME_SHORT	{0}{1}	0=class name, 1=incrementer
 GLUE_COLLECTION_CUSTOM_DECKNAME_TEMPLATE	Mein {0}{1}	0=class name, 1=incrementer
 GLUE_COLLECTION_DECK	Deck	
@@ -495,6 +492,7 @@ GLUE_COLLECTION_DECK_COPY_TOOLTIP_INCOMPLETE	Es können nur vollständige Decks 
 GLUE_COLLECTION_DECK_COPY_TOOLTIP_UNPLAYABLE	Euer Deck enthält einige Karten, die nicht verwendet werden können.	
 GLUE_COLLECTION_DECK_DELETE	Löschen	
 GLUE_COLLECTION_DECK_FINISH_FOR_ME	Ja	
+GLUE_COLLECTION_DECK_FORMAT_CLASSIC	Klassik	
 GLUE_COLLECTION_DECK_FORMAT_STANDARD	Standard	
 GLUE_COLLECTION_DECK_FORMAT_WILD	Wild	
 GLUE_COLLECTION_DECK_GENERIC_INVALID_MESSAGE	Euer Deck enthält einige Karten, die in diesem Format ungültig sind.	
@@ -510,7 +508,7 @@ GLUE_COLLECTION_DECK_INCOMPLETE_LABEL_TOUCH	Zum Ergänzen tippen
 GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_HEADER	Unvollständiges Deck	
 GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_TEXT	Ihr müsst dem Deck noch {0} weitere |4(Karte,Karten) hinzufügen.\nWollt Ihr das Deck automatisch ergänzen lassen?	
 GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_TEXT_NPR	Für {0} |4(Karte,Karten) wird Rang 25 benötigt.\nWollt Ihr das Deck automatisch ergänzen lassen?	
-GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_TEXT_NPR_NEW	{0} |4(Karte benötigt,karten benötigen) Abschluss der Lehrlingsphase.\nSoll das Deck automatisch vervollständigt werden?	
+GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_TEXT_NPR_NEW	{0} |4(Karte benötigt,Karten benötigen) Abschluss der Lehrlingsphase.\nSoll das Deck automatisch vervollständigt werden?	
 GLUE_COLLECTION_DECK_INFO_HERO_POWER_TOOLTIP	Heldenfähigkeit	
 GLUE_COLLECTION_DECK_INFO_MANA_TOOLTIP	Karten/Manakosten	
 GLUE_COLLECTION_DECK_INFO_TITLE	{0} Info	
@@ -535,6 +533,8 @@ GLUE_COLLECTION_DECK_RULE_INVALID_CARDS_NPR_NEW	Ihr habt {0} |4(Karte,Karten), d
 GLUE_COLLECTION_DECK_RULE_INVALID_CLASS_CARD	Euer Deck enthält {0} Karten einer anderen Klasse.	
 GLUE_COLLECTION_DECK_RULE_MISSING_CARDS	Ihr müsst dem Deck noch {0} weitere |4(Karte,Karten) hinzufügen.	
 GLUE_COLLECTION_DECK_RULE_NOT_ENOUGH_CARDS	Ihr braucht {0} |4(weitere Karte,weitere Karten), um ein Deck mit dieser Klasse zu erstellen. Stellt weitere Karten her oder baut ein Deck mit einer anderen Klasse.	
+GLUE_COLLECTION_DECK_RULE_NOT_IN_CARDSET	Ihr habt {0} |4(Karte,Karten) aus einem unzulässigen Set.	
+GLUE_COLLECTION_DECK_RULE_NOT_IN_FORMAT	Ihr habt {0} |4(Karte,Karten) die in diesem Format nicht zulässig |4(ist,sind).	
 GLUE_COLLECTION_DECK_RULE_TOO_MANY_CARDS	Das Deck enthält {0} |4(Karte,Karten) zu viel.	
 GLUE_COLLECTION_DECK_RULE_UNPLAYABLE_CARDS	Ihr habt {0} |4(Karte,Karten), die noch nicht spielbar |4(ist,sind).	
 GLUE_COLLECTION_DECK_SAVE_ANYWAY	Nein	
@@ -569,6 +569,8 @@ GLUE_COLLECTION_HOME_PAGE	Übersicht
 GLUE_COLLECTION_INCLUDE_PREMIUMS	+ goldene Karten	
 GLUE_COLLECTION_LOCK_CARD_BANNED	Gebannt	
 GLUE_COLLECTION_LOCK_CARD_INVALID_CLASS	Karte gehört zu einer anderen Klasse	
+GLUE_COLLECTION_LOCK_CARD_NOT_IN_CARDSET	Falsches Set	
+GLUE_COLLECTION_LOCK_CARD_NOT_IN_FORMAT	Falsches Format	
 GLUE_COLLECTION_LOCK_CARD_NOT_PLAYABLE	Nicht veröffentlicht	
 GLUE_COLLECTION_LOCK_MAX_DECK_COPIES	Max. {0} pro Deck	
 GLUE_COLLECTION_LOCK_NO_MORE_INSTANCES	Keine übrig	
@@ -588,6 +590,7 @@ GLUE_COLLECTION_MANAGER_MANA_TAB_FIRST_CLICK	Klickt erneut hier, um diesen Filte
 GLUE_COLLECTION_MANAGER_ON_ADD_FULL_DECK_ERROR_TEXT	Euer Deck ist voll. Ihr müsst zuerst eine Karte entfernen!	
 GLUE_COLLECTION_MANAGER_SEARCH_ARTIST	künstler	
 GLUE_COLLECTION_MANAGER_SEARCH_ATTACK	angriff	
+GLUE_COLLECTION_MANAGER_SEARCH_DIAMOND	diamant	
 GLUE_COLLECTION_MANAGER_SEARCH_EVEN_ATTACK	gerade	Search term to filter cards in CollectionManager to cards with even attack value. Example attack:even
 GLUE_COLLECTION_MANAGER_SEARCH_EVEN_CARDS	gerade	Search term to filter cards in CollectionManager to cards that player owns an even number of. Example: owned:even
 GLUE_COLLECTION_MANAGER_SEARCH_EVEN_HEALTH	gerade	Search term to filter cards in CollectionManager to cards with even health value. Example health:even
@@ -661,10 +664,21 @@ GLUE_COLLECTION_TUTORIAL14	Ihr könnt wilde Decks auf Standard umstellen.
 GLUE_COLLECTION_TUTORIAL15	Versucht, ein Deck auf Standard umzustellen.	
 GLUE_COLLECTION_TUTORIAL16	Ihr seid bereit für ein Standardspiel!	
 GLUE_COLLECTION_TUTORIAL17	Wilde Karten werden ausgeblendet.	
+GLUE_COLLECTION_VANILLA_CARDS	Klassikkarten	
+GLUE_COLLECTION_WILD_CARDS	Wilde Karten	
 GLUE_COLLECTION_WILD_SETS	Wilde Sets	
 GLUE_COMING_SOON	In Kürze!	
+GLUE_CORE_SET_POPUP_BODY	• 25 KOSTENLOSE legendäre Karten\n• 31 neue Karten für den Deckbau	
+GLUE_CORE_SET_POPUP_FOOTER	(Basis- und Klassikkarten gehören jetzt zum wilden Format)	
+GLUE_CORE_SET_POPUP_HEADER	235 KOSTENLOSE Karten!	
+GLUE_CORE_SET_POPUP_SUBHEADER	Das Kernset ist jetzt verfügbar!	
+GLUE_CORE_SET_PROGRESS	{0}/{1} Kernkarten	0=number of owned cards,1=total number of core cards
+GLUE_CORE_SET_PROGRESS_PHONE	{0}/{1}	0=number of owned cards,1=total number of core cards
 GLUE_CRAFTING_ARCANEDUST	Arkanstaub	
 GLUE_CRAFTING_ARCANEDUST_DESCRIPTION	Erhaltet Arkanstaub, indem Ihr Karten entzaubert. Ihr könnt den Staub dazu verwenden, Karten herzustellen, die Ihr noch nicht besitzt!	
+GLUE_CRAFTING_CLASSIC_CARD_DESC	Dies ist eine Klassikkarte. Seid Ihr sicher?	
+GLUE_CRAFTING_CLASSIC_CARD_FIRST_DESC	Beim Herstellen dieser Klassikkarte erhaltet Ihr auch die wilde Version, aber beide Karten können im Standardformat nicht verwendet werden. Seid Ihr sicher?	
+GLUE_CRAFTING_CLASSIC_CARD_HEADER	Klassikkarten	
 GLUE_CRAFTING_CREATE	Herstellen	
 GLUE_CRAFTING_DISENCHANT	Entzaubern	
 GLUE_CRAFTING_DISENCHANT_CONFIRM_DESC	Seid Ihr Euch sicher? Dadurch werden die folgenden Decks ungültig:	
@@ -672,8 +686,12 @@ GLUE_CRAFTING_DISENCHANT_CONFIRM_HEADER	Entzaubern
 GLUE_CRAFTING_DISENCHANT_CONFIRM2_DESC	Seid Ihr Euch sicher? Durch das Entzaubern dieser Karte bleiben Euch davon weniger Exemplare, als Ihr in einem Deck einsetzen könntet.	
 GLUE_CRAFTING_EVENT_NOT_ACTIVE_DESCRIPTION	„{0}“-Karten können noch nicht hergestellt oder entzaubert werden.	
 GLUE_CRAFTING_EVENT_NOT_ACTIVE_TITLE	Noch nicht veröffentlicht	
+GLUE_CRAFTING_INVALID_CARD_TAVERN_BRAWL_DESC	Diese Karte ist in diesem Kartenchaos nicht gültig. Seid Ihr sicher?	
+GLUE_CRAFTING_INVALID_CARD_TAVERN_BRAWL_HEADER	Ungültige Karten	
+GLUE_CRAFTING_NONSTANDARD_CARD_WARNING_CANCEL	Ups! Nein!	
+GLUE_CRAFTING_NONSTANDARD_CARD_WARNING_CONFIRM	Ja	
 GLUE_CRAFTING_SOULBOUND	Nicht herstellbar	
-GLUE_CRAFTING_SOULBOUND_BASIC_DESC	Basiskarten können weder hergestellt noch entzaubert werden.	
+GLUE_CRAFTING_SOULBOUND_CORE_DESC	Karten des Kernsets können weder hergestellt noch entzaubert werden.	
 GLUE_CRAFTING_SOULBOUND_DESC	Diese Karte kann weder hergestellt noch entzaubert werden.	
 GLUE_CRAFTING_SOULBOUND_FEATURED_DESC	Während eines besonderen Events verfügbar!	
 GLUE_CRAFTING_SOULBOUND_OFFLINE_DESC	Karten können offline nicht hergestellt oder entzaubert werden.	
@@ -681,13 +699,10 @@ GLUE_CRAFTING_SOULBOUND_REWARD_DESC	Questbelohnungen können weder hergestellt n
 GLUE_CRAFTING_TITLE	Kartenherstellung	
 GLUE_CRAFTING_UNDO	Rückgängig	
 GLUE_CRAFTING_WILD_CARD_DESC	Dies ist eine wilde Karte. Seid Ihr sicher?	
-GLUE_CRAFTING_WILD_CARD_FIRST_WILD_DESC	Diese Karte kann im Standardformat nicht verwendet werden. Seid Ihr sicher?	
+GLUE_CRAFTING_WILD_CARD_FIRST_DESC	Diese Karte kann im Standardformat nicht verwendet werden. Seid Ihr sicher?	
 GLUE_CRAFTING_WILD_CARD_HEADER	Wilde Karten	
 GLUE_CRAFTING_WILD_CARD_INTRO_DESC	Im wilden Format könnt Ihr jede Karte verwenden, die jemals veröffentlicht wurde!	
-GLUE_CRAFTING_WILD_CARD_TAVERN_BRAWL_DESC	Diese Karte ist in diesem Kartenchaos nicht gültig. Seid Ihr sicher?	
-GLUE_CRAFTING_WILD_CARD_TAVERN_BRAWL_HEADER	Ungültige Karten	
-GLUE_CRAFTING_WILD_CARD_WARNING_CANCEL	Ups! Nein!	
-GLUE_CRAFTING_WILD_CARD_WARNING_CONFIRM	Ja	
+GLUE_CREATE_CLASSIC_DECK	Klassikdeck erstellen	
 GLUE_CREATE_DECK	Deck erstellen	
 GLUE_CREATE_STANDARD_DECK	Standarddeck erstellen	
 GLUE_CREATE_WILD_DECK	Wildes Deck erstellen	
@@ -730,8 +745,9 @@ GLUE_DEMON_HUNTER_LOCKED_HEADER	Held gesperrt
 GLUE_DEMON_HUNTER_LOCKED_PROLOGUE	Spielt den Dämonenjägerprolog von Ruinen der Scherbenwelt als Soloabenteuer, um diesen Helden freizuschalten.	
 GLUE_DEVICE_PERFORMANCE_WARNING	Dieses Gerät erfüllt die Mindestsystemanforderungen für Hearthstone nicht. Es kann daher beim Ausführen zu Problemen mit der Grafik und/oder zu Leistungseinbußen kommen.\n\nTippen Sie auf SUPPORT, um weitere Informationen zu erhalten.	
 GLUE_DEVICE_PERFORMANCE_WARNING_TITLE	Geräteleistung	
-GLUE_DISABLED_WILD_DECK_DESC	Nicht im Standardformat verwendbar. Wechselt ins wilde Format oder stellt das Deck auf Standard um.	
-GLUE_DISABLED_WILD_DECK_HEADER	Wildes Deck	
+GLUE_DISABLED_DECK_DESC	In folgendem Format nicht verwendbar: {0}	0=current format
+GLUE_DISABLED_DECK_HEADER	Deckformat: {0}	0=deck format
+GLUE_DISABLED_DECK_IN_CURRENT_MODE_DESC	In diesem Modus nicht verwendbar.	
 GLUE_DONT_SHOW_ME_THIS_AGAIN	Nicht erneut anzeigen	
 GLUE_DRAFT_HERO_INSTRUCTIONS	Wählt Euren Helden	
 GLUE_DRAFT_HERO_POWER_INSTRUCTIONS_DETAIL	Ihr erhaltet die Heldenfähigkeit dieser Klasse und könnt Karten beider Klassen auswählen.	
@@ -886,7 +902,7 @@ GLUE_FSG_STARTING_MINUTES	Beginnt in {0} Min.
 GLUE_FSG_STARTING_OVER_1_MONTH	Beginnt in > 1 Monat	
 GLUE_FSG_STARTING_SECONDS	Beginnt in {0} Sek.	
 GLUE_FSG_STARTING_WEEKS	Beginnt in {0} |4(Woche,Wochen)	
-GLUE_FUN_CONFIRM_MESSAGE	Cool!	
+GLUE_FUN_CONFIRM_MESSAGE	Super!	
 GLUE_GAME_MODE_NEW_MODE_UNLOCKED_POPUP_HEADER	Neuer Modus freigeschaltet:	
 GLUE_GAME_MODES	Modi	
 GLUE_GAME_MODES_POPUP_BACON_DESC	Tretet gegen 7 Gegner an.	
@@ -924,12 +940,6 @@ GLUE_GIL_LOADING_BAR_TASK_9	Schleiche durch die Nacht
 GLUE_GOLD_CAP_BODY	Ihr könnt kein Gold mehr verdienen, bis Euer Gold weniger als {0} beträgt.	
 GLUE_GOLD_CAP_HEADER	{0} Gold erreicht!	
 GLUE_GOONS_CLASS_NAMES	Jäger, Paladin, Krieger	
-GLUE_HALL_Of_FAME_BODY	Einige Karten gehören jetzt zum wilden Format und sind in Standardspielen nicht mehr gültig.	
-GLUE_HALL_OF_FAME_CARD_LIST	Diese Karten gehören jetzt zum wilden Format:	
-GLUE_HALL_OF_FAME_CARD_REPLACEMENT_BODY	Einige Basiskarten wurden ins wilde Format verschoben und mit neuen Basiskarten ersetzt.	
-GLUE_HALL_OF_FAME_CARD_REPLACEMENT_LIST	Diese Basiskarten sind jetzt wilde Karten und wurden ersetzt.	
-GLUE_HALL_OF_FAME_DUST_COMPENSATION	Einige dieser Karten besitzt Ihr,\ndeswegen möchten wir Euch ein\nbesonderes Geschenk überreichen!	
-GLUE_HALL_Of_FAME_SIGN	Zeitlose Klassiker	
 GLUE_HERO_HEROSELECT_NEW	NEU!	
 GLUE_HERO_LOCKED_DESC	Besiegt diesen Helden, um ihn freizuschalten!	
 GLUE_HERO_LOCKED_NAME	Gesperrt	
@@ -1197,7 +1207,6 @@ GLUE_NEARBY_PLAYERS_ENABLE	Aktivieren, damit Ihr Spieler in der Nähe sehen kön
 GLUE_NEGATIVE_CURRENCY	<color=#ff3232ff>{0}</color>	
 GLUE_NEW_HERO	Neuer Held!	
 GLUE_NEW_PLAYER_AVAILABLE_AT_LEAGUE_PROMO	Verfügbar\nnach der\nLehrlingsphase	
-GLUE_NEW_PLAYER_AVAILABLE_AT_RANK_25	Ab Rang 25 verfügbar	
 GLUE_NEW_PLAYER_PROMOTION_CHEST_DESC	Glückwunsch! Ihr gehört jetzt zu den Veteranen.\n\nAb hier erwarten Euch schwierigere Gegner!	
 GLUE_NEW_PLAYER_SET_ROTATION_POPUP_BODY	Es sind neue Karten im Spiel! Manche Eurer älteren Karten können jetzt erst ab Rang 25 verwendet werden.	
 GLUE_NEW_PLAYER_SET_ROTATION_POPUP_BODY_NEW	Neue Karten sind da! Einige Eurer älteren Karten sind jetzt erst wieder verfügbar, wenn Ihr die Lehrlingsphase abgeschlossen habt.	
@@ -1224,6 +1233,8 @@ GLUE_PATCHING_LABEL	Lade {0}/{1} |4(Datei,Dateien) herunter
 GLUE_PICK_A_CARD	Wählt eine Karte	
 GLUE_PICK_A_REGION	Region auswählen	
 GLUE_PICK_A_REPLACEMENT	Wählt eine Ersatzkarte	
+GLUE_PLAY_CASUAL	Ungewertetes Spiel	
+GLUE_PLAY_CLASSIC	Klassikspiel	
 GLUE_PLAY_STANDARD	Standardspiel	
 GLUE_PLAY_WILD	Wildes Spiel	
 GLUE_PLAYERS_NEARBY	Spieler in der Nähe	
@@ -1231,6 +1242,9 @@ GLUE_PRACTICE	Üben
 GLUE_PRACTICE_HINT	Zum Modus „Üben“	
 GLUE_PRIVACY_POLICY_BUTTON	隐私协议	
 GLUE_PRIVACY_POLICY_EULA_CONFIRM	同意并进入	
+GLUE_PRIVACY_POLICY_EULA_CONFIRMATION_ACCEPT	同意并进入	
+GLUE_PRIVACY_POLICY_EULA_CONFIRMATION_REJECT	再想想	
+GLUE_PRIVACY_POLICY_EULA_CONFIRMATION_TEXT	抱歉，您在同意《隐私协议》及《最终用户许可协议》后，方可继续开启本游戏。	
 GLUE_PRIVACY_POLICY_EULA_REJECT	不同意	
 GLUE_PRIVACY_POLICY_EULA_TEXT	欢迎来到《炉石传说》\n\n为了给您提供更优质的《炉石传说》游戏服务，《炉石传说》将会使用您的部分信息，请在使用前仔细阅读并同意《炉石传说》相关《隐私协议》及《最终用户许可协议》。若选择不同意，您将无法开启我们的游戏。\n\n请您特别关注以下条款：\n\n争端解决和适用法律。\nA. 争端对各方而言都是昂贵而耗时的。为缩短解决时间并降低解决成本，对于任何针对本协议的争端、争议或索赔（统称 “争端” ），您和运营方同意尽量通过协商方式解决。\nB. 有约束力的仲裁。如果各方无法通过协商解决争端（但下文明确列出的例外争端除外），您和运营方同意通过仲裁处理。各方同意提交中国国际经济贸易仲裁委员会（简称 “CIETAC” ）由三名仲裁员根据CIETAC有效的仲裁规则以及适用法律在中国北京进行仲裁。仲裁裁决是终局的，对各方均有约束力。您的仲裁费用及您应分担的仲裁赔偿应由您个人自行承担。\nC. 限制。您和运营方同意任何仲裁仅限应用于运营方同您个人之间的争端。您认可并同意（a）任何仲裁均不牵涉其他人；（b）没有任何权利或授权进行共同仲裁或使用共同仲裁的程序；并且（c）没有任何权利或授权允许代表公众或者其他人的假设的代理人提起争端。 \nD. 协商与仲裁的例外。您和运营方同意下列争端将不受上述协商及约束仲裁条款约束：（a）任何试图执行或者保护运营方或暴雪知识产权或与知识产权的有效性相关的争端；（b）任何有关偷窃、盗版或未经运营方或暴雪授权使用的争端，或由这些情况引起的争端；及（c）要求解除法院颁发的禁止令。您和运营方同意将此类争端交由运营方所在地有管辖权的人民法院裁决。\nE. 适用法律。除非明确另作说明，本协议应适用中华人民共和国法律，且不适用法律选择原则。《联合国国际货物销售合同公约》被明确排除适用于本协议。	
 GLUE_PRIVACY_POLICY_EULA_TITLE	请阅读以下内容	
@@ -1266,7 +1280,11 @@ GLUE_PROGRESSION_REWARD_TRACK_POPUP_BONUS_DESCRIPTION	Von Stufe {1} bis {2} erha
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_BONUS_LEVEL	Jenseits von Stufe {0}	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_BONUS_TITLE	Bonusbelohnungen	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_COMPLETE_LEVEL	Stufe {0}	
+GLUE_PROGRESSION_REWARD_TRACK_POPUP_FORGOT_REWARDS_BODY	{0} |4(Belohnung,Belohnungen) vom Belohnungsweg der letzten Erweiterung |4(wurde,wurden) Eurer Sammlung hinzugefügt.	
+GLUE_PROGRESSION_REWARD_TRACK_POPUP_FORGOT_REWARDS_TITLE	Ihr habt |4(eine Belohnung,ein paar Belohnungen) vergessen!	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_INCOMPLETE_LEVEL	Erfordert Stufe {0}	
+GLUE_PROGRESSION_REWARD_TRACK_POPUP_NEW_TRACK_BODY	Erhaltet tolle neue Belohnungen auf dem aktualisierten Belohnungsweg!	
+GLUE_PROGRESSION_REWARD_TRACK_POPUP_NEW_TRACK_TITLE	Neuer Belohnungsweg: Das Brachland	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_PREMIUM_LOCKED	Mit dem Gasthauspass könnt Ihr Premiumbelohnungen freischalten!	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_SKIN_CHOICE_CLAIMED	Eingelöst	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_SKIN_CHOICE_CONFIRMATION_HEADER	Auswahl bestätigen	
@@ -1422,6 +1440,7 @@ GLUE_RANKED_REWARD_QUEST_LOG_LABEL_CLASSICPACKS	Klassikpackungen
 GLUE_RANKED_REWARD_QUEST_LOG_LABEL_RANK_REQUIRED	Erreicht {0}	// {0} is Rank Name, "you must reach {Bronze 5} to earn this reward"
 GLUE_RANKED_REWARD_QUEST_LOG_LABEL_RANK_REWARD	Belohnung für Rang {0}	// {0} is Rank number 
 GLUE_RANKED_SEASON_ROLL_FLOW_TITLE	Das neue Wertungssystem ist da!	
+GLUE_RANKED_SYSTEM_TITLE	Wertungssystem	
 GLUE_RANKED_TIER_NAME_BRONZE	Bronze	
 GLUE_RANKED_TIER_NAME_DIAMOND	Diamant	
 GLUE_RANKED_TIER_NAME_GOLD	Gold	
@@ -1478,7 +1497,7 @@ GLUE_RETURNINGPLAYERPOPUP_MESSAGE	Wenn Ihr die Herausforderung des Gastwirts üb
 GLUE_RETURNINGPLAYERPOPUP_TITLE	Seid Ihr sicher?	
 GLUE_ROTATED_SETS_DIALOG	Folgende Sets gehören jetzt zum wilden Format!	
 GLUE_SET_ROTATION_CURRENT_YEAR	Jahr des Drachen	
-GLUE_SET_ROTATION_NEXT_YEAR	Jahr des Phönix	
+GLUE_SET_ROTATION_NEXT_YEAR	Jahr des Greifen	
 GLUE_SHOP_BOOSTER_SKU_BUTTON	{0} |4(Packung,Packungen)	
 GLUE_SHOP_CLOSED_ALERT_HEADER	Shop geschlossen	
 GLUE_SHOP_CLOSED_ALERT_TEXT	Der Shop ist vorübergehend geschlossen. Bitte später noch einmal versuchen.	
@@ -1899,7 +1918,7 @@ GLUE_TEXTURE_COMPRESSION_WARNING	Das Texturformat in diesem Build stimmt für di
 GLUE_TEXTURE_COMPRESSION_WARNING_TITLE	Warnung: Komprimierung von Texturen	--TEMP-- This should be in Chinese
 GLUE_THE_CLOCK_BANNER_NEW_WAY	Eine neue Art zu spielen:	
 GLUE_THE_CLOCK_BANNER_STANDARD	Standard	
-GLUE_THE_CLOCK_BANNER_YEAR	Jahr des Phönix	
+GLUE_THE_CLOCK_BANNER_YEAR	Jahr des Greifen	
 GLUE_THE_CLOCK_DETAILS	Die Karten des Standardformats ändern sich jedes Jahr.	
 GLUE_THE_CLOCK_DETAILS_STANDARD	Im Standardformat können nur die neuesten Karten benutzt werden.	
 GLUE_TIP_ADVENTURE_0	Um die schwersten Bosse zu besiegen, werdet Ihr für den Kampf ein eigenes Deck zusammenstellen müssen.	
@@ -1917,6 +1936,17 @@ GLUE_TIP_ADVENTURE_BOH_6	Heldenfähigkeiten können sich ebenso schnell ändern 
 GLUE_TIP_ADVENTURE_BOH_7	Seid auf alles gefasst!\nDas Leben eines Helden hält oft unerwartete Wendungen bereit.	
 GLUE_TIP_ADVENTURE_BOH_8	Schaut euch vor dem Start der Mission die Decks an,\num eine Strategie gegen Euren Gegner zu entwickeln.	
 GLUE_TIP_ADVENTURE_BOH_9	Helden müssen unglaubliche Prüfungen bestehen,\num ihren Platz in der Geschichte einzunehmen.	
+GLUE_TIP_ADVENTURE_BOM_1	Macht Euch bereit, an der Seite\nneuer Helden von Hearthstone Abenteuer zu erleben!	
+GLUE_TIP_ADVENTURE_BOM_10	Für AllianzhHelden ist das Brachland besonders gefährlich. Für Helden der Horde einfach nur gefährlich.	
+GLUE_TIP_ADVENTURE_BOM_11	Für einen Helden der Horde führen alle Straßen zum Wegekreuz.	
+GLUE_TIP_ADVENTURE_BOM_2	Die Reise dieses Helden hat Decks und Heldenfähigkeiten freigeschaltet!	
+GLUE_TIP_ADVENTURE_BOM_3	In einigen Kämpfen könnt Ihr wählen, welcher Gefährte an Eurer Seite kämpft.	
+GLUE_TIP_ADVENTURE_BOM_4	Jedes Kapitel im Buch der Söldner führt die Geschichte fort.	
+GLUE_TIP_ADVENTURE_BOM_5	Seid auf alles gefasst! Das Söldnerleben hält viele Überraschungen bereit.	
+GLUE_TIP_ADVENTURE_BOM_6	Schaut Euch vor dem Start der Mission die Decks an,\num eine Strategie gegen Euren Gegner zu entwickeln.	
+GLUE_TIP_ADVENTURE_BOM_7	Kazakus, der Anführer der Kabale von Gadgetzan, wurde im Brachland gesichtet.	
+GLUE_TIP_ADVENTURE_BOM_8	In der Nacht der fallenden Sterne fielen in ganz Azeroth strahlende Lichtsplitter vom Himmel.	
+GLUE_TIP_ADVENTURE_BOM_9	Wie Kriegshäuptling Thrall gehört Rokara dem Frostwolfklan an und stammt aus dem Alteractal.	
 GLUE_TIP_ADVENTURE_BOT_0	Rätsel lassen sich problemlos zurücksetzen. Probiert Ideen aus und experimentiert etwas herum!	
 GLUE_TIP_ADVENTURE_BOT_1	Es wird nicht immer jede Karte benötigt, um ein Rätsel zu lösen.	
 GLUE_TIP_ADVENTURE_BOT_2	Gebt nicht auf. Haltet die Augen offen nach Karten, die auf ungewöhnliche Weise miteinander interagieren.	
@@ -2064,11 +2094,11 @@ GLUE_TIP_BACON_12	Wenn Eure Gegner viele Exemplare eines Dieners kaufen, wird er
 GLUE_TIP_BACON_13	Wenn ein Diener verkauft wird, kehrt er in die Auswahl zurück und wird Euch wieder häufiger angeboten.	
 GLUE_TIP_BACON_14	Wenn Ihr mit Eurem Gold nur die Gasthausstufe erhöht, geraten Eure Truppen ins Hintertreffen – das könnte Euch den Sieg kosten.	
 GLUE_TIP_BACON_15	Wenn Ihr die Gasthausstufe nie erhöht, geraten Eure Truppen ins Hintertreffen – das könnte Euch den Sieg kosten.	
-GLUE_TIP_BACON_16	Murlocs sind früh im Spiel mächtig,\nMechs dagegen eher im späteren Spielverlauf.	
+GLUE_TIP_BACON_16	Einige Dienertypen sind früh im Spiel mächtig, andere dagegen eher im späteren Spielverlauf.	
 GLUE_TIP_BACON_17	Aktualisiert das Gasthaus, wenn Ihr 1_Gold übrig habt – Diener, die Euch gefallen, könnt Ihr bis zum nächsten Zug einfrieren.	
 GLUE_TIP_BACON_18	Bei 8 Spielern zählt ein Platz in den Top_4 als Sieg.\nDer erste Platz erhält die Krone!	
 GLUE_TIP_BACON_19	Alle Spieler teilen sich beim Rekrutieren dieselbe Dienerauswahl.	
-GLUE_TIP_BACON_2	Gestaltwandler Zerus kann sich in Diener jeder Gasthausstufe verwandeln!	
+GLUE_TIP_BACON_2	Jedes Spiel enthält eine andere Zusammenstellung von Dienertypen. Manchmal sind Murlocs dabei, manchmal nicht!	
 GLUE_TIP_BACON_20	Wenn Ihr einen Gegner bezwungen habt, kehren seine Diener in die Auswahl zurück.	
 GLUE_TIP_BACON_3	Wenn Ihr gewinnt, verursachen Euer Held und Eure Diener Schaden, der ihrer Gasthausstufe entspricht.	
 GLUE_TIP_BACON_4	Die Aufwertung des Gasthauses kostet mit jedem Zug 1 weniger.	
@@ -2081,14 +2111,14 @@ GLUE_TIP_DEFAULT_0	Ihr könnt im Shop zusätzliche Kartenpackungen erwerben.
 GLUE_TIP_DEFAULT_1	Klickt auf Euren Helden, während Ihr ein Deck bearbeitet, um den Namen des Decks zu ändern.	
 GLUE_TIP_DEFAULT_1_TOUCH	Tippt auf Euren Helden, während Ihr ein Deck bearbeitet, um den Namen des Decks zu ändern.	
 GLUE_TIP_DEFAULT_10	In der Arena stellt Ihr Euer Deck aus zufälligen Karten zusammen. Darüber hinaus gibt es tolle Belohnungen zu gewinnen!	
-GLUE_TIP_DEFAULT_11	Basiskarten könnt Ihr durch Stufenaufstiege erhalten. Sie können weder hergestellt noch entzaubert werden.	
+GLUE_TIP_DEFAULT_11	Kernkarten könnt Ihr durch Stufenaufstiege erhalten. Sie können weder hergestellt noch entzaubert werden.	
 GLUE_TIP_DEFAULT_12	Goldene Karten hinterlassen nach der Entzauberung eine Menge Staub.	
 GLUE_TIP_DEFAULT_13	Ihr könnt das Suchen-Feld in Eurer Sammlung dazu benutzen, bestimmte Karten, zum Beispiel mit „Spott“, zu finden.	
-GLUE_TIP_DEFAULT_14	Basiskarten könnt Ihr durch Stufenaufstiege mit einer Klasse erhalten. Klassikkarten sind in Klassikpackungen enthalten.	
-GLUE_TIP_DEFAULT_15	Beim Spielen gegen andere Spieler erhaltet Ihr zusätzliche Erfahrung.	
+GLUE_TIP_DEFAULT_14	Kernkarten erhaltet Ihr durch Stufenaufstiege mit einer Klasse. Erreicht mit jeder Klasse Stufe 10, um alle freizuschalten!	
+GLUE_TIP_DEFAULT_15	Beim Spielen gegen andere Spieler erhaltet Ihr zusätzliche Belohnungserfahrung.	
 GLUE_TIP_DEFAULT_16	Ihr könnt per Rechtsklick auf den gegnerischen Helden Emotes ausblenden lassen.	
 GLUE_TIP_DEFAULT_16_TOUCH	Ihr könnt auf den gegnerischen Helden tippen, um Emotes auszublenden.	
-GLUE_TIP_DEFAULT_17	Wenn Ihr mit einer Klasse 500 gewertete Spiele oder Arenaspiele gewinnt, schaltet Ihr den goldenen Helden für diese Klasse frei.	
+GLUE_TIP_DEFAULT_17	Wenn Ihr mit einer Klasse 500 gewertete Spiele, Arenaspiele oder Duelle gewinnt, schaltet Ihr einen goldenen Helden frei.	
 GLUE_TIP_DEFAULT_18	Mithilfe des Buttons unten links könnt Ihr Freunde Eurer Freundesliste hinzufügen.	
 GLUE_TIP_DEFAULT_18_PHONE	Ihr könnt Freunde zu Eurer Freundesliste hinzufügen, indem Ihr auf die Schaltfläche oben links tippt.	
 GLUE_TIP_DEFAULT_19	Der höchste Rang im gewerteten Modus ist der Rang „Legende“!	
@@ -2096,28 +2126,31 @@ GLUE_TIP_DEFAULT_2	Klickt mit der rechten Maustaste auf Euren Helden, um ein Emo
 GLUE_TIP_DEFAULT_2_TOUCH	Tippt auf Euren Helden, um ein Emote zu senden.	
 GLUE_TIP_DEFAULT_20	Mithilfe des Augensymbols in der Freundesliste könnt Ihr einem Freund beim Spielen zuschauen!	
 GLUE_TIP_DEFAULT_21	Ihr könnt Hearthstone auf dem Handy, Tablet oder Computer spielen. Eure Sammlung ist auf allen drei Plattformen gleich!	
-GLUE_TIP_DEFAULT_22	Im Shop könnt Ihr einen neuen Helden für Eure Lieblingsklasse kaufen.	
-GLUE_TIP_DEFAULT_23	Das Standardformat verwendet Basiskarten, Klassikkarten und Karten der letzten zwei Jahre.	
+GLUE_TIP_DEFAULT_22	Im Shop findet Ihr besondere Angebote wie neue Helden und Kartenrücken!	
+GLUE_TIP_DEFAULT_23	Das Standardformat verwendet Kernkarten und Karten der letzten zwei Jahre.	
 GLUE_TIP_DEFAULT_24	Klickt auf Euren Helden, während Ihr ein Deck bearbeitet, um zwischen Standard und Wild zu wechseln.	
 GLUE_TIP_DEFAULT_24_TOUCH	Tippt auf Euren Helden, während Ihr ein Deck bearbeitet, um zwischen Standard und Wild zu wechseln.	
-GLUE_TIP_DEFAULT_25	Wir sind im Jahr des Phönix! Jedes Jahr steht unter einem anderen Zeichen.	
+GLUE_TIP_DEFAULT_25	Wir sind im Jahr des Greifen! Jedes Jahr steht unter einem anderen Zeichen.	
 GLUE_TIP_DEFAULT_26	Klickt in Eurer Sammlung unten links auf die Filter-Schaltfläche, um zu bestimmen, welche Sets angezeigt werden.	
 GLUE_TIP_DEFAULT_26_TOUCH	Tippt in Eurer Sammlung unten links auf die Filter-Schaltfläche, um zu bestimmen, welche Sets angezeigt werden.	
 GLUE_TIP_DEFAULT_27	Die Karten von neu veröffentlichten Sets könnt Ihr sowohl im wilden als auch im Standardformat verwenden.	
 GLUE_TIP_DEFAULT_28	Im wilden Format geht es WILD zu – hier können alle Karten verwendet werden!	
 GLUE_TIP_DEFAULT_29	Im Standardformat entstehen immer wieder neue Strategien.	
-GLUE_TIP_DEFAULT_3	Wenn Ihr beim Zusammenstellen eines Decks Hilfe braucht, könnt Ihr in Eurer Sammlung den Deckhelfer nutzen!	
-GLUE_TIP_DEFAULT_30	Von Zeit zu Zeit werden neue Deckformeln veröffentlicht.	
+GLUE_TIP_DEFAULT_3	Wenn Ihr beim Zusammenstellen eines Decks Hilfe braucht, könnt Ihr in der Sammlung den Button „Deck vervollständigen“ benutzen!	
+GLUE_TIP_DEFAULT_30	Mit jeder neuen Erweiterung werden neue Deckformeln veröffentlicht.	
 GLUE_TIP_DEFAULT_31	Im Standardformat wird nur mit den neuesten Sets gespielt – Ihr müsst also nicht erst alle alten Karten kennen.	
 GLUE_TIP_DEFAULT_32	Ihr könnt bei Spielen gegen Freunde Quests abschließen.	
 GLUE_TIP_DEFAULT_33	Fordert Freunde heraus, um Quests abzuschließen.	
+GLUE_TIP_DEFAULT_34	Auf dem Schlachtfeld könnt Ihr gegen sieben andere Spieler antreten.	
+GLUE_TIP_DEFAULT_35	Im Duellmodus erstellt Ihr beim Spielen nach und nach ein Deck. Nach jedem Kampf könnt Ihr Euer Deck weiter ausbauen!	
+GLUE_TIP_DEFAULT_36	Wenn Ihr den Gasthauspass freischaltet, könnt Ihr noch mehr Belohnungserfahrung erhalten.	
+GLUE_TIP_DEFAULT_37	Wenn Ihr mit einer Klasse 1000 gewertete Spiele, Arenaspiele oder Duelle gewinnt, schaltet Ihr einen Prestigehelden frei!	
 GLUE_TIP_DEFAULT_4	Die Farbe des Edelsteins in der Mitte einer Karte verrät ihre Seltenheit.	
 GLUE_TIP_DEFAULT_5	Seltenheitsfarbskala: Weiß ist Gewöhnlich, Blau ist Selten, Violett ist Episch und Orange ist Legendär.	
 GLUE_TIP_DEFAULT_6	Jede Kartenpackung enthält mindestens eine Karte, die selten oder besser ist, aber es können auch mehr darin enthalten sein!	
 GLUE_TIP_DEFAULT_7	Falls Ihr keine Quests mehr habt, schaut einfach morgen wieder vorbei und erhaltet eine neue.	
 GLUE_TIP_DEFAULT_8	Wenn Ihr in einer Saison 5 gewertete Spiele gewinnt, schaltet Ihr den Kartenrücken der entsprechenden Saison frei.	
-GLUE_TIP_DEFAULT_8_RANKED_2.0	Wenn Ihr in einer Saison Rang 20 erreicht, schaltet Ihr den Kartenrücken der entsprechenden Saison frei.	
-GLUE_TIP_DEFAULT_9	Schließt Quests ab, um Gold zu verdienen. Gold kann zum Kauf von Packungen oder für den Zugang zur Arena verwendet werden.	
+GLUE_TIP_DEFAULT_9	Schließt Quests ab, um Belohnungserfahrung zu erhalten. Erfahrung gewährt Euch Fortschritt auf Eurem Belohnungsweg.	
 GLUE_TIP_DUELS_0	Kostengünstige Diener können häufiger ausgespielt werden.	
 GLUE_TIP_DUELS_1	Mächtige Diener mit hohen Kosten können in späteren Matches den Sieg bringen.	
 GLUE_TIP_DUELS_10	Euer Gegner kann nicht mit passiven Schätzen interagieren.	
@@ -2147,22 +2180,21 @@ GLUE_TIP_FORGE_2	Ihr müsst nicht all Eure Spiele in der Arena an einem Stück d
 GLUE_TIP_HEROICBRAWL_0	Hier ist die richtige Gegnerzuweisung besonders wichtig. Die Wartezeiten könnten daher etwas länger sein.	
 GLUE_TIP_PLAY_0	Ihr werdet gegen einen Spieler antreten, der Euch ebenbürtig ist.	
 GLUE_TIP_PLAY_1	Euer Können wird nach jedem gewonnenen oder verlorenen Spiel neu bewertet und Ihr werdet gegen geeignete Gegner antreten.	
-GLUE_TIP_PLAY_2	Jede Klasse verfügt über 5 verschiedene Basiskarten, die Ihr mit Stufenaufstiegen freischalten könnt.	
-GLUE_TIP_PLAY_3	Schließt Quests ab, um Gold zu verdienen. Gold kann zum Kauf von Packungen oder für den Zugang zur Arena verwendet werden.	
+GLUE_TIP_PLAY_2	Jede Klasse verfügt über 16 verschiedene Kernkarten, die Ihr mit Stufenaufstiegen freischalten könnt.	
+GLUE_TIP_PLAY_3	Schließt Quests ab, um Belohnungserfahrung zu erhalten. Erfahrung gewährt Euch Fortschritt auf Eurem Belohnungsweg.	
 GLUE_TIP_PLAY_4	Der höchste Rang im gewerteten Modus ist der Rang „Legende“!	
 GLUE_TIP_PLAY_5	Decks können bis zu zwei Exemplare jeder Karte enthalten, aber nur jeweils ein Exemplar einer legendären Karte.	
 GLUE_TIP_PLAY_6	Die Arena ist ein toller Weg, um Belohnungen zu erhalten, während Ihr an einem kleinen Wettbewerb teilnehmt.	
 GLUE_TIP_PLAY_7	Ihr müsst nicht all Eure Spiele in der Arena an einem Stück durchspielen.	
 GLUE_TIP_PLAY_8	Wenn Ihr in einer Saison 5 gewertete Spiele gewinnt, schaltet Ihr den Kartenrücken der entsprechenden Saison frei.	
-GLUE_TIP_PLAY_8_RANKED_2.0	Wenn Ihr in einer Saison Rang 20 erreicht, schaltet Ihr den Kartenrücken der entsprechenden Saison frei.	
 GLUE_TIP_PRACTICE_0	Ihr könnt Helden freischalten, indem Ihr sie im Modus „Üben“ besiegt.	
 GLUE_TIP_PRACTICE_1	Der Modus „Üben“ ist lediglich eine Vorbereitung für den Modus „Spielen“!	
 GLUE_TIP_PRACTICE_2	Im Modus „Spielen“ tretet Ihr gegen ebenbürtige Gegner an!	
 GLUE_TIP_PRACTICE_3	Ihr könnt Euch mit Euren Karten selbst ein Deck zusammenstellen, indem Ihr Eure Sammlung einseht.	
-GLUE_TIP_PRACTICE_4	Jede Klasse verfügt über 5 verschiedene Basiskarten, die Ihr mit Stufenaufstiegen freischalten könnt.	
-GLUE_TIP_PRACTICE_5	Schließt im Modus „Spielen“ Quests ab, um Gold zu verdienen!	
+GLUE_TIP_PRACTICE_4	Jede Klasse verfügt über 16 verschiedene Kernkarten, die Ihr mit Stufenaufstiegen freischalten könnt.	
+GLUE_TIP_PRACTICE_5	Schließt im Modus „Spielen“ Quests ab, um Belohnungserfahrung zu verdienen!	
 GLUE_TIP_PRACTICE_6	Den Helden angreifen? Oder die feindlichen Diener? Die richtige Antwort auf diese Fragen kann des Kampfes Glück wenden.	
-GLUE_TIP_PRACTICE_7	Ab Stufe 10 erhaltet Ihr mehr Erfahrung, wenn Ihr gegen andere Spieler antretet.	
+GLUE_TIP_PRACTICE_7	Ab Stufe 10 erhaltet Ihr mehr Heldenerfahrung, wenn Ihr gegen andere Spieler antretet.	
 GLUE_TIP_TAVERNBRAWL_0	Jede Woche gibt’s ein verrücktes neues Kartenchaos!	
 GLUE_TIP_TAVERNBRAWL_1	Nach jedem Kartenchaos brauchen wir ein paar Stunden, um aufzuräumen! Schaut später wieder vorbei, wenn Ihr nicht hineinkommt.	
 GLUE_TIP_TAVERNBRAWL_2		This tip was removed. Translators: please leave this blank. Blank tips are skipped over. For devs: when adding new tips later, feel free to use this slot (and update this comment).
@@ -2200,7 +2232,6 @@ GLUE_TOOLTIP_BUTTON_TAVERN_BRAWL_HEADLINE	Kartenchaos
 GLUE_TOOLTIP_BUTTON_TAVERN_BRAWL_NOT_UNLOCKED	Wird freigeschaltet, sobald Ihr mit einer Klasse Stufe 20 erreicht habt.	
 GLUE_TOOLTIP_BUTTON_TOURNAMENT_DESC	Spielt gegen einen ebenbürtigen Gegner.	
 GLUE_TOOLTIP_BUTTON_TOURNAMENT_HEADLINE	Spielen	
-GLUE_TOOLTIP_CASUAL_BUTTON	Findet einen ebenbürtigen Gegner und spielt zum Spaß!	
 GLUE_TOOLTIP_DOWNLOAD_DESCRIPTION	Hearthstone wird während des Spielens heruntergeladen.	
 GLUE_TOOLTIP_DOWNLOAD_HEADER	Herunterladen	
 GLUE_TOOLTIP_GOLD_DESCRIPTION	Gold kann zum Kaufen von Packungen oder für den Zugang zur Arena verwendet werden.	
@@ -2214,11 +2245,19 @@ GLUE_TOOLTIP_VIRTUAL_CURRENCY_HEADER	Runensteine
 GLUE_TOURNAMENT	Spielen	
 GLUE_TOURNAMENT_CASUAL	Ungewertet	
 GLUE_TOURNAMENT_CASUAL_WILD	Ungewertet (Wild)	
+GLUE_TOURNAMENT_CLASSIC_DESC	Nur die ursprünglichen 240 Karten sind erlaubt.	
+GLUE_TOURNAMENT_DESCRIPTION_CASUAL	Alle Karten sind verfügbar. Tretet in ungewerteten Spielen gegen andere Spieler an.	
+GLUE_TOURNAMENT_DESCRIPTION_CLASSIC	Nur die Karten des Klassikformats sind erlaubt.	
+GLUE_TOURNAMENT_DESCRIPTION_STANDARD	Nur das Kernset und Karten der letzten zwei Jahre sind erlaubt.	
+GLUE_TOURNAMENT_DESCRIPTION_WILD	Alle Karten außer Karten des Klassikformats sind erlaubt.	
+GLUE_TOURNAMENT_MISSING_DECKS_CLASSIC	Ihr habt keine Klassikdecks. Stellt jetzt eins zusammen!	
 GLUE_TOURNAMENT_RANKED	Gewertet	
+GLUE_TOURNAMENT_RANKED_CLASSIC	Gewertet (Klassik)	
 GLUE_TOURNAMENT_RANKED_WILD	Gewertet (Wild)	
-GLUE_TOURNAMENT_STANDARD_DESC	Nur Basiskarten, Klassikkarten und Karten der letzten zwei Jahre sind erlaubt.	
+GLUE_TOURNAMENT_STANDARD_DESC	Nur das Kernset und Karten des letzten Jahres sind erlaubt.	
 GLUE_TOURNAMENT_STAR_MULT_BODY	Ihr erhaltet {0} |4(Stern,Sterne) für jeden Sieg. Der Sternenbonus verringert sich mit steigendem Rang.	
 GLUE_TOURNAMENT_STAR_MULT_HEAD	Sternenbonus x{0}	
+GLUE_TOURNAMENT_SWITCH_MODE	Hier könnt Ihr den Modus umstellen.	
 GLUE_TOURNAMENT_SWITCH_TO_STANDARD	Stellt hier auf das Standardformat um.	
 GLUE_TOURNAMENT_SWITCH_TO_WILD	Hier könnt Ihr auf das wilde Format umstellen.	
 GLUE_TOURNAMENT_UNRANKED_DESC	Im ungewerteten Modus verfügt Ihr über eine separate Einstufung, und Ihr könnt keine Medaillen gewinnen.	

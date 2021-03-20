@@ -307,8 +307,6 @@ GLUE_BACON_TOP_4_LABEL	トップ4
 GLUE_BACON_VICTORY_BONUS_MESSAGE	特典を開放して、あんたの戦略に磨きをかけよう。	
 GLUE_BASIC_DECK_WARNING_BODY	スタンダードでプレイできるベーシックデッキもいいけど、新しいデッキを作ったほうがより楽しいかも！？	
 GLUE_BASIC_DECK_WARNING_HEADER	ベーシックデッキ	
-GLUE_BASIC_SET_PROGRESS	基本カード: {0}/{1}	0=number of owned cards,1=total number of basic cards
-GLUE_BASIC_SET_PROGRESS_PHONE	{0}/{1}	0=number of owned cards,1=total number of basic cards
 GLUE_BLIZZCON2013_ARENA	ようこそ闘技場へ！たくさん対戦に勝てれば、報酬が出るぞ！	
 GLUE_BLIZZCON2013_ARENA_5_WINS	これでもう、闘技場のベテランだな！その調子で、どんどん勝ち抜いてってくれ！	
 GLUE_BLIZZCON2013_ARENA_GRAND_PRIZE	うおおおお！新たな闘技場チャンピオンの誕生だ！この画面をBlizzConの係員に見せて、特賞を受け取ってくれ！	
@@ -408,10 +406,6 @@ GLUE_CANNOT_FIND_BATTLENET_CLIENT	ハースストーンの実行にはBlizzard�
 GLUE_CANNOT_RUN_BATTLENET_CLIENT	ハースストーンの実行にはBlizzardデスクトップアプリが必要ですが、起動できませんでした。www.battle.netを訪れ、再インストールしてください。	
 GLUE_CARD_NERF_BODY	\n以下のカードに変更が加えられました。\n{0}	0=card names
 GLUE_CARD_NERF_HEADER	変更点！	
-GLUE_CARD_REPLACEMENT_CARDS_ADDED	これらの新カードが基本セットに追加されたぞ。	
-GLUE_CARD_REPLACEMENT_CARDS_REMOVED	これらのカードが基本セットから抹消されたぞ。	
-GLUE_CARD_REPLACEMENT_DUST_FOOTER	コレクションに対象カードが含まれてるな。\n記念のギフトをどうぞ！	
-GLUE_CARD_REPLACEMENT_DUST_HEADER	無料の魔素！	
 GLUE_CARDS_ADDED	「クラシック」セットに{0}種類の新カードが追加されたぞ！	
 GLUE_CARDS_UPDATED	これらのカードに変更が加えられたぞ。	
 GLUE_CHECKOUT_ERROR_GENERIC_FAILURE	おおっと！何かしくじったらしい。後でもう一度試してくれ。	
@@ -454,7 +448,6 @@ GLUE_CLOUD_STORAGE_CONTEXT_BODY_02	あんたのGoogleドライブアカウント
 GLUE_CLOUD_STORAGE_CONTEXT_HEADER	ようこそ！	
 GLUE_COLLECTION_ADD_TO_DECK	デッキに追加	
 GLUE_COLLECTION_ALL	全て	
-GLUE_COLLECTION_ALL_CARDS	全てのカード	
 GLUE_COLLECTION_ALL_SETS	全てのセット	
 GLUE_COLLECTION_ALL_STANDARD_CARDS	スタンダードカード	
 GLUE_COLLECTION_ARTIST	イラスト:\n{0}	0=artist name
@@ -468,13 +461,17 @@ GLUE_COLLECTION_CARD_UNKNOWN_ERROR	予期しないエラー（ID: {0}）が発�
 GLUE_COLLECTION_CARD_VALUE_CHANGED_ERROR	何かしくじったらしい、もう一度試してくれ。	
 GLUE_COLLECTION_CONVERT_DECK_BODY	このデッキをスタンダードに切り替えた場合、デッキから{0}枚のカードが撤去されるぞ。切り替えていいんだな？	
 GLUE_COLLECTION_CONVERT_DECK_HEADER	デッキの変換	
+GLUE_COLLECTION_CRAFTING_DIAMOND	ダイヤモンドカード	
 GLUE_COLLECTION_CRAFTING_DISENCHANT_BUTTON_TEXT	余分な\nカードを還元	
 GLUE_COLLECTION_CRAFTING_EXPLANATION	カードを選んで作成を始めよう。\n\nカードの材料となる魔素は、カードを還元すれば得られるぞ。\n\n必要な魔素は、カードのレア度で決まる。	
 GLUE_COLLECTION_CRAFTING_FILTERS	フィルター	
+GLUE_COLLECTION_CRAFTING_GOLDEN	ゴールデンカード	
 GLUE_COLLECTION_CRAFTING_MODE	作成モード	
 GLUE_COLLECTION_CRAFTING_MODE_SHORT	作成	
+GLUE_COLLECTION_CRAFTING_SHOW_ONLY	表示の絞り込み	
 GLUE_COLLECTION_CRAFTING_SHOW_ONLY_GOLDEN	ゴールデンカードのみ表示	
 GLUE_COLLECTION_CRAFTING_SHOW_SOULBOUND_CARDS	作成不能カードを含める	
+GLUE_COLLECTION_CRAFTING_UNCRAFTABLE	作成不能カード	
 GLUE_COLLECTION_CUSTOM_DECKNAME_SHORT	{0}{1}	0=class name, 1=incrementer
 GLUE_COLLECTION_CUSTOM_DECKNAME_TEMPLATE	カスタム{0}{1}	0=class name, 1=incrementer
 GLUE_COLLECTION_DECK	デッキ	
@@ -495,6 +492,7 @@ GLUE_COLLECTION_DECK_COPY_TOOLTIP_INCOMPLETE	完成したデッキしかコピ�
 GLUE_COLLECTION_DECK_COPY_TOOLTIP_UNPLAYABLE	使えないカードがデッキに含まれてるようだな。	
 GLUE_COLLECTION_DECK_DELETE	削除	
 GLUE_COLLECTION_DECK_FINISH_FOR_ME	はい	
+GLUE_COLLECTION_DECK_FORMAT_CLASSIC	クラシック	
 GLUE_COLLECTION_DECK_FORMAT_STANDARD	スタンダード	
 GLUE_COLLECTION_DECK_FORMAT_WILD	ワイルド	
 GLUE_COLLECTION_DECK_GENERIC_INVALID_MESSAGE	このフォーマットじゃ使えないカードがデッキに含まれてるようだな。	
@@ -535,6 +533,8 @@ GLUE_COLLECTION_DECK_RULE_INVALID_CARDS_NPR_NEW	入門者用の修行を修了�
 GLUE_COLLECTION_DECK_RULE_INVALID_CLASS_CARD	あんたのデッキには、他のクラス用のカードが{0}枚入ってるぞ。	
 GLUE_COLLECTION_DECK_RULE_MISSING_CARDS	このデッキはカードが{0}枚足りないぞ。	
 GLUE_COLLECTION_DECK_RULE_NOT_ENOUGH_CARDS	このクラスでデッキを完成させるには、カードがあと{0}枚足りないな。カードを作成するか、別のクラスでデッキを組んでくれ。	
+GLUE_COLLECTION_DECK_RULE_NOT_IN_CARDSET	使えないセットのカードが{0}枚含まれてるぞ。	
+GLUE_COLLECTION_DECK_RULE_NOT_IN_FORMAT	このフォーマットで使えないカードが{0}枚含まれてるぞ。	
 GLUE_COLLECTION_DECK_RULE_TOO_MANY_CARDS	デッキのカードの枚数が上限より{0}枚多いぞ。	
 GLUE_COLLECTION_DECK_RULE_UNPLAYABLE_CARDS	まだあんたには使えないカードが{0}枚含まれてるぞ。	
 GLUE_COLLECTION_DECK_SAVE_ANYWAY	いいえ	
@@ -569,6 +569,8 @@ GLUE_COLLECTION_HOME_PAGE	概要
 GLUE_COLLECTION_INCLUDE_PREMIUMS	ゴールデンを含む	
 GLUE_COLLECTION_LOCK_CARD_BANNED	禁止	
 GLUE_COLLECTION_LOCK_CARD_INVALID_CLASS	別のクラスのカードだ	
+GLUE_COLLECTION_LOCK_CARD_NOT_IN_CARDSET	対象セット外	
+GLUE_COLLECTION_LOCK_CARD_NOT_IN_FORMAT	対象フォーマット外	
 GLUE_COLLECTION_LOCK_CARD_NOT_PLAYABLE	解禁前	
 GLUE_COLLECTION_LOCK_MAX_DECK_COPIES	選択上限: {0}	
 GLUE_COLLECTION_LOCK_NO_MORE_INSTANCES	在庫なし	
@@ -588,6 +590,7 @@ GLUE_COLLECTION_MANAGER_MANA_TAB_FIRST_CLICK	フィルターを解除するに�
 GLUE_COLLECTION_MANAGER_ON_ADD_FULL_DECK_ERROR_TEXT	デッキはもういっぱいだ。先にカードを減らしてくれ！	
 GLUE_COLLECTION_MANAGER_SEARCH_ARTIST	アーティスト	
 GLUE_COLLECTION_MANAGER_SEARCH_ATTACK	攻撃	
+GLUE_COLLECTION_MANAGER_SEARCH_DIAMOND	ダイヤモンド	
 GLUE_COLLECTION_MANAGER_SEARCH_EVEN_ATTACK	偶数	Search term to filter cards in CollectionManager to cards with even attack value. Example attack:even
 GLUE_COLLECTION_MANAGER_SEARCH_EVEN_CARDS	偶数	Search term to filter cards in CollectionManager to cards that player owns an even number of. Example: owned:even
 GLUE_COLLECTION_MANAGER_SEARCH_EVEN_HEALTH	偶数	Search term to filter cards in CollectionManager to cards with even health value. Example health:even
@@ -661,10 +664,21 @@ GLUE_COLLECTION_TUTORIAL14	ワイルドデッキをスタンダード用に変�
 GLUE_COLLECTION_TUTORIAL15	デッキをスタンダードに変換してみな。	
 GLUE_COLLECTION_TUTORIAL16	これでスタンダード戦に挑めるようになったぞ！	
 GLUE_COLLECTION_TUTORIAL17	ワイルドカードは非表示だ。	
+GLUE_COLLECTION_VANILLA_CARDS	クラシックカード	
+GLUE_COLLECTION_WILD_CARDS	ワイルドカード	
 GLUE_COLLECTION_WILD_SETS	ワイルドセット	
 GLUE_COMING_SOON	近日登場！	
+GLUE_CORE_SET_POPUP_BODY	• 無料レジェンドカード25種類\n• 新登場カード31種類	
+GLUE_CORE_SET_POPUP_FOOTER	（基本＆クラシックカードはワイルド専用になったぞ）	
+GLUE_CORE_SET_POPUP_HEADER	235種類の無料カード！	
+GLUE_CORE_SET_POPUP_SUBHEADER	「コアセット」が利用可能になったぞ！	
+GLUE_CORE_SET_PROGRESS	コアカード: {0}/{1}	0=number of owned cards,1=total number of core cards
+GLUE_CORE_SET_PROGRESS_PHONE	{0}/{1}	0=number of owned cards,1=total number of core cards
 GLUE_CRAFTING_ARCANEDUST	魔素	
 GLUE_CRAFTING_ARCANEDUST_DESCRIPTION	カードを還元して魔素を手に入れよう。魔素を使えば欲しいカードが作れるぞ！	
+GLUE_CRAFTING_CLASSIC_CARD_DESC	これはクラシックフォーマットのカードだぞ。本当にいいのか？	
+GLUE_CRAFTING_CLASSIC_CARD_FIRST_DESC	このクラシックフォーマットのカードを作成するとワイルド版も同時に作成されるが、どちらもスタンダードでは使えないカードなんだ。本当にいいのか？	
+GLUE_CRAFTING_CLASSIC_CARD_HEADER	クラシックフォーマットのカード	
 GLUE_CRAFTING_CREATE	作成	
 GLUE_CRAFTING_DISENCHANT	還元	
 GLUE_CRAFTING_DISENCHANT_CONFIRM_DESC	本当にいいのか？これらのデッキが不完全になるぞ:	
@@ -672,8 +686,12 @@ GLUE_CRAFTING_DISENCHANT_CONFIRM_HEADER	還元
 GLUE_CRAFTING_DISENCHANT_CONFIRM2_DESC	本当にいいのか？このカードを還元すると、このカードの所持数が、1つのデッキに入れていい枚数よりも少なくなるぞ。	
 GLUE_CRAFTING_EVENT_NOT_ACTIVE_DESCRIPTION	{0}カードはまだ作成も還元もできません。	
 GLUE_CRAFTING_EVENT_NOT_ACTIVE_TITLE	解禁前	
+GLUE_CRAFTING_INVALID_CARD_TAVERN_BRAWL_DESC	このカードは今回の酒場の喧嘩では使えないぞ。本当にいいのか？	
+GLUE_CRAFTING_INVALID_CARD_TAVERN_BRAWL_HEADER	無効のカード	
+GLUE_CRAFTING_NONSTANDARD_CARD_WARNING_CANCEL	おっと！間違えた！	
+GLUE_CRAFTING_NONSTANDARD_CARD_WARNING_CONFIRM	本当にいいのだ！	
 GLUE_CRAFTING_SOULBOUND	作成不能	
-GLUE_CRAFTING_SOULBOUND_BASIC_DESC	基本カードは還元も作成もできないぞ。	
+GLUE_CRAFTING_SOULBOUND_CORE_DESC	コアセットのカードは還元も作成もできないぞ。	
 GLUE_CRAFTING_SOULBOUND_DESC	このカードは還元も作成もできないぞ。	
 GLUE_CRAFTING_SOULBOUND_FEATURED_DESC	スペシャルイベント期間中のみ使用可能！	
 GLUE_CRAFTING_SOULBOUND_OFFLINE_DESC	オフライン中は、カードの還元や作成はできないぞ。	
@@ -681,13 +699,10 @@ GLUE_CRAFTING_SOULBOUND_REWARD_DESC	クエスト報酬カードは還元も作�
 GLUE_CRAFTING_TITLE	カードの作成	
 GLUE_CRAFTING_UNDO	取消	
 GLUE_CRAFTING_WILD_CARD_DESC	これはワイルドカードだぞ。本当にいいのか？	
-GLUE_CRAFTING_WILD_CARD_FIRST_WILD_DESC	こいつはスタンダードでは使えない昔のカードだ。本当にいいのか？	
+GLUE_CRAFTING_WILD_CARD_FIRST_DESC	こいつはスタンダードフォーマットでは使えないカードだ。本当にいいのか？	
 GLUE_CRAFTING_WILD_CARD_HEADER	ワイルドカード	
 GLUE_CRAFTING_WILD_CARD_INTRO_DESC	ワイルドモードでは、これまでに登場したあらゆるカードが使えるぞ！	
-GLUE_CRAFTING_WILD_CARD_TAVERN_BRAWL_DESC	このカードは今回の酒場の喧嘩では使えないぞ。本当にいいのか？	
-GLUE_CRAFTING_WILD_CARD_TAVERN_BRAWL_HEADER	無効のカード	
-GLUE_CRAFTING_WILD_CARD_WARNING_CANCEL	おっと！間違えた！	
-GLUE_CRAFTING_WILD_CARD_WARNING_CONFIRM	このまま進む！	
+GLUE_CREATE_CLASSIC_DECK	クラシックデッキを作成	
 GLUE_CREATE_DECK	デッキを組む	
 GLUE_CREATE_STANDARD_DECK	スタンダードデッキを作成	
 GLUE_CREATE_WILD_DECK	ワイルドデッキを作成	
@@ -730,8 +745,9 @@ GLUE_DEMON_HUNTER_LOCKED_HEADER	未開放のヒーローだ
 GLUE_DEMON_HUNTER_LOCKED_PROLOGUE	ソロ・アドベンチャーの「灰に舞う降魔の狩人・デーモンハンター序章」をプレイして、このヒーローを開放しよう。	
 GLUE_DEVICE_PERFORMANCE_WARNING	このデバイスはハースストーンの必要動作環境を満たしていないため、プレイ中にグラフィックやパフォーマンス上の問題が発生する可能性があるぞ。\n\n詳しい情報は「サポート」をタップして確認してくれ。	
 GLUE_DEVICE_PERFORMANCE_WARNING_TITLE	端末のパフォーマンス	
-GLUE_DISABLED_WILD_DECK_DESC	こいつはスタンダードでは使えないぞ。ワイルドフォーマットに切り替えるか、デッキをスタンダード用に変換してくれ。	
-GLUE_DISABLED_WILD_DECK_HEADER	ワイルドデッキ	
+GLUE_DISABLED_DECK_DESC	{0}フォーマットでは使えないぞ。	0=current format
+GLUE_DISABLED_DECK_HEADER	{0}デッキだ	0=deck format
+GLUE_DISABLED_DECK_IN_CURRENT_MODE_DESC	このモードでは使えないぞ。	
 GLUE_DONT_SHOW_ME_THIS_AGAIN	二度と表示しない	
 GLUE_DRAFT_HERO_INSTRUCTIONS	ヒーローを選んでくれ	
 GLUE_DRAFT_HERO_POWER_INSTRUCTIONS_DETAIL	ヒーローパワーはそのクラスのもので、ドラフトするカードは両方のクラスが含まれるからな。	
@@ -886,7 +902,7 @@ GLUE_FSG_STARTING_MINUTES	{0} |4(分後,分後)に開催
 GLUE_FSG_STARTING_OVER_1_MONTH	1ヶ月以内に開催	
 GLUE_FSG_STARTING_SECONDS	{0} |4(秒後,秒後)に開催	
 GLUE_FSG_STARTING_WEEKS	{0}週間以内に開催	
-GLUE_FUN_CONFIRM_MESSAGE	ステキ！	
+GLUE_FUN_CONFIRM_MESSAGE	すごい！	
 GLUE_GAME_MODE_NEW_MODE_UNLOCKED_POPUP_HEADER	新モード解禁:	
 GLUE_GAME_MODES	特殊モード	
 GLUE_GAME_MODES_POPUP_BACON_DESC	プレイヤー8人でバトルロイヤルだ。	
@@ -924,12 +940,6 @@ GLUE_GIL_LOADING_BAR_TASK_9	あんたに這い寄り中
 GLUE_GOLD_CAP_BODY	  手持ちが{0}ゴールド未満になるまで、これ以上のゴールドは手に入らないぞ。	
 GLUE_GOLD_CAP_HEADER	{0}ゴールド貯まったぞ！	
 GLUE_GOONS_CLASS_NAMES	ハンター、パラディン、ウォリアー	
-GLUE_HALL_Of_FAME_BODY	一部のカードがワイルド専用になり、スタンダードでは使えなくなったぞ。	
-GLUE_HALL_OF_FAME_CARD_LIST	これらのカードはワイルド入りしたぞ。	
-GLUE_HALL_OF_FAME_CARD_REPLACEMENT_BODY	一部の基本カードがワイルド入りして、代わりの新しい基本カードが追加されたぞ。	
-GLUE_HALL_OF_FAME_CARD_REPLACEMENT_LIST	これらの基本カードはワイルド入りして、代わりのカードと置き換わったぞ。	
-GLUE_HALL_OF_FAME_DUST_COMPENSATION	コレクションに対象カードが含まれてるな。\n記念のギフトをどうぞ！	
-GLUE_HALL_Of_FAME_SIGN	栄誉の殿堂	
 GLUE_HERO_HEROSELECT_NEW	NEW!	
 GLUE_HERO_LOCKED_DESC	このヒーローに勝てば選択可能になるぞ！	
 GLUE_HERO_LOCKED_NAME	未開放	
@@ -1197,7 +1207,6 @@ GLUE_NEARBY_PLAYERS_ENABLE	利用可能にすると、近くのプレイヤー�
 GLUE_NEGATIVE_CURRENCY	<color=#ff3232ff>{0}</color>	
 GLUE_NEW_HERO	新ヒーロー！	
 GLUE_NEW_PLAYER_AVAILABLE_AT_LEAGUE_PROMO	入門者\n卒業後に\n利用可能	
-GLUE_NEW_PLAYER_AVAILABLE_AT_RANK_25	[x]ランク25で\n利用可能	
 GLUE_NEW_PLAYER_PROMOTION_CHEST_DESC	おめでとう！これであんたも\nベテランの仲間入りだ。\n\n強い相手が待ってるぞ。	
 GLUE_NEW_PLAYER_SET_ROTATION_POPUP_BODY	新たなカードが登場したぞ！手持ちの古いカードの一部は、ランク25以上じゃないと使えなくなったからな。	
 GLUE_NEW_PLAYER_SET_ROTATION_POPUP_BODY_NEW	新たなカードが登場したぞ！手持ちの古いカードの一部は、入門者を卒業してからじゃないと使えなくなったからな。	
@@ -1224,6 +1233,8 @@ GLUE_PATCHING_LABEL	{0}/{1}個のファイルをダウンロード中
 GLUE_PICK_A_CARD	カードを選ぼう	
 GLUE_PICK_A_REGION	地域を選ぼう	
 GLUE_PICK_A_REPLACEMENT	どれと交換する？	
+GLUE_PLAY_CASUAL	カジュアルをプレイ	
+GLUE_PLAY_CLASSIC	クラシックをプレイ	
 GLUE_PLAY_STANDARD	スタンダードをプレイ	
 GLUE_PLAY_WILD	ワイルドをプレイ	
 GLUE_PLAYERS_NEARBY	近くのプレイヤー	
@@ -1231,6 +1242,9 @@ GLUE_PRACTICE	練習
 GLUE_PRACTICE_HINT	練習モードは\nここだ	
 GLUE_PRIVACY_POLICY_BUTTON	隐私协议	
 GLUE_PRIVACY_POLICY_EULA_CONFIRM	同意并进入	
+GLUE_PRIVACY_POLICY_EULA_CONFIRMATION_ACCEPT	同意并进入	
+GLUE_PRIVACY_POLICY_EULA_CONFIRMATION_REJECT	再想想	
+GLUE_PRIVACY_POLICY_EULA_CONFIRMATION_TEXT	抱歉，您在同意《隐私协议》及《最终用户许可协议》后，方可继续开启本游戏。	
 GLUE_PRIVACY_POLICY_EULA_REJECT	不同意	
 GLUE_PRIVACY_POLICY_EULA_TEXT	欢迎来到《炉石传说》\n\n为了给您提供更优质的《炉石传说》游戏服务，《炉石传说》将会使用您的部分信息，请在使用前仔细阅读并同意《炉石传说》相关《隐私协议》及《最终用户许可协议》。若选择不同意，您将无法开启我们的游戏。\n\n请您特别关注以下条款：\n\n争端解决和适用法律。\nA. 争端对各方而言都是昂贵而耗时的。为缩短解决时间并降低解决成本，对于任何针对本协议的争端、争议或索赔（统称 “争端” ），您和运营方同意尽量通过协商方式解决。\nB. 有约束力的仲裁。如果各方无法通过协商解决争端（但下文明确列出的例外争端除外），您和运营方同意通过仲裁处理。各方同意提交中国国际经济贸易仲裁委员会（简称 “CIETAC” ）由三名仲裁员根据CIETAC有效的仲裁规则以及适用法律在中国北京进行仲裁。仲裁裁决是终局的，对各方均有约束力。您的仲裁费用及您应分担的仲裁赔偿应由您个人自行承担。\nC. 限制。您和运营方同意任何仲裁仅限应用于运营方同您个人之间的争端。您认可并同意（a）任何仲裁均不牵涉其他人；（b）没有任何权利或授权进行共同仲裁或使用共同仲裁的程序；并且（c）没有任何权利或授权允许代表公众或者其他人的假设的代理人提起争端。 \nD. 协商与仲裁的例外。您和运营方同意下列争端将不受上述协商及约束仲裁条款约束：（a）任何试图执行或者保护运营方或暴雪知识产权或与知识产权的有效性相关的争端；（b）任何有关偷窃、盗版或未经运营方或暴雪授权使用的争端，或由这些情况引起的争端；及（c）要求解除法院颁发的禁止令。您和运营方同意将此类争端交由运营方所在地有管辖权的人民法院裁决。\nE. 适用法律。除非明确另作说明，本协议应适用中华人民共和国法律，且不适用法律选择原则。《联合国国际货物销售合同公约》被明确排除适用于本协议。	
 GLUE_PRIVACY_POLICY_EULA_TITLE	请阅读以下内容	
@@ -1266,7 +1280,11 @@ GLUE_PROGRESSION_REWARD_TRACK_POPUP_BONUS_DESCRIPTION	{1}からレベル{2}ま�
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_BONUS_LEVEL	レベル{0}超	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_BONUS_TITLE	ボーナス報酬	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_COMPLETE_LEVEL	レベル{0}	
+GLUE_PROGRESSION_REWARD_TRACK_POPUP_FORGOT_REWARDS_BODY	前の拡張版の報酬レーンのカード{0}枚があんたのコレクションに追加されたぞ。	
+GLUE_PROGRESSION_REWARD_TRACK_POPUP_FORGOT_REWARDS_TITLE	もらい忘れた報酬があったぞ！	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_INCOMPLETE_LEVEL	レベル{0}で獲得	
+GLUE_PROGRESSION_REWARD_TRACK_POPUP_NEW_TRACK_BODY	更新された報酬レーンで、エキサイティングな新しい報酬を手に入れよう！	
+GLUE_PROGRESSION_REWARD_TRACK_POPUP_NEW_TRACK_TITLE	新たな報酬レーン: 大荒野	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_PREMIUM_LOCKED	「酒場パス」でプレミアム報酬を開放しよう！	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_SKIN_CHOICE_CLAIMED	受け取り済み	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_SKIN_CHOICE_CONFIRMATION_HEADER	最終確認だ	
@@ -1422,6 +1440,7 @@ GLUE_RANKED_REWARD_QUEST_LOG_LABEL_CLASSICPACKS	クラシックパック
 GLUE_RANKED_REWARD_QUEST_LOG_LABEL_RANK_REQUIRED	{0}に到達	// {0} is Rank Name, "you must reach {Bronze 5} to earn this reward"
 GLUE_RANKED_REWARD_QUEST_LOG_LABEL_RANK_REWARD	ランク{0}報酬	// {0} is Rank number 
 GLUE_RANKED_SEASON_ROLL_FLOW_TITLE	ランクシステムが新しくなったぞ！	
+GLUE_RANKED_SYSTEM_TITLE	ランキングシステム	
 GLUE_RANKED_TIER_NAME_BRONZE	ブロンズ	
 GLUE_RANKED_TIER_NAME_DIAMOND	ダイヤモンド	
 GLUE_RANKED_TIER_NAME_GOLD	ゴールド	
@@ -1478,7 +1497,7 @@ GLUE_RETURNINGPLAYERPOPUP_MESSAGE	酒場のオヤジの挑戦をスキップす�
 GLUE_RETURNINGPLAYERPOPUP_TITLE	本当にいいのか？	
 GLUE_ROTATED_SETS_DIALOG	これらのセットはワイルド専用になったぞ！	
 GLUE_SET_ROTATION_CURRENT_YEAR	ドラゴン年	
-GLUE_SET_ROTATION_NEXT_YEAR	フェニックス年	
+GLUE_SET_ROTATION_NEXT_YEAR	グリフォン年	
 GLUE_SHOP_BOOSTER_SKU_BUTTON	{0}パック	
 GLUE_SHOP_CLOSED_ALERT_HEADER	閉店中	
 GLUE_SHOP_CLOSED_ALERT_TEXT	ショップは一時閉店中だ、また後で寄ってくれ！	
@@ -1899,7 +1918,7 @@ GLUE_TEXTURE_COMPRESSION_WARNING	このビルドにはこのプラットフォ�
 GLUE_TEXTURE_COMPRESSION_WARNING_TITLE	テクスチャ圧縮に関する警告	--TEMP-- This should be in Chinese
 GLUE_THE_CLOCK_BANNER_NEW_WAY	新たなプレイ方法:	
 GLUE_THE_CLOCK_BANNER_STANDARD	「スタンダード」	
-GLUE_THE_CLOCK_BANNER_YEAR	フェニックス年	
+GLUE_THE_CLOCK_BANNER_YEAR	グリフォン年	
 GLUE_THE_CLOCK_DETAILS	[x]スタンダードで使用できるカードは\n毎年更新されるからな。	
 GLUE_THE_CLOCK_DETAILS_STANDARD	スタンダードでは、使えるのは最近のカードだけだ。	
 GLUE_TIP_ADVENTURE_0	恐ろしく強いボス達に勝つには、専用のデッキを組む必要があるだろう。	
@@ -1917,6 +1936,17 @@ GLUE_TIP_ADVENTURE_BOH_6	ヒーローが成長すると共に\nヒーローパ�
 GLUE_TIP_ADVENTURE_BOH_7	何が起こってもうろたえないようにな！\nヒーローの人生には様々な転機があるものなんだ。	
 GLUE_TIP_ADVENTURE_BOH_8	ミッション開始前にデッキを確認して、\n敵に対する戦術を練っておこう。	
 GLUE_TIP_ADVENTURE_BOH_9	歴史に名を刻むヒーローになるには、\n途方もない逆境を乗り越える必要があるんだ。	
+GLUE_TIP_ADVENTURE_BOM_1	ハースストーンの新たなヒーロー達との冒険に備えよう！	
+GLUE_TIP_ADVENTURE_BOM_10	アライアンスのヒーローにとって、大荒野は特に危険な場所だ。\nホードのヒーローにとっては、普通に危険な場所だ。	
+GLUE_TIP_ADVENTURE_BOM_11	ホードの戦士が歩む英雄への道は、クロスローズに通ず。	
+GLUE_TIP_ADVENTURE_BOM_2	このヒーローの旅では、決まったデッキと\nヒーローパワーを使うんだ！	
+GLUE_TIP_ADVENTURE_BOM_3	戦いによっては、一緒に戦う仲間を選べるぞ。	
+GLUE_TIP_ADVENTURE_BOM_4	傭兵の書の各章は連続した物語になってるんだ。	
+GLUE_TIP_ADVENTURE_BOM_5	傭兵生活は驚きの連続だ。何に出くわしてもおかしくないぞ！	
+GLUE_TIP_ADVENTURE_BOM_6	ミッション開始前にデッキを確認して、\n敵に対する戦術を練っておこう。	
+GLUE_TIP_ADVENTURE_BOM_7	ガジェッツァンのカバールの首領・カザカスが最近、大荒野で目撃されてるそうだ。	
+GLUE_TIP_ADVENTURE_BOM_8	「星の雨の夜」には、光り輝く欠片がアゼロス中に降り注いだんだ。	
+GLUE_TIP_ADVENTURE_BOM_9	ロカラは戦長スロールと同じく、フロストウルフ氏族の一人で、アルタラックの谷の出身だ。	
 GLUE_TIP_ADVENTURE_BOT_0	パズルのリセットは一瞬だ。遠慮せず、いろいろ試行錯誤してみよう！	
 GLUE_TIP_ADVENTURE_BOT_1	正しい解法にいつも全てのカードが使われるわけじゃないぞ。	
 GLUE_TIP_ADVENTURE_BOT_2	あきらめるなよ。思いもよらないカードの相互作用を探すんだ。	
@@ -2064,11 +2094,11 @@ GLUE_TIP_BACON_12	他のプレイヤー達が同じミニオンをたくさん�
 GLUE_TIP_BACON_13	売られたミニオンはプールに戻り、再び酒場によく現れるようになるんだ。	
 GLUE_TIP_BACON_14	酒場のグレードアップに全てのゴールドを注ぎ込んでしまうと、あんたの戦団は劣勢に追い込まれ、たぶん負けることになるぞ。	
 GLUE_TIP_BACON_15	酒場を全然グレードアップしないでいると、あんたの戦団は劣勢に追い込まれ、たぶん負けることになるぞ。	
-GLUE_TIP_BACON_16	マーロック軍団は序盤に強く、逆にメカ軍団は終盤に強くなるぞ。	
+GLUE_TIP_BACON_16	ミニオンの種族には、序盤に強い種族もあるし、終盤に強くなる種族もあるんだ。	
 GLUE_TIP_BACON_17	1ゴールド余った時は、酒場を入れ替えよう。\nいいミニオンが出たら凍結しておけば、次のターンにまた会えるぞ。	
 GLUE_TIP_BACON_18	プレイヤー8人の対戦だから、トップ4に入れば勝ちだ！\n1位になると王冠を獲得できるぞ！	
 GLUE_TIP_BACON_19	雇用できるミニオンのプールは、プレイヤー全員に共通なんだ。	
-GLUE_TIP_BACON_2	「変身者ゼラス」は全ての酒場グレードのミニオンに変身できるぞ！	
+GLUE_TIP_BACON_2	ミニオンの種族の組み合わせは対戦ごとに変わるぞ。例えばマーロックが出場する試合もあるし、出場しない試合もあるんだ！	
 GLUE_TIP_BACON_20	対戦相手を倒すと、そのプレイヤーのミニオンは全てプールに戻るんだ。	
 GLUE_TIP_BACON_3	あんたが勝ったら、あんたのヒーローとミニオン達はそれぞれ自分の酒場グレードに等しいダメージを相手に与えるんだ。	
 GLUE_TIP_BACON_4	酒場のアップグレードコストは毎ターン1ずつ減っていくぞ。	
@@ -2081,14 +2111,14 @@ GLUE_TIP_DEFAULT_0	ショップでは追加のカードパックを買うこと�
 GLUE_TIP_DEFAULT_1	デッキを組んでる時にヒーローをクリックすると、\nデッキの名前を変えられるぞ。	
 GLUE_TIP_DEFAULT_1_TOUCH	デッキを組んでる時にヒーローをタップすると、\nデッキの名前を変えられるぞ。	
 GLUE_TIP_DEFAULT_10	闘技場ではランダムなカードから即興で組んだデッキで戦うんだ。\n報酬も手に入るぞ！	
-GLUE_TIP_DEFAULT_11	基本カードはレベルアップすることで手に入る。\n基本カードは還元も作成もできないぞ。	
+GLUE_TIP_DEFAULT_11	コアカードはレベルアップすることで手に入る。\nコアカードは還元も作成もできないぞ。	
 GLUE_TIP_DEFAULT_12	ゴールデンカードを還元すると大量の魔素が手に入るんだ。	
 GLUE_TIP_DEFAULT_13	コレクションの検索欄を利用すれば、\n例えば「挑発」を持つカードだけを探したりできる。	
-GLUE_TIP_DEFAULT_14	基本カードはクラスのレベルを上げることで手に入る。クラシックカードはクラシックパックから手に入るぞ。	
-GLUE_TIP_DEFAULT_15	人が操作する相手と対戦すると、ボーナス経験値が手に入るぞ。	
+GLUE_TIP_DEFAULT_14	コアカードはクラスのレベルを上げることで手に入る。全クラスをレベル10以上にすれば、全てのコアカードを開放できるぞ！	
+GLUE_TIP_DEFAULT_15	人が操作する相手と対戦すると、ボーナス報酬経験値が手に入るぞ。	
 GLUE_TIP_DEFAULT_16	相手のヒーローを右クリックして黙らせることで、感情表現をオフにできる。	
 GLUE_TIP_DEFAULT_16_TOUCH	相手のヒーローをタップして黙らせることで、感情表現をオフにできる。	
-GLUE_TIP_DEFAULT_17	1つのクラスで、ランク戦と闘技場で合計500勝すれば、ゴールデンヒーローを獲得できるぞ。	
+GLUE_TIP_DEFAULT_17	1つのクラスで、ランク戦、闘技場、デュエルで合計500勝すれば、ゴールデンヒーローを獲得できるぞ。	
 GLUE_TIP_DEFAULT_18	画面の左下にあるボタンから、あんたの友達を友達リストに追加できるぞ。	
 GLUE_TIP_DEFAULT_18_PHONE	画面の左上にあるボタンから、あんたの友達を友達リストに追加できるぞ。	
 GLUE_TIP_DEFAULT_19	ランク戦モードの最高ランクは「レジェンド」ランクだ！	
@@ -2096,28 +2126,31 @@ GLUE_TIP_DEFAULT_2	対戦中に自分のヒーローを右クリックすると�
 GLUE_TIP_DEFAULT_2_TOUCH	対戦中に自分のヒーローをタップすると、感情表現ができるぞ。	
 GLUE_TIP_DEFAULT_20	友達が対戦中なら、友達リストの「目」のボタンを押せば観戦できるぞ！	
 GLUE_TIP_DEFAULT_21	スマホで、タブレットで、そしてパソコンでハースストーンをプレイ。どれを使っても、同じデータでプレイできるぞ！	
-GLUE_TIP_DEFAULT_22	お気に入りのクラスの新しいヒーローをショップで購入できるぞ。	
-GLUE_TIP_DEFAULT_23	スタンダードでは、ベーシック、クラシック、最近2年以内に登場したカードが使えるぞ。	
+GLUE_TIP_DEFAULT_22	新しいヒーローやカード裏面デザインなどの特別オファーがないか、ショップをチェックしてみよう！	
+GLUE_TIP_DEFAULT_23	スタンダードでは、コアセットと、最近2年以内に登場したセットのカードが使えるぞ。	
 GLUE_TIP_DEFAULT_24	デッキを組んでる時にヒーローをクリックすると、スタンダードとワイルドを切り替えられるぞ。	
 GLUE_TIP_DEFAULT_24_TOUCH	デッキを組んでる時にヒーローをタップすると、スタンダードとワイルドを切り替えられるぞ。	
-GLUE_TIP_DEFAULT_25	今年はフェニックス年だ！（テーマは毎年新しくなるぞ）	
+GLUE_TIP_DEFAULT_25	今年はグリフォン年だ！（テーマは毎年新しくなるぞ）	
 GLUE_TIP_DEFAULT_26	コレクションを見る時、左下のフィルターボタンをクリックすると、表示するセットを選べるぞ。	
 GLUE_TIP_DEFAULT_26_TOUCH	コレクションを見る時、左下のフィルターボタンをタップすると、表示するセットを選べるぞ。	
 GLUE_TIP_DEFAULT_27	新しいセットがリリースされたら、そのカードはワイルドでもスタンダードでも使えるからな。	
 GLUE_TIP_DEFAULT_28	ワイルドは全てのカードが使える、文字通りワイルドなフォーマットだ！	
 GLUE_TIP_DEFAULT_29	スタンダードでは、新しい戦略が常に進化し続けるんだ。	
-GLUE_TIP_DEFAULT_3	デッキを組んでる時に助言が欲しくなったら、コレクションブックの「お勧めカード」機能を使ってみな。	
-GLUE_TIP_DEFAULT_30	今後も定期的に、新しいデッキレシピが公開されるぞ。	
+GLUE_TIP_DEFAULT_3	コレクションブックでデッキを構築してる時に「デッキ自動完成」ボタンを押すと、デッキの完成を手伝ってもらえるぞ！	
+GLUE_TIP_DEFAULT_30	新しい拡張版ごとに、新しいデッキレシピが公開されるぞ。	
 GLUE_TIP_DEFAULT_31	スタンダードに登場するのは最近のセットだけだ。古いカードについて学ぶ必要はないぞ。	
 GLUE_TIP_DEFAULT_32	友達との対戦でもクエストを達成できるぞ。	
 GLUE_TIP_DEFAULT_33	友達に挑戦して、互いのクエストを達成しよう！	
+GLUE_TIP_DEFAULT_34	「バトルグラウンド」では、酒場の他のプレイヤー7人を相手に対戦するんだ。	
+GLUE_TIP_DEFAULT_35	「デュエル」では、プレイしながらデッキを構築するんだ。対戦が終わるごとに、デッキにカードを追加していけるぞ！	
+GLUE_TIP_DEFAULT_36	「酒場パス」を開放すると、さらに多くの報酬XPが手に入るようになるぞ。	
+GLUE_TIP_DEFAULT_37	1つのクラスで、ランク戦、闘技場、デュエルで合計1000勝すれば、伝承ヒーローを獲得できるぞ！	
 GLUE_TIP_DEFAULT_4	カードのレア度は、真ん中にあるレア輝石の色で区別できる。	
 GLUE_TIP_DEFAULT_5	色とレア度は低い順に、白がコモン、青がレア、\n紫がエピックでオレンジがレジェンドだ。	
 GLUE_TIP_DEFAULT_6	カードパックには必ず1枚はレア以上のカードが入ってるぞ。運が良ければもっとだ！	
 GLUE_TIP_DEFAULT_7	クエストがなくなっても、明日また来れば新しいのを受けられるぞ！	
 GLUE_TIP_DEFAULT_8	1シーズン中にランク戦で5試合勝利すれば、シーズン限定のカード裏面デザインが手に入るぞ。	
-GLUE_TIP_DEFAULT_8_RANKED_2.0	1シーズン中にランク20まで上がれれば、シーズン限定のカード裏面デザインが手に入るぞ。	
-GLUE_TIP_DEFAULT_9	クエストを達成するとゴールドを獲得できる。\nゴールドはカードパックを買ったり、闘技場に入場するために使うんだ。	
+GLUE_TIP_DEFAULT_9	クエストを達成して報酬XPを獲得しよう。XPを貯めることで、報酬レーンを進めるんだ。	
 GLUE_TIP_DUELS_0	低コストのミニオンほど、出せるチャンスは多い。	
 GLUE_TIP_DUELS_1	高コストの強力なミニオンは、終盤戦で勝負をひっくり返せることもあるぞ。	
 GLUE_TIP_DUELS_10	常時発動の宝物には、対戦相手は一切手出しできないんだ。	
@@ -2147,22 +2180,21 @@ GLUE_TIP_FORGE_2	闘技場への挑戦を始めたら、3回負けるまでは�
 GLUE_TIP_HEROICBRAWL_0	今回の喧嘩は、実力が伯仲した相手とマッチメークすることが\n特に重要なんだ。いつもより待ち時間が長くなるかもしれないが\n大目に見てくれ！	
 GLUE_TIP_PLAY_0	対戦相手は同じくらいの腕前のプレイヤーから選ばれるぞ。	
 GLUE_TIP_PLAY_1	勝ったり負けたりするごとに腕前を判定し、常に同等の強さの相手と対戦が組まれるようになってるんだ。	
-GLUE_TIP_PLAY_2	各クラスには5種類の基本カードがあり、\nクラスのレベルを上げることで手に入るぞ。	
-GLUE_TIP_PLAY_3	クエストを達成するとゴールドを獲得できる。\nゴールドはカードパックを買ったり、闘技場に入場するために使うんだ。	
+GLUE_TIP_PLAY_2	各クラスには16種類のコアカードがあり、\nクラスのレベルを上げることで手に入るぞ。	
+GLUE_TIP_PLAY_3	クエストを達成して報酬XPを獲得しよう。XPを貯めることで、報酬レーンを進めるんだ。	
 GLUE_TIP_PLAY_4	ランク戦モードの最高ランクは「レジェンド」ランクだ！	
 GLUE_TIP_PLAY_5	デッキには同じカードを2枚まで入れられる。\nただし、レジェンドのカードはそれぞれ1枚ずつが上限だ。	
 GLUE_TIP_PLAY_6	闘技場は、競技に参加して報酬を獲得できる、お勧めの場所だ。	
 GLUE_TIP_PLAY_7	闘技場への挑戦を始めたら、3回負けるまでは何度でも出入りできる。\n毎日少しずつプレイしてもいいんだ。	
 GLUE_TIP_PLAY_8	1シーズン中にランク戦で5試合勝利すれば、シーズン限定のカード裏面デザインが手に入るぞ。	
-GLUE_TIP_PLAY_8_RANKED_2.0	1シーズン中にランク20まで上がれれば、シーズン限定のカード裏面デザインが手に入るぞ。	
 GLUE_TIP_PRACTICE_0	練習モードでクラシックヒーローに勝てば、そのヒーローを使えるようになるぞ。	
 GLUE_TIP_PRACTICE_1	練習モードはただの準備運動、本番はプレイモードだ！	
 GLUE_TIP_PRACTICE_2	プレイモードでは、同じくらいの強さの相手と対戦が組まれるぞ！	
 GLUE_TIP_PRACTICE_3	コレクションでは、手持ちのカードで自分だけのカスタムデッキが作れるぞ。	
-GLUE_TIP_PRACTICE_4	各クラスには5種類の基本カードがあり、\nクラスのレベルを上げることで手に入るぞ。	
-GLUE_TIP_PRACTICE_5	「プレイ」モードでクエストを達成してゴールドを獲得しよう！	
+GLUE_TIP_PRACTICE_4	各クラスには16種類のコアカードがあり、\nクラスのレベルを上げることで手に入るぞ。	
+GLUE_TIP_PRACTICE_5	「プレイ」モードでクエストを達成して報酬XPを獲得しよう！	
 GLUE_TIP_PRACTICE_6	ヒーローを攻撃するか？それとも敵のミニオンか？\n正しい一手は、時に戦況をひっくり返す力があるぞ。	
-GLUE_TIP_PRACTICE_7	レベル10以降は、他プレイヤーと対戦した方が、多く経験値を獲得できる。	
+GLUE_TIP_PRACTICE_7	レベル10以降は、他プレイヤーと対戦した方が、多くヒーロー経験値を獲得できる。	
 GLUE_TIP_TAVERNBRAWL_0	酒場の喧嘩では、毎週新しくなるクレイジーなルールでプレイできるんだ！	
 GLUE_TIP_TAVERNBRAWL_1	酒場の喧嘩が終わった後は、掃除と修繕に1時間ほどかかるんでな。入れなかったら、後でまた来てくれ！	
 GLUE_TIP_TAVERNBRAWL_2	改装祝い中は、毎週最初に酒場の喧嘩で勝ったときに、クラシックパックを1つもらえるぞ！	This tip was removed. Translators: please leave this blank. Blank tips are skipped over. For devs: when adding new tips later, feel free to use this slot (and update this comment).
@@ -2200,7 +2232,6 @@ GLUE_TOOLTIP_BUTTON_TAVERN_BRAWL_HEADLINE	酒場の喧嘩
 GLUE_TOOLTIP_BUTTON_TAVERN_BRAWL_NOT_UNLOCKED	いずれかのクラスで20レベルになれば利用可能になるぞ。	
 GLUE_TOOLTIP_BUTTON_TOURNAMENT_DESC	同等の腕前のプレイヤーを相手に対戦だ。	
 GLUE_TOOLTIP_BUTTON_TOURNAMENT_HEADLINE	プレイ	
-GLUE_TOOLTIP_CASUAL_BUTTON	同等の腕前のプレイヤーと、気楽に楽しもう！	
 GLUE_TOOLTIP_DOWNLOAD_DESCRIPTION	ハースストーンはプレイ中もダウンロード進行中だ！	
 GLUE_TOOLTIP_DOWNLOAD_HEADER	ダウンロード中	
 GLUE_TOOLTIP_GOLD_DESCRIPTION	パックを買ったり、闘技場の入場料に使えるぞ。	
@@ -2214,11 +2245,19 @@ GLUE_TOOLTIP_VIRTUAL_CURRENCY_HEADER	ルーンストーン
 GLUE_TOURNAMENT	プレイ	
 GLUE_TOURNAMENT_CASUAL	カジュアル	
 GLUE_TOURNAMENT_CASUAL_WILD	ワイルドカジュアル	
+GLUE_TOURNAMENT_CLASSIC_DESC	オリジナル版のカード240種類だけを使えるぞ。	
+GLUE_TOURNAMENT_DESCRIPTION_CASUAL	全てのカードが使用可能だ、カジュアルプレイヤー同士で対戦しよう。	
+GLUE_TOURNAMENT_DESCRIPTION_CLASSIC	クラシックフォーマットのカードだけが使えるぞ。	
+GLUE_TOURNAMENT_DESCRIPTION_STANDARD	コアセットと、最近2年以内に登場したカードだけが使えるぞ。	
+GLUE_TOURNAMENT_DESCRIPTION_WILD	クラシックフォーマットを除く、全てのカードが使えるぞ。	
+GLUE_TOURNAMENT_MISSING_DECKS_CLASSIC	クラシックデッキがないようだな。ひとつ組んでくれ！	
 GLUE_TOURNAMENT_RANKED	ランク戦	
+GLUE_TOURNAMENT_RANKED_CLASSIC	クラシックランク戦	
 GLUE_TOURNAMENT_RANKED_WILD	ワイルドランク戦	
-GLUE_TOURNAMENT_STANDARD_DESC	ベーシック、クラシック、最近2年以内に登場したカードだけが使えるぞ。	
+GLUE_TOURNAMENT_STANDARD_DESC	コアセットと、去年登場したカードだけが使えるぞ。	
 GLUE_TOURNAMENT_STAR_MULT_BODY	あんたは勝利の度にスターを{0}個獲得するぞ。スターボーナスはランクアップに応じて減っていくからな。	
 GLUE_TOURNAMENT_STAR_MULT_HEAD	スターボーナス x{0}	
+GLUE_TOURNAMENT_SWITCH_MODE	ここからモードを切り替えられるぞ	
 GLUE_TOURNAMENT_SWITCH_TO_STANDARD	スタンダードへの切り替えを試みる	
 GLUE_TOURNAMENT_SWITCH_TO_WILD	ここからワイルドに切り替えられるぞ	
 GLUE_TOURNAMENT_UNRANKED_DESC	非ランクモードには専用の腕前レーティングがある。それとメダルは獲得できないぞ。	

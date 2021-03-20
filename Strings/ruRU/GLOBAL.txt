@@ -91,9 +91,10 @@ GLOBAL_BUTTON_OR	ИЛИ
 GLOBAL_BUTTON_OWNED	В коллекции	
 GLOBAL_BUTTON_YES	Да	
 GLOBAL_CANCEL	Отмена	
-GLOBAL_CARD_SET_BAR	Степи	
+GLOBAL_CARD_SET_BAR	Закаленные Степями	
 GLOBAL_CARD_SET_BAR_SEARCHABLE_SHORTHAND_NAMES	bar зс зак степ	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_BAR_SHORT	Степи	
+GLOBAL_CARD_SET_BASIC	Базовый набор	
 GLOBAL_CARD_SET_BOOMSDAY	Проект Бумного дня	
 GLOBAL_CARD_SET_BOOMSDAY_SEARCHABLE_SHORTHAND_NAMES	bd tbp bdp tbdp bp бд пбд	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_BOOMSDAY_SHORT	Бумный день	
@@ -102,7 +103,9 @@ GLOBAL_CARD_SET_BRM_SEARCHABLE_SHORTHAND_NAMES	ЧГ	This is a space-separated li
 GLOBAL_CARD_SET_BT	Руины Запределья	
 GLOBAL_CARD_SET_BT_SEARCHABLE_SHORTHAND_NAMES	рз руины	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_BT_SHORT	Запределье	
-GLOBAL_CARD_SET_CORE	Базовый набор	
+GLOBAL_CARD_SET_CORE	Основной набор	
+GLOBAL_CARD_SET_CORE_SEARCHABLE_SHORTHAND_NAMES	основной	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_CORE_SHORT	Основной	
 GLOBAL_CARD_SET_DALARAN	Возмездие теней	
 GLOBAL_CARD_SET_DALARAN_SEARCHABLE_SHORTHAND_NAMES	вт	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_DALARAN_SHORT	Возмездие теней	
@@ -132,6 +135,9 @@ GLOBAL_CARD_SET_ICECROWN_SHORT	Ледяной Трон
 GLOBAL_CARD_SET_KARA	Вечеринка в Каражане	
 GLOBAL_CARD_SET_KARA_RESERVE	Запасник Каражана	
 GLOBAL_CARD_SET_KARA_SHORT	Каражан	
+GLOBAL_CARD_SET_LEGACY	Старые карты	
+GLOBAL_CARD_SET_LEGACY_SEARCHABLE_SHORTHAND_NAMES	старые	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_LEGACY_SHORT	Старые карты	
 GLOBAL_CARD_SET_LOE	Лига исследователей	
 GLOBAL_CARD_SET_LOE_SEARCHABLE_SHORTHAND_NAMES	ЛИ лига исследователи loe	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_LOE_SHORT	Лига исследователей	
@@ -159,6 +165,12 @@ GLOBAL_CARD_SET_ULDUM_SEARCHABLE_SHORTHAND_NAMES	sou su су ульдум спа
 GLOBAL_CARD_SET_ULDUM_SHORT	Ульдум	
 GLOBAL_CARD_SET_UNGORO	Экспедиция в Ун'Горо	
 GLOBAL_CARD_SET_UNGORO_SHORT	Ун'Горо	
+GLOBAL_CARD_SET_VANILLA	Классический набор 	
+GLOBAL_CARD_SET_VANILLA_FORMAT_SEARCHABLE_SHORTHAND_NAMES	классика	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_VANILLA_FORMAT_SHORT	Классический 	
+GLOBAL_CARD_SET_WC	Пещеры Стенаний	
+GLOBAL_CARD_SET_WC_SEARCHABLE_SHORTHAND_NAMES	пс	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_WC_SHORT	Пещеры	
 GLOBAL_CARD_SET_WILD_EVENT	Событие в вольном формате	
 GLOBAL_CARD_SET_WILD_EVENT_SHORT	Событие в вольном формате	
 GLOBAL_CARD_SET_YOD	Пробуждение Галакронда	
@@ -192,6 +204,7 @@ GLOBAL_CLASS_ROGUE	Разбойник
 GLOBAL_CLASS_SHAMAN	Шаман	
 GLOBAL_CLASS_WARLOCK	Чернокнижник	
 GLOBAL_CLASS_WARRIOR	Воин	
+GLOBAL_CLASSIC	Классика	
 GLOBAL_CLICK_TO_CONTINUE	Щелкните, чтобы продолжить.	
 GLOBAL_CLICK_TO_CONTINUE_TOUCH	Нажмите, чтобы продолжить.	
 GLOBAL_COLLECTION_GOLDEN	Золотая карта	
@@ -378,16 +391,19 @@ GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_UNAVAILABLE	Игрок {0} сейчас н
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_MODE_UNAVAILABLE	В настоящее время бросить вызов другу в этом режиме невозможно.	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_THEYRE_UNAVAILABLE	Игрок {0} сейчас не может получить ваш вызов. Дождитесь, когда он вернется в главное меню.	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_BATTLEGROUNDS_EARLY_ACCESS	У этого игрока нет раннего доступа к «Полям сражений».	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_CLASSIC_DECK	У этого игрока нет классических колод.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_DECK	У этого игрока нет колод.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_STANDARD_DECK	У этого игрока нет стандартных колод.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_TAVERN_BRAWL_DECK	Этот игрок еще не создал колоду для «Потасовки».	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NOT_SEEN_WILD	Этот игрок еще не открыл вольный формат.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_TAVERN_BRAWL_LOCKED	Этот игрок еще не получил доступ к «Потасовке».	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_USER_IS_BUSY	Этот игрок пока занят.	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_NO_CLASSIC_DECK	У вас нет классических колод.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_NO_DECK	Сперва нужно создать колоду.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_NO_STANDARD_DECK	У вас пока нет стандартных колод.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_NO_TAVERN_BRAWL_DECK	Для участия в «Потасовке» на этой неделе необходимо создать колоду.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_TAVERN_BRAWL_LOCKED	Вы получите доступ к «Потасовке», когда достигнете 20-го уровня любым классом.	
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_CLASSIC_DUEL_BUTTON	Классика	
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_DUEL_BUTTON	Дуэль	
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_STANDARD_DUEL_BUTTON	Стандартный	
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_WILD_DUEL_BUTTON	Вольный	
@@ -398,7 +414,7 @@ GLOBAL_FRIENDLIST_FRIENDS_HEADER	ДРУЗЬЯ – {0}/{1} в сети	0=number o
 GLOBAL_FRIENDLIST_FRIENDS_HEADER_ALL_ONLINE	ДРУЗЬЯ – {0} в сети	
 GLOBAL_FRIENDLIST_LASTPLAYED	Последний противник:	
 GLOBAL_FRIENDLIST_MYSTATUS	В СЕТИ	
-GLOBAL_FRIENDLIST_NEARBY_PLAYERS_DISABLED_HEADER	ИГРОКИ РЯДОМ С ВАМИ (отключено)	
+GLOBAL_FRIENDLIST_NEARBY_PLAYERS_DISABLED_HEADER	РЯДОМ С ВАМИ (отключено)	
 GLOBAL_FRIENDLIST_NEARBY_PLAYERS_HEADER	РЯДОМ С ВАМИ – {0}	0=number of players
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_ALERT_MESSAGE	Вы действительно хотите удалить игрока {0}?	0=friend name
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_BUTTON	Удалить	
@@ -456,7 +472,7 @@ GLOBAL_HERO_LEVEL_REWARD_GOLDEN_CARD	{0} «{1}»	0=flair 1=card name
 GLOBAL_HERO_WINS	Побед: {0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HERO_WINS_PAST_MAX	Побед: {0}	0=number of games this class has won
 GLOBAL_HERO_WINS_PAST_MAX_PHONE	Побед\n{0}	0=number of games this class has won
-GLOBAL_HERO_WINS_PHONE	Побед:\n{0}/{1}	0=number of games this class has won 1=number of wins to get golden
+GLOBAL_HERO_WINS_PHONE	Побед: {0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HEROIC_BRAWL	Героическая потасовка	
 GLOBAL_HIDE	Скрыть	
 GLOBAL_IN_PROGRESS_REWARD_CHEST_INSTRUCTIONS	Выиграйте еще {0} |4(матч,матча,матчей), чтобы получить сезонный сундук!\n(станет доступно в следующем месяце)	
@@ -510,8 +526,8 @@ GLOBAL_KEYWORD_EMPOWER_WARLOCK	Воззвание: чернокнижник
 GLOBAL_KEYWORD_EMPOWER_WARLOCK_TEXT	Сила Галакронда: <i>призывает двух бесов 1/1.</i>	
 GLOBAL_KEYWORD_EMPOWER_WARRIOR	Воззвание: воин	
 GLOBAL_KEYWORD_EMPOWER_WARRIOR_TEXT	Сила Галакронда: <i>ваш герой получает +3 к атаке до конца хода.</i>	
-GLOBAL_KEYWORD_ENRAGED	Исступление	
-GLOBAL_KEYWORD_ENRAGED_TEXT	Пока у этого существа неполное здоровье, оно обладает новой способностью.	
+GLOBAL_KEYWORD_ENRAGED_TOOLTIP	Исступление	
+GLOBAL_KEYWORD_ENRAGED_TOOLTIP_TEXT	Пока у этого существа неполное здоровье, оно получает новую способность.	
 GLOBAL_KEYWORD_EVILZUG	Прихвостень	
 GLOBAL_KEYWORD_EVILZUG_TEXT	Существо за (1) с «Боевым кличем».	
 GLOBAL_KEYWORD_FATIGUE	Усталость	
@@ -520,14 +536,14 @@ GLOBAL_KEYWORD_FLOOPY	Ухлюпистый Хлюп
 GLOBAL_KEYWORD_FLOOPY_TEXT	Превращается, когда вы разыгрываете существо.	
 GLOBAL_KEYWORD_FREEZE	Заморозка	
 GLOBAL_KEYWORD_FREEZE_TEXT	Замороженные персонажи пропускают следующую атаку.	
+GLOBAL_KEYWORD_FRENZY	Бешенство	
+GLOBAL_KEYWORD_FRENZY_TEXT	Срабатывает один раз, когда существо получает урон и выживает.	
 GLOBAL_KEYWORD_FROZEN	Под действием заморозки	
 GLOBAL_KEYWORD_FROZEN_TEXT	Не может атаковать в следующий ход.	
 GLOBAL_KEYWORD_GALAKROND	Галакронд	
 GLOBAL_KEYWORD_GALAKROND_COLLECTION_TEXT	Эту карту можно использовать в колоде жреца, разбойника, шамана, чернокнижника или воина.	
 GLOBAL_KEYWORD_GRIMY_GOONS	«Ржавые Бугаи»	
 GLOBAL_KEYWORD_GRIMY_GOONS_COLLECTION_TEXT	Эту карту можно использовать в колоде охотника, паладина или воина.	
-GLOBAL_KEYWORD_HALL_OF_FAME	Зал славы	
-GLOBAL_KEYWORD_HALL_OF_FAME_TEXT	Особый набор карт, которые больше нельзя использовать в стандартном формате.	
 GLOBAL_KEYWORD_IMMUNE	Неуязвимость	
 GLOBAL_KEYWORD_IMMUNE_REF_TEXT	Персонажу с неуязвимостью нельзя нанести урон.	
 GLOBAL_KEYWORD_IMMUNE_TEXT	Не получает урон.	
@@ -586,7 +602,31 @@ GLOBAL_KEYWORD_SPAREPART_TEXT	Заклинания за (1) с незначит�
 GLOBAL_KEYWORD_SPELLBURST	Резонанс	
 GLOBAL_KEYWORD_SPELLBURST_TEXT	Эффект, срабатывающий один раз после того, как вы применяете заклинание.	
 GLOBAL_KEYWORD_SPELLPOWER	Урон от заклинаний	
+GLOBAL_KEYWORD_SPELLPOWER_ARCANE	Урон от заклинаний тайной магии	
+GLOBAL_KEYWORD_SPELLPOWER_ARCANE_REF_TEXT	Ваши заклинания тайной магии наносят больше урона.	
+GLOBAL_KEYWORD_SPELLPOWER_ARCANE_TEXT	Ваши заклинания тайной магии наносят на {0} ед. больше урона.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLPOWER_FEL	Урон от заклинаний Скверны	
+GLOBAL_KEYWORD_SPELLPOWER_FEL_REF_TEXT	Ваши заклинания Скверны наносят больше урона.	
+GLOBAL_KEYWORD_SPELLPOWER_FEL_TEXT	Ваши заклинания Скверны наносят на {0} ед. больше урона.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLPOWER_FIRE	Урон от заклинаний огня	
+GLOBAL_KEYWORD_SPELLPOWER_FIRE_REF_TEXT	Ваши заклинания огня наносят больше урона.	
+GLOBAL_KEYWORD_SPELLPOWER_FIRE_TEXT	Ваши заклинания огня наносят на {0} ед. больше урона.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLPOWER_FROST	Урон от заклинаний льда	
+GLOBAL_KEYWORD_SPELLPOWER_FROST_REF_TEXT	Ваши заклинания льда наносят больше урона.	
+GLOBAL_KEYWORD_SPELLPOWER_FROST_TEXT	Ваши заклинания льда наносят на {0} ед. больше урона.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLPOWER_HOLY	Урон от заклинаний Света	
+GLOBAL_KEYWORD_SPELLPOWER_HOLY_REF_TEXT	Ваши заклинания Света наносят больше урона.	
+GLOBAL_KEYWORD_SPELLPOWER_HOLY_TEXT	Ваши заклинания Света наносят на {0} ед. больше урона.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLPOWER_NATURE	Урон от заклинаний природы	
+GLOBAL_KEYWORD_SPELLPOWER_NATURE_REF_TEXT	Ваши заклинания природы наносят больше урона.	
+GLOBAL_KEYWORD_SPELLPOWER_NATURE_TEXT	Ваши заклинания природы наносят на {0} ед. больше урона.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLPOWER_PHYSICAL	Урон от заклинаний силы	
+GLOBAL_KEYWORD_SPELLPOWER_PHYSICAL_REF_TEXT	Ваши заклинания силы наносят больше урона.	
+GLOBAL_KEYWORD_SPELLPOWER_PHYSICAL_TEXT	Ваши заклинания силы наносят на {0} ед. больше урона.	0=amount of spell damage
 GLOBAL_KEYWORD_SPELLPOWER_REF_TEXT	Ваши заклинания наносят больше урона.	
+GLOBAL_KEYWORD_SPELLPOWER_SHADOW	Урон от заклинаний Тьмы	
+GLOBAL_KEYWORD_SPELLPOWER_SHADOW_REF_TEXT	Ваши заклинания Тьмы наносят больше урона.	
+GLOBAL_KEYWORD_SPELLPOWER_SHADOW_TEXT	Ваши заклинания Тьмы наносят на {0} ед. больше урона.	0=amount of spell damage
 GLOBAL_KEYWORD_SPELLPOWER_TEXT	Ваши заклинания наносят на {0} ед. больше урона.	0=amount of spell damage
 GLOBAL_KEYWORD_START_OF_COMBAT	Начало боя	
 GLOBAL_KEYWORD_START_OF_COMBAT_TEXT	Бонусный эффект в начале фазы боя.	
@@ -665,9 +705,11 @@ GLOBAL_MEDAL_9	Рыцарь Длани
 GLOBAL_MEDAL_ARENA_TOOLTIP_BODY	Это ваш лучший ключ на Арене.\nКоличество побед: {0}	0=num wins
 GLOBAL_MEDAL_REWARD_CONGRATULATIONS	Поздравляем!	
 GLOBAL_MEDAL_REWARD_DESCRIPTION	Медаль за прошлую неделю	
-GLOBAL_MEDAL_TOOLTIP_BEST_RANK_STANDARD	Ваш ранг в стандартном формате: {0}	
+GLOBAL_MEDAL_TOOLTIP_BEST_RANK_CLASSIC	Ранг в классическом формате: {0}	
+GLOBAL_MEDAL_TOOLTIP_BEST_RANK_STANDARD	Ранг в стандартном формате: {0}	
 GLOBAL_MEDAL_TOOLTIP_BEST_RANK_WILD	Ранг в вольном формате: {0}	
 GLOBAL_MEDAL_TOOLTIP_BODY_ARENA_GRAND_MASTER	Вы – чемпион Арены!	
+GLOBAL_MEDAL_TOOLTIP_BODY_CLASSIC	Побеждайте в классическом формате, чтобы перейти на следующий ранг!	
 GLOBAL_MEDAL_TOOLTIP_BODY_LEGEND	Вы – легенда! С каждой игрой ваша позиция в рейтинге этого ранга будет меняться.	
 GLOBAL_MEDAL_TOOLTIP_BODY_STANDARD	Побеждайте в стандартном формате, чтобы перейти на следующий ранг!	
 GLOBAL_MEDAL_TOOLTIP_BODY_WILD	Побеждайте в вольном формате, чтобы перейти на следующий ранг!	
@@ -753,6 +795,7 @@ GLOBAL_PROGRAMNAME_WARCRAFT3	Warcraft III: Reforged
 GLOBAL_PROGRAMNAME_WOW	World of Warcraft	
 GLOBAL_PROGRESSION_ACHIEVEMENT_COMPLETION	Получено: {0}	
 GLOBAL_PROGRESSION_ACHIEVEMENT_COMPLETION_DATE	{0:dd/MM/yyyy}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
+GLOBAL_PROGRESSION_ACHIEVEMENT_COMPLETION_PERCENTAGE	{0}%	
 GLOBAL_PROGRESSION_ACHIEVEMENT_SUBCATEGORY_NAME	{0} — {1}	
 GLOBAL_PROGRESSION_DAILY_QUESTS_POPUP_TITLE	Задания	
 GLOBAL_PROGRESSION_POINTS	Очки достижений: {0}	
@@ -771,13 +814,12 @@ GLOBAL_PROGRESSION_PROFILE_PVPDR_HEROIC_STAT_TOOLTIP	Участвуйте в г�
 GLOBAL_PROGRESSION_PROFILE_PVPDR_HEROIC_STAT_TOOLTIP_TITLE	Рейтинг в героических дуэлях	
 GLOBAL_PROGRESSION_PROGRESS_MESSAGE	{0} / {1}	
 GLOBAL_PROGRESSION_QUEST_TIME_UNTIL_NEXT	Новое задание через {0}	
-GLOBAL_PROGRESSION_RANKED_REWARDS_TOOLTIP	Получайте награды в каждом сезоне за лучший ранг в вольном или стандартном формате.	
+GLOBAL_PROGRESSION_RANKED_REWARDS_TOOLTIP	Получайте награды в каждом сезоне за лучший ранг в вольном, стандартном или классическом формате.	
 GLOBAL_PROGRESSION_RANKED_REWARDS_TOOLTIP_TITLE	Награды за ранг	
 GLOBAL_PROGRESSION_REWARD_SUMMARY	{0}\n{1}	
 GLOBAL_PROGRESSION_REWARD_TRACK_XP	{0} ед. опыта	
 GLOBAL_PROGRESSION_TIER_MESSAGE	{0}/{1}	
 GLOBAL_PROGRESSION_TOOLTIP_GOLDEN_WINS_DESC	Одержите 500 побед в рейтинговых матчах или на Арене, выбрав класс «{0}», чтобы получить золотого классического героя этого класса!	{0}=class name
-GLOBAL_PROGRESSION_TOOLTIP_HERO_LEVEL_NEXT_REWARD	Награда за {1}-й уровень: {0} карта	{0}=premium {1}=level
 GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DESC	Одержите 1000 побед в рейтинговых матчах или на Арене, выбрав класс «{0}», чтобы получить награду: {1}!	{0}=class name {1}=hero card name
 GLOBAL_PROGRESSION_TOOLTIP_TOTAL_CLASS_WINS	Всего побед ({0})	{0}=class name
 GLOBAL_PROGRESSION_WEEKLY_QUESTS_POPUP_TITLE	Еженедельные задания	
@@ -823,6 +865,8 @@ GLOBAL_RACE_PET	Зверь
 GLOBAL_RACE_PET_BATTLEGROUNDS	Звери	
 GLOBAL_RACE_PIRATE	Пират	
 GLOBAL_RACE_PIRATE_BATTLEGROUNDS	Пираты	
+GLOBAL_RACE_QUILBOAR	Свинобраз	
+GLOBAL_RACE_QUILBOARS_BATTLEGROUNDS	Свинобразы	
 GLOBAL_RACE_SCOURGE	Плеть	
 GLOBAL_RACE_SCOURGE_BATTLEGROUNDS	Плеть	
 GLOBAL_RACE_TAUREN	Сектант	
@@ -874,7 +918,7 @@ GLOBAL_REWARD_ARCANE_ORBS_HEADLINE	Получены чародейские сф�
 GLOBAL_REWARD_ARENA_TICKET_ADMIT	ПРОПУСК	the word 'admit' in capital letters - displayed like "Admit 1" and looks like a movie/fair ticket. this is the Arena Ticket reward visual.
 GLOBAL_REWARD_ARENA_TICKET_AUTHORIZED_BY	Выдан	a label that shows up in the Arena Ticket under the Player's name indicating this ticket reward was granted by some guy.
 GLOBAL_REWARD_ARENA_TICKET_ENTRANT	Участник	a label that shows up in the Arena Ticket under the Player's name to say this person is allowed entrance into the Arena.
-GLOBAL_REWARD_ARENA_TICKET_HEADLINE	Пропуск на Арену!	
+GLOBAL_REWARD_ARENA_TICKET_HEADLINE	Бесплатный пропуск!	
 GLOBAL_REWARD_ARENA_TICKET_LABEL	Арена	
 GLOBAL_REWARD_ARENA_TICKET_STORE_COUNT_1	1	
 GLOBAL_REWARD_ARENA_TICKET_TITLE	Таверна	
@@ -946,7 +990,7 @@ GLOBAL_SEASON_END_RANK_LABEL	Достигнутый вами ранг:
 GLOBAL_SEASON_END_STAR_MULTIPLIER_LABEL	Бонус к звездам	
 GLOBAL_SEASON_END_STAR_MULTIPLIER_TITLE	Награда за рейтинговые матчи прошлого сезона:	
 GLOBAL_SEASON_END_WELCOME	Добро пожаловать!	
-GLOBAL_SET_CORE	Базовый набор	
+GLOBAL_SET_BASIC	Базовый набор	
 GLOBAL_SET_EXPERT1	Классический набор	
 GLOBAL_SET_ROTATION_ROLLOVER_BODY_DESKTOP	В Hearthstone наступил новый год!\nПерезапустите игру, чтобы присоединиться к празднику!	
 GLOBAL_SET_ROTATION_ROLLOVER_BODY_MOBILE	В Hearthstone наступил новый год!\nПерезапускаем игру, чтобы вы могли присоединиться к празднику.	
@@ -962,8 +1006,7 @@ GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_COMPLETE	<color=#{0}>{1}</color> зака�
 GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_START	<color=#{0}>{1}</color> заходит в «Потасовочный цех».	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_START_WITH_MANY_WINS	<color=#{0}>{1}</color> заходит в «Потасовочный цех», имея за плечами {2} |4(победу,победы,побед)!	0=name color,1=player name,2=Brawl Wins
 GLOBAL_SOCIAL_TOAST_FRIEND_DRUID_LEVEL	<color=#{0}>{1}</color> получает {2} уровень друидом.	0=name color,1=player name,2=level
-GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK	Игрок <color=#{0}>{1}</color> достиг ранга «{2}»!	0=name color,1=player name,2=medal rank
-GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK_WILD	Игрок <color=#{0}>{1}</color> достиг ранга {2} в вольном формате!	0=name color,1=player name,2=medal rank
+GLOBAL_SOCIAL_TOAST_FRIEND_DUEL_START	<color=#{0}>{1}</color> начинает серию дуэлей.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_GOLDEN_LEGENDARY	<color=#{0}>{1}</color> получает <color=#{3}>золотую карту «{2}»</color>!	0=name color,1=player name,2=card name,3=Golden Color
 GLOBAL_SOCIAL_TOAST_FRIEND_HEROIC_BRAWL_COMPLETE	<color=#{0}>{1}</color> завершает героическую потасовку. (В: {2}; П: {3})	0=name color,1=player name,2=Heroic brawl Wins,3=Heroic brawl Losses
 GLOBAL_SOCIAL_TOAST_FRIEND_HEROIC_BRAWL_START	<color=#{0}>{1}</color> начинает новую героическую потасовку.	0=name color,1=player name
@@ -977,8 +1020,10 @@ GLOBAL_SOCIAL_TOAST_FRIEND_ONLINE	<color=#{0}>{1}</color> входит в сет
 GLOBAL_SOCIAL_TOAST_FRIEND_PALADIN_LEVEL	<color=#{0}>{1}</color> получает {2} уровень паладином.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_PRIEST_LEVEL	<color=#{0}>{1}</color> получает {2} уровень жрецом.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_RANK_EARNED	Игрок <color=#{0}>{1}</color> достиг ранга «{2}»!	0=name color,1=player name,2=medal name
+GLOBAL_SOCIAL_TOAST_FRIEND_RANK_EARNED_CLASSIC	<color=#{0}>{1}</color> получает {2}-й ранг в классическом формате!	0=name color,1=player name,2=medal name
 GLOBAL_SOCIAL_TOAST_FRIEND_RANK_EARNED_WILD	Игрок <color=#{0}>{1}</color> достиг ранга {2} в вольном формате!	0=name color,1=player name,2=medal name
 GLOBAL_SOCIAL_TOAST_FRIEND_RANK_LEGEND	<color=#{0}>{1}</color> становится ЛЕГЕНДОЙ!	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_FRIEND_RANK_LEGEND_CLASSIC	<color=#{0}>{1}</color> становится ЛЕГЕНДОЙ в классическом формате!	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_RANK_LEGEND_WILD	<color=#{0}>{1}</color> становится ЛЕГЕНДОЙ в вольном формате!	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_REQUEST	Игрок <color=#{0}>{1}</color> приглашает вас добавить его в список друзей.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_ROGUE_LEVEL	<color=#{0}>{1}</color> получает {2} уровень разбойником.	0=name color,1=player name,2=level
@@ -1014,6 +1059,14 @@ GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_OFFLINE	Вы ждете начала
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_ONLINE	В ожидании следующего матча.\n\n{0} в сети.	0=player name; shown when there is no current activity string available.
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_PLAYING	Вы ждете начала следующего матча.\n\n{0} проходит {1}.	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_SCENARIO_*_CLASS_CHALLENGE_* from PRESENCE.txt (e.g. "Jane Doe is playing Naxxramas Paladin Challenge")
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TIMEOUT	Игрок, за которым вы наблюдаете в качестве зрителя, слишком долго не начинает следующий матч. Режим зрителя отменен.	
+GLOBAL_SPELL_SCHOOL_ARCANE	Тайная магия	
+GLOBAL_SPELL_SCHOOL_FEL	Скверна	
+GLOBAL_SPELL_SCHOOL_FIRE	Огонь	
+GLOBAL_SPELL_SCHOOL_FROST	Лед	
+GLOBAL_SPELL_SCHOOL_HOLY	Свет	
+GLOBAL_SPELL_SCHOOL_NATURE	Природа	
+GLOBAL_SPELL_SCHOOL_PHYSICAL_COMBAT	Физический урон	
+GLOBAL_SPELL_SCHOOL_SHADOW	Тьма	
 GLOBAL_SPLASH_CLOSED_RECONNECTING	Подключение...	
 GLOBAL_SPLASH_CLOSED_SIGN_TITLE	Закрыто	
 GLOBAL_STANDARD	Стандартный	
@@ -1025,7 +1078,7 @@ GLOBAL_SUPPORT	Поддержка
 GLOBAL_SWITCH_ACCOUNT	Переключить	
 GLOBAL_TAVERN_BRAWL	Потасовка	
 GLOBAL_TAVERN_BRAWL_ERROR_NOT_ACTIVE	Простите, но эта потасовка пока недоступна. Пожалуйста, повторите попытку через несколько минут.	
-GLOBAL_TAVERN_BRAWL_ERROR_SEASON_INCREMENTED	Извините! Текущая «Потасовка» закончилась, но скоро начнется новая!	
+GLOBAL_TAVERN_BRAWL_ERROR_SEASON_INCREMENTED	Извините! Текущая потасовка закончилась, но скоро начнется новая!	
 GLOBAL_TOOLTIP_FRIEND_BUTTON_DESC	Общайтесь с друзьями и устраивайте с ними поединки.	
 GLOBAL_TOOLTIP_FRIEND_BUTTON_HEADER	Друзья	
 GLOBAL_TOOLTIP_MENU_DESC	Здесь вы можете найти настройки, выход из игры и многое другое.	
