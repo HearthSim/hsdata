@@ -297,6 +297,7 @@ GLOBAL_ERROR_GENERIC_HEADER	오류
 GLOBAL_ERROR_INACTIVITY_KICK	하스스톤에서 장시간 동안 자리를 비워 접속이 종료되었습니다. 게임을 즐기려면 다시 접속해주세요!	
 GLOBAL_ERROR_NETWORK_ACCOUNT_BANNED	당신의 계정은 사용이 정지되었습니다.	
 GLOBAL_ERROR_NETWORK_ACCOUNT_CURFEW_REACHED	[과몰입 방지] 국가 법령 및 규정에 따라 미성년 플레이어는 22:00부터 다음 날 8:00까지 게임에 접속할 수 없습니다.	
+GLOBAL_ERROR_NETWORK_ACCOUNT_INVALID_NID	죄송합니다. 실명 인증을 거치지 않으면 진행할 수 없습니다. 자세한 내용은 https://www.battlenet.com.cn/support/zh/article/210633에서 확인하실 수 있습니다.	
 GLOBAL_ERROR_NETWORK_ACCOUNT_PLAYTIME_EXCEEDED	[과몰입 방지] 국가 법령 및 규정에 따라 미성년 플레이어는 하루 1.5시간동안 온라인에 접속할 수 있습니다. 오늘 주어진 온라인 접속 시간을 모두 사용하였으며, 게임 이용 시간을 조절하시기 바랍니다.	
 GLOBAL_ERROR_NETWORK_ACCOUNT_SUSPENDED	당신의 계정은 일시적으로 사용이 정지되었습니다.	
 GLOBAL_ERROR_NETWORK_ADMIN_KICKED	블리자드 서비스에서 내보내졌습니다. 하스스톤에 다시 접속해주세요.	
@@ -485,6 +486,8 @@ GLOBAL_KEYWORD_AUTOCAST	자동 시전
 GLOBAL_KEYWORD_AUTOCAST_TEXT	이 영웅 능력은 매 턴마다 반드시 사용해야 합니다.	
 GLOBAL_KEYWORD_BATTLECRY	전투의 함성	
 GLOBAL_KEYWORD_BATTLECRY_TEXT	카드를 손에서 낼 때 효과가 발동합니다.	
+GLOBAL_KEYWORD_BLOOD_GEM	혈석	
+GLOBAL_KEYWORD_BLOOD_GEM_TEXT	아군 하수인에게 +1/+1을 부여하는 주문입니다.	
 GLOBAL_KEYWORD_BOSS	우두머리	
 GLOBAL_KEYWORD_BOSS_TEXT	플레이어들은 서로 협동하여 우두머리를 처치해야 합니다.	
 GLOBAL_KEYWORD_CASTS_WHEN_DRAWN	뽑을 때 시전	
@@ -781,6 +784,7 @@ GLOBAL_PLAYER_PLAYER	플레이어	this is the word for generic "Player" - this w
 GLOBAL_PRACTICE_MAX_LEVEL_REACHED	최대 연습 레벨	
 GLOBAL_PROGRAMNAME_BLACKOPS4	블랙 옵스 4	
 GLOBAL_PROGRAMNAME_BLACKOPSCOLDWAR	블랙 옵스 콜드 워	
+GLOBAL_PROGRAMNAME_CRASHBANDICOOT4	Crash Bandicoot 4	
 GLOBAL_PROGRAMNAME_DESTINY2	데스티니 가디언즈	
 GLOBAL_PROGRAMNAME_DIABLO3	디아블로 III	
 GLOBAL_PROGRAMNAME_HEARTHSTONE	하스스톤	
@@ -819,8 +823,10 @@ GLOBAL_PROGRESSION_RANKED_REWARDS_TOOLTIP_TITLE	등급전 보상
 GLOBAL_PROGRESSION_REWARD_SUMMARY	{0}\n{1}	
 GLOBAL_PROGRESSION_REWARD_TRACK_XP	{0} 보상 경험치	
 GLOBAL_PROGRESSION_TIER_MESSAGE	{0}/{1}	
-GLOBAL_PROGRESSION_TOOLTIP_GOLDEN_WINS_DESC	{0}|1(으로,로) 등급전 또는 투기장에서 500승을 달성하면 황금 오리지널 영웅을 획득할 수 있습니다!	{0}=class name
-GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DESC	{0}|1(으로,로) 등급전 또는 투기장에서 1000승을 달성하면 {1}|1(을,를) 획득할 수 있습니다!	{0}=class name {1}=hero card name
+GLOBAL_PROGRESSION_TOOLTIP_CLASS_DEFAULT_DESC	{0} 레벨	
+GLOBAL_PROGRESSION_TOOLTIP_GOLDEN_WINS_DESC	{1}|1(으로,로) 등급전 또는 투기장 또는 결투에서 {0}승을 달성하면 황금 오리지널 영웅을 획득할 수 있습니다!	{0}=win count {1}=class name
+GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DESC	{1}|1(으로,로) 등급전 또는 투기장 또는 결투에서 {0}승을 달성하면 {2}|1(을,를) 획득할 수 있습니다!	{0}=win count {1}=class name {2}=hero card name
+GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DONE_DESC	{1}|1(으로,로) 등급전 또는 투기장 또는 결투에서 {0}승을 달성해 {2}|1(을,를) 획득했습니다!	{0}=win count {1}=class name {2}=hero card name
 GLOBAL_PROGRESSION_TOOLTIP_TOTAL_CLASS_WINS	총 {0}승	{0}=class name
 GLOBAL_PROGRESSION_WEEKLY_QUESTS_POPUP_TITLE	내 주간 퀘스트	
 GLOBAL_PVPDR_SEASON_ERROR_NOT_ACTIVE	죄송합니다. 요청하신 결투 시즌에서 현재 게임을 할 수 없습니다. 나중에 다시 시도해 주세요.	

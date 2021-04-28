@@ -297,6 +297,7 @@ GLOBAL_ERROR_GENERIC_HEADER	Fehler
 GLOBAL_ERROR_INACTIVITY_KICK	Ihre Verbindung zum Server wurde getrennt, da Sie längere Zeit inaktiv waren. Starten Sie das Spiel erneut, wenn Sie wieder spielen möchten.	
 GLOBAL_ERROR_NETWORK_ACCOUNT_BANNED	Ihr Account wurde gebannt.	
 GLOBAL_ERROR_NETWORK_ACCOUNT_CURFEW_REACHED	[Suchtprävention] Aufgrund geltender nationaler Gesetze und Bestimmungen können sich minderjährige Spieler zwischen 22:00 Uhr und 8:00 Uhr des Folgetages nicht in das Spiel einloggen.	
+GLOBAL_ERROR_NETWORK_ACCOUNT_INVALID_NID	Es tut uns leid, aber Sie können erst fortfahren, nachdem Sie Ihren echten Namen verifiziert haben. Mehr Informationen finden Sie hier: https://www.battlenet.com.cn/support/zh/article/210633	
 GLOBAL_ERROR_NETWORK_ACCOUNT_PLAYTIME_EXCEEDED	[Suchtprävention] Aufgrund geltender nationaler Gesetze und Bestimmungen ist die tägliche Spielzeit für minderjährige Spieler auf 1,5 Stunden beschränkt. Dieses Limit wurde heute erreicht. Bitte planen Sie Ihre Spielzeit entsprechend.	
 GLOBAL_ERROR_NETWORK_ACCOUNT_SUSPENDED	Ihr Account wurde suspendiert.	
 GLOBAL_ERROR_NETWORK_ADMIN_KICKED	Sie wurden von den Blizzard-Diensten getrennt. Bitte starten Sie Hearthstone neu, um die Verbindung wiederherzustellen.	
@@ -485,6 +486,8 @@ GLOBAL_KEYWORD_AUTOCAST	Automatischer Einsatz
 GLOBAL_KEYWORD_AUTOCAST_TEXT	Diese Heldenfähigkeit muss in jedem Zug eingesetzt werden.	
 GLOBAL_KEYWORD_BATTLECRY	Kampfschrei	
 GLOBAL_KEYWORD_BATTLECRY_TEXT	Ein Effekt tritt in Kraft, wenn die Karte ausgespielt wird.	
+GLOBAL_KEYWORD_BLOOD_GEM	Blutedelstein	
+GLOBAL_KEYWORD_BLOOD_GEM_TEXT	Ein Zauber, der einem befreundeten Diener +1/+1 verleiht.	
 GLOBAL_KEYWORD_BOSS	Boss	
 GLOBAL_KEYWORD_BOSS_TEXT	Die Spieler kämpfen zusammen gegen den Boss.	
 GLOBAL_KEYWORD_CASTS_WHEN_DRAWN	Beim Ziehen gewirkt	
@@ -781,6 +784,7 @@ GLOBAL_PLAYER_PLAYER	Spieler	this is the word for generic "Player" - this will b
 GLOBAL_PRACTICE_MAX_LEVEL_REACHED	Max. Stufe gegen KI	
 GLOBAL_PROGRAMNAME_BLACKOPS4	Black Ops 4	
 GLOBAL_PROGRAMNAME_BLACKOPSCOLDWAR	Black Ops Cold War	
+GLOBAL_PROGRAMNAME_CRASHBANDICOOT4	Crash Bandicoot 4	
 GLOBAL_PROGRAMNAME_DESTINY2	Destiny 2	
 GLOBAL_PROGRAMNAME_DIABLO3	Diablo III	
 GLOBAL_PROGRAMNAME_HEARTHSTONE	Hearthstone	
@@ -819,8 +823,10 @@ GLOBAL_PROGRESSION_RANKED_REWARDS_TOOLTIP_TITLE	Gewertete Belohnungen
 GLOBAL_PROGRESSION_REWARD_SUMMARY	{0}\n{1}	
 GLOBAL_PROGRESSION_REWARD_TRACK_XP	{0} Belohnungserfahrung	
 GLOBAL_PROGRESSION_TIER_MESSAGE	{0}/{1}	
-GLOBAL_PROGRESSION_TOOLTIP_GOLDEN_WINS_DESC	Gewinnt als {0} 500 Spiele im gewerteten Modus oder in der Arena, um den entsprechenden goldenen Basishelden freizuschalten!	{0}=class name
-GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DESC	Gewinnt als {0} 1.000 Spiele im gewerteten Modus oder in der Arena, um {1} freizuschalten!	{0}=class name {1}=hero card name
+GLOBAL_PROGRESSION_TOOLTIP_CLASS_DEFAULT_DESC	Stufe {0}	
+GLOBAL_PROGRESSION_TOOLTIP_GOLDEN_WINS_DESC	Gewinnt als {1} {0} Spiele im gewerteten Modus, in der Arena oder in Duellen, um den entsprechenden goldenen Basishelden freizuschalten!	{0}=win count {1}=class name
+GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DESC	Gewinnt als {1} {0} Spiele im gewerteten Modus, in der Arena oder in Duellen, um {2} freizuschalten!	{0}=win count {1}=class name {2}=hero card name
+GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DONE_DESC	Ihr habt als {1} {0} Spiele im gewerteten Modus, in der Arena oder in Duellen gewonnen und so {2} freigeschaltet!	{0}=win count {1}=class name {2}=hero card name
 GLOBAL_PROGRESSION_TOOLTIP_TOTAL_CLASS_WINS	{0} Siege insgesamt	{0}=class name
 GLOBAL_PROGRESSION_WEEKLY_QUESTS_POPUP_TITLE	Eure wöchentlichen Quests	
 GLOBAL_PVPDR_SEASON_ERROR_NOT_ACTIVE	Es tut uns leid, die gewählte Duellsaison ist leider nicht mehr verfügbar. Bitte versucht es später erneut.	

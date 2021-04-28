@@ -99,7 +99,7 @@ GLOBAL_CARD_SET_BOOMSDAY	砰砰计划
 GLOBAL_CARD_SET_BOOMSDAY_SEARCHABLE_SHORTHAND_NAMES	砰砰 计划	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_BOOMSDAY_SHORT	砰砰计划	
 GLOBAL_CARD_SET_BRM	黑石山的火焰	
-GLOBAL_CARD_SET_BRM_SEARCHABLE_SHORTHAND_NAMES	黑石山 火焰	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_BRM_SEARCHABLE_SHORTHAND_NAMES	黑石山	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_BT	外域的灰烬	
 GLOBAL_CARD_SET_BT_SEARCHABLE_SHORTHAND_NAMES	外域 灰烬	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_BT_SHORT	外域	
@@ -297,6 +297,7 @@ GLOBAL_ERROR_GENERIC_HEADER	发生错误
 GLOBAL_ERROR_INACTIVITY_KICK	距离你的上一次操作已经过了很长时间，游戏连接中断。请在你做好准备后重新运行游戏！	
 GLOBAL_ERROR_NETWORK_ACCOUNT_BANNED	你的账号已被永封。请前往https://security.blizzard.cn/usercenter来了解详细情况。	
 GLOBAL_ERROR_NETWORK_ACCOUNT_CURFEW_REACHED	[防沉迷]根据国家相关法律法规，晚22：00至次日早8：00期间，未成年玩家不能登录游戏。	
+GLOBAL_ERROR_NETWORK_ACCOUNT_INVALID_NID	抱歉，在通过实名认证前你无法继续。请参考https://www.battlenet.com.cn/support/zh/article/210633页面以了解详情。	
 GLOBAL_ERROR_NETWORK_ACCOUNT_PLAYTIME_EXCEEDED	[防沉迷]根据国家相关法律法规，未成年玩家每天在线时长不得超过1.5小时。今天你的在线时长已达上限，请合理安排游戏时间。	
 GLOBAL_ERROR_NETWORK_ACCOUNT_SUSPENDED	你的账号已被暂封。请前往https://security.blizzard.cn/usercenter来了解详细情况。	
 GLOBAL_ERROR_NETWORK_ADMIN_KICKED	你已被暴雪战网服务移除。请重新启动《炉石传说》，尝试重新连接服务器。	
@@ -485,6 +486,8 @@ GLOBAL_KEYWORD_AUTOCAST	自动施放
 GLOBAL_KEYWORD_AUTOCAST_TEXT	这个英雄技能必须在每个回合都要使用。	
 GLOBAL_KEYWORD_BATTLECRY	战吼	
 GLOBAL_KEYWORD_BATTLECRY_TEXT	当你从你的手牌中使用它的时候，它会产生一些效果。	
+GLOBAL_KEYWORD_BLOOD_GEM	鲜血宝石	
+GLOBAL_KEYWORD_BLOOD_GEM_TEXT	法术牌，使一个友方随从获得+1/+1。	
 GLOBAL_KEYWORD_BOSS	首领	
 GLOBAL_KEYWORD_BOSS_TEXT	玩家需要携手合作来对抗首领。	
 GLOBAL_KEYWORD_CASTS_WHEN_DRAWN	抽到时施放	
@@ -781,6 +784,7 @@ GLOBAL_PLAYER_PLAYER	玩家	this is the word for generic "Player" - this will be
 GLOBAL_PRACTICE_MAX_LEVEL_REACHED	最高练习等级	
 GLOBAL_PROGRAMNAME_BLACKOPS4	黑色行动4	
 GLOBAL_PROGRAMNAME_BLACKOPSCOLDWAR	黑色行动冷战	
+GLOBAL_PROGRAMNAME_CRASHBANDICOOT4	Crash Bandicoot 4	
 GLOBAL_PROGRAMNAME_DESTINY2	命运2	
 GLOBAL_PROGRAMNAME_DIABLO3	暗黑破坏神III	
 GLOBAL_PROGRAMNAME_HEARTHSTONE	炉石传说	
@@ -819,8 +823,10 @@ GLOBAL_PROGRESSION_RANKED_REWARDS_TOOLTIP_TITLE	等级奖励
 GLOBAL_PROGRESSION_REWARD_SUMMARY	{0}\n{1}	
 GLOBAL_PROGRESSION_REWARD_TRACK_XP	{0}奖励经验值	
 GLOBAL_PROGRESSION_TIER_MESSAGE	{0}/{1}	
-GLOBAL_PROGRESSION_TOOLTIP_GOLDEN_WINS_DESC	使用{0}在排名或竞技模式中赢得500场对战，就能够获得相应的金色经典英雄！	{0}=class name
-GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DESC	使用{0}在排名或竞技模式中赢得1000场对战，就能够获得{1}！	{0}=class name {1}=hero card name
+GLOBAL_PROGRESSION_TOOLTIP_CLASS_DEFAULT_DESC	等级 {0}	
+GLOBAL_PROGRESSION_TOOLTIP_GOLDEN_WINS_DESC	使用{1}在排名模式，竞技模式或对决模式中赢得{0}场对战，就能够获得相应的金色经典英雄！	{0}=win count {1}=class name
+GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DESC	使用{1}在排名模式，竞技模式或对决模式中赢得{0}场对战，就能够获得{2}！	{0}=win count {1}=class name {2}=hero card name
+GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DONE_DESC	使用{1}在排名模式，竞技模式或对决模式中赢得了{0}场对战，你获得了{2}！	{0}=win count {1}=class name {2}=hero card name
 GLOBAL_PROGRESSION_TOOLTIP_TOTAL_CLASS_WINS	{0}总胜场	{0}=class name
 GLOBAL_PROGRESSION_WEEKLY_QUESTS_POPUP_TITLE	你的每周任务	
 GLOBAL_PVPDR_SEASON_ERROR_NOT_ACTIVE	抱歉，所需的对决赛季不可用。请稍后再试。	

@@ -297,6 +297,7 @@ GLOBAL_ERROR_GENERIC_HEADER	エラー
 GLOBAL_ERROR_INACTIVITY_KICK	あんたが最後にハースストーンの操作をしてからずいぶん経ったんで、通信が切断されたぞ。用事が済んだらゲームを再起動してくれ！	
 GLOBAL_ERROR_NETWORK_ACCOUNT_BANNED	あなたのアカウントは停止されました。	
 GLOBAL_ERROR_NETWORK_ACCOUNT_CURFEW_REACHED	[未成年者のゲーム依存防止] 国内の関係法令により、未成年のプレイヤーは午後22時から翌日の午前8時までログインできません。	
+GLOBAL_ERROR_NETWORK_ACCOUNT_INVALID_NID	あんたには悪いが、実名認証を通過するまでは先には進めないんだ。詳しくは、https://www.battlenet.com.cn/support/zh/article/210633 を見てくれ。	
 GLOBAL_ERROR_NETWORK_ACCOUNT_PLAYTIME_EXCEEDED	[未成年者のゲーム依存防止] 国内の関係法令により、未成年のプレイヤーは午後22時から翌日の午前8時までログインできません。未成年のプレイヤーの1日のオンライン時間は1.5時間を超えてはなりません。今日のあなたのオンライン時間は上限に達しました。ゲームの時間は生活に支障をきたさない範囲にしましょう。	
 GLOBAL_ERROR_NETWORK_ACCOUNT_SUSPENDED	あなたのアカウントは凍結されました。	
 GLOBAL_ERROR_NETWORK_ADMIN_KICKED	Blizzardのサービスから切断されました。再接続するためにハースストーンを再起動してください。	
@@ -485,6 +486,8 @@ GLOBAL_KEYWORD_AUTOCAST	自動使用
 GLOBAL_KEYWORD_AUTOCAST_TEXT	このヒーローパワーは、毎ターン必ず使わなければならない。	
 GLOBAL_KEYWORD_BATTLECRY	雄叫び	
 GLOBAL_KEYWORD_BATTLECRY_TEXT	手札から使用した時に何らかの効果を発生させる。	
+GLOBAL_KEYWORD_BLOOD_GEM	血の宝石	
+GLOBAL_KEYWORD_BLOOD_GEM_TEXT	味方のミニオン1体に+1/+1を付与する呪文。	
 GLOBAL_KEYWORD_BOSS	ボス	
 GLOBAL_KEYWORD_BOSS_TEXT	プレイヤー達はボスを倒すために力を合わせて戦ってるぞ。	
 GLOBAL_KEYWORD_CASTS_WHEN_DRAWN	自動詠唱	
@@ -781,6 +784,7 @@ GLOBAL_PLAYER_PLAYER	プレイヤー	this is the word for generic "Player" - thi
 GLOBAL_PRACTICE_MAX_LEVEL_REACHED	練習レベル上限	
 GLOBAL_PROGRAMNAME_BLACKOPS4	Black Ops 4	
 GLOBAL_PROGRAMNAME_BLACKOPSCOLDWAR	ブラックオプス コールドウォー	
+GLOBAL_PROGRAMNAME_CRASHBANDICOOT4	クラッシュ・バンディクー4	
 GLOBAL_PROGRAMNAME_DESTINY2	Destiny 2	
 GLOBAL_PROGRAMNAME_DIABLO3	Diablo III	
 GLOBAL_PROGRAMNAME_HEARTHSTONE	Hearthstone	
@@ -819,8 +823,10 @@ GLOBAL_PROGRESSION_RANKED_REWARDS_TOOLTIP_TITLE	ランク戦報酬
 GLOBAL_PROGRESSION_REWARD_SUMMARY	{0}\n{1}	
 GLOBAL_PROGRESSION_REWARD_TRACK_XP	{0}報酬XP	
 GLOBAL_PROGRESSION_TIER_MESSAGE	{0}/{1}	
-GLOBAL_PROGRESSION_TOOLTIP_GOLDEN_WINS_DESC	{0}を使ってランク戦と闘技場で合計500勝すれば、そのゴールデンクラシックヒーローを獲得できるぞ！	{0}=class name
-GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DESC	{0}を使ってランク戦と闘技場で合計1000勝すれば、{1}を獲得できるぞ！	{0}=class name {1}=hero card name
+GLOBAL_PROGRESSION_TOOLTIP_CLASS_DEFAULT_DESC	レベル{0}	
+GLOBAL_PROGRESSION_TOOLTIP_GOLDEN_WINS_DESC	{1}を使ってランク戦、闘技場、デュエルで合計{0}勝し、ゴールデンクラシックヒーローを獲得しよう！	{0}=win count {1}=class name
+GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DESC	{1}を使ってランク戦、闘技場、デュエルで合計{0}勝し、{2}を獲得しよう！	{0}=win count {1}=class name {2}=hero card name
+GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DONE_DESC	{1}を使ってランク戦、闘技場、デュエルで合計{0}勝し、{2}を獲得したぞ！	{0}=win count {1}=class name {2}=hero card name
 GLOBAL_PROGRESSION_TOOLTIP_TOTAL_CLASS_WINS	{0}の累積勝利数	{0}=class name
 GLOBAL_PROGRESSION_WEEKLY_QUESTS_POPUP_TITLE	あんたのウィークリークエスト	
 GLOBAL_PVPDR_SEASON_ERROR_NOT_ACTIVE	悪いな、そのデュエルシーズンはもう利用できなくなったんだ。後でもう一度試してみてくれ。	

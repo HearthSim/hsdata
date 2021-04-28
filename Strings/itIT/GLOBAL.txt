@@ -288,15 +288,16 @@ GLOBAL_ERROR_ASSET_LOAD_FAILED	Impossibile caricare l'elemento {0}.	0=asset name
 GLOBAL_ERROR_ASSET_MANIFEST	Impossibile caricare il manifesto dati	
 GLOBAL_ERROR_ASSET_NO_FILE_PATH	Impossibile trovare il percorso per l'elemento {0}.	0=asset name
 GLOBAL_ERROR_CURRENCY_INVALID	È stato richiesto l'utilizzo di una valuta non valida per l'acquisto.	
-GLOBAL_ERROR_FIND_GAME_SCENARIO_INCORRECT_NUM_PLAYERS	Errore durante l'avvio del gioco! Lo scenario ha un numero inatteso di giocatori.	
-GLOBAL_ERROR_FIND_GAME_SCENARIO_MISCONFIGURED	Errore durante l'avvio del gioco! I dati dello scenario non sono corretti.	
-GLOBAL_ERROR_FIND_GAME_SCENARIO_NO_DECK_SPECIFIED	Errore durante l'avvio del gioco! Nessun mazzo specificato da un giocatore.	
-GLOBAL_ERROR_GAME_DENIED	Errore durante l'avvio del gioco! Attendi qualche minuto e riprova.	
+GLOBAL_ERROR_FIND_GAME_SCENARIO_INCORRECT_NUM_PLAYERS	Errore durante l'avvio della partita! Lo scenario ha un numero inatteso di giocatori.	
+GLOBAL_ERROR_FIND_GAME_SCENARIO_MISCONFIGURED	Errore durante l'avvio della partita! I dati dello scenario non sono corretti.	
+GLOBAL_ERROR_FIND_GAME_SCENARIO_NO_DECK_SPECIFIED	Errore durante l'avvio della partita! Nessun mazzo specificato da un giocatore.	
+GLOBAL_ERROR_GAME_DENIED	Errore durante l'avvio della partita! Attendi qualche minuto e riprova.	
 GLOBAL_ERROR_GAME_OPPONENT_TIMEOUT	La partita non si è avviata poiché l'avversario non si è connesso. Riprova.	
 GLOBAL_ERROR_GENERIC_HEADER	Errore	
 GLOBAL_ERROR_INACTIVITY_KICK	È passato molto tempo dalla tua ultima azione su Hearthstone e sei stato disconnesso dal server. Riavvia il gioco quando sei pronto!	
 GLOBAL_ERROR_NETWORK_ACCOUNT_BANNED	Il tuo account è stato sospeso permanentemente.	
 GLOBAL_ERROR_NETWORK_ACCOUNT_CURFEW_REACHED	[Contro la dipendenza] In accordo con le pertinenti regole e leggi nazionali, i giocatori minorenni non possono effettuare l'accesso al gioco dalle 22:00 alle 08:00 del giorno successivo.	
+GLOBAL_ERROR_NETWORK_ACCOUNT_INVALID_NID	Non puoi procedere finché non superi la verifica del nome reale. Per ulteriori informazioni, consulta la pagina https://www.battlenet.com.cn/support/zh/article/210633.	
 GLOBAL_ERROR_NETWORK_ACCOUNT_PLAYTIME_EXCEEDED	[Contro la dipendenza] In accordo con le pertinenti regole e leggi nazionali, il tempo giornaliero trascorso online per i giocatori minorenni non dovrebbe superare un'ora e mezza. Quest'oggi hai raggiunto il tuo limite di tempo online. Organizza il tuo tempo di gioco in maniera responsabile.	
 GLOBAL_ERROR_NETWORK_ACCOUNT_SUSPENDED	Il tuo account è stato sospeso.	
 GLOBAL_ERROR_NETWORK_ADMIN_KICKED	Sei stato rimosso dal servizio di gioco Blizzard. Riavvia Hearthstone per riconnetterti.	
@@ -485,6 +486,8 @@ GLOBAL_KEYWORD_AUTOCAST	Lancio automatico
 GLOBAL_KEYWORD_AUTOCAST_TEXT	Questo Potere Eroe DEVE essere usato ogni turno.	
 GLOBAL_KEYWORD_BATTLECRY	Grido di Battaglia	
 GLOBAL_KEYWORD_BATTLECRY_TEXT	Attiva l'effetto quando la carta viene giocata dalla mano.	
+GLOBAL_KEYWORD_BLOOD_GEM	Gemma del Sangue	
+GLOBAL_KEYWORD_BLOOD_GEM_TEXT	Una Magia che fornisce +1/+1 a un tuo servitore.	
 GLOBAL_KEYWORD_BOSS	Boss	
 GLOBAL_KEYWORD_BOSS_TEXT	I giocatori stanno combattendo assieme per sconfiggere un Boss.	
 GLOBAL_KEYWORD_CASTS_WHEN_DRAWN	Lancio Quando Pescata	
@@ -781,6 +784,7 @@ GLOBAL_PLAYER_PLAYER	Giocatore	this is the word for generic "Player" - this will
 GLOBAL_PRACTICE_MAX_LEVEL_REACHED	Massimo livello contro IA	
 GLOBAL_PROGRAMNAME_BLACKOPS4	Black Ops 4	
 GLOBAL_PROGRAMNAME_BLACKOPSCOLDWAR	Black Ops Cold War	
+GLOBAL_PROGRAMNAME_CRASHBANDICOOT4	Crash Bandicoot 4	
 GLOBAL_PROGRAMNAME_DESTINY2	Destiny 2	
 GLOBAL_PROGRAMNAME_DIABLO3	Diablo III	
 GLOBAL_PROGRAMNAME_HEARTHSTONE	Hearthstone	
@@ -819,8 +823,10 @@ GLOBAL_PROGRESSION_RANKED_REWARDS_TOOLTIP_TITLE	Ricompense modalità Classificat
 GLOBAL_PROGRESSION_REWARD_SUMMARY	{0}\n{1}	
 GLOBAL_PROGRESSION_REWARD_TRACK_XP	{0} PE Ricompensa	
 GLOBAL_PROGRESSION_TIER_MESSAGE	{0}/{1}	
-GLOBAL_PROGRESSION_TOOLTIP_GOLDEN_WINS_DESC	Vinci 500 partite in modalità Classificata o Arena con la classe {0} per ottenere la versione Dorata dell'eroe Classico!	{0}=class name
-GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DESC	Vinci 1000 partite in modalità Classificata o Arena con la classe {0} per ottenere {1}!	{0}=class name {1}=hero card name
+GLOBAL_PROGRESSION_TOOLTIP_CLASS_DEFAULT_DESC	Livello {0}	
+GLOBAL_PROGRESSION_TOOLTIP_GOLDEN_WINS_DESC	Vinci {0} partite in Classificata, Arena o Duelli con la classe {1} per ottenere la versione Dorata dell'eroe classico!	{0}=win count {1}=class name
+GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DESC	Vinci {0} partite in Classificata, Arena o Duelli con la classe {1} per ottenere {2}!	{0}=win count {1}=class name {2}=hero card name
+GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DONE_DESC	Vincendo {0} partite in Classificata, Arena o Duelli con la classe {1} hai ottenuto {2}!	{0}=win count {1}=class name {2}=hero card name
 GLOBAL_PROGRESSION_TOOLTIP_TOTAL_CLASS_WINS	Vittorie totali con la classe {0}	{0}=class name
 GLOBAL_PROGRESSION_WEEKLY_QUESTS_POPUP_TITLE	Le tue missioni settimanali	
 GLOBAL_PVPDR_SEASON_ERROR_NOT_ACTIVE	Spiacenti, la stagione dei Duelli richiesta non è più disponibile. Riprova più tardi.	

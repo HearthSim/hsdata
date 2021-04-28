@@ -297,6 +297,7 @@ GLOBAL_ERROR_GENERIC_HEADER	Error
 GLOBAL_ERROR_INACTIVITY_KICK	Has estado mucho tiempo inactivo en Hearthstone y se cerró la conexión. Reinicia el juego cuando estés listo.	
 GLOBAL_ERROR_NETWORK_ACCOUNT_BANNED	Tu cuenta ha sido clausurada.	
 GLOBAL_ERROR_NETWORK_ACCOUNT_CURFEW_REACHED	[Normas para la prevención de adicciones] De acuerdo con las normas y leyes nacionales pertinentes, los jugadores menores de edad no pueden iniciar sesión en el juego entre las 10:00 p.m. y las 8:00 a.m. del día siguiente.	
+GLOBAL_ERROR_NETWORK_ACCOUNT_INVALID_NID	Lo sentimos, no puedes continuar hasta que no hayas verificado tu nombre real. Dirígete a https://www.battlenet.com.cn/support/zh/article/210633 para obtener más información.	
 GLOBAL_ERROR_NETWORK_ACCOUNT_PLAYTIME_EXCEEDED	[Normas para la prevención de adicciones] De acuerdo con las normas y leyes nacionales pertinentes, el límite diario de tiempo de juego para los menores de edad es de una hora y media. Hoy has alcanzado este límite. Juega responsablemente.	
 GLOBAL_ERROR_NETWORK_ACCOUNT_SUSPENDED	Tu cuenta ha sido suspendida.	
 GLOBAL_ERROR_NETWORK_ADMIN_KICKED	Te has desconectado del servicio de Blizzard. Por favor reinicia Hearthstone para reconectarte.	
@@ -485,6 +486,8 @@ GLOBAL_KEYWORD_AUTOCAST	Autolanzamiento
 GLOBAL_KEYWORD_AUTOCAST_TEXT	Este Poder de héroe DEBE usarse todos los turnos.	
 GLOBAL_KEYWORD_BATTLECRY	Grito de batalla	
 GLOBAL_KEYWORD_BATTLECRY_TEXT	Hace algo cuando la juegas desde tu mano.	
+GLOBAL_KEYWORD_BLOOD_GEM	Gema de sangre	
+GLOBAL_KEYWORD_BLOOD_GEM_TEXT	Un hechizo que otorga +1/+1 a un esbirro aliado.	
 GLOBAL_KEYWORD_BOSS	Jefe	
 GLOBAL_KEYWORD_BOSS_TEXT	Los jugadores están luchando juntos para derrotar al jefe.	
 GLOBAL_KEYWORD_CASTS_WHEN_DRAWN	Se juega al robarla	
@@ -781,6 +784,7 @@ GLOBAL_PLAYER_PLAYER	Jugador	this is the word for generic "Player" - this will b
 GLOBAL_PRACTICE_MAX_LEVEL_REACHED	Nivel de práctica máximo	
 GLOBAL_PROGRAMNAME_BLACKOPS4	Black Ops 4	
 GLOBAL_PROGRAMNAME_BLACKOPSCOLDWAR	Black Ops Cold War	
+GLOBAL_PROGRAMNAME_CRASHBANDICOOT4	Crash Bandicoot 4	
 GLOBAL_PROGRAMNAME_DESTINY2	Destiny 2	
 GLOBAL_PROGRAMNAME_DIABLO3	Diablo III	
 GLOBAL_PROGRAMNAME_HEARTHSTONE	Hearthstone	
@@ -819,8 +823,10 @@ GLOBAL_PROGRESSION_RANKED_REWARDS_TOOLTIP_TITLE	Recompensas del modo clasificado
 GLOBAL_PROGRESSION_REWARD_SUMMARY	{0}\n{1}	
 GLOBAL_PROGRESSION_REWARD_TRACK_XP	{0} experiencia de recompensa	
 GLOBAL_PROGRESSION_TIER_MESSAGE	{0}/{1}	
-GLOBAL_PROGRESSION_TOOLTIP_GOLDEN_WINS_DESC	¡Gana 500 partidas clasificadas o de la Arena con {0} para obtener su héroe clásico dorado!	{0}=class name
-GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DESC	¡Gana 1000 partidas clasificadas o de la Arena con {0} para ganar {1}!	{0}=class name {1}=hero card name
+GLOBAL_PROGRESSION_TOOLTIP_CLASS_DEFAULT_DESC	Nivel {0}	
+GLOBAL_PROGRESSION_TOOLTIP_GOLDEN_WINS_DESC	¡Gana {0} partidas en el modo clasificado, la Arena o los Duelos con {1} para obtener su héroe clásico dorado!	{0}=win count {1}=class name
+GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DESC	¡Gana {0} partidas en el modo clasificado, la Arena o los Duelos con {1} para obtener {2}!	{0}=win count {1}=class name {2}=hero card name
+GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DONE_DESC	¡Has obtenido {2} por ganar {0} partidas en el modo clasificado, la Arena o los Duelos con la clase {1}!	{0}=win count {1}=class name {2}=hero card name
 GLOBAL_PROGRESSION_TOOLTIP_TOTAL_CLASS_WINS	{0} victorias totales	{0}=class name
 GLOBAL_PROGRESSION_WEEKLY_QUESTS_POPUP_TITLE	Tus misiones semanales	
 GLOBAL_PVPDR_SEASON_ERROR_NOT_ACTIVE	Lo sentimos, la temporada de Duelos solicitada ya no está disponible. Vuelve a intentarlo más tarde.	

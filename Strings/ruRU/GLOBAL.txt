@@ -297,6 +297,7 @@ GLOBAL_ERROR_GENERIC_HEADER	Ошибка
 GLOBAL_ERROR_INACTIVITY_KICK	Вы давно не совершали никаких действий в игре, поэтому ваше соединение с сервером было разорвано. Пожалуйста, перезапустите игру!	
 GLOBAL_ERROR_NETWORK_ACCOUNT_BANNED	Ваша учетная запись заблокирована.	
 GLOBAL_ERROR_NETWORK_ACCOUNT_CURFEW_REACHED	[Борьба с зависимостями] Согласно действующему местному законодательству и нормам, несовершеннолетние игроки не могут заходить в игру с 22:00 до 8:00 следующего дня.	
+GLOBAL_ERROR_NETWORK_ACCOUNT_INVALID_NID	Вы не сможете продолжить, пока не пройдете проверку по настоящему имени. Подробности: https://www.battlenet.com.cn/support/zh/article/210633	
 GLOBAL_ERROR_NETWORK_ACCOUNT_PLAYTIME_EXCEEDED	[Борьба с зависимостями] Согласно действующему местному законодательству и нормам, общее ежедневное время игры несовершеннолетних игроков не может превышать 1,5 часа. Вы исчерпали лимит отведенного суточного времени. Играйте ответственно.	
 GLOBAL_ERROR_NETWORK_ACCOUNT_SUSPENDED	Действие вашей учетной записи приостановлено.	
 GLOBAL_ERROR_NETWORK_ADMIN_KICKED	Соединение со службой Blizzard было потеряно. Пожалуйста, перезапустите Hearthstone.	
@@ -440,7 +441,7 @@ GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_RECEIVED_INVITE_TEXT	Вы получили п
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_RECEIVED_INVITE_TEXT_TOUCH	Вы получили приглашение от игрока {0} посмотреть матч. Нажмите, чтобы присоединиться к игре.	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_SPECTATING_HEADER	Режим зрителя	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_SPECTATING_TEXT	Вы присутствуете на матче этого игрока в качестве зрителя.	
-GLOBAL_FRIENDLYCHALLENGE_QUEST_REWARD_AT_LIMIT	Исчерпан дневной лимит для наград в заданиях "Вызов другу".	
+GLOBAL_FRIENDLYCHALLENGE_QUEST_REWARD_AT_LIMIT	Исчерпан дневной лимит для наград в заданиях «Вызов другу».	
 GLOBAL_FRIENDLYCHALLENGE_REWARD_CONCEDED_YOUR_OPPONENT	Ваш противник покинул игру слишком рано, из-за чего вы не можете получить награду.	
 GLOBAL_FRIENDLYCHALLENGE_REWARD_CONCEDED_YOURSELF	Вы покинули игру слишком рано и не можете получить награду.	
 GLOBAL_GAME_MENU	Меню	
@@ -485,6 +486,8 @@ GLOBAL_KEYWORD_AUTOCAST	Автоматическое применение
 GLOBAL_KEYWORD_AUTOCAST_TEXT	Эта сила героя БУДЕТ использоваться на каждом ходу.	
 GLOBAL_KEYWORD_BATTLECRY	Боевой клич	
 GLOBAL_KEYWORD_BATTLECRY_TEXT	Бонусный эффект при разыгрывании из руки.	
+GLOBAL_KEYWORD_BLOOD_GEM	Кровавый самоцвет	
+GLOBAL_KEYWORD_BLOOD_GEM_TEXT	Заклинание, дающее вашему существу +1/+1.	
 GLOBAL_KEYWORD_BOSS	Босс	
 GLOBAL_KEYWORD_BOSS_TEXT	Игроки сражаются вместе, чтобы победить босса.	
 GLOBAL_KEYWORD_CASTS_WHEN_DRAWN	При взятии	
@@ -781,6 +784,7 @@ GLOBAL_PLAYER_PLAYER	Игрок	this is the word for generic "Player" - this wil
 GLOBAL_PRACTICE_MAX_LEVEL_REACHED	Макс. уровень тренировки	
 GLOBAL_PROGRAMNAME_BLACKOPS4	Black Ops 4	
 GLOBAL_PROGRAMNAME_BLACKOPSCOLDWAR	Black Ops Cold War	
+GLOBAL_PROGRAMNAME_CRASHBANDICOOT4	Crash Bandicoot 4	
 GLOBAL_PROGRAMNAME_DESTINY2	Destiny 2	
 GLOBAL_PROGRAMNAME_DIABLO3	Diablo III	
 GLOBAL_PROGRAMNAME_HEARTHSTONE	Hearthstone	
@@ -819,8 +823,10 @@ GLOBAL_PROGRESSION_RANKED_REWARDS_TOOLTIP_TITLE	Награды за ранг
 GLOBAL_PROGRESSION_REWARD_SUMMARY	{0}\n{1}	
 GLOBAL_PROGRESSION_REWARD_TRACK_XP	{0} ед. опыта	
 GLOBAL_PROGRESSION_TIER_MESSAGE	{0}/{1}	
-GLOBAL_PROGRESSION_TOOLTIP_GOLDEN_WINS_DESC	Одержите 500 побед в рейтинговых матчах или на Арене, выбрав класс «{0}», чтобы получить золотого классического героя этого класса!	{0}=class name
-GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DESC	Одержите 1000 побед в рейтинговых матчах или на Арене, выбрав класс «{0}», чтобы получить награду: {1}!	{0}=class name {1}=hero card name
+GLOBAL_PROGRESSION_TOOLTIP_CLASS_DEFAULT_DESC	{0}-й уровень	
+GLOBAL_PROGRESSION_TOOLTIP_GOLDEN_WINS_DESC	Одержите {0} |4(победу,победы,побед) в рейтинговых матчах, на Арене или в дуэлях, выбрав класс «{1}», чтобы получить золотого классического героя этого класса!	{0}=win count {1}=class name
+GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DESC	Одержите {0} |4(победу,победы,побед) в рейтинговых матчах, на Арене или в дуэлях, выбрав класс «{1}», чтобы получить награду ({2})!	{0}=win count {1}=class name {2}=hero card name
+GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DONE_DESC	Вы одержали {0} |4(победу,победы,побед) за класс «{1}» в рейтинговых матчах, на Арене или в дуэлях и получаете награду ({2})!	{0}=win count {1}=class name {2}=hero card name
 GLOBAL_PROGRESSION_TOOLTIP_TOTAL_CLASS_WINS	Всего побед ({0})	{0}=class name
 GLOBAL_PROGRESSION_WEEKLY_QUESTS_POPUP_TITLE	Еженедельные задания	
 GLOBAL_PVPDR_SEASON_ERROR_NOT_ACTIVE	Данный сезон дуэлей более недоступен. Пожалуйста, повторите попытку позже.	
