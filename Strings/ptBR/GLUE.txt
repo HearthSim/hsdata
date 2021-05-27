@@ -407,6 +407,9 @@ GLUE_BTA_LOADING_BAR_TASK_9	Escurecendo portais
 GLUE_BUTTON_TAKE	Pegar	
 GLUE_CANNOT_FIND_BATTLENET_CLIENT	Hearthstone não conseguiu encontrar o aplicativo da Blizzard. Acesse www.battle.net para reinstalá-lo.	
 GLUE_CANNOT_RUN_BATTLENET_CLIENT	Hearthstone não conseguiu executar o aplicativo da Blizzard. Acesse www.battle.net para reinstalá-lo.	
+GLUE_CARD_BACK_PURCHASE_CONFIRMATION_HEADER	Confirmar	
+GLUE_CARD_BACK_PURCHASE_CONFIRMATION_MESSAGE	Tem certeza de que quer comprar o verso de card {0}?\n\nNão é possível voltar atrás após confirmar.	
+GLUE_CARD_BACK_PURCHASE_ERROR_HEADER	Versos de card	
 GLUE_CARD_NERF_BODY	\|4(Este card foi alterado,Estes cards foram alterados):\n{0}	0=card names
 GLUE_CARD_NERF_HEADER	Mudanças!	
 GLUE_CARDS_ADDED	{0} novos cards adicionados ao Clássico!	
@@ -561,7 +564,6 @@ GLUE_COLLECTION_DECK_WILD_POPUP_HEADER	Converter deck?
 GLUE_COLLECTION_DECK_WILD_POPUP_TEXT	Este é um deck Livre. Deseja converter para um deck Padrão automaticamente?	
 GLUE_COLLECTION_DELETE_CONFIRM_DESC	Esta ação excluirá o seu deck. Tem certeza?	
 GLUE_COLLECTION_DELETE_CONFIRM_HEADER	Excluir	
-GLUE_COLLECTION_DELETE_UNAVAILABLE_DESC	Você não pode excluir um deck até todas as classes terem sido desbloqueadas.	
 GLUE_COLLECTION_DUEL_DECKNAME	Deck dos Duelos	
 GLUE_COLLECTION_EMPTY_PAGE	Página 0	
 GLUE_COLLECTION_ERROR_HEADER	Erro na coleção!	
@@ -690,6 +692,7 @@ GLUE_CRAFTING_DISENCHANT	Desencantar
 GLUE_CRAFTING_DISENCHANT_CONFIRM_DESC	Tem certeza? Os seguintes decks serão invalidados:	
 GLUE_CRAFTING_DISENCHANT_CONFIRM_HEADER	Desencantar	
 GLUE_CRAFTING_DISENCHANT_CONFIRM2_DESC	Tem certeza? Desencantar este card deixará você com menos cards do que você poderia usar em um deck.	
+GLUE_CRAFTING_DISENCHANT_CONFIRM3_DESC	Tem certeza? Desencantar este card também removerá a versão clássica dele da sua coleção.	
 GLUE_CRAFTING_EVENT_NOT_ACTIVE_DESCRIPTION	Cards {0} ainda não podem ser criados ou desencantados.	
 GLUE_CRAFTING_EVENT_NOT_ACTIVE_TITLE	Ainda não lançado	
 GLUE_CRAFTING_INVALID_CARD_TAVERN_BRAWL_DESC	Este card não é válido para esta Contenda de Taverna. Tem certeza?	
@@ -746,7 +749,6 @@ GLUE_DECK_TRAY_COUNT	{0}/{1}
 GLUE_DECK_TRAY_DECK_COUNT_LABEL	Decks	
 GLUE_DECK_TRAY_GALAKROND_PROMPT_DESC	Você está adicionando um card com Invocar ao seu deck. Galakrond é necessário para que ele funcione corretamente. Gostaria de adicionar Galakrond ao seu deck?	
 GLUE_DECK_TRAY_GALAKROND_PROMPT_TITLE	Adicionar Galakrond ao seu deck?	
-GLUE_DECK_TRAY_HEROES_UNLOCKED_COUNT_LABEL	Desbloqueado	
 GLUE_DEMON_HUNTER_LOCKED_HEADER	Herói Bloqueado	
 GLUE_DEMON_HUNTER_LOCKED_PROLOGUE	Jogue "Cinzas de Terralém - Prólogo de Caçador de Demônios" no Modo Aventura para desbloquear este herói. 	
 GLUE_DEVICE_PERFORMANCE_WARNING	Este dispositivo não atinge os requisitos mínimos para executar o jogo. Por conta disso, Hearthstone pode apresentar problemas gráficos e/ou de desempenho.\n\nToque em SUPORTE para saber mais.	
@@ -909,6 +911,7 @@ GLUE_FSG_STARTING_OVER_1_MONTH	Começa em > 1 mês
 GLUE_FSG_STARTING_SECONDS	Começa em {0} |4(segundo,segundos)	
 GLUE_FSG_STARTING_WEEKS	Começa em {0} semanas	
 GLUE_FUN_CONFIRM_MESSAGE	Fantástico!	
+GLUE_GAME_MODE_LOCKED_HEADER	Desbloqueie {0} concluindo seu Aprendizado.	
 GLUE_GAME_MODE_NEW_MODE_POPUP_HEADER	Novo modo!	
 GLUE_GAME_MODE_NEW_MODE_UNLOCKED_POPUP_HEADER	Novo modo desbloqueado:	
 GLUE_GAME_MODES	Modos	
@@ -948,8 +951,11 @@ GLUE_GOLD_CAP_BODY	 Você não pode ganhar mais ouro até ficar com menos de {0}
 GLUE_GOLD_CAP_HEADER	{0} de ouro alcançado!	
 GLUE_GOONS_CLASS_NAMES	Caçador, Paladino, Guerreiro	
 GLUE_HERO_HEROSELECT_NEW	NOVO!	
-GLUE_HERO_LOCKED_DESC	Derrote este Herói para desbloqueá-lo!	
+GLUE_HERO_LOCKED_DESC	Derrote {0} no Ranqueado ou Treinamento para desbloquear {1}.	
 GLUE_HERO_LOCKED_NAME	Bloqueado	
+GLUE_HERO_SKIN_PURCHASE_CONFIRMATION_HEADER	Confirmar	
+GLUE_HERO_SKIN_PURCHASE_CONFIRMATION_MESSAGE	Tem certeza de que quer comprar o herói {0}?\n\nNão é possível voltar atrás após confirmar.	
+GLUE_HERO_SKIN_PURCHASE_ERROR_HEADER	Heróis	
 GLUE_HEROIC_BRAWL_CONTINUE	Entendi!	Heroic brawl intro dialogue continue button text
 GLUE_HEROIC_BRAWL_DECK	Contenda Heroica	
 GLUE_HEROIC_BRAWL_INTRO	A contenda desta semana é para\nos jogadores mais experientes.\nSua habilidade e a sua coleção farão a diferença!	
@@ -1291,7 +1297,7 @@ GLUE_PROGRESSION_REWARD_TRACK_POPUP_BONUS_LEVEL	Além do Nível {0}
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_BONUS_TITLE	Recompensas de Bônus	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_COMPLETE_LEVEL	Nível {0}	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_FORGOT_REWARDS_BODY	{0} |4(recompensa,recompensas) da Trilha da Recompensa da última expansão |4(foi adicionada,foram adicionadas) à sua Coleção!	
-GLUE_PROGRESSION_REWARD_TRACK_POPUP_FORGOT_REWARDS_TITLE	Você esqueceu |4(uma recompensa,algumas recompensas)!	
+GLUE_PROGRESSION_REWARD_TRACK_POPUP_FORGOT_REWARDS_TITLE	Esqueceu |4(uma recompensa,algumas recompensas)!	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_INCOMPLETE_LEVEL	Requer o Nível {0}	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_NEW_TRACK_BODY	Ganhe recompensas especiais na nova Trilha da Recompensa!	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_NEW_TRACK_TITLE	Nova Trilha da Recompensa: Os Sertões	
@@ -1925,6 +1931,7 @@ GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_03	Criando uma conta, você protege sua cole�
 GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_04	Muito bem! Salve o seu progresso criando uma conta!	
 GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_05	Parabéns! Salve o seu progresso criando uma conta!	
 GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_06	Excelente! Salve o seu progresso criando uma conta!	
+GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_07	Crie uma conta para salvar seu progresso e jogar em outros dispositivos!	
 GLUE_TEMPORARY_ACCOUNT_DIALOG_HEADER_01	Requer Conta	
 GLUE_TEMPORARY_ACCOUNT_DIALOG_HEADER_02	Criar uma Conta?	
 GLUE_TEMPORARY_ACCOUNT_DIALOG_HEADER_03	Vai criar uma Conta?	
@@ -1932,6 +1939,7 @@ GLUE_TEMPORARY_ACCOUNT_FRIENDS_LIST_BODY	Hearthstone é mais divertido com amigo
 GLUE_TEMPORARY_ACCOUNT_FRIENDS_LIST_HEADER	Jogue com os amigos	
 GLUE_TEMPORARY_ACCOUNT_GAME_MENU_BODY	• Mantenha sua coleção\n• Salve o progresso do seu jogo\n• Desbloqueie um pacote grátis\n• Fale/jogue com os amigos\n• Nome personalizado\n• Jogue em outras plataformas	
 GLUE_TEMPORARY_ACCOUNT_SIGN_UP	Registrar-se	
+GLUE_TEMPORARY_ACCOUNT_SKIP	Pular	
 GLUE_TEMPORARY_ACCOUNT_SWITCH_ACCOUNT_HEADER	Contas	
 GLUE_TEXTURE_COMPRESSION_WARNING	Esta versão não contém o formato de textura correto para esta plataforma. A performance pode não ser ideal.	--TEMP-- This should be in Chinese
 GLUE_TEXTURE_COMPRESSION_WARNING_TITLE	Alerta de compressão de textura	--TEMP-- This should be in Chinese
@@ -1965,7 +1973,7 @@ GLUE_TIP_ADVENTURE_BOM_5	Prepare-se para tudo! A vida de mercenário é cheia de
 GLUE_TIP_ADVENTURE_BOM_6	Veja os decks antes de começar a missão \npara criar uma estratégia contra o inimigo.	
 GLUE_TIP_ADVENTURE_BOM_7	Kazakus, o líder do Kabal de Geringontzan, foi avistado nos Sertões.	
 GLUE_TIP_ADVENTURE_BOM_8	Na Noite das Estrelas Cadentes, estilhaços de luz incandescente caíram por toda Azeroth.	
-GLUE_TIP_ADVENTURE_BOM_9	Como o Chefe Guerreiro Thrall, Rokara faz parte do clã Lobo do Gelo e vem do Vale Alterac.	
+GLUE_TIP_ADVENTURE_BOM_9	A filha de Xyrella, Runi, entrou em coma após a queda da Exodar.	
 GLUE_TIP_ADVENTURE_BOT_0	Os enigmas são reiniciados rapidamente.\nNão tenha medo de experimentar!	
 GLUE_TIP_ADVENTURE_BOT_1	Situações diferentes pedem cards diferentes.	
 GLUE_TIP_ADVENTURE_BOT_2	Não desista. Procure interações pouco usuais entre cards.	
@@ -2263,7 +2271,6 @@ GLUE_TOOLTIP_GOLDEN_WINS_HEADER	Total de Vitórias
 GLUE_TOOLTIP_HEADER_ALL_STANDARD_CARDS	Padrão	
 GLUE_TOOLTIP_HEADER_VANILLA_CARDS	Clássico	
 GLUE_TOOLTIP_HEADER_WILD_CARDS	Livre	
-GLUE_TOOLTIP_HOW_TO_UNLOCK_DECKS	Desbloqueie este deck ao derrotar outros heróis em qualquer modo.	
 GLUE_TOOLTIP_RANKED_BUTTON	Veja como você se sai contra outros jogadores!	
 GLUE_TOOLTIP_VIRTUAL_CURRENCY_DESCRIPTION	Gaste Pedras Rúnicas para comprar Orbes Arcanos, heróis, aventuras ou Ingresso da Taverna.	
 GLUE_TOOLTIP_VIRTUAL_CURRENCY_HEADER	Pedras Rúnicas	

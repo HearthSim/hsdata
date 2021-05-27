@@ -102,7 +102,6 @@ GLUE_COLLECTION_ARTIST	Artist: {0}	0=artist name
 GLUE_COLLECTION_RECENTLY_NERFED	<color=#971c1cff>This card was recently modified, so its Disenchant value has been adjusted.</color>
 GLUE_COLLECTION_DELETE_CONFIRM_HEADER	Delete	
 GLUE_COLLECTION_DELETE_CONFIRM_DESC	This will delete your deck. Are you sure?	
-GLUE_COLLECTION_DELETE_UNAVAILABLE_DESC	You can't delete a deck until all classes are unlocked.	
 GLUE_COLLECTION_ALL_SETS	All Sets	
 GLUE_COLLECTION_STANDARD_SETS	Standard Sets
 GLUE_COLLECTION_WILD_SETS	Wild Sets
@@ -187,6 +186,7 @@ GLUE_MASS_DISENCHANT_NUM_GOLDEN_CARDS	{0} Golden	0=number of golden cards
 GLUE_CRAFTING_DISENCHANT_CONFIRM_HEADER	Disenchant
 GLUE_CRAFTING_DISENCHANT_CONFIRM_DESC	Are you sure? The following decks will be invalidated:
 GLUE_CRAFTING_DISENCHANT_CONFIRM2_DESC	Are you sure? Disenchanting this card will leave you with less than the amount you could use in a deck.
+GLUE_CRAFTING_DISENCHANT_CONFIRM3_DESC	Are you sure? Disenchanting this card will also remove the Classic version of it from your collection.
 GLUE_CRAFTING_CREATE	Create
 GLUE_CRAFTING_DISENCHANT	Disenchant	
 GLUE_CRAFTING_UNDO	Undo	
@@ -215,7 +215,6 @@ GLUE_CRAFTING_TITLE	Card Crafting
 GLUE_DECK_TRAY_COUNT	{0}/{1}	
 GLUE_DECK_TRAY_CARD_COUNT_LABEL	Cards	
 GLUE_DECK_TRAY_DECK_COUNT_LABEL	Decks
-GLUE_DECK_TRAY_HEROES_UNLOCKED_COUNT_LABEL	Unlocked
 GLUE_DECK_TRAY_GALAKROND_PROMPT_TITLE	Add Galakrond to your Deck?
 GLUE_DECK_TRAY_GALAKROND_PROMPT_DESC	You're adding an Invoke card to your deck. It requires Galakrond to work fully. Would you like us to add Galakrond to your deck?
 GLUE_STORE_INFO_BUTTON_TEXT	i	
@@ -469,7 +468,6 @@ GLUE_TOOLTIP_RANKED_BUTTON	See how you stack up against other players!
 GLUE_TOOLTIP_GOLDEN_WINS_HEADER	Total Wins
 GLUE_TOOLTIP_GOLDEN_WINS_DESC	Win 500 games in Ranked or Arena with this class to earn its Golden classic hero!
 GLUE_TOOLTIP_ALTERNATE_WINS_DESC	Win {0} games in Ranked or Arena with this class to earn its Honored hero!
-GLUE_TOOLTIP_HOW_TO_UNLOCK_DECKS	Unlock this deck by defeating other heroes in any mode.
 GLUE_TOOLTIP_DOWNLOAD_HEADER	Downloading	
 GLUE_TOOLTIP_DOWNLOAD_DESCRIPTION	Hearthstone is downloading while you play!	
 GLUE_GAME_MODES_POPUP_FORGE_DESC	Draft a 30 card deck.	
@@ -672,7 +670,7 @@ GLUE_TIP_PRACTICE_5	Complete quests in "Play" mode to earn Reward XP!
 GLUE_TIP_PRACTICE_6	Attack the hero? Or the enemy minions?  Answering correctly can often turn the tide of battle.	
 GLUE_TIP_PRACTICE_7	You'll earn more Hero XP after level 10 by playing against real players.	
 GLUE_TIP_PLAY_0	You are being matched against a player of your skill.	
-GLUE_TIP_PLAY_1	As you win and lose games it will track your skill and match you against a fair opponent.	
+GLUE_TIP_PLAY_1	As you win and lose games, we will track your skill and match you against a fair opponent.	
 GLUE_TIP_PLAY_2	Each class has 16 different Core cards you can unlock as you level up.	
 GLUE_TIP_PLAY_3	Complete quests to earn Reward XP. XP gives you progress on your Rewards Track.	
 GLUE_TIP_PLAY_4	The highest rank in Ranked Mode is the “Legend” rank!	
@@ -1005,7 +1003,7 @@ GLUE_DAL_LOADING_BAR_TASK_20	Recruiting Lackeys
 GLUE_LOADING	Loading...	
 GLUE_STARTING_GAME	Starting Game	
 GLUE_HERO_LOCKED_NAME	Locked	
-GLUE_HERO_LOCKED_DESC	Defeat this hero to unlock!	
+GLUE_HERO_LOCKED_DESC	Defeat {0} in Ranked or Practice to unlock {1}.
 GLUE_INCOMPLETE_DECK_HEADER	Incomplete deck	
 GLUE_INCOMPLETE_DECK_DESC	You need to finish building this deck.	
 GLUE_DISABLED_DECK_HEADER	{0} deck	0=deck format
@@ -1470,6 +1468,7 @@ VO_BOSS_CHO_Male_Ogre_INTRO_QL_GOONS2_01	KEEP EM OFF OUR TURF!
 VO_FIRE_FESTIVAL_RAGNAROS_FESTIVAL	IT'S THE FESTIVAL OF ME!
 
 GLUE_TEMPORARY_ACCOUNT_SIGN_UP	Sign Up
+GLUE_TEMPORARY_ACCOUNT_SKIP	Skip
 GLUE_TEMPORARY_ACCOUNT_FRIENDS_LIST_HEADER	Play with friends
 GLUE_TEMPORARY_ACCOUNT_FRIENDS_LIST_BODY	Hearthstone is more fun with friends!\n(Account required)
 GLUE_TEMPORARY_ACCOUNT_GAME_MENU_BODY	• Keep your collection\n• Save your game progress\n• Unlock a free card pack\n• Chat/play with friends\n• Customize player name\n• Play on other platforms
@@ -1482,6 +1481,7 @@ GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_03	Create an account to help safeguard your c
 GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_04	Nice work! Safeguard your progress by creating an account!
 GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_05	Congratulations! Safeguard your progress by creating an account!
 GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_06	Well done! Safeguard your progress by creating an account!
+GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_07	Create a Battle.net Account to safeguard your progress and play from other devices!
 GLUE_TEMPORARY_ACCOUNT_SWITCH_ACCOUNT_HEADER	Accounts
 
 GLUE_CLOUD_STORAGE_CONTEXT_HEADER	Greetings!
@@ -2181,7 +2181,7 @@ GLUE_TIP_ADVENTURE_BOM_5	Be ready for anything! A mercenary's life is full of tw
 GLUE_TIP_ADVENTURE_BOM_6	View decks before starting the mission \nto develop a strategy against the enemy.
 GLUE_TIP_ADVENTURE_BOM_7	Kazakus, leader of the Gadgetzan Kabal, has been sighted in the Barrens.
 GLUE_TIP_ADVENTURE_BOM_8	On the Night of Falling Stars, shards of glowing Light fell across Azeroth.
-GLUE_TIP_ADVENTURE_BOM_9	Like Warchief Thrall, Rokara is part of the Frostwolf clan and hails from Alterac Valley.
+GLUE_TIP_ADVENTURE_BOM_9	Xyrella's daughter, Runi, fell into a coma after the crash of the Exodar.
 GLUE_TIP_ADVENTURE_BOM_10	For Alliance heroes, the Barrens are especially dangerous. For Horde heroes, just regular dangerous.
 GLUE_TIP_ADVENTURE_BOM_11	For a hero of the Horde, all roads lead to the Crossroads.
 GLUE_CLASS_UPCOMING_HEADER	Not Yet Available
@@ -2356,3 +2356,10 @@ GLUE_APP_RATING_POPUP_TEXT	Would you like to rate us?
 GLUE_TROUBLESHOOTING_POPUP_TEXT	Are you having trouble with the game?
 GLUE_APP_RATING_REQUEST_CONFIRM	Yes
 GLUE_APP_RATING_REQUEST_CANCEL	No
+GLUE_CARD_BACK_PURCHASE_CONFIRMATION_HEADER	Confirm
+GLUE_CARD_BACK_PURCHASE_CONFIRMATION_MESSAGE	Are you sure you want to purchase this {0} card back?\n\nYou can't undo it once you confirm.
+GLUE_CARD_BACK_PURCHASE_ERROR_HEADER	Card Backs
+GLUE_HERO_SKIN_PURCHASE_CONFIRMATION_HEADER	Confirm
+GLUE_HERO_SKIN_PURCHASE_CONFIRMATION_MESSAGE	Are you sure you want to purchase this {0} hero?\n\nYou can't undo it once you confirm.
+GLUE_HERO_SKIN_PURCHASE_ERROR_HEADER	Heroes
+GLUE_GAME_MODE_LOCKED_HEADER	Unlock {0} by completing your Apprenticeship

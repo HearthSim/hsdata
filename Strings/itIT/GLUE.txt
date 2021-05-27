@@ -407,6 +407,9 @@ GLUE_BTA_LOADING_BAR_TASK_9	Oscuramento Portali
 GLUE_BUTTON_TAKE	Prendi	
 GLUE_CANNOT_FIND_BATTLENET_CLIENT	Hearthstone richiede l'applicazione Blizzard Desktop, ma non è stato possibile trovarla. Visita il sito www.battle.net per reinstallarla.	
 GLUE_CANNOT_RUN_BATTLENET_CLIENT	Hearthstone richiede l'applicazione Blizzard Desktop, ma non è stato possibile avviarla. Visita il sito www.battle.net per reinstallarla.	
+GLUE_CARD_BACK_PURCHASE_CONFIRMATION_HEADER	Conferma	
+GLUE_CARD_BACK_PURCHASE_CONFIRMATION_MESSAGE	Vuoi davvero acquistare il dorso {0}?\n\nNon potrai tornare indietro dopo aver confermato.	
+GLUE_CARD_BACK_PURCHASE_ERROR_HEADER	Dorsi	
 GLUE_CARD_NERF_BODY	\n|4(La seguente carta è stata modificata,Le seguenti carte sono state modificate):\n{0}	0=card names
 GLUE_CARD_NERF_HEADER	Modifiche!	
 GLUE_CARDS_ADDED	{0} nuove carte aggiunte al set Classico!	
@@ -561,7 +564,6 @@ GLUE_COLLECTION_DECK_WILD_POPUP_HEADER	Vuoi convertire il mazzo?
 GLUE_COLLECTION_DECK_WILD_POPUP_TEXT	Questo è un mazzo Selvaggio. Vuoi convertirlo automaticamente in un mazzo Standard?	
 GLUE_COLLECTION_DELETE_CONFIRM_DESC	Così facendo eliminerai questo mazzo. Vuoi davvero procedere?	
 GLUE_COLLECTION_DELETE_CONFIRM_HEADER	Elimina	
-GLUE_COLLECTION_DELETE_UNAVAILABLE_DESC	Non puoi eliminare un mazzo fin quando non avrai sbloccato tutte le classi.	
 GLUE_COLLECTION_DUEL_DECKNAME	Mazzo per Duelli	
 GLUE_COLLECTION_EMPTY_PAGE	Pagina 0	
 GLUE_COLLECTION_ERROR_HEADER	Errore nella collezione!	
@@ -690,6 +692,7 @@ GLUE_CRAFTING_DISENCHANT	Disincanta
 GLUE_CRAFTING_DISENCHANT_CONFIRM_DESC	Vuoi davvero procedere? I seguenti mazzi verranno invalidati:	
 GLUE_CRAFTING_DISENCHANT_CONFIRM_HEADER	Disincanta	
 GLUE_CRAFTING_DISENCHANT_CONFIRM2_DESC	Vuoi davvero procedere? Disincantando questa carta rimarresti con meno carte di quante ne potresti utilizzare in un mazzo.	
+GLUE_CRAFTING_DISENCHANT_CONFIRM3_DESC	Vuoi davvero procedere? Disincantando questa carta rimuoverai anche la sua versione Classica dalla tua collezione.	
 GLUE_CRAFTING_EVENT_NOT_ACTIVE_DESCRIPTION	Le carte del set {0} non possono attualmente essere create o disincantate.	
 GLUE_CRAFTING_EVENT_NOT_ACTIVE_TITLE	Non ancora pubblicata	
 GLUE_CRAFTING_INVALID_CARD_TAVERN_BRAWL_DESC	Questa carta non è valida per questa Rissa. Vuoi procedere?	
@@ -746,7 +749,6 @@ GLUE_DECK_TRAY_COUNT	{0}/{1}
 GLUE_DECK_TRAY_DECK_COUNT_LABEL	Mazzi	
 GLUE_DECK_TRAY_GALAKROND_PROMPT_DESC	Stai aggiungendo una carta con Invocazione al tuo mazzo. Per funzionare al meglio, richiede Galakrond. Vuoi aggiungere Galakrond al tuo mazzo?	
 GLUE_DECK_TRAY_GALAKROND_PROMPT_TITLE	Aggiungi Galakrond?	
-GLUE_DECK_TRAY_HEROES_UNLOCKED_COUNT_LABEL	Sbloccati	
 GLUE_DEMON_HUNTER_LOCKED_HEADER	Eroe bloccato	
 GLUE_DEMON_HUNTER_LOCKED_PROLOGUE	Gioca al prologo del Cacciatore di Demoni di Ceneri delle Terre Esterne nell'Avventura per sbloccare questo eroe.	
 GLUE_DEVICE_PERFORMANCE_WARNING	Questo dispositivo non soddisfa i requisiti minimi per eseguire il gioco, perciò Hearthstone potrebbe presentare difetti grafici e/o scarse prestazioni.\n\nTocca Assistenza per ulteriori informazioni.	
@@ -909,6 +911,7 @@ GLUE_FSG_STARTING_OVER_1_MONTH	Inizia fra > 1 mese
 GLUE_FSG_STARTING_SECONDS	Inizia fra {0} |4(secondo,secondi)	
 GLUE_FSG_STARTING_WEEKS	Inizia fra {0} |4(settimana,settimane)	
 GLUE_FUN_CONFIRM_MESSAGE	Fantastico!	
+GLUE_GAME_MODE_LOCKED_HEADER	Sblocca la modalità {0} completando il tuo Addestramento	
 GLUE_GAME_MODE_NEW_MODE_POPUP_HEADER	Nuova modalità!	
 GLUE_GAME_MODE_NEW_MODE_UNLOCKED_POPUP_HEADER	Nuova modalità sbloccata:	
 GLUE_GAME_MODES	Modalità	
@@ -948,8 +951,11 @@ GLUE_GOLD_CAP_BODY	Non puoi ottenere altro oro fin quando non ne avrai meno di {
 GLUE_GOLD_CAP_HEADER	{0} oro raggiunto!	
 GLUE_GOONS_CLASS_NAMES	Cacciatore, Paladino, Guerriero	
 GLUE_HERO_HEROSELECT_NEW	NUOVO!	
-GLUE_HERO_LOCKED_DESC	Sconfiggi questo eroe per sbloccarlo!	
+GLUE_HERO_LOCKED_DESC	Sconfiggi l'eroe {0} in modalità Classificata o Allenamento per sbloccare la classe {1}.	
 GLUE_HERO_LOCKED_NAME	Bloccato	
+GLUE_HERO_SKIN_PURCHASE_CONFIRMATION_HEADER	Conferma	
+GLUE_HERO_SKIN_PURCHASE_CONFIRMATION_MESSAGE	Vuoi davvero acquistare l'eroe {0}?\n\nNon potrai tornare indietro dopo aver confermato.	
+GLUE_HERO_SKIN_PURCHASE_ERROR_HEADER	Eroi	
 GLUE_HEROIC_BRAWL_CONTINUE	Ho capito!	Heroic brawl intro dialogue continue button text
 GLUE_HEROIC_BRAWL_DECK	Rissa Eroica	
 GLUE_HEROIC_BRAWL_INTRO	La Rissa di questa settimana è per i giocatori più esperti. Le tue carte e capacità verranno messe a dura prova!	
@@ -1261,7 +1267,7 @@ GLUE_PROGRESSION_ACHIEVEMENT_INSPECT_TITLETEXT	Completa per ottenere
 GLUE_PROGRESSION_ACHIEVEMENT_TOAST	<color=#FFFFFF>Hai ottenuto</color> <color=#FFD451>{0}</color>	
 GLUE_PROGRESSION_ACHIEVEMENTS_COMPLETED	Completata!	
 GLUE_PROGRESSION_ACHIEVEMENTS_COMPLETION_REQUIRED	Richiede il completamento dell'impresa	
-GLUE_PROGRESSION_ACHIEVEMENTS_REWARDS_BUTTON	Guarda le ricompense!	
+GLUE_PROGRESSION_ACHIEVEMENTS_REWARDS_BUTTON	Vedi ricompense	
 GLUE_PROGRESSION_ACHIEVEMENTS_STEPCOMPLETED	Traguardo completato!	
 GLUE_PROGRESSION_ACHIEVEMENTS_TITLE	Imprese	
 GLUE_PROGRESSION_ACHIEVEMENTS_TOOLTIP_DESCRIPTION	Completa le imprese per ottenere altri punti.	
@@ -1925,6 +1931,7 @@ GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_03	Crea un account per preservare la tua coll
 GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_04	Ottimo lavoro! Crea un account per non rischiare di perdere i tuoi progressi.	
 GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_05	Congratulazioni! Crea un account per non rischiare di perdere i tuoi progressi.	
 GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_06	Ben fatto! Crea un account per non rischiare di perdere i tuoi progressi.	
+GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_07	Crea un account per preservare i tuoi progressi e giocare da altri dispositivi!	
 GLUE_TEMPORARY_ACCOUNT_DIALOG_HEADER_01	Account richiesto	
 GLUE_TEMPORARY_ACCOUNT_DIALOG_HEADER_02	Vuoi creare un account?	
 GLUE_TEMPORARY_ACCOUNT_DIALOG_HEADER_03	È l'ora di un account?	
@@ -1932,6 +1939,7 @@ GLUE_TEMPORARY_ACCOUNT_FRIENDS_LIST_BODY	Hearthstone è più divertente con gli 
 GLUE_TEMPORARY_ACCOUNT_FRIENDS_LIST_HEADER	Gioca con gli amici	
 GLUE_TEMPORARY_ACCOUNT_GAME_MENU_BODY	Preserva la tua collezione\n• Salva i tuoi progressi in gioco\n• Sblocca una busta di carte gratuita\n• Parla in chat o gioca con i tuoi amici\n• Personalizza il tuo nome in gioco\n• Gioca su altre piattaforme	
 GLUE_TEMPORARY_ACCOUNT_SIGN_UP	Iscriviti	
+GLUE_TEMPORARY_ACCOUNT_SKIP	Salta	
 GLUE_TEMPORARY_ACCOUNT_SWITCH_ACCOUNT_HEADER	Account	
 GLUE_TEXTURE_COMPRESSION_WARNING	Questa versione del gioco non contiene il formato corretto delle texture per questa piattaforma. Le prestazioni non saranno ottimali.	--TEMP-- This should be in Chinese
 GLUE_TEXTURE_COMPRESSION_WARNING_TITLE	Avviso compressione texture	--TEMP-- This should be in Chinese
@@ -1965,7 +1973,7 @@ GLUE_TIP_ADVENTURE_BOM_5	Sii pronto a qualunque cosa! La vita di un mercenario �
 GLUE_TIP_ADVENTURE_BOM_6	Dai un'occhiata ai mazzi prima di cominciare la missione\nper decidere la strategia da adottare contro il nemico.	
 GLUE_TIP_ADVENTURE_BOM_7	Kazakus, capo della Kabala di Meccania, è stato avvistato nelle Savane.	
 GLUE_TIP_ADVENTURE_BOM_8	Durante la Notte delle Stelle Cadenti, delle luminosissime schegge di Luce caddero su tutta Azeroth.	
-GLUE_TIP_ADVENTURE_BOM_9	Come il Capoguerra Thrall, Rokara fa parte del Clan Lupi Bianchi e proviene dalla Valle d'Alterac.	
+GLUE_TIP_ADVENTURE_BOM_9	Runi, la figlia di Xyrella, è caduta in un coma profondo dopo lo schianto della Exodar.	
 GLUE_TIP_ADVENTURE_BOT_0	Gli enigmi si possono riavviare velocemente.\nNon aver paura di sperimentare!	
 GLUE_TIP_ADVENTURE_BOT_1	Non tutte le carte sono necessarie per risolvere gli enigmi.	
 GLUE_TIP_ADVENTURE_BOT_2	Non arrenderti. Cerca interazioni particolari tra le carte.	
@@ -2263,7 +2271,6 @@ GLUE_TOOLTIP_GOLDEN_WINS_HEADER	Vittorie totali
 GLUE_TOOLTIP_HEADER_ALL_STANDARD_CARDS	Standard	
 GLUE_TOOLTIP_HEADER_VANILLA_CARDS	Classico	
 GLUE_TOOLTIP_HEADER_WILD_CARDS	Selvaggio	
-GLUE_TOOLTIP_HOW_TO_UNLOCK_DECKS	Sblocca questo mazzo sconfiggendo altri eroi in qualsiasi modalità.	
 GLUE_TOOLTIP_RANKED_BUTTON	Affronta altri giocatori per scalare la classifica!	
 GLUE_TOOLTIP_VIRTUAL_CURRENCY_DESCRIPTION	Usa le Pietre Runiche per acquistare Globi Arcani, eroi, avventure o Biglietti Locanda.	
 GLUE_TOOLTIP_VIRTUAL_CURRENCY_HEADER	Pietre Runiche	
