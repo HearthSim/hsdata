@@ -1,4 +1,4 @@
-﻿TAG	TEXT	COMMENT
+TAG	TEXT	COMMENT
 GLUE_COLLECTION_SEARCH	Search
 GLUE_COLLECTION_DECK_HELP_BUTTON	Deck Helper
 GLUE_COLLECTION_DECK_COMPELTE_BUTTON	Complete My Deck
@@ -168,6 +168,7 @@ GLUE_COLLECTION_DECK_COPY_TOOLTIP_INCOMPLETE	You can only copy a full deck.
 GLUE_COLLECTION_DECK_COPY_TOOLTIP_FORMAT	Your deck has some cards that are invalid for this format.
 GLUE_COLLECTION_DECK_COPY_TOOLTIP_UNPLAYABLE	Your deck has some cards that are not playable.
 GLUE_COLLECTION_DECK_PASTE_INVALID_CLASS_BODY	The deck you are trying to paste belongs to a different class.
+GLUE_COLLECTION_FINAL_REWARD	Final Reward
 GLUE_TOOLTIP_HEADER_ALL_STANDARD_CARDS	Standard
 GLUE_TOOLTIP_DESCRIPTION_ALL_STANDARD_CARDS	Contains the latest cards. Can be used in Standard and Wild formats.
 GLUE_TOOLTIP_HEADER_WILD_CARDS	Wild
@@ -1094,6 +1095,7 @@ GLUE_RECONNECT_HELPER_BAD_VERSION_RESET_BODY	You must update before you can proc
 GLUE_RECONNECT_HELPER_BAD_VERSION_LAUNCHER_BODY	Please relaunch Hearthstone to pick up the latest update.
 GLUE_RECONNECT_HELPER_RESET_REQUIRED_BODY	Unable to reconnect. Please relaunch Hearthstone.
 GLUE_RECONNECT_HELPER_EXIT_GAME	Exit Game
+GLUE_RECONNECT_HELPER_RESTART_GAME	Restart
 GLUE_RECONNECT_HELPER_INACTIVE_TIMEOUT_HEADER	You are currently offline
 GLUE_RECONNECT_HELPER_INACTIVE_TIMEOUT_BODY	It's been a while since your last Hearthstone action and your connection was shut down.
 GLUE_OFFLINE_FEATURE_DISABLED_HEADER	Offline
@@ -1344,6 +1346,7 @@ GLUE_COLLECTION_MANAGER_SEARCH_EVEN_MANA	even	Search term to filter cards in Col
 GLUE_COLLECTION_MANAGER_SEARCH_ODD_MANA	odd	Search term to filter cards in CollectionManager to cards with odd mana cost. Example: mana:odd
 GLUE_COLLECTION_MANAGER_SEARCH_EVEN_CARDS	even	Search term to filter cards in CollectionManager to cards that player owns an even number of. Example: owned:even
 GLUE_COLLECTION_MANAGER_SEARCH_ODD_CARDS	odd	Search term to filter cards in CollectionManager to cards that player owns an odd number of. Example: owned:odd
+GLUE_COLLECTION_MANAGER_SEARCH_REFUND	refund
 GLUE_COLLECTION_MANAGER_WHIZBANG_DEFAULT_DECK_NAME	Whizbang is Wonderful
 GLUE_COLLECTION_MANAGER_WHIZBANG_WARNING_HEADER	Whizbang?
 GLUE_COLLECTION_MANAGER_WHIZBANG_WARNING_BODY	Adding Whizbang to your deck will remove all other cards. Continue?
@@ -1382,7 +1385,7 @@ GLUE_RAF_HERO_TOOLTIP_TITLE	Earn the new Shaman hero Morgl when a recruit reache
 GLUE_RAF_HERO_TOOLTIP_REDEEMED_TITLE	The Shaman hero Morgl has been earned. Morgl can be found in My Collection.
 GLUE_RAF_HERO_TOOLTIP_HERO	Morgl the Oracle
 GLUE_RAF_PACK_TOOLTIP_TITLE	Earn a pack when a recruit reaches level 20!
-GLUE_RAF_PACK_TOOLTIP_REDEEMED_TITLE	This Classic pack has been earned.
+GLUE_RAF_PACK_TOOLTIP_REDEEMED_TITLE	A pack from the latest expansion has been earned.
 GLUE_RAF_RECRUIT_BAR_TOOLTIP_HEADLINE	Player Level
 GLUE_RAF_RECRUIT_BAR_TOOLTIP_DESC	Rewards are received when recruits earn a total of 20 levels across all classes.
 GLUE_RAF_INFO_HEADLINE	How it works
@@ -1978,7 +1981,7 @@ GLUE_BACON_INFO_POPUP_RECRUIT	RECRUIT PHASE
 GLUE_BACON_INFO_POPUP_COMBAT	COMBAT PHASE
 GLUE_BACON_INFO_POPUP_PLAY_TUTORIAL	Play Tutorial
 GLUE_BACON_INFO_POPUP_PAGE	Page
-GLUE_BACON_INFO_POPUP_RECRUIT_TIPS	<color=#C900FF>• Buy:</color> Drag minions to your hero to buy them for 3 gold.\n<color=#C900FF>• Sell:</color> Drag minions to Bob to sell them for 1 gold.\n<color=#C900FF>• Triples:</color> Get 3 of a minion to upgrade it and get a bonus prize.\n<color=#C900FF>• Rearrange:</color> Drag your minions around to strategize your fight order.\n<color=#C900FF>• Grow:</color> Buffs during recruit phase are permanent.\n<color=#C900FF>• Tavern Tier:</color> Upgrade your Tavern to see better minions.\n 	Every other Tier increases the number of shop minions.\n 	Upgrading goes down in price each turn.
+GLUE_BACON_INFO_POPUP_RECRUIT_TIPS	<color=#C900FF>• Buy:</color> Drag minions to your hero to buy them for 3 gold.\n<color=#C900FF>• Sell:</color> Drag minions to your Bartender to sell them for 1 gold.\n<color=#C900FF>• Triples:</color> Get 3 of a minion to upgrade it and get a bonus prize.\n<color=#C900FF>• Rearrange:</color> Drag your minions around to strategize your fight order.\n<color=#C900FF>• Grow:</color> Buffs during recruit phase are permanent.\n<color=#C900FF>• Tavern Tier:</color> Upgrade your Tavern to see better minions.\n 	Every other Tier increases the number of shop minions.\n 	Upgrading goes down in price each turn.
 GLUE_BACON_INFO_POPUP_COMBAT_TIPS	<color=#C900FF>• Left to Right:</color> Your left-most minion attacks first.\n<color=#C900FF>• Random targets:</color> Each attack is at a random enemy, unless one has Taunt.\n<color=#C900FF>• Buffs:</color> Buffs during Combat Phase are temporary.\n<color=#C900FF>• Victory:</color> When you win a combat, your Hero and minions deal damage equal to their Tavern Tier.
 GLUE_BACON_STATS_PAGE	Come back here to check out your full stats after Beta!
 GLUE_BACON_LOW_MEMORY_HEADER	Warning
@@ -2083,8 +2086,9 @@ GLUE_SELLABLE_DECK_CONFIRMATION_HEADER	Confirm your purchase
 GLUE_SELLABLE_DECK_CONFIRMATION_BODY	You can only purchase 1 Battle-Ready Deck for this offer.
 GLUE_SELLABLE_DECK_FULL_LIST_HEADER	Deck list full
 GLUE_SELLABLE_DECK_FULL_LIST_BODY	You got all the cards but your deck list is full. The deck code has been copied to your clipboard.
-GLUE_INGAME_MESSAGING_SEE_IN_SHOP	See in shop
-GLUE_INGAME_MESSAGING_SEE_ALL	See all
+GLUE_INGAME_MESSAGING_SEE_IN_SHOP	See in Shop
+GLUE_INGAME_MESSAGING_SEE_ALL	See All
+GLUE_INGAME_MESSAGING_MAILBOX_EMPTY	Mailbox Empty!
 GLUE_RANKED_REWARD_IN_GAME_TITLE	Reward!
 GLUE_RANKED_REWARD_IN_GAME_FOOTER	Open your chest at the end of the season.
 GLUE_ADVENTURE_CHAPTERPAGE_DESCRIPTION_BTP	The War of the Ancients rages across Azeroth! A hero will rise... but at what cost?
@@ -2294,7 +2298,7 @@ GLUE_PROGRESSION_REWARD_TRACK_POPUP_SKIN_CHOICE_CLAIMED	Claimed
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_SKIN_CHOICE_CONFIRMATION_HEADER	Confirm your choice
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_SKIN_CHOICE_CONFIRMATION_TEXT	Choose {0} skin {1}?
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_FORGOT_REWARDS_TITLE	You Forgot |4(A Reward,Some Rewards)!
-GLUE_PROGRESSION_REWARD_TRACK_POPUP_FORGOT_REWARDS_BODY	{0} |4(reward,rewards) from last expansion's Reward Track |4(has, have) been added to your Collection.
+GLUE_PROGRESSION_REWARD_TRACK_POPUP_FORGOT_REWARDS_BODY	{0} |4(reward has, rewards have) been added to your Collection from a previous rewards track: {1}.
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_NEW_TRACK_TITLE	New Rewards Track: {0}
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_NEW_TRACK_BODY	Earn exciting new rewards on the refreshed Rewards Track!
 GLUE_PROGRESSION_REWARD_TRACK_XP_TOOLTIP_BOOST_TITLE	XP Bonuses
@@ -2365,4 +2369,17 @@ GLUE_CARD_BACK_PURCHASE_ERROR_HEADER	Card Backs
 GLUE_HERO_SKIN_PURCHASE_CONFIRMATION_HEADER	Confirm
 GLUE_HERO_SKIN_PURCHASE_CONFIRMATION_MESSAGE	Are you sure you want to purchase this {0} hero?\n\nYou can't undo it once you confirm.
 GLUE_HERO_SKIN_PURCHASE_ERROR_HEADER	Heroes
-GLUE_GAME_MODE_LOCKED_HEADER	Unlock {0} by completing your Apprenticeship
+GLUE_BACON_COLLECTION	Collection
+GLUE_BACON_COLLECTION_ERROR_HEADER	Battlegrounds Collection
+GLUE_BACON_COLLECTION_ERROR_BODY	Battlegrounds Collection is currently unavailable. Please check back later.
+GLUE_BACON_COLLECTION_MANAGER_GUIDE_SKINS_TITLE	Bartenders
+GLUE_BACON_COLLECTION_FAVORITE	Favorite
+GLUE_BACON_COLLECTION_FAVORITE_GUIDE	Favorite Bartender
+GLUE_BACON_COLLECTION_RESTING	Resting
+GLUE_BACON_COLLECTION_PREVIEWING	Perk Hero
+GLUE_BACON_COLLECTION_FILTER_DEFAULT	Show All
+GLUE_BACON_COLLECTION_FILTER_ALL	All
+GLUE_BACON_SHOP_EMPTY_HEADER	Battlegrounds Store
+GLUE_BACON_SHOP_EMPTY_BODY	Oh wow! You've acquired all the items in the store at this time. Check back soon for updates!
+GLUE_MASDK_ACCOUNT_REPAIR_TITLE	Account Repaired
+GLUE_MASDK_ACCOUNT_REPAIR_BODY	We have fixed an issue with your account preventing you from healing up to a full Blizzard account. You can now preform a heal up whenever you desire.
