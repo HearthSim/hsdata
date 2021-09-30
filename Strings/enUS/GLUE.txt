@@ -33,6 +33,7 @@ GLUE_COLLECTION_LOCK_CARD_NOT_IN_CARDSET	Wrong Set
 GLUE_COLLECTION_RECENT_CARDS	Recently Acquired Cards	
 GLUE_COLLECTION_MY_DECKS	My Decks	
 GLUE_COLLECTION_DECK	Deck	
+GLUE_COLLECTION_MY_TEAMS	My Parties	
 GLUE_COLLECTION_MY_PACKS	My Packs	
 GLUE_COLLECTION_DECK_SAVE_ANYWAY	No	
 GLUE_COLLECTION_DECK_FINISH_FOR_ME	Yes	
@@ -74,6 +75,7 @@ GLUE_COLLECTION_DECK_INCOMPLETE_LABEL	Click to complete
 GLUE_COLLECTION_DECK_INCOMPLETE_LABEL_TOUCH	Tap to complete	
 GLUE_COLLECTION_DECK_MISSING_CARDS_INDICATOR	{0}/{1}	
 GLUE_COLLECTION_NEW_DECK	New Deck	
+GLUE_COLLECTION_NEW_TEAM	New Party	
 GLUE_COLLECTION_NEW_DECK_DETAIL_HEADER	Included in this {0} deck:
 GLUE_COLLECTION_NEW_DECK_DETAIL_DESC	Legendary x {0}, Epic x {1}, Rare x {2}, Common x {3}
 GLUE_COLLECTION_TUTORIAL02	Turn pages to browse
@@ -102,6 +104,8 @@ GLUE_COLLECTION_ARTIST	Artist: {0}	0=artist name
 GLUE_COLLECTION_RECENTLY_NERFED	<color=#971c1cff>This card was recently modified, so its Disenchant value has been adjusted.</color>
 GLUE_COLLECTION_DELETE_CONFIRM_HEADER	Delete	
 GLUE_COLLECTION_DELETE_CONFIRM_DESC	This will delete your deck. Are you sure?	
+GLUE_COLLECTION_DELETE_TEAM_CONFIRM_DESC	This will delete your party. Are you sure?
+GLUE_COLLECTION_DELETE_TEAM_UNAVAILABLE_DESC	You can't delete this party.
 GLUE_COLLECTION_ALL_SETS	All Sets	
 GLUE_COLLECTION_STANDARD_SETS	Standard Sets
 GLUE_COLLECTION_WILD_SETS	Wild Sets
@@ -114,9 +118,12 @@ GLUE_COLLECTION_MINE	My Cards
 GLUE_COLLECTION_GOLDEN_CARDS	Golden Cards	
 GLUE_COLLECTION_CUSTOM_DECKNAME_TEMPLATE	Custom {0}{1}	0=class name, 1=incrementer
 GLUE_COLLECTION_CUSTOM_DECKNAME_SHORT	{0}{1}	0=class name, 1=incrementer
+GLUE_COLLECTION_CUSTOM_TEAMNAME_TEMPLATE	Party {0}	0=incrementer
 GLUE_COLLECTION_TAVERN_BRAWL_DECKNAME	Brawl Deck	
 GLUE_COLLECTION_FSG_BRAWL_DECKNAME	Fireside Deck
 GLUE_COLLECTION_DUEL_DECKNAME	Duels Deck	
+GLUE_COLLECTION_LETTUCE_PVE_TEAMNAME	PvE Party
+GLUE_COLLECTION_LETTUCE_LOCK_TEXT	In your Party
 GLUE_COLLECTION_CARD_NEW	NEW!	
 GLUE_COLLECTION_CRAFTING_MODE	Crafting Mode	
 GLUE_COLLECTION_CRAFTING_MODE_SHORT	Crafting	
@@ -216,13 +223,15 @@ GLUE_CRAFTING_TITLE	Card Crafting
 GLUE_DECK_TRAY_COUNT	{0}/{1}	
 GLUE_DECK_TRAY_CARD_COUNT_LABEL	Cards	
 GLUE_DECK_TRAY_DECK_COUNT_LABEL	Decks
+GLUE_DECK_TRAY_TEAM_COUNT_LABEL	Parties
+GLUE_DECK_TRAY_MERC_COUNT_LABEL	Mercs
 GLUE_DECK_TRAY_GALAKROND_PROMPT_TITLE	Add Galakrond to your Deck?
 GLUE_DECK_TRAY_GALAKROND_PROMPT_DESC	You're adding an Invoke card to your deck. It requires Galakrond to work fully. Would you like us to add Galakrond to your deck?
 GLUE_STORE_INFO_BUTTON_TEXT	i	
 GLUE_STORE_TERMS_OF_SALE_BUTTON_TEXT	?
 GLUE_STORE_OPEN_BUTTON_TEXT	Shop
 GLUE_STORE_CLOSED_BUTTON_TEXT	Shop\nClosed
-GLUE_STORE_AUTH_WAITING	Waiting for Authorization
+GLUE_STORE_AUTH_WAITING	Working on it...
 GLUE_STORE_AUTH_SUCCESS_HEADLINE	Purchase Complete!
 GLUE_STORE_AUTH_FAIL_HEADLINE	Purchase Failed
 GLUE_STORE_AUTH_ZERO_COST_WAITING	Opening the Necropolis for the first time
@@ -268,6 +277,7 @@ GLUE_STORE_PRODUCT_DETAILS_HEADLINE_PACK	Contents per pack:
 GLUE_STORE_PRODUCT_DETAILS_HEADLINE_DUST	Dust Bundles:
 GLUE_STORE_PRODUCT_DETAILS_HEADLINE_TGT_PACK_PRESALE	The Grand Tournament (Pre-Purchase) includes:
 GLUE_STORE_PRODUCT_DETAILS_PACK	•  5 {0} Hearthstone Cards\n•  At least 1 card will be Rare or better	0=pack type
+GLUE_STORE_PRODUCT_DETAILS_MERCENARY_PACK	•  Each Mercenaries Pack has 5 items that can include Mercenaries (at least one rare or better until all are collected from a rarity tier), Coins, or Portraits
 GLUE_STORE_PRODUCT_DETAILS_DUST	•  Your Dust comes with a set of packs\n•  Each pack contains 5 {0} Hearthstone Cards and at least 1 card will be Rare or better\n•  Dust can be used to craft cards in the Collection Manager	0=pack type
 GLUE_STORE_PRODUCT_DETAILS_TGT_PACK_PRESALE	•  50 packs and a special card back\n•  Each pack has 5 cards, with 1 rare or better\n•  The Grand Tournament packs are openable in August!	
 GLUE_STORE_PRODUCT_DETAILS_HEADLINE_OG_PACK_PRESALE	Whispers of the Old Gods (Pre-Purchase) includes:
@@ -461,10 +471,10 @@ GLUE_TOOLTIP_BUTTON_BACON_HEADLINE	Battlegrounds
 GLUE_TOOLTIP_BUTTON_BACON_DESC_EARLY_ACCESS	Battlegrounds is currently in Early Access.\nYou can gain access by purchasing any of the Descent of Dragons pre-purchases in the shop.
 GLUE_TOOLTIP_BUTTON_BACON_DESC	Battle 7 opponents! Who will take the crown?
 GLUE_TOOLTIP_BUTTON_MERCENARIES_HEADLINE	Mercenaries	
-GLUE_TOOLTIP_BUTTON_MERCENARIES_DESC	Build and Level a team of Mercenaries as you battle for bounties and glory!
+GLUE_TOOLTIP_BUTTON_MERCENARIES_DESC	Build and level up a party of Mercenaries as you battle for bounties and glory!
 GLUE_TUTORIAL_VIDEO_BANNER_TRADITIONAL	Collect cards, build decks, and fight to become legendary in this head-to-head game mode!
 GLUE_TUTORIAL_VIDEO_BANNER_BATTLEGROUNDS	Build your warband and fight for the crown in this 8-player auto-battler!
-GLUE_TUTORIAL_VIDEO_BANNER_MERCENARIES	Build and level up a team of mercenaries as you battle for bounties and glory!
+GLUE_TUTORIAL_VIDEO_BANNER_MERCENARIES	Build and level up a party of Mercenaries as you battle for bounties and glory!
 GLUE_MOBILE_TOOLTIP_BUTTON_STORE_DESC	Buy Packs with gold or money.
 GLUE_TOOLTIP_VIRTUAL_CURRENCY_DESCRIPTION	Spend Runestones to buy Arcane Orbs, heroes, adventures, or Tavern tickets.
 GLUE_TOOLTIP_VIRTUAL_CURRENCY_HEADER	Runestones	
@@ -510,6 +520,8 @@ GLUE_BACON	Battlegrounds
 GLUE_TRADITIONAL	Hearthstone
 GLUE_MERCENARIES	Mercenaries	
 #moved to GLOBAL_TAVERN_BRAWL#	GLUE_TAVERN_BRAWL	Tavern Brawl	
+GLUE_SCENE_LOAD_ERROR_TITLE	Error
+GLUE_SCENE_LOAD_ERROR_BODY	We encountered an error when loading this menu. Please try again.
 GLUE_START_TOUCH	Touch To Start	
 GLUE_START_CLICK	Click To Start	
 GLUE_START_PRESS	Press Start	
@@ -789,7 +801,36 @@ GLUE_TIP_BACON_17	If you have 1 gold left over, refresh the Tavern – \nif you 
 GLUE_TIP_BACON_18	With 8 players, being in the Top 4 is a win! \nFirst place gets you the Crown!
 GLUE_TIP_BACON_19	All players recruit minions from the same shared pool.
 GLUE_TIP_BACON_20	When you wipe out an opponent, their minions go back into the pool.
-
+GLUE_TIP_LETTUCE_0	Using <b>Critical Damage</b> is the key to victory!
+GLUE_TIP_LETTUCE_1	Abilities happen randomly if they have the same Speed. 
+GLUE_TIP_LETTUCE_2	Ability cooldowns decrease even while on the Bench.
+GLUE_TIP_LETTUCE_3	Minions with <b>Rush</b> immediately attack a random target when they are summoned.
+GLUE_TIP_LETTUCE_4	<b>Taunt</b> can be used to intercept <b>Attack</b> abilities.
+GLUE_TIP_LETTUCE_5	Targets will glow if you can do <b>Critical Damage</b> to them.
+GLUE_TIP_LETTUCE_6	Certain Mercenaries are stronger together. Build teams with that in mind.
+GLUE_TIP_LETTUCE_7	Mercenaries will still gain XP even if they are dead.
+GLUE_TIP_LETTUCE_8	Use coins to upgrade your Abilities and Equipment.
+GLUE_TIP_LETTUCE_9	Equipment can be obtained by completing Tasks.
+GLUE_TIP_LETTUCE_10	Treasures give your Mercenaries extra Abilities,\nbut they only last for that Bounty Map.
+GLUE_TIP_LETTUCE_11	Better quality Treasures can be found from Elite encounters.
+GLUE_TIP_LETTUCE_12	Heroic Bounties give better rewards but are much more challenging.
+GLUE_TIP_LETTUCE_13	You can reposition your party around when you play Mercenaries from your Bench.
+GLUE_TIP_LETTUCE_14	Control your characters' Speed ties by the order you prepare their abilities!
+GLUE_TIP_LETTUCE_15	Each Bounty can drop different Mercenary coins.\nTarget specific bounties to gain the coins you need.
+GLUE_TIP_LETTUCE_16	Frozen characters cannot use their abilities.
+GLUE_TIP_LETTUCE_17	Time Deathblow abilities so they get the killing blow.
+GLUE_TIP_LETTUCE_18	Elemental damage like <b>Fire Damage</b> affects your whole party.
+GLUE_TIP_LETTUCE_19	Boon encounters give a bonus to both teams.\nUse this to your advantage.
+GLUE_TIP_LETTUCE_20	New Tasks are refreshed each day.\nYou might even find them during a Bounty adventure!
+GLUE_TIP_LETTUCE_21	Rewards can be earned in the Fighting Pit as well.
+GLUE_TIP_LETTUCE_22	You can craft Mercenaries if you have enough of their coins.
+GLUE_TIP_LETTUCE_23	Each Mercenary has their own set of Treasures they can find.
+GLUE_TIP_LETTUCE_24	You can inspect what the opponent is planning to do during Bounty encounters.
+GLUE_TIP_LETTUCE_25	Each Mercenary can only use one Equipment at a time.
+GLUE_TIP_LETTUCE_26	Progress can by made by beating Normal or Heroic Bounties.
+GLUE_TIP_LETTUCE_27	Sometimes not preparing an ability and skipping a turn is the right move!
+GLUE_TIP_LETTUCE_28	Each side can only have 6 characters on the board at once.
+GLUE_TIP_LETTUCE_29	Abilities that have an hourglass icon start on a cooldown and cannot be used immediately.
 
 GLUE_DRAFT_PLAY_BUTTON	PLAY	
 GLUE_DRAFT_RETIRE_BUTTON	RETIRE	
@@ -1009,6 +1050,26 @@ GLUE_DAL_LOADING_BAR_TASK_17	Berating Henchmen
 GLUE_DAL_LOADING_BAR_TASK_18	Boasting Egomaniacally 
 GLUE_DAL_LOADING_BAR_TASK_19	Wreaking Havoc
 GLUE_DAL_LOADING_BAR_TASK_20	Recruiting Lackeys
+GLUE_LET_LOADING_BAR_TASK_1	Practicing Kidney Shots
+GLUE_LET_LOADING_BAR_TASK_2	Packing Provisions
+GLUE_LET_LOADING_BAR_TASK_3	Getting Lost
+GLUE_LET_LOADING_BAR_TASK_4	Discussing Gnoll Politics
+GLUE_LET_LOADING_BAR_TASK_5	Foraging for Friendship
+GLUE_LET_LOADING_BAR_TASK_6	Blaming the Rogue
+GLUE_LET_LOADING_BAR_TASK_7	Mrglmrglmrglmrgl?
+GLUE_LET_LOADING_BAR_TASK_8	LFG in the Barrens Chat
+GLUE_LET_LOADING_BAR_TASK_9	Roasting Marshmallows
+GLUE_LET_LOADING_BAR_TASK_10	Picking Pockets
+GLUE_LET_LOADING_BAR_TASK_11	Rolling Need
+GLUE_LET_LOADING_BAR_TASK_12	Vanishing From Responsibilities
+GLUE_LET_LOADING_BAR_TASK_13	Organizing Collections
+GLUE_LET_LOADING_BAR_TASK_14	Dusting the Tavern
+GLUE_LET_LOADING_BAR_TASK_15	Discovering Quilboar Acupuncture
+GLUE_LET_LOADING_BAR_TASK_16	Restocking Treasures
+GLUE_LET_LOADING_BAR_TASK_17	Hiding the Good Loot
+GLUE_LET_LOADING_BAR_TASK_18	Focusing the Healer
+GLUE_LET_LOADING_BAR_TASK_19	Going After Hogger
+GLUE_LET_LOADING_BAR_TASK_20	Fishing in the Well of Eternity
 
 GLUE_LOADING	Loading...	
 GLUE_STARTING_GAME	Starting Game	
@@ -1128,9 +1189,10 @@ GLUE_STORE_MODE_ADVENTURE	ADVENTURE
 GLUE_STORE_MODE_HEROES	Heroes	
 GLUE_ADVENTURE_MODE_CLASS_CHALLENGE_CHOOSE	Choose a Challenge	
 GLUE_ADVENTURE_LABEL_SHOP_CLOSED	Closed	
-GLUE_ADVENTURE_LABEL_COMING_SOON	Coming soon!	
+GLUE_ADVENTURE_LABEL_COMING_SOON	Coming Soon!	
 GLUE_ADVENTURE_REWARDS_PREVIEW_HEADER	• {0} Rewards •	
 GLUE_ADVENTURE_BOSS_HEADER	Boss Info
+GLUE_ADVENTURE_BOSS_HEADER_HEROIC	Boss Info (Heroic)
 GLUE_ADVENTURE_WING_PURCHASED	Purchased
 GLUE_STORE_ADVENTURE_LOCKED_HEROES_NOT_PURCHASABLE_TITLE	Not Yet!
 GLUE_STORE_ADVENTURE_LOCKED_HEROES_NOT_PURCHASABLE_TEXT	You need to unlock all 9 classes before\nyou can purchase this adventure.\n\nGo defeat each Hero at least once!
@@ -1259,6 +1321,8 @@ GLUE_STORE_PREORDER_APRIL	Available in\nApril*!
 GLUE_STORE_PREORDER_DUST_APRIL	Packs available in\nApril*!
 GLUE_STORE_PREORDER_NOVEMBER	Available in\nNovember*!
 GLUE_STORE_PREORDER_DUST_NOVEMBER	Packs available in\nNovember*!
+GLUE_MERCENARY_TUTORIAL_INCOMPLETE_FOR_PACK	Complete \nMercenaries Tutorial!
+GLUE_MERCENARY_PACK_UNAVAILABLE	Temporarily Unavailable!
 GLUE_STORE_PREORDER_MARCH	Available in\nMarch*!
 GLUE_STORE_PREORDER_DUST_MARCH	Packs available in\nMarch*!
 GLUE_STORE_SELLABLEDECKS_CHOOSE_A_DECK	Choose a deck
@@ -1352,6 +1416,8 @@ GLUE_COLLECTION_MANAGER_SEARCH_NEW	new
 GLUE_COLLECTION_MANAGER_SEARCH_RARITY	rarity
 GLUE_COLLECTION_MANAGER_SEARCH_TYPE	type
 GLUE_COLLECTION_MANAGER_SEARCH_HAS	has
+GLUE_COLLECTION_MANAGER_SEARCH_MAX_LEVEL	max
+GLUE_COLLECTION_MANAGER_SEARCH_MAX_LEVEL_ALT	maxed
 GLUE_COLLECTION_MANAGER_SEARCH_EVEN_ATTACK	even	Search term to filter cards in CollectionManager to cards with even attack value. Example attack:even
 GLUE_COLLECTION_MANAGER_SEARCH_ODD_ATTACK	odd	Search term to filter cards in CollectionManager to cards with odd attack value. Example attack:odd
 GLUE_COLLECTION_MANAGER_SEARCH_EVEN_HEALTH	even	Search term to filter cards in CollectionManager to cards with even health value. Example health:even
@@ -1434,6 +1500,22 @@ GLUE_STORE_RANDOM_COMMON	Random Common
 GLUE_STORE_RANDOM_RARE	Random Rare
 GLUE_STORE_RANDOM_EPIC	Random Epic
 GLUE_STORE_RANDOM_LEGENDARY	Random Legendary
+GLUE_STORE_RANDOM_MERCENARY_TIER1_UNSPECIFIED	Random Merc
+GLUE_STORE_RANDOM_MERCENARY_TIER1_RARE	Random Rare Merc
+GLUE_STORE_RANDOM_MERCENARY_TIER1_EPIC	Random Epic Merc
+GLUE_STORE_RANDOM_MERCENARY_TIER1_LEGENDARY	Random Legendary Merc
+GLUE_STORE_RANDOM_MERCENARY_TIER2_UNSPECIFIED	Golden Merc
+GLUE_STORE_RANDOM_MERCENARY_TIER2_RARE	Golden Rare Merc
+GLUE_STORE_RANDOM_MERCENARY_TIER2_EPIC	Golden Epic Merc
+GLUE_STORE_RANDOM_MERCENARY_TIER2_LEGENDARY	Golden Legendary Merc
+GLUE_STORE_RANDOM_SKIN_TIER1_UNSPECIFIED	Random Skin
+GLUE_STORE_RANDOM_SKIN_TIER1_RARE	Random Rare Skin
+GLUE_STORE_RANDOM_SKIN_TIER1_EPIC	Random Epic Skin
+GLUE_STORE_RANDOM_SKIN_TIER1_LEGENDARY	Random Legendary Skin
+GLUE_STORE_RANDOM_SKIN_TIER2_UNSPECIFIED	Golden Skin
+GLUE_STORE_RANDOM_SKIN_TIER2_RARE	Golden Rare Skin
+GLUE_STORE_RANDOM_SKIN_TIER2_EPIC	Golden Epic Skin
+GLUE_STORE_RANDOM_SKIN_TIER2_LEGENDARY	Golden Legendary Skin
 GLUE_STORE_RANDOM_CLASS_LEGENDARY	Random Class Legendary
 GLUE_STORE_RANDOM_DRAGON_LEGENDARY	Random Classic Dragon Legendary
 GLUE_HEROIC_BRAWL_INTRO	This week's brawl is for\nour most experienced players.\nYour skill and collection will matter!
@@ -1688,6 +1770,8 @@ GLUE_ADVENTURE_BOT_BOOM_LETHAL_TOOLTIP	Beat the <b>Lethal</b> wing\nto unlock.
 GLUE_ADVENTURE_BOT_BOOM_BOARD_CLEAR_TOOLTIP	Beat the <b>Board Clear</b> wing\nto unlock.
 GLUE_ADVENTURE_BOT_BOOM_SURVIVAL_TOOLTIP	Beat the <b>Survival</b> wing\nto unlock.
 GLUE_BUTTON_TAKE	Take
+GLUE_BUTTON_REPLACE	Replace
+GLUE_BUTTON_KEEP	Keep
 GLUE_BRAWLISEUM_FREE_TICKET_BODY	Brawliseum usually requires an entrance fee, but since it's your first time, it's on the house! Enjoy!
 GLUE_BRAWLISEUM_TITLE	Brawliseum
 GLUE_BRAWLISEUM_NO_WINS_REWARD_PACK_TEXT	Congratulations!
@@ -2403,7 +2487,184 @@ GLUE_TOOLTIP_GAME_MODE_DATA_NOT_LOADED	This has not finished loading yet. Please
 GLUE_TAVERN_BRAWL_TRADITIONAL_TUTORIAL_INCOMPLETE	Complete the traditional Hearthstone tutorial to access Tavern Brawl.
 GLUE_TAVERN_BRAWL_NO_HERO_AT_MINIMUM_LEVEL	At least 1 hero must be level {0} to access Tavern Brawl.
 GLUE_GAME_MODE_UNLOCK_DEFAULT_HEROES	Unlock all 10 heroes to access {0}.
-GLUE_LETTUCE_BOX_BUTTON_DISABLED_SCROLL_TEXT	New mode\n\n\ncoming soon
+GLUE_ORDINAL_1	1st
+GLUE_ORDINAL_2	2nd
+GLUE_ORDINAL_3	3rd
+GLUE_ORDINAL_4	4th
+GLUE_ORDINAL_5	5th
+GLUE_ORDINAL_6	6th
+GLUE_ORDINAL_7	7th
+GLUE_ORDINAL_8	8th
+GLUE_ORDINAL_9	9th
+GLUE_ORDINAL_10	10th
+GLUE_ORDINAL_11	11th
+GLUE_ORDINAL_12	12th
+GLUE_ORDINAL_13	13th
+GLUE_ORDINAL_14	14th
+GLUE_ORDINAL_15	15th
+GLUE_LETTUCE_PVP_BUTTON	Versus Players
+GLUE_LETTUCE_PVE_BUTTON	PvE
+GLUE_LETTUCE_1V1_SUB_BUTTON	1v1
+GLUE_LETTUCE_TASK_BOARD_BUTTON	TASK_BOARD
+GLUE_LETTUCE_NORMAL_SUB_BUTTON	Normal
+GLUE_LETTUCE_HEROIC_SUB_BUTTON	Heroic
+GLUE_LETTUCE_COMPLETE_RUN	[PH] Unlock by completing your current Run.
+GLUE_LETTUCE_MAP_FINAL_BOSS_REWARDS_HEADER	Earn coins for Mercenaries\nin your party, from your Collection,\nor get some of the following:
+GLUE_VIEW_TEAM	View Party
+GLUE_CLOSE_TEAM	View Map
+GLUE_EDIT_TEAM	Edit Party
+GLUE_LETTUCE_MAP_TEAM_TRAY_HEADER	Party
+GLUE_LETTUCE_MAP_SIDEPANEL_HEADER	Encounter
+GLUE_LETTUCE_MAP_SIDEPANEL_HEADER_HEROIC	Encounter (Heroic)
+GLUE_LETTUCE_MAP_SIDEPANEL_HEADER_HEROIC_PHONE	Heroic
+GLUE_LETTUCE_MAP_STATS_CURRENT_TURNS_LABEL	Turns this Run
+GLUE_LETTUCE_MAP_STATS_BEST_TURNS_LABEL	Fewest Turns
+GLUE_RETIRE_BUTTON	Retire
+GLUE_LETTUCE_MAP_RETIRE_DIALOG_HEADER	Retire Run
+GLUE_LETTUCE_MAP_RETIRE_DIALOG_BODY	Are you sure you want to end your current run?
+GLUE_LETTUCE_MAP_RETIRE_DIALOG_CONFIRM	Retire
+GLUE_LETTUCE_MAP_RETIRE_DIALOG_CANCEL	Cancel
+GLUE_LETTUCE_MAP_LABEL_VICTORY	Victory
+GLUE_LETTUCE_MAP_LABEL_DEFEAT	Defeat
+GLUE_LETTUCE_MAP_WIPEOUT_DIALOG_HEADER	A Valiant Effort
+GLUE_LETTUCE_MAP_WIPEOUT_DIALOG_BODY	Your party was wiped out.
+GLUE_LETTUCE_MAP_TREASURE_BANNER	Treasure
+GLUE_LETTUCE_MAP_TREASURE_PICK	Pick One Treasure
+GLUE_LETTUCE_MAP_TREASURE_KEEP	Keep or Replace Treasure
+GLUE_LETTUCE_MAP_TREASURE_CURRENT	Keep\nCurrent
+GLUE_LETTUCE_MAP_MYSTERY_TOOLTIP_HEADER	Mystery
+GLUE_LETTUCE_MAP_MYSTERY_TOOLTIP_BODY	It could be anything!
+GLUE_LETTUCE_MAP_SUMMARY_BUTTON	Finish Run
+GLUE_LETTUCE_MAP_SUMMARY_HEADER	Bounty Complete!
+GLUE_LETTUCE_MAP_VISITOR_PICK	Pick a Visitor
+GLUE_LETTUCE_MAP_VISITOR_FALLBACK_REWARD_TITLE	Consolation Coins
+GLUE_LETTUCE_MAP_VISITOR_FALLBACK_FULL	The campfire is full
+GLUE_LETTUCE_MAP_VISITOR_FALLBACK_DUPLICATE	This mercenary is already at the campfire
+GLUE_LETTUCE_MAP_VISITOR_FALLBACK_NO_TASKS	You've completed all of this Mercenary's tasks
+GLUE_LETTUCE_MAP_VISITOR_REWARD_DESC	Task obtained
+GLUE_LETTUCE_MAP_BOSS_FIGHT_TOOLTIP_HEADER	{0} Battle	0=The role, like Caster, Fighter or Protector
+GLUE_LETTUCE_MAP_ELITE_BOSS_FIGHT_TOOLTIP_HEADER	Elite {0} Battle	0=The role, like Caster, Fighter or Protector
+GLUE_LETTUCE_BOUNTY_BOARD_HEADER	{0} Bounties	0=The bounty zone name
+GLUE_LETTUCE_BOUNTY_BOARD_TEAM_SELECT_HEADER	{0} Bounty	0=The bounty zone name
+GLUE_LETTUCE_BOUNTY_POSTER_TEXT	Level {0}	0=the level number of the final boss
+GLUE_LETTUCE_BOUNTY_BOARD_TEAM_LOCK_HEADER	Lock In Party
+GLUE_LETTUCE_BOUNTY_BOARD_TEAM_LOCK_BODY	After you start a run, you will not be able to edit your party. Continue?
+GLUE_LETTUCE_BOUNTY_BOARD_TEAM_LOCK_CONFIRM	Lock In
+GLUE_LETTUCE_BOUNTY_BOARD_BOUNTY_LOCKED	Locked!\nBeat the previous boss
+GLUE_LETTUCE_BOUNTY_BOARD_BOUNTY_DISABLED	Temporarily unavailable
+GLUE_LETTUCE_LOBBY_HEADER	Mercenaries
+GLUE_LETTUCE_MERC_COLLECTION	Mercenary Collection
+GLUE_LETTUCE_COLLECTION_TUTORIAL01	Select this mercenary to view their abilities.
+GLUE_LETTUCE_COLLECTION_TUTORIAL02	Drag equipment to Equip!
+GLUE_LETTUCE_MERCENARY_LEVEL_UP	Level up!
+GLUE_LETTUCE_MERCENARY_EXP_GAIN	+{0} xp	0=the amount of xp gained, as a number.
+GLUE_LETTUCE_MERCENARY_LEVEL_LABEL	LV
+GLUE_LETTUCE_ABILITY_UPGRADE_TITLE	Upgrade
+GLUE_LETTUCE_MERCENARY_PROMOTE_TITLE	Upgrade
+GLUE_LETTUCE_MERCENARY_CRAFT_TITLE	Craft
+GLUE_LETTUCE_ABILITY_UPGRADE_CONFIRMATION_HEADER	Upgrade?
+GLUE_LETTUCE_MERCENARY_PROMOTION_CONFIRMATION_HEADER	Upgrade?
+GLUE_LETTUCE_MERCENARY_CRAFTING_CONFIRMATION_HEADER	Craft?
+GLUE_LETTUCE_ABILITY_UPGRADE_NOT_ENOUGH_COINS_HEADER	Not Enough Coins
+GLUE_LETTUCE_VILLAGE_DISMISS_TITLE	Abandon
+GLUE_LETTUCE_ABILITY_UPGRADE_CONFIRMATION_BODY	Are you sure you want to Upgrade this Ability?
+GLUE_LETTUCE_MERCENARY_PROMOTION_CONFIRMATION_BODY	Are you sure you want to Upgrade this Mercenary?
+GLUE_LETTUCE_MERCENARY_CRAFTING_CONFIRMATION_BODY	Are you sure you want to Craft this Mercenary?
+GLUE_LETTUCE_EQUIPMENT_CRAFTING_CONFIRMATION_BODY	Are you sure you want to Craft this Equipment?
+GLUE_LETTUCE_EQUIPMENT_UPGRADE_CONFIRMATION_BODY	Are you sure you want to Upgrade this Equipment?
+GLUE_LETTUCE_ABILITY_UPGRADE_NOT_ENOUGH_COINS_BODY	You don't have enough coins to do that.
+GLUE_LETTUCE_MERCENARY_PROMOTION_AVAILABLE_20	Upgrade available at level 20
+GLUE_LETTUCE_MERCENARY_PROMOTION_AVAILABLE_40	Upgrade available at level 40
+GLUE_LETTUCE_MERCENARY_PROMOTION_POPUP_HEADER	Upgrade {0}?
+GLUE_LETTUCE_MERCENARY_PROMOTION_POPUP_BODY	•  Max Ability Rank Increased To {0}\n•  +{1} Attack\n•  +{2} Health
+GLUE_LETTUCE_PVP_CHEST_PROGRESS_BAR_TEXT	{0}/{1} wins
+GLUE_LETTUCE_ABILITY_UNLOCK_HEADER	New Ability!
+GLUE_LETTUCE_ABILITY_UNLOCK_FOOTER	Equip in your Mercenary Collection
+GLUE_LETTUCE_EQUIPMENT_UNLOCK_HEADER	New Equipment!
+GLUE_LETTUCE_ZONE_UNLOCK_HEADER	Zone Unlocked
+GLUE_LETTUCE_MERCENARY_ABILITY_INFO_POPUP_MAX_HEADER	Max Rank
+GLUE_LETTUCE_MERCENARY_ABILITY_INFO_POPUP_MAX_BODY	Ability can't be upgraded any further
+GLUE_LETTUCE_MERCENARY_TUTORIAL_INGAME_POPUP_HEADER	Critical Damage
+GLUE_LETTUCE_MERCENARY_TUTORIAL_INGAME_POPUP_BODY_HEADER	Mercenaries can do\n2x damage against each other!
+GLUE_LETTUCE_MERCENARY_TUTORIAL_INGAME_POPUP_BODY_1	Protector
+GLUE_LETTUCE_MERCENARY_TUTORIAL_INGAME_POPUP_BODY_2	Fighter
+GLUE_LETTUCE_MERCENARY_TUTORIAL_INGAME_POPUP_BODY_3	Caster
+GLUE_LETTUCE_MERCENARY_TUTORIAL_INGAME_POPUP_BUTTON	Fight!
+GLUE_LETTUCE_MERCENARY_TUTORIAL_TEAM_NAME	Starting Party
+GLUE_LETTUCE_ABILITY_REACH_LEVEL	Reach Level {0}
+GLUE_LETTUCE_ABILITY_UPGRADE_PROMOTE_MERC	Upgrade Mercenary to Rank {0} to access this upgrade.
+GLUE_LETTUCE_ABILITY_SLOT_LOCKED_TOOLTIP_HEADER	Locked Ability Slot
+GLUE_LETTUCE_ABILITY_SLOT_LOCKED_TOOLTIP_BODY	Unlocked at level {0}.
+GLUE_LETTUCE_COIN_TOOLTIP_HEADER	This Mercenary's Coin
+GLUE_LETTUCE_COIN_TOOLTIP_BODY	Use to Upgrade Abilities and Equipment.\nAcquired from Bounties, Packs, Tasks, and the Fighting Pit.
+GLUE_LETTUCE_COLLECTION_CRAFTING_EXPLANATION	Select a Mercenary to begin.\n\nEach mercenary has their own coin type.\n\nCollect these coins to make your mercenaries more powerful!
+GLUE_LETTUCE_COLLECTION_CRAFTING_SHOW_ONLY_PROMOTABLE	Show Only Upgradeable Mercs	
+GLUE_LETTUCE_COLLECTION_CRAFTING_SHOW_CRAFTABLE_MERCS	Include Craftable Mercs	
+GLUE_LETTUCE_COLLECTION_CATALOGUE_MODE	Crafting	
+GLUE_LETTUCE_MERCENARY_RIGHT_SIDE_DECK_TITLE	Mercenary
+GLUE_LETTUCE_EQUIPMENT_TITLE	Equipment
+GLUE_LETTUCE_EQUIPMENT_EXPLANATION_POPUP_BODY_1	Equipment makes your Abilities or Mercenary more powerful.
+GLUE_LETTUCE_EQUIPMENT_EXPLANATION_POPUP_BODY_2	Find them by reaching Level 30 or by completing Tasks Objectives.
+GLUE_LETTUCE_PARTY_DISBANDED_HEADER	Mercenaries Team
+GLUE_LETTUCE_PARTY_DISBANDED_BODY	The team has been disbanded.
+GLUE_LETTUCE_MERCENARY_REWARD_TITLE	New Mercenary!
+GLUE_LETTUCE_MERCENARY_REWARD_DESC	This Mercenary has joined your Party
+GLUE_LETTUCE_TUTORIAL_LOBBY_POPUP_HEADER	Congrats!
+GLUE_LETTUCE_TUTORIAL_LOBBY_POPUP_BODY	Go to your Mercenary Collection to upgrade Mercenaries' abilities with coins!
+GLUE_LETTUCE_DECK_SELECT_TITLE	Choose a Party
+GLUE_LETTUCE_PVP_HEADER	Fighting Pit
+GLUE_LETTUCE_VALIDATE_TEAM_HEADER	Invalid Party
+GLUE_LETTUCE_VALIDATE_NO_TEAM_SELECTED	Please select a party.
+GLUE_LETTUCE_VALIDATE_TEAM_INVALID	The selected party is invalid.
+GLUE_LETTUCE_DISABLED_TEAM_HEADER	Disabled Party
+GLUE_LETTUCE_DISABLED_TEAM	There is a disabled Mercenary on this party.\n\nDo you want to edit this party?
+GLUE_LETTUCE_TUTORIAL_TREASURE_TITLE	Treasure Found!
+GLUE_LETTUCE_TUTORIAL_TREASURE_BODY	Treasures only last for one Bounty Map.\n\nTreasures can be found after every combat encounter.
+GLUE_LETTUCE_COLLECTION_INCOMPLETE_TEAM_HEADER	Incomplete Party
+GLUE_LETTUCE_COLLECTION_INCOMPLETE_TEAM_DESC	This party does not have any mercenaries. You will not be able to use this party.\n\nDo you want to continue?
+GLUE_LETTUCE_COLLECTION_EQUIPMENT_AVAILABLE_HEADER	Equipment Unused
+GLUE_LETTUCE_COLLECTION_EQUIPMENT_AVAILABLE_DESC	Not all of your mercenaries are fully equipped.\n\nContinue without equipping?
+GLUE_LETTUCE_COLLECTION_EQUIPMENT_AVAILABLE_BUTTON_EQUIP	Go Back
+GLUE_LETTUCE_COLLECTION_EQUIPMENT_UNLOCK_DESC	Complete Task {0}
+GLUE_LETTUCE_COLLECTION_EQUIPMENT_REDEEM_ACHIEVEMENT	Claim in \nAchievements
+GLUE_LETTUCE_COLLECTION_ON_ADD_FULL_TEAM_ERROR	Your party is full. Remove a Mercenary first!
+GLUE_LETTUCE_COLLECTION_MERCDETAILS_ABILITIES_TITLE	Abilities
+GLUE_LETTUCE_COLLECTION_UPGRADE_ABILITY_TOOLTIP	Choose one to upgrade!
+GLUE_LETTUCE_COLLECTION_CARD_UNAVAILABLE	Unavailable
+GLUE_LETTUCE_COLLECTION_FULLY_UPGRADED_MESSAGE	Congratulations! Mercenary Maxed Out!
+GLUE_LETTUCE_WORKSHOP_BUTTON	Workshop
+GLUE_LETTUCE_MERCENARY_CRAFTING_NOT_ENOUGH_COIN_BODY	Not enough coins to craft Mercenary.
+GLUE_LETTUCE_VILLAGE_TASK_TITLE	Campfire
+GLUE_LETTUCE_VILLAGE_TASK_HEADER	Mercenary Task
+GLUE_LETTUCE_VILLAGE_TASK_REWARDS_TITLE	Rewards
+GLUE_LETTUCE_VILLAGE_TASK_COMPLETE	Completed!
+GLUE_LETTUCE_VILLAGE_TASK_CLAIM	Claim
+GLUE_LETTUCE_VILLAGE_TASK_VACANT	New Visitor Tomorrow
+GLUE_LETTUCE_VILLAGE_TASK_NUMBER	Task {0}: {1}
+GLUE_LETTUCE_VILLAGE_CLAIM_TASK_ERROR_DESCRIPTION	There was an error claiming your task, please try again later.
+GLUE_LETTUCE_VILLAGE_DISMISS_TASK_ERROR_DESCRIPTION	There was an error abandoning your task, please try again later.
+GLUE_LETTUCE_BOX_BUTTON_DISABLED_SCROLL_TEXT	Temporarily\n\n\nunavailable
+GLUE_LETTUCE_VILLAGE_DISMISS_TASK_WARNING_HEADER	Abandon Task?
+GLUE_LETTUCE_VILLAGE_DISMISS_TASK_WARNING_DESCRIPTION	Removes this Visitor from your Village and resets progress on their current Task. They can still visit you in the future.
+GLUE_LETTUCE_VILLAGE_WORKSHOP_TITLE	Workshop
+GLUE_LETTUCE_VILLAGE_WORKSHOP_BUILD	BUILD
+GLUE_LETTUCE_VILLAGE_WORKSHOP_UPGRADE	UPGRADE
+GLUE_LETTUCE_VILLAGE_WORKSHOP_FULLY_UPGRADED	Fully Upgraded!
+GLUE_LETTUCE_VILLAGE_ZONES_TITLE	Travel Point
+GLUE_LETTUCE_VILLAGE_ZONES_INTRO_DESCRIPTION	Delve into a zone and pursue lucrative bounties with your party of Mercenaries!
+GLUE_LETTUCE_VILLAGE_ZONES_HEROIC_UNLOCK	Heroic Mode Unlocked!
+GLUE_LETTUCE_VILLAGE_TUTORIAL_GRANT_TITLE	Pony Crony
+GLUE_LETTUCE_VILLAGE_TUTORIAL_VISIT_COLLECTION_MANAGER	Visit the Tavern!
+GLUE_LETTUCE_VILLAGE_TUTORIAL_VISIT_WORKSHOP	Construct buildings at the Workshop!
+GLUE_LETTUCE_VILLAGE_TUTORIAL_VISIT_TRAVEL_POINT	Visit the Travel Point!
+GLUE_LETTUCE_VILLAGE_TUTORIAL_VISIT_SHOP	Visit the Merchant Cart
+GLUE_LETTUCE_VILLAGE_TUTORIAL_OPEN_TASK_DETAIL	Select this task to see rewards!
+GLUE_LETTUCE_VILLAGE_TUTORIAL_VISIT_PACK_OPENING	Open your new Mercenaries Pack!
+GLUE_LETTUCE_VILLAGE_TUTORIAL_GET_FREE_PACK	Claim Your Welcome Gift!
+GLUE_LETTUCE_VILLAGE_TUTORIAL_VISIT_MAILBOX	View news updates at the Mailbox
+GLUE_LETTUCE_DAILY_REWARDS_TITLE	Daily Rewards
+GLUE_LETTUCE_DAILY_REWARDS_RANDOM_MERC_TITLE	Win games against other players to earn daily rewards!
+GLUE_LETTUCE_DAILY_REWARDS_RANDOM_MERC	Random Mercenary Coins
 GLUE_BOX_NEW_PLAYER_CHOOSE_A_MODE_HEADER	Choose a Mode
 GLUE_BOX_NEW_PLAYER_CHOOSE_A_MODE_CAPTION	Hearthstone has many fantastic game modes!\nChoose a mode to start with.
 GLUE_MERCS_PREPURCHASE_DIABLO_NAME	Diablo
@@ -2413,3 +2674,74 @@ GLUE_MERCS_PREPURCHASE_LICH_KING_RACE	Human
 GLUE_MERCS_PREPURCHASE_SYLVANAS_NAME	Sylvanas Windrunner
 GLUE_MERCS_PREPURCHASE_SYLVANAS_RACE	Undead
 GLUE_BACON_GAMEPLAYLABEL_DAMAGECAP	Damage cap:
+GLUE_LETTUCE_COIN_X_BUTTON_TEXT	x
+GLUE_LETTUCE_SEASON_REWARD_POPUP_HEADER_TEXT	Your Rating resets at the end of each season
+GLUE_LETTUCE_SEASON_REWARD_DECKSELECT_TITLE_TEXT_RATING	Rating
+GLUE_LETTUCE_SEASON_REWARD_DECKSELECT_TITLE_TEXT_WINS	Wins
+GLUE_LETTUCE_SEASON_REWARD_FLOOR_1	25 <color=#C39D7899>Coins for</color> 3 <color=#C39D7899>Mercenaries</color>
+GLUE_LETTUCE_SEASON_REWARD_FLOOR_2	25 <color=#C39D7899>Coins for</color> 4 <color=#C39D7899>Mercenaries</color>
+GLUE_LETTUCE_SEASON_REWARD_FLOOR_3	25 <color=#C39D7899>Coins for</color> 5 <color=#C39D7899>Mercenaries</color>
+GLUE_LETTUCE_SEASON_REWARD_FLOOR_4	50 <color=#C39D7899>Coins for</color> 5 <color=#C39D7899>Mercenaries</color>
+GLUE_LETTUCE_SEASON_REWARD_FLOOR_5	50 <color=#C39D7899>Coins for</color> 5 <color=#C39D7899>Mercenaries,</color> 1 <color=#C39D7899>Pack</color>
+GLUE_LETTUCE_SEASON_REWARD_FLOOR_6	50 <color=#C39D7899>Coins for</color> 6 <color=#C39D7899>Mercenaries,</color> 1 <color=#C39D7899>Pack</color>
+GLUE_LETTUCE_SEASON_REWARD_FLOOR_7	50 <color=#C39D7899>Coins for</color> 7 <color=#C39D7899>Mercenaries,</color> 1 <color=#C39D7899>Pack</color>
+GLUE_LETTUCE_SEASON_REWARD_FLOOR_8	50 <color=#C39D7899>Coins for</color> 8 <color=#C39D7899>Mercenaries,</color> 2 <color=#C39D7899>Packs</color>
+GLUE_LETTUCE_SEASON_REWARD_FLOOR_9	50 <color=#C39D7899>Coins for</color> 10 <color=#C39D7899>Mercenaries,</color> 5 <color=#C39D7899>Packs</color>
+GLUE_LETTUCE_SEASON_REWARD_EARNED_CHEST_LABEL	Next Chest
+GLUE_LETTUCE_SEASON_REWARD_REACH_RATING_CHEST_LABEL	Reach\n1000
+GLUE_LETTUCE_VANITY_TITLE	Portraits
+GLUE_LETTUCE_VANITY_LOCKEDPLATE_MESSAGE	Acquired from packs
+GLUE_LETTUCE_VANITY_LOCKEDPLATE_MESSAGE_TASK	Complete Task {0}
+GLUE_LETTUCE_SEASON_ROLL_DESC	{0} {1} Mercenary Season has ended, and the new Season has begun!\n\nYour Season Rating best was {2}.	0: month name, 1: year digits, 2: numeric rating
+GLUE_LETTUCE_MAP_CONSOLATION_REWARD_TITLE	Battle Spoils
+GLUE_LETTUCE_MAP_CONSOLATION_REWARD_SUBTITLE	A consolation from your last battle
+GLUE_LETTUCE_REWARD_MERCENARY_TITLE_COMMON	It's a Mercenary!
+GLUE_LETTUCE_REWARD_MERCENARY_TITLE_RARE	It's a Rare Mercenary!
+GLUE_LETTUCE_REWARD_MERCENARY_TITLE_EPIC	It's an Epic Mercenary!
+GLUE_LETTUCE_REWARD_MERCENARY_TITLE_LEGENDARY	It's a Legendary Mercenary!
+GLUE_LETTUCE_REWARD_MERCENARY_DESC	You can find {0} in your Mercenary Collection!	0: mercenary name
+GLUE_LETTUCE_REWARD_KNOCKOUT_MERCENARY_DESC	You already owned {0}, here's an alternate {1}!	0: mercenary name, 1: mercenary name
+GLUE_LETTUCE_REWARD_KNOCKOUT_MERCENARY_DESC_PREMIUM	You already owned {0} {1}, here's an alternate {2}!	0: vanity type (eg. golden), 1: mercenary name, 2: mercenary name
+GLUE_LETTUCE_REWARD_KNOCKOUT_COINS_DESC	You already owned {0}, here's some {1} coins!	0: mercenary name, 1: mercenary name
+GLUE_LETTUCE_REWARD_KNOCKOUT_COINS_DESC_PREMIUM	You already owned {0} {1}, here's some {2} coins!	0: vanity type (eg. golden), 1: mercenary name, 2: mercenary name
+GLUE_LETTUCE_REWARD_MERCENARY_COINS_TITLE	{0} Coins!	0: mercenary name
+GLUE_LETTUCE_REWARD_MERCENARY_COINS_DESC	Use coins to upgrade {0} in your Mercenary Collection!	0: mercenary name
+GLUE_LETTUCE_REWARD_MERCENARY_NORMAL_TASK_COMPLETE	Task {0}: {1} Completed!	0: task number, 1: task name
+GLUE_LETTUCE_REWARD_MERCENARY_LEGENDARY_TASK_COMPLETE	{0} Completed!	0: task name
+GLUE_LETTUCE_REWARD_MERCENARY_TASK_COINS_REWARD	{0} {1} |4(Coin,Coins).		0: number of coins, 1: mercenary name
+GLUE_LETTUCE_REWARD_MERCENARY_TASK_RANDOM_COINS_REWARD	{0} Random |4(Coin,Coins): {1}.		0: number of coins, 1: mercenary name
+GLUE_LETTUCE_REWARD_MERCENARY_TASK_MERCENARY_REWARD	{0} Mercenary Card.		0: mercenary name
+GLUE_LETTUCE_REWARD_MERCENARY_TASK_GOLD_REWARD	{0} Gold.		0: number of gold
+GLUE_LETTUCE_REWARD_MERCENARY_TASK_BOOSTER_REWARD	{0} Mercenary |4(Pack,Packs).		0: number of packs
+GLUE_LETTUCE_OWNED_MERCENARY_WARNING_TITLE	Are you sure?
+GLUE_LETTUCE_OWNED_MERCENARY_WARNING_DESC	You already own an item in this bundle, this item will be converted to Mercenary Coins.\nDo you want to continue?
+GLUE_LETTUCE_BOUNTY_LOCKED_REASON_EVENT_NOT_STARTED	This zone is not yet available.
+GLUE_LETTUCE_BOUNTY_LOCKED_REASON_EVENT_NOT_ACTIVE	This zone is not active.
+GLUE_LETTUCE_BOUNTY_LOCKED_REASON_EVENT_ENDED	This zone is no longer available.
+GLUE_LETTUCE_BOUNTY_LOCKED_REASON_BLDG_NEEDS_UPGRADE	Upgrade your Travel Point to unlock this zone.
+GLUE_LETTUCE_BOUNTY_LOCKED_REASON_PRV_ZONES_INCOMPLETE	Requires completion of previous zones.
+GLUE_LETTUCE_YOUR_TEAM_TRAY_TITLE	Your Party
+GLUE_LETTUCE_SEASON_RATING_REWARD_TITLE	Mercenary Rating Reward
+GLUE_LETTUCE_SEASON_RATING_REWARD_HEADER	Your Rating earned you Mercenary Rewards!
+GLUE_LETTUCE_SEASON_RATING_REWARD_FOOTER	Next Reward at Rating {0}
+GLUE_LETTUCE_ERROR_OPENING_PACK_TITLE	Opening Pack Error
+GLUE_LETTUCE_MAP_AUTO_RETIRE_REWARD_TITLE	Run Ended
+GLUE_LETTUCE_MAP_AUTO_RETIRE_REWARD_SUBTITLE	Your run was ended early, here's a gift for the trouble
+GLUE_LETTUCE_ERROR_OPENING_PACK_DESCRIPTION	There was a problem opening this pack. Please try again later.
+GLUE_LETTUCE_MAXED_OUT_MERC_COIN_TOTAL	Maxed!
+GLUE_MERCENARY_PACK_TITLE	Mercenaries Pack
+GLUE_MERCENARY_PACK_DESCRIPTION	Gain random Mercenaries, Mercenary Portraits, or Mercenary Coins.
+GLUE_MERCENARY_RANDOM_COIN_TITLE	Random Mercenary Coins
+GLUE_MERCENARY_RANDOM_COIN_DESCRIPTION	Gain {0} Mercenary |4(Coin,Coins) from a random Mercenary.	0: number of coins
+GLUE_MERCENARY_COIN_TITLE	{0} Coins	0: name of mercenary
+GLUE_MERCENARY_COIN_DESCRIPTION	Gain {0} {1} |4(Coin,Coins).	0: number of coins, 1: mercenary name
+GLUE_LETTUCE_PVP_REWARD_POP_UP_TITLE	Earn some coins for the Mercenaries in your party plus a random one of the following:
+GLUE_LETTUCE_MERCDETAILS_EQUIP_DIRECTIVE	Equip
+GLUE_MERCENARY_LABEL_PORTRAIT	Portrait
+GLUE_MERCENARY_CARD_XP	XP
+GLUE_MERCENARY_WELCOME_MESSAGE_TITLE	Welcome to Mercenaries!
+GLUE_MERCENARY_WELCOME_MESSAGE_BODY	Command Azeroth's legendary Heroes and Villains through Bounties and battle it out with other players!
+GLUE_LETTUCE_COLLECTION_TUTORIAL_PORTRAIT_01	Select to customize Cariel's Portrait.
+GLUE_LETTUCE_COLLECTION_TUTORIAL_PORTRAIT_02	Select to view Cariel's Portraits.
+GLUE_LETTUCE_COLLECTION_TUTORIAL_PORTRAIT_03	Equip her Golden Portrait!
+GLUE_MODE_BUTTON_DISABLED_SCROLL_TEXT	Temporarily\n\n\nunavailable

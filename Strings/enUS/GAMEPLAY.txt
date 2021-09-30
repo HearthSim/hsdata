@@ -106,10 +106,14 @@ GAMEPLAY_PlayErrors_REQ_SOLD_MINION_THIS_TURN	You haven't sold any minions yet t
 GAMEPLAY_PlayErrors_REQ_BOUGHT_MINION_THIS_TURN	You haven't bought any minions yet this turn
 GAMEPLAY_PlayErrors_REQ_NOT_MINION_DORMANT	That minion is dormant
 GAMEPLAY_PlayErrors_REQ_TARGET_NOT_DORMANT	That minion is dormant
+GAMEPLAY_PlayErrors_REQ_NOT_IN_COOLDOWN	Still in cooldown for {0} more |4(turn,turns)
+GAMEPLAY_PlayErrors_REQ_TARGET_IS_MERC	[PH] That is not a Mercenary
+GAMEPLAY_PlayErrors_REQ_TARGET_IS_NON_MERC	[PH] That is not a Non-Mercenary
 GAMEPLAY_PlayErrors_REQ_TWO_OF_A_KIND	Must have a potential triple
 GAMEPLAY_PlayErrors_REQ_HAS_OVERLOADED_MANA	Must have overloaded mana
 GAMEPLAY_PlayErrors_REQ_TRADEABLE	Your deck must have at least one card
 GAMEPLAY_PlayErrors_REQ_NOT_LEGENDARY_TARGET	You cannot target a legendary minion
+GAMEPLAY_PlayErrors_REQ_LETTUCE_ABILITY_CANNOT_TARGET_OWNER	This mercenary cannot target itself with this ability
 GAMEPLAY_TOOLTIP_DECK_DESCRIPTION	You have {0} |4(card,cards) in your deck.	
 GAMEPLAY_TOOLTIP_DECK_HEADLINE	Deck	
 GAMEPLAY_TOOLTIP_HAND_HEADLINE	Hand	
@@ -143,6 +147,10 @@ GAMEPLAY_TOOLTIP_BACON_UNAVAILABLE_RACES_HEADLINE	Not in this game:
 GAMEPLAY_SEPARATOR	,
 GAMEPLAY_TOOLTIP_BACON_DARKMOON_PRIZES_HEADLINE	Darkmoon Prizes
 GAMEPLAY_TOOLTIP_BACON_DARKMOON_PRIZES_DESC	{0} |4(turn,turns) left until you <b>Discover</b> one of the Darkmoon Prizes!
+GAMEPLAY_TOOLTIP_LETTUCE_BENCH_HEADLINE	Bench
+GAMEPLAY_TOOLTIP_LETTUCE_BENCH_DESCRIPTION	You have {0} |4(Mercenary,Mercenaries) on your bench.	
+GAMEPLAY_TOOLTIP_LETTUCE_ENEMYBENCH_HEADLINE	Enemy Bench
+GAMEPLAY_TOOLTIP_LETTUCE_ENEMYBENCH_DESCRIPTION	There |4(is {0} Mercenary,are {0} Mercenaries) on your opponent's bench.	
 GAMEPLAY_EMOTE_LABEL_GREETINGS	Greetings	
 GAMEPLAY_EMOTE_LABEL_WELL_PLAYED	Well Played	
 GAMEPLAY_EMOTE_LABEL_THANKS	Thanks	
@@ -316,3 +324,44 @@ GAMEPLAY_BACON_TAVERN_PASS_IN_GAME_HELP	Unlock Battlegrounds Perks to choose thi
 GALAKROND_ONCE	<b>Invoke</b> once to upgrade.
 GALAKROND_TWICE	<b>Invoke</b> twice to upgrade.
 GAMEPLAY_END_OF_GAME_TIE	Tie!
+GAMEPLAY_CHAMPION_CLICK_TUTORIAL	Select this Merc.
+GAMEPLAY_QUEUE_ABILITY_TUTORIAL	Prepare the Ability!
+GAMEPLAY_CHAMPION_MOUSEOVER_TUTORIAL	See what the enemy has prepared!
+GAMEPLAY_LETTUCE_COMBAT_TITLE_TUTORIAL	Combat Flow
+GAMEPLAY_LETTUCE_COMBAT_BODY_TUTORIAL	Mercs use their prepared abilities automatically in combat.\n\nDestroy all the enemies to win!
+GAMEPLAY_LETTUCE_COMBAT_BUTTON_TUTORIAL	Fight!
+GAMEPLAY_LETTUCE_ATTACK_TYPE_TITLE_TUTORIAL	Attack Abilities
+GAMEPLAY_LETTUCE_ATTACK_TYPE_BODY_TUTORIAL	<b>Attack</b> abilities do physical combat with the enemy.\n\nBe careful as you'll take return damage in the process!\n\nOther Abilities can be used safely from range.
+GAMEPLAY_LETTUCE_ATTACK_TYPE_BUTTON_TUTORIAL	Let's Go!
+GAMEPLAY_LETTUCE_SPEED_TITLE_TUTORIAL	Speed Order
+GAMEPLAY_LETTUCE_SPEED_BODY_TUTORIAL	Combat resolves based on Speed order.\n\nLower Speed abilities go first.\n\nSpeed ties are random.
+GAMEPLAY_LETTUCE_SPEED_BUTTON_TUTORIAL	Let's Go!
+GAMEPLAY_LETTUCE_NO_ENDTURN	Prepare Abilities for all your Mercs!
+GAMEPLAY_LETTUCE_SPEED_LABEL_TUTORIAL	Speed
+GAMEPLAY_LETTUCE_SPEED_TOOLTIP_TUTORIAL	Determines order in combat. Lower goes first.
+GAMEPLAY_LETTUCE_BENCH_TITLE_TUTORIAL	Your Bench
+GAMEPLAY_LETTUCE_BENCH_BODY_TUTORIAL	Only 3 Mercenaries can be in combat at once.\n\nRemaining Mercenaries will wait on the Bench as reserves.
+GAMEPLAY_LETTUCE_BENCH_BUTTON_TUTORIAL	Pick!
+GAMEPLAY_LETTUCE_REPLACEMENT_TITLE_TUTORIAL	Death Replacement
+GAMEPLAY_LETTUCE_REPLACEMENT_BODY_TUTORIAL	Replace defeated Mercenaries with ones from your Bench.\n\nDefeated Mercenaries will not be able to fight for the rest of the map!
+GAMEPLAY_LETTUCE_REPLACEMENT_BUTTON_TUTORIAL	Replace!
+GAMEPLAY_LETTUCE_COOLDOWN_LABEL_TUTORIAL	Cooldown
+GAMEPLAY_LETTUCE_COOLDOWN_POPUP_TUTORIAL	Still on <b>Cooldown</b>.\nWait 1 turn!
+GAMEPLAY_LETTUCE_USE_NEW_ABILITY_POPUP_TUTORIAL	Try the new Ability!
+GAMEPLAY_LETTUCE_FORCE_TARGET_POPUP_TUTORIAL	Kill it quickly\nbefore it strikes!
+GAMEPLAY_LETTUCE_INIT_MERCENARY_SELECT_PHASE_NAME	Begin!
+GAMEPLAY_LETTUCE_MERCENARY_SUB_PHASE_NAME	Replace
+GAMEPLAY_LETTUCE_MERCENARY_REORDER_PHASE_NAME	Reorder
+GAMEPLAY_LETTUCE_PREP_PHASE_NAME	Command
+GAMEPLAY_LETTUCE_COMBAT_PHASE_NAME	Combat
+GAMEPLAY_LETTUCE_READY_BUTTON	Ready!
+GAMEPLAY_LETTUCE_WAIT_BUTTON	Waiting...
+GAMEPLAY_LETTUCE_MERCENARY_SELECT_BUTTON	{0}/{1} Played
+GAMEPLAY_LETTUCE_COMBAT_BUTTON	Combat
+GAMEPLAY_LETTUCE_HISTORY_USED_LAST_TURN	Used\nLast Turn
+GAMEPLAY_LETTUCE_WEAKNESS_TITLE_TUTORIAL	Critical Damage
+GAMEPLAY_LETTUCE_WEAKNESS_BODY_TUTORIAL	Merc abilities can do\n<b>DOUBLE DAMAGE</b> against\na specific Merc type!\n\n<b>RED</b> (Protectors) -> <b>GREEN</b>\n<b>GREEN</b> (Fighters) -> <b>BLUE</b>\n<b>BLUE</b> (Casters) -> <b>RED</b>
+GAMEPLAY_LETTUCE_WEAKNESS_BUTTON_TUTORIAL	Fight!
+GAMEPLAY_LETTUCE_WEAKNESS_LABEL	2x
+GAMEPLAY_LETTUCE_ABILITY_ORDER_TIED_TEXT	{0}?	0=the order in the turn, like 1st, 2nd, etc, inserted from GLUE_ORDINAL_1, GLUE_ORDINAL_2, etc.
+GAMEPLAY_LETTUCE_YOUR_BENCH_BANNER	Your Bench

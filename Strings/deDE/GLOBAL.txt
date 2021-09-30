@@ -131,8 +131,10 @@ GLOBAL_BUTTON_BUY	KAUFEN
 GLOBAL_BUTTON_CLOSE	_Schließen_	
 GLOBAL_BUTTON_CONVERT	Umwandeln	
 GLOBAL_BUTTON_GO	Los!	
+GLOBAL_BUTTON_GOT_IT	Alles klar!	
 GLOBAL_BUTTON_INFO_LETTER	i	
 GLOBAL_BUTTON_LATER	Später	
+GLOBAL_BUTTON_MORE_INFO	Mehr Infos	
 GLOBAL_BUTTON_NEXT	Weiter	
 GLOBAL_BUTTON_NO	Nein	
 GLOBAL_BUTTON_NOT_NOW	Nicht jetzt	
@@ -191,6 +193,9 @@ GLOBAL_CARD_SET_KARA_SHORT	Karazhan
 GLOBAL_CARD_SET_LEGACY	Archiv	
 GLOBAL_CARD_SET_LEGACY_SEARCHABLE_SHORTHAND_NAMES	lgcy archv	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_LEGACY_SHORT	Archiv	
+GLOBAL_CARD_SET_LETL		Lettuce
+GLOBAL_CARD_SET_LETL_SEARCHABLE_SHORTHAND_NAMES	let	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_LETL_SHORT	Lettuce	
 GLOBAL_CARD_SET_LOE	Die Forscherliga	
 GLOBAL_CARD_SET_LOE_SEARCHABLE_SHORTHAND_NAMES	loe fl	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_LOE_SHORT	Forscherliga	
@@ -263,6 +268,7 @@ GLOBAL_CLASS_WARRIOR	Krieger
 GLOBAL_CLASSIC	Klassik	
 GLOBAL_CLICK_TO_CONTINUE	Klicken, um fortzufahren	
 GLOBAL_CLICK_TO_CONTINUE_TOUCH	Tippen, um fortzufahren	
+GLOBAL_COLLECTION_DIAMOND	Diamant	
 GLOBAL_COLLECTION_GOLDEN	Golden	
 GLOBAL_COMMA_SEPARATOR	,	
 GLOBAL_CONCEDE	Aufgeben	
@@ -425,6 +431,7 @@ GLOBAL_FRIEND_CHALLENGE_OPPONENT_DECLINED	{0} hat Eure Herausforderung abgelehnt
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_FRIEND_REMOVED	Die Herausforderung wurde abgebrochen, da {0} nicht mehr Euer Freund ist.	0=friend name
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_WAITING_DECK	Es wird darauf gewartet, dass {0} ein Deck auswählt.	0=friend name
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_WAITING_RESPONSE	Es wird darauf gewartet, dass {0} die Herausforderung annimmt.	0=friend name
+GLOBAL_FRIEND_CHALLENGE_OPPONENT_WAITING_TEAM	Es wird darauf gewartet, dass Euer Gegner ein Team auswählt.	
 GLOBAL_FRIEND_CHALLENGE_QUEUE_CANCELED	Die Herausforderung wurde abgebrochen.	
 GLOBAL_FRIEND_CHALLENGE_TAVERN_BRAWL_BODY1	Ihr wurdet zum Kartenchaos herausgefordert von:	
 GLOBAL_FRIEND_CHALLENGE_TAVERN_BRAWL_HEADER	Herausforderung zum Kartenchaos	
@@ -539,6 +546,9 @@ GLOBAL_IN_PROGRESS_REWARD_CHEST_INSTRUCTIONS	Gewinnt {0} |4(weiteres Spiel,weite
 GLOBAL_JOIN	Beitreten	
 GLOBAL_KEYWORD_ADAPT	Mutieren	
 GLOBAL_KEYWORD_ADAPT_TEXT	Wählt einen von drei Boni.	
+GLOBAL_KEYWORD_ATTACK_MERC	Angriff	
+GLOBAL_KEYWORD_ATTACK_REF_TEXT_MERC	Greift einen Charakter an und erleidet Schaden vom Gegner.	
+GLOBAL_KEYWORD_ATTACK_TEXT_MERC	Greift einen Charakter an und erleidet Schaden vom Gegner.	
 GLOBAL_KEYWORD_AUTOATTACK	Automatischer Angriff	
 GLOBAL_KEYWORD_AUTOATTACK_TEXT	Kann nicht angreifen. Am Ende Eures Zuges tritt ein Effekt in Kraft.	
 GLOBAL_KEYWORD_AUTOCAST	Automatischer Einsatz	
@@ -547,6 +557,9 @@ GLOBAL_KEYWORD_AVENGE	Rache (X)
 GLOBAL_KEYWORD_AVENGE_TEXT	Löst einen Effekt aus, nachdem X befreundete Diener gestorben sind.	
 GLOBAL_KEYWORD_BATTLECRY	Kampfschrei	
 GLOBAL_KEYWORD_BATTLECRY_TEXT	Ein Effekt tritt in Kraft, wenn die Karte ausgespielt wird.	
+GLOBAL_KEYWORD_BATTLECRY_TEXT_MERC	Ein Effekt tritt in Kraft, wenn die Karte ausgespielt oder von einem Söldner herbeigerufen wird.	
+GLOBAL_KEYWORD_BLEED	Blutung	
+GLOBAL_KEYWORD_BLEED_TEXT	Blutende Charaktere erleiden in jedem Zug Schaden. Die Blutung wird entfernt, wenn Ihr Leben wiederherstellt.	
 GLOBAL_KEYWORD_BLOOD_GEM	Blutedelstein	
 GLOBAL_KEYWORD_BLOOD_GEM_TEXT	Ein Zauber, der einem befreundeten Diener +1/+1 verleiht.	
 GLOBAL_KEYWORD_BOSS	Boss	
@@ -556,15 +569,21 @@ GLOBAL_KEYWORD_CASTS_WHEN_DRAWN_TEXT	Wird beim Ziehen sofort gewirkt. Zieht dana
 GLOBAL_KEYWORD_CHARGE	Ansturm	
 GLOBAL_KEYWORD_CHARGE_TEXT	Sofort angriffsbereit.	
 GLOBAL_KEYWORD_COMBO	Combo	
+GLOBAL_KEYWORD_COMBO_MERC	Combo	
 GLOBAL_KEYWORD_COMBO_TEXT	Ein Bonus, wenn in diesem Zug bereits eine Karte ausgespielt wurde.	
+GLOBAL_KEYWORD_COMBO_TEXT_MERC	Ein Bonus, falls Eure Gruppe in diesem Zug schon eine Fähigkeit ausgespielt hat.	
 GLOBAL_KEYWORD_CORRUPT	Verderben	
 GLOBAL_KEYWORD_CORRUPT_TEXT	Wird auf der Hand aufgewertet, wenn Ihr eine Karte ausspielt, die mehr kostet.	
 GLOBAL_KEYWORD_CORRUPTEDCARD	Verderbt	
 GLOBAL_KEYWORD_CORRUPTEDCARD_TEXT	Wurde durch das Ausspielen einer Karte mit höheren Kosten aufgewertet.	
 GLOBAL_KEYWORD_COUNTER	Konter	
 GLOBAL_KEYWORD_COUNTER_TEXT	Eine Karte, die gekontert wird, hat keinen Effekt.	
+GLOBAL_KEYWORD_CRITICAL_DAMAGE	Kritischer Schaden	
+GLOBAL_KEYWORD_CRITICAL_DAMAGE_TEXT	Erleidet aus bestimmten Quellen doppelten Schaden.	
 GLOBAL_KEYWORD_CTHUN	C’Thun, Alter Gott	
 GLOBAL_KEYWORD_CTHUN_TEXT	C’Thun kann immer verstärkt werden, sogar wenn er in Eurem Deck ist!	
+GLOBAL_KEYWORD_DEATHBLOW	Todesstoß	
+GLOBAL_KEYWORD_DEATHBLOW_TEXT	Ein Effekt tritt in Kraft, wenn die Karte einen Charakter besiegt.	
 GLOBAL_KEYWORD_DEATHRATTLE	Todesröcheln	
 GLOBAL_KEYWORD_DEATHRATTLE_TEXT	Ein Effekt tritt in Kraft, wenn die Karte zerstört wird.	
 GLOBAL_KEYWORD_DISCOVER	Entdecken	
@@ -600,10 +619,12 @@ GLOBAL_KEYWORD_FLOOPY	Flubbidinius Flurp
 GLOBAL_KEYWORD_FLOOPY_TEXT	Verwandelt sich, wenn Ihr einen Diener ausspielt.	
 GLOBAL_KEYWORD_FREEZE	Einfrieren	
 GLOBAL_KEYWORD_FREEZE_TEXT	Eingefrorene Charaktere verpassen ihren nächsten Angriff.	
+GLOBAL_KEYWORD_FREEZE_TEXT_MERC	Eingefrorene Charaktere verpassen ihre nächste Fähigkeit.	
 GLOBAL_KEYWORD_FRENZY	Raserei	
 GLOBAL_KEYWORD_FRENZY_TEXT	Ein einmaliger Effekt, nachdem dieser Diener Schaden überlebt hat.	
 GLOBAL_KEYWORD_FROZEN	Eingefroren	
 GLOBAL_KEYWORD_FROZEN_TEXT	Verpasst den nächsten Angriff.	
+GLOBAL_KEYWORD_FROZEN_TEXT_MERC	Verpasst die nächste Fähigkeit.	
 GLOBAL_KEYWORD_GALAKROND	Galakrond	
 GLOBAL_KEYWORD_GALAKROND_COLLECTION_TEXT	Kann in Priester-, Schurken-, Schamanen-, Hexenmeister- und Kriegerdecks verwendet werden.	
 GLOBAL_KEYWORD_GRIMY_GOONS	Gassenhauer-Gang	
@@ -651,8 +672,11 @@ GLOBAL_KEYWORD_RECRUIT	Rekrutieren
 GLOBAL_KEYWORD_RECRUIT_TEXT	Ruft einen Diener aus Eurem Deck herbei.	
 GLOBAL_KEYWORD_REFRESH	Aktualisieren	
 GLOBAL_KEYWORD_REFRESH_TEXT	Aktualisiert Bobs Gasthaus mit neuen Dienern.	
+GLOBAL_KEYWORD_ROOT	Festwurzeln	
+GLOBAL_KEYWORD_ROOT_TEXT	Festgewurzelte Charaktere können nicht angreifen.	
 GLOBAL_KEYWORD_RUSH	Eifer	
 GLOBAL_KEYWORD_RUSH_TEXT	Kann sofort Diener angreifen.	
+GLOBAL_KEYWORD_RUSH_TEXT_MERC	Greift sofort nach dem Herbeirufen an.	
 GLOBAL_KEYWORD_SECRET	Geheimnis	
 GLOBAL_KEYWORD_SECRET_TEXT	Bleibt verdeckt, bis im\ngegnerischen Zug eine\nspezifische Aktion eintritt.	
 GLOBAL_KEYWORD_SHIFTING_MINION_TEXT	Verwandelt sich zu Beginn Eures Zuges in einen neuen Diener.	
@@ -669,42 +693,111 @@ GLOBAL_KEYWORD_SPAREPART	Ersatzteil
 GLOBAL_KEYWORD_SPAREPART_TEXT	Zauber für 1 Mana mit schwachem Effekt.	
 GLOBAL_KEYWORD_SPELLBURST	Zauberschub	
 GLOBAL_KEYWORD_SPELLBURST_TEXT	Ein einmaliger Effekt, nachdem Ihr einen Zauber gewirkt habt.	
+GLOBAL_KEYWORD_SPELLCOMBO_MERC	Zaubercombo	
+GLOBAL_KEYWORD_SPELLCOMBO_REF_TEXT_MERC	Ein Bonus, wenn ein anderer befreundeter Söldner in dieser Runde einen Zauber derselben Art eingesetzt hat. 	
+GLOBAL_KEYWORD_SPELLCOMBO_TEXT_MERC	Ein Bonus, wenn ein anderer befreundeter Söldner in dieser Runde einen Zauber derselben Art eingesetzt hat. 	
 GLOBAL_KEYWORD_SPELLPOWER	Zauberschaden	
 GLOBAL_KEYWORD_SPELLPOWER_ARCANE	Arkanzauberschaden	
+GLOBAL_KEYWORD_SPELLPOWER_ARCANE_MERC	Arkanschaden	
 GLOBAL_KEYWORD_SPELLPOWER_ARCANE_REF_TEXT	Eure Arkanzauber verursachen mehr Schaden.	
+GLOBAL_KEYWORD_SPELLPOWER_ARCANE_REF_TEXT_MERC	Die Arkanfähigkeiten Eures Charakters\nverursachen mehr Schaden.	
 GLOBAL_KEYWORD_SPELLPOWER_ARCANE_TEXT	Eure Arkanzauber verursachen {0} Schaden mehr.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLPOWER_ARCANE_TEXT_MERC	Die Arkanfähigkeiten Eures Charakters\nverursachen mehr Schaden.	
 GLOBAL_KEYWORD_SPELLPOWER_FEL	Dämonenzauberschaden	
+GLOBAL_KEYWORD_SPELLPOWER_FEL_MERC	Dämonenschaden	
 GLOBAL_KEYWORD_SPELLPOWER_FEL_REF_TEXT	Eure dämonischen Zauber verursachen mehr Schaden.	
+GLOBAL_KEYWORD_SPELLPOWER_FEL_REF_TEXT_MERC	Die dämonischen Fähigkeiten Eures Charakters\nverursachen mehr Schaden.	
 GLOBAL_KEYWORD_SPELLPOWER_FEL_TEXT	Eure dämonischen Zauber verursachen {0} Schaden mehr.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLPOWER_FEL_TEXT_MERC	Die dämonischen Fähigkeiten Eures Charakters\nverursachen mehr Schaden.	
 GLOBAL_KEYWORD_SPELLPOWER_FIRE	Feuerzauberschaden	
+GLOBAL_KEYWORD_SPELLPOWER_FIRE_MERC	Feuerschaden	
 GLOBAL_KEYWORD_SPELLPOWER_FIRE_REF_TEXT	Eure Feuerzauber verursachen mehr Schaden.	
+GLOBAL_KEYWORD_SPELLPOWER_FIRE_REF_TEXT_MERC	Die Feuerfähigkeiten Eures Charakters\nverursachen mehr Schaden.	
 GLOBAL_KEYWORD_SPELLPOWER_FIRE_TEXT	Eure Feuerzauber verursachen {0} Schaden mehr.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLPOWER_FIRE_TEXT_MERC	Die Feuerfähigkeiten Eures Charakters\nverursachen mehr Schaden.	
 GLOBAL_KEYWORD_SPELLPOWER_FROST	Frostzauberschaden	
+GLOBAL_KEYWORD_SPELLPOWER_FROST_MERC	Frostschaden 	
 GLOBAL_KEYWORD_SPELLPOWER_FROST_REF_TEXT	Eure Frostzauber verursachen mehr Schaden.	
+GLOBAL_KEYWORD_SPELLPOWER_FROST_REF_TEXT_MERC	Die Frostfähigkeiten Eures Charakters\nverursachen mehr Schaden.	
 GLOBAL_KEYWORD_SPELLPOWER_FROST_TEXT	Eure Frostzauber verursachen {0} Schaden mehr.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLPOWER_FROST_TEXT_MERC	Die Frostfähigkeiten Eures Charakters\nverursachen mehr Schaden.	
 GLOBAL_KEYWORD_SPELLPOWER_HOLY	Heiligzauberschaden	
+GLOBAL_KEYWORD_SPELLPOWER_HOLY_MERC	Heiligschaden	
 GLOBAL_KEYWORD_SPELLPOWER_HOLY_REF_TEXT	Eure Heiligzauber verursachen mehr Schaden.	
+GLOBAL_KEYWORD_SPELLPOWER_HOLY_REF_TEXT_MERC	Die Heiligfähigkeiten Eures Charakters\nverursachen mehr Schaden. 	
 GLOBAL_KEYWORD_SPELLPOWER_HOLY_TEXT	Eure Heiligzauber verursachen {0} Schaden mehr.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLPOWER_HOLY_TEXT_MERC	Die Heiligfähigkeiten Eures Charakters\nverursachen mehr Schaden. 	
 GLOBAL_KEYWORD_SPELLPOWER_NATURE	Naturzauberschaden	
+GLOBAL_KEYWORD_SPELLPOWER_NATURE_MERC	Naturschaden	
 GLOBAL_KEYWORD_SPELLPOWER_NATURE_REF_TEXT	Eure Naturzauber verursachen mehr Schaden.	
+GLOBAL_KEYWORD_SPELLPOWER_NATURE_REF_TEXT_MERC	Die Naturfähigkeiten Eures Charakters\nverursachen mehr Schaden.	
 GLOBAL_KEYWORD_SPELLPOWER_NATURE_TEXT	Eure Naturzauber verursachen {0} Schaden mehr.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLPOWER_NATURE_TEXT_MERC	Die Naturfähigkeiten Eures Charakters\nverursachen mehr Schaden.	
 GLOBAL_KEYWORD_SPELLPOWER_PHYSICAL	Körperlicher Zauberschaden	
 GLOBAL_KEYWORD_SPELLPOWER_PHYSICAL_REF_TEXT	Eure körperlichen Zauber verursachen mehr Schaden.	
 GLOBAL_KEYWORD_SPELLPOWER_PHYSICAL_TEXT	Eure körperlichen Zauber verursachen {0} Schaden mehr.	0=amount of spell damage
 GLOBAL_KEYWORD_SPELLPOWER_REF_TEXT	Eure Zauber verursachen mehr Schaden.	
 GLOBAL_KEYWORD_SPELLPOWER_SHADOW	Schattenzauberschaden	
+GLOBAL_KEYWORD_SPELLPOWER_SHADOW_MERC	Schattenschaden	
 GLOBAL_KEYWORD_SPELLPOWER_SHADOW_REF_TEXT	Eure Schattenzauber verursachen mehr Schaden.	
+GLOBAL_KEYWORD_SPELLPOWER_SHADOW_REF_TEXT_MERC	Die Schattenfähigkeiten Eures Charakters\nverursachen mehr Schaden.	
 GLOBAL_KEYWORD_SPELLPOWER_SHADOW_TEXT	Eure Schattenzauber verursachen {0} Schaden mehr.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLPOWER_SHADOW_TEXT_MERC	Die Schattenfähigkeiten Eures Charakters\nverursachen mehr Schaden.	
 GLOBAL_KEYWORD_SPELLPOWER_TEXT	Eure Zauber verursachen {0} Schaden mehr.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLRESISTANCE_ARCANE	Arkanwiderstand	
+GLOBAL_KEYWORD_SPELLRESISTANCE_ARCANE_REF_TEXT	Erleidet weniger Schaden von Arkanfähigkeiten.	
+GLOBAL_KEYWORD_SPELLRESISTANCE_ARCANE_TEXT	Erleidet {0} weniger Schaden von Arkanfähigkeiten.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLRESISTANCE_FEL	Teufelswiderstand	
+GLOBAL_KEYWORD_SPELLRESISTANCE_FEL_REF_TEXT	Erleidet weniger Schaden von dämonischen Fähigkeiten.	
+GLOBAL_KEYWORD_SPELLRESISTANCE_FEL_TEXT	Erleidet {0} weniger Schaden von dämonischen Fähigkeiten.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLRESISTANCE_FIRE	Feuerwiderstand	
+GLOBAL_KEYWORD_SPELLRESISTANCE_FIRE_REF_TEXT	Erleidet weniger Schaden von Feuerfähigkeiten.	
+GLOBAL_KEYWORD_SPELLRESISTANCE_FIRE_TEXT	Erleidet {0} weniger Schaden von Feuerfähigkeiten.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLRESISTANCE_FROST	Frostwiderstand	
+GLOBAL_KEYWORD_SPELLRESISTANCE_FROST_REF_TEXT	Erleidet weniger Schaden von Frostfähigkeiten.	
+GLOBAL_KEYWORD_SPELLRESISTANCE_FROST_TEXT	Erleidet {0} weniger Schaden von Frostfähigkeiten.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLRESISTANCE_HOLY	Heiligwiderstand	
+GLOBAL_KEYWORD_SPELLRESISTANCE_HOLY_REF_TEXT	Erleidet weniger Schaden von Heiligfähigkeiten.	
+GLOBAL_KEYWORD_SPELLRESISTANCE_HOLY_TEXT	Erleidet {0} weniger Schaden von Heiligfähigkeiten.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLRESISTANCE_NATURE	Naturwiderstand	
+GLOBAL_KEYWORD_SPELLRESISTANCE_NATURE_REF_TEXT	Erleidet weniger Schaden von Naturfähigkeiten.	
+GLOBAL_KEYWORD_SPELLRESISTANCE_NATURE_TEXT	Erleidet {0} weniger Schaden von Naturfähigkeiten.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLRESISTANCE_SHADOW	Schattenwiderstand	
+GLOBAL_KEYWORD_SPELLRESISTANCE_SHADOW_REF_TEXT	Erleidet weniger Schaden von Schattenfähigkeiten.	
+GLOBAL_KEYWORD_SPELLRESISTANCE_SHADOW_TEXT	Erleidet {0} weniger Schaden von Schattenfähigkeiten.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLWEAKNESS_ARCANE	Arkanschwäche	
+GLOBAL_KEYWORD_SPELLWEAKNESS_ARCANE_REF_TEXT	Erleidet mehr Schaden von Arkanfähigkeiten.	
+GLOBAL_KEYWORD_SPELLWEAKNESS_ARCANE_TEXT	Erleidet {0} mehr Schaden von Arkanfähigkeiten.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLWEAKNESS_FEL	Teufelsschwäche	
+GLOBAL_KEYWORD_SPELLWEAKNESS_FEL_REF_TEXT	Erleidet mehr Schaden von dämonischen Fähigkeiten.	
+GLOBAL_KEYWORD_SPELLWEAKNESS_FEL_TEXT	Erleidet {0} mehr Schaden von dämonischen Fähigkeiten.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLWEAKNESS_FIRE	Feuerschwäche	
+GLOBAL_KEYWORD_SPELLWEAKNESS_FIRE_REF_TEXT	Erleidet mehr Schaden von Feuerfähigkeiten.	
+GLOBAL_KEYWORD_SPELLWEAKNESS_FIRE_TEXT	Erleidet {0} mehr Schaden von Feuerfähigkeiten.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLWEAKNESS_FROST	Frostschwäche	
+GLOBAL_KEYWORD_SPELLWEAKNESS_FROST_REF_TEXT	Erleidet mehr Schaden von Frostfähigkeiten.	
+GLOBAL_KEYWORD_SPELLWEAKNESS_FROST_TEXT	Erleidet {0} mehr Schaden von Frostfähigkeiten.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLWEAKNESS_HOLY	Heiligschwäche	
+GLOBAL_KEYWORD_SPELLWEAKNESS_HOLY_REF_TEXT	Erleidet mehr Schaden von Heiligfähigkeiten.	
+GLOBAL_KEYWORD_SPELLWEAKNESS_HOLY_TEXT	Erleidet {0} mehr Schaden von Heiligfähigkeiten.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLWEAKNESS_NATURE	Naturschwäche	
+GLOBAL_KEYWORD_SPELLWEAKNESS_NATURE_REF_TEXT	Erleidet mehr Schaden von Naturfähigkeiten.	
+GLOBAL_KEYWORD_SPELLWEAKNESS_NATURE_TEXT	Erleidet {0} mehr Schaden von Naturfähigkeiten.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLWEAKNESS_SHADOW	Schattenschwäche	
+GLOBAL_KEYWORD_SPELLWEAKNESS_SHADOW_REF_TEXT	Erleidet mehr Schaden von Schattenfähigkeiten.	
+GLOBAL_KEYWORD_SPELLWEAKNESS_SHADOW_TEXT	Erleidet {0} mehr Schaden von Schattenfähigkeiten.	0=amount of spell damage
 GLOBAL_KEYWORD_START_OF_COMBAT	Kampfbeginn	
 GLOBAL_KEYWORD_START_OF_COMBAT_TEXT	Löst zu Beginn der Kampfphase einen Effekt aus.	
 GLOBAL_KEYWORD_START_OF_GAME	Spielbeginn	
 GLOBAL_KEYWORD_START_OF_GAME_TEXT	Vor dem ersten Zug tritt ein Effekt in Kraft.	
 GLOBAL_KEYWORD_STEALTH	Verstohlenheit	
 GLOBAL_KEYWORD_STEALTH_REF_TEXT	Der Charakter kann nicht angegriffen oder als Ziel gewählt werden, bis er angreift.	
+GLOBAL_KEYWORD_STEALTH_REF_TEXT_MERC	Der Charakter kann nicht angegriffen oder als Ziel gewählt werden, bis er eine Fähigkeit einsetzt.	
 GLOBAL_KEYWORD_STEALTH_TEXT	Der Charakter kann nicht angegriffen oder als Ziel gewählt werden, bis er angreift.	
+GLOBAL_KEYWORD_STEALTH_TEXT_MERC	Der Charakter kann nicht angegriffen oder als Ziel gewählt werden, bis er eine Fähigkeit einsetzt.	
 GLOBAL_KEYWORD_TAUNT	Spott	
 GLOBAL_KEYWORD_TAUNT_REF_TEXT	Feinde müssen Diener angreifen, die Spott haben.	
+GLOBAL_KEYWORD_TAUNT_REF_TEXT_Merc	Feinde müssen Charaktere angreifen, die Spott haben.	
 GLOBAL_KEYWORD_TAUNT_TEXT	Feinde müssen diesen Diener angreifen.	
 GLOBAL_KEYWORD_TOOL	Werkzeug	
 GLOBAL_KEYWORD_TOOL_TEXT	Ein Gegenstand mit einem aktiven Effekt.	
@@ -716,6 +809,7 @@ GLOBAL_KEYWORD_WILD	Wild
 GLOBAL_KEYWORD_WILD_TEXT	Wilde Karten sind Karten aus früheren Erweiterungen von Hearthstone, die im Standardformat nicht mehr erlaubt sind.	
 GLOBAL_KEYWORD_WINDFURY	Windzorn	
 GLOBAL_KEYWORD_WINDFURY_TEXT	Kann zweimal pro Zug angreifen.	
+GLOBAL_KEYWORD_WINDFURY_TEXT_MERC	Greift bei jedem Angriff zweimal an.	
 GLOBAL_LANGUAGE_CHANGE_CONFIRM_MESSAGE	Dadurch wird Ihre aktuelle Aktivität unterbrochen. Sind Sie sicher?	
 GLOBAL_LANGUAGE_CHANGE_CONFIRM_TITLE	Sprache ändern?	
 GLOBAL_LANGUAGE_CHANGE_OUT_OF_SPACE_MESSAGE	Es werden {0} freier Speicherplatz auf dem Gerät benötigt, um fortzufahren.	
@@ -739,6 +833,8 @@ GLOBAL_LANGUAGE_NATIVE_ZHCN	中文（简体）	The name of the language IN THAT 
 GLOBAL_LANGUAGE_NATIVE_ZHTW	繁體中文(台灣)	The name of the language IN THAT LANGUAGE.
 GLOBAL_LEAVE	Verlassen	
 GLOBAL_LEAVE_SPECTATOR_MODE	Verlassen	
+GLOBAL_LETTUCE_LOBBY_TITLE	Wie möchtet Ihr spielen?	
+GLOBAL_LETTUCE_REWARD_BANNER_TEXT	Söldnerbelohnung	
 GLOBAL_LOCATIONS	Mehr Infos	
 GLOBAL_LOGIN	Einloggen	
 GLOBAL_LOGIN_CONFIRM_MESSAGE	Dadurch geht Ihr aktueller Fortschritt verloren. Sind Sie sicher?	
@@ -787,10 +883,13 @@ GLOBAL_MEDAL_TOOLTIP_BODY_STANDARD	Gewinnt Standardspiele, um den nächsten Rang
 GLOBAL_MEDAL_TOOLTIP_BODY_WILD	Gewinnt wilde Spiele, um den nächsten Rang zu erreichen!	
 GLOBAL_MEDAL_TOOLTIP_HEADER	Wertung: {0}	0=medal name
 GLOBAL_MEDAL_TOURNAMENT_TOOLTIP_BODY	Ihr gehört diese Saison zu den besten {0} % des gewerteten Modus!	0=rank percentile
+GLOBAL_MERCENARIES	Söldner	
+GLOBAL_MERCENARIES_COOP	Söldner-Co-op	
 GLOBAL_MINI_SET_BAR	Die Höhlen des Wehklagens	
 GLOBAL_MINI_SET_DMF	Das Dunkelmond-Rennen	
 GLOBAL_MOBILE_ERROR_ANDROID_PHONE_DETECTED	Es tut uns leid, Hearthstone läuft zurzeit nur auf Android-Tablets mit einer Displaygröße von mindestens 6 Zoll.	
 GLOBAL_MOBILE_ERROR_BREAKING_NEWS	Eilmeldung:\n\n{0}	
+GLOBAL_MOBILE_ERROR_GAMESERVER_CONNECT	Uns ist aufgefallen, dass Sie einem Match nicht beitreten konnten, während sie eine mobile Verbindung genutzt haben. Mehr Informationen finden Sie in diesem Kundendienstartikel.	
 GLOBAL_MOBILE_ERROR_LOGON_WEB_TIMEOUT	Ihre Verbindung zum Server wurde getrennt, da Sie längere Zeit inaktiv waren.	
 GLOBAL_MOBILE_ERROR_NETWORK_DISCONNECT	Ihre Verbindung wurde unterbrochen.	
 GLOBAL_MOBILE_ERROR_NETWORK_SPAM	Ihre Verbindung wurde unterbrochen, weil Sie zu viele Anfragen in zu kurzer Zeit gesendet haben.	
@@ -881,6 +980,9 @@ GLOBAL_PROGRESSION_PROFILE_BATTLEGROUNDS_STAT_TOOLTIP	Gewinnt Spiele, um Eure We
 GLOBAL_PROGRESSION_PROFILE_BATTLEGROUNDS_STAT_TOOLTIP_TITLE	Schlachtfeld	
 GLOBAL_PROGRESSION_PROFILE_BATTLEGROUNDS_TOP4	{0}-mal die Top 4 erreicht	
 GLOBAL_PROGRESSION_PROFILE_GAME_MODES	Spielmodi	
+GLOBAL_PROGRESSION_PROFILE_MERCENARIES_STAT_TOOLTIP	Zeigt die Anzahl der PvP-Siege und im Söldnermodus abgeschlossenen Kopfgelder an.	
+GLOBAL_PROGRESSION_PROFILE_MERCENARIES_STAT_TOOLTIP_TITLE	Söldner	
+GLOBAL_PROGRESSION_PROFILE_MERCENARIES_TOTAL_BOUNTIES	{0} Kopfgelder insgesamt	
 GLOBAL_PROGRESSION_PROFILE_PLAY_MODE	Modus „Spielen“	
 GLOBAL_PROGRESSION_PROFILE_PVPDR_CASUAL_STAT_TITLE	Normale Duelle	
 GLOBAL_PROGRESSION_PROFILE_PVPDR_CASUAL_STAT_TOOLTIP	Eure Höchstwertung im normalen oder heroischen Duellmodus.	
@@ -910,10 +1012,11 @@ GLOBAL_RACE_ALL	Alle
 GLOBAL_RACE_ALL_BATTLEGROUNDS	Mutationen	This should be the plural of DAL_087t
 GLOBAL_RACE_BLOODELF	Blutelf	
 GLOBAL_RACE_BLOODELF_BATTLEGROUNDS	Blutelfen	
+GLOBAL_RACE_CENTAUR	Zentaur	
 GLOBAL_RACE_DEMON	Dämon	
 GLOBAL_RACE_DEMON_BATTLEGROUNDS	Dämonen	
-GLOBAL_RACE_DRAENEI	Feuer	
-GLOBAL_RACE_DRAENEI_BATTLEGROUNDS	Feuer	
+GLOBAL_RACE_DRAENEI	Draenei	
+GLOBAL_RACE_DRAENEI_BATTLEGROUNDS	Draenei	
 GLOBAL_RACE_DRAGON	Drache	
 GLOBAL_RACE_DRAGON_BATTLEGROUNDS	Drachen	
 GLOBAL_RACE_DWARF	Zwerg	
@@ -922,10 +1025,13 @@ GLOBAL_RACE_EGG	Ei
 GLOBAL_RACE_EGG_BATTLEGROUNDS	Eier	
 GLOBAL_RACE_ELEMENTAL	Elementar	
 GLOBAL_RACE_ELEMENTAL_BATTLEGROUNDS	Elementare	
+GLOBAL_RACE_FURBOLG	Furbolg	
 GLOBAL_RACE_GNOME	Gnom	
 GLOBAL_RACE_GNOME_BATTLEGROUNDS	Gnome	
 GLOBAL_RACE_GOBLIN	Goblin	
 GLOBAL_RACE_GOBLIN_BATTLEGROUNDS	Goblins	
+GLOBAL_RACE_HALFORC	Halborc	
+GLOBAL_RACE_HIGHELF	Hochelf	
 GLOBAL_RACE_HUMAN	Mensch	
 GLOBAL_RACE_HUMAN_BATTLEGROUNDS	Menschen	
 GLOBAL_RACE_MECHANICAL	Mech	
@@ -941,6 +1047,7 @@ GLOBAL_RACE_OGRE	Oger
 GLOBAL_RACE_OGRE_BATTLEGROUNDS	Oger	
 GLOBAL_RACE_ORC	Orc	
 GLOBAL_RACE_ORC_BATTLEGROUNDS	Orcs	
+GLOBAL_RACE_OWLKIN	Eulkin	
 GLOBAL_RACE_PET	Wildtier	
 GLOBAL_RACE_PET_BATTLEGROUNDS	Wildtiere	
 GLOBAL_RACE_PIRATE	Pirat	
@@ -949,10 +1056,11 @@ GLOBAL_RACE_QUILBOAR	Stacheleber
 GLOBAL_RACE_QUILBOARS_BATTLEGROUNDS	Stacheleber	
 GLOBAL_RACE_SCOURGE	Geißel	
 GLOBAL_RACE_SCOURGE_BATTLEGROUNDS	Geißel	
-GLOBAL_RACE_TAUREN	Kultist	
+GLOBAL_RACE_TAUREN	Tauren	
 GLOBAL_RACE_TAUREN_BATTLEGROUNDS	Tauren	
 GLOBAL_RACE_TOTEM	Totem	
 GLOBAL_RACE_TOTEM_BATTLEGROUNDS	Totems	
+GLOBAL_RACE_TREANT	Treant	
 GLOBAL_RACE_TROLL	Troll	
 GLOBAL_RACE_TROLL_BATTLEGROUNDS	Trolle	
 GLOBAL_RACE_UNDEAD	Untot	
@@ -1054,6 +1162,10 @@ GLOBAL_REWARD_HERO_DETAILS	{0}/{1} Helden freigeschaltet
 GLOBAL_REWARD_HERO_HEADLINE	{0} freigeschaltet!	
 GLOBAL_REWARD_HEROES_CARD_MOUNT_HEADLINE	Reittier: Hearthstone-Karte	
 GLOBAL_REWARD_PROGRESS	{0}/{1} Siege	0=current wins,1=required wins
+GLOBAL_REWARD_SARGE_TALE_HEADLINE	Sarges sagenhaftes Reittier	
+GLOBAL_ROLE_CASTER	Zauberwirker	
+GLOBAL_ROLE_FIGHTER	Kämpfer	
+GLOBAL_ROLE_TANK	Beschützer	
 GLOBAL_SCAN	Suchen	
 GLOBAL_SCREENSHOT_COMPLETE	Screenshot wurde auf dem Desktop gespeichert.	
 GLOBAL_SCREENSHOT_COMPLETE_SPECIFIC_DIRECTORY	Screenshot wurde gespeichert unter {0}	0=The directory that the file was saved to
@@ -1150,7 +1262,7 @@ GLOBAL_SPELL_SCHOOL_FIRE	Feuer
 GLOBAL_SPELL_SCHOOL_FROST	Frost	
 GLOBAL_SPELL_SCHOOL_HOLY	Heilig	
 GLOBAL_SPELL_SCHOOL_NATURE	Natur	
-GLOBAL_SPELL_SCHOOL_PHYSICAL_COMBAT	Körperlich	
+GLOBAL_SPELL_SCHOOL_PHYSICAL_COMBAT	Angriff	
 GLOBAL_SPELL_SCHOOL_SHADOW	Schatten	
 GLOBAL_SPLASH_CLOSED_RECONNECTING	Verbinde erneut ...	
 GLOBAL_SPLASH_CLOSED_SIGN_TITLE	Geschlossen	

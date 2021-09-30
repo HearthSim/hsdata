@@ -1,4 +1,4 @@
-TAG	TEXT	COMMENT
+﻿TAG	TEXT	COMMENT
 GLOBAL_AADC_BUTTON_PRIVACY	Privacy
 GLOBAL_AADC_BUTTON_PRIVACYSETTINGS	Privacy Settings
 GLOBAL_AADC_PARENTALLOCK_DESCRIPTION	Changing this option requires your parent or guardian to update your privacy settings in Battle.net.
@@ -61,6 +61,8 @@ GLOBAL_BUTTON_CONVERT	Convert
 GLOBAL_BUTTON_AWESOME	Awesome!
 GLOBAL_BUTTON_NOT_NOW	Not now
 GLOBAL_BUTTON_GO	Go!
+GLOBAL_BUTTON_MORE_INFO	More Info
+GLOBAL_BUTTON_GOT_IT	Got It!
 GLOBAL_CARD_SET_BASIC	Basic
 GLOBAL_CARD_SET_EXPERT1	Classic
 GLOBAL_CARD_SET_HOF	Hall of Fame
@@ -130,6 +132,9 @@ GLOBAL_CARD_SET_SCH_SEARCHABLE_SHORTHAND_NAMES	scholo sa	This is a space-separat
 GLOBAL_CARD_SET_DMF	Madness at the Darkmoon Faire
 GLOBAL_CARD_SET_DMF_SHORT	Darkmoon
 GLOBAL_CARD_SET_DMF_SEARCHABLE_SHORTHAND_NAMES	dmf	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_LETL		Lettuce
+GLOBAL_CARD_SET_LETL_SHORT	Lettuce
+GLOBAL_CARD_SET_LETL_SEARCHABLE_SHORTHAND_NAMES	let	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_BAR	Forged in the Barrens
 GLOBAL_CARD_SET_BAR_SHORT	Barrens
 GLOBAL_CARD_SET_BAR_SEARCHABLE_SHORTHAND_NAMES	bar fitb fb	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
@@ -173,13 +178,18 @@ GLOBAL_CLASS_SHAMAN	Shaman
 GLOBAL_CLASS_WARLOCK	Warlock
 GLOBAL_CLASS_WARRIOR	Warrior
 GLOBAL_CLASS_DEMONHUNTER	Demon Hunter
+GLOBAL_ROLE_FIGHTER	Fighter	
+GLOBAL_ROLE_TANK	Protector	
+GLOBAL_ROLE_CASTER	Caster	
 GLOBAL_BASIC_DECK_NAME	{0}	0=class name
 GLOBAL_KEYWORD_BATTLECRY	Battlecry
 GLOBAL_KEYWORD_BATTLECRY_TEXT	Does something when you play it from your hand.
+GLOBAL_KEYWORD_BATTLECRY_TEXT_MERC	Does something when played from your hand or summoned by a Merc.
 GLOBAL_KEYWORD_CHARGE	Charge
 GLOBAL_KEYWORD_CHARGE_TEXT	Can attack immediately.
 GLOBAL_KEYWORD_RUSH	Rush
 GLOBAL_KEYWORD_RUSH_TEXT	Can attack minions immediately.
+GLOBAL_KEYWORD_RUSH_TEXT_MERC	Attacks immediately after being summoned.
 GLOBAL_KEYWORD_EVILZUG	Lackey
 GLOBAL_KEYWORD_EVILZUG_TEXT	Lackeys are 1-Cost minions with Battlecries.
 GLOBAL_KEYWORD_MODULAR	Magnetic
@@ -193,8 +203,10 @@ GLOBAL_KEYWORD_ENRAGED_TOOLTIP	Enrage
 GLOBAL_KEYWORD_ENRAGED_TOOLTIP_TEXT	While damaged, this minion has a new power.
 GLOBAL_KEYWORD_FREEZE	Freeze
 GLOBAL_KEYWORD_FREEZE_TEXT	Frozen characters lose their next attack.
+GLOBAL_KEYWORD_FREEZE_TEXT_MERC	Frozen characters lose their next ability.
 GLOBAL_KEYWORD_FROZEN	Frozen
 GLOBAL_KEYWORD_FROZEN_TEXT	Misses its next attack.
+GLOBAL_KEYWORD_FROZEN_TEXT_MERC	Loses its next ability.
 GLOBAL_KEYWORD_IMMUNE	Immune
 GLOBAL_KEYWORD_IMMUNE_TEXT	Can't be damaged.
 GLOBAL_KEYWORD_IMMUNE_REF_TEXT	Immune characters can't be damaged.
@@ -206,39 +218,66 @@ GLOBAL_KEYWORD_SPELLPOWER_REF_TEXT	Your spells deal extra damage.
 GLOBAL_KEYWORD_SPELLPOWER_ARCANE	Arcane Spell Damage
 GLOBAL_KEYWORD_SPELLPOWER_ARCANE_TEXT	Your Arcane spell cards deal {0} extra damage.	0=amount of spell damage
 GLOBAL_KEYWORD_SPELLPOWER_ARCANE_REF_TEXT	Your Arcane spells deal extra damage.
+GLOBAL_KEYWORD_SPELLPOWER_ARCANE_MERC	Arcane Damage
+GLOBAL_KEYWORD_SPELLPOWER_ARCANE_TEXT_MERC	Your character's Arcane abilities deal\nmore damage.
+GLOBAL_KEYWORD_SPELLPOWER_ARCANE_REF_TEXT_MERC	Your character's Arcane abilities deal\nmore damage.
 GLOBAL_KEYWORD_SPELLPOWER_FIRE	Fire Spell Damage
 GLOBAL_KEYWORD_SPELLPOWER_FIRE_TEXT	Your Fire spell cards deal {0} extra damage.	0=amount of spell damage
 GLOBAL_KEYWORD_SPELLPOWER_FIRE_REF_TEXT	Your Fire spells deal extra damage.
-GLOBAL_KEYWORD_SPELLPOWER_FROST	Frost Spell Damage
+GLOBAL_KEYWORD_SPELLPOWER_FIRE_MERC	Fire Damage
+GLOBAL_KEYWORD_SPELLPOWER_FIRE_TEXT_MERC	Your character's Fire abilities deal\nmore damage.
+GLOBAL_KEYWORD_SPELLPOWER_FIRE_REF_TEXT_MERC	Your character's Fire abilities deal\nmore damage.
+GLOBAL_KEYWORD_SPELLPOWER_FROST	Frost Spell Damage 
 GLOBAL_KEYWORD_SPELLPOWER_FROST_TEXT	Your Frost spell cards deal {0} extra damage.	0=amount of spell damage
 GLOBAL_KEYWORD_SPELLPOWER_FROST_REF_TEXT	Your Frost spells deal extra damage.
+GLOBAL_KEYWORD_SPELLPOWER_FROST_MERC	Frost Damage 
+GLOBAL_KEYWORD_SPELLPOWER_FROST_TEXT_MERC	Your character's Frost abilities deal\nmore damage.
+GLOBAL_KEYWORD_SPELLPOWER_FROST_REF_TEXT_MERC	Your character's Frost abilities deal\nmore damage.
 GLOBAL_KEYWORD_SPELLPOWER_NATURE	Nature Spell Damage
 GLOBAL_KEYWORD_SPELLPOWER_NATURE_TEXT	Your Nature spell cards deal {0} extra damage.	0=amount of spell damage
 GLOBAL_KEYWORD_SPELLPOWER_NATURE_REF_TEXT	Your Nature spells deal extra damage.
+GLOBAL_KEYWORD_SPELLPOWER_NATURE_MERC	Nature Damage
+GLOBAL_KEYWORD_SPELLPOWER_NATURE_TEXT_MERC	Your character's Nature abilities deal\nmore damage.
+GLOBAL_KEYWORD_SPELLPOWER_NATURE_REF_TEXT_MERC	Your character's Nature abilities deal\nmore damage.
 GLOBAL_KEYWORD_SPELLPOWER_HOLY	Holy Spell Damage
 GLOBAL_KEYWORD_SPELLPOWER_HOLY_TEXT	Your Holy spell cards deal {0} extra damage.	0=amount of spell damage
 GLOBAL_KEYWORD_SPELLPOWER_HOLY_REF_TEXT	Your Holy spells deal extra damage.
+GLOBAL_KEYWORD_SPELLPOWER_HOLY_MERC	Holy Damage
+GLOBAL_KEYWORD_SPELLPOWER_HOLY_TEXT_MERC	Your character's Holy abilities deal\nmore damage. 
+GLOBAL_KEYWORD_SPELLPOWER_HOLY_REF_TEXT_MERC	Your character's Holy abilities deal\nmore damage. 
 GLOBAL_KEYWORD_SPELLPOWER_SHADOW	Shadow Spell Damage
 GLOBAL_KEYWORD_SPELLPOWER_SHADOW_TEXT	Your Shadow spell cards deal {0} extra damage.	0=amount of spell damage
 GLOBAL_KEYWORD_SPELLPOWER_SHADOW_REF_TEXT	Your Shadow spells deal extra damage.
+GLOBAL_KEYWORD_SPELLPOWER_SHADOW_MERC	Shadow Damage
+GLOBAL_KEYWORD_SPELLPOWER_SHADOW_TEXT_MERC	Your character's Shadow abilities deal\nmore damage.
+GLOBAL_KEYWORD_SPELLPOWER_SHADOW_REF_TEXT_MERC	Your character's Shadow abilities deal\nmore damage.
 GLOBAL_KEYWORD_SPELLPOWER_FEL	Fel Spell Damage
 GLOBAL_KEYWORD_SPELLPOWER_FEL_TEXT	Your Fel spell cards deal {0} extra damage.	0=amount of spell damage
 GLOBAL_KEYWORD_SPELLPOWER_FEL_REF_TEXT	Your Fel spells deal extra damage.
+GLOBAL_KEYWORD_SPELLPOWER_FEL_MERC	Fel Damage
+GLOBAL_KEYWORD_SPELLPOWER_FEL_TEXT_MERC	Your character's Fel abilities deal\nmore damage.
+GLOBAL_KEYWORD_SPELLPOWER_FEL_REF_TEXT_MERC	Your character's Fel abilities deal\nmore damage.
 GLOBAL_KEYWORD_SPELLPOWER_PHYSICAL	Physical Spell Damage
 GLOBAL_KEYWORD_SPELLPOWER_PHYSICAL_TEXT	Your Physical spell cards deal {0} extra damage.	0=amount of spell damage
 GLOBAL_KEYWORD_SPELLPOWER_PHYSICAL_REF_TEXT	Your Physical spells deal extra damage.
 GLOBAL_KEYWORD_STEALTH	Stealth
 GLOBAL_KEYWORD_STEALTH_TEXT	Can't be attacked or targeted until it attacks.
+GLOBAL_KEYWORD_STEALTH_TEXT_MERC	Can't be attacked or targeted until uses an ability.
 GLOBAL_KEYWORD_STEALTH_REF_TEXT	Can't be attacked or targeted until it attacks.
+GLOBAL_KEYWORD_STEALTH_REF_TEXT_MERC	Can't be attacked or targeted until uses an ability.
 GLOBAL_KEYWORD_TAUNT	Taunt
 GLOBAL_KEYWORD_TAUNT_TEXT	Enemies must attack this minion.
 GLOBAL_KEYWORD_TAUNT_REF_TEXT	Enemies must attack minions that have Taunt.
+GLOBAL_KEYWORD_TAUNT_REF_TEXT_Merc	Enemies must attack characters that have Taunt.
 GLOBAL_KEYWORD_WINDFURY	Windfury
 GLOBAL_KEYWORD_WINDFURY_TEXT	Can attack twice each turn.
+GLOBAL_KEYWORD_WINDFURY_TEXT_MERC	Attacks twice whenever it Attacks.
 GLOBAL_KEYWORD_DEATHRATTLE	Deathrattle
 GLOBAL_KEYWORD_DEATHRATTLE_TEXT	Does something when it dies.
 GLOBAL_KEYWORD_COMBO	Combo
 GLOBAL_KEYWORD_COMBO_TEXT	A bonus if you already played a card this turn.
+GLOBAL_KEYWORD_COMBO_MERC	Combo
+GLOBAL_KEYWORD_COMBO_TEXT_MERC	A bonus if your party already played an ability this turn.
 GLOBAL_KEYWORD_OVERLOAD	Overload: X
 GLOBAL_KEYWORD_OVERLOAD_TEXT	You have X less mana next turn.
 GLOBAL_KEYWORD_OVERLOAD_REF_TEXT	Cards with Overload limit your mana next turn.
@@ -359,7 +398,7 @@ GLOBAL_KEYWORD_WILD_TEXT	Wild cards are cards from Hearthstone's past no longer 
 GLOBAL_RACE_ALL	All
 GLOBAL_RACE_BLOODELF	Blood Elf
 GLOBAL_RACE_DEMON	Demon
-GLOBAL_RACE_DRAENEI	Fire
+GLOBAL_RACE_DRAENEI	Draenei
 GLOBAL_RACE_DRAGON	Dragon
 GLOBAL_RACE_DWARF	Dwarf
 GLOBAL_RACE_ELEMENTAL	Elemental
@@ -375,17 +414,23 @@ GLOBAL_RACE_ORC	Orc
 GLOBAL_RACE_PET	Beast
 GLOBAL_RACE_PIRATE	Pirate
 GLOBAL_RACE_SCOURGE	Scourge
-GLOBAL_RACE_TAUREN	Cultist
+GLOBAL_RACE_TAUREN	Tauren
 GLOBAL_RACE_TOTEM	Totem
 GLOBAL_RACE_TROLL	Troll
 GLOBAL_RACE_UNDEAD	Undead
 GLOBAL_RACE_WORGEN	Worgen
 GLOBAL_RACE_EGG	Egg
 GLOBAL_RACE_QUILBOAR	Quilboar
+GLOBAL_RACE_CENTAUR	Centaur
+GLOBAL_RACE_FURBOLG	Furbolg
+GLOBAL_RACE_HIGHELF	High Elf
+GLOBAL_RACE_TREANT	Treant
+GLOBAL_RACE_OWLKIN	Owlkin
+GLOBAL_RACE_HALFORC	Half-Orc
 GLOBAL_RACE_ALL_BATTLEGROUNDS	Amalgams	This should be the plural of DAL_087t
 GLOBAL_RACE_BLOODELF_BATTLEGROUNDS	Blood Elves
 GLOBAL_RACE_DEMON_BATTLEGROUNDS	Demons
-GLOBAL_RACE_DRAENEI_BATTLEGROUNDS	Fire
+GLOBAL_RACE_DRAENEI_BATTLEGROUNDS	Draenei
 GLOBAL_RACE_DRAGON_BATTLEGROUNDS	Dragons
 GLOBAL_RACE_DWARF_BATTLEGROUNDS	Dwarves
 GLOBAL_RACE_ELEMENTAL_BATTLEGROUNDS	Elementals
@@ -502,6 +547,8 @@ GLOBAL_RESTART	Restart
 GLOBAL_GAME_MENU	Game Menu
 GLOBAL_TAVERN_BRAWL	Tavern Brawl
 GLOBAL_BATTLEGROUNDS	Battlegrounds
+GLOBAL_MERCENARIES	Mercenaries
+GLOBAL_MERCENARIES_COOP	Mercenaries Co-op
 GLOBAL_FIRESIDE_BRAWL	Fireside Brawl
 GLOBAL_FIRESIDE_GATHERING	Fireside Gathering
 GLOBAL_FIRESIDE_GATHERING_DEFAULT_TAVERN_NAME	Fireside Gathering
@@ -523,6 +570,7 @@ GLOBAL_FRIEND_CHALLENGE_ACCEPT	Accept
 GLOBAL_FRIEND_CHALLENGE_DECLINE	Decline
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_WAITING_RESPONSE	You are waiting for {0} to respond to your challenge.	0=friend name
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_WAITING_DECK	You are waiting for {0} to select a deck.	0=friend name
+GLOBAL_FRIEND_CHALLENGE_OPPONENT_WAITING_TEAM	You are waiting for your opponent to select a team.
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_DECLINED	{0} declined your challenge.	0=friend name
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_FRIEND_REMOVED	Challenge canceled because {0} is no longer your friend.	0=friend name
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_CANCELED	{0} canceled the challenge.	0=friend name
@@ -569,6 +617,7 @@ GLOBAL_ERROR_NETWORK_SPAM	You were disconnected from the Blizzard service for se
 GLOBAL_ERROR_NETWORK_NO_GAME_SERVER	Oops! We were unable to start a game for you. Please try again.
 GLOBAL_MOBILE_ERROR_NETWORK_SPAM	You were disconnected for sending too many requests too quickly.
 GLOBAL_MOBILE_ERROR_BREAKING_NEWS	Breaking News:\n\n{0}
+GLOBAL_MOBILE_ERROR_GAMESERVER_CONNECT	We noticed you were unable to join a match while on a mobile connection. Please see this support article for more information.
 GLOBAL_ERROR_NETWORK_DUPLICATE_LOGIN	This Blizzard account just logged into Hearthstone from another device.\n\nThis client was disconnected because only one connection is supported at a time.
 GLOBAL_ERROR_NETWORK_LOST_GAME_CONNECTION	Your game has been disconnected from the Blizzard game service. You can try to reconnect again by starting another game.
 GLOBAL_ERROR_NETWORK_INCORRECT_REGION	Your Blizzard account is not eligible to participate in this region's Hearthstone beta test. Once the Hearthstone beta is available in your home region, please try again!
@@ -982,6 +1031,7 @@ GLOBAL_FRIENDLYCHALLENGE_QUEST_REWARD_AT_LIMIT	You reached the daily limit for F
 GLOBAL_FRIENDLYCHALLENGE_REWARD_CONCEDED_YOURSELF	You left the game too early to earn rewards.
 GLOBAL_FRIENDLYCHALLENGE_REWARD_CONCEDED_YOUR_OPPONENT	Your opponent left the game too early for you to earn rewards.
 GLOBAL_COLLECTION_GOLDEN	Golden
+GLOBAL_COLLECTION_DIAMOND	Diamond
 GLOBAL_SPLASH_CLOSED_SIGN_TITLE	Closed
 GLOBAL_ERROR_INACTIVITY_KICK	It's been a while since your last Hearthstone action and your connection was shut down. Relaunch the game when you're ready!
 GLOBAL_MOBILE_ERROR_LOGON_WEB_TIMEOUT	It's been a while since your last Hearthstone action and your connection was shut down.
@@ -1148,7 +1198,7 @@ GLOBAL_SPELL_SCHOOL_NATURE	Nature
 GLOBAL_SPELL_SCHOOL_HOLY	Holy
 GLOBAL_SPELL_SCHOOL_SHADOW	Shadow
 GLOBAL_SPELL_SCHOOL_FEL	Fel
-GLOBAL_SPELL_SCHOOL_PHYSICAL_COMBAT	Physical Combat
+GLOBAL_SPELL_SCHOOL_PHYSICAL_COMBAT	Attack
 GLOBAL_PLAYER_MIGRATION_RESTART_HEADER	Account needs to be updated
 GLOBAL_PLAYER_MIGRATION_RESTART_BODY	Your account needs to be updated.\nPlease restart the game.
 GLOBAL_PROGRESSION_PROFILE_PLAY_MODE	Play Mode
@@ -1189,3 +1239,65 @@ GLOBAL_PROGRESSION_WEEKLY_QUESTS_POPUP_TITLE	Your Weekly Quests
 GLOBAL_PVPDR_SEASON_ERROR_NOT_ACTIVE	Sorry. The requested Duels season is no longer available. Please try again later.
 GLOBAL_CLASSIC	Classic
 GLOBAL_RANKED	Ranked
+GLOBAL_LETTUCE_LOBBY_TITLE	Choose how to play
+GLOBAL_LETTUCE_REWARD_BANNER_TEXT	Mercenaries Reward
+GLOBAL_PROGRESSION_PROFILE_MERCENARIES_TOTAL_BOUNTIES	{0} Total Bounties
+GLOBAL_PROGRESSION_PROFILE_MERCENARIES_STAT_TOOLTIP_TITLE	Mercenaries
+GLOBAL_PROGRESSION_PROFILE_MERCENARIES_STAT_TOOLTIP	Shows the number of victories from PVP and bounties cleared from Mercenaries mode.
+GLOBAL_REWARD_SARGE_TALE_HEADLINE	Sarge's Tale Mount
+GLOBAL_KEYWORD_SPELLRESISTANCE_ARCANE	Arcane Resistance
+GLOBAL_KEYWORD_SPELLRESISTANCE_ARCANE_TEXT	Takes {0} less damage from Arcane abilities.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLRESISTANCE_ARCANE_REF_TEXT	Takes less damage from Arcane abilities.
+GLOBAL_KEYWORD_SPELLRESISTANCE_FIRE	Fire Resistance
+GLOBAL_KEYWORD_SPELLRESISTANCE_FIRE_TEXT	Takes {0} less damage from Fire abilities.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLRESISTANCE_FIRE_REF_TEXT	Takes less damage from Fire abilities.
+GLOBAL_KEYWORD_SPELLRESISTANCE_FROST	Frost Resistance
+GLOBAL_KEYWORD_SPELLRESISTANCE_FROST_TEXT	Takes {0} less damage from Frost abilities.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLRESISTANCE_FROST_REF_TEXT	Takes less damage from Frost abilities.
+GLOBAL_KEYWORD_SPELLRESISTANCE_NATURE	Nature Resistance
+GLOBAL_KEYWORD_SPELLRESISTANCE_NATURE_TEXT	Takes {0} less damage from Nature abilities.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLRESISTANCE_NATURE_REF_TEXT	Takes less damage from Nature abilities.
+GLOBAL_KEYWORD_SPELLRESISTANCE_HOLY	Holy Resistance
+GLOBAL_KEYWORD_SPELLRESISTANCE_HOLY_TEXT	Takes {0} less damage from Holy abilities.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLRESISTANCE_HOLY_REF_TEXT	Takes less damage from Holy abilities.
+GLOBAL_KEYWORD_SPELLRESISTANCE_SHADOW	Shadow Resistance
+GLOBAL_KEYWORD_SPELLRESISTANCE_SHADOW_TEXT	Takes {0} less damage from Shadow abilities.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLRESISTANCE_SHADOW_REF_TEXT	Takes less damage from Shadow abilities.
+GLOBAL_KEYWORD_SPELLRESISTANCE_FEL	Fel Resistance
+GLOBAL_KEYWORD_SPELLRESISTANCE_FEL_TEXT	Takes {0} less damage from Fel abilities.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLRESISTANCE_FEL_REF_TEXT	Takes less damage from Fel abilities.
+GLOBAL_KEYWORD_SPELLWEAKNESS_ARCANE	Arcane Weakness
+GLOBAL_KEYWORD_SPELLWEAKNESS_ARCANE_TEXT	Takes {0} more damage from Arcane abilities.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLWEAKNESS_ARCANE_REF_TEXT	Takes more damage from Arcane abilities.
+GLOBAL_KEYWORD_SPELLWEAKNESS_FIRE	Fire Weakness
+GLOBAL_KEYWORD_SPELLWEAKNESS_FIRE_TEXT	Takes {0} more damage from Fire abilities.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLWEAKNESS_FIRE_REF_TEXT	Takes more damage from Fire abilities.
+GLOBAL_KEYWORD_SPELLWEAKNESS_FROST	Frost Weakness
+GLOBAL_KEYWORD_SPELLWEAKNESS_FROST_TEXT	Takes {0} more damage from Frost abilities.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLWEAKNESS_FROST_REF_TEXT	Takes more damage from Frost abilities.
+GLOBAL_KEYWORD_SPELLWEAKNESS_NATURE	Nature Weakness
+GLOBAL_KEYWORD_SPELLWEAKNESS_NATURE_TEXT	Takes {0} more damage from Nature abilities.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLWEAKNESS_NATURE_REF_TEXT	Takes more damage from Nature abilities.
+GLOBAL_KEYWORD_SPELLWEAKNESS_HOLY	Holy Weakness
+GLOBAL_KEYWORD_SPELLWEAKNESS_HOLY_TEXT	Takes {0} more damage from Holy abilities.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLWEAKNESS_HOLY_REF_TEXT	Takes more damage from Holy abilities.
+GLOBAL_KEYWORD_SPELLWEAKNESS_SHADOW	Shadow Weakness
+GLOBAL_KEYWORD_SPELLWEAKNESS_SHADOW_TEXT	Takes {0} more damage from Shadow abilities.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLWEAKNESS_SHADOW_REF_TEXT	Takes more damage from Shadow abilities.
+GLOBAL_KEYWORD_SPELLWEAKNESS_FEL	Fel Weakness
+GLOBAL_KEYWORD_SPELLWEAKNESS_FEL_TEXT	Takes {0} more damage from Fel abilities.	0=amount of spell damage
+GLOBAL_KEYWORD_SPELLWEAKNESS_FEL_REF_TEXT	Takes more damage from Fel abilities.
+GLOBAL_KEYWORD_ATTACK_MERC	Attack
+GLOBAL_KEYWORD_ATTACK_TEXT_MERC	Attack a character and take damage from the enemy.
+GLOBAL_KEYWORD_ATTACK_REF_TEXT_MERC	Attack a character and take damage from the enemy.
+GLOBAL_KEYWORD_SPELLCOMBO_MERC	Spell Combo
+GLOBAL_KEYWORD_SPELLCOMBO_TEXT_MERC	A bonus if another friendly Merc played a played a spell of the same school this turn. 
+GLOBAL_KEYWORD_SPELLCOMBO_REF_TEXT_MERC	A bonus if another friendly Merc played a played a spell of the same school this turn. 
+GLOBAL_KEYWORD_DEATHBLOW	Deathblow
+GLOBAL_KEYWORD_DEATHBLOW_TEXT	Does something when it kills a character.
+GLOBAL_KEYWORD_BLEED	Bleed
+GLOBAL_KEYWORD_BLEED_TEXT	Bleeding characters take damage at the end of each turn. Bleeding can be removed by Restoring Health.
+GLOBAL_KEYWORD_ROOT	Root
+GLOBAL_KEYWORD_ROOT_TEXT	Rooted characters can't Attack.
+GLOBAL_KEYWORD_CRITICAL_DAMAGE	Critical Damage
+GLOBAL_KEYWORD_CRITICAL_DAMAGE_TEXT	Takes 2X damage from sources.
