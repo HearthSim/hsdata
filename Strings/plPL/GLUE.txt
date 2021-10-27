@@ -621,6 +621,7 @@ GLUE_COLLECTION_MANAGER_MANA_TAB_FIRST_CLICK	Kliknij ponownie, aby wyłączyć f
 GLUE_COLLECTION_MANAGER_ON_ADD_FULL_DECK_ERROR_TEXT	Twoja talia jest pełna. Usuń jakąś kartę.	
 GLUE_COLLECTION_MANAGER_SEARCH_ARTIST	grafik	
 GLUE_COLLECTION_MANAGER_SEARCH_ATTACK	atak	
+GLUE_COLLECTION_MANAGER_SEARCH_CRAFTABLE	stworz	to match craft{able}
 GLUE_COLLECTION_MANAGER_SEARCH_DIAMOND	diamentowa	
 GLUE_COLLECTION_MANAGER_SEARCH_EVEN_ATTACK	parzyste	Search term to filter cards in CollectionManager to cards with even attack value. Example attack:even
 GLUE_COLLECTION_MANAGER_SEARCH_EVEN_CARDS	parzyste	Search term to filter cards in CollectionManager to cards that player owns an even number of. Example: owned:even
@@ -643,6 +644,7 @@ GLUE_COLLECTION_MANAGER_SEARCH_OWNED	posiadane
 GLUE_COLLECTION_MANAGER_SEARCH_RARITY	rzadkość	
 GLUE_COLLECTION_MANAGER_SEARCH_REFUND	zwrot kosztów	
 GLUE_COLLECTION_MANAGER_SEARCH_TYPE	rodzaj	
+GLUE_COLLECTION_MANAGER_SEARCH_UPGRADABLE	ulepsz	intentional missing e to match upgrad{e|able|eable}
 GLUE_COLLECTION_MANAGER_WHIZBANG_DEFAULT_DECK_NAME	Świstomig jest Wspaniały	
 GLUE_COLLECTION_MANAGER_WHIZBANG_POPUP_BODY	Stwórz nową talię w swojej kolekcji jako {0} i wykorzystaj szablon {1}!	0 = deck class, 1 = deck name
 GLUE_COLLECTION_MANAGER_WHIZBANG_POPUP_HEADER	Fajna talia?	
@@ -1295,6 +1297,7 @@ GLUE_LETTUCE_VILLAGE_DISMISS_TASK_ERROR_DESCRIPTION	Podczas porzucania zadania w
 GLUE_LETTUCE_VILLAGE_DISMISS_TASK_WARNING_DESCRIPTION	Usuniesz tego gościa z twojej wioski i zresetujesz postępy jego bieżącego zadania. Nadal może cię odwiedzić ponownie w przyszłości.	
 GLUE_LETTUCE_VILLAGE_DISMISS_TASK_WARNING_HEADER	Porzucić zadanie?	
 GLUE_LETTUCE_VILLAGE_DISMISS_TITLE	Porzuć	
+GLUE_LETTUCE_VILLAGE_MYSTERIOUSTRANGER_NEW_TASK	Nowe zadanie	
 GLUE_LETTUCE_VILLAGE_TASK_CLAIM	Odbierz	
 GLUE_LETTUCE_VILLAGE_TASK_COMPLETE	Ukończono!	
 GLUE_LETTUCE_VILLAGE_TASK_HEADER	Zadanie Najemnika	
@@ -1373,6 +1376,7 @@ GLUE_LOADINGSCREEN_ERROR_UPDATE	Nie udało się pobrać aktualizacji. Sprawdź s
 GLUE_LOADINGSCREEN_ERROR_UPDATE_CONFLICT	Nie udało się pobrać aktualizacji. Uruchom ponownie Hearthstone.	
 GLUE_LOADINGSCREEN_ERROR_VERSION	Nie udało się znaleźć informacji o wersji. Sprawdź swoje połączenie sieciowe.	
 GLUE_LOADINGSCREEN_MISMATCHED_VERSION	Niezgodność wersji danych	
+GLUE_LOADINGSCREEN_NO_NEW_BINARY_IN_STORE	Aby grać w Hearthstone, potrzebna jest aktualizacja, której nie ma jeszcze w sklepie. Sprawdź ponownie później.	
 GLUE_LOADINGSCREEN_OPEN_APP_STORE	Otwórz	
 GLUE_LOADINGSCREEN_PROGRESS_0	Sprawdzanie wersji	
 GLUE_LOADINGSCREEN_PROGRESS_1	Możemy pobierać dane w tle	
@@ -1466,7 +1470,7 @@ GLUE_MERCENARY_PACK_UNAVAILABLE	Tymczasowo niedostępne!
 GLUE_MERCENARY_RANDOM_COIN_DESCRIPTION	Otrzymasz {0} |4(monetę,monety,monet) najemników od losowego najemnika.	0: number of coins
 GLUE_MERCENARY_RANDOM_COIN_TITLE	Losowe monety Najemników	
 GLUE_MERCENARY_TUTORIAL_INCOMPLETE_FOR_PACK	Ukończ \nsamouczek Najemników!	
-GLUE_MERCENARY_WELCOME_MESSAGE_BODY	Kieruj poczynaniami legendarnych bohaterów i złoczyńców z Azeroth, wykonując zlecenia i walcząc z innymi graczami!	
+GLUE_MERCENARY_WELCOME_MESSAGE_BODY	Ten tryb gry zapewni ci wiele nowych niesamowitych przygód. Zbierz legendarnych bohaterów i złoczyńców z Azeroth, zbuduj z nich drużynę i wykonuj zlecenia, walcz z innymi graczami  i ulepszaj swoją wioskę. Powodzenia!	
 GLUE_MERCENARY_WELCOME_MESSAGE_TITLE	Witaj wśród Najemników!	
 GLUE_MERCS_PREPURCHASE_DIABLO_NAME	Diablo	
 GLUE_MERCS_PREPURCHASE_DIABLO_RACE	Demon	
@@ -1641,6 +1645,7 @@ GLUE_PUSH_NOTIFICATION_CONTEXT_HEADER	Powiadomienia
 GLUE_PUSH_NOTIFICATION_EXTENDED_CONTEXT_BODY	Wygląda na to, że masz wyłączone powiadomienia dla Hearthstone. Przejdź do ustawień urządzenia i pozwól na powiadomienia dla tej aplikacji!	
 GLUE_PVPDR	Starcia	
 GLUE_PVPDR_BEST_WINS_AS_CLASS	Najlepsza seria jako {0}	0 = Class name
+GLUE_PVPDR_BEST_WINS_AS_DIABLO	Najlepsza seria jako Diablo	
 GLUE_PVPDR_BUILD_DECK	Stwórz talię	
 GLUE_PVPDR_DECK_ERROR_DESC	Wystąpił błąd podczas wczytywania twojej talii. Spróbuj ponownie później.	
 GLUE_PVPDR_DECK_ERROR_TITLE	Błąd talii	
@@ -2309,6 +2314,11 @@ GLUE_TIP_ADVENTURE_BOH_9	Bohaterowie muszą uporać się z ogromnymi przeszkodam
 GLUE_TIP_ADVENTURE_BOM_1	Przeżyj przygodę u boku nowych bohaterów Hearthstone!	
 GLUE_TIP_ADVENTURE_BOM_10	Dla bohaterów Przymierza Pustkowia są wyjątkowo niebezpieczne. Dla tych z Hordy – po prostu groźne.	
 GLUE_TIP_ADVENTURE_BOM_11	Dla bohatera Hordy każda ścieżka prowadzi na Rozdroże.	
+GLUE_TIP_ADVENTURE_BOM_12	Tajemnicza Lady Prestor pomaga księciu Anduinowi władać Wichrogrodem pod nieobecność króla Variana.	
+GLUE_TIP_ADVENTURE_BOM_13	Swoje córki, Cariel i_Tamsin, Korneliusz Roame wychował w_Wichrogrodzie.	
+GLUE_TIP_ADVENTURE_BOM_14	Przestępcy i_wrogowie Przymierza są więzieni w_Kazamatach Wichrogrodu.	
+GLUE_TIP_ADVENTURE_BOM_15	Skubas Rachciach jest agentem WW:7, elitarnej sieci szpiegowskiej Wichrogrodu.	
+GLUE_TIP_ADVENTURE_BOM_16	Kozakus i_Lady Prestor werbowali najemników do pomocy w_poszukiwaniach odłamków naaru.	
 GLUE_TIP_ADVENTURE_BOM_2	Ta bohaterska przygoda zapewnia talie i moce specjalne!	
 GLUE_TIP_ADVENTURE_BOM_3	W niektórych bitwach wybierasz towarzysza, który będzie walczył u twego boku.	
 GLUE_TIP_ADVENTURE_BOM_4	Kolejne tomy Księgi najemników będą kontynuować tę opowieść.	
@@ -2728,5 +2738,6 @@ GLUE_WELCOME_BUNDLE_RANDOM_CARD_SCROLL_TITLE	Karta legendarna z_zestawu powitaln
 GLUE_WIN_STREAK	Seria zwycięstw: {0}	0=number of wins
 GLUE_WINS	Zwycięstwa	header for number of wins
 GLUE_WOODEN_BANNER_TITLE_FRIEND_WEEK	Przyjacielski pojedynek!	
+GLUE_WRONG_VERSION_MESSAGE	Sprawdzanie najnowszych aktualizacji gry. Spróbuj ponownie później.	
 VO_BOSS_CHO_Male_Ogre_INTRO_QL_GOONS2_01	TRZA ICH POGONIĆ Z NASZEGO TERENU!	
 VO_FIRE_FESTIVAL_RAGNAROS_FESTIVAL	OTO NASTAŁO ŚWIĘTO OGNIA!	

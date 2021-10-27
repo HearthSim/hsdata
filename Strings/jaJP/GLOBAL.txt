@@ -143,6 +143,9 @@ GLOBAL_BUTTON_OR	または
 GLOBAL_BUTTON_OWNED	所持	
 GLOBAL_BUTTON_YES	はい	
 GLOBAL_CANCEL	キャンセル	
+GLOBAL_CARD_SET_AV		
+GLOBAL_CARD_SET_AV_SEARCHABLE_SHORTHAND_NAMES	烈戦 アルタラック 谷 av	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_AV_SHORT	アルタラック	
 GLOBAL_CARD_SET_BAR	荒ぶる大地の強者たち	
 GLOBAL_CARD_SET_BAR_SEARCHABLE_SHORTHAND_NAMES	大荒野 荒ぶる 荒ぶる大地 強者 強者たち barrens bar fitb fb	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_BAR_SHORT	大荒野	
@@ -546,6 +549,8 @@ GLOBAL_IN_PROGRESS_REWARD_CHEST_INSTRUCTIONS	あと{0}試合勝利すると、�
 GLOBAL_JOIN	参加	
 GLOBAL_KEYWORD_ADAPT	適応	
 GLOBAL_KEYWORD_ADAPT_TEXT	3つのボーナスから1つ選んでくれ。	
+GLOBAL_KEYWORD_ALLIANCE	アライアンス	
+GLOBAL_KEYWORD_ALLIANCE_TEXT	アライアンスの種族にはドラナイ、ドワーフ、ノーム、ヒューマン、ナイトエルフ、ウォーゲンが含まれる	
 GLOBAL_KEYWORD_ATTACK_MERC	攻撃	
 GLOBAL_KEYWORD_ATTACK_REF_TEXT_MERC	キャラクター1体を攻撃し、その敵からダメージを受ける。	
 GLOBAL_KEYWORD_ATTACK_TEXT_MERC	キャラクター1体を攻撃し、その敵からダメージを受ける。	
@@ -619,7 +624,7 @@ GLOBAL_KEYWORD_FLOOPY	[x]プルンプルン・\nフループ
 GLOBAL_KEYWORD_FLOOPY_TEXT	ミニオンを手札から使用した時、変身する。	
 GLOBAL_KEYWORD_FREEZE	凍結	
 GLOBAL_KEYWORD_FREEZE_TEXT	凍結したキャラクターは次のターン攻撃できない。	
-GLOBAL_KEYWORD_FREEZE_TEXT_MERC	凍結したキャラクターは次の能力を発動できない。	
+GLOBAL_KEYWORD_FREEZE_TEXT_MERC	凍結したキャラクターは、このターン中、次の能力を発動できない。	
 GLOBAL_KEYWORD_FRENZY	逆上	
 GLOBAL_KEYWORD_FRENZY_TEXT	このミニオンがダメージを受けて生き残った後に1回だけ発動する効果。	
 GLOBAL_KEYWORD_FROZEN	凍結中	
@@ -629,6 +634,8 @@ GLOBAL_KEYWORD_GALAKROND	ガラクロンド
 GLOBAL_KEYWORD_GALAKROND_COLLECTION_TEXT	このカードはプリースト、ローグ、シャーマン、ウォーロック、ウォリアーのデッキに入れられるぞ。	
 GLOBAL_KEYWORD_GRIMY_GOONS	グライミー・グーンズ	
 GLOBAL_KEYWORD_GRIMY_GOONS_COLLECTION_TEXT	このカードはハンター、パラディン、ウォリアーのデッキに入れられるぞ。	
+GLOBAL_KEYWORD_HORDE	ホード	
+GLOBAL_KEYWORD_HORDE_TEXT	ホードの種族にはブラッドエルフ、ゴブリン、ハーフオーク、オーガ、オーク、トーレン、トロル、アンデッドが含まれる	
 GLOBAL_KEYWORD_IMMUNE	無敵	
 GLOBAL_KEYWORD_IMMUNE_REF_TEXT	無敵のキャラクターはダメージを受けない。	
 GLOBAL_KEYWORD_IMMUNE_TEXT	ダメージを受けない。	
@@ -887,6 +894,7 @@ GLOBAL_MERCENARIES	マーセナリーズ
 GLOBAL_MERCENARIES_COOP	マーセナリーズ 協力プレイ	
 GLOBAL_MINI_SET_BAR	慟哭の洞窟	
 GLOBAL_MINI_SET_DMF	ダークムーン・レース	
+GLOBAL_MINI_SET_SW	デッドマイン	
 GLOBAL_MOBILE_ERROR_ANDROID_PHONE_DETECTED	残念だが、ハースストーンは現在6インチ以上のAndroidタブレットでのみ稼動するんだ。	
 GLOBAL_MOBILE_ERROR_BREAKING_NEWS	臨時ニュース:\n\n{0}	
 GLOBAL_MOBILE_ERROR_GAMESERVER_CONNECT	モバイル接続中に試合に参加できなかったようだな。詳しくはこちらのサポート記事を確認してくれ。	
@@ -953,6 +961,7 @@ GLOBAL_PLAYER_PLAYER	プレイヤー	this is the word for generic "Player" - thi
 GLOBAL_PRACTICE_MAX_LEVEL_REACHED	練習レベル上限	
 GLOBAL_PROGRAMNAME_BLACKOPS4	Black Ops 4	
 GLOBAL_PROGRAMNAME_BLACKOPSCOLDWAR	ブラックオプス コールドウォー	
+GLOBAL_PROGRAMNAME_CODVANGUARD	コール オブ デューティ ヴァンガード	
 GLOBAL_PROGRAMNAME_CRASHBANDICOOT4	クラッシュ・バンディクー4	
 GLOBAL_PROGRAMNAME_DESTINY2	Destiny 2	
 GLOBAL_PROGRAMNAME_DIABLO2R	ディアブロ II リザレクテッド	
@@ -991,9 +1000,9 @@ GLOBAL_PROGRESSION_PROFILE_PVPDR_HEROIC_STAT_TITLE	ヒロイック・デュエ�
 GLOBAL_PROGRESSION_PROFILE_PVPDR_HEROIC_STAT_TOOLTIP	カジュアル/ヒロイック・デュエルの最高レーティング。	
 GLOBAL_PROGRESSION_PROFILE_PVPDR_HEROIC_STAT_TOOLTIP_TITLE	デュエル（ヒロイックモード）	
 GLOBAL_PROGRESSION_PROFILE_RANKED_STAT_TOOLTIP	ランク戦プレイの累積勝利数。	
-GLOBAL_PROGRESSION_PROFILE_TOTAL_WINS	累積{0}勝	
+GLOBAL_PROGRESSION_PROFILE_TOTAL_WINS	累積{0}|4(勝,勝)	
 GLOBAL_PROGRESSION_PROGRESS_MESSAGE	{0} / {1}	
-GLOBAL_PROGRESSION_QUEST_TIME_UNTIL_NEXT	新クエスト出現まで{0}	
+GLOBAL_PROGRESSION_QUEST_TIME_UNTIL_NEXT	新クエスト出現まで\n{0}	
 GLOBAL_PROGRESSION_RANKED_REWARDS_TOOLTIP	毎シーズン、スタンダードかワイルド、またはクラシックでの最高到達ランクに応じた報酬をもらえるぞ。	
 GLOBAL_PROGRESSION_RANKED_REWARDS_TOOLTIP_TITLE	ランク戦報酬	
 GLOBAL_PROGRESSION_REWARD_SUMMARY	{0}\n{1}	
