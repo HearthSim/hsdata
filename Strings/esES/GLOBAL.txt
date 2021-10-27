@@ -143,6 +143,9 @@ GLOBAL_BUTTON_OR	O
 GLOBAL_BUTTON_OWNED	Adquirido	
 GLOBAL_BUTTON_YES	Sí	
 GLOBAL_CANCEL	Cancelar	
+GLOBAL_CARD_SET_AV		
+GLOBAL_CARD_SET_AV_SEARCHABLE_SHORTHAND_NAMES	va	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_AV_SHORT	Valle de Alterac	
 GLOBAL_CARD_SET_BAR	Forjados en los Baldíos	
 GLOBAL_CARD_SET_BAR_SEARCHABLE_SHORTHAND_NAMES	bal felb fb	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_BAR_SHORT	Baldíos	
@@ -546,6 +549,8 @@ GLOBAL_IN_PROGRESS_REWARD_CHEST_INSTRUCTIONS	¡Gana {0} |4(partida,partidas) má
 GLOBAL_JOIN	Unirse	
 GLOBAL_KEYWORD_ADAPT	Adaptación	
 GLOBAL_KEYWORD_ADAPT_TEXT	Escoge un bonus de entre 3 posibles.	
+GLOBAL_KEYWORD_ALLIANCE	Alianza	
+GLOBAL_KEYWORD_ALLIANCE_TEXT	Las razas de la Alianza incluyen: draenei, enanos, gnomos, humanos, elfos de la noche y huargen.	
 GLOBAL_KEYWORD_ATTACK_MERC	Ataque	
 GLOBAL_KEYWORD_ATTACK_REF_TEXT_MERC	Ataca a un personaje y recibe daño del enemigo.	
 GLOBAL_KEYWORD_ATTACK_TEXT_MERC	Ataca a un personaje y recibe daño del enemigo.	
@@ -619,7 +624,7 @@ GLOBAL_KEYWORD_FLOOPY	Flema Salívez
 GLOBAL_KEYWORD_FLOOPY_TEXT	Se transforma cuando juegas un esbirro.	
 GLOBAL_KEYWORD_FREEZE	Congelación	
 GLOBAL_KEYWORD_FREEZE_TEXT	Los personajes congelados no pueden atacar durante un turno.	
-GLOBAL_KEYWORD_FREEZE_TEXT_MERC	Los personajes congelados pierden su siguiente facultad.	
+GLOBAL_KEYWORD_FREEZE_TEXT_MERC	Los personajes congelados pierden su siguiente facultad este turno.	
 GLOBAL_KEYWORD_FRENZY	Frenesí	
 GLOBAL_KEYWORD_FRENZY_TEXT	Un efecto que ocurre una sola vez después de sobrevivir al daño.	
 GLOBAL_KEYWORD_FROZEN	Congelado	
@@ -629,6 +634,8 @@ GLOBAL_KEYWORD_GALAKROND	Galakrond
 GLOBAL_KEYWORD_GALAKROND_COLLECTION_TEXT	Puedes colocar esta carta en un mazo de sacerdote, pícaro, chamán, brujo o guerrero.	
 GLOBAL_KEYWORD_GRIMY_GOONS	Matones Mugrientos	
 GLOBAL_KEYWORD_GRIMY_GOONS_COLLECTION_TEXT	Puedes colocar esta carta en un mazo de cazador, paladín o guerrero.	
+GLOBAL_KEYWORD_HORDE	Horda	
+GLOBAL_KEYWORD_HORDE_TEXT	Las razas de la Horda incluyen: elfos de sangre, goblins, medio orcos, ogros, orcos, tauren, trols y no-muertos.	
 GLOBAL_KEYWORD_IMMUNE	Inmune	
 GLOBAL_KEYWORD_IMMUNE_REF_TEXT	No se puede dañar a los personajes inmunes.	
 GLOBAL_KEYWORD_IMMUNE_TEXT	No se puede dañar.	
@@ -887,6 +894,7 @@ GLOBAL_MERCENARIES	Mercenarios
 GLOBAL_MERCENARIES_COOP	Mercenarios cooperativo	
 GLOBAL_MINI_SET_BAR	Cuevas de los Lamentos	
 GLOBAL_MINI_SET_DMF	Carreras de la Luna Negra	
+GLOBAL_MINI_SET_SW	Minas de la Muerte	
 GLOBAL_MOBILE_ERROR_ANDROID_PHONE_DETECTED	Lo sentimos, pero Hearthstone solo se puede ejecutar en tabletas Android de 6 pulgadas o más.	
 GLOBAL_MOBILE_ERROR_BREAKING_NEWS	Última hora:\n\n{0}	
 GLOBAL_MOBILE_ERROR_GAMESERVER_CONNECT	Hemos visto que no has podido unirte a una partida con una conexión móvil. Consulta este artículo de ayuda para obtener más información.	
@@ -953,6 +961,7 @@ GLOBAL_PLAYER_PLAYER	Jugador	this is the word for generic "Player" - this will b
 GLOBAL_PRACTICE_MAX_LEVEL_REACHED	Nivel máximo en modo Práctica	
 GLOBAL_PROGRAMNAME_BLACKOPS4	Black Ops 4	
 GLOBAL_PROGRAMNAME_BLACKOPSCOLDWAR	Black Ops Cold War	
+GLOBAL_PROGRAMNAME_CODVANGUARD	Call of Duty: Vanguard	
 GLOBAL_PROGRAMNAME_CRASHBANDICOOT4	Crash Bandicoot 4	
 GLOBAL_PROGRAMNAME_DESTINY2	Destiny 2	
 GLOBAL_PROGRAMNAME_DIABLO2R	Diablo II: Resurrected	
@@ -982,7 +991,7 @@ GLOBAL_PROGRESSION_PROFILE_BATTLEGROUNDS_TOP4	{0} |4(vez,veces) entre los cuatro
 GLOBAL_PROGRESSION_PROFILE_GAME_MODES	Modos de juego	
 GLOBAL_PROGRESSION_PROFILE_MERCENARIES_STAT_TOOLTIP	Muestra el número de victorias en JcJ y las recompensas completadas en el modo Mercenarios.	
 GLOBAL_PROGRESSION_PROFILE_MERCENARIES_STAT_TOOLTIP_TITLE	Mercenarios	
-GLOBAL_PROGRESSION_PROFILE_MERCENARIES_TOTAL_BOUNTIES	{0} contratos en total	
+GLOBAL_PROGRESSION_PROFILE_MERCENARIES_TOTAL_BOUNTIES	{0} |4(contrato,contratos) en total	
 GLOBAL_PROGRESSION_PROFILE_PLAY_MODE	Modo Jugar	
 GLOBAL_PROGRESSION_PROFILE_PVPDR_CASUAL_STAT_TITLE	Duelos aficionados	
 GLOBAL_PROGRESSION_PROFILE_PVPDR_CASUAL_STAT_TOOLTIP	Muestra tu mejor clasificación en los modos aficionado y heroico de Duelos.	
@@ -991,9 +1000,9 @@ GLOBAL_PROGRESSION_PROFILE_PVPDR_HEROIC_STAT_TITLE	Duelos heroicos
 GLOBAL_PROGRESSION_PROFILE_PVPDR_HEROIC_STAT_TOOLTIP	Muestra tu mejor clasificación en los modos aficionado y heroico de Duelos.	
 GLOBAL_PROGRESSION_PROFILE_PVPDR_HEROIC_STAT_TOOLTIP_TITLE	Duelos (modo heroico)	
 GLOBAL_PROGRESSION_PROFILE_RANKED_STAT_TOOLTIP	Número total de victorias en partidas con rango.	
-GLOBAL_PROGRESSION_PROFILE_TOTAL_WINS	{0} |4(victoria,victorias en total)	
+GLOBAL_PROGRESSION_PROFILE_TOTAL_WINS	{0} |4(victoria,victorias totales)	
 GLOBAL_PROGRESSION_PROGRESS_MESSAGE	{0} / {1}	
-GLOBAL_PROGRESSION_QUEST_TIME_UNTIL_NEXT	Nueva misión en {0}	
+GLOBAL_PROGRESSION_QUEST_TIME_UNTIL_NEXT	Nueva misión en\n{0}	
 GLOBAL_PROGRESSION_RANKED_REWARDS_TOOLTIP	Obtén recompensas cada temporada en función del rango más alto que alcances en partidas estándar, salvajes o clásicas.	
 GLOBAL_PROGRESSION_RANKED_REWARDS_TOOLTIP_TITLE	Recompensas con rango	
 GLOBAL_PROGRESSION_REWARD_SUMMARY	{0}\n{1}	
