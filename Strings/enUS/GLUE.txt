@@ -124,6 +124,8 @@ GLUE_COLLECTION_FSG_BRAWL_DECKNAME	Fireside Deck
 GLUE_COLLECTION_DUEL_DECKNAME	Duels Deck	
 GLUE_COLLECTION_LETTUCE_PVE_TEAMNAME	PvE Party
 GLUE_COLLECTION_LETTUCE_LOCK_TEXT	In your Party
+GLUE_COLLECTION_LETTUCE_UNCRAFTABLE_PROGRESSION	Acquired through Mercenaries Campaign.
+GLUE_COLLECTION_LETTUCE_UNCRAFTABLE_REWARD_TRACK	Acquired through Rewards Track.
 GLUE_COLLECTION_CARD_NEW	NEW!	
 GLUE_COLLECTION_CRAFTING_MODE	Crafting Mode	
 GLUE_COLLECTION_CRAFTING_MODE_SHORT	Crafting	
@@ -685,7 +687,7 @@ GLUE_TIP_DEFAULT_36	Unlocking the Tavern Pass allows you to get even more Reward
 GLUE_TIP_DEFAULT_37	If you win 1000 games in Ranked, Arena, or Duels mode with a class, you'll get a Prestige Hero!
 GLUE_TIP_PRACTICE_0	You can unlock heroes by defeating them in Practice Mode.	
 GLUE_TIP_PRACTICE_1	Practice Mode is just preparation for the traditional Hearthstone game mode!	
-GLUE_TIP_PRACTICE_2	Play mode will match you against someone of similar skill!	
+GLUE_TIP_PRACTICE_2	The Traditional Hearthstone game mode will match you against someone of similar skill!	
 GLUE_TIP_PRACTICE_3	You can build a custom deck with your cards by visiting your Collection.	
 GLUE_TIP_PRACTICE_4	Each class has 16 different Core cards you can unlock as you level up.	
 GLUE_TIP_PRACTICE_5	Complete quests in "Play" mode to earn Reward XP!	
@@ -1085,9 +1087,9 @@ GLUE_LOCKED_DECK_DESC	Complete the traditional Hearthstone tutorial to unlock de
 GLUE_QUEST_LOG_PHONE_BUTTON	Quests	
 GLUE_JOURNAL_PHONE_BUTTON	Journal	
 GLUE_QUEST_LOG_HEADLINE	Quest Log	
-GLUE_QUEST_LOG_PLAY_MODE	Play Mode
+GLUE_QUEST_LOG_PLAY_MODE	Traditional Hearthstone
 GLUE_QUEST_LOG_ARENA	Arena	
-GLUE_QUEST_LOG_WINS_HEADLINE	Play Mode Wins	
+GLUE_QUEST_LOG_WINS_HEADLINE	Traditional Hearthstone Mode Wins	
 GLUE_QUEST_LOG_BEST_FORGE_RECORD_HEADLINE	Best Arena Key	
 GLUE_QUEST_LOG_TOTAL_WINS_HEADLINE	Total Wins	
 GLUE_QUEST_LOG_TOTAL_LEVELS	<color=#c4b47c>Total Level:</color> {0}	
@@ -1547,6 +1549,7 @@ GLUE_HEROIC_BRAWL_DECK	Heroic Brawl
 GLUE_HEROIC_BRAWL_CONTINUE	I understand!	Heroic brawl intro dialogue continue button text
 GLUE_RETURNING_PLAYER_WELCOME_TITLE	Welcome Back!	Title for Returning Player welcome banner.
 GLUE_RETURNING_PLAYER_WELCOME_DESC	We've got some quests and rewards to get you back into the game!	Text for Returning Player welcome banner.
+GLUE_REWARD_MORE_ITEMS	+{0} More!
 GLUE_HEROIC_BRAWL_SESSION_LIMIT_ALERT_TITLE	Heroic Brawl
 GLUE_HEROIC_BRAWL_SESSION_LIMIT_ALERT_DESCRIPTION_NORMAL	You can participate in {0} more Heroic |4(Brawl,Brawls).
 GLUE_HEROIC_BRAWL_SESSION_LIMIT_ALERT_DESCRIPTION_FINAL	This is your last heroic brawl! Good luck to you, Brave Hero!
@@ -2113,6 +2116,8 @@ GLUE_BACON_PARTY_SPECTATE_ERROR_HEADER	Spectate
 GLUE_BACON_PARTY_SPECTATE_ERROR_BODY	Unable to spectate this player.
 GLUE_PARTY_MEMBER_NO_NAME	...
 GLUE_SIDEQUEST_PROGRESS_BANNER	Progress: {0}/{1}	0=Current Progress, 1=Completion Requirement
+GLUE_OBJECTIVES_BANNER	{0} Turns Left 	0=Turns until the objective destroys itself
+GLUE_OBJECTIVES_BANNER_FINAL_TURN	{0} Turn Left
 GLUE_SHOP_SECTION_HEADER_TIERB	Limited\nTime!
 GLUE_SHOP_SECTION_HEADER_TIERC	Card\nPacks
 GLUE_SHOP_SECTION_HEADER_TIERD	Adventures
@@ -2314,7 +2319,7 @@ GLUE_PVPDR_LABEL_SEASON_ENDING_HOURS	Season ends in {0} |4(hour,hours)
 GLUE_PVPDR_LABEL_SEASON_ENDING_DAYS	Season ends in {0} |4(day,days)
 GLUE_PVPDR_LABEL_SEASON_ENDING_WEEKS	Season ends in {0} |4(week,weeks)
 GLUE_PVPDR_LABEL_SEASON_ENDING_OVER_1_MONTH	Season ends in > 1 month
-GLUE_PVPDR_EXPANSION_SUBTITLE	Wizard Duels
+GLUE_PVPDR_EXPANSION_SUBTITLE	Alterac Valley
 GLUE_PVPDR_BUILD_DECK	Build Deck
 GLUE_PVPDR_LOCK_IN	Confirm Deck
 GLUE_PVPDR_LOCK_IN_DESC	Have you finished building your Duels Deck? You won't be able to make any changes after you confirm.
@@ -2482,8 +2487,10 @@ GLUE_BACON_COLLECTION	Collection
 GLUE_BACON_COLLECTION_ERROR_HEADER	Battlegrounds Collection
 GLUE_BACON_COLLECTION_ERROR_BODY	Battlegrounds Collection is currently unavailable. Please check back later.
 GLUE_BACON_COLLECTION_MANAGER_GUIDE_SKINS_TITLE	Bartenders
+GLUE_BACON_COLLECTION_MANAGER_BOARD_SKINS_TITLE	Boards
 GLUE_BACON_COLLECTION_FAVORITE	Favorite
 GLUE_BACON_COLLECTION_FAVORITE_GUIDE	Favorite Bartender
+GLUE_BACON_COLLECTION_FAVORITE_BOARD	Favorite Board
 GLUE_BACON_COLLECTION_RESTING	Resting
 GLUE_BACON_COLLECTION_PREVIEWING	Perk Hero
 GLUE_BACON_COLLECTION_FILTER_DEFAULT	Show All
@@ -2519,7 +2526,7 @@ GLUE_LETTUCE_TASK_BOARD_BUTTON	TASK_BOARD
 GLUE_LETTUCE_NORMAL_SUB_BUTTON	Normal
 GLUE_LETTUCE_HEROIC_SUB_BUTTON	Heroic
 GLUE_LETTUCE_COMPLETE_RUN	[PH] Unlock by completing your current Run.
-GLUE_LETTUCE_MAP_FINAL_BOSS_REWARDS_HEADER	Earn coins for Mercenaries\nin your party, from your Collection,\nor get some of the following:
+GLUE_LETTUCE_MAP_FINAL_BOSS_REWARDS_HEADER	Earn some coins for the following mercenaries plus a random one from your party and collection
 GLUE_VIEW_TEAM	View Party
 GLUE_CLOSE_TEAM	View Map
 GLUE_EDIT_TEAM	Edit Party
@@ -2702,6 +2709,7 @@ GLUE_LETTUCE_SEASON_REWARD_REACH_RATING_CHEST_LABEL	Reach\n1000
 GLUE_LETTUCE_VANITY_TITLE	Portraits
 GLUE_LETTUCE_VANITY_LOCKEDPLATE_MESSAGE	Acquired from packs
 GLUE_LETTUCE_VANITY_LOCKEDPLATE_MESSAGE_TASK	Complete Task {0}
+GLUE_LETTUCE_VANITY_LOCKEDPLATE_MESSAGE_REWARD_TRACK	Acquired through Rewards Track
 GLUE_LETTUCE_SEASON_ROLL_DESC	{0} {1} Mercenary Season has ended, and the new Season has begun!\n\nYour Season Rating best was {2}.	0: month name, 1: year digits, 2: numeric rating
 GLUE_LETTUCE_MAP_CONSOLATION_REWARD_TITLE	Battle Spoils
 GLUE_LETTUCE_MAP_CONSOLATION_REWARD_SUBTITLE	A consolation from your last battle
@@ -2745,7 +2753,7 @@ GLUE_MERCENARY_RANDOM_COIN_TITLE	Random Mercenary Coins
 GLUE_MERCENARY_RANDOM_COIN_DESCRIPTION	Gain {0} Mercenary |4(Coin,Coins) from a random Mercenary.	0: number of coins
 GLUE_MERCENARY_COIN_TITLE	{0} Coins	0: name of mercenary
 GLUE_MERCENARY_COIN_DESCRIPTION	Gain {0} {1} |4(Coin,Coins).	0: number of coins, 1: mercenary name
-GLUE_LETTUCE_PVP_REWARD_POP_UP_TITLE	Earn some coins for the Mercenaries in your party plus a random one of the following:
+GLUE_LETTUCE_PVP_REWARD_POP_UP_TITLE	Earn some coins for the following mercenaries plus a random one from your party and collection
 GLUE_LETTUCE_MERCDETAILS_EQUIP_DIRECTIVE	Equip
 GLUE_MERCENARY_LABEL_PORTRAIT	Portrait
 GLUE_MERCENARY_CARD_XP	XP
@@ -2763,3 +2771,8 @@ GLUE_PROGRESSION_AV_POPUP_CHOICE_ALLIANCE	For the Alliance!
 GLUE_PROGRESSION_AV_POPUP_CHOICE_CONFIRMATION_TITLE	Are you sure?
 GLUE_PROGRESSION_AV_POPUP_CHOICE_CONFIRMATION_ALLIANCE	You will represent the Alliance for your entire time in Alterac Valley.
 GLUE_PROGRESSION_AV_POPUP_CHOICE_CONFIRMATION_HORDE	You will fight for the Horde for your entire time in Alterac Valley.
+GLUE_PROGRESSION_AV_HONOR_GAINED	+{0} Honor
+GLUE_PROGRESSION_AV_WIN_OPPONENT_RANK	HK: {0}
+GLUE_PROGRESSION_AV_QUEST_DESCRIPTION	Honor
+GLUE_PROGRESSION_AV_FIRST_RANK_HORDE	Scout
+GLUE_PROGRESSION_AV_FIRST_RANK_ALLIANCE	Private
