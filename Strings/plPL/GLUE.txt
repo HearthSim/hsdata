@@ -249,9 +249,11 @@ GLUE_BACON_COLLECTION	Kolekcja
 GLUE_BACON_COLLECTION_ERROR_BODY	Kolekcja Ustawki jest obecnie niedostępna. Spróbuj ponownie później.	
 GLUE_BACON_COLLECTION_ERROR_HEADER	Kolekcja Ustawki	
 GLUE_BACON_COLLECTION_FAVORITE	Ulubione	
+GLUE_BACON_COLLECTION_FAVORITE_BOARD	Ulubiona plansza	
 GLUE_BACON_COLLECTION_FAVORITE_GUIDE	Ulubiony barman	
 GLUE_BACON_COLLECTION_FILTER_ALL	Wszystko	
 GLUE_BACON_COLLECTION_FILTER_DEFAULT	Więcej	
+GLUE_BACON_COLLECTION_MANAGER_BOARD_SKINS_TITLE	Plansze	
 GLUE_BACON_COLLECTION_MANAGER_GUIDE_SKINS_TITLE	Barmani	
 GLUE_BACON_COLLECTION_PREVIEWING	Bohater z bonusem	
 GLUE_BACON_COLLECTION_RESTING	Odpoczywa	
@@ -598,6 +600,8 @@ GLUE_COLLECTION_HOME_PAGE	Przegląd
 GLUE_COLLECTION_INCLUDE_PREMIUMS	Dołącz złote	
 GLUE_COLLECTION_LETTUCE_LOCK_TEXT	W twojej drużynie	
 GLUE_COLLECTION_LETTUCE_PVE_TEAMNAME	Drużyna w trybie PvE	
+GLUE_COLLECTION_LETTUCE_UNCRAFTABLE_PROGRESSION	Do zdobycia w kampanii Najemników.	
+GLUE_COLLECTION_LETTUCE_UNCRAFTABLE_REWARD_TRACK	Do zdobycia na ścieżce nagród.	
 GLUE_COLLECTION_LOCK_CARD_BANNED	Zablokowano	
 GLUE_COLLECTION_LOCK_CARD_INVALID_CLASS	Ta karta należy do innej klasy.	
 GLUE_COLLECTION_LOCK_CARD_NOT_IN_CARDSET	Niewłaściwy zestaw	
@@ -1177,7 +1181,7 @@ GLUE_LETTUCE_MAP_BOSS_FIGHT_TOOLTIP_HEADER	Wróg: {0}	0=The role, like Caster, F
 GLUE_LETTUCE_MAP_CONSOLATION_REWARD_SUBTITLE	Wynagrodzenie za twoją ostatnią bitwę	
 GLUE_LETTUCE_MAP_CONSOLATION_REWARD_TITLE	Łupy bitewne	
 GLUE_LETTUCE_MAP_ELITE_BOSS_FIGHT_TOOLTIP_HEADER	Elitarny wróg: {0}	0=The role, like Caster, Fighter or Protector
-GLUE_LETTUCE_MAP_FINAL_BOSS_REWARDS_HEADER	Zdobywaj monety dla Najemników\nw twojej drużynie, z twojej kolekcji,\nlub zdobądź jedno z poniższych:	
+GLUE_LETTUCE_MAP_FINAL_BOSS_REWARDS_HEADER	Zdobywaj monety dla następujących Najemników oraz losowego Najemnika z twojej drużyny i kolekcji.	
 GLUE_LETTUCE_MAP_LABEL_DEFEAT	Porażka	
 GLUE_LETTUCE_MAP_LABEL_VICTORY	Zwycięstwo	
 GLUE_LETTUCE_MAP_MYSTERY_TOOLTIP_BODY	To może być wszystko!	
@@ -1244,7 +1248,7 @@ GLUE_LETTUCE_PVE_BUTTON	PvE
 GLUE_LETTUCE_PVP_BUTTON	Walka z graczami	
 GLUE_LETTUCE_PVP_CHEST_PROGRESS_BAR_TEXT	Zwycięstwa: {0}/{1}	
 GLUE_LETTUCE_PVP_HEADER	Ring Gladiatorów	
-GLUE_LETTUCE_PVP_REWARD_POP_UP_TITLE	Zdobywaj monety dla Najemników z twojej drużyny. Możesz otrzymać też monety dla jednej z następujących postaci:	
+GLUE_LETTUCE_PVP_REWARD_POP_UP_TITLE	Zdobywaj monety dla następujących Najemników oraz losowego Najemnika z twojej drużyny i kolekcji.	
 GLUE_LETTUCE_REWARD_KNOCKOUT_COINS_DESC	{0} jest już w twojej kolekcji. Otrzymujesz monety: {1}!	0: mercenary name, 1: mercenary name
 GLUE_LETTUCE_REWARD_KNOCKOUT_COINS_DESC_PREMIUM	{0} {1} jest już w twojej kolekcji. Otrzymujesz monety: {2}!	0: vanity type (eg. golden), 1: mercenary name, 2: mercenary name
 GLUE_LETTUCE_REWARD_KNOCKOUT_MERCENARY_DESC	{0} jest już w twojej kolekcji. Otrzymujesz coś w zamian: {1}!	0: mercenary name, 1: mercenary name
@@ -1290,6 +1294,7 @@ GLUE_LETTUCE_VALIDATE_NO_TEAM_SELECTED	Wybierz drużynę.
 GLUE_LETTUCE_VALIDATE_TEAM_HEADER	Nieprawidłowa drużyna	
 GLUE_LETTUCE_VALIDATE_TEAM_INVALID	Wybrana drużyna jest nieprawidłowa.	
 GLUE_LETTUCE_VANITY_LOCKEDPLATE_MESSAGE	Do otrzymania w pakietach	
+GLUE_LETTUCE_VANITY_LOCKEDPLATE_MESSAGE_REWARD_TRACK	Do zdobycia na ścieżce nagród.	
 GLUE_LETTUCE_VANITY_LOCKEDPLATE_MESSAGE_TASK	Wykonaj zadanie {0}	
 GLUE_LETTUCE_VANITY_TITLE	Portrety	
 GLUE_LETTUCE_VILLAGE_CLAIM_TASK_ERROR_DESCRIPTION	Podczas odbierania zadania wystąpił błąd. Spróbuj ponownie później.	
@@ -1461,7 +1466,7 @@ GLUE_MATCHMAKER_PERFECT_OPPONENT	Godny przeciwnik
 GLUE_MATCHMAKER_PERFECT_OPPONENTS	Godni przeciwnicy	
 GLUE_MERCENARIES	Najemnicy	
 GLUE_MERCENARY_CARD_XP	PD	
-GLUE_MERCENARY_COIN_DESCRIPTION	Zyskaj {0} {1}  |4(monetę,monety,monet).	0: number of coins, 1: mercenary name
+GLUE_MERCENARY_COIN_DESCRIPTION	Otrzymasz {0} |4(monetę,monety,monet) ({1}).	0: number of coins, 1: mercenary name
 GLUE_MERCENARY_COIN_TITLE	Monety ({0})	0: name of mercenary
 GLUE_MERCENARY_LABEL_PORTRAIT	Portret	
 GLUE_MERCENARY_PACK_DESCRIPTION	Otrzymasz losowego najemnika, portrety najemników lub monety najemników.	
@@ -1532,6 +1537,8 @@ GLUE_NEW_PLAYER_SET_ROTATION_POPUP_BODY_NEW	Nadeszły nowe karty! Niektóre z tw
 GLUE_NEW_PLAYER_SET_ROTATION_POPUP_HEADER	Witaj ponownie!	
 GLUE_NINJA	Ninja	
 GLUE_NUM_CHAPTERS_COMPLETED	Ukończono: {0}/{1}	
+GLUE_OBJECTIVES_BANNER	Pozostałe tury: {0}	0=Turns until the objective destroys itself
+GLUE_OBJECTIVES_BANNER_FINAL_TURN	Pozostałe tury: {0}	
 GLUE_OFFLINE_DECK_DELETED_REMOTELY_ERROR_BODY	Edytowana przez ciebie talia już nie istnieje.	
 GLUE_OFFLINE_DECK_ERROR_BODY	Podczas tworzenia twojej talii, gdy gra była poza siecią, wystąpił błąd. Połącz się ponownie i spróbuj jeszcze raz.	
 GLUE_OFFLINE_FEATURE_DISABLED_BODY	Ta funkcja jest niedostępna, kiedy jesteś poza siecią.	
@@ -1595,6 +1602,9 @@ GLUE_PROGRESSION_ACHIEVEMENTS_STEPCOMPLETED	Etap ukończony!
 GLUE_PROGRESSION_ACHIEVEMENTS_TITLE	Osiągnięcia	
 GLUE_PROGRESSION_ACHIEVEMENTS_TOOLTIP_DESCRIPTION	Zdobywaj osiągnięcia, aby otrzymać więcej punktów.	
 GLUE_PROGRESSION_ACHIEVEMENTS_TOOLTIP_TITLE	Punkty osiągnięć	
+GLUE_PROGRESSION_AV_FIRST_RANK_ALLIANCE	Szeregowy	
+GLUE_PROGRESSION_AV_FIRST_RANK_HORDE	Zwiadowca	
+GLUE_PROGRESSION_AV_HONOR_GAINED	+{0} pkt. Honoru	
 GLUE_PROGRESSION_AV_POPUP_CHOICE_ALLIANCE	Za Przymierze!	
 GLUE_PROGRESSION_AV_POPUP_CHOICE_CONFIRMATION_ALLIANCE	Będziesz reprezentować Przymierze przez cały czas spędzony w Dolinie Alterak.	
 GLUE_PROGRESSION_AV_POPUP_CHOICE_CONFIRMATION_HORDE	Będziesz walczyć za Hordę przez cały czas spędzony w Dolinie Alterak.	
@@ -1602,6 +1612,8 @@ GLUE_PROGRESSION_AV_POPUP_CHOICE_CONFIRMATION_TITLE	Na pewno?
 GLUE_PROGRESSION_AV_POPUP_CHOICE_HORDE	Za Hordę!	
 GLUE_PROGRESSION_AV_POPUP_MESSAGE	Wybierz stronę!	
 GLUE_PROGRESSION_AV_POPUP_SUB_MESSAGE	Walcz z honorem i zdobywaj nagrody!	
+GLUE_PROGRESSION_AV_QUEST_DESCRIPTION	Honor	
+GLUE_PROGRESSION_AV_WIN_OPPONENT_RANK	HZ: {0}	
 GLUE_PROGRESSION_BONUS_ERROR_BODY	Obecnie nie ma żadnych Karnetów Karczmarza. Sprawdź ponownie później.	
 GLUE_PROGRESSION_BONUS_ERROR_HEADER	Karnet Karczmarza	
 GLUE_PROGRESSION_PROFILE_CLASS_TITLE	Postępy klasowe	
@@ -1668,7 +1680,7 @@ GLUE_PVPDR_ENTRY_POPUP_DESCRIPTION_HEROIC	Bitwa i nagrody
 GLUE_PVPDR_ENTRY_POPUP_DESCRIPTION_NORMAL	Poddaj próbie swoje zdolności.	
 GLUE_PVPDR_ENTRY_POPUP_LABEL_HEROIC	Heroiczne starcie	
 GLUE_PVPDR_ENTRY_POPUP_LABEL_NORMAL	Normalne starcie	
-GLUE_PVPDR_EXPANSION_SUBTITLE	Starcia magów	
+GLUE_PVPDR_EXPANSION_SUBTITLE	Dolina Alterak	
 GLUE_PVPDR_FOOTER	Wybierz bohatera, stwórz talię i wzmacniaj ją między bitwami!	
 GLUE_PVPDR_HEROIC_POPUP_DESCRIPTION_HASTICKETS	Masz bilet do Karczmy! Tym razem nie musisz płacić za wstęp.	
 GLUE_PVPDR_HEROIC_POPUP_DESCRIPTION_NOTICKETS	Więcej zwycięstw to lepsze nagrody!\nUżyj biletu do Karczmy, aby wejść.	
@@ -1714,11 +1726,11 @@ GLUE_QUEST_LOG_NO_CHEST	Nie masz jeszcze skrzyni!
 GLUE_QUEST_LOG_NO_QUESTS	Nie masz zadań. Odblokuj nowych bohaterów w trybie treningowym.	
 GLUE_QUEST_LOG_NO_QUESTS_DAILIES_UNLOCKED	Nie masz zadań. Zajrzyj ponownie jutro!	
 GLUE_QUEST_LOG_PHONE_BUTTON	Zadania	
-GLUE_QUEST_LOG_PLAY_MODE	Tryb Pojedynku	
+GLUE_QUEST_LOG_PLAY_MODE	Tradycyjny Hearthstone	
 GLUE_QUEST_LOG_PROGRESS	Wygraj jeszcze {0} |4(partię,partie,partii)	Ranked Revamp, newline is due to small chest in quest log
 GLUE_QUEST_LOG_TOTAL_LEVELS	<color=#c4b47c>Łączny poziom:</color> {0}	
 GLUE_QUEST_LOG_TOTAL_WINS_HEADLINE	Zwycięstwa	
-GLUE_QUEST_LOG_WINS_HEADLINE	Wygrane w trybie Pojedynku	
+GLUE_QUEST_LOG_WINS_HEADLINE	Zwycięstwa w tradycyjnym Hearthstone:	
 GLUE_QUEST_NOTIFICATION_CAPTION	Większość zadań można wykonać jedynie podczas gry przeciwko innym graczom.	
 GLUE_QUEST_NOTIFICATION_CAPTION_FRIEND_WEEK		Set this string to blank to make it not show up, even when Friend Week is active.
 GLUE_QUEST_NOTIFICATION_HEADER	Dzisiejsze zadania	
@@ -1845,6 +1857,7 @@ GLUE_RETURNINGPLAYER_QUESTTITLE	Powrót bohatera
 GLUE_RETURNINGPLAYER_RETIRE_BUTTON_TEXT	Zrezygnuj	
 GLUE_RETURNINGPLAYERPOPUP_MESSAGE	Jeśli pominiesz wyzwanie Karczmarza, nie będzie można wrócić i dokończyć zadania na zdobycie 3 darmowych pakietów!	
 GLUE_RETURNINGPLAYERPOPUP_TITLE	Czy na pewno chcesz to zrobić?	
+GLUE_REWARD_MORE_ITEMS	+{0} więcej!	
 GLUE_ROTATED_SETS_DIALOG	Następujące zestawy przeszły do Dziczy!	
 GLUE_SCENE_LOAD_ERROR_BODY	Podczas wczytywania menu wystąpił błąd. Spróbuj ponownie.	
 GLUE_SCENE_LOAD_ERROR_TITLE	Błąd	
@@ -2606,7 +2619,7 @@ GLUE_TIP_PLAY_7	Nie musisz rozgrywać wszystkich pojedynków na Arenie za jednym
 GLUE_TIP_PLAY_8	Jeśli wygrasz 5 partii w trybie rankingowym w danym sezonie, otrzymasz specjalny rewers kart dla tego sezonu.	
 GLUE_TIP_PRACTICE_0	Bohaterów możesz odblokować, pokonując ich w trybie treningowym.	
 GLUE_TIP_PRACTICE_1	Tryb treningowy to tylko rozgrzewka przed tradycyjną rozgrywką Hearthstone!	
-GLUE_TIP_PRACTICE_2	W trybie Pojedynku dopasujemy do ciebie gracza o podobnych umiejętnościach.	
+GLUE_TIP_PRACTICE_2	W trybie tradycyjnego Hearthstone dopasujemy do ciebie gracza o podobnych umiejętnościach.	
 GLUE_TIP_PRACTICE_3	Odwiedzając swoją kolekcję możesz złożyć własną talię.	
 GLUE_TIP_PRACTICE_4	Każda klasa ma 16 różnych kart bazowych, które możesz odblokować podczas awansowania na wyższe poziomy.	
 GLUE_TIP_PRACTICE_5	Wykonuj zadania w trybie pojedynku, aby zdobyć PD!	

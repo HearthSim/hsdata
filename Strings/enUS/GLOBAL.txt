@@ -260,9 +260,9 @@ GLOBAL_KEYWORD_SPELLPOWER_PHYSICAL_TEXT	Your Physical spell cards deal {0} extra
 GLOBAL_KEYWORD_SPELLPOWER_PHYSICAL_REF_TEXT	Your Physical spells deal extra damage.
 GLOBAL_KEYWORD_STEALTH	Stealth
 GLOBAL_KEYWORD_STEALTH_TEXT	Can't be attacked or targeted until it attacks.
-GLOBAL_KEYWORD_STEALTH_TEXT_MERC	Can't be attacked or targeted until uses an ability.
+GLOBAL_KEYWORD_STEALTH_TEXT_MERC	Can't be attacked or targeted until it uses an ability.
 GLOBAL_KEYWORD_STEALTH_REF_TEXT	Can't be attacked or targeted until it attacks.
-GLOBAL_KEYWORD_STEALTH_REF_TEXT_MERC	Can't be attacked or targeted until uses an ability.
+GLOBAL_KEYWORD_STEALTH_REF_TEXT_MERC	Can't be attacked or targeted until it uses an ability.
 GLOBAL_KEYWORD_TAUNT	Taunt
 GLOBAL_KEYWORD_TAUNT_TEXT	Enemies must attack this minion.
 GLOBAL_KEYWORD_TAUNT_REF_TEXT	Enemies must attack minions that have Taunt.
@@ -388,11 +388,13 @@ GLOBAL_KEYWORD_QUESTLINE	Questline
 GLOBAL_KEYWORD_QUESTLINE_TEXT	Starts in your hand. Complete for a reward, up to 3 times!
 GLOBAL_KEYWORD_TRADE	Tradeable
 GLOBAL_KEYWORD_TRADE_TEXT	Drag this into your deck to spend 1 Mana and draw a new card.
-GLOBAL_ATTACK	Attack
-GLOBAL_COST	Cost
-GLOBAL_HEALTH	Health
-GLOBAL_KEYWORD_WILD	Wild
-GLOBAL_KEYWORD_WILD_TEXT	Wild cards are cards from Hearthstone's past no longer allowed in Standard.
+GLOBAL_KEYWORD_HONORABLEKILL	Honorable Kill
+GLOBAL_KEYWORD_HONORABLEKILL_TEXT	Deal exact lethal damage on your turn for a bonus.
+GLOBAL_ATTACK	Attack	
+GLOBAL_COST	Cost	
+GLOBAL_HEALTH	Health	
+GLOBAL_KEYWORD_WILD	Wild	
+GLOBAL_KEYWORD_WILD_TEXT	Wild cards are cards from Hearthstone's past no longer allowed in Standard.	
 GLOBAL_RACE_ALL	All
 GLOBAL_RACE_BLOODELF	Blood Elf
 GLOBAL_RACE_DEMON	Demon
@@ -795,7 +797,7 @@ GLOBAL_SPECTATOR_COUNT_PANEL_HEADER	Spectators Watching
 GLOBAL_SPECTATOR_COUNT_PANEL_TEXT_ONE	{0} is spectating you.	0=player name, this is shown when there's only 1 person spectating you.
 GLOBAL_SPECTATOR_MODE_INDICATOR_TEXT	Spectator Mode	text that shows up on the bottom left of screen showing that you're currently in Spectator Mode.
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_HEADER	Spectator Mode
-GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT	Waiting for next game to start.\n\n{0} is {1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_STATUS_* and PRESENCE_SCENARIO_*_NORMAL_SCENARIO_* from PRESENCE.txt (e.g. "Jane Doe is Heading into Play Mode")
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT	Waiting for next game to start.\n\n{0} is {1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_STATUS_* and PRESENCE_SCENARIO_*_NORMAL_SCENARIO_* from PRESENCE.txt (e.g. "Jane Doe is Heading into Traditional Hearthstone")
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_ENTERING	Waiting for next game to start.\n\n{0} is entering {1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_ADVENTURE_MODE_* from PRESENCE.txt (e.g. "Jane Doe is entering Naxxramas")
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_BATTLING	Waiting for next game to start.\n\n{0} is Battling {1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_SCENARIO_*_HEROIC_* from PRESENCE.txt (e.g. "Jane Doe is Battling Heroic Gothik the Harvester")
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_PLAYING	Waiting for next game to start.\n\n{0} is playing {1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_SCENARIO_*_CLASS_CHALLENGE_* from PRESENCE.txt (e.g. "Jane Doe is playing Naxxramas Paladin Challenge")
@@ -894,7 +896,7 @@ GLOBAL_ARENA_MEDAL_12	Lightforge Key
 GLOBAL_FEATURE_DISABLED_TITLE	Disabled
 GLOBAL_FEATURE_DISABLED_MESSAGE_FORGE	Sorry, the Arena is currently disabled.
 GLOBAL_FEATURE_DISABLED_MESSAGE_PRACTICE	Sorry, Practice mode is currently disabled.
-GLOBAL_FEATURE_DISABLED_MESSAGE_PLAY	Sorry, Play mode is currently disabled.
+GLOBAL_FEATURE_DISABLED_MESSAGE_PLAY	Sorry, traditional Hearthstone is currently disabled.
 GLOBAL_FEATURE_DISABLED_MESSAGE_COLLECTION	Sorry, the Collection is currently disabled.
 GLOBAL_FEATURE_DISABLED_MESSAGE_BATTLEGROUNDS	Sorry, Battlegrounds is currently disabled.
 GLOBAL_CHAT_NO_FRIENDS_ONLINE	You don't have any friends online right now.
@@ -1201,7 +1203,7 @@ GLOBAL_SPELL_SCHOOL_FEL	Fel
 GLOBAL_SPELL_SCHOOL_PHYSICAL_COMBAT	Attack
 GLOBAL_PLAYER_MIGRATION_RESTART_HEADER	Account needs to be updated
 GLOBAL_PLAYER_MIGRATION_RESTART_BODY	Your account needs to be updated.\nPlease restart the game.
-GLOBAL_PROGRESSION_PROFILE_PLAY_MODE	Play Mode
+GLOBAL_PROGRESSION_PROFILE_PLAY_MODE	Traditional Hearthstone
 GLOBAL_PROGRESSION_PROFILE_GAME_MODES	Game Modes
 GLOBAL_PROGRESSION_PROFILE_ARENA_WINS	{0} |4(Win,Wins)
 GLOBAL_PROGRESSION_PROFILE_ARENA_STAT_TOOLTIP_TITLE	Arena
