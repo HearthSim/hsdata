@@ -124,6 +124,7 @@ GLUE_COLLECTION_FSG_BRAWL_DECKNAME	Fireside Deck
 GLUE_COLLECTION_DUEL_DECKNAME	Duels Deck	
 GLUE_COLLECTION_LETTUCE_PVE_TEAMNAME	PvE Party
 GLUE_COLLECTION_LETTUCE_LOCK_TEXT	In your Party
+GLUE_COLLECTION_LETTUCE_LOADOUT_TEXT	Loadout
 GLUE_COLLECTION_LETTUCE_UNCRAFTABLE_PROGRESSION	Acquired through Mercenaries Campaign.
 GLUE_COLLECTION_LETTUCE_UNCRAFTABLE_REWARD_TRACK	Acquired through Rewards Track.
 GLUE_COLLECTION_CARD_NEW	NEW!	
@@ -819,8 +820,8 @@ GLUE_TIP_LETTUCE_12	Heroic Bounties give better rewards but are much more challe
 GLUE_TIP_LETTUCE_13	You can reposition your party around when you play Mercenaries from your Bench.
 GLUE_TIP_LETTUCE_14	Control your characters' Speed ties by the order you prepare their abilities!
 GLUE_TIP_LETTUCE_15	Each Bounty can drop different Mercenary coins.\nTarget specific bounties to gain the coins you need.
-GLUE_TIP_LETTUCE_16	Frozen characters cannot use their abilities.
-GLUE_TIP_LETTUCE_17	Time Deathblow abilities so they get the killing blow.
+GLUE_TIP_LETTUCE_16	<b>Frozen</b> characters cannot use their abilities.
+GLUE_TIP_LETTUCE_17	Time <b>Deathblow</b> abilities so they get the killing blow.
 GLUE_TIP_LETTUCE_18	Elemental damage like <b>Fire Damage</b> affects your whole party.
 GLUE_TIP_LETTUCE_19	Boon encounters give a bonus to both teams.\nUse this to your advantage.
 GLUE_TIP_LETTUCE_20	New Tasks are refreshed each day.\nYou might even find them during a Bounty adventure!
@@ -1370,6 +1371,7 @@ GLUE_TAVERN_BRAWL_REWARD_DESC_FINISH_QUOTA_CARDBACK	Win this card back for compl
 GLUE_TAVERN_BRAWL_HAS_ENDED_HEADER	End of Event	
 GLUE_TAVERN_BRAWL_HAS_ENDED_TEXT	This Tavern Brawl Event is now over. Another one is coming up soon!	
 GLUE_COLLECTION_MANAGER_FAVORITE_BUTTON	Make Favorite	
+GLUE_COLLECTION_MANAGER_FAVORITE_BUTTON_MULTIPLE	Toggle Favorite	
 GLUE_COLLECTION_MANAGER_FAVORITE_DEFAULT_TEXT	Favorite {0}	
 GLUE_COLLECTION_MANAGER_FAVORITE_CARD_BACK	Favorite	
 GLUE_COLLECTION_MANAGER_COIN_TITLE	Coins		
@@ -1416,6 +1418,7 @@ GLUE_COLLECTION_MANAGER_SEARCH_HEALTH	health
 GLUE_COLLECTION_MANAGER_SEARCH_OWNED	owned
 GLUE_COLLECTION_MANAGER_SEARCH_MISSING	missing
 GLUE_COLLECTION_MANAGER_SEARCH_EXTRA	extra
+GLUE_COLLECTION_MANAGER_SEARCH_FAVORITE	favorite
 GLUE_COLLECTION_MANAGER_SEARCH_NEW	new
 GLUE_COLLECTION_MANAGER_SEARCH_RARITY	rarity
 GLUE_COLLECTION_MANAGER_SEARCH_TYPE	type
@@ -2301,6 +2304,11 @@ GLUE_TIP_ADVENTURE_BOM_13	Cornelius Roame raised his daughters, Cariel and Tamsi
 GLUE_TIP_ADVENTURE_BOM_14	Criminals and enemies of the Alliance are jailed in the Stormwind Stockade.
 GLUE_TIP_ADVENTURE_BOM_15	Scabbs Cutterbutter is an agent of SI:7, Stormwind's elite spy network.
 GLUE_TIP_ADVENTURE_BOM_16	Kazakus and Lady Prestor have recruited mercenaries to help them find the shards of naaru.
+GLUE_TIP_ADVENTURE_BOM_17	The Frostwolf orcs and Stormpike dwarves battle for control of Alterac Valley.
+GLUE_TIP_ADVENTURE_BOM_18	In Alterac, Kazakus hopes to assemble the shards of naaru.
+GLUE_TIP_ADVENTURE_BOM_19	Tavish and Rokara return to their families in Alterac to battle over the naaru's power.
+GLUE_TIP_ADVENTURE_BOM_20	There are rumors of elemental lords sleeping dormant in Alterac Valley.
+GLUE_TIP_ADVENTURE_BOM_21	Lady Katrana Prestor is secretly Onyxia, the black dragonflight's broodmother.
 GLUE_CLASS_UPCOMING_HEADER	Not Yet Available
 GLUE_CLASS_UPCOMING_DESC	This class is not yet available.
 GLUE_GAME_MODE_NEW_MODE_UNLOCKED_POPUP_HEADER	New mode unlocked:
@@ -2437,6 +2445,10 @@ GLUE_PROGRESSION_QUEST_DAILY	Daily
 GLUE_PROGRESSION_QUEST_WEEKLY	Weekly
 GLUE_PROGRESSION_ABANDON_QUEST_HEADER	Abandon Quest
 GLUE_PROGRESSION_ABANDON_QUEST_BODY	You will not receive a new quest in exchange. If this is a chain quest, no further quests in the chain will be granted. Are you sure?
+GLUE_PROGRESSION_NO_QUEST_PROGRESS_FOR_CONCEDE_HEADER	Concede?
+GLUE_PROGRESSION_NO_QUEST_PROGRESS_FOR_CONCEDE_BODY	Progress for 1 or more of your quests will not be earned if you concede this early.
+GLUE_PROGRESSION_NO_QUEST_PROGRESS_FOR_CONCEDE_CONFIRM	Concede Now
+GLUE_PROGRESSION_NO_QUEST_PROGRESS_FOR_CONCEDE_CANCEL	Keep playing
 GLUE_FUN_CONFIRM_MESSAGE	Awesome!
 GLUE_STORE_PRODUCT_NAME_PROGRESSION_BONUS	Tavern Pass
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_PROGRESSION_BONUS	이용기간: 다음 확장팩 출시일 전까지. 본 상품은 구매 즉시 효과가 적용되므로 구매 후 환불이 불가능합니다.
@@ -2569,6 +2581,8 @@ GLUE_LETTUCE_BOUNTY_BOARD_TEAM_LOCK_BODY	After you start a run, you will not be 
 GLUE_LETTUCE_BOUNTY_BOARD_TEAM_LOCK_CONFIRM	Lock In
 GLUE_LETTUCE_BOUNTY_BOARD_BOUNTY_LOCKED	Locked!\nBeat the previous boss
 GLUE_LETTUCE_BOUNTY_BOARD_BOUNTY_DISABLED	Temporarily unavailable
+GLUE_LETTUCE_BOUNTY_BOARD_BOUNTY_TITLE	{0} in {1}	0=bossname, 1=bounty set name
+GLUE_LETTUCE_BOUNTY_BOARD_BOUNTY_TITLE_HEROIC_ADD	{0} (Heroic)	0=bounty name
 GLUE_LETTUCE_LOBBY_HEADER	Mercenaries
 GLUE_LETTUCE_MERC_COLLECTION	Mercenary Collection
 GLUE_LETTUCE_COLLECTION_TUTORIAL01	Select this mercenary to view their abilities.
@@ -2643,6 +2657,7 @@ GLUE_LETTUCE_COLLECTION_EQUIPMENT_AVAILABLE_HEADER	Equipment Unused
 GLUE_LETTUCE_COLLECTION_EQUIPMENT_AVAILABLE_DESC	Not all of your mercenaries are fully equipped.\n\nContinue without equipping?
 GLUE_LETTUCE_COLLECTION_EQUIPMENT_AVAILABLE_BUTTON_EQUIP	Go Back
 GLUE_LETTUCE_COLLECTION_EQUIPMENT_UNLOCK_DESC	Complete Task {0}
+GLUE_LETTUCE_COLLECTION_EQUIPMENT_UNLOCK_BY_BOUNTY_DESC	Defeat {0}	0=bounty title
 GLUE_LETTUCE_COLLECTION_EQUIPMENT_REDEEM_ACHIEVEMENT	Claim in \nAchievements
 GLUE_LETTUCE_COLLECTION_ON_ADD_FULL_TEAM_ERROR	Your party is full. Remove a Mercenary first!
 GLUE_LETTUCE_COLLECTION_MERCDETAILS_ABILITIES_TITLE	Abilities
@@ -2663,6 +2678,9 @@ GLUE_LETTUCE_VILLAGE_DISMISS_TASK_ERROR_DESCRIPTION	There was an error abandonin
 GLUE_LETTUCE_BOX_BUTTON_DISABLED_SCROLL_TEXT	Temporarily\n\n\nunavailable
 GLUE_LETTUCE_VILLAGE_DISMISS_TASK_WARNING_HEADER	Abandon Task?
 GLUE_LETTUCE_VILLAGE_DISMISS_TASK_WARNING_DESCRIPTION	Removes this Visitor from your Village and resets progress on their current Task. They can still visit you in the future.
+GLUE_LETTUCE_VILLAGE_REMOVE_MERCENARY_TRAINING	Remove Mercenary?
+GLUE_LETTUCE_VILLAGE_REMOVE_MERCENARY_TRAINING_DESCRIPTION	Removing a mercenary before they're done preparing grants no XP.\n Are you sure?
+GLUE_LETTUCE_VILLAGE_TIMEOUT_ERROR	Error Processing Request.  Please try again later.
 GLUE_LETTUCE_VILLAGE_WORKSHOP_TITLE	Workshop
 GLUE_LETTUCE_VILLAGE_WORKSHOP_BUILD	BUILD
 GLUE_LETTUCE_VILLAGE_WORKSHOP_UPGRADE	UPGRADE
@@ -2675,6 +2693,7 @@ GLUE_LETTUCE_VILLAGE_TUTORIAL_VISIT_COLLECTION_MANAGER	Visit the Tavern!
 GLUE_LETTUCE_VILLAGE_TUTORIAL_VISIT_WORKSHOP	Construct buildings at the Workshop!
 GLUE_LETTUCE_VILLAGE_TUTORIAL_VISIT_TRAVEL_POINT	Visit the Travel Point!
 GLUE_LETTUCE_VILLAGE_TUTORIAL_VISIT_SHOP	Visit the Merchant Cart
+GLUE_LETTUCE_VILLAGE_TUTORIAL_START_TRAINING	Drag a Mercenary here for Training!
 GLUE_LETTUCE_VILLAGE_TUTORIAL_OPEN_TASK_DETAIL	Select this task to see rewards!
 GLUE_LETTUCE_VILLAGE_TUTORIAL_VISIT_PACK_OPENING	Open your new Mercenaries Pack!
 GLUE_LETTUCE_VILLAGE_TUTORIAL_GET_FREE_PACK	Claim Your Welcome Gift!
@@ -2709,7 +2728,6 @@ GLUE_LETTUCE_SEASON_REWARD_REACH_RATING_CHEST_LABEL	Reach\n1000
 GLUE_LETTUCE_VANITY_TITLE	Portraits
 GLUE_LETTUCE_VANITY_LOCKEDPLATE_MESSAGE	Acquired from packs
 GLUE_LETTUCE_VANITY_LOCKEDPLATE_MESSAGE_TASK	Complete Task {0}
-GLUE_LETTUCE_VANITY_LOCKEDPLATE_MESSAGE_REWARD_TRACK	Acquired through Rewards Track
 GLUE_LETTUCE_SEASON_ROLL_DESC	{0} {1} Mercenary Season has ended, and the new Season has begun!\n\nYour Season Rating best was {2}.	0: month name, 1: year digits, 2: numeric rating
 GLUE_LETTUCE_MAP_CONSOLATION_REWARD_TITLE	Battle Spoils
 GLUE_LETTUCE_MAP_CONSOLATION_REWARD_SUBTITLE	A consolation from your last battle
@@ -2776,3 +2794,23 @@ GLUE_PROGRESSION_AV_WIN_OPPONENT_RANK	HK: {0}
 GLUE_PROGRESSION_AV_QUEST_DESCRIPTION	Honor
 GLUE_PROGRESSION_AV_FIRST_RANK_HORDE	Scout
 GLUE_PROGRESSION_AV_FIRST_RANK_ALLIANCE	Private
+GLUE_TRAINING_HALL_TITLE	Training Grounds
+GLUE_TRAINING_HALL_MAX_LEVEL_MSG	Mercenary is already max level
+GLUE_TRAINING_HALL_NO_SLOTS_MSG	No open training slots
+GLUE_TRAINING_HALL_NO_DRAG_MSG	Use the button to remove this Mercenary.
+GLUE_TRAINING_HALL_SUBTITLE	Gain Mercenary XP per hour (max {0}h)	0: max xp / xp per hour
+GLUE_TRAINING_HALL_BUTTON_LOCKED_TITLE	Locked
+GLUE_TRAINING_HALL_BUTTON_LOCKED_TOOLTIP	You must upgrade the Training Hall to unlock this slot.
+GLUE_TRAINING_HALL_BUTTON_EMPTY_TITLE	Empty
+GLUE_TRAINING_HALL_BUTTON_EMPTY_TOOLTIP	Drag a Mercenary here to begin training.
+GLUE_TRAINING_HALL_BUTTON_PREPARING_TITLE	Preparing...
+GLUE_TRAINING_HALL_BUTTON_PREPARING_TOOLTIP	This Mercenary is preparing to Train and is not gaining XP yet.
+GLUE_TRAINING_HALL_BUTTON_EARNING_TITLE	Earning XP
+GLUE_TRAINING_HALL_BUTTON_EARNING_TOOLTIP	This Mercenary is Training and is gaining XP.
+GLUE_TRAINING_HALL_BUTTON_FINISHED_TITLE	Finished
+GLUE_TRAINING_HALL_BUTTON_FINISHED_TOOLTIP	This Mercenary has completed training. Click to collect XP gained in training.
+GLUE_TRAINING_HALL_BUTTON_MAXLEVEL_TITLE	Max Level
+GLUE_TRAINING_HALL_BUTTON_MAXLEVEL_TOOLTIP	This Mercenary has reached Max Level and can no longer gain XP by training.
+GLUE_TRAINING_HALL_BUTTON_MAXLEVEL_BARTEXT	Not Training
+GLUE_TRAINING_HALL_PREP_TIME_SEC	{0}s left	0: prep time remaining in seconds
+GLUE_TRAINING_HALL_PREP_TIME_MIN	{0}m left	0: prep time remaining in minutes

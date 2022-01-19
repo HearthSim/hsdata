@@ -598,6 +598,7 @@ GLUE_COLLECTION_GENERIC_ERROR	При обработке вашего запро�
 GLUE_COLLECTION_GOLDEN_CARDS	Золотые карты	
 GLUE_COLLECTION_HOME_PAGE	Общие сведения	
 GLUE_COLLECTION_INCLUDE_PREMIUMS	Включая золотые	
+GLUE_COLLECTION_LETTUCE_LOADOUT_TEXT	Набор снаряжения	
 GLUE_COLLECTION_LETTUCE_LOCK_TEXT	В вашем отряде	
 GLUE_COLLECTION_LETTUCE_PVE_TEAMNAME	Отряд PvE	
 GLUE_COLLECTION_LETTUCE_UNCRAFTABLE_PROGRESSION	Можно открыть, проходя кампанию «Наемников».	
@@ -613,6 +614,7 @@ GLUE_COLLECTION_MANAGER_CARD_BACKS_TITLE	Рубашки
 GLUE_COLLECTION_MANAGER_COIN_TITLE	Монеты	
 GLUE_COLLECTION_MANAGER_COINS_TITLE	Монеты	
 GLUE_COLLECTION_MANAGER_FAVORITE_BUTTON	По умолчанию	
+GLUE_COLLECTION_MANAGER_FAVORITE_BUTTON_MULTIPLE	В избранное	
 GLUE_COLLECTION_MANAGER_FAVORITE_CARD_BACK	По умолчанию	
 GLUE_COLLECTION_MANAGER_FAVORITE_COIN	По умолчанию	
 GLUE_COLLECTION_MANAGER_FAVORITE_DEFAULT_TEXT	{0} по умолчанию	
@@ -632,6 +634,7 @@ GLUE_COLLECTION_MANAGER_SEARCH_EVEN_CARDS	чет	Search term to filter cards in 
 GLUE_COLLECTION_MANAGER_SEARCH_EVEN_HEALTH	чет	Search term to filter cards in CollectionManager to cards with even health value. Example health:even
 GLUE_COLLECTION_MANAGER_SEARCH_EVEN_MANA	чет	Search term to filter cards in CollectionManager to cards with even mana cost. Example: mana:even
 GLUE_COLLECTION_MANAGER_SEARCH_EXTRA	лишние	
+GLUE_COLLECTION_MANAGER_SEARCH_FAVORITE	избранное	
 GLUE_COLLECTION_MANAGER_SEARCH_GOLDEN	золотые	
 GLUE_COLLECTION_MANAGER_SEARCH_HAS	и	
 GLUE_COLLECTION_MANAGER_SEARCH_HEALTH	здоровье	
@@ -1122,6 +1125,8 @@ GLUE_LETTUCE_ABILITY_UPGRADE_PROMOTE_MERC	Это улучшение можно �
 GLUE_LETTUCE_ABILITY_UPGRADE_TITLE	Улучшение	
 GLUE_LETTUCE_BOUNTY_BOARD_BOUNTY_DISABLED	Временно недоступно	
 GLUE_LETTUCE_BOUNTY_BOARD_BOUNTY_LOCKED	Недоступно!\nПобедите предшествующего босса	
+GLUE_LETTUCE_BOUNTY_BOARD_BOUNTY_TITLE	«{0}» в области «{1}»	0=bossname, 1=bounty set name
+GLUE_LETTUCE_BOUNTY_BOARD_BOUNTY_TITLE_HEROIC_ADD	{0} (героическое поручение)	0=bounty name
 GLUE_LETTUCE_BOUNTY_BOARD_HEADER	Поручения: {0}	0=The bounty zone name
 GLUE_LETTUCE_BOUNTY_BOARD_TEAM_LOCK_BODY	Начав поход, вы не сможете изменять состав отряда. Продолжить?	
 GLUE_LETTUCE_BOUNTY_BOARD_TEAM_LOCK_CONFIRM	Подтвердить	
@@ -1146,6 +1151,7 @@ GLUE_LETTUCE_COLLECTION_EQUIPMENT_AVAILABLE_BUTTON_EQUIP	Назад
 GLUE_LETTUCE_COLLECTION_EQUIPMENT_AVAILABLE_DESC	У ваших наемников есть пустые ячейки снаряжения.\n\nПродолжить без снаряжения?	
 GLUE_LETTUCE_COLLECTION_EQUIPMENT_AVAILABLE_HEADER	Неиспользуемое снаряжение	
 GLUE_LETTUCE_COLLECTION_EQUIPMENT_REDEEM_ACHIEVEMENT	Получите в разделе \n«Достижения»	
+GLUE_LETTUCE_COLLECTION_EQUIPMENT_UNLOCK_BY_BOUNTY_DESC	Победите противника {0}.	0=bounty title
 GLUE_LETTUCE_COLLECTION_EQUIPMENT_UNLOCK_DESC	Выполните задачу {0}	
 GLUE_LETTUCE_COLLECTION_FULLY_UPGRADED_MESSAGE	Поздравляем! Наемник максимально улучшен.	
 GLUE_LETTUCE_COLLECTION_INCOMPLETE_TEAM_DESC	В отряд не добавлены наемники. Вы не сможете использовать этот отряд.\n\nПродолжить?	
@@ -1294,7 +1300,6 @@ GLUE_LETTUCE_VALIDATE_NO_TEAM_SELECTED	Выберите отряд.
 GLUE_LETTUCE_VALIDATE_TEAM_HEADER	Некорректный отряд	
 GLUE_LETTUCE_VALIDATE_TEAM_INVALID	Вы выбрали некорректный отряд.	
 GLUE_LETTUCE_VANITY_LOCKEDPLATE_MESSAGE	Можно получить из комплектов	
-GLUE_LETTUCE_VANITY_LOCKEDPLATE_MESSAGE_REWARD_TRACK	Можно открыть на ленте наград	
 GLUE_LETTUCE_VANITY_LOCKEDPLATE_MESSAGE_TASK	Выполните задачу {0}	
 GLUE_LETTUCE_VANITY_TITLE	Портреты	
 GLUE_LETTUCE_VILLAGE_CLAIM_TASK_ERROR_DESCRIPTION	При получении задачи произошла ошибка. Повторите попытку позже.	
@@ -1303,6 +1308,8 @@ GLUE_LETTUCE_VILLAGE_DISMISS_TASK_WARNING_DESCRIPTION	Этот гость про
 GLUE_LETTUCE_VILLAGE_DISMISS_TASK_WARNING_HEADER	Отказаться от задачи?	
 GLUE_LETTUCE_VILLAGE_DISMISS_TITLE	Отказаться	
 GLUE_LETTUCE_VILLAGE_MYSTERIOUSTRANGER_NEW_TASK	Новая задача	
+GLUE_LETTUCE_VILLAGE_REMOVE_MERCENARY_TRAINING	Убрать наемника?	
+GLUE_LETTUCE_VILLAGE_REMOVE_MERCENARY_TRAINING_DESCRIPTION	Если вы уберете наемника до окончания подготовки, он не получит опыт.\n Хотите продолжить?	
 GLUE_LETTUCE_VILLAGE_TASK_CLAIM	Получить	
 GLUE_LETTUCE_VILLAGE_TASK_COMPLETE	Выполнено!	
 GLUE_LETTUCE_VILLAGE_TASK_HEADER	Задача наемника	
@@ -1310,9 +1317,11 @@ GLUE_LETTUCE_VILLAGE_TASK_NUMBER	Задача {0}: {1}
 GLUE_LETTUCE_VILLAGE_TASK_REWARDS_TITLE	Награды	
 GLUE_LETTUCE_VILLAGE_TASK_TITLE	Костер	
 GLUE_LETTUCE_VILLAGE_TASK_VACANT	Завтра будет новый гость	
+GLUE_LETTUCE_VILLAGE_TIMEOUT_ERROR	При обработке запроса возникла ошибка.  Пожалуйста, повторите запрос позже.	
 GLUE_LETTUCE_VILLAGE_TUTORIAL_GET_FREE_PACK	Получите подарок для новичков!	
 GLUE_LETTUCE_VILLAGE_TUTORIAL_GRANT_TITLE	Закадычные друзья	
 GLUE_LETTUCE_VILLAGE_TUTORIAL_OPEN_TASK_DETAIL	Выберите задачу, чтобы увидеть награды!	
+GLUE_LETTUCE_VILLAGE_TUTORIAL_START_TRAINING	Перетащите сюда наемника, чтобы он начал тренировку!	
 GLUE_LETTUCE_VILLAGE_TUTORIAL_VISIT_COLLECTION_MANAGER	Посетите таверну!	
 GLUE_LETTUCE_VILLAGE_TUTORIAL_VISIT_MAILBOX	Просматривайте новости в почте	
 GLUE_LETTUCE_VILLAGE_TUTORIAL_VISIT_PACK_OPENING	Откройте новый комплект наемников!	
@@ -1616,6 +1625,10 @@ GLUE_PROGRESSION_AV_QUEST_DESCRIPTION	Честь
 GLUE_PROGRESSION_AV_WIN_OPPONENT_RANK	ПП: {0}	
 GLUE_PROGRESSION_BONUS_ERROR_BODY	Сейчас пропуски завсегдатая недоступны. Попробуйте позже.	
 GLUE_PROGRESSION_BONUS_ERROR_HEADER	Пропуск завсегдатая	
+GLUE_PROGRESSION_NO_QUEST_PROGRESS_FOR_CONCEDE_BODY	Если вы сдадитесь сейчас, прогресс заданий не будет засчитан.	
+GLUE_PROGRESSION_NO_QUEST_PROGRESS_FOR_CONCEDE_CANCEL	Играть дальше	
+GLUE_PROGRESSION_NO_QUEST_PROGRESS_FOR_CONCEDE_CONFIRM	Сдаться	
+GLUE_PROGRESSION_NO_QUEST_PROGRESS_FOR_CONCEDE_HEADER	Вы действительно хотите сдаться?	
 GLUE_PROGRESSION_PROFILE_CLASS_TITLE	Прогресс класса	
 GLUE_PROGRESSION_PROFILE_TITLE	Профиль	
 GLUE_PROGRESSION_QUEST_DAILY	Ежедневно	
@@ -2339,7 +2352,12 @@ GLUE_TIP_ADVENTURE_BOM_13	Корнелиус Роум вырастил двух 
 GLUE_TIP_ADVENTURE_BOM_14	Преступники и враги Альянса отбывают наказание в тюрьме Штормграда.	
 GLUE_TIP_ADVENTURE_BOM_15	Скаббс Маслорез — один из агентов ШРУ, элитной шпионской организации Штормграда.	
 GLUE_TIP_ADVENTURE_BOM_16	Казакус и леди Престор поручили наемникам искать осколки наару.	
+GLUE_TIP_ADVENTURE_BOM_17	Орки Северного Волка и дворфы Грозовой Вершины ведут войну за Альтеракскую долину.	
+GLUE_TIP_ADVENTURE_BOM_18	Казакус прибыл в Альтерак, надеясь собрать осколки наару воедино.	
+GLUE_TIP_ADVENTURE_BOM_19	Вернувшись к родным в Альтераке, Тавиш и Рокара готовятся сразиться за силу наару.	
 GLUE_TIP_ADVENTURE_BOM_2	В этом приключении вы будете использовать готовые колоды и силы героев!	
+GLUE_TIP_ADVENTURE_BOM_20	Ходят слухи, что в Альтеракской долине дремлют могучие повелители стихий.	
+GLUE_TIP_ADVENTURE_BOM_21	Под ликом леди Катраны Престор скрывалась Ониксия, мать черных драконов.	
 GLUE_TIP_ADVENTURE_BOM_3	В некоторых битвах можно выбрать спутника, который будет сражаться на вашей стороне.	
 GLUE_TIP_ADVENTURE_BOM_4	Каждый том «Книги наемников» — продолжение истории.	
 GLUE_TIP_ADVENTURE_BOM_5	Будьте готовы ко всему! Жизнь наемника полна неожиданностей.	
@@ -2704,6 +2722,26 @@ GLUE_TOURNAMENT_UNRANKED_DESC	Для нерейтинговых игр суще�
 GLUE_TOURNAMENT_UNRANKED_MODE	Игра без рейтинга	
 GLUE_TOURNAMENT_WILD_DESC	Можно использовать любые карты.	
 GLUE_TRADITIONAL	Hearthstone	
+GLUE_TRAINING_HALL_BUTTON_EARNING_TITLE	Получение опыта	
+GLUE_TRAINING_HALL_BUTTON_EARNING_TOOLTIP	Данный наемник тренируется и зарабатывает опыт.	
+GLUE_TRAINING_HALL_BUTTON_EMPTY_TITLE	Пусто	
+GLUE_TRAINING_HALL_BUTTON_EMPTY_TOOLTIP	Перетащите сюда наемника для начала тренировки.	
+GLUE_TRAINING_HALL_BUTTON_FINISHED_TITLE	Тренировка завершена	
+GLUE_TRAINING_HALL_BUTTON_FINISHED_TOOLTIP	Наемник завершил тренировку. Щелкните, чтобы получить заработанный опыт.	
+GLUE_TRAINING_HALL_BUTTON_LOCKED_TITLE	Недоступно	
+GLUE_TRAINING_HALL_BUTTON_LOCKED_TOOLTIP	Улучшите тренировочный зал, чтобы открыть это место.	
+GLUE_TRAINING_HALL_BUTTON_MAXLEVEL_BARTEXT	Тренировка не нужна	
+GLUE_TRAINING_HALL_BUTTON_MAXLEVEL_TITLE	Максимальный уровень	
+GLUE_TRAINING_HALL_BUTTON_MAXLEVEL_TOOLTIP	Данный наемник достиг максимального уровня и больше не зарабатывает опыт при тренировках.	
+GLUE_TRAINING_HALL_BUTTON_PREPARING_TITLE	Подготовка...	
+GLUE_TRAINING_HALL_BUTTON_PREPARING_TOOLTIP	Данный наемник готовится к тренировке и пока не зарабатывает опыт.	
+GLUE_TRAINING_HALL_MAX_LEVEL_MSG	Наемник уже достиг максимального уровня.	
+GLUE_TRAINING_HALL_NO_DRAG_MSG	Нажмите на кнопку, чтобы убрать этого наемника.	
+GLUE_TRAINING_HALL_NO_SLOTS_MSG	Все места для тренировок заняты.	
+GLUE_TRAINING_HALL_PREP_TIME_MIN	Осталось {0} мин.	0: prep time remaining in minutes
+GLUE_TRAINING_HALL_PREP_TIME_SEC	Осталось {0} сек.	0: prep time remaining in seconds
+GLUE_TRAINING_HALL_SUBTITLE	Позволяет наемникам зарабатывать опыт каждый час (максимум {0} часов).	0: max xp / xp per hour
+GLUE_TRAINING_HALL_TITLE	Тренировочная площадка	
 GLUE_TRL_LOADING_BAR_TASK_1	Пускаем волну...	
 GLUE_TRL_LOADING_BAR_TASK_10	Зажигаем петарды...	
 GLUE_TRL_LOADING_BAR_TASK_11	Начищаем клыки...	

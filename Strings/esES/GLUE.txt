@@ -598,6 +598,7 @@ GLUE_COLLECTION_GENERIC_ERROR	Un error del sistema ha impedido la solicitud. Vue
 GLUE_COLLECTION_GOLDEN_CARDS	Doradas	
 GLUE_COLLECTION_HOME_PAGE	Vista general	
 GLUE_COLLECTION_INCLUDE_PREMIUMS	Incluir doradas	
+GLUE_COLLECTION_LETTUCE_LOADOUT_TEXT	Equipamiento	
 GLUE_COLLECTION_LETTUCE_LOCK_TEXT	En tu grupo	
 GLUE_COLLECTION_LETTUCE_PVE_TEAMNAME	Grupo JcE	
 GLUE_COLLECTION_LETTUCE_UNCRAFTABLE_PROGRESSION	Se obtiene en la campaña de Mercenarios.	
@@ -613,6 +614,7 @@ GLUE_COLLECTION_MANAGER_CARD_BACKS_TITLE	Dorsos de carta
 GLUE_COLLECTION_MANAGER_COIN_TITLE	Monedas	
 GLUE_COLLECTION_MANAGER_COINS_TITLE	Monedas	
 GLUE_COLLECTION_MANAGER_FAVORITE_BUTTON	Establecer favorito	
+GLUE_COLLECTION_MANAGER_FAVORITE_BUTTON_MULTIPLE	Marcar/desmarcar como favorito	
 GLUE_COLLECTION_MANAGER_FAVORITE_CARD_BACK	Favorito	
 GLUE_COLLECTION_MANAGER_FAVORITE_COIN	Favorita	
 GLUE_COLLECTION_MANAGER_FAVORITE_DEFAULT_TEXT	Favorito: {0}	
@@ -632,6 +634,7 @@ GLUE_COLLECTION_MANAGER_SEARCH_EVEN_CARDS	par	Search term to filter cards in Col
 GLUE_COLLECTION_MANAGER_SEARCH_EVEN_HEALTH	par	Search term to filter cards in CollectionManager to cards with even health value. Example health:even
 GLUE_COLLECTION_MANAGER_SEARCH_EVEN_MANA	par	Search term to filter cards in CollectionManager to cards with even mana cost. Example: mana:even
 GLUE_COLLECTION_MANAGER_SEARCH_EXTRA	extras	
+GLUE_COLLECTION_MANAGER_SEARCH_FAVORITE	favoritos	
 GLUE_COLLECTION_MANAGER_SEARCH_GOLDEN	doradas	
 GLUE_COLLECTION_MANAGER_SEARCH_HAS	y	
 GLUE_COLLECTION_MANAGER_SEARCH_HEALTH	salud	
@@ -1122,6 +1125,8 @@ GLUE_LETTUCE_ABILITY_UPGRADE_PROMOTE_MERC	Mejora a un mercenario hasta el rango 
 GLUE_LETTUCE_ABILITY_UPGRADE_TITLE	Mejorar	
 GLUE_LETTUCE_BOUNTY_BOARD_BOUNTY_DISABLED	No disponible temporalmente	
 GLUE_LETTUCE_BOUNTY_BOARD_BOUNTY_LOCKED	¡Bloqueado!\nDerrota al jefe anterior	
+GLUE_LETTUCE_BOUNTY_BOARD_BOUNTY_TITLE	{0} en {1}	0=bossname, 1=bounty set name
+GLUE_LETTUCE_BOUNTY_BOARD_BOUNTY_TITLE_HEROIC_ADD	{0} (heroico)	0=bounty name
 GLUE_LETTUCE_BOUNTY_BOARD_HEADER	{0} contratos	0=The bounty zone name
 GLUE_LETTUCE_BOUNTY_BOARD_TEAM_LOCK_BODY	Tras iniciar una incursión, no podrás modificar tu grupo. ¿Quieres continuar?	
 GLUE_LETTUCE_BOUNTY_BOARD_TEAM_LOCK_CONFIRM	Fijar	
@@ -1146,6 +1151,7 @@ GLUE_LETTUCE_COLLECTION_EQUIPMENT_AVAILABLE_BUTTON_EQUIP	Volver
 GLUE_LETTUCE_COLLECTION_EQUIPMENT_AVAILABLE_DESC	No todos tus mercenarios están completamente equipados.\n\n¿Quieres continuar sin equiparlos?	
 GLUE_LETTUCE_COLLECTION_EQUIPMENT_AVAILABLE_HEADER	Equipo sin usar	
 GLUE_LETTUCE_COLLECTION_EQUIPMENT_REDEEM_ACHIEVEMENT	Reclama tus\nlogros	
+GLUE_LETTUCE_COLLECTION_EQUIPMENT_UNLOCK_BY_BOUNTY_DESC	Derrota a {0}	0=bounty title
 GLUE_LETTUCE_COLLECTION_EQUIPMENT_UNLOCK_DESC	Completa la tarea {0}	
 GLUE_LETTUCE_COLLECTION_FULLY_UPGRADED_MESSAGE	¡Enhorabuena! ¡Mercenario al máximo!	
 GLUE_LETTUCE_COLLECTION_INCOMPLETE_TEAM_DESC	Este grupo no tiene mercenarios. No podrás usarlo.\n\n¿Quieres continuar?	
@@ -1294,7 +1300,6 @@ GLUE_LETTUCE_VALIDATE_NO_TEAM_SELECTED	Selecciona un grupo.
 GLUE_LETTUCE_VALIDATE_TEAM_HEADER	Grupo no válido	
 GLUE_LETTUCE_VALIDATE_TEAM_INVALID	El grupo seleccionado no es válido.	
 GLUE_LETTUCE_VANITY_LOCKEDPLATE_MESSAGE	Se obtiene abriendo sobres	
-GLUE_LETTUCE_VANITY_LOCKEDPLATE_MESSAGE_REWARD_TRACK	Se obtiene en el mapa de recompensas	
 GLUE_LETTUCE_VANITY_LOCKEDPLATE_MESSAGE_TASK	Completa la tarea {0}	
 GLUE_LETTUCE_VANITY_TITLE	Retratos	
 GLUE_LETTUCE_VILLAGE_CLAIM_TASK_ERROR_DESCRIPTION	Se ha producido un error al reclamar la tarea. Inténtalo de nuevo más tarde.	
@@ -1303,6 +1308,8 @@ GLUE_LETTUCE_VILLAGE_DISMISS_TASK_WARNING_DESCRIPTION	Retira a este visitante de
 GLUE_LETTUCE_VILLAGE_DISMISS_TASK_WARNING_HEADER	¿Abandonar tarea?	
 GLUE_LETTUCE_VILLAGE_DISMISS_TITLE	Abandonar	
 GLUE_LETTUCE_VILLAGE_MYSTERIOUSTRANGER_NEW_TASK	Nueva tarea	
+GLUE_LETTUCE_VILLAGE_REMOVE_MERCENARY_TRAINING	¿Sacar mercenario?	
+GLUE_LETTUCE_VILLAGE_REMOVE_MERCENARY_TRAINING_DESCRIPTION	Si sacas a un mercenario antes de que termine su preparación, no recibirá PE.\n¿Seguro?	
 GLUE_LETTUCE_VILLAGE_TASK_CLAIM	Reclamar	
 GLUE_LETTUCE_VILLAGE_TASK_COMPLETE	¡Completada!	
 GLUE_LETTUCE_VILLAGE_TASK_HEADER	Tarea de mercenario	
@@ -1310,9 +1317,11 @@ GLUE_LETTUCE_VILLAGE_TASK_NUMBER	Tarea {0}: {1}
 GLUE_LETTUCE_VILLAGE_TASK_REWARDS_TITLE	Recompensas	
 GLUE_LETTUCE_VILLAGE_TASK_TITLE	Hoguera	
 GLUE_LETTUCE_VILLAGE_TASK_VACANT	Nuevo visitante mañana	
+GLUE_LETTUCE_VILLAGE_TIMEOUT_ERROR	Error al procesar la petición. Vuelve a intentarlo más tarde.	
 GLUE_LETTUCE_VILLAGE_TUTORIAL_GET_FREE_PACK	¡Canjea tu regalo de bienvenida!	
 GLUE_LETTUCE_VILLAGE_TUTORIAL_GRANT_TITLE	Esbirro poni	
 GLUE_LETTUCE_VILLAGE_TUTORIAL_OPEN_TASK_DETAIL	¡Selecciona esta tarea para ver las recompensas!	
+GLUE_LETTUCE_VILLAGE_TUTORIAL_START_TRAINING	¡Arrastra aquí a un mercenario para que empiece a entrenar!	
 GLUE_LETTUCE_VILLAGE_TUTORIAL_VISIT_COLLECTION_MANAGER	¡Visita la taberna!	
 GLUE_LETTUCE_VILLAGE_TUTORIAL_VISIT_MAILBOX	Consulta novedades en el buzón	
 GLUE_LETTUCE_VILLAGE_TUTORIAL_VISIT_PACK_OPENING	¡Abre tu nuevo sobre de Mercenarios!	
@@ -1616,6 +1625,10 @@ GLUE_PROGRESSION_AV_QUEST_DESCRIPTION	Honor
 GLUE_PROGRESSION_AV_WIN_OPPONENT_RANK	MH: {0}	
 GLUE_PROGRESSION_BONUS_ERROR_BODY	Ahora mismo no hay pases de taberna. Vuelve a intentarlo más tarde.	
 GLUE_PROGRESSION_BONUS_ERROR_HEADER	Pase de taberna	
+GLUE_PROGRESSION_NO_QUEST_PROGRESS_FOR_CONCEDE_BODY	Perderás los progresos de una o más misiones si te rindes tan pronto.	
+GLUE_PROGRESSION_NO_QUEST_PROGRESS_FOR_CONCEDE_CANCEL	Seguir jugando	
+GLUE_PROGRESSION_NO_QUEST_PROGRESS_FOR_CONCEDE_CONFIRM	Rendirse ya	
+GLUE_PROGRESSION_NO_QUEST_PROGRESS_FOR_CONCEDE_HEADER	¿Te rindes?	
 GLUE_PROGRESSION_PROFILE_CLASS_TITLE	Progreso de clase	
 GLUE_PROGRESSION_PROFILE_TITLE	Perfil	
 GLUE_PROGRESSION_QUEST_DAILY	Diaria	
@@ -2339,7 +2352,12 @@ GLUE_TIP_ADVENTURE_BOM_13	Cornelius Roame crio a sus hijas Cariel y Tamsin en Ve
 GLUE_TIP_ADVENTURE_BOM_14	Los criminales y enemigos de la Alianza están encerrados en las Mazmorras de Ventormenta.	
 GLUE_TIP_ADVENTURE_BOM_15	Scabbs Cortamanteca es un agente del IV:7, la red de espías de élite de Ventormenta.	
 GLUE_TIP_ADVENTURE_BOM_16	Kazakus y lady Prestor han reclutado mercenarios para que los ayuden a encontrar los fragmentos del naaru.	
+GLUE_TIP_ADVENTURE_BOM_17	Los orcos Lobo Gélido y los enanos Pico Tormenta luchan por el control del Valle de Alterac.	
+GLUE_TIP_ADVENTURE_BOM_18	En Alterac, Kazakus espera reunir los fragmentos del naaru.	
+GLUE_TIP_ADVENTURE_BOM_19	Tavish y Rokara regresan con su familia en Alterac para luchar por el poder del naaru.	
 GLUE_TIP_ADVENTURE_BOM_2	¡Este viaje heroico te ha proporcionado mazos y poderes de héroe!	
+GLUE_TIP_ADVENTURE_BOM_20	Se rumorea que hay señores elementales hibernando en el Valle de Alterac.	
+GLUE_TIP_ADVENTURE_BOM_21	Lady Katrana Prestor es en realidad Onyxia, la madre de linaje del Vuelo Negro.	
 GLUE_TIP_ADVENTURE_BOM_3	En algunas batallas puedes elegir quién luchará a tu lado.	
 GLUE_TIP_ADVENTURE_BOM_4	Cada volumen del Libro de los Mercenarios continúa la historia.	
 GLUE_TIP_ADVENTURE_BOM_5	¡Prepárate para cualquier cosa! La vida de un mercenario está llena de sorpresas.	
@@ -2704,6 +2722,26 @@ GLUE_TOURNAMENT_UNRANKED_DESC	El modo sin rango tiene un índice de habilidad di
 GLUE_TOURNAMENT_UNRANKED_MODE	Modo sin rango	
 GLUE_TOURNAMENT_WILD_DESC	Se pueden usar todas las cartas.	
 GLUE_TRADITIONAL	Hearthstone	
+GLUE_TRAINING_HALL_BUTTON_EARNING_TITLE	Ganando PE	
+GLUE_TRAINING_HALL_BUTTON_EARNING_TOOLTIP	Este mercenario está entrenando y ganando PE.	
+GLUE_TRAINING_HALL_BUTTON_EMPTY_TITLE	Vacío	
+GLUE_TRAINING_HALL_BUTTON_EMPTY_TOOLTIP	Arrastra aquí a un mercenario para que empiece a entrenar.	
+GLUE_TRAINING_HALL_BUTTON_FINISHED_TITLE	Listo	
+GLUE_TRAINING_HALL_BUTTON_FINISHED_TOOLTIP	Este mercenario ha terminado el entrenamiento. Haz clic para obtener los PE ganados.	
+GLUE_TRAINING_HALL_BUTTON_LOCKED_TITLE	Bloqueado	
+GLUE_TRAINING_HALL_BUTTON_LOCKED_TOOLTIP	Debes mejorar la cámara de entrenamiento para desbloquear este espacio.	
+GLUE_TRAINING_HALL_BUTTON_MAXLEVEL_BARTEXT	No está entrenando	
+GLUE_TRAINING_HALL_BUTTON_MAXLEVEL_TITLE	Nivel máximo	
+GLUE_TRAINING_HALL_BUTTON_MAXLEVEL_TOOLTIP	Este mercenario ha alcanzado el nivel máximo y no puede ganar más PE entrenando.	
+GLUE_TRAINING_HALL_BUTTON_PREPARING_TITLE	Preparándose…	
+GLUE_TRAINING_HALL_BUTTON_PREPARING_TOOLTIP	Este mercenario se está preparando para entrenar y aún no está ganando PE.	
+GLUE_TRAINING_HALL_MAX_LEVEL_MSG	Este mercenario ya ha alcanzado el nivel máximo.	
+GLUE_TRAINING_HALL_NO_DRAG_MSG	Usa el botón para sacar al mercenario.	
+GLUE_TRAINING_HALL_NO_SLOTS_MSG	No quedan espacios de entrenamiento.	
+GLUE_TRAINING_HALL_PREP_TIME_MIN	Tiempo restante: {0} min	0: prep time remaining in minutes
+GLUE_TRAINING_HALL_PREP_TIME_SEC	Tiempo restante: {0} s	0: prep time remaining in seconds
+GLUE_TRAINING_HALL_SUBTITLE	Gana PE de mercenario por hora (máx. {0} h).	0: max xp / xp per hour
+GLUE_TRAINING_HALL_TITLE	Campo de entrenamiento	
 GLUE_TRL_LOADING_BAR_TASK_1	Haciendo la ola	
 GLUE_TRL_LOADING_BAR_TASK_10	Prendiendo la pirotecnia	
 GLUE_TRL_LOADING_BAR_TASK_11	Abrillantando colmillos	
