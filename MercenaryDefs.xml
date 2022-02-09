@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<MercenaryDefs build="131337">
+<MercenaryDefs build="131660">
 	<Mercenary ID="1" collectible="True" crafting_cost="500" name="Rexxar" rarity="5">
 		<Skins>
 			<Skin CardID="64516" default="True"/>
@@ -2582,7 +2582,7 @@
 							<itIT>Riscaldamento</itIT>
 							<jaJP>加熱</jaJP>
 							<koKR>열기</koKR>
-							<plPL>Podgrzewanie</plPL>
+							<plPL>Przegrzanie</plPL>
 							<ptBR>Aquecendo</ptBR>
 							<ruRU>Разогрев</ruRU>
 							<thTH>เร่งความร้อน</thTH>
@@ -11255,6 +11255,137 @@
 			</Equipment>
 		</Equipments>
 	</Mercenary>
+	<Mercenary ID="254" collectible="True" crafting_cost="500" name="Long'xin" rarity="5">
+		<Skins>
+			<Skin CardID="82393"/>
+			<Skin CardID="83889" default="True"/>
+			<Skin CardID="83890"/>
+		</Skins>
+		<ShortName/>
+		<Specializations>
+			<Specialization ID="311">
+				<Name>
+					<deDE>Combo</deDE>
+					<enUS>Combo</enUS>
+					<esES>Combo</esES>
+					<esMX>Combo</esMX>
+					<frFR>Combo</frFR>
+					<itIT>Combo</itIT>
+					<jaJP>コンボ</jaJP>
+					<koKR>연계</koKR>
+					<plPL>Kombinacja</plPL>
+					<ptBR>Combo</ptBR>
+					<ruRU>Серия приемов</ruRU>
+					<thTH>คอมโบ</thTH>
+					<zhCN>连击</zhCN>
+					<zhTW>連擊</zhTW>
+				</Name>
+				<Abilities>
+					<Ability ID="697">
+						<Name>
+							<deDE>Himmlischer Atem</deDE>
+							<enUS>Celestial Breath</enUS>
+							<esES>Aliento celestial</esES>
+							<esMX>Aliento celestial</esMX>
+							<frFR>Souffle céleste</frFR>
+							<itIT>Soffio Celestiale</itIT>
+							<jaJP>星界竜の息吹</jaJP>
+							<koKR>천공의 숨결</koKR>
+							<plPL>Niebiański oddech</plPL>
+							<ptBR>Sopro Celestial</ptBR>
+							<ruRU>Небесное дыхание</ruRU>
+							<thTH>ลมหายใจสวรรค์</thTH>
+							<zhCN>天神之息</zhCN>
+							<zhTW>星界吐息</zhTW>
+						</Name>
+						<Tiers>
+							<Tier CardID="84333" crafting_cost="0" tier="1"/>
+							<Tier CardID="84332" crafting_cost="50" tier="2"/>
+							<Tier CardID="84331" crafting_cost="125" tier="3"/>
+							<Tier CardID="84330" crafting_cost="150" tier="4"/>
+							<Tier CardID="80984" crafting_cost="150" tier="5"/>
+						</Tiers>
+					</Ability>
+					<Ability ID="698">
+						<Name>
+							<deDE>Sternenfeuersegen</deDE>
+							<enUS>Starfire Blessing</enUS>
+							<esES>Bendición de Fuego estelar</esES>
+							<esMX>Bendición de fuego estelar</esMX>
+							<frFR>Bénédiction de feu stellaire</frFR>
+							<itIT>Benedizione del Fuoco Stellare</itIT>
+							<jaJP>星炎の祝福</jaJP>
+							<koKR>별빛섬광 축복</koKR>
+							<plPL>Dar gwiezdnego ognia</plPL>
+							<ptBR>Bênção do Fogo Estelar</ptBR>
+							<ruRU>Дар звездного огня</ruRU>
+							<thTH>พรเพลิงดารา</thTH>
+							<zhCN>星火祝福</zhCN>
+							<zhTW>星火祝福</zhTW>
+						</Name>
+						<Tiers>
+							<Tier CardID="84338" crafting_cost="0" tier="1"/>
+							<Tier CardID="84337" crafting_cost="50" tier="2"/>
+							<Tier CardID="84335" crafting_cost="125" tier="3"/>
+							<Tier CardID="84336" crafting_cost="150" tier="4"/>
+							<Tier CardID="81000" crafting_cost="150" tier="5"/>
+						</Tiers>
+					</Ability>
+					<Ability ID="699">
+						<Name>
+							<deDE>Inmitten der Sterne</deDE>
+							<enUS>Among the Stars</enUS>
+							<esES>Entre las estrellas</esES>
+							<esMX>Entre las estrellas</esMX>
+							<frFR>Parmi les étoiles</frFR>
+							<itIT>Tra le Stelle</itIT>
+							<jaJP>星々の世界</jaJP>
+							<koKR>별들 속에서</koKR>
+							<plPL>Pośród gwiazd</plPL>
+							<ptBR>Entre as Estrelas</ptBR>
+							<ruRU>Среди звезд</ruRU>
+							<thTH>ท่ามกลางหมู่ดาว</thTH>
+							<zhCN>群星簇拥</zhCN>
+							<zhTW>繁星環繞</zhTW>
+						</Name>
+						<Tiers>
+							<Tier CardID="84343" crafting_cost="0" tier="1"/>
+							<Tier CardID="84342" crafting_cost="50" tier="2"/>
+							<Tier CardID="84340" crafting_cost="125" tier="3"/>
+							<Tier CardID="84339" crafting_cost="150" tier="4"/>
+							<Tier CardID="81002" crafting_cost="150" tier="5"/>
+						</Tiers>
+					</Ability>
+				</Abilities>
+			</Specialization>
+		</Specializations>
+		<Equipments>
+			<Equipment ID="278">
+				<Tiers>
+					<Tier CardID="84918" crafting_cost="0" tier="1"/>
+					<Tier CardID="84917" crafting_cost="100" tier="2"/>
+					<Tier CardID="84916" crafting_cost="150" tier="3"/>
+					<Tier CardID="83891" crafting_cost="175" tier="4"/>
+				</Tiers>
+			</Equipment>
+			<Equipment ID="279">
+				<Tiers>
+					<Tier CardID="84914" crafting_cost="0" tier="1"/>
+					<Tier CardID="84913" crafting_cost="100" tier="2"/>
+					<Tier CardID="84912" crafting_cost="150" tier="3"/>
+					<Tier CardID="83893" crafting_cost="175" tier="4"/>
+				</Tiers>
+			</Equipment>
+			<Equipment ID="280">
+				<Tiers>
+					<Tier CardID="84911" crafting_cost="0" tier="1"/>
+					<Tier CardID="84910" crafting_cost="100" tier="2"/>
+					<Tier CardID="84909" crafting_cost="150" tier="3"/>
+					<Tier CardID="83900" crafting_cost="175" tier="4"/>
+				</Tiers>
+			</Equipment>
+		</Equipments>
+	</Mercenary>
 	<Mercenary ID="255" collectible="False" crafting_cost="50" name="Injured Blademaster" rarity="1">
 		<Skins>
 			<Skin CardID="82670" default="True"/>
@@ -12027,6 +12158,537 @@
 				</Abilities>
 			</Specialization>
 		</Specializations>
+		<Equipments/>
+	</Mercenary>
+	<Mercenary ID="282" collectible="True" crafting_cost="300" name="Xuen" rarity="4">
+		<Skins>
+			<Skin CardID="83928"/>
+			<Skin CardID="83929" default="True"/>
+			<Skin CardID="83930"/>
+		</Skins>
+		<ShortName/>
+		<Specializations>
+			<Specialization ID="341">
+				<Name>
+					<deDE>Tempokontrolle</deDE>
+					<enUS>Speed Control</enUS>
+					<esES>Control de velocidad</esES>
+					<esMX>Control de velocidad</esMX>
+					<frFR>Contrôle de la vitesse</frFR>
+					<itIT>Controllo Velocità</itIT>
+					<jaJP>速度操作</jaJP>
+					<koKR>속도 제어</koKR>
+					<plPL>Kontrola szybkości</plPL>
+					<ptBR>Controle de Velocidade</ptBR>
+					<ruRU>Контроль скорости</ruRU>
+					<thTH>ควบคุมสปีด</thTH>
+					<zhCN>速度控制</zhCN>
+					<zhTW>速度控制</zhTW>
+				</Name>
+				<Abilities>
+					<Ability ID="735">
+						<Name>
+							<deDE>Ausgleichender Hieb</deDE>
+							<enUS>Equalizing Strike</enUS>
+							<esES>Golpe ecualizante</esES>
+							<esMX>Golpe equilibrante</esMX>
+							<frFR>Frappe d’égalisation</frFR>
+							<itIT>Assalto Equalizzante</itIT>
+							<jaJP>虎叉法</jaJP>
+							<koKR>균등화 일격</koKR>
+							<plPL>Zrównujące uderzenie</plPL>
+							<ptBR>Ataque Equalizador</ptBR>
+							<ruRU>Уравнивающий удар</ruRU>
+							<thTH>โจมตีเสมอภาค</thTH>
+							<zhCN>均衡一击</zhCN>
+							<zhTW>等化打擊</zhTW>
+						</Name>
+						<Tiers>
+							<Tier CardID="84254" crafting_cost="0" tier="1"/>
+							<Tier CardID="84253" crafting_cost="50" tier="2"/>
+							<Tier CardID="84252" crafting_cost="125" tier="3"/>
+							<Tier CardID="84251" crafting_cost="150" tier="4"/>
+							<Tier CardID="83931" crafting_cost="150" tier="5"/>
+						</Tiers>
+					</Ability>
+					<Ability ID="736">
+						<Name>
+							<deDE>Anspringen</deDE>
+							<enUS>Pounce</enUS>
+							<esES>Lanzarse</esES>
+							<esMX>Lanzarse</esMX>
+							<frFR>Traquenard</frFR>
+							<itIT>Agguato</itIT>
+							<jaJP>虎狩り</jaJP>
+							<koKR>암습</koKR>
+							<plPL>Sus</plPL>
+							<ptBR>Pulo do Gato</ptBR>
+							<ruRU>Наскок</ruRU>
+							<thTH>กระโจน</thTH>
+							<zhCN>白虎飞扑</zhCN>
+							<zhTW>撲襲</zhTW>
+						</Name>
+						<Tiers>
+							<Tier CardID="84259" crafting_cost="0" tier="1"/>
+							<Tier CardID="84258" crafting_cost="50" tier="2"/>
+							<Tier CardID="84257" crafting_cost="125" tier="3"/>
+							<Tier CardID="84256" crafting_cost="150" tier="4"/>
+							<Tier CardID="83932" crafting_cost="150" tier="5"/>
+						</Tiers>
+					</Ability>
+					<Ability ID="737">
+						<Name>
+							<deDE>Tigerblitz</deDE>
+							<enUS>Tiger Lightning</enUS>
+							<esES>Relámpago tigre</esES>
+							<esMX>Relámpago del tigre</esMX>
+							<frFR>Foudre du tigre</frFR>
+							<itIT>Fulmine della Tigre</itIT>
+							<jaJP>虎雷</jaJP>
+							<koKR>호랑이 번개</koKR>
+							<plPL>Tygrysia błyskawica</plPL>
+							<ptBR>Raio de Tigre</ptBR>
+							<ruRU>Тигриная молния</ruRU>
+							<thTH>สายฟ้าพยัคฆ์</thTH>
+							<zhCN>伏虎闪雷</zhCN>
+							<zhTW>雷電虎爪</zhTW>
+						</Name>
+						<Tiers>
+							<Tier CardID="84265" crafting_cost="0" tier="1"/>
+							<Tier CardID="84264" crafting_cost="50" tier="2"/>
+							<Tier CardID="84263" crafting_cost="125" tier="3"/>
+							<Tier CardID="84262" crafting_cost="150" tier="4"/>
+							<Tier CardID="83933" crafting_cost="150" tier="5"/>
+						</Tiers>
+					</Ability>
+				</Abilities>
+			</Specialization>
+		</Specializations>
+		<Equipments>
+			<Equipment ID="293">
+				<Tiers>
+					<Tier CardID="84381" crafting_cost="0" tier="1"/>
+					<Tier CardID="84380" crafting_cost="100" tier="2"/>
+					<Tier CardID="84377" crafting_cost="150" tier="3"/>
+					<Tier CardID="84376" crafting_cost="175" tier="4"/>
+				</Tiers>
+			</Equipment>
+			<Equipment ID="294">
+				<Tiers>
+					<Tier CardID="84757" crafting_cost="0" tier="1"/>
+					<Tier CardID="84756" crafting_cost="100" tier="2"/>
+					<Tier CardID="84755" crafting_cost="150" tier="3"/>
+					<Tier CardID="84389" crafting_cost="175" tier="4"/>
+				</Tiers>
+			</Equipment>
+			<Equipment ID="295">
+				<Tiers>
+					<Tier CardID="84763" crafting_cost="0" tier="1"/>
+					<Tier CardID="84762" crafting_cost="100" tier="2"/>
+					<Tier CardID="84761" crafting_cost="150" tier="3"/>
+					<Tier CardID="84760" crafting_cost="175" tier="4"/>
+				</Tiers>
+			</Equipment>
+		</Equipments>
+	</Mercenary>
+	<Mercenary ID="283" collectible="True" crafting_cost="100" name="Niuzao" rarity="3">
+		<Skins>
+			<Skin CardID="83992"/>
+			<Skin CardID="83993" default="True"/>
+			<Skin CardID="83994"/>
+		</Skins>
+		<ShortName/>
+		<Specializations>
+			<Specialization ID="342">
+				<Name>
+					<deDE>Tempokontrolle</deDE>
+					<enUS>Speed Control</enUS>
+					<esES>Control de velocidad</esES>
+					<esMX>Control de velocidad</esMX>
+					<frFR>Contrôle de la vitesse</frFR>
+					<itIT>Controllo Velocità</itIT>
+					<jaJP>速度操作</jaJP>
+					<koKR>속도 제어</koKR>
+					<plPL>Kontrola szybkości</plPL>
+					<ptBR>Controle de Velocidade</ptBR>
+					<ruRU>Контроль скорости</ruRU>
+					<thTH>ควบคุมสปีด</thTH>
+					<zhCN>速度控制</zhCN>
+					<zhTW>速度控制</zhTW>
+				</Name>
+				<Abilities>
+					<Ability ID="738">
+						<Name>
+							<deDE>Kopfstoß</deDE>
+							<enUS>Headbutt</enUS>
+							<esES>Cabezazo</esES>
+							<esMX>Cabezazo</esMX>
+							<frFR>Coup de tête</frFR>
+							<itIT>Testata</itIT>
+							<jaJP>頭突き</jaJP>
+							<koKR>박치기</koKR>
+							<plPL>Uderzenie bykiem</plPL>
+							<ptBR>Cabeçada</ptBR>
+							<ruRU>Удар головой</ruRU>
+							<thTH>หัวพุ่งชน</thTH>
+							<zhCN>迎头冲撞</zhCN>
+							<zhTW>犄角頂撞</zhTW>
+						</Name>
+						<Tiers>
+							<Tier CardID="84278" crafting_cost="0" tier="1"/>
+							<Tier CardID="84277" crafting_cost="50" tier="2"/>
+							<Tier CardID="84276" crafting_cost="125" tier="3"/>
+							<Tier CardID="84275" crafting_cost="150" tier="4"/>
+							<Tier CardID="83995" crafting_cost="150" tier="5"/>
+						</Tiers>
+					</Ability>
+					<Ability ID="739">
+						<Name>
+							<deDE>Bullenstärke</deDE>
+							<enUS>Bullish Fortitude</enUS>
+							<esES>Entereza de toro</esES>
+							<esMX>Fortaleza obstinada</esMX>
+							<frFR>Robustesse taurine</frFR>
+							<itIT>Fermezza Bovina</itIT>
+							<jaJP>侠牛立ち</jaJP>
+							<koKR>소의 인내력</koKR>
+							<plPL>Bycza wytrwałość</plPL>
+							<ptBR>Fortitude Pertinaz</ptBR>
+							<ruRU>Выносливость быка</ruRU>
+							<thTH>กระทิงทรหด</thTH>
+							<zhCN>玄牛之韧</zhCN>
+							<zhTW>牛之堅韌</zhTW>
+						</Name>
+						<Tiers>
+							<Tier CardID="84282" crafting_cost="0" tier="1"/>
+							<Tier CardID="84281" crafting_cost="50" tier="2"/>
+							<Tier CardID="84280" crafting_cost="125" tier="3"/>
+							<Tier CardID="84279" crafting_cost="150" tier="4"/>
+							<Tier CardID="83996" crafting_cost="150" tier="5"/>
+						</Tiers>
+					</Ability>
+					<Ability ID="740">
+						<Name>
+							<deDE>Segen des Ochsen</deDE>
+							<enUS>Blessing of the Ox</enUS>
+							<esES>Bendición del buey</esES>
+							<esMX>Bendición del buey</esMX>
+							<frFR>Bénédiction du bœuf</frFR>
+							<itIT>Benedizione dello Yak</itIT>
+							<jaJP>牛の祝福</jaJP>
+							<koKR>흑우의 축복</koKR>
+							<plPL>Błogosławieństwo wołu</plPL>
+							<ptBR>Bênção do Boi</ptBR>
+							<ruRU>Благословение быка</ruRU>
+							<thTH>พรของวัว</thTH>
+							<zhCN>神牛赐福</zhCN>
+							<zhTW>玄牛祝福</zhTW>
+						</Name>
+						<Tiers>
+							<Tier CardID="84286" crafting_cost="0" tier="1"/>
+							<Tier CardID="84285" crafting_cost="50" tier="2"/>
+							<Tier CardID="84284" crafting_cost="125" tier="3"/>
+							<Tier CardID="84283" crafting_cost="150" tier="4"/>
+							<Tier CardID="83998" crafting_cost="150" tier="5"/>
+						</Tiers>
+					</Ability>
+				</Abilities>
+			</Specialization>
+		</Specializations>
+		<Equipments>
+			<Equipment ID="296">
+				<Tiers>
+					<Tier CardID="84886" crafting_cost="0" tier="1"/>
+					<Tier CardID="84885" crafting_cost="100" tier="2"/>
+					<Tier CardID="84884" crafting_cost="150" tier="3"/>
+					<Tier CardID="84883" crafting_cost="175" tier="4"/>
+				</Tiers>
+			</Equipment>
+			<Equipment ID="297">
+				<Tiers>
+					<Tier CardID="84890" crafting_cost="0" tier="1"/>
+					<Tier CardID="84889" crafting_cost="100" tier="2"/>
+					<Tier CardID="84888" crafting_cost="150" tier="3"/>
+					<Tier CardID="84887" crafting_cost="175" tier="4"/>
+				</Tiers>
+			</Equipment>
+			<Equipment ID="298">
+				<Tiers>
+					<Tier CardID="84897" crafting_cost="0" tier="1"/>
+					<Tier CardID="84896" crafting_cost="100" tier="2"/>
+					<Tier CardID="84895" crafting_cost="150" tier="3"/>
+					<Tier CardID="84892" crafting_cost="175" tier="4"/>
+				</Tiers>
+			</Equipment>
+		</Equipments>
+	</Mercenary>
+	<Mercenary ID="285" collectible="True" crafting_cost="100" name="Yu'lon" rarity="3">
+		<Skins>
+			<Skin CardID="84037"/>
+			<Skin CardID="84038" default="True"/>
+			<Skin CardID="84039"/>
+		</Skins>
+		<ShortName/>
+		<Specializations>
+			<Specialization ID="344">
+				<Name>
+					<deDE>Tempokontrolle</deDE>
+					<enUS>Speed Control</enUS>
+					<esES>Control de velocidad</esES>
+					<esMX>Control de velocidad</esMX>
+					<frFR>Contrôle de la vitesse</frFR>
+					<itIT>Controllo Velocità</itIT>
+					<jaJP>速度操作</jaJP>
+					<koKR>속도 제어</koKR>
+					<plPL>Kontrola szybkości</plPL>
+					<ptBR>Controle de Velocidade</ptBR>
+					<ruRU>Контроль скорости</ruRU>
+					<thTH>ควบคุมสปีด</thTH>
+					<zhCN>速度控制</zhCN>
+					<zhTW>速度控制</zhTW>
+				</Name>
+				<Abilities>
+					<Ability ID="746">
+						<Name>
+							<deDE>Jadewinde</deDE>
+							<enUS>Jade Gust</enUS>
+							<esES>Ráfaga de jade</esES>
+							<esMX>Ráfaga de jade</esMX>
+							<frFR>Bourrasque de jade</frFR>
+							<itIT>Folata di Giada</itIT>
+							<jaJP>翡翠の突風</jaJP>
+							<koKR>비취 돌풍</koKR>
+							<plPL>Nefrytowy podmuch</plPL>
+							<ptBR>Lufada de Jade</ptBR>
+							<ruRU>Порыв нефритового ветра</ruRU>
+							<thTH>ลมหยกกระโชก</thTH>
+							<zhCN>青玉劲风</zhCN>
+							<zhTW>碧玉強風</zhTW>
+						</Name>
+						<Tiers>
+							<Tier CardID="84306" crafting_cost="0" tier="1"/>
+							<Tier CardID="84305" crafting_cost="50" tier="2"/>
+							<Tier CardID="84304" crafting_cost="125" tier="3"/>
+							<Tier CardID="84303" crafting_cost="150" tier="4"/>
+							<Tier CardID="84040" crafting_cost="150" tier="5"/>
+						</Tiers>
+					</Ability>
+					<Ability ID="747">
+						<Name>
+							<deDE>Jadeflammenpuffer</deDE>
+							<enUS>Jadeflame Buffet</enUS>
+							<esES>Sacudida de llama de jade</esES>
+							<esMX>Sacudida de llama de jade</esMX>
+							<frFR>Rafale de jadeflamme</frFR>
+							<itIT>Folata di Giadalucente</itIT>
+							<jaJP>翠焔噴射</jaJP>
+							<koKR>비취불꽃 강타</koKR>
+							<plPL>Uderzenie nefrytowych płomieni</plPL>
+							<ptBR>Investida de Chamajade</ptBR>
+							<ruRU>Удар нефритового огня</ruRU>
+							<thTH>เพลิงหยกโหมกระหน่ำ</thTH>
+							<zhCN>玉火打击</zhCN>
+							<zhTW>碧火吹襲</zhTW>
+						</Name>
+						<Tiers>
+							<Tier CardID="84310" crafting_cost="0" tier="1"/>
+							<Tier CardID="84309" crafting_cost="50" tier="2"/>
+							<Tier CardID="84308" crafting_cost="125" tier="3"/>
+							<Tier CardID="84307" crafting_cost="150" tier="4"/>
+							<Tier CardID="84044" crafting_cost="150" tier="5"/>
+						</Tiers>
+					</Ability>
+					<Ability ID="748">
+						<Name>
+							<deDE>Einhüllender Nebel</deDE>
+							<enUS>Enveloping Mist</enUS>
+							<esES>Niebla envolvente</esES>
+							<esMX>Niebla envolvente</esMX>
+							<frFR>Brume enveloppante</frFR>
+							<itIT>Nebbia Avvolgente</itIT>
+							<jaJP>包み込む霧</jaJP>
+							<koKR>포용의 안개</koKR>
+							<plPL>Otulająca mgła</plPL>
+							<ptBR>Bruma Envolvente</ptBR>
+							<ruRU>Окутывающий туман</ruRU>
+							<thTH>หมอกโอบล้อม</thTH>
+							<zhCN>氤氲之雾</zhCN>
+							<zhTW>迷霧繚繞</zhTW>
+						</Name>
+						<Tiers>
+							<Tier CardID="84314" crafting_cost="0" tier="1"/>
+							<Tier CardID="84313" crafting_cost="50" tier="2"/>
+							<Tier CardID="84312" crafting_cost="125" tier="3"/>
+							<Tier CardID="84311" crafting_cost="150" tier="4"/>
+							<Tier CardID="84101" crafting_cost="150" tier="5"/>
+						</Tiers>
+					</Ability>
+				</Abilities>
+			</Specialization>
+		</Specializations>
+		<Equipments>
+			<Equipment ID="299">
+				<Tiers>
+					<Tier CardID="84905" crafting_cost="0" tier="1"/>
+					<Tier CardID="84904" crafting_cost="100" tier="2"/>
+					<Tier CardID="84903" crafting_cost="150" tier="3"/>
+					<Tier CardID="84902" crafting_cost="175" tier="4"/>
+				</Tiers>
+			</Equipment>
+			<Equipment ID="300">
+				<Tiers>
+					<Tier CardID="84908" crafting_cost="0" tier="2"/>
+					<Tier CardID="84907" crafting_cost="150" tier="3"/>
+					<Tier CardID="84906" crafting_cost="175" tier="4"/>
+				</Tiers>
+			</Equipment>
+			<Equipment ID="301">
+				<Tiers>
+					<Tier CardID="84922" crafting_cost="0" tier="1"/>
+					<Tier CardID="84921" crafting_cost="100" tier="2"/>
+					<Tier CardID="84920" crafting_cost="150" tier="3"/>
+					<Tier CardID="84915" crafting_cost="175" tier="4"/>
+				</Tiers>
+			</Equipment>
+		</Equipments>
+	</Mercenary>
+	<Mercenary ID="286" collectible="True" crafting_cost="300" name="Chi-Ji" rarity="4">
+		<Skins>
+			<Skin CardID="84124"/>
+			<Skin CardID="84125" default="True"/>
+			<Skin CardID="84126"/>
+		</Skins>
+		<ShortName/>
+		<Specializations>
+			<Specialization ID="345">
+				<Name>
+					<deDE>Tempokontrolle</deDE>
+					<enUS>Speed Control</enUS>
+					<esES>Control de velocidad</esES>
+					<esMX>Control de velocidad</esMX>
+					<frFR>Contrôle de la vitesse</frFR>
+					<itIT>Controllo Velocità</itIT>
+					<jaJP>速度操作</jaJP>
+					<koKR>속도 제어</koKR>
+					<plPL>Kontrola szybkości</plPL>
+					<ptBR>Controle de Velocidade</ptBR>
+					<ruRU>Контроль скорости</ruRU>
+					<thTH>ควบคุมสปีด</thTH>
+					<zhCN>速度控制</zhCN>
+					<zhTW>速度控制</zhTW>
+				</Name>
+				<Abilities>
+					<Ability ID="749">
+						<Name>
+							<deDE>Flammende Hymne</deDE>
+							<enUS>Blazing Song</enUS>
+							<esES>Canción llameante</esES>
+							<esMX>Canción llameante</esMX>
+							<frFR>Chant flamboyant</frFR>
+							<itIT>Canto Fiammeggiante</itIT>
+							<jaJP>烈火の歌</jaJP>
+							<koKR>타오르는 노래</koKR>
+							<plPL>Płomienna pieśń</plPL>
+							<ptBR>Canção Fulgurante</ptBR>
+							<ruRU>Неистовая песнь</ruRU>
+							<thTH>บทเพลงเผาผลาญ</thTH>
+							<zhCN>烈焰之歌</zhCN>
+							<zhTW>熾炎之歌</zhTW>
+						</Name>
+						<Tiers>
+							<Tier CardID="84318" crafting_cost="0" tier="1"/>
+							<Tier CardID="84317" crafting_cost="50" tier="2"/>
+							<Tier CardID="84316" crafting_cost="125" tier="3"/>
+							<Tier CardID="84315" crafting_cost="150" tier="4"/>
+							<Tier CardID="84127" crafting_cost="150" tier="5"/>
+						</Tiers>
+					</Ability>
+					<Ability ID="750">
+						<Name>
+							<deDE>Inspirierender Gesang</deDE>
+							<enUS>Inspiring Song</enUS>
+							<esES>Canción inspiradora</esES>
+							<esMX>Canción inspiradora</esMX>
+							<frFR>Chant inspirant</frFR>
+							<itIT>Canto Motivante</itIT>
+							<jaJP>活力の歌</jaJP>
+							<koKR>격려의 노래</koKR>
+							<plPL>Inspirująca pieśń</plPL>
+							<ptBR>Canção Inspiradora</ptBR>
+							<ruRU>Воодушевляющая песнь </ruRU>
+							<thTH>บทเพลงบันดาลใจ</thTH>
+							<zhCN>振奋之歌</zhCN>
+							<zhTW>激勵之歌</zhTW>
+						</Name>
+						<Tiers>
+							<Tier CardID="84322" crafting_cost="0" tier="1"/>
+							<Tier CardID="84321" crafting_cost="50" tier="2"/>
+							<Tier CardID="84320" crafting_cost="125" tier="3"/>
+							<Tier CardID="84319" crafting_cost="150" tier="4"/>
+							<Tier CardID="84129" crafting_cost="150" tier="5"/>
+						</Tiers>
+					</Ability>
+					<Ability ID="751">
+						<Name>
+							<deDE>Feuersturm</deDE>
+							<enUS>Firestorm</enUS>
+							<esES>Tormenta de Fuego</esES>
+							<esMX>Tormenta de fuego</esMX>
+							<frFR>Tempête de feu</frFR>
+							<itIT>Tempesta di Fuoco</itIT>
+							<jaJP>火災旋風</jaJP>
+							<koKR>화염폭풍</koKR>
+							<plPL>Burza ognia</plPL>
+							<ptBR>Tempestade de Fogo</ptBR>
+							<ruRU>Огненная буря</ruRU>
+							<thTH>พายุเพลิง</thTH>
+							<zhCN>火雨风暴</zhCN>
+							<zhTW>火焰風暴</zhTW>
+						</Name>
+						<Tiers>
+							<Tier CardID="84326" crafting_cost="0" tier="1"/>
+							<Tier CardID="84325" crafting_cost="50" tier="2"/>
+							<Tier CardID="84324" crafting_cost="125" tier="3"/>
+							<Tier CardID="84323" crafting_cost="150" tier="4"/>
+							<Tier CardID="84130" crafting_cost="150" tier="5"/>
+						</Tiers>
+					</Ability>
+				</Abilities>
+			</Specialization>
+		</Specializations>
+		<Equipments>
+			<Equipment ID="302">
+				<Tiers>
+					<Tier CardID="84959" crafting_cost="0" tier="1"/>
+					<Tier CardID="84926" crafting_cost="100" tier="2"/>
+					<Tier CardID="84925" crafting_cost="150" tier="3"/>
+					<Tier CardID="84924" crafting_cost="175" tier="4"/>
+				</Tiers>
+			</Equipment>
+			<Equipment ID="303">
+				<Tiers>
+					<Tier CardID="84964" crafting_cost="0" tier="1"/>
+					<Tier CardID="84963" crafting_cost="100" tier="2"/>
+					<Tier CardID="84962" crafting_cost="150" tier="3"/>
+					<Tier CardID="84961" crafting_cost="175" tier="4"/>
+				</Tiers>
+			</Equipment>
+			<Equipment ID="304">
+				<Tiers>
+					<Tier CardID="84980" crafting_cost="0" tier="1"/>
+					<Tier CardID="84979" crafting_cost="100" tier="2"/>
+					<Tier CardID="84978" crafting_cost="150" tier="3"/>
+					<Tier CardID="84965" crafting_cost="175" tier="4"/>
+				</Tiers>
+			</Equipment>
+		</Equipments>
+	</Mercenary>
+	<Mercenary ID="307" collectible="False" crafting_cost="500" name="Event Chi-ji" rarity="4">
+		<Skins>
+			<Skin CardID="86730" default="True"/>
+		</Skins>
+		<ShortName/>
+		<Specializations/>
 		<Equipments/>
 	</Mercenary>
 </MercenaryDefs>

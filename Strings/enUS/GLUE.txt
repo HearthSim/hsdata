@@ -127,6 +127,7 @@ GLUE_COLLECTION_LETTUCE_LOCK_TEXT	In your Party
 GLUE_COLLECTION_LETTUCE_LOADOUT_TEXT	Loadout
 GLUE_COLLECTION_LETTUCE_UNCRAFTABLE_PROGRESSION	Acquired through Mercenaries Campaign.
 GLUE_COLLECTION_LETTUCE_UNCRAFTABLE_REWARD_TRACK	Acquired through Rewards Track.
+GLUE_COLLECTION_LETTUCE_UNCRAFTABLE_EVENT	Obtained in Special Event.
 GLUE_COLLECTION_CARD_NEW	NEW!	
 GLUE_COLLECTION_CRAFTING_MODE	Crafting Mode	
 GLUE_COLLECTION_CRAFTING_MODE_SHORT	Crafting	
@@ -398,6 +399,8 @@ GLUE_STORE_GOLD_QTY_CHANGE_DESC_TOUCH	You've got a lot of gold! If you want to b
 GLUE_STORE_HERO_PREVIEW	Preview	
 GLUE_STORE_MINI_SET_CARD_COUNT	{0} Cards
 GLUE_STORE_MINI_SET_LABEL	Mini-Set
+GLUE_STORE_MINI_SET_NAME_NORMAL	Normal
+GLUE_STORE_MINI_SET_NAME_GOLDEN	Golden
 GLUE_SHOP_DESCRIPTION_HEADER	{0} Includes:
 GLUE_SHOP_BOOSTER_SKU_BUTTON	{0} |4(Pack,Packs)
 GLUE_SHOP_RUNESTONE_SKU_BUTTON	{0} |4(Runestone,Runestones)
@@ -1709,6 +1712,9 @@ GLUE_DRAFT_REMOVE_PREMIUMS_DIALOG_TITLE	Turn Off Premiums
 GLUE_DRAFT_REMOVE_PREMIUMS_DIALOG_BODY	Turn off Golden and Diamond cards for this Arena Run?
 GLUE_DEVICE_PERFORMANCE_WARNING_TITLE	Device Performance
 GLUE_DEVICE_PERFORMANCE_WARNING	This device does not meet the minimum specifications to run the game.  As a result, Hearthstone may have graphical issues and/or performance problems.\n\nTap SUPPORT to find out more.
+GLUE_DEVICE_PERFORMANCE_WARNING_2	Your device doesn't meet recommended specifications and may have issues running Hearthstone.	
+GLUE_DEVICE_PERFORMANCE_NEXT_VERSION_WARNING	Your device doesn't meet the recommended specifications for this update and may have issues.	
+GLUE_DEVICE_OSVERSION_NEXT_VERSION_WARNING	Your device's OS version is out of date. Please update it before updating Hearthstone.	
 GLUE_2X_GOLD_EVENT_BANNER_HEADLINE	Gold Bonus!
 GLUE_FIRE_FESTIVAL_BANNER_TITLE	Welcome to the Fire Festival!
 GLUE_FIRE_FESTIVAL_DOUBLE_GOLD_BAG_TEXT	x2
@@ -2500,9 +2506,11 @@ GLUE_BACON_COLLECTION_ERROR_HEADER	Battlegrounds Collection
 GLUE_BACON_COLLECTION_ERROR_BODY	Battlegrounds Collection is currently unavailable. Please check back later.
 GLUE_BACON_COLLECTION_MANAGER_GUIDE_SKINS_TITLE	Bartenders
 GLUE_BACON_COLLECTION_MANAGER_BOARD_SKINS_TITLE	Boards
+GLUE_BACON_COLLECTION_MANAGER_FINISHERS_TITLE	Finishers
 GLUE_BACON_COLLECTION_FAVORITE	Favorite
 GLUE_BACON_COLLECTION_FAVORITE_GUIDE	Favorite Bartender
 GLUE_BACON_COLLECTION_FAVORITE_BOARD	Favorite Board
+GLUE_BACON_COLLECTION_FAVORITE_FINISHER	Favorite Finisher
 GLUE_BACON_COLLECTION_RESTING	Resting
 GLUE_BACON_COLLECTION_PREVIEWING	Perk Hero
 GLUE_BACON_COLLECTION_FILTER_DEFAULT	Show All
@@ -2672,6 +2680,8 @@ GLUE_LETTUCE_VILLAGE_TASK_REWARDS_TITLE	Rewards
 GLUE_LETTUCE_VILLAGE_TASK_COMPLETE	Completed!
 GLUE_LETTUCE_VILLAGE_TASK_CLAIM	Claim
 GLUE_LETTUCE_VILLAGE_TASK_VACANT	New Visitor Tomorrow
+GLUE_LETTUCE_VILLAGE_TASK_VACANT_CAMPAIGN	New Story Visitor\nComing Soon
+GLUE_LETTUCE_VILLAGE_TASK_VACANT_EVENT	New Timed Event\nComing Soon
 GLUE_LETTUCE_VILLAGE_TASK_NUMBER	Task {0}: {1}
 GLUE_LETTUCE_VILLAGE_CLAIM_TASK_ERROR_DESCRIPTION	There was an error claiming your task, please try again later.
 GLUE_LETTUCE_VILLAGE_DISMISS_TASK_ERROR_DESCRIPTION	There was an error abandoning your task, please try again later.
@@ -2728,6 +2738,7 @@ GLUE_LETTUCE_SEASON_REWARD_REACH_RATING_CHEST_LABEL	Reach\n1000
 GLUE_LETTUCE_VANITY_TITLE	Portraits
 GLUE_LETTUCE_VANITY_LOCKEDPLATE_MESSAGE	Acquired from packs
 GLUE_LETTUCE_VANITY_LOCKEDPLATE_MESSAGE_TASK	Complete Task {0}
+GLUE_LETTUCE_VANITY_LOCKEDPLATE_MESSAGE_REWARD_TRACK	Acquired from the reward track
 GLUE_LETTUCE_SEASON_ROLL_DESC	{0} {1} Mercenary Season has ended, and the new Season has begun!\n\nYour Season Rating best was {2}.	0: month name, 1: year digits, 2: numeric rating
 GLUE_LETTUCE_MAP_CONSOLATION_REWARD_TITLE	Battle Spoils
 GLUE_LETTUCE_MAP_CONSOLATION_REWARD_SUBTITLE	A consolation from your last battle
@@ -2800,7 +2811,7 @@ GLUE_TRAINING_HALL_NO_SLOTS_MSG	No open training slots
 GLUE_TRAINING_HALL_NO_DRAG_MSG	Use the button to remove this Mercenary.
 GLUE_TRAINING_HALL_SUBTITLE	Gain Mercenary XP per hour (max {0}h)	0: max xp / xp per hour
 GLUE_TRAINING_HALL_BUTTON_LOCKED_TITLE	Locked
-GLUE_TRAINING_HALL_BUTTON_LOCKED_TOOLTIP	You must upgrade the Training Hall to unlock this slot.
+GLUE_TRAINING_HALL_BUTTON_LOCKED_TOOLTIP	You must upgrade the Training Grounds to unlock this slot.
 GLUE_TRAINING_HALL_BUTTON_EMPTY_TITLE	Empty
 GLUE_TRAINING_HALL_BUTTON_EMPTY_TOOLTIP	Drag a Mercenary here to begin training.
 GLUE_TRAINING_HALL_BUTTON_PREPARING_TITLE	Preparing...
@@ -2814,3 +2825,6 @@ GLUE_TRAINING_HALL_BUTTON_MAXLEVEL_TOOLTIP	This Mercenary has reached Max Level 
 GLUE_TRAINING_HALL_BUTTON_MAXLEVEL_BARTEXT	Not Training
 GLUE_TRAINING_HALL_PREP_TIME_SEC	{0}s left	0: prep time remaining in seconds
 GLUE_TRAINING_HALL_PREP_TIME_MIN	{0}m left	0: prep time remaining in minutes
+GLUE_MERCENARIES_TASKBOARD_EVENT_TIME_REM_DAYS	Ends in\n{0}d {1}h	0: event time remaining in days 1: event time remaining in hours
+GLUE_MERCENARIES_TASKBOARD_EVENT_TIME_REM_HOURS	Ends in {0}h	0: event time remaining in hours
+GLUE_MERCENARIES_TASKBOARD_EVENT_TIME_REM_HOUR_OR_LESS	Ends in <1h
