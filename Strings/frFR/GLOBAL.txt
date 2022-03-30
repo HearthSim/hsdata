@@ -222,8 +222,8 @@ GLOBAL_CARD_SET_TROLL	Les Jeux de Rastakhan
 GLOBAL_CARD_SET_TROLL_SEARCHABLE_SHORTHAND_NAMES	rr jr ljdr jeux rastakhan	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_TROLL_SHORT	Rastakhan	
 GLOBAL_CARD_SET_TSC	Au cœur de la cité engloutie	
-GLOBAL_CARD_SET_TSC_SEARCHABLE_SHORTHAND_NAMES	lce	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
-GLOBAL_CARD_SET_TSC_SHORT	La cité engloutie	
+GLOBAL_CARD_SET_TSC_SEARCHABLE_SHORTHAND_NAMES	lce acdlce cite ce	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_TSC_SHORT	Cité engloutie	
 GLOBAL_CARD_SET_ULDUM	Les Aventuriers d’Uldum	
 GLOBAL_CARD_SET_ULDUM_SEARCHABLE_SHORTHAND_NAMES	sou adu uldum	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_ULDUM_SHORT	Uldum	
@@ -453,13 +453,16 @@ GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_EARLY_ACCESS	Ce mode est actuellement disponi
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_HEADER	Défi amical	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_APPEARING_OFFLINE	Vous ne pouvez pas défier {0} pour le moment. Votre statut est réglé sur Déconnecté(e).	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_UNAVAILABLE	Vous ne pouvez pas défier {0} pour le moment. Retournez au menu principal.	0=player name
+GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_MERCS_LOCKED	Terminez le didacticiel du mode Mercenaires pour débloquer cette fonctionnalité.	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_MODE_UNAVAILABLE	Défier un ami n’est pas disponible actuellement dans ce mode de jeu.	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_TAVERN_BRAWL_LOCKED	Terminez le didacticiel du mode traditionnel de Hearthstone et montez une classe jusqu’au niveau 20 pour débloquer cette fonctionnalité.	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_THEYRE_UNAVAILABLE	Vous ne pouvez pas défier {0} pour le moment. Vous devez attendre son retour dans le menu principal.	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_TRADITIONAL_LOCKED	Terminez le didacticiel du mode traditionnel de Hearthstone pour débloquer cette fonctionnalité.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_BATTLEGROUNDS_EARLY_ACCESS	Ce joueur n’a pas d’accès anticipé au mode Champs de bataille.	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_BATTLEGROUNDS_TUTORIAL_COMPLETE	Ce joueur n’a pas encore terminé le didacticiel du mode Champs de bataille.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_CLASSIC_DECK	Ce joueur n’a pas de deck classique.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_DECK	Ce joueur n’a pas de deck.	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_MERCS_TUTORIAL_COMPLETE	Ce joueur n’a pas encore terminé la prime du didacticiel du mode Mercenaires.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_STANDARD_DECK	Ce joueur n’a pas de deck standard.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_TAVERN_BRAWL_DECK	Ce joueur n’a pas encore créé de deck pour le Bras de fer.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NOT_SEEN_WILD	Ce joueur n’a pas débloqué le mode Libre.	
@@ -483,6 +486,8 @@ GLOBAL_FRIENDLIST_LASTPLAYED	Dernier adversaire :
 GLOBAL_FRIENDLIST_MYSTATUS	CONNECTÉ(E)	
 GLOBAL_FRIENDLIST_NEARBY_PLAYERS_DISABLED_HEADER	JOUEURS PROCHES (désactivé)	
 GLOBAL_FRIENDLIST_NEARBY_PLAYERS_HEADER	JOUEURS PROCHES : {0}	0=number of players
+GLOBAL_FRIENDLIST_RECENT_OPPONENT_STATUS	Adversaire récent(e)	
+GLOBAL_FRIENDLIST_RECENT_PLAYERS_HEADER	JEUX RÉCENTS : {0}	0=number of players
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_ALERT_MESSAGE	Voulez-vous vraiment supprimer {0} de vos contacts ?	0=friend name
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_BUTTON	Supprimer	
 GLOBAL_FRIENDLIST_REQUEST_SENT_TIME	Envoyée : {0}	0=one of the GLOBAL_DATETIME_ELAPSED_ strings
@@ -574,6 +579,8 @@ GLOBAL_KEYWORD_CASTS_WHEN_DRAWN	Jouée quand piochée
 GLOBAL_KEYWORD_CASTS_WHEN_DRAWN_TEXT	Jouée automatiquement quand elle est piochée, puis vous piochez une autre carte.	
 GLOBAL_KEYWORD_CHARGE	Charge	
 GLOBAL_KEYWORD_CHARGE_TEXT	Peut attaquer immédiatement.	
+GLOBAL_KEYWORD_COLOSSAL	Colossal : +X	
+GLOBAL_KEYWORD_COLOSSAL_TEXT	Lorsque ce serviteur est invoqué, fait apparaître X appendices.	
 GLOBAL_KEYWORD_COMBO	Combo	
 GLOBAL_KEYWORD_COMBO_MERC	Combo	
 GLOBAL_KEYWORD_COMBO_TEXT	Un bonus si vous avez déjà joué une carte pendant ce tour.	
@@ -599,6 +606,8 @@ GLOBAL_KEYWORD_DIVINE_SHIELD_REF_TEXT	La première fois qu’un serviteur proté
 GLOBAL_KEYWORD_DIVINE_SHIELD_TEXT	La première fois que ce serviteur subit des dégâts, il les ignore.	
 GLOBAL_KEYWORD_DORMANT	En sommeil	
 GLOBAL_KEYWORD_DORMANT_TEXT	Aucun des deux joueurs ne peut toucher ce serviteur.	
+GLOBAL_KEYWORD_DREDGE	Dragage	
+GLOBAL_KEYWORD_DREDGE_TEXT	Affiche les 3 cartes du fond de votre deck.\nPlacez l’une d’elles sur le dessus de votre deck.	
 GLOBAL_KEYWORD_ECHO	Écho	
 GLOBAL_KEYWORD_ECHO_TEXT	Répétable le tour où vous la jouez. Les copies ne peuvent pas coûter moins de (1)_|4(cristal,cristaux).	
 GLOBAL_KEYWORD_ELVES_MERC	Elfes	
@@ -1067,12 +1076,14 @@ GLOBAL_RACE_MECHANICAL_BATTLEGROUNDS	Méca
 GLOBAL_RACE_MIXED_BATTLEGROUNDS	Serviteurs variés	
 GLOBAL_RACE_MURLOC	Murloc	
 GLOBAL_RACE_MURLOC_BATTLEGROUNDS	Murlocs	
+GLOBAL_RACE_NAGA	Naga	
 GLOBAL_RACE_NERUBIAN	Nérubien	
 GLOBAL_RACE_NERUBIAN_BATTLEGROUNDS	Nérubiens	
 GLOBAL_RACE_NIGHTELF	Elfe de la nuit	
 GLOBAL_RACE_NIGHTELF_BATTLEGROUNDS	Elfes de la nuit	
 GLOBAL_RACE_OGRE	Ogre	
 GLOBAL_RACE_OGRE_BATTLEGROUNDS	Ogres	
+GLOBAL_RACE_OLDGOD	Dieu très ancien	
 GLOBAL_RACE_ORC	Orc	
 GLOBAL_RACE_ORC_BATTLEGROUNDS	Orcs	
 GLOBAL_RACE_OWLKIN	Chouettide	

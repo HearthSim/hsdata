@@ -222,8 +222,8 @@ GLOBAL_CARD_SET_TROLL	Ringue do Rastakhan
 GLOBAL_CARD_SET_TROLL_SEARCHABLE_SHORTHAND_NAMES	rr	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_TROLL_SHORT	Rastakhan	
 GLOBAL_CARD_SET_TSC	Viagem à Cidade Submersa	
-GLOBAL_CARD_SET_TSC_SEARCHABLE_SHORTHAND_NAMES	cs	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
-GLOBAL_CARD_SET_TSC_SHORT	A Cidade Submersa	
+GLOBAL_CARD_SET_TSC_SEARCHABLE_SHORTHAND_NAMES	cs vacs vcs	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_TSC_SHORT	Cidade Submersa	
 GLOBAL_CARD_SET_ULDUM	Salvadores de Uldum	
 GLOBAL_CARD_SET_ULDUM_SEARCHABLE_SHORTHAND_NAMES	sdu	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_ULDUM_SHORT	Uldum	
@@ -453,13 +453,16 @@ GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_EARLY_ACCESS	Esse modo está em Acesso Anteci
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_HEADER	Desafio Amistoso	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_APPEARING_OFFLINE	Você não pode desafiar {0} agora. Você aparece desconectado.	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_UNAVAILABLE	Você não pode desafiar {0} agora. Retorne ao menu principal.	0=player name
+GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_MERCS_LOCKED	Conclua o tutorial de Mercenários para desbloquear.	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_MODE_UNAVAILABLE	Desafiar um amigo neste modo de jogo está indisponível. 	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_TAVERN_BRAWL_LOCKED	Conclua o tutorial do Hearthstone tradicional e alcance o nível 20 com uma classe para desbloquear.	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_THEYRE_UNAVAILABLE	Não é possível desafiar {0} neste momento. Espere até que volte ao menu principal.	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_TRADITIONAL_LOCKED	Conclua o tutorial do Hearthstone tradicional para desbloquear.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_BATTLEGROUNDS_EARLY_ACCESS	Esse jogador não tem acesso antecipado aos Campos de Batalha.	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_BATTLEGROUNDS_TUTORIAL_COMPLETE	Este jogador ainda não concluiu o tutorial dos Campos de Batalha.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_CLASSIC_DECK	Este jogador não tem nenhum deck Clássico.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_DECK	Este jogador não tem nenhum deck.	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_MERCS_TUTORIAL_COMPLETE	Este jogador ainda não concluiu o contrato tutorial de Mercenários.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_STANDARD_DECK	Este jogador não tem nenhum deck Padrão.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_TAVERN_BRAWL_DECK	Este jogador ainda não criou nenhum deck para a Contenda de Taverna.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NOT_SEEN_WILD	Este jogador ainda não desbloqueou o Livre.	
@@ -483,6 +486,8 @@ GLOBAL_FRIENDLIST_LASTPLAYED	Jogado pela última vez:
 GLOBAL_FRIENDLIST_MYSTATUS	CONECTADO	
 GLOBAL_FRIENDLIST_NEARBY_PLAYERS_DISABLED_HEADER	PRÓXIMOS (Desativado)	
 GLOBAL_FRIENDLIST_NEARBY_PLAYERS_HEADER	PRÓXIMOS - {0}	0=number of players
+GLOBAL_FRIENDLIST_RECENT_OPPONENT_STATUS	Oponente recente	
+GLOBAL_FRIENDLIST_RECENT_PLAYERS_HEADER	RECENTE - {0}	0=number of players
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_ALERT_MESSAGE	Tem certeza de que deseja remover {0}?	0=friend name
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_BUTTON	Remover	
 GLOBAL_FRIENDLIST_REQUEST_SENT_TIME	Enviado: {0}	0=one of the GLOBAL_DATETIME_ELAPSED_ strings
@@ -574,6 +579,8 @@ GLOBAL_KEYWORD_CASTS_WHEN_DRAWN	Lançado ao Comprar
 GLOBAL_KEYWORD_CASTS_WHEN_DRAWN_TEXT	Lança-se após ser comprado, depois compra outro card.	
 GLOBAL_KEYWORD_CHARGE	Investida	
 GLOBAL_KEYWORD_CHARGE_TEXT	Pode atacar imediatamente.	
+GLOBAL_KEYWORD_COLOSSAL	Colossal +X	
+GLOBAL_KEYWORD_COLOSSAL_TEXT	Quando evocado, gera X apêndices adicionais.	
 GLOBAL_KEYWORD_COMBO	Combo	
 GLOBAL_KEYWORD_COMBO_MERC	Combo	
 GLOBAL_KEYWORD_COMBO_TEXT	Bônus caso você já tenha jogado um card neste turno.	
@@ -599,6 +606,8 @@ GLOBAL_KEYWORD_DIVINE_SHIELD_REF_TEXT	Um lacaio protegido ignora dano recebido p
 GLOBAL_KEYWORD_DIVINE_SHIELD_TEXT	Na primeira vez em que este lacaio receber dano, ignore o dano.	
 GLOBAL_KEYWORD_DORMANT	Adormecido	
 GLOBAL_KEYWORD_DORMANT_TEXT	Intocável para os dois jogadores.	
+GLOBAL_KEYWORD_DREDGE	Dragar	
+GLOBAL_KEYWORD_DREDGE_TEXT	Olhe os 3 cards do fim do seu deck.\nColoque um no topo.	
 GLOBAL_KEYWORD_ECHO	Eco	
 GLOBAL_KEYWORD_ECHO_TEXT	Pode ser repetido no turno em que for jogado. Cópias não podem custar menos de (1).	
 GLOBAL_KEYWORD_ELVES_MERC	Elfos	
@@ -1067,12 +1076,14 @@ GLOBAL_RACE_MECHANICAL_BATTLEGROUNDS	Mecanoides
 GLOBAL_RACE_MIXED_BATTLEGROUNDS	Lacaios Mistos	
 GLOBAL_RACE_MURLOC	Murloc	
 GLOBAL_RACE_MURLOC_BATTLEGROUNDS	Murlocs	
+GLOBAL_RACE_NAGA	Naga	
 GLOBAL_RACE_NERUBIAN	Nerubiano	
 GLOBAL_RACE_NERUBIAN_BATTLEGROUNDS	Nerubianos	
 GLOBAL_RACE_NIGHTELF	Elfo Noturno	
 GLOBAL_RACE_NIGHTELF_BATTLEGROUNDS	Elfos Noturnos	
 GLOBAL_RACE_OGRE	Ogro	
 GLOBAL_RACE_OGRE_BATTLEGROUNDS	Ogros	
+GLOBAL_RACE_OLDGOD	Deus Antigo	
 GLOBAL_RACE_ORC	Orc	
 GLOBAL_RACE_ORC_BATTLEGROUNDS	Orcs	
 GLOBAL_RACE_OWLKIN	Corujante	

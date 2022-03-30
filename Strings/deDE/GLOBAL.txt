@@ -222,8 +222,8 @@ GLOBAL_CARD_SET_TROLL	Rastakhans Rambazamba
 GLOBAL_CARD_SET_TROLL_SEARCHABLE_SHORTHAND_NAMES	rr	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_TROLL_SHORT	Rambazamba	
 GLOBAL_CARD_SET_TSC	Reise in die Versunkene Stadt	
-GLOBAL_CARD_SET_TSC_SEARCHABLE_SHORTHAND_NAMES	dvs	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
-GLOBAL_CARD_SET_TSC_SHORT	Die Versunkene Stadt	
+GLOBAL_CARD_SET_TSC_SEARCHABLE_SHORTHAND_NAMES	dvs ridvs rivs vs	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_TSC_SHORT	Versunkene Stadt	
 GLOBAL_CARD_SET_ULDUM	Retter von Uldum	
 GLOBAL_CARD_SET_ULDUM_SEARCHABLE_SHORTHAND_NAMES	sou rvu	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_ULDUM_SHORT	Uldum	
@@ -453,13 +453,16 @@ GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_EARLY_ACCESS	Dieser Modus ist erst im Vorabzu
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_HEADER	Herausfordern	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_APPEARING_OFFLINE	Ihr könnt {0} im Moment nicht herausfordern. Ihr werdet als offline angezeigt.	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_UNAVAILABLE	Ihr könnt {0} im Moment nicht herausfordern. Bitte kehrt ins Hauptmenü zurück.	0=player name
+GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_MERCS_LOCKED	Schließt zum Freischalten das Söldner-Tutorial ab.	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_MODE_UNAVAILABLE	Einen Freund in diesem Spielmodus herauszufordern ist aktuell nicht möglich.	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_TAVERN_BRAWL_LOCKED	Schließt zum Freischalten das traditionelle Hearthstone-Tutorial ab und bringt eine Klasse auf Stufe 20.	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_THEYRE_UNAVAILABLE	Ihr könnt {0} im Moment nicht herausfordern. Wartet bitte, bis dieser Spieler sich wieder im Hauptmenü befindet.	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_TRADITIONAL_LOCKED	Schließt zum Freischalten das traditionelle Hearthstone-Tutorial ab.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_BATTLEGROUNDS_EARLY_ACCESS	Dieser Spieler hat keinen Vorabzugang zum Schlachtfeld-Modus.	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_BATTLEGROUNDS_TUTORIAL_COMPLETE	Dieser Spieler hat das Schlachtfeld-Tutorial noch nicht abgeschlossen.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_CLASSIC_DECK	Dieser Spieler hat keine Klassikdecks.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_DECK	Dieser Spieler hat keine Decks.	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_MERCS_TUTORIAL_COMPLETE	Dieser Spieler hat das Kopfgeld des Söldner-Tutorials noch nicht abgeschlossen.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_STANDARD_DECK	Dieser Spieler hat keine Standarddecks.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_TAVERN_BRAWL_DECK	Dieser Spieler hat noch kein Deck für das Kartenchaos erstellt.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NOT_SEEN_WILD	Dieser Spieler hat den wilden Modus noch nicht freigeschaltet.	
@@ -483,6 +486,8 @@ GLOBAL_FRIENDLIST_LASTPLAYED	Letzter Gegner:
 GLOBAL_FRIENDLIST_MYSTATUS	ONLINE	
 GLOBAL_FRIENDLIST_NEARBY_PLAYERS_DISABLED_HEADER	SPIELER IN DER NÄHE (deaktiviert)	
 GLOBAL_FRIENDLIST_NEARBY_PLAYERS_HEADER	SPIELER IN DER NÄHE – {0}	0=number of players
+GLOBAL_FRIENDLIST_RECENT_OPPONENT_STATUS	Letzter Gegner	
+GLOBAL_FRIENDLIST_RECENT_PLAYERS_HEADER	LETZTE GEGNER - {0}	0=number of players
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_ALERT_MESSAGE	Seid Ihr Euch sicher, dass Ihr {0} entfernen wollt?	0=friend name
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_BUTTON	Entfernen	
 GLOBAL_FRIENDLIST_REQUEST_SENT_TIME	Gesendet: {0}	0=one of the GLOBAL_DATETIME_ELAPSED_ strings
@@ -574,6 +579,8 @@ GLOBAL_KEYWORD_CASTS_WHEN_DRAWN	Beim Ziehen gewirkt
 GLOBAL_KEYWORD_CASTS_WHEN_DRAWN_TEXT	Wird beim Ziehen sofort gewirkt. Zieht danach eine weitere Karte.	
 GLOBAL_KEYWORD_CHARGE	Ansturm	
 GLOBAL_KEYWORD_CHARGE_TEXT	Sofort angriffsbereit.	
+GLOBAL_KEYWORD_COLOSSAL	Kolossal +X	
+GLOBAL_KEYWORD_COLOSSAL_TEXT	Erschafft beim Herbeirufen X zusätzliche Gliedmaßen.	
 GLOBAL_KEYWORD_COMBO	Combo	
 GLOBAL_KEYWORD_COMBO_MERC	Combo	
 GLOBAL_KEYWORD_COMBO_TEXT	Ein Bonus, wenn in diesem Zug bereits eine Karte ausgespielt wurde.	
@@ -599,6 +606,8 @@ GLOBAL_KEYWORD_DIVINE_SHIELD_REF_TEXT	Der erste Schaden, den ein Diener mit Gott
 GLOBAL_KEYWORD_DIVINE_SHIELD_TEXT	Ignoriert den ersten erlittenen Schaden.	
 GLOBAL_KEYWORD_DORMANT	Inaktiv	
 GLOBAL_KEYWORD_DORMANT_TEXT	Für beide Spieler unberührbar.	
+GLOBAL_KEYWORD_DREDGE	Bergen	
+GLOBAL_KEYWORD_DREDGE_TEXT	Schaut Euch die 3 Karten zuunterst in Eurem Deck an.\nPlatziert eine ganz oben.	
 GLOBAL_KEYWORD_ECHO	Echo	
 GLOBAL_KEYWORD_ECHO_TEXT	Diese Karte kann in dem Zug, in dem Ihr sie ausspielt, mehrmals ausgespielt werden. Kopien können nicht weniger als (1) kosten.	
 GLOBAL_KEYWORD_ELVES_MERC	Elfen	
@@ -1067,12 +1076,14 @@ GLOBAL_RACE_MECHANICAL_BATTLEGROUNDS	Mechs
 GLOBAL_RACE_MIXED_BATTLEGROUNDS	Diener mit mehreren Dienertypen	
 GLOBAL_RACE_MURLOC	Murloc	
 GLOBAL_RACE_MURLOC_BATTLEGROUNDS	Murlocs	
+GLOBAL_RACE_NAGA	Naga	
 GLOBAL_RACE_NERUBIAN	Neruber	
 GLOBAL_RACE_NERUBIAN_BATTLEGROUNDS	Neruber	
 GLOBAL_RACE_NIGHTELF	Nachtelf	
 GLOBAL_RACE_NIGHTELF_BATTLEGROUNDS	Nachtelfen	
 GLOBAL_RACE_OGRE	Oger	
 GLOBAL_RACE_OGRE_BATTLEGROUNDS	Oger	
+GLOBAL_RACE_OLDGOD	Alter Gott	
 GLOBAL_RACE_ORC	Orc	
 GLOBAL_RACE_ORC_BATTLEGROUNDS	Orcs	
 GLOBAL_RACE_OWLKIN	Eulkin	

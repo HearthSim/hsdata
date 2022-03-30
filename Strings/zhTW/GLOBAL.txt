@@ -222,7 +222,7 @@ GLOBAL_CARD_SET_TROLL	拉斯塔哈大混戰
 GLOBAL_CARD_SET_TROLL_SEARCHABLE_SHORTHAND_NAMES	大混戰 拉斯塔哈 rr rastakhan rumble	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_TROLL_SHORT	大混戰	
 GLOBAL_CARD_SET_TSC	海底歷險記	
-GLOBAL_CARD_SET_TSC_SEARCHABLE_SHORTHAND_NAMES	海底 海底歷險 tsc	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_TSC_SEARCHABLE_SHORTHAND_NAMES	海底 海底歷險 tsc vttsc vtsc sc	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_TSC_SHORT	海底歷險記	
 GLOBAL_CARD_SET_ULDUM	奧丹姆守護者	
 GLOBAL_CARD_SET_ULDUM_SEARCHABLE_SHORTHAND_NAMES	奧丹姆 守護者 Uldum	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
@@ -453,13 +453,16 @@ GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_EARLY_ACCESS	此模式目前還在早鳥體�
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_HEADER	友誼賽	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_APPEARING_OFFLINE	你現在無法挑戰{0}。你已設定為隱身狀態。	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_UNAVAILABLE	你現在無法挑戰{0}。請回到主選單。	0=player name
+GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_MERCS_LOCKED	完成傭兵戰隊的教學即可解鎖。	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_MODE_UNAVAILABLE	目前無法在此模式中挑戰好友。	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_TAVERN_BRAWL_LOCKED	完成《爐石戰記》傳統模式的教學，並將一個職業升級到20級即可解鎖。	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_THEYRE_UNAVAILABLE	你現在無法挑戰{0}。請等待對方回到主選單。	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_TRADITIONAL_LOCKED	完成《爐石戰記》傳統模式的教學即可解鎖。	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_BATTLEGROUNDS_EARLY_ACCESS	這名玩家沒有英雄戰場早鳥體驗的資格。	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_BATTLEGROUNDS_TUTORIAL_COMPLETE	這名玩家尚未完成英雄戰場的新手教學。	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_CLASSIC_DECK	該玩家沒有經典套牌。	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_DECK	該玩家沒有套牌。	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_MERCS_TUTORIAL_COMPLETE	這名玩家尚未完成傭兵戰隊的新手教學懸賞任務。	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_STANDARD_DECK	該玩家沒有標準套牌。	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_TAVERN_BRAWL_DECK	該玩家沒有旅店大亂鬥套牌。	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NOT_SEEN_WILD	該玩家尚未解鎖開放規則。	
@@ -483,6 +486,8 @@ GLOBAL_FRIENDLIST_LASTPLAYED	上一個對手：
 GLOBAL_FRIENDLIST_MYSTATUS	線上	
 GLOBAL_FRIENDLIST_NEARBY_PLAYERS_DISABLED_HEADER	附近的玩家(已關閉)	
 GLOBAL_FRIENDLIST_NEARBY_PLAYERS_HEADER	附近的玩家 - {0}	0=number of players
+GLOBAL_FRIENDLIST_RECENT_OPPONENT_STATUS	近期的對手	
+GLOBAL_FRIENDLIST_RECENT_PLAYERS_HEADER	近期的對手 - {0}	0=number of players
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_ALERT_MESSAGE	你確定要移除{0}嗎？	0=friend name
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_BUTTON	移除	
 GLOBAL_FRIENDLIST_REQUEST_SENT_TIME	於{0}送出	0=one of the GLOBAL_DATETIME_ELAPSED_ strings
@@ -574,6 +579,8 @@ GLOBAL_KEYWORD_CASTS_WHEN_DRAWN	抽中時施放
 GLOBAL_KEYWORD_CASTS_WHEN_DRAWN_TEXT	抽中時會自動施放，然後再抽一張牌。	
 GLOBAL_KEYWORD_CHARGE	衝鋒	
 GLOBAL_KEYWORD_CHARGE_TEXT	進場的回合馬上就能進行攻擊。	
+GLOBAL_KEYWORD_COLOSSAL	巨型+X	
+GLOBAL_KEYWORD_COLOSSAL_TEXT	召喚進入戰場時會生成X個額外的部位。	
 GLOBAL_KEYWORD_COMBO	連擊	
 GLOBAL_KEYWORD_COMBO_MERC	連擊	
 GLOBAL_KEYWORD_COMBO_TEXT	若你在本回合已經出過牌，有額外效果。	
@@ -599,6 +606,8 @@ GLOBAL_KEYWORD_DIVINE_SHIELD_REF_TEXT	被聖盾術保護的手下會無視受到
 GLOBAL_KEYWORD_DIVINE_SHIELD_TEXT	這名手下會無視受到的第一次攻擊。	
 GLOBAL_KEYWORD_DORMANT	休眠	
 GLOBAL_KEYWORD_DORMANT_TEXT	雙方都無法與其互動。	
+GLOBAL_KEYWORD_DREDGE	打撈	
+GLOBAL_KEYWORD_DREDGE_TEXT	瀏覽你牌堆中最底下3張牌。放一張到牌堆的最上面。	
 GLOBAL_KEYWORD_ECHO	回音	
 GLOBAL_KEYWORD_ECHO_TEXT	可在一回合當中重複打出，但是後續的重複卡牌消耗不得低於(1)。	
 GLOBAL_KEYWORD_ELVES_MERC	精靈	
@@ -1067,12 +1076,14 @@ GLOBAL_RACE_MECHANICAL_BATTLEGROUNDS	機械
 GLOBAL_RACE_MIXED_BATTLEGROUNDS	混合手下	
 GLOBAL_RACE_MURLOC	魚人	
 GLOBAL_RACE_MURLOC_BATTLEGROUNDS	魚人	
+GLOBAL_RACE_NAGA	納迦	
 GLOBAL_RACE_NERUBIAN	奈幽蟲族	
 GLOBAL_RACE_NERUBIAN_BATTLEGROUNDS	奈幽	
 GLOBAL_RACE_NIGHTELF	夜精靈	
 GLOBAL_RACE_NIGHTELF_BATTLEGROUNDS	夜精靈	
 GLOBAL_RACE_OGRE	巨魔	
 GLOBAL_RACE_OGRE_BATTLEGROUNDS	巨魔	
+GLOBAL_RACE_OLDGOD	上古之神	
 GLOBAL_RACE_ORC	獸人	
 GLOBAL_RACE_ORC_BATTLEGROUNDS	獸人	
 GLOBAL_RACE_OWLKIN	梟獸	

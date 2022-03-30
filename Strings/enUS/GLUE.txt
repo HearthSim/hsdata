@@ -60,13 +60,7 @@ GLUE_COLLECTION_DECK_TEMPLATE_LOW_CARD_WARNING	Uh Oh
 GLUE_COLLECTION_DECK_TEMPLATE_LOW_CARD_WARNING_MESSAGE	You're missing a LOT of cards for this deck.  Are you sure you don't want the Classic Recipe?	
 GLUE_COLLECTION_DECK_TEMPLATE_LOW_CARD_WARNING_CONFIRM	I'm Sure
 GLUE_COLLECTION_DECK_TEMPLATE_LOW_CARD_WARNING_CANCEL	Wait!	
-GLUE_COLLECTION_DECK_TEMPLATE_SELECT_A_DECK	Select a deck recipe to learn more!	
-GLUE_COLLECTION_DECK_WILD_POPUP_HEADER	Convert Deck?
-GLUE_COLLECTION_DECK_WILD_POPUP_TEXT	This is a Wild deck. Do you want to convert it to a full Standard deck automatically?	
-GLUE_COLLECTION_DECK_WILD_POPUP_CONFIRM	Convert
-GLUE_COLLECTION_DECK_WILD_POPUP_CANCEL	Cancel
-GLUE_COLLECTION_DECK_WILD_LABEL	Click to convert	
-GLUE_COLLECTION_DECK_WILD_LABEL_TOUCH	Tap to convert	
+GLUE_COLLECTION_DECK_TEMPLATE_SELECT_A_DECK	Select a deck recipe to learn more!
 GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_HEADER	Incomplete Deck	
 GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_TEXT	You are {0} |4(card,cards) short of a full deck.\nDo you want to finish the deck automatically?	
 GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_TEXT_NPR	{0} |4(card requires,cards require) Rank 25.\nDo you want to finish the deck automatically?	
@@ -129,6 +123,7 @@ GLUE_COLLECTION_LETTUCE_UNCRAFTABLE_PROGRESSION	Acquired through Mercenaries Cam
 GLUE_COLLECTION_LETTUCE_UNCRAFTABLE_REWARD_TRACK	Acquired through Rewards Track.
 GLUE_COLLECTION_LETTUCE_UNCRAFTABLE_EVENT	Obtained in Special Event.
 GLUE_COLLECTION_CARD_NEW	NEW!	
+GLUE_COLLECTION_FINISHER_NEW	NEW!	
 GLUE_COLLECTION_CRAFTING_MODE	Crafting Mode	
 GLUE_COLLECTION_CRAFTING_MODE_SHORT	Crafting	
 GLUE_COLLECTION_CRAFTING_DISENCHANT_BUTTON_TEXT	Disenchant Extra Cards	
@@ -677,7 +672,7 @@ GLUE_TIP_DEFAULT_22	Check out the Shop for special offers like new heroes and ca
 GLUE_TIP_DEFAULT_23	Standard uses Core and the most recent two years of cards.	
 GLUE_TIP_DEFAULT_24	Click on your hero while editing a deck to swap between Standard and Wild.	
 GLUE_TIP_DEFAULT_24_TOUCH	Tap on your hero while editing a deck to swap between Standard and Wild.	
-GLUE_TIP_DEFAULT_25	This is the year of the Gryphon! (Each year will have a new theme)	
+GLUE_TIP_DEFAULT_25	This is the {0}!	This will either be GLUE_SET_ROTATION_EVEN_YEAR or GLUE_SET_ROTATION_ODD_YEAR
 GLUE_TIP_DEFAULT_26	When viewing your collection, click on the bottom left filter button to choose which sets are shown.	
 GLUE_TIP_DEFAULT_26_TOUCH	When viewing your collection, tap on the bottom left filter button to choose which sets are shown.	
 GLUE_TIP_DEFAULT_27	Whenever a new set is released you can use its cards in both Wild and Standard.	
@@ -1451,12 +1446,11 @@ GLUE_STORE_LEAVING_SOON_LEARN_MORE	Learn more
 GLUE_STORE_ADVENTURE_LEAVING_SOON	Adventure leaving soon!	
 GLUE_STORE_EXPANSION_LEAVING_SOON	Expansion leaving soon!	
 GLUE_THE_CLOCK_DETAILS	The cards you can use in Standard change each year.	
-GLUE_THE_CLOCK_BANNER_YEAR	Year of the Gryphon	
 GLUE_THE_CLOCK_BANNER_NEW_WAY	New way to play:	
 GLUE_THE_CLOCK_BANNER_STANDARD	"Standard"	
 GLUE_THE_CLOCK_DETAILS_STANDARD	In Standard, only the newest cards can be used.	
-GLUE_SET_ROTATION_CURRENT_YEAR	Year of the Dragon	
-GLUE_SET_ROTATION_NEXT_YEAR	Year of the Gryphon	
+GLUE_SET_ROTATION_EVEN_YEAR	Year of the Hydra	
+GLUE_SET_ROTATION_ODD_YEAR	Year of the Gryphon	
 GLUE_CARDS_UPDATED	These cards have changed.	
 GLUE_SINGLE_CARD_UPDATED	This card has changed.	
 GLUE_CARDS_ADDED	{0} new cards added to Classic!	
@@ -1601,9 +1595,6 @@ GLUE_TEMPORARY_ACCOUNT_SWITCH_ACCOUNT_HEADER	Accounts
 GLUE_CLOUD_STORAGE_CONTEXT_HEADER	Greetings!
 GLUE_CLOUD_STORAGE_CONTEXT_BODY_01	You are about to be prompted for access to your Google Drive account.\n\nIf you allow access, we’ll record your game progress to Google Drive so you can recover it in the event you lose access to your device.
 GLUE_CLOUD_STORAGE_CONTEXT_BODY_02	You are about to be prompted for access to your Google Drive account.\n\nHearthstone would like to check if you have any game progress stored on your Google Drive.
-
-GLUE_STANDARD_COMING_SOON_HEADER	Coming soon
-GLUE_STANDARD_COMING_SOON_BODY	Standard Format will update soon! You've been playing Standard, which allows only Basic, Classic, and the newest 2 years of sets. You will also gain access to Wild Format, which allows all cards!
 
 GLUE_FSG_BRAWL_PLAY_TITLE	Ready to brawl?
 GLUE_FSG_BRAWL_PLAY_SUBTITLE	Go to the friends list and challenge someone at your Fireside Gathering!
@@ -1805,9 +1796,9 @@ GLUE_STORE_LIMITED_TIME_OFFER	Limited Time Offer!
 GLUE_STORE_BONUS_PACKS	Get {0} bonus |4(pack,packs) for a limited time!	0 = number of bonus packs
 GLUE_NEW_PLAYER_AVAILABLE_AT_LEAGUE_PROMO	Available\nafter\nApprenticeship
 GLUE_NEW_PLAYER_PROMOTION_CHEST_DESC	Congratulations! You are now\nofficially a veteran.\n\nTougher opponents await!
-GLUE_NEW_PLAYER_SET_ROTATION_POPUP_HEADER	Welcome back!
-GLUE_NEW_PLAYER_SET_ROTATION_POPUP_BODY	New cards have arrived! Some of your older cards now require Rank 25 to play.
-GLUE_NEW_PLAYER_SET_ROTATION_POPUP_BODY_NEW	New cards have arrived! Some of your older cards now require completion of Apprenticeship to play.
+GLUE_NEW_PLAYER_SET_ROTATION_POPUP_HEADER	Welcome to {0}!
+GLUE_NEW_PLAYER_SET_ROTATION_POPUP_BODY	New cards have arrived! Some of your older cards now require completion of Apprenticeship to play.
+GLUE_NEW_PLAYER_AVAILABLE_AFTER_APPRENTICESHIP	Available after Apprenticeship
 GLUE_LEGENDARY_QUEST_REROLL_TITLE	Re-roll?
 GLUE_LEGENDARY_QUEST_REROLL_BODY	Abandon quest for a regular one? If this quest is part of a chain, then it will abandon the whole chain.	
 GLUE_NUM_CHAPTERS_COMPLETED	{0}/{1} Completed
@@ -2336,7 +2327,7 @@ GLUE_PVPDR_LABEL_SEASON_ENDING_HOURS	Season ends in {0} |4(hour,hours)
 GLUE_PVPDR_LABEL_SEASON_ENDING_DAYS	Season ends in {0} |4(day,days)
 GLUE_PVPDR_LABEL_SEASON_ENDING_WEEKS	Season ends in {0} |4(week,weeks)
 GLUE_PVPDR_LABEL_SEASON_ENDING_OVER_1_MONTH	Season ends in > 1 month
-GLUE_PVPDR_EXPANSION_SUBTITLE	Alterac Valley
+GLUE_PVPDR_EXPANSION_SUBTITLE	The Sunken City
 GLUE_PVPDR_BUILD_DECK	Build Deck
 GLUE_PVPDR_LOCK_IN	Confirm Deck
 GLUE_PVPDR_LOCK_IN_DESC	Have you finished building your Duels Deck? You won't be able to make any changes after you confirm.
@@ -2443,6 +2434,7 @@ GLUE_PROGRESSION_ACHIEVEMENTS_TOOLTIP_TITLE	Achievement Points
 GLUE_PROGRESSION_ACHIEVEMENTS_TOOLTIP_DESCRIPTION	Complete Achievements to earn more points.
 GLUE_PROGRESSION_ACHIEVEMENTS_REWARDS_BUTTON	See Rewards!
 GLUE_PROGRESSION_ACHIEVEMENTS_COMPLETION_REQUIRED	Requires Completing the Achievement
+GLUE_PROGRESSION_ACHIEVEMENTS_RECENTLY_COMPLETED	Recently Completed
 GLUE_PROGRESSION_REWARDS_TITLE	Rewards Track
 GLUE_PROGRESSION_BONUS_ERROR_HEADER	Tavern Pass
 GLUE_PROGRESSION_BONUS_ERROR_BODY	There are currently no Tavern Passes. Please check back later.
@@ -2509,11 +2501,11 @@ GLUE_BACON_COLLECTION_ERROR_HEADER	Battlegrounds Collection
 GLUE_BACON_COLLECTION_ERROR_BODY	Battlegrounds Collection is currently unavailable. Please check back later.
 GLUE_BACON_COLLECTION_MANAGER_GUIDE_SKINS_TITLE	Bartenders
 GLUE_BACON_COLLECTION_MANAGER_BOARD_SKINS_TITLE	Boards
-GLUE_BACON_COLLECTION_MANAGER_FINISHERS_TITLE	Finishers
+GLUE_BACON_COLLECTION_MANAGER_FINISHERS_TITLE	Strikes
 GLUE_BACON_COLLECTION_FAVORITE	Favorite
 GLUE_BACON_COLLECTION_FAVORITE_GUIDE	Favorite Bartender
 GLUE_BACON_COLLECTION_FAVORITE_BOARD	Favorite Board
-GLUE_BACON_COLLECTION_FAVORITE_FINISHER	Favorite Finisher
+GLUE_BACON_COLLECTION_FAVORITE_FINISHER	Favorite Strike
 GLUE_BACON_COLLECTION_RESTING	Resting
 GLUE_BACON_COLLECTION_PREVIEWING	Perk Hero
 GLUE_BACON_COLLECTION_FILTER_DEFAULT	Show All
@@ -2571,11 +2563,13 @@ GLUE_LETTUCE_MAP_WIPEOUT_DIALOG_BODY	Your party was wiped out.
 GLUE_LETTUCE_MAP_TREASURE_BANNER	Treasure
 GLUE_LETTUCE_MAP_TREASURE_PICK	Pick One Treasure
 GLUE_LETTUCE_MAP_TREASURE_KEEP	Keep or Replace Treasure
+GLUE_LETTUCE_MAP_TREASURE_SPEECH	Which one should I take?
 GLUE_LETTUCE_MAP_TREASURE_CURRENT	Keep\nCurrent
 GLUE_LETTUCE_MAP_TREASURE_UPGRADE	Upgrade or Replace Treasure
 GLUE_LETTUCE_MAP_TREASURE_UPGRADE_CURRENT	Upgrade\nCurrent
 GLUE_LETTUCE_MAP_MYSTERY_TOOLTIP_HEADER	Mystery
 GLUE_LETTUCE_MAP_MYSTERY_TOOLTIP_BODY	It could be anything!
+GLUE_LETTUCE_MAP_BONUS_LOOT_POPUP	Bonus loot active!
 GLUE_LETTUCE_MAP_SUMMARY_BUTTON	Finish Run
 GLUE_LETTUCE_MAP_SUMMARY_HEADER	Bounty Complete!
 GLUE_LETTUCE_MAP_VISITOR_PICK	Pick a Visitor
@@ -2834,3 +2828,4 @@ GLUE_TRAINING_HALL_PREP_TIME_MIN	{0}m left	0: prep time remaining in minutes
 GLUE_MERCENARIES_TASKBOARD_EVENT_TIME_REM_DAYS	Ends in\n{0}d {1}h	0: event time remaining in days 1: event time remaining in hours
 GLUE_MERCENARIES_TASKBOARD_EVENT_TIME_REM_HOURS	Ends in {0}h	0: event time remaining in hours
 GLUE_MERCENARIES_TASKBOARD_EVENT_TIME_REM_HOUR_OR_LESS	Ends in <1h
+GLUE_MERCENARIES_BONUS_LOOT_BUTTON	Bonus\nLoot!

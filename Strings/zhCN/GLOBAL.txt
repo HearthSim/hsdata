@@ -222,7 +222,7 @@ GLOBAL_CARD_SET_TROLL	拉斯塔哈的大乱斗
 GLOBAL_CARD_SET_TROLL_SEARCHABLE_SHORTHAND_NAMES	拉斯塔哈 大乱斗	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_TROLL_SHORT	大乱斗	
 GLOBAL_CARD_SET_TSC	探寻沉没之城	
-GLOBAL_CARD_SET_TSC_SEARCHABLE_SHORTHAND_NAMES	tsc	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_TSC_SEARCHABLE_SHORTHAND_NAMES	tsc vttsc vtsc sc	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_TSC_SHORT	沉没之城	
 GLOBAL_CARD_SET_ULDUM	奥丹姆奇兵	
 GLOBAL_CARD_SET_ULDUM_SEARCHABLE_SHORTHAND_NAMES	奥丹姆 奇兵	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
@@ -453,13 +453,16 @@ GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_EARLY_ACCESS	该模式目前需要抢先体�
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_HEADER	好友挑战	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_APPEARING_OFFLINE	你现在无法挑战{0}。当前处于隐身状态。	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_UNAVAILABLE	你现在无法挑战{0}。请返回主菜单。	0=player name
+GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_MERCS_LOCKED	完成佣兵战纪教学后解锁。	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_MODE_UNAVAILABLE	目前无法在此模式中挑战好友。	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_TAVERN_BRAWL_LOCKED	完成传统对战教学，并且有一个职业达到20级后解锁。	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_THEYRE_UNAVAILABLE	你现在无法挑战{0}。请等待他们返回主菜单。	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_TRADITIONAL_LOCKED	完成传统对战教学后解锁。	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_BATTLEGROUNDS_EARLY_ACCESS	该玩家没有酒馆战棋抢先体验权限。	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_BATTLEGROUNDS_TUTORIAL_COMPLETE	该玩家尚未完成酒馆战棋教学。	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_CLASSIC_DECK	该玩家没有经典套牌。	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_DECK	该玩家没有套牌。	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_MERCS_TUTORIAL_COMPLETE	该玩家尚未完成佣兵战纪教学。	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_STANDARD_DECK	该玩家没有标准套牌。	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_TAVERN_BRAWL_DECK	该玩家尚未组建一副应用于乱斗模式的套牌。	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NOT_SEEN_WILD	该玩家尚未解锁狂野模式。	
@@ -483,6 +486,8 @@ GLOBAL_FRIENDLIST_LASTPLAYED	上一个对手：
 GLOBAL_FRIENDLIST_MYSTATUS	在线	
 GLOBAL_FRIENDLIST_NEARBY_PLAYERS_DISABLED_HEADER	附近的玩家（已禁用）	
 GLOBAL_FRIENDLIST_NEARBY_PLAYERS_HEADER	附近的玩家（{0}）	0=number of players
+GLOBAL_FRIENDLIST_RECENT_OPPONENT_STATUS	最近的对手	
+GLOBAL_FRIENDLIST_RECENT_PLAYERS_HEADER	最近的{0}个	0=number of players
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_ALERT_MESSAGE	你确实想要移除{0}吗？	0=friend name
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_BUTTON	移除	
 GLOBAL_FRIENDLIST_REQUEST_SENT_TIME	发送于：{0}	0=one of the GLOBAL_DATETIME_ELAPSED_ strings
@@ -523,7 +528,7 @@ GLOBAL_HEALTHY_GAMING_CHINA_LESS_THAN_THREE_HOURS	您累计在线时间已满{0}
 GLOBAL_HEALTHY_GAMING_CHINA_MORE_THAN_FIVE_HOURS	您已进入不健康游戏时间，为了您的健康，请您立即下线休息。如不下线，您的身体将受到损害，您的收益已降为零，直到您的累计下线时间满5小时后，才能恢复正常。	
 GLOBAL_HEALTHY_GAMING_CHINA_MORE_THAN_FIVE_HOURS_PHONE	您已进入不健康游戏时间，为了您的健康，请您立即下线休息。如不下线，您的身体将受到损害，\n您的收益已降为零，直到您的累计下线时间满5小时后，才能恢复正常。	
 GLOBAL_HEALTHY_GAMING_CHINA_STARTUP_MESSAGE	抵制不良游戏，拒绝盗版游戏。\n注意自我保护，谨防上当受骗。\n适度游戏益脑，沉迷游戏伤身。\n合理安排时间，享受健康生活。	
-GLOBAL_HEALTHY_GAMING_CHINA_STARTUP_SUBTEXT	ISBN：978-7-900262-36-3 版署批号：新出审字[2013]1510号 沪网文[2017]9633-727号 文网进字[2013]029号 著作权：暴雪娱乐有限公司 出版单位：金报电子音像出版中心	
+GLOBAL_HEALTHY_GAMING_CHINA_STARTUP_SUBTEXT	ISBN：978-7-900262-36-3 版署批号：新出审字[2013]1510号 沪网文[2017]9633-727号\n文网进字[2013]029号 著作权：暴雪娱乐有限公司 出版单位：金报电子音像出版中心	
 GLOBAL_HEALTHY_GAMING_CHINA_THREE_HOURS	您累计在线时间已满{0}小时，请您下线休息，做适当身体活动。	
 GLOBAL_HEALTHY_GAMING_CHINA_THREE_TO_FIVE_HOURS	您已经进入疲劳游戏时间，您的游戏收益将降为正常值的0%，为了您的健康，请尽快下线休息，做适当身体活动，合理安排学习生活。	
 GLOBAL_HEALTHY_GAMING_CHINA_THREE_TO_FIVE_HOURS_PHONE	您已经进入疲劳游戏时间，您的游戏收益将降为正常值的0%，为了您的健康，\n请尽快下线休息，做适当身体活动，合理安排学习生活。	
@@ -574,6 +579,8 @@ GLOBAL_KEYWORD_CASTS_WHEN_DRAWN	抽到时施放
 GLOBAL_KEYWORD_CASTS_WHEN_DRAWN_TEXT	抽到时自动施放，然后再抽一张牌。	
 GLOBAL_KEYWORD_CHARGE	冲锋	
 GLOBAL_KEYWORD_CHARGE_TEXT	可以立即发起攻击。	
+GLOBAL_KEYWORD_COLOSSAL	巨型+X	
+GLOBAL_KEYWORD_COLOSSAL_TEXT	被召唤时会生成X个附属物。	
 GLOBAL_KEYWORD_COMBO	连击	
 GLOBAL_KEYWORD_COMBO_MERC	连击	
 GLOBAL_KEYWORD_COMBO_TEXT	如果在本回合中你已经使用过其他牌，它会产生额外的效果。	
@@ -599,6 +606,8 @@ GLOBAL_KEYWORD_DIVINE_SHIELD_REF_TEXT	被圣盾保护的随从免疫其受到的
 GLOBAL_KEYWORD_DIVINE_SHIELD_TEXT	该随从免疫其受到的第一次伤害。	
 GLOBAL_KEYWORD_DORMANT	休眠	
 GLOBAL_KEYWORD_DORMANT_TEXT	双方玩家都无法触及。	
+GLOBAL_KEYWORD_DREDGE	探底	
+GLOBAL_KEYWORD_DREDGE_TEXT	检视你牌库底的3张牌，将其中一张置于牌库顶。	
 GLOBAL_KEYWORD_ECHO	回响	
 GLOBAL_KEYWORD_ECHO_TEXT	使用此牌的回合内可反复使用。复制牌的法力值消耗不能低于（1）点。	
 GLOBAL_KEYWORD_ELVES_MERC	精灵	
@@ -1067,12 +1076,14 @@ GLOBAL_RACE_MECHANICAL_BATTLEGROUNDS	机械
 GLOBAL_RACE_MIXED_BATTLEGROUNDS	混合随从	
 GLOBAL_RACE_MURLOC	鱼人	
 GLOBAL_RACE_MURLOC_BATTLEGROUNDS	鱼人	
+GLOBAL_RACE_NAGA	纳迦	
 GLOBAL_RACE_NERUBIAN	蛛魔	
 GLOBAL_RACE_NERUBIAN_BATTLEGROUNDS	蛛魔	
 GLOBAL_RACE_NIGHTELF	暗夜精灵	
 GLOBAL_RACE_NIGHTELF_BATTLEGROUNDS	暗夜精灵	
 GLOBAL_RACE_OGRE	食人魔	
 GLOBAL_RACE_OGRE_BATTLEGROUNDS	食人魔	
+GLOBAL_RACE_OLDGOD	上古之神	
 GLOBAL_RACE_ORC	兽人	
 GLOBAL_RACE_ORC_BATTLEGROUNDS	兽人	
 GLOBAL_RACE_OWLKIN	枭兽	

@@ -222,7 +222,7 @@ GLOBAL_CARD_SET_TROLL	La sfida di Rastakhan
 GLOBAL_CARD_SET_TROLL_SEARCHABLE_SHORTHAND_NAMES	sr	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_TROLL_SHORT	Sfida di Rastakhan	
 GLOBAL_CARD_SET_TSC	Rotta per la Città Sommersa	
-GLOBAL_CARD_SET_TSC_SEARCHABLE_SHORTHAND_NAMES	CS	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_TSC_SEARCHABLE_SHORTHAND_NAMES	lcs rplcs rpcs cs	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_TSC_SHORT	Città Sommersa	
 GLOBAL_CARD_SET_ULDUM	Salvatori di Uldum	
 GLOBAL_CARD_SET_ULDUM_SEARCHABLE_SHORTHAND_NAMES	sdu	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
@@ -453,13 +453,16 @@ GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_EARLY_ACCESS	Al momento questa modalità è i
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_HEADER	Sfida	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_APPEARING_OFFLINE	Non puoi sfidare {0} in questo momento. Sei impostato come invisibile.	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_UNAVAILABLE	Non puoi sfidare {0} in questo momento. Ritorna al menu principale.	0=player name
+GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_MERCS_LOCKED	Completa il tutorial dei Mercenari per sbloccare questa modalità.	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_MODE_UNAVAILABLE	Al momento non è possibile sfidare un amico in questa modalità.	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_TAVERN_BRAWL_LOCKED	Completa il tutorial dell'Hearthstone tradizionale e porta una classe al livello 20 per sbloccare questa modalità.	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_THEYRE_UNAVAILABLE	Non puoi sfidare {0} in questo momento. Aspetta che ritorni al menu principale.	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_TRADITIONAL_LOCKED	Completa il tutorial dell'Hearthstone tradizionale per sbloccare questa modalità.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_BATTLEGROUNDS_EARLY_ACCESS	Questo giocatore non dispone dell'accesso anticipato alla Battaglia.	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_BATTLEGROUNDS_TUTORIAL_COMPLETE	Questo giocatore non ha ancora completato il tutorial della Battaglia.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_CLASSIC_DECK	Questo giocatore non ha mazzi Classici.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_DECK	Questo giocatore non ha mazzi.	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_MERCS_TUTORIAL_COMPLETE	Questo giocatore non ha ancora completato la taglia del tutorial dei Mercenari.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_STANDARD_DECK	Questo giocatore non ha mazzi Standard.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_TAVERN_BRAWL_DECK	Questo giocatore non ha ancora composto un mazzo per la Rissa.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NOT_SEEN_WILD	Questo giocatore non ha sbloccato il formato Selvaggio.	
@@ -483,6 +486,8 @@ GLOBAL_FRIENDLIST_LASTPLAYED	Ultima partita:
 GLOBAL_FRIENDLIST_MYSTATUS	ONLINE	
 GLOBAL_FRIENDLIST_NEARBY_PLAYERS_DISABLED_HEADER	VICINI (Disattivato)	
 GLOBAL_FRIENDLIST_NEARBY_PLAYERS_HEADER	VICINI - {0}	0=number of players
+GLOBAL_FRIENDLIST_RECENT_OPPONENT_STATUS	Avversario recente	
+GLOBAL_FRIENDLIST_RECENT_PLAYERS_HEADER	RECENTE - {0}	0=number of players
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_ALERT_MESSAGE	Vuoi davvero rimuovere {0}?	0=friend name
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_BUTTON	Rimuovi	
 GLOBAL_FRIENDLIST_REQUEST_SENT_TIME	Inviata: {0}	0=one of the GLOBAL_DATETIME_ELAPSED_ strings
@@ -574,6 +579,8 @@ GLOBAL_KEYWORD_CASTS_WHEN_DRAWN	Lancio Quando Pescata
 GLOBAL_KEYWORD_CASTS_WHEN_DRAWN_TEXT	Viene lanciata quando viene pescata, poi peschi un'altra carta.	
 GLOBAL_KEYWORD_CHARGE	Carica	
 GLOBAL_KEYWORD_CHARGE_TEXT	Può attaccare immediatamente.	
+GLOBAL_KEYWORD_COLOSSAL	Colosso +X	
+GLOBAL_KEYWORD_COLOSSAL_TEXT	Quando viene evocato, compaiono X appendici aggiuntive.	
 GLOBAL_KEYWORD_COMBO	Combo	
 GLOBAL_KEYWORD_COMBO_MERC	Combo	
 GLOBAL_KEYWORD_COMBO_TEXT	Un bonus che si ottiene quando è già stata giocata una carta nel turno.	
@@ -599,6 +606,8 @@ GLOBAL_KEYWORD_DIVINE_SHIELD_REF_TEXT	La prima volta che un servitore protetto s
 GLOBAL_KEYWORD_DIVINE_SHIELD_TEXT	La prima volta che questo servitore subisce danni, vengono ignorati.	
 GLOBAL_KEYWORD_DORMANT	Dormiente	
 GLOBAL_KEYWORD_DORMANT_TEXT	Intoccabile per entrambi i giocatori.	
+GLOBAL_KEYWORD_DREDGE	Dragaggio	
+GLOBAL_KEYWORD_DREDGE_TEXT	Guarda le ultime 3 carte del tuo mazzo.\nMettine una in cima.	
 GLOBAL_KEYWORD_ECHO	Eco	
 GLOBAL_KEYWORD_ECHO_TEXT	Può essere giocata più volte nello stesso turno. Le copie non possono costare meno di (1).	
 GLOBAL_KEYWORD_ELVES_MERC	Elfi	
@@ -1067,12 +1076,14 @@ GLOBAL_RACE_MECHANICAL_BATTLEGROUNDS	Robot
 GLOBAL_RACE_MIXED_BATTLEGROUNDS	Servitori Misti	
 GLOBAL_RACE_MURLOC	Murloc	
 GLOBAL_RACE_MURLOC_BATTLEGROUNDS	Murloc	
+GLOBAL_RACE_NAGA	Naga	
 GLOBAL_RACE_NERUBIAN	Nerubiano	
 GLOBAL_RACE_NERUBIAN_BATTLEGROUNDS	Nerubiani	
 GLOBAL_RACE_NIGHTELF	Elfo della Notte	
 GLOBAL_RACE_NIGHTELF_BATTLEGROUNDS	Elfi della Notte	
 GLOBAL_RACE_OGRE	Ogre	
 GLOBAL_RACE_OGRE_BATTLEGROUNDS	Ogre	
+GLOBAL_RACE_OLDGOD	Dio Antico	
 GLOBAL_RACE_ORC	Orco	
 GLOBAL_RACE_ORC_BATTLEGROUNDS	Orchi	
 GLOBAL_RACE_OWLKIN	Gufoide	
