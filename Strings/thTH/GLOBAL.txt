@@ -246,10 +246,16 @@ GLOBAL_CARDTYPE_TOKEN	โทเค็น
 GLOBAL_CARDTYPE_WEAPON	อาวุธ	
 GLOBAL_CHAT_BUBBLE_RECEIVER_NAME	ถึง: {0}	0=player name
 GLOBAL_CHAT_CHALLENGE	ท้าแข่ง	
+GLOBAL_CHAT_DECK_CODE_HINT	\nคลิกเพื่อก๊อปปี้	
+GLOBAL_CHAT_DECK_CODE_HINT_TOUCH	\nแตะเพื่อก๊อปปี้	
+GLOBAL_CHAT_DECK_CODE_MESSAGE	เด็ค{0} {1}	0=class name,1=copy hint
+GLOBAL_CHAT_DECK_CODE_WITH_NAME_MESSAGE	เด็ค{0}: {1} {2}	0=class name,1=deck name,2=copy hint
 GLOBAL_CHAT_NO_FRIENDS_ONLINE	คุณไม่มีเพื่อนที่ออนไลน์อยู่ในขณะนี้	
 GLOBAL_CHAT_NO_RECENT_CONVERSATIONS	ใช้เมนู เพื่อน เพื่อเริ่มต้นการสนทนากับเพื่อน	
 GLOBAL_CHAT_RECEIVER_OFFLINE	{0} ออฟไลน์อยู่	0=player name
 GLOBAL_CHAT_RECEIVER_ONLINE	{0} ออนไลน์	0=player name
+GLOBAL_CHAT_SEND_DECK_MESSAGE	ต้องการส่งข้อความใหม่ไปพร้อมเด็คในคลิปบอร์ดของคุณหรือไม่	
+GLOBAL_CHAT_SEND_DECK_TITLE	ส่งข้อความพร้อมเด็ค	
 GLOBAL_CHAT_SENDER_APPEAR_OFFLINE	คุณไม่สามารถส่งข้อความสนทนาในขณะที่คุณปรากฏแบบออฟไลน์ได้	
 GLOBAL_CHAT_SENDER_OFFLINE	คุณออฟไลน์อยู่ในขณะนี้	
 GLOBAL_CHOOSE_PAYMENT	เลือกการชำระเงิน	
@@ -458,6 +464,7 @@ GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_MODE_UNAVAILABLE	คุณไม่สาม�
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_TAVERN_BRAWL_LOCKED	เล่นบทสอนเล่น Hearthstone ดั้งเดิมให้จบและ[b]เล่นคลาสหนึ่ง[b]ให้ถึงเลเวล 20 เพื่อปลดล็อค	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_THEYRE_UNAVAILABLE	คุณไม่สามารถท้า {0} ได้ในตอนนี้ รอให้พวกเขา[b]กลับไปที่เมนูหลักก่อน	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_TRADITIONAL_LOCKED	เล่นบทสอนเล่น Hearthstone ดั้งเดิมให้จบเพื่อปลดล็อค	
+GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_UNAVAILABLE	คุณท้าแข่งกับ {0} ไม่ได้ในขณะนี้	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_BATTLEGROUNDS_EARLY_ACCESS	ผู้เล่นนี้ไม่มีสิทธิ์เข้าเล่น Battlegrounds ในช่วงเล่นล่วงหน้า	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_BATTLEGROUNDS_TUTORIAL_COMPLETE	ผู้เล่นคนนี้ยังเล่น[b]บทสอนเล่น Battlegrounds ไม่จบ	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_CLASSIC_DECK	ผู้เล่นคนนี้ไม่มีเด็คคลาสสิค	
@@ -480,12 +487,18 @@ GLOBAL_FRIENDLIST_CHALLENGE_MENU_WILD_DUEL_BUTTON	อิสระ
 GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_NO_TAVERN_BRAWL	ขณะนี้เกมท้าประลองยังไม่เปิดให้เล่น  โปรดกลับมาใหม่เร็วๆ นี้!	
 GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_TAVERN_BRAWL_NOT_CHALLENGEABLE	ไม่มีการท้าแข่งกระชับมิตรสำหรับเกมท้าประลองนี้	
 GLOBAL_FRIENDLIST_CURRENT_GAMES_HEADER	เกมปัจจุบัน - {0}	0=number of friends you have unfinished games with
+GLOBAL_FRIENDLIST_CURRENT_OPPONENT_STATUS	คู่ต่อสู้ปัจจุบัน!	
+GLOBAL_FRIENDLIST_FORMER_FRIEND_STATUS	อดีตเพื่อน	
 GLOBAL_FRIENDLIST_FRIENDS_HEADER	เพื่อน - ออนไลน์ {0}/{1} คน	0=number of online friends 1=number of offline friends
 GLOBAL_FRIENDLIST_FRIENDS_HEADER_ALL_ONLINE	เพื่อน - {0} ออนไลน์	
+GLOBAL_FRIENDLIST_LAST_OPPONENT_STATUS	คู่ต่อสู้คนล่าสุด	
 GLOBAL_FRIENDLIST_LASTPLAYED	เล่นครั้งล่าสุด:	
 GLOBAL_FRIENDLIST_MYSTATUS	ออนไลน์	
 GLOBAL_FRIENDLIST_NEARBY_PLAYERS_DISABLED_HEADER	ผู้เล่นใกล้เคียง (ปิดใช้งาน)	
 GLOBAL_FRIENDLIST_NEARBY_PLAYERS_HEADER	ผู้เล่นที่อยู่ใกล้ - {0}	0=number of players
+GLOBAL_FRIENDLIST_NEW_FRIEND_STATUS	เพื่อนใหม่!	
+GLOBAL_FRIENDLIST_RECENT_CHALLENGED_STATUS	ท้าแข่งด้วยล่าสุด	
+GLOBAL_FRIENDLIST_RECENT_CHATTED_STATUS	สนทนาด้วยล่าสุด	
 GLOBAL_FRIENDLIST_RECENT_OPPONENT_STATUS	คู่ต่อสู้คนล่าสุด	
 GLOBAL_FRIENDLIST_RECENT_PLAYERS_HEADER	ล่าสุด - {0}	0=number of players
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_ALERT_MESSAGE	คุณแน่ใจหรือไม่ว่าต้องการลบ {0}	0=friend name
@@ -552,7 +565,7 @@ GLOBAL_JOIN	เข้าร่วม
 GLOBAL_KEYWORD_ADAPT	ปรับตัว	
 GLOBAL_KEYWORD_ADAPT_TEXT	เลือกโบนัส 1 จาก 3 อย่าง	
 GLOBAL_KEYWORD_ALLIANCE	พันธมิตร	
-GLOBAL_KEYWORD_ALLIANCE_TEXT	เผ่าพันธุ์ฝ่ายพันธมิตร ได้แก่ ดราไน คนแคระ โนม มนุษย์ ไนท์เอลฟ์ และวอร์เก้น	
+GLOBAL_KEYWORD_ALLIANCE_TEXT	ฝ่ายพันธมิตร ได้แก่ ดราไน คนแคระ โนม มนุษย์ ไนท์เอลฟ์ และวอร์เก้น	
 GLOBAL_KEYWORD_ALLIED	เข้าร่วม	
 GLOBAL_KEYWORD_ALLIED_TEXT	ฮีโร่ของคุณกลายเป็น[b]คลาสที่เข้าร่วมหลัง[b]จากคุณเลือกสมบัตินี้	
 GLOBAL_KEYWORD_ATTACK_MERC	โจมตี	
@@ -651,7 +664,7 @@ GLOBAL_KEYWORD_HEALING_POWER_TEXT	ความสามารถ[b]ฟื้น�
 GLOBAL_KEYWORD_HONORABLEKILL	สังหารทรงเกียรติ	
 GLOBAL_KEYWORD_HONORABLEKILL_TEXT	สร้างความเสียหายเท่า[b]ความเสียหายถึงตายใน[b]เทิร์นคุณเพื่อรับโบนัส	
 GLOBAL_KEYWORD_HORDE	ชนเผ่า	
-GLOBAL_KEYWORD_HORDE_TEXT	เผ่าพันธุ์ฝ่ายชนเผ่า ได้แก่ บลัดเอลฟ์ ก็อบลิน ฮาล์ฟออร์ค ออเกอร์ ออร์ค ทอเรน โทรลล์ และอันเดด	
+GLOBAL_KEYWORD_HORDE_TEXT	ฝ่ายชนเผ่า ได้แก่ บลัดเอลฟ์ ก็อบลิน ฮาล์ฟออร์ค ออเกอร์ ออร์ค ทอเรน โทรลล์ และอันเดด	
 GLOBAL_KEYWORD_IMMUNE	คงกระพัน	
 GLOBAL_KEYWORD_IMMUNE_REF_TEXT	ตัวละครที่คงกระพัน[b]จะไม่ได้รับความเสียหาย	
 GLOBAL_KEYWORD_IMMUNE_TEXT	ไม่ได้รับความเสียหาย	
@@ -695,7 +708,7 @@ GLOBAL_KEYWORD_RECRUIT	ระดมพล
 GLOBAL_KEYWORD_RECRUIT_TEXT	เรียกมินเนี่ยนหนึ่งตัว[b]จากเด็คของคุณ	
 GLOBAL_KEYWORD_REFRESH	รีเฟรช	
 GLOBAL_KEYWORD_REFRESH_MERC	รีเฟรช	
-GLOBAL_KEYWORD_REFRESH_MERC_TEXT	ทำให้คูลดาวน์ที่[b]เหลืออยู่[b]ของความ[b]สามารถจบลง	
+GLOBAL_KEYWORD_REFRESH_MERC_TEXT	ลดคูลดาวน์ลง (X)	
 GLOBAL_KEYWORD_REFRESH_TEXT	เปลี่ยนมินเนี่ยนใน[b]โรงเตี๊ยมของบ็อบ[b]เป็นมินเนี่ยนใหม่	
 GLOBAL_KEYWORD_REVIVE	ชุบชีวิต (X)	
 GLOBAL_KEYWORD_REVIVE_TEXT	คืนชีพใน (X) เทิร์น[b]หลังจากตาย	
@@ -723,6 +736,8 @@ GLOBAL_KEYWORD_SPELLBURST_TEXT	แสดงผลครั้งเดียว[
 GLOBAL_KEYWORD_SPELLCOMBO_MERC	คอมโบเวท	
 GLOBAL_KEYWORD_SPELLCOMBO_REF_TEXT_MERC	ได้รับ[b]โบนัส[b]ถ้า[b]ทหารรับจ้าง[b]ฝ่ายคุณ[b]ตัวอื่น[b]เคย[b]เล่น[b]เวทมนตร์[b]แขนง[b]เดียวกัน[b]ในเทิร์นนี้	
 GLOBAL_KEYWORD_SPELLCOMBO_TEXT_MERC	ได้รับ[b]โบนัส[b]ถ้า[b]ทหารรับจ้าง[b]ฝ่ายคุณ[b]ตัวอื่น[b]เคย[b]เล่น[b]เวทมนตร์[b]แขนง[b]เดียวกัน[b]ในเทิร์นนี้	
+GLOBAL_KEYWORD_SPELLCRAFT	เสกอาคม	
+GLOBAL_KEYWORD_SPELLCRAFT_TEXT	ได้รับเวทมนตร์[b]ชั่วคราวหนึ่งใบ[b]ทุกเทิร์น	
 GLOBAL_KEYWORD_SPELLPOWER	ความเสียหายเวท	
 GLOBAL_KEYWORD_SPELLPOWER_ARCANE	ความเสียหายเวทมนตรา	
 GLOBAL_KEYWORD_SPELLPOWER_ARCANE_MERC	ความเสียหายมนตรา	
@@ -953,6 +968,10 @@ GLOBAL_OPTIONS_CARDBACK_LABEL	เลือกหลังการ์ดขอ�
 GLOBAL_OPTIONS_CHOOSE_CARD_BACK	เลือกหลังการ์ด	
 GLOBAL_OPTIONS_CINEMATIC	วิดีโอเปิดเกม	
 GLOBAL_OPTIONS_CREDITS	ผู้พัฒนา	
+GLOBAL_OPTIONS_GRAPHICS_FPS_DEFAULT	ต่ำ	
+GLOBAL_OPTIONS_GRAPHICS_FPS_HIGH	สูง	
+GLOBAL_OPTIONS_GRAPHICS_FPS_LABEL	อัตราเฟรม	
+GLOBAL_OPTIONS_GRAPHICS_FPS_MEDIUM	ปานกลาง	
 GLOBAL_OPTIONS_GRAPHICS_FULLSCREEN_LABEL	เต็มหน้าจอ	
 GLOBAL_OPTIONS_GRAPHICS_LABEL	กราฟิก	
 GLOBAL_OPTIONS_GRAPHICS_QUALITY_HIGH	สูง	
@@ -1077,6 +1096,7 @@ GLOBAL_RACE_MIXED_BATTLEGROUNDS	มินเนี่ยนผสมกัน
 GLOBAL_RACE_MURLOC	เมอร์ล็อค	
 GLOBAL_RACE_MURLOC_BATTLEGROUNDS	เมอร์ล็อค	
 GLOBAL_RACE_NAGA	นากา	
+GLOBAL_RACE_NAGA_BATTLEGROUNDS	นากา	
 GLOBAL_RACE_NERUBIAN	เนรูเบียน	
 GLOBAL_RACE_NERUBIAN_BATTLEGROUNDS	เนรูเบียน	
 GLOBAL_RACE_NIGHTELF	ไนท์เอลฟ์	

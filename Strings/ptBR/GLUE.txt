@@ -254,7 +254,7 @@ GLUE_BACON_COLLECTION_FAVORITE_FINISHER	Ataque favorito
 GLUE_BACON_COLLECTION_FAVORITE_GUIDE	Bartender favorito	
 GLUE_BACON_COLLECTION_FILTER_ALL	Tudo	
 GLUE_BACON_COLLECTION_FILTER_DEFAULT	Mostrar tudo	
-GLUE_BACON_COLLECTION_MANAGER_BOARD_SKINS_TITLE	Murais	
+GLUE_BACON_COLLECTION_MANAGER_BOARD_SKINS_TITLE	Tabuleiros	
 GLUE_BACON_COLLECTION_MANAGER_FINISHERS_TITLE	Ataques	
 GLUE_BACON_COLLECTION_MANAGER_GUIDE_SKINS_TITLE	Bartenders	
 GLUE_BACON_COLLECTION_PREVIEWING	Herói de Benefícios	
@@ -502,6 +502,8 @@ GLUE_COLLECTION_CRAFTING_SHOW_ONLY	Mostrar somente
 GLUE_COLLECTION_CRAFTING_SHOW_ONLY_GOLDEN	Mostrar somente Cards Dourados	
 GLUE_COLLECTION_CRAFTING_SHOW_SOULBOUND_CARDS	Incluir cards incriáveis	
 GLUE_COLLECTION_CRAFTING_UNCRAFTABLE	Cards incriáveis	
+GLUE_COLLECTION_CRAFTING_UPGRADEGOLDEN_GOLDEN	Você tem {0} |4(cópia,cópias) do tipo normal. Você quer Criar um novo Dourado ou Aprimorar um normal?	0=number of normal copies
+GLUE_COLLECTION_CRAFTING_UPGRADEGOLDEN_STANDARD	Você quer criar um novo card ou aprimorar um card normal para Dourado?	
 GLUE_COLLECTION_CUSTOM_DECKNAME_SHORT	{0}{1}	0=class name, 1=incrementer
 GLUE_COLLECTION_CUSTOM_DECKNAME_TEMPLATE	Deck de {0}{1}	0=class name, 1=incrementer
 GLUE_COLLECTION_CUSTOM_TEAMNAME_TEMPLATE	Grupo {0}	0=incrementer
@@ -523,6 +525,11 @@ GLUE_COLLECTION_DECK_COPY_TOOLTIP_HEADLINE	Copiar Deck
 GLUE_COLLECTION_DECK_COPY_TOOLTIP_INCOMPLETE	Você só pode copiar um deck completo.	
 GLUE_COLLECTION_DECK_COPY_TOOLTIP_UNPLAYABLE	Há cards no seu deck que não são válidos.	
 GLUE_COLLECTION_DECK_DELETE	Excluir	
+GLUE_COLLECTION_DECK_EXTRA_CARD_WARNING_BODY	Você pode adicionar mais de {0} cards enquanto estiver montando um deck, mas tem que restringir a {0} para poder usar no jogo.	
+GLUE_COLLECTION_DECK_EXTRA_CARD_WARNING_CONFIRM	Entendi!	
+GLUE_COLLECTION_DECK_EXTRA_CARD_WARNING_HEADER	Adicionando cards extras	
+GLUE_COLLECTION_DECK_EXTRA_CARDS_POPUP_HEADER	Cards extras	
+GLUE_COLLECTION_DECK_EXTRA_CARDS_POPUP_TEXT	Você tem {0}|4(card,cards) a mais neste deck.\nRemover automaticamente?	
 GLUE_COLLECTION_DECK_FINISH_FOR_ME	Sim	
 GLUE_COLLECTION_DECK_FORMAT_CLASSIC	Clássico	
 GLUE_COLLECTION_DECK_FORMAT_STANDARD	Padrão	
@@ -538,9 +545,8 @@ GLUE_COLLECTION_DECK_HERO_NOT_UNLOCKED	Há um deck na área de transferência, m
 GLUE_COLLECTION_DECK_INCOMPLETE_LABEL	Clique para concluir	
 GLUE_COLLECTION_DECK_INCOMPLETE_LABEL_TOUCH	Toque para completar	
 GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_HEADER	Deck incompleto	
-GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_TEXT	Faltam {0} |4(card,cards) para completar um deck.\nVocê quer completá-lo automaticamente?	
-GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_TEXT_NPR	{0} |4(card requer,cards requerem) o Ranque 25.\nDeseja completar o deck automaticamente?	
-GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_TEXT_NPR_NEW	{0} |4(card requer,cards requerem) a conclusão do Aprendizado.\nDeseja completar o deck automaticamente?	
+GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_TEXT	Você precisa de {0} |4(card,cards) para completar o deck.\nCompletar automaticamente?	
+GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_TEXT_NPR	{0} |4(card requer,cards requerem) a conclusão do Aprendizado.\nSubstituir |4(esse,esses) automaticamente?	
 GLUE_COLLECTION_DECK_INFO_HERO_POWER_TOOLTIP	Poder Heroico	
 GLUE_COLLECTION_DECK_INFO_MANA_TOOLTIP	Cards/Custo de mana	
 GLUE_COLLECTION_DECK_INFO_TITLE	{0} Informação	
@@ -560,8 +566,7 @@ GLUE_COLLECTION_DECK_PASTE_TOOLTIP_WILD_LOCKED	É preciso ter um card livre para
 GLUE_COLLECTION_DECK_RENAME	Renomear	
 GLUE_COLLECTION_DECK_RULE_FINISH_AUTOMATICALLY	Deseja completar o deck automaticamente?	
 GLUE_COLLECTION_DECK_RULE_INVALID_CARDS	Você tem {0} |4(card,cards) |4(inválido,inválidos) para este formato.	
-GLUE_COLLECTION_DECK_RULE_INVALID_CARDS_NPR	Você tem {0} |4(card,cards) que |4(requer,requerem) o Ranque 25.	
-GLUE_COLLECTION_DECK_RULE_INVALID_CARDS_NPR_NEW	Você tem (0) |4(card,cards) que |4(requer,requerem) a conclusão do Aprendizado.	
+GLUE_COLLECTION_DECK_RULE_INVALID_CARDS_NPR	Você tem {0} |4(card,cards) que |4(requer,requerem) a conclusão do Aprendizado.	
 GLUE_COLLECTION_DECK_RULE_INVALID_CLASS_CARD	Seu deck contém {0} cards de outra classe.	
 GLUE_COLLECTION_DECK_RULE_MISSING_CARDS	Você precisa de {0} |4(card,cards) para completar um deck.	
 GLUE_COLLECTION_DECK_RULE_NOT_ENOUGH_CARDS	Você precisa de mais {0} |4(card,cards) para completar este deck com esta classe. Experimente criar alguns cards ou montar um deck de outra classe.	
@@ -571,10 +576,6 @@ GLUE_COLLECTION_DECK_RULE_TOO_MANY_CARDS	Você tem {0} |4(card,cards) a mais no 
 GLUE_COLLECTION_DECK_RULE_UNPLAYABLE_CARDS	Você tem (0) |4(card,cards) que ainda não |4(é,são) jogáveis.	
 GLUE_COLLECTION_DECK_SAVE_ANYWAY	Não	
 GLUE_COLLECTION_DECK_TEMPLATE_HELP_BUTTON	Substitua cards	
-GLUE_COLLECTION_DECK_TEMPLATE_LOW_CARD_WARNING	Opa	
-GLUE_COLLECTION_DECK_TEMPLATE_LOW_CARD_WARNING_CANCEL	Espere!	
-GLUE_COLLECTION_DECK_TEMPLATE_LOW_CARD_WARNING_CONFIRM	Sim	
-GLUE_COLLECTION_DECK_TEMPLATE_LOW_CARD_WARNING_MESSAGE	Estão faltando MUITOS cards para este deck. Tem certeza que não quer a Receita de cards Clássicos?	
 GLUE_COLLECTION_DECK_TEMPLATE_REPLACE	Trocar Deck	
 GLUE_COLLECTION_DECK_TEMPLATE_REPLACE_MESSAGE	Esta ação excluirá o deck existente e o substituirá pelo conteúdo do deck modelo, tem certeza?	
 GLUE_COLLECTION_DECK_TEMPLATE_SELECT_A_DECK	Escolha uma receita de deck para aprender mais!	
@@ -612,6 +613,8 @@ GLUE_COLLECTION_LOCK_NO_MORE_INSTANCES	Nenhum restante
 GLUE_COLLECTION_MANAGER_CARD_BACKS_TITLE	Versos de card	
 GLUE_COLLECTION_MANAGER_COIN_TITLE	Moedas	
 GLUE_COLLECTION_MANAGER_COINS_TITLE	Moedas	
+GLUE_COLLECTION_MANAGER_DECK_CARD_BACK_RANDOM_TITLE	Aleatório	
+GLUE_COLLECTION_MANAGER_DECK_CARD_BACK_RANDOM_TOGGLE	Somente favoritos	
 GLUE_COLLECTION_MANAGER_FAVORITE_BUTTON	Tornar favorito	
 GLUE_COLLECTION_MANAGER_FAVORITE_BUTTON_MULTIPLE	Ativar favorito	
 GLUE_COLLECTION_MANAGER_FAVORITE_CARD_BACK	Favorito	
@@ -688,12 +691,15 @@ GLUE_COLLECTION_STANDARD_SETS	Conjuntos Padrão
 GLUE_COLLECTION_TAVERN_BRAWL_DECKNAME	Deck de Contenda	
 GLUE_COLLECTION_TO_STANDARD	Converter em Padrão	
 GLUE_COLLECTION_TO_WILD	Converter em Livre	
+GLUE_COLLECTION_TUTORIAL_MULTIPLE_FAVORITE_CARD_BACKS	Escolha vários favoritos!	
 GLUE_COLLECTION_TUTORIAL_REPLACE_WILD_CARDS	Substitui cards Livres por cards Padrão.	
 GLUE_COLLECTION_TUTORIAL_REPLACE_WILD_CARDS_NPR	Troque os cards inválidos (em vermelho).	
 GLUE_COLLECTION_TUTORIAL_TEMPLATE_REMINDER	Teste mais modelos aqui.	
 GLUE_COLLECTION_TUTORIAL_TEMPLATE_REPLACE_1	Faltando cards? Vamos te ajudar a substituí-los.	
 GLUE_COLLECTION_TUTORIAL_TEMPLATE_REPLACE_2	Substituir cards que faltam.	
 GLUE_COLLECTION_TUTORIAL_TEMPLATE_WELCOME	Tu pode criar um deck a partir de uma receita, ou criar um por conta própria.	
+GLUE_COLLECTION_TUTORIAL_UPDATED_CARD_BACK_DECK_TRAY_ASSIGNED	Arraste para remover	
+GLUE_COLLECTION_TUTORIAL_UPDATED_CARD_BACK_DECK_TRAY_EMPTY	Aleatório agora é o padrão	
 GLUE_COLLECTION_TUTORIAL02	Vire as páginas para procurar	
 GLUE_COLLECTION_TUTORIAL03	Desencante cards extras!	
 GLUE_COLLECTION_TUTORIAL04	Mude o filtro para "TODOS" para ver os cards que você pode criar.	"ALL" is the same as GLUE_COLLECTION_ALL.
@@ -747,6 +753,10 @@ GLUE_CRAFTING_SOULBOUND_REWARD_DESC	Não é possível desencantar ou criar recom
 GLUE_CRAFTING_TITLE	Criação de Cards	
 GLUE_CRAFTING_UNDO	Desfazer	
 GLUE_CRAFTING_UPGRADE	Aprimorar	
+GLUE_CRAFTING_UTG_ALERT_BODY	Quer mesmo aprimorar este card para Dourado com pó arcano?	
+GLUE_CRAFTING_UTG_ALERT_CANCEL	Cancelar	
+GLUE_CRAFTING_UTG_ALERT_CONFIRM	Aprimorar	
+GLUE_CRAFTING_UTG_ALERT_HEADER	Aprimorar para Dourado?	
 GLUE_CRAFTING_WILD_CARD_DESC	Este card é Livre. Tem certeza?	
 GLUE_CRAFTING_WILD_CARD_FIRST_DESC	Este card não é válido no formato Padrão. Tem certeza?	
 GLUE_CRAFTING_WILD_CARD_HEADER	Cards Livres	
@@ -970,6 +980,7 @@ GLUE_GAME_MODES_POPUP_HEADER	Escolha um modo
 GLUE_GAME_MODES_POPUP_PVPDR_DESC	Construa seu deck, receba saques e lute pela vitória! 	
 GLUE_GENERIC_RANDOM_CARD_SCROLL_DESC	O seu pacote continha: {0}!	This is meant to replace the above welcome bundle strings until we have the tech to show custom strings per reward.
 GLUE_GENERIC_RANDOM_CARD_SCROLL_TITLE	Um card Lendário!	This is meant to replace the above welcome bundle strings until we have the tech to show custom strings per reward.
+GLUE_GENERIC_SPECIFIC_CARD_SCROLL_DESC	Encontre-o na sua Coleção de Cards!	
 GLUE_GHOST_CARD_MISSING_DESCRIPTION	Você não tem este card.\nClique para encontrar um substituto.	
 GLUE_GHOST_CARD_MISSING_DESCRIPTION_TOUCH	Você não tem este card.\nToque para encontrar um substituto.	
 GLUE_GHOST_CARD_MISSING_TITLE	Card faltando	
@@ -1141,7 +1152,7 @@ GLUE_LETTUCE_BOUNTY_LOCKED_REASON_BLDG_NEEDS_UPGRADE	Aprimore seu Ponto de Parti
 GLUE_LETTUCE_BOUNTY_LOCKED_REASON_EVENT_ENDED	Esta zona não está mais disponível.	
 GLUE_LETTUCE_BOUNTY_LOCKED_REASON_EVENT_NOT_ACTIVE	Esta zona não está ativa.	
 GLUE_LETTUCE_BOUNTY_LOCKED_REASON_EVENT_NOT_STARTED	Esta zona ainda não está disponível.	
-GLUE_LETTUCE_BOUNTY_LOCKED_REASON_PRV_ZONES_INCOMPLETE	Requer a conclusão das zonas anteriores.	
+GLUE_LETTUCE_BOUNTY_LOCKED_REASON_PRV_ZONES_INCOMPLETE	Requer derrotar Ahune em Hibérnia.	
 GLUE_LETTUCE_BOUNTY_POSTER_TEXT	Nível {0}	0=the level number of the final boss
 GLUE_LETTUCE_BOX_BUTTON_DISABLED_SCROLL_TEXT	Temporariamente\n\n\nindisponível	
 GLUE_LETTUCE_COIN_TOOLTIP_BODY	Use para aprimorar habilidades e equipamento.\nAdquiridas em contratos, pacotes, tarefas e no Ringue de Luta.	
@@ -1174,8 +1185,10 @@ GLUE_LETTUCE_DAILY_REWARDS_RANDOM_MERC	Moedas de Mercenário aleatórias
 GLUE_LETTUCE_DAILY_REWARDS_RANDOM_MERC_TITLE	Vença jogos contra outros jogadores para ganhar recompensas diárias!	
 GLUE_LETTUCE_DAILY_REWARDS_TITLE	Recompensas diárias	
 GLUE_LETTUCE_DECK_SELECT_TITLE	Escolha um grupo	
+GLUE_LETTUCE_DISABLED_INVALID_TEAM	Este grupo não pode ser usado.	
 GLUE_LETTUCE_DISABLED_TEAM	Há um Mercenário desativado neste grupo.\n\nQuer editar o grupo?	
 GLUE_LETTUCE_DISABLED_TEAM_HEADER	Grupo desativado	
+GLUE_LETTUCE_DISABLED_TEAM_NO_EDIT	Há um Mercenário desativado neste grupo.	
 GLUE_LETTUCE_EQUIPMENT_CRAFTING_CONFIRMATION_BODY	Tem certeza de que quer criar este equipamento?	
 GLUE_LETTUCE_EQUIPMENT_EXPLANATION_POPUP_BODY_1	Equipamentos deixam suas habilidades ou Mercenários mais poderosos.	
 GLUE_LETTUCE_EQUIPMENT_EXPLANATION_POPUP_BODY_2	Você encontra alcançando o nível 30 ou concluindo tarefas de missões.	
@@ -1428,7 +1441,7 @@ GLUE_LOADINGSCREEN_UPDATE_HEADER	Download
 GLUE_LOADINGSCREEN_UPDATE_WIFI_RECONNECTED	Conectado ao wi-fi novamente! Download retomado.	
 GLUE_LOADINGSCREEN_UPDATE_WIFI_WARNING	Sem conexão Wi-Fi. Quer baixar pelo plano do celular?	
 GLUE_LOADINGSCREEN_WARNING_CELLULAR	Você vai baixar {0} de dados. Tem certeza de que quer usar seu plano de dados?	0=data size
-GLUE_LOCKED_DECK_DESC	Conclua o tutorial do Hearthstone tradicional para desbloquear a montagem de decks.	
+GLUE_LOCKED_DECK_DESC	Conclua o tutorial do Hearthstone Tradicional para desbloquear a montagem de decks.	
 GLUE_LOCKED_DECK_HEADER	Bloqueado	
 GLUE_LOCKED_DECK_TOOLTIP	A edição deste deck está bloqueada.	
 GLUE_LOCKED_DECK_TOOLTIP_TITLE	Bloqueado	
@@ -1845,6 +1858,7 @@ GLUE_RDM_MORE_WEAPONS	O que acha de adicionar mais Armas?
 GLUE_RDM_NO_SPECIFICS	Seu deck está muito bom! Que tal alguns desses cards para ajudar a completá-lo?	
 GLUE_RDM_TEMPLATE_REPLACE	Eis alguns substitutos para \n{0}!	0=card names
 GLUE_RECONNECT_GAME_TYPE_ARENA	de Arena	
+GLUE_RECONNECT_GAME_TYPE_BATTLEGROUNDS	Campos de Batalha	
 GLUE_RECONNECT_GAME_TYPE_BRM	Montanha Rocha Negra	
 GLUE_RECONNECT_GAME_TYPE_FRIENDLY	Amistoso	
 GLUE_RECONNECT_GAME_TYPE_NAXXRAMAS	em Naxxramas	
@@ -2322,7 +2336,18 @@ GLUE_TAVERN_BRAWL_REWARD_DESC_FINISH_QUOTA_MULTIPLE_PACKS	Ganhe {0} |4(pacote,pa
 GLUE_TAVERN_BRAWL_REWARD_DESC_MULTIPLE_PACKS	Ganhe {0} |4(pacote,pacotes) pela sua primeira vitória nesta semana!	
 GLUE_TAVERN_BRAWL_REWARD_DESC_QUOTA	Ganhe um pacote obtendo {1} |4(vitória,vitórias) esta semana!	the zeroth parameter {0} is always # of rewards/packs while {1} is how many wins.
 GLUE_TAVERN_BRAWL_REWARD_DESC_QUOTA_MULTIPLE_PACKS	Ganhe {0} |4(pacote,pacotes) obtendo {1} |4(vitória,vitórias) esta semana!	{0} is always # of rewards/packs while {1} is how many wins.
-GLUE_TAVERN_BRAWL_TRADITIONAL_TUTORIAL_INCOMPLETE	Conclua o tutorial do Hearthstone tradicional para acessar a Contenda de Taverna.	
+GLUE_TAVERN_BRAWL_TRADITIONAL_TUTORIAL_INCOMPLETE	Conclua o tutorial do Hearthstone Tradicional para acessar a Contenda de Taverna.	
+GLUE_TEAM_SHARE_ACCEPT_REQUEST	Compartilhar	
+GLUE_TEAM_SHARE_BORROW_TEAMS	Pegar grupos emprestados	
+GLUE_TEAM_SHARE_DECLINE_REQUEST	De jeito nenhum!	
+GLUE_TEAM_SHARE_ERROR	Ocorreu um erro ao tentar compartilhar grupos.	
+GLUE_TEAM_SHARE_HEADER	Compartilhar grupos?	
+GLUE_TEAM_SHARE_REQUEST_CANCELED	{0} cancelou o pedido para compartilhar grupos.	0=friend name
+GLUE_TEAM_SHARE_REQUEST_DECLINED	{0} recusou seu pedido para compartilhar grupos.	0=friend name
+GLUE_TEAM_SHARE_REQUEST_WAITING_RESPONSE	Esperando {0} responder ao seu pedido para compartilhar grupos.	0=friend name
+GLUE_TEAM_SHARE_REQUESTED	{0} quer pegar um grupo seu emprestado.	0=friend name
+GLUE_TEAM_SHARE_SHOW_MY_TEAMS	Mostrar meus grupos	
+GLUE_TEAM_SHARE_SHOW_OPPONENT_TEAMS	Mostrar grupos do oponente	
 GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_01	Criar uma conta ajuda a salvar o seu progresso! E você ganha de graça um pacote de cards!	
 GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_02	Criando uma conta, você poderá fazer compras! A conta ajuda a proteger sua coleção.	
 GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_03	Criando uma conta, você protege sua coleção e ainda ganha este pacote grátis!	
@@ -2652,7 +2677,7 @@ GLUE_TIP_PLAY_6	A Arena é uma ótima maneira de ganhar recompensas jogando em u
 GLUE_TIP_PLAY_7	Você não precisa jogar todos os jogos da Arena de uma só vez.	
 GLUE_TIP_PLAY_8	Se vencer 5 partidas no Jogo Ranqueado em uma temporada, você receberá o verso de card especial dela.	
 GLUE_TIP_PRACTICE_0	Tu pode desbloquear Heróis derrotando-os no Modo de Treinamento.	
-GLUE_TIP_PRACTICE_1	O Modo de Treinamento é uma preparação para o modo de jogo tradicional de Hearthstone!	
+GLUE_TIP_PRACTICE_1	O Modo de Treinamento é uma preparação para o modo de jogo Hearthstone Tradicional!	
 GLUE_TIP_PRACTICE_2	O modo de jogo Hearthstone Tradicional fará o pareamento entre você e outro jogador de perícia equivalente!	
 GLUE_TIP_PRACTICE_3	Você pode montar um deck personalizado com seus cards visitando a sua Coleção.	
 GLUE_TIP_PRACTICE_4	Cada classe tem 16 cards Essenciais que você pode desbloquear ao passar de nível.	
@@ -2684,7 +2709,7 @@ GLUE_TOOLTIP_BUTTON_FORGE_HEADLINE	Arena
 GLUE_TOOLTIP_BUTTON_FORGE_NOT_UNLOCKED	Bloqueado até você chegar ao nível 10 com todas as classes.	
 GLUE_TOOLTIP_BUTTON_GAME_MODES_DESC	Experimente formas alternativas de jogar.	
 GLUE_TOOLTIP_BUTTON_GAME_MODES_HEADLINE	Modos de jogo	
-GLUE_TOOLTIP_BUTTON_GAME_MODES_LOCKED_DESC	Conclua o tutorial do Hearthstone tradicional para ter acesso a modos adicionais.	
+GLUE_TOOLTIP_BUTTON_GAME_MODES_LOCKED_DESC	Conclua o tutorial do Hearthstone Tradicional para ter acesso a modos adicionais.	
 GLUE_TOOLTIP_BUTTON_JOURNAL_DESC	Missões, conquistas, recompensas e muito mais!	
 GLUE_TOOLTIP_BUTTON_JOURNAL_HEADLINE	Diário	
 GLUE_TOOLTIP_BUTTON_MERCENARIES_DESC	Monte uma equipe de Mercenários para subir de nível enfrentando batalhas por recompensas e glória.	
@@ -2698,7 +2723,7 @@ GLUE_TOOLTIP_BUTTON_STORE_HEADLINE	Loja
 GLUE_TOOLTIP_BUTTON_TAVERN_BRAWL_DESC	Jogue um novo desafio toda semana.	
 GLUE_TOOLTIP_BUTTON_TAVERN_BRAWL_HEADLINE	Contenda de Taverna	
 GLUE_TOOLTIP_BUTTON_TAVERN_BRAWL_NOT_UNLOCKED	Bloqueado até você chegar ao nível 20 com uma classe.	
-GLUE_TOOLTIP_BUTTON_TRADITIONAL_DESC	A experiência tradicional de Hearthstone.	
+GLUE_TOOLTIP_BUTTON_TRADITIONAL_DESC	A experiência do Hearthstone Tradicional.	
 GLUE_TOOLTIP_BUTTON_TRADITIONAL_HEADLINE	Hearthstone	
 GLUE_TOOLTIP_DESCRIPTION_ALL_STANDARD_CARDS	Contém os cards mais recentes. Pode ser usado nos formatos Padrão e Livre.	
 GLUE_TOOLTIP_DESCRIPTION_VANILLA_CARDS	Contém os cards originais de Hearthstone. Só pode ser usado no formato Clássico.	

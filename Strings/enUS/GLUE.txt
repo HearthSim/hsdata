@@ -44,8 +44,7 @@ GLUE_COLLECTION_DECK_RULE_INVALID_CLASS_CARD	Your deck contains {0} cards from a
 GLUE_COLLECTION_DECK_RULE_MISSING_CARDS	You are {0} |4(card,cards) short of a full deck.
 GLUE_COLLECTION_DECK_RULE_TOO_MANY_CARDS	You have {0} |4(card,cards) too many in the deck.
 GLUE_COLLECTION_DECK_RULE_INVALID_CARDS	You have {0} |4(card,cards) that |4(is,are) invalid for this format.	
-GLUE_COLLECTION_DECK_RULE_INVALID_CARDS_NPR	You have {0} |4(card,cards) that |4(requires,require) Rank 25.
-GLUE_COLLECTION_DECK_RULE_INVALID_CARDS_NPR_NEW	You have {0} |4(card,cards) that |4(requires,require) completion of Apprenticeship.
+GLUE_COLLECTION_DECK_RULE_INVALID_CARDS_NPR	You have {0} |4(card,cards) that |4(requires,require) completion of Apprenticeship.
 GLUE_COLLECTION_DECK_RULE_FINISH_AUTOMATICALLY	Do you want to finish the deck automatically?	
 GLUE_COLLECTION_DECK_RULE_NOT_ENOUGH_CARDS	You need {0} more |4(card,cards) to complete a deck with this class. Try crafting some cards or building a deck with a different class.
 GLUE_COLLECTION_DECK_RULE_NOT_IN_FORMAT	You have {0} |4(card,cards) that |4(is,are) invalid for this format.
@@ -56,18 +55,18 @@ GLUE_COLLECTION_DECK_COMPLETE_POPUP_CONFIRM	Yes
 GLUE_COLLECTION_DECK_COMPLETE_POPUP_CANCEL	No	
 GLUE_COLLECTION_DECK_TEMPLATE_REPLACE	Switch Deck	
 GLUE_COLLECTION_DECK_TEMPLATE_REPLACE_MESSAGE	This will erase your existing deck and replace it with the contents of the template deck, are you sure?	
-GLUE_COLLECTION_DECK_TEMPLATE_LOW_CARD_WARNING	Uh Oh	
-GLUE_COLLECTION_DECK_TEMPLATE_LOW_CARD_WARNING_MESSAGE	You're missing a LOT of cards for this deck.  Are you sure you don't want the Classic Recipe?	
-GLUE_COLLECTION_DECK_TEMPLATE_LOW_CARD_WARNING_CONFIRM	I'm Sure
-GLUE_COLLECTION_DECK_TEMPLATE_LOW_CARD_WARNING_CANCEL	Wait!	
 GLUE_COLLECTION_DECK_TEMPLATE_SELECT_A_DECK	Select a deck recipe to learn more!
 GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_HEADER	Incomplete Deck	
-GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_TEXT	You are {0} |4(card,cards) short of a full deck.\nDo you want to finish the deck automatically?	
-GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_TEXT_NPR	{0} |4(card requires,cards require) Rank 25.\nDo you want to finish the deck automatically?	
-GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_TEXT_NPR_NEW	{0} |4(card requires,cards require) completion of Apprenticeship.\nDo you want to finish the deck automatically?	
+GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_TEXT	You are {0} |4(card,cards) short of a full deck.\nComplete deck automatically?	
+GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_TEXT_NPR	{0} |4(card requires,cards require) completion of Apprenticeship.\nReplace |4(it,them) automatically?	
 GLUE_COLLECTION_DECK_INCOMPLETE_LABEL	Click to complete	
 GLUE_COLLECTION_DECK_INCOMPLETE_LABEL_TOUCH	Tap to complete	
 GLUE_COLLECTION_DECK_MISSING_CARDS_INDICATOR	{0}/{1}	
+GLUE_COLLECTION_DECK_EXTRA_CARD_WARNING_HEADER	Adding Extra Cards
+GLUE_COLLECTION_DECK_EXTRA_CARD_WARNING_BODY	You can add more than {0} cards while building a deck, but must narrow it back down to {0} cards before it will be valid for play.
+GLUE_COLLECTION_DECK_EXTRA_CARD_WARNING_CONFIRM	Got it!
+GLUE_COLLECTION_DECK_EXTRA_CARDS_POPUP_HEADER	Extra Cards
+GLUE_COLLECTION_DECK_EXTRA_CARDS_POPUP_TEXT	You have {0} |4(extra card,extra cards) in this deck.\nRemove |4(it,them) automatically?
 GLUE_COLLECTION_NEW_DECK	New Deck	
 GLUE_COLLECTION_NEW_TEAM	New Party	
 GLUE_COLLECTION_NEW_DECK_DETAIL_HEADER	Included in this {0} deck:
@@ -93,7 +92,10 @@ GLUE_COLLECTION_TUTORIAL_REPLACE_WILD_CARDS_NPR	Replace invalid cards (in red).
 GLUE_COLLECTION_TUTORIAL_TEMPLATE_WELCOME	You can create a deck from a recipe, or make one of your own.	
 GLUE_COLLECTION_TUTORIAL_TEMPLATE_REPLACE_1	Missing Cards. We'll help you replace 'em	
 GLUE_COLLECTION_TUTORIAL_TEMPLATE_REPLACE_2	Replace missing cards.	
-GLUE_COLLECTION_TUTORIAL_TEMPLATE_REMINDER	Try more templates here.	
+GLUE_COLLECTION_TUTORIAL_TEMPLATE_REMINDER	Try more templates here.
+GLUE_COLLECTION_TUTORIAL_MULTIPLE_FAVORITE_CARD_BACKS	Choose multiple favorites!
+GLUE_COLLECTION_TUTORIAL_UPDATED_CARD_BACK_DECK_TRAY_EMPTY	Random is now default
+GLUE_COLLECTION_TUTORIAL_UPDATED_CARD_BACK_DECK_TRAY_ASSIGNED	Drag to remove
 GLUE_COLLECTION_ARTIST	Artist: {0}	0=artist name
 GLUE_COLLECTION_RECENTLY_NERFED	<color=#971c1cff>This card was recently modified, so its Disenchant value has been adjusted.</color>
 GLUE_COLLECTION_DELETE_CONFIRM_HEADER	Delete	
@@ -131,6 +133,8 @@ GLUE_COLLECTION_CRAFTING_FILTERS	Filters
 GLUE_COLLECTION_CRAFTING_SHOW_ONLY_GOLDEN	Show Only Golden Cards	
 GLUE_COLLECTION_CRAFTING_SHOW_SOULBOUND_CARDS	Include Uncraftable Cards	
 GLUE_COLLECTION_CRAFTING_EXPLANATION	Select a card to start crafting.\n\nSpend Arcane Dust to create cards and acquire dust by disenchanting cards.\n\nCosts vary with card rarity.
+GLUE_COLLECTION_CRAFTING_UPGRADEGOLDEN_STANDARD	Do you want to create a new card or upgrade a normal card to Golden?
+GLUE_COLLECTION_CRAFTING_UPGRADEGOLDEN_GOLDEN	You have {0} normal |4(copy,copies). Do you want to Create a new golden or Upgrade a normal?	0=number of normal copies
 GLUE_COLLECTION_ADD_TO_DECK	Add to Deck
 GLUE_COLLECTION_GENERIC_ERROR	A system error has prevented your request. Please try again later.
 GLUE_COLLECTION_CARD_PERMISSION_ERROR	That card cannot be crafted or disenchanted. Log out and log back in to retrieve any spent dust.
@@ -198,7 +202,11 @@ GLUE_CRAFTING_CREATE	Create
 GLUE_CRAFTING_CREATE_UPGRADE	Create/\nUpgrade
 GLUE_CRAFTING_UPGRADE	Upgrade
 GLUE_CRAFTING_DISENCHANT	Disenchant	
-GLUE_CRAFTING_UNDO	Undo	
+GLUE_CRAFTING_UNDO	Undo
+GLUE_CRAFTING_UTG_ALERT_HEADER	Upgrade to Golden?
+GLUE_CRAFTING_UTG_ALERT_BODY	Are you sure you want to upgrade this card to Golden with dust?
+GLUE_CRAFTING_UTG_ALERT_CANCEL	Cancel
+GLUE_CRAFTING_UTG_ALERT_CONFIRM	Upgrade	
 GLUE_CRAFTING_ARCANEDUST	Arcane Dust	
 GLUE_CRAFTING_ARCANEDUST_DESCRIPTION	Gain Arcane Dust by disenchanting cards. You can use dust to craft cards you want!	
 GLUE_CRAFTING_SOULBOUND	Uncraftable	
@@ -448,7 +456,7 @@ GLUE_BLIZZCON2013_ARENA_5_WINS	You are now an Arena Veteran! Keep going and see 
 GLUE_BLIZZCON2013_ARENA_PRIZE	Congratulations! You've earned a prize! Show a BlizzCon attendant this screen!
 GLUE_BLIZZCON2013_ARENA_GRAND_PRIZE	WOOOOO! We have a new Arena Champion! Show a BlizzCon attendant this screen to receive your GRAND PRIZE!
 GLUE_TOOLTIP_BUTTON_TRADITIONAL_HEADLINE	Hearthstone	
-GLUE_TOOLTIP_BUTTON_TRADITIONAL_DESC	The traditional Hearthstone experience.	
+GLUE_TOOLTIP_BUTTON_TRADITIONAL_DESC	The Traditional Hearthstone experience.	
 GLUE_TOOLTIP_BUTTON_ADVENTURE_HEADLINE	Solo Adventures	
 GLUE_TOOLTIP_BUTTON_ADVENTURE_DESC	Embark on adventures or practice against the AI.	
 GLUE_TOOLTIP_BUTTON_FORGE_HEADLINE	The Arena	
@@ -469,7 +477,7 @@ GLUE_TOOLTIP_BUTTON_JOURNAL_HEADLINE	Journal
 GLUE_TOOLTIP_BUTTON_JOURNAL_DESC	Quests, Achievements, Rewards, and more!
 GLUE_TOOLTIP_BUTTON_GAME_MODES_HEADLINE	Game Modes	
 GLUE_TOOLTIP_BUTTON_GAME_MODES_DESC	Try out different ways to play.	
-GLUE_TOOLTIP_BUTTON_GAME_MODES_LOCKED_DESC	Complete the traditional Hearthstone tutorial to access additional modes.
+GLUE_TOOLTIP_BUTTON_GAME_MODES_LOCKED_DESC	Complete the Traditional Hearthstone tutorial to access additional modes.
 GLUE_TOOLTIP_BUTTON_BACON_HEADLINE	Battlegrounds	
 GLUE_TOOLTIP_BUTTON_BACON_DESC_EARLY_ACCESS	Battlegrounds is currently in Early Access.\nYou can gain access by purchasing any of the Descent of Dragons pre-purchases in the shop.
 GLUE_TOOLTIP_BUTTON_BACON_DESC	Battle 7 opponents! Who will take the crown?
@@ -687,7 +695,7 @@ GLUE_TIP_DEFAULT_35	Duels lets you build a deck as you go. After each fight, you
 GLUE_TIP_DEFAULT_36	Unlocking the Tavern Pass allows you to get even more Reward XP.	
 GLUE_TIP_DEFAULT_37	If you win 1000 games in Ranked, Arena, or Duels mode with a class, you'll get a Prestige Hero!
 GLUE_TIP_PRACTICE_0	You can unlock heroes by defeating them in Practice Mode.	
-GLUE_TIP_PRACTICE_1	Practice Mode is just preparation for the traditional Hearthstone game mode!	
+GLUE_TIP_PRACTICE_1	Practice Mode is just preparation for the Traditional Hearthstone game mode!	
 GLUE_TIP_PRACTICE_2	The Traditional Hearthstone game mode will match you against someone of similar skill!	
 GLUE_TIP_PRACTICE_3	You can build a custom deck with your cards by visiting your Collection.	
 GLUE_TIP_PRACTICE_4	Each class has 16 different Core cards you can unlock as you level up.	
@@ -1084,7 +1092,7 @@ GLUE_DISABLED_DECK_HEADER	{0} deck	0=deck format
 GLUE_DISABLED_DECK_DESC	Not usable in {0} format.	0=current format
 GLUE_DISABLED_DECK_IN_CURRENT_MODE_DESC	Not usable in this mode.
 GLUE_LOCKED_DECK_HEADER	Locked
-GLUE_LOCKED_DECK_DESC	Complete the traditional Hearthstone tutorial to unlock deck building.
+GLUE_LOCKED_DECK_DESC	Complete the Traditional Hearthstone tutorial to unlock deck building.
 GLUE_QUEST_LOG_PHONE_BUTTON	Quests	
 GLUE_JOURNAL_PHONE_BUTTON	Journal	
 GLUE_QUEST_LOG_HEADLINE	Quest Log	
@@ -1155,6 +1163,7 @@ GLUE_RECONNECT_GAME_TYPE_PRACTICE	Practice
 GLUE_RECONNECT_GAME_TYPE_TAVERN_BRAWL	Tavern Brawl	
 GLUE_RECONNECT_GAME_TYPE_NAXXRAMAS	Naxxramas	
 GLUE_RECONNECT_GAME_TYPE_BRM	Blackrock Mountain	
+GLUE_RECONNECT_GAME_TYPE_BATTLEGROUNDS	Battlegrounds
 GLUE_RECONNECT_HELPER_TITLE	Reconnect
 GLUE_RECONNECT_HELPER_HEADER	You are currently offline
 GLUE_RECONNECT_HELPER_BODY	You must reconnect before you can proceed. However, you can still access your collection offline.
@@ -1374,6 +1383,8 @@ GLUE_COLLECTION_MANAGER_FAVORITE_BUTTON	Make Favorite
 GLUE_COLLECTION_MANAGER_FAVORITE_BUTTON_MULTIPLE	Toggle Favorite	
 GLUE_COLLECTION_MANAGER_FAVORITE_DEFAULT_TEXT	Favorite {0}	
 GLUE_COLLECTION_MANAGER_FAVORITE_CARD_BACK	Favorite	
+GLUE_COLLECTION_MANAGER_DECK_CARD_BACK_RANDOM_TITLE	Random	
+GLUE_COLLECTION_MANAGER_DECK_CARD_BACK_RANDOM_TOGGLE	Favorites Only	
 GLUE_COLLECTION_MANAGER_COIN_TITLE	Coins		
 GLUE_COLLECTION_MANAGER_FAVORITE_COIN	Favorite	
 GLUE_TAVERN_BRAWL_RETURNS_LESS_THAN_1_HOUR	Back in\n<size=70>< 1 </size>\nhour	
@@ -1495,6 +1506,7 @@ GLUE_WELCOME_BUNDLE_RANDOM_CARD_SCROLL_TITLE	Welcome Bundle Legendary Card!
 GLUE_WELCOME_BUNDLE_RANDOM_CARD_SCROLL_DESC	Your welcome bundle contained \n{0}!
 GLUE_GENERIC_RANDOM_CARD_SCROLL_TITLE	It's a Legendary Card!	This is meant to replace the above welcome bundle strings until we have the tech to show custom strings per reward.
 GLUE_GENERIC_RANDOM_CARD_SCROLL_DESC	Your bundle contained {0}!	This is meant to replace the above welcome bundle strings until we have the tech to show custom strings per reward.
+GLUE_GENERIC_SPECIFIC_CARD_SCROLL_DESC	Find it in your Card Collection!
 GLUE_INKEEPER_RANDOM_CARD_DECK_RECIPE_ROGUE	Lookit that! A Rogue Legendary! It's in the Classic recipe. Try building the deck!
 GLUE_INKEEPER_RANDOM_CARD_DECK_RECIPE_WARRIOR	Ah! A Warrior Legendary! It's in the Classic recipe. Try building the deck!
 GLUE_INKEEPER_RANDOM_CARD_DECK_RECIPE_PALADIN	Ah! A Paladin Legendary! It's in the Classic recipe. Try building the deck!
@@ -2516,7 +2528,7 @@ GLUE_MASDK_ACCOUNT_REPAIR_TITLE	Account Repaired
 GLUE_MASDK_ACCOUNT_REPAIR_BODY	We have fixed an issue with your account preventing you from signing up for a Battle.net account. You can now sign up whenever you desire.
 GLUE_GAME_MODE_LOCKED_HEADER	Unlock {0} by completing your Apprenticeship
 GLUE_TOOLTIP_GAME_MODE_DATA_NOT_LOADED	This has not finished loading yet. Please try again.
-GLUE_TAVERN_BRAWL_TRADITIONAL_TUTORIAL_INCOMPLETE	Complete the traditional Hearthstone tutorial to access Tavern Brawl.
+GLUE_TAVERN_BRAWL_TRADITIONAL_TUTORIAL_INCOMPLETE	Complete the Traditional Hearthstone tutorial to access Tavern Brawl.
 GLUE_TAVERN_BRAWL_NO_HERO_AT_MINIMUM_LEVEL	At least 1 hero must be level {0} to access Tavern Brawl.
 GLUE_GAME_MODE_UNLOCK_DEFAULT_HEROES	Unlock all 10 heroes to access {0}.
 GLUE_ORDINAL_1	1st
@@ -2766,7 +2778,7 @@ GLUE_LETTUCE_BOUNTY_LOCKED_REASON_EVENT_NOT_STARTED	This zone is not yet availab
 GLUE_LETTUCE_BOUNTY_LOCKED_REASON_EVENT_NOT_ACTIVE	This zone is not active.
 GLUE_LETTUCE_BOUNTY_LOCKED_REASON_EVENT_ENDED	This zone is no longer available.
 GLUE_LETTUCE_BOUNTY_LOCKED_REASON_BLDG_NEEDS_UPGRADE	Upgrade your Travel Point to unlock this zone.
-GLUE_LETTUCE_BOUNTY_LOCKED_REASON_PRV_ZONES_INCOMPLETE	Requires completion of previous zones.
+GLUE_LETTUCE_BOUNTY_LOCKED_REASON_PRV_ZONES_INCOMPLETE	Requires defeating Ahune in Winterspring.
 GLUE_LETTUCE_YOUR_TEAM_TRAY_TITLE	Your Party
 GLUE_LETTUCE_SEASON_RATING_REWARD_TITLE	Mercenary Rating Reward
 GLUE_LETTUCE_SEASON_RATING_REWARD_HEADER	Your Rating earned you Mercenary Rewards!
@@ -2829,3 +2841,17 @@ GLUE_MERCENARIES_TASKBOARD_EVENT_TIME_REM_DAYS	Ends in\n{0}d {1}h	0: event time 
 GLUE_MERCENARIES_TASKBOARD_EVENT_TIME_REM_HOURS	Ends in {0}h	0: event time remaining in hours
 GLUE_MERCENARIES_TASKBOARD_EVENT_TIME_REM_HOUR_OR_LESS	Ends in <1h
 GLUE_MERCENARIES_BONUS_LOOT_BUTTON	Bonus\nLoot!
+GLUE_TEAM_SHARE_REQUEST_WAITING_RESPONSE	Waiting for {0} to respond to your party sharing request.	0=friend name
+GLUE_TEAM_SHARE_REQUEST_DECLINED	{0} declined your request to share parties.	0=friend name
+GLUE_TEAM_SHARE_REQUEST_CANCELED	{0} canceled their request to share parties.	0=friend name
+GLUE_TEAM_SHARE_REQUESTED	{0} wants to borrow one of your parties.	0=friend name
+GLUE_TEAM_SHARE_ERROR	An error occurred while trying to share parties.
+GLUE_TEAM_SHARE_ACCEPT_REQUEST	Share
+GLUE_TEAM_SHARE_DECLINE_REQUEST	No Way!
+GLUE_TEAM_SHARE_HEADER	Share Parties?
+GLUE_TEAM_SHARE_BORROW_TEAMS	Borrow Parties
+GLUE_TEAM_SHARE_SHOW_OPPONENT_TEAMS	Show Opponent's Parties
+GLUE_TEAM_SHARE_SHOW_MY_TEAMS	Show My Parties
+GLUE_LETTUCE_DISABLED_TEAM_NO_EDIT	There is a disabled Mercenary on this party.
+GLUE_LETTUCE_DISABLED_INVALID_TEAM	This party can't be used.
+

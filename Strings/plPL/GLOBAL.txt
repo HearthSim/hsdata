@@ -246,10 +246,16 @@ GLOBAL_CARDTYPE_TOKEN	Żeton
 GLOBAL_CARDTYPE_WEAPON	Broń	
 GLOBAL_CHAT_BUBBLE_RECEIVER_NAME	Do: {0}	0=player name
 GLOBAL_CHAT_CHALLENGE	Wyzwanie	
+GLOBAL_CHAT_DECK_CODE_HINT	\nKliknij, aby skopiować	
+GLOBAL_CHAT_DECK_CODE_HINT_TOUCH	\nDotknij, aby skopiować	
+GLOBAL_CHAT_DECK_CODE_MESSAGE	Talia ({0}): {1}	0=class name,1=copy hint
+GLOBAL_CHAT_DECK_CODE_WITH_NAME_MESSAGE	Talia ({0}): {1}{2}	0=class name,1=deck name,2=copy hint
 GLOBAL_CHAT_NO_FRIENDS_ONLINE	W sieci nie ma obecnie żadnych znajomych.	
 GLOBAL_CHAT_NO_RECENT_CONVERSATIONS	Otwórz menu znajomych, aby rozpocząć rozmowę.	
 GLOBAL_CHAT_RECEIVER_OFFLINE	{0} jest poza siecią.	0=player name
 GLOBAL_CHAT_RECEIVER_ONLINE	{0} jest w sieci.	0=player name
+GLOBAL_CHAT_SEND_DECK_MESSAGE	Chcesz wysłać nową wiadomość z talią, którą masz w schowku?	
+GLOBAL_CHAT_SEND_DECK_TITLE	Wyślij talię w wiadomości	
 GLOBAL_CHAT_SENDER_APPEAR_OFFLINE	Nie możesz wysyłać wiadomości na czacie, kiedy twój status to niedostępny.	
 GLOBAL_CHAT_SENDER_OFFLINE	Twój obecny status to niedostępny.	
 GLOBAL_CHOOSE_PAYMENT	Sposób płatności	
@@ -458,6 +464,7 @@ GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_MODE_UNAVAILABLE	Nie można obecnie rzucić w
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_TAVERN_BRAWL_LOCKED	Ukończ samouczek tradycyjnego Hearthstone i_osiągnij 20 poziom jedną klasą, aby odblokować.	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_THEYRE_UNAVAILABLE	Nie możesz teraz rozegrać pojedynku z tym graczem. Poczekaj aż wróci do głównego menu.	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_TRADITIONAL_LOCKED	Ukończ samouczek tradycyjnego Hearthstone, aby odblokować.	
+GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_UNAVAILABLE	Nie możesz teraz rozegrać pojedynku z graczem {0}.	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_BATTLEGROUNDS_EARLY_ACCESS	Ten gracz nie korzysta z wczesnego dostępu do Ustawki.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_BATTLEGROUNDS_TUTORIAL_COMPLETE	Ten gracz nie ukończył jeszcze samouczka Ustawki.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_CLASSIC_DECK	Ten gracz nie ma talii klasycznych.	
@@ -480,12 +487,18 @@ GLOBAL_FRIENDLIST_CHALLENGE_MENU_WILD_DUEL_BUTTON	Dzicz
 GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_NO_TAVERN_BRAWL	Karczemna bójka nie jest teraz dostępna. Zajrzyj ponownie niedługo!	
 GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_TAVERN_BRAWL_NOT_CHALLENGEABLE	W tej Bójce nie jest dostępne przyjacielskie wyzwanie.	
 GLOBAL_FRIENDLIST_CURRENT_GAMES_HEADER	AKTUALNE GRY: {0}	0=number of friends you have unfinished games with
+GLOBAL_FRIENDLIST_CURRENT_OPPONENT_STATUS	Obecny przeciwnik!	
+GLOBAL_FRIENDLIST_FORMER_FRIEND_STATUS	Były przyjaciel	
 GLOBAL_FRIENDLIST_FRIENDS_HEADER	DOSTĘPNI ZNAJOMI: {0}/{1}	0=number of online friends 1=number of offline friends
 GLOBAL_FRIENDLIST_FRIENDS_HEADER_ALL_ONLINE	DOSTĘPNI ZNAJOMI: {0}	
+GLOBAL_FRIENDLIST_LAST_OPPONENT_STATUS	Ostatni przeciwnik	
 GLOBAL_FRIENDLIST_LASTPLAYED	Ostatnia gra:	
 GLOBAL_FRIENDLIST_MYSTATUS	W SIECI	
 GLOBAL_FRIENDLIST_NEARBY_PLAYERS_DISABLED_HEADER	POBLISCY GRACZE (Wyłączono)	
 GLOBAL_FRIENDLIST_NEARBY_PLAYERS_HEADER	POBLISCY GRACZE: {0}	0=number of players
+GLOBAL_FRIENDLIST_NEW_FRIEND_STATUS	Nowy przyjaciel!	
+GLOBAL_FRIENDLIST_RECENT_CHALLENGED_STATUS	Ostatnie wyzwania	
+GLOBAL_FRIENDLIST_RECENT_CHATTED_STATUS	Ostatnie rozmowy	
 GLOBAL_FRIENDLIST_RECENT_OPPONENT_STATUS	Ostatni przeciwnik	
 GLOBAL_FRIENDLIST_RECENT_PLAYERS_HEADER	OSTATNI – {0}	0=number of players
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_ALERT_MESSAGE	Czy na pewno chcesz usunąć gracza {0}?	0=friend name
@@ -552,7 +565,7 @@ GLOBAL_JOIN	Dołącz
 GLOBAL_KEYWORD_ADAPT	Adaptuj	
 GLOBAL_KEYWORD_ADAPT_TEXT	Wybierz jedną z trzech premii.	
 GLOBAL_KEYWORD_ALLIANCE	Przymierze	
-GLOBAL_KEYWORD_ALLIANCE_TEXT	Do ras Przymierza zaliczają się Draenei, Krasnoludy, Gnomy, Ludzie, Nocne elfy i Worgeni.	
+GLOBAL_KEYWORD_ALLIANCE_TEXT	Do Przymierza zaliczają się Draenei, Krasnoludy, Gnomy, Ludzie, Nocne elfy i Worgeni.	
 GLOBAL_KEYWORD_ALLIED	Sojusznik	
 GLOBAL_KEYWORD_ALLIED_TEXT	Gdy wybierzesz ten skarb, twój bohater zmieni klasę na jedną z sojuszniczych klas.	
 GLOBAL_KEYWORD_ATTACK_MERC	Atak	
@@ -651,7 +664,7 @@ GLOBAL_KEYWORD_HEALING_POWER_TEXT	Twoje zdolności uzdrawiające przywracają do
 GLOBAL_KEYWORD_HONORABLEKILL	Honorowe zabójstwo	
 GLOBAL_KEYWORD_HONORABLEKILL_TEXT	Zadaj w twojej turze dokładne wymagane obrażenia, aby uzyskać korzyść.	
 GLOBAL_KEYWORD_HORDE	Horda	
-GLOBAL_KEYWORD_HORDE_TEXT	Do ras Hordy zaliczają się Krwawe elfy, Gobliny, Półorki, Ogry, Orki, Taureni, Trolle i Nieumarli.	
+GLOBAL_KEYWORD_HORDE_TEXT	Do Hordy zaliczają się Krwawe elfy, Gobliny, Półorki, Ogry, Orki, Taureni, Trolle i Nieumarli.	
 GLOBAL_KEYWORD_IMMUNE	Niewrażliwość	
 GLOBAL_KEYWORD_IMMUNE_REF_TEXT	Niewrażliwym postaciom nie można zadać obrażeń.	
 GLOBAL_KEYWORD_IMMUNE_TEXT	Nie otrzymuje obrażeń.	
@@ -695,7 +708,7 @@ GLOBAL_KEYWORD_RECRUIT	Rekrutuj
 GLOBAL_KEYWORD_RECRUIT_TEXT	Przyzwij stronnika z twojej talii.	
 GLOBAL_KEYWORD_REFRESH	Odśwież	
 GLOBAL_KEYWORD_REFRESH_MERC	Odśwież	
-GLOBAL_KEYWORD_REFRESH_MERC_TEXT	Wyczerp pozostały czas odnowienia zdolności.	
+GLOBAL_KEYWORD_REFRESH_MERC_TEXT	Skróć czas odnowienia o (X).	
 GLOBAL_KEYWORD_REFRESH_TEXT	Zapełnij Karczmę Boba nowymi stronnikami.	
 GLOBAL_KEYWORD_REVIVE	Ożywienie (X)	
 GLOBAL_KEYWORD_REVIVE_TEXT	Powraca na planszę po określonej liczbie tur od zniszczenia.	
@@ -723,6 +736,8 @@ GLOBAL_KEYWORD_SPELLBURST_TEXT	Jednorazowy efekt po rzuceniu twojego zaklęcia.
 GLOBAL_KEYWORD_SPELLCOMBO_MERC	Kombinacja zaklęć	
 GLOBAL_KEYWORD_SPELLCOMBO_REF_TEXT_MERC	Premia otrzymywana, jeśli inny przyjazny Najemnik rzucił w tej turze zaklęcie z tej samej kategorii.	
 GLOBAL_KEYWORD_SPELLCOMBO_TEXT_MERC	Premia otrzymywana, jeśli inny przyjazny Najemnik rzucił w tej turze zaklęcie z tej samej kategorii.	
+GLOBAL_KEYWORD_SPELLCRAFT	Czarodzieło	
+GLOBAL_KEYWORD_SPELLCRAFT_TEXT	Otrzymaj tymczasowe zaklęcie co turę.	
 GLOBAL_KEYWORD_SPELLPOWER	Obrażenia zaklęć	
 GLOBAL_KEYWORD_SPELLPOWER_ARCANE	Obrażenia zaklęć Mocy tajemnej	
 GLOBAL_KEYWORD_SPELLPOWER_ARCANE_MERC	Obrażenia Mocy tajemnej	
@@ -953,6 +968,10 @@ GLOBAL_OPTIONS_CARDBACK_LABEL	Wybierz rewers karty
 GLOBAL_OPTIONS_CHOOSE_CARD_BACK	Wybierz rewers karty	
 GLOBAL_OPTIONS_CINEMATIC	Wprowadzenie	
 GLOBAL_OPTIONS_CREDITS	Autorzy	
+GLOBAL_OPTIONS_GRAPHICS_FPS_DEFAULT	Niska	
+GLOBAL_OPTIONS_GRAPHICS_FPS_HIGH	Wysoka	
+GLOBAL_OPTIONS_GRAPHICS_FPS_LABEL	Częstotliwość wyświetlania klatek	
+GLOBAL_OPTIONS_GRAPHICS_FPS_MEDIUM	Średnia	
 GLOBAL_OPTIONS_GRAPHICS_FULLSCREEN_LABEL	Pełny ekran	
 GLOBAL_OPTIONS_GRAPHICS_LABEL	Grafika	
 GLOBAL_OPTIONS_GRAPHICS_QUALITY_HIGH	Wysoka	
@@ -1077,6 +1096,7 @@ GLOBAL_RACE_MIXED_BATTLEGROUNDS	Mieszanka stronników
 GLOBAL_RACE_MURLOC	Murlok	
 GLOBAL_RACE_MURLOC_BATTLEGROUNDS	Murloki	
 GLOBAL_RACE_NAGA	Naga	
+GLOBAL_RACE_NAGA_BATTLEGROUNDS	Naga	
 GLOBAL_RACE_NERUBIAN	Nerubianin	
 GLOBAL_RACE_NERUBIAN_BATTLEGROUNDS	Nerubianie	
 GLOBAL_RACE_NIGHTELF	Nocny Elf	

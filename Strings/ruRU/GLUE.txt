@@ -502,6 +502,8 @@ GLUE_COLLECTION_CRAFTING_SHOW_ONLY	Только для показа
 GLUE_COLLECTION_CRAFTING_SHOW_ONLY_GOLDEN	Только золотые карты	
 GLUE_COLLECTION_CRAFTING_SHOW_SOULBOUND_CARDS	Включить карты, которые нельзя создать	
 GLUE_COLLECTION_CRAFTING_UNCRAFTABLE	Карты, которые нельзя создать	
+GLUE_COLLECTION_CRAFTING_UPGRADEGOLDEN_GOLDEN	У вас есть {0} |4(обычная копия,обычные копии,обычных копий). Хотите создать новую золотую карту или произвести улучшение обычной?	0=number of normal copies
+GLUE_COLLECTION_CRAFTING_UPGRADEGOLDEN_STANDARD	Хотите создать новую карту или превратить обычную карту в золотую?	
 GLUE_COLLECTION_CUSTOM_DECKNAME_SHORT	{0}-{1}	0=class name, 1=incrementer
 GLUE_COLLECTION_CUSTOM_DECKNAME_TEMPLATE	{0}{1}	0=class name, 1=incrementer
 GLUE_COLLECTION_CUSTOM_TEAMNAME_TEMPLATE	Отряд {0}	0=incrementer
@@ -523,6 +525,11 @@ GLUE_COLLECTION_DECK_COPY_TOOLTIP_HEADLINE	Копировать колоду
 GLUE_COLLECTION_DECK_COPY_TOOLTIP_INCOMPLETE	Вы можете скопировать только полную колоду.	
 GLUE_COLLECTION_DECK_COPY_TOOLTIP_UNPLAYABLE	В вашей колоде есть карты, которыми нельзя играть.	
 GLUE_COLLECTION_DECK_DELETE	Удалить	
+GLUE_COLLECTION_DECK_EXTRA_CARD_WARNING_BODY	При создании колоды вы можете добавить более {0} карт, однако число карт не должно превышать {0}.	
+GLUE_COLLECTION_DECK_EXTRA_CARD_WARNING_CONFIRM	Хорошо!	
+GLUE_COLLECTION_DECK_EXTRA_CARD_WARNING_HEADER	Добавление карт	
+GLUE_COLLECTION_DECK_EXTRA_CARDS_POPUP_HEADER	Лишние карты	
+GLUE_COLLECTION_DECK_EXTRA_CARDS_POPUP_TEXT	В этой колоде {0} |4(лишняя карта,лишние карты,лишних карт).\nУдалить |4(ее,их,их) автоматически?	
 GLUE_COLLECTION_DECK_FINISH_FOR_ME	Да	
 GLUE_COLLECTION_DECK_FORMAT_CLASSIC	Классика	
 GLUE_COLLECTION_DECK_FORMAT_STANDARD	Стандартный	
@@ -539,8 +546,7 @@ GLUE_COLLECTION_DECK_INCOMPLETE_LABEL	Завершить
 GLUE_COLLECTION_DECK_INCOMPLETE_LABEL_TOUCH	Нажмите для завершения	
 GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_HEADER	Неполная колода	
 GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_TEXT	Вам не хватает {0} |4(карты,карт,карт) для полной колоды.\nЗавершить колоду автоматически?	
-GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_TEXT_NPR	Для использования {0} |4(карты,карт,карт) требуется 25-й ранг.\nЗавершить колоду автоматически?	
-GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_TEXT_NPR_NEW	Для использования {0} |4(карты,карт,карт) нужно пройти курс новичка.\nЗавершить колоду автоматически?	
+GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_TEXT_NPR	Для использования {0} |4(карты,карт,карт) требуется пройти курс новичка.\nЗаменить |4(ее,их,их) автоматически?	
 GLUE_COLLECTION_DECK_INFO_HERO_POWER_TOOLTIP	Сила героя	
 GLUE_COLLECTION_DECK_INFO_MANA_TOOLTIP	Карты/Затраты маны	
 GLUE_COLLECTION_DECK_INFO_TITLE	{0} Информация	
@@ -560,8 +566,7 @@ GLUE_COLLECTION_DECK_PASTE_TOOLTIP_WILD_LOCKED	Чтобы создать эту 
 GLUE_COLLECTION_DECK_RENAME	Название	
 GLUE_COLLECTION_DECK_RULE_FINISH_AUTOMATICALLY	Завершить колоду автоматически?	
 GLUE_COLLECTION_DECK_RULE_INVALID_CARDS	{0} |4(ваша карта не подходит,ваши карты не подходят,ваших карт не подходят) для этого формата.	
-GLUE_COLLECTION_DECK_RULE_INVALID_CARDS_NPR	У вас есть {0} |4(карты,карт,карт), для использования |4(которой,которых,которых) требуется 25-й ранг.	
-GLUE_COLLECTION_DECK_RULE_INVALID_CARDS_NPR_NEW	У вас есть {0} |4(карта,карты,карт), для использования |4(которой,которых,которых) требуется завершить ученичество.	
+GLUE_COLLECTION_DECK_RULE_INVALID_CARDS_NPR	У вас есть {0} |4(карты,карт,карт), для использования |4(которой,которых,которых) требуется пройти курс новичка.	
 GLUE_COLLECTION_DECK_RULE_INVALID_CLASS_CARD	В вашей колоде {0} |4(карта,карты,карт) другого класса.	
 GLUE_COLLECTION_DECK_RULE_MISSING_CARDS	До полной колоды не хватает {0} |4(карты,карты,карт).	
 GLUE_COLLECTION_DECK_RULE_NOT_ENOUGH_CARDS	Вам требуется еще {0} |4(карта,карты,карт) для завершения колоды этого класса. Создайте дополнительные карты или соберите колоду другого класса.	
@@ -571,10 +576,6 @@ GLUE_COLLECTION_DECK_RULE_TOO_MANY_CARDS	В вашей колоде на {0} |4(
 GLUE_COLLECTION_DECK_RULE_UNPLAYABLE_CARDS	У вас есть {0} |4(карта,карты,карт), |4(которую,которые,которых) невозможно разыграть.	
 GLUE_COLLECTION_DECK_SAVE_ANYWAY	Нет	
 GLUE_COLLECTION_DECK_TEMPLATE_HELP_BUTTON	Заменить карты	
-GLUE_COLLECTION_DECK_TEMPLATE_LOW_CARD_WARNING	Ой-ой!	
-GLUE_COLLECTION_DECK_TEMPLATE_LOW_CARD_WARNING_CANCEL	Стоп!	
-GLUE_COLLECTION_DECK_TEMPLATE_LOW_CARD_WARNING_CONFIRM	Да	
-GLUE_COLLECTION_DECK_TEMPLATE_LOW_CARD_WARNING_MESSAGE	У вас не хватает множества карт для этой колоды. Вы уверены, что не хотите составить колоду по классическому шаблону?	
 GLUE_COLLECTION_DECK_TEMPLATE_REPLACE	Изменить колоду	
 GLUE_COLLECTION_DECK_TEMPLATE_REPLACE_MESSAGE	Текущая колода будет удалена и заменена шаблонной. Вы уверены, что хотите продолжить?	
 GLUE_COLLECTION_DECK_TEMPLATE_SELECT_A_DECK	Выберите шаблон, чтобы узнать больше!	
@@ -612,9 +613,11 @@ GLUE_COLLECTION_LOCK_NO_MORE_INSTANCES	Все копии использован�
 GLUE_COLLECTION_MANAGER_CARD_BACKS_TITLE	Рубашки	
 GLUE_COLLECTION_MANAGER_COIN_TITLE	Монеты	
 GLUE_COLLECTION_MANAGER_COINS_TITLE	Монеты	
+GLUE_COLLECTION_MANAGER_DECK_CARD_BACK_RANDOM_TITLE	Случайная	
+GLUE_COLLECTION_MANAGER_DECK_CARD_BACK_RANDOM_TOGGLE	Только избранные	
 GLUE_COLLECTION_MANAGER_FAVORITE_BUTTON	По умолчанию	
-GLUE_COLLECTION_MANAGER_FAVORITE_BUTTON_MULTIPLE	В избранное	
-GLUE_COLLECTION_MANAGER_FAVORITE_CARD_BACK	По умолчанию	
+GLUE_COLLECTION_MANAGER_FAVORITE_BUTTON_MULTIPLE	Избранная	
+GLUE_COLLECTION_MANAGER_FAVORITE_CARD_BACK	Избранная	
 GLUE_COLLECTION_MANAGER_FAVORITE_COIN	По умолчанию	
 GLUE_COLLECTION_MANAGER_FAVORITE_DEFAULT_TEXT	{0} по умолчанию	
 GLUE_COLLECTION_MANAGER_HELP_ME	Мне нужна помощь	
@@ -688,12 +691,15 @@ GLUE_COLLECTION_STANDARD_SETS	Стандартные наборы
 GLUE_COLLECTION_TAVERN_BRAWL_DECKNAME	Колода для потасовки	
 GLUE_COLLECTION_TO_STANDARD	Сменить на стандартный	
 GLUE_COLLECTION_TO_WILD	Сменить на вольный	
+GLUE_COLLECTION_TUTORIAL_MULTIPLE_FAVORITE_CARD_BACKS	Выберите несколько любимых вариантов!	
 GLUE_COLLECTION_TUTORIAL_REPLACE_WILD_CARDS	Заменить карты вольного формата стандартными.	
 GLUE_COLLECTION_TUTORIAL_REPLACE_WILD_CARDS_NPR	Замените недействительные карты (отмечены красным).	
 GLUE_COLLECTION_TUTORIAL_TEMPLATE_REMINDER	Попробуйте другие шаблонные колоды.	
 GLUE_COLLECTION_TUTORIAL_TEMPLATE_REPLACE_1	У вас не хватает карт! Мы поможем вам найти замену.	
 GLUE_COLLECTION_TUTORIAL_TEMPLATE_REPLACE_2	Заменить недостающие карты.	
 GLUE_COLLECTION_TUTORIAL_TEMPLATE_WELCOME	Ты можешь создать колоду по готовому рецепту или подобрать карты с нуля.	
+GLUE_COLLECTION_TUTORIAL_UPDATED_CARD_BACK_DECK_TRAY_ASSIGNED	Перетащите, чтобы удалить	
+GLUE_COLLECTION_TUTORIAL_UPDATED_CARD_BACK_DECK_TRAY_EMPTY	По умолчанию используется случайная	
 GLUE_COLLECTION_TUTORIAL02	Переверните страницу для просмотра карт	
 GLUE_COLLECTION_TUTORIAL03	Распылите лишние карты!	
 GLUE_COLLECTION_TUTORIAL04	Выберите «ВСЕ» карты, чтобы посмотреть, какие карты вы можете создать.	"ALL" is the same as GLUE_COLLECTION_ALL.
@@ -747,6 +753,10 @@ GLUE_CRAFTING_SOULBOUND_REWARD_DESC	Награды за выполнение з�
 GLUE_CRAFTING_TITLE	Создание карт	
 GLUE_CRAFTING_UNDO	Отменить	
 GLUE_CRAFTING_UPGRADE	Улучшить	
+GLUE_CRAFTING_UTG_ALERT_BODY	Вы уверены, что хотите сделать эту карту золотой с помощью пыли?	
+GLUE_CRAFTING_UTG_ALERT_CANCEL	Отмена	
+GLUE_CRAFTING_UTG_ALERT_CONFIRM	Улучшить	
+GLUE_CRAFTING_UTG_ALERT_HEADER	Сделать золотой?	
 GLUE_CRAFTING_WILD_CARD_DESC	Это карта вольного формата. Вы уверены?	
 GLUE_CRAFTING_WILD_CARD_FIRST_DESC	Этой картой нельзя играть в стандартном формате. Вы уверены?	
 GLUE_CRAFTING_WILD_CARD_HEADER	Карты вольного формата	
@@ -970,6 +980,7 @@ GLUE_GAME_MODES_POPUP_HEADER	Выберите режим
 GLUE_GAME_MODES_POPUP_PVPDR_DESC	[PH] Получайте добычу, берите карты и сражайтесь за славу!	
 GLUE_GENERIC_RANDOM_CARD_SCROLL_DESC	Вы получили карту «{0}» из пакета!	This is meant to replace the above welcome bundle strings until we have the tech to show custom strings per reward.
 GLUE_GENERIC_RANDOM_CARD_SCROLL_TITLE	Это легендарная карта!	This is meant to replace the above welcome bundle strings until we have the tech to show custom strings per reward.
+GLUE_GENERIC_SPECIFIC_CARD_SCROLL_DESC	Поищите в коллекции карт!	
 GLUE_GHOST_CARD_MISSING_DESCRIPTION	У вас нет этой карты.\nЩелкните, чтобы подобрать ей замену.	
 GLUE_GHOST_CARD_MISSING_DESCRIPTION_TOUCH	У вас нет этой карты.\nНажмите, чтобы подобрать ей замену.	
 GLUE_GHOST_CARD_MISSING_TITLE	Нет карты	
@@ -1141,7 +1152,7 @@ GLUE_LETTUCE_BOUNTY_LOCKED_REASON_BLDG_NEEDS_UPGRADE	Улучшите точку
 GLUE_LETTUCE_BOUNTY_LOCKED_REASON_EVENT_ENDED	Зона больше не доступна.	
 GLUE_LETTUCE_BOUNTY_LOCKED_REASON_EVENT_NOT_ACTIVE	Зона не активна.	
 GLUE_LETTUCE_BOUNTY_LOCKED_REASON_EVENT_NOT_STARTED	Зона еще не доступна.	
-GLUE_LETTUCE_BOUNTY_LOCKED_REASON_PRV_ZONES_INCOMPLETE	Требуется завершить предыдущие зоны.	
+GLUE_LETTUCE_BOUNTY_LOCKED_REASON_PRV_ZONES_INCOMPLETE	Требуется победить Ахуна в Зимних Ключах.	
 GLUE_LETTUCE_BOUNTY_POSTER_TEXT	Уровень: {0}	0=the level number of the final boss
 GLUE_LETTUCE_BOX_BUTTON_DISABLED_SCROLL_TEXT	Временно\n\n\nнедоступно	
 GLUE_LETTUCE_COIN_TOOLTIP_BODY	Позволяют улучшать способности и снаряжение.\nМожно получить из комплектов, на арене, в награду за поручения и задачи.	
@@ -1174,8 +1185,10 @@ GLUE_LETTUCE_DAILY_REWARDS_RANDOM_MERC	Монеты случайного нае�
 GLUE_LETTUCE_DAILY_REWARDS_RANDOM_MERC_TITLE	Побеждайте других игроков, чтобы получать ежедневные награды!	
 GLUE_LETTUCE_DAILY_REWARDS_TITLE	Ежедневно	
 GLUE_LETTUCE_DECK_SELECT_TITLE	Выберите отряд	
+GLUE_LETTUCE_DISABLED_INVALID_TEAM	Эту команду нельзя использовать.	
 GLUE_LETTUCE_DISABLED_TEAM	Один из наемников в отряде неактивен.\n\nИзменить состав отряда?	
 GLUE_LETTUCE_DISABLED_TEAM_HEADER	Неактивный отряд	
+GLUE_LETTUCE_DISABLED_TEAM_NO_EDIT	Один из наемников в команде неактивен.	
 GLUE_LETTUCE_EQUIPMENT_CRAFTING_CONFIRMATION_BODY	Изготовить этот предмет снаряжения?	
 GLUE_LETTUCE_EQUIPMENT_EXPLANATION_POPUP_BODY_1	Снаряжение усиливает наемников и их способности.	
 GLUE_LETTUCE_EQUIPMENT_EXPLANATION_POPUP_BODY_2	Можно получить за достижение 30-го уровня или за выполнение поручений.	
@@ -1213,7 +1226,7 @@ GLUE_LETTUCE_MAP_TEAM_TRAY_HEADER	Отряд
 GLUE_LETTUCE_MAP_TREASURE_BANNER	Сокровища	
 GLUE_LETTUCE_MAP_TREASURE_CURRENT	Оставить\nТекущее	
 GLUE_LETTUCE_MAP_TREASURE_KEEP	Оставить или заменить сокровище	
-GLUE_LETTUCE_MAP_TREASURE_PICK	Выберите одно сокровище	
+GLUE_LETTUCE_MAP_TREASURE_PICK	Выберите сокровище	
 GLUE_LETTUCE_MAP_TREASURE_SPEECH	Что же выбрать?	
 GLUE_LETTUCE_MAP_TREASURE_UPGRADE	Улучшить или заменить сокровище	
 GLUE_LETTUCE_MAP_TREASURE_UPGRADE_CURRENT	Улучшить\nТекущее	
@@ -1488,7 +1501,7 @@ GLUE_MATCHMAKER_PERFECT_OPPONENTS	Ваши противники
 GLUE_MERCENARIES	Наемники	
 GLUE_MERCENARIES_BONUS_LOOT_BUTTON	Бонусная\nдобыча!	
 GLUE_MERCENARIES_TASKBOARD_EVENT_TIME_REM_DAYS	Осталось:\n{0} дн. {1} ч.	0: event time remaining in days 1: event time remaining in hours
-GLUE_MERCENARIES_TASKBOARD_EVENT_TIME_REM_HOUR_OR_LESS	Осталось менее 1 ч.	
+GLUE_MERCENARIES_TASKBOARD_EVENT_TIME_REM_HOUR_OR_LESS	Осталось_менее_1_ч.	
 GLUE_MERCENARIES_TASKBOARD_EVENT_TIME_REM_HOURS	Осталось {0} ч.	0: event time remaining in hours
 GLUE_MERCENARY_CARD_XP	Опыт	
 GLUE_MERCENARY_COIN_DESCRIPTION	Дает {0} |4(монету,монеты,монет) наемника {1}.	0: number of coins, 1: mercenary name
@@ -1845,6 +1858,7 @@ GLUE_RDM_MORE_WEAPONS	Не хочешь добавить в колоду нем�
 GLUE_RDM_NO_SPECIFICS	У тебя получается неплохая колода! Может быть, тебе захочется добавить в нее эти карты?	
 GLUE_RDM_TEMPLATE_REPLACE	Вот подходящая замена для карты\n«{0}»!	0=card names
 GLUE_RECONNECT_GAME_TYPE_ARENA	Арена	
+GLUE_RECONNECT_GAME_TYPE_BATTLEGROUNDS	Поля сражений	
 GLUE_RECONNECT_GAME_TYPE_BRM	Черная гора	
 GLUE_RECONNECT_GAME_TYPE_FRIENDLY	Вызов	
 GLUE_RECONNECT_GAME_TYPE_NAXXRAMAS	Наксрамас	
@@ -2323,6 +2337,17 @@ GLUE_TAVERN_BRAWL_REWARD_DESC_MULTIPLE_PACKS	Получите {0} |4(компл�
 GLUE_TAVERN_BRAWL_REWARD_DESC_QUOTA	Выиграйте комплект карт за {1} |4(победу,победы,побед) на этой неделе!	the zeroth parameter {0} is always # of rewards/packs while {1} is how many wins.
 GLUE_TAVERN_BRAWL_REWARD_DESC_QUOTA_MULTIPLE_PACKS	Выиграйте {0} |4(комплект,комплекта,комплектов) карт за {1} |4(победу,победы,побед) на побед на этой неделе!	{0} is always # of rewards/packs while {1} is how many wins.
 GLUE_TAVERN_BRAWL_TRADITIONAL_TUTORIAL_INCOMPLETE	Пройдите обучение в традиционном режиме Hearthstone, чтобы открыть потасовки.	
+GLUE_TEAM_SHARE_ACCEPT_REQUEST	Поделиться	
+GLUE_TEAM_SHARE_BORROW_TEAMS	Позаимствовать команды	
+GLUE_TEAM_SHARE_DECLINE_REQUEST	Ни за что!	
+GLUE_TEAM_SHARE_ERROR	При попытке поделиться командами возникла ошибка.	
+GLUE_TEAM_SHARE_HEADER	Поделиться командами?	
+GLUE_TEAM_SHARE_REQUEST_CANCELED	{0} отменяет просьбу поделиться командами.	0=friend name
+GLUE_TEAM_SHARE_REQUEST_DECLINED	{0} отказывается поделиться командами.	0=friend name
+GLUE_TEAM_SHARE_REQUEST_WAITING_RESPONSE	{0} пока не отвечает на вашу просьбу поделиться командами.	0=friend name
+GLUE_TEAM_SHARE_REQUESTED	{0} хочет получить одну из ваших команд.	0=friend name
+GLUE_TEAM_SHARE_SHOW_MY_TEAMS	Показать мои команды	
+GLUE_TEAM_SHARE_SHOW_OPPONENT_TEAMS	Показать команды противника	
 GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_01	Создав учетную запись, вы сможете сохранить свой прогресс, а также получите бесплатный комплект карт!	
 GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_02	Создайте учетную запись, чтобы совершать покупки! Она также поможет вам сохранить достигнутый прогресс.	
 GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_03	Создайте учетную запись, чтобы сохранить свой прогресс. В награду вы получите бесплатный комплект карт!	
@@ -2698,7 +2723,7 @@ GLUE_TOOLTIP_BUTTON_STORE_HEADLINE	Магазин
 GLUE_TOOLTIP_BUTTON_TAVERN_BRAWL_DESC	Новое испытание каждую неделю!	
 GLUE_TOOLTIP_BUTTON_TAVERN_BRAWL_HEADLINE	Потасовка в таверне	
 GLUE_TOOLTIP_BUTTON_TAVERN_BRAWL_NOT_UNLOCKED	Этот режим будет доступен, когда вы достигнете 20-го уровня каким-либо классом.	
-GLUE_TOOLTIP_BUTTON_TRADITIONAL_DESC	Обычный режим Hearthstone.	
+GLUE_TOOLTIP_BUTTON_TRADITIONAL_DESC	Традиционный режим Hearthstone.	
 GLUE_TOOLTIP_BUTTON_TRADITIONAL_HEADLINE	Hearthstone	
 GLUE_TOOLTIP_DESCRIPTION_ALL_STANDARD_CARDS	Содержит новейшие карты. Подходит для стандартного и вольного формата.	
 GLUE_TOOLTIP_DESCRIPTION_VANILLA_CARDS	Содержит карты, изначально представленные в Hearthstone. Подходит только для классического формата.	

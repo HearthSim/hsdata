@@ -388,6 +388,8 @@ GLOBAL_KEYWORD_REFRESH	Refresh
 GLOBAL_KEYWORD_REFRESH_TEXT	Replace Bob's Tavern with new minions.
 GLOBAL_KEYWORD_AVENGE	Avenge (X)
 GLOBAL_KEYWORD_AVENGE_TEXT	Does something after X friendly minions die.
+GLOBAL_KEYWORD_SPELLCRAFT	Spellcraft
+GLOBAL_KEYWORD_SPELLCRAFT_TEXT	Get a temporary spell every turn.
 GLOBAL_KEYWORD_TOOL	Tool
 GLOBAL_KEYWORD_TOOL_TEXT	An item with an active ability.
 GLOBAL_KEYWORD_QUESTLINE	Questline
@@ -453,6 +455,7 @@ GLOBAL_RACE_MECHANICAL_BATTLEGROUNDS	Mechs
 GLOBAL_RACE_MURLOC_BATTLEGROUNDS	Murlocs
 GLOBAL_RACE_NERUBIAN_BATTLEGROUNDS	Nerubians
 GLOBAL_RACE_NIGHTELF_BATTLEGROUNDS	Night Elves
+GLOBAL_RACE_NAGA_BATTLEGROUNDS	Naga
 GLOBAL_RACE_OGRE_BATTLEGROUNDS	Ogres
 GLOBAL_RACE_ORC_BATTLEGROUNDS	Orcs
 GLOBAL_RACE_PET_BATTLEGROUNDS	Beasts
@@ -742,8 +745,15 @@ GLOBAL_FRIENDLIST_REMOVE_FRIEND_ALERT_MESSAGE	Are you sure you want to remove {0
 GLOBAL_FRIENDLIST_MYSTATUS	ONLINE
 GLOBAL_FRIENDLIST_BUSYSTATUS	Busy
 GLOBAL_FRIENDLIST_RECENT_OPPONENT_STATUS	Recent opponent
+GLOBAL_FRIENDLIST_FORMER_FRIEND_STATUS	Former friend
+GLOBAL_FRIENDLIST_NEW_FRIEND_STATUS	New friend!
+GLOBAL_FRIENDLIST_RECENT_CHALLENGED_STATUS	Recently challenged
+GLOBAL_FRIENDLIST_RECENT_CHATTED_STATUS	Recently chatted
+GLOBAL_FRIENDLIST_LAST_OPPONENT_STATUS	Last opponent
+GLOBAL_FRIENDLIST_CURRENT_OPPONENT_STATUS	Current opponent!
 GLOBAL_FRIENDLIST_LASTPLAYED	Last Played:
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_HEADER	Friendly Challenge
+GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_UNAVAILABLE	You can't challenge {0} right now.	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_UNAVAILABLE	You can't challenge {0} right now. Return to the main menu.	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_THEYRE_UNAVAILABLE	You can't challenge {0} right now. Wait for them to return to the main menu.	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_MODE_UNAVAILABLE	Challenging a friend in this game mode is currently unavailable.
@@ -751,8 +761,8 @@ GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_AVAILABLE	Challenge {0} to a game of Hearthst
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_APPEARING_OFFLINE	You can't challenge {0} right now. You are set to appear offline.	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_EARLY_ACCESS	This mode is currently in Early Access.
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_BATTLEGROUNDS_PARTY_MEMBER	You can't send a challenge while in a Battlegrounds party.
-GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_TRADITIONAL_LOCKED	Complete the traditional Hearthstone tutorial to unlock.
-GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_TAVERN_BRAWL_LOCKED	Complete the traditional Hearthstone tutorial and get one class to level 20 to unlock.
+GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_TRADITIONAL_LOCKED	Complete the Traditional Hearthstone tutorial to unlock.
+GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_TAVERN_BRAWL_LOCKED	Complete the Traditional Hearthstone tutorial and get one class to level 20 to unlock.
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_BATTLEGROUNDS_LOCKED	Complete the Battlegrounds tutorial to unlock.
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_MERCS_LOCKED	Complete the Mercenaries tutorial to unlock.
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_STANDARD_DUEL_BUTTON	Standard
@@ -913,7 +923,7 @@ GLOBAL_ARENA_MEDAL_12	Lightforge Key
 GLOBAL_FEATURE_DISABLED_TITLE	Disabled
 GLOBAL_FEATURE_DISABLED_MESSAGE_FORGE	Sorry, the Arena is currently disabled.
 GLOBAL_FEATURE_DISABLED_MESSAGE_PRACTICE	Sorry, Practice mode is currently disabled.
-GLOBAL_FEATURE_DISABLED_MESSAGE_PLAY	Sorry, traditional Hearthstone is currently disabled.
+GLOBAL_FEATURE_DISABLED_MESSAGE_PLAY	Sorry, Traditional Hearthstone is currently disabled.
 GLOBAL_FEATURE_DISABLED_MESSAGE_COLLECTION	Sorry, the Collection is currently disabled.
 GLOBAL_FEATURE_DISABLED_MESSAGE_BATTLEGROUNDS	Sorry, Battlegrounds is currently disabled.
 GLOBAL_CHAT_NO_FRIENDS_ONLINE	You don't have any friends online right now.
@@ -924,6 +934,12 @@ GLOBAL_CHAT_SENDER_OFFLINE	You are currently offline.
 GLOBAL_CHAT_SENDER_APPEAR_OFFLINE	You may not send chat messages while you are set to appear offline.
 GLOBAL_CHAT_CHALLENGE	Challenge
 GLOBAL_CHAT_BUBBLE_RECEIVER_NAME	To: {0}	0=player name
+GLOBAL_CHAT_SEND_DECK_TITLE	Send Deck Message
+GLOBAL_CHAT_SEND_DECK_MESSAGE	Would you like to send a new message with the deck in your clipboard?
+GLOBAL_CHAT_DECK_CODE_MESSAGE	{0} Deck{1}	0=class name,1=copy hint
+GLOBAL_CHAT_DECK_CODE_WITH_NAME_MESSAGE	{0} Deck: {1}{2}	0=class name,1=deck name,2=copy hint
+GLOBAL_CHAT_DECK_CODE_HINT	\nClick to copy
+GLOBAL_CHAT_DECK_CODE_HINT_TOUCH	\nTap to copy
 GLOBAL_SOCIAL_TOAST_FRIEND_ONLINE	<color=#{0}>{1}</color> has come online.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_OFFLINE	<color=#{0}>{1}</color> has gone offline.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_REQUEST	<color=#{0}>{1}</color> has sent you a friend invite.	0=name color,1=player name
@@ -970,6 +986,10 @@ GLOBAL_OPTIONS_GRAPHICS_QUALITY_MEDIUM	Medium
 GLOBAL_OPTIONS_GRAPHICS_QUALITY_HIGH	High
 GLOBAL_OPTIONS_GRAPHICS_QUALITY_LABEL	Quality
 GLOBAL_OPTIONS_GRAPHICS_RESOLUTION_CUSTOM	Custom
+GLOBAL_OPTIONS_GRAPHICS_FPS_LABEL	Frame Rate
+GLOBAL_OPTIONS_GRAPHICS_FPS_DEFAULT	Low
+GLOBAL_OPTIONS_GRAPHICS_FPS_MEDIUM	Medium
+GLOBAL_OPTIONS_GRAPHICS_FPS_HIGH	High
 GLOBAL_OPTIONS_MISCELLANEOUS_LABEL	Miscellaneous
 GLOBAL_OPTIONS_PREFERENCES_LABEL	Preferences
 GLOBAL_OPTIONS_CREDITS	Credits
@@ -1321,11 +1341,11 @@ GLOBAL_KEYWORD_ROOT_TEXT	Rooted characters can't Attack.
 GLOBAL_KEYWORD_CRITICAL_DAMAGE	Critical Damage
 GLOBAL_KEYWORD_CRITICAL_DAMAGE_TEXT	Takes 2X damage from sources.
 GLOBAL_KEYWORD_ALLIANCE	Alliance
-GLOBAL_KEYWORD_ALLIANCE_TEXT	Alliance races include: Draenei, Dwarf, Gnome, Human, Night Elf, and Worgen
+GLOBAL_KEYWORD_ALLIANCE_TEXT	The Alliance include: Draenei, Dwarf, Gnome, Human, Night Elf, and Worgen
 GLOBAL_KEYWORD_HORDE	Horde
-GLOBAL_KEYWORD_HORDE_TEXT	Horde races include: Blood Elf, Goblin, Half-Orc, Ogre, Orc, Tauren, Troll, and Undead
+GLOBAL_KEYWORD_HORDE_TEXT	The Horde include: Blood Elf, Goblin, Half-Orc, Ogre, Orc, Tauren, Troll, and Undead
 GLOBAL_KEYWORD_REFRESH_MERC	Refresh
-GLOBAL_KEYWORD_REFRESH_MERC_TEXT	Finish the remaining Cooldown on an ability.
+GLOBAL_KEYWORD_REFRESH_MERC_TEXT	Reduce the Cooldown by (X).
 GLOBAL_KEYWORD_ELVES_MERC	Elves
 GLOBAL_KEYWORD_ELVES_MERC_TEXT	Elves include: Blood Elf and Night Elf
 GLOBAL_KEYWORD_REVIVE	Revive (X)
