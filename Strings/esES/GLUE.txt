@@ -503,6 +503,7 @@ GLUE_COLLECTION_CRAFTING_SHOW_ONLY_GOLDEN	Mostrar solo cartas doradas
 GLUE_COLLECTION_CRAFTING_SHOW_SOULBOUND_CARDS	Incluir cartas que no se pueden crear	
 GLUE_COLLECTION_CRAFTING_UNCRAFTABLE	cartas que no se pueden crear	
 GLUE_COLLECTION_CRAFTING_UPGRADEGOLDEN_GOLDEN	Tienes {0} |4(copia normal,copias normales). ¿Quieres crear una nueva dorada o mejorar una normal?	0=number of normal copies
+GLUE_COLLECTION_CRAFTING_UPGRADEGOLDEN_NORMAL	Tienes {0} |4(copia normal,copias normales). ¿Quieres crear una normal nueva o mejorar otra?	0=number of normal copies
 GLUE_COLLECTION_CRAFTING_UPGRADEGOLDEN_STANDARD	¿Quieres crear una carta nueva o mejorar una carta normal a dorada?	
 GLUE_COLLECTION_CUSTOM_DECKNAME_SHORT	{0}{1}	0=class name, 1=incrementer
 GLUE_COLLECTION_CUSTOM_DECKNAME_TEMPLATE	{0} personalizado{1}	0=class name, 1=incrementer
@@ -522,7 +523,7 @@ GLUE_COLLECTION_DECK_COPY_COMMENT_HEADER_DECK_ARENA	Mazo de Arena
 GLUE_COLLECTION_DECK_COPY_COMMENT_HEADER_FORMAT	Formato: {0}	
 GLUE_COLLECTION_DECK_COPY_TOOLTIP_FORMAT	Tu mazo tiene algunas cartas que no sirven en este formato.	
 GLUE_COLLECTION_DECK_COPY_TOOLTIP_HEADLINE	Copiar mazo	
-GLUE_COLLECTION_DECK_COPY_TOOLTIP_INCOMPLETE	Solo puedes copiar un mazo completo.	
+GLUE_COLLECTION_DECK_COPY_TOOLTIP_INCOMPLETE	Solo puedes copiar un mazo válido.	
 GLUE_COLLECTION_DECK_COPY_TOOLTIP_UNPLAYABLE	Algunas cartas de tu mazo no se pueden jugar.	
 GLUE_COLLECTION_DECK_DELETE	Eliminar	
 GLUE_COLLECTION_DECK_EXTRA_CARD_WARNING_BODY	Puedes añadir más de {0} cartas al crear un mazo, pero solo es válido para jugar si contiene únicamente {0} cartas.	
@@ -689,6 +690,15 @@ GLUE_COLLECTION_SET_FILTER_WILD_SET_HEADER	Cartas salvajes
 GLUE_COLLECTION_SHOW_ALL_CARDS	Mostrar todas las cartas	
 GLUE_COLLECTION_STANDARD_SETS	Conjuntos estándares	
 GLUE_COLLECTION_TAVERN_BRAWL_DECKNAME	Mazo de pelea	
+GLUE_COLLECTION_TEAM_CLIPBOARD_ACCESS_BODY	Para facilitar la creación de grupos, Hearthstone accederá de forma puntual al <b>portapapeles de tu dispositivo</b> en busca de grupos copiados de fuentes externas. ¡Así podrás copiar y compartir tu grupo con los demás!	
+GLUE_COLLECTION_TEAM_CLIPBOARD_ACCESS_HEADER	Portapapeles	
+GLUE_COLLECTION_TEAM_FINISH_FOR_ME	Sí	
+GLUE_COLLECTION_TEAM_INVALID_POPUP_HEADER	Grupo no válido	
+GLUE_COLLECTION_TEAM_OVERWRITE_BODY	¿Quieres reemplazar el grupo actual por el grupo del portapapeles?	
+GLUE_COLLECTION_TEAM_OVERWRITE_HEADER	Reemplazar grupo	
+GLUE_COLLECTION_TEAM_SAVE_ANYWAY	No	
+GLUE_COLLECTION_TEAM_VALID_PASTE_BODY	¿Quieres crear un grupo nuevo a partir del grupo del portapapeles?	
+GLUE_COLLECTION_TEAM_VALID_PASTE_HEADER	Crear grupo	
 GLUE_COLLECTION_TO_STANDARD	Convertir en estándar	
 GLUE_COLLECTION_TO_WILD	Convertir en salvaje	
 GLUE_COLLECTION_TUTORIAL_MULTIPLE_FAVORITE_CARD_BACKS	¡Elige varios favoritos!	
@@ -753,10 +763,10 @@ GLUE_CRAFTING_SOULBOUND_REWARD_DESC	Las recompensas de misiones no se pueden des
 GLUE_CRAFTING_TITLE	Creación de cartas	
 GLUE_CRAFTING_UNDO	Deshacer	
 GLUE_CRAFTING_UPGRADE	Mejorar	
-GLUE_CRAFTING_UTG_ALERT_BODY	¿Seguro que quieres mejorar este mercenario a dorado con polvo Arcano?	
+GLUE_CRAFTING_UTG_ALERT_BODY	¿Seguro que quieres mejorar esta carta a dorada con polvo Arcano?	
 GLUE_CRAFTING_UTG_ALERT_CANCEL	Cancelar	
 GLUE_CRAFTING_UTG_ALERT_CONFIRM	Mejorar	
-GLUE_CRAFTING_UTG_ALERT_HEADER	¿Mejorar a dorado?	
+GLUE_CRAFTING_UTG_ALERT_HEADER	¿Mejorar a dorada?	
 GLUE_CRAFTING_WILD_CARD_DESC	Esta es una carta salvaje. ¿Seguro que quieres continuar?	
 GLUE_CRAFTING_WILD_CARD_FIRST_DESC	Esta carta no se puede jugar en formato estándar. ¿Seguro que quieres continuar?	
 GLUE_CRAFTING_WILD_CARD_HEADER	Cartas salvajes	
@@ -801,6 +811,7 @@ GLUE_DECK_TRAY_GALAKROND_PROMPT_DESC	Estás añadiendo una carta con «Convoca»
 GLUE_DECK_TRAY_GALAKROND_PROMPT_TITLE	¿Añadir a Galakrond a tu mazo?	
 GLUE_DECK_TRAY_MERC_COUNT_LABEL	Mercenarios	
 GLUE_DECK_TRAY_TEAM_COUNT_LABEL	Grupos	
+GLUE_DELETE_ACCOUNT	Eliminar cuenta	
 GLUE_DEMON_HUNTER_LOCKED_HEADER	Héroe bloqueado	
 GLUE_DEMON_HUNTER_LOCKED_PROLOGUE	Juega a «Cenizas de Terrallende - Prólogo del cazador de demonios», en Aventuras, para desbloquear a este héroe.	
 GLUE_DEVICE_OSVERSION_NEXT_VERSION_WARNING	Tu dispositivo no cuenta con la última versión de su sistema operativo. Actualiza el sistema antes de actualizar Hearthstone.	
@@ -1152,7 +1163,8 @@ GLUE_LETTUCE_BOUNTY_LOCKED_REASON_BLDG_NEEDS_UPGRADE	Mejora tu punto de viaje pa
 GLUE_LETTUCE_BOUNTY_LOCKED_REASON_EVENT_ENDED	Esta zona ya no está disponible.	
 GLUE_LETTUCE_BOUNTY_LOCKED_REASON_EVENT_NOT_ACTIVE	Esta zona no está activa.	
 GLUE_LETTUCE_BOUNTY_LOCKED_REASON_EVENT_NOT_STARTED	Esta zona no está disponible todavía.	
-GLUE_LETTUCE_BOUNTY_LOCKED_REASON_PRV_ZONES_INCOMPLETE	Requiere derrotar a Ahune en Cuna del Invierno.	
+GLUE_LETTUCE_BOUNTY_LOCKED_REASON_PRV_ZONES_INCOMPLETE	Requiere completar las zonas anteriores.	
+GLUE_LETTUCE_BOUNTY_LOCKED_REASON_PRV_ZONES_INCOMPLETE_AHUNE	Requiere derrotar a Ahune en Cuna del Invierno.	
 GLUE_LETTUCE_BOUNTY_POSTER_TEXT	Nivel {0}	0=the level number of the final boss
 GLUE_LETTUCE_BOX_BUTTON_DISABLED_SCROLL_TEXT	No disponible\n\n\ntemporalmente	
 GLUE_LETTUCE_COIN_TOOLTIP_BODY	Se usa para mejorar facultades y equipo.\nSe consigue en contratos, sobres, tareas y el foso de combate.	
@@ -2126,7 +2138,7 @@ GLUE_STORE_INFO_BUTTON_TEXT	i
 GLUE_STORE_KOREAN_DISCLAIMER_DETAILS	특정 카드를 원하신다면 아래와 같이 ‘마력 추출’ 기능을 통해 100%의 확률로 제작할 수 있습니다.\n   1) 카드 팩을 구매하고 개봉하여 원하는 카드가 있는지 확인합니다.\n   2) 원하는 카드가 없다면 “내 카드” 메뉴에서 필요하지 않은 카드를 선택하고 “마력 추출” 기능을 사용하세요. 이 기능을 사용하면 해당 카드를 제거하고 “신비한 가루”를 획득합니다.\n   3) “내 카드” 메뉴의 “제작하기” 기능으로 “신비한 가루”를 사용하여 원하는 카드를 제작합니다.\n카드 팩 하나당 최소 40개의 “신비한 가루”를 얻을 수 있습니다. 일반/희귀/영웅/전설 카드를 제작하려면 각각 40/100/400/1600개의 “신비한 가루”가 필요합니다. 즉, 카드 팩을 1/3/10/40개 구매하면 반드시 일반/희귀/영웅/전설 카드 하나를 제작할 수 있습니다.	
 GLUE_STORE_KOREAN_DISCLAIMER_HEADLINE	주의!	
 GLUE_STORE_KOREAN_PRODUCT_DETAILS_ADVENTURE	본 묶음 상품은 구매 후 환불되지 않으며, 구매 즉시 모든 지구 이용이 가능합니다.	
-GLUE_STORE_KOREAN_PRODUCT_DETAILS_EXPERT_PACK	이용기간 : 서비스 종료 시까지. 본 상품은 구매 후 7일 이내에 청약철회가 가능합니다. 다만, 1개의 카드팩이라도 개봉한 경우에는 청약철회가 불가능합니다.	only displayed for Korean customers, should always be in Korean
+GLUE_STORE_KOREAN_PRODUCT_DETAILS_EXPERT_PACK	이용기간 : 서비스 종료 시까지. 본 상품은 실제 화폐로 구매한 경우 구매 후 7일 이내에 청약철회가 가능합니다.\n다만, 1개의 카드 팩이라도 개봉한 경우에는 청약철회가 불가능합니다. 게임 내 골드로 구매한 경우 환불되지 않습니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_KOREAN_PRODUCT_DETAILS_FIRST_PURCHASE_BUNDLE	이용기간: 서비스 종료 시까지. 본 상품은 구매 후 즉시 임의 직업의 오리지널 전설 카드가 귀하의 카드에 추가되므로 구매 후 환불이 불가능합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_KOREAN_PRODUCT_DETAILS_PACKS_PREORDER	사전 구매 상품은 실제 상품 출시 전까지 환불이 가능합니다.	
 GLUE_STORE_LAUNCH_PROMO	¡PROMOCIÓN DE LANZAMIENTO!	
@@ -2281,7 +2293,7 @@ GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_ADVENTURE_BUNDLE	본 묶음 상품은 구매
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_ADVENTURE_SINGLE	본 상품은 구매 후 환불되지 않으며, 구매 즉시 해당 지구에 내용이 적용됩니다	
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_BATTLEGROUNDS_PERKS	이용기간: 다음 확장팩 출시일 전까지. 본 상품은 구매 즉시 효과가 적용되므로 구매 후 환불이 불가능합니다.	
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_CONFIRM	본 거래와 관련된 조건과 약관을 확인하며 이에 동의합니다.	only displayed for Korean customers, should always be in Korean
-GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_EXPERT_PACK	이용기간 : 서비스 종료 시까지. 본 상품은 구매 후 7일 이내에 청약철회가 가능합니다. 다만, 1개의 카드팩이라도 개봉한 경우에는 청약철회가 불가능합니다.	only displayed for Korean customers, should always be in Korean
+GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_EXPERT_PACK	이용기간 : 서비스 종료 시까지. 본 상품은 실제 화폐로 구매한 경우 구매 후 7일 이내에 청약철회가 가능합니다.\n다만, 1개의 카드 팩이라도 개봉한 경우에는 청약철회가 불가능합니다. 게임 내 골드로 구매한 경우 환불되지 않습니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_FIRST_PURCHASE_BUNDLE	이용기간: 서비스 종료 시까지. 본 상품은 구매 후 즉시 임의 직업의 오리지널 전설 카드가 귀하의 카드에 추가되므로 구매 후 환불이 불가능합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_FORGE_TICKET	투기장 입장료는 구매 후 환불되지 않으며, 구매 즉시 투기장에 입장합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_HERO	본 상품은 구매 후 환불되지 않으며, 구매 즉시 이용이 가능합니다.	
@@ -2638,7 +2650,7 @@ GLUE_TIP_FORGE_1	¡Cuantas más partidas ganes, mejor será el premio de la Aren
 GLUE_TIP_FORGE_2	No hace falta que juegues todas tus partidas de la Arena de una vez.	
 GLUE_TIP_HEROICBRAWL_0	En esta pelea es fundamental un buen emparejamiento. Es posible que los tiempos de espera sean más largos que de costumbre.	
 GLUE_TIP_LETTUCE_0	¡El <b>daño crítico</b> es la clave de la victoria!	
-GLUE_TIP_LETTUCE_1	Si dos o más facultades tienen la misma velocidad, actúan en un orden aleatorio.	
+GLUE_TIP_LETTUCE_1	Tus mercenarios siempre actúan antes que los enemigos que tengan su misma velocidad durante los encuentros de un contrato.	
 GLUE_TIP_LETTUCE_10	Los tesoros otorgan facultades adicionales a tus mercenarios,\npero solo duran hasta que acaba el mapa de contrato.	
 GLUE_TIP_LETTUCE_11	Encontrarás tesoros de mejor calidad en los encuentros de élite.	
 GLUE_TIP_LETTUCE_12	Los contratos heroicos otorgan mejores recompensas, pero son mucho más difíciles.	

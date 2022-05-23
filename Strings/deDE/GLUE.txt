@@ -503,6 +503,7 @@ GLUE_COLLECTION_CRAFTING_SHOW_ONLY_GOLDEN	Nur goldene Karten anzeigen
 GLUE_COLLECTION_CRAFTING_SHOW_SOULBOUND_CARDS	Nicht herstellbare Karten anzeigen	
 GLUE_COLLECTION_CRAFTING_UNCRAFTABLE	Nicht herstellbare Karten	
 GLUE_COLLECTION_CRAFTING_UPGRADEGOLDEN_GOLDEN	Ihr habt {0} normale |4(Kopie,Kopien). Wollt Ihr eine neue goldene Kopie herstellen oder eine normale Kopie aufwerten?	0=number of normal copies
+GLUE_COLLECTION_CRAFTING_UPGRADEGOLDEN_NORMAL	Ihr habt {0} normale |4(Kopie,Kopien). Wollt Ihr eine neue normale Kopie herstellen oder eine normale Kopie aufwerten?	0=number of normal copies
 GLUE_COLLECTION_CRAFTING_UPGRADEGOLDEN_STANDARD	Wollt Ihr eine neue Karte herstellen oder eine normale Karte zur goldenen Version aufwerten?	
 GLUE_COLLECTION_CUSTOM_DECKNAME_SHORT	{0}{1}	0=class name, 1=incrementer
 GLUE_COLLECTION_CUSTOM_DECKNAME_TEMPLATE	Mein {0}{1}	0=class name, 1=incrementer
@@ -522,7 +523,7 @@ GLUE_COLLECTION_DECK_COPY_COMMENT_HEADER_DECK_ARENA	Arenadeck
 GLUE_COLLECTION_DECK_COPY_COMMENT_HEADER_FORMAT	Format: {0}	
 GLUE_COLLECTION_DECK_COPY_TOOLTIP_FORMAT	Euer Deck enthält einige Karten, die in diesem Format ungültig sind.	
 GLUE_COLLECTION_DECK_COPY_TOOLTIP_HEADLINE	Deck kopieren	
-GLUE_COLLECTION_DECK_COPY_TOOLTIP_INCOMPLETE	Es können nur vollständige Decks kopiert werden.	
+GLUE_COLLECTION_DECK_COPY_TOOLTIP_INCOMPLETE	Es können nur gültige Decks kopiert werden.	
 GLUE_COLLECTION_DECK_COPY_TOOLTIP_UNPLAYABLE	Euer Deck enthält einige Karten, die nicht verwendet werden können.	
 GLUE_COLLECTION_DECK_DELETE	Löschen	
 GLUE_COLLECTION_DECK_EXTRA_CARD_WARNING_BODY	Ihr könnt beim Deckbau mehr als {0} Karten hinzufügen, aber um damit spielen zu können, darf es maximal {0} Karten enthalten.	
@@ -689,6 +690,15 @@ GLUE_COLLECTION_SET_FILTER_WILD_SET_HEADER	Wilde Karten
 GLUE_COLLECTION_SHOW_ALL_CARDS	Alle Karten anzeigen	
 GLUE_COLLECTION_STANDARD_SETS	Standardsets	
 GLUE_COLLECTION_TAVERN_BRAWL_DECKNAME	Kartenchaos-Deck	
+GLUE_COLLECTION_TEAM_CLIPBOARD_ACCESS_BODY	Um das Spielerlebnis beim Erstellen von Teams zu verbessern, wird Hearthstone gelegentlich auf <b>die Zwischenablage Ihres Geräts</b> zugreifen, um von externen Quellen kopierte Teams abzurufen. Dadurch können auch Sie Ihr Team kopieren und mit anderen teilen!	
+GLUE_COLLECTION_TEAM_CLIPBOARD_ACCESS_HEADER	Zwischenablage	
+GLUE_COLLECTION_TEAM_FINISH_FOR_ME	Ja	
+GLUE_COLLECTION_TEAM_INVALID_POPUP_HEADER	Unzulässiges Team	
+GLUE_COLLECTION_TEAM_OVERWRITE_BODY	Möchtet Ihr das aktuelle Team durch das Team in der Zwischenablage ersetzen?	
+GLUE_COLLECTION_TEAM_OVERWRITE_HEADER	Team ersetzen	
+GLUE_COLLECTION_TEAM_SAVE_ANYWAY	Nein	
+GLUE_COLLECTION_TEAM_VALID_PASTE_BODY	Möchtet Ihr mit dem Team in Eurer Zwischenablage ein neues Team erstellen?	
+GLUE_COLLECTION_TEAM_VALID_PASTE_HEADER	Team erstellen	
 GLUE_COLLECTION_TO_STANDARD	Auf Standard umstellen	
 GLUE_COLLECTION_TO_WILD	Auf Wild umstellen	
 GLUE_COLLECTION_TUTORIAL_MULTIPLE_FAVORITE_CARD_BACKS	Wählt mehrere Favoriten!	
@@ -801,6 +811,7 @@ GLUE_DECK_TRAY_GALAKROND_PROMPT_DESC	Ihr fügt eine Ermächtigungskarte Eurem De
 GLUE_DECK_TRAY_GALAKROND_PROMPT_TITLE	Galakrond Eurem Deck hinzufügen?	
 GLUE_DECK_TRAY_MERC_COUNT_LABEL	Söldner	
 GLUE_DECK_TRAY_TEAM_COUNT_LABEL	Gruppen	
+GLUE_DELETE_ACCOUNT	Account löschen	
 GLUE_DEMON_HUNTER_LOCKED_HEADER	Held gesperrt	
 GLUE_DEMON_HUNTER_LOCKED_PROLOGUE	Spielt den Dämonenjägerprolog von Ruinen der Scherbenwelt als Soloabenteuer, um diesen Helden freizuschalten.	
 GLUE_DEVICE_OSVERSION_NEXT_VERSION_WARNING	Die Version Ihres Betriebssystems ist veraltet. Bitte aktualisieren Sie es, bevor Sie Hearthstone aktualisieren.	
@@ -1152,7 +1163,8 @@ GLUE_LETTUCE_BOUNTY_LOCKED_REASON_BLDG_NEEDS_UPGRADE	Wertet Euren Reisepunkt auf
 GLUE_LETTUCE_BOUNTY_LOCKED_REASON_EVENT_ENDED	Diese Zone ist nicht mehr verfügbar.	
 GLUE_LETTUCE_BOUNTY_LOCKED_REASON_EVENT_NOT_ACTIVE	Diese Zone ist inaktiv.	
 GLUE_LETTUCE_BOUNTY_LOCKED_REASON_EVENT_NOT_STARTED	Diese Zone ist noch nicht verfügbar.	
-GLUE_LETTUCE_BOUNTY_LOCKED_REASON_PRV_ZONES_INCOMPLETE	Erfordert den Sieg über Ahune in Winterquell.	
+GLUE_LETTUCE_BOUNTY_LOCKED_REASON_PRV_ZONES_INCOMPLETE	Erfordert den Abschluss der vorherigen Zonen.	
+GLUE_LETTUCE_BOUNTY_LOCKED_REASON_PRV_ZONES_INCOMPLETE_AHUNE	Erfordert den Sieg über Ahune in Winterquell.	
 GLUE_LETTUCE_BOUNTY_POSTER_TEXT	Stufe {0}	0=the level number of the final boss
 GLUE_LETTUCE_BOX_BUTTON_DISABLED_SCROLL_TEXT	Vorübergehend\n\n\nnicht verfügbar	
 GLUE_LETTUCE_COIN_TOOLTIP_BODY	Zum Aufwerten von Fähigkeiten und Ausrüstung.\nErhältlich aus Kopfgeldern, Packungen, Aufgaben und der Kampfgrube.	
@@ -2126,7 +2138,7 @@ GLUE_STORE_INFO_BUTTON_TEXT	i
 GLUE_STORE_KOREAN_DISCLAIMER_DETAILS	특정 카드를 원하신다면 아래와 같이 ‘마력 추출’ 기능을 통해 100%의 확률로 제작할 수 있습니다.\n   1) 카드 팩을 구매하고 개봉하여 원하는 카드가 있는지 확인합니다.\n   2) 원하는 카드가 없다면 “내 카드” 메뉴에서 필요하지 않은 카드를 선택하고 “마력 추출” 기능을 사용하세요. 이 기능을 사용하면 해당 카드를 제거하고 “신비한 가루”를 획득합니다.\n   3) “내 카드” 메뉴의 “제작하기” 기능으로 “신비한 가루”를 사용하여 원하는 카드를 제작합니다.\n카드 팩 하나당 최소 40개의 “신비한 가루”를 얻을 수 있습니다. 일반/희귀/영웅/전설 카드를 제작하려면 각각 40/100/400/1600개의 “신비한 가루”가 필요합니다. 즉, 카드 팩을 1/3/10/40개 구매하면 반드시 일반/희귀/영웅/전설 카드 하나를 제작할 수 있습니다.	
 GLUE_STORE_KOREAN_DISCLAIMER_HEADLINE	주의!	
 GLUE_STORE_KOREAN_PRODUCT_DETAILS_ADVENTURE	본 묶음 상품은 구매 후 환불되지 않으며, 구매 즉시 모든 지구 이용이 가능합니다.	
-GLUE_STORE_KOREAN_PRODUCT_DETAILS_EXPERT_PACK	이용기간 : 서비스 종료 시까지. 본 상품은 구매 후 7일 이내에 청약철회가 가능합니다. 다만, 1개의 카드팩이라도 개봉한 경우에는 청약철회가 불가능합니다.	only displayed for Korean customers, should always be in Korean
+GLUE_STORE_KOREAN_PRODUCT_DETAILS_EXPERT_PACK	이용기간 : 서비스 종료 시까지. 본 상품은 실제 화폐로 구매한 경우 구매 후 7일 이내에 청약철회가 가능합니다.\n다만, 1개의 카드 팩이라도 개봉한 경우에는 청약철회가 불가능합니다. 게임 내 골드로 구매한 경우 환불되지 않습니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_KOREAN_PRODUCT_DETAILS_FIRST_PURCHASE_BUNDLE	이용기간: 서비스 종료 시까지. 본 상품은 구매 후 즉시 임의 직업의 오리지널 전설 카드가 귀하의 카드에 추가되므로 구매 후 환불이 불가능합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_KOREAN_PRODUCT_DETAILS_PACKS_PREORDER	사전 구매 상품은 실제 상품 출시 전까지 환불이 가능합니다.	
 GLUE_STORE_LAUNCH_PROMO	Neu!	
@@ -2281,7 +2293,7 @@ GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_ADVENTURE_BUNDLE	본 묶음 상품은 구매
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_ADVENTURE_SINGLE	본 상품은 구매 후 환불되지 않으며, 구매 즉시 해당 지구에 내용이 적용됩니다	
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_BATTLEGROUNDS_PERKS	이용기간: 다음 확장팩 출시일 전까지. 본 상품은 구매 즉시 효과가 적용되므로 구매 후 환불이 불가능합니다.	
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_CONFIRM	본 거래와 관련된 조건과 약관을 확인하며 이에 동의합니다.	only displayed for Korean customers, should always be in Korean
-GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_EXPERT_PACK	이용기간 : 서비스 종료 시까지. 본 상품은 구매 후 7일 이내에 청약철회가 가능합니다. 다만, 1개의 카드팩이라도 개봉한 경우에는 청약철회가 불가능합니다.	only displayed for Korean customers, should always be in Korean
+GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_EXPERT_PACK	이용기간 : 서비스 종료 시까지. 본 상품은 실제 화폐로 구매한 경우 구매 후 7일 이내에 청약철회가 가능합니다.\n다만, 1개의 카드 팩이라도 개봉한 경우에는 청약철회가 불가능합니다. 게임 내 골드로 구매한 경우 환불되지 않습니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_FIRST_PURCHASE_BUNDLE	이용기간: 서비스 종료 시까지. 본 상품은 구매 후 즉시 임의 직업의 오리지널 전설 카드가 귀하의 카드에 추가되므로 구매 후 환불이 불가능합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_FORGE_TICKET	투기장 입장료는 구매 후 환불되지 않으며, 구매 즉시 투기장에 입장합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_HERO	본 상품은 구매 후 환불되지 않으며, 구매 즉시 이용이 가능합니다.	
@@ -2638,7 +2650,7 @@ GLUE_TIP_FORGE_1	Die Belohnungen in der Arena werden mit jedem Sieg besser!
 GLUE_TIP_FORGE_2	Ihr müsst nicht all Eure Spiele in der Arena an einem Stück durchspielen.	
 GLUE_TIP_HEROICBRAWL_0	Hier ist die richtige Gegnerzuweisung besonders wichtig. Die Wartezeiten könnten daher etwas länger sein.	
 GLUE_TIP_LETTUCE_0	Der Schlüssel zum Sieg liegt darin, <b>kritischen Schaden</b> auszunutzen!	
-GLUE_TIP_LETTUCE_1	Wenn Fähigkeiten dasselbe Tempo haben, werden sie in zufälliger Reihenfolge eingesetzt. 	
+GLUE_TIP_LETTUCE_1	Bei Kopfgeldbegegnungen handeln Eure Söldner immer vor Feinden mit demselben Tempo.	
 GLUE_TIP_LETTUCE_10	Schätze gewähren Euren Söldnern zusätzliche Fähigkeiten,\ndie aber jeweils nur für eine Kopfgeldkarte verfügbar sind.	
 GLUE_TIP_LETTUCE_11	Durch Elitebegegnungen erhaltet Ihr wertvollere Schätze.	
 GLUE_TIP_LETTUCE_12	Heroische Kopfgelder gewähren bessere Belohnungen, sind aber auch viel schwieriger.	

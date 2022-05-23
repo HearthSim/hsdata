@@ -63,7 +63,7 @@ GLUE_COLLECTION_DECK_INCOMPLETE_LABEL	Click to complete
 GLUE_COLLECTION_DECK_INCOMPLETE_LABEL_TOUCH	Tap to complete	
 GLUE_COLLECTION_DECK_MISSING_CARDS_INDICATOR	{0}/{1}	
 GLUE_COLLECTION_DECK_EXTRA_CARD_WARNING_HEADER	Adding Extra Cards
-GLUE_COLLECTION_DECK_EXTRA_CARD_WARNING_BODY	You can add more than {0} cards while building a deck, but must narrow it back down to {0} cards before it will be valid for play.
+GLUE_COLLECTION_DECK_EXTRA_CARD_WARNING_BODY	You can add more than {0} cards while building a deck, but it can only have {0} cards to be valid for play.
 GLUE_COLLECTION_DECK_EXTRA_CARD_WARNING_CONFIRM	Got it!
 GLUE_COLLECTION_DECK_EXTRA_CARDS_POPUP_HEADER	Extra Cards
 GLUE_COLLECTION_DECK_EXTRA_CARDS_POPUP_TEXT	You have {0} |4(extra card,extra cards) in this deck.\nRemove |4(it,them) automatically?
@@ -134,7 +134,8 @@ GLUE_COLLECTION_CRAFTING_SHOW_ONLY_GOLDEN	Show Only Golden Cards
 GLUE_COLLECTION_CRAFTING_SHOW_SOULBOUND_CARDS	Include Uncraftable Cards	
 GLUE_COLLECTION_CRAFTING_EXPLANATION	Select a card to start crafting.\n\nSpend Arcane Dust to create cards and acquire dust by disenchanting cards.\n\nCosts vary with card rarity.
 GLUE_COLLECTION_CRAFTING_UPGRADEGOLDEN_STANDARD	Do you want to create a new card or upgrade a normal card to Golden?
-GLUE_COLLECTION_CRAFTING_UPGRADEGOLDEN_GOLDEN	You have {0} normal |4(copy,copies). Do you want to Create a new card or Upgrade a normal?	0=number of normal copies
+GLUE_COLLECTION_CRAFTING_UPGRADEGOLDEN_NORMAL	You have {0} normal |4(copy,copies). Do you want to Create a new normal or Upgrade a normal?	0=number of normal copies
+GLUE_COLLECTION_CRAFTING_UPGRADEGOLDEN_GOLDEN	You have {0} normal |4(copy,copies). Do you want to Create a new golden or Upgrade a normal?	0=number of normal copies
 GLUE_COLLECTION_ADD_TO_DECK	Add to Deck
 GLUE_COLLECTION_GENERIC_ERROR	A system error has prevented your request. Please try again later.
 GLUE_COLLECTION_CARD_PERMISSION_ERROR	That card cannot be crafted or disenchanted. Log out and log back in to retrieve any spent dust.
@@ -174,7 +175,7 @@ GLUE_COLLECTION_DECK_PASTE_TOOLTIP_HEADLINE	Paste Deck
 GLUE_COLLECTION_DECK_PASTE_TOOLTIP_CLASS_NO_MATCH	Your copied deck belongs to a different class.
 GLUE_COLLECTION_DECK_PASTE_TOOLTIP_WILD_LOCKED	You must own a wild card before you can create this deck.
 GLUE_COLLECTION_DECK_PASTE_TOOLTIP_INVALID	Your copied deck is not valid for this play mode.
-GLUE_COLLECTION_DECK_COPY_TOOLTIP_INCOMPLETE	You can only copy a full deck.
+GLUE_COLLECTION_DECK_COPY_TOOLTIP_INCOMPLETE	You can only copy a valid deck.
 GLUE_COLLECTION_DECK_COPY_TOOLTIP_FORMAT	Your deck has some cards that are invalid for this format.
 GLUE_COLLECTION_DECK_COPY_TOOLTIP_UNPLAYABLE	Your deck has some cards that are not playable.
 GLUE_COLLECTION_DECK_PASTE_INVALID_CLASS_BODY	The deck you are trying to paste belongs to a different class.
@@ -813,7 +814,7 @@ GLUE_TIP_BACON_18	With 8 players, being in the Top 4 is a win! \nFirst place get
 GLUE_TIP_BACON_19	All players recruit minions from the same shared pool.
 GLUE_TIP_BACON_20	When you wipe out an opponent, their minions go back into the pool.
 GLUE_TIP_LETTUCE_0	Using <b>Critical Damage</b> is the key to victory!
-GLUE_TIP_LETTUCE_1	Abilities happen randomly if they have the same Speed. 
+GLUE_TIP_LETTUCE_1	Your Mercs will always act before enemies of the same Speed during Bounty encounters.
 GLUE_TIP_LETTUCE_2	Ability cooldowns decrease even while on the Bench.
 GLUE_TIP_LETTUCE_3	Minions with <b>Rush</b> immediately attack a random target when they are summoned.
 GLUE_TIP_LETTUCE_4	<b>Taunt</b> can be used to intercept <b>Attack</b> abilities.
@@ -2778,7 +2779,8 @@ GLUE_LETTUCE_BOUNTY_LOCKED_REASON_EVENT_NOT_STARTED	This zone is not yet availab
 GLUE_LETTUCE_BOUNTY_LOCKED_REASON_EVENT_NOT_ACTIVE	This zone is not active.
 GLUE_LETTUCE_BOUNTY_LOCKED_REASON_EVENT_ENDED	This zone is no longer available.
 GLUE_LETTUCE_BOUNTY_LOCKED_REASON_BLDG_NEEDS_UPGRADE	Upgrade your Travel Point to unlock this zone.
-GLUE_LETTUCE_BOUNTY_LOCKED_REASON_PRV_ZONES_INCOMPLETE	Requires defeating Ahune in Winterspring.
+GLUE_LETTUCE_BOUNTY_LOCKED_REASON_PRV_ZONES_INCOMPLETE	Requires completion of previous zones.
+GLUE_LETTUCE_BOUNTY_LOCKED_REASON_PRV_ZONES_INCOMPLETE_AHUNE	Requires defeating Ahune in Winterspring.
 GLUE_LETTUCE_YOUR_TEAM_TRAY_TITLE	Your Party
 GLUE_LETTUCE_SEASON_RATING_REWARD_TITLE	Mercenary Rating Reward
 GLUE_LETTUCE_SEASON_RATING_REWARD_HEADER	Your Rating earned you Mercenary Rewards!
@@ -2854,4 +2856,13 @@ GLUE_TEAM_SHARE_SHOW_OPPONENT_TEAMS	Show Opponent's Parties
 GLUE_TEAM_SHARE_SHOW_MY_TEAMS	Show My Parties
 GLUE_LETTUCE_DISABLED_TEAM_NO_EDIT	There is a disabled Mercenary on this party.
 GLUE_LETTUCE_DISABLED_INVALID_TEAM	This party can't be used.
-
+GLUE_COLLECTION_TEAM_VALID_PASTE_BODY	Would you like to create a new team with the team in your clipboard?		
+GLUE_COLLECTION_TEAM_VALID_PASTE_HEADER	Create Team		
+GLUE_COLLECTION_TEAM_OVERWRITE_BODY	Would you like to replace your current team with the team in your clipboard?	
+GLUE_COLLECTION_TEAM_OVERWRITE_HEADER	Replace Team	
+GLUE_COLLECTION_TEAM_SAVE_ANYWAY	No	
+GLUE_COLLECTION_TEAM_FINISH_FOR_ME	Yes	
+GLUE_COLLECTION_TEAM_CLIPBOARD_ACCESS_HEADER	Clipboard	
+GLUE_COLLECTION_TEAM_CLIPBOARD_ACCESS_BODY	For a better team building experience, Hearthstone will occasionally access <b>your device clipboard</b> for copied teams from external sources. This will also allow you to copy and share your team with others!	
+GLUE_COLLECTION_TEAM_INVALID_POPUP_HEADER	Invalid Team	
+GLUE_DELETE_ACCOUNT	Delete Account	

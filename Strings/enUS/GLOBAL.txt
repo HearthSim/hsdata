@@ -441,6 +441,8 @@ GLOBAL_RACE_OWLKIN	Owlkin
 GLOBAL_RACE_HALFORC	Half-Orc
 GLOBAL_RACE_NAGA	Naga
 GLOBAL_RACE_OLDGOD	Old God
+GLOBAL_RACE_PANDAREN	Pandaren
+GLOBAL_RACE_GRONN	Gronn
 GLOBAL_RACE_ALL_BATTLEGROUNDS	Amalgams	This should be the plural of DAL_087t
 GLOBAL_RACE_BLOODELF_BATTLEGROUNDS	Blood Elves
 GLOBAL_RACE_DEMON_BATTLEGROUNDS	Demons
@@ -574,6 +576,8 @@ GLOBAL_FIRESIDE_GATHERING_PATRON_LIST_FOOTER_TEXT_LARGE_SCALE	{0}+ total players
 GLOBAL_FIRESIDE_GATHERING_PATRON_LIST_FOOTER_TEXT_SOFT_LIMIT	{0} total players at this fireside.	0=The number of patrons up to 99.
 GLOBAL_FIRESIDE_GATHERING_CHOOSE_HEADER	Choose an Option
 GLOBAL_FIRESIDE_GATHERING_REUNPACK	Update Setup
+GLOBAL_FRIEND_PARTY_INVITATION_TITLE	Party
+GLOBAL_FRIEND_PARTY_INVITATION_BODY_DECLINED	{0} declined your invitation.	0=friend name
 GLOBAL_FRIEND_CHALLENGE_TITLE	Friendly
 GLOBAL_FRIEND_CHALLENGE_HEADER	Challenge
 GLOBAL_FRIEND_CHALLENGE_BODY1	You've been challenged by:
@@ -862,6 +866,7 @@ GLOBAL_PROGRAMNAME_BLACKOPSCOLDWAR	Black Ops Cold War
 GLOBAL_PROGRAMNAME_CRASHBANDICOOT4	Crash Bandicoot 4
 GLOBAL_PROGRAMNAME_DIABLO2R	Diablo II: Resurrected
 GLOBAL_PROGRAMNAME_CODVANGUARD	Call of Duty: Vanguard
+GLOBAL_PROGRAMNAME_DIABLOIMMORTAL	Diablo Immortal
 GLOBAL_OFFLINE	Offline
 GLOBAL_DEFAULT_ALERT_HEADER	Alert
 GLOBAL_FORGE_END_TITLE	Arena Complete
@@ -938,6 +943,8 @@ GLOBAL_CHAT_SEND_DECK_TITLE	Send Deck Message
 GLOBAL_CHAT_SEND_DECK_MESSAGE	Would you like to send a new message with the deck in your clipboard?
 GLOBAL_CHAT_DECK_CODE_MESSAGE	{0} Deck{1}	0=class name,1=copy hint
 GLOBAL_CHAT_DECK_CODE_WITH_NAME_MESSAGE	{0} Deck: {1}{2}	0=class name,1=deck name,2=copy hint
+GLOBAL_CHAT_MERCENARIES_PARTY_CODE_MESSAGE	Mercenaries Party{0}	0=copy hint
+GLOBAL_CHAT_MERCENARIES_PARTY_CODE_WITH_NAME_MESSAGE	Mercenaries Party: {0}{1}	0=deck name,1=copy hint
 GLOBAL_CHAT_DECK_CODE_HINT	\nClick to copy
 GLOBAL_CHAT_DECK_CODE_HINT_TOUCH	\nTap to copy
 GLOBAL_SOCIAL_TOAST_FRIEND_ONLINE	<color=#{0}>{1}</color> has come online.	0=name color,1=player name
@@ -1095,7 +1102,7 @@ GLOBAL_CURRENT_TIME_AND_DATE_DEV	{0} ({1} - {2})
 GLOBAL_CURRENT_TIME_AM	AM
 GLOBAL_CURRENT_TIME_PM	PM
 GLOBAL_HEALTHY_GAMING_KOREA_STARTUP_MESSAGE	본 게임물은 만 12세 이용가 게임으로서 해당 연령 미만의 청소년이 이용하기에 부적절합니다. 반드시 보호자의 지도 감독이 필요합니다.
-GLOBAL_HEALTHY_GAMING_CHINA_STARTUP_MESSAGE	抵制不良游戏，拒绝盗版游戏。\n注意自我保护，谨防上当受骗。\n适度游戏益脑，沉迷游戏伤身。\n合理安排时间，享受健康生活。
+GLOBAL_HEALTHY_GAMING_CHINA_STARTUP_MESSAGE	抵制不良游戏，拒绝盗版游戏。 \n注意自我保护，谨防受骗上当。\n适度游戏益脑，沉迷游戏伤身。\n合理安排时间，享受健康生活。
 GLOBAL_HEALTHY_GAMING_CHINA_STARTUP_SUBTEXT	ISBN：978-7-900262-36-3 版署批号：新出审字[2013]1510号 沪网文[2017]9633-727号\n文网进字[2013]029号 著作权：暴雪娱乐有限公司 出版单位：金报电子音像出版中心
 GLOBAL_HEALTHY_GAMING_CHINA_CAIS_ACTIVE	CAIS Active
 GLOBAL_LANGUAGE_CHANGE_CONFIRM_TITLE	Change Language?
@@ -1330,8 +1337,8 @@ GLOBAL_KEYWORD_ATTACK_MERC	Attack
 GLOBAL_KEYWORD_ATTACK_TEXT_MERC	Attack a character and take damage from the enemy.
 GLOBAL_KEYWORD_ATTACK_REF_TEXT_MERC	Attack a character and take damage from the enemy.
 GLOBAL_KEYWORD_SPELLCOMBO_MERC	Spell Combo
-GLOBAL_KEYWORD_SPELLCOMBO_TEXT_MERC	A bonus if another friendly Merc played a played a spell of the same school this turn. 
-GLOBAL_KEYWORD_SPELLCOMBO_REF_TEXT_MERC	A bonus if another friendly Merc played a played a spell of the same school this turn. 
+GLOBAL_KEYWORD_SPELLCOMBO_TEXT_MERC	A bonus if another friendly Merc played a spell of the specified school this turn. 
+GLOBAL_KEYWORD_SPELLCOMBO_REF_TEXT_MERC	A bonus if another friendly Merc played a spell of the specified school this turn. 
 GLOBAL_KEYWORD_DEATHBLOW	Deathblow
 GLOBAL_KEYWORD_DEATHBLOW_TEXT	Does something when it kills a character.
 GLOBAL_KEYWORD_BLEED	Bleed
@@ -1361,3 +1368,5 @@ GLOBAL_KEYWORD_SPELLWEAKNESS_MERC_REF_TEXT	Takes more damage from all abilities.
 GLOBAL_KEYWORD_SPELLRESISTANCE_MERC	Spell Resistance
 GLOBAL_KEYWORD_SPELLRESISTANCE_MERC_TEXT	Takes {0} less damage from all abilities.
 GLOBAL_KEYWORD_SPELLRESISTANCE_MERC_REF_TEXT	Takes less damage from all abilities.	
+GLOBAL_KEYWORD_BENCH_MERC	Bench
+GLOBAL_KEYWORD_BENCH_MERC_TEXT	Does something while this Merc is on the bench.
