@@ -141,6 +141,7 @@ GLOBAL_BUTTON_NOT_NOW	Nicht jetzt
 GLOBAL_BUTTON_OK	OK	
 GLOBAL_BUTTON_OR	ODER	
 GLOBAL_BUTTON_OWNED	Erworben	
+GLOBAL_BUTTON_SUBMIT	Senden	
 GLOBAL_BUTTON_YES	Ja	
 GLOBAL_CANCEL	Abbrechen	
 GLOBAL_CARD_SET_AV	Gespalten im Alteractal	
@@ -209,6 +210,9 @@ GLOBAL_CARD_SET_OG_RESERVE	Old Gods Reserve
 GLOBAL_CARD_SET_OG_SEARCHABLE_SHORTHAND_NAMES	tog dag dfdag fdg wotog wog	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.  For Whispers of the Old Gods, 'tog' should be available in all locales; wotog and wog are additional English shorthands, which should be replaced by locale specific variants.
 GLOBAL_CARD_SET_OG_SHORT	Die Alten Götter	
 GLOBAL_CARD_SET_PROMO	Promo	
+GLOBAL_CARD_SET_REV	Mord auf Schloss Nathria	
+GLOBAL_CARD_SET_REV_SEARCHABLE_SHORTHAND_NAMES	mcn cn rev	
+GLOBAL_CARD_SET_REV_SHORT	Schloss Nathria	
 GLOBAL_CARD_SET_SCH	Akademie Scholomance	
 GLOBAL_CARD_SET_SCH_SEARCHABLE_SHORTHAND_NAMES	scholo as	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_SCH_SHORT	Scholomance	
@@ -451,6 +455,8 @@ GLOBAL_FRIEND_CHALLENGE_TITLE	Spiel mit einem Freund
 GLOBAL_FRIEND_PARTY_INVITATION_BODY_DECLINED	{0} hat Eure Einladung abgelehnt.	0=friend name
 GLOBAL_FRIEND_PARTY_INVITATION_TITLE	Gruppe	
 GLOBAL_FRIENDLIST_ADD_FRIEND_BUTTON	Hinzufügen	
+GLOBAL_FRIENDLIST_BATTLEGROUNDS_PARTY_INVITE	In Gruppe einladen	
+GLOBAL_FRIENDLIST_BATTLEGROUNDS_PARTY_KICK	Aus Gruppe entfernen	
 GLOBAL_FRIENDLIST_BATTLEGROUNDS_TOOLTIP_INVITE_BODY	Ladet {0} in Eure Schlachtfeldgruppe ein.	0=player name
 GLOBAL_FRIENDLIST_BATTLEGROUNDS_TOOLTIP_INVITE_HEADER	Einladen	
 GLOBAL_FRIENDLIST_BATTLEGROUNDS_TOOLTIP_KICK_BODY	Entfernt {0} aus Eurer Schlachtfeldgruppe.	0=player name
@@ -473,6 +479,7 @@ GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_BATTLEGROUNDS_EARLY_ACCESS	Dieser Spie
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_BATTLEGROUNDS_TUTORIAL_COMPLETE	Dieser Spieler hat das Schlachtfeld-Tutorial noch nicht abgeschlossen.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_CLASSIC_DECK	Dieser Spieler hat keine Klassikdecks.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_DECK	Dieser Spieler hat keine Decks.	
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_HEARTHSTONE_TUTORIAL_COMPLETE	Dieser Spieler hat das Hearthstone-Tutorial noch nicht abgeschlossen.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_MERCS_TUTORIAL_COMPLETE	Dieser Spieler hat das Kopfgeld des Söldner-Tutorials noch nicht abgeschlossen.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_STANDARD_DECK	Dieser Spieler hat keine Standarddecks.	
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_TAVERN_BRAWL_DECK	Dieser Spieler hat noch kein Deck für das Kartenchaos erstellt.	
@@ -486,6 +493,12 @@ GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_NO_TAVERN_BRAWL_DECK	Ihr müsst für das 
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_TAVERN_BRAWL_LOCKED	Erreicht mit einer Klasse Stufe 20, um den Modus „Kartenchaos“ freizuschalten.	
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_CLASSIC_DUEL_BUTTON	Klassik	
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_DUEL_BUTTON	Duell	
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_HEADER_FRIEND	Fordert <color=#61C8E8>{0}</color> heraus zu ...	0=battletag
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_HEADER_NONFRIEND	Fordert {0} heraus zu ...	0=battletag
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_HEARTHSTONE_BUTTON	Hearthstone ...	
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_OPTIONS_BUTTON	Optionen ...	
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_REMOVE_BUTTON	Freund entfernen ...	
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_REPORT_BUTTON	Melden ...	
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_STANDARD_DUEL_BUTTON	Standard	
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_WILD_DUEL_BUTTON	Wild	
 GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_NO_TAVERN_BRAWL	Zurzeit ist kein Kartenchaos verfügbar. Versucht es später wieder!	
@@ -507,9 +520,19 @@ GLOBAL_FRIENDLIST_RECENT_OPPONENT_STATUS	Letzter Gegner
 GLOBAL_FRIENDLIST_RECENT_PLAYERS_HEADER	LETZTE GEGNER - {0}	0=number of players
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_ALERT_MESSAGE	Seid Ihr Euch sicher, dass Ihr {0} entfernen wollt?	0=friend name
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_BUTTON	Entfernen	
+GLOBAL_FRIENDLIST_REPORT_SELECT_COMPLETE	Vielen Dank für Ihre Meldung!	
+GLOBAL_FRIENDLIST_REPORT_SELECT_HEADER_FRIEND	<color=#61C8E8>{0}</color> melden	0=battletag
+GLOBAL_FRIENDLIST_REPORT_SELECT_HEADER_NONFRIEND	{0} melden	0=battletag
+GLOBAL_FRIENDLIST_REPORT_SELECT_OPTIONS	Wählen Sie alle zutreffenden Punkte aus:	
+GLOBAL_FRIENDLIST_REPORT_SELECT_REASON	Grund wählen	
+GLOBAL_FRIENDLIST_REPORT_TOOLTIP_COMING_SOON_TEXT	Bald verfügbar	
+GLOBAL_FRIENDLIST_REPORT_TOOLTIP_CURRENTLY_UNAVAILABLE_TEXT	Derzeit nicht verfügbar	
+GLOBAL_FRIENDLIST_REPORT_TOOLTIP_HEADER	Spieler melden	
 GLOBAL_FRIENDLIST_REQUEST_SENT_TIME	Gesendet: {0}	0=one of the GLOBAL_DATETIME_ELAPSED_ strings
 GLOBAL_FRIENDLIST_REQUESTS_HEADER	FREUNDSCHAFTSANFRAGEN – {0}	0=number of received friend requests
 GLOBAL_FRIENDLIST_SPECTATE_MENU_DESCRIPTION	{0} ist in einem Spiel.	0=player name
+GLOBAL_FRIENDLIST_SPECTATE_MENU_KICK	Zuschauer entfernen	
+GLOBAL_FRIENDLIST_SPECTATE_MENU_STOP	Nicht mehr zuschauen	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_AVAILABLE_HEADER	Diesem Spiel zuschauen	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_AVAILABLE_TEXT	Klickt hier, um der Partie dieses Spielers zuzuschauen.	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_AVAILABLE_TEXT_TOUCH	Tippt hier, um der Partie dieses Spielers zuzuschauen.	
@@ -1028,6 +1051,7 @@ GLOBAL_PROGRAMNAME_PHOENIX	Online
 GLOBAL_PROGRAMNAME_STARCRAFT	StarCraft	
 GLOBAL_PROGRAMNAME_STARCRAFT2	StarCraft II	
 GLOBAL_PROGRAMNAME_WARCRAFT3	Warcraft III: Reforged	
+GLOBAL_PROGRAMNAME_WARCRAFTARCLIGHTRUMBLE	Arclight Rumble	
 GLOBAL_PROGRAMNAME_WOW	World of Warcraft	
 GLOBAL_PROGRESSION_ACHIEVEMENT_COMPLETION	{0} abgeschlossen	
 GLOBAL_PROGRESSION_ACHIEVEMENT_COMPLETION_DATE	{0:dd.MM.yyyy}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
@@ -1166,6 +1190,16 @@ GLOBAL_REMAINING_DATETIME	{0} verbleibend	0=time string
 GLOBAL_REMINDER_CARDBACK_SEASON_END_DIALOG	Gewinnt {0} |4(Spiel,Spiele), um den Kartenrücken der aktuellen Saison zu erhalten.	
 GLOBAL_REMINDER_CHEST_QUESTION_MARK	?	Label for unearned chest, assuming "?" universally means unknown, it doesn't need to be localized
 GLOBAL_REMINDER_CHEST_SEASON_END_DIALOG	Gewinnt 5 Spiele, um Eure Saisontruhe zu erhalten.	
+GLOBAL_REPORT_DETAIL_ADVERTISEMENT	Werbung	
+GLOBAL_REPORT_DETAIL_BATTLETAG	BattleTag	
+GLOBAL_REPORT_DETAIL_BOTTING	Nutzung von Bots	
+GLOBAL_REPORT_DETAIL_HACKING	Hacking	
+GLOBAL_REPORT_DETAIL_HARASSMENT	Belästigung	
+GLOBAL_REPORT_DETAIL_INTENTIONALLY_LOSING_DERANKING	Absichtliches Verlieren / Rangverlust	
+GLOBAL_REPORT_DETAIL_SPAM	Spam	
+GLOBAL_REPORT_REASON_CHEATING	Cheating	
+GLOBAL_REPORT_REASON_INAPPROPRIATE_CHAT	Anstößiger Chat	
+GLOBAL_REPORT_REASON_INAPPROPRIATE_NAME	Anstößiger Name	
 GLOBAL_RESTART	Neu starten	
 GLOBAL_RESUME_GAME	Fortfahren	
 GLOBAL_RETRY	Neuer Versuch	
@@ -1262,6 +1296,7 @@ GLOBAL_SHOW	Anzeigen
 GLOBAL_SHUTDOWN_TOAST	<color=#{0}>Die Blizzard-Dienste werden in {1} |4(Minute,Minuten) heruntergefahren.</color>	0=color, 1=minutes
 GLOBAL_SKIP	Überspringen	
 GLOBAL_SKIP_TUTORIAL	Tutorial verlassen	
+GLOBAL_SOCIAL_ALERT_FRIEND_OFFLINE	{0} ist jetzt offline.	0=Battletag
 GLOBAL_SOCIAL_TOAST_FRIEND_ACHIEVEMENT	<color=#{0}>{1}</color> hat den Erfolg <color=#FFD451>{2}</color> abgeschlossen	0=name color,1=player name,2=achievement name
 GLOBAL_SOCIAL_TOAST_FRIEND_ACHIEVEMENT_TIER	<color=#{0}>{1}</color> hat den Erfolg <color=#FFD451>{2} (Stufe {3})</color> abgeschlossen	0=name color,1=player name,2=achievement name,3=tier
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_COMPLETE	<color=#{0}>{1}</color> hat eine Arenarunde beendet. ({2}:{3})	0=name color,1=player name,2=Arena Wins,3=Arena Losses
