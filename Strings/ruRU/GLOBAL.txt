@@ -211,7 +211,7 @@ GLOBAL_CARD_SET_OG_SEARCHABLE_SHORTHAND_NAMES	tog пдб дб	This is a space-se
 GLOBAL_CARD_SET_OG_SHORT	Древние боги	
 GLOBAL_CARD_SET_PROMO	Промо-карты	
 GLOBAL_CARD_SET_REV	Убийство в замке Нафрия	
-GLOBAL_CARD_SET_REV_SEARCHABLE_SHORTHAND_NAMES	mcn cn rev 	
+GLOBAL_CARD_SET_REV_SEARCHABLE_SHORTHAND_NAMES	mcn cn rev	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_REV_SHORT	Замок Нафрия	
 GLOBAL_CARD_SET_SCH	Некроситет	
 GLOBAL_CARD_SET_SCH_SEARCHABLE_SHORTHAND_NAMES	некро	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
@@ -244,6 +244,7 @@ GLOBAL_CARDTYPE_ENCHANTMENT	Чары
 GLOBAL_CARDTYPE_HERO	Герой	
 GLOBAL_CARDTYPE_HEROPOWER	Сила героя	
 GLOBAL_CARDTYPE_ITEM	Предмет	
+GLOBAL_CARDTYPE_LOCATION	Область	
 GLOBAL_CARDTYPE_MINION	Существо	
 GLOBAL_CARDTYPE_SPELL	Заклинание	
 GLOBAL_CARDTYPE_TOKEN	Жетон	
@@ -370,9 +371,9 @@ GLOBAL_ERROR_GAME_OPPONENT_TIMEOUT	Игра не может быть начат�
 GLOBAL_ERROR_GENERIC_HEADER	Ошибка	
 GLOBAL_ERROR_INACTIVITY_KICK	Вы давно не совершали никаких действий в игре, поэтому ваше соединение с сервером было разорвано. Пожалуйста, перезапустите игру!	
 GLOBAL_ERROR_NETWORK_ACCOUNT_BANNED	Ваша учетная запись заблокирована.	
-GLOBAL_ERROR_NETWORK_ACCOUNT_CURFEW_REACHED	[Борьба с зависимостями] Согласно действующему местному законодательству и нормам, несовершеннолетние игроки не могут заходить в игру с 22:00 до 8:00 следующего дня.	
+GLOBAL_ERROR_NETWORK_ACCOUNT_CURFEW_REACHED	根据相关法律法规对未成年人游戏时间的要求，您目前无法登录游戏。请合理安排游戏时间，劳逸结合。了解详情 https://www.battlenet.com.cn/support/zh/article/210633	
 GLOBAL_ERROR_NETWORK_ACCOUNT_INVALID_NID	Вы не сможете продолжить, пока не пройдете проверку по настоящему имени. Подробности: https://www.battlenet.com.cn/support/zh/article/210633	
-GLOBAL_ERROR_NETWORK_ACCOUNT_PLAYTIME_EXCEEDED	[Борьба с зависимостями] Согласно действующему местному законодательству и нормам, общее ежедневное время игры несовершеннолетних игроков не может превышать 1,5 часа. Вы исчерпали лимит отведенного суточного времени. Играйте ответственно.	
+GLOBAL_ERROR_NETWORK_ACCOUNT_PLAYTIME_EXCEEDED	根据相关法律法规对未成年人游戏时间的要求，您目前无法登录游戏。请合理安排游戏时间，劳逸结合。了解详情 https://www.battlenet.com.cn/support/zh/article/210633	
 GLOBAL_ERROR_NETWORK_ACCOUNT_SUSPENDED	Действие вашей учетной записи приостановлено.	
 GLOBAL_ERROR_NETWORK_ADMIN_KICKED	Соединение со службой Blizzard было потеряно. Пожалуйста, перезапустите Hearthstone.	
 GLOBAL_ERROR_NETWORK_ADVENTURE_RECONNECT_TIMEOUT	Ваша игра сохранена. Снова войдя в Hearthstone, вы сможете продолжить ее.	
@@ -466,6 +467,7 @@ GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_AVAILABLE	Игрок {0} свободен. Б
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_BATTLEGROUNDS_LOCKED	Завершите обучение в режиме «Поля сражений», чтобы открыть.	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_BATTLEGROUNDS_PARTY_MEMBER	Вы не можете послать другу вызов, находясь в группе для полей сражений.	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_EARLY_ACCESS	Этот режим находится в раннем доступе.	
+GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_GAME_MODE_LOCKED	Вы еще не открыли этот режим.	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_HEADER	Дружеская дуэль	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_APPEARING_OFFLINE	Игрок {0} сейчас не может получить ваш вызов. Ваш статус отображается как «Не в сети».	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_UNAVAILABLE	Игрок {0} сейчас не может получить ваш вызов. Вернитесь в главное меню.	0=player name
@@ -495,7 +497,8 @@ GLOBAL_FRIENDLIST_CHALLENGE_MENU_CLASSIC_DUEL_BUTTON	Классика
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_DUEL_BUTTON	Дуэль	
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_HEADER_FRIEND	Бросить вызов игроку <color=#61C8E8>{0}</color> в...	0=battletag
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_HEADER_NONFRIEND	Бросить вызов игроку {0} в...	0=battletag
-GLOBAL_FRIENDLIST_CHALLENGE_MENU_HEARTHSTONE_BUTTON	Hearthstone...	
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_HEARTHSTONE_BUTTON	Hearthstone	
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_HEARTHSTONE_EXTENDED_MENU_BUTTON	Hearthstone...	
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_OPTIONS_BUTTON	Настройки...	
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_REMOVE_BUTTON	Удалить из списка друзей...	
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_REPORT_BUTTON	Пожаловаться на...	
@@ -642,6 +645,8 @@ GLOBAL_KEYWORD_DEATHBLOW_TEXT	Дополнительный эффект, сра�
 GLOBAL_KEYWORD_DEATHRATTLE	Предсмертный хрип	
 GLOBAL_KEYWORD_DEATHRATTLE_TEXT	Срабатывает в момент гибели.	
 GLOBAL_KEYWORD_DISCOVER	Раскопка	
+GLOBAL_KEYWORD_DISCOVER_MERC	Раскопка	
+GLOBAL_KEYWORD_DISCOVER_MERC_TEXT	Позволяет выбрать и применить на этом ходу одну из трех способностей.	
 GLOBAL_KEYWORD_DISCOVER_TEXT	Выберите одну из трех карт и положите в руку.	
 GLOBAL_KEYWORD_DIVINE_SHIELD	Божественный щит	
 GLOBAL_KEYWORD_DIVINE_SHIELD_REF_TEXT	Когда защищенное существо первый раз получает урон, он не засчитывается.	
@@ -672,6 +677,8 @@ GLOBAL_KEYWORD_ENRAGED_TOOLTIP	Исступление
 GLOBAL_KEYWORD_ENRAGED_TOOLTIP_TEXT	Пока у этого существа неполное здоровье, оно получает новую способность.	
 GLOBAL_KEYWORD_EVILZUG	Прихвостень	
 GLOBAL_KEYWORD_EVILZUG_TEXT	Существо за (1) с «Боевым кличем».	
+GLOBAL_KEYWORD_EXPLORER_MERC	Исследователь	
+GLOBAL_KEYWORD_EXPLORER_MERC_TEXT	В Лигу исследователей входят: Рено, Бранн, Элиза, Финли и слияние-исследователь.	
 GLOBAL_KEYWORD_FATIGUE	Усталость	
 GLOBAL_KEYWORD_FATIGUE_TEXT	Урон, получаемый при попытке взять карту из пустой колоды.	
 GLOBAL_KEYWORD_FLOOPY	Ухлюпистый Хлюп	
@@ -697,6 +704,10 @@ GLOBAL_KEYWORD_HORDE_TEXT	Расы Орды: эльфы крови, гоблин
 GLOBAL_KEYWORD_IMMUNE	Неуязвимость	
 GLOBAL_KEYWORD_IMMUNE_REF_TEXT	Персонажу с неуязвимостью нельзя нанести урон.	
 GLOBAL_KEYWORD_IMMUNE_TEXT	Не получает урон.	
+GLOBAL_KEYWORD_INFUSE	Насыщение	
+GLOBAL_KEYWORD_INFUSE_TEXT	Когда погибает X ваших существ, улучшается в руке.	
+GLOBAL_KEYWORD_INFUSED	Насыщенность	
+GLOBAL_KEYWORD_INFUSED_TEXT	Улучшено в руке после смерти X ваших существ.	
 GLOBAL_KEYWORD_INSPIRE	Воодушевление	
 GLOBAL_KEYWORD_INSPIRE_TEXT	Срабатывает после применения вашей силы героя.	
 GLOBAL_KEYWORD_JADE_GOLEM	Нефритовый голем	

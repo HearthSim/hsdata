@@ -167,6 +167,7 @@ GLOBAL_MINI_SET_ONY	Onyxia's Lair
 GLOBAL_CARDTYPE_ENCHANTMENT	Enchantment
 GLOBAL_CARDTYPE_HERO	Hero
 GLOBAL_CARDTYPE_HEROPOWER	HeroPower
+GLOBAL_CARDTYPE_LOCATION	Location
 GLOBAL_CARDTYPE_ITEM	Item
 GLOBAL_CARDTYPE_MINION	Minion
 GLOBAL_CARDTYPE_SPELL	Spell
@@ -406,6 +407,10 @@ GLOBAL_KEYWORD_COLOSSAL	Colossal +X
 GLOBAL_KEYWORD_COLOSSAL_TEXT	When summoned, spawns X additional appendages.
 GLOBAL_KEYWORD_DREDGE	Dredge
 GLOBAL_KEYWORD_DREDGE_TEXT	Look at the bottom 3 cards of your deck.\nPut one on top.
+GLOBAL_KEYWORD_INFUSE	Infuse
+GLOBAL_KEYWORD_INFUSE_TEXT	Upgrades in hand after X friendly minions die.
+GLOBAL_KEYWORD_INFUSED	Infused
+GLOBAL_KEYWORD_INFUSED_TEXT	Upgraded in hand after X friendly minions died.
 GLOBAL_ATTACK	Attack	
 GLOBAL_COST	Cost	
 GLOBAL_HEALTH	Health	
@@ -648,8 +653,8 @@ GLOBAL_ERROR_NETWORK_INCORRECT_REGION	Your Blizzard account is not eligible to p
 GLOBAL_ERROR_NETWORK_ACCOUNT_SUSPENDED	Your account has been suspended.
 GLOBAL_ERROR_NETWORK_ACCOUNT_BANNED	Your account has been banned.
 GLOBAL_ERROR_NETWORK_ACCOUNT_INVALID_NID	Sorry, you can not proceed until you pass the real-name verification. Please refer to https://www.battlenet.com.cn/support/zh/article/210633 for more details.
-GLOBAL_ERROR_NETWORK_ACCOUNT_CURFEW_REACHED	[Anti-addiction] According to relevant national laws and regulations, underage players cannot log into the game from 22:00 p.m. to 8:00 a.m. the next day.
-GLOBAL_ERROR_NETWORK_ACCOUNT_PLAYTIME_EXCEEDED	[Anti-addiction] According to relevant national laws and regulations, the daily online time for underage players should not exceed 1.5 hours. Today your online time has reached the limit, please arrange the game time reasonably.
+GLOBAL_ERROR_NETWORK_ACCOUNT_CURFEW_REACHED	You can't login due to regulatory minor game time restrictions. Please be advised to keep a balanced and healthy lifestyle while playing video games. Learn more https://www.battlenet.com.cn/support/zh/article/210633
+GLOBAL_ERROR_NETWORK_ACCOUNT_PLAYTIME_EXCEEDED	You can't login due to regulatory minor game time restrictions. Please be advised to keep a balanced and healthy lifestyle while playing video games. Learn more https://www.battlenet.com.cn/support/zh/article/210633
 GLOBAL_ERROR_NETWORK_ADMIN_KICKED	You have been removed from the Blizzard service. Please relaunch Hearthstone to reconnect.
 GLOBAL_ERROR_NETWORK_RISK_ACCOUNT_LOCKED	We've locked your account! Go to https://battle.net/support and search 7537 to find out what happened!
 GLOBAL_ERROR_NETWORK_PARENTAL_CONTROLS	Access to this account is currently restricted by parental controls.
@@ -773,7 +778,9 @@ GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_TRADITIONAL_LOCKED	Complete the Traditional H
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_TAVERN_BRAWL_LOCKED	Complete the Traditional Hearthstone tutorial and get one class to level 20 to unlock.
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_BATTLEGROUNDS_LOCKED	Complete the Battlegrounds tutorial to unlock.
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_MERCS_LOCKED	Complete the Mercenaries tutorial to unlock.
-GLOBAL_FRIENDLIST_CHALLENGE_MENU_HEARTHSTONE_BUTTON	Hearthstone...
+GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_GAME_MODE_LOCKED	You have not unlocked this mode yet.
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_HEARTHSTONE_BUTTON	Hearthstone
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_HEARTHSTONE_EXTENDED_MENU_BUTTON	Hearthstone...
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_STANDARD_DUEL_BUTTON	Standard
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_WILD_DUEL_BUTTON	Wild
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_CLASSIC_DUEL_BUTTON	Classic
@@ -1405,3 +1412,7 @@ GLOBAL_KEYWORD_SPELLRESISTANCE_MERC_TEXT	Takes {0} less damage from all abilitie
 GLOBAL_KEYWORD_SPELLRESISTANCE_MERC_REF_TEXT	Takes less damage from all abilities.	
 GLOBAL_KEYWORD_BENCH_MERC	Bench
 GLOBAL_KEYWORD_BENCH_MERC_TEXT	Does something while this Merc is on the bench.
+GLOBAL_KEYWORD_EXPLORER_MERC	Explorer
+GLOBAL_KEYWORD_EXPLORER_MERC_TEXT	Explorers include: Reno, Brann, Elise, Finley and Amalgam Explorer.
+GLOBAL_KEYWORD_DISCOVER_MERC	Discover
+GLOBAL_KEYWORD_DISCOVER_MERC_TEXT	Choose one of three abilities to cast this turn.

@@ -211,7 +211,7 @@ GLOBAL_CARD_SET_OG_SEARCHABLE_SHORTHAND_NAMES	tog wotog wog	This is a space-sepa
 GLOBAL_CARD_SET_OG_SHORT	Old Gods	
 GLOBAL_CARD_SET_PROMO	โปรโมชั่น	
 GLOBAL_CARD_SET_REV	Murder at Castle Nathria	
-GLOBAL_CARD_SET_REV_SEARCHABLE_SHORTHAND_NAMES	mcn cn rev 	
+GLOBAL_CARD_SET_REV_SEARCHABLE_SHORTHAND_NAMES	mcn cn rev 	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_REV_SHORT	Castle Nathria	
 GLOBAL_CARD_SET_SCH	Scholomance Academy	
 GLOBAL_CARD_SET_SCH_SEARCHABLE_SHORTHAND_NAMES	scholo sa	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
@@ -244,6 +244,7 @@ GLOBAL_CARDTYPE_ENCHANTMENT	ผลพิเศษ
 GLOBAL_CARDTYPE_HERO	ฮีโร่	
 GLOBAL_CARDTYPE_HEROPOWER	พลังฮีโร่	
 GLOBAL_CARDTYPE_ITEM	ไอเท็ม	
+GLOBAL_CARDTYPE_LOCATION	สถานที่	
 GLOBAL_CARDTYPE_MINION	มินเนี่ยน	
 GLOBAL_CARDTYPE_SPELL	เวทมนตร์	
 GLOBAL_CARDTYPE_TOKEN	โทเค็น	
@@ -370,9 +371,9 @@ GLOBAL_ERROR_GAME_OPPONENT_TIMEOUT	ไม่สามารถเริ่มเ
 GLOBAL_ERROR_GENERIC_HEADER	ข้อผิดพลาด	
 GLOBAL_ERROR_INACTIVITY_KICK	คุณไม่มีความเคลื่อนไหวใน Hearthstone มาระยะหนึ่ง การเชื่อมต่อของคุณจึงปิดลง ให้เปิดเกมใหม่เมื่อคุณพร้อม!	
 GLOBAL_ERROR_NETWORK_ACCOUNT_BANNED	บัญชีของคุณถูกแบนแล้ว	
-GLOBAL_ERROR_NETWORK_ACCOUNT_CURFEW_REACHED	[การป้องกันการติดเกม] เพื่อให้เป็นไปตามกฎหมายและระเบียบปฏิบัติที่เกี่ยวข้องของประเทศ ผู้เล่นที่ยังไม่บรรลุนิติภาวะไม่สามารถเข้าสู่ระบบเกมได้ตั้งแต่เวลา 22:00 น. จนถึง 8:00 น. ของวันใหม่	
+GLOBAL_ERROR_NETWORK_ACCOUNT_CURFEW_REACHED	根据相关法律法规对未成年人游戏时间的要求，您目前无法登录游戏。请合理安排游戏时间，劳逸结合。了解详情 https://www.battlenet.com.cn/support/zh/article/210633	
 GLOBAL_ERROR_NETWORK_ACCOUNT_INVALID_NID	ขออภัย คุณดำเนินการต่อไม่ได้จนกว่าจะผ่านการยืนยันชื่อจริง โปรดดูรายละเอียดเพิ่มเติมที่ https://www.battlenet.com.cn/support/zh/article/210633	
-GLOBAL_ERROR_NETWORK_ACCOUNT_PLAYTIME_EXCEEDED	[การป้องกันการติดเกม] เพื่อให้เป็นไปตามกฎหมายและระเบียบปฏิบัติที่เกี่ยวข้องของประเทศ ผู้เล่นที่ยังไม่บรรลุนิติภาวะควรใช้เวลาออนไลน์ในแต่ละวันไม่เกิน 1.5 ชั่วโมง เวลาออนไลน์ของคุณในวันนี้ถึงขีดจำกัดนี้แล้ว โปรดจัดเวลาการเล่นเกมของคุณให้เหมาะสม	
+GLOBAL_ERROR_NETWORK_ACCOUNT_PLAYTIME_EXCEEDED	根据相关法律法规对未成年人游戏时间的要求，您目前无法登录游戏。请合理安排游戏时间，劳逸结合。了解详情 https://www.battlenet.com.cn/support/zh/article/210633	
 GLOBAL_ERROR_NETWORK_ACCOUNT_SUSPENDED	บัญชีของคุณถูกระงับ	
 GLOBAL_ERROR_NETWORK_ADMIN_KICKED	คุณถูกตัดการเชื่อมต่อจากบริการ Blizzard โปรดเปิด Hearthstone ใหม่อีกครั้งเพื่อเชื่อมต่อใหม่	
 GLOBAL_ERROR_NETWORK_ADVENTURE_RECONNECT_TIMEOUT	บันทึกเกมของคุณเรียบร้อยแล้ว เปิด Hearthstone ใหม่อีกครั้ง[b]เพื่อเล่นต่อจากจุดที่คุณเล่นค้างไว้	
@@ -466,6 +467,7 @@ GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_AVAILABLE	ท้า {0} แข่งเกม
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_BATTLEGROUNDS_LOCKED	เล่นบทสอนเล่น Battlegrounds ให้จบเพื่อปลดล็อค	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_BATTLEGROUNDS_PARTY_MEMBER	คุณส่งคำท้าไม่ได้[b]ขณะอยู่ในปาร์ตี้ Battlegrounds	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_EARLY_ACCESS	โหมดนี้อยู่ในช่วงเล่นล่วงหน้า	
+GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_GAME_MODE_LOCKED	คุณยังไม่ได้ปลด[b]ล็อคโหมดนี้	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_HEADER	ท้าแข่งกระชับมิตร	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_APPEARING_OFFLINE	คุณไม่สามารถท้าแข่งกับ {0} ในขณะนี้ คุณถูกตั้งค่า[b]ให้ปรากฏออฟไลน์	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_UNAVAILABLE	คุณไม่สามารถท้า {0}[b] ได้ในตอนนี้ กลับไปที่เมนูหลัก	0=player name
@@ -495,7 +497,8 @@ GLOBAL_FRIENDLIST_CHALLENGE_MENU_CLASSIC_DUEL_BUTTON	คลาสสิค
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_DUEL_BUTTON	ดวล	
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_HEADER_FRIEND	ท้า <color=#61C8E8>{0}</color> แข่ง...	0=battletag
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_HEADER_NONFRIEND	ท้า {0} แข่ง...	0=battletag
-GLOBAL_FRIENDLIST_CHALLENGE_MENU_HEARTHSTONE_BUTTON	Hearthstone...	
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_HEARTHSTONE_BUTTON	Hearthstone	
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_HEARTHSTONE_EXTENDED_MENU_BUTTON	Hearthstone...	
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_OPTIONS_BUTTON	ตัวเลือก...	
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_REMOVE_BUTTON	ลบเพื่อน...	
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_REPORT_BUTTON	รายงาน...	
@@ -642,6 +645,8 @@ GLOBAL_KEYWORD_DEATHBLOW_TEXT	ใช้ความสามารถ[b]เม�
 GLOBAL_KEYWORD_DEATHRATTLE	เสียงสุดท้าย	
 GLOBAL_KEYWORD_DEATHRATTLE_TEXT	ความสามารถทำงาน[b]เมื่อมันตาย	
 GLOBAL_KEYWORD_DISCOVER	ค้นพบ	
+GLOBAL_KEYWORD_DISCOVER_MERC	ค้นพบ	
+GLOBAL_KEYWORD_DISCOVER_MERC_TEXT	เลือกความสามารถ[b]หนึ่งจากสามอย่าง[b]เพื่อร่ายในเทิร์นนี้	
 GLOBAL_KEYWORD_DISCOVER_TEXT	เลือกการ์ดหนึ่งใบจาก[b]สามใบเพื่อเพิ่มลงใน[b]มือคุณ	
 GLOBAL_KEYWORD_DIVINE_SHIELD	โล่ศักดิ์สิทธิ์	
 GLOBAL_KEYWORD_DIVINE_SHIELD_REF_TEXT	ป้องกันความเสียหายครั้งแรก[b]ที่มินเนี่ยนที่มีโล่ได้รับ	
@@ -672,6 +677,8 @@ GLOBAL_KEYWORD_ENRAGED_TOOLTIP	บ้าคลั่ง
 GLOBAL_KEYWORD_ENRAGED_TOOLTIP_TEXT	มินเนี่ยนตัวนี้มีพลังใหม่[b]ระหว่างที่พลังชีวิต[b]ไม่เต็ม	
 GLOBAL_KEYWORD_EVILZUG	ลูกสมุน	
 GLOBAL_KEYWORD_EVILZUG_TEXT	ลูกสมุนคือมินเนี่ยน[b]ค่าร่าย 1 ที่มีคำรามสู้ศึก	
+GLOBAL_KEYWORD_EXPLORER_MERC	นักสำรวจ	
+GLOBAL_KEYWORD_EXPLORER_MERC_TEXT	นักสำรวจ ได้แก่ รีโน่ แบรนน์ เอลีส ฟินลีย์ และ[b]นักสำรวจอะมัลกัม	
 GLOBAL_KEYWORD_FATIGUE	ความเหนื่อยล้า	
 GLOBAL_KEYWORD_FATIGUE_TEXT	ความเสียหายที่ได้รับ[b]จากการจั่วการ์ด[b]จากเด็คเปล่า	
 GLOBAL_KEYWORD_FLOOPY	ฟลอบบิดินัส ฟลู้ป	
@@ -697,6 +704,10 @@ GLOBAL_KEYWORD_HORDE_TEXT	ฝ่ายชนเผ่า ได้แก่ บ�
 GLOBAL_KEYWORD_IMMUNE	คงกระพัน	
 GLOBAL_KEYWORD_IMMUNE_REF_TEXT	ตัวละครที่คงกระพัน[b]จะไม่ได้รับความเสียหาย	
 GLOBAL_KEYWORD_IMMUNE_TEXT	ไม่ได้รับความเสียหาย	
+GLOBAL_KEYWORD_INFUSE	ซึมซับ	
+GLOBAL_KEYWORD_INFUSE_TEXT	อัพเกรดในมือ[b]หลังจากมินเนี่ยน[b]ฝ่ายคุณตาย X ตัว	
+GLOBAL_KEYWORD_INFUSED	ซึมซับแล้ว	
+GLOBAL_KEYWORD_INFUSED_TEXT	อัพเกรดแล้วในมือ[b]หลังจากมินเนี่ยน[b]ฝ่ายคุณตาย X ตัว	
 GLOBAL_KEYWORD_INSPIRE	จุดประกาย	
 GLOBAL_KEYWORD_INSPIRE_TEXT	ใช้ความสามารถหลังจาก[b]ที่คุณใช้พลังฮีโร่	
 GLOBAL_KEYWORD_JADE_GOLEM	เจดโกเล็ม	

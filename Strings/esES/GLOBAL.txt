@@ -211,7 +211,7 @@ GLOBAL_CARD_SET_OG_SEARCHABLE_SHORTHAND_NAMES	tog sdlda da	This is a space-separ
 GLOBAL_CARD_SET_OG_SHORT	Dioses Antiguos	
 GLOBAL_CARD_SET_PROMO	Promoción	
 GLOBAL_CARD_SET_REV	Asesinato en el Castillo de Nathria	
-GLOBAL_CARD_SET_REV_SEARCHABLE_SHORTHAND_NAMES	acn cn rev	
+GLOBAL_CARD_SET_REV_SEARCHABLE_SHORTHAND_NAMES	acn cn rev	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_REV_SHORT	Castillo de Nathria	
 GLOBAL_CARD_SET_SCH	Academia Scholomance	
 GLOBAL_CARD_SET_SCH_SEARCHABLE_SHORTHAND_NAMES	academia sc as	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
@@ -244,6 +244,7 @@ GLOBAL_CARDTYPE_ENCHANTMENT	Encantamiento
 GLOBAL_CARDTYPE_HERO	Héroe	
 GLOBAL_CARDTYPE_HEROPOWER	Poder de héroe	
 GLOBAL_CARDTYPE_ITEM	Objeto	
+GLOBAL_CARDTYPE_LOCATION	Ubicación	
 GLOBAL_CARDTYPE_MINION	Esbirro	
 GLOBAL_CARDTYPE_SPELL	Hechizo	
 GLOBAL_CARDTYPE_TOKEN	Ficha	
@@ -370,9 +371,9 @@ GLOBAL_ERROR_GAME_OPPONENT_TIMEOUT	No se ha podido iniciar la partida porque tu 
 GLOBAL_ERROR_GENERIC_HEADER	Error	
 GLOBAL_ERROR_INACTIVITY_KICK	Se ha cancelado la conexión porque llevas demasiado tiempo inactivo en Hearthstone. Inicia el juego cuando quieras continuar.	
 GLOBAL_ERROR_NETWORK_ACCOUNT_BANNED	Se ha suspendido permanentemente tu cuenta.	
-GLOBAL_ERROR_NETWORK_ACCOUNT_CURFEW_REACHED	[Antiadicciones] De acuerdo con las normas y leyes nacionales pertinentes, los jugadores menores de edad no pueden iniciar sesión en el juego entre las 22:00 y las 8:00 del día siguiente.	
+GLOBAL_ERROR_NETWORK_ACCOUNT_CURFEW_REACHED	根据相关法律法规对未成年人游戏时间的要求，您目前无法登录游戏。请合理安排游戏时间，劳逸结合。了解详情 https://www.battlenet.com.cn/support/zh/article/210633	
 GLOBAL_ERROR_NETWORK_ACCOUNT_INVALID_NID	Lo sentimos, no podrás continuar hasta que completes la verificación de tu nombre real. Consulta https://www.battlenet.com.cn/support/zh/article/210633 para obtener más información.	
-GLOBAL_ERROR_NETWORK_ACCOUNT_PLAYTIME_EXCEEDED	[Antiadicciones] De acuerdo con las normas y leyes pertinentes, el límite diario de tiempo de juego para los menores de edad es de hora y media. Hoy has alcanzado este límite. Raciónalo bien.	
+GLOBAL_ERROR_NETWORK_ACCOUNT_PLAYTIME_EXCEEDED	根据相关法律法规对未成年人游戏时间的要求，您目前无法登录游戏。请合理安排游戏时间，劳逸结合。了解详情 https://www.battlenet.com.cn/support/zh/article/210633	
 GLOBAL_ERROR_NETWORK_ACCOUNT_SUSPENDED	Tu cuenta ha sido suspendida.	
 GLOBAL_ERROR_NETWORK_ADMIN_KICKED	Se te ha expulsado de los servicios de Blizzard. Reinicia Hearthstone para volver a conectarte.	
 GLOBAL_ERROR_NETWORK_ADVENTURE_RECONNECT_TIMEOUT	Tu partida se ha guardado. Reinicia Hearthstone para retomarla donde la dejaste.	
@@ -466,6 +467,7 @@ GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_AVAILABLE	Desafía a {0} a una partida de Hea
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_BATTLEGROUNDS_LOCKED	Completa el tutorial de Campos de batalla para desbloquear.	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_BATTLEGROUNDS_PARTY_MEMBER	No puedes enviar desafíos mientras estás en un grupo de Campos de batalla.	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_EARLY_ACCESS	En estos momentos, este modo solo está disponible con acceso anticipado.	
+GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_GAME_MODE_LOCKED	Aún no has desbloqueado este modo.	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_HEADER	Desafío amistoso	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_APPEARING_OFFLINE	Ahora mismo no puedes desafiar a {0}. Apareces desconectado.	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_UNAVAILABLE	Ahora mismo no puedes desafiar a {0}. Vuelve al menú principal.	0=player name
@@ -495,7 +497,8 @@ GLOBAL_FRIENDLIST_CHALLENGE_MENU_CLASSIC_DUEL_BUTTON	Clásico
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_DUEL_BUTTON	Duelo	
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_HEADER_FRIEND	Desafiar a <color=#61C8E8>{0}</color> a…	0=battletag
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_HEADER_NONFRIEND	Desafiar a {0} a…	0=battletag
-GLOBAL_FRIENDLIST_CHALLENGE_MENU_HEARTHSTONE_BUTTON	Hearthstone…	
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_HEARTHSTONE_BUTTON	Hearthstone	
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_HEARTHSTONE_EXTENDED_MENU_BUTTON	Hearthstone…	
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_OPTIONS_BUTTON	Opciones…	
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_REMOVE_BUTTON	Quitar amigo…	
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_REPORT_BUTTON	Informar…	
@@ -642,6 +645,8 @@ GLOBAL_KEYWORD_DEATHBLOW_TEXT	Hace algo cuando mata a un personaje.
 GLOBAL_KEYWORD_DEATHRATTLE	Último aliento	
 GLOBAL_KEYWORD_DEATHRATTLE_TEXT	Hace algo al morir.	
 GLOBAL_KEYWORD_DISCOVER	Descubre	
+GLOBAL_KEYWORD_DISCOVER_MERC	Descubre	
+GLOBAL_KEYWORD_DISCOVER_MERC_TEXT	Elige una facultad entre tres para lanzarla este turno.	
 GLOBAL_KEYWORD_DISCOVER_TEXT	Elige una de tres cartas para añadir a tu mano.	
 GLOBAL_KEYWORD_DIVINE_SHIELD	Escudo divino	
 GLOBAL_KEYWORD_DIVINE_SHIELD_REF_TEXT	La primera vez que un esbirro con escudo recibe daño, lo ignora.	
@@ -672,6 +677,8 @@ GLOBAL_KEYWORD_ENRAGED_TOOLTIP	Enfurecer
 GLOBAL_KEYWORD_ENRAGED_TOOLTIP_TEXT	Mientras esté dañado, este esbirro tiene un poder nuevo.	
 GLOBAL_KEYWORD_EVILZUG	Lacayo	
 GLOBAL_KEYWORD_EVILZUG_TEXT	Los lacayos son esbirros de coste 1 con Grito de batalla.	
+GLOBAL_KEYWORD_EXPLORER_MERC	Expedicionario	
+GLOBAL_KEYWORD_EXPLORER_MERC_TEXT	Los expedicionarios son Reno, Brann, Elise, Finley y Expedicionario amalgama.	
 GLOBAL_KEYWORD_FATIGUE	Fatiga	
 GLOBAL_KEYWORD_FATIGUE_TEXT	Daño recibido al robar de un mazo vacío.	
 GLOBAL_KEYWORD_FLOOPY	Flema Salívez	
@@ -697,6 +704,10 @@ GLOBAL_KEYWORD_HORDE_TEXT	La Horda incluye: elfos de sangre, goblins, medio orco
 GLOBAL_KEYWORD_IMMUNE	Inmune	
 GLOBAL_KEYWORD_IMMUNE_REF_TEXT	No se puede dañar a los personajes inmunes.	
 GLOBAL_KEYWORD_IMMUNE_TEXT	No se puede dañar.	
+GLOBAL_KEYWORD_INFUSE	Imbuir	
+GLOBAL_KEYWORD_INFUSE_TEXT	Mejora en la mano después de que mueran X esbirros amistosos.	
+GLOBAL_KEYWORD_INFUSED	Imbuida	
+GLOBAL_KEYWORD_INFUSED_TEXT	Mejorada en la mano después de que hayan muerto X esbirros amistosos.	
 GLOBAL_KEYWORD_INSPIRE	Inspirar	
 GLOBAL_KEYWORD_INSPIRE_TEXT	Hace algo después de usar el poder de héroe.	
 GLOBAL_KEYWORD_JADE_GOLEM	Gólem de jade	

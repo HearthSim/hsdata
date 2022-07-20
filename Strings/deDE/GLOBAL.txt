@@ -211,7 +211,7 @@ GLOBAL_CARD_SET_OG_SEARCHABLE_SHORTHAND_NAMES	tog dag dfdag fdg wotog wog	This i
 GLOBAL_CARD_SET_OG_SHORT	Die Alten Götter	
 GLOBAL_CARD_SET_PROMO	Promo	
 GLOBAL_CARD_SET_REV	Mord auf Schloss Nathria	
-GLOBAL_CARD_SET_REV_SEARCHABLE_SHORTHAND_NAMES	mcn cn rev	
+GLOBAL_CARD_SET_REV_SEARCHABLE_SHORTHAND_NAMES	mcn cn rev msn sn	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_REV_SHORT	Schloss Nathria	
 GLOBAL_CARD_SET_SCH	Akademie Scholomance	
 GLOBAL_CARD_SET_SCH_SEARCHABLE_SHORTHAND_NAMES	scholo as	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
@@ -244,6 +244,7 @@ GLOBAL_CARDTYPE_ENCHANTMENT	Verzauberung
 GLOBAL_CARDTYPE_HERO	Held	
 GLOBAL_CARDTYPE_HEROPOWER	Heldenfähigkeit	
 GLOBAL_CARDTYPE_ITEM	Gegenstand	
+GLOBAL_CARDTYPE_LOCATION	Schauplatz	
 GLOBAL_CARDTYPE_MINION	Diener	
 GLOBAL_CARDTYPE_SPELL	Zauber	
 GLOBAL_CARDTYPE_TOKEN	Marke	
@@ -370,9 +371,9 @@ GLOBAL_ERROR_GAME_OPPONENT_TIMEOUT	Die Partie konnte nicht gestartet werden, da 
 GLOBAL_ERROR_GENERIC_HEADER	Fehler	
 GLOBAL_ERROR_INACTIVITY_KICK	Ihre Verbindung zum Server wurde getrennt, da Sie längere Zeit inaktiv waren. Starten Sie das Spiel erneut, wenn Sie wieder spielen möchten.	
 GLOBAL_ERROR_NETWORK_ACCOUNT_BANNED	Ihr Account wurde gebannt.	
-GLOBAL_ERROR_NETWORK_ACCOUNT_CURFEW_REACHED	[Suchtprävention] Aufgrund geltender nationaler Gesetze und Bestimmungen können sich minderjährige Spieler zwischen 22:00 Uhr und 8:00 Uhr des Folgetages nicht in das Spiel einloggen.	
+GLOBAL_ERROR_NETWORK_ACCOUNT_CURFEW_REACHED	根据相关法律法规对未成年人游戏时间的要求，您目前无法登录游戏。请合理安排游戏时间，劳逸结合。了解详情 https://www.battlenet.com.cn/support/zh/article/210633	
 GLOBAL_ERROR_NETWORK_ACCOUNT_INVALID_NID	Es tut uns leid, aber Sie können erst fortfahren, nachdem Sie Ihren echten Namen verifiziert haben. Mehr Informationen finden Sie hier: https://www.battlenet.com.cn/support/zh/article/210633	
-GLOBAL_ERROR_NETWORK_ACCOUNT_PLAYTIME_EXCEEDED	[Suchtprävention] Aufgrund geltender nationaler Gesetze und Bestimmungen ist die tägliche Spielzeit für minderjährige Spieler auf 1,5 Stunden beschränkt. Dieses Limit wurde heute erreicht. Bitte planen Sie Ihre Spielzeit entsprechend.	
+GLOBAL_ERROR_NETWORK_ACCOUNT_PLAYTIME_EXCEEDED	根据相关法律法规对未成年人游戏时间的要求，您目前无法登录游戏。请合理安排游戏时间，劳逸结合。了解详情 https://www.battlenet.com.cn/support/zh/article/210633	
 GLOBAL_ERROR_NETWORK_ACCOUNT_SUSPENDED	Ihr Account wurde suspendiert.	
 GLOBAL_ERROR_NETWORK_ADMIN_KICKED	Sie wurden von den Blizzard-Diensten getrennt. Bitte starten Sie Hearthstone neu, um die Verbindung wiederherzustellen.	
 GLOBAL_ERROR_NETWORK_ADVENTURE_RECONNECT_TIMEOUT	Spiel wurde gespeichert. Starten Sie Hearthstone neu, um an derselben Stelle weiterzuspielen.	
@@ -466,6 +467,7 @@ GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_AVAILABLE	Fordert {0} zu einer Partie Hearths
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_BATTLEGROUNDS_LOCKED	Schließt zum Freischalten das Schlachtfeld-Tutorial ab.	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_BATTLEGROUNDS_PARTY_MEMBER	Ihr könnt keine Spieler herausfordern, während Ihr Euch in einer Schlachtfeldgruppe befindet.	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_EARLY_ACCESS	Dieser Modus ist erst im Vorabzugang verfügbar.	
+GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_GAME_MODE_LOCKED	Ihr habt diesen Modus noch nicht freigeschaltet.	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_HEADER	Herausfordern	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_APPEARING_OFFLINE	Ihr könnt {0} im Moment nicht herausfordern. Ihr werdet als offline angezeigt.	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_UNAVAILABLE	Ihr könnt {0} im Moment nicht herausfordern. Bitte kehrt ins Hauptmenü zurück.	0=player name
@@ -495,7 +497,8 @@ GLOBAL_FRIENDLIST_CHALLENGE_MENU_CLASSIC_DUEL_BUTTON	Klassik
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_DUEL_BUTTON	Duell	
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_HEADER_FRIEND	Fordert <color=#61C8E8>{0}</color> heraus zu ...	0=battletag
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_HEADER_NONFRIEND	Fordert {0} heraus zu ...	0=battletag
-GLOBAL_FRIENDLIST_CHALLENGE_MENU_HEARTHSTONE_BUTTON	Hearthstone ...	
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_HEARTHSTONE_BUTTON	Hearthstone	
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_HEARTHSTONE_EXTENDED_MENU_BUTTON	Hearthstone ...	
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_OPTIONS_BUTTON	Optionen ...	
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_REMOVE_BUTTON	Freund entfernen ...	
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_REPORT_BUTTON	Melden ...	
@@ -642,6 +645,8 @@ GLOBAL_KEYWORD_DEATHBLOW_TEXT	Ein Effekt tritt in Kraft, wenn die Karte einen Ch
 GLOBAL_KEYWORD_DEATHRATTLE	Todesröcheln	
 GLOBAL_KEYWORD_DEATHRATTLE_TEXT	Ein Effekt tritt in Kraft, wenn die Karte zerstört wird.	
 GLOBAL_KEYWORD_DISCOVER	Entdecken	
+GLOBAL_KEYWORD_DISCOVER_MERC	Entdecken	
+GLOBAL_KEYWORD_DISCOVER_MERC_TEXT	Wählt eine von drei Fähigkeiten und setzt sie in diesem Zug ein.	
 GLOBAL_KEYWORD_DISCOVER_TEXT	Wählt eine von drei Karten und erhaltet sie auf die Hand.	
 GLOBAL_KEYWORD_DIVINE_SHIELD	Gottesschild	
 GLOBAL_KEYWORD_DIVINE_SHIELD_REF_TEXT	Der erste Schaden, den ein Diener mit Gottes[d]schild erleidet, wird ignoriert.	
@@ -672,6 +677,8 @@ GLOBAL_KEYWORD_ENRAGED_TOOLTIP	Wutanfall
 GLOBAL_KEYWORD_ENRAGED_TOOLTIP_TEXT	Wenn er verletzt ist, hat dieser Diener eine zusätzliche Fähigkeit.	
 GLOBAL_KEYWORD_EVILZUG	Lakai	
 GLOBAL_KEYWORD_EVILZUG_TEXT	Diener mit Kampfschrei, der 1 Mana kostet.	
+GLOBAL_KEYWORD_EXPLORER_MERC	Forscher	
+GLOBAL_KEYWORD_EXPLORER_MERC_TEXT	Zu den Forschern gehören: Reno, Brann, Elise, Finley und der Mutierte Forscher.	
 GLOBAL_KEYWORD_FATIGUE	Erschöpfung	
 GLOBAL_KEYWORD_FATIGUE_TEXT	Schaden, der beim Ziehen aus einem leeren Deck erlitten wird.	
 GLOBAL_KEYWORD_FLOOPY	Flubbidinius Flurp	
@@ -697,6 +704,10 @@ GLOBAL_KEYWORD_HORDE_TEXT	Zur Horde gehören: Blutelfen, Goblins, Halborcs, Oger
 GLOBAL_KEYWORD_IMMUNE	Immun	
 GLOBAL_KEYWORD_IMMUNE_REF_TEXT	Charaktere, die immun sind, können nicht verletzt werden.	
 GLOBAL_KEYWORD_IMMUNE_TEXT	Kann nicht verletzt werden.	
+GLOBAL_KEYWORD_INFUSE	Durchfluten	
+GLOBAL_KEYWORD_INFUSE_TEXT	Wird nach dem Tod von X befreundeten Dienern auf der Hand aufgewertet.	
+GLOBAL_KEYWORD_INFUSED	Durchflutet	
+GLOBAL_KEYWORD_INFUSED_TEXT	Wurde nach dem Tod von X befreundeten Dienern auf der Hand aufgewertet.	
 GLOBAL_KEYWORD_INSPIRE	Inspiration	
 GLOBAL_KEYWORD_INSPIRE_TEXT	Löst nach dem Einsatz Eurer Heldenfähigkeit einen Effekt aus.	
 GLOBAL_KEYWORD_JADE_GOLEM	Jadegolem	

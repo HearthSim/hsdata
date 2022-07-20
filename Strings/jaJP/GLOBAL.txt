@@ -211,7 +211,7 @@ GLOBAL_CARD_SET_OG_SEARCHABLE_SHORTHAND_NAMES	tog wotg wog 旧神  ささやき 
 GLOBAL_CARD_SET_OG_SHORT	旧神	
 GLOBAL_CARD_SET_PROMO	プロモ	
 GLOBAL_CARD_SET_REV	ナスリア城殺人事件	
-GLOBAL_CARD_SET_REV_SEARCHABLE_SHORTHAND_NAMES	mcn rev Castle Nathria ナスリア城 ナスリア 殺人事件 殺人	
+GLOBAL_CARD_SET_REV_SEARCHABLE_SHORTHAND_NAMES	mcn cn rev Castle Nathria ナスリア城 ナスリア 殺人事件 殺人	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_REV_SHORT	ナスリア城	
 GLOBAL_CARD_SET_SCH	魔法学院スクロマンス	
 GLOBAL_CARD_SET_SCH_SEARCHABLE_SHORTHAND_NAMES	魔法学院 スクロマンス scholo sa	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
@@ -244,6 +244,7 @@ GLOBAL_CARDTYPE_ENCHANTMENT	魔力付与
 GLOBAL_CARDTYPE_HERO	ヒーロー	
 GLOBAL_CARDTYPE_HEROPOWER	ヒーローパワー	
 GLOBAL_CARDTYPE_ITEM	アイテム	
+GLOBAL_CARDTYPE_LOCATION	場所	
 GLOBAL_CARDTYPE_MINION	ミニオン	
 GLOBAL_CARDTYPE_SPELL	呪文	
 GLOBAL_CARDTYPE_TOKEN	トークン	
@@ -370,9 +371,9 @@ GLOBAL_ERROR_GAME_OPPONENT_TIMEOUT	対戦相手が接続に失敗したため、
 GLOBAL_ERROR_GENERIC_HEADER	エラー	
 GLOBAL_ERROR_INACTIVITY_KICK	あんたが最後にハースストーンの操作をしてからずいぶん経ったんで、通信が切断されたぞ。用事が済んだらゲームを再起動してくれ！	
 GLOBAL_ERROR_NETWORK_ACCOUNT_BANNED	あなたのアカウントは停止されました。	
-GLOBAL_ERROR_NETWORK_ACCOUNT_CURFEW_REACHED	[未成年者のゲーム依存防止] 国内の関係法令により、未成年のプレイヤーは午後22時から翌日の午前8時までログインできません。	
+GLOBAL_ERROR_NETWORK_ACCOUNT_CURFEW_REACHED	未成年者のゲームプレイ時間を規制する関係法令により、現在ログインできません。ビデオゲームをプレイする際はバランスの取れた健全な生活を維持されますようお願いいたします。詳細はこちらをご覧ください：https://www.battlenet.com.cn/support/zh/article/210633	
 GLOBAL_ERROR_NETWORK_ACCOUNT_INVALID_NID	あんたには悪いが、実名認証を通過するまでは先には進めないんだ。詳しくは、https://www.battlenet.com.cn/support/zh/article/210633 を見てくれ。	
-GLOBAL_ERROR_NETWORK_ACCOUNT_PLAYTIME_EXCEEDED	[未成年者のゲーム依存防止] 国内の関係法令により、未成年のプレイヤーは午後22時から翌日の午前8時までログインできません。未成年のプレイヤーの1日のオンライン時間は1.5時間を超えてはなりません。今日のあなたのオンライン時間は上限に達しました。ゲームの時間は生活に支障をきたさない範囲にしましょう。	
+GLOBAL_ERROR_NETWORK_ACCOUNT_PLAYTIME_EXCEEDED	未成年者のゲームプレイ時間を規制する関係法令により、現在ログインできません。ビデオゲームをプレイする際はバランスの取れた健全な生活を維持されますようお願いいたします。詳細はこちらをご覧ください：https://www.battlenet.com.cn/support/zh/article/210633	
 GLOBAL_ERROR_NETWORK_ACCOUNT_SUSPENDED	あなたのアカウントは凍結されました。	
 GLOBAL_ERROR_NETWORK_ADMIN_KICKED	Blizzardのサービスから切断されました。再接続するためにハースストーンを再起動してください。	
 GLOBAL_ERROR_NETWORK_ADVENTURE_RECONNECT_TIMEOUT	ゲームが保存されたぞ。ハースストーンを再起動してゲームを再開してくれ。	
@@ -466,6 +467,7 @@ GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_AVAILABLE	{0}にハースストーンの対�
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_BATTLEGROUNDS_LOCKED	バトルグラウンドのチュートリアルを完了すると解禁されるぞ。	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_BATTLEGROUNDS_PARTY_MEMBER	バトルグラウンドのパーティにいる時は親善試合を申し込めないぞ。	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_EARLY_ACCESS	現在このモードは早期アクセス版だ。	
+GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_GAME_MODE_LOCKED	まだこのモードをアンロックしていないぞ。	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_HEADER	親善試合	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_APPEARING_OFFLINE	オフライン表示になっているため、{0} と対戦することができません。	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_UNAVAILABLE	今、{0}には挑戦できないぞ。メインメニュー画面に戻ってくれ。	0=player name
@@ -495,7 +497,8 @@ GLOBAL_FRIENDLIST_CHALLENGE_MENU_CLASSIC_DUEL_BUTTON	クラシック
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_DUEL_BUTTON	対戦	
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_HEADER_FRIEND	<color=#61C8E8>{0}</color>に挑戦…	0=battletag
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_HEADER_NONFRIEND	{0}に挑戦…	0=battletag
-GLOBAL_FRIENDLIST_CHALLENGE_MENU_HEARTHSTONE_BUTTON	ハースストーン…	
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_HEARTHSTONE_BUTTON	ハースストーン	
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_HEARTHSTONE_EXTENDED_MENU_BUTTON	ハースストーン…	
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_OPTIONS_BUTTON	その他	
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_REMOVE_BUTTON	友達から削除	
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_REPORT_BUTTON	通報	
@@ -642,6 +645,8 @@ GLOBAL_KEYWORD_DEATHBLOW_TEXT	こいつはキャラクターを倒した時に�
 GLOBAL_KEYWORD_DEATHRATTLE	断末魔	
 GLOBAL_KEYWORD_DEATHRATTLE_TEXT	死亡時に何らかの効果を発生させる。	
 GLOBAL_KEYWORD_DISCOVER	発見	
+GLOBAL_KEYWORD_DISCOVER_MERC	発見	
+GLOBAL_KEYWORD_DISCOVER_MERC_TEXT	3つの能力から、このターンに使用する1つを選ぶ。	
 GLOBAL_KEYWORD_DISCOVER_TEXT	3枚の中から手札に加えるカードを1枚選んでくれ。	
 GLOBAL_KEYWORD_DIVINE_SHIELD	聖なる盾	
 GLOBAL_KEYWORD_DIVINE_SHIELD_REF_TEXT	聖なる盾を持つミニオンは、最初に受けるダメージを無視できる。	
@@ -672,6 +677,8 @@ GLOBAL_KEYWORD_ENRAGED_TOOLTIP	激怒
 GLOBAL_KEYWORD_ENRAGED_TOOLTIP_TEXT	このミニオンは、ダメージを受けた状態になると新しい能力が発動する。	
 GLOBAL_KEYWORD_EVILZUG	悪の手先	
 GLOBAL_KEYWORD_EVILZUG_TEXT	悪の手先はコスト1のミニオンで、雄叫びを持つ。	
+GLOBAL_KEYWORD_EXPLORER_MERC	探検家	
+GLOBAL_KEYWORD_EXPLORER_MERC_TEXT	「探検家」には、レノ、ブラン、エリーズ、フィンレー、融合体の探検家が含まれる。	
 GLOBAL_KEYWORD_FATIGUE	疲労	
 GLOBAL_KEYWORD_FATIGUE_TEXT	空のデッキからカードを引こうとした際に受けるダメージ。	
 GLOBAL_KEYWORD_FLOOPY	[x]プルンプルン・\nフループ	
@@ -697,6 +704,10 @@ GLOBAL_KEYWORD_HORDE_TEXT	「ホード」にはブラッドエルフ、ゴブリ
 GLOBAL_KEYWORD_IMMUNE	無敵	
 GLOBAL_KEYWORD_IMMUNE_REF_TEXT	無敵のキャラクターはダメージを受けない。	
 GLOBAL_KEYWORD_IMMUNE_TEXT	ダメージを受けない。	
+GLOBAL_KEYWORD_INFUSE	吸魂	
+GLOBAL_KEYWORD_INFUSE_TEXT	手札にある時、味方のミニオンがX体死ぬとアップグレード。	
+GLOBAL_KEYWORD_INFUSED	吸魂態	
+GLOBAL_KEYWORD_INFUSED_TEXT	手札にある時に味方のミニオンがX体死んでアップグレードした。	
 GLOBAL_KEYWORD_INSPIRE	激励	
 GLOBAL_KEYWORD_INSPIRE_TEXT	君がヒーローパワーを使うと、その直後に何らかの効果を発生させる。	
 GLOBAL_KEYWORD_JADE_GOLEM	翡翠のゴーレム	

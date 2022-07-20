@@ -211,7 +211,7 @@ GLOBAL_CARD_SET_OG_SEARCHABLE_SHORTHAND_NAMES	tog wotog wog dta mddta da dieux	T
 GLOBAL_CARD_SET_OG_SHORT	Dieux très anciens	
 GLOBAL_CARD_SET_PROMO	Promo	
 GLOBAL_CARD_SET_REV	Meurtre au château Nathria	
-GLOBAL_CARD_SET_REV_SEARCHABLE_SHORTHAND_NAMES	mcn cn rev	
+GLOBAL_CARD_SET_REV_SEARCHABLE_SHORTHAND_NAMES	mcn cn rev	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_REV_SHORT	Château Nathria	
 GLOBAL_CARD_SET_SCH	L’Académie Scholomance	
 GLOBAL_CARD_SET_SCH_SEARCHABLE_SHORTHAND_NAMES	scholo as	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
@@ -244,6 +244,7 @@ GLOBAL_CARDTYPE_ENCHANTMENT	Enchantement
 GLOBAL_CARDTYPE_HERO	Héros	
 GLOBAL_CARDTYPE_HEROPOWER	Pouvoir héroïque	
 GLOBAL_CARDTYPE_ITEM	Objet	
+GLOBAL_CARDTYPE_LOCATION	Lieu	
 GLOBAL_CARDTYPE_MINION	Serviteur	
 GLOBAL_CARDTYPE_SPELL	Sort	
 GLOBAL_CARDTYPE_TOKEN	Jeton	
@@ -370,9 +371,9 @@ GLOBAL_ERROR_GAME_OPPONENT_TIMEOUT	Le match n’a pas pu être lancé car votre 
 GLOBAL_ERROR_GENERIC_HEADER	Erreur	
 GLOBAL_ERROR_INACTIVITY_KICK	Vous avez été déconnecté de Hearthstone car vous êtes inactif depuis un moment. Relancez le jeu quand vous serez prêt !	
 GLOBAL_ERROR_NETWORK_ACCOUNT_BANNED	Votre compte a été banni.	
-GLOBAL_ERROR_NETWORK_ACCOUNT_CURFEW_REACHED	[Anti-addiction] Conformément aux lois et réglementations applicables, les joueurs mineurs ne peuvent pas se connecter au jeu de 22 h à 8 h du matin le jour suivant.	
+GLOBAL_ERROR_NETWORK_ACCOUNT_CURFEW_REACHED	根据相关法律法规对未成年人游戏时间的要求，您目前无法登录游戏。请合理安排游戏时间，劳逸结合。了解详情 https://www.battlenet.com.cn/support/zh/article/210633	
 GLOBAL_ERROR_NETWORK_ACCOUNT_INVALID_NID	Impossible de continuer tant que vous n’avez pas effectué la vérification de votre nom réel. Veuillez consulter la page https://www.battlenet.com.cn/support/zh/article/210633 pour plus d’informations.	
-GLOBAL_ERROR_NETWORK_ACCOUNT_PLAYTIME_EXCEEDED	[Anti-addiction] Conformément aux lois et réglementations applicables, le temps de connexion quotidienne pour les joueurs mineurs ne doit pas excéder 1 h 30. Votre temps de connexion a atteint la limite quotidienne. Veuillez organiser votre temps de jeu de manière raisonnable.	
+GLOBAL_ERROR_NETWORK_ACCOUNT_PLAYTIME_EXCEEDED	根据相关法律法规对未成年人游戏时间的要求，您目前无法登录游戏。请合理安排游戏时间，劳逸结合。了解详情 https://www.battlenet.com.cn/support/zh/article/210633	
 GLOBAL_ERROR_NETWORK_ACCOUNT_SUSPENDED	Votre compte a été suspendu.	
 GLOBAL_ERROR_NETWORK_ADMIN_KICKED	Vous avez été déconnecté des services Blizzard. Veuillez relancer Hearthstone pour vous reconnecter.	
 GLOBAL_ERROR_NETWORK_ADVENTURE_RECONNECT_TIMEOUT	Votre partie a été sauvegardée. Relancez Hearthstone pour reprendre là où vous en étiez.	
@@ -466,6 +467,7 @@ GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_AVAILABLE	Défiez {0} pour une partie amicale
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_BATTLEGROUNDS_LOCKED	Terminez le didacticiel du mode champs de bataille pour débloquer cette fonctionnalité.	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_BATTLEGROUNDS_PARTY_MEMBER	Impossible d’envoyer un défi en faisant partie d’un groupe de champs de bataille.	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_EARLY_ACCESS	Ce mode est actuellement disponible en accès anticipé.	
+GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_GAME_MODE_LOCKED	Vous n’avez pas encore débloqué ce mode.	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_HEADER	Défi amical	
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_APPEARING_OFFLINE	Vous ne pouvez pas défier {0} pour le moment. Votre statut est réglé sur Déconnecté(e).	0=player name
 GLOBAL_FRIENDLIST_CHALLENGE_BUTTON_IM_UNAVAILABLE	Vous ne pouvez pas défier {0} pour le moment. Retournez au menu principal.	0=player name
@@ -495,7 +497,8 @@ GLOBAL_FRIENDLIST_CHALLENGE_MENU_CLASSIC_DUEL_BUTTON	Classique
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_DUEL_BUTTON	Duel	
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_HEADER_FRIEND	Défiez <color=#61C8E8>{0}</color> à…	0=battletag
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_HEADER_NONFRIEND	Défiez {0} à…	0=battletag
-GLOBAL_FRIENDLIST_CHALLENGE_MENU_HEARTHSTONE_BUTTON	Hearthstone…	
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_HEARTHSTONE_BUTTON	Hearthstone	
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_HEARTHSTONE_EXTENDED_MENU_BUTTON	Hearthstone…	
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_OPTIONS_BUTTON	Options…	
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_REMOVE_BUTTON	Supprimer le contact…	
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_REPORT_BUTTON	Signaler…	
@@ -642,6 +645,8 @@ GLOBAL_KEYWORD_DEATHBLOW_TEXT	Fait quelque chose si la carte tue un personnage.
 GLOBAL_KEYWORD_DEATHRATTLE	Râle d’agonie	
 GLOBAL_KEYWORD_DEATHRATTLE_TEXT	Fait quelque chose à sa mort.	
 GLOBAL_KEYWORD_DISCOVER	Découverte	
+GLOBAL_KEYWORD_DISCOVER_MERC	Découverte	
+GLOBAL_KEYWORD_DISCOVER_MERC_TEXT	Choisissez l’une des trois capacités à lancer pendant ce tour.	
 GLOBAL_KEYWORD_DISCOVER_TEXT	Choisissez l’une des trois cartes et ajoutez-la à votre main.	
 GLOBAL_KEYWORD_DIVINE_SHIELD	Bouclier divin	
 GLOBAL_KEYWORD_DIVINE_SHIELD_REF_TEXT	La première fois qu’un serviteur protégé subit des dégâts, il les ignore.	
@@ -672,6 +677,8 @@ GLOBAL_KEYWORD_ENRAGED_TOOLTIP	Accès de rage
 GLOBAL_KEYWORD_ENRAGED_TOOLTIP_TEXT	Quand il subit des dégâts, ce serviteur dispose d’un nouveau pouvoir.	
 GLOBAL_KEYWORD_EVILZUG	Laquais	
 GLOBAL_KEYWORD_EVILZUG_TEXT	Les laquais sont des serviteurs à 1_cristal de mana avec Cri de guerre.	
+GLOBAL_KEYWORD_EXPLORER_MERC	Explorateur	
+GLOBAL_KEYWORD_EXPLORER_MERC_TEXT	Les explorateurs comprennent : Reno, Brann, Élise, Finley et l’amalgame explorateur.	
 GLOBAL_KEYWORD_FATIGUE	Fatigue	
 GLOBAL_KEYWORD_FATIGUE_TEXT	Vous subissez des dégâts quand vous piochez dans un deck vide.	
 GLOBAL_KEYWORD_FLOOPY	Floup le Flasquagineux	
@@ -697,6 +704,10 @@ GLOBAL_KEYWORD_HORDE_TEXT	La Horde comprend les Elfes de sang, les Gobelins, les
 GLOBAL_KEYWORD_IMMUNE	Insensible	
 GLOBAL_KEYWORD_IMMUNE_REF_TEXT	Les personnages insensibles ne peuvent pas être blessés.	
 GLOBAL_KEYWORD_IMMUNE_TEXT	Ne peut pas subir de dégâts.	
+GLOBAL_KEYWORD_INFUSE	Imprégnation	
+GLOBAL_KEYWORD_INFUSE_TEXT	S’améliore dans la main une fois que X serviteurs alliés sont morts.	
+GLOBAL_KEYWORD_INFUSED	Imprégné	
+GLOBAL_KEYWORD_INFUSED_TEXT	Amélioration en main après la mort de X serviteurs alliés.	
 GLOBAL_KEYWORD_INSPIRE	Exaltation	
 GLOBAL_KEYWORD_INSPIRE_TEXT	Fait quelque chose quand vous utilisez votre pouvoir héroïque.	
 GLOBAL_KEYWORD_JADE_GOLEM	Golem de jade	
