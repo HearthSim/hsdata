@@ -1,4 +1,5 @@
 TAG	TEXT	COMMENT
+BATTLEGROUNDS_PROGRESSION_QUEST_TIME_UNTIL_NEXT	Nova missão em\n{0}	
 GLOBAL_AADC_BUTTON_PRIVACY	Privacidade	
 GLOBAL_AADC_BUTTON_PRIVACYSETTINGS	Configurações de Privacidade	
 GLOBAL_AADC_CHATSETTINGS_DISABLEDESCRIPTION	Se desativar o bate-papo, você não poderá mandar nem receber mensagens de amigos.	
@@ -240,6 +241,8 @@ GLOBAL_CARD_SET_WILD_EVENT	Evento do Livre
 GLOBAL_CARD_SET_WILD_EVENT_SHORT	Evento do Livre	
 GLOBAL_CARD_SET_YOD	O Despertar de Galakrond	
 GLOBAL_CARD_SET_YOD_SHORT	O Despertar de Galakrond	
+GLOBAL_CARDTYPE_BACONHEROBUDDY	Camarada de Herói	
+GLOBAL_CARDTYPE_BACONQUESTREWARD	Recompensa	
 GLOBAL_CARDTYPE_ENCHANTMENT	Encantamento	
 GLOBAL_CARDTYPE_HERO	Herói	
 GLOBAL_CARDTYPE_HEROPOWER	Poder Heroico	
@@ -371,9 +374,9 @@ GLOBAL_ERROR_GAME_OPPONENT_TIMEOUT	O jogo falhou ao iniciar porque seu oponente 
 GLOBAL_ERROR_GENERIC_HEADER	Erro	
 GLOBAL_ERROR_INACTIVITY_KICK	Sua última ação no Hearthstone foi algum tempo atrás e sua conexão foi encerrada. Reinicie o jogo para voltar!	
 GLOBAL_ERROR_NETWORK_ACCOUNT_BANNED	Sua conta foi banida.	
-GLOBAL_ERROR_NETWORK_ACCOUNT_CURFEW_REACHED	根据相关法律法规对未成年人游戏时间的要求，您目前无法登录游戏。请合理安排游戏时间，劳逸结合。了解详情 https://www.battlenet.com.cn/support/zh/article/210633	
+GLOBAL_ERROR_NETWORK_ACCOUNT_CURFEW_REACHED	Você não pode se conectar devido a restrições legais de tempo de jogo para menores de idade. Procure manter um estilo de vida saudável enquanto joga videogame. Saiba mais: https://www.battlenet.com.cn/support/zh/article/210633	
 GLOBAL_ERROR_NETWORK_ACCOUNT_INVALID_NID	Infelizmente, você só pode prosseguir depois de passar por uma verificação de nome real. Acesse https://www.battlenet.com.cn/support/zh/article/210633 para mais detalhes.	
-GLOBAL_ERROR_NETWORK_ACCOUNT_PLAYTIME_EXCEEDED	根据相关法律法规对未成年人游戏时间的要求，您目前无法登录游戏。请合理安排游戏时间，劳逸结合。了解详情 https://www.battlenet.com.cn/support/zh/article/210633	
+GLOBAL_ERROR_NETWORK_ACCOUNT_PLAYTIME_EXCEEDED	Você não pode se conectar devido a restrições legais de tempo de jogo para menores de idade. Procure manter um estilo de vida saudável enquanto joga videogame. Saiba mais: https://www.battlenet.com.cn/support/zh/article/210633	
 GLOBAL_ERROR_NETWORK_ACCOUNT_SUSPENDED	Sua conta foi suspensa.	
 GLOBAL_ERROR_NETWORK_ADMIN_KICKED	Você foi removido do serviço da Blizzard. Inicie Hearthstone novamente para se reconectar.	
 GLOBAL_ERROR_NETWORK_ADVENTURE_RECONNECT_TIMEOUT	Seu jogo foi salvo. Reinicie Hearthstone para continuar de onde você parou.	
@@ -609,6 +612,10 @@ GLOBAL_KEYWORD_AVENGE	Vingar (X)
 GLOBAL_KEYWORD_AVENGE_TEXT	Faz algo depois que X lacaios aliados morrem.	
 GLOBAL_KEYWORD_BACON_FREEZE	Congelar	
 GLOBAL_KEYWORD_BACON_FREEZE_TEXT	Lacaios congelados ficam na loja no turno seguinte.	
+GLOBAL_KEYWORD_BACON_QUEST	Missão	
+GLOBAL_KEYWORD_BACON_QUEST_TEXT	Conclua para ganhar uma recompensa.	
+GLOBAL_KEYWORD_BACON_STEALTH	Furtividade	
+GLOBAL_KEYWORD_BACON_STEALTH_TEXT	Não pode ser atacado até atacar.	
 GLOBAL_KEYWORD_BATTLECRY	Grito de Guerra	
 GLOBAL_KEYWORD_BATTLECRY_TEXT	Faz alguma coisa ao ser colocado em jogo a partir de sua mão. 	
 GLOBAL_KEYWORD_BATTLECRY_TEXT_MERC	Faz alguma coisa ao ser jogado da sua mão ou evocado por um Mercenário.	
@@ -646,8 +653,8 @@ GLOBAL_KEYWORD_DEATHRATTLE	Último Suspiro
 GLOBAL_KEYWORD_DEATHRATTLE_TEXT	Faz alguma coisa quando morre.	
 GLOBAL_KEYWORD_DISCOVER	Descubra	
 GLOBAL_KEYWORD_DISCOVER_MERC	Descobrir	
-GLOBAL_KEYWORD_DISCOVER_MERC_TEXT	Escolha uma de três habilidades para lançar neste turno.	
 GLOBAL_KEYWORD_DISCOVER_TEXT	Escolha um entre três cards para acrescentar à sua mão	
+GLOBAL_KEYWORD_DISCOVER_TEXT_MERC	Escolha uma de três habilidades para lançar neste turno.	
 GLOBAL_KEYWORD_DIVINE_SHIELD	Escudo Divino	
 GLOBAL_KEYWORD_DIVINE_SHIELD_REF_TEXT	Um lacaio protegido ignora dano recebido pela primeira vez.	
 GLOBAL_KEYWORD_DIVINE_SHIELD_TEXT	Na primeira vez em que este lacaio receber dano, ignore o dano.	
@@ -1068,6 +1075,7 @@ GLOBAL_PROGRESSION_ACHIEVEMENT_COMPLETION	{0} concluído
 GLOBAL_PROGRESSION_ACHIEVEMENT_COMPLETION_DATE	{0:yyyy/MM/dd}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
 GLOBAL_PROGRESSION_ACHIEVEMENT_COMPLETION_PERCENTAGE	{0}%	
 GLOBAL_PROGRESSION_ACHIEVEMENT_SUBCATEGORY_NAME	{0} - {1}	
+GLOBAL_PROGRESSION_BATTLEGROUNDS_QUESTS_POPUP_TITLE	Suas missões semanais	
 GLOBAL_PROGRESSION_DAILY_QUESTS_POPUP_TITLE	Suas Missões	
 GLOBAL_PROGRESSION_POINTS	{0} Pontos de Conquista	
 GLOBAL_PROGRESSION_PROFILE_ARENA_STAT_TOOLTIP	Maior número de vitórias alcançado na Arena.	
