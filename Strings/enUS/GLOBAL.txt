@@ -164,6 +164,7 @@ GLOBAL_MINI_SET_DMF	Darkmoon Races
 GLOBAL_MINI_SET_BAR	Wailing Caverns
 GLOBAL_MINI_SET_SW	Deadmines
 GLOBAL_MINI_SET_ONY	Onyxia's Lair
+GLOBAL_MINI_SET_REV	Maw and Disorder
 GLOBAL_CARDTYPE_ENCHANTMENT	Enchantment
 GLOBAL_CARDTYPE_HERO	Hero
 GLOBAL_CARDTYPE_HEROPOWER	HeroPower
@@ -298,6 +299,8 @@ GLOBAL_KEYWORD_OVERLOAD_TEXT	You have X less mana next turn.
 GLOBAL_KEYWORD_OVERLOAD_REF_TEXT	Cards with Overload limit your mana next turn.
 GLOBAL_KEYWORD_SILENCE	Silence
 GLOBAL_KEYWORD_SILENCE_TEXT	Removes all card text and enchantments.
+GLOBAL_KEYWORD_SILENCE_MERC	Silence
+GLOBAL_KEYWORD_SILENCE_MERC_TEXT	Removes all card text, equipment, treasure, and enchantments.
 GLOBAL_KEYWORD_COUNTER	Counter
 GLOBAL_KEYWORD_COUNTER_TEXT	A card that is Countered has no effect.
 GLOBAL_KEYWORD_AUTOCAST	Auto-cast
@@ -597,6 +600,7 @@ GLOBAL_FRIEND_CHALLENGE_TITLE	Friendly
 GLOBAL_FRIEND_CHALLENGE_HEADER	Challenge
 GLOBAL_FRIEND_CHALLENGE_BODY1	You've been challenged by:
 GLOBAL_FRIEND_CHALLENGE_BODY_BACON	You've been invited to join a\nBattlegrounds party by:
+GLOBAL_FRIEND_CHALLENGE_BODY_BATTLEGROUNDS_SUGGESTION	{0} wants to invite their friend to your Battlegrounds party:	0=suggester name
 GLOBAL_FRIEND_CHALLENGE_BODY1_WILD	You've been challenged to a\nWild game by:
 GLOBAL_FRIEND_CHALLENGE_BODY1_STANDARD	You've been challenged to a Standard game by:
 GLOBAL_FRIEND_CHALLENGE_BODY2	Do you accept?
@@ -840,6 +844,10 @@ GLOBAL_FRIENDLIST_BATTLEGROUNDS_TOOLTIP_INVITE_HEADER	Invite
 GLOBAL_FRIENDLIST_BATTLEGROUNDS_PARTY_INVITE	Invite to Party
 GLOBAL_FRIENDLIST_BATTLEGROUNDS_PARTY_KICK	Kick from Party
 GLOBAL_FRIENDLIST_BATTLEGROUNDS_TOOLTIP_INVITE_BODY	Invite {0} to play Battlegrounds with you.	0=player name
+GLOBAL_FRIENDLIST_BATTLEGROUNDS_TOOLTIP_INVITE_FULL_PARTY_HEADER	Full Party
+GLOBAL_FRIENDLIST_BATTLEGROUNDS_TOOLTIP_INVITE_FULL_PARTY_BODY	8 players have already been invited to this party.
+GLOBAL_FRIENDLIST_BATTLEGROUNDS_TOOLTIP_INVITE_ALREADY_SENT_HEADER	Already Sent
+GLOBAL_FRIENDLIST_BATTLEGROUNDS_TOOLTIP_INVITE_ALREADY_SENT_BODY	You have already invited this player.
 GLOBAL_FRIENDLIST_BATTLEGROUNDS_TOOLTIP_KICK_HEADER	Kick
 GLOBAL_FRIENDLIST_BATTLEGROUNDS_TOOLTIP_KICK_BODY	Remove {0} from your Battlegrounds party.	0=player name
 GLOBAL_FRIENDLIST_REPORT_SELECT_HEADER_FRIEND	Report <color=#61C8E8>{0}</color>	0=battletag
@@ -903,6 +911,7 @@ GLOBAL_PROGRAMNAME_STARCRAFT2	StarCraft II
 GLOBAL_PROGRAMNAME_PHOENIX	Online
 GLOBAL_PROGRAMNAME_HEROES	Heroes of the Storm
 GLOBAL_PROGRAMNAME_OVERWATCH	Overwatch
+GLOBAL_PROGRAMNAME_OVERWATCH2	Overwatch 2
 GLOBAL_PROGRAMNAME_DESTINY2	Destiny 2
 GLOBAL_PROGRAMNAME_BLACKOPS4	Black Ops 4
 GLOBAL_PROGRAMNAME_WARCRAFT3	Warcraft III: Reforged
@@ -1388,7 +1397,7 @@ GLOBAL_KEYWORD_ATTACK_TEXT_MERC	Attack a character and take damage from the enem
 GLOBAL_KEYWORD_ATTACK_REF_TEXT_MERC	Attack a character and take damage from the enemy.
 GLOBAL_KEYWORD_SPELLCOMBO_MERC	Spell Combo
 GLOBAL_KEYWORD_SPELLCOMBO_TEXT_MERC	A bonus if another friendly Merc played a spell of the specified school this turn. 
-GLOBAL_KEYWORD_SPELLCOMBO_REF_TEXT_MERC	A bonus if another friendly Merc played a spell of the specified school this turn. 
+GLOBAL_KEYWORD_SPELLCOMBO_REF_TEXT_MERC	A bonus if another friendly Merc played a spell of the specified school this turn.
 GLOBAL_KEYWORD_DEATHBLOW	Deathblow
 GLOBAL_KEYWORD_DEATHBLOW_TEXT	Does something when it kills a character.
 GLOBAL_KEYWORD_BLEED	Bleed
@@ -1424,3 +1433,5 @@ GLOBAL_KEYWORD_EXPLORER_MERC	Explorer
 GLOBAL_KEYWORD_EXPLORER_MERC_TEXT	Explorers include: Reno, Brann, Elise, Finley and Amalgam Explorer.
 GLOBAL_KEYWORD_DISCOVER_MERC	Discover
 GLOBAL_KEYWORD_DISCOVER_TEXT_MERC	Choose one of three abilities to cast this turn.
+GLOBAL_KEYWORD_CHARGE_MERC	Charge
+GLOBAL_KEYWORD_CHARGE_MERC_TEXT	Attacks a selected target immediately after being summoned.
