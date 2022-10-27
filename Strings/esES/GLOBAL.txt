@@ -214,6 +214,9 @@ GLOBAL_CARD_SET_PROMO	Promoción
 GLOBAL_CARD_SET_REV	Asesinato en el Castillo de Nathria	
 GLOBAL_CARD_SET_REV_SEARCHABLE_SHORTHAND_NAMES	acn cn rev	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_REV_SHORT	Castillo de Nathria	
+GLOBAL_CARD_SET_RLK	Marcha del Rey Exánime	
+GLOBAL_CARD_SET_RLK_SEARCHABLE_SHORTHAND_NAMES	mdre mre re Esto es una lista separada por espacios que indica todas las palabras clave de búsqueda permitidas que pueden utilizarse en la función de búsqueda de texto de la pantalla del gestor de colecciones para limitar las cartas a este conjunto mediante nombres abreviados (nota: también se utiliza el nombre completo anterior para esta función). Las mayúsculas o minúsculas se ignoran.	
+GLOBAL_CARD_SET_RLK_SHORT	Rey Exánime	
 GLOBAL_CARD_SET_SCH	Academia Scholomance	
 GLOBAL_CARD_SET_SCH_SEARCHABLE_SHORTHAND_NAMES	academia sc as	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_SCH_SHORT	Scholomance	
@@ -286,6 +289,7 @@ GLOBAL_CLICK_TO_CONTINUE	Haz clic para continuar
 GLOBAL_CLICK_TO_CONTINUE_TOUCH	Toca la pantalla para continuar	
 GLOBAL_COLLECTION_DIAMOND	Diamante	
 GLOBAL_COLLECTION_GOLDEN	dorada	
+GLOBAL_COLLECTION_SIGNATURE	Distintivas	
 GLOBAL_COMMA_SEPARATOR	,	
 GLOBAL_CONCEDE	Rendirse	
 GLOBAL_CONFIRM	Confirmar	
@@ -338,6 +342,10 @@ GLOBAL_DATETIME_SPLASHSCREEN_MINUTES	{0} |4(minuto,minutos)
 GLOBAL_DATETIME_SPLASHSCREEN_MONTH	> 1 mes	
 GLOBAL_DATETIME_SPLASHSCREEN_SECONDS	< 1 min	
 GLOBAL_DATETIME_SPLASHSCREEN_WEEKS	{0} |4(semana,semanas)	
+GLOBAL_DATETIME_TIMER_DAYS_HOURS	{0} d {1} h	0=days 1=hours
+GLOBAL_DATETIME_TIMER_HOURS_MINUTES	{0} h {1} min	0=hours 1=minutes
+GLOBAL_DATETIME_TIMER_MINUTES	{0} min	0=minutes
+GLOBAL_DATETIME_TIMER_SECONDS	{0} s	0=seconds
 GLOBAL_DATETIME_UNLOCKS_SOON_WEEKS	Se desbloquea en {0} |4(semana,semanas)	
 GLOBAL_DECK_SHARE_ACCEPT_REQUEST	Compartir	
 GLOBAL_DECK_SHARE_DECLINE_REQUEST	¡Ni hablar!	
@@ -716,8 +724,8 @@ GLOBAL_KEYWORD_HONORABLEKILL_TEXT	Inflige daño letal exacto en tu turno para ob
 GLOBAL_KEYWORD_HORDE	Horda	
 GLOBAL_KEYWORD_HORDE_TEXT	La Horda incluye: elfos de sangre, goblins, medio orcos, ogros, orcos, tauren, trols y no-muertos.	
 GLOBAL_KEYWORD_IMMUNE	Inmune	
-GLOBAL_KEYWORD_IMMUNE_REF_TEXT	No se puede dañar a los personajes inmunes.	
-GLOBAL_KEYWORD_IMMUNE_TEXT	No se puede dañar.	
+GLOBAL_KEYWORD_IMMUNE_REF_TEXT	No puede ser objetivo de enemigos ni recibir daño.	
+GLOBAL_KEYWORD_IMMUNE_TEXT	No puede ser objetivo de enemigos ni recibir daño.	
 GLOBAL_KEYWORD_INFUSE	Imbuir	
 GLOBAL_KEYWORD_INFUSE_TEXT	Mejora en la mano después de que mueran X esbirros amistosos.	
 GLOBAL_KEYWORD_INFUSED	Imbuida	
@@ -937,6 +945,7 @@ GLOBAL_LANGUAGE_NATIVE_ZHCN	中文（简体）	The name of the language IN THAT 
 GLOBAL_LANGUAGE_NATIVE_ZHTW	繁體中文(台灣)	The name of the language IN THAT LANGUAGE.
 GLOBAL_LEAVE	Abandonar	
 GLOBAL_LEAVE_SPECTATOR_MODE	Abandonar	
+GLOBAL_LEAVE_TUTORIAL	Abandonar tutorial	
 GLOBAL_LETTUCE_LOBBY_TITLE	Elige cómo jugar	
 GLOBAL_LETTUCE_REWARD_BANNER_TEXT	Recompensa de Mercenarios	
 GLOBAL_LOCATIONS	Más información	
@@ -1062,6 +1071,7 @@ GLOBAL_PLAYER_MIGRATION_RESTART_BODY	Hay que actualizar tu cuenta.\nReinicia el 
 GLOBAL_PLAYER_MIGRATION_RESTART_HEADER	Hay que actualizar la cuenta	
 GLOBAL_PLAYER_PLAYER	Jugador	this is the word for generic "Player" - this will be used when there a player's name is unknown at the time.
 GLOBAL_PRACTICE_MAX_LEVEL_REACHED	Nivel máximo en modo Práctica	
+GLOBAL_PROGRAMNAME_ARCADECOLLECTION	Colección arcade de Blizzard	
 GLOBAL_PROGRAMNAME_BLACKOPS4	Black Ops 4	
 GLOBAL_PROGRAMNAME_BLACKOPSCOLDWAR	Black Ops Cold War	
 GLOBAL_PROGRAMNAME_CODVANGUARD	Call of Duty: Vanguard	
@@ -1088,6 +1098,7 @@ GLOBAL_PROGRESSION_ACHIEVEMENT_COMPLETION_PERCENTAGE	{0}%
 GLOBAL_PROGRESSION_ACHIEVEMENT_SUBCATEGORY_NAME	{0} - {1}	
 GLOBAL_PROGRESSION_BATTLEGROUNDS_QUESTS_POPUP_TITLE	Tus misiones semanales	
 GLOBAL_PROGRESSION_DAILY_QUESTS_POPUP_TITLE	Tus misiones	
+GLOBAL_PROGRESSION_EVENT_QUESTS_POPUP_TITLE	Tus misiones de evento	
 GLOBAL_PROGRESSION_POINTS	{0} puntos de logro	
 GLOBAL_PROGRESSION_PROFILE_ARENA_STAT_TOOLTIP	El mayor número de victorias conseguido en la Arena.	
 GLOBAL_PROGRESSION_PROFILE_ARENA_STAT_TOOLTIP_TITLE	Arena	
@@ -1325,7 +1336,7 @@ GLOBAL_SET_ROTATION_ROLLOVER_HEADER	¡Feliz Año Nuevo!
 GLOBAL_SHOW	Mostrar	
 GLOBAL_SHUTDOWN_TOAST	<color=#{0}>Los servicios de Blizzard se cerrarán en {1} min</color>	0=color, 1=minutes
 GLOBAL_SKIP	Saltar	
-GLOBAL_SKIP_TUTORIAL	Abandonar tutorial	
+GLOBAL_SKIP_TUTORIAL	Saltar tutorial	
 GLOBAL_SOCIAL_ALERT_FRIEND_OFFLINE	{0} se ha desconectado.	0=Battletag
 GLOBAL_SOCIAL_TOAST_FRIEND_ACHIEVEMENT	<color=#{0}>{1}</color> ha completado <color=#FFD451>{2}</color>	0=name color,1=player name,2=achievement name
 GLOBAL_SOCIAL_TOAST_FRIEND_ACHIEVEMENT_TIER	<color=#{0}>{1}</color> ha completado <color=#FFD451>{2} (nivel {3})</color>	0=name color,1=player name,2=achievement name,3=tier

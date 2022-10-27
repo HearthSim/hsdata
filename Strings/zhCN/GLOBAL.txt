@@ -214,6 +214,9 @@ GLOBAL_CARD_SET_PROMO	纪念
 GLOBAL_CARD_SET_REV	纳斯利亚堡的悬案	
 GLOBAL_CARD_SET_REV_SEARCHABLE_SHORTHAND_NAMES	mcn cn rev	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_REV_SHORT	纳斯利亚堡	
+GLOBAL_CARD_SET_RLK	巫妖王的进军	
+GLOBAL_CARD_SET_RLK_SEARCHABLE_SHORTHAND_NAMES	mlk	
+GLOBAL_CARD_SET_RLK_SHORT	巫妖王	
 GLOBAL_CARD_SET_SCH	通灵学园	
 GLOBAL_CARD_SET_SCH_SEARCHABLE_SHORTHAND_NAMES	通灵 学园	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_SCH_SHORT	通灵学园	
@@ -286,6 +289,7 @@ GLOBAL_CLICK_TO_CONTINUE	点击继续
 GLOBAL_CLICK_TO_CONTINUE_TOUCH	点击继续	
 GLOBAL_COLLECTION_DIAMOND	钻石	
 GLOBAL_COLLECTION_GOLDEN	金色	
+GLOBAL_COLLECTION_SIGNATURE	异画	
 GLOBAL_COMMA_SEPARATOR	，	
 GLOBAL_CONCEDE	认输	
 GLOBAL_CONFIRM	确认	
@@ -338,6 +342,10 @@ GLOBAL_DATETIME_SPLASHSCREEN_MINUTES	{0}分钟
 GLOBAL_DATETIME_SPLASHSCREEN_MONTH	>1个月	
 GLOBAL_DATETIME_SPLASHSCREEN_SECONDS	<1分钟	
 GLOBAL_DATETIME_SPLASHSCREEN_WEEKS	{0}周	
+GLOBAL_DATETIME_TIMER_DAYS_HOURS	{0}天{1}小时	0=days 1=hours
+GLOBAL_DATETIME_TIMER_HOURS_MINUTES	{0}小时{1}分钟	0=hours 1=minutes
+GLOBAL_DATETIME_TIMER_MINUTES	{0}分钟	0=minutes
+GLOBAL_DATETIME_TIMER_SECONDS	{0}秒	0=seconds
 GLOBAL_DATETIME_UNLOCKS_SOON_WEEKS	{0}周后解锁	
 GLOBAL_DECK_SHARE_ACCEPT_REQUEST	分享	
 GLOBAL_DECK_SHARE_DECLINE_REQUEST	拒绝	
@@ -716,8 +724,8 @@ GLOBAL_KEYWORD_HONORABLEKILL_TEXT	如果这张牌在你的回合中造成了刚�
 GLOBAL_KEYWORD_HORDE	部落	
 GLOBAL_KEYWORD_HORDE_TEXT	部落包括：血精灵、地精、半兽人、食人魔、兽人、牛头人、巨魔和亡灵	
 GLOBAL_KEYWORD_IMMUNE	免疫	
-GLOBAL_KEYWORD_IMMUNE_REF_TEXT	具有免疫的角色不会受到伤害。	
-GLOBAL_KEYWORD_IMMUNE_TEXT	无法对其造成伤害	
+GLOBAL_KEYWORD_IMMUNE_REF_TEXT	无法成为敌方的目标，不会受到敌方伤害。	
+GLOBAL_KEYWORD_IMMUNE_TEXT	无法成为敌方的目标，不会受到敌方伤害。	
 GLOBAL_KEYWORD_INFUSE	注能	
 GLOBAL_KEYWORD_INFUSE_TEXT	此牌在你手中时，在X个友方随从死亡后此牌会升级。	
 GLOBAL_KEYWORD_INFUSED	已注能	
@@ -937,6 +945,7 @@ GLOBAL_LANGUAGE_NATIVE_ZHCN	中文（简体）	The name of the language IN THAT 
 GLOBAL_LANGUAGE_NATIVE_ZHTW	繁體中文(台灣)	The name of the language IN THAT LANGUAGE.
 GLOBAL_LEAVE	离开	
 GLOBAL_LEAVE_SPECTATOR_MODE	离开	
+GLOBAL_LEAVE_TUTORIAL	离开教程	
 GLOBAL_LETTUCE_LOBBY_TITLE	选择游戏方式	
 GLOBAL_LETTUCE_REWARD_BANNER_TEXT	佣兵战纪奖励	
 GLOBAL_LOCATIONS	了解更多	
@@ -1062,6 +1071,7 @@ GLOBAL_PLAYER_MIGRATION_RESTART_BODY	你的账号数据需要更新。\n请重�
 GLOBAL_PLAYER_MIGRATION_RESTART_HEADER	需要账号更新	
 GLOBAL_PLAYER_PLAYER	玩家	this is the word for generic "Player" - this will be used when there a player's name is unknown at the time.
 GLOBAL_PRACTICE_MAX_LEVEL_REACHED	最高练习等级	
+GLOBAL_PROGRAMNAME_ARCADECOLLECTION	Blizzard Arcade Collection	
 GLOBAL_PROGRAMNAME_BLACKOPS4	黑色行动4	
 GLOBAL_PROGRAMNAME_BLACKOPSCOLDWAR	黑色行动冷战	
 GLOBAL_PROGRAMNAME_CODVANGUARD	《使命召唤：先锋》	
@@ -1088,6 +1098,7 @@ GLOBAL_PROGRESSION_ACHIEVEMENT_COMPLETION_PERCENTAGE	{0}%
 GLOBAL_PROGRESSION_ACHIEVEMENT_SUBCATEGORY_NAME	{0} - {1}	
 GLOBAL_PROGRESSION_BATTLEGROUNDS_QUESTS_POPUP_TITLE	你的每周任务	
 GLOBAL_PROGRESSION_DAILY_QUESTS_POPUP_TITLE	你的任务	
+GLOBAL_PROGRESSION_EVENT_QUESTS_POPUP_TITLE	你的活动任务	
 GLOBAL_PROGRESSION_POINTS	{0}点成就点数	
 GLOBAL_PROGRESSION_PROFILE_ARENA_STAT_TOOLTIP	竞技模式中的最高胜场。	
 GLOBAL_PROGRESSION_PROFILE_ARENA_STAT_TOOLTIP_TITLE	竞技模式	
@@ -1325,7 +1336,7 @@ GLOBAL_SET_ROTATION_ROLLOVER_HEADER	新年快乐！
 GLOBAL_SHOW	显示	
 GLOBAL_SHUTDOWN_TOAST	<color=#{0}>暴雪战网服务将于{1}分钟后关闭</color>	0=color, 1=minutes
 GLOBAL_SKIP	跳过	
-GLOBAL_SKIP_TUTORIAL	离开教程	
+GLOBAL_SKIP_TUTORIAL	跳过教程	
 GLOBAL_SOCIAL_ALERT_FRIEND_OFFLINE	{0}下线了。	0=Battletag
 GLOBAL_SOCIAL_TOAST_FRIEND_ACHIEVEMENT	<color=#{0}>{1}</color>完成了<color=#FFD451>{2}</color>	0=name color,1=player name,2=achievement name
 GLOBAL_SOCIAL_TOAST_FRIEND_ACHIEVEMENT_TIER	<color=#{0}>{1}</color>完成了<color=#FFD451>{2}（等级{3}）</color>	0=name color,1=player name,2=achievement name,3=tier

@@ -160,6 +160,9 @@ GLOBAL_CARD_SET_TSC_SEARCHABLE_SHORTHAND_NAMES	tsc vttsc vtsc sc	This is a space
 GLOBAL_CARD_SET_REV	Murder at Castle Nathria
 GLOBAL_CARD_SET_REV_SHORT	Castle Nathria
 GLOBAL_CARD_SET_REV_SEARCHABLE_SHORTHAND_NAMES	mcn cn rev	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_RLK	March of the Lich King
+GLOBAL_CARD_SET_RLK_SHORT	Lich King
+GLOBAL_CARD_SET_RLK_SEARCHABLE_SHORTHAND_NAMES	mlk This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_MINI_SET_DMF	Darkmoon Races
 GLOBAL_MINI_SET_BAR	Wailing Caverns
 GLOBAL_MINI_SET_SW	Deadmines
@@ -224,8 +227,8 @@ GLOBAL_KEYWORD_FROZEN	Frozen
 GLOBAL_KEYWORD_FROZEN_TEXT	Misses its next attack.
 GLOBAL_KEYWORD_FROZEN_TEXT_MERC	Loses its next ability.
 GLOBAL_KEYWORD_IMMUNE	Immune
-GLOBAL_KEYWORD_IMMUNE_TEXT	Can't be damaged.
-GLOBAL_KEYWORD_IMMUNE_REF_TEXT	Immune characters can't be damaged.
+GLOBAL_KEYWORD_IMMUNE_TEXT	Can't be targeted by enemies or damaged.
+GLOBAL_KEYWORD_IMMUNE_REF_TEXT	Can't be targeted by enemies or damaged.
 GLOBAL_KEYWORD_SECRET	Secret
 GLOBAL_KEYWORD_SECRET_TEXT	Hidden until a specific action occurs on your opponent's turn.
 GLOBAL_KEYWORD_SPELLPOWER	Spell Damage
@@ -743,6 +746,10 @@ GLOBAL_DATETIME_SPINNER_DAYS	{0} |4(day,days)
 GLOBAL_DATETIME_SPINNER_WEEKS	{0} |4(week,weeks)
 GLOBAL_DATETIME_SPINNER_MONTH	> 1 month
 GLOBAL_DATETIME_GREATER_THAN_X_MINUTES	> {0} |4(min,mins)
+GLOBAL_DATETIME_TIMER_MINUTES	{0}m	0=minutes
+GLOBAL_DATETIME_TIMER_SECONDS	{0}s	0=seconds
+GLOBAL_DATETIME_TIMER_HOURS_MINUTES	{0}h {1}m	0=hours 1=minutes
+GLOBAL_DATETIME_TIMER_DAYS_HOURS	{0}d {1}h	0=days 1=hours
 GLOBAL_APPROXIMATE_DATETIME	~{0}	0=time string
 GLOBAL_APPROXIMATE_DATETIME_RANGE	~{0} - {1}	0=min seconds 1=max seconds string
 GLOBAL_REMAINING_DATETIME	{0} left	0=time string
@@ -923,6 +930,7 @@ GLOBAL_PROGRAMNAME_DIABLO2R	Diablo II: Resurrected
 GLOBAL_PROGRAMNAME_CODVANGUARD	Call of Duty: Vanguard
 GLOBAL_PROGRAMNAME_DIABLOIMMORTAL	Diablo Immortal
 GLOBAL_PROGRAMNAME_WARCRAFTARCLIGHTRUMBLE	Arclight Rumble
+GLOBAL_PROGRAMNAME_ARCADECOLLECTION	Blizzard Arcade Collection
 GLOBAL_OFFLINE	Offline
 GLOBAL_DEFAULT_ALERT_HEADER	Alert
 GLOBAL_FORGE_END_TITLE	Arena Complete
@@ -1135,6 +1143,7 @@ GLOBAL_FRIENDLYCHALLENGE_REWARD_CONCEDED_YOURSELF	You left the game too early to
 GLOBAL_FRIENDLYCHALLENGE_REWARD_CONCEDED_YOUR_OPPONENT	Your opponent left the game too early for you to earn rewards.
 GLOBAL_COLLECTION_GOLDEN	Golden
 GLOBAL_COLLECTION_DIAMOND	Diamond
+GLOBAL_COLLECTION_SIGNATURE	Signature
 GLOBAL_SPLASH_CLOSED_SIGN_TITLE	Closed
 GLOBAL_ERROR_INACTIVITY_KICK	It's been a while since your last Hearthstone action and your connection was shut down. Relaunch the game when you're ready!
 GLOBAL_MOBILE_ERROR_LOGON_WEB_TIMEOUT	It's been a while since your last Hearthstone action and your connection was shut down.
@@ -1276,7 +1285,8 @@ GLOBAL_SET_ROTATION_ROLLOVER_BODY_MOBILE	It's a New Year in Hearthstone!\nRestar
 GLOBAL_JOIN	Join
 GLOBAL_LEAVE	Leave
 GLOBAL_RETRY	Retry
-GLOBAL_SKIP_TUTORIAL	Leave Tutorial
+GLOBAL_LEAVE_TUTORIAL	Leave Tutorial
+GLOBAL_SKIP_TUTORIAL	Skip Tutorial
 GLOBAL_SKIP	Skip
 GLOBAL_SCAN	Scan
 GLOBAL_LOCATIONS	Learn More
@@ -1340,6 +1350,7 @@ GLOBAL_PROGRESSION_RANKED_REWARDS_TOOLTIP_TITLE	Ranked Rewards
 GLOBAL_PROGRESSION_RANKED_REWARDS_TOOLTIP	Earn rewards every season for your best rank in Standard, Wild or Classic.
 GLOBAL_PROGRESSION_DAILY_QUESTS_POPUP_TITLE	Your Quests
 GLOBAL_PROGRESSION_WEEKLY_QUESTS_POPUP_TITLE	Your Weekly Quests
+GLOBAL_PROGRESSION_EVENT_QUESTS_POPUP_TITLE	Your Event Quests
 GLOBAL_PROGRESSION_BATTLEGROUNDS_QUESTS_POPUP_TITLE	Your Weekly Missions
 GLOBAL_PVPDR_SEASON_ERROR_NOT_ACTIVE	Sorry. The requested Duels season is no longer available. Please try again later.
 GLOBAL_CLASSIC	Classic
