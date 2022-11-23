@@ -210,6 +210,9 @@ GLOBAL_CARD_SET_OG	Sussurros dos Deuses Antigos
 GLOBAL_CARD_SET_OG_RESERVE	Reserva dos Deuses Antigos	
 GLOBAL_CARD_SET_OG_SEARCHABLE_SHORTHAND_NAMES	tog sdda sda	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.  For Whispers of the Old Gods, 'tog' should be available in all locales; wotog and wog are additional English shorthands, which should be replaced by locale specific variants.
 GLOBAL_CARD_SET_OG_SHORT	Deuses Antigos	
+GLOBAL_CARD_SET_PA	Caminho de Arthas	
+GLOBAL_CARD_SET_PA_SEARCHABLE_SHORTHAND_NAMES	pa	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_PA_SHORT	Caminho de Arthas	
 GLOBAL_CARD_SET_PROMO	Promoção	
 GLOBAL_CARD_SET_REV	Assassinato no Castelo de Nathria	
 GLOBAL_CARD_SET_REV_SEARCHABLE_SHORTHAND_NAMES	acn cn rev	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
@@ -289,6 +292,7 @@ GLOBAL_CLICK_TO_CONTINUE	Clique para continuar
 GLOBAL_CLICK_TO_CONTINUE_TOUCH	Toque para continuar	
 GLOBAL_COLLECTION_DIAMOND	Diamante	
 GLOBAL_COLLECTION_GOLDEN	Dourado	
+GLOBAL_COLLECTION_NORMAL	Normal	
 GLOBAL_COLLECTION_SIGNATURE	Exclusivo	
 GLOBAL_COMMA_SEPARATOR	,	
 GLOBAL_CONCEDE	Desistir	
@@ -344,9 +348,11 @@ GLOBAL_DATETIME_SPLASHSCREEN_SECONDS	< 1 min
 GLOBAL_DATETIME_SPLASHSCREEN_WEEKS	{0} |4(semana,semanas)	
 GLOBAL_DATETIME_TIMER_DAYS_HOURS	{0}d {1}h	0=days 1=hours
 GLOBAL_DATETIME_TIMER_HOURS_MINUTES	{0}h {1}min	0=hours 1=minutes
+GLOBAL_DATETIME_TIMER_LESS_THAN_X_MINUTES	< {0} m	0=minutes
 GLOBAL_DATETIME_TIMER_MINUTES	{0}min	0=minutes
 GLOBAL_DATETIME_TIMER_SECONDS	{0} s	0=seconds
 GLOBAL_DATETIME_UNLOCKS_SOON_WEEKS	Desbloqueia em {0} |4(semana,semanas)	
+GLOBAL_DEATHKNIGHT_RUNE_LOCKED	Mostrar todas as runas	
 GLOBAL_DECK_SHARE_ACCEPT_REQUEST	Compartilhar	
 GLOBAL_DECK_SHARE_DECLINE_REQUEST	De Jeito Nenhum!	
 GLOBAL_DECK_SHARE_ERROR	Ocorreu um erro ao tentar compartilhar decks.	
@@ -444,7 +450,8 @@ GLOBAL_FRIEND_CHALLENGE_ACCEPT	Aceitar
 GLOBAL_FRIEND_CHALLENGE_BODY_BACON	Você foi convidado para entrar\nnum grupo de Campos de Batalha por:	
 GLOBAL_FRIEND_CHALLENGE_BODY_BATTLEGROUNDS_SUGGESTION	{0} quer convidar um amigo para o seu grupo dos Campos de Batalha:	0=suggester name
 GLOBAL_FRIEND_CHALLENGE_BODY1	Você foi desafiado por:	
-GLOBAL_FRIEND_CHALLENGE_BODY1_STANDARD	Você foi desafiado para um jogo Padrão por:	
+GLOBAL_FRIEND_CHALLENGE_BODY1_CLASSIC	Você foi desafiado para um\njogo Clássico por:	
+GLOBAL_FRIEND_CHALLENGE_BODY1_STANDARD	Você foi desafiado para um\njogo Padrão por:	
 GLOBAL_FRIEND_CHALLENGE_BODY1_WILD	Você foi desafiado para um\njogo Livre por:	
 GLOBAL_FRIEND_CHALLENGE_BODY2	Você aceita?	
 GLOBAL_FRIEND_CHALLENGE_DECLINE	Rejeitar	
@@ -652,6 +659,8 @@ GLOBAL_KEYWORD_COMBO	Combo
 GLOBAL_KEYWORD_COMBO_MERC	Combo	
 GLOBAL_KEYWORD_COMBO_TEXT	Bônus caso você já tenha jogado um card neste turno.	
 GLOBAL_KEYWORD_COMBO_TEXT_MERC	Bônus caso seu grupo já tenha jogado uma habilidade neste turno.	
+GLOBAL_KEYWORD_CORPSE	Cadáver	
+GLOBAL_KEYWORD_CORPSE_TEXT	Recurso obtido quando um lacaio aliado morre.	
 GLOBAL_KEYWORD_CORRUPT	Corromper	
 GLOBAL_KEYWORD_CORRUPT_TEXT	Aprimoramento na mão depois que você jogar um card que custa mais.	
 GLOBAL_KEYWORD_CORRUPTEDCARD	Corrompido	
@@ -741,6 +750,8 @@ GLOBAL_KEYWORD_KABAL	Kabal
 GLOBAL_KEYWORD_KABAL_COLLECTION_TEXT	Você pode usar em decks de Sacerdote, Mago ou Bruxo.	
 GLOBAL_KEYWORD_LIFESTEAL	Roubar Vida	
 GLOBAL_KEYWORD_LIFESTEAL_TEXT	O dano causado também cura seu herói.	
+GLOBAL_KEYWORD_MANATHIRST	Sede de Mana (X)	
+GLOBAL_KEYWORD_MANATHIRST_TEXT	Um bônus quando você tem X Cristais de Mana.	
 GLOBAL_KEYWORD_MEGAWINDFURY	Mega-Fúria dos Ventos	
 GLOBAL_KEYWORD_MEGAWINDFURY_TEXT	Pode atacar quatro vezes a cada turno.	
 GLOBAL_KEYWORD_MINION_TYPE_REFERENCE	Tipo de Lacaio	
@@ -1221,6 +1232,14 @@ GLOBAL_RECONNECT_RECONNECTING_HEADER	Reconectando
 GLOBAL_RECONNECT_RECONNECTING_LOGIN	Você foi desconectado do seu último jogo. Reconectando...	
 GLOBAL_RECONNECT_TIMEOUT	Não foi possível reconectar ao seu jogo.	
 GLOBAL_RECONNECT_TIMEOUT_HEADER	Erro	
+GLOBAL_REDUNDANT_NDE_BODY	Você obteve este card na versão: {0}.\nDeseja tentar transformar esse {1} num {3} aleatório de {2}?	0=Newly Acquired Premium, 1=Premium to reroll, 2=reroll set name, 3=card rarity
+GLOBAL_REDUNDANT_NDE_BODY_MULTIPLE_PREMIUMS	Você ganhou a versão {0} deste card.\nDeseja tentar transformar a versão {1}/{2} em um {4} aleatório de {3}?	0=Newly Acquired Premium, 1=Higher premium to reroll, 2=Lower premium to reroll, 3=reroll set name, 4=card rarity
+GLOBAL_REDUNDANT_NDE_BUTTON_DECLINE	Não, obrigado	
+GLOBAL_REDUNDANT_NDE_BUTTON_REROLL	Tentar!	
+GLOBAL_REDUNDANT_NDE_DOUBLE_BODY	Você ganhou versões [PH Premium] deste card.\nDeseja tentar transformar as versões [PH Premium] em cards aleatórios de [PH SET] de raridade [PH RARITY]?	
+GLOBAL_REDUNDANT_NDE_REROLL_RESULT_HEADER	Carta transformada!	
+GLOBAL_REDUNDANT_NDE_TITLE	Tentar transformar {0} |4(Card, Cards)?	0=card premium to reroll
+GLOBAL_REDUNDANT_NDE_TITLE_MULTIPLE_PREMIUMS	Tentar transformar cards {0}/{1}?	0=higher card premium to reroll, 1=lower card premium to reroll
 GLOBAL_REFRESH	Atualizar	
 GLOBAL_REGION_AMERICAS	Américas & Sudeste da Ásia	
 GLOBAL_REGION_ASIA	Ásia	
@@ -1309,6 +1328,7 @@ GLOBAL_REWARD_SARGE_TALE_HEADLINE	Montaria de História do Sargento
 GLOBAL_ROLE_CASTER	Lançador	
 GLOBAL_ROLE_FIGHTER	Lutador	
 GLOBAL_ROLE_TANK	Protetor	
+GLOBAL_RUNE_REQUIREMENT_POPUP_TEXT	Veja os requisitos da Runa aqui.	
 GLOBAL_SCAN	Buscar	
 GLOBAL_SCREENSHOT_COMPLETE	Captura de tela salva na área de trabalho	
 GLOBAL_SCREENSHOT_COMPLETE_SPECIFIC_DIRECTORY	Captura de tela salva em {0}	0=The directory that the file was saved to

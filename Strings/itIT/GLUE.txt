@@ -49,6 +49,7 @@ GLUE_ADVENTURE_CHAPTER_TITLE_DRG_CHAPTER1	I: Combattimento sulla Costa Gelida
 GLUE_ADVENTURE_CHAPTER_TITLE_DRG_CHAPTER2	II: Scontro alla Lega dei Draghi	
 GLUE_ADVENTURE_CHAPTER_TITLE_DRG_CHAPTER3	III: Battaglia Aerea a Dracombra	
 GLUE_ADVENTURE_CHAPTER_TITLE_DRG_CHAPTER4	IV: Resa dei Conti a Dalaran	
+GLUE_ADVENTURE_CHAPTER_TITLE_ROTLK_PROLOGUE	Prologo	
 GLUE_ADVENTURE_CHAPTER_TITLE_ULD_CHAPTER1	I. La Città Perduta	
 GLUE_ADVENTURE_CHAPTER_TITLE_ULD_CHAPTER2	II. Le Dune Incandescenti	
 GLUE_ADVENTURE_CHAPTER_TITLE_ULD_CHAPTER3	III. La Tomba di Khartut	
@@ -83,6 +84,7 @@ GLUE_ADVENTURE_CHAPTERPAGE_GLOBALRULE_ULD_CHAPTER1	Colpo di Scena: Murloc ovunqu
 GLUE_ADVENTURE_CHAPTERPAGE_GLOBALRULE_ULD_CHAPTER2	Colpo di Scena: attacchi a fine turno	
 GLUE_ADVENTURE_CHAPTERPAGE_GLOBALRULE_ULD_CHAPTER3	Colpo di Scena: servitori sepolti	
 GLUE_ADVENTURE_CHAPTERPAGE_GLOBALRULE_ULD_CHAPTER4	Colpo di Scena: servitori infuriati	
+GLUE_ADVENTURE_CHAPTERPAGE_ROTLK_AWAITING_LICENSE	Attendi, mentre Arthas ricorda la sua storia...	
 GLUE_ADVENTURE_CHAPTERUNLOCKED_POPUP_TITLE	Capitolo sbloccato!	
 GLUE_ADVENTURE_CHEST_POPUP_DRG	Sconfiggi i boss di un capitolo per ottenere ricompense!	
 GLUE_ADVENTURE_DUNGEON_CRAWL_ANOMALY_MODE_BUTTON_LOCKED_TOOLTIP_BODY	Per tutta la sessione sarà attivo un effetto casuale. Devi possedere tutti i capitoli per sbloccare questa versione!	
@@ -239,6 +241,7 @@ GLUE_BACON_BATTLEBASH_OWNEDPRIZE	Posseduto
 GLUE_BACON_BATTLEBASH_PURCHASE_BODY	Hai ancora {0} |4(giorno,giorni) per ottenere i Martelli della Lotteria. Vuoi davvero acquistare?	
 GLUE_BACON_BATTLEBASH_PURCHASE_HEADER	Tempo rimanente	
 GLUE_BACON_BATTLEBASH_UNOWNEDPRIZE	Non posseduto	
+GLUE_BACON_BATTLEGROUND_PASS	Pass Battaglia	
 GLUE_BACON_BONUS	Bonus	
 GLUE_BACON_BONUS_1	Sblocca statistiche bonus	
 GLUE_BACON_BONUS_2	Scegli fra 3 eroi in ogni partita	
@@ -305,6 +308,7 @@ GLUE_BACON_PERKS_ERROR_BODY	Al momento non sono disponibili Bonus per la Battagl
 GLUE_BACON_PERKS_ERROR_HEADER	Bonus della Battaglia	
 GLUE_BACON_PERKS_EXPIRING_BODY	I tuoi Bonus per la Battaglia termineranno a breve. Puoi ottenere l'accesso agli Extra per la Battaglia della prossima stagione acquistando il nuovo Pass Locanda con la pubblicazione di <color="#FF0156">Ceneri delle Terre Esterne</color>.	
 GLUE_BACON_PERKS_ON_TICKET	Battaglia	
+GLUE_BACON_PERKS_UNLOCKS_NOW	Si sblocca ora!	
 GLUE_BACON_PRIVATE_GAME	Partita privata	
 GLUE_BACON_PRIVATE_PARTY_INFO	Aggiungere più di 4 giocatori cambierà la lobby in una partita privata.	
 GLUE_BACON_PRIVATE_PARTY_TITLE	Gruppo per la Battaglia	
@@ -351,12 +355,13 @@ GLUE_BACON_STATS_VALUE_HOURS_PLAYED	{0} |4(ora,ore)
 GLUE_BACON_STATS_VALUE_MINUTES_PLAYED	{0} |4(min,min)	
 GLUE_BACON_SUGGESTED_INVITE_BODY	Invitare {0} alla Battaglia?	0 = Battletag of player suggested to invite to party
 GLUE_BACON_SUGGESTED_INVITE_HEADER	Consiglio per invito alla Battaglia	
-GLUE_BACON_TITLE_ON_TICKET	EXTRA	
+GLUE_BACON_TITLE_ON_TICKET	Stagione	
 GLUE_BACON_TOP_4_LABEL	Top 4	
 GLUE_BACON_TOP_4_REWARD_DESC	Congratulazioni per il piazzamento nella Top 4.	
 GLUE_BACON_VICTORY_BONUS_MESSAGE	Affina la tua strategia sbloccando alcuni Extra.	
 GLUE_BATTLEBASH	Lotteria	
 GLUE_BATTLEBASH_ALERT_EVENT_END_DESCRIPTION	Hai dei Martelli non utilizzati. Torna alla Battaglia per riscattare i tuoi Martelli.	
+GLUE_BATTLEBASH_ALERT_EVENT_END_DESCRIPTION_NO_HAMMERS	La Lotteria si è conclusa.	
 GLUE_BATTLEBASH_ALERT_EVENT_END_TITLE	Lotteria terminata	
 GLUE_BATTLEBASH_BARTENDER_REWARD_BUNDLE	Pacchetto di {0} Baristi	
 GLUE_BATTLEBASH_BOARD_REWARD_BUNDLE	Pacchetto di {0} Tabelloni	
@@ -365,6 +370,8 @@ GLUE_BATTLEBASH_EMOTE_REWARD_BUNDLE	Pacchetto di {0} Emote	0=Number of Rewards
 GLUE_BATTLEBASH_ERROR_BODY	Qualcosa è andato storto! Riprova più tardi.	
 GLUE_BATTLEBASH_ERROR_HEADER	Errore Lotteria	
 GLUE_BATTLEBASH_ERROR_NO_HAMMERS	Nessun martello	
+GLUE_BATTLEBASH_EVENT_POPUP_TIME_REM_DAYS	Termina fra {0} |4(giorno,giorni)	
+GLUE_BATTLEBASH_EVENT_POPUP_TIME_REM_DESC	La Lotteria sta lasciando la Battaglia! Presto arriverà una nuova serie di oggetti cosmetici.	
 GLUE_BATTLEBASH_EVENT_TIME_REM_DAYS	Termina tra {0} g	0: event time remaining in days
 GLUE_BATTLEBASH_EVENT_TIME_REM_HOUR_OR_LESS	Finisce tra <1o	
 GLUE_BATTLEBASH_EVENT_TIME_REM_HOURS	Termina tra {0} o	0: event time remaining in hours
@@ -533,10 +540,16 @@ GLUE_CLASS_DESCRIPTION_WARLOCK	Sacrifica qualsiasi cosa pur di raggiungere il ma
 GLUE_CLASS_DESCRIPTION_WARRIOR	Spezza i nemici con potenti armi e sfrutta la sete di sangue per aumentare la propria forza.	
 GLUE_CLASS_INVALID_DECK_DESC	Questo mazzo sta usando una classe non valida.	
 GLUE_CLASS_INVALID_DECK_TITLE	Classe non valida	
+GLUE_CLASS_UNLOCKED_CARDS_DEATHKNIGHT	Carte del Cavaliere della Morte disponibili nella tua collezione!	
 GLUE_CLASS_UNLOCKED_CARDS_DEMONHUNTER	Carte del Cacciatore di Demoni disponibili nella tua collezione!	
 GLUE_CLASS_UNLOCKED_CARDS_MORE	+27 altre carte	
 GLUE_CLASS_UNLOCKED_CLASS	Nuova classe sbloccata!	
 GLUE_CLASS_UNLOCKED_DECK	Nuovo mazzo ricevuto!	
+GLUE_CLASS_UNLOCKED_DK_CARDS_MORE	+29 altre carte	
+GLUE_CLASS_UNLOCKED_DK_DECK_BBF	Cavaliere della Morte del Sangue	
+GLUE_CLASS_UNLOCKED_DK_DECK_FFB	Cavaliere della Morte del Gelo	
+GLUE_CLASS_UNLOCKED_DK_DECK_UUU	Cavaliere della Morte dell'Empietà	
+GLUE_CLASS_UNLOCKED_DK_DECKS	Nuovi mazzi ricevuti!	
 GLUE_CLASS_UPCOMING_DESC	Il Cacciatore di Demoni non è ancora disponibile.	
 GLUE_CLASS_UPCOMING_HEADER	Non ancora disponibile	
 GLUE_CLOSE_TEAM	Mostra mappa	
@@ -560,8 +573,14 @@ GLUE_COLLECTION_CONVERT_DECK_BODY	Convertendo questo mazzo a Standard verranno r
 GLUE_COLLECTION_CONVERT_DECK_HEADER	Converti mazzo	
 GLUE_COLLECTION_CRAFTING_DIAMOND	Carte Diamante	
 GLUE_COLLECTION_CRAFTING_DISENCHANT_BUTTON_TEXT	Disincanta le carte in eccesso	
-GLUE_COLLECTION_CRAFTING_EXPLANATION	Seleziona una carta per avviare la modalità Creazione.\n\nUsa la Polvere Arcana ottenuta disincantando le carte per crearne di nuove.\n\nIl costo varia in funzione della rarità della carta.	
+GLUE_COLLECTION_CRAFTING_EXPLANATION	Disincanta le carte in eccesso per ottenere Polvere Arcana, per poi usarla per creare le carte che vuoi!\n\nSeleziona una carta per iniziare a creare. 	
 GLUE_COLLECTION_CRAFTING_FILTERS	Filtri	
+GLUE_COLLECTION_CRAFTING_FILTERS_INCLUDE	Includi	
+GLUE_COLLECTION_CRAFTING_FILTERS_MISSING	Mancante	
+GLUE_COLLECTION_CRAFTING_FILTERS_NORMAL	Normale	
+GLUE_COLLECTION_CRAFTING_FILTERS_OWNED	Posseduta	
+GLUE_COLLECTION_CRAFTING_FILTERS_PREMIUM	Premium	
+GLUE_COLLECTION_CRAFTING_FILTERS_UNCRAFTABLE	Vincolata	
 GLUE_COLLECTION_CRAFTING_GOLDEN	Carte Dorate	
 GLUE_COLLECTION_CRAFTING_MODE	Creazione	
 GLUE_COLLECTION_CRAFTING_MODE_SHORT	Creazione	
@@ -599,6 +618,9 @@ GLUE_COLLECTION_DECK_EXTRA_CARD_WARNING_HEADER	Aggiungere carte aggiuntive
 GLUE_COLLECTION_DECK_EXTRA_CARDS_LABEL	|4(Carta,Carte) in eccesso	
 GLUE_COLLECTION_DECK_EXTRA_CARDS_POPUP_HEADER	|4(Carta,Carte) in eccesso	
 GLUE_COLLECTION_DECK_EXTRA_CARDS_POPUP_TEXT	Hai {0} |4(carta aggiuntiva,carte aggiuntive) in questo mazzo.\nRimuovere |4(la carta,le carte) automaticamente?	
+GLUE_COLLECTION_DECK_EXTRA_RUNES_WARNING_BODY	Puoi aggiungere carte con Rune incompatibili, ma il mazzo non sarà valido fino alla risoluzione del problema.	
+GLUE_COLLECTION_DECK_EXTRA_RUNES_WARNING_CONFIRM	Ci sono!	
+GLUE_COLLECTION_DECK_EXTRA_RUNES_WARNING_HEADER	Rune incompatibili	
 GLUE_COLLECTION_DECK_FINISH_FOR_ME	Sì	
 GLUE_COLLECTION_DECK_FORMAT_CLASSIC	Classico	
 GLUE_COLLECTION_DECK_FORMAT_STANDARD	Standard	
@@ -667,6 +689,8 @@ GLUE_COLLECTION_GENERIC_ERROR	Un errore di sistema ha impedito l'elaborazione de
 GLUE_COLLECTION_GOLDEN_CARDS	Carte Dorate	
 GLUE_COLLECTION_HOME_PAGE	Panoramica	
 GLUE_COLLECTION_INCLUDE_PREMIUMS	Includi carte Dorate	
+GLUE_COLLECTION_INCOMPATIBLE_RUNES_DESCRIPTION	Questa carta richiede delle Rune che il tuo mazzo non possiede.	
+GLUE_COLLECTION_INCOMPATIBLE_RUNES_HEADER	Rune incompatibili	
 GLUE_COLLECTION_LETTUCE_LOADOUT_TEXT	Arsenale	
 GLUE_COLLECTION_LETTUCE_LOCK_TEXT	Nel tuo gruppo	
 GLUE_COLLECTION_LETTUCE_PVE_TEAMNAME	Gruppo PvA	
@@ -723,6 +747,23 @@ GLUE_COLLECTION_MANAGER_SEARCH_ODD_MANA	dispari	Search term to filter cards in C
 GLUE_COLLECTION_MANAGER_SEARCH_OWNED	posseduta	
 GLUE_COLLECTION_MANAGER_SEARCH_RARITY	rarità	
 GLUE_COLLECTION_MANAGER_SEARCH_REFUND	rimborso	
+GLUE_COLLECTION_MANAGER_SEARCH_RUNE_BLOOD	sangue	
+GLUE_COLLECTION_MANAGER_SEARCH_RUNE_BLOOD_CHAR	s	
+GLUE_COLLECTION_MANAGER_SEARCH_RUNE_FROST	gelo	
+GLUE_COLLECTION_MANAGER_SEARCH_RUNE_FROST_CHAR	g	
+GLUE_COLLECTION_MANAGER_SEARCH_RUNE_UNHOLY	empietà	
+GLUE_COLLECTION_MANAGER_SEARCH_RUNE_UNHOLY_CHAR	e	
+GLUE_COLLECTION_MANAGER_SEARCH_RUNES	rune	
+GLUE_COLLECTION_MANAGER_SEARCH_SCHOOL	scuola	
+GLUE_COLLECTION_MANAGER_SEARCH_SCHOOL_ARCANE	arcano	
+GLUE_COLLECTION_MANAGER_SEARCH_SCHOOL_FEL	vile	
+GLUE_COLLECTION_MANAGER_SEARCH_SCHOOL_FIRE	fuoco	
+GLUE_COLLECTION_MANAGER_SEARCH_SCHOOL_FROST	gelo	
+GLUE_COLLECTION_MANAGER_SEARCH_SCHOOL_HOLY	sacro	
+GLUE_COLLECTION_MANAGER_SEARCH_SCHOOL_NATURE	natura	
+GLUE_COLLECTION_MANAGER_SEARCH_SCHOOL_NONE	nessuna	
+GLUE_COLLECTION_MANAGER_SEARCH_SCHOOL_SHADOW	ombra	
+GLUE_COLLECTION_MANAGER_SEARCH_SIGNATURE	pregiata	
 GLUE_COLLECTION_MANAGER_SEARCH_TAG	etichetta	
 GLUE_COLLECTION_MANAGER_SEARCH_TYPE	tipo	
 GLUE_COLLECTION_MANAGER_SEARCH_UPGRADABLE	potenz	intentional missing e to match upgrad{e|able|eable}
@@ -756,6 +797,8 @@ GLUE_COLLECTION_PAGE_NUM	Pagina {0}
 GLUE_COLLECTION_PLUS	+	
 GLUE_COLLECTION_RECENT_CARDS	Carte ottenute di recente	
 GLUE_COLLECTION_RECENTLY_NERFED	<color=#971c1cff>Questa carta è stata modificata di recente, perciò il suo valore di disincantamento è stato aggiornato.</color>	
+GLUE_COLLECTION_RUNES_TOOLTIP_DESC	Determina quali carte del Cavaliere della Morte possono essere inserite nel tuo mazzo.	
+GLUE_COLLECTION_RUNES_TOOLTIP_HEADER	Rune	
 GLUE_COLLECTION_SEARCH	Cerca	
 GLUE_COLLECTION_SET_FILTER_WILD_SET_BODY	Questa opzione permette di mostrare le carte non utilizzabili in formato Standard. Vuoi procedere?	
 GLUE_COLLECTION_SET_FILTER_WILD_SET_HEADER	Carte Selvagge	
@@ -1101,7 +1144,9 @@ GLUE_GOLD_CAP_HEADER	{0} oro raggiunto!
 GLUE_GOONS_CLASS_NAMES	Cacciatore, Paladino, Guerriero	
 GLUE_HERO_HEROSELECT_NEW	NUOVO!	
 GLUE_HERO_LOCKED_DESC	Sconfiggi l'eroe {0} in modalità Classificata o Allenamento per sbloccare la classe {1}.	
+GLUE_HERO_LOCKED_LETS_GO	Andiamo!	
 GLUE_HERO_LOCKED_NAME	Bloccato	
+GLUE_HERO_LOCKED_PROLOGUE_DESC	Per giocare come {0} devi prima completare il prologo.	
 GLUE_HERO_SKIN_PURCHASE_CONFIRMATION_HEADER	Conferma	
 GLUE_HERO_SKIN_PURCHASE_CONFIRMATION_MESSAGE	Vuoi davvero acquistare l'eroe\n{0}?\nNon potrai annullare\nquest'operazione	
 GLUE_HERO_SKIN_PURCHASE_ERROR_HEADER	Eroi	
@@ -1379,9 +1424,9 @@ GLUE_LETTUCE_RENOWN_CONVERSION_CONVERT	Converti
 GLUE_LETTUCE_RENOWN_CONVERSION_DESCRIPTION	Converti in Fama le monete in eccesso dei Mercenari già al massimo!	
 GLUE_LETTUCE_RENOWN_CONVERSION_HELPER_POPUP	Clicca qui per accedere alla schermata di Conversione per ottenere Fama.	
 GLUE_LETTUCE_RENOWN_CONVERSION_TITLE	Converti Fama	
-GLUE_LETTUCE_RENOWN_OFFER_EPIC_CONVERSION_RATE	{0} |4(Moneta Epica,Monete Epiche) in eccesso = {1} Fama	
-GLUE_LETTUCE_RENOWN_OFFER_LEGENDARY_CONVERSION_RATE	{0} |4(Moneta Leggendaria,Monete Leggendarie) in eccesso = {1} Fama	
-GLUE_LETTUCE_RENOWN_OFFER_RARE_CONVERSION_RATE	{0} |4(Moneta Rara,Monete Rare) in eccesso = {1} Fama	
+GLUE_LETTUCE_RENOWN_OFFER_EPIC_CONVERSION_RATE	{0} |4(Moneta Epica,Monete Epiche) in eccesso = 1 Fama	0=mercenary coin amount
+GLUE_LETTUCE_RENOWN_OFFER_LEGENDARY_CONVERSION_RATE	{0} |4(Moneta Leggendaria,Monete Leggendarie) in eccesso = 1 Fama	0=mercenary coin amount
+GLUE_LETTUCE_RENOWN_OFFER_RARE_CONVERSION_RATE	{0} |4(Moneta Rara,Monete Rare) in eccesso = 1 Fama	0=mercenary coin amount
 GLUE_LETTUCE_RENOWN_PROFILE_OFFER_DETAILS_TITLE	Fama per ritratto di {0}	0=mercenary name
 GLUE_LETTUCE_REWARD_KNOCKOUT_COINS_DESC	Possiedi già {0}, eccoti alcune Monete {1}!	0: mercenary name, 1: mercenary name
 GLUE_LETTUCE_REWARD_KNOCKOUT_COINS_DESC_PREMIUM	Possiedi già {1} {0}, eccoti alcune Monete {2}!	0: vanity type (eg. golden), 1: mercenary name, 2: mercenary name
@@ -1452,6 +1497,7 @@ GLUE_LETTUCE_VILLAGE_TASK_CLAIM	Riscatta
 GLUE_LETTUCE_VILLAGE_TASK_COLLECTION_HELPER_TIP	Per completare gli incarichi personali, i Mercenari devono far parte del gruppo!	
 GLUE_LETTUCE_VILLAGE_TASK_COLLECTION_MAP_HELPER_TIP	Questi Mercenari sono attualmente nel tuo gruppo. Scopri cosa vogliono!	
 GLUE_LETTUCE_VILLAGE_TASK_COMPLETE	Completato!	
+GLUE_LETTUCE_VILLAGE_TASK_DONE	Fine	
 GLUE_LETTUCE_VILLAGE_TASK_HEADER	Incarico dei Mercenari	
 GLUE_LETTUCE_VILLAGE_TASK_NUMBER	Incarico {0}: {1}	
 GLUE_LETTUCE_VILLAGE_TASK_REWARDS_TITLE	Ricompense	
@@ -1480,6 +1526,8 @@ GLUE_LETTUCE_VILLAGE_ZONES_TITLE	Punto di Ritrovo
 GLUE_LETTUCE_WORKSHOP_BUTTON	Officina	
 GLUE_LETTUCE_YOUR_TEAM_TRAY_TITLE	Il tuo gruppo	
 GLUE_LETTUCE_ZONE_UNLOCK_HEADER	Zona sbloccata	
+GLUE_LICH_KING_FULL_NAME	Arthas Menethil	
+GLUE_LICH_KING_UNLOCK_FULL_NAME	Re dei Lich	
 GLUE_LOADING	Caricamento in corso...	
 GLUE_LOADING_BAR_TASK_1	Mescolamento carte	
 GLUE_LOADING_BAR_TASK_10	Preparazione Poteri Eroe	
@@ -1637,6 +1685,7 @@ GLUE_MERCENARIES_TASKBOARD_PROC_TASK_HEROIC_DIFFICULTY	(Eroica)
 GLUE_MERCENARIES_TASKBOARD_PROC_TASK_MERCENARY_LIST_1	{0}	0=mercenary name
 GLUE_MERCENARIES_TASKBOARD_PROC_TASK_MERCENARY_LIST_2	{0}, {1}	0=mercenary name, 1=mercenary_name
 GLUE_MERCENARIES_TASKBOARD_PROC_TASK_MERCENARY_LIST_3	{0}, {1}, {2}	0=mercenary name, 1=mercenary name, 2=mercenary name
+GLUE_MERCENARIES_TASKBOARD_PROC_TASK_NORMAL_DIFFICULTY	Normale	
 GLUE_MERCENARIES_TASKBOARD_RENOWN_OFFER_TITLE	Offerta di scambio: {0}	0=mercenary short name
 GLUE_MERCENARIES_VILLAGE_TUTORIAL_TASK_COLLECTION_BODY	I Mercenari nella tua collezione hanno del lavoro per te!\n\nAggiungili al tuo gruppo per progredire nei loro incarichi e ottenere ricompense!	
 GLUE_MERCENARIES_VILLAGE_TUTORIAL_TASK_COLLECTION_HEADER	Incarichi dei Mercenari	
@@ -1777,6 +1826,7 @@ GLUE_PROGRESSION_ACHIEVEMENTS_COMPLETED	Completata!
 GLUE_PROGRESSION_ACHIEVEMENTS_COMPLETION_REQUIRED	Richiede il completamento dell'impresa	
 GLUE_PROGRESSION_ACHIEVEMENTS_RECENTLY_COMPLETED	Completate di recente	
 GLUE_PROGRESSION_ACHIEVEMENTS_REWARDS_BUTTON	Vedi ricompense	
+GLUE_PROGRESSION_ACHIEVEMENTS_REWARDS_HEADER_TEXT	Ricompensa Impresa	
 GLUE_PROGRESSION_ACHIEVEMENTS_STEPCOMPLETED	Traguardo completato!	
 GLUE_PROGRESSION_ACHIEVEMENTS_TITLE	Imprese	
 GLUE_PROGRESSION_ACHIEVEMENTS_TOOLTIP_DESCRIPTION	Completa le imprese per ottenere altri punti.	
@@ -1867,6 +1917,7 @@ GLUE_PROGRESSION_REWARD_TRACK_XP_PROGRESS	{0}/{1}
 GLUE_PROGRESSION_REWARD_TRACK_XP_TOOLTIP_BOOST_BODY	Bonus +{0}% PE	
 GLUE_PROGRESSION_REWARD_TRACK_XP_TOOLTIP_BOOST_TITLE	Bonus PE	
 GLUE_PROGRESSION_REWARDS_TITLE	Percorso Ricompense	
+GLUE_PROLOGUE_DK_REWARD	Completa il prologo per sbloccare la classe\nCavaliere della Morte e 32 carte.	
 GLUE_PROLOGUE_REWARD	Completa il prologo per sbloccare la classe Cacciatore di Demoni e 30 carte.	
 GLUE_PUSH_NOTIFICATION_CONTEXT_BODY	Vuoi ricevere delle notifiche quando pubblichiamo qualche stupenda novità?	
 GLUE_PUSH_NOTIFICATION_CONTEXT_CANCEL	No, grazie	
@@ -1891,7 +1942,7 @@ GLUE_PVPDR_ENTRY_POPUP_DESCRIPTION_HEROIC	Combatti per le ricompense
 GLUE_PVPDR_ENTRY_POPUP_DESCRIPTION_NORMAL	Affina le tue abilità	
 GLUE_PVPDR_ENTRY_POPUP_LABEL_HEROIC	Duello Eroico	
 GLUE_PVPDR_ENTRY_POPUP_LABEL_NORMAL	Duello Amichevole	
-GLUE_PVPDR_EXPANSION_SUBTITLE	Revendreth	
+GLUE_PVPDR_EXPANSION_SUBTITLE	L'Avanzata del Re dei Lich	
 GLUE_PVPDR_FOOTER	Scegli un eroe, forgia il tuo mazzo e potenzialo tra un combattimento e l'altro!	
 GLUE_PVPDR_HEROIC_POPUP_DESCRIPTION_HASTICKETS	Hai un Biglietto Locanda! Non dovrai preoccuparti del prezzo d'accesso per questa volta.	
 GLUE_PVPDR_HEROIC_POPUP_DESCRIPTION_NOTICKETS	Più vittorie significano ricompense migliori!\nUsa un Biglietto Locanda per entrare.	
@@ -2086,6 +2137,8 @@ GLUE_SET_ROTATION_EVEN_YEAR	Anno dell'Idra
 GLUE_SET_ROTATION_ODD_YEAR	Anno del Grifone	
 GLUE_SHOP_ARCANE_ORBS	Globi Arcani	
 GLUE_SHOP_BOOSTER_SKU_BUTTON	{0} |4(busta,buste)	
+GLUE_SHOP_CARD_INCLUDED_FREE	Parte del set Principale gratuito. Sbloccata completando il prologo del Cavaliere della Morte.	
+GLUE_SHOP_CARD_INCLUDED_TITLE	Carta del set Principale	
 GLUE_SHOP_CLOSED_ALERT_HEADER	Negozio chiuso	
 GLUE_SHOP_CLOSED_ALERT_TEXT	Il negozio è momentaneamente chiuso, riprova più tardi!	
 GLUE_SHOP_CONVERT_TO_ARCANE_ORBS_HEADER	Convert Runestones to Arcane Orbs	
@@ -2094,6 +2147,9 @@ GLUE_SHOP_GET_MORE_RUNESTONES	Non hai Pietre Runiche sufficienti per questo acqu
 GLUE_SHOP_GET_MORE_RUNESTONES_HEADER	Pietre Runiche insufficienti!	
 GLUE_SHOP_LANDING_ADVENTURE_BANNER	AVVENTURA	
 GLUE_SHOP_NOT_ENOUGH_RUNESTONES	Not enough Runestones	
+GLUE_SHOP_PATH_OF_ARTHAS_BLOOD	Fortificati con il potere del Sangue	
+GLUE_SHOP_PATH_OF_ARTHAS_FROST	Travolgi con il freddo del Gelo	
+GLUE_SHOP_PATH_OF_ARTHAS_UNHOLY	Rianima la morte con il fervore dell'Empietà.	
 GLUE_SHOP_PREVIEW_HERO	Anteprima	
 GLUE_SHOP_PRICE_ARCANE_ORBS	{0} |4(Globo Arcano,Globi Arcani)	
 GLUE_SHOP_PRICE_FREE	Gratis!	
@@ -2215,6 +2271,8 @@ GLUE_STORE_BATTLEBASH_INFO_POPUP	C'è un numero specifico di ricompense di vari 
 GLUE_STORE_BATTLEBASH_SHOPBUTTON	Colpisci!	
 GLUE_STORE_BATTLEGROUNDS_PASS_FLAVOR_TEXT	Sblocca tutti gli oggetti fino al tuo livello attuale del Percorso Battaglia!	
 GLUE_STORE_BATTLEGROUNDS_PASS_FLAVOR_TEXT_CHINA_DISCLAIMER	Ottieni tutti gli oggetti fino al tuo livello attuale del Percorso Battaglia! A causa della protezione degli orari di gioco per i minori, essi potrebbero non riuscire a ottenere tutte le ricompense.	
+GLUE_STORE_BATTLEGROUNDS_PASS_PREPURCHASE_FLAVOR_TEXT	Questo pass sarà disponibile a gennaio!	
+GLUE_STORE_BG_PASS_PREORDER_DATE	Disponibile\na gennaio!	
 GLUE_STORE_BNET_BALANCE	Saldo Blizzard	
 GLUE_STORE_BONUS_PACKS	Ottieni {0} |4(busta,buste) bonus per un tempo limitato!	0 = number of bonus packs
 GLUE_STORE_BOT_PREORDER_DATE	Disponibile da metà agosto*!	
@@ -2490,6 +2548,7 @@ GLUE_STORE_TRL_PREORDER_DATE	Disponibile da metà dicembre*!
 GLUE_STORE_TRL_PREORDER_DUST_DATE	卡牌包可以在十二月中旬\n打开！	
 GLUE_STORE_ULD_PREORDER_DATE	Disponibile da agosto*!	
 GLUE_STORE_ULD_PREORDER_DUST_DATE	卡牌包可以在八月打开！	
+GLUE_STORE_UPDATING_CURRENCY_BALANCE	Stiamo aggiornando il tuo saldo. Riprova più tardi.	
 GLUE_STORE_VC_BUTTON_TOOLTIP_HEADLINE	Acquista	
 GLUE_TASK_BOARD_SEARCH_ACTIVE	Attivo	
 GLUE_TASK_BOARD_SEARCH_CLAIMABLE	Riscattabile	
@@ -2701,6 +2760,16 @@ GLUE_TIP_ADVENTURE_LOOT_6	Adatta il tuo mazzo ai tesori che trovi per massimizza
 GLUE_TIP_ADVENTURE_LOOT_7	Le nove classi avranno a disposizione dei bottini\ndifferenti durante la spedizione.	
 GLUE_TIP_ADVENTURE_LOOT_8	Completa la spedizione con tutte le nove classi\nper ottenere un dorso delle carte unico!	
 GLUE_TIP_ADVENTURE_LOOT_9	L'Amuleto della Dominazione aggiunge servitori\nal tuo mazzo. Usalo con saggezza!	
+GLUE_TIP_ADVENTURE_RLK_01	I Cavalieri della Morte ottengono il loro potere da tre tipi di Rune: del Sangue, del Gelo e dell'Empietà	
+GLUE_TIP_ADVENTURE_RLK_02	Alcuni pensano che Gelidanima non abbia oscurato l'anima di Arthas, ma l'abbia rivelata.	
+GLUE_TIP_ADVENTURE_RLK_03	Quando un servitore muore, crea un Cadavere.	
+GLUE_TIP_ADVENTURE_RLK_04	Quando Arthas rivendicò l'Elmo del Dominio, divenne il Re dei Lich.	
+GLUE_TIP_ADVENTURE_RLK_05	Mal'Ganis dei Nathrezim attirò il Principe Arthas a Nordania.	
+GLUE_TIP_ADVENTURE_RLK_06	Uther l'Araldo della Luce è stato un campione della Seconda Guerra e il mentore del Principe Arthas.	
+GLUE_TIP_ADVENTURE_RLK_07	Sylvanas Ventolesto era la Generale dei Guardaboschi di Lunargenta a capo dei Lungopasso.	
+GLUE_TIP_ADVENTURE_RLK_08	Illidan sapeva quale sarebbe stato il pericolo, se Arthas fosse diventato il Re dei Lich.	
+GLUE_TIP_ADVENTURE_RLK_09	La Lama dell'Anima Gelidanima spezzava le anime e le imprigionava al proprio interno.	
+GLUE_TIP_ADVENTURE_RLK_10	"Chiunque impugnerà questa lama brandirà un potere eterno. Come la lama taglia la carne, così il potere segna lo spirito."	
 GLUE_TIP_ADVENTURE_TRL_0	I campioni che affronti diventano\nprogressivamente più forti.	
 GLUE_TIP_ADVENTURE_TRL_1	Impara punti di forza e\ndebolezza degli altri campioni!	
 GLUE_TIP_ADVENTURE_TRL_2	Fa' attenzione al tuo Santuario.\nIl tuo potere si affievolisce senza di esso.	
@@ -2734,26 +2803,27 @@ GLUE_TIP_ADVENTURE_ULD_6	Gli scontri diventeranno più difficili man mano che pa
 GLUE_TIP_ADVENTURE_ULD_7	Il nemico principale di ogni capitolo è un Portapiaga,\nun potente nemico con una grande quantità di Salute.	
 GLUE_TIP_ADVENTURE_ULD_8	Ogni capitolo presenta un "Colpo di Scena" unico causato dai Portapiaga.	
 GLUE_TIP_ADVENTURE_ULD_9	Componi un mazzo per ogni situazione: scontri diversi richiedono strategie diverse.	
-GLUE_TIP_BACON_0	Quando ottieni una Tripla, puoi anche rinvenire un servitore del tuo Livello Locanda +1.	
-GLUE_TIP_BACON_1	I servitori attaccheranno da sinistra a destra scegliendo bersagli\ncasuali, a meno che un servitore nemico non abbia Provocazione.	
-GLUE_TIP_BACON_10	Le serie di vittorie vengono mostrate sul tabellone con il simbolo del fuoco.	
+GLUE_TIP_BACON_0	Quando ottieni una Tripla, puoi anche <b>Rinvenire</b> un servitore del tuo Livello Locanda +1.	
+GLUE_TIP_BACON_1	I servitori attaccano da sinistra a destra scegliendo bersagli\ncasuali, a meno che un servitore nemico non abbia <b>Provocazione</b>.	
+GLUE_TIP_BACON_10	Le serie di vittorie vengono visualizzate sul tabellone con il simbolo del fuoco.	
 GLUE_TIP_BACON_11	Solo i potenziamenti ottenuti nella Locanda sono permanenti.\nI potenziamenti del combattimento svaniscono al termine dello stesso.	
 GLUE_TIP_BACON_12	Se i tuoi avversari comprano molte copie di uno stesso servitore, tu ne vedrai di meno.	
 GLUE_TIP_BACON_13	Se un servitore viene venduto tornerà tra quelli disponibili, quindi lo rivedrai più spesso.	
-GLUE_TIP_BACON_14	Se spendi tutto l'oro per aumentare il Livello Locanda, il tuo schieramento non sarà più all'altezza e potresti perdere.	
-GLUE_TIP_BACON_15	Se non aumenti mai il Livello Locanda, il tuo schieramento non sarà più all'altezza e potresti perdere.	
-GLUE_TIP_BACON_16	Alcuni tipi di servitori sono più forti nelle prime fasi di gioco, mentre altri eccellono nelle fasi finali.	
+GLUE_TIP_BACON_14	Spendendo tutto il tuo oro per aumentare il Livello Locanda,\npotresti rimanere indietro nei primi combattimenti.	
+GLUE_TIP_BACON_15	Non potenziando mai il tuo Livello Locanda,\npotresti restare indietro nei combattimenti finali.	
+GLUE_TIP_BACON_16	Alcuni tipi di servitori sono più forti nelle prime fasi di gioco,\nmentre altri eccellono nelle fasi finali.	
 GLUE_TIP_BACON_17	Se ti rimane 1 oro, ricarica la Locanda. Se vedi un\nservitore che ti piace, puoi congelarlo per il turno successivo.	
 GLUE_TIP_BACON_18	Con 8 giocatori totali, arrivare nella Top 4 è già\nuna vittoria! Arrivando primo otterrai la Corona del vincitore!	
 GLUE_TIP_BACON_19	Tutti i giocatori reclutano servitori dallo stesso gruppo condiviso.	
-GLUE_TIP_BACON_2	Ogni partita include diversi tipi di servitori. A volte ci saranno i Murloc, a volte no!	
+GLUE_TIP_BACON_2	Ogni partita include diversi tipi di servitori.\nA volte ci saranno i Murloc, a volte no!	
 GLUE_TIP_BACON_20	Quando elimini un avversario, i suoi servitori torneranno nel gruppo.	
-GLUE_TIP_BACON_3	Quando vinci, il tuo eroe e i tuoi servitori infliggono danni pari al proprio Livello Locanda.	
-GLUE_TIP_BACON_4	Il costo per potenziare la Locanda si riduce di 1 ogni turno.	
-GLUE_TIP_BACON_5	Ci sono solo sette copie dei servitori di Livello 6.\nQuando vengono comprate, nessun altro potrà averle!	
+GLUE_TIP_BACON_21	Durante il combattimento, il giocatore con più servitori è il primo ad attaccare.\nSe i due giocatori hanno lo stesso numero di servitori, il primo ad attaccare è casuale.	
+GLUE_TIP_BACON_3	Quando vinci un combattimento, il tuo eroe e i tuoi servitori\ninfliggono danni pari al proprio Livello Locanda.	
+GLUE_TIP_BACON_4	Il costo per potenziare il Livello Locanda si riduce di (1) ogni turno.	
+GLUE_TIP_BACON_5	Ci sono solo sette copie dei servitori di Livello 6.\nUna volta che sono state comprate, nessun altro potrà averle!	
 GLUE_TIP_BACON_6	Congela i servitori per comprarli il turno successivo o fallo nuovamente per scongelarli.	
 GLUE_TIP_BACON_7	Tre servitori Dorati non possono essere combinati per ottenere una Tripla superiore.	
-GLUE_TIP_BACON_8	Puoi vedere il tuo prossimo avversario sul tabellone. Preparati al combattimento.	
+GLUE_TIP_BACON_8	Il tuo prossimo avversario è mostrato sul tabellone. Preparati al combattimento.	
 GLUE_TIP_BACON_9	Quando rimane un numero dispari di giocatori, Kel'Thuzad resuscita i servitori di un avversario sconfitto e si unisce alla battaglia.	
 GLUE_TIP_DEFAULT_0	Nel negozio puoi acquistare delle buste di carte.	
 GLUE_TIP_DEFAULT_1	Clicca sul tuo eroe mentre modifichi un mazzo\nper cambiare il nome del mazzo stesso.	

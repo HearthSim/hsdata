@@ -49,6 +49,7 @@ GLUE_ADVENTURE_CHAPTER_TITLE_DRG_CHAPTER1	I : la bataille de la côte gelée
 GLUE_ADVENTURE_CHAPTER_TITLE_DRG_CHAPTER2	II : la mission au Repos du ver	
 GLUE_ADVENTURE_CHAPTER_TITLE_DRG_CHAPTER3	III : la bataille aérienne de la Désolation des dragons	
 GLUE_ADVENTURE_CHAPTER_TITLE_DRG_CHAPTER4	IV : l’affrontement final à Dalaran	
+GLUE_ADVENTURE_CHAPTER_TITLE_ROTLK_PROLOGUE	Prologue	
 GLUE_ADVENTURE_CHAPTER_TITLE_ULD_CHAPTER1	I. La cité perdue	
 GLUE_ADVENTURE_CHAPTER_TITLE_ULD_CHAPTER2	II. Les dunes brûlantes	
 GLUE_ADVENTURE_CHAPTER_TITLE_ULD_CHAPTER3	III. La Tombe de Khartut	
@@ -83,6 +84,7 @@ GLUE_ADVENTURE_CHAPTERPAGE_GLOBALRULE_ULD_CHAPTER1	Imprévu : des Murlocs parto
 GLUE_ADVENTURE_CHAPTERPAGE_GLOBALRULE_ULD_CHAPTER2	Imprévu : attaques de fin de tour	
 GLUE_ADVENTURE_CHAPTERPAGE_GLOBALRULE_ULD_CHAPTER3	Imprévu : serviteurs ensevelis	
 GLUE_ADVENTURE_CHAPTERPAGE_GLOBALRULE_ULD_CHAPTER4	Imprévu : serviteurs enragés	
+GLUE_ADVENTURE_CHAPTERPAGE_ROTLK_AWAITING_LICENSE	Patientez le temps qu’Arthas se souvienne de son récit…	
 GLUE_ADVENTURE_CHAPTERUNLOCKED_POPUP_TITLE	Chapitre débloqué !	
 GLUE_ADVENTURE_CHEST_POPUP_DRG	Battez les boss d’un chapitre pour obtenir des récompenses !	
 GLUE_ADVENTURE_DUNGEON_CRAWL_ANOMALY_MODE_BUTTON_LOCKED_TOOLTIP_BODY	Pendant la durée de la virée, active un effet aléatoire. Vous devez posséder tous les chapitres pour débloquer ce mode !	
@@ -239,6 +241,7 @@ GLUE_BACON_BATTLEBASH_OWNEDPRIZE	Acquis
 GLUE_BACON_BATTLEBASH_PURCHASE_BODY	Vous avez encore {0} |4(jour,jours) pour obtenir des marteaux de la Lutte acharnée. Voulez-vous vraiment effectuer cet achat ?	
 GLUE_BACON_BATTLEBASH_PURCHASE_HEADER	Temps restant	
 GLUE_BACON_BATTLEBASH_UNOWNEDPRIZE	Non acquis	
+GLUE_BACON_BATTLEGROUND_PASS	Ticket des champs de bataille	
 GLUE_BACON_BONUS	Bonus	
 GLUE_BACON_BONUS_1	Débloquer des statistiques bonus	
 GLUE_BACON_BONUS_2	Choisir entre 3 héros à chaque partie	
@@ -305,6 +308,7 @@ GLUE_BACON_PERKS_ERROR_BODY	Il n’y a actuellement aucun bonus de champs de bat
 GLUE_BACON_PERKS_ERROR_HEADER	Bonus de champs de bataille	
 GLUE_BACON_PERKS_EXPIRING_BODY	Vos bonus de champs de bataille prendront bientôt fin. Vous pouvez accéder aux avantages de champs de bataille de la prochaine saison en achetant le nouveau ticket de la taverne lors de la sortie de l’extension <color="#FF0156">Les Cendres de l’Outreterre</color>.	
 GLUE_BACON_PERKS_ON_TICKET	AVANTAGES	
+GLUE_BACON_PERKS_UNLOCKS_NOW	Déblocage immédiat !	
 GLUE_BACON_PRIVATE_GAME	Partie privée.	
 GLUE_BACON_PRIVATE_PARTY_INFO	Si vous ajoutez plus de 4 personnes, votre salon deviendra privé.	
 GLUE_BACON_PRIVATE_PARTY_TITLE	Groupe de champs de bataille	
@@ -351,12 +355,13 @@ GLUE_BACON_STATS_VALUE_HOURS_PLAYED	{0} |4(heure,heures)
 GLUE_BACON_STATS_VALUE_MINUTES_PLAYED	{0} |4(minute,minutes)	
 GLUE_BACON_SUGGESTED_INVITE_BODY	Inviter {0} à rejoindre votre groupe de champs de bataille ?	0 = Battletag of player suggested to invite to party
 GLUE_BACON_SUGGESTED_INVITE_HEADER	Suggestion d’invitation : champs de bataille	
-GLUE_BACON_TITLE_ON_TICKET	Champs de bataille	
+GLUE_BACON_TITLE_ON_TICKET	Saison	
 GLUE_BACON_TOP_4_LABEL	Top 4	
 GLUE_BACON_TOP_4_REWARD_DESC	Félicitations pour votre place dans le\ntop 4.	
 GLUE_BACON_VICTORY_BONUS_MESSAGE	Affinez votre stratégie en déverrouillant des avantages.	
 GLUE_BATTLEBASH	Lutte acharnée	
 GLUE_BATTLEBASH_ALERT_EVENT_END_DESCRIPTION	Vous avez des marteaux inutilisés. Repartez à l’assaut des champs de bataille pour récupérer vos marteaux.	
+GLUE_BATTLEBASH_ALERT_EVENT_END_DESCRIPTION_NO_HAMMERS	La Lutte acharnée est terminée.	
 GLUE_BATTLEBASH_ALERT_EVENT_END_TITLE	Fin de la Lutte acharnée	
 GLUE_BATTLEBASH_BARTENDER_REWARD_BUNDLE	Pack de {0} barmans	
 GLUE_BATTLEBASH_BOARD_REWARD_BUNDLE	Pack de {0} plateaux	
@@ -365,6 +370,8 @@ GLUE_BATTLEBASH_EMOTE_REWARD_BUNDLE	Pack de {0} emotes	0=Number of Rewards
 GLUE_BATTLEBASH_ERROR_BODY	Il y a eu un problème ! Revenez plus tard.	
 GLUE_BATTLEBASH_ERROR_HEADER	Erreur lors de la Lutte acharnée	
 GLUE_BATTLEBASH_ERROR_NO_HAMMERS	Aucun marteau	
+GLUE_BATTLEBASH_EVENT_POPUP_TIME_REM_DAYS	Fin dans {0} |4(jour,jours)	
+GLUE_BATTLEBASH_EVENT_POPUP_TIME_REM_DESC	La Lutte acharnée quitte le mode Champs de bataille ! Une nouvelle série de modèles sera bientôt disponible.	
 GLUE_BATTLEBASH_EVENT_TIME_REM_DAYS	Fin dans {0} j	0: event time remaining in days
 GLUE_BATTLEBASH_EVENT_TIME_REM_HOUR_OR_LESS	Fin dans moins de 1 h	
 GLUE_BATTLEBASH_EVENT_TIME_REM_HOURS	Fin dans {0} h	0: event time remaining in hours
@@ -533,10 +540,16 @@ GLUE_CLASS_DESCRIPTION_WARLOCK	Sacrifiez tout à votre quête de puissance démo
 GLUE_CLASS_DESCRIPTION_WARRIOR	Écrasez vos adversaires avec de puissantes armes et laissez votre soif de sang accroître votre force.	
 GLUE_CLASS_INVALID_DECK_DESC	Ce deck utilise une classe invalide.	
 GLUE_CLASS_INVALID_DECK_TITLE	Classe invalide	
+GLUE_CLASS_UNLOCKED_CARDS_DEATHKNIGHT	Cartes de chevalier de la mort disponibles dans votre collection !	
 GLUE_CLASS_UNLOCKED_CARDS_DEMONHUNTER	Cartes de chasseur de démons disponibles dans votre collection !	
 GLUE_CLASS_UNLOCKED_CARDS_MORE	27 cartes de plus	
 GLUE_CLASS_UNLOCKED_CLASS	Nouvelle classe débloquée !	
 GLUE_CLASS_UNLOCKED_DECK	Nouveau deck obtenu !	
+GLUE_CLASS_UNLOCKED_DK_CARDS_MORE	+29 cartes	
+GLUE_CLASS_UNLOCKED_DK_DECK_BBF	Chevalier de la mort de sang	
+GLUE_CLASS_UNLOCKED_DK_DECK_FFB	Chevalier de la mort de givre	
+GLUE_CLASS_UNLOCKED_DK_DECK_UUU	Chevalier de la mort impie	
+GLUE_CLASS_UNLOCKED_DK_DECKS	Nouveaux decks obtenus !	
 GLUE_CLASS_UPCOMING_DESC	Le Chasseur de démons n'est pas encore disponible.	
 GLUE_CLASS_UPCOMING_HEADER	Pas encore disponible	
 GLUE_CLOSE_TEAM	Voir la carte	
@@ -560,8 +573,14 @@ GLUE_COLLECTION_CONVERT_DECK_BODY	Rendre ce deck standard en enlèvera {0} carte
 GLUE_COLLECTION_CONVERT_DECK_HEADER	Convertir le deck	
 GLUE_COLLECTION_CRAFTING_DIAMOND	Cartes diamant	
 GLUE_COLLECTION_CRAFTING_DISENCHANT_BUTTON_TEXT	Désenchanter	
-GLUE_COLLECTION_CRAFTING_EXPLANATION	Sélectionnez une carte\npour la désenchanter.\n\nUtilisez la poussière arcanique pour créer des cartes. Obtenez de la poussière en désenchantant des cartes.\n\nLe montant de poussière dépend de la rareté de la carte.	
+GLUE_COLLECTION_CRAFTING_EXPLANATION	Désenchantez vos cartes en trop pour obtenir de la poussière arcanique et utilisez-la pour créer les cartes que vous voulez !\n\nSélectionnez une carte pour la désenchanter.	
 GLUE_COLLECTION_CRAFTING_FILTERS	Filtres	
+GLUE_COLLECTION_CRAFTING_FILTERS_INCLUDE	Compris	
+GLUE_COLLECTION_CRAFTING_FILTERS_MISSING	Manquant	
+GLUE_COLLECTION_CRAFTING_FILTERS_NORMAL	Normal	
+GLUE_COLLECTION_CRAFTING_FILTERS_OWNED	Acquis	
+GLUE_COLLECTION_CRAFTING_FILTERS_PREMIUM	Supérieur	
+GLUE_COLLECTION_CRAFTING_FILTERS_UNCRAFTABLE	Impossible à créer	
 GLUE_COLLECTION_CRAFTING_GOLDEN	Cartes dorées	
 GLUE_COLLECTION_CRAFTING_MODE	Création	
 GLUE_COLLECTION_CRAFTING_MODE_SHORT	Création	
@@ -599,6 +618,9 @@ GLUE_COLLECTION_DECK_EXTRA_CARD_WARNING_HEADER	Ajout de cartes supplémentaires
 GLUE_COLLECTION_DECK_EXTRA_CARDS_LABEL	|4(Carte supplémentaire,Cartes supplémentaires)	
 GLUE_COLLECTION_DECK_EXTRA_CARDS_POPUP_HEADER	|4(Carte supplémentaire,Cartes supplémentaires)	
 GLUE_COLLECTION_DECK_EXTRA_CARDS_POPUP_TEXT	Ce deck compte {0} |4(carte en trop,cartes en trop).\nVoulez-vous automatiquement |4(la,les) retirer ?	
+GLUE_COLLECTION_DECK_EXTRA_RUNES_WARNING_BODY	Vous pouvez ajouter des cartes runiques incompatibles, mais votre deck ne sera pas valide tant qu’elles le resteront.	
+GLUE_COLLECTION_DECK_EXTRA_RUNES_WARNING_CONFIRM	Compris !	
+GLUE_COLLECTION_DECK_EXTRA_RUNES_WARNING_HEADER	Runes incompatibles	
 GLUE_COLLECTION_DECK_FINISH_FOR_ME	Oui	
 GLUE_COLLECTION_DECK_FORMAT_CLASSIC	Classique	
 GLUE_COLLECTION_DECK_FORMAT_STANDARD	Standard	
@@ -667,6 +689,8 @@ GLUE_COLLECTION_GENERIC_ERROR	Une erreur système a empêché l’exécution de 
 GLUE_COLLECTION_GOLDEN_CARDS	Cartes dorées	
 GLUE_COLLECTION_HOME_PAGE	Vue d’ensemble	
 GLUE_COLLECTION_INCLUDE_PREMIUMS	Dorées comprises	
+GLUE_COLLECTION_INCOMPATIBLE_RUNES_DESCRIPTION	Cette carte nécessite des runes qui ne sont pas dans votre deck.	
+GLUE_COLLECTION_INCOMPATIBLE_RUNES_HEADER	Runes incompatibles	
 GLUE_COLLECTION_LETTUCE_LOADOUT_TEXT	Arsenal	
 GLUE_COLLECTION_LETTUCE_LOCK_TEXT	Dans votre groupe	
 GLUE_COLLECTION_LETTUCE_PVE_TEAMNAME	Groupe JcE	
@@ -723,6 +747,23 @@ GLUE_COLLECTION_MANAGER_SEARCH_ODD_MANA	impair	Search term to filter cards in Co
 GLUE_COLLECTION_MANAGER_SEARCH_OWNED	possédées	
 GLUE_COLLECTION_MANAGER_SEARCH_RARITY	rareté	
 GLUE_COLLECTION_MANAGER_SEARCH_REFUND	remboursement	
+GLUE_COLLECTION_MANAGER_SEARCH_RUNE_BLOOD	sang	
+GLUE_COLLECTION_MANAGER_SEARCH_RUNE_BLOOD_CHAR	s	
+GLUE_COLLECTION_MANAGER_SEARCH_RUNE_FROST	givre	
+GLUE_COLLECTION_MANAGER_SEARCH_RUNE_FROST_CHAR	g	
+GLUE_COLLECTION_MANAGER_SEARCH_RUNE_UNHOLY	impie	
+GLUE_COLLECTION_MANAGER_SEARCH_RUNE_UNHOLY_CHAR	i	
+GLUE_COLLECTION_MANAGER_SEARCH_RUNES	runes	
+GLUE_COLLECTION_MANAGER_SEARCH_SCHOOL	école	
+GLUE_COLLECTION_MANAGER_SEARCH_SCHOOL_ARCANE	arcanes	
+GLUE_COLLECTION_MANAGER_SEARCH_SCHOOL_FEL	fiel	
+GLUE_COLLECTION_MANAGER_SEARCH_SCHOOL_FIRE	feu	
+GLUE_COLLECTION_MANAGER_SEARCH_SCHOOL_FROST	givre	
+GLUE_COLLECTION_MANAGER_SEARCH_SCHOOL_HOLY	sacré	
+GLUE_COLLECTION_MANAGER_SEARCH_SCHOOL_NATURE	nature	
+GLUE_COLLECTION_MANAGER_SEARCH_SCHOOL_NONE	aucune	
+GLUE_COLLECTION_MANAGER_SEARCH_SCHOOL_SHADOW	ombre	
+GLUE_COLLECTION_MANAGER_SEARCH_SIGNATURE	signature	
 GLUE_COLLECTION_MANAGER_SEARCH_TAG	tag	
 GLUE_COLLECTION_MANAGER_SEARCH_TYPE	type	
 GLUE_COLLECTION_MANAGER_SEARCH_UPGRADABLE	amélior	intentional missing e to match upgrad{e|able|eable}
@@ -756,6 +797,8 @@ GLUE_COLLECTION_PAGE_NUM	Page {0}
 GLUE_COLLECTION_PLUS	+	
 GLUE_COLLECTION_RECENT_CARDS	Cartes récemment acquises	
 GLUE_COLLECTION_RECENTLY_NERFED	<color=#971c1cff>Cette carte ayant été modifiée récemment, sa valeur de désenchantement a été ajustée.</color>	
+GLUE_COLLECTION_RUNES_TOOLTIP_DESC	Détermine les cartes de chevalier de la mort qui sont autorisées dans votre deck.	
+GLUE_COLLECTION_RUNES_TOOLTIP_HEADER	Runes	
 GLUE_COLLECTION_SEARCH	Rechercher	
 GLUE_COLLECTION_SET_FILTER_WILD_SET_BODY	Ceci vous indiquera les cartes ne pouvant pas être utilisées en mode Standard. Voulez-vous continuer ?	
 GLUE_COLLECTION_SET_FILTER_WILD_SET_HEADER	Cartes libres	
@@ -1101,7 +1144,9 @@ GLUE_GOLD_CAP_HEADER	Montant d’or : {0} !
 GLUE_GOONS_CLASS_NAMES	Chasseur, paladin, guerrier	
 GLUE_HERO_HEROSELECT_NEW	NOUVEAU !	
 GLUE_HERO_LOCKED_DESC	Battez {0} en Partie classée ou en Entraînement pour débloquer {1}.	
+GLUE_HERO_LOCKED_LETS_GO	C’est parti !	
 GLUE_HERO_LOCKED_NAME	Verrouillé	
+GLUE_HERO_LOCKED_PROLOGUE_DESC	Pour jouer avec {0}, vous devez d’abord terminer son prologue.	
 GLUE_HERO_SKIN_PURCHASE_CONFIRMATION_HEADER	OK	
 GLUE_HERO_SKIN_PURCHASE_CONFIRMATION_MESSAGE	Voulez-vous vraiment acheter ce héros : {0} ?\n\nVous ne pourrez pas revenir en arrière une fois que vous aurez confirmé votre achat.	
 GLUE_HERO_SKIN_PURCHASE_ERROR_HEADER	Héros	
@@ -1379,9 +1424,9 @@ GLUE_LETTUCE_RENOWN_CONVERSION_CONVERT	Convertir
 GLUE_LETTUCE_RENOWN_CONVERSION_DESCRIPTION	Convertissez les pièces en trop de vos mercenaires déjà au maximum en renommée !	
 GLUE_LETTUCE_RENOWN_CONVERSION_HELPER_POPUP	Cliquez ici pour aller à l’écran de conversion et obtenir des points de renommée.	
 GLUE_LETTUCE_RENOWN_CONVERSION_TITLE	Convertir des points de renommée	
-GLUE_LETTUCE_RENOWN_OFFER_EPIC_CONVERSION_RATE	{0} |4(pièce épique, pièces épiques) en trop = {1} point de renommée	
-GLUE_LETTUCE_RENOWN_OFFER_LEGENDARY_CONVERSION_RATE	{0} |4(pièce légendaire, pièces légendaires) en trop = {1} point de renommée	
-GLUE_LETTUCE_RENOWN_OFFER_RARE_CONVERSION_RATE	{0} |4(pièce rare, pièces rares) en trop = {1} point de renommée	
+GLUE_LETTUCE_RENOWN_OFFER_EPIC_CONVERSION_RATE	{0} |4(pièce épique, pièces épiques) en trop = 1 point de renommée	0=mercenary coin amount
+GLUE_LETTUCE_RENOWN_OFFER_LEGENDARY_CONVERSION_RATE	{0} |4(pièce légendaire, pièces légendaires) en trop = 1 point de renommée	0=mercenary coin amount
+GLUE_LETTUCE_RENOWN_OFFER_RARE_CONVERSION_RATE	{0} |4(pièce rare, pièces rares) en trop = 1 point de renommée	0=mercenary coin amount
 GLUE_LETTUCE_RENOWN_PROFILE_OFFER_DETAILS_TITLE	Renommée pour le profil de : {0}.	0=mercenary name
 GLUE_LETTUCE_REWARD_KNOCKOUT_COINS_DESC	Vous possédez déjà {0}, voilà quelques pièces pour {1} !	0: mercenary name, 1: mercenary name
 GLUE_LETTUCE_REWARD_KNOCKOUT_COINS_DESC_PREMIUM	Vous possédez déjà {1} {0}, voilà quelques pièces de {2} !	0: vanity type (eg. golden), 1: mercenary name, 2: mercenary name
@@ -1452,6 +1497,7 @@ GLUE_LETTUCE_VILLAGE_TASK_CLAIM	Récupérer
 GLUE_LETTUCE_VILLAGE_TASK_COLLECTION_HELPER_TIP	Vous devez ajouter les mercenaires à votre groupe pour terminer leurs tâches personnelles !	
 GLUE_LETTUCE_VILLAGE_TASK_COLLECTION_MAP_HELPER_TIP	Ces mercenaires sont actuellement dans votre groupe. Regardez ce qu’ils veulent !	
 GLUE_LETTUCE_VILLAGE_TASK_COMPLETE	Terminé !	
+GLUE_LETTUCE_VILLAGE_TASK_DONE	Terminé	
 GLUE_LETTUCE_VILLAGE_TASK_HEADER	Tâche de mercenaire	
 GLUE_LETTUCE_VILLAGE_TASK_NUMBER	Tâche {0} : {1}	
 GLUE_LETTUCE_VILLAGE_TASK_REWARDS_TITLE	Récompenses	
@@ -1480,6 +1526,8 @@ GLUE_LETTUCE_VILLAGE_ZONES_TITLE	Point de voyage
 GLUE_LETTUCE_WORKSHOP_BUTTON	Atelier	
 GLUE_LETTUCE_YOUR_TEAM_TRAY_TITLE	Votre groupe	
 GLUE_LETTUCE_ZONE_UNLOCK_HEADER	Zone débloquée	
+GLUE_LICH_KING_FULL_NAME	Arthas Menethil	
+GLUE_LICH_KING_UNLOCK_FULL_NAME	Le roi-liche	
 GLUE_LOADING	Chargement…	
 GLUE_LOADING_BAR_TASK_1	Brassage des cartes	
 GLUE_LOADING_BAR_TASK_10	Préparation mentale	
@@ -1637,6 +1685,7 @@ GLUE_MERCENARIES_TASKBOARD_PROC_TASK_HEROIC_DIFFICULTY	(héroïque)
 GLUE_MERCENARIES_TASKBOARD_PROC_TASK_MERCENARY_LIST_1	{0}	0=mercenary name
 GLUE_MERCENARIES_TASKBOARD_PROC_TASK_MERCENARY_LIST_2	{0}, {1}	0=mercenary name, 1=mercenary_name
 GLUE_MERCENARIES_TASKBOARD_PROC_TASK_MERCENARY_LIST_3	{0}, {1}, {2}	0=mercenary name, 1=mercenary name, 2=mercenary name
+GLUE_MERCENARIES_TASKBOARD_PROC_TASK_NORMAL_DIFFICULTY	Normale	
 GLUE_MERCENARIES_TASKBOARD_RENOWN_OFFER_TITLE	Offre d’échange : {0}	0=mercenary short name
 GLUE_MERCENARIES_VILLAGE_TUTORIAL_TASK_COLLECTION_BODY	Les mercenaires de votre collection ont du travail pour vous !\n\nAjoutez-les à votre groupe pour faire avancer leurs tâches et obtenir des récompenses !	
 GLUE_MERCENARIES_VILLAGE_TUTORIAL_TASK_COLLECTION_HEADER	Tâches de mercenaires	
@@ -1777,6 +1826,7 @@ GLUE_PROGRESSION_ACHIEVEMENTS_COMPLETED	Terminé !
 GLUE_PROGRESSION_ACHIEVEMENTS_COMPLETION_REQUIRED	Nécessite l’accomplissement du haut fait	
 GLUE_PROGRESSION_ACHIEVEMENTS_RECENTLY_COMPLETED	Accomplis récemment	
 GLUE_PROGRESSION_ACHIEVEMENTS_REWARDS_BUTTON	Voir les récompenses !	
+GLUE_PROGRESSION_ACHIEVEMENTS_REWARDS_HEADER_TEXT	Récompense de haut fait	
 GLUE_PROGRESSION_ACHIEVEMENTS_STEPCOMPLETED	Étape terminée !	
 GLUE_PROGRESSION_ACHIEVEMENTS_TITLE	Hauts faits	
 GLUE_PROGRESSION_ACHIEVEMENTS_TOOLTIP_DESCRIPTION	Accomplissez des hauts faits pour obtenir plus de points.	
@@ -1867,6 +1917,7 @@ GLUE_PROGRESSION_REWARD_TRACK_XP_PROGRESS	{0}/{1}
 GLUE_PROGRESSION_REWARD_TRACK_XP_TOOLTIP_BOOST_BODY	EXP supplémentaire : +{0} %	
 GLUE_PROGRESSION_REWARD_TRACK_XP_TOOLTIP_BOOST_TITLE	Bonus d’EXP	
 GLUE_PROGRESSION_REWARDS_TITLE	Parcours de récompenses	
+GLUE_PROLOGUE_DK_REWARD	Terminez le prologue pour débloquer la classe\nchevalier de la mort ainsi que 32 cartes.	
 GLUE_PROLOGUE_REWARD	Terminez le prologue pour débloquer la classe\nchasseur de démons ainsi que 30 cartes.	
 GLUE_PUSH_NOTIFICATION_CONTEXT_BODY	Souhaitez-vous recevoir des notifications annonçant nos nouveautés ?	
 GLUE_PUSH_NOTIFICATION_CONTEXT_CANCEL	Non	
@@ -1891,7 +1942,7 @@ GLUE_PVPDR_ENTRY_POPUP_DESCRIPTION_HEROIC	Combattez pour des récompenses
 GLUE_PVPDR_ENTRY_POPUP_DESCRIPTION_NORMAL	Testez vos compétences	
 GLUE_PVPDR_ENTRY_POPUP_LABEL_HEROIC	Duel héroïque	
 GLUE_PVPDR_ENTRY_POPUP_LABEL_NORMAL	Duel non classé	
-GLUE_PVPDR_EXPANSION_SUBTITLE	Revendreth	
+GLUE_PVPDR_EXPANSION_SUBTITLE	La marche du roi-liche	
 GLUE_PVPDR_FOOTER	Choisissez un héros, créez un deck, puis améliorez-le entre chaque combat !	
 GLUE_PVPDR_HEROIC_POPUP_DESCRIPTION_HASTICKETS	Vous avez une admission pour la taverne ! Pas besoin de payer les frais, cette fois-ci !	
 GLUE_PVPDR_HEROIC_POPUP_DESCRIPTION_NOTICKETS	Qui dit plus de victoires, dit plus de récompenses !\nUtilisez une admission pour la taverne pour y accéder.	
@@ -2086,6 +2137,8 @@ GLUE_SET_ROTATION_EVEN_YEAR	Année de l’Hydre
 GLUE_SET_ROTATION_ODD_YEAR	Année du Griffon	
 GLUE_SHOP_ARCANE_ORBS	Orbes arcaniques	
 GLUE_SHOP_BOOSTER_SKU_BUTTON	{0} |4(paquet,paquets)	
+GLUE_SHOP_CARD_INCLUDED_FREE	Fait partie de l’ensemble fondamental gratuit. Débloquée après avoir terminé le prologue du chevalier de la mort.	
+GLUE_SHOP_CARD_INCLUDED_TITLE	Carte d’ensemble fondamental	
 GLUE_SHOP_CLOSED_ALERT_HEADER	Boutique fermée	
 GLUE_SHOP_CLOSED_ALERT_TEXT	La boutique est temporairement fermée. Revenez plus tard.	
 GLUE_SHOP_CONVERT_TO_ARCANE_ORBS_HEADER	Convert Runestones to Arcane Orbs	
@@ -2094,6 +2147,9 @@ GLUE_SHOP_GET_MORE_RUNESTONES	Vous n’avez pas assez de pierres runiques pour e
 GLUE_SHOP_GET_MORE_RUNESTONES_HEADER	Pas assez de pierres runiques !	
 GLUE_SHOP_LANDING_ADVENTURE_BANNER	AVENTURE	
 GLUE_SHOP_NOT_ENOUGH_RUNESTONES	Not enough Runestones	
+GLUE_SHOP_PATH_OF_ARTHAS_BLOOD	Renforcez-vous grâce à la puissance du sang.	
+GLUE_SHOP_PATH_OF_ARTHAS_FROST	Anéantissez vos adversaires avec la morsure du givre.	
+GLUE_SHOP_PATH_OF_ARTHAS_UNHOLY	Ressuscitez les morts avec une ferveur impie.	
 GLUE_SHOP_PREVIEW_HERO	Aperçu	
 GLUE_SHOP_PRICE_ARCANE_ORBS	{0} |4(orbe arcanique,orbes arcaniques)	
 GLUE_SHOP_PRICE_FREE	Gratuit !	
@@ -2215,6 +2271,8 @@ GLUE_STORE_BATTLEBASH_INFO_POPUP	Il existe un nombre déterminé de récompenses
 GLUE_STORE_BATTLEBASH_SHOPBUTTON	Ça va rosser !	
 GLUE_STORE_BATTLEGROUNDS_PASS_FLAVOR_TEXT	Débloquez tous les objets jusqu’à votre niveau actuel du parcours des champs de bataille !	
 GLUE_STORE_BATTLEGROUNDS_PASS_FLAVOR_TEXT_CHINA_DISCLAIMER	Récoltez tous les objets jusqu’à votre niveau actuel du parcours des champs de bataille ! En raison des règles encadrant le temps de jeu des personnes mineures, il est possible que ces dernières n’aient pas accès à toutes les récompenses de quêtes.	
+GLUE_STORE_BATTLEGROUNDS_PASS_PREPURCHASE_FLAVOR_TEXT	Ce ticket sera disponible en janvier !	
+GLUE_STORE_BG_PASS_PREORDER_DATE	Disponible\nen janvier !	
 GLUE_STORE_BNET_BALANCE	Porte-monnaie Blizzard	
 GLUE_STORE_BONUS_PACKS	Obtenez {0}_|4(paquet,paquets) de cartes supplémentaires pendant une durée limitée !	0 = number of bonus packs
 GLUE_STORE_BOT_PREORDER_DATE	Disponible mi-août* !	
@@ -2490,6 +2548,7 @@ GLUE_STORE_TRL_PREORDER_DATE	Disponible mi-décembre* !
 GLUE_STORE_TRL_PREORDER_DUST_DATE	卡牌包可以在十二月中旬\n打开！	
 GLUE_STORE_ULD_PREORDER_DATE	Disponible en août* !	
 GLUE_STORE_ULD_PREORDER_DUST_DATE	卡牌包可以在八月打开！	
+GLUE_STORE_UPDATING_CURRENCY_BALANCE	Votre porte-monnaie est en cours de mise à jour. Veuillez réessayer plus tard.	
 GLUE_STORE_VC_BUTTON_TOOLTIP_HEADLINE	Acheter	
 GLUE_TASK_BOARD_SEARCH_ACTIVE	Active	
 GLUE_TASK_BOARD_SEARCH_CLAIMABLE	Récupérable	
@@ -2701,6 +2760,16 @@ GLUE_TIP_ADVENTURE_LOOT_6	Adaptez votre deck aux trésors que vous trouvez pour 
 GLUE_TIP_ADVENTURE_LOOT_7	Chacune des neuf classes offre différents choix de butins pour triompher du donjon.	
 GLUE_TIP_ADVENTURE_LOOT_8	Terminez le donjon avec les neuf classes pour débloquer un dos de carte unique_!	
 GLUE_TIP_ADVENTURE_LOOT_9	L’amulette de domination ajoute des serviteurs dans votre deck. Utilisez-la à bon escient_!	
+GLUE_TIP_ADVENTURE_RLK_01	Trois runes révèlent la puissance des chevaliers de la mort : la rune de sang, la rune de givre et la rune impie.	
+GLUE_TIP_ADVENTURE_RLK_02	L’on dit parfois que Deuillegivre n’a pas assombri l’âme d’Arthas, mais qu’elle l’a simplement révélée.	
+GLUE_TIP_ADVENTURE_RLK_03	Chaque fois qu’un serviteur meurt, il laisse derrière lui un cadavre.	
+GLUE_TIP_ADVENTURE_RLK_04	En s’emparant du heaume de domination, Arthas était devenu le roi-liche.	
+GLUE_TIP_ADVENTURE_RLK_05	Mal’Ganis des nathrezims avait attiré le prince Arthas en Norfendre.	
+GLUE_TIP_ADVENTURE_RLK_06	Uther le Porteur de Lumière était un champion de la Deuxième guerre et le tuteur du prince Arthas.	
+GLUE_TIP_ADVENTURE_RLK_07	Sylvanas Coursevent était la générale des forestiers de Lune-d’Argent et la cheffe des Pérégrins.	
+GLUE_TIP_ADVENTURE_RLK_08	Illidan avait mesuré le danger que le monde courrait si Arthas devenait le roi-liche.	
+GLUE_TIP_ADVENTURE_RLK_09	La lame-du-deuil Deuillegivre scindait les âmes et les emprisonnait en son sein.	
+GLUE_TIP_ADVENTURE_RLK_10	Quiconque prend cette épée s’empare d’un pouvoir éternel. Comme la lame tranche la chair, le pouvoir balafre l’esprit.	
 GLUE_TIP_ADVENTURE_TRL_0	Les champions que vous affrontez deviennent\nde plus en plus forts au fil des parties.	
 GLUE_TIP_ADVENTURE_TRL_1	Apprenez à connaître les forces\net faiblesses des autres champions !	
 GLUE_TIP_ADVENTURE_TRL_2	Protégez votre sanctuaire.\nSans lui, vous êtes beaucoup moins puissant.	
@@ -2734,27 +2803,28 @@ GLUE_TIP_ADVENTURE_ULD_6	Les rencontres deviennent plus difficiles à mesure que
 GLUE_TIP_ADVENTURE_ULD_7	L’adversaire ultime de chaque chapitre est un porte-plaie,\nun puissant adversaire avec de nombreux points de vie.	
 GLUE_TIP_ADVENTURE_ULD_8	Chaque chapitre comprend un « imprévu » unique, causé par les porte-plaie.	
 GLUE_TIP_ADVENTURE_ULD_9	Construisez un deck polyvalent car les diverses rencontres requièrent des stratégies différentes.	
-GLUE_TIP_BACON_0	Quand vous obtenez un triple, vous découvrez aussi un serviteur de votre niveau de taverne +1.	
-GLUE_TIP_BACON_1	Les serviteurs jouent de gauche à droite et attaquent des cibles aléatoires,\nà moins qu’un serviteur adverse ait Provocation.	
-GLUE_TIP_BACON_10	Les séries de victoires sont affichées dans le tableau des scores avec un symbole « feu ».	
+GLUE_TIP_BACON_0	Quand vous obtenez un triple, vous <b>découvrez</b> aussi un serviteur de votre niveau de taverne +1.	
+GLUE_TIP_BACON_1	Les serviteurs jouent de gauche à droite et attaquent des cibles aléatoires,\nà moins qu’un serviteur adverse ait <b>Provocation</b>.	
+GLUE_TIP_BACON_10	Les séries de victoires sont affichées dans le tableau des scores avec un symbole « en feu ».	
 GLUE_TIP_BACON_11	Seules les améliorations effectuées dans la taverne sont permanentes.\nLes améliorations de combat disparaissent à la fin de la partie.	
 GLUE_TIP_BACON_12	Si vos adversaires achètent plusieurs fois le même serviteur, vous le verrez moins souvent.	
 GLUE_TIP_BACON_13	Si un serviteur est vendu, il revient dans l’inventaire, ce qui signifie que vous le reverrez plus souvent.	
-GLUE_TIP_BACON_14	Si vous dépensez tout votre or pour améliorer votre niveau de taverne, votre armée en pâtira et vous risquez de perdre.	
-GLUE_TIP_BACON_15	Si vous n’améliorez jamais votre niveau de taverne, votre troupe de guerre sera à la traîne et vous risquez de perdre.	
-GLUE_TIP_BACON_16	Certains types de serviteurs sont plus puissants en début de partie, d’autres le sont davantage en fin de partie.	
+GLUE_TIP_BACON_14	Si vous dépensez tout votre or pour améliorer votre niveau de taverne,\nvous risquez de perdre du terrain en début de combat.	
+GLUE_TIP_BACON_15	Si vous n’améliorez jamais votre niveau de taverne,\nvous risquez de perdre du terrain en fin de combat.	
+GLUE_TIP_BACON_16	Certains types de serviteurs sont plus puissants en début de partie,\nd’autres le sont davantage en fin de partie.	
 GLUE_TIP_BACON_17	S’il vous reste 1 pièce d’or, actualisez la taverne.\nSi un serviteur vous intéresse, gelez-le pour le prochain tour.	
 GLUE_TIP_BACON_18	Avec 8 combattants, rentrer dans le top 4 est un véritable succès !\nRemportez la première place pour décrocher la victoire !	
 GLUE_TIP_BACON_19	Tous les joueurs partagent le même inventaire de serviteurs.	
-GLUE_TIP_BACON_2	Chaque partie comprend un ensemble différent de types de serviteurs. Parfois vous verrez des Murlocs, et parfois pas !	
+GLUE_TIP_BACON_2	Chaque partie comprend un ensemble différent de types de serviteurs.\nParfois vous verrez des Murlocs, et parfois pas !	
 GLUE_TIP_BACON_20	Quand vous éliminez un adversaire, ses serviteurs retournent dans l’inventaire.	
-GLUE_TIP_BACON_3	Quand vous gagnez, votre héros et vos serviteurs infligent des dégâts équivalents à leur niveau de taverne.	
-GLUE_TIP_BACON_4	Améliorer votre taverne coûte 1 pièce de moins à chaque tour.	
+GLUE_TIP_BACON_21	En combat, le joueur ou la joueuse qui a le plus de serviteurs lance la première attaque.\nSi les deux adversaires ont le même nombre de serviteurs, la première attaque est attribuée aléatoirement.	
+GLUE_TIP_BACON_3	Quand vous gagnez un combat, votre héros ou héroïne et vos serviteurs\ninfligent des dégâts équivalents à leur niveau de taverne.	
+GLUE_TIP_BACON_4	L’amélioration de votre niveau de taverne vous coûte (1) pièce de moins à chaque tour.	
 GLUE_TIP_BACON_5	Il n’existe que sept copies des serviteurs de niveau 6.\nUne fois achetés, ils ne sont plus disponibles pour personne !	
 GLUE_TIP_BACON_6	Gelez des serviteurs pour les acheter au tour suivant ou ciblez-les à nouveau pour les dégeler.	
 GLUE_TIP_BACON_7	Trois serviteurs dorés ne se combinent pas en un serviteur triple supérieur.	
-GLUE_TIP_BACON_8	Vous pouvez voir votre prochain adversaire dans le tableau des scores. Préparez-vous.	
-GLUE_TIP_BACON_9	Quand il reste un nombre impair de joueurs, Kel’Thuzad ressuscite les serviteurs d’un adversaire vaincu et se joint au combat.	
+GLUE_TIP_BACON_8	Votre prochain adversaire est mis en évidence sur le tableau des scores. Préparez-vous.	
+GLUE_TIP_BACON_9	Quand il reste un nombre impair de joueurs ou joueuses, Kel’Thuzad ressuscite les serviteurs d’un adversaire vaincu et se joint au combat.	
 GLUE_TIP_DEFAULT_0	Vous pouvez acheter des paquets de cartes supplémentaires à la boutique.	
 GLUE_TIP_DEFAULT_1	Cliquez sur le héros lors de la modification d’un deck pour changer le nom du deck.	
 GLUE_TIP_DEFAULT_1_TOUCH	Touchez le héros lors de la modification d’un deck pour changer le nom du deck.	

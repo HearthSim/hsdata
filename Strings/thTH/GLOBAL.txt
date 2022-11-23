@@ -210,6 +210,9 @@ GLOBAL_CARD_SET_OG	Whispers of the Old Gods
 GLOBAL_CARD_SET_OG_RESERVE	จองสำหรับเทพโบราณ	
 GLOBAL_CARD_SET_OG_SEARCHABLE_SHORTHAND_NAMES	tog wotog wog	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.  For Whispers of the Old Gods, 'tog' should be available in all locales; wotog and wog are additional English shorthands, which should be replaced by locale specific variants.
 GLOBAL_CARD_SET_OG_SHORT	Old Gods	
+GLOBAL_CARD_SET_PA	Path of Arthas	
+GLOBAL_CARD_SET_PA_SEARCHABLE_SHORTHAND_NAMES	pa	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_PA_SHORT	Path of Arthas	
 GLOBAL_CARD_SET_PROMO	โปรโมชั่น	
 GLOBAL_CARD_SET_REV	Murder at Castle Nathria	
 GLOBAL_CARD_SET_REV_SEARCHABLE_SHORTHAND_NAMES	mcn cn rev 	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
@@ -289,6 +292,7 @@ GLOBAL_CLICK_TO_CONTINUE	คลิกเพื่อดำเนินการ�
 GLOBAL_CLICK_TO_CONTINUE_TOUCH	แตะเพื่อไปต่อ	
 GLOBAL_COLLECTION_DIAMOND	ขอบเพชร	
 GLOBAL_COLLECTION_GOLDEN	สีทอง	
+GLOBAL_COLLECTION_NORMAL	ปกติ	
 GLOBAL_COLLECTION_SIGNATURE	ซิกเนเจอร์	
 GLOBAL_COMMA_SEPARATOR	, 	
 GLOBAL_CONCEDE	ยอมแพ้	
@@ -344,9 +348,11 @@ GLOBAL_DATETIME_SPLASHSCREEN_SECONDS	< 1 นาที
 GLOBAL_DATETIME_SPLASHSCREEN_WEEKS	{0} สัปดาห์	
 GLOBAL_DATETIME_TIMER_DAYS_HOURS	{0} วัน {1} ชม.	0=days 1=hours
 GLOBAL_DATETIME_TIMER_HOURS_MINUTES	{0} ชม. {1} น.	0=hours 1=minutes
+GLOBAL_DATETIME_TIMER_LESS_THAN_X_MINUTES	< {0} น.	0=minutes
 GLOBAL_DATETIME_TIMER_MINUTES	{0} น.	0=minutes
 GLOBAL_DATETIME_TIMER_SECONDS	{0} วิ	0=seconds
 GLOBAL_DATETIME_UNLOCKS_SOON_WEEKS	ปลดล็อคในอีก {0} สัปดาห์	
+GLOBAL_DEATHKNIGHT_RUNE_LOCKED	แสดงรูนทั้งหมด	
 GLOBAL_DECK_SHARE_ACCEPT_REQUEST	แชร์	
 GLOBAL_DECK_SHARE_DECLINE_REQUEST	ไม่!	
 GLOBAL_DECK_SHARE_ERROR	เกิดข้อผิดพลาดขณะพยายามแชร์เด็ค	
@@ -444,7 +450,8 @@ GLOBAL_FRIEND_CHALLENGE_ACCEPT	ยอมรับ
 GLOBAL_FRIEND_CHALLENGE_BODY_BACON	คุณได้รับคำเชิญเข้าร่วม\nปาร์ตี้ Battlegrounds จาก:	
 GLOBAL_FRIEND_CHALLENGE_BODY_BATTLEGROUNDS_SUGGESTION	{0} ต้องการเชิญเพื่อนของตน[b]มาเข้าร่วมปาร์ตี้ Battlegrounds ของคุณ:	0=suggester name
 GLOBAL_FRIEND_CHALLENGE_BODY1	คุณถูกท้าโดย:	
-GLOBAL_FRIEND_CHALLENGE_BODY1_STANDARD	คุณได้รับคำท้าแข่งเกมมาตรฐานจาก:	
+GLOBAL_FRIEND_CHALLENGE_BODY1_CLASSIC	คุณได้รับคำท้าแข่ง\nเกมคลาสสิคจาก:	
+GLOBAL_FRIEND_CHALLENGE_BODY1_STANDARD	คุณได้รับคำท้าแข่ง\nเกมมาตรฐานจาก:	
 GLOBAL_FRIEND_CHALLENGE_BODY1_WILD	คุณได้รับคำท้าแข่ง\nเกมอิสระจาก:	
 GLOBAL_FRIEND_CHALLENGE_BODY2	ยอมรับคำท้าหรือไม่	
 GLOBAL_FRIEND_CHALLENGE_DECLINE	ปฏิเสธ	
@@ -596,7 +603,7 @@ GLOBAL_HEALTHY_GAMING_TOAST	게임을 플레이한지 {0}시간 지났습니다.
 GLOBAL_HEALTHY_GAMING_TOAST_OVER_THRESHOLD	คุณเล่นเกมมาเป็นเวลา {0} ชั่วโมง ซึ่งนานมากเกินไปแล้ว	0=hours
 GLOBAL_HELP	วิธีใช้	
 GLOBAL_HERO_LEVEL_NEXT_REWARD_TITLE	รางวัลถัดไปที่เลเวล {0}	0=level
-GLOBAL_HERO_LEVEL_REWARD_ARCANE_DUST	ผงเวทมนตร์ {0} ขวด	0=amount
+GLOBAL_HERO_LEVEL_REWARD_ARCANE_DUST	ผงเวทมนตร์ {0} หน่วย	0=amount
 GLOBAL_HERO_LEVEL_REWARD_BOOSTER	บูสเตอร์แพ็ค{0}	0=booster type
 GLOBAL_HERO_LEVEL_REWARD_GOLD	{0} โกลด์	0=amount
 GLOBAL_HERO_LEVEL_REWARD_GOLDEN_CARD	{0} {1}	0=flair 1=card name
@@ -652,6 +659,8 @@ GLOBAL_KEYWORD_COMBO	คอมโบ
 GLOBAL_KEYWORD_COMBO_MERC	คอมโบ	
 GLOBAL_KEYWORD_COMBO_TEXT	ได้รับโบนัสถ้าคุณ[b]เล่นการ์ดแล้วในเทิร์นนี้	
 GLOBAL_KEYWORD_COMBO_TEXT_MERC	ได้รับโบนัสถ้าปาร์ตี้ของ[b]คุณใช้ความสามารถ[b]ไปแล้วในเทิร์นนี้	
+GLOBAL_KEYWORD_CORPSE	ศพ	
+GLOBAL_KEYWORD_CORPSE_TEXT	ทรัพยากรที่ได้รับเมื่อ[b]มินเนี่ยนฝ่ายคุณตาย	
 GLOBAL_KEYWORD_CORRUPT	ครอบงำ	
 GLOBAL_KEYWORD_CORRUPT_TEXT	อัพเกรดในมือ[b]หลังจากคุณเล่นการ์ด[b]ค่าร่ายสูงกว่า	
 GLOBAL_KEYWORD_CORRUPTEDCARD	ถูกครอบงำ	
@@ -741,6 +750,8 @@ GLOBAL_KEYWORD_KABAL	คาบาล
 GLOBAL_KEYWORD_KABAL_COLLECTION_TEXT	ใช้การ์ดนี้ได้ในเด็คพรีสต์ เมจ หรือวอร์ล็อค	
 GLOBAL_KEYWORD_LIFESTEAL	สูบชีวิต	
 GLOBAL_KEYWORD_LIFESTEAL_TEXT	ฟื้นพลังชีวิตให้ฮีโร่[b]ของคุณเท่ากับ[b]ความเสียหายที่ทำได้	
+GLOBAL_KEYWORD_MANATHIRST	หิวมานา (X)	
+GLOBAL_KEYWORD_MANATHIRST_TEXT	ได้รับโบนัสถ้าคุณมี[b]คริสตัลมานา X อัน	
 GLOBAL_KEYWORD_MEGAWINDFURY	มหาวายุพิโรธ	
 GLOBAL_KEYWORD_MEGAWINDFURY_TEXT	โจมตีได้เทิร์นละสี่ครั้ง	
 GLOBAL_KEYWORD_MINION_TYPE_REFERENCE	ประเภทมินเนี่ยน	
@@ -1221,6 +1232,14 @@ GLOBAL_RECONNECT_RECONNECTING_HEADER	กำลังเชื่อมต่อ�
 GLOBAL_RECONNECT_RECONNECTING_LOGIN	คุณถูกตัดการเชื่อมต่อจากเกมล่าสุดของคุณ กำลังเชื่อมต่อใหม่...	
 GLOBAL_RECONNECT_TIMEOUT	ไม่สามารถเชื่อมต่อกลับไปยังเกมของคุณได้	
 GLOBAL_RECONNECT_TIMEOUT_HEADER	ข้อผิดพลาด	
+GLOBAL_REDUNDANT_NDE_BODY	คุณเพิ่งได้รับการ์ดนี้เวอร์ชัน{0}\nสุ่มเปลี่ยนการ์ดเวอร์ชัน{1}เป็นการ์ดระดับ{3}จากชุด {2} หรือไม่	0=Newly Acquired Premium, 1=Premium to reroll, 2=reroll set name, 3=card rarity
+GLOBAL_REDUNDANT_NDE_BODY_MULTIPLE_PREMIUMS	คุณเพิ่งได้รับการ์ดนี้เวอร์ชัน{0}\nสุ่มเปลี่ยนการ์ดเวอร์ชัน[b]{1}/{2}[b]เป็นการ์ดระดับ[b]{4}[b]แบบสุ่มจากชุด {3} หรือไม่	0=Newly Acquired Premium, 1=Higher premium to reroll, 2=Lower premium to reroll, 3=reroll set name, 4=card rarity
+GLOBAL_REDUNDANT_NDE_BUTTON_DECLINE	ไม่ ขอบคุณ	
+GLOBAL_REDUNDANT_NDE_BUTTON_REROLL	สุ่มเปลี่ยน!	
+GLOBAL_REDUNDANT_NDE_DOUBLE_BODY	คุณเพิ่งได้รับการ์ดนี้เวอร์ชัน[PH Premium]หลายใบ\nสุ่มเปลี่ยนการ์ดเวอร์ชัน[PH Premium]เป็นการ์ดระดับ[PH RARITY]จากชุด [PH SET] หรือไม่	
+GLOBAL_REDUNDANT_NDE_REROLL_RESULT_HEADER	สุ่มเปลี่ยนการ์ดแล้ว!	
+GLOBAL_REDUNDANT_NDE_TITLE	สุ่มเปลี่ยนการ์ด {0} ใบหรือไม่	0=card premium to reroll
+GLOBAL_REDUNDANT_NDE_TITLE_MULTIPLE_PREMIUMS	สุ่มเปลี่ยนการ์ด{0}/{1}หรือไม่	0=higher card premium to reroll, 1=lower card premium to reroll
 GLOBAL_REFRESH	รีเฟรช	
 GLOBAL_REGION_AMERICAS	อเมริกาและเอเชียตะวันออกเฉียงใต้	
 GLOBAL_REGION_ASIA	เอเชีย	
@@ -1309,6 +1328,7 @@ GLOBAL_REWARD_SARGE_TALE_HEADLINE	พาหนะ Sarge's Tale
 GLOBAL_ROLE_CASTER	นักเวท	
 GLOBAL_ROLE_FIGHTER	นักสู้	
 GLOBAL_ROLE_TANK	นักคุ้มครอง	
+GLOBAL_RUNE_REQUIREMENT_POPUP_TEXT	ดูข้อกำหนดรูนได้ที่นี่	
 GLOBAL_SCAN	สแกน	
 GLOBAL_SCREENSHOT_COMPLETE	บันทึกภาพหน้าจอไปยังเดสก์ท็อปแล้ว	
 GLOBAL_SCREENSHOT_COMPLETE_SPECIFIC_DIRECTORY	บันทึกภาพหน้าจอไปยัง{0}แล้ว	0=The directory that the file was saved to

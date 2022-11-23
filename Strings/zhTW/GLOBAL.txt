@@ -210,6 +210,9 @@ GLOBAL_CARD_SET_OG	古神碎碎念
 GLOBAL_CARD_SET_OG_RESERVE	古神保留	
 GLOBAL_CARD_SET_OG_SEARCHABLE_SHORTHAND_NAMES	古神 碎碎念	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.  For Whispers of the Old Gods, 'tog' should be available in all locales; wotog and wog are additional English shorthands, which should be replaced by locale specific variants.
 GLOBAL_CARD_SET_OG_SHORT	古神碎碎念	
+GLOBAL_CARD_SET_PA	阿薩斯之道	
+GLOBAL_CARD_SET_PA_SEARCHABLE_SHORTHAND_NAMES	pa	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_PA_SHORT	阿薩斯之道	
 GLOBAL_CARD_SET_PROMO	促銷	
 GLOBAL_CARD_SET_REV	納撒亞古堡懸案	
 GLOBAL_CARD_SET_REV_SEARCHABLE_SHORTHAND_NAMES	納薩亞 納薩亞古堡 古堡懸案 瑞文崔斯	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
@@ -289,6 +292,7 @@ GLOBAL_CLICK_TO_CONTINUE	點擊以繼續
 GLOBAL_CLICK_TO_CONTINUE_TOUCH	輕點以繼續	
 GLOBAL_COLLECTION_DIAMOND	鑽石	
 GLOBAL_COLLECTION_GOLDEN	金卡	
+GLOBAL_COLLECTION_NORMAL	普通	
 GLOBAL_COLLECTION_SIGNATURE	珍藏	
 GLOBAL_COMMA_SEPARATOR	，	
 GLOBAL_CONCEDE	投降	
@@ -344,9 +348,11 @@ GLOBAL_DATETIME_SPLASHSCREEN_SECONDS	<1分鐘
 GLOBAL_DATETIME_SPLASHSCREEN_WEEKS	{0}週	
 GLOBAL_DATETIME_TIMER_DAYS_HOURS	{0}天 {1}小時	0=days 1=hours
 GLOBAL_DATETIME_TIMER_HOURS_MINUTES	{0}小時 {1}分鐘	0=hours 1=minutes
+GLOBAL_DATETIME_TIMER_LESS_THAN_X_MINUTES	<{0}分鐘	0=minutes
 GLOBAL_DATETIME_TIMER_MINUTES	{0}分鐘	0=minutes
 GLOBAL_DATETIME_TIMER_SECONDS	{0}秒	0=seconds
 GLOBAL_DATETIME_UNLOCKS_SOON_WEEKS	{0}週後解鎖	
+GLOBAL_DEATHKNIGHT_RUNE_LOCKED	顯示全部符文	
 GLOBAL_DECK_SHARE_ACCEPT_REQUEST	分享	
 GLOBAL_DECK_SHARE_DECLINE_REQUEST	拒絕	
 GLOBAL_DECK_SHARE_ERROR	分享套牌時發生錯誤。	
@@ -444,7 +450,8 @@ GLOBAL_FRIEND_CHALLENGE_ACCEPT	接受
 GLOBAL_FRIEND_CHALLENGE_BODY_BACON	你已被邀請加入英雄戰場隊伍。\n邀請者為：	
 GLOBAL_FRIEND_CHALLENGE_BODY_BATTLEGROUNDS_SUGGESTION	{0}想要邀請他的朋友參加你的英雄戰場隊伍：	0=suggester name
 GLOBAL_FRIEND_CHALLENGE_BODY1	有好友想和你來場友誼賽：	
-GLOBAL_FRIEND_CHALLENGE_BODY1_STANDARD	有好友想和你來場\n標準友誼賽：	
+GLOBAL_FRIEND_CHALLENGE_BODY1_CLASSIC	有好友想和你來場\n\n經典友誼賽：	
+GLOBAL_FRIEND_CHALLENGE_BODY1_STANDARD	有好友想和你來場\n\n標準友誼賽：	
 GLOBAL_FRIEND_CHALLENGE_BODY1_WILD	有好友想和你來場\n開放友誼賽：	
 GLOBAL_FRIEND_CHALLENGE_BODY2	要接受嗎？	
 GLOBAL_FRIEND_CHALLENGE_DECLINE	拒絕	
@@ -652,6 +659,8 @@ GLOBAL_KEYWORD_COMBO	連擊
 GLOBAL_KEYWORD_COMBO_MERC	連擊	
 GLOBAL_KEYWORD_COMBO_TEXT	若你在本回合已經出過牌，有額外效果。	
 GLOBAL_KEYWORD_COMBO_TEXT_MERC	若你的隊伍在本回合已使用過技能，有額外效果。	
+GLOBAL_KEYWORD_CORPSE	屍體	
+GLOBAL_KEYWORD_CORPSE_TEXT	友方手下死亡後獲得資源。	
 GLOBAL_KEYWORD_CORRUPT	腐化	
 GLOBAL_KEYWORD_CORRUPT_TEXT	在你打出更高消耗的卡牌之後，會在你手中升級。	
 GLOBAL_KEYWORD_CORRUPTEDCARD	已腐化	
@@ -724,8 +733,8 @@ GLOBAL_KEYWORD_HONORABLEKILL_TEXT	在你的回合造成剛好擊殺的傷害可�
 GLOBAL_KEYWORD_HORDE	部落	
 GLOBAL_KEYWORD_HORDE_TEXT	部落包括：血精靈、哥布林、半獸人、巨魔、獸人、牛頭人、食人妖與不死族	
 GLOBAL_KEYWORD_IMMUNE	免疫	
-GLOBAL_KEYWORD_IMMUNE_REF_TEXT	無法被敵人指定或是受到傷害	
-GLOBAL_KEYWORD_IMMUNE_TEXT	無法被敵人指定或是受到傷害	
+GLOBAL_KEYWORD_IMMUNE_REF_TEXT	無法被敵人指定或是受到傷害。	
+GLOBAL_KEYWORD_IMMUNE_TEXT	無法被敵人指定或是受到傷害。	
 GLOBAL_KEYWORD_INFUSE	灌注	
 GLOBAL_KEYWORD_INFUSE_TEXT	在手中時，於X個友方手下死後升級。	
 GLOBAL_KEYWORD_INFUSED	已灌注	
@@ -741,6 +750,8 @@ GLOBAL_KEYWORD_KABAL	黑謀會
 GLOBAL_KEYWORD_KABAL_COLLECTION_TEXT	可以在法師、牧師或術士套牌中使用。	
 GLOBAL_KEYWORD_LIFESTEAL	生命竊取	
 GLOBAL_KEYWORD_LIFESTEAL_TEXT	造成的傷害會治療你的英雄。	
+GLOBAL_KEYWORD_MANATHIRST	法力渴求(X)	
+GLOBAL_KEYWORD_MANATHIRST_TEXT	若你有X顆法力水晶，獲得額外獎勵。	
 GLOBAL_KEYWORD_MEGAWINDFURY	超級風怒	
 GLOBAL_KEYWORD_MEGAWINDFURY_TEXT	每回合可攻擊四次。	
 GLOBAL_KEYWORD_MINION_TYPE_REFERENCE	手下類別	
@@ -790,7 +801,7 @@ GLOBAL_KEYWORD_SHRINE_TEXT	會在死亡後的三回合恢復。
 GLOBAL_KEYWORD_SIDEQUEST	支線任務	
 GLOBAL_KEYWORD_SIDEQUEST_TEXT	完成後能獲得獎勵	
 GLOBAL_KEYWORD_SILENCE	沉默	
-GLOBAL_KEYWORD_SILENCE_MERC	沉默	
+GLOBAL_KEYWORD_SILENCE_MERC	沉默無語	
 GLOBAL_KEYWORD_SILENCE_MERC_TEXT	移除所有卡牌效果、裝備、寶藏與附魔。	
 GLOBAL_KEYWORD_SILENCE_TEXT	移除現有的卡牌效果及附魔。	
 GLOBAL_KEYWORD_SPAREPART	備用零件	
@@ -1221,6 +1232,14 @@ GLOBAL_RECONNECT_RECONNECTING_HEADER	正在重新連線…
 GLOBAL_RECONNECT_RECONNECTING_LOGIN	上一場賽局連線中斷。正在重新連線…	
 GLOBAL_RECONNECT_TIMEOUT	重新連線失敗。	
 GLOBAL_RECONNECT_TIMEOUT_HEADER	錯誤	
+GLOBAL_REDUNDANT_NDE_BODY	你剛獲得了這張卡牌的{0}版本。\n要把{1}版本重骰為隨機的{2}{3}嗎？	0=Newly Acquired Premium, 1=Premium to reroll, 2=reroll set name, 3=card rarity
+GLOBAL_REDUNDANT_NDE_BODY_MULTIPLE_PREMIUMS	你剛獲得了這張卡牌的{0}版本。\n要把{1}/{2}版本重骰為隨機的{3}{4}嗎？	0=Newly Acquired Premium, 1=Higher premium to reroll, 2=Lower premium to reroll, 3=reroll set name, 4=card rarity
+GLOBAL_REDUNDANT_NDE_BUTTON_DECLINE	不，謝謝	
+GLOBAL_REDUNDANT_NDE_BUTTON_REROLL	重骰！	
+GLOBAL_REDUNDANT_NDE_DOUBLE_BODY	你才剛獲得這張卡牌的[PH Premium]版本。\n要將[PH Premium]版重骰成隨機的[PH SET][PH RARITY]嗎？	
+GLOBAL_REDUNDANT_NDE_REROLL_RESULT_HEADER	卡牌已重骰！	
+GLOBAL_REDUNDANT_NDE_TITLE	重骰{0}張卡牌嗎？	0=card premium to reroll
+GLOBAL_REDUNDANT_NDE_TITLE_MULTIPLE_PREMIUMS	重骰{0}/{1}卡牌嗎？	0=higher card premium to reroll, 1=lower card premium to reroll
 GLOBAL_REFRESH	重新整理	
 GLOBAL_REGION_AMERICAS	美洲&東南亞	
 GLOBAL_REGION_ASIA	亞洲	
@@ -1309,6 +1328,7 @@ GLOBAL_REWARD_SARGE_TALE_HEADLINE	薩吉的傳說坐騎
 GLOBAL_ROLE_CASTER	施法者	
 GLOBAL_ROLE_FIGHTER	戰鬥者	
 GLOBAL_ROLE_TANK	保護者	
+GLOBAL_RUNE_REQUIREMENT_POPUP_TEXT	你可以在這裡找到符文需求。	
 GLOBAL_SCAN	掃描	
 GLOBAL_SCREENSHOT_COMPLETE	螢幕截圖已存到桌面上	
 GLOBAL_SCREENSHOT_COMPLETE_SPECIFIC_DIRECTORY	螢幕截圖已存到{0}	0=The directory that the file was saved to

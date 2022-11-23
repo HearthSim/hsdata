@@ -210,6 +210,9 @@ GLOBAL_CARD_SET_OG	Пробуждение древних богов
 GLOBAL_CARD_SET_OG_RESERVE	Old Gods Reserve	
 GLOBAL_CARD_SET_OG_SEARCHABLE_SHORTHAND_NAMES	tog пдб дб	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.  For Whispers of the Old Gods, 'tog' should be available in all locales; wotog and wog are additional English shorthands, which should be replaced by locale specific variants.
 GLOBAL_CARD_SET_OG_SHORT	Древние боги	
+GLOBAL_CARD_SET_PA	Путь Артаса	
+GLOBAL_CARD_SET_PA_SEARCHABLE_SHORTHAND_NAMES	pa	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_PA_SHORT	Путь Артаса	
 GLOBAL_CARD_SET_PROMO	Промо-карты	
 GLOBAL_CARD_SET_REV	Убийство в замке Нафрия	
 GLOBAL_CARD_SET_REV_SEARCHABLE_SHORTHAND_NAMES	mcn cn rev	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
@@ -289,6 +292,7 @@ GLOBAL_CLICK_TO_CONTINUE	Щелкните, чтобы продолжить.
 GLOBAL_CLICK_TO_CONTINUE_TOUCH	Нажмите, чтобы продолжить.	
 GLOBAL_COLLECTION_DIAMOND	Алмаз	
 GLOBAL_COLLECTION_GOLDEN	Золотая карта	
+GLOBAL_COLLECTION_NORMAL	Обычные	
 GLOBAL_COLLECTION_SIGNATURE	Особая карта	
 GLOBAL_COMMA_SEPARATOR	,	
 GLOBAL_CONCEDE	Сдаться	
@@ -344,9 +348,11 @@ GLOBAL_DATETIME_SPLASHSCREEN_SECONDS	< 1 мин.
 GLOBAL_DATETIME_SPLASHSCREEN_WEEKS	{0} нед.	
 GLOBAL_DATETIME_TIMER_DAYS_HOURS	{0}дн. {1}ч.	0=days 1=hours
 GLOBAL_DATETIME_TIMER_HOURS_MINUTES	{0}ч. {1}мин.	0=hours 1=minutes
+GLOBAL_DATETIME_TIMER_LESS_THAN_X_MINUTES	< {0}мин.	0=minutes
 GLOBAL_DATETIME_TIMER_MINUTES	{0}мин.	0=minutes
 GLOBAL_DATETIME_TIMER_SECONDS	{0} сек.	0=seconds
 GLOBAL_DATETIME_UNLOCKS_SOON_WEEKS	Станет доступным через {0} |4(неделю,недели,недель)	
+GLOBAL_DEATHKNIGHT_RUNE_LOCKED	Показать все руны	
 GLOBAL_DECK_SHARE_ACCEPT_REQUEST	Поделиться	
 GLOBAL_DECK_SHARE_DECLINE_REQUEST	Ни за что!	
 GLOBAL_DECK_SHARE_ERROR	Произошла ошибка при попытке поделиться колодами.	
@@ -444,7 +450,8 @@ GLOBAL_FRIEND_CHALLENGE_ACCEPT	Принять
 GLOBAL_FRIEND_CHALLENGE_BODY_BACON	Вас пригласили на поля сражений!\nИгрок:	
 GLOBAL_FRIEND_CHALLENGE_BODY_BATTLEGROUNDS_SUGGESTION	{0} хочет пригласить своего друга в вашу группу для игры на полях сражений.	0=suggester name
 GLOBAL_FRIEND_CHALLENGE_BODY1	Вам бросает вызов:	
-GLOBAL_FRIEND_CHALLENGE_BODY1_STANDARD	Вам бросает вызов на матч стандартного формата игрок	
+GLOBAL_FRIEND_CHALLENGE_BODY1_CLASSIC	Вам бросает вызов на матч\nв классическом формате игрок	
+GLOBAL_FRIEND_CHALLENGE_BODY1_STANDARD	Вам бросает вызов на матч\nстандартного формата игрок	
 GLOBAL_FRIEND_CHALLENGE_BODY1_WILD	Вам бросает вызов на матч\nвольного формата игрок	
 GLOBAL_FRIEND_CHALLENGE_BODY2	Вы принимаете вызов?	
 GLOBAL_FRIEND_CHALLENGE_DECLINE	Отклонить	
@@ -652,6 +659,8 @@ GLOBAL_KEYWORD_COMBO	Серия приемов
 GLOBAL_KEYWORD_COMBO_MERC	Серия приемов	
 GLOBAL_KEYWORD_COMBO_TEXT	Бонус, срабатывающий, если вы уже разыграли карту на этом ходу.	
 GLOBAL_KEYWORD_COMBO_TEXT_MERC	Дополнительный эффект, срабатывающий, если ваш отряд уже применял способность на этом ходу.	
+GLOBAL_KEYWORD_CORPSE	Труп	
+GLOBAL_KEYWORD_CORPSE_TEXT	Вы получаете этот ресурс, когда погибает ваше существо.	
 GLOBAL_KEYWORD_CORRUPT	Порча	
 GLOBAL_KEYWORD_CORRUPT_TEXT	Улучшается в руке после того, как вы разыграете карту с большей стоимостью.	
 GLOBAL_KEYWORD_CORRUPTEDCARD	Под порчей	
@@ -741,6 +750,8 @@ GLOBAL_KEYWORD_KABAL	Кабал
 GLOBAL_KEYWORD_KABAL_COLLECTION_TEXT	Эту карту можно использовать в колоде жреца, мага или чернокнижника.	
 GLOBAL_KEYWORD_LIFESTEAL	Похищение жизни	
 GLOBAL_KEYWORD_LIFESTEAL_TEXT	Нанося урон, также исцеляет вашего героя.	
+GLOBAL_KEYWORD_MANATHIRST	Жажда маны (X)	
+GLOBAL_KEYWORD_MANATHIRST_TEXT	Бонус, если у вас X кристаллов маны.	
 GLOBAL_KEYWORD_MEGAWINDFURY	Меганеистовство ветра	
 GLOBAL_KEYWORD_MEGAWINDFURY_TEXT	Атакует четырежды за ход.	
 GLOBAL_KEYWORD_MINION_TYPE_REFERENCE	Тип существа	
@@ -1221,6 +1232,14 @@ GLOBAL_RECONNECT_RECONNECTING_HEADER	Подключение
 GLOBAL_RECONNECT_RECONNECTING_LOGIN	В вашей последней игре произошел разрыв соединения. Идет подключение...	
 GLOBAL_RECONNECT_TIMEOUT	Невозможно повторно подключиться к игре.	
 GLOBAL_RECONNECT_TIMEOUT_HEADER	Ошибка	
+GLOBAL_REDUNDANT_NDE_BODY	Вы получили версию {0} этой карты.\nЗаменить версию {1} на случайную карту из набора «{2}» ({3})?	0=Newly Acquired Premium, 1=Premium to reroll, 2=reroll set name, 3=card rarity
+GLOBAL_REDUNDANT_NDE_BODY_MULTIPLE_PREMIUMS	Вы получили эту карту ({0}).\nЗаменить ее варианты «{1}/{2}» на случайную карту из набора «{3}» ({4})?	0=Newly Acquired Premium, 1=Higher premium to reroll, 2=Lower premium to reroll, 3=reroll set name, 4=card rarity
+GLOBAL_REDUNDANT_NDE_BUTTON_DECLINE	Нет, спасибо	
+GLOBAL_REDUNDANT_NDE_BUTTON_REROLL	Да, заменить!	
+GLOBAL_REDUNDANT_NDE_DOUBLE_BODY	Вы получили несколько версий [PH Premium] этой карты.\nЗаменить ее версии [PH Premium] на случайные карты из набора «[PH SET]» ([PH RARITY])?	
+GLOBAL_REDUNDANT_NDE_REROLL_RESULT_HEADER	Карта заменена!	
+GLOBAL_REDUNDANT_NDE_TITLE	Заменить {0} |4(карту,карты,карт)?	0=card premium to reroll
+GLOBAL_REDUNDANT_NDE_TITLE_MULTIPLE_PREMIUMS	Заменить карты ({0}/{1})?	0=higher card premium to reroll, 1=lower card premium to reroll
 GLOBAL_REFRESH	Обновить	
 GLOBAL_REGION_AMERICAS	С. и Ю. Америка и Ю.-В. Азия	
 GLOBAL_REGION_ASIA	Азия	
@@ -1309,6 +1328,7 @@ GLOBAL_REWARD_SARGE_TALE_HEADLINE	Болтливый Серж
 GLOBAL_ROLE_CASTER	Заклинатель	
 GLOBAL_ROLE_FIGHTER	Боец	
 GLOBAL_ROLE_TANK	Защитник	
+GLOBAL_RUNE_REQUIREMENT_POPUP_TEXT	Здесь указываются требования к рунам.	
 GLOBAL_SCAN	Поиск	
 GLOBAL_SCREENSHOT_COMPLETE	Снимок экрана сохранен на рабочий стол.	
 GLOBAL_SCREENSHOT_COMPLETE_SPECIFIC_DIRECTORY	Скриншот сохранен в {0}.	0=The directory that the file was saved to
