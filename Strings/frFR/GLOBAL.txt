@@ -450,8 +450,7 @@ GLOBAL_FRIEND_CHALLENGE_ACCEPT	Accepter
 GLOBAL_FRIEND_CHALLENGE_BODY_BACON	Vous avez été invité à rejoindre un\ngroupe de champs de bataille par :	
 GLOBAL_FRIEND_CHALLENGE_BODY_BATTLEGROUNDS_SUGGESTION	{0} veut inviter quelqu’un dans votre groupe de champs de bataille :	0=suggester name
 GLOBAL_FRIEND_CHALLENGE_BODY1	Vous avez été défié par :	
-GLOBAL_FRIEND_CHALLENGE_BODY1_CLASSIC	Cette personne vous défie à\nune partie en mode Classique :	
-GLOBAL_FRIEND_CHALLENGE_BODY1_STANDARD	Cette personne vous défie à une\npartie en mode Standard :	
+GLOBAL_FRIEND_CHALLENGE_BODY1_STANDARD	Cette personne vous défie à une partie en mode Standard :	
 GLOBAL_FRIEND_CHALLENGE_BODY1_WILD	Un défi en\npartie libre vous a été lancé par_:	
 GLOBAL_FRIEND_CHALLENGE_BODY2	Acceptez-vous ce défi ?	
 GLOBAL_FRIEND_CHALLENGE_DECLINE	Refuser	
@@ -737,7 +736,7 @@ GLOBAL_KEYWORD_HONORABLEKILL_TEXT	Infligez le montant de dégâts mortels exact 
 GLOBAL_KEYWORD_HORDE	Horde	
 GLOBAL_KEYWORD_HORDE_TEXT	La Horde comprend les Elfes de sang, les Gobelins, les Demi-Orcs, les Ogres, les Orcs, les Taurens, les Trolls et les Morts-vivants.	
 GLOBAL_KEYWORD_IMMUNE	Insensible	
-GLOBAL_KEYWORD_IMMUNE_REF_TEXT	Ne peut être la cible d’adversaires ni subir de dégâts.	
+GLOBAL_KEYWORD_IMMUNE_REF_TEXT	Les personnages insensibles ne peuvent pas subir de dégâts.	
 GLOBAL_KEYWORD_IMMUNE_TEXT	Ne peut être la cible d’adversaires ni subir de dégâts.	
 GLOBAL_KEYWORD_INFUSE	Imprégnation	
 GLOBAL_KEYWORD_INFUSE_TEXT	S’améliore dans la main une fois que X serviteurs alliés sont morts.	
@@ -1013,10 +1012,18 @@ GLOBAL_MEDAL_TOOLTIP_HEADER	Médaille : {0}	0=medal name
 GLOBAL_MEDAL_TOURNAMENT_TOOLTIP_BODY	Parmi les {0} meilleurs % en Partie classée cette saison.	0=rank percentile
 GLOBAL_MERCENARIES	Mercenaires	
 GLOBAL_MERCENARIES_COOP	Mercenaire en coop	
+GLOBAL_MERCENARY_FACTION_ALLIANCE	Alliance	
+GLOBAL_MERCENARY_FACTION_EMPIRE	Empire	
+GLOBAL_MERCENARY_FACTION_EXPLORER	Explorateur	
+GLOBAL_MERCENARY_FACTION_HORDE	Horde	
+GLOBAL_MERCENARY_FACTION_LEGION	Légion	
+GLOBAL_MERCENARY_FACTION_PIRATE	Pirate	
+GLOBAL_MERCENARY_FACTION_SCOURGE	Fléau	
 GLOBAL_MINI_SET_BAR	Cavernes des Lamentations	
 GLOBAL_MINI_SET_DMF	Courses de Sombrelune	
 GLOBAL_MINI_SET_ONY	Repaire d’Onyxia	
 GLOBAL_MINI_SET_REV	Antre hors des lois	
+GLOBAL_MINI_SET_RLK	Retour à Naxxramas	
 GLOBAL_MINI_SET_SW	Mortemines	
 GLOBAL_MOBILE_ERROR_ANDROID_PHONE_DETECTED	Désolés, Hearthstone ne fonctionne pour le moment que sur les tablettes Android de 6 pouces et plus.	
 GLOBAL_MOBILE_ERROR_BREAKING_NEWS	Informations :\n\n{0}	
@@ -1072,10 +1079,16 @@ GLOBAL_OPTIONS_RESTORE_PURCHASES_POPUP_TEXT	Vous ne retrouvez pas un achat_? Vé
 GLOBAL_OPTIONS_SCREEN_SHAKE	Activer le tremblement d’écran	
 GLOBAL_OPTIONS_SKIP_NPR	Passer l’apprentissage	
 GLOBAL_OPTIONS_SKIP_TO_RANK_25	Passer au rang 25	
+GLOBAL_OPTIONS_SOUND_AMBIENT_SOUNDS_VOLUME_LABEL	Sons d’ambiance	
+GLOBAL_OPTIONS_SOUND_DIALOG_VOLUME_LABEL	Dialogue	
 GLOBAL_OPTIONS_SOUND_IN_BACKGROUND	Sons en arrière-plan	
 GLOBAL_OPTIONS_SOUND_LABEL	Son	
 GLOBAL_OPTIONS_SOUND_MASTER_VOLUME_LABEL	Volume principal	
+GLOBAL_OPTIONS_SOUND_MONO	Son mono	
 GLOBAL_OPTIONS_SOUND_MUSIC_VOLUME_LABEL	Volume de la musique	
+GLOBAL_OPTIONS_SOUND_OPTIONS_LABEL	Options sonores	
+GLOBAL_OPTIONS_SOUND_RESET_DEFAULTS	Réglages par défaut	
+GLOBAL_OPTIONS_SOUND_SOUND_EFFECT_VOLUME_LABEL	Effets sonores	
 GLOBAL_OPTIONS_SPECTATOR_OPEN_JOIN	Autoriser mes contacts à regarder mes parties	
 GLOBAL_PLAY	Jouer	
 GLOBAL_PLAY_RANKED	Partie classée	
@@ -1154,6 +1167,7 @@ GLOBAL_RACE_ALL	Tout
 GLOBAL_RACE_ALL_BATTLEGROUNDS	Amalgames	This should be the plural of DAL_087t
 GLOBAL_RACE_BLOODELF	Elfe de sang	
 GLOBAL_RACE_BLOODELF_BATTLEGROUNDS	Elfes de sang	
+GLOBAL_RACE_CELESTIAL	Astre	
 GLOBAL_RACE_CENTAUR	Centaure	
 GLOBAL_RACE_DEMON	Démon	
 GLOBAL_RACE_DEMON_BATTLEGROUNDS	Démons	
@@ -1168,12 +1182,15 @@ GLOBAL_RACE_EGG_BATTLEGROUNDS	Œufs
 GLOBAL_RACE_ELEMENTAL	Élémentaire	
 GLOBAL_RACE_ELEMENTAL_BATTLEGROUNDS	Élémentaires	
 GLOBAL_RACE_FURBOLG	Furbolg	
+GLOBAL_RACE_GNOLL	Gnoll	
 GLOBAL_RACE_GNOME	Gnome	
 GLOBAL_RACE_GNOME_BATTLEGROUNDS	Gnomes	
 GLOBAL_RACE_GOBLIN	Gobelin	
 GLOBAL_RACE_GOBLIN_BATTLEGROUNDS	Gobelins	
+GLOBAL_RACE_GOLEM	Golem	
 GLOBAL_RACE_GRONN	Gronns	
 GLOBAL_RACE_HALFORC	Demi-Orc	
+GLOBAL_RACE_HARPY	Harpie	
 GLOBAL_RACE_HIGHELF	Haut-Elfe	
 GLOBAL_RACE_HUMAN	Humain	
 GLOBAL_RACE_HUMAN_BATTLEGROUNDS	Humains	
@@ -1213,6 +1230,7 @@ GLOBAL_RACE_TROLL	Troll
 GLOBAL_RACE_TROLL_BATTLEGROUNDS	Trolls	
 GLOBAL_RACE_UNDEAD	Mort-vivant	
 GLOBAL_RACE_UNDEAD_BATTLEGROUNDS	Morts-vivants	
+GLOBAL_RACE_VULPERA	Vulpérin	
 GLOBAL_RACE_WORGEN	Worgen	
 GLOBAL_RACE_WORGEN_BATTLEGROUNDS	Worgens	
 GLOBAL_RANK_CANT_LOSE_LEVEL	Vous ne pouvez pas descendre en dessous de ce rang.	
@@ -1457,6 +1475,7 @@ GLOBAL_TUTORIAL_DEFENDER	Défenseur
 GLOBAL_TUTORIAL_HEALTH	Vie	
 GLOBAL_TUTORIAL_HERO_POWER	Pouvoir héroïque	
 GLOBAL_TUTORIAL_MINION	Serviteur	
+GLOBAL_TUTORIAL_REPLAY_HEADER	Règles de Hearthstone	
 GLOBAL_TUTORIAL_TAUNT	Provocation	
 GLOBAL_TUTORIAL_TAUNT_DESCRIPTION	Les adversaires doivent attaquer ce serviteur.	
 GLOBAL_TUTORIAL_USED	Utilisé	

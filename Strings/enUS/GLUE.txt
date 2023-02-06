@@ -58,6 +58,7 @@ GLUE_COLLECTION_DECK_TEMPLATE_REPLACE_MESSAGE	This will erase your existing deck
 GLUE_COLLECTION_DECK_TEMPLATE_SELECT_A_DECK	Select a deck recipe to learn more!
 GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_HEADER	Incomplete Deck
 GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_TEXT	You are {0} |4(card,cards) short of a full deck.\nComplete deck automatically?
+GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_TEXT_CLICK_TO_FIX_DISABLED	You are {0} |4(card,cards) short of a full deck.
 GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_TEXT_NPR	{0} |4(card requires,cards require) completion of Apprenticeship.\nReplace |4(it,them) automatically?
 GLUE_COLLECTION_DECK_INCOMPLETE_LABEL	Click to complete
 GLUE_COLLECTION_DECK_INCOMPLETE_LABEL_TOUCH	Tap to complete
@@ -69,6 +70,7 @@ GLUE_COLLECTION_DECK_EXTRA_CARD_WARNING_BODY	You can add more than {0} cards whi
 GLUE_COLLECTION_DECK_EXTRA_CARD_WARNING_CONFIRM	Got it!
 GLUE_COLLECTION_DECK_EXTRA_CARDS_POPUP_HEADER	Extra |4(Card,Cards)
 GLUE_COLLECTION_DECK_EXTRA_CARDS_POPUP_TEXT	You have {0} |4(extra card,extra cards) in this deck.\nRemove |4(it,them) automatically?
+GLUE_COLLECTION_DECK_EXTRA_CARDS_POPUP_TEXT_CLICK_TO_FIX_DISABLED	You have {0} |4(extra card,extra cards) in this deck.\nYou must remove |4(it, them) to use this deck.
 GLUE_COLLECTION_DECK_EXTRA_RUNES_WARNING_HEADER	Incompatible Runes
 GLUE_COLLECTION_DECK_EXTRA_RUNES_WARNING_BODY	Incompatible runed cards can be added, but the deck will be invalid until resolved.
 GLUE_COLLECTION_DECK_EXTRA_RUNES_WARNING_CONFIRM	Got it!
@@ -831,7 +833,7 @@ GLUE_TIP_BACON_17	If you have 1 Gold left over, refresh the Tavern.\nIf you see 
 GLUE_TIP_BACON_18	With 8 players, being in the Top 4 is a win!\nFirst place gets you the Crown!
 GLUE_TIP_BACON_19	All players recruit minions from the same shared pool.
 GLUE_TIP_BACON_20	When you wipe out an opponent, their minions go back into the pool.
-GLUE_TIP_BACON_21	During combat, the player with more minions is the first to attack. If both players have the same amount,\nthe first attacker is random.
+GLUE_TIP_BACON_21	During combat, the player with more minions is the first to attack. If both players have the same amount, the first attacker is random.
 GLUE_TIP_BACON_22	Heroes can take at most 15 damage at once until a Hero has died AND players have reached 10 Gold. Check for the blue glow on the scoreboard!
 GLUE_TIP_BACON_23	<b>Deathrattles</b> trigger before <b>Reborn</b>.
 GLUE_TIP_LETTUCE_0	Using <b>Critical Damage</b> is the key to victory!
@@ -1322,6 +1324,7 @@ GLUE_LOADINGSCREEN_APK_UPDATE_FROM_WEBSITE	Let's go to the Hearthstone website t
 GLUE_LOADINGSCREEN_OPEN_APP_STORE	Open
 GLUE_LOADINGSCREEN_MISMATCHED_VERSION	Data version mismatch
 GLUE_LOADINGSCREEN_NO_NEW_BINARY_IN_STORE	An update is required to play Hearthstone, but it is not yet available in the store. Please check again later.
+GLUE_LOADINGSCREEN_TIMEOUT_AGENT	We're having a problem transferring data. Please check your Internet connection just in case and try again.
 GLUE_WRONG_VERSION_MESSAGE	Verifying latest game updates. Please try again later.
 GLUE_DONT_SHOW_ME_THIS_AGAIN	Don't show me this again
 GLUE_UNRELIABLE_GPU_WARNING_TITLE	Graphics Device
@@ -2814,6 +2817,9 @@ GLUE_LETTUCE_COLLECTION_MERCDETAILS_ABILITIES_TITLE	Abilities
 GLUE_LETTUCE_COLLECTION_UPGRADE_ABILITY_TOOLTIP	Choose one to upgrade!
 GLUE_LETTUCE_COLLECTION_CARD_UNAVAILABLE	Unavailable
 GLUE_LETTUCE_COLLECTION_FULLY_UPGRADED_MESSAGE	Congratulations! Mercenary Maxed Out!
+GLUE_LETTUCE_COLLECTION_MYTHIC_MERC_STATS	Merc also gains
+GLUE_LETTUCE_COLLECTION_MYTHIC_MERC_STATS_FORMAT_ATTACK	+{0} Attack
+GLUE_LETTUCE_COLLECTION_MYTHIC_MERC_STATS_FORMAT_HEALTH	+{0} Health
 GLUE_LETTUCE_WORKSHOP_BUTTON	Workshop
 GLUE_LETTUCE_MERCENARY_CRAFTING_NOT_ENOUGH_COIN_BODY	Not enough coins to craft Mercenary.
 GLUE_LETTUCE_VILLAGE_TASK_TITLE	Campfire
@@ -2932,6 +2938,7 @@ GLUE_MERCENARY_RANDOM_COIN_DESCRIPTION	Gain {0} Mercenary |4(Coin,Coins) from a 
 GLUE_MERCENARY_COIN_TITLE	{0} Coins	0: name of mercenary
 GLUE_MERCENARY_COIN_DESCRIPTION	Gain {0} {1} |4(Coin,Coins).	0: number of coins, 1: mercenary name
 GLUE_LETTUCE_PVP_REWARD_POP_UP_TITLE	Earn some coins for the following mercenaries plus a random one from your party and collection
+GLUE_LETTUCE_PVP_REWARD_POP_UP_GENERIC_TITLE	Earn Renown for completing Boss Rush Bounties
 GLUE_LETTUCE_MERCDETAILS_EQUIP_DIRECTIVE	Equip
 GLUE_MERCENARY_LABEL_PORTRAIT	Portrait
 GLUE_MERCENARY_CARD_XP	XP
@@ -3045,6 +3052,7 @@ GLUE_SHOP_RUNESTONES_PURCHASE_WARNING_HEADER	Confirm
 GLUE_SHOP_RUNESTONES_PURCHASE_WARNING	Are you sure you want to buy {0}? You can't undo it once you confirm.
 GLUE_TOOLTIP_RENOWN_HEADER	Renown
 GLUE_TOOLTIP_RENOWN_DESCRIPTION	Earn Renown by converting excess Mercenary coins.
+GLUE_TOOLTIP_RENOWN_TREASURE_HEADER	Renown Treasures
 GLUE_TASK_BOARD_SEARCH_ACTIVE	Active
 GLUE_TASK_BOARD_SEARCH_CLAIMABLE	Claimable
 GLUE_TASK_BOARD_SEARCH_COMPLETED	Completed
@@ -3111,6 +3119,13 @@ GLUE_VCAPTION_SUMMON_MINION	Summon Minion
 GLUE_VCAPTION_ATTACK	Attack
 GLUE_ADVENTURE_CHAPTER_TITLE_ROTLK_PROLOGUE	Prologue	
 GLUE_ADVENTURE_CHAPTERPAGE_ROTLK_AWAITING_LICENSE	Please wait while Arthas remembers his tale...
+GLUE_LETTUCE_MYTHIC_SUB_BUTTON	Mythic	
+GLUE_LETTUCE_MYTHIC_BOUNTY_POSTER_TEXT	Mythic {0}	0=The mythic level of the bounty	
+GLUE_LETTUCE_BOUNTY_DOUBLE_BOSS_NAME	{0}\n{1}	0=bounty boss name	1=bounty boss name
+GLUE_LETTUCE_MYTHIC_BOUNTY_LEVEL	Level
+GLUE_LETTUCE_MYTHIC_CHANGE_LEVEL	Customize
+GLUE_LETTUCE_MYTHIC_UNLOCK_TEXT	Level this Mercenary to 30 and max out their Abilities and Equipment to unlock Mythic Treasures
+GLUE_LETTUCE_MYTHIC_BUTTON_TEXT	Treasures
 GLUE_TIP_ADVENTURE_RLK_01	Death Knights draw their power from three runes: Blood, Frost, and Unholy
 GLUE_TIP_ADVENTURE_RLK_02	Some say Frostmourne did not darken Arthas's soul, merely reveal it.
 GLUE_TIP_ADVENTURE_RLK_03	Whenever a minion dies, it creates a corpse.
@@ -3129,3 +3144,45 @@ GLUE_PRIVACY_DNS_REQUEST_BODY	Request Successfully Submitted
 GLUE_PRIVACY_DNS_REQUEST_BUTTON	Submit Request
 GLUE_PRIVACY_DNS_DESC_TOP	Do Not Sell or Share My Data
 GLUE_PRIVACY_DNS_DESC_BOTTOM	You can submit a request to prevent us from sharing or selling your personal information for this game
+GLUE_MERCENARIES_TRAVELPOINT_RESET_INDAYS	Resets in {0} days	0=days
+GLUE_MERCENARIES_TRAVELPOINT_RESET_INHOURS	Resets in {0} hours	0=hours
+GLUE_MERCENARIES_TRAVELPOINT_RESET_SOON	Resets in <1 hour 
+GLUE_MERCENARIES_BOUNTYBOARD_BOSSRUSH_COMING_SOON	Unlocks\nSoon
+GLUE_MERCENARIES_BOUNTYBOARD_BOSSRUSH_COMING_TOMORROW	Unlocks\nTomorrow
+GLUE_MERCENARIES_MYTHICSCALER_TITLE	Set Mythic Level
+GLUE_MERCENARIES_MYTHICSCALER_DESC	Set the level of these Boss Rush Bounties.
+GLUE_MERCENARIES_MYTHICSCALER_SET	Set
+GLUE_MERCENARIES_MYTHICSCALER_CANCEL	Cancel
+GLUE_LETTUCE_VILLAGE_ZONES_MYTHIC_UNLOCK	Mythic Mode Unlocked!
+GLUE_LETTUCE_MERCENARY_TUTORIAL_BOSS_RUSH_TITLE	Boss Rush Bounties
+GLUE_LETTUCE_MERCENARY_TUTORIAL_BOSS_RUSH_DESCRIPTION	Welcome to weekly Boss Rush Bounties!\n\nTake on multiple bosses to prove your strength!\n\nIncrease your chances by upgrading Treasures, Abilities and Equipment.
+GLUE_LETTUCE_MERCENARY_TUTORIAL_BOSS_RUSH_CONFIRM	Let's Go!
+GLUE_LETTUCE_MYTHIC_BOUNTY_LEVEL_TOOLTIP_HEADER	Set Bounty Mythic level
+GLUE_LETTUCE_MYTHIC_BOUNTY_LEVEL_TOOLTIP_BODY	Your highest level victory this week will set the baseline for next week!
+GLUE_LETTUCE_VILLAGE_TUTORIAL_VISIT_MYTHIC_TREASURE	Upgrade your Maxed Mercs
+GLUE_LETTUCE_COLLECTION_TUTORIAL_MAXED_OUT_FILTER	Filter Maxed Mercenaries
+GLUE_LETTUCE_COLLECTION_TUTORIAL_MAXED_OUT_COLLECTION	Upgrade your Maxed Merc
+GLUE_LETTUCE_COLLECTION_TUTORIAL_MAXED_OUT_UNLOCK	Access New Upgrades!
+GLUE_LETTUCE_MERCENARY_TUTORIAL_MYTHIC_TREASURE_TITLE	Renown Treasures
+GLUE_LETTUCE_MERCENARY_TUTORIAL_MYTHIC_TREASURE_CONFIRM	Let’s Go!
+GLUE_LETTUCE_MERCENARY_TUTORIAL_MYTHIC_TREASURE_DESCRIPTION_01	Maxed Mercenaries have access to Renown Treasures which can be discovered during Boss Rush Bounties. 
+GLUE_LETTUCE_MERCENARY_TUTORIAL_MYTHIC_TREASURE_DESCRIPTION_02	Their Abilities, Equipment and Treasures can be upgraded using renown.\n\nEach upgrade increases that Mercenary's stats and renown level.
+GLUE_LETTUCE_MERCENARY_TUTORIAL_MYTHIC_TREASURE_PAGE_01	Page 1/2
+GLUE_LETTUCE_MERCENARY_TUTORIAL_MYTHIC_TREASURE_PAGE_02	Page 2/2
+GLUE_LETTUCE_MYTHIC_LEVEL_TOOLTIP_HEADER	Renown Level
+GLUE_LETTUCE_MYTHIC_LEVEL_TOOLTIP_BODY	A maxed out Mercenary can gain extra levels by upgrading Treasures, Abilities and Equipment. This is their Renown Level.
+GLUE_LETTUCE_FACTION	Faction
+GLUE_LETTUCE_FACTION_ALLIANCE	Alliance
+GLUE_LETTUCE_FACTION_HORDE	Horde
+GLUE_LETTUCE_FACTION_EMPIRE	Empire
+GLUE_LETTUCE_FACTION_EXPLORER	Explorer
+GLUE_LETTUCE_FACTION_LEGION	Legion
+GLUE_LETTUCE_FACTION_PIRATE	Pirate
+GLUE_LETTUCE_FACTION_SCOURGE	Scourge
+GLUE_LETTUCE_MAXED_OUT_TOOLTIP_HEADER	Maxed Out
+GLUE_LETTUCE_MAXED_OUT_TOOLTIP_BODY	Max out a Mercenary by reaching level 30 and upgrading all abilities and equipment.
+GLUE_LETTUCE_RENOWN_TOGGLE_TOOLTIP_HEADER	Toggle Renown View
+GLUE_LETTUCE_RENOWN_TOGGLE_TOOLTIP_BODY	Switch between basic and Renown view. Renown stats only apply to Mythic level bounties.
+GLUE_LETTUCE_MAXED_FILTER_TOOLTIP_HEADER	Maxed Filter
+GLUE_LETTUCE_MAXED_FILTER_TOOLTIP_BODY	Toggle this button to show only Maxed Mercenaries.
+GLUE_LETTUCE_REWARD_ADDITIONAL_RENOWN	First time completion bonus increases at higher levels.

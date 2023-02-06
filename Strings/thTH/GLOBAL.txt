@@ -450,8 +450,7 @@ GLOBAL_FRIEND_CHALLENGE_ACCEPT	ยอมรับ
 GLOBAL_FRIEND_CHALLENGE_BODY_BACON	คุณได้รับคำเชิญเข้าร่วม\nปาร์ตี้ Battlegrounds จาก:	
 GLOBAL_FRIEND_CHALLENGE_BODY_BATTLEGROUNDS_SUGGESTION	{0} ต้องการเชิญเพื่อนของตน[b]มาเข้าร่วมปาร์ตี้ Battlegrounds ของคุณ:	0=suggester name
 GLOBAL_FRIEND_CHALLENGE_BODY1	คุณถูกท้าโดย:	
-GLOBAL_FRIEND_CHALLENGE_BODY1_CLASSIC	คุณได้รับคำท้าแข่ง\nเกมคลาสสิคจาก:	
-GLOBAL_FRIEND_CHALLENGE_BODY1_STANDARD	คุณได้รับคำท้าแข่ง\nเกมมาตรฐานจาก:	
+GLOBAL_FRIEND_CHALLENGE_BODY1_STANDARD	คุณได้รับคำท้า[b]แข่งเกมมาตรฐานจาก:	
 GLOBAL_FRIEND_CHALLENGE_BODY1_WILD	คุณได้รับคำท้าแข่ง\nเกมอิสระจาก:	
 GLOBAL_FRIEND_CHALLENGE_BODY2	ยอมรับคำท้าหรือไม่	
 GLOBAL_FRIEND_CHALLENGE_DECLINE	ปฏิเสธ	
@@ -737,7 +736,7 @@ GLOBAL_KEYWORD_HONORABLEKILL_TEXT	สร้างความเสียหา�
 GLOBAL_KEYWORD_HORDE	ชนเผ่า	
 GLOBAL_KEYWORD_HORDE_TEXT	ฝ่ายชนเผ่า ได้แก่ บลัดเอลฟ์ ก็อบลิน ฮาล์ฟออร์ค ออเกอร์ ออร์ค ทอเรน โทรลล์ และอันเดด	
 GLOBAL_KEYWORD_IMMUNE	คงกระพัน	
-GLOBAL_KEYWORD_IMMUNE_REF_TEXT	ไม่ตกเป็นเป้าหมาย[b]ของศัตรูหรือได้รับ[b]ความเสียหาย	
+GLOBAL_KEYWORD_IMMUNE_REF_TEXT	ตัวละครที่คงกระพัน[b]ไม่ได้รับความเสียหาย	
 GLOBAL_KEYWORD_IMMUNE_TEXT	ไม่ตกเป็นเป้าหมาย[b]ของศัตรูหรือได้รับ[b]ความเสียหาย	
 GLOBAL_KEYWORD_INFUSE	ซึมซับ	
 GLOBAL_KEYWORD_INFUSE_TEXT	อัพเกรดในมือ[b]หลังจากมินเนี่ยน[b]ฝ่ายคุณตาย X ตัว	
@@ -1013,10 +1012,18 @@ GLOBAL_MEDAL_TOOLTIP_HEADER	เหรียญ{0}	0=medal name
 GLOBAL_MEDAL_TOURNAMENT_TOOLTIP_BODY	อยู่ใน {0}% แรกของโหมดแข่งขันจัดอันดับในฤดูกาลนี้	0=rank percentile
 GLOBAL_MERCENARIES	ทหารรับจ้าง	
 GLOBAL_MERCENARIES_COOP	โคออปทหารรับจ้าง	
+GLOBAL_MERCENARY_FACTION_ALLIANCE	พันธมิตร	
+GLOBAL_MERCENARY_FACTION_EMPIRE	จักรวรรดิ	
+GLOBAL_MERCENARY_FACTION_EXPLORER	นักสำรวจ	
+GLOBAL_MERCENARY_FACTION_HORDE	ชนเผ่า	
+GLOBAL_MERCENARY_FACTION_LEGION	ลีเจียน	
+GLOBAL_MERCENARY_FACTION_PIRATE	โจรสลัด	
+GLOBAL_MERCENARY_FACTION_SCOURGE	สเคิร์จ	
 GLOBAL_MINI_SET_BAR	Wailing Caverns	
 GLOBAL_MINI_SET_DMF	Darkmoon Races	
 GLOBAL_MINI_SET_ONY	Onyxia’s Lair	
 GLOBAL_MINI_SET_REV	Maw and Disorder	
+GLOBAL_MINI_SET_RLK	Return to Naxxramas	
 GLOBAL_MINI_SET_SW	Deadmines	
 GLOBAL_MOBILE_ERROR_ANDROID_PHONE_DETECTED	ขออภัย ปัจจุบันสามารถเล่น Hearthstone ได้บนแท็บเล็ต Android ขนาด 6" หรือใหญ่กว่าเท่านั้น	
 GLOBAL_MOBILE_ERROR_BREAKING_NEWS	ข่าวด่วน:\n\n{0}	
@@ -1072,10 +1079,16 @@ GLOBAL_OPTIONS_RESTORE_PURCHASES_POPUP_TEXT	หาสิ่งที่คุณ
 GLOBAL_OPTIONS_SCREEN_SHAKE	เปิดการสั่นของหน้าจอ	
 GLOBAL_OPTIONS_SKIP_NPR	ข้ามการฝึกมือใหม่	
 GLOBAL_OPTIONS_SKIP_TO_RANK_25	ข้ามไปอันดับ 25	
+GLOBAL_OPTIONS_SOUND_AMBIENT_SOUNDS_VOLUME_LABEL	ระดับเสียงบรรยากาศ	
+GLOBAL_OPTIONS_SOUND_DIALOG_VOLUME_LABEL	ระดับเสียงบทสนทนา	
 GLOBAL_OPTIONS_SOUND_IN_BACKGROUND	เล่นเสียงขณะย่อหน้าต่าง	
 GLOBAL_OPTIONS_SOUND_LABEL	เสียง	
 GLOBAL_OPTIONS_SOUND_MASTER_VOLUME_LABEL	ระดับเสียงหลัก	
+GLOBAL_OPTIONS_SOUND_MONO	เสียงโมโน	
 GLOBAL_OPTIONS_SOUND_MUSIC_VOLUME_LABEL	ระดับเสียงเพลง	
+GLOBAL_OPTIONS_SOUND_OPTIONS_LABEL	ตัวเลือกเสียง	
+GLOBAL_OPTIONS_SOUND_RESET_DEFAULTS	รีเซ็ตเป็นค่าเริ่มต้น	
+GLOBAL_OPTIONS_SOUND_SOUND_EFFECT_VOLUME_LABEL	ระดับเสียงเอฟเฟกต์	
 GLOBAL_OPTIONS_SPECTATOR_OPEN_JOIN	อนุญาตให้เพื่อนชมเกมของฉัน	
 GLOBAL_PLAY	เล่น	
 GLOBAL_PLAY_RANKED	เล่นเกมจัดอันดับ	
@@ -1154,6 +1167,7 @@ GLOBAL_RACE_ALL	ทุกอย่าง
 GLOBAL_RACE_ALL_BATTLEGROUNDS	อะมัลกัม	This should be the plural of DAL_087t
 GLOBAL_RACE_BLOODELF	บลัดเอลฟ์	
 GLOBAL_RACE_BLOODELF_BATTLEGROUNDS	บลัดเอลฟ์	
+GLOBAL_RACE_CELESTIAL	เทพสวรรค์	
 GLOBAL_RACE_CENTAUR	เซนทอร์	
 GLOBAL_RACE_DEMON	ปีศาจ	
 GLOBAL_RACE_DEMON_BATTLEGROUNDS	ปีศาจ	
@@ -1168,12 +1182,15 @@ GLOBAL_RACE_EGG_BATTLEGROUNDS	ไข่
 GLOBAL_RACE_ELEMENTAL	วิญญาณธาตุ	
 GLOBAL_RACE_ELEMENTAL_BATTLEGROUNDS	วิญญาณธาตุ	
 GLOBAL_RACE_FURBOLG	เฟอร์บอล์ก	
+GLOBAL_RACE_GNOLL	โนลล์	
 GLOBAL_RACE_GNOME	โนม	
 GLOBAL_RACE_GNOME_BATTLEGROUNDS	โนม	
 GLOBAL_RACE_GOBLIN	ก็อบลิน	
 GLOBAL_RACE_GOBLIN_BATTLEGROUNDS	ก็อบลิน	
+GLOBAL_RACE_GOLEM	โกเล็ม	
 GLOBAL_RACE_GRONN	กรอนน์	
 GLOBAL_RACE_HALFORC	ฮาล์ฟออร์ค	
+GLOBAL_RACE_HARPY	ฮาร์ปี้	
 GLOBAL_RACE_HIGHELF	ไฮเอลฟ์	
 GLOBAL_RACE_HUMAN	มนุษย์	
 GLOBAL_RACE_HUMAN_BATTLEGROUNDS	มนุษย์	
@@ -1213,6 +1230,7 @@ GLOBAL_RACE_TROLL	โทรลล์
 GLOBAL_RACE_TROLL_BATTLEGROUNDS	โทรล	
 GLOBAL_RACE_UNDEAD	อันเดด	
 GLOBAL_RACE_UNDEAD_BATTLEGROUNDS	อันเดด	
+GLOBAL_RACE_VULPERA	วัลเพ-รา	
 GLOBAL_RACE_WORGEN	วอร์เก้น	
 GLOBAL_RACE_WORGEN_BATTLEGROUNDS	วอร์เก้น	
 GLOBAL_RANK_CANT_LOSE_LEVEL	คุณจะไม่ร่วงลงไปต่ำกว่าระดับนี้	
@@ -1457,6 +1475,7 @@ GLOBAL_TUTORIAL_DEFENDER	ฝ่ายป้องกัน
 GLOBAL_TUTORIAL_HEALTH	พลังชีวิต	
 GLOBAL_TUTORIAL_HERO_POWER	พลังฮีโร่	
 GLOBAL_TUTORIAL_MINION	มินเนี่ยน	
+GLOBAL_TUTORIAL_REPLAY_HEADER	กติกา Hearthstone	
 GLOBAL_TUTORIAL_TAUNT	ยั่วยุ	
 GLOBAL_TUTORIAL_TAUNT_DESCRIPTION	ศัตรูต้องโจมตีมินเนี่ยนตัวนี้ก่อน	
 GLOBAL_TUTORIAL_USED	ใช้แล้ว	
