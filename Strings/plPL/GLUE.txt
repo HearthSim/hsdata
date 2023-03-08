@@ -373,8 +373,11 @@ GLUE_BATTLEBASH_ERROR_NO_HAMMERS	Brak młotów
 GLUE_BATTLEBASH_EVENT_POPUP_TIME_REM_DAYS	Koniec za {0} |4(dzień,dni,dni)	
 GLUE_BATTLEBASH_EVENT_POPUP_TIME_REM_DESC	Łupobicie znika z Ustawki! Wkrótce pojawi się nowa partia elementów ozdobnych.	
 GLUE_BATTLEBASH_EVENT_TIME_REM_DAYS	Kończy się za {0} |4(dzień,dni,dni)	0: event time remaining in days
+GLUE_BATTLEBASH_EVENT_TIME_REM_DAYS_TOOLTIP	< {0} days	
 GLUE_BATTLEBASH_EVENT_TIME_REM_HOUR_OR_LESS	Kończy się za <1 godz.	
 GLUE_BATTLEBASH_EVENT_TIME_REM_HOURS	Kończy się za {0} godz.	0: event time remaining in hours
+GLUE_BATTLEBASH_EVENT_TIME_REM_HOURS_TOOLTIP	< {0} hours	
+GLUE_BATTLEBASH_EVENT_TIME_REM_TOOLTIP_TITLE	Ending Soon	
 GLUE_BATTLEBASH_FTUE_CLAIM_HAMMER	Łupnij sobie!	
 GLUE_BATTLEBASH_FTUE_HINT	Kliknij, aby sprawdzić Łupobicie	
 GLUE_BATTLEBASH_GET_ACCESS	Uzyskaj dostęp	
@@ -644,6 +647,7 @@ GLUE_COLLECTION_DECK_INFO_HERO_POWER_TOOLTIP	Moc specjalna
 GLUE_COLLECTION_DECK_INFO_MANA_TOOLTIP	Karty/Koszt many	
 GLUE_COLLECTION_DECK_INFO_TITLE	{0} – Informacje	
 GLUE_COLLECTION_DECK_INVALID_POPUP_HEADER	Nieprawidłowa talia	
+GLUE_COLLECTION_DECK_INVALID_SIDEBOARD_POPUP_TEXT	Masz $q |4(nieprawidłową kartę,nieprawidłowe karty,nieprawidłowych kart) w szafce.\nCzy chcesz edytować talię?	
 GLUE_COLLECTION_DECK_MISSING_CARDS_INDICATOR	{0}/{1}	
 GLUE_COLLECTION_DECK_MISSING_CARDS_LABEL	|4(Brakująca karta,Brakujące karty,Brakujących kart)	
 GLUE_COLLECTION_DECK_OVERWRITE_BODY	Chcesz zastąpić obecną talię za pomocą tej, którą masz w schowku?	
@@ -680,8 +684,11 @@ GLUE_COLLECTION_DELETE_CONFIRM_DESC	Spowoduje to usunięcie talii. Chcesz to zro
 GLUE_COLLECTION_DELETE_CONFIRM_HEADER	Usuń	
 GLUE_COLLECTION_DELETE_TEAM_CONFIRM_DESC	Spowoduje to usunięcie drużyny. Chcesz to zrobić?	
 GLUE_COLLECTION_DELETE_TEAM_UNAVAILABLE_DESC	Nie możesz usunąć tej drużyny.	
+GLUE_COLLECTION_DISABLED_NOTICE	Nie możesz tego teraz zrobić.	
 GLUE_COLLECTION_DUEL_DECKNAME	Talia do Starć	
 GLUE_COLLECTION_EMPTY_PAGE	Strona 0	
+GLUE_COLLECTION_EMPTY_SIDEBOARD_DESCRIPTION	Możesz dodać karty ze swojej kolekcji do tej szafki.	
+GLUE_COLLECTION_EMPTY_SIDEBOARD_HEADER	Pusta szafka	
 GLUE_COLLECTION_ERROR_HEADER	Błąd kolekcji!	
 GLUE_COLLECTION_FEATURED_CARDS	Wyróżnione karty	
 GLUE_COLLECTION_FINAL_REWARD	Nagroda za ukończenie	
@@ -693,6 +700,10 @@ GLUE_COLLECTION_HOME_PAGE	Przegląd
 GLUE_COLLECTION_INCLUDE_PREMIUMS	Dołącz złote	
 GLUE_COLLECTION_INCOMPATIBLE_RUNES_DESCRIPTION	Ta karta wymaga run, których nie ma w twojej talii.	
 GLUE_COLLECTION_INCOMPATIBLE_RUNES_HEADER	Niezgodne runy	
+GLUE_COLLECTION_INCOMPLETE_SIDEBOARD_DESCRIPTION	Ta talia ma niepełną szafkę. Czy na pewno chcesz zakończyć edycję?	
+GLUE_COLLECTION_INCOMPLETE_SIDEBOARD_HEADER	Niepełna szafka	
+GLUE_COLLECTION_INVALID_SIDEBOARD_CARDS_DESCRIPTION	W tej szafce są nieprawidłowe karty.	
+GLUE_COLLECTION_INVALID_SIDEBOARD_CARDS_HEADER	Nieprawidłowa szafka	
 GLUE_COLLECTION_LETTUCE_LOADOUT_TEXT	Wyposażenie	
 GLUE_COLLECTION_LETTUCE_LOCK_TEXT	W twojej drużynie	
 GLUE_COLLECTION_LETTUCE_PVE_TEAMNAME	Drużyna w trybie PvE	
@@ -984,6 +995,12 @@ GLUE_EDIT_TEAM	Edytuj drużynę
 GLUE_ERROR_DECK_RULESET_RULE_VIOLATION	Wybrana talia nie nadaje się do tego trybu gry.	
 GLUE_ERROR_DECK_VALIDATION_WRONG_FORMAT	W tym trybie nie możesz użyć dzikiej talii.	
 GLUE_ERROR_PLAY_GAME_PARTY_NOT_ALLOWED	Gracz w twojej drużynie ma zbyt wysoką klasyfikację, by grać w grupowych partiach rankingowych.	
+GLUE_ETC_BAND_FULL	Zespół jest pełny. Usuń jakąś kartę.	
+GLUE_ETC_BAND_TITLE	Zespół E.T.C.	
+GLUE_ETC_CONFIRM	Czadu!	
+GLUE_ETC_FTUE_QUOTE	Wybierz maksymalnie 3 karty, aby dołączyć do mojego zespołu. Kliknij przycisk zespołu, aby rozpocząć!	
+GLUE_ETC_FTUE_SIDEBOARD	Ta karta ma dostępną szafkę	
+GLUE_ETC_THE_BAND	Zespół	
 GLUE_EULA_BUTTON	最终用户许可协议	
 GLUE_EULA_TITLE	Umowa Licencyjna oraz Warunki Użytkowania	
 GLUE_EXTRA_CARDS_DECK_DESC	Musisz skończyć tworzenie tej talii.	
@@ -1114,7 +1131,10 @@ GLUE_GAME_MODES_POPUP_FORGE_DESC	Zbuduj talię 30 kart.
 GLUE_GAME_MODES_POPUP_HEADER	Wybierz tryb	
 GLUE_GAME_MODES_POPUP_PVPDR_DESC	[PH] Zbieraj łupy, twórz talie i walcz o chwałę!	
 GLUE_GENERIC_RANDOM_CARD_SCROLL_DESC	Twój zestaw zawierał tę kartę: {0}!	This is meant to replace the above welcome bundle strings until we have the tech to show custom strings per reward.
-GLUE_GENERIC_RANDOM_CARD_SCROLL_TITLE	To legendarna karta!	This is meant to replace the above welcome bundle strings until we have the tech to show custom strings per reward.
+GLUE_GENERIC_RANDOM_CARD_SCROLL_TITLE	To karta!	
+GLUE_GENERIC_RANDOM_EPIC_SCROLL_TITLE	To epicka karta!	
+GLUE_GENERIC_RANDOM_LEGENDARY_SCROLL_TITLE	To legendarna karta!	
+GLUE_GENERIC_RANDOM_RARE_SCROLL_TITLE	To rzadka karta!	
 GLUE_GENERIC_SPECIFIC_CARD_SCROLL_DESC	Znajdziesz go w kolekcji kart!	
 GLUE_GHOST_CARD_MISSING_DESCRIPTION	Nie masz tej karty.\nKliknij, aby znaleźć zamiennik.	
 GLUE_GHOST_CARD_MISSING_DESCRIPTION_TOUCH	Nie masz tej karty.\nDotknij, aby znaleźć zamiennik.	
@@ -1913,7 +1933,7 @@ GLUE_PROGRESSION_BATTLEGROUNDS_BONUS_ERROR_HEADER	Karnet sezonowy
 GLUE_PROGRESSION_BONUS_ERROR_BODY	Obecnie nie ma żadnych Karnetów Karczmarza. Sprawdź ponownie później.	
 GLUE_PROGRESSION_BONUS_ERROR_HEADER	Karnet Karczmarza	
 GLUE_PROGRESSION_EVENT_TAB_COMING_SOON	Początek wydarzenia za {0}	
-GLUE_PROGRESSION_EVENT_TAB_COMPLETED	Udało ci się ukończyć wszystkie zadania wydarzeń powiązane z tym wydarzeniem!	
+GLUE_PROGRESSION_EVENT_TAB_COMPLETED	Udało ci się zdobyć wszystkie nagrody z tego wydarzenia!	
 GLUE_PROGRESSION_EVENT_TAB_POPUP_EXPIRED_BODY	Wydarzenie {0} dobiegło końca. Wypatruj następnego!	
 GLUE_PROGRESSION_EVENT_TAB_POPUP_EXPIRED_TITLE	Koniec wydarzenia!	
 GLUE_PROGRESSION_EVENT_TAB_POPUP_FORGOT_REWARDS_BODY	Do twojej kolekcji dodano {0} |4(nagrodę,nagrody,nagród) z poprzedniego wydarzenia: {1}.	
@@ -2880,9 +2900,10 @@ GLUE_TIP_BACON_18	Graczy jest ośmiu – każde miejsce w pierwszej czwórce to 
 GLUE_TIP_BACON_19	Wszyscy gracze rekrutują stronników z tej samej, wspólnej puli.	
 GLUE_TIP_BACON_2	W każdej grze bierze udział inny zestaw rodzajów stronników.\nCzasem są wśród nich Murloki, a czasem nie!	
 GLUE_TIP_BACON_20	Gdy pokonasz przeciwnika, jego stronnicy wracają do puli.	
-GLUE_TIP_BACON_21	Podczas walki jako pierwszy atakuje gracz posiadający więcej stronników. Jeśli obaj gracze mają tyle samo stronników, jako pierwszy atakuje gracz wybrany losowo.	
-GLUE_TIP_BACON_22	Bohaterowie mogą otrzymać najwyżej 15 pkt. obrażeń naraz aż do śmierci któregoś z bohaterów ORAZ zdobycia przez graczy 10 szt. złota. Wypatruj niebieskiej poświaty na tablicy wyników!	
+GLUE_TIP_BACON_21	Podczas walki jako pierwszy atakuje gracz posiadający więcej stronników. W razie remisu, jako pierwszy atakuje gracz wybrany losowo.	
+GLUE_TIP_BACON_22	Gracze mogą otrzymać najwyżej 15 pkt. obrażeń naraz aż do śmierci któregoś z bohaterów ORAZ zdobycia przez graczy 10 szt. złota.	
 GLUE_TIP_BACON_23	<b>Agonie</b> aktywowane są przed <b>Odrodzeniem</b>.	
+GLUE_TIP_BACON_24	Im wyższy poziom towarzysza, tym więcej złota kosztuje.	
 GLUE_TIP_BACON_3	Gdy wygrasz walkę, twój bohater i stronnicy\nzadają obrażenia równe twojemu poziomowi Karczmy.	
 GLUE_TIP_BACON_4	Koszt zwiększenia poziomu Karczmy w każdej turze maleje o (1).	
 GLUE_TIP_BACON_5	Istnieje tylko siedem kopii stronników poziomu 6.\nGdy zostaną kupieni, będą niedostępni dla wszystkich!	

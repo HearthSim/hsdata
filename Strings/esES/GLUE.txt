@@ -373,8 +373,11 @@ GLUE_BATTLEBASH_ERROR_NO_HAMMERS	Sin martillos
 GLUE_BATTLEBASH_EVENT_POPUP_TIME_REM_DAYS	Acaba en {0} |4(día,días)	
 GLUE_BATTLEBASH_EVENT_POPUP_TIME_REM_DESC	¡El Golpe de batalla sale de la rotación de Campos de batalla! Pronto entrará una nueva selección de cosméticos.	
 GLUE_BATTLEBASH_EVENT_TIME_REM_DAYS	Acaba en {0} d	0: event time remaining in days
+GLUE_BATTLEBASH_EVENT_TIME_REM_DAYS_TOOLTIP	< {0} days	
 GLUE_BATTLEBASH_EVENT_TIME_REM_HOUR_OR_LESS	Acaba en < 1 h	
 GLUE_BATTLEBASH_EVENT_TIME_REM_HOURS	Acaba en {0} h	0: event time remaining in hours
+GLUE_BATTLEBASH_EVENT_TIME_REM_HOURS_TOOLTIP	< {0} hours	
+GLUE_BATTLEBASH_EVENT_TIME_REM_TOOLTIP_TITLE	Ending Soon	
 GLUE_BATTLEBASH_FTUE_CLAIM_HAMMER	¡Golpea!	
 GLUE_BATTLEBASH_FTUE_HINT	Pulsa para ver Golpe de batalla	
 GLUE_BATTLEBASH_GET_ACCESS	Acceder	
@@ -644,6 +647,7 @@ GLUE_COLLECTION_DECK_INFO_HERO_POWER_TOOLTIP	Poder de héroe
 GLUE_COLLECTION_DECK_INFO_MANA_TOOLTIP	Cartas / Coste de maná	
 GLUE_COLLECTION_DECK_INFO_TITLE	{0} datos	
 GLUE_COLLECTION_DECK_INVALID_POPUP_HEADER	Mazo no válido	
+GLUE_COLLECTION_DECK_INVALID_SIDEBOARD_POPUP_TEXT	Tienes |4(carta no válida, cartas no válidas) en tu submazo.\n¿Quieres editar el mazo?	
 GLUE_COLLECTION_DECK_MISSING_CARDS_INDICATOR	{0}/{1}	
 GLUE_COLLECTION_DECK_MISSING_CARDS_LABEL	|4(carta,cartas) por añadir	
 GLUE_COLLECTION_DECK_OVERWRITE_BODY	¿Quieres reemplazar el mazo actual por el mazo del portapapeles?	
@@ -680,8 +684,11 @@ GLUE_COLLECTION_DELETE_CONFIRM_DESC	Esto eliminará tu mazo. ¿Seguro que quiere
 GLUE_COLLECTION_DELETE_CONFIRM_HEADER	Eliminar	
 GLUE_COLLECTION_DELETE_TEAM_CONFIRM_DESC	Esto eliminará tu grupo. ¿Seguro que quieres continuar?	
 GLUE_COLLECTION_DELETE_TEAM_UNAVAILABLE_DESC	No puedes borrar este grupo.	
+GLUE_COLLECTION_DISABLED_NOTICE	No puedes hacer eso.	
 GLUE_COLLECTION_DUEL_DECKNAME	Mazo de Duelos	
 GLUE_COLLECTION_EMPTY_PAGE	Página 0	
+GLUE_COLLECTION_EMPTY_SIDEBOARD_DESCRIPTION	Se pueden añadir cartas de tu colección a este submazo.	
+GLUE_COLLECTION_EMPTY_SIDEBOARD_HEADER	Submazo vacío	
 GLUE_COLLECTION_ERROR_HEADER	¡Error de colección!	
 GLUE_COLLECTION_FEATURED_CARDS	Cartas destacadas	
 GLUE_COLLECTION_FINAL_REWARD	Recompensa final	
@@ -693,6 +700,10 @@ GLUE_COLLECTION_HOME_PAGE	Vista general
 GLUE_COLLECTION_INCLUDE_PREMIUMS	Incluir doradas	
 GLUE_COLLECTION_INCOMPATIBLE_RUNES_DESCRIPTION	Esta carta requiere runas que tu mazo no tiene.	
 GLUE_COLLECTION_INCOMPATIBLE_RUNES_HEADER	Runas incompatibles	
+GLUE_COLLECTION_INCOMPLETE_SIDEBOARD_DESCRIPTION	El submazo está incompleto. ¿Seguro que quieres dejar de editar el mazo?	
+GLUE_COLLECTION_INCOMPLETE_SIDEBOARD_HEADER	Submazo incompleto	
+GLUE_COLLECTION_INVALID_SIDEBOARD_CARDS_DESCRIPTION	Este submazo tiene cartas no válidas.	
+GLUE_COLLECTION_INVALID_SIDEBOARD_CARDS_HEADER	Submazo no válido	
 GLUE_COLLECTION_LETTUCE_LOADOUT_TEXT	Equipamiento	
 GLUE_COLLECTION_LETTUCE_LOCK_TEXT	En tu grupo	
 GLUE_COLLECTION_LETTUCE_PVE_TEAMNAME	Grupo JcE	
@@ -984,6 +995,12 @@ GLUE_EDIT_TEAM	Editar grupo
 GLUE_ERROR_DECK_RULESET_RULE_VIOLATION	El mazo seleccionado no es válido para este modo de juego.	
 GLUE_ERROR_DECK_VALIDATION_WRONG_FORMAT	No puedes usar un mazo salvaje en este modo.	
 GLUE_ERROR_PLAY_GAME_PARTY_NOT_ALLOWED	Un jugador de tu grupo tiene un rango demasiado alto para jugar partidas con rango en grupo.	
+GLUE_ETC_BAND_FULL	Tu banda está llena. Primero debes quitar una carta.	
+GLUE_ETC_BAND_TITLE	Banda de ETC	
+GLUE_ETC_CONFIRM	¡A roquear!	
+GLUE_ETC_FTUE_QUOTE	Elige hasta 3 cartas para unirte a mi banda. ¡Pulsa el botón La banda para empezar!	
+GLUE_ETC_FTUE_SIDEBOARD	Esta carta tiene un «submazo»	
+GLUE_ETC_THE_BAND	La banda	
 GLUE_EULA_BUTTON	最终用户许可协议	
 GLUE_EULA_TITLE	EULA	
 GLUE_EXTRA_CARDS_DECK_DESC	Tienes que acabar de crear este mazo.	
@@ -1114,7 +1131,10 @@ GLUE_GAME_MODES_POPUP_FORGE_DESC	Crea un mazo con 30 cartas.
 GLUE_GAME_MODES_POPUP_HEADER	Elige un modo	
 GLUE_GAME_MODES_POPUP_PVPDR_DESC	¡Saquea, recluta y lucha por la gloria!	
 GLUE_GENERIC_RANDOM_CARD_SCROLL_DESC	¡Tu pack contenía: {0}!	This is meant to replace the above welcome bundle strings until we have the tech to show custom strings per reward.
-GLUE_GENERIC_RANDOM_CARD_SCROLL_TITLE	¡Es una carta legendaria!	This is meant to replace the above welcome bundle strings until we have the tech to show custom strings per reward.
+GLUE_GENERIC_RANDOM_CARD_SCROLL_TITLE	¡Es una carta!	
+GLUE_GENERIC_RANDOM_EPIC_SCROLL_TITLE	¡Es una carta épica!	
+GLUE_GENERIC_RANDOM_LEGENDARY_SCROLL_TITLE	¡Es una carta legendaria!	
+GLUE_GENERIC_RANDOM_RARE_SCROLL_TITLE	¡Es una carta poco común!	
 GLUE_GENERIC_SPECIFIC_CARD_SCROLL_DESC	¡La encontrarás en tu colección de cartas!	
 GLUE_GHOST_CARD_MISSING_DESCRIPTION	No tienes esta carta.\nHaz clic para encontrar un reemplazo.	
 GLUE_GHOST_CARD_MISSING_DESCRIPTION_TOUCH	No tienes esta carta.\nToca la pantalla para encontrar un reemplazo.	
@@ -1913,7 +1933,7 @@ GLUE_PROGRESSION_BATTLEGROUNDS_BONUS_ERROR_HEADER	Pase de temporada
 GLUE_PROGRESSION_BONUS_ERROR_BODY	Ahora mismo no hay pases de taberna. Vuelve a intentarlo más tarde.	
 GLUE_PROGRESSION_BONUS_ERROR_HEADER	Pase de taberna	
 GLUE_PROGRESSION_EVENT_TAB_COMING_SOON	El evento empieza en {0}	
-GLUE_PROGRESSION_EVENT_TAB_COMPLETED	¡Has completado todas las misiones de evento disponibles para este evento!	
+GLUE_PROGRESSION_EVENT_TAB_COMPLETED	¡Has ganado todas las recompensas disponibles para este evento!	
 GLUE_PROGRESSION_EVENT_TAB_POPUP_EXPIRED_BODY	El evento {0} ha finalizado. ¡Te avisaremos para el siguiente!	
 GLUE_PROGRESSION_EVENT_TAB_POPUP_EXPIRED_TITLE	¡El evento ha terminado!	
 GLUE_PROGRESSION_EVENT_TAB_POPUP_FORGOT_REWARDS_BODY	{0} |4(recompensa añadida,recompensas añadidas) a tu colección de un evento anterior: {1}.	
@@ -2880,9 +2900,10 @@ GLUE_TIP_BACON_18	Con 8 jugadores, ¡estar entre los 4 primeros es una victoria!
 GLUE_TIP_BACON_19	Todos los jugadores reclutan a esbirros de la misma reserva compartida.	
 GLUE_TIP_BACON_2	Cada partida incluye un conjunto diferente de tipos de esbirros.\n¡A veces hay múrlocs y a veces no!	
 GLUE_TIP_BACON_20	Cuando acabas con un oponente, sus esbirros regresan a la reserva.	
-GLUE_TIP_BACON_21	Durante el combate, el jugador con más esbirros es el primero en atacar. Si ambos jugadores tienen la misma cantidad, el primer atacante es aleatorio.	
-GLUE_TIP_BACON_22	Los héroes pueden recibir 15 p. de daño de una vez como mucho hasta que un héroe ha muerto y los jugadores han alcanzado (10) de oro. ¡Fíjate en el brillo azul en la clasificación!	
+GLUE_TIP_BACON_21	En el combate, el jugador con más esbirros es el primero en atacar. Si hay un empate, el primer atacante es aleatorio.	
+GLUE_TIP_BACON_22	Los jugadores pueden recibir 15 p. de daño de una vez como mucho hasta que un héroe ha muerto y los jugadores han alcanzado (10) de oro.	
 GLUE_TIP_BACON_23	Los <b>Últimos alientos</b> se activan antes de <b>Renacer</b>.	
+GLUE_TIP_BACON_24	Cuanto mayor sea el nivel del colega, mayor será el coste de oro.	
 GLUE_TIP_BACON_3	Cuando ganas un combate, tu héroe y tus esbirros\ninfligen un daño equivalente a su nivel de taberna.	
 GLUE_TIP_BACON_4	El coste de mejorar tu nivel de taberna disminuye en (1) de oro en cada turno.	
 GLUE_TIP_BACON_5	Solo hay 7 copias de los esbirros de nivel 6.\nCuando se compran, ¡se acaban para todos!	

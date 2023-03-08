@@ -373,8 +373,11 @@ GLUE_BATTLEBASH_ERROR_NO_HAMMERS	Keine Hämmer
 GLUE_BATTLEBASH_EVENT_POPUP_TIME_REM_DAYS	Endet in {0} |4(Tag,Tagen)	
 GLUE_BATTLEBASH_EVENT_POPUP_TIME_REM_DESC	Der Preishammer verlässt den Schlachtfeldmodus! Ein neues Set kosmetischer Gegenstände wird bald verfügbar.	
 GLUE_BATTLEBASH_EVENT_TIME_REM_DAYS	Endet in {0} T.	0: event time remaining in days
+GLUE_BATTLEBASH_EVENT_TIME_REM_DAYS_TOOLTIP	< {0} days	
 GLUE_BATTLEBASH_EVENT_TIME_REM_HOUR_OR_LESS	Endet in <1 Stunde	
 GLUE_BATTLEBASH_EVENT_TIME_REM_HOURS	Endet in {0} Std.	0: event time remaining in hours
+GLUE_BATTLEBASH_EVENT_TIME_REM_HOURS_TOOLTIP	< {0} hours	
+GLUE_BATTLEBASH_EVENT_TIME_REM_TOOLTIP_TITLE	Ending Soon	
 GLUE_BATTLEBASH_FTUE_CLAIM_HAMMER	Schlagt jetzt zu!	
 GLUE_BATTLEBASH_FTUE_HINT	Klicken, um den Preishammer anzusehen.	
 GLUE_BATTLEBASH_GET_ACCESS	Erhaltet Zugang	
@@ -644,6 +647,7 @@ GLUE_COLLECTION_DECK_INFO_HERO_POWER_TOOLTIP	Heldenfähigkeit
 GLUE_COLLECTION_DECK_INFO_MANA_TOOLTIP	Karten/Manakosten	
 GLUE_COLLECTION_DECK_INFO_TITLE	{0} Info	
 GLUE_COLLECTION_DECK_INVALID_POPUP_HEADER	Unzulässiges Deck	
+GLUE_COLLECTION_DECK_INVALID_SIDEBOARD_POPUP_TEXT	Ihr habt |4(eine ungültige Karte,ungültige Karten) in Eurem Nebendeck.\nWollt Ihr es bearbeiten?	
 GLUE_COLLECTION_DECK_MISSING_CARDS_INDICATOR	{0}/{1}	
 GLUE_COLLECTION_DECK_MISSING_CARDS_LABEL	Fehlende |4(Karte,Karten)	
 GLUE_COLLECTION_DECK_OVERWRITE_BODY	Möchtet Ihr das aktuelle Deck durch das Deck in der Zwischenablage ersetzen?	
@@ -680,8 +684,11 @@ GLUE_COLLECTION_DELETE_CONFIRM_DESC	Dadurch wird Euer Deck gelöscht. Seid Ihr s
 GLUE_COLLECTION_DELETE_CONFIRM_HEADER	Löschen	
 GLUE_COLLECTION_DELETE_TEAM_CONFIRM_DESC	Dadurch wird Eure Gruppe gelöscht. Seid Ihr sicher?	
 GLUE_COLLECTION_DELETE_TEAM_UNAVAILABLE_DESC	Ihr könnt diese Gruppe nicht löschen.	
+GLUE_COLLECTION_DISABLED_NOTICE	Das könnt Ihr momentan nicht tun.	
 GLUE_COLLECTION_DUEL_DECKNAME	Duelldeck	
 GLUE_COLLECTION_EMPTY_PAGE	Seite 0	
+GLUE_COLLECTION_EMPTY_SIDEBOARD_DESCRIPTION	Karten aus Eurer Sammlung können diesem Nebendeck hinzugefügt werden.	
+GLUE_COLLECTION_EMPTY_SIDEBOARD_HEADER	Leeres Nebendeck	
 GLUE_COLLECTION_ERROR_HEADER	Fehler in der Sammlung!	
 GLUE_COLLECTION_FEATURED_CARDS	Aktuell	
 GLUE_COLLECTION_FINAL_REWARD	Letzte Belohnung	
@@ -693,6 +700,10 @@ GLUE_COLLECTION_HOME_PAGE	Übersicht
 GLUE_COLLECTION_INCLUDE_PREMIUMS	+ goldene Karten	
 GLUE_COLLECTION_INCOMPATIBLE_RUNES_DESCRIPTION	Diese Karte benötigt Runen, über die Euer Deck nicht verfügt.	
 GLUE_COLLECTION_INCOMPATIBLE_RUNES_HEADER	Runen nicht kompatibel	
+GLUE_COLLECTION_INCOMPLETE_SIDEBOARD_DESCRIPTION	Dieses Deck hat ein unvollständiges Nebendeck. Seid Ihr sicher, dass Ihr die Bearbeitung abschließen wollt?	
+GLUE_COLLECTION_INCOMPLETE_SIDEBOARD_HEADER	Unvollständiges Nebendeck	
+GLUE_COLLECTION_INVALID_SIDEBOARD_CARDS_DESCRIPTION	Dieses Nebendeck enthält ungültige Karten.	
+GLUE_COLLECTION_INVALID_SIDEBOARD_CARDS_HEADER	Ungültiges Nebendeck	
 GLUE_COLLECTION_LETTUCE_LOADOUT_TEXT	Ausrüstung	
 GLUE_COLLECTION_LETTUCE_LOCK_TEXT	In Eurer Gruppe	
 GLUE_COLLECTION_LETTUCE_PVE_TEAMNAME	PvE-Gruppe	
@@ -984,6 +995,12 @@ GLUE_EDIT_TEAM	Gruppe bearbeiten
 GLUE_ERROR_DECK_RULESET_RULE_VIOLATION	Das gewählte Deck ist in diesem Spielmodus nicht gültig.	
 GLUE_ERROR_DECK_VALIDATION_WRONG_FORMAT	Ihr könnt in diesem Modus kein wildes Deck nutzen.	
 GLUE_ERROR_PLAY_GAME_PARTY_NOT_ALLOWED	Ein Spieler in Eurer Gruppe hat eine zu hohe Wertung, um mit einer Gruppe gewertete Spiele zu absolvieren.	
+GLUE_ETC_BAND_FULL	Eure Band ist voll. Ihr müsst zuerst eine Karte entfernen.	
+GLUE_ETC_BAND_TITLE	E.T.C.s Band	
+GLUE_ETC_CONFIRM	Abrocken!	
+GLUE_ETC_FTUE_QUOTE	Wählt bis zu 3 Karten als Mitglieder für meine Band. Klickt zum Loslegen auf den Button „Die Band“!	
+GLUE_ETC_FTUE_SIDEBOARD	Diese Karte hat ein „Nebendeck“	
+GLUE_ETC_THE_BAND	Die Band	
 GLUE_EULA_BUTTON	最终用户许可协议	
 GLUE_EULA_TITLE	EULA	
 GLUE_EXTRA_CARDS_DECK_DESC	Ihr müsst zunächst dieses Deck fertigstellen.	
@@ -1114,7 +1131,10 @@ GLUE_GAME_MODES_POPUP_FORGE_DESC	Erstellt ein Deck aus 30 Karten.
 GLUE_GAME_MODES_POPUP_HEADER	Wählt einen Modus	
 GLUE_GAME_MODES_POPUP_PVPDR_DESC	Sichert Euch Beute, erstellt Decks und kämpft für Ruhm und Ehre!	
 GLUE_GENERIC_RANDOM_CARD_SCROLL_DESC	Aus Eurem Paket: {0}!	This is meant to replace the above welcome bundle strings until we have the tech to show custom strings per reward.
-GLUE_GENERIC_RANDOM_CARD_SCROLL_TITLE	Eine legendäre Karte!	This is meant to replace the above welcome bundle strings until we have the tech to show custom strings per reward.
+GLUE_GENERIC_RANDOM_CARD_SCROLL_TITLE	Eine Karte!	
+GLUE_GENERIC_RANDOM_EPIC_SCROLL_TITLE	Eine epische Karte!	
+GLUE_GENERIC_RANDOM_LEGENDARY_SCROLL_TITLE	Eine legendäre Karte!	
+GLUE_GENERIC_RANDOM_RARE_SCROLL_TITLE	Eine seltene Karte!	
 GLUE_GENERIC_SPECIFIC_CARD_SCROLL_DESC	Ihr findet sie in Eurer Kartensammlung!	
 GLUE_GHOST_CARD_MISSING_DESCRIPTION	Ihr besitzt diese Karte nicht.\nKlickt hier, um einen Ersatz zu finden.	
 GLUE_GHOST_CARD_MISSING_DESCRIPTION_TOUCH	Ihr besitzt diese Karte nicht.\nTippt hier, um einen Ersatz zu finden.	
@@ -1429,7 +1449,7 @@ GLUE_LETTUCE_MERCENARY_TUTORIAL_INGAME_POPUP_BODY_HEADER	Söldner können doppel
 GLUE_LETTUCE_MERCENARY_TUTORIAL_INGAME_POPUP_BUTTON	Kämpfen!	
 GLUE_LETTUCE_MERCENARY_TUTORIAL_INGAME_POPUP_HEADER	Kritischer Schaden	
 GLUE_LETTUCE_MERCENARY_TUTORIAL_MYTHIC_TREASURE_CONFIRM	Los geht’s!	
-GLUE_LETTUCE_MERCENARY_TUTORIAL_MYTHIC_TREASURE_DESCRIPTION_01	Söldner auf Höchststufe haben Zugriff auf Ruhmesschätze, die bei Kopfgeldern der Bossoffensive entdeckt werden können. 	
+GLUE_LETTUCE_MERCENARY_TUTORIAL_MYTHIC_TREASURE_DESCRIPTION_01	Söldner auf Höchststufe haben Zugriff auf Ruhmesschätze, die bei Kopfgeldern der Bossoffensive entdeckt werden können.	
 GLUE_LETTUCE_MERCENARY_TUTORIAL_MYTHIC_TREASURE_DESCRIPTION_02	Ihre Fähigkeiten, Ausrüstung und Schätze können mit Ruhm aufgewertet werden.\n\nJede Aufwertung erhöht die Werte und Ruhmstufe dieses Söldners.	
 GLUE_LETTUCE_MERCENARY_TUTORIAL_MYTHIC_TREASURE_PAGE_01	Seite 1/2	
 GLUE_LETTUCE_MERCENARY_TUTORIAL_MYTHIC_TREASURE_PAGE_02	Seite 2/2	
@@ -1913,7 +1933,7 @@ GLUE_PROGRESSION_BATTLEGROUNDS_BONUS_ERROR_HEADER	Saisonpass
 GLUE_PROGRESSION_BONUS_ERROR_BODY	Es gibt derzeit keinen Gasthauspass. Bitte versucht es später noch einmal.	
 GLUE_PROGRESSION_BONUS_ERROR_HEADER	Gasthauspass	
 GLUE_PROGRESSION_EVENT_TAB_COMING_SOON	Event beginnt in {0}	
-GLUE_PROGRESSION_EVENT_TAB_COMPLETED	Ihr habt alle verfügbaren Eventquests für dieses Event abgeschlossen!	
+GLUE_PROGRESSION_EVENT_TAB_COMPLETED	Ihr habt alle verfügbaren Belohnungen für dieses Event freigeschaltet!	
 GLUE_PROGRESSION_EVENT_TAB_POPUP_EXPIRED_BODY	Das Event {0} ist beendet. Haltet die Augen nach dem nächsten offen!	
 GLUE_PROGRESSION_EVENT_TAB_POPUP_EXPIRED_TITLE	Event ist beendet!	
 GLUE_PROGRESSION_EVENT_TAB_POPUP_FORGOT_REWARDS_BODY	{0} |4(Belohnung,Belohnungen) von einem früheren Event |4(wurde,wurden) Eurer Sammlung hinzugefügt: {1}	
@@ -2880,9 +2900,10 @@ GLUE_TIP_BACON_18	Bei 8 Spielern zählt ein Platz in den Top_4 als Sieg.\nDer er
 GLUE_TIP_BACON_19	Alle Spieler teilen sich beim Rekrutieren dieselbe Dienerauswahl.	
 GLUE_TIP_BACON_2	Jedes Spiel enthält eine andere Zusammenstellung von Dienertypen.\nManchmal sind Murlocs dabei, manchmal nicht!	
 GLUE_TIP_BACON_20	Wenn Ihr einen Gegner bezwungen habt, kehren seine Diener in die Auswahl zurück.	
-GLUE_TIP_BACON_21	Im Kampf greift der Spieler mit mehr Dienern zuerst an. Wenn beide Spieler dieselbe Dienerzahl haben, wird zufällig bestimmt, wer zuerst angreift.	
-GLUE_TIP_BACON_22	Helden können max. 15 Schaden auf einmal erleiden, bis ein Held gestorben ist UND Spieler 10 Gold erreicht haben. Haltet auf der Punkteübersicht nach dem blauen Leuchten Ausschau!	
+GLUE_TIP_BACON_21	Im Kampf greift der Spieler mit mehr Dienern zuerst an. Bei Gleichstand wird zufällig bestimmt, wer zuerst angreift.	
+GLUE_TIP_BACON_22	Spieler können max. 15 Schaden auf einmal erleiden, bis ein Held gestorben ist UND Spieler 10 Gold erreicht haben.	
 GLUE_TIP_BACON_23	<b>Todesröcheln</b>-Effekte werden vor <b>Wiederkehr</b> ausgelöst.	
+GLUE_TIP_BACON_24	Je höher die Stufe eines Partners, desto mehr Gold kostet er.	
 GLUE_TIP_BACON_3	Wenn Ihr eine Kampfrunde gewinnt, verursachen Euer Held und Eure Diener Schaden, der ihrer Gasthausstufe entspricht.	
 GLUE_TIP_BACON_4	Die Aufwertung der Gasthausstufe kostet mit jedem Zug (1) weniger.	
 GLUE_TIP_BACON_5	Von den Dienern auf Stufe 6 gibt es nur 7 Exemplare.\nWerden sie gekauft, verschwinden sie für alle!	

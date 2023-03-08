@@ -57,7 +57,7 @@ GLUE_COLLECTION_DECK_TEMPLATE_REPLACE	Switch Deck
 GLUE_COLLECTION_DECK_TEMPLATE_REPLACE_MESSAGE	This will erase your existing deck and replace it with the contents of the template deck, are you sure?
 GLUE_COLLECTION_DECK_TEMPLATE_SELECT_A_DECK	Select a deck recipe to learn more!
 GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_HEADER	Incomplete Deck
-GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_TEXT	You are {0} |4(card,cards) short of a full deck.\nComplete deck automatically?
+GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_TEXT	You are {0} |4(card,cards) short of a full deck.\nComplete deck automatically?	
 GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_TEXT_CLICK_TO_FIX_DISABLED	You are {0} |4(card,cards) short of a full deck.
 GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_TEXT_NPR	{0} |4(card requires,cards require) completion of Apprenticeship.\nReplace |4(it,them) automatically?
 GLUE_COLLECTION_DECK_INCOMPLETE_LABEL	Click to complete
@@ -78,6 +78,14 @@ GLUE_COLLECTION_RUNES_TOOLTIP_HEADER	Runes
 GLUE_COLLECTION_RUNES_TOOLTIP_DESC	Determine which Death Knight cards are allowed in your deck.
 GLUE_COLLECTION_INCOMPATIBLE_RUNES_HEADER	Incompatible Runes
 GLUE_COLLECTION_INCOMPATIBLE_RUNES_DESCRIPTION	This card requires runes that your deck doesn't have.
+GLUE_COLLECTION_INCOMPLETE_SIDEBOARD_HEADER	Incomplete Sideboard
+GLUE_COLLECTION_INCOMPLETE_SIDEBOARD_DESCRIPTION	This deck has an incomplete sideboard. Are you sure you want to finish editing?
+GLUE_COLLECTION_EMPTY_SIDEBOARD_HEADER	Empty Sideboard
+GLUE_COLLECTION_EMPTY_SIDEBOARD_DESCRIPTION	Cards from your collection can be added to this sideboard.
+GLUE_COLLECTION_INVALID_SIDEBOARD_CARDS_HEADER	Invalid Sideboard
+GLUE_COLLECTION_INVALID_SIDEBOARD_CARDS_DESCRIPTION	This sideboard has invalid cards.
+GLUE_COLLECTION_DECK_INVALID_SIDEBOARD_POPUP_TEXT	You have |4(an invalid card,invalid cards) in your sideboard. \nDo you want to edit your deck?
+GLUE_COLLECTION_DISABLED_NOTICE	You cannot do that at this time.
 GLUE_COLLECTION_NEW_DECK	New Deck
 GLUE_COLLECTION_NEW_TEAM	New Party
 GLUE_COLLECTION_NEW_DECK_DETAIL_HEADER	Included in this {0} deck:
@@ -144,7 +152,7 @@ GLUE_COLLECTION_CRAFTING_DISENCHANT_BUTTON_TEXT	Disenchant Extra Cards
 GLUE_COLLECTION_CRAFTING_FILTERS	Filters
 GLUE_COLLECTION_CRAFTING_SHOW_ONLY_GOLDEN	Show Only Golden Cards
 GLUE_COLLECTION_CRAFTING_SHOW_SOULBOUND_CARDS	Include Uncraftable Cards
-GLUE_COLLECTION_CRAFTING_EXPLANATION	Disenchant extra cards to create Arcane Dust, then use it to craft cards you want!\n\nSelect a card to start crafting. 
+GLUE_COLLECTION_CRAFTING_EXPLANATION	Disenchant extra cards to create Arcane Dust, then use it to craft cards you want!\n\nSelect a card to start crafting.
 GLUE_COLLECTION_CRAFTING_UPGRADEGOLDEN_STANDARD	Do you want to create a new card or upgrade a normal card to Golden?
 GLUE_COLLECTION_CRAFTING_UPGRADEGOLDEN_NORMAL	You have {0} normal |4(copy,copies). Do you want to Create a new normal or Upgrade a normal?	0=number of normal copies
 GLUE_COLLECTION_CRAFTING_UPGRADEGOLDEN_GOLDEN	You have {0} normal |4(copy,copies). Do you want to Create a new golden or Upgrade a normal?	0=number of normal copies
@@ -833,9 +841,10 @@ GLUE_TIP_BACON_17	If you have 1 Gold left over, refresh the Tavern.\nIf you see 
 GLUE_TIP_BACON_18	With 8 players, being in the Top 4 is a win!\nFirst place gets you the Crown!
 GLUE_TIP_BACON_19	All players recruit minions from the same shared pool.
 GLUE_TIP_BACON_20	When you wipe out an opponent, their minions go back into the pool.
-GLUE_TIP_BACON_21	During combat, the player with more minions is the first to attack. If both players have the same amount, the first attacker is random.
-GLUE_TIP_BACON_22	Heroes can take at most 15 damage at once until a Hero has died AND players have reached 10 Gold. Check for the blue glow on the scoreboard!
+GLUE_TIP_BACON_21	In combat, the player with more minions is first to attack. If it's a tie, the first attacker is random.
+GLUE_TIP_BACON_22	Players can take at most 15 damage at once until a Hero has died AND players have reached 10 Gold.
 GLUE_TIP_BACON_23	<b>Deathrattles</b> trigger before <b>Reborn</b>.
+GLUE_TIP_BACON_24	The higher a Buddy's Tier, the more Gold it costs to get.
 GLUE_TIP_LETTUCE_0	Using <b>Critical Damage</b> is the key to victory!
 GLUE_TIP_LETTUCE_1	Your Mercs will always act before enemies of the same Speed during Bounty encounters.
 GLUE_TIP_LETTUCE_2	Ability cooldowns decrease even while on the Bench.
@@ -1557,7 +1566,10 @@ GLUE_REQUIRED_CLIENT_STATIC_ASSETS_ERROR_MESSAGE	There was an error downloading 
 GLUE_KARA_PROLOGUE_LOADING	Waiting for a delivery raven...
 GLUE_WELCOME_BUNDLE_RANDOM_CARD_SCROLL_TITLE	Welcome Bundle Legendary Card!
 GLUE_WELCOME_BUNDLE_RANDOM_CARD_SCROLL_DESC	Your welcome bundle contained \n{0}!
-GLUE_GENERIC_RANDOM_CARD_SCROLL_TITLE	It's a Legendary Card!	This is meant to replace the above welcome bundle strings until we have the tech to show custom strings per reward.
+GLUE_GENERIC_RANDOM_LEGENDARY_SCROLL_TITLE	It's a Legendary Card!
+GLUE_GENERIC_RANDOM_EPIC_SCROLL_TITLE	It's an Epic Card!
+GLUE_GENERIC_RANDOM_RARE_SCROLL_TITLE	It's a Rare Card!
+GLUE_GENERIC_RANDOM_CARD_SCROLL_TITLE	It's a Card!
 GLUE_GENERIC_RANDOM_CARD_SCROLL_DESC	Your bundle contained {0}!	This is meant to replace the above welcome bundle strings until we have the tech to show custom strings per reward.
 GLUE_GENERIC_SPECIFIC_CARD_SCROLL_DESC	Find it in your Card Collection!
 GLUE_INKEEPER_RANDOM_CARD_DECK_RECIPE_ROGUE	Lookit that! A Rogue Legendary! It's in the Classic recipe. Try building the deck!
@@ -2527,7 +2539,7 @@ GLUE_PROGRESSION_EVENT_TAB_TIMER_OVER	Event Complete
 GLUE_PROGRESSION_EVENT_TAB_COMING_SOON	Event starts in {0}
 GLUE_PROGRESSION_EVENT_TAB_XP_TOOLTIP_TITLE	Event XP
 GLUE_PROGRESSION_EVENT_TAB_XP_TOOLTIP_DESCRIPTION	Play games, complete Event quests, and earn rewards!
-GLUE_PROGRESSION_EVENT_TAB_COMPLETED	You have completed all available Event Quests for this event!
+GLUE_PROGRESSION_EVENT_TAB_COMPLETED	You have earned all available rewards for this event!
 GLUE_PROGRESSION_EVENT_TAB_REWARD_SCROLL_TITLE	{0} Event XP Reward!
 GLUE_PROGRESSION_EVENT_TAB_REWARD_POPUP_INCOMPLETE_LEVEL	{0} Event XP
 GLUE_PROGRESSION_EVENT_TAB_REWARD_POPUP_COMPLETE_LEVEL	Claimed
@@ -2986,6 +2998,9 @@ GLUE_BATTLEBASH_EVENT_POPUP_TIME_REM_DESC	Battle Bash is rotating out of Battleg
 GLUE_BATTLEBASH_EVENT_TIME_REM_DAYS	Ends in {0}d	0: event time remaining in days
 GLUE_BATTLEBASH_EVENT_TIME_REM_HOURS	Ends in {0}h	0: event time remaining in hours
 GLUE_BATTLEBASH_EVENT_TIME_REM_HOUR_OR_LESS	Ends in <1h
+GLUE_BATTLEBASH_EVENT_TIME_REM_TOOLTIP_TITLE	Ending Soon
+GLUE_BATTLEBASH_EVENT_TIME_REM_DAYS_TOOLTIP	< {0} days
+GLUE_BATTLEBASH_EVENT_TIME_REM_HOURS_TOOLTIP	< {0} hours
 GLUE_BATTLEBASH_ALERT_EVENT_END_TITLE	Battle Bash Ended
 GLUE_BATTLEBASH_ALERT_EVENT_END_DESCRIPTION	You have un-used Hammers. Re-enter Battlegrounds to redeem your Hammers.
 GLUE_BATTLEBASH_ALERT_EVENT_END_DESCRIPTION_NO_HAMMERS	The Battle Bash has ended.
@@ -3117,10 +3132,10 @@ GLUE_VCAPTION_TAKE_DAMAGE	Take Damage
 GLUE_VCAPTION_CAST_SPELL	Cast Spell
 GLUE_VCAPTION_SUMMON_MINION	Summon Minion
 GLUE_VCAPTION_ATTACK	Attack
-GLUE_ADVENTURE_CHAPTER_TITLE_ROTLK_PROLOGUE	Prologue	
+GLUE_ADVENTURE_CHAPTER_TITLE_ROTLK_PROLOGUE	Prologue
 GLUE_ADVENTURE_CHAPTERPAGE_ROTLK_AWAITING_LICENSE	Please wait while Arthas remembers his tale...
-GLUE_LETTUCE_MYTHIC_SUB_BUTTON	Mythic	
-GLUE_LETTUCE_MYTHIC_BOUNTY_POSTER_TEXT	Mythic {0}	0=The mythic level of the bounty	
+GLUE_LETTUCE_MYTHIC_SUB_BUTTON	Mythic
+GLUE_LETTUCE_MYTHIC_BOUNTY_POSTER_TEXT	Mythic {0}	0=The mythic level of the bounty
 GLUE_LETTUCE_BOUNTY_DOUBLE_BOSS_NAME	{0}\n{1}	0=bounty boss name	1=bounty boss name
 GLUE_LETTUCE_MYTHIC_BOUNTY_LEVEL	Level
 GLUE_LETTUCE_MYTHIC_CHANGE_LEVEL	Customize
@@ -3146,7 +3161,7 @@ GLUE_PRIVACY_DNS_DESC_TOP	Do Not Sell or Share My Data
 GLUE_PRIVACY_DNS_DESC_BOTTOM	You can submit a request to prevent us from sharing or selling your personal information for this game
 GLUE_MERCENARIES_TRAVELPOINT_RESET_INDAYS	Resets in {0} days	0=days
 GLUE_MERCENARIES_TRAVELPOINT_RESET_INHOURS	Resets in {0} hours	0=hours
-GLUE_MERCENARIES_TRAVELPOINT_RESET_SOON	Resets in <1 hour 
+GLUE_MERCENARIES_TRAVELPOINT_RESET_SOON	Resets in <1 hour
 GLUE_MERCENARIES_BOUNTYBOARD_BOSSRUSH_COMING_SOON	Unlocks\nSoon
 GLUE_MERCENARIES_BOUNTYBOARD_BOSSRUSH_COMING_TOMORROW	Unlocks\nTomorrow
 GLUE_MERCENARIES_MYTHICSCALER_TITLE	Set Mythic Level
@@ -3165,7 +3180,7 @@ GLUE_LETTUCE_COLLECTION_TUTORIAL_MAXED_OUT_COLLECTION	Upgrade your Maxed Merc
 GLUE_LETTUCE_COLLECTION_TUTORIAL_MAXED_OUT_UNLOCK	Access New Upgrades!
 GLUE_LETTUCE_MERCENARY_TUTORIAL_MYTHIC_TREASURE_TITLE	Renown Treasures
 GLUE_LETTUCE_MERCENARY_TUTORIAL_MYTHIC_TREASURE_CONFIRM	Let’s Go!
-GLUE_LETTUCE_MERCENARY_TUTORIAL_MYTHIC_TREASURE_DESCRIPTION_01	Maxed Mercenaries have access to Renown Treasures which can be discovered during Boss Rush Bounties. 
+GLUE_LETTUCE_MERCENARY_TUTORIAL_MYTHIC_TREASURE_DESCRIPTION_01	Maxed Mercenaries have access to Renown Treasures which can be discovered during Boss Rush Bounties.
 GLUE_LETTUCE_MERCENARY_TUTORIAL_MYTHIC_TREASURE_DESCRIPTION_02	Their Abilities, Equipment and Treasures can be upgraded using renown.\n\nEach upgrade increases that Mercenary's stats and renown level.
 GLUE_LETTUCE_MERCENARY_TUTORIAL_MYTHIC_TREASURE_PAGE_01	Page 1/2
 GLUE_LETTUCE_MERCENARY_TUTORIAL_MYTHIC_TREASURE_PAGE_02	Page 2/2
@@ -3186,3 +3201,9 @@ GLUE_LETTUCE_RENOWN_TOGGLE_TOOLTIP_BODY	Switch between basic and Renown view. Re
 GLUE_LETTUCE_MAXED_FILTER_TOOLTIP_HEADER	Maxed Filter
 GLUE_LETTUCE_MAXED_FILTER_TOOLTIP_BODY	Toggle this button to show only Maxed Mercenaries.
 GLUE_LETTUCE_REWARD_ADDITIONAL_RENOWN	First time completion bonus increases at higher levels.
+GLUE_ETC_BAND_TITLE	E.T.C.'s Band
+GLUE_ETC_CONFIRM	Rock On!
+GLUE_ETC_THE_BAND	The Band
+GLUE_ETC_BAND_FULL	Your band is full. Remove a card first.
+GLUE_ETC_FTUE_QUOTE	Choose up to 3 cards to join my band. Click The Band button to get started!
+GLUE_ETC_FTUE_SIDEBOARD	This card has a "sideboard"

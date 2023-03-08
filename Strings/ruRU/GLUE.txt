@@ -373,8 +373,11 @@ GLUE_BATTLEBASH_ERROR_NO_HAMMERS	Не надо молотков
 GLUE_BATTLEBASH_EVENT_POPUP_TIME_REM_DAYS	Осталось: {0} |4(день,дня,дней)	
 GLUE_BATTLEBASH_EVENT_POPUP_TIME_REM_DESC	«Боевой разнос» покидает поля сражений! Скоро появятся новые декоративные предметы.	
 GLUE_BATTLEBASH_EVENT_TIME_REM_DAYS	Еще\n{0} дн.	0: event time remaining in days
+GLUE_BATTLEBASH_EVENT_TIME_REM_DAYS_TOOLTIP	< {0} days	
 GLUE_BATTLEBASH_EVENT_TIME_REM_HOUR_OR_LESS	Менее\n1_ч.	
 GLUE_BATTLEBASH_EVENT_TIME_REM_HOURS	Еще\n{0} ч.	0: event time remaining in hours
+GLUE_BATTLEBASH_EVENT_TIME_REM_HOURS_TOOLTIP	< {0} hours	
+GLUE_BATTLEBASH_EVENT_TIME_REM_TOOLTIP_TITLE	Ending Soon	
 GLUE_BATTLEBASH_FTUE_CLAIM_HAMMER	Начните боевой разнос!	
 GLUE_BATTLEBASH_FTUE_HINT	Щелкните, чтобы увидеть «Боевой разнос»	
 GLUE_BATTLEBASH_GET_ACCESS	Получить доступ	
@@ -644,6 +647,7 @@ GLUE_COLLECTION_DECK_INFO_HERO_POWER_TOOLTIP	Сила героя
 GLUE_COLLECTION_DECK_INFO_MANA_TOOLTIP	Карты/Затраты маны	
 GLUE_COLLECTION_DECK_INFO_TITLE	{0} Информация	
 GLUE_COLLECTION_DECK_INVALID_POPUP_HEADER	Неверный формат	
+GLUE_COLLECTION_DECK_INVALID_SIDEBOARD_POPUP_TEXT	Ваш сайдборд содержит |4(неподходящую карту,неподходящие карты,неподходящие карты). \nХотите изменить колоду?	
 GLUE_COLLECTION_DECK_MISSING_CARDS_INDICATOR	{0}/{1}	
 GLUE_COLLECTION_DECK_MISSING_CARDS_LABEL	Недостаточно карт	
 GLUE_COLLECTION_DECK_OVERWRITE_BODY	Заменить текущую колоду той, которая находится в буфере обмена?	
@@ -680,8 +684,11 @@ GLUE_COLLECTION_DELETE_CONFIRM_DESC	Вы уверены, что хотите у�
 GLUE_COLLECTION_DELETE_CONFIRM_HEADER	Удалить	
 GLUE_COLLECTION_DELETE_TEAM_CONFIRM_DESC	Этот отряд будет удален. Вы уверены?	
 GLUE_COLLECTION_DELETE_TEAM_UNAVAILABLE_DESC	Вы не можете удалить этот отряд.	
+GLUE_COLLECTION_DISABLED_NOTICE	Вы не можете сейчас это сделать.	
 GLUE_COLLECTION_DUEL_DECKNAME	Колода для дуэлей	
 GLUE_COLLECTION_EMPTY_PAGE	Страница 0	
+GLUE_COLLECTION_EMPTY_SIDEBOARD_DESCRIPTION	В этот сайдборд можно добавить карты из вашей коллекции.	
+GLUE_COLLECTION_EMPTY_SIDEBOARD_HEADER	Пустой сайдборд	
 GLUE_COLLECTION_ERROR_HEADER	Ошибка в коллекции!	
 GLUE_COLLECTION_FEATURED_CARDS	Измененные карты	
 GLUE_COLLECTION_FINAL_REWARD	Финальная награда	
@@ -693,6 +700,10 @@ GLUE_COLLECTION_HOME_PAGE	Общие сведения
 GLUE_COLLECTION_INCLUDE_PREMIUMS	Включая золотые	
 GLUE_COLLECTION_INCOMPATIBLE_RUNES_DESCRIPTION	Для этой карты нужны руны, которых нет в вашей колоде.	
 GLUE_COLLECTION_INCOMPATIBLE_RUNES_HEADER	Неподходящие руны	
+GLUE_COLLECTION_INCOMPLETE_SIDEBOARD_DESCRIPTION	У колоды неполный сайдборд. Вы действительно хотите прекратить изменение колоды?	
+GLUE_COLLECTION_INCOMPLETE_SIDEBOARD_HEADER	Неполный сайдборд	
+GLUE_COLLECTION_INVALID_SIDEBOARD_CARDS_DESCRIPTION	Сайдборд содержит неподходящие карты.	
+GLUE_COLLECTION_INVALID_SIDEBOARD_CARDS_HEADER	Некорректный сайдборд	
 GLUE_COLLECTION_LETTUCE_LOADOUT_TEXT	Набор снаряжения	
 GLUE_COLLECTION_LETTUCE_LOCK_TEXT	В вашем отряде	
 GLUE_COLLECTION_LETTUCE_PVE_TEAMNAME	Отряд PvE	
@@ -984,6 +995,12 @@ GLUE_EDIT_TEAM	Изменить отряд
 GLUE_ERROR_DECK_RULESET_RULE_VIOLATION	Выбранная колода не подходит для этого формата игры.	
 GLUE_ERROR_DECK_VALIDATION_WRONG_FORMAT	В этом режиме нельзя использовать колоду для вольного формата.	
 GLUE_ERROR_PLAY_GAME_PARTY_NOT_ALLOWED	Рейтинг одного из участников группы слишком высок, чтобы участвовать в совместных рейтинговых матчах.	
+GLUE_ETC_BAND_FULL	У тебя нет места в группе. Убери сначала одну из карт.	
+GLUE_ETC_BAND_TITLE	Группа E.T.C.	
+GLUE_ETC_CONFIRM	Зажигай!	
+GLUE_ETC_FTUE_QUOTE	Выбери до 3 карт, которые станут частью моей группы. Нажми кнопку «Группа», чтобы начать!	
+GLUE_ETC_FTUE_SIDEBOARD	У этой карты есть сайдборд	
+GLUE_ETC_THE_BAND	Группа	
 GLUE_EULA_BUTTON	最终用户许可协议	
 GLUE_EULA_TITLE	Соглашение с конечным пользователем	
 GLUE_EXTRA_CARDS_DECK_DESC	Необходимо завершить создание этой колоды.	
@@ -1114,7 +1131,10 @@ GLUE_GAME_MODES_POPUP_FORGE_DESC	Соберите колоду из 30 карт 
 GLUE_GAME_MODES_POPUP_HEADER	Выберите режим	
 GLUE_GAME_MODES_POPUP_PVPDR_DESC	[PH] Получайте добычу, берите карты и сражайтесь за славу!	
 GLUE_GENERIC_RANDOM_CARD_SCROLL_DESC	Вы получили карту «{0}» из пакета!	This is meant to replace the above welcome bundle strings until we have the tech to show custom strings per reward.
-GLUE_GENERIC_RANDOM_CARD_SCROLL_TITLE	Это легендарная карта!	This is meant to replace the above welcome bundle strings until we have the tech to show custom strings per reward.
+GLUE_GENERIC_RANDOM_CARD_SCROLL_TITLE	Это карта!	
+GLUE_GENERIC_RANDOM_EPIC_SCROLL_TITLE	Это эпическая карта!	
+GLUE_GENERIC_RANDOM_LEGENDARY_SCROLL_TITLE	Это легендарная карта!	
+GLUE_GENERIC_RANDOM_RARE_SCROLL_TITLE	Это редкая карта!	
 GLUE_GENERIC_SPECIFIC_CARD_SCROLL_DESC	Поищите в коллекции карт!	
 GLUE_GHOST_CARD_MISSING_DESCRIPTION	У вас нет этой карты.\nЩелкните, чтобы подобрать ей замену.	
 GLUE_GHOST_CARD_MISSING_DESCRIPTION_TOUCH	У вас нет этой карты.\nНажмите, чтобы подобрать ей замену.	
@@ -1913,12 +1933,12 @@ GLUE_PROGRESSION_BATTLEGROUNDS_BONUS_ERROR_HEADER	Сезонный пропус�
 GLUE_PROGRESSION_BONUS_ERROR_BODY	Сейчас пропуски завсегдатая недоступны. Попробуйте позже.	
 GLUE_PROGRESSION_BONUS_ERROR_HEADER	Пропуск завсегдатая	
 GLUE_PROGRESSION_EVENT_TAB_COMING_SOON	До начала события: {0}	
-GLUE_PROGRESSION_EVENT_TAB_COMPLETED	Вы выполнили все доступные задачи этого события!	
+GLUE_PROGRESSION_EVENT_TAB_COMPLETED	Вы получили все доступные награды этого события!	
 GLUE_PROGRESSION_EVENT_TAB_POPUP_EXPIRED_BODY	Событие «{0}» подходит к концу. Следите за новостями, чтобы узнать о следующем!	
 GLUE_PROGRESSION_EVENT_TAB_POPUP_EXPIRED_TITLE	Событие завершилось!	
 GLUE_PROGRESSION_EVENT_TAB_POPUP_FORGOT_REWARDS_BODY	{0} |4(награда прошлого события добавлена,награды прошлого события добавлены,наград прошлого события добавлено) в вашу коллекцию: {1}.	
 GLUE_PROGRESSION_EVENT_TAB_REWARD_POPUP_COMPLETE_LEVEL	Получено	
-GLUE_PROGRESSION_EVENT_TAB_REWARD_POPUP_INCOMPLETE_LEVEL	{0} опыт события	
+GLUE_PROGRESSION_EVENT_TAB_REWARD_POPUP_INCOMPLETE_LEVEL	{0} ед. опыта события	
 GLUE_PROGRESSION_EVENT_TAB_REWARD_SCROLL_TITLE	Награда за {0} ед. опыта события!	
 GLUE_PROGRESSION_EVENT_TAB_TIMER	Осталось: {0}	
 GLUE_PROGRESSION_EVENT_TAB_TIMER_OVER	Событие завершено	
@@ -2880,9 +2900,10 @@ GLUE_TIP_BACON_18	Когда сражаются 8 игроков, быть в ч
 GLUE_TIP_BACON_19	Игроки вербуют существ из общего для всех набора.	
 GLUE_TIP_BACON_2	Набор существ отличается от матча к матчу.\nИногда в нем есть мурлоки, иногда их нет!	
 GLUE_TIP_BACON_20	Когда оппонент проигрывает сражение, его существа возвращаются в общий набор.	
-GLUE_TIP_BACON_21	В бою первым атакует тот, у кого больше существ. Если у оппонентов одинаковое количество существ, первый игрок определяется случайным образом.	
-GLUE_TIP_BACON_22	Герои получают не более 15 ед. урона за раз до тех пор, пока один их них не погибнет, а у игроков не будет по 10 золотых. Следите за синей подсветкой на табло!	
+GLUE_TIP_BACON_21	В бою первым атакует тот, у кого больше существ. Если число существ равно, первый игрок определяется случайным образом.	
+GLUE_TIP_BACON_22	Игрокам можно нанести не более 15 ед. урона за раз до тех пор, пока один из них не погибнет и количество золота у игроков не достигнет 10.	
 GLUE_TIP_BACON_23	<b>«Предсмертные хрипы»</b> срабатывают до <b>«Перерождения»</b>.	
+GLUE_TIP_BACON_24	Чем выше уровень компаньона, тем больше золота за него нужно заплатить.	
 GLUE_TIP_BACON_3	Когда вы побеждаете в сражении, ваш герой и существа\nнаносят урон, равный их уровню таверны.	
 GLUE_TIP_BACON_4	Стоимость повышения уровня таверны уменьшается на (1) каждый ход.	
 GLUE_TIP_BACON_5	Существует только семь копий существ из таверны 6-го уровня. Завербованные существа становятся недоступными для всех!	

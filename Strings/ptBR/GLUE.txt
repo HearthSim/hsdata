@@ -373,8 +373,11 @@ GLUE_BATTLEBASH_ERROR_NO_HAMMERS	Nenhum Martelo
 GLUE_BATTLEBASH_EVENT_POPUP_TIME_REM_DAYS	Termina em {0} |4(dia,dias)	
 GLUE_BATTLEBASH_EVENT_POPUP_TIME_REM_DESC	Trombada de Batalha está saindo dos Campos de Batalha! Uma nova leva de cosméticos entrará em breve.	
 GLUE_BATTLEBASH_EVENT_TIME_REM_DAYS	Termina em {0}d	0: event time remaining in days
+GLUE_BATTLEBASH_EVENT_TIME_REM_DAYS_TOOLTIP	< {0} days	
 GLUE_BATTLEBASH_EVENT_TIME_REM_HOUR_OR_LESS	Termina em <1h	
 GLUE_BATTLEBASH_EVENT_TIME_REM_HOURS	Termina em {0}h	0: event time remaining in hours
+GLUE_BATTLEBASH_EVENT_TIME_REM_HOURS_TOOLTIP	< {0} hours	
+GLUE_BATTLEBASH_EVENT_TIME_REM_TOOLTIP_TITLE	Ending Soon	
 GLUE_BATTLEBASH_FTUE_CLAIM_HAMMER	Hora da Trombada!	
 GLUE_BATTLEBASH_FTUE_HINT	Clique para ver a Trombada de Batalha	
 GLUE_BATTLEBASH_GET_ACCESS	Ter acesso	
@@ -573,7 +576,7 @@ GLUE_COLLECTION_CONVERT_DECK_BODY	Se mudar este deck para Padrão, {0} cards ser
 GLUE_COLLECTION_CONVERT_DECK_HEADER	Converter Deck	
 GLUE_COLLECTION_CRAFTING_DIAMOND	Cards Diamante	
 GLUE_COLLECTION_CRAFTING_DISENCHANT_BUTTON_TEXT	Desencante cards extras!	
-GLUE_COLLECTION_CRAFTING_EXPLANATION	Desencante cards extras para criar Pó Arcano, depois use para criar os cards que você quer!\n\nSelecione um card para começar a criação. 	
+GLUE_COLLECTION_CRAFTING_EXPLANATION	Desencante cards extras para criar Pó Arcano, depois use para criar os cards que você quer!\n\nSelecione um card para começar a criação.	
 GLUE_COLLECTION_CRAFTING_FILTERS	Filtros	
 GLUE_COLLECTION_CRAFTING_FILTERS_INCLUDE	Incluir	
 GLUE_COLLECTION_CRAFTING_FILTERS_MISSING	Faltante	
@@ -644,6 +647,7 @@ GLUE_COLLECTION_DECK_INFO_HERO_POWER_TOOLTIP	Poder Heroico
 GLUE_COLLECTION_DECK_INFO_MANA_TOOLTIP	Cards/Custo de mana	
 GLUE_COLLECTION_DECK_INFO_TITLE	{0} Informação	
 GLUE_COLLECTION_DECK_INVALID_POPUP_HEADER	Deck inválido	
+GLUE_COLLECTION_DECK_INVALID_SIDEBOARD_POPUP_TEXT	Você tem |4(um card inválido,cards inválidos) na sua reserva. \nQuer editar o seu deck?	
 GLUE_COLLECTION_DECK_MISSING_CARDS_INDICATOR	{0}/{1}	
 GLUE_COLLECTION_DECK_MISSING_CARDS_LABEL	|4(Card Faltante,Cards Faltantes)	
 GLUE_COLLECTION_DECK_OVERWRITE_BODY	Você deseja substituir seu deck atual pelo que está na área de transferência?	
@@ -680,8 +684,11 @@ GLUE_COLLECTION_DELETE_CONFIRM_DESC	Esta ação excluirá o seu deck. Tem certez
 GLUE_COLLECTION_DELETE_CONFIRM_HEADER	Excluir	
 GLUE_COLLECTION_DELETE_TEAM_CONFIRM_DESC	Esta ação excluirá o seu grupo. Tem certeza?	
 GLUE_COLLECTION_DELETE_TEAM_UNAVAILABLE_DESC	Não é possível excluir este grupo.	
+GLUE_COLLECTION_DISABLED_NOTICE	Você não pode fazer isso no momento.	
 GLUE_COLLECTION_DUEL_DECKNAME	Deck dos Duelos	
 GLUE_COLLECTION_EMPTY_PAGE	Página 0	
+GLUE_COLLECTION_EMPTY_SIDEBOARD_DESCRIPTION	É possível adicionar cards da sua coleção a esta reserva.	
+GLUE_COLLECTION_EMPTY_SIDEBOARD_HEADER	Reserva vazia	
 GLUE_COLLECTION_ERROR_HEADER	Erro na coleção!	
 GLUE_COLLECTION_FEATURED_CARDS	Cards em destaque	
 GLUE_COLLECTION_FINAL_REWARD	Recompensa Final	
@@ -693,6 +700,10 @@ GLUE_COLLECTION_HOME_PAGE	Visão geral
 GLUE_COLLECTION_INCLUDE_PREMIUMS	Incluir dourado	
 GLUE_COLLECTION_INCOMPATIBLE_RUNES_DESCRIPTION	Este card requer runas que seu deck não tem.	
 GLUE_COLLECTION_INCOMPATIBLE_RUNES_HEADER	Runas Incompatíveis	
+GLUE_COLLECTION_INCOMPLETE_SIDEBOARD_DESCRIPTION	A reserva deste deck não está completa. Tem certeza de que quer terminar a edição?	
+GLUE_COLLECTION_INCOMPLETE_SIDEBOARD_HEADER	Reserva incompleta	
+GLUE_COLLECTION_INVALID_SIDEBOARD_CARDS_DESCRIPTION	Esta reserva tem cards inválidos.	
+GLUE_COLLECTION_INVALID_SIDEBOARD_CARDS_HEADER	Reserva inválida	
 GLUE_COLLECTION_LETTUCE_LOADOUT_TEXT	Equipamento	
 GLUE_COLLECTION_LETTUCE_LOCK_TEXT	No seu grupo	
 GLUE_COLLECTION_LETTUCE_PVE_TEAMNAME	Grupo JxA	
@@ -984,6 +995,12 @@ GLUE_EDIT_TEAM	Editar grupo
 GLUE_ERROR_DECK_RULESET_RULE_VIOLATION	O deck selecionado não é válido para este modo de jogo.	
 GLUE_ERROR_DECK_VALIDATION_WRONG_FORMAT	Você não pode usar um deck Livre neste modo.	
 GLUE_ERROR_PLAY_GAME_PARTY_NOT_ALLOWED	Um jogador no seu grupo tem classificação alta demais para jogar ranqueado em um grupo. 	
+GLUE_ETC_BAND_FULL	Sua banda está completa. Remova um card antes.	
+GLUE_ETC_BAND_TITLE	Banda do C.T.E.	
+GLUE_ETC_CONFIRM	Manda ver!	
+GLUE_ETC_FTUE_QUOTE	Escolha até 3 cards para entrar na minha banda. Clique no botão Banda para começar!	
+GLUE_ETC_FTUE_SIDEBOARD	Este card tem uma "reserva"	
+GLUE_ETC_THE_BAND	Banda	
 GLUE_EULA_BUTTON	最终用户许可协议	
 GLUE_EULA_TITLE	EULA	
 GLUE_EXTRA_CARDS_DECK_DESC	Você precisa terminar de montar este deck.	
@@ -1114,7 +1131,10 @@ GLUE_GAME_MODES_POPUP_FORGE_DESC	Forme um deck com 30 cards.
 GLUE_GAME_MODES_POPUP_HEADER	Escolha um modo	
 GLUE_GAME_MODES_POPUP_PVPDR_DESC	Construa seu deck, receba saques e lute pela vitória! 	
 GLUE_GENERIC_RANDOM_CARD_SCROLL_DESC	O seu pacote continha: {0}!	This is meant to replace the above welcome bundle strings until we have the tech to show custom strings per reward.
-GLUE_GENERIC_RANDOM_CARD_SCROLL_TITLE	Um card Lendário!	This is meant to replace the above welcome bundle strings until we have the tech to show custom strings per reward.
+GLUE_GENERIC_RANDOM_CARD_SCROLL_TITLE	Um card!	
+GLUE_GENERIC_RANDOM_EPIC_SCROLL_TITLE	Um card Épico!	
+GLUE_GENERIC_RANDOM_LEGENDARY_SCROLL_TITLE	Um card Lendário!	
+GLUE_GENERIC_RANDOM_RARE_SCROLL_TITLE	Um card Raro!	
 GLUE_GENERIC_SPECIFIC_CARD_SCROLL_DESC	Encontre-o na sua Coleção de Cards!	
 GLUE_GHOST_CARD_MISSING_DESCRIPTION	Você não tem este card.\nClique para encontrar um substituto.	
 GLUE_GHOST_CARD_MISSING_DESCRIPTION_TOUCH	Você não tem este card.\nToque para encontrar um substituto.	
@@ -1429,7 +1449,7 @@ GLUE_LETTUCE_MERCENARY_TUTORIAL_INGAME_POPUP_BODY_HEADER	Mercenários podem caus
 GLUE_LETTUCE_MERCENARY_TUTORIAL_INGAME_POPUP_BUTTON	Lute!	
 GLUE_LETTUCE_MERCENARY_TUTORIAL_INGAME_POPUP_HEADER	Dano Crítico	
 GLUE_LETTUCE_MERCENARY_TUTORIAL_MYTHIC_TREASURE_CONFIRM	Vamos!	
-GLUE_LETTUCE_MERCENARY_TUTORIAL_MYTHIC_TREASURE_DESCRIPTION_01	Mercenários maximizados têm acesso a Tesouros de Renome, que podem ser descobertos durante os contratos de Investida de Chefes. 	
+GLUE_LETTUCE_MERCENARY_TUTORIAL_MYTHIC_TREASURE_DESCRIPTION_01	Mercenários maximizados têm acesso a Tesouros de Renome, que podem ser descobertos durante os contratos de Investida de Chefes.	
 GLUE_LETTUCE_MERCENARY_TUTORIAL_MYTHIC_TREASURE_DESCRIPTION_02	As habilidades, equipamentos e tesouros deles podem ser aprimorados com Renome.\n\nCada aprimoramento aumenta os atributos e o nível de Renome do Mercenário.	
 GLUE_LETTUCE_MERCENARY_TUTORIAL_MYTHIC_TREASURE_PAGE_01	Página 1/2	
 GLUE_LETTUCE_MERCENARY_TUTORIAL_MYTHIC_TREASURE_PAGE_02	Página 2/2	
@@ -1742,7 +1762,7 @@ GLUE_MERCENARIES_TASKBOARD_PROC_TASK_NORMAL_DIFFICULTY	Normal
 GLUE_MERCENARIES_TASKBOARD_RENOWN_OFFER_TITLE	Oferta de Troca: {0}	0=mercenary short name
 GLUE_MERCENARIES_TRAVELPOINT_RESET_INDAYS	Reinicia em {0} dias	0=days
 GLUE_MERCENARIES_TRAVELPOINT_RESET_INHOURS	Reinicia em {0} horas	0=hours
-GLUE_MERCENARIES_TRAVELPOINT_RESET_SOON	Reinicia em <1 hora 	
+GLUE_MERCENARIES_TRAVELPOINT_RESET_SOON	Reinicia em <1 hora	
 GLUE_MERCENARIES_VILLAGE_TUTORIAL_TASK_COLLECTION_BODY	Mercenários da sua coleção têm trabalho para você!\n\nAdicione-os ao seu grupo para avançar nas tarefas e resgatar recompensas!	
 GLUE_MERCENARIES_VILLAGE_TUTORIAL_TASK_COLLECTION_HEADER	Tarefas de Mercenário	
 GLUE_MERCENARIES_VILLAGE_TUTORIAL_VIEW_TASKS	Ver suas tarefas pessoais	
@@ -1913,7 +1933,7 @@ GLUE_PROGRESSION_BATTLEGROUNDS_BONUS_ERROR_HEADER	Passe de Temporada
 GLUE_PROGRESSION_BONUS_ERROR_BODY	No momento, não há Passe da Taverna. Volte mais tarde.	
 GLUE_PROGRESSION_BONUS_ERROR_HEADER	Passe da Taverna	
 GLUE_PROGRESSION_EVENT_TAB_COMING_SOON	Evento começa em {0}	
-GLUE_PROGRESSION_EVENT_TAB_COMPLETED	Você concluiu todas as Missões de Evento disponíveis para o evento!	
+GLUE_PROGRESSION_EVENT_TAB_COMPLETED	Você recebeu todas as recompensas disponíveis neste evento!	
 GLUE_PROGRESSION_EVENT_TAB_POPUP_EXPIRED_BODY	O evento {0} chegou ao fim. Fique de olho para não perder o próximo!	
 GLUE_PROGRESSION_EVENT_TAB_POPUP_EXPIRED_TITLE	O evento terminou!	
 GLUE_PROGRESSION_EVENT_TAB_POPUP_FORGOT_REWARDS_BODY	Mais {0} |4(recompensa, recompensas) de um evento anterior na sua coleção: {1}.	
@@ -2880,9 +2900,10 @@ GLUE_TIP_BACON_18	Com 8 jogadores, ficar entre os 4 melhores é um feito!\nO pri
 GLUE_TIP_BACON_19	Todos os jogadores recrutam lacaios do mesmo acervo compartilhado.	
 GLUE_TIP_BACON_2	Toda partida inclui um conjunto diferente de tipos de lacaio.\nÀs vezes há Murlocs, às vezes não!	
 GLUE_TIP_BACON_20	Quando você elimina um oponente, os lacaios dele voltam para o acervo.	
-GLUE_TIP_BACON_21	Durante o combate, o jogador com mais lacaios é o primeiro a atacar. Se ambos os jogadores tiverem a mesma quantidade, a decisão é aleatória.	
-GLUE_TIP_BACON_22	Heróis podem receber no máximo 15 de dano de uma vez até um herói morrer E jogadores chegarem a 10 de Ouro. Verificar se há um brilho azul no placar!	
+GLUE_TIP_BACON_21	No combate, o jogador com mais lacaios é o primeiro a atacar. Se for empate, isso é decidido aleatoriamente.	
+GLUE_TIP_BACON_22	Os jogadores podem receber no máximo 15 de dano de uma vez até um herói morrer E os jogadores chegarem a 10 de Ouro.	
 GLUE_TIP_BACON_23	<b>Últimos Suspiros</b> são ativados antes de <b>Renascer</b>.	
+GLUE_TIP_BACON_24	Quanto maior o Grau do Camarada, mais Ouro ele custa.	
 GLUE_TIP_BACON_3	Quando você vence um combate, seu herói e seus lacaios\ncausam dano igual ao Grau da Taverna de cada um.	
 GLUE_TIP_BACON_4	O custo de aprimorar o Grau da Taverna é reduzido em (1) a cada turno.	
 GLUE_TIP_BACON_5	Só há sete cópias de lacaios de Grau 6.\nQuando comprados, eles somem para todo mundo!	

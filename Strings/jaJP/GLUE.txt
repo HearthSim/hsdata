@@ -373,8 +373,11 @@ GLUE_BATTLEBASH_ERROR_NO_HAMMERS	ハンマーがないぞ
 GLUE_BATTLEBASH_EVENT_POPUP_TIME_REM_DAYS	あと{0}日で終了	
 GLUE_BATTLEBASH_EVENT_POPUP_TIME_REM_DESC	現在の「バトルバッシュ」がバトルグラウンドからローテーションするぞ！近日中に新しい見た目カスタマイズアイテムに入れ替わるからな。	
 GLUE_BATTLEBASH_EVENT_TIME_REM_DAYS	終了まで{0}日	0: event time remaining in days
+GLUE_BATTLEBASH_EVENT_TIME_REM_DAYS_TOOLTIP	{0}日未満	
 GLUE_BATTLEBASH_EVENT_TIME_REM_HOUR_OR_LESS	終了まで1時間以下	
 GLUE_BATTLEBASH_EVENT_TIME_REM_HOURS	終了まで{0}時間	0: event time remaining in hours
+GLUE_BATTLEBASH_EVENT_TIME_REM_HOURS_TOOLTIP	{0}時間未満	
+GLUE_BATTLEBASH_EVENT_TIME_REM_TOOLTIP_TITLE	まもなく終了	
 GLUE_BATTLEBASH_FTUE_CLAIM_HAMMER	今すぐバッシュ！	
 GLUE_BATTLEBASH_FTUE_HINT	クリックでバトルバッシュを確認	
 GLUE_BATTLEBASH_GET_ACCESS	アクセスする	
@@ -644,6 +647,7 @@ GLUE_COLLECTION_DECK_INFO_HERO_POWER_TOOLTIP	ヒーローパワー
 GLUE_COLLECTION_DECK_INFO_MANA_TOOLTIP	カード/マナコスト	
 GLUE_COLLECTION_DECK_INFO_TITLE	{0}の情報	
 GLUE_COLLECTION_DECK_INVALID_POPUP_HEADER	未完成のデッキ	
+GLUE_COLLECTION_DECK_INVALID_SIDEBOARD_POPUP_TEXT	使用禁止のカードがサイドボードに含まれてるようだな。\nデッキを編集し直すか？	
 GLUE_COLLECTION_DECK_MISSING_CARDS_INDICATOR	{0}/{1}	
 GLUE_COLLECTION_DECK_MISSING_CARDS_LABEL	カードが足りないぞ	
 GLUE_COLLECTION_DECK_OVERWRITE_BODY	現在のデッキを、クリップボードにあるデッキで上書きしていいか？	
@@ -680,8 +684,11 @@ GLUE_COLLECTION_DELETE_CONFIRM_DESC	このデッキは削除されるぞ。本�
 GLUE_COLLECTION_DELETE_CONFIRM_HEADER	削除	
 GLUE_COLLECTION_DELETE_TEAM_CONFIRM_DESC	このパーティは削除されるぞ。本当にいいんだな？	
 GLUE_COLLECTION_DELETE_TEAM_UNAVAILABLE_DESC	このパーティは削除できないぞ。	
+GLUE_COLLECTION_DISABLED_NOTICE	それは現時点ではできないんだ。	
 GLUE_COLLECTION_DUEL_DECKNAME	デュエルデッキ	
 GLUE_COLLECTION_EMPTY_PAGE	ページ0	
+GLUE_COLLECTION_EMPTY_SIDEBOARD_DESCRIPTION	このサイドボードにはあんたのコレクションのカードを追加できるぞ。	
+GLUE_COLLECTION_EMPTY_SIDEBOARD_HEADER	サイドボードが空	
 GLUE_COLLECTION_ERROR_HEADER	コレクションエラー	
 GLUE_COLLECTION_FEATURED_CARDS	注目のカード	
 GLUE_COLLECTION_FINAL_REWARD	最終報酬	
@@ -693,6 +700,10 @@ GLUE_COLLECTION_HOME_PAGE	概要
 GLUE_COLLECTION_INCLUDE_PREMIUMS	ゴールデンを含む	
 GLUE_COLLECTION_INCOMPATIBLE_RUNES_DESCRIPTION	このカードには、あんたの今のデッキにないルーンが必要だ。	
 GLUE_COLLECTION_INCOMPATIBLE_RUNES_HEADER	ルーンが合わないぞ	
+GLUE_COLLECTION_INCOMPLETE_SIDEBOARD_DESCRIPTION	このデッキのサイドボードは未完成だ。本当に編集を完了していいのか？	
+GLUE_COLLECTION_INCOMPLETE_SIDEBOARD_HEADER	サイドボードが不完全	
+GLUE_COLLECTION_INVALID_SIDEBOARD_CARDS_DESCRIPTION	このサイドボードには無効なカードがあるぞ。	
+GLUE_COLLECTION_INVALID_SIDEBOARD_CARDS_HEADER	無効なサイドボードだ	
 GLUE_COLLECTION_LETTUCE_LOADOUT_TEXT	ロードアウト	
 GLUE_COLLECTION_LETTUCE_LOCK_TEXT	パーティにいるぞ	
 GLUE_COLLECTION_LETTUCE_PVE_TEAMNAME	PvEパーティ	
@@ -984,6 +995,12 @@ GLUE_EDIT_TEAM	パーティの編集
 GLUE_ERROR_DECK_RULESET_RULE_VIOLATION	選択したデッキは、このゲームモードでは使えないぞ。	
 GLUE_ERROR_DECK_VALIDATION_WRONG_FORMAT	このモードではワイルドデッキは使えないぞ。	
 GLUE_ERROR_PLAY_GAME_PARTY_NOT_ALLOWED	パーティに、レーティングが高すぎてグループでのランク戦が禁止されてるプレイヤーが混ざってるぞ。	
+GLUE_ETC_BAND_FULL	バンドはもう満員だ。先にカードを減らしてくれ。	
+GLUE_ETC_BAND_TITLE	E.T.C.のバンド	
+GLUE_ETC_CONFIRM	ロック・オン！	
+GLUE_ETC_FTUE_QUOTE	オレのバンドに入れたいカードを3枚まで選んでくれ。「バンド」ボタンでスタートだ！	
+GLUE_ETC_FTUE_SIDEBOARD	このカードには「サイドボード」がある	
+GLUE_ETC_THE_BAND	バンド	
 GLUE_EULA_BUTTON	最终用户许可协议	
 GLUE_EULA_TITLE	エンドユーザー使用許諾契約（EULA）	
 GLUE_EXTRA_CARDS_DECK_DESC	このデッキを完成させる必要があるぞ。	
@@ -1114,7 +1131,10 @@ GLUE_GAME_MODES_POPUP_FORGE_DESC	ドラフトでカード30枚のデッキを組
 GLUE_GAME_MODES_POPUP_HEADER	モードを選んでくれ	
 GLUE_GAME_MODES_POPUP_PVPDR_DESC	[PH]宝を集め、ドラフトして、栄光を賭けて闘おう！	
 GLUE_GENERIC_RANDOM_CARD_SCROLL_DESC	{0}がバンドルに入ってたぞ！	This is meant to replace the above welcome bundle strings until we have the tech to show custom strings per reward.
-GLUE_GENERIC_RANDOM_CARD_SCROLL_TITLE	こいつはレジェンドカードだ！	This is meant to replace the above welcome bundle strings until we have the tech to show custom strings per reward.
+GLUE_GENERIC_RANDOM_CARD_SCROLL_TITLE	カードだ！	
+GLUE_GENERIC_RANDOM_EPIC_SCROLL_TITLE	エピックカードだ！	
+GLUE_GENERIC_RANDOM_LEGENDARY_SCROLL_TITLE	レジェンドカードだ！	
+GLUE_GENERIC_RANDOM_RARE_SCROLL_TITLE	レアカードだ！	
 GLUE_GENERIC_SPECIFIC_CARD_SCROLL_DESC	カードコレクションにあるぞ！	
 GLUE_GHOST_CARD_MISSING_DESCRIPTION	選択したカードを持っていません！\nクリックして使用できるカードを探しましょう。	
 GLUE_GHOST_CARD_MISSING_DESCRIPTION_TOUCH	選択したカードを持っていません！\nタップして使用できるカードを探しましょう。	
@@ -1913,7 +1933,7 @@ GLUE_PROGRESSION_BATTLEGROUNDS_BONUS_ERROR_HEADER	シーズンパス
 GLUE_PROGRESSION_BONUS_ERROR_BODY	現在、酒場パスはないぞ。また後で確認してみてくれ。	
 GLUE_PROGRESSION_BONUS_ERROR_HEADER	酒場パス	
 GLUE_PROGRESSION_EVENT_TAB_COMING_SOON	イベント開始まで{0}	
-GLUE_PROGRESSION_EVENT_TAB_COMPLETED	このイベントのイベントクエストを全て達成したぞ！	
+GLUE_PROGRESSION_EVENT_TAB_COMPLETED	このイベントの報酬は全て獲得したぞ！	
 GLUE_PROGRESSION_EVENT_TAB_POPUP_EXPIRED_BODY	{0}イベントは終わったよ。次のイベントをお楽しみに！	
 GLUE_PROGRESSION_EVENT_TAB_POPUP_EXPIRED_TITLE	イベント終了！	
 GLUE_PROGRESSION_EVENT_TAB_POPUP_FORGOT_REWARDS_BODY	以前のイベント: {1}から、報酬{0}点があんたのコレクションに追加されたぞ。	
@@ -2881,8 +2901,9 @@ GLUE_TIP_BACON_19	雇用できるミニオンのプールは、プレイヤー�
 GLUE_TIP_BACON_2	ミニオンの種族の組み合わせは対戦ごとに変わるぞ。\n例えばマーロックが出場する試合もあるし、出場しない試合もあるんだ！	
 GLUE_TIP_BACON_20	対戦相手を倒すと、そのプレイヤーのミニオンは全てプールに戻るんだ。	
 GLUE_TIP_BACON_21	戦闘では、ミニオンの数が多いプレイヤー側が先に攻撃できる。両軍とも同数なら、先攻後攻はランダムだ。	
-GLUE_TIP_BACON_22	ヒーローの誰かが死に、かつ10ゴールド配布ターンになるまでは、1回の戦闘ラウンドでヒーローが受けるダメージは15が上限だ。スコアボードの青い輝きをチェックしよう！	
+GLUE_TIP_BACON_22	ヒーローの誰かが死に、かつ10ゴールド配布ターンになるまでは、1回の戦闘ラウンドでプレイヤーが受けるダメージは15が上限だ。	
 GLUE_TIP_BACON_23	<b>断末魔</b>は<b>蘇り</b>より前に発動するぞ。	
+GLUE_TIP_BACON_24	バディのグレードが高いほど、雇う時のゴールドコストも高いぞ。	
 GLUE_TIP_BACON_3	戦闘で勝ったら、あんたのヒーローとミニオン達はそれぞれ\n自分の酒場グレードに等しいダメージを相手に与えるんだ。	
 GLUE_TIP_BACON_4	酒場グレードのアップグレードコストは毎ターン（1）ずつ減っていくぞ。	
 GLUE_TIP_BACON_5	グレード6のミニオンはそれぞれ7体ずつしかいないんだ。\n売り切れると、もう誰の酒場にも出て来なくなるぞ！	

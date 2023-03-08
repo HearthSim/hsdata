@@ -373,8 +373,11 @@ GLUE_BATTLEBASH_ERROR_NO_HAMMERS	망치 없음
 GLUE_BATTLEBASH_EVENT_POPUP_TIME_REM_DAYS	{0}일 후에 종료	
 GLUE_BATTLEBASH_EVENT_POPUP_TIME_REM_DESC	배틀 배쉬가 곧 전장을 떠납니다! 새로운 외형 아이템과 함께 다시 찾아올 예정입니다.	
 GLUE_BATTLEBASH_EVENT_TIME_REM_DAYS	{0}일 후에 종료	0: event time remaining in days
+GLUE_BATTLEBASH_EVENT_TIME_REM_DAYS_TOOLTIP	< {0} days	
 GLUE_BATTLEBASH_EVENT_TIME_REM_HOUR_OR_LESS	1시간 이내에 종료	
 GLUE_BATTLEBASH_EVENT_TIME_REM_HOURS	{0}시간 후에 종료	0: event time remaining in hours
+GLUE_BATTLEBASH_EVENT_TIME_REM_HOURS_TOOLTIP	< {0} hours	
+GLUE_BATTLEBASH_EVENT_TIME_REM_TOOLTIP_TITLE	Ending Soon	
 GLUE_BATTLEBASH_FTUE_CLAIM_HAMMER	시도해 보세요!	
 GLUE_BATTLEBASH_FTUE_HINT	클릭해 배틀 배쉬를 확인해 보세요.	
 GLUE_BATTLEBASH_GET_ACCESS	체험하기	
@@ -644,6 +647,7 @@ GLUE_COLLECTION_DECK_INFO_HERO_POWER_TOOLTIP	영웅 능력
 GLUE_COLLECTION_DECK_INFO_MANA_TOOLTIP	카드/소비 마나	
 GLUE_COLLECTION_DECK_INFO_TITLE	{0} 정보	
 GLUE_COLLECTION_DECK_INVALID_POPUP_HEADER	잘못된 덱	
+GLUE_COLLECTION_DECK_INVALID_SIDEBOARD_POPUP_TEXT	내 저장고에 사용 불가한 카드가 있습니다.\n내 덱을 편집하시겠습니까?	
 GLUE_COLLECTION_DECK_MISSING_CARDS_INDICATOR	{0}/{1}	
 GLUE_COLLECTION_DECK_MISSING_CARDS_LABEL	모자란 카드	
 GLUE_COLLECTION_DECK_OVERWRITE_BODY	현재 덱을 클립보드에 복사한 덱으로 교체하시겠습니까?	
@@ -680,8 +684,11 @@ GLUE_COLLECTION_DELETE_CONFIRM_DESC	정말로 덱을 삭제하시겠습니까?
 GLUE_COLLECTION_DELETE_CONFIRM_HEADER	삭제	
 GLUE_COLLECTION_DELETE_TEAM_CONFIRM_DESC	정말로 파티를 삭제하시겠습니까?	
 GLUE_COLLECTION_DELETE_TEAM_UNAVAILABLE_DESC	이 파티를 삭제할 수 없습니다.	
+GLUE_COLLECTION_DISABLED_NOTICE	지금은 불가능합니다.	
 GLUE_COLLECTION_DUEL_DECKNAME	결투 덱	
 GLUE_COLLECTION_EMPTY_PAGE	0 페이지	
+GLUE_COLLECTION_EMPTY_SIDEBOARD_DESCRIPTION	수집품에 있는 카드를 저장고에 넣을 수 있습니다.	
+GLUE_COLLECTION_EMPTY_SIDEBOARD_HEADER	빈 저장고	
 GLUE_COLLECTION_ERROR_HEADER	수집품 오류!	
 GLUE_COLLECTION_FEATURED_CARDS	주목할 카드	
 GLUE_COLLECTION_FINAL_REWARD	최종 보상	
@@ -693,6 +700,10 @@ GLUE_COLLECTION_HOME_PAGE	현황
 GLUE_COLLECTION_INCLUDE_PREMIUMS	황금 카드 포함	
 GLUE_COLLECTION_INCOMPATIBLE_RUNES_DESCRIPTION	이 카드를 사용하려면 덱에 부족한 룬을 추가해야 합니다.	
 GLUE_COLLECTION_INCOMPATIBLE_RUNES_HEADER	호환 불가 룬	
+GLUE_COLLECTION_INCOMPLETE_SIDEBOARD_DESCRIPTION	이 덱의 저장고에 카드를 더 넣을 수 있습니다. 정말 편집을 완료하시겠습니까?	
+GLUE_COLLECTION_INCOMPLETE_SIDEBOARD_HEADER	미완성 저장고	
+GLUE_COLLECTION_INVALID_SIDEBOARD_CARDS_DESCRIPTION	이 저장고에 사용할 수 없는 카드가 포함되어 있습니다.	
+GLUE_COLLECTION_INVALID_SIDEBOARD_CARDS_HEADER	사용 불가 저장고	
 GLUE_COLLECTION_LETTUCE_LOADOUT_TEXT	장비	
 GLUE_COLLECTION_LETTUCE_LOCK_TEXT	파티에 있음	
 GLUE_COLLECTION_LETTUCE_PVE_TEAMNAME	인공지능 상대 파티	
@@ -984,6 +995,12 @@ GLUE_EDIT_TEAM	파티 편집
 GLUE_ERROR_DECK_RULESET_RULE_VIOLATION	이 규칙에서는 선택한 덱을 사용할 수 없습니다.	
 GLUE_ERROR_DECK_VALIDATION_WRONG_FORMAT	이 모드에서는 야생 덱을 사용할 수 없습니다.	
 GLUE_ERROR_PLAY_GAME_PARTY_NOT_ALLOWED	파티에 있는 플레이어의 평점이 너무 높아서 그룹으로 등급전에 참여할 수 없습니다.	
+GLUE_ETC_BAND_FULL	밴드가 가득 찼습니다. 먼저 카드를 빼야 합니다.	
+GLUE_ETC_BAND_TITLE	정예 타우렌 족장의 밴드	
+GLUE_ETC_CONFIRM	소리 질러!	
+GLUE_ETC_FTUE_QUOTE	내 밴드에 섭외할 카드를 3장까지 선택해 봐. 밴드 버튼을 누르면 바로 시작하지!	
+GLUE_ETC_FTUE_SIDEBOARD	"이 카드는 ""저장고""를 보유하고 있습니다."	
+GLUE_ETC_THE_BAND	밴드	
 GLUE_EULA_BUTTON	最终用户许可协议	
 GLUE_EULA_TITLE	최종 사용자 사용권 계약	
 GLUE_EXTRA_CARDS_DECK_DESC	이 덱을 마저 완성해야 합니다.	
@@ -1114,7 +1131,10 @@ GLUE_GAME_MODES_POPUP_FORGE_DESC	제시되는 카드들로 30장 덱을 구성�
 GLUE_GAME_MODES_POPUP_HEADER	모드 선택	
 GLUE_GAME_MODES_POPUP_PVPDR_DESC	[PH] Loot, draft, and fight for glory!	
 GLUE_GENERIC_RANDOM_CARD_SCROLL_DESC	묶음 상품에서 {0} 카드를 획득했습니다!	This is meant to replace the above welcome bundle strings until we have the tech to show custom strings per reward.
-GLUE_GENERIC_RANDOM_CARD_SCROLL_TITLE	전설 카드입니다!	This is meant to replace the above welcome bundle strings until we have the tech to show custom strings per reward.
+GLUE_GENERIC_RANDOM_CARD_SCROLL_TITLE	카드입니다!	
+GLUE_GENERIC_RANDOM_EPIC_SCROLL_TITLE	특급 카드입니다!	
+GLUE_GENERIC_RANDOM_LEGENDARY_SCROLL_TITLE	전설 카드입니다!	
+GLUE_GENERIC_RANDOM_RARE_SCROLL_TITLE	희귀 카드입니다!	
 GLUE_GENERIC_SPECIFIC_CARD_SCROLL_DESC	카드 수집품에서 확인하세요!	
 GLUE_GHOST_CARD_MISSING_DESCRIPTION	보유하지 않은 카드입니다. 클릭하여 카드를 교체하세요.	
 GLUE_GHOST_CARD_MISSING_DESCRIPTION_TOUCH	보유하지 않은 카드입니다. 터치하여 카드를 교체하세요.	
@@ -1429,7 +1449,7 @@ GLUE_LETTUCE_MERCENARY_TUTORIAL_INGAME_POPUP_BODY_HEADER	용병들이 서로에�
 GLUE_LETTUCE_MERCENARY_TUTORIAL_INGAME_POPUP_BUTTON	시작!	
 GLUE_LETTUCE_MERCENARY_TUTORIAL_INGAME_POPUP_HEADER	치명타 피해	
 GLUE_LETTUCE_MERCENARY_TUTORIAL_MYTHIC_TREASURE_CONFIRM	시작해 볼까요!	
-GLUE_LETTUCE_MERCENARY_TUTORIAL_MYTHIC_TREASURE_DESCRIPTION_01	최대로 성장시킨 용병은 우두머리 연속 전투 현상 수배 중 발견되는 영예 보물을 사용할 수 있습니다. 	
+GLUE_LETTUCE_MERCENARY_TUTORIAL_MYTHIC_TREASURE_DESCRIPTION_01	최대로 성장시킨 용병은 우두머리 연속 전투 현상 수배 중 발견되는 영예 보물을 사용할 수 있습니다.	
 GLUE_LETTUCE_MERCENARY_TUTORIAL_MYTHIC_TREASURE_DESCRIPTION_02	최대로 성장시킨 용병의 능력, 장비, 보물은 영예로 강화할 수 있습니다.\n\n강화할 때마다 해당 용병의 능력치와 영예 레벨이 상승합니다.	
 GLUE_LETTUCE_MERCENARY_TUTORIAL_MYTHIC_TREASURE_PAGE_01	1/2 페이지	
 GLUE_LETTUCE_MERCENARY_TUTORIAL_MYTHIC_TREASURE_PAGE_02	2/2 페이지	
@@ -1913,7 +1933,7 @@ GLUE_PROGRESSION_BATTLEGROUNDS_BONUS_ERROR_HEADER	시즌 패스
 GLUE_PROGRESSION_BONUS_ERROR_BODY	현재 활성화된 선술집 패스가 없습니다. 나중에 다시 확인해주세요.	
 GLUE_PROGRESSION_BONUS_ERROR_HEADER	선술집 패스	
 GLUE_PROGRESSION_EVENT_TAB_COMING_SOON	{0} 후에 이벤트 시작	
-GLUE_PROGRESSION_EVENT_TAB_COMPLETED	이번 이벤트에 포함된 모든 이벤트 퀘스트를 완료했습니다!	
+GLUE_PROGRESSION_EVENT_TAB_COMPLETED	이번 이벤트에 포함된 보상을 모두 획득했습니다!	
 GLUE_PROGRESSION_EVENT_TAB_POPUP_EXPIRED_BODY	{0} 이벤트가 종료되었습니다. 다음 이벤트를 기다려 주세요!	
 GLUE_PROGRESSION_EVENT_TAB_POPUP_EXPIRED_TITLE	이벤트가 종료되었습니다!	
 GLUE_PROGRESSION_EVENT_TAB_POPUP_FORGOT_REWARDS_BODY	{0}개의 |4(지난 이벤트 보상, 지난 이벤트 보상)이 수집품에 추가되었습니다: {1}.	
@@ -2881,8 +2901,9 @@ GLUE_TIP_BACON_19	모든 플레이어들은 동일한 하수인 모음에서 하
 GLUE_TIP_BACON_2	매 게임마다 등장하는 하수인 종족이 다릅니다. 멀록이 등장할 때도 있지만, 등장하지 않을 때도 있답니다!	
 GLUE_TIP_BACON_20	플레이어를 탈락시키면 그 플레이어가 보유한 하수인들이 하수인 모음에 추가됩니다.	
 GLUE_TIP_BACON_21	전투 단계에 돌입하면 더 많은 하수인을 가진 플레이어가 먼저 공격합니다. 하수인의 수가 같다면 공격 순서는 무작위로 정해집니다.	
-GLUE_TIP_BACON_22	탈락한 영웅이 나오고, 플레이어들이 10골드로 턴을 시작하기 전까지, 영웅들은 한 번에 최대 15의 피해만 받습니다. 점수판의 푸른 빛으로 표시됩니다!	
+GLUE_TIP_BACON_22	탈락한 영웅이 나오고, 플레이어들이 10골드로 턴을 시작하기 전까지 영웅들은 한 번에 최대 15의 피해만 받습니다.	
 GLUE_TIP_BACON_23	<b>죽음의 메아리</b>는 <b>환생</b>보다 먼저 발동합니다.	
+GLUE_TIP_BACON_24	더 높은 단계의 전우를 얻으려면 더 많은 골드가 필요합니다.	
 GLUE_TIP_BACON_3	전투에서 승리하면 당신의 영웅과 하수인들이 선술집 단계만큼의 피해를 줍니다.	
 GLUE_TIP_BACON_4	선술집을 강화하는 데 필요한 비용은 매턴마다 (1)씩 감소합니다.	
 GLUE_TIP_BACON_5	6단계 하수인은 일곱 장씩만 등장합니다.\n한 명이 구매하면, 다른 이들은 구매하기가 더욱 힘들어지죠!	

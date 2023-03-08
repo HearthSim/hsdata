@@ -373,8 +373,11 @@ GLUE_BATTLEBASH_ERROR_NO_HAMMERS	Aucun marteau
 GLUE_BATTLEBASH_EVENT_POPUP_TIME_REM_DAYS	Fin dans {0} |4(jour,jours)	
 GLUE_BATTLEBASH_EVENT_POPUP_TIME_REM_DESC	La Lutte acharnée quitte le mode Champs de bataille ! Une nouvelle série de modèles sera bientôt disponible.	
 GLUE_BATTLEBASH_EVENT_TIME_REM_DAYS	Fin dans {0} j	0: event time remaining in days
+GLUE_BATTLEBASH_EVENT_TIME_REM_DAYS_TOOLTIP	< {0} days	
 GLUE_BATTLEBASH_EVENT_TIME_REM_HOUR_OR_LESS	Fin dans moins de 1 h	
 GLUE_BATTLEBASH_EVENT_TIME_REM_HOURS	Fin dans {0} h	0: event time remaining in hours
+GLUE_BATTLEBASH_EVENT_TIME_REM_HOURS_TOOLTIP	< {0} hours	
+GLUE_BATTLEBASH_EVENT_TIME_REM_TOOLTIP_TITLE	Ending Soon	
 GLUE_BATTLEBASH_FTUE_CLAIM_HAMMER	Frappez sans attendre !	
 GLUE_BATTLEBASH_FTUE_HINT	Cliquez pour voir la Lutte acharnée.	
 GLUE_BATTLEBASH_GET_ACCESS	Obtenir l’accès	
@@ -644,6 +647,7 @@ GLUE_COLLECTION_DECK_INFO_HERO_POWER_TOOLTIP	Pouvoir héroïque
 GLUE_COLLECTION_DECK_INFO_MANA_TOOLTIP	Cartes / coût en mana	
 GLUE_COLLECTION_DECK_INFO_TITLE	Info {0}	
 GLUE_COLLECTION_DECK_INVALID_POPUP_HEADER	Deck invalide	
+GLUE_COLLECTION_DECK_INVALID_SIDEBOARD_POPUP_TEXT	|4(Une carte de votre deck secondaire n’est pas valide,Plusieurs cartes de votre deck secondaire ne sont pas valides). \nVoulez-vous modifier votre deck ?	
 GLUE_COLLECTION_DECK_MISSING_CARDS_INDICATOR	{0}/{1}	
 GLUE_COLLECTION_DECK_MISSING_CARDS_LABEL	|4(Carte manquante,Cartes manquantes)	
 GLUE_COLLECTION_DECK_OVERWRITE_BODY	Voulez-vous remplacer votre deck actuel par celui dans le presse-papier_?	
@@ -680,8 +684,11 @@ GLUE_COLLECTION_DELETE_CONFIRM_DESC	Ce deck va être supprimé. Voulez-vous cont
 GLUE_COLLECTION_DELETE_CONFIRM_HEADER	Supprimer	
 GLUE_COLLECTION_DELETE_TEAM_CONFIRM_DESC	Votre groupe va être supprimé. Voulez-vous continuer ?	
 GLUE_COLLECTION_DELETE_TEAM_UNAVAILABLE_DESC	Vous ne pouvez pas supprimer ce groupe.	
+GLUE_COLLECTION_DISABLED_NOTICE	Vous ne pouvez pas faire cela pour le moment.	
 GLUE_COLLECTION_DUEL_DECKNAME	Deck de duels	
 GLUE_COLLECTION_EMPTY_PAGE	Page 0	
+GLUE_COLLECTION_EMPTY_SIDEBOARD_DESCRIPTION	Les cartes de votre collection peuvent être ajoutées à ce deck secondaire.	
+GLUE_COLLECTION_EMPTY_SIDEBOARD_HEADER	Deck secondaire vide	
 GLUE_COLLECTION_ERROR_HEADER	Erreur de collection !	
 GLUE_COLLECTION_FEATURED_CARDS	Cartes à la une	
 GLUE_COLLECTION_FINAL_REWARD	Récompense finale	
@@ -693,6 +700,10 @@ GLUE_COLLECTION_HOME_PAGE	Vue d’ensemble
 GLUE_COLLECTION_INCLUDE_PREMIUMS	Dorées comprises	
 GLUE_COLLECTION_INCOMPATIBLE_RUNES_DESCRIPTION	Cette carte nécessite des runes qui ne sont pas dans votre deck.	
 GLUE_COLLECTION_INCOMPATIBLE_RUNES_HEADER	Runes incompatibles	
+GLUE_COLLECTION_INCOMPLETE_SIDEBOARD_DESCRIPTION	Le deck secondaire est incomplet pour ce deck. Voulez-vous vraiment terminer la modification ?	
+GLUE_COLLECTION_INCOMPLETE_SIDEBOARD_HEADER	Deck secondaire incomplet	
+GLUE_COLLECTION_INVALID_SIDEBOARD_CARDS_DESCRIPTION	Ce deck secondaire contient des cartes non valides.	
+GLUE_COLLECTION_INVALID_SIDEBOARD_CARDS_HEADER	Deck secondaire non valide	
 GLUE_COLLECTION_LETTUCE_LOADOUT_TEXT	Arsenal	
 GLUE_COLLECTION_LETTUCE_LOCK_TEXT	Dans votre groupe	
 GLUE_COLLECTION_LETTUCE_PVE_TEAMNAME	Groupe JcE	
@@ -984,6 +995,12 @@ GLUE_EDIT_TEAM	Modifier le groupe
 GLUE_ERROR_DECK_RULESET_RULE_VIOLATION	Le deck sélectionné n’est pas valide pour ce mode de jeu.	
 GLUE_ERROR_DECK_VALIDATION_WRONG_FORMAT	Impossible d’utiliser un deck libre dans ce mode.	
 GLUE_ERROR_PLAY_GAME_PARTY_NOT_ALLOWED	Un joueur de votre équipe a un classement trop élevé pour jouer à des parties classées en groupe.	
+GLUE_ETC_BAND_FULL	Votre groupe est au complet. Retirez d’abord une carte.	
+GLUE_ETC_BAND_TITLE	Groupe d’E.T.C.	
+GLUE_ETC_CONFIRM	Rock’n’roll !	
+GLUE_ETC_FTUE_QUOTE	Choisissez jusqu’à trois cartes pour rejoindre mon groupe. Cliquez sur le bouton « Groupe » pour commencer !	
+GLUE_ETC_FTUE_SIDEBOARD	Cette carte a un « deck secondaire ».	
+GLUE_ETC_THE_BAND	Le groupe	
 GLUE_EULA_BUTTON	最终用户许可协议	
 GLUE_EULA_TITLE	Conditions générales d’utilisation	
 GLUE_EXTRA_CARDS_DECK_DESC	Vous devez compléter ce deck.	
@@ -1114,7 +1131,10 @@ GLUE_GAME_MODES_POPUP_FORGE_DESC	Créez un deck de 30 cartes.
 GLUE_GAME_MODES_POPUP_HEADER	Choisir un mode	
 GLUE_GAME_MODES_POPUP_PVPDR_DESC	Pillez, créez et combattez pour la gloire !	
 GLUE_GENERIC_RANDOM_CARD_SCROLL_DESC	Votre pack contient {0} !	This is meant to replace the above welcome bundle strings until we have the tech to show custom strings per reward.
-GLUE_GENERIC_RANDOM_CARD_SCROLL_TITLE	C’est une carte légendaire !	This is meant to replace the above welcome bundle strings until we have the tech to show custom strings per reward.
+GLUE_GENERIC_RANDOM_CARD_SCROLL_TITLE	C’est une carte !	
+GLUE_GENERIC_RANDOM_EPIC_SCROLL_TITLE	C’est une carte épique !	
+GLUE_GENERIC_RANDOM_LEGENDARY_SCROLL_TITLE	C’est une carte légendaire !	
+GLUE_GENERIC_RANDOM_RARE_SCROLL_TITLE	C’est une carte rare !	
 GLUE_GENERIC_SPECIFIC_CARD_SCROLL_DESC	Trouvez-la dans votre collection de cartes !	
 GLUE_GHOST_CARD_MISSING_DESCRIPTION	Vous ne possédez pas cette carte.\nCliquez pour en trouver une de remplacement.	
 GLUE_GHOST_CARD_MISSING_DESCRIPTION_TOUCH	Vous ne possédez pas cette carte.\nTouchez pour en trouver une de remplacement.	
@@ -1913,7 +1933,7 @@ GLUE_PROGRESSION_BATTLEGROUNDS_BONUS_ERROR_HEADER	Ticket saisonnier
 GLUE_PROGRESSION_BONUS_ERROR_BODY	Il n’y a actuellement aucun ticket de la taverne. Revenez plus tard.	
 GLUE_PROGRESSION_BONUS_ERROR_HEADER	Ticket de la taverne	
 GLUE_PROGRESSION_EVENT_TAB_COMING_SOON	L’évènement débute dans : {0}	
-GLUE_PROGRESSION_EVENT_TAB_COMPLETED	Vous avez terminé toutes les quêtes d’évènement disponibles pour cet évènement !	
+GLUE_PROGRESSION_EVENT_TAB_COMPLETED	Vous avez obtenu toutes les récompenses de cet évènement !	
 GLUE_PROGRESSION_EVENT_TAB_POPUP_EXPIRED_BODY	L’évènement « {0} » touche à sa fin. Ne manquez pas le prochain !	
 GLUE_PROGRESSION_EVENT_TAB_POPUP_EXPIRED_TITLE	L’évènement est terminé !	
 GLUE_PROGRESSION_EVENT_TAB_POPUP_FORGOT_REWARDS_BODY	Nous avons ajouté {0} |4(récompense,récompenses) à votre collection venant d’un évènement passé : {1}.	
@@ -2880,9 +2900,10 @@ GLUE_TIP_BACON_18	Avec 8 combattants, rentrer dans le top 4 est un véritable 
 GLUE_TIP_BACON_19	Tous les joueurs partagent le même inventaire de serviteurs.	
 GLUE_TIP_BACON_2	Chaque partie comprend un ensemble différent de types de serviteurs.\nParfois vous verrez des Murlocs, et parfois pas !	
 GLUE_TIP_BACON_20	Quand vous éliminez un adversaire, ses serviteurs retournent dans l’inventaire.	
-GLUE_TIP_BACON_21	En combat, le joueur ou la joueuse qui a le plus de serviteurs lance la première attaque. À nombre égal, la première attaque est attribuée aléatoirement.	
-GLUE_TIP_BACON_22	Le maximum de dégâts que les héros et héroïnes peuvent subir en une fois est limité à 15 points jusqu’à ce qu’un héros ou une héroïne meure ET que les personnes jouant aient obtenu 10 pièces d’or. Vérifiez si le tableau des scores brille en bleu !	
+GLUE_TIP_BACON_21	En combat, le joueur ou la joueuse qui a le plus de serviteurs attaque en premier. À nombre égal, la première attaque est attribuée aléatoirement.	
+GLUE_TIP_BACON_22	Le maximum de dégâts que les joueurs et joueuses peuvent subir en une fois est limité à 15 points jusqu’à ce qu’un héros ou une héroïne meure ET que les personnes jouant aient obtenu 10 pièces d’or.	
 GLUE_TIP_BACON_23	Les <b>Râles d’agonie</b> se déclenchent avant la <b>Réincarnation</b>.	
+GLUE_TIP_BACON_24	Plus le niveau d’un compagnon est élevé, plus il coûte de pièces d’or.	
 GLUE_TIP_BACON_3	Quand vous gagnez un combat, votre héros ou héroïne et vos serviteurs\ninfligent des dégâts équivalents à leur niveau de taverne.	
 GLUE_TIP_BACON_4	L’amélioration de votre niveau de taverne vous coûte (1) pièce de moins à chaque tour.	
 GLUE_TIP_BACON_5	Il n’existe que sept copies des serviteurs de niveau 6.\nUne fois achetés, ils ne sont plus disponibles pour personne !	
