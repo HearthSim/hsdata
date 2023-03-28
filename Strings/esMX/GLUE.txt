@@ -613,6 +613,7 @@ GLUE_COLLECTION_DECK_COPY_COMMENT_HEADER_FORMAT	Formato: {0}
 GLUE_COLLECTION_DECK_COPY_TOOLTIP_FORMAT	Tu mazo tiene algunas cartas que no son válidas para este formato.	
 GLUE_COLLECTION_DECK_COPY_TOOLTIP_HEADLINE	Copiar mazo	
 GLUE_COLLECTION_DECK_COPY_TOOLTIP_INCOMPLETE	Solo puedes copiar un mazo válido.	
+GLUE_COLLECTION_DECK_COPY_TOOLTIP_RUNES_WARNING	Cartas de runas inválidas.	
 GLUE_COLLECTION_DECK_COPY_TOOLTIP_UNPLAYABLE	Tu mazo tiene cartas que no están permitidas.	
 GLUE_COLLECTION_DECK_DELETE	Borrar	
 GLUE_COLLECTION_DECK_EXTRA_CARD_WARNING_BODY	Puedes agregar más de {0} cartas cuando armas un mazo, pero solo puede tener {0} cartas para usarlo en el juego.	
@@ -631,6 +632,7 @@ GLUE_COLLECTION_DECK_FORMAT_STANDARD	Estándar
 GLUE_COLLECTION_DECK_FORMAT_WILD	Salvaje	
 GLUE_COLLECTION_DECK_GENERIC_INVALID_MESSAGE	Tu mazo tiene algunas cartas que no son válidas para este formato.	
 GLUE_COLLECTION_DECK_HELP_BUTTON	Asistente de mazos	
+GLUE_COLLECTION_DECK_HELPER_REPLACE_BANNED_CARD	Carta no permitida	
 GLUE_COLLECTION_DECK_HELPER_REPLACE_CARD	Reemplaza esta carta	
 GLUE_COLLECTION_DECK_HELPER_REPLACE_INVALID_CARD	No permitida en este formato	
 GLUE_COLLECTION_DECK_HELPER_REPLACE_INVALID_CARD_NPR	Debes completar el aprendizaje	
@@ -798,6 +800,7 @@ GLUE_COLLECTION_NEW_DECK_DETAIL_DESC	Legendarias x {0}, épicas x {1}, raras x {
 GLUE_COLLECTION_NEW_DECK_DETAIL_HEADER	Incluidas en este mazo de {0}:	
 GLUE_COLLECTION_NEW_TEAM	Grupo nuevo	
 GLUE_COLLECTION_NO_MATCHES	No se encontraron coincidencias	
+GLUE_COLLECTION_NO_PACKS	Sin paquetes	
 GLUE_COLLECTION_NO_RESULTS	No hay resultados	
 GLUE_COLLECTION_NO_RESULTS_BUT_CRAFTABLE	No tienes esta carta	
 GLUE_COLLECTION_NO_RESULTS_BUT_CRAFTABLE_HINT	¿Quieres verla en el modo de creación?	
@@ -949,8 +952,10 @@ GLUE_DEVICE_PERFORMANCE_NEXT_VERSION_WARNING	Tu dispositivo no tiene las especif
 GLUE_DEVICE_PERFORMANCE_WARNING	Este dispositivo no cumple con los requisitos mínimos necesarios para ejecutar el juego. Es posible que Hearthstone tenga problemas de gráficos o de funcionamiento.\n\nPulsa ASISTENCIA para obtener más información.	
 GLUE_DEVICE_PERFORMANCE_WARNING_2	Tu dispositivo no tiene las especificaciones recomendadas y podría tener problemas para ejecutar Hearthstone.	
 GLUE_DEVICE_PERFORMANCE_WARNING_TITLE	Rendimiento de dispositivo	
+GLUE_DISABLED_DECK_CLASS_LOCKED_DESC	Desbloquea esta clase para usar este mazo.	
 GLUE_DISABLED_DECK_DESC	No se puede usar en formato {0}.	0=current format
 GLUE_DISABLED_DECK_HEADER	Mazo {0}	0=deck format
+GLUE_DISABLED_DECK_HEADER_CLASS_LOCKED	Clase bloqueada	
 GLUE_DISABLED_DECK_IN_CURRENT_MODE_DESC	No se puede usar en este modo.	
 GLUE_DONT_SHOW_ME_THIS_AGAIN	No volver a mostrar	
 GLUE_DRAFT_HERO_INSTRUCTIONS	Elige tu héroe	
@@ -960,7 +965,7 @@ GLUE_DRAFT_INSTRUCTIONS	Elige una carta
 GLUE_DRAFT_LOSSES_LABEL	Derrotas:	
 GLUE_DRAFT_MATCH_PROG	Progreso en la Arena	
 GLUE_DRAFT_PLAY_BUTTON	JUGAR	
-GLUE_DRAFT_REMOVE_PREMIUMS_DIALOG_BODY	¿Desactivar cartas doradas y diamante para esta ronda de la Arena?	
+GLUE_DRAFT_REMOVE_PREMIUMS_DIALOG_BODY	¿Desactivar cartas especiales para esta ronda de la Arena?	
 GLUE_DRAFT_REMOVE_PREMIUMS_DIALOG_TITLE	Desactivar especiales	
 GLUE_DRAFT_RETIRE_BUTTON	RETIRARSE	
 GLUE_DRAFT_WINS_LABEL	Victorias	
@@ -1136,9 +1141,15 @@ GLUE_GENERIC_RANDOM_EPIC_SCROLL_TITLE	¡Es una carta épica!
 GLUE_GENERIC_RANDOM_LEGENDARY_SCROLL_TITLE	¡Es una carta legendaria!	
 GLUE_GENERIC_RANDOM_RARE_SCROLL_TITLE	¡Es una carta rara!	
 GLUE_GENERIC_SPECIFIC_CARD_SCROLL_DESC	¡Búscala en tu colección de cartas!	
+GLUE_GHOST_CARD_BANNED_DESCRIPTION	Esta carta no está permitida y no se puede usar en este mazo.\nHaz clic para buscar un reemplazo.	
+GLUE_GHOST_CARD_BANNED_DESCRIPTION_TOUCH	Esta carta no está permitida y no se puede usar en este mazo.\nToca para buscar un reemplazo.	
+GLUE_GHOST_CARD_BANNED_TITLE	Carta no permitida	
 GLUE_GHOST_CARD_MISSING_DESCRIPTION	No tienes esta carta.\nHaz clic para buscar un reemplazo.	
 GLUE_GHOST_CARD_MISSING_DESCRIPTION_TOUCH	No tienes esta carta.\nToca para buscar un reemplazo.	
 GLUE_GHOST_CARD_MISSING_TITLE	Carta faltante	
+GLUE_GHOST_CARD_NEVER_VALID_DESCRIPTION	Esta carta no es válida y no se puede usar en este mazo.\nHaz clic para buscar un reemplazo.	
+GLUE_GHOST_CARD_NEVER_VALID_DESCRIPTION_TOUCH	Esta carta no es válida y no se puede usar en este mazo.\nToca para buscar un reemplazo.	
+GLUE_GHOST_CARD_NEVER_VALID_TITLE	Carta no válida	
 GLUE_GHOST_CARD_NOT_VALID_DESCRIPTION	Las cartas salvajes no pueden usarse en los mazos estándar.\nHaz clic para buscar un reemplazo.	
 GLUE_GHOST_CARD_NOT_VALID_DESCRIPTION_TOUCH	Las cartas salvajes no pueden usarse en los mazos estándar.\nToca para buscar un reemplazo.	
 GLUE_GHOST_CARD_NOT_VALID_TITLE	Carta salvaje	
@@ -1840,8 +1851,9 @@ GLUE_NEW_PLAYER_SET_ROTATION_POPUP_BODY	¡Hay nuevas cartas disponibles! Algunas
 GLUE_NEW_PLAYER_SET_ROTATION_POPUP_HEADER	¡Bienvenidos a {0}!	
 GLUE_NINJA	Ninja	
 GLUE_NUM_CHAPTERS_COMPLETED	{0}/{1} completados	
-GLUE_OBJECTIVES_BANNER	Quedan {0} turnos 	0=Turns until the objective destroys itself
-GLUE_OBJECTIVES_BANNER_FINAL_TURN	Queda {0} turno	
+GLUE_OBJECTIVES_BANNER	Solo {0} |4(turno,turnos) más 	0=Turns until the objective destroys itself
+GLUE_OBJECTIVES_BANNER_NO_SPELL_PLAYED	No se jugó un hechizo	
+GLUE_OBJECTIVES_BANNER_SPELL_PLAYED	Se jugó un hechizo	
 GLUE_OFFLINE_DECK_DELETED_REMOTELY_ERROR_BODY	El mazo que estabas editando ya no existe.	
 GLUE_OFFLINE_DECK_ERROR_BODY	Se produjo un error al crear tu mazo mientras estabas sin conexión. Conéctate y vuelve a intentarlo.	
 GLUE_OFFLINE_FEATURE_DISABLED_BODY	Esta funcionalidad no está disponible sin conexión.	
@@ -1871,6 +1883,7 @@ GLUE_PACK_OPENING_ALL_CLASSES	Todas las clases
 GLUE_PACK_OPENING_BOOSTER_COUNT	{0}	0=number of owned boosters
 GLUE_PACK_OPENING_HEADER	Abrir paquetes	
 GLUE_PACK_OPENING_TOOLTIP	카드팩을 개봉함으로써, 귀하는 카드팩의 청약철회가 불가하다는 사실을 인지하고 이에 동의합니다.	only displayed for Korean customers, should always be in Korean
+GLUE_PACKOPEN_SHOPBANNER	¡Más paquetes en la tienda!	
 GLUE_PARTY_MEMBER_NO_NAME	...	
 GLUE_PATCHING_ERROR	Hemos encontrado un error al actualizar Hearthstone. Vuelve a intentarlo.	
 GLUE_PATCHING_LABEL	Descargando {0}/{1} |4(archivo,archivos)	
@@ -2217,7 +2230,7 @@ GLUE_SELLABLE_DECK_FULL_LIST_BODY	Obtuviste todas las cartas pero tu lista de ma
 GLUE_SELLABLE_DECK_FULL_LIST_HEADER	Lista de mazos completa	
 GLUE_SELLABLE_DECK_TITLE	¡Felicitaciones!	
 GLUE_SET_ROTATION_EVEN_YEAR	Año de la hidra	
-GLUE_SET_ROTATION_ODD_YEAR	Año del grifo	
+GLUE_SET_ROTATION_ODD_YEAR	Año del lobo	
 GLUE_SHOP_ARCANE_ORBS	Orbes arcanos	
 GLUE_SHOP_BOOSTER_SKU_BUTTON	{0} |4(paquete,paquetes)	
 GLUE_SHOP_CARD_INCLUDED_FREE	Se obtiene de forma gratuita al completar el prólogo de Caballero de la muerte.	
@@ -3014,7 +3027,7 @@ GLUE_TIP_LETTUCE_8	Usa las monedas para mejorar tus habilidades y equipamientos.
 GLUE_TIP_LETTUCE_9	Completa tareas para obtener Equipamiento.	
 GLUE_TIP_PLAY_0	Te enfrentarás a un jugador de tu nivel.	
 GLUE_TIP_PLAY_1	A medida que ganes o pierdas partidas, registraremos tu desempeño y te enfrentarás a adversarios con habilidades similares a las tuyas.	
-GLUE_TIP_PLAY_2	Cada clase tiene 16 cartas esenciales diferentes que puedes desbloquear a medida que subes de nivel.	
+GLUE_TIP_PLAY_2	Cada clase tiene 17 cartas esenciales diferentes que puedes desbloquear a medida que subes de nivel.	
 GLUE_TIP_PLAY_3	Completa misiones para ganar experiencia de recompensas. Con la experiencia, avanzarás en la Senda de recompensas.	
 GLUE_TIP_PLAY_4	¡El rango más alto en el modo clasificado es el rango de "Leyenda"!	
 GLUE_TIP_PLAY_5	Los mazos pueden tener dos copias de cada carta, pero solo una carta Legendaria.	
@@ -3025,7 +3038,7 @@ GLUE_TIP_PRACTICE_0	Para desbloquear héroes, debes derrotarlos en el modo Prác
 GLUE_TIP_PRACTICE_1	¡El modo Práctica te prepara para el modo de juego tradicional de Hearthstone!	
 GLUE_TIP_PRACTICE_2	¡El modo Hearthstone tradicional hará que te enfrentes con alguien de habilidades similares!	
 GLUE_TIP_PRACTICE_3	Si visitas tu Colección, puedes construir un mazo personalizado con tus cartas.	
-GLUE_TIP_PRACTICE_4	Cada clase tiene 16 cartas esenciales diferentes que puedes desbloquear a medida que subes de nivel.	
+GLUE_TIP_PRACTICE_4	Cada clase tiene 17 cartas esenciales diferentes que puedes desbloquear a medida que subes de nivel.	
 GLUE_TIP_PRACTICE_5	¡Completa misiones en el modo Jugar para obtener experiencia de recompensas!	
 GLUE_TIP_PRACTICE_6	¿Debes atacar al héroe o a los esbirros enemigos? La respuesta es un factor decisivo para cambiar el curso de una batalla.	
 GLUE_TIP_PRACTICE_7	A partir del nivel 10, obtendrás más experiencia de héroe si juegas contra jugadores reales.	

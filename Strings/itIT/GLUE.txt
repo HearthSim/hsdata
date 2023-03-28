@@ -613,6 +613,7 @@ GLUE_COLLECTION_DECK_COPY_COMMENT_HEADER_FORMAT	Formato: {0}
 GLUE_COLLECTION_DECK_COPY_TOOLTIP_FORMAT	Il tuo mazzo include delle carte che non sono compatibili con questo formato.	
 GLUE_COLLECTION_DECK_COPY_TOOLTIP_HEADLINE	Copia mazzo	
 GLUE_COLLECTION_DECK_COPY_TOOLTIP_INCOMPLETE	Puoi copiare solo un mazzo valido.	
+GLUE_COLLECTION_DECK_COPY_TOOLTIP_RUNES_WARNING	Carte con Rune non valide	
 GLUE_COLLECTION_DECK_COPY_TOOLTIP_UNPLAYABLE	Il tuo mazzo include delle carte che non sono utilizzabili.	
 GLUE_COLLECTION_DECK_DELETE	Elimina	
 GLUE_COLLECTION_DECK_EXTRA_CARD_WARNING_BODY	Puoi aggiungere più di {0} carte mentre componi un mazzo, ma deve avere solo {0} carte per essere valido per giocarci.	
@@ -631,6 +632,7 @@ GLUE_COLLECTION_DECK_FORMAT_STANDARD	Standard
 GLUE_COLLECTION_DECK_FORMAT_WILD	Selvaggio	
 GLUE_COLLECTION_DECK_GENERIC_INVALID_MESSAGE	Il tuo mazzo include delle carte che non sono compatibili con questo formato.	
 GLUE_COLLECTION_DECK_HELP_BUTTON	Suggerimenti	
+GLUE_COLLECTION_DECK_HELPER_REPLACE_BANNED_CARD	Carta esclusa	
 GLUE_COLLECTION_DECK_HELPER_REPLACE_CARD	Sostituisci questa carta	
 GLUE_COLLECTION_DECK_HELPER_REPLACE_INVALID_CARD	Non concesso per il formato	
 GLUE_COLLECTION_DECK_HELPER_REPLACE_INVALID_CARD_NPR	Devi completare l'Addestramento	
@@ -798,6 +800,7 @@ GLUE_COLLECTION_NEW_DECK_DETAIL_DESC	Leggendarie: {0}, Epiche: {1}, Rare: {2}, C
 GLUE_COLLECTION_NEW_DECK_DETAIL_HEADER	Incluse in questo mazzo {0}:	
 GLUE_COLLECTION_NEW_TEAM	Nuovo gruppo	
 GLUE_COLLECTION_NO_MATCHES	Nessun risultato trovato	
+GLUE_COLLECTION_NO_PACKS	Nessuna busta	
 GLUE_COLLECTION_NO_RESULTS	Nessun risultato	
 GLUE_COLLECTION_NO_RESULTS_BUT_CRAFTABLE	Non possiedi questa carta	
 GLUE_COLLECTION_NO_RESULTS_BUT_CRAFTABLE_HINT	Vuoi consultarla in modalità Creazione?	
@@ -949,8 +952,10 @@ GLUE_DEVICE_PERFORMANCE_NEXT_VERSION_WARNING	Il tuo dispositivo non possiede i r
 GLUE_DEVICE_PERFORMANCE_WARNING	Questo dispositivo non soddisfa i requisiti minimi per eseguire il gioco, perciò Hearthstone potrebbe presentare difetti grafici e/o scarse prestazioni.\n\nTocca Assistenza per ulteriori informazioni.	
 GLUE_DEVICE_PERFORMANCE_WARNING_2	Il tuo dispositivo non possiede i requisiti consigliati e potrebbero esserci dei problemi nel funzionamento di Hearthstone.	
 GLUE_DEVICE_PERFORMANCE_WARNING_TITLE	Prestazioni dispositivo	
+GLUE_DISABLED_DECK_CLASS_LOCKED_DESC	Sblocca questa classe per usare questo mazzo.	
 GLUE_DISABLED_DECK_DESC	Non utilizzabile in formato {0}.	0=current format
 GLUE_DISABLED_DECK_HEADER	Mazzo {0}	0=deck format
+GLUE_DISABLED_DECK_HEADER_CLASS_LOCKED	Classe bloccata	
 GLUE_DISABLED_DECK_IN_CURRENT_MODE_DESC	Non utilizzabile in questa modalità.	
 GLUE_DONT_SHOW_ME_THIS_AGAIN	Non mostrare più	
 GLUE_DRAFT_HERO_INSTRUCTIONS	Scegli il tuo eroe	
@@ -960,7 +965,7 @@ GLUE_DRAFT_INSTRUCTIONS	Scegli una carta
 GLUE_DRAFT_LOSSES_LABEL	Sconfitte:	
 GLUE_DRAFT_MATCH_PROG	Progresso nell'Arena	
 GLUE_DRAFT_PLAY_BUTTON	GIOCA	
-GLUE_DRAFT_REMOVE_PREMIUMS_DIALOG_BODY	Vuoi disattivare le carte Dorate e Diamante per questa Arena?	
+GLUE_DRAFT_REMOVE_PREMIUMS_DIALOG_BODY	Vuoi disattivare le carte Premium per questa Arena?	
 GLUE_DRAFT_REMOVE_PREMIUMS_DIALOG_TITLE	Disattiva carte Premium	
 GLUE_DRAFT_RETIRE_BUTTON	RITIRATI	
 GLUE_DRAFT_WINS_LABEL	Vittorie	
@@ -1136,9 +1141,15 @@ GLUE_GENERIC_RANDOM_EPIC_SCROLL_TITLE	Una carta Epica!
 GLUE_GENERIC_RANDOM_LEGENDARY_SCROLL_TITLE	Una carta Leggendaria!	
 GLUE_GENERIC_RANDOM_RARE_SCROLL_TITLE	Una carta Rara!	
 GLUE_GENERIC_SPECIFIC_CARD_SCROLL_DESC	Lo troverai nella tua collezione!	
+GLUE_GHOST_CARD_BANNED_DESCRIPTION	Questa carta è stata esclusa e non può essere usata in questo mazzo.\nClicca per trovare un'alternativa.	
+GLUE_GHOST_CARD_BANNED_DESCRIPTION_TOUCH	Questa carta è stata esclusa e non può essere usata in questo mazzo.\nTocca per trovare un'alternativa.	
+GLUE_GHOST_CARD_BANNED_TITLE	Carta esclusa	
 GLUE_GHOST_CARD_MISSING_DESCRIPTION	Non possiedi questa carta.\nClicca per trovare un'alternativa.	
 GLUE_GHOST_CARD_MISSING_DESCRIPTION_TOUCH	Non possiedi questa carta.\nTocca per trovare un'alternativa.	
 GLUE_GHOST_CARD_MISSING_TITLE	Carta mancante	
+GLUE_GHOST_CARD_NEVER_VALID_DESCRIPTION	Questa carta non è valida e non può essere usata in questo mazzo.\nClicca per trovare un'alternativa.	
+GLUE_GHOST_CARD_NEVER_VALID_DESCRIPTION_TOUCH	Questa carta non è valida e non può essere usata in questo mazzo.\nTocca per trovare un'alternativa.	
+GLUE_GHOST_CARD_NEVER_VALID_TITLE	Carta non valida	
 GLUE_GHOST_CARD_NOT_VALID_DESCRIPTION	Le carte Selvagge non possono essere utilizzate nei mazzi Standard.\nClicca per trovare un'alternativa.	
 GLUE_GHOST_CARD_NOT_VALID_DESCRIPTION_TOUCH	Le carte Selvagge non possono essere utilizzate nei mazzi Standard.\nTocca per trovare un'alternativa.	
 GLUE_GHOST_CARD_NOT_VALID_TITLE	Carta Selvaggia	
@@ -1840,8 +1851,9 @@ GLUE_NEW_PLAYER_SET_ROTATION_POPUP_BODY	Sono arrivate delle nuove carte! Alcune 
 GLUE_NEW_PLAYER_SET_ROTATION_POPUP_HEADER	L'{0} ti dà il benvenuto!	
 GLUE_NINJA	Ninja	
 GLUE_NUM_CHAPTERS_COMPLETED	{0}/{1} completati	
-GLUE_OBJECTIVES_BANNER	{0} turni rimasti 	0=Turns until the objective destroys itself
-GLUE_OBJECTIVES_BANNER_FINAL_TURN	{0} turno rimasto	
+GLUE_OBJECTIVES_BANNER	{0} |4(turno rimasto,turni rimasti) 	0=Turns until the objective destroys itself
+GLUE_OBJECTIVES_BANNER_NO_SPELL_PLAYED	Nessuna Magia giocata	
+GLUE_OBJECTIVES_BANNER_SPELL_PLAYED	Magia giocata	
 GLUE_OFFLINE_DECK_DELETED_REMOTELY_ERROR_BODY	Il mazzo che stavi modificando non esiste più.	
 GLUE_OFFLINE_DECK_ERROR_BODY	Si è verificato un errore nella creazione del mazzo mentre eri offline. Prova a riconnetterti.	
 GLUE_OFFLINE_FEATURE_DISABLED_BODY	Questa funzione non è disponibile offline.	
@@ -1871,6 +1883,7 @@ GLUE_PACK_OPENING_ALL_CLASSES	Tutte le classi
 GLUE_PACK_OPENING_BOOSTER_COUNT	{0}	0=number of owned boosters
 GLUE_PACK_OPENING_HEADER	Apri buste	
 GLUE_PACK_OPENING_TOOLTIP	카드 팩을 개봉함으로써, 귀하는 카드 팩의 청약철회가 불가하다는 사실을 인지하고 이에 동의합니다.	only displayed for Korean customers, should always be in Korean
+GLUE_PACKOPEN_SHOPBANNER	Più buste nel negozio!	
 GLUE_PARTY_MEMBER_NO_NAME	...	
 GLUE_PATCHING_ERROR	Errore durante l'aggiornamento di Hearthstone. Riprova.	
 GLUE_PATCHING_LABEL	Scaricamento di {0}/{1} file	
@@ -2217,7 +2230,7 @@ GLUE_SELLABLE_DECK_FULL_LIST_BODY	Possiedi tutte le carte ma non hai spazio per 
 GLUE_SELLABLE_DECK_FULL_LIST_HEADER	Lista dei mazzi piena	
 GLUE_SELLABLE_DECK_TITLE	Congratulazioni!	
 GLUE_SET_ROTATION_EVEN_YEAR	Anno dell'Idra	
-GLUE_SET_ROTATION_ODD_YEAR	Anno del Grifone	
+GLUE_SET_ROTATION_ODD_YEAR	Anno del Lupo	
 GLUE_SHOP_ARCANE_ORBS	Globi Arcani	
 GLUE_SHOP_BOOSTER_SKU_BUTTON	{0} |4(busta,buste)	
 GLUE_SHOP_CARD_INCLUDED_FREE	Disponibile completando il prologo del Cavaliere della Morte.	
@@ -3014,7 +3027,7 @@ GLUE_TIP_LETTUCE_8	Usa le Monete per potenziare le tue abilità e il tuo equipag
 GLUE_TIP_LETTUCE_9	L'equipaggiamento si può ottenere completando gli incarichi.	
 GLUE_TIP_PLAY_0	Affronterai un avversario del tuo stesso livello di abilità.	
 GLUE_TIP_PLAY_1	I tuoi risultati vengono registrati per stabilire il tuo livello\ndi gioco e offrirti avversari del giusto livello di abilità.	
-GLUE_TIP_PLAY_2	Ogni classe ha 16 carte del set Principale differenti che puoi sbloccare semplicemente salendo di livello.	
+GLUE_TIP_PLAY_2	Ogni classe ha 17 carte del set Principale differenti che puoi sbloccare salendo di livello.	
 GLUE_TIP_PLAY_3	Completa le missioni per ottenere PE Ricompensa. I PE ti permettono di avanzare nel tuo Percorso Ricompense.	
 GLUE_TIP_PLAY_4	Il grado più alto in modalità Classificata è il grado "Leggenda"!	
 GLUE_TIP_PLAY_5	I mazzi possono contenere due copie di ogni carta,\nma solo una copia di una carta leggendaria.	
@@ -3025,7 +3038,7 @@ GLUE_TIP_PRACTICE_0	Puoi sbloccare gli eroi sconfiggendoli in modalità Allename
 GLUE_TIP_PRACTICE_1	La modalità Allenamento è una buona palestra per la modalità di gioco tradizionale di Hearthstone!	
 GLUE_TIP_PRACTICE_2	Nella modalità Hearthstone Tradizionale potrai affrontare avversari del tuo stesso livello di abilità!	
 GLUE_TIP_PRACTICE_3	Puoi comporre un mazzo personalizzato con le tue carte\naccedendo alla tua collezione.	
-GLUE_TIP_PRACTICE_4	Ogni classe ha 16 carte del set Principale differenti che puoi sbloccare semplicemente salendo di livello.	
+GLUE_TIP_PRACTICE_4	Ogni classe ha 17 carte del set Principale differenti che puoi sbloccare salendo di livello.	
 GLUE_TIP_PRACTICE_5	Completa le missioni in modalità Gioco per guadagnare PE Ricompensa!	
 GLUE_TIP_PRACTICE_6	Attaccare l'eroe o i suoi servitori?\nLa giusta scelta potrà cambiare le sorti della battaglia.	
 GLUE_TIP_PRACTICE_7	Dopo il livello 10, otterrai più PE Eroe affrontando giocatori reali.	
