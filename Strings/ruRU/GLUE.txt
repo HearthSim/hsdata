@@ -373,10 +373,10 @@ GLUE_BATTLEBASH_ERROR_NO_HAMMERS	Не надо молотков
 GLUE_BATTLEBASH_EVENT_POPUP_TIME_REM_DAYS	Осталось: {0} |4(день,дня,дней)	
 GLUE_BATTLEBASH_EVENT_POPUP_TIME_REM_DESC	«Боевой разнос» покидает поля сражений! Скоро появятся новые декоративные предметы.	
 GLUE_BATTLEBASH_EVENT_TIME_REM_DAYS	Еще\n{0} дн.	0: event time remaining in days
-GLUE_BATTLEBASH_EVENT_TIME_REM_DAYS_TOOLTIP	< {0} дн.	
+GLUE_BATTLEBASH_EVENT_TIME_REM_DAYS_TOOLTIP	Осталось <{0} |4(день,дня,дней)	
 GLUE_BATTLEBASH_EVENT_TIME_REM_HOUR_OR_LESS	Менее\n1_ч.	
 GLUE_BATTLEBASH_EVENT_TIME_REM_HOURS	Еще\n{0} ч.	0: event time remaining in hours
-GLUE_BATTLEBASH_EVENT_TIME_REM_HOURS_TOOLTIP	< {0} ч.	
+GLUE_BATTLEBASH_EVENT_TIME_REM_HOURS_TOOLTIP	Осталось <{0} |4(час,часа,часов)	
 GLUE_BATTLEBASH_EVENT_TIME_REM_TOOLTIP_TITLE	Скоро закончится	
 GLUE_BATTLEBASH_FTUE_CLAIM_HAMMER	Начните боевой разнос!	
 GLUE_BATTLEBASH_FTUE_HINT	Щелкните, чтобы увидеть «Боевой разнос»	
@@ -882,6 +882,7 @@ GLUE_CRAFTING_DISENCHANT_CONFIRM2_DESC	Если вы распылите эту �
 GLUE_CRAFTING_DISENCHANT_CONFIRM3_DESC	Если вы распылите эту карту, ее классическая версия также исчезнет из вашей коллекции.	
 GLUE_CRAFTING_EVENT_NOT_ACTIVE_DESCRIPTION	Карты из набора «{0}» пока что нельзя создать или распылить.	
 GLUE_CRAFTING_EVENT_NOT_ACTIVE_TITLE	Еще не вышла	
+GLUE_CRAFTING_INVALID_CARD_DESC	Данная карта не подходит для текущего формата. Вы уверены?	
 GLUE_CRAFTING_INVALID_CARD_TAVERN_BRAWL_DESC	Эта карта запрещена в текущей потасовке. Вы уверены?	
 GLUE_CRAFTING_INVALID_CARD_TAVERN_BRAWL_HEADER	Неподходящие карты	
 GLUE_CRAFTING_NONSTANDARD_CARD_WARNING_CANCEL	Ой! Нет!	
@@ -892,6 +893,7 @@ GLUE_CRAFTING_SOULBOUND_DESC	Эту карту нельзя создать ил�
 GLUE_CRAFTING_SOULBOUND_FEATURED_DESC	Только в течение особого события!	
 GLUE_CRAFTING_SOULBOUND_OFFLINE_DESC	Находясь вне сети, вы не можете создавать и распылять карты.	
 GLUE_CRAFTING_SOULBOUND_REWARD_DESC	Награды за выполнение заданий нельзя создать или распылить.	
+GLUE_CRAFTING_STANDARD_CARD_HEADER	Карты стандартного формата	
 GLUE_CRAFTING_TITLE	Создание карт	
 GLUE_CRAFTING_UNDO	Отменить	
 GLUE_CRAFTING_UPGRADE	Улучшить	
@@ -1854,6 +1856,7 @@ GLUE_NUM_CHAPTERS_COMPLETED	Пройдено глав: {0}/{1}
 GLUE_OBJECTIVES_BANNER	Осталось ходов: {0}	0=Turns until the objective destroys itself
 GLUE_OBJECTIVES_BANNER_NO_SPELL_PLAYED	Не разыграно заклинание	
 GLUE_OBJECTIVES_BANNER_SPELL_PLAYED	Разыграно заклинание	
+GLUE_OBJECTIVES_BANNER_UNKNOWN	?? Осталось ходов:	
 GLUE_OFFLINE_DECK_DELETED_REMOTELY_ERROR_BODY	Редактируемая колода больше не существует.	
 GLUE_OFFLINE_DECK_ERROR_BODY	Не удалось создать колоду, так как вы находитесь не в сети. Пожалуйста, подключитесь повторно и попробуйте снова.	
 GLUE_OFFLINE_FEATURE_DISABLED_BODY	Возможность недоступна без подключения к сети.	
@@ -1877,7 +1880,7 @@ GLUE_ORDINAL_6	6й
 GLUE_ORDINAL_7	7й	
 GLUE_ORDINAL_8	8й	
 GLUE_ORDINAL_9	9й	
-GLUE_OUTSTANDING_DRAFT_TICKET_DIALOG_DESC	У вас есть |4(дополнительный,дополнительных,дополнительных) |4(пропуск,пропуска, пропусков) в таверну! В этот раз можно не беспокоиться о плате за вход.	
+GLUE_OUTSTANDING_DRAFT_TICKET_DIALOG_DESC	У вас есть |4(дополнительный,дополнительные,дополнительные) |4(пропуск,пропуска,пропуска) в таверну! В этот раз можно не беспокоиться о плате за вход.	
 GLUE_OUTSTANDING_DRAFT_TICKET_DIALOG_HEADER	Добро пожаловать на Арену!	
 GLUE_PACK_OPENING_ALL_CLASSES	Все классы	
 GLUE_PACK_OPENING_BOOSTER_COUNT	{0}	0=number of owned boosters
@@ -2470,6 +2473,8 @@ GLUE_STORE_LAUNCH_PROMO	ОСОБАЯ АКЦИЯ!
 GLUE_STORE_LEAVING_SOON	Скоро станет\nнедоступно!	
 GLUE_STORE_LEAVING_SOON_LEARN_MORE	Подробнее	
 GLUE_STORE_LIMITED_TIME_OFFER	Специальное предложение!	
+GLUE_STORE_LIMITED_TIME_OFFER_LAST_DAY	Последний день!	
+GLUE_STORE_LIMITED_TIME_OFFER_LAST_WEEK	Последняя неделя!	
 GLUE_STORE_LOOT_PREORDER_DATE	Выйдет в середине декабря*!	
 GLUE_STORE_LOOT_PREORDER_DUST_DATE	Комплекты станут доступны\nв середине декабря*!	
 GLUE_STORE_MINI_SET_CARD_COUNT	{0} |4(карта,карты,карт)	
@@ -2479,6 +2484,7 @@ GLUE_STORE_MODE_CARDS	Карты
 GLUE_STORE_MODE_HEROES	Герои	
 GLUE_STORE_MODE_NAME_DUST	奥术之尘	
 GLUE_STORE_MONEY_BUTTON_TOOLTIP_HEADLINE	Купить	
+GLUE_STORE_MOST_POPULAR	Выбор игроков	
 GLUE_STORE_MSG_PREORDER_DATE	Выйдет в начале декабря!	
 GLUE_STORE_NO_PAYMENT_DETAILS	Вы не выбрали способ оплаты по умолчанию. Пожалуйста, посетите для этого сайт Blizzard, после чего повторите попытку.	
 GLUE_STORE_NO_PAYMENT_HEADLINE	Внимание!	
@@ -2608,6 +2614,10 @@ GLUE_STORE_RANDOM_SKIN_TIER2_LEGENDARY	Золотой легендарный п�
 GLUE_STORE_RANDOM_SKIN_TIER2_RARE	Золотой редкий портрет	
 GLUE_STORE_RANDOM_SKIN_TIER2_UNSPECIFIED	Золотой портрет	
 GLUE_STORE_READ_TOS_BUTTON_TEXT	Прочитать Условия продажи	
+GLUE_STORE_SALE	Скидки	
+GLUE_STORE_SALE_AVERAGE_PERCENT	Скидки {0}%+	0=percent
+GLUE_STORE_SALE_CAPS	СКИДКИ	
+GLUE_STORE_SALE_PERCENT	Скидка {0}%	0=percent
 GLUE_STORE_SELLABLEDECKS_CHOOSE_A_DECK	Выберите колоду	
 GLUE_STORE_SELLABLEDECKS_FLAVOR	Колода: {0}	0 = class name
 GLUE_STORE_SPECIAL_OFFER	Специальное предложение!	
@@ -2637,14 +2647,20 @@ GLUE_STORE_SUMMARY_TOS_AGREEMENT_EU	Нажав кнопку «{0}», вы сог
 GLUE_STORE_TAVERN_PASS_FLAVOR_TEXT	Откройте все предметы до вашего уровня на ленте наград!	
 GLUE_STORE_TAVERN_PASS_FLAVOR_TEXT_CHINA_DISCLAIMER	Получите все предметы до вашего уровня на ленте наград! Существует вероятность, что в связи с ограничениями игрового времени несовершеннолетние не смогут заработать все награды.	
 GLUE_STORE_TAVERN_PASS_HEADLINE_TEXT	С пропуском завсегдатая вы сможете открыть* такие награды, как:	
+GLUE_STORE_TAVERN_PASS_SUBHEADER_TEXT	Приобретите пропуск и получайте опыт, чтобы открыть еще больше наград!	
 GLUE_STORE_TERMS_OF_SALE_BUTTON_TEXT	?	
 GLUE_STORE_TGT_PREORDER_DATE	Уже в августе!	
 GLUE_STORE_THIS_WEEK_ONLY	ТОЛЬКО НА ЭТОЙ НЕДЕЛЕ!	
+GLUE_STORE_TIMER_DAYS	Осталось дней: {0}	0=Days
+GLUE_STORE_TIMER_HOURS	Осталось часов: {0}	0=Hours
+GLUE_STORE_TIMER_LESS_THAN_HOUR	Осталось меньше часа	
 GLUE_STORE_TRL_PREORDER_DATE	Выйдет в середине декабря*!	
 GLUE_STORE_TRL_PREORDER_DUST_DATE	卡牌包可以在十二月中旬\n打开！	
 GLUE_STORE_ULD_PREORDER_DATE	В августе*!	
 GLUE_STORE_ULD_PREORDER_DUST_DATE	卡牌包可以在八月打开！	
 GLUE_STORE_UPDATING_CURRENCY_BALANCE	Баланс средств обновляется. Попробуйте позже.	
+GLUE_STORE_VALUE_MULTIPLY	Выгода X{0}!	0=multiplier
+GLUE_STORE_VALUE_PERCENT	+{0}% выгоды!	0=percent
 GLUE_STORE_VC_BUTTON_TOOLTIP_HEADLINE	Приобрести	
 GLUE_TASK_BOARD_SEARCH_ACTIVE	Активно	
 GLUE_TASK_BOARD_SEARCH_CLAIMABLE	Можно получить	
@@ -2916,7 +2932,6 @@ GLUE_TIP_BACON_20	Когда оппонент проигрывает сраже�
 GLUE_TIP_BACON_21	В бою первым атакует тот, у кого больше существ. Если число существ равно, первый игрок определяется случайным образом.	
 GLUE_TIP_BACON_22	Игрокам можно нанести не более 15 ед. урона за раз до тех пор, пока один из них не погибнет и количество золота у игроков не достигнет 10.	
 GLUE_TIP_BACON_23	<b>«Предсмертные хрипы»</b> срабатывают до <b>«Перерождения»</b>.	
-GLUE_TIP_BACON_24	Чем выше уровень компаньона, тем больше золота за него нужно заплатить.	
 GLUE_TIP_BACON_3	Когда вы побеждаете в сражении, ваш герой и существа\nнаносят урон, равный их уровню таверны.	
 GLUE_TIP_BACON_4	Стоимость повышения уровня таверны уменьшается на (1) каждый ход.	
 GLUE_TIP_BACON_5	Существует только семь копий существ из таверны 6-го уровня. Завербованные существа становятся недоступными для всех!	

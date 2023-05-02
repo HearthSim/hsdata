@@ -245,6 +245,8 @@ GLUE_CRAFTING_WILD_CARD_DESC	This is a Wild card. Are you sure?
 GLUE_CRAFTING_CLASSIC_CARD_HEADER	Classic Format Cards
 GLUE_CRAFTING_CLASSIC_CARD_FIRST_DESC	Crafting this Classic Format card will also create its Wild counterpart, but neither is playable in the Standard format. Are you sure?
 GLUE_CRAFTING_CLASSIC_CARD_DESC	This is a Classic Format card. Are you sure?
+GLUE_CRAFTING_STANDARD_CARD_HEADER	Standard Format Cards
+GLUE_CRAFTING_INVALID_CARD_DESC	This card is not valid for the current format. Are you sure?
 GLUE_CRAFTING_INVALID_CARD_TAVERN_BRAWL_HEADER	Invalid Cards
 GLUE_CRAFTING_INVALID_CARD_TAVERN_BRAWL_DESC	This card is not valid for this Tavern Brawl. Are you sure?
 GLUE_CRAFTING_NONSTANDARD_CARD_WARNING_CONFIRM	I'm Sure
@@ -848,7 +850,6 @@ GLUE_TIP_BACON_20	When you wipe out an opponent, their minions go back into the 
 GLUE_TIP_BACON_21	In combat, the player with more minions is first to attack. If it's a tie, the first attacker is random.
 GLUE_TIP_BACON_22	Players can take at most 15 damage at once until a Hero has died AND players have reached 10 Gold.
 GLUE_TIP_BACON_23	<b>Deathrattles</b> trigger before <b>Reborn</b>.
-GLUE_TIP_BACON_24	The higher a Buddy's Tier, the more Gold it costs to get.
 GLUE_TIP_LETTUCE_0	Using <b>Critical Damage</b> is the key to victory!
 GLUE_TIP_LETTUCE_1	Your Mercs will always act before enemies of the same Speed during Bounty encounters.
 GLUE_TIP_LETTUCE_2	Ability cooldowns decrease even while on the Bench.
@@ -2220,6 +2221,7 @@ GLUE_BACON_BATTLEBASH_PURCHASE_BODY	You'll have {0} days remaining to earn Battl
 GLUE_PARTY_MEMBER_NO_NAME	...
 GLUE_SIDEQUEST_PROGRESS_BANNER	Progress: {0}/{1}	0=Current Progress, 1=Completion Requirement
 GLUE_OBJECTIVES_BANNER	{0} |4(Turn,Turns) Left 	0=Turns until the objective destroys itself
+GLUE_OBJECTIVES_BANNER_UNKNOWN	?? Turns Left
 GLUE_OBJECTIVES_BANNER_SPELL_PLAYED	Spell Played
 GLUE_OBJECTIVES_BANNER_NO_SPELL_PLAYED	No Spell Played
 GLUE_SHOP_SECTION_HEADER_TIERB	Limited\nTime!
@@ -2599,6 +2601,7 @@ GLUE_FUN_CONFIRM_MESSAGE	Awesome!
 GLUE_STORE_PRODUCT_NAME_PROGRESSION_BONUS	Tavern Pass
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_PROGRESSION_BONUS	이용기간: 다음 확장팩 출시일 전까지. 본 상품은 구매 즉시 효과가 적용되므로 구매 후 환불이 불가능합니다.
 GLUE_STORE_TAVERN_PASS_HEADLINE_TEXT	Tavern Pass includes unlockable* rewards such as:
+GLUE_STORE_TAVERN_PASS_SUBHEADER_TEXT	Get the Pass and earn XP to win even more Rewards!
 GLUE_STORE_TAVERN_PASS_FLAVOR_TEXT	Unlock all items up to your current Rewards Track level!
 GLUE_STORE_BATTLEGROUNDS_PASS_FLAVOR_TEXT	Unlock all items up to your current Battlegrounds Track level!
 GLUE_STORE_BATTLEGROUNDS_PASS_PREPURCHASE_FLAVOR_TEXT	This pass is available in January!
@@ -3012,8 +3015,8 @@ GLUE_BATTLEBASH_EVENT_TIME_REM_DAYS	Ends in {0}d	0: event time remaining in days
 GLUE_BATTLEBASH_EVENT_TIME_REM_HOURS	Ends in {0}h	0: event time remaining in hours
 GLUE_BATTLEBASH_EVENT_TIME_REM_HOUR_OR_LESS	Ends in <1h
 GLUE_BATTLEBASH_EVENT_TIME_REM_TOOLTIP_TITLE	Ending Soon
-GLUE_BATTLEBASH_EVENT_TIME_REM_DAYS_TOOLTIP	< {0} |4(day,days)
-GLUE_BATTLEBASH_EVENT_TIME_REM_HOURS_TOOLTIP	< {0} |4(hour,hours)
+GLUE_BATTLEBASH_EVENT_TIME_REM_DAYS_TOOLTIP	Ends in < {0} |4(day,days)
+GLUE_BATTLEBASH_EVENT_TIME_REM_HOURS_TOOLTIP	Ends in < {0} |4(hour,hours)
 GLUE_BATTLEBASH_ALERT_EVENT_END_TITLE	Battle Bash Ended
 GLUE_BATTLEBASH_ALERT_EVENT_END_DESCRIPTION	You have un-used Hammers. Re-enter Battlegrounds to redeem your Hammers.
 GLUE_BATTLEBASH_ALERT_EVENT_END_DESCRIPTION_NO_HAMMERS	The Battle Bash has ended.
@@ -3220,3 +3223,15 @@ GLUE_ETC_THE_BAND	The Band
 GLUE_ETC_BAND_FULL	Your band is full. Remove a card first.
 GLUE_ETC_FTUE_QUOTE	Choose up to 3 cards to join my band. Click The Band button to get started!
 GLUE_ETC_FTUE_SIDEBOARD	This card has a "sideboard"
+GLUE_STORE_LIMITED_TIME_OFFER_LAST_DAY	Last Day!
+GLUE_STORE_LIMITED_TIME_OFFER_LAST_WEEK	Last Week!
+GLUE_STORE_TIMER_DAYS	{0} Days Left	0=Days
+GLUE_STORE_TIMER_HOURS	{0} Hours Left	0=Hours
+GLUE_STORE_TIMER_LESS_THAN_HOUR	<1 Hour Left
+GLUE_STORE_VALUE_PERCENT	+{0}% Value!	0=percent
+GLUE_STORE_VALUE_MULTIPLY	{0}X Value!	0=multiplier
+GLUE_STORE_MOST_POPULAR	Most Popular
+GLUE_STORE_SALE	Sale
+GLUE_STORE_SALE_CAPS	SALE
+GLUE_STORE_SALE_PERCENT	{0}% Off	0=percent
+GLUE_STORE_SALE_AVERAGE_PERCENT	{0}%+ Off	0=percent

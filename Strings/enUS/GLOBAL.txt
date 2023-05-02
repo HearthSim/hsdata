@@ -1,4 +1,4 @@
-﻿TAG	TEXT	COMMENT
+TAG	TEXT	COMMENT
 GLOBAL_AADC_BUTTON_PRIVACY	Privacy
 GLOBAL_AADC_BUTTON_PRIVACYSETTINGS	Privacy Settings
 GLOBAL_AADC_PARENTALLOCK_DESCRIPTION	Changing this option requires your parent or guardian to update your privacy settings in Battle.net.
@@ -424,7 +424,8 @@ GLOBAL_KEYWORD_CORRUPTEDCARD_TEXT	Upgraded by a higher-Cost card.
 GLOBAL_KEYWORD_FRENZY	Frenzy
 GLOBAL_KEYWORD_FRENZY_TEXT	A one-time effect after this survives damage.
 GLOBAL_KEYWORD_BLOOD_GEM	Blood Gem
-GLOBAL_KEYWORD_BLOOD_GEM_TEXT	A spell that gives a friendly minion +1/+1.
+GLOBAL_KEYWORD_BLOOD_GEM_TEXT	A spell that gives a minion {0}.
+GLOBAL_KEYWORD_BLOOD_GEM_TEXT_ADDITIONAL	\nYours Give {0}.
 GLOBAL_KEYWORD_REFRESH	Refresh
 GLOBAL_KEYWORD_REFRESH_TEXT	Replace Bob's Tavern with new minions.
 GLOBAL_KEYWORD_AVENGE	Avenge (X)
@@ -455,8 +456,12 @@ GLOBAL_KEYWORD_FINALE	Finale
 GLOBAL_KEYWORD_FINALE_TEXT	A bonus if this spends all your remaining Mana.
 GLOBAL_KEYWORD_OVERHEAL	Overheal
 GLOBAL_KEYWORD_OVERHEAL_TEXT	A bonus if restored past full Health.
+GLOBAL_KEYWORD_DONT_PICK_FROM_SUBSETS	[WIP] Cannot be discovered.
+GLOBAL_KEYWORD_DONT_PICK_FROM_SUBSETS_TEXT	[WIP] Cannot be discovered. 
 GLOBAL_KEYWORD_BONUSEFFECTS	Bonus Effects
 GLOBAL_KEYWORD_BONUSEFFECTS_TEXT	Divine Shield, Lifesteal, Poisonous, Reborn, Rush, Stealth, Taunt, Windfury
+GLOBAL_KEYWORD_VENOMOUS	Venomous		
+GLOBAL_KEYWORD_VENOMOUS_TEXT	Destroy the first minion this deals damage to.
 GLOBAL_ATTACK	Attack	
 GLOBAL_COST	Cost	
 GLOBAL_HEALTH	Health	
@@ -1505,3 +1510,8 @@ GLOBAL_KEYWORD_DISCOVER_MERC	Discover
 GLOBAL_KEYWORD_DISCOVER_TEXT_MERC	Choose one of three abilities to cast this turn.
 GLOBAL_KEYWORD_CHARGE_MERC	Charge
 GLOBAL_KEYWORD_CHARGE_MERC_TEXT	Attacks a selected target immediately after being summoned.
+Sideboard	MaxSideboardCards
+Sideboard	NEW
+Non Discoverable Ref Text	Non Discoverable Ref Text Value
+
+Non Discoverable Name	DontPickFromSubsets
