@@ -868,6 +868,11 @@ GLUE_CORE_SET_POPUP_HEADER	235 cartes GRATUITES !
 GLUE_CORE_SET_POPUP_SUBHEADER	Ensemble fondamental disponible !	
 GLUE_CORE_SET_PROGRESS	Cartes fondamentales : {0}/{1}	0=number of owned cards,1=total number of core cards
 GLUE_CORE_SET_PROGRESS_PHONE	{0}/{1}	0=number of owned cards,1=total number of core cards
+GLUE_CORE_UNLOCK_CLASS_COMPLETE	Cartes fondamentales de la classe {0}	0=Class Name
+GLUE_CORE_UNLOCK_NEXT_REWARD	Prochaine récompense	
+GLUE_CORE_UNLOCK_NEXT_REWARD_LEVEL	Niveau {0}	0=class level number
+GLUE_CORE_UNLOCK_POPUP_HEADER	Déverrouillage de la prochaine carte fondamentale de la classe {0}	0=Class Name
+GLUE_CORE_UNLOCK_POPUP_LEVEL	Niveau {0} requis	0=class level number
 GLUE_CRAFTING_ARCANEDUST	Poussière arcanique	
 GLUE_CRAFTING_ARCANEDUST_DESCRIPTION	Désenchantez des cartes pour obtenir de la poussière arcanique et utilisez-la pour créer les cartes que vous voulez !	
 GLUE_CRAFTING_CLASSIC_CARD_DESC	C’est une carte du format Classique. Voulez-vous continuer ?	
@@ -1631,6 +1636,7 @@ GLUE_LOADINGSCREEN_APK_UPDATE_FROM_APP_STORE	Rendez-vous dans l’App Store pour
 GLUE_LOADINGSCREEN_APK_UPDATE_FROM_WEBSITE	Rendez-vous sur le site Internet de Hearthstone pour lancer le téléchargement.	
 GLUE_LOADINGSCREEN_BUTTON_CANCEL	Annuler	
 GLUE_LOADINGSCREEN_BUTTON_CELLULAR	OK	
+GLUE_LOADINGSCREEN_BUTTON_NOT_NOW	Plus tard	
 GLUE_LOADINGSCREEN_BUTTON_RETRY	Réessayer	
 GLUE_LOADINGSCREEN_BUTTON_SETTINGS	Réglages	
 GLUE_LOADINGSCREEN_BUTTON_WAIT	Attendre une connexion Wi-Fi	
@@ -1660,6 +1666,7 @@ GLUE_LOADINGSCREEN_ERROR_UPDATE_CONFLICT	Impossible de trouver la mise à jour. 
 GLUE_LOADINGSCREEN_ERROR_VERSION	Impossible de trouver les informations de version. Veuillez vérifier votre connexion réseau.	
 GLUE_LOADINGSCREEN_MISMATCHED_VERSION	Problème de version de données	
 GLUE_LOADINGSCREEN_NO_NEW_BINARY_IN_STORE	Une mise à jour est nécessaire pour jouer à Hearthstone, mais elle n’est pas encore disponible dans la boutique. Veuillez réessayer plus tard.	
+GLUE_LOADINGSCREEN_NOTIFICATION_SETTINGS	Le jeu est en cours de téléchargement. Nous vous préviendrons lorsqu’il sera disponible !	
 GLUE_LOADINGSCREEN_OPEN_APP_STORE	Ouvrir	
 GLUE_LOADINGSCREEN_PROGRESS_0	Vérification de la version	
 GLUE_LOADINGSCREEN_PROGRESS_1	Peut être téléchargé en tâche de fond.	
@@ -1804,8 +1811,8 @@ GLUE_MISSING_CARDS_DECK_HEADER	|4(Carte manquante,Cartes manquantes)
 GLUE_MOBILE_ACCOUNT_REQUIRED_CONTINUE	Connexion/Inscription	
 GLUE_MOBILE_ACCOUNT_REQUIRED_POPUP	Un compte Battle.net est requis pour jouer à Hearthstone. Veuillez vous connecter ou créer un compte.	
 GLUE_MOBILE_EXISTING_ACCOUNT_CONVERSATION	Bienvenue dans l’auberge !	
-GLUE_MOBILE_EXISTING_ACCOUNT_NEW	Non, je débute	
-GLUE_MOBILE_EXISTING_ACCOUNT_POPUP	Possédez-vous déjà un compte Battle.net pour jouer à Hearthstone ?	
+GLUE_MOBILE_EXISTING_ACCOUNT_NEW	Plus tard	
+GLUE_MOBILE_EXISTING_ACCOUNT_POPUP	Voulez-vous vous connecter à un compte Battle.net existant ?	
 GLUE_MOBILE_EXISTING_ACCOUNT_RETURNING	Oui, me connecter	
 GLUE_MOBILE_REGION_SELECT_FRIENDS	CONTACTS	
 GLUE_MOBILE_REGION_SELECT_PROGRESS	RANG	
@@ -2041,7 +2048,7 @@ GLUE_PVPDR_ENTRY_POPUP_DESCRIPTION_HEROIC	Combattez pour des récompenses
 GLUE_PVPDR_ENTRY_POPUP_DESCRIPTION_NORMAL	Testez vos compétences	
 GLUE_PVPDR_ENTRY_POPUP_LABEL_HEROIC	Duel héroïque	
 GLUE_PVPDR_ENTRY_POPUP_LABEL_NORMAL	Duel non classé	
-GLUE_PVPDR_EXPANSION_SUBTITLE	La marche du roi-liche	
+GLUE_PVPDR_EXPANSION_SUBTITLE	La fête des légendes	
 GLUE_PVPDR_FOOTER	Choisissez un héros, créez un deck, puis améliorez-le entre chaque combat !	
 GLUE_PVPDR_HEROIC_POPUP_DESCRIPTION_HASTICKETS	Vous avez une admission pour la taverne ! Pas besoin de payer les frais, cette fois-ci !	
 GLUE_PVPDR_HEROIC_POPUP_DESCRIPTION_NOTICKETS	Qui dit plus de victoires, dit plus de récompenses !\nUtilisez une admission pour la taverne pour y accéder.	
@@ -2152,6 +2159,8 @@ GLUE_RANKED_REWARD_LIST_FLOOR_NAME_PLATINUM2	Platine 5
 GLUE_RANKED_REWARD_LIST_FLOOR_NAME_SILVER1	Argent 10	
 GLUE_RANKED_REWARD_LIST_FLOOR_NAME_SILVER2	Argent 5	
 GLUE_RANKED_REWARD_LIST_FLOOR_OBJECTIVE_SEASON_CARDBACK_EARNED	Obtenu	
+GLUE_RANKED_REWARD_POPUP_CORE_DESC	Déverrouillage des cartes fondamentales de la classe {0}	0=Class Name
+GLUE_RANKED_REWARD_POPUP_CORE_TITLE	Atteindre le niveau {1} avec la classe {0}	0=Class Name 1=class level number
 GLUE_RANKED_REWARD_POPUP_TITLE	Récompenses de Partie classée	
 GLUE_RANKED_REWARD_QUEST_LOG_CARDBACK_PROGRESS	Gagnez encore {0} |4(match,matchs)	
 GLUE_RANKED_REWARD_QUEST_LOG_LABEL	Récompenses	
@@ -2486,6 +2495,7 @@ GLUE_STORE_MODE_NAME_DUST	奥术之尘
 GLUE_STORE_MONEY_BUTTON_TOOLTIP_HEADLINE	Acheter	
 GLUE_STORE_MOST_POPULAR	Très populaire	
 GLUE_STORE_MSG_PREORDER_DATE	Disponible début décembre_!	
+GLUE_STORE_NEW_PLAYERS_ONLY	Novices uniquement	
 GLUE_STORE_NO_PAYMENT_DETAILS	Vous n’avez pas encore défini de moyen de paiement valide. Veuillez vous rendre sur le site Blizzard pour le faire, puis réessayez.	
 GLUE_STORE_NO_PAYMENT_HEADLINE	Attention !	
 GLUE_STORE_NO_PAYMENT_URL_DETAILS	Appuyez sur « {0} » pour vous rendre sur le site Blizzard.	
@@ -2708,13 +2718,16 @@ GLUE_TEAM_SHARE_REQUEST_WAITING_RESPONSE	Votre demande de partage de groupes est
 GLUE_TEAM_SHARE_REQUESTED	{0} veut emprunter l’un de vos groupes.	0=friend name
 GLUE_TEAM_SHARE_SHOW_MY_TEAMS	Afficher mes groupes	
 GLUE_TEAM_SHARE_SHOW_OPPONENT_TEAMS	Voir les groupes de l’adversaire	
-GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_01	Créez un compte pour sauvegarder votre progression_! Vous obtiendrez en outre un paquet de cartes gratuit_!	
-GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_02	Créez un compte pour faire des achats_! Un compte vous permet aussi de conserver votre collection.	
-GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_03	Créez un compte pour conserver votre collection et obtenez ce paquet gratuit_!	
-GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_04	Beau travail_! Sauvegardez votre progression en créant un compte_!	
-GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_05	Félicitations_! Sauvegardez votre progression en créant un compte_!	
-GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_06	Bien joué_! Sauvegardez votre progression en créant un compte_!	
-GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_07	Créez un compte Battle.net pour sauvegarder votre progression et jouer sur d’autres appareils !	
+GLUE_TEMPORARY_ACCOUNT_BNET_BUTTON_NEW	Je débute !	
+GLUE_TEMPORARY_ACCOUNT_BNET_CHECK	Sauvegardons votre progression. Avez-vous un compte Battle.net ?	
+GLUE_TEMPORARY_ACCOUNT_BNET_CHECK_HEADER	Se connecter au compte	
+GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_01	Connectez-vous à un compte pour sauvegarder votre progression ! Vous obtiendrez aussi un paquet de cartes gratuit !	
+GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_02	Connectez-vous à un compte ou créez-en un pour faire des achats ! Un compte vous permet aussi de sauvegarder votre collection.	
+GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_03	Connectez-vous à un compte ou créez-en un pour sauvegarder votre collection et obtenir un paquet gratuit !	
+GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_04	Beau travail ! Connectez-vous à un compte pour sauvegarder votre progression !	
+GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_05	Félicitations. Connectez-vous à un compte pour sauvegarder votre progression !	
+GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_06	Bien joué ! Connectez-vous à un compte pour sauvegarder votre progression !	
+GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_07	Connectez-vous à un compte Battle.net ou créez-en un pour sauvegarder votre progression et jouer sur d’autres appareils !	
 GLUE_TEMPORARY_ACCOUNT_DIALOG_HEADER_01	Compte requis	
 GLUE_TEMPORARY_ACCOUNT_DIALOG_HEADER_02	Créer un compte_?	
 GLUE_TEMPORARY_ACCOUNT_DIALOG_HEADER_03	Vous voulez créer un compte_?	
@@ -2723,6 +2736,7 @@ GLUE_TEMPORARY_ACCOUNT_FRIENDS_LIST_HEADER	Jouer avec des amis
 GLUE_TEMPORARY_ACCOUNT_GAME_MENU_BODY	•_Conservez votre collection\n•_Sauvegardez votre progression\n•_Débloquez un paquet de cartes gratuit\n•_Discutez/jouez avec des amis\n•_Personnalisez votre nom de joueur\n•_Jouez sur d’autres plates-formes	
 GLUE_TEMPORARY_ACCOUNT_SIGN_UP	S’inscrire	
 GLUE_TEMPORARY_ACCOUNT_SKIP	Passer	
+GLUE_TEMPORARY_ACCOUNT_SKIP_BODY	Aucun problème ! Vous pouvez vous connecter à tout moment via les paramètres.	
 GLUE_TEMPORARY_ACCOUNT_SWITCH_ACCOUNT_HEADER	Comptes	
 GLUE_TEXTURE_COMPRESSION_WARNING	Cette version ne contient pas le format de texture correspondant à cette plateforme. Les performances ne seront pas optimales.	--TEMP-- This should be in Chinese
 GLUE_TEXTURE_COMPRESSION_WARNING_TITLE	Avertissement sur la compression des textures	--TEMP-- This should be in Chinese
@@ -3179,6 +3193,7 @@ GLUE_TRL_LOADING_BAR_TASK_7	Lancer de chaises
 GLUE_TRL_LOADING_BAR_TASK_8	Slam dans la foule	
 GLUE_TRL_LOADING_BAR_TASK_9	Destruction de la salle	
 GLUE_TROUBLESHOOTING_POPUP_TEXT	Vous rencontrez des problèmes avec le jeu ?	
+GLUE_TUTORIAL_SKIP_TRADITIONAL	Voulez-vous vraiment passer le tutoriel ? Vous pouvez le relancer via le menu Aide (?).	
 GLUE_TUTORIAL_VIDEO_BANNER_BATTLEGROUNDS	Constituez votre troupe de guerre et combattez pour la couronne lors de cette bataille automatique à 8 joueurs !	
 GLUE_TUTORIAL_VIDEO_BANNER_MERCENARIES	Formez un groupe de mercenaires et faites-les monter en niveau en combattant pour la gloire et la richesse !	
 GLUE_TUTORIAL_VIDEO_BANNER_TRADITIONAL	Obtenez des cartes, créez des decks et combattez pour entrer dans la légende avec ce mode de jeu en face à face.	

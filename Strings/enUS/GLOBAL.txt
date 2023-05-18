@@ -218,7 +218,7 @@ GLOBAL_KEYWORD_BACON_STEALTH_TEXT	Can't be attacked until it attacks.
 GLOBAL_KEYWORD_BACON_QUEST	Quest
 GLOBAL_KEYWORD_BACON_QUEST_TEXT	Complete for a Reward.
 GLOBAL_KEYWORD_BACON_REBORN	Reborn
-GLOBAL_KEYWORD_BACON_REBORN_TEXT	Summons a plain 1-Health copy the first time it dies.
+GLOBAL_KEYWORD_BACON_REBORN_TEXT	Summons a new 1-Health copy the first time it dies.
 GLOBAL_KEYWORD_BACON_PUTRICIDESCREATION	Putricide's Creation
 GLOBAL_KEYWORD_BACON_PUTRICIDESCREATION_TEXT	Cannot be tripled.
 GLOBAL_KEYWORD_BATTLECRY	Battlecry
@@ -718,7 +718,7 @@ GLOBAL_ERROR_NETWORK_RISK_ACCOUNT_LOCKED	We've locked your account! Go to https:
 GLOBAL_ERROR_NETWORK_PARENTAL_CONTROLS	Access to this account is currently restricted by parental controls.
 GLOBAL_ERROR_NETWORK_PHONE_LOCK	Please call your Blizzard Phone Lock number to allow this login.\nTaiwan: 0800-303-585\nHong Kong: 396-54666
 GLOBAL_ERROR_NETWORK_UNAVAILABLE_UPGRADE	Hearthstone has been updated!  Please download the latest version.
-GLOBAL_ERROR_NETWORK_UNAVAILABLE_NEW_VERSION	Your account is using a newer version of the game. Please wait for the update before playing on this device.
+GLOBAL_ERROR_NETWORK_UNAVAILABLE_NEW_VERSION	Your account was used on a newer version of the game. Please wait for this device to update before playing.
 GLOBAL_ERROR_NETWORK_UNAVAILABLE_OFFLINE	Hearthstone is offline. Please wait a few minutes and try again.
 GLOBAL_ERROR_NETWORK_UNAVAILABLE_UNKNOWN	Oops! Playful sprites have disrupted Hearthstone as it was connecting to our servers. Please wait a few minutes for them to disperse and try again.
 GLOBAL_ERROR_NETWORK_ADVENTURE_RECONNECT_TIMEOUT	Your game has been saved. Relaunch Hearthstone to continue where you left off.
@@ -967,7 +967,6 @@ GLOBAL_PROGRAMNAME_PHOENIX	Online
 GLOBAL_PROGRAMNAME_HEROES	Heroes of the Storm
 GLOBAL_PROGRAMNAME_OVERWATCH	Overwatch
 GLOBAL_PROGRAMNAME_OVERWATCH2	Overwatch 2
-GLOBAL_PROGRAMNAME_DESTINY2	Destiny 2
 GLOBAL_PROGRAMNAME_BLACKOPS4	Black Ops 4
 GLOBAL_PROGRAMNAME_WARCRAFT3	Warcraft III: Reforged
 GLOBAL_PROGRAMNAME_MODERNWARFARE	Modern Warfare
@@ -979,6 +978,8 @@ GLOBAL_PROGRAMNAME_CODVANGUARD	Call of Duty: Vanguard
 GLOBAL_PROGRAMNAME_DIABLOIMMORTAL	Diablo Immortal
 GLOBAL_PROGRAMNAME_WARCRAFTARCLIGHTRUMBLE	Arclight Rumble
 GLOBAL_PROGRAMNAME_ARCADECOLLECTION	Blizzard Arcade Collection
+GLOBAL_PROGRAMNAME_DIABLO4	Diablo IV
+GLOBAL_PROGRAMNAME_MODERNWARFARE2	Modern Warfare II
 GLOBAL_OFFLINE	Offline
 GLOBAL_DEFAULT_ALERT_HEADER	Alert
 GLOBAL_FORGE_END_TITLE	Arena Complete
@@ -1177,8 +1178,8 @@ GLOBAL_REWARD_BONUS_CHALLENGE_HEADLINE	Final Challenge Unlocked
 GLOBAL_REWARD_ARENA_TICKET_ADMIT	ADMIT	the word 'admit' in capital letters - displayed like "Admit 1" and looks like a movie/fair ticket. this is the Arena Ticket reward visual.
 GLOBAL_REWARD_ARENA_TICKET_ENTRANT	Entrant	a label that shows up in the Arena Ticket under the Player's name to say this person is allowed entrance into the Arena.
 GLOBAL_REWARD_ARENA_TICKET_AUTHORIZED_BY	Authorized By	a label that shows up in the Arena Ticket under the Player's name indicating this ticket reward was granted by some guy.
-GLOBAL_REDUNDANT_NDE_BODY	You just got the {0} version of this card.\nReroll the {1} version into a random {2} {3}?	0=Newly Acquired Premium, 1=Premium to reroll, 2=reroll set name, 3=card rarity
-GLOBAL_REDUNDANT_NDE_BODY_MULTIPLE_PREMIUMS	You just got the {0} version of this card.\nReroll the {1}/{2} versions into a random {3} {4}?	0=Newly Acquired Premium, 1=Higher premium to reroll, 2=Lower premium to reroll, 3=reroll set name, 4=card rarity
+GLOBAL_REDUNDANT_NDE_BODY	You just got the {0} version of |4(this card, these cards).\nReroll the {1} |4(version, versions) into |4(a random {2} {3} card, random {2} {3} cards)?	0=Newly Acquired Premium, 1=Premium to reroll, 2=reroll set name, 3=card rarity
+GLOBAL_REDUNDANT_NDE_BODY_MULTIPLE_PREMIUMS	You just got the {0} version of this card.\nReroll the {1}/{2} versions into random {3} {4} cards?	0=Newly Acquired Premium, 1=Higher premium to reroll, 2=Lower premium to reroll, 3=reroll set name, 4=card rarity
 GLOBAL_REDUNDANT_NDE_DOUBLE_BODY	You just got [PH Premium] versions of this card.\nReroll the [PH Premium] versions into random [PH SET][PH RARITY] cards?
 GLOBAL_REDUNDANT_NDE_TITLE	Reroll {0} |4(Card, Cards)?	0=card premium to reroll
 GLOBAL_REDUNDANT_NDE_TITLE_MULTIPLE_PREMIUMS	Reroll {0}/{1} Cards?	0=higher card premium to reroll, 1=lower card premium to reroll
@@ -1410,8 +1411,8 @@ GLOBAL_PROGRESSION_REWARD_TRACK_XP	{0} Reward XP
 GLOBAL_PROGRESSION_POINTS	{0} Achievement Points
 GLOBAL_PROGRESSION_QUEST_TIME_UNTIL_NEXT	New quest in\n{0}
 BATTLEGROUNDS_PROGRESSION_QUEST_TIME_UNTIL_NEXT	New mission in\n{0}
-GLOBAL_PROGRESSION_RANKED_REWARDS_TOOLTIP_TITLE	Ranked Rewards
-GLOBAL_PROGRESSION_RANKED_REWARDS_TOOLTIP	Earn rewards every season for your best rank in Standard, Wild or Classic.
+GLOBAL_PROGRESSION_RANKED_REWARDS_TOOLTIP_TITLE	Rewards
+GLOBAL_PROGRESSION_RANKED_REWARDS_TOOLTIP	Raise your rank each month and level up classes to earn sweet rewards!
 GLOBAL_PROGRESSION_DAILY_QUESTS_POPUP_TITLE	Your Quests
 GLOBAL_PROGRESSION_WEEKLY_QUESTS_POPUP_TITLE	Your Weekly Quests
 GLOBAL_PROGRESSION_EVENT_QUESTS_POPUP_TITLE	Your Event Quests
@@ -1423,7 +1424,7 @@ GLOBAL_LETTUCE_LOBBY_TITLE	Choose how to play
 GLOBAL_LETTUCE_REWARD_BANNER_TEXT	Mercenaries Reward
 GLOBAL_PROGRESSION_PROFILE_MERCENARIES_TOTAL_BOUNTIES	{0} Total |4(Bounty, Bounties)
 GLOBAL_PROGRESSION_PROFILE_MERCENARIES_STAT_TOOLTIP_TITLE	Mercenaries
-GLOBAL_PROGRESSION_PROFILE_MERCENARIES_STAT_TOOLTIP	Shows the number of victories from PVP and bounties cleared from Mercenaries mode.
+GLOBAL_PROGRESSION_PROFILE_MERCENARIES_STAT_TOOLTIP	Shows the PVP rank and number of bounties cleared from Mercenaries mode.
 GLOBAL_REWARD_SARGE_TALE_HEADLINE	Sarge's Tale Mount
 GLOBAL_KEYWORD_SPELLRESISTANCE_ARCANE	Arcane Resistance
 GLOBAL_KEYWORD_SPELLRESISTANCE_ARCANE_TEXT	Takes {0} less damage from Arcane abilities.	0=amount of spell damage

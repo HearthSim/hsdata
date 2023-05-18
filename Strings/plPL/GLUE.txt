@@ -868,6 +868,11 @@ GLUE_CORE_SET_POPUP_HEADER	235 DARMOWYCH kart
 GLUE_CORE_SET_POPUP_SUBHEADER	Zestaw bazowy jest już dostępny!	
 GLUE_CORE_SET_PROGRESS	{0} |4(karta bazowa,karty bazowe,kart bazowych)	0=number of owned cards,1=total number of core cards
 GLUE_CORE_SET_PROGRESS_PHONE	{0}/{1}	0=number of owned cards,1=total number of core cards
+GLUE_CORE_UNLOCK_CLASS_COMPLETE	Karty bazowe ({0})	0=Class Name
+GLUE_CORE_UNLOCK_NEXT_REWARD	Następna nagroda	
+GLUE_CORE_UNLOCK_NEXT_REWARD_LEVEL	Poziom {0}	0=class level number
+GLUE_CORE_UNLOCK_POPUP_HEADER	Kolejne odblokowanie karty bazowej ({0})	0=Class Name
+GLUE_CORE_UNLOCK_POPUP_LEVEL	Wymagany poziom {0}	0=class level number
 GLUE_CRAFTING_ARCANEDUST	Tajemny pył	
 GLUE_CRAFTING_ARCANEDUST_DESCRIPTION	Zdobywaj tajemny pył odczarowując karty. Możesz następnie użyć pyłu do stworzenia wybranych kart!	
 GLUE_CRAFTING_CLASSIC_CARD_DESC	To jest karta z formatu klasycznego. Na pewno chcesz to zrobić?	
@@ -1631,6 +1636,7 @@ GLUE_LOADINGSCREEN_APK_UPDATE_FROM_APP_STORE	Przejdźmy do sklepu, żeby rozpocz
 GLUE_LOADINGSCREEN_APK_UPDATE_FROM_WEBSITE	Przejdźmy na witrynę Hearthstone, żeby rozpocząć pobieranie.	
 GLUE_LOADINGSCREEN_BUTTON_CANCEL	Zaczekaj chwilę	
 GLUE_LOADINGSCREEN_BUTTON_CELLULAR	Użyj danych komórkowych	
+GLUE_LOADINGSCREEN_BUTTON_NOT_NOW	Nie teraz	
 GLUE_LOADINGSCREEN_BUTTON_RETRY	Ponów	
 GLUE_LOADINGSCREEN_BUTTON_SETTINGS	Ustawienia	
 GLUE_LOADINGSCREEN_BUTTON_WAIT	Poczekaj na Wi-Fi	
@@ -1660,6 +1666,7 @@ GLUE_LOADINGSCREEN_ERROR_UPDATE_CONFLICT	Nie udało się pobrać aktualizacji. U
 GLUE_LOADINGSCREEN_ERROR_VERSION	Nie udało się znaleźć informacji o wersji. Sprawdź swoje połączenie sieciowe.	
 GLUE_LOADINGSCREEN_MISMATCHED_VERSION	Niezgodność wersji danych	
 GLUE_LOADINGSCREEN_NO_NEW_BINARY_IN_STORE	Aby grać w Hearthstone, potrzebna jest aktualizacja, której nie ma jeszcze w sklepie. Sprawdź ponownie później.	
+GLUE_LOADINGSCREEN_NOTIFICATION_SETTINGS	Gra jest pobierana w tle. Poinformujemy cię, gdy wszystko będzie gotowe!	
 GLUE_LOADINGSCREEN_OPEN_APP_STORE	Otwórz	
 GLUE_LOADINGSCREEN_PROGRESS_0	Sprawdzanie wersji	
 GLUE_LOADINGSCREEN_PROGRESS_1	Możemy pobierać dane w tle	
@@ -1804,8 +1811,8 @@ GLUE_MISSING_CARDS_DECK_HEADER	|4(Brakująca karta,Brakujące karty,Brakujących
 GLUE_MOBILE_ACCOUNT_REQUIRED_CONTINUE	Zaloguj się/Zarejestruj się	
 GLUE_MOBILE_ACCOUNT_REQUIRED_POPUP	Do gry w Hearthstone potrzebne jest konto Battle.net. Zaloguj się lub zarejestruj się w celu utworzenia konta.	
 GLUE_MOBILE_EXISTING_ACCOUNT_CONVERSATION	Witamy w karczmie!	
-GLUE_MOBILE_EXISTING_ACCOUNT_NEW	Zaczynam	
-GLUE_MOBILE_EXISTING_ACCOUNT_POPUP	Dopiero zaczynasz z Hearthstone czy masz już konto Battle.net?	
+GLUE_MOBILE_EXISTING_ACCOUNT_NEW	Nie teraz	
+GLUE_MOBILE_EXISTING_ACCOUNT_POPUP	Czy chcesz zalogować się na istniejące konto Battle.net?	
 GLUE_MOBILE_EXISTING_ACCOUNT_RETURNING	Logowanie	
 GLUE_MOBILE_REGION_SELECT_FRIENDS	ZNAJOMI	
 GLUE_MOBILE_REGION_SELECT_PROGRESS	POSTĘPY	
@@ -2041,7 +2048,7 @@ GLUE_PVPDR_ENTRY_POPUP_DESCRIPTION_HEROIC	Bitwa i nagrody
 GLUE_PVPDR_ENTRY_POPUP_DESCRIPTION_NORMAL	Poddaj próbie swoje zdolności.	
 GLUE_PVPDR_ENTRY_POPUP_LABEL_HEROIC	Heroiczne starcie	
 GLUE_PVPDR_ENTRY_POPUP_LABEL_NORMAL	Normalne starcie	
-GLUE_PVPDR_EXPANSION_SUBTITLE	Pochód Króla Lisza	
+GLUE_PVPDR_EXPANSION_SUBTITLE	Festiwal Legend	
 GLUE_PVPDR_FOOTER	Wybierz bohatera, stwórz talię i wzmacniaj ją między bitwami!	
 GLUE_PVPDR_HEROIC_POPUP_DESCRIPTION_HASTICKETS	Masz bilet do Karczmy! Tym razem nie musisz płacić za wstęp.	
 GLUE_PVPDR_HEROIC_POPUP_DESCRIPTION_NOTICKETS	Więcej zwycięstw to lepsze nagrody!\nUżyj biletu do Karczmy, aby wejść.	
@@ -2152,6 +2159,8 @@ GLUE_RANKED_REWARD_LIST_FLOOR_NAME_PLATINUM2	Platyna 5
 GLUE_RANKED_REWARD_LIST_FLOOR_NAME_SILVER1	Srebro 10	
 GLUE_RANKED_REWARD_LIST_FLOOR_NAME_SILVER2	Srebro 5	
 GLUE_RANKED_REWARD_LIST_FLOOR_OBJECTIVE_SEASON_CARDBACK_EARNED	Zdobyte	
+GLUE_RANKED_REWARD_POPUP_CORE_DESC	Odblokowania kart podstawowych ({0})	0=Class Name
+GLUE_RANKED_REWARD_POPUP_CORE_TITLE	Osiągnij {1} poziom jako {0}	0=Class Name 1=class level number
 GLUE_RANKED_REWARD_POPUP_TITLE	Nagrody za tryb rankingowy	
 GLUE_RANKED_REWARD_QUEST_LOG_CARDBACK_PROGRESS	Wygraj jeszcze {0} |4(partię,partie,partii)	
 GLUE_RANKED_REWARD_QUEST_LOG_LABEL	Nagrody	
@@ -2486,6 +2495,7 @@ GLUE_STORE_MODE_NAME_DUST	奥术之尘
 GLUE_STORE_MONEY_BUTTON_TOOLTIP_HEADLINE	Kup	
 GLUE_STORE_MOST_POPULAR	Najpopularniejsze	
 GLUE_STORE_MSG_PREORDER_DATE	Dostępne na początku grudnia!	
+GLUE_STORE_NEW_PLAYERS_ONLY	Tylko nowi gracze	
 GLUE_STORE_NO_PAYMENT_DETAILS	Nie przypisano jeszcze metody płatności. Ustaw ją na witrynie Blizzarda i spróbuj ponownie.	
 GLUE_STORE_NO_PAYMENT_HEADLINE	Uwaga	
 GLUE_STORE_NO_PAYMENT_URL_DETAILS	Po naciśnięciu „{0}” przejdziesz na witrynę Blizzarda.	
@@ -2708,13 +2718,16 @@ GLUE_TEAM_SHARE_REQUEST_WAITING_RESPONSE	Czekasz, aż {0} odpowie na twoją pro�
 GLUE_TEAM_SHARE_REQUESTED	{0} chce sprawdzić jedną z_twoich drużyn.	0=friend name
 GLUE_TEAM_SHARE_SHOW_MY_TEAMS	Pokaż moje drużyny	
 GLUE_TEAM_SHARE_SHOW_OPPONENT_TEAMS	Pokaż drużyny przeciwnika	
-GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_01	Założenie konta pomoże w zabezpieczeniu twoich postępów! Otrzymasz także darmowy pakiet kart!	
-GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_02	Załóż konto, aby umożliwić zakupy! Konto pomaga zabezpieczyć twoją kolekcję.	
-GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_03	Załóż konto, aby pomóc zabezpieczyć twoją kolekcję i otrzymać darmowy pakiet!	
-GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_04	Piknie! Zabezpiecz swoje postępy poprzez założenie konta!	
-GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_05	Gratulacje! Zabezpiecz swoje postępy poprzez założenie konta!	
-GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_06	Dobra robota! Zabezpiecz swoje postępy poprzez założenie konta!	
-GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_07	Stwórz konto Battle.net, aby zabezpieczyć swoje postępy i grać na innych urządzeniach!	
+GLUE_TEMPORARY_ACCOUNT_BNET_BUTTON_NEW	Jestem nowym graczem!	
+GLUE_TEMPORARY_ACCOUNT_BNET_CHECK	Zapiszmy twoje postępy. Czy masz już konto Battle.net?	
+GLUE_TEMPORARY_ACCOUNT_BNET_CHECK_HEADER	Zaloguj się na konto	
+GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_01	Zalogowanie się na konto pomoże zabezpieczyć twoje postępy! Otrzymasz także darmowy pakiet kart!	
+GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_02	Zaloguj się lub załóż konto, aby umożliwić zakupy! Konto pomaga zabezpieczyć twoją kolekcję.	
+GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_03	Zaloguj się lub załóż konto, aby pomóc zabezpieczyć twoją kolekcję i otrzymać darmowy pakiet!	
+GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_04	Znakomicie!  Zaloguj się na konto, by chronić swoje postępy!	
+GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_05	Gratulacje! Zaloguj się na konto, by chronić swoje postępy!	
+GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_06	Dobra robota! Zaloguj się na konto, by chronić swoje postępy!	
+GLUE_TEMPORARY_ACCOUNT_DIALOG_BODY_07	Zaloguj się lub załóż konto Battle.net, aby zabezpieczyć swoje postępy i grać na innych urządzeniach!	
 GLUE_TEMPORARY_ACCOUNT_DIALOG_HEADER_01	Wymagane jest konto	
 GLUE_TEMPORARY_ACCOUNT_DIALOG_HEADER_02	Założyć konto?	
 GLUE_TEMPORARY_ACCOUNT_DIALOG_HEADER_03	Czas założyć konto!	
@@ -2723,6 +2736,7 @@ GLUE_TEMPORARY_ACCOUNT_FRIENDS_LIST_HEADER	Zagraj ze znajomymi
 GLUE_TEMPORARY_ACCOUNT_GAME_MENU_BODY	• Zabezpiecz swoją kolekcję\n• Zapisz swoje postępy w grze\n• Odblokuj darmowy pakiet\n• Rozmawiaj/graj ze znajomymi\n• Wybierz własną nazwę gracza\n• Graj na innych platformach	
 GLUE_TEMPORARY_ACCOUNT_SIGN_UP	Rejestracja	
 GLUE_TEMPORARY_ACCOUNT_SKIP	Pomiń	
+GLUE_TEMPORARY_ACCOUNT_SKIP_BODY	Żaden problem! Otwórz w dowolnym momencie menu ustawień, by się zalogować.	
 GLUE_TEMPORARY_ACCOUNT_SWITCH_ACCOUNT_HEADER	Konta	
 GLUE_TEXTURE_COMPRESSION_WARNING	Ta wersja nie zawiera odpowiednich tekstur dla tej platformy. Wydajność gry nie będzie optymalna.	--TEMP-- This should be in Chinese
 GLUE_TEXTURE_COMPRESSION_WARNING_TITLE	Ostrzeżenie przed kompresją tekstur	--TEMP-- This should be in Chinese
@@ -3179,6 +3193,7 @@ GLUE_TRL_LOADING_BAR_TASK_7	Rzucanie krzesłami
 GLUE_TRL_LOADING_BAR_TASK_8	Surfowanie w tłumie	
 GLUE_TRL_LOADING_BAR_TASK_9	Demolowanie areny	
 GLUE_TROUBLESHOOTING_POPUP_TEXT	Czy doświadczasz problemów z grą?	
+GLUE_TUTORIAL_SKIP_TRADITIONAL	Czy na pewno chcesz pominąć samouczek? Możesz uruchomić go ponownie z menu (?) Pomocy.	
 GLUE_TUTORIAL_VIDEO_BANNER_BATTLEGROUNDS	Zbierz potężnych stronników i walcz o zwycięstwo w szalonym trybie dla ośmiu graczy!	
 GLUE_TUTORIAL_VIDEO_BANNER_MERCENARIES	Stwórz i rozwijaj drużynę najemników, walcząc o nagrody i chwałę!	
 GLUE_TUTORIAL_VIDEO_BANNER_TRADITIONAL	Zbieraj karty, twórz talie i stawaj do pojedynków, aby stać się prawdziwą legendą!	
