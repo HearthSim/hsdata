@@ -127,10 +127,12 @@ GLUE_COLLECTION_DELETE_TEAM_UNAVAILABLE_DESC	You can't delete this party.
 GLUE_COLLECTION_ALL_SETS	All Sets
 GLUE_COLLECTION_STANDARD_SETS	Standard Sets
 GLUE_COLLECTION_WILD_SETS	Wild Sets
+GLUE_COLLECTION_TWIST_SETS	Twist Sets
 GLUE_COLLECTION_FEATURED_CARDS	Featured Cards
 GLUE_COLLECTION_NEW_CARDS	New Cards
 GLUE_COLLECTION_WILD_CARDS	Wild Cards
 GLUE_COLLECTION_VANILLA_CARDS	Classic Cards
+GLUE_COLLECTION_TWIST_CARDS	Twist Cards
 GLUE_COLLECTION_ALL_STANDARD_CARDS	Standard Cards
 GLUE_COLLECTION_MINE	My Cards
 GLUE_COLLECTION_GOLDEN_CARDS	Golden Cards
@@ -169,6 +171,7 @@ GLUE_COLLECTION_CONVERT_DECK_HEADER	Convert Deck
 GLUE_COLLECTION_CONVERT_DECK_BODY	Switching this deck to Standard will remove {0} cards from the deck. Are you sure you wish to continue?
 GLUE_COLLECTION_TO_STANDARD	Convert to Standard
 GLUE_COLLECTION_TO_WILD	Convert to Wild
+GLUE_COLLECTION_TO_TWIST	Convert to Twist
 GLUE_COLLECTION_ERROR_HEADER	Collection Error!
 GLUE_COLLECTION_SET_FILTER_WILD_SET_HEADER	Wild Cards
 GLUE_COLLECTION_SET_FILTER_WILD_SET_BODY	This will show cards that are not usable in Standard. Are you sure?
@@ -176,6 +179,8 @@ GLUE_COLLECTION_DECK_CLIPBOARD_ACCESS_HEADER	Clipboard
 GLUE_COLLECTION_DECK_CLIPBOARD_ACCESS_BODY	For a better deck building experience, Hearthstone will occasionally access <b>your device clipboard</b> for copied decks from external sources. This will also allow you to copy and share your deck with others!
 GLUE_COLLECTION_DECK_HERO_NOT_UNLOCKED	You have a deck in your clipboard, but that Hero is locked.
 GLUE_COLLECTION_DECK_WILD_NOT_UNLOCKED	You have a Wild deck in your clipboard, but you have not unlocked Wild Mode.
+GLUE_COLLECTION_DECK_TWIST_NOT_UNLOCKED	You have a Twist deck in your clipboard, but you have not unlocked Twist Mode.
+GLUE_COLLECTION_DECK_CLASSIC_INVALID	You have an invalid deck in your clipboard.
 GLUE_COLLECTION_DECK_PASTE_POPUP_HEADER	Paste Deck
 GLUE_COLLECTION_DECK_OVERWRITE_BODY	Would you like to replace your current deck with the deck in your clipboard?
 GLUE_COLLECTION_DECK_OVERWRITE_HEADER	Replace Deck
@@ -203,12 +208,18 @@ GLUE_COLLECTION_DECK_COPY_TOOLTIP_UNPLAYABLE	Your deck has some cards that are n
 GLUE_COLLECTION_DECK_COPY_TOOLTIP_RUNES_WARNING	Invalid rune cards.
 GLUE_COLLECTION_DECK_PASTE_INVALID_CLASS_BODY	The deck you are trying to paste belongs to a different class.
 GLUE_COLLECTION_FINAL_REWARD	Final Reward
+GLUE_COLLECTION_STAGE_ONE	Stage 1
+GLUE_COLLECTION_STAGE_TWO	Stage 2
+GLUE_COLLECTION_STAGE_THREE	Stage 3
+GLUE_COLLECTION_STAGE_FOUR	Stage 4
 GLUE_TOOLTIP_HEADER_ALL_STANDARD_CARDS	Standard
 GLUE_TOOLTIP_DESCRIPTION_ALL_STANDARD_CARDS	Contains the latest cards. Can be used in Standard and Wild formats.
 GLUE_TOOLTIP_HEADER_WILD_CARDS	Wild
 GLUE_TOOLTIP_DESCRIPTION_WILD_CARDS	Contains cards from all expansions. Can only be used in the Wild format.
 GLUE_TOOLTIP_HEADER_VANILLA_CARDS	Classic
 GLUE_TOOLTIP_DESCRIPTION_VANILLA_CARDS	Contains Hearthstone's original cards. Can only be used in Classic format.
+GLUE_TOOLTIP_HEADER_TWIST_CARDS	Twist
+GLUE_TOOLTIP_DESCRIPTION_TWIST_CARDS	Contains cards from different sets that rotate every month. Can only be used in Twist format.
 GLUE_MASS_DISENCHANT_HEADLINE	Mass Disenchant
 GLUE_MASS_DISENCHANT_HEADLINE_PHONE	Mass\nDisenchant
 GLUE_MASS_DISENCHANT_DETAILS_HEADLINE	Disenchant your extra cards to create Arcane Dust.
@@ -496,7 +507,7 @@ GLUE_TOOLTIP_BUTTON_FORGE_HEADLINE	The Arena
 GLUE_TOOLTIP_BUTTON_FORGE_NOT_UNLOCKED	Locked until you reach level 10 with every class.
 GLUE_TOOLTIP_BUTTON_TAVERN_BRAWL_HEADLINE	Tavern Brawl
 GLUE_TOOLTIP_BUTTON_TAVERN_BRAWL_DESC	Play a new challenge on a weekly basis.
-GLUE_TOOLTIP_BUTTON_TAVERN_BRAWL_NOT_UNLOCKED	Locked until you reach level 20 in a class.
+GLUE_TOOLTIP_BUTTON_TAVERN_BRAWL_NOT_UNLOCKED	Defeat and unlock each class to access Tavern Brawl and other modes!
 GLUE_TOOLTIP_BUTTON_PACKOPEN_HEADLINE	Open Packs
 GLUE_PACKOPEN_SHOPBANNER	More Packs in the Shop!
 GLUE_TOOLTIP_BUTTON_PACKOPEN_DESC	Open your Packs to add cards to your collection!
@@ -550,6 +561,7 @@ GLUE_TOURNAMENT_RANKED_WILD	Wild Ranked
 GLUE_TOURNAMENT_SWITCH_MODE	You can switch Modes here
 GLUE_TOURNAMENT_SWITCH_TO_STANDARD	Try switching to Standard
 GLUE_TOURNAMENT_SWITCH_TO_WILD	You can switch to Wild here
+GLUE_TOURNAMENT_SWITCH_TO_TWIST	You can switch to Twist here
 GLUE_TOURNAMENT_STANDARD_DESC	Only Core and the last year of cards can be used.
 GLUE_TOURNAMENT_WILD_DESC	All cards can be used.
 GLUE_TOURNAMENT_CLASSIC_DESC	Only the original 240 cards can be used.
@@ -590,6 +602,7 @@ GLUE_CREATE_DECK	Create Deck
 GLUE_CREATE_STANDARD_DECK	Create Standard Deck
 GLUE_CREATE_WILD_DECK	Create Wild Deck
 GLUE_CREATE_CLASSIC_DECK	Create Classic Deck
+GLUE_CREATE_TWIST_DECK	Create Twist Deck
 GLUE_EDIT_DECK	Edit Deck
 GLUE_ALERT_POPUP_HEADER	Message of the Day
 GLUE_RDM_LOW_COST	Let's make sure you have some cheap cards to play early on.
@@ -851,6 +864,8 @@ GLUE_TIP_BACON_20	When you wipe out an opponent, their minions go back into the 
 GLUE_TIP_BACON_21	In combat, the player with more minions is first to attack. If it's a tie, the first attacker is random.
 GLUE_TIP_BACON_22	Players can take at most 15 damage at once until a Hero has died AND players have reached 10 Gold.
 GLUE_TIP_BACON_23	<b>Deathrattles</b> trigger before <b>Reborn</b>.
+GLUE_TIP_BACON_24	Choose a Quest on Turn 4 and complete it for a game-changing Reward!
+GLUE_TIP_BACON_25	A Quest's difficulty may vary depending on your chosen Reward or the hero you're playing as.
 GLUE_TIP_LETTUCE_0	Using <b>Critical Damage</b> is the key to victory!
 GLUE_TIP_LETTUCE_1	Your Mercs will always act before enemies of the same Speed during Bounty encounters.
 GLUE_TIP_LETTUCE_2	Ability cooldowns decrease even while on the Bench.
@@ -1237,8 +1252,15 @@ GLUE_OFFLINE_SAVE_DECK_HEADER	Saved
 GLUE_OFFLINE_SAVE_DECK_BODY	Your deck has been saved on this device until you reconnect to the Internet.
 GLUE_OFFLINE_DECK_ERROR_BODY	There was an error creating your deck while offline. Please reconnect and try again.
 GLUE_OFFLINE_DECK_DELETED_REMOTELY_ERROR_BODY	The deck you were editing no longer exists.
-GLUE_PRACTICE_HINT	Practice Mode Here
+GLUE_INNKEEPER_ALL_MODES_UNLOCKED	Well done! Now that you've unlocked all the classes, you're ready to explore other modes!
+GLUE_INNKEEPER_PRACTICE_COMPLETE_MESSAGE	Great job! You can unlock more heroes by defeating them in Practice mode or games of Hearthstone.
+GLUE_INNKEEPER_PRACTICE_COMPLETE_MESSAGE_FOLLOW	You can also play as any hero in any mode to level them up and unlock more cards!
+GLUE_PRACTICE_HINT	Let's complete your first quest
+GLUE_NEW_TWIST_MODE_HINT	Try out the new Twist mode!
 GLUE_SOLO_ADVENTURES_MOVED_HINT	Solo Adventures has moved here
+GLUE_SOLO_ADVENTURES_UNLOCK_TIP_HEADER	Unlocking Classes
+GLUE_SOLO_ADVENTURES_UNLOCK_TIP_BODY	Win a Practice match against a class to unlock it!
+GLUE_SOLO_ADVENTURES_UNLOCK_TIP_HEADER_CLASS	Unlocking {0}
 GLUE_PATCHING_LABEL	Downloading {0}/{1} |4(file,files)
 GLUE_PATCHING_ERROR	We encountered an error when updating Hearthstone. Please try again.
 GLUE_HEROIC_WARNING	Be warned that this mode is VERY punishing and is not for the faint of heart. Enter at your own risk!
@@ -1569,6 +1591,8 @@ GLUE_RAF_ERROR_BODY	The Recruit A Friend service is unavailable. Please try agai
 GLUE_GHOST_CARD_NOT_VALID_TITLE	Wild card
 GLUE_GHOST_CARD_NOT_VALID_DESCRIPTION	Wild cards can't be used in Standard decks.\nClick to find a replacement.
 GLUE_GHOST_CARD_NOT_VALID_DESCRIPTION_TOUCH	Wild cards can't be used in Standard decks.\nTap to find a replacement.
+GLUE_CARD_BANNED_IN_TWIST_TITLE	Twist card
+GLUE_CARD_BANNED_IN_TWIST_DESCRIPTION	This Card is Banned in Twist Mode.\nClick to find a replacement.
 GLUE_GHOST_CARD_NEVER_VALID_TITLE	Invalid card
 GLUE_GHOST_CARD_NEVER_VALID_DESCRIPTION	This card is invalid and cannot be used in this deck.\nClick to find a replacement.
 GLUE_GHOST_CARD_NEVER_VALID_DESCRIPTION_TOUCH	This card is invalid and cannot be used in this deck.\nTap to find a replacement.
@@ -2283,6 +2307,7 @@ GLUE_RANKED_BONUS_STARS	Star Bonus
 GLUE_RANKED_BONUS_STARS_DESCRIPTION	You earn {0} stars for each win
 GLUE_RANKED_BONUS_STARS_FINE_PRINT	(Star bonus decreases as you rank up)
 GLUE_PROLOGUE_REWARD	Complete the Prologue to unlock the \nDemon Hunter class and 30 cards.
+GLUE_PROLOGUE_DH_REWARD	Complete the Prologue to earn rewards!
 GLUE_PROLOGUE_DK_REWARD	Complete the Prologue to unlock the \nDeath Knight class and 32 cards.
 GLUE_CLASS_UNLOCKED_CLASS	New Class Unlocked!
 GLUE_CLASS_UNLOCKED_DECK	New deck received!
@@ -2332,7 +2357,7 @@ GLUE_CORE_UNLOCK_NEXT_REWARD_LEVEL	Level {0}	0=class level number
 GLUE_CORE_UNLOCK_POPUP_HEADER	Next {0} Core Card Unlock	0=Class Name
 GLUE_CORE_UNLOCK_POPUP_LEVEL	Requires Level {0}	0=class level number
 GLUE_RANKED_REWARD_POPUP_CORE_TITLE	Reach {0} Level {1} 	0=Class Name 1=class level number
-GLUE_RANKED_REWARD_POPUP_CORE_DESC	{0} Core Card Unlocks	0=Class Name	
+GLUE_RANKED_REWARD_POPUP_CORE_DESC	{0} Core Card Unlocks	0=Class Name
 GLUE_RANKED_REWARD_POPUP_TITLE	Ranked Rewards
 GLUE_RANKED_REWARD_LIST_CARDBACK_PROGRESS	Win {0} more |4(game,games)
 GLUE_RANKED_REWARD_LIST_FLOOR_OBJECTIVE_SEASON_CARDBACK_EARNED	Earned
@@ -2634,6 +2659,7 @@ GLUE_EULA_BUTTON	最终用户许可协议
 GLUE_EULA_TITLE	EULA
 GLUE_COMING_SOON	Coming Soon!
 GLUE_PLAY_CLASSIC	Play Classic
+GLUE_PLAY_TWIST	Play Twist
 GLUE_TOURNAMENT_RANKED_CLASSIC	Classic Ranked
 GLUE_PLAY_CASUAL	Play Casual
 GLUE_COLLECTION_CRAFTING_DIAMOND	Diamond Cards
@@ -2651,10 +2677,12 @@ GLUE_CORE_SET_POPUP_SUBHEADER	Core set now available!
 GLUE_CORE_SET_POPUP_BODY	• 25 FREE Legendary cards\n• 31 new cards for deck-building
 GLUE_CORE_SET_POPUP_FOOTER	(Basic & Classic cards are now Wild)
 GLUE_TOURNAMENT_DESCRIPTION_CLASSIC	Only Classic format cards can be used.
+GLUE_TOURNAMENT_DESCRIPTION_TWIST	Different expansions can be used every month.
 GLUE_TOURNAMENT_DESCRIPTION_STANDARD	Only Core and the last 2 years of cards can be used.
 GLUE_TOURNAMENT_DESCRIPTION_WILD	All cards except Classic format cards can be used.
 GLUE_TOURNAMENT_DESCRIPTION_CASUAL	All cards are available, play against other Casual players.
 GLUE_TOURNAMENT_MISSING_DECKS_CLASSIC	You have no Classic decks. Go create one!
+GLUE_TOURNAMENT_MISSING_DECKS_TWIST	You have no Twist decks. Go create one!
 GLUE_APP_RATING_REQUEST_POPUP_TITLE	Rate Hearthstone
 GLUE_APP_RATING_REQUEST_POPUP_TEXT	Are you enjoying the game?
 GLUE_APP_RATING_POPUP_TEXT	Would you like to rate us?
@@ -3093,6 +3121,8 @@ GLUE_SEASON_BONUS_REWARD_DISCOVER_HERO_SYMBOL	+
 GLUE_SEASON_BONUS_REWARD_DISCOVER_HERO_NUMBER	2
 GLUE_SHOP_RUNESTONES	Runestones
 GLUE_SHOP_ARCANE_ORBS	Arcane Orbs
+GLUE_SHOP_GOLD_PURCHASE_WARNING_HEADER	Confirm
+GLUE_SHOP_GOLD_PURCHASE_WARNING	Are you sure you want to buy {0}? You can't undo it once you confirm.
 GLUE_SHOP_RUNESTONES_PURCHASE_WARNING_HEADER	Confirm
 GLUE_SHOP_RUNESTONES_PURCHASE_WARNING	Are you sure you want to buy {0}? You can't undo it once you confirm.
 GLUE_TOOLTIP_RENOWN_HEADER	Renown
@@ -3185,10 +3215,12 @@ GLUE_MERCENARIES_TASKBOARD_PROC_TASK_NORMAL_DIFFICULTY	Normal
 GLUE_PRIVACY_DNS_ERROR_TITLE	Privacy Error
 GLUE_PRIVACY_DNS_ERROR_BODY	Request not sent. No internet connection available. Please try again when connected to the internet.
 GLUE_PRIVACY_DNS_REQUEST_TITLE	Request Result
+GLUE_PRIVACY_DNS_REQUEST_PROCESSING	Request Processing...
 GLUE_PRIVACY_DNS_REQUEST_BODY	Request Successfully Submitted
+GLUE_PRIVACY_DNS_REQUEST_ERROR	Error submitting request. Please try again later.
 GLUE_PRIVACY_DNS_REQUEST_BUTTON	Submit Request
 GLUE_PRIVACY_DNS_DESC_TOP	Do Not Sell or Share My Data
-GLUE_PRIVACY_DNS_DESC_BOTTOM	You can submit a request to prevent us from sharing or selling your personal information for this game
+GLUE_PRIVACY_DNS_DESC_BOTTOM	You can submit a request to prevent us from sharing or selling your personal information
 GLUE_MERCENARIES_TRAVELPOINT_RESET_INDAYS	Resets in {0} days	0=days
 GLUE_MERCENARIES_TRAVELPOINT_RESET_INHOURS	Resets in {0} hours	0=hours
 GLUE_MERCENARIES_TRAVELPOINT_RESET_SOON	Resets in <1 hour
@@ -3250,3 +3282,15 @@ GLUE_STORE_SALE_CAPS	SALE
 GLUE_STORE_SALE_PERCENT	{0}% Off	0=percent
 GLUE_STORE_SALE_AVERAGE_PERCENT	{0}%+ Off	0=percent
 GLUE_STORE_NEW_PLAYERS_ONLY	New Players Only
+GLUE_TWIST_BACKER_TITLE	Twist Mode
+GLUE_TWIST_LOGIN_POPUP_DESCRIPTION	Try out our fresh new game mode with rotating rules and card sets!
+GLUE_TWIST_RULES_POPUP_BUTTON	View Rules
+GLUE_TWIST_RULES_POPUP_TITLE	Twist Season Rules
+GLUE_TWIST_RULES_POPUP_SETS	Valid Sets
+GLUE_TWIST_NEW_DECK	If you make a Twist deck, you can only use it in Twist games.
+GLUE_TWIST_NEW_MODE	A Twist game! Rules are always changing, so be sure to check them out!
+GLUE_STORE_PACK_QUANTITY_HEADER	How many packs would you like?
+GLUE_STORE_PACK_QUANTITY_BODY	Enter an amount between 1 and {0}.	0=max
+GLUE_STORE_PACK_QUANTITY_WARN_MAX	Maximum number of packs is 50
+GLUE_STORE_PACK_MUTABLE_NAME	1-{0} Packs	0=Max
+GLUE_STORE_PACK_MUTABLE_PRICE	{0}/Pack	0=Price

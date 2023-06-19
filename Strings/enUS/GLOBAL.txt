@@ -146,6 +146,7 @@ GLOBAL_CARD_SET_CORE	Core
 GLOBAL_CARD_SET_CORE_SHORT	Core
 GLOBAL_CARD_SET_CORE_SEARCHABLE_SHORTHAND_NAMES	core	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_VANILLA	Classic
+GLOBAL_CARD_SET_VANILLA_SHORT	Classic
 GLOBAL_CARD_SET_VANILLA_FORMAT_SHORT	Classic
 GLOBAL_CARD_SET_VANILLA_FORMAT_SEARCHABLE_SHORTHAND_NAMES	clfmt	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_SW	United in Stormwind
@@ -169,6 +170,9 @@ GLOBAL_CARD_SET_PA_SEARCHABLE_SHORTHAND_NAMES	pa	This is a space-separated list 
 GLOBAL_CARD_SET_ETC	Festival of Legends
 GLOBAL_CARD_SET_ETC_SHORT	Festival
 GLOBAL_CARD_SET_ETC_SEARCHABLE_SHORTHAND_NAMES	fol This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_TTN	TITANS
+GLOBAL_CARD_SET_TTN_SHORT	Titans
+GLOBAL_CARD_SET_TTN_SEARCHABLE_SHORTHAND_NAMES	titans This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_MINI_SET_DMF	Darkmoon Races
 GLOBAL_MINI_SET_BAR	Wailing Caverns
 GLOBAL_MINI_SET_SW	Deadmines
@@ -198,18 +202,21 @@ GLOBAL_CLASS_SHAMAN	Shaman
 GLOBAL_CLASS_WARLOCK	Warlock
 GLOBAL_CLASS_WARRIOR	Warrior
 GLOBAL_CLASS_DEMONHUNTER	Demon Hunter
+GLOBAL_DEATHKNIGHT_RUNE_BLOOD	Death Knight: Blood
+GLOBAL_DEATHKNIGHT_RUNE_FROST	Death Knight: Frost
+GLOBAL_DEATHKNIGHT_RUNE_UNHOLY	Death Knight: Unholy
 GLOBAL_DEATHKNIGHT_RUNE_LOCKED	Show All Runes
 GLOBAL_RUNE_REQUIREMENT_POPUP_TEXT	Rune requirements can be found here.
-GLOBAL_ROLE_FIGHTER	Fighter	
-GLOBAL_ROLE_TANK	Protector	
-GLOBAL_ROLE_CASTER	Caster	
-GLOBAL_MERCENARY_FACTION_ALLIANCE	Alliance	
-GLOBAL_MERCENARY_FACTION_HORDE	Horde	
-GLOBAL_MERCENARY_FACTION_EMPIRE	Empire	
-GLOBAL_MERCENARY_FACTION_EXPLORER	Explorer	
-GLOBAL_MERCENARY_FACTION_LEGION	Legion	
-GLOBAL_MERCENARY_FACTION_PIRATE	Pirate	
-GLOBAL_MERCENARY_FACTION_SCOURGE	Scourge	
+GLOBAL_ROLE_FIGHTER	Fighter
+GLOBAL_ROLE_TANK	Protector
+GLOBAL_ROLE_CASTER	Caster
+GLOBAL_MERCENARY_FACTION_ALLIANCE	Alliance
+GLOBAL_MERCENARY_FACTION_HORDE	Horde
+GLOBAL_MERCENARY_FACTION_EMPIRE	Empire
+GLOBAL_MERCENARY_FACTION_EXPLORER	Explorer
+GLOBAL_MERCENARY_FACTION_LEGION	Legion
+GLOBAL_MERCENARY_FACTION_PIRATE	Pirate
+GLOBAL_MERCENARY_FACTION_SCOURGE	Scourge
 GLOBAL_BASIC_DECK_NAME	{0}	0=class name
 GLOBAL_KEYWORD_BACON_FREEZE	Freeze
 GLOBAL_KEYWORD_BACON_FREEZE_TEXT	Frozen minions stay in the shop next turn.
@@ -270,10 +277,10 @@ GLOBAL_KEYWORD_SPELLPOWER_FIRE_REF_TEXT	Your Fire spells deal extra damage.
 GLOBAL_KEYWORD_SPELLPOWER_FIRE_MERC	Fire Damage
 GLOBAL_KEYWORD_SPELLPOWER_FIRE_TEXT_MERC	Your character's Fire abilities deal more damage.
 GLOBAL_KEYWORD_SPELLPOWER_FIRE_REF_TEXT_MERC	Your character's Fire abilities deal more damage.
-GLOBAL_KEYWORD_SPELLPOWER_FROST	Frost Spell Damage 
+GLOBAL_KEYWORD_SPELLPOWER_FROST	Frost Spell Damage
 GLOBAL_KEYWORD_SPELLPOWER_FROST_TEXT	Your Frost spell cards deal {0} extra damage.	0=amount of spell damage
 GLOBAL_KEYWORD_SPELLPOWER_FROST_REF_TEXT	Your Frost spells deal extra damage.
-GLOBAL_KEYWORD_SPELLPOWER_FROST_MERC	Frost Damage 
+GLOBAL_KEYWORD_SPELLPOWER_FROST_MERC	Frost Damage
 GLOBAL_KEYWORD_SPELLPOWER_FROST_TEXT_MERC	Your character's Frost abilities deal more damage.
 GLOBAL_KEYWORD_SPELLPOWER_FROST_REF_TEXT_MERC	Your character's Frost abilities deal more damage.
 GLOBAL_KEYWORD_SPELLPOWER_NATURE	Nature Spell Damage
@@ -286,8 +293,8 @@ GLOBAL_KEYWORD_SPELLPOWER_HOLY	Holy Spell Damage
 GLOBAL_KEYWORD_SPELLPOWER_HOLY_TEXT	Your Holy spell cards deal {0} extra damage.	0=amount of spell damage
 GLOBAL_KEYWORD_SPELLPOWER_HOLY_REF_TEXT	Your Holy spells deal extra damage.
 GLOBAL_KEYWORD_SPELLPOWER_HOLY_MERC	Holy Damage
-GLOBAL_KEYWORD_SPELLPOWER_HOLY_TEXT_MERC	Your character's Holy abilities deal more damage. 
-GLOBAL_KEYWORD_SPELLPOWER_HOLY_REF_TEXT_MERC	Your character's Holy abilities deal more damage. 
+GLOBAL_KEYWORD_SPELLPOWER_HOLY_TEXT_MERC	Your character's Holy abilities deal more damage.
+GLOBAL_KEYWORD_SPELLPOWER_HOLY_REF_TEXT_MERC	Your character's Holy abilities deal more damage.
 GLOBAL_KEYWORD_SPELLPOWER_SHADOW	Shadow Spell Damage
 GLOBAL_KEYWORD_SPELLPOWER_SHADOW_TEXT	Your Shadow spell cards deal {0} extra damage.	0=amount of spell damage
 GLOBAL_KEYWORD_SPELLPOWER_SHADOW_REF_TEXT	Your Shadow spells deal extra damage.
@@ -446,6 +453,8 @@ GLOBAL_KEYWORD_DREDGE	Dredge
 GLOBAL_KEYWORD_DREDGE_TEXT	Look at the bottom 3 cards of your deck.\nPut one on top.
 GLOBAL_KEYWORD_INFUSE	Infuse
 GLOBAL_KEYWORD_INFUSE_TEXT	Upgrades in hand after X friendly minions die.
+GLOBAL_KEYWORD_CORPSE	Corpse
+GLOBAL_KEYWORD_CORPSE_TEXT	Resource gained when a friendly minion dies.
 GLOBAL_KEYWORD_INFUSED	Infused
 GLOBAL_KEYWORD_INFUSED_TEXT	Upgraded in hand after X friendly minions died.
 GLOBAL_KEYWORD_CORPSE	Corpse
@@ -457,16 +466,16 @@ GLOBAL_KEYWORD_FINALE_TEXT	A bonus if this spends all your remaining Mana.
 GLOBAL_KEYWORD_OVERHEAL	Overheal
 GLOBAL_KEYWORD_OVERHEAL_TEXT	A bonus if restored past full Health.
 GLOBAL_KEYWORD_DONT_PICK_FROM_SUBSETS	[WIP] Cannot be discovered.
-GLOBAL_KEYWORD_DONT_PICK_FROM_SUBSETS_TEXT	[WIP] Cannot be discovered. 
+GLOBAL_KEYWORD_DONT_PICK_FROM_SUBSETS_TEXT	[WIP] Cannot be discovered.
 GLOBAL_KEYWORD_BONUSEFFECTS	Bonus Effects
 GLOBAL_KEYWORD_BONUSEFFECTS_TEXT	Divine Shield, Lifesteal, Poisonous, Reborn, Rush, Stealth, Taunt, Windfury
-GLOBAL_KEYWORD_VENOMOUS	Venomous		
+GLOBAL_KEYWORD_VENOMOUS	Venomous
 GLOBAL_KEYWORD_VENOMOUS_TEXT	Destroy the first minion this deals damage to.
-GLOBAL_ATTACK	Attack	
-GLOBAL_COST	Cost	
-GLOBAL_HEALTH	Health	
-GLOBAL_KEYWORD_WILD	Wild	
-GLOBAL_KEYWORD_WILD_TEXT	Wild cards are cards from Hearthstone's past no longer allowed in Standard.	
+GLOBAL_ATTACK	Attack
+GLOBAL_COST	Cost
+GLOBAL_HEALTH	Health
+GLOBAL_KEYWORD_WILD	Wild
+GLOBAL_KEYWORD_WILD_TEXT	Wild cards are cards from Hearthstone's past no longer allowed in Standard.
 GLOBAL_RACE_ALL	All
 GLOBAL_RACE_BLOODELF	Blood Elf
 GLOBAL_RACE_DEMON	Demon
@@ -650,7 +659,8 @@ GLOBAL_FRIEND_CHALLENGE_BODY_BACON	You've been invited to join a\nBattlegrounds 
 GLOBAL_FRIEND_CHALLENGE_BODY_BATTLEGROUNDS_SUGGESTION	{0} wants to invite their friend to your Battlegrounds party:	0=suggester name
 GLOBAL_FRIEND_CHALLENGE_BODY1_WILD	You've been challenged to a\nWild game by:
 GLOBAL_FRIEND_CHALLENGE_BODY1_STANDARD	You've been challenged to a \nStandard game by:
-GLOBAL_FRIEND_CHALLENGE_BODY1_CLASSIC	You've been challenged to a\nClassic game by:	
+GLOBAL_FRIEND_CHALLENGE_BODY1_CLASSIC	You've been challenged to a\nClassic game by:
+GLOBAL_FRIEND_CHALLENGE_BODY1_TWIST	You've been challenged to a\nTwist game by:
 GLOBAL_FRIEND_CHALLENGE_BODY2	Do you accept?
 GLOBAL_FRIEND_CHALLENGE_NEARBY_PLAYER_NOTE	You can turn off invites from nearby players in the Friends list.
 GLOBAL_FRIEND_CHALLENGE_ACCEPT	Accept
@@ -749,9 +759,11 @@ GLOBAL_MEDAL_TOURNAMENT_TOOLTIP_BODY	Top {0}% in ranked play mode this season	0=
 GLOBAL_MEDAL_TOOLTIP_BODY_STANDARD	Win Standard games to advance to the next rank!
 GLOBAL_MEDAL_TOOLTIP_BODY_WILD	Win Wild games to advance to the next rank!
 GLOBAL_MEDAL_TOOLTIP_BODY_CLASSIC	Win Classic games to advance to the next rank!
+GLOBAL_MEDAL_TOOLTIP_BODY_TWIST	Win Twist games to advance to the next rank!
 GLOBAL_MEDAL_TOOLTIP_BEST_RANK_STANDARD	Standard Rank: {0}
 GLOBAL_MEDAL_TOOLTIP_BEST_RANK_WILD	Wild Rank: {0}
 GLOBAL_MEDAL_TOOLTIP_BEST_RANK_CLASSIC	Classic Rank: {0}
+GLOBAL_MEDAL_TOOLTIP_BEST_RANK_TWIST	Twist Rank: {0}
 GLOBAL_MEDAL_TOOLTIP_BODY_LEGEND	You're a legend! Your position in this rank will change with each game.
 GLOBAL_MEDAL_ARENA_TOOLTIP_BODY	This is the best key you've earned in the Arena.\nWins: {0}	0=num wins
 GLOBAL_MEDAL_TOOLTIP_BODY_ARENA_GRAND_MASTER	You are a champion of The Arena!
@@ -849,6 +861,7 @@ GLOBAL_FRIENDLIST_CHALLENGE_MENU_HEARTHSTONE_EXTENDED_MENU_BUTTON	Hearthstone...
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_STANDARD_DUEL_BUTTON	Standard
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_WILD_DUEL_BUTTON	Wild
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_CLASSIC_DUEL_BUTTON	Classic
+GLOBAL_FRIENDLIST_CHALLENGE_MENU_TWIST_DUEL_BUTTON	Twist
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_DUEL_BUTTON	Duel
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_REPORT_BUTTON	Report...
 GLOBAL_FRIENDLIST_CHALLENGE_MENU_REMOVE_BUTTON	Remove Friend...
@@ -866,10 +879,12 @@ GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_BATTLEGROUNDS_TUTORIAL_COMPLETE	This p
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_MERCS_TUTORIAL_COMPLETE	This player has not completed the Mercenaries tutorial bounty yet.
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_NO_STANDARD_DECK	You don't have any Standard decks.
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_NO_CLASSIC_DECK	You don't have any Classic decks.
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_NO_TWIST_DECK	You don't have any Twist decks.
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_NO_DECK	You need to build a deck first.
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_NO_TAVERN_BRAWL_DECK	You need to build a deck for this week's Brawl.
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_BATTLEGROUNDS_EARLY_ACCESS	This player does not have early access to Battlegrounds.
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_CLASSIC_DECK	This player has no Classic decks.
+GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_TWIST_DECK	This player has no Twist decks.
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_TAVERN_BRAWL_LOCKED	Unlock Tavern Brawl by reaching level 20 with any class.
 GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_NO_TAVERN_BRAWL	Tavern Brawl is not available right now.  Check back soon!
 GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_TAVERN_BRAWL_NOT_CHALLENGEABLE	Friendly Challenge is not available for this Tavern Brawl.
@@ -1082,6 +1097,8 @@ GLOBAL_SOCIAL_TOAST_FRIEND_SHAMAN_LEVEL	<color=#{0}>{1}</color> became a Level {
 GLOBAL_SOCIAL_TOAST_FRIEND_WARRIOR_LEVEL	<color=#{0}>{1}</color> became a Level {2} Warrior.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_WARLOCK_LEVEL	<color=#{0}>{1}</color> became a Level {2} Warlock.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_PRIEST_LEVEL	<color=#{0}>{1}</color> became a Level {2} Priest.	0=name color,1=player name,2=level
+GLOBAL_SOCIAL_TOAST_FRIEND_DEMON_HUNTER_LEVEL	<color=#{0}>{1}</color> became a Level {2} Demon Hunter.	0=name color,1=player name,2=level
+GLOBAL_SOCIAL_TOAST_FRIEND_DEATH_KNIGHT_LEVEL	<color=#{0}>{1}</color> became a Level {2} Death Knight.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_RANK_EARNED	<color=#{0}>{1}</color> just hit {2}!	0=name color,1=player name,2=medal name
 GLOBAL_SOCIAL_TOAST_FRIEND_RANK_EARNED_WILD	<color=#{0}>{1}</color> just hit {2} in Wild!	0=name color,1=player name,2=medal name
 GLOBAL_SOCIAL_TOAST_FRIEND_RANK_EARNED_CLASSIC	<color=#{0}>{1}</color> just hit {2} in Classic!	0=name color,1=player name,2=medal name
@@ -1220,6 +1237,10 @@ GLOBAL_TOOLTIP_MENU_OFFLINE_HEADER	Offline
 GLOBAL_TOOLTIP_MENU_OFFLINE_DESC	You are currently offline. Click here to reconnect.
 GLOBAL_TOOLTIP_FRIEND_BUTTON_HEADER	Friends
 GLOBAL_TOOLTIP_FRIEND_BUTTON_DESC	Chat with and challenge your friends.
+GLOBAL_TOOLTIP_MODE_TWIST	Play Hearthstone with a rotating rule set every month.
+GLOBAL_TOOLTIP_MODE_STANDARD	Challenge players to a match in a competitive setting.
+GLOBAL_TOOLTIP_MODE_WILD	Create a deck with cards from any set and battle opponents.
+GLOBAL_TOOLTIP_MODE_CASUAL	Enjoy a casual game of Hearthstone with any deck.
 GLOBAL_HEALTHY_GAMING_CHINA_LESS_THAN_THREE_HOURS	您累计在线时间已满{0}小时。
 GLOBAL_HEALTHY_GAMING_CHINA_THREE_HOURS	您累计在线时间已满{0}小时，请您下线休息，做适当身体活动。
 GLOBAL_HEALTHY_GAMING_CHINA_THREE_TO_FIVE_HOURS	您已经进入疲劳游戏时间，您的游戏收益将降为正常值的0%，为了您的健康，请尽快下线休息，做适当身体活动，合理安排学习生活。
@@ -1363,6 +1384,10 @@ GLOBAL_ENABLE	Enable
 GLOBAL_DISABLE	Disable
 GLOBAL_ARENA_SEASON_ERROR_NOT_ACTIVE	Sorry. The requested Arena mode is no longer available. Please wait a few minutes and try again.
 GLOBAL_BRAWLISEUM	Brawliseum
+GLOBAL_TWIST_SEASON_TITLE_116	New Age
+GLOBAL_TWIST_SEASON_DESCRIPTION_116	Experience this new twisted format; build a deck using only class cards since Ashes of Outland!
+GLOBAL_TWIST_SEASON_TITLE_117	New Age
+GLOBAL_TWIST_SEASON_DESCRIPTION_117	Experience this new twisted format; build a deck using only class cards since Ashes of Outland!
 GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_START_WITH_MANY_WINS	<color=#{0}>{1}</color> has just started a Brawliseum match with {2} wins already!	0=name color,1=player name,2=Brawl Wins
 GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_COMPLETE	<color=#{0}>{1}</color> just finished a Brawliseum run. ({2}-{3})	0=name color,1=player name,2=Brawl Wins,3=Brawl Losses
 GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_START	<color=#{0}>{1}</color> started a new Brawliseum run.	0=name color,1=player name
@@ -1419,6 +1444,7 @@ GLOBAL_PROGRESSION_EVENT_QUESTS_POPUP_TITLE	Your Event Quests
 GLOBAL_PROGRESSION_BATTLEGROUNDS_QUESTS_POPUP_TITLE	Your Weekly Missions
 GLOBAL_PVPDR_SEASON_ERROR_NOT_ACTIVE	Sorry. The requested Duels season is no longer available. Please try again later.
 GLOBAL_CLASSIC	Classic
+GLOBAL_TWIST	Twist
 GLOBAL_RANKED	Ranked
 GLOBAL_LETTUCE_LOBBY_TITLE	Choose how to play
 GLOBAL_LETTUCE_REWARD_BANNER_TEXT	Mercenaries Reward
@@ -1472,7 +1498,7 @@ GLOBAL_KEYWORD_ATTACK_MERC	Attack
 GLOBAL_KEYWORD_ATTACK_TEXT_MERC	Attack a character and take damage from the enemy.
 GLOBAL_KEYWORD_ATTACK_REF_TEXT_MERC	Attack a character and take damage from the enemy.
 GLOBAL_KEYWORD_SPELLCOMBO_MERC	Spell Combo
-GLOBAL_KEYWORD_SPELLCOMBO_TEXT_MERC	A bonus if another friendly Merc played a spell of the specified school this turn. 
+GLOBAL_KEYWORD_SPELLCOMBO_TEXT_MERC	A bonus if another friendly Merc played a spell of the specified school this turn.
 GLOBAL_KEYWORD_SPELLCOMBO_REF_TEXT_MERC	A bonus if another friendly Merc played a spell of the specified school this turn.
 GLOBAL_KEYWORD_DEATHBLOW	Deathblow
 GLOBAL_KEYWORD_DEATHBLOW_TEXT	Does something when it kills a character.
@@ -1502,7 +1528,7 @@ GLOBAL_KEYWORD_SPELLWEAKNESS_MERC_TEXT	Takes {0} more damage from all abilities.
 GLOBAL_KEYWORD_SPELLWEAKNESS_MERC_REF_TEXT	Takes more damage from all abilities.
 GLOBAL_KEYWORD_SPELLRESISTANCE_MERC	Spell Resistance
 GLOBAL_KEYWORD_SPELLRESISTANCE_MERC_TEXT	Takes {0} less damage from all abilities.
-GLOBAL_KEYWORD_SPELLRESISTANCE_MERC_REF_TEXT	Takes less damage from all abilities.	
+GLOBAL_KEYWORD_SPELLRESISTANCE_MERC_REF_TEXT	Takes less damage from all abilities.
 GLOBAL_KEYWORD_BENCH_MERC	Bench
 GLOBAL_KEYWORD_BENCH_MERC_TEXT	Does something while this Merc is on the bench.
 GLOBAL_KEYWORD_EXPLORER_MERC	Explorer
