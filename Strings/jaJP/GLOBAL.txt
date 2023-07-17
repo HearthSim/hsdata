@@ -239,8 +239,8 @@ GLOBAL_CARD_SET_TSC	深淵に眠る海底都市
 GLOBAL_CARD_SET_TSC_SEARCHABLE_SHORTHAND_NAMES	深淵 海底 海底都市 tsc vttsc vtsc sc	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_TSC_SHORT	海底都市	
 GLOBAL_CARD_SET_TTN	タイタン	
-GLOBAL_CARD_SET_TTN_SEARCHABLE_SHORTHAND_NAMES	titans タイタン	
-GLOBAL_CARD_SET_TTN_SHORT	タイタン	
+GLOBAL_CARD_SET_TTN_SEARCHABLE_SHORTHAND_NAMES	titans タイタン タイタンの目醒め 目醒め 目覚め	
+GLOBAL_CARD_SET_TTN_SHORT	タイタンの目醒め	
 GLOBAL_CARD_SET_ULDUM	突撃！探検同盟	
 GLOBAL_CARD_SET_ULDUM_SEARCHABLE_SHORTHAND_NAMES	探検同盟 ウルドゥム sou uldum	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_ULDUM_SHORT	突撃！探検同盟	
@@ -745,6 +745,10 @@ GLOBAL_KEYWORD_FINALE	フィナーレ
 GLOBAL_KEYWORD_FINALE_TEXT	このカードで残りマナを全て消費するとボーナス発生。	
 GLOBAL_KEYWORD_FLOOPY	[x]プルンプルン・\nフループ	
 GLOBAL_KEYWORD_FLOOPY_TEXT	ミニオンを手札から使用した時、変身する。	
+GLOBAL_KEYWORD_FORGE	鍛造	
+GLOBAL_KEYWORD_FORGE_TEXT	これを自分のデッキまでドラッグすると、（2）マナ支払ってアップグレードできる。	
+GLOBAL_KEYWORD_FORGED	鍛造体	
+GLOBAL_KEYWORD_FORGED_TEXT	これを自分のデッキまでドラッグして（2）マナ支払い、アップグレードされている。	
 GLOBAL_KEYWORD_FREEZE	凍結	
 GLOBAL_KEYWORD_FREEZE_TEXT	凍結したキャラクターは次のターン攻撃できない。	
 GLOBAL_KEYWORD_FREEZE_TEXT_MERC	凍結したキャラクターは、このターン中、次の能力を発動できない。	
@@ -951,10 +955,14 @@ GLOBAL_KEYWORD_STEALTH_REF_TEXT	自身が攻撃を行うまで、攻撃対象や
 GLOBAL_KEYWORD_STEALTH_REF_TEXT_MERC	自身が能力を使用するまで、攻撃対象や標的にならない。	
 GLOBAL_KEYWORD_STEALTH_TEXT	自身が攻撃を行うまで、攻撃対象や標的にならない。	
 GLOBAL_KEYWORD_STEALTH_TEXT_MERC	自身が能力を使用するまで、攻撃対象や標的にならない。	
+GLOBAL_KEYWORD_SUMMONED_WHEN_DRAWN	自動召喚	
+GLOBAL_KEYWORD_SUMMONED_WHEN_DRAWN_TEXT	引くと自動的に召喚され、その後カードを1枚引く。	
 GLOBAL_KEYWORD_TAUNT	挑発	
 GLOBAL_KEYWORD_TAUNT_REF_TEXT	敵は「挑発」を持つミニオンしか攻撃できない。	
 GLOBAL_KEYWORD_TAUNT_REF_TEXT_Merc	敵は「挑発」を持つキャラクターしか攻撃できない。	
 GLOBAL_KEYWORD_TAUNT_TEXT	敵はこのミニオンしか攻撃できない。	
+GLOBAL_KEYWORD_TITAN	タイタン	
+GLOBAL_KEYWORD_TITAN_TEXT	タイタンをクリックすると\n攻撃ではなく3つの能力のうち\n1つを使用できる。	
 GLOBAL_KEYWORD_TOOL	ツール	
 GLOBAL_KEYWORD_TOOL_TEXT	アクティブな能力を持つアイテム。	
 GLOBAL_KEYWORD_TRADE	交換可	
@@ -1508,6 +1516,7 @@ GLOBAL_TOOLTIP_MENU_OFFLINE_HEADER	オフライン
 GLOBAL_TOOLTIP_MODE_CASUAL	自由なデッキで「ハースストーン」のカジュアルな対戦を楽しんでくれ。	
 GLOBAL_TOOLTIP_MODE_STANDARD	より競争的なランク戦で他のプレイヤーに挑もう。	
 GLOBAL_TOOLTIP_MODE_TWIST	毎月ローテーションするルールで「ハースストーン」をプレイしよう。	
+GLOBAL_TOOLTIP_MODE_TWIST_SEASON_DISABLED	毎月ローテーションするルールで「ハースストーン」をプレイしよう。このゲームモードは次のシーズン開始までロック中だ。	
 GLOBAL_TOOLTIP_MODE_WILD	全種類のカードを自由に使ってデッキを作り、対戦しよう。	
 GLOBAL_TUTORIAL_ATTACK	攻撃	
 GLOBAL_TUTORIAL_ATTACKER	攻撃側	
@@ -1523,6 +1532,7 @@ GLOBAL_TUTORIAL_USED	使用済
 GLOBAL_TUTORIAL_YOUR_MANA	君のマナ	
 GLOBAL_TUTORIAL_YOUR_TURN	君のターン	
 GLOBAL_TWIST	ツイスト	
+GLOBAL_TWIST_LOCKED	ツイスト（未開放）	
 GLOBAL_TWIST_SEASON_DESCRIPTION_116	新たなツイストフォーマットで、「灰に舞う降魔の狩人」以降のクラスカードのみを使ってデッキを組もう！	
 GLOBAL_TWIST_SEASON_DESCRIPTION_117	新たなツイストフォーマットで、「灰に舞う降魔の狩人」以降のクラスカードのみを使ってデッキを組もう！	
 GLOBAL_TWIST_SEASON_TITLE_116	新時代	
@@ -1535,6 +1545,3 @@ GLOBAL_WAIT_FOR_OPPONENT_RECONNECT_SPECTATOR	プレイヤーが再接続する�
 GLOBAL_WARNING_GENERIC_HEADER	警告	
 GLOBAL_WILD	ワイルド	
 GLOBAL_WINS	勝利	
-Non Discoverable Name	DontPickFromSubsets	
-Non Discoverable Ref Text	Non Discoverable Ref Text Value	
-Sideboard	NEW	

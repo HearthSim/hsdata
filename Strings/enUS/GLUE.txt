@@ -181,6 +181,7 @@ GLUE_COLLECTION_DECK_HERO_NOT_UNLOCKED	You have a deck in your clipboard, but th
 GLUE_COLLECTION_DECK_WILD_NOT_UNLOCKED	You have a Wild deck in your clipboard, but you have not unlocked Wild Mode.
 GLUE_COLLECTION_DECK_TWIST_NOT_UNLOCKED	You have a Twist deck in your clipboard, but you have not unlocked Twist Mode.
 GLUE_COLLECTION_DECK_CLASSIC_INVALID	You have an invalid deck in your clipboard.
+GLUE_COLLECTION_DECK_TWIST_NOT_ACTIVE	You have a Twist deck in your clipboard, but there is no active Twist season.
 GLUE_COLLECTION_DECK_PASTE_POPUP_HEADER	Paste Deck
 GLUE_COLLECTION_DECK_OVERWRITE_BODY	Would you like to replace your current deck with the deck in your clipboard?
 GLUE_COLLECTION_DECK_OVERWRITE_HEADER	Replace Deck
@@ -207,6 +208,7 @@ GLUE_COLLECTION_DECK_COPY_TOOLTIP_FORMAT	Your deck has some cards that are inval
 GLUE_COLLECTION_DECK_COPY_TOOLTIP_UNPLAYABLE	Your deck has some cards that are not playable.
 GLUE_COLLECTION_DECK_COPY_TOOLTIP_RUNES_WARNING	Invalid rune cards.
 GLUE_COLLECTION_DECK_PASTE_INVALID_CLASS_BODY	The deck you are trying to paste belongs to a different class.
+GLUE_COLLECTION_RELATED_CARDS	Related Cards
 GLUE_COLLECTION_FINAL_REWARD	Final Reward
 GLUE_COLLECTION_STAGE_ONE	Stage 1
 GLUE_COLLECTION_STAGE_TWO	Stage 2
@@ -840,12 +842,12 @@ GLUE_TIP_ADVENTURE_DAL_18	The League of E.V.I.L. does NOT tolerate FAILURE!\nBut
 GLUE_TIP_ADVENTURE_DAL_19	The Kirin Tor are an elite group of the most powerful mages in the world.
 GLUE_TIP_ADVENTURE_DAL_20	The League of E.V.I.L. has gathered\ntogether miscreants from all of Azeroth.
 GLUE_TIP_ADVENTURE_DAL_21	Adventurers and townspeople in Dalaran will try to thwart your schemes!
-GLUE_TIP_BACON_0	When you get a Triple, you also\n<b>Discover</b> a minion of your Tavern Tier +1.
+GLUE_TIP_BACON_0	When you get a Triple, you also\n<b>Discover</b> a minion of a Tier higher than yours.
 GLUE_TIP_BACON_1	Minions will attack from left to right with random targets,\nunless an enemy minion has <b>Taunt</b>.
 GLUE_TIP_BACON_2	Every game includes a different set of minion types.\nSometimes Murlocs are in, sometimes they're out!
-GLUE_TIP_BACON_3	When you win a combat, your hero and minions\ndeal damage equal to their Tavern Tier.
-GLUE_TIP_BACON_4	The cost to upgrade your Tavern Tier decreases by (1) each turn.
-GLUE_TIP_BACON_5	There are only seven copies of the Tier 6 minions.\nWhen bought, they are gone for everyone!
+GLUE_TIP_BACON_3	When you win a combat, your hero and minions deal damage equal to their Tiers.
+GLUE_TIP_BACON_4	The cost to upgrade the Tavern decreases by (1) each turn.
+GLUE_TIP_BACON_5	There are only seven copies of the Tier 6 minions.\nWhen bought, they're gone for everyone!
 GLUE_TIP_BACON_6	Freeze minions to buy them next turn, or do it again to unfreeze them.
 GLUE_TIP_BACON_7	Three Golden minions do not combine into a bigger Triple.
 GLUE_TIP_BACON_8	Your next opponent is indented on the scoreboard. Prepare yourself.
@@ -853,16 +855,16 @@ GLUE_TIP_BACON_9	When an odd number of players remains, Kel'Thuzad will resurrec
 GLUE_TIP_BACON_10	Win streaks are displayed on the scoreboard with an “On Fire” symbol.
 GLUE_TIP_BACON_11	Only buffs that happen in the Tavern are permanent.\nCombat buffs go away after fighting.
 GLUE_TIP_BACON_12	If your opponents purchase many copies of one minion, you will see less of it.
-GLUE_TIP_BACON_13	If a minion is sold, it returns to the pool, so you will see it again more often.
-GLUE_TIP_BACON_14	If you spend all your Gold upgrading your Tavern Tier,\nyou may fall behind in early combat.
-GLUE_TIP_BACON_15	If you never upgrade your Tavern Tier,\nyou may fall behind in later combat.
+GLUE_TIP_BACON_13	Minions return to the pool when they're sold, so you may see them again more often.
+GLUE_TIP_BACON_14	If you spend all your Gold upgrading the Tavern,\nyou may fall behind in early combat.
+GLUE_TIP_BACON_15	If you never upgrade the Tavern,\nyou may fall behind in later combat.
 GLUE_TIP_BACON_16	Some minion types are stronger in the early game,\nwhile others are stronger in the late game.
 GLUE_TIP_BACON_17	If you have 1 Gold left over, refresh the Tavern.\nIf you see a minion you like, freeze it for the next turn.
 GLUE_TIP_BACON_18	With 8 players, being in the Top 4 is a win!\nFirst place gets you the Crown!
 GLUE_TIP_BACON_19	All players recruit minions from the same shared pool.
 GLUE_TIP_BACON_20	When you wipe out an opponent, their minions go back into the pool.
 GLUE_TIP_BACON_21	In combat, the player with more minions is first to attack. If it's a tie, the first attacker is random.
-GLUE_TIP_BACON_22	Players can take at most 15 damage at once until a Hero has died AND players have reached 10 Gold.
+GLUE_TIP_BACON_22	Players can take at most 15 damage at once until a hero has died AND players have reached 10 Gold.
 GLUE_TIP_BACON_23	<b>Deathrattles</b> trigger before <b>Reborn</b>.
 GLUE_TIP_BACON_24	Choose a Quest on Turn 4 and complete it for a game-changing Reward!
 GLUE_TIP_BACON_25	A Quest's difficulty may vary depending on your chosen Reward or the hero you're playing as.
@@ -1194,6 +1196,7 @@ GLUE_ARCANE_ORBS_CAP_HEADER	Too many Arcane Orbs!
 GLUE_ARCANE_ORBS_CAP_BODY	You cannot acquire additional Arcane Orbs above {0}.
 GLUE_CANNOT_FIND_BATTLENET_CLIENT	Hearthstone requires the Blizzard desktop app, but cannot find it.  Please visit www.battle.net to re-install.
 GLUE_CANNOT_RUN_BATTLENET_CLIENT	Hearthstone requires the Blizzard desktop app, but cannot run it.  Please visit www.battle.net to re-install.
+GLUE_CANNOT_CONVERT_TO_TWIST_WITHOUT_SEASON	You cannot convert this deck when there is no active Twist season.
 GLUE_COLLECTION_DECK_DELETE	Delete
 GLUE_COLLECTION_DECK_RENAME	Rename
 GLUE_MOBILE_ACCOUNT_REQUIRED_POPUP	Battle.net account required to play Hearthstone, please login or sign up for an account.
@@ -1593,6 +1596,10 @@ GLUE_GHOST_CARD_NOT_VALID_DESCRIPTION	Wild cards can't be used in Standard decks
 GLUE_GHOST_CARD_NOT_VALID_DESCRIPTION_TOUCH	Wild cards can't be used in Standard decks.\nTap to find a replacement.
 GLUE_CARD_BANNED_IN_TWIST_TITLE	Twist card
 GLUE_CARD_BANNED_IN_TWIST_DESCRIPTION	This Card is Banned in Twist Mode.\nClick to find a replacement.
+GLUE_CARD_BANNED_IN_TWIST_DESCRIPTION_TOUCH	This Card is Banned in Twist Mode.\nTap to find a replacement.
+GLUE_CARD_INVALID_IN_TWIST_TITLE	Twist card
+GLUE_CARD_INVALID_IN_TWIST_DESCRIPTION	This Card is Invalid in Twist Mode.\nClick to find a replacement.
+GLUE_CARD_INVALID_IN_TWIST_DESCRIPTION_TOUCH	This Card is Invalid in Twist Mode.\nTap to find a replacement.
 GLUE_GHOST_CARD_NEVER_VALID_TITLE	Invalid card
 GLUE_GHOST_CARD_NEVER_VALID_DESCRIPTION	This card is invalid and cannot be used in this deck.\nClick to find a replacement.
 GLUE_GHOST_CARD_NEVER_VALID_DESCRIPTION_TOUCH	This card is invalid and cannot be used in this deck.\nTap to find a replacement.
@@ -1921,7 +1928,8 @@ GLUE_STORE_PACKBUY_LIMITED_TIME	Limited Time
 GLUE_STORE_LIMITED_TIME_OFFER	Limited Time Offer!
 GLUE_STORE_BONUS_PACKS	Get {0} bonus |4(pack,packs) for a limited time!	0 = number of bonus packs
 GLUE_NEW_PLAYER_AVAILABLE_AT_LEAGUE_PROMO	Available\nafter\nApprenticeship
-GLUE_NEW_PLAYER_PROMOTION_CHEST_DESC	Congratulations! You are now\nofficially a veteran.\n\nTougher opponents await!
+GLUE_NEW_PLAYER_PROMOTION_CHEST_TITLE	Bronze Unlocked!
+GLUE_NEW_PLAYER_PROMOTION_CHEST_DESC	You are now ready to compete\nfor Ranked Rewards!
 GLUE_NEW_PLAYER_SET_ROTATION_POPUP_HEADER	Welcome to {0}!
 GLUE_NEW_PLAYER_SET_ROTATION_POPUP_BODY	New cards have arrived! Some of your older cards now require completion of Apprenticeship to play.
 GLUE_NEW_PLAYER_AVAILABLE_AFTER_APPRENTICESHIP	Available after Apprenticeship
@@ -2359,6 +2367,13 @@ GLUE_CORE_UNLOCK_POPUP_LEVEL	Requires Level {0}	0=class level number
 GLUE_RANKED_REWARD_POPUP_CORE_TITLE	Reach {0} Level {1} 	0=Class Name 1=class level number
 GLUE_RANKED_REWARD_POPUP_CORE_DESC	{0} Core Card Unlocks	0=Class Name
 GLUE_RANKED_REWARD_POPUP_TITLE	Ranked Rewards
+GLUE_RANKED_REWARD_APPRENTICE_POPUP_TITLE	Apprentice Rewards
+GLUE_RANKED_REWARD_APPRENTICE_RANKS_HEADER	Collect 3 \nExpansion Packs
+GLUE_RANKED_REWARD_APPRENTICE_RANKS_SUBTITLE	Every 5 Ranks
+GLUE_RANKED_REWARD_APPRENTICE_COMPLETE_HEADER	Clear Apprentice \nRank 1
+GLUE_RANKED_REWARD_APPRENTICE_COMPLETE_SUBTITLE	Unlock Bronze and Ranked Rewards
+GLUE_RANKED_REWARD_APPRENTICE_RANKS_TITLE	Apprentice {0}	0 = next milestone rank
+GLUE_RANKED_REWARD_APPRENTICE_COMPLETE_TITLE	Apprentice 1
 GLUE_RANKED_REWARD_LIST_CARDBACK_PROGRESS	Win {0} more |4(game,games)
 GLUE_RANKED_REWARD_LIST_FLOOR_OBJECTIVE_SEASON_CARDBACK_EARNED	Earned
 GLUE_RANKED_REWARD_LIST_EARNED_CHEST_LABEL	Your Chest
@@ -2685,7 +2700,8 @@ GLUE_TOURNAMENT_MISSING_DECKS_CLASSIC	You have no Classic decks. Go create one!
 GLUE_TOURNAMENT_MISSING_DECKS_TWIST	You have no Twist decks. Go create one!
 GLUE_APP_RATING_REQUEST_POPUP_TITLE	Rate Hearthstone
 GLUE_APP_RATING_REQUEST_POPUP_TEXT	Are you enjoying the game?
-GLUE_APP_RATING_POPUP_TEXT	Would you like to rate us?
+GLUE_APP_RATING_POPUP_GREETING	It's great to have you!
+GLUE_APP_RATING_POPUP_TEXT	Would you like to rate our game?
 GLUE_TROUBLESHOOTING_POPUP_TEXT	Are you having trouble with the game?
 GLUE_APP_RATING_REQUEST_CONFIRM	Yes
 GLUE_APP_RATING_REQUEST_CANCEL	No
@@ -3289,6 +3305,8 @@ GLUE_TWIST_RULES_POPUP_TITLE	Twist Season Rules
 GLUE_TWIST_RULES_POPUP_SETS	Valid Sets
 GLUE_TWIST_NEW_DECK	If you make a Twist deck, you can only use it in Twist games.
 GLUE_TWIST_NEW_MODE	A Twist game! Rules are always changing, so be sure to check them out!
+GLUE_TWIST_SEASON_START_HEADER	Starts in
+GLUE_TIME_MORE_THAN_A_MONTH	> 1 month
 GLUE_STORE_PACK_QUANTITY_HEADER	How many packs would you like?
 GLUE_STORE_PACK_QUANTITY_BODY	Enter an amount between 1 and {0}.	0=max
 GLUE_STORE_PACK_QUANTITY_WARN_MAX	Maximum number of packs is 50

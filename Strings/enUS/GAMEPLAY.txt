@@ -50,6 +50,7 @@ GAMEPLAY_PlayErrors_REQ_MINIMUM_CORPSES_CLASS	Only Death Knights can use Corpses
 GAMEPLAY_PlayErrors_REQ_NONSELF_TARGET	Minion cannot target itself	
 GAMEPLAY_PlayErrors_REQ_NONSTEALTH_ENEMY_TARGET	Stealthed characters can't be targeted or attacked	
 GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_ACTIVATE	That character already attacked	
+GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_ACTIVATE_TITAN	This titan has no more abilities	
 GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_HERO_POWER	Hero Powers can only be used once a turn	
 GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_LOCATION	That Location can't be used\n for another turn
 GAMEPLAY_PlayErrors_REQ_NOT_EXHAUSTED_LOCATION_COOLDOWN	That Location can't be used\n for another {0} |4(turn,turns)	
@@ -60,6 +61,7 @@ GAMEPLAY_PlayErrors_REQ_MAX_QUESTS	You can only have {0} |4(Quest, Quests)
 GAMEPLAY_PlayErrors_REQ_SECRET_ZONE_CAP	You can only have {0} cards in\nyour Secret Zone
 GAMEPLAY_PlayErrors_REQ_STEALTHED_TARGET	Select a Stealthed character
 GAMEPLAY_PlayErrors_REQ_SUBCARD_IS_PLAYABLE	Neither of these options are valid	
+GAMEPLAY_PlayErrors_REQ_SUBCARD_IS_PLAYABLE_TITAN	That titan's abilities cannot be used right now	
 GAMEPLAY_PlayErrors_REQ_TARGET_ATTACKED_THIS_TURN	You must target a character who already attacked	
 GAMEPLAY_PlayErrors_REQ_TARGET_EXACT_COST	Select a minion with a cost of {0}
 GAMEPLAY_PlayErrors_REQ_TARGET_FOR_COMBO	You cannot play that without a target	
@@ -126,6 +128,7 @@ GAMEPLAY_PlayErrors_REQ_NOT_LEGENDARY_TARGET	You cannot target a legendary minio
 GAMEPLAY_PlayErrors_REQ_LETTUCE_ABILITY_CANNOT_TARGET_OWNER	This mercenary cannot target itself with this ability
 GAMEPLAY_PlayErrors_REQ_MINIMUM_TAVERN_TIER_LEVEL_TO_PLAY	You need at least Tavern Tier Level {0} to play this card.
 GAMEPLAY_PlayErrors_REQ_CARD_TAVERN_TIER_LEVEL_TO_PLAY	You need at least this card's Tavern Tier Level to play it.
+GAMEPLAY_PlayErrors_REQ_TARGET_IS_NON_TITAN	You cannot target a Titan.
 GAMEPLAY_TOOLTIP_DECK_DESCRIPTION	You have {0} |4(card,cards) in your deck.	
 GAMEPLAY_TOOLTIP_DECK_HEADLINE	Deck	
 GAMEPLAY_TOOLTIP_CORPSES	Corpses
@@ -159,6 +162,8 @@ GAMEPLAY_TOOLTIP_BACON_AVAILABLE_RACES_HEADLINE	In this game:
 GAMEPLAY_TOOLTIP_BACON_AVAILABLE_RACES_DESC	{0}, {1}, {2}, {3}, {4}	0=first race, 1=second race, 2=third race, 3=fourth race, 4=fifth race
 GAMEPLAY_TOOLTIP_BACON_UNAVAILABLE_RACES_HEADLINE	Not in this game:
 GAMEPLAY_TOOLTIP_BACON_INACTIVE_RACES_HEADLINE	Coming Soon:
+GAMEPLAY_TOOLTIP_TITAN_ABILITY_LOCKED_NAME	Locked Ability
+GAMEPLAY_TOOLTIP_TITAN_ABILITY_LOCKED_TEXT	This Ability was previously activated and cannot be used again.
 GAMEPLAY_SEPARATOR	,
 GAMEPLAY_TOOLTIP_BACON_DARKMOON_PRIZES_HEADLINE	Darkmoon Prizes
 GAMEPLAY_TOOLTIP_BACON_DARKMOON_PRIZES_DESC	{0} |4(turn,turns) left until you <b>Discover</b> one of the Darkmoon Prizes!
@@ -202,6 +207,8 @@ GAMEPLAY_SECRET_NAME_MAGE	Mage Secret
 GAMEPLAY_SECRET_NAME_HUNTER	Hunter Secret	
 GAMEPLAY_SECRET_NAME_ROGUE	Rogue Secret	
 GAMEPLAY_SECRET_DESC	This is hidden until a secret action occurs... Watch out!
+GAMEPLAY_FORGE_NAME	Forge	
+GAMEPLAY_FORGE_DESC	[x]Your opponent\n <b>Forged</b> a card into\n an upgraded version!
 GAMEPLAY_QUESTLINE_PART_1	Part I
 GAMEPLAY_QUESTLINE_PART_2	Part II
 GAMEPLAY_QUESTLINE_PART_3	Part III
@@ -227,6 +234,7 @@ GAMEPLAY_CHOOSE_ONE_HERO_POWER	Choose One	will be displayed for choosing a Hero 
 GAMEPLAY_CHOOSE_ONE_ADAPT_ALL_MINIONS	Choose one for all your minions:
 GAMEPLAY_CHOOSE_ONE_ADAPT_ALL_RECRUITS	Choose one for all your Recruits:
 GAMEPLAY_CHOOSE_ONE_ADAPT_ALL_MURLOCS	Choose one for all your Murlocs:
+GAMEPLAY_CHOOSE_AN_ABILITY	Choose an Ability	will be displayed for titan abilities e.g. Aman'Thul
 GAMEPLAY_CHOOSE_ONE_WINNER	Guess the Winner!
 GAMEPLAY_MURLOC_HOLMES_QUESTION_1	Which card was in your opponent's starting hand?
 GAMEPLAY_MURLOC_HOLMES_QUESTION_2	Which card is in your opponent's hand?
