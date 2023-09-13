@@ -462,7 +462,7 @@ GLUE_SHOP_GET_MORE_RUNESTONES	You do not have enough Runestones for this purchas
 GLUE_SHOP_GET_MORE_RUNESTONES_HEADER	Not enough Runestones!
 GLUE_SHOP_NOT_ENOUGH_RUNESTONES	Not enough Runestones
 GLUE_SHOP_CONVERT_TO_ARCANE_ORBS_HEADER	Convert Runestones to Arcane Orbs
-GLUE_SHOP_WILD_CARDS_DISCLAIMER	•  Cards received can be used in Wild.
+GLUE_SHOP_WILD_CARDS_DISCLAIMER	•  Cards received can be used in Wild
 GLUE_SHOP_CLOSED_ALERT_HEADER	Shop Closed
 GLUE_SHOP_CLOSED_ALERT_TEXT	The shop is temporarily closed, please check back later!
 GLUE_CHECKOUT_ERROR_INSUFFICIENT_FUNDS	You do not have enough funds to complete this purchase.
@@ -848,7 +848,7 @@ GLUE_TIP_BACON_2	Every game includes a different set of minion types.\nSometimes
 GLUE_TIP_BACON_3	When you win a combat, your hero and minions deal damage equal to their Tiers.
 GLUE_TIP_BACON_4	The cost to upgrade the Tavern decreases by (1) each turn.
 GLUE_TIP_BACON_5	There are only seven copies of the Tier 6 minions.\nWhen bought, they're gone for everyone!
-GLUE_TIP_BACON_6	Freeze minions to buy them next turn, or do it again to unfreeze them.
+GLUE_TIP_BACON_6	<b>Freeze</b> minions to buy them next turn, or do it again to unfreeze them.
 GLUE_TIP_BACON_7	Three Golden minions do not combine into a bigger Triple.
 GLUE_TIP_BACON_8	Your next opponent is indented on the scoreboard. Prepare yourself.
 GLUE_TIP_BACON_9	When an odd number of players remains, Kel'Thuzad will resurrect the minions of a fallen opponent and join the battle.
@@ -859,15 +859,17 @@ GLUE_TIP_BACON_13	Minions return to the pool when they're sold, so you may see t
 GLUE_TIP_BACON_14	If you spend all your Gold upgrading the Tavern,\nyou may fall behind in early combat.
 GLUE_TIP_BACON_15	If you never upgrade the Tavern,\nyou may fall behind in later combat.
 GLUE_TIP_BACON_16	Some minion types are stronger in the early game,\nwhile others are stronger in the late game.
-GLUE_TIP_BACON_17	If you have 1 Gold left over, refresh the Tavern.\nIf you see a minion you like, freeze it for the next turn.
+GLUE_TIP_BACON_17	If you have 1 Gold left over, <b>Refresh</b> the Tavern.\nIf you see a minion you like, <b>Freeze</b> it for the next turn.
 GLUE_TIP_BACON_18	With 8 players, being in the Top 4 is a win!\nFirst place gets you the Crown!
 GLUE_TIP_BACON_19	All players recruit minions from the same shared pool.
 GLUE_TIP_BACON_20	When you wipe out an opponent, their minions go back into the pool.
 GLUE_TIP_BACON_21	In combat, the player with more minions is first to attack. If it's a tie, the first attacker is random.
-GLUE_TIP_BACON_22	Players can take at most 15 damage at once until a hero has died AND players have reached 10 Gold.
+GLUE_TIP_BACON_22	Players can take at most 15 damage at once until only the Top 4 players are left in a lobby.
 GLUE_TIP_BACON_23	<b>Deathrattles</b> trigger before <b>Reborn</b>.
-GLUE_TIP_BACON_24	<b>Anomalies</b> are special rules that apply to the whole lobby. They can affect Gold, minion stats, hero Health, and more!
-GLUE_TIP_BACON_25	Some heroes, minions, and minion types are unavailable when certain <b>Anomalies</b> are in effect.
+GLUE_TIP_BACON_24	When you upgrade to Tier 2, 4, or 6, an extra minion is added to the Tavern for the rest of the game.
+GLUE_TIP_BACON_25	Minions trigger their end of turn effects in order from left to right.
+GLUE_TIP_BACON_26	<b>Anomalies</b> are special rules that apply to the whole lobby. They can affect Gold, minion stats, hero Health, and more!
+GLUE_TIP_BACON_27	Some heroes, minions, and minion types are unavailable when certain <b>Anomalies</b> are in effect.
 GLUE_TIP_LETTUCE_0	Using <b>Critical Damage</b> is the key to victory!
 GLUE_TIP_LETTUCE_1	Your Mercs will always act before enemies of the same Speed during Bounty encounters.
 GLUE_TIP_LETTUCE_2	Ability cooldowns decrease even while on the Bench.
@@ -1309,23 +1311,11 @@ GLUE_MINSPEC_WARNING	This device is below the recommended specification to run H
 GLUE_MINSPEC_ERROR	Sorry! Hearthstone cannot run on this device as it does not meet the minimum specifications.\n\nTap SUPPORT to find out more.
 GLUE_TEXTURE_COMPRESSION_WARNING_TITLE	Texture Compression Warning	--TEMP-- This should be in Chinese
 GLUE_TEXTURE_COMPRESSION_WARNING	This build does not contain the correct texture format for this platform. Performance will not be optimal.	--TEMP-- This should be in Chinese
-GLUE_LOADINGSCREEN_PROGRESS_0	Checking version
-GLUE_LOADINGSCREEN_PROGRESS_1	We can download in the background
-GLUE_LOADINGSCREEN_PROGRESS_2	You can switch apps while we work!
-GLUE_LOADINGSCREEN_PROGRESS_3	Lighting the hearth
-GLUE_LOADINGSCREEN_PROGRESS_4	Unpacking crates
-GLUE_LOADINGSCREEN_PROGRESS_5	Rearranging furniture
-GLUE_LOADINGSCREEN_PROGRESS_6	This may take a while
-GLUE_LOADINGSCREEN_CHECKING_UNITY_1	Checking version
-GLUE_LOADINGSCREEN_CHECKING_UNITY_2	Looking for updates
-GLUE_LOADINGSCREEN_PROGRESS_UNITY_1	Please wait for download
-GLUE_LOADINGSCREEN_PROGRESS_UNITY_2	Downloading game data
-GLUE_LOADINGSCREEN_PROGRESS_UNITY_3	Unpacking crates
-GLUE_LOADINGSCREEN_PROGRESS_UNITY_4	Switching apps pauses update
-GLUE_LOADINGSCREEN_PROGRESS_UNITY_5	Keep us company, the work goes faster!
-GLUE_LOADINGSCREEN_PROGRESS_UNITY_6	Update required to continue play
-GLUE_LOADINGSCREEN_PROGRESS_UNITY_7	Download in progress
-GLUE_LOADINGSCREEN_PROGRESS_UNITY_8	This may take a while
+GLUE_LOADINGSCREEN_PROGRESS_FLAVOR_0	...Stoking the fire...
+GLUE_LOADINGSCREEN_PROGRESS_FLAVOR_1	...Pouring the ale...
+GLUE_LOADINGSCREEN_PROGRESS_FLAVOR_2	...Setting the board...
+GLUE_LOADINGSCREEN_PROGRESS_FLAVOR_3	...Harnessing the mana...
+GLUE_LOADINGSCREEN_PROGRESS_FLAVOR_4	...Shuffling the cards...
 GLUE_LOADINGSCREEN_PROGRESS_TEXT	{0} remaining @ {1}/s	0=remaining data size 1=downloading speed
 GLUE_LOADINGSCREEN_PROGRESS_IMPEDED	Connection is slow!
 GLUE_LOADINGSCREEN_SDCARD	Moving files to removable storage
@@ -2507,6 +2497,7 @@ GLUE_PVPDR_DECK_ERROR_TITLE	Deck Error
 GLUE_PVPDR_DECK_ERROR_DESC	There was an error loading your deck.  Please try again later.
 GLUE_PVPDR_DECK_TRAY_HEADER	Duels Deck
 GLUE_TOOLTIP_BUTTON_DUELS_HEADLINE	Duels
+GLUE_TOOLTIP_BUTTON_DUELS_ITEM	Duels
 GLUE_PVPDR_SESSION_END_ERROR	There was an error ending your Duels session. Please try again.
 GLUE_PVPDR_ENTRY_POPUP_LABEL_NORMAL	Casual Duel
 GLUE_PVPDR_ENTRY_POPUP_LABEL_HEROIC	Heroic Duel
@@ -3301,7 +3292,7 @@ GLUE_STORE_SALE_AVERAGE_PERCENT	{0}%+ Off	0=percent
 GLUE_STORE_NEW_PLAYERS_ONLY	New Players Only
 GLUE_TWIST_BACKER_TITLE	Twist Mode
 GLUE_TWIST_LOGIN_POPUP_DESCRIPTION	Try out our fresh new game mode with rotating rules and card sets!
-GLUE_TWIST_RULES_POPUP_BUTTON	View Rules
+GLUE_TWIST_RULES_POPUP_BUTTON	Twist Rules
 GLUE_TWIST_RULES_POPUP_TITLE	Twist Season Rules
 GLUE_TWIST_RULES_POPUP_SETS	Valid Sets
 GLUE_TWIST_NEW_DECK	If you make a Twist deck, you can only use it in Twist games.
@@ -3314,3 +3305,7 @@ GLUE_STORE_PACK_QUANTITY_BODY	Enter an amount between 1 and {0}.	0=max
 GLUE_STORE_PACK_QUANTITY_WARN_MAX	Maximum number of packs is 50
 GLUE_STORE_PACK_MUTABLE_NAME	1-{0} Packs	0=Max
 GLUE_STORE_PACK_MUTABLE_PRICE	{0}/Pack	0=Price
+GLUE_ANOMALIES_EVENT_TITLE	Anomalies Event
+GLUE_ANOMALIES_EVENT_SUBTITLE	Yogg-Saron has come to wreak havoc on the players of Hearthstone. Be prepared!
+GLUE_ANOMALIES_EVENT_RULES_ALL	Yogg-Saron has come to wreak havoc! \n<b>ALL games</b> during this event will start with a random effect.
+GLUE_ANOMALIES_EVENT_RULES_SOME	Yogg-Saron has come to wreak havoc! \nSome games during this event will start with a random effect.

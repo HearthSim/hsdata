@@ -208,6 +208,10 @@ GLUE_ADVENTURE_UNLOCK_PREVIOUSCHAPTER	Débloquez les chapitres dans l’ordre\no
 GLUE_ADVENTURE_UNLOCKALL	Tout débloquer	
 GLUE_ADVENTURE_WING_PURCHASED	Acheté	
 GLUE_ALERT_POPUP_HEADER	Message du jour	
+GLUE_ANOMALIES_EVENT_RULES_ALL	Yogg-Saron est bien décidé à semer le chaos ! \nPendant cet évènement, <b>toutes les parties</b> débuteront avec un effet aléatoire.	
+GLUE_ANOMALIES_EVENT_RULES_SOME	Yogg-Saron est bien décidé à semer le chaos ! \nPendant cet évènement, certaines parties débuteront avec un effet aléatoire.	
+GLUE_ANOMALIES_EVENT_SUBTITLE	Yogg-Saron est là pour semer la pagaille lors de vos parties. Attendez-le de pied ferme !	
+GLUE_ANOMALIES_EVENT_TITLE	Évènement Anomalies	
 GLUE_APP_RATING_POPUP_GREETING	Quel plaisir de vous voir ici !	
 GLUE_APP_RATING_POPUP_TEXT	Souhaitez-vous évaluer notre jeu ?	
 GLUE_APP_RATING_REQUEST_CANCEL	Non	
@@ -1666,8 +1670,6 @@ GLUE_LOADINGSCREEN_BUTTON_RETRY	Réessayer
 GLUE_LOADINGSCREEN_BUTTON_SETTINGS	Réglages	
 GLUE_LOADINGSCREEN_BUTTON_WAIT	Attendre une connexion Wi-Fi	
 GLUE_LOADINGSCREEN_BUTTON_YES	Oui	
-GLUE_LOADINGSCREEN_CHECKING_UNITY_1	Vérification de la version	
-GLUE_LOADINGSCREEN_CHECKING_UNITY_2	Recherche de mise à jour	
 GLUE_LOADINGSCREEN_DOWNLOAD_DONE	Téléchargement terminé	
 GLUE_LOADINGSCREEN_DOWNLOAD_DONE_TICKER	Hearthstone - Téléchargement terminé	
 GLUE_LOADINGSCREEN_DOWNLOAD_STOP	Téléchargement arrêté	
@@ -1693,23 +1695,13 @@ GLUE_LOADINGSCREEN_MISMATCHED_VERSION	Problème de version de données
 GLUE_LOADINGSCREEN_NO_NEW_BINARY_IN_STORE	Une mise à jour est nécessaire pour jouer à Hearthstone, mais elle n’est pas encore disponible dans la boutique. Veuillez réessayer plus tard.	
 GLUE_LOADINGSCREEN_NOTIFICATION_SETTINGS	Le jeu est en cours de téléchargement. Nous vous préviendrons lorsqu’il sera disponible !	
 GLUE_LOADINGSCREEN_OPEN_APP_STORE	Ouvrir	
-GLUE_LOADINGSCREEN_PROGRESS_0	Vérification de la version	
-GLUE_LOADINGSCREEN_PROGRESS_1	Peut être téléchargé en tâche de fond.	
-GLUE_LOADINGSCREEN_PROGRESS_2	Vous pouvez changer d’app pendant l’installation.	
-GLUE_LOADINGSCREEN_PROGRESS_3	Allumage des feux	
-GLUE_LOADINGSCREEN_PROGRESS_4	Ouverture des caisses	
-GLUE_LOADINGSCREEN_PROGRESS_5	Agencement des meubles	
-GLUE_LOADINGSCREEN_PROGRESS_6	Cela pourrait prendre quelques instants.	
+GLUE_LOADINGSCREEN_PROGRESS_FLAVOR_0	Alimentation du feu…	
+GLUE_LOADINGSCREEN_PROGRESS_FLAVOR_1	Distribution de la bière…	
+GLUE_LOADINGSCREEN_PROGRESS_FLAVOR_2	Installation du plateau…	
+GLUE_LOADINGSCREEN_PROGRESS_FLAVOR_3	Récolte du mana…	
+GLUE_LOADINGSCREEN_PROGRESS_FLAVOR_4	Mélange des cartes…	
 GLUE_LOADINGSCREEN_PROGRESS_IMPEDED	La connexion est lente.	
 GLUE_LOADINGSCREEN_PROGRESS_TEXT	{0} restants @ {1}/s	0=remaining data size 1=downloading speed
-GLUE_LOADINGSCREEN_PROGRESS_UNITY_1	Veuillez patienter	
-GLUE_LOADINGSCREEN_PROGRESS_UNITY_2	Téléchargement de données en cours	
-GLUE_LOADINGSCREEN_PROGRESS_UNITY_3	Ouverture des caisses	
-GLUE_LOADINGSCREEN_PROGRESS_UNITY_4	Quitter suspend la mise à jour	
-GLUE_LOADINGSCREEN_PROGRESS_UNITY_5	Tenez-nous compagnie, en attendant	
-GLUE_LOADINGSCREEN_PROGRESS_UNITY_6	Mise à jour nécessaire pour jouer	
-GLUE_LOADINGSCREEN_PROGRESS_UNITY_7	Téléchargement en cours	
-GLUE_LOADINGSCREEN_PROGRESS_UNITY_8	Peut nécessiter quelques instants	
 GLUE_LOADINGSCREEN_RESUME	Le téléchargement est en pause.	Resume?
 GLUE_LOADINGSCREEN_SDCARD	Copie des fichiers sur le dispositif de stockage externe	
 GLUE_LOADINGSCREEN_SDCARD_DIALOG	Voulez-vous conserver les données de Hearthstone sur votre carte SD ? Cette configuration pourrait ralentir l’exécution du jeu.	
@@ -2315,7 +2307,7 @@ GLUE_SHOP_SECTION_HEADER_TIERC	Paquets\nde cartes
 GLUE_SHOP_SECTION_HEADER_TIERD	Aventures	
 GLUE_SHOP_VC_CONVERSION_AUTO_CONVERT	Convertir automatiquement les orbes manquants	
 GLUE_SHOP_VC_CONVERSION_GET_MORE	En obtenir plus	
-GLUE_SHOP_WILD_CARDS_DISCLAIMER	• Les cartes obtenues peuvent être utilisées en mode Libre.	
+GLUE_SHOP_WILD_CARDS_DISCLAIMER	•  Les cartes obtenues peuvent être utilisées en mode Libre.	
 GLUE_SHOW_CUSTOM_DECKS	Decks personnalisés	
 GLUE_SHOW_PRECON_DECKS	Decks de base	
 GLUE_SIDEQUEST_PROGRESS_BANNER	Progression : {0}/{1}	0=Current Progress, 1=Completion Requirement
@@ -2987,20 +2979,22 @@ GLUE_TIP_BACON_13	Les serviteurs reviennent dans l’inventaire lorsqu’ils son
 GLUE_TIP_BACON_14	Si vous dépensez tout votre or pour améliorer votre taverne,\nvous risquez de perdre du terrain en début de combat.	
 GLUE_TIP_BACON_15	Si vous n’améliorez jamais votre taverne,\nvous risquez de perdre du terrain en fin de combat.	
 GLUE_TIP_BACON_16	Certains types de serviteurs sont plus puissants en début de partie,\nd’autres le sont davantage en fin de partie.	
-GLUE_TIP_BACON_17	S’il vous reste 1 pièce d’or, actualisez la taverne.\nSi un serviteur vous intéresse, gelez-le pour le prochain tour.	
+GLUE_TIP_BACON_17	S’il vous reste 1 pièce d’or, <b>actualisez</b> la taverne.\nSi un serviteur vous intéresse, <b>gelez</b>-le pour le prochain tour.	
 GLUE_TIP_BACON_18	Avec 8 combattants, rentrer dans le top 4 est un véritable succès !\nRemportez la première place pour décrocher la victoire !	
 GLUE_TIP_BACON_19	Tous les joueurs partagent le même inventaire de serviteurs.	
 GLUE_TIP_BACON_2	Chaque partie comprend un ensemble différent de types de serviteurs.\nParfois vous verrez des Murlocs, et parfois pas !	
 GLUE_TIP_BACON_20	Quand vous éliminez un adversaire, ses serviteurs retournent dans l’inventaire.	
 GLUE_TIP_BACON_21	En combat, le joueur ou la joueuse qui a le plus de serviteurs attaque en premier. À nombre égal, la première attaque est attribuée aléatoirement.	
-GLUE_TIP_BACON_22	Le maximum de dégâts que vous pouvez subir en une fois est limité à 15 points jusqu’à ce qu’un héros ou une héroïne meure ET que chaque adversaire ait obtenu 10 pièces d’or.	
+GLUE_TIP_BACON_22	Le maximum de dégâts que vous pouvez subir en une fois est limité à 15 points jusqu’à ce qu’il ne reste plus que les 4 meilleurs héros et héroïnes dans le salon.	
 GLUE_TIP_BACON_23	Les <b>Râles d’agonie</b> se déclenchent avant la <b>Réincarnation</b>.	
-GLUE_TIP_BACON_24	Les <b>anomalies</b> sont des règles spéciales qui s’appliquent à tout le salon. Elles peuvent affecter l’or, les caractéristiques des serviteurs, les points de vie des héros et héroïnes et d’autres choses encore !	
-GLUE_TIP_BACON_25	Certaines <b>anomalies</b> peuvent empêcher l’utilisation de serviteurs, types de serviteurs ou héros et héroïnes spécifiques lorsqu’elles sont actives.	
+GLUE_TIP_BACON_24	Lorsque vous améliorez la taverne aux niveaux 2, 4 ou 6, y ajoute un serviteur supplémentaire pour le reste de la partie.	
+GLUE_TIP_BACON_25	Les serviteurs déclenchent leurs effets de fin de tour dans l’ordre, de gauche à droite.	
+GLUE_TIP_BACON_26	Les <b>anomalies</b> sont des règles spéciales qui s’appliquent à tout le salon. Elles peuvent affecter l’or, les caractéristiques des serviteurs, les points de vie des héros et héroïnes et d’autres éléments !	
+GLUE_TIP_BACON_27	Certaines <b>anomalies</b> peuvent empêcher l’utilisation de serviteurs, types de serviteurs ou héros et héroïnes spécifiques lorsqu’elles sont actives.	
 GLUE_TIP_BACON_3	Quand vous gagnez un combat, votre héros ou héroïne et vos serviteurs\ninfligent des dégâts équivalents à leur niveau.	
 GLUE_TIP_BACON_4	L’amélioration de votre taverne vous coûte (1) pièce de moins à chaque tour.	
 GLUE_TIP_BACON_5	Il n’existe que sept copies des serviteurs de niveau 6.\nUne fois achetées, elles ne sont plus disponibles pour personne !	
-GLUE_TIP_BACON_6	Gelez des serviteurs pour les acheter au tour suivant ou ciblez-les à nouveau pour les dégeler.	
+GLUE_TIP_BACON_6	<b>Gelez</b> des serviteurs pour les acheter au tour suivant ou ciblez-les à nouveau pour les dégeler.	
 GLUE_TIP_BACON_7	Trois serviteurs dorés ne se combinent pas en un serviteur triple supérieur.	
 GLUE_TIP_BACON_8	Votre prochain adversaire est mis en évidence sur le tableau des scores. Préparez-vous.	
 GLUE_TIP_BACON_9	Quand il reste un nombre impair de joueurs ou joueuses, Kel’Thuzad ressuscite les serviteurs d’un adversaire vaincu et se joint au combat.	
@@ -3143,6 +3137,7 @@ GLUE_TOOLTIP_BUTTON_COLLECTION_DESC	Consultez vos cartes ou construisez un deck.
 GLUE_TOOLTIP_BUTTON_COLLECTION_HEADLINE	Ma collection	
 GLUE_TOOLTIP_BUTTON_DISABLED_DESC	Cette fonctionnalité a été temporairement désactivée.	
 GLUE_TOOLTIP_BUTTON_DUELS_HEADLINE	Duels	
+GLUE_TOOLTIP_BUTTON_DUELS_ITEM	Duels	
 GLUE_TOOLTIP_BUTTON_FORGE_HEADLINE	Arène	
 GLUE_TOOLTIP_BUTTON_FORGE_NOT_UNLOCKED	Non disponible tant que vous n’êtes pas niveau 10 avec toutes les classes.	
 GLUE_TOOLTIP_BUTTON_GAME_MODES_DESC	Essayez de nouvelles façons de jouer.	
@@ -3257,7 +3252,7 @@ GLUE_TWIST_BACKER_TITLE	Mode Imprévu
 GLUE_TWIST_LOGIN_POPUP_DESCRIPTION	Essayez notre nouveau mode de jeu avec des règles et des jeux de cartes changeants !	
 GLUE_TWIST_NEW_DECK	Si vous créez un deck imprévu, vous ne pourrez l’utiliser que pour des parties en mode Imprévu !	
 GLUE_TWIST_NEW_MODE	Ce mode vous réserve de nombreux imprévus, alors pensez à consulter les règles, car elles changent régulièrement !	
-GLUE_TWIST_RULES_POPUP_BUTTON	Voir les règles	
+GLUE_TWIST_RULES_POPUP_BUTTON	Règles du mode Imprévu	
 GLUE_TWIST_RULES_POPUP_SETS	Ensembles valides	
 GLUE_TWIST_RULES_POPUP_TITLE	Mode Imprévu : règles saisonnières	
 GLUE_TWIST_SEASON_START_HEADER	Commence dans	
