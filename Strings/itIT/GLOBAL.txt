@@ -17,13 +17,6 @@ GLOBAL_AADC_FRIENDSETTINGS_ENABLEHEADER	Abilita amici vicini
 GLOBAL_AADC_FRIENDSETTINGS_SETTINGSUPDATED	Amici vicini aggiornati	
 GLOBAL_AADC_FRIENDSETTINGS_TITLE	Impostazioni amici	
 GLOBAL_AADC_FRIENDSETTINGS_UPDATINGSETTINGS	Aggiornamento amici vicini	
-GLOBAL_AADC_LOCATIONSERVICES_DISABLEDESCRIPTION	Disabilitando i servizi di posizione, non potrai organizzare o partecipare ai Fireside Gathering.	
-GLOBAL_AADC_LOCATIONSERVICES_DISABLEHEADER	Disabilita servizi di posizione	
-GLOBAL_AADC_LOCATIONSERVICES_ENABLEDESCRIPTION	Abilitando i servizi di posizione, potrai trovare giocatori vicini e partecipare ai Fireside Gathering.	
-GLOBAL_AADC_LOCATIONSERVICES_ENABLEHEADER	Abilita servizi di posizione	
-GLOBAL_AADC_LOCATIONSERVICES_SETTINGSUPDATED	Impostazioni di posizione aggiornate	
-GLOBAL_AADC_LOCATIONSERVICES_TITLE	Impostazioni di posizione	
-GLOBAL_AADC_LOCATIONSERVICES_UPDATINGSETTINGS	Aggiornamento impostazioni posizione	
 GLOBAL_AADC_PARENTALLOCK_DESCRIPTION	Cambiando questa opzione, un tuo genitore o tutore legale dovrà aggiornare le impostazioni di privacy in Battle.net	
 GLOBAL_AADC_PRIVACYSETTINGSMENU_PRIVACYRIGHTS	Diritti alla privacy	
 GLOBAL_AADC_PRIVACYSETTINGSPOPUP_DEVICE_LOCATIONSETTINGS	Abilita impostazioni di posizione	
@@ -255,6 +248,9 @@ GLOBAL_CARD_SET_WILD_EVENT_SHORT	Evento Selvaggio
 GLOBAL_CARD_SET_WON	Caverne del Tempo	
 GLOBAL_CARD_SET_WON_SEARCHABLE_SHORTHAND_NAMES	culla delle caverne Questo è un elenco separato con spazio che indica tutte le chiavi di ricerca che possono essere utilizzate nella schermata di ricerca in base al testo della Collezione personale per limitare le carte mostrate a questo specifico set tramite il nome abbreviato (Nota: si può usare anche il nome completo per questa funzione). Nota: maiuscole/minuscole ignorate.	
 GLOBAL_CARD_SET_WON_SHORT	Caverne	
+GLOBAL_CARD_SET_WST	Resa dei Conti nelle Maleterre	
+GLOBAL_CARD_SET_WST_SEARCHABLE_SHORTHAND_NAMES	maleterre Questo è un elenco separato con spazio che indica tutte le chiavi di ricerca che possono essere utilizzate nella schermata di ricerca in base al testo della Collezione personale per limitare le carte mostrate a questo specifico set tramite il nome abbreviato (Nota: si può usare anche il nome completo per questa funzione). Nota: maiuscole/minuscole ignorate.	
+GLOBAL_CARD_SET_WST_SHORT	Maleterre	
 GLOBAL_CARD_SET_YOD	Il Risveglio di Galakrond	
 GLOBAL_CARD_SET_YOD_SHORT	Il Risveglio di Galakrond	
 GLOBAL_CARDTYPE_ANOMALY	Anomalia	
@@ -440,15 +436,6 @@ GLOBAL_FEATURE_DISABLED_MESSAGE_PLAY	Siamo spiacenti, al momento l'Hearthstone T
 GLOBAL_FEATURE_DISABLED_MESSAGE_PRACTICE	Spiacenti, la modalità Allenamento non è al momento disponibile.	
 GLOBAL_FEATURE_DISABLED_TITLE	Disattivato	
 GLOBAL_FINISH	Fine	
-GLOBAL_FIRESIDE_BRAWL	Rissa Fireside	
-GLOBAL_FIRESIDE_GATHERING	Fireside Gathering	
-GLOBAL_FIRESIDE_GATHERING_CHOOSE_HEADER	Scegli un'opzione	
-GLOBAL_FIRESIDE_GATHERING_DEFAULT_TAVERN_NAME	Fireside Gathering	
-GLOBAL_FIRESIDE_GATHERING_FIRST_TIME_TAVERN_NAME	Locanda di {0}	0=innkeeper battle tag
-GLOBAL_FIRESIDE_GATHERING_PATRON_LIST_FOOTER_TEXT_LARGE_SCALE	Più di {0} giocatori a questo Gathering.	This is shown on the Friends List button whenever player is checked into a large scale Fireside Gathering (one that doesn't show the full patron list). the design decision was to show 99+ regardless of how many people are actually checked in.
-GLOBAL_FIRESIDE_GATHERING_PATRON_LIST_FOOTER_TEXT_SOFT_LIMIT	{0} giocatori a questo Gathering.	0=The number of patrons up to 99.
-GLOBAL_FIRESIDE_GATHERING_REUNPACK	Modifica configurazione	
-GLOBAL_FIRESIDE_GATHERING_SOCIAL_BUTTON_LARGE_SCALE_LABEL	<size=32>99<size=26>+</size></size>	This is shown on the Friends List button whenever player is checked into a large scale Fireside Gathering (one that doesn't show the full patron list). the design decision was to show 99+ regardless of how many people are actually checked in. NOTE: the size tag was used in enUS to shrink the + sign, to make sure 99+ fit into the small button.
 GLOBAL_FORGE_END_DONE	Fine	
 GLOBAL_FORGE_END_JOKE_0	Davvero sbalorditivo!	
 GLOBAL_FORGE_END_JOKE_1	Non ho parole!	
@@ -470,7 +457,6 @@ GLOBAL_FRIEND_CHALLENGE_BODY1_TWIST	Hai ricevuto una sfida\nin formato Imprevedi
 GLOBAL_FRIEND_CHALLENGE_BODY1_WILD	Hai ricevuto una sfida\nin formato Selvaggio da:	
 GLOBAL_FRIEND_CHALLENGE_BODY2	Vuoi accettarla?	
 GLOBAL_FRIEND_CHALLENGE_DECLINE	Rifiuta	
-GLOBAL_FRIEND_CHALLENGE_FIRESIDE_BRAWL_BODY1	Hai ricevuto un invito per una Rissa Fireside da:	
 GLOBAL_FRIEND_CHALLENGE_HEADER	Sfida!	
 GLOBAL_FRIEND_CHALLENGE_NEARBY_PLAYER_NOTE	Puoi disattivare le sfide dei giocatori vicini dall'elenco amici.	
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_CANCELED	{0} ha annullato la sfida.	0=friend name
@@ -1545,10 +1531,12 @@ GLOBAL_TWIST_SEASON_DESCRIPTION_116	Prova questo nuovo formato che cambia tutto:
 GLOBAL_TWIST_SEASON_DESCRIPTION_117	Prova questo nuovo formato che cambia tutto: componi un mazzo usando solo carte di classe dai tempi di Ceneri delle Terre Esterne!	
 GLOBAL_TWIST_SEASON_DESCRIPTION_119	Addentrati nelle Caverne del Tempo e costruisci un mazzo utilizzando tutte le espansioni da Eredità a Bassifondi di Meccania.	
 GLOBAL_TWIST_SEASON_DESCRIPTION_120	Questa volta, costruisci un mazzo con 30 - 40 carte da Retaggio fino a I bassifondi di Meccania e Caverne del Tempo. Tutti i giocatori inizieranno con Salute pari alla dimensione del loro mazzo!	
+GLOBAL_TWIST_SEASON_DESCRIPTION_121	Viaggia indietro nel tempo fino all'antico passato in cui i dinosauri dominavano! Un'Goro è di nuovo qui con alcuni aggiornamenti, aggiungendosi agli altri set del formato Meraviglie.	
 GLOBAL_TWIST_SEASON_TITLE_116	Una nuova era	
 GLOBAL_TWIST_SEASON_TITLE_117	Una nuova era	
 GLOBAL_TWIST_SEASON_TITLE_119	Meraviglie	
 GLOBAL_TWIST_SEASON_TITLE_120	Meraviglie XL	
+GLOBAL_TWIST_SEASON_TITLE_121	Ritorno a Un'Goro	
 GLOBAL_UPDATE	Aggiorna	
 GLOBAL_VERSION	Versione	
 GLOBAL_WAIT_FOR_OPPONENT_RECONNECT	In attesa della riconnessione dell'avversario... ({0}m{1}s)\nPotrebbe essere necessario accedere al menu di gioco per terminare la partita.	

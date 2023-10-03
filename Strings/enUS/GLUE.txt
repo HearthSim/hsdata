@@ -140,7 +140,6 @@ GLUE_COLLECTION_CUSTOM_DECKNAME_TEMPLATE	Custom {0}{1}	0=class name, 1=increment
 GLUE_COLLECTION_CUSTOM_DECKNAME_SHORT	{0}{1}	0=class name, 1=incrementer
 GLUE_COLLECTION_CUSTOM_TEAMNAME_TEMPLATE	Party {0}	0=incrementer
 GLUE_COLLECTION_TAVERN_BRAWL_DECKNAME	Brawl Deck
-GLUE_COLLECTION_FSG_BRAWL_DECKNAME	Fireside Deck
 GLUE_COLLECTION_DUEL_DECKNAME	Duels Deck
 GLUE_COLLECTION_LETTUCE_PVE_TEAMNAME	PvE Party
 GLUE_COLLECTION_LETTUCE_LOCK_TEXT	In your Party
@@ -534,6 +533,9 @@ GLUE_TUTORIAL_VIDEO_BANNER_TRADITIONAL	Collect cards, build decks, and fight to 
 GLUE_TUTORIAL_SKIP_TRADITIONAL	Are you sure you want to skip the tutorial? You can replay it from the (?) Help menu.
 GLUE_TUTORIAL_VIDEO_BANNER_BATTLEGROUNDS	Build your warband and fight for the crown in this 8-player auto-battler!
 GLUE_TUTORIAL_VIDEO_BANNER_MERCENARIES	Build and level up a party of Mercenaries as you battle for bounties and glory!
+GLUE_TUTORIAL_INTERSTITIAL_HEADER	Your Journey Begins
+GLUE_TUTORIAL_INTERSTITIAL_REWARD	Complete the tutorial to unlock the Mage Class and starter deck!
+GLUE_TUTORIAL_INTERSTITIAL_HERONAME	Jaina
 GLUE_MOBILE_TOOLTIP_BUTTON_STORE_DESC	Buy items with gold, Runestones, or money.
 GLUE_TOOLTIP_VIRTUAL_CURRENCY_DESCRIPTION	Spend Runestones to buy Arcane Orbs, heroes, adventures, or Tavern tickets.
 GLUE_TOOLTIP_VIRTUAL_CURRENCY_ROW_DESCRIPTION	Runestones can be exchanged for packs, bundles, passes, tickets, cosmetic items, and more.
@@ -599,6 +601,14 @@ GLUE_PACK_OPENING_HEADER	Open Packs
 GLUE_PACK_OPENING_ALL_CLASSES	All Classes
 GLUE_PACK_OPENING_BOOSTER_COUNT	{0}	0=number of owned boosters
 GLUE_PACK_OPENING_TOOLTIP	카드 팩을 개봉함으로써, 귀하는 카드 팩의 청약철회가 불가하다는 사실을 인지하고 이에 동의합니다.	only displayed for Korean customers, should always be in Korean
+GLUE_MASS_PACK_OPEN_PACKS_OPENED	{0} Packs Opened
+GLUE_MASS_PACK_OPEN_TOOLTIP_PC	Click and hold to open multiple packs at once!
+GLUE_MASS_PACK_OPEN_TOOLTIP_MOBILE	Tap and hold to open multiple packs at once!
+GLUE_MASS_PACK_OPEN_SUMMARY	Summary
+GLUE_MASS_PACK_OPEN_HIGHLIGHTS	Highlights
+GLUE_MASS_PACK_OPEN_CONTINUE	Continue
+GLUE_MASS_PACK_OPEN_REVEAL_ALL	Reveal All
+GLUE_MASS_PACK_OPEN_MULTI_CLASS	Multi-Class
 GLUE_CHOOSE	Choose
 GLUE_CREATE_DECK	Create Deck
 GLUE_CREATE_STANDARD_DECK	Create Standard Deck
@@ -1716,76 +1726,7 @@ GLUE_CLOUD_STORAGE_CONTEXT_HEADER	Greetings!
 GLUE_CLOUD_STORAGE_CONTEXT_BODY_01	You are about to be prompted for access to your Google Drive account.\n\nIf you allow access, we’ll record your game progress to Google Drive so you can recover it in the event you lose access to your device.
 GLUE_CLOUD_STORAGE_CONTEXT_BODY_02	You are about to be prompted for access to your Google Drive account.\n\nHearthstone would like to check if you have any game progress stored on your Google Drive.
 
-GLUE_FSG_BRAWL_PLAY_TITLE	Ready to brawl?
-GLUE_FSG_BRAWL_PLAY_SUBTITLE	Go to the friends list and challenge someone at your Fireside Gathering!
-GLUE_FSG_NEARBY_TOOLTIP	A Fireside Gathering is happening!
-GLUE_FSG_PATRON_COUNT	{0} |4(Patron,Patrons)
-GLUE_FSG_STARTING_SECONDS	Starting in {0} |4(second,seconds)
-GLUE_FSG_STARTING_MINUTES	Starting in {0} |4(minute,minutes)
-GLUE_FSG_STARTING_HOURS	Starting in {0} |4(hour,hours)
-GLUE_FSG_STARTING_DAYS	Starting in {0} |4(day,days)
-GLUE_FSG_STARTING_WEEKS	Starting in {0} weeks
-GLUE_FSG_STARTING_OVER_1_MONTH	Starting in > 1 month
-GLUE_FSG_HAPPENING_HERE_TEXT	A Fireside Gathering is happening here!\n Would you like to join?
-GLUE_FSG_NOT_NOW	Not now
-GLUE_FSG_FOUND	Fireside Gathering found!
-GLUE_FIRESIDE_GATHERING_SEARCHING	Searching...
-GLUE_FSG_NOT_FOUND	Not found
-GLUE_FSG_NOT_FOUND_BODY	Oops, looks like there's no Fireside Gathering at this location. Would you like to find one near you?
-GLUE_FIRESIDE_GATHERING_TITLE	Fireside Gatherings
-GLUE_FIRESIDE_GATHERING_BETA_TITLE	Fireside Gatherings <color=#c01c1cff><size=23>BETA</size></color>	Here we can use size and color tags and when necessary, add the BETA label while we are doing slow rollout of the feature.
-GLUE_FIRESIDE_GATHERING_TURN_ON_GPS_TITLE	Turn on Location Services
-GLUE_FIRESIDE_GATHERING_TURN_ON_GPS_BODY	Activating location services will help you find Fireside Gatherings. Activate in the next window.
-GLUE_FIRESIDE_GATHERING_UPDATING_LOCATION	Updating my location
-GLUE_FIRESIDE_GATHERING_UPDATING_LOCATION_SUCCESS	Location updated
-GLUE_FIRESIDE_GATHERING_UPDATING_LOCATION_FAILED_TITLE	Unable to locate
-GLUE_FIRESIDE_GATHERING_UPDATING_LOCATION_FAILED_BODY	Please enable location services in your device settings to scan.
-GLUE_FIRESIDE_GATHERING_TURN_ON_WIFI_TITLE	Turn on Wi-Fi
-GLUE_FIRESIDE_GATHERING_TURN_ON_WIFI_BODY	Activating Wi-Fi will help you find Fireside Gatherings. Activate in the next window.
-GLUE_FIRESIDE_GATHERING_CONNECT_TO_WIFI_TITLE	Please connect to Wi-Fi
-GLUE_FIRESIDE_GATHERING_CONNECT_TO_WIFI_BODY	Connect to the Wi-Fi network associated with this Fireside Gathering. Or skip this step if there's no Wi-Fi available.
-GLUE_FIRESIDE_GATHERING_CONNECT_TO_WIFI_SSID_CONFIRM_TITLE	You are connected to:
-GLUE_FIRESIDE_GATHERING_CONNECT_TO_WIFI_SSID_CONFIRM_BODY	Not this one? Connect your device to a different network before proceeding.
-GLUE_FIRESIDE_GATHERING_CONNECT_TO_WIFI_NO_WIFI_BUTTON	No Wi-Fi
-GLUE_FIRESIDE_GATHERING_CONNECT_TO_WIFI_USE_WIFI_BUTTON	Next
-GLUE_FIRESIDE_GATHERING_WIFI_ACCESS_POINT_SEARCH_TITLE	Access point found
-GLUE_FIRESIDE_GATHERING_WIFI_ACCESS_POINTS_SEARCH_TITLE	Access points found
-GLUE_FIRESIDE_GATHERING_WIFI_ACCESS_POINT_SEARCH_BODY	Walk around to collect more access points.
-GLUE_FIRESIDE_GATHERING_INKEEPER_SETUP_FAILED_TITLE	Setup failed
-GLUE_FIRESIDE_GATHERING_INKEEPER_SETUP_FAILED_BODY	Make sure you have location services enabled or you are connected to Wi-Fi. Then try again from your friends list.
-GLUE_FIRESIDE_GATHERING_INKEEPER_SIGN_SUCCESS_NOTE	Your Tavern is open!
-GLUE_FIRESIDE_GATHERING_FIND_EVENT_BODY	Get together and play Hearthstone with others at an event near you. Hearthstone will access your location and connected Wi-Fi networks to find and check you in to Fireside Gatherings.
-GLUE_FIRESIDE_GATHERING_PLAY_REGULAR_BRAWL	Play the regular Brawl games
-GLUE_FIRESIDE_GATHERING_PLAY_FSG_BRAWL	A special Brawl only available at Fireside Gatherings
-GLUE_FIRESIDE_GATHERING_BRAWL	Fireside Brawl
-GLUE_FIRESIDE_GATHERING_INKEEPER_SETUP	Unpacking Crates...
-GLUE_FIRESIDE_GATHERING_BRAWL_UNAVAILABLE	Fireside Brawl Unavailable
-GLUE_FIRESIDE_GATHERING_INNKEEPER_CLICK_TO_SETUP	Click here to setup!
-GLUE_FIRESIDE_GATHERING_INNKEEPER_CLICK_TO_SETUP_PHONE	Tap here to setup!
-GLUE_FIRESIDE_GATHERING_INNKEEPER_TURN_ON_GPS_BODY	Share your location in the next window to help others discover and join your Fireside Gathering!
-GLUE_FIRESIDE_GATHERING_INNKEEPER_TURN_ON_WIFI_BODY	Turn on Wi-Fi in the next window to help others discover and join your Fireside Gathering!
-GLUE_FIRESIDE_GATHERING_INNKEEPER_CONNECT_TO_WIFI_SSID_CONFIRM_TITLE	Use this connection for your Fireside Gathering?
-GLUE_FIRESIDE_GATHERING_INKEEPER_CONNECT_TO_WIFI_BODY	Connect to the Wi-Fi network you would like to use for this Fireside Gathering. Or skip this step if there's no Wi-Fi available.
-GLUE_FIRESIDE_GATHERING_INNKEEPER_SETUP_BODY	Hello Innkeeper of {0}! Are you ready to host your Fireside Gathering?
 GLUE_BRAWL_PATRON	Brawl Patron
-GLUE_FIRESIDE_GATHERING_ADD_MORE_ACCESS_POINTS	Add More
-GLUE_FIRESIDE_GATHERING_WIFI_SUCCESS	Got multiple wireless access points? Include them and improve your Wi-Fi coverage by clicking "Add more".
-GLUE_FIRESIDE_GATHERING_WIFI_SUCCESS_PHONE	Got multiple wireless access points? Include them and improve your Wi-Fi coverage by tapping "Add more".
-GLUE_FIRESIDE_GATHERING_NO_WIFI_SUCCESS	Congratulations! Your Tavern is complete. You can always update it in the friends list to add Wi-Fi access too!
-GLUE_FIRESIDE_GATHERING_WIFI_SETUP_COMPLETE	Setup Complete!
-GLUE_FIRESIDE_GATHERING_INNKEEPER_CLICK_TO_SETUP_TITLE	Your Upcoming Gathering
-GLUE_FIRESIDE_GATHERING_BRAWLS_BUTTON	Fireside Brawls
-GLUE_FIRESIDE_GATHERING_DUELS_BUTTON	Friendly Duels
-GLUE_FIRESIDE_GATHERING_DESCRIPTION_TEXT	Welcome!\nIt’s time to meet a new friend and play!
-GLUE_FIRESIDE_GATHERING_OFFICIAL_FIRESIDE_DESCRIPTION	This is the official fireside brawl on rotation.
-GLUE_FIRESIDE_GATHERING_CHOOSE_OPPONENT	Choose Opponent
-GLUE_FIRESIDE_GATHERING_FOOTER_EMPTY_FIRST_LINE	Looks like no one is up for a challenge
-GLUE_FIRESIDE_GATHERING_FOOTER_EMPTY_SECOND_LINE	Only patrons ready to play and not already in a game show up here. Check back later!
-GLUE_FIRESIDE_GATHERING_FOOTER_PARTIAL_FIRST_LINE	Someone missing?
-GLUE_FIRESIDE_GATHERING_FOOTER_PARTIAL_SECOND_LINE	This list shows players who are ready to play and are not already matched. Check back later!
-GLUE_FIRESIDE_GATHERING_OPPONENT_OFFLINE	This patron is no longer online.
-GLUE_FIRESIDE_GATHERING_OPPONENT_UNAVAILABLE	This patron is no longer available.
-GLUE_FIRESIDE_GATHERING_INNKEEPER_LOBBY_ARRIVE	Welcome to our Fireside Gathering!
 GLUE_NEARBY_PLAYERS_ENABLE	Enable to see nearby players and let them see you!
 GLUE_PLAYERS_NEARBY	Players Nearby
 GLUE_NEARBY_PLAYERS_DISABLE	Disable to hide yourself from nearby players. (You won't be able to see them either!)
@@ -1795,14 +1736,6 @@ GLUE_PUSH_NOTIFICATION_CONTEXT_BODY	Want us to notify you when we release someth
 GLUE_PUSH_NOTIFICATION_CONTEXT_CONFIRM	Definitely!
 GLUE_PUSH_NOTIFICATION_CONTEXT_CANCEL	Nah
 GLUE_PUSH_NOTIFICATION_EXTENDED_CONTEXT_BODY	It looks like you have notifications for Hearthstone disabled.  Go to your device settings and allow notifications for the app!
-GLUE_FIRESIDE_GATHERING_INNKEEPER_TOOLTIP	Set up here when you're ready!
-GLUE_FIRESIDE_GATHERING_SEARCH_FAILURE_TITLE	No Fireside Gatherings here
-GLUE_FIRESIDE_GATHERING_SEARCH_FAILURE_BODY	Click "Learn More" to look for Fireside Gatherings near you, or to start one of your own!
-GLUE_FIRESIDE_GATHERING_SEARCH_FAILURE_BODY_PHONE	Tap "Learn More" to look for Fireside Gatherings near you, or to start one of your own!
-GLUE_FIRESIDE_BRAWL_FLAG	Fireside
-GLUE_FIRESIDE_GATHERING_NETWORK_CONFIRM_TITLE	We will setup this Fireside Gathering with your current Wi-Fi connection
-GLUE_FIRESIDE_GATHERING_NETWORK_CONFIRM_BODY	Please make sure you are connected to the right Wi-Fi network before proceeding
-GLUE_FIRESIDE_GATHERING_RETURN_TO_SCENE_HERE	Return to Fireside from here
 GLUE_COLLECTION_NO_RESULTS_IN_SELECTED_COST	No results in selected cost
 GLUE_COLLECTION_NO_RESULTS_IN_SELECTED_COST_HINT	Results found with different cost
 GLUE_COLLECTION_NO_RESULTS_IN_CURRENT_SET	No results in current set
@@ -1832,8 +1765,6 @@ GLUE_DEVICE_OPENGLVERSION_NEXT_VERSION_WARNING	Your device's OpenGL version is n
 GLUE_2X_GOLD_EVENT_BANNER_HEADLINE	Gold Bonus!
 GLUE_FIRE_FESTIVAL_BANNER_TITLE	Welcome to the Fire Festival!
 GLUE_FIRE_FESTIVAL_DOUBLE_GOLD_BAG_TEXT	x2
-GLUE_FIRESIDE_GATHERING_SCAN_NO_GPS_OR_WIFI	This feature is only available to devices with GPS or Wi-Fi capability.
-GLUE_FIRESIDE_GATHERING_APPEAR_ONLINE_PROMPT	You cannot join a Fireside Gathering while appearing offline.\nWould you like to go online?
 GLUE_OUTSTANDING_DRAFT_TICKET_DIALOG_HEADER	Welcome to The Arena!
 GLUE_OUTSTANDING_DRAFT_TICKET_DIALOG_DESC	You have |4(an extra,extra) Tavern |4(ticket,tickets)! Don't worry about the usual entrance fee this time.
 GLUE_COLLECTION_MANAGER_ON_ADD_FULL_DECK_ERROR_TEXT	Your deck is full. Remove a card first!
@@ -1862,7 +1793,6 @@ GLUE_FRIEND_LIST_REFER_FRIENDS	Recruit Friends
 GLUE_FRIEND_LIST_CHALLENGE_FRIEND_HEADER	Challenge Friend to...
 GLUE_FRIEND_LIST_CHALLENGE_STRANGER_HEADER	Challenge Player to...
 GLUE_FRIEND_LIST_CHALLENGE_BATTLETAG_HEADER	Challenge {0} to...	0 = Battletag ID
-GLUE_FRIEND_LIST_FIND_FSG	Find a Gathering
 GLUE_STORE_CURRENCY_CHANGED_HEADER	Currency Update
 GLUE_STORE_CURRENCY_CHANGED_DESC	We’ve changed the Blizzard shop currency being used in your country. Additional tax adjustments may apply.
 GLUE_ADVENTURE_DUNGEON_CRAWL_BOSS_WINS_AS_CLASS	Bosses Defeated as {0}	0 = Class name
@@ -2632,6 +2562,7 @@ GLUE_PROGRESSION_ACHIEVEMENT_INSPECT_TITLETEXT	Complete to earn
 GLUE_PROGRESSION_REWARD_TRACK_XP_PROGRESS	{0}/{1}
 GLUE_PROGRESSION_ACHIEVEMENT_TOAST	<color=#FFFFFF>Achieved</color> <color=#FFD451>{0}</color>
 GLUE_PROGRESSION_ACHIEVEMENT_TOAST_TIER	<color=#FFFFFF>Achieved</color> <color=#FFD451>{0} (Tier {1})</color>
+GLUE_PROGRESSION_ACHIEVEMENT_TOAST_AND_X_MORE	<color=#FFFFFF>...and {0} more!</color>
 GLUE_PROGRESSION_QUEST_DAILY	Daily
 GLUE_PROGRESSION_QUEST_WEEKLY	Weekly
 GLUE_PROGRESSION_QUEST_EVENT	Event

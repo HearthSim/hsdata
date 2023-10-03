@@ -17,13 +17,6 @@ GLOBAL_AADC_FRIENDSETTINGS_ENABLEHEADER	Activar amigos cercanos
 GLOBAL_AADC_FRIENDSETTINGS_SETTINGSUPDATED	Amigos cercanos actualizados	
 GLOBAL_AADC_FRIENDSETTINGS_TITLE	Ajustes de amigos	
 GLOBAL_AADC_FRIENDSETTINGS_UPDATINGSETTINGS	Actualizando amigos cercanos	
-GLOBAL_AADC_LOCATIONSERVICES_DISABLEDESCRIPTION	Si desactivas los servicios de ubicación, no podrás iniciar eventos Fireside Gathering ni participar en ellos.	
-GLOBAL_AADC_LOCATIONSERVICES_DISABLEHEADER	Desactivar servicios de ubicación	
-GLOBAL_AADC_LOCATIONSERVICES_ENABLEDESCRIPTION	Si activas los servicios de ubicación, podrás encontrar jugadores cercanos y acceder a eventos Fireside Gathering.	
-GLOBAL_AADC_LOCATIONSERVICES_ENABLEHEADER	Activar servicios de ubicación	
-GLOBAL_AADC_LOCATIONSERVICES_SETTINGSUPDATED	Ajustes de ubicación actualizados	
-GLOBAL_AADC_LOCATIONSERVICES_TITLE	Ajustes de ubicación	
-GLOBAL_AADC_LOCATIONSERVICES_UPDATINGSETTINGS	Actualizando ajustes de ubicación	
 GLOBAL_AADC_PARENTALLOCK_DESCRIPTION	Para cambiar esta opción es necesario que un progenitor o tutor actualice tus ajustes de privacidad en Battle.net.	
 GLOBAL_AADC_PRIVACYSETTINGSMENU_PRIVACYRIGHTS	Derechos de privacidad	
 GLOBAL_AADC_PRIVACYSETTINGSPOPUP_DEVICE_LOCATIONSETTINGS	Activar ajustes de ubicación	
@@ -255,6 +248,9 @@ GLOBAL_CARD_SET_WILD_EVENT_SHORT	Evento salvaje
 GLOBAL_CARD_SET_WON	Cavernas del Tiempo	
 GLOBAL_CARD_SET_WON_SEARCHABLE_SHORTHAND_NAMES	cavernas cdt Esta es una lista separada por espacios que indica que todas las palabras clave de búsqueda permitidas pueden ser usadas en la función de búsqueda de la pantalla de Administrador de colección para reducir el número de cartas de este kit de cartas específico a través del uso de nombres abreviados (nota: el nombre completo ya mencionado también puede ser utilizado para esta función). Adicionalmente: se ignora si las letras son mayúsculas o minúsculas.	
 GLOBAL_CARD_SET_WON_SHORT	Cavernas	
+GLOBAL_CARD_SET_WST	Duelo en las Tierras Inhóspitas	
+GLOBAL_CARD_SET_WST_SEARCHABLE_SHORTHAND_NAMES	tierras inhóspitas Esto es una lista separada por espacios que indica todas las palabras clave de búsqueda permitidas que pueden utilizarse en la función de búsqueda de texto de la pantalla del gestor de colecciones para limitar las cartas a este conjunto mediante nombres abreviados (nota: también se utiliza el nombre completo anterior para esta función). Las mayúsculas o minúsculas se ignoran.	
+GLOBAL_CARD_SET_WST_SHORT	Tierras Inhóspitas	
 GLOBAL_CARD_SET_YOD	El Despertar de Galakrond	
 GLOBAL_CARD_SET_YOD_SHORT	El Despertar de Galakrond	
 GLOBAL_CARDTYPE_ANOMALY	Anomalía	
@@ -440,15 +436,6 @@ GLOBAL_FEATURE_DISABLED_MESSAGE_PLAY	Lo sentimos, el modo tradicional de Hearths
 GLOBAL_FEATURE_DISABLED_MESSAGE_PRACTICE	Lo sentimos, el modo Práctica no está activo en este momento.	
 GLOBAL_FEATURE_DISABLED_TITLE	Desactivado	
 GLOBAL_FINISH	Acabar	
-GLOBAL_FIRESIDE_BRAWL	Pelea Fireside	
-GLOBAL_FIRESIDE_GATHERING	Fireside Gathering	
-GLOBAL_FIRESIDE_GATHERING_CHOOSE_HEADER	Elige una opción	
-GLOBAL_FIRESIDE_GATHERING_DEFAULT_TAVERN_NAME	Fireside Gathering	
-GLOBAL_FIRESIDE_GATHERING_FIRST_TIME_TAVERN_NAME	Taberna de {0}	0=innkeeper battle tag
-GLOBAL_FIRESIDE_GATHERING_PATRON_LIST_FOOTER_TEXT_LARGE_SCALE	Jugadores en este Fireside Gathering: {0}+	This is shown on the Friends List button whenever player is checked into a large scale Fireside Gathering (one that doesn't show the full patron list). the design decision was to show 99+ regardless of how many people are actually checked in.
-GLOBAL_FIRESIDE_GATHERING_PATRON_LIST_FOOTER_TEXT_SOFT_LIMIT	Jugadores en este Fireside Gathering: {0}	0=The number of patrons up to 99.
-GLOBAL_FIRESIDE_GATHERING_REUNPACK	Actualizar configuración	
-GLOBAL_FIRESIDE_GATHERING_SOCIAL_BUTTON_LARGE_SCALE_LABEL	<size=32>99<size=26>+</size></size>	This is shown on the Friends List button whenever player is checked into a large scale Fireside Gathering (one that doesn't show the full patron list). the design decision was to show 99+ regardless of how many people are actually checked in. NOTE: the size tag was used in enUS to shrink the + sign, to make sure 99+ fit into the small button.
 GLOBAL_FORGE_END_DONE	Listo	
 GLOBAL_FORGE_END_JOKE_0	¡Ha sido sublime!	
 GLOBAL_FORGE_END_JOKE_1	¡No tengo palabras!	
@@ -470,7 +457,6 @@ GLOBAL_FRIEND_CHALLENGE_BODY1_TWIST	Has recibido un desafío para\nuna partida e
 GLOBAL_FRIEND_CHALLENGE_BODY1_WILD	Has recibido un desafío para una partida salvaje de:	
 GLOBAL_FRIEND_CHALLENGE_BODY2	¿Aceptas?	
 GLOBAL_FRIEND_CHALLENGE_DECLINE	Rechazar	
-GLOBAL_FRIEND_CHALLENGE_FIRESIDE_BRAWL_BODY1	Alguien te ha desafiado a una pelea Fireside:	
 GLOBAL_FRIEND_CHALLENGE_HEADER	Desafío	
 GLOBAL_FRIEND_CHALLENGE_NEARBY_PLAYER_NOTE	Puedes desactivar las invitaciones de jugadores cercanos en la lista de amigos.	
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_CANCELED	{0} ha cancelado el desafío.	0=friend name
@@ -1545,10 +1531,12 @@ GLOBAL_TWIST_SEASON_DESCRIPTION_116	Dale un giro a tus partidas con este nuevo f
 GLOBAL_TWIST_SEASON_DESCRIPTION_117	Dale un giro a tus partidas con este nuevo formato; ¡crea un mazo usando solo cartas de clase desde Cenizas de Terrallende en adelante!	
 GLOBAL_TWIST_SEASON_DESCRIPTION_119	Adéntrate en las Cavernas del Tiempo y construye un mazo usando todas las expansiones desde el conjunto Antiguo hasta Mafias de Gadgetzan.	
 GLOBAL_TWIST_SEASON_DESCRIPTION_120	Esta vez, crea un mazo de entre 30 y 40 cartas del conjunto Legado hasta Mafias de Gadgetzan más Las Cavernas del Tiempo. ¡Y todos los jugadores comienzan con p. de salud equivalentes al número de cartas de su mazo!	
+GLOBAL_TWIST_SEASON_DESCRIPTION_121	¡Viaja al pasado, cuando los dinosaurios vagaban por el mundo! Un'Goro vuelve con nuevas actualizaciones y se ha unido al resto de conjuntos del formato Maravillas.	
 GLOBAL_TWIST_SEASON_TITLE_116	Nueva era	
 GLOBAL_TWIST_SEASON_TITLE_117	Nueva era	
 GLOBAL_TWIST_SEASON_TITLE_119	Maravillas	
 GLOBAL_TWIST_SEASON_TITLE_120	Maravillas XL	
+GLOBAL_TWIST_SEASON_TITLE_121	Regreso a Un'Goro	
 GLOBAL_UPDATE	Actualizar	
 GLOBAL_VERSION	Versión	
 GLOBAL_WAIT_FOR_OPPONENT_RECONNECT	Esperando a que el oponente restaure la conexión... ({0} min {1} s)\nPuedes ir al menú del juego para finalizar la partida.	

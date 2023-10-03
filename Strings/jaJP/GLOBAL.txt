@@ -17,13 +17,6 @@ GLOBAL_AADC_FRIENDSETTINGS_ENABLEHEADER	近くの友達探しを有効にする
 GLOBAL_AADC_FRIENDSETTINGS_SETTINGSUPDATED	近くの友達探し設定を更新したぞ	
 GLOBAL_AADC_FRIENDSETTINGS_TITLE	友達設定	
 GLOBAL_AADC_FRIENDSETTINGS_UPDATINGSETTINGS	近くの友達探し設定を更新中	
-GLOBAL_AADC_LOCATIONSERVICES_DISABLEDESCRIPTION	位置情報サービスを無効にすると、「炉端の集い」の開始や参加が制限されるぞ。	
-GLOBAL_AADC_LOCATIONSERVICES_DISABLEHEADER	位置情報サービス無効化	
-GLOBAL_AADC_LOCATIONSERVICES_ENABLEDESCRIPTION	位置情報サービスを有効にすると、近くのプレイヤーを見つけやすくなり、「炉端の集い」に参加できるぞ。	
-GLOBAL_AADC_LOCATIONSERVICES_ENABLEHEADER	位置情報サービス有効化	
-GLOBAL_AADC_LOCATIONSERVICES_SETTINGSUPDATED	位置情報設定を更新したぞ	
-GLOBAL_AADC_LOCATIONSERVICES_TITLE	位置情報設定	
-GLOBAL_AADC_LOCATIONSERVICES_UPDATINGSETTINGS	位置情報設定を更新中	
 GLOBAL_AADC_PARENTALLOCK_DESCRIPTION	このオプションを変更するには、保護者の方にBattle.netのプライバシー設定を更新してもらう必要があるぞ。	
 GLOBAL_AADC_PRIVACYSETTINGSMENU_PRIVACYRIGHTS	プライバシー権	
 GLOBAL_AADC_PRIVACYSETTINGSPOPUP_DEVICE_LOCATIONSETTINGS	位置情報サービスを有効にする	
@@ -255,6 +248,9 @@ GLOBAL_CARD_SET_WILD_EVENT_SHORT	ワイルドイベント
 GLOBAL_CARD_SET_WON	時の大洞窟	
 GLOBAL_CARD_SET_WON_SEARCHABLE_SHORTHAND_NAMES	caverns cot 大洞窟 時の洞窟 時の大洞窟	
 GLOBAL_CARD_SET_WON_SHORT	時の大洞窟	
+GLOBAL_CARD_SET_WST	バッドランドの決斗	
+GLOBAL_CARD_SET_WST_SEARCHABLE_SHORTHAND_NAMES	badlands バッドランドの決斗 バッドランド 決斗 バッドランドの決闘 決闘 badland	
+GLOBAL_CARD_SET_WST_SHORT	バッドランド	
 GLOBAL_CARD_SET_YOD	ガラクロンドの目覚め	
 GLOBAL_CARD_SET_YOD_SHORT	ガラクロンドの目覚め	
 GLOBAL_CARDTYPE_ANOMALY	異常	
@@ -440,15 +436,6 @@ GLOBAL_FEATURE_DISABLED_MESSAGE_PLAY	すまんな、王道ハースストーン�
 GLOBAL_FEATURE_DISABLED_MESSAGE_PRACTICE	すまんな、練習モードは今使えないみたいだ。	
 GLOBAL_FEATURE_DISABLED_TITLE	利用不可	
 GLOBAL_FINISH	終了	
-GLOBAL_FIRESIDE_BRAWL	炉端の喧嘩	
-GLOBAL_FIRESIDE_GATHERING	炉端の集い	
-GLOBAL_FIRESIDE_GATHERING_CHOOSE_HEADER	どれか選んでくれ	
-GLOBAL_FIRESIDE_GATHERING_DEFAULT_TAVERN_NAME	炉端の集い	
-GLOBAL_FIRESIDE_GATHERING_FIRST_TIME_TAVERN_NAME	{0}の酒場	0=innkeeper battle tag
-GLOBAL_FIRESIDE_GATHERING_PATRON_LIST_FOOTER_TEXT_LARGE_SCALE	この炉端にはプレイヤーが{0}人以上いるぞ。	This is shown on the Friends List button whenever player is checked into a large scale Fireside Gathering (one that doesn't show the full patron list). the design decision was to show 99+ regardless of how many people are actually checked in.
-GLOBAL_FIRESIDE_GATHERING_PATRON_LIST_FOOTER_TEXT_SOFT_LIMIT	この炉端にはプレイヤーが{0}人いるぞ。	0=The number of patrons up to 99.
-GLOBAL_FIRESIDE_GATHERING_REUNPACK	セットアップを更新	
-GLOBAL_FIRESIDE_GATHERING_SOCIAL_BUTTON_LARGE_SCALE_LABEL	<size=32>99<size=26>+</size></size>	This is shown on the Friends List button whenever player is checked into a large scale Fireside Gathering (one that doesn't show the full patron list). the design decision was to show 99+ regardless of how many people are actually checked in. NOTE: the size tag was used in enUS to shrink the + sign, to make sure 99+ fit into the small button.
 GLOBAL_FORGE_END_DONE	完了	
 GLOBAL_FORGE_END_JOKE_0	一味違うな！	
 GLOBAL_FORGE_END_JOKE_1	言葉も出ないな！	
@@ -470,7 +457,6 @@ GLOBAL_FRIEND_CHALLENGE_BODY1_TWIST	ツイストの挑戦状が届いたぞ！\n
 GLOBAL_FRIEND_CHALLENGE_BODY1_WILD	ワイルドの挑戦状が届いたぞ！\n喧嘩を売ってきたのは:	
 GLOBAL_FRIEND_CHALLENGE_BODY2	受けて立つかい？	
 GLOBAL_FRIEND_CHALLENGE_DECLINE	断る	
-GLOBAL_FRIEND_CHALLENGE_FIRESIDE_BRAWL_BODY1	炉端の喧嘩の挑戦者が現れた：	
 GLOBAL_FRIEND_CHALLENGE_HEADER	挑戦	
 GLOBAL_FRIEND_CHALLENGE_NEARBY_PLAYER_NOTE	付近のプレイヤーからの挑戦を受けたくないなら、友達リストからオフにできるぞ。	
 GLOBAL_FRIEND_CHALLENGE_OPPONENT_CANCELED	{0}が挑戦を取り下げたぞ。	0=friend name
@@ -1544,11 +1530,13 @@ GLOBAL_TWIST_LOCKED_DESC	このゲームモードはロック中だ。次のシ�
 GLOBAL_TWIST_SEASON_DESCRIPTION_116	新たなツイストフォーマットで、「灰に舞う降魔の狩人」以降のクラスカードのみを使ってデッキを組もう！	
 GLOBAL_TWIST_SEASON_DESCRIPTION_117	新たなツイストフォーマットで、「灰に舞う降魔の狩人」以降のクラスカードのみを使ってデッキを組もう！	
 GLOBAL_TWIST_SEASON_DESCRIPTION_119	時の大洞窟に足を踏み入れ、レガシー～「仁義なきガジェッツァン」までのあらゆる拡張版のカードを使ってデッキを組もう。	
-GLOBAL_TWIST_SEASON_DESCRIPTION_120	今回はレガシーから「仁義なきガジェッツァン」に「時の大洞窟」を加え、30～40枚のデッキを組もう。そして全プレイヤーの体力が、デッキの枚数と同じ値でスタートするぞ！	
+GLOBAL_TWIST_SEASON_DESCRIPTION_120	今回はレガシーから「仁義なきガジェッツァン」までと、「時の大洞窟」が有効だ。カード30～40枚のデッキを組もう。そして全プレイヤーの体力が、デッキの枚数と同じ値でスタートするぞ！	
+GLOBAL_TWIST_SEASON_DESCRIPTION_121	恐竜が跋扈する太古の昔にタイムトラベルしよう！「ウンゴロ」が新たなアップデートとともに帰還し、「大脅威」フォーマットの拡張版に加わったぞ。	
 GLOBAL_TWIST_SEASON_TITLE_116	新時代	
 GLOBAL_TWIST_SEASON_TITLE_117	新時代	
 GLOBAL_TWIST_SEASON_TITLE_119	大脅威	
 GLOBAL_TWIST_SEASON_TITLE_120	大脅威XL	
+GLOBAL_TWIST_SEASON_TITLE_121	ウンゴロへの帰還	
 GLOBAL_UPDATE	更新	
 GLOBAL_VERSION	バージョン	
 GLOBAL_WAIT_FOR_OPPONENT_RECONNECT	相手が再接続するまで待機中だ…（{0}分{1}秒）\nオプションメニューから対戦を終わらせることもできるぞ。	
