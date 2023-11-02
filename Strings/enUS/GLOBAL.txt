@@ -7,15 +7,15 @@ GLOBAL_AADC_PRIVACYSETTINGSPOPUP_SECTIONHEADER_SOCIAL	Social Options
 GLOBAL_AADC_PRIVACYSETTINGSPOPUP_DEVICE_LOCATIONSETTINGS	Enable location settings
 GLOBAL_AADC_PRIVACYSETTINGSPOPUP_DEVICE_PUSHNOTIFICATIONS	Enable push notifications
 GLOBAL_AADC_PRIVACYSETTINGSPOPUP_SOCIAL_CHATMESSAGES	Enable chat messages
-GLOBAL_AADC_PRIVACYSETTINGSPOPUP_SOCIAL_NEARBYFRIENDS	Enable nearby friends
+GLOBAL_AADC_PRIVACYSETTINGSPOPUP_SOCIAL_NEARBYFRIENDS	Enable nearby players
 GLOBAL_AADC_PRIVACYSETTINGSPOPUP_SOCIAL_SPECIALOFFERS	Enable personalized shop offers
 GLOBAL_AADC_PRIVACYSETTINGSMENU_PRIVACYRIGHTS	Privacy Rights
 GLOBAL_AADC_CHATWARNING	Be careful and don't share personal information in messages.
 GLOBAL_AADC_CHATSETTINGS_TITLE	Chat Settings
-GLOBAL_AADC_CHATSETTINGS_ENABLEHEADER	Turn on chat messages
-GLOBAL_AADC_CHATSETTINGS_DISABLEHEADER	Turn off chat messages
-GLOBAL_AADC_CHATSETTINGS_DISABLEDESCRIPTION	Disabling chat will prevent you from sending and receiving messages from friends.
-GLOBAL_AADC_CHATSETTINGS_ENABLEDESCRIPTION	Enabling chat will allow you to send and receive messages from friends. Be careful and don't share personal information.
+GLOBAL_AADC_CHATSETTINGS_ENABLEHEADER	Do you want to turn on chat?
+GLOBAL_AADC_CHATSETTINGS_DISABLEHEADER	Do you want to turn off chat?
+GLOBAL_AADC_CHATSETTINGS_DISABLEDESCRIPTION	Turning off chat will prevent you from sending and receiving messages from friends.
+GLOBAL_AADC_CHATSETTINGS_ENABLEDESCRIPTION	Turning on chat will allow you to send and receive messages from friends. Be careful and don't share personal information.
 GLOBAL_AADC_CHATSETTINGS_UPDATINGSETTINGS	Updating chat settings
 GLOBAL_AADC_CHATSETTINGS_SETTINGSUPDATED	Chat settings updated
 GLOBAL_AADC_SHOPSETTINGS_TITLE	Shop Settings
@@ -35,12 +35,17 @@ GLOBAL_AADC_PUSHNOTIFICATIONS_SETTINGSUPDATED	Notification settings updated
 GLOBAL_AADC_UPDATESETTINGSPOPUP_TITLE	Settings Updated
 GLOBAL_AADC_UPDATESETTINGSPOPUP_DESCRIPTION	All of your social and device preferences are now enabled, including chat messages, shop, and personalized offers.
 GLOBAL_AADC_FRIENDSETTINGS_TITLE	Friend Settings
-GLOBAL_AADC_FRIENDSETTINGS_ENABLEHEADER	Turn on nearby friends
-GLOBAL_AADC_FRIENDSETTINGS_DISABLEHEADER	Turn off nearby friends
-GLOBAL_AADC_FRIENDSETTINGS_ENABLEDESCRIPTION	Enabling nearby friends will allow players close to your location to view your game activity in your friends list.
-GLOBAL_AADC_FRIENDSETTINGS_DISABLEDESCRIPTION	Disabling nearby friends will prevent players close to your location from viewing your game activity in your friends list.
-GLOBAL_AADC_FRIENDSETTINGS_UPDATINGSETTINGS	Updating nearby friends
-GLOBAL_AADC_FRIENDSETTINGS_SETTINGSUPDATED	Nearby friends updated
+GLOBAL_AADC_NEARBY_PLAYER_SETTINGS_TITLE	Nearby Players
+GLOBAL_AADC_FRIENDSETTINGS_ENABLEHEADER	Turn on nearby players?
+GLOBAL_AADC_FRIENDSETTINGS_DISABLEHEADER	Turn off nearby players?
+GLOBAL_AADC_FRIENDSETTINGS_ENABLEDESCRIPTION	Turning this on will allow players on your network to view your game activity in their friends list.
+GLOBAL_AADC_FRIENDSETTINGS_DISABLEDESCRIPTION	Turning this off will prevent players on your network from viewing your game activity in their friends list.
+GLOBAL_AADC_FRIENDSETTINGS_UPDATINGSETTINGS	Updating nearby players
+GLOBAL_AADC_FRIENDSETTINGS_SETTINGSUPDATED	Nearby players updated
+GLOBAL_AADC_FRIENDSETTINGS_TURN_OFF_BUTTON	Turn Off
+GLOBAL_AADC_FRIENDSETTINGS_TURN_ON_BUTTON	Turn On
+GLOBAL_ACCOUNT_LINKING_CONFIRM_WAITING	Working on it..
+GLOBAL_ACCOUNT_LINKING_CONFIRM_LINKED	Account linked!
 GLOBAL_BUTTON_YES	Yes
 GLOBAL_BUTTON_NO	No
 GLOBAL_BUTTON_OK	OK
@@ -483,6 +488,11 @@ GLOBAL_KEYWORD_FORGED	Forged
 GLOBAL_KEYWORD_FORGED_TEXT	Upgraded after dragging this to your deck and spending (2) Mana.
 GLOBAL_KEYWORD_TITAN	Titan
 GLOBAL_KEYWORD_TITAN_TEXT	Click on a Titan to use\n1 of 3 abilities instead\nof attacking.
+GLOBAL_KEYWORD_EXCAVATE_GAMEPLAY	Dig for increasingly rarer treasures. Resets after {0}.\nNext: {1}
+GLOBAL_KEYWORD_EXCAVATE_COMMON	Common
+GLOBAL_KEYWORD_EXCAVATE_RARE	Rare
+GLOBAL_KEYWORD_EXCAVATE_EPIC	Epic
+GLOBAL_KEYWORD_EXCAVATE_LEGENDARY	<b>Legendary</b>
 GLOBAL_RACE_ALL	All
 GLOBAL_RACE_BLOODELF	Blood Elf
 GLOBAL_RACE_DEMON	Demon
@@ -579,6 +589,8 @@ GLOBAL_DONE	Done
 GLOBAL_CANCEL	Cancel
 GLOBAL_HELP	Help
 GLOBAL_EXIT	Exit
+GLOBAL_EXIT_CONFIRM_TITLE	Exit Game
+GLOBAL_EXIT_CONFIRM_MESSAGE	Are you sure you want to exit the game?
 GLOBAL_CONFIRM	Confirm
 GLOBAL_OKAY	OK
 GLOBAL_MORE	More
@@ -731,6 +743,7 @@ GLOBAL_ERROR_NETWORK_UNAVAILABLE_UNKNOWN	Oops! Playful sprites have disrupted He
 GLOBAL_ERROR_NETWORK_ADVENTURE_RECONNECT_TIMEOUT	Your game has been saved. Relaunch Hearthstone to continue where you left off.
 GLOBAL_ERROR_ACCOUNT_LICENSES	We had some trouble checking what you own, so some things might be missing. Sorry about that! We'll try again next time you log on.
 GLOBAL_ERROR_NO_MAGE_PRECON	We just ran into a network problem as we were loading up all the cards in your collection. Please relaunch Hearthstone to access your collection and resume your duels!
+GLOBAL_ERROR_STEAM_ACCOUNT_LINKING	We could not link your Steam account to BattleNet account. Restart Steam client and try again.
 GLOBAL_MOBILE_ERROR_UNSUPPORTED_IOS_PHONE_DETECTED	Sorry, Hearthstone requires an iPhone 6s or iPod Touch 7 or later.
 GLOBAL_MOBILE_ERROR_UNSUPPORTED_IOS_TABLET_DETECTED	Sorry, Hearthstone requires an iPad 5 or iPad Air 2 or iPad mini 4 or later.
 GLOBAL_MOBILE_ERROR_ANDROID_PHONE_DETECTED	Sorry, Hearthstone currently only runs on Android tablets 6" or larger.
@@ -882,6 +895,7 @@ GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_NO_TAVERN_BRAWL_DECK	You need to build a 
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_BATTLEGROUNDS_EARLY_ACCESS	This player does not have early access to Battlegrounds.
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_CLASSIC_DECK	This player has no Classic decks.
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGEE_NO_TWIST_DECK	This player has no Twist decks.
+GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_NO_TWIST_SEASON	Twist is not available right now.  Check back soon!
 GLOBAL_FRIENDLIST_CHALLENGE_CHALLENGER_TAVERN_BRAWL_LOCKED	Unlock Tavern Brawl by reaching level 20 with any class.
 GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_NO_TAVERN_BRAWL	Tavern Brawl is not available right now.  Check back soon!
 GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_TAVERN_BRAWL_NOT_CHALLENGEABLE	Friendly Challenge is not available for this Tavern Brawl.
@@ -925,6 +939,7 @@ GLOBAL_FRIENDLIST_REPORT_SELECT_COMPLETE	Thank you for your report!
 GLOBAL_FRIENDLIST_REPORT_TOOLTIP_HEADER	Report a Player
 GLOBAL_FRIENDLIST_REPORT_TOOLTIP_COMING_SOON_TEXT	Coming Soon
 GLOBAL_FRIENDLIST_REPORT_TOOLTIP_CURRENTLY_UNAVAILABLE_TEXT	Currently Unavailable
+GLOBAL_FRIENDLIST_NO_FRIENDS	No <color=#61C8E8>Battle.net</color> Friends yet!
 GLOBAL_SPECTATE	Spectate
 GLOBAL_SPECTATOR_LEAVE_PROMPT_HEADER	Leave Spectator Mode
 GLOBAL_SPECTATOR_LEAVE_PROMPT_TEXT	Are you sure you want to stop spectating?
@@ -949,7 +964,7 @@ GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TIMEOUT	The player you are spectating too
 GLOBAL_SPECTATOR_ERROR_CREATE_PARTY_TEXT	An error occurred attempting to create Spectator party.
 GLOBAL_SPECTATOR_ERROR_LEAVE_FOR_SPECTATE_PLAYER_TEXT	An error occurred attempting to leave a previous party to spectate {0}.	0=player name
 GLOBAL_SPECTATOR_ERROR_CANNOT_SPECTATE_2_GAMES	Cannot spectate two different games at same time.
-GLOBAL_ADDFRIEND_HEADER	Add a Friend
+GLOBAL_ADDFRIEND_HEADER	Add a <color=#5ecaf0ff>Battle.net</color> Friend
 GLOBAL_ADDFRIEND_BUTTON	Add as friend
 GLOBAL_ADDFRIEND_INSTRUCTION	Enter a BattleTag or email address.
 GLOBAL_ADDFRIEND_SENT_CONFIRMATION	Friend request sent.
@@ -988,7 +1003,7 @@ GLOBAL_PROGRAMNAME_CRASHBANDICOOT4	Crash Bandicoot 4
 GLOBAL_PROGRAMNAME_DIABLO2R	Diablo II: Resurrected
 GLOBAL_PROGRAMNAME_CODVANGUARD	Call of Duty: Vanguard
 GLOBAL_PROGRAMNAME_DIABLOIMMORTAL	Diablo Immortal
-GLOBAL_PROGRAMNAME_WARCRAFTARCLIGHTRUMBLE	Arclight Rumble
+GLOBAL_PROGRAMNAME_WARCRAFTARCLIGHTRUMBLE	Warcraft Rumble
 GLOBAL_PROGRAMNAME_ARCADECOLLECTION	Blizzard Arcade Collection
 GLOBAL_PROGRAMNAME_DIABLO4	Diablo IV
 GLOBAL_PROGRAMNAME_MODERNWARFARE2	Modern Warfare II
@@ -1545,3 +1560,9 @@ GLOBAL_KEYWORD_CHARGE_MERC	Charge
 GLOBAL_KEYWORD_CHARGE_MERC_TEXT	Attacks a selected target immediately after being summoned.
 GLOBAL_KEYWORD_SUMMONED_WHEN_DRAWN	Summoned When Drawn
 GLOBAL_KEYWORD_SUMMONED_WHEN_DRAWN_TEXT	Summons itself when drawn, then draw another card.
+GLOBAL_KEYWORD_QUICKDRAW	Quickdraw
+GLOBAL_KEYWORD_QUICKDRAW_TEXT	A bonus if this entered your hand this turn.
+GLOBAL_KEYWORD_QUICKDRAW_REF_TEXT	A bonus if this entered your hand this turn.
+GLOBAL_KEYWORD_EXCAVATE	Excavate
+GLOBAL_KEYWORD_EXCAVATE_TEXT	Dig for increasingly rarer treasures. Resets after the highest Rarity.
+GLOBAL_KEYWORD_EXCAVATE_REF_TEXT	Dig for increasingly rarer treasures. Resets after the highest Rarity.
