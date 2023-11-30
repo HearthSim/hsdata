@@ -547,7 +547,9 @@ GLUE_CHECKOUT_ERROR_GENERIC_FAILURE	Oups ! Une erreur est survenue. Veuillez r�
 GLUE_CHECKOUT_ERROR_INSUFFICIENT_FUNDS	Vous ne disposez pas de fonds suffisants pour effectuer cet achat.	
 GLUE_CHECKOUT_ERROR_PRODUCT_UNAVAILABLE	Ce produit n’est pas disponible actuellement.	
 GLUE_CHECKOUT_HICKORY_ACCOUNT_FAILURE	Vous ne pouvez pas faire d’achats avec votre compte. Veuillez vérifier les paramètres de votre compte ou contacter l’assistance HICKORY pour obtenir plus d’information.	
+GLUE_CHECKOUT_HICKORY_BLOCKED_FAILURE	Veuillez contacter l’assistance clientèle de Blizzard pour procéder à l’achat.	
 GLUE_CHECKOUT_HICKORY_OVERLAY_FAILURE	Vous devez activer l’overlay pour effectuer des achats. Vous pouvez trouver cette option dans le menu Paramètres.	
+GLUE_CHECKOUT_HICKORY_PENDING_FAILURE	Vous avez un achat en cours. Veuillez patienter avant d’effectuer un nouvel achat.	
 GLUE_CHECKOUT_HICKORY_RECONCILE_FAILURE	Une erreur s’est produite lors de votre achat en cours. Veuillez redémarrer le client.	
 GLUE_CHECKOUT_HICKORY_TIMEOUT_FAILURE	Le délai pour valider votre achat a expiré.	
 GLUE_CHINA_STORE_BOOSTER_GIFT	赠礼：\n{0}包卡牌包	
@@ -576,6 +578,7 @@ GLUE_CLASS_DESCRIPTION_WARLOCK	Sacrifiez tout à votre quête de puissance démo
 GLUE_CLASS_DESCRIPTION_WARRIOR	Écrasez vos adversaires avec de puissantes armes et laissez votre soif de sang accroître votre force.	
 GLUE_CLASS_INVALID_DECK_DESC	Ce deck utilise une classe invalide.	
 GLUE_CLASS_INVALID_DECK_TITLE	Classe invalide	
+GLUE_CLASS_UNLOCK_DESCRIPTION	Classe et deck de {0}	
 GLUE_CLASS_UNLOCKED_CARDS_DEATHKNIGHT	Cartes de chevalier de la mort disponibles dans votre collection !	
 GLUE_CLASS_UNLOCKED_CARDS_DEMONHUNTER	Cartes de chasseur de démons disponibles dans votre collection !	
 GLUE_CLASS_UNLOCKED_CARDS_MORE	27 cartes de plus	
@@ -713,6 +716,7 @@ GLUE_COLLECTION_DECK_TEMPLATE_HELP_BUTTON	Remplacer des cartes
 GLUE_COLLECTION_DECK_TEMPLATE_REPLACE	Changer de deck	
 GLUE_COLLECTION_DECK_TEMPLATE_REPLACE_MESSAGE	Ceci effacera votre deck et le remplacera par le contenu du deck sélectionné, voulez-vous continuer ?	
 GLUE_COLLECTION_DECK_TEMPLATE_SELECT_A_DECK	Sélectionnez un modèle de deck pour en apprendre davantage !	
+GLUE_COLLECTION_DECK_TWIST_INVALID_CLASS	Vous avez un deck imprévu dans votre presse-papier, mais cette classe n’est pas disponible pour la saison en cours.	
 GLUE_COLLECTION_DECK_TWIST_NOT_ACTIVE	Vous avez un deck imprévu dans votre presse-papier, mais il n’y a pas de saison du mode Imprévu en cours.	
 GLUE_COLLECTION_DECK_TWIST_NOT_UNLOCKED	Vous avez un deck imprévu dans votre presse-papier, mais vous n’avez pas encore débloqué ce mode.	
 GLUE_COLLECTION_DECK_VALID_PASTE_BODY	Voulez-vous créer un nouveau deck à partir de celui dans votre presse-papier_?	
@@ -1096,9 +1100,22 @@ GLUE_FROSTMOURNE_REWARD_BODY	Battez le roi-liche avec chaque classe pour obtenir
 GLUE_FROSTMOURNE_REWARD_HEADER	Nouveau héros paladin	
 GLUE_FROSTMOURNE_WING_INCOMPLETE_REWARD_BODY	Battez le roi-liche avec chaque classe pour obtenir le prince Arthas_!	
 GLUE_FUN_CONFIRM_MESSAGE	Génial !	
-GLUE_GAME_MODE_LOCKED_HEADER	Débloquez {0} en terminant votre apprentissage.	
+GLUE_GAME_MODE_DOWNLOAD_BUTTON_NAME	Télécharger	
+GLUE_GAME_MODE_DOWNLOAD_CONFIRMATION_AVAILABLE_SIZE	Espace libre : {0}	{0}=Storage space available on device (E.g. 7.5 GB)
+GLUE_GAME_MODE_DOWNLOAD_CONFIRMATION_DESCRIPTION	Télécharger {0} ?	{0}=Name of the module we are downloading (E.g. Solo Adventure)
+GLUE_GAME_MODE_DOWNLOAD_CONFIRMATION_DOWNLOAD_SIZE	Taille : {0}	{0}=Size of the module to download (E.g. 215 MB)
+GLUE_GAME_MODE_DOWNLOAD_QUEUED	En attente	
+GLUE_GAME_MODE_LOCKED_APPRENTICE_COMPLETION_REQUIRED	Terminez l’apprentissage afin de débloquer le mode {0} !	
+GLUE_GAME_MODE_LOCKED_DOWNLOAD_REQUIRED	Mode {0} verrouillé, téléchargement requis	
+GLUE_GAME_MODE_LOCKED_HEADER	Débloquez le mode {0} en terminant votre apprentissage.	
+GLUE_GAME_MODE_MODULE_DOWNLOADED	Mode {0} téléchargé	
 GLUE_GAME_MODE_NEW_MODE_POPUP_HEADER	Nouveau mode !	
 GLUE_GAME_MODE_NEW_MODE_UNLOCKED_POPUP_HEADER	Nouveau mode débloqué :	
+GLUE_GAME_MODE_OUT_OF_SPACE_MESSAGE	Vous avez besoin de {0} d’espace libre sur votre appareil pour continuer.	{0}=Size of the module to download (E.g. 215 MB)
+GLUE_GAME_MODE_OUT_OF_SPACE_TITLE	Pas assez d’espace	
+GLUE_GAME_MODE_TOOLTIP_DOWNLOAD_REQUIRED_DESCRIPTION	Téléchargement requis pour jouer au mode {0}.	
+GLUE_GAME_MODE_TOOLTIP_DOWNLOAD_REQUIRED_TITLE	Téléchargement requis	
+GLUE_GAME_MODE_TOOLTIP_DOWNLOADING_DESCRIPTION	Téléchargement en cours : {0}.	{0}=Name of the module we are downloading (E.g. Solo Adventure)
 GLUE_GAME_MODE_UNLOCK_DEFAULT_HEROES	Débloquez les 10 héros pour accéder au mode {0}.	
 GLUE_GAME_MODES	Modes	
 GLUE_GAME_MODES_POPUP_BACON_DESC	Affrontez 7 adversaires.	
@@ -1148,13 +1165,13 @@ GLUE_GOLD_CAP_BODY	Votre montant d’or doit être inférieur à {0} pour pouvoi
 GLUE_GOLD_CAP_HEADER	Montant d’or : {0} !	
 GLUE_GOONS_CLASS_NAMES	Chasseur, paladin, guerrier	
 GLUE_HERO_HEROSELECT_NEW	NOUVEAU	
-GLUE_HERO_LOCKED_DESC	Battez {0} en Partie classée ou en Entraînement pour débloquer {1}.	
+GLUE_HERO_LOCKED_DESC	Atteignez le niveau {0} d’apprentissage pour le ou la débloquer.	
 GLUE_HERO_LOCKED_LETS_GO	C’est parti !	
 GLUE_HERO_LOCKED_NAME	Verrouillé	
-GLUE_HERO_LOCKED_PROLOGUE_DESC	Pour jouer avec {0}, vous devez d’abord terminer son prologue.	
 GLUE_HERO_SKIN_PURCHASE_CONFIRMATION_HEADER	OK	
 GLUE_HERO_SKIN_PURCHASE_CONFIRMATION_MESSAGE	Voulez-vous vraiment acheter ce héros : {0} ?\n\nVous ne pourrez pas revenir en arrière une fois que vous aurez confirmé votre achat.	
 GLUE_HERO_SKIN_PURCHASE_ERROR_HEADER	Héros	
+GLUE_HEROIC_BRAWL_APPRENTICE_WARNING	Le Bras de fer héroïque est un défi difficile à relever ! Terminez votre apprentissage ou patientez jusqu’à la semaine prochaine pour un nouveau Bras de fer.	
 GLUE_HEROIC_BRAWL_CONTINUE	J’ai compris !	Heroic brawl intro dialogue continue button text
 GLUE_HEROIC_BRAWL_DECK	Bras de fer héroïque	
 GLUE_HEROIC_BRAWL_INTRO	Le Bras de fer de cette semaine s’adresse à nos joueurs les plus expérimentés.\nVos talents et votre collection pèseront lourd dans la balance_!	
@@ -1253,10 +1270,12 @@ GLUE_KARA_LOADING_BAR_TASK_8	Photo avec Romulo
 GLUE_KARA_LOADING_BAR_TASK_9	Tours de boule à facettes	
 GLUE_KARA_PROLOGUE_LOADING	En attente d’un corbeau messager…	
 GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_CANCEL	Annuler	
-GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_CONFIRM	Continuer	
+GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_CONFIRM	Passer	
 GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_DESCRIPTION	Si vous passez directement au rang 25, non seulement vous affronterez des adversaires plus difficiles,\nmais vous manquerez les récompenses de progression !	
-GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_DESCRIPTION_NEW	Si vous passez l’apprentissage, non seulement vous affronterez des adversaires plus difficiles, mais vous manquerez les récompenses de progression !	
+GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_DESCRIPTION_NEW	Vous ne recevrez pas les autres récompenses d’apprentissage et devrez affronter des adversaires plus coriaces, mais vous débloquerez immédiatement toutes les classes, tous les modes et un deck d’emprunt !	
 GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_TITLE	Voulez-vous continuer ?	
+GLUE_LEAGUE_PROMOTE_SELF_UNCLAIMED_REWARDS_ERROR_DESCRIPTION	Vous devez récupérer toutes les récompenses que vous avez débloquées avant de pouvoir passer l’apprentissage.	
+GLUE_LEAGUE_PROMOTE_SELF_UNCLAIMED_REWARDS_ERROR_TITLE	Vous avez des récompenses en attente !	
 GLUE_LEGENDARY_QUEST_REROLL_BODY	Abandonner cette quête au profit d’une quête normale ? Si elle faisait partie d’une suite de quêtes, vous renoncez à l’ensemble de la suite.	
 GLUE_LEGENDARY_QUEST_REROLL_TITLE	Nouvelle quête ?	
 GLUE_LET_LOADING_BAR_TASK_1	Travailler l’aiguillon perfide	
@@ -1765,6 +1784,7 @@ GLUE_MERCENARY_LABEL_PORTRAIT	Portrait
 GLUE_MERCENARY_PACK_DESCRIPTION	Gagnez des mercenaires, des portraits de mercenaire ou des pièces de mercenaire aléatoires.	
 GLUE_MERCENARY_PACK_TITLE	Paquet de mercenaires	
 GLUE_MERCENARY_PACK_UNAVAILABLE	Temporairement indisponible !	
+GLUE_MERCENARY_PACK_UNAVAILABLE_DOWNLOAD_REQUIRED	Téléchargez le mode Mercenaires pour continuer !	
 GLUE_MERCENARY_RANDOM_COIN_DESCRIPTION	Gagnez {0} |4(pièce,pièces) de mercenaire d’un mercenaire aléatoire.	0: number of coins
 GLUE_MERCENARY_RANDOM_COIN_TITLE	Pièces de mercenaire aléatoires	
 GLUE_MERCENARY_TUTORIAL_INCOMPLETE_FOR_PACK	Terminez \nle didacticiel du mode Mercenaires.	
@@ -1828,7 +1848,19 @@ GLUE_NEW_HERO	Nouveau héros !
 GLUE_NEW_PLAYER_AVAILABLE_AFTER_APPRENTICESHIP	Disponible après l’apprentissage	
 GLUE_NEW_PLAYER_AVAILABLE_AT_LEAGUE_PROMO	Disponible\naprès\nl’apprentissage	
 GLUE_NEW_PLAYER_PROMOTION_CHEST_DESC	Vous pouvez maintenant jouer pour gagner\ndes récompenses de Partie classée !	
-GLUE_NEW_PLAYER_PROMOTION_CHEST_TITLE	Bronze débloqué !	
+GLUE_NEW_PLAYER_PROMOTION_CHEST_TITLE	Classement débloqué !	
+GLUE_NEW_PLAYER_PROMOTION_SEASONS_DESC	Plus votre rang est élevé, plus les récompenses sont importantes !	
+GLUE_NEW_PLAYER_PROMOTION_SEASONS_TITLE	Une nouvelle saison commence chaque début de mois.	
+GLUE_NEW_PLAYER_PROMOTION_STARS_DESC	Remportez des matchs\npour gagner des étoiles.\nObtenez 3 étoiles pour gagner un rang !	
+GLUE_NEW_PLAYER_REWARD_PREVIEW_CHOOSE_DECK	Decks {0} sur {1}	
+GLUE_NEW_PLAYER_REWARD_PREVIEW_CLAIM_BUTTON	Accéder au journal	
+GLUE_NEW_PLAYER_REWARD_PREVIEW_CLAIMABLE	À récupérer !	
+GLUE_NEW_PLAYER_REWARD_PREVIEW_CLASS_PACKS	|4(Paquet,Paquets) de classe	
+GLUE_NEW_PLAYER_REWARD_PREVIEW_CLASS_UNLOCK	Classe {0}	
+GLUE_NEW_PLAYER_REWARD_PREVIEW_FOUR_ITEMS	{0}, {1}, {2} et {3}	
+GLUE_NEW_PLAYER_REWARD_PREVIEW_REQUIRED_LEVEL	Niveau {0} d’apprentissage	
+GLUE_NEW_PLAYER_REWARD_PREVIEW_THREE_ITEMS	{0}, {1} et {2}	
+GLUE_NEW_PLAYER_REWARD_PREVIEW_TWO_ITEMS	{0} et {1}	
 GLUE_NEW_PLAYER_SET_ROTATION_POPUP_BODY	De nouvelles cartes sont disponibles ! Vous devez compléter l’apprentissage pour jouer certaines de vos cartes plus anciennes.	
 GLUE_NEW_PLAYER_SET_ROTATION_POPUP_HEADER	Bienvenue à l’{0} !	
 GLUE_NEW_TWIST_MODE_HINT	Essayez le nouveau mode Imprévu !	
@@ -1915,6 +1947,58 @@ GLUE_PROGRESSION_ACHIEVEMENTS_STEPCOMPLETED	Étape terminée !
 GLUE_PROGRESSION_ACHIEVEMENTS_TITLE	Hauts faits	
 GLUE_PROGRESSION_ACHIEVEMENTS_TOOLTIP_DESCRIPTION	Accomplissez des hauts faits pour obtenir plus de points.	
 GLUE_PROGRESSION_ACHIEVEMENTS_TOOLTIP_TITLE	Points de hauts faits	
+GLUE_PROGRESSION_APPRENTICE_ABOUT_DESCRIPTION_1	Terminez votre apprentissage pour débloquer des decks, des paquets et de l’or en attendant de jouer en Partie classée !	
+GLUE_PROGRESSION_APPRENTICE_ABOUT_DESCRIPTION_2	Vous pouvez passer l’apprentissage pour débloquer tous les modes.	
+GLUE_PROGRESSION_APPRENTICE_ABOUT_SKIP_DESCRIPTION	Uniquement pour les joueuses et joueurs expérimentés. Permet de débloquer les champs de bataille.	
+GLUE_PROGRESSION_APPRENTICE_BACK_TO_JOURNAL_HOME_DESC	Consultez votre journal sur la page d’accueil pour récupérer vos récompenses !	
+GLUE_PROGRESSION_APPRENTICE_BACK_TO_JOURNAL_PROGRESS_DESC	Débloquez une récompense chaque fois que vous montez en niveau !	
+GLUE_PROGRESSION_APPRENTICE_BACK_TO_JOURNAL_SUBTITLE	Vous vous débrouillez bien !	
+GLUE_PROGRESSION_APPRENTICE_CHOOSE_DECK	Choisissez un deck	
+GLUE_PROGRESSION_APPRENTICE_CLASS_STRENGTHS	Forces	
+GLUE_PROGRESSION_APPRENTICE_CLASS_TITLE	Débloquer la classe {0}	0=class name
+GLUE_PROGRESSION_APPRENTICE_CLASS_WEAK	Faiblesses	
+GLUE_PROGRESSION_APPRENTICE_DECK_POPUP_AGGRO	Deck agressif	
+GLUE_PROGRESSION_APPRENTICE_DECK_POPUP_AGGRO_DESC	Éliminez rapidement les adversaires avec de petits serviteurs et en infligeant des dégâts directs.	
+GLUE_PROGRESSION_APPRENTICE_DECK_POPUP_CONTROL	Deck de contrôle	
+GLUE_PROGRESSION_APPRENTICE_DECK_POPUP_CONTROL_DESC	Contrôlez le début de partie ; jouez des serviteurs et des sorts puissants plus tard.	
+GLUE_PROGRESSION_APPRENTICE_DECK_POPUP_SUBTITLE	Il existe de nombreuses façons de jouer ! Selon les decks, les styles de jeu sont différents.	
+GLUE_PROGRESSION_APPRENTICE_JOURNAL_POPUP_DESC	C’est votre journal. Vous pouvez y suivre votre progression et gagner de l’EXP afin d’obtenir des récompenses !	
+GLUE_PROGRESSION_APPRENTICE_JOURNAL_POPUP_SUBTITLE	Bienvenue à vous !	
+GLUE_PROGRESSION_APPRENTICE_JOURNAL_POPUP_TITLE	À propos du journal	
+GLUE_PROGRESSION_APPRENTICE_LOANER_TITLE	Débloquer les decks d’emprunt	
+GLUE_PROGRESSION_APPRENTICE_MODE_TITLE	Débloquer le mode {0}	0=mode name
+GLUE_PROGRESSION_APPRENTICE_REWARD_SCROLL_MODE	Mode débloqué !	
+GLUE_PROGRESSION_APPRENTICE_SKIP_APPRENTICE	Passer	
+GLUE_PROGRESSION_APPRENTICE_SKIP_APPRENTICE_CANCEL	Plus tard	
+GLUE_PROGRESSION_APPRENTICE_TAVERN_GUIDE_COMPLETION_REWARD	Récompense finale	
+GLUE_PROGRESSION_APPRENTICE_TAVERN_GUIDE_COMPLETION_TOOLTIP	Terminez toutes les quêtes d’une page afin d’obtenir une récompense.	
+GLUE_PROGRESSION_APPRENTICE_TAVERN_GUIDE_CORE_LOOP_CLAIMED	Continuez à accomplir des quêtes pour obtenir davantage de récompenses !	
+GLUE_PROGRESSION_APPRENTICE_TAVERN_GUIDE_CORE_LOOP_COMPLETE	Récupérez votre récompense d’apprentissage afin de pouvoir accomplir votre première quête !	
+GLUE_PROGRESSION_APPRENTICE_TAVERN_GUIDE_QUEST_CATEGORY_COLLECTION	Collection	
+GLUE_PROGRESSION_APPRENTICE_TAVERN_GUIDE_QUEST_CATEGORY_GAMEPLAY	Jeu	
+GLUE_PROGRESSION_APPRENTICE_TAVERN_GUIDE_QUEST_CATEGORY_PROGRESSION	Progression	
+GLUE_PROGRESSION_APPRENTICE_TAVERN_GUIDE_TRY_WITH	Essayez avec	
+GLUE_PROGRESSION_APPRENTICE_TAVERN_PASS_BUTTON_TEXT	Activer le ticket de la taverne	
+GLUE_PROGRESSION_APPRENTICE_TAVERN_PASS_POPUP_DESC	Vous pouvez passer l’apprentissage pour activer votre passe immédiatement, mais vous devrez affronter des adversaires plus difficiles et vous manquerez des récompenses.	
+GLUE_PROGRESSION_APPRENTICE_TAVERN_PASS_POPUP_SUBTITLE	Pour y accéder, vous devez terminer ou passer l’apprentissage.	
+GLUE_PROGRESSION_APPRENTICE_TAVERN_PASS_POPUP_TITLE	Vous possédez un ticket de la taverne !	
+GLUE_PROGRESSION_APPRENTICE_TRACK_ABOUT_TITLE	À propos de l’apprentissage	
+GLUE_PROGRESSION_APPRENTICE_TRACK_END_DESCRIPTION	Grimpez dans le classement et entrez dans la légende !	
+GLUE_PROGRESSION_APPRENTICE_TRACK_END_TITLE	Classé	
+GLUE_PROGRESSION_APPRENTICE_TRACK_PICK_ONE	Choisir 1 des 3	
+GLUE_PROGRESSION_APPRENTICE_TRACK_START_DESCRIPTION	Gagnez de l’EXP pour débloquer davantage de classes, de decks et de paquets !	
+GLUE_PROGRESSION_APPRENTICE_TRACK_START_HEADER	Récompense\ndu didacticiel	
+GLUE_PROGRESSION_APPRENTICE_TRACK_TITLE	Apprentissage	
+GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_BONUS_XP	Gagnez des bonus d’EXP et des récompenses en terminant des quêtes ! Terminer une page permet d’obtenir une récompense.	
+GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_CORE_LOOP	Disputez des matchs pour gagner de l’EXP, de l’or et des récompenses. L’or vous permet d’acheter des paquets et d’agrandir votre collection !	
+GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_FIRST_REWARD	Ah ! On dirait que vous avez gagné votre première récompense !	
+GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_GUIDE_COMPLETE	Je vous ai tout dit ! À présent, mettez en pratique ce que vous avez appris et entrez dans la légende de Hearthstone !	
+GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_INTRO_COMPLETE	Continuez à jouer pour recevoir plus de récompenses !	
+GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_LEARN_ROPES	Ce guide vous aidera à vous familiariser avec le jeu. Pour commencer, jouons une partie !	
+GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_MORE_QUESTS	On dirait que vous avez débloqué de nouvelles quêtes !	
+GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_NEW_DECK	Ouah, vous avez un nouveau deck ! C’est un très bon début !	
+GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_TRACK_COMPLETE	Bravo ! Vous avez terminé votre apprentissage. Il est temps maintenant d’affronter des adversaires plus difficiles !	
+GLUE_PROGRESSION_APPRENTICE_XP_TOOLTIP	Jouez à Hearthstone, progressez et gagnez des récompenses.	
 GLUE_PROGRESSION_AV_FIRST_RANK_ALLIANCE	Soldat	
 GLUE_PROGRESSION_AV_FIRST_RANK_HORDE	Éclaireur	
 GLUE_PROGRESSION_AV_HONOR_GAINED	+{0} |4(point,points) d’honneur	
@@ -1983,6 +2067,7 @@ GLUE_PROGRESSION_REWARD_TRACK_POPUP_BONUS_DESCRIPTION	Gagnez {0} |4(pièce,piè
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_BONUS_LEVEL	Au-dessus du niveau {0}	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_BONUS_TITLE	Récompenses bonus	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_COMPLETE_LEVEL	Niveau {0}	
+GLUE_PROGRESSION_REWARD_TRACK_POPUP_DECK_CHOICE_CONFIRMATION_TEXT	Choisir le deck {0} {1} ?	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_FORGOT_REWARDS_BODY	Nous avons ajouté {0} |4(récompense,récompenses) à votre collection venant d’un parcours de récompenses passé : {1}.	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_FORGOT_REWARDS_TITLE	|4(Une récompense oubliée,Des récompenses oubliées) !	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_INCOMPLETE_LEVEL	Niveau {0} requis	
@@ -2001,6 +2086,12 @@ GLUE_PROGRESSION_REWARD_TRACK_XP_PROGRESS	{0}/{1}
 GLUE_PROGRESSION_REWARD_TRACK_XP_TOOLTIP_BOOST_BODY	EXP supplémentaire : +{0} %	
 GLUE_PROGRESSION_REWARD_TRACK_XP_TOOLTIP_BOOST_TITLE	Bonus d’EXP	
 GLUE_PROGRESSION_REWARDS_TITLE	Parcours de récompenses	
+GLUE_PROGRESSION_TAVERN_GUIDE_ABOUT_DESCRIPTION_1	Terminez le guide de l’auberge pour obtenir des paquets bonus, de l’EXP et de la poussière.	
+GLUE_PROGRESSION_TAVERN_GUIDE_ABOUT_DESCRIPTION_2	Vous pouvez passer l’apprentissage pour débloquer tous les modes.	
+GLUE_PROGRESSION_TAVERN_GUIDE_ABOUT_TITLE	À propos du guide de l’auberge	
+GLUE_PROGRESSION_TAVERN_GUIDE_DUST_REWARD	{0} |4(poussière,poussières)	0 = dust amount from data
+GLUE_PROGRESSION_TAVERN_GUIDE_TITLE	Guide de l’auberge	
+GLUE_PROGRESSION_TAVERN_GUIDE_XP_REWARD	{0} EXP	0 = xp amount from data
 GLUE_PROLOGUE_DH_REWARD	Terminez le prologue pour gagner des récompenses !	
 GLUE_PROLOGUE_DK_REWARD	Terminez le prologue pour débloquer la classe\nchevalier de la mort ainsi que 32 cartes.	
 GLUE_PROLOGUE_REWARD	Terminez le prologue pour débloquer la classe\nchasseur de démons ainsi que 30 cartes.	
@@ -2110,8 +2201,8 @@ GLUE_RAF_TOOLTIP_LOCKED_DESC	Vous pourrez accéder à la fonctionnalité Parrain
 GLUE_RAF_URL_BUTTON	Copier	
 GLUE_RAF_URL_TITLE	Partagez ce lien avec vos amis !	
 GLUE_RANKED_BONUS_STARS	Bonus d’étoiles	
-GLUE_RANKED_BONUS_STARS_DESCRIPTION	Vous obtenez {0} |4(étoile,étoiles) pour chaque victoire	
-GLUE_RANKED_BONUS_STARS_FINE_PRINT	(Le bonus d’étoiles diminue à mesure que vous gagnez des rangs)	
+GLUE_RANKED_BONUS_STARS_DESCRIPTION	Bonus d’étoiles ! Obtenez {0} |4(étoile,étoiles) pour chaque victoire.	
+GLUE_RANKED_BONUS_STARS_FINE_PRINT	(Le bonus d’étoiles diminue à mesure que vous gagnez des rangs.)	
 GLUE_RANKED_REWARD_APPRENTICE_COMPLETE_HEADER	Terminez le rang\nd’apprenti 1	
 GLUE_RANKED_REWARD_APPRENTICE_COMPLETE_SUBTITLE	Débloquez les récompenses de bronze et de Partie classée	
 GLUE_RANKED_REWARD_APPRENTICE_COMPLETE_TITLE	Apprenti 1	
@@ -2157,6 +2248,7 @@ GLUE_RANKED_REWARD_QUEST_LOG_LABEL_RANK_REWARD	Récompense du rang {0}	// {0} is
 GLUE_RANKED_SEASON_NAME_GENERIC	Saison de {0} {1}	0 month 1 year 2 seasonId. Explicit GLUE for season can be declared via GLUE_RANKED_SEASON_NAME_n where n is the season id.
 GLUE_RANKED_SEASON_ROLL_FLOW_TITLE	Nouveau système de Partie classée !	
 GLUE_RANKED_SYSTEM_TITLE	Système de classement	
+GLUE_RANKED_TIER_NAME_APPRENTICE	Apprentissage	
 GLUE_RANKED_TIER_NAME_BRONZE	Bronze	
 GLUE_RANKED_TIER_NAME_DIAMOND	Diamant	
 GLUE_RANKED_TIER_NAME_GOLD	Or	
@@ -2664,6 +2756,10 @@ GLUE_STORE_TRL_PREORDER_DATE	Disponible mi-décembre* !
 GLUE_STORE_TRL_PREORDER_DUST_DATE	卡牌包可以在十二月中旬\n打开！	
 GLUE_STORE_ULD_PREORDER_DATE	Disponible en août* !	
 GLUE_STORE_ULD_PREORDER_DUST_DATE	卡牌包可以在八月打开！	
+GLUE_STORE_UNAVAILABLE_REASON_MISSING_ASSETS	Téléchargez le mode pour pouvoir accéder à cette boutique.	
+GLUE_STORE_UNAVAILABLE_REASON_TITLE_LOCKED	Verrouillé	
+GLUE_STORE_UNAVAILABLE_REASON_TUTORIAL	Terminez le didacticiel pour pouvoir accéder à cette boutique.	
+GLUE_STORE_UNAVAILABLE_REASON_UNKNOWN	Il n’y a rien pour l’instant.\nRevenez plus tard.	
 GLUE_STORE_UPDATING_CURRENCY_BALANCE	Votre porte-monnaie est en cours de mise à jour. Veuillez réessayer plus tard.	
 GLUE_STORE_VALUE_MULTIPLY	Valeur ×{0} !	0=multiplier
 GLUE_STORE_VALUE_PERCENT	+{0} % de valeur !	0=percent
@@ -2945,8 +3041,8 @@ GLUE_TIP_BACON_22	Le maximum de dégâts que vous pouvez subir en une fois est l
 GLUE_TIP_BACON_23	Les <b>Râles d’agonie</b> se déclenchent avant la <b>Réincarnation</b>.	
 GLUE_TIP_BACON_24	Lorsque vous améliorez la taverne aux niveaux 2, 4 ou 6, y ajoute un serviteur supplémentaire pour le reste de la partie.	
 GLUE_TIP_BACON_25	Les serviteurs déclenchent leurs effets de fin de tour dans l’ordre, de gauche à droite.	
-GLUE_TIP_BACON_26	Les <b>anomalies</b> sont des règles spéciales qui s’appliquent à tout le salon. Elles peuvent affecter l’or, les caractéristiques des serviteurs, les points de vie des héros et héroïnes et d’autres éléments !	
-GLUE_TIP_BACON_27	Certaines <b>anomalies</b> peuvent empêcher l’utilisation de serviteurs, types de serviteurs ou héros et héroïnes spécifiques lorsqu’elles sont actives.	
+GLUE_TIP_BACON_26	Les sorts de la taverne sont des cartes qui peuvent être achetées et qui permettent de déclencher un effet unique.	
+GLUE_TIP_BACON_27	Contrairement aux serviteurs, les sorts de la taverne ne peuvent pas être vendus ou triplés.	
 GLUE_TIP_BACON_3	Quand vous gagnez un combat, votre héros ou héroïne et vos serviteurs\ninfligent des dégâts équivalents à leur niveau.	
 GLUE_TIP_BACON_4	L’amélioration de votre taverne vous coûte (1) pièce de moins à chaque tour.	
 GLUE_TIP_BACON_5	Il n’existe que sept copies des serviteurs de niveau 6.\nUne fois achetées, elles ne sont plus disponibles pour personne !	
@@ -2958,10 +3054,10 @@ GLUE_TIP_DEFAULT_0	Vous pouvez acheter des paquets de cartes supplémentaires à
 GLUE_TIP_DEFAULT_1	Cliquez sur le héros lors de la modification d’un deck pour changer le nom du deck.	
 GLUE_TIP_DEFAULT_1_TOUCH	Touchez le héros lors de la modification d’un deck pour changer le nom du deck.	
 GLUE_TIP_DEFAULT_10	L’Arène vous permet de construire un deck à partir de cartes aléatoires. Vous pouvez également gagner des récompenses !	
-GLUE_TIP_DEFAULT_11	Les cartes fondamentales s’obtiennent en gagnant des niveaux. Elles ne peuvent pas être désenchantées ou créées.	
+GLUE_TIP_DEFAULT_11	Les cartes fondamentales de classe s’obtiennent en débloquant chacune des classes. Elles ne peuvent pas être désenchantées ou créées.	
 GLUE_TIP_DEFAULT_12	Désenchanter des cartes dorées rapporte beaucoup de poussière arcanique.	
 GLUE_TIP_DEFAULT_13	Dans votre collection, vous pouvez utiliser le champ Rechercher pour trouver toutes les cartes avec Provocation.	
-GLUE_TIP_DEFAULT_14	Les cartes fondamentales s’obtiennent en augmentant le niveau d’une classe. Atteignez le niveau 10 avec chaque classe pour toutes les débloquer !	
+GLUE_TIP_DEFAULT_14	Les cartes fondamentales de classe s’obtiennent en débloquant chacune des classes. Elles ne peuvent pas être désenchantées ou créées.	
 GLUE_TIP_DEFAULT_15	Affronter de vrais joueurs vous fait gagner davantage d’EXP de récompense.	
 GLUE_TIP_DEFAULT_16	Faites un clic droit sur le héros adverse pour ignorer ses emotes.	
 GLUE_TIP_DEFAULT_16_TOUCH	Touchez le héros adverse pour ignorer ses emotes.	
@@ -3057,30 +3153,30 @@ GLUE_TIP_LETTUCE_8	Utilisez des pièces pour améliorer vos capacités et votre 
 GLUE_TIP_LETTUCE_9	Vous pouvez obtenir des pièces d’équipement en accomplissant des tâches.	
 GLUE_TIP_PLAY_0	Vous allez être associé à un joueur de votre niveau.	
 GLUE_TIP_PLAY_1	Selon vos victoires et vos défaites, nous évaluerons votre niveau et vous ferons affronter un adversaire de votre catégorie.	
-GLUE_TIP_PLAY_2	Chaque classe possède 17 cartes fondamentales différentes que vous pouvez débloquer quand vous gagnez des niveaux.	
+GLUE_TIP_PLAY_2	Chaque classe possède des cartes fondamentales différentes que vous obtenez quand vous débloquez la classe.	
 GLUE_TIP_PLAY_3	Accomplissez des quêtes pour gagner de l’EXP de récompense. Ces points d’EXP vous font progresser dans votre parcours de récompenses.	
 GLUE_TIP_PLAY_4	Le rang le plus haut en Partie classée est celui de Légende !	
 GLUE_TIP_PLAY_5	Les decks peuvent contenir deux exemplaires de chaque carte, mais un seul d’une carte légendaire.	
 GLUE_TIP_PLAY_6	L’Arène est un excellent moyen de gagner des récompenses tout en participant à une mini compétition.	
 GLUE_TIP_PLAY_7	Vous n’avez pas besoin de jouer tous vos matchs d’Arène d’un coup.	
 GLUE_TIP_PLAY_8	Si lors d’une saison, vous gagnez 5_matchs en Partie classée, vous obtiendrez le dos de carte spécifique à cette saison.	
-GLUE_TIP_PRACTICE_0	Vous pouvez débloquer les héros en gagnant contre eux en mode Entraînement.	
+GLUE_TIP_PRACTICE_0	Vous pouvez débloquer les héros et héroïnes en terminant l’apprentissage.	
 GLUE_TIP_PRACTICE_1	Le mode Entraînement n’est qu’une simple préparation pour le mode Traditionnel de Hearthstone !	
 GLUE_TIP_PRACTICE_2	Le mode traditionnel de Hearthstone vous fera affronter quelqu’un du même niveau que vous !	
 GLUE_TIP_PRACTICE_3	Vous pouvez utiliser vos cartes pour construire un deck personnalisé en vous rendant dans votre collection.	
-GLUE_TIP_PRACTICE_4	Chaque classe possède 17 cartes fondamentales différentes que vous pouvez débloquer quand vous gagnez des niveaux.	
+GLUE_TIP_PRACTICE_4	Chaque classe possède des cartes fondamentales différentes que vous obtenez quand vous débloquez la classe.	
 GLUE_TIP_PRACTICE_5	Accomplissez des quêtes en mode Partie pour gagner de l’EXP de récompense !	
 GLUE_TIP_PRACTICE_6	Attaquer le héros ? Ou les serviteurs adverses ? Répondre correctement à cette question peut souvent changer le cours d’une bataille.	
 GLUE_TIP_PRACTICE_7	Vous obtiendrez davantage d’expérience de héros après le niveau 10 en affrontant de vrais joueurs.	
 GLUE_TIP_TAVERNBRAWL_0	Chaque semaine, le Bras de fer vous propose une nouvelle façon de jouer_!	
 GLUE_TIP_TAVERNBRAWL_1	Il faut une heure pour nettoyer l’auberge après un Bras de fer, donc si ce n’est pas ouvert, revenez plus tard !	
-GLUE_TIP_TAVERNBRAWL_2		This tip was removed. Translators: please leave this blank. Blank tips are skipped over. For devs: when adding new tips later, feel free to use this slot (and update this comment).
+GLUE_TIP_TAVERNBRAWL_2	This tip was removed. Translators: please leave this blank. Blank tips are skipped over. For devs: when adding new tips later, feel free to use this slot (and update this comment).	
 GLUE_TIP_TAVERNBRAWL_3	Gagner plusieurs fois un même Bras de fer ne permet pas d’obtenir de paquets supplémentaires, c’est juste pour la gloire !	
 GLUE_TIP_TAVERNBRAWL_4	Certaines fois, vous aurez un deck préconstruit et d’autres, vous devrez en créer un. Ce sera la surprise !	
 GLUE_TIP_TAVERNBRAWL_5	Certains Bras de fer reviendront peut-être plus tard.	
 GLUE_TIP_TAVERNBRAWL_6	Vous pouvez défier un ami au Bras de fer de la semaine, tant que ce dernier est disponible.	
 GLUE_TIP_TAVERNBRAWL_7	Vous pouvez aussi faire vos quêtes en mode Bras de fer !	
-GLUE_TIP_TAVERNBRAWL_8		This tip was removed. Translators: please leave this blank. Blank tips are skipped over. For devs: when adding new tips later, feel free to use this slot (and update this comment).
+GLUE_TIP_TAVERNBRAWL_8	This tip was removed. Translators: please leave this blank. Blank tips are skipped over. For devs: when adding new tips later, feel free to use this slot (and update this comment).	
 GLUE_TOOLTIP_ALTERNATE_WINS_DESC	Gagnez {0} parties classées ou d’Arène avec cette classe et obtenez son héros honoré !	
 GLUE_TOOLTIP_BOOSTER_CURRENCY_DESCRIPTION	Dépensez des orbes arcaniques pour acheter des paquets.	
 GLUE_TOOLTIP_BOOSTER_CURRENCY_HEADER	Orbes arcaniques	
@@ -3129,6 +3225,7 @@ GLUE_TOOLTIP_HEADER_ALL_STANDARD_CARDS	Standard
 GLUE_TOOLTIP_HEADER_TWIST_CARDS	Imprévu	
 GLUE_TOOLTIP_HEADER_VANILLA_CARDS	Classique	
 GLUE_TOOLTIP_HEADER_WILD_CARDS	Libre	
+GLUE_TOOLTIP_PROGRESSION_APPRENTICE_RANK_MEDAL_DESC	Terminez l’apprentissage pour commencer à grimper dans le classement !	
 GLUE_TOOLTIP_RANKED_BUTTON	Affrontez d’autres joueurs pour tester vos compétences !	
 GLUE_TOOLTIP_RENOWN_DESCRIPTION	Obtenez des points de renommée en convertissant les pièces de vos mercenaires en trop.	
 GLUE_TOOLTIP_RENOWN_HEADER	Renommée	
@@ -3203,6 +3300,8 @@ GLUE_TROUBLESHOOTING_POPUP_TEXT	Vous rencontrez des problèmes avec le jeu ?
 GLUE_TUTORIAL_INTERSTITIAL_HEADER	Votre aventure commence	
 GLUE_TUTORIAL_INTERSTITIAL_HERONAME	Jaina	
 GLUE_TUTORIAL_INTERSTITIAL_REWARD	Terminez le didacticiel pour débloquer la classe mage et le deck de départ !	
+GLUE_TUTORIAL_SKIP_DESC_1	Passer le didacticiel est uniquement recommandé pour les joueuses et joueurs expérimentés. Permet de débloquer les champs de bataille.	
+GLUE_TUTORIAL_SKIP_DESC_2	Vous pouvez à tout moment rejouer le didacticiel de Hearthstone à partir du menu « Aide » (?).	
 GLUE_TUTORIAL_SKIP_TRADITIONAL	Voulez-vous vraiment passer le tutoriel ? Vous pouvez le relancer via le menu Aide (?).	
 GLUE_TUTORIAL_VIDEO_BANNER_BATTLEGROUNDS	Constituez votre troupe de guerre et combattez pour la couronne lors de cette bataille automatique à 8 joueurs !	
 GLUE_TUTORIAL_VIDEO_BANNER_MERCENARIES	Formez un groupe de mercenaires et faites-les monter en niveau en combattant pour la gloire et la richesse !	

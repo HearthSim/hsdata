@@ -59,6 +59,7 @@ GLOBAL_ADVENTURE_DESC_HEADER	การผจญภัย
 GLOBAL_ADVENTURE_TRAY_HEADER	เลือกการผจญภัย	
 GLOBAL_APPROXIMATE_DATETIME	~{0}	0=time string
 GLOBAL_APPROXIMATE_DATETIME_RANGE	~{0} - {1}	0=min seconds 1=max seconds string
+GLOBAL_ARENA	ลานประลอง	
 GLOBAL_ARENA_MEDAL_0	กุญแจผู้เริ่มต้น	
 GLOBAL_ARENA_MEDAL_1	กุญแจผู้ฝึกฝน	
 GLOBAL_ARENA_MEDAL_10	กุญแจฟรอสต์บอร์น	
@@ -143,6 +144,7 @@ GLOBAL_BUTTON_OWNED	มีแล้ว
 GLOBAL_BUTTON_SUBMIT	ส่ง	
 GLOBAL_BUTTON_YES	ใช่	
 GLOBAL_CANCEL	ยกเลิก	
+GLOBAL_CANCEL_MODULE_POPUP_PROMPT	ยกเลิกการดาวน์โหลด {0} หรือไม่	{0}=Module name to cancel downloading (e.g. Battlegrounds)
 GLOBAL_CARD_SET_AV	Fractured in Alterac Valley	
 GLOBAL_CARD_SET_AV_SEARCHABLE_SHORTHAND_NAMES	av fiav fav	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_AV_SHORT	Alterac Valley	
@@ -383,6 +385,31 @@ GLOBAL_DEMO_DISCLAIMER	Hearthstone เวอร์ชั่นนี้ได้
 GLOBAL_DEMO_LEARN_MORE	เรียนรู้เพิ่มเติม	
 GLOBAL_DISABLE	ปิด	
 GLOBAL_DONE	เสร็จสิ้น	
+GLOBAL_DOWNLOAD_MANAGER	ตัวจัดการการดาวน์โหลด	Label for the Download Manager menu
+GLOBAL_DOWNLOAD_MANAGER_BUTTON_CANCEL	ยกเลิก	
+GLOBAL_DOWNLOAD_MANAGER_BUTTON_DOWNLOAD	ดาวน์โหลด	
+GLOBAL_DOWNLOAD_MANAGER_BUTTON_UNINSTALL	ถอนการติดตั้ง	
+GLOBAL_DOWNLOAD_MANAGER_DISMISS_BUTTON	เสร็จสิ้น	
+GLOBAL_DOWNLOAD_MANAGER_FREE_SPACE	พื้นที่ว่าง: {0}	{0}=Free spaces available on the device (e.g. 8.23 GB)
+GLOBAL_DOWNLOAD_MANAGER_GAME_MODES	โหมดเกม	Label for the Download Manager - Game modes section
+GLOBAL_DOWNLOAD_MANAGER_OPTION_CELLULAR_DATA_DESC	อนุญาตให้ Hearthstone ใช้ข้อมูลมือถือ	
+GLOBAL_DOWNLOAD_MANAGER_OPTION_CELLULAR_DATA_LABEL	ใช้ข้อมูลมือถือหรือไม่	
+GLOBAL_DOWNLOAD_MANAGER_OPTION_ENABLE_DOWNLOAD_DESC	อนุญาตให้ Hearthstone ดาวน์โหลดข้อมูลเกม	
+GLOBAL_DOWNLOAD_MANAGER_OPTION_ENABLE_DOWNLOAD_LABEL	เปิดการดาวน์โหลดหรือไม่	
+GLOBAL_DOWNLOAD_MANAGER_OPTIONAL_ASSETS	ข้อมูลเกม	Module name for optional assets to be displayed on Download Manager
+GLOBAL_DOWNLOAD_MANAGER_PAUSE_DOWNLOADS	หยุดดาวน์โหลดชั่วคราว	
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_CANCELLING	กำลังยกเลิก...	
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_DOWNLOADING	กำลังดาวน์โหลด...{0:P2}	0=The percentage of downloaded progress
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_INSTALLED	ติดตั้งแล้ว!	
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_PAUSED	หยุดชั่วคราว	
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_QUEUED	อยู่ในคิว	
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_REMAINING	เหลืออีก: {0}	0=Time remaining. (e.g. 21:30)
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_UNINSTALLING	กำลังถอนการติดตั้ง...	
+GLOBAL_DOWNLOAD_MANAGER_RESUME_DOWNLOADS	ดาวน์โหลดต่อ	
+GLOBAL_DOWNLOAD_MANAGER_SETTINGS	การตั้งค่า	Label for the Download Manager - Settings section
+GLOBAL_DOWNLOAD_MODULE_POPUP_FILE_SIZE	ขนาดไฟล์: {0}	{0}=File size to download (e.g. 1.8GB)
+GLOBAL_DOWNLOAD_MODULE_POPUP_FREE_SPACE	พื้นที่ว่าง: {0}	{0}=Free spaces available on the device (e.g. 8.23 GB)
+GLOBAL_DOWNLOAD_MODULE_POPUP_PROMPT	ดาวน์โหลด {0} หรือไม่	{0}=Module name to download (e.g. Battlegrounds)
 GLOBAL_ENABLE	เปิด	
 GLOBAL_END_GAME	จบเกม	
 GLOBAL_ENTER	เข้าเล่น	
@@ -431,7 +458,6 @@ GLOBAL_ERROR_NETWORK_UNAVAILABLE_UNKNOWN	ขอโทษที! ภูตขี�
 GLOBAL_ERROR_NETWORK_UNAVAILABLE_UPGRADE	Hearthstone อัพเดตแล้ว! โปรดดาวน์โหลดเวอร์ชันล่าสุด	
 GLOBAL_ERROR_NETWORK_UTIL_TIMEOUT	การเชื่อมต่อของคุณหมดเวลาเนื่องจากมีการร้องขอข้อมูลจากบริการยูทิลิตี้ของ Hearthstone โปรดเปิด Hearthstone ใหม่อีกครั้งเพื่อเชื่อมต่อใหม่	
 GLOBAL_ERROR_NO_MAGE_PRECON	เราพบปัญหาเครือข่ายขณะกำลังโหลดการ์ดทั้งหมดในคอลเลกชันของคุณ โปรดเปิด Hearthstone ใหม่อีกครั้งเพื่อเข้าไปดูคอลเลกชันของคุณแล้วเล่นเกมต่อ!	
-GLOBAL_ERROR_STEAM_ACCOUNT_LINKING	เราเชื่อมโยงบัญชี Steam ของคุณกับบัญชี BattleNet ไม่สำเร็จ ให้เริ่มไคลเอนต์ Steam ใหม่แล้วลองอีกครั้ง	
 GLOBAL_ERROR_STREAMING_ASSET_TIMEOUT	หมดเวลาขณะที่รอระบบสตรีมมิ่ง กำลังโหลดข้อมูลเกม {0}	0=asset name
 GLOBAL_ERROR_UNKNOWN_ERROR	ขอโทษที! ภูตขี้เล่นเข้ามาก่อกวน Hearthstone ขณะพยายามเชื่อมโยงกับบริการ Blizzard โปรดรอสักครู่เพื่อให้พวกมันหนีไปก่อน แล้วลองเปิดเกมใหม่อีกครั้ง	
 GLOBAL_EXIT	ออก	
@@ -625,7 +651,7 @@ GLOBAL_HERO_LEVEL_REWARD_GOLD	{0} โกลด์	0=amount
 GLOBAL_HERO_LEVEL_REWARD_GOLDEN_CARD	{0} {1}	0=flair 1=card name
 GLOBAL_HERO_WINS	ชนะ: {0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HERO_WINS_PAST_MAX	ชนะ: {0}	0=number of games this class has won
-GLOBAL_HERO_WINS_PAST_MAX_PHONE	ชนะ\n{0}	0=number of games this class has won
+GLOBAL_HERO_WINS_PAST_MAX_PHONE	ชนะ: {0}	0=number of games this class has won
 GLOBAL_HERO_WINS_PHONE	ชนะ: {0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HEROIC_BRAWL	เกมท้าประลองฮีโร่	
 GLOBAL_HIDE	ซ่อน	
@@ -1100,6 +1126,8 @@ GLOBAL_MOBILECHAT_NOTIFICATION_TURN_COUNTDOWN	เวลาใกล้จะห�
 GLOBAL_MOBILECHAT_NOTIFICATION_YOUR_TURN	เทิร์นของคุณ!	
 GLOBAL_MOBILECHAT_RETURN_TO_GAME	ปิด	
 GLOBAL_MOBILECHAT_RETURN_TO_MENU	กลับสู่เมนู	
+GLOBAL_MODULE_ADVENTURE	การผจญภัยคนเดียว	Module name for adventure
+GLOBAL_MODULE_MERC	ทหารรับจ้าง	Module name for merc
 GLOBAL_MORE	เพิ่มเติม	
 GLOBAL_MY_NUM_WINS	{0}	0=number of games this player has won
 GLOBAL_NOT_AVAILABLE	ไม่พร้อมใช้งาน	
@@ -1133,7 +1161,7 @@ GLOBAL_OPTIONS_PUBLIC_CHAT_ENABLED	การแชทที่ไม่สุภ
 GLOBAL_OPTIONS_RESTORE_PURCHASES	กู้คืนการซื้อ	
 GLOBAL_OPTIONS_RESTORE_PURCHASES_POPUP_TEXT	หาสิ่งที่คุณซื้อไม่เจองั้นเหรอ ลองดูให้แน่ใจว่าคุณเข้าสู่ระบบถูกบัญชีแล้ว	
 GLOBAL_OPTIONS_SCREEN_SHAKE	เปิดการสั่นของหน้าจอ	
-GLOBAL_OPTIONS_SKIP_NPR	ข้ามการฝึกมือใหม่	
+GLOBAL_OPTIONS_SKIP_NPR	ข้ามระดับมือใหม่	
 GLOBAL_OPTIONS_SKIP_TO_RANK_25	ข้ามไปอันดับ 25	
 GLOBAL_OPTIONS_SOUND_AMBIENT_SOUNDS_VOLUME_LABEL	ระดับเสียงบรรยากาศ	
 GLOBAL_OPTIONS_SOUND_DIALOG_VOLUME_LABEL	ระดับเสียงบทสนทนา	
@@ -1180,7 +1208,10 @@ GLOBAL_PROGRAMNAME_WOW	World of Warcraft
 GLOBAL_PROGRESSION_ACHIEVEMENT_COMPLETION	สำเร็จ {0}	
 GLOBAL_PROGRESSION_ACHIEVEMENT_COMPLETION_DATE	{0:dd/MM/yyyy}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
 GLOBAL_PROGRESSION_ACHIEVEMENT_COMPLETION_PERCENTAGE	{0}%	
+GLOBAL_PROGRESSION_ACHIEVEMENT_SUBCATEGORY_LOCKED_TOOLTIP	ดาวน์โหลด {0} เพื่อดูความสำเร็จ	{0}=Localised game mode name
+GLOBAL_PROGRESSION_ACHIEVEMENT_SUBCATEGORY_LOCKED_TOOLTIP_TITLE	{0}	{0}=Localised game mode name
 GLOBAL_PROGRESSION_ACHIEVEMENT_SUBCATEGORY_NAME	{0} - {1}	
+GLOBAL_PROGRESSION_ACHIEVEMENT_TILE_LOCKED_MESSAGE	ดาวน์โหลด {0} เพื่อดู	{0}=Localised game mode name
 GLOBAL_PROGRESSION_BATTLEGROUNDS_QUESTS_POPUP_TITLE	ภารกิจรายสัปดาห์ของคุณ	
 GLOBAL_PROGRESSION_DAILY_QUESTS_POPUP_TITLE	เควสต์ของคุณ	
 GLOBAL_PROGRESSION_EVENT_QUESTS_POPUP_TITLE	เควสต์กิจกรรมของคุณ	
@@ -1303,6 +1334,7 @@ GLOBAL_RARITY_FREE	ฟรี
 GLOBAL_RARITY_LEGENDARY	ตำนาน	
 GLOBAL_RARITY_RARE	หายาก	
 GLOBAL_RECONNECT_EXIT_BUTTON	ออกจากเกม	
+GLOBAL_RECONNECT_FAIL_MODE_NOT_AVAILABLE Unable to reconnect to game, mode {0} is not downloaded	{0}=ชื่อโหมด, (เช่น Battlegrounds, ทหารรับจ้าง, การผจญภัยคนเดียว)	
 GLOBAL_RECONNECT_RECONNECTED	เชื่อมต่อกลับไปยังเกมของคุณแล้ว กำลังกลับสู่เกม...	
 GLOBAL_RECONNECT_RECONNECTED_HEADER	เชื่อมต่อใหม่แล้ว	
 GLOBAL_RECONNECT_RECONNECTED_LOGIN	เชื่อมต่อกลับไปยังเกมล่าสุดของคุณแล้ว กำลังกลับสู่เกม...	
@@ -1345,6 +1377,7 @@ GLOBAL_RETRY	ลองใหม่
 GLOBAL_RETURNING_PLAYER_GENERATED_DECK	เด็คของเจ้าของโรงแรม	
 GLOBAL_REWARD_ARCANE_DUST_HEADLINE	ได้รับผงเวทมนตร์!	
 GLOBAL_REWARD_ARCANE_ORBS_HEADLINE	ได้รับลูกแก้วเวทมนตร์!	
+GLOBAL_REWARD_ARENA_TICKET	บัตรลานประลอง	
 GLOBAL_REWARD_ARENA_TICKET_ADMIT	ใบผ่าน	the word 'admit' in capital letters - displayed like "Admit 1" and looks like a movie/fair ticket. this is the Arena Ticket reward visual.
 GLOBAL_REWARD_ARENA_TICKET_AUTHORIZED_BY	อนุญาตโดย	a label that shows up in the Arena Ticket under the Player's name indicating this ticket reward was granted by some guy.
 GLOBAL_REWARD_ARENA_TICKET_ENTRANT	ผู้เข้าประลอง	a label that shows up in the Arena Ticket under the Player's name to say this person is allowed entrance into the Arena.
@@ -1509,6 +1542,7 @@ GLOBAL_SPELL_SCHOOL_HOLY	ศักดิ์สิทธิ์
 GLOBAL_SPELL_SCHOOL_NATURE	ธรรมชาติ	
 GLOBAL_SPELL_SCHOOL_PHYSICAL_COMBAT	พลังโจมตี	
 GLOBAL_SPELL_SCHOOL_SHADOW	ความมืด	
+GLOBAL_SPELL_SCHOOL_TAVERN	โรงเตี๊ยม	
 GLOBAL_SPLASH_CLOSED_RECONNECTING	กำลังเชื่อมต่อใหม่...	
 GLOBAL_SPLASH_CLOSED_SIGN_TITLE	ปิดบริการ	
 GLOBAL_STANDARD	มาตรฐาน	
@@ -1558,6 +1592,7 @@ GLOBAL_TWIST_SEASON_TITLE_117	ยุคใหม่
 GLOBAL_TWIST_SEASON_TITLE_119	สิ่งมหัศจรรย์	
 GLOBAL_TWIST_SEASON_TITLE_120	สิ่งมหัศจรรย์ XL	
 GLOBAL_TWIST_SEASON_TITLE_121	หวนคืนสู่อันโกโร	
+GLOBAL_UNINSTALL_MODULE_POPUP_PROMPT	ถอนการติดตั้ง {0} หรือไม่	{0}=Module name to uninstall (e.g. Battlegrounds)
 GLOBAL_UPDATE	อัพเดต	
 GLOBAL_VERSION	เวอร์ชั่น	
 GLOBAL_WAIT_FOR_OPPONENT_RECONNECT	กำลังรอให้คู่ต่อสู้เชื่อมต่อกลับมา...({0}m{1}s)\nคุณสามารถไปที่เมนูตัวเลือกเพื่อจบเกมได้	

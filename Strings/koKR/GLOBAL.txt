@@ -10,9 +10,9 @@ GLOBAL_AADC_CHATSETTINGS_SETTINGSUPDATED	대화 설정 적용됨
 GLOBAL_AADC_CHATSETTINGS_TITLE	대화 설정	
 GLOBAL_AADC_CHATSETTINGS_UPDATINGSETTINGS	대화 설정 적용 중	
 GLOBAL_AADC_CHATWARNING	메시지를 통해 개인 정보를 공유하지 않도록 주의하십시오.	
-GLOBAL_AADC_FRIENDSETTINGS_DISABLEDESCRIPTION	이 설정을 끄면 같은 네트워크에 접속 중인 플레이어들이 친구 창에서 내 게임 활동을 확인할 수 없습니다.	
+GLOBAL_AADC_FRIENDSETTINGS_DISABLEDESCRIPTION	주변 플레이어 설정을 끄면 주변에 있는 플레이어들이 친구 창에서 내 게임 활동을 확인할 수 없습니다.	
 GLOBAL_AADC_FRIENDSETTINGS_DISABLEHEADER	주변 플레이어 설정을 끄시겠습니까?	
-GLOBAL_AADC_FRIENDSETTINGS_ENABLEDESCRIPTION	이 설정을 켜면 같은 네크워크에 접속 중인 플레이어들이 친구 창에서 내 게임 활동을 확인할 수 있습니다.	
+GLOBAL_AADC_FRIENDSETTINGS_ENABLEDESCRIPTION	주변 플레이어 설정을 켜면 주변에 있는 플레이어들이 친구 창에서 내 게임 활동을 확인할 수 있습니다.	
 GLOBAL_AADC_FRIENDSETTINGS_ENABLEHEADER	주변 플레이어 설정을 켜시겠습니까?	
 GLOBAL_AADC_FRIENDSETTINGS_SETTINGSUPDATED	주변 플레이어 적용됨	
 GLOBAL_AADC_FRIENDSETTINGS_TITLE	친구 설정	
@@ -59,6 +59,7 @@ GLOBAL_ADVENTURE_DESC_HEADER	모험
 GLOBAL_ADVENTURE_TRAY_HEADER	모험 선택	
 GLOBAL_APPROXIMATE_DATETIME	~{0}	0=time string
 GLOBAL_APPROXIMATE_DATETIME_RANGE	{0} ~ {1}	0=min seconds 1=max seconds string
+GLOBAL_ARENA	투기장	
 GLOBAL_ARENA_MEDAL_0	초보의 열쇠	
 GLOBAL_ARENA_MEDAL_1	수습생의 열쇠	
 GLOBAL_ARENA_MEDAL_10	서릿결 열쇠	
@@ -143,6 +144,7 @@ GLOBAL_BUTTON_OWNED	보유
 GLOBAL_BUTTON_SUBMIT	보내기	
 GLOBAL_BUTTON_YES	예	
 GLOBAL_CANCEL	취소	
+GLOBAL_CANCEL_MODULE_POPUP_PROMPT	{0} 다운로드를 취소하시겠습니까?	{0}=Module name to cancel downloading (e.g. Battlegrounds)
 GLOBAL_CARD_SET_AV	알터랙 계곡	
 GLOBAL_CARD_SET_AV_SEARCHABLE_SHORTHAND_NAMES	알터 계곡	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_AV_SHORT	알터랙 계곡	
@@ -383,6 +385,31 @@ GLOBAL_DEMO_DISCLAIMER	현재 버전의 하스스톤은 체험용으로 특별�
 GLOBAL_DEMO_LEARN_MORE	자세한 내용	
 GLOBAL_DISABLE	사용 안 함	
 GLOBAL_DONE	완료	
+GLOBAL_DOWNLOAD_MANAGER	다운로드 관리자	Label for the Download Manager menu
+GLOBAL_DOWNLOAD_MANAGER_BUTTON_CANCEL	취소	
+GLOBAL_DOWNLOAD_MANAGER_BUTTON_DOWNLOAD	다운로드	
+GLOBAL_DOWNLOAD_MANAGER_BUTTON_UNINSTALL	제거	
+GLOBAL_DOWNLOAD_MANAGER_DISMISS_BUTTON	완료	
+GLOBAL_DOWNLOAD_MANAGER_FREE_SPACE	여유 공간: {0}	{0}=Free spaces available on the device (e.g. 8.23 GB)
+GLOBAL_DOWNLOAD_MANAGER_GAME_MODES	게임 모드	Label for the Download Manager - Game modes section
+GLOBAL_DOWNLOAD_MANAGER_OPTION_CELLULAR_DATA_DESC	셀룰러 데이터로 하스스톤을 다운로드하도록 합니다.	
+GLOBAL_DOWNLOAD_MANAGER_OPTION_CELLULAR_DATA_LABEL	셀룰러 데이터	
+GLOBAL_DOWNLOAD_MANAGER_OPTION_ENABLE_DOWNLOAD_DESC	하스스톤을 다운로드하도록 합니다.	
+GLOBAL_DOWNLOAD_MANAGER_OPTION_ENABLE_DOWNLOAD_LABEL	다운로드 허용	
+GLOBAL_DOWNLOAD_MANAGER_OPTIONAL_ASSETS	파일	Module name for optional assets to be displayed on Download Manager
+GLOBAL_DOWNLOAD_MANAGER_PAUSE_DOWNLOADS	다운로드 일시 정지	
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_CANCELLING	취소 중...	
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_DOWNLOADING	다운로드 중...{0:P2}	0=The percentage of downloaded progress
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_INSTALLED	설치 완료!	
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_PAUSED	일시 정지	
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_QUEUED	대기열 등록	
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_REMAINING	남은 시간: {0}	0=Time remaining. (e.g. 21:30)
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_UNINSTALLING	제거 중...	
+GLOBAL_DOWNLOAD_MANAGER_RESUME_DOWNLOADS	다운로드 계속하기	
+GLOBAL_DOWNLOAD_MANAGER_SETTINGS	설정	Label for the Download Manager - Settings section
+GLOBAL_DOWNLOAD_MODULE_POPUP_FILE_SIZE	파일 크기: {0}	{0}=File size to download (e.g. 1.8GB)
+GLOBAL_DOWNLOAD_MODULE_POPUP_FREE_SPACE	여유 공간: {0}	{0}=Free spaces available on the device (e.g. 8.23 GB)
+GLOBAL_DOWNLOAD_MODULE_POPUP_PROMPT	{0}|1(을,를) 다운로드하시겠습니까?	{0}=Module name to download (e.g. Battlegrounds)
 GLOBAL_ENABLE	사용함	
 GLOBAL_END_GAME	대전 종료	
 GLOBAL_ENTER	입장	
@@ -431,7 +458,6 @@ GLOBAL_ERROR_NETWORK_UNAVAILABLE_UNKNOWN	이런! 하스스톤이 서버에 접�
 GLOBAL_ERROR_NETWORK_UNAVAILABLE_UPGRADE	하스스톤이 업데이트되었습니다! 최신 버전을 다운로드해 주세요.	
 GLOBAL_ERROR_NETWORK_UTIL_TIMEOUT	하스스톤 유틸리티 서비스에서 데이터를 요청하는 도중 연결 시간이 초과되었습니다. 하스스톤에 다시 접속해주세요.	
 GLOBAL_ERROR_NO_MAGE_PRECON	당신의 카드를 불러오는 동안 네트워크 문제가 발생했습니다. 하스스톤에 다시 접속해주세요.	
-GLOBAL_ERROR_STEAM_ACCOUNT_LINKING	Steam 계정을 Battle.net 계정에 연결하지 못했습니다. Steam 클라이언트를 다시 시작한 후에 다시 시도하십시오.	
 GLOBAL_ERROR_STREAMING_ASSET_TIMEOUT	스트리밍 시스템을 기다리는 중 연결 시간이 초과되었습니다. {0} 파일을 로딩하는 중이었습니다.	0=asset name
 GLOBAL_ERROR_UNKNOWN_ERROR	이런! 하스스톤이 블리자드 서비스에 접속하는 도중 호기심 많은 요정들이 장난을 쳤군요! 잠시 후에 게임에 다시 접속해주세요.	
 GLOBAL_EXIT	종료	
@@ -625,7 +651,7 @@ GLOBAL_HERO_LEVEL_REWARD_GOLD	{0} 골드	0=amount
 GLOBAL_HERO_LEVEL_REWARD_GOLDEN_CARD	{0} {1}	0=flair 1=card name
 GLOBAL_HERO_WINS	승: {0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HERO_WINS_PAST_MAX	승: {0}	0=number of games this class has won
-GLOBAL_HERO_WINS_PAST_MAX_PHONE	승리\n{0}	0=number of games this class has won
+GLOBAL_HERO_WINS_PAST_MAX_PHONE	승: {0}	0=number of games this class has won
 GLOBAL_HERO_WINS_PHONE	승: {0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HEROIC_BRAWL	영웅 난이도 난투	
 GLOBAL_HIDE	숨기기	
@@ -1100,6 +1126,8 @@ GLOBAL_MOBILECHAT_NOTIFICATION_TURN_COUNTDOWN	시간이 없습니다!
 GLOBAL_MOBILECHAT_NOTIFICATION_YOUR_TURN	나의 턴!	
 GLOBAL_MOBILECHAT_RETURN_TO_GAME	닫기	
 GLOBAL_MOBILECHAT_RETURN_TO_MENU	메뉴로 돌아가기	
+GLOBAL_MODULE_ADVENTURE	1인 모험	Module name for adventure
+GLOBAL_MODULE_MERC	용병단	Module name for merc
 GLOBAL_MORE	더 보기	
 GLOBAL_MY_NUM_WINS	{0}	0=number of games this player has won
 GLOBAL_NOT_AVAILABLE	사용 불가	
@@ -1133,7 +1161,7 @@ GLOBAL_OPTIONS_PUBLIC_CHAT_ENABLED	친구 외 채팅
 GLOBAL_OPTIONS_RESTORE_PURCHASES	구매 복구	
 GLOBAL_OPTIONS_RESTORE_PURCHASES_POPUP_TEXT	구매한 상품을 찾을 수 없나요? 상품을 구매한 계정으로 접속했는지 확인해 보세요.	
 GLOBAL_OPTIONS_SCREEN_SHAKE	화면 떨림 활성화	
-GLOBAL_OPTIONS_SKIP_NPR	수습 기간 건너뛰기	
+GLOBAL_OPTIONS_SKIP_NPR	수습생 건너뛰기	
 GLOBAL_OPTIONS_SKIP_TO_RANK_25	25등급으로 건너뛰기	
 GLOBAL_OPTIONS_SOUND_AMBIENT_SOUNDS_VOLUME_LABEL	환경 소리	
 GLOBAL_OPTIONS_SOUND_DIALOG_VOLUME_LABEL	대화	
@@ -1180,7 +1208,10 @@ GLOBAL_PROGRAMNAME_WOW	월드 오브 워크래프트
 GLOBAL_PROGRESSION_ACHIEVEMENT_COMPLETION	{0} 완료함	
 GLOBAL_PROGRESSION_ACHIEVEMENT_COMPLETION_DATE	{0:yyyy/MM/dd}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
 GLOBAL_PROGRESSION_ACHIEVEMENT_COMPLETION_PERCENTAGE	{0}%	
+GLOBAL_PROGRESSION_ACHIEVEMENT_SUBCATEGORY_LOCKED_TOOLTIP	업적을 보려면 {0}|1(을,를) 다운로드해야 합니다.	{0}=Localised game mode name
+GLOBAL_PROGRESSION_ACHIEVEMENT_SUBCATEGORY_LOCKED_TOOLTIP_TITLE	{0}	{0}=Localised game mode name
 GLOBAL_PROGRESSION_ACHIEVEMENT_SUBCATEGORY_NAME	{0} - {1}	
+GLOBAL_PROGRESSION_ACHIEVEMENT_TILE_LOCKED_MESSAGE	{0} 다운로드해서 보기	{0}=Localised game mode name
 GLOBAL_PROGRESSION_BATTLEGROUNDS_QUESTS_POPUP_TITLE	내 주간 임무	
 GLOBAL_PROGRESSION_DAILY_QUESTS_POPUP_TITLE	내 퀘스트	
 GLOBAL_PROGRESSION_EVENT_QUESTS_POPUP_TITLE	내 이벤트 퀘스트	
@@ -1303,6 +1334,7 @@ GLOBAL_RARITY_FREE	무료
 GLOBAL_RARITY_LEGENDARY	전설	
 GLOBAL_RARITY_RARE	희귀	
 GLOBAL_RECONNECT_EXIT_BUTTON	게임 종료	
+GLOBAL_RECONNECT_FAIL_MODE_NOT_AVAILABLE Unable to reconnect to game, mode {0} is not downloaded	{0}=모드 이름, (예, 전장, 용병단, 1인 모험)	
 GLOBAL_RECONNECT_RECONNECTED	게임에 재접속하였습니다. 게임을 재개하는 중입니다.	
 GLOBAL_RECONNECT_RECONNECTED_HEADER	재접속됨	
 GLOBAL_RECONNECT_RECONNECTED_LOGIN	이전 게임에 재접속하였습니다. 게임을 재개하는 중입니다.	
@@ -1345,6 +1377,7 @@ GLOBAL_RETRY	재시도
 GLOBAL_RETURNING_PLAYER_GENERATED_DECK	여관주인의 덱	
 GLOBAL_REWARD_ARCANE_DUST_HEADLINE	신비한 가루 획득!	
 GLOBAL_REWARD_ARCANE_ORBS_HEADLINE	비전 보주 획득!	
+GLOBAL_REWARD_ARENA_TICKET	투기장 입장권	
 GLOBAL_REWARD_ARENA_TICKET_ADMIT	입장 허가	the word 'admit' in capital letters - displayed like "Admit 1" and looks like a movie/fair ticket. this is the Arena Ticket reward visual.
 GLOBAL_REWARD_ARENA_TICKET_AUTHORIZED_BY	발송인:	a label that shows up in the Arena Ticket under the Player's name indicating this ticket reward was granted by some guy.
 GLOBAL_REWARD_ARENA_TICKET_ENTRANT	수령인:	a label that shows up in the Arena Ticket under the Player's name to say this person is allowed entrance into the Arena.
@@ -1509,6 +1542,7 @@ GLOBAL_SPELL_SCHOOL_HOLY	신성
 GLOBAL_SPELL_SCHOOL_NATURE	자연	
 GLOBAL_SPELL_SCHOOL_PHYSICAL_COMBAT	공격	
 GLOBAL_SPELL_SCHOOL_SHADOW	암흑	
+GLOBAL_SPELL_SCHOOL_TAVERN	선술집	
 GLOBAL_SPLASH_CLOSED_RECONNECTING	다시 연결하는 중...	
 GLOBAL_SPLASH_CLOSED_SIGN_TITLE	사용 불가	
 GLOBAL_STANDARD	정규	
@@ -1558,6 +1592,7 @@ GLOBAL_TWIST_SEASON_TITLE_117	신시대
 GLOBAL_TWIST_SEASON_TITLE_119	신비 엔진	
 GLOBAL_TWIST_SEASON_TITLE_120	특대 불가사의	
 GLOBAL_TWIST_SEASON_TITLE_121	운고로를 향한 귀환	
+GLOBAL_UNINSTALL_MODULE_POPUP_PROMPT	{0}|1(을,를) 제거하시겠습니까?	{0}=Module name to uninstall (e.g. Battlegrounds)
 GLOBAL_UPDATE	업데이트	
 GLOBAL_VERSION	버전	
 GLOBAL_WAIT_FOR_OPPONENT_RECONNECT	상대방이 재접속하길 기다리는 중... ({0}분 {1}초)\n메뉴에서 게임을 종료할 수 있습니다.	

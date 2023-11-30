@@ -10,9 +10,9 @@ GLOBAL_AADC_CHATSETTINGS_SETTINGSUPDATED	Настройки чата измен�
 GLOBAL_AADC_CHATSETTINGS_TITLE	Настройки чата	
 GLOBAL_AADC_CHATSETTINGS_UPDATINGSETTINGS	Изменение настроек чата	
 GLOBAL_AADC_CHATWARNING	Старайтесь вести себя осмотрительно и не упоминать личную информацию в сообщениях.	
-GLOBAL_AADC_FRIENDSETTINGS_DISABLEDESCRIPTION	Если отключить этот параметр, игроки в вашем списке друзей не смогут наблюдать за вашими действиями.	
+GLOBAL_AADC_FRIENDSETTINGS_DISABLEDESCRIPTION	Если отключить этот параметр, игроки рядом с вами не будут видеть ваши действия в вашем списке друзей.	
 GLOBAL_AADC_FRIENDSETTINGS_DISABLEHEADER	Отключить отслеживание игроков поблизости?	
-GLOBAL_AADC_FRIENDSETTINGS_ENABLEDESCRIPTION	Если включить этот параметр, игроки в вашем списке друзей смогут наблюдать за вашими действиями.	
+GLOBAL_AADC_FRIENDSETTINGS_ENABLEDESCRIPTION	Если вы включите отслеживание игроков поблизости, игроки рядом с вами будут видеть ваши действия в списке друзей.	
 GLOBAL_AADC_FRIENDSETTINGS_ENABLEHEADER	Включить отслеживание игроков поблизости?	
 GLOBAL_AADC_FRIENDSETTINGS_SETTINGSUPDATED	Список игроков поблизости обновлен	
 GLOBAL_AADC_FRIENDSETTINGS_TITLE	Параметры друзей	
@@ -59,6 +59,7 @@ GLOBAL_ADVENTURE_DESC_HEADER	Приключения
 GLOBAL_ADVENTURE_TRAY_HEADER	Выберите приключение	
 GLOBAL_APPROXIMATE_DATETIME	~{0}	0=time string
 GLOBAL_APPROXIMATE_DATETIME_RANGE	~{0} – {1}	0=min seconds 1=max seconds string
+GLOBAL_ARENA	Арена	
 GLOBAL_ARENA_MEDAL_0	Ключ новичка	
 GLOBAL_ARENA_MEDAL_1	Ключ ученика	
 GLOBAL_ARENA_MEDAL_10	Ледяной ключ	
@@ -143,6 +144,7 @@ GLOBAL_BUTTON_OWNED	В коллекции
 GLOBAL_BUTTON_SUBMIT	Отправить	
 GLOBAL_BUTTON_YES	Да	
 GLOBAL_CANCEL	Отмена	
+GLOBAL_CANCEL_MODULE_POPUP_PROMPT	Отменить загрузку «{0}»?	{0}=Module name to cancel downloading (e.g. Battlegrounds)
 GLOBAL_CARD_SET_AV	Разделенные Альтераком	
 GLOBAL_CARD_SET_AV_SEARCHABLE_SHORTHAND_NAMES	А РА	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_AV_SHORT	Альтеракская долина	
@@ -383,6 +385,31 @@ GLOBAL_DEMO_DISCLAIMER	Эта версия игры Hearthstone предназн
 GLOBAL_DEMO_LEARN_MORE	Подробнее	
 GLOBAL_DISABLE	Отключить	
 GLOBAL_DONE	Готово	
+GLOBAL_DOWNLOAD_MANAGER	Диспетчер загрузок	Label for the Download Manager menu
+GLOBAL_DOWNLOAD_MANAGER_BUTTON_CANCEL	Отмена	
+GLOBAL_DOWNLOAD_MANAGER_BUTTON_DOWNLOAD	Загрузить	
+GLOBAL_DOWNLOAD_MANAGER_BUTTON_UNINSTALL	Удалить	
+GLOBAL_DOWNLOAD_MANAGER_DISMISS_BUTTON	Готово	
+GLOBAL_DOWNLOAD_MANAGER_FREE_SPACE	Свободное место: {0}	{0}=Free spaces available on the device (e.g. 8.23 GB)
+GLOBAL_DOWNLOAD_MANAGER_GAME_MODES	Режимы	Label for the Download Manager - Game modes section
+GLOBAL_DOWNLOAD_MANAGER_OPTION_CELLULAR_DATA_DESC	Разрешить Hearthstone загрузку по мобильной сети.	
+GLOBAL_DOWNLOAD_MANAGER_OPTION_CELLULAR_DATA_LABEL	Мобильная связь?	
+GLOBAL_DOWNLOAD_MANAGER_OPTION_ENABLE_DOWNLOAD_DESC	Разрешить Hearthstone загрузку данных.	
+GLOBAL_DOWNLOAD_MANAGER_OPTION_ENABLE_DOWNLOAD_LABEL	Разрешить загрузку?	
+GLOBAL_DOWNLOAD_MANAGER_OPTIONAL_ASSETS	Ресурсы	Module name for optional assets to be displayed on Download Manager
+GLOBAL_DOWNLOAD_MANAGER_PAUSE_DOWNLOADS	Приостановить загрузку	
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_CANCELLING	Отмена...	
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_DOWNLOADING	Загрузка...{0:P2}	0=The percentage of downloaded progress
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_INSTALLED	Установка завершена!	
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_PAUSED	Пауза	
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_QUEUED	В очереди	
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_REMAINING	Оставшееся время: {0}	0=Time remaining. (e.g. 21:30)
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_UNINSTALLING	Удаление...	
+GLOBAL_DOWNLOAD_MANAGER_RESUME_DOWNLOADS	Возобновить загрузку	
+GLOBAL_DOWNLOAD_MANAGER_SETTINGS	Параметры	Label for the Download Manager - Settings section
+GLOBAL_DOWNLOAD_MODULE_POPUP_FILE_SIZE	Размер файла: {0}	{0}=File size to download (e.g. 1.8GB)
+GLOBAL_DOWNLOAD_MODULE_POPUP_FREE_SPACE	Свободное место: {0}	{0}=Free spaces available on the device (e.g. 8.23 GB)
+GLOBAL_DOWNLOAD_MODULE_POPUP_PROMPT	Загрузить «{0}»?	{0}=Module name to download (e.g. Battlegrounds)
 GLOBAL_ENABLE	Включить	
 GLOBAL_END_GAME	Конец игры	
 GLOBAL_ENTER	Войти	
@@ -431,7 +458,6 @@ GLOBAL_ERROR_NETWORK_UNAVAILABLE_UNKNOWN	Ой! Похоже, шаловливы�
 GLOBAL_ERROR_NETWORK_UNAVAILABLE_UPGRADE	Для Hearthstone вышло обновление! Пожалуйста, загрузите последнюю версию игры.	
 GLOBAL_ERROR_NETWORK_UTIL_TIMEOUT	Превышено время ожидания при запросе данных сервисной службы Hearthstone. Для продолжения игры перезапустите Hearthstone.	
 GLOBAL_ERROR_NO_MAGE_PRECON	У нас возникли некоторые сетевые неполадки при загрузке карт вашей коллекции. Пожалуйста, перезапустите Hearthstone, чтобы получить доступ к коллекции и продолжить играть.	
-GLOBAL_ERROR_STEAM_ACCOUNT_LINKING	Не удалось связать вашу учетную запись Steam с учетной записью BattleNet. Перезапустите клиент Steam и повторите попытку.	
 GLOBAL_ERROR_STREAMING_ASSET_TIMEOUT	Превышено время ожидания системы потоковой загрузки при попытке загрузки ресурса {0}.	0=asset name
 GLOBAL_ERROR_UNKNOWN_ERROR	Ой! Похоже, шаловливые бесы мешают вашему клиенту Hearthstone подключиться к службе Blizzard. Подождите несколько минут, пока мы попытаемся их изгнать, после чего вам надо будет перезапустить игру.	
 GLOBAL_EXIT	Выход	
@@ -625,7 +651,7 @@ GLOBAL_HERO_LEVEL_REWARD_GOLD	Золото: {0}	0=amount
 GLOBAL_HERO_LEVEL_REWARD_GOLDEN_CARD	{0} «{1}»	0=flair 1=card name
 GLOBAL_HERO_WINS	Побед: {0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HERO_WINS_PAST_MAX	Побед: {0}	0=number of games this class has won
-GLOBAL_HERO_WINS_PAST_MAX_PHONE	Побед\n{0}	0=number of games this class has won
+GLOBAL_HERO_WINS_PAST_MAX_PHONE	Побед: {0}	0=number of games this class has won
 GLOBAL_HERO_WINS_PHONE	Побед: {0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HEROIC_BRAWL	Героическая потасовка	
 GLOBAL_HIDE	Скрыть	
@@ -1100,6 +1126,8 @@ GLOBAL_MOBILECHAT_NOTIFICATION_TURN_COUNTDOWN	Время заканчивает�
 GLOBAL_MOBILECHAT_NOTIFICATION_YOUR_TURN	Ваш ход!	
 GLOBAL_MOBILECHAT_RETURN_TO_GAME	Закрыть	
 GLOBAL_MOBILECHAT_RETURN_TO_MENU	Вернуться в меню	
+GLOBAL_MODULE_ADVENTURE	Приключения	Module name for adventure
+GLOBAL_MODULE_MERC	Наемники	Module name for merc
 GLOBAL_MORE	Дополнительно	
 GLOBAL_MY_NUM_WINS	{0}	0=number of games this player has won
 GLOBAL_NOT_AVAILABLE	Недоступно	
@@ -1180,7 +1208,10 @@ GLOBAL_PROGRAMNAME_WOW	World of Warcraft
 GLOBAL_PROGRESSION_ACHIEVEMENT_COMPLETION	Получено: {0}	
 GLOBAL_PROGRESSION_ACHIEVEMENT_COMPLETION_DATE	{0:dd/MM/yyyy}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
 GLOBAL_PROGRESSION_ACHIEVEMENT_COMPLETION_PERCENTAGE	{0}%	
+GLOBAL_PROGRESSION_ACHIEVEMENT_SUBCATEGORY_LOCKED_TOOLTIP	Загрузите «{0}», чтобы увидеть достижения	{0}=Localised game mode name
+GLOBAL_PROGRESSION_ACHIEVEMENT_SUBCATEGORY_LOCKED_TOOLTIP_TITLE	{0}	{0}=Localised game mode name
 GLOBAL_PROGRESSION_ACHIEVEMENT_SUBCATEGORY_NAME	{0} — {1}	
+GLOBAL_PROGRESSION_ACHIEVEMENT_TILE_LOCKED_MESSAGE	Загрузите «{0}»	{0}=Localised game mode name
 GLOBAL_PROGRESSION_BATTLEGROUNDS_QUESTS_POPUP_TITLE	Ваши еженедельные задания	
 GLOBAL_PROGRESSION_DAILY_QUESTS_POPUP_TITLE	Задания	
 GLOBAL_PROGRESSION_EVENT_QUESTS_POPUP_TITLE	Ваши задания события	
@@ -1303,6 +1334,7 @@ GLOBAL_RARITY_FREE	Бесплатная
 GLOBAL_RARITY_LEGENDARY	Легендарная	
 GLOBAL_RARITY_RARE	Редкая	
 GLOBAL_RECONNECT_EXIT_BUTTON	Выход	
+GLOBAL_RECONNECT_FAIL_MODE_NOT_AVAILABLE Unable to reconnect to game, mode {0} is not downloaded	{0} = название режима (поля сражений, наемники, приключения и т.д.)	
 GLOBAL_RECONNECT_RECONNECTED	Повторное подключение к игре прошло успешно. Продолжение игры...	
 GLOBAL_RECONNECT_RECONNECTED_HEADER	Переподключение	
 GLOBAL_RECONNECT_RECONNECTED_LOGIN	Повторное подключение к вашей последней игре прошло успешно. Продолжение игры...	
@@ -1345,6 +1377,7 @@ GLOBAL_RETRY	Повторить попытку
 GLOBAL_RETURNING_PLAYER_GENERATED_DECK	Колода хозяина таверны	
 GLOBAL_REWARD_ARCANE_DUST_HEADLINE	Чародейная пыль!	
 GLOBAL_REWARD_ARCANE_ORBS_HEADLINE	Получены чародейские сферы!	
+GLOBAL_REWARD_ARENA_TICKET	Билет на арену	
 GLOBAL_REWARD_ARENA_TICKET_ADMIT	ПРОПУСК	the word 'admit' in capital letters - displayed like "Admit 1" and looks like a movie/fair ticket. this is the Arena Ticket reward visual.
 GLOBAL_REWARD_ARENA_TICKET_AUTHORIZED_BY	Выдан	a label that shows up in the Arena Ticket under the Player's name indicating this ticket reward was granted by some guy.
 GLOBAL_REWARD_ARENA_TICKET_ENTRANT	Участник	a label that shows up in the Arena Ticket under the Player's name to say this person is allowed entrance into the Arena.
@@ -1509,6 +1542,7 @@ GLOBAL_SPELL_SCHOOL_HOLY	Свет
 GLOBAL_SPELL_SCHOOL_NATURE	Природа	
 GLOBAL_SPELL_SCHOOL_PHYSICAL_COMBAT	Атака	
 GLOBAL_SPELL_SCHOOL_SHADOW	Тьма	
+GLOBAL_SPELL_SCHOOL_TAVERN	Таверна	
 GLOBAL_SPLASH_CLOSED_RECONNECTING	Подключение...	
 GLOBAL_SPLASH_CLOSED_SIGN_TITLE	Закрыто	
 GLOBAL_STANDARD	Стандартный	
@@ -1558,6 +1592,7 @@ GLOBAL_TWIST_SEASON_TITLE_117	Новый век
 GLOBAL_TWIST_SEASON_TITLE_119	Чудеса	
 GLOBAL_TWIST_SEASON_TITLE_120	Чудеса XL	
 GLOBAL_TWIST_SEASON_TITLE_121	Возвращение в Ун'Горо	
+GLOBAL_UNINSTALL_MODULE_POPUP_PROMPT	Удалить «{0}»?	{0}=Module name to uninstall (e.g. Battlegrounds)
 GLOBAL_UPDATE	Обновить	
 GLOBAL_VERSION	Версия	
 GLOBAL_WAIT_FOR_OPPONENT_RECONNECT	Ожидание повторного подключения противника...({0} мин. {1} сек.)\nВы можете перейти в меню настроек, чтобы закончить игру.	

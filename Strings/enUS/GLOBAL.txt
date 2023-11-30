@@ -38,8 +38,8 @@ GLOBAL_AADC_FRIENDSETTINGS_TITLE	Friend Settings
 GLOBAL_AADC_NEARBY_PLAYER_SETTINGS_TITLE	Nearby Players
 GLOBAL_AADC_FRIENDSETTINGS_ENABLEHEADER	Turn on nearby players?
 GLOBAL_AADC_FRIENDSETTINGS_DISABLEHEADER	Turn off nearby players?
-GLOBAL_AADC_FRIENDSETTINGS_ENABLEDESCRIPTION	Turning this on will allow players on your network to view your game activity in their friends list.
-GLOBAL_AADC_FRIENDSETTINGS_DISABLEDESCRIPTION	Turning this off will prevent players on your network from viewing your game activity in their friends list.
+GLOBAL_AADC_FRIENDSETTINGS_ENABLEDESCRIPTION	Enabling nearby players will allow players close to your location to view your game activity in your friends list.
+GLOBAL_AADC_FRIENDSETTINGS_DISABLEDESCRIPTION	Disabling nearby players will prevent players close to your location from viewing your game activity in your friends list.
 GLOBAL_AADC_FRIENDSETTINGS_UPDATINGSETTINGS	Updating nearby players
 GLOBAL_AADC_FRIENDSETTINGS_SETTINGSUPDATED	Nearby players updated
 GLOBAL_AADC_FRIENDSETTINGS_TURN_OFF_BUTTON	Turn Off
@@ -576,7 +576,7 @@ GLOBAL_MY_NUM_WINS	{0}	0=number of games this player has won
 GLOBAL_HERO_WINS	Wins: {0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HERO_WINS_PHONE	Wins: {0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HERO_WINS_PAST_MAX	Wins: {0}	0=number of games this class has won
-GLOBAL_HERO_WINS_PAST_MAX_PHONE	Wins\n{0}	0=number of games this class has won
+GLOBAL_HERO_WINS_PAST_MAX_PHONE	Wins: {0}	0=number of games this class has won
 GLOBAL_PLAY	Play
 GLOBAL_PLAY_RANKED	Play Ranked
 GLOBAL_PLAY_STANDARD	Play Standard
@@ -656,6 +656,7 @@ GLOBAL_LEAVE_SPECTATOR_MODE	Leave
 GLOBAL_RESUME_GAME	Resume
 GLOBAL_RESTART	Restart
 GLOBAL_GAME_MENU	Game Menu
+GLOBAL_ARENA	Arena
 GLOBAL_TAVERN_BRAWL	Tavern Brawl
 GLOBAL_BATTLEGROUNDS	Battlegrounds
 GLOBAL_MERCENARIES	Mercenaries
@@ -743,7 +744,6 @@ GLOBAL_ERROR_NETWORK_UNAVAILABLE_UNKNOWN	Oops! Playful sprites have disrupted He
 GLOBAL_ERROR_NETWORK_ADVENTURE_RECONNECT_TIMEOUT	Your game has been saved. Relaunch Hearthstone to continue where you left off.
 GLOBAL_ERROR_ACCOUNT_LICENSES	We had some trouble checking what you own, so some things might be missing. Sorry about that! We'll try again next time you log on.
 GLOBAL_ERROR_NO_MAGE_PRECON	We just ran into a network problem as we were loading up all the cards in your collection. Please relaunch Hearthstone to access your collection and resume your duels!
-GLOBAL_ERROR_STEAM_ACCOUNT_LINKING	We could not link your Steam account to BattleNet account. Restart Steam client and try again.
 GLOBAL_MOBILE_ERROR_UNSUPPORTED_IOS_PHONE_DETECTED	Sorry, Hearthstone requires an iPhone 6s or iPod Touch 7 or later.
 GLOBAL_MOBILE_ERROR_UNSUPPORTED_IOS_TABLET_DETECTED	Sorry, Hearthstone requires an iPad 5 or iPad Air 2 or iPad mini 4 or later.
 GLOBAL_MOBILE_ERROR_ANDROID_PHONE_DETECTED	Sorry, Hearthstone currently only runs on Android tablets 6" or larger.
@@ -1161,7 +1161,7 @@ GLOBAL_OPTIONS_RESTORE_PURCHASES_POPUP_TEXT	Can't find something you've purchase
 GLOBAL_OPTIONS_OTHER_LABEL	Other
 GLOBAL_OPTIONS_PRIVACY_POLICY	Manage Privacy
 GLOBAL_OPTIONS_SKIP_TO_RANK_25	Skip to Rank 25
-GLOBAL_OPTIONS_SKIP_NPR	Skip Apprenticeship
+GLOBAL_OPTIONS_SKIP_NPR	Skip Apprentice
 GLOBAL_REWARD_BOOSTER_HEADLINE_GENERIC	Pack earned!
 GLOBAL_REWARD_BOOSTER_HEADLINE_MULTIPLE	{0} |4(pack,packs) earned!
 GLOBAL_REWARD_BOOSTER_HEADLINE_OUT_OF_BAND	Card Pack granted!
@@ -1178,6 +1178,7 @@ GLOBAL_REWARD_FORGE_UNLOCKED_HEADLINE	Arena Unlocked!
 GLOBAL_REWARD_FORGE_UNLOCKED_SOURCE	Awarded for entering the Arena
 GLOBAL_REWARD_FORGE_HEADLINE	Arena Entry Granted
 GLOBAL_REWARD_FORGE_DETAILS_OUT_OF_BAND	{0} arena |4(admission was,admissions were) added to your account from outside of the game.	0=count
+GLOBAL_REWARD_ARENA_TICKET	Arena Ticket
 GLOBAL_REWARD_ARENA_TICKET_HEADLINE	Free Ticket!
 GLOBAL_REWARD_ARENA_TICKET_LABEL	The Arena
 GLOBAL_REWARD_ARENA_TICKET_TITLE	Tavern
@@ -1421,6 +1422,7 @@ GLOBAL_SPELL_SCHOOL_HOLY	Holy
 GLOBAL_SPELL_SCHOOL_SHADOW	Shadow
 GLOBAL_SPELL_SCHOOL_FEL	Fel
 GLOBAL_SPELL_SCHOOL_PHYSICAL_COMBAT	Attack
+GLOBAL_SPELL_SCHOOL_TAVERN	Tavern
 GLOBAL_PLAYER_MIGRATION_RESTART_HEADER	Account needs to be updated
 GLOBAL_PLAYER_MIGRATION_RESTART_BODY	Your account needs to be updated.\nPlease restart the game.
 GLOBAL_PROGRESSION_PROFILE_PLAY_MODE	Traditional Hearthstone
@@ -1448,6 +1450,9 @@ GLOBAL_PROGRESSION_ACHIEVEMENT_COMPLETION	Completed {0}
 GLOBAL_PROGRESSION_ACHIEVEMENT_COMPLETION_PERCENTAGE	{0}%
 GLOBAL_PROGRESSION_ACHIEVEMENT_COMPLETION_DATE	{0:yyyy/MM/dd}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
 GLOBAL_PROGRESSION_ACHIEVEMENT_SUBCATEGORY_NAME	{0} - {1}
+GLOBAL_PROGRESSION_ACHIEVEMENT_SUBCATEGORY_LOCKED_TOOLTIP_TITLE	{0}	{0}=Localised game mode name
+GLOBAL_PROGRESSION_ACHIEVEMENT_SUBCATEGORY_LOCKED_TOOLTIP	Download {0} to view achievements.	{0}=Localised game mode name
+GLOBAL_PROGRESSION_ACHIEVEMENT_TILE_LOCKED_MESSAGE	Download {0} to view	{0}=Localised game mode name
 GLOBAL_PROGRESSION_PROGRESS_MESSAGE	{0} / {1}
 GLOBAL_PROGRESSION_TIER_MESSAGE	{0}/{1}
 GLOBAL_PROGRESSION_REWARD_SUMMARY	{0}\n{1}
@@ -1566,3 +1571,33 @@ GLOBAL_KEYWORD_QUICKDRAW_REF_TEXT	A bonus if this entered your hand this turn.
 GLOBAL_KEYWORD_EXCAVATE	Excavate
 GLOBAL_KEYWORD_EXCAVATE_TEXT	Dig for increasingly rarer treasures. Resets after the highest Rarity.
 GLOBAL_KEYWORD_EXCAVATE_REF_TEXT	Dig for increasingly rarer treasures. Resets after the highest Rarity.
+GLOBAL_DOWNLOAD_MANAGER	Download Manager	Label for the Download Manager menu
+GLOBAL_DOWNLOAD_MANAGER_GAME_MODES	Game Modes	Label for the Download Manager - Game modes section
+GLOBAL_DOWNLOAD_MANAGER_SETTINGS	Settings	Label for the Download Manager - Settings section
+GLOBAL_DOWNLOAD_MANAGER_BUTTON_DOWNLOAD	Download
+GLOBAL_DOWNLOAD_MANAGER_BUTTON_CANCEL	Cancel
+GLOBAL_DOWNLOAD_MANAGER_BUTTON_UNINSTALL	Uninstall
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_DOWNLOADING	Downloading...{0:P2}	0=The percentage of downloaded progress
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_PAUSED	Paused
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_INSTALLED	Installed!
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_QUEUED	Queued
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_CANCELLING	Cancelling...
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_UNINSTALLING	Uninstalling...
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_REMAINING	Remaining: {0}	0=Time remaining. (e.g. 21:30)
+GLOBAL_DOWNLOAD_MANAGER_FREE_SPACE	Available Space: {0}	{0}=Free spaces available on the device (e.g. 8.23 GB)
+GLOBAL_DOWNLOAD_MANAGER_PAUSE_DOWNLOADS	Pause Downloads
+GLOBAL_DOWNLOAD_MANAGER_RESUME_DOWNLOADS	Resume Downloads
+GLOBAL_DOWNLOAD_MANAGER_OPTION_ENABLE_DOWNLOAD_LABEL	Enable Download?
+GLOBAL_DOWNLOAD_MANAGER_OPTION_ENABLE_DOWNLOAD_DESC	Allow Hearthstone to download assets.
+GLOBAL_DOWNLOAD_MANAGER_OPTION_CELLULAR_DATA_LABEL	Cellular Data?
+GLOBAL_DOWNLOAD_MANAGER_OPTION_CELLULAR_DATA_DESC	Allow Hearthstone to use cellular data.
+GLOBAL_DOWNLOAD_MODULE_POPUP_PROMPT	Download {0}?	{0}=Module name to download (e.g. Battlegrounds)
+GLOBAL_UNINSTALL_MODULE_POPUP_PROMPT	Uninstall {0}?	{0}=Module name to uninstall (e.g. Battlegrounds)
+GLOBAL_CANCEL_MODULE_POPUP_PROMPT	Cancel downloading {0}?	{0}=Module name to cancel downloading (e.g. Battlegrounds)
+GLOBAL_DOWNLOAD_MODULE_POPUP_FILE_SIZE	File size: {0}	{0}=File size to download (e.g. 1.8GB)
+GLOBAL_DOWNLOAD_MODULE_POPUP_FREE_SPACE	Available Space: {0}	{0}=Free spaces available on the device (e.g. 8.23 GB)
+GLOBAL_DOWNLOAD_MANAGER_DISMISS_BUTTON	Done
+GLOBAL_DOWNLOAD_MANAGER_OPTIONAL_ASSETS	Assets	Module name for optional assets to be displayed on Download Manager
+GLOBAL_MODULE_MERC	Mercenaries	Module name for merc
+GLOBAL_MODULE_ADVENTURE	Solo Adventures	Module name for adventure
+GLOBAL_RECONNECT_FAIL_MODE_NOT_AVAILABLE Unable to reconnect to game, mode {0} is not downloaded	{0}=Name of the mode, (e.g. Battlegrounds, Mercenaries, Solo Adventures)

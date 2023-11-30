@@ -547,7 +547,9 @@ GLUE_CHECKOUT_ERROR_GENERIC_FAILURE	Ups! Coś poszło nie tak. Spróbuj ponownie
 GLUE_CHECKOUT_ERROR_INSUFFICIENT_FUNDS	Nie masz dość środków, by sfinalizować ten zakup.	
 GLUE_CHECKOUT_ERROR_PRODUCT_UNAVAILABLE	Ten produkt nie jest obecnie dostępny.	
 GLUE_CHECKOUT_HICKORY_ACCOUNT_FAILURE	Nie możesz dokonywać zakupów przez swoje konto. Sprawdź ustawienia konta lub skontaktuj się z działem pomocy HICKORY, aby uzyskać więcej informacji.	
+GLUE_CHECKOUT_HICKORY_BLOCKED_FAILURE	Aby dokonać zakupu, skontaktuj się z działem obsługi klienta Blizzard.	
 GLUE_CHECKOUT_HICKORY_OVERLAY_FAILURE	Aby dokonywać zakupów, musisz włączyć nakładkę. Możesz to zrobić w menu ustawień.	
+GLUE_CHECKOUT_HICKORY_PENDING_FAILURE	Masz niezrealizowany zakup. Odczekaj przed dokonaniem kolejnego zakupu.	
 GLUE_CHECKOUT_HICKORY_RECONCILE_FAILURE	Wystąpił błąd związany z twoim oczekującym zakupem. Zrestartuj klienta.	
 GLUE_CHECKOUT_HICKORY_TIMEOUT_FAILURE	Upłynął czas na dokonanie zakupu.	
 GLUE_CHINA_STORE_BOOSTER_GIFT	赠礼：\n{0}包卡牌包	
@@ -576,6 +578,7 @@ GLUE_CLASS_DESCRIPTION_WARLOCK	Poświęć wszystko i wszystkich walcząc o zdoby
 GLUE_CLASS_DESCRIPTION_WARRIOR	Zmiażdż wrogów potężną bronią i pozwól, by żądza krwi dodała ci sił.	
 GLUE_CLASS_INVALID_DECK_DESC	Ta talia jest niewłaściwa dla tej klasy.	
 GLUE_CLASS_INVALID_DECK_TITLE	Niewłaściwa klasa	
+GLUE_CLASS_UNLOCK_DESCRIPTION	{0} – klasa i talia	
 GLUE_CLASS_UNLOCKED_CARDS_DEATHKNIGHT	Karty rycerza śmierci dostępne w twojej kolekcji!	
 GLUE_CLASS_UNLOCKED_CARDS_DEMONHUNTER	Karty łowcy demonów dostępne w twojej kolekcji!	
 GLUE_CLASS_UNLOCKED_CARDS_MORE	+27 innych kart	
@@ -669,7 +672,7 @@ GLUE_COLLECTION_DECK_HELP_BUTTON	Pomocnik
 GLUE_COLLECTION_DECK_HELPER_REPLACE_BANNED_CARD	Wykluczona karta	
 GLUE_COLLECTION_DECK_HELPER_REPLACE_CARD	Wymień tę kartę	
 GLUE_COLLECTION_DECK_HELPER_REPLACE_INVALID_CARD	Niedozwolone w tym formacie	
-GLUE_COLLECTION_DECK_HELPER_REPLACE_INVALID_CARD_NPR	Wymaga ukończenia szkolenia	
+GLUE_COLLECTION_DECK_HELPER_REPLACE_INVALID_CARD_NPR	Wymaga ukończenia trybu Nowicjusz	
 GLUE_COLLECTION_DECK_HELPER_REPLACE_UNOWNED_CARD	Nie posiadasz	
 GLUE_COLLECTION_DECK_HELPER_REPLACE_UNPLAYABLE_CARD	Jeszcze niegrywalna	
 GLUE_COLLECTION_DECK_HERO_NOT_UNLOCKED	Masz talię w schowku, ale ten bohater jest zablokowany.	
@@ -678,7 +681,7 @@ GLUE_COLLECTION_DECK_INCOMPLETE_LABEL_TOUCH	Dotknij, aby dokończyć
 GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_HEADER	Niedokończona talia	
 GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_TEXT	Do pełnej talii brakuje ci {0} |4(karty,kart,kart).\nUzupełnić talię automatycznie?	
 GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_TEXT_CLICK_TO_FIX_DISABLED	Do pełnej talii brakuje ci {0} |4(karty,kart,kart).	
-GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_TEXT_NPR	{0} |4(karta wymaga,karty wymagają,kart wymaga) ukończenia szkolenia.\nCzy chcesz wymienić |4(ją,je,je) automatycznie?	
+GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_TEXT_NPR	{0} |4(karta wymaga,karty wymagają,kart wymaga) ukończenia trybu Nowicjusz.\nCzy chcesz wymienić |4(ją,je,je) automatycznie?	
 GLUE_COLLECTION_DECK_INFO_HERO_POWER_TOOLTIP	Moc specjalna	
 GLUE_COLLECTION_DECK_INFO_MANA_TOOLTIP	Karty/Koszt many	
 GLUE_COLLECTION_DECK_INFO_TITLE	{0} – Informacje	
@@ -700,7 +703,7 @@ GLUE_COLLECTION_DECK_PASTE_TOOLTIP_WILD_LOCKED	Zanim stworzysz tę talię, musis
 GLUE_COLLECTION_DECK_RENAME	Nazwij	
 GLUE_COLLECTION_DECK_RULE_FINISH_AUTOMATICALLY	Czy chcesz uzupełnić talię automatycznie?	
 GLUE_COLLECTION_DECK_RULE_INVALID_CARDS	Masz {0} |4(kartę,karty,kart), |4(która,które,które) nie |4(pasuje,pasują,pasują) do tego formatu.	
-GLUE_COLLECTION_DECK_RULE_INVALID_CARDS_NPR	Masz {0} |4(kartę,karty,kart), |4(która wymaga,które wymagają,które wymagają) ukończenia szkolenia.	
+GLUE_COLLECTION_DECK_RULE_INVALID_CARDS_NPR	Masz {0} |4(kartę,karty,kart), |4(która wymaga,które wymagają,które wymagają) ukończenia trybu Nowicjusz.	
 GLUE_COLLECTION_DECK_RULE_INVALID_CLASS_CARD	W twojej talii są karty ({0}) z innej klasy.	
 GLUE_COLLECTION_DECK_RULE_MISSING_CARDS	Do pełnej talii brakuje ci {0} |4(karty,kart,kart).	
 GLUE_COLLECTION_DECK_RULE_NOT_ENOUGH_CARDS	Potrzebujesz jeszcze {0} |4(kartę,karty,kart), żeby stworzyć talię dla tej klasy. Możesz stworzyć nowe karty albo przygotować talię dla innej klasy.	
@@ -713,6 +716,7 @@ GLUE_COLLECTION_DECK_TEMPLATE_HELP_BUTTON	Wymień karty
 GLUE_COLLECTION_DECK_TEMPLATE_REPLACE	Zamień talię	
 GLUE_COLLECTION_DECK_TEMPLATE_REPLACE_MESSAGE	Spowoduje to usunięcie istniejącej talii i zastąpienie jej zawartością szablonu talii. Na pewno chcesz to zrobić?	
 GLUE_COLLECTION_DECK_TEMPLATE_SELECT_A_DECK	Wybierz szablon talii, aby dowiedzieć się więcej!	
+GLUE_COLLECTION_DECK_TWIST_INVALID_CLASS	Masz w schowku talię do Przeplatanki, ale ta klasa jest niedostępna w aktualnym sezonie.	
 GLUE_COLLECTION_DECK_TWIST_NOT_ACTIVE	Masz w schowku talię do Przeplatanki, ale żaden sezon Przeplatanki nie jest obecnie aktywny.	
 GLUE_COLLECTION_DECK_TWIST_NOT_UNLOCKED	Masz w schowku talię do Przeplatanki, ale nie masz odblokowanego tego trybu.	
 GLUE_COLLECTION_DECK_VALID_PASTE_BODY	Chcesz stworzyć nową talię korzystając z tej, którą masz w schowku?	
@@ -1096,9 +1100,22 @@ GLUE_FROSTMOURNE_REWARD_BODY	Pokonaj Króla Lisza każdą klasą, aby zdobyć Ks
 GLUE_FROSTMOURNE_REWARD_HEADER	Nowy paladyn	
 GLUE_FROSTMOURNE_WING_INCOMPLETE_REWARD_BODY	Pokonaj Króla Lisza każdą klasą, aby zdobyć Księcia Arthasa!	
 GLUE_FUN_CONFIRM_MESSAGE	Świetnie!	
-GLUE_GAME_MODE_LOCKED_HEADER	{0} – aby odblokować, ukończ szkolenie.	
+GLUE_GAME_MODE_DOWNLOAD_BUTTON_NAME	Pobierz	
+GLUE_GAME_MODE_DOWNLOAD_CONFIRMATION_AVAILABLE_SIZE	Dostępne miejsce: {0}	{0}=Storage space available on device (E.g. 7.5 GB)
+GLUE_GAME_MODE_DOWNLOAD_CONFIRMATION_DESCRIPTION	Pobrać tryb {0}?	{0}=Name of the module we are downloading (E.g. Solo Adventure)
+GLUE_GAME_MODE_DOWNLOAD_CONFIRMATION_DOWNLOAD_SIZE	Rozmiar: {0}	{0}=Size of the module to download (E.g. 215 MB)
+GLUE_GAME_MODE_DOWNLOAD_QUEUED	W kolejce	
+GLUE_GAME_MODE_LOCKED_APPRENTICE_COMPLETION_REQUIRED	{0}: ukończ ścieżkę Nowicjusza, by odblokować!	
+GLUE_GAME_MODE_LOCKED_DOWNLOAD_REQUIRED	{0}: zablokowano, wymagane pobranie zawartości	
+GLUE_GAME_MODE_LOCKED_HEADER	{0}: odblokuj, zdobywając postępy na ścieżce Nowicjusza	
+GLUE_GAME_MODE_MODULE_DOWNLOADED	{0}: pobrano	
 GLUE_GAME_MODE_NEW_MODE_POPUP_HEADER	Nowy tryb!	
 GLUE_GAME_MODE_NEW_MODE_UNLOCKED_POPUP_HEADER	Odblokowano nowy tryb:	
+GLUE_GAME_MODE_OUT_OF_SPACE_MESSAGE	Potrzebujesz {0} wolnego miejsca na twoim urządzeniu, aby kontynuować.	{0}=Size of the module to download (E.g. 215 MB)
+GLUE_GAME_MODE_OUT_OF_SPACE_TITLE	Nie ma miejsca.	
+GLUE_GAME_MODE_TOOLTIP_DOWNLOAD_REQUIRED_DESCRIPTION	Pobierz teraz, aby zagrać w tryb {0}.	
+GLUE_GAME_MODE_TOOLTIP_DOWNLOAD_REQUIRED_TITLE	Wymagane pobranie zawartości	
+GLUE_GAME_MODE_TOOLTIP_DOWNLOADING_DESCRIPTION	Pobieranie trybu {0}.	{0}=Name of the module we are downloading (E.g. Solo Adventure)
 GLUE_GAME_MODE_UNLOCK_DEFAULT_HEROES	Odblokuj wszystkich 10 bohaterów, aby uzyskać dostęp do trybu {0}.	
 GLUE_GAME_MODES	Inne tryby	
 GLUE_GAME_MODES_POPUP_BACON_DESC	Walcz z 7 przeciwnikami.	
@@ -1106,7 +1123,7 @@ GLUE_GAME_MODES_POPUP_BETA	BETA
 GLUE_GAME_MODES_POPUP_EARLY_ACCESS	Wczesny dostęp	
 GLUE_GAME_MODES_POPUP_FORGE_DESC	Zbuduj talię 30 kart.	
 GLUE_GAME_MODES_POPUP_HEADER	Wybierz tryb	
-GLUE_GAME_MODES_POPUP_PVPDR_DESC	[PH] Zbieraj łupy, twórz talie i walcz o chwałę!	
+GLUE_GAME_MODES_POPUP_PVPDR_DESC	Zbieraj łupy, twórz talie i walcz o chwałę!	
 GLUE_GENERIC_RANDOM_CARD_SCROLL_DESC	Twój zestaw zawierał tę kartę: {0}!	This is meant to replace the above welcome bundle strings until we have the tech to show custom strings per reward.
 GLUE_GENERIC_RANDOM_CARD_SCROLL_TITLE	To karta!	
 GLUE_GENERIC_RANDOM_EPIC_SCROLL_TITLE	To epicka karta!	
@@ -1148,13 +1165,13 @@ GLUE_GOLD_CAP_BODY	 Nie zdobędziesz dodatkowego złota, póki masz go więcej n
 GLUE_GOLD_CAP_HEADER	Masz {0} złota!	
 GLUE_GOONS_CLASS_NAMES	Łowca, Paladyn, Wojownik	
 GLUE_HERO_HEROSELECT_NEW	NOWY!	
-GLUE_HERO_LOCKED_DESC	{1} – aby odblokować, wygraj pojedynek w Rankingu lub Treningu, w którym przeciwnikiem jest {0}.	
+GLUE_HERO_LOCKED_DESC	Osiągnij {0} poziom Nowicjusza, aby odblokować.	
 GLUE_HERO_LOCKED_LETS_GO	Do dzieła!	
 GLUE_HERO_LOCKED_NAME	Blokada	
-GLUE_HERO_LOCKED_PROLOGUE_DESC	Aby zagrać jako {0}, musisz najpierw ukończyć odpowiedni prolog.	
 GLUE_HERO_SKIN_PURCHASE_CONFIRMATION_HEADER	Potwierdź	
 GLUE_HERO_SKIN_PURCHASE_CONFIRMATION_MESSAGE	Na pewno chcesz kupić tego bohatera ({0})?\n\nPo potwierdzeniu nie możesz anulować.	
 GLUE_HERO_SKIN_PURCHASE_ERROR_HEADER	Bohaterowie	
+GLUE_HEROIC_BRAWL_APPRENTICE_WARNING	Heroiczna Bójka to rywalizacja o wysoką stawkę! Ukończ tryb Nowicjusz lub poczekaj do przyszłego tygodnia na nową Bójkę.	
 GLUE_HEROIC_BRAWL_CONTINUE	Rozumiem!	Heroic brawl intro dialogue continue button text
 GLUE_HEROIC_BRAWL_DECK	Heroiczna Bójka	
 GLUE_HEROIC_BRAWL_INTRO	Bójka w tym tygodniu przeznaczona jest dla najbardziej doświadczonych graczy.\nZnaczenie będą mieć twoje umiejętności oraz stan kolekcji!	
@@ -1253,10 +1270,12 @@ GLUE_KARA_LOADING_BAR_TASK_8	Robienie selfików z Romulem
 GLUE_KARA_LOADING_BAR_TASK_9	Opuszczanie kryształowej kuli	
 GLUE_KARA_PROLOGUE_LOADING	Oczekiwanie na kruka-posłańca...	
 GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_CANCEL	Anuluj	
-GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_CONFIRM	Zrezygnuj	
+GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_CONFIRM	Pomiń	
 GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_DESCRIPTION	Jeśli przejdziesz do rangi 25, nie tylko będziesz walczyć z trudniejszymi przeciwnikami.\nZrezygnujesz też ze zdobywanych po drodze nagród!	
-GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_DESCRIPTION_NEW	Jeśli pominiesz szkolenie, nie tylko będziesz walczyć z trudniejszymi przeciwnikami. Zrezygnujesz też ze zdobywanych po drodze nagród!	
+GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_DESCRIPTION_NEW	Przepadną ci pozostałe nagrody za rangę Nowicjusz i będziesz walczyć z trudniejszymi przeciwnikami, ale odblokujesz od razu wszystkie klasy, tryby oraz wypożyczoną talię!	
 GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_TITLE	Czy na pewno chcesz to zrobić?	
+GLUE_LEAGUE_PROMOTE_SELF_UNCLAIMED_REWARDS_ERROR_DESCRIPTION	Zanim pominiesz tryb Nowicjusza, odbierz wszystkie odblokowane nagrody.	
+GLUE_LEAGUE_PROMOTE_SELF_UNCLAIMED_REWARDS_ERROR_TITLE	Masz nieodebrane nagrody!	
 GLUE_LEGENDARY_QUEST_REROLL_BODY	Na pewno chcesz porzucić to legendarne zadanie i otrzymać zwykłe? Jeśli to zadanie jest częścią serii, porzucisz całą serię.	
 GLUE_LEGENDARY_QUEST_REROLL_TITLE	Nowe losowanie	
 GLUE_LET_LOADING_BAR_TASK_1	Trenowanie ciosów w nery	
@@ -1765,6 +1784,7 @@ GLUE_MERCENARY_LABEL_PORTRAIT	Portret
 GLUE_MERCENARY_PACK_DESCRIPTION	Otrzymasz losowego najemnika, portrety najemników lub monety najemników.	
 GLUE_MERCENARY_PACK_TITLE	Pakiet Najemników	
 GLUE_MERCENARY_PACK_UNAVAILABLE	Tymczasowo niedostępne!	
+GLUE_MERCENARY_PACK_UNAVAILABLE_DOWNLOAD_REQUIRED	Pobierz tryb Najemnicy, aby kontynuować!	
 GLUE_MERCENARY_RANDOM_COIN_DESCRIPTION	Otrzymasz {0} |4(monetę,monety,monet) najemników od losowego najemnika.	0: number of coins
 GLUE_MERCENARY_RANDOM_COIN_TITLE	Losowe monety Najemników	
 GLUE_MERCENARY_TUTORIAL_INCOMPLETE_FOR_PACK	Ukończ \nsamouczek Najemników!	
@@ -1825,11 +1845,23 @@ GLUE_NEARBY_PLAYERS_DISABLE	Wyłącz, aby ukryć się przed pobliskimi graczami.
 GLUE_NEARBY_PLAYERS_ENABLE	Włącz, aby móc widzieć pobliskich graczy oraz aby oni widzieli ciebie!	
 GLUE_NEGATIVE_CURRENCY	<color=#ff3232ff>{0}</color>	
 GLUE_NEW_HERO	Nowy bohater!	
-GLUE_NEW_PLAYER_AVAILABLE_AFTER_APPRENTICESHIP	Dostępne po ukończeniu szkolenia	
-GLUE_NEW_PLAYER_AVAILABLE_AT_LEAGUE_PROMO	Dostępne\npo ukończeniu\nszkolenia	
+GLUE_NEW_PLAYER_AVAILABLE_AFTER_APPRENTICESHIP	Dostępne po ukończeniu trybu Nowicjusz	
+GLUE_NEW_PLAYER_AVAILABLE_AT_LEAGUE_PROMO	Dostępne\npo ukończeniu\ntrybu Nowicjusz	
 GLUE_NEW_PLAYER_PROMOTION_CHEST_DESC	Możesz teraz rywalizować\no nagrody za tryb rankingowy!	
-GLUE_NEW_PLAYER_PROMOTION_CHEST_TITLE	Ranga brązowa odblokowana!	
-GLUE_NEW_PLAYER_SET_ROTATION_POPUP_BODY	Nadeszły nowe karty! Niektóre z twoich starszych kart wymagają teraz ukończenia szkolenia.	
+GLUE_NEW_PLAYER_PROMOTION_CHEST_TITLE	Tryb rankingowy odblokowany!	
+GLUE_NEW_PLAYER_PROMOTION_SEASONS_DESC	Im wyższa ranga, tym lepsze nagrody!	
+GLUE_NEW_PLAYER_PROMOTION_SEASONS_TITLE	Nowy sezon zaczyna się wraz z rozpoczęciem nowego miesiąca.	
+GLUE_NEW_PLAYER_PROMOTION_STARS_DESC	Wygrywaj mecze, aby zdobywać gwiazdki.\nPo zdobyciu 3 gwiazdek zwiększysz swoją rangę!	
+GLUE_NEW_PLAYER_REWARD_PREVIEW_CHOOSE_DECK	{0} z {1} talii	
+GLUE_NEW_PLAYER_REWARD_PREVIEW_CLAIM_BUTTON	Przejdź do dziennika	
+GLUE_NEW_PLAYER_REWARD_PREVIEW_CLAIMABLE	Gotowe do odebrania!	
+GLUE_NEW_PLAYER_REWARD_PREVIEW_CLASS_PACKS	|4(Pakiet klasowy,Pakiety klasowe)	
+GLUE_NEW_PLAYER_REWARD_PREVIEW_CLASS_UNLOCK	Klasa: {0}	
+GLUE_NEW_PLAYER_REWARD_PREVIEW_FOUR_ITEMS	{0}, {1}, {2} i {3}	
+GLUE_NEW_PLAYER_REWARD_PREVIEW_REQUIRED_LEVEL	{0} poziom Nowicjusza	
+GLUE_NEW_PLAYER_REWARD_PREVIEW_THREE_ITEMS	{0}, {1} i {2}	
+GLUE_NEW_PLAYER_REWARD_PREVIEW_TWO_ITEMS	{0} i {1}	
+GLUE_NEW_PLAYER_SET_ROTATION_POPUP_BODY	Nadeszły nowe karty! Niektóre z twoich starszych kart wymagają teraz ukończenia trybu Nowicjusz.	
 GLUE_NEW_PLAYER_SET_ROTATION_POPUP_HEADER	{0} rozpoczęty!	
 GLUE_NEW_TWIST_MODE_HINT	Wypróbuj nowy tryb Przeplatanki!	
 GLUE_NINJA	Ninja	
@@ -1915,6 +1947,58 @@ GLUE_PROGRESSION_ACHIEVEMENTS_STEPCOMPLETED	Etap ukończony!
 GLUE_PROGRESSION_ACHIEVEMENTS_TITLE	Osiągnięcia	
 GLUE_PROGRESSION_ACHIEVEMENTS_TOOLTIP_DESCRIPTION	Zdobywaj osiągnięcia, aby otrzymać więcej punktów.	
 GLUE_PROGRESSION_ACHIEVEMENTS_TOOLTIP_TITLE	Punkty osiągnięć	
+GLUE_PROGRESSION_APPRENTICE_ABOUT_DESCRIPTION_1	Ukończ rangę Nowicjusz, aby odblokować talie, pakiety oraz złoto i przygotować się do trybu rankingowego!	
+GLUE_PROGRESSION_APPRENTICE_ABOUT_DESCRIPTION_2	Możesz pominąć rangę Nowicjusz, aby odblokować wszystkie tryby.	
+GLUE_PROGRESSION_APPRENTICE_ABOUT_SKIP_DESCRIPTION	Zalecane tylko dla wyjadaczy karcianek. Odblokowuje Ustawkę.	
+GLUE_PROGRESSION_APPRENTICE_BACK_TO_JOURNAL_HOME_DESC	Aby odebrać nagrody, sprawdź dziennik na ekranie głównym!	
+GLUE_PROGRESSION_APPRENTICE_BACK_TO_JOURNAL_PROGRESS_DESC	Odblokuj nagrodę za każdym razem, gdy zdobędziesz kolejny poziom na ścieżce!	
+GLUE_PROGRESSION_APPRENTICE_BACK_TO_JOURNAL_SUBTITLE	Świetnie sobie radzisz!	
+GLUE_PROGRESSION_APPRENTICE_CHOOSE_DECK	Wybierz jedną talię	
+GLUE_PROGRESSION_APPRENTICE_CLASS_STRENGTHS	Mocne strony	
+GLUE_PROGRESSION_APPRENTICE_CLASS_TITLE	Odblokuj klasę {0}	0=class name
+GLUE_PROGRESSION_APPRENTICE_CLASS_WEAK	Słabe strony	
+GLUE_PROGRESSION_APPRENTICE_DECK_POPUP_AGGRO	Agresja	
+GLUE_PROGRESSION_APPRENTICE_DECK_POPUP_AGGRO_DESC	Błyskawicznie wykończ przeciwników małymi stronnikami oraz zadając bezpośrednio obrażenia.	
+GLUE_PROGRESSION_APPRENTICE_DECK_POPUP_CONTROL	Kontrola	
+GLUE_PROGRESSION_APPRENTICE_DECK_POPUP_CONTROL_DESC	Kontroluj grę na wczesnym etapie, a później zagrywaj potężnych stronników i zaklęcia.	
+GLUE_PROGRESSION_APPRENTICE_DECK_POPUP_SUBTITLE	Można grać na mnóstwo sposobów! Różne talie mają odmienne style gry.	
+GLUE_PROGRESSION_APPRENTICE_JOURNAL_POPUP_DESC	To jest twój dziennik. Obserwuj swoje postępy i zdobywaj PD, aby otrzymywać nagrody!	
+GLUE_PROGRESSION_APPRENTICE_JOURNAL_POPUP_SUBTITLE	Witaj Nowicjuszu!	
+GLUE_PROGRESSION_APPRENTICE_JOURNAL_POPUP_TITLE	Informacje o dzienniku	
+GLUE_PROGRESSION_APPRENTICE_LOANER_TITLE	Odblokuj wypożyczone talie	
+GLUE_PROGRESSION_APPRENTICE_MODE_TITLE	Odblokuj tryb {0}	0=mode name
+GLUE_PROGRESSION_APPRENTICE_REWARD_SCROLL_MODE	Tryb odblokowany!	
+GLUE_PROGRESSION_APPRENTICE_SKIP_APPRENTICE	Pomiń	
+GLUE_PROGRESSION_APPRENTICE_SKIP_APPRENTICE_CANCEL	Nie teraz	
+GLUE_PROGRESSION_APPRENTICE_TAVERN_GUIDE_COMPLETION_REWARD	Nagroda za ukończenie	
+GLUE_PROGRESSION_APPRENTICE_TAVERN_GUIDE_COMPLETION_TOOLTIP	Wykonaj wszystkie zadania z danej strony, aby zdobyć nagrodę.	
+GLUE_PROGRESSION_APPRENTICE_TAVERN_GUIDE_CORE_LOOP_CLAIMED	Wykonuj kolejne zadania, aby zdobyć więcej nagród!	
+GLUE_PROGRESSION_APPRENTICE_TAVERN_GUIDE_CORE_LOOP_COMPLETE	Odbierz nagrody ze ścieżki Nowicjusza, aby wykonać swoje pierwsze zadanie!	
+GLUE_PROGRESSION_APPRENTICE_TAVERN_GUIDE_QUEST_CATEGORY_COLLECTION	Kolekcja	
+GLUE_PROGRESSION_APPRENTICE_TAVERN_GUIDE_QUEST_CATEGORY_GAMEPLAY	Rozgrywka	
+GLUE_PROGRESSION_APPRENTICE_TAVERN_GUIDE_QUEST_CATEGORY_PROGRESSION	Postępy	
+GLUE_PROGRESSION_APPRENTICE_TAVERN_GUIDE_TRY_WITH	Wypróbuj:	
+GLUE_PROGRESSION_APPRENTICE_TAVERN_PASS_BUTTON_TEXT	Aktywuj Karnet Karczmarza	
+GLUE_PROGRESSION_APPRENTICE_TAVERN_PASS_POPUP_DESC	Możesz pominąć tryb Nowicjusz, aby od razu aktywować karnet, ale wówczas zmierzysz się z mocniejszymi przeciwnikami i ominą cię niektóre nagrody.	
+GLUE_PROGRESSION_APPRENTICE_TAVERN_PASS_POPUP_SUBTITLE	Aby uzyskać dostęp, musisz ukończyć lub pominąć tryb Nowicjusz.	
+GLUE_PROGRESSION_APPRENTICE_TAVERN_PASS_POPUP_TITLE	Karnet Karczmarza jest twój!	
+GLUE_PROGRESSION_APPRENTICE_TRACK_ABOUT_TITLE	O ścieżce Nowicjusza	
+GLUE_PROGRESSION_APPRENTICE_TRACK_END_DESCRIPTION	Zdobywaj kolejne rangi i zostań legendą!	
+GLUE_PROGRESSION_APPRENTICE_TRACK_END_TITLE	Ranking	
+GLUE_PROGRESSION_APPRENTICE_TRACK_PICK_ONE	Wybierz 1 z 3	
+GLUE_PROGRESSION_APPRENTICE_TRACK_START_DESCRIPTION	Zdobywaj PD i odblokuj więcej klas, talii oraz pakietów!	
+GLUE_PROGRESSION_APPRENTICE_TRACK_START_HEADER	Nagroda\nza samouczek	
+GLUE_PROGRESSION_APPRENTICE_TRACK_TITLE	Ścieżka Nowicjusza	
+GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_BONUS_XP	Zdobądź dodatkowe PD i nagrody, wykonując zadania! Skompletuj stronę, aby zdobyć nagrodę!	
+GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_CORE_LOOP	Rozgrywaj partie, aby zdobywać PD, złoto i nagrody. Złoto możesz wydać na pakiety, dzięki którymi rozwiniesz swoją kolekcję!	
+GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_FIRST_REWARD	Ooo! Wygląda na to, że masz już pierwszą nagrodę!	
+GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_GUIDE_COMPLETE	Wiesz już wszystko, co mogłem zdradzić. A teraz wykorzystaj zdobytą wiedzę i zostań legendą Hearthstone!	
+GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_INTRO_COMPLETE	Graj dalej, aby zdobyć więcej nagród!	
+GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_LEARN_ROPES	Z tym przewodnikiem nauczysz się podstaw. Zacznijmy od czegoś prostego – rozegraj partię!	
+GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_MORE_QUESTS	Wygląda na to, że udało ci się odblokować więcej zadań!	
+GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_NEW_DECK	Ho, ho, masz nową talię! Świetny początek!	
+GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_TRACK_COMPLETE	Łuhuuu! Udało ci się ukończyć tryb Nowicjusz. Czas zmierzyć się z mocniejszymi przeciwnikami!	
+GLUE_PROGRESSION_APPRENTICE_XP_TOOLTIP	Graj w Hearthstone, awansuj i zdobywaj nagrody.	
 GLUE_PROGRESSION_AV_FIRST_RANK_ALLIANCE	Szeregowy	
 GLUE_PROGRESSION_AV_FIRST_RANK_HORDE	Zwiadowca	
 GLUE_PROGRESSION_AV_HONOR_GAINED	+{0} pkt. Honoru	
@@ -1983,6 +2067,7 @@ GLUE_PROGRESSION_REWARD_TRACK_POPUP_BONUS_DESCRIPTION	Zdobywaj {0} szt. złota z
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_BONUS_LEVEL	Powyżej poziomu {0}	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_BONUS_TITLE	Dodatkowe nagrody	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_COMPLETE_LEVEL	Poziom {0}	
+GLUE_PROGRESSION_REWARD_TRACK_POPUP_DECK_CHOICE_CONFIRMATION_TEXT	Wybierasz talię {0} – {1}?	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_FORGOT_REWARDS_BODY	Do twojej kolekcji dodano {0} |4(nagrodę,nagrody,nagród) z poprzedniej ścieżki nagród: {1}.	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_FORGOT_REWARDS_TITLE	Zapominasz o |4(nagrodzie,nagrodach,nagrodach)!	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_INCOMPLETE_LEVEL	Wymagany poziom {0}	
@@ -2001,6 +2086,12 @@ GLUE_PROGRESSION_REWARD_TRACK_XP_PROGRESS	{0}/{1}
 GLUE_PROGRESSION_REWARD_TRACK_XP_TOOLTIP_BOOST_BODY	Premia +{0}% do PD	
 GLUE_PROGRESSION_REWARD_TRACK_XP_TOOLTIP_BOOST_TITLE	Premie do PD	
 GLUE_PROGRESSION_REWARDS_TITLE	Ścieżka nagród	
+GLUE_PROGRESSION_TAVERN_GUIDE_ABOUT_DESCRIPTION_1	Ukończ karczemny przewodnik, aby zdobyć dodatkowe pakiety, PD i pył.	
+GLUE_PROGRESSION_TAVERN_GUIDE_ABOUT_DESCRIPTION_2	Możesz pominąć rangę Nowicjusz, aby odblokować wszystkie tryby.	
+GLUE_PROGRESSION_TAVERN_GUIDE_ABOUT_TITLE	Informacje o karczemnym przewodniku	
+GLUE_PROGRESSION_TAVERN_GUIDE_DUST_REWARD	{0} |4(drobina pyłu,drobiny pyłu,drobin pyłu)	0 = dust amount from data
+GLUE_PROGRESSION_TAVERN_GUIDE_TITLE	Karczemny przewodnik	
+GLUE_PROGRESSION_TAVERN_GUIDE_XP_REWARD	{0} PD	0 = xp amount from data
 GLUE_PROLOGUE_DH_REWARD	Ukończ prolog, aby zdobywać nagrody!	
 GLUE_PROLOGUE_DK_REWARD	Ukończ prolog, aby odblokować \nrycerza śmierci i 32 karty.	
 GLUE_PROLOGUE_REWARD	Ukończ prolog, aby odblokować \nłowcę demonów i 30 kart.	
@@ -2109,9 +2200,9 @@ GLUE_RAF_TOOLTIP_HEADLINE	Zrekrutuj przyjaciela
 GLUE_RAF_TOOLTIP_LOCKED_DESC	Rekrutacja znajomego będzie dostępna po ukończeniu zadań wprowadzających.	
 GLUE_RAF_URL_BUTTON	Kopiuj	
 GLUE_RAF_URL_TITLE	Udostępnij ten odnośnik znajomym!	
-GLUE_RANKED_BONUS_STARS	Dodatkowa gwiazdka	
-GLUE_RANKED_BONUS_STARS_DESCRIPTION	Otrzymujesz {0} |4(gwiazdkę,gwiazdki,gwiazdek) za każde zwycięstwo	
-GLUE_RANKED_BONUS_STARS_FINE_PRINT	(Wraz ze wzrostem rangi otrzymujesz mniej dodatkowych gwiazdek)	
+GLUE_RANKED_BONUS_STARS	Dodatkowe gwiazdki	
+GLUE_RANKED_BONUS_STARS_DESCRIPTION	Dodatkowe gwiazdki! Otrzymujesz {0} |4(gwiazdkę,gwiazdki,gwiazdek) za każde zwycięstwo.	
+GLUE_RANKED_BONUS_STARS_FINE_PRINT	(Wraz ze wzrostem rangi otrzymujesz mniej dodatkowych gwiazdek).	
 GLUE_RANKED_REWARD_APPRENTICE_COMPLETE_HEADER	Osiągnij rangę\nNowicjusza 1	
 GLUE_RANKED_REWARD_APPRENTICE_COMPLETE_SUBTITLE	Odblokuj nagrody za tryb rankingowy i rangę	
 GLUE_RANKED_REWARD_APPRENTICE_COMPLETE_TITLE	Nowicjusz 1	
@@ -2157,6 +2248,7 @@ GLUE_RANKED_REWARD_QUEST_LOG_LABEL_RANK_REWARD	Nagroda za rangę {0}	// {0} is R
 GLUE_RANKED_SEASON_NAME_GENERIC	Sezon {0} {1}	0 month 1 year 2 seasonId. Explicit GLUE for season can be declared via GLUE_RANKED_SEASON_NAME_n where n is the season id.
 GLUE_RANKED_SEASON_ROLL_FLOW_TITLE	Nadszedł nowy system rang!	
 GLUE_RANKED_SYSTEM_TITLE	System rankingowy	
+GLUE_RANKED_TIER_NAME_APPRENTICE	Nowicjusz 	
 GLUE_RANKED_TIER_NAME_BRONZE	Brązowa	
 GLUE_RANKED_TIER_NAME_DIAMOND	Diamentowa	
 GLUE_RANKED_TIER_NAME_GOLD	Złota	
@@ -2554,7 +2646,7 @@ GLUE_STORE_PRODUCT_DETAILS_MERCENARY_PACK	• Każdy pakiet Najemników zawiera 
 GLUE_STORE_PRODUCT_DETAILS_NAXX_PART_1	{0} zamieszkują potężni przeciwnicy, z którymi możesz toczyć pojedynki w trybie przygodowym.	0=wing name
 GLUE_STORE_PRODUCT_DETAILS_NAXX_PART_2	Zdobądź nowe karty z Naxxramas do swojej kolekcji, wliczając w to 1 kartę legendarną!	
 GLUE_STORE_PRODUCT_DETAILS_OG_PACK_PRESALE	• 50 pakietów i specjalny rewers\n• 5 kart w każdym pakiecie\n(co najmniej 1 rzadkiej lub lepszej jakości)\n*Pakiety będzie można otworzyć przed 31 maja 2016	
-GLUE_STORE_PRODUCT_DETAILS_PACK	• 5 kart Hearthstone ({0})\n• Co najmniej 1 karta będzie rzadkiej lub lepszej jakości	0=pack type
+GLUE_STORE_PRODUCT_DETAILS_PACK	• 5 {0} kart Hearthstone\n• Co najmniej 1 karta będzie rzadkiej lub lepszej jakości	0=pack type
 GLUE_STORE_PRODUCT_DETAILS_TGT_PACK_PRESALE	• 50 pakietów i specjalny rewers\n• 5 kart w pakiecie (co najmniej 1 rzadka lub lepsza)\n•  Pakiety będzie można otworzyć w sierpniu!	
 GLUE_STORE_PRODUCT_EVENT_HAS_ENDED	Ten produkt nie jest już dostępny.	
 GLUE_STORE_PRODUCT_NAME_BATTLEGROUNDS_BONUS	Ustawka – bonusy	
@@ -2664,6 +2756,10 @@ GLUE_STORE_TRL_PREORDER_DATE	Premiera w połowie grudnia*!
 GLUE_STORE_TRL_PREORDER_DUST_DATE	卡牌包可以在十二月中旬\n打开！	
 GLUE_STORE_ULD_PREORDER_DATE	Premiera w sierpniu*!	
 GLUE_STORE_ULD_PREORDER_DUST_DATE	卡牌包可以在八月打开！	
+GLUE_STORE_UNAVAILABLE_REASON_MISSING_ASSETS	Pobierz tryb, aby odblokować sklep.	
+GLUE_STORE_UNAVAILABLE_REASON_TITLE_LOCKED	Zablokowane	
+GLUE_STORE_UNAVAILABLE_REASON_TUTORIAL	Ukończ samouczek, aby odblokować sklep.	
+GLUE_STORE_UNAVAILABLE_REASON_UNKNOWN	Nic tu nie ma\nSprawdź ponownie później	
 GLUE_STORE_UPDATING_CURRENCY_BALANCE	Aktualizujemy twoje saldo. Sprawdź ponownie później.	
 GLUE_STORE_VALUE_MULTIPLY	{0}-krotna wartość!	0=multiplier
 GLUE_STORE_VALUE_PERCENT	+{0}% wartości!	0=percent
@@ -2945,8 +3041,8 @@ GLUE_TIP_BACON_22	Gracze mogą otrzymać najwyżej 15 pkt. obrażeń naraz, aż 
 GLUE_TIP_BACON_23	<b>Agonie</b> aktywowane są przed <b>Odrodzeniem</b>.	
 GLUE_TIP_BACON_24	Po ulepszeniu do poziomów 2, 4 lub 6 do Karczmy dodawany jest stronnik do końca gry.	
 GLUE_TIP_BACON_25	Stronnicy korzystają ze swoich efektów aktywowanych na koniec tury w kolejności od lewej do prawej.	
-GLUE_TIP_BACON_26	<b>Anomalie</b> to specjalne zasady obowiązujące w całej poczekalni. Mogą dotyczyć złota, statystyk stronników, zdrowia bohaterów i nie tylko!	
-GLUE_TIP_BACON_27	Gdy pewne <b>Anomalie</b> są aktywne, nie masz dostępu do niektórych bohaterów, stronników oraz rodzajów stronników.	
+GLUE_TIP_BACON_26	Zaklęcia z Karczmy to karty, które można kupić w celu aktywowania jednorazowego efektu.	
+GLUE_TIP_BACON_27	W odróżnieniu od stronników zaklęć w Karczmie nie można sprzedać ani zamienić na trójkę.	
 GLUE_TIP_BACON_3	Gdy wygrasz walkę, twój bohater i stronnicy\nzadają obrażenia równe swoim Poziomom.	
 GLUE_TIP_BACON_4	Koszt zwiększenia Poziomu Karczmy w każdej turze maleje o (1).	
 GLUE_TIP_BACON_5	Istnieje tylko siedem kopii stronników Poziomu 6.\nGdy zostaną kupieni, będą niedostępni dla wszystkich!	
@@ -2958,10 +3054,10 @@ GLUE_TIP_DEFAULT_0	Dodatkowe pakiety kart możesz kupić w sklepie.
 GLUE_TIP_DEFAULT_1	Kliknij na swojej postaci podczas edycji talii, aby zmienić nazwę talii.	
 GLUE_TIP_DEFAULT_1_TOUCH	Stuknij portret postaci podczas edycji talii, aby zmienić nazwę talii.	
 GLUE_TIP_DEFAULT_10	W trybie Arena możesz stworzyć talię z losowych kart i powalczyć o wspaniałe nagrody!	
-GLUE_TIP_DEFAULT_11	Karty bazowe zdobędziesz awansując postać. Nie można ich tworzyć lub odczarować.	
+GLUE_TIP_DEFAULT_11	Klasowe karty bazowe zdobędziesz, odblokowując poszczególne klasy. Nie można ich tworzyć lub odczarować.	
 GLUE_TIP_DEFAULT_12	Złote karty można odczarować – otrzymasz w ten sposób mnóstwo pyłu.	
 GLUE_TIP_DEFAULT_13	Możesz użyć opcji wyszukiwania, aby znaleźć w swojej kolekcji wszystkie karty z Prowokacją.	
-GLUE_TIP_DEFAULT_14	Karty bazowe zdobędziesz, awansując postać. Osiągnij 10 poziom każdą klasą, a zdobędziesz wszystkie!	
+GLUE_TIP_DEFAULT_14	Klasowe karty bazowe zdobędziesz, odblokowując poszczególne klasy. Nie można ich tworzyć lub odczarować.	
 GLUE_TIP_DEFAULT_15	Możesz otrzymać dodatkowe PD grając z prawdziwymi przeciwnikami.	
 GLUE_TIP_DEFAULT_16	Możesz kliknąć prawym przyciskiem na bohaterze przeciwnika, aby „wyciszyć” jego emotki.	
 GLUE_TIP_DEFAULT_16_TOUCH	Możesz dotknąć bohatera przeciwnika, aby „wyciszyć” jego emotki.	
@@ -3057,30 +3153,30 @@ GLUE_TIP_LETTUCE_8	Użyj monet, aby ulepszać zdolności i przedmioty.
 GLUE_TIP_LETTUCE_9	Przedmioty można zdobywać, wykonując zadania.	
 GLUE_TIP_PLAY_0	Zostanie do ciebie dopasowany gracz o podobnych umiejętnościach.	
 GLUE_TIP_PLAY_1	System wyszukiwania graczy będzie śledzić twoje postępy, dopasowując do ciebie przeciwnika na podobnym poziomie.	
-GLUE_TIP_PLAY_2	Każda klasa ma 17 różnych kart bazowych, które możesz odblokować podczas awansowania na wyższe poziomy.	
+GLUE_TIP_PLAY_2	Każda klasa ma różne karty bazowe, które możesz zdobyć, odblokowując klasę.	
 GLUE_TIP_PLAY_3	Wykonuj zadania, aby otrzymać punkty doświadczenia. PD zapewniają ci postępy na ścieżce nagród.	
 GLUE_TIP_PLAY_4	Najwyższa ranga w trybie rankingowym to ranga „Legendy”!	
 GLUE_TIP_PLAY_5	Talie mogą zawierać dwa egzemplarze tej samej karty, ale tylko po jednej sztuce kart legendarnych.	
 GLUE_TIP_PLAY_6	Arena to wspaniałe miejsce na zdobycie nagród w zamian za udział w mini-turnieju.	
 GLUE_TIP_PLAY_7	Nie musisz rozgrywać wszystkich pojedynków na Arenie za jednym razem.	
 GLUE_TIP_PLAY_8	Jeśli wygrasz 5 partii w trybie rankingowym w danym sezonie, otrzymasz specjalny rewers kart dla tego sezonu.	
-GLUE_TIP_PRACTICE_0	Bohaterów możesz odblokować, pokonując ich w trybie treningowym.	
+GLUE_TIP_PRACTICE_0	Bohaterów możesz odblokować, kończąc tryb Nowicjusz.	
 GLUE_TIP_PRACTICE_1	Tryb treningowy to tylko rozgrzewka przed tradycyjną rozgrywką Hearthstone!	
 GLUE_TIP_PRACTICE_2	W trybie tradycyjnego Hearthstone dopasujemy do ciebie gracza o podobnych umiejętnościach.	
 GLUE_TIP_PRACTICE_3	Odwiedzając swoją kolekcję możesz złożyć własną talię.	
-GLUE_TIP_PRACTICE_4	Każda klasa ma 17 różnych kart bazowych, które możesz odblokować podczas awansowania na wyższe poziomy.	
+GLUE_TIP_PRACTICE_4	Każda klasa ma różne karty bazowe, które możesz zdobyć, odblokowując klasę.	
 GLUE_TIP_PRACTICE_5	Wykonuj zadania w trybie pojedynku, aby zdobyć PD!	
 GLUE_TIP_PRACTICE_6	Zaatakować bohatera czy wrogiego stronnika? Prawidłowa decyzja może odwrócić losy bitwy.	
 GLUE_TIP_PRACTICE_7	Po awansie na 10 poziom daną klasą otrzymasz więcej punktów doświadczenia grając z prawdziwym przeciwnikiem.	
 GLUE_TIP_TAVERNBRAWL_0	Co tydzień czeka na ciebie nowy, szalony sposób na rozgrywkę w trybie Karczemnej bójki!	
 GLUE_TIP_TAVERNBRAWL_1	Posprzątanie bałaganu po każdej Bójce zajmuje godzinę. Jeśli na razie nie masz wstępu, spróbuj ponownie później.	
-GLUE_TIP_TAVERNBRAWL_2		This tip was removed. Translators: please leave this blank. Blank tips are skipped over. For devs: when adding new tips later, feel free to use this slot (and update this comment).
+GLUE_TIP_TAVERNBRAWL_2	This tip was removed. Translators: please leave this blank. Blank tips are skipped over. For devs: when adding new tips later, feel free to use this slot (and update this comment).	
 GLUE_TIP_TAVERNBRAWL_3	Kolejne zwycięstwa w trybie Karczemnej bójki nie dają dodatkowych pakietów – wtedy chodzi już tylko o dobrą zabawę!	
 GLUE_TIP_TAVERNBRAWL_4	Zależnie od tygodnia możesz albo otrzymać talię, albo trzeba będzie ją stworzyć. Nigdy nie wiadomo!	
 GLUE_TIP_TAVERNBRAWL_5	Niektóre Karczemne bójki mogą odbyć się ponownie w przyszłości.	
 GLUE_TIP_TAVERNBRAWL_6	Możesz rzucić znajomemu wyzwanie do Bójki tygodnia, kiedy jest ona aktywna.	
 GLUE_TIP_TAVERNBRAWL_7	W trybie Karczemnej bójki możesz wykonywać codzienne zadania!	
-GLUE_TIP_TAVERNBRAWL_8		This tip was removed. Translators: please leave this blank. Blank tips are skipped over. For devs: when adding new tips later, feel free to use this slot (and update this comment).
+GLUE_TIP_TAVERNBRAWL_8	This tip was removed. Translators: please leave this blank. Blank tips are skipped over. For devs: when adding new tips later, feel free to use this slot (and update this comment).	
 GLUE_TOOLTIP_ALTERNATE_WINS_DESC	Wygraj tą klasą {0} partii w trybie rankingowym lub na Arenie, aby otrzymać specjalny portret!	
 GLUE_TOOLTIP_BOOSTER_CURRENCY_DESCRIPTION	Wydawaj tajemne kule na pakiety.	
 GLUE_TOOLTIP_BOOSTER_CURRENCY_HEADER	Tajemne kule	
@@ -3129,6 +3225,7 @@ GLUE_TOOLTIP_HEADER_ALL_STANDARD_CARDS	Standard
 GLUE_TOOLTIP_HEADER_TWIST_CARDS	Przeplatanka	
 GLUE_TOOLTIP_HEADER_VANILLA_CARDS	Klasyk	
 GLUE_TOOLTIP_HEADER_WILD_CARDS	Dzicz	
+GLUE_TOOLTIP_PROGRESSION_APPRENTICE_RANK_MEDAL_DESC	Ukończ rangę Nowicjusz, aby zacząć wspinać się w rankingu!	
 GLUE_TOOLTIP_RANKED_BUTTON	Zobacz, jak radzisz sobie na tle innych graczy!	
 GLUE_TOOLTIP_RENOWN_DESCRIPTION	Zdobądź Sławę poprzez wymianę nadmiarowych monet najemników.	
 GLUE_TOOLTIP_RENOWN_HEADER	Sława	
@@ -3203,6 +3300,8 @@ GLUE_TROUBLESHOOTING_POPUP_TEXT	Czy doświadczasz problemów z grą?
 GLUE_TUTORIAL_INTERSTITIAL_HEADER	Twoja podróż właśnie się zaczyna	
 GLUE_TUTORIAL_INTERSTITIAL_HERONAME	Jaina	
 GLUE_TUTORIAL_INTERSTITIAL_REWARD	Ukończ samouczek, aby odblokować klasę maga i talię startową!	
+GLUE_TUTORIAL_SKIP_DESC_1	Pominięcie samouczka zalecane jest tylko dla graczy mających doświadczenie w karciankach. Odblokowuje Ustawkę.	
+GLUE_TUTORIAL_SKIP_DESC_2	Możesz w dowolnym momencie przejść ponownie samouczek, wybierając go w menu pomocy (?) w Hearthstone.	
 GLUE_TUTORIAL_SKIP_TRADITIONAL	Czy na pewno chcesz pominąć samouczek? Możesz uruchomić go ponownie z menu (?) Pomocy.	
 GLUE_TUTORIAL_VIDEO_BANNER_BATTLEGROUNDS	Zbierz potężnych stronników i walcz o zwycięstwo w szalonym trybie dla ośmiu graczy!	
 GLUE_TUTORIAL_VIDEO_BANNER_MERCENARIES	Stwórz i rozwijaj drużynę najemników, walcząc o nagrody i chwałę!	

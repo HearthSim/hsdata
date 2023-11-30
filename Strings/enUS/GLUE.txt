@@ -6,7 +6,7 @@ GLUE_COLLECTION_DECK_TEMPLATE_HELP_BUTTON	Replace Cards
 GLUE_COLLECTION_DECK_HELPER_REPLACE_CARD	Replace This Card
 GLUE_COLLECTION_DECK_HELPER_REPLACE_UNOWNED_CARD	Not Owned
 GLUE_COLLECTION_DECK_HELPER_REPLACE_INVALID_CARD	Not Allowed In Format
-GLUE_COLLECTION_DECK_HELPER_REPLACE_INVALID_CARD_NPR	Must Complete Apprenticeship
+GLUE_COLLECTION_DECK_HELPER_REPLACE_INVALID_CARD_NPR	Must Complete Apprentice
 GLUE_COLLECTION_DECK_HELPER_REPLACE_UNPLAYABLE_CARD	Not Yet Playable
 GLUE_COLLECTION_DECK_HELPER_REPLACE_BANNED_CARD	Banned card
 GLUE_COLLECTION_DECK_INFO_TITLE	{0} Info
@@ -46,7 +46,7 @@ GLUE_COLLECTION_DECK_RULE_INVALID_CLASS_CARD	Your deck contains {0} cards from a
 GLUE_COLLECTION_DECK_RULE_MISSING_CARDS	You are {0} |4(card,cards) short of a full deck.
 GLUE_COLLECTION_DECK_RULE_TOO_MANY_CARDS	You have {0} |4(card,cards) too many in the deck.
 GLUE_COLLECTION_DECK_RULE_INVALID_CARDS	You have {0} |4(card,cards) that |4(is,are) invalid for this format.
-GLUE_COLLECTION_DECK_RULE_INVALID_CARDS_NPR	You have {0} |4(card,cards) that |4(requires,require) completion of Apprenticeship.
+GLUE_COLLECTION_DECK_RULE_INVALID_CARDS_NPR	You have {0} |4(card,cards) that |4(requires,require) completion of Apprentice.
 GLUE_COLLECTION_DECK_RULE_FINISH_AUTOMATICALLY	Do you want to finish the deck automatically?
 GLUE_COLLECTION_DECK_RULE_NOT_ENOUGH_CARDS	You need {0} more |4(card,cards) to complete a deck with this class. Try crafting some cards or building a deck with a different class.
 GLUE_COLLECTION_DECK_RULE_NOT_IN_FORMAT	You have {0} |4(card,cards) that |4(is,are) invalid for this format.
@@ -61,7 +61,7 @@ GLUE_COLLECTION_DECK_TEMPLATE_SELECT_A_DECK	Select a deck recipe to learn more!
 GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_HEADER	Incomplete Deck
 GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_TEXT	You are {0} |4(card,cards) short of a full deck.\nComplete deck automatically?
 GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_TEXT_CLICK_TO_FIX_DISABLED	You are {0} |4(card,cards) short of a full deck.
-GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_TEXT_NPR	{0} |4(card requires,cards require) completion of Apprenticeship.\nReplace |4(it,them) automatically?
+GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_TEXT_NPR	{0} |4(card requires,cards require) completion of Apprentice.\nReplace |4(it,them) automatically?
 GLUE_COLLECTION_DECK_INCOMPLETE_LABEL	Click to complete
 GLUE_COLLECTION_DECK_INCOMPLETE_LABEL_TOUCH	Tap to complete
 GLUE_COLLECTION_DECK_MISSING_CARDS_LABEL	Missing |4(Card,Cards)
@@ -181,6 +181,7 @@ GLUE_COLLECTION_DECK_WILD_NOT_UNLOCKED	You have a Wild deck in your clipboard, b
 GLUE_COLLECTION_DECK_TWIST_NOT_UNLOCKED	You have a Twist deck in your clipboard, but you have not unlocked Twist Mode.
 GLUE_COLLECTION_DECK_CLASSIC_INVALID	You have an invalid deck in your clipboard.
 GLUE_COLLECTION_DECK_TWIST_NOT_ACTIVE	You have a Twist deck in your clipboard, but there is no active Twist season.
+GLUE_COLLECTION_DECK_TWIST_INVALID_CLASS	You have a Twist deck in your clipboard, but this class is unavailable for the current season.
 GLUE_COLLECTION_DECK_PASTE_POPUP_HEADER	Paste Deck
 GLUE_COLLECTION_DECK_OVERWRITE_BODY	Would you like to replace your current deck with the deck in your clipboard?
 GLUE_COLLECTION_DECK_OVERWRITE_HEADER	Replace Deck
@@ -470,6 +471,8 @@ GLUE_CHECKOUT_ERROR_GENERIC_FAILURE	Oops! Something went wrong. Please try again
 GLUE_CHECKOUT_HICKORY_ACCOUNT_FAILURE	Your account cannot make purchases. Please check your Account Settings or contact HICKORY Support for further information.
 GLUE_CHECKOUT_HICKORY_OVERLAY_FAILURE	You need to enable the overlay to make purchases. This can be found in settings menu.
 GLUE_CHECKOUT_HICKORY_TIMEOUT_FAILURE	Your purchase has timed out.
+GLUE_CHECKOUT_HICKORY_PENDING_FAILURE	You have a pending purchase. Please wait before making another purchase.
+GLUE_CHECKOUT_HICKORY_BLOCKED_FAILURE	Please contact Blizzard Customer Support to make a purchase.
 GLUE_CHECKOUT_HICKORY_RECONCILE_FAILURE	Your pending purchase had an error. Please restart the client.
 GLUE_FORGE_STORE_HEADLINE	Welcome to The Arena!
 GLUE_FORGE_STORE_DETAILS1	Forge a deck from random cards, then see how long you can last in the Arena.
@@ -535,6 +538,8 @@ GLUE_TOOLTIP_BUTTON_MERCENARIES_HEADLINE	Mercenaries
 GLUE_TOOLTIP_BUTTON_MERCENARIES_DESC	Build and level up a party of Mercenaries as you battle for bounties and glory!
 GLUE_TUTORIAL_VIDEO_BANNER_TRADITIONAL	Collect cards, build decks, and fight to become legendary in this head-to-head game mode!
 GLUE_TUTORIAL_SKIP_TRADITIONAL	Are you sure you want to skip the tutorial? You can replay it from the (?) Help menu.
+GLUE_TUTORIAL_SKIP_DESC_1	Skipping the tutorial is recommended only for experienced card game players. Unlocks Battlegrounds.
+GLUE_TUTORIAL_SKIP_DESC_2	You can replay the Hearthstone tutorial from the Hearthstone (?) Help menu at any time.
 GLUE_TUTORIAL_VIDEO_BANNER_BATTLEGROUNDS	Build your warband and fight for the crown in this 8-player auto-battler!
 GLUE_TUTORIAL_VIDEO_BANNER_MERCENARIES	Build and level up a party of Mercenaries as you battle for bounties and glory!
 GLUE_TUTORIAL_INTERSTITIAL_HEADER	Your Journey Begins
@@ -743,11 +748,11 @@ GLUE_TIP_DEFAULT_6	Each pack of cards has at least one rare or better card, but 
 GLUE_TIP_DEFAULT_7	If you run out of quests, come back tomorrow for a new one!
 GLUE_TIP_DEFAULT_8	If you win 5 Ranked games in a season, you'll earn that season's special card back.
 GLUE_TIP_DEFAULT_9	Complete quests to earn Reward XP.  XP gives you progress on your Rewards Track.
-GLUE_TIP_DEFAULT_10	The Arena lets you build a deck from random cards. You can also win prizes!
-GLUE_TIP_DEFAULT_11	Core cards are earned by leveling up. They cannot be disenchanted or crafted.
+GLUE_TIP_DEFAULT_10 	The Arena lets you build a deck from random cards. You can also win prizes!
+GLUE_TIP_DEFAULT_11 	Class Core cards are earned by unlocking each class. They can't be disenchanted or crafted.
 GLUE_TIP_DEFAULT_12	Golden cards can be disenchanted for a lot of dust.
 GLUE_TIP_DEFAULT_13	You can use the Search field in your collection to find all cards with 'Taunt'.
-GLUE_TIP_DEFAULT_14	Core cards are earned by leveling up a class. Reach level 10 with each class to unlock them all!
+GLUE_TIP_DEFAULT_14 	Class Core cards are earned by unlocking each class. They can't be disenchanted or crafted.
 GLUE_TIP_DEFAULT_15	Playing against real players grants you bonus Reward XP.
 GLUE_TIP_DEFAULT_16	You can right-click on your opponent's hero to "Squelch" emotes.
 GLUE_TIP_DEFAULT_16_TOUCH	You can tap your opponent's hero to "Squelch" emotes.
@@ -775,17 +780,17 @@ GLUE_TIP_DEFAULT_34	Battlegrounds lets you play against seven other players in t
 GLUE_TIP_DEFAULT_35	Duels lets you build a deck as you go. After each fight, you get to add more to your deck!
 GLUE_TIP_DEFAULT_36	Unlocking the Tavern Pass allows you to get even more Reward XP.
 GLUE_TIP_DEFAULT_37	If you win 1000 games in Ranked, Arena, or Duels mode with a class, you'll get a Prestige Hero!
-GLUE_TIP_PRACTICE_0	You can unlock heroes by defeating them in Practice Mode.
+GLUE_TIP_PRACTICE_0	You can unlock heroes by completing Apprentice.
 GLUE_TIP_PRACTICE_1	Practice Mode is just preparation for the Traditional Hearthstone game mode!
 GLUE_TIP_PRACTICE_2	The Traditional Hearthstone game mode will match you against someone of similar skill!
 GLUE_TIP_PRACTICE_3	You can build a custom deck with your cards by visiting your Collection.
-GLUE_TIP_PRACTICE_4	Each class has 17 different Core cards you can unlock as you level up.
+GLUE_TIP_PRACTICE_4	Each class has different Core cards you collect when you unlock the class.
 GLUE_TIP_PRACTICE_5	Complete quests in "Play" mode to earn Reward XP!
 GLUE_TIP_PRACTICE_6	Attack the hero? Or the enemy minions?  Answering correctly can often turn the tide of battle.
 GLUE_TIP_PRACTICE_7	You'll earn more Hero XP after level 10 by playing against real players.
 GLUE_TIP_PLAY_0	You are being matched against a player of your skill.
 GLUE_TIP_PLAY_1	As you win and lose games, we will track your skill and match you against a fair opponent.
-GLUE_TIP_PLAY_2	Each class has 17 different Core cards you can unlock as you level up.
+GLUE_TIP_PLAY_2	Each class has different Core cards you collect when you unlock the class.
 GLUE_TIP_PLAY_3	Complete quests to earn Reward XP. XP gives you progress on your Rewards Track.
 GLUE_TIP_PLAY_4	The highest rank in Ranked Mode is the “Legend” rank!
 GLUE_TIP_PLAY_5	Decks can contain two copies of each card, but only one copy of a Legendary card.
@@ -801,13 +806,13 @@ GLUE_TIP_ADVENTURE_2	If you lose to a boss, you may want to modify your deck.
 GLUE_TIP_ADVENTURE_3	Be prepared! Build a deck to counter the boss you're going to challenge.
 GLUE_TIP_TAVERNBRAWL_0	Each week there's a crazy new way to play in Tavern Brawl!
 GLUE_TIP_TAVERNBRAWL_1	We need an hour to clean up the mess after a Brawl ends, so if you can't get in, check back soon!
-GLUE_TIP_TAVERNBRAWL_2		This tip was removed. Translators: please leave this blank. Blank tips are skipped over. For devs: when adding new tips later, feel free to use this slot (and update this comment).
+GLUE_TIP_TAVERNBRAWL_2	This tip was removed. Translators: please leave this blank. Blank tips are skipped over. For devs: when adding new tips later, feel free to use this slot (and update this comment).
 GLUE_TIP_TAVERNBRAWL_3	Winning multiple games in Tavern Brawl doesn't award additional packs – it's just for fun!
 GLUE_TIP_TAVERNBRAWL_4	Some weeks you'll be provided a deck, and sometimes you'll need to create one.  You never know!
 GLUE_TIP_TAVERNBRAWL_5	Some Tavern Brawls might come back again in the future.
 GLUE_TIP_TAVERNBRAWL_6	You can challenge a friend to the Brawl of the week, while it’s open.
 GLUE_TIP_TAVERNBRAWL_7	You can complete your daily quests while in a Tavern Brawl!
-GLUE_TIP_TAVERNBRAWL_8		This tip was removed. Translators: please leave this blank. Blank tips are skipped over. For devs: when adding new tips later, feel free to use this slot (and update this comment).
+GLUE_TIP_TAVERNBRAWL_8	This tip was removed. Translators: please leave this blank. Blank tips are skipped over. For devs: when adding new tips later, feel free to use this slot (and update this comment).
 GLUE_TIP_HEROICBRAWL_0	Getting just the right match is really important for this Brawl.\nWait times may be longer than usual.
 GLUE_TIP_ADVENTURE_LOOT_0	Encounters get more difficult as you delve deeper into the dungeon.
 GLUE_TIP_ADVENTURE_LOOT_1	There are five notorious final bosses at the bottom of the dungeon.
@@ -898,8 +903,8 @@ GLUE_TIP_BACON_22	Players can take at most 15 damage at once until only the Top 
 GLUE_TIP_BACON_23	<b>Deathrattles</b> trigger before <b>Reborn</b>.
 GLUE_TIP_BACON_24	When you upgrade to Tier 2, 4, or 6, an extra minion is added to the Tavern for the rest of the game.
 GLUE_TIP_BACON_25	Minions trigger their end of turn effects in order from left to right.
-GLUE_TIP_BACON_26	<b>Anomalies</b> are special rules that apply to the whole lobby. They can affect Gold, minion stats, hero Health, and more!
-GLUE_TIP_BACON_27	Some heroes, minions, and minion types are unavailable when certain <b>Anomalies</b> are in effect.
+GLUE_TIP_BACON_26	Tavern spells are cards that can be bought to trigger a one-time effect.
+GLUE_TIP_BACON_27	Unlike minions, Tavern spells cannot be sold or tripled.
 GLUE_TIP_LETTUCE_0	Using <b>Critical Damage</b> is the key to victory!
 GLUE_TIP_LETTUCE_1	Your Mercs will always act before enemies of the same Speed during Bounty encounters.
 GLUE_TIP_LETTUCE_2	Ability cooldowns decrease even while on the Bench.
@@ -1173,8 +1178,7 @@ GLUE_LET_LOADING_BAR_TASK_20	Fishing in the Well of Eternity
 GLUE_LOADING	Loading...
 GLUE_STARTING_GAME	Starting Game
 GLUE_HERO_LOCKED_NAME	Locked
-GLUE_HERO_LOCKED_DESC	Defeat {0} in Ranked or Practice to unlock {1}.
-GLUE_HERO_LOCKED_PROLOGUE_DESC	To play as a {0} you need to complete their prologue first.
+GLUE_HERO_LOCKED_DESC	Reach Apprentice Level {0} to unlock.
 GLUE_HERO_LOCKED_LETS_GO	Let's Go!
 GLUE_INCOMPLETE_DECK_HEADER	Incomplete deck
 GLUE_INCOMPLETE_DECK_DESC	You need to finish building this deck.
@@ -1442,6 +1446,7 @@ GLUE_STORE_PREORDER_NOVEMBER	Available in\nNovember*!
 GLUE_STORE_PREORDER_DUST_NOVEMBER	Packs available in\nNovember*!
 GLUE_MERCENARY_TUTORIAL_INCOMPLETE_FOR_PACK	Complete \nMercenaries Tutorial!
 GLUE_MERCENARY_PACK_UNAVAILABLE	Temporarily Unavailable!
+GLUE_MERCENARY_PACK_UNAVAILABLE_DOWNLOAD_REQUIRED	Download Mercenaries mode to proceed!
 GLUE_STORE_PREORDER_MARCH	Available in\nMarch*!
 GLUE_STORE_PREORDER_DUST_MARCH	Packs available in\nMarch*!
 GLUE_STORE_BG_PASS_PREORDER_DATE	Available\nin January!
@@ -1682,6 +1687,7 @@ GLUE_STORE_RANDOM_CLASS_LEGENDARY	Random Class Legendary
 GLUE_STORE_RANDOM_DRAGON_LEGENDARY	Random Classic Dragon Legendary
 GLUE_HEROIC_BRAWL_INTRO	This week's brawl is for\nour most experienced players.\nYour skill and collection will matter!
 GLUE_HEROIC_BRAWL_REWARDS_DESCRIPTION	To the winner goes the spoils!  More wins means more rewards.\n12 wins for maximum glory.  3 losses end your run.
+GLUE_HEROIC_BRAWL_APPRENTICE_WARNING	Heroic Brawl is a high stakes competition! Complete Apprentice or wait until next week for a new Brawl.
 GLUE_HEROIC_BRAWL_MIN_WINS	0 wins
 GLUE_HEROIC_BRAWL_MAX_WINS	12 wins
 GLUE_HEROIC_BRAWL_MAX_LOSSES	3 losses
@@ -1779,9 +1785,11 @@ GLUE_RETURNINGPLAYER_QUESTTITLE	Return of the Hero
 GLUE_RETURNINGPLAYER_RETIRE_BUTTON_TEXT	Retire
 GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_TITLE	Are you sure?
 GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_DESCRIPTION	If you skip to Rank 25, not only will you face tougher opponents,\nyou'll miss out on the rewards along the way!
-GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_DESCRIPTION_NEW	If you skip Apprenticeship, not only will you face tougher opponents, you'll miss out on the rewards along the way!
-GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_CONFIRM	Miss out!
+GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_DESCRIPTION_NEW	You'll miss out on the remaining Apprentice rewards and face tougher opponents, but unlock all the classes, modes and a Loaner Deck right away!
+GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_CONFIRM	Skip
 GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_CANCEL	Cancel
+GLUE_LEAGUE_PROMOTE_SELF_UNCLAIMED_REWARDS_ERROR_TITLE	You have unclaimed rewards!
+GLUE_LEAGUE_PROMOTE_SELF_UNCLAIMED_REWARDS_ERROR_DESCRIPTION	You must claim all unlocked rewards before you skip Apprentice.
 GLUE_DRAFT_REMOVE_PREMIUMS_DIALOG_TITLE	Turn Off Premiums
 GLUE_DRAFT_REMOVE_PREMIUMS_DIALOG_BODY	Turn off Premium cards for this Arena Run?
 GLUE_DEVICE_PERFORMANCE_WARNING_TITLE	Device Performance
@@ -1876,12 +1884,24 @@ GLUE_STORE_PACKBUY_ROTATING_SOON	Rotating Soon
 GLUE_STORE_PACKBUY_LIMITED_TIME	Limited Time
 GLUE_STORE_LIMITED_TIME_OFFER	Limited Time Offer!
 GLUE_STORE_BONUS_PACKS	Get {0} bonus |4(pack,packs) for a limited time!	0 = number of bonus packs
-GLUE_NEW_PLAYER_AVAILABLE_AT_LEAGUE_PROMO	Available\nafter\nApprenticeship
-GLUE_NEW_PLAYER_PROMOTION_CHEST_TITLE	Bronze Unlocked!
+GLUE_NEW_PLAYER_AVAILABLE_AT_LEAGUE_PROMO	Available\nafter\nApprentice
+GLUE_NEW_PLAYER_PROMOTION_CHEST_TITLE	Ranked Unlocked!
 GLUE_NEW_PLAYER_PROMOTION_CHEST_DESC	You are now ready to compete\nfor Ranked Rewards!
+GLUE_NEW_PLAYER_PROMOTION_SEASONS_TITLE	A new Season starts at the beginning of every month.
+GLUE_NEW_PLAYER_PROMOTION_SEASONS_DESC	The higher your rank, the bigger the rewards!
+GLUE_NEW_PLAYER_PROMOTION_STARS_DESC	Win matches to gain Stars.\nGain 3 Stars to rank up!
 GLUE_NEW_PLAYER_SET_ROTATION_POPUP_HEADER	Welcome to {0}!
-GLUE_NEW_PLAYER_SET_ROTATION_POPUP_BODY	New cards have arrived! Some of your older cards now require completion of Apprenticeship to play.
-GLUE_NEW_PLAYER_AVAILABLE_AFTER_APPRENTICESHIP	Available after Apprenticeship
+GLUE_NEW_PLAYER_SET_ROTATION_POPUP_BODY	New cards have arrived! Some of your older cards now require completion of Apprentice to play.
+GLUE_NEW_PLAYER_AVAILABLE_AFTER_APPRENTICESHIP	Available after Apprentice
+GLUE_NEW_PLAYER_REWARD_PREVIEW_REQUIRED_LEVEL	Apprentice Level {0}
+GLUE_NEW_PLAYER_REWARD_PREVIEW_CLAIMABLE	Ready to Claim!
+GLUE_NEW_PLAYER_REWARD_PREVIEW_CLAIM_BUTTON	Go to Journal
+GLUE_NEW_PLAYER_REWARD_PREVIEW_TWO_ITEMS	{0} and {1}
+GLUE_NEW_PLAYER_REWARD_PREVIEW_THREE_ITEMS	{0}, {1}, and {2}
+GLUE_NEW_PLAYER_REWARD_PREVIEW_FOUR_ITEMS	{0}, {1}, {2}, and {3}
+GLUE_NEW_PLAYER_REWARD_PREVIEW_CHOOSE_DECK	{0} of {1} Decks
+GLUE_NEW_PLAYER_REWARD_PREVIEW_CLASS_UNLOCK	{0} Class
+GLUE_NEW_PLAYER_REWARD_PREVIEW_CLASS_PACKS	Class |4(Pack,Packs)
 GLUE_LEGENDARY_QUEST_REROLL_TITLE	Re-roll?
 GLUE_LEGENDARY_QUEST_REROLL_BODY	Abandon quest for a regular one? If this quest is part of a chain, then it will abandon the whole chain.
 GLUE_NUM_CHAPTERS_COMPLETED	{0}/{1} Completed
@@ -2254,6 +2274,7 @@ GLUE_ADVENTURE_NUM_CHAPTERS_OWNED	{0} |4(Chapter,Chapters) Owned
 GLUE_RANKED_SEASON_NAME_GENERIC	{0} Season {1}	0 month 1 year 2 seasonId. Explicit GLUE for season can be declared via GLUE_RANKED_SEASON_NAME_n where n is the season id.
 GLUE_RANKED_SEASON_ROLL_FLOW_TITLE	The new Ranked system is here!
 GLUE_RANKED_SYSTEM_TITLE	Ranking System
+GLUE_RANKED_TIER_NAME_APPRENTICE	Apprentice
 GLUE_RANKED_TIER_NAME_BRONZE	Bronze
 GLUE_RANKED_TIER_NAME_SILVER	Silver
 GLUE_RANKED_TIER_NAME_GOLD	Gold
@@ -2261,12 +2282,13 @@ GLUE_RANKED_TIER_NAME_PLATINUM	Platinum
 GLUE_RANKED_TIER_NAME_DIAMOND	Diamond
 GLUE_RANKED_TIER_NAME_LEGEND	Legend
 GLUE_RANKED_BONUS_STARS	Star Bonus
-GLUE_RANKED_BONUS_STARS_DESCRIPTION	You earn {0} stars for each win
-GLUE_RANKED_BONUS_STARS_FINE_PRINT	(Star bonus decreases as you rank up)
+GLUE_RANKED_BONUS_STARS_DESCRIPTION	Star Bonus! Earn {0} stars for each win.
+GLUE_RANKED_BONUS_STARS_FINE_PRINT	(Star bonus decreases as you rank up.)
 GLUE_PROLOGUE_REWARD	Complete the Prologue to unlock the \nDemon Hunter class and 30 cards.
 GLUE_PROLOGUE_DH_REWARD	Complete the Prologue to earn rewards!
 GLUE_PROLOGUE_DK_REWARD	Complete the Prologue to unlock the \nDeath Knight class and 32 cards.
 GLUE_CLASS_UNLOCKED_CLASS	New Class Unlocked!
+GLUE_CLASS_UNLOCK_DESCRIPTION	{0} Class & Deck
 GLUE_CLASS_UNLOCKED_DECK	New deck received!
 GLUE_CLASS_UNLOCKED_DK_DECKS	New decks received!
 GLUE_CLASS_UNLOCKED_DK_DECK_FFB	Frost Death Knight
@@ -2431,7 +2453,7 @@ GLUE_TIP_ADVENTURE_BOM_21	Lady Katrana Prestor is secretly Onyxia, the black dra
 GLUE_CLASS_UPCOMING_HEADER	Not Yet Available
 GLUE_CLASS_UPCOMING_DESC	This class is not yet available.
 GLUE_GAME_MODE_NEW_MODE_UNLOCKED_POPUP_HEADER	New mode unlocked:
-GLUE_GAME_MODES_POPUP_PVPDR_DESC	[PH] Loot, draft, and fight for glory!
+GLUE_GAME_MODES_POPUP_PVPDR_DESC	Loot, draft, and fight for glory!
 GLUE_PVPDR	Duels
 GLUE_PVPDR_FOOTER	Choose a hero, forge your deck, then power it up between battles!
 GLUE_PVPDR_RATING_LABEL	Rating
@@ -2544,6 +2566,7 @@ GLUE_PROGRESSION_REWARD_TRACK_POPUP_SKIN_CHOICE_CTA	Claim
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_SKIN_CHOICE_CLAIMED	Claimed
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_SKIN_CHOICE_CONFIRMATION_HEADER	Confirm your choice
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_SKIN_CHOICE_CONFIRMATION_TEXT	Choose {0} skin {1}?
+GLUE_PROGRESSION_REWARD_TRACK_POPUP_DECK_CHOICE_CONFIRMATION_TEXT	Choose {0} deck {1}?
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_FORGOT_REWARDS_TITLE	You Forgot |4(A Reward,Some Rewards)!
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_FORGOT_REWARDS_BODY	{0} |4(reward has, rewards have) been added to your Collection from a previous rewards track: {1}.
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_NEW_TRACK_TITLE	New Rewards Track: {0}
@@ -2567,6 +2590,65 @@ GLUE_PROGRESSION_EVENT_TAB_POPUP_EXPIRED_TITLE	Event Has Ended!
 GLUE_PROGRESSION_EVENT_TAB_POPUP_EXPIRED_BODY	The {0} event has come to an end. Stay tuned for the next one!
 GLUE_PROGRESSION_PROFILE_CLASS_TITLE	Class Progress
 GLUE_PROGRESSION_PROFILE_TITLE	Profile
+GLUE_PROGRESSION_APPRENTICE_TRACK_TITLE	Apprentice Track
+GLUE_PROGRESSION_APPRENTICE_TRACK_ABOUT_TITLE	About Apprentice Track
+GLUE_PROGRESSION_APPRENTICE_TRACK_PICK_ONE	Pick 1 of 3
+GLUE_PROGRESSION_APPRENTICE_ABOUT_DESCRIPTION_1	Complete Apprentice to unlock decks, packs, and gold on your way to Ranked play!
+GLUE_PROGRESSION_APPRENTICE_ABOUT_DESCRIPTION_2	You can skip Apprentice to unlock all modes.
+GLUE_PROGRESSION_APPRENTICE_XP_TOOLTIP	Play Hearthstone, level up, and earn rewards.
+GLUE_PROGRESSION_APPRENTICE_TRACK_START_DESCRIPTION	Earn XP to unlock more classes, decks and packs!
+GLUE_PROGRESSION_APPRENTICE_TRACK_START_HEADER	Tutorial\nReward
+GLUE_PROGRESSION_APPRENTICE_TRACK_END_TITLE	Ranked
+GLUE_PROGRESSION_APPRENTICE_TRACK_END_DESCRIPTION	Climb the ranks and become a Legend!
+GLUE_PROGRESSION_APPRENTICE_REWARD_SCROLL_MODE	Mode Unlocked!
+GLUE_PROGRESSION_APPRENTICE_TAVERN_GUIDE_COMPLETION_REWARD	Completion Reward
+GLUE_PROGRESSION_APPRENTICE_TAVERN_GUIDE_QUEST_CATEGORY_PROGRESSION	Progression
+GLUE_PROGRESSION_APPRENTICE_TAVERN_GUIDE_QUEST_CATEGORY_GAMEPLAY	Gameplay
+GLUE_PROGRESSION_APPRENTICE_TAVERN_GUIDE_QUEST_CATEGORY_COLLECTION	Collection
+GLUE_PROGRESSION_APPRENTICE_TAVERN_GUIDE_CORE_LOOP_COMPLETE	Claim your reward from the Apprentice Track to complete your first quest!
+GLUE_PROGRESSION_APPRENTICE_TAVERN_GUIDE_CORE_LOOP_CLAIMED	Continue completing quests for more rewards!
+GLUE_PROGRESSION_APPRENTICE_TAVERN_GUIDE_COMPLETION_TOOLTIP	Complete all the quests on a page to claim a completion reward.
+GLUE_PROGRESSION_APPRENTICE_TAVERN_GUIDE_TRY_WITH	Try with
+GLUE_PROGRESSION_APPRENTICE_TAVERN_PASS_BUTTON_TEXT	Activate Tavern Pass
+GLUE_PROGRESSION_APPRENTICE_TAVERN_PASS_POPUP_TITLE	You own a Tavern Pass!
+GLUE_PROGRESSION_APPRENTICE_TAVERN_PASS_POPUP_SUBTITLE	To access it, you need to complete or skip Apprentice.
+GLUE_PROGRESSION_APPRENTICE_TAVERN_PASS_POPUP_DESC	You can Skip Apprentice to activate your Pass right away, but will face tougher opponents and miss out on some rewards.
+GLUE_PROGRESSION_APPRENTICE_SKIP_APPRENTICE	Skip
+GLUE_PROGRESSION_APPRENTICE_SKIP_APPRENTICE_CANCEL	Not Now
+GLUE_PROGRESSION_APPRENTICE_ABOUT_SKIP_DESCRIPTION	Recommended for experienced card game players only. Unlocks Battlegrounds.
+GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_FIRST_REWARD	Ah! Looks like you’ve earned your first reward!
+GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_NEW_DECK	Wow, you’ve got a new Deck! What a great start!
+GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_LEARN_ROPES	This guide will help you learn the ropes. Let’s start off easy by playing a match!
+GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_MORE_QUESTS	Looks like you’ve unlocked some more quests!
+GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_BONUS_XP	Earn bonus XP and rewards by completing quests! Complete a page to earn a Completion Reward!
+GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_CORE_LOOP	Play matches to earn XP,  Gold and rewards. Use gold to buy packs and grow your collection!
+GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_INTRO_COMPLETE	Keep playing to earn more rewards!
+GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_TRACK_COMPLETE	Woa-ho-ho! You've completed the apprenticeship. Now it's time to take on stronger opponents!
+GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_GUIDE_COMPLETE	I have shared all that I can. Now take what you've learned and become a Hearthstone Legend!
+GLUE_PROGRESSION_APPRENTICE_CHOOSE_DECK	Choose One Deck
+GLUE_PROGRESSION_APPRENTICE_MODE_TITLE	Unlock {0}	0=mode name
+GLUE_PROGRESSION_APPRENTICE_CLASS_TITLE	Unlock {0}	0=class name
+GLUE_PROGRESSION_APPRENTICE_CLASS_STRENGTHS	Strengths
+GLUE_PROGRESSION_APPRENTICE_CLASS_WEAK	Weaknesses
+GLUE_PROGRESSION_APPRENTICE_LOANER_TITLE	Unlock Loaner Decks
+GLUE_PROGRESSION_APPRENTICE_JOURNAL_POPUP_TITLE	About the Journal
+GLUE_PROGRESSION_APPRENTICE_JOURNAL_POPUP_SUBTITLE	Welcome Apprentice!
+GLUE_PROGRESSION_APPRENTICE_JOURNAL_POPUP_DESC	This is your journal. Keep track of your progress, and earn XP to collect rewards!
+GLUE_PROGRESSION_APPRENTICE_DECK_POPUP_SUBTITLE	There are lots of ways to play! Different decks have different play styles.
+GLUE_PROGRESSION_APPRENTICE_DECK_POPUP_CONTROL	Control
+GLUE_PROGRESSION_APPRENTICE_DECK_POPUP_CONTROL_DESC	Control the early game; play powerful minions and spells later.
+GLUE_PROGRESSION_APPRENTICE_DECK_POPUP_AGGRO	Aggro
+GLUE_PROGRESSION_APPRENTICE_DECK_POPUP_AGGRO_DESC	Take out opponents quickly with small minions and direct damage.
+GLUE_PROGRESSION_APPRENTICE_BACK_TO_JOURNAL_SUBTITLE	You’re doing great!
+GLUE_PROGRESSION_APPRENTICE_BACK_TO_JOURNAL_PROGRESS_DESC	Unlock a reward everytime you level up your track!
+GLUE_PROGRESSION_APPRENTICE_BACK_TO_JOURNAL_HOME_DESC	Check your Journal on the home screen to claim your rewards!
+GLUE_TOOLTIP_PROGRESSION_APPRENTICE_RANK_MEDAL_DESC	Complete Apprentice to start ranking up!
+GLUE_PROGRESSION_TAVERN_GUIDE_TITLE	Tavern Guide
+GLUE_PROGRESSION_TAVERN_GUIDE_ABOUT_TITLE	About Tavern Guide
+GLUE_PROGRESSION_TAVERN_GUIDE_ABOUT_DESCRIPTION_1	Complete the Tavern Guide to earn bonus packs, XP and dust.
+GLUE_PROGRESSION_TAVERN_GUIDE_ABOUT_DESCRIPTION_2	You can skip Apprentice to unlock all modes.
+GLUE_PROGRESSION_TAVERN_GUIDE_XP_REWARD	{0} XP	0 = xp amount from data
+GLUE_PROGRESSION_TAVERN_GUIDE_DUST_REWARD	{0} Dust	0 = dust amount from data
 GLUE_PROGRESSION_QUESTS_TITLE	Quests
 GLUE_PROGRESSION_MISSIONS_TITLE	Missions
 GLUE_PROGRESSION_QUESTS_BANKED	Banked Missions: {0}
@@ -2696,7 +2778,7 @@ GLUE_BACON_BATTLEBASH_OWNEDPRIZE	Owned
 GLUE_BACON_BATTLEBASH_UNOWNEDPRIZE	Unowned
 GLUE_MASDK_ACCOUNT_REPAIR_TITLE	Account Repaired
 GLUE_MASDK_ACCOUNT_REPAIR_BODY	We have fixed an issue with your account preventing you from signing up for a Battle.net account. You can now sign up whenever you desire.
-GLUE_GAME_MODE_LOCKED_HEADER	Unlock {0} by completing your Apprenticeship
+GLUE_GAME_MODE_LOCKED_HEADER	Unlock {0} by progressing the Apprentice Track
 GLUE_TOOLTIP_GAME_MODE_DATA_NOT_LOADED	This has not finished loading yet. Please try again.
 GLUE_TAVERN_BRAWL_TRADITIONAL_TUTORIAL_INCOMPLETE	Complete the Traditional Hearthstone tutorial to access Tavern Brawl.
 GLUE_TAVERN_BRAWL_NO_HERO_AT_MINIMUM_LEVEL	At least 1 hero must be level {0} to access Tavern Brawl.
@@ -3268,3 +3350,20 @@ GLUE_ANOMALIES_EVENT_TITLE	Anomalies Event
 GLUE_ANOMALIES_EVENT_SUBTITLE	Yogg-Saron has come to wreak havoc on the players of Hearthstone. Be prepared!
 GLUE_ANOMALIES_EVENT_RULES_ALL	Yogg-Saron has come to wreak havoc! \n<b>ALL games</b> during this event will start with a random effect.
 GLUE_ANOMALIES_EVENT_RULES_SOME	Yogg-Saron has come to wreak havoc! \nSome games during this event will start with a random effect.
+GLUE_STORE_UNAVAILABLE_REASON_TITLE_LOCKED	Locked
+GLUE_STORE_UNAVAILABLE_REASON_TUTORIAL	Complete tutorial to unlock this shop.
+GLUE_STORE_UNAVAILABLE_REASON_MISSING_ASSETS	Download mode to unlock this shop.
+GLUE_STORE_UNAVAILABLE_REASON_UNKNOWN	No Items Right Now \nCome Back Later
+GLUE_GAME_MODE_LOCKED_DOWNLOAD_REQUIRED	{0} Locked, Download Required
+GLUE_GAME_MODE_LOCKED_APPRENTICE_COMPLETION_REQUIRED	Complete the Apprentice Track to unlock {0}!
+GLUE_GAME_MODE_MODULE_DOWNLOADED	{0} Downloaded
+GLUE_GAME_MODE_DOWNLOAD_BUTTON_NAME	Download
+GLUE_GAME_MODE_DOWNLOAD_QUEUED	Queued
+GLUE_GAME_MODE_TOOLTIP_DOWNLOAD_REQUIRED_TITLE	Download Required
+GLUE_GAME_MODE_TOOLTIP_DOWNLOAD_REQUIRED_DESCRIPTION	Download now to play {0}.
+GLUE_GAME_MODE_TOOLTIP_DOWNLOADING_DESCRIPTION	Downloading {0}.	{0}=Name of the module we are downloading (E.g. Solo Adventure)
+GLUE_GAME_MODE_DOWNLOAD_CONFIRMATION_DESCRIPTION	Download {0}?	{0}=Name of the module we are downloading (E.g. Solo Adventure)
+GLUE_GAME_MODE_DOWNLOAD_CONFIRMATION_DOWNLOAD_SIZE	Size: {0}	{0}=Size of the module to download (E.g. 215 MB)
+GLUE_GAME_MODE_DOWNLOAD_CONFIRMATION_AVAILABLE_SIZE	Available Space: {0}	{0}=Storage space available on device (E.g. 7.5 GB)
+GLUE_GAME_MODE_OUT_OF_SPACE_TITLE	Not enough space
+GLUE_GAME_MODE_OUT_OF_SPACE_MESSAGE	You need {0} of free space on your device to continue.	{0}=Size of the module to download (E.g. 215 MB)

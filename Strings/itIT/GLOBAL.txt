@@ -10,9 +10,9 @@ GLOBAL_AADC_CHATSETTINGS_SETTINGSUPDATED	Impostazioni chat aggiornate
 GLOBAL_AADC_CHATSETTINGS_TITLE	Impostazioni chat	
 GLOBAL_AADC_CHATSETTINGS_UPDATINGSETTINGS	Aggiornamento impostazioni chat	
 GLOBAL_AADC_CHATWARNING	Fa' attenzione e non condividere informazioni personali nei messaggi.	
-GLOBAL_AADC_FRIENDSETTINGS_DISABLEDESCRIPTION	Disabilitando questa opzione, impedirai ai contatti che fanno parte della tua rete di vedere le tue attività di gioco nell'elenco amici.	
+GLOBAL_AADC_FRIENDSETTINGS_DISABLEDESCRIPTION	Disabilitando i giocatori vicini, impedirai ai giocatori nei pressi della tua posizione di vedere le tue attività di gioco nell'elenco amici.	
 GLOBAL_AADC_FRIENDSETTINGS_DISABLEHEADER	Disabilita contatti a te vicini?	
-GLOBAL_AADC_FRIENDSETTINGS_ENABLEDESCRIPTION	Abilitando questa opzione, permetterai ai contatti che fanno parte della tua rete di vedere le tue attività di gioco nell'elenco amici.	
+GLOBAL_AADC_FRIENDSETTINGS_ENABLEDESCRIPTION	Abilitando i giocatori vicini, permetterai ai giocatori nei pressi della tua posizione di vedere le tue attività di gioco nell'elenco amici.	
 GLOBAL_AADC_FRIENDSETTINGS_ENABLEHEADER	Abilita contatti a te vicini?	
 GLOBAL_AADC_FRIENDSETTINGS_SETTINGSUPDATED	Aggiornamento contatti a te vicini completato	
 GLOBAL_AADC_FRIENDSETTINGS_TITLE	Impostazioni amici	
@@ -59,6 +59,7 @@ GLOBAL_ADVENTURE_DESC_HEADER	Avventura
 GLOBAL_ADVENTURE_TRAY_HEADER	Scegli un'avventura	
 GLOBAL_APPROXIMATE_DATETIME	~{0}	0=time string
 GLOBAL_APPROXIMATE_DATETIME_RANGE	~{0} - {1}	0=min seconds 1=max seconds string
+GLOBAL_ARENA	Arena	
 GLOBAL_ARENA_MEDAL_0	Chiave da Novizio	
 GLOBAL_ARENA_MEDAL_1	Chiave da Apprendista	
 GLOBAL_ARENA_MEDAL_10	Chiave del Gelo	
@@ -143,6 +144,7 @@ GLOBAL_BUTTON_OWNED	Posseduto
 GLOBAL_BUTTON_SUBMIT	Invia	
 GLOBAL_BUTTON_YES	Sì	
 GLOBAL_CANCEL	Annulla	
+GLOBAL_CANCEL_MODULE_POPUP_PROMPT	Vuoi annullare il download di {0}?	{0}=Module name to cancel downloading (e.g. Battlegrounds)
 GLOBAL_CARD_SET_AV	Divisi nella Valle d'Alterac	
 GLOBAL_CARD_SET_AV_SEARCHABLE_SHORTHAND_NAMES	va dnva dva	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_AV_SHORT	Valle d'Alterac	
@@ -383,6 +385,31 @@ GLOBAL_DEMO_DISCLAIMER	Questa versione di Hearthstone è stata creata unicamente
 GLOBAL_DEMO_LEARN_MORE	Maggiori informazioni	
 GLOBAL_DISABLE	Disattiva	
 GLOBAL_DONE	Fine	
+GLOBAL_DOWNLOAD_MANAGER	Gestione download	Label for the Download Manager menu
+GLOBAL_DOWNLOAD_MANAGER_BUTTON_CANCEL	Annulla	
+GLOBAL_DOWNLOAD_MANAGER_BUTTON_DOWNLOAD	Scarica	
+GLOBAL_DOWNLOAD_MANAGER_BUTTON_UNINSTALL	Disinstalla	
+GLOBAL_DOWNLOAD_MANAGER_DISMISS_BUTTON	Fine	
+GLOBAL_DOWNLOAD_MANAGER_FREE_SPACE	Spazio disponibile: {0}	{0}=Free spaces available on the device (e.g. 8.23 GB)
+GLOBAL_DOWNLOAD_MANAGER_GAME_MODES	Modalità di gioco	Label for the Download Manager - Game modes section
+GLOBAL_DOWNLOAD_MANAGER_OPTION_CELLULAR_DATA_DESC	Consenti a Hearthstone di usare la rete mobile.	
+GLOBAL_DOWNLOAD_MANAGER_OPTION_CELLULAR_DATA_LABEL	Vuoi usare la rete mobile?	
+GLOBAL_DOWNLOAD_MANAGER_OPTION_ENABLE_DOWNLOAD_DESC	Consenti a Hearthstone di scaricare risorse.	
+GLOBAL_DOWNLOAD_MANAGER_OPTION_ENABLE_DOWNLOAD_LABEL	Vuoi abilitare il download?	
+GLOBAL_DOWNLOAD_MANAGER_OPTIONAL_ASSETS	Risorse	Module name for optional assets to be displayed on Download Manager
+GLOBAL_DOWNLOAD_MANAGER_PAUSE_DOWNLOADS	Metti in pausa i download	
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_CANCELLING	Annullamento in corso...	
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_DOWNLOADING	Download in corso... {0:P2}	0=The percentage of downloaded progress
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_INSTALLED	Installazione completata!	
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_PAUSED	In pausa	
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_QUEUED	In coda	
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_REMAINING	Ancora: {0}	0=Time remaining. (e.g. 21:30)
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_UNINSTALLING	Disinstallazione in corso...	
+GLOBAL_DOWNLOAD_MANAGER_RESUME_DOWNLOADS	Riprendi i download	
+GLOBAL_DOWNLOAD_MANAGER_SETTINGS	Impostazioni	Label for the Download Manager - Settings section
+GLOBAL_DOWNLOAD_MODULE_POPUP_FILE_SIZE	Dimensioni file: {0}	{0}=File size to download (e.g. 1.8GB)
+GLOBAL_DOWNLOAD_MODULE_POPUP_FREE_SPACE	Spazio disponibile: {0}	{0}=Free spaces available on the device (e.g. 8.23 GB)
+GLOBAL_DOWNLOAD_MODULE_POPUP_PROMPT	Vuoi scaricare {0}?	{0}=Module name to download (e.g. Battlegrounds)
 GLOBAL_ENABLE	Attiva	
 GLOBAL_END_GAME	Termina partita	
 GLOBAL_ENTER	Avvia	
@@ -431,7 +458,6 @@ GLOBAL_ERROR_NETWORK_UNAVAILABLE_UNKNOWN	Ooops! Dei folletti dispettosi sono int
 GLOBAL_ERROR_NETWORK_UNAVAILABLE_UPGRADE	Hearthstone è stato aggiornato! Scarica la versione più recente.	
 GLOBAL_ERROR_NETWORK_UTIL_TIMEOUT	Richiesta di connessione scaduta durante la ricezione di dati dal servizio di Hearthstone. Riavvia Hearthstone per riconnetterti.	
 GLOBAL_ERROR_NO_MAGE_PRECON	Ci deve essere stato un problema di connessione mentre caricavamo le carte della tua collezione. Riavvia Hearthstone per recuperare le carte perdute e ricominciare a giocare!	
-GLOBAL_ERROR_STEAM_ACCOUNT_LINKING	Non siamo riusciti a collegare il tuo account Steam all'account BattleNet. Riavvia il client di Steam e riprova.	
 GLOBAL_ERROR_STREAMING_ASSET_TIMEOUT	Tempo scaduto in attesa del sistema di streaming. Elemento in caricamento: {0}.	0=asset name
 GLOBAL_ERROR_UNKNOWN_ERROR	Ooops! Dei folletti dispettosi sono intervenuti mentre Hearthstone si collegava al servizio di gioco Blizzard. Rimani qualche minuto in attesa che se ne vadano e prova a rilanciare il gioco.	
 GLOBAL_EXIT	Esci	
@@ -625,7 +651,7 @@ GLOBAL_HERO_LEVEL_REWARD_GOLD	{0} oro	0=amount
 GLOBAL_HERO_LEVEL_REWARD_GOLDEN_CARD	{1} {0}	0=flair 1=card name
 GLOBAL_HERO_WINS	Vittorie: {0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HERO_WINS_PAST_MAX	Vittorie: {0}	0=number of games this class has won
-GLOBAL_HERO_WINS_PAST_MAX_PHONE	Vittorie\n{0}	0=number of games this class has won
+GLOBAL_HERO_WINS_PAST_MAX_PHONE	Vittorie: {0}	0=number of games this class has won
 GLOBAL_HERO_WINS_PHONE	Vittorie: {0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HEROIC_BRAWL	Rissa Eroica	
 GLOBAL_HIDE	Nascondi	
@@ -1100,6 +1126,8 @@ GLOBAL_MOBILECHAT_NOTIFICATION_TURN_COUNTDOWN	Il tempo sta per scadere!
 GLOBAL_MOBILECHAT_NOTIFICATION_YOUR_TURN	Tocca a te!	
 GLOBAL_MOBILECHAT_RETURN_TO_GAME	Chiudi	
 GLOBAL_MOBILECHAT_RETURN_TO_MENU	Torna al menu	
+GLOBAL_MODULE_ADVENTURE	Avventure in solitaria	Module name for adventure
+GLOBAL_MODULE_MERC	Mercenari	Module name for merc
 GLOBAL_MORE	Altro	
 GLOBAL_MY_NUM_WINS	{0}	0=number of games this player has won
 GLOBAL_NOT_AVAILABLE	Non disponibile	
@@ -1133,7 +1161,7 @@ GLOBAL_OPTIONS_PUBLIC_CHAT_ENABLED	Chat pubblica
 GLOBAL_OPTIONS_RESTORE_PURCHASES	Ripristina acquisti	
 GLOBAL_OPTIONS_RESTORE_PURCHASES_POPUP_TEXT	Non trovi qualcosa che avevi acquistato? Assicurati di essere connesso con l'account corretto.	
 GLOBAL_OPTIONS_SCREEN_SHAKE	Attiva movimento schermo	
-GLOBAL_OPTIONS_SKIP_NPR	Salta l'Addestramento	
+GLOBAL_OPTIONS_SKIP_NPR	Salta il grado Apprendista	
 GLOBAL_OPTIONS_SKIP_TO_RANK_25	Salta al Grado 25	
 GLOBAL_OPTIONS_SOUND_AMBIENT_SOUNDS_VOLUME_LABEL	Suoni ambientali	
 GLOBAL_OPTIONS_SOUND_DIALOG_VOLUME_LABEL	Dialogo	
@@ -1180,7 +1208,10 @@ GLOBAL_PROGRAMNAME_WOW	World of Warcraft
 GLOBAL_PROGRESSION_ACHIEVEMENT_COMPLETION	Completata il {0}	
 GLOBAL_PROGRESSION_ACHIEVEMENT_COMPLETION_DATE	{0:dd/MM/yyyy}	see http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
 GLOBAL_PROGRESSION_ACHIEVEMENT_COMPLETION_PERCENTAGE	{0}%	
+GLOBAL_PROGRESSION_ACHIEVEMENT_SUBCATEGORY_LOCKED_TOOLTIP	Scarica {0} per visualizzare le imprese.	{0}=Localised game mode name
+GLOBAL_PROGRESSION_ACHIEVEMENT_SUBCATEGORY_LOCKED_TOOLTIP_TITLE	{0}	{0}=Localised game mode name
 GLOBAL_PROGRESSION_ACHIEVEMENT_SUBCATEGORY_NAME	{0} - {1}	
+GLOBAL_PROGRESSION_ACHIEVEMENT_TILE_LOCKED_MESSAGE	Scarica {0} per visualizzare	{0}=Localised game mode name
 GLOBAL_PROGRESSION_BATTLEGROUNDS_QUESTS_POPUP_TITLE	Le tue missioni settimanali	
 GLOBAL_PROGRESSION_DAILY_QUESTS_POPUP_TITLE	Le tue missioni	
 GLOBAL_PROGRESSION_EVENT_QUESTS_POPUP_TITLE	Le tue missioni dell'evento	
@@ -1303,6 +1334,7 @@ GLOBAL_RARITY_FREE	Gratuita
 GLOBAL_RARITY_LEGENDARY	Leggendaria	
 GLOBAL_RARITY_RARE	Rara	
 GLOBAL_RECONNECT_EXIT_BUTTON	Esci	
+GLOBAL_RECONNECT_FAIL_MODE_NOT_AVAILABLE Unable to reconnect to game, mode {0} is not downloaded	{0} = nome della modalità, (ad es. Battaglia, Mercenari, Avventure in solitaria)	
 GLOBAL_RECONNECT_RECONNECTED	Sei stato riconnesso alla partita. Ripresa in corso...	
 GLOBAL_RECONNECT_RECONNECTED_HEADER	Riconnesso	
 GLOBAL_RECONNECT_RECONNECTED_LOGIN	Sei stato riconnesso all'ultima partita. Ripresa in corso...	
@@ -1311,7 +1343,7 @@ GLOBAL_RECONNECT_RECONNECTING_HEADER	Riconnessione
 GLOBAL_RECONNECT_RECONNECTING_LOGIN	Sei stato disconnesso dall'ultima partita. Riconnessione in corso...	
 GLOBAL_RECONNECT_TIMEOUT	Impossibile riconnettersi alla partita.	
 GLOBAL_RECONNECT_TIMEOUT_HEADER	Errore	
-GLOBAL_REDUNDANT_NDE_BODY	Hai appena ottenuto la versione {0} di |4 (questa carta, queste carte).\nVuoi cambiare la {1} |4(versione, versioni) in |4(una {2} {3} carta, carte {2} {3} del set casuale)?	0=Newly Acquired Premium, 1=Premium to reroll, 2=reroll set name, 3=card rarity
+GLOBAL_REDUNDANT_NDE_BODY	Hai appena ottenuto la versione {0} di |4 (questa carta, queste carte).\nVuoi cambiare la versione {1} in una carta {2} {3} del set casuale)?	0=Newly Acquired Premium, 1=Premium to reroll, 2=reroll set name, 3=card rarity
 GLOBAL_REDUNDANT_NDE_BODY_MULTIPLE_PREMIUMS	Hai appena ottenuto la versione {0} di questa carta.\nVuoi cambiare le versioni {1}/{2} in carte {3} {4} del set casuale?	0=Newly Acquired Premium, 1=Higher premium to reroll, 2=Lower premium to reroll, 3=reroll set name, 4=card rarity
 GLOBAL_REDUNDANT_NDE_BUTTON_DECLINE	No, grazie	
 GLOBAL_REDUNDANT_NDE_BUTTON_REROLL	Cambio!	
@@ -1345,6 +1377,7 @@ GLOBAL_RETRY	Riprova
 GLOBAL_RETURNING_PLAYER_GENERATED_DECK	Mazzo del Locandiere	
 GLOBAL_REWARD_ARCANE_DUST_HEADLINE	Polvere Arcana ottenuta!	
 GLOBAL_REWARD_ARCANE_ORBS_HEADLINE	Globi Arcani ottenuti!	
+GLOBAL_REWARD_ARENA_TICKET	Ammissione all'Arena	
 GLOBAL_REWARD_ARENA_TICKET_ADMIT	ACCESSO	the word 'admit' in capital letters - displayed like "Admit 1" and looks like a movie/fair ticket. this is the Arena Ticket reward visual.
 GLOBAL_REWARD_ARENA_TICKET_AUTHORIZED_BY	Autorizzato da	a label that shows up in the Arena Ticket under the Player's name indicating this ticket reward was granted by some guy.
 GLOBAL_REWARD_ARENA_TICKET_ENTRANT	Beneficiario	a label that shows up in the Arena Ticket under the Player's name to say this person is allowed entrance into the Arena.
@@ -1509,6 +1542,7 @@ GLOBAL_SPELL_SCHOOL_HOLY	Sacro
 GLOBAL_SPELL_SCHOOL_NATURE	Natura	
 GLOBAL_SPELL_SCHOOL_PHYSICAL_COMBAT	Attacco	
 GLOBAL_SPELL_SCHOOL_SHADOW	Ombra	
+GLOBAL_SPELL_SCHOOL_TAVERN	Locanda	
 GLOBAL_SPLASH_CLOSED_RECONNECTING	Riconnessione in corso...	
 GLOBAL_SPLASH_CLOSED_SIGN_TITLE	Chiuso	
 GLOBAL_STANDARD	Standard	
@@ -1558,6 +1592,7 @@ GLOBAL_TWIST_SEASON_TITLE_117	Una nuova era
 GLOBAL_TWIST_SEASON_TITLE_119	Meraviglie	
 GLOBAL_TWIST_SEASON_TITLE_120	Meraviglie XL	
 GLOBAL_TWIST_SEASON_TITLE_121	Ritorno a Un'Goro	
+GLOBAL_UNINSTALL_MODULE_POPUP_PROMPT	Vuoi disinstallare {0}?	{0}=Module name to uninstall (e.g. Battlegrounds)
 GLOBAL_UPDATE	Aggiorna	
 GLOBAL_VERSION	Versione	
 GLOBAL_WAIT_FOR_OPPONENT_RECONNECT	In attesa della riconnessione dell'avversario... ({0}m{1}s)\nPotrebbe essere necessario accedere al menu di gioco per terminare la partita.	

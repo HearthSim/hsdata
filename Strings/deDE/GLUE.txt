@@ -547,7 +547,9 @@ GLUE_CHECKOUT_ERROR_GENERIC_FAILURE	Huch! Etwas ist schief gelaufen. Bitte versu
 GLUE_CHECKOUT_ERROR_INSUFFICIENT_FUNDS	Sie haben nicht genügend Guthaben, um diesen Kauf abzuschließen.	
 GLUE_CHECKOUT_ERROR_PRODUCT_UNAVAILABLE	Dieses Produkt ist im Moment nicht verfügbar.	
 GLUE_CHECKOUT_HICKORY_ACCOUNT_FAILURE	Mit Ihrem Konto können keine Einkäufe getätigt werden. Bitte überprüfen Sie Ihre Kontoeinstellungen oder wenden Sie sich für weitere Informationen an den HICKORY-Support.	
+GLUE_CHECKOUT_HICKORY_BLOCKED_FAILURE	Bitte wendet Euch an den Blizzard-Kundendienst, um einen Kauf zu tätigen.	
 GLUE_CHECKOUT_HICKORY_OVERLAY_FAILURE	Sie müssen das Overlay aktivieren, um Einkäufe tätigen zu können. Dieses finden Sie im Einstellungsmenü.	
+GLUE_CHECKOUT_HICKORY_PENDING_FAILURE	Ihr habt einen ausstehenden Kauf. Bitte wartet, bevor Ihr einen weiteren Kauf tätigt.	
 GLUE_CHECKOUT_HICKORY_RECONCILE_FAILURE	Bei Ihrem ausstehenden Kauf ist ein Fehler aufgetreten. Bitte starten Sie den Client neu.	
 GLUE_CHECKOUT_HICKORY_TIMEOUT_FAILURE	Die Zeitbeschränkung für den Kauf wurde überschritten.	
 GLUE_CHINA_STORE_BOOSTER_GIFT	赠礼：\n{0}包卡牌包	
@@ -576,6 +578,7 @@ GLUE_CLASS_DESCRIPTION_WARLOCK	Opfert alles und jeden auf Eurer Suche nach dämo
 GLUE_CLASS_DESCRIPTION_WARRIOR	Zerschmettert Eure Feinde mit mächtigen Waffen und steigert Eure Stärke, indem Ihr Euch dem Kampfrausch hingebt.	
 GLUE_CLASS_INVALID_DECK_DESC	Dieses Deck verwendet eine ungültige Klasse.	
 GLUE_CLASS_INVALID_DECK_TITLE	Ungültige Klasse	
+GLUE_CLASS_UNLOCK_DESCRIPTION	Klasse & Deck: {0}	
 GLUE_CLASS_UNLOCKED_CARDS_DEATHKNIGHT	Todesritterkarten sind in Eurer Sammlung verfügbar!	
 GLUE_CLASS_UNLOCKED_CARDS_DEMONHUNTER	Dämonenjägerkarten sind in Eurer Sammlung verfügbar!	
 GLUE_CLASS_UNLOCKED_CARDS_MORE	+27 weitere Karten	
@@ -678,7 +681,7 @@ GLUE_COLLECTION_DECK_INCOMPLETE_LABEL_TOUCH	Zum Ergänzen tippen
 GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_HEADER	Unvollständiges Deck	
 GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_TEXT	Ihr müsst dem Deck noch {0} weitere |4(Karte,Karten) hinzufügen.\nSoll das Deck automatisch ergänzt werden?	
 GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_TEXT_CLICK_TO_FIX_DISABLED	Ihr müsst dem Deck noch {0} weitere |4(Karte,Karten) hinzufügen.	
-GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_TEXT_NPR	{0} |4(Karte benötigt,Karten benötigen) den Abschluss der Lehrlingsphase.\n|4(Soll,Sollen) sie automatisch ersetzt werden?	
+GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_TEXT_NPR	{0} |4(Karte benötigt,Karten benötigen) für den Abschluss der Lehrlingsphase.\n|4(Soll,Sollen) sie automatisch ersetzt werden?	
 GLUE_COLLECTION_DECK_INFO_HERO_POWER_TOOLTIP	Heldenfähigkeit	
 GLUE_COLLECTION_DECK_INFO_MANA_TOOLTIP	Karten/Manakosten	
 GLUE_COLLECTION_DECK_INFO_TITLE	{0} Info	
@@ -713,6 +716,7 @@ GLUE_COLLECTION_DECK_TEMPLATE_HELP_BUTTON	Karten ersetzen
 GLUE_COLLECTION_DECK_TEMPLATE_REPLACE	Deck wechseln	
 GLUE_COLLECTION_DECK_TEMPLATE_REPLACE_MESSAGE	Dadurch wird Euer derzeitiges Deck gelöscht und durch die Karten der Deckformel ersetzt. Seid Ihr sicher?	
 GLUE_COLLECTION_DECK_TEMPLATE_SELECT_A_DECK	Wählt eine Deckformel, um mehr zu erfahren!	
+GLUE_COLLECTION_DECK_TWIST_INVALID_CLASS	Ihr habt ein Hakendeck in Eurer Ablage, aber diese Klasse ist in der aktuellen Saison nicht verfügbar.	
 GLUE_COLLECTION_DECK_TWIST_NOT_ACTIVE	Ihr habt ein Deck zu Der Haken in Eurer Zwischenablage, aber es gibt keine aktive Saison zu Der Haken.	
 GLUE_COLLECTION_DECK_TWIST_NOT_UNLOCKED	Ihr habt ein Hakendeck in Eurer Zwischenablage, aber Ihr habt den Hakenmodus nicht freigeschaltet.	
 GLUE_COLLECTION_DECK_VALID_PASTE_BODY	Möchtet Ihr mit dem Deck in Eurer Zwischenablage ein neues Deck erstellen?	
@@ -1096,17 +1100,30 @@ GLUE_FROSTMOURNE_REWARD_BODY	Besiegt den Lichkönig mit jeder Klasse und erhalte
 GLUE_FROSTMOURNE_REWARD_HEADER	Neuer Paladinheld	
 GLUE_FROSTMOURNE_WING_INCOMPLETE_REWARD_BODY	Besiegt den Lichkönig mit jeder Klasse und Ihr erhaltet Prinz Arthas als Belohnung!	
 GLUE_FUN_CONFIRM_MESSAGE	Super!	
-GLUE_GAME_MODE_LOCKED_HEADER	Schließt Eure Lehrlingsphase ab, um {0} freizuschalten.	
+GLUE_GAME_MODE_DOWNLOAD_BUTTON_NAME	Download	
+GLUE_GAME_MODE_DOWNLOAD_CONFIRMATION_AVAILABLE_SIZE	Verfügbarer Speicherplatz: {0}	{0}=Storage space available on device (E.g. 7.5 GB)
+GLUE_GAME_MODE_DOWNLOAD_CONFIRMATION_DESCRIPTION	{0} herunterladen?	{0}=Name of the module we are downloading (E.g. Solo Adventure)
+GLUE_GAME_MODE_DOWNLOAD_CONFIRMATION_DOWNLOAD_SIZE	Größe: {0}	{0}=Size of the module to download (E.g. 215 MB)
+GLUE_GAME_MODE_DOWNLOAD_QUEUED	In Warteschlange	
+GLUE_GAME_MODE_LOCKED_APPRENTICE_COMPLETION_REQUIRED	Schließt den Lehrlingsweg ab, um {0} freizuschalten!	
+GLUE_GAME_MODE_LOCKED_DOWNLOAD_REQUIRED	{0} Gesperrt. Download erforderlich	
+GLUE_GAME_MODE_LOCKED_HEADER	Schließt Euren Lehrlings-Belohnungsweg ab, um {0} freizuschalten	
+GLUE_GAME_MODE_MODULE_DOWNLOADED	{0} heruntergeladen	
 GLUE_GAME_MODE_NEW_MODE_POPUP_HEADER	Neuer Modus!	
 GLUE_GAME_MODE_NEW_MODE_UNLOCKED_POPUP_HEADER	Neuer Modus freigeschaltet:	
+GLUE_GAME_MODE_OUT_OF_SPACE_MESSAGE	Ihr benötigt {0} freien Speicherplatz auf dem Gerät, um fortzufahren.	{0}=Size of the module to download (E.g. 215 MB)
+GLUE_GAME_MODE_OUT_OF_SPACE_TITLE	Nicht genug Speicherplatz	
+GLUE_GAME_MODE_TOOLTIP_DOWNLOAD_REQUIRED_DESCRIPTION	Jetzt herunterladen und {0} spielen.	
+GLUE_GAME_MODE_TOOLTIP_DOWNLOAD_REQUIRED_TITLE	Download erforderlich	
+GLUE_GAME_MODE_TOOLTIP_DOWNLOADING_DESCRIPTION	{0} wird heruntergeladen.	{0}=Name of the module we are downloading (E.g. Solo Adventure)
 GLUE_GAME_MODE_UNLOCK_DEFAULT_HEROES	Schaltet alle 10 Helden frei, um Zugriff auf den Modus {0} zu erhalten.	
 GLUE_GAME_MODES	Modi	
 GLUE_GAME_MODES_POPUP_BACON_DESC	Tretet gegen 7 Gegner an.	
 GLUE_GAME_MODES_POPUP_BETA	BETA	
-GLUE_GAME_MODES_POPUP_EARLY_ACCESS	Frühzugang	
+GLUE_GAME_MODES_POPUP_EARLY_ACCESS	Vorabzugang	
 GLUE_GAME_MODES_POPUP_FORGE_DESC	Erstellt ein Deck aus 30 Karten.	
 GLUE_GAME_MODES_POPUP_HEADER	Wählt einen Modus	
-GLUE_GAME_MODES_POPUP_PVPDR_DESC	Sichert Euch Beute, erstellt Decks und kämpft für Ruhm und Ehre!	
+GLUE_GAME_MODES_POPUP_PVPDR_DESC	Sichert Euch Beute, baut Euer Deck zusammen und kämpft für Ruhm!	
 GLUE_GENERIC_RANDOM_CARD_SCROLL_DESC	Aus Eurem Paket: {0}!	This is meant to replace the above welcome bundle strings until we have the tech to show custom strings per reward.
 GLUE_GENERIC_RANDOM_CARD_SCROLL_TITLE	Eine Karte!	
 GLUE_GENERIC_RANDOM_EPIC_SCROLL_TITLE	Eine epische Karte!	
@@ -1148,13 +1165,13 @@ GLUE_GOLD_CAP_BODY	Ihr könnt kein Gold mehr verdienen, bis Euer Gold weniger al
 GLUE_GOLD_CAP_HEADER	{0} Gold erreicht!	
 GLUE_GOONS_CLASS_NAMES	Jäger, Paladin, Krieger	
 GLUE_HERO_HEROSELECT_NEW	NEU!	
-GLUE_HERO_LOCKED_DESC	Besiegt {0} im gewerteten Modus oder im Modus „Üben“, um {1} freizuschalten.	
+GLUE_HERO_LOCKED_DESC	Erreicht Lehrlingsphasen-Stufe {0} zum Freischalten.	
 GLUE_HERO_LOCKED_LETS_GO	Los geht’s!	
 GLUE_HERO_LOCKED_NAME	Gesperrt	
-GLUE_HERO_LOCKED_PROLOGUE_DESC	Um als {0} zu spielen, müsst Ihr erst den Prolog dieser Klasse abschließen.	
 GLUE_HERO_SKIN_PURCHASE_CONFIRMATION_HEADER	Bestätigen	
 GLUE_HERO_SKIN_PURCHASE_CONFIRMATION_MESSAGE	Sind Sie sicher, dass Sie den Helden {0} erwerben wollen?\n\nDer Kauf kann nach dem Bestätigen nicht rückgängig gemacht werden.	
 GLUE_HERO_SKIN_PURCHASE_ERROR_HEADER	Helden	
+GLUE_HEROIC_BRAWL_APPRENTICE_WARNING	Heroisches Kartenchaos ist ein Wettbewerb mit hohem Einsatz! Schließt die Lehrlingsphase ab oder wartet bis zur nächsten Woche auf ein neues Kartenchaos.	
 GLUE_HEROIC_BRAWL_CONTINUE	Verstanden!	Heroic brawl intro dialogue continue button text
 GLUE_HEROIC_BRAWL_DECK	Heroisches Kartenchaos	
 GLUE_HEROIC_BRAWL_INTRO	Das dieswöchige Kartenchaos ist für unsere erfahrensten Spieler gedacht.\nBringt Eure besten Strategien und Karten mit!	
@@ -1253,10 +1270,12 @@ GLUE_KARA_LOADING_BAR_TASK_8	Knipse Selfies mit Romulo
 GLUE_KARA_LOADING_BAR_TASK_9	Hänge Discokugel auf	
 GLUE_KARA_PROLOGUE_LOADING	Warte auf Rabenboten ...	
 GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_CANCEL	Abbrechen	
-GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_CONFIRM	Verpassen	
+GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_CONFIRM	Überspringen	
 GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_DESCRIPTION	Wenn Ihr die Stufen bis Rang 25 überspringt, erwarten Euch schwierigere\nGegner und Ihr verpasst die Belohnungen, die Ihr unterwegs verdienen könnt!	
-GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_DESCRIPTION_NEW	Wenn Ihr die Lehrlingsphase überspringt, müsst Ihr Euch mit stärkeren Gegnern messen und Euch entgehen Belohnungen auf dem Weg!	
+GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_DESCRIPTION_NEW	Wenn Ihr die Lehrlingsphase überspringt, müsst Ihr Euch mit stärkeren Gegnern messen, aber Ihr schaltet sofort alle Klassen, Spielmodi und ein Leihdeck frei!	
 GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_TITLE	Seid Ihr sicher?	
+GLUE_LEAGUE_PROMOTE_SELF_UNCLAIMED_REWARDS_ERROR_DESCRIPTION	Ihr müsst alle freigeschalteten Belohnungen erst einlösen, bevor Ihr den Lehrlingsweg überspringen könnt.	
+GLUE_LEAGUE_PROMOTE_SELF_UNCLAIMED_REWARDS_ERROR_TITLE	Ihr habt unbeanspruchte Belohnungen!	
 GLUE_LEGENDARY_QUEST_REROLL_BODY	Quest abbrechen und stattdessen eine normale erhalten? Wenn diese Quest zu einer Questreihe gehört, wird die ganze Reihe abgebrochen.	
 GLUE_LEGENDARY_QUEST_REROLL_TITLE	Austauschen?	
 GLUE_LET_LOADING_BAR_TASK_1	Übe Nierenhiebe	
@@ -1765,6 +1784,7 @@ GLUE_MERCENARY_LABEL_PORTRAIT	Porträt
 GLUE_MERCENARY_PACK_DESCRIPTION	Erhaltet zufällige Söldner, Söldnerporträts oder Söldnermünzen.	
 GLUE_MERCENARY_PACK_TITLE	Söldnerpackung	
 GLUE_MERCENARY_PACK_UNAVAILABLE	Vorübergehend nicht verfügbar!	
+GLUE_MERCENARY_PACK_UNAVAILABLE_DOWNLOAD_REQUIRED	Ladet den Söldnermodus herunter, um fortzufahren!	
 GLUE_MERCENARY_RANDOM_COIN_DESCRIPTION	Erhaltet {0} |4(Söldnermünze,Söldnermünzen) für einen zufälligen Söldner.	0: number of coins
 GLUE_MERCENARY_RANDOM_COIN_TITLE	Zufällige Söldnermünzen	
 GLUE_MERCENARY_TUTORIAL_INCOMPLETE_FOR_PACK	Schließt das\nSöldner-Tutorial ab!	
@@ -1828,7 +1848,19 @@ GLUE_NEW_HERO	Neuer Held!
 GLUE_NEW_PLAYER_AVAILABLE_AFTER_APPRENTICESHIP	Verfügbar nach der Lehrlingsphase	
 GLUE_NEW_PLAYER_AVAILABLE_AT_LEAGUE_PROMO	Verfügbar\nnach der\nLehrlingsphase	
 GLUE_NEW_PLAYER_PROMOTION_CHEST_DESC	Ihr seid jetzt bereit, um um\nGewertete Belohnungen zu kämpfen!	
-GLUE_NEW_PLAYER_PROMOTION_CHEST_TITLE	Bronze freigeschaltet!	
+GLUE_NEW_PLAYER_PROMOTION_CHEST_TITLE	Gewertet freigeschaltet!	
+GLUE_NEW_PLAYER_PROMOTION_SEASONS_DESC	Je höher Euer Rang, desto größer die Belohnungen!	
+GLUE_NEW_PLAYER_PROMOTION_SEASONS_TITLE	Am Anfang eines jeden Monats beginnt eine neue Saison.	
+GLUE_NEW_PLAYER_PROMOTION_STARS_DESC	Gewinnt Spiele, um Sterne zu erhalten.\nErhaltet 3 Sterne, um aufzusteigen!	
+GLUE_NEW_PLAYER_REWARD_PREVIEW_CHOOSE_DECK	{0} von {1} Decks	
+GLUE_NEW_PLAYER_REWARD_PREVIEW_CLAIM_BUTTON	Geht zum Tagebuch	
+GLUE_NEW_PLAYER_REWARD_PREVIEW_CLAIMABLE	Bereit zum Abholen!	
+GLUE_NEW_PLAYER_REWARD_PREVIEW_CLASS_PACKS	Klasse |4(Packung,Packungen)	
+GLUE_NEW_PLAYER_REWARD_PREVIEW_CLASS_UNLOCK	Klasse {0}	
+GLUE_NEW_PLAYER_REWARD_PREVIEW_FOUR_ITEMS	{0}, {1}, {2} und {3}	
+GLUE_NEW_PLAYER_REWARD_PREVIEW_REQUIRED_LEVEL	Lehrlingsphase - Stufe {0}	
+GLUE_NEW_PLAYER_REWARD_PREVIEW_THREE_ITEMS	{0}, {1} und {2}	
+GLUE_NEW_PLAYER_REWARD_PREVIEW_TWO_ITEMS	{0} und {1}	
 GLUE_NEW_PLAYER_SET_ROTATION_POPUP_BODY	Neue Karten sind da! Einige Eurer älteren Karten sind jetzt erst wieder verfügbar, wenn Ihr die Lehrlingsphase abgeschlossen habt.	
 GLUE_NEW_PLAYER_SET_ROTATION_POPUP_HEADER	Willkommen zum {0}!	
 GLUE_NEW_TWIST_MODE_HINT	Probiert den neuen Hakenmodus aus!	
@@ -1915,6 +1947,58 @@ GLUE_PROGRESSION_ACHIEVEMENTS_STEPCOMPLETED	Schritt abgeschlossen!
 GLUE_PROGRESSION_ACHIEVEMENTS_TITLE	Erfolge	
 GLUE_PROGRESSION_ACHIEVEMENTS_TOOLTIP_DESCRIPTION	Schließt Erfolge ab, um mehr Punkte zu erhalten.	
 GLUE_PROGRESSION_ACHIEVEMENTS_TOOLTIP_TITLE	Erfolgspunkte	
+GLUE_PROGRESSION_APPRENTICE_ABOUT_DESCRIPTION_1	Schließt die Lehrlingsphase ab, um Decks, Packungen und Gold auf Eurem Weg zu Gewertet freizuschalten!	
+GLUE_PROGRESSION_APPRENTICE_ABOUT_DESCRIPTION_2	Ihr könnt die Lehrlingsphase überspringen, um alle Spielmodi freizuschalten.	
+GLUE_PROGRESSION_APPRENTICE_ABOUT_SKIP_DESCRIPTION	Empfohlen für erfahrene Kartenspieler. Schaltet das Schlachtfeld frei.	
+GLUE_PROGRESSION_APPRENTICE_BACK_TO_JOURNAL_HOME_DESC	Schaut in Eurem Tagebuch auf dem Startbildschirm nach, um Eure Belohnungen einzufordern!	
+GLUE_PROGRESSION_APPRENTICE_BACK_TO_JOURNAL_PROGRESS_DESC	Schaltete jedes Mal eine Belohnung frei, wenn Ihr Euren Weg eine Stufe aufwertet!	
+GLUE_PROGRESSION_APPRENTICE_BACK_TO_JOURNAL_SUBTITLE	Ihr macht das toll!	
+GLUE_PROGRESSION_APPRENTICE_CHOOSE_DECK	Wählt ein Deck	
+GLUE_PROGRESSION_APPRENTICE_CLASS_STRENGTHS	Stärken	
+GLUE_PROGRESSION_APPRENTICE_CLASS_TITLE	{0} freischalten	0=class name
+GLUE_PROGRESSION_APPRENTICE_CLASS_WEAK	Schwächen	
+GLUE_PROGRESSION_APPRENTICE_DECK_POPUP_AGGRO	Aggro	
+GLUE_PROGRESSION_APPRENTICE_DECK_POPUP_AGGRO_DESC	Schaltet eure Gegner schnell aus, mit kleinen Dienern und Direktschaden.	
+GLUE_PROGRESSION_APPRENTICE_DECK_POPUP_CONTROL	Kontrolle	
+GLUE_PROGRESSION_APPRENTICE_DECK_POPUP_CONTROL_DESC	Übernehmt früh im Spiel die Kontrolle und spielt in späteren Runden mächtige Diener und Zauber.	
+GLUE_PROGRESSION_APPRENTICE_DECK_POPUP_SUBTITLE	Das Spiel lässt sich auf viele Arten spielen! Verschiedene Decks bieten unterschiedliche Spielstile.	
+GLUE_PROGRESSION_APPRENTICE_JOURNAL_POPUP_DESC	Dies ist Euer Tagebuch. Verfolgt Euren Fortschritt und sammelt EP, um Belohnungen zu erhalten!	
+GLUE_PROGRESSION_APPRENTICE_JOURNAL_POPUP_SUBTITLE	Seid willkommen, Lehrling!	
+GLUE_PROGRESSION_APPRENTICE_JOURNAL_POPUP_TITLE	Über das Tagebuch	
+GLUE_PROGRESSION_APPRENTICE_LOANER_TITLE	Leihdecks freischalten	
+GLUE_PROGRESSION_APPRENTICE_MODE_TITLE	{0} freischalten	0=mode name
+GLUE_PROGRESSION_APPRENTICE_REWARD_SCROLL_MODE	Modus freigeschaltet!	
+GLUE_PROGRESSION_APPRENTICE_SKIP_APPRENTICE	Überspringen	
+GLUE_PROGRESSION_APPRENTICE_SKIP_APPRENTICE_CANCEL	Nicht jetzt	
+GLUE_PROGRESSION_APPRENTICE_TAVERN_GUIDE_COMPLETION_REWARD	Abschlussbelohnung	
+GLUE_PROGRESSION_APPRENTICE_TAVERN_GUIDE_COMPLETION_TOOLTIP	Schließt alle Quests auf einer Seite ab, um eine Abschlussbelohnung zu erhalten.	
+GLUE_PROGRESSION_APPRENTICE_TAVERN_GUIDE_CORE_LOOP_CLAIMED	Schließt weitere Quests für mehr Belohnungen ab!	
+GLUE_PROGRESSION_APPRENTICE_TAVERN_GUIDE_CORE_LOOP_COMPLETE	Holt Eure Belohnung aus dem Lehrlings-Belohnungsweg ab, um Eure erste Quest abzuschließen!	
+GLUE_PROGRESSION_APPRENTICE_TAVERN_GUIDE_QUEST_CATEGORY_COLLECTION	Sammlung	
+GLUE_PROGRESSION_APPRENTICE_TAVERN_GUIDE_QUEST_CATEGORY_GAMEPLAY	Gameplay	
+GLUE_PROGRESSION_APPRENTICE_TAVERN_GUIDE_QUEST_CATEGORY_PROGRESSION	Fortschritt	
+GLUE_PROGRESSION_APPRENTICE_TAVERN_GUIDE_TRY_WITH	Probiert mit	
+GLUE_PROGRESSION_APPRENTICE_TAVERN_PASS_BUTTON_TEXT	Gasthauspass aktivieren	
+GLUE_PROGRESSION_APPRENTICE_TAVERN_PASS_POPUP_DESC	Ihr könnt die Lehrlingsphase überspringen, um Euren Pass sofort zu aktivieren, müsst Euch dann aber härteren Gegnern stellen und Euch entgehen einige Belohnungen.	
+GLUE_PROGRESSION_APPRENTICE_TAVERN_PASS_POPUP_SUBTITLE	Um darauf zuzugreifen, müsst Ihr die Lehrlingsphase abschließen oder überspringen.	
+GLUE_PROGRESSION_APPRENTICE_TAVERN_PASS_POPUP_TITLE	Ihr habt bereits einen Gasthauspass!	
+GLUE_PROGRESSION_APPRENTICE_TRACK_ABOUT_TITLE	Über Lehrlings-Belohnungsweg	
+GLUE_PROGRESSION_APPRENTICE_TRACK_END_DESCRIPTION	Steigt im Rang auf und werdet zur Legende!	
+GLUE_PROGRESSION_APPRENTICE_TRACK_END_TITLE	Gewertet	
+GLUE_PROGRESSION_APPRENTICE_TRACK_PICK_ONE	Wählt 1 von 3	
+GLUE_PROGRESSION_APPRENTICE_TRACK_START_DESCRIPTION	Verdient EP um weitere Klassen, Decks und Packungen freizuschalten!	
+GLUE_PROGRESSION_APPRENTICE_TRACK_START_HEADER	Tutorial\nBelohnung	
+GLUE_PROGRESSION_APPRENTICE_TRACK_TITLE	Lehrlingsphase	
+GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_BONUS_XP	Verdient Bonus-EP und Belohnungen durch das Abschließen von Quests! Schließt eine Seite ab, um eine Abschlussbelohnung zu erhalten!	
+GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_CORE_LOOP	Spielt Matches, um EP, Gold und Belohnungen zu verdienen. Verwendet das Gold, um Packungen zu kaufen und Eure Sammlung zu erweitern!	
+GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_FIRST_REWARD	Ah! Sieht aus, als hättet Ihr Eure erste Belohnung verdient!	
+GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_GUIDE_COMPLETE	Ich habe Euch alles vermittelt, was ich kann. Nutzt fortan, was Ihr gelernt habt, und werdet eine Hearthstone-Legende!	
+GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_INTRO_COMPLETE	Spielt weiter, um mehr Belohnungen zu erhalten!	
+GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_LEARN_ROPES	Dieser Führer wird Euch dabei helfen, die Grundlagen zu erlernen. Beginnt zunächst damit, ein Match zu spielen!	
+GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_MORE_QUESTS	Es scheint, als hättet Ihr weitere Quests freigeschaltet!	
+GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_NEW_DECK	Wow, Ihr habt ein neues Deck! Toller Start!	
+GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_TRACK_COMPLETE	Oh-la-la! Ihr habt die Ausbildung abgeschlossen. Jetzt ist es an der Zeit, gegen stärkere Gegner anzutreten!	
+GLUE_PROGRESSION_APPRENTICE_XP_TOOLTIP	Spielt Hearthstone, steigt Stufen auf und verdient Belohnungen.	
 GLUE_PROGRESSION_AV_FIRST_RANK_ALLIANCE	Gefreiter	
 GLUE_PROGRESSION_AV_FIRST_RANK_HORDE	Späher	
 GLUE_PROGRESSION_AV_HONOR_GAINED	+{0} Ehre	
@@ -1983,6 +2067,7 @@ GLUE_PROGRESSION_REWARD_TRACK_POPUP_BONUS_DESCRIPTION	Von Stufe {1} bis {2} erha
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_BONUS_LEVEL	Jenseits von Stufe {0}	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_BONUS_TITLE	Bonusbelohnungen	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_COMPLETE_LEVEL	Stufe {0}	
+GLUE_PROGRESSION_REWARD_TRACK_POPUP_DECK_CHOICE_CONFIRMATION_TEXT	Wählt Euer {0} Deck {1}?	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_FORGOT_REWARDS_BODY	{0} |4(Belohnung,Belohnungen) von einem früheren Belohnungsweg |4(wurde,wurden) Eurer Sammlung hinzugefügt: {1}	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_FORGOT_REWARDS_TITLE	|4(Belohnung, Belohnungen) vergessen!	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_INCOMPLETE_LEVEL	Erfordert Stufe {0}	
@@ -2001,6 +2086,12 @@ GLUE_PROGRESSION_REWARD_TRACK_XP_PROGRESS	{0}/{1}
 GLUE_PROGRESSION_REWARD_TRACK_XP_TOOLTIP_BOOST_BODY	+{0}_% EP-Boost	
 GLUE_PROGRESSION_REWARD_TRACK_XP_TOOLTIP_BOOST_TITLE	EP-Boni	
 GLUE_PROGRESSION_REWARDS_TITLE	Belohnungsweg	
+GLUE_PROGRESSION_TAVERN_GUIDE_ABOUT_DESCRIPTION_1	Schließt den Gasthaus-Dungeonführer ab, um Bonuspackungen, EP und Staub zu verdienen.	
+GLUE_PROGRESSION_TAVERN_GUIDE_ABOUT_DESCRIPTION_2	Ihr könnt die Lehrlingsphase überspringen, um alle Spielmodi freizuschalten.	
+GLUE_PROGRESSION_TAVERN_GUIDE_ABOUT_TITLE	Über Gasthaus-Dungeonführer	
+GLUE_PROGRESSION_TAVERN_GUIDE_DUST_REWARD	{0} Staub	0 = dust amount from data
+GLUE_PROGRESSION_TAVERN_GUIDE_TITLE	Gasthaus-Dungeonführer	
+GLUE_PROGRESSION_TAVERN_GUIDE_XP_REWARD	{0} EP	0 = xp amount from data
 GLUE_PROLOGUE_DH_REWARD	Schließt den Prolog ab, um Belohnungen zu erhalten!	
 GLUE_PROLOGUE_DK_REWARD	Schließt den Prolog ab, um die\nTodesritterklasse und 32 Karten freizuschalten.	
 GLUE_PROLOGUE_REWARD	Schließt den Prolog ab, um die\nDämonenjägerklasse und 30 Karten freizuschalten.	
@@ -2016,7 +2107,7 @@ GLUE_PVPDR_BUILD_DECK	Deck erstellen
 GLUE_PVPDR_DECK_ERROR_DESC	Beim Laden des Decks ist ein Fehler aufgetreten. Bitte versucht es später erneut.	
 GLUE_PVPDR_DECK_ERROR_TITLE	Deckfehler	
 GLUE_PVPDR_DECK_TRAY_HEADER	Duelldeck	
-GLUE_PVPDR_EARLY_ACCESS_SHOP_ERROR_BODY	Es gibt derzeit keine Frühzugangsangebote zu Duellen. Bitte versucht es später noch einmal.	
+GLUE_PVPDR_EARLY_ACCESS_SHOP_ERROR_BODY	Es gibt derzeit keine Vorabzugangsangebote zu Duellen. Bitte versucht es später noch einmal.	
 GLUE_PVPDR_END_OF_RUN_HEADER	{0} |4(Sieg,Siege)	
 GLUE_PVPDR_END_OF_RUN_TIER_0_WIN	Ihr habt Euer Bestes gegeben.\nJetzt zieht los und versucht es nochmal!	
 GLUE_PVPDR_END_OF_RUN_TIER_1_WIN	Ihr habt Euch da draußen gut geschlagen.\nWollt Ihr es nochmal versuchen?	
@@ -2110,7 +2201,7 @@ GLUE_RAF_TOOLTIP_LOCKED_DESC	Das „Werbt einen Freund“-Programm ist verfügba
 GLUE_RAF_URL_BUTTON	Kopieren	
 GLUE_RAF_URL_TITLE	Teilt diesen Link mit Euren Freunden!	
 GLUE_RANKED_BONUS_STARS	Sternenbonus	
-GLUE_RANKED_BONUS_STARS_DESCRIPTION	Für jeden Sieg erhaltet Ihr {0} Sterne.	
+GLUE_RANKED_BONUS_STARS_DESCRIPTION	Sternenbonus! Für jeden Sieg erhaltet Ihr {0} Sterne.	
 GLUE_RANKED_BONUS_STARS_FINE_PRINT	(Der Sternenbonus verringert sich mit steigendem Rang.)	
 GLUE_RANKED_REWARD_APPRENTICE_COMPLETE_HEADER	Schließt Lehrling \nRang 1 ab	
 GLUE_RANKED_REWARD_APPRENTICE_COMPLETE_SUBTITLE	Schaltet Bronze- und gewertete Belohnungen frei	
@@ -2157,6 +2248,7 @@ GLUE_RANKED_REWARD_QUEST_LOG_LABEL_RANK_REWARD	Belohnung für Rang {0}	// {0} is
 GLUE_RANKED_SEASON_NAME_GENERIC	{0}: Saison {1}	0 month 1 year 2 seasonId. Explicit GLUE for season can be declared via GLUE_RANKED_SEASON_NAME_n where n is the season id.
 GLUE_RANKED_SEASON_ROLL_FLOW_TITLE	Das neue Wertungssystem ist da!	
 GLUE_RANKED_SYSTEM_TITLE	Wertungssystem	
+GLUE_RANKED_TIER_NAME_APPRENTICE	Lehrlingsphase	
 GLUE_RANKED_TIER_NAME_BRONZE	Bronze	
 GLUE_RANKED_TIER_NAME_DIAMOND	Diamant	
 GLUE_RANKED_TIER_NAME_GOLD	Gold	
@@ -2664,6 +2756,10 @@ GLUE_STORE_TRL_PREORDER_DATE	Mitte Dezember* verfügbar!
 GLUE_STORE_TRL_PREORDER_DUST_DATE	卡牌包可以在十二月中旬\n打开！	
 GLUE_STORE_ULD_PREORDER_DATE	Ab August* verfügbar!	
 GLUE_STORE_ULD_PREORDER_DUST_DATE	卡牌包可以在八月打开！	
+GLUE_STORE_UNAVAILABLE_REASON_MISSING_ASSETS	Ladet Modus herunter, um diesen Shop freizuschalten.	
+GLUE_STORE_UNAVAILABLE_REASON_TITLE_LOCKED	Gesperrt	
+GLUE_STORE_UNAVAILABLE_REASON_TUTORIAL	Beendet das Tutorial, um diesen Shop freizuschalten.	
+GLUE_STORE_UNAVAILABLE_REASON_UNKNOWN	Keine Gegenstände im Moment\nSchaut später nochmal vorbei.	
 GLUE_STORE_UPDATING_CURRENCY_BALANCE	Wir aktualisieren derzeit Ihr Guthaben. Bitte schauen Sie später erneut nach.	
 GLUE_STORE_VALUE_MULTIPLY	{0}-facher Wert!	0=multiplier
 GLUE_STORE_VALUE_PERCENT	+{0}_% Wert!	0=percent
@@ -2945,8 +3041,8 @@ GLUE_TIP_BACON_22	Spieler können max. 15 Schaden auf einmal erleiden, bis nur n
 GLUE_TIP_BACON_23	<b>Todesröcheln</b>-Effekte werden vor <b>Wiederkehr</b> ausgelöst.	
 GLUE_TIP_BACON_24	Fügt dem Gasthaus für den Rest des Spiels einen zusätzlichen Diener hinzu, wenn Ihr auf Stufe 2, 4 oder 6 aufwertet.	
 GLUE_TIP_BACON_25	Diener lösen ihre Effekte am Ende des Zuges von links nach rechts aus.	
-GLUE_TIP_BACON_26	<b>Anomalien</b> sind besondere Regeln, die für die gesamte Lobby gelten. Sie können sich auf Gold, Dienerwerte, Heldenleben und mehr auswirken!	
-GLUE_TIP_BACON_27	Einige Helden, Diener und Dienertypen sind nicht verfügbar, wenn bestimmte <b>Anomalien</b> aktiv sind.	
+GLUE_TIP_BACON_26	Gasthauszauber sind Karten, die gekauft werden können, um einen einmaligen Effekt auszulösen.	
+GLUE_TIP_BACON_27	Im Gegensatz zu Dienern können Gasthauszauber nicht verkauft oder verdreifacht werden.	
 GLUE_TIP_BACON_3	Wenn Ihr eine Kampfrunde gewinnt,\nverursachen Euer Held und Eure Diener Schaden,\nder ihrer Stufen entspricht.	
 GLUE_TIP_BACON_4	Die Aufwertung des Gasthauses kostet mit jedem Zug (1) weniger.	
 GLUE_TIP_BACON_5	Von den Dienern auf Stufe 6 gibt es nur 7 Exemplare.\nWerden sie gekauft, verschwinden sie für alle!	
@@ -2958,10 +3054,10 @@ GLUE_TIP_DEFAULT_0	Ihr könnt im Shop zusätzliche Kartenpackungen erwerben.
 GLUE_TIP_DEFAULT_1	Klickt auf Euren Helden, während Ihr ein Deck bearbeitet, um den Namen des Decks zu ändern.	
 GLUE_TIP_DEFAULT_1_TOUCH	Tippt auf Euren Helden, während Ihr ein Deck bearbeitet, um den Namen des Decks zu ändern.	
 GLUE_TIP_DEFAULT_10	In der Arena stellt Ihr Euer Deck aus zufälligen Karten zusammen. Darüber hinaus gibt es tolle Belohnungen zu gewinnen!	
-GLUE_TIP_DEFAULT_11	Kernkarten könnt Ihr durch Stufenaufstiege erhalten. Sie können weder hergestellt noch entzaubert werden.	
+GLUE_TIP_DEFAULT_11	Kernkarten erhaltet Ihr durch Stufenaufstiege mit einer Klasse. Sie können nicht entzaubert oder hergestellt werden.	
 GLUE_TIP_DEFAULT_12	Goldene Karten hinterlassen nach der Entzauberung eine Menge Staub.	
 GLUE_TIP_DEFAULT_13	Ihr könnt das Suchen-Feld in Eurer Sammlung dazu benutzen, bestimmte Karten, zum Beispiel mit „Spott“, zu finden.	
-GLUE_TIP_DEFAULT_14	Kernkarten erhaltet Ihr durch Stufenaufstiege mit einer Klasse. Erreicht mit jeder Klasse Stufe 10, um alle freizuschalten!	
+GLUE_TIP_DEFAULT_14	Kernkarten erhaltet Ihr durch Stufenaufstiege mit einer Klasse. Sie können nicht entzaubert oder hergestellt werden.	
 GLUE_TIP_DEFAULT_15	Beim Spielen gegen andere Spieler erhaltet Ihr zusätzliche Belohnungserfahrung.	
 GLUE_TIP_DEFAULT_16	Ihr könnt per Rechtsklick auf den gegnerischen Helden Emotes ausblenden lassen.	
 GLUE_TIP_DEFAULT_16_TOUCH	Ihr könnt auf den gegnerischen Helden tippen, um Emotes auszublenden.	
@@ -3057,30 +3153,30 @@ GLUE_TIP_LETTUCE_8	Mit Münzen könnt Ihr Eure Fähigkeiten und Ausrüstung aufw
 GLUE_TIP_LETTUCE_9	Ihr erhaltet Ausrüstung, indem Ihr Aufgaben abschließt.	
 GLUE_TIP_PLAY_0	Ihr werdet gegen einen Spieler antreten, der Euch ebenbürtig ist.	
 GLUE_TIP_PLAY_1	Euer Können wird nach jedem gewonnenen oder verlorenen Spiel neu bewertet und Ihr werdet gegen geeignete Gegner antreten.	
-GLUE_TIP_PLAY_2	Jede Klasse verfügt über 17 verschiedene Kernkarten, die Ihr mit Stufenaufstiegen freischalten könnt.	
+GLUE_TIP_PLAY_2	Jede Klasse verfügt über verschiedene Kernkarten, die Ihr sammelt, wenn Ihr die Klasse freischaltet.	
 GLUE_TIP_PLAY_3	Schließt Quests ab, um Belohnungserfahrung zu erhalten. Erfahrung gewährt Euch Fortschritt auf Eurem Belohnungsweg.	
 GLUE_TIP_PLAY_4	Der höchste Rang im gewerteten Modus ist der Rang „Legende“!	
 GLUE_TIP_PLAY_5	Decks können bis zu zwei Exemplare jeder Karte enthalten, aber nur jeweils ein Exemplar einer legendären Karte.	
 GLUE_TIP_PLAY_6	Die Arena ist ein toller Weg, um Belohnungen zu erhalten, während Ihr an einem kleinen Wettbewerb teilnehmt.	
 GLUE_TIP_PLAY_7	Ihr müsst nicht all Eure Spiele in der Arena an einem Stück durchspielen.	
 GLUE_TIP_PLAY_8	Wenn Ihr in einer Saison 5 gewertete Spiele gewinnt, schaltet Ihr den Kartenrücken der entsprechenden Saison frei.	
-GLUE_TIP_PRACTICE_0	Ihr könnt Helden freischalten, indem Ihr sie im Modus „Üben“ besiegt.	
+GLUE_TIP_PRACTICE_0	Ihr könnt Helden freischalten, indem Ihr sie im Modus „Lehrling“ besiegt.	
 GLUE_TIP_PRACTICE_1	Der Modus „Üben“ ist lediglich eine Vorbereitung für den traditionellen Hearthstone-Modus!	
 GLUE_TIP_PRACTICE_2	Im traditionellen Spielmodus von Hearthstone tretet Ihr gegen ebenbürtige Gegner an!	
 GLUE_TIP_PRACTICE_3	Ihr könnt Euch mit Euren Karten selbst ein Deck zusammenstellen, indem Ihr Eure Sammlung einseht.	
-GLUE_TIP_PRACTICE_4	Jede Klasse verfügt über 17 verschiedene Kernkarten, die Ihr mit Stufenaufstiegen freischalten könnt.	
+GLUE_TIP_PRACTICE_4	Jede Klasse verfügt über verschiedene Kernkarten, die Ihr sammelt, wenn Ihr die Klasse freischaltet.	
 GLUE_TIP_PRACTICE_5	Schließt im Modus „Spielen“ Quests ab, um Belohnungserfahrung zu verdienen!	
 GLUE_TIP_PRACTICE_6	Den Helden angreifen? Oder die feindlichen Diener? Die richtige Antwort auf diese Fragen kann des Kampfes Glück wenden.	
 GLUE_TIP_PRACTICE_7	Ab Stufe 10 erhaltet Ihr mehr Heldenerfahrung, wenn Ihr gegen andere Spieler antretet.	
 GLUE_TIP_TAVERNBRAWL_0	Jede Woche gibt’s ein verrücktes neues Kartenchaos!	
 GLUE_TIP_TAVERNBRAWL_1	Nach jedem Kartenchaos brauchen wir ein paar Stunden, um aufzuräumen! Schaut später wieder vorbei, wenn Ihr nicht hineinkommt.	
-GLUE_TIP_TAVERNBRAWL_2		This tip was removed. Translators: please leave this blank. Blank tips are skipped over. For devs: when adding new tips later, feel free to use this slot (and update this comment).
+GLUE_TIP_TAVERNBRAWL_2	This tip was removed. Translators: please leave this blank. Blank tips are skipped over. For devs: when adding new tips later, feel free to use this slot (and update this comment).	
 GLUE_TIP_TAVERNBRAWL_3	Außer für den ersten Sieg der Woche winken im Kartenchaos keine Kartenpackungen, dafür aber jede Menge Spaß!	
 GLUE_TIP_TAVERNBRAWL_4	In manchen Wochen wird ein Deck vorgegeben, in manchen müsst Ihr selbst eines erstellen. Lasst Euch überraschen!	
 GLUE_TIP_TAVERNBRAWL_5	Manche Kartenchaos-Varianten könnten in Zukunft zurückkehren!	
 GLUE_TIP_TAVERNBRAWL_6	Fordert einen Freund zum wöchentlichen Kartenchaos heraus, wenn es aktiv ist.	
 GLUE_TIP_TAVERNBRAWL_7	Im Kartenchaos könnt Ihr auch Quests abschließen!	
-GLUE_TIP_TAVERNBRAWL_8		This tip was removed. Translators: please leave this blank. Blank tips are skipped over. For devs: when adding new tips later, feel free to use this slot (and update this comment).
+GLUE_TIP_TAVERNBRAWL_8	This tip was removed. Translators: please leave this blank. Blank tips are skipped over. For devs: when adding new tips later, feel free to use this slot (and update this comment).	
 GLUE_TOOLTIP_ALTERNATE_WINS_DESC	Gewinnt mit dieser Klasse {0} Spiele im gewerteten Modus oder in der Arena, um den geehrten Helden der Klasse freizuschalten!	
 GLUE_TOOLTIP_BOOSTER_CURRENCY_DESCRIPTION	Holt Euch Packungen mit Arkanen Kugeln.	
 GLUE_TOOLTIP_BOOSTER_CURRENCY_HEADER	Arkane Kugeln	
@@ -3129,6 +3225,7 @@ GLUE_TOOLTIP_HEADER_ALL_STANDARD_CARDS	Standard
 GLUE_TOOLTIP_HEADER_TWIST_CARDS	Der Haken	
 GLUE_TOOLTIP_HEADER_VANILLA_CARDS	Klassik	
 GLUE_TOOLTIP_HEADER_WILD_CARDS	Wild	
+GLUE_TOOLTIP_PROGRESSION_APPRENTICE_RANK_MEDAL_DESC	Schließe die Lehrlingsphase ab, um die Ränge zu erklimmen!	
 GLUE_TOOLTIP_RANKED_BUTTON	Messt Euch mit anderen Spielern!	
 GLUE_TOOLTIP_RENOWN_DESCRIPTION	Erhaltet Ruhm, indem Ihr überschüssige Söldnermünzen umwandelt.	
 GLUE_TOOLTIP_RENOWN_HEADER	Ruhm	
@@ -3203,6 +3300,8 @@ GLUE_TROUBLESHOOTING_POPUP_TEXT	Haben Sie Probleme mit dem Spiel?
 GLUE_TUTORIAL_INTERSTITIAL_HEADER	Eure Reise beginnt	
 GLUE_TUTORIAL_INTERSTITIAL_HERONAME	Jaina	
 GLUE_TUTORIAL_INTERSTITIAL_REWARD	Schließt die Tutorialkampagne für Magier und Startdeck ab!	
+GLUE_TUTORIAL_SKIP_DESC_1	Das Überspringen des Tutorials ist nur erfahrenen Kartenspielern empfohlen. Schaltet den Schlachtfeldmodus frei.	
+GLUE_TUTORIAL_SKIP_DESC_2	Ihr könnt das Hearthstone-Tutorial jederzeit über das Hilfemenü von Hearthstone (?) erneut spielen.	
 GLUE_TUTORIAL_SKIP_TRADITIONAL	Möchtet Ihr das Tutorial wirklich überspringen? Ihr könnt es über das Hilfemenü (?) erneut starten.	
 GLUE_TUTORIAL_VIDEO_BANNER_BATTLEGROUNDS	Stellt Eure Truppe zusammen und kämpft bei automatisch ablaufenden Kämpfen mit 7 anderen Spielern um die Krone!	
 GLUE_TUTORIAL_VIDEO_BANNER_MERCENARIES	Stellt ein Team von Söldnern auf und bildet es in Kämpfen um Kopfgelder und Ruhm aus!	
