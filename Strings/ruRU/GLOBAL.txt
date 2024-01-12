@@ -385,21 +385,23 @@ GLOBAL_DEMO_DISCLAIMER	Эта версия игры Hearthstone предназн
 GLOBAL_DEMO_LEARN_MORE	Подробнее	
 GLOBAL_DISABLE	Отключить	
 GLOBAL_DONE	Готово	
-GLOBAL_DOWNLOAD_MANAGER	Диспетчер загрузок	Label for the Download Manager menu
+GLOBAL_DOWNLOAD_MANAGER	Загрузки	Label for the Download Manager menu
 GLOBAL_DOWNLOAD_MANAGER_BUTTON_CANCEL	Отмена	
 GLOBAL_DOWNLOAD_MANAGER_BUTTON_DOWNLOAD	Загрузить	
 GLOBAL_DOWNLOAD_MANAGER_BUTTON_UNINSTALL	Удалить	
+GLOBAL_DOWNLOAD_MANAGER_CANCEL_MODULE_POPUP_PROMPT	Отменить загрузку «{0}»?	{0}=Module name to cancel downloading (e.g. Battlegrounds)
+GLOBAL_DOWNLOAD_MANAGER_CANCEL_MODULE_POPUP_TITLE	Отменить загрузку	
 GLOBAL_DOWNLOAD_MANAGER_DISMISS_BUTTON	Готово	
+GLOBAL_DOWNLOAD_MANAGER_ENABLE_OPTIONAL_ASSETS_DOWNLOAD	Включить режим высокого качества	Description for optional assets to be displayed on Download Manager
 GLOBAL_DOWNLOAD_MANAGER_FREE_SPACE	Свободное место: {0}	{0}=Free spaces available on the device (e.g. 8.23 GB)
 GLOBAL_DOWNLOAD_MANAGER_GAME_MODES	Режимы	Label for the Download Manager - Game modes section
 GLOBAL_DOWNLOAD_MANAGER_OPTION_CELLULAR_DATA_DESC	Разрешить Hearthstone загрузку по мобильной сети.	
-GLOBAL_DOWNLOAD_MANAGER_OPTION_CELLULAR_DATA_LABEL	Мобильная связь?	
-GLOBAL_DOWNLOAD_MANAGER_OPTION_ENABLE_DOWNLOAD_DESC	Разрешить Hearthstone загрузку данных.	
-GLOBAL_DOWNLOAD_MANAGER_OPTION_ENABLE_DOWNLOAD_LABEL	Разрешить загрузку?	
-GLOBAL_DOWNLOAD_MANAGER_OPTIONAL_ASSETS	Ресурсы	Module name for optional assets to be displayed on Download Manager
+GLOBAL_DOWNLOAD_MANAGER_OPTION_CELLULAR_DATA_LABEL	Мобильная связь	
+GLOBAL_DOWNLOAD_MANAGER_OPTIONAL_ASSETS	Высокое качество	Name for optional assets to be displayed on Download Manager
+GLOBAL_DOWNLOAD_MANAGER_OPTIONAL_ASSETS_DESCRIPTION	Включает и отключает высокое качество графики и звука	Description for optional assets to be displayed on Download Manager
 GLOBAL_DOWNLOAD_MANAGER_PAUSE_DOWNLOADS	Приостановить загрузку	
 GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_CANCELLING	Отмена...	
-GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_DOWNLOADING	Загрузка...{0:P2}	0=The percentage of downloaded progress
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_DOWNLOADING	{0} / {1}	{0}=Downloaded size (e.g. 23 MB) {1}=Total size to download (e.g. 128 MB)
 GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_INSTALLED	Установка завершена!	
 GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_PAUSED	Пауза	
 GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_QUEUED	В очереди	
@@ -407,6 +409,13 @@ GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_REMAINING	Оставшееся врем�
 GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_UNINSTALLING	Удаление...	
 GLOBAL_DOWNLOAD_MANAGER_RESUME_DOWNLOADS	Возобновить загрузку	
 GLOBAL_DOWNLOAD_MANAGER_SETTINGS	Параметры	Label for the Download Manager - Settings section
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_LOADING_POPUP_COMPLETE_MESSAGE	Удаление завершено	
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_LOADING_POPUP_LOADING_MESSAGE	Удаление...	
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_MODULE_POPUP_BODY_FORMAT	{0}\n\n{1}\n{2}	{0}=Prompt string, {1}=Module size, {2}=Device size available
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_MODULE_POPUP_PROMPT	Удалить «{0}»?	{0}=Module name to uninstall (e.g. Battlegrounds)
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_MODULE_POPUP_TITLE	Удалить	Popup title for removing a module
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_OPTIONAL_ASSETS_POPUP_PROMPT	Удалить режим высокого качества?\nЧтобы снова его включить, вам придется еще раз загрузить данные.	
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_OPTIONAL_ASSETS_POPUP_TITLE	Высокое качество	
 GLOBAL_DOWNLOAD_MODULE_POPUP_FILE_SIZE	Размер файла: {0}	{0}=File size to download (e.g. 1.8GB)
 GLOBAL_DOWNLOAD_MODULE_POPUP_FREE_SPACE	Свободное место: {0}	{0}=Free spaces available on the device (e.g. 8.23 GB)
 GLOBAL_DOWNLOAD_MODULE_POPUP_PROMPT	Загрузить «{0}»?	{0}=Module name to download (e.g. Battlegrounds)
@@ -624,6 +633,9 @@ GLOBAL_FRIENDLYCHALLENGE_QUEST_REWARD_AT_LIMIT	Исчерпан дневной �
 GLOBAL_FRIENDLYCHALLENGE_REWARD_CONCEDED_YOUR_OPPONENT	Ваш противник покинул игру слишком рано, из-за чего вы не можете получить награду.	
 GLOBAL_FRIENDLYCHALLENGE_REWARD_CONCEDED_YOURSELF	Вы покинули игру слишком рано и не можете получить награду.	
 GLOBAL_GAME_MENU	Меню	
+GLOBAL_GAME_MENU_BUTTON_DOWNLOAD_MANAGER	Загрузки	Button label for Download manager on the Game Menu
+GLOBAL_GAME_MENU_BUTTON_DOWNLOAD_MANAGER_LOCKED_TOOLTIP	Здесь можно управлять загружаемыми ресурсами Hearthstone. Доступно только в главном меню.	
+GLOBAL_GAME_MENU_BUTTON_DOWNLOAD_MANAGER_LOCKED_TOOLTIP_TITLE	Загрузки	
 GLOBAL_GAME_QUEUE_TIME_IN_QUEUE	Время в очереди	
 GLOBAL_GAME_QUEUE_WAIT_TIME	Время ожидания	
 GLOBAL_GOLD_REWARD_ALREADY_CAPPED	Вы уже получили сегодня {0} золота.	
@@ -1334,7 +1346,7 @@ GLOBAL_RARITY_FREE	Бесплатная
 GLOBAL_RARITY_LEGENDARY	Легендарная	
 GLOBAL_RARITY_RARE	Редкая	
 GLOBAL_RECONNECT_EXIT_BUTTON	Выход	
-GLOBAL_RECONNECT_FAIL_MODE_NOT_AVAILABLE Unable to reconnect to game, mode {0} is not downloaded	{0} = название режима (поля сражений, наемники, приключения и т.д.)	
+GLOBAL_RECONNECT_FAIL_MODE_NOT_AVAILABLE	Невозможно повторно подключиться к игре. Вначале надо загрузить элементы режима «{0}».	{0}=Name of the mode, (e.g. Battlegrounds, Mercenaries, Solo Adventures)
 GLOBAL_RECONNECT_RECONNECTED	Повторное подключение к игре прошло успешно. Продолжение игры...	
 GLOBAL_RECONNECT_RECONNECTED_HEADER	Переподключение	
 GLOBAL_RECONNECT_RECONNECTED_LOGIN	Повторное подключение к вашей последней игре прошло успешно. Продолжение игры...	
@@ -1587,11 +1599,13 @@ GLOBAL_TWIST_SEASON_DESCRIPTION_117	Попробуйте новый формат
 GLOBAL_TWIST_SEASON_DESCRIPTION_119	Войдите в Пещеры Времени и составьте колоду из дополнений от классики до «Злачного города Прибамбасска».	
 GLOBAL_TWIST_SEASON_DESCRIPTION_120	На этот раз вы можете составить колоду из 30-40 карт из дополнений от классики до «Злачного города Прибамбасска», а также из дополнения «Пещеры Времени». Все игроки начинают с запасом здоровья, равным размеру колоды!	
 GLOBAL_TWIST_SEASON_DESCRIPTION_121	Вернитесь в незапамятные времена, когда мир населяли динозавры! Кратер Ун'Горо возвращается в игру с некоторыми обновлениями: соответствующий набор станет частью формата «Чудеса».	
+GLOBAL_TWIST_SEASON_DESCRIPTION_124	Легендарные карты переоценены! Соберите лучшую колоду, используя только обычные карты из всех дополнений года Дракона и основного набора.	
 GLOBAL_TWIST_SEASON_TITLE_116	Новый век	
 GLOBAL_TWIST_SEASON_TITLE_117	Новый век	
 GLOBAL_TWIST_SEASON_TITLE_119	Чудеса	
 GLOBAL_TWIST_SEASON_TITLE_120	Чудеса XL	
 GLOBAL_TWIST_SEASON_TITLE_121	Возвращение в Ун'Горо	
+GLOBAL_TWIST_SEASON_TITLE_124	Обычные карты	
 GLOBAL_UNINSTALL_MODULE_POPUP_PROMPT	Удалить «{0}»?	{0}=Module name to uninstall (e.g. Battlegrounds)
 GLOBAL_UPDATE	Обновить	
 GLOBAL_VERSION	Версия	

@@ -385,21 +385,23 @@ GLOBAL_DEMO_DISCLAIMER	この体験版は「ハースストーン」のお試し
 GLOBAL_DEMO_LEARN_MORE	もっと詳しく	
 GLOBAL_DISABLE	利用不可	
 GLOBAL_DONE	完了	
-GLOBAL_DOWNLOAD_MANAGER	ダウンロードマネージャー	Label for the Download Manager menu
+GLOBAL_DOWNLOAD_MANAGER	ダウンロード	Label for the Download Manager menu
 GLOBAL_DOWNLOAD_MANAGER_BUTTON_CANCEL	キャンセル	
 GLOBAL_DOWNLOAD_MANAGER_BUTTON_DOWNLOAD	ダウンロード	
 GLOBAL_DOWNLOAD_MANAGER_BUTTON_UNINSTALL	アンインストール	
+GLOBAL_DOWNLOAD_MANAGER_CANCEL_MODULE_POPUP_PROMPT	{0}のダウンロードをキャンセルするか？	{0}=Module name to cancel downloading (e.g. Battlegrounds)
+GLOBAL_DOWNLOAD_MANAGER_CANCEL_MODULE_POPUP_TITLE	ダウンロードをキャンセル	
 GLOBAL_DOWNLOAD_MANAGER_DISMISS_BUTTON	完了	
+GLOBAL_DOWNLOAD_MANAGER_ENABLE_OPTIONAL_ASSETS_DOWNLOAD	高品質モードの有効化	Description for optional assets to be displayed on Download Manager
 GLOBAL_DOWNLOAD_MANAGER_FREE_SPACE	使用可能な容量: {0}	{0}=Free spaces available on the device (e.g. 8.23 GB)
 GLOBAL_DOWNLOAD_MANAGER_GAME_MODES	ゲームモード	Label for the Download Manager - Game modes section
 GLOBAL_DOWNLOAD_MANAGER_OPTION_CELLULAR_DATA_DESC	「ハースストーン」にモバイルデータ通信の使用を許可する。	
-GLOBAL_DOWNLOAD_MANAGER_OPTION_CELLULAR_DATA_LABEL	モバイルデータ通信は？	
-GLOBAL_DOWNLOAD_MANAGER_OPTION_ENABLE_DOWNLOAD_DESC	「ハースストーン」にアセットのダウンロードを許可する。	
-GLOBAL_DOWNLOAD_MANAGER_OPTION_ENABLE_DOWNLOAD_LABEL	ダウンロードを有効にする？	
-GLOBAL_DOWNLOAD_MANAGER_OPTIONAL_ASSETS	アセット	Module name for optional assets to be displayed on Download Manager
+GLOBAL_DOWNLOAD_MANAGER_OPTION_CELLULAR_DATA_LABEL	モバイルデータ通信	
+GLOBAL_DOWNLOAD_MANAGER_OPTIONAL_ASSETS	高品質モード	Name for optional assets to be displayed on Download Manager
+GLOBAL_DOWNLOAD_MANAGER_OPTIONAL_ASSETS_DESCRIPTION	高品質なビジュアルとサウンドを有効/無効化	Description for optional assets to be displayed on Download Manager
 GLOBAL_DOWNLOAD_MANAGER_PAUSE_DOWNLOADS	ダウンロード一時停止	
 GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_CANCELLING	キャンセル中…	
-GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_DOWNLOADING	ダウンロード中…{0:P2}	0=The percentage of downloaded progress
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_DOWNLOADING	{0} / {1}	{0}=Downloaded size (e.g. 23 MB) {1}=Total size to download (e.g. 128 MB)
 GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_INSTALLED	インストール完了！	
 GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_PAUSED	一時停止中	
 GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_QUEUED	待機中	
@@ -407,6 +409,13 @@ GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_REMAINING	残り: {0}	0=Time remaining. 
 GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_UNINSTALLING	アンインストール中…	
 GLOBAL_DOWNLOAD_MANAGER_RESUME_DOWNLOADS	ダウンロード再開	
 GLOBAL_DOWNLOAD_MANAGER_SETTINGS	設定	Label for the Download Manager - Settings section
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_LOADING_POPUP_COMPLETE_MESSAGE	アンインストール完了	
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_LOADING_POPUP_LOADING_MESSAGE	アンインストール中	
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_MODULE_POPUP_BODY_FORMAT	{0}\n\n{1}\n{2}	{0}=Prompt string, {1}=Module size, {2}=Device size available
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_MODULE_POPUP_PROMPT	{0}をアンインストールするのか？	{0}=Module name to uninstall (e.g. Battlegrounds)
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_MODULE_POPUP_TITLE	アンインストール	Popup title for removing a module
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_OPTIONAL_ASSETS_POPUP_PROMPT	高品質モードを無効化するか？\nアセットを再ダウンロードしないとこのモードを選べなくなるぞ。	
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_OPTIONAL_ASSETS_POPUP_TITLE	高品質モード	
 GLOBAL_DOWNLOAD_MODULE_POPUP_FILE_SIZE	ファイルサイズ: {0}	{0}=File size to download (e.g. 1.8GB)
 GLOBAL_DOWNLOAD_MODULE_POPUP_FREE_SPACE	使用可能な容量: {0}	{0}=Free spaces available on the device (e.g. 8.23 GB)
 GLOBAL_DOWNLOAD_MODULE_POPUP_PROMPT	{0}を\nダウンロードするか？	{0}=Module name to download (e.g. Battlegrounds)
@@ -624,6 +633,9 @@ GLOBAL_FRIENDLYCHALLENGE_QUEST_REWARD_AT_LIMIT	「友達に挑戦」クエスト
 GLOBAL_FRIENDLYCHALLENGE_REWARD_CONCEDED_YOUR_OPPONENT	対戦相手が出て行ったのが早すぎるんで報酬はやれない。すまないな。	
 GLOBAL_FRIENDLYCHALLENGE_REWARD_CONCEDED_YOURSELF	あんたが対戦を抜けたのが早すぎるんで報酬はやれない。すまないな。	
 GLOBAL_GAME_MENU	ゲームメニュー	
+GLOBAL_GAME_MENU_BUTTON_DOWNLOAD_MANAGER	ダウンロード	Button label for Download manager on the Game Menu
+GLOBAL_GAME_MENU_BUTTON_DOWNLOAD_MANAGER_LOCKED_TOOLTIP	ここでハースストーンのダウンロードを管理できるぞ。メインメニューにいる時にだけ利用可能だ。	
+GLOBAL_GAME_MENU_BUTTON_DOWNLOAD_MANAGER_LOCKED_TOOLTIP_TITLE	ダウンロード	
 GLOBAL_GAME_QUEUE_TIME_IN_QUEUE	待機時間	
 GLOBAL_GAME_QUEUE_WAIT_TIME	待ち時間	
 GLOBAL_GOLD_REWARD_ALREADY_CAPPED	今日はもう{0}ゴールド獲得してるな。	
@@ -1334,7 +1346,7 @@ GLOBAL_RARITY_FREE	無料
 GLOBAL_RARITY_LEGENDARY	レジェンド	
 GLOBAL_RARITY_RARE	レア	
 GLOBAL_RECONNECT_EXIT_BUTTON	ゲームを終了	
-GLOBAL_RECONNECT_FAIL_MODE_NOT_AVAILABLE Unable to reconnect to game, mode {0} is not downloaded	{0}=モードの名前（例：バトルグラウンド、マーセナリーズ、ソロ・アドベンチャー）	
+GLOBAL_RECONNECT_FAIL_MODE_NOT_AVAILABLE	ゲームに再接続できません。「{0}」モードがダウンロードされていません	{0}=Name of the mode, (e.g. Battlegrounds, Mercenaries, Solo Adventures)
 GLOBAL_RECONNECT_RECONNECTED	ゲームに再接続しました。再開中…	
 GLOBAL_RECONNECT_RECONNECTED_HEADER	再接続しました	
 GLOBAL_RECONNECT_RECONNECTED_LOGIN	最後にプレイしていたゲームに再接続しました。再開中…	
@@ -1587,11 +1599,13 @@ GLOBAL_TWIST_SEASON_DESCRIPTION_117	新たなツイストフォーマットで�
 GLOBAL_TWIST_SEASON_DESCRIPTION_119	時の大洞窟に足を踏み入れ、レガシー～「仁義なきガジェッツァン」までのあらゆる拡張版のカードを使ってデッキを組もう。	
 GLOBAL_TWIST_SEASON_DESCRIPTION_120	今回はレガシーから「仁義なきガジェッツァン」までと、「時の大洞窟」が有効だ。カード30～40枚のデッキを組もう。そして全プレイヤーの体力が、デッキの枚数と同じ値でスタートするぞ！	
 GLOBAL_TWIST_SEASON_DESCRIPTION_121	恐竜が跋扈する太古の昔にタイムトラベルしよう！「ウンゴロ」が新たなアップデートとともに帰還し、「大脅威」フォーマットの拡張版に加わったぞ。	
+GLOBAL_TWIST_SEASON_DESCRIPTION_124	レジェンドカードがない？心配無用だ！ドラゴン年までの全ての拡張版とコアセットから、コモンカードのみを使用して最高のデッキを構築しよう。	
 GLOBAL_TWIST_SEASON_TITLE_116	新時代	
 GLOBAL_TWIST_SEASON_TITLE_117	新時代	
 GLOBAL_TWIST_SEASON_TITLE_119	大脅威	
 GLOBAL_TWIST_SEASON_TITLE_120	大脅威XL	
 GLOBAL_TWIST_SEASON_TITLE_121	ウンゴロへの帰還	
+GLOBAL_TWIST_SEASON_TITLE_124	コモン	
 GLOBAL_UNINSTALL_MODULE_POPUP_PROMPT	{0}をアンインストールするのか？	{0}=Module name to uninstall (e.g. Battlegrounds)
 GLOBAL_UPDATE	更新	
 GLOBAL_VERSION	バージョン	

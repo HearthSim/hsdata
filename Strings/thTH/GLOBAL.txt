@@ -385,21 +385,23 @@ GLOBAL_DEMO_DISCLAIMER	Hearthstone เวอร์ชั่นนี้ได้
 GLOBAL_DEMO_LEARN_MORE	เรียนรู้เพิ่มเติม	
 GLOBAL_DISABLE	ปิด	
 GLOBAL_DONE	เสร็จสิ้น	
-GLOBAL_DOWNLOAD_MANAGER	ตัวจัดการการดาวน์โหลด	Label for the Download Manager menu
+GLOBAL_DOWNLOAD_MANAGER	การดาวน์โหลด	Label for the Download Manager menu
 GLOBAL_DOWNLOAD_MANAGER_BUTTON_CANCEL	ยกเลิก	
 GLOBAL_DOWNLOAD_MANAGER_BUTTON_DOWNLOAD	ดาวน์โหลด	
 GLOBAL_DOWNLOAD_MANAGER_BUTTON_UNINSTALL	ถอนการติดตั้ง	
+GLOBAL_DOWNLOAD_MANAGER_CANCEL_MODULE_POPUP_PROMPT	ยกเลิกการดาวน์โหลด {0} หรือไม่	{0}=Module name to cancel downloading (e.g. Battlegrounds)
+GLOBAL_DOWNLOAD_MANAGER_CANCEL_MODULE_POPUP_TITLE	ยกเลิกการดาวน์โหลด	
 GLOBAL_DOWNLOAD_MANAGER_DISMISS_BUTTON	เสร็จสิ้น	
+GLOBAL_DOWNLOAD_MANAGER_ENABLE_OPTIONAL_ASSETS_DOWNLOAD	เปิดโหมดคุณภาพสูง	Description for optional assets to be displayed on Download Manager
 GLOBAL_DOWNLOAD_MANAGER_FREE_SPACE	พื้นที่ว่าง: {0}	{0}=Free spaces available on the device (e.g. 8.23 GB)
 GLOBAL_DOWNLOAD_MANAGER_GAME_MODES	โหมดเกม	Label for the Download Manager - Game modes section
 GLOBAL_DOWNLOAD_MANAGER_OPTION_CELLULAR_DATA_DESC	อนุญาตให้ Hearthstone ใช้ข้อมูลมือถือ	
-GLOBAL_DOWNLOAD_MANAGER_OPTION_CELLULAR_DATA_LABEL	ใช้ข้อมูลมือถือหรือไม่	
-GLOBAL_DOWNLOAD_MANAGER_OPTION_ENABLE_DOWNLOAD_DESC	อนุญาตให้ Hearthstone ดาวน์โหลดข้อมูลเกม	
-GLOBAL_DOWNLOAD_MANAGER_OPTION_ENABLE_DOWNLOAD_LABEL	เปิดการดาวน์โหลดหรือไม่	
-GLOBAL_DOWNLOAD_MANAGER_OPTIONAL_ASSETS	ข้อมูลเกม	Module name for optional assets to be displayed on Download Manager
+GLOBAL_DOWNLOAD_MANAGER_OPTION_CELLULAR_DATA_LABEL	ข้อมูลมือถือ	
+GLOBAL_DOWNLOAD_MANAGER_OPTIONAL_ASSETS	โหมดคุณภาพสูง	Name for optional assets to be displayed on Download Manager
+GLOBAL_DOWNLOAD_MANAGER_OPTIONAL_ASSETS_DESCRIPTION	เปิด/ปิดภาพและเสียงคุณภาพสูง	Description for optional assets to be displayed on Download Manager
 GLOBAL_DOWNLOAD_MANAGER_PAUSE_DOWNLOADS	หยุดดาวน์โหลดชั่วคราว	
 GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_CANCELLING	กำลังยกเลิก...	
-GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_DOWNLOADING	กำลังดาวน์โหลด...{0:P2}	0=The percentage of downloaded progress
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_DOWNLOADING	{0} / {1}	{0}=Downloaded size (e.g. 23 MB) {1}=Total size to download (e.g. 128 MB)
 GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_INSTALLED	ติดตั้งแล้ว!	
 GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_PAUSED	หยุดชั่วคราว	
 GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_QUEUED	อยู่ในคิว	
@@ -407,6 +409,13 @@ GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_REMAINING	เหลืออีก: {0}	
 GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_UNINSTALLING	กำลังถอนการติดตั้ง...	
 GLOBAL_DOWNLOAD_MANAGER_RESUME_DOWNLOADS	ดาวน์โหลดต่อ	
 GLOBAL_DOWNLOAD_MANAGER_SETTINGS	การตั้งค่า	Label for the Download Manager - Settings section
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_LOADING_POPUP_COMPLETE_MESSAGE	ถอนการติดตั้งเสร็จสิ้น	
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_LOADING_POPUP_LOADING_MESSAGE	กำลังถอนการติดตั้ง	
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_MODULE_POPUP_BODY_FORMAT	{0}\n\n{1}\n{2}	{0}=Prompt string, {1}=Module size, {2}=Device size available
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_MODULE_POPUP_PROMPT	ถอนการติดตั้ง {0} หรือไม่	{0}=Module name to uninstall (e.g. Battlegrounds)
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_MODULE_POPUP_TITLE	ถอนการติดตั้ง	Popup title for removing a module
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_OPTIONAL_ASSETS_POPUP_PROMPT	เลิกใช้โหมดคุณภาพสูงหรือไม่\nคุณจะต้องดาวน์โหลดข้อมูลเกมใหม่เมื่อเลือกใช้อีกครั้ง	
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_OPTIONAL_ASSETS_POPUP_TITLE	โหมดคุณภาพสูง	
 GLOBAL_DOWNLOAD_MODULE_POPUP_FILE_SIZE	ขนาดไฟล์: {0}	{0}=File size to download (e.g. 1.8GB)
 GLOBAL_DOWNLOAD_MODULE_POPUP_FREE_SPACE	พื้นที่ว่าง: {0}	{0}=Free spaces available on the device (e.g. 8.23 GB)
 GLOBAL_DOWNLOAD_MODULE_POPUP_PROMPT	ดาวน์โหลด {0} หรือไม่	{0}=Module name to download (e.g. Battlegrounds)
@@ -624,6 +633,9 @@ GLOBAL_FRIENDLYCHALLENGE_QUEST_REWARD_AT_LIMIT	คุณถึงขีดจำ
 GLOBAL_FRIENDLYCHALLENGE_REWARD_CONCEDED_YOUR_OPPONENT	คู่แข่งของคุณออกจากเกมเร็วเกินกว่าที่คุณจะได้รับรางวัล	
 GLOBAL_FRIENDLYCHALLENGE_REWARD_CONCEDED_YOURSELF	คุณออกจากเกมเร็วเกินกว่าที่จะได้รับรางวัล	
 GLOBAL_GAME_MENU	เมนูเกม	
+GLOBAL_GAME_MENU_BUTTON_DOWNLOAD_MANAGER	การดาวน์โหลด	Button label for Download manager on the Game Menu
+GLOBAL_GAME_MENU_BUTTON_DOWNLOAD_MANAGER_LOCKED_TOOLTIP	จัดการการดาวน์โหลดของ Hearthstone ได้ที่นี่ มีตัวเลือกนี้เมื่ออยู่ในเมนูหลักเท่านั้น	
+GLOBAL_GAME_MENU_BUTTON_DOWNLOAD_MANAGER_LOCKED_TOOLTIP_TITLE	การดาวน์โหลด	
 GLOBAL_GAME_QUEUE_TIME_IN_QUEUE	เวลาในคิว	
 GLOBAL_GAME_QUEUE_WAIT_TIME	เวลาที่รอ	
 GLOBAL_GOLD_REWARD_ALREADY_CAPPED	คุณได้รับ {0} โกลด์แล้วในวันนี้	
@@ -1334,7 +1346,7 @@ GLOBAL_RARITY_FREE	ฟรี
 GLOBAL_RARITY_LEGENDARY	ตำนาน	
 GLOBAL_RARITY_RARE	หายาก	
 GLOBAL_RECONNECT_EXIT_BUTTON	ออกจากเกม	
-GLOBAL_RECONNECT_FAIL_MODE_NOT_AVAILABLE Unable to reconnect to game, mode {0} is not downloaded	{0}=ชื่อโหมด, (เช่น Battlegrounds, ทหารรับจ้าง, การผจญภัยคนเดียว)	
+GLOBAL_RECONNECT_FAIL_MODE_NOT_AVAILABLE	ไม่สามารถเชื่อมต่อกลับไปยังเกมได้ ยังไม่ได้ดาวน์โหลดโหมด {0}	{0}=Name of the mode, (e.g. Battlegrounds, Mercenaries, Solo Adventures)
 GLOBAL_RECONNECT_RECONNECTED	เชื่อมต่อกลับไปยังเกมของคุณแล้ว กำลังกลับสู่เกม...	
 GLOBAL_RECONNECT_RECONNECTED_HEADER	เชื่อมต่อใหม่แล้ว	
 GLOBAL_RECONNECT_RECONNECTED_LOGIN	เชื่อมต่อกลับไปยังเกมล่าสุดของคุณแล้ว กำลังกลับสู่เกม...	
@@ -1587,11 +1599,13 @@ GLOBAL_TWIST_SEASON_DESCRIPTION_117	สนุกกับรูปแบบใ�
 GLOBAL_TWIST_SEASON_DESCRIPTION_119	ก้าวเข้าสู่ Caverns of Time และจัดเด็คโดยใช้ส่วนเสริมทั้งหมดตั้งแต่ชุดเก่าจนถึง Mean Streets of Gadgetzan	
 GLOBAL_TWIST_SEASON_DESCRIPTION_120	ในครั้งนี้ จัดเด็คด้วยการ์ด 30 ถึง 40 ใบ จากชุดเก่าไปจนถึง Mean Streets of Gadgetzan และร่วมด้วย Caverns of Time ผู้เล่นทุกคนเริ่มเกมพร้อมพลังชีวิตเท่าจำนวนการ์ดในเด็คตน!	
 GLOBAL_TWIST_SEASON_DESCRIPTION_121	เดินทางย้อนเวลาสู่อดีตดึกดำบรรพ์ที่ไดโนเสาร์ท่องทั่วแดน! Un'Goro กลับมาพร้อมการอัพเดตใหม่ๆ และเข้าเป็นส่วนหนึ่งของรูปแบบสิ่งมหัศจรรย์ร่วมกับชุดอื่นๆ	
+GLOBAL_TWIST_SEASON_DESCRIPTION_124	ไม่มีตำนาน? ไม่มีปัญหา! จัดเด็คสุดฝีมือด้วยการ์ดระดับทั่วไป[b]จากส่วนเสริมทั้งหมดในปีแห่งมังกรและชุดหลักเท่านั้น	
 GLOBAL_TWIST_SEASON_TITLE_116	ยุคใหม่	
 GLOBAL_TWIST_SEASON_TITLE_117	ยุคใหม่	
 GLOBAL_TWIST_SEASON_TITLE_119	สิ่งมหัศจรรย์	
 GLOBAL_TWIST_SEASON_TITLE_120	สิ่งมหัศจรรย์ XL	
 GLOBAL_TWIST_SEASON_TITLE_121	หวนคืนสู่อันโกโร	
+GLOBAL_TWIST_SEASON_TITLE_124	ทั่วไป	
 GLOBAL_UNINSTALL_MODULE_POPUP_PROMPT	ถอนการติดตั้ง {0} หรือไม่	{0}=Module name to uninstall (e.g. Battlegrounds)
 GLOBAL_UPDATE	อัพเดต	
 GLOBAL_VERSION	เวอร์ชั่น	

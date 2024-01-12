@@ -385,21 +385,23 @@ GLOBAL_DEMO_DISCLAIMER	현재 버전의 하스스톤은 체험용으로 특별�
 GLOBAL_DEMO_LEARN_MORE	자세한 내용	
 GLOBAL_DISABLE	사용 안 함	
 GLOBAL_DONE	완료	
-GLOBAL_DOWNLOAD_MANAGER	다운로드 관리자	Label for the Download Manager menu
+GLOBAL_DOWNLOAD_MANAGER	다운로드	Label for the Download Manager menu
 GLOBAL_DOWNLOAD_MANAGER_BUTTON_CANCEL	취소	
 GLOBAL_DOWNLOAD_MANAGER_BUTTON_DOWNLOAD	다운로드	
 GLOBAL_DOWNLOAD_MANAGER_BUTTON_UNINSTALL	제거	
+GLOBAL_DOWNLOAD_MANAGER_CANCEL_MODULE_POPUP_PROMPT	{0} 다운로드를 취소하시겠습니까?	{0}=Module name to cancel downloading (e.g. Battlegrounds)
+GLOBAL_DOWNLOAD_MANAGER_CANCEL_MODULE_POPUP_TITLE	다운로드 취소	
 GLOBAL_DOWNLOAD_MANAGER_DISMISS_BUTTON	완료	
+GLOBAL_DOWNLOAD_MANAGER_ENABLE_OPTIONAL_ASSETS_DOWNLOAD	고품질 모드 활성화	Description for optional assets to be displayed on Download Manager
 GLOBAL_DOWNLOAD_MANAGER_FREE_SPACE	여유 공간: {0}	{0}=Free spaces available on the device (e.g. 8.23 GB)
 GLOBAL_DOWNLOAD_MANAGER_GAME_MODES	게임 모드	Label for the Download Manager - Game modes section
 GLOBAL_DOWNLOAD_MANAGER_OPTION_CELLULAR_DATA_DESC	셀룰러 데이터로 하스스톤을 다운로드하도록 합니다.	
 GLOBAL_DOWNLOAD_MANAGER_OPTION_CELLULAR_DATA_LABEL	셀룰러 데이터	
-GLOBAL_DOWNLOAD_MANAGER_OPTION_ENABLE_DOWNLOAD_DESC	하스스톤을 다운로드하도록 합니다.	
-GLOBAL_DOWNLOAD_MANAGER_OPTION_ENABLE_DOWNLOAD_LABEL	다운로드 허용	
-GLOBAL_DOWNLOAD_MANAGER_OPTIONAL_ASSETS	파일	Module name for optional assets to be displayed on Download Manager
+GLOBAL_DOWNLOAD_MANAGER_OPTIONAL_ASSETS	고품질 모드	Name for optional assets to be displayed on Download Manager
+GLOBAL_DOWNLOAD_MANAGER_OPTIONAL_ASSETS_DESCRIPTION	고품질 시각 효과와 소리를 켜고 끕니다.	Description for optional assets to be displayed on Download Manager
 GLOBAL_DOWNLOAD_MANAGER_PAUSE_DOWNLOADS	다운로드 일시 정지	
 GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_CANCELLING	취소 중...	
-GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_DOWNLOADING	다운로드 중...{0:P2}	0=The percentage of downloaded progress
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_DOWNLOADING	{0} / {1}	{0}=Downloaded size (e.g. 23 MB) {1}=Total size to download (e.g. 128 MB)
 GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_INSTALLED	설치 완료!	
 GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_PAUSED	일시 정지	
 GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_QUEUED	대기열 등록	
@@ -407,6 +409,13 @@ GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_REMAINING	남은 시간: {0}	0=Time rema
 GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_UNINSTALLING	제거 중...	
 GLOBAL_DOWNLOAD_MANAGER_RESUME_DOWNLOADS	다운로드 계속하기	
 GLOBAL_DOWNLOAD_MANAGER_SETTINGS	설정	Label for the Download Manager - Settings section
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_LOADING_POPUP_COMPLETE_MESSAGE	제거 완료	
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_LOADING_POPUP_LOADING_MESSAGE	제거 중	
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_MODULE_POPUP_BODY_FORMAT	{0}\n\n{1}\n{2}	{0}=Prompt string, {1}=Module size, {2}=Device size available
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_MODULE_POPUP_PROMPT	{0}|1(을,를) 제거하시겠습니까?	{0}=Module name to uninstall (e.g. Battlegrounds)
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_MODULE_POPUP_TITLE	제거	Popup title for removing a module
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_OPTIONAL_ASSETS_POPUP_PROMPT	고품질 모드 사용을 중단하시겠습니까?\n다시 사용하려면 데이터를 다시 다운로드해야 합니다.	
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_OPTIONAL_ASSETS_POPUP_TITLE	고품질 모드	
 GLOBAL_DOWNLOAD_MODULE_POPUP_FILE_SIZE	파일 크기: {0}	{0}=File size to download (e.g. 1.8GB)
 GLOBAL_DOWNLOAD_MODULE_POPUP_FREE_SPACE	여유 공간: {0}	{0}=Free spaces available on the device (e.g. 8.23 GB)
 GLOBAL_DOWNLOAD_MODULE_POPUP_PROMPT	{0}|1(을,를) 다운로드하시겠습니까?	{0}=Module name to download (e.g. Battlegrounds)
@@ -624,6 +633,9 @@ GLOBAL_FRIENDLYCHALLENGE_QUEST_REWARD_AT_LIMIT	하루에 획득할 수 있는 �
 GLOBAL_FRIENDLYCHALLENGE_REWARD_CONCEDED_YOUR_OPPONENT	상대가 너무 빨리 게임에서 떠나서 보상을 얻을 수 없습니다.	
 GLOBAL_FRIENDLYCHALLENGE_REWARD_CONCEDED_YOURSELF	너무 빨리 게임에서 떠나서 보상을 얻을 수 없습니다.	
 GLOBAL_GAME_MENU	게임 메뉴	
+GLOBAL_GAME_MENU_BUTTON_DOWNLOAD_MANAGER	다운로드	Button label for Download manager on the Game Menu
+GLOBAL_GAME_MENU_BUTTON_DOWNLOAD_MANAGER_LOCKED_TOOLTIP	이곳에서 하스스톤 관련 다운로드를 관리할 수 있습니다. 메인 메뉴에 있을 때만 사용할 수 있습니다.	
+GLOBAL_GAME_MENU_BUTTON_DOWNLOAD_MANAGER_LOCKED_TOOLTIP_TITLE	다운로드	
 GLOBAL_GAME_QUEUE_TIME_IN_QUEUE	대기 시간	
 GLOBAL_GAME_QUEUE_WAIT_TIME	예상 대기 시간	
 GLOBAL_GOLD_REWARD_ALREADY_CAPPED	오늘 이미 {0} 골드를 획득했습니다.	
@@ -671,7 +683,7 @@ GLOBAL_KEYWORD_AUTOATTACK_TEXT	공격할 수 없지만 내 턴이 끝날 때 효
 GLOBAL_KEYWORD_AUTOCAST	자동 시전	
 GLOBAL_KEYWORD_AUTOCAST_TEXT	이 영웅 능력은 매 턴마다 반드시 사용해야 합니다.	
 GLOBAL_KEYWORD_AVENGE	복수 (X)	
-GLOBAL_KEYWORD_AVENGE_TEXT	아군 하수인 X마리가 전투에서 죽은 후에 효과가 발동합니다.	
+GLOBAL_KEYWORD_AVENGE_TEXT	아군 하수인 X마리가 전투 중에 죽은 후에 효과가 발동합니다.	
 GLOBAL_KEYWORD_BACON_BUY_BUDDY	전우 획득	
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_2	전우 2장 획득	
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_2_TEXT	승리/무승부 - 비용 (3) 감소\n패배 - 비용 (2) 감소	
@@ -1334,7 +1346,7 @@ GLOBAL_RARITY_FREE	무료
 GLOBAL_RARITY_LEGENDARY	전설	
 GLOBAL_RARITY_RARE	희귀	
 GLOBAL_RECONNECT_EXIT_BUTTON	게임 종료	
-GLOBAL_RECONNECT_FAIL_MODE_NOT_AVAILABLE Unable to reconnect to game, mode {0} is not downloaded	{0}=모드 이름, (예, 전장, 용병단, 1인 모험)	
+GLOBAL_RECONNECT_FAIL_MODE_NOT_AVAILABLE	게임으로 재접속할 수 없습니다. {0} 모드가 다운로드되지 않습니다.	{0}=Name of the mode, (e.g. Battlegrounds, Mercenaries, Solo Adventures)
 GLOBAL_RECONNECT_RECONNECTED	게임에 재접속하였습니다. 게임을 재개하는 중입니다.	
 GLOBAL_RECONNECT_RECONNECTED_HEADER	재접속됨	
 GLOBAL_RECONNECT_RECONNECTED_LOGIN	이전 게임에 재접속하였습니다. 게임을 재개하는 중입니다.	
@@ -1587,11 +1599,13 @@ GLOBAL_TWIST_SEASON_DESCRIPTION_117	새로운 변칙전을 체험해 보세요. 
 GLOBAL_TWIST_SEASON_DESCRIPTION_119	시간의 동굴로 들어가 고전부터 비열한 거리의 가젯잔 사이의 모든 확장팩을 사용해 덱을 구성해 보세요.	
 GLOBAL_TWIST_SEASON_DESCRIPTION_120	이번에는 고전부터 비열한 거리의 가젯잔 사이와 시간의 동굴에서 등장한 카드 30~40장으로 덱을 구성하세요. 모든 플레이어는 덱의 규모와 동등한 생명력으로 시작합니다!	
 GLOBAL_TWIST_SEASON_DESCRIPTION_121	공룡이 존재했던 고대의 시간으로 여행을 떠나보세요! 운고로가 새로운 업데이트로 돌아왔으며, 불가사의 진행 방식의 다른 세트에 합류했습니다.	
+GLOBAL_TWIST_SEASON_DESCRIPTION_124	전설 카드가 없으시다고요? 괜찮아요! 모든 용의 해 확장팩과 핵심 카드 중 일반 카드만 이용해서 최고의 덱을 만들어 보세요.	
 GLOBAL_TWIST_SEASON_TITLE_116	신시대	
 GLOBAL_TWIST_SEASON_TITLE_117	신시대	
 GLOBAL_TWIST_SEASON_TITLE_119	신비 엔진	
 GLOBAL_TWIST_SEASON_TITLE_120	특대 불가사의	
 GLOBAL_TWIST_SEASON_TITLE_121	운고로를 향한 귀환	
+GLOBAL_TWIST_SEASON_TITLE_124	일반	
 GLOBAL_UNINSTALL_MODULE_POPUP_PROMPT	{0}|1(을,를) 제거하시겠습니까?	{0}=Module name to uninstall (e.g. Battlegrounds)
 GLOBAL_UPDATE	업데이트	
 GLOBAL_VERSION	버전	

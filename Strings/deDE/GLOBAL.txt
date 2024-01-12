@@ -385,21 +385,23 @@ GLOBAL_DEMO_DISCLAIMER	Diese Version von Hearthstone wurde spezifisch zu Demonst
 GLOBAL_DEMO_LEARN_MORE	Mehr erfahren	
 GLOBAL_DISABLE	Deaktivieren	
 GLOBAL_DONE	Fertig	
-GLOBAL_DOWNLOAD_MANAGER	Download-Manager	Label for the Download Manager menu
+GLOBAL_DOWNLOAD_MANAGER	Downloads	Label for the Download Manager menu
 GLOBAL_DOWNLOAD_MANAGER_BUTTON_CANCEL	Abbrechen	
 GLOBAL_DOWNLOAD_MANAGER_BUTTON_DOWNLOAD	Herunterladen	
 GLOBAL_DOWNLOAD_MANAGER_BUTTON_UNINSTALL	Deinstallieren	
+GLOBAL_DOWNLOAD_MANAGER_CANCEL_MODULE_POPUP_PROMPT	Download von {0} abbrechen?	{0}=Module name to cancel downloading (e.g. Battlegrounds)
+GLOBAL_DOWNLOAD_MANAGER_CANCEL_MODULE_POPUP_TITLE	Download abbrechen	
 GLOBAL_DOWNLOAD_MANAGER_DISMISS_BUTTON	Fertig	
+GLOBAL_DOWNLOAD_MANAGER_ENABLE_OPTIONAL_ASSETS_DOWNLOAD	Hochqualitätsmodus aktivieren	Description for optional assets to be displayed on Download Manager
 GLOBAL_DOWNLOAD_MANAGER_FREE_SPACE	Verfügbarer Speicherplatz: {0}	{0}=Free spaces available on the device (e.g. 8.23 GB)
 GLOBAL_DOWNLOAD_MANAGER_GAME_MODES	Spielmodi	Label for the Download Manager - Game modes section
 GLOBAL_DOWNLOAD_MANAGER_OPTION_CELLULAR_DATA_DESC	Erlaubt Hearthstone, Mobile Daten zu verwenden.	
-GLOBAL_DOWNLOAD_MANAGER_OPTION_CELLULAR_DATA_LABEL	Mobile Daten?	
-GLOBAL_DOWNLOAD_MANAGER_OPTION_ENABLE_DOWNLOAD_DESC	Erlaubt den Download von Assets.	
-GLOBAL_DOWNLOAD_MANAGER_OPTION_ENABLE_DOWNLOAD_LABEL	Download aktivieren?	
-GLOBAL_DOWNLOAD_MANAGER_OPTIONAL_ASSETS	Assets	Module name for optional assets to be displayed on Download Manager
+GLOBAL_DOWNLOAD_MANAGER_OPTION_CELLULAR_DATA_LABEL	Mobile Daten	
+GLOBAL_DOWNLOAD_MANAGER_OPTIONAL_ASSETS	Hochqualitätsmodus	Name for optional assets to be displayed on Download Manager
+GLOBAL_DOWNLOAD_MANAGER_OPTIONAL_ASSETS_DESCRIPTION	Aktiviert/deaktiviert hochwertigere Grafiken und Soundeffekte.	Description for optional assets to be displayed on Download Manager
 GLOBAL_DOWNLOAD_MANAGER_PAUSE_DOWNLOADS	Download anhalten	
 GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_CANCELLING	Abbrechen_...	
-GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_DOWNLOADING	Herunterladen_...{0:P2}	0=The percentage of downloaded progress
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_DOWNLOADING	{0} / {1}	{0}=Downloaded size (e.g. 23 MB) {1}=Total size to download (e.g. 128 MB)
 GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_INSTALLED	Installiert!	
 GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_PAUSED	Pausiert	
 GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_QUEUED	In Warteschlange	
@@ -407,6 +409,13 @@ GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_REMAINING	Verbleibend: {0}	0=Time remain
 GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_UNINSTALLING	Deinstallieren_...	
 GLOBAL_DOWNLOAD_MANAGER_RESUME_DOWNLOADS	Downloads fortsetzen	
 GLOBAL_DOWNLOAD_MANAGER_SETTINGS	Einstellungen	Label for the Download Manager - Settings section
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_LOADING_POPUP_COMPLETE_MESSAGE	Deinstallation abgeschlossen	
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_LOADING_POPUP_LOADING_MESSAGE	Deinstallieren_...	
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_MODULE_POPUP_BODY_FORMAT	{0}\n\n{1}\n{2}	{0}=Prompt string, {1}=Module size, {2}=Device size available
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_MODULE_POPUP_PROMPT	{0} deinstallieren?	{0}=Module name to uninstall (e.g. Battlegrounds)
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_MODULE_POPUP_TITLE	Deinstallieren	Popup title for removing a module
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_OPTIONAL_ASSETS_POPUP_PROMPT	Hochqualitätsmodus deaktivieren?\nIhr müsst die Assets neu herunterladen, wenn Ihr den Modus wieder aktiviert.	
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_OPTIONAL_ASSETS_POPUP_TITLE	Hochqualitätsmodus	
 GLOBAL_DOWNLOAD_MODULE_POPUP_FILE_SIZE	Dateigröße: {0}	{0}=File size to download (e.g. 1.8GB)
 GLOBAL_DOWNLOAD_MODULE_POPUP_FREE_SPACE	Verfügbarer Speicherplatz: {0}	{0}=Free spaces available on the device (e.g. 8.23 GB)
 GLOBAL_DOWNLOAD_MODULE_POPUP_PROMPT	{0} herunterladen?	{0}=Module name to download (e.g. Battlegrounds)
@@ -624,6 +633,9 @@ GLOBAL_FRIENDLYCHALLENGE_QUEST_REWARD_AT_LIMIT	Ihr habt das tägliche Limit für
 GLOBAL_FRIENDLYCHALLENGE_REWARD_CONCEDED_YOUR_OPPONENT	Ihr könnt keine Belohnungen erhalten, weil Euer Gegner das Spiel zu früh verlassen hat.	
 GLOBAL_FRIENDLYCHALLENGE_REWARD_CONCEDED_YOURSELF	Ihr könnt keine Belohnungen erhalten, weil Ihr das Spiel zu früh verlassen habt.	
 GLOBAL_GAME_MENU	Spielmenü	
+GLOBAL_GAME_MENU_BUTTON_DOWNLOAD_MANAGER	Downloads	Button label for Download manager on the Game Menu
+GLOBAL_GAME_MENU_BUTTON_DOWNLOAD_MANAGER_LOCKED_TOOLTIP	Hier könnt Ihr die Downloads für Hearthstone verwalten. Diese Funktion ist nur über das Hauptmenü verfügbar.	
+GLOBAL_GAME_MENU_BUTTON_DOWNLOAD_MANAGER_LOCKED_TOOLTIP_TITLE	Downloads	
 GLOBAL_GAME_QUEUE_TIME_IN_QUEUE	Zeit in Warteschlange	
 GLOBAL_GAME_QUEUE_WAIT_TIME	Wartezeit	
 GLOBAL_GOLD_REWARD_ALREADY_CAPPED	Ihr habt heute bereits {0} Gold erhalten.	
@@ -1334,7 +1346,7 @@ GLOBAL_RARITY_FREE	Gratis
 GLOBAL_RARITY_LEGENDARY	Legendär	
 GLOBAL_RARITY_RARE	Selten	
 GLOBAL_RECONNECT_EXIT_BUTTON	Verlassen	
-GLOBAL_RECONNECT_FAIL_MODE_NOT_AVAILABLE Unable to reconnect to game, mode {0} is not downloaded	{0} = Modusname (z. B. Schlachtfeld, Söldner, Soloabenteuer)	
+GLOBAL_RECONNECT_FAIL_MODE_NOT_AVAILABLE	Die Verbindung zum Spiel konnte nicht wiederhergestellt werden. Der Modus „{0}“ wurde nicht heruntergeladen.	{0}=Name of the mode, (e.g. Battlegrounds, Mercenaries, Solo Adventures)
 GLOBAL_RECONNECT_RECONNECTED	Die Verbindung zu Ihrem Spiel wurde wiederhergestellt. Spiel wird fortgeführt ...	
 GLOBAL_RECONNECT_RECONNECTED_HEADER	Verbindung hergestellt	
 GLOBAL_RECONNECT_RECONNECTED_LOGIN	Die Verbindung zu Ihrem letzten Spiel wurde wiederhergestellt. Spiel wird fortgeführt ...	
@@ -1587,11 +1599,13 @@ GLOBAL_TWIST_SEASON_DESCRIPTION_117	Erlebt dieses neue Format mit einem Haken; e
 GLOBAL_TWIST_SEASON_DESCRIPTION_119	Betretet die Höhlen der Zeit und baut ein Deck mit allen Erweiterungen von Archiv bis Die Straßen von Gadgetzan.	
 GLOBAL_TWIST_SEASON_DESCRIPTION_120	Baut dieses Mal ein Deck mit 30 bis 40 Karten von Archiv bis Die Straßen von Gadgetzan und Höhlen der Zeit. Und alle Spieler beginnen mit Leben, das der Größe ihres Decks entspricht!	
 GLOBAL_TWIST_SEASON_DESCRIPTION_121	Reist zurück in die alte Vergangenheit, als Dinosaurier umherstreiften! Un'Goro ist zurück mit einigen neuen Updates und hat sich den anderen Sets im Wunder-Format angeschlossen.	
+GLOBAL_TWIST_SEASON_DESCRIPTION_124	Keine legendären Karten? Kein Problem! Baut das bestmögliche Deck mit gewöhnlichen Karten aus allen Erweiterungen bis einschließlich Jahr des Drachen und dem Kernset.	
 GLOBAL_TWIST_SEASON_TITLE_116	Neues Zeitalter	
 GLOBAL_TWIST_SEASON_TITLE_117	Neues Zeitalter	
 GLOBAL_TWIST_SEASON_TITLE_119	Wunder	
 GLOBAL_TWIST_SEASON_TITLE_120	XL-Wunder	
 GLOBAL_TWIST_SEASON_TITLE_121	Kehrt nach Un’Goro zurück	
+GLOBAL_TWIST_SEASON_TITLE_124	Gewöhnliche Karten	
 GLOBAL_UNINSTALL_MODULE_POPUP_PROMPT	{0} deinstallieren?	{0}=Module name to uninstall (e.g. Battlegrounds)
 GLOBAL_UPDATE	Aktualisieren	
 GLOBAL_VERSION	Version	

@@ -150,6 +150,7 @@ GLOBAL_CARD_SET_VANILLA_FORMAT_SEARCHABLE_SHORTHAND_NAMES	clfmt	This is a space-
 GLOBAL_CARD_SET_SW	United in Stormwind
 GLOBAL_CARD_SET_SW_SHORT	Stormwind
 GLOBAL_CARD_SET_SW_SEARCHABLE_SHORTHAND_NAMES	sw	uis	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CANCEL_MODULE_POPUP_PROMPT	Cancel downloading {0}?	{0}=Module name to cancel downloading (e.g. Battlegrounds)
 GLOBAL_CARD_SET_AV	Fractured in Alterac Valley
 GLOBAL_CARD_SET_AV_SHORT	Alterac Valley
 GLOBAL_CARD_SET_AV_SEARCHABLE_SHORTHAND_NAMES	av fiav fav	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
@@ -1313,6 +1314,8 @@ GLOBAL_VERSION	Version
 GLOBAL_MOBILE_RESTART_APPLICATION	Please restart the application
 GLOBAL_MOBILE_TAP_TO_RECONNECT	Tap anywhere to reconnect
 GLOBAL_MOBILE_TAP_TO_UPDATE	Tap anywhere to update
+GLOBAL_MODULE_ADVENTURE	Solo Adventures	Module name for adventure
+GLOBAL_MODULE_MERC	Mercenaries	Module name for merc
 GLOBAL_SPLASH_CLOSED_RECONNECTING	Reconnecting...
 GLOBAL_ADVENTURE_TRAY_HEADER	Choose an Adventure
 GLOBAL_ADVENTURE_DESC_HEADER	Adventure
@@ -1408,6 +1411,8 @@ GLOBAL_TWIST_SEASON_TITLE_120	XL Wonders
 GLOBAL_TWIST_SEASON_DESCRIPTION_120	This time, build a deck with between 30 to 40 cards from Legacy through Mean Streets of Gadgetzan plus Caverns of Time. And all players start with Health equal to the size of their deck!
 GLOBAL_TWIST_SEASON_TITLE_121	Return to Un'Goro
 GLOBAL_TWIST_SEASON_DESCRIPTION_121	Travel back to the ancient past when dinosaurs roamed! Un'Goro is back with some new updates and has joined the other sets in the Wonders format.
+GLOBAL_TWIST_SEASON_TITLE_124	Commons
+GLOBAL_TWIST_SEASON_DESCRIPTION_124	No legendaries? No problem! Assemble the best deck you can using only commons from all expansions through Year of the Dragon and Core.
 GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_START_WITH_MANY_WINS	<color=#{0}>{1}</color> has just started a Brawliseum match with {2} wins already!	0=name color,1=player name,2=Brawl Wins
 GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_COMPLETE	<color=#{0}>{1}</color> just finished a Brawliseum run. ({2}-{3})	0=name color,1=player name,2=Brawl Wins,3=Brawl Losses
 GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_START	<color=#{0}>{1}</color> started a new Brawliseum run.	0=name color,1=player name
@@ -1471,6 +1476,7 @@ GLOBAL_CLASSIC	Classic
 GLOBAL_TWIST	Twist
 GLOBAL_TWIST_LOCKED	Twist (Locked)
 GLOBAL_TWIST_LOCKED_DESC	This game mode is locked until the next season starts in\n{0}.
+GLOBAL_UNINSTALL_MODULE_POPUP_PROMPT	Uninstall {0}?	{0}=Module name to uninstall (e.g. Battlegrounds)
 GLOBAL_RANKED	Ranked
 GLOBAL_LETTUCE_LOBBY_TITLE	Choose how to play
 GLOBAL_LETTUCE_REWARD_BANNER_TEXT	Mercenaries Reward
@@ -1571,13 +1577,13 @@ GLOBAL_KEYWORD_QUICKDRAW_REF_TEXT	A bonus if this entered your hand this turn.
 GLOBAL_KEYWORD_EXCAVATE	Excavate
 GLOBAL_KEYWORD_EXCAVATE_TEXT	Dig for increasingly rarer treasures. Resets after the highest Rarity.
 GLOBAL_KEYWORD_EXCAVATE_REF_TEXT	Dig for increasingly rarer treasures. Resets after the highest Rarity.
-GLOBAL_DOWNLOAD_MANAGER	Download Manager	Label for the Download Manager menu
+GLOBAL_DOWNLOAD_MANAGER	Downloads	Label for the Download Manager menu
 GLOBAL_DOWNLOAD_MANAGER_GAME_MODES	Game Modes	Label for the Download Manager - Game modes section
 GLOBAL_DOWNLOAD_MANAGER_SETTINGS	Settings	Label for the Download Manager - Settings section
 GLOBAL_DOWNLOAD_MANAGER_BUTTON_DOWNLOAD	Download
 GLOBAL_DOWNLOAD_MANAGER_BUTTON_CANCEL	Cancel
 GLOBAL_DOWNLOAD_MANAGER_BUTTON_UNINSTALL	Uninstall
-GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_DOWNLOADING	Downloading...{0:P2}	0=The percentage of downloaded progress
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_DOWNLOADING	{0} / {1}	{0}=Downloaded size (e.g. 23 MB) {1}=Total size to download (e.g. 128 MB)
 GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_PAUSED	Paused
 GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_INSTALLED	Installed!
 GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_QUEUED	Queued
@@ -1585,19 +1591,32 @@ GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_CANCELLING	Cancelling...
 GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_UNINSTALLING	Uninstalling...
 GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_REMAINING	Remaining: {0}	0=Time remaining. (e.g. 21:30)
 GLOBAL_DOWNLOAD_MANAGER_FREE_SPACE	Available Space: {0}	{0}=Free spaces available on the device (e.g. 8.23 GB)
+GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_QUEUED	Queued
 GLOBAL_DOWNLOAD_MANAGER_PAUSE_DOWNLOADS	Pause Downloads
 GLOBAL_DOWNLOAD_MANAGER_RESUME_DOWNLOADS	Resume Downloads
-GLOBAL_DOWNLOAD_MANAGER_OPTION_ENABLE_DOWNLOAD_LABEL	Enable Download?
-GLOBAL_DOWNLOAD_MANAGER_OPTION_ENABLE_DOWNLOAD_DESC	Allow Hearthstone to download assets.
-GLOBAL_DOWNLOAD_MANAGER_OPTION_CELLULAR_DATA_LABEL	Cellular Data?
+GLOBAL_DOWNLOAD_MANAGER_OPTION_CELLULAR_DATA_LABEL	Cellular Data
 GLOBAL_DOWNLOAD_MANAGER_OPTION_CELLULAR_DATA_DESC	Allow Hearthstone to use cellular data.
-GLOBAL_DOWNLOAD_MODULE_POPUP_PROMPT	Download {0}?	{0}=Module name to download (e.g. Battlegrounds)
-GLOBAL_UNINSTALL_MODULE_POPUP_PROMPT	Uninstall {0}?	{0}=Module name to uninstall (e.g. Battlegrounds)
-GLOBAL_CANCEL_MODULE_POPUP_PROMPT	Cancel downloading {0}?	{0}=Module name to cancel downloading (e.g. Battlegrounds)
-GLOBAL_DOWNLOAD_MODULE_POPUP_FILE_SIZE	File size: {0}	{0}=File size to download (e.g. 1.8GB)
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_MODULE_POPUP_BODY_FORMAT	{0}\n\n{1}\n{2}	{0}=Prompt string, {1}=Module size, {2}=Device size available
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_MODULE_POPUP_TITLE	Uninstall	Popup title for removing a module
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_MODULE_POPUP_PROMPT	Uninstall {0}?	{0}=Module name to uninstall (e.g. Battlegrounds)
+GLOBAL_DOWNLOAD_MANAGER_CANCEL_MODULE_POPUP_TITLE	Cancel Download	
+GLOBAL_DOWNLOAD_MANAGER_CANCEL_MODULE_POPUP_PROMPT	Cancel Downloading {0}?	{0}=Module name to cancel downloading (e.g. Battlegrounds)
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_OPTIONAL_ASSETS_POPUP_TITLE	High Quality Mode
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_OPTIONAL_ASSETS_POPUP_PROMPT	Opt out of High Quality Mode?\nYou will need to redownload the assets when opting back in.
+GLOBAL_DOWNLOAD_MODULE_POPUP_FILE_SIZE	File Size: {0}	{0}=File size to download (e.g. 1.8GB)
 GLOBAL_DOWNLOAD_MODULE_POPUP_FREE_SPACE	Available Space: {0}	{0}=Free spaces available on the device (e.g. 8.23 GB)
+GLOBAL_DOWNLOAD_MODULE_POPUP_PROMPT	Download {0}?	{0}=Module name to download (e.g. Battlegrounds)
 GLOBAL_DOWNLOAD_MANAGER_DISMISS_BUTTON	Done
-GLOBAL_DOWNLOAD_MANAGER_OPTIONAL_ASSETS	Assets	Module name for optional assets to be displayed on Download Manager
+GLOBAL_DOWNLOAD_MANAGER_OPTIONAL_ASSETS	High Quality Mode	Name for optional assets to be displayed on Download Manager
+GLOBAL_DOWNLOAD_MANAGER_OPTIONAL_ASSETS_DESCRIPTION	Enable/disable high quality visuals and sounds	Description for optional assets to be displayed on Download Manager
+GLOBAL_DOWNLOAD_MANAGER_ENABLE_OPTIONAL_ASSETS_DOWNLOAD	Enable High Quality Mode	Description for optional assets to be displayed on Download Manager
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_LOADING_POPUP_LOADING_MESSAGE	Uninstalling
+GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_LOADING_POPUP_COMPLETE_MESSAGE	Uninstall complete
+GLOBAL_DOWNLOAD_MANAGER_CANCEL_LOADING_POPUP_LOADING_MESSAGE	Cancelling
+GLOBAL_DOWNLOAD_MANAGER_CANCEL_LOADING_POPUP_CANCEL_MESSAGE	Download canceled
 GLOBAL_MODULE_MERC	Mercenaries	Module name for merc
 GLOBAL_MODULE_ADVENTURE	Solo Adventures	Module name for adventure
-GLOBAL_RECONNECT_FAIL_MODE_NOT_AVAILABLE Unable to reconnect to game, mode {0} is not downloaded	{0}=Name of the mode, (e.g. Battlegrounds, Mercenaries, Solo Adventures)
+GLOBAL_RECONNECT_FAIL_MODE_NOT_AVAILABLE	Unable to reconnect to game, mode {0} is not downloaded	{0}=Name of the mode, (e.g. Battlegrounds, Mercenaries, Solo Adventures)
+GLOBAL_GAME_MENU_BUTTON_DOWNLOAD_MANAGER	Downloads	Button label for Download manager on the Game Menu
+GLOBAL_GAME_MENU_BUTTON_DOWNLOAD_MANAGER_LOCKED_TOOLTIP_TITLE	Downloads
+GLOBAL_GAME_MENU_BUTTON_DOWNLOAD_MANAGER_LOCKED_TOOLTIP	Here you can manage the downloads for Hearthstone. This is only available when at the main menu.
