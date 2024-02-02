@@ -1109,7 +1109,7 @@ GLUE_GAME_MODE_DOWNLOAD_QUEUED	대기열 등록
 GLUE_GAME_MODE_LOCKED_APPRENTICE_COMPLETION_REQUIRED	{0}|1(을,를) 잠금 해제하려면 수습생의 길을 완료하세요!	
 GLUE_GAME_MODE_LOCKED_DOWNLOAD_REQUIRED	{0} 잠김, 다운로드 필요	
 GLUE_GAME_MODE_LOCKED_HEADER	수습생의 길을 완료해 {0} 잠금 해제	
-GLUE_GAME_MODE_MODULE_DOWNLOADED	{0} 다운로드 완료	
+GLUE_GAME_MODE_MODULE_DOWNLOADED	<color=#E2C4A9>{0}</color> 다운로드 완료	{0}=Name of gamemode that has just complete downloading
 GLUE_GAME_MODE_NEW_MODE_POPUP_HEADER	새로운 모드!	
 GLUE_GAME_MODE_NEW_MODE_UNLOCKED_POPUP_HEADER	새로운 모드 잠금 해제:	
 GLUE_GAME_MODE_OUT_OF_SPACE_MESSAGE	기기에 {0} 이상의 용량이 필요합니다.	{0}=Size of the module to download (E.g. 215 MB)
@@ -1273,10 +1273,10 @@ GLUE_KARA_PROLOGUE_LOADING	배달부 까마귀 기다리는 중
 GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_CANCEL	취소	
 GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_CONFIRM	건너뛰기	
 GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_DESCRIPTION	25등급으로 건너뛰면 더욱 강력한 상대를 만날뿐만 아니라 등급을 올려 얻을 수 있는 보상도 놓치게 됩니다!	
-GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_DESCRIPTION_NEW	남은 수습생 보상을 받을 수 없고 더 강력한 상대를 만나게 되지만 모든 직업과 모드, 대여 덱이 즉시 잠금 해제됩니다!	
+GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_DESCRIPTION_NEW	남은 수습생 보상을 받을 수 없고 더 강력한 상대를 만나게 되지만 모든 직업과 모드, 대여 덱이 즉시 잠금 해제됩니다! 건너뛰면 돌이킬 수 없습니다.	
 GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_TITLE	계속하시겠습니까?	
 GLUE_LEAGUE_PROMOTE_SELF_UNCLAIMED_REWARDS_ERROR_DESCRIPTION	수습생을 건너뛰기 전에 잠금 해제한 보상을 모두 받아야 합니다.	
-GLUE_LEAGUE_PROMOTE_SELF_UNCLAIMED_REWARDS_ERROR_TITLE	획득하지 않은 보상이 있습니다.	
+GLUE_LEAGUE_PROMOTE_SELF_UNCLAIMED_REWARDS_ERROR_TITLE	획득하지 않은 보상!	
 GLUE_LEGENDARY_QUEST_REROLL_BODY	이 전설 퀘스트를 포기하고 일반 퀘스트를 받으시겠습니까? 이 퀘스트가 연계 퀘스트라면, 연계 퀘스트 전체를 포기합니다.	
 GLUE_LEGENDARY_QUEST_REROLL_TITLE	새로 받으시겠습니까?	
 GLUE_LET_LOADING_BAR_TASK_1	급소 가격 연습 중	
@@ -1967,6 +1967,12 @@ GLUE_PROGRESSION_APPRENTICE_DECK_POPUP_SUBTITLE	다양한 방법으로 플레이
 GLUE_PROGRESSION_APPRENTICE_JOURNAL_POPUP_DESC	이건 일지입니다. 진행 상황을 확인하고 경험치를 얻어 보상을 얻으세요!	
 GLUE_PROGRESSION_APPRENTICE_JOURNAL_POPUP_SUBTITLE	환영합니다, 수습생 친구!	
 GLUE_PROGRESSION_APPRENTICE_JOURNAL_POPUP_TITLE	일지란	
+GLUE_PROGRESSION_APPRENTICE_JOURNAL_RETURN_BODY1	자리를 비우신 동안 업데이트가 있었습니다. 더 쉽고 빠르고 보람 있는 초기 진행을 위해, 수습생 등급 대신 수습생의 길과 선술집 길잡이가 새로 추가되었습니다.	
+GLUE_PROGRESSION_APPRENTICE_JOURNAL_RETURN_BODY1_TITLE	난로 곁으로 잘 돌아오셨습니다!	
+GLUE_PROGRESSION_APPRENTICE_JOURNAL_RETURN_BODY2	이미 수습생 과정을 밟고 계셨으므로, 모든 직업이 잠금 해제된 상태로 수습생의 길 15레벨부터 시작하시게 됩니다!	
+GLUE_PROGRESSION_APPRENTICE_JOURNAL_RETURN_BODY3	수습생의 길과 선술집 길잡이를 마치는 대로 보상의 길, 퀘스트와 업적이 돌아올 것입니다. 진행 상태도 그대로 유지됩니다.\n\n<b>기다리고 싶지 않다면 언제든지 게임 메뉴에서 수습생의 길을 건너뛸 수 있습니다.</b> 	
+GLUE_PROGRESSION_APPRENTICE_JOURNAL_RETURN_BODY3_BUTTON	알겠어요	
+GLUE_PROGRESSION_APPRENTICE_JOURNAL_RETURN_HEADER	진척도 업데이트	
 GLUE_PROGRESSION_APPRENTICE_LOANER_TITLE	대여 덱 잠금 해제	
 GLUE_PROGRESSION_APPRENTICE_MODE_TITLE	{0} 해제	0=mode name
 GLUE_PROGRESSION_APPRENTICE_REWARD_SCROLL_MODE	모드 잠금 해제!	
@@ -2325,6 +2331,10 @@ GLUE_SET_ROTATION_EVEN_YEAR	히드라의 해
 GLUE_SET_ROTATION_ODD_YEAR	늑대의 해	
 GLUE_SHOP_ARCANE_ORBS	비전 보주	
 GLUE_SHOP_BOOSTER_SKU_BUTTON	카드 팩 {0}개	
+GLUE_SHOP_BUY_ANOTHER	하나 더 구매할까요?	
+GLUE_SHOP_CARD_ALREADY_OWNED_COPIES	장	
+GLUE_SHOP_CARD_ALREADY_OWNED_COPY	장	
+GLUE_SHOP_CARD_ALREADY_OWNED_WARNING	{2} {3}|1(을,를) 이미 {0}{1} 소유하고 있습니다. 정말 구매하시겠습니까?	{0}=quantity, {1}=copy/copies, {2}=premium, {3}=card name
 GLUE_SHOP_CARD_INCLUDED_FREE	다른 방법으로 얻을 수 있으며, 마력을 추출하거나 제작할 수 없습니다.	
 GLUE_SHOP_CARD_INCLUDED_TITLE	제작 불가	
 GLUE_SHOP_CLOSED_ALERT_HEADER	상점 닫힘	
@@ -2336,6 +2346,7 @@ GLUE_SHOP_GET_MORE_RUNESTONES_HEADER	룬석이 부족합니다!
 GLUE_SHOP_GOLD_PURCHASE_WARNING	정말 {0}|1(을,를) 구매하시겠습니까? 구매 후 즉시 서비스의 이용이 개시되므로 청약철회가 제한됩니다.	
 GLUE_SHOP_GOLD_PURCHASE_WARNING_HEADER	확인	
 GLUE_SHOP_LANDING_ADVENTURE_BANNER	모험	
+GLUE_SHOP_MULTIPLE_DUPLICATES_IN_BUNDLE_WARNING	 이 묶음 상품에 포함된 아이템 중 여러 개를 이미 소유하고 있습니다. 정말 구매하시겠습니까?	
 GLUE_SHOP_NOT_ENOUGH_RUNESTONES	Not enough Runestones	
 GLUE_SHOP_PATH_OF_ARTHAS_BLOOD	혈기의 힘으로 버텨내세요!	
 GLUE_SHOP_PATH_OF_ARTHAS_FROST	작렬하는 냉기로 공격하세요!	
@@ -2604,8 +2615,10 @@ GLUE_STORE_PAYMENT_INFO_DETAILS	중요: 실제 화폐로 결제 도중 오류가
 GLUE_STORE_PAYMENT_INFO_HEADLINE	상품 정보	
 GLUE_STORE_PAYMENT_INFO_URL_DETAILS	{0} 단추를 누르면 희귀도별 카드와 외형 획득 확률, 카드 팩 규칙과 구매 정보를 확인할 수 있습니다.	
 GLUE_STORE_PRE_PURCHASE_HAS_ENDED	이 상품은 이제 사전 구매할 수 없습니다.	
+GLUE_STORE_PREMIUM_VARIATION_NAME_DIAMOND	다이아몬드	
 GLUE_STORE_PREMIUM_VARIATION_NAME_GOLDEN	황금	
 GLUE_STORE_PREMIUM_VARIATION_NAME_NORMAL	일반	
+GLUE_STORE_PREMIUM_VARIATION_NAME_SIGNATURE	간판	
 GLUE_STORE_PREORDER	사전 구매!	
 GLUE_STORE_PREORDER_APRIL	4월*에\n출시됩니다!	
 GLUE_STORE_PREORDER_DUST_APRIL	4월*에 팩이 출시됩니다!	
@@ -3047,6 +3060,8 @@ GLUE_TIP_BACON_24	2, 4, 6단계로 강화하면, 이번 게임 동안 선술집�
 GLUE_TIP_BACON_25	하수인은 왼쪽에서 오른쪽 순서로 턴 종료 효과를 발동합니다.	
 GLUE_TIP_BACON_26	선술집 주문은 구매하면 효과를 발동할 수 있는 일회용 카드입니다.	
 GLUE_TIP_BACON_27	선술집 주문은 하수인과 달리 팔거나 황금 카드로 만들 수 없습니다.	
+GLUE_TIP_BACON_28	4번째 턴에 퀘스트를 선택해 완료하고 게임의 판도를 뒤집을 수 있는 보상을 받으세요!	
+GLUE_TIP_BACON_29	퀘스트 난이도는 선택한 보상이나 플레이하는 영웅에 따라 달라질 수 있습니다.	
 GLUE_TIP_BACON_3	전투에서 승리하면 당신의 영웅과 하수인들의 단계만큼 피해를 줍니다.	
 GLUE_TIP_BACON_4	선술집을 강화하는 데 필요한 비용은 매턴마다 (1)씩 감소합니다.	
 GLUE_TIP_BACON_5	6단계 하수인은 일곱 장씩만 등장합니다.\n한 명이 구매하면, 다른 이들은 구매하기가 더욱 힘들어지죠!	
@@ -3187,7 +3202,11 @@ GLUE_TOOLTIP_BOOSTER_CURRENCY_HEADER	비전 보주
 GLUE_TOOLTIP_BUTTON_ADVENTURE_DESC	멋진 모험을 떠나거나 인공지능을 상대로 실력을 연마하세요.	
 GLUE_TOOLTIP_BUTTON_ADVENTURE_HEADLINE	1인 모험	
 GLUE_TOOLTIP_BUTTON_BACON_DESC	일곱 명의 상대와 겨루게 됩니다! 최후의 승자는 누가 될까요?	
+GLUE_TOOLTIP_BUTTON_BACON_DESC_DOWNLOAD_MANAGER	게임 메뉴의 다운로드 옵션에서 다운로드 내역을 관리할 수 있습니다.	
+GLUE_TOOLTIP_BUTTON_BACON_DESC_DOWNLOAD_REQUIRED	이용하려면 다운로드가 필요합니다. {0}가 필요합니다.	{0}=Size of the module to download (E.g. 215 MB)
+GLUE_TOOLTIP_BUTTON_BACON_DESC_DOWNLOADING	전장을 다운로드하는 중입니다.	
 GLUE_TOOLTIP_BUTTON_BACON_DESC_EARLY_ACCESS	전장은 현재 사전 체험으로만 플레이할 수 있습니다.\n상점에서 용의 강림을 예약 구매하면 사전 체험 권한을 얻을 수 있습니다.	
+GLUE_TOOLTIP_BUTTON_BACON_DESC_LOCKED	잠금 해제하려면 수습생의 길을 완료하세요!	
 GLUE_TOOLTIP_BUTTON_BACON_HEADLINE	전장	
 GLUE_TOOLTIP_BUTTON_COLLECTION_DESC	카드를 살펴보거나 덱을 만들 수 있습니다.	
 GLUE_TOOLTIP_BUTTON_COLLECTION_HEADLINE	수집품	
@@ -3198,7 +3217,7 @@ GLUE_TOOLTIP_BUTTON_FORGE_HEADLINE	투기장
 GLUE_TOOLTIP_BUTTON_FORGE_NOT_UNLOCKED	모든 직업으로 10 레벨을 달성하면 잠금 해제됩니다.	
 GLUE_TOOLTIP_BUTTON_GAME_MODES_DESC	다양한 방법으로 플레이해보세요.	
 GLUE_TOOLTIP_BUTTON_GAME_MODES_HEADLINE	게임 모드	
-GLUE_TOOLTIP_BUTTON_GAME_MODES_LOCKED_DESC	기본 하스스톤 튜토리얼을 완료해 다른 모드를 잠금 해제하세요.	
+GLUE_TOOLTIP_BUTTON_GAME_MODES_LOCKED_DESC	모든 모드를 사용하려면 수습생의 길을 완료하세요!	
 GLUE_TOOLTIP_BUTTON_JOURNAL_DESC	퀘스트, 업적, 보상!	
 GLUE_TOOLTIP_BUTTON_JOURNAL_HEADLINE	일지	
 GLUE_TOOLTIP_BUTTON_MERCENARIES_DESC	용병단을 꾸리고 레벨을 올려 전리품과 영광을 손에 넣으세요!	
@@ -3211,7 +3230,7 @@ GLUE_TOOLTIP_BUTTON_STORE_DESC	골드 또는 룬석 또는 배틀코인으로 �
 GLUE_TOOLTIP_BUTTON_STORE_HEADLINE	상점	
 GLUE_TOOLTIP_BUTTON_TAVERN_BRAWL_DESC	매주마다 새로운 규칙으로 게임을 합니다.	
 GLUE_TOOLTIP_BUTTON_TAVERN_BRAWL_HEADLINE	선술집 난투	
-GLUE_TOOLTIP_BUTTON_TAVERN_BRAWL_NOT_UNLOCKED	각 직업을 이기고 해제하여 선술집 난투와 다른 모드를 플레이하세요!	
+GLUE_TOOLTIP_BUTTON_TAVERN_BRAWL_NOT_UNLOCKED	수습생의 길에서 계속 레벨을 올려 잠금 해제해 보세요!	
 GLUE_TOOLTIP_BUTTON_TRADITIONAL_DESC	전통적인 하스스톤을 경험할 수 있습니다.	
 GLUE_TOOLTIP_BUTTON_TRADITIONAL_HEADLINE	하스스톤	
 GLUE_TOOLTIP_DESCRIPTION_ALL_STANDARD_CARDS	최신 카드들이 포함되어 있습니다. 정규와 야생전에서 사용할 수 있습니다.	

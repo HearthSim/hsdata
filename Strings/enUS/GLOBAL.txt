@@ -178,6 +178,15 @@ GLOBAL_CARD_SET_WON_SEARCHABLE_SHORTHAND_NAMES	caverns cot This is a space-separ
 GLOBAL_CARD_SET_WST	Showdown in the Badlands
 GLOBAL_CARD_SET_WST_SHORT	Badlands
 GLOBAL_CARD_SET_WST_SEARCHABLE_SHORTHAND_NAMES	badlands This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_TOY	Whizbang's Workshop
+GLOBAL_CARD_SET_TOY_SHORT	Whizbang's Workshop
+GLOBAL_CARD_SET_TOY_SEARCHABLE_SHORTHAND_NAMES	toy	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_TUT	Tutorial
+GLOBAL_CARD_SET_TUT_SHORT	Tutorial
+GLOBAL_CARD_SET_TUT_SEARCHABLE_SHORTHAND_NAMES	tut	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_EVE	Event
+GLOBAL_CARD_SET_EVE_SHORT	Event
+GLOBAL_CARD_SET_EVE_SEARCHABLE_SHORTHAND_NAMES	eve	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_MINI_SET_DMF	Darkmoon Races
 GLOBAL_MINI_SET_BAR	Wailing Caverns
 GLOBAL_MINI_SET_SW	Deadmines
@@ -443,7 +452,7 @@ GLOBAL_KEYWORD_BLOOD_GEM	Blood Gem
 GLOBAL_KEYWORD_BLOOD_GEM_TEXT	A spell that gives a minion {0}.
 GLOBAL_KEYWORD_BLOOD_GEM_TEXT_ADDITIONAL	\nYours give {0}.
 GLOBAL_KEYWORD_REFRESH	Refresh
-GLOBAL_KEYWORD_REFRESH_TEXT	Replace Bob's Tavern with new minions.
+GLOBAL_KEYWORD_REFRESH_TEXT	Replace the Tavern with new cards.
 GLOBAL_KEYWORD_AVENGE	Avenge (X)
 GLOBAL_KEYWORD_AVENGE_TEXT	Does something after X friendly minions die in combat.
 GLOBAL_KEYWORD_SPELLCRAFT	Spellcraft
@@ -1291,7 +1300,7 @@ GLOBAL_LANGUAGE_NATIVE_RURU	Русский	The name of the language IN THAT LANG
 GLOBAL_LANGUAGE_NATIVE_ZHCN	中文（简体）	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_ZHTW	繁體中文(台灣)	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_JAJP	日本語	The name of the language IN THAT LANGUAGE.
-GLOBAL_LANGUAGE_NATIVE_THTH	ภาษาไทย	The name of the laugnage IN THAT LANGUAGE.
+GLOBAL_LANGUAGE_NATIVE_THTH	ภาษาไทย	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_DROPDOWN	Language
 GLOBAL_LANGUAGE_DOWNLOAD_VOICE_PACK	(DEV) Downloaded Voice Pack
 GLOBAL_REGION_AMERICAS	Americas & Southeast Asia
@@ -1413,6 +1422,8 @@ GLOBAL_TWIST_SEASON_TITLE_121	Return to Un'Goro
 GLOBAL_TWIST_SEASON_DESCRIPTION_121	Travel back to the ancient past when dinosaurs roamed! Un'Goro is back with some new updates and has joined the other sets in the Wonders format.
 GLOBAL_TWIST_SEASON_TITLE_124	Commons
 GLOBAL_TWIST_SEASON_DESCRIPTION_124	No legendaries? No problem! Assemble the best deck you can using only commons from all expansions through Year of the Dragon and Core.
+GLOBAL_TWIST_SEASON_TITLE_125	Fast Forward
+GLOBAL_TWIST_SEASON_DESCRIPTION_125	Replay ten years of Hearthstone! Starting with Legacy, we'll add one new set every day, all the way through Showdown in the Badlands.
 GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_START_WITH_MANY_WINS	<color=#{0}>{1}</color> has just started a Brawliseum match with {2} wins already!	0=name color,1=player name,2=Brawl Wins
 GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_COMPLETE	<color=#{0}>{1}</color> just finished a Brawliseum run. ({2}-{3})	0=name color,1=player name,2=Brawl Wins,3=Brawl Losses
 GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_START	<color=#{0}>{1}</color> started a new Brawliseum run.	0=name color,1=player name
@@ -1428,6 +1439,7 @@ GLOBAL_SPELL_SCHOOL_SHADOW	Shadow
 GLOBAL_SPELL_SCHOOL_FEL	Fel
 GLOBAL_SPELL_SCHOOL_PHYSICAL_COMBAT	Attack
 GLOBAL_SPELL_SCHOOL_TAVERN	Tavern
+GLOBAL_SPELL_SCHOOL_SPELLCRAFT	Spellcraft
 GLOBAL_PLAYER_MIGRATION_RESTART_HEADER	Account needs to be updated
 GLOBAL_PLAYER_MIGRATION_RESTART_BODY	Your account needs to be updated.\nPlease restart the game.
 GLOBAL_PROGRESSION_PROFILE_PLAY_MODE	Traditional Hearthstone
@@ -1592,8 +1604,8 @@ GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_UNINSTALLING	Uninstalling...
 GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_REMAINING	Remaining: {0}	0=Time remaining. (e.g. 21:30)
 GLOBAL_DOWNLOAD_MANAGER_FREE_SPACE	Available Space: {0}	{0}=Free spaces available on the device (e.g. 8.23 GB)
 GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_QUEUED	Queued
-GLOBAL_DOWNLOAD_MANAGER_PAUSE_DOWNLOADS	Pause Downloads
-GLOBAL_DOWNLOAD_MANAGER_RESUME_DOWNLOADS	Resume Downloads
+GLOBAL_DOWNLOAD_MANAGER_PAUSE_DOWNLOADS	Pause All
+GLOBAL_DOWNLOAD_MANAGER_RESUME_DOWNLOADS	Resume All
 GLOBAL_DOWNLOAD_MANAGER_OPTION_CELLULAR_DATA_LABEL	Cellular Data
 GLOBAL_DOWNLOAD_MANAGER_OPTION_CELLULAR_DATA_DESC	Allow Hearthstone to use cellular data.
 GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_MODULE_POPUP_BODY_FORMAT	{0}\n\n{1}\n{2}	{0}=Prompt string, {1}=Module size, {2}=Device size available
@@ -1609,13 +1621,14 @@ GLOBAL_DOWNLOAD_MODULE_POPUP_PROMPT	Download {0}?	{0}=Module name to download (e
 GLOBAL_DOWNLOAD_MANAGER_DISMISS_BUTTON	Done
 GLOBAL_DOWNLOAD_MANAGER_OPTIONAL_ASSETS	High Quality Mode	Name for optional assets to be displayed on Download Manager
 GLOBAL_DOWNLOAD_MANAGER_OPTIONAL_ASSETS_DESCRIPTION	Enable/disable high quality visuals and sounds	Description for optional assets to be displayed on Download Manager
-GLOBAL_DOWNLOAD_MANAGER_ENABLE_OPTIONAL_ASSETS_DOWNLOAD	Enable High Quality Mode	Description for optional assets to be displayed on Download Manager
+GLOBAL_DOWNLOAD_MANAGER_ENABLE_OPTIONAL_ASSETS_DOWNLOAD	Enable	Description for optional assets to be displayed on Download Manager
 GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_LOADING_POPUP_LOADING_MESSAGE	Uninstalling
 GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_LOADING_POPUP_COMPLETE_MESSAGE	Uninstall complete
 GLOBAL_DOWNLOAD_MANAGER_CANCEL_LOADING_POPUP_LOADING_MESSAGE	Cancelling
 GLOBAL_DOWNLOAD_MANAGER_CANCEL_LOADING_POPUP_CANCEL_MESSAGE	Download canceled
 GLOBAL_MODULE_MERC	Mercenaries	Module name for merc
 GLOBAL_MODULE_ADVENTURE	Solo Adventures	Module name for adventure
+GLOBAL_MODULE_BGS	Battlegrounds	Module name for battlegrounds
 GLOBAL_RECONNECT_FAIL_MODE_NOT_AVAILABLE	Unable to reconnect to game, mode {0} is not downloaded	{0}=Name of the mode, (e.g. Battlegrounds, Mercenaries, Solo Adventures)
 GLOBAL_GAME_MENU_BUTTON_DOWNLOAD_MANAGER	Downloads	Button label for Download manager on the Game Menu
 GLOBAL_GAME_MENU_BUTTON_DOWNLOAD_MANAGER_LOCKED_TOOLTIP_TITLE	Downloads

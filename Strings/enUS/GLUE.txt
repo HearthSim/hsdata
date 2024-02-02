@@ -452,6 +452,8 @@ GLUE_STORE_MINI_SET_CARD_COUNT	{0} Cards
 GLUE_STORE_MINI_SET_LABEL	Mini-Set
 GLUE_STORE_PREMIUM_VARIATION_NAME_NORMAL	Normal
 GLUE_STORE_PREMIUM_VARIATION_NAME_GOLDEN	Golden
+GLUE_STORE_PREMIUM_VARIATION_NAME_DIAMOND	Diamond
+GLUE_STORE_PREMIUM_VARIATION_NAME_SIGNATURE	Signature
 GLUE_SHOP_DESCRIPTION_HEADER	{0} Includes:
 GLUE_SHOP_BOOSTER_SKU_BUTTON	{0} |4(Pack,Packs)
 GLUE_SHOP_RUNESTONE_SKU_BUTTON	{0} |4(Runestone,Runestones)
@@ -515,7 +517,7 @@ GLUE_TOOLTIP_BUTTON_FORGE_HEADLINE	The Arena
 GLUE_TOOLTIP_BUTTON_FORGE_NOT_UNLOCKED	Locked until you reach level 10 with every class.
 GLUE_TOOLTIP_BUTTON_TAVERN_BRAWL_HEADLINE	Tavern Brawl
 GLUE_TOOLTIP_BUTTON_TAVERN_BRAWL_DESC	Play a new challenge on a weekly basis.
-GLUE_TOOLTIP_BUTTON_TAVERN_BRAWL_NOT_UNLOCKED	Defeat and unlock each class to access Tavern Brawl and other modes!
+GLUE_TOOLTIP_BUTTON_TAVERN_BRAWL_NOT_UNLOCKED	Continue leveling up the Apprentice Track to unlock!
 GLUE_TOOLTIP_BUTTON_PACKOPEN_HEADLINE	Open Packs
 GLUE_PACKOPEN_SHOPBANNER	More Packs in the Shop!
 GLUE_TOOLTIP_BUTTON_PACKOPEN_DESC	Open your Packs to add cards to your collection!
@@ -530,10 +532,14 @@ GLUE_TOOLTIP_BUTTON_JOURNAL_HEADLINE	Journal
 GLUE_TOOLTIP_BUTTON_JOURNAL_DESC	Quests, Achievements, Rewards, and more!
 GLUE_TOOLTIP_BUTTON_GAME_MODES_HEADLINE	Game Modes
 GLUE_TOOLTIP_BUTTON_GAME_MODES_DESC	Try out different ways to play.
-GLUE_TOOLTIP_BUTTON_GAME_MODES_LOCKED_DESC	Complete the Traditional Hearthstone tutorial to access additional modes.
+GLUE_TOOLTIP_BUTTON_GAME_MODES_LOCKED_DESC	Complete the Apprentice Track to access all modes!
 GLUE_TOOLTIP_BUTTON_BACON_HEADLINE	Battlegrounds
 GLUE_TOOLTIP_BUTTON_BACON_DESC_EARLY_ACCESS	Battlegrounds is currently in Early Access.\nYou can gain access by purchasing any of the Descent of Dragons pre-purchases in the shop.
 GLUE_TOOLTIP_BUTTON_BACON_DESC	Battle 7 opponents! Who will take the crown?
+GLUE_TOOLTIP_BUTTON_BACON_DESC_LOCKED	Complete the Apprentice Track to unlock!
+GLUE_TOOLTIP_BUTTON_BACON_DESC_DOWNLOAD_REQUIRED	Download required to gain access. Requires {0}.	{0}=Size of the module to download (E.g. 215 MB)
+GLUE_TOOLTIP_BUTTON_BACON_DESC_DOWNLOAD_MANAGER	You can manage downloads via the Downloads option in the Game Menu
+GLUE_TOOLTIP_BUTTON_BACON_DESC_DOWNLOADING	Downloading battlegrounds.
 GLUE_TOOLTIP_BUTTON_MERCENARIES_HEADLINE	Mercenaries
 GLUE_TOOLTIP_BUTTON_MERCENARIES_DESC	Build and level up a party of Mercenaries as you battle for bounties and glory!
 GLUE_TUTORIAL_VIDEO_BANNER_TRADITIONAL	Collect cards, build decks, and fight to become legendary in this head-to-head game mode!
@@ -905,6 +911,8 @@ GLUE_TIP_BACON_24	When you upgrade to Tier 2, 4, or 6, an extra minion is added 
 GLUE_TIP_BACON_25	Minions trigger their end of turn effects in order from left to right.
 GLUE_TIP_BACON_26	Tavern spells are cards that can be bought to trigger a one-time effect.
 GLUE_TIP_BACON_27	Unlike minions, Tavern spells cannot be sold or tripled.
+GLUE_TIP_BACON_28	Choose a Quest on Turn 4 and complete it for a game-changing Reward!
+GLUE_TIP_BACON_29	A Quest's difficulty may vary depending on your chosen Reward or the hero you're playing as.
 GLUE_TIP_LETTUCE_0	Using <b>Critical Damage</b> is the key to victory!
 GLUE_TIP_LETTUCE_1	Your Mercs will always act before enemies of the same Speed during Bounty encounters.
 GLUE_TIP_LETTUCE_2	Ability cooldowns decrease even while on the Bench.
@@ -1787,10 +1795,10 @@ GLUE_RETURNINGPLAYER_QUESTTITLE	Return of the Hero
 GLUE_RETURNINGPLAYER_RETIRE_BUTTON_TEXT	Retire
 GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_TITLE	Are you sure?
 GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_DESCRIPTION	If you skip to Rank 25, not only will you face tougher opponents,\nyou'll miss out on the rewards along the way!
-GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_DESCRIPTION_NEW	You'll miss out on the remaining Apprentice rewards and face tougher opponents, but unlock all the classes, modes and a Loaner Deck right away!
+GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_DESCRIPTION_NEW	You'll miss out on the remaining Apprentice rewards and face tougher opponents, but unlock all the classes, modes and Loaner Decks right away! This cannot be undone.
 GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_CONFIRM	Skip
 GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_CANCEL	Cancel
-GLUE_LEAGUE_PROMOTE_SELF_UNCLAIMED_REWARDS_ERROR_TITLE	You have unclaimed rewards!
+GLUE_LEAGUE_PROMOTE_SELF_UNCLAIMED_REWARDS_ERROR_TITLE	Unclaimed rewards!
 GLUE_LEAGUE_PROMOTE_SELF_UNCLAIMED_REWARDS_ERROR_DESCRIPTION	You must claim all unlocked rewards before you skip Apprentice.
 GLUE_DRAFT_REMOVE_PREMIUMS_DIALOG_TITLE	Turn Off Premiums
 GLUE_DRAFT_REMOVE_PREMIUMS_DIALOG_BODY	Turn off Premium cards for this Arena Run?
@@ -2636,6 +2644,12 @@ GLUE_PROGRESSION_APPRENTICE_LOANER_TITLE	Unlock Loaner Decks
 GLUE_PROGRESSION_APPRENTICE_JOURNAL_POPUP_TITLE	About the Journal
 GLUE_PROGRESSION_APPRENTICE_JOURNAL_POPUP_SUBTITLE	Welcome Apprentice!
 GLUE_PROGRESSION_APPRENTICE_JOURNAL_POPUP_DESC	This is your journal. Keep track of your progress, and earn XP to collect rewards!
+GLUE_PROGRESSION_APPRENTICE_JOURNAL_RETURN_HEADER	Progression Update
+GLUE_PROGRESSION_APPRENTICE_JOURNAL_RETURN_BODY1_TITLE	Welcome back to the hearth!
+GLUE_PROGRESSION_APPRENTICE_JOURNAL_RETURN_BODY1	We made a few updates while you were gone. Apprentice ranks are now replaced with a new Apprentice Track and Tavern Guide, to make early progression simpler, faster, and more rewarding!
+GLUE_PROGRESSION_APPRENTICE_JOURNAL_RETURN_BODY2	Because you were already working on your Apprentice progression, we’re starting you off at Level 15 on the Apprentice Track, with all the classes unlocked!
+GLUE_PROGRESSION_APPRENTICE_JOURNAL_RETURN_BODY3	Your Reward Track, Quests, and Achievements will return once you complete the Apprentice Track and Tavern Guide. You won’t lose any progress.\n\n<b>If you don’t want to wait, you can skip  Apprentice at any time from the Game Menu.</b> 
+GLUE_PROGRESSION_APPRENTICE_JOURNAL_RETURN_BODY3_BUTTON	Sounds good
 GLUE_PROGRESSION_APPRENTICE_DECK_POPUP_SUBTITLE	There are lots of ways to play! Different decks have different play styles.
 GLUE_PROGRESSION_APPRENTICE_DECK_POPUP_CONTROL	Control
 GLUE_PROGRESSION_APPRENTICE_DECK_POPUP_CONTROL_DESC	Control the early game; play powerful minions and spells later.
@@ -3176,6 +3190,11 @@ GLUE_SHOP_GOLD_PURCHASE_WARNING_HEADER	Confirm
 GLUE_SHOP_GOLD_PURCHASE_WARNING	Are you sure you want to buy {0}? You can't undo it once you confirm.
 GLUE_SHOP_RUNESTONES_PURCHASE_WARNING_HEADER	Confirm
 GLUE_SHOP_RUNESTONES_PURCHASE_WARNING	Are you sure you want to buy {0}? You can't undo it once you confirm.
+GLUE_SHOP_CARD_ALREADY_OWNED_WARNING	You already own {0} {1} of {2} {3}. Are you sure you want to buy?	{0}=quantity, {1}=copy/copies, {2}=premium, {3}=card name
+GLUE_SHOP_MULTIPLE_DUPLICATES_IN_BUNDLE_WARNING	 You already own multiple items in this bundle. Are you sure you want to buy?
+GLUE_SHOP_CARD_ALREADY_OWNED_COPY	copy
+GLUE_SHOP_CARD_ALREADY_OWNED_COPIES	copies
+GLUE_SHOP_BUY_ANOTHER	Buy Another?
 GLUE_TOOLTIP_RENOWN_HEADER	Renown
 GLUE_TOOLTIP_RENOWN_DESCRIPTION	Earn Renown by converting excess Mercenary coins.
 GLUE_TOOLTIP_RENOWN_TREASURE_HEADER	Renown Treasures
@@ -3358,7 +3377,7 @@ GLUE_STORE_UNAVAILABLE_REASON_MISSING_ASSETS	Download {0} mode to unlock this sh
 GLUE_STORE_UNAVAILABLE_REASON_UNKNOWN	No Items Right Now \nCome Back Later
 GLUE_GAME_MODE_LOCKED_DOWNLOAD_REQUIRED	{0} Locked, Download Required
 GLUE_GAME_MODE_LOCKED_APPRENTICE_COMPLETION_REQUIRED	Complete the Apprentice Track to unlock {0}!
-GLUE_GAME_MODE_MODULE_DOWNLOADED	{0} Downloaded
+GLUE_GAME_MODE_MODULE_DOWNLOADED	Download Finished <color=#E2C4A9>{0}</color>	{0}=Name of gamemode that has just complete downloading
 GLUE_GAME_MODE_DOWNLOAD_BUTTON_NAME	Download
 GLUE_GAME_MODE_DOWNLOAD_QUEUED	Queued
 GLUE_GAME_MODE_DOWNLOAD_DOWNLOADING	{0} / {1}	{0}=Downloaded size (e.g. 23 MB) {1}=Total size to download (e.g. 128 MB)

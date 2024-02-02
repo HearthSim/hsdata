@@ -1109,7 +1109,7 @@ GLUE_GAME_MODE_DOWNLOAD_QUEUED	En attente
 GLUE_GAME_MODE_LOCKED_APPRENTICE_COMPLETION_REQUIRED	Terminez l’apprentissage afin de débloquer le mode {0} !	
 GLUE_GAME_MODE_LOCKED_DOWNLOAD_REQUIRED	Mode {0} verrouillé, téléchargement requis	
 GLUE_GAME_MODE_LOCKED_HEADER	Débloquez le mode {0} en terminant votre apprentissage.	
-GLUE_GAME_MODE_MODULE_DOWNLOADED	Mode {0} téléchargé	
+GLUE_GAME_MODE_MODULE_DOWNLOADED	Mode <color=#E2C4A9>{0}</color> téléchargé	{0}=Name of gamemode that has just complete downloading
 GLUE_GAME_MODE_NEW_MODE_POPUP_HEADER	Nouveau mode !	
 GLUE_GAME_MODE_NEW_MODE_UNLOCKED_POPUP_HEADER	Nouveau mode débloqué :	
 GLUE_GAME_MODE_OUT_OF_SPACE_MESSAGE	Vous avez besoin de {0} d’espace libre sur votre appareil pour continuer.	{0}=Size of the module to download (E.g. 215 MB)
@@ -1273,10 +1273,10 @@ GLUE_KARA_PROLOGUE_LOADING	En attente d’un corbeau messager…
 GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_CANCEL	Annuler	
 GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_CONFIRM	Passer	
 GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_DESCRIPTION	Si vous passez directement au rang 25, non seulement vous affronterez des adversaires plus difficiles,\nmais vous manquerez les récompenses de progression !	
-GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_DESCRIPTION_NEW	Vous ne recevrez pas les autres récompenses d’apprentissage et devrez affronter des adversaires plus coriaces, mais vous débloquerez immédiatement toutes les classes, tous les modes et un deck d’emprunt !	
+GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_DESCRIPTION_NEW	Vous ne recevrez pas les autres récompenses d’apprentissage et devrez affronter des adversaires plus coriaces, mais vous débloquerez immédiatement toutes les classes, tous les modes et des decks d’emprunt ! Cette décision est irréversible.	
 GLUE_LEAGUE_PROMOTE_SELF_CONFIRMATION_TITLE	Voulez-vous continuer ?	
 GLUE_LEAGUE_PROMOTE_SELF_UNCLAIMED_REWARDS_ERROR_DESCRIPTION	Vous devez récupérer toutes les récompenses que vous avez débloquées avant de pouvoir passer l’apprentissage.	
-GLUE_LEAGUE_PROMOTE_SELF_UNCLAIMED_REWARDS_ERROR_TITLE	Vous avez des récompenses en attente !	
+GLUE_LEAGUE_PROMOTE_SELF_UNCLAIMED_REWARDS_ERROR_TITLE	Récompenses en attente !	
 GLUE_LEGENDARY_QUEST_REROLL_BODY	Abandonner cette quête au profit d’une quête normale ? Si elle faisait partie d’une suite de quêtes, vous renoncez à l’ensemble de la suite.	
 GLUE_LEGENDARY_QUEST_REROLL_TITLE	Nouvelle quête ?	
 GLUE_LET_LOADING_BAR_TASK_1	Travailler l’aiguillon perfide	
@@ -1967,6 +1967,12 @@ GLUE_PROGRESSION_APPRENTICE_DECK_POPUP_SUBTITLE	Il existe de nombreuses façons 
 GLUE_PROGRESSION_APPRENTICE_JOURNAL_POPUP_DESC	C’est votre journal. Vous pouvez y suivre votre progression et gagner de l’EXP afin d’obtenir des récompenses !	
 GLUE_PROGRESSION_APPRENTICE_JOURNAL_POPUP_SUBTITLE	Bienvenue à vous !	
 GLUE_PROGRESSION_APPRENTICE_JOURNAL_POPUP_TITLE	À propos du journal	
+GLUE_PROGRESSION_APPRENTICE_JOURNAL_RETURN_BODY1	Nous avons introduit quelques nouveautés pendant votre absence. Un nouveau système d’apprentissage et un guide de l’auberge remplacent désormais les rangs d’apprentis, afin de simplifier la progression et de la rendre plus rapide et plus gratifiante !	
+GLUE_PROGRESSION_APPRENTICE_JOURNAL_RETURN_BODY1_TITLE	Bienvenue au cœur du foyer !	
+GLUE_PROGRESSION_APPRENTICE_JOURNAL_RETURN_BODY2	Puisque vous aviez déjà débuté votre apprentissage, vous commencerez au niveau 15, avec toutes les classes débloquées !	
+GLUE_PROGRESSION_APPRENTICE_JOURNAL_RETURN_BODY3	Votre parcours de récompenses, vos quêtes et vos hauts faits seront disponibles une fois que vous aurez terminé l’apprentissage et le guide de l’auberge. Vous ne perdrez aucune progression.\n\n<b>Vous pouvez à tout moment passer l’étape d’apprentissage à partir du menu du jeu si vous ne souhaitez pas attendre.</b> 	
+GLUE_PROGRESSION_APPRENTICE_JOURNAL_RETURN_BODY3_BUTTON	Très bien	
+GLUE_PROGRESSION_APPRENTICE_JOURNAL_RETURN_HEADER	Mise à jour de la progression	
 GLUE_PROGRESSION_APPRENTICE_LOANER_TITLE	Débloquer les decks d’emprunt	
 GLUE_PROGRESSION_APPRENTICE_MODE_TITLE	Débloquer le mode {0}	0=mode name
 GLUE_PROGRESSION_APPRENTICE_REWARD_SCROLL_MODE	Mode débloqué !	
@@ -2325,6 +2331,10 @@ GLUE_SET_ROTATION_EVEN_YEAR	Année de l’Hydre
 GLUE_SET_ROTATION_ODD_YEAR	Année du Loup	
 GLUE_SHOP_ARCANE_ORBS	Orbes arcaniques	
 GLUE_SHOP_BOOSTER_SKU_BUTTON	{0} |4(paquet,paquets)	
+GLUE_SHOP_BUY_ANOTHER	Effectuer un autre achat ?	
+GLUE_SHOP_CARD_ALREADY_OWNED_COPIES	copies	
+GLUE_SHOP_CARD_ALREADY_OWNED_COPY	copie	
+GLUE_SHOP_CARD_ALREADY_OWNED_WARNING	Vous possédez déjà {0} {1} de {3} ({2}). Voulez-vous vraiment effectuer cet achat ?	{0}=quantity, {1}=copy/copies, {2}=premium, {3}=card name
 GLUE_SHOP_CARD_INCLUDED_FREE	Carte obtenue par d’autres moyens. Impossible à désenchanter ou à créer.	
 GLUE_SHOP_CARD_INCLUDED_TITLE	Impossible à créer	
 GLUE_SHOP_CLOSED_ALERT_HEADER	Boutique fermée	
@@ -2336,6 +2346,7 @@ GLUE_SHOP_GET_MORE_RUNESTONES_HEADER	Pas assez de pierres runiques !
 GLUE_SHOP_GOLD_PURCHASE_WARNING	Voulez-vous vraiment acheter ceci : {0} ? Vous ne pourrez pas revenir en arrière une fois que vous aurez confirmé votre achat.	
 GLUE_SHOP_GOLD_PURCHASE_WARNING_HEADER	Confirmer	
 GLUE_SHOP_LANDING_ADVENTURE_BANNER	AVENTURE	
+GLUE_SHOP_MULTIPLE_DUPLICATES_IN_BUNDLE_WARNING	 Vous possédez déjà plusieurs objets de ce pack. Voulez-vous vraiment effectuer cet achat ?	
 GLUE_SHOP_NOT_ENOUGH_RUNESTONES	Not enough Runestones	
 GLUE_SHOP_PATH_OF_ARTHAS_BLOOD	Renforcez-vous grâce à la puissance du sang.	
 GLUE_SHOP_PATH_OF_ARTHAS_FROST	Anéantissez vos adversaires avec la morsure du givre.	
@@ -2604,8 +2615,10 @@ GLUE_STORE_PAYMENT_INFO_DETAILS	IMPORTANT : tout remboursement ou incident de p
 GLUE_STORE_PAYMENT_INFO_HEADLINE	Informations sur le produit	
 GLUE_STORE_PAYMENT_INFO_URL_DETAILS	Appuyez sur « {0} » pour plus d’informations sur les taux d’obtention des cartes et des objets ornementaux par rareté, le fonctionnement des paquets de cartes et les modalités de paiement.	
 GLUE_STORE_PRE_PURCHASE_HAS_ENDED	La précommande de ce produit n’est plus possible.	
+GLUE_STORE_PREMIUM_VARIATION_NAME_DIAMOND	Diamant	
 GLUE_STORE_PREMIUM_VARIATION_NAME_GOLDEN	Doré	
 GLUE_STORE_PREMIUM_VARIATION_NAME_NORMAL	Normal	
+GLUE_STORE_PREMIUM_VARIATION_NAME_SIGNATURE	Signature	
 GLUE_STORE_PREORDER	PRÉCOMMANDE	
 GLUE_STORE_PREORDER_APRIL	Disponible en\navril* !	
 GLUE_STORE_PREORDER_DUST_APRIL	Paquets disponibles en\navril* !	
@@ -3047,6 +3060,8 @@ GLUE_TIP_BACON_24	Lorsque vous améliorez la taverne aux niveaux 2, 4 ou 6, y a
 GLUE_TIP_BACON_25	Les serviteurs déclenchent leurs effets de fin de tour dans l’ordre, de gauche à droite.	
 GLUE_TIP_BACON_26	Les sorts de la taverne sont des cartes qui peuvent être achetées et qui permettent de déclencher un effet unique.	
 GLUE_TIP_BACON_27	Contrairement aux serviteurs, les sorts de la taverne ne peuvent pas être vendus ou triplés.	
+GLUE_TIP_BACON_28	Choisissez une quête lors du 4e tour et terminez-la pour obtenir de quoi bouleverser la partie !	
+GLUE_TIP_BACON_29	La difficulté d’une quête dépend de la récompense choisie, ou du héros ou de l’héroïne que vous incarnez.	
 GLUE_TIP_BACON_3	Quand vous gagnez un combat, votre héros ou héroïne et vos serviteurs\ninfligent des dégâts équivalents à leur niveau.	
 GLUE_TIP_BACON_4	L’amélioration de votre taverne vous coûte (1) pièce de moins à chaque tour.	
 GLUE_TIP_BACON_5	Il n’existe que sept copies des serviteurs de niveau 6.\nUne fois achetées, elles ne sont plus disponibles pour personne !	
@@ -3187,7 +3202,11 @@ GLUE_TOOLTIP_BOOSTER_CURRENCY_HEADER	Orbes arcaniques
 GLUE_TOOLTIP_BUTTON_ADVENTURE_DESC	Lancez-vous dans d’épiques aventures ou entraînez-vous contre l’ordinateur.	
 GLUE_TOOLTIP_BUTTON_ADVENTURE_HEADLINE	Aventures	
 GLUE_TOOLTIP_BUTTON_BACON_DESC	Affrontez 7 adversaires ! Qui l’emportera ?	
+GLUE_TOOLTIP_BUTTON_BACON_DESC_DOWNLOAD_MANAGER	Vous pouvez gérer les téléchargements via l’option Téléchargements du menu de jeu.	
+GLUE_TOOLTIP_BUTTON_BACON_DESC_DOWNLOAD_REQUIRED	Un téléchargement est nécessaire pour y accéder. Requiert : {0}.	{0}=Size of the module to download (E.g. 215 MB)
+GLUE_TOOLTIP_BUTTON_BACON_DESC_DOWNLOADING	Téléchargement des champs de bataille.	
 GLUE_TOOLTIP_BUTTON_BACON_DESC_EARLY_ACCESS	Le mode Champs de bataille est actuellement disponible en accès anticipé.\nVous pouvez le débloquer en préachetant n’importe quel pack de L’Envol des Dragons dans la boutique.	
+GLUE_TOOLTIP_BUTTON_BACON_DESC_LOCKED	Terminez l’apprentissage afin de débloquer le mode !	
 GLUE_TOOLTIP_BUTTON_BACON_HEADLINE	Champs de bataille	
 GLUE_TOOLTIP_BUTTON_COLLECTION_DESC	Consultez vos cartes ou construisez un deck.	
 GLUE_TOOLTIP_BUTTON_COLLECTION_HEADLINE	Ma collection	
@@ -3198,7 +3217,7 @@ GLUE_TOOLTIP_BUTTON_FORGE_HEADLINE	Arène
 GLUE_TOOLTIP_BUTTON_FORGE_NOT_UNLOCKED	Non disponible tant que vous n’êtes pas niveau 10 avec toutes les classes.	
 GLUE_TOOLTIP_BUTTON_GAME_MODES_DESC	Essayez de nouvelles façons de jouer.	
 GLUE_TOOLTIP_BUTTON_GAME_MODES_HEADLINE	Modes de jeu	
-GLUE_TOOLTIP_BUTTON_GAME_MODES_LOCKED_DESC	Terminez le didacticiel du mode Traditionnel de Hearthstone pour avoir accès à d’autres modes de jeu.	
+GLUE_TOOLTIP_BUTTON_GAME_MODES_LOCKED_DESC	Terminez l’apprentissage afin de débloquer tous les modes de jeu !	
 GLUE_TOOLTIP_BUTTON_JOURNAL_DESC	Vos quêtes, vos hauts faits, vos récompenses, et bien plus encore !	
 GLUE_TOOLTIP_BUTTON_JOURNAL_HEADLINE	Journal	
 GLUE_TOOLTIP_BUTTON_MERCENARIES_DESC	Formez un groupe de mercenaires et faites-les monter en niveau en combattant pour la gloire et la richesse !	
@@ -3211,7 +3230,7 @@ GLUE_TOOLTIP_BUTTON_STORE_DESC	Achetez des objets avec de l’or, des pierres ru
 GLUE_TOOLTIP_BUTTON_STORE_HEADLINE	Boutique	
 GLUE_TOOLTIP_BUTTON_TAVERN_BRAWL_DESC	Découvrez un nouveau défi chaque semaine.	
 GLUE_TOOLTIP_BUTTON_TAVERN_BRAWL_HEADLINE	Bras de fer	
-GLUE_TOOLTIP_BUTTON_TAVERN_BRAWL_NOT_UNLOCKED	Battez toutes les classes pour les débloquer et accéder au Bras de fer et aux autres modes !	
+GLUE_TOOLTIP_BUTTON_TAVERN_BRAWL_NOT_UNLOCKED	Poursuivez votre apprentissage afin de débloquer le mode !	
 GLUE_TOOLTIP_BUTTON_TRADITIONAL_DESC	L’expérience Hearthstone traditionnelle.	
 GLUE_TOOLTIP_BUTTON_TRADITIONAL_HEADLINE	Hearthstone	
 GLUE_TOOLTIP_DESCRIPTION_ALL_STANDARD_CARDS	Contient les cartes les plus récentes. Utilisable en format Standard et Libre.	
