@@ -11,6 +11,7 @@ GAMEPLAY_AMETHYST_SPELLSTONE_2	<i>(Получайте урон от своих �
 GAMEPLAY_AMETHYST_SPELLSTONE_3	<i>(Получайте урон от своих карт для улучшения.)</i>	
 GAMEPLAY_BACON_ALTERNATE_PLAYER_NAME	{0}	0=character hero name
 GAMEPLAY_BACON_BUY_TUTORIAL	Перетащите, чтобы завербовать.	
+GAMEPLAY_BACON_CLICKING_ON_TEAMMATES_MINIONS	Вы не можете разыгрывать карты на поле союзника.	
 GAMEPLAY_BACON_COIN_TUTORIAL_1	Вербовка существ <b>ВСЕГДА</b> стоит 3 золотых.	
 GAMEPLAY_BACON_COIN_TUTORIAL_2	Все неизрасходованное золото исчезает.	
 GAMEPLAY_BACON_COMBAT_BODY_TUTORIAL	Выжившие в бою существа помогают вам нанести дополнительный урон.\n\nЧем выше уровень таверны, тем больше урона вы нанесете!	
@@ -28,12 +29,32 @@ GAMEPLAY_BACON_DRAGSELL_BODY_TUTORIAL	Перетаскивайте сущест�
 GAMEPLAY_BACON_DRAGSELL_BUTTON_TUTORIAL	Продать	
 GAMEPLAY_BACON_DRAGSELL_TITLE_TUTORIAL	Продавайте существ!	
 GAMEPLAY_BACON_DRAGSELL_TUTORIAL	Перетащите существо сюда, чтобы продать его.	
+GAMEPLAY_BACON_DUO_BONUS_DAMAGE_TUTORIAL	Если игрок в одиночку побеждает оба вражеских отряда, его союзник тоже наносит урон!	
+GAMEPLAY_BACON_DUO_COMBAT_ORDER_TUTORIAL	Герой сверху начинает бой первым.	
+GAMEPLAY_BACON_DUO_COMBAT_TUTORIAL	Ваша армия начинает матч вместе с армией вашего союзника.	
+GAMEPLAY_BACON_DUO_HEALTH_TUTORIAL	Показатели здоровья и брони общие для всей команды.	
+GAMEPLAY_BACON_DUO_HERO_SWAP_TUTORIAL	Когда первый игрок выбывает, в бой вступает армия его союзника!	
+GAMEPLAY_BACON_DUO_NO_GOLD_FOR_PASS	Передача карты стоит (1) золотой.	
+GAMEPLAY_BACON_DUO_NO_PASS_FROM_BOARD	Передавать обычным образом можно только карты из руки.	
+GAMEPLAY_BACON_DUO_PASS_TUTORIAL	Перетащите карту сюда, чтобы <b>передать</b> ее за (1).	
+GAMEPLAY_BACON_DUO_PING_TUTORIAL	Щелкните по объекту ПКМ, чтобы указать на него союзнику.	
+GAMEPLAY_BACON_DUO_PING_TUTORIAL_PHONE	Коснитесь объекта двумя пальцами, чтобы указать на него союзнику.	
+GAMEPLAY_BACON_DUO_PING_WHEEL_TUTORIAL	Щелкните здесь, чтобы выбрать, или щелкните по фону, чтобы закрыть панель.	
+GAMEPLAY_BACON_DUO_PING_WHEEL_TUTORIAL_PHONE	Коснитесь здесь, чтобы выбрать, или коснитесь фона, чтобы закрыть панель.	
+GAMEPLAY_BACON_DUO_RECEIVE_TUTORIAL	Союзник <b>передал</b> вам карту!	
+GAMEPLAY_BACON_DUO_TEAMMATE_PINGED_TUTORIAL	Союзник подал вам сигнал!	
+GAMEPLAY_BACON_DUO_VIEW_SELF_TUTORIAL	Щелкните, чтобы вернуться.	
+GAMEPLAY_BACON_DUO_VIEW_SELF_TUTORIAL_PHONE	Коснитесь, чтобы вернуться.	
+GAMEPLAY_BACON_DUO_VIEW_TEAMMATE_TUTORIAL	Щелкните, чтобы увидеть экран союзника.	
+GAMEPLAY_BACON_DUO_VIEW_TEAMMATE_TUTORIAL_PHONE	Коснитесь, чтобы увидеть экран союзника.	
 GAMEPLAY_BACON_ENEMY_MINION_TUTORIAL	Выберите существо.	
 GAMEPLAY_BACON_FREEZE_TUTORIAL	Замораживайте существ, чтобы снова увидеть их на следующий ход.	
 GAMEPLAY_BACON_MINION_MOVE_TUTORIAL	Перетащите вправо, чтобы изменить построение.	
 GAMEPLAY_BACON_MINION_UPGRADE_TAVERN_TUTORIAL	Улучшите таверну!	
+GAMEPLAY_BACON_MULLIGAN_AI_TEAMMATE_NAME	Союзник-ИИ	
 GAMEPLAY_BACON_MULLIGAN_AVAILABLE_RACES	Типы существ в этом матче:	
 GAMEPLAY_BACON_MULLIGAN_CHOOSE_HERO_BANNER	Выберите героя	
+GAMEPLAY_BACON_MULLIGAN_TEAMMATE	Ваш союзник — {0}	
 GAMEPLAY_BACON_MULLIGAN_WAITING_BANNER	Готовность игроков: {0}/{1}	0=number of players ready, 1=number of players in game
 GAMEPLAY_BACON_MULLIGAN_WAITING_BANNER_SUBTITLE	Оставшееся время	
 GAMEPLAY_BACON_PLAY_MINION_TUTORIAL	Разыграйте это существо!	
@@ -119,8 +140,12 @@ GAMEPLAY_EMOTE_LABEL_WELL_PLAYED	Неплохо
 GAMEPLAY_EMOTE_LABEL_WOW	Ух ты	
 GAMEPLAY_EMOTE_SQUELCH	Отключить\nсообщения	
 GAMEPLAY_EMOTE_SQUELCH_ALL	Отключить все	
+GAMEPLAY_EMOTE_SQUELCH_OPPONENTS	Заглушить противников	
+GAMEPLAY_EMOTE_SQUELCH_TEAMMATE	Заглушить союзника	
 GAMEPLAY_EMOTE_UNSQUELCH	Включить\nсообщения	
 GAMEPLAY_EMOTE_UNSQUELCH_ALL	Включить звук	
+GAMEPLAY_EMOTE_UNSQUELCH_OPPONENTS	Разблокировать противников	
+GAMEPLAY_EMOTE_UNSQUELCH_TEAMMATE	Разблокировать союзника	
 GAMEPLAY_ENCHANTMENT_MULTIPLIER_HEADER	{0}x {1}	0= integer > 1, 1= enchantment name
 GAMEPLAY_END_OF_GAME_DEFEAT	Поражение!	
 GAMEPLAY_END_OF_GAME_DEFEAT_MAYBE	Поражение?	
@@ -197,16 +222,24 @@ GAMEPLAY_LOOT_526d_DARKNESS_2	Пробудится, когда ваш проти
 GAMEPLAY_LOOT_526d_DARKNESS_3	Пробудится, когда ваш противник возьмет еще 1 свечу!	
 GAMEPLAY_MANA_COUNTER	{0}/{1}	0=unused mana 1=current total mana
 GAMEPLAY_MISSING_OPPONENT_NAME	Ваш противник	
+GAMEPLAY_MISSING_TEAMMATE_NAME	Ваш союзник	
 GAMEPLAY_MOBILE_BATTLECRY_CANCELED	Боевой клич отменен.	
 GAMEPLAY_MOBILE_TARGETING_CANCELED	Отмена цели.	
 GAMEPLAY_MULLIGAN_ANOMALIES	Аномалии	
 GAMEPLAY_MULLIGAN_ANOMALY	Аномалия	
 GAMEPLAY_MULLIGAN_ANOMALY_SUBTITLE	Случайный эффект в игре	
 GAMEPLAY_MULLIGAN_BEST_PLACE	Лучшее место: {0}-е	0=The ordinal number (like 1st, 2nd, 3rd, etc), taken from ORDINAL_1, ORDINAL_2, etc.
+GAMEPLAY_MULLIGAN_CANCEL_CONFIRMATION	Отмена	
+GAMEPLAY_MULLIGAN_CHO_GALL_1	Огры вперед	
+GAMEPLAY_MULLIGAN_CHO_GALL_2	Возвращение к огру	
+GAMEPLAY_MULLIGAN_CHO_GALL_3	Становление огром	
+GAMEPLAY_MULLIGAN_CHO_GALL_4	Огр-егация	
+GAMEPLAY_MULLIGAN_CHO_GALL_5	Огр-анизация	
 GAMEPLAY_MULLIGAN_REPLACE	ЗАМЕНЕНА	
 GAMEPLAY_MULLIGAN_STARTING_HAND	Стартовая рука	
 GAMEPLAY_MULLIGAN_SUBTITLE	Оставьте или замените карты	
 GAMEPLAY_MULLIGAN_WAITING	Ваш противник думает...	
+GAMEPLAY_MULLIGAN_WAITING_CONFIRMATION	Ожидание	
 GAMEPLAY_MURLOC_HOLMES_CLUE	Зацепка	
 GAMEPLAY_MURLOC_HOLMES_QUESTION_1	Какая карта была в руке у противника в начале матча?	
 GAMEPLAY_MURLOC_HOLMES_QUESTION_2	Какая карта в руке у противника сейчас?	

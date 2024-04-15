@@ -60,6 +60,7 @@ GLOBAL_ADVENTURE_TRAY_HEADER	모험 선택
 GLOBAL_APPROXIMATE_DATETIME	~{0}	0=time string
 GLOBAL_APPROXIMATE_DATETIME_RANGE	{0} ~ {1}	0=min seconds 1=max seconds string
 GLOBAL_ARENA	투기장	
+GLOBAL_ARENA_ERROR_NOT_ENOUGH_CLASSES	죄송하지만 직업을 3개 이상 해제해야 투기장을 즐길 수 있습니다.	
 GLOBAL_ARENA_MEDAL_0	초보의 열쇠	
 GLOBAL_ARENA_MEDAL_1	수습생의 열쇠	
 GLOBAL_ARENA_MEDAL_10	서릿결 열쇠	
@@ -96,6 +97,7 @@ GLOBAL_ASSET_DOWNLOAD_ERROR_AGENT_IMPEDED	연결 느림
 GLOBAL_ASSET_DOWNLOAD_ERROR_CELLULAR_DISABLED	셀룰러 데이터 비활성화	
 GLOBAL_ASSET_DOWNLOAD_ERROR_DOWNLOAD_DISABLED	다운로드 비활성화됨	
 GLOBAL_ASSET_DOWNLOAD_ERROR_OUT_OF_STORAGE	용량 부족	
+GLOBAL_ASSET_DOWNLOAD_FIRST_DOWNLOAD_BODY	추가 데이터 필요 - {0}\n\n정식 게임을 플레이하려면 하스스톤이 추가 데이터를 다운로드해야 합니다.	
 GLOBAL_ASSET_DOWNLOAD_GIGABYTE_SYMBOL	GB	
 GLOBAL_ASSET_DOWNLOAD_INTENTION_PAUSED	{0} (일시 정지됨)	
 GLOBAL_ASSET_DOWNLOAD_IOS_REQ_POPUP_BODY	다운로드할 수 있습니다. 나머지 {0}를 다운로드하시겠습니까?	
@@ -130,6 +132,7 @@ GLOBAL_BUTTON_AWESOME	끝내주네요!
 GLOBAL_BUTTON_BUY	구매	
 GLOBAL_BUTTON_CLOSE	닫기	
 GLOBAL_BUTTON_CONVERT	전환	
+GLOBAL_BUTTON_DOWNLOAD	지금 다운로드	
 GLOBAL_BUTTON_GO	시작!	
 GLOBAL_BUTTON_GOT_IT	알겠습니다!	
 GLOBAL_BUTTON_INFO_LETTER	i	
@@ -161,6 +164,7 @@ GLOBAL_CARD_SET_BT	황폐한 아웃랜드
 GLOBAL_CARD_SET_BT_SEARCHABLE_SHORTHAND_NAMES	황아 황폐	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_BT_SHORT	아웃랜드	
 GLOBAL_CARD_SET_CORE	핵심	
+GLOBAL_CARD_SET_CORE_HIDDEN	핵심 (유효하지 않음)	
 GLOBAL_CARD_SET_CORE_SEARCHABLE_SHORTHAND_NAMES	핵	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_CORE_SHORT	핵심	
 GLOBAL_CARD_SET_DALARAN	어둠의 반격	
@@ -590,6 +594,7 @@ GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_NO_TWIST_SEASON	지금은 변칙전을 이�
 GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_TAVERN_BRAWL_NOT_CHALLENGEABLE	이 선술집 난투에서는 친선전을 할 수 없습니다.	
 GLOBAL_FRIENDLIST_CURRENT_GAMES_HEADER	현재 게임 - {0}	0=number of friends you have unfinished games with
 GLOBAL_FRIENDLIST_CURRENT_OPPONENT_STATUS	현재 상대!	
+GLOBAL_FRIENDLIST_CURRENT_TEAMMATE_STATUS	현재 팀원!	
 GLOBAL_FRIENDLIST_CURRENTLY_SPECTATING_STATUS	현재 관전 중	
 GLOBAL_FRIENDLIST_FORMER_FRIEND_STATUS	옛 친구	
 GLOBAL_FRIENDLIST_FRIENDS_HEADER	친구 - {0}/{1} 온라인	0=number of online friends 1=number of offline friends
@@ -605,6 +610,7 @@ GLOBAL_FRIENDLIST_RECENT_CHALLENGED_STATUS	최근 상대함
 GLOBAL_FRIENDLIST_RECENT_CHATTED_STATUS	최근 대화함	
 GLOBAL_FRIENDLIST_RECENT_OPPONENT_STATUS	최근 상대	
 GLOBAL_FRIENDLIST_RECENT_PLAYERS_HEADER	최근 플레이어 - {0}	0=number of players
+GLOBAL_FRIENDLIST_RECENT_TEAMMATE_STATUS	최근 팀원	
 GLOBAL_FRIENDLIST_RECENTLY_SPECTATING_STATUS	최근 관전함	
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_ALERT_MESSAGE	{0} 님을 정말로 삭제하겠습니까?	0=friend name
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_BUTTON	삭제	
@@ -699,8 +705,12 @@ GLOBAL_KEYWORD_BACON_BUY_BUDDY	전우 획득
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_2	전우 2장 획득	
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_2_TEXT	승리/무승부 - 비용 (3) 감소\n패배 - 비용 (2) 감소	
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_TEXT	승리/무승부 - 비용 (3) 감소\n패배 - 비용 (2) 감소	
+GLOBAL_KEYWORD_BACON_CONSUME	잡아먹기	
+GLOBAL_KEYWORD_BACON_CONSUME_TEXT	하수인을 제거하고 그 하수인의 능력치를 얻습니다.	
 GLOBAL_KEYWORD_BACON_FREEZE	빙결	
 GLOBAL_KEYWORD_BACON_FREEZE_TEXT	빙결 상태인 하수인들은 다음 턴에 상점에 남아있습니다.	
+GLOBAL_KEYWORD_BACON_PASS	전달	
+GLOBAL_KEYWORD_BACON_PASS_TEXT	내 팀원의 손으로 보냅니다.	
 GLOBAL_KEYWORD_BACON_PUTRICIDESCREATION	퓨트리사이드의 피조물	
 GLOBAL_KEYWORD_BACON_PUTRICIDESCREATION_TEXT	함부로 건드리면 큰일 납니다.	
 GLOBAL_KEYWORD_BACON_QUEST	퀘스트	
@@ -1595,11 +1605,11 @@ GLOBAL_TOOLTIP_MENU_DESC	설정이나 게임 종료 버튼 등을 살펴보세�
 GLOBAL_TOOLTIP_MENU_HEADER	게임 메뉴	
 GLOBAL_TOOLTIP_MENU_OFFLINE_DESC	현재 오프라인 상태입니다. 여길 클릭해서 재접속하세요.	
 GLOBAL_TOOLTIP_MENU_OFFLINE_HEADER	오프라인	
-GLOBAL_TOOLTIP_MODE_CASUAL	아무 덱으로 하스스톤 일반전을 즐겨보세요.	
-GLOBAL_TOOLTIP_MODE_STANDARD	치열한 경쟁 환경에서 다른 플레이어에게 도전하세요.	
-GLOBAL_TOOLTIP_MODE_TWIST	매달 규칙이 바뀌는 하스스톤 게임을 즐기세요.	
-GLOBAL_TOOLTIP_MODE_TWIST_SEASON_DISABLED	매달 규칙이 바뀌는 하스스톤 게임을 즐기세요. 이 게임 모드는 다음 시즌이 시작될 때까지 잠겨 있습니다.	
-GLOBAL_TOOLTIP_MODE_WILD	아무 세트의 카드로 덱을 만들어 적과 대결하세요.	
+GLOBAL_TOOLTIP_MODE_CASUAL	덱과 게임 모드의 제한 없이, 등급에 영향을 받지 않고 게임을 합니다.	
+GLOBAL_TOOLTIP_MODE_STANDARD	실력이 비슷한 플레이어들에게 도전합니다.	
+GLOBAL_TOOLTIP_MODE_TWIST	시즌마다 규칙이 바뀌는 하스스톤 게임을 즐깁니다.	
+GLOBAL_TOOLTIP_MODE_TWIST_SEASON_DISABLED	시즌마다 규칙이 바뀌는 하스스톤 게임을 즐깁니요. 이 게임 모드는 다음 시즌이 시작될 때까지 잠겨 있습니다.	
+GLOBAL_TOOLTIP_MODE_WILD	아무 세트의 카드로나 적과 대결합니다.	
 GLOBAL_TUTORIAL_ATTACK	공격력	
 GLOBAL_TUTORIAL_ATTACKER	공격	
 GLOBAL_TUTORIAL_COST	비용	

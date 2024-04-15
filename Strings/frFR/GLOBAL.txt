@@ -60,6 +60,7 @@ GLOBAL_ADVENTURE_TRAY_HEADER	Choisissez une aventure
 GLOBAL_APPROXIMATE_DATETIME	~{0}	0=time string
 GLOBAL_APPROXIMATE_DATETIME_RANGE	~{0} - {1}	0=min seconds 1=max seconds string
 GLOBAL_ARENA	Arène	
+GLOBAL_ARENA_ERROR_NOT_ENOUGH_CLASSES	Vous devez débloquer trois classes avant de pouvoir jouer en Arène.	
 GLOBAL_ARENA_MEDAL_0	Clé de novice	
 GLOBAL_ARENA_MEDAL_1	Clé d’apprenti	
 GLOBAL_ARENA_MEDAL_10	Clé de Givre-Né	
@@ -96,6 +97,7 @@ GLOBAL_ASSET_DOWNLOAD_ERROR_AGENT_IMPEDED	Connexion lente
 GLOBAL_ASSET_DOWNLOAD_ERROR_CELLULAR_DISABLED	Données cellulaires désactivées	
 GLOBAL_ASSET_DOWNLOAD_ERROR_DOWNLOAD_DISABLED	Téléchargement désactivé	
 GLOBAL_ASSET_DOWNLOAD_ERROR_OUT_OF_STORAGE	Espace de stockage plein	
+GLOBAL_ASSET_DOWNLOAD_FIRST_DOWNLOAD_BODY	Données supplémentaires nécessaires – {0}\n\nHearthstone doit télécharger des données supplémentaires pour que vous puissiez profiter de la version complète du jeu.	
 GLOBAL_ASSET_DOWNLOAD_GIGABYTE_SYMBOL	Go	
 GLOBAL_ASSET_DOWNLOAD_INTENTION_PAUSED	{0} (en pause)	
 GLOBAL_ASSET_DOWNLOAD_IOS_REQ_POPUP_BODY	Téléchargement disponible. Voulez-vous continuer le téléchargement des {0} restants ?	
@@ -130,7 +132,8 @@ GLOBAL_BUTTON_AWESOME	Génial !
 GLOBAL_BUTTON_BUY	Acheter	
 GLOBAL_BUTTON_CLOSE	Fermer	
 GLOBAL_BUTTON_CONVERT	Convertir	
-GLOBAL_BUTTON_GO	C’est parti !	
+GLOBAL_BUTTON_DOWNLOAD	Télécharger maintenant	
+GLOBAL_BUTTON_GO	Allons-y !	
 GLOBAL_BUTTON_GOT_IT	Compris	
 GLOBAL_BUTTON_INFO_LETTER	i	
 GLOBAL_BUTTON_LATER	Plus tard	
@@ -161,6 +164,7 @@ GLOBAL_CARD_SET_BT	Les Cendres de l’Outreterre
 GLOBAL_CARD_SET_BT_SEARCHABLE_SHORTHAND_NAMES	cdo co cendres cendre outreterre	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_BT_SHORT	Outreterre	
 GLOBAL_CARD_SET_CORE	Fondamental	
+GLOBAL_CARD_SET_CORE_HIDDEN	Fondamental (non valide)	
 GLOBAL_CARD_SET_CORE_SEARCHABLE_SHORTHAND_NAMES	fdmt	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_CORE_SHORT	Fond.	
 GLOBAL_CARD_SET_DALARAN	L’Éveil des ombres	
@@ -590,6 +594,7 @@ GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_NO_TWIST_SEASON	Le mode Imprévu n’est pas
 GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_TAVERN_BRAWL_NOT_CHALLENGEABLE	Le mode Défi amical n’est pas disponible pour ce Bras de fer.	
 GLOBAL_FRIENDLIST_CURRENT_GAMES_HEADER	PARTIES EN COURS - {0}	0=number of friends you have unfinished games with
 GLOBAL_FRIENDLIST_CURRENT_OPPONENT_STATUS	Adversaire actuel(le)	
+GLOBAL_FRIENDLIST_CURRENT_TEAMMATE_STATUS	Partenaire actuel(le) !	
 GLOBAL_FRIENDLIST_CURRENTLY_SPECTATING_STATUS	Regarde une partie	
 GLOBAL_FRIENDLIST_FORMER_FRIEND_STATUS	Ancien contact	
 GLOBAL_FRIENDLIST_FRIENDS_HEADER	CONTACTS - {0}/{1} connecté(s)	0=number of online friends 1=number of offline friends
@@ -605,6 +610,7 @@ GLOBAL_FRIENDLIST_RECENT_CHALLENGED_STATUS	Défié(e) récemment
 GLOBAL_FRIENDLIST_RECENT_CHATTED_STATUS	Contacté(e) récemment	
 GLOBAL_FRIENDLIST_RECENT_OPPONENT_STATUS	Adversaire récent(e)	
 GLOBAL_FRIENDLIST_RECENT_PLAYERS_HEADER	RÉCENTS : {0}	0=number of players
+GLOBAL_FRIENDLIST_RECENT_TEAMMATE_STATUS	Partenaire récent(e)	
 GLOBAL_FRIENDLIST_RECENTLY_SPECTATING_STATUS	Regardé récemment	
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_ALERT_MESSAGE	Voulez-vous vraiment supprimer {0} de vos contacts ?	0=friend name
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_BUTTON	Supprimer	
@@ -699,8 +705,12 @@ GLOBAL_KEYWORD_BACON_BUY_BUDDY	Recrutez votre compagnon.
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_2	Recrutez deux compagnons.	
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_2_TEXT	Victoire/égalité_: coûte (3)_pièces d’or de moins\nDéfaite_: coûte (2)_pièces d’or de moins	
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_TEXT	Victoire/égalité_: coûte (3)_pièces d’or de moins\nDéfaite_: coûte (2)_pièces d’or de moins	
+GLOBAL_KEYWORD_BACON_CONSUME	Engloutir	
+GLOBAL_KEYWORD_BACON_CONSUME_TEXT	Retire un serviteur afin de gagner ses caractéristiques.	
 GLOBAL_KEYWORD_BACON_FREEZE	Gel	
 GLOBAL_KEYWORD_BACON_FREEZE_TEXT	Les serviteurs gelés restent dans la boutique au prochain tour.	
+GLOBAL_KEYWORD_BACON_PASS	Passer	
+GLOBAL_KEYWORD_BACON_PASS_TEXT	Envoie une carte dans la main de votre partenaire.	
 GLOBAL_KEYWORD_BACON_PUTRICIDESCREATION	Création de Putricide	
 GLOBAL_KEYWORD_BACON_PUTRICIDESCREATION_TEXT	Ne peut pas être triplé.	
 GLOBAL_KEYWORD_BACON_QUEST	Quête	
@@ -1595,11 +1605,11 @@ GLOBAL_TOOLTIP_MENU_DESC	Ici, vous pouvez régler les options, capituler, quitte
 GLOBAL_TOOLTIP_MENU_HEADER	Menu de jeu	
 GLOBAL_TOOLTIP_MENU_OFFLINE_DESC	Vous êtes actuellement déconnecté(e). Cliquez ici pour vous reconnecter.	
 GLOBAL_TOOLTIP_MENU_OFFLINE_HEADER	Déconnecté(e)	
-GLOBAL_TOOLTIP_MODE_CASUAL	Lancez-vous dans une partie non classée de Hearthstone avec n’importe quel deck.	
-GLOBAL_TOOLTIP_MODE_STANDARD	Affrontez des joueurs et joueuses dans une partie classée.	
-GLOBAL_TOOLTIP_MODE_TWIST	Jouez à Hearthstone en découvrant de nouvelles règles chaque mois.	
-GLOBAL_TOOLTIP_MODE_TWIST_SEASON_DISABLED	Jouez à Hearthstone en découvrant de nouvelles règles chaque mois. Ce mode de jeu est verrouillé jusqu’au début de la prochaine saison.	
-GLOBAL_TOOLTIP_MODE_WILD	Créez un deck avec les cartes de n’importe quel ensemble existant et affrontez des adversaires.	
+GLOBAL_TOOLTIP_MODE_CASUAL	Lancez-vous dans n’importe quel mode avec n’importe quel deck sans que cela affecte votre classement.	
+GLOBAL_TOOLTIP_MODE_STANDARD	Affrontez des joueurs et joueuses de même niveau lors d’une partie.	
+GLOBAL_TOOLTIP_MODE_TWIST	Jouez à Hearthstone en découvrant de nouvelles règles chaque saison.	
+GLOBAL_TOOLTIP_MODE_TWIST_SEASON_DISABLED	Jouez à Hearthstone en découvrant de nouvelles règles chaque saison. Ce mode de jeu est verrouillé jusqu’au début de la prochaine saison.	
+GLOBAL_TOOLTIP_MODE_WILD	Affrontez des adversaires avec des cartes de n’importe quel ensemble.	
 GLOBAL_TUTORIAL_ATTACK	Attaque	
 GLOBAL_TUTORIAL_ATTACKER	Attaquant	
 GLOBAL_TUTORIAL_COST	Coût	

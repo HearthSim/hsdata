@@ -11,6 +11,7 @@ GAMEPLAY_AMETHYST_SPELLSTONE_2	<i>(S’améliore quand vos cartes vous infligent
 GAMEPLAY_AMETHYST_SPELLSTONE_3	<i>(S’améliore quand vos cartes vous infligent des dégâts.)</i>	
 GAMEPLAY_BACON_ALTERNATE_PLAYER_NAME	{0}	0=character hero name
 GAMEPLAY_BACON_BUY_TUTORIAL	Faire glisser pour acheter.	
+GAMEPLAY_BACON_CLICKING_ON_TEAMMATES_MINIONS	Vous ne pouvez pas jouer de cartes sur le plateau de vos partenaires.	
 GAMEPLAY_BACON_COIN_TUTORIAL_1	Acheter un serviteur coûte <b>TOUJOURS</b> 3 pièces d’or.	
 GAMEPLAY_BACON_COIN_TUTORIAL_2	Vous perdrez les pièces d’or non utilisées.	
 GAMEPLAY_BACON_COMBAT_BODY_TUTORIAL	Vos serviteurs survivant au combat vous permettent d’infliger des dégâts supplémentaires.\n\nPlus le niveau de taverne est élevé, plus les dégâts sont importants !	
@@ -28,12 +29,32 @@ GAMEPLAY_BACON_DRAGSELL_BODY_TUTORIAL	Faites glisser des serviteurs vers votre t
 GAMEPLAY_BACON_DRAGSELL_BUTTON_TUTORIAL	Vendre	
 GAMEPLAY_BACON_DRAGSELL_TITLE_TUTORIAL	Vendre des serviteurs	
 GAMEPLAY_BACON_DRAGSELL_TUTORIAL	Faites glisser un serviteur ici pour le vendre.	
+GAMEPLAY_BACON_DUO_BONUS_DAMAGE_TUTORIAL	Si une personne parvient à battre les deux troupes de guerre, son ou sa partenaire inflige également des dégâts !	
+GAMEPLAY_BACON_DUO_COMBAT_ORDER_TUTORIAL	Le héros ou l’héroïne au-dessus combat en premier.	
+GAMEPLAY_BACON_DUO_COMBAT_TUTORIAL	Votre troupe de guerre et celle de votre partenaire se joignent au combat.	
+GAMEPLAY_BACON_DUO_HEALTH_TUTORIAL	Les équipes partagent leurs points de vie et d’armure.	
+GAMEPLAY_BACON_DUO_HERO_SWAP_TUTORIAL	Une fois la première personne éliminée, la troupe de guerre de son ou sa partenaire se joint au combat !	
+GAMEPLAY_BACON_DUO_NO_GOLD_FOR_PASS	Passer une carte coûte (1) pièce d’or.	
+GAMEPLAY_BACON_DUO_NO_PASS_FROM_BOARD	Seules les cartes en main peuvent être passées normalement.	
+GAMEPLAY_BACON_DUO_PASS_TUTORIAL	Faites glisser une carte ici pour la <b>passer</b>. Coûte 1 pièce d’or.	
+GAMEPLAY_BACON_DUO_PING_TUTORIAL	Faites un clic droit sur un objet pour envoyer un ping à votre partenaire.	
+GAMEPLAY_BACON_DUO_PING_TUTORIAL_PHONE	Touchez un objet avec deux doigts pour envoyer un ping à votre partenaire.	
+GAMEPLAY_BACON_DUO_PING_WHEEL_TUTORIAL	Cliquez pour faire une sélection, ou cliquez ailleurs pour l’effacer.	
+GAMEPLAY_BACON_DUO_PING_WHEEL_TUTORIAL_PHONE	Touchez pour faire une sélection, ou touchez ailleurs pour l’effacer.	
+GAMEPLAY_BACON_DUO_RECEIVE_TUTORIAL	Votre partenaire vous a <b>passé</b> ceci !	
+GAMEPLAY_BACON_DUO_TEAMMATE_PINGED_TUTORIAL	Votre partenaire vous a envoyé un ping !	
+GAMEPLAY_BACON_DUO_VIEW_SELF_TUTORIAL	Cliquez pour revenir.	
+GAMEPLAY_BACON_DUO_VIEW_SELF_TUTORIAL_PHONE	Touchez pour revenir.	
+GAMEPLAY_BACON_DUO_VIEW_TEAMMATE_TUTORIAL	Cliquez pour afficher la vue de votre partenaire.	
+GAMEPLAY_BACON_DUO_VIEW_TEAMMATE_TUTORIAL_PHONE	Touchez pour afficher la vue de votre partenaire.	
 GAMEPLAY_BACON_ENEMY_MINION_TUTORIAL	Choisissez un serviteur.	
 GAMEPLAY_BACON_FREEZE_TUTORIAL	Gelez des serviteurs pour les retrouver au tour suivant.	
 GAMEPLAY_BACON_MINION_MOVE_TUTORIAL	Faites-les glisser vers la droite pour les réorganiser.	
 GAMEPLAY_BACON_MINION_UPGRADE_TAVERN_TUTORIAL	Améliorer la taverne	
+GAMEPLAY_BACON_MULLIGAN_AI_TEAMMATE_NAME	Partenaire (IA)	
 GAMEPLAY_BACON_MULLIGAN_AVAILABLE_RACES	Types de serviteurs dans cette partie :	
 GAMEPLAY_BACON_MULLIGAN_CHOOSE_HERO_BANNER	Choisissez un héros	
+GAMEPLAY_BACON_MULLIGAN_TEAMMATE	Votre partenaire est {0}	
 GAMEPLAY_BACON_MULLIGAN_WAITING_BANNER	{0}/{1} joueurs prêts	0=number of players ready, 1=number of players in game
 GAMEPLAY_BACON_MULLIGAN_WAITING_BANNER_SUBTITLE	Temps restant	
 GAMEPLAY_BACON_PLAY_MINION_TUTORIAL	Jouez-le !	
@@ -119,8 +140,12 @@ GAMEPLAY_EMOTE_LABEL_WELL_PLAYED	Bien joué
 GAMEPLAY_EMOTE_LABEL_WOW	Admirable	
 GAMEPLAY_EMOTE_SQUELCH	Couper les emotes	
 GAMEPLAY_EMOTE_SQUELCH_ALL	Couper le son	
+GAMEPLAY_EMOTE_SQUELCH_OPPONENTS	Couper le son (adversaires)	
+GAMEPLAY_EMOTE_SQUELCH_TEAMMATE	Couper le son (partenaire)	
 GAMEPLAY_EMOTE_UNSQUELCH	Activer les emotes	
 GAMEPLAY_EMOTE_UNSQUELCH_ALL	Rétablir le son	
+GAMEPLAY_EMOTE_UNSQUELCH_OPPONENTS	Rétablir le son (adversaires)	
+GAMEPLAY_EMOTE_UNSQUELCH_TEAMMATE	Rétablir le son (partenaire)	
 GAMEPLAY_ENCHANTMENT_MULTIPLIER_HEADER	{0} x {1}	0= integer > 1, 1= enchantment name
 GAMEPLAY_END_OF_GAME_DEFEAT	Défaite !	
 GAMEPLAY_END_OF_GAME_DEFEAT_MAYBE	Défaite ?	
@@ -197,16 +222,24 @@ GAMEPLAY_LOOT_526d_DARKNESS_2	Votre adversaire doit encore piocher\n2_bougies po
 GAMEPLAY_LOOT_526d_DARKNESS_3	Votre adversaire doit encore piocher\n1_bougie pour qu’elles s’éveillent.	
 GAMEPLAY_MANA_COUNTER	{0}/{1}	0=unused mana 1=current total mana
 GAMEPLAY_MISSING_OPPONENT_NAME	Votre adversaire	
+GAMEPLAY_MISSING_TEAMMATE_NAME	Votre partenaire	
 GAMEPLAY_MOBILE_BATTLECRY_CANCELED	Cri de guerre annulé.	
 GAMEPLAY_MOBILE_TARGETING_CANCELED	Ciblage annulé.	
 GAMEPLAY_MULLIGAN_ANOMALIES	Anomalies	
 GAMEPLAY_MULLIGAN_ANOMALY	Anomalie	
 GAMEPLAY_MULLIGAN_ANOMALY_SUBTITLE	Effet aléatoire actif	
 GAMEPLAY_MULLIGAN_BEST_PLACE	Meilleur résultat : {0}	0=The ordinal number (like 1st, 2nd, 3rd, etc), taken from ORDINAL_1, ORDINAL_2, etc.
+GAMEPLAY_MULLIGAN_CANCEL_CONFIRMATION	Annuler	
+GAMEPLAY_MULLIGAN_CHO_GALL_1	Pr-ogre-ssion	
+GAMEPLAY_MULLIGAN_CHO_GALL_2	Rétr-ogre-ssion	
+GAMEPLAY_MULLIGAN_CHO_GALL_3	Métamorgrose	
+GAMEPLAY_MULLIGAN_CHO_GALL_4	Ogrégation	
+GAMEPLAY_MULLIGAN_CHO_GALL_5	Ogrification	
 GAMEPLAY_MULLIGAN_REPLACE	REMPLACÉE	
 GAMEPLAY_MULLIGAN_STARTING_HAND	Main de départ	
 GAMEPLAY_MULLIGAN_SUBTITLE	Remplacement des cartes	
 GAMEPLAY_MULLIGAN_WAITING	Adversaire en train de choisir…	
+GAMEPLAY_MULLIGAN_WAITING_CONFIRMATION	En attente	
 GAMEPLAY_MURLOC_HOLMES_CLUE	Indice	
 GAMEPLAY_MURLOC_HOLMES_QUESTION_1	Quelle carte était dans la main de départ de votre adversaire ?	
 GAMEPLAY_MURLOC_HOLMES_QUESTION_2	Quelle carte est dans la main de votre adversaire ?	

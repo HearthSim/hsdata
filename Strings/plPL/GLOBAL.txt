@@ -60,6 +60,7 @@ GLOBAL_ADVENTURE_TRAY_HEADER	Wybierz przygodę
 GLOBAL_APPROXIMATE_DATETIME	{0}	0=time string
 GLOBAL_APPROXIMATE_DATETIME_RANGE	{0} - {1}	0=min seconds 1=max seconds string
 GLOBAL_ARENA	Arena	
+GLOBAL_ARENA_ERROR_NOT_ENOUGH_CLASSES	Do gry na Arenie konieczne jest odblokowanie co najmniej trzech klas.	
 GLOBAL_ARENA_MEDAL_0	Klucz nowicjusza	
 GLOBAL_ARENA_MEDAL_1	Klucz ucznia	
 GLOBAL_ARENA_MEDAL_10	Mroźny klucz	
@@ -96,6 +97,7 @@ GLOBAL_ASSET_DOWNLOAD_ERROR_AGENT_IMPEDED	Powolne połączenie
 GLOBAL_ASSET_DOWNLOAD_ERROR_CELLULAR_DISABLED	Wyłączono komórkowy transfer danych	
 GLOBAL_ASSET_DOWNLOAD_ERROR_DOWNLOAD_DISABLED	Wyłączono pobieranie	
 GLOBAL_ASSET_DOWNLOAD_ERROR_OUT_OF_STORAGE	Brak wolnego miejsca	
+GLOBAL_ASSET_DOWNLOAD_FIRST_DOWNLOAD_BODY	Potrzebne dodatkowe dane – {0}\n\nAby dostępna była pełna gra, Hearthstone musi pobrać dodatkowe dane.	
 GLOBAL_ASSET_DOWNLOAD_GIGABYTE_SYMBOL	GB	
 GLOBAL_ASSET_DOWNLOAD_INTENTION_PAUSED	{0} (zatrzymano)	
 GLOBAL_ASSET_DOWNLOAD_IOS_REQ_POPUP_BODY	Pobieranie dostępne. Czy chcesz pobrać pozostałe dane ({0})?	
@@ -130,6 +132,7 @@ GLOBAL_BUTTON_AWESOME	Rewelka!
 GLOBAL_BUTTON_BUY	Kup	
 GLOBAL_BUTTON_CLOSE	Zamknij	
 GLOBAL_BUTTON_CONVERT	Przekształć	
+GLOBAL_BUTTON_DOWNLOAD	Pobierz teraz	
 GLOBAL_BUTTON_GO	Naprzód!	
 GLOBAL_BUTTON_GOT_IT	Jasne!	
 GLOBAL_BUTTON_INFO_LETTER	i	
@@ -161,6 +164,7 @@ GLOBAL_CARD_SET_BT	Popioły Rubieży
 GLOBAL_CARD_SET_BT_SEARCHABLE_SHORTHAND_NAMES	pr popioły	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_BT_SHORT	Rubież	
 GLOBAL_CARD_SET_CORE	Bazowe	
+GLOBAL_CARD_SET_CORE_HIDDEN	Bazowe (nieprawidłowe)	
 GLOBAL_CARD_SET_CORE_SEARCHABLE_SHORTHAND_NAMES	bazowe	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_CORE_SHORT	Bazowe	
 GLOBAL_CARD_SET_DALARAN	Wyjście z cienia	
@@ -590,6 +594,7 @@ GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_NO_TWIST_SEASON	Przeplatanka nie jest teraz 
 GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_TAVERN_BRAWL_NOT_CHALLENGEABLE	W tej Bójce nie jest dostępne przyjacielskie wyzwanie.	
 GLOBAL_FRIENDLIST_CURRENT_GAMES_HEADER	AKTUALNE GRY: {0}	0=number of friends you have unfinished games with
 GLOBAL_FRIENDLIST_CURRENT_OPPONENT_STATUS	Obecny przeciwnik!	
+GLOBAL_FRIENDLIST_CURRENT_TEAMMATE_STATUS	Aktualny towarzysz!	
 GLOBAL_FRIENDLIST_CURRENTLY_SPECTATING_STATUS	Obecnie oglądane	
 GLOBAL_FRIENDLIST_FORMER_FRIEND_STATUS	Były przyjaciel	
 GLOBAL_FRIENDLIST_FRIENDS_HEADER	DOSTĘPNI ZNAJOMI: {0}/{1}	0=number of online friends 1=number of offline friends
@@ -605,6 +610,7 @@ GLOBAL_FRIENDLIST_RECENT_CHALLENGED_STATUS	Ostatnie wyzwania
 GLOBAL_FRIENDLIST_RECENT_CHATTED_STATUS	Ostatnie rozmowy	
 GLOBAL_FRIENDLIST_RECENT_OPPONENT_STATUS	Ostatni przeciwnik	
 GLOBAL_FRIENDLIST_RECENT_PLAYERS_HEADER	OSTATNI GRACZE: {0}	0=number of players
+GLOBAL_FRIENDLIST_RECENT_TEAMMATE_STATUS	Niedawny towarzysz	
 GLOBAL_FRIENDLIST_RECENTLY_SPECTATING_STATUS	Ostatnio oglądane	
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_ALERT_MESSAGE	Czy na pewno chcesz usunąć gracza {0}?	0=friend name
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_BUTTON	Usuń	
@@ -699,8 +705,12 @@ GLOBAL_KEYWORD_BACON_BUY_BUDDY	Zdobądź towarzysza
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_2	Zdobądź 2 towarzyszy	
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_2_TEXT	Zwycięstwo/remis – kosztuje (3) mniej.\nPrzegrana – kosztuje (2) mniej	
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_TEXT	Zwycięstwo/remis – kosztuje (3) mniej.\nPrzegrana – kosztuje (2) mniej	
+GLOBAL_KEYWORD_BACON_CONSUME	Pożryj	
+GLOBAL_KEYWORD_BACON_CONSUME_TEXT	Usuń stronnika, aby przejąć jego statystyki.	
 GLOBAL_KEYWORD_BACON_FREEZE	Zamrożenie	
 GLOBAL_KEYWORD_BACON_FREEZE_TEXT	Zamrożeni stronnicy zostają w sklepie w następnej turze.	
+GLOBAL_KEYWORD_BACON_PASS	Przekaż	
+GLOBAL_KEYWORD_BACON_PASS_TEXT	Wyślij do ręki twojego towarzysza.	
 GLOBAL_KEYWORD_BACON_PUTRICIDESCREATION	Twór Przebrzyda	
 GLOBAL_KEYWORD_BACON_PUTRICIDESCREATION_TEXT	Nie może zostać potrojony.	
 GLOBAL_KEYWORD_BACON_QUEST	Zadanie	
@@ -1595,11 +1605,11 @@ GLOBAL_TOOLTIP_MENU_DESC	Tu możesz między innymi sprawdzić opcje i listę aut
 GLOBAL_TOOLTIP_MENU_HEADER	Menu gry	
 GLOBAL_TOOLTIP_MENU_OFFLINE_DESC	Twój obecny status to niedostępny. Kliknij tutaj, aby połączyć się ponownie.	
 GLOBAL_TOOLTIP_MENU_OFFLINE_HEADER	Niedostępny	
-GLOBAL_TOOLTIP_MODE_CASUAL	Rozegraj zwykłą partię Hearthstone dowolną talią.	
-GLOBAL_TOOLTIP_MODE_STANDARD	Wyzwij graczy na potyczkę rankingową.	
-GLOBAL_TOOLTIP_MODE_TWIST	Graj w Hearthstone z zestawem rotujących co miesiąc reguł.	
-GLOBAL_TOOLTIP_MODE_TWIST_SEASON_DISABLED	Graj w Hearthstone z zestawem rotujących co miesiąc reguł. Ten tryb gry jest zablokowany do czasu rozpoczęcia następnego sezonu.	
-GLOBAL_TOOLTIP_MODE_WILD	Zawalcz z przeciwnikami talią stworzoną z kart z dowolnych zestawów.	
+GLOBAL_TOOLTIP_MODE_CASUAL	Graj w dowolnym trybie dowolną talią bez wpływu na rangę.	
+GLOBAL_TOOLTIP_MODE_STANDARD	Rzuć wyzwanie graczom na podobnym poziomie.	
+GLOBAL_TOOLTIP_MODE_TWIST	Graj w Hearthstone z zestawem rotujących co sezon reguł.	
+GLOBAL_TOOLTIP_MODE_TWIST_SEASON_DISABLED	Graj w Hearthstone z zestawem rotujących co sezon reguł. Ten tryb gry jest zablokowany do czasu rozpoczęcia następnego sezonu.	
+GLOBAL_TOOLTIP_MODE_WILD	Zawalcz z przeciwnikami przy użyciu kart z dowolnych zestawów.	
 GLOBAL_TUTORIAL_ATTACK	Atak	
 GLOBAL_TUTORIAL_ATTACKER	Atakujący	
 GLOBAL_TUTORIAL_COST	Koszt	

@@ -60,6 +60,7 @@ GLOBAL_ADVENTURE_TRAY_HEADER	Wählt ein Abenteuer
 GLOBAL_APPROXIMATE_DATETIME	~{0}	0=time string
 GLOBAL_APPROXIMATE_DATETIME_RANGE	~{0} bis {1}	0=min seconds 1=max seconds string
 GLOBAL_ARENA	Arena	
+GLOBAL_ARENA_ERROR_NOT_ENOUGH_CLASSES	Es tut uns leid, Ihr müsst mindestens drei Klassen freigeschaltet haben, um Arena spielen zu können.	
 GLOBAL_ARENA_MEDAL_0	Neulingsschlüssel	
 GLOBAL_ARENA_MEDAL_1	Lehrlingsschlüssel	
 GLOBAL_ARENA_MEDAL_10	Frostschlüssel	
@@ -96,6 +97,7 @@ GLOBAL_ASSET_DOWNLOAD_ERROR_AGENT_IMPEDED	Langsame Verbindung
 GLOBAL_ASSET_DOWNLOAD_ERROR_CELLULAR_DISABLED	Mobile Daten deaktiviert	
 GLOBAL_ASSET_DOWNLOAD_ERROR_DOWNLOAD_DISABLED	Download deaktiviert	
 GLOBAL_ASSET_DOWNLOAD_ERROR_OUT_OF_STORAGE	Kein Speicherplatz	
+GLOBAL_ASSET_DOWNLOAD_FIRST_DOWNLOAD_BODY	Zusätzliche Daten erförderlich - {0}\n\nHearthstone muss zusätzliche Daten herunterladen, damit Ihr das vollständige Spiel spielen könnt.	
 GLOBAL_ASSET_DOWNLOAD_GIGABYTE_SYMBOL	GB	
 GLOBAL_ASSET_DOWNLOAD_INTENTION_PAUSED	{0} (pausiert)	
 GLOBAL_ASSET_DOWNLOAD_IOS_REQ_POPUP_BODY	Download verfügbar. Restliche {0} herunterladen?	
@@ -130,6 +132,7 @@ GLOBAL_BUTTON_AWESOME	Super!
 GLOBAL_BUTTON_BUY	KAUFEN	
 GLOBAL_BUTTON_CLOSE	_Schließen_	
 GLOBAL_BUTTON_CONVERT	Umwandeln	
+GLOBAL_BUTTON_DOWNLOAD	Jetzt herunterladen	
 GLOBAL_BUTTON_GO	Los!	
 GLOBAL_BUTTON_GOT_IT	Alles klar!	
 GLOBAL_BUTTON_INFO_LETTER	i	
@@ -161,6 +164,7 @@ GLOBAL_CARD_SET_BT	Ruinen der Scherbenwelt
 GLOBAL_CARD_SET_BT_SEARCHABLE_SHORTHAND_NAMES	aoo ao ashes rds rs ruinen	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_BT_SHORT	Scherbenwelt	
 GLOBAL_CARD_SET_CORE	Kern	
+GLOBAL_CARD_SET_CORE_HIDDEN	Kern (ungültig)	
 GLOBAL_CARD_SET_CORE_SEARCHABLE_SHORTHAND_NAMES	core kern	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_CORE_SHORT	Kern	
 GLOBAL_CARD_SET_DALARAN	Verschwörung der Schatten	
@@ -590,6 +594,7 @@ GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_NO_TWIST_SEASON	Der Haken ist derzeit nicht 
 GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_TAVERN_BRAWL_NOT_CHALLENGEABLE	Freunde können in diesem Kartenchaos nicht herausgefordert werden.	
 GLOBAL_FRIENDLIST_CURRENT_GAMES_HEADER	AKTUELLE SPIELE – {0}	0=number of friends you have unfinished games with
 GLOBAL_FRIENDLIST_CURRENT_OPPONENT_STATUS	Aktueller Gegner!	
+GLOBAL_FRIENDLIST_CURRENT_TEAMMATE_STATUS	Aktueller Teamkollege!	
 GLOBAL_FRIENDLIST_CURRENTLY_SPECTATING_STATUS	Schaut derzeit zu	
 GLOBAL_FRIENDLIST_FORMER_FRIEND_STATUS	Ehemaliger Freund	
 GLOBAL_FRIENDLIST_FRIENDS_HEADER	FREUNDE – {0}/{1} online	0=number of online friends 1=number of offline friends
@@ -605,6 +610,7 @@ GLOBAL_FRIENDLIST_RECENT_CHALLENGED_STATUS	Kürzlich herausgefordert
 GLOBAL_FRIENDLIST_RECENT_CHATTED_STATUS	Kürzlich gechattet	
 GLOBAL_FRIENDLIST_RECENT_OPPONENT_STATUS	Letzter Gegner	
 GLOBAL_FRIENDLIST_RECENT_PLAYERS_HEADER	LETZTE GEGNER - {0}	0=number of players
+GLOBAL_FRIENDLIST_RECENT_TEAMMATE_STATUS	Letzter Teamkollege	
 GLOBAL_FRIENDLIST_RECENTLY_SPECTATING_STATUS	Kürzlich zugeschaut	
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_ALERT_MESSAGE	Seid Ihr Euch sicher, dass Ihr {0} entfernen wollt?	0=friend name
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_BUTTON	Entfernen	
@@ -699,8 +705,12 @@ GLOBAL_KEYWORD_BACON_BUY_BUDDY	Erhaltet Euren Partner
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_2	Erhaltet 2 Partner	
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_2_TEXT	Sieg/Unentschieden – Kostet (3) weniger\nNiederlage – Kostet (2) weniger	
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_TEXT	Sieg/Unentschieden – Kostet (3) weniger\nNiederlage – Kostet (2) weniger	
+GLOBAL_KEYWORD_BACON_CONSUME	Verschlingen	
+GLOBAL_KEYWORD_BACON_CONSUME_TEXT	Entfernt einen Diener, um seine Werte zu erhalten.	
 GLOBAL_KEYWORD_BACON_FREEZE	Einfrieren	
 GLOBAL_KEYWORD_BACON_FREEZE_TEXT	Eingefrorene Diener bleiben im nächsten Zug im Gasthaus.	
+GLOBAL_KEYWORD_BACON_PASS	Weitergeben	
+GLOBAL_KEYWORD_BACON_PASS_TEXT	An die Hand Eures Teamkollegen weitergeben.	
 GLOBAL_KEYWORD_BACON_PUTRICIDESCREATION	Seuchenmords Kreation	
 GLOBAL_KEYWORD_BACON_PUTRICIDESCREATION_TEXT	Kann nicht zum Drilling werden.	
 GLOBAL_KEYWORD_BACON_QUEST	Quest	
@@ -1596,10 +1606,10 @@ GLOBAL_TOOLTIP_MENU_HEADER	Spielmenü
 GLOBAL_TOOLTIP_MENU_OFFLINE_DESC	Sie sind im Moment offline. Klicken Sie hier, um die Verbindung wiederherzustellen.	
 GLOBAL_TOOLTIP_MENU_OFFLINE_HEADER	Offline	
 GLOBAL_TOOLTIP_MODE_CASUAL	Genießt ein ungewertetes Hearthstone-Spiel mit einem beliebigen Deck.	
-GLOBAL_TOOLTIP_MODE_STANDARD	Fordert Spieler zu einem Match in einem kompetitiven Umfeld heraus.	
+GLOBAL_TOOLTIP_MODE_STANDARD	Fordert Spieler mit ähnlichem Können zu einem Match heraus.	
 GLOBAL_TOOLTIP_MODE_TWIST	Spielt Hearthstone mit einem monatlich wechselnden Regelsatz.	
-GLOBAL_TOOLTIP_MODE_TWIST_SEASON_DISABLED	Spielt Hearthstone mit einem monatlich wechselnden Regelsatz. Dieser Spielmodus ist bis zum Beginn der nächsten Saison gesperrt.	
-GLOBAL_TOOLTIP_MODE_WILD	Erstellt ein Deck mit Karten aus einem beliebigen Set und kämpft gegen Eure Gegner.	
+GLOBAL_TOOLTIP_MODE_TWIST_SEASON_DISABLED	Spielt Hearthstone mit einem jede Saison wechselnden Regelsatz. Dieser Spielmodus ist bis zum Beginn der nächsten Saison gesperrt.	
+GLOBAL_TOOLTIP_MODE_WILD	Kämpft gegen Gegner mit Karten eines beliebigen Sets.	
 GLOBAL_TUTORIAL_ATTACK	Angriff	
 GLOBAL_TUTORIAL_ATTACKER	Angreifer	
 GLOBAL_TUTORIAL_COST	Kosten	
@@ -1620,14 +1630,14 @@ GLOBAL_TWIST_SEASON_DESCRIPTION_116	Erlebt dieses neue Format mit einem Haken; e
 GLOBAL_TWIST_SEASON_DESCRIPTION_117	Erlebt dieses neue Format mit einem Haken; erstellt ein Deck nur aus Klassenkarten seit Ruinen der Scherbenwelt!	
 GLOBAL_TWIST_SEASON_DESCRIPTION_119	Betretet die Höhlen der Zeit und baut ein Deck mit allen Erweiterungen von Archiv bis Die Straßen von Gadgetzan.	
 GLOBAL_TWIST_SEASON_DESCRIPTION_120	Baut dieses Mal ein Deck mit 30 bis 40 Karten von Archiv bis Die Straßen von Gadgetzan und Höhlen der Zeit. Und alle Spieler beginnen mit Leben, das der Größe ihres Decks entspricht!	
-GLOBAL_TWIST_SEASON_DESCRIPTION_121	Reist zurück in die alte Vergangenheit, als Dinosaurier umherstreiften! Un'Goro ist zurück mit einigen neuen Updates und hat sich den anderen Sets im Wunder-Format angeschlossen.	
+GLOBAL_TWIST_SEASON_DESCRIPTION_121	Reisen Sie zurück in die alte Vergangenheit, als Dinosaurier umherstreiften! Un 'Goro ist zurück mit einigen neuen Updates und hat sich den anderen Sets im Wonders-Format angeschlossen.	
 GLOBAL_TWIST_SEASON_DESCRIPTION_124	Keine legendären Karten? Kein Problem! Baut das bestmögliche Deck mit gewöhnlichen Karten aus allen Erweiterungen bis einschließlich Jahr des Drachen und dem Kernset.	
 GLOBAL_TWIST_SEASON_DESCRIPTION_125	Spielt noch einmal zehn Jahre Hearthstone von vorne! Beginnend mit dem Archivset fügen wir jeden Tag ein neues Set hinzu, bis zum Showdown im Ödland.	
 GLOBAL_TWIST_SEASON_TITLE_116	Neues Zeitalter	
 GLOBAL_TWIST_SEASON_TITLE_117	Neues Zeitalter	
 GLOBAL_TWIST_SEASON_TITLE_119	Wunder	
 GLOBAL_TWIST_SEASON_TITLE_120	XL-Wunder	
-GLOBAL_TWIST_SEASON_TITLE_121	Kehrt nach Un’Goro zurück	
+GLOBAL_TWIST_SEASON_TITLE_121	Kehre zu Un’Goro zurück	
 GLOBAL_TWIST_SEASON_TITLE_124	Gewöhnliche Karten	
 GLOBAL_TWIST_SEASON_TITLE_125	Zeitsprung	
 GLOBAL_UNINSTALL_MODULE_POPUP_PROMPT	{0} deinstallieren?	{0}=Module name to uninstall (e.g. Battlegrounds)

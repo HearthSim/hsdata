@@ -60,6 +60,7 @@ GLOBAL_ADVENTURE_TRAY_HEADER	Выберите приключение
 GLOBAL_APPROXIMATE_DATETIME	~{0}	0=time string
 GLOBAL_APPROXIMATE_DATETIME_RANGE	~{0} – {1}	0=min seconds 1=max seconds string
 GLOBAL_ARENA	Арена	
+GLOBAL_ARENA_ERROR_NOT_ENOUGH_CLASSES	Чтобы участвовать в матчах на Арене, нужно открыть хотя бы три класса.	
 GLOBAL_ARENA_MEDAL_0	Ключ новичка	
 GLOBAL_ARENA_MEDAL_1	Ключ ученика	
 GLOBAL_ARENA_MEDAL_10	Ледяной ключ	
@@ -96,6 +97,7 @@ GLOBAL_ASSET_DOWNLOAD_ERROR_AGENT_IMPEDED	Медленное подключен�
 GLOBAL_ASSET_DOWNLOAD_ERROR_CELLULAR_DISABLED	Загрузка данных по мобильной связи отключена	
 GLOBAL_ASSET_DOWNLOAD_ERROR_DOWNLOAD_DISABLED	Загрузка отключена	
 GLOBAL_ASSET_DOWNLOAD_ERROR_OUT_OF_STORAGE	Недостаточно места	
+GLOBAL_ASSET_DOWNLOAD_FIRST_DOWNLOAD_BODY	Требуется загрузка данных — {0}\n\nHearthstone необходимо загрузить дополнительные материалы, чтобы вам были доступны все возможности игры.	
 GLOBAL_ASSET_DOWNLOAD_GIGABYTE_SYMBOL	ГБ	
 GLOBAL_ASSET_DOWNLOAD_INTENTION_PAUSED	{0} (пауза)	
 GLOBAL_ASSET_DOWNLOAD_IOS_REQ_POPUP_BODY	Доступно обновление. Загрузить оставшиеся данные ({0})?	
@@ -130,6 +132,7 @@ GLOBAL_BUTTON_AWESOME	Ура!
 GLOBAL_BUTTON_BUY	КУПИТЬ	
 GLOBAL_BUTTON_CLOSE	Закрыть	
 GLOBAL_BUTTON_CONVERT	Преобразовать	
+GLOBAL_BUTTON_DOWNLOAD	Загрузка	
 GLOBAL_BUTTON_GO	Вперед!	
 GLOBAL_BUTTON_GOT_IT	Понятно!	
 GLOBAL_BUTTON_INFO_LETTER	i	
@@ -161,6 +164,7 @@ GLOBAL_CARD_SET_BT	Руины Запределья
 GLOBAL_CARD_SET_BT_SEARCHABLE_SHORTHAND_NAMES	рз руины	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_BT_SHORT	Запределье	
 GLOBAL_CARD_SET_CORE	Основной набор	
+GLOBAL_CARD_SET_CORE_HIDDEN	Основной набор (недопустим)	
 GLOBAL_CARD_SET_CORE_SEARCHABLE_SHORTHAND_NAMES	основной	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_CORE_SHORT	Основной	
 GLOBAL_CARD_SET_DALARAN	Возмездие теней	
@@ -590,6 +594,7 @@ GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_NO_TWIST_SEASON	Режим «Твист» с
 GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_TAVERN_BRAWL_NOT_CHALLENGEABLE	Дружеская дуэль недоступна для этой потасовки.	
 GLOBAL_FRIENDLIST_CURRENT_GAMES_HEADER	ТЕКУЩИЕ ИГРЫ – {0}	0=number of friends you have unfinished games with
 GLOBAL_FRIENDLIST_CURRENT_OPPONENT_STATUS	Текущий противник!	
+GLOBAL_FRIENDLIST_CURRENT_TEAMMATE_STATUS	Текущий союзник!	
 GLOBAL_FRIENDLIST_CURRENTLY_SPECTATING_STATUS	Смотрит игру	
 GLOBAL_FRIENDLIST_FORMER_FRIEND_STATUS	Бывший друг	
 GLOBAL_FRIENDLIST_FRIENDS_HEADER	ДРУЗЬЯ – {0}/{1} в сети	0=number of online friends 1=number of offline friends
@@ -605,6 +610,7 @@ GLOBAL_FRIENDLIST_RECENT_CHALLENGED_STATUS	Недавние вызовы
 GLOBAL_FRIENDLIST_RECENT_CHATTED_STATUS	Недавние собеседники	
 GLOBAL_FRIENDLIST_RECENT_OPPONENT_STATUS	Недавний оппонент	
 GLOBAL_FRIENDLIST_RECENT_PLAYERS_HEADER	НЕДАВНО – {0}	0=number of players
+GLOBAL_FRIENDLIST_RECENT_TEAMMATE_STATUS	Недавний союзник	
 GLOBAL_FRIENDLIST_RECENTLY_SPECTATING_STATUS	Недавно велся просмотр	
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_ALERT_MESSAGE	Вы действительно хотите удалить игрока {0}?	0=friend name
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_BUTTON	Удалить	
@@ -699,8 +705,12 @@ GLOBAL_KEYWORD_BACON_BUY_BUDDY	Приобрести компаньона
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_2	Приобрести 2 компаньонов	
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_2_TEXT	Победа/ничья – стоит на (3) меньше\nПоражение – стоит на (2) меньше	
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_TEXT	Победа/ничья – стоит на (3) меньше\nПоражение – стоит на (2) меньше	
+GLOBAL_KEYWORD_BACON_CONSUME	Поглощение	
+GLOBAL_KEYWORD_BACON_CONSUME_TEXT	Убирает существо и дает его характеристики.	
 GLOBAL_KEYWORD_BACON_FREEZE	Заморозка	
 GLOBAL_KEYWORD_BACON_FREEZE_TEXT	Замороженные существа остаются в магазине до следующего хода.	
+GLOBAL_KEYWORD_BACON_PASS	Передача	
+GLOBAL_KEYWORD_BACON_PASS_TEXT	Отправляет карту в руку союзника.	
 GLOBAL_KEYWORD_BACON_PUTRICIDESCREATION	Создание Мерзоцида	
 GLOBAL_KEYWORD_BACON_PUTRICIDESCREATION_TEXT	Нельзя объединить в триплет.	
 GLOBAL_KEYWORD_BACON_QUEST	Задача	
@@ -1595,11 +1605,11 @@ GLOBAL_TOOLTIP_MENU_DESC	Здесь вы можете найти настрой�
 GLOBAL_TOOLTIP_MENU_HEADER	Меню	
 GLOBAL_TOOLTIP_MENU_OFFLINE_DESC	Вы не в сети. Щелкните, чтобы подключиться.	
 GLOBAL_TOOLTIP_MENU_OFFLINE_HEADER	Не в сети	
-GLOBAL_TOOLTIP_MODE_CASUAL	Участвуйте в ненапряженной игре в Hearthstone с любой колодой.	
-GLOBAL_TOOLTIP_MODE_STANDARD	Бросьте вызов другим игрокам в соревновательных матчах.	
-GLOBAL_TOOLTIP_MODE_TWIST	Играйте в Hearthstone, используя меняющийся ежемесячно список правил.	
-GLOBAL_TOOLTIP_MODE_TWIST_SEASON_DISABLED	Играйте в Hearthstone с ежемесячно меняющимся набором правил. Этот режим недоступен до начала следующего сезона.	
-GLOBAL_TOOLTIP_MODE_WILD	Создайте колоду с помощью карт из любых наборов и сразитесь с оппонентом.	
+GLOBAL_TOOLTIP_MODE_CASUAL	Играйте в любых режимах Hearthstone с любой колодой, не беспокоясь о понижении рейтинга.	
+GLOBAL_TOOLTIP_MODE_STANDARD	Бросьте вызов равным по мастерству игрокам.	
+GLOBAL_TOOLTIP_MODE_TWIST	Играйте в Hearthstone с ежесезонно меняющимся набором правил.	
+GLOBAL_TOOLTIP_MODE_TWIST_SEASON_DISABLED	Играйте в Hearthstone с ежесезонно меняющимся набором правил. Этот режим недоступен до начала следующего сезона.	
+GLOBAL_TOOLTIP_MODE_WILD	Сражайтесь с оппонентами, используя карты из любых наборов.	
 GLOBAL_TUTORIAL_ATTACK	Атака	
 GLOBAL_TUTORIAL_ATTACKER	Атакующий	
 GLOBAL_TUTORIAL_COST	Стоимость	

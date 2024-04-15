@@ -60,6 +60,7 @@ GLOBAL_ADVENTURE_TRAY_HEADER	Scegli un'avventura
 GLOBAL_APPROXIMATE_DATETIME	~{0}	0=time string
 GLOBAL_APPROXIMATE_DATETIME_RANGE	~{0} - {1}	0=min seconds 1=max seconds string
 GLOBAL_ARENA	Arena	
+GLOBAL_ARENA_ERROR_NOT_ENOUGH_CLASSES	Spiacenti, devi avere almeno tre classi sbloccate per giocare in Arena.	
 GLOBAL_ARENA_MEDAL_0	Chiave da Novizio	
 GLOBAL_ARENA_MEDAL_1	Chiave da Apprendista	
 GLOBAL_ARENA_MEDAL_10	Chiave del Gelo	
@@ -96,6 +97,7 @@ GLOBAL_ASSET_DOWNLOAD_ERROR_AGENT_IMPEDED	Connessione lenta
 GLOBAL_ASSET_DOWNLOAD_ERROR_CELLULAR_DISABLED	Rete mobile disattivata	
 GLOBAL_ASSET_DOWNLOAD_ERROR_DOWNLOAD_DISABLED	Scaricamento disattivato	
 GLOBAL_ASSET_DOWNLOAD_ERROR_OUT_OF_STORAGE	Spazio esaurito	
+GLOBAL_ASSET_DOWNLOAD_FIRST_DOWNLOAD_BODY	Dati aggiuntivi necessari - {0}\n\nHearthstone deve scaricare dati aggiuntivi per permetterti di giocare al gioco completo.	
 GLOBAL_ASSET_DOWNLOAD_GIGABYTE_SYMBOL	GB	
 GLOBAL_ASSET_DOWNLOAD_INTENTION_PAUSED	{0} (In pausa)	
 GLOBAL_ASSET_DOWNLOAD_IOS_REQ_POPUP_BODY	Scaricamento disponibile. Vuoi scaricare {0} di dati restanti?	
@@ -130,6 +132,7 @@ GLOBAL_BUTTON_AWESOME	Ottimo!
 GLOBAL_BUTTON_BUY	ACQUISTA	
 GLOBAL_BUTTON_CLOSE	Chiudi	
 GLOBAL_BUTTON_CONVERT	Converti	
+GLOBAL_BUTTON_DOWNLOAD	Scarica ora	
 GLOBAL_BUTTON_GO	Vai!	
 GLOBAL_BUTTON_GOT_IT	Bene!	
 GLOBAL_BUTTON_INFO_LETTER	i	
@@ -161,6 +164,7 @@ GLOBAL_CARD_SET_BT	Ceneri delle Terre Esterne
 GLOBAL_CARD_SET_BT_SEARCHABLE_SHORTHAND_NAMES	cdte cte ceneri	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_BT_SHORT	Terre Esterne	
 GLOBAL_CARD_SET_CORE	Principale	
+GLOBAL_CARD_SET_CORE_HIDDEN	Set Principale (non valido)	
 GLOBAL_CARD_SET_CORE_SEARCHABLE_SHORTHAND_NAMES	principale	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_CORE_SHORT	Principale	
 GLOBAL_CARD_SET_DALARAN	L'ascesa delle ombre	
@@ -590,6 +594,7 @@ GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_NO_TWIST_SEASON	Imprevedibile non è al mome
 GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_TAVERN_BRAWL_NOT_CHALLENGEABLE	Non è possibile sfidare un amico durante questa Rissa.	
 GLOBAL_FRIENDLIST_CURRENT_GAMES_HEADER	PARTITE IN CORSO - {0}	0=number of friends you have unfinished games with
 GLOBAL_FRIENDLIST_CURRENT_OPPONENT_STATUS	Avversario attuale!	
+GLOBAL_FRIENDLIST_CURRENT_TEAMMATE_STATUS	Partner attuale!	
 GLOBAL_FRIENDLIST_CURRENTLY_SPECTATING_STATUS	Spettatore attuale	
 GLOBAL_FRIENDLIST_FORMER_FRIEND_STATUS	Ex amico	
 GLOBAL_FRIENDLIST_FRIENDS_HEADER	AMICI - {0}/{1} online	0=number of online friends 1=number of offline friends
@@ -605,6 +610,7 @@ GLOBAL_FRIENDLIST_RECENT_CHALLENGED_STATUS	Sfidato di recente
 GLOBAL_FRIENDLIST_RECENT_CHATTED_STATUS	Contattato di recente	
 GLOBAL_FRIENDLIST_RECENT_OPPONENT_STATUS	Avversario recente	
 GLOBAL_FRIENDLIST_RECENT_PLAYERS_HEADER	RECENTI - {0}	0=number of players
+GLOBAL_FRIENDLIST_RECENT_TEAMMATE_STATUS	Partner recente	
 GLOBAL_FRIENDLIST_RECENTLY_SPECTATING_STATUS	Spettatore di recente	
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_ALERT_MESSAGE	Vuoi davvero rimuovere {0}?	0=friend name
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_BUTTON	Rimuovi	
@@ -699,8 +705,12 @@ GLOBAL_KEYWORD_BACON_BUY_BUDDY	Ottieni il tuo Amico
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_2	Ottieni 2 Amici	
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_2_TEXT	Vittoria/Pareggio: costa (3) in meno\nSconfitta: costa (2) in meno	
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_TEXT	Vittoria/Pareggio: costa (3) in meno\nSconfitta: costa (2) in meno	
+GLOBAL_KEYWORD_BACON_CONSUME	Consuma	
+GLOBAL_KEYWORD_BACON_CONSUME_TEXT	Rimuovi un servitore per ottenere le sue statistiche.	
 GLOBAL_KEYWORD_BACON_FREEZE	Congelamento	
 GLOBAL_KEYWORD_BACON_FREEZE_TEXT	I servitori Congelati restano in vendita nel turno successivo.	
+GLOBAL_KEYWORD_BACON_PASS	Passa	
+GLOBAL_KEYWORD_BACON_PASS_TEXT	Manda nella mano del tuo partner.	
 GLOBAL_KEYWORD_BACON_PUTRICIDESCREATION	Creazione di Putricidio	
 GLOBAL_KEYWORD_BACON_PUTRICIDESCREATION_TEXT	Non può creare una Tripla.	
 GLOBAL_KEYWORD_BACON_QUEST	Missione	
@@ -1595,11 +1605,11 @@ GLOBAL_TOOLTIP_MENU_DESC	Accedi alle opzioni, esci dal gioco e altro ancora.
 GLOBAL_TOOLTIP_MENU_HEADER	Menu di gioco	
 GLOBAL_TOOLTIP_MENU_OFFLINE_DESC	Sei attualmente offline. Clicca qui per riconnetterti.	
 GLOBAL_TOOLTIP_MENU_OFFLINE_HEADER	Offline	
-GLOBAL_TOOLTIP_MODE_CASUAL	Goditi una partita amichevole di Hearthstone con qualsiasi mazzo.	
-GLOBAL_TOOLTIP_MODE_STANDARD	Sfida gli altri giocatori in una partita competitiva.	
-GLOBAL_TOOLTIP_MODE_TWIST	Gioca ad Hearthstone con regole che cambiano ogni mese.	
-GLOBAL_TOOLTIP_MODE_TWIST_SEASON_DISABLED	Gioca ad Hearthstone con regole che cambiano ogni mese. Questa modalità di gioco sarà bloccata fino all'inizio della prossima stagione.	
-GLOBAL_TOOLTIP_MODE_WILD	Crea un mazzo con carte di qualsiasi set e affronta i tuoi avversari.	
+GLOBAL_TOOLTIP_MODE_CASUAL	Goditi qualsiasi modalità di gioco usando un mazzo di tua scelta senza che influisca sul tuo grado.	
+GLOBAL_TOOLTIP_MODE_STANDARD	Sfida i giocatori del tuo stesso livello di abilità in una partita.	
+GLOBAL_TOOLTIP_MODE_TWIST	Gioca ad Hearthstone con regole che cambiano ogni stagione.	
+GLOBAL_TOOLTIP_MODE_TWIST_SEASON_DISABLED	Gioca ad Hearthstone con regole che cambiano ogni stagione. Questa modalità di gioco sarà bloccata fino all'inizio della prossima stagione.	
+GLOBAL_TOOLTIP_MODE_WILD	Combatti contro gli avversari con carte di qualsiasi set.	
 GLOBAL_TUTORIAL_ATTACK	Attacco	
 GLOBAL_TUTORIAL_ATTACKER	Attaccante	
 GLOBAL_TUTORIAL_COST	Costo	

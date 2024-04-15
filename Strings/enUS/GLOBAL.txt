@@ -62,6 +62,7 @@ GLOBAL_BUTTON_GO	Go!
 GLOBAL_BUTTON_MORE_INFO	More Info
 GLOBAL_BUTTON_GOT_IT	Got It!
 GLOBAL_BUTTON_SUBMIT	Submit
+GLOBAL_BUTTON_DOWNLOAD	Download Now
 GLOBAL_CARD_SET_BASIC	Basic
 GLOBAL_CARD_SET_EXPERT1	Classic
 GLOBAL_CARD_SET_HOF	Hall of Fame
@@ -146,6 +147,7 @@ GLOBAL_CARD_SET_CORE_SEARCHABLE_SHORTHAND_NAMES	core	This is a space-separated l
 GLOBAL_CARD_SET_VANILLA	Classic
 GLOBAL_CARD_SET_VANILLA_SHORT	Classic
 GLOBAL_CARD_SET_VANILLA_FORMAT_SHORT	Classic
+GLOBAL_CARD_SET_CORE_HIDDEN	Core (Invalid)
 GLOBAL_CARD_SET_VANILLA_FORMAT_SEARCHABLE_SHORTHAND_NAMES	clfmt	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_SW	United in Stormwind
 GLOBAL_CARD_SET_SW_SHORT	Stormwind
@@ -249,6 +251,10 @@ GLOBAL_KEYWORD_BACON_BUY_BUDDY	Get your Buddy
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_TEXT	Win/Tie - Costs (3) less\nLoss - Costs (2) less
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_2	Get 2 Buddies
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_2_TEXT	Win/Tie - Costs (3) less\nLoss - Costs (2) less
+GLOBAL_KEYWORD_BACON_CONSUME	Consume
+GLOBAL_KEYWORD_BACON_CONSUME_TEXT	Remove a minion to gain its stats.
+GLOBAL_KEYWORD_BACON_PASS	Pass
+GLOBAL_KEYWORD_BACON_PASS_TEXT	Send to your teammate's hand.
 GLOBAL_KEYWORD_BATTLECRY_TEXT_MERC	Does something when played from your hand or summoned by a Merc.
 GLOBAL_KEYWORD_CHARGE	Charge
 GLOBAL_KEYWORD_CHARGE_TEXT	Can attack immediately.
@@ -487,12 +493,12 @@ GLOBAL_KEYWORD_BONUSEFFECTS	Bonus Effects
 GLOBAL_KEYWORD_BONUSEFFECTS_TEXT	Divine Shield, Lifesteal, Poisonous, Reborn, Rush, Stealth, Taunt, Windfury
 GLOBAL_KEYWORD_VENOMOUS	Venomous
 GLOBAL_KEYWORD_VENOMOUS_TEXT	Destroy the first minion this deals damage to.
-GLOBAL_ATTACK	Attack	
-GLOBAL_COST	Cost	
-GLOBAL_HEALTH	Health	
-GLOBAL_KEYWORD_WILD	Wild	
-GLOBAL_KEYWORD_WILD_TEXT	Wild cards are cards from Hearthstone's past no longer allowed in Standard.	
-GLOBAL_KEYWORD_FORGE	Forge		
+GLOBAL_ATTACK	Attack
+GLOBAL_COST	Cost
+GLOBAL_HEALTH	Health
+GLOBAL_KEYWORD_WILD	Wild
+GLOBAL_KEYWORD_WILD_TEXT	Wild cards are cards from Hearthstone's past no longer allowed in Standard.
+GLOBAL_KEYWORD_FORGE	Forge
 GLOBAL_KEYWORD_FORGE_TEXT	Drag this to your deck to spend (2) Mana for an upgrade.
 GLOBAL_KEYWORD_FORGED	Forged
 GLOBAL_KEYWORD_FORGED_TEXT	Upgraded after dragging this to your deck and spending (2) Mana.
@@ -642,6 +648,7 @@ GLOBAL_ASSET_DOWNLOAD_CELLULAR_DATA_BODY	Download with cellular data.
 GLOBAL_ASSET_DOWNLOAD_CELLULAR_POPUP_HEADER	Cellular Data
 GLOBAL_ASSET_DOWNLOAD_CELLULAR_POPUP_INITIAL_BODY	Wi-Fi is not available. Do you want to download the remaining {0} of required data over cellular?
 GLOBAL_ASSET_DOWNLOAD_CELLULAR_POPUP_ADDITIONAL_BODY	Wi-Fi is not available. Do you want to download the remaining {0} of additional data over cellular?
+GLOBAL_ASSET_DOWNLOAD_FIRST_DOWNLOAD_BODY	Additional Data Needed - {0}\n\nHearthstone needs to download additional data so you can play the full game.
 GLOBAL_ASSET_DOWNLOAD_IOS_REQ_POPUP_HEADER	Additional Data
 GLOBAL_ASSET_DOWNLOAD_IOS_REQ_POPUP_BODY	Download available. Do you want to download the remaining {0}?
 GLOBAL_ASSET_DOWNLOAD_DETAILS_HIGHRES	High-res textures
@@ -853,12 +860,14 @@ GLOBAL_FRIENDLIST_REMOVE_FRIEND_ALERT_MESSAGE	Are you sure you want to remove {0
 GLOBAL_FRIENDLIST_MYSTATUS	ONLINE
 GLOBAL_FRIENDLIST_BUSYSTATUS	Busy
 GLOBAL_FRIENDLIST_RECENT_OPPONENT_STATUS	Recent opponent
+GLOBAL_FRIENDLIST_RECENT_TEAMMATE_STATUS	Recent teammate
 GLOBAL_FRIENDLIST_FORMER_FRIEND_STATUS	Former friend
 GLOBAL_FRIENDLIST_NEW_FRIEND_STATUS	New friend!
 GLOBAL_FRIENDLIST_RECENT_CHALLENGED_STATUS	Recently challenged
 GLOBAL_FRIENDLIST_RECENT_CHATTED_STATUS	Recently chatted
 GLOBAL_FRIENDLIST_LAST_OPPONENT_STATUS	Last opponent
 GLOBAL_FRIENDLIST_CURRENT_OPPONENT_STATUS	Current opponent!
+GLOBAL_FRIENDLIST_CURRENT_TEAMMATE_STATUS	Current teammate!
 GLOBAL_FRIENDLIST_CURRENTLY_SPECTATING_STATUS	Currently spectating
 GLOBAL_FRIENDLIST_RECENTLY_SPECTATING_STATUS	Recently spectated
 GLOBAL_FRIENDLIST_LASTPLAYED	Last Played:
@@ -1261,11 +1270,11 @@ GLOBAL_TOOLTIP_MENU_OFFLINE_HEADER	Offline
 GLOBAL_TOOLTIP_MENU_OFFLINE_DESC	You are currently offline. Click here to reconnect.
 GLOBAL_TOOLTIP_FRIEND_BUTTON_HEADER	Friends
 GLOBAL_TOOLTIP_FRIEND_BUTTON_DESC	Chat with and challenge your friends.
-GLOBAL_TOOLTIP_MODE_TWIST	Play Hearthstone with a rotating rule set every month.
-GLOBAL_TOOLTIP_MODE_TWIST_SEASON_DISABLED	Play Hearthstone with a rotating rule set every month. This game mode is locked until the next season starts.
-GLOBAL_TOOLTIP_MODE_STANDARD	Challenge players to a match in a competitive setting.
-GLOBAL_TOOLTIP_MODE_WILD	Create a deck with cards from any set and battle opponents.
-GLOBAL_TOOLTIP_MODE_CASUAL	Enjoy a casual game of Hearthstone with any deck.
+GLOBAL_TOOLTIP_MODE_TWIST	Play Hearthstone with a rotating rule set every season.
+GLOBAL_TOOLTIP_MODE_TWIST_SEASON_DISABLED	Play Hearthstone with a rotating rule set every season. This game mode is locked until the next season starts.
+GLOBAL_TOOLTIP_MODE_STANDARD	Challenge players of a similar skill to a match.
+GLOBAL_TOOLTIP_MODE_WILD	Battle opponents with cards from any set.
+GLOBAL_TOOLTIP_MODE_CASUAL	Enjoy any game mode using any deck without affecting your rank.
 GLOBAL_HEALTHY_GAMING_CHINA_LESS_THAN_THREE_HOURS	您累计在线时间已满{0}小时。
 GLOBAL_HEALTHY_GAMING_CHINA_THREE_HOURS	您累计在线时间已满{0}小时，请您下线休息，做适当身体活动。
 GLOBAL_HEALTHY_GAMING_CHINA_THREE_TO_FIVE_HOURS	您已经进入疲劳游戏时间，您的游戏收益将降为正常值的0%，为了您的健康，请尽快下线休息，做适当身体活动，合理安排学习生活。
@@ -1410,6 +1419,7 @@ GLOBAL_UPDATE	Update
 GLOBAL_ENABLE	Enable
 GLOBAL_DISABLE	Disable
 GLOBAL_ARENA_SEASON_ERROR_NOT_ACTIVE	Sorry. The requested Arena mode is no longer available. Please wait a few minutes and try again.
+GLOBAL_ARENA_ERROR_NOT_ENOUGH_CLASSES	Sorry, you must have at least three classes unlocked to play Arena.
 GLOBAL_BRAWLISEUM	Brawliseum
 GLOBAL_TWIST_SEASON_TITLE_116	New Age
 GLOBAL_TWIST_SEASON_DESCRIPTION_116	Experience this new twisted format; build a deck using only class cards since Ashes of Outland!
@@ -1612,7 +1622,6 @@ GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_CANCELLING	Cancelling...
 GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_UNINSTALLING	Uninstalling...
 GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_REMAINING	Remaining: {0}	0=Time remaining. (e.g. 21:30)
 GLOBAL_DOWNLOAD_MANAGER_FREE_SPACE	Available Space: {0}	{0}=Free spaces available on the device (e.g. 8.23 GB)
-GLOBAL_DOWNLOAD_MANAGER_PROGRESS_STATUS_QUEUED	Queued
 GLOBAL_DOWNLOAD_MANAGER_PAUSE_DOWNLOADS	Pause All
 GLOBAL_DOWNLOAD_MANAGER_RESUME_DOWNLOADS	Resume All
 GLOBAL_DOWNLOAD_MANAGER_OPTION_CELLULAR_DATA_LABEL	Cellular Data
@@ -1620,7 +1629,7 @@ GLOBAL_DOWNLOAD_MANAGER_OPTION_CELLULAR_DATA_DESC	Allow Hearthstone to use cellu
 GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_MODULE_POPUP_BODY_FORMAT	{0}\n\n{1}\n{2}	{0}=Prompt string, {1}=Module size, {2}=Device size available
 GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_MODULE_POPUP_TITLE	Uninstall	Popup title for removing a module
 GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_MODULE_POPUP_PROMPT	Uninstall {0}?	{0}=Module name to uninstall (e.g. Battlegrounds)
-GLOBAL_DOWNLOAD_MANAGER_CANCEL_MODULE_POPUP_TITLE	Cancel Download	
+GLOBAL_DOWNLOAD_MANAGER_CANCEL_MODULE_POPUP_TITLE	Cancel Download
 GLOBAL_DOWNLOAD_MANAGER_CANCEL_MODULE_POPUP_PROMPT	Cancel Downloading {0}?	{0}=Module name to cancel downloading (e.g. Battlegrounds)
 GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_OPTIONAL_ASSETS_POPUP_TITLE	High Quality Mode
 GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_OPTIONAL_ASSETS_POPUP_PROMPT	Opt out of High Quality Mode?\nYou will need to redownload the assets when opting back in.
@@ -1635,8 +1644,6 @@ GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_LOADING_POPUP_LOADING_MESSAGE	Uninstalling
 GLOBAL_DOWNLOAD_MANAGER_UNINSTALL_LOADING_POPUP_COMPLETE_MESSAGE	Uninstall complete
 GLOBAL_DOWNLOAD_MANAGER_CANCEL_LOADING_POPUP_LOADING_MESSAGE	Cancelling
 GLOBAL_DOWNLOAD_MANAGER_CANCEL_LOADING_POPUP_CANCEL_MESSAGE	Download canceled
-GLOBAL_MODULE_MERC	Mercenaries	Module name for merc
-GLOBAL_MODULE_ADVENTURE	Solo Adventures	Module name for adventure
 GLOBAL_MODULE_BGS	Battlegrounds	Module name for battlegrounds
 GLOBAL_RECONNECT_FAIL_MODE_NOT_AVAILABLE	Unable to reconnect to game, mode {0} is not downloaded	{0}=Name of the mode, (e.g. Battlegrounds, Mercenaries, Solo Adventures)
 GLOBAL_GAME_MENU_BUTTON_DOWNLOAD_MANAGER	Downloads	Button label for Download manager on the Game Menu

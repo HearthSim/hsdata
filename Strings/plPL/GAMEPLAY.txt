@@ -11,6 +11,7 @@ GAMEPLAY_AMETHYST_SPELLSTONE_2	<i>(Otrzymaj obrażenia od twoich kart, aby uleps
 GAMEPLAY_AMETHYST_SPELLSTONE_3	<i>(Otrzymaj obrażenia od twoich kart, aby ulepszyć.)</i>	
 GAMEPLAY_BACON_ALTERNATE_PLAYER_NAME	Jako {0}	0=character hero name
 GAMEPLAY_BACON_BUY_TUTORIAL	Przeciągnij, aby kupić.	
+GAMEPLAY_BACON_CLICKING_ON_TEAMMATES_MINIONS	Nie możesz zagrywać kart na planszę towarzysza.	
 GAMEPLAY_BACON_COIN_TUTORIAL_1	Zakup stronnika <b>ZAWSZE</b> kosztuje 3 szt. złota.	
 GAMEPLAY_BACON_COIN_TUTORIAL_2	Nie zachowujesz niewykorzystanego złota.	
 GAMEPLAY_BACON_COMBAT_BODY_TUTORIAL	Stronnicy, którzy przeżyją walkę, pomagają ci zadawać dodatkowe obrażenia.\n\nIm wyższy poziom Karczmy, tym większe obrażenia!	
@@ -28,12 +29,32 @@ GAMEPLAY_BACON_DRAGSELL_BODY_TUTORIAL	Przeciągnij stronników do barmana, aby i
 GAMEPLAY_BACON_DRAGSELL_BUTTON_TUTORIAL	Sprzedaj	
 GAMEPLAY_BACON_DRAGSELL_TITLE_TUTORIAL	Sprzedaj stronników!	
 GAMEPLAY_BACON_DRAGSELL_TUTORIAL	Przeciągnij tu stronnika, aby go sprzedać.	
+GAMEPLAY_BACON_DUO_BONUS_DAMAGE_TUTORIAL	Jeśli jeden gracz pokona oba składy, jego towarzysz również zadaje obrażenia!	
+GAMEPLAY_BACON_DUO_COMBAT_ORDER_TUTORIAL	Bohater u góry walczy jako pierwszy.	
+GAMEPLAY_BACON_DUO_COMBAT_TUTORIAL	Do walki dołączają dwa składy – twój i twojego towarzysza.	
+GAMEPLAY_BACON_DUO_HEALTH_TUTORIAL	Drużyny mają wspólne zdrowie i pancerz.	
+GAMEPLAY_BACON_DUO_HERO_SWAP_TUTORIAL	Po znokautowaniu pierwszego gracza do gry wchodzi skład jego towarzysza!	
+GAMEPLAY_BACON_DUO_NO_GOLD_FOR_PASS	Przekazanie kosztuje (1) szt. złota.	
+GAMEPLAY_BACON_DUO_NO_PASS_FROM_BOARD	Standardowo można przekazywać tylko karty z ręki.	
+GAMEPLAY_BACON_DUO_PASS_TUTORIAL	Przeciągnij tutaj kartę, aby ją <b>Przekazać</b>. Kosztuje 1_szt. złota.	
+GAMEPLAY_BACON_DUO_PING_TUTORIAL	Kliknij obiekt prawym przyciskiem, aby zaczepić towarzysza.	
+GAMEPLAY_BACON_DUO_PING_TUTORIAL_PHONE	Dotknij obiektu dwoma palcami, aby zaczepić towarzysza.	
+GAMEPLAY_BACON_DUO_PING_WHEEL_TUTORIAL	Kliknij, aby wybrać, lub kliknij w innym miejscu, aby anulować.	
+GAMEPLAY_BACON_DUO_PING_WHEEL_TUTORIAL_PHONE	Dotknij, aby wybrać, lub dotknij w innym miejscu, aby anulować.	
+GAMEPLAY_BACON_DUO_RECEIVE_TUTORIAL	Towarzysz <b>Przekazuje</b> ci tę kartę!	
+GAMEPLAY_BACON_DUO_TEAMMATE_PINGED_TUTORIAL	Twój towarzysz cię zaczepia!	
+GAMEPLAY_BACON_DUO_VIEW_SELF_TUTORIAL	Kliknij, aby powrócić.	
+GAMEPLAY_BACON_DUO_VIEW_SELF_TUTORIAL_PHONE	Dotknij, aby powrócić.	
+GAMEPLAY_BACON_DUO_VIEW_TEAMMATE_TUTORIAL	Kliknij, aby przełączyć się na widok towarzysza.	
+GAMEPLAY_BACON_DUO_VIEW_TEAMMATE_TUTORIAL_PHONE	Dotknij, aby przełączyć się na widok towarzysza.	
 GAMEPLAY_BACON_ENEMY_MINION_TUTORIAL	Wybierz stronnika!	
 GAMEPLAY_BACON_FREEZE_TUTORIAL	Zamroź stronników, aby zatrzymać ich tutaj do następnej tury.	
 GAMEPLAY_BACON_MINION_MOVE_TUTORIAL	Przeciągnij w prawo, aby przestawić.	
 GAMEPLAY_BACON_MINION_UPGRADE_TAVERN_TUTORIAL	Ulepsz Karczmę!	
+GAMEPLAY_BACON_MULLIGAN_AI_TEAMMATE_NAME	Towarzysz SI	
 GAMEPLAY_BACON_MULLIGAN_AVAILABLE_RACES	Rodzaje stronników w tej grze:	
 GAMEPLAY_BACON_MULLIGAN_CHOOSE_HERO_BANNER	Wybierz bohatera	
+GAMEPLAY_BACON_MULLIGAN_TEAMMATE	Twój towarzysz: {0}	
 GAMEPLAY_BACON_MULLIGAN_WAITING_BANNER	Gotowi zawodnicy: {0}/{1}	0=number of players ready, 1=number of players in game
 GAMEPLAY_BACON_MULLIGAN_WAITING_BANNER_SUBTITLE	Pozostały czas:	
 GAMEPLAY_BACON_PLAY_MINION_TUTORIAL	Graj!	
@@ -119,8 +140,12 @@ GAMEPLAY_EMOTE_LABEL_WELL_PLAYED	Nieźle
 GAMEPLAY_EMOTE_LABEL_WOW	Wow	
 GAMEPLAY_EMOTE_SQUELCH	Wycisz	
 GAMEPLAY_EMOTE_SQUELCH_ALL	Wycisz wszystko	
+GAMEPLAY_EMOTE_SQUELCH_OPPONENTS	Wycisz przeciwników	
+GAMEPLAY_EMOTE_SQUELCH_TEAMMATE	Wycisz towarzysza	
 GAMEPLAY_EMOTE_UNSQUELCH	Anuluj wyciszenie	
 GAMEPLAY_EMOTE_UNSQUELCH_ALL	Wyłącz wyciszenie	
+GAMEPLAY_EMOTE_UNSQUELCH_OPPONENTS	Wyłącz wyciszenie przeciwników	
+GAMEPLAY_EMOTE_UNSQUELCH_TEAMMATE	Wyłącz wyciszenie towarzysza	
 GAMEPLAY_ENCHANTMENT_MULTIPLIER_HEADER	{0}x {1}	0= integer > 1, 1= enchantment name
 GAMEPLAY_END_OF_GAME_DEFEAT	Porażka!	
 GAMEPLAY_END_OF_GAME_DEFEAT_MAYBE	Porażka?	
@@ -197,16 +222,24 @@ GAMEPLAY_LOOT_526d_DARKNESS_2	Gdy twój przeciwnik dobierze jeszcze\ndwie Świec
 GAMEPLAY_LOOT_526d_DARKNESS_3	Gdy twój przeciwnik dobierze jeszcze\njedną Świecę, Ciemność przebudzi się!	
 GAMEPLAY_MANA_COUNTER	{0}/{1}	0=unused mana 1=current total mana
 GAMEPLAY_MISSING_OPPONENT_NAME	Twój przeciwnik	
+GAMEPLAY_MISSING_TEAMMATE_NAME	Twój towarzysz	
 GAMEPLAY_MOBILE_BATTLECRY_CANCELED	Okrzyk bojowy anulowany.	
 GAMEPLAY_MOBILE_TARGETING_CANCELED	Namierzanie anulowane.	
 GAMEPLAY_MULLIGAN_ANOMALIES	Anomalie	
 GAMEPLAY_MULLIGAN_ANOMALY	Anomalia	
 GAMEPLAY_MULLIGAN_ANOMALY_SUBTITLE	Losowy efekt w grze	
 GAMEPLAY_MULLIGAN_BEST_PLACE	Najlepszy wynik: {0} miejsce	0=The ordinal number (like 1st, 2nd, 3rd, etc), taken from ORDINAL_1, ORDINAL_2, etc.
+GAMEPLAY_MULLIGAN_CANCEL_CONFIRMATION	Anuluj	
+GAMEPLAY_MULLIGAN_CHO_GALL_1	Ogr gotowy	
+GAMEPLAY_MULLIGAN_CHO_GALL_2	Powrót do ogra	
+GAMEPLAY_MULLIGAN_CHO_GALL_3	Zostań ogrem	
+GAMEPLAY_MULLIGAN_CHO_GALL_4	Ogryfikacja	
+GAMEPLAY_MULLIGAN_CHO_GALL_5	Ogromorfoza	
 GAMEPLAY_MULLIGAN_REPLACE	DO WYMIANY	
 GAMEPLAY_MULLIGAN_STARTING_HAND	Ręka startowa	
 GAMEPLAY_MULLIGAN_SUBTITLE	Zatrzymaj lub wymień	
 GAMEPLAY_MULLIGAN_WAITING	Przeciwnik wciąż wybiera...	
+GAMEPLAY_MULLIGAN_WAITING_CONFIRMATION	Oczekiwanie	
 GAMEPLAY_MURLOC_HOLMES_CLUE	Wskazówka	
 GAMEPLAY_MURLOC_HOLMES_QUESTION_1	Którą kartę przeciwnik miał w ręce startowej?	
 GAMEPLAY_MURLOC_HOLMES_QUESTION_2	Którą kartę przeciwnik ma w ręce?	

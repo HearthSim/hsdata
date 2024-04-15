@@ -60,6 +60,7 @@ GLOBAL_ADVENTURE_TRAY_HEADER	Elige una aventura
 GLOBAL_APPROXIMATE_DATETIME	~{0}	0=time string
 GLOBAL_APPROXIMATE_DATETIME_RANGE	~{0} - {1}	0=min seconds 1=max seconds string
 GLOBAL_ARENA	Arena	
+GLOBAL_ARENA_ERROR_NOT_ENOUGH_CLASSES	Lo sentimos, pero debes haber desbloqueado al menos tres clases para jugar en la Arena.	
 GLOBAL_ARENA_MEDAL_0	Llave de novicio	
 GLOBAL_ARENA_MEDAL_1	Llave de aprendiz	
 GLOBAL_ARENA_MEDAL_10	Llave Natoescarcha	
@@ -96,6 +97,7 @@ GLOBAL_ASSET_DOWNLOAD_ERROR_AGENT_IMPEDED	Conexión lenta
 GLOBAL_ASSET_DOWNLOAD_ERROR_CELLULAR_DISABLED	Datos móviles deshabilitados	
 GLOBAL_ASSET_DOWNLOAD_ERROR_DOWNLOAD_DISABLED	Descarga deshabilitada	
 GLOBAL_ASSET_DOWNLOAD_ERROR_OUT_OF_STORAGE	Sin almacenamiento	
+GLOBAL_ASSET_DOWNLOAD_FIRST_DOWNLOAD_BODY	Datos adicionales necesarios: {0}\n\nHearthstone tiene que descargar datos adicionales para que puedas jugar al juego en su totalidad.	
 GLOBAL_ASSET_DOWNLOAD_GIGABYTE_SYMBOL	GB	
 GLOBAL_ASSET_DOWNLOAD_INTENTION_PAUSED	{0} (en pausa)	
 GLOBAL_ASSET_DOWNLOAD_IOS_REQ_POPUP_BODY	Descarga disponible. ¿Quieres descargar {0} de datos restantes?	
@@ -130,6 +132,7 @@ GLOBAL_BUTTON_AWESOME	¡Genial!
 GLOBAL_BUTTON_BUY	COMPRAR	
 GLOBAL_BUTTON_CLOSE	Cerrar	
 GLOBAL_BUTTON_CONVERT	Convertir	
+GLOBAL_BUTTON_DOWNLOAD	Descargar	
 GLOBAL_BUTTON_GO	¡Vamos!	
 GLOBAL_BUTTON_GOT_IT	¡Entendido!	
 GLOBAL_BUTTON_INFO_LETTER	i	
@@ -161,6 +164,7 @@ GLOBAL_CARD_SET_BT	Cenizas de Terrallende
 GLOBAL_CARD_SET_BT_SEARCHABLE_SHORTHAND_NAMES	ct cdt cenizas	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_BT_SHORT	Terrallende	
 GLOBAL_CARD_SET_CORE	Esencial	
+GLOBAL_CARD_SET_CORE_HIDDEN	Esencial (no válido)	
 GLOBAL_CARD_SET_CORE_SEARCHABLE_SHORTHAND_NAMES	esencial	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_CORE_SHORT	Esencial	
 GLOBAL_CARD_SET_DALARAN	El Auge de las Sombras	
@@ -590,6 +594,7 @@ GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_NO_TWIST_SEASON	El modo Giro no está dispon
 GLOBAL_FRIENDLIST_CHALLENGE_TOOLTIP_TAVERN_BRAWL_NOT_CHALLENGEABLE	El desafío amistoso no está disponible para esta pelea de taberna.	
 GLOBAL_FRIENDLIST_CURRENT_GAMES_HEADER	PARTIDAS ACTUALES - {0}	0=number of friends you have unfinished games with
 GLOBAL_FRIENDLIST_CURRENT_OPPONENT_STATUS	¡Oponente actual!	
+GLOBAL_FRIENDLIST_CURRENT_TEAMMATE_STATUS	¡Compañero actual!	
 GLOBAL_FRIENDLIST_CURRENTLY_SPECTATING_STATUS	Está observando	
 GLOBAL_FRIENDLIST_FORMER_FRIEND_STATUS	Antiguo amigo	
 GLOBAL_FRIENDLIST_FRIENDS_HEADER	AMIGOS - {0}/{1} |4(conectado,conectados)	0=number of online friends 1=number of offline friends
@@ -605,6 +610,7 @@ GLOBAL_FRIENDLIST_RECENT_CHALLENGED_STATUS	Duelo reciente
 GLOBAL_FRIENDLIST_RECENT_CHATTED_STATUS	Chat reciente	
 GLOBAL_FRIENDLIST_RECENT_OPPONENT_STATUS	Oponente reciente	
 GLOBAL_FRIENDLIST_RECENT_PLAYERS_HEADER	RECIENTE: {0}	0=number of players
+GLOBAL_FRIENDLIST_RECENT_TEAMMATE_STATUS	Compañero reciente	
 GLOBAL_FRIENDLIST_RECENTLY_SPECTATING_STATUS	Ha estado observando	
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_ALERT_MESSAGE	¿Seguro que quieres eliminar a {0}?	0=friend name
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_BUTTON	Eliminar	
@@ -699,8 +705,12 @@ GLOBAL_KEYWORD_BACON_BUY_BUDDY	Consigue a tu colega
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_2	Consigue dos colegas	
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_2_TEXT	Victoria o empate: cuesta (3) de oro menos.\nDerrota: cuesta (2) de oro menos.	
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_TEXT	Victoria o empate: cuesta (3) de oro menos.\nDerrota: cuesta (2) de oro menos.	
+GLOBAL_KEYWORD_BACON_CONSUME	Consumir	
+GLOBAL_KEYWORD_BACON_CONSUME_TEXT	Elimina un esbirro para obtener sus estadísticas.	
 GLOBAL_KEYWORD_BACON_FREEZE	Congelación	
 GLOBAL_KEYWORD_BACON_FREEZE_TEXT	Los esbirros congelados permanecen en la tienda el próximo turno.	
+GLOBAL_KEYWORD_BACON_PASS	Pasar	
+GLOBAL_KEYWORD_BACON_PASS_TEXT	Envía la carta a la mano de tu compañero.	
 GLOBAL_KEYWORD_BACON_PUTRICIDESCREATION	Creación de Putricidio	
 GLOBAL_KEYWORD_BACON_PUTRICIDESCREATION_TEXT	No se puede convertir en triple.	
 GLOBAL_KEYWORD_BACON_QUEST	Misión	
@@ -1595,11 +1605,11 @@ GLOBAL_TOOLTIP_MENU_DESC	Aquí puedes consultar las opciones, salir del juego y 
 GLOBAL_TOOLTIP_MENU_HEADER	Menú del juego	
 GLOBAL_TOOLTIP_MENU_OFFLINE_DESC	Estás sin conexión. Haz clic aquí para volver a conectarte.	
 GLOBAL_TOOLTIP_MENU_OFFLINE_HEADER	Sin conexión	
-GLOBAL_TOOLTIP_MODE_CASUAL	Disfruta de una partida de Hearthstone como aficionado con cualquier mazo.	
-GLOBAL_TOOLTIP_MODE_STANDARD	Desafía a otros jugadores a una partida en condiciones competitivas.	
-GLOBAL_TOOLTIP_MODE_TWIST	Juega a Hearthstone con un conjunto de reglas que cambia cada mes.	
-GLOBAL_TOOLTIP_MODE_TWIST_SEASON_DISABLED	Juega a Hearthstone con un conjunto de reglas que cambia cada mes. Este modo de juego estará bloqueado hasta que empiece la próxima temporada.	
-GLOBAL_TOOLTIP_MODE_WILD	Crea un mazo con cartas de cualquier conjunto y combate a tus oponentes.	
+GLOBAL_TOOLTIP_MODE_CASUAL	Disfruta de cualquier modo de juego usando cualquier mazo sin que afecte a tu rango.	
+GLOBAL_TOOLTIP_MODE_STANDARD	Desafía a una partida a jugadores con una habilidad semejante a la tuya.	
+GLOBAL_TOOLTIP_MODE_TWIST	Juega a Hearthstone con un conjunto de reglas que cambia cada temporada.	
+GLOBAL_TOOLTIP_MODE_TWIST_SEASON_DISABLED	Juega a Hearthstone con un conjunto de reglas que cambia cada temporada. Este modo de juego estará bloqueado hasta que empiece la próxima temporada.	
+GLOBAL_TOOLTIP_MODE_WILD	Combate a tus oponentes con cartas de cualquier conjunto.	
 GLOBAL_TUTORIAL_ATTACK	Ataque	
 GLOBAL_TUTORIAL_ATTACKER	Atacante	
 GLOBAL_TUTORIAL_COST	Coste	

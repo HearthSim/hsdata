@@ -11,6 +11,7 @@ GAMEPLAY_AMETHYST_SPELLSTONE_2	<i>(Zum Aufwerten Schaden durch eigene Karten erl
 GAMEPLAY_AMETHYST_SPELLSTONE_3	<i>(Zum Aufwerten Schaden durch eigene Karten erleiden.)</i>	
 GAMEPLAY_BACON_ALTERNATE_PLAYER_NAME	{0}	0=character hero name
 GAMEPLAY_BACON_BUY_TUTORIAL	Zieht den Diener, um ihn zu kaufen.	
+GAMEPLAY_BACON_CLICKING_ON_TEAMMATES_MINIONS	Ihr könnt auf dem Spielbrett Eures Teamkollegen keine Karten spielen.	
 GAMEPLAY_BACON_COIN_TUTORIAL_1	Diener kosten <b>immer</b> 3 Gold.	
 GAMEPLAY_BACON_COIN_TUTORIAL_2	Ungenutztes Gold geht verloren.	
 GAMEPLAY_BACON_COMBAT_BODY_TUTORIAL	Diener, die den Kampf überleben, erhöhen Euren Schaden.\n\nJe höher ihre Gasthausstufe, desto höher der Schaden!	
@@ -28,12 +29,32 @@ GAMEPLAY_BACON_DRAGSELL_BODY_TUTORIAL	Zieht Diener zu Eurem Barkeeper, um sie zu
 GAMEPLAY_BACON_DRAGSELL_BUTTON_TUTORIAL	Verkaufen	
 GAMEPLAY_BACON_DRAGSELL_TITLE_TUTORIAL	Diener verkaufen	
 GAMEPLAY_BACON_DRAGSELL_TUTORIAL	Zieht einen Diener hierher, um ihn zu verkaufen.	
+GAMEPLAY_BACON_DUO_BONUS_DAMAGE_TUTORIAL	Falls ein Spieler beide Truppen besiegt, fügt auch sein Teamkollege Schaden zu!	
+GAMEPLAY_BACON_DUO_COMBAT_ORDER_TUTORIAL	Der Held oben kämpft als erster.	
+GAMEPLAY_BACON_DUO_COMBAT_TUTORIAL	Sowohl Euer Trupp als auch der Eures Teamkollegen nehmen an jedem Kampf teil.	
+GAMEPLAY_BACON_DUO_HEALTH_TUTORIAL	Teams teilen sich Leben und Rüstung.	
+GAMEPLAY_BACON_DUO_HERO_SWAP_TUTORIAL	Sobald der erste Spieler besiegt ist, steigt sein Teamkollege ein!	
+GAMEPLAY_BACON_DUO_NO_GOLD_FOR_PASS	Weitergeben kostet (1) Gold.	
+GAMEPLAY_BACON_DUO_NO_PASS_FROM_BOARD	Nur Karten auf der Hand können auf die übliche Weise weitergegeben werden.	
+GAMEPLAY_BACON_DUO_PASS_TUTORIAL	Zieht eine Karte hierher, um sie <b>weiterzugeben</b>. Das kostet 1 Gold.	
+GAMEPLAY_BACON_DUO_PING_TUTORIAL	Mit einem Rechtsklick auf ein Objekt könnt Ihr euren Teamkollegen pingen.	
+GAMEPLAY_BACON_DUO_PING_TUTORIAL_PHONE	Tippt mit zwei Fingern auf ein Objekt, um euren Teamkollegen zu pingen.	
+GAMEPLAY_BACON_DUO_PING_WHEEL_TUTORIAL	Klickt zum Auswählen oder klickt daneben, damit es verschwindet.	
+GAMEPLAY_BACON_DUO_PING_WHEEL_TUTORIAL_PHONE	Tippt zum Auswählen oder tippt daneben, damit es verschwindet.	
+GAMEPLAY_BACON_DUO_RECEIVE_TUTORIAL	Euer Teamkollege hat das hier an Euch <b>weitergegeben</b>!	
+GAMEPLAY_BACON_DUO_TEAMMATE_PINGED_TUTORIAL	Euer Teamkollege hat Euch gepingt!	
+GAMEPLAY_BACON_DUO_VIEW_SELF_TUTORIAL	Klickt, um zurückzugehen.	
+GAMEPLAY_BACON_DUO_VIEW_SELF_TUTORIAL_PHONE	Tippt, um zurückzugehen.	
+GAMEPLAY_BACON_DUO_VIEW_TEAMMATE_TUTORIAL	Klickt, um die Ansicht eures Teamkollegen zu sehen.	
+GAMEPLAY_BACON_DUO_VIEW_TEAMMATE_TUTORIAL_PHONE	Tippt, um die Ansicht eures Teamkollegen zu sehen.	
 GAMEPLAY_BACON_ENEMY_MINION_TUTORIAL	Wählt einen Diener aus.	
 GAMEPLAY_BACON_FREEZE_TUTORIAL	Friert Diener ein, damit sie in der nächsten Runde wieder verfügbar sind.	
 GAMEPLAY_BACON_MINION_MOVE_TUTORIAL	Zieht Diener nach rechts, um sie neu anzuordnen.	
 GAMEPLAY_BACON_MINION_UPGRADE_TAVERN_TUTORIAL	Wertet das Gasthaus auf!	
+GAMEPLAY_BACON_MULLIGAN_AI_TEAMMATE_NAME	KI-Teamkollege	
 GAMEPLAY_BACON_MULLIGAN_AVAILABLE_RACES	Dienertypen in diesem Spiel:	
 GAMEPLAY_BACON_MULLIGAN_CHOOSE_HERO_BANNER	Wählt Euren Helden	
+GAMEPLAY_BACON_MULLIGAN_TEAMMATE	Euer Teamkollege ist {0}	
 GAMEPLAY_BACON_MULLIGAN_WAITING_BANNER	{0}/{1} Spieler bereit	0=number of players ready, 1=number of players in game
 GAMEPLAY_BACON_MULLIGAN_WAITING_BANNER_SUBTITLE	Verbleibende Zeit	
 GAMEPLAY_BACON_PLAY_MINION_TUTORIAL	Spielt ihn aus!	
@@ -119,8 +140,12 @@ GAMEPLAY_EMOTE_LABEL_WELL_PLAYED	Gut gespielt
 GAMEPLAY_EMOTE_LABEL_WOW	Wow	
 GAMEPLAY_EMOTE_SQUELCH	Emotes aus	
 GAMEPLAY_EMOTE_SQUELCH_ALL	Alle stummschalten	
+GAMEPLAY_EMOTE_SQUELCH_OPPONENTS	Gegner stummschalten	
+GAMEPLAY_EMOTE_SQUELCH_TEAMMATE	Teamkollegen stummschalten	
 GAMEPLAY_EMOTE_UNSQUELCH	Emotes an	
 GAMEPLAY_EMOTE_UNSQUELCH_ALL	Stummschalten aufheben	
+GAMEPLAY_EMOTE_UNSQUELCH_OPPONENTS	Stummschaltung der Gegner aufheben	
+GAMEPLAY_EMOTE_UNSQUELCH_TEAMMATE	Stummschaltung des Teamkollegen aufheben	
 GAMEPLAY_ENCHANTMENT_MULTIPLIER_HEADER	{0}x {1}	0= integer > 1, 1= enchantment name
 GAMEPLAY_END_OF_GAME_DEFEAT	Niederlage!	
 GAMEPLAY_END_OF_GAME_DEFEAT_MAYBE	Niederlage?	
@@ -197,16 +222,24 @@ GAMEPLAY_LOOT_526d_DARKNESS_2	Erwacht, wenn Euer Gegner 2 weitere Kerzen zieht!
 GAMEPLAY_LOOT_526d_DARKNESS_3	Erwacht, wenn Euer Gegner eine weitere Kerze zieht!	
 GAMEPLAY_MANA_COUNTER	{0}/{1}	0=unused mana 1=current total mana
 GAMEPLAY_MISSING_OPPONENT_NAME	Euer Gegner	
+GAMEPLAY_MISSING_TEAMMATE_NAME	Euer Teamkollege	
 GAMEPLAY_MOBILE_BATTLECRY_CANCELED	Kampfschrei abgebrochen.	
 GAMEPLAY_MOBILE_TARGETING_CANCELED	Zielwahl abgebrochen.	
 GAMEPLAY_MULLIGAN_ANOMALIES	Anomalien	
 GAMEPLAY_MULLIGAN_ANOMALY	Anomalie	
 GAMEPLAY_MULLIGAN_ANOMALY_SUBTITLE	Zufälliger Effekt im Spiel	
 GAMEPLAY_MULLIGAN_BEST_PLACE	Bestes Ergebnis: {0} Platz	0=The ordinal number (like 1st, 2nd, 3rd, etc), taken from ORDINAL_1, ORDINAL_2, etc.
+GAMEPLAY_MULLIGAN_CANCEL_CONFIRMATION	Abbrechen	
+GAMEPLAY_MULLIGAN_CHO_GALL_1	Her mit dem Oger	
+GAMEPLAY_MULLIGAN_CHO_GALL_2	Zum Oger zurückkehren	
+GAMEPLAY_MULLIGAN_CHO_GALL_3	Ein Oger werden	
+GAMEPLAY_MULLIGAN_CHO_GALL_4	Ogertastisch	
+GAMEPLAY_MULLIGAN_CHO_GALL_5	Ogerifizieren	
 GAMEPLAY_MULLIGAN_REPLACE	ERSETZT	
 GAMEPLAY_MULLIGAN_STARTING_HAND	Starthand	
 GAMEPLAY_MULLIGAN_SUBTITLE	   Karten behalten oder ersetzen   	
 GAMEPLAY_MULLIGAN_WAITING	Gegner wählt noch aus ...	
+GAMEPLAY_MULLIGAN_WAITING_CONFIRMATION	Warte	
 GAMEPLAY_MURLOC_HOLMES_CLUE	Hinweis	
 GAMEPLAY_MURLOC_HOLMES_QUESTION_1	Welche Karte war in der Starthand des Gegners?	
 GAMEPLAY_MURLOC_HOLMES_QUESTION_2	Welche Karte befindet sich auf der Hand des Gegners?	
