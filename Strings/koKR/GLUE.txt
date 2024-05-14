@@ -540,6 +540,7 @@ GLUE_BUTTON_REPLACE	교체
 GLUE_BUTTON_TAKE	선택	
 GLUE_BUTTON_UPGRADE	강화	
 GLUE_CANNOT_CONVERT_TO_TWIST_INVALID_CLASS	이 직업은 현재 시즌에 사용할 수 없으므로 덱을 전환할 수 없습니다.	
+GLUE_CANNOT_CONVERT_TO_TWIST_USING_HEROIC_DECKS	현재 변칙 시즌에는 이 덱을 전환할 수 없습니다.	
 GLUE_CANNOT_CONVERT_TO_TWIST_WITHOUT_SEASON	변칙 시즌이 활성화되지 않았을 때에는 이 덱을 전환할 수 없습니다.	
 GLUE_CANNOT_FIND_BATTLENET_CLIENT	하스스톤을 실행하는 데 필요한 블리자드 앱이 작동하지 않습니다. http://kr.battle.net/ko/에 접속하셔서 블리자드 앱을 재설치해주세요.	
 GLUE_CANNOT_RUN_BATTLENET_CLIENT	하스스톤을 실행하는 데 필요한 블리자드 앱이 작동하지 않습니다. http://kr.battle.net/ko/에 접속하셔서 블리자드 앱을 재설치해주세요.	
@@ -734,6 +735,7 @@ GLUE_COLLECTION_DECK_RULE_FINISH_AUTOMATICALLY	덱을 자동으로 완성하시�
 GLUE_COLLECTION_DECK_RULE_INVALID_CARDS	이 대전 방식에서 허용되지 않는 카드가 {0}장 있습니다.	
 GLUE_COLLECTION_DECK_RULE_INVALID_CARDS_NPR	수습생을 완료해야 사용할 수 있는 카드가 {0}장 포함되어 있습니다.	
 GLUE_COLLECTION_DECK_RULE_INVALID_CLASS_CARD	덱에 다른 직업의 카드가 {0}장 포함되어 있습니다.	
+GLUE_COLLECTION_DECK_RULE_LOCKED_DECK	잠긴 덱입니다.	
 GLUE_COLLECTION_DECK_RULE_MISSING_CARDS	덱을 완성하려면 카드가 {0}장 더 필요합니다.	
 GLUE_COLLECTION_DECK_RULE_NOT_ENOUGH_CARDS	해당 직업으로 덱을 완성하려면 {0}장의 카드가 더 필요합니다. 카드를 제작하거나 다른 직업으로 덱을 만들어보세요.	
 GLUE_COLLECTION_DECK_RULE_NOT_IN_CARDSET	허용되지 않는 세트의 카드가 {0}장 있습니다.	
@@ -746,6 +748,7 @@ GLUE_COLLECTION_DECK_TEMPLATE_REPLACE	덱 교체
 GLUE_COLLECTION_DECK_TEMPLATE_REPLACE_MESSAGE	기존의 덱을 삭제하고 견본 덱으로 대체합니다. 계속하시겠습니까?	
 GLUE_COLLECTION_DECK_TEMPLATE_SELECT_A_DECK	견본을 선택하여 자세한 정보를 알아보세요!	
 GLUE_COLLECTION_DECK_TWIST_INVALID_CLASS	클립보드에 변칙 덱이 있지만 이 직업은 현재 시즌에서 사용할 수 없습니다.	
+GLUE_COLLECTION_DECK_TWIST_INVALID_SEASON	클립보드에 변칙 덱이 있지만 현재 변칙 시즌에 유효하지 않은 덱입니다.	
 GLUE_COLLECTION_DECK_TWIST_NOT_ACTIVE	클립보드에 변칙 덱이 있지만 변칙 시즌이 활성화되지 않았습니다.	
 GLUE_COLLECTION_DECK_TWIST_NOT_UNLOCKED	클립보드에 변칙 덱이 있지만 변칙 대전 방식을 잠금 해제하지 않았습니다.	
 GLUE_COLLECTION_DECK_VALID_PASTE_BODY	클립보드에 복사한 덱으로 새로운 덱을 만드시겠습니까?	
@@ -1053,6 +1056,8 @@ GLUE_DISABLED_DECK_DESC	{0}전에서는 사용 불가	0=current format
 GLUE_DISABLED_DECK_HEADER	{0} 덱	0=deck format
 GLUE_DISABLED_DECK_HEADER_CLASS_LOCKED	직업 잠김	
 GLUE_DISABLED_DECK_IN_CURRENT_MODE_DESC	이 모드에서는 사용 불가	
+GLUE_DISABLED_DECK_MISSING_REQUIRED_CARD_DESC	{0} 보유 시 잠금 해제할 수 있습니다.	
+GLUE_DISABLED_DECK_MISSING_REQUIRED_CARD_HEADER	해제 가능 덱	
 GLUE_DONT_SHOW_ME_THIS_AGAIN	다시 표시 안 함	
 GLUE_DRAFT_HERO_INSTRUCTIONS	영웅 선택	
 GLUE_DRAFT_HERO_POWER_INSTRUCTIONS_DETAIL	두 번째 직업의 영웅 능력을 사용하고, 두 직업의 카드를 모두 선택할 수 있습니다.	
@@ -1176,6 +1181,8 @@ GLUE_GHOST_CARD_BANNED_DESCRIPTION	이 카드는 사용 금지되어 덱에 넣�
 GLUE_GHOST_CARD_BANNED_DESCRIPTION_TOUCH	이 카드는 사용 금지되어 덱에 넣을 수 없습니다.\n터치해서 다른 카드를 선택하세요.	
 GLUE_GHOST_CARD_BANNED_TITLE	사용 금지 카드	
 GLUE_GHOST_CARD_MISSING_DESCRIPTION	보유하지 않은 카드입니다. 클릭하여 카드를 교체하세요.	
+GLUE_GHOST_CARD_MISSING_DESCRIPTION_NO_REPLACE	보유하지 않은 카드입니다.	
+GLUE_GHOST_CARD_MISSING_DESCRIPTION_NO_REPLACE_TOUCH	보유하지 않은 카드입니다.	
 GLUE_GHOST_CARD_MISSING_DESCRIPTION_TOUCH	보유하지 않은 카드입니다. 터치하여 카드를 교체하세요.	
 GLUE_GHOST_CARD_MISSING_TITLE	보유하지 않은 카드	
 GLUE_GHOST_CARD_NEVER_VALID_DESCRIPTION	이 카드는 유효하지 않아 덱에 넣을 수 없습니다.\n클릭해서 다른 카드를 선택하세요.	
@@ -3324,7 +3331,7 @@ GLUE_TOURNAMENT_CLASSIC_DESC	초기 240장의 카드만 사용할 수 있습니�
 GLUE_TOURNAMENT_DESCRIPTION_CASUAL	모든 카드를 사용할 수 있습니다. 일반전에서 다른 플레이어와 대결해 보세요.	
 GLUE_TOURNAMENT_DESCRIPTION_CLASSIC	클래식 카드만 사용할 수 있습니다.	
 GLUE_TOURNAMENT_DESCRIPTION_STANDARD	핵심 세트 카드와 2년 내에 출시된 카드만 사용할 수 있습니다.	
-GLUE_TOURNAMENT_DESCRIPTION_TWIST	매달 다른 확장팩을 사용할 수 있습니다.	
+GLUE_TOURNAMENT_DESCRIPTION_TWIST	시즌마다 다른 확장팩을 사용할 수 있습니다.	
 GLUE_TOURNAMENT_DESCRIPTION_WILD	클래식 카드를 제외한 모든 카드를 사용할 수 있습니다.	
 GLUE_TOURNAMENT_MISSING_DECKS_CLASSIC	클래식 덱이 없습니다. 하나 만들어 보세요!	
 GLUE_TOURNAMENT_MISSING_DECKS_TWIST	변칙 덱이 없습니다. 하나 만들어보세요!	
@@ -3391,10 +3398,16 @@ GLUE_TUTORIAL_VIDEO_BANNER_BATTLEGROUNDS	자동으로 전투를 치르는 8인 �
 GLUE_TUTORIAL_VIDEO_BANNER_MERCENARIES	전리품과 영광을 손에 넣으려면 용병단을 꾸리고 레벨을 올려!	
 GLUE_TUTORIAL_VIDEO_BANNER_TRADITIONAL	카드를 수집하고 덱을 꾸린 다음, 대전 모드에서 맞대결을 펼치고 전설을 향해 올라가세요.	
 GLUE_TWIST_BACKER_TITLE	변칙 모드	
+GLUE_TWIST_CRAFTING_POPUP_DESCRIPTION	제작 화면으로 이동합니다.\n정말 변칙에서 나가시겠습니까?	
+GLUE_TWIST_CRAFTING_POPUP_TITLE	제작	
+GLUE_TWIST_DECK_TRAY_LISTING_TUTORIAL	이 덱에 포함된 카드를 확인하세요!	
+GLUE_TWIST_DECK_TRAY_TITLE	변칙 덱	
 GLUE_TWIST_LOGIN_POPUP_DESCRIPTION	적용되는 규칙과 카드 세트가 변화하는 새 게임 모드를 시도해 보세요!	
 GLUE_TWIST_NEW_DECK	변칙 덱은 변칙 모드에서만 사용할 수 있습니다.	
 GLUE_TWIST_NEW_MODE	변칙 게임입니다! 규칙이 항상 바뀌니 꼭 확인해 보세요!	
 GLUE_TWIST_RULES_POPUP_BUTTON	변칙 규칙	
+GLUE_TWIST_RULES_POPUP_DECKS	사용 가능한 덱	
+GLUE_TWIST_RULES_POPUP_REQUIRED	필요	
 GLUE_TWIST_RULES_POPUP_SETS	사용 가능한 세트	
 GLUE_TWIST_RULES_POPUP_TITLE	변칙 시즌 규칙	
 GLUE_TWIST_SEASON_START_HEADER	시작까지:	

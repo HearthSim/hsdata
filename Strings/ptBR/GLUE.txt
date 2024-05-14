@@ -540,6 +540,7 @@ GLUE_BUTTON_REPLACE	Substituir
 GLUE_BUTTON_TAKE	Pegar	
 GLUE_BUTTON_UPGRADE	Aprimorar	
 GLUE_CANNOT_CONVERT_TO_TWIST_INVALID_CLASS	Não é possível converter este deck, pois esta classe está indisponível na temporada atual.	
+GLUE_CANNOT_CONVERT_TO_TWIST_USING_HEROIC_DECKS	Não é possível converter este deck durante a temporada Imprevisível atual.	
 GLUE_CANNOT_CONVERT_TO_TWIST_WITHOUT_SEASON	Não é possível converter este deck quando não há nenhuma temporada Imprevisível ativa.	
 GLUE_CANNOT_FIND_BATTLENET_CLIENT	Hearthstone não conseguiu encontrar o aplicativo da Blizzard. Acesse www.battle.net para reinstalá-lo.	
 GLUE_CANNOT_RUN_BATTLENET_CLIENT	Hearthstone não conseguiu executar o aplicativo da Blizzard. Acesse www.battle.net para reinstalá-lo.	
@@ -734,6 +735,7 @@ GLUE_COLLECTION_DECK_RULE_FINISH_AUTOMATICALLY	Deseja completar o deck automatic
 GLUE_COLLECTION_DECK_RULE_INVALID_CARDS	Você tem {0} |4(card,cards) |4(inválido,inválidos) para este formato.	
 GLUE_COLLECTION_DECK_RULE_INVALID_CARDS_NPR	Você tem {0} |4(card,cards) que |4(requer,requerem) a conclusão do Aprendiz.	
 GLUE_COLLECTION_DECK_RULE_INVALID_CLASS_CARD	Seu deck contém {0} cards de outra classe.	
+GLUE_COLLECTION_DECK_RULE_LOCKED_DECK	Deck bloqueado	
 GLUE_COLLECTION_DECK_RULE_MISSING_CARDS	Você precisa de {0} |4(card,cards) para completar um deck.	
 GLUE_COLLECTION_DECK_RULE_NOT_ENOUGH_CARDS	Você precisa de mais {0} |4(card,cards) para completar este deck com esta classe. Experimente criar alguns cards ou montar um deck de outra classe.	
 GLUE_COLLECTION_DECK_RULE_NOT_IN_CARDSET	Você tem {0} |4(card,cards) que |4(é,são) de um conjunto inválido.	
@@ -746,6 +748,7 @@ GLUE_COLLECTION_DECK_TEMPLATE_REPLACE	Trocar Deck
 GLUE_COLLECTION_DECK_TEMPLATE_REPLACE_MESSAGE	Esta ação excluirá o deck existente e o substituirá pelo conteúdo do deck modelo, tem certeza?	
 GLUE_COLLECTION_DECK_TEMPLATE_SELECT_A_DECK	Escolha uma receita de deck para aprender mais!	
 GLUE_COLLECTION_DECK_TWIST_INVALID_CLASS	Você possui um deck de Imprevisível na sua área de transferência, mas esta classe está indisponível na temporada atual.	
+GLUE_COLLECTION_DECK_TWIST_INVALID_SEASON	Há um deck Imprevisível na área de transferência, mas ele não é válido para a temporada Imprevisível atual.	
 GLUE_COLLECTION_DECK_TWIST_NOT_ACTIVE	Há um deck Imprevisível na área de transferência, mas não há nenhuma temporada Imprevisível ativa.	
 GLUE_COLLECTION_DECK_TWIST_NOT_UNLOCKED	Há um deck Imprevisível na área de transferência, mas o modo Imprevisível ainda está bloqueado.	
 GLUE_COLLECTION_DECK_VALID_PASTE_BODY	Você deseja criar um novo deck com o que está na área de transferência?	
@@ -1053,6 +1056,8 @@ GLUE_DISABLED_DECK_DESC	Não pode ser usado no formato {0}.	0=current format
 GLUE_DISABLED_DECK_HEADER	Deck {0}	0=deck format
 GLUE_DISABLED_DECK_HEADER_CLASS_LOCKED	Classe bloqueada	
 GLUE_DISABLED_DECK_IN_CURRENT_MODE_DESC	Não pode ser usado neste modo.	
+GLUE_DISABLED_DECK_MISSING_REQUIRED_CARD_DESC	Desbloqueie este deck ao coletar {0}.	
+GLUE_DISABLED_DECK_MISSING_REQUIRED_CARD_HEADER	Deck desbloqueável	
 GLUE_DONT_SHOW_ME_THIS_AGAIN	Não mostre isso de novo	
 GLUE_DRAFT_HERO_INSTRUCTIONS	Escolha seu herói	
 GLUE_DRAFT_HERO_POWER_INSTRUCTIONS_DETAIL	Você receberá o Poder Heroico dessa e escolherá cards das duas classes.	
@@ -1176,6 +1181,8 @@ GLUE_GHOST_CARD_BANNED_DESCRIPTION	Este card foi banido. Não pode ser utilizado
 GLUE_GHOST_CARD_BANNED_DESCRIPTION_TOUCH	Este card foi banido. Não pode ser utilizado neste deck.\nToque para encontrar um substituto.	
 GLUE_GHOST_CARD_BANNED_TITLE	Card banido	
 GLUE_GHOST_CARD_MISSING_DESCRIPTION	Você não tem este card.\nClique para encontrar um substituto.	
+GLUE_GHOST_CARD_MISSING_DESCRIPTION_NO_REPLACE	Você não tem este card.	
+GLUE_GHOST_CARD_MISSING_DESCRIPTION_NO_REPLACE_TOUCH	Você não tem este card.	
 GLUE_GHOST_CARD_MISSING_DESCRIPTION_TOUCH	Você não tem este card.\nToque para encontrar um substituto.	
 GLUE_GHOST_CARD_MISSING_TITLE	Card faltando	
 GLUE_GHOST_CARD_NEVER_VALID_DESCRIPTION	Este card é inválido. Não pode ser utilizado neste deck.\nClique para encontrar um substituto.	
@@ -3324,7 +3331,7 @@ GLUE_TOURNAMENT_CLASSIC_DESC	Só os 240 cards originais podem ser usados.
 GLUE_TOURNAMENT_DESCRIPTION_CASUAL	Todos os cards estão disponíveis, jogue contra outros jogadores no Casual.	
 GLUE_TOURNAMENT_DESCRIPTION_CLASSIC	Só cards do formato Clássico podem ser usados.	
 GLUE_TOURNAMENT_DESCRIPTION_STANDARD	Só cards Essenciais e dos últimos 2 anos podem ser usados.	
-GLUE_TOURNAMENT_DESCRIPTION_TWIST	Expansões diferentes podem ser usadas todo mês.	
+GLUE_TOURNAMENT_DESCRIPTION_TWIST	Expansões diferentes podem ser usadas em todas as temporadas.	
 GLUE_TOURNAMENT_DESCRIPTION_WILD	Todos os cards podem ser usados, exceto do formato Clássico.	
 GLUE_TOURNAMENT_MISSING_DECKS_CLASSIC	Você não tem decks Clássicos. Crie um agora!	
 GLUE_TOURNAMENT_MISSING_DECKS_TWIST	Você não tem decks Imprevisíveis. Crie um agora!	
@@ -3391,10 +3398,16 @@ GLUE_TUTORIAL_VIDEO_BANNER_BATTLEGROUNDS	Monte sua tropa e dispute a coroa nessa
 GLUE_TUTORIAL_VIDEO_BANNER_MERCENARIES	Monte uma equipe de Mercenários para subir de nível enfrentando batalhas por recompensas e glória.	
 GLUE_TUTORIAL_VIDEO_BANNER_TRADITIONAL	Colecione cards, monte decks e lute para se tornar lendário nesse modo de jogo disputadíssimo!	
 GLUE_TWIST_BACKER_TITLE	Modo Imprevisível	
+GLUE_TWIST_CRAFTING_POPUP_DESCRIPTION	Isso te levará à tela de criação.\nTem certeza de que deseja sair do Imprevisível?	
+GLUE_TWIST_CRAFTING_POPUP_TITLE	Criação	
+GLUE_TWIST_DECK_TRAY_LISTING_TUTORIAL	Veja os cards deste deck!	
+GLUE_TWIST_DECK_TRAY_TITLE	Deck Imprevisível	
 GLUE_TWIST_LOGIN_POPUP_DESCRIPTION	Experimente nosso novíssimo modo de jogo com regras e conjuntos de cards alternantes!	
 GLUE_TWIST_NEW_DECK	Se você criar um deck Imprevisível, só poderá usá-lo em jogos Imprevisíveis.	
 GLUE_TWIST_NEW_MODE	Um jogo Imprevisível! As regras estão sempre mudando, então não deixe de conferi-las!	
-GLUE_TWIST_RULES_POPUP_BUTTON	Regras do modo Imprevisível	
+GLUE_TWIST_RULES_POPUP_BUTTON	Regras do modo	
+GLUE_TWIST_RULES_POPUP_DECKS	Decks disponíveis	
+GLUE_TWIST_RULES_POPUP_REQUIRED	Necessário	
 GLUE_TWIST_RULES_POPUP_SETS	Conjuntos válidos	
 GLUE_TWIST_RULES_POPUP_TITLE	Regras da Temporada Imprevisível	
 GLUE_TWIST_SEASON_START_HEADER	A partir de	

@@ -51,6 +51,7 @@ GLUE_COLLECTION_DECK_RULE_FINISH_AUTOMATICALLY	Do you want to finish the deck au
 GLUE_COLLECTION_DECK_RULE_NOT_ENOUGH_CARDS	You need {0} more |4(card,cards) to complete a deck with this class. Try crafting some cards or building a deck with a different class.
 GLUE_COLLECTION_DECK_RULE_NOT_IN_FORMAT	You have {0} |4(card,cards) that |4(is,are) invalid for this format.
 GLUE_COLLECTION_DECK_RULE_NOT_IN_CARDSET	You have {0} |4(card,cards) that |4(is,are) from an invalid set.
+GLUE_COLLECTION_DECK_RULE_LOCKED_DECK	Locked Deck.
 GLUE_COLLECTION_DECK_CHOICE_DESCRIPTION	One deck of your choice
 GLUE_COLLECTION_DECK_COMPLETE_POPUP_HEADER	Complete My Deck
 GLUE_COLLECTION_DECK_COMPLETE_POPUP_CONFIRM	Yes
@@ -185,6 +186,7 @@ GLUE_COLLECTION_DECK_TWIST_NOT_UNLOCKED	You have a Twist deck in your clipboard,
 GLUE_COLLECTION_DECK_CLASSIC_INVALID	You have an invalid deck in your clipboard.
 GLUE_COLLECTION_DECK_TWIST_NOT_ACTIVE	You have a Twist deck in your clipboard, but there is no active Twist season.
 GLUE_COLLECTION_DECK_TWIST_INVALID_CLASS	You have a Twist deck in your clipboard, but this class is unavailable for the current season.
+GLUE_COLLECTION_DECK_TWIST_INVALID_SEASON	You have a Twist deck in your clipboard, but it is not valid during the current Twist season.
 GLUE_COLLECTION_DECK_PASTE_POPUP_HEADER	Paste Deck
 GLUE_COLLECTION_DECK_OVERWRITE_BODY	Would you like to replace your current deck with the deck in your clipboard?
 GLUE_COLLECTION_DECK_OVERWRITE_HEADER	Replace Deck
@@ -1210,6 +1212,8 @@ GLUE_DISABLED_DECK_DESC	Not usable in {0} format.	0=current format
 GLUE_DISABLED_DECK_IN_CURRENT_MODE_DESC	Not usable in this mode.
 GLUE_DISABLED_DECK_HEADER_CLASS_LOCKED	Class locked
 GLUE_DISABLED_DECK_CLASS_LOCKED_DESC	Unlock this class to use this deck.
+GLUE_DISABLED_DECK_MISSING_REQUIRED_CARD_HEADER	Unlockable Deck
+GLUE_DISABLED_DECK_MISSING_REQUIRED_CARD_DESC	Unlock this deck by owning {0}.
 GLUE_LOCKED_DECK_HEADER	Locked
 GLUE_LOCKED_DECK_DESC	Complete the Traditional Hearthstone tutorial to unlock deck building.
 GLUE_QUEST_LOG_PHONE_BUTTON	Quests
@@ -1252,6 +1256,7 @@ GLUE_ARCANE_ORBS_CAP_BODY	You cannot acquire additional Arcane Orbs above {0}.
 GLUE_CANNOT_FIND_BATTLENET_CLIENT	Hearthstone requires the Blizzard desktop app, but cannot find it.  Please visit www.battle.net to re-install.
 GLUE_CANNOT_RUN_BATTLENET_CLIENT	Hearthstone requires the Blizzard desktop app, but cannot run it.  Please visit www.battle.net to re-install.
 GLUE_CANNOT_CONVERT_TO_TWIST_WITHOUT_SEASON	You cannot convert this deck when there is no active Twist season.
+GLUE_CANNOT_CONVERT_TO_TWIST_USING_HEROIC_DECKS	You cannot convert this deck during the current Twist season.
 GLUE_CANNOT_CONVERT_TO_TWIST_INVALID_CLASS	You cannot convert this deck because this class is unavailable for the current season.
 GLUE_COLLECTION_DECK_DELETE	Delete
 GLUE_COLLECTION_DECK_RENAME	Rename
@@ -1662,6 +1667,8 @@ GLUE_GHOST_CARD_BANNED_DESCRIPTION_TOUCH	This card is banned and cannot be used 
 GLUE_GHOST_CARD_MISSING_TITLE	Missing card
 GLUE_GHOST_CARD_MISSING_DESCRIPTION	You don't have this card.\nClick to find a replacement.
 GLUE_GHOST_CARD_MISSING_DESCRIPTION_TOUCH	You don't have this card.\nTap to find a replacement.
+GLUE_GHOST_CARD_MISSING_DESCRIPTION_NO_REPLACE	You don't have this card.
+GLUE_GHOST_CARD_MISSING_DESCRIPTION_NO_REPLACE_TOUCH	You don't have this card.
 GLUE_REQUIRED_CLIENT_STATIC_ASSETS_ERROR_MESSAGE	There was an error downloading additional client data.	This happens when an error occurred trying to download required assets from the server.
 GLUE_KARA_PROLOGUE_LOADING	Waiting for a delivery raven...
 GLUE_WELCOME_BUNDLE_RANDOM_CARD_SCROLL_TITLE	Welcome Bundle Legendary Card!
@@ -2792,7 +2799,7 @@ GLUE_CORE_SET_POPUP_SUBHEADER	Core set now available!
 GLUE_CORE_SET_POPUP_BODY	• 25 FREE Legendary cards\n• 31 new cards for deck-building
 GLUE_CORE_SET_POPUP_FOOTER	(Basic & Classic cards are now Wild)
 GLUE_TOURNAMENT_DESCRIPTION_CLASSIC	Only Classic format cards can be used.
-GLUE_TOURNAMENT_DESCRIPTION_TWIST	Different expansions can be used every month.
+GLUE_TOURNAMENT_DESCRIPTION_TWIST	Different expansions can be used every season.
 GLUE_TOURNAMENT_DESCRIPTION_STANDARD	Only Core and the last 2 years of cards can be used.
 GLUE_TOURNAMENT_DESCRIPTION_WILD	All cards except Classic format cards can be used.
 GLUE_TOURNAMENT_DESCRIPTION_CASUAL	All cards are available, play against other Casual players.
@@ -3431,13 +3438,19 @@ GLUE_STORE_SALE_PERCENT	{0}% Off	0=percent
 GLUE_STORE_SALE_AVERAGE_PERCENT	{0}%+ Off	0=percent
 GLUE_STORE_NEW_PLAYERS_ONLY	New Players Only
 GLUE_TWIST_BACKER_TITLE	Twist Mode
+GLUE_TWIST_DECK_TRAY_TITLE	Twist Deck
+GLUE_TWIST_DECK_TRAY_LISTING_TUTORIAL	View the cards in this deck!
 GLUE_TWIST_LOGIN_POPUP_DESCRIPTION	Try out our fresh new game mode with rotating rules and card sets!
 GLUE_TWIST_RULES_POPUP_BUTTON	Twist Rules
 GLUE_TWIST_RULES_POPUP_TITLE	Twist Season Rules
 GLUE_TWIST_RULES_POPUP_SETS	Valid Sets
+GLUE_TWIST_RULES_POPUP_DECKS	Available Decks
+GLUE_TWIST_RULES_POPUP_REQUIRED	Required
 GLUE_TWIST_NEW_DECK	If you make a Twist deck, you can only use it in Twist games.
 GLUE_TWIST_NEW_MODE	A Twist game! Rules are always changing, so be sure to check them out!
 GLUE_TWIST_SEASON_START_HEADER	Starts in
+GLUE_TWIST_CRAFTING_POPUP_TITLE	Crafting
+GLUE_TWIST_CRAFTING_POPUP_DESCRIPTION	This will take you to the crafting screen.\nAre you sure you want to navigate away from Twist?
 GLUE_TIME_MORE_THAN_A_MONTH	> 1 month
 GLUE_EXCLUDED_IN_TWIST_SCENARIO	This class is unavailable for the current season of Twist.
 GLUE_STORE_PACK_QUANTITY_HEADER	How many packs would you like?

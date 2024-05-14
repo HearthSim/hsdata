@@ -540,6 +540,7 @@ GLUE_BUTTON_REPLACE	交換する
 GLUE_BUTTON_TAKE	取る	
 GLUE_BUTTON_UPGRADE	アップグレード	
 GLUE_CANNOT_CONVERT_TO_TWIST_INVALID_CLASS	このクラスは現シーズンでは使用不能なため、変換できないぞ。	
+GLUE_CANNOT_CONVERT_TO_TWIST_USING_HEROIC_DECKS	このデッキは、現在のツイストシーズンの間は変換できないぞ。	
 GLUE_CANNOT_CONVERT_TO_TWIST_WITHOUT_SEASON	ツイストシーズン開催中じゃないと、このデッキは変換できないぞ。	
 GLUE_CANNOT_FIND_BATTLENET_CLIENT	ハースストーンの実行にはBlizzardデスクトップアプリが必要ですが、見つかりませんでした。www.battle.netを訪れ、再インストールしてください。	
 GLUE_CANNOT_RUN_BATTLENET_CLIENT	ハースストーンの実行にはBlizzardデスクトップアプリが必要ですが、起動できませんでした。www.battle.netを訪れ、再インストールしてください。	
@@ -734,6 +735,7 @@ GLUE_COLLECTION_DECK_RULE_FINISH_AUTOMATICALLY	お任せで完成させていい
 GLUE_COLLECTION_DECK_RULE_INVALID_CARDS	このフォーマットで使えないカードが{0}枚含まれてるぞ。	
 GLUE_COLLECTION_DECK_RULE_INVALID_CARDS_NPR	入門プレイヤーを卒業してからじゃないと使えないカードが{0}枚含まれてるぞ。	
 GLUE_COLLECTION_DECK_RULE_INVALID_CLASS_CARD	あんたのデッキには、他のクラス用のカードが{0}枚入ってるぞ。	
+GLUE_COLLECTION_DECK_RULE_LOCKED_DECK	未開放のデッキだ。	
 GLUE_COLLECTION_DECK_RULE_MISSING_CARDS	このデッキはカードが{0}枚足りないぞ。	
 GLUE_COLLECTION_DECK_RULE_NOT_ENOUGH_CARDS	このクラスでデッキを完成させるには、カードがあと{0}枚足りないな。カードを作成するか、別のクラスでデッキを組んでくれ。	
 GLUE_COLLECTION_DECK_RULE_NOT_IN_CARDSET	使えないセットのカードが{0}枚含まれてるぞ。	
@@ -746,6 +748,7 @@ GLUE_COLLECTION_DECK_TEMPLATE_REPLACE	デッキの入れ替え
 GLUE_COLLECTION_DECK_TEMPLATE_REPLACE_MESSAGE	今あるデッキが、テンプレートデッキの内容で上書きされるが、それでもいいのか？	
 GLUE_COLLECTION_DECK_TEMPLATE_SELECT_A_DECK	レシピを選んでくれ！	
 GLUE_COLLECTION_DECK_TWIST_INVALID_CLASS	クリップボードにツイストデッキがあるが、このクラスは現シーズンでは使用できないぞ。	
+GLUE_COLLECTION_DECK_TWIST_INVALID_SEASON	クリップボードにツイストデッキがあるが、これは現在のツイストシーズンでは使えないぞ。	
 GLUE_COLLECTION_DECK_TWIST_NOT_ACTIVE	クリップボードにツイストデッキがあるが、現在はツイストシーズンが開催中じゃないぞ。	
 GLUE_COLLECTION_DECK_TWIST_NOT_UNLOCKED	クリップボードにツイストデッキがあるが、あんたはまだツイストモードを開放してないぞ。	
 GLUE_COLLECTION_DECK_VALID_PASTE_BODY	クリップボードにあるデッキと同じものを、新しいデッキとして作るのかい？	
@@ -1053,6 +1056,8 @@ GLUE_DISABLED_DECK_DESC	{0}フォーマットでは使えないぞ。	0=current 
 GLUE_DISABLED_DECK_HEADER	{0}デッキだ	0=deck format
 GLUE_DISABLED_DECK_HEADER_CLASS_LOCKED	クラスが未開放	
 GLUE_DISABLED_DECK_IN_CURRENT_MODE_DESC	このモードでは使えないぞ。	
+GLUE_DISABLED_DECK_MISSING_REQUIRED_CARD_DESC	{0}を所有することにより開放。	
+GLUE_DISABLED_DECK_MISSING_REQUIRED_CARD_HEADER	開放可能デッキ	
 GLUE_DONT_SHOW_ME_THIS_AGAIN	二度と表示しない	
 GLUE_DRAFT_HERO_INSTRUCTIONS	ヒーローを選んでくれ	
 GLUE_DRAFT_HERO_POWER_INSTRUCTIONS_DETAIL	ヒーローパワーはそのクラスのもので、ドラフトするカードは両方のクラスが含まれるからな。	
@@ -1176,6 +1181,8 @@ GLUE_GHOST_CARD_BANNED_DESCRIPTION	これは禁止カードで、このデッキ
 GLUE_GHOST_CARD_BANNED_DESCRIPTION_TOUCH	これは禁止カードで、このデッキには入れられないぞ。\nタップで代わりのカードを探そう。	
 GLUE_GHOST_CARD_BANNED_TITLE	禁止カード	
 GLUE_GHOST_CARD_MISSING_DESCRIPTION	選択したカードを持っていません！\nクリックして使用できるカードを探しましょう。	
+GLUE_GHOST_CARD_MISSING_DESCRIPTION_NO_REPLACE	このカードを持っていないぞ。	
+GLUE_GHOST_CARD_MISSING_DESCRIPTION_NO_REPLACE_TOUCH	このカードを持っていないぞ。	
 GLUE_GHOST_CARD_MISSING_DESCRIPTION_TOUCH	選択したカードを持っていません！\nタップして使用できるカードを探しましょう。	
 GLUE_GHOST_CARD_MISSING_TITLE	未所持	
 GLUE_GHOST_CARD_NEVER_VALID_DESCRIPTION	これは無効なカードで、このデッキには入れられないぞ。\nクリックで代わりのカードを探そう。	
@@ -2632,7 +2639,7 @@ GLUE_STORE_LIMITED_TIME_OFFER_LAST_WEEK	今週まで！
 GLUE_STORE_LOOT_PREORDER_DATE	[x]12月中旬\n（*）から\n利用可能！	
 GLUE_STORE_LOOT_PREORDER_DUST_DATE	パックは12月中旬（*）\nから利用可能！	
 GLUE_STORE_MINI_SET_CARD_COUNT	カード{0}枚	
-GLUE_STORE_MINI_SET_LABEL	アップデート	
+GLUE_STORE_MINI_SET_LABEL	ミニセット	
 GLUE_STORE_MODE_ADVENTURE	アドベンチャー	
 GLUE_STORE_MODE_CARDS	カード	
 GLUE_STORE_MODE_HEROES	ヒーロー	
@@ -3324,7 +3331,7 @@ GLUE_TOURNAMENT_CLASSIC_DESC	オリジナル版のカード240種類だけを使
 GLUE_TOURNAMENT_DESCRIPTION_CASUAL	全てのカードが使用可能だ、カジュアルプレイヤー同士で対戦しよう。	
 GLUE_TOURNAMENT_DESCRIPTION_CLASSIC	クラシックフォーマットのカードだけが使えるぞ。	
 GLUE_TOURNAMENT_DESCRIPTION_STANDARD	コアセットと、最近2年以内に登場したカードだけが使えるぞ。	
-GLUE_TOURNAMENT_DESCRIPTION_TWIST	毎月異なる種類の拡張版が使えるぞ。	
+GLUE_TOURNAMENT_DESCRIPTION_TWIST	毎シーズン異なる種類の拡張版が使えるぞ。	
 GLUE_TOURNAMENT_DESCRIPTION_WILD	クラシックフォーマットを除く、全てのカードが使えるぞ。	
 GLUE_TOURNAMENT_MISSING_DECKS_CLASSIC	クラシックデッキがないようだな。ひとつ組んでくれ！	
 GLUE_TOURNAMENT_MISSING_DECKS_TWIST	ツイストデッキがないようだな。ひとつ組んでくれ！	
@@ -3391,10 +3398,16 @@ GLUE_TUTORIAL_VIDEO_BANNER_BATTLEGROUNDS	戦団を編成して戦わせる、8�
 GLUE_TUTORIAL_VIDEO_BANNER_MERCENARIES	傭兵団を作ってレベルアップさせ、賞金と栄光のために戦うのよ。	
 GLUE_TUTORIAL_VIDEO_BANNER_TRADITIONAL	カードを集めて、デッキを組んで、レジェンドを目指して戦う、1対1のゲームモード！	
 GLUE_TWIST_BACKER_TITLE	ツイストモード	
+GLUE_TWIST_CRAFTING_POPUP_DESCRIPTION	カードの作成画面に移動するぞ。\n本当にツイストから移動してもいいんだな？	
+GLUE_TWIST_CRAFTING_POPUP_TITLE	カードの作成	
+GLUE_TWIST_DECK_TRAY_LISTING_TUTORIAL	デッキにあるカードを確認しよう！	
+GLUE_TWIST_DECK_TRAY_TITLE	ツイストデッキ	
 GLUE_TWIST_LOGIN_POPUP_DESCRIPTION	ルールとカードセットがローテーションする、新たなゲームモードが登場だ！	
 GLUE_TWIST_NEW_DECK	ツイストデッキを作った場合は、ツイストルールの試合でしか使えないからな。	
 GLUE_TWIST_NEW_MODE	ツイストへようこそ！ルールは常に変わっていくから、しっかり確認しておいてくれ！	
 GLUE_TWIST_RULES_POPUP_BUTTON	ツイストルール	
+GLUE_TWIST_RULES_POPUP_DECKS	使用可能なデッキ	
+GLUE_TWIST_RULES_POPUP_REQUIRED	必要カード	
 GLUE_TWIST_RULES_POPUP_SETS	有効なセット	
 GLUE_TWIST_RULES_POPUP_TITLE	ツイストのシーズンルール	
 GLUE_TWIST_SEASON_START_HEADER	開始まで：	

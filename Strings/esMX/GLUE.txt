@@ -540,6 +540,7 @@ GLUE_BUTTON_REPLACE	Reemplazar
 GLUE_BUTTON_TAKE	Tomar	
 GLUE_BUTTON_UPGRADE	Mejorar	
 GLUE_CANNOT_CONVERT_TO_TWIST_INVALID_CLASS	No puedes convertir este mazo porque esta clase no está disponible para la temporada actual.	
+GLUE_CANNOT_CONVERT_TO_TWIST_USING_HEROIC_DECKS	No puedes convertir este mazo durante la temporada actual de Imprevisto.	
 GLUE_CANNOT_CONVERT_TO_TWIST_WITHOUT_SEASON	No puedes convertir este mazo cuando no hay una temporada de Imprevisto activa.	
 GLUE_CANNOT_FIND_BATTLENET_CLIENT	Hearthstone requiere la aplicación de escritorio de Blizzard, pero no puede encontrarla. Visita www.battle.net para volver a instalarla.	
 GLUE_CANNOT_RUN_BATTLENET_CLIENT	Hearthstone requiere la aplicación de escritorio de Blizzard, pero no puede ejecutarla. Visita www.battle.net para volver a instalarla.	
@@ -734,6 +735,7 @@ GLUE_COLLECTION_DECK_RULE_FINISH_AUTOMATICALLY	¿Quieres completar el mazo autom
 GLUE_COLLECTION_DECK_RULE_INVALID_CARDS	Tienes {0} |4(carta,cartas) |4(no válida,no válidas) para este formato.	
 GLUE_COLLECTION_DECK_RULE_INVALID_CARDS_NPR	Tienes {0} |4(carta,cartas) que |4(requiere,requieren) completar el modo Aprendiz.	
 GLUE_COLLECTION_DECK_RULE_INVALID_CLASS_CARD	Tu mazo contiene {0} cartas de otra clase.	
+GLUE_COLLECTION_DECK_RULE_LOCKED_DECK	Mazo bloqueado.	
 GLUE_COLLECTION_DECK_RULE_MISSING_CARDS	Necesitas {0} |4(carta,cartas) para completar el mazo.	
 GLUE_COLLECTION_DECK_RULE_NOT_ENOUGH_CARDS	Necesitas {0} |4(carta,cartas) más para completar un mazo con esta clase. Prueba crear algunas cartas o arma un mazo con otra clase.	
 GLUE_COLLECTION_DECK_RULE_NOT_IN_CARDSET	Tienes {0} |4(carta,cartas) que |4(es,son) de un kit no válido.	
@@ -746,6 +748,7 @@ GLUE_COLLECTION_DECK_TEMPLATE_REPLACE	Cambiar mazo
 GLUE_COLLECTION_DECK_TEMPLATE_REPLACE_MESSAGE	Si continúas, se borrará el mazo que tienes y se reemplazará con el contenido del mazo modelo. ¿Estás seguro?	
 GLUE_COLLECTION_DECK_TEMPLATE_SELECT_A_DECK	¡Selecciona una fórmula para obtener más información!	
 GLUE_COLLECTION_DECK_TWIST_INVALID_CLASS	Tienes un mazo de Imprevisto en tu portapapeles, pero esta clase no está disponible para la temporada actual.	
+GLUE_COLLECTION_DECK_TWIST_INVALID_SEASON	Tienes un mazo de Imprevisto en tu portapapeles, pero no es válido durante la temporada actual de Imprevisto.	
 GLUE_COLLECTION_DECK_TWIST_NOT_ACTIVE	Tienes un mazo Imprevisto en tu portapapeles, pero no hay una temporada activa de Imprevisto.	
 GLUE_COLLECTION_DECK_TWIST_NOT_UNLOCKED	Tienes un mazo Imprevisto en tu portapapeles, pero no has desbloqueado el modo Imprevisto.	
 GLUE_COLLECTION_DECK_VALID_PASTE_BODY	¿Quieres crear un mazo nuevo con el mazo de tu portapapeles?	
@@ -1053,6 +1056,8 @@ GLUE_DISABLED_DECK_DESC	No se puede usar en formato {0}.	0=current format
 GLUE_DISABLED_DECK_HEADER	Mazo {0}	0=deck format
 GLUE_DISABLED_DECK_HEADER_CLASS_LOCKED	Clase bloqueada	
 GLUE_DISABLED_DECK_IN_CURRENT_MODE_DESC	No se puede usar en este modo.	
+GLUE_DISABLED_DECK_MISSING_REQUIRED_CARD_DESC	Desbloquea este mazo con {0}.	
+GLUE_DISABLED_DECK_MISSING_REQUIRED_CARD_HEADER	Mazo desbloqueable	
 GLUE_DONT_SHOW_ME_THIS_AGAIN	No volver a mostrar	
 GLUE_DRAFT_HERO_INSTRUCTIONS	Elige tu héroe	
 GLUE_DRAFT_HERO_POWER_INSTRUCTIONS_DETAIL	Obtendrás su poder de héroe y podrás seleccionar cartas de ambas clases.	
@@ -1176,6 +1181,8 @@ GLUE_GHOST_CARD_BANNED_DESCRIPTION	Esta carta no está permitida y no se puede u
 GLUE_GHOST_CARD_BANNED_DESCRIPTION_TOUCH	Esta carta no está permitida y no se puede usar en este mazo.\nToca para buscar un reemplazo.	
 GLUE_GHOST_CARD_BANNED_TITLE	Carta no permitida	
 GLUE_GHOST_CARD_MISSING_DESCRIPTION	No tienes esta carta.\nHaz clic para buscar un reemplazo.	
+GLUE_GHOST_CARD_MISSING_DESCRIPTION_NO_REPLACE	No tienes esta carta.	
+GLUE_GHOST_CARD_MISSING_DESCRIPTION_NO_REPLACE_TOUCH	No tienes esta carta.	
 GLUE_GHOST_CARD_MISSING_DESCRIPTION_TOUCH	No tienes esta carta.\nToca para buscar un reemplazo.	
 GLUE_GHOST_CARD_MISSING_TITLE	Carta faltante	
 GLUE_GHOST_CARD_NEVER_VALID_DESCRIPTION	Esta carta no es válida y no se puede usar en este mazo.\nHaz clic para buscar un reemplazo.	
@@ -3324,7 +3331,7 @@ GLUE_TOURNAMENT_CLASSIC_DESC	Solo pueden usarse las 240 cartas originales.
 GLUE_TOURNAMENT_DESCRIPTION_CASUAL	Todas las cartas están disponibles: juega contra otros jugadores casuales.	
 GLUE_TOURNAMENT_DESCRIPTION_CLASSIC	Solo se pueden usar cartas del formato Clásico.	
 GLUE_TOURNAMENT_DESCRIPTION_STANDARD	Solo pueden usarse cartas esenciales y de los últimos dos años.	
-GLUE_TOURNAMENT_DESCRIPTION_TWIST	Se pueden usar expansiones diferentes en cada mes.	
+GLUE_TOURNAMENT_DESCRIPTION_TWIST	Se pueden usar expansiones diferentes en cada temporada.	
 GLUE_TOURNAMENT_DESCRIPTION_WILD	Se pueden usar todas las cartas excepto las del formato Clásico.	
 GLUE_TOURNAMENT_MISSING_DECKS_CLASSIC	No tienes ningún mazo clásico. ¡Vamos, crea uno!	
 GLUE_TOURNAMENT_MISSING_DECKS_TWIST	No tienes ningún mazo Imprevisto. ¡Vamos, crea uno!	
@@ -3391,10 +3398,16 @@ GLUE_TUTORIAL_VIDEO_BANNER_BATTLEGROUNDS	¡Arma tu tropa y pelea por la corona e
 GLUE_TUTORIAL_VIDEO_BANNER_MERCENARIES	¡Forma un grupo de Mercenarios y súbelos de nivel mientras luchan por botines y gloria!	
 GLUE_TUTORIAL_VIDEO_BANNER_TRADITIONAL	¡Colecciona cartas, arma mazos y conviértete en una leyenda en este modo de juego de uno contra uno!	
 GLUE_TWIST_BACKER_TITLE	Modo Imprevisto	
+GLUE_TWIST_CRAFTING_POPUP_DESCRIPTION	Esto te llevará a la pantalla de creación.\n¿Realmente deseas salir del modo Imprevisto?	
+GLUE_TWIST_CRAFTING_POPUP_TITLE	Creación	
+GLUE_TWIST_DECK_TRAY_LISTING_TUTORIAL	¡Mira las cartas de este mazo!	
+GLUE_TWIST_DECK_TRAY_TITLE	Mazo de Imprevisto	
 GLUE_TWIST_LOGIN_POPUP_DESCRIPTION	¡Prueba nuestro nuevo modo de juego con reglas y kits de cartas que cambian!	
 GLUE_TWIST_NEW_DECK	Si creas un mazo imprevisto, solo podrás usarlo en partidas de modo Imprevisto.	
 GLUE_TWIST_NEW_MODE	¡Una partida en el modo Imprevisto! ¡Las reglas están en constante cambio, así que asegúrate de revisarlas!	
 GLUE_TWIST_RULES_POPUP_BUTTON	Reglas de Imprevisto	
+GLUE_TWIST_RULES_POPUP_DECKS	Mazos disponibles	
+GLUE_TWIST_RULES_POPUP_REQUIRED	Necesario	
 GLUE_TWIST_RULES_POPUP_SETS	Kits válidos	
 GLUE_TWIST_RULES_POPUP_TITLE	Reglas de la temporada Imprevisto	
 GLUE_TWIST_SEASON_START_HEADER	Comienza en	

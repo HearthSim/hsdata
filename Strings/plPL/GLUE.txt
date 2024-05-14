@@ -373,7 +373,7 @@ GLUE_BACON_STATS_LABEL_MINIONS_DESTROYED	Zniszczeni\nstronnicy
 GLUE_BACON_STATS_LABEL_MOST_PURCHASED_MINIONS	Najczęściej kupowani stronnicy	
 GLUE_BACON_STATS_LABEL_PINGS_SENT	Zaczepienia	
 GLUE_BACON_STATS_LABEL_PLAYERS_ELIMINATED	Eliminacje\ngraczy	
-GLUE_BACON_STATS_LABEL_TEAMS_ELIMINATED	Wyeliminowane drużyny	
+GLUE_BACON_STATS_LABEL_TEAMS_ELIMINATED	Wyeliminowane\ndrużyny	
 GLUE_BACON_STATS_LABEL_TIME_PLAYED	Czas\ngry	
 GLUE_BACON_STATS_LABEL_TOP_5_HEROES_GAMES	5 najlepszych bohaterów wg rozegranych partii	
 GLUE_BACON_STATS_LABEL_TOP_5_HEROES_WINS	5 najlepszych bohaterów wg zwycięstw	
@@ -389,7 +389,7 @@ GLUE_BACON_STATS_VALUE_MINUTES_PLAYED	{0} |4(minuta,minuty,minut)
 GLUE_BACON_SUGGESTED_INVITE_BODY	Zaprosić gracza {0} do grupy w Ustawce?	0 = Battletag of player suggested to invite to party
 GLUE_BACON_SUGGESTED_INVITE_HEADER	Sugestia zaproszenia do Ustawki	
 GLUE_BACON_TITLE_ON_TICKET	Sezon	
-GLUE_BACON_TOP_2_LABEL	Najlepsze \n2 drużyny	
+GLUE_BACON_TOP_2_LABEL	Najlepsze\n2 drużyny	
 GLUE_BACON_TOP_4_LABEL	Najlepszych\n4 graczy	
 GLUE_BACON_TOP_4_REWARD_DESC	Gratulacje za zajęcie miejsca\nw pierwszej czwórce.	
 GLUE_BACON_VICTORY_BONUS_MESSAGE	Odblokuj bonusy i udoskonal swoją strategię.	
@@ -540,6 +540,7 @@ GLUE_BUTTON_REPLACE	Zastąp
 GLUE_BUTTON_TAKE	Weź	
 GLUE_BUTTON_UPGRADE	Ulepsz	
 GLUE_CANNOT_CONVERT_TO_TWIST_INVALID_CLASS	Nie możesz przekształcić tej talii, ponieważ ta klasa jest niedostępna w aktualnym sezonie.	
+GLUE_CANNOT_CONVERT_TO_TWIST_USING_HEROIC_DECKS	Nie możesz przekształcić tej talii w aktualnym sezonie Przeplatanki.	
 GLUE_CANNOT_CONVERT_TO_TWIST_WITHOUT_SEASON	Nie możesz przekształcić tej talii, gdy żaden sezon Przeplatanki nie jest aktywny.	
 GLUE_CANNOT_FIND_BATTLENET_CLIENT	Hearthstone wymaga aplikacji Blizzard, ale nie może jej znaleźć. Zainstaluj ją ponownie z witryny www.battle.net.	
 GLUE_CANNOT_RUN_BATTLENET_CLIENT	Hearthstone wymaga aplikacji Blizzard, ale nie może jej uruchomić. Zainstaluj ją ponownie z witryny www.battle.net.	
@@ -734,6 +735,7 @@ GLUE_COLLECTION_DECK_RULE_FINISH_AUTOMATICALLY	Czy chcesz uzupełnić talię aut
 GLUE_COLLECTION_DECK_RULE_INVALID_CARDS	Masz {0} |4(kartę,karty,kart), |4(która,które,które) nie |4(pasuje,pasują,pasują) do tego formatu.	
 GLUE_COLLECTION_DECK_RULE_INVALID_CARDS_NPR	Masz {0} |4(kartę,karty,kart), |4(która wymaga,które wymagają,które wymagają) ukończenia trybu Nowicjusz.	
 GLUE_COLLECTION_DECK_RULE_INVALID_CLASS_CARD	W twojej talii są karty ({0}) z innej klasy.	
+GLUE_COLLECTION_DECK_RULE_LOCKED_DECK	Talia zablokowana.	
 GLUE_COLLECTION_DECK_RULE_MISSING_CARDS	Do pełnej talii brakuje ci {0} |4(karty,kart,kart).	
 GLUE_COLLECTION_DECK_RULE_NOT_ENOUGH_CARDS	Potrzebujesz jeszcze {0} |4(kartę,karty,kart), żeby stworzyć talię dla tej klasy. Możesz stworzyć nowe karty albo przygotować talię dla innej klasy.	
 GLUE_COLLECTION_DECK_RULE_NOT_IN_CARDSET	Masz {0} |4(kartę,karty,kart), |4(która,które,które) |4(jest,są,są) z niewłaściwego zestawu.	
@@ -746,6 +748,7 @@ GLUE_COLLECTION_DECK_TEMPLATE_REPLACE	Zamień talię
 GLUE_COLLECTION_DECK_TEMPLATE_REPLACE_MESSAGE	Spowoduje to usunięcie istniejącej talii i zastąpienie jej zawartością szablonu talii. Na pewno chcesz to zrobić?	
 GLUE_COLLECTION_DECK_TEMPLATE_SELECT_A_DECK	Wybierz szablon talii, aby dowiedzieć się więcej!	
 GLUE_COLLECTION_DECK_TWIST_INVALID_CLASS	Masz w schowku talię do Przeplatanki, ale ta klasa jest niedostępna w aktualnym sezonie.	
+GLUE_COLLECTION_DECK_TWIST_INVALID_SEASON	Masz w schowku talię do Przeplatanki, ale nie jest ona prawidłowa w aktualnym sezonie Przeplatanki.	
 GLUE_COLLECTION_DECK_TWIST_NOT_ACTIVE	Masz w schowku talię do Przeplatanki, ale żaden sezon Przeplatanki nie jest obecnie aktywny.	
 GLUE_COLLECTION_DECK_TWIST_NOT_UNLOCKED	Masz w schowku talię do Przeplatanki, ale nie masz odblokowanego tego trybu.	
 GLUE_COLLECTION_DECK_VALID_PASTE_BODY	Chcesz stworzyć nową talię korzystając z tej, którą masz w schowku?	
@@ -1053,6 +1056,8 @@ GLUE_DISABLED_DECK_DESC	Nie można użyć w tym formacie ({0}).	0=current format
 GLUE_DISABLED_DECK_HEADER	Format talii: {0}	0=deck format
 GLUE_DISABLED_DECK_HEADER_CLASS_LOCKED	Klasa zablokowana	
 GLUE_DISABLED_DECK_IN_CURRENT_MODE_DESC	Nie można użyć w tym trybie.	
+GLUE_DISABLED_DECK_MISSING_REQUIRED_CARD_DESC	Odblokuj tę talię, zdobywając kartę {0}.	
+GLUE_DISABLED_DECK_MISSING_REQUIRED_CARD_HEADER	Talia do odblokowania	
 GLUE_DONT_SHOW_ME_THIS_AGAIN	Nie pokazuj tego ponownie	
 GLUE_DRAFT_HERO_INSTRUCTIONS	Wybierz bohatera	
 GLUE_DRAFT_HERO_POWER_INSTRUCTIONS_DETAIL	Otrzymasz jej moc specjalną i będziesz dobierać karty z obu klas.	
@@ -1176,6 +1181,8 @@ GLUE_GHOST_CARD_BANNED_DESCRIPTION	Ta karta została wykluczona i nie można uż
 GLUE_GHOST_CARD_BANNED_DESCRIPTION_TOUCH	Ta karta została wykluczona i nie można użyć jej w tej talii.\nStuknij, aby znaleźć zamiennik.	
 GLUE_GHOST_CARD_BANNED_TITLE	Wykluczona karta	
 GLUE_GHOST_CARD_MISSING_DESCRIPTION	Nie masz tej karty.\nKliknij, aby znaleźć zamiennik.	
+GLUE_GHOST_CARD_MISSING_DESCRIPTION_NO_REPLACE	Nie masz tej karty.	
+GLUE_GHOST_CARD_MISSING_DESCRIPTION_NO_REPLACE_TOUCH	Nie masz tej karty.	
 GLUE_GHOST_CARD_MISSING_DESCRIPTION_TOUCH	Nie masz tej karty.\nDotknij, aby znaleźć zamiennik.	
 GLUE_GHOST_CARD_MISSING_TITLE	Brakująca karta	
 GLUE_GHOST_CARD_NEVER_VALID_DESCRIPTION	Ta karta jest nieprawidłowa i nie można użyć jej w tej talii.\nKliknij, aby znaleźć zamiennik.	
@@ -3324,7 +3331,7 @@ GLUE_TOURNAMENT_CLASSIC_DESC	Można korzystać tylko\nz 240 oryginalnych kart.
 GLUE_TOURNAMENT_DESCRIPTION_CASUAL	Wszystkie karty są dostępne. Graj przeciwko innym graczom.	
 GLUE_TOURNAMENT_DESCRIPTION_CLASSIC	Można korzystać jedynie z kart formatu klasycznego.	
 GLUE_TOURNAMENT_DESCRIPTION_STANDARD	Korzystać można jedynie z kart bazowych oraz kart z ostatnich dwóch lat.	
-GLUE_TOURNAMENT_DESCRIPTION_TWIST	Co miesiąc można używać innych rozszerzeń.	
+GLUE_TOURNAMENT_DESCRIPTION_TWIST	Co sezon można używać innych rozszerzeń.	
 GLUE_TOURNAMENT_DESCRIPTION_WILD	Korzystać można ze wszystkich kart poza kartami formatu klasycznego.	
 GLUE_TOURNAMENT_MISSING_DECKS_CLASSIC	Nie masz żadnych talii klasycznych. Stwórz jakąś!	
 GLUE_TOURNAMENT_MISSING_DECKS_TWIST	Nie masz żadnych talii do Przeplatanki. Stwórz jakąś!	
@@ -3391,10 +3398,16 @@ GLUE_TUTORIAL_VIDEO_BANNER_BATTLEGROUNDS	Zbierz potężnych stronników i walcz 
 GLUE_TUTORIAL_VIDEO_BANNER_MERCENARIES	Stwórz i rozwijaj drużynę najemników, walcząc o nagrody i chwałę!	
 GLUE_TUTORIAL_VIDEO_BANNER_TRADITIONAL	Zbieraj karty, twórz talie i stawaj do pojedynków, aby stać się prawdziwą legendą!	
 GLUE_TWIST_BACKER_TITLE	Tryb Przeplatanki	
+GLUE_TWIST_CRAFTING_POPUP_DESCRIPTION	Przejdziesz do ekranu tworzenia.\nCzy na pewno chcesz opuścić Przeplatankę?	
+GLUE_TWIST_CRAFTING_POPUP_TITLE	Tworzenie	
+GLUE_TWIST_DECK_TRAY_LISTING_TUTORIAL	Zobacz karty z tej talii!	
+GLUE_TWIST_DECK_TRAY_TITLE	Talia do Przeplatanki	
 GLUE_TWIST_LOGIN_POPUP_DESCRIPTION	Wypróbuj ten zupełnie nowy tryb gry z rotującymi zasadami i zestawami kart!	
 GLUE_TWIST_NEW_DECK	Jeśli przygotujesz talię do Przeplatanki, to będzie można jej użyć tylko w grach w tym trybie.	
 GLUE_TWIST_NEW_MODE	Partia Przeplatanki! Reguły stale się zmieniają, więc nie zapomnij ich sprawdzić!	
 GLUE_TWIST_RULES_POPUP_BUTTON	Zasady Przeplatanki	
+GLUE_TWIST_RULES_POPUP_DECKS	Dostępne talie	
+GLUE_TWIST_RULES_POPUP_REQUIRED	Wymagane	
 GLUE_TWIST_RULES_POPUP_SETS	Obowiązujące zestawy	
 GLUE_TWIST_RULES_POPUP_TITLE	Reguły sezonu Przeplatanki	
 GLUE_TWIST_SEASON_START_HEADER	Rozpocznie się za	
