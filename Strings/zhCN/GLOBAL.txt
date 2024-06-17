@@ -259,6 +259,9 @@ GLOBAL_CARD_SET_ULDUM_SEARCHABLE_SHORTHAND_NAMES	奥丹姆 奇兵	This is a spac
 GLOBAL_CARD_SET_ULDUM_SHORT	奥丹姆	
 GLOBAL_CARD_SET_UNGORO	勇闯安戈洛	
 GLOBAL_CARD_SET_UNGORO_SHORT	安戈洛	
+GLOBAL_CARD_SET_VAC	胜地历险记	
+GLOBAL_CARD_SET_VAC_SEARCHABLE_SHORTHAND_NAMES	vac	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_VAC_SHORT	胜地历险记	
 GLOBAL_CARD_SET_VANILLA	经典	
 GLOBAL_CARD_SET_VANILLA_FORMAT_SEARCHABLE_SHORTHAND_NAMES	经典模式	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_VANILLA_FORMAT_SHORT	经典	
@@ -701,6 +704,8 @@ GLOBAL_KEYWORD_AUTOCAST	自动施放
 GLOBAL_KEYWORD_AUTOCAST_TEXT	这个英雄技能必须在每个回合都要使用。	
 GLOBAL_KEYWORD_AVENGE	复仇（X）	
 GLOBAL_KEYWORD_AVENGE_TEXT	在战斗阶段中，X个友方随从死亡后，它会产生一些效果。	
+GLOBAL_KEYWORD_BACON_BUDDY	伙伴	
+GLOBAL_KEYWORD_BACON_BUDDY_TEXT	与各英雄技能配套的强力随从。	
 GLOBAL_KEYWORD_BACON_BUY_BUDDY	获取你的伙伴	
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_2	获取2个伙伴	
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_2_TEXT	胜利/平局-消耗的铸币减少3枚\n失败-消耗的铸币减少2枚	
@@ -1291,9 +1296,9 @@ GLOBAL_PROGRESSION_REWARD_SUMMARY	{0}\n{1}
 GLOBAL_PROGRESSION_REWARD_TRACK_XP	{0}奖励经验值	
 GLOBAL_PROGRESSION_TIER_MESSAGE	{0}/{1}	
 GLOBAL_PROGRESSION_TOOLTIP_CLASS_DEFAULT_DESC	等级 {0}	
-GLOBAL_PROGRESSION_TOOLTIP_GOLDEN_WINS_DESC	使用{1}在排名模式，竞技模式或对决模式中赢得{0}场对战，就能够获得相应的金色经典英雄！	{0}=win count {1}=class name
-GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DESC	使用{1}在排名模式，竞技模式或对决模式中赢得{0}场对战，就能够获得{2}！	{0}=win count {1}=class name {2}=hero card name
-GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DONE_DESC	使用{1}在排名模式，竞技模式或对决模式中赢得了{0}场对战，你获得了{2}！	{0}=win count {1}=class name {2}=hero card name
+GLOBAL_PROGRESSION_TOOLTIP_GOLDEN_WINS_DESC	使用{1}在排名模式或竞技模式中赢得{0}场对战，就能够获得相应的金色经典英雄！	{0}=win count {1}=class name
+GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DESC	使用{1}在排名模式或竞技模式中赢得{0}场对战，就能够获得{2}！	{0}=win count {1}=class name {2}=hero card name
+GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DONE_DESC	使用{1}在排名模式或竞技模式中赢得了{0}场对战，你获得了{2}！	{0}=win count {1}=class name {2}=hero card name
 GLOBAL_PROGRESSION_TOOLTIP_TOTAL_CLASS_WINS	{0}总胜场	{0}=class name
 GLOBAL_PROGRESSION_WEEKLY_QUESTS_POPUP_TITLE	你的每周任务	
 GLOBAL_PVPDR_SEASON_ERROR_NOT_ACTIVE	抱歉，所需的对决赛季不可用。请稍后再试。	
@@ -1530,7 +1535,6 @@ GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_START_WITH_MANY_WINS	<color=#{0}>{1}</colo
 GLOBAL_SOCIAL_TOAST_FRIEND_DEATH_KNIGHT_LEVEL	<color=#{0}>{1}</color>成为了一个{2}级的死亡骑士。	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_DEMON_HUNTER_LEVEL	<color=#{0}>{1}</color>成为了一个{2}级的恶魔猎手。	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_DRUID_LEVEL	<color=#{0}>{1}</color>成为了一个{2}级的德鲁伊。	0=name color,1=player name,2=level
-GLOBAL_SOCIAL_TOAST_FRIEND_DUEL_START	<color=#{0}>{1}</color>在对决模式中的比赛开始了。	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_GOLDEN_LEGENDARY	<color=#{0}>{1}</color>开包获得了<color=#{3}>金色的{2}</color>！	0=name color,1=player name,2=card name,3=Golden Color
 GLOBAL_SOCIAL_TOAST_FRIEND_HEROIC_BRAWL_COMPLETE	<color=#{0}>{1}</color>在英雄乱斗模式中的比赛结束了。({2}-{3})	0=name color,1=player name,2=Heroic brawl Wins,3=Heroic brawl Losses
 GLOBAL_SOCIAL_TOAST_FRIEND_HEROIC_BRAWL_START	<color=#{0}>{1}</color>在英雄乱斗模式中的比赛开始了。	0=name color,1=player name
@@ -1640,6 +1644,7 @@ GLOBAL_TWIST_SEASON_DESCRIPTION_121	回到恐龙遍野的上古时代！安戈�
 GLOBAL_TWIST_SEASON_DESCRIPTION_124	没有传说牌？没关系！仅用巨龙年及其之前的各扩展包的普通卡牌和核心牌，组建出最好的套牌吧。	
 GLOBAL_TWIST_SEASON_DESCRIPTION_125	快速回顾《炉石传说》的十年历史！从只有怀旧系列开始，每天都会加入一个新的系列，直到现在的决战荒芜之地。	
 GLOBAL_TWIST_SEASON_DESCRIPTION_128	扮演威兹班的英雄，使用预构筑的多职业套牌，新的英雄技能以及被动特质。	
+GLOBAL_TWIST_SEASON_DESCRIPTION_129	扮演威兹班的英雄，使用预构筑的多职业套牌，新的英雄技能以及被动特质。	
 GLOBAL_TWIST_SEASON_TITLE_116	新的时代	
 GLOBAL_TWIST_SEASON_TITLE_117	新的时代	
 GLOBAL_TWIST_SEASON_TITLE_119	时光奇迹	
@@ -1648,6 +1653,7 @@ GLOBAL_TWIST_SEASON_TITLE_121	重游安戈洛
 GLOBAL_TWIST_SEASON_TITLE_124	普通之战	
 GLOBAL_TWIST_SEASON_TITLE_125	重播快进	
 GLOBAL_TWIST_SEASON_TITLE_128	威兹班的英雄	
+GLOBAL_TWIST_SEASON_TITLE_129	威兹班的英雄	
 GLOBAL_UNINSTALL_MODULE_POPUP_PROMPT	卸载{0}？	{0}=Module name to uninstall (e.g. Battlegrounds)
 GLOBAL_UPDATE	更新	
 GLOBAL_VERSION	版本	

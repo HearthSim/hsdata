@@ -1,4 +1,7 @@
 TAG	TEXT	COMMENT
+GLUE_TEST_STRFORMAT_NO_FORMAT	(DNT) Test String
+GLUE_TEST_STRFORMAT_FORMAT	(DNT) Formatted text: "{0}"
+GLUE_TEST_STRFORMAT_PLURAL	(DNT) {0} |4(Item,Items)
 GLUE_COLLECTION_SEARCH	Search
 GLUE_COLLECTION_DECK_HELP_BUTTON	Deck Helper
 GLUE_COLLECTION_DECK_COMPELTE_BUTTON	Complete My Deck
@@ -226,7 +229,7 @@ GLUE_TOOLTIP_DESCRIPTION_WILD_CARDS	Contains cards from all expansions. Can only
 GLUE_TOOLTIP_HEADER_VANILLA_CARDS	Classic
 GLUE_TOOLTIP_DESCRIPTION_VANILLA_CARDS	Contains Hearthstone's original cards. Can only be used in Classic format.
 GLUE_TOOLTIP_HEADER_TWIST_CARDS	Twist
-GLUE_TOOLTIP_DESCRIPTION_TWIST_CARDS	Contains cards from different sets that rotate every month. Can only be used in Twist format.
+GLUE_TOOLTIP_DESCRIPTION_TWIST_CARDS	Contains cards from different sets that rotate every season. Can only be used in Twist format.
 GLUE_MASS_DISENCHANT_HEADLINE	Mass Disenchant
 GLUE_MASS_DISENCHANT_HEADLINE_PHONE	Mass\nDisenchant
 GLUE_MASS_DISENCHANT_DETAILS_HEADLINE	Disenchant your extra cards to create Arcane Dust.
@@ -769,7 +772,7 @@ GLUE_TIP_DEFAULT_14 	Class Core cards are earned by unlocking each class. They c
 GLUE_TIP_DEFAULT_15	Playing against real players grants you bonus Reward XP.
 GLUE_TIP_DEFAULT_16	You can right-click on your opponent's hero to "Squelch" emotes.
 GLUE_TIP_DEFAULT_16_TOUCH	You can tap your opponent's hero to "Squelch" emotes.
-GLUE_TIP_DEFAULT_17	If you win 500 games in Ranked, Arena, or Duels mode with a class, you'll earn a Golden Hero.
+GLUE_TIP_DEFAULT_17	If you win 500 games in Ranked or Arena mode with a class, you'll earn a Golden Hero.
 GLUE_TIP_DEFAULT_18	You can add friends to your friends list with the button on the bottom left.
 GLUE_TIP_DEFAULT_18_PHONE	You can add friends to your friends list with the button on the top left.
 GLUE_TIP_DEFAULT_19	The highest rank in Ranked Mode is the “Legend” rank!
@@ -790,9 +793,9 @@ GLUE_TIP_DEFAULT_31	In Standard, the newest sets are in play so you don't have t
 GLUE_TIP_DEFAULT_32	You can complete quests while playing against friends.
 GLUE_TIP_DEFAULT_33	Complete quests with your friends by challenging them!
 GLUE_TIP_DEFAULT_34	Battlegrounds lets you play against seven other players in the Tavern.
-GLUE_TIP_DEFAULT_35	Duels lets you build a deck as you go. After each fight, you get to add more to your deck!
+GLUE_TIP_DEFAULT_35	Battlegrounds lets you play against seven other players in the Tavern.
 GLUE_TIP_DEFAULT_36	Unlocking the Tavern Pass allows you to get even more Reward XP.
-GLUE_TIP_DEFAULT_37	If you win 1000 games in Ranked, Arena, or Duels mode with a class, you'll get a Prestige Hero!
+GLUE_TIP_DEFAULT_37	If you win 1000 games in Ranked or Arena mode with a class, you'll get a Prestige Hero!
 GLUE_TIP_PRACTICE_0	You can unlock heroes by completing Apprentice.
 GLUE_TIP_PRACTICE_1	Practice Mode is just preparation for the Traditional Hearthstone game mode!
 GLUE_TIP_PRACTICE_2	The Traditional Hearthstone game mode will match you against someone of similar skill!
@@ -916,6 +919,8 @@ GLUE_TIP_BACON_22	When you upgrade to Tier 2, 4, or 6, an extra minion is added 
 GLUE_TIP_BACON_23	Minions trigger their end of turn effects in order from left to right.
 GLUE_TIP_BACON_24	Tavern spells are cards that can be bought to trigger a one-time effect.
 GLUE_TIP_BACON_25	Unlike minions, Tavern spells cannot be sold or tripled.
+GLUE_TIP_BACON_26	<b>Buddies</b> are powerful minions unique to each Hero Power.
+GLUE_TIP_BACON_27	The higher a <b>Buddy's</b> Tier, the more Gold it costs to get.
 GLUE_TIP_BACON_SOLO_0	With 8 players, being in the Top 4 is a win!\nFirst place gets you the Crown!
 GLUE_TIP_BACON_SOLO_1	Players can take at most 15 damage at once until only the Top 4 players are left in a lobby.
 GLUE_TIP_BACON_DUO_0	Teams share Health, Armor, and damage taken.
@@ -1378,7 +1383,7 @@ GLUE_MINSPEC_ERROR	Sorry! Hearthstone cannot run on this device as it does not m
 GLUE_TEXTURE_COMPRESSION_WARNING_TITLE	Texture Compression Warning	--TEMP-- This should be in Chinese
 GLUE_TEXTURE_COMPRESSION_WARNING	This build does not contain the correct texture format for this platform. Performance will not be optimal.	--TEMP-- This should be in Chinese
 GLUE_LOADINGSCREEN_PROGRESS_FLAVOR_0	...Stoking the fire...
-GLUE_LOADINGSCREEN_PROGRESS_FLAVOR_1	...Pouring the ale...
+GLUE_LOADINGSCREEN_PROGRESS_FLAVOR_1	...Grabbing some snacks...
 GLUE_LOADINGSCREEN_PROGRESS_FLAVOR_2	...Setting the board...
 GLUE_LOADINGSCREEN_PROGRESS_FLAVOR_3	...Harnessing the mana...
 GLUE_LOADINGSCREEN_PROGRESS_FLAVOR_4	...Shuffling the cards...
@@ -1466,6 +1471,7 @@ GLUE_STORE_DRG_PREORDER_DATE	Available in December*!
 GLUE_STORE_DRG_PREORDER_DUST_DATE	Packs available in\nDecember*!
 GLUE_STORE_PREORDER_APRIL	Available in\nApril*!
 GLUE_STORE_PREORDER_DUST_APRIL	Packs available in\nApril*!
+GLUE_STORE_PREORDER_JULY	Available in\nJuly*!
 GLUE_STORE_PREORDER_NOVEMBER	Available in\nNovember*!
 GLUE_STORE_PREORDER_DUST_NOVEMBER	Packs available in\nNovember*!
 GLUE_MERCENARY_TUTORIAL_INCOMPLETE_FOR_PACK	Complete \nMercenaries Tutorial!
@@ -1550,6 +1556,9 @@ GLUE_ADVENTURE_BOT_WING_MIRROR	Mirror
 GLUE_ADVENTURE_BOT_WING_BOARD_CLEAR	Board Clear
 GLUE_ADVENTURE_BOT_WING_SURVIVAL	Survival
 GLUE_ERROR_DECK_RULESET_RULE_VIOLATION	The selected deck is not valid for this game mode.
+GLUE_ERROR_DECK_RULESET_RULE_VIOLATION_BANNED_SIDEBOARD_CARD	The selected deck contains a sideboard with one or more banned cards. Please replace it.
+GLUE_ERROR_DECK_RULESET_RULE_VIOLATION_TOO_FEW_CARDS_IN_SIDEBOARD	The selected deck contains a sideboard with too few cards in it.
+GLUE_ERROR_DECK_RULESET_RULE_VIOLATION_TOO_MANY_CARDS_IN_SIDEBOARD	The selected deck contains a sideboard with too many cards in it.
 GLUE_ERROR_DECK_VALIDATION_WRONG_FORMAT	You cannot use a Wild deck for this mode.
 GLUE_DECK_TEMPLATE_CHOOSE_DECK	{0} Recipes	0=name of class (e.g. Shaman)
 GLUE_DECK_TEMPLATE_CUSTOM_DECK	Custom Deck
@@ -2229,6 +2238,8 @@ GLUE_BACON_INFO_POPUP_DUOS_RULES	DUOS MODE RULES
 GLUE_BACON_INFO_POPUP_FORMING_PARTY	PLAYING IN A PARTY
 GLUE_BACON_INFO_POPUP_PLAY_TUTORIAL	Play Tutorial
 GLUE_BACON_INFO_POPUP_RESET_DUOS_TUTORIAL	Reset Duos Tips
+GLUE_BACON_INFO_POPUP_RESET_DUOS_TUTORIAL_CONFIRMATION_HEADER	Duos Tips.
+GLUE_BACON_INFO_POPUP_RESET_DUOS_TUTORIAL_CONFIRMATION	Tooltips during gameplay will appear again.
 GLUE_BACON_INFO_POPUP_PAGE	Page
 GLUE_BACON_INFO_POPUP_RECRUIT_TIPS	<color=#C900FF>• Gold:</color> Starts at (3). Refills and adds (1) each turn, up to (10).\n<color=#C900FF>• Buy:</color> Drag a minion to your hero. Costs (3).\n<color=#C900FF>• Sell:</color> Drag a friendly minion to your Bartender to gain (1).\n<color=#C900FF>• Triples:</color> Get 3 of a minion to upgrade it and get a Reward!\n<color=#C900FF>• Tier Upgrade:</color> See stronger cards. Costs (1) less each turn.\n<color=#C900FF>• Freeze:</color> Keep cards in the Tavern until next turn.\n<color=#C900FF>• Refresh:</color> See new cards of your Tavern Tier or lower. Costs (1).\n<color=#C900FF>• Rearrange:</color> Drag your minions around to adjust combat order.
 GLUE_BACON_INFO_POPUP_RECRUIT_TIPS_DUOS	<color=#C900FF>• Gold:</color> Starts at (3). Refills and adds (1) each turn, up to (10).\n<color=#C900FF>• Buy:</color> Drag a minion to your hero. Costs (3).\n<color=#C900FF>• Sell:</color> Drag a friendly minion to your Bartender to gain (1).\n<color=#C900FF>• Triples:</color> Get 3 of a minion to upgrade it and get a Reward!\n<color=#C900FF>• Tier Upgrade:</color> See stronger cards. Costs (1) less each turn.\n<color=#C900FF>• Freeze:</color> Keep cards in the Tavern until next turn.\n<color=#C900FF>• Refresh:</color> See new cards of your Tavern Tier or lower. Costs (1).\n<color=#C900FF>• Rearrange:</color> Drag your minions around to adjust combat order.
@@ -2801,7 +2812,7 @@ GLUE_CORE_SET_POPUP_FOOTER	(Basic & Classic cards are now Wild)
 GLUE_TOURNAMENT_DESCRIPTION_CLASSIC	Only Classic format cards can be used.
 GLUE_TOURNAMENT_DESCRIPTION_TWIST	Different expansions can be used every season.
 GLUE_TOURNAMENT_DESCRIPTION_STANDARD	Only Core and the last 2 years of cards can be used.
-GLUE_TOURNAMENT_DESCRIPTION_WILD	All cards except Classic format cards can be used.
+GLUE_TOURNAMENT_DESCRIPTION_WILD	All cards can be used to play competitively.
 GLUE_TOURNAMENT_DESCRIPTION_CASUAL	All cards are available, play against other Casual players.
 GLUE_TOURNAMENT_MISSING_DECKS_CLASSIC	You have no Classic decks. Go create one!
 GLUE_TOURNAMENT_MISSING_DECKS_TWIST	You have no Twist decks. Go create one!
@@ -3320,6 +3331,7 @@ GLUE_VCAPTION_TAKE_DAMAGE	Take Damage
 GLUE_VCAPTION_CAST_SPELL	Cast Spell
 GLUE_VCAPTION_SUMMON_MINION	Summon Minion
 GLUE_VCAPTION_ATTACK	Attack
+GLUE_VCAPTION_METAMORPHOSIS	Metamorphosis
 GLUE_ADVENTURE_CHAPTER_TITLE_ROTLK_PROLOGUE	Prologue
 GLUE_ADVENTURE_CHAPTERPAGE_ROTLK_AWAITING_LICENSE	Please wait while Arthas remembers his tale...
 GLUE_LETTUCE_MYTHIC_SUB_BUTTON	Mythic

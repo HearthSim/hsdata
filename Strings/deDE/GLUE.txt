@@ -303,6 +303,8 @@ GLUE_BACON_INFO_POPUP_RECRUIT	REKRUTIERUNGSPHASE
 GLUE_BACON_INFO_POPUP_RECRUIT_TIPS	<color=#C900FF>• Spielerreihenfolge:</color> Der Spieler mit mehr Dienern greift zuerst an.\n<color=#C900FF>• Dienerreihenfolge:</color> Diener greifen von links nach rechts an.\n<color=#C900FF>• Ziele: </color>Wenn kein feindlicher Diener Spott hat, greifen Eure Diener zufällige Ziele an.\n<color=#C900FF>• Sieg:</color> Ihr verursacht Schaden in Höhe der kombinierten Gasthausstufen Eures Helden und Eurer Diener. Der Schaden ist auf 15 begrenzt, bis nur noch 4 Spieler verbleiben.\n<color=#C900FF>• Stärkungseffekte während der Kampfphase sind nicht dauerhaft:</color> Nach der Kampfphase sind Eure Diener wieder so, wie sie am Ende Eure letzten Rekrutierungsphase waren.\n<color=#C900FF>• Hand:</color> Änderungen an deiner Hand werden in den nächsten Zug übernommen.	
 GLUE_BACON_INFO_POPUP_RECRUIT_TIPS_DUOS	<color=#C900FF>• Gold:</color> Startet bei (3). Füllt sich auf und fügt jeden Zug (1) bis zu (10) hinzu. \n<color=#C900FF>• Kaufen: </color>Zieht Diener zu Eurem Helden. Das kostet (3).\n<color=#C900FF>• Verkaufen:</color> Zieht verbündete Diener zu Eurem Barkeeper, um (1) zu erhalten.\n<color=#C900FF>• Drillinge:</color> Erhaltet 3 gleiche Diener, um ihn aufzuwerten und eine Belohnung zu erhalten!\n<color=#C900FF>• Stufe erhöhen:</color> Ihr seht stärkere Karten. Das kostet jeden Zug um (1) weniger.\n<color=#C900FF>• Einfrieren:</color> Behaltet Karten im Gasthaus bis zum nächsten Zug.\n<color=#C900FF>• Aktualisieren:</color> Bietet Euch neue Karten Eurer Gasthausstufe oder niedriger. Das kostet (1).\n<color=#C900FF>• Neu anordnen:</color> Zieht Eure Diener, um die Kampfreihenfolge anzupassen.	
 GLUE_BACON_INFO_POPUP_RESET_DUOS_TUTORIAL	Duos-Tipps zurücksetzen	
+GLUE_BACON_INFO_POPUP_RESET_DUOS_TUTORIAL_CONFIRMATION	Während des Spiels werden wieder Tooltips angezeigt.	
+GLUE_BACON_INFO_POPUP_RESET_DUOS_TUTORIAL_CONFIRMATION_HEADER	Duos-Tipps.	
 GLUE_BACON_INFO_POPUP_SUMMARY	Tretet gegen 7 andere Spieler an. Der letzte Überlebende gewinnt.	
 GLUE_BACON_INFO_POPUP_SUMMARY_DUOS	Spielt gegen 3 andere Teams. Das letzte Überlebende gewinnt.	
 GLUE_BACON_INFO_POPUP_TITLE	Schlachtfeldregeln	
@@ -1099,6 +1101,9 @@ GLUE_EDIT	Bearbeiten
 GLUE_EDIT_DECK	Deck bearbeiten	
 GLUE_EDIT_TEAM	Gruppe bearbeiten	
 GLUE_ERROR_DECK_RULESET_RULE_VIOLATION	Das gewählte Deck ist in diesem Spielmodus nicht gültig.	
+GLUE_ERROR_DECK_RULESET_RULE_VIOLATION_BANNED_SIDEBOARD_CARD	Das ausgewählte Deck enthält ein Nebendeck mit einer oder mehreren gebannten Karten. Bitte ersetzt Sie.	
+GLUE_ERROR_DECK_RULESET_RULE_VIOLATION_TOO_FEW_CARDS_IN_SIDEBOARD	Das ausgewählte Deck enthält ein Nebendeck mit zu wenig Karten.	
+GLUE_ERROR_DECK_RULESET_RULE_VIOLATION_TOO_MANY_CARDS_IN_SIDEBOARD	Das ausgewählte Deck enthält ein Nebendeck mit zu vielen Karten.	
 GLUE_ERROR_DECK_VALIDATION_WRONG_FORMAT	Ihr könnt in diesem Modus kein wildes Deck nutzen.	
 GLUE_ERROR_PLAY_GAME_PARTY_NOT_ALLOWED	Ein Spieler in Eurer Gruppe hat eine zu hohe Wertung, um mit einer Gruppe gewertete Spiele zu absolvieren.	
 GLUE_ETC_BAND_FULL	Eure Band ist voll. Ihr müsst zuerst eine Karte entfernen.	
@@ -1711,7 +1716,7 @@ GLUE_LOADINGSCREEN_NO_NEW_BINARY_IN_STORE	Es wird ein Update benötigt, um Heart
 GLUE_LOADINGSCREEN_NOTIFICATION_SETTINGS	Wir laden das Spiel im Hintergrund herunter. Wir benachrichtigen Euch, wenn es abgeschlossen ist!	
 GLUE_LOADINGSCREEN_OPEN_APP_STORE	Öffnen	
 GLUE_LOADINGSCREEN_PROGRESS_FLAVOR_0	... Das Feuer wird geschürt_...	
-GLUE_LOADINGSCREEN_PROGRESS_FLAVOR_1	... Bier wird eingegossen_...	
+GLUE_LOADINGSCREEN_PROGRESS_FLAVOR_1	... Knabbereien werden geholt_...	
 GLUE_LOADINGSCREEN_PROGRESS_FLAVOR_2	... Das Spielbrett wird vorbereitet_...	
 GLUE_LOADINGSCREEN_PROGRESS_FLAVOR_3	... Mana wird genutzt_...	
 GLUE_LOADINGSCREEN_PROGRESS_FLAVOR_4	... Karten werden gemischt_...	
@@ -2681,6 +2686,7 @@ GLUE_STORE_PREORDER_DUST_APRIL	Packungen ab\nApril* verfügbar!
 GLUE_STORE_PREORDER_DUST_MARCH	Packungen ab\nMärz* verfügbar!	
 GLUE_STORE_PREORDER_DUST_NOVEMBER	Packungen ab\nNovember* verfügbar!	
 GLUE_STORE_PREORDER_EXCLUSIVE	EXKLUSIV FÜR VORABKÄUFER!	
+GLUE_STORE_PREORDER_JULY	Verfügbar im\nJuli*!	
 GLUE_STORE_PREORDER_MARCH	Ab März*\nverfügbar!	
 GLUE_STORE_PREORDER_NOVEMBER	Ab November*\nverfügbar!	
 GLUE_STORE_PRODUCT_DETAILS_BRM_PART_1	Stellen Sie sich den tödlichen Bossen des Flügels „{0}“ im Soloabenteuer.	0=wing name
@@ -2908,6 +2914,9 @@ GLUE_TEMPORARY_ACCOUNT_SIGN_UP	Registrieren
 GLUE_TEMPORARY_ACCOUNT_SKIP	Später	
 GLUE_TEMPORARY_ACCOUNT_SKIP_BODY	Kein Problem! Ihr könnt jederzeit das Einstellungsmenü aufrufen, um Euch anzumelden.	
 GLUE_TEMPORARY_ACCOUNT_SWITCH_ACCOUNT_HEADER	Accounts	
+GLUE_TEST_STRFORMAT_FORMAT	(DNT) Formatted text: "{0}"	
+GLUE_TEST_STRFORMAT_NO_FORMAT	(DNT) Test String	
+GLUE_TEST_STRFORMAT_PLURAL	(DNT) {0} |4(Item,Items)	
 GLUE_TEXTURE_COMPRESSION_WARNING	Das Texturformat in diesem Build stimmt für diese Plattform nicht. Die Leistung wird nicht optimal sein.	--TEMP-- This should be in Chinese
 GLUE_TEXTURE_COMPRESSION_WARNING_TITLE	Warnung: Komprimierung von Texturen	--TEMP-- This should be in Chinese
 GLUE_THE_CLOCK_BANNER_NEW_WAY	Eine neue Art zu spielen:	
@@ -3119,6 +3128,8 @@ GLUE_TIP_BACON_22	Fügt dem Gasthaus für den Rest des Spiels einen zusätzliche
 GLUE_TIP_BACON_23	Diener lösen ihre Effekte am Ende des Zuges von links nach rechts aus.	
 GLUE_TIP_BACON_24	Gasthauszauber sind Karten, die gekauft werden können, um einen einmaligen Effekt auszulösen.	
 GLUE_TIP_BACON_25	Im Gegensatz zu Dienern können Gasthauszauber nicht verkauft oder verdreifacht werden.	
+GLUE_TIP_BACON_26	<b>Partner</b> sind mächtige, für jede Heldenfähigkeit einzigartige Diener.	
+GLUE_TIP_BACON_27	Je höher die Stufe des <b>Partners</b>, desto mehr Gold kostet er.	
 GLUE_TIP_BACON_3	Wenn Ihr eine Kampfrunde gewinnt,\nverursachen Euer Held und Eure Diener Schaden,\nder ihrer Stufen entspricht.	
 GLUE_TIP_BACON_4	Die Aufwertung des Gasthauses kostet mit jedem Zug (1) weniger.	
 GLUE_TIP_BACON_5	Von den Dienern auf Stufe 6 gibt es nur 7 Exemplare.\nWerden sie gekauft, verschwinden sie für alle!	
@@ -3147,7 +3158,7 @@ GLUE_TIP_DEFAULT_14	Kernkarten erhaltet Ihr durch Stufenaufstiege mit einer Klas
 GLUE_TIP_DEFAULT_15	Beim Spielen gegen andere Spieler erhaltet Ihr zusätzliche Belohnungserfahrung.	
 GLUE_TIP_DEFAULT_16	Ihr könnt per Rechtsklick auf den gegnerischen Helden Emotes ausblenden lassen.	
 GLUE_TIP_DEFAULT_16_TOUCH	Ihr könnt auf den gegnerischen Helden tippen, um Emotes auszublenden.	
-GLUE_TIP_DEFAULT_17	Wenn Ihr mit einer Klasse 500 gewertete Spiele, Arenaspiele oder Duelle gewinnt, schaltet Ihr einen goldenen Helden frei.	
+GLUE_TIP_DEFAULT_17	Wenn Ihr mit einer Klasse 500 gewertete oder Arenaspiele gewinnt, schaltet Ihr einen goldenen Helden frei.	
 GLUE_TIP_DEFAULT_18	Mithilfe des Buttons unten links könnt Ihr Freunde Eurer Freundesliste hinzufügen.	
 GLUE_TIP_DEFAULT_18_PHONE	Ihr könnt Freunde zu Eurer Freundesliste hinzufügen, indem Ihr auf die Schaltfläche oben links tippt.	
 GLUE_TIP_DEFAULT_19	Der höchste Rang im gewerteten Modus ist der Rang „Legende“!	
@@ -3171,9 +3182,9 @@ GLUE_TIP_DEFAULT_31	Im Standardformat wird nur mit den neuesten Sets gespielt �
 GLUE_TIP_DEFAULT_32	Ihr könnt bei Spielen gegen Freunde Quests abschließen.	
 GLUE_TIP_DEFAULT_33	Fordert Freunde heraus, um Quests abzuschließen.	
 GLUE_TIP_DEFAULT_34	Auf dem Schlachtfeld könnt Ihr gegen sieben andere Spieler antreten.	
-GLUE_TIP_DEFAULT_35	Im Duellmodus erstellt Ihr beim Spielen nach und nach ein Deck. Nach jedem Kampf könnt Ihr Euer Deck weiter ausbauen!	
+GLUE_TIP_DEFAULT_35	Auf dem Schlachtfeld könnt Ihr gegen sieben andere Spieler antreten.	
 GLUE_TIP_DEFAULT_36	Wenn Ihr den Gasthauspass freischaltet, könnt Ihr noch mehr Belohnungserfahrung erhalten.	
-GLUE_TIP_DEFAULT_37	Wenn Ihr mit einer Klasse 1000 gewertete Spiele, Arenaspiele oder Duelle gewinnt, schaltet Ihr einen Prestigehelden frei!	
+GLUE_TIP_DEFAULT_37	Wenn Ihr mit einer Klasse 1000 gewertete Spiele oder Arenaspiele gewinnt, schaltet Ihr einen Prestigehelden frei!	
 GLUE_TIP_DEFAULT_4	Die Farbe des Edelsteins in der Mitte einer Karte verrät ihre Seltenheit.	
 GLUE_TIP_DEFAULT_5	Seltenheitsfarbskala: Weiß ist Gewöhnlich, Blau ist Selten, Violett ist Episch und Orange ist Legendär.	
 GLUE_TIP_DEFAULT_6	Jede Kartenpackung enthält mindestens eine Karte, die selten oder besser ist, aber es können auch mehr darin enthalten sein!	
@@ -3302,7 +3313,7 @@ GLUE_TOOLTIP_BUTTON_TAVERN_BRAWL_NOT_UNLOCKED	Erreicht höhere Stufen auf dem Le
 GLUE_TOOLTIP_BUTTON_TRADITIONAL_DESC	Das traditionelle Hearthstone-Erlebnis.	
 GLUE_TOOLTIP_BUTTON_TRADITIONAL_HEADLINE	Hearthstone	
 GLUE_TOOLTIP_DESCRIPTION_ALL_STANDARD_CARDS	Enthält die neuesten Karten. Sie können im Standardformat und im wilden Format verwendet werden.	
-GLUE_TOOLTIP_DESCRIPTION_TWIST_CARDS	Enthält Karten aus verschiedenen Sets, die sich jeden Monat ändern. Sie können nur im Hakenformat verwendet werden.	
+GLUE_TOOLTIP_DESCRIPTION_TWIST_CARDS	Enthält Karten aus verschiedenen Sets, die sich jede Saison ändern. Sie können nur im Hakenformat verwendet werden.	
 GLUE_TOOLTIP_DESCRIPTION_VANILLA_CARDS	Enthält die ursprünglichen Karten von Hearthstone. Sie können nur im Klassikformat verwendet werden.	
 GLUE_TOOLTIP_DESCRIPTION_WILD_CARDS	Enthält Karten aller Erweiterungen. Sie können nur im wilden Format verwendet werden.	
 GLUE_TOOLTIP_DOWNLOAD_DESCRIPTION	Hearthstone wird während des Spielens heruntergeladen.	
@@ -3332,7 +3343,7 @@ GLUE_TOURNAMENT_DESCRIPTION_CASUAL	Alle Karten sind verfügbar. Tretet in ungewe
 GLUE_TOURNAMENT_DESCRIPTION_CLASSIC	Nur die Karten des Klassikformats sind erlaubt.	
 GLUE_TOURNAMENT_DESCRIPTION_STANDARD	Nur das Kernset und Karten der letzten zwei Jahre sind erlaubt.	
 GLUE_TOURNAMENT_DESCRIPTION_TWIST	Jede Saison können unterschiedliche Erweiterungen verwendet werden.	
-GLUE_TOURNAMENT_DESCRIPTION_WILD	Alle Karten außer Karten des Klassikformats sind erlaubt.	
+GLUE_TOURNAMENT_DESCRIPTION_WILD	In Wettkämpfen können alle Karten verwendet werden.	
 GLUE_TOURNAMENT_MISSING_DECKS_CLASSIC	Ihr habt keine Klassikdecks. Stellt jetzt eins zusammen!	
 GLUE_TOURNAMENT_MISSING_DECKS_TWIST	Ihr habt keine Hakendecks. Stellt jetzt eins zusammen!	
 GLUE_TOURNAMENT_RANKED	Gewertet	
@@ -3436,6 +3447,7 @@ GLUE_UNRELIABLE_GPU_WARNING_TITLE	Grafikhardware
 GLUE_VCAPTION_ATTACK	Angreifen	
 GLUE_VCAPTION_CAST_SPELL	Zauber wirken	
 GLUE_VCAPTION_COME_INTO_PLAY	Ins Spiel kommen	
+GLUE_VCAPTION_METAMORPHOSIS	Metamorphose	
 GLUE_VCAPTION_SUMMON_MINION	Diener herbeirufen	
 GLUE_VCAPTION_TAKE_DAMAGE	Schaden erleiden	
 GLUE_VIEW_DECK	Deck ansehen	

@@ -259,6 +259,9 @@ GLOBAL_CARD_SET_ULDUM_SEARCHABLE_SHORTHAND_NAMES	울구	This is a space-separate
 GLOBAL_CARD_SET_ULDUM_SHORT	울둠	
 GLOBAL_CARD_SET_UNGORO	운고로를 향한 여정	
 GLOBAL_CARD_SET_UNGORO_SHORT	운고로	
+GLOBAL_CARD_SET_VAC	극한의 극락	
+GLOBAL_CARD_SET_VAC_SEARCHABLE_SHORTHAND_NAMES	극한 극락 휴가	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_VAC_SHORT	극락	
 GLOBAL_CARD_SET_VANILLA	클래식	
 GLOBAL_CARD_SET_VANILLA_FORMAT_SEARCHABLE_SHORTHAND_NAMES	클	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_VANILLA_FORMAT_SHORT	클래식	
@@ -701,6 +704,8 @@ GLOBAL_KEYWORD_AUTOCAST	자동 시전
 GLOBAL_KEYWORD_AUTOCAST_TEXT	이 영웅 능력은 매 턴마다 반드시 사용해야 합니다.	
 GLOBAL_KEYWORD_AVENGE	복수 (X)	
 GLOBAL_KEYWORD_AVENGE_TEXT	아군 하수인 X마리가 전투 중에 죽은 후에 효과가 발동합니다.	
+GLOBAL_KEYWORD_BACON_BUDDY	전우	
+GLOBAL_KEYWORD_BACON_BUDDY_TEXT	영웅 능력별로 다른 강력한 하수인입니다.	
 GLOBAL_KEYWORD_BACON_BUY_BUDDY	전우 획득	
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_2	전우 2장 획득	
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_2_TEXT	승리/무승부 - 비용 (3) 감소\n패배 - 비용 (2) 감소	
@@ -1291,9 +1296,9 @@ GLOBAL_PROGRESSION_REWARD_SUMMARY	{0}\n{1}
 GLOBAL_PROGRESSION_REWARD_TRACK_XP	{0} 보상 경험치	
 GLOBAL_PROGRESSION_TIER_MESSAGE	{0}/{1}	
 GLOBAL_PROGRESSION_TOOLTIP_CLASS_DEFAULT_DESC	{0} 레벨	
-GLOBAL_PROGRESSION_TOOLTIP_GOLDEN_WINS_DESC	{1}|1(으로,로) 등급전 또는 투기장 또는 결투에서 {0}승을 달성하면 황금 오리지널 영웅을 획득할 수 있습니다!	{0}=win count {1}=class name
-GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DESC	{1}|1(으로,로) 등급전 또는 투기장 또는 결투에서 {0}승을 달성하면 {2}|1(을,를) 획득할 수 있습니다!	{0}=win count {1}=class name {2}=hero card name
-GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DONE_DESC	{1}|1(으로,로) 등급전 또는 투기장 또는 결투에서 {0}승을 달성해 {2}|1(을,를) 획득했습니다!	{0}=win count {1}=class name {2}=hero card name
+GLOBAL_PROGRESSION_TOOLTIP_GOLDEN_WINS_DESC	{1}|1(으로,로) 등급전 또는 투기장에서 {0}승을 달성하면 황금 오리지널 영웅을 획득할 수 있습니다!	{0}=win count {1}=class name
+GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DESC	{1}|1(으로,로) 등급전 또는 투기장에서 {0}승을 달성하면 {2}|1(을,를) 획득할 수 있습니다!	{0}=win count {1}=class name {2}=hero card name
+GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DONE_DESC	{1}|1(으로,로) 등급전 또는 투기장에서 {0}승을 달성해 {2}|1(을,를) 획득했습니다!	{0}=win count {1}=class name {2}=hero card name
 GLOBAL_PROGRESSION_TOOLTIP_TOTAL_CLASS_WINS	총 {0}승	{0}=class name
 GLOBAL_PROGRESSION_WEEKLY_QUESTS_POPUP_TITLE	내 주간 퀘스트	
 GLOBAL_PVPDR_SEASON_ERROR_NOT_ACTIVE	죄송합니다. 요청하신 결투 시즌에서 현재 게임을 할 수 없습니다. 나중에 다시 시도해 주세요.	
@@ -1530,7 +1535,6 @@ GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_START_WITH_MANY_WINS	난투장에서 {2}�
 GLOBAL_SOCIAL_TOAST_FRIEND_DEATH_KNIGHT_LEVEL	<color=#{0}>{1}</color> 님이 죽음의 기사로 {2} 레벨을 달성했습니다.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_DEMON_HUNTER_LEVEL	<color=#{0}>{1}</color> 님이 악마사냥꾼으로 {2} 레벨을 달성했습니다.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_DRUID_LEVEL	<color=#{0}>{1}</color> 님이 드루이드로 {2} 레벨을 달성했습니다.	0=name color,1=player name,2=level
-GLOBAL_SOCIAL_TOAST_FRIEND_DUEL_START	<color=#{0}>{1}</color> 님이 결투를 시작했습니다.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_GOLDEN_LEGENDARY	<color=#{0}>{1}</color> 님이 <color=#{3}>황금 {2}</color> 카드를 얻었습니다!	0=name color,1=player name,2=card name,3=Golden Color
 GLOBAL_SOCIAL_TOAST_FRIEND_HEROIC_BRAWL_COMPLETE	<color=#{0}>{1}</color> 님이 영웅 난이도 난투를 완료했습니다. ({2}-{3})	0=name color,1=player name,2=Heroic brawl Wins,3=Heroic brawl Losses
 GLOBAL_SOCIAL_TOAST_FRIEND_HEROIC_BRAWL_START	<color=#{0}>{1}</color> 님이 영웅 난이도 난투를 시작했습니다.	0=name color,1=player name
@@ -1640,6 +1644,7 @@ GLOBAL_TWIST_SEASON_DESCRIPTION_121	공룡이 존재했던 고대의 시간으�
 GLOBAL_TWIST_SEASON_DESCRIPTION_124	전설 카드가 없으시다고요? 괜찮아요! 모든 용의 해 확장팩과 핵심 카드 중 일반 카드만 이용해서 최고의 덱을 만들어 보세요.	
 GLOBAL_TWIST_SEASON_DESCRIPTION_125	하스스톤의 10년을 되짚어 보세요! 고전부터 시작해서 황야의 땅 결투에 이를 때까지, 매일 새로운 세트가 하나씩 추가됩니다.	
 GLOBAL_TWIST_SEASON_DESCRIPTION_128	사전 구성된 다중 직업 덱들과 새로운 영웅 능력 및 지속 능력들을 지닌 위즈뱅의 영웅들 중 하나로 바로 게임에 뛰어들어 보세요.	
+GLOBAL_TWIST_SEASON_DESCRIPTION_129	사전 구성된 다중 직업 덱들과 새로운 영웅 능력 및 지속 능력들을 지닌 위즈뱅의 영웅들 중 하나로 바로 게임에 뛰어들어 보세요.	
 GLOBAL_TWIST_SEASON_TITLE_116	신시대	
 GLOBAL_TWIST_SEASON_TITLE_117	신시대	
 GLOBAL_TWIST_SEASON_TITLE_119	신비 엔진	
@@ -1648,6 +1653,7 @@ GLOBAL_TWIST_SEASON_TITLE_121	운고로를 향한 귀환
 GLOBAL_TWIST_SEASON_TITLE_124	일반	
 GLOBAL_TWIST_SEASON_TITLE_125	빨리 감기	
 GLOBAL_TWIST_SEASON_TITLE_128	위즈뱅의 영웅들	
+GLOBAL_TWIST_SEASON_TITLE_129	위즈뱅의 영웅들	
 GLOBAL_UNINSTALL_MODULE_POPUP_PROMPT	{0}|1(을,를) 제거하시겠습니까?	{0}=Module name to uninstall (e.g. Battlegrounds)
 GLOBAL_UPDATE	업데이트	
 GLOBAL_VERSION	버전	

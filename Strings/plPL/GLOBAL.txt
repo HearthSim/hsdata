@@ -259,6 +259,9 @@ GLOBAL_CARD_SET_ULDUM_SEARCHABLE_SHORTHAND_NAMES	wu	This is a space-separated li
 GLOBAL_CARD_SET_ULDUM_SHORT	Uldum	
 GLOBAL_CARD_SET_UNGORO	Podróż do wnętrza Un'Goro	
 GLOBAL_CARD_SET_UNGORO_SHORT	Un'Goro	
+GLOBAL_CARD_SET_VAC	Tarapaty w tropikach	
+GLOBAL_CARD_SET_VAC_SEARCHABLE_SHORTHAND_NAMES	wak	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_VAC_SHORT	Tropiki	
 GLOBAL_CARD_SET_VANILLA	Klasyk	
 GLOBAL_CARD_SET_VANILLA_FORMAT_SEARCHABLE_SHORTHAND_NAMES	trybklas	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_VANILLA_FORMAT_SHORT	Klasyk	
@@ -701,6 +704,8 @@ GLOBAL_KEYWORD_AUTOCAST	Automatyczne użycie
 GLOBAL_KEYWORD_AUTOCAST_TEXT	Ta moc specjalna MUSI być użyta co turę.	
 GLOBAL_KEYWORD_AVENGE	Pomsta (X)	
 GLOBAL_KEYWORD_AVENGE_TEXT	Robi coś, gdy przyjaźni stronnicy (X) zginą w walce.	
+GLOBAL_KEYWORD_BACON_BUDDY	Towarzysz	
+GLOBAL_KEYWORD_BACON_BUDDY_TEXT	Potężny stronnik unikalny dla każdej mocy specjalnej.	
 GLOBAL_KEYWORD_BACON_BUY_BUDDY	Zdobądź towarzysza	
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_2	Zdobądź 2 towarzyszy	
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_2_TEXT	Zwycięstwo/remis – kosztuje (3) mniej.\nPrzegrana – kosztuje (2) mniej	
@@ -1291,9 +1296,9 @@ GLOBAL_PROGRESSION_REWARD_SUMMARY	{0}\n{1}
 GLOBAL_PROGRESSION_REWARD_TRACK_XP	Punkty doświadczenia: {0}	
 GLOBAL_PROGRESSION_TIER_MESSAGE	{0}/{1}	
 GLOBAL_PROGRESSION_TOOLTIP_CLASS_DEFAULT_DESC	Poziom {0}	
-GLOBAL_PROGRESSION_TOOLTIP_GOLDEN_WINS_DESC	Wygraj {0} |4(partię,partie,partii) w trybie rankingowym, na Arenie lub w Starciach jako {1}, aby otrzymać klasyczny złoty portret!	{0}=win count {1}=class name
-GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DESC	Wygraj {0} |4(partię,partie,partii) w trybie rankingowym, na Arenie lub w Starciach jako {1}, aby otrzymać nagrodę: {2}!	{0}=win count {1}=class name {2}=hero card name
-GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DONE_DESC	Za wygranie {0} partii w trybie rankingowym, na Arenie lub w Starciach jako {1} otrzymujesz nagrodę: {2}!	{0}=win count {1}=class name {2}=hero card name
+GLOBAL_PROGRESSION_TOOLTIP_GOLDEN_WINS_DESC	Wygraj {0} |4(partię,partie,partii) w trybie rankingowym lub na Arenie jako {1}, aby otrzymać klasyczny złoty portret!	{0}=win count {1}=class name
+GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DESC	Wygraj {0} |4(partię,partie,partii) w trybie rankingowym lub na Arenie jako {1}, aby otrzymać nagrodę: {2}!	{0}=win count {1}=class name {2}=hero card name
+GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DONE_DESC	Za wygranie {0} partii w trybie rankingowym lub na Arenie jako {1} otrzymujesz nagrodę: {2}!	{0}=win count {1}=class name {2}=hero card name
 GLOBAL_PROGRESSION_TOOLTIP_TOTAL_CLASS_WINS	Zwycięstwa: {0}	{0}=class name
 GLOBAL_PROGRESSION_WEEKLY_QUESTS_POPUP_TITLE	Twoje cotygodniowe zadania	
 GLOBAL_PVPDR_SEASON_ERROR_NOT_ACTIVE	A niech to! Wybrany sezon Starć nie jest już dostępny. Poczekaj parę minut i spróbuj ponownie.	
@@ -1530,7 +1535,6 @@ GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_START_WITH_MANY_WINS	<color=#{0}>{1}</colo
 GLOBAL_SOCIAL_TOAST_FRIEND_DEATH_KNIGHT_LEVEL	<color=#{0}>{1}</color> awansuje rycerzem śmierci na poziom {2}.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_DEMON_HUNTER_LEVEL	<color=#{0}>{1}</color> awansuje łowcą demonów na poziom {2}.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_DRUID_LEVEL	<color=#{0}>{1}</color> awansuje druidem na poziom {2}.	0=name color,1=player name,2=level
-GLOBAL_SOCIAL_TOAST_FRIEND_DUEL_START	<color=#{0}>{1}</color> rozpoczyna nową serię Starć.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_GOLDEN_LEGENDARY	<color=#{0}>{1}</color> zdobywa <color=#{3}>Złotą kartę: {2}</color>!	0=name color,1=player name,2=card name,3=Golden Color
 GLOBAL_SOCIAL_TOAST_FRIEND_HEROIC_BRAWL_COMPLETE	<color=#{0}>{1}</color> właśnie kończy heroiczną bójkę. ({2}-{3})	0=name color,1=player name,2=Heroic brawl Wins,3=Heroic brawl Losses
 GLOBAL_SOCIAL_TOAST_FRIEND_HEROIC_BRAWL_START	<color=#{0}>{1}</color> zaczyna nową heroiczną bójkę.	0=name color,1=player name
@@ -1640,6 +1644,7 @@ GLOBAL_TWIST_SEASON_DESCRIPTION_121	Wyrusz do zamierzchłej przeszłości, gdy �
 GLOBAL_TWIST_SEASON_DESCRIPTION_124	Nie masz żadnych kart legendarnych? Żaden problem! Stwórz najlepszą talię, jaką tylko potrafisz, używając tylko zwykłych kart z zestawu bazowego oraz wszystkich rozszerzeń z Roku Smoka.	
 GLOBAL_TWIST_SEASON_DESCRIPTION_125	Graj kartami z dziesięcioletniej historii Hearthstone! Każdego dnia będziemy dodawać nowy zestaw, zaczynając od historycznego, a kończąc na Finałowym starciu na Bezludziu.	
 GLOBAL_TWIST_SEASON_DESCRIPTION_128	Wciel się w jednego z bohaterów Świstomiga i ruszaj do boju z gotowymi taliami wieloklasowymi, nowymi mocami specjalnymi i działaniami pasywnymi.	
+GLOBAL_TWIST_SEASON_DESCRIPTION_129	Wciel się w jednego z bohaterów Świstomiga i ruszaj do boju z gotowymi taliami wieloklasowymi, nowymi mocami specjalnymi i działaniami pasywnymi.	
 GLOBAL_TWIST_SEASON_TITLE_116	Nowa era	
 GLOBAL_TWIST_SEASON_TITLE_117	Nowa era	
 GLOBAL_TWIST_SEASON_TITLE_119	Cuda	
@@ -1648,6 +1653,7 @@ GLOBAL_TWIST_SEASON_TITLE_121	Powrót do Un'Goro
 GLOBAL_TWIST_SEASON_TITLE_124	Zwykłe	
 GLOBAL_TWIST_SEASON_TITLE_125	Kalejdoskop	
 GLOBAL_TWIST_SEASON_TITLE_128	Bohaterowie Świstomiga	
+GLOBAL_TWIST_SEASON_TITLE_129	Bohaterowie Świstomiga	
 GLOBAL_UNINSTALL_MODULE_POPUP_PROMPT	Odinstalować tryb {0}?	{0}=Module name to uninstall (e.g. Battlegrounds)
 GLOBAL_UPDATE	Aktualizuj	
 GLOBAL_VERSION	Wersja	

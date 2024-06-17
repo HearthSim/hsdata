@@ -259,6 +259,9 @@ GLOBAL_CARD_SET_ULDUM_SEARCHABLE_SHORTHAND_NAMES	sou su су ульдум спа
 GLOBAL_CARD_SET_ULDUM_SHORT	Ульдум	
 GLOBAL_CARD_SET_UNGORO	Экспедиция в Ун'Горо	
 GLOBAL_CARD_SET_UNGORO_SHORT	Ун'Горо	
+GLOBAL_CARD_SET_VAC	Раздор в тропиках	
+GLOBAL_CARD_SET_VAC_SEARCHABLE_SHORTHAND_NAMES	отпуск	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_VAC_SHORT	Раздор	
 GLOBAL_CARD_SET_VANILLA	Классический набор	
 GLOBAL_CARD_SET_VANILLA_FORMAT_SEARCHABLE_SHORTHAND_NAMES	классика	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_VANILLA_FORMAT_SHORT	Классический	
@@ -701,6 +704,8 @@ GLOBAL_KEYWORD_AUTOCAST	Автоматическое применение
 GLOBAL_KEYWORD_AUTOCAST_TEXT	Эта сила героя БУДЕТ использоваться на каждом ходу.	
 GLOBAL_KEYWORD_AVENGE	Месть: (X)	
 GLOBAL_KEYWORD_AVENGE_TEXT	Когда в бою погибает X ваших существ, срабатывает некий эффект.	
+GLOBAL_KEYWORD_BACON_BUDDY	Компаньон	
+GLOBAL_KEYWORD_BACON_BUDDY_TEXT	Мощное существо, уникальное для каждой силы героя.	
 GLOBAL_KEYWORD_BACON_BUY_BUDDY	Приобрести компаньона	
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_2	Приобрести 2 компаньонов	
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_2_TEXT	Победа/ничья – стоит на (3) меньше\nПоражение – стоит на (2) меньше	
@@ -1291,9 +1296,9 @@ GLOBAL_PROGRESSION_REWARD_SUMMARY	{0}\n{1}
 GLOBAL_PROGRESSION_REWARD_TRACK_XP	{0} ед. опыта	
 GLOBAL_PROGRESSION_TIER_MESSAGE	{0}/{1}	
 GLOBAL_PROGRESSION_TOOLTIP_CLASS_DEFAULT_DESC	{0}-й уровень	
-GLOBAL_PROGRESSION_TOOLTIP_GOLDEN_WINS_DESC	Одержите {0} |4(победу,победы,побед) в рейтинговых матчах, на Арене или в дуэлях, выбрав класс «{1}», чтобы получить золотого классического героя этого класса!	{0}=win count {1}=class name
-GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DESC	Одержите {0} |4(победу,победы,побед) в рейтинговых матчах, на Арене или в дуэлях, выбрав класс «{1}», чтобы получить награду ({2})!	{0}=win count {1}=class name {2}=hero card name
-GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DONE_DESC	Вы одержали {0} |4(победу,победы,побед) за класс «{1}» в рейтинговых матчах, на Арене или в дуэлях и получаете награду ({2})!	{0}=win count {1}=class name {2}=hero card name
+GLOBAL_PROGRESSION_TOOLTIP_GOLDEN_WINS_DESC	Одержите {0} |4(победу,победы,побед) в рейтинговых матчах или на Арене, выбрав класс «{1}», чтобы получить золотого классического героя этого класса!	{0}=win count {1}=class name
+GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DESC	Одержите {0} |4(победу,победы,побед) в рейтинговых матчах или на Арене, выбрав класс «{1}», чтобы получить награду ({2})!	{0}=win count {1}=class name {2}=hero card name
+GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DONE_DESC	Вы одержали {0} |4(победу,победы,побед) за класс «{1}» в рейтинговых матчах или на Арене и получаете награду ({2})!	{0}=win count {1}=class name {2}=hero card name
 GLOBAL_PROGRESSION_TOOLTIP_TOTAL_CLASS_WINS	Всего побед ({0})	{0}=class name
 GLOBAL_PROGRESSION_WEEKLY_QUESTS_POPUP_TITLE	Еженедельные задания	
 GLOBAL_PVPDR_SEASON_ERROR_NOT_ACTIVE	Данный сезон дуэлей более недоступен. Пожалуйста, повторите попытку позже.	
@@ -1530,7 +1535,6 @@ GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_START_WITH_MANY_WINS	<color=#{0}>{1}</colo
 GLOBAL_SOCIAL_TOAST_FRIEND_DEATH_KNIGHT_LEVEL	<color=#{0}>{1}</color> получает {2} уровень рыцарем смерти.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_DEMON_HUNTER_LEVEL	<color=#{0}>{1}</color> получает {2} уровень охотником на демонов.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_DRUID_LEVEL	<color=#{0}>{1}</color> получает {2} уровень друидом.	0=name color,1=player name,2=level
-GLOBAL_SOCIAL_TOAST_FRIEND_DUEL_START	<color=#{0}>{1}</color> начинает серию дуэлей.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_GOLDEN_LEGENDARY	<color=#{0}>{1}</color> получает <color=#{3}>золотую карту «{2}»</color>!	0=name color,1=player name,2=card name,3=Golden Color
 GLOBAL_SOCIAL_TOAST_FRIEND_HEROIC_BRAWL_COMPLETE	<color=#{0}>{1}</color> завершает героическую потасовку. (В: {2}; П: {3})	0=name color,1=player name,2=Heroic brawl Wins,3=Heroic brawl Losses
 GLOBAL_SOCIAL_TOAST_FRIEND_HEROIC_BRAWL_START	<color=#{0}>{1}</color> начинает новую героическую потасовку.	0=name color,1=player name
@@ -1640,6 +1644,7 @@ GLOBAL_TWIST_SEASON_DESCRIPTION_121	Вернитесь в незапамятны
 GLOBAL_TWIST_SEASON_DESCRIPTION_124	Легендарные карты переоценены! Соберите лучшую колоду, используя только обычные карты из всех дополнений года Дракона и основного набора.	
 GLOBAL_TWIST_SEASON_DESCRIPTION_125	Вспомните десять лет игр в Hearthstone! Мы будем ежедневно добавлять по одному набору, начиная с самых старых карт, пока не дойдем до «Битвы в Бесплодных землях».	
 GLOBAL_TWIST_SEASON_DESCRIPTION_128	Вступайте в бой вместе с одним из героев Чудастера, а также оцените готовые колоды для разных классов, новые силы героя и пассивные эффекты.	
+GLOBAL_TWIST_SEASON_DESCRIPTION_129	Вступите в бой вместе с одним из героев Чудастера, а также оцените готовые колоды для разных классов, новые силы героя и пассивные эффекты.	
 GLOBAL_TWIST_SEASON_TITLE_116	Новый век	
 GLOBAL_TWIST_SEASON_TITLE_117	Новый век	
 GLOBAL_TWIST_SEASON_TITLE_119	Чудеса	
@@ -1648,6 +1653,7 @@ GLOBAL_TWIST_SEASON_TITLE_121	Возвращение в Ун'Горо
 GLOBAL_TWIST_SEASON_TITLE_124	Обычные карты	
 GLOBAL_TWIST_SEASON_TITLE_125	Ускорение вперед	
 GLOBAL_TWIST_SEASON_TITLE_128	Герои Чудастера	
+GLOBAL_TWIST_SEASON_TITLE_129	Герои Чудастера	
 GLOBAL_UNINSTALL_MODULE_POPUP_PROMPT	Удалить «{0}»?	{0}=Module name to uninstall (e.g. Battlegrounds)
 GLOBAL_UPDATE	Обновить	
 GLOBAL_VERSION	Версия	

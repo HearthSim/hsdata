@@ -259,6 +259,9 @@ GLOBAL_CARD_SET_ULDUM_SEARCHABLE_SHORTHAND_NAMES	sdu	This is a space-separated l
 GLOBAL_CARD_SET_ULDUM_SHORT	Uldum	
 GLOBAL_CARD_SET_UNGORO	Jornada a Un'Goro	
 GLOBAL_CARD_SET_UNGORO_SHORT	Un'Goro	
+GLOBAL_CARD_SET_VAC	Perigos no Paraíso	
+GLOBAL_CARD_SET_VAC_SEARCHABLE_SHORTHAND_NAMES	vac	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_VAC_SHORT	Paraíso	
 GLOBAL_CARD_SET_VANILLA	Clássico	
 GLOBAL_CARD_SET_VANILLA_FORMAT_SEARCHABLE_SHORTHAND_NAMES	fmtcl	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_VANILLA_FORMAT_SHORT	Clássico	
@@ -701,6 +704,8 @@ GLOBAL_KEYWORD_AUTOCAST	Lançamento automático
 GLOBAL_KEYWORD_AUTOCAST_TEXT	Este Poder Heroico TEM que ser usado todos os turnos.	
 GLOBAL_KEYWORD_AVENGE	Vingar (X)	
 GLOBAL_KEYWORD_AVENGE_TEXT	Faz algo depois que X lacaios aliados morrem em combate.	
+GLOBAL_KEYWORD_BACON_BUDDY	Camarada	
+GLOBAL_KEYWORD_BACON_BUDDY_TEXT	Um lacaio poderoso que é único para cada Poder Heroico.	
 GLOBAL_KEYWORD_BACON_BUY_BUDDY	Receba seu Camarada	
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_2	Receba 2 Camaradas	
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_2_TEXT	Vitória/Empate - Custa (3) a menos\nDerrota - Custa (2) a menos	
@@ -1291,9 +1296,9 @@ GLOBAL_PROGRESSION_REWARD_SUMMARY	{0}\n{1}
 GLOBAL_PROGRESSION_REWARD_TRACK_XP	{0} de EXP de Recompensa	
 GLOBAL_PROGRESSION_TIER_MESSAGE	{0}/{1}	
 GLOBAL_PROGRESSION_TOOLTIP_CLASS_DEFAULT_DESC	Nível {0}	
-GLOBAL_PROGRESSION_TOOLTIP_GOLDEN_WINS_DESC	Vença {0} partidas no Ranqueado, Arena ou Duelos com {1} para ganhar o herói clássico Dourado!	{0}=win count {1}=class name
-GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DESC	Vença {0} partidas no Ranqueado, Arena ou Duelos com {1} para ganhar {2}!	{0}=win count {1}=class name {2}=hero card name
-GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DONE_DESC	Vencer {0} partidas no Ranqueado, Arena ou Duelos com {1} lhe rendeu {2}!	{0}=win count {1}=class name {2}=hero card name
+GLOBAL_PROGRESSION_TOOLTIP_GOLDEN_WINS_DESC	Vença {0} partidas no Ranqueado ou Arena com {1} para ganhar o herói clássico Dourado!	{0}=win count {1}=class name
+GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DESC	Vença {0} partidas no Ranqueado ou Arena com {1} para ganhar {2}!	{0}=win count {1}=class name {2}=hero card name
+GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DONE_DESC	Vencer {0} partidas no Ranqueado ou Arena com {1} lhe rendeu {2}!	{0}=win count {1}=class name {2}=hero card name
 GLOBAL_PROGRESSION_TOOLTIP_TOTAL_CLASS_WINS	Total de vitórias com {0}	{0}=class name
 GLOBAL_PROGRESSION_WEEKLY_QUESTS_POPUP_TITLE	Suas Missões Semanais	
 GLOBAL_PVPDR_SEASON_ERROR_NOT_ACTIVE	A temporada de Duelos solicitada não está mais disponível. Tente de novo depois.	
@@ -1530,7 +1535,6 @@ GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_START_WITH_MANY_WINS	<color=#{0}>{1}</colo
 GLOBAL_SOCIAL_TOAST_FRIEND_DEATH_KNIGHT_LEVEL	<color=#{0}>{1}</color> tornou-se um Cavaleiro da Morte nível {2}.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_DEMON_HUNTER_LEVEL	<color=#{0}>{1}</color> tornou-se um Caçador de Demônios nível {2}.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_DRUID_LEVEL	<color=#{0}>{1}</color> tornou-se um Druida nível {2}.	0=name color,1=player name,2=level
-GLOBAL_SOCIAL_TOAST_FRIEND_DUEL_START	<color=#{0}>{1}</color> começou uma nova sessão de Duelos.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_GOLDEN_LEGENDARY	<color=#{0}>{1}</color> abriu um <color=#{3}>{2} Dourado</color>!	0=name color,1=player name,2=card name,3=Golden Color
 GLOBAL_SOCIAL_TOAST_FRIEND_HEROIC_BRAWL_COMPLETE	<color=#{0}>{1}</color> acaba de terminar uma contenda heroica. ({2}-{3})	0=name color,1=player name,2=Heroic brawl Wins,3=Heroic brawl Losses
 GLOBAL_SOCIAL_TOAST_FRIEND_HEROIC_BRAWL_START	<color=#{0}>{1}</color> iniciou uma nova contenda heroica.	0=name color,1=player name
@@ -1640,6 +1644,7 @@ GLOBAL_TWIST_SEASON_DESCRIPTION_121	Viaje até o passado ancestral da era dos di
 GLOBAL_TWIST_SEASON_DESCRIPTION_124	Não tem Lendários? Relaxa! Forme o melhor deck que puder usando apenas cards comuns de todas as expansões até o Ano do Dragão e Essencial.	
 GLOBAL_TWIST_SEASON_DESCRIPTION_125	Jogue esses últimos dez anos de Hearthstone! Começando com o Legado, vamos adicionar um conjunto novo todo dia até chegarmos ao Confronto Final nos Ermos.	
 GLOBAL_TWIST_SEASON_DESCRIPTION_128	Entre na ação com um dos Heróis do Rojão, incluindo decks multiclasse pré-construídos, novos Poderes Heroicos e habilidades passivas.	
+GLOBAL_TWIST_SEASON_DESCRIPTION_129	Entre na ação com um dos Heróis do Rojão, incluindo decks multiclasse pré-construídos, novos Poderes Heroicos e habilidades passivas.	
 GLOBAL_TWIST_SEASON_TITLE_116	Nova Era	
 GLOBAL_TWIST_SEASON_TITLE_117	Nova Era	
 GLOBAL_TWIST_SEASON_TITLE_119	Maravilhas	
@@ -1648,6 +1653,7 @@ GLOBAL_TWIST_SEASON_TITLE_121	Retorno a Un'Goro
 GLOBAL_TWIST_SEASON_TITLE_124	Comuns	
 GLOBAL_TWIST_SEASON_TITLE_125	Avanço rápido	
 GLOBAL_TWIST_SEASON_TITLE_128	Heróis do Rojão	
+GLOBAL_TWIST_SEASON_TITLE_129	Heróis do Rojão	
 GLOBAL_UNINSTALL_MODULE_POPUP_PROMPT	Desinstalar {0}?	{0}=Module name to uninstall (e.g. Battlegrounds)
 GLOBAL_UPDATE	Atualizar	
 GLOBAL_VERSION	Versão	

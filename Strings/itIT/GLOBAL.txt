@@ -259,6 +259,9 @@ GLOBAL_CARD_SET_ULDUM_SEARCHABLE_SHORTHAND_NAMES	sdu	This is a space-separated l
 GLOBAL_CARD_SET_ULDUM_SHORT	Uldum	
 GLOBAL_CARD_SET_UNGORO	Viaggio a Un'Goro	
 GLOBAL_CARD_SET_UNGORO_SHORT	Un'Goro	
+GLOBAL_CARD_SET_VAC	Periglio in Paradiso	
+GLOBAL_CARD_SET_VAC_SEARCHABLE_SHORTHAND_NAMES	vac	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_VAC_SHORT	Paradiso	
 GLOBAL_CARD_SET_VANILLA	Classico	
 GLOBAL_CARD_SET_VANILLA_FORMAT_SEARCHABLE_SHORTHAND_NAMES	fmtclsc	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_VANILLA_FORMAT_SHORT	Classico	
@@ -701,6 +704,8 @@ GLOBAL_KEYWORD_AUTOCAST	Lancio automatico
 GLOBAL_KEYWORD_AUTOCAST_TEXT	Questo Potere Eroe DEVE essere usato ogni turno.	
 GLOBAL_KEYWORD_AVENGE	Vendetta (X)	
 GLOBAL_KEYWORD_AVENGE_TEXT	Fa qualcosa dopo che X tuoi servitori sono morti in combattimento.	
+GLOBAL_KEYWORD_BACON_BUDDY	Amico	
+GLOBAL_KEYWORD_BACON_BUDDY_TEXT	Un potente servitore unico per ogni Potere Eroe.	
 GLOBAL_KEYWORD_BACON_BUY_BUDDY	Ottieni il tuo Amico	
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_2	Ottieni 2 Amici	
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_2_TEXT	Vittoria/Pareggio: costa (3) in meno\nSconfitta: costa (2) in meno	
@@ -1291,9 +1296,9 @@ GLOBAL_PROGRESSION_REWARD_SUMMARY	{0}\n{1}
 GLOBAL_PROGRESSION_REWARD_TRACK_XP	{0} PE Ricompensa	
 GLOBAL_PROGRESSION_TIER_MESSAGE	{0}/{1}	
 GLOBAL_PROGRESSION_TOOLTIP_CLASS_DEFAULT_DESC	Livello {0}	
-GLOBAL_PROGRESSION_TOOLTIP_GOLDEN_WINS_DESC	Vinci {0} partite in Classificata, Arena o Duelli con la classe {1} per ottenere la versione Dorata dell'eroe classico!	{0}=win count {1}=class name
-GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DESC	Vinci {0} partite in Classificata, Arena o Duelli con la classe {1} per ottenere {2}!	{0}=win count {1}=class name {2}=hero card name
-GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DONE_DESC	Vincendo {0} partite in Classificata, Arena o Duelli con la classe {1} hai ottenuto {2}!	{0}=win count {1}=class name {2}=hero card name
+GLOBAL_PROGRESSION_TOOLTIP_GOLDEN_WINS_DESC	Vinci {0} partite in modalità Classificata o Arena con la classe {1} per ottenere la versione Dorata dell'eroe classico!	{0}=win count {1}=class name
+GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DESC	Vinci {0} partite in modalità Classificata o Arena con la classe {1} per ottenere {2}!	{0}=win count {1}=class name {2}=hero card name
+GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DONE_DESC	Vincendo {0} partite in modalità Classificata o Arena con la classe {1} hai ottenuto {2}!	{0}=win count {1}=class name {2}=hero card name
 GLOBAL_PROGRESSION_TOOLTIP_TOTAL_CLASS_WINS	Vittorie totali con la classe {0}	{0}=class name
 GLOBAL_PROGRESSION_WEEKLY_QUESTS_POPUP_TITLE	Le tue missioni settimanali	
 GLOBAL_PVPDR_SEASON_ERROR_NOT_ACTIVE	Spiacenti, la stagione dei Duelli richiesta non è più disponibile. Riprova più tardi.	
@@ -1530,7 +1535,6 @@ GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_START_WITH_MANY_WINS	<color=#{0}>{1}</colo
 GLOBAL_SOCIAL_TOAST_FRIEND_DEATH_KNIGHT_LEVEL	<color=#{0}>{1}</color> è ora Cavaliere della Morte di livello {2}.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_DEMON_HUNTER_LEVEL	<color=#{0}>{1}</color> è ora Cacciatore di Demoni di livello {2}.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_DRUID_LEVEL	<color=#{0}>{1}</color> ha raggiunto il livello {2} con il Druido.	0=name color,1=player name,2=level
-GLOBAL_SOCIAL_TOAST_FRIEND_DUEL_START	<color=#{0}>{1}</color> ha iniziato una nuova sessione nei Duelli.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_GOLDEN_LEGENDARY	<color=#{0}>{1}</color> ha ottenuto la carta <color=#{3}>{2} Dorata</color>!	0=name color,1=player name,2=card name,3=Golden Color
 GLOBAL_SOCIAL_TOAST_FRIEND_HEROIC_BRAWL_COMPLETE	<color=#{0}>{1}</color> ha appena finito una Rissa Eroica. ({2}-{3})	0=name color,1=player name,2=Heroic brawl Wins,3=Heroic brawl Losses
 GLOBAL_SOCIAL_TOAST_FRIEND_HEROIC_BRAWL_START	<color=#{0}>{1}</color> ha iniziato una Rissa Eroica.	0=name color,1=player name
@@ -1640,6 +1644,7 @@ GLOBAL_TWIST_SEASON_DESCRIPTION_121	Viaggia indietro nel tempo fino all'antico p
 GLOBAL_TWIST_SEASON_DESCRIPTION_124	Niente carte Leggendarie? Nessun problema! Crea il miglior mazzo possibile usando solo carte Comuni di tutte le espansioni fino all'Anno del Drago e del set Principale.	
 GLOBAL_TWIST_SEASON_DESCRIPTION_125	Rigioca dieci anni di Hearthstone! Aggiungeremo un nuovo set ogni giorno a partire da Retaggio, fino ad arrivare a Resa dei Conti nelle Maleterre.	
 GLOBAL_TWIST_SEASON_DESCRIPTION_128	Entra subito in gioco con uno degli Eroi di Frizzabombe e scopri mazzi multi-classe precostruiti, nuovi Poteri Eroe e abilità passive.	
+GLOBAL_TWIST_SEASON_DESCRIPTION_129	Entra subito in gioco con uno degli Eroi di Frizzabombe e scopri mazzi multi-classe precostruiti, nuovi Poteri Eroe e abilità passive.	
 GLOBAL_TWIST_SEASON_TITLE_116	Una nuova era	
 GLOBAL_TWIST_SEASON_TITLE_117	Una nuova era	
 GLOBAL_TWIST_SEASON_TITLE_119	Meraviglie	
@@ -1648,6 +1653,7 @@ GLOBAL_TWIST_SEASON_TITLE_121	Ritorno a Un'Goro
 GLOBAL_TWIST_SEASON_TITLE_124	Comuni	
 GLOBAL_TWIST_SEASON_TITLE_125	Avanti Veloce	
 GLOBAL_TWIST_SEASON_TITLE_128	Eroi di Frizzabombe	
+GLOBAL_TWIST_SEASON_TITLE_129	Eroi di Frizzabombe	
 GLOBAL_UNINSTALL_MODULE_POPUP_PROMPT	Vuoi disinstallare {0}?	{0}=Module name to uninstall (e.g. Battlegrounds)
 GLOBAL_UPDATE	Aggiorna	
 GLOBAL_VERSION	Versione	

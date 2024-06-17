@@ -259,6 +259,9 @@ GLOBAL_CARD_SET_ULDUM_SEARCHABLE_SHORTHAND_NAMES	sou ddu	This is a space-separat
 GLOBAL_CARD_SET_ULDUM_SHORT	Uldum	
 GLOBAL_CARD_SET_UNGORO	Viaje a Un'Goro	
 GLOBAL_CARD_SET_UNGORO_SHORT	Un'Goro	
+GLOBAL_CARD_SET_VAC	Peligros en el Paraíso	
+GLOBAL_CARD_SET_VAC_SEARCHABLE_SHORTHAND_NAMES	vac	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_VAC_SHORT	Paraíso	
 GLOBAL_CARD_SET_VANILLA	Clásico	
 GLOBAL_CARD_SET_VANILLA_FORMAT_SEARCHABLE_SHORTHAND_NAMES	clfmt fmtcl	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_VANILLA_FORMAT_SHORT	Clásico	
@@ -701,6 +704,8 @@ GLOBAL_KEYWORD_AUTOCAST	Autolanzamiento
 GLOBAL_KEYWORD_AUTOCAST_TEXT	Este Poder de héroe DEBE usarse todos los turnos.	
 GLOBAL_KEYWORD_AVENGE	Vengar (X)	
 GLOBAL_KEYWORD_AVENGE_TEXT	Hace algo cuando mueren en combate X esbirros aliados.	
+GLOBAL_KEYWORD_BACON_BUDDY	Compa	
+GLOBAL_KEYWORD_BACON_BUDDY_TEXT	Un esbirro poderoso y único para cada Poder de héroe.	
 GLOBAL_KEYWORD_BACON_BUY_BUDDY	Obtén tu Compa	
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_2	Obtén 2 Compas	
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_2_TEXT	Victoria/Empate - Cuestan (3) menos\nDerrota - Cuestan (2) menos	
@@ -1291,9 +1296,9 @@ GLOBAL_PROGRESSION_REWARD_SUMMARY	{0}\n{1}
 GLOBAL_PROGRESSION_REWARD_TRACK_XP	{0} experiencia de recompensa	
 GLOBAL_PROGRESSION_TIER_MESSAGE	{0}/{1}	
 GLOBAL_PROGRESSION_TOOLTIP_CLASS_DEFAULT_DESC	Nivel {0}	
-GLOBAL_PROGRESSION_TOOLTIP_GOLDEN_WINS_DESC	¡Gana {0} partidas en el modo clasificado, la Arena o los Duelos con {1} para obtener su héroe clásico dorado!	{0}=win count {1}=class name
-GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DESC	¡Gana {0} partidas en el modo clasificado, la Arena o los Duelos con {1} para obtener {2}!	{0}=win count {1}=class name {2}=hero card name
-GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DONE_DESC	¡Has obtenido {2} por ganar {0} partidas en el modo clasificado, la Arena o los Duelos con la clase {1}!	{0}=win count {1}=class name {2}=hero card name
+GLOBAL_PROGRESSION_TOOLTIP_GOLDEN_WINS_DESC	¡Gana {0} partidas en el modo clasificado o la Arena con la clase {1} para obtener su héroe clásico dorado!	{0}=win count {1}=class name
+GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DESC	¡Gana {0} partidas en el modo clasificado o la Arena con la clase {1} para obtener {2}!	{0}=win count {1}=class name {2}=hero card name
+GLOBAL_PROGRESSION_TOOLTIP_PREMIUM_WINS_DONE_DESC	¡Has obtenido {2} por ganar {0} partidas en el modo clasificado o la Arena con la clase {1}!	{0}=win count {1}=class name {2}=hero card name
 GLOBAL_PROGRESSION_TOOLTIP_TOTAL_CLASS_WINS	{0} victorias totales	{0}=class name
 GLOBAL_PROGRESSION_WEEKLY_QUESTS_POPUP_TITLE	Tus misiones semanales	
 GLOBAL_PVPDR_SEASON_ERROR_NOT_ACTIVE	Lo sentimos, la temporada de Duelos solicitada ya no está disponible. Vuelve a intentarlo más tarde.	
@@ -1530,7 +1535,6 @@ GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_START_WITH_MANY_WINS	¡<color=#{0}>{1}</co
 GLOBAL_SOCIAL_TOAST_FRIEND_DEATH_KNIGHT_LEVEL	<color=#{0}>{1}</color> se convirtió en un Caballero de la muerte nivel {2}.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_DEMON_HUNTER_LEVEL	<color=#{0}>{1}</color> se convirtió en un Cazador de demonios nivel {2}.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_DRUID_LEVEL	<color=#{0}>{1}</color> se convirtió en un Druida nivel {2}.	0=name color,1=player name,2=level
-GLOBAL_SOCIAL_TOAST_FRIEND_DUEL_START	<color=#{0}>{1}</color> comenzó una nueva ronda de Duelos.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_GOLDEN_LEGENDARY	¡<color=#{0}>{1}</color> consiguió una copia <color=#{3}>Dorada de {2}</color>!	0=name color,1=player name,2=card name,3=Golden Color
 GLOBAL_SOCIAL_TOAST_FRIEND_HEROIC_BRAWL_COMPLETE	<color=#{0}>{1}</color> acaba de terminar una gresca heroica. ({2}-{3})	0=name color,1=player name,2=Heroic brawl Wins,3=Heroic brawl Losses
 GLOBAL_SOCIAL_TOAST_FRIEND_HEROIC_BRAWL_START	<color=#{0}>{1}</color> comenzó una nueva gresca heroica.	0=name color,1=player name
@@ -1640,6 +1644,7 @@ GLOBAL_TWIST_SEASON_DESCRIPTION_121	¡Viaja al pasado remoto cuando los dinosaur
 GLOBAL_TWIST_SEASON_DESCRIPTION_124	¿No tienes cartas legendarias? ¡No te preocupes! Arma el mejor mazo posible con cartas comunes de todas las expansiones hasta Año del dragón y Esencial.	
 GLOBAL_TWIST_SEASON_DESCRIPTION_125	¡Vuelve a vivir los diez años de Hearthstone! Empezaremos añadiendo el kit Legado, y después agregaremos uno nuevo por día hasta llegar a Enfrentamiento en las Tierras Inhóspitas.	
 GLOBAL_TWIST_SEASON_DESCRIPTION_128	Juega de inmediato con uno de los héroes de Fizbang, los cuales incluyen mazos multiclase previamente armados, nuevos Poderes de héroe y habilidades pasivas.	
+GLOBAL_TWIST_SEASON_DESCRIPTION_129	Juega de inmediato con uno de los héroes de Fizbang, los cuales incluyen mazos multiclase previamente armados, nuevos Poderes de héroe y habilidades pasivas.	
 GLOBAL_TWIST_SEASON_TITLE_116	Nueva era	
 GLOBAL_TWIST_SEASON_TITLE_117	Nueva era	
 GLOBAL_TWIST_SEASON_TITLE_119	Maravillas	
@@ -1648,6 +1653,7 @@ GLOBAL_TWIST_SEASON_TITLE_121	Regreso a Un'Goro
 GLOBAL_TWIST_SEASON_TITLE_124	Comunes	
 GLOBAL_TWIST_SEASON_TITLE_125	Avance rápido	
 GLOBAL_TWIST_SEASON_TITLE_128	Héroes de Fizbang	
+GLOBAL_TWIST_SEASON_TITLE_129	Héroes de Fizbang	
 GLOBAL_UNINSTALL_MODULE_POPUP_PROMPT	¿Deseas desinstalar {0}?	{0}=Module name to uninstall (e.g. Battlegrounds)
 GLOBAL_UPDATE	Actualizar	
 GLOBAL_VERSION	Versión	
