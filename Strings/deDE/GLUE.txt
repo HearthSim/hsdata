@@ -701,6 +701,7 @@ GLUE_COLLECTION_DECK_FORMAT_STANDARD	Standard
 GLUE_COLLECTION_DECK_FORMAT_WILD	Wild	
 GLUE_COLLECTION_DECK_GENERIC_INVALID_MESSAGE	Euer Deck enthält einige Karten, die in diesem Format ungültig sind.	
 GLUE_COLLECTION_DECK_HELP_BUTTON	Deckhelfer	
+GLUE_COLLECTION_DECK_HELPER_NOT_ALLOWED_IN_DECK	In diesem Deck nicht zulässig	
 GLUE_COLLECTION_DECK_HELPER_REPLACE_BANNED_CARD	Gebannte Karte	
 GLUE_COLLECTION_DECK_HELPER_REPLACE_CARD	Diese Karte ersetzen	
 GLUE_COLLECTION_DECK_HELPER_REPLACE_INVALID_CARD	In diesem Format nicht zulässig	
@@ -743,6 +744,7 @@ GLUE_COLLECTION_DECK_RULE_NOT_ENOUGH_CARDS	Ihr braucht {0} |4(weitere Karte,weit
 GLUE_COLLECTION_DECK_RULE_NOT_IN_CARDSET	Ihr habt {0} |4(Karte,Karten) aus einem unzulässigen Set.	
 GLUE_COLLECTION_DECK_RULE_NOT_IN_FORMAT	Ihr habt {0} |4(Karte,Karten) die in diesem Format nicht zulässig |4(ist,sind).	
 GLUE_COLLECTION_DECK_RULE_TOO_MANY_CARDS	Das Deck enthält {0} |4(Karte,Karten) zu viel.	
+GLUE_COLLECTION_DECK_RULE_TOO_MANY_TOURIST	Ihr habt zu viele Touristen.	
 GLUE_COLLECTION_DECK_RULE_UNPLAYABLE_CARDS	Ihr habt {0} |4(Karte,Karten), die noch nicht spielbar |4(ist,sind).	
 GLUE_COLLECTION_DECK_SAVE_ANYWAY	Nein	
 GLUE_COLLECTION_DECK_TEMPLATE_HELP_BUTTON	Karten ersetzen	
@@ -813,6 +815,7 @@ GLUE_COLLECTION_MANAGER_MANA_FILTER_PROMPT_BODY_ODD_CARDS	Nur Karten mit ungerad
 GLUE_COLLECTION_MANAGER_MANA_FILTER_PROMPT_HEADER	Nach Mana filtern	
 GLUE_COLLECTION_MANAGER_MANA_TAB_FIRST_CLICK	Klickt erneut hier, um diesen Filter zu deaktivieren!	
 GLUE_COLLECTION_MANAGER_ON_ADD_FULL_DECK_ERROR_TEXT	Euer Deck ist voll. Ihr müsst zuerst eine Karte entfernen!	
+GLUE_COLLECTION_MANAGER_ON_ADD_TOURIST_LIMIT_ERROR_TEXT	Ihr dürft nicht mehr als {0} |4 Touristen in Eurem Deck haben.	
 GLUE_COLLECTION_MANAGER_SEARCH_ARTIST	künstler	
 GLUE_COLLECTION_MANAGER_SEARCH_ATTACK	angriff	
 GLUE_COLLECTION_MANAGER_SEARCH_CRAFTABLE	herstellen	to match craft{able}
@@ -876,6 +879,7 @@ GLUE_COLLECTION_NEW_DECK	Neues Deck
 GLUE_COLLECTION_NEW_DECK_DETAIL_DESC	{0} legendäre Karten, {1} epische Karten, {2} seltene Karten, {3} gewöhnliche Karten	
 GLUE_COLLECTION_NEW_DECK_DETAIL_HEADER	Dieses Deck ({0}) enthält:	
 GLUE_COLLECTION_NEW_TEAM	Neue Gruppe	
+GLUE_COLLECTION_NO_CLASS_CARDS	Ihr habt keine Karten dieser Klasse	
 GLUE_COLLECTION_NO_MATCHES	Keine Treffer gefunden	
 GLUE_COLLECTION_NO_PACKS	Keine Packungen	
 GLUE_COLLECTION_NO_RESULTS	Keine Ergebnisse	
@@ -886,6 +890,7 @@ GLUE_COLLECTION_NO_RESULTS_IN_CURRENT_SET_HINT	Ergebnisse in anderen Sets
 GLUE_COLLECTION_NO_RESULTS_IN_SELECTED_COST	Keine Ergebnisse für die gewählten Kosten	
 GLUE_COLLECTION_NO_RESULTS_IN_SELECTED_COST_HINT	Ergebnisse mit anderen Kosten	
 GLUE_COLLECTION_NO_RESULTS_IN_STANDARD	Ergebnisse in wilden Sets gefunden	
+GLUE_COLLECTION_NO_RESULTS_TOURIST_CLASS	Schaut sie euch in der Kartenherstellung an?	
 GLUE_COLLECTION_NO_SAVED_VERSIONS	Speichert eine Zilliax-Kopie ab!	
 GLUE_COLLECTION_PAGE_NUM	Seite {0}	
 GLUE_COLLECTION_PLUS	+	
@@ -916,6 +921,10 @@ GLUE_COLLECTION_TEAM_VALID_PASTE_HEADER	Team erstellen
 GLUE_COLLECTION_TO_STANDARD	Auf Standard umstellen	
 GLUE_COLLECTION_TO_TWIST	Auf Haken umstellen	
 GLUE_COLLECTION_TO_WILD	Auf Wild umstellen	
+GLUE_COLLECTION_TOURIST_HEADER	Tourist	
+GLUE_COLLECTION_TOURIST_HEADER_CAPS	TOURIST	
+GLUE_COLLECTION_TOURIST_LIMIT_DESCRIPTION	Euer Deck darf nur {0} |4 (Touristen, Touristen) enthalten.	
+GLUE_COLLECTION_TOURIST_LIMIT_HEADER	Max. Anzahl Touristen	
 GLUE_COLLECTION_TUTORIAL_MULTIPLE_FAVORITE_CARD_BACKS	Wählt mehrere Favoriten!	
 GLUE_COLLECTION_TUTORIAL_MULTIPLE_FAVORITE_HEROES	Wählt mehrere Favoriten!	
 GLUE_COLLECTION_TUTORIAL_REPLACE_WILD_CARDS	Ersetzt wilde Karten durch Standardkarten.	
@@ -966,6 +975,8 @@ GLUE_CRAFTING_CLASSIC_CARD_FIRST_DESC	Beim Herstellen dieser Klassikkarte erhalt
 GLUE_CRAFTING_CLASSIC_CARD_HEADER	Klassikkarten	
 GLUE_CRAFTING_CREATE	Herstellen	
 GLUE_CRAFTING_CREATE_UPGRADE	Herstellen/\nAufwerten	
+GLUE_CRAFTING_CROSS_CLASS_CARD_DESC	Diese Karte ist von einer anderen Klasse als Euer aktuelles Deck und könnte nicht verwendbar sein. Seid Ihr sicher, dass Ihr diese Karte herstellen möchtet?	
+GLUE_CRAFTING_CROSS_CLASS_CARD_HEADER	Karten anderer Klassen	
 GLUE_CRAFTING_DISENCHANT	Entzaubern	
 GLUE_CRAFTING_DISENCHANT_CONFIRM_DESC	Seid Ihr Euch sicher? Dadurch werden die folgenden Decks ungültig:	
 GLUE_CRAFTING_DISENCHANT_CONFIRM_HEADER	Entzaubern	
@@ -1196,6 +1207,9 @@ GLUE_GHOST_CARD_NEVER_VALID_TITLE	Ungültige Karte
 GLUE_GHOST_CARD_NOT_VALID_DESCRIPTION	Wilde Karten sind in Standarddecks nicht erlaubt.\nKlickt hier, um einen Ersatz zu finden.	
 GLUE_GHOST_CARD_NOT_VALID_DESCRIPTION_TOUCH	Wilde Karten sind in Standarddecks nicht erlaubt.\nTippt hier, um einen Ersatz zu finden.	
 GLUE_GHOST_CARD_NOT_VALID_TITLE	Wilde Karte	
+GLUE_GHOST_CARD_OTHER_CLASS_DESCRIPTION	Diese Karte gehört zu einer anderen Klasse und kann nicht verwendet werden.\nKlicken, um Ersatz zu finden.	
+GLUE_GHOST_CARD_OTHER_CLASS_DESCRIPTION_TOUCH	Diese Karte gehört zu einer anderen Klasse und kann nicht verwendet werden.\nTippen, um Ersatz zu finden.	
+GLUE_GHOST_CARD_OTHER_CLASS_TITLE	Andere Klasse	
 GLUE_GIL_LOADING_BAR_TASK_1	Entzünde Laternen	
 GLUE_GIL_LOADING_BAR_TASK_10	Schmecke Zaubertrank ab	
 GLUE_GIL_LOADING_BAR_TASK_11	Wetze Krallen	
@@ -2055,7 +2069,7 @@ GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_CORE_LOOP	Spielt Matches, um EP
 GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_FIRST_REWARD	Ah! Sieht aus, als hättet Ihr Eure erste Belohnung verdient!	
 GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_GUIDE_COMPLETE	Ich habe Euch alles vermittelt, was ich kann. Nutzt fortan, was Ihr gelernt habt, und werdet eine Hearthstone-Legende!	
 GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_INTRO_COMPLETE	Spielt weiter, um mehr Belohnungen zu erhalten!	
-GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_LEARN_ROPES	Dieser Führer wird Euch dabei helfen, die Grundlagen zu erlernen. Beginnt zunächst damit, ein Match zu spielen!	
+GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_LEARN_ROPES	Dieser Weggefährte wird Euch dabei helfen, die Grundlagen zu erlernen. Beginnt zunächst damit, ein Match zu spielen!	
 GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_MORE_QUESTS	Es scheint, als hättet Ihr weitere Quests freigeschaltet!	
 GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_NEW_DECK	Wow, Ihr habt ein neues Deck! Toller Start!	
 GLUE_PROGRESSION_APPRENTICE_TUTORIALS_INNKEEEPER_TRACK_COMPLETE	Oh-la-la! Ihr habt die Ausbildung abgeschlossen. Jetzt ist es an der Zeit, gegen stärkere Gegner anzutreten!	
@@ -3335,6 +3349,10 @@ GLUE_TOOLTIP_RENOWN_TREASURE_HEADER	Ruhmesschätze
 GLUE_TOOLTIP_VIRTUAL_CURRENCY_DESCRIPTION	Mit Runensteinen könnt Ihr Arkane Kugeln, Helden, Abenteuer oder Gasthauszugänge kaufen.	
 GLUE_TOOLTIP_VIRTUAL_CURRENCY_HEADER	Runensteine	
 GLUE_TOOLTIP_VIRTUAL_CURRENCY_ROW_DESCRIPTION	Runensteine können für Packungen, Pakete, Pässe, Zugänge, kosmetische Gegenstände und mehr eingetauscht werden.	
+GLUE_TOURIST_CLASS_TAB_TOOLTIP_DESCRIPTION	In Eurem Deck befindet sich ein Tourist, über den Ihr Zugang zu dessen Klasse erhaltet.	
+GLUE_TOURIST_CLASS_TAB_TOOLTIP_HEADER	Touristenklasse	
+GLUE_TOURIST_FTUE_CLASS_TAB_TOOLTIP	Über Touristen erhaltet Ihr Zugriff zu anderen Klassen!	
+GLUE_TOURIST_FTUE_COLLECTION_TOOLTIP	Ihr könnt Karten aus Gefahr im Paradies wählen.	
 GLUE_TOURNAMENT	Spielen	
 GLUE_TOURNAMENT_CASUAL	Ungewertet	
 GLUE_TOURNAMENT_CASUAL_WILD	Ungewertet (Wild)	

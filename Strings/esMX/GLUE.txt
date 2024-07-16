@@ -701,6 +701,7 @@ GLUE_COLLECTION_DECK_FORMAT_STANDARD	Estándar
 GLUE_COLLECTION_DECK_FORMAT_WILD	Salvaje	
 GLUE_COLLECTION_DECK_GENERIC_INVALID_MESSAGE	Tu mazo tiene algunas cartas que no son válidas para este formato.	
 GLUE_COLLECTION_DECK_HELP_BUTTON	Asistente de mazos	
+GLUE_COLLECTION_DECK_HELPER_NOT_ALLOWED_IN_DECK	No permitida en este mazo	
 GLUE_COLLECTION_DECK_HELPER_REPLACE_BANNED_CARD	Carta no permitida	
 GLUE_COLLECTION_DECK_HELPER_REPLACE_CARD	Reemplaza esta carta	
 GLUE_COLLECTION_DECK_HELPER_REPLACE_INVALID_CARD	No permitida en este formato	
@@ -743,6 +744,7 @@ GLUE_COLLECTION_DECK_RULE_NOT_ENOUGH_CARDS	Necesitas {0} |4(carta,cartas) más p
 GLUE_COLLECTION_DECK_RULE_NOT_IN_CARDSET	Tienes {0} |4(carta,cartas) que |4(es,son) de un kit no válido.	
 GLUE_COLLECTION_DECK_RULE_NOT_IN_FORMAT	Tienes {0} |4(carta,cartas) |4(no válida,no válidas) para este formato.	
 GLUE_COLLECTION_DECK_RULE_TOO_MANY_CARDS	Tienes {0} |4(carta,cartas) de más en el mazo.	
+GLUE_COLLECTION_DECK_RULE_TOO_MANY_TOURIST	Tienes demasiados Turistas	
 GLUE_COLLECTION_DECK_RULE_UNPLAYABLE_CARDS	Tienes {0} |4(carta,cartas) que aún no puedes usar.	
 GLUE_COLLECTION_DECK_SAVE_ANYWAY	No	
 GLUE_COLLECTION_DECK_TEMPLATE_HELP_BUTTON	Reemplazar cartas	
@@ -813,6 +815,7 @@ GLUE_COLLECTION_MANAGER_MANA_FILTER_PROMPT_BODY_ODD_CARDS	¿Quieres filtrar tu c
 GLUE_COLLECTION_MANAGER_MANA_FILTER_PROMPT_HEADER	Filtro de maná	
 GLUE_COLLECTION_MANAGER_MANA_TAB_FIRST_CLICK	¡Haz clic de nuevo para desactivar el filtro!	
 GLUE_COLLECTION_MANAGER_ON_ADD_FULL_DECK_ERROR_TEXT	Tu mazo está lleno. ¡Primero quita una carta!	
+GLUE_COLLECTION_MANAGER_ON_ADD_TOURIST_LIMIT_ERROR_TEXT	No puedes tener más de {0} |4(Turista, Turistas) en tu mazo.	
 GLUE_COLLECTION_MANAGER_SEARCH_ARTIST	artista	
 GLUE_COLLECTION_MANAGER_SEARCH_ATTACK	ataque	
 GLUE_COLLECTION_MANAGER_SEARCH_CRAFTABLE	crea	to match craft{able}
@@ -876,6 +879,7 @@ GLUE_COLLECTION_NEW_DECK	Mazo nuevo
 GLUE_COLLECTION_NEW_DECK_DETAIL_DESC	Legendarias x {0}, épicas x {1}, raras x {2}, comunes x {3}	
 GLUE_COLLECTION_NEW_DECK_DETAIL_HEADER	Incluidas en este mazo de {0}:	
 GLUE_COLLECTION_NEW_TEAM	Grupo nuevo	
+GLUE_COLLECTION_NO_CLASS_CARDS	No tienes ninguna carta en esta clase	
 GLUE_COLLECTION_NO_MATCHES	No se encontraron coincidencias	
 GLUE_COLLECTION_NO_PACKS	Sin paquetes	
 GLUE_COLLECTION_NO_RESULTS	No hay resultados	
@@ -886,6 +890,7 @@ GLUE_COLLECTION_NO_RESULTS_IN_CURRENT_SET_HINT	Resultados encontrados en otros k
 GLUE_COLLECTION_NO_RESULTS_IN_SELECTED_COST	No hay resultados con el costo seleccionado	
 GLUE_COLLECTION_NO_RESULTS_IN_SELECTED_COST_HINT	Resultados encontrados con costo diferente	
 GLUE_COLLECTION_NO_RESULTS_IN_STANDARD	Resultados encontrados en kits salvajes	
+GLUE_COLLECTION_NO_RESULTS_TOURIST_CLASS	¿Quieres echarles un vistazo en la pantalla de fabricación?	
 GLUE_COLLECTION_NO_SAVED_VERSIONS	¡Guarda una copia de Zilliax!	
 GLUE_COLLECTION_PAGE_NUM	Página {0}	
 GLUE_COLLECTION_PLUS	+	
@@ -916,6 +921,10 @@ GLUE_COLLECTION_TEAM_VALID_PASTE_HEADER	Crear equipo
 GLUE_COLLECTION_TO_STANDARD	Convertir en estándar	
 GLUE_COLLECTION_TO_TWIST	Convertir a Imprevisto	
 GLUE_COLLECTION_TO_WILD	Convertir en salvaje	
+GLUE_COLLECTION_TOURIST_HEADER	Turista	
+GLUE_COLLECTION_TOURIST_HEADER_CAPS	TURISTA	
+GLUE_COLLECTION_TOURIST_LIMIT_DESCRIPTION	Solo puedes tener {0} |4(Turista, Turistas) en tu mazo.	
+GLUE_COLLECTION_TOURIST_LIMIT_HEADER	Máximo de Turistas	
 GLUE_COLLECTION_TUTORIAL_MULTIPLE_FAVORITE_CARD_BACKS	¡Elige varios dorsos favoritos!	
 GLUE_COLLECTION_TUTORIAL_MULTIPLE_FAVORITE_HEROES	¡Elige varios héroes favoritos!	
 GLUE_COLLECTION_TUTORIAL_REPLACE_WILD_CARDS	Reemplaza las cartas salvajes con cartas estándar.	
@@ -966,6 +975,8 @@ GLUE_CRAFTING_CLASSIC_CARD_FIRST_DESC	Al crear esta carta del formato Clásico, 
 GLUE_CRAFTING_CLASSIC_CARD_HEADER	Cartas del formato Clásico	
 GLUE_CRAFTING_CREATE	Crear	
 GLUE_CRAFTING_CREATE_UPGRADE	Crear/\nMejorar	
+GLUE_CRAFTING_CROSS_CLASS_CARD_DESC	Esta carta es de una clase diferente que el mazo actual y puede que no sea válida. ¿Realmente deseas crear esta carta?	
+GLUE_CRAFTING_CROSS_CLASS_CARD_HEADER	Cartas de otra clase	
 GLUE_CRAFTING_DISENCHANT	Desencantar	
 GLUE_CRAFTING_DISENCHANT_CONFIRM_DESC	¿Estás seguro? Los siguientes mazos quedarán invalidados:	
 GLUE_CRAFTING_DISENCHANT_CONFIRM_HEADER	Desencantar	
@@ -1196,6 +1207,9 @@ GLUE_GHOST_CARD_NEVER_VALID_TITLE	Carta no válida
 GLUE_GHOST_CARD_NOT_VALID_DESCRIPTION	Las cartas salvajes no pueden usarse en los mazos estándar.\nHaz clic para buscar un reemplazo.	
 GLUE_GHOST_CARD_NOT_VALID_DESCRIPTION_TOUCH	Las cartas salvajes no pueden usarse en los mazos estándar.\nToca para buscar un reemplazo.	
 GLUE_GHOST_CARD_NOT_VALID_TITLE	Carta salvaje	
+GLUE_GHOST_CARD_OTHER_CLASS_DESCRIPTION	Esta carta pertenece a otra clase y no se puede usar.\nHaz clic para encontrar un reemplazo.	
+GLUE_GHOST_CARD_OTHER_CLASS_DESCRIPTION_TOUCH	Esta carta pertenece a otra clase y no se puede usar.\nToca para encontrar un reemplazo.	
+GLUE_GHOST_CARD_OTHER_CLASS_TITLE	Otra clase	
 GLUE_GIL_LOADING_BAR_TASK_1	Encendiendo faroles	
 GLUE_GIL_LOADING_BAR_TASK_10	Lanzando maleficios	
 GLUE_GIL_LOADING_BAR_TASK_11	Afilando garras	
@@ -3335,6 +3349,10 @@ GLUE_TOOLTIP_RENOWN_TREASURE_HEADER	Tesoros de reconocimiento
 GLUE_TOOLTIP_VIRTUAL_CURRENCY_DESCRIPTION	Gasta piedras rúnicas para comprar orbes arcanos, héroes, aventuras o boletos de la Taberna.	
 GLUE_TOOLTIP_VIRTUAL_CURRENCY_HEADER	Piedras rúnicas	
 GLUE_TOOLTIP_VIRTUAL_CURRENCY_ROW_DESCRIPTION	Puedes cambiar piedras rúnicas por paquetes, combos, pases, boletos, artículos estéticos y más.	
+GLUE_TOURIST_CLASS_TAB_TOOLTIP_DESCRIPTION	Tu mazo tiene un Turista, lo que te da acceso a esta clase.	
+GLUE_TOURIST_CLASS_TAB_TOOLTIP_HEADER	Clase Turista	
+GLUE_TOURIST_FTUE_CLASS_TAB_TOOLTIP	¡Los Turistas te otorgan acceso a otra clase!	
+GLUE_TOURIST_FTUE_COLLECTION_TOOLTIP	Puedes elegir cartas de Peligros en el Paraíso.	
 GLUE_TOURNAMENT	Jugar	
 GLUE_TOURNAMENT_CASUAL	Casual	
 GLUE_TOURNAMENT_CASUAL_WILD	Partidas salvajes casuales	

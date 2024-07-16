@@ -12,6 +12,7 @@ GLUE_COLLECTION_DECK_HELPER_REPLACE_INVALID_CARD	Not Allowed In Format
 GLUE_COLLECTION_DECK_HELPER_REPLACE_INVALID_CARD_NPR	Must Complete Apprentice
 GLUE_COLLECTION_DECK_HELPER_REPLACE_UNPLAYABLE_CARD	Not Yet Playable
 GLUE_COLLECTION_DECK_HELPER_REPLACE_BANNED_CARD	Banned card
+GLUE_COLLECTION_DECK_HELPER_NOT_ALLOWED_IN_DECK	Not Allowed In Deck
 GLUE_COLLECTION_DECK_INFO_TITLE	{0} Info
 GLUE_COLLECTION_DECK_INFO_HERO_POWER_TOOLTIP	Hero Power
 GLUE_COLLECTION_DECK_INFO_MANA_TOOLTIP	Cards/Mana Cost
@@ -80,6 +81,11 @@ GLUE_COLLECTION_DECK_EXTRA_CARDS_POPUP_TEXT_CLICK_TO_FIX_DISABLED	You have {0} |
 GLUE_COLLECTION_DECK_EXTRA_RUNES_WARNING_HEADER	Incompatible Runes
 GLUE_COLLECTION_DECK_EXTRA_RUNES_WARNING_BODY	Incompatible runed cards can be added, but the deck will be invalid until resolved.
 GLUE_COLLECTION_DECK_EXTRA_RUNES_WARNING_CONFIRM	Got it!
+GLUE_COLLECTION_DECK_RULE_TOO_MANY_TOURIST	You have too many tourists
+GLUE_COLLECTION_TOURIST_HEADER	Tourist
+GLUE_COLLECTION_TOURIST_HEADER_CAPS	TOURIST
+GLUE_COLLECTION_TOURIST_LIMIT_HEADER	Max Tourists
+GLUE_COLLECTION_TOURIST_LIMIT_DESCRIPTION	You can only have {0} |4(Tourist, Tourists) in your deck.
 GLUE_COLLECTION_RUNES_TOOLTIP_HEADER	Runes
 GLUE_COLLECTION_RUNES_TOOLTIP_DESC	Determine which Death Knight cards are allowed in your deck.
 GLUE_COLLECTION_INCOMPATIBLE_RUNES_HEADER	Incompatible Runes
@@ -267,6 +273,8 @@ GLUE_CRAFTING_WILD_CARD_DESC	This is a Wild card. Are you sure?
 GLUE_CRAFTING_CLASSIC_CARD_HEADER	Classic Format Cards
 GLUE_CRAFTING_CLASSIC_CARD_FIRST_DESC	Crafting this Classic Format card will also create its Wild counterpart, but neither is playable in the Standard format. Are you sure?
 GLUE_CRAFTING_CLASSIC_CARD_DESC	This is a Classic Format card. Are you sure?
+GLUE_CRAFTING_CROSS_CLASS_CARD_HEADER	Other Class Cards
+GLUE_CRAFTING_CROSS_CLASS_CARD_DESC	This card is from a different class than the current deck and may not be valid. Are you sure you want to craft this card?
 GLUE_CRAFTING_STANDARD_CARD_HEADER	Standard Format Cards
 GLUE_CRAFTING_INVALID_CARD_DESC	This card is not valid for the current format. Are you sure?
 GLUE_CRAFTING_INVALID_CARD_TAVERN_BRAWL_HEADER	Invalid Cards
@@ -1667,6 +1675,9 @@ GLUE_CARD_BANNED_IN_TWIST_DESCRIPTION_TOUCH	This Card is Banned in Twist Mode.\n
 GLUE_CARD_INVALID_IN_TWIST_TITLE	Twist card
 GLUE_CARD_INVALID_IN_TWIST_DESCRIPTION	This Card is Invalid in Twist Mode.\nClick to find a replacement.
 GLUE_CARD_INVALID_IN_TWIST_DESCRIPTION_TOUCH	This Card is Invalid in Twist Mode.\nTap to find a replacement.
+GLUE_GHOST_CARD_OTHER_CLASS_TITLE	Other class
+GLUE_GHOST_CARD_OTHER_CLASS_DESCRIPTION	This card belongs to another class and cannot be used.\nClick to find a replacement.
+GLUE_GHOST_CARD_OTHER_CLASS_DESCRIPTION_TOUCH	This card belongs to another class and cannot be used.\nTap to find a replacement.
 GLUE_GHOST_CARD_NEVER_VALID_TITLE	Invalid card
 GLUE_GHOST_CARD_NEVER_VALID_DESCRIPTION	This card is invalid and cannot be used in this deck.\nClick to find a replacement.
 GLUE_GHOST_CARD_NEVER_VALID_DESCRIPTION_TOUCH	This card is invalid and cannot be used in this deck.\nTap to find a replacement.
@@ -1814,6 +1825,7 @@ GLUE_COLLECTION_NO_RESULTS_IN_CURRENT_SET_HINT	Results found in other sets
 GLUE_COLLECTION_NO_RESULTS_BUT_CRAFTABLE	You don't have this card
 GLUE_COLLECTION_NO_RESULTS_BUT_CRAFTABLE_HINT	Check it out in crafting?
 GLUE_COLLECTION_NO_RESULTS_IN_STANDARD	Results found in Wild sets
+GLUE_COLLECTION_NO_RESULTS_TOURIST_CLASS	Check them out in crafting?
 GLUE_COLLECTION_NO_RESULTS	No Results
 GLUE_RETURNINGPLAYERPOPUP_TITLE	Are you sure?
 GLUE_RETURNINGPLAYERPOPUP_MESSAGE	If you skip the Innkeeper challenge you won't be able to come back and finish the quest to earn 3 free packs!
@@ -1841,6 +1853,7 @@ GLUE_FIRE_FESTIVAL_DOUBLE_GOLD_BAG_TEXT	x2
 GLUE_OUTSTANDING_DRAFT_TICKET_DIALOG_HEADER	Welcome to The Arena!
 GLUE_OUTSTANDING_DRAFT_TICKET_DIALOG_DESC	You have |4(an extra,extra) Tavern |4(ticket,tickets)! Don't worry about the usual entrance fee this time.
 GLUE_COLLECTION_MANAGER_ON_ADD_FULL_DECK_ERROR_TEXT	Your deck is full. Remove a card first!
+GLUE_COLLECTION_MANAGER_ON_ADD_TOURIST_LIMIT_ERROR_TEXT	Cannot have more than {0} |4(Tourist, Tourists) in your deck.
 GLUE_CHINA_STORE_BOOSTER_GIFT	Gift:\n{0} Packs
 GLUE_CHINA_STORE_BOOSTER_GIFT_PLUS_BONUS	Gift:\n{0}+{1} Packs
 GLUE_CHINA_STORE_BOOSTER_GIFT_PREORDER_BONUS	Gift:\n{0} Packs\n+20 Bonus Packs
@@ -3465,6 +3478,11 @@ GLUE_TWIST_CRAFTING_POPUP_TITLE	Crafting
 GLUE_TWIST_CRAFTING_POPUP_DESCRIPTION	This will take you to the crafting screen.\nAre you sure you want to navigate away from Twist?
 GLUE_TIME_MORE_THAN_A_MONTH	> 1 month
 GLUE_EXCLUDED_IN_TWIST_SCENARIO	This class is unavailable for the current season of Twist.
+GLUE_TOURIST_FTUE_COLLECTION_TOOLTIP	You can choose cards from Perils in Paradise.
+GLUE_TOURIST_FTUE_CLASS_TAB_TOOLTIP	Tourists give you access to another class!
+GLUE_TOURIST_CLASS_TAB_TOOLTIP_HEADER	Tourist Class
+GLUE_TOURIST_CLASS_TAB_TOOLTIP_DESCRIPTION	Your deck has a Tourist, which gives you access to this class.
+GLUE_COLLECTION_NO_CLASS_CARDS	You don't have cards in this class
 GLUE_STORE_PACK_QUANTITY_HEADER	How many packs would you like?
 GLUE_STORE_PACK_QUANTITY_BODY	Enter an amount between 1 and {0}.	0=max
 GLUE_STORE_PACK_QUANTITY_WARN_MAX	Maximum number of packs is 50

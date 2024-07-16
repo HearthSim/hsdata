@@ -701,6 +701,7 @@ GLUE_COLLECTION_DECK_FORMAT_STANDARD	Padrão
 GLUE_COLLECTION_DECK_FORMAT_WILD	Livre	
 GLUE_COLLECTION_DECK_GENERIC_INVALID_MESSAGE	Há cards no seu deck que não são válidos para este formato.	
 GLUE_COLLECTION_DECK_HELP_BUTTON	Ajuda com o deck	
+GLUE_COLLECTION_DECK_HELPER_NOT_ALLOWED_IN_DECK	Não permitido no deck	
 GLUE_COLLECTION_DECK_HELPER_REPLACE_BANNED_CARD	Card banido	
 GLUE_COLLECTION_DECK_HELPER_REPLACE_CARD	Substituir este Card	
 GLUE_COLLECTION_DECK_HELPER_REPLACE_INVALID_CARD	Não permitido no formato	
@@ -743,6 +744,7 @@ GLUE_COLLECTION_DECK_RULE_NOT_ENOUGH_CARDS	Você precisa de mais {0} |4(card,car
 GLUE_COLLECTION_DECK_RULE_NOT_IN_CARDSET	Você tem {0} |4(card,cards) que |4(é,são) de um conjunto inválido.	
 GLUE_COLLECTION_DECK_RULE_NOT_IN_FORMAT	Você tem {0} |4(card,cards) |4(inválido,inválidos) para este formato.	
 GLUE_COLLECTION_DECK_RULE_TOO_MANY_CARDS	Você tem {0} |4(card,cards) a mais no deck.	
+GLUE_COLLECTION_DECK_RULE_TOO_MANY_TOURIST	Você possui Turistas demais	
 GLUE_COLLECTION_DECK_RULE_UNPLAYABLE_CARDS	Você tem (0) |4(card,cards) que ainda não |4(é,são) jogáveis.	
 GLUE_COLLECTION_DECK_SAVE_ANYWAY	Não	
 GLUE_COLLECTION_DECK_TEMPLATE_HELP_BUTTON	Substitua cards	
@@ -813,6 +815,7 @@ GLUE_COLLECTION_MANAGER_MANA_FILTER_PROMPT_BODY_ODD_CARDS	Filtrar sua coleção 
 GLUE_COLLECTION_MANAGER_MANA_FILTER_PROMPT_HEADER	Filtro de Mana	
 GLUE_COLLECTION_MANAGER_MANA_TAB_FIRST_CLICK	Clique novamente para desativar o filtro!	
 GLUE_COLLECTION_MANAGER_ON_ADD_FULL_DECK_ERROR_TEXT	Seu deck está completo. Remova um card!	
+GLUE_COLLECTION_MANAGER_ON_ADD_TOURIST_LIMIT_ERROR_TEXT	Você não pode ter mais de {0} |4(Turista, Turistas) no seu deck.	
 GLUE_COLLECTION_MANAGER_SEARCH_ARTIST	artista	
 GLUE_COLLECTION_MANAGER_SEARCH_ATTACK	ataque	
 GLUE_COLLECTION_MANAGER_SEARCH_CRAFTABLE	cria	to match craft{able}
@@ -876,6 +879,7 @@ GLUE_COLLECTION_NEW_DECK	Novo deck
 GLUE_COLLECTION_NEW_DECK_DETAIL_DESC	Lendário x {0}, Épico x {1}, Raro x {2}, Comum x {3}	
 GLUE_COLLECTION_NEW_DECK_DETAIL_HEADER	Incluso neste deck de {0}:	
 GLUE_COLLECTION_NEW_TEAM	Novo grupo	
+GLUE_COLLECTION_NO_CLASS_CARDS	Você não tem cards desta classe	
 GLUE_COLLECTION_NO_MATCHES	Não encontrado	
 GLUE_COLLECTION_NO_PACKS	Nenhum pacote	
 GLUE_COLLECTION_NO_RESULTS	Nenhum resultado	
@@ -886,6 +890,7 @@ GLUE_COLLECTION_NO_RESULTS_IN_CURRENT_SET_HINT	Há resultados em outros conjunto
 GLUE_COLLECTION_NO_RESULTS_IN_SELECTED_COST	Nenhum resultado com esse custo	
 GLUE_COLLECTION_NO_RESULTS_IN_SELECTED_COST_HINT	Há resultados com custo diferente	
 GLUE_COLLECTION_NO_RESULTS_IN_STANDARD	Há resultados nos conjuntos do Livre	
+GLUE_COLLECTION_NO_RESULTS_TOURIST_CLASS	Ver cards no modo de criação?	
 GLUE_COLLECTION_NO_SAVED_VERSIONS	Salve uma cópia de Zilliax!	
 GLUE_COLLECTION_PAGE_NUM	Página {0}	
 GLUE_COLLECTION_PLUS	+	
@@ -916,6 +921,10 @@ GLUE_COLLECTION_TEAM_VALID_PASTE_HEADER	Criar equipe
 GLUE_COLLECTION_TO_STANDARD	Converter em Padrão	
 GLUE_COLLECTION_TO_TWIST	Converter em Imprevisível	
 GLUE_COLLECTION_TO_WILD	Converter em Livre	
+GLUE_COLLECTION_TOURIST_HEADER	Turista	
+GLUE_COLLECTION_TOURIST_HEADER_CAPS	TURISTA	
+GLUE_COLLECTION_TOURIST_LIMIT_DESCRIPTION	Você só pode ter {0} |4(Turista, Turistas) no seu deck.	
+GLUE_COLLECTION_TOURIST_LIMIT_HEADER	Máximo de Turistas	
 GLUE_COLLECTION_TUTORIAL_MULTIPLE_FAVORITE_CARD_BACKS	Escolha vários favoritos!	
 GLUE_COLLECTION_TUTORIAL_MULTIPLE_FAVORITE_HEROES	Escolha vários favoritos!	
 GLUE_COLLECTION_TUTORIAL_REPLACE_WILD_CARDS	Substitui cards Livres por cards Padrão.	
@@ -966,6 +975,8 @@ GLUE_CRAFTING_CLASSIC_CARD_FIRST_DESC	Ao criar este card do formato Clássico, u
 GLUE_CRAFTING_CLASSIC_CARD_HEADER	Cards do formato Clássico	
 GLUE_CRAFTING_CREATE	Criar	
 GLUE_CRAFTING_CREATE_UPGRADE	Criar/\nAprimorar	
+GLUE_CRAFTING_CROSS_CLASS_CARD_DESC	Este card é de uma classe diferente da do deck atual e pode não ser válido. Tem certeza de que quer criar este card?	
+GLUE_CRAFTING_CROSS_CLASS_CARD_HEADER	Cards de outras classes	
 GLUE_CRAFTING_DISENCHANT	Desencantar	
 GLUE_CRAFTING_DISENCHANT_CONFIRM_DESC	Tem certeza? Os seguintes decks serão invalidados:	
 GLUE_CRAFTING_DISENCHANT_CONFIRM_HEADER	Desencantar	
@@ -1062,7 +1073,7 @@ GLUE_DISABLED_DECK_MISSING_REQUIRED_CARD_DESC	Desbloqueie este deck ao coletar {
 GLUE_DISABLED_DECK_MISSING_REQUIRED_CARD_HEADER	Deck desbloqueável	
 GLUE_DONT_SHOW_ME_THIS_AGAIN	Não mostre isso de novo	
 GLUE_DRAFT_HERO_INSTRUCTIONS	Escolha seu herói	
-GLUE_DRAFT_HERO_POWER_INSTRUCTIONS_DETAIL	Você receberá o Poder Heroico dessa e escolherá cards das duas classes.	
+GLUE_DRAFT_HERO_POWER_INSTRUCTIONS_DETAIL	Você receberá o Poder Heroico e escolherá cards das duas classes.	
 GLUE_DRAFT_HERO_POWER_INSTRUCTIONS_TITLE	Escolhe sua classe secundária	
 GLUE_DRAFT_INSTRUCTIONS	Escolha um card	
 GLUE_DRAFT_LOSSES_LABEL	Derrotas:	
@@ -1196,6 +1207,9 @@ GLUE_GHOST_CARD_NEVER_VALID_TITLE	Card inválido
 GLUE_GHOST_CARD_NOT_VALID_DESCRIPTION	Cards Livres não podem ser usados em decks Padrão.\nClique para encontrar um substituto.	
 GLUE_GHOST_CARD_NOT_VALID_DESCRIPTION_TOUCH	Cards Livres não podem ser usados em decks Padrão.\nToque para encontrar um substituto.	
 GLUE_GHOST_CARD_NOT_VALID_TITLE	Card Livre	
+GLUE_GHOST_CARD_OTHER_CLASS_DESCRIPTION	Este card pertence à outra classe e não pode ser usado.\nClique para encontrar um substituto.	
+GLUE_GHOST_CARD_OTHER_CLASS_DESCRIPTION_TOUCH	Este card pertence à outra classe e não pode ser usado.\nToque para encontrar um substituto.	
+GLUE_GHOST_CARD_OTHER_CLASS_TITLE	Outra classe	
 GLUE_GIL_LOADING_BAR_TASK_1	Acendendo lanternas	
 GLUE_GIL_LOADING_BAR_TASK_10	Lançando bagatas	
 GLUE_GIL_LOADING_BAR_TASK_11	Afiando garras	
@@ -3335,6 +3349,10 @@ GLUE_TOOLTIP_RENOWN_TREASURE_HEADER	Tesouros de Renome
 GLUE_TOOLTIP_VIRTUAL_CURRENCY_DESCRIPTION	Gaste Pedras Rúnicas para comprar Orbes Arcanos, heróis, aventuras ou Ingresso da Taverna.	
 GLUE_TOOLTIP_VIRTUAL_CURRENCY_HEADER	Pedras Rúnicas	
 GLUE_TOOLTIP_VIRTUAL_CURRENCY_ROW_DESCRIPTION	Pedras rúnicas podem ser trocadas por pacotes, ofertas, passes, ingressos, itens cosméticos e muito mais.	
+GLUE_TOURIST_CLASS_TAB_TOOLTIP_DESCRIPTION	Seu deck tem um Turista, o que concede a você acesso a essa classe.	
+GLUE_TOURIST_CLASS_TAB_TOOLTIP_HEADER	Classe Turista	
+GLUE_TOURIST_FTUE_CLASS_TAB_TOOLTIP	Turistas te dão acesso a outra classe!	
+GLUE_TOURIST_FTUE_COLLECTION_TOOLTIP	Você pode escolher cards de Perigos no Paraíso.	
 GLUE_TOURNAMENT	Jogar	
 GLUE_TOURNAMENT_CASUAL	Casual	
 GLUE_TOURNAMENT_CASUAL_WILD	Casual Livre	

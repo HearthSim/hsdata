@@ -701,6 +701,7 @@ GLUE_COLLECTION_DECK_FORMAT_STANDARD	Standard
 GLUE_COLLECTION_DECK_FORMAT_WILD	Libre	
 GLUE_COLLECTION_DECK_GENERIC_INVALID_MESSAGE	Votre deck contient des cartes non valides pour ce mode.	
 GLUE_COLLECTION_DECK_HELP_BUTTON	Suggérer une carte	
+GLUE_COLLECTION_DECK_HELPER_NOT_ALLOWED_IN_DECK	Interdit dans ce deck	
 GLUE_COLLECTION_DECK_HELPER_REPLACE_BANNED_CARD	Carte exclue	
 GLUE_COLLECTION_DECK_HELPER_REPLACE_CARD	Remplacer cette carte	
 GLUE_COLLECTION_DECK_HELPER_REPLACE_INVALID_CARD	Interdite dans ce format	
@@ -743,6 +744,7 @@ GLUE_COLLECTION_DECK_RULE_NOT_ENOUGH_CARDS	Il vous manque {0}_|4(carte,cartes) p
 GLUE_COLLECTION_DECK_RULE_NOT_IN_CARDSET	Vous avez {0} |4(carte issue,cartes issues) d’un ensemble non valide.	
 GLUE_COLLECTION_DECK_RULE_NOT_IN_FORMAT	Vous avez {0} |4(carte non valide,cartes non valides) pour ce format.	
 GLUE_COLLECTION_DECK_RULE_TOO_MANY_CARDS	Vous avez {0} |4(carte,cartes) en trop dans ce deck.	
+GLUE_COLLECTION_DECK_RULE_TOO_MANY_TOURIST	Vous avez trop de cartes Tourisme.	
 GLUE_COLLECTION_DECK_RULE_UNPLAYABLE_CARDS	Vous avez {0} |4(carte qui n’est pas encore jouable,cartes qui ne sont pas encore jouables).	
 GLUE_COLLECTION_DECK_SAVE_ANYWAY	Non	
 GLUE_COLLECTION_DECK_TEMPLATE_HELP_BUTTON	Remplacer des cartes	
@@ -813,6 +815,7 @@ GLUE_COLLECTION_MANAGER_MANA_FILTER_PROMPT_BODY_ODD_CARDS	Filtrer votre collecti
 GLUE_COLLECTION_MANAGER_MANA_FILTER_PROMPT_HEADER	Filtre par cristaux	
 GLUE_COLLECTION_MANAGER_MANA_TAB_FIRST_CLICK	Cliquez à nouveau pour désactiver le filtre !	
 GLUE_COLLECTION_MANAGER_ON_ADD_FULL_DECK_ERROR_TEXT	Votre deck est plein. Retirez d’abord une carte_!	
+GLUE_COLLECTION_MANAGER_ON_ADD_TOURIST_LIMIT_ERROR_TEXT	Vous ne pouvez avoir que {0} |4(carte,cartes) Tourisme dans votre deck.	
 GLUE_COLLECTION_MANAGER_SEARCH_ARTIST	artiste	
 GLUE_COLLECTION_MANAGER_SEARCH_ATTACK	attaque	
 GLUE_COLLECTION_MANAGER_SEARCH_CRAFTABLE	cré	to match craft{able}
@@ -876,6 +879,7 @@ GLUE_COLLECTION_NEW_DECK	Nouveau deck
 GLUE_COLLECTION_NEW_DECK_DETAIL_DESC	Carte légendaire x{0}, épique x{1}, rare x{2}, commune x{3}	
 GLUE_COLLECTION_NEW_DECK_DETAIL_HEADER	Inclus dans ce deck {0} :	
 GLUE_COLLECTION_NEW_TEAM	Nouveau groupe	
+GLUE_COLLECTION_NO_CLASS_CARDS	Vous n’avez pas de cartes de cette classe.	
 GLUE_COLLECTION_NO_MATCHES	Pas de correspondance	
 GLUE_COLLECTION_NO_PACKS	Aucun paquet	
 GLUE_COLLECTION_NO_RESULTS	Aucun résultat	
@@ -886,6 +890,7 @@ GLUE_COLLECTION_NO_RESULTS_IN_CURRENT_SET_HINT	Résultats pour d’autres ensemb
 GLUE_COLLECTION_NO_RESULTS_IN_SELECTED_COST	Aucun résultat pour ce coût	
 GLUE_COLLECTION_NO_RESULTS_IN_SELECTED_COST_HINT	Résultats pour un autre coût	
 GLUE_COLLECTION_NO_RESULTS_IN_STANDARD	Résultats pour des ensembles libres	
+GLUE_COLLECTION_NO_RESULTS_TOURIST_CLASS	Les voir dans l’onglet Création ?	
 GLUE_COLLECTION_NO_SAVED_VERSIONS	Sauvegardez une copie de Zilliax !	
 GLUE_COLLECTION_PAGE_NUM	Page {0}	
 GLUE_COLLECTION_PLUS	+	
@@ -916,10 +921,14 @@ GLUE_COLLECTION_TEAM_VALID_PASTE_HEADER	Créer une équipe
 GLUE_COLLECTION_TO_STANDARD	Rendre standard	
 GLUE_COLLECTION_TO_TWIST	Rendre imprévu	
 GLUE_COLLECTION_TO_WILD	Rendre libre	
+GLUE_COLLECTION_TOURIST_HEADER	Tourisme	
+GLUE_COLLECTION_TOURIST_HEADER_CAPS	TOURISME	
+GLUE_COLLECTION_TOURIST_LIMIT_DESCRIPTION	Vous ne pouvez avoir que {0} |4(carte,cartes) Tourisme dans votre deck.	
+GLUE_COLLECTION_TOURIST_LIMIT_HEADER	Maximum de touristes	
 GLUE_COLLECTION_TUTORIAL_MULTIPLE_FAVORITE_CARD_BACKS	Choisissez plusieurs favoris !	
 GLUE_COLLECTION_TUTORIAL_MULTIPLE_FAVORITE_HEROES	Choisissez plusieurs favoris !	
 GLUE_COLLECTION_TUTORIAL_REPLACE_WILD_CARDS	Remplace les cartes libres par des cartes standard.	
-GLUE_COLLECTION_TUTORIAL_REPLACE_WILD_CARDS_NPR	Remplace les cartes non valides (en rouge).	
+GLUE_COLLECTION_TUTORIAL_REPLACE_WILD_CARDS_NPR	Remplacez les cartes non valides (en rouge).	
 GLUE_COLLECTION_TUTORIAL_TEMPLATE_REMINDER	Essayez d’autres modèles ici.	
 GLUE_COLLECTION_TUTORIAL_TEMPLATE_REPLACE_1	Vous n’avez pas ces cartes. Nous vous aiderons à les remplacer.	
 GLUE_COLLECTION_TUTORIAL_TEMPLATE_REPLACE_2	Remplacez les cartes manquantes.	
@@ -966,6 +975,8 @@ GLUE_CRAFTING_CLASSIC_CARD_FIRST_DESC	Créer cette carte du format Classique ent
 GLUE_CRAFTING_CLASSIC_CARD_HEADER	Cartes du format Classique	
 GLUE_CRAFTING_CREATE	Créer	
 GLUE_CRAFTING_CREATE_UPGRADE	Créer/\nAméliorer	
+GLUE_CRAFTING_CROSS_CLASS_CARD_DESC	Cette carte appartient à une autre classe que celle du deck actuel et risque de ne pas être utilisable. Voulez-vous vraiment créer cette carte ?	
+GLUE_CRAFTING_CROSS_CLASS_CARD_HEADER	Autres cartes de classe	
 GLUE_CRAFTING_DISENCHANT	Désenchanter	
 GLUE_CRAFTING_DISENCHANT_CONFIRM_DESC	Si vous faites ça, les decks suivants ne seront plus valides :	
 GLUE_CRAFTING_DISENCHANT_CONFIRM_HEADER	Désenchanter	
@@ -1196,6 +1207,9 @@ GLUE_GHOST_CARD_NEVER_VALID_TITLE	Carte non valide
 GLUE_GHOST_CARD_NOT_VALID_DESCRIPTION	Les cartes libres ne peuvent pas être utilisées dans les decks standard.\nCliquez pour trouver une carte de remplacement.	
 GLUE_GHOST_CARD_NOT_VALID_DESCRIPTION_TOUCH	Les cartes libres ne peuvent pas être utilisées dans les decks standard.\nTouchez pour trouver une carte de remplacement.	
 GLUE_GHOST_CARD_NOT_VALID_TITLE	Carte libre	
+GLUE_GHOST_CARD_OTHER_CLASS_DESCRIPTION	Cette carte appartient à une autre classe et ne peut pas être utilisée.\nCliquez pour la remplacer.	
+GLUE_GHOST_CARD_OTHER_CLASS_DESCRIPTION_TOUCH	Cette carte appartient à une autre classe et ne peut pas être utilisée.\nAppuyez pour la remplacer.	
+GLUE_GHOST_CARD_OTHER_CLASS_TITLE	Autre classe	
 GLUE_GIL_LOADING_BAR_TASK_1	Allumage des lanternes	
 GLUE_GIL_LOADING_BAR_TASK_10	Lancement des maléfices	
 GLUE_GIL_LOADING_BAR_TASK_11	Aiguisage des griffes	
@@ -3335,6 +3349,10 @@ GLUE_TOOLTIP_RENOWN_TREASURE_HEADER	Trésors de renom
 GLUE_TOOLTIP_VIRTUAL_CURRENCY_DESCRIPTION	Dépensez des pierres runiques pour acheter des orbes arcaniques, des héros, des aventures ou des admissions pour la taverne.	
 GLUE_TOOLTIP_VIRTUAL_CURRENCY_HEADER	Pierres runiques	
 GLUE_TOOLTIP_VIRTUAL_CURRENCY_ROW_DESCRIPTION	Vous pouvez échanger des pierres runiques contre des paquets, des packs, des tickets, des admissions, des objets ornementaux et bien d’autres choses.	
+GLUE_TOURIST_CLASS_TAB_TOOLTIP_DESCRIPTION	Votre deck possède une carte Tourisme, ce qui vous donne accès à cette classe.	
+GLUE_TOURIST_CLASS_TAB_TOOLTIP_HEADER	Classe de tourisme	
+GLUE_TOURIST_FTUE_CLASS_TAB_TOOLTIP	Grâce aux cartes Tourisme, une autre classe vous est accessible !	
+GLUE_TOURIST_FTUE_COLLECTION_TOOLTIP	Vous pouvez choisir des cartes de Paradis en péril.	
 GLUE_TOURNAMENT	Partie	
 GLUE_TOURNAMENT_CASUAL	Non classé	
 GLUE_TOURNAMENT_CASUAL_WILD	Libre non classé	

@@ -701,6 +701,7 @@ GLUE_COLLECTION_DECK_FORMAT_STANDARD	Estándar
 GLUE_COLLECTION_DECK_FORMAT_WILD	Salvaje	
 GLUE_COLLECTION_DECK_GENERIC_INVALID_MESSAGE	Tu mazo tiene algunas cartas que no sirven en este formato.	
 GLUE_COLLECTION_DECK_HELP_BUTTON	Asistente de mazos	
+GLUE_COLLECTION_DECK_HELPER_NOT_ALLOWED_IN_DECK	No se permite en este mazo	
 GLUE_COLLECTION_DECK_HELPER_REPLACE_BANNED_CARD	Carta vetada	
 GLUE_COLLECTION_DECK_HELPER_REPLACE_CARD	Reemplazar esta carta	
 GLUE_COLLECTION_DECK_HELPER_REPLACE_INVALID_CARD	No se permite en este formato	
@@ -743,6 +744,7 @@ GLUE_COLLECTION_DECK_RULE_NOT_ENOUGH_CARDS	Necesitas {0} |4(carta,cartas) más p
 GLUE_COLLECTION_DECK_RULE_NOT_IN_CARDSET	Tienes {0} |4(carta,cartas) de un conjunto no válido.	
 GLUE_COLLECTION_DECK_RULE_NOT_IN_FORMAT	Tienes {0} |4(carta,cartas) no |4(válida,válidas) para este formato.	
 GLUE_COLLECTION_DECK_RULE_TOO_MANY_CARDS	Tienes {0} |4(carta,cartas) de más en el mazo.	
+GLUE_COLLECTION_DECK_RULE_TOO_MANY_TOURIST	Tienes demasiados Turistas	
 GLUE_COLLECTION_DECK_RULE_UNPLAYABLE_CARDS	Tienes {0} |4(carta,cartas) que aún no se |4(puede,pueden) jugar.	
 GLUE_COLLECTION_DECK_SAVE_ANYWAY	No	
 GLUE_COLLECTION_DECK_TEMPLATE_HELP_BUTTON	Reemplazar cartas	
@@ -813,6 +815,7 @@ GLUE_COLLECTION_MANAGER_MANA_FILTER_PROMPT_BODY_ODD_CARDS	¿Quieres filtrar tu c
 GLUE_COLLECTION_MANAGER_MANA_FILTER_PROMPT_HEADER	Filtro de maná	
 GLUE_COLLECTION_MANAGER_MANA_TAB_FIRST_CLICK	¡Vuelve a hacer clic para quitar el filtro!	
 GLUE_COLLECTION_MANAGER_ON_ADD_FULL_DECK_ERROR_TEXT	¡Tu mazo está lleno! ¡Primero debes quitar una carta!	
+GLUE_COLLECTION_MANAGER_ON_ADD_TOURIST_LIMIT_ERROR_TEXT	No puedes tener más de {0} |4(Turista, Turistas) en tu mazo.	
 GLUE_COLLECTION_MANAGER_SEARCH_ARTIST	artista	
 GLUE_COLLECTION_MANAGER_SEARCH_ATTACK	ataque	
 GLUE_COLLECTION_MANAGER_SEARCH_CRAFTABLE	crea	to match craft{able}
@@ -876,6 +879,7 @@ GLUE_COLLECTION_NEW_DECK	Nuevo mazo
 GLUE_COLLECTION_NEW_DECK_DETAIL_DESC	Legendarias ({0}), épicas ({1}), poco comunes ({2}), comunes ({3})	
 GLUE_COLLECTION_NEW_DECK_DETAIL_HEADER	Este mazo {0} incluye:	
 GLUE_COLLECTION_NEW_TEAM	Nuevo grupo	
+GLUE_COLLECTION_NO_CLASS_CARDS	No tienes cartas de esta clase	
 GLUE_COLLECTION_NO_MATCHES	No se han encontrado coincidencias	
 GLUE_COLLECTION_NO_PACKS	No hay sobres	
 GLUE_COLLECTION_NO_RESULTS	No hay resultados	
@@ -886,6 +890,7 @@ GLUE_COLLECTION_NO_RESULTS_IN_CURRENT_SET_HINT	Hay resultados en otros conjuntos
 GLUE_COLLECTION_NO_RESULTS_IN_SELECTED_COST	No hay resultados del coste seleccionado	
 GLUE_COLLECTION_NO_RESULTS_IN_SELECTED_COST_HINT	Hay resultados de otros costes	
 GLUE_COLLECTION_NO_RESULTS_IN_STANDARD	Hay resultados en conjuntos salvajes	
+GLUE_COLLECTION_NO_RESULTS_TOURIST_CLASS	¿Quieres echarles un vistazo en la pantalla de creación?	
 GLUE_COLLECTION_NO_SAVED_VERSIONS	¡Guarda una copia de Zilliax!	
 GLUE_COLLECTION_PAGE_NUM	Página {0}	
 GLUE_COLLECTION_PLUS	+	
@@ -916,6 +921,10 @@ GLUE_COLLECTION_TEAM_VALID_PASTE_HEADER	Crear grupo
 GLUE_COLLECTION_TO_STANDARD	Convertir en estándar	
 GLUE_COLLECTION_TO_TWIST	Convertir en Giro	
 GLUE_COLLECTION_TO_WILD	Convertir en salvaje	
+GLUE_COLLECTION_TOURIST_HEADER	Turista	
+GLUE_COLLECTION_TOURIST_HEADER_CAPS	TURISTA	
+GLUE_COLLECTION_TOURIST_LIMIT_DESCRIPTION	Solo puedes tener {0} |4(Turista, Turistas) en tu mazo.	
+GLUE_COLLECTION_TOURIST_LIMIT_HEADER	Máximo de Turistas	
 GLUE_COLLECTION_TUTORIAL_MULTIPLE_FAVORITE_CARD_BACKS	¡Elige varios favoritos!	
 GLUE_COLLECTION_TUTORIAL_MULTIPLE_FAVORITE_HEROES	¡Elige varios favoritos!	
 GLUE_COLLECTION_TUTORIAL_REPLACE_WILD_CARDS	Reemplaza las cartas salvajes con cartas estándares.	
@@ -966,6 +975,8 @@ GLUE_CRAFTING_CLASSIC_CARD_FIRST_DESC	Si creas esta carta de formato clásico, t
 GLUE_CRAFTING_CLASSIC_CARD_HEADER	Cartas de formato clásico	
 GLUE_CRAFTING_CREATE	Crear	
 GLUE_CRAFTING_CREATE_UPGRADE	Crear/\nMejorar	
+GLUE_CRAFTING_CROSS_CLASS_CARD_DESC	Esta carta es de una clase que no coincide con el mazo actual y podría no ser válida. ¿Seguro que quieres crearla?	
+GLUE_CRAFTING_CROSS_CLASS_CARD_HEADER	Cartas de otra clase	
 GLUE_CRAFTING_DISENCHANT	Desencantar	
 GLUE_CRAFTING_DISENCHANT_CONFIRM_DESC	¿Seguro? Los siguientes mazos quedarán invalidados:	
 GLUE_CRAFTING_DISENCHANT_CONFIRM_HEADER	Desencantar	
@@ -1196,6 +1207,9 @@ GLUE_GHOST_CARD_NEVER_VALID_TITLE	Carta no válida
 GLUE_GHOST_CARD_NOT_VALID_DESCRIPTION	Las cartas salvajes no se pueden usar en los mazos estándares.\nHaz clic para encontrar un reemplazo.	
 GLUE_GHOST_CARD_NOT_VALID_DESCRIPTION_TOUCH	Las cartas salvajes no se pueden usar en los mazos estándares.\nToca la pantalla para encontrar un reemplazo.	
 GLUE_GHOST_CARD_NOT_VALID_TITLE	Carta salvaje	
+GLUE_GHOST_CARD_OTHER_CLASS_DESCRIPTION	Esta carta pertenece a otra clase y no la puedes usar.\nHaz clic para buscarle una sustituta.	
+GLUE_GHOST_CARD_OTHER_CLASS_DESCRIPTION_TOUCH	Esta carta pertenece a otra clase y no la puedes usar.\nToca para buscarle una sustituta.	
+GLUE_GHOST_CARD_OTHER_CLASS_TITLE	Otra clase	
 GLUE_GIL_LOADING_BAR_TASK_1	Encendiendo antorchas	
 GLUE_GIL_LOADING_BAR_TASK_10	Lanzando maleficios	
 GLUE_GIL_LOADING_BAR_TASK_11	Afilando garras	
@@ -2723,7 +2737,7 @@ GLUE_STORE_PRODUCT_DETAILS_MERCENARY_PACK	• Cada sobre de Mercenarios contiene
 GLUE_STORE_PRODUCT_DETAILS_NAXX_PART_1	Enfréntate a los mortíferos jefes de {0} en combates de un jugador.	0=wing name
 GLUE_STORE_PRODUCT_DETAILS_NAXX_PART_2	Consigue nuevas cartas de Naxxramas para tu colección, ¡entre ellas 1 legendaria!	
 GLUE_STORE_PRODUCT_DETAILS_OG_PACK_PRESALE	•  50 sobres y un dorso de carta especial\n•  Cada sobre contiene 5 cartas, y al menos una de ellas es poco común o mejor\n *Los sobres podrán abrirse antes del 31 de mayo de 2016	
-GLUE_STORE_PRODUCT_DETAILS_PACK	•  5 cartas de conjunto {0} de Hearthstone\n•  Al menos 1 es poco común o mejor	0=pack type
+GLUE_STORE_PRODUCT_DETAILS_PACK	•  5 cartas del conjunto {0} de Hearthstone\n•  Al menos 1 es poco común o mejor	0=pack type
 GLUE_STORE_PRODUCT_DETAILS_TGT_PACK_PRESALE	•  50 sobres y un dorso de carta especial\n•  Cada sobre contiene 5 cartas, y al menos una de ellas es poco común o mejor\n•  ¡Los sobres de El Gran Torneo podrán abrirse en agosto!	
 GLUE_STORE_PRODUCT_EVENT_HAS_ENDED	Ese producto ya no está disponible.	
 GLUE_STORE_PRODUCT_NAME_BATTLEGROUNDS_BONUS	Ventajas de Campos de batalla	
@@ -3335,6 +3349,10 @@ GLUE_TOOLTIP_RENOWN_TREASURE_HEADER	Tesoros de renombre
 GLUE_TOOLTIP_VIRTUAL_CURRENCY_DESCRIPTION	Gasta runas para comprar orbes Arcanos, héroes, aventuras o entradas de taberna.	
 GLUE_TOOLTIP_VIRTUAL_CURRENCY_HEADER	Runas	
 GLUE_TOOLTIP_VIRTUAL_CURRENCY_ROW_DESCRIPTION	Las runas se pueden intercambiar por sobres, packs, pases, entradas, objetos cosméticos y mucho más.	
+GLUE_TOURIST_CLASS_TAB_TOOLTIP_DESCRIPTION	Tu mazo tiene un Turista que te da acceso a esta clase.	
+GLUE_TOURIST_CLASS_TAB_TOOLTIP_HEADER	Clase Turista	
+GLUE_TOURIST_FTUE_CLASS_TAB_TOOLTIP	¡Los Turistas te permiten acceder a otra clase!	
+GLUE_TOURIST_FTUE_COLLECTION_TOOLTIP	Puedes elegir cartas de Peligro en el Paraíso.	
 GLUE_TOURNAMENT	Jugar	
 GLUE_TOURNAMENT_CASUAL	Aficionado	
 GLUE_TOURNAMENT_CASUAL_WILD	Salvaje aficionado	
