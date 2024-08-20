@@ -712,6 +712,8 @@ GLOBAL_KEYWORD_BACON_BUY_BUDDY_2_TEXT	Победа/ничья – стоит н�
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_TEXT	Победа/ничья – стоит на (3) меньше\nПоражение – стоит на (2) меньше	
 GLOBAL_KEYWORD_BACON_CONSUME	Поглощение	
 GLOBAL_KEYWORD_BACON_CONSUME_TEXT	Убирает существо и дает его характеристики.	
+GLOBAL_KEYWORD_BACON_DISCOUNTED	Скидка	
+GLOBAL_KEYWORD_BACON_DISCOUNTED_TEXT	Стоимость этого аксессуара снижена на (1).	
 GLOBAL_KEYWORD_BACON_FREEZE	Заморозка	
 GLOBAL_KEYWORD_BACON_FREEZE_TEXT	Замороженные существа остаются в магазине до следующего хода.	
 GLOBAL_KEYWORD_BACON_PASS	Передача	
@@ -724,6 +726,8 @@ GLOBAL_KEYWORD_BACON_REBORN	Перерождение
 GLOBAL_KEYWORD_BACON_REBORN_TEXT	Когда погибает в первый раз, призывает новую копию с 1 ед. здоровья.	
 GLOBAL_KEYWORD_BACON_STEALTH	Маскировка	
 GLOBAL_KEYWORD_BACON_STEALTH_TEXT	Это существо нельзя атаковать, пока оно не атакует.	
+GLOBAL_KEYWORD_BACON_TRINKET	Аксессуар	
+GLOBAL_KEYWORD_BACON_TRINKET_TEXT	Мощное пассивное усиление, которое можно купить на определенном ходу.	
 GLOBAL_KEYWORD_BATTLECRY	Боевой клич	
 GLOBAL_KEYWORD_BATTLECRY_TEXT	Бонусный эффект при разыгрывании из руки.	
 GLOBAL_KEYWORD_BATTLECRY_TEXT_MERC	Эффект, срабатывающий при розыгрыше с руки или когда это существо призывает наемник.	
@@ -735,7 +739,7 @@ GLOBAL_KEYWORD_BLOOD_GEM	Кровавый самоцвет
 GLOBAL_KEYWORD_BLOOD_GEM_TEXT	Заклинание, дающее существу {0}.	
 GLOBAL_KEYWORD_BLOOD_GEM_TEXT_ADDITIONAL	\nВаши камни дают {0}.	
 GLOBAL_KEYWORD_BONUSEFFECTS	Дополнительные эффекты	
-GLOBAL_KEYWORD_BONUSEFFECTS_TEXT	Божественный щит, похищение жизни, яд, перерождение, натиск, маскировка, провокация, неистовство ветра	
+GLOBAL_KEYWORD_BONUSEFFECTS_TEXT	Божественный щит, похищение жизни, яд, перерождение, натиск, неуловимость, провокация, неистовство ветра	
 GLOBAL_KEYWORD_BOSS	Босс	
 GLOBAL_KEYWORD_BOSS_TEXT	Игроки сражаются вместе, чтобы победить босса.	
 GLOBAL_KEYWORD_CASTS_WHEN_DRAWN	При взятии	
@@ -1110,7 +1114,7 @@ GLOBAL_LANGUAGE_NATIVE_KOKR	한국어	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_PLPL	Polski	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_PTBR	Português (Brasil)	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_RURU	Русский	The name of the language IN THAT LANGUAGE.
-GLOBAL_LANGUAGE_NATIVE_THTH	ภาษาไทย	The name of the laugnage IN THAT LANGUAGE.
+GLOBAL_LANGUAGE_NATIVE_THTH	ภาษาไทย	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_ZHCN	中文（简体）	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_ZHTW	繁體中文(台灣)	The name of the language IN THAT LANGUAGE.
 GLOBAL_LEAVE	Покинуть	
@@ -1604,10 +1608,10 @@ GLOBAL_SPECTATOR_REMOVED_PROMPT_TEXT	Вы были исключены из чи�
 GLOBAL_SPECTATOR_SERVER_REJECTED_HEADER	Зритель вышел	
 GLOBAL_SPECTATOR_SERVER_REJECTED_TEXT	В игре, к которой вы попытались подключиться, больше нет мест для зрителей, она завершена либо закрыта для зрителей.	
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_HEADER	Режим зрителя	
-GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT	Вы ждете начала следующего матча игрока {0} ({1}).	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_STATUS_* and PRESENCE_SCENARIO_*_NORMAL_SCENARIO_* from PRESENCE.txt (e.g. "Jane Doe is Heading into Play Mode")
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT	Вы ждете начала следующего матча игрока {0} ({1}).	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_STATUS_* and PRESENCE_SCENARIO_*_NORMAL_SCENARIO_* from PRESENCE.txt (e.g. "Jane Doe is Heading into Traditional Hearthstone")
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_BATTLING	Вы ждете начала следующего матча.\n\n{0} сражается с боссом: {1}.	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_SCENARIO_*_HEROIC_* from PRESENCE.txt (e.g. "Jane Doe is Battling Heroic Gothik the Harvester")
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_ENTERING	Вы ждете начала следующего матча.\n\n{0} начинает приключение: {1}.	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_ADVENTURE_MODE_* from PRESENCE.txt (e.g. "Jane Doe is entering Naxxramas")
-GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_OFFLINE	Вы ждете начала следующего матча.\n\n{0} не в сети.	0=player name; same string as above, except shown when player is offline.
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_OFFLINE	Вы ждете начала следующего матча.\n\n{0} не в сети.	0=player name; shown when player is offline.
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_ONLINE	В ожидании следующего матча.\n\n{0} в сети.	0=player name; shown when there is no current activity string available.
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_PLAYING	Вы ждете начала следующего матча.\n\n{0} проходит {1}.	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_SCENARIO_*_CLASS_CHALLENGE_* from PRESENCE.txt (e.g. "Jane Doe is playing Naxxramas Paladin Challenge")
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TIMEOUT	Игрок, за которым вы наблюдаете в качестве зрителя, слишком долго не начинает следующий матч. Режим зрителя отменен.	
@@ -1615,7 +1619,9 @@ GLOBAL_SPELL_SCHOOL_ARCANE	Тайная магия
 GLOBAL_SPELL_SCHOOL_FEL	Скверна	
 GLOBAL_SPELL_SCHOOL_FIRE	Огонь	
 GLOBAL_SPELL_SCHOOL_FROST	Лед	
+GLOBAL_SPELL_SCHOOL_GREATER_TRINKET	Большой	
 GLOBAL_SPELL_SCHOOL_HOLY	Свет	
+GLOBAL_SPELL_SCHOOL_LESSER_TRINKET	Малый	
 GLOBAL_SPELL_SCHOOL_NATURE	Природа	
 GLOBAL_SPELL_SCHOOL_PHYSICAL_COMBAT	Атака	
 GLOBAL_SPELL_SCHOOL_SHADOW	Тьма	

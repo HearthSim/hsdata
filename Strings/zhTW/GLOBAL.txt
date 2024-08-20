@@ -712,6 +712,8 @@ GLOBAL_KEYWORD_BACON_BUY_BUDDY_2_TEXT	勝利/平手 - 花費減少(3)\n落敗 - 
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_TEXT	勝利/平手 - 花費減少(3)\n落敗 - 花費減少(2)	
 GLOBAL_KEYWORD_BACON_CONSUME	吞噬	
 GLOBAL_KEYWORD_BACON_CONSUME_TEXT	移除一名手下以獲得其體質。	
+GLOBAL_KEYWORD_BACON_DISCOUNTED	特價	
+GLOBAL_KEYWORD_BACON_DISCOUNTED_TEXT	此飾品的花費比平常減少(1)	
 GLOBAL_KEYWORD_BACON_FREEZE	凍結	
 GLOBAL_KEYWORD_BACON_FREEZE_TEXT	凍結的手下在下回合會待在商店。	
 GLOBAL_KEYWORD_BACON_PASS	傳遞	
@@ -724,6 +726,8 @@ GLOBAL_KEYWORD_BACON_REBORN	重生
 GLOBAL_KEYWORD_BACON_REBORN_TEXT	第一次死亡後，召喚一個生命值為1的新分身。	
 GLOBAL_KEYWORD_BACON_STEALTH	潛行	
 GLOBAL_KEYWORD_BACON_STEALTH_TEXT	無法被攻擊，直到它進行攻擊。	
+GLOBAL_KEYWORD_BACON_TRINKET	飾品	
+GLOBAL_KEYWORD_BACON_TRINKET_TEXT	擁有強大的被動加成效果，可以在特定回合購買。	
 GLOBAL_KEYWORD_BATTLECRY	戰吼	
 GLOBAL_KEYWORD_BATTLECRY_TEXT	當你打出這張牌的同時會產生某個作用。	
 GLOBAL_KEYWORD_BATTLECRY_TEXT_MERC	當打出或由傭兵召喚時，會產生某個作用。	
@@ -732,10 +736,10 @@ GLOBAL_KEYWORD_BENCH_MERC_TEXT	當此傭兵候補時發動效果。
 GLOBAL_KEYWORD_BLEED	流血	
 GLOBAL_KEYWORD_BLEED_TEXT	流血的角色在每個回合結束時會受到傷害。恢復生命值可以移除流血效果。	
 GLOBAL_KEYWORD_BLOOD_GEM	鮮血寶石	
-GLOBAL_KEYWORD_BLOOD_GEM_TEXT	賦予一個手下{0}的法術	
+GLOBAL_KEYWORD_BLOOD_GEM_TEXT	賦予一個手下{0}的法術。	
 GLOBAL_KEYWORD_BLOOD_GEM_TEXT_ADDITIONAL	\n你的會賦予{0}。	
 GLOBAL_KEYWORD_BONUSEFFECTS	加成效果	
-GLOBAL_KEYWORD_BONUSEFFECTS_TEXT	聖盾術、生命竊取、致命劇毒、重生、衝刺、潛行、嘲諷、風怒	
+GLOBAL_KEYWORD_BONUSEFFECTS_TEXT	聖盾術、生命竊取、致命劇毒、重生、衝刺、飄渺、嘲諷、風怒	
 GLOBAL_KEYWORD_BOSS	首領	
 GLOBAL_KEYWORD_BOSS_TEXT	玩家得團結合作，擊敗首領。	
 GLOBAL_KEYWORD_CASTS_WHEN_DRAWN	抽中時施放	
@@ -1110,7 +1114,7 @@ GLOBAL_LANGUAGE_NATIVE_KOKR	한국어	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_PLPL	Polski	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_PTBR	Português (Brasil)	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_RURU	Русский	The name of the language IN THAT LANGUAGE.
-GLOBAL_LANGUAGE_NATIVE_THTH	ภาษาไทย	The name of the laugnage IN THAT LANGUAGE.
+GLOBAL_LANGUAGE_NATIVE_THTH	ภาษาไทย	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_ZHCN	中文（简体）	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_ZHTW	繁體中文(台灣)	The name of the language IN THAT LANGUAGE.
 GLOBAL_LEAVE	離開	
@@ -1604,10 +1608,10 @@ GLOBAL_SPECTATOR_REMOVED_PROMPT_TEXT	你已經被移出觀戰。
 GLOBAL_SPECTATOR_SERVER_REJECTED_HEADER	觀戰者已離線	
 GLOBAL_SPECTATOR_SERVER_REJECTED_TEXT	你想要觀戰的賽局可能人數已滿，或賽局已經結束，或剛剛關閉觀戰功能。	
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_HEADER	觀戰模式	
-GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT	等待下一場賽局開始。\n\n{0}{1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_STATUS_* and PRESENCE_SCENARIO_*_NORMAL_SCENARIO_* from PRESENCE.txt (e.g. "Jane Doe is Heading into Play Mode")
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT	等待下一場賽局開始。\n\n{0}{1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_STATUS_* and PRESENCE_SCENARIO_*_NORMAL_SCENARIO_* from PRESENCE.txt (e.g. "Jane Doe is Heading into Traditional Hearthstone")
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_BATTLING	等待下一場賽局開始。\n\n{0}正在與{1}戰鬥	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_SCENARIO_*_HEROIC_* from PRESENCE.txt (e.g. "Jane Doe is Battling Heroic Gothik the Harvester")
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_ENTERING	等待下一場賽局開始。\n\n{0}正在前往{1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_ADVENTURE_MODE_* from PRESENCE.txt (e.g. "Jane Doe is entering Naxxramas")
-GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_OFFLINE	等待下一場賽局開始。\n\n{0}已經下線	0=player name; same string as above, except shown when player is offline.
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_OFFLINE	等待下一場賽局開始。\n\n{0}已經下線	0=player name; shown when player is offline.
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_ONLINE	等待下一場賽局開始。\n\n{0}已上線	0=player name; shown when there is no current activity string available.
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_PLAYING	等待下一場賽局開始。\n\n{0}正在進行{1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_SCENARIO_*_CLASS_CHALLENGE_* from PRESENCE.txt (e.g. "Jane Doe is playing Naxxramas Paladin Challenge")
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TIMEOUT	你要觀戰的玩家太久沒有開始下一場賽局。觀戰模式已經取消。	
@@ -1615,7 +1619,9 @@ GLOBAL_SPELL_SCHOOL_ARCANE	秘法
 GLOBAL_SPELL_SCHOOL_FEL	魔化	
 GLOBAL_SPELL_SCHOOL_FIRE	火焰	
 GLOBAL_SPELL_SCHOOL_FROST	冰霜	
+GLOBAL_SPELL_SCHOOL_GREATER_TRINKET	強效	
 GLOBAL_SPELL_SCHOOL_HOLY	神聖	
+GLOBAL_SPELL_SCHOOL_LESSER_TRINKET	次級	
 GLOBAL_SPELL_SCHOOL_NATURE	自然	
 GLOBAL_SPELL_SCHOOL_PHYSICAL_COMBAT	攻擊	
 GLOBAL_SPELL_SCHOOL_SHADOW	暗影	

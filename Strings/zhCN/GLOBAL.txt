@@ -712,6 +712,8 @@ GLOBAL_KEYWORD_BACON_BUY_BUDDY_2_TEXT	胜利/平局-消耗的铸币减少3枚\n�
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_TEXT	胜利/平局-消耗的铸币减少3枚\n失败-消耗的铸币减少2枚	
 GLOBAL_KEYWORD_BACON_CONSUME	吞食	
 GLOBAL_KEYWORD_BACON_CONSUME_TEXT	移除一个随从以获得其属性值。	
+GLOBAL_KEYWORD_BACON_DISCOUNTED	价格折扣	
+GLOBAL_KEYWORD_BACON_DISCOUNTED_TEXT	这件饰品消耗的铸币较正常减少了（1）枚。	
 GLOBAL_KEYWORD_BACON_FREEZE	冻结	
 GLOBAL_KEYWORD_BACON_FREEZE_TEXT	被冻结的随从会在商店中留到下个回合。	
 GLOBAL_KEYWORD_BACON_PASS	传递	
@@ -724,6 +726,8 @@ GLOBAL_KEYWORD_BACON_REBORN	复生
 GLOBAL_KEYWORD_BACON_REBORN_TEXT	在其首次死亡时召唤一个具有1点生命值的新的复制。	
 GLOBAL_KEYWORD_BACON_STEALTH	潜行	
 GLOBAL_KEYWORD_BACON_STEALTH_TEXT	无法被攻击，直到其开始攻击为止。	
+GLOBAL_KEYWORD_BACON_TRINKET	饰品	
+GLOBAL_KEYWORD_BACON_TRINKET_TEXT	强大的被动效果，可以在特定回合购买。	
 GLOBAL_KEYWORD_BATTLECRY	战吼	
 GLOBAL_KEYWORD_BATTLECRY_TEXT	当你从你的手牌中使用它的时候，它会产生一些效果。	
 GLOBAL_KEYWORD_BATTLECRY_TEXT_MERC	在手牌中使用它或当它被佣兵召唤时会产生一些效果。	
@@ -735,7 +739,7 @@ GLOBAL_KEYWORD_BLOOD_GEM	鲜血宝石
 GLOBAL_KEYWORD_BLOOD_GEM_TEXT	法术牌，使一个友方随从获得{0}。	
 GLOBAL_KEYWORD_BLOOD_GEM_TEXT_ADDITIONAL	\n你的会使随从获得{0}。	
 GLOBAL_KEYWORD_BONUSEFFECTS	额外效果	
-GLOBAL_KEYWORD_BONUSEFFECTS_TEXT	圣盾，吸血，剧毒，复生，突袭，潜行，嘲讽，风怒	
+GLOBAL_KEYWORD_BONUSEFFECTS_TEXT	圣盾，吸血，剧毒，复生，突袭，扰魔，嘲讽，风怒	
 GLOBAL_KEYWORD_BOSS	首领	
 GLOBAL_KEYWORD_BOSS_TEXT	玩家需要携手合作来对抗首领。	
 GLOBAL_KEYWORD_CASTS_WHEN_DRAWN	抽到时施放	
@@ -1110,7 +1114,7 @@ GLOBAL_LANGUAGE_NATIVE_KOKR	한국어	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_PLPL	Polski	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_PTBR	Português (Brasil)	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_RURU	Русский	The name of the language IN THAT LANGUAGE.
-GLOBAL_LANGUAGE_NATIVE_THTH	ภาษาไทย	The name of the laugnage IN THAT LANGUAGE.
+GLOBAL_LANGUAGE_NATIVE_THTH	ภาษาไทย	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_ZHCN	中文（简体）	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_ZHTW	繁體中文(台灣)	The name of the language IN THAT LANGUAGE.
 GLOBAL_LEAVE	离开	
@@ -1122,7 +1126,7 @@ GLOBAL_LOCATIONS	了解更多
 GLOBAL_LOGIN	登录	
 GLOBAL_LOGIN_CONFIRM_MESSAGE	你将丢失当前游戏进度。你确定吗？	
 GLOBAL_LOGIN_CONFIRM_TITLE	是否登录？	
-GLOBAL_LOGO_COPYRIGHT	炉石传说 - 魔兽英雄传 ©2024 暴雪娱乐有限公司版权所有	
+GLOBAL_LOGO_COPYRIGHT	炉石传说 - 魔兽英雄传 ©2023 暴雪娱乐有限公司版权所有	
 GLOBAL_LOGOUT	退出	
 GLOBAL_LOGOUT_CONFIRM_MESSAGE	确定退出？	
 GLOBAL_LOGOUT_CONFIRM_TITLE	是否退出？	
@@ -1604,10 +1608,10 @@ GLOBAL_SPECTATOR_REMOVED_PROMPT_TEXT	你已被移除，无法继续观看。
 GLOBAL_SPECTATOR_SERVER_REJECTED_HEADER	观众断开连接	
 GLOBAL_SPECTATOR_SERVER_REJECTED_TEXT	你想要观看的这场对战已经结束，或者观众席已满，或者刚被设置成不允许观看。	
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_HEADER	观众模式	
-GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT	等待下一场对战开始。\n\n{0}{1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_STATUS_* and PRESENCE_SCENARIO_*_NORMAL_SCENARIO_* from PRESENCE.txt (e.g. "Jane Doe is Heading into Play Mode")
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT	等待下一场对战开始。\n\n{0}{1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_STATUS_* and PRESENCE_SCENARIO_*_NORMAL_SCENARIO_* from PRESENCE.txt (e.g. "Jane Doe is Heading into Traditional Hearthstone")
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_BATTLING	等待下一场对战开始。\n\n{0}正在与{1}对战	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_SCENARIO_*_HEROIC_* from PRESENCE.txt (e.g. "Jane Doe is Battling Heroic Gothik the Harvester")
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_ENTERING	等待下一场对战开始。\n\n{0}正在进入{1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_ADVENTURE_MODE_* from PRESENCE.txt (e.g. "Jane Doe is entering Naxxramas")
-GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_OFFLINE	等待下一场对战开始。\n\n{0}已经下线	0=player name; same string as above, except shown when player is offline.
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_OFFLINE	等待下一场对战开始。\n\n{0}已经下线	0=player name; shown when player is offline.
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_ONLINE	等待下一场对战开始。\n\n{0}已上线	0=player name; shown when there is no current activity string available.
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_PLAYING	等待下一场对战开始。\n\n{0}正在进行{1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_SCENARIO_*_CLASS_CHALLENGE_* from PRESENCE.txt (e.g. "Jane Doe is playing Naxxramas Paladin Challenge")
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TIMEOUT	你正在观看的玩家没有及时开始下一场对战。你已经退出了观众模式。	
@@ -1615,7 +1619,9 @@ GLOBAL_SPELL_SCHOOL_ARCANE	奥术
 GLOBAL_SPELL_SCHOOL_FEL	邪能	
 GLOBAL_SPELL_SCHOOL_FIRE	火焰	
 GLOBAL_SPELL_SCHOOL_FROST	冰霜	
+GLOBAL_SPELL_SCHOOL_GREATER_TRINKET	大型	
 GLOBAL_SPELL_SCHOOL_HOLY	神圣	
+GLOBAL_SPELL_SCHOOL_LESSER_TRINKET	小型	
 GLOBAL_SPELL_SCHOOL_NATURE	自然	
 GLOBAL_SPELL_SCHOOL_PHYSICAL_COMBAT	攻击	
 GLOBAL_SPELL_SCHOOL_SHADOW	暗影	

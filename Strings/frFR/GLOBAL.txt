@@ -712,6 +712,8 @@ GLOBAL_KEYWORD_BACON_BUY_BUDDY_2_TEXT	Victoire/égalité_: coûte (3)_pièces d�
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_TEXT	Victoire/égalité_: coûte (3)_pièces d’or de moins\nDéfaite_: coûte (2)_pièces d’or de moins	
 GLOBAL_KEYWORD_BACON_CONSUME	Engloutir	
 GLOBAL_KEYWORD_BACON_CONSUME_TEXT	Retire un serviteur afin de gagner ses caractéristiques.	
+GLOBAL_KEYWORD_BACON_DISCOUNTED	En promotion	
+GLOBAL_KEYWORD_BACON_DISCOUNTED_TEXT	Ce bibelot coûte (1) cristal de moins que d’habitude.	
 GLOBAL_KEYWORD_BACON_FREEZE	Gel	
 GLOBAL_KEYWORD_BACON_FREEZE_TEXT	Les serviteurs gelés restent dans la boutique au prochain tour.	
 GLOBAL_KEYWORD_BACON_PASS	Passer	
@@ -724,6 +726,8 @@ GLOBAL_KEYWORD_BACON_REBORN	Réincarnation
 GLOBAL_KEYWORD_BACON_REBORN_TEXT	La première fois que ce serviteur meurt, invoque une nouvelle copie à 1 PV.	
 GLOBAL_KEYWORD_BACON_STEALTH	Camouflage	
 GLOBAL_KEYWORD_BACON_STEALTH_TEXT	Ce personnage ne peut être attaqué jusqu’à ce qu’il attaque.	
+GLOBAL_KEYWORD_BACON_TRINKET	Bibelot	
+GLOBAL_KEYWORD_BACON_TRINKET_TEXT	Un puissant bonus passif qui peut être acquis lors d’un tour spécifique.	
 GLOBAL_KEYWORD_BATTLECRY	Cri de guerre	
 GLOBAL_KEYWORD_BATTLECRY_TEXT	Fait quelque chose quand vous jouez cette carte depuis votre main.	
 GLOBAL_KEYWORD_BATTLECRY_TEXT_MERC	Fait quelque chose quand la carte est jouée depuis votre main ou qu’elle est invoquée par un mercenaire.	
@@ -735,7 +739,7 @@ GLOBAL_KEYWORD_BLOOD_GEM	Gemme de sang
 GLOBAL_KEYWORD_BLOOD_GEM_TEXT	Un sort qui donne {0} à un serviteur.	
 GLOBAL_KEYWORD_BLOOD_GEM_TEXT_ADDITIONAL	\nLes vôtres donnent {0}.	
 GLOBAL_KEYWORD_BONUSEFFECTS	Effets bonus	
-GLOBAL_KEYWORD_BONUSEFFECTS_TEXT	Bouclier divin, Vol de vie, Toxicité, Réincarnation, Ruée, Camouflage, Provocation, Furie des vents	
+GLOBAL_KEYWORD_BONUSEFFECTS_TEXT	Bouclier divin, Vol de vie, Toxicité, Réincarnation, Ruée, Insaisissable, Provocation, Furie des vents	
 GLOBAL_KEYWORD_BOSS	Boss	
 GLOBAL_KEYWORD_BOSS_TEXT	Les joueurs combattent le boss ensemble.	
 GLOBAL_KEYWORD_CASTS_WHEN_DRAWN	Jouée quand piochée	
@@ -1110,7 +1114,7 @@ GLOBAL_LANGUAGE_NATIVE_KOKR	한국어	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_PLPL	Polski	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_PTBR	Português (Brasil)	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_RURU	Русский	The name of the language IN THAT LANGUAGE.
-GLOBAL_LANGUAGE_NATIVE_THTH	ภาษาไทย	The name of the laugnage IN THAT LANGUAGE.
+GLOBAL_LANGUAGE_NATIVE_THTH	ภาษาไทย	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_ZHCN	中文（简体）	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_ZHTW	繁體中文(台灣)	The name of the language IN THAT LANGUAGE.
 GLOBAL_LEAVE	Sortir	
@@ -1604,10 +1608,10 @@ GLOBAL_SPECTATOR_REMOVED_PROMPT_TEXT	Vous ne faites plus partie des spectateurs.
 GLOBAL_SPECTATOR_SERVER_REJECTED_HEADER	Spectateur déconnecté	
 GLOBAL_SPECTATOR_SERVER_REJECTED_TEXT	La partie que vous tentez de regarder est peut-être complète ou déjà terminée, ou bien n’est plus ouverte aux spectateurs.	
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_HEADER	Mode spectateur	
-GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT	En attente de la prochaine partie.\n\n{0} : {1}.	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_STATUS_* and PRESENCE_SCENARIO_*_NORMAL_SCENARIO_* from PRESENCE.txt (e.g. "Jane Doe is Heading into Play Mode")
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT	En attente de la prochaine partie.\n\n{0} : {1}.	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_STATUS_* and PRESENCE_SCENARIO_*_NORMAL_SCENARIO_* from PRESENCE.txt (e.g. "Jane Doe is Heading into Traditional Hearthstone")
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_BATTLING	En attente de la prochaine partie.\n\n{0} affronte {1}.	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_SCENARIO_*_HEROIC_* from PRESENCE.txt (e.g. "Jane Doe is Battling Heroic Gothik the Harvester")
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_ENTERING	En attente de la prochaine partie.\n\n{0} se lance dans {1}.	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_ADVENTURE_MODE_* from PRESENCE.txt (e.g. "Jane Doe is entering Naxxramas")
-GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_OFFLINE	En attente de la prochaine partie.\n\n{0} est déconnecté(e).	0=player name; same string as above, except shown when player is offline.
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_OFFLINE	En attente de la prochaine partie.\n\n{0} est déconnecté(e).	0=player name; shown when player is offline.
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_ONLINE	En attente de la prochaine partie.\n\n{0} est en ligne.	0=player name; shown when there is no current activity string available.
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_PLAYING	En attente de la prochaine partie.\n\n{0} fait un {1}.	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_SCENARIO_*_CLASS_CHALLENGE_* from PRESENCE.txt (e.g. "Jane Doe is playing Naxxramas Paladin Challenge")
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TIMEOUT	Le joueur que vous regardez a mis trop longtemps pour lancer la partie suivante. Le mode spectateur a été annulé.	
@@ -1615,7 +1619,9 @@ GLOBAL_SPELL_SCHOOL_ARCANE	Arcanes
 GLOBAL_SPELL_SCHOOL_FEL	Fiel	
 GLOBAL_SPELL_SCHOOL_FIRE	Feu	
 GLOBAL_SPELL_SCHOOL_FROST	Givre	
+GLOBAL_SPELL_SCHOOL_GREATER_TRINKET	Supérieur	
 GLOBAL_SPELL_SCHOOL_HOLY	Sacré	
+GLOBAL_SPELL_SCHOOL_LESSER_TRINKET	Inférieur	
 GLOBAL_SPELL_SCHOOL_NATURE	Nature	
 GLOBAL_SPELL_SCHOOL_PHYSICAL_COMBAT	Attaque	
 GLOBAL_SPELL_SCHOOL_SHADOW	Ombre	

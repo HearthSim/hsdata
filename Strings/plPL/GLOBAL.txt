@@ -712,6 +712,8 @@ GLOBAL_KEYWORD_BACON_BUY_BUDDY_2_TEXT	Zwycięstwo/remis – kosztuje (3) mniej.\
 GLOBAL_KEYWORD_BACON_BUY_BUDDY_TEXT	Zwycięstwo/remis – kosztuje (3) mniej.\nPrzegrana – kosztuje (2) mniej	
 GLOBAL_KEYWORD_BACON_CONSUME	Pożryj	
 GLOBAL_KEYWORD_BACON_CONSUME_TEXT	Usuń stronnika, aby przejąć jego statystyki.	
+GLOBAL_KEYWORD_BACON_DISCOUNTED	Zniżka	
+GLOBAL_KEYWORD_BACON_DISCOUNTED_TEXT	Ta Ozdoba kosztuje (1)_mniej niż zwykle.	
 GLOBAL_KEYWORD_BACON_FREEZE	Zamrożenie	
 GLOBAL_KEYWORD_BACON_FREEZE_TEXT	Zamrożeni stronnicy zostają w sklepie w następnej turze.	
 GLOBAL_KEYWORD_BACON_PASS	Przekaż	
@@ -724,6 +726,8 @@ GLOBAL_KEYWORD_BACON_REBORN	Odrodzenie
 GLOBAL_KEYWORD_BACON_REBORN_TEXT	Gdy zginie po raz pierwszy, przyzywa nową kopię z 1 pkt. zdrowia.	
 GLOBAL_KEYWORD_BACON_STEALTH	Ukrycie	
 GLOBAL_KEYWORD_BACON_STEALTH_TEXT	Ten stronnik nie może być atakowany, dopóki sam nie zaatakuje.	
+GLOBAL_KEYWORD_BACON_TRINKET	Ozdoba	
+GLOBAL_KEYWORD_BACON_TRINKET_TEXT	Potężna premia pasywna, którą można kupić w określonej turze.	
 GLOBAL_KEYWORD_BATTLECRY	Okrzyk bojowy	
 GLOBAL_KEYWORD_BATTLECRY_TEXT	Efekt wywoływany po zagraniu karty.	
 GLOBAL_KEYWORD_BATTLECRY_TEXT_MERC	Robi coś po zagraniu z twojej ręki albo po przyzwaniu przez Najemnika.	
@@ -735,7 +739,7 @@ GLOBAL_KEYWORD_BLOOD_GEM	Krwawy klejnot
 GLOBAL_KEYWORD_BLOOD_GEM_TEXT	Zaklęcie, które daje stronnikowi {0}.	
 GLOBAL_KEYWORD_BLOOD_GEM_TEXT_ADDITIONAL	\nTwoje dają {0}.	
 GLOBAL_KEYWORD_BONUSEFFECTS	Efekty dodatkowe	
-GLOBAL_KEYWORD_BONUSEFFECTS_TEXT	Boska tarcza, Kradzież życia, Trucizna, Odrodzenie, Zryw, Ukrycie, Prowokacja, Furia wichru	
+GLOBAL_KEYWORD_BONUSEFFECTS_TEXT	Boska tarcza, Kradzież życia, Trucizna, Odrodzenie, Zryw, Nieuchwytność, Prowokacja, Furia wichru	
 GLOBAL_KEYWORD_BOSS	Boss	
 GLOBAL_KEYWORD_BOSS_TEXT	Gracze współpracują, aby pokonać Bossa.	
 GLOBAL_KEYWORD_CASTS_WHEN_DRAWN	Zagraj po dobraniu	
@@ -1110,7 +1114,7 @@ GLOBAL_LANGUAGE_NATIVE_KOKR	한국어	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_PLPL	Polski	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_PTBR	Português (Brasil)	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_RURU	Русский	The name of the language IN THAT LANGUAGE.
-GLOBAL_LANGUAGE_NATIVE_THTH	ภาษาไทย	The name of the laugnage IN THAT LANGUAGE.
+GLOBAL_LANGUAGE_NATIVE_THTH	ภาษาไทย	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_ZHCN	中文（简体）	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_ZHTW	繁體中文(台灣)	The name of the language IN THAT LANGUAGE.
 GLOBAL_LEAVE	Opuść	
@@ -1604,10 +1608,10 @@ GLOBAL_SPECTATOR_REMOVED_PROMPT_TEXT	Usunięto cię z listy widzów.
 GLOBAL_SPECTATOR_SERVER_REJECTED_HEADER	Widz rozłączony	
 GLOBAL_SPECTATOR_SERVER_REJECTED_TEXT	Gra, którą chcesz oglądać jest albo pełna, albo już się zakończyła, lub też została zamknięta dla widzów.	
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_HEADER	Tryb widza	
-GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT	Oczekiwanie na rozpoczęcie następnej partii.\n\n{0}: {1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_STATUS_* and PRESENCE_SCENARIO_*_NORMAL_SCENARIO_* from PRESENCE.txt (e.g. "Jane Doe is Heading into Play Mode")
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT	Oczekiwanie na rozpoczęcie następnej partii.\n\n{0}: {1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_STATUS_* and PRESENCE_SCENARIO_*_NORMAL_SCENARIO_* from PRESENCE.txt (e.g. "Jane Doe is Heading into Traditional Hearthstone")
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_BATTLING	Oczekiwanie na rozpoczęcie następnej partii.\n\n{0} walczy z: {1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_SCENARIO_*_HEROIC_* from PRESENCE.txt (e.g. "Jane Doe is Battling Heroic Gothik the Harvester")
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_ENTERING	Oczekiwanie na rozpoczęcie następnej partii.\n\n{0} rozpoczyna: {1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_ADVENTURE_MODE_* from PRESENCE.txt (e.g. "Jane Doe is entering Naxxramas")
-GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_OFFLINE	Oczekiwanie na rozpoczęcie następnej partii.\n\n{0}: gracz niedostępny	0=player name; same string as above, except shown when player is offline.
+GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_OFFLINE	Oczekiwanie na rozpoczęcie następnej partii.\n\n{0}: gracz niedostępny	0=player name; shown when player is offline.
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_ONLINE	Oczekiwanie na rozpoczęcie następnej partii.\n\n{0} jest w sieci.	0=player name; shown when there is no current activity string available.
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TEXT_PLAYING	Oczekiwanie na rozpoczęcie następnej partii.\n\n{0} rozgrywa: {1}	0=player name, 1=player's current activity -- will be filled in with values PRESENCE_SCENARIO_*_CLASS_CHALLENGE_* from PRESENCE.txt (e.g. "Jane Doe is playing Naxxramas Paladin Challenge")
 GLOBAL_SPECTATOR_WAITING_FOR_NEXT_GAME_TIMEOUT	Obserwowany gracz zbyt długo rozpoczynał partię. Tryb widza został anulowany.	
@@ -1615,7 +1619,9 @@ GLOBAL_SPELL_SCHOOL_ARCANE	Moc tajemna
 GLOBAL_SPELL_SCHOOL_FEL	Spaczenie	
 GLOBAL_SPELL_SCHOOL_FIRE	Ogień	
 GLOBAL_SPELL_SCHOOL_FROST	Lód	
+GLOBAL_SPELL_SCHOOL_GREATER_TRINKET	Większa	
 GLOBAL_SPELL_SCHOOL_HOLY	Świętość	
+GLOBAL_SPELL_SCHOOL_LESSER_TRINKET	Pomniejsza	
 GLOBAL_SPELL_SCHOOL_NATURE	Natura	
 GLOBAL_SPELL_SCHOOL_PHYSICAL_COMBAT	Atakuj	
 GLOBAL_SPELL_SCHOOL_SHADOW	Cień	

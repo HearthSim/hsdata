@@ -286,7 +286,7 @@ GLUE_BACON_EXPIRD_INVITE_BODY	La invitación al grupo ya no es válida.
 GLUE_BACON_EXPIRED_INVITE_HEADER	Invitación no válida	
 GLUE_BACON_FIRST_PLACE_LABEL	Primer puesto	
 GLUE_BACON_FOOTER	¡Esto es Campos de batalla!\nDe ocho contendientes, solo uno saldrá triunfante.	
-GLUE_BACON_GAMEPLAYLABEL_DAMAGECAP	Límite de daño:	
+GLUE_BACON_GAMEPLAYLABEL_DAMAGECAP	Daño máximo:	
 GLUE_BACON_INCOMPLETE_TEAM	Equipo incompleto	
 GLUE_BACON_INFO_POPUP_COMBAT	FASE DE COMBATE	
 GLUE_BACON_INFO_POPUP_COMBAT_TIPS	<color=#C900FF>• Orden de jugadores:</color> El jugador con más esbirros ataca primero.\n<color=#C900FF>• Orden de esbirros:</color> Los esbirros atacan de izquierda a derecha.\n<color=#C900FF>• Objetivos:</color> Los esbirros atacan aleatoriamente, excepto si un enemigo tiene Provocar.\n<color=#C900FF>• Victoria:</color> Inflige daño equivalente al nivel de taberna combinado de tu héroe y tus esbirros; los puntos de daño se limitan a 15 hasta que queden 4 jugadores.\n<color=#C900FF>• Los beneficios durante la fase de combate son temporales:</color> después del combate, tus esbirros recuperan el estado que tenían al final de tu última fase de reclutamiento.\n<color=#C900FF>• Mano:</color> Los cambios en tu mano se mantienen en el siguiente turno.	
@@ -718,6 +718,10 @@ GLUE_COLLECTION_DECK_INCOMPLETE_POPUP_TEXT_NPR	{0} |4(carta requiere,cartas requ
 GLUE_COLLECTION_DECK_INFO_HERO_POWER_TOOLTIP	Poder de héroe	
 GLUE_COLLECTION_DECK_INFO_MANA_TOOLTIP	Cartas / Coste de maná	
 GLUE_COLLECTION_DECK_INFO_TITLE	{0} datos	
+GLUE_COLLECTION_DECK_INVALID_LOANER_DECK_BODY	Disculpa, pero este mazo no es válido para el formato actual.	
+GLUE_COLLECTION_DECK_INVALID_LOANER_DECK_HEADER	Mazo no válido	
+GLUE_COLLECTION_DECK_INVALID_LOANER_DECK_TOOLTIP_BODY	Este mazo no se puede utilizar en este formato.	
+GLUE_COLLECTION_DECK_INVALID_LOANER_DECK_TOOLTIP_HEADER	Mazo no válido	
 GLUE_COLLECTION_DECK_INVALID_POPUP_HEADER	Mazo no válido	
 GLUE_COLLECTION_DECK_INVALID_SIDEBOARD_POPUP_TEXT	Tienes |4(carta no válida, cartas no válidas) en tu submazo.\n¿Quieres editar el mazo?	
 GLUE_COLLECTION_DECK_MISSING_CARDS_INDICATOR	{0}/{1}	
@@ -2232,6 +2236,9 @@ GLUE_PVPDR_SESSION_START_FAILED_BODY	No se ha podido crear la sesión de Duelos.
 GLUE_PVPDR_SIGNUPS_CLOSED	Esta temporada terminará pronto. Se ha inhabilitado la inscripción.	
 GLUE_PVPDR_UNLOCKS_LABEL	Desbloqueos	
 GLUE_PVPDR_UNLOCKS_TEXT	{0} / {1}	
+GLUE_QUEST_CHANGE_JOUNRAL_POPUP_HEADER	Se han producido cambios en las misiones	
+GLUE_QUEST_CHANGE_JOURNAL_POPUP_BODY	Hemos actualizado numerosas misiones y es posible que algunos objetivos, porcentajes o valores de PE hayan cambiado.	
+GLUE_QUEST_CHANGE_STARTING_POPUP	¡Hemos disminuido los requisitos para algunas misiones! Como resultado, las siguientes misiones se han completado:	
 GLUE_QUEST_FINISHED_DAILY	Has completado todas tus misiones diarias.	
 GLUE_QUEST_LOG_ARENA	Arena	
 GLUE_QUEST_LOG_BEST_FORGE_RECORD_HEADLINE	Mejor llave de la Arena	
@@ -2256,6 +2263,7 @@ GLUE_QUEST_NOTIFICATION_CAPTION	La mayoría de las misiones solo se pueden compl
 GLUE_QUEST_NOTIFICATION_CAPTION_FRIEND_WEEK		Set this string to blank to make it not show up, even when Friend Week is active.
 GLUE_QUEST_NOTIFICATION_HEADER	Misiones de hoy	
 GLUE_QUEST_NOTIFICATION_HEADER_NEW_ONLY	¡Nueva misión!	
+GLUE_QUEST_UPCOMING_HEADER	Disponible en:	
 GLUE_RAF_COPY_COMPLETE	Código copiado en el portapapeles	
 GLUE_RAF_ERROR_BODY	El servicio Recluta a un amigo no está disponible. Vuelve a intentarlo más tarde.	
 GLUE_RAF_ERROR_HEADER	Recluta a un amigo	
@@ -3142,8 +3150,9 @@ GLUE_TIP_BACON_22	Cuando subas al nivel 2, 4 o 6, se añadirá un esbirro más a
 GLUE_TIP_BACON_23	Los efectos de fin de turno de los esbirros se activan en orden de izquierda a derecha.	
 GLUE_TIP_BACON_24	Los hechizos de taberna son cartas que se pueden comprar para activar un efecto que ocurre una sola vez.	
 GLUE_TIP_BACON_25	A diferencia de los esbirros, los hechizos de taberna no se pueden vender ni triplicar.	
-GLUE_TIP_BACON_26	Los <b>colegas</b> son poderosos esbirros exclusivos para cada poder de héroe.	
-GLUE_TIP_BACON_27	Cuanto mayor sea el nivel de un <b>colega</b>, más oro costará obtenerlo.	
+GLUE_TIP_BACON_26	Los <b>abalorios</b> son poderosas bonificaciones pasivas que conservan su efecto durante toda la partida.	
+GLUE_TIP_BACON_27	Se debe comprar un <b>abalorio</b> menor en el turno 6, y un <b>abalorio</b> mayor en el turno 9.	
+GLUE_TIP_BACON_28	Los <b>abalorios</b> cuestan una cantidad de oro variable. Entre los cuatro que hay a la venta en la tienda de <b>abalorios</b>, solo se puede elegir uno.	
 GLUE_TIP_BACON_3	Cuando ganas un combate, tu héroe y tus esbirros infligen un daño equivalente a su nivel.	
 GLUE_TIP_BACON_4	El coste de mejorar la taberna disminuye en (1) de oro en cada turno.	
 GLUE_TIP_BACON_5	Solo hay siete copias de los esbirros de nivel 6.\nCuando se compran, ¡se acaban para todos!	
