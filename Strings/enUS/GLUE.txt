@@ -13,6 +13,7 @@ GLUE_COLLECTION_DECK_HELPER_REPLACE_INVALID_CARD_NPR	Must Complete Apprentice
 GLUE_COLLECTION_DECK_HELPER_REPLACE_UNPLAYABLE_CARD	Not Yet Playable
 GLUE_COLLECTION_DECK_HELPER_REPLACE_BANNED_CARD	Banned card
 GLUE_COLLECTION_DECK_HELPER_NOT_ALLOWED_IN_DECK	Not Allowed In Deck
+GLUE_COLLECTION_DECK_HELPER_TOURIST_LIMIT	Max Tourist Limit
 GLUE_COLLECTION_DECK_INFO_TITLE	{0} Info
 GLUE_COLLECTION_DECK_INFO_HERO_POWER_TOOLTIP	Hero Power
 GLUE_COLLECTION_DECK_INFO_MANA_TOOLTIP	Cards/Mana Cost
@@ -137,6 +138,7 @@ GLUE_COLLECTION_TUTORIAL_UPDATED_CARD_BACK_DECK_TRAY_EMPTY	Random is now default
 GLUE_COLLECTION_TUTORIAL_UPDATED_CARD_BACK_DECK_TRAY_ASSIGNED	Drag to remove
 GLUE_COLLECTION_ARTIST	Artist: {0}	0=artist name
 GLUE_COLLECTION_RECENTLY_NERFED	<color=#971c1cff>This card was recently modified, so its Disenchant value has been adjusted.</color>
+GLUE_COLLECTION_PERMANENTLY_OVERRIDDEN_DISENCHANT	<color=#971c1cff>This card was granted for free, so its Disenchant value has been adjusted.</color>
 GLUE_COLLECTION_DELETE_CONFIRM_HEADER	Delete
 GLUE_COLLECTION_DELETE_CONFIRM_DESC	This will delete your deck. Are you sure?
 GLUE_COLLECTION_DELETE_TEAM_CONFIRM_DESC	This will delete your party. Are you sure?
@@ -253,6 +255,7 @@ GLUE_CRAFTING_DISENCHANT_CONFIRM_HEADER	Disenchant
 GLUE_CRAFTING_DISENCHANT_CONFIRM_DESC	Are you sure? The following decks will be invalidated:
 GLUE_CRAFTING_DISENCHANT_CONFIRM2_DESC	Are you sure? Disenchanting this card will leave you with less than the amount you could use in a deck.
 GLUE_CRAFTING_DISENCHANT_CONFIRM3_DESC	Are you sure? Disenchanting this card will also remove the Classic version of it from your collection.
+GLUE_CRAFTING_DISENCHANT_CONFIRM4_DESC	Are you sure? This card was granted for free and is worth a different amount of dust than usual.
 GLUE_CRAFTING_CREATE	Create
 GLUE_CRAFTING_CREATE_UPGRADE	Create/\nUpgrade
 GLUE_CRAFTING_UPGRADE	Upgrade
@@ -1448,6 +1451,15 @@ GLUE_LOADINGSCREEN_MISMATCHED_VERSION	Data version mismatch
 GLUE_LOADINGSCREEN_NO_NEW_BINARY_IN_STORE	An update is required to play Hearthstone, but it is not yet available in the store. Please check again later.
 GLUE_LOADINGSCREEN_NOTIFICATION_SETTINGS	We are downloading the game in the background. We will notify you when it's ready!
 GLUE_LOADINGSCREEN_TIMEOUT_AGENT	We're having a problem transferring data. Please check your Internet connection just in case and try again.
+GLUE_LOADINGSCREEN_M_COMPLETE_VERSIONING	Completed Version checking
+GLUE_LOADINGSCREEN_M_DATA_INDICES	Downloading data indices({0})
+GLUE_LOADINGSCREEN_M_ENCODING_TABLE	Downloading encoding table
+GLUE_LOADINGSCREEN_M_INSTALL_MANIFEST	Downloading install manifest
+GLUE_LOADINGSCREEN_M_INSTALLATION_MANIFEST	Checking data residency
+GLUE_LOADINGSCREEN_M_PATCH_INDICES	Downloading patch indices({0})
+GLUE_LOADINGSCREEN_M_UPDATE_APK	Downloading new APK - {0}
+GLUE_LOADINGSCREEN_M_UPDATE_DBF	Preparing to download Game Data - {0}
+GLUE_LOADINGSCREEN_M_VERSIONING	Versioning
 GLUE_WRONG_VERSION_MESSAGE	Verifying latest game updates. Please try again later.
 GLUE_DONT_SHOW_ME_THIS_AGAIN	Don't show me this again
 GLUE_UNRELIABLE_GPU_WARNING_TITLE	Graphics Device
@@ -1678,6 +1690,8 @@ GLUE_RAF_ERROR_BODY	The Recruit A Friend service is unavailable. Please try agai
 GLUE_GHOST_CARD_NOT_VALID_TITLE	Wild card
 GLUE_GHOST_CARD_NOT_VALID_DESCRIPTION	Wild cards can't be used in Standard decks.\nClick to find a replacement.
 GLUE_GHOST_CARD_NOT_VALID_DESCRIPTION_TOUCH	Wild cards can't be used in Standard decks.\nTap to find a replacement.
+GLUE_CARD_BANNED_IN_WILD_DESCRIPTION	This Card is Banned in Wild Mode.\nClick to find a replacement.
+GLUE_CARD_BANNED_IN_WILD_DESCRIPTION_TOUCH	This Card is Banned in Wild Mode.\nTap to find a replacement.
 GLUE_CARD_BANNED_IN_TWIST_TITLE	Twist card
 GLUE_CARD_BANNED_IN_TWIST_DESCRIPTION	This Card is Banned in Twist Mode.\nClick to find a replacement.
 GLUE_CARD_BANNED_IN_TWIST_DESCRIPTION_TOUCH	This Card is Banned in Twist Mode.\nTap to find a replacement.
@@ -1687,6 +1701,9 @@ GLUE_CARD_INVALID_IN_TWIST_DESCRIPTION_TOUCH	This Card is Invalid in Twist Mode.
 GLUE_GHOST_CARD_OTHER_CLASS_TITLE	Other class
 GLUE_GHOST_CARD_OTHER_CLASS_DESCRIPTION	This card belongs to another class and cannot be used.\nClick to find a replacement.
 GLUE_GHOST_CARD_OTHER_CLASS_DESCRIPTION_TOUCH	This card belongs to another class and cannot be used.\nTap to find a replacement.
+GLUE_GHOST_CARD_OVER_TOURIST_LIMIT_TITLE	Max Tourists
+GLUE_GHOST_CARD_OVER_TOURIST_LIMIT_DESCRIPTION	There are too many Tourists in this deck.\nClick to find a replacement.
+GLUE_GHOST_CARD_OVER_TOURIST_LIMIT_DESCRIPTION_TOUCH	There are too many Tourists in this deck.\nTap to find a replacement.
 GLUE_GHOST_CARD_NEVER_VALID_TITLE	Invalid card
 GLUE_GHOST_CARD_NEVER_VALID_DESCRIPTION	This card is invalid and cannot be used in this deck.\nClick to find a replacement.
 GLUE_GHOST_CARD_NEVER_VALID_DESCRIPTION_TOUCH	This card is invalid and cannot be used in this deck.\nTap to find a replacement.
@@ -1766,6 +1783,9 @@ GLUE_HEROIC_BRAWL_DECK	Heroic Brawl
 GLUE_HEROIC_BRAWL_CONTINUE	I understand!	Heroic brawl intro dialogue continue button text
 GLUE_RETURNING_PLAYER_WELCOME_TITLE	Welcome Back!	Title for Returning Player welcome banner.
 GLUE_RETURNING_PLAYER_WELCOME_DESC	We've got some quests and rewards to get you back into the game!	Text for Returning Player welcome banner.
+GLUE_WELCOMEBACK_CN_HEADER	Welcome![PH]
+GLUE_WELCOMEBACK_CN_BODY	There are new decks for you yoto try out! You can keep the one you like the most![PH]
+GLUE_WELCOMEBACK_BUTTON	Let's Play [PH]
 GLUE_REWARD_MORE_ITEMS	+{0} More!
 GLUE_HEROIC_BRAWL_SESSION_LIMIT_ALERT_TITLE	Heroic Brawl
 GLUE_HEROIC_BRAWL_SESSION_LIMIT_ALERT_DESCRIPTION_NORMAL	You can participate in {0} more Heroic |4(Brawl,Brawls).
@@ -2399,8 +2419,10 @@ GLUE_CHOOSE_DECK_NO_SELECTION_HEADER	Choose a class
 GLUE_FREE_DECK_POPUP_TITLE	Claim a Free Deck
 GLUE_FREE_DECK_TITLE	Congratulations!
 GLUE_FREE_DECK_DESC	Jump in and play with your new deck!
-GLUE_FREE_DECK_CONFIRMATION_HEADER	Confirm your choice
+GLUE_FREE_DECK_CONFIRMATION_HEADER	Confirm Your Choice
 GLUE_FREE_DECK_CONFIRMATION_TEXT	Choose this {0} Deck?
+GLUE_FREE_DECK_CONFIRMATION_HEADER_BYPASS_TIMER	End Trial Period?
+GLUE_FREE_DECK_CONFIRMATION_TEXT_BYPASS_TIMER	Are you sure you want to claim the {0} deck early? You will <color=#ff3f3f>lose access</color> to other loaner decks!
 GLUE_FREE_DECK_ERROR_HEADER	Free Deck Error
 GLUE_FREE_DECK_ERROR_TEXT	We encountered an error attempting to redeem your free deck. Please log out and back in to try again.
 GLUE_SELLABLE_DECK_TITLE	Congratulations!
@@ -3328,7 +3350,7 @@ GLUE_LETTUCE_VILLAGE_TASK_COLLECTION_MAP_HELPER_TIP	These Mercenaries are curren
 GLUE_LOANER_DECK_TITLE	Loaner Deck
 GLUE_LOANER_DECK_TITLE_PLURAL	Loaner Decks
 GLUE_LOANER_DECK_FLAG	Loaner
-GLUE_LOANER_DECK_DESCRIPTION	Try out these decks and choose one\nto keep after time expires.
+GLUE_LOANER_DECK_DESCRIPTION	Try out these decks and choose one to keep.
 GLUE_LOANER_DECK_INFO	Deck Info
 GLUE_LOANER_DECK_ENDS	Ends in
 GLUE_LOANER_DECK_ENDS_CAPS	ENDS IN
@@ -3337,6 +3359,10 @@ GLUE_LOANER_DECK_CHOOSE_DECK	Choose your free deck now!
 GLUE_LOANER_DECK_SEE_DECKS	See Decks
 GLUE_LOANER_DECK_CLAIM	CLAIM
 GLUE_LOANER_DECK_CLAIM_CONFIRM	\nYou can only claim 1 free deck!
+GLUE_LOANER_DECK_PAGE_COUNTER_1	Page 1 of 2
+GLUE_LOANER_DECK_PAGE_COUNTER_2	Page 2 of 2
+GLUE_LOANER_DECK_FTUE_INFO_BUTTON	Learn more or claim a loaner deck early!
+GLUE_LOANER_DECK_FTUE_PAGINATION	Check out more decks on the next page!
 GLUE_LETTUCE_RENOWN_COIN_OFFER_DETAILS_TITLE	Renown for {0} coins	0=mercenary name
 GLUE_LETTUCE_RENOWN_PROFILE_OFFER_DETAILS_TITLE	Renown for {0} profile	0=mercenary name
 GLUE_LETTUCE_RENOWN_OFFER_RARE_CONVERSION_RATE	{0} Excess Rare Coin = 1 Renown	0=mercenary coin amount
