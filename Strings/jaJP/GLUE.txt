@@ -1736,6 +1736,7 @@ GLUE_LOADINGSCREEN_ERROR_GENERIC	ハースストーンが動作を停止した�
 GLUE_LOADINGSCREEN_ERROR_GET_EXTERNAL_FILES	外部ストレージへのアクセスに失敗したぞ。外部ストレージへのアクセスを許可するんだ。既にアクセスを許可している場合は、デバイスの再起動をしてくれ。	
 GLUE_LOADINGSCREEN_ERROR_INSTALLING_TITLE	インストールエラー	
 GLUE_LOADINGSCREEN_ERROR_NEEDS_DATA	Wi-Fi通信が利用可能になったら、もう一度データをダウンロードしてみてくれ。	
+GLUE_LOADINGSCREEN_ERROR_OPENING_STORE_MESSAGE	App Storeを開けなかったぞ。	
 GLUE_LOADINGSCREEN_ERROR_UPDATE	アップデートの取得に失敗したぞ。インターネット接続を確認してみてくれ。	
 GLUE_LOADINGSCREEN_ERROR_UPDATE_CONFLICT	アップデートの取得に失敗したぞ。ハースストーンを再起動してくれ。	
 GLUE_LOADINGSCREEN_ERROR_VERSION	バージョン情報が見つからなかったぞ。インターネット接続を確認してみてくれ。	
@@ -2121,6 +2122,8 @@ GLUE_PROGRESSION_BONUS_ERROR_BODY	現在、酒場パスはないぞ。また後�
 GLUE_PROGRESSION_BONUS_ERROR_HEADER	酒場パス	
 GLUE_PROGRESSION_EVENT_TAB_COMING_SOON	イベント開始まで{0}	
 GLUE_PROGRESSION_EVENT_TAB_COMPLETED	このイベントの報酬は全て獲得したぞ！	
+GLUE_PROGRESSION_EVENT_TAB_LOCK_DESCRIPTION	クエスト「{0}」を完了させよう	
+GLUE_PROGRESSION_EVENT_TAB_LOCK_HEADER	アクセスするには	
 GLUE_PROGRESSION_EVENT_TAB_POPUP_EXPIRED_BODY	{0}イベントは終わったよ。次のイベントをお楽しみに！	
 GLUE_PROGRESSION_EVENT_TAB_POPUP_EXPIRED_TITLE	イベント終了！	
 GLUE_PROGRESSION_EVENT_TAB_POPUP_FORGOT_REWARDS_BODY	以前のイベント: {1}から、報酬{0}点があんたのコレクションに追加されたぞ。	
@@ -2566,6 +2569,15 @@ GLUE_START_CLICK	クリックでスタート
 GLUE_START_PRESS	スタートを押してくれ	
 GLUE_START_TOUCH	タッチしてスタート	
 GLUE_STARTING_GAME	ゲーム開始…	
+GLUE_STARTUP_CHECKING_UPDATES	アップデート確認中	We are checking if there are any updates to the game
+GLUE_STARTUP_CONNECTING_BNET	Battle.netにログイン中	On loading screen we tell the user we are connecting to battle.net and logging in
+GLUE_STARTUP_CONNECTING_HEARTHSTONE	ハースストーンに接続中	Connecting to the hearthstone game servers
+GLUE_STARTUP_DOWNLOAD_APK	最新のクライアントをダウンロード中	We are downloading the latest game client
+GLUE_STARTUP_DOWNLOAD_DBF	最新のゲームデータをダウンロード中	We are downloading the latest game data with a progress bar below
+GLUE_STARTUP_LAUNCHING	酒場に入場中	We are finished starting up and loading into the game
+GLUE_STARTUP_START	スタートアップ中	The game is starting up on the intial loading screen
+GLUE_STARTUP_UNKNOWN_STAGE	酒場を準備中	Shown on the loading screen
+GLUE_STARTUP_VERSIONING	ゲームバージョン取得中	We are checking what the latest game version is
 GLUE_STORE_ADVENTURE_BUTTON_UNAVAILABLE_DESCRIPTION	この商品は現在購入できないぞ。	
 GLUE_STORE_ADVENTURE_BUTTON_UNAVAILABLE_HEADLINE	利用できません	
 GLUE_STORE_ADVENTURE_LEAVING_SOON	近日終了のアドベンチャー！	
@@ -2604,6 +2616,7 @@ GLUE_STORE_CHOOSE_ADVENTURE	どのアドベンチャーにする？
 GLUE_STORE_CHOOSE_HERO	ヒーローを選んでくれ	
 GLUE_STORE_CHOOSE_PACK	どのパックがいい？	
 GLUE_STORE_CLOSED_BUTTON_TEXT	閉店中	
+GLUE_STORE_CN_DISCLAIMER_ONE_DUST	この商品はたった1魔素で、オオカミ年のスタンダードカードを手に入れられる可能性があるんだ。	
 GLUE_STORE_CURRENCY_CHANGED_DESC	あんたの国ではBlizzard Shopで使用する通貨が変更されぞ。別途、各種税による調整が適用される場合があるからな。	
 GLUE_STORE_CURRENCY_CHANGED_HEADER	通貨の更新	
 GLUE_STORE_DAL_PREORDER_DATE	4月中旬（*）から利用可能！	
@@ -2801,6 +2814,7 @@ GLUE_STORE_PRODUCT_NOT_AVAILABLE_TEXT_NOT_YET_STARTED	この商品はまだ購�
 GLUE_STORE_PRODUCT_PERSONALIZED_OFFER	为您推荐	
 GLUE_STORE_PRODUCT_PRICE	({0})	0=price
 GLUE_STORE_PRODUCT_PRICE_NA	-	
+GLUE_STORE_PRODUCT_UNLOCKED_OFFER	已解锁	
 GLUE_STORE_PURCHASE_LOCK_DESCRIPTION	{0}が購入しかけの状態になっています。最後に購入を試みたデバイスでハースストーンを起動してください。\n\n問題が解決しない場合はカスタマーサポートまでご連絡ください。	0=one of GLOBAL_STORE_MOBILE_NAME_*
 GLUE_STORE_PURCHASE_LOCK_HEADER	購入エラー	
 GLUE_STORE_QUANTITY_DUST	{0}个奥术之尘	
@@ -3507,9 +3521,9 @@ GLUE_WEB_PURCHASE_DESC	ウェブで購入を行ったぞ！\n詳細はメール�
 GLUE_WEB_PURCHASE_TITLE	ウェブ購入	
 GLUE_WELCOME_BUNDLE_RANDOM_CARD_SCROLL_DESC	{0}\nが歓迎バンドルに入ってたぞ！	
 GLUE_WELCOME_BUNDLE_RANDOM_CARD_SCROLL_TITLE	歓迎バンドルのレジェンドカード！	
-GLUE_WELCOMEBACK_BUTTON	レッツプレイ[PH]	
-GLUE_WELCOMEBACK_CN_BODY	There are new decks for you yoto try out! You can keep the one you like the most![PH]	
-GLUE_WELCOMEBACK_CN_HEADER	Welcome![PH]	
+GLUE_WELCOMEBACK_BUTTON	レッツプレイ！	
+GLUE_WELCOMEBACK_CN_BODY	オオカミ年のスタンダードカードが全部プレゼントされたぞ！\nさらに、新デッキを試すことも可能だ！一番気に入ったデッキを手に入れよう！	
+GLUE_WELCOMEBACK_CN_HEADER	ようこそ！	
 GLUE_WIN_STREAK	連勝: {0}	0=number of wins
 GLUE_WINS	戦績	header for number of wins
 GLUE_WOODEN_BANNER_TITLE_FRIEND_WEEK	友達の輪！	

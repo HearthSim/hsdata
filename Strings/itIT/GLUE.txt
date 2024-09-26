@@ -1736,6 +1736,7 @@ GLUE_LOADINGSCREEN_ERROR_GENERIC	Hearthstone ha smesso di funzionare. Disinstall
 GLUE_LOADINGSCREEN_ERROR_GET_EXTERNAL_FILES	Impossibile accedere all'unità di archiviazione esterna. Se non l'hai già fatto, autorizza l'accesso all'unità. Altrimenti, prova a riavviare il dispositivo.	
 GLUE_LOADINGSCREEN_ERROR_INSTALLING_TITLE	Errore di installazione	
 GLUE_LOADINGSCREEN_ERROR_NEEDS_DATA	Riproveremo a scaricare i dati quando la connessione Wi-Fi sarà pronta.	
+GLUE_LOADINGSCREEN_ERROR_OPENING_STORE_MESSAGE	Impossibile aprire l'App Store.	
 GLUE_LOADINGSCREEN_ERROR_UPDATE	Impossibile scaricare l'aggiornamento. Controlla la tua connessione di rete.	
 GLUE_LOADINGSCREEN_ERROR_UPDATE_CONFLICT	Impossibile scaricare l'aggiornamento. Riavvia Hearthstone.	
 GLUE_LOADINGSCREEN_ERROR_VERSION	Impossibile recuperare le informazioni della versione. Controlla la tua connessione di rete.	
@@ -2121,6 +2122,8 @@ GLUE_PROGRESSION_BONUS_ERROR_BODY	Al momento non sono disponibili Pass Locanda. 
 GLUE_PROGRESSION_BONUS_ERROR_HEADER	Pass Locanda	
 GLUE_PROGRESSION_EVENT_TAB_COMING_SOON	L'evento inizia tra {0}	
 GLUE_PROGRESSION_EVENT_TAB_COMPLETED	Hai ottenuto tutte le ricompense disponibili per questo evento!	
+GLUE_PROGRESSION_EVENT_TAB_LOCK_DESCRIPTION	Completa la missione "{0}"	
+GLUE_PROGRESSION_EVENT_TAB_LOCK_HEADER	Per ottenere l'accesso	
 GLUE_PROGRESSION_EVENT_TAB_POPUP_EXPIRED_BODY	L'evento {0} è giunto al termine. Non perderti il prossimo!	
 GLUE_PROGRESSION_EVENT_TAB_POPUP_EXPIRED_TITLE	Evento terminato!	
 GLUE_PROGRESSION_EVENT_TAB_POPUP_FORGOT_REWARDS_BODY	{0} |4(ricompensa è stata aggiunta,ricompense sono state aggiunte) alla tua collezione da un precedente evento: {1}.	
@@ -2566,6 +2569,15 @@ GLUE_START_CLICK	Clicca per iniziare
 GLUE_START_PRESS	Premi Start	
 GLUE_START_TOUCH	Tocca per iniziare	
 GLUE_STARTING_GAME	Avvio partita	
+GLUE_STARTUP_CHECKING_UPDATES	Ricerca aggiornamenti	We are checking if there are any updates to the game
+GLUE_STARTUP_CONNECTING_BNET	Accesso a Battle.net in corso	On loading screen we tell the user we are connecting to battle.net and logging in
+GLUE_STARTUP_CONNECTING_HEARTHSTONE	Connessione a Hearthstone in corso	Connecting to the hearthstone game servers
+GLUE_STARTUP_DOWNLOAD_APK	Download del client più recente in corso	We are downloading the latest game client
+GLUE_STARTUP_DOWNLOAD_DBF	Download dei dati di gioco più recenti in corso	We are downloading the latest game data with a progress bar below
+GLUE_STARTUP_LAUNCHING	Accesso alla Locanda in corso	We are finished starting up and loading into the game
+GLUE_STARTUP_START	Avvio	The game is starting up on the intial loading screen
+GLUE_STARTUP_UNKNOWN_STAGE	Preparazione della Locanda in corso	Shown on the loading screen
+GLUE_STARTUP_VERSIONING	Ottenimento della versione del gioco in corso	We are checking what the latest game version is
 GLUE_STORE_ADVENTURE_BUTTON_UNAVAILABLE_DESCRIPTION	Questo prodotto non è momentaneamente disponibile.	
 GLUE_STORE_ADVENTURE_BUTTON_UNAVAILABLE_HEADLINE	Non disponibile!	
 GLUE_STORE_ADVENTURE_LEAVING_SOON	Presto non più disponibile!	
@@ -2604,6 +2616,7 @@ GLUE_STORE_CHOOSE_ADVENTURE	Scegli l'avventura
 GLUE_STORE_CHOOSE_HERO	Scegli il tuo eroe	
 GLUE_STORE_CHOOSE_PACK	Scegli il tipo di busta	
 GLUE_STORE_CLOSED_BUTTON_TEXT	Negozio\nchiuso	
+GLUE_STORE_CN_DISCLAIMER_ONE_DUST	Questo prodotto può farti ottenere carte dell'Anno del Lupo in formato Standard con un valore in Polvere Arcana pari a 1.	
 GLUE_STORE_CURRENCY_CHANGED_DESC	Abbiamo cambiato la valuta utilizzata per il tuo paese nel negozio Blizzard. Potrebbero essere applicate variazioni alla tassazione.	
 GLUE_STORE_CURRENCY_CHANGED_HEADER	Aggiornamento valuta	
 GLUE_STORE_DAL_PREORDER_DATE	Disponibile da metà aprile*!	
@@ -2801,6 +2814,7 @@ GLUE_STORE_PRODUCT_NOT_AVAILABLE_TEXT_NOT_YET_STARTED	Questo prodotto non è anc
 GLUE_STORE_PRODUCT_PERSONALIZED_OFFER	为您推荐	
 GLUE_STORE_PRODUCT_PRICE	({0})	0=price
 GLUE_STORE_PRODUCT_PRICE_NA	N/D	
+GLUE_STORE_PRODUCT_UNLOCKED_OFFER	已解锁	
 GLUE_STORE_PURCHASE_LOCK_DESCRIPTION	Il tuo account ha un acquisto in sospeso {0}. Apri Hearthstone dal dispositivo dal quale hai provato a effettuare l'acquisto.\n\nSe il problema persiste, contatta l'assistenza clienti.	0=one of GLOBAL_STORE_MOBILE_NAME_*
 GLUE_STORE_PURCHASE_LOCK_HEADER	Errore d'acquisto	
 GLUE_STORE_QUANTITY_DUST	{0}个奥术之尘	
@@ -3507,9 +3521,9 @@ GLUE_WEB_PURCHASE_DESC	Hai fatto un acquisto sul web!\nControlla la tua e-mail p
 GLUE_WEB_PURCHASE_TITLE	Acquisto sul web	
 GLUE_WELCOME_BUNDLE_RANDOM_CARD_SCROLL_DESC	Il tuo Pacchetto di Benvenuto conteneva\n{0}!	
 GLUE_WELCOME_BUNDLE_RANDOM_CARD_SCROLL_TITLE	Carta Leggendaria del Pacchetto di Benvenuto!	
-GLUE_WELCOMEBACK_BUTTON	Giochiamo [PH]	
-GLUE_WELCOMEBACK_CN_BODY	There are new decks for you yoto try out! You can keep the one you like the most![PH]	
-GLUE_WELCOMEBACK_CN_HEADER	Welcome![PH]	
+GLUE_WELCOMEBACK_BUTTON	Giochiamo!	
+GLUE_WELCOMEBACK_CN_BODY	Hai ricevuto in dono tutte le carte Standard dell'Anno del Lupo!\nCi sono anche dei mazzi nuovi da provare! Tieni quello che ti piace di più!	
+GLUE_WELCOMEBACK_CN_HEADER	Salve!	
 GLUE_WIN_STREAK	Serie di vittorie: {0}	0=number of wins
 GLUE_WINS	Vittorie	header for number of wins
 GLUE_WOODEN_BANNER_TITLE_FRIEND_WEEK	Amici nemici	

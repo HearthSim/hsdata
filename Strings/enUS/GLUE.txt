@@ -430,6 +430,7 @@ GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_FORGE_TICKET	투기장 입장료는 구매 �
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_CONFIRM	본 거래와 관련된 조건과 약관을 확인하며 이에 동의합니다.	only displayed for Korean customers, should always be in Korean
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_TAVERN_BRAWL_TICKET	영웅 난이도 난투 입장료는 구매 후 환불되지 않으며, 구매 즉시 영웅 난이도 난투에 입장합니다.\n서비스 제공기간: 해당 영웅 난이도 난투 만료시까지.\n만료 시 승리한 횟수에 따라 보상이 차등 지급되므로 만료 시간을 확인하시기 바랍니다.
 GLUE_STORE_SUMMARY_KOREAN_AGREEMENT_BATTLEGROUNDS_PERKS	이용기간: 다음 확장팩 출시일 전까지. 본 상품은 구매 즉시 효과가 적용되므로 구매 후 환불이 불가능합니다.
+GLUE_STORE_CN_DISCLAIMER_ONE_DUST	This product has a chance to drop cards from Year of the Wolf standard with a dust value of only 1.
 GLUE_STORE_SUMMARY_TOS_AGREEMENT	By pressing "{0}", you acknowledge that you have read and accepted the Terms of Sale. You can change your default payment method or read the Terms of Sale by pressing the "{1}" button.	0=GLUE_STORE_SUMMARY_PAY_NOW_TEXT,1=GLUE_STORE_TERMS_OF_SALE_BUTTON_TEXT
 GLUE_STORE_SUMMARY_TOS_AGREEMENT_EU	By clicking "{0}", you agree to the Terms of Sale, and to the immediate delivery of your order. You will lose the right to withdraw your order once the delivery process has started. You can change your default payment method or read the Terms of Sale by pressing the "{1}" button.	0=GLUE_STORE_SUMMARY_PAY_NOW_TEXT,1=GLUE_STORE_TERMS_OF_SALE_BUTTON_TEXT
 GLUE_STORE_SUMMARY_PAY_NOW_TEXT	Pay Now	this is what you see when you confirm the purchase
@@ -1393,6 +1394,7 @@ GLUE_STORE_KOREAN_DISCLAIMER_HEADLINE	주의!
 GLUE_STORE_KOREAN_DISCLAIMER_DETAILS	특정 카드를 원하신다면 아래와 같이 ‘마력 추출’ 기능을 통해 100%의 확률로 제작할 수 있습니다.\n   1) 카드 팩을 구매하고 개봉하여 원하는 카드가 있는지 확인합니다.\n   2) 원하는 카드가 없다면 “내 카드” 메뉴에서 필요하지 않은 카드를 선택하고 “마력 추출” 기능을 사용하세요. 이 기능을 사용하면 해당 카드를 제거하고 “신비한 가루”를 획득합니다.\n   3) “내 카드” 메뉴의 “제작하기” 기능으로 “신비한 가루”를 사용하여 원하는 카드를 제작합니다.\n카드 팩 하나당 최소 40개의 “신비한 가루”를 얻을 수 있습니다. 일반/희귀/영웅/전설 카드를 제작하려면 각각 40/100/400/1600개의 “신비한 가루”가 필요합니다. 즉, 카드 팩을 1/3/10/40개 구매하면 반드시 일반/희귀/영웅/전설 카드 하나를 제작할 수 있습니다.
 GLUE_STORE_DISCLAIMER_WARNING	你将要花费战网点数或游戏金币进行购买！
 GLUE_STORE_PRODUCT_PERSONALIZED_OFFER	为您推荐
+GLUE_STORE_PRODUCT_UNLOCKED_OFFER	已解锁
 GLUE_STORE_PURCHASE_LOCK_HEADER	Purchase Error
 GLUE_STORE_PURCHASE_LOCK_DESCRIPTION	Your account has a pending purchase on {0}. Please open Hearthstone on the device where you last tried to make a purchase.\n\nIf the problem persists, please contact Customer Support.	0=one of GLOBAL_STORE_MOBILE_NAME_*
 GLUE_STORE_PACKBUY_SUGGESTION	Recommended
@@ -1423,6 +1425,7 @@ GLUE_LOADINGSCREEN_ERROR_FILESYSTEM_MESSAGE	There is not enough space on your de
 GLUE_LOADINGSCREEN_ERROR_CONNECTION_MESSAGE	Failed to download additional files. Please make sure you have an active network connection.
 GLUE_LOADINGSCREEN_ERROR_CLIENT_CONFIG_MESSAGE	Missing config file. Please uninstall and reinstall Hearthstone.
 GLUE_LOADINGSCREEN_ERROR_COPY_ASSETS_MESSAGE	Failed to copy assets. Please free up additional space on your device.
+GLUE_LOADINGSCREEN_ERROR_OPENING_STORE_MESSAGE	Failed to open App Store.
 GLUE_LOADINGSCREEN_UPDATE_HEADER	Download
 GLUE_LOADINGSCREEN_UPDATE_WIFI_RECONNECTED	Connected to Wi-FI again! Download resumed.
 GLUE_LOADINGSCREEN_ERROR_DISK_SPACE	There is not enough space on your device to install Hearthstone. Please free up additional space.
@@ -1783,9 +1786,9 @@ GLUE_HEROIC_BRAWL_DECK	Heroic Brawl
 GLUE_HEROIC_BRAWL_CONTINUE	I understand!	Heroic brawl intro dialogue continue button text
 GLUE_RETURNING_PLAYER_WELCOME_TITLE	Welcome Back!	Title for Returning Player welcome banner.
 GLUE_RETURNING_PLAYER_WELCOME_DESC	We've got some quests and rewards to get you back into the game!	Text for Returning Player welcome banner.
-GLUE_WELCOMEBACK_CN_HEADER	Welcome![PH]
-GLUE_WELCOMEBACK_CN_BODY	There are new decks for you yoto try out! You can keep the one you like the most![PH]
-GLUE_WELCOMEBACK_BUTTON	Let's Play [PH]
+GLUE_WELCOMEBACK_CN_HEADER	Welcome!
+GLUE_WELCOMEBACK_CN_BODY	You've been gifted all Standard cards from the Year of the Wolf!\nThere are also new decks for you to try! Keep the one you like the most!
+GLUE_WELCOMEBACK_BUTTON	Let's Play!
 GLUE_REWARD_MORE_ITEMS	+{0} More!
 GLUE_HEROIC_BRAWL_SESSION_LIMIT_ALERT_TITLE	Heroic Brawl
 GLUE_HEROIC_BRAWL_SESSION_LIMIT_ALERT_DESCRIPTION_NORMAL	You can participate in {0} more Heroic |4(Brawl,Brawls).
@@ -2700,6 +2703,8 @@ GLUE_PROGRESSION_EVENT_TAB_REWARD_POPUP_COMPLETE_LEVEL	Claimed
 GLUE_PROGRESSION_EVENT_TAB_POPUP_FORGOT_REWARDS_BODY	{0} |4(reward has, rewards have) been added to your Collection from a previous event: {1}.
 GLUE_PROGRESSION_EVENT_TAB_POPUP_EXPIRED_TITLE	Event Has Ended!
 GLUE_PROGRESSION_EVENT_TAB_POPUP_EXPIRED_BODY	The {0} event has come to an end. Stay tuned for the next one!
+GLUE_PROGRESSION_EVENT_TAB_LOCK_HEADER	To Gain Access
+GLUE_PROGRESSION_EVENT_TAB_LOCK_DESCRIPTION	Complete the quest "{0}"
 GLUE_PROGRESSION_PROFILE_CLASS_TITLE	Class Progress
 GLUE_PROGRESSION_PROFILE_TITLE	Profile
 GLUE_PROGRESSION_APPRENTICE_TRACK_TITLE	Apprentice Track
@@ -3546,3 +3551,12 @@ GLUE_GAME_MODE_DOWNLOAD_CONFIRMATION_AVAILABLE_SIZE	Available Space: {0}	{0}=Sto
 GLUE_GAME_MODE_OUT_OF_SPACE_TITLE	Not enough space
 GLUE_GAME_MODE_OUT_OF_SPACE_MESSAGE	You need {0} of free space on your device to continue.	{0}=Size of the module to download (E.g. 215 MB)
 GLUE_MOREINFO_HEADER	Full Details
+GLUE_STARTUP_START	Starting up	The game is starting up on the intial loading screen
+GLUE_STARTUP_VERSIONING	Getting game version	We are checking what the latest game version is
+GLUE_STARTUP_CHECKING_UPDATES	Checking for updates	We are checking if there are any updates to the game
+GLUE_STARTUP_DOWNLOAD_DBF	Downloading latest game data	We are downloading the latest game data with a progress bar below
+GLUE_STARTUP_DOWNLOAD_APK	Downloading latest client	We are downloading the latest game client
+GLUE_STARTUP_CONNECTING_BNET	Logging into Battle.net	On loading screen we tell the user we are connecting to battle.net and logging in
+GLUE_STARTUP_CONNECTING_HEARTHSTONE	Connecting to Hearthstone	Connecting to the hearthstone game servers
+GLUE_STARTUP_LAUNCHING	Entering the tavern	We are finished starting up and loading into the game
+GLUE_STARTUP_UNKNOWN_STAGE	Getting the Tavern ready	Shown on the loading screen

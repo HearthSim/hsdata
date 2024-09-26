@@ -1736,6 +1736,7 @@ GLUE_LOADINGSCREEN_ERROR_GENERIC	Hearthstone funktioniert nicht mehr. Bitte dein
 GLUE_LOADINGSCREEN_ERROR_GET_EXTERNAL_FILES	Zugriff auf den externen Speicher fehlgeschlagen. Bitte erlauben Sie den Zugriff auf den externen Speicher. Falls er bereits erlaubt ist, starten Sie bitte Ihr Gerät neu.	
 GLUE_LOADINGSCREEN_ERROR_INSTALLING_TITLE	Fehler bei der Installation	
 GLUE_LOADINGSCREEN_ERROR_NEEDS_DATA	Sobald eine WLAN-Verbindung verfügbar ist, wird der Datendownload fortgesetzt.	
+GLUE_LOADINGSCREEN_ERROR_OPENING_STORE_MESSAGE	Der App Store konnte nicht geöffnet werden.	
 GLUE_LOADINGSCREEN_ERROR_UPDATE	Update konnte nicht heruntergeladen werden. Bitte überprüfen Sie Ihre Netzwerkverbindung.	
 GLUE_LOADINGSCREEN_ERROR_UPDATE_CONFLICT	Update konnte nicht heruntergeladen werden. Bitte starten Sie Hearthstone neu.	
 GLUE_LOADINGSCREEN_ERROR_VERSION	Versionsinformationen konnten nicht abgerufen werden. Bitte überprüfen Sie Ihre Netzwerkverbindung.	
@@ -2121,6 +2122,8 @@ GLUE_PROGRESSION_BONUS_ERROR_BODY	Es gibt derzeit keinen Gasthauspass. Bitte ver
 GLUE_PROGRESSION_BONUS_ERROR_HEADER	Gasthauspass	
 GLUE_PROGRESSION_EVENT_TAB_COMING_SOON	Event beginnt in {0}	
 GLUE_PROGRESSION_EVENT_TAB_COMPLETED	Ihr habt alle verfügbaren Belohnungen für dieses Event freigeschaltet!	
+GLUE_PROGRESSION_EVENT_TAB_LOCK_DESCRIPTION	Schließt die Quest „{0}“ ab,	
+GLUE_PROGRESSION_EVENT_TAB_LOCK_HEADER	um Zugang zu erhalten.	
 GLUE_PROGRESSION_EVENT_TAB_POPUP_EXPIRED_BODY	Das Event {0} ist beendet. Haltet die Augen nach dem nächsten offen!	
 GLUE_PROGRESSION_EVENT_TAB_POPUP_EXPIRED_TITLE	Event ist beendet!	
 GLUE_PROGRESSION_EVENT_TAB_POPUP_FORGOT_REWARDS_BODY	{0} |4(Belohnung,Belohnungen) von einem früheren Event |4(wurde,wurden) Eurer Sammlung hinzugefügt: {1}	
@@ -2566,6 +2569,15 @@ GLUE_START_CLICK	Zum Starten klicken
 GLUE_START_PRESS	Start drücken	
 GLUE_START_TOUCH	Zum Starten berühren	
 GLUE_STARTING_GAME	Spiel wird gestartet	
+GLUE_STARTUP_CHECKING_UPDATES	Suche nach Updates	We are checking if there are any updates to the game
+GLUE_STARTUP_CONNECTING_BNET	Anmeldung bei Battle.net …	On loading screen we tell the user we are connecting to battle.net and logging in
+GLUE_STARTUP_CONNECTING_HEARTHSTONE	Verbindung zu Hearthstone …	Connecting to the hearthstone game servers
+GLUE_STARTUP_DOWNLOAD_APK	Neuester Client wird heruntergeladen …	We are downloading the latest game client
+GLUE_STARTUP_DOWNLOAD_DBF	Neuester Spieldaten werden heruntergeladen …	We are downloading the latest game data with a progress bar below
+GLUE_STARTUP_LAUNCHING	Gasthaus wird betreten …	We are finished starting up and loading into the game
+GLUE_STARTUP_START	Wird initialisiert …	The game is starting up on the intial loading screen
+GLUE_STARTUP_UNKNOWN_STAGE	Gasthaus wird vorbereitet …	Shown on the loading screen
+GLUE_STARTUP_VERSIONING	Spielversion wird angefordert …	We are checking what the latest game version is
 GLUE_STORE_ADVENTURE_BUTTON_UNAVAILABLE_DESCRIPTION	Dieses Produkt ist zurzeit nicht zum Kauf verfügbar.	
 GLUE_STORE_ADVENTURE_BUTTON_UNAVAILABLE_HEADLINE	Nicht verfügbar!	
 GLUE_STORE_ADVENTURE_LEAVING_SOON	Bald nicht mehr verfügbar!	
@@ -2604,6 +2616,7 @@ GLUE_STORE_CHOOSE_ADVENTURE	Abenteuer wählen
 GLUE_STORE_CHOOSE_HERO	Wählt Euren Helden	
 GLUE_STORE_CHOOSE_PACK	Packung wählen	
 GLUE_STORE_CLOSED_BUTTON_TEXT	Shop\ngeschlossen	
+GLUE_STORE_CN_DISCLAIMER_ONE_DUST	Dieses Produkt kann Standardkarten aus dem Jahr des Wolfs mit einem Staubwert von lediglich 1 enthalten.	
 GLUE_STORE_CURRENCY_CHANGED_DESC	Die in Ihrem Land verwendete Währung für den Blizzard-Shop hat sich geändert. Es kann zu zusätzlichen steuerlichen Anpassungen kommen.	
 GLUE_STORE_CURRENCY_CHANGED_HEADER	Währung geändert	
 GLUE_STORE_DAL_PREORDER_DATE	Mitte April* verfügbar!	
@@ -2801,6 +2814,7 @@ GLUE_STORE_PRODUCT_NOT_AVAILABLE_TEXT_NOT_YET_STARTED	Dieser Artikel ist noch ni
 GLUE_STORE_PRODUCT_PERSONALIZED_OFFER	为您推荐	
 GLUE_STORE_PRODUCT_PRICE	({0})	0=price
 GLUE_STORE_PRODUCT_PRICE_NA	n. v.	
+GLUE_STORE_PRODUCT_UNLOCKED_OFFER	已解锁	
 GLUE_STORE_PURCHASE_LOCK_DESCRIPTION	Ihr Account hat einen noch nicht abgeschlossenen Kauf {0}. Bitte starten Sie Hearthstone auf dem Gerät, auf dem Sie zuletzt einen Kauf tätigen wollten.\n\nBitte kontaktieren Sie den Kundendienst, falls dieses Problem weiterhin besteht.	0=one of GLOBAL_STORE_MOBILE_NAME_*
 GLUE_STORE_PURCHASE_LOCK_HEADER	Fehler beim Kauf	
 GLUE_STORE_QUANTITY_DUST	{0}个奥术之尘	
@@ -3507,9 +3521,9 @@ GLUE_WEB_PURCHASE_DESC	Sie haben einen Online-Kauf getätigt!\nÜberprüfen Sie 
 GLUE_WEB_PURCHASE_TITLE	Online-Kauf	
 GLUE_WELCOME_BUNDLE_RANDOM_CARD_SCROLL_DESC	Aus Eurem Willkommenspaket:\n{0}!	
 GLUE_WELCOME_BUNDLE_RANDOM_CARD_SCROLL_TITLE	Legendäre Karte des Willkommenspakets!	
-GLUE_WELCOMEBACK_BUTTON	Lasst uns [PH] spielen	
-GLUE_WELCOMEBACK_CN_BODY	There are new decks for you yoto try out! You can keep the one you like the most![PH]	
-GLUE_WELCOMEBACK_CN_HEADER	Welcome![PH]	
+GLUE_WELCOMEBACK_BUTTON	Spielen wir!	
+GLUE_WELCOMEBACK_CN_BODY	Euch wurde alle Standardkarten vom Jahr des Wolfs geschenkt!\nAußerdem warten neue Decks zum Ausprobieren auf Euch! Behaltet das Deck, das Euch am besten gefällt!	
+GLUE_WELCOMEBACK_CN_HEADER	Willkommen!	
 GLUE_WIN_STREAK	Siegesserie: {0}	0=number of wins
 GLUE_WINS	Siege	header for number of wins
 GLUE_WOODEN_BANNER_TITLE_FRIEND_WEEK	Fehde unter Freunden!	

@@ -1736,6 +1736,7 @@ GLUE_LOADINGSCREEN_ERROR_GENERIC	하스스톤이 작동하지 않습니다. 하�
 GLUE_LOADINGSCREEN_ERROR_GET_EXTERNAL_FILES	외부 저장소에 액세스하지 못했습니다. 외부 저장소에 대한 액세스를 허용하십시오. 이미 허용된 경우 기기를 다시 시작하십시오.	
 GLUE_LOADINGSCREEN_ERROR_INSTALLING_TITLE	설치 오류	
 GLUE_LOADINGSCREEN_ERROR_NEEDS_DATA	Wi-Fi에 다시 접속되면 다운로드를 재개합니다.	
+GLUE_LOADINGSCREEN_ERROR_OPENING_STORE_MESSAGE	App Store를 여는 데 실패했습니다.	
 GLUE_LOADINGSCREEN_ERROR_UPDATE	업데이트에 실패했습니다. 네트워크 연결을 확인해 보세요.	
 GLUE_LOADINGSCREEN_ERROR_UPDATE_CONFLICT	업데이트에 실패했습니다. 하스스톤을 다시 시작해 주세요.	
 GLUE_LOADINGSCREEN_ERROR_VERSION	버전 정보를 확인할 수 없습니다. 네트워크 연결을 확인해 보세요.	
@@ -2121,6 +2122,8 @@ GLUE_PROGRESSION_BONUS_ERROR_BODY	현재 활성화된 선술집 패스가 없습
 GLUE_PROGRESSION_BONUS_ERROR_HEADER	선술집 패스	
 GLUE_PROGRESSION_EVENT_TAB_COMING_SOON	{0} 후에 이벤트 시작	
 GLUE_PROGRESSION_EVENT_TAB_COMPLETED	이번 이벤트에 포함된 보상을 모두 획득했습니다!	
+GLUE_PROGRESSION_EVENT_TAB_LOCK_DESCRIPTION	"{0}" 퀘스트 완료	
+GLUE_PROGRESSION_EVENT_TAB_LOCK_HEADER	해제 조건	
 GLUE_PROGRESSION_EVENT_TAB_POPUP_EXPIRED_BODY	{0} 이벤트가 종료되었습니다. 다음 이벤트를 기다려 주세요!	
 GLUE_PROGRESSION_EVENT_TAB_POPUP_EXPIRED_TITLE	이벤트가 종료되었습니다!	
 GLUE_PROGRESSION_EVENT_TAB_POPUP_FORGOT_REWARDS_BODY	{0}개의 |4(지난 이벤트 보상, 지난 이벤트 보상)이 수집품에 추가되었습니다: {1}.	
@@ -2566,6 +2569,15 @@ GLUE_START_CLICK	시작하려면 클릭하세요
 GLUE_START_PRESS	시작을 누르세요.	
 GLUE_START_TOUCH	시작하려면 터치하세요	
 GLUE_STARTING_GAME	게임 시작	
+GLUE_STARTUP_CHECKING_UPDATES	업데이트를 확인하는 중	We are checking if there are any updates to the game
+GLUE_STARTUP_CONNECTING_BNET	Battle.net에 로그인하는 중	On loading screen we tell the user we are connecting to battle.net and logging in
+GLUE_STARTUP_CONNECTING_HEARTHSTONE	하스스톤에 접속하는 중	Connecting to the hearthstone game servers
+GLUE_STARTUP_DOWNLOAD_APK	최신 클라이언트 다운로드 중	We are downloading the latest game client
+GLUE_STARTUP_DOWNLOAD_DBF	최신 게임 데이터 다운로드 중	We are downloading the latest game data with a progress bar below
+GLUE_STARTUP_LAUNCHING	선술집에 들어가는 중	We are finished starting up and loading into the game
+GLUE_STARTUP_START	시작 중	The game is starting up on the intial loading screen
+GLUE_STARTUP_UNKNOWN_STAGE	선술집 준비하는 중	Shown on the loading screen
+GLUE_STARTUP_VERSIONING	게임 버전 가져오는 중	We are checking what the latest game version is
 GLUE_STORE_ADVENTURE_BUTTON_UNAVAILABLE_DESCRIPTION	이 상품은 현재 구매할 수 없습니다.	
 GLUE_STORE_ADVENTURE_BUTTON_UNAVAILABLE_HEADLINE	이용 불가!	
 GLUE_STORE_ADVENTURE_LEAVING_SOON	모험이 곧 사라집니다!	
@@ -2604,6 +2616,7 @@ GLUE_STORE_CHOOSE_ADVENTURE	모험을 선택하세요.
 GLUE_STORE_CHOOSE_HERO	영웅을 선택하세요.	
 GLUE_STORE_CHOOSE_PACK	카드 팩을 선택하세요.	
 GLUE_STORE_CLOSED_BUTTON_TEXT	상점\n닫힘	
+GLUE_STORE_CN_DISCLAIMER_ONE_DUST	본 상품은 일정 확률로 신비한 가루 가치가 1인 늑대의 해 정규 카드를 떨어뜨립니다.	
 GLUE_STORE_CURRENCY_CHANGED_DESC	귀하의 국가에서 사용되는 블리자드 샵 화폐가 변경되었습니다. 부가세가 적용될 수 있습니다.	
 GLUE_STORE_CURRENCY_CHANGED_HEADER	화폐 업데이트	
 GLUE_STORE_DAL_PREORDER_DATE	4월 중순*에 출시됩니다!	
@@ -2801,6 +2814,7 @@ GLUE_STORE_PRODUCT_NOT_AVAILABLE_TEXT_NOT_YET_STARTED	이 상품은 아직 구�
 GLUE_STORE_PRODUCT_PERSONALIZED_OFFER	为您推荐	
 GLUE_STORE_PRODUCT_PRICE	({0})	0=price
 GLUE_STORE_PRODUCT_PRICE_NA	없음	
+GLUE_STORE_PRODUCT_UNLOCKED_OFFER	已解锁	
 GLUE_STORE_PURCHASE_LOCK_DESCRIPTION	{0}에서 이 계정을 이용한 구매가 완료되지 않았습니다. 마지막으로 구매를 시도한 기기에서 하스스톤을 실행하여 주십시오.\n\n이 문제가 계속되면 고객 지원 센터에 문의하시기 바랍니다.	0=one of GLOBAL_STORE_MOBILE_NAME_*
 GLUE_STORE_PURCHASE_LOCK_HEADER	구매 오류	
 GLUE_STORE_QUANTITY_DUST	{0}个奥术之尘	
@@ -3508,8 +3522,8 @@ GLUE_WEB_PURCHASE_TITLE	웹에서 구매
 GLUE_WELCOME_BUNDLE_RANDOM_CARD_SCROLL_DESC	여관주인의 환영 묶음 상품에서\n{0} 카드를 획득했습니다!	
 GLUE_WELCOME_BUNDLE_RANDOM_CARD_SCROLL_TITLE	여관주인의 환영 묶음 상품 전설 카드!	
 GLUE_WELCOMEBACK_BUTTON	게임 하기	
-GLUE_WELCOMEBACK_CN_BODY	There are new decks for you yoto try out! You can keep the one you like the most![PH]	
-GLUE_WELCOMEBACK_CN_HEADER	Welcome![PH]	
+GLUE_WELCOMEBACK_CN_BODY	늑대의 해의 정규 카드를 모두 선물로 받았습니다!\n또 사용해 볼 새로운 덱도 준비되어 있죠! 제일 마음에 드는 덱은 가질 수 있습니다!	
+GLUE_WELCOMEBACK_CN_HEADER	환영합니다!	
 GLUE_WIN_STREAK	연승 중: {0}	0=number of wins
 GLUE_WINS	승리	header for number of wins
 GLUE_WOODEN_BANNER_TITLE_FRIEND_WEEK	하스스톤 친선전!	
