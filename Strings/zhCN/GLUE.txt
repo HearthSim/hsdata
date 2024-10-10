@@ -911,6 +911,11 @@ GLUE_COLLECTION_SEARCH	查找
 GLUE_COLLECTION_SET_FILTER_WILD_SET_BODY	这样会显示无法在标准模式中使用的卡牌，你确定吗？	
 GLUE_COLLECTION_SET_FILTER_WILD_SET_HEADER	狂野卡牌	
 GLUE_COLLECTION_SHOW_ALL_CARDS	显示所有	
+GLUE_COLLECTION_SPINNER_FAIL_BODY	套牌名称中含有敏感词汇，无法保存名称。	
+GLUE_COLLECTION_SPINNER_FAIL_HEADLINE	名称检验失败！	
+GLUE_COLLECTION_SPINNER_SUCCESS_HEADLINE	名称检验通过！	
+GLUE_COLLECTION_SPINNER_TIMEOUT_BODY	名称检验超时，请稍后再试。	
+GLUE_COLLECTION_SPINNER_WAITING	正在检验名称……	
 GLUE_COLLECTION_STAGE_FOUR	层级4	
 GLUE_COLLECTION_STAGE_ONE	层级1	
 GLUE_COLLECTION_STAGE_THREE	层级3	
@@ -2024,9 +2029,9 @@ GLUE_PRIVACY_POLICY_BUTTON	隐私协议
 GLUE_PRIVACY_POLICY_EULA_CONFIRM	同意并进入	
 GLUE_PRIVACY_POLICY_EULA_CONFIRMATION_ACCEPT	同意并进入	
 GLUE_PRIVACY_POLICY_EULA_CONFIRMATION_REJECT	再想想	
-GLUE_PRIVACY_POLICY_EULA_CONFIRMATION_TEXT	抱歉，您在同意《隐私协议》及《最终用户许可协议》后，方可继续开启本游戏。	
+GLUE_PRIVACY_POLICY_EULA_CONFIRMATION_TEXT	抱歉，您在同意《网易暴雪游戏服务隐私政策》及《暴雪战网最终用户许可协议》，方可继续开启本游戏。	
 GLUE_PRIVACY_POLICY_EULA_REJECT	不同意	
-GLUE_PRIVACY_POLICY_EULA_TEXT	欢迎来到《炉石传说》\n\n为了给您提供更优质的《炉石传说》游戏服务，《炉石传说》将会使用您的部分信息，请在使用前仔细阅读并同意《炉石传说》相关《网易暴雪游戏服务隐私政策 》及《暴雪战网最终用户许可协议 》。若选择不同意，您将无法开启我们的游戏。\n\n<b>请您特别关注以下条款：\n\n争端解决和适用法律。</b>\nA. 争端对各方而言都是昂贵而耗时的。为缩短解决时间并降低解决成本，对于任何针对本协议的争端、争议或索赔（统称 “争端” ），您和运营方同意尽量通过协商方式解决。\n<b>B. 有约束力的仲裁。如果各方无法通过协商解决争端（但下文明确列出的例外争端除外），您和运营方同意通过仲裁处理。各方同意提交中国国际经济贸易仲裁委员会（简称 “CIETAC” ）根据CIETAC有效的仲裁规则以及适用法律在中国北京进行仲裁。仲裁裁决是终局的，对各方均有约束力。您的仲裁费用及您应分担的仲裁赔偿应由您个人自行承担。\nC. 限制。您和运营方同意任何仲裁仅限应用于运营方同您个人之间的争端。您认可并同意（a）任何仲裁均不牵涉其他人；（b）没有任何权利或授权进行共同仲裁或使用共同仲裁的程序；并且（c）没有任何权利或授权允许代表公众或者其他人的假设的代理人提起争端。</b>\nD. 协商与仲裁的例外。您和运营方同意下列争端将不受上述协商及约束仲裁条款约束：（a）任何试图执行或者保护运营方或暴雪知识产权或与知识产权的有效性相关的争端；（b）任何有关偷窃、盗版或未经运营方或暴雪授权使用的争端，或由这些情况引起的争端；及（c）要求解除法院颁发的禁止令。您和运营方同意将此类争端交由运营方所在地有管辖权的人民法院裁决。\nE. 适用法律。除非明确另作说明，本协议应适用中华人民共和国法律，且不适用法律选择原则。《联合国国际货物销售合同公约》被明确排除适用于本协议。	
+GLUE_PRIVACY_POLICY_EULA_TEXT	欢迎来到《炉石传说》\n\n为了给您提供更优质的《炉石传说》游戏服务，《炉石传说》将会使用您的部分信息，请在使用前仔细阅读并同意《炉石传说》相关《网易暴雪游戏服务隐私政策  》及《暴雪战网最终用户许可协议  》。若选择不同意，您将无法开启我们的游戏。\n\n请您特别关注以下条款：\n\n争端解决和适用法律。\nA. 争端对各方而言都是昂贵而耗时的。为缩短解决时间并降低解决成本，对于任何针对本协议的争端、争议或索赔（统称 “争端” ），您和运营方同意尽量通过协商方式解决。\nB. 有约束力的仲裁。如果各方无法通过协商解决争端（但下文明确列出的例外争端除外），您和运营方同意通过仲裁处理。各方同意提交中国国际经济贸易仲裁委员会（简称 “CIETAC” ）根据CIETAC有效的仲裁规则以及适用法律在中国北京进行仲裁。仲裁裁决是终局的，对各方均有约束力。您的仲裁费用及您应分担的仲裁赔偿应由您个人自行承担。\nC. 限制。您和运营方同意任何仲裁仅限应用于运营方同您个人之间的争端。您认可并同意（a）任何仲裁均不牵涉其他人；（b）没有任何权利或授权进行共同仲裁或使用共同仲裁的程序；并且（c）没有任何权利或授权允许代表公众或者其他人的假设的代理人提起争端。\nD. 协商与仲裁的例外。您和运营方同意下列争端将不受上述协商及约束仲裁条款约束：（a）任何试图执行或者保护运营方或暴雪知识产权或与知识产权的有效性相关的争端；（b）任何有关偷窃、盗版或未经运营方或暴雪授权使用的争端，或由这些情况引起的争端；及（c）要求解除法院颁发的禁止令。您和运营方同意将此类争端交由运营方所在地有管辖权的人民法院裁决。\nE. 适用法律。除非明确另作说明，本协议应适用中华人民共和国法律，且不适用法律选择原则。《联合国国际货物销售合同公约》被明确排除适用于本协议。	
 GLUE_PRIVACY_POLICY_EULA_TITLE	请阅读以下内容	
 GLUE_PRIVACY_POLICY_TITLE	隐私协议	
 GLUE_PROGRESSION_ABANDON_QUEST_BODY	你不会换到新的任务。如果这个任务是任务线的一环，你将无法收到后续的任务。你确定吗？	
@@ -2734,6 +2739,8 @@ GLUE_STORE_PAYMENT_INFO_DETAILS	请注意：在本次交易中，任何付款或
 GLUE_STORE_PAYMENT_INFO_HEADLINE	产品信息	
 GLUE_STORE_PAYMENT_INFO_URL_DETAILS	点击“{0}”，了解卡牌和外观饰品的稀有度、卡牌包机制和购买的详情。	
 GLUE_STORE_PRE_PURCHASE_HAS_ENDED	该产品的预购已经结束。	
+GLUE_STORE_PRE_RELEASE_BRAWL_TEXT_MAIN	提前使用卡牌	
+GLUE_STORE_PRE_RELEASE_BRAWL_TEXT_SUB	加入抢先体验乱斗	
 GLUE_STORE_PREMIUM_VARIATION_NAME_DIAMOND	钻石	
 GLUE_STORE_PREMIUM_VARIATION_NAME_GOLDEN	金色	
 GLUE_STORE_PREMIUM_VARIATION_NAME_NORMAL	普通	
