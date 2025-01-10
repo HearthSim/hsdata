@@ -725,8 +725,6 @@ GLOBAL_KEYWORD_BACON_DISCOUNTED	En promotion
 GLOBAL_KEYWORD_BACON_DISCOUNTED_TEXT	Ce bibelot coûte (1) cristal de moins que d’habitude.	
 GLOBAL_KEYWORD_BACON_FREEZE	Gel	
 GLOBAL_KEYWORD_BACON_FREEZE_TEXT	Les serviteurs gelés restent dans la boutique au prochain tour.	
-GLOBAL_KEYWORD_BACON_MAGICDAMAGE	Dégâts magiques	
-GLOBAL_KEYWORD_BACON_MAGICDAMAGE_TEXT	Ajoute X points de dégâts aux montants de dégâts infligés de manière indirecte par vos serviteurs.	
 GLOBAL_KEYWORD_BACON_PASS	Passer	
 GLOBAL_KEYWORD_BACON_PASS_TEXT	Envoie une carte dans la main de votre partenaire.	
 GLOBAL_KEYWORD_BACON_PUTRICIDESCREATION	Création de Putricide	
@@ -737,8 +735,6 @@ GLOBAL_KEYWORD_BACON_REBORN	Réincarnation
 GLOBAL_KEYWORD_BACON_REBORN_TEXT	La première fois que ce serviteur meurt, invoque une nouvelle copie à 1 PV.	
 GLOBAL_KEYWORD_BACON_STEALTH	Camouflage	
 GLOBAL_KEYWORD_BACON_STEALTH_TEXT	Ce personnage ne peut être attaqué jusqu’à ce qu’il attaque.	
-GLOBAL_KEYWORD_BACON_STURDY	Robuste	
-GLOBAL_KEYWORD_BACON_STURDY_TEXT	La première fois que cette carte subit des dégâts mortels, ses PV passent à 1 à la place.	
 GLOBAL_KEYWORD_BACON_TRINKET	Bibelot	
 GLOBAL_KEYWORD_BACON_TRINKET_TEXT	Un puissant bonus passif qui peut être acquis lors d’un tour spécifique.	
 GLOBAL_KEYWORD_BATTLECRY	Cri de guerre	
@@ -862,7 +858,9 @@ GLOBAL_KEYWORD_GIGANTIC_TEXT	Une copie 8/8 coûtant 8 cristaux d’une autre c
 GLOBAL_KEYWORD_GIGANTIFY	Gigantification	
 GLOBAL_KEYWORD_GIGANTIFY_TEXT	Vous obtenez une copie 8/8 coûtant 8 cristaux de cette carte.	
 GLOBAL_KEYWORD_GRIMY_GOONS	Les Dessoudeurs	
-GLOBAL_KEYWORD_GRIMY_GOONS_COLLECTION_TEXT	Vous pouvez placer cette carte dans les decks de chasseur, paladin ou guerrier.	
+GLOBAL_KEYWORD_GRIMY_GOONS_MULTI	Dessoudeurs (Multi)	
+GLOBAL_KEYWORD_GRIMY_GOONS_MULTI_TEXT	Cette carte appartient à la faction des Dessoudeurs et peut s’utiliser avec {0} classes.	
+GLOBAL_KEYWORD_GRIMY_GOONS_TEXT	Cette carte appartient à la faction des Dessoudeurs.	
 GLOBAL_KEYWORD_HEALING_POWER	Puissance des soins	
 GLOBAL_KEYWORD_HEALING_POWER_TEXT	Vos capacités de soins rendent plus de points de vie.	
 GLOBAL_KEYWORD_HONORABLEKILL	Victoire honorable	
@@ -886,9 +884,13 @@ GLOBAL_KEYWORD_JADE_GOLEM	Golem de jade
 GLOBAL_KEYWORD_JADE_GOLEM_COLLECTION_TEXT	Votre premier golem de jade a 1/1. Chaque golem suivant aura +1/+1.	
 GLOBAL_KEYWORD_JADE_GOLEM_TEXT	Chaque golem de jade est plus puissant de +1/+1 que le précédent.	
 GLOBAL_KEYWORD_JADE_LOTUS	Lotus de jade	
-GLOBAL_KEYWORD_JADE_LOTUS_COLLECTION_TEXT	Vous pouvez placer cette carte dans les decks de druide, voleur ou chaman.	
+GLOBAL_KEYWORD_JADE_LOTUS_MULTI	Lotus de jade (Multi)	
+GLOBAL_KEYWORD_JADE_LOTUS_MULTI_TEXT	Cette carte appartient à la faction du Lotus de jade et peut s’utiliser avec {0} classes.	
+GLOBAL_KEYWORD_JADE_LOTUS_TEXT	Cette carte appartient à la faction du Lotus de jade.	
 GLOBAL_KEYWORD_KABAL	Kabale	
-GLOBAL_KEYWORD_KABAL_COLLECTION_TEXT	Vous pouvez placer cette carte dans les decks de prêtre, mage ou démoniste.	
+GLOBAL_KEYWORD_KABAL_MULTI	Kabale (Multi)	
+GLOBAL_KEYWORD_KABAL_MULTI_TEXT	Cette carte appartient à la faction de la Kabale et peut s’utiliser avec {0} classes.	
+GLOBAL_KEYWORD_KABAL_TEXT	Cette carte appartient à la faction de la Kabale.	
 GLOBAL_KEYWORD_LIFESTEAL	Vol de vie	
 GLOBAL_KEYWORD_LIFESTEAL_TEXT	Les dégâts infligés soignent aussi votre héros.	
 GLOBAL_KEYWORD_MAGE_TOURIST	Tourisme : mage	
@@ -906,6 +908,9 @@ GLOBAL_KEYWORD_MINION_TYPE_REFERENCE	Type de serviteur
 GLOBAL_KEYWORD_MINION_TYPE_REFERENCE_TEXT	Bête, démon, dragon, méca, murloc, pirate et totem.	
 GLOBAL_KEYWORD_MODULAR	Magnétisme	
 GLOBAL_KEYWORD_MODULAR_TEXT	Jouez cette carte à gauche d’un Méca pour les faire fusionner !	
+GLOBAL_KEYWORD_MULTICLASS	Multiclasse ({0})	Argument is number of classes the card can be used in (ex: 4)
+GLOBAL_KEYWORD_MULTICLASS_SEARCH_TOKEN	Multiclasse	
+GLOBAL_KEYWORD_MULTICLASS_TEXT	Classes pouvant utiliser cette carte : {0}	Argument is a comma separated list of classes the card can be used in
 GLOBAL_KEYWORD_OFFHAND	Main gauche	
 GLOBAL_KEYWORD_OFFHAND_TEXT	Indestructible. Ne peut être enchantée.	
 GLOBAL_KEYWORD_OUTCAST	Marginal	
@@ -925,6 +930,10 @@ GLOBAL_KEYWORD_POISONOUS	Toxicité
 GLOBAL_KEYWORD_POISONOUS_TEXT	Détruit tout serviteur blessé par cet effet.	
 GLOBAL_KEYWORD_PRIEST_TOURIST	Tourisme : prêtre	
 GLOBAL_KEYWORD_PRIEST_TOURIST_TEXT	Votre deck peut contenir des cartes de prêtre de Paradis en péril.	
+GLOBAL_KEYWORD_PROTOSS	Protoss	
+GLOBAL_KEYWORD_PROTOSS_MULTI	Protoss (Multi)	
+GLOBAL_KEYWORD_PROTOSS_MULTI_TEXT	Cette carte appartient à la faction des Protoss et peut s’utiliser avec {0} classes.	
+GLOBAL_KEYWORD_PROTOSS_TEXT	Cette carte appartient à la faction des Protoss.	
 GLOBAL_KEYWORD_QUEST	Quête	
 GLOBAL_KEYWORD_QUEST_TEXT	Débute dans votre main. Terminez-la pour obtenir une récompense.	
 GLOBAL_KEYWORD_QUESTLINE	Suite de quêtes	
@@ -1093,6 +1102,10 @@ GLOBAL_KEYWORD_TAUNT_REF_TEXT_Merc	Les adversaires doivent attaquer les personna
 GLOBAL_KEYWORD_TAUNT_TEXT	Les adversaires doivent attaquer ce serviteur.	
 GLOBAL_KEYWORD_TEMPORARY	Temporaire	
 GLOBAL_KEYWORD_TEMPORARY_TEXT	Défaussée à la fin de votre tour.	
+GLOBAL_KEYWORD_TERRAN	Terran	
+GLOBAL_KEYWORD_TERRAN_MULTI	Terran (Multi)	
+GLOBAL_KEYWORD_TERRAN_MULTI_TEXT	Cette carte appartient à la faction des Terrans et peut s’utiliser avec {0} classes.	
+GLOBAL_KEYWORD_TERRAN_TEXT	Cette carte appartient à la faction des Terrans.	
 GLOBAL_KEYWORD_TITAN	Titan	
 GLOBAL_KEYWORD_TITAN_TEXT	Cliquez sur un Titan pour\nutiliser 1 de ses 3 capacités\nau lieu d’attaquer.	
 GLOBAL_KEYWORD_TOOL	Outil	
@@ -1112,6 +1125,10 @@ GLOBAL_KEYWORD_WILD_TEXT	Les cartes libres appartiennent au passé de Hearthston
 GLOBAL_KEYWORD_WINDFURY	Furie des vents	
 GLOBAL_KEYWORD_WINDFURY_TEXT	Peut attaquer deux fois par tour.	
 GLOBAL_KEYWORD_WINDFURY_TEXT_MERC	Attaque deux fois chaque fois qu’il attaque.	
+GLOBAL_KEYWORD_ZERG	Zerg	
+GLOBAL_KEYWORD_ZERG_MULTI	Zerg (Multi)	
+GLOBAL_KEYWORD_ZERG_MULTI_TEXT	Cette carte appartient à la faction des Zergs et peut s’utiliser avec {0} classes.	
+GLOBAL_KEYWORD_ZERG_TEXT	Cette carte appartient à la faction des Zergs.	
 GLOBAL_LANGUAGE_CHANGE_CONFIRM_MESSAGE	L’activité en cours sera interrompue. Voulez-vous continuer ?	
 GLOBAL_LANGUAGE_CHANGE_CONFIRM_TITLE	Changer la langue ?	
 GLOBAL_LANGUAGE_CHANGE_OUT_OF_SPACE_MESSAGE	Vous avez besoin de {0} d’espace libre sur votre appareil pour continuer.	
@@ -1497,9 +1514,6 @@ GLOBAL_REWARD_ARENA_TICKET_STORE_COUNT_1	1
 GLOBAL_REWARD_ARENA_TICKET_TITLE	Taverne	
 GLOBAL_REWARD_BATTLEGROUNDS_GUIDE_HEADLINE	Barman des champs de bataille débloqué	
 GLOBAL_REWARD_BATTLEGROUNDS_HERO_HEADLINE	Héros des champs de bataille débloqué	
-GLOBAL_REWARD_BG_TOKEN_HEADLINE	Jeton de champs de bataille obtenu !	
-GLOBAL_REWARD_BG_TOKEN_SOURCE_IGR	Obtenu pour vous être connecté depuis une salle de jeu Internet.	
-GLOBAL_REWARD_BG_TOKEN_SOURCE_IGR_DATED	Obtenu pour vous être connecté depuis une salle de jeu Internet le {0}.	0=GLOBAL_CURRENT_DATE
 GLOBAL_REWARD_BONUS_CHALLENGE_HEADLINE	Défi ultime débloqué	
 GLOBAL_REWARD_BOOSTER_DETAILS_OUT_OF_BAND	{0} |4(paquet a été ajouté,paquets ont été ajoutés) à votre compte en dehors du jeu.	0=count
 GLOBAL_REWARD_BOOSTER_DETAILS_PRESALE_OUT_OF_BAND	Votre achat sur Internet de {0}_|4(paquet,paquets) sera bientôt disponible_!	0=count
@@ -1707,9 +1721,6 @@ GLOBAL_TWIST_SEASON_DESCRIPTION_124	Vous n’avez pas de cartes légendaires ? 
 GLOBAL_TWIST_SEASON_DESCRIPTION_125	Revivez les dix dernières années de Hearthstone ! Nous ajouterons chaque jour un nouvel ensemble, en commençant par l’ensemble du jeu d’origine jusqu’à Rixe en terres Ingrates.	
 GLOBAL_TWIST_SEASON_DESCRIPTION_128	Lancez-vous avec l’un des héros ou héroïnes de Mystifix et découvrez des decks multiclasses préconstruits, de nouveaux pouvoirs héroïques ainsi que des capacités passives.	
 GLOBAL_TWIST_SEASON_DESCRIPTION_129	Lancez-vous avec l’un des héros ou héroïnes de Mystifix et découvrez des decks multiclasses préconstruits, de nouveaux pouvoirs héroïques ainsi que des capacités passives.	
-GLOBAL_TWIST_SEASON_DESCRIPTION_134	Pénétrez dans les grottes du Temps et créez un deck en utilisant les cartes de toutes les extensions allant du jeu d’origine jusqu’à Main basse sur Gadgetzan.	
-GLOBAL_TWIST_SEASON_DESCRIPTION_135	Cette fois, créez un deck comprenant entre 30 et 40 cartes des extensions allant du jeu d’origine jusqu’à Main basse sur Gadgetzan, ainsi que l’extension Grottes du Temps. Et tout le monde commence avec un nombre de PV égal à la taille de son deck !	
-GLOBAL_TWIST_SEASON_DESCRIPTION_136	Remontez le temps jusqu’à l’époque des dinosaures ! Un’Goro fait son retour avec de nouvelles mises à jour et rejoint les autres ensembles du format Merveilles.	
 GLOBAL_TWIST_SEASON_TITLE_116	Nouvelle ère	
 GLOBAL_TWIST_SEASON_TITLE_117	Nouvelle ère	
 GLOBAL_TWIST_SEASON_TITLE_119	Merveilles	
@@ -1719,9 +1730,6 @@ GLOBAL_TWIST_SEASON_TITLE_124	Cartes communes
 GLOBAL_TWIST_SEASON_TITLE_125	Avance rapide	
 GLOBAL_TWIST_SEASON_TITLE_128	Héroïsme de Mystifix	
 GLOBAL_TWIST_SEASON_TITLE_129	Héroïsme de Mystifix	
-GLOBAL_TWIST_SEASON_TITLE_134	Merveilles	
-GLOBAL_TWIST_SEASON_TITLE_135	Merveilles XL	
-GLOBAL_TWIST_SEASON_TITLE_136	Retour à Un’Goro	
 GLOBAL_UNINSTALL_MODULE_POPUP_PROMPT	Désinstaller {0} ?	{0}=Module name to uninstall (e.g. Battlegrounds)
 GLOBAL_UPDATE	Mettre à jour	
 GLOBAL_VERSION	Version	

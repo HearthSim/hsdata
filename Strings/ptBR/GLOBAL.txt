@@ -725,8 +725,6 @@ GLOBAL_KEYWORD_BACON_DISCOUNTED	Com desconto
 GLOBAL_KEYWORD_BACON_DISCOUNTED_TEXT	Esse Berloque custa (1) a menos do que o normal.	
 GLOBAL_KEYWORD_BACON_FREEZE	Congelar	
 GLOBAL_KEYWORD_BACON_FREEZE_TEXT	Lacaios congelados ficam na loja no turno seguinte.	
-GLOBAL_KEYWORD_BACON_MAGICDAMAGE	Dano Mágico	
-GLOBAL_KEYWORD_BACON_MAGICDAMAGE_TEXT	Adicione um valor X ao dano de não ataque causado pelos seus lacaios.	
 GLOBAL_KEYWORD_BACON_PASS	Passar	
 GLOBAL_KEYWORD_BACON_PASS_TEXT	Envie para a mão de seu colega de equipe.	
 GLOBAL_KEYWORD_BACON_PUTRICIDESCREATION	Criação do Putricida	
@@ -737,8 +735,6 @@ GLOBAL_KEYWORD_BACON_REBORN	Renascer
 GLOBAL_KEYWORD_BACON_REBORN_TEXT	Evoca uma nova cópia com 1 de Vida ao morrer pela primeira vez.	
 GLOBAL_KEYWORD_BACON_STEALTH	Furtividade	
 GLOBAL_KEYWORD_BACON_STEALTH_TEXT	Não pode ser atacado até atacar.	
-GLOBAL_KEYWORD_BACON_STURDY	Resistente	
-GLOBAL_KEYWORD_BACON_STURDY_TEXT	Da primeira vez que este lacaio receber dano letal, em vez disso mude a Vida dele para 1.	
 GLOBAL_KEYWORD_BACON_TRINKET	Berloque	
 GLOBAL_KEYWORD_BACON_TRINKET_TEXT	Um poderoso bônus passivo que pode ser comprado em turnos específicos.	
 GLOBAL_KEYWORD_BATTLECRY	Grito de Guerra	
@@ -862,7 +858,9 @@ GLOBAL_KEYWORD_GIGANTIC_TEXT	Uma cópia 8/8 de custo 8 de outro card.
 GLOBAL_KEYWORD_GIGANTIFY	GIGANTIZAR!	
 GLOBAL_KEYWORD_GIGANTIFY_TEXT	Receba uma cópia 8/8 de custo 8 deste card.	
 GLOBAL_KEYWORD_GRIMY_GOONS	Capangas Cruéis	
-GLOBAL_KEYWORD_GRIMY_GOONS_COLLECTION_TEXT	Você pode usar em decks de Caçador, Paladino ou Guerreiro.	
+GLOBAL_KEYWORD_GRIMY_GOONS_MULTI	Capangas Cruéis (Multi)	
+GLOBAL_KEYWORD_GRIMY_GOONS_MULTI_TEXT	Este card é um membro da facção Capangas Cruéis e pode ser usado em {0} classes.	
+GLOBAL_KEYWORD_GRIMY_GOONS_TEXT	Estre card é um membro da facção Capangas Cruéis.	
 GLOBAL_KEYWORD_HEALING_POWER	Poder de Cura	
 GLOBAL_KEYWORD_HEALING_POWER_TEXT	Suas habilidades de cura restauram vida extra.	
 GLOBAL_KEYWORD_HONORABLEKILL	Abate Honroso	
@@ -886,9 +884,13 @@ GLOBAL_KEYWORD_JADE_GOLEM	Golem de Jade
 GLOBAL_KEYWORD_JADE_GOLEM_COLLECTION_TEXT	Seu primeiro Golem de Jade é 1/1. Cada novo golem tem +1/+1.	
 GLOBAL_KEYWORD_JADE_GOLEM_TEXT	Cada Golem de Jade tem +1/+1 a mais que o anterior.	
 GLOBAL_KEYWORD_JADE_LOTUS	Lótus de Jade	
-GLOBAL_KEYWORD_JADE_LOTUS_COLLECTION_TEXT	Você pode usar em decks de Druida, Ladino ou Xamã.	
+GLOBAL_KEYWORD_JADE_LOTUS_MULTI	Lótus de Jade (Multi)	
+GLOBAL_KEYWORD_JADE_LOTUS_MULTI_TEXT	Este card é um membro da facção Lótus de Jade e pode ser usado em {0} classes.	
+GLOBAL_KEYWORD_JADE_LOTUS_TEXT	Este card é um membro da facção Lótus de Jade.	
 GLOBAL_KEYWORD_KABAL	Kabal	
-GLOBAL_KEYWORD_KABAL_COLLECTION_TEXT	Você pode usar em decks de Sacerdote, Mago ou Bruxo.	
+GLOBAL_KEYWORD_KABAL_MULTI	Kabal (Multi)	
+GLOBAL_KEYWORD_KABAL_MULTI_TEXT	Este card é um membro da facção Kabal e pode ser usado em {0} classes.	
+GLOBAL_KEYWORD_KABAL_TEXT	Este card é um membro da facção Kabal.	
 GLOBAL_KEYWORD_LIFESTEAL	Roubar Vida	
 GLOBAL_KEYWORD_LIFESTEAL_TEXT	O dano causado também cura seu herói.	
 GLOBAL_KEYWORD_MAGE_TOURIST	Turista: Mago	
@@ -906,6 +908,9 @@ GLOBAL_KEYWORD_MINION_TYPE_REFERENCE	Tipo de Lacaio
 GLOBAL_KEYWORD_MINION_TYPE_REFERENCE_TEXT	Fera, Demônio, Dragão, Mecanoide, Murloc, Pirata e Totem.	
 GLOBAL_KEYWORD_MODULAR	Magnético	
 GLOBAL_KEYWORD_MODULAR_TEXT	Jogue à esquerda de um Mecanoide para fundir os dois!	
+GLOBAL_KEYWORD_MULTICLASS	Multiclasse ({0})	Argument is number of classes the card can be used in (ex: 4)
+GLOBAL_KEYWORD_MULTICLASS_SEARCH_TOKEN	Multiclasse	
+GLOBAL_KEYWORD_MULTICLASS_TEXT	Este card pode ser usado em {0}	Argument is a comma separated list of classes the card can be used in
 GLOBAL_KEYWORD_OFFHAND	Mão Secundária	
 GLOBAL_KEYWORD_OFFHAND_TEXT	Indestrutível. Não encantável.	
 GLOBAL_KEYWORD_OUTCAST	Exilar	
@@ -925,6 +930,10 @@ GLOBAL_KEYWORD_POISONOUS	Venenoso
 GLOBAL_KEYWORD_POISONOUS_TEXT	Destrua qualquer lacaio atingido por este lacaio.	
 GLOBAL_KEYWORD_PRIEST_TOURIST	Turista: Sacerdote	
 GLOBAL_KEYWORD_PRIEST_TOURIST_TEXT	Seu deck pode incluir cards de Sacerdote de Perigos no Paraíso.	
+GLOBAL_KEYWORD_PROTOSS	Protoss	
+GLOBAL_KEYWORD_PROTOSS_MULTI	Protoss (Multi)	
+GLOBAL_KEYWORD_PROTOSS_MULTI_TEXT	Este card é um membro da facção Protoss e pode ser usado em {0} classes.	
+GLOBAL_KEYWORD_PROTOSS_TEXT	Este card é um membro da facção Protoss.	
 GLOBAL_KEYWORD_QUEST	Missão	
 GLOBAL_KEYWORD_QUEST_TEXT	Começa na sua mão. Conclua para ganhar uma recompensa.	
 GLOBAL_KEYWORD_QUESTLINE	Série de Missões	
@@ -1093,6 +1102,10 @@ GLOBAL_KEYWORD_TAUNT_REF_TEXT_Merc	Os inimigos precisam atacar personagens que t
 GLOBAL_KEYWORD_TAUNT_TEXT	Os inimigos precisam atacar este lacaio.	
 GLOBAL_KEYWORD_TEMPORARY	Temporário	
 GLOBAL_KEYWORD_TEMPORARY_TEXT	Descartado no final do seu turno.	
+GLOBAL_KEYWORD_TERRAN	Terrano	
+GLOBAL_KEYWORD_TERRAN_MULTI	Terrano (Multi)	
+GLOBAL_KEYWORD_TERRAN_MULTI_TEXT	Este card é um membro da facção Terrano e pode ser usado em {0} classes.	
+GLOBAL_KEYWORD_TERRAN_TEXT	Este card é um membro da facção Terrano.	
 GLOBAL_KEYWORD_TITAN	Titã	
 GLOBAL_KEYWORD_TITAN_TEXT	Clique num Titã para usar\n1 de 3 habilidades em vez\nde atacar.	
 GLOBAL_KEYWORD_TOOL	Ferramenta	
@@ -1112,6 +1125,10 @@ GLOBAL_KEYWORD_WILD_TEXT	Os cards Livres são cards antigos de Hearthstone que n
 GLOBAL_KEYWORD_WINDFURY	Fúria dos Ventos	
 GLOBAL_KEYWORD_WINDFURY_TEXT	Pode atacar duas vezes por turno.	
 GLOBAL_KEYWORD_WINDFURY_TEXT_MERC	Ataca duas vezes sempre que atacar.	
+GLOBAL_KEYWORD_ZERG	Zerg	
+GLOBAL_KEYWORD_ZERG_MULTI	Zerg (Multi)	
+GLOBAL_KEYWORD_ZERG_MULTI_TEXT	Este card é um membro da facção Zerg e pode ser usado em {0} classes.	
+GLOBAL_KEYWORD_ZERG_TEXT	Este card é um membro da facção Zerg.	
 GLOBAL_LANGUAGE_CHANGE_CONFIRM_MESSAGE	Isto interromperá sua atividade atual. Tem certeza?	
 GLOBAL_LANGUAGE_CHANGE_CONFIRM_TITLE	Mudar idioma?	
 GLOBAL_LANGUAGE_CHANGE_OUT_OF_SPACE_MESSAGE	Você precisa de {0} de espaço livre no dispositivo para continuar.	
@@ -1497,9 +1514,6 @@ GLOBAL_REWARD_ARENA_TICKET_STORE_COUNT_1	1
 GLOBAL_REWARD_ARENA_TICKET_TITLE	Taverna	
 GLOBAL_REWARD_BATTLEGROUNDS_GUIDE_HEADLINE	Bartender dos Campos de Batalha desbloqueado	
 GLOBAL_REWARD_BATTLEGROUNDS_HERO_HEADLINE	Herói dos Campos de Batalha desbloqueado	
-GLOBAL_REWARD_BG_TOKEN_HEADLINE	Ficha dos Campos de Batalha obtidas!	
-GLOBAL_REWARD_BG_TOKEN_SOURCE_IGR	Recompensa por se conectar de uma IGR	
-GLOBAL_REWARD_BG_TOKEN_SOURCE_IGR_DATED	Recebido por se conectar de uma IGR em {0}	0=GLOBAL_CURRENT_DATE
 GLOBAL_REWARD_BONUS_CHALLENGE_HEADLINE	Desafio Final desbloqueado	
 GLOBAL_REWARD_BOOSTER_DETAILS_OUT_OF_BAND	{0} |4(pacote foi adicionado,pacotes foram adicionados) à sua conta de fora do jogo.	0=count
 GLOBAL_REWARD_BOOSTER_DETAILS_PRESALE_OUT_OF_BAND	Sua compra pela web de {0} |4(pacote,pacotes) estará disponível em breve!	0=count
@@ -1707,9 +1721,6 @@ GLOBAL_TWIST_SEASON_DESCRIPTION_124	Não tem Lendários? Relaxa! Forme o melhor 
 GLOBAL_TWIST_SEASON_DESCRIPTION_125	Jogue esses últimos dez anos de Hearthstone! Começando com o Legado, vamos adicionar um conjunto novo todo dia até chegarmos ao Confronto Final nos Ermos.	
 GLOBAL_TWIST_SEASON_DESCRIPTION_128	Entre na ação com um dos Heróis do Rojão, incluindo decks multiclasse pré-construídos, novos Poderes Heroicos e habilidades passivas.	
 GLOBAL_TWIST_SEASON_DESCRIPTION_129	Entre na ação com um dos Heróis do Rojão, incluindo decks multiclasse pré-construídos, novos Poderes Heroicos e habilidades passivas.	
-GLOBAL_TWIST_SEASON_DESCRIPTION_134	Entre nas Cavernas do Tempo e monte um deck usando todas as expansões de Legado até Gangues de Geringontzan.	
-GLOBAL_TWIST_SEASON_DESCRIPTION_135	Desta vez, monte um deck de 30 a 40 cards de Legado até Gangues de Geringontzan, mais Cavernas do Tempo. Todos os jogadores começam com a Vida igual ao tamanho do deck que estão usando!	
-GLOBAL_TWIST_SEASON_DESCRIPTION_136	Viaje até o passado ancestral da era dos dinossauros! Un'Goro voltou com novas atualizações e se juntou aos outros conjuntos no formato Maravilhas.	
 GLOBAL_TWIST_SEASON_TITLE_116	Nova Era	
 GLOBAL_TWIST_SEASON_TITLE_117	Nova Era	
 GLOBAL_TWIST_SEASON_TITLE_119	Maravilhas	
@@ -1719,9 +1730,6 @@ GLOBAL_TWIST_SEASON_TITLE_124	Comuns
 GLOBAL_TWIST_SEASON_TITLE_125	Avanço rápido	
 GLOBAL_TWIST_SEASON_TITLE_128	Heróis do Rojão	
 GLOBAL_TWIST_SEASON_TITLE_129	Heróis do Rojão	
-GLOBAL_TWIST_SEASON_TITLE_134	Maravilhas	
-GLOBAL_TWIST_SEASON_TITLE_135	Maravilhas XL	
-GLOBAL_TWIST_SEASON_TITLE_136	Retorno a Un'Goro	
 GLOBAL_UNINSTALL_MODULE_POPUP_PROMPT	Desinstalar {0}?	{0}=Module name to uninstall (e.g. Battlegrounds)
 GLOBAL_UPDATE	Atualizar	
 GLOBAL_VERSION	Versão	
