@@ -500,6 +500,7 @@ GLUE_SHOP_RUNESTONES_DETAILS_HEADER	Runestones can be exchanged for:
 GLUE_SHOP_GET_MORE_RUNESTONES	You do not have enough Runestones for this purchase. Get more?
 GLUE_SHOP_GET_MORE_RUNESTONES_HEADER	Not enough Runestones!
 GLUE_SHOP_NOT_ENOUGH_RUNESTONES	Not enough Runestones
+GLUE_SHOP_NEED_MORE_RUNESTONES	Need more Runestones!?
 GLUE_SHOP_CONVERT_TO_ARCANE_ORBS_HEADER	Convert Runestones to Arcane Orbs
 GLUE_SHOP_WILD_CARDS_DISCLAIMER	•  Cards received can be used in Wild
 GLUE_SHOP_CLOSED_ALERT_HEADER	Shop Closed
@@ -562,6 +563,11 @@ GLUE_ARENA_RETIRE_POPUP_HEADER	Retire?
 GLUE_ARENA_RETIRE_POPUP_BODY	Are you sure you want to end your current run\nand claim your rewards?
 GLUE_ARENA_RETIRE_POPUP_YES	Yes, Retire
 GLUE_ARENA_RETIRE_POPUP_NO	Ack, No!
+GLUE_ARENA_SEASON_ROLL_HEADER	New Season!
+GLUE_ARENA_SEASON_ROLL_BODY	There's a new season, so your active {0} run has ended, but you still get your rewards!\n\nHere's the {1} you had spent on your previous run!	0 = mode name 1 = ticket(s)
+GLUE_ARENA_SEASON_ROLL_BUTTON	Yay, Thanks!
+GLUE_ARENA_SEASON_ROLL_ARENA	Arena
+GLUE_ARENA_SEASON_ROLL_UG	Underground
 GLUE_ARENA_UPDATE_IGM_HEADER	Updated Arena!
 GLUE_ARENA_UPDATE_IGM_BODY1	All New Arena!
 GLUE_ARENA_UPDATE_IGM_BODY2	The new Arena experience is here! Prove your skill and unlock the Underground.\n\nHere's a ticket so you can try it out, on us!
@@ -584,7 +590,7 @@ GLUE_ARENA_RANK_MOLTEN	Molten
 GLUE_ARENA_RANK_TORMENT	Fel
 GLUE_ARENA_RANK_DRACONIC	Draconic
 GLUE_ARENA_RANK_FROSTBORN	Frostborn
-GLUE_ARENA_RANK_LIGHTFORGED	Lightforged	
+GLUE_ARENA_RANK_LIGHTFORGED	Lightforged
 GLUE_ARENA_REWARDS_TITLE	Arena Rewards
 GLUE_ARENA_REWARDSUG_TITLE	Underground Rewards
 GLUE_ARENA_REWARD_TIER	Current Reward Tier:
@@ -592,8 +598,8 @@ GLUE_ARENA_CURRENT_RUN	Current Run
 GLUE_ARENA_TICKET_COUNT	{0} |4(Ticket,Tickets)	0 = number of available tickets
 GLUE_ARENA_DECK_TITLE	Your Deck
 GLUE_ARENA_RATING_HEADER	Your Rating
-GLUE_ARENA_CROWDS_FAVOR_BANNER	Crowd's Favor 
-GLUE_ARENA_CROWDS_FAVOR_EXPLAINER	Starting at 6 wins, you have a chance to earn the Crowd's Favor-an extra 2000 Gold! Your chance to win over the crowd grows with each victory!
+GLUE_ARENA_CROWDS_FAVOR_BANNER	Crowd's Favor
+GLUE_ARENA_CROWDS_FAVOR_EXPLAINER	Starting at 6 wins, you have a chance to earn the Crowd's Favor-an extra 1000 Gold! Your chance to win over the crowd grows with each victory!
 GLUE_ARENA_REWARDS_EXPLAINER	When you finish your Arena run, you'll get a chest based on how many games you won!
 GLUE_ARENA_SEASON	Season {0}	0 = arena season number
 GLUE_ARENA_TICKETPLAYBUTTON_NORMAL	Ticket
@@ -1030,6 +1036,11 @@ GLUE_TIP_BACON_22	When you upgrade to Tier 2, 4, or 6, an extra minion is added 
 GLUE_TIP_BACON_23	Minions trigger their end of turn effects in order from left to right.
 GLUE_TIP_BACON_24	Tavern spells are cards that can be bought to trigger a one-time effect.
 GLUE_TIP_BACON_25	Unlike minions, Tavern spells cannot be sold or tripled.
+GLUE_TIP_BACON_26	To toggle between Solo and Duos mode, hit the Crown button above your Rating in the main Battlegrounds menu.
+GLUE_TIP_BACON_27	To see the current Turn number, hover over or tap the deck slot on your side of the board.
+GLUE_TIP_BACON_28	To see the minion types in the lobby, hover over or tap the deck slot on the Bartender's side of the board.
+GLUE_TIP_BACON_29	<b>Trinkets</b> are powerful bonuses. Buy a Lesser <b>Trinket</b> on Turn 6, and a Greater <b>Trinket</b> on Turn 9.
+GLUE_TIP_BACON_30	<b>Trinkets</b> cost varying amounts of Gold. Only one of the four offered can be chosen.
 GLUE_TIP_BACON_SOLO_0	With 8 players, being in the Top 4 is a win!\nFirst place gets you the Crown!
 GLUE_TIP_BACON_SOLO_1	Players can take at most 15 damage at once until only the Top 4 players are left in a lobby.
 GLUE_TIP_BACON_DUO_0	Teams share Health, Armor, and damage taken.
@@ -1490,7 +1501,7 @@ GLUE_STORE_PRODUCT_UNLOCKED_OFFER	已解锁
 GLUE_STORE_PURCHASE_LOCK_HEADER	Purchase Error
 GLUE_STORE_PURCHASE_LOCK_DESCRIPTION	Your account has a pending purchase on {0}. Please open Hearthstone on the device where you last tried to make a purchase.\n\nIf the problem persists, please contact Customer Support.	0=one of GLOBAL_STORE_MOBILE_NAME_*
 GLUE_STORE_PACKBUY_SUGGESTION	Recommended
-GLUE_STORE_PACKBUY_BEST_VALUE	Best Value
+GLUE_STORE_PACKBUY_BEST_VALUE	Great Value
 GLUE_STORE_HEROES_PURCHASED	Purchased
 GLUE_MINSPEC_WARNING	This device is below the recommended specification to run Hearthstone and may run slowly.\n\nTap OK to continue or SUPPORT to find out more.
 GLUE_MINSPEC_ERROR	Sorry! Hearthstone cannot run on this device as it does not meet the minimum specifications.\n\nTap SUPPORT to find out more.
@@ -1664,6 +1675,7 @@ GLUE_COLLECTION_MANAGER_MANA_FILTER_PROMPT_HEADER	Mana Filter
 GLUE_COLLECTION_MANAGER_MANA_FILTER_PROMPT_BODY_EVEN_CARDS	Filter your collection to show even-cost cards only?
 GLUE_COLLECTION_MANAGER_MANA_FILTER_PROMPT_BODY_ODD_CARDS	Filter your collection to show odd-cost cards only?
 GLUE_COLLECTION_MANAGER_HELP_ME	Help Me
+GLUE_COLLECTION_MANAGER_IMBUE_WARNING	This class's hero power won't be upgraded by Imbue.
 GLUE_ADVENTURE_LOE_STAFF_NAME	The Staff of Origination
 GLUE_ADVENTURE_LOE_STAFF_DISAPPEARED	Thanks for the staff!\n- Rafaam
 GLUE_ADVENTURE_LOE_STAFF_RESERVED	Reserved for\nThe Staff of Origination
@@ -1893,7 +1905,9 @@ GLUE_HEROIC_BRAWL_REWARDS_WIN_BANNER_TEXT	{0} |4(Win,Wins)!
 GLUE_TAVERN_BRAWL_PRERELEASE_TITLE	<size=40>Pre-Release</size>\nTavern Brawl
 GLUE_TAVERN_BRAWL_PRERELEASE_REWARDS_DESCRIPTION	Compete for new expansion cards!\n6 wins for max prizes. 3 losses and you're out.
 GLUE_TAVERN_BRAWL_PRERELEASE_REWARDS_ENTRANCE_FEE	Entrance costs 2 Tavern Tickets!
+GLUE_TAVERN_BRAWL_PRERELEASE_REWARDS_ENTRANCE_FEE_FREE	Your first run is free!
 GLUE_TAVERN_BRAWL_PRERELEASE_CONTINUE	Spend 2 Tickets!
+GLUE_TAVERN_BRAWL_PRERELEASE_CONTINUE_FREE	Spend 0 Tickets!
 GLUE_TAVERN_BRAWL_PRERELEASE_MIN_WINS	0 wins
 GLUE_TAVERN_BRAWL_PRERELEASE_MAX_WINS	6 wins
 GLUE_TAVERN_BRAWL_PRERELEASE_MAX_LOSSES	3 losses
@@ -2443,6 +2457,7 @@ GLUE_BACON_LOBBY_DRAG_TUTORIAL	Drag party members to arrange them into different
 GLUE_PARTY_MEMBER_NO_NAME	...
 GLUE_SIDEQUEST_PROGRESS_BANNER	Progress: {0}/{1}	0=Current Progress, 1=Completion Requirement
 GLUE_OBJECTIVES_BANNER	{0} |4(Turn,Turns) Left 	0=Turns until the objective destroys itself
+GLUE_OBJECTIVES_BANNER_REFRESH	{0} |4(Refresh,Refreshes) Left 	0=Refreshes until the objective destroys itself
 GLUE_OBJECTIVES_BANNER_UNKNOWN	?? Turns Left
 GLUE_OBJECTIVES_BANNER_SPELL_PLAYED	Spell Played
 GLUE_OBJECTIVES_BANNER_NO_SPELL_PLAYED	No Spell Played
@@ -2769,7 +2784,7 @@ GLUE_PROGRESSION_REWARD_TRACK_PAGE_NUMBER	Page {0} of {1}
 GLUE_PROGRESSION_REWARD_BONUS_GOLD	Bonus!
 GLUE_PROGRESSION_REWARD_TRACK_FREE_LABEL	FREE
 GLUE_PROGRESSION_REWARD_TRACK_PAID_PREMIUM_LABEL	PASS+
-GLUE_PROGRESSION_REWARD_TRACK_LOCKED_LABEL	Releases 02/25
+GLUE_PROGRESSION_REWARD_TRACK_LOCKED_LABEL	Unlocks Feb. 2025
 GLUE_PROGRESSION_REWARD_TRACK_CLAIM_TOOLTIP	Claim your first reward!
 GLUE_PROGRESSION_REWARD_TRACK_BAR_TOOLTIP_TITLE	Reward XP
 GLUE_PROGRESSION_REWARD_TRACK_BAR_TOOLTIP_DESCRIPTION	Play Hearthstone, level up, and earn rewards!
@@ -3431,6 +3446,7 @@ GLUE_DELETE_ACCOUNT	Delete Account
 GLUE_RULES_FOR_PERSONALIZED_SHOP_OFFERS	Rules for personalized shop offer
 GLUE_SEASON_BONUS_REWARD_DISCOVER_HERO_SYMBOL	+
 GLUE_SEASON_BONUS_REWARD_DISCOVER_HERO_NUMBER	2
+GLUE_SHOP_RUNESTONES_EXCLAMATION	Runestones!
 GLUE_SHOP_RUNESTONES	Runestones
 GLUE_SHOP_ARCANE_ORBS	Arcane Orbs
 GLUE_SHOP_GOLD_PURCHASE_WARNING_HEADER	Confirm
@@ -3446,7 +3462,7 @@ GLUE_TOOLTIP_RENOWN_HEADER	Renown
 GLUE_TOOLTIP_RENOWN_DESCRIPTION	Earn Renown by converting excess Mercenary coins.
 GLUE_TOOLTIP_RENOWN_TREASURE_HEADER	Renown Treasures
 GLUE_TOOLTIP_BG_TOKEN_HEADER	Battlegrounds Token
-GLUE_TOOLTIP_BG_TOKEN_DESCRIPTION	Spend battlegrounds tokens to reroll heroes.
+GLUE_TOOLTIP_BG_TOKEN_DESCRIPTION	Spend Battlegrounds Tokens to reroll heroes.
 GLUE_TASK_BOARD_SEARCH_ACTIVE	Active
 GLUE_TASK_BOARD_SEARCH_CLAIMABLE	Claimable
 GLUE_TASK_BOARD_SEARCH_COMPLETED	Completed
@@ -3516,6 +3532,7 @@ GLUE_VCAPTION_CAST_SPELL	Cast Spell
 GLUE_VCAPTION_SUMMON_MINION	Summon Minion
 GLUE_VCAPTION_ATTACK	Attack
 GLUE_VCAPTION_METAMORPHOSIS	Metamorphosis
+GLUE_VCAPTION_TRANSFORMATION	Transformation
 GLUE_ADVENTURE_CHAPTER_TITLE_ROTLK_PROLOGUE	Prologue
 GLUE_ADVENTURE_CHAPTERPAGE_ROTLK_AWAITING_LICENSE	Please wait while Arthas remembers his tale...
 GLUE_LETTUCE_MYTHIC_SUB_BUTTON	Mythic
@@ -3693,3 +3710,74 @@ GLUE_STARTUP_CONNECTING_BNET	Logging into Battle.net	On loading screen we tell t
 GLUE_STARTUP_CONNECTING_HEARTHSTONE	Connecting to Hearthstone	Connecting to the hearthstone game servers
 GLUE_STARTUP_LAUNCHING	Entering the tavern	We are finished starting up and loading into the game
 GLUE_STARTUP_UNKNOWN_STAGE	Getting the Tavern ready	Shown on the loading screen
+GLUE_COLLECTION_MANAGER_PET_TITLE	Pets
+GLUE_PET_XP_AMOUNT	+{0}	{0}=xp
+GLUE_PRTB_BUTTON_PHONE	Pre-Release
+GLUE_TOOLTIP_BUTTON_PRTB_HEADLINE	Pre-release Tavern Brawl
+GLUE_TOOLTIP_BUTTON_PRTB_DESC	Build decks and compete for new expansion cards!
+GLUE_TOOLTIP_BUTTON_LUCKY_DRAW_HEADLINE	Darkmoon Faire Treasures
+GLUE_TOOLTIP_BUTTON_LUCKY_DRAW_DESC	Wondrous wares to be won, while the Faire remains.
+GLUE_LUCKY_DRAW_TITLE	Darkmoon Faire Treasures
+GLUE_LUCKY_DRAW_FTUE_TITLE	How to Play!
+GLUE_LUCKY_DRAW_FTUE_PAGE_1_HEADER	Darkmoon Faire Treasures!
+GLUE_LUCKY_DRAW_FTUE_PAGE_1_WELCOME	Welcome to
+GLUE_LUCKY_DRAW_FTUE_PAGE_1_BODY	A place where prizes, both exciting and exclusive, await you on each and every push of the button.\n\nWe have curated a selection of amazing items, each one rarer and more valuable than the last!
+GLUE_LUCKY_DRAW_FTUE_PAGE_2_HEADER	No Duplicates... No Disappointments
+GLUE_LUCKY_DRAW_FTUE_PAGE_2_BODY	What you see on display is what the Faire has available!\n\nWith each push, both the odds of getting the remaining items and the Runestone cost for the next press increase.\n\nPress the info button for details, probabilities, and disclaimers. 
+GLUE_LUCKY_DRAW_FTUE_PAGE_3_HEADER	First Treasure On Us!
+GLUE_LUCKY_DRAW_FTUE_PAGE_3_BODY	We'd like to get you started in the Darkmoon Faire guaranteeing you one of these amazing treasures... for FREE!
+GLUE_LUCKY_DRAW_FTUE_ODDS	odds
+GLUE_LUCKY_DRAW_FTUE_COST	cost
+GLUE_LUCKY_DRAW_FTUE_PRICE_FREE	FREE!
+GLUE_LUCKY_DRAW_FTUE_PULL_ACTION	Push Me!
+GLUE_LUCKY_DRAW_DISABLED_MESSAGE_COMPLETED	You have cleared out all the Darkmoon Treasures.\nWorry not, the Darkmoon Faire will return again with all new prizes to be won!
+GLUE_LUCKY_DRAW_DISABLED_MESSAGE_EVENT_ENDED	The Darkmoon Faire has ended.\nWorry not, the Darkmoon Faire will return again with all new prizes to be won!
+GLUE_LUCKY_DRAW_ENDING_IN	Ends In:
+GLUE_LUCKY_DRAW_POPUP_INTRODUCING	Introducing...
+GLUE_LUCKY_DRAW_POPUP_LAST_CHANCE	Last Chance...
+GLUE_LUCKY_DRAW_GRACE_START_HEADER	Grace Period Start
+GLUE_LUCKY_DRAW_GRACE_START_BODY	The Darkmoon Faire Treasures event has ended. You have {0} minutes or until you leave the screen to make your final purchases.	0: time remaining in minutes
+GLUE_LUCKY_DRAW_GRACE_END_HEADER	Grace Period End
+GLUE_LUCKY_DRAW_GRACE_END_BODY	The Darkmoon Faire Treasures event has ended. You will now be returned to the box.
+GLUE_LUCKY_DRAW_GO_NOW	Go Now!
+GLUE_LUCKY_DRAW_INFO_TITLE	Darkmoon Faire Treasures
+GLUE_LUCKY_DRAW_INFO_BODY	Tap "More" to learn about Darkmoon Faire Treasures, the percentage rates for each Treasure, and pricing information.
+GLUE_LUCKY_COLLECTED	Collected
+GLUE_LUCKY_DRAW_CLOSED	Closed!
+GLUE_LUCKY_DRAW_SAP_HEADER	Available Now In:
+GLUE_LUCKY_DRAW_SAP_TITLE	Darkmoon Faire\nTreasures
+GLUE_LUCKY_DRAW_SAP_KING	King
+GLUE_LUCKY_DRAW_SAP_KRUSH	Krush
+GLUE_LUCKY_DRAW_VIRTUAL_CURRENCY_MENU_DESCRIPTION	Here are some options for you to keep the fun going! You can choose just enough tickets for your next draw or you can choose to load up and keep the prizes coming!
+GLUE_LUCKY_DRAW_REQUIRED_AMOUNT_SINGLE	Next Pull Requires: {0}
+GLUE_LUCKY_DRAW_REQUIRED_AMOUNT_MANY	Next {0} Pulls Require: {1}
+GLUE_LUCKY_DRAW_PURCHASE_CONFIRMATION_HEADER	Darkmoon Faire Treasures Pull
+GLUE_LUCKY_DRAW_PURCHASE_CONFIRMATION_BODY	Would you like to purchase a pull for Darkmoon Faire Treasures?
+GLUE_LUCKY_DRAW_REWARD_SCROLL_TITLE	Darkmoon Faire Treasure
+GLUE_LUCKY_DRAW_ERROR_HEADER	Darkmoon Faire Treasures Error
+GLUE_LUCKY_DRAW_ERROR_BODY	An unexpected error occured. Please reconnect and try again.
+GLUE_REWARD_SCROLL_GOTO_CM	Manage Collection
+GLUE_REWARD_SCROLL_FAV	Make Favorite
+GLUE_PET_REWARD_LEVELUP	{0} has reached Level {1}	0=Pet name, 1=Level
+GLUE_PET_REWARD_IN_GAME_TITLE	Pet Skin Unlocked!
+GLUE_PETPREVIEW_HEROPOSE	Pet Skins
+GLUE_PETPREVIEW_VICTORY	End Of Match
+GLUE_PETPREVIEW_REACTIONS	Reactions
+GLUE_PETPREVIEW_UNLOCK_DEFAULT	Available as default
+GLUE_PETPREVIEW_UNLOCKMETHOD_LEVEL	Level up to unlock
+GLUE_PETPREVIEW_HEROPOSE_DESCRIPTION	{0} \n\nAdditional skins can be unlocked by leveling up {1} as you play.	{0}=Pet skin description, {1}=Pet skin name
+GLUE_PETPREVIEW_PREVIEW	Preview
+GLUE_PETPREVIEW_REACTIONS_DESCRIPTION	{0} lives on your board where they will cheer you on, reacting to all the highs and lows of combat.\n\nHere are some of {0}'s special interactions with more to discover!	{0}=Pet skin name
+GLUE_PETPREVIEW_REACTIONS_GREETING	Greetings
+GLUE_PETPREVIEW_REACTIONS_WELLPLAYED	Well Played
+GLUE_PETPREVIEW_REACTIONS_HAPPY	Happy
+GLUE_PETPREVIEW_REACTIONS_SAD	Sad
+GLUE_PETPREVIEW_REACTIONS_POKE	Poke
+GLUE_PETPREVIEW_REACTIONS_TREAT	Treat
+GLUE_PETPREVIEW_REACTIONS_TOY	Toy
+GLUE_PETPREVIEW_REACTIONS_LEVELUP	Level-Up
+GLUE_PETPREVIEW_VICTORY_DESCRIPTION	Whether celebrating a big win or enduring a tough defeat, {0} will ensure that your match ends with excitement.\n\n{0} will accompany you in all your matches in both Hearthstone, Battlegrounds, and Arena.	{0}=Pet skin name
+GLUE_PETPREVIEW_UNLOCK_DESCRIPTION	{0}. \n\n{1}.	{0}=Pet description, {1}=Lucky draw name
+GLUE_PETPREVIEW_GOTO_LD	Get Pet
+GLUE_PETPREVIEW_FAVORITE_SKIN	Favorite Skin
+GLUE_PETPREVIEW_FAVORITE_PET	Favorite Pet
