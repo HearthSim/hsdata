@@ -195,6 +195,10 @@ GLUE_COLLECTION_TO_TWIST	Convert to Twist
 GLUE_COLLECTION_ERROR_HEADER	Collection Error!
 GLUE_COLLECTION_SET_FILTER_WILD_SET_HEADER	Wild Cards
 GLUE_COLLECTION_SET_FILTER_WILD_SET_BODY	This will show cards that are not usable in Standard. Are you sure?
+GLUE_COLLECTION_SET_FILTER_TRIAL_CARDS	Trial Cards
+GLUE_COLLECTION_SET_FILTER_TRIAL_CARDS_SET_FILTER_NAME	{0} Exp: {1}	0 = Trial card set name, 1 = Time until expiration
+GLUE_COLLECTION_TRIAL_CARD_TOOLTIP_NAME	Trial Card
+GLUE_COLLECTION_TRIAL_CARD_TOOLTIP_DESCRIPTION	Expires in: {0}	0 = Time until expiration
 GLUE_COLLECTION_DECK_CLIPBOARD_ACCESS_HEADER	Clipboard
 GLUE_COLLECTION_DECK_CLIPBOARD_ACCESS_BODY	For a better deck building experience, Hearthstone will occasionally access <b>your device clipboard</b> for copied decks from external sources. This will also allow you to copy and share your deck with others!
 GLUE_COLLECTION_DECK_HERO_NOT_UNLOCKED	You have a deck in your clipboard, but that Hero is locked.
@@ -259,6 +263,7 @@ GLUE_CRAFTING_DISENCHANT_CONFIRM_DESC	Are you sure? The following decks will be 
 GLUE_CRAFTING_DISENCHANT_CONFIRM2_DESC	Are you sure? Disenchanting this card will leave you with less than the amount you could use in a deck.
 GLUE_CRAFTING_DISENCHANT_CONFIRM3_DESC	Are you sure? Disenchanting this card will also remove the Classic version of it from your collection.
 GLUE_CRAFTING_DISENCHANT_CONFIRM4_DESC	Are you sure? This card was granted for free and is worth a different amount of dust than usual.
+GLUE_CRAFTING_DISENCHANT_CONFIRM_TRIAL	Are you sure? The following decks will eventually be invalidated after current trial cards are gone:
 GLUE_CRAFTING_CREATE	Create
 GLUE_CRAFTING_CREATE_UPGRADE	Create/\nUpgrade
 GLUE_CRAFTING_UPGRADE	Upgrade
@@ -295,6 +300,10 @@ GLUE_CRAFTING_WILD_CARD_INTRO_DESC	In the Wild format, you can use any card ever
 GLUE_CRAFTING_EVENT_NOT_ACTIVE_TITLE	Not Yet Released
 GLUE_CRAFTING_EVENT_NOT_ACTIVE_DESCRIPTION	{0} cards cannot be crafted or disenchanted yet.
 GLUE_CRAFTING_TITLE	Card Crafting
+GLUE_TRIAL_CARD_INFO_PANEL_DESC	{0} Trial Cards\nSome copies of this card are temporary.\nExpires in {1}.	0=Name of trial card set, 1=expiration date
+GLUE_TRIAL_CARD_MORE_INFO_POPUP_DESC	Trial card copies expire in {0}	0=Expiration date
+GLUE_TRIAL_DE_WARNING	Trial Cards cannot be disenchanted.\nYour non-Trial copies will be disenchanted instead.\nAre you sure you want to continue?
+GLUE_TRIAL_DE_WARNING_INCOMPLETE_PLAYSET	You are about to disenchant a non-Trial card, and this will leave you with less than the amount you could use in a deck. Are you sure you want to continue?
 GLUE_DECK_TRAY_COUNT	{0}/{1}
 GLUE_DECK_TRAY_CARD_COUNT_LABEL	Cards
 GLUE_DECK_TRAY_DECK_COUNT_LABEL	Decks
@@ -312,6 +321,7 @@ GLUE_STORE_AUTH_FAIL_HEADLINE	Purchase Failed
 GLUE_STORE_AUTH_ZERO_COST_WAITING	Opening the Necropolis for the first time
 GLUE_STORE_AUTH_ZERO_COST_SUCCESS_HEADLINE	Access Granted!
 GLUE_STORE_AUTH_ZERO_COST_FAIL_HEADLINE	Access Denied
+GLUE_STORE_CHAIN_OFFER_REQUIRED_PRODUCTS	This bundle becomes available after getting: {0}	0=List of products formatted in a bulleted list
 GLUE_COLLECTION_SPINNER_WAITING	Checking Name...
 GLUE_COLLECTION_SPINNER_SUCCESS_HEADLINE	Name Check Successful!
 GLUE_COLLECTION_SPINNER_FAIL_HEADLINE	Name Check Failed!
@@ -506,6 +516,7 @@ GLUE_SHOP_CONVERT_TO_ARCANE_ORBS_HEADER	Convert Runestones to Arcane Orbs
 GLUE_SHOP_WILD_CARDS_DISCLAIMER	•  Cards received can be used in Wild
 GLUE_SHOP_CLOSED_ALERT_HEADER	Shop Closed
 GLUE_SHOP_CLOSED_ALERT_TEXT	The shop is temporarily closed, please check back later!
+GLUE_SELLABLE_DECK_DESCRIPTION	From these available Ladder Ready Decks
 GLUE_CHECKOUT_ERROR_INSUFFICIENT_FUNDS	You do not have enough funds to complete this purchase.
 GLUE_CHECKOUT_ERROR_PRODUCT_UNAVAILABLE	This product is not currently available.
 GLUE_CHECKOUT_ERROR_GENERIC_FAILURE	Oops! Something went wrong. Please try again later.
@@ -682,7 +693,7 @@ GLUE_TOOLTIP_TAVERN_TICKET_HEADER	Tavern Ticket
 GLUE_TOOLTIP_TAVERN_TICKET_DESCRIPTION	Used to play in special game modes such as Arena and Tavern Brawl!
 GLUE_TOOLTIP_BOOSTER_CURRENCY_HEADER	Arcane Orbs
 GLUE_TOOLTIP_GOLD_HEADER	Gold
-GLUE_TOOLTIP_GOLD_DESCRIPTION	Spend gold to buy Packs or enter The Arena.
+GLUE_TOOLTIP_GOLD_DESCRIPTION	Spend gold to buy Packs or Tavern Tickets for Arena.
 GLUE_TOOLTIP_RANKED_BUTTON	See how you stack up against other players!
 GLUE_TOOLTIP_GOLDEN_WINS_HEADER	Total Wins
 GLUE_TOOLTIP_GOLDEN_WINS_DESC	Win 500 games in Ranked or Arena with this class to earn its Golden classic hero!
@@ -1038,12 +1049,12 @@ GLUE_TIP_BACON_23	Minions trigger their end of turn effects in order from left t
 GLUE_TIP_BACON_24	Tavern spells are cards that can be bought to trigger a one-time effect.
 GLUE_TIP_BACON_25	Unlike minions, Tavern spells cannot be sold or tripled.
 GLUE_TIP_BACON_26	To toggle between Solo and Duos mode, hit the Crown button above your Rating in the main Battlegrounds menu.
-GLUE_TIP_BACON_27	To see the current Turn number, hover over or tap the deck slot on your side of the board.
-GLUE_TIP_BACON_28	To see the minion types in the lobby, hover over or tap the deck slot on the Bartender's side of the board.
-GLUE_TIP_BACON_29	Choose a <b>Quest</b> on Turn 4 and complete it for a game-changing Reward!
-GLUE_TIP_BACON_30	<b>Quest</b> difficulty may vary depending on your chosen Reward or the hero you're playing as.
+GLUE_TIP_BACON_28	To see which cards are in the pool during a Battlegrounds game, check your Guide in the lower right corner.
+GLUE_TIP_BACON_29	<b>Buddies</b> are powerful minions unique to each Hero Power.
+GLUE_TIP_BACON_30	The higher a <b>Buddy's</b> Tier, the more Gold it costs to get.
 GLUE_TIP_BACON_SOLO_0	With 8 players, being in the Top 4 is a win!\nFirst place gets you the Crown!
 GLUE_TIP_BACON_SOLO_1	Players can take at most 15 damage at once until only the Top 4 players are left in a lobby.
+GLUE_TIP_BACON_SOLO_2	To see the current Turn number, hover over or tap the deck slot on your side of the board.
 GLUE_TIP_BACON_DUO_0	Teams share Health, Armor, and damage taken.
 GLUE_TIP_BACON_DUO_1	Individual players manage their own Gold, warbands, and Tavern Tiers.
 GLUE_TIP_BACON_DUO_2	You can use the Portal to see what your teammate is up to, or <b>Pass </b> them a card.
@@ -1052,6 +1063,7 @@ GLUE_TIP_BACON_DUO_4	You can Ping cards or buttons to communicate with your team
 GLUE_TIP_BACON_DUO_5	Both teammates enter each combat. The upper hero of the team's joint leaderboard portraits fights first.
 GLUE_TIP_BACON_DUO_6	If you defeat both opposing warbands and have a minion remaining, up to 6 of your teammate's minions can spawn in to deal bonus damage.
 GLUE_TIP_BACON_DUO_7	You can queue by yourself and be paired with a stranger of similar rating; or invite someone from your Friends List to queue as a party.
+GLUE_TIP_BACON_DUO_8	To see the current Turn number, hover over or tap the deck slot on the Bartender's side of the board.
 GLUE_TIP_LETTUCE_0	Using <b>Critical Damage</b> is the key to victory!
 GLUE_TIP_LETTUCE_1	Your Mercs will always act before enemies of the same Speed during Bounty encounters.
 GLUE_TIP_LETTUCE_2	Ability cooldowns decrease even while on the Bench.
@@ -2547,7 +2559,7 @@ GLUE_FREE_DECK_DESC	Jump in and play with your new deck!
 GLUE_FREE_DECK_CONFIRMATION_HEADER	Confirm Your Choice
 GLUE_FREE_DECK_CONFIRMATION_TEXT	Choose this {0} Deck?
 GLUE_FREE_DECK_CONFIRMATION_HEADER_BYPASS_TIMER	End Trial Period?
-GLUE_FREE_DECK_CONFIRMATION_TEXT_BYPASS_TIMER	Are you sure you want to claim the {0} deck early? You will <color=#ff3f3f>lose access</color> to other ladder ready decks!
+GLUE_FREE_DECK_CONFIRMATION_TEXT_BYPASS_TIMER	Are you sure you want to claim the {0} deck early? You can purchase the other decks in the Shop!
 GLUE_FREE_DECK_ERROR_HEADER	Free Deck Error
 GLUE_FREE_DECK_ERROR_TEXT	We encountered an error attempting to redeem your free deck. Please log out and back in to try again.
 GLUE_SELLABLE_DECK_TITLE	Congratulations!
@@ -3507,8 +3519,8 @@ GLUE_LOANER_DECK_DESCRIPTION	Try out these decks and choose one to keep.
 GLUE_LOANER_DECK_INFO	Deck Info
 GLUE_LOANER_DECK_ENDS	Ends in
 GLUE_LOANER_DECK_ENDS_CAPS	ENDS IN
-GLUE_LOANER_DECK_TIME_REACHED	Ladder ready deck time limit has been reached.
-GLUE_LOANER_DECK_CHOOSE_DECK	Choose your free deck now!
+GLUE_LOANER_DECK_TIME_REACHED	The ladder ready deck trial period is over. Choose your free deck now! 
+GLUE_LOANER_DECK_CHOOSE_DECK	The other decks can be purchased in the Shop.
 GLUE_LOANER_DECK_SEE_DECKS	See Decks
 GLUE_LOANER_DECK_CLAIM	CLAIM
 GLUE_LOANER_DECK_CLAIM_CONFIRM	\nYou can only claim 1 free deck!
@@ -3516,6 +3528,12 @@ GLUE_LOANER_DECK_PAGE_COUNTER_1	Page 1 of 2
 GLUE_LOANER_DECK_PAGE_COUNTER_2	Page 2 of 2
 GLUE_LOANER_DECK_FTUE_INFO_BUTTON	Learn more or claim a deck early!
 GLUE_LOANER_DECK_FTUE_PAGINATION	Check out more decks on the next page!
+GLUE_TRIAL_IGM_THANKS	Let's Play!
+GLUE_TRIAL_IGM_TITLE	{0} Trial Cards	0 = name of trial card set
+GLUE_TRIAL_IGM_ACTIVEBODY	{0} have been temporarily added to your collection!\nLet's play Ranked!	0= name of trial set
+GLUE_TRIAL_IGM_ACTIVEEXPIRES	Expires In
+GLUE_TRIAL_IGM_EXPIREBODY	Your {0} cards have expired and are no longer in your collection.	0= name of trial set
+GLUE_TRIAL_IGM_EXPIRED	Expired
 GLUE_LETTUCE_RENOWN_COIN_OFFER_DETAILS_TITLE	Renown for {0} coins	0=mercenary name
 GLUE_LETTUCE_RENOWN_PROFILE_OFFER_DETAILS_TITLE	Renown for {0} profile	0=mercenary name
 GLUE_LETTUCE_RENOWN_OFFER_RARE_CONVERSION_RATE	{0} Excess Rare Coin = 1 Renown	0=mercenary coin amount
@@ -3527,10 +3545,10 @@ GLUE_SHOP_PATH_OF_ARTHAS_FROST	Blast with the chill of Frost
 GLUE_SHOP_PATH_OF_ARTHAS_UNHOLY	Raise the dead with Unholy fervor
 GLUE_SHOP_CARD_INCLUDED_TITLE	Uncraftable
 GLUE_SHOP_CARD_INCLUDED_FREE	Granted through other means. Can't be disenchanted or crafted.
-GLUE_VCAPTION_COME_INTO_PLAY	Come Into Play
+GLUE_VCAPTION_COME_INTO_PLAY	Intro
 GLUE_VCAPTION_TAKE_DAMAGE	Take Damage
 GLUE_VCAPTION_CAST_SPELL	Cast Spell
-GLUE_VCAPTION_SUMMON_MINION	Summon Minion
+GLUE_VCAPTION_SUMMON_MINION	Summon
 GLUE_VCAPTION_ATTACK	Attack
 GLUE_VCAPTION_METAMORPHOSIS	Metamorphosis
 GLUE_VCAPTION_TRANSFORMATION	Transformation
@@ -3749,10 +3767,11 @@ GLUE_LUCKY_DRAW_SAP_HEADER	Available Now In:
 GLUE_LUCKY_DRAW_SAP_TITLE	Darkmoon Faire\nTreasures
 GLUE_LUCKY_DRAW_SAP_KING	King
 GLUE_LUCKY_DRAW_SAP_KRUSH	Krush
-GLUE_LUCKY_DRAW_SAP_MYTHIC_SKIN	Mythic Skin
+GLUE_LUCKY_DRAW_SAP_MYTHIC_SKIN	New Mythic Skin
 GLUE_LUCKY_DRAW_SAP_YOGG_SARON	Yogg Saron
 GLUE_LUCKY_DRAW_SAP_NEW_PET	New Pet
 GLUE_LUCKY_DRAW_SAP_RABBITATH	Rabbit'ath
+GLUE_LUCKY_DRAW_SAP_ALEXSTRAZA	Empress Alexstraza
 GLUE_LUCKY_DRAW_VIRTUAL_CURRENCY_MENU_DESCRIPTION	Here are some options for you to keep the fun going! You can choose just enough tickets for your next draw or you can choose to load up and keep the prizes coming!
 GLUE_LUCKY_DRAW_REQUIRED_AMOUNT_SINGLE	Next Pull Requires: {0}
 GLUE_LUCKY_DRAW_REQUIRED_AMOUNT_MANY	Next {0} Pulls Require: {1}
@@ -3767,7 +3786,7 @@ GLUE_REWARD_SCROLL_FAV	Make Favorite
 GLUE_PET_REWARD_LEVELUP	{0} has reached Level {1}	0=Pet name, 1=Level
 GLUE_PET_REWARD_IN_GAME_TITLE	Pet Skin Unlocked!
 GLUE_PETPREVIEW_HEROPOSE	Pet Skins
-GLUE_PETPREVIEW_VICTORY	End Of Match
+GLUE_PETPREVIEW_VICTORY	End of Match
 GLUE_PETPREVIEW_REACTIONS	Reactions
 GLUE_PETPREVIEW_UNLOCK_DEFAULT	Available as default
 GLUE_PETPREVIEW_UNLOCKMETHOD_LEVEL	Level up to unlock
@@ -3782,8 +3801,16 @@ GLUE_PETPREVIEW_REACTIONS_POKE	Poke
 GLUE_PETPREVIEW_REACTIONS_TREAT	Treat
 GLUE_PETPREVIEW_REACTIONS_TOY	Toy
 GLUE_PETPREVIEW_REACTIONS_LEVELUP	Level-Up
-GLUE_PETPREVIEW_VICTORY_DESCRIPTION	Whether celebrating a big win or enduring a tough defeat, {0} will ensure that your match ends with excitement.\n\n{0} will accompany you in all your matches in both Hearthstone, Battlegrounds, and Arena.	{0}=Pet skin name
+GLUE_PETPREVIEW_VICTORY_DESCRIPTION	Whether celebrating a big win or enduring a tough defeat, {0} will ensure that your match ends with excitement.\n\n{0} will accompany you in all your matches in Hearthstone, Battlegrounds, and Arena.	{0}=Pet skin name
 GLUE_PETPREVIEW_UNLOCK_DESCRIPTION	{0}. \n\n{1}.	{0}=Pet description, {1}=Lucky draw name
 GLUE_PETPREVIEW_GOTO_LD	Get Pet
 GLUE_PETPREVIEW_FAVORITE_SKIN	Favorite Skin
 GLUE_PETPREVIEW_FAVORITE_PET	Favorite Pet
+GLUE_HEROPREVIEW_HEROPOSE	Hero Pose
+GLUE_HEROPREVIEW_ACTION	Animations
+GLUE_HEROPREVIEW_EMOTE	Emotes
+GLUE_HEROPREVIEW_ACTION_DESCRIPTION	{0} in Action\n\nFrom the start of the match to victory or defeat, {0} has unique animations and visual effects for all the major moments of combat.	{0}=Hero name
+GLUE_HEROPREVIEW_EMOTE_DESCRIPTION	{0}'s Voice\n\nGreet or taunt your foe as only {0} could with unique lines for each of the six emotes.	{0}=Hero name
+GLUE_LADDER_READY_DISCLAIMER_FREE	Returning players who have been away for 90 or more days are eligible for a free deck just for logging in. Returning players can claim these returning decks each time they are eligible. New players are eligible for their free deck after completing the tutorial and Apprentice Track.
+GLUE_LADDER_READY_DISCLAIMER_CHOOSE	This product is available for purchase after returning players—those who have been away for 90 days or more—claim their free deck.
+GLUE_LADDER_READY_DISCLAIMER_ATCOST	This product is available for purchase after returning players—those who have been away for 90 days or more—purchase the first deck for a discount.
