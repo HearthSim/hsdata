@@ -1558,6 +1558,7 @@ GLUE_LOADINGSCREEN_RESUME	Download is paused.	Resume?
 GLUE_LOADINGSCREEN_UPDATE_WIFI_WARNING	No Wi-Fi connection. Do you wish to download over cellular?
 GLUE_LOADINGSCREEN_ERROR_NEEDS_DATA	When your Wi-Fi connection is ready, let’s try to get that data again.
 GLUE_LOADINGSCREEN_ERROR_CHECK_SETTINGS	No internet connection available. Please check your network settings.
+GLUE_LOADINGSCREEN_ERROR_NEED_TO_REPAIR	Repair needed. Please restart Hearthstone.
 GLUE_LOADINGSCREEN_BUTTON_CELLULAR	Use Cellular
 GLUE_LOADINGSCREEN_BUTTON_WAIT	Wait for Wi-Fi
 GLUE_LOADINGSCREEN_BUTTON_RETRY	Retry
@@ -1847,6 +1848,7 @@ GLUE_GENERIC_RANDOM_LEGENDARY_SCROLL_TITLE	It's a Legendary Card!
 GLUE_GENERIC_RANDOM_EPIC_SCROLL_TITLE	It's an Epic Card!
 GLUE_GENERIC_RANDOM_RARE_SCROLL_TITLE	It's a Rare Card!
 GLUE_GENERIC_RANDOM_CARD_SCROLL_TITLE	It's a Card!
+GLUE_GENERIC_RANDOM_COIN_SCROLL_TITLE	It's a Coin!
 GLUE_GENERIC_RANDOM_CARD_SCROLL_DESC	Your bundle contained {0}!	This is meant to replace the above welcome bundle strings until we have the tech to show custom strings per reward.
 GLUE_GENERIC_SPECIFIC_CARD_SCROLL_DESC	Find it in your Card Collection!
 GLUE_INKEEPER_RANDOM_CARD_DECK_RECIPE_ROGUE	Lookit that! A Rogue Legendary! It's in the Classic recipe. Try building the deck!
@@ -2976,7 +2978,7 @@ GLUE_STORE_BATTLEGROUNDS_PASS_FLAVOR_TEXT	<b>Unlock all items up to your current
 GLUE_STORE_BATTLEGROUNDS_PASS_PREPURCHASE_FLAVOR_TEXT	<b>This pass is available in January!</b>
 GLUE_STORE_TAVERN_PASS_FLAVOR_TEXT_CHINA_DISCLAIMER	<b>Earn all items up to your current Rewards Track level! Due to game time protection for minors, underage users might be unable to obtain all quest rewards.</b>
 GLUE_STORE_BATTLEGROUNDS_PASS_FLAVOR_TEXT_CHINA_DISCLAIMER	<b>Earn all items up to your current Battlegrounds Track level! Due to game time protection for minors, underage users might be unable to obtain all quest rewards.</b>
-GLUE_PRIVACY_POLICY_EULA_TEXT	欢迎来到《炉石传说》\n\n为了给您提供更优质的《炉石传说》游戏服务，《炉石传说》将会使用您的部分信息，请在使用前仔细阅读并同意《炉石传说》相关《网易暴雪游戏服务隐私政策  》及《暴雪战网最终用户许可协议  》。若选择不同意，您将无法开启我们的游戏。\n\n请您特别关注以下条款：\n\n争端解决和适用法律。\nA. 争端对各方而言都是昂贵而耗时的。为缩短解决时间并降低解决成本，对于任何针对本协议的争端、争议或索赔（统称 “争端” ），您和运营方同意尽量通过协商方式解决。\nB. 有约束力的仲裁。如果各方无法通过协商解决争端（但下文明确列出的例外争端除外），您和运营方同意通过仲裁处理。各方同意提交中国国际经济贸易仲裁委员会（简称 “CIETAC” ）根据CIETAC有效的仲裁规则以及适用法律在中国北京进行仲裁。仲裁裁决是终局的，对各方均有约束力。您的仲裁费用及您应分担的仲裁赔偿应由您个人自行承担。\nC. 限制。您和运营方同意任何仲裁仅限应用于运营方同您个人之间的争端。您认可并同意（a）任何仲裁均不牵涉其他人；（b）没有任何权利或授权进行共同仲裁或使用共同仲裁的程序；并且（c）没有任何权利或授权允许代表公众或者其他人的假设的代理人提起争端。\nD. 协商与仲裁的例外。您和运营方同意下列争端将不受上述协商及约束仲裁条款约束：（a）任何试图执行或者保护运营方或暴雪知识产权或与知识产权的有效性相关的争端；（b）任何有关偷窃、盗版或未经运营方或暴雪授权使用的争端，或由这些情况引起的争端；及（c）要求解除法院颁发的禁止令。您和运营方同意将此类争端交由运营方所在地有管辖权的人民法院裁决。\nE. 适用法律。除非明确另作说明，本协议应适用中华人民共和国法律，且不适用法律选择原则。《联合国国际货物销售合同公约》被明确排除适用于本协议。
+GLUE_PRIVACY_POLICY_EULA_TEXT	欢迎来到《炉石传说》\n\n为了给您提供更优质的《炉石传说》游戏服务，《炉石传说》将会使用您的部分信息，请在使用前仔细阅读并同意《炉石传说》相关《网易暴雪游戏服务隐私政策》及《暴雪战网最终用户许可协议》，其中限制或免除责任的条款以及其他涉及用户重大权益的条款（如违约处罚、争议管辖等）将会以加粗形式提示您重点注意。若选择不同意，您将无法开启我们的游戏。\n\n请您特别关注以下条款：\n\n争端解决和适用法律。\nA. 争端对各方而言都是昂贵而耗时的。为缩短解决时间并降低解决成本，对于任何针对本协议的争端、争议或索赔（统称 “争端” ），您和运营方同意尽量通过协商方式解决。\nB. 本协议订立于广州市天河区。如双方就本协议的内容或其执行发生任何争议（包括但不限于合同或者其他财产性权益纠纷），友好协商不成时，双方同意交由该协议订立地有管辖权的法院管辖并处理 。\nC. 适用法律。除非明确另作说明，本协议应适用中华人民共和国法律，且不适用法律选择原则。《联合国国际货物销售合同公约》被明确排除适用于本协议。
 GLUE_PRIVACY_POLICY_EULA_REJECT	不同意
 GLUE_PRIVACY_POLICY_EULA_CONFIRM	同意并进入
 GLUE_PRIVACY_POLICY_EULA_TITLE	请阅读以下内容
@@ -3467,6 +3469,8 @@ GLUE_SEASON_BONUS_REWARD_DISCOVER_HERO_NUMBER	2
 GLUE_SHOP_RUNESTONES_EXCLAMATION	Runestones!
 GLUE_SHOP_RUNESTONES	Runestones
 GLUE_SHOP_ARCANE_ORBS	Arcane Orbs
+GLUE_SHOP_GOLD	Gold
+GLUE_SHOP_FREE	FREE
 GLUE_SHOP_GOLD_PURCHASE_WARNING_HEADER	Confirm
 GLUE_SHOP_GOLD_PURCHASE_WARNING	Are you sure you want to buy {0}? You can't undo it once you confirm.
 GLUE_SHOP_RUNESTONES_PURCHASE_WARNING_HEADER	Confirm
@@ -3765,7 +3769,7 @@ GLUE_LUCKY_DRAW_GRACE_END_HEADER	Grace Period End
 GLUE_LUCKY_DRAW_GRACE_END_BODY	The Darkmoon Faire Treasures event has ended. You will now be returned to the box.
 GLUE_LUCKY_DRAW_GO_NOW	Go Now!
 GLUE_LUCKY_DRAW_INFO_TITLE	Darkmoon Faire Treasures
-GLUE_LUCKY_DRAW_INFO_BODY	Tap "More" to learn about Darkmoon Faire Treasures, the percentage rates for each Treasure, and pricing information.
+GLUE_LUCKY_DRAW_INFO_BODY	Tap "More Info" to learn about Darkmoon Faire Treasures, the percentage rates for each Treasure, and pricing information.
 GLUE_LUCKY_COLLECTED	Collected
 GLUE_LUCKY_DRAW_CLOSED	Closed!
 GLUE_LUCKY_DRAW_SAP_HEADER	Available Now In:
@@ -3780,6 +3784,8 @@ GLUE_LUCKY_DRAW_SAP_ALEXSTRAZA	Empress Alexstraza
 GLUE_LUCKY_DRAW_SAP_ARFUS	Arfus
 GLUE_LUCKY_DRAW_SAP_TURALYON	Turalyon
 GLUE_LUCKY_DRAW_SAP_YSERA	Ysera
+GLUE_LUCKY_DRAW_SAP_HOGGER	Hogger
+GLUE_LUCKY_DRAW_SAP_VARIAN	Varian
 GLUE_LUCKY_DRAW_VIRTUAL_CURRENCY_MENU_DESCRIPTION	Here are some options for you to keep the fun going! You can choose just enough tickets for your next draw or you can choose to load up and keep the prizes coming!
 GLUE_LUCKY_DRAW_REQUIRED_AMOUNT_SINGLE	Next Pull Requires: {0}
 GLUE_LUCKY_DRAW_REQUIRED_AMOUNT_MANY	Next {0} Pulls Require: {1}
@@ -3789,6 +3795,18 @@ GLUE_LUCKY_DRAW_REWARD_SCROLL_TITLE	Darkmoon Faire Treasure
 GLUE_LUCKY_DRAW_ERROR_HEADER	Darkmoon Faire Treasures Error
 GLUE_LUCKY_DRAW_ERROR_BODY	An unexpected error occured. Please reconnect and try again.
 GLUE_LUCKY_DRAW_CM_DEEPLINK_BUTTON_TEXT	Get Skin
+GLUE_LUCKY_DRAW_LEGAL_POPUP_DIALOG_HEADER	Darkmoon Faire Treasures
+GLUE_LUCKY_DRAW_LEGAL_POPUP_BODY_CONTINUE	<b>Continue to the next page for Odds and beyond for Pricing.</b>
+GLUE_LUCKY_DRAW_LEGAL_POPUP_BODY_MORE_INFO	Tap "More Info" for a complete description of the Rules of Darkmoon Faire Treasures.
+GLUE_LUCKY_DRAW_LEGAL_POPUP_BODY_PAGE_1	Welcome to Darkmoon Faire Treasures, a premium system wherein you spend Runestones to randomly receive one of the featured Treasures.\n\nThere are no duplicates or substitutions, so you will only receive one of the displayed Treasures and you cannot receive the same Treasure twice;\nyou will obtain all Treasures within 10 pulls.\n\nEach time you spend to make a pull and are rewarded with a Treasure, the chance for each remaining Treasure goes up proportionally and the cost of the next pull increases.
+GLUE_LUCKY_DRAW_LEGAL_POPUP_REWARD_WON	PULLED
+GLUE_LUCKY_DRAW_LEGAL_POPUP_PULL	Pull
+GLUE_LUCKY_DRAW_LEGAL_POPUP_CURRENCY	Cost in {0}
+GLUE_LUCKY_DRAW_LEGAL_POPUP_REAL_MONEY	{0} Equivalent*
+GLUE_LUCKY_DRAW_LEGAL_POPUP_TOTAL	Total
+GLUE_LUCKY_DRAW_LEGAL_POPUP_PRICING_DETAIL	* Based on most expensive Runestone price-per-unit available in shop,\ndisregarding any quantity discounts and other promotional offers.
+GLUE_LUCKY_DRAW_LEGAL_POPUP_BUTTON_MORE_INFO	More Info
+GLUE_LUCKY_DRAW_LEGAL_POPUP_PAGE_NUMBER	Page {0}/{1}
 GLUE_REWARD_SCROLL_GOTO_CM	Manage Collection
 GLUE_REWARD_SCROLL_FAV	Make Favorite
 GLUE_PET_REWARD_LEVELUP	{0} has reached Level {1}	0=Pet name, 1=Level
@@ -3822,3 +3840,6 @@ GLUE_HEROPREVIEW_EMOTE_DESCRIPTION	{0}'s Voice\n\nGreet or taunt your foe as onl
 GLUE_LADDER_READY_DISCLAIMER_FREE	Returning players who have been away for 90 or more days are eligible for a free deck just for logging in. Returning players can claim these returning decks each time they are eligible. New players are eligible for their free deck after completing the tutorial and Apprentice Track.
 GLUE_LADDER_READY_DISCLAIMER_CHOOSE	This product is available for purchase after returning players—those who have been away for 90 days or more—claim their free deck.
 GLUE_LADDER_READY_DISCLAIMER_ATCOST	This product is available for purchase after returning players—those who have been away for 90 days or more—purchase the first deck for a discount.
+GLUE_STORE_RANDOM_ARCHETYPE_COLOSSAL	Colossal
+GLUE_STORE_RANDOM_ARCHETYPE_COLOSSAL_DESCRIPTION	Whenever a Colossal minion appears on the board, a number of additional minions, as stated on the Colossal, are summoned to either side of it. If the Colossal has a premium quality, these additional minions share it.
+GLUE_LUCKY_COMPLETED	Complete!
