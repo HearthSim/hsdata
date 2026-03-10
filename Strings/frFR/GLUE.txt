@@ -244,7 +244,7 @@ GLUE_ARENA_FTUE_RETURNING_TITLE	Quoi de neuf dans l’Arène
 GLUE_ARENA_FTUE_SLIDE1	L’Arène est un mode de création de decks\npour Hearthstone. Pour le prix d’une admission,\nnous vous fournissons les cartes.\nLe défi est de créer le meilleur deck possible !	
 GLUE_ARENA_FTUE_SLIDE2	Pour créer votre deck, vous devrez choisir à chaque fois parmi 3 cartes.\nVous commencez par choisir votre classe,\npuis vous constituez votre deck une carte à la fois.	
 GLUE_ARENA_FTUE_SLIDE3	Obtenez autant de victoires que vous le pouvez,\nmais votre série se terminera au bout de 2 défaites.\nPlus vous remportez de victoires, meilleures sont les récompenses à la fin !	
-GLUE_ARENA_FTUE_SLIDE4	Des séries plus longues offrent plus de risques, mais aussi de meilleures récompenses,\nainsi que l’occasion de perfectionner votre deck !\nL’Arène souterraine attend les plus téméraires !	
+GLUE_ARENA_FTUE_SLIDE4	Des séries plus longues offrent plus de risques, mais aussi de meilleures récompenses, ainsi que l’occasion de perfectionner votre deck !\nL’Arène souterraine attend les plus téméraires !	
 GLUE_ARENA_KEEPEDITING_BUTTON	Continuer l’édition	
 GLUE_ARENA_LABEL_SEASON_ENDING_DAYS	L’évènement finit dans {0} |4(jour,jours)	
 GLUE_ARENA_LABEL_SEASON_ENDING_HOURS	L’évènement finit dans {0} |4(heure,heures)	
@@ -825,6 +825,9 @@ GLUE_COLLECTION_DECK_INVALID_LOANER_DECK_TOOLTIP_BODY	Ce deck n’est pas utilis
 GLUE_COLLECTION_DECK_INVALID_LOANER_DECK_TOOLTIP_HEADER	Deck invalide	
 GLUE_COLLECTION_DECK_INVALID_POPUP_HEADER	Deck invalide	
 GLUE_COLLECTION_DECK_INVALID_SIDEBOARD_POPUP_TEXT	|4(Une carte de votre deck secondaire n’est pas valide,Plusieurs cartes de votre deck secondaire ne sont pas valides). \nVoulez-vous modifier votre deck ?	
+GLUE_COLLECTION_DECK_MINION_COST_TOOLTIP_BODY	Le coût total des serviteurs de votre deck doit atteindre exactement 100 pour activer l’effet de Vyranoth.	
+GLUE_COLLECTION_DECK_MINION_COST_TOOLTIP_FTUE	Consultez ici le coût total des serviteurs de votre deck.	
+GLUE_COLLECTION_DECK_MINION_COST_TOOLTIP_HEADER	Coût total des serviteurs	
 GLUE_COLLECTION_DECK_MISSING_CARDS_INDICATOR	{0}/{1}	
 GLUE_COLLECTION_DECK_MISSING_CARDS_LABEL	|4(Carte manquante,Cartes manquantes)	
 GLUE_COLLECTION_DECK_OVERWRITE_BODY	Voulez-vous remplacer votre deck actuel par celui dans le presse-papier_?	
@@ -889,6 +892,8 @@ GLUE_COLLECTION_INCOMPLETE_SIDEBOARD_HEADER	Deck secondaire incomplet
 GLUE_COLLECTION_INCOMPLETE_ZILLIAX_DESCRIPTION	Ce deck contient un Zilliax incomplet. Voulez-vous vraiment terminer la modification ?	
 GLUE_COLLECTION_INCOMPLETE_ZILLIAX_HEADER	Zilliax incomplet	
 GLUE_COLLECTION_INCOMPLETE_ZILLIAX_SAVE_WARNING_DESCRIPTION	Ce deck secondaire nécessite plus de composants. Voulez-vous vraiment terminer la modification ?	
+GLUE_COLLECTION_INCORRECT_TRACKED_DECK_REQUIREMENT_DESCRIPTION	Ce deck ne déclenche pas l’effet de {0}. Voulez-vous vraiment terminer la modification ?	
+GLUE_COLLECTION_INCORRECT_TRACKED_DECK_REQUIREMENT_HEADER	Coût total des serviteurs : {0}	
 GLUE_COLLECTION_INVALID_SIDEBOARD_CARDS_DESCRIPTION	Ce deck secondaire contient des cartes non valides.	
 GLUE_COLLECTION_INVALID_SIDEBOARD_CARDS_HEADER	Deck secondaire non valide	
 GLUE_COLLECTION_LETTUCE_LOADOUT_TEXT	Arsenal	
@@ -969,6 +974,7 @@ GLUE_COLLECTION_MANAGER_SEARCH_SCHOOL_NONE	aucune
 GLUE_COLLECTION_MANAGER_SEARCH_SCHOOL_SHADOW	ombre	
 GLUE_COLLECTION_MANAGER_SEARCH_SIGNATURE	signature	
 GLUE_COLLECTION_MANAGER_SEARCH_TAG	tag	
+GLUE_COLLECTION_MANAGER_SEARCH_TRIAL	essai	
 GLUE_COLLECTION_MANAGER_SEARCH_TYPE	type	
 GLUE_COLLECTION_MANAGER_SEARCH_UPGRADABLE	amélior	intentional missing e to match upgrad{e|able|eable}
 GLUE_COLLECTION_MANAGER_SEARCH_WHELP	dragonnet	
@@ -1398,10 +1404,31 @@ GLUE_HEROIC_BRAWL_TITLE	Bras de fer\n<size=50>héroïque</size>
 GLUE_HEROIC_WARNING	Attention ! Ce mode est TRÈS éprouvant pour les nerfs et déconseillé aux âmes sensibles. Entrez-y à vos risques et périls !	
 GLUE_HEROIC_WARNING_TITLE	Attention !	
 GLUE_HEROPREVIEW_ACTION	Animations	
-GLUE_HEROPREVIEW_ACTION_DESCRIPTION	{0} en action\n\nDu début de la partie jusqu’à sa victoire ou sa défaite, {0} dispose d’animations et d’effets visuels uniques pour tous les moments importants du combat.	{0}=Hero name
+GLUE_HEROPREVIEW_ACTION_DESCRIPTION	Du début de la partie jusqu’à sa victoire ou sa défaite, {0} dispose d’animations et d’effets visuels uniques pour tous les moments importants du combat.	{0}=Hero name
+GLUE_HEROPREVIEW_ACTION_HEADER	{0} en action	{0}=Hero name
+GLUE_HEROPREVIEW_DEATHWING_BODY_PRIMARY	Modèle héroïque mythique Aile de mort et carte signature	
+GLUE_HEROPREVIEW_DEATHWING_BODY_SECONDARY	Jouez la carte signature d’Aile de mort en utilisant son modèle héroïque mythique et observez le plateau de votre adversaire exploser !	
+GLUE_HEROPREVIEW_DEATHWINGCARD_BODY_PRIMARY	Carte héroïque signature Aile de mort	
+GLUE_HEROPREVIEW_DEATHWINGCARD_BODY_SECONDARY	Renforcez votre deck avec une puissance apocalyptique grâce à cette carte signature Aile de mort.	
+GLUE_HEROPREVIEW_DEATHWINGCARD_TITLE	Carte signature Aile de mort	
+GLUE_HEROPREVIEW_DEATHWINGSKIN_PREVIEW_BODY_PRIMARY	Modèle héroïque mythique Aile de mort	
+GLUE_HEROPREVIEW_DEATHWINGSKIN_PREVIEW_BODY_SECONDARY	Brûlez vos adversaires sous l’ombre de vos ailes grâce à ce modèle héroïque Aile de mort pour les classes chaman et guerrier.	
+GLUE_HEROPREVIEW_DEATHWINGSKIN_TITLE	Modèle mythique Aile de mort	
 GLUE_HEROPREVIEW_EMOTE	Emotes	
-GLUE_HEROPREVIEW_EMOTE_DESCRIPTION	{0} réplique\n\nSaluez ou provoquez vos adversaires comme seulement {0} sait le faire grâce à des répliques uniques pour chacune des six emotes.	{0}=Hero name
+GLUE_HEROPREVIEW_EMOTE_DESCRIPTION	Saluez ou provoquez vos adversaires comme seulement {0} sait le faire grâce à des répliques uniques pour chacune des six emotes.	{0}=Hero name
+GLUE_HEROPREVIEW_EMOTE_HEADER	{0} réplique	{0}=Hero name
 GLUE_HEROPREVIEW_HEROPOSE	Pose héroïque	
+GLUE_HEROPREVIEW_HEROSIGNATURE_SECTION	Jouer la carte signature	
+GLUE_HEROPREVIEW_HEROSIGNATURE_TITLE	Modèle mythique et carte signature	
+GLUE_HEROPREVIEW_KERRIGAN_BODY_PRIMARY	Héroïne mythique Kerrigan et carte signature	
+GLUE_HEROPREVIEW_KERRIGAN_BODY_SECONDARY	Jouez la version signature de Kerrigan tout en utilisant son modèle héroïque mythique et observez le plateau de votre adversaire exploser !	
+GLUE_HEROPREVIEW_KERRIGANCARD_BODY_PRIMARY	Carte héroïque signature Kerrigan	
+GLUE_HEROPREVIEW_KERRIGANCARD_BODY_SECONDARY	Le texte descriptif de la version signature de la carte Kerrigan devrait être placé ici.	
+GLUE_HEROPREVIEW_KERRIGANCARD_TITLE	Carte signature Kerrigan	
+GLUE_HEROPREVIEW_KERRIGANSKIN_PREVIEW_BODY_PRIMARY	Modèle héroïque mythique Kerrigan	
+GLUE_HEROPREVIEW_KERRIGANSKIN_PREVIEW_BODY_SECONDARY	Le texte descriptif du modèle héroïque mythique de Kerrigan devrait être placé ici.	
+GLUE_HEROPREVIEW_KERRIGANSKIN_TITLE	Modèle mythique Kerrigan	
+GLUE_HEROPREVIEW_SIGNATURECARD	Carte signature	
 GLUE_HICKORY_LEGAL_POPUP	Consulter les conditions	
 GLUE_HICKORY_POPUP_CODE_LABEL	Utilisez ce code :	
 GLUE_HICKORY_POPUP_HEADER	<color=#3C2619>Vous devez associer un compte</color> <color=#085BA1>Battle.net</color> <color=#3C2619>gratuit pour jouer à Hearthstone.</color>	
@@ -1983,13 +2010,14 @@ GLUE_LUCKY_DRAW_LEGAL_POPUP_BODY_CONTINUE	<b>Passez à la page suivante pour con
 GLUE_LUCKY_DRAW_LEGAL_POPUP_BODY_MORE_INFO	Appuyez sur « Plus d’infos » pour obtenir une description complète des règles relatives aux trésors de la foire de Sombrelune.	
 GLUE_LUCKY_DRAW_LEGAL_POPUP_BODY_PAGE_1	Bienvenue à la foire de Sombrelune, une fonctionnalité payante vous permettant d’utiliser des pierres runiques pour obtenir aléatoirement l’un des trésors proposés.\n\nIl n’y a aucun doublon ni substitution ; vous ne recevrez qu’un seul des trésors affichés et vous ne pourrez pas recevoir deux fois le même trésor.\nVous obtiendrez tous les trésors en 10 tentatives maximum.\n\nLorsque vous effectuez un tirage et obtenez un trésor, les chances d’obtenir les autres trésors augmentent proportionnellement et le coût du tirage suivant également.	
 GLUE_LUCKY_DRAW_LEGAL_POPUP_BUTTON_MORE_INFO	Plus d’infos	
+GLUE_LUCKY_DRAW_LEGAL_POPUP_CHANCE	{0} %	
 GLUE_LUCKY_DRAW_LEGAL_POPUP_CURRENCY	Coût en {0}	
 GLUE_LUCKY_DRAW_LEGAL_POPUP_DIALOG_HEADER	Trésors de la foire de Sombrelune	
 GLUE_LUCKY_DRAW_LEGAL_POPUP_PAGE_NUMBER	Page {0}/{1}	
 GLUE_LUCKY_DRAW_LEGAL_POPUP_PRICING_DETAIL	* Taux basé sur le prix unitaire le plus élevé des pierres runiques disponibles dans la boutique, sans tenir compte des remises sur quantité et autres offres promotionnelles.	
 GLUE_LUCKY_DRAW_LEGAL_POPUP_PULL	Tirage	
 GLUE_LUCKY_DRAW_LEGAL_POPUP_REAL_MONEY	Équivalent en {0}*	
-GLUE_LUCKY_DRAW_LEGAL_POPUP_REWARD_WON	TRÉSOR OBTENU	
+GLUE_LUCKY_DRAW_LEGAL_POPUP_REWARD_WON	CHANCES D’OBTENTION : {0} %	
 GLUE_LUCKY_DRAW_LEGAL_POPUP_TOTAL	Total	
 GLUE_LUCKY_DRAW_POPUP_INTRODUCING	Découvrez…	
 GLUE_LUCKY_DRAW_POPUP_LAST_CHANCE	Dernière chance...	
@@ -2000,6 +2028,7 @@ GLUE_LUCKY_DRAW_REQUIRED_AMOUNT_SINGLE	Le prochain tirage nécessite : {0}
 GLUE_LUCKY_DRAW_REWARD_SCROLL_TITLE	Trésor de la foire de Sombrelune	
 GLUE_LUCKY_DRAW_SAP_ALEXSTRAZA	Alexstrasza l’impératrice	
 GLUE_LUCKY_DRAW_SAP_ARFUS	Arfus	
+GLUE_LUCKY_DRAW_SAP_DEATHWING	Aile de mort	
 GLUE_LUCKY_DRAW_SAP_HEADER	Disponible à présent dans :	
 GLUE_LUCKY_DRAW_SAP_HOGGER	Lardeur	
 GLUE_LUCKY_DRAW_SAP_KING	Roi	
@@ -2411,7 +2440,7 @@ GLUE_PROGRESSION_REWARD_TRACK_POPUP_SKIN_CHOICE_CONFIRMATION_TEXT	Choisir le mod
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_SKIN_CHOICE_CTA	Choisir	
 GLUE_PROGRESSION_REWARD_TRACK_POPUP_SKIN_CHOICE_TITLE	Choisissez un modèle de héros	
 GLUE_PROGRESSION_REWARD_TRACK_PURCHASED_BUTTON_BATTLEGROUNDS	Ticket saisonnier+	
-GLUE_PROGRESSION_REWARD_TRACK_RESET	Réinitialise l’extension suivante	
+GLUE_PROGRESSION_REWARD_TRACK_RESET	Se réinitialise à l’extension suivante	
 GLUE_PROGRESSION_REWARD_TRACK_REWARD_SCROLL_TITLE	Récompense du niveau {0} !	
 GLUE_PROGRESSION_REWARD_TRACK_UNLOCK_BUY_BUTTON	Débloquer avec un ticket de la taverne	
 GLUE_PROGRESSION_REWARD_TRACK_XP_PROGRESS	{0}/{1}	
@@ -2662,7 +2691,7 @@ GLUE_SELLABLE_DECK_DESCRIPTION	À partir des decks compétitifs disponibles
 GLUE_SELLABLE_DECK_FULL_LIST_BODY	Vous avez toutes les cartes mais votre liste de decks est pleine. Le code du deck a été copié dans votre presse-papier.	
 GLUE_SELLABLE_DECK_FULL_LIST_HEADER	Liste de decks pleine	
 GLUE_SELLABLE_DECK_TITLE	Félicitations !	
-GLUE_SET_ROTATION_EVEN_YEAR	Année du Pégase	
+GLUE_SET_ROTATION_EVEN_YEAR	Année du Scarabée	
 GLUE_SET_ROTATION_ODD_YEAR	Année du Raptor	
 GLUE_SHOP_ARCANE_ORBS	Orbes arcaniques	
 GLUE_SHOP_BOOSTER_SKU_BUTTON	{0} |4(paquet,paquets)	
@@ -3064,6 +3093,7 @@ GLUE_STORE_QUANTITY_PACK_BUNDLE	{0} |4(paquet,paquets) et plus encore
 GLUE_STORE_QUANTITY_PACK_PLUS_BONUS	{0}+{1}	0=base_quantity,1=bonus_quantity
 GLUE_STORE_RANDOM_ARCHETYPE_COLOSSAL	Colosse	
 GLUE_STORE_RANDOM_ARCHETYPE_COLOSSAL_DESCRIPTION	Chaque fois qu’un serviteur colossal apparaît sur le plateau, un certain nombre de serviteurs supplémentaires – comme indiqué sur le serviteur colossal – sont invoqués de chaque côté de celui-ci. Si le serviteur colossal est de qualité supérieure, ces serviteurs supplémentaires partagent cette qualité.	
+GLUE_STORE_RANDOM_ARCHETYPE_LIST_HEADER	Cartes possibles :	
 GLUE_STORE_RANDOM_CLASS_LEGENDARY	Carte de classe légendaire	
 GLUE_STORE_RANDOM_COMMON	Commune aléatoire	
 GLUE_STORE_RANDOM_DRAGON_LEGENDARY	Dragon légendaire classique aléatoire	
@@ -3164,6 +3194,7 @@ GLUE_TAVERN_BRAWL_PRERELEASE_MAX_LOSSES	3 défaites
 GLUE_TAVERN_BRAWL_PRERELEASE_MAX_WINS	6 victoires	
 GLUE_TAVERN_BRAWL_PRERELEASE_MIN_WINS	0 victoire	
 GLUE_TAVERN_BRAWL_PRERELEASE_REWARDS_DESCRIPTION	Jouez et tentez d’obtenir de nouvelles cartes de l’extension !\n6 victoires pour un maximum de récompenses. 3 défaites, et c’est fini !	
+GLUE_TAVERN_BRAWL_PRERELEASE_REWARDS_DESCRIPTION_DEATHWING	Jouez et tentez d’obtenir de nouvelles cartes de l’extension. Essayez gratuitement Aile de mort !\n6 victoires pour un maximum de récompenses. 3 défaites, et c’est fini !	
 GLUE_TAVERN_BRAWL_PRERELEASE_REWARDS_ENTRANCE_FEE	L’entrée coûte 2 admissions pour la taverne !	
 GLUE_TAVERN_BRAWL_PRERELEASE_REWARDS_ENTRANCE_FEE_FREE	La première admission est gratuite !	
 GLUE_TAVERN_BRAWL_PRERELEASE_TITLE	Bras de fer\n<size=40>de prélancement</size>	

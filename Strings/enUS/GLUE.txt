@@ -89,6 +89,9 @@ GLUE_COLLECTION_DECK_INVALID_LOANER_DECK_HEADER	Invalid Deck
 GLUE_COLLECTION_DECK_INVALID_LOANER_DECK_BODY	Sorry, this deck is invalid for the current format.
 GLUE_COLLECTION_DECK_INVALID_LOANER_DECK_TOOLTIP_HEADER	Invalid Deck
 GLUE_COLLECTION_DECK_INVALID_LOANER_DECK_TOOLTIP_BODY	This deck is not usable in this format.
+GLUE_COLLECTION_DECK_MINION_COST_TOOLTIP_HEADER	Total Minion Cost
+GLUE_COLLECTION_DECK_MINION_COST_TOOLTIP_BODY	Reach exactly 100 total minion cost in your deck to enable Vyranoth's effect.
+GLUE_COLLECTION_DECK_MINION_COST_TOOLTIP_FTUE	View your deck's total minion cost here.
 GLUE_COLLECTION_TOURIST_HEADER	Tourist
 GLUE_COLLECTION_TOURIST_HEADER_CAPS	TOURIST
 GLUE_COLLECTION_TOURIST_LIMIT_HEADER	Max Tourists
@@ -102,6 +105,8 @@ GLUE_COLLECTION_INCOMPLETE_ZILLIAX_DESCRIPTION	This deck has an incomplete Zilli
 GLUE_COLLECTION_INCOMPLETE_ZILLIAX_SAVE_WARNING_DESCRIPTION	This sideboard requires more components. Are you sure you want to finish editing?
 GLUE_COLLECTION_INCOMPLETE_ZILLIAX_HEADER	Incomplete Zilliax
 GLUE_COLLECTION_INCOMPLETE_SIDEBOARD_DESCRIPTION	This deck has an incomplete sideboard. Are you sure you want to finish editing?
+GLUE_COLLECTION_INCORRECT_TRACKED_DECK_REQUIREMENT_HEADER	Total Minion Cost: {0}
+GLUE_COLLECTION_INCORRECT_TRACKED_DECK_REQUIREMENT_DESCRIPTION	This deck does not trigger {0}'s effect. Are you sure you want to finish editing?
 GLUE_COLLECTION_EMPTY_SIDEBOARD_HEADER	Empty Sideboard
 GLUE_COLLECTION_EMPTY_SIDEBOARD_DESCRIPTION	Cards from your collection can be added to this sideboard.
 GLUE_COLLECTION_INVALID_SIDEBOARD_CARDS_HEADER	Invalid Sideboard
@@ -1730,6 +1735,7 @@ GLUE_COLLECTION_MANAGER_SEARCH_MISSING	missing
 GLUE_COLLECTION_MANAGER_SEARCH_EXTRA	extra
 GLUE_COLLECTION_MANAGER_SEARCH_FAVORITE	favorite
 GLUE_COLLECTION_MANAGER_SEARCH_NEW	new
+GLUE_COLLECTION_MANAGER_SEARCH_TRIAL	trial
 GLUE_COLLECTION_MANAGER_SEARCH_RARITY	rarity
 GLUE_COLLECTION_MANAGER_SEARCH_TYPE	type
 GLUE_COLLECTION_MANAGER_SEARCH_REFUND	refund
@@ -1778,7 +1784,7 @@ GLUE_THE_CLOCK_DETAILS	The cards you can use in Standard change each year.
 GLUE_THE_CLOCK_BANNER_NEW_WAY	New way to play:
 GLUE_THE_CLOCK_BANNER_STANDARD	"Standard"
 GLUE_THE_CLOCK_DETAILS_STANDARD	In Standard, only the newest cards can be used.
-GLUE_SET_ROTATION_EVEN_YEAR	Year of the Pegasus
+GLUE_SET_ROTATION_EVEN_YEAR	Year of the Scarab
 GLUE_SET_ROTATION_ODD_YEAR	Year of the Raptor
 GLUE_CARDS_UPDATED	These cards have changed.
 GLUE_SINGLE_CARD_UPDATED	This card has changed.
@@ -1923,6 +1929,7 @@ GLUE_HEROIC_BRAWL_REWARDS_NOTICE_DESC	Rewards from your last Heroic Brawl
 GLUE_HEROIC_BRAWL_REWARDS_WIN_BANNER_TEXT	{0} |4(Win,Wins)!
 GLUE_TAVERN_BRAWL_PRERELEASE_TITLE	<size=40>Pre-Release</size>\nTavern Brawl
 GLUE_TAVERN_BRAWL_PRERELEASE_REWARDS_DESCRIPTION	Compete for new expansion cards!\n6 wins for max prizes. 3 losses and you're out.
+GLUE_TAVERN_BRAWL_PRERELEASE_REWARDS_DESCRIPTION_DEATHWING	Compete for new expansion cards. Enjoy a free trial of Deathwing!\n6 wins for max prizes. 3 losses and you're out.
 GLUE_TAVERN_BRAWL_PRERELEASE_REWARDS_ENTRANCE_FEE	Entrance costs 2 Tavern Tickets!
 GLUE_TAVERN_BRAWL_PRERELEASE_REWARDS_ENTRANCE_FEE_FREE	Your first run is free!
 GLUE_TAVERN_BRAWL_PRERELEASE_CONTINUE	Spend 2 Tickets!
@@ -3799,7 +3806,8 @@ GLUE_LUCKY_DRAW_LEGAL_POPUP_DIALOG_HEADER	Darkmoon Faire Treasures
 GLUE_LUCKY_DRAW_LEGAL_POPUP_BODY_CONTINUE	<b>Continue to the next page for Odds and beyond for Pricing.</b>
 GLUE_LUCKY_DRAW_LEGAL_POPUP_BODY_MORE_INFO	Tap "More Info" for a complete description of the Rules of Darkmoon Faire Treasures.
 GLUE_LUCKY_DRAW_LEGAL_POPUP_BODY_PAGE_1	Welcome to Darkmoon Faire Treasures, a premium system wherein you spend Runestones to randomly receive one of the featured Treasures.\n\nThere are no duplicates or substitutions, so you will only receive one of the displayed Treasures and you cannot receive the same Treasure twice;\nyou will obtain all Treasures within 10 pulls.\n\nEach time you spend to make a pull and are rewarded with a Treasure, the chance for each remaining Treasure goes up proportionally and the cost of the next pull increases.
-GLUE_LUCKY_DRAW_LEGAL_POPUP_REWARD_WON	PULLED
+GLUE_LUCKY_DRAW_LEGAL_POPUP_REWARD_WON	PULLED {0}%
+GLUE_LUCKY_DRAW_LEGAL_POPUP_CHANCE	{0}%
 GLUE_LUCKY_DRAW_LEGAL_POPUP_PULL	Pull
 GLUE_LUCKY_DRAW_LEGAL_POPUP_CURRENCY	Cost in {0}
 GLUE_LUCKY_DRAW_LEGAL_POPUP_REAL_MONEY	{0} Equivalent*
@@ -3835,11 +3843,34 @@ GLUE_PETPREVIEW_FAVORITE_PET	Favorite Pet
 GLUE_HEROPREVIEW_HEROPOSE	Hero Pose
 GLUE_HEROPREVIEW_ACTION	Animations
 GLUE_HEROPREVIEW_EMOTE	Emotes
-GLUE_HEROPREVIEW_ACTION_DESCRIPTION	{0} in Action\n\nFrom the start of the match to victory or defeat, {0} has unique animations and visual effects for all the major moments of combat.	{0}=Hero name
-GLUE_HEROPREVIEW_EMOTE_DESCRIPTION	{0}'s Voice\n\nGreet or taunt your foe as only {0} could with unique lines for each of the six emotes.	{0}=Hero name
+GLUE_HEROPREVIEW_ACTION_HEADER	{0} in Action	{0}=Hero name
+GLUE_HEROPREVIEW_ACTION_DESCRIPTION	From the start of the match to victory or defeat, {0} has unique animations and visual effects for all the major moments of combat.	{0}=Hero name
+GLUE_HEROPREVIEW_EMOTE_HEADER	{0}'s Voice	{0}=Hero name
+GLUE_HEROPREVIEW_EMOTE_DESCRIPTION	Greet or taunt your foe as only {0} could with unique lines for each of the six emotes.	{0}=Hero name
 GLUE_LADDER_READY_DISCLAIMER_FREE	Returning players who have been away for 90 or more days are eligible for a free deck just for logging in. Returning players can claim these returning decks each time they are eligible. New players are eligible for their free deck after completing the tutorial and Apprentice Track.
 GLUE_LADDER_READY_DISCLAIMER_CHOOSE	This product is available for purchase after returning players—those who have been away for 90 days or more—claim their free deck.
 GLUE_LADDER_READY_DISCLAIMER_ATCOST	This product is available for purchase after returning players—those who have been away for 90 days or more—purchase the first deck for a discount.
+GLUE_STORE_RANDOM_ARCHETYPE_LIST_HEADER	Possible Cards:
 GLUE_STORE_RANDOM_ARCHETYPE_COLOSSAL	Colossal
 GLUE_STORE_RANDOM_ARCHETYPE_COLOSSAL_DESCRIPTION	Whenever a Colossal minion appears on the board, a number of additional minions, as stated on the Colossal, are summoned to either side of it. If the Colossal has a premium quality, these additional minions share it.
 GLUE_LUCKY_COMPLETED	Complete!
+GLUE_HEROPREVIEW_HEROSIGNATURE_TITLE	Mythic Hero & Signature
+GLUE_HEROPREVIEW_HEROSIGNATURE_SECTION	Play Signature Card
+GLUE_HEROPREVIEW_KERRIGAN_BODY_PRIMARY	Kerrigan Mythic Hero & Signature Card Together
+GLUE_HEROPREVIEW_KERRIGAN_BODY_SECONDARY	Play Signature Kerrigan while using the Mythic Hero Skin and watch your opponent's board explode!
+GLUE_HEROPREVIEW_KERRIGANSKIN_TITLE	Kerrigan Mythic Skin
+GLUE_HEROPREVIEW_KERRIGANSKIN_PREVIEW_BODY_PRIMARY	Kerrigan Mythic Hero Skin
+GLUE_HEROPREVIEW_KERRIGANSKIN_PREVIEW_BODY_SECONDARY	Flavor text about Kerrigan Mythic Hero Skin would go here
+GLUE_HEROPREVIEW_KERRIGANCARD_TITLE	Kerrigan Signature Card
+GLUE_HEROPREVIEW_SIGNATURECARD	Signature Card
+GLUE_HEROPREVIEW_KERRIGANCARD_BODY_PRIMARY	Kerrigan Signature Hero Card
+GLUE_HEROPREVIEW_KERRIGANCARD_BODY_SECONDARY	Flavor text about Kerrigan Signature Card would go here
+GLUE_HEROPREVIEW_DEATHWING_BODY_PRIMARY	Deathwing Mythic Hero & Signature Card Together
+GLUE_HEROPREVIEW_DEATHWING_BODY_SECONDARY	Play Signature Deathwing while using the Mythic Hero Skin and watch your opponent's board explode!
+GLUE_HEROPREVIEW_DEATHWINGSKIN_TITLE	Deathwing Mythic Skin
+GLUE_HEROPREVIEW_DEATHWINGSKIN_PREVIEW_BODY_PRIMARY	Deathwing\nMythic Hero Skin
+GLUE_HEROPREVIEW_DEATHWINGSKIN_PREVIEW_BODY_SECONDARY	Burn your adversaries beneath the shadow of your wings with this Deathwing hero skin for Shaman and Warrior.
+GLUE_HEROPREVIEW_DEATHWINGCARD_TITLE	Deathwing Signature Card
+GLUE_HEROPREVIEW_DEATHWINGCARD_BODY_PRIMARY	Deathwing\nSignature Hero Card
+GLUE_HEROPREVIEW_DEATHWINGCARD_BODY_SECONDARY	Empower your deck with world-ending might with this Deathwing Signature Card.
+GLUE_LUCKY_DRAW_SAP_DEATHWING	Deathwing

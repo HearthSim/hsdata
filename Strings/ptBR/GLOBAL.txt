@@ -167,9 +167,9 @@ GLOBAL_CARD_SET_BRM_SEARCHABLE_SHORTHAND_NAMES	mrn	This is a space-separated lis
 GLOBAL_CARD_SET_BT	Cinzas de Terralém	
 GLOBAL_CARD_SET_BT_SEARCHABLE_SHORTHAND_NAMES	cdt ct cinzas	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_BT_SHORT	Terralém	
-GLOBAL_CARD_SET_CAT	CATACLISMO	
-GLOBAL_CARD_SET_CAT_SEARCHABLE_SHORTHAND_NAMES	cata	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
-GLOBAL_CARD_SET_CAT_SHORT	Cataclismo	
+GLOBAL_CARD_SET_CATA	CATACLISMO	
+GLOBAL_CARD_SET_CATA_SEARCHABLE_SHORTHAND_NAMES	cata	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_CATA_SHORT	Cataclismo	
 GLOBAL_CARD_SET_CORE	Essencial	
 GLOBAL_CARD_SET_CORE_HIDDEN	Essencial (inválido)	
 GLOBAL_CARD_SET_CORE_SEARCHABLE_SHORTHAND_NAMES	essencial	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
@@ -404,6 +404,7 @@ GLOBAL_DATETIME_TIMER_HOURS_MINUTES	{0}h {1}min	0=hours 1=minutes
 GLOBAL_DATETIME_TIMER_LESS_THAN_X_MINUTES	< {0} m	0=minutes
 GLOBAL_DATETIME_TIMER_MINUTES	{0}min	0=minutes
 GLOBAL_DATETIME_TIMER_SECONDS	{0} s	0=seconds
+GLOBAL_DATETIME_TRIAL_PERIOD_MONTH	30+ dias	
 GLOBAL_DATETIME_UNLOCKS_SOON_WEEKS	Desbloqueia em {0} |4(semana,semanas)	
 GLOBAL_DEATHKNIGHT_RUNE_BLOOD	Cavaleiro da Morte: Sangue	
 GLOBAL_DEATHKNIGHT_RUNE_FROST	Cavaleiro da Morte: Gelo	
@@ -767,7 +768,7 @@ GLOBAL_KEYWORD_BACON_STEALTH_TEXT	Não pode ser atacado até atacar.
 GLOBAL_KEYWORD_BACON_TAVERN_SPELL_BONUS	Bônus de Feitiço da Taverna	
 GLOBAL_KEYWORD_BACON_TAVERN_SPELL_BONUS_TEXT	Concedendo um extra de {0}	
 GLOBAL_KEYWORD_BACON_TIMEWARP	Distorção Temporal	
-GLOBAL_KEYWORD_BACON_TIMEWARP_TEXT	Uma loja especial onde cards poderosos podem ser comprados por Crônio.	
+GLOBAL_KEYWORD_BACON_TIMEWARP_TEXT	Uma loja especial onde cards únicos podem ser comprados por Crônio.	
 GLOBAL_KEYWORD_BACON_TRINKET	Berloque	
 GLOBAL_KEYWORD_BACON_TRINKET_TEXT	Um poderoso bônus que pode ser comprado em turnos específicos.	
 GLOBAL_KEYWORD_BATTLECRY	Grito de Guerra	
@@ -907,6 +908,14 @@ GLOBAL_KEYWORD_GRIMY_GOONS_MULTI_TEXT	Este card é um membro da facção Capanga
 GLOBAL_KEYWORD_GRIMY_GOONS_TEXT	Estre card é um membro da facção Capangas Cruéis.	
 GLOBAL_KEYWORD_HEALING_POWER	Poder de Cura	
 GLOBAL_KEYWORD_HEALING_POWER_TEXT	Suas habilidades de cura restauram vida extra.	
+GLOBAL_KEYWORD_HERALD	Proclamar	
+GLOBAL_KEYWORD_HERALD_DEATH_KNIGHT_TEXT	Evoca o apêndice de Onyxia como soldado. Aprimora-o a cada 2 Proclamar.	
+GLOBAL_KEYWORD_HERALD_DEMON_HUNTER_TEXT	Evoca o apêndice de Azshara como soldado. Aprimora-o a cada 2 Proclamar.	
+GLOBAL_KEYWORD_HERALD_ROGUE_TEXT	Evoca o apêndice de Sinestra como soldado. Aprimora-o a cada 2 Proclamar.	
+GLOBAL_KEYWORD_HERALD_SHAMAN_TEXT	Evoca o apêndice de Al'Akir como soldado. Aprimora-o a cada 2 Proclamar.	
+GLOBAL_KEYWORD_HERALD_TEXT	Evoca o apêndice do seu Colossal como soldado. Aprimora-o a cada 2 Proclamar.	
+GLOBAL_KEYWORD_HERALD_WARLOCK_TEXT	Evoca o apêndice de Cho'gall como soldado. Aprimora-o a cada 2 Proclamar.	
+GLOBAL_KEYWORD_HERALD_WARRIOR_TEXT	Evoca o apêndice de Ragnaros como soldado. Aprimora-o a cada 2 Proclamar.	
 GLOBAL_KEYWORD_HONORABLEKILL	Abate Honroso	
 GLOBAL_KEYWORD_HONORABLEKILL_TEXT	Cause o dano letal exato no seu turno para receber um bônus.	
 GLOBAL_KEYWORD_HORDE	Horda	
@@ -1015,7 +1024,9 @@ GLOBAL_KEYWORD_SECRET_TEXT	Oculto até ocorrer uma ação específica no turno d
 GLOBAL_KEYWORD_SHAMAN_TOURIST	Turista: Xamã	
 GLOBAL_KEYWORD_SHAMAN_TOURIST_TEXT	Seu deck pode incluir cards de Xamã de Perigos no Paraíso.	
 GLOBAL_KEYWORD_SHATTER	Partir	
-GLOBAL_KEYWORD_SHATTER_TEXT	ERRO: LINHA DO TEMPO ERRADA. CRONA, FAVOR CORRIGIR!	
+GLOBAL_KEYWORD_SHATTER_TEXT	Divide-se em duas metades que se recombinam quando adjacentes na mão.	
+GLOBAL_KEYWORD_SHATTERED	Partido	
+GLOBAL_KEYWORD_SHATTERED_TEXT	Recombina-se com a sua metade quando adjacente na mão.	
 GLOBAL_KEYWORD_SHIFTING_ADDS_POISONOUS_TEXT	Adiciona <b>Venenoso</b>.	
 GLOBAL_KEYWORD_SHIFTING_ADDS_SPELL_DAMAGE_TEXT	Adiciona <b>+1 de Dano Mágico</b>.	
 GLOBAL_KEYWORD_SHIFTING_ADDS_STEALTH_TEXT	Adiciona <b>Furtividade</b>.	
@@ -1377,6 +1388,7 @@ GLOBAL_PRIVACY_SDK_BUTTON_CN	3rd Party Info	Text for a button to show 3rd party 
 GLOBAL_PROGRAMNAME_ARCADECOLLECTION	Blizzard Arcade Collection	
 GLOBAL_PROGRAMNAME_BLACKOPS4	Black Ops 4	
 GLOBAL_PROGRAMNAME_BLACKOPSCOLDWAR	Black Ops Cold War	
+GLOBAL_PROGRAMNAME_CALLOFDUTY	Call of Duty	
 GLOBAL_PROGRAMNAME_CODVANGUARD	Call of Duty: Vanguard	
 GLOBAL_PROGRAMNAME_CRASHBANDICOOT4	Crash Bandicoot 4	
 GLOBAL_PROGRAMNAME_DIABLO2R	Diablo II: Ressuscitado	
@@ -1388,6 +1400,7 @@ GLOBAL_PROGRAMNAME_HEROES	Heroes of the Storm
 GLOBAL_PROGRAMNAME_MODERNWARFARE	Guerra Moderna	
 GLOBAL_PROGRAMNAME_MODERNWARFARE2	Guerra Moderna II	
 GLOBAL_PROGRAMNAME_MODERNWARFARE2_REMASTER	MW2CR	
+GLOBAL_PROGRAMNAME_OUTERWORLDS2	The Outer Worlds 2	
 GLOBAL_PROGRAMNAME_OVERWATCH	Overwatch	
 GLOBAL_PROGRAMNAME_OVERWATCH2	Overwatch 2	
 GLOBAL_PROGRAMNAME_PHOENIX	Online	
@@ -1536,12 +1549,14 @@ GLOBAL_RECONNECT_RECONNECTING_LOGIN	Você foi desconectado do seu último jogo. 
 GLOBAL_RECONNECT_TIMEOUT	Não foi possível reconectar ao seu jogo.	
 GLOBAL_RECONNECT_TIMEOUT_HEADER	Erro	
 GLOBAL_REDUNDANT_NDE_BODY	Você ganhou a versão {0} |4(deste card, destes cards).\nDeseja trocar |4(a versão, as versões) {1} por |4(um card {3} aleatório de {2}, cards {3} aleatórios de {2})?	0=Newly Acquired Premium, 1=Premium to reroll, 2=reroll set name, 3=card rarity
+GLOBAL_REDUNDANT_NDE_BODY_DUPLICATE_SIGNATURE	Você recebeu uma cópia duplicada de um Lendário Exclusivo. \nTrocar por um card Lendário Dourado aleatório de {0}?	0=reroll set name
 GLOBAL_REDUNDANT_NDE_BODY_MULTIPLE_PREMIUMS	Você ganhou a versão {0} deste card.\nDeseja trocar a versão {1}/{2} por cards {4} aleatórios de {3}?	0=Newly Acquired Premium, 1=Higher premium to reroll, 2=Lower premium to reroll, 3=reroll set name, 4=card rarity
 GLOBAL_REDUNDANT_NDE_BUTTON_DECLINE	Não, obrigado	
 GLOBAL_REDUNDANT_NDE_BUTTON_REROLL	Trocar!	
 GLOBAL_REDUNDANT_NDE_DOUBLE_BODY	Você ganhou versões [PH Premium] deste card.\nDeseja trocar as versões [PH Premium] por cards aleatórios de [PH SET] de raridade [PH RARITY]?	
 GLOBAL_REDUNDANT_NDE_REROLL_RESULT_HEADER	Card trocado!	
 GLOBAL_REDUNDANT_NDE_TITLE	{0}: Trocar |4(Card, Cards)?	0=card premium to reroll
+GLOBAL_REDUNDANT_NDE_TITLE_DUPLICATE_SIGNATURE	Trocar Lendário Exclusivo duplicado?	
 GLOBAL_REDUNDANT_NDE_TITLE_MULTIPLE_PREMIUMS	Trocar cards {0}/{1}?	0=higher card premium to reroll, 1=lower card premium to reroll
 GLOBAL_REFRESH	Atualizar	
 GLOBAL_REGION_AMERICAS	Américas & Sudeste da Ásia	
