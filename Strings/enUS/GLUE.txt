@@ -91,6 +91,8 @@ GLUE_COLLECTION_DECK_INVALID_LOANER_DECK_TOOLTIP_HEADER	Invalid Deck
 GLUE_COLLECTION_DECK_INVALID_LOANER_DECK_TOOLTIP_BODY	This deck is not usable in this format.
 GLUE_COLLECTION_DECK_MINION_COST_TOOLTIP_HEADER	Total Minion Cost
 GLUE_COLLECTION_DECK_MINION_COST_TOOLTIP_BODY	Reach exactly 100 total minion cost in your deck to enable Vyranoth's effect.
+GLUE_COLLECTION_DECK_COST_COUNT_TOOLTIP_HEADER	Total Cost Count
+GLUE_COLLECTION_DECK_COST_COUNT_TOOLTIP_BODY	Reach at least 10 different costs in your deck to enable Elise's effect.
 GLUE_COLLECTION_DECK_MINION_COST_TOOLTIP_FTUE	View your deck's total minion cost here.
 GLUE_COLLECTION_TOURIST_HEADER	Tourist
 GLUE_COLLECTION_TOURIST_HEADER_CAPS	TOURIST
@@ -105,7 +107,7 @@ GLUE_COLLECTION_INCOMPLETE_ZILLIAX_DESCRIPTION	This deck has an incomplete Zilli
 GLUE_COLLECTION_INCOMPLETE_ZILLIAX_SAVE_WARNING_DESCRIPTION	This sideboard requires more components. Are you sure you want to finish editing?
 GLUE_COLLECTION_INCOMPLETE_ZILLIAX_HEADER	Incomplete Zilliax
 GLUE_COLLECTION_INCOMPLETE_SIDEBOARD_DESCRIPTION	This deck has an incomplete sideboard. Are you sure you want to finish editing?
-GLUE_COLLECTION_INCORRECT_TRACKED_DECK_REQUIREMENT_HEADER	Total Minion Cost: {0}
+GLUE_COLLECTION_INCORRECT_TRACKED_DECK_REQUIREMENT_HEADER	Total Count: {0}
 GLUE_COLLECTION_INCORRECT_TRACKED_DECK_REQUIREMENT_DESCRIPTION	This deck does not trigger {0}'s effect. Are you sure you want to finish editing?
 GLUE_COLLECTION_EMPTY_SIDEBOARD_HEADER	Empty Sideboard
 GLUE_COLLECTION_EMPTY_SIDEBOARD_DESCRIPTION	Cards from your collection can be added to this sideboard.
@@ -1058,9 +1060,8 @@ GLUE_TIP_BACON_24	Tavern spells are cards that can be bought to trigger a one-ti
 GLUE_TIP_BACON_25	Unlike minions, Tavern spells cannot be sold or tripled.
 GLUE_TIP_BACON_26	To toggle between Solo and Duos mode, hit the Crown button above your Rating in the main Battlegrounds menu.
 GLUE_TIP_BACON_27	To see which cards are in the pool during a Battlegrounds game, check your Guide in the lower right corner.
-GLUE_TIP_BACON_28	<b>Timewarps</b> are special shops you visit on Turns 6 and 9. Spend all your Chronum to buy one larger offering or two smaller ones.
-GLUE_TIP_BACON_29	<b>Timewarped</b> cards are either more powerful versions of existing cards, or unique ones altogether!
-GLUE_TIP_BACON_30	While in a <b>Timewarp</b>, your warband, hand, and Hero Power are inactive.
+GLUE_TIP_BACON_28	<b>Trinkets</b> are powerful bonuses. Buy a Lesser <b>Trinket</b> on Turn 6, and a Greater <b>Trinket</b> on Turn 9.
+GLUE_TIP_BACON_29	<b>Trinkets</b> cost varying amounts of Gold. Only one of the four offered can be chosen.
 GLUE_TIP_BACON_SOLO_0	With 8 players, being in the Top 4 is a win!\nFirst place gets you the Crown!
 GLUE_TIP_BACON_SOLO_1	Players can take at most 15 damage at once until only the Top 4 players are left in a lobby.
 GLUE_TIP_BACON_SOLO_2	To see the current Turn number, hover over or tap the deck slot on your side of the board.
@@ -1718,6 +1719,7 @@ GLUE_ERROR_DECK_RULESET_RULE_VIOLATION	The selected deck is not valid for this g
 GLUE_ERROR_DECK_RULESET_RULE_VIOLATION_BANNED_SIDEBOARD_CARD	The selected deck contains a sideboard with one or more banned cards. Please replace it.
 GLUE_ERROR_DECK_RULESET_RULE_VIOLATION_TOO_FEW_CARDS_IN_SIDEBOARD	The selected deck contains a sideboard with too few cards in it.
 GLUE_ERROR_DECK_RULESET_RULE_VIOLATION_TOO_MANY_CARDS_IN_SIDEBOARD	The selected deck contains a sideboard with too many cards in it.
+GLUE_ERROR_DECK_RULESET_RULE_VIOLATION_BANNED_CARD	A player's deck contains a banned card. Please try again or restart your client.
 GLUE_ERROR_DECK_VALIDATION_WRONG_FORMAT	You cannot use a Wild deck for this mode.
 GLUE_DECK_TEMPLATE_CHOOSE_DECK	{0} Recipes	0=name of class (e.g. Shaman)
 GLUE_DECK_TEMPLATE_CUSTOM_DECK	Custom Deck
@@ -2811,7 +2813,7 @@ GLUE_PROGRESSION_REWARD_TRACK_PAGE_NUMBER	Page {0} of {1}
 GLUE_PROGRESSION_REWARD_BONUS_GOLD	Bonus!
 GLUE_PROGRESSION_REWARD_TRACK_FREE_LABEL	FREE
 GLUE_PROGRESSION_REWARD_TRACK_PAID_PREMIUM_LABEL	PASS+
-GLUE_PROGRESSION_REWARD_TRACK_LOCKED_LABEL	Unlocks Feb. 2026
+GLUE_PROGRESSION_REWARD_TRACK_LOCKED_LABEL	Unlocks June 2026
 GLUE_PROGRESSION_REWARD_TRACK_CLAIM_TOOLTIP	Claim your first reward!
 GLUE_PROGRESSION_REWARD_TRACK_BAR_TOOLTIP_TITLE	Reward XP
 GLUE_PROGRESSION_REWARD_TRACK_BAR_TOOLTIP_DESCRIPTION	Play Hearthstone, level up, and earn rewards!
@@ -2842,6 +2844,8 @@ GLUE_PROGRESSION_REWARD_TRACK_POPUP_NEW_TRACK_BODY	Earn exciting new rewards on 
 GLUE_PROGRESSION_REWARD_BACON_TRACK_POPUP_NEW_TRACK_BODY	Earn exciting new rewards on the refreshed Battlegrounds Track!
 GLUE_PROGRESSION_REWARD_TRACK_XP_TOOLTIP_BOOST_TITLE	XP Bonuses
 GLUE_PROGRESSION_REWARD_TRACK_XP_TOOLTIP_BOOST_BODY	+{0}% XP Boost
+GLUE_PROGRESSION_REWARD_LIST_REWARD_POPUP_TITLE	It's yours
+GLUE_PROGRESSION_REWARD_LIST_REWARD_POPUP_DESCRIPTION	We’ve just granted you some rewards! Enjoy!
 GLUE_PROGRESSION_EVENT_TAB_TITLE	Event
 GLUE_PROGRESSION_EVENT_TAB_TIMER	Ends in {0}
 GLUE_PROGRESSION_EVENT_TAB_TIMER_OVER	Event Complete
@@ -3076,7 +3080,7 @@ GLUE_BACON_SEASONREWARDS_PROGRESSION_REWARDS_TRACK	Battlegrounds Track
 GLUE_BACON_SEASONREWARDS_PROGRESSION_MISSIONS_TITLE	Missions
 GLUE_BACON_SEASONREWARDS_PROGRESSION_REWARD_TRACK_BAR_TOOLTIP_TITLE	Battlegrounds XP
 GLUE_BACON_SEASONREWARDS_PROGRESSION_REWARD_TRACK_BAR_TOOLTIP_DESCRIPTION	Play Battlegrounds, level up, and earn rewards!
-GLUE_BACON_SEASONREWARDS_REVEAL_DATE	Unlocks in February 2026
+GLUE_BACON_SEASONREWARDS_REVEAL_DATE	Unlocks in June 2026
 GLUE_BACON_SHOP_EMPTY_HEADER	Battlegrounds Store
 GLUE_BACON_SHOP_EMPTY_BODY	Oh wow! You've acquired all the items in the store at this time. Check back soon for updates!
 GLUE_BACON_BATTLEBASH_OWNEDPRIZE	Owned
@@ -3836,7 +3840,7 @@ GLUE_PETPREVIEW_REACTIONS_TREAT	Treat
 GLUE_PETPREVIEW_REACTIONS_TOY	Toy
 GLUE_PETPREVIEW_REACTIONS_LEVELUP	Level-Up
 GLUE_PETPREVIEW_VICTORY_DESCRIPTION	Whether celebrating a big win or enduring a tough defeat, {0} will ensure that your match ends with excitement.\n\n{0} will accompany you in all your matches in Hearthstone, Battlegrounds, and Arena.	{0}=Pet skin name
-GLUE_PETPREVIEW_UNLOCK_DESCRIPTION	{0}. \n\n{1}.	{0}=Pet description, {1}=Lucky draw name
+GLUE_PETPREVIEW_UNLOCK_DESCRIPTION	{0} \n\n{1}	{0}=Pet description, {1}=Lucky draw name
 GLUE_PETPREVIEW_GOTO_LD	Get Pet
 GLUE_PETPREVIEW_FAVORITE_SKIN	Favorite Skin
 GLUE_PETPREVIEW_FAVORITE_PET	Favorite Pet
