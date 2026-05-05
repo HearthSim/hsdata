@@ -235,6 +235,8 @@ GLUE_ARENA_DRAFT_NORMAL_DETAIL	Elige una carta para tu mazo:
 GLUE_ARENA_DRAFT_REDRAFT_DETAIL	Selecciona una nueva carta para tu mazo ({0}/{1}):	0 = current redraft card number, 1 = total cards to redraft
 GLUE_ARENA_DRAFT_REDRAFT_HEADER	Selecciona nuevas cartas	
 GLUE_ARENA_DRAFT_VIEW	Revisa tu mazo	
+GLUE_ARENA_DUALCLASS_HEROSELECT	Elige a tu héroe y tu segunda clase	
+GLUE_ARENA_DUALCLASS_HPSELECT	Elige tu poder de héroe y tu primera clase	
 GLUE_ARENA_FTUE_HEADER_NORMAL	Cómo se juega a la Arena	
 GLUE_ARENA_FTUE_HEADER_UG	Reglas de la temporada en la Clandestinidad	
 GLUE_ARENA_FTUE_RETURNING_BODY	~Pases más breves (5 victorias o 2 derrotas para finalizar el pase)\n~Recompensas más claras\n~Al seleccionar la carta legendaria, se te ofrecen 3 cartas con sinergia\n~Una vez que ganes 7 partidas en la Arena, se te invitará a unirte a la Clandestinidad\n~Si pierdes una partida en la Clandestinidad, puedes volver a seleccionar las cartas	
@@ -256,12 +258,16 @@ GLUE_ARENA_LANDING_TITLE_UG	La Clandestinidad
 GLUE_ARENA_LEGENDARY_BUCKET	Viene con estas cartas:	
 GLUE_ARENA_MAXTIER_REWARDS_BANNER	Recompensas máximas	
 GLUE_ARENA_NORUN_BODY	Escoge tu héroe y selecciona tu mazo\nentre las cartas que te damos.\n\nJuega hasta lograr {0} victorias o {1} derrotas:\n¡las recompensas mejorarán con cada victoria!	0 = max wins 1 = max losses
+GLUE_ARENA_NORUN_DUAL_CLASS_BODY	Escoge el poder de héroe de una clase y, a continuación, ¡escoge otra clase!\nSelecciona cartas de ambas clases para tu mazo, ¡nosotros te las proporcionaremos!\n\nJuega hasta lograr {0} victorias o {1} derrotas:\n¡las recompensas mejorarán con cada victoria!	0 = max wins 1 = max losses
+GLUE_ARENA_NORUN_DUAL_CLASS_HEADER	¡Llegó la temporada de doble clase!	
+GLUE_ARENA_NORUN_DUAL_CLASS_HEADER_UG	¡Llegó la temporada de doble clase en la Clandestinidad!	
 GLUE_ARENA_NORUN_HEADER	¡Esto es la Arena!	
 GLUE_ARENA_NORUN_HEADER_UG	¡Estás en la Clandestinidad!	
 GLUE_ARENA_ORIGINAL	Original	
 GLUE_ARENA_PHASE_DRAFT	Selecciona tu mazo	
 GLUE_ARENA_PHASE_EDIT	Modifica tu mazo	
 GLUE_ARENA_PHASE_HERO	Elige a tu héroe	
+GLUE_ARENA_PHASE_HERO_POWER	Elige tu poder de héroe	
 GLUE_ARENA_PHASE_LEGGO	Elige un grupo legendario	
 GLUE_ARENA_PHASE_READY	Prepárate	
 GLUE_ARENA_PHASE_REDRAFT	Selecciona {0} nuevas cartas	0 = total cards to redraft
@@ -309,16 +315,16 @@ GLUE_ARENA_SEASON_ROLL_BUTTON	¡Bien, gracias!
 GLUE_ARENA_SEASON_ROLL_HEADER	¡Nueva temporada!	
 GLUE_ARENA_SEASON_ROLL_UG	Clandestinidad	
 GLUE_ARENA_SIGNUPS_CLOSED	Esta Arena terminará pronto. Se ha inhabilitado la inscripción.	
-GLUE_ARENA_STILLCHOOSING	Aún\ndecidiendo	
+GLUE_ARENA_STILLCHOOSING	Aún decidiendo	
 GLUE_ARENA_SWITCHMODES_BTN	Cambiar de modo	
 GLUE_ARENA_TICKET_COUNT	{0} |4(entrada,entradas)	0 = number of available tickets
 GLUE_ARENA_TICKETPLAYBUTTON_NORMAL	Entrada	
 GLUE_ARENA_TICKETPLAYBUTTON_UG	Entradas	
 GLUE_ARENA_UNLOCKUG_INVITED	Te invitamos a unirte a:	
 GLUE_ARENA_UNLOCKUG_WINCOUNT	{0}/{1} victorias	0 = win total, 1 = wins needed to unlock
-GLUE_ARENA_UPDATE_IGM_BODY1	¡Una arena nueva!	
-GLUE_ARENA_UPDATE_IGM_BODY2	¡Ya está aquí la nueva arena! Demuestra tus habilidades y desbloquea la Arena clandestina.\n\nAquí tienes una entrada para probarla, ¡te estamos esperando!	
-GLUE_ARENA_UPDATE_IGM_HEADER	¡Arena actualizada!	
+GLUE_ARENA_UPDATE_IGM_BODY1	¡Elige 2 clases y selecciona\ncartas de cada una de ellas!	
+GLUE_ARENA_UPDATE_IGM_BODY2	¡Selecciona cartas de 2 clases y da rienda suelta al caos! [PH]	
+GLUE_ARENA_UPDATE_IGM_HEADER	¡Vuelve la Arena de doble clase!	
 GLUE_ARENA_VIEW_DECK	Ver mazo	
 GLUE_BACON	Campos de batalla	
 GLUE_BACON_BATTLEBASH_OWNEDPRIZE	Adquirido	
@@ -2283,6 +2289,7 @@ GLUE_PROGRESSION_ACHIEVEMENT_TOAST_TIER	<color=#FFFFFF>Has completado</color> <c
 GLUE_PROGRESSION_ACHIEVEMENTS_COMPLETED	¡Completado!	
 GLUE_PROGRESSION_ACHIEVEMENTS_COMPLETION_REQUIRED	Requiere completar el logro	
 GLUE_PROGRESSION_ACHIEVEMENTS_RECENTLY_COMPLETED	Completado recientemente	
+GLUE_PROGRESSION_ACHIEVEMENTS_RETIRED	Retirados	
 GLUE_PROGRESSION_ACHIEVEMENTS_REWARDS_BUTTON	¡Ver recompensas!	
 GLUE_PROGRESSION_ACHIEVEMENTS_REWARDS_HEADER_TEXT	Recompensa de logro	
 GLUE_PROGRESSION_ACHIEVEMENTS_STEPCOMPLETED	¡Paso completado!	
@@ -2727,6 +2734,8 @@ GLUE_SHOP_PREVIEW_HERO	Vista previa
 GLUE_SHOP_PRICE_ARCANE_ORBS	{0} |4(orbe Arcano,orbes Arcanos)	
 GLUE_SHOP_PRICE_FREE	¡Gratis!	
 GLUE_SHOP_PRICE_RUNESTONES	{0} |4(runa,runas)	
+GLUE_SHOP_RESERVED_SLOT_REASON	Próximamente: ¡algo nuevo!	
+GLUE_SHOP_RESERVED_SLOT_TITLE	Reservado	
 GLUE_SHOP_RIBBON_GREATEST_NEWPLAYERS	Ideal para nuevos jugadores	
 GLUE_SHOP_RIBBON_LATEST_ADVENTURE	Última aventura	
 GLUE_SHOP_RIBBON_PREPURCHASE_BUNDLE	Pack de precompra	
@@ -3085,6 +3094,8 @@ GLUE_STORE_PRODUCT_NOT_AVAILABLE_TEXT_NOT_YET_STARTED	Este producto aún no est�
 GLUE_STORE_PRODUCT_PERSONALIZED_OFFER	为您推荐	
 GLUE_STORE_PRODUCT_PRICE	({0})	0=price
 GLUE_STORE_PRODUCT_PRICE_NA	No	
+GLUE_STORE_PRODUCT_UNAVAILABLE_REASON_BODY_A	¡Este espacio está reservado para planes futuros!	
+GLUE_STORE_PRODUCT_UNAVAILABLE_REASON_TITLE	Reservado	
 GLUE_STORE_PRODUCT_UNLOCKED_OFFER	已解锁	
 GLUE_STORE_PURCHASE_LICENSE_DISCLAIMER	.	
 GLUE_STORE_PURCHASE_LOCK_DESCRIPTION	Tu cuenta tiene una compra pendiente en {0}. Inicia Hearthstone en el dispositivo desde el que intentaste realizar una compra por última vez.\n\nSi el problema persiste, ponte en contacto con el servicio de Asistencia al cliente.	0=one of GLOBAL_STORE_MOBILE_NAME_*
