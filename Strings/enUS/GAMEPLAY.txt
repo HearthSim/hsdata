@@ -136,6 +136,8 @@ GAMEPLAY_PlayErrors_REQ_TWO_OF_A_KIND	Must have a potential triple
 GAMEPLAY_PlayErrors_REQ_HAS_OVERLOADED_MANA	Must have overloaded mana
 GAMEPLAY_PlayErrors_REQ_TRADEABLE	Your deck must have at least one card
 GAMEPLAY_PlayErrors_REQ_PREPARE	The cost cannot be reduced any further
+GAMEPLAY_PlayErrors_REQ_DISGUISED	Your opponent cannot have any more minions
+GAMEPLAY_PlayErrors_REQ_TARGET_HAS_BONUS_EFFECT	Your target does not have a bonus effect
 GAMEPLAY_PlayErrors_REQ_NOT_LEGENDARY_TARGET	You cannot target a legendary minion
 GAMEPLAY_PlayErrors_REQ_LETTUCE_ABILITY_CANNOT_TARGET_OWNER	This mercenary cannot target itself with this ability
 GAMEPLAY_PlayErrors_REQ_MINIMUM_TAVERN_TIER_LEVEL_TO_PLAY	You have not reached the required Tavern Tier for this.
@@ -163,10 +165,14 @@ GAMEPLAY_TOOLTIP_HAND_FULL_DESCRIPTION	You have {0} |4(card,cards) in your hand!
 GAMEPLAY_TOOLTIP_TEAMMATE_HAND_FULL_DESCRIPTION	Your teammate has {0} |4(card,cards) in their hand! Their hand is full.
 GAMEPLAY_TOOLTIP_FATIGUE_DECK_DESCRIPTION	You are out of cards! You'll take damage every time you try to draw cards from now on.
 GAMEPLAY_TOOLTIP_FATIGUE_DECK_HEADLINE	Fatigued
+GAMEPLAY_TOOLTIP_FRIENDLYDECK_OVERDRAWN_HEADLINE	Overdrawn Cards
+GAMEPLAY_TOOLTIP_FRIENDLYDECK_OVERDRAWN_DESCRIPTION	You have {0} |4(card,cards) that will be drawn when space is available.
 GAMEPLAY_TOOLTIP_ENEMYDECK_DESC	There |4(is {0} card,are {0} cards) in your opponent's deck.
 GAMEPLAY_TOOLTIP_ENEMYDECK_HEADLINE	Enemy Deck
 GAMEPLAY_TOOLTIP_FATIGUE_ENEMYDECK_DESCRIPTION	Your opponent is out of cards! They'll take damage every time they try to draw cards from now on.
 GAMEPLAY_TOOLTIP_FATIGUE_ENEMYDECK_HEADLINE	Fatigued
+GAMEPLAY_TOOLTIP_ENEMYDECK_OVERDRAWN_HEADLINE	Enemy Overdrawn Cards
+GAMEPLAY_TOOLTIP_ENEMYDECK_OVERDRAWN_DESCRIPTION	Your opponent has {0} |4(card,cards) that will be drawn when space is available.
 GAMEPLAY_TOOLTIP_MANA_DESCRIPTION	When your turn starts, you'll gain a new crystal and fill empty ones.
 GAMEPLAY_TOOLTIP_MANA_HEADLINE	Mana Crystals
 GAMEPLAY_TOOLTIP_MANA_LOCKED_DESCRIPTION	{0} Mana |4(Crystal,Crystals) <b>Overloaded</b> last turn.	0= number of overloaded mana crystals.

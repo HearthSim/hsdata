@@ -256,6 +256,7 @@ GLUE_ARENA_LABEL_SEASON_ENDING_SECONDS	El evento termina en: {0} |4(segundo,segu
 GLUE_ARENA_LABEL_SEASON_ENDING_WEEKS	El evento termina en: {0} |4(semana,semanas)	
 GLUE_ARENA_LANDING_TITLE_UG	La Arena clandestina	
 GLUE_ARENA_LEGENDARY_BUCKET	Cartas que se incluyen:	
+GLUE_ARENA_LEGENDARY_BUCKET_SIDEBOARD	Cartas de respaldo:	
 GLUE_ARENA_MAXTIER_REWARDS_BANNER	Las mejores recompensas	
 GLUE_ARENA_NORUN_BODY	Escoge tu héroe y arma tu mazo\ncon las cartas que tenemos.\n\nJuega y consigue {0} victorias o {1} derrotas:\n¡Por cada victoria obtienes mejores recompensas!	0 = max wins 1 = max losses
 GLUE_ARENA_NORUN_DUAL_CLASS_BODY	¡Elige un poder de héroe de una clase y luego elige otra!\nArma tu mazo con ambas clases. ¡Nosotros te damos las cartas!\n\nJuega hasta alcanzar {0} victorias o {1} derrotas:\n¡Por cada victoria obtienes mejores recompensas!	0 = max wins 1 = max losses
@@ -316,6 +317,8 @@ GLUE_ARENA_SEASON_ROLL_BODY	La nueva temporada está aquí, así que tu ronda de
 GLUE_ARENA_SEASON_ROLL_BUTTON	¡Sí, gracias!	
 GLUE_ARENA_SEASON_ROLL_HEADER	¡Temporada nueva!	
 GLUE_ARENA_SEASON_ROLL_UG	Arena clandestina	
+GLUE_ARENA_SIDEBOARD	Respaldo	
+GLUE_ARENA_SIDEBOARD_TOOLTIP	¡Personaliza lo que hace tu carta legendaria! No se puede cambiar en la Arena.	
 GLUE_ARENA_SIGNUPS_CLOSED	Esta Arena terminará pronto. Se ha deshabilitado la inscripción.	
 GLUE_ARENA_STILLCHOOSING	Eligiendo	
 GLUE_ARENA_SWITCHMODES_BTN	Cambiar modos	
@@ -861,6 +864,7 @@ GLUE_COLLECTION_DECK_RULE_MISSING_CARDS	Necesitas {0} |4(carta,cartas) para comp
 GLUE_COLLECTION_DECK_RULE_NOT_ENOUGH_CARDS	Necesitas {0} |4(carta,cartas) más para completar un mazo con esta clase. Prueba crear algunas cartas o arma un mazo con otra clase.	
 GLUE_COLLECTION_DECK_RULE_NOT_IN_CARDSET	Tienes {0} |4(carta,cartas) que |4(es,son) de un kit no válido.	
 GLUE_COLLECTION_DECK_RULE_NOT_IN_FORMAT	Tienes {0} |4(carta,cartas) |4(no válida,no válidas) para este formato.	
+GLUE_COLLECTION_DECK_RULE_OUTSIDE_SIDEBOARD_SUBSET	Tienes {0} cartas incompatibles en el respaldo de esta carta.	
 GLUE_COLLECTION_DECK_RULE_TOO_FEW_SIDEBOARD_CARDS	Tienes muy pocas cartas en tu respaldo	
 GLUE_COLLECTION_DECK_RULE_TOO_MANY_CARDS	Tienes {0} |4(carta,cartas) de más en el mazo.	
 GLUE_COLLECTION_DECK_RULE_TOO_MANY_SIDEBOARD_CARDS	Tienes demasiadas cartas en tu respaldo	
@@ -912,6 +916,7 @@ GLUE_COLLECTION_LETTUCE_PVE_TEAMNAME	Grupo de JcE
 GLUE_COLLECTION_LETTUCE_UNCRAFTABLE_EVENT	Se obtiene en un evento especial.	
 GLUE_COLLECTION_LETTUCE_UNCRAFTABLE_PROGRESSION	Se obtiene en la campaña de Mercenarios.	
 GLUE_COLLECTION_LETTUCE_UNCRAFTABLE_REWARD_TRACK	Se obtiene en la Senda de recompensas.	
+GLUE_COLLECTION_LOCK_ALREADY_IN_DECK	Ya está en el mazo	
 GLUE_COLLECTION_LOCK_CARD_BANNED	Prohibida	
 GLUE_COLLECTION_LOCK_CARD_INVALID_CLASS	La carta pertenece a otra clase	
 GLUE_COLLECTION_LOCK_CARD_NOT_IN_CARDSET	Kit equivocado	
@@ -919,6 +924,7 @@ GLUE_COLLECTION_LOCK_CARD_NOT_IN_FORMAT	Formato equivocado
 GLUE_COLLECTION_LOCK_CARD_NOT_PLAYABLE	Aún no disponible	
 GLUE_COLLECTION_LOCK_MAX_DECK_COPIES	Límite por mazo: {0}	
 GLUE_COLLECTION_LOCK_NO_MORE_INSTANCES	No quedan más	
+GLUE_COLLECTION_LOCK_SIDEBOARD_LIMIT_1	Límite de respaldo: 1	
 GLUE_COLLECTION_LOCK_ZILLIAX_MODULE_USED	Ya se usó	
 GLUE_COLLECTION_MANAGER_CARD_BACKS_TITLE	Dorsos de carta	
 GLUE_COLLECTION_MANAGER_COIN_TITLE	Monedas	
@@ -1032,6 +1038,13 @@ GLUE_COLLECTION_SET_FILTER_TRIAL_CARDS_SET_FILTER_NAME	{0} Exp: {1}	0 = Trial ca
 GLUE_COLLECTION_SET_FILTER_WILD_SET_BODY	Con esta opción podrás ver todas las cartas que no se pueden usar en estándar. ¿Quieres continuar?	
 GLUE_COLLECTION_SET_FILTER_WILD_SET_HEADER	Cartas salvajes	
 GLUE_COLLECTION_SHOW_ALL_CARDS	Mostrar todas las cartas	
+GLUE_COLLECTION_SIDEBOARD_BEATRIX_TITLE	Ejército escarlata	
+GLUE_COLLECTION_SIDEBOARD_MUGZEE_BOTH_NAMES	Rob y On	
+GLUE_COLLECTION_SIDEBOARD_MUGZEE_MUGS_NAME	Magia de Rob	
+GLUE_COLLECTION_SIDEBOARD_MUGZEE_NO_NAME	Sin poder único	
+GLUE_COLLECTION_SIDEBOARD_MUGZEE_NO_NAME_TOOLTIP_DESC	No reúnes los requisitos para tener un Poder de héroe único.	
+GLUE_COLLECTION_SIDEBOARD_MUGZEE_ZEES_NAME	Poderío de On	
+GLUE_COLLECTION_SIDEBOARD_UNDERBELLY_TITLE	Contrabando	
 GLUE_COLLECTION_SPINNER_FAIL_BODY	El nombre contiene caracteres sensibles y no se puede guardar.	
 GLUE_COLLECTION_SPINNER_FAIL_HEADLINE	¡Verificación del nombre fallida!	
 GLUE_COLLECTION_SPINNER_SUCCESS_HEADLINE	¡Verificación del nombre exitosa!	
@@ -2741,6 +2754,9 @@ GLUE_SHOP_PRICE_ARCANE_ORBS	{0} |4(orbe arcano,orbes arcanos)
 GLUE_SHOP_PRICE_FREE	¡Gratis!	
 GLUE_SHOP_PRICE_RUNESTONES	{0} |4(piedra rúnica,piedras rúnicas)	
 GLUE_SHOP_PURCHASE_FAIL_NEGATIVE_GOLD	<PH> No puedes adquirir productos gratis mientras tengas un saldo de oro negativo. Consigue más oro e inténtalo de nuevo.	
+GLUE_SHOP_RESERVED_SLOT_FLAVOR_TEXT_1	¡Algo nuevo se avecina!	
+GLUE_SHOP_RESERVED_SLOT_FLAVOR_TEXT_2	¡Se vienen grandes novedades!	
+GLUE_SHOP_RESERVED_SLOT_FLAVOR_TEXT_3	¡Regresa pronto para enterarte!	
 GLUE_SHOP_RESERVED_SLOT_REASON	¡Próximamente algo nuevo!	
 GLUE_SHOP_RESERVED_SLOT_TITLE	Reservado	
 GLUE_SHOP_RIBBON_GREATEST_NEWPLAYERS	Ideal para los jugadores nuevos	
@@ -3218,6 +3234,7 @@ GLUE_TAVERN_BRAWL_PRERELEASE_MAX_WINS	6 victorias
 GLUE_TAVERN_BRAWL_PRERELEASE_MIN_WINS	0 victorias	
 GLUE_TAVERN_BRAWL_PRERELEASE_REWARDS_DESCRIPTION	¡Compite por las cartas de la expansión nueva!\nCon 6 victorias, obtienes el máximo de recompensas. Con 3 derrotas, quedas fuera.	
 GLUE_TAVERN_BRAWL_PRERELEASE_REWARDS_DESCRIPTION_DEATHWING	Compite por las cartas de la expansión nueva. ¡Disfruta de una prueba gratuita de Alamuerte!\nCon 6 victorias, obtienes el máximo de recompensas. Con 3 derrotas, quedas fuera.	
+GLUE_TAVERN_BRAWL_PRERELEASE_REWARDS_DESCRIPTION_RULEBREAKERS	Compite por cartas de la expansión nueva. ¡Juega cualquier carta con cualquier clase!\nCon 6 victorias, obtienes la recompensa máxima. Con 3 derrotas, quedas fuera.	
 GLUE_TAVERN_BRAWL_PRERELEASE_REWARDS_ENTRANCE_FEE	¡La entrada tiene un costo de 2 boletos de la Taberna!	
 GLUE_TAVERN_BRAWL_PRERELEASE_REWARDS_ENTRANCE_FEE_FREE	¡La primera ronda es gratis!	
 GLUE_TAVERN_BRAWL_PRERELEASE_TITLE	<size=40>Prelanzamiento</size>\npara la Gresca de la taberna	
