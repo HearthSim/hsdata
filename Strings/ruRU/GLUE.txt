@@ -1899,20 +1899,28 @@ GLUE_LOADINGSCREEN_DOWNLOAD_STOP	Загрузка остановлена
 GLUE_LOADINGSCREEN_DOWNLOADING	Загружено {0}/{1} МБ	0=megabytes so far, 1=total download megabytes
 GLUE_LOADINGSCREEN_DOWNLOADING_TICKER	Hearthstone - идет загрузка	
 GLUE_LOADINGSCREEN_ERROR_APK_INSTALL	Не удалось установить приложение. Пожалуйста, удалите и повторно установите Hearthstone.	
+GLUE_LOADINGSCREEN_ERROR_BAD_ARMADILLO_KEY	Не удалось инициализировать систему безопасности. Пожалуйста, повторите попытку позже.	
+GLUE_LOADINGSCREEN_ERROR_CDN_HOSTS_EXHAUSTED	Не удалось установить соединение с серверами обновления. Проверьте соединение и повторите попытку.	
 GLUE_LOADINGSCREEN_ERROR_CHECK_SETTINGS	Не удалось подключиться к интернету. Проверьте настройки сети.	
 GLUE_LOADINGSCREEN_ERROR_CLIENT_CONFIG_MESSAGE	Не удалось обнаружить файл конфигурации. Пожалуйста, удалите и повторно установите Hearthstone.	
 GLUE_LOADINGSCREEN_ERROR_CONNECTION_MESSAGE	Не удалось загрузить дополнительные файлы. Пожалуйста, убедитесь, что устройство подключено к Интернету.	
+GLUE_LOADINGSCREEN_ERROR_CONTAINER_LOCKED	Хранилище обновлений недоступно. Повторите попытку.	
 GLUE_LOADINGSCREEN_ERROR_COPY_ASSETS_MESSAGE	Не удалось скопировать данные. Пожалуйста, освободите место на устройстве.	
+GLUE_LOADINGSCREEN_ERROR_CRITICAL_FAILURE	Произошла критическая ошибка при обновлении. Пожалуйста, повторите попытку позже.	
 GLUE_LOADINGSCREEN_ERROR_DISK_SPACE	Недостаточно памяти на устройстве для установки Hearthstone. Пожалуйста, освободите память устройства.	
 GLUE_LOADINGSCREEN_ERROR_DOWNLOADING_MESSAGE	Пожалуйста, удалите и заново загрузите Hearthstone.	
 GLUE_LOADINGSCREEN_ERROR_DOWNLOADING_TITLE	Ошибка загрузки	
+GLUE_LOADINGSCREEN_ERROR_ERROR_CODE	(Код ошибки: {0})	
 GLUE_LOADINGSCREEN_ERROR_FILESYSTEM_MESSAGE	На вашем устройстве недостаточно свободного места для установки Hearthstone. Если вы используете карту памяти формата SD, убедитесь, что у вас есть разрешение на запись.	
 GLUE_LOADINGSCREEN_ERROR_GENERIC	Приложение Hearthstone прекратило свою работу. Пожалуйста, удалите и повторно установите Hearthstone.	
 GLUE_LOADINGSCREEN_ERROR_GET_EXTERNAL_FILES	Не удалось подключиться к внешнему носителю. Пожалуйста, разрешите доступ к внешнему носителю. Если доступ уже разрешен, перезагрузите устройство.	
 GLUE_LOADINGSCREEN_ERROR_INSTALLING_TITLE	Ошибка установки	
+GLUE_LOADINGSCREEN_ERROR_INVALID_DRIVE_TYPE	Не удалось получить обновление из хранилища. Пожалуйста, повторите попытку позже.	
 GLUE_LOADINGSCREEN_ERROR_NEED_TO_REPAIR	Требуется восстановление. Пожалуйста, перегрузите Hearthstone.	
 GLUE_LOADINGSCREEN_ERROR_NEEDS_DATA	Установите подключение по Wi-Fi и попробуйте загрузить необходимые данные снова.	
 GLUE_LOADINGSCREEN_ERROR_OPENING_STORE_MESSAGE	Не удалось открыть App Store.	
+GLUE_LOADINGSCREEN_ERROR_PATH_TOO_LONG	Не удалось инициализировать хранилище. Пожалуйста, повторите попытку позже.	
+GLUE_LOADINGSCREEN_ERROR_TRUNCATED	Загрузка прервана. Повторите попытку.	
 GLUE_LOADINGSCREEN_ERROR_UPDATE	Не удалось загрузить обновление. Пожалуйста, проверьте подключение к Интернету.	
 GLUE_LOADINGSCREEN_ERROR_UPDATE_CONFLICT	Не удалось загрузить обновление. Пожалуйста, перезапустите Hearthstone.	
 GLUE_LOADINGSCREEN_ERROR_VERSION	Не удалось загрузить сведения о версии. Пожалуйста, проверьте подключение к Интернету.	
@@ -2066,6 +2074,7 @@ GLUE_LUCKY_DRAW_SAP_VARIAN	Вариан
 GLUE_LUCKY_DRAW_SAP_YOGG_SARON	Йогг-Сарон	
 GLUE_LUCKY_DRAW_SAP_YSERA	Изера	
 GLUE_LUCKY_DRAW_TITLE	Сокровища Ярмарки Новолуния	
+GLUE_LUCKY_DRAW_TRANSFORM	Превращение	
 GLUE_LUCKY_DRAW_VIRTUAL_CURRENCY_MENU_DESCRIPTION	Развлекайтесь так, как вам удобно! Вы можете приобрести достаточно билетов для следующей попытки или запастись ими впрок, чтобы еще долго получать награды!	
 GLUE_MASDK_ACCOUNT_REPAIR_BODY	Мы исправили неполадку с вашей учетной записью, в результате которой вы не могли зарегистрировать учетную запись Blizzard. Теперь вы сможете сделать это в любой момент.	
 GLUE_MASDK_ACCOUNT_REPAIR_TITLE	Учетная запись исправлена	
@@ -2873,6 +2882,7 @@ GLUE_STARTUP_DOWNLOAD_APK	Загрузка новейшего клиента...	
 GLUE_STARTUP_DOWNLOAD_DBF	Загрузка новых данных...	We are downloading the latest game data with a progress bar below
 GLUE_STARTUP_LAUNCHING	Переход в таверну...	We are finished starting up and loading into the game
 GLUE_STARTUP_START	Запуск...	The game is starting up on the intial loading screen
+GLUE_STARTUP_TACT_INITIALIZING	Подготовка таверны...	Tact is preparing the Tact control files (indices, config files, etc))
 GLUE_STARTUP_UNKNOWN_STAGE	Подготовка таверны...	Shown on the loading screen
 GLUE_STARTUP_VERSIONING	Получение версии игры...	We are checking what the latest game version is
 GLUE_STORE_ADVENTURE_BUTTON_UNAVAILABLE_DESCRIPTION	Этот товар сейчас недоступен.	
@@ -3869,6 +3879,8 @@ GLUE_UNRELIABLE_GPU_WARNING_TITLE	Графическое устройство
 GLUE_VCAPTION_ATTACK	Атака	
 GLUE_VCAPTION_CAST_SPELL	Заклинание	
 GLUE_VCAPTION_COME_INTO_PLAY	Вступление	
+GLUE_VCAPTION_HERO_POWER_DK	СГ: рыцарь смерти	
+GLUE_VCAPTION_HERO_POWER_MAGE	СГ: маг	
 GLUE_VCAPTION_METAMORPHOSIS	Метаморфоза	
 GLUE_VCAPTION_SUMMON_MINION	Призыв	
 GLUE_VCAPTION_TAKE_DAMAGE	Получение урона	

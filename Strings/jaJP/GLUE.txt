@@ -1899,20 +1899,28 @@ GLUE_LOADINGSCREEN_DOWNLOAD_STOP	ダウンロードが停止しました
 GLUE_LOADINGSCREEN_DOWNLOADING	ダウンロード中 {0}/{1} MB	0=megabytes so far, 1=total download megabytes
 GLUE_LOADINGSCREEN_DOWNLOADING_TICKER	ハースストーン - ダウンロード中	
 GLUE_LOADINGSCREEN_ERROR_APK_INSTALL	インストールは失敗だ。ハースストーンをアンインストールしてから再インストールしてくれ。	
+GLUE_LOADINGSCREEN_ERROR_BAD_ARMADILLO_KEY	セキュリティの初期化に失敗しました。後ほどもう一度お試しください	
+GLUE_LOADINGSCREEN_ERROR_CDN_HOSTS_EXHAUSTED	更新サーバーに到達できません。接続を確認してもう一度お試しください。	
 GLUE_LOADINGSCREEN_ERROR_CHECK_SETTINGS	インターネット接続が見つからないぞ。\nネットワーク設定を確認してみてくれ。	
 GLUE_LOADINGSCREEN_ERROR_CLIENT_CONFIG_MESSAGE	設定ファイルが欠損してるぞ。ハースストーンをアンインストールしてから再インストールしてくれ。	
 GLUE_LOADINGSCREEN_ERROR_CONNECTION_MESSAGE	追加ファイルをダウンロードできなかったぞ。有効なネットワーク接続があるか確認してみてくれ。	
+GLUE_LOADINGSCREEN_ERROR_CONTAINER_LOCKED	更新ストレージがビジーです。もう一度お試しください。	
 GLUE_LOADINGSCREEN_ERROR_COPY_ASSETS_MESSAGE	アセットのコピーに失敗したようだ。デバイスの空き容量を増やしてくれ。	
+GLUE_LOADINGSCREEN_ERROR_CRITICAL_FAILURE	重大な更新エラーが発生しました。後ほどもう一度お試しください。	
 GLUE_LOADINGSCREEN_ERROR_DISK_SPACE	デバイスの空き容量が足りないんで、ハースストーンをインストールできないぞ。空き容量を増やしてくれ。	
 GLUE_LOADINGSCREEN_ERROR_DOWNLOADING_MESSAGE	ハースストーンをアンインストールしてから、もう一度ダウンロードしてみてくれ。	
 GLUE_LOADINGSCREEN_ERROR_DOWNLOADING_TITLE	ダウンロードエラー	
+GLUE_LOADINGSCREEN_ERROR_ERROR_CODE	（エラーコード: {0}）	
 GLUE_LOADINGSCREEN_ERROR_FILESYSTEM_MESSAGE	デバイスの空き容量が足りないんで、ハースストーンをインストールできないぞ。SDカードを使ってる場合は、書き込み可能になってるか確認してみてくれ。	
 GLUE_LOADINGSCREEN_ERROR_GENERIC	ハースストーンが動作を停止したぞ。ハースストーンをアンインストールしてから再インストールしてくれ。	
 GLUE_LOADINGSCREEN_ERROR_GET_EXTERNAL_FILES	外部ストレージへのアクセスに失敗したぞ。外部ストレージへのアクセスを許可するんだ。既にアクセスを許可している場合は、デバイスの再起動をしてくれ。	
 GLUE_LOADINGSCREEN_ERROR_INSTALLING_TITLE	インストールエラー	
+GLUE_LOADINGSCREEN_ERROR_INVALID_DRIVE_TYPE	更新に使用できるストレージがありません。後ほどもう一度お試しください。	
 GLUE_LOADINGSCREEN_ERROR_NEED_TO_REPAIR	修復が必要です。「ハースストーン」を再起動してください。	
 GLUE_LOADINGSCREEN_ERROR_NEEDS_DATA	Wi-Fi通信が利用可能になったら、もう一度データをダウンロードしてみてくれ。	
 GLUE_LOADINGSCREEN_ERROR_OPENING_STORE_MESSAGE	App Storeを開けなかったぞ。	
+GLUE_LOADINGSCREEN_ERROR_PATH_TOO_LONG	ストレージの初期化に失敗しました。後ほどもう一度お試しください。	
+GLUE_LOADINGSCREEN_ERROR_TRUNCATED	ダウンロードが一時中断されました。もう一度お試しください。	
 GLUE_LOADINGSCREEN_ERROR_UPDATE	アップデートの取得に失敗したぞ。インターネット接続を確認してみてくれ。	
 GLUE_LOADINGSCREEN_ERROR_UPDATE_CONFLICT	アップデートの取得に失敗したぞ。ハースストーンを再起動してくれ。	
 GLUE_LOADINGSCREEN_ERROR_VERSION	バージョン情報が見つからなかったぞ。インターネット接続を確認してみてくれ。	
@@ -2066,6 +2074,7 @@ GLUE_LUCKY_DRAW_SAP_VARIAN	ヴァリアン
 GLUE_LUCKY_DRAW_SAP_YOGG_SARON	ヨグ＝サロン	
 GLUE_LUCKY_DRAW_SAP_YSERA	イセラ	
 GLUE_LUCKY_DRAW_TITLE	ダークムーン・フェアの宝物	
+GLUE_LUCKY_DRAW_TRANSFORM	変身	
 GLUE_LUCKY_DRAW_VIRTUAL_CURRENCY_MENU_DESCRIPTION	あんたに楽しんでもらうためにいくつか選択肢を用意したぞ！次の抽選に必要なだけのチケットを購入するか、並んでる景品を獲得できるだけのチケットをまとめて購入することもできるからな！	
 GLUE_MASDK_ACCOUNT_REPAIR_BODY	あんたのアカウントを完全なBlizzardアカウントに補修できなくなってた問題を修正したぞ。いつでもあんたの好きな時に補修できるようになってるからな。	
 GLUE_MASDK_ACCOUNT_REPAIR_TITLE	アカウントを修復したぞ	
@@ -2873,6 +2882,7 @@ GLUE_STARTUP_DOWNLOAD_APK	最新のクライアントをダウンロード中	We
 GLUE_STARTUP_DOWNLOAD_DBF	最新のゲームデータをダウンロード中	We are downloading the latest game data with a progress bar below
 GLUE_STARTUP_LAUNCHING	酒場に入場中	We are finished starting up and loading into the game
 GLUE_STARTUP_START	スタートアップ中	The game is starting up on the intial loading screen
+GLUE_STARTUP_TACT_INITIALIZING	酒場の準備中…	Tact is preparing the Tact control files (indices, config files, etc))
 GLUE_STARTUP_UNKNOWN_STAGE	酒場を準備中	Shown on the loading screen
 GLUE_STARTUP_VERSIONING	ゲームバージョン取得中	We are checking what the latest game version is
 GLUE_STORE_ADVENTURE_BUTTON_UNAVAILABLE_DESCRIPTION	この商品は現在購入できないぞ。	
@@ -3869,6 +3879,8 @@ GLUE_UNRELIABLE_GPU_WARNING_TITLE	グラフィックデバイス
 GLUE_VCAPTION_ATTACK	攻撃	
 GLUE_VCAPTION_CAST_SPELL	呪文使用	
 GLUE_VCAPTION_COME_INTO_PLAY	イントロ	
+GLUE_VCAPTION_HERO_POWER_DK	HP：デスナイト	
+GLUE_VCAPTION_HERO_POWER_MAGE	HP：メイジ	
 GLUE_VCAPTION_METAMORPHOSIS	悪魔変身	
 GLUE_VCAPTION_SUMMON_MINION	召喚	
 GLUE_VCAPTION_TAKE_DAMAGE	ダメージを受ける	

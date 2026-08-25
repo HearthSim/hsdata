@@ -1587,6 +1587,14 @@ GLUE_LOADINGSCREEN_UPDATE_WIFI_WARNING	No Wi-Fi connection. Do you wish to downl
 GLUE_LOADINGSCREEN_ERROR_NEEDS_DATA	When your Wi-Fi connection is ready, let’s try to get that data again.
 GLUE_LOADINGSCREEN_ERROR_CHECK_SETTINGS	No internet connection available. Please check your network settings.
 GLUE_LOADINGSCREEN_ERROR_NEED_TO_REPAIR	Repair needed. Please restart Hearthstone.
+GLUE_LOADINGSCREEN_ERROR_TRUNCATED	Download was interrupted. Please try again.
+GLUE_LOADINGSCREEN_ERROR_INVALID_DRIVE_TYPE	Storage is unavailable for update. Please try again later.
+GLUE_LOADINGSCREEN_ERROR_CONTAINER_LOCKED	Update storage is busy. Please try again.
+GLUE_LOADINGSCREEN_ERROR_CDN_HOSTS_EXHAUSTED	Can’t reach update servers. Check your connection and try again.
+GLUE_LOADINGSCREEN_ERROR_BAD_ARMADILLO_KEY	Security initialization failed. Please try again later
+GLUE_LOADINGSCREEN_ERROR_PATH_TOO_LONG	Storage initialization failed. Please try again later.
+GLUE_LOADINGSCREEN_ERROR_CRITICAL_FAILURE	A critical update error occurred. Please try again later.
+GLUE_LOADINGSCREEN_ERROR_ERROR_CODE	(Error Code: {0})
 GLUE_LOADINGSCREEN_BUTTON_CELLULAR	Use Cellular
 GLUE_LOADINGSCREEN_BUTTON_WAIT	Wait for Wi-Fi
 GLUE_LOADINGSCREEN_BUTTON_RETRY	Retry
@@ -3604,6 +3612,8 @@ GLUE_VCAPTION_SUMMON_MINION	Summon
 GLUE_VCAPTION_ATTACK	Attack
 GLUE_VCAPTION_METAMORPHOSIS	Metamorphosis
 GLUE_VCAPTION_TRANSFORMATION	Transformation
+GLUE_VCAPTION_HERO_POWER_MAGE	HP: Mage
+GLUE_VCAPTION_HERO_POWER_DK	HP: Death Knight
 GLUE_ADVENTURE_CHAPTER_TITLE_ROTLK_PROLOGUE	Prologue
 GLUE_ADVENTURE_CHAPTERPAGE_ROTLK_AWAITING_LICENSE	Please wait while Arthas remembers his tale...
 GLUE_LETTUCE_MYTHIC_SUB_BUTTON	Mythic
@@ -3781,6 +3791,7 @@ GLUE_GAME_MODE_OUT_OF_SPACE_MESSAGE	You need {0} of free space on your device to
 GLUE_MOREINFO_HEADER	Full Details
 GLUE_STARTUP_START	Starting up	The game is starting up on the intial loading screen
 GLUE_STARTUP_VERSIONING	Getting game version	We are checking what the latest game version is
+GLUE_STARTUP_TACT_INITIALIZING	Preparing Tavern...	Tact is preparing the Tact control files (indices, config files, etc))
 GLUE_STARTUP_CHECKING_UPDATES	Checking for updates	We are checking if there are any updates to the game
 GLUE_STARTUP_DOWNLOAD_DBF	Downloading latest game data	We are downloading the latest game data with a progress bar below
 GLUE_STARTUP_DOWNLOAD_APK	Downloading latest client	We are downloading the latest game client
@@ -3858,6 +3869,7 @@ GLUE_LUCKY_DRAW_LEGAL_POPUP_TOTAL	Total
 GLUE_LUCKY_DRAW_LEGAL_POPUP_PRICING_DETAIL	* Based on most expensive Runestone price-per-unit available in shop,\ndisregarding any quantity discounts and other promotional offers.
 GLUE_LUCKY_DRAW_LEGAL_POPUP_BUTTON_MORE_INFO	More Info
 GLUE_LUCKY_DRAW_LEGAL_POPUP_PAGE_NUMBER	Page {0}/{1}
+GLUE_LUCKY_DRAW_TRANSFORM	Transform
 GLUE_REWARD_SCROLL_GOTO_CM	Manage Collection
 GLUE_REWARD_SCROLL_FAV	Make Favorite
 GLUE_PET_REWARD_LEVELUP	{0} has reached Level {1}	0=Pet name, 1=Level

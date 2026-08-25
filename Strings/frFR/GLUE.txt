@@ -1899,20 +1899,28 @@ GLUE_LOADINGSCREEN_DOWNLOAD_STOP	Téléchargement arrêté
 GLUE_LOADINGSCREEN_DOWNLOADING	Téléchargement : {0}/{1} Mo	0=megabytes so far, 1=total download megabytes
 GLUE_LOADINGSCREEN_DOWNLOADING_TICKER	Hearthstone - Téléchargement en cours	
 GLUE_LOADINGSCREEN_ERROR_APK_INSTALL	Échec de l’installation. Veuillez désinstaller puis réinstaller Hearthstone.	
+GLUE_LOADINGSCREEN_ERROR_BAD_ARMADILLO_KEY	Échec de l’initialisation de la sécurité. Veuillez réessayer plus tard.	
+GLUE_LOADINGSCREEN_ERROR_CDN_HOSTS_EXHAUSTED	Impossible d’accéder aux serveurs de mise à jour. Vérifiez votre connexion et réessayez.	
 GLUE_LOADINGSCREEN_ERROR_CHECK_SETTINGS	Aucune connexion Internet disponible. Veuillez vérifier vos paramètres réseau.	
 GLUE_LOADINGSCREEN_ERROR_CLIENT_CONFIG_MESSAGE	Fichier config manquant. Veuillez désinstaller puis réinstaller Hearthstone.	
 GLUE_LOADINGSCREEN_ERROR_CONNECTION_MESSAGE	Échec du téléchargement de fichiers supplémentaires. Veuillez vérifier que vous disposez bien d’une connexion réseau active.	
+GLUE_LOADINGSCREEN_ERROR_CONTAINER_LOCKED	L’espace de stockage est surchargé. Veuillez réessayer.	
 GLUE_LOADINGSCREEN_ERROR_COPY_ASSETS_MESSAGE	Échec de la copie des ressources. Veuillez libérer de l’espace sur votre appareil.	
+GLUE_LOADINGSCREEN_ERROR_CRITICAL_FAILURE	Une erreur critique s’est produite lors de la mise à jour. Veuillez réessayer plus tard.	
 GLUE_LOADINGSCREEN_ERROR_DISK_SPACE	Il n’y a pas suffisamment d’espace disponible sur votre appareil pour installer Hearthstone. Veuillez en libérer.	
 GLUE_LOADINGSCREEN_ERROR_DOWNLOADING_MESSAGE	Veuillez désinstaller Hearthstone puis le télécharger de nouveau.	
 GLUE_LOADINGSCREEN_ERROR_DOWNLOADING_TITLE	Erreur de téléchargement	
+GLUE_LOADINGSCREEN_ERROR_ERROR_CODE	(Code d’erreur : {0})	
 GLUE_LOADINGSCREEN_ERROR_FILESYSTEM_MESSAGE	Vous manquez d’espace pour installer Hearthstone sur cet appareil. Si vous utilisez une carte SD, assurez-vous que vous disposez bien des droits d’écriture.	
 GLUE_LOADINGSCREEN_ERROR_GENERIC	Hearthstone a cessé de fonctionner. Veuillez désinstaller puis réinstaller le jeu.	
 GLUE_LOADINGSCREEN_ERROR_GET_EXTERNAL_FILES	Accès impossible. Veuillez autoriser l’accès au stockage externe. S’il est déjà autorisé, veuillez redémarrer votre appareil.	
 GLUE_LOADINGSCREEN_ERROR_INSTALLING_TITLE	Erreur d’installation	
+GLUE_LOADINGSCREEN_ERROR_INVALID_DRIVE_TYPE	L’espace de stockage n’est pas disponible pour la mise à jour. Veuillez réessayer plus tard.	
 GLUE_LOADINGSCREEN_ERROR_NEED_TO_REPAIR	Une réparation est nécessaire. Veuillez redémarrer Hearthstone.	
 GLUE_LOADINGSCREEN_ERROR_NEEDS_DATA	Dès que vous aurez établi une connexion Wi-Fi, essayez à nouveau de télécharger les données.	
 GLUE_LOADINGSCREEN_ERROR_OPENING_STORE_MESSAGE	Échec de l’ouverture de l’App Store.	
+GLUE_LOADINGSCREEN_ERROR_PATH_TOO_LONG	Échec de l’initialisation de l’espace de stockage. Veuillez réessayer plus tard.	
+GLUE_LOADINGSCREEN_ERROR_TRUNCATED	Le téléchargement a été interrompu. Veuillez réessayer.	
 GLUE_LOADINGSCREEN_ERROR_UPDATE	Impossible de trouver la mise à jour. Veuillez vérifier votre connexion réseau.	
 GLUE_LOADINGSCREEN_ERROR_UPDATE_CONFLICT	Impossible de trouver la mise à jour. Veuillez relancer Hearthstone.	
 GLUE_LOADINGSCREEN_ERROR_VERSION	Impossible de trouver les informations de version. Veuillez vérifier votre connexion réseau.	
@@ -2066,6 +2074,7 @@ GLUE_LUCKY_DRAW_SAP_VARIAN	Varian
 GLUE_LUCKY_DRAW_SAP_YOGG_SARON	Yogg-Saron	
 GLUE_LUCKY_DRAW_SAP_YSERA	Ysera	
 GLUE_LUCKY_DRAW_TITLE	Trésors de la foire de Sombrelune	
+GLUE_LUCKY_DRAW_TRANSFORM	Transformation	
 GLUE_LUCKY_DRAW_VIRTUAL_CURRENCY_MENU_DESCRIPTION	Voici quelques options pour vous amuser encore plus ! Choisissez la quantité exacte de tickets pour votre prochain tirage, ou bien faites le plein pour obtenir une avalanche de prix !	
 GLUE_MASDK_ACCOUNT_REPAIR_BODY	Nous avons corrigé un problème lié à votre compte, qui vous empêchait de créer un compte Battle.net. Vous pourrez dorénavant en créer un quand vous le désirez.	
 GLUE_MASDK_ACCOUNT_REPAIR_TITLE	Compte réparé	
@@ -2873,6 +2882,7 @@ GLUE_STARTUP_DOWNLOAD_APK	Téléchargement de la dernière version	We are downlo
 GLUE_STARTUP_DOWNLOAD_DBF	Téléchargement des dernières données du jeu	We are downloading the latest game data with a progress bar below
 GLUE_STARTUP_LAUNCHING	Accès à l’auberge	We are finished starting up and loading into the game
 GLUE_STARTUP_START	Lancement	The game is starting up on the intial loading screen
+GLUE_STARTUP_TACT_INITIALIZING	Préparation de l’auberge…	Tact is preparing the Tact control files (indices, config files, etc))
 GLUE_STARTUP_UNKNOWN_STAGE	Préparation de l’auberge	Shown on the loading screen
 GLUE_STARTUP_VERSIONING	Recherche de la version du jeu	We are checking what the latest game version is
 GLUE_STORE_ADVENTURE_BUTTON_UNAVAILABLE_DESCRIPTION	Ce produit n’est pas disponible à la vente actuellement.	
@@ -3869,6 +3879,8 @@ GLUE_UNRELIABLE_GPU_WARNING_TITLE	Matériel graphique
 GLUE_VCAPTION_ATTACK	Attaque	
 GLUE_VCAPTION_CAST_SPELL	Lancer un sort	
 GLUE_VCAPTION_COME_INTO_PLAY	Intro	
+GLUE_VCAPTION_HERO_POWER_DK	PH : chevalier de la mort	
+GLUE_VCAPTION_HERO_POWER_MAGE	PH : mage	
 GLUE_VCAPTION_METAMORPHOSIS	Métamorphose	
 GLUE_VCAPTION_SUMMON_MINION	Invoquer	
 GLUE_VCAPTION_TAKE_DAMAGE	Subir des dégâts	

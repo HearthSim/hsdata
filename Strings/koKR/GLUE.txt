@@ -1899,20 +1899,28 @@ GLUE_LOADINGSCREEN_DOWNLOAD_STOP	다운로드 정지됨
 GLUE_LOADINGSCREEN_DOWNLOADING	{0}/{1}MB 다운로드 중	0=megabytes so far, 1=total download megabytes
 GLUE_LOADINGSCREEN_DOWNLOADING_TICKER	하스스톤 - 다운로드 중	
 GLUE_LOADINGSCREEN_ERROR_APK_INSTALL	설치가 실패했습니다. 하스스톤을 제거한 후 다시 설치해 주십시오.	
+GLUE_LOADINGSCREEN_ERROR_BAD_ARMADILLO_KEY	보안 초기화에 실패했습니다. 나중에 다시 시도해 주십시오.	
+GLUE_LOADINGSCREEN_ERROR_CDN_HOSTS_EXHAUSTED	업데이트 서버 접속에 실패했습니다. 연결 상태를 확인한 후 다시 시도해 주십시오.	
 GLUE_LOADINGSCREEN_ERROR_CHECK_SETTINGS	인터넷 연결에 실패했습니다. 네트워크 설정을 확인하세요.	
 GLUE_LOADINGSCREEN_ERROR_CLIENT_CONFIG_MESSAGE	환경 설정 파일을 찾지 못했습니다. 하스스톤을 제거한 후 다시 설치해 주십시오.	
 GLUE_LOADINGSCREEN_ERROR_CONNECTION_MESSAGE	추가적인 파일을 다운로드하는 데 실패했습니다. 네트워크 연결을 확인해 보세요.	
+GLUE_LOADINGSCREEN_ERROR_CONTAINER_LOCKED	업데이트 저장 공간이 사용 중입니다. 다시 시도해 주십시오.	
 GLUE_LOADINGSCREEN_ERROR_COPY_ASSETS_MESSAGE	파일을 복사하는 데 실패했습니다. 기기에서 용량을 더 확보해 주십시오.	
+GLUE_LOADINGSCREEN_ERROR_CRITICAL_FAILURE	중대한 업데이트 오류가 발생했습니다. 나중에 다시 시도해 주십시오.	
 GLUE_LOADINGSCREEN_ERROR_DISK_SPACE	하스스톤을 설치하는 데 필요한 용량이 부족합니다. 용량을 더 확보해 주십시오.	
 GLUE_LOADINGSCREEN_ERROR_DOWNLOADING_MESSAGE	하스스톤을 제거한 후 다시 다운로드하여 주십시오.	
 GLUE_LOADINGSCREEN_ERROR_DOWNLOADING_TITLE	다운로드 오류	
+GLUE_LOADINGSCREEN_ERROR_ERROR_CODE	(오류 코드: {0})	
 GLUE_LOADINGSCREEN_ERROR_FILESYSTEM_MESSAGE	기기의 용량이 부족해 하스스톤을 설치할 수 없습니다. SD 카드를 사용한다면 수정 권한이 있는 지 확인해 보세요.	
 GLUE_LOADINGSCREEN_ERROR_GENERIC	하스스톤이 작동하지 않습니다. 하스스톤을 제거한 후 다시 설치해 주십시오.	
 GLUE_LOADINGSCREEN_ERROR_GET_EXTERNAL_FILES	외부 저장소에 액세스하지 못했습니다. 외부 저장소에 대한 액세스를 허용하십시오. 이미 허용된 경우 기기를 다시 시작하십시오.	
 GLUE_LOADINGSCREEN_ERROR_INSTALLING_TITLE	설치 오류	
+GLUE_LOADINGSCREEN_ERROR_INVALID_DRIVE_TYPE	저장 공간을 업데이트에 사용할 수 없습니다. 나중에 다시 시도해 주십시오.	
 GLUE_LOADINGSCREEN_ERROR_NEED_TO_REPAIR	보수가 필요합니다. 하스스톤을 다시 시작해 주세요.	
 GLUE_LOADINGSCREEN_ERROR_NEEDS_DATA	Wi-Fi에 다시 접속되면 다운로드를 재개합니다.	
 GLUE_LOADINGSCREEN_ERROR_OPENING_STORE_MESSAGE	App Store를 여는 데 실패했습니다.	
+GLUE_LOADINGSCREEN_ERROR_PATH_TOO_LONG	저장 공간 초기화에 실패했습니다. 나중에 다시 시도해 주십시오.	
+GLUE_LOADINGSCREEN_ERROR_TRUNCATED	다운로드가 중단되었습니다. 다시 시도해 주십시오.	
 GLUE_LOADINGSCREEN_ERROR_UPDATE	업데이트에 실패했습니다. 네트워크 연결을 확인해 보세요.	
 GLUE_LOADINGSCREEN_ERROR_UPDATE_CONFLICT	업데이트에 실패했습니다. 하스스톤을 다시 시작해 주세요.	
 GLUE_LOADINGSCREEN_ERROR_VERSION	버전 정보를 확인할 수 없습니다. 네트워크 연결을 확인해 보세요.	
@@ -2066,6 +2074,7 @@ GLUE_LUCKY_DRAW_SAP_VARIAN	바리안
 GLUE_LUCKY_DRAW_SAP_YOGG_SARON	요그사론	
 GLUE_LUCKY_DRAW_SAP_YSERA	이세라	
 GLUE_LUCKY_DRAW_TITLE	다크문 축제 보물	
+GLUE_LUCKY_DRAW_TRANSFORM	변신	
 GLUE_LUCKY_DRAW_VIRTUAL_CURRENCY_MENU_DESCRIPTION	계속 재미있게 즐길 수 있는 두 가지 선택지를 소개해 드립니다! 룬석을 다음 뽑기에 필요한 만큼만 선택하거나, 충분히 채워두고 계속 이용할 수 있습니다!	
 GLUE_MASDK_ACCOUNT_REPAIR_BODY	Battle.net 계정을 등록할 수 없었던 오류를 수정했습니다. 이제 원하시는 때에 계정을 등록할 수 있습니다.	
 GLUE_MASDK_ACCOUNT_REPAIR_TITLE	계정 수리됨	
@@ -2873,6 +2882,7 @@ GLUE_STARTUP_DOWNLOAD_APK	최신 클라이언트 다운로드 중	We are downloa
 GLUE_STARTUP_DOWNLOAD_DBF	최신 게임 데이터 다운로드 중	We are downloading the latest game data with a progress bar below
 GLUE_STARTUP_LAUNCHING	선술집에 들어가는 중	We are finished starting up and loading into the game
 GLUE_STARTUP_START	시작 중	The game is starting up on the intial loading screen
+GLUE_STARTUP_TACT_INITIALIZING	선술집 준비 중...	Tact is preparing the Tact control files (indices, config files, etc))
 GLUE_STARTUP_UNKNOWN_STAGE	선술집 준비하는 중	Shown on the loading screen
 GLUE_STARTUP_VERSIONING	게임 버전 가져오는 중	We are checking what the latest game version is
 GLUE_STORE_ADVENTURE_BUTTON_UNAVAILABLE_DESCRIPTION	이 상품은 현재 구매할 수 없습니다.	
@@ -3869,6 +3879,8 @@ GLUE_UNRELIABLE_GPU_WARNING_TITLE	그래픽 장치
 GLUE_VCAPTION_ATTACK	공격	
 GLUE_VCAPTION_CAST_SPELL	주문 시전	
 GLUE_VCAPTION_COME_INTO_PLAY	등장	
+GLUE_VCAPTION_HERO_POWER_DK	영웅 능력: 죽음의 기사	
+GLUE_VCAPTION_HERO_POWER_MAGE	영웅 능력: 마법사	
 GLUE_VCAPTION_METAMORPHOSIS	탈태	
 GLUE_VCAPTION_SUMMON_MINION	소환	
 GLUE_VCAPTION_TAKE_DAMAGE	피해 받음	
