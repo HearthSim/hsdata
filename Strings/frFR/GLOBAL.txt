@@ -161,6 +161,9 @@ GLOBAL_CARD_SET_BAR	Forgés dans les Tarides
 GLOBAL_CARD_SET_BAR_SEARCHABLE_SHORTHAND_NAMES	tar fdlt ft	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_BAR_SHORT	Tarides	
 GLOBAL_CARD_SET_BASIC	De base	
+GLOBAL_CARD_SET_BE	Le règne de l’Empire noir	
+GLOBAL_CARD_SET_BE_SEARCHABLE_SHORTHAND_NAMES	éfp éva	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_BE_SHORT	Empire noir	
 GLOBAL_CARD_SET_BOOMSDAY	Projet Armageboum	
 GLOBAL_CARD_SET_BOOMSDAY_SEARCHABLE_SHORTHAND_NAMES	bd tbp bdp tbdp bp pa lpa boum projet arma	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_BOOMSDAY_SHORT	Armageboum	
@@ -756,6 +759,8 @@ GLOBAL_KEYWORD_BACON_CHROMADRAKE	Chromadrake
 GLOBAL_KEYWORD_BACON_CHROMADRAKE_TEXT	L’un des cinq dragons doté de différents cris de guerre.	
 GLOBAL_KEYWORD_BACON_CONSUME	Engloutir	
 GLOBAL_KEYWORD_BACON_CONSUME_TEXT	Retire un serviteur afin de gagner ses caractéristiques.	
+GLOBAL_KEYWORD_BACON_DEITY	Divinité	
+GLOBAL_KEYWORD_BACON_DEITY_TEXT	Chaque combat, une fois que 3 Aberrations alliées sont mortes, réveille un {2} {0}/{1}.	
 GLOBAL_KEYWORD_BACON_DISCOUNTED	En promotion	
 GLOBAL_KEYWORD_BACON_DISCOUNTED_TEXT	Ce bibelot coûte (1) cristal de moins que d’habitude.	
 GLOBAL_KEYWORD_BACON_ELEMENTAL_BONUS	Bonus élémentaire	
@@ -979,12 +984,14 @@ GLOBAL_KEYWORD_MINIATURIZE_TEXT	Vous obtenez une copie 1/1 coûtant 1 cristal 
 GLOBAL_KEYWORD_MINION_TYPE_REFERENCE	Type de serviteur	
 GLOBAL_KEYWORD_MINION_TYPE_REFERENCE_TEXT	Bête, démon, dragon, méca, murloc, pirate et totem.	
 GLOBAL_KEYWORD_MODULAR	Magnétisme	
-GLOBAL_KEYWORD_MODULAR_TEXT	Jouez cette carte à gauche d’un Méca pour les faire fusionner !	
+GLOBAL_KEYWORD_MODULAR_TEXT	Fusionne avec un Méca quand la carte est jouée à sa gauche.	
 GLOBAL_KEYWORD_MULTICLASS	Multiclasse ({0})	Argument is number of classes the card can be used in (ex: 4)
 GLOBAL_KEYWORD_MULTICLASS_SEARCH_TOKEN	Multiclasse	
 GLOBAL_KEYWORD_MULTICLASS_TEXT	Classes pouvant utiliser cette carte : {0}	Argument is a comma separated list of classes the card can be used in
 GLOBAL_KEYWORD_OFFHAND	Main gauche	
 GLOBAL_KEYWORD_OFFHAND_TEXT	Indestructible. Ne peut être enchantée.	
+GLOBAL_KEYWORD_OLDGOD	Dieu très ancien	
+GLOBAL_KEYWORD_OLDGOD_TEXT	Au lieu d’attaquer, vous utilisez 2 de ses 4 capacités. <i>Un <b>Dieu très ancien</b> par deck.</i>	
 GLOBAL_KEYWORD_OUTCAST	Marginal	
 GLOBAL_KEYWORD_OUTCAST_TEXT	Vous obtenez un effet bonus si c’est la carte la plus à gauche ou à droite de votre main quand elle est jouée.	
 GLOBAL_KEYWORD_OVERHEAL	Surplus de soins	
@@ -1222,6 +1229,10 @@ GLOBAL_KEYWORD_ZERG_MULTI_TEXT	Cette carte appartient à la faction des Zergs et
 GLOBAL_KEYWORD_ZERG_TEXT	Cette carte appartient à la faction des Zergs.	
 GLOBAL_LANGUAGE_CHANGE_CONFIRM_MESSAGE	L’activité en cours sera interrompue. Voulez-vous continuer ?	
 GLOBAL_LANGUAGE_CHANGE_CONFIRM_TITLE	Changer la langue ?	
+GLOBAL_LANGUAGE_CHANGE_CONFIRM_WITH_SIZE_MESSAGE	Le changement de langue nécessite le téléchargement d’environ {0}. Continuer ?	
+GLOBAL_LANGUAGE_CHANGE_CONFIRM_WITHOUT_SIZE_MESSAGE	Modifier la langue ? Les fichiers nécessaires sont déjà disponibles sur votre appareil.	
+GLOBAL_LANGUAGE_CHANGE_DELETE_AND_DOWNLOAD	Remplacer	
+GLOBAL_LANGUAGE_CHANGE_DELETE_OLD_MESSAGE	La nouvelle langue nécessite {0} d’espace, mais vous ne disposez que de {1} d’espace libre. Supprimer votre langue actuelle ({2}) libérerait suffisamment d’espace. Voulez-vous la supprimer et télécharger la nouvelle langue ?	
 GLOBAL_LANGUAGE_CHANGE_OUT_OF_SPACE_MESSAGE	Vous avez besoin de {0} d’espace libre sur votre appareil pour continuer.	
 GLOBAL_LANGUAGE_CHANGE_OUT_OF_SPACE_TITLE	Pas assez d’espace	
 GLOBAL_LANGUAGE_DROPDOWN	Langue	
@@ -1479,6 +1490,8 @@ GLOBAL_PROGRESSION_WEEKLY_QUESTS_POPUP_TITLE	Vos quêtes hebdomadaires
 GLOBAL_PVPDR_SEASON_ERROR_NOT_ACTIVE	Désolé, la saison de Duels demandée n’est plus disponible. Veuillez réessayer plus tard.	
 GLOBAL_QUEST_PROGRESS_COUNT	{0}/{1}	0=progress,1=max progress
 GLOBAL_QUIT	Quitter	
+GLOBAL_RACE_ABERRATION	Aberration	
+GLOBAL_RACE_ABERRATION_BATTLEGROUNDS	Aberrations	
 GLOBAL_RACE_ALL	Tout	
 GLOBAL_RACE_ALL_BATTLEGROUNDS	Amalgames	This should be the plural of DAL_087t
 GLOBAL_RACE_BLOODELF	Elfe de sang	

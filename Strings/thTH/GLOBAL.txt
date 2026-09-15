@@ -161,6 +161,9 @@ GLOBAL_CARD_SET_BAR	Forged in the Barrens
 GLOBAL_CARD_SET_BAR_SEARCHABLE_SHORTHAND_NAMES	bar fitb fb	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_BAR_SHORT	Barrens	
 GLOBAL_CARD_SET_BASIC	พื้นฐาน	
+GLOBAL_CARD_SET_BE	Reign of the Black Empire	
+GLOBAL_CARD_SET_BE_SEARCHABLE_SHORTHAND_NAMES	evh esc	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_BE_SHORT	Black Empire	
 GLOBAL_CARD_SET_BOOMSDAY	The Boomsday Project	
 GLOBAL_CARD_SET_BOOMSDAY_SEARCHABLE_SHORTHAND_NAMES	bd tbp bdp tbdp bp	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_BOOMSDAY_SHORT	Boomsday	
@@ -756,6 +759,8 @@ GLOBAL_KEYWORD_BACON_CHROMADRAKE	โครมาเดรค
 GLOBAL_KEYWORD_BACON_CHROMADRAKE_TEXT	หนึ่งในมังกรห้าตัวที่มี[b]คำรามสู้ศึกแตกต่างกัน	
 GLOBAL_KEYWORD_BACON_CONSUME	กิน	
 GLOBAL_KEYWORD_BACON_CONSUME_TEXT	นำมินเนี่ยนออก[b]หนึ่งตัวเพื่อได้รับ[b]ค่าพลังของมัน	
+GLOBAL_KEYWORD_BACON_DEITY	เทพ	
+GLOBAL_KEYWORD_BACON_DEITY_TEXT	หลังจากอสูรวิปริตฝ่ายคุณตาย 3_ตัวในการต่อสู้แต่ละรอบ ปลุก{2} {0}/{1}	
 GLOBAL_KEYWORD_BACON_DISCOUNTED	ลดราคา	
 GLOBAL_KEYWORD_BACON_DISCOUNTED_TEXT	เครื่องประดับชิ้นนี้มีราคาลดลง (1)	
 GLOBAL_KEYWORD_BACON_ELEMENTAL_BONUS	โบนัสวิญญาณธาตุ	
@@ -979,12 +984,14 @@ GLOBAL_KEYWORD_MINIATURIZE_TEXT	รับก๊อปปี้ 1/1 ค่าร�
 GLOBAL_KEYWORD_MINION_TYPE_REFERENCE	ประเภทมินเนี่ยน	
 GLOBAL_KEYWORD_MINION_TYPE_REFERENCE_TEXT	สัตว์ ปีศาจ มังกร เครื่องจักร เมอร์ล็อค โจรสลัด และโทเท็ม	
 GLOBAL_KEYWORD_MODULAR	แม่เหล็ก	
-GLOBAL_KEYWORD_MODULAR_TEXT	เล่นมินเนี่ยนตัวนี้[b]ทางซ้ายของเครื่องจักร[b]เพื่อรวมร่างพวกมัน!	
+GLOBAL_KEYWORD_MODULAR_TEXT	เล่นทางซ้ายของ[b]เครื่องจักรในสนาม[b]เพื่อรวมร่าง	
 GLOBAL_KEYWORD_MULTICLASS	มัลติคลาส ({0})	Argument is number of classes the card can be used in (ex: 4)
 GLOBAL_KEYWORD_MULTICLASS_SEARCH_TOKEN	มัลติคลาส	
 GLOBAL_KEYWORD_MULTICLASS_TEXT	สามารถใช้ได้กับ{0}	Argument is a comma separated list of classes the card can be used in
 GLOBAL_KEYWORD_OFFHAND	อาวุธรอง	
 GLOBAL_KEYWORD_OFFHAND_TEXT	ไม่ถูกทำลาย รับผลพิเศษไม่ได้	
+GLOBAL_KEYWORD_OLDGOD	เทพโบราณ	
+GLOBAL_KEYWORD_OLDGOD_TEXT	ใช้ความสามารถ 2 ใน 4_อย่างแทนการโจมตี <i>จำกัด <b>เทพโบราณ</b> เด็คละหนึ่งใบ</i>	
 GLOBAL_KEYWORD_OUTCAST	ผ่าเหล่า	
 GLOBAL_KEYWORD_OUTCAST_TEXT	เล่นการ์ดนี้ขณะอยู่ซ้ายสุด[b]หรือขวาสุดในมือ[b]เพื่อรับโบนัส	
 GLOBAL_KEYWORD_OVERHEAL	ฟื้นฟูเกิน	
@@ -1222,6 +1229,10 @@ GLOBAL_KEYWORD_ZERG_MULTI_TEXT	การ์ดนี้เป็นของฝ�
 GLOBAL_KEYWORD_ZERG_TEXT	การ์ดนี้เป็นของฝ่ายเซิร์ก	
 GLOBAL_LANGUAGE_CHANGE_CONFIRM_MESSAGE	การดำเนินการนี้จะทำให้กิจกรรมปัจจุบันของคุณหยุดชะงักลง แน่ใจแล้วหรือไม่	
 GLOBAL_LANGUAGE_CHANGE_CONFIRM_TITLE	เปลี่ยนภาษาหรือไม่	
+GLOBAL_LANGUAGE_CHANGE_CONFIRM_WITH_SIZE_MESSAGE	ต้องดาวน์โหลดข้อมูลประมาณ {0} เพื่อเปลี่ยนภาษา ดำเนินการต่อหรือไม่	
+GLOBAL_LANGUAGE_CHANGE_CONFIRM_WITHOUT_SIZE_MESSAGE	คุณต้องการเปลี่ยนภาษาของเกมคุณหรือไม่ ไฟล์ที่จำเป็นอยู่ในอุปกรณ์ของคุณอยู่แล้ว	
+GLOBAL_LANGUAGE_CHANGE_DELETE_AND_DOWNLOAD	แทนที่	
+GLOBAL_LANGUAGE_CHANGE_DELETE_OLD_MESSAGE	คุณต้องดาวน์โหลดข้อมูลภาษาใหม่ {0} แต่คุณมีพื้นที่ว่างเพียง {1} คุณจะมีพื้นที่ว่างเพียงพอหากคุณลบภาษาปัจจุบันที่คุณใช้ ({2}) ต้องการลบภาษาปัจจุบันและดาวน์โหลดภาษาใหม่หรือไม่	
 GLOBAL_LANGUAGE_CHANGE_OUT_OF_SPACE_MESSAGE	คุณต้องมีพื้นที่ว่าง {0} ในอุปกรณ์เพื่อดำเนินการต่อ	
 GLOBAL_LANGUAGE_CHANGE_OUT_OF_SPACE_TITLE	พื้นที่ว่างไม่พอ!	
 GLOBAL_LANGUAGE_DROPDOWN	ภาษา	
@@ -1479,6 +1490,8 @@ GLOBAL_PROGRESSION_WEEKLY_QUESTS_POPUP_TITLE	เควสต์ประจำ�
 GLOBAL_PVPDR_SEASON_ERROR_NOT_ACTIVE	ขออภัย หมดช่วงเวลาของฤดูกาลดวลเดือดที่ร้องขอแล้ว โปรดลองอีกครั้งภายหลัง	
 GLOBAL_QUEST_PROGRESS_COUNT	{0}/{1}	0=progress,1=max progress
 GLOBAL_QUIT	ออกจากเกม	
+GLOBAL_RACE_ABERRATION	อสูรวิปริต	
+GLOBAL_RACE_ABERRATION_BATTLEGROUNDS	อสูรวิปริต	
 GLOBAL_RACE_ALL	ทุกอย่าง	
 GLOBAL_RACE_ALL_BATTLEGROUNDS	อะมัลกัม	This should be the plural of DAL_087t
 GLOBAL_RACE_BLOODELF	บลัดเอลฟ์	

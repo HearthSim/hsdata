@@ -161,6 +161,9 @@ GLOBAL_CARD_SET_BAR	貧瘠之地
 GLOBAL_CARD_SET_BAR_SEARCHABLE_SHORTHAND_NAMES	貧瘠 貧 瘠	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_BAR_SHORT	貧瘠之地	
 GLOBAL_CARD_SET_BASIC	基本	
+GLOBAL_CARD_SET_BE	黑暗帝國霸業	
+GLOBAL_CARD_SET_BE_SEARCHABLE_SHORTHAND_NAMES	evh esc	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_BE_SHORT	黑暗帝國	
 GLOBAL_CARD_SET_BOOMSDAY	爆爆計畫	
 GLOBAL_CARD_SET_BOOMSDAY_SEARCHABLE_SHORTHAND_NAMES	爆爆 爆爆計畫 爆爆末日	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_BOOMSDAY_SHORT	爆爆計畫	
@@ -756,6 +759,8 @@ GLOBAL_KEYWORD_BACON_CHROMADRAKE	炫彩龍
 GLOBAL_KEYWORD_BACON_CHROMADRAKE_TEXT	五種龍類的其中一種，具有各種戰吼效果。	
 GLOBAL_KEYWORD_BACON_CONSUME	吞噬	
 GLOBAL_KEYWORD_BACON_CONSUME_TEXT	移除一名手下以獲得其體質。	
+GLOBAL_KEYWORD_BACON_DEITY	神	
+GLOBAL_KEYWORD_BACON_DEITY_TEXT	每場戰鬥中有3個友方變異怪死亡後，喚醒一個{0}/{1}的{2}。	
 GLOBAL_KEYWORD_BACON_DISCOUNTED	特價	
 GLOBAL_KEYWORD_BACON_DISCOUNTED_TEXT	此飾品的花費比平常減少(1)	
 GLOBAL_KEYWORD_BACON_ELEMENTAL_BONUS	元素加成	
@@ -979,12 +984,14 @@ GLOBAL_KEYWORD_MINIATURIZE_TEXT	獲得一張消耗為1的此卡牌1/1複製品�
 GLOBAL_KEYWORD_MINION_TYPE_REFERENCE	手下類型	
 GLOBAL_KEYWORD_MINION_TYPE_REFERENCE_TEXT	野獸、惡魔、龍類、機械、魚人、海盜與圖騰。	
 GLOBAL_KEYWORD_MODULAR	合體	
-GLOBAL_KEYWORD_MODULAR_TEXT	將它打在機械的左方可使兩者合體！	
+GLOBAL_KEYWORD_MODULAR_TEXT	打出並放置於機械手下的左邊時，可與其融合。	
 GLOBAL_KEYWORD_MULTICLASS	多職業（{0}）	Argument is number of classes the card can be used in (ex: 4)
 GLOBAL_KEYWORD_MULTICLASS_SEARCH_TOKEN	多職業	
 GLOBAL_KEYWORD_MULTICLASS_TEXT	可以在{0}使用	Argument is a comma separated list of classes the card can be used in
 GLOBAL_KEYWORD_OFFHAND	副手	
 GLOBAL_KEYWORD_OFFHAND_TEXT	永不毀損。無法附魔。	
+GLOBAL_KEYWORD_OLDGOD	古神	
+GLOBAL_KEYWORD_OLDGOD_TEXT	無法進行攻擊，改為使用4種技能中的2種。每副套牌中只能有<i>一張<b>古神</b>。</i>	
 GLOBAL_KEYWORD_OUTCAST	流放	
 GLOBAL_KEYWORD_OUTCAST_TEXT	若其為手中最左邊或最右邊的牌，打出時獲得額外效果。	
 GLOBAL_KEYWORD_OVERHEAL	溢療	
@@ -1222,6 +1229,10 @@ GLOBAL_KEYWORD_ZERG_MULTI_TEXT	這張牌隸屬於蟲族陣營，有{0}個職業�
 GLOBAL_KEYWORD_ZERG_TEXT	這張牌隸屬於蟲族陣營。	
 GLOBAL_LANGUAGE_CHANGE_CONFIRM_MESSAGE	你正在進行的活動會中斷。你確定嗎？	
 GLOBAL_LANGUAGE_CHANGE_CONFIRM_TITLE	變更語言？	
+GLOBAL_LANGUAGE_CHANGE_CONFIRM_WITH_SIZE_MESSAGE	變更語言需要下載約{0}。是否繼續？	
+GLOBAL_LANGUAGE_CHANGE_CONFIRM_WITHOUT_SIZE_MESSAGE	你想要更換語言嗎？你的裝置上己擁有必要的檔案。	
+GLOBAL_LANGUAGE_CHANGE_DELETE_AND_DOWNLOAD	替換	
+GLOBAL_LANGUAGE_CHANGE_DELETE_OLD_MESSAGE	下載新的語言需要{0}，但你的剩餘空間僅剩{1}。移除目前的語言({2})即可釋出足夠空間。是否要移除並下載新的語言？	
 GLOBAL_LANGUAGE_CHANGE_OUT_OF_SPACE_MESSAGE	你的裝置需要 {0} 的空間才能繼續。	
 GLOBAL_LANGUAGE_CHANGE_OUT_OF_SPACE_TITLE	儲存空間不足！	
 GLOBAL_LANGUAGE_DROPDOWN	語言	
@@ -1479,6 +1490,8 @@ GLOBAL_PROGRESSION_WEEKLY_QUESTS_POPUP_TITLE	你的每週任務
 GLOBAL_PVPDR_SEASON_ERROR_NOT_ACTIVE	抱歉。你所指定的決鬥擂台賽季已不存在。請稍後再試。	
 GLOBAL_QUEST_PROGRESS_COUNT	{0}/{1}	0=progress,1=max progress
 GLOBAL_QUIT	退出	
+GLOBAL_RACE_ABERRATION	變異怪	
+GLOBAL_RACE_ABERRATION_BATTLEGROUNDS	變異怪	
 GLOBAL_RACE_ALL	全部	
 GLOBAL_RACE_ALL_BATTLEGROUNDS	聚合體	This should be the plural of DAL_087t
 GLOBAL_RACE_BLOODELF	血精靈	

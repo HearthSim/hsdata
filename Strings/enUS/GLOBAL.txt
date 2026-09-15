@@ -215,6 +215,9 @@ GLOBAL_CARD_SET_CATA_SEARCHABLE_SHORTHAND_NAMES	cata	This is a space-separated l
 GLOBAL_CARD_SET_JAIL	Escape from Violet Hold
 GLOBAL_CARD_SET_JAIL_SHORT	Violet Hold
 GLOBAL_CARD_SET_JAIL_SEARCHABLE_SHORTHAND_NAMES	evh esc	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_BE	Reign of the Black Empire
+GLOBAL_CARD_SET_BE_SHORT	Black Empire
+GLOBAL_CARD_SET_BE_SEARCHABLE_SHORTHAND_NAMES	evh esc	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_MINI_SET_DMF	Darkmoon Races
 GLOBAL_MINI_SET_BAR	Wailing Caverns
 GLOBAL_MINI_SET_SW	Deadmines
@@ -299,7 +302,7 @@ GLOBAL_KEYWORD_RUSH_TEXT_MERC	Attacks immediately after being summoned.
 GLOBAL_KEYWORD_EVILZUG	Lackey
 GLOBAL_KEYWORD_EVILZUG_TEXT	Lackeys are 1-Cost minions with Battlecries.
 GLOBAL_KEYWORD_MODULAR	Magnetic
-GLOBAL_KEYWORD_MODULAR_TEXT	Play this to the left of a Mech to fuse them together!
+GLOBAL_KEYWORD_MODULAR_TEXT	Fuses together with a Mech when played to the left of it.
 GLOBAL_KEYWORD_OVERKILL	Overkill
 GLOBAL_KEYWORD_OVERKILL_TEXT	Deal excess damage on your turn for a bonus.
 GLOBAL_KEYWORD_DIVINE_SHIELD	Divine Shield
@@ -625,6 +628,7 @@ GLOBAL_RACE_GNOLL	Gnoll
 GLOBAL_RACE_GOLEM	Golem
 GLOBAL_RACE_HARPY	Harpy
 GLOBAL_RACE_VULPERA	Vulpera
+GLOBAL_RACE_ABERRATION	Aberration
 GLOBAL_RACE_ALL_BATTLEGROUNDS	Amalgams	This should be the plural of DAL_087t
 GLOBAL_RACE_BLOODELF_BATTLEGROUNDS	Blood Elves
 GLOBAL_RACE_DEMON_BATTLEGROUNDS	Demons
@@ -652,6 +656,7 @@ GLOBAL_RACE_UNDEAD_BATTLEGROUNDS	Undead
 GLOBAL_RACE_WORGEN_BATTLEGROUNDS	Worgen
 GLOBAL_RACE_EGG_BATTLEGROUNDS	Eggs
 GLOBAL_RACE_QUILBOARS_BATTLEGROUNDS	Quilboar
+GLOBAL_RACE_ABERRATION_BATTLEGROUNDS	Aberrations
 GLOBAL_RACE_MIXED_BATTLEGROUNDS	Mixed Minions
 GLOBAL_RACE_LOCK	Lock
 GLOBAL_RACE_MULTILINE_DELIMITER	{0} / {1}
@@ -1404,6 +1409,10 @@ GLOBAL_LANGUAGE_CHANGE_CONFIRM_MESSAGE	This will interrupt your current activity
 GLOBAL_LOGIN_CONFIRM_MESSAGE	You will lose your current progress. Are you sure?
 GLOBAL_LANGUAGE_CHANGE_OUT_OF_SPACE_TITLE	Not enough space!
 GLOBAL_LANGUAGE_CHANGE_OUT_OF_SPACE_MESSAGE	You need {0} of free space on your device to continue.
+GLOBAL_LANGUAGE_CHANGE_CONFIRM_WITH_SIZE_MESSAGE	Changing the language requires downloading approximately {0}. Continue?
+GLOBAL_LANGUAGE_CHANGE_CONFIRM_WITHOUT_SIZE_MESSAGE	Would you like to change your language? The necessary files are already available on your device.
+GLOBAL_LANGUAGE_CHANGE_DELETE_OLD_MESSAGE	Downloading the new language requires {0}, but you only have {1} of free space. Removing your current language ({2}) would free up enough space. Remove it and download the new language?
+GLOBAL_LANGUAGE_CHANGE_DELETE_AND_DOWNLOAD	Replace
 GLOBAL_LOGOUT_CONFIRM_MESSAGE	Are you sure?
 GLOBAL_LANGUAGE_NATIVE_DEDE	Deutsch	The name of the language IN THAT LANGUAGE.
 GLOBAL_LANGUAGE_NATIVE_ENUS	English	The name of the language IN THAT LANGUAGE.
@@ -1791,6 +1800,8 @@ GLOBAL_KEYWORD_HERALD_DEATH_KNIGHT_TEXT	Summon Onyxia's appendage as a soldier. 
 GLOBAL_KEYWORD_HERALD_WARLOCK_TEXT	Summon Cho'gall's appendage as a soldier. Upgrade them every 2 Heralds.
 GLOBAL_KEYWORD_SHATTERED	Shattered
 GLOBAL_KEYWORD_SHATTERED_TEXT	Recombines with its other half when adjacent in hand.
+GLOBAL_KEYWORD_OLDGOD	Old God
+GLOBAL_KEYWORD_OLDGOD_TEXT	Instead of attacking, use 2 of 4 abilities. <i>One <b>Old God</b> per deck.</i>
 GLOBAL_KEYWORD_PROVOKE	Provoke
 GLOBAL_KEYWORD_PROVOKE_TEXT	The first time this is attacked each combat, do something first.
 GLOBAL_KEYWORD_BACON_FODDER_COUNT	Fodders in Refresh
@@ -1803,6 +1814,8 @@ GLOBAL_KEYWORD_PREPARING	Preparing
 GLOBAL_KEYWORD_PREPARING_TEXT	Spent {0} Mana to discount by {1}.\nLocked in hand this turn.
 GLOBAL_KEYWORD_PREPARED	Prepared
 GLOBAL_KEYWORD_PREPARED_TEXT	Spent {0} Mana to discount by {1}.
+GLOBAL_KEYWORD_BACON_DEITY	Deity
+GLOBAL_KEYWORD_BACON_DEITY_TEXT	After 3 friendly Aberrations die each combat, awaken a {0}/{1} {2}.
 GLOBAL_KEYWORD_BACON_ACTIVATE	Activate (X)
 GLOBAL_KEYWORD_BACON_ACTIVATE_TEXT	Once per turn, click to spend X Gold for an effect.
 GLOBAL_KEYWORD_BACON_ACTIVATE_TOOLTIP	Activate (X)

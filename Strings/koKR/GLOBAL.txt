@@ -161,6 +161,9 @@ GLOBAL_CARD_SET_BAR	불모의 땅
 GLOBAL_CARD_SET_BAR_SEARCHABLE_SHORTHAND_NAMES	불모	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_BAR_SHORT	불모의 땅	
 GLOBAL_CARD_SET_BASIC	기본	
+GLOBAL_CARD_SET_BE	검은 제국의 지배	
+GLOBAL_CARD_SET_BE_SEARCHABLE_SHORTHAND_NAMES	보요탈 탈출	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_BE_SHORT	검은 제국	
 GLOBAL_CARD_SET_BOOMSDAY	박사 붐의 폭심만만 프로젝트	
 GLOBAL_CARD_SET_BOOMSDAY_SEARCHABLE_SHORTHAND_NAMES	폭프 폭심 박붐 박붐폭프	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_BOOMSDAY_SHORT	폭심만만	
@@ -756,6 +759,8 @@ GLOBAL_KEYWORD_BACON_CHROMADRAKE	오색비룡
 GLOBAL_KEYWORD_BACON_CHROMADRAKE_TEXT	다양한 전투의 함성을 가진 용족 다섯 중 하나입니다.	
 GLOBAL_KEYWORD_BACON_CONSUME	잡아먹기	
 GLOBAL_KEYWORD_BACON_CONSUME_TEXT	하수인을 제거하고 그 하수인의 능력치를 얻습니다.	
+GLOBAL_KEYWORD_BACON_DEITY	신	
+GLOBAL_KEYWORD_BACON_DEITY_TEXT	매 전투에서 아군 돌연변이가 3마리 죽은 후, {0}/{1} {2}|1(을,를) 깨웁니다.	
 GLOBAL_KEYWORD_BACON_DISCOUNTED	할인	
 GLOBAL_KEYWORD_BACON_DISCOUNTED_TEXT	이 장신구의 비용이 평소보다 (1) 저렴합니다.	
 GLOBAL_KEYWORD_BACON_ELEMENTAL_BONUS	정령 보너스	
@@ -979,12 +984,14 @@ GLOBAL_KEYWORD_MINIATURIZE_TEXT	이 하수인을 비용이 1인 1/1 하수인으
 GLOBAL_KEYWORD_MINION_TYPE_REFERENCE	하수인 종류	
 GLOBAL_KEYWORD_MINION_TYPE_REFERENCE_TEXT	야수, 악마, 용족, 기계, 멀록, 해적, 토템	
 GLOBAL_KEYWORD_MODULAR	합체	
-GLOBAL_KEYWORD_MODULAR_TEXT	내 기계 왼쪽에 내면 합체합니다!	
+GLOBAL_KEYWORD_MODULAR_TEXT	기계의 왼쪽에 내면 결합합니다.	
 GLOBAL_KEYWORD_MULTICLASS	다중 직업 ({0})	Argument is number of classes the card can be used in (ex: 4)
 GLOBAL_KEYWORD_MULTICLASS_SEARCH_TOKEN	다중 직업	
 GLOBAL_KEYWORD_MULTICLASS_TEXT	{0}일 때 사용할 수 있습니다.	Argument is a comma separated list of classes the card can be used in
 GLOBAL_KEYWORD_OFFHAND	보조장비	
 GLOBAL_KEYWORD_OFFHAND_TEXT	파괴 불가. 강화할 수 없음.	
+GLOBAL_KEYWORD_OLDGOD	고대 신	
+GLOBAL_KEYWORD_OLDGOD_TEXT	공격하는 대신, 4개의 능력 중 2개를 사용합니다. <i><b>고대 신</b>은 덱에 하나만 넣을 수 있습니다.</i>	
 GLOBAL_KEYWORD_OUTCAST	추방자	
 GLOBAL_KEYWORD_OUTCAST_TEXT	손에서 가장 왼쪽 또는 오른쪽에 있으면 추가 효과를 냅니다.	
 GLOBAL_KEYWORD_OVERHEAL	초과 치유	
@@ -1222,6 +1229,10 @@ GLOBAL_KEYWORD_ZERG_MULTI_TEXT	이 카드는 저그 진영에 속하며, {0} 직
 GLOBAL_KEYWORD_ZERG_TEXT	이 카드는 저그 진영에 속합니다.	
 GLOBAL_LANGUAGE_CHANGE_CONFIRM_MESSAGE	현재 진행 중인 활동이 중단됩니다. 계속하시겠습니까?	
 GLOBAL_LANGUAGE_CHANGE_CONFIRM_TITLE	언어를 변경하시겠습니까?	
+GLOBAL_LANGUAGE_CHANGE_CONFIRM_WITH_SIZE_MESSAGE	언어를 변경하면 약 {0}를 다운로드해야 합니다. 정말 변경하시겠습니까?	
+GLOBAL_LANGUAGE_CHANGE_CONFIRM_WITHOUT_SIZE_MESSAGE	언어를 변경하시겠습니까? 필요한 파일들은 이미 기기에 준비되어 있습니다.	
+GLOBAL_LANGUAGE_CHANGE_DELETE_AND_DOWNLOAD	교체	
+GLOBAL_LANGUAGE_CHANGE_DELETE_OLD_MESSAGE	새로운 언어를 다운로드하려면 {0}가 필요한데, 여유 공간이 {1}밖에 없습니다. 현재 언어({2})를 삭제하면 공간이 확보됩니다. 현재 언어를 삭제하고 새로운 언어를 다운로드할까요?	
 GLOBAL_LANGUAGE_CHANGE_OUT_OF_SPACE_MESSAGE	기기에 {0} 이상의 용량이 필요합니다.	
 GLOBAL_LANGUAGE_CHANGE_OUT_OF_SPACE_TITLE	용량이 부족합니다!	
 GLOBAL_LANGUAGE_DROPDOWN	언어	
@@ -1479,6 +1490,8 @@ GLOBAL_PROGRESSION_WEEKLY_QUESTS_POPUP_TITLE	내 주간 퀘스트
 GLOBAL_PVPDR_SEASON_ERROR_NOT_ACTIVE	죄송합니다. 요청하신 결투 시즌에서 현재 게임을 할 수 없습니다. 나중에 다시 시도해 주세요.	
 GLOBAL_QUEST_PROGRESS_COUNT	{0}/{1}	0=progress,1=max progress
 GLOBAL_QUIT	종료	
+GLOBAL_RACE_ABERRATION	돌연변이	
+GLOBAL_RACE_ABERRATION_BATTLEGROUNDS	돌연변이	
 GLOBAL_RACE_ALL	모두	
 GLOBAL_RACE_ALL_BATTLEGROUNDS	융합체	This should be the plural of DAL_087t
 GLOBAL_RACE_BLOODELF	블러드 엘프	
